@@ -171,7 +171,7 @@ export default function App() {
     <div className="app">
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
-          <div className="logo">
+          <div className="logo" onClick={() => { setSelectedCity(null); setStories([]) }} style={{cursor:'pointer'}}>
             <img className="logo__img" src="/logo.png" alt="Layered City" />
             <div className="logo__text-block">
               <div className="logo__title">The internet's best content about places in Europe</div>

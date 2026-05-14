@@ -13,7 +13,7 @@ export default function MapboxMap({ city, stories }) {
   const markerElemsRef = useRef([])
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
-  const flyStartRef = useRef(null)
+  const citySelectedAtRef = useRef(null)
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -30,11 +30,11 @@ export default function MapboxMap({ city, stories }) {
 
   useEffect(() => {
     if (!mapRef.current || !city || !city.coordinates) return
+    citySelectedAtRef.current = Date.now()
     clearTimeout(flyTimerRef.current)
     flyTimerRef.current = setTimeout(() => {
       if (!mapRef.current) return
       mapRef.current.resize()
-      flyStartRef.current = Date.now()
       mapRef.current.flyTo({
         center: [city.coordinates.lon, city.coordinates.lat],
         zoom: 12,
@@ -82,9 +82,9 @@ export default function MapboxMap({ city, stories }) {
         markerElemsRef.current.push(el)
       })
 
-      // Reveal pins in the last 500ms of the fly animation
-      const elapsed = flyStartRef.current ? Date.now() - flyStartRef.current : FLY_DURATION
-      const revealDelay = Math.max(0, PANEL_TRANSITION + FLY_DURATION - 500 - elapsed)
+      // Reveal pins in the last 500ms of the full animation (panel transition + fly)
+      const animEnd = (citySelectedAtRef.current || 0) + PANEL_TRANSITION + FLY_DURATION
+      const revealDelay = Math.max(0, animEnd - 500 - Date.now())
       revealTimerRef.current = setTimeout(() => {
         const elems = markerElemsRef.current
         elems.forEach(el => {
