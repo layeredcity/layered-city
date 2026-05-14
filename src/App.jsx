@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, useMemo } from 'react'
 import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import MapboxMap from './components/MapboxMap'
@@ -148,9 +148,12 @@ export default function App() {
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
 
-  const filteredStories = stories
-    .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
-    .sort((a, b) => (b.qualityRating || 0) - (a.qualityRating || 0))
+  const filteredStories = useMemo(() =>
+    stories
+      .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
+      .sort((a, b) => (b.qualityRating || 0) - (a.qualityRating || 0)),
+    [stories, currentFilter]
+  )
 
   const hasStories = (filter) =>
     stories.some(s => filter.types.includes((s.mediaType || '').toLowerCase()))
