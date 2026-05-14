@@ -102,19 +102,32 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
     const addCityMarkers = () => {
       cities.forEach(c => {
         if (!c.coordinates) return
-        const el = document.createElement('div')
-        if (c.heroImage) {
-          el.style.cssText = `width:48px;height:48px;border-radius:50%;background-image:url(${c.heroImage}?w=96&h=96&fit=fill);background-size:cover;background-position:center;border:2.5px solid white;box-shadow:0 2px 10px rgba(0,0,0,0.3);cursor:pointer;opacity:0;transition:opacity 0.4s ease;`
-        } else {
-          el.style.cssText = `width:48px;height:48px;border-radius:50%;background:#153B8F;border:2.5px solid white;box-shadow:0 2px 10px rgba(0,0,0,0.3);cursor:pointer;display:flex;align-items:center;justify-content:center;color:white;font-size:15px;font-weight:700;font-family:sans-serif;opacity:0;transition:opacity 0.4s ease;`
-          el.textContent = c.name.slice(0, 1)
-        }
-        el.addEventListener('click', () => onCityClick?.(c))
-        const marker = new mapboxgl.Marker(el)
+
+        // Wrapper: Mapbox sets transform here for positioning
+        const wrapper = document.createElement('div')
+        wrapper.style.cssText = 'width:48px;height:48px;'
+
+        // Inner: we control visuals + hover transitions here
+        const inner = document.createElement('div')
+        inner.className = 'city-marker'
+        if (c.heroImage) inner.style.backgroundImage = `url(${c.heroImage}?w=96&h=96&fit=fill)`
+        else inner.style.backgroundColor = '#153B8F'
+
+        const overlay = document.createElement('div')
+        overlay.className = 'city-marker__overlay'
+        const nameEl = document.createElement('span')
+        nameEl.className = 'city-marker__name'
+        nameEl.textContent = c.name
+        overlay.appendChild(nameEl)
+        inner.appendChild(overlay)
+        wrapper.appendChild(inner)
+        wrapper.addEventListener('click', () => onCityClick?.(c))
+
+        const marker = new mapboxgl.Marker(wrapper)
           .setLngLat([c.coordinates.lon, c.coordinates.lat])
           .addTo(map)
         cityMarkersRef.current.push(marker)
-        setTimeout(() => { el.style.opacity = '1' }, 200 + Math.random() * 600)
+        setTimeout(() => { inner.style.opacity = '1' }, 200 + Math.random() * 600)
       })
     }
 
