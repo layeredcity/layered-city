@@ -81,7 +81,7 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
       ))}
       {city.quote && (
         <div className="city-quote">
-          <div className="city-quote__text">"{city.quote}"</div>
+          <div className="city-quote__text">“{city.quote}”</div>
           {city.quoteAttribution && (
             <div className="city-quote__attribution">{city.quoteAttribution}</div>
           )}
