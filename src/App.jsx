@@ -146,10 +146,9 @@ export default function App() {
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
 
-  const filteredStories = stories.filter(s => {
-    const t = (s.mediaType || '').toLowerCase()
-    return currentFilter.types.includes(t)
-  })
+  const filteredStories = stories
+    .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
+    .sort((a, b) => (b.qualityRating || 0) - (a.qualityRating || 0))
 
   const hasStories = (filter) =>
     stories.some(s => filter.types.includes((s.mediaType || '').toLowerCase()))
