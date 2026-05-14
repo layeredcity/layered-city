@@ -26,7 +26,7 @@ export default function MapboxMap({ city, stories }) {
     mapRef.current.flyTo({
       center: [city.coordinates.lon, city.coordinates.lat],
       zoom: 12,
-      duration: 7000,
+      duration: 4500,
       essential: true,
       easing: t => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2,
     })
