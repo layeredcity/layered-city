@@ -3,28 +3,35 @@ import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import MapboxMap from './components/MapboxMap'
 
-const MEDIA_FILTERS = ['All', 'Podcast', 'Video', 'Audio tour', 'Book', 'Movie']
+const FILTERS = [
+  { label: 'Podcast',      types: ['podcast'] },
+  { label: 'Video',        types: ['video'] },
+  { label: 'Audio tour',   types: ['audiotour'] },
+  { label: 'Movies & TV',  types: ['movie', 'tv'] },
+  { label: 'Books',        types: ['book'] },
+]
 
 function mediaTypeLabel(type) {
   if (!type) return 'Story'
   const t = type.toLowerCase()
-  if (t.includes('podcast')) return 'Podcast'
-  if (t.includes('video') || t.includes('short')) return 'Video'
-  if (t.includes('audio tour') || t.includes('audio_tour')) return 'Audio tour'
-  if (t.includes('book')) return 'Book'
-  if (t.includes('movie') || t.includes('film')) return 'Movie'
+  if (t === 'podcast') return 'Podcast'
+  if (t === 'video') return 'Video'
+  if (t === 'audiotour') return 'Audio tour'
+  if (t === 'movie') return 'Movie'
+  if (t === 'tv') return 'TV'
+  if (t === 'book') return 'Book'
   return type
 }
 
 function mediaTypeEmoji(type) {
-  if (!type) return 'X'
+  if (!type) return '?'
   const t = type.toLowerCase()
-  if (t.includes('podcast')) return 'POD'
-  if (t.includes('video')) return 'VID'
-  if (t.includes('book')) return 'BK'
-  if (t.includes('audio')) return 'AUD'
-  if (t.includes('movie') || t.includes('film')) return 'FILM'
-  return 'X'
+  if (t === 'podcast') return 'POD'
+  if (t === 'video') return 'VID'
+  if (t === 'audiotour') return 'AUD'
+  if (t === 'movie' || t === 'tv') return 'FILM'
+  if (t === 'book') return 'BK'
+  return '?'
 }
 
 function formatDuration(minutes, seconds) {
@@ -66,7 +73,7 @@ function StoryItem({ story }) {
   return (
     <div className="story-item" onClick={() => url && window.open(url, '_blank')} style={{cursor: url ? 'pointer' : 'default'}}>
       {story.channelIcon
-        ? <img className="story-item__icon" src={story.channelIcon + '?w=96&h=96&fit=fill'} alt={story.channelName} />
+        ? <img className="story-item__icon" src={story.channelIcon + '?w=112&h=112&fit=fill'} alt={story.channelName} />
         : <div className="story-item__icon--placeholder">{mediaTypeEmoji(story.mediaType)}</div>
       }
       <div className="story-item__body">
@@ -90,7 +97,7 @@ export default function App() {
   const [stories, setStories] = useState([])
   const [storiesLoading, setStoriesLoading] = useState(false)
   const [loading, setLoading] = useState(true)
-  const [filter, setFilter] = useState('All')
+  const [activeFilter, setActiveFilter] = useState('Podcast')
   const [mobileView, setMobileView] = useState('list')
   const [storyCounts, setStoryCounts] = useState({})
 
@@ -102,7 +109,7 @@ export default function App() {
 
   const selectCity = useCallback(async (city) => {
     setSelectedCity(city)
-    setFilter('All')
+    setActiveFilter('Podcast')
     setMobileView('detail')
     setStoriesLoading(true)
     try {
@@ -117,13 +124,16 @@ export default function App() {
     }
   }, [])
 
-  const filteredStories = filter === 'All'
-    ? stories
-    : stories.filter(s => mediaTypeLabel(s.mediaType).toLowerCase() === filter.toLowerCase())
+  const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
 
-  const availableFilters = MEDIA_FILTERS.filter(f =>
-    f === 'All' || stories.some(s => mediaTypeLabel(s.mediaType).toLowerCase() === f.toLowerCase())
-  )
+  const filteredStories = stories.filter(s => {
+    const t = (s.mediaType || '').toLowerCase()
+    return currentFilter.types.includes(t)
+  })
+
+  const hasStories = (filter) => {
+    return stories.some(s => filter.types.includes((s.mediaType || '').toLowerCase()))
+  }
 
   if (loading) {
     return (
@@ -154,8 +164,8 @@ export default function App() {
               onClick={() => selectCity(city)}
             >
               {city.heroImage
-                ? <img className="city-item__thumb" src={city.heroImage + '?w=88&h=88&fit=fill'} alt={city.name} />
-                : <div className="city-item__thumb city-item__thumb--placeholder">CITY</div>
+                ? <img className="city-item__thumb" src={city.heroImage + '?w=128&h=128&fit=fill'} alt={city.name} />
+                : <div className="city-item__thumb city-item__thumb--placeholder">?</div>
               }
               <div className="city-item__info">
                 <div className="city-item__name">{city.name}</div>
@@ -169,7 +179,7 @@ export default function App() {
         </div>
       </aside>
 
-      <section className={"panel-detail" + (!selectedCity ? ' panel-detail--empty' : '') + (mobileView === 'detail' ? ' panel-detail--visible' : '')}>
+      <section className={"panel-detail" + (selectedCity ? ' panel-detail--open' : '')}>
         {mobileView === 'detail' && selectedCity && (
           <div className="mobile-back" onClick={() => setMobileView('list')}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -178,16 +188,11 @@ export default function App() {
             All cities
           </div>
         )}
-        {!selectedCity ? (
-          <div className="panel-detail__empty-msg">
-            <LogoMark />
-            <p>Select a city to explore its stories</p>
-          </div>
-        ) : (
+        {selectedCity && (
           <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden'}}>
             <div className="city-hero">
               {selectedCity.heroImage
-                ? <img className="city-hero__img" src={selectedCity.heroImage + '?w=760&h=400&fit=fill'} alt={selectedCity.name} />
+                ? <img className="city-hero__img" src={selectedCity.heroImage + '?w=840&h=560&fit=fill'} alt={selectedCity.name} />
                 : <div className="city-hero__img" style={{background:'var(--border)'}} />
               }
               <div className="city-hero__overlay" />
@@ -196,29 +201,41 @@ export default function App() {
                 <div className="city-hero__country">{selectedCity.country}</div>
               </div>
             </div>
-            {availableFilters.length > 1 && (
-              <div className="detail-filters">
-                {availableFilters.map(f => (
+
+            <div className="detail-filters">
+              {FILTERS.map(f => {
+                const has = hasStories(f)
+                return (
                   <button
-                    key={f}
-                    className={"filter-chip" + (filter === f ? ' filter-chip--active' : '')}
-                    onClick={() => setFilter(f)}
-                  >{f}</button>
-                ))}
-              </div>
-            )}
-            {!storiesLoading && (
-              <div className="stories-count">
-                {filteredStories.length} {filter === 'All' ? 'stories' : filter.toLowerCase() + (filteredStories.length !== 1 ? 's' : '')}
-              </div>
-            )}
+                    key={f.label}
+                    className={"filter-chip" + (activeFilter === f.label ? ' filter-chip--active' : '') + (!has ? ' filter-chip--empty' : '')}
+                    onClick={() => has && setActiveFilter(f.label)}
+                  >{f.label}</button>
+                )
+              })}
+            </div>
+
+            <div className="stories-count">
+              {storiesLoading ? 'Loading...' : filteredStories.length + ' ' + activeFilter.toLowerCase() + (filteredStories.length !== 1 ? 's' : '')}
+            </div>
+
             <div className="stories-scroll">
               {storiesLoading ? (
-                <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)'}}>Loading stories...</div>
+                <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
               ) : filteredStories.length === 0 ? (
-                <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)'}}>No {filter.toLowerCase()} stories for {selectedCity.name} yet.</div>
+                <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
+                  No {activeFilter.toLowerCase()} content for {selectedCity.name} yet.
+                </div>
               ) : (
                 filteredStories.map(story => <StoryItem key={story.id} story={story} />)
+              )}
+              {!storiesLoading && selectedCity.quote && (
+                <div className="city-quote">
+                  <div className="city-quote__text">"{selectedCity.quote}"</div>
+                  {selectedCity.quoteAttribution && (
+                    <div className="city-quote__attribution">— {selectedCity.quoteAttribution}</div>
+                  )}
+                </div>
               )}
             </div>
           </div>
