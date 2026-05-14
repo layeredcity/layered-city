@@ -6,11 +6,12 @@ mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
-export default function MapboxMap({ city, stories, focusStory, onStoryPin, onStoryClick }) {
+export default function MapboxMap({ city, cities, stories, focusStory, onStoryPin, onStoryClick, onCityClick }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
   const markerDataRef = useRef([]) // { el, id }
+  const cityMarkersRef = useRef([])
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
   const citySelectedAtRef = useRef(null)
@@ -91,6 +92,35 @@ export default function MapboxMap({ city, stories, focusStory, onStoryPin, onSto
       easing: t => 1 - Math.pow(1 - t, 3),
     })
   }, [focusStory?.id])
+
+  useEffect(() => {
+    const map = mapRef.current
+    cityMarkersRef.current.forEach(m => m.remove())
+    cityMarkersRef.current = []
+    if (!map || city || !cities?.length) return
+
+    const addCityMarkers = () => {
+      cities.forEach(c => {
+        if (!c.coordinates) return
+        const el = document.createElement('div')
+        if (c.heroImage) {
+          el.style.cssText = `width:48px;height:48px;border-radius:50%;background-image:url(${c.heroImage}?w=96&h=96&fit=fill);background-size:cover;background-position:center;border:2.5px solid white;box-shadow:0 2px 10px rgba(0,0,0,0.3);cursor:pointer;opacity:0;transition:opacity 0.4s ease;`
+        } else {
+          el.style.cssText = `width:48px;height:48px;border-radius:50%;background:#153B8F;border:2.5px solid white;box-shadow:0 2px 10px rgba(0,0,0,0.3);cursor:pointer;display:flex;align-items:center;justify-content:center;color:white;font-size:15px;font-weight:700;font-family:sans-serif;opacity:0;transition:opacity 0.4s ease;`
+          el.textContent = c.name.slice(0, 1)
+        }
+        el.addEventListener('click', () => onCityClick?.(c))
+        const marker = new mapboxgl.Marker(el)
+          .setLngLat([c.coordinates.lon, c.coordinates.lat])
+          .addTo(map)
+        cityMarkersRef.current.push(marker)
+        setTimeout(() => { el.style.opacity = '1' }, 200 + Math.random() * 600)
+      })
+    }
+
+    if (map.loaded()) addCityMarkers()
+    else map.on('load', addCityMarkers)
+  }, [cities, city])
 
   useEffect(() => {
     if (!mapRef.current) return

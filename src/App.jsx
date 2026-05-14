@@ -400,7 +400,9 @@ export default function App() {
       <div className="panel-map">
         <MapboxMap
           city={selectedCity}
+          cities={cities}
           stories={mapStories}
+          onCityClick={selectCity}
           focusStory={selectedStory}
           onStoryClick={setSelectedStory}
           onStoryPin={pos => {
