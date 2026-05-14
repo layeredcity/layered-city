@@ -1,8 +1,8 @@
 import { createClient } from 'contentful'
 
 const client = createClient({
-  space: 'yl6hrcd616q',
-  accessToken: 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0',
+  space: import.meta.env.VITE_CONTENTFUL_SPACE,
+  accessToken: import.meta.env.VITE_CONTENTFUL_TOKEN,
 })
 
 export async function fetchCities() {

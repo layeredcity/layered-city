@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import mapboxgl from 'mapbox-gl'
 
-mapboxgl.accessToken = 'pk.eyJ1IjoibGF5ZXJlZGNpdHkiLCJhIjoiY2tienE5cjZ4MGh2ZTJ4cXF4Z2I4OXRjYyJ9.ftQfTdSQGilagh7Ic-26zw'
+mapboxgl.accessToken = 'import.meta.env.VITE_MAPBOX_TOKEN'
 
 export default function MapboxMap({ city, stories }) {
   const containerRef = useRef(null)

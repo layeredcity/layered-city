@@ -17,23 +17,27 @@ function mediaTypeLabel(type) {
 }
 
 function mediaTypeEmoji(type) {
-  if (!type) return '📍'
+  if (!type) return 'X'
   const t = type.toLowerCase()
-  if (t.includes('podcast')) return '🎙'
-  if (t.includes('video')) return '▶'
-  if (t.includes('book')) return '📖'
-  if (t.includes('audio')) return '🎧'
-  if (t.includes('movie') || t.includes('film')) return '🎬'
-  return '📍'
+  if (t.includes('podcast')) return 'POD'
+  if (t.includes('video')) return 'VID'
+  if (t.includes('book')) return 'BK'
+  if (t.includes('audio')) return 'AUD'
+  if (t.includes('movie') || t.includes('film')) return 'FILM'
+  return 'X'
 }
 
 function formatDuration(minutes, seconds) {
   if (!minutes && !seconds) return null
   const m = minutes || 0
   const s = seconds || 0
-  if (m >= 60) { const h = Math.floor(m / 60); const rem = m % 60; return rem > 0 ? `${h}h ${rem}m` : `${h}h` }
-  if (s > 0) return `${m}m ${s}s`
-  return `${m}m`
+  if (m >= 60) {
+    const h = Math.floor(m / 60)
+    const rem = m % 60
+    return rem > 0 ? h + 'h ' + rem + 'm' : h + 'h'
+  }
+  if (s > 0) return m + 'm ' + s + 's'
+  return m + 'm'
 }
 
 function LogoMark() {
@@ -49,8 +53,33 @@ function QualityDots({ rating, max = 5 }) {
   return (
     <div className="quality-dots">
       {Array.from({ length: max }).map((_, i) => (
-        <div key={i} className={`quality-dot${i < rating ? ' quality-dot--filled' : ''}`} />
+        <div key={i} className={"quality-dot" + (i < rating ? " quality-dot--filled" : "")} />
       ))}
+    </div>
+  )
+}
+
+function StoryItem({ story }) {
+  const duration = formatDuration(story.minutes, story.seconds)
+  const label = mediaTypeLabel(story.mediaType)
+  const url = story.mediaUrl || story.secondaryUrl || null
+  return (
+    <div className="story-item" onClick={() => url && window.open(url, '_blank')} style={{cursor: url ? 'pointer' : 'default'}}>
+      {story.channelIcon
+        ? <img className="story-item__icon" src={story.channelIcon + '?w=96&h=96&fit=fill'} alt={story.channelName} />
+        : <div className="story-item__icon--placeholder">{mediaTypeEmoji(story.mediaType)}</div>
+      }
+      <div className="story-item__body">
+        <div className="story-item__title">{story.title}</div>
+        <div className="story-item__meta">
+          <span className="story-item__type">{label}</span>
+          {story.channelName && (
+            <span className="story-item__source"> · {story.channelName}</span>
+          )}
+        </div>
+        <QualityDots rating={story.qualityRating} />
+      </div>
+      {duration && <span className="story-item__duration">{duration}</span>}
     </div>
   )
 }
@@ -100,14 +129,14 @@ export default function App() {
     return (
       <div className="loading-screen">
         <div className="loading-screen__logo"><LogoMark /></div>
-        <p>Loading cities…</p>
+        <p>Loading cities...</p>
       </div>
     )
   }
 
   return (
     <div className="app">
-      <aside className={`panel-cities${mobileView === 'detail' ? ' panel-cities--hidden' : ''}`}>
+      <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
           <div className="logo">
             <div className="logo__mark"><LogoMark /></div>
@@ -121,12 +150,12 @@ export default function App() {
           {cities.map(city => (
             <div
               key={city.id}
-              className={`city-item${selectedCity?.id === city.id ? ' city-item--active' : ''}`}
+              className={"city-item" + (selectedCity && selectedCity.id === city.id ? ' city-item--active' : '')}
               onClick={() => selectCity(city)}
             >
               {city.heroImage
                 ? <img className="city-item__thumb" src={city.heroImage + '?w=88&h=88&fit=fill'} alt={city.name} />
-                : <div className="city-item__thumb city-item__thumb--placeholder">🌆</div>
+                : <div className="city-item__thumb city-item__thumb--placeholder">CITY</div>
               }
               <div className="city-item__info">
                 <div className="city-item__name">{city.name}</div>
@@ -140,7 +169,7 @@ export default function App() {
         </div>
       </aside>
 
-      <section className={`panel-detail${!selectedCity ? ' panel-detail--empty' : ''}${mobileView === 'detail' ? ' panel-detail--visible' : ''}`}>
+      <section className={"panel-detail" + (!selectedCity ? ' panel-detail--empty' : '') + (mobileView === 'detail' ? ' panel-detail--visible' : '')}>
         {mobileView === 'detail' && selectedCity && (
           <div className="mobile-back" onClick={() => setMobileView('list')}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -155,11 +184,11 @@ export default function App() {
             <p>Select a city to explore its stories</p>
           </div>
         ) : (
-          <>
+          <div style={{display:'flex',flexDirection:'column',height:'100%',overflow:'hidden'}}>
             <div className="city-hero">
               {selectedCity.heroImage
                 ? <img className="city-hero__img" src={selectedCity.heroImage + '?w=760&h=400&fit=fill'} alt={selectedCity.name} />
-                : <div className="city-hero__img" style={{ background: 'var(--border)' }} />
+                : <div className="city-hero__img" style={{background:'var(--border)'}} />
               }
               <div className="city-hero__overlay" />
               <div className="city-hero__text">
@@ -172,7 +201,7 @@ export default function App() {
                 {availableFilters.map(f => (
                   <button
                     key={f}
-                    className={`filter-chip${filter === f ? ' filter-chip--active' : ''}`}
+                    className={"filter-chip" + (filter === f ? ' filter-chip--active' : '')}
                     onClick={() => setFilter(f)}
                   >{f}</button>
                 ))}
@@ -185,44 +214,14 @@ export default function App() {
             )}
             <div className="stories-scroll">
               {storiesLoading ? (
-                <div style={{ padding: '40px', textAlign: 'center', color: 'var(--ink-light)', fontStyle: 'italic', fontFamily: 'var(--font-display)' }}>Loading stories…</div>
+                <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)'}}>Loading stories...</div>
               ) : filteredStories.length === 0 ? (
-                <div style={{ padding: '40px', textAlign: 'center', color: 'var(--ink-xlight)' }}>No {filter.toLowerCase()} stories for {selectedCity.name} yet.</div>
+                <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)'}}>No {filter.toLowerCase()} stories for {selectedCity.name} yet.</div>
               ) : (
-                filteredStories.map(story => {
-                  const duration = formatDuration(story.minutes, story.seconds)
-                  const label = mediaTypeLabel(story.mediaType)
-                  return (
-                    
-                      key={story.id}
-                      className="story-item"
-                      href={story.mediaUrl || '#'}
-                      target={story.mediaUrl ? '_blank' : undefined}
-                      rel="noopener noreferrer"
-                      onClick={e => { if (!story.mediaUrl) e.preventDefault() }}
-                    >
-                      {story.channelIcon
-                        ? <img className="story-item__icon" src={story.channelIcon + '?w=96&h=96&fit=fill'} alt={story.channelName} />
-                        : <div className="story-item__icon--placeholder">{mediaTypeEmoji(story.mediaType)}</div>
-                      }
-                      <div className="story-item__body">
-                        <div className="story-item__title">{story.title}</div>
-                        <div className="story-item__meta">
-                          <span className="story-item__type">{label}</span>
-                          {story.channelName && <>
-                            <span className="story-item__dot">·</span>
-                            <span className="story-item__source">{story.channelName}</span>
-                          </>}
-                        </div>
-                        <QualityDots rating={story.qualityRating} />
-                      </div>
-                      {duration && <span className="story-item__duration">{duration}</span>}
-                    </a>
-                  )
-                })
+                filteredStories.map(story => <StoryItem key={story.id} story={story} />)
               )}
             </div>
-          </>
+          </div>
         )}
       </section>
 
