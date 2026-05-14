@@ -6,7 +6,7 @@ mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
-export default function MapboxMap({ city, stories, focusStory, onStoryPin }) {
+export default function MapboxMap({ city, stories, focusStory, onStoryPin, onStoryClick }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -118,6 +118,7 @@ export default function MapboxMap({ city, stories, focusStory, onStoryPin }) {
           el.style.cssText = 'width:32px;height:32px;border-radius:' + borderRadius + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease;'
           el.textContent = (story.mediaType || '').slice(0, 3).toUpperCase()
         }
+        el.addEventListener('click', () => onStoryClick?.(story))
         const marker = new mapboxgl.Marker(el)
           .setLngLat([lon, lat])
           .addTo(map)

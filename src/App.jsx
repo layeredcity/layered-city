@@ -316,6 +316,7 @@ export default function App() {
           city={selectedCity}
           stories={filteredStories}
           focusStory={selectedStory}
+          onStoryClick={setSelectedStory}
           onStoryPin={pos => {
             if (modalAnchorRef.current) {
               modalAnchorRef.current.style.left = (pos?.x ?? -9999) + 'px'
