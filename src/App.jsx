@@ -70,7 +70,7 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
   return (
     <div className="city-overview">
       {sections.map(({ filter, count }) => (
-        <div key={filter.label} className={"overview-item" + (count === 0 ? ' overview-item--empty' : '')} onClick={() => count > 0 && onSelectFilter(filter.label)}>
+        <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
           <div className="overview-item__icon-wrap">{TYPE_ICONS[filter.icon]}</div>
           <div className="overview-item__body">
             <div className="overview-item__label">{filter.label}</div>

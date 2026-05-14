@@ -79,19 +79,17 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .nav-slide-track--stories { transform: translateX(-50%); }
 .nav-slide-panel { width: 50%; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
 
-.city-overview { flex: 1; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-direction: column; }
+.city-overview { flex: 1; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-direction: column; background: rgb(239 246 255); }
 .city-overview::-webkit-scrollbar { width: 4px; }
 .city-overview::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-.overview-item { display: flex; align-items: center; gap: 16px; padding: 18px 20px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background var(--transition); }
-.overview-item:hover { background: var(--cream); }
+.overview-item { display: flex; align-items: center; gap: 16px; padding: 18px 20px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background var(--transition); background: rgb(239 246 255); }
+.overview-item:hover { background: #dce8f9; }
 .overview-item__icon-wrap { width: 48px; height: 48px; border-radius: 14px; background: #153B8F; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: white; }
 .overview-item__icon-wrap svg { width: 22px; height: 22px; }
 .overview-item__body { flex: 1; min-width: 0; }
 .overview-item__label { font-family: var(--font-display); font-size: 22px; color: var(--ink); line-height: 1.2; }
 .overview-item__count { font-size: 12px; color: var(--ink-light); margin-top: 2px; }
 .overview-item__arrow { width: 18px; height: 18px; color: var(--ink-xlight); flex-shrink: 0; }
-.overview-item--empty { opacity: 0.4; cursor: default; }
-.overview-item--empty .overview-item__icon-wrap { background: var(--border); }
 
 .overview-back { display: flex; align-items: center; gap: 6px; padding: 10px 16px; font-size: 13px; font-weight: 500; color: white; cursor: pointer; border-bottom: 1px solid var(--border); background: #153B8F; flex-shrink: 0; transition: background var(--transition); }
 .overview-back:hover { background: #082A74; }
