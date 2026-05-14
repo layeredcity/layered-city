@@ -8,7 +8,7 @@
   --accent: #C8412A;
   --border: #E2DDD8;
   --white: #FFFFFF;
-  --panel-city: 320px;
+  --panel-city: 270px;
   --panel-detail: 420px;
   --font-display: 'DM Serif Text', Georgia, serif;
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
@@ -22,7 +22,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .app { display: flex; height: 100dvh; overflow: hidden; }
 
 .panel-cities { width: var(--panel-city); flex-shrink: 0; background: var(--white); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; z-index: 10; }
-.panel-cities__header { padding: 16px 20px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+.panel-cities__header { padding: 16px 20px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: #FFE8EB; }
 .logo { display: flex; align-items: center; gap: 14px; }
 .logo__img { width: 80px; height: 80px; border-radius: 50%; flex-shrink: 0; object-fit: cover; }
 .logo__text-block { flex: 1; min-width: 0; }
@@ -39,8 +39,8 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-item__thumb { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.18); }
 .city-item__thumb--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; color: var(--ink-xlight); font-size: 24px; }
 .city-item__info { flex: 1; min-width: 0; }
-.city-item__name { font-family: var(--font-display); font-size: 22px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.15; }
-.city-item__country { font-size: 12px; font-weight: 600; color: var(--ink); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.06em; }
+.city-item__name { font-family: var(--font-display); font-size: 25px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; line-height: 1.15; }
+.city-item__country { font-size: 12px; font-weight: 600; color: #333; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.06em; }
 .city-item__count { font-size: 11px; font-weight: 500; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 3px; }
 
 .panel-detail { width: var(--panel-detail); flex-shrink: 0; background: var(--white); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; transform: translateX(calc(-1 * var(--panel-detail))); transition: transform var(--drawer-transition), margin-right var(--drawer-transition); margin-right: calc(-1 * var(--panel-detail)); will-change: transform; z-index: 5; box-shadow: inset -6px 0 12px -6px rgba(0,0,0,0.12); }
@@ -56,8 +56,8 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .detail-filters { display: flex; align-items: center; gap: 6px; padding: 12px 16px; border-bottom: 1px solid var(--border); flex-shrink: 0; overflow-x: auto; scrollbar-width: none; background: rgb(239 246 255); }
 .detail-filters::-webkit-scrollbar { display: none; }
 .filter-chip { flex-shrink: 0; padding: 6px 14px; border-radius: 100px; font-size: 12px; font-weight: 500; letter-spacing: 0.03em; cursor: pointer; border: 1.5px solid var(--border); background: var(--white); color: var(--ink-light); transition: all var(--transition); white-space: nowrap; font-family: var(--font-body); }
-.filter-chip:hover { border-color: var(--ink-light); color: var(--ink); }
-.filter-chip--active { background: var(--ink); border-color: var(--ink); color: var(--white); }
+.filter-chip:hover { background: #082A74; border-color: #082A74; color: var(--white); }
+.filter-chip--active { background: #153B8F; border-color: #153B8F; color: var(--white); }
 .filter-chip--empty { opacity: 0.35; cursor: default; }
 .filter-chip--empty:hover { border-color: var(--border); color: var(--ink-light); }
 
@@ -111,7 +111,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 }
 
 @media (min-width: 769px) and (max-width: 1100px) {
-  :root { --panel-city: 260px; --panel-detail: 360px; }
+  :root { --panel-city: 210px; --panel-detail: 360px; }
   .city-hero { height: 220px; }
   .city-hero__name { font-size: 44px; }
 }
