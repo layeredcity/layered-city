@@ -156,6 +156,7 @@ export default function App() {
   const [activeFilter, setActiveFilter] = useState('All')
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
+  const [storyPinPos, setStoryPinPos] = useState(null)
 
   useEffect(() => {
     fetchCities().then(async data => {
@@ -219,7 +220,7 @@ export default function App() {
     <div className={"app" + (selectedCity ? ' app--city-selected' : '')}>
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
-          <div className="logo" onClick={() => { setSelectedCity(null); setStories([]) }} style={{cursor:'pointer'}}>
+          <div className="logo" onClick={() => { setSelectedCity(null); setStories([]); setSelectedStory(null); setStoryPinPos(null) }} style={{cursor:'pointer'}}>
             <img className="logo__img" src="/logo.png" alt="Layered City" />
             <div className="logo__text-block">
               <div className="logo__title">The internet's best content about places in Europe</div>
@@ -311,8 +312,16 @@ export default function App() {
       </section>
 
       <div className="panel-map">
-        <MapboxMap city={selectedCity} stories={filteredStories} focusStory={selectedStory} />
-        {selectedStory && <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} />}
+        <MapboxMap city={selectedCity} stories={filteredStories} focusStory={selectedStory} onStoryPin={setStoryPinPos} />
+        {selectedStory && (
+          <div
+            className="story-modal-anchor"
+            style={storyPinPos ? { left: storyPinPos.x, top: storyPinPos.y } : {}}
+          >
+            <StoryModal story={selectedStory} onClose={() => { setSelectedStory(null); setStoryPinPos(null) }} />
+            <div className="story-modal-arrow" />
+          </div>
+        )}
       </div>
     </div>
   )

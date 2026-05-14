@@ -4,16 +4,17 @@ import mapboxgl from 'mapbox-gl'
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
 const FLY_DURATION = 4500
-const PANEL_TRANSITION = 520 // wait for CSS panel transition before flying
+const PANEL_TRANSITION = 520
 
-export default function MapboxMap({ city, stories, focusStory }) {
+export default function MapboxMap({ city, stories, focusStory, onStoryPin }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
-  const markerElemsRef = useRef([])
+  const markerDataRef = useRef([]) // { el, id }
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
   const citySelectedAtRef = useRef(null)
+  const movListenerRef = useRef(null)
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -45,17 +46,49 @@ export default function MapboxMap({ city, stories, focusStory }) {
     }, PANEL_TRANSITION)
   }, [city && city.id])
 
+  // Track pin position for modal anchor, dim other pins
   useEffect(() => {
-    if (!mapRef.current || !focusStory?.location) return
+    const map = mapRef.current
+    if (!map) return
+
+    // Clean up previous move listener
+    if (movListenerRef.current) {
+      map.off('move', movListenerRef.current)
+      movListenerRef.current = null
+    }
+
+    if (!focusStory?.location) {
+      onStoryPin?.(null)
+      markerDataRef.current.forEach(({ el }) => { el.style.opacity = '1' })
+      return
+    }
+
     const loc = focusStory.location
     const lon = loc.lon ?? (loc.coordinates && loc.coordinates[0])
     const lat = loc.lat ?? (loc.coordinates && loc.coordinates[1])
     if (!lon || !lat) return
-    mapRef.current.flyTo({
+
+    // Dim other markers, highlight focused one
+    markerDataRef.current.forEach(({ el, id }) => {
+      el.style.opacity = id === focusStory.id ? '1' : '0.15'
+      el.style.transform = id === focusStory.id ? 'scale(1.25)' : ''
+    })
+
+    const updatePos = () => {
+      const p = map.project([lon, lat])
+      onStoryPin?.({ x: p.x, y: p.y })
+    }
+
+    movListenerRef.current = updatePos
+    map.on('move', updatePos)
+    updatePos()
+
+    map.flyTo({
       center: [lon, lat],
       zoom: 15,
       duration: 1200,
       essential: true,
+      padding: { top: 340, bottom: 60, left: 60, right: 60 },
       easing: t => 1 - Math.pow(1 - t, 3),
     })
   }, [focusStory?.id])
@@ -64,7 +97,7 @@ export default function MapboxMap({ city, stories, focusStory }) {
     if (!mapRef.current) return
     markersRef.current.forEach(m => m.remove())
     markersRef.current = []
-    markerElemsRef.current = []
+    markerDataRef.current = []
     clearTimeout(revealTimerRef.current)
 
     if (!stories || !stories.length) return
@@ -81,28 +114,22 @@ export default function MapboxMap({ city, stories, focusStory }) {
         const borderRadius = isVideo ? '50%' : '10px'
         const el = document.createElement('div')
         if (story.channelIcon) {
-          el.style.cssText = 'width:36px;height:36px;border-radius:' + borderRadius + ';background-image:url(' + story.channelIcon + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease;'
+          el.style.cssText = 'width:36px;height:36px;border-radius:' + borderRadius + ';background-image:url(' + story.channelIcon + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease,transform 0.2s ease;'
         } else {
-          el.style.cssText = 'width:32px;height:32px;border-radius:' + borderRadius + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease;'
+          el.style.cssText = 'width:32px;height:32px;border-radius:' + borderRadius + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease,transform 0.2s ease;'
           el.textContent = (story.mediaType || '').slice(0, 3).toUpperCase()
         }
-        const popup = new mapboxgl.Popup({ offset: 20, maxWidth: '220px' })
-          .setHTML('<div style="font-family:IBM Plex Sans,sans-serif;padding:4px 0;"><div style="font-size:13px;font-weight:500;color:#1A1714;line-height:1.3;margin-bottom:4px;">' + story.title + '</div><div style="font-size:11px;color:#C8412A;text-transform:uppercase;letter-spacing:0.06em;">' + (story.mediaType || '') + (story.channelName ? ' · ' + story.channelName : '') + '</div></div>')
         const marker = new mapboxgl.Marker(el)
           .setLngLat([lon, lat])
-          .setPopup(popup)
           .addTo(map)
-        el.addEventListener('click', () => { if (story.mediaUrl) window.open(story.mediaUrl, '_blank') })
         markersRef.current.push(marker)
-        markerElemsRef.current.push(el)
+        markerDataRef.current.push({ el, id: story.id })
       })
 
-      // Reveal pins in the last 500ms of the full animation (panel transition + fly)
       const animEnd = (citySelectedAtRef.current || 0) + PANEL_TRANSITION + FLY_DURATION
       const revealDelay = Math.max(0, animEnd - 500 - Date.now())
       revealTimerRef.current = setTimeout(() => {
-        const elems = markerElemsRef.current
-        elems.forEach(el => {
+        markerDataRef.current.forEach(({ el }) => {
           setTimeout(() => { el.style.opacity = '1' }, Math.random() * 500)
         })
       }, revealDelay)
