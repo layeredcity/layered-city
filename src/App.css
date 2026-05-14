@@ -65,7 +65,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .filter-chip--empty { opacity: 0.35; cursor: default; }
 .filter-chip--empty:hover { border-color: var(--border); color: var(--ink-light); }
 
-.stories-count { padding: 10px 16px 8px; font-size: 11px; color: var(--ink-light); letter-spacing: 0.05em; text-transform: uppercase; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+.stories-count { padding: 10px 16px 8px; font-size: 11px; color: var(--ink-light); letter-spacing: 0.05em; text-transform: uppercase; border-bottom: 1px solid var(--border); flex-shrink: 0; background: rgb(239 246 255); }
 
 .stories-scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
 .stories-scroll::-webkit-scrollbar { width: 4px; }

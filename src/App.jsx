@@ -298,7 +298,7 @@ export default function App() {
               })}
             </div>
             <div className="stories-count">
-              {storiesLoading ? 'Loading...' : filteredStories.length + ' ' + activeFilter.toLowerCase() + (filteredStories.length !== 1 ? 's' : '')}
+              {storiesLoading ? 'Loading...' : filteredStories.length + ' ' + (activeFilter === 'All' ? (filteredStories.length !== 1 ? 'stories' : 'story') : activeFilter.toLowerCase() + (filteredStories.length !== 1 ? 's' : ''))}
             </div>
             <div className="stories-scroll">
               {storiesLoading ? (
