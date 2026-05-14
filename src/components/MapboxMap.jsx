@@ -71,7 +71,6 @@ export default function MapboxMap({ city, stories, focusStory, onStoryPin }) {
     // Dim other markers, highlight focused one
     markerDataRef.current.forEach(({ el, id }) => {
       el.style.opacity = id === focusStory.id ? '1' : '0.15'
-      el.style.transform = id === focusStory.id ? 'scale(1.25)' : ''
     })
 
     const updatePos = () => {
@@ -114,9 +113,9 @@ export default function MapboxMap({ city, stories, focusStory, onStoryPin }) {
         const borderRadius = isVideo ? '50%' : '10px'
         const el = document.createElement('div')
         if (story.channelIcon) {
-          el.style.cssText = 'width:36px;height:36px;border-radius:' + borderRadius + ';background-image:url(' + story.channelIcon + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease,transform 0.2s ease;'
+          el.style.cssText = 'width:36px;height:36px;border-radius:' + borderRadius + ';background-image:url(' + story.channelIcon + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease;'
         } else {
-          el.style.cssText = 'width:32px;height:32px;border-radius:' + borderRadius + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease,transform 0.2s ease;'
+          el.style.cssText = 'width:32px;height:32px;border-radius:' + borderRadius + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease;'
           el.textContent = (story.mediaType || '').slice(0, 3).toUpperCase()
         }
         const marker = new mapboxgl.Marker(el)
