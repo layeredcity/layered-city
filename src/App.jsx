@@ -10,8 +10,8 @@ const FILTERS = [
   { label: 'Podcast',     types: ['podcast'] },
   { label: 'Video',       types: ['video'] },
   { label: 'Audio tour',  types: ['audiotour'] },
-  { label: 'Movies & TV', types: ['movie', 'tv'] },
-  { label: 'Books',       types: ['book'] },
+  { label: 'Movies & TV', types: ['movie', 'tv'], alwaysActive: true, emptyLabel: 'movies & TV' },
+  { label: 'Books',       types: ['book'],         alwaysActive: true, emptyLabel: 'books' },
 ]
 
 function mediaTypeLabel(type) {
@@ -291,8 +291,8 @@ export default function App() {
                 return (
                   <button
                     key={f.label}
-                    className={"filter-chip" + (activeFilter === f.label ? ' filter-chip--active' : '') + (!has ? ' filter-chip--empty' : '')}
-                    onClick={() => has && setActiveFilter(f.label)}
+                    className={"filter-chip" + (activeFilter === f.label ? ' filter-chip--active' : '') + (!has && !f.alwaysActive ? ' filter-chip--empty' : '')}
+                    onClick={() => (has || f.alwaysActive) && setActiveFilter(f.label)}
                   >{f.label}</button>
                 )
               })}
@@ -305,7 +305,10 @@ export default function App() {
                 <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
               ) : filteredStories.length === 0 ? (
                 <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
-                  No {activeFilter.toLowerCase()} content for {selectedCity.name} yet.
+                  {currentFilter.emptyLabel
+                    ? <>Layered City does not yet have any {currentFilter.emptyLabel} about {selectedCity.name}.</>
+                    : <>No {activeFilter.toLowerCase()} content for {selectedCity.name} yet.</>
+                  }
                 </div>
               ) : (
                 filteredStories.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} />)
