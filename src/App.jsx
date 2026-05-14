@@ -137,7 +137,7 @@ function StoryItem({ story, onSelect }) {
         <div className="story-item__meta">
           <span className="story-item__type">{label}</span>
           {story.channelName && (
-            <span className="story-item__source"> · {story.channelName}</span>
+            <span className="story-item__source"> from {story.channelName}</span>
           )}
           {duration && (
             <span className="story-item__source"> · {duration}</span>
