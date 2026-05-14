@@ -370,17 +370,8 @@ export default function App() {
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M15 18l-6-6 6-6"/></svg>
                   All categories
                 </div>
-                <div className="detail-filters">
-                  {FILTERS.slice(1).map(f => (
-                    <button
-                      key={f.label}
-                      className={"filter-chip" + (activeFilter === f.label ? ' filter-chip--active' : '')}
-                      onClick={() => setActiveFilter(f.label)}
-                    >{f.label}</button>
-                  ))}
-                </div>
-                <div className="stories-count">
-                  {storiesLoading ? 'Loading...' : filteredStories.length + ' ' + (filteredStories.length !== 1 ? currentFilter.emptyLabel : currentFilter.singular)}
+                <div className="stories-header">
+                  <div className="stories-header__title">{currentFilter.label}</div>
                 </div>
                 <div className="stories-scroll">
                   {storiesLoading ? (
