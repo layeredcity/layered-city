@@ -42,12 +42,14 @@ function formatDuration(minutes, seconds) {
   return m + 'm'
 }
 
-function QualityDots({ rating, max = 5 }) {
+function QualityStars({ rating, max = 5 }) {
   if (!rating) return null
   return (
-    <div className="quality-dots">
+    <div className="quality-stars">
       {Array.from({ length: max }).map((_, i) => (
-        <div key={i} className={"quality-dot" + (i < rating ? " quality-dot--filled" : "")} />
+        <svg key={i} className={"quality-star" + (i < rating ? " quality-star--filled" : "")} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 2.5l2.6 5.3 5.9.9-4.3 4.1 1 5.9-5.2-2.7-5.2 2.7 1-5.9-4.3-4.1 5.9-.9z" strokeLinejoin="round" strokeLinecap="round"/>
+        </svg>
       ))}
     </div>
   )
@@ -90,7 +92,7 @@ function StoryItem({ story }) {
             <span className="story-item__source"> · {story.channelName}</span>
           )}
         </div>
-        <QualityDots rating={story.qualityRating} />
+        <QualityStars rating={story.qualityRating} />
       </div>
       {duration && <span className="story-item__duration">{duration}</span>}
     </div>
@@ -169,7 +171,7 @@ export default function App() {
           <div className="logo">
             <img className="logo__img" src="/logo.png" alt="Layered City" />
             <div className="logo__text-block">
-              <div className="logo__title">The internet's best content about Europe</div>
+              <div className="logo__title">The internet's best content about places in Europe</div>
               <div className="logo__sub">Curated and written by Ryan Nee</div>
             </div>
           </div>
