@@ -4,6 +4,7 @@ import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import MapboxMap from './components/MapboxMap'
 
 const FILTERS = [
+  { label: 'All',         types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book'] },
   { label: 'Podcast',     types: ['podcast'] },
   { label: 'Video',       types: ['video'] },
   { label: 'Audio tour',  types: ['audiotour'] },
@@ -103,7 +104,7 @@ export default function App() {
   const [stories, setStories] = useState([])
   const [storiesLoading, setStoriesLoading] = useState(false)
   const [loading, setLoading] = useState(true)
-  const [activeFilter, setActiveFilter] = useState('Podcast')
+  const [activeFilter, setActiveFilter] = useState('All')
   const [mobileView, setMobileView] = useState('list')
 
   useEffect(() => {
@@ -128,7 +129,7 @@ export default function App() {
 
   const selectCity = useCallback(async (city) => {
     setSelectedCity(city)
-    setActiveFilter('Podcast')
+    setActiveFilter('All')
     setMobileView('detail')
     setStoriesLoading(true)
     try {
