@@ -9,8 +9,8 @@
   --border: #E2DDD8;
   --white: #FFFFFF;
   --panel-city: 295px;
-  --panel-detail: 420px;
-  --font-display: 'DM Serif Text', Georgia, serif;
+  --panel-detail: 375px;
+  --font-display: 'DM Serif Display', Georgia, serif;
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
   --radius: 8px;
   --transition: 0.18s ease;
@@ -97,7 +97,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .overview-back svg { width: 16px; height: 16px; }
 @media (max-width: 768px) { .overview-back { display: none; } }
 
-.city-quote { padding: 28px 20px 32px; text-align: center; background: #153B8F; flex: 1; box-shadow: inset 0 6px 12px -4px rgba(0,0,0,0.25); }
+.city-quote { padding: 28px 44px 32px; text-align: center; background: #153B8F; flex: 1; box-shadow: inset 0 6px 12px -4px rgba(0,0,0,0.25); }
 .city-quote__text { font-family: var(--font-display); font-style: normal; font-size: 17px; color: white; line-height: 1.55; }
 .city-quote__attribution { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-top: 10px; }
 
