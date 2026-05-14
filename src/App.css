@@ -79,7 +79,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .nav-slide-track--stories { transform: translateX(-50%); }
 .nav-slide-panel { width: 50%; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
 
-.city-overview { flex: 1; overflow-y: auto; overscroll-behavior: contain; }
+.city-overview { flex: 1; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-direction: column; }
 .city-overview::-webkit-scrollbar { width: 4px; }
 .city-overview::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 .overview-item { display: flex; align-items: center; gap: 16px; padding: 18px 20px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background var(--transition); }
@@ -98,7 +98,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .overview-back svg { width: 16px; height: 16px; }
 @media (max-width: 768px) { .overview-back { display: none; } }
 
-.city-quote { padding: 28px 20px 32px; text-align: left; background: #153B8F; margin-top: 8px; }
+.city-quote { padding: 28px 20px 32px; text-align: center; background: #153B8F; margin-top: 8px; flex: 1; }
 .city-quote__text { font-family: var(--font-display); font-style: normal; font-size: 17px; color: white; line-height: 1.55; }
 .city-quote__attribution { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: rgba(255,255,255,0.6); margin-top: 10px; }
 
