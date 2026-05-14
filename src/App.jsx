@@ -7,11 +7,11 @@ const QUALITY_LABELS = ['', 'Okay', 'Good', 'Interesting', 'Great', 'Essential']
 
 const FILTERS = [
   { label: 'All',         types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book'] },
-  { label: 'Podcast',     types: ['podcast'] },
-  { label: 'Video',       types: ['video'] },
-  { label: 'Audio tour',  types: ['audiotour'] },
-  { label: 'Movies & TV', types: ['movie', 'tv'], alwaysActive: true, emptyLabel: 'movies & TV' },
-  { label: 'Books',       types: ['book'],         alwaysActive: true, emptyLabel: 'books' },
+  { label: 'Podcast',     types: ['podcast'],      emptyLabel: 'podcasts' },
+  { label: 'Video',       types: ['video'],         emptyLabel: 'videos' },
+  { label: 'Audio tour',  types: ['audiotour'],     emptyLabel: 'audio tours' },
+  { label: 'Movies & TV', types: ['movie', 'tv'],   emptyLabel: 'movies & TV' },
+  { label: 'Books',       types: ['book'],           emptyLabel: 'books' },
 ]
 
 function mediaTypeLabel(type) {
@@ -216,9 +216,6 @@ export default function App() {
     [stories, currentFilter]
   )
 
-  const hasStories = (filter) =>
-    stories.some(s => filter.types.includes((s.mediaType || '').toLowerCase()))
-
   if (loading) {
     return (
       <div className="loading-screen">
@@ -286,16 +283,13 @@ export default function App() {
               </div>
             </div>
             <div className="detail-filters">
-              {FILTERS.map(f => {
-                const has = hasStories(f)
-                return (
-                  <button
-                    key={f.label}
-                    className={"filter-chip" + (activeFilter === f.label ? ' filter-chip--active' : '') + (!has && !f.alwaysActive ? ' filter-chip--empty' : '')}
-                    onClick={() => (has || f.alwaysActive) && setActiveFilter(f.label)}
-                  >{f.label}</button>
-                )
-              })}
+              {FILTERS.map(f => (
+                <button
+                  key={f.label}
+                  className={"filter-chip" + (activeFilter === f.label ? ' filter-chip--active' : '')}
+                  onClick={() => setActiveFilter(f.label)}
+                >{f.label}</button>
+              ))}
             </div>
             <div className="stories-count">
               {storiesLoading ? 'Loading...' : filteredStories.length + ' ' + (activeFilter === 'All' ? (filteredStories.length !== 1 ? 'stories' : 'story') : activeFilter.toLowerCase() + (filteredStories.length !== 1 ? 's' : ''))}
@@ -305,10 +299,7 @@ export default function App() {
                 <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
               ) : filteredStories.length === 0 ? (
                 <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
-                  {currentFilter.emptyLabel
-                    ? <>Layered City does not yet have any {currentFilter.emptyLabel} about {selectedCity.name}.</>
-                    : <>No {activeFilter.toLowerCase()} content for {selectedCity.name} yet.</>
-                  }
+                  Layered City does not yet have any {currentFilter.emptyLabel || activeFilter.toLowerCase()} about {selectedCity.name}.
                 </div>
               ) : (
                 filteredStories.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} />)
