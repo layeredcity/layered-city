@@ -96,6 +96,7 @@ function StoryItem({ story }) {
           )}
         </div>
         <QualityStars rating={story.qualityRating} />
+      </div>
     </div>
   )
 }
