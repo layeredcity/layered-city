@@ -47,7 +47,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-item__country { font-size: 12px; font-weight: 600; color: #333; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.06em; }
 .city-item__count { font-size: 11px; font-weight: 500; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 3px; }
 
-.panel-detail { width: var(--panel-detail); flex-shrink: 0; background: var(--white); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; transform: translateX(calc(-1 * var(--panel-detail))); transition: transform var(--drawer-transition), margin-right var(--drawer-transition); margin-right: calc(-1 * var(--panel-detail)); will-change: transform; z-index: 5; box-shadow: inset -6px 0 12px -6px rgba(0,0,0,0.12); }
+.panel-detail { width: var(--panel-detail); flex-shrink: 0; background: var(--white); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; transform: translateX(calc(-1 * var(--panel-detail))); transition: transform var(--drawer-transition), margin-right var(--drawer-transition); margin-right: calc(-1 * var(--panel-detail)); will-change: transform; z-index: 5; box-shadow: inset 6px 0 12px -4px rgba(0,0,0,0.14); }
 .panel-detail--open { transform: translateX(0); margin-right: 0; }
 
 .city-hero { position: relative; height: 280px; flex-shrink: 0; overflow: hidden; }
@@ -86,7 +86,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-quote__text { font-family: var(--font-display); font-style: italic; font-size: 17px; color: var(--ink-light); line-height: 1.55; }
 .city-quote__attribution { font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-xlight); margin-top: 10px; }
 
-.panel-map { flex: 1; position: relative; min-width: 0; }
+.panel-map { flex: 1; position: relative; min-width: 0; box-shadow: inset 6px 0 16px -4px rgba(0,0,0,0.14); }
 .mapbox-map { width: 100%; height: 100%; }
 
 .story-modal-anchor { position: absolute; z-index: 20; transform: translate(-50%, calc(-100% - 14px)); pointer-events: none; max-width: 440px; width: calc(100% - 48px); }
