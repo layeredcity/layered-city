@@ -8,7 +8,7 @@
   --accent: #C8412A;
   --border: #E2DDD8;
   --white: #FFFFFF;
-  --panel-city: 270px;
+  --panel-city: 295px;
   --panel-detail: 420px;
   --font-display: 'DM Serif Text', Georgia, serif;
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
@@ -33,9 +33,9 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .panel-cities__scroll::-webkit-scrollbar { width: 4px; }
 .panel-cities__scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 
-.city-item { display: flex; align-items: center; gap: 16px; padding: 14px 20px; cursor: pointer; border-bottom: 1px solid var(--border); transition: background var(--transition); }
-.city-item:hover { background: var(--cream); }
-.city-item--active { background: var(--cream); border-left: 3px solid var(--accent); padding-left: 17px; }
+.city-item { display: flex; align-items: center; gap: 16px; padding: 14px 20px; cursor: pointer; border-bottom: 1px solid var(--border); transition: background var(--transition); background: var(--cream); }
+.city-item:hover { background: #ede9e3; }
+.city-item--active { background: var(--white); border-left: 3px solid var(--accent); padding-left: 17px; }
 .city-item__thumb { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.18); }
 .city-item__thumb--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; color: var(--ink-xlight); font-size: 24px; }
 .city-item__info { flex: 1; min-width: 0; }
@@ -77,7 +77,6 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item__meta { display: flex; align-items: center; gap: 6px; margin-top: 5px; flex-wrap: wrap; }
 .story-item__type { font-size: 11px; font-weight: 600; letter-spacing: 0.07em; text-transform: uppercase; color: var(--accent); }
 .story-item__source { font-size: 12px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.story-item__duration { font-size: 12px; color: var(--ink-xlight); flex-shrink: 0; }
 
 .city-quote { padding: 28px 20px 32px; text-align: center; border-top: 1px solid var(--border); margin-top: 8px; }
 .city-quote__text { font-family: var(--font-display); font-style: italic; font-size: 17px; color: var(--ink-light); line-height: 1.55; }

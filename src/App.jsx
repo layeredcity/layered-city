@@ -91,10 +91,11 @@ function StoryItem({ story }) {
           {story.channelName && (
             <span className="story-item__source"> · {story.channelName}</span>
           )}
+          {duration && (
+            <span className="story-item__source"> · {duration}</span>
+          )}
         </div>
         <QualityStars rating={story.qualityRating} />
-      </div>
-      {duration && <span className="story-item__duration">{duration}</span>}
     </div>
   )
 }
