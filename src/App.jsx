@@ -10,8 +10,8 @@ const FILTERS = [
   { label: 'Podcasts',    types: ['podcast'],      emptyLabel: 'podcasts',    singular: 'podcast',          icon: 'podcast',   unitSingular: 'episode',          unitPlural: 'episodes' },
   { label: 'Videos',      types: ['video'],         emptyLabel: 'videos',      singular: 'video',            icon: 'video',     unitSingular: 'video',            unitPlural: 'videos' },
   { label: 'Audio tours', types: ['audiotour'],     emptyLabel: 'audio tours', singular: 'audio tour',       icon: 'audiotour', unitSingular: 'audio tour',       unitPlural: 'audio tours' },
-  { label: 'Movies & TV', types: ['movie', 'tv'],   emptyLabel: 'movies & TV', singular: 'movie or TV show', icon: 'movietv',   unitSingular: 'movie or TV show', unitPlural: 'movies & TV shows' },
-  { label: 'Books',       types: ['book'],           emptyLabel: 'books',       singular: 'book',             icon: 'book',      unitSingular: 'book',             unitPlural: 'books' },
+  { label: 'Movies & TV', types: ['movie', 'tv'],   emptyLabel: 'movies & TV', singular: 'movie or TV show', icon: 'movietv',   unitSingular: 'movie or TV show', unitPlural: 'movies & TV shows', alwaysShow: true },
+  { label: 'Books',       types: ['book'],           emptyLabel: 'books',       singular: 'book',             icon: 'book',      unitSingular: 'book',             unitPlural: 'books',             alwaysShow: true },
 ]
 
 const TYPE_ICONS = {
@@ -66,15 +66,15 @@ function CityOverview({ stories, storiesLoading, onSelectFilter }) {
   }
   const sections = FILTERS.slice(1)
     .map(f => ({ filter: f, count: stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
-    .filter(({ count }) => count > 0)
+    .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
     <div className="city-overview">
       {sections.map(({ filter, count }) => (
-        <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
+        <div key={filter.label} className={"overview-item" + (count === 0 ? ' overview-item--empty' : '')} onClick={() => count > 0 && onSelectFilter(filter.label)}>
           <div className="overview-item__icon-wrap">{TYPE_ICONS[filter.icon]}</div>
           <div className="overview-item__body">
             <div className="overview-item__label">{filter.label}</div>
-            <div className="overview-item__count">{count} {count === 1 ? filter.unitSingular : filter.unitPlural}</div>
+            <div className="overview-item__count">{count === 0 ? 'Coming soon' : count + ' ' + (count === 1 ? filter.unitSingular : filter.unitPlural)}</div>
           </div>
           <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
         </div>
