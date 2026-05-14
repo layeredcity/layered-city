@@ -3,6 +3,24 @@ import mapboxgl from 'mapbox-gl'
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
+const SYLLABLE_BREAKS = {
+  'Amsterdam':  'Amster​dam',
+  'Copenhagen': 'Copen​hagen',
+  'Barcelona':  'Barce​lona',
+  'Edinburgh':  'Edin​burgh',
+  'Budapest':   'Buda​pest',
+  'Istanbul':   'Istan​bul',
+  'Stockholm':  'Stock​holm',
+  'Brussels':   'Brus​sels',
+  'Dubrovnik':  'Du​brov​nik',
+  'Ljubljana':  'Ljub​lja​na',
+  'Reykjavik':  'Reyk​ja​vik',
+  'Salzburg':   'Salz​burg',
+  'Lisbon':     'Lis​bon',
+  'Berlin':     'Ber​lin',
+  'Madrid':     'Mad​rid',
+}
+
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
@@ -131,7 +149,7 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
         overlay.className = 'city-marker__overlay'
         const nameEl = document.createElement('span')
         nameEl.className = 'city-marker__name'
-        nameEl.textContent = c.name
+        nameEl.textContent = SYLLABLE_BREAKS[c.name] || c.name
         overlay.appendChild(nameEl)
         inner.appendChild(overlay)
         wrapper.appendChild(inner)
