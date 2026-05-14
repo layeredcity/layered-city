@@ -328,9 +328,6 @@ export default function App() {
               <div className="city-item__info">
                 <div className="city-item__name">{city.name}</div>
                 <div className="city-item__country">{city.country}</div>
-                {storyCounts[city.id] != null && (
-                  <div className="city-item__count">{storyCounts[city.id]} stories</div>
-                )}
               </div>
               {city.heroImage
                 ? <img className="city-item__thumb" src={city.heroImage + '?w=128&h=128&fit=fill'} alt={city.name} />
