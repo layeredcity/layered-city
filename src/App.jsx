@@ -4,11 +4,11 @@ import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import MapboxMap from './components/MapboxMap'
 
 const FILTERS = [
-  { label: 'Podcast',      types: ['podcast'] },
-  { label: 'Video',        types: ['video'] },
-  { label: 'Audio tour',   types: ['audiotour'] },
-  { label: 'Movies & TV',  types: ['movie', 'tv'] },
-  { label: 'Books',        types: ['book'] },
+  { label: 'Podcast',     types: ['podcast'] },
+  { label: 'Video',       types: ['video'] },
+  { label: 'Audio tour',  types: ['audiotour'] },
+  { label: 'Movies & TV', types: ['movie', 'tv'] },
+  { label: 'Books',       types: ['book'] },
 ]
 
 function mediaTypeLabel(type) {
@@ -23,15 +23,9 @@ function mediaTypeLabel(type) {
   return type
 }
 
-function mediaTypeEmoji(type) {
-  if (!type) return '?'
-  const t = type.toLowerCase()
-  if (t === 'podcast') return 'POD'
-  if (t === 'video') return 'VID'
-  if (t === 'audiotour') return 'AUD'
-  if (t === 'movie' || t === 'tv') return 'FILM'
-  if (t === 'book') return 'BK'
-  return '?'
+function iconShape(type) {
+  if (!type) return 'podcast'
+  return type.toLowerCase() === 'video' ? 'video' : 'podcast'
 }
 
 function formatDuration(minutes, seconds) {
@@ -47,14 +41,6 @@ function formatDuration(minutes, seconds) {
   return m + 'm'
 }
 
-function LogoMark() {
-  return (
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
-    </svg>
-  )
-}
-
 function QualityDots({ rating, max = 5 }) {
   if (!rating) return null
   return (
@@ -66,16 +52,35 @@ function QualityDots({ rating, max = 5 }) {
   )
 }
 
+function StoryIcon({ story }) {
+  const shape = iconShape(story.mediaType)
+  const label = mediaTypeLabel(story.mediaType)
+  if (story.channelIcon) {
+    return (
+      <img
+        className={"story-item__icon-" + shape}
+        src={story.channelIcon + '?w=112&h=112&fit=fill'}
+        alt={story.channelName}
+      />
+    )
+  }
+  return (
+    <div
+      className="story-item__icon--placeholder"
+      style={{borderRadius: shape === 'video' ? '50%' : '14px'}}
+    >
+      {label.slice(0,3).toUpperCase()}
+    </div>
+  )
+}
+
 function StoryItem({ story }) {
   const duration = formatDuration(story.minutes, story.seconds)
   const label = mediaTypeLabel(story.mediaType)
   const url = story.mediaUrl || story.secondaryUrl || null
   return (
     <div className="story-item" onClick={() => url && window.open(url, '_blank')} style={{cursor: url ? 'pointer' : 'default'}}>
-      {story.channelIcon
-        ? <img className="story-item__icon" src={story.channelIcon + '?w=112&h=112&fit=fill'} alt={story.channelName} />
-        : <div className="story-item__icon--placeholder">{mediaTypeEmoji(story.mediaType)}</div>
-      }
+      <StoryIcon story={story} />
       <div className="story-item__body">
         <div className="story-item__title">{story.title}</div>
         <div className="story-item__meta">
@@ -93,18 +98,32 @@ function StoryItem({ story }) {
 
 export default function App() {
   const [cities, setCities] = useState([])
+  const [storyCounts, setStoryCounts] = useState({})
   const [selectedCity, setSelectedCity] = useState(null)
   const [stories, setStories] = useState([])
   const [storiesLoading, setStoriesLoading] = useState(false)
   const [loading, setLoading] = useState(true)
   const [activeFilter, setActiveFilter] = useState('Podcast')
   const [mobileView, setMobileView] = useState('list')
-  const [storyCounts, setStoryCounts] = useState({})
 
   useEffect(() => {
-    fetchCities()
-      .then(data => { setCities(data); setLoading(false) })
-      .catch(err => { console.error('Failed to fetch cities:', err); setLoading(false) })
+    fetchCities().then(async data => {
+      setCities(data)
+      setLoading(false)
+      const counts = {}
+      await Promise.all(data.map(async city => {
+        try {
+          const stories = await fetchStoriesForCity(city.id)
+          counts[city.id] = stories.length
+          setStoryCounts(prev => ({ ...prev, [city.id]: stories.length }))
+        } catch (e) {
+          counts[city.id] = 0
+        }
+      }))
+    }).catch(err => {
+      console.error('Failed to fetch cities:', err)
+      setLoading(false)
+    })
   }, [])
 
   const selectCity = useCallback(async (city) => {
@@ -131,14 +150,13 @@ export default function App() {
     return currentFilter.types.includes(t)
   })
 
-  const hasStories = (filter) => {
-    return stories.some(s => filter.types.includes((s.mediaType || '').toLowerCase()))
-  }
+  const hasStories = (filter) =>
+    stories.some(s => filter.types.includes((s.mediaType || '').toLowerCase()))
 
   if (loading) {
     return (
       <div className="loading-screen">
-        <div className="loading-screen__logo"><LogoMark /></div>
+        <img className="loading-screen__logo" src="/logo.png" alt="Layered City" />
         <p>Loading cities...</p>
       </div>
     )
@@ -149,10 +167,10 @@ export default function App() {
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
           <div className="logo">
-            <div className="logo__mark"><LogoMark /></div>
-            <div>
-              <div className="logo__text">Layered City</div>
-              <div className="logo__sub">Explore the world</div>
+            <img className="logo__img" src="/logo.png" alt="Layered City" />
+            <div className="logo__text-block">
+              <div className="logo__title">The internet's best content about Europe</div>
+              <div className="logo__sub">Curated and written by Ryan Nee</div>
             </div>
           </div>
         </div>
@@ -201,7 +219,6 @@ export default function App() {
                 <div className="city-hero__country">{selectedCity.country}</div>
               </div>
             </div>
-
             <div className="detail-filters">
               {FILTERS.map(f => {
                 const has = hasStories(f)
@@ -214,11 +231,9 @@ export default function App() {
                 )
               })}
             </div>
-
             <div className="stories-count">
               {storiesLoading ? 'Loading...' : filteredStories.length + ' ' + activeFilter.toLowerCase() + (filteredStories.length !== 1 ? 's' : '')}
             </div>
-
             <div className="stories-scroll">
               {storiesLoading ? (
                 <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
