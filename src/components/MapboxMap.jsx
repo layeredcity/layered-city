@@ -31,9 +31,23 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
   }, [])
 
   useEffect(() => {
-    if (!mapRef.current || !city || !city.coordinates) return
-    citySelectedAtRef.current = Date.now()
     clearTimeout(flyTimerRef.current)
+    if (!mapRef.current) return
+    if (!city || !city.coordinates) {
+      flyTimerRef.current = setTimeout(() => {
+        if (!mapRef.current) return
+        mapRef.current.resize()
+        mapRef.current.flyTo({
+          center: [13, 50],
+          zoom: 4.2,
+          duration: 1800,
+          essential: true,
+          easing: t => 1 - Math.pow(1 - t, 3),
+        })
+      }, PANEL_TRANSITION)
+      return
+    }
+    citySelectedAtRef.current = Date.now()
     flyTimerRef.current = setTimeout(() => {
       if (!mapRef.current) return
       mapRef.current.resize()
@@ -45,7 +59,7 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
         easing: t => 1 - Math.pow(1 - t, 3),
       })
     }, PANEL_TRANSITION)
-  }, [city && city.id])
+  }, [city?.id])
 
   // Track pin position for modal anchor, dim other pins
   useEffect(() => {

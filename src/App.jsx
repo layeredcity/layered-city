@@ -310,7 +310,7 @@ export default function App() {
     <div className={"app" + (selectedCity ? ' app--city-selected' : '')}>
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
-          <div className="logo" onClick={() => { closeStoryWithFade(); setSelectedCity(null); setStories([]) }} style={{cursor:'pointer'}}>
+          <div className="logo" onClick={() => { closeStoryWithFade(); setSelectedCity(null); setStories([]); setDetailView('overview'); setActiveFilter('All'); setMobileView('list') }} style={{cursor:'pointer'}}>
             <img className="logo__img" src="/logo.png" alt="Layered City" />
             <div className="logo__text-block">
               <div className="logo__title">The world's best content about places in Europe</div>
