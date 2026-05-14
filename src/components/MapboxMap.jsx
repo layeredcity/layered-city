@@ -32,7 +32,7 @@ export default function MapboxMap({ city, stories }) {
       zoom: 12,
       duration: FLY_DURATION,
       essential: true,
-      easing: t => t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2,
+      easing: t => 1 - Math.pow(1 - t, 3),
     })
   }, [city && city.id])
 
@@ -45,7 +45,7 @@ export default function MapboxMap({ city, stories }) {
 
     const addMarkers = () => {
       const elapsed = cityChangedAtRef.current ? Date.now() - cityChangedAtRef.current : FLY_DURATION
-      const revealStart = Math.max(0, FLY_DURATION - 1000 - elapsed)
+      const revealStart = Math.max(0, FLY_DURATION - 500 - elapsed)
 
       stories.forEach((story, i) => {
         const loc = story.location
@@ -71,7 +71,7 @@ export default function MapboxMap({ city, stories }) {
         el.addEventListener('click', () => { if (story.mediaUrl) window.open(story.mediaUrl, '_blank') })
         markersRef.current.push(marker)
 
-        setTimeout(() => { el.style.opacity = '1' }, revealStart + i * 80)
+        setTimeout(() => { el.style.opacity = '1' }, revealStart + Math.random() * 500)
       })
     }
 
