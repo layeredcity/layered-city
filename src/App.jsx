@@ -161,6 +161,14 @@ export default function App() {
   const [selectedStory, setSelectedStory] = useState(null)
   const modalAnchorRef = useRef(null)
 
+  const closeStoryWithFade = useCallback(() => {
+    if (modalAnchorRef.current) {
+      modalAnchorRef.current.style.transition = 'opacity 0.2s ease'
+      modalAnchorRef.current.style.opacity = '0'
+    }
+    setTimeout(() => setSelectedStory(null), 200)
+  }, [])
+
   useEffect(() => {
     fetchCities().then(async data => {
       setCities(data)
@@ -182,6 +190,7 @@ export default function App() {
   }, [])
 
   const selectCity = useCallback(async (city) => {
+    closeStoryWithFade()
     setSelectedCity(city)
     setActiveFilter('All')
     setMobileView('detail')
@@ -196,7 +205,7 @@ export default function App() {
     } finally {
       setStoriesLoading(false)
     }
-  }, [])
+  }, [closeStoryWithFade])
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
 
@@ -223,7 +232,7 @@ export default function App() {
     <div className={"app" + (selectedCity ? ' app--city-selected' : '')}>
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
-          <div className="logo" onClick={() => { setSelectedCity(null); setStories([]); setSelectedStory(null) }} style={{cursor:'pointer'}}>
+          <div className="logo" onClick={() => { closeStoryWithFade(); setSelectedCity(null); setStories([]) }} style={{cursor:'pointer'}}>
             <img className="logo__img" src="/logo.png" alt="Layered City" />
             <div className="logo__text-block">
               <div className="logo__title">The internet's best content about places in Europe</div>
