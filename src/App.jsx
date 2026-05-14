@@ -170,7 +170,7 @@ export default function App() {
   }
 
   return (
-    <div className="app">
+    <div className={"app" + (selectedCity ? ' app--city-selected' : '')}>
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
           <div className="logo" onClick={() => { setSelectedCity(null); setStories([]) }} style={{cursor:'pointer'}}>
