@@ -358,14 +358,15 @@ export default function App() {
                 <div className="city-hero__country">{selectedCity.country}</div>
               </div>
             </div>
-            {detailView === 'overview' ? (
-              <CityOverview
-                stories={stories}
-                storiesLoading={storiesLoading}
-                onSelectFilter={f => { setActiveFilter(f); setDetailView('stories') }}
-              />
-            ) : (
-              <>
+            <div className={"nav-slide-track" + (detailView === 'stories' ? ' nav-slide-track--stories' : '')}>
+              <div className="nav-slide-panel">
+                <CityOverview
+                  stories={stories}
+                  storiesLoading={storiesLoading}
+                  onSelectFilter={f => { setActiveFilter(f); setDetailView('stories') }}
+                />
+              </div>
+              <div className="nav-slide-panel">
                 <div className="overview-back" onClick={() => { closeStoryWithFade(); setDetailView('overview'); setActiveFilter('All') }}>
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M15 18l-6-6 6-6"/></svg>
                   All categories
@@ -392,8 +393,8 @@ export default function App() {
                     </div>
                   )}
                 </div>
-              </>
-            )}
+              </div>
+            </div>
           </div>
         )}
       </section>
