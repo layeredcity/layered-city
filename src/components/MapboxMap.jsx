@@ -6,7 +6,7 @@ mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520 // wait for CSS panel transition before flying
 
-export default function MapboxMap({ city, stories }) {
+export default function MapboxMap({ city, stories, focusStory }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -44,6 +44,21 @@ export default function MapboxMap({ city, stories }) {
       })
     }, PANEL_TRANSITION)
   }, [city && city.id])
+
+  useEffect(() => {
+    if (!mapRef.current || !focusStory?.location) return
+    const loc = focusStory.location
+    const lon = loc.lon ?? (loc.coordinates && loc.coordinates[0])
+    const lat = loc.lat ?? (loc.coordinates && loc.coordinates[1])
+    if (!lon || !lat) return
+    mapRef.current.flyTo({
+      center: [lon, lat],
+      zoom: 15,
+      duration: 1200,
+      essential: true,
+      easing: t => 1 - Math.pow(1 - t, 3),
+    })
+  }, [focusStory?.id])
 
   useEffect(() => {
     if (!mapRef.current) return

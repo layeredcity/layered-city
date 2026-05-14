@@ -3,6 +3,8 @@ import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import MapboxMap from './components/MapboxMap'
 
+const QUALITY_LABELS = ['', 'Okay', 'Good', 'Interesting', 'Great', 'Essential']
+
 const FILTERS = [
   { label: 'All',         types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book'] },
   { label: 'Podcast',     types: ['podcast'] },
@@ -77,12 +79,55 @@ function StoryIcon({ story }) {
   )
 }
 
-function StoryItem({ story }) {
-  const duration = formatDuration(story.minutes, story.seconds)
+function StoryModal({ story, onClose }) {
+  if (!story) return null
+  const shape = iconShape(story.mediaType)
   const label = mediaTypeLabel(story.mediaType)
+  const duration = formatDuration(story.minutes, story.seconds)
+  const qualityLabel = QUALITY_LABELS[story.qualityRating] || null
   const url = story.mediaUrl || story.secondaryUrl || null
   return (
-    <div className="story-item" onClick={() => url && window.open(url, '_blank')} style={{cursor: url ? 'pointer' : 'default'}}>
+    <div className="story-modal-overlay" onClick={onClose}>
+      <div className="story-modal" onClick={e => e.stopPropagation()}>
+        <button className="story-modal__close" onClick={onClose}>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
+        </button>
+        <div className="story-modal__header">
+          <StoryIcon story={story} />
+          <div className="story-modal__header-text">
+            <div className="story-modal__type">{label}</div>
+            {story.channelName && <div className="story-modal__channel">from {story.channelName}</div>}
+          </div>
+        </div>
+        <h2 className="story-modal__title">{story.title}</h2>
+        {story.description && (
+          <>
+            <div className="story-modal__why">Why listen?</div>
+            <p className="story-modal__desc">{story.description}</p>
+          </>
+        )}
+        <div className="story-modal__meta">
+          <QualityStars rating={story.qualityRating} />
+          {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
+          {duration && <span className="story-modal__duration">{duration}</span>}
+        </div>
+        {url && (
+          <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
+            Listen to Episode
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
+          </a>
+        )}
+      </div>
+    </div>
+  )
+}
+
+function StoryItem({ story, onSelect }) {
+  const duration = formatDuration(story.minutes, story.seconds)
+  const label = mediaTypeLabel(story.mediaType)
+  return (
+    <div className="story-item" onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
       <StoryIcon story={story} />
       <div className="story-item__body">
         <div className="story-item__title">{story.title}</div>
@@ -110,6 +155,7 @@ export default function App() {
   const [loading, setLoading] = useState(true)
   const [activeFilter, setActiveFilter] = useState('All')
   const [mobileView, setMobileView] = useState('list')
+  const [selectedStory, setSelectedStory] = useState(null)
 
   useEffect(() => {
     fetchCities().then(async data => {
@@ -249,7 +295,7 @@ export default function App() {
                   No {activeFilter.toLowerCase()} content for {selectedCity.name} yet.
                 </div>
               ) : (
-                filteredStories.map(story => <StoryItem key={story.id} story={story} />)
+                filteredStories.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} />)
               )}
               {!storiesLoading && selectedCity.quote && (
                 <div className="city-quote">
@@ -265,7 +311,8 @@ export default function App() {
       </section>
 
       <div className="panel-map">
-        <MapboxMap city={selectedCity} stories={filteredStories} />
+        <MapboxMap city={selectedCity} stories={filteredStories} focusStory={selectedStory} />
+        {selectedStory && <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} />}
       </div>
     </div>
   )
