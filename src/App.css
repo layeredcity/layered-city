@@ -14,7 +14,7 @@
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
   --radius: 8px;
   --transition: 0.18s ease;
-  --drawer-transition: 0.32s cubic-bezier(0.22, 1, 0.36, 1);
+  --drawer-transition: 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 html, body, #root { height: 100%; overflow: hidden; }

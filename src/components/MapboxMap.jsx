@@ -4,7 +4,7 @@ import mapboxgl from 'mapbox-gl'
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
 const FLY_DURATION = 4500
-const PANEL_TRANSITION = 350 // wait for CSS panel transition before flying
+const PANEL_TRANSITION = 520 // wait for CSS panel transition before flying
 
 export default function MapboxMap({ city, stories }) {
   const containerRef = useRef(null)
