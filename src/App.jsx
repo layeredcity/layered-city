@@ -7,11 +7,11 @@ const QUALITY_LABELS = ['', 'Okay', 'Good', 'Interesting', 'Great', 'Essential']
 
 const FILTERS = [
   { label: 'All',         types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book'] },
-  { label: 'Podcast',     types: ['podcast'],      emptyLabel: 'podcasts' },
-  { label: 'Video',       types: ['video'],         emptyLabel: 'videos' },
-  { label: 'Audio tour',  types: ['audiotour'],     emptyLabel: 'audio tours' },
-  { label: 'Movies & TV', types: ['movie', 'tv'],   emptyLabel: 'movies & TV' },
-  { label: 'Books',       types: ['book'],           emptyLabel: 'books' },
+  { label: 'Podcasts',    types: ['podcast'],      emptyLabel: 'podcasts',    singular: 'podcast' },
+  { label: 'Videos',      types: ['video'],         emptyLabel: 'videos',      singular: 'video' },
+  { label: 'Audio tours', types: ['audiotour'],     emptyLabel: 'audio tours', singular: 'audio tour' },
+  { label: 'Movies & TV', types: ['movie', 'tv'],   emptyLabel: 'movies & TV', singular: 'movie or TV show' },
+  { label: 'Books',       types: ['book'],           emptyLabel: 'books',       singular: 'book' },
 ]
 
 function mediaTypeLabel(type) {
@@ -292,7 +292,7 @@ export default function App() {
               ))}
             </div>
             <div className="stories-count">
-              {storiesLoading ? 'Loading...' : filteredStories.length + ' ' + (activeFilter === 'All' ? (filteredStories.length !== 1 ? 'stories' : 'story') : activeFilter.toLowerCase() + (filteredStories.length !== 1 ? 's' : ''))}
+              {storiesLoading ? 'Loading...' : filteredStories.length + ' ' + (activeFilter === 'All' ? (filteredStories.length !== 1 ? 'stories' : 'story') : (filteredStories.length !== 1 ? currentFilter.emptyLabel : currentFilter.singular) || activeFilter.toLowerCase())}
             </div>
             <div className="stories-scroll">
               {storiesLoading ? (
