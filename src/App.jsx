@@ -56,7 +56,7 @@ const TYPE_ICONS = {
   ),
 }
 
-function CityOverview({ stories, storiesLoading, onSelectFilter }) {
+function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
   if (storiesLoading) {
     return (
       <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>
@@ -79,6 +79,14 @@ function CityOverview({ stories, storiesLoading, onSelectFilter }) {
           <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
         </div>
       ))}
+      {city.quote && (
+        <div className="city-quote">
+          <div className="city-quote__text">"{city.quote}"</div>
+          {city.quoteAttribution && (
+            <div className="city-quote__attribution">— {city.quoteAttribution}</div>
+          )}
+        </div>
+      )}
     </div>
   )
 }
@@ -361,6 +369,7 @@ export default function App() {
             <div className={"nav-slide-track" + (detailView === 'stories' ? ' nav-slide-track--stories' : '')}>
               <div className="nav-slide-panel">
                 <CityOverview
+                  city={selectedCity}
                   stories={stories}
                   storiesLoading={storiesLoading}
                   onSelectFilter={f => { setActiveFilter(f); setDetailView('stories') }}
@@ -383,14 +392,6 @@ export default function App() {
                     </div>
                   ) : (
                     filteredStories.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} />)
-                  )}
-                  {!storiesLoading && selectedCity.quote && (
-                    <div className="city-quote">
-                      <div className="city-quote__text">"{selectedCity.quote}"</div>
-                      {selectedCity.quoteAttribution && (
-                        <div className="city-quote__attribution">— {selectedCity.quoteAttribution}</div>
-                      )}
-                    </div>
                   )}
                 </div>
               </div>
