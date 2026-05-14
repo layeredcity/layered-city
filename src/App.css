@@ -107,7 +107,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-marker:hover { transform: scale(1.5); box-shadow: 0 8px 28px rgba(0,0,0,0.5); }
 .city-marker__overlay { position: absolute; inset: 0; background: rgba(13,38,97,0.78); display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.2s ease; }
 .city-marker:hover .city-marker__overlay { opacity: 1; }
-.city-marker__name { color: white; font-size: 7px; font-weight: 700; font-family: 'IBM Plex Sans', sans-serif; text-align: center; line-height: 1.25; padding: 0 8px; text-transform: uppercase; letter-spacing: 0.04em; width: 100%; overflow-wrap: break-word; }
+.city-marker__name { color: white; font-size: 7px; font-weight: 700; font-family: 'IBM Plex Sans', sans-serif; text-align: center; line-height: 1.25; padding: 0 3px; text-transform: uppercase; letter-spacing: 0.01em; width: 100%; overflow-wrap: break-word; }
 .mapbox-map { width: 100%; height: 100%; }
 
 .story-modal-anchor { position: absolute; z-index: 20; transform: translate(-50%, calc(-100% - 14px)); pointer-events: none; max-width: 440px; width: calc(100% - 48px); }
