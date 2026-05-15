@@ -393,8 +393,9 @@ export default function App() {
                     [5, 4, 3, 2, 1].flatMap(rating => {
                       const group = filteredStories.filter(s => (s.qualityRating || 0) === rating)
                       if (!group.length) return []
+                      const label = rating === 5 && group.length > 1 ? "Editor's picks" : QUALITY_LABELS[rating]
                       return [
-                        <div key={'heading-' + rating} className="story-group-heading">{QUALITY_LABELS[rating]}</div>,
+                        <div key={'heading-' + rating} className="story-group-heading">{label}</div>,
                         ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} />)
                       ]
                     })
