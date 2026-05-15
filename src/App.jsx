@@ -390,7 +390,14 @@ export default function App() {
                       Layered City does not yet have any {currentFilter.emptyLabel} about {selectedCity.name}.
                     </div>
                   ) : (
-                    filteredStories.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} />)
+                    [5, 4, 3, 2, 1].flatMap(rating => {
+                      const group = filteredStories.filter(s => (s.qualityRating || 0) === rating)
+                      if (!group.length) return []
+                      return [
+                        <div key={'heading-' + rating} className="story-group-heading">{QUALITY_LABELS[rating]}</div>,
+                        ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} />)
+                      ]
+                    })
                   )}
                 </div>
               </div>
