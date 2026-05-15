@@ -3,7 +3,7 @@ import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import MapboxMap from './components/MapboxMap'
 
-const QUALITY_LABELS = ['', 'Okay', 'Good', 'Interesting', 'Great', 'Essential']
+const QUALITY_LABELS = ['', 'Marginally interesting', 'Somewhat interesting', 'Interesting', 'Very interesting', "Editor's pick"]
 
 const FILTERS = [
   { label: 'All',         types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book'] },
@@ -179,7 +179,9 @@ function StoryModal({ story, onClose }) {
         <h2 className="story-modal__title">{story.title}</h2>
         {story.description && (
           <>
-            <div className="story-modal__why">Why listen?</div>
+            <div className="story-modal__why">
+              {story.mediaType?.toLowerCase() === 'video' ? 'Why watch?' : story.mediaType?.toLowerCase() === 'audiotour' ? 'Why take the tour?' : 'Why listen?'}
+            </div>
             <p className="story-modal__desc">{story.description}</p>
           </>
         )}
