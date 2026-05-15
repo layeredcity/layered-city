@@ -21,7 +21,7 @@ html, body, #root { height: 100%; overflow: hidden; }
 body { font-family: var(--font-body); background: var(--cream); color: var(--ink); -webkit-font-smoothing: antialiased; }
 .app { display: flex; height: 100dvh; overflow: hidden; }
 
-.panel-cities { width: var(--panel-city); flex-shrink: 0; background: var(--white); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; z-index: 10; }
+.panel-cities { width: var(--panel-city); flex-shrink: 0; background: var(--white); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; z-index: 30; }
 .panel-cities__header { padding: 16px 10px 16px 20px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: #FFE8EB; }
 .logo { display: flex; align-items: center; gap: 14px; }
 .logo__img { width: 80px; height: 80px; border-radius: 50%; flex-shrink: 0; object-fit: cover; }
@@ -47,7 +47,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-item__country { font-size: 12px; font-weight: 600; color: #E1232F; margin-top: 2px; text-transform: uppercase; letter-spacing: 0.06em; }
 .city-item__count { font-size: 11px; font-weight: 500; color: var(--accent); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 3px; }
 
-.panel-detail { width: var(--panel-detail); flex-shrink: 0; background: var(--white); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; transform: translateX(calc(-1 * var(--panel-detail))); transition: transform var(--drawer-transition), margin-right var(--drawer-transition); margin-right: calc(-1 * var(--panel-detail)); will-change: transform; z-index: 5; position: relative; }
+.panel-detail { width: var(--panel-detail); flex-shrink: 0; background: var(--white); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; transform: translateX(calc(-1 * var(--panel-detail))); transition: transform var(--drawer-transition), margin-right var(--drawer-transition); margin-right: calc(-1 * var(--panel-detail)); will-change: transform; z-index: 25; position: relative; }
 .panel-detail::before { content: ''; position: absolute; inset: 0; box-shadow: inset 6px 0 12px -4px rgba(0,0,0,0.14); pointer-events: none; z-index: 999; }
 .panel-detail--open { transform: translateX(0); margin-right: 0; }
 
