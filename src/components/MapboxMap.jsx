@@ -24,7 +24,7 @@ const SYLLABLE_BREAKS = {
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
-export default function MapboxMap({ city, cities, stories, focusStory, onStoryPin, onStoryClick, onCityClick }) {
+export default function MapboxMap({ city, cities, allStories, stories, focusStory, onStoryPin, onStoryClick, onCityClick }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -34,6 +34,7 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
   const revealTimerRef = useRef(null)
   const citySelectedAtRef = useRef(null)
   const movListenerRef = useRef(null)
+  const visibleIdsRef = useRef(new Set())
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -92,7 +93,9 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
 
     if (!focusStory?.location) {
       onStoryPin?.(null)
-      markerDataRef.current.forEach(({ el }) => { el.style.opacity = '1' })
+      markerDataRef.current.forEach(({ el, id }) => {
+        el.style.opacity = !visibleIdsRef.current.size || visibleIdsRef.current.has(id) ? '1' : '0'
+      })
       return
     }
 
@@ -167,6 +170,7 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
     else map.on('load', addCityMarkers)
   }, [cities, city])
 
+  // Create/destroy markers when the full story set changes (city switch)
   useEffect(() => {
     if (!mapRef.current) return
     markersRef.current.forEach(m => m.remove())
@@ -174,11 +178,11 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
     markerDataRef.current = []
     clearTimeout(revealTimerRef.current)
 
-    if (!stories || !stories.length) return
+    if (!allStories || !allStories.length) return
     const map = mapRef.current
 
     const addMarkers = () => {
-      stories.forEach(story => {
+      allStories.forEach(story => {
         const loc = story.location
         if (!loc) return
         const lon = loc.lon ?? (loc.coordinates && loc.coordinates[0])
@@ -204,14 +208,24 @@ export default function MapboxMap({ city, cities, stories, focusStory, onStoryPi
       const animEnd = (citySelectedAtRef.current || 0) + PANEL_TRANSITION + FLY_DURATION
       const revealDelay = Math.max(0, animEnd - 500 - Date.now())
       revealTimerRef.current = setTimeout(() => {
-        markerDataRef.current.forEach(({ el }) => {
-          setTimeout(() => { el.style.opacity = '1' }, Math.random() * 500)
+        markerDataRef.current.forEach(({ el, id }) => {
+          setTimeout(() => {
+            el.style.opacity = !visibleIdsRef.current.size || visibleIdsRef.current.has(id) ? '1' : '0'
+          }, Math.random() * 500)
         })
       }, revealDelay)
     }
 
     if (map.loaded()) addMarkers()
     else map.on('load', addMarkers)
+  }, [allStories])
+
+  // Update marker visibility when filtered set changes — no recreate, just fade
+  useEffect(() => {
+    visibleIdsRef.current = new Set((stories || []).map(s => s.id))
+    markerDataRef.current.forEach(({ el, id }) => {
+      el.style.opacity = !visibleIdsRef.current.size || visibleIdsRef.current.has(id) ? '1' : '0'
+    })
   }, [stories])
 
   return <div ref={containerRef} className="mapbox-map" />

@@ -410,6 +410,7 @@ export default function App() {
         <MapboxMap
           city={selectedCity}
           cities={cities}
+          allStories={stories}
           stories={mapStories}
           onCityClick={selectCity}
           focusStory={selectedStory}
