@@ -94,9 +94,7 @@ export default function MapboxMap({ city, cities, allStories, stories, focusStor
     if (!focusStory?.location) {
       onStoryPin?.(null)
       markerDataRef.current.forEach(({ el, id }) => {
-        const visible = !visibleIdsRef.current.size || visibleIdsRef.current.has(id)
-        el.style.opacity = visible ? '1' : '0'
-        el.style.pointerEvents = visible ? 'auto' : 'none'
+        el.style.opacity = !visibleIdsRef.current.size || visibleIdsRef.current.has(id) ? '1' : '0'
       })
       return
     }
@@ -226,9 +224,7 @@ export default function MapboxMap({ city, cities, allStories, stories, focusStor
   useEffect(() => {
     visibleIdsRef.current = new Set((stories || []).map(s => s.id))
     markerDataRef.current.forEach(({ el, id }) => {
-      const visible = !visibleIdsRef.current.size || visibleIdsRef.current.has(id)
-      el.style.opacity = visible ? '1' : '0'
-      el.style.pointerEvents = visible ? 'auto' : 'none'
+      el.style.opacity = !visibleIdsRef.current.size || visibleIdsRef.current.has(id) ? '1' : '0'
     })
   }, [stories])
 
