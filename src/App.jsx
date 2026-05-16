@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import MapboxMap from './components/MapboxMap'
+import MiniMap from './components/MiniMap'
 
 const QUALITY_LABELS = ['', 'Marginally interesting', 'Somewhat interesting', 'Interesting', 'Very interesting', "Editor's pick"]
 
@@ -429,6 +430,62 @@ export default function App() {
             <div className="story-modal-arrow" />
           </div>
         )}
+      </div>
+
+      {/* Mobile story detail panel */}
+      <div className={"panel-story" + (selectedStory ? ' panel-story--open' : '')}>
+        {selectedStory && (() => {
+          const s = selectedStory
+          const label = mediaTypeLabel(s.mediaType)
+          const duration = formatDuration(s.minutes, s.seconds)
+          const qualityLabel = QUALITY_LABELS[s.qualityRating] || null
+          const url = s.mediaUrl || s.secondaryUrl || null
+          const whyLabel = s.mediaType?.toLowerCase() === 'video' ? 'Why watch?' : s.mediaType?.toLowerCase() === 'audiotour' ? 'Why take the tour?' : 'Why listen?'
+          return (
+            <>
+              <div className="mobile-back" onClick={() => setSelectedStory(null)}>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+                Back
+              </div>
+              <div className="panel-story__scroll">
+                <div className="panel-story__content">
+                  <div className="story-modal__header">
+                    <StoryIcon story={s} />
+                    <div className="story-modal__header-text">
+                      <div className="story-modal__type">{label}</div>
+                      {s.channelName && <div className="story-modal__channel">from {s.channelName}</div>}
+                    </div>
+                  </div>
+                  <h2 className="story-modal__title">{s.title}</h2>
+                  {s.description && (
+                    <>
+                      <div className="story-modal__why">{whyLabel}</div>
+                      <p className="story-modal__desc">{s.description}</p>
+                    </>
+                  )}
+                  <div className="story-modal__meta">
+                    <QualityStars rating={s.qualityRating} />
+                    {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
+                    {duration && <span className="story-modal__duration">{duration}</span>}
+                  </div>
+                  {url && (
+                    <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
+                      {s.mediaType?.toLowerCase() === 'video'
+                        ? <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><polygon points="5,3 19,12 5,21"/></svg>
+                        : <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
+                      }
+                      {s.mediaType?.toLowerCase() === 'video' ? 'Watch the video' : s.mediaType?.toLowerCase() === 'audiotour' ? 'Listen to the audio tour' : 'Listen to the episode'}
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                    </a>
+                  )}
+                </div>
+                <MiniMap story={s} />
+              </div>
+            </>
+          )
+        })()}
       </div>
     </div>
   )
