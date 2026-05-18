@@ -242,6 +242,15 @@ export default function App() {
   const [selectedStory, setSelectedStory] = useState(null)
   const modalAnchorRef = useRef(null)
 
+  // iOS PWA: force app to fill the physical screen height
+  useEffect(() => {
+    const setScreenHeight = () => {
+      document.documentElement.style.setProperty('--screen-h', window.screen.height + 'px')
+    }
+    setScreenHeight()
+    window.addEventListener('orientationchange', () => setTimeout(setScreenHeight, 100))
+  }, [])
+
   const closeStoryWithFade = useCallback(() => {
     if (modalAnchorRef.current) {
       modalAnchorRef.current.style.transition = 'opacity 0.2s ease'

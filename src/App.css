@@ -151,7 +151,8 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   .story-item__icon--placeholder { width: 80px; height: 80px; }
   .story-item__icon-podcast { border-radius: 18px; }
 
-  .app { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: auto; height: auto; flex-direction: column; }
+  html { background: var(--white); }
+  .app { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: auto; height: var(--screen-h, 100dvh); flex-direction: column; }
   .panel-cities__header { padding-top: calc(16px + env(safe-area-inset-top)); }
   .panel-cities { width: auto; height: auto; border-right: none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 20; transform: translateX(0); transition: transform var(--drawer-transition); }
   .panel-cities--hidden { transform: translateX(-100%); }
