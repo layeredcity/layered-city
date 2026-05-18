@@ -354,7 +354,7 @@ export default function App() {
           </div>
         )}
         {selectedCity && (
-          <div style={{display:'flex',flexDirection:'column',flex:1,minHeight:0,overflow:'hidden'}}>
+          <div style={{display:'flex',flexDirection:'column',position:'absolute',top:0,left:0,right:0,bottom:0,overflow:'hidden'}}>
             <div className="city-hero">
               {selectedCity.heroImage
                 ? <img className="city-hero__img" src={selectedCity.heroImage + '?w=840&h=560&fit=fill'} alt={selectedCity.name} />

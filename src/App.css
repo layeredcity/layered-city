@@ -166,6 +166,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   .panel-story--open { transform: translateX(0); }
   .panel-story__scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding-bottom: env(safe-area-inset-bottom); }
   .panel-story__content { padding: 24px 20px 20px; }
+  .nav-slide-panel { height: 100%; }
   .panel-cities__scroll { padding-bottom: env(safe-area-inset-bottom); }
   .stories-scroll { padding-bottom: env(safe-area-inset-bottom); }
   .city-overview { padding-bottom: env(safe-area-inset-bottom); }
