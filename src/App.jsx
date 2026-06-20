@@ -7,6 +7,15 @@ import MiniMap from './components/MiniMap'
 
 const QUALITY_LABELS = ['', 'Marginally interesting', 'Somewhat interesting', 'Interesting', 'Very interesting', "Editor's pick"]
 
+function slugify(name) {
+  return name
+    .toLowerCase()
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9\s-]/g, '')
+    .trim()
+    .replace(/\s+/g, '-')
+}
+
 const FILTERS = [
   { label: 'All',    types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book', 'speak'] },
   { label: 'Watch',  types: ['video', 'movie', 'tv'], emptyLabel: 'videos',      icon: 'watch',  unitSingular: 'video',      unitPlural: 'videos' },
@@ -253,10 +262,28 @@ export default function App() {
     setTimeout(() => setSelectedStory(null), 200)
   }, [])
 
+  const goHome = useCallback(() => {
+    closeStoryWithFade()
+    setSelectedCity(null)
+    setStories([])
+    setDetailView('overview')
+    setActiveFilter('All')
+    setMobileView('list')
+    window.history.pushState({}, '', '/')
+  }, [closeStoryWithFade])
+
   useEffect(() => {
     fetchCities().then(async data => {
       setCities(data)
       setLoading(false)
+
+      // Auto-select city from URL on initial load
+      const slug = window.location.pathname.replace(/^\//, '').toLowerCase()
+      if (slug) {
+        const match = data.find(c => slugify(c.name) === slug)
+        if (match) selectCity(match)
+      }
+
       const counts = {}
       await Promise.all(data.map(async city => {
         try {
@@ -273,6 +300,28 @@ export default function App() {
     })
   }, [])
 
+  // Handle browser back/forward
+  useEffect(() => {
+    const onPopState = () => {
+      const slug = window.location.pathname.replace(/^\//, '').toLowerCase()
+      setCities(prev => {
+        if (!slug) {
+          setSelectedCity(null)
+          setStories([])
+          setDetailView('overview')
+          setActiveFilter('All')
+          setMobileView('list')
+        } else {
+          const match = prev.find(c => slugify(c.name) === slug)
+          if (match) selectCity(match)
+        }
+        return prev
+      })
+    }
+    window.addEventListener('popstate', onPopState)
+    return () => window.removeEventListener('popstate', onPopState)
+  }, [selectCity])
+
   const selectCity = useCallback(async (city) => {
     closeStoryWithFade()
     setSelectedCity(city)
@@ -280,6 +329,7 @@ export default function App() {
     setDetailView('overview')
     setMobileView('detail')
     setStoriesLoading(true)
+    window.history.pushState({}, '', '/' + slugify(city.name))
     try {
       const data = await fetchStoriesForCity(city.id)
       setStories(data)
@@ -316,7 +366,7 @@ export default function App() {
     <div className={"app" + (selectedCity ? ' app--city-selected' : '')}>
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
-          <div className="logo" onClick={() => { closeStoryWithFade(); setSelectedCity(null); setStories([]); setDetailView('overview'); setActiveFilter('All'); setMobileView('list') }} style={{cursor:'pointer'}}>
+          <div className="logo" onClick={goHome} style={{cursor:'pointer'}}>
             <img className="logo__img" src="/logo.png" alt="Layered City" />
             <div className="logo__text-block">
               <div className="logo__title">The guidebook companion for curious travelers in Europe</div>
@@ -348,7 +398,7 @@ export default function App() {
         {mobileView === 'detail' && selectedCity && (
           <div className="mobile-back" onClick={() => {
             if (detailView === 'stories') { closeStoryWithFade(); setDetailView('overview'); setActiveFilter('All') }
-            else { closeStoryWithFade(); setSelectedCity(null); setStories([]); setDetailView('overview'); setActiveFilter('All'); setMobileView('list') }
+            else goHome()
           }}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round"/>
