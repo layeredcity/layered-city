@@ -7,52 +7,49 @@ import MiniMap from './components/MiniMap'
 const QUALITY_LABELS = ['', 'Marginally interesting', 'Somewhat interesting', 'Interesting', 'Very interesting', "Editor's pick"]
 
 const FILTERS = [
-  { label: 'All',         types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book'] },
-  { label: 'Podcasts',    types: ['podcast'],      emptyLabel: 'podcasts',    singular: 'podcast',          icon: 'podcast',   unitSingular: 'episode',          unitPlural: 'episodes' },
-  { label: 'Videos',      types: ['video'],         emptyLabel: 'videos',      singular: 'video',            icon: 'video',     unitSingular: 'video',            unitPlural: 'videos' },
-  { label: 'Audio tours', types: ['audiotour'],     emptyLabel: 'audio tours', singular: 'audio tour',       icon: 'audiotour', unitSingular: 'audio tour',       unitPlural: 'audio tours' },
-  { label: 'Movies & TV', types: ['movie', 'tv'],   emptyLabel: 'movies & TV', singular: 'movie or TV show', icon: 'movietv',   unitSingular: 'movie or TV show', unitPlural: 'movies & TV shows', alwaysShow: true },
-  { label: 'Books',       types: ['book'],           emptyLabel: 'books',       singular: 'book',             icon: 'book',      unitSingular: 'book',             unitPlural: 'books',             alwaysShow: true },
+  { label: 'All',    types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book', 'speak'] },
+  { label: 'Watch',  types: ['video', 'movie', 'tv'], emptyLabel: 'videos',      icon: 'watch',  unitSingular: 'video',      unitPlural: 'videos' },
+  { label: 'Listen', types: ['podcast'],              emptyLabel: 'podcasts',    icon: 'listen', unitSingular: 'episode',    unitPlural: 'episodes' },
+  { label: 'Read',   types: ['book'],                 emptyLabel: 'books',       icon: 'read',   unitSingular: 'book',       unitPlural: 'books',        alwaysShow: true },
+  { label: 'Walk',   types: ['audiotour'],            emptyLabel: 'audio tours', icon: 'walk',   unitSingular: 'audio tour', unitPlural: 'audio tours' },
+  { label: 'Speak',  types: ['speak'],                emptyLabel: 'phrases',     icon: 'speak',  unitSingular: 'phrase',     unitPlural: 'phrases',      alwaysShow: true },
 ]
 
 const TYPE_ICONS = {
-  podcast: (
+  watch: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M12 2a3 3 0 00-3 3v7a3 3 0 006 0V5a3 3 0 00-3-3z"/>
-      <path d="M19 10v1a7 7 0 01-14 0v-1"/>
-      <line x1="12" y1="18" x2="12" y2="22"/>
-      <line x1="8" y1="22" x2="16" y2="22"/>
+      <rect x="2" y="3" width="20" height="14" rx="2"/>
+      <polygon points="9,8 17,10.5 9,13" fill="currentColor" stroke="none"/>
+      <line x1="8" y1="21" x2="16" y2="21"/>
+      <line x1="12" y1="17" x2="12" y2="21"/>
     </svg>
   ),
-  video: (
-    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="12" cy="12" r="10"/>
-      <polygon points="10,8 16,12 10,16" fill="currentColor" stroke="none"/>
-    </svg>
-  ),
-  audiotour: (
+  listen: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
       <path d="M3 18v-6a9 9 0 0118 0v6"/>
       <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3z"/>
       <path d="M3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/>
     </svg>
   ),
-  movietv: (
+  read: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <rect x="2" y="2" width="20" height="20" rx="2.18"/>
-      <line x1="7" y1="2" x2="7" y2="22"/>
-      <line x1="17" y1="2" x2="17" y2="22"/>
-      <line x1="2" y1="12" x2="22" y2="12"/>
-      <line x1="2" y1="7" x2="7" y2="7"/>
-      <line x1="2" y1="17" x2="7" y2="17"/>
-      <line x1="17" y1="17" x2="22" y2="17"/>
-      <line x1="17" y1="7" x2="22" y2="7"/>
+      <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z"/>
+      <path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z"/>
     </svg>
   ),
-  book: (
+  walk: (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M4 19.5A2.5 2.5 0 016.5 17H20"/>
-      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/>
+      <circle cx="13" cy="4" r="2"/>
+      <line x1="13" y1="6" x2="11" y2="13"/>
+      <line x1="11.5" y1="9" x2="15.5" y2="8"/>
+      <line x1="11.5" y1="9" x2="8" y2="11.5"/>
+      <line x1="11" y1="13" x2="14" y2="20"/>
+      <line x1="11" y1="13" x2="8" y2="20"/>
+    </svg>
+  ),
+  speak: (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
+      <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
     </svg>
   ),
 }
@@ -449,7 +446,7 @@ export default function App() {
           const duration = formatDuration(s.minutes, s.seconds)
           const qualityLabel = QUALITY_LABELS[s.qualityRating] || null
           const url = s.mediaUrl || s.secondaryUrl || null
-          const whyLabel = s.mediaType?.toLowerCase() === 'video' ? 'Why watch?' : s.mediaType?.toLowerCase() === 'audiotour' ? 'Why take the tour?' : 'Why listen?'
+          const whyLabel = ['video', 'movie', 'tv'].includes(s.mediaType?.toLowerCase()) ? 'Why watch?' : s.mediaType?.toLowerCase() === 'audiotour' ? 'Why walk it?' : s.mediaType?.toLowerCase() === 'book' ? 'Why read it?' : 'Why listen?'
           return (
             <>
               <div className="mobile-back" onClick={() => setSelectedStory(null)}>
