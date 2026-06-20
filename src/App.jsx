@@ -322,7 +322,7 @@ export default function App() {
           <div className="logo" onClick={() => { closeStoryWithFade(); setSelectedCity(null); setStories([]); setDetailView('overview'); setActiveFilter('All'); setMobileView('list') }} style={{cursor:'pointer'}}>
             <img className="logo__img" src="/logo.png" alt="Layered City" />
             <div className="logo__text-block">
-              <div className="logo__title">The world's best content about places in Europe</div>
+              <div className="logo__title">The guidebook companion for curious travelers in Europe</div>
               <div className="logo__sub">Curated and written by Ryan Nee</div>
             </div>
           </div>
