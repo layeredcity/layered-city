@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
+import VideoModal, { getYouTubeEmbedUrl } from './components/VideoModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import MapboxMap from './components/MapboxMap'
@@ -143,13 +144,15 @@ function StoryIcon({ story }) {
   )
 }
 
-function StoryModal({ story, onClose }) {
+function StoryModal({ story, onClose, onWatchVideo }) {
   if (!story) return null
   const shape = iconShape(story.mediaType)
   const label = mediaTypeLabel(story.mediaType)
   const duration = formatDuration(story.minutes, story.seconds)
   const qualityLabel = QUALITY_LABELS[story.qualityRating] || null
   const url = story.mediaUrl || story.secondaryUrl || null
+  const isVideo = story.mediaType?.toLowerCase() === 'video'
+  const embedUrl = isVideo ? getYouTubeEmbedUrl(url) : null
   return (
     <div className="story-modal-overlay" onClick={onClose}>
       <div className="story-modal" onClick={e => e.stopPropagation()}>
@@ -167,7 +170,7 @@ function StoryModal({ story, onClose }) {
         {story.description && (
           <>
             <div className="story-modal__why">
-              {story.mediaType?.toLowerCase() === 'video' ? 'Why watch?' : story.mediaType?.toLowerCase() === 'audiotour' ? 'Why take the tour?' : 'Why listen?'}
+              {isVideo ? 'Why watch?' : story.mediaType?.toLowerCase() === 'audiotour' ? 'Why take the tour?' : 'Why listen?'}
             </div>
             <p className="story-modal__desc">{story.description}</p>
           </>
@@ -178,14 +181,18 @@ function StoryModal({ story, onClose }) {
           {duration && <span className="story-modal__duration">{duration}</span>}
         </div>
         {url && (
-          <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
-            {story.mediaType?.toLowerCase() === 'video'
-              ? <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><polygon points="5,3 19,12 5,21"/></svg>
-              : <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
-            }
-            {story.mediaType?.toLowerCase() === 'video' ? 'Watch the video' : story.mediaType?.toLowerCase() === 'audiotour' ? 'Listen to the audio tour' : 'Listen to the episode'}
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
-          </a>
+          embedUrl ? (
+            <button className="story-modal__btn" onClick={() => onWatchVideo(embedUrl)}>
+              <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><polygon points="5,3 19,12 5,21"/></svg>
+              Watch the video
+            </button>
+          ) : (
+            <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
+              {story.mediaType?.toLowerCase() === 'audiotour' ? 'Listen to the audio tour' : 'Listen to the episode'}
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
+            </a>
+          )
         )}
       </div>
     </div>
@@ -226,6 +233,7 @@ export default function App() {
   const [detailView, setDetailView] = useState('overview')
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
+  const [videoEmbedUrl, setVideoEmbedUrl] = useState(null)
   const modalAnchorRef = useRef(null)
 
   // iOS PWA: force app to fill the physical screen height
@@ -421,11 +429,13 @@ export default function App() {
         />
         {selectedStory && (
           <div ref={modalAnchorRef} className="story-modal-anchor">
-            <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} />
+            <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} onWatchVideo={setVideoEmbedUrl} />
             <div className="story-modal-arrow" />
           </div>
         )}
       </div>
+
+      <VideoModal embedUrl={videoEmbedUrl} onClose={() => setVideoEmbedUrl(null)} />
 
       {/* Mobile story detail panel */}
       <div className={"panel-story" + (selectedStory ? ' panel-story--open' : '')}>
@@ -435,7 +445,9 @@ export default function App() {
           const duration = formatDuration(s.minutes, s.seconds)
           const qualityLabel = QUALITY_LABELS[s.qualityRating] || null
           const url = s.mediaUrl || s.secondaryUrl || null
-          const whyLabel = ['video', 'movie', 'tv'].includes(s.mediaType?.toLowerCase()) ? 'Why watch?' : s.mediaType?.toLowerCase() === 'audiotour' ? 'Why walk it?' : s.mediaType?.toLowerCase() === 'book' ? 'Why read it?' : 'Why listen?'
+          const isVideo = ['video', 'movie', 'tv'].includes(s.mediaType?.toLowerCase())
+          const whyLabel = isVideo ? 'Why watch?' : s.mediaType?.toLowerCase() === 'audiotour' ? 'Why walk it?' : s.mediaType?.toLowerCase() === 'book' ? 'Why read it?' : 'Why listen?'
+          const embedUrl = isVideo ? getYouTubeEmbedUrl(url) : null
           return (
             <>
               <div className="mobile-back" onClick={() => setSelectedStory(null)}>
@@ -466,14 +478,18 @@ export default function App() {
                     {duration && <span className="story-modal__duration">{duration}</span>}
                   </div>
                   {url && (
-                    <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
-                      {s.mediaType?.toLowerCase() === 'video'
-                        ? <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><polygon points="5,3 19,12 5,21"/></svg>
-                        : <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
-                      }
-                      {s.mediaType?.toLowerCase() === 'video' ? 'Watch the video' : s.mediaType?.toLowerCase() === 'audiotour' ? 'Listen to the audio tour' : 'Listen to the episode'}
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
-                    </a>
+                    embedUrl ? (
+                      <button className="story-modal__btn" onClick={() => setVideoEmbedUrl(embedUrl)}>
+                        <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><polygon points="5,3 19,12 5,21"/></svg>
+                        Watch the video
+                      </button>
+                    ) : (
+                      <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M3 18v-6a9 9 0 0118 0v6"/><path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"/></svg>
+                        {s.mediaType?.toLowerCase() === 'audiotour' ? 'Listen to the audio tour' : 'Listen to the episode'}
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="story-modal__btn-icon"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3" strokeLinecap="round" strokeLinejoin="round"/></svg>
+                      </a>
+                    )
                   )}
                 </div>
                 <MiniMap story={s} />
