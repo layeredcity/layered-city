@@ -262,6 +262,26 @@ export default function App() {
     setTimeout(() => setSelectedStory(null), 200)
   }, [])
 
+  const selectCity = useCallback(async (city) => {
+    closeStoryWithFade()
+    setSelectedCity(city)
+    setActiveFilter('All')
+    setDetailView('overview')
+    setMobileView('detail')
+    setStoriesLoading(true)
+    window.history.pushState({}, '', '/' + slugify(city.name))
+    try {
+      const data = await fetchStoriesForCity(city.id)
+      setStories(data)
+      setStoryCounts(prev => ({ ...prev, [city.id]: data.length }))
+    } catch (err) {
+      console.error('Failed to fetch stories:', err)
+      setStories([])
+    } finally {
+      setStoriesLoading(false)
+    }
+  }, [closeStoryWithFade])
+
   const goHome = useCallback(() => {
     closeStoryWithFade()
     setSelectedCity(null)
@@ -321,26 +341,6 @@ export default function App() {
     window.addEventListener('popstate', onPopState)
     return () => window.removeEventListener('popstate', onPopState)
   }, [selectCity])
-
-  const selectCity = useCallback(async (city) => {
-    closeStoryWithFade()
-    setSelectedCity(city)
-    setActiveFilter('All')
-    setDetailView('overview')
-    setMobileView('detail')
-    setStoriesLoading(true)
-    window.history.pushState({}, '', '/' + slugify(city.name))
-    try {
-      const data = await fetchStoriesForCity(city.id)
-      setStories(data)
-      setStoryCounts(prev => ({ ...prev, [city.id]: data.length }))
-    } catch (err) {
-      console.error('Failed to fetch stories:', err)
-      setStories([])
-    } finally {
-      setStoriesLoading(false)
-    }
-  }, [closeStoryWithFade])
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
 
