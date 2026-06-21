@@ -60,10 +60,6 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 
 .stories-header { padding: 16px 20px 14px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: rgb(239 246 255); }
 .stories-header__title { font-family: var(--font-display); font-size: 28px; color: var(--ink); line-height: 1.1; }
-.watch-pills { display: flex; gap: 8px; padding: 10px 16px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: rgb(239 246 255); }
-.watch-pill { padding: 5px 14px; border-radius: 999px; border: 1.5px solid var(--border); background: var(--white); font-family: var(--font-body); font-size: 13px; font-weight: 500; color: var(--ink-light); cursor: pointer; transition: all var(--transition); }
-.watch-pill:hover { border-color: var(--ink-light); color: var(--ink); }
-.watch-pill--active { background: var(--ink); border-color: var(--ink); color: var(--white); }
 
 .stories-scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; background: rgb(239 246 255); }
 .stories-scroll::-webkit-scrollbar { width: 4px; }

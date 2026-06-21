@@ -28,36 +28,52 @@ function slugify(name) {
 }
 
 const FILTERS = [
-  { label: 'All',    types: ['podcast', 'video', 'audiotour', 'movie', 'tv', 'book', 'speak'] },
-  { label: 'Watch',  types: ['video', 'movie', 'tv'], emptyLabel: 'videos',      icon: 'watch',  unitSingular: 'video',      unitPlural: 'videos' },
-  { label: 'Listen', types: ['podcast'],              emptyLabel: 'podcasts',    icon: 'listen', unitSingular: 'episode',    unitPlural: 'episodes' },
-  { label: 'Read',   types: ['book'],                 emptyLabel: 'books',       icon: 'read',   unitSingular: 'book',       unitPlural: 'books',        alwaysShow: true },
-  { label: 'Walk',   types: ['audiotour'],            emptyLabel: 'audio tours', icon: 'walk',   unitSingular: 'audio tour', unitPlural: 'audio tours' },
-  { label: 'Speak',  types: ['speak'],                emptyLabel: 'phrases',     icon: 'speak',  unitSingular: 'phrase',     unitPlural: 'phrases',      alwaysShow: true },
+  { label: 'All',              types: ['podcast', 'video', 'movie', 'tv', 'music', 'book', 'speak', 'audiotour'] },
+  { label: 'Podcast episodes', types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes' },
+  { label: 'Short videos',     types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos' },
+  { label: 'Movies & TV',      types: ['movie', 'tv'], emptyLabel: 'movies or TV',     icon: 'movie',   unitSingular: 'title',   unitPlural: 'titles' },
+  { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true },
+  { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true },
+  { label: 'Words',            types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true },
 ]
 
 const TYPE_ICONS = {
-  watch: (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
-      <path fill="currentColor" fillRule="evenodd" d="M19.5 37.5c5.1662 0 8.9662 -0.1722 11.5593 -0.3574 3.3014 -0.2358 5.8475 -2.7819 6.0833 -6.0833 0.1852 -2.5931 0.3574 -6.3931 0.3574 -11.5593 0 -5.1662 -0.1722 -8.9662 -0.3574 -11.55931 -0.2358 -3.30139 -2.7819 -5.8475 -6.0833 -6.08329C28.4662 1.67219 24.6662 1.5 19.5 1.5c-5.1662 0 -8.9662 0.17219 -11.55932 0.3574 -3.30138 0.2358 -5.84749 2.7819 -6.08328 6.08328C1.67219 10.5338 1.5 14.3338 1.5 19.5s0.17219 8.9662 0.3574 11.5593c0.2358 3.3014 2.7819 5.8475 6.08329 6.0833C10.5338 37.3278 14.3338 37.5 19.5 37.5Zm-6.1951 -22.6246c0.2389 -1.7315 1.7652 -2.7103 3.3907 -2.0676 1.0534 0.4166 2.4454 1.0477 4.2456 2.004 1.7074 0.9071 3.0478 1.7167 4.0802 2.3973 1.7659 1.1641 1.7659 3.4163 0 4.5805 -1.0324 0.6806 -2.3728 1.4901 -4.0802 2.3972 -1.8002 0.9564 -3.1922 1.5875 -4.2456 2.004 -1.6255 0.6428 -3.1518 -0.336 -3.3907 -2.0675 -0.1669 -1.2094 -0.3049 -2.77 -0.3049 -4.624 0 -1.8539 0.138 -3.4146 0.3049 -4.6239Zm3.6359 31.2654c-3.2146 -0.2296 -5.7132 -2.6497 -6.0599 -5.8247 2.3118 0.1063 5.1697 0.1821 8.6192 0.1821 5.2327 0 9.1041 -0.1744 11.7731 -0.3651 4.7897 -0.3421 8.5198 -4.0722 8.8619 -8.8619 0.1906 -2.6689 0.365 -6.5404 0.365 -11.773 0 -3.4495 -0.0758 -6.3074 -0.182 -8.6193 3.1749 0.3468 5.595 2.8453 5.8246 6.06 0.1852 2.5931 0.3574 6.3931 0.3574 11.5593 0 5.1662 -0.1722 8.9661 -0.3574 11.5593 -0.2358 3.3014 -2.7819 5.8475 -6.0833 6.0833 -2.5931 0.1852 -6.3931 0.3574 -11.5593 0.3574 -5.1662 0 -8.9662 -0.1722 -11.5593 -0.3574Z" clipRule="evenodd"/>
-    </svg>
-  ),
-  listen: (
+  podcast: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
       <path fill="currentColor" fillRule="evenodd" d="M24 0.5487c12.9848 0 23.52 10.4273 23.52 23.3012v17.5028c0 2.0818 -1.3146 3.962 -3.3523 4.5346 -2.0036 0.563 -4.7785 1.2351 -7.5038 1.5393 -1.8924 0.211 -3.6091 -0.9413 -3.9324 -2.8723 -0.276 -1.6482 -0.5269 -4.1719 -0.5269 -7.9033 0 -3.7315 0.2509 -6.2552 0.5269 -7.9034 0.3233 -1.9309 2.04 -3.0833 3.9324 -2.8721 1.0752 0.1199 2.1582 0.2971 3.1984 0.5024v-2.9656c0 -8.3772 -7.0805 -15.2059 -15.8623 -15.2059S8.1377 15.0351 8.1377 23.4123v2.9656c1.0402 -0.2053 2.1232 -0.3826 3.1984 -0.5024 1.8924 -0.2112 3.6091 0.9412 3.9324 2.8721 0.276 1.6482 0.5268 4.1719 0.5268 7.9034 0 3.7314 -0.2508 6.2551 -0.5268 7.9033 -0.3233 1.931 -2.04 3.0833 -3.9324 2.8723 -2.7253 -0.3042 -5.5002 -0.9763 -7.5038 -1.5393C1.7946 45.3147 0.48 43.4345 0.48 41.3527V23.8499C0.48 10.976 11.0152 0.5487 24 0.5487Z" clipRule="evenodd"/>
     </svg>
   ),
-  read: (
+  video: (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
+      <path fill="currentColor" fillRule="evenodd" d="M19.5 37.5c5.1662 0 8.9662 -0.1722 11.5593 -0.3574 3.3014 -0.2358 5.8475 -2.7819 6.0833 -6.0833 0.1852 -2.5931 0.3574 -6.3931 0.3574 -11.5593 0 -5.1662 -0.1722 -8.9662 -0.3574 -11.55931 -0.2358 -3.30139 -2.7819 -5.8475 -6.0833 -6.08329C28.4662 1.67219 24.6662 1.5 19.5 1.5c-5.1662 0 -8.9662 0.17219 -11.55932 0.3574 -3.30138 0.2358 -5.84749 2.7819 -6.08328 6.08328C1.67219 10.5338 1.5 14.3338 1.5 19.5s0.17219 8.9662 0.3574 11.5593c0.2358 3.3014 2.7819 5.8475 6.08329 6.0833C10.5338 37.3278 14.3338 37.5 19.5 37.5Zm-6.1951 -22.6246c0.2389 -1.7315 1.7652 -2.7103 3.3907 -2.0676 1.0534 0.4166 2.4454 1.0477 4.2456 2.004 1.7074 0.9071 3.0478 1.7167 4.0802 2.3973 1.7659 1.1641 1.7659 3.4163 0 4.5805 -1.0324 0.6806 -2.3728 1.4901 -4.0802 2.3972 -1.8002 0.9564 -3.1922 1.5875 -4.2456 2.004 -1.6255 0.6428 -3.1518 -0.336 -3.3907 -2.0675 -0.1669 -1.2094 -0.3049 -2.77 -0.3049 -4.624 0 -1.8539 0.138 -3.4146 0.3049 -4.6239Zm3.6359 31.2654c-3.2146 -0.2296 -5.7132 -2.6497 -6.0599 -5.8247 2.3118 0.1063 5.1697 0.1821 8.6192 0.1821 5.2327 0 9.1041 -0.1744 11.7731 -0.3651 4.7897 -0.3421 8.5198 -4.0722 8.8619 -8.8619 0.1906 -2.6689 0.365 -6.5404 0.365 -11.773 0 -3.4495 -0.0758 -6.3074 -0.182 -8.6193 3.1749 0.3468 5.595 2.8453 5.8246 6.06 0.1852 2.5931 0.3574 6.3931 0.3574 11.5593 0 5.1662 -0.1722 8.9661 -0.3574 11.5593 -0.2358 3.3014 -2.7819 5.8475 -6.0833 6.0833 -2.5931 0.1852 -6.3931 0.3574 -11.5593 0.3574 -5.1662 0 -8.9662 -0.1722 -11.5593 -0.3574Z" clipRule="evenodd"/>
+    </svg>
+  ),
+  movie: (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
+      <rect x="2" y="9" width="44" height="30" rx="4" stroke="currentColor" strokeWidth="3"/>
+      <line x1="2" y1="17" x2="46" y2="17" stroke="currentColor" strokeWidth="2.5"/>
+      <line x1="2" y1="31" x2="46" y2="31" stroke="currentColor" strokeWidth="2.5"/>
+      <line x1="12" y1="9" x2="12" y2="17" stroke="currentColor" strokeWidth="2.5"/>
+      <line x1="24" y1="9" x2="24" y2="17" stroke="currentColor" strokeWidth="2.5"/>
+      <line x1="36" y1="9" x2="36" y2="17" stroke="currentColor" strokeWidth="2.5"/>
+      <line x1="12" y1="31" x2="12" y2="39" stroke="currentColor" strokeWidth="2.5"/>
+      <line x1="24" y1="31" x2="24" y2="39" stroke="currentColor" strokeWidth="2.5"/>
+      <line x1="36" y1="31" x2="36" y2="39" stroke="currentColor" strokeWidth="2.5"/>
+    </svg>
+  ),
+  music: (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
+      <path stroke="currentColor" strokeWidth="3" strokeLinecap="round" d="M18 36V14l24-5v22"/>
+      <circle cx="12" cy="36" r="6" stroke="currentColor" strokeWidth="3"/>
+      <circle cx="36" cy="31" r="6" stroke="currentColor" strokeWidth="3"/>
+    </svg>
+  ),
+  book: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
       <path fill="currentColor" fillRule="evenodd" d="M6.35236 3.57823c-2.68852 -0.13189 -5.00134 1.81199 -5.27719 4.51505C0.799341 10.7962 0.5 15.1843 0.5 21.5c0 6.3156 0.299341 10.7038 0.57517 13.4067 0.27952 2.7389 2.59519 4.5436 5.13019 4.668 6.79884 0.3335 11.22094 1.7771 16.18724 4.2853 0.0356 0.0179 0.0714 0.0353 0.1074 0.052l0 -36.34179c-4.8252 -2.30208 -9.4516 -3.6635 -16.14764 -3.99198ZM16.1725 16.2616c0.765 0.374 1.6914 0.2803 2.1418 -0.5387 0.4188 -0.7615 0.0784 -1.69 -0.665 -2.0764 -0.272 -0.1413 -1.2434 -0.6173 -2.8407 -1.0859C12.9827 12.025 10.3403 11.5 7 11.5c-0.82843 0 -1.5 0.6716 -1.5 1.5s0.67157 1.5 1.5 1.5c3.0234 0 5.381 0.475 6.9642 0.9394 1.1877 0.3484 1.9402 0.6911 2.2083 0.8222Zm0 9c0.765 0.374 1.6914 0.2803 2.1418 -0.5387 0.419 -0.7619 0.0792 -1.6896 -0.665 -2.0764 -0.8987 -0.467 -1.872 -0.8017 -2.8407 -1.0859C12.9827 21.025 10.3403 20.5 7 20.5c-0.82843 0 -1.5 0.6716 -1.5 1.5s0.67157 1.5 1.5 1.5c3.0234 0 5.381 0.475 6.9642 0.9394 1.1877 0.3484 1.9402 0.6911 2.2083 0.8222Zm0 9c0.765 0.374 1.6914 0.2803 2.1418 -0.5387 0.4191 -0.7619 0.0789 -1.6897 -0.665 -2.0764 -0.8987 -0.467 -1.872 -0.8017 -2.8407 -1.0859C12.9827 30.025 10.3403 29.5 7 29.5c-0.82843 0 -1.5 0.6716 -1.5 1.5s0.67157 1.5 1.5 1.5c3.0234 0 5.381 0.475 6.9642 0.9394 1.1877 0.3484 1.9402 0.6911 2.2083 0.8222Zm9.4349 9.5984c-0.0356 0.0179 -0.0714 0.0353 -0.1074 0.052l0 -36.34179c4.8252 -2.30208 9.4516 -3.6635 16.1476 -3.99198 2.6886 -0.13189 5.0014 1.81199 5.2772 4.51505C47.2007 10.7962 47.5 15.1843 47.5 21.5c0 6.3156 -0.2993 10.7038 -0.5752 13.4067 -0.2795 2.7389 -2.5952 4.5436 -5.1302 4.668 -6.7988 0.3335 -11.2209 1.7771 -16.1872 4.2853Zm7.584 -31.2994c-1.5973 0.4686 -2.5687 0.9446 -2.8407 1.0859 -0.7434 0.3864 -1.0838 1.3149 -0.665 2.0764 0.4046 0.7357 1.3203 0.967 2.0484 0.5856 0.1226 -0.0637 0.9161 -0.4627 2.3017 -0.8691C35.619 14.975 37.9766 14.5 41 14.5c0.8284 0 1.5 -0.6716 1.5 -1.5s-0.6716 -1.5 -1.5 -1.5c-3.3403 0 -5.9827 0.525 -7.8086 1.0606Zm0 9c-1.5973 0.4686 -2.5687 0.9446 -2.8407 1.0859 -0.7428 0.3887 -1.0849 1.3129 -0.665 2.0764 0.4504 0.819 1.3768 0.9127 2.1418 0.5387 0.2681 -0.1311 1.0206 -0.4738 2.2083 -0.8222C35.619 23.975 37.9766 23.5 41 23.5c0.8284 0 1.5 -0.6716 1.5 -1.5s-0.6716 -1.5 -1.5 -1.5c-3.3403 0 -5.9827 0.525 -7.8086 1.0606Zm5.7974 9.4665c0.101 0.8222 -0.4837 1.5707 -1.3059 1.6717 -1.9732 0.2424 -3.4944 0.6633 -4.5074 1.0155 -0.7597 0.2641 -1.2332 0.4894 -1.3954 0.5707 -0.7483 0.3752 -1.6656 0.2174 -2.0944 -0.5622 -0.4124 -0.7497 -0.0928 -1.6737 0.6433 -2.065 0.5948 -0.3127 1.2279 -0.5569 1.8614 -0.7772 1.1923 -0.4145 2.9211 -0.8885 5.1267 -1.1594 0.8223 -0.1011 1.5707 0.4836 1.6717 1.3059Z" clipRule="evenodd"/>
     </svg>
   ),
-  walk: (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
-      <path fill="currentColor" fillRule="evenodd" d="M24 0.5c-3.5899 0 -6.5 2.91015 -6.5 6.5 0 3.5899 2.9101 6.5 6.5 6.5s6.5 -2.9101 6.5 -6.5c0 -3.58985 -2.9101 -6.5 -6.5 -6.5Zm-4.195 14c-1.2347 0 -2.5089 0.1549 -3.6945 0.6528 -5.0552 2.1229 -8.35652 6.2607 -9.34835 12.0863 -0.26298 1.5447 0.7559 2.9384 2.19429 3.3699l1.02594 0.3078c1.29602 0.3888 2.59182 -0.4447 2.91252 -1.7074 0.4933 -1.9418 1.1152 -3.2162 2.0113 -4.2675 0.7462 -0.8755 1.7001 -1.6178 2.9868 -2.4609l-0.046 0.4363c-0.7636 7.2491 -1.462 13.8783 -6.7044 18.7633 -1.27205 1.1853 -1.28457 3.4172 0.3108 4.3744l0.5362 0.3217c1.23 0.738 2.8029 0.8719 4.0579 0.0112 2.2011 -1.5095 5.7871 -4.7685 7.2875 -10.6356 1.6441 0.9767 2.9192 2.4462 3.8972 4.029 1.0852 1.7561 1.7873 3.6237 2.2149 5.038 0.4349 1.4382 2.0063 2.3685 3.4807 1.8362l0.6303 -0.2276c1.7574 -0.6345 2.987 -2.3294 2.6856 -4.2543 -0.5784 -3.6941 -2.4751 -10.2662 -8.7122 -14.4234l0.3734 -3.3605c1.3185 0.8872 2.594 1.5664 4.0833 1.9894 1.7481 0.4965 3.7543 0.63 6.4267 0.3795 1.5102 -0.1416 2.6491 -1.3674 2.7967 -2.8438l0.1012 -1.011c0.1298 -1.299 -0.8645 -2.4054 -2.1337 -2.5075 -3.4787 -0.2798 -5.8518 -1.033 -8.2508 -3.0846 -1.8541 -1.5856 -4.1367 -2.8117 -6.6752 -2.8117H19.805Z" clipRule="evenodd"/>
-    </svg>
-  ),
-  speak: (
+  words: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
       <path fill="currentColor" fillRule="evenodd" d="M0.5 24C0.5 11.0213 11.0213 0.5 24 0.5S47.5 11.0213 47.5 24 36.9787 47.5 24 47.5c-4.2754 0 -8.2855 -1.1422 -11.7402 -3.1383 -2.61565 0.966 -5.58424 1.9153 -8.50237 2.5914 -1.65828 0.3842 -3.142885 -1.0357 -2.810348 -2.7125 0.605368 -3.0525 1.543198 -6.114 2.543168 -8.7605C1.58577 32.0848 0.5 28.1685 0.5 24Zm35 -4.5c0 -0.4242 -0.0124 -0.7846 -0.0314 -1.0877 -0.0655 -1.0481 -0.8988 -1.7412 -1.8858 -1.7837C32.2121 16.5694 29.445 16.5 24 16.5c-5.4449 0 -8.2121 0.0694 -9.5828 0.1286 -0.987 0.0425 -1.8203 0.7356 -1.8858 1.7837 -0.019 0.3031 -0.0314 0.6635 -0.0314 1.0877 0 0.4242 0.0124 0.7846 0.0314 1.0877 0.0655 1.0481 0.8988 1.7412 1.8858 1.7837 1.3707 0.0592 4.1378 0.1286 9.5828 0.1286 5.4635 0 8.2313 -0.0727 9.5975 -0.1343 0.9797 -0.0443 1.805 -0.7322 1.8707 -1.7724 0.0192 -0.3038 0.0318 -0.6659 0.0318 -1.0933Zm-8 11c0 -0.4015 -0.0071 -0.7446 -0.0181 -1.0351 -0.0396 -1.0464 -0.8239 -1.8116 -1.8552 -1.8646C24.6316 27.5492 22.9174 27.5 20 27.5c-2.9174 0 -4.6316 0.0492 -5.6267 0.1003 -1.0313 0.053 -1.8156 0.8182 -1.8552 1.8646 -0.011 0.2905 -0.0181 0.6336 -0.0181 1.0351 0 0.4015 0.0071 0.7446 0.0181 1.0351 0.0396 1.0464 0.8239 1.8116 1.8552 1.8646 0.9951 0.0511 2.7093 0.1003 5.6267 0.1003 2.934 0 4.6515 -0.0517 5.6445 -0.1052 1.0229 -0.0551 1.7972 -0.8148 1.837 -1.8515 0.0112 -0.2917 0.0185 -0.6375 0.0185 -1.0433Z" clipRule="evenodd"/>
     </svg>
@@ -280,7 +296,6 @@ export default function App() {
   const [selectedStory, setSelectedStory] = useState(null)
   const [mediaStory, setMediaStory] = useState(null)
   const [omdbCache, setOmdbCache] = useState({})
-  const [watchSubFilter, setWatchSubFilter] = useState('all')
   const modalAnchorRef = useRef(null)
 
   // iOS PWA: force app to fill the physical screen height
@@ -307,7 +322,6 @@ export default function App() {
     setSelectedCity(city)
     setActiveFilter('All')
     setDetailView('overview')
-    setWatchSubFilter('all')
     setMobileView('detail')
     setStoriesLoading(true)
     window.history.pushState({}, '', '/' + slugify(city.name))
@@ -334,7 +348,6 @@ export default function App() {
     setStories([])
     setDetailView('overview')
     setActiveFilter('All')
-    setWatchSubFilter('all')
     setMobileView('list')
     window.history.pushState({}, '', '/')
   }, [closeStoryWithFade])
@@ -401,16 +414,6 @@ export default function App() {
       }),
     [stories, currentFilter, omdbCache]
   )
-
-  const displayedStories = useMemo(() => {
-    if (activeFilter !== 'Watch' || watchSubFilter === 'all') return filteredStories
-    return filteredStories.filter(s => {
-      const t = (s.mediaType || '').toLowerCase()
-      if (watchSubFilter === 'video') return t === 'video'
-      if (watchSubFilter === 'movie') return t === 'movie' || t === 'tv'
-      return true
-    })
-  }, [filteredStories, activeFilter, watchSubFilter])
 
   const mapStories = detailView === 'overview' ? stories : filteredStories
 
@@ -497,25 +500,16 @@ export default function App() {
                 <div className="stories-header">
                   <div className="stories-header__title">{currentFilter.label}</div>
                 </div>
-                {activeFilter === 'Watch' && (
-                  <div className="watch-pills">
-                    {[{id:'all',label:'All'},{id:'video',label:'Videos'},{id:'movie',label:'Movies & TV'}].map(p => (
-                      <button key={p.id} className={'watch-pill' + (watchSubFilter === p.id ? ' watch-pill--active' : '')} onClick={() => setWatchSubFilter(p.id)}>
-                        {p.label}
-                      </button>
-                    ))}
-                  </div>
-                )}
                 <div className="stories-scroll">
                   {storiesLoading ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
-                  ) : displayedStories.length === 0 ? (
+                  ) : filteredStories.length === 0 ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
                       Layered City does not yet have any {currentFilter.emptyLabel} about {selectedCity.name}.
                     </div>
                   ) : (
                     [5, 4, 3, 2, 1, 0].flatMap(rating => {
-                      const group = displayedStories.filter(s => {
+                      const group = filteredStories.filter(s => {
                         const eff = s.qualityRating || imdbToQualityRating(omdbCache[s.imdbId]?.rating) || 0
                         return eff === rating
                       })
