@@ -425,15 +425,17 @@ export default function App() {
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
 
+  const effectiveRatingForStory = useCallback((s) => {
+    const t = (s.mediaType || '').toLowerCase()
+    if (t === 'movie' || t === 'tv') return imdbToQualityRating(omdbCache[s.imdbId]?.rating) || 0
+    return s.qualityRating || 0
+  }, [omdbCache])
+
   const filteredStories = useMemo(() =>
     stories
       .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
-      .sort((a, b) => {
-        const rA = a.qualityRating || imdbToQualityRating(omdbCache[a.imdbId]?.rating) || 0
-        const rB = b.qualityRating || imdbToQualityRating(omdbCache[b.imdbId]?.rating) || 0
-        return rB - rA
-      }),
-    [stories, currentFilter, omdbCache]
+      .sort((a, b) => effectiveRatingForStory(b) - effectiveRatingForStory(a)),
+    [stories, currentFilter, effectiveRatingForStory]
   )
 
   const mapStories = detailView === 'overview' ? stories : filteredStories
@@ -530,10 +532,7 @@ export default function App() {
                     </div>
                   ) : (
                     [5, 4, 3, 2, 1, 0].flatMap(rating => {
-                      const group = filteredStories.filter(s => {
-                        const eff = s.qualityRating || imdbToQualityRating(omdbCache[s.imdbId]?.rating) || 0
-                        return eff === rating
-                      })
+                      const group = filteredStories.filter(s => effectiveRatingForStory(s) === rating)
                       if (!group.length) return []
                       const label = rating === 0 ? null : rating === 5 && group.length > 1 ? "Ryan's picks" : QUALITY_LABELS[rating]
                       return [
