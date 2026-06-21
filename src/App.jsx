@@ -8,6 +8,16 @@ import MiniMap from './components/MiniMap'
 
 const QUALITY_LABELS = ['', 'Marginally interesting', 'Somewhat interesting', 'Interesting', 'Very interesting', "Ryan's pick"]
 
+function imdbToQualityRating(imdbRating) {
+  const r = parseFloat(imdbRating)
+  if (isNaN(r)) return null
+  if (r >= 8.0) return 5
+  if (r >= 7.0) return 4
+  if (r >= 6.0) return 3
+  if (r >= 5.0) return 2
+  return 1
+}
+
 function slugify(name) {
   return name
     .toLowerCase()
@@ -161,7 +171,8 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
   if (!story) return null
   const label = mediaTypeLabel(story.mediaType)
   const duration = formatDuration(story.minutes, story.seconds)
-  const qualityLabel = QUALITY_LABELS[story.qualityRating] || null
+  const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
+  const qualityLabel = QUALITY_LABELS[effectiveRating] || null
   const url = story.mediaUrl || story.secondaryUrl || null
   const t = story.mediaType?.toLowerCase()
   const isVideo = t === 'video' || t === 'movie' || t === 'tv'
@@ -201,7 +212,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
           </>
         )}
         <div className="story-modal__meta">
-          <QualityStars rating={story.qualityRating} />
+          <QualityStars rating={effectiveRating} />
           {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
           {duration && <span className="story-modal__duration">{duration}</span>}
         </div>
@@ -227,6 +238,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
 function StoryItem({ story, onSelect, omdbData }) {
   const duration = formatDuration(story.minutes, story.seconds)
   const label = mediaTypeLabel(story.mediaType)
+  const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   return (
     <div className="story-item" onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
       <StoryIcon story={story} omdbData={omdbData} />
@@ -249,7 +261,7 @@ function StoryItem({ story, onSelect, omdbData }) {
             {omdbData.rating}<span className="story-item__imdb-max">/10</span>
           </div>
         )}
-        <QualityStars rating={story.qualityRating} />
+        <QualityStars rating={effectiveRating} />
       </div>
     </div>
   )
@@ -268,6 +280,7 @@ export default function App() {
   const [selectedStory, setSelectedStory] = useState(null)
   const [mediaStory, setMediaStory] = useState(null)
   const [omdbCache, setOmdbCache] = useState({})
+  const [watchSubFilter, setWatchSubFilter] = useState('all')
   const modalAnchorRef = useRef(null)
 
   // iOS PWA: force app to fill the physical screen height
@@ -294,6 +307,7 @@ export default function App() {
     setSelectedCity(city)
     setActiveFilter('All')
     setDetailView('overview')
+    setWatchSubFilter('all')
     setMobileView('detail')
     setStoriesLoading(true)
     window.history.pushState({}, '', '/' + slugify(city.name))
@@ -320,6 +334,7 @@ export default function App() {
     setStories([])
     setDetailView('overview')
     setActiveFilter('All')
+    setWatchSubFilter('all')
     setMobileView('list')
     window.history.pushState({}, '', '/')
   }, [closeStoryWithFade])
@@ -379,9 +394,23 @@ export default function App() {
   const filteredStories = useMemo(() =>
     stories
       .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
-      .sort((a, b) => (b.qualityRating || 0) - (a.qualityRating || 0)),
-    [stories, currentFilter]
+      .sort((a, b) => {
+        const rA = a.qualityRating || imdbToQualityRating(omdbCache[a.imdbId]?.rating) || 0
+        const rB = b.qualityRating || imdbToQualityRating(omdbCache[b.imdbId]?.rating) || 0
+        return rB - rA
+      }),
+    [stories, currentFilter, omdbCache]
   )
+
+  const displayedStories = useMemo(() => {
+    if (activeFilter !== 'Watch' || watchSubFilter === 'all') return filteredStories
+    return filteredStories.filter(s => {
+      const t = (s.mediaType || '').toLowerCase()
+      if (watchSubFilter === 'video') return t === 'video'
+      if (watchSubFilter === 'movie') return t === 'movie' || t === 'tv'
+      return true
+    })
+  }, [filteredStories, activeFilter, watchSubFilter])
 
   const mapStories = detailView === 'overview' ? stories : filteredStories
 
@@ -468,22 +497,34 @@ export default function App() {
                 <div className="stories-header">
                   <div className="stories-header__title">{currentFilter.label}</div>
                 </div>
+                {activeFilter === 'Watch' && (
+                  <div className="watch-pills">
+                    {[{id:'all',label:'All'},{id:'video',label:'Videos'},{id:'movie',label:'Movies & TV'}].map(p => (
+                      <button key={p.id} className={'watch-pill' + (watchSubFilter === p.id ? ' watch-pill--active' : '')} onClick={() => setWatchSubFilter(p.id)}>
+                        {p.label}
+                      </button>
+                    ))}
+                  </div>
+                )}
                 <div className="stories-scroll">
                   {storiesLoading ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
-                  ) : filteredStories.length === 0 ? (
+                  ) : displayedStories.length === 0 ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
                       Layered City does not yet have any {currentFilter.emptyLabel} about {selectedCity.name}.
                     </div>
                   ) : (
-                    [5, 4, 3, 2, 1].flatMap(rating => {
-                      const group = filteredStories.filter(s => (s.qualityRating || 0) === rating)
+                    [5, 4, 3, 2, 1, 0].flatMap(rating => {
+                      const group = displayedStories.filter(s => {
+                        const eff = s.qualityRating || imdbToQualityRating(omdbCache[s.imdbId]?.rating) || 0
+                        return eff === rating
+                      })
                       if (!group.length) return []
-                      const label = rating === 5 && group.length > 1 ? "Ryan's picks" : QUALITY_LABELS[rating]
+                      const label = rating === 0 ? null : rating === 5 && group.length > 1 ? "Ryan's picks" : QUALITY_LABELS[rating]
                       return [
-                        <div key={'heading-' + rating} className="story-group-heading">{label}</div>,
+                        label ? <div key={'heading-' + rating} className="story-group-heading">{label}</div> : null,
                         ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} />)
-                      ]
+                      ].filter(Boolean)
                     })
                   )}
                 </div>
