@@ -36,7 +36,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-item { display: flex; align-items: center; gap: 16px; padding: 14px 20px; cursor: pointer; border-bottom: 1px solid var(--border); transition: background var(--transition); background: rgba(255,232,235,0.15); }
 .city-item:hover { background: var(--white); }
 .city-item--active { background: var(--white); border-left: 3px solid var(--accent); padding-left: 17px; }
-.app--city-selected .city-item:not(.city-item--active) { opacity: 0.8; }
+.app--city-selected .city-item:not(.city-item--active) { opacity: 0.8; mix-blend-mode: multiply; }
 .city-item__thumb { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--border); border: 3px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.18); }
 .city-item__thumb--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; color: var(--ink-xlight); font-size: 24px; }
 .city-item__info { flex: 1; min-width: 0; }
