@@ -43,7 +43,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     const map = new mapboxgl.Map({
       container: containerRef.current,
       style: 'mapbox://styles/mapbox/streets-v12',
-      center: [13, 50],
+      center: [5.04, 47.32],
       zoom: 4.2,
     })
     map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-right')
@@ -59,7 +59,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         if (!mapRef.current) return
         mapRef.current.resize()
         mapRef.current.flyTo({
-          center: [13, 50],
+          center: [5.04, 47.32],
           zoom: 4.2,
           duration: 1800,
           essential: true,
