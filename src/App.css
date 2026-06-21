@@ -58,10 +58,10 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-hero__name { font-family: var(--font-display); font-size: 56px; color: white; line-height: 1; }
 .city-hero__country { font-size: 13px; font-weight: 700; color: rgba(255,255,255,0.7); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 6px; }
 
-.stories-header { padding: 16px 20px 14px; border-bottom: 1px solid var(--border); flex-shrink: 0; }
+.stories-header { padding: 16px 20px 14px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: rgb(239 246 255); }
 .stories-header__title { font-family: var(--font-display); font-size: 28px; color: var(--ink); line-height: 1.1; }
-.watch-pills { display: flex; gap: 8px; padding: 10px 16px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: var(--white); }
-.watch-pill { padding: 5px 14px; border-radius: 999px; border: 1.5px solid var(--border); background: transparent; font-family: var(--font-body); font-size: 13px; font-weight: 500; color: var(--ink-light); cursor: pointer; transition: all var(--transition); }
+.watch-pills { display: flex; gap: 8px; padding: 10px 16px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: rgb(239 246 255); }
+.watch-pill { padding: 5px 14px; border-radius: 999px; border: 1.5px solid var(--border); background: var(--white); font-family: var(--font-body); font-size: 13px; font-weight: 500; color: var(--ink-light); cursor: pointer; transition: all var(--transition); }
 .watch-pill:hover { border-color: var(--ink-light); color: var(--ink); }
 .watch-pill--active { background: var(--ink); border-color: var(--ink); color: var(--white); }
 
