@@ -203,7 +203,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
             {!isMovieOrTV && omdbData?.rating && (
               <div className="story-modal__imdb">
                 <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                <span className="story-modal__imdb-label">IMDb</span>
+                <span className="story-modal__imdb-label">IMDb rating</span>
                 {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
               </div>
             )}
@@ -223,7 +223,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
             omdbData?.rating && (
               <div className="story-modal__imdb">
                 <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                <span className="story-modal__imdb-label">IMDb</span>
+                <span className="story-modal__imdb-label">IMDb rating</span>
                 {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
               </div>
             )
@@ -278,7 +278,7 @@ function StoryItem({ story, onSelect, omdbData }) {
         {omdbData?.rating && (
           <div className="story-item__imdb">
             <svg viewBox="0 0 24 24" fill="#f5c518" width="12" height="12"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-            <span className="story-item__imdb-label">IMDb</span>
+            <span className="story-item__imdb-label">IMDb rating</span>
             {omdbData.rating}<span className="story-item__imdb-max">/10</span>
           </div>
         )}
@@ -594,7 +594,7 @@ export default function App() {
                       {omdbData?.rating && (
                         <div className="story-modal__imdb">
                           <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                          <span className="story-modal__imdb-label">IMDb</span>
+                          <span className="story-modal__imdb-label">IMDb rating</span>
                           {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
                         </div>
                       )}
