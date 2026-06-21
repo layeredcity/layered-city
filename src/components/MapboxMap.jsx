@@ -29,12 +29,14 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const mapRef = useRef(null)
   const markersRef = useRef([])
   const markerDataRef = useRef([]) // { el, id, imdbId }
+  const omdbCacheRef = useRef(omdbCache)
   const cityMarkersRef = useRef([])
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
   const citySelectedAtRef = useRef(null)
   const movListenerRef = useRef(null)
   const visibleIdsRef = useRef(new Set())
+  omdbCacheRef.current = omdbCache
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -191,8 +193,10 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         const isVideo = (story.mediaType || '').toLowerCase() === 'video'
         const borderRadius = isVideo ? '50%' : '10px'
         const el = document.createElement('div')
-        if (story.channelIcon) {
-          el.style.cssText = 'width:36px;height:36px;border-radius:' + borderRadius + ';background-image:url(' + story.channelIcon + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease;'
+        const cachedPoster = story.imdbId ? omdbCacheRef.current?.[story.imdbId]?.poster : null
+        const imgSrc = story.channelIcon || cachedPoster
+        if (imgSrc) {
+          el.style.cssText = 'width:36px;height:36px;border-radius:' + borderRadius + ';background-image:url(' + imgSrc + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease;'
         } else {
           el.style.cssText = 'width:32px;height:32px;border-radius:' + borderRadius + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease;'
           el.textContent = (story.mediaType || '').slice(0, 3).toUpperCase()
