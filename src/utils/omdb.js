@@ -9,7 +9,7 @@ export async function fetchOmdbData(imdbId) {
     return {
       rating: data.imdbRating !== 'N/A' ? data.imdbRating : null,
       votes: data.imdbVotes !== 'N/A' ? data.imdbVotes : null,
-      poster: data.Poster !== 'N/A' ? data.Poster : null,
+      poster: data.Poster !== 'N/A' ? data.Poster.replace(/^http:/, 'https:') : null,
       title: data.Title || null,
       year: data.Year || null,
       runtime: data.Runtime !== 'N/A' ? data.Runtime : null,
