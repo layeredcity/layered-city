@@ -181,6 +181,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
   const qualityLabel = QUALITY_LABELS[effectiveRating] || null
   const url = story.mediaUrl || story.secondaryUrl || null
   const t = story.mediaType?.toLowerCase()
+  const isMovieOrTV = t === 'movie' || t === 'tv'
   const isVideo = t === 'video' || t === 'movie' || t === 'tv'
   const hasMedia = url && (isVideo || t === 'podcast' || t === 'audiotour')
   const btnLabel = t === 'movie' ? 'Rent or buy' : t === 'tv' ? 'Watch the episode' : t === 'audiotour' ? 'Listen to the audio tour' : t === 'podcast' ? 'Listen to the episode' : 'Watch the video'
@@ -199,7 +200,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
               {story.season && story.episode && <span className="story-modal__year"> · S{story.season} E{story.episode}</span>}
             </div>
             {story.channelName && <div className="story-modal__channel">from {story.channelName}</div>}
-            {omdbData?.rating && (
+            {!isMovieOrTV && omdbData?.rating && (
               <div className="story-modal__imdb">
                 <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
                 <span className="story-modal__imdb-label">IMDb</span>
@@ -218,8 +219,20 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
           </>
         )}
         <div className="story-modal__meta">
-          <QualityStars rating={effectiveRating} />
-          {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
+          {isMovieOrTV ? (
+            omdbData?.rating && (
+              <div className="story-modal__imdb">
+                <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <span className="story-modal__imdb-label">IMDb</span>
+                {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
+              </div>
+            )
+          ) : (
+            <>
+              <QualityStars rating={effectiveRating} />
+              {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
+            </>
+          )}
           {duration && <span className="story-modal__duration">{duration}</span>}
         </div>
         {hasMedia && (
@@ -244,6 +257,8 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
 function StoryItem({ story, onSelect, omdbData }) {
   const duration = formatDuration(story.minutes, story.seconds)
   const label = mediaTypeLabel(story.mediaType)
+  const t = (story.mediaType || '').toLowerCase()
+  const isMovieOrTV = t === 'movie' || t === 'tv'
   const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   return (
     <div className="story-item" onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
@@ -267,7 +282,7 @@ function StoryItem({ story, onSelect, omdbData }) {
             {omdbData.rating}<span className="story-item__imdb-max">/10</span>
           </div>
         )}
-        <QualityStars rating={effectiveRating} />
+        {!isMovieOrTV && <QualityStars rating={effectiveRating} />}
       </div>
     </div>
   )
