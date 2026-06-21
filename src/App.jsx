@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useMemo, useRef } from 'react'
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
+import { fetchOmdbData } from './utils/omdb'
 import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 
@@ -131,15 +132,18 @@ function QualityStars({ rating, max = 5 }) {
   )
 }
 
-function StoryIcon({ story }) {
+function StoryIcon({ story, omdbData }) {
   const shape = iconShape(story.mediaType)
   const label = mediaTypeLabel(story.mediaType)
-  if (story.channelIcon) {
+  const poster = omdbData?.poster
+  if (story.channelIcon || poster) {
+    const src = story.channelIcon ? story.channelIcon + '?w=112&h=112&fit=fill' : poster
     return (
       <img
         className={"story-item__icon-" + shape}
-        src={story.channelIcon + '?w=112&h=112&fit=fill'}
-        alt={story.channelName}
+        src={src}
+        alt={story.channelName || story.title}
+        style={poster && !story.channelIcon ? {borderRadius: '6px', objectFit: 'cover'} : undefined}
       />
     )
   }
@@ -153,7 +157,7 @@ function StoryIcon({ story }) {
   )
 }
 
-function StoryModal({ story, onClose, onOpenMedia }) {
+function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
   if (!story) return null
   const label = mediaTypeLabel(story.mediaType)
   const duration = formatDuration(story.minutes, story.seconds)
@@ -162,7 +166,7 @@ function StoryModal({ story, onClose, onOpenMedia }) {
   const t = story.mediaType?.toLowerCase()
   const isVideo = t === 'video' || t === 'movie' || t === 'tv'
   const hasMedia = url && (isVideo || t === 'podcast' || t === 'audiotour')
-  const btnLabel = isVideo ? 'Watch the video' : t === 'audiotour' ? 'Listen to the audio tour' : 'Listen to the episode'
+  const btnLabel = t === 'movie' ? 'Rent or buy' : t === 'tv' ? 'Watch the episode' : t === 'audiotour' ? 'Listen to the audio tour' : t === 'podcast' ? 'Listen to the episode' : 'Watch the video'
   return (
     <div className="story-modal-overlay" onClick={onClose}>
       <div className="story-modal" onClick={e => e.stopPropagation()}>
@@ -170,10 +174,20 @@ function StoryModal({ story, onClose, onOpenMedia }) {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
         </button>
         <div className="story-modal__header">
-          <StoryIcon story={story} />
+          <StoryIcon story={story} omdbData={omdbData} />
           <div className="story-modal__header-text">
-            <div className="story-modal__type">{label}</div>
+            <div className="story-modal__type">
+              {label}
+              {story.releaseYear && <span className="story-modal__year"> · {story.releaseYear}</span>}
+              {story.season && story.episode && <span className="story-modal__year"> · S{story.season} E{story.episode}</span>}
+            </div>
             {story.channelName && <div className="story-modal__channel">from {story.channelName}</div>}
+            {omdbData?.rating && (
+              <div className="story-modal__imdb">
+                <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
+              </div>
+            )}
           </div>
         </div>
         <h2 className="story-modal__title">{story.title}</h2>
@@ -244,6 +258,7 @@ export default function App() {
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
   const [mediaStory, setMediaStory] = useState(null)
+  const [omdbData, setOmdbData] = useState(null)
   const modalAnchorRef = useRef(null)
 
   // iOS PWA: force app to fill the physical screen height
@@ -254,6 +269,11 @@ export default function App() {
     setScreenHeight()
     window.addEventListener('orientationchange', () => setTimeout(setScreenHeight, 100))
   }, [])
+
+  useEffect(() => {
+    if (!selectedStory?.imdbId) { setOmdbData(null); return }
+    fetchOmdbData(selectedStory.imdbId).then(setOmdbData)
+  }, [selectedStory?.imdbId])
 
   const closeStoryWithFade = useCallback(() => {
     if (modalAnchorRef.current) {
@@ -480,7 +500,7 @@ export default function App() {
         />
         {selectedStory && (
           <div ref={modalAnchorRef} className="story-modal-anchor">
-            <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} onOpenMedia={setMediaStory} />
+            <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} onOpenMedia={setMediaStory} omdbData={omdbData} />
             <div className="story-modal-arrow" />
           </div>
         )}
@@ -511,10 +531,20 @@ export default function App() {
               <div className="panel-story__scroll">
                 <div className="panel-story__content">
                   <div className="story-modal__header">
-                    <StoryIcon story={s} />
+                    <StoryIcon story={s} omdbData={omdbData} />
                     <div className="story-modal__header-text">
-                      <div className="story-modal__type">{label}</div>
+                      <div className="story-modal__type">
+                        {label}
+                        {s.releaseYear && <span className="story-modal__year"> · {s.releaseYear}</span>}
+                        {s.season && s.episode && <span className="story-modal__year"> · S{s.season} E{s.episode}</span>}
+                      </div>
                       {s.channelName && <div className="story-modal__channel">from {s.channelName}</div>}
+                      {omdbData?.rating && (
+                        <div className="story-modal__imdb">
+                          <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                          {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
+                        </div>
+                      )}
                     </div>
                   </div>
                   <h2 className="story-modal__title">{s.title}</h2>

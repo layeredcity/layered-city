@@ -122,6 +122,9 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-modal__header-text { flex: 1; min-width: 0; }
 .story-modal__type { font-size: 11px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
 .story-modal__channel { font-size: 13px; color: var(--ink-light); margin-top: 2px; }
+.story-modal__year { color: var(--ink-xlight); }
+.story-modal__imdb { display: flex; align-items: center; gap: 4px; margin-top: 4px; font-size: 13px; font-weight: 600; color: var(--ink); }
+.story-modal__imdb-max { font-weight: 400; color: var(--ink-xlight); }
 .story-modal__title { font-family: var(--font-display); font-size: 28px; color: var(--ink); line-height: 1.2; margin-bottom: 18px; padding-right: 24px; }
 .story-modal__why { font-size: 13px; font-weight: 600; color: var(--ink-light); margin-bottom: 8px; }
 .story-modal__desc { font-size: 15px; color: var(--ink); line-height: 1.6; margin-bottom: 20px; }
