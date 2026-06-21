@@ -22,7 +22,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .app { display: flex; height: 100dvh; overflow: hidden; }
 
 .panel-cities { width: var(--panel-city); flex-shrink: 0; background: rgba(255,232,235,0.15); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; z-index: 30; }
-.panel-cities__header { padding: 16px 10px 16px 20px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: #FFE8EB; }
+.panel-cities__header { padding: 16px 10px 16px 20px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: rgba(255,232,235,0.15); }
 .logo { display: flex; align-items: center; gap: 14px; }
 .logo__img { width: 80px; height: 80px; border-radius: 50%; flex-shrink: 0; object-fit: cover; }
 .logo__text-block { flex: 1; min-width: 0; }
