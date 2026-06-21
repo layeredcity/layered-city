@@ -122,6 +122,18 @@ function iconShape(type) {
   return type.toLowerCase() === 'video' ? 'video' : 'podcast'
 }
 
+function movieBtnLabel(url) {
+  if (!url) return 'Rent or buy'
+  try {
+    const host = new URL(url).hostname.replace('www.', '')
+    if (host.includes('amazon') || host.includes('primevideo')) return 'Rent or buy on Amazon'
+    if (host.includes('apple') || host.includes('tv.apple')) return 'Rent or buy on Apple TV'
+    if (host.includes('vimeo')) return 'Watch on Vimeo'
+    if (host.includes('youtube') || host.includes('youtu.be')) return 'Watch on YouTube'
+  } catch {}
+  return 'Rent or buy'
+}
+
 function formatDuration(minutes, seconds) {
   if (!minutes && !seconds) return null
   const m = minutes || 0
@@ -184,7 +196,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
   const isMovieOrTV = t === 'movie' || t === 'tv'
   const isVideo = t === 'video' || t === 'movie' || t === 'tv'
   const hasMedia = url && (isVideo || t === 'podcast' || t === 'audiotour')
-  const btnLabel = t === 'movie' ? 'Rent or buy' : t === 'tv' ? 'Watch the episode' : t === 'audiotour' ? 'Listen to the audio tour' : t === 'podcast' ? 'Listen to the episode' : 'Watch the video'
+  const btnLabel = (t === 'movie' || t === 'tv') ? movieBtnLabel(url) : t === 'audiotour' ? 'Listen to the audio tour' : t === 'podcast' ? 'Listen to the episode' : 'Watch the video'
   return (
     <div className="story-modal-overlay" onClick={onClose}>
       <div className="story-modal" onClick={e => e.stopPropagation()}>
