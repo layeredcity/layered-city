@@ -196,7 +196,11 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         const cachedPoster = story.imdbId ? omdbCacheRef.current?.[story.imdbId]?.poster : null
         const imgSrc = story.channelIcon || cachedPoster
         if (imgSrc) {
-          el.style.cssText = 'width:36px;height:36px;border-radius:' + borderRadius + ';background-image:url(' + imgSrc + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease;'
+          const isPoster = cachedPoster && !story.channelIcon
+          const pinW = isPoster ? '28px' : '36px'
+          const pinH = isPoster ? '42px' : '36px'
+          const pinR = isPoster ? '4px' : borderRadius
+          el.style.cssText = 'width:' + pinW + ';height:' + pinH + ';border-radius:' + pinR + ';background-image:url(' + imgSrc + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease;'
         } else {
           el.style.cssText = 'width:32px;height:32px;border-radius:' + borderRadius + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease;'
           el.textContent = (story.mediaType || '').slice(0, 3).toUpperCase()
@@ -241,6 +245,9 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       el.style.backgroundImage = `url(${omdb.poster})`
       el.style.backgroundSize = 'cover'
       el.style.backgroundPosition = 'center'
+      el.style.width = '28px'
+      el.style.height = '42px'
+      el.style.borderRadius = '4px'
       el.textContent = ''
     })
   }, [omdbCache])

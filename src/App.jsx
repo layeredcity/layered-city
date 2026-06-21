@@ -153,13 +153,13 @@ function StoryIcon({ story, omdbData }) {
   const label = mediaTypeLabel(story.mediaType)
   const poster = omdbData?.poster
   if (story.channelIcon || poster) {
+    const isMoviePoster = poster && !story.channelIcon
     const src = story.channelIcon ? story.channelIcon + '?w=112&h=112&fit=fill' : poster
     return (
       <img
-        className={"story-item__icon-" + shape}
+        className={isMoviePoster ? 'story-item__icon-poster' : 'story-item__icon-' + shape}
         src={src}
         alt={story.channelName || story.title}
-        style={poster && !story.channelIcon ? {borderRadius: '6px', objectFit: 'cover'} : undefined}
       />
     )
   }
