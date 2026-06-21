@@ -249,7 +249,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
           {duration && <span className="story-modal__duration">{duration}</span>}
         </div>
         {hasMedia && (
-          isVideo ? (
+          t === 'video' ? (
             <button className="story-modal__btn" onClick={() => onOpenMedia(story)}>
               <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><polygon points="5,3 19,12 5,21"/></svg>
               {btnLabel}
