@@ -24,11 +24,11 @@ const SYLLABLE_BREAKS = {
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
-export default function MapboxMap({ city, cities, allStories, stories, focusStory, onStoryPin, onStoryClick, onCityClick }) {
+export default function MapboxMap({ city, cities, allStories, stories, omdbCache, focusStory, onStoryPin, onStoryClick, onCityClick }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
-  const markerDataRef = useRef([]) // { el, id }
+  const markerDataRef = useRef([]) // { el, id, imdbId }
   const cityMarkersRef = useRef([])
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
@@ -202,7 +202,7 @@ export default function MapboxMap({ city, cities, allStories, stories, focusStor
           .setLngLat([lon, lat])
           .addTo(map)
         markersRef.current.push(marker)
-        markerDataRef.current.push({ el, id: story.id })
+        markerDataRef.current.push({ el, id: story.id, imdbId: story.imdbId || null })
       })
 
       const animEnd = (citySelectedAtRef.current || 0) + PANEL_TRANSITION + FLY_DURATION
@@ -227,6 +227,19 @@ export default function MapboxMap({ city, cities, allStories, stories, focusStor
       el.style.opacity = !visibleIdsRef.current.size || visibleIdsRef.current.has(id) ? '1' : '0'
     })
   }, [stories])
+
+  useEffect(() => {
+    if (!omdbCache) return
+    markerDataRef.current.forEach(({ el, imdbId }) => {
+      if (!imdbId) return
+      const omdb = omdbCache[imdbId]
+      if (!omdb?.poster) return
+      el.style.backgroundImage = `url(${omdb.poster})`
+      el.style.backgroundSize = 'cover'
+      el.style.backgroundPosition = 'center'
+      el.textContent = ''
+    })
+  }, [omdbCache])
 
   return <div ref={containerRef} className="mapbox-map" />
 }

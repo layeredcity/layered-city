@@ -499,6 +499,7 @@ export default function App() {
           cities={cities}
           allStories={stories}
           stories={mapStories}
+          omdbCache={omdbCache}
           onCityClick={selectCity}
           focusStory={selectedStory}
           onStoryClick={setSelectedStory}
