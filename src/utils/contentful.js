@@ -54,7 +54,7 @@ export async function fetchStoriesForCity(cityId) {
       channelIcon: channel?.channelIcon?.fields?.file?.url
         ? 'https:' + channel.channelIcon.fields.file.url
         : null,
-      mediaType: channel?.mediaType || null,
+      mediaType: f.mediaType || channel?.mediaType || null,
       categories: (f.categories || []).map(c => c.fields?.name || c.fields?.categoryName || ''),
     }
   })
