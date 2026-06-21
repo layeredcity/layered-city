@@ -185,6 +185,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
             {omdbData?.rating && (
               <div className="story-modal__imdb">
                 <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <span className="story-modal__imdb-label">IMDb</span>
                 {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
               </div>
             )}
@@ -223,16 +224,17 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
   )
 }
 
-function StoryItem({ story, onSelect }) {
+function StoryItem({ story, onSelect, omdbData }) {
   const duration = formatDuration(story.minutes, story.seconds)
   const label = mediaTypeLabel(story.mediaType)
   return (
     <div className="story-item" onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
-      <StoryIcon story={story} />
+      <StoryIcon story={story} omdbData={omdbData} />
       <div className="story-item__body">
         <div className="story-item__title">{story.title}</div>
         <div className="story-item__meta">
           <span className="story-item__type">{label}</span>
+          {story.releaseYear && <span className="story-item__source"> · {story.releaseYear}</span>}
           {story.channelName && (
             <span className="story-item__source"> from {story.channelName}</span>
           )}
@@ -240,6 +242,13 @@ function StoryItem({ story, onSelect }) {
             <span className="story-item__source"> · {duration}</span>
           )}
         </div>
+        {omdbData?.rating && (
+          <div className="story-item__imdb">
+            <svg viewBox="0 0 24 24" fill="#f5c518" width="12" height="12"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            <span className="story-item__imdb-label">IMDb</span>
+            {omdbData.rating}<span className="story-item__imdb-max">/10</span>
+          </div>
+        )}
         <QualityStars rating={story.qualityRating} />
       </div>
     </div>
@@ -258,7 +267,7 @@ export default function App() {
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
   const [mediaStory, setMediaStory] = useState(null)
-  const [omdbData, setOmdbData] = useState(null)
+  const [omdbCache, setOmdbCache] = useState({})
   const modalAnchorRef = useRef(null)
 
   // iOS PWA: force app to fill the physical screen height
@@ -270,10 +279,7 @@ export default function App() {
     window.addEventListener('orientationchange', () => setTimeout(setScreenHeight, 100))
   }, [])
 
-  useEffect(() => {
-    if (!selectedStory?.imdbId) { setOmdbData(null); return }
-    fetchOmdbData(selectedStory.imdbId).then(setOmdbData)
-  }, [selectedStory?.imdbId])
+  const omdbData = selectedStory?.imdbId ? (omdbCache[selectedStory.imdbId] ?? null) : null
 
   const closeStoryWithFade = useCallback(() => {
     if (modalAnchorRef.current) {
@@ -295,6 +301,11 @@ export default function App() {
       const data = await fetchStoriesForCity(city.id)
       setStories(data)
       setStoryCounts(prev => ({ ...prev, [city.id]: data.length }))
+      data.filter(s => s.imdbId).forEach(s => {
+        fetchOmdbData(s.imdbId).then(omdb => {
+          if (omdb) setOmdbCache(prev => ({ ...prev, [s.imdbId]: omdb }))
+        })
+      })
     } catch (err) {
       console.error('Failed to fetch stories:', err)
       setStories([])
@@ -471,7 +482,7 @@ export default function App() {
                       const label = rating === 5 && group.length > 1 ? "Ryan's picks" : QUALITY_LABELS[rating]
                       return [
                         <div key={'heading-' + rating} className="story-group-heading">{label}</div>,
-                        ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} />)
+                        ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} />)
                       ]
                     })
                   )}
@@ -542,6 +553,7 @@ export default function App() {
                       {omdbData?.rating && (
                         <div className="story-modal__imdb">
                           <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                          <span className="story-modal__imdb-label">IMDb</span>
                           {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
                         </div>
                       )}
