@@ -51,6 +51,7 @@ export async function fetchStoriesForCity(cityId) {
       seconds: f.numberOfSeconds,
       publishDate: f.originalPublishDate,
       channelName: channel?.channelName || null,
+      creatorName: f.creatorName || null,
       channelIcon: channel?.channelIcon?.fields?.file?.url
         ? 'https:' + channel.channelIcon.fields.file.url
         : null,

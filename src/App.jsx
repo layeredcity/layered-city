@@ -199,6 +199,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
               {story.releaseYear && <span className="story-modal__year"> · {story.releaseYear}</span>}
               {story.season && story.episode && <span className="story-modal__year"> · S{story.season} E{story.episode}</span>}
             </div>
+            {story.creatorName && <div className="story-modal__channel">{t === 'movie' || t === 'tv' ? 'Directed by' : 'By'} {story.creatorName}</div>}
             {story.channelName && <div className="story-modal__channel">from {story.channelName}</div>}
             {!isMovieOrTV && omdbData?.rating && (
               <div className="story-modal__imdb">
@@ -268,6 +269,9 @@ function StoryItem({ story, onSelect, omdbData }) {
         <div className="story-item__meta">
           <span className="story-item__type">{label}</span>
           {story.releaseYear && <span className="story-item__source"> · {story.releaseYear}</span>}
+          {story.creatorName && (
+            <span className="story-item__source"> · {story.creatorName}</span>
+          )}
           {story.channelName && (
             <span className="story-item__source"> from {story.channelName}</span>
           )}
@@ -590,6 +594,7 @@ export default function App() {
                         {s.releaseYear && <span className="story-modal__year"> · {s.releaseYear}</span>}
                         {s.season && s.episode && <span className="story-modal__year"> · S{s.season} E{s.episode}</span>}
                       </div>
+                      {s.creatorName && <div className="story-modal__channel">{(s.mediaType||'').toLowerCase() === 'movie' || (s.mediaType||'').toLowerCase() === 'tv' ? 'Directed by' : 'By'} {s.creatorName}</div>}
                       {s.channelName && <div className="story-modal__channel">from {s.channelName}</div>}
                       {omdbData?.rating && (
                         <div className="story-modal__imdb">
