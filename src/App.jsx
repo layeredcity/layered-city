@@ -189,14 +189,20 @@ function StoryIcon({ story, omdbData }) {
   const poster = omdbData?.poster
   if (story.channelIcon || story.artworkImage || poster) {
     const isMoviePoster = poster && !story.channelIcon && !story.artworkImage
+    const isAlbum = story.artworkImage && !story.channelIcon
     const src = story.channelIcon
       ? story.channelIcon + '?w=112&h=112&fit=fill'
       : story.artworkImage
-        ? story.artworkImage + '?w=112&h=112&fit=fill'
+        ? story.artworkImage + '?w=256&h=256&fit=fill'
         : poster
+    const className = isMoviePoster
+      ? 'story-item__icon-poster'
+      : isAlbum
+        ? 'story-item__icon-album'
+        : 'story-item__icon-' + shape
     return (
       <img
-        className={isMoviePoster ? 'story-item__icon-poster' : 'story-item__icon-' + shape}
+        className={className}
         src={src}
         alt={story.channelName || story.title}
       />
