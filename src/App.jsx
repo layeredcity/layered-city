@@ -229,7 +229,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
           <div className="story-modal__header-text">
             <div className="story-modal__type">
               {label}
-              {story.releaseYear && <span className="story-modal__year"> · {story.releaseYear}</span>}
+              {story.releaseYear && t !== 'music' && <span className="story-modal__year"> · {story.releaseYear}</span>}
               {story.season && story.episode && <span className="story-modal__year"> · S{story.season} E{story.episode}</span>}
             </div>
             {story.creatorName && <div className="story-modal__channel">{t === 'movie' || t === 'tv' ? 'Directed by' : 'By'} {story.creatorName}</div>}
@@ -267,6 +267,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
               {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
             </>
           )}
+          {t === 'music' && story.releaseYear && <span className="story-modal__duration">{story.releaseYear}</span>}
           {duration && <span className="story-modal__duration">{duration}</span>}
         </div>
         {t === 'music' ? (
@@ -284,7 +285,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
                 {apple && (
                   <a href={apple} target="_blank" rel="noreferrer" className="story-modal__btn">
                     {APPLE_ICON}
-                    Listen in Apple Music
+                    Listen on Apple Music
                   </a>
                 )}
               </div>
@@ -658,7 +659,7 @@ export default function App() {
                     <div className="story-modal__header-text">
                       <div className="story-modal__type">
                         {label}
-                        {s.releaseYear && <span className="story-modal__year"> · {s.releaseYear}</span>}
+                        {s.releaseYear && t !== 'music' && <span className="story-modal__year"> · {s.releaseYear}</span>}
                         {s.season && s.episode && <span className="story-modal__year"> · S{s.season} E{s.episode}</span>}
                       </div>
                       {s.creatorName && <div className="story-modal__channel">{(s.mediaType||'').toLowerCase() === 'movie' || (s.mediaType||'').toLowerCase() === 'tv' ? 'Directed by' : 'By'} {s.creatorName}</div>}
@@ -682,6 +683,7 @@ export default function App() {
                   <div className="story-modal__meta">
                     <QualityStars rating={s.qualityRating} />
                     {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
+                    {t === 'music' && s.releaseYear && <span className="story-modal__duration">{s.releaseYear}</span>}
                     {duration && <span className="story-modal__duration">{duration}</span>}
                   </div>
                   {t === 'music' ? (
@@ -699,7 +701,7 @@ export default function App() {
                           {apple && (
                             <a href={apple} target="_blank" rel="noreferrer" className="story-modal__btn">
                               {APPLE_ICON}
-                              Listen in Apple Music
+                              Listen on Apple Music
                             </a>
                           )}
                         </div>
