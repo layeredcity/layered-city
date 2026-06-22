@@ -31,6 +31,7 @@ const FILTERS = [
   { label: 'All',              types: ['podcast', 'video', 'movie', 'tv', 'music', 'book', 'speak', 'audiotour'] },
   { label: 'Podcast episodes', types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes' },
   { label: 'Short videos',     types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos' },
+  { label: 'Audio tours',      types: ['audiotour'],    emptyLabel: 'audio tours',      icon: 'audiotour', unitSingular: 'audio tour', unitPlural: 'audio tours' },
   { label: 'Movies & TV',      types: ['movie', 'tv'], emptyLabel: 'movies or TV',     icon: 'movie',   unitSingular: 'title',   unitPlural: 'titles' },
   { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true },
   { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true },
@@ -66,6 +67,11 @@ const TYPE_ICONS = {
   words: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
       <path fill="currentColor" fillRule="evenodd" d="M0.5 24C0.5 11.0213 11.0213 0.5 24 0.5S47.5 11.0213 47.5 24 36.9787 47.5 24 47.5c-4.2754 0 -8.2855 -1.1422 -11.7402 -3.1383 -2.61565 0.966 -5.58424 1.9153 -8.50237 2.5914 -1.65828 0.3842 -3.142885 -1.0357 -2.810348 -2.7125 0.605368 -3.0525 1.543198 -6.114 2.543168 -8.7605C1.58577 32.0848 0.5 28.1685 0.5 24Zm35 -4.5c0 -0.4242 -0.0124 -0.7846 -0.0314 -1.0877 -0.0655 -1.0481 -0.8988 -1.7412 -1.8858 -1.7837C32.2121 16.5694 29.445 16.5 24 16.5c-5.4449 0 -8.2121 0.0694 -9.5828 0.1286 -0.987 0.0425 -1.8203 0.7356 -1.8858 1.7837 -0.019 0.3031 -0.0314 0.6635 -0.0314 1.0877 0 0.4242 0.0124 0.7846 0.0314 1.0877 0.0655 1.0481 0.8988 1.7412 1.8858 1.7837 1.3707 0.0592 4.1378 0.1286 9.5828 0.1286 5.4635 0 8.2313 -0.0727 9.5975 -0.1343 0.9797 -0.0443 1.805 -0.7322 1.8707 -1.7724 0.0192 -0.3038 0.0318 -0.6659 0.0318 -1.0933Zm-8 11c0 -0.4015 -0.0071 -0.7446 -0.0181 -1.0351 -0.0396 -1.0464 -0.8239 -1.8116 -1.8552 -1.8646C24.6316 27.5492 22.9174 27.5 20 27.5c-2.9174 0 -4.6316 0.0492 -5.6267 0.1003 -1.0313 0.053 -1.8156 0.8182 -1.8552 1.8646 -0.011 0.2905 -0.0181 0.6336 -0.0181 1.0351 0 0.4015 0.0071 0.7446 0.0181 1.0351 0.0396 1.0464 0.8239 1.8116 1.8552 1.8646 0.9951 0.0511 2.7093 0.1003 5.6267 0.1003 2.934 0 4.6515 -0.0517 5.6445 -0.1052 1.0229 -0.0551 1.7972 -0.8148 1.837 -1.8515 0.0112 -0.2917 0.0185 -0.6375 0.0185 -1.0433Z" clipRule="evenodd"/>
+    </svg>
+  ),
+  audiotour: (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
+      <path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 13 16.8 14 19 14v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7z"/>
     </svg>
   ),
 }
