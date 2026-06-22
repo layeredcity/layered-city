@@ -114,6 +114,7 @@ function mediaTypeLabel(type) {
   if (t === 'movie') return 'Movie'
   if (t === 'tv') return 'TV'
   if (t === 'book') return 'Book'
+  if (t === 'music') return 'Song'
   return type
 }
 
@@ -438,17 +439,22 @@ export default function App() {
     return s.qualityRating || 0
   }, [omdbCache])
 
+  const isMusicFilter = currentFilter.types.length === 1 && currentFilter.types[0] === 'music'
+
   const filteredStories = useMemo(() =>
     stories
       .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
       .sort((a, b) => {
+        if (isMusicFilter) {
+          return (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0)
+        }
         const tierDiff = effectiveRatingForStory(b) - effectiveRatingForStory(a)
         if (tierDiff !== 0) return tierDiff
         const rA = parseFloat(omdbCache[a.imdbId]?.rating) || 0
         const rB = parseFloat(omdbCache[b.imdbId]?.rating) || 0
         return rB - rA
       }),
-    [stories, currentFilter, effectiveRatingForStory, omdbCache]
+    [stories, currentFilter, effectiveRatingForStory, omdbCache, isMusicFilter]
   )
 
   const mapStories = detailView === 'overview' ? stories : filteredStories
