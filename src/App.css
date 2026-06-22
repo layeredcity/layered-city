@@ -136,6 +136,8 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-modal__btn { display: flex; align-items: center; justify-content: center; gap: 10px; background: #153B8F; color: white; border-radius: 10px; padding: 14px 20px; font-size: 15px; font-weight: 600; font-family: var(--font-body); text-decoration: none; transition: background var(--transition); border: none; cursor: pointer; width: 100%; }
 .story-modal__btn:hover { background: #082A74; }
 .story-modal__btn-icon { width: 18px; height: 18px; flex-shrink: 0; }
+.story-modal__btn-row { display: flex; gap: 10px; }
+.story-modal__btn-row .story-modal__btn { padding: 14px 12px; }
 
 .media-modal-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.65); z-index: 50; display: flex; align-items: center; justify-content: center; padding: 32px; }
 .media-modal { position: relative; width: 100%; }

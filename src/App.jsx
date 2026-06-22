@@ -135,6 +135,22 @@ function movieBtnLabel(url) {
   return 'Rent or buy'
 }
 
+function musicLinks(story) {
+  const urls = [story.mediaUrl, story.secondaryUrl].filter(Boolean)
+  let spotify = null, apple = null
+  urls.forEach(u => {
+    try {
+      const host = new URL(u).hostname.replace('www.', '')
+      if (host.includes('spotify')) spotify = u
+      else if (host.includes('apple') || host.includes('itunes')) apple = u
+    } catch {}
+  })
+  return { spotify, apple }
+}
+
+const SPOTIFY_ICON = <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.1 9.3c-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.32-1.32 11.4-1.02 15.9 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.6-1.56.3z"/></svg>
+const APPLE_ICON = <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><path d="M23.997 6.124a9.23 9.23 0 0 0-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a5.022 5.022 0 0 0-1.877-.726 10.496 10.496 0 0 0-1.564-.15c-.04-.003-.083-.01-.124-.013H5.988c-.152.01-.303.017-.455.026-.747.043-1.49.123-2.193.4-1.336.53-2.3 1.452-2.865 2.78-.192.448-.292.925-.363 1.408-.056.392-.088.785-.1 1.18 0 .032-.007.062-.01.093v12.223c.01.14.017.283.027.424.05.815.154 1.624.49 2.373.617 1.378 1.654 2.32 3.05 2.875.479.19.978.299 1.49.367.563.073 1.13.094 1.697.097 4.243.003 8.485.002 12.728.002.708 0 1.41-.06 2.107-.156.778-.106 1.51-.353 2.183-.752.838-.498 1.49-1.18 1.95-2.046.296-.557.49-1.155.567-1.785.075-.625.106-1.252.106-1.882V6.124zm-12.005 13.32c-.79.022-1.508-.196-2.118-.69-.27-.218-.493-.476-.692-.762-.18-.26-.318-.54-.42-.838-.146-.43-.22-.875-.246-1.327-.026-.46-.014-.918.054-1.374.078-.522.232-1.02.487-1.483.255-.464.59-.864 1.012-1.184.42-.32.89-.534 1.41-.628.31-.056.622-.07.937-.057.49.02.96.122 1.41.32.05.022.07.05.07.106-.002.272 0 .544 0 .816 0 .062-.02.078-.078.054-.39-.16-.795-.246-1.218-.244-.575.003-1.094.166-1.55.51-.42.318-.728.728-.93 1.21-.176.42-.252.86-.262 1.314-.01.452.042.896.18 1.328.13.41.337.78.633 1.094.39.414.866.654 1.43.71.49.05.965-.02 1.42-.21.057-.024.077-.01.077.05-.002.275-.002.55 0 .824 0 .052-.018.08-.066.1-.45.19-.92.286-1.41.292z"/></svg>
+
 function formatDuration(minutes, seconds) {
   if (!minutes && !seconds) return null
   const m = minutes || 0
@@ -253,7 +269,28 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
           )}
           {duration && <span className="story-modal__duration">{duration}</span>}
         </div>
-        {hasMedia && (
+        {t === 'music' ? (
+          (() => {
+            const { spotify, apple } = musicLinks(story)
+            if (!spotify && !apple) return null
+            return (
+              <div className="story-modal__btn-row">
+                {spotify && (
+                  <a href={spotify} target="_blank" rel="noreferrer" className="story-modal__btn">
+                    {SPOTIFY_ICON}
+                    Listen on Spotify
+                  </a>
+                )}
+                {apple && (
+                  <a href={apple} target="_blank" rel="noreferrer" className="story-modal__btn">
+                    {APPLE_ICON}
+                    Listen in Apple Music
+                  </a>
+                )}
+              </div>
+            )
+          })()
+        ) : hasMedia && (
           t === 'video' ? (
             <button className="story-modal__btn" onClick={() => onOpenMedia(story)}>
               <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><polygon points="5,3 19,12 5,21"/></svg>
@@ -647,7 +684,28 @@ export default function App() {
                     {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
                     {duration && <span className="story-modal__duration">{duration}</span>}
                   </div>
-                  {hasMedia && (
+                  {t === 'music' ? (
+                    (() => {
+                      const { spotify, apple } = musicLinks(s)
+                      if (!spotify && !apple) return null
+                      return (
+                        <div className="story-modal__btn-row">
+                          {spotify && (
+                            <a href={spotify} target="_blank" rel="noreferrer" className="story-modal__btn">
+                              {SPOTIFY_ICON}
+                              Listen on Spotify
+                            </a>
+                          )}
+                          {apple && (
+                            <a href={apple} target="_blank" rel="noreferrer" className="story-modal__btn">
+                              {APPLE_ICON}
+                              Listen in Apple Music
+                            </a>
+                          )}
+                        </div>
+                      )
+                    })()
+                  ) : hasMedia && (
                     <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
                       {isVideo
                         ? <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><polygon points="5,3 19,12 5,21"/></svg>
