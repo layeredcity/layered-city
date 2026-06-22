@@ -84,6 +84,7 @@ async function refreshSpotify(refreshToken) {
   // Spotify may or may not return a new refresh token; keep the old one if not.
   const refresh = data.refresh_token || refreshToken
   writeFileSync(TOKEN_CACHE, JSON.stringify({ refresh_token: refresh }, null, 2))
+  GRANTED_SCOPE = data.scope || ''
   return data.access_token
 }
 
@@ -119,6 +120,7 @@ function authorizeSpotify() {
       if (!tokRes.ok) fail('Spotify token exchange failed: ' + (await tokRes.text()))
       const data = await tokRes.json()
       writeFileSync(TOKEN_CACHE, JSON.stringify({ refresh_token: data.refresh_token }, null, 2))
+      GRANTED_SCOPE = data.scope || ''
       resolve(data.access_token)
     })
 
@@ -132,6 +134,7 @@ function authorizeSpotify() {
 }
 
 let ACCESS_TOKEN = null
+let GRANTED_SCOPE = ''
 async function spotify(path, opts = {}) {
   const res = await fetch('https://api.spotify.com/v1' + path, {
     ...opts,
@@ -249,7 +252,14 @@ async function main() {
   console.log('Authenticating with Spotify…')
   ACCESS_TOKEN = await spotifyToken()
   const me = await spotify('/me')
-  console.log(`Connected as Spotify user: ${me.display_name || me.id}`)
+  console.log(`Connected as Spotify user: ${me.display_name || me.id} (id: ${me.id})`)
+  console.log(`Granted scopes: ${GRANTED_SCOPE || '(none reported)'}`)
+  if (!/playlist-modify-public/.test(GRANTED_SCOPE)) {
+    console.log('⚠ The token is missing "playlist-modify-public". Re-authorize cleanly:')
+    console.log('   1) Remove the app at https://www.spotify.com/account/apps/')
+    console.log('   2) Delete .spotify-token.json in the project root')
+    console.log('   3) Run npm run playlists again and click Agree on the consent screen.')
+  }
 
   const locale = await defaultLocale()
   await ensurePlaylistField()
