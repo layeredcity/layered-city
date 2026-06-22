@@ -283,13 +283,13 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
             return (
               <div className="story-modal__btn-row">
                 {spotify && (
-                  <a href={spotify} target="_blank" rel="noreferrer" className="story-modal__btn">
+                  <a href={spotify} target="_blank" rel="noreferrer" className="story-modal__btn story-modal__btn--spotify">
                     {SPOTIFY_ICON}
                     Listen on Spotify
                   </a>
                 )}
                 {apple && (
-                  <a href={apple} target="_blank" rel="noreferrer" className="story-modal__btn">
+                  <a href={apple} target="_blank" rel="noreferrer" className="story-modal__btn story-modal__btn--apple">
                     {APPLE_ICON}
                     Listen on Apple Music
                   </a>
@@ -710,13 +710,13 @@ export default function App() {
                       return (
                         <div className="story-modal__btn-row">
                           {spotify && (
-                            <a href={spotify} target="_blank" rel="noreferrer" className="story-modal__btn">
+                            <a href={spotify} target="_blank" rel="noreferrer" className="story-modal__btn story-modal__btn--spotify">
                               {SPOTIFY_ICON}
                               Listen on Spotify
                             </a>
                           )}
                           {apple && (
-                            <a href={apple} target="_blank" rel="noreferrer" className="story-modal__btn">
+                            <a href={apple} target="_blank" rel="noreferrer" className="story-modal__btn story-modal__btn--apple">
                               {APPLE_ICON}
                               Listen on Apple Music
                             </a>
