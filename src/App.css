@@ -61,6 +61,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .stories-scroll { flex: 1; overflow-y: auto; overscroll-behavior: contain; background: rgb(239 246 255); }
 .stories-scroll::-webkit-scrollbar { width: 4px; }
 .stories-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+.music-playlist-embed { display: block; border: none; border-radius: 12px; margin: 16px 20px 4px; width: calc(100% - 40px); }
 
 .story-group-heading { padding: 10px 16px 8px; font-size: 10px; font-weight: 600; color: var(--ink-light); letter-spacing: 0.09em; text-transform: uppercase; background: rgb(239 246 255); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 1; }
 

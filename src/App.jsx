@@ -587,6 +587,18 @@ export default function App() {
                   <div className="stories-header__title">{currentFilter.label}</div>
                 </div>
                 <div className="stories-scroll">
+                  {isMusicFilter && selectedCity.musicPlaylistSpotify && (
+                    <iframe
+                      className="music-playlist-embed"
+                      src={selectedCity.musicPlaylistSpotify.replace('open.spotify.com/playlist/', 'open.spotify.com/embed/playlist/')}
+                      width="100%"
+                      height="352"
+                      frameBorder="0"
+                      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                      loading="lazy"
+                      title={'Layered City: ' + selectedCity.name + ' playlist'}
+                    />
+                  )}
                   {storiesLoading ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
                   ) : filteredStories.length === 0 ? (

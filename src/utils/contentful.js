@@ -25,6 +25,7 @@ export async function fetchCities() {
     quoteAttribution: item.fields.cityQuoteAttribution,
     mapHeight: item.fields.cityMapHeight,
     latLngDelta: item.fields.latitudeLongitudeDelta,
+    musicPlaylistSpotify: item.fields.musicPlaylistSpotify || null,
   }))
 }
 
