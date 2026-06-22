@@ -437,8 +437,14 @@ export default function App() {
   const filteredStories = useMemo(() =>
     stories
       .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
-      .sort((a, b) => effectiveRatingForStory(b) - effectiveRatingForStory(a)),
-    [stories, currentFilter, effectiveRatingForStory]
+      .sort((a, b) => {
+        const tierDiff = effectiveRatingForStory(b) - effectiveRatingForStory(a)
+        if (tierDiff !== 0) return tierDiff
+        const rA = parseFloat(omdbCache[a.imdbId]?.rating) || 0
+        const rB = parseFloat(omdbCache[b.imdbId]?.rating) || 0
+        return rB - rA
+      }),
+    [stories, currentFilter, effectiveRatingForStory, omdbCache]
   )
 
   const mapStories = detailView === 'overview' ? stories : filteredStories
