@@ -55,6 +55,9 @@ export async function fetchStoriesForCity(cityId) {
       channelIcon: channel?.channelIcon?.fields?.file?.url
         ? 'https:' + channel.channelIcon.fields.file.url
         : null,
+      artworkImage: f.artworkImage?.fields?.file?.url
+        ? 'https:' + f.artworkImage.fields.file.url
+        : null,
       mediaType: f.mediaType || channel?.mediaType || null,
       imdbId: f.imdbId || null,
       releaseYear: f.releaseYear || null,

@@ -164,9 +164,13 @@ function StoryIcon({ story, omdbData }) {
   const shape = iconShape(story.mediaType)
   const label = mediaTypeLabel(story.mediaType)
   const poster = omdbData?.poster
-  if (story.channelIcon || poster) {
-    const isMoviePoster = poster && !story.channelIcon
-    const src = story.channelIcon ? story.channelIcon + '?w=112&h=112&fit=fill' : poster
+  if (story.channelIcon || story.artworkImage || poster) {
+    const isMoviePoster = poster && !story.channelIcon && !story.artworkImage
+    const src = story.channelIcon
+      ? story.channelIcon + '?w=112&h=112&fit=fill'
+      : story.artworkImage
+        ? story.artworkImage + '?w=112&h=112&fit=fill'
+        : poster
     return (
       <img
         className={isMoviePoster ? 'story-item__icon-poster' : 'story-item__icon-' + shape}

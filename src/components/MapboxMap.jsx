@@ -194,9 +194,9 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         const borderRadius = isVideo ? '50%' : '10px'
         const el = document.createElement('div')
         const cachedPoster = story.imdbId ? omdbCacheRef.current?.[story.imdbId]?.poster : null
-        const imgSrc = story.channelIcon || cachedPoster
+        const imgSrc = story.channelIcon || story.artworkImage || cachedPoster
         if (imgSrc) {
-          const isPoster = cachedPoster && !story.channelIcon
+          const isPoster = cachedPoster && !story.channelIcon && !story.artworkImage
           const pinW = isPoster ? '28px' : '36px'
           const pinH = isPoster ? '42px' : '36px'
           const pinR = isPoster ? '4px' : borderRadius
