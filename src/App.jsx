@@ -607,7 +607,7 @@ export default function App() {
                       rel="noreferrer"
                     >
                       {cloneElement(SPOTIFY_ICON, { className: 'playlist-link__icon' })}
-                      Listen to the {filteredStories.length} song playlist
+                      Listen to the {selectedCity.name} playlist
                     </a>
                   )}
                 </div>
