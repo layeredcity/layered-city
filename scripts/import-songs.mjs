@@ -126,7 +126,8 @@ async function main() {
       if ((e.fields.mediaType?.[L] || '').toLowerCase() !== 'music') continue
       const cid = e.fields.relatedCity?.[L]?.sys?.id
       const title = (e.fields.storyTitle?.[L] || '').trim().toLowerCase()
-      if (cid && title) existing.add(cid + '::' + title)
+      const artist = (e.fields.creatorName?.[L] || '').trim().toLowerCase()
+      if (cid && title) existing.add(cid + '::' + title + '::' + artist)
     }
     skip += page.items.length
     if (skip >= page.total || page.items.length === 0) break
@@ -139,13 +140,17 @@ async function main() {
     if (!title || !cityKey) { console.log(`– skipped (missing title or city): ${JSON.stringify(song).slice(0, 80)}`); skipped++; continue }
     const cityId = cityIdByName[cityKey]
     if (!cityId) { console.log(`– skipped "${title}": no city named "${song.city}" in Contentful`); skipped++; continue }
-    if (existing.has(cityId + '::' + title.toLowerCase())) { console.log(`– skipped "${title}" (${song.city}): already exists`); skipped++; continue }
+    const dedupeKey = cityId + '::' + title.toLowerCase() + '::' + (song.artist || '').trim().toLowerCase()
+    if (existing.has(dedupeKey)) { console.log(`– skipped "${title}" — ${song.artist || ''} (${song.city}): already exists`); skipped++; continue }
 
     // Build fields
     const fields = {}
     fields.storyTitle = { [L]: title }
     fields.mediaType = { [L]: 'music' }
     fields.relatedCity = { [L]: { sys: { type: 'Link', linkType: 'Entry', id: cityId } } }
+    if (song.lat != null && song.lon != null && song.lat !== '' && song.lon !== '') {
+      fields.storyLocation = { [L]: { lat: Number(song.lat), lon: Number(song.lon) } }
+    }
     for (const [key, fieldId] of Object.entries(FIELD_MAP)) {
       if (key === 'title' || song[key] == null || song[key] === '') continue
       let val = song[key]
@@ -164,7 +169,7 @@ async function main() {
         body: JSON.stringify({ fields }),
       })
       console.log(`✓ created draft: ${title} — ${song.artist || ''} (${song.city})`)
-      existing.add(cityId + '::' + title.toLowerCase())
+      existing.add(dedupeKey)
       created++
     } catch (e) {
       console.log(`✗ failed "${title}": ${e.message}`)
