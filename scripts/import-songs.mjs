@@ -88,6 +88,16 @@ function coerce(type, value) {
   return String(value)
 }
 
+// Tidy up URL fields: add a scheme if missing and percent-encode spaces /
+// accents (so the search-style links pasted from chat become valid URLs).
+function normalizeUrl(u) {
+  u = String(u).trim()
+  if (!u) return u
+  if (!/^https?:\/\//i.test(u)) u = 'https://' + u
+  if (u.includes(' ') || /[^\x00-\x7F]/.test(u)) { try { u = encodeURI(u) } catch {} }
+  return u
+}
+
 async function main() {
   const inputPath = resolve(process.argv[2] || join(ROOT, 'scripts', 'songs.json'))
   if (!existsSync(inputPath)) fail(`Input file not found: ${inputPath}\nCreate it (see scripts/songs.example.json) or pass a path.`)
@@ -143,6 +153,7 @@ async function main() {
         console.log(`  ! "${title}": description over 256 chars — truncated (Contentful field limit).`)
         val = String(val).slice(0, 256)
       }
+      if (fieldId === 'mediaUrl' || fieldId === 'secondaryUrl') val = normalizeUrl(val)
       fields[fieldId] = { [L]: coerce(fieldType[fieldId], val) }
     }
 
