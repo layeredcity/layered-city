@@ -29,13 +29,13 @@ function slugify(name) {
 
 const FILTERS = [
   { label: 'All',              types: ['podcast', 'video', 'movie', 'tv', 'music', 'book', 'speak', 'audiotour'] },
-  { label: 'Podcast episodes', types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes' },
-  { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true },
-  { label: 'Short videos',     types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos' },
-  { label: 'Audio tours',      types: ['audiotour'],    emptyLabel: 'audio tours',      icon: 'audiotour', unitSingular: 'audio tour', unitPlural: 'audio tours' },
-  { label: 'Movies & TV',      types: ['movie', 'tv'], emptyLabel: 'movies or TV',     icon: 'movie',   unitSingular: 'title',   unitPlural: 'titles' },
-  { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true },
-  { label: 'Words',            types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true },
+  { label: 'Podcast episodes', types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', blurb: 'Conversations and deep dives into the city' },
+  { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of the city through its songs' },
+  { label: 'Short videos',     types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  blurb: 'The city in a few captivating minutes' },
+  { label: 'Audio tours',      types: ['audiotour'],    emptyLabel: 'audio tours',      icon: 'audiotour', unitSingular: 'audio tour', unitPlural: 'audio tours', blurb: 'Walk the streets with a story in your ear' },
+  { label: 'Movies & TV',      types: ['movie', 'tv'], emptyLabel: 'movies or TV',     icon: 'movie',   unitSingular: 'title',   unitPlural: 'titles',  blurb: 'The city as seen on screen' },
+  { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true, blurb: 'The city told through the written word' },
+  { label: 'Words',            types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'A few phrases to speak like a local' },
 ]
 
 const TYPE_ICONS = {
@@ -94,6 +94,7 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
           <div className="overview-item__icon-wrap">{TYPE_ICONS[filter.icon]}</div>
           <div className="overview-item__body">
             <div className="overview-item__label">{filter.label}</div>
+            {filter.blurb && <div className="overview-item__blurb">{filter.blurb}</div>}
             <div className="overview-item__count">{count === 0 ? 'Coming soon' : count + ' ' + (count === 1 ? filter.unitSingular : filter.unitPlural)}</div>
           </div>
           <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
