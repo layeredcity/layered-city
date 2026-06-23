@@ -71,7 +71,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item:hover { background: #dce8f9; }
 .story-item__icon-podcast { width: 56px; height: 56px; border-radius: 14px; object-fit: cover; flex-shrink: 0; background: var(--border); border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon-video { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--border); border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
-.story-item__icon-album { width: 84px; height: 84px; border-radius: 8px; object-fit: cover; flex-shrink: 0; background: var(--border); border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.story-item__icon-album { width: 74px; height: 74px; border-radius: 8px; object-fit: cover; flex-shrink: 0; background: var(--border); border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon-poster { width: 40px; height: 60px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: var(--ink-light); flex-shrink: 0; width: 56px; height: 56px; }
 .story-item__body { flex: 1; min-width: 0; }
