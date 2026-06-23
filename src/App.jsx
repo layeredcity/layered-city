@@ -30,10 +30,10 @@ function slugify(name) {
 const FILTERS = [
   { label: 'All',              types: ['podcast', 'video', 'movie', 'tv', 'music', 'book', 'speak', 'audiotour'] },
   { label: 'Podcast episodes', types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes' },
+  { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true },
   { label: 'Short videos',     types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos' },
   { label: 'Audio tours',      types: ['audiotour'],    emptyLabel: 'audio tours',      icon: 'audiotour', unitSingular: 'audio tour', unitPlural: 'audio tours' },
   { label: 'Movies & TV',      types: ['movie', 'tv'], emptyLabel: 'movies or TV',     icon: 'movie',   unitSingular: 'title',   unitPlural: 'titles' },
-  { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true },
   { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true },
   { label: 'Words',            types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true },
 ]
