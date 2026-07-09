@@ -3,5 +3,6 @@ dist
 .DS_Store
 *.local
 .env
-.claude
+.claude/*
+!.claude/skills/
 scripts/songs.json
