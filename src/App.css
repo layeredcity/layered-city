@@ -21,7 +21,7 @@ html, body, #root { height: 100%; overflow: hidden; }
 body { font-family: var(--font-body); background: var(--cream); color: var(--ink); -webkit-font-smoothing: antialiased; }
 .app { display: flex; height: 100dvh; overflow: hidden; }
 
-.panel-cities { width: var(--panel-city); flex-shrink: 0; background: rgba(255,232,235,0.15); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; z-index: 30; }
+.panel-cities { width: var(--panel-city); flex-shrink: 0; background: linear-gradient(rgba(255,232,235,0.15), rgba(255,232,235,0.15)), var(--cream); border-right: 1px solid var(--border); display: flex; flex-direction: column; overflow: hidden; z-index: 30; position: relative; }
 .panel-cities__header { padding: 16px 10px 16px 10px; border-bottom: 1px solid var(--border); flex-shrink: 0; background: rgba(255,232,235,0.15); }
 .logo { display: flex; align-items: center; gap: 14px; }
 .logo__img { width: 74px; height: 74px; border-radius: 50%; flex-shrink: 0; object-fit: cover; }
