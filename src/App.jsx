@@ -601,10 +601,12 @@ export default function App() {
               className={"city-item" + (selectedCity && selectedCity.id === city.id ? ' city-item--active' : '')}
               onClick={() => selectCity(city)}
             >
-              {city.heroImage
-                ? <img className="city-item__thumb" src={city.heroImage + '?w=128&h=128&fit=fill'} alt={city.name} />
-                : <div className="city-item__thumb city-item__thumb--placeholder">?</div>
-              }
+              <div className="city-item__thumb-wrap">
+                {city.heroImage
+                  ? <img className="city-item__thumb" src={city.heroImage + '?w=128&h=128&fit=fill'} alt={city.name} />
+                  : <div className="city-item__thumb city-item__thumb--placeholder">?</div>
+                }
+              </div>
               <div className="city-item__info">
                 <div className="city-item__name">{city.name}</div>
                 <div className="city-item__country">{city.country}</div>
