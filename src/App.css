@@ -49,6 +49,9 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .panel-detail--open { transform: translateX(0); margin-right: 0; }
 
 .city-hero { position: relative; height: 280px; flex-shrink: 0; overflow: hidden; }
+.city-hero__layer { position: absolute; inset: 0; }
+.city-hero__layer--enter { animation: heroReveal 0.6s cubic-bezier(0.22, 0.61, 0.36, 1) forwards; }
+@keyframes heroReveal { from { opacity: 0; transform: scale(1.045); } to { opacity: 1; transform: scale(1); } }
 .city-hero__img { width: 100%; height: 100%; object-fit: cover; }
 .city-hero__overlay { position: absolute; inset: 0; background: rgba(26,23,20,0.45); }
 .city-hero__text { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; text-align: center; }

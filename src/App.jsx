@@ -377,6 +377,55 @@ function StoryItem({ story, onSelect, omdbData }) {
   )
 }
 
+// Crossfades the hero when switching cities: the incoming image is preloaded,
+// and the whole card (image + name) only swaps once it's ready, so you never
+// see a new city's name over the previous city's photo.
+function CityHero({ city }) {
+  const targetSrc = city.heroImage ? city.heroImage + '?w=840&h=560&fit=fill' : null
+  const [layers, setLayers] = useState([{ key: city.id, src: targetSrc, name: city.name, country: city.country }])
+
+  useEffect(() => {
+    const top = layers[layers.length - 1]
+    if (top && top.key === city.id) return
+    const next = { key: city.id, src: targetSrc, name: city.name, country: city.country }
+    if (!targetSrc) { setLayers([next]); return }
+    let cancelled = false
+    const img = new Image()
+    const reveal = () => { if (!cancelled) setLayers(prev => [prev[prev.length - 1], next]) }
+    img.onload = reveal
+    img.onerror = reveal
+    img.src = targetSrc
+    return () => { cancelled = true }
+  }, [city.id]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  const dropOld = () => setLayers(prev => prev.slice(-1))
+
+  return (
+    <div className="city-hero">
+      {layers.map((L, i) => {
+        const entering = i === layers.length - 1 && layers.length > 1
+        return (
+          <div
+            key={L.key}
+            className={'city-hero__layer' + (entering ? ' city-hero__layer--enter' : '')}
+            onAnimationEnd={entering ? dropOld : undefined}
+          >
+            {L.src
+              ? <img className="city-hero__img" src={L.src} alt={L.name} />
+              : <div className="city-hero__img" style={{ background: 'var(--border)' }} />
+            }
+            <div className="city-hero__overlay" />
+            <div className="city-hero__text">
+              <div className="city-hero__name">{L.name}</div>
+              <div className="city-hero__country">{L.country}</div>
+            </div>
+          </div>
+        )
+      })}
+    </div>
+  )
+}
+
 export default function App() {
   const [cities, setCities] = useState([])
   const [storyCounts, setStoryCounts] = useState({})
@@ -579,17 +628,7 @@ export default function App() {
         )}
         {selectedCity && (
           <div style={{display:'flex',flexDirection:'column',position:'absolute',top:0,left:0,right:0,bottom:0,overflow:'hidden'}}>
-            <div className="city-hero">
-              {selectedCity.heroImage
-                ? <img className="city-hero__img" src={selectedCity.heroImage + '?w=840&h=560&fit=fill'} alt={selectedCity.name} />
-                : <div className="city-hero__img" style={{background:'var(--border)'}} />
-              }
-              <div className="city-hero__overlay" />
-              <div className="city-hero__text">
-                <div className="city-hero__name">{selectedCity.name}</div>
-                <div className="city-hero__country">{selectedCity.country}</div>
-              </div>
-            </div>
+            <CityHero city={selectedCity} />
             <div className={"nav-slide-track" + (detailView === 'stories' ? ' nav-slide-track--stories' : '')}>
               <div className="nav-slide-panel">
                 <CityOverview
