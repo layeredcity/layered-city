@@ -590,7 +590,7 @@ export default function App() {
             <img className="logo__img" src="/logo.png" alt="Layered City" />
             <div className="logo__text-block">
               <div className="logo__title">The guidebook companion for curious travelers in Europe</div>
-              <div className="logo__sub">Curated and written by Ryan Nee</div>
+              <div className="logo__sub">Curated by Ryan Nee</div>
             </div>
           </div>
         </div>
