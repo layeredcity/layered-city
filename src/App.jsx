@@ -546,6 +546,7 @@ export default function App() {
   }, [selectCity])
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
+  const availableFilters = FILTERS.slice(1).filter(f => stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
 
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
@@ -723,7 +724,10 @@ export default function App() {
                 }}
               >
                 <option value="All">All content</option>
-                {FILTERS.slice(1).map(f => <option key={f.label} value={f.label}>{f.label}</option>)}
+                {availableFilters.map(f => <option key={f.label} value={f.label}>{f.label}</option>)}
+                {detailView === 'stories' && activeFilter !== 'All' && !availableFilters.some(f => f.label === activeFilter) && (
+                  <option value={activeFilter}>{activeFilter}</option>
+                )}
               </select>
               <svg className="map-filter__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6"/></svg>
             </div>
