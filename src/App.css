@@ -127,7 +127,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-marker__name { color: white; font-size: 7px; font-weight: 700; font-family: 'IBM Plex Sans', sans-serif; text-align: center; line-height: 1.25; padding: 0 3px; text-transform: uppercase; letter-spacing: 0.01em; width: 100%; overflow-wrap: break-word; }
 .mapbox-map { width: 100%; height: 100%; }
 
-.story-modal-anchor { position: absolute; z-index: 20; transform: translate(-50%, calc(-100% - 14px)); pointer-events: none; max-width: 440px; width: calc(100% - 48px); }
+.story-modal-anchor { position: absolute; z-index: 40; transform: translate(-50%, calc(-100% - 14px)); pointer-events: none; max-width: 440px; width: calc(100% - 48px); }
 .story-modal-arrow { width: 0; height: 0; border-left: 12px solid transparent; border-right: 12px solid transparent; border-top: 14px solid var(--white); margin: 0 auto; filter: drop-shadow(0 3px 3px rgba(0,0,0,0.1)); }
 .story-modal { background: var(--white); border-radius: 16px; box-shadow: 0 8px 48px rgba(0,0,0,0.22); width: 100%; padding: 28px; position: relative; max-height: 70vh; overflow-y: auto; pointer-events: all; }
 .story-modal__close { position: absolute; top: 16px; right: 16px; background: none; border: none; cursor: pointer; color: var(--ink-light); padding: 4px; display: flex; align-items: center; justify-content: center; }
