@@ -55,6 +55,7 @@ const FIELD_MAP = {
   title: 'storyTitle',
   artist: 'creatorName',
   year: 'releaseYear',
+  genre: 'genre',
   description: 'storyDescription',
   spotify: 'mediaUrl',
   apple: 'secondaryUrl',
@@ -99,7 +100,8 @@ function normalizeUrl(u) {
 }
 
 async function main() {
-  const inputPath = resolve(process.argv[2] || join(ROOT, 'scripts', 'songs.json'))
+  const pathArg = process.argv.slice(2).find(a => !a.startsWith('--'))
+  const inputPath = resolve(pathArg || join(ROOT, 'scripts', 'songs.json'))
   if (!existsSync(inputPath)) fail(`Input file not found: ${inputPath}\nCreate it (see scripts/songs.example.json) or pass a path.`)
   let songs
   try { songs = JSON.parse(readFileSync(inputPath, 'utf8')) }
@@ -117,8 +119,12 @@ async function main() {
   const cityIdByName = {}
   for (const c of citiesRes.items) if (c.fields.cityName) cityIdByName[c.fields.cityName.trim().toLowerCase()] = c.sys.id
 
-  // Existing music titles per city (drafts + published), to skip duplicates
-  const existing = new Set()
+  // With --update, existing songs get empty fields filled in (e.g. backfill
+  // genre) instead of being skipped; published entries are re-published.
+  const UPDATE = process.argv.includes('--update')
+
+  // Existing music entries per city (drafts + published): key -> full entry
+  const existing = new Map()
   let skip = 0
   while (true) {
     const page = await cma(`/entries?content_type=story&limit=1000&skip=${skip}`)
@@ -127,27 +133,19 @@ async function main() {
       const cid = e.fields.relatedCity?.[L]?.sys?.id
       const title = (e.fields.storyTitle?.[L] || '').trim().toLowerCase()
       const artist = (e.fields.creatorName?.[L] || '').trim().toLowerCase()
-      if (cid && title) existing.add(cid + '::' + title + '::' + artist)
+      if (cid && title) existing.set(cid + '::' + title + '::' + artist, e)
     }
     skip += page.items.length
     if (skip >= page.total || page.items.length === 0) break
   }
 
-  let created = 0, skipped = 0, failed = 0
-  for (const song of songs) {
-    const title = (song.title || '').trim()
-    const cityKey = (song.city || '').trim().toLowerCase()
-    if (!title || !cityKey) { console.log(`– skipped (missing title or city): ${JSON.stringify(song).slice(0, 80)}`); skipped++; continue }
-    const cityId = cityIdByName[cityKey]
-    if (!cityId) { console.log(`– skipped "${title}": no city named "${song.city}" in Contentful`); skipped++; continue }
-    const dedupeKey = cityId + '::' + title.toLowerCase() + '::' + (song.artist || '').trim().toLowerCase()
-    if (existing.has(dedupeKey)) { console.log(`– skipped "${title}" — ${song.artist || ''} (${song.city}): already exists`); skipped++; continue }
-
-    // Build fields
-    const fields = {}
-    fields.storyTitle = { [L]: title }
-    fields.mediaType = { [L]: 'music' }
-    fields.relatedCity = { [L]: { sys: { type: 'Link', linkType: 'Entry', id: cityId } } }
+  // Build the Contentful field values a song maps to.
+  const buildFields = (song, cityId) => {
+    const fields = {
+      storyTitle: { [L]: (song.title || '').trim() },
+      mediaType: { [L]: 'music' },
+      relatedCity: { [L]: { sys: { type: 'Link', linkType: 'Entry', id: cityId } } },
+    }
     if (song.lat != null && song.lon != null && song.lat !== '' && song.lon !== '') {
       fields.storyLocation = { [L]: { lat: Number(song.lat), lon: Number(song.lon) } }
     }
@@ -155,21 +153,63 @@ async function main() {
       if (key === 'title' || song[key] == null || song[key] === '') continue
       let val = song[key]
       if (fieldId === 'storyDescription' && String(val).length > 256) {
-        console.log(`  ! "${title}": description over 256 chars — truncated (Contentful field limit).`)
+        console.log(`  ! "${song.title}": description over 256 chars — truncated (Contentful field limit).`)
         val = String(val).slice(0, 256)
       }
       if (fieldId === 'mediaUrl' || fieldId === 'secondaryUrl') val = normalizeUrl(val)
       fields[fieldId] = { [L]: coerce(fieldType[fieldId], val) }
     }
+    return fields
+  }
+  const isEmpty = v => v == null || v === ''
 
+  let created = 0, updated = 0, skipped = 0, failed = 0
+  for (const song of songs) {
+    const title = (song.title || '').trim()
+    const cityKey = (song.city || '').trim().toLowerCase()
+    if (!title || !cityKey) { console.log(`– skipped (missing title or city): ${JSON.stringify(song).slice(0, 80)}`); skipped++; continue }
+    const cityId = cityIdByName[cityKey]
+    if (!cityId) { console.log(`– skipped "${title}": no city named "${song.city}" in Contentful`); skipped++; continue }
+    const dedupeKey = cityId + '::' + title.toLowerCase() + '::' + (song.artist || '').trim().toLowerCase()
+
+    if (existing.has(dedupeKey)) {
+      if (!UPDATE) { console.log(`– skipped "${title}" — ${song.artist || ''} (${song.city}): already exists`); skipped++; continue }
+      // Fill-blanks update: only set fields that are currently empty.
+      const entry = existing.get(dedupeKey)
+      const candidate = buildFields(song, cityId)
+      const filled = []
+      for (const [fid, val] of Object.entries(candidate)) {
+        if (fid === 'storyTitle' || fid === 'mediaType' || fid === 'relatedCity') continue
+        if (isEmpty(entry.fields[fid]?.[L])) { entry.fields[fid] = val; filled.push(fid) }
+      }
+      if (!filled.length) { console.log(`= "${title}" (${song.city}): nothing to fill`); skipped++; continue }
+      try {
+        const wasPublished = !!entry.sys.publishedVersion
+        const put = await cma('/entries/' + entry.sys.id, {
+          method: 'PUT',
+          headers: { 'X-Contentful-Version': String(entry.sys.version), 'X-Contentful-Content-Type': 'story' },
+          body: JSON.stringify({ fields: entry.fields }),
+        })
+        if (wasPublished) {
+          await cma('/entries/' + entry.sys.id + '/published', { method: 'PUT', headers: { 'X-Contentful-Version': String(put.sys.version) } })
+        }
+        console.log(`↻ updated ${wasPublished ? '(published)' : '(draft)'}: ${title} — filled ${filled.join(', ')}`)
+        updated++
+      } catch (e) {
+        console.log(`✗ update failed "${title}": ${e.message}`)
+        failed++
+      }
+      continue
+    }
+
+    if (UPDATE) { console.log(`? no match to update: "${title}" — ${song.artist || ''} (${song.city})`); skipped++; continue }
     try {
       await cma('/entries', {
         method: 'POST',
         headers: { 'X-Contentful-Content-Type': 'story' },
-        body: JSON.stringify({ fields }),
+        body: JSON.stringify({ fields: buildFields(song, cityId) }),
       })
       console.log(`✓ created draft: ${title} — ${song.artist || ''} (${song.city})`)
-      existing.add(dedupeKey)
       created++
     } catch (e) {
       console.log(`✗ failed "${title}": ${e.message}`)
@@ -177,8 +217,9 @@ async function main() {
     }
   }
 
-  console.log(`\nDone. ${created} created, ${skipped} skipped, ${failed} failed.`)
-  console.log('All new entries are DRAFTS — finish them in Contentful (album cover, location, etc.) and publish.\n')
+  console.log(`\nDone. ${created} created, ${updated} updated, ${skipped} skipped, ${failed} failed.`)
+  if (created) console.log('New entries are DRAFTS — finish them in Contentful (album cover, etc.) and publish.')
+  console.log('')
 }
 
 main().catch(e => fail(e.message))

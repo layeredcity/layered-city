@@ -32,6 +32,7 @@ Companion skill: `city-music-portrait` *generates* the 15-song content; this ski
      "title": "La Vie en Rose",
      "artist": "Édith Piaf",
      "year": 1947,
+     "genre": "chanson",
      "lat": 38.7156,
      "lon": -9.1245,
      "minutes": 3,
@@ -68,6 +69,8 @@ year · genre · ★rating` line, a `⏱ Duration:` line, a description paragrap
 - **year** — must be a **4-digit integer**. Convert `1950s`→`1955`, `c. 1600`→`1600`,
   `~1965`→`1965` (pick a specific year) and flag the approximation. If the year is
   "traditional" or unknown, **omit** `year` and flag it (it will sort as oldest).
+- **genre** — the genre token from the 📍 line (e.g. `fado`, `synth-pop`, `grime`).
+  Copy it verbatim into `genre`. Maps to the `genre` field.
 - **lat / lon** — from the `(lat, lon)` in the 📍 line. Include both or neither. If only
   a place *name* is given with no coordinates, either geocode it (OpenStreetMap
   Nominatim, then sanity-check it's inside the city) or use a city-center point, and
@@ -90,9 +93,25 @@ year · genre · ★rating` line, a `⏱ Duration:` line, a description paragrap
 - Soft (flag, still import): in-file duplicates; songs missing
   duration/location/year/artist.
 
+## Backfilling fields on existing entries
+
+To add a newly-added field (e.g. `genre`) to songs already in Contentful, run the
+importer with `--update`:
+
+```bash
+npm run import:songs -- --update
+```
+
+In update mode the importer **only fills fields that are currently empty** on a
+matched entry (so it never clobbers manual edits like album covers), and it
+**re-publishes** entries that were already published (drafts stay drafts). It
+matches by `city + title + artist`, so build the JSON from the **live** titles/
+artists (the user may have renamed some) — fetch them from Contentful first, then
+attach the new field. Songs with no match are skipped, never created.
+
 ## Notes
 
-- The importer creates **drafts only** and never publishes.
+- The importer creates **drafts only** and never publishes (except re-publishing in `--update`).
 - `scripts/songs.json` is gitignored (transient working data). `scripts/songs.example.json`
   is the committed template.
 - For a single song ("add this one to Lisbon"), same flow — a one-element array.
