@@ -60,6 +60,7 @@ export async function fetchStoriesForCity(cityId) {
         ? 'https:' + f.artworkImage.fields.file.url
         : null,
       mediaType: f.mediaType || channel?.mediaType || null,
+      genre: f.genre || null,
       imdbId: f.imdbId || null,
       releaseYear: f.releaseYear || null,
       season: f.seasonNumber || null,

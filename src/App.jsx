@@ -280,8 +280,12 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
               {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
             </>
           )}
-          {t === 'music' && story.releaseYear && <span className="story-modal__duration">{story.releaseYear}</span>}
-          {duration && <span className="story-modal__duration">{duration}</span>}
+          {t === 'music'
+            ? [story.releaseYear, story.genre, duration].filter(Boolean).length > 0 && (
+                <span className="story-modal__duration">{[story.releaseYear, story.genre, duration].filter(Boolean).join(' · ')}</span>
+              )
+            : duration && <span className="story-modal__duration">{duration}</span>
+          }
         </div>
         {t === 'music' ? (
           (() => {
@@ -343,9 +347,9 @@ function StoryItem({ story, onSelect, omdbData }) {
               <span className="story-item__type">{label}</span>
               {story.creatorName && <span className="story-item__source"> by {story.creatorName}</span>}
             </div>
-            {(story.releaseYear || duration) && (
+            {(story.releaseYear || story.genre || duration) && (
               <div className="story-item__meta">
-                <span className="story-item__source">{[story.releaseYear, duration].filter(Boolean).join(' · ')}</span>
+                <span className="story-item__source">{[story.releaseYear, story.genre, duration].filter(Boolean).join(' · ')}</span>
               </div>
             )}
           </>
@@ -787,8 +791,12 @@ export default function App() {
                   <div className="story-modal__meta">
                     <QualityStars rating={s.qualityRating} />
                     {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
-                    {t === 'music' && s.releaseYear && <span className="story-modal__duration">{s.releaseYear}</span>}
-                    {duration && <span className="story-modal__duration">{duration}</span>}
+                    {t === 'music'
+                      ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
+                          <span className="story-modal__duration">{[s.releaseYear, s.genre, duration].filter(Boolean).join(' · ')}</span>
+                        )
+                      : duration && <span className="story-modal__duration">{duration}</span>
+                    }
                   </div>
                   {t === 'music' ? (
                     (() => {
