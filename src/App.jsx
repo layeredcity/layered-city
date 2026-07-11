@@ -708,6 +708,27 @@ export default function App() {
           </div>
         )}
         <MediaModal story={mediaStory} onClose={() => setMediaStory(null)} />
+        {selectedCity && (
+          <div className="map-filter">
+            <span className="map-filter__label">Show</span>
+            <div className="map-filter__select-wrap">
+              <select
+                className="map-filter__select"
+                value={detailView === 'overview' ? 'All' : activeFilter}
+                onChange={e => {
+                  const v = e.target.value
+                  closeStoryWithFade()
+                  if (v === 'All') { setActiveFilter('All'); setDetailView('overview') }
+                  else { setActiveFilter(v); setDetailView('stories') }
+                }}
+              >
+                <option value="All">All content</option>
+                {FILTERS.slice(1).map(f => <option key={f.label} value={f.label}>{f.label}</option>)}
+              </select>
+              <svg className="map-filter__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Mobile story detail panel */}
