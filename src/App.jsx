@@ -29,7 +29,7 @@ function slugify(name) {
 
 const FILTERS = [
   { label: 'All',              types: ['podcast', 'video', 'movie', 'tv', 'music', 'book', 'speak', 'audiotour'] },
-  { label: 'Podcast episodes', types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', blurb: 'Conversations about {city}' },
+  { label: 'Podcasts',         types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', blurb: 'Episodes about {city}' },
   { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of {city} through its songs' },
   { label: 'Short videos',     types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  blurb: '{city} in a few captivating minutes' },
   { label: 'Audio tours',      types: ['audiotour'],    emptyLabel: 'audio tours',      icon: 'audiotour', unitSingular: 'audio tour', unitPlural: 'audio tours', blurb: 'Walk {city} with a story in your ear' },
