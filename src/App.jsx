@@ -35,7 +35,7 @@ const FILTERS = [
   { label: 'Audio tours',      types: ['audiotour'],    emptyLabel: 'audio tours',      icon: 'audiotour', unitSingular: 'audio tour', unitPlural: 'audio tours', blurb: 'Walk {city} with a story in your ear' },
   { label: 'Movies & TV',      types: ['movie', 'tv'], emptyLabel: 'movies or TV',     icon: 'movie',   unitSingular: 'title',   unitPlural: 'titles',  blurb: '{city} as seen on screen' },
   { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true, blurb: '{city} told through the written word' },
-  { label: 'Words',            types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Phrases to speak like a local in {city}' },
+  { label: 'Words',            types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Speak like a local in {city}' },
 ]
 
 const TYPE_ICONS = {
