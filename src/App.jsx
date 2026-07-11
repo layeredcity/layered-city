@@ -112,6 +112,10 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
   )
 }
 
+function capFirst(s) {
+  return s ? s.charAt(0).toUpperCase() + s.slice(1) : s
+}
+
 function mediaTypeLabel(type) {
   if (!type) return 'Story'
   const t = type.toLowerCase()
@@ -282,7 +286,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
           )}
           {t === 'music'
             ? [story.releaseYear, story.genre, duration].filter(Boolean).length > 0 && (
-                <span className="story-modal__duration">{[story.releaseYear, story.genre, duration].filter(Boolean).join(' · ')}</span>
+                <span className="story-modal__duration">{[story.releaseYear, capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
               )
             : duration && <span className="story-modal__duration">{duration}</span>
           }
@@ -349,7 +353,7 @@ function StoryItem({ story, onSelect, omdbData }) {
             </div>
             {(story.releaseYear || story.genre || duration) && (
               <div className="story-item__meta">
-                <span className="story-item__source">{[story.releaseYear, story.genre, duration].filter(Boolean).join(' · ')}</span>
+                <span className="story-item__source">{[story.releaseYear, capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
               </div>
             )}
           </>
@@ -793,7 +797,7 @@ export default function App() {
                     {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
                     {t === 'music'
                       ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
-                          <span className="story-modal__duration">{[s.releaseYear, s.genre, duration].filter(Boolean).join(' · ')}</span>
+                          <span className="story-modal__duration">{[s.releaseYear, capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
                         )
                       : duration && <span className="story-modal__duration">{duration}</span>
                     }
