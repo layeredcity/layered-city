@@ -251,7 +251,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
           <div className="story-modal__header-text">
             <div className="story-modal__type">
               {label}
-              {story.releaseYear && t !== 'music' && <span className="story-modal__year"> · {story.releaseYear}</span>}
+              {story.releaseYear && t !== 'music' && t !== 'book' && <span className="story-modal__year"> · {story.releaseYear}</span>}
               {story.season && story.episode && <span className="story-modal__year"> · S{story.season} E{story.episode}</span>}
             </div>
             {story.creatorName && <div className="story-modal__channel">{t === 'movie' || t === 'tv' ? 'Directed by' : 'By'} {story.creatorName}</div>}
@@ -294,7 +294,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
               {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
             </>
           )}
-          {t === 'music'
+          {t === 'music' || t === 'book'
             ? [story.releaseYear, story.genre, duration].filter(Boolean).length > 0 && (
                 <span className="story-modal__duration">{[story.releaseYear, capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
               )
@@ -357,7 +357,7 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
       <StoryIcon story={story} omdbData={omdbData} bookData={bookData} />
       <div className="story-item__body">
         <div className="story-item__title">{story.title}</div>
-        {t === 'music' ? (
+        {(t === 'music' || isBook) ? (
           <>
             <div className="story-item__meta">
               <span className="story-item__type">{label}</span>
@@ -588,12 +588,13 @@ export default function App() {
   }, [omdbCache])
 
   const isMusicFilter = currentFilter.types.length === 1 && currentFilter.types[0] === 'music'
+  const isChronoFilter = currentFilter.types.length === 1 && (currentFilter.types[0] === 'music' || currentFilter.types[0] === 'book')
 
   const filteredStories = useMemo(() =>
     stories
       .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
       .sort((a, b) => {
-        if (isMusicFilter) {
+        if (isChronoFilter) {
           return (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0)
         }
         const tierDiff = effectiveRatingForStory(b) - effectiveRatingForStory(a)
@@ -602,7 +603,7 @@ export default function App() {
         const rB = parseFloat(omdbCache[b.imdbId]?.rating) || 0
         return rB - rA
       }),
-    [stories, currentFilter, effectiveRatingForStory, omdbCache, isMusicFilter]
+    [stories, currentFilter, effectiveRatingForStory, omdbCache, isChronoFilter]
   )
 
   const mapStories = detailView === 'overview' ? stories : filteredStories
@@ -797,7 +798,7 @@ export default function App() {
                     <div className="story-modal__header-text">
                       <div className="story-modal__type">
                         {label}
-                        {s.releaseYear && t !== 'music' && <span className="story-modal__year"> · {s.releaseYear}</span>}
+                        {s.releaseYear && t !== 'music' && t !== 'book' && <span className="story-modal__year"> · {s.releaseYear}</span>}
                         {s.season && s.episode && <span className="story-modal__year"> · S{s.season} E{s.episode}</span>}
                       </div>
                       {s.creatorName && <div className="story-modal__channel">{(s.mediaType||'').toLowerCase() === 'movie' || (s.mediaType||'').toLowerCase() === 'tv' ? 'Directed by' : 'By'} {s.creatorName}</div>}
@@ -832,7 +833,7 @@ export default function App() {
                         {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
                       </>
                     )}
-                    {t === 'music'
+                    {t === 'music' || t === 'book'
                       ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
                           <span className="story-modal__duration">{[s.releaseYear, capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
                         )
