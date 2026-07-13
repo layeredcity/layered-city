@@ -24,12 +24,13 @@ const SYLLABLE_BREAKS = {
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
-export default function MapboxMap({ city, cities, allStories, stories, omdbCache, focusStory, onStoryPin, onStoryClick, onCityClick }) {
+export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
-  const markerDataRef = useRef([]) // { el, id, imdbId }
+  const markerDataRef = useRef([]) // { el, id, imdbId, isbn }
   const omdbCacheRef = useRef(omdbCache)
+  const bookCacheRef = useRef(bookCache)
   const cityMarkersRef = useRef([])
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
@@ -37,6 +38,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const movListenerRef = useRef(null)
   const visibleIdsRef = useRef(new Set())
   omdbCacheRef.current = omdbCache
+  bookCacheRef.current = bookCache
 
   useEffect(() => {
     if (!containerRef.current) return
@@ -194,9 +196,11 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         const borderRadius = isVideo ? '50%' : '10px'
         const el = document.createElement('div')
         const cachedPoster = story.imdbId ? omdbCacheRef.current?.[story.imdbId]?.poster : null
-        const imgSrc = story.channelIcon || story.artworkImage || cachedPoster
+        const cachedCover = story.isbn ? bookCacheRef.current?.[story.isbn]?.cover : null
+        const portraitImg = cachedPoster || cachedCover
+        const imgSrc = story.channelIcon || story.artworkImage || portraitImg
         if (imgSrc) {
-          const isPoster = cachedPoster && !story.channelIcon && !story.artworkImage
+          const isPoster = portraitImg && !story.channelIcon && !story.artworkImage
           const pinW = isPoster ? '28px' : '36px'
           const pinH = isPoster ? '42px' : '36px'
           const pinR = isPoster ? '4px' : borderRadius
@@ -210,7 +214,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
           .setLngLat([lon, lat])
           .addTo(map)
         markersRef.current.push(marker)
-        markerDataRef.current.push({ el, id: story.id, imdbId: story.imdbId || null })
+        markerDataRef.current.push({ el, id: story.id, imdbId: story.imdbId || null, isbn: story.isbn || null })
       })
 
       const animEnd = (citySelectedAtRef.current || 0) + PANEL_TRANSITION + FLY_DURATION
@@ -251,6 +255,22 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       el.textContent = ''
     })
   }, [omdbCache])
+
+  useEffect(() => {
+    if (!bookCache) return
+    markerDataRef.current.forEach(({ el, isbn }) => {
+      if (!isbn) return
+      const book = bookCache[isbn]
+      if (!book?.cover) return
+      el.style.backgroundImage = `url(${book.cover})`
+      el.style.backgroundSize = 'cover'
+      el.style.backgroundPosition = 'center'
+      el.style.width = '28px'
+      el.style.height = '42px'
+      el.style.borderRadius = '4px'
+      el.textContent = ''
+    })
+  }, [bookCache])
 
   return <div ref={containerRef} className="mapbox-map" />
 }

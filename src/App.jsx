@@ -189,19 +189,21 @@ function QualityStars({ rating, max = 5 }) {
   )
 }
 
-function StoryIcon({ story, omdbData }) {
+function StoryIcon({ story, omdbData, bookData }) {
   const shape = iconShape(story.mediaType)
   const label = mediaTypeLabel(story.mediaType)
   const poster = omdbData?.poster
-  if (story.channelIcon || story.artworkImage || poster) {
-    const isMoviePoster = poster && !story.channelIcon && !story.artworkImage
+  const cover = bookData?.cover
+  if (story.channelIcon || story.artworkImage || poster || cover) {
+    // Movie posters and book covers are both portrait (2:3).
+    const isPortrait = (poster || cover) && !story.channelIcon && !story.artworkImage
     const isAlbum = story.artworkImage && !story.channelIcon
     const src = story.channelIcon
       ? story.channelIcon + '?w=112&h=112&fit=fill'
       : story.artworkImage
         ? story.artworkImage + '?w=256&h=256&fit=fill'
-        : poster
-    const className = isMoviePoster
+        : (poster || cover)
+    const className = isPortrait
       ? 'story-item__icon-poster'
       : isAlbum
         ? 'story-item__icon-album'
@@ -224,10 +226,11 @@ function StoryIcon({ story, omdbData }) {
   )
 }
 
-function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
+function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
   if (!story) return null
   const label = mediaTypeLabel(story.mediaType)
   const duration = formatDuration(story.minutes, story.seconds)
+  const bookRating = story.mediaType?.toLowerCase() === 'book' ? bookData?.rating : null
   const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   const qualityLabel = QUALITY_LABELS[effectiveRating] || null
   const url = story.mediaUrl || story.secondaryUrl || null
@@ -243,7 +246,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
         </button>
         <div className="story-modal__header">
-          <StoryIcon story={story} omdbData={omdbData} />
+          <StoryIcon story={story} omdbData={omdbData} bookData={bookData} />
           <div className="story-modal__header-text">
             <div className="story-modal__type">
               {label}
@@ -279,6 +282,11 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
                 {omdbData.rating}<span className="story-modal__imdb-max">/10</span>
               </div>
             )
+          ) : bookRating ? (
+            <div className="story-modal__imdb">
+              <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+              {bookRating}<span className="story-modal__imdb-max">/5</span>
+            </div>
           ) : (
             <>
               <QualityStars rating={effectiveRating} />
@@ -335,15 +343,16 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData }) {
   )
 }
 
-function StoryItem({ story, onSelect, omdbData }) {
+function StoryItem({ story, onSelect, omdbData, bookData }) {
   const duration = formatDuration(story.minutes, story.seconds)
   const label = mediaTypeLabel(story.mediaType)
   const t = (story.mediaType || '').toLowerCase()
   const isMovieOrTV = t === 'movie' || t === 'tv'
+  const bookRating = t === 'book' ? bookData?.rating : null
   const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   return (
     <div className="story-item" onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
-      <StoryIcon story={story} omdbData={omdbData} />
+      <StoryIcon story={story} omdbData={omdbData} bookData={bookData} />
       <div className="story-item__body">
         <div className="story-item__title">{story.title}</div>
         {t === 'music' ? (
@@ -380,7 +389,13 @@ function StoryItem({ story, onSelect, omdbData }) {
             {omdbData.rating}<span className="story-item__imdb-max">/10</span>
           </div>
         )}
-        {!isMovieOrTV && <QualityStars rating={effectiveRating} />}
+        {bookRating && (
+          <div className="story-item__imdb">
+            <svg viewBox="0 0 24 24" fill="#f5c518" width="12" height="12"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            {bookRating}<span className="story-item__imdb-max">/5</span>
+          </div>
+        )}
+        {!isMovieOrTV && !bookRating && <QualityStars rating={effectiveRating} />}
       </div>
     </div>
   )
@@ -690,7 +705,7 @@ export default function App() {
                       const label = rating === 0 ? null : rating === 5 && group.length > 1 ? "Ryan's picks" : QUALITY_LABELS[rating]
                       return [
                         label ? <div key={'heading-' + rating} className="story-group-heading">{label}</div> : null,
-                        ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} />)
+                        ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} bookData={bookCache[story.isbn]} />)
                       ].filter(Boolean)
                     })
                   )}
@@ -708,6 +723,7 @@ export default function App() {
           allStories={stories}
           stories={mapStories}
           omdbCache={omdbCache}
+          bookCache={bookCache}
           onCityClick={selectCity}
           focusStory={selectedStory}
           onStoryClick={setSelectedStory}
@@ -720,7 +736,7 @@ export default function App() {
         />
         {selectedStory && (
           <div ref={modalAnchorRef} className="story-modal-anchor">
-            <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} onOpenMedia={setMediaStory} omdbData={omdbData} />
+            <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} onOpenMedia={setMediaStory} omdbData={omdbData} bookData={bookData} />
             <div className="story-modal-arrow" />
           </div>
         )}
@@ -775,7 +791,7 @@ export default function App() {
               <div className="panel-story__scroll">
                 <div className="panel-story__content">
                   <div className="story-modal__header">
-                    <StoryIcon story={s} omdbData={omdbData} />
+                    <StoryIcon story={s} omdbData={omdbData} bookData={bookData} />
                     <div className="story-modal__header-text">
                       <div className="story-modal__type">
                         {label}
@@ -801,8 +817,17 @@ export default function App() {
                     </>
                   )}
                   <div className="story-modal__meta">
-                    <QualityStars rating={s.qualityRating} />
-                    {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
+                    {t === 'book' && bookData?.rating ? (
+                      <div className="story-modal__imdb">
+                        <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        {bookData.rating}<span className="story-modal__imdb-max">/5</span>
+                      </div>
+                    ) : (
+                      <>
+                        <QualityStars rating={s.qualityRating} />
+                        {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
+                      </>
+                    )}
                     {t === 'music'
                       ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
                           <span className="story-modal__duration">{[s.releaseYear, capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
