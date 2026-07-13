@@ -135,7 +135,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item__icon--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: var(--ink-light); flex-shrink: 0; width: 56px; height: 56px; }
 .story-item__icon--placeholder-poster { width: 60px; height: 90px; border-radius: 2px; font-size: 11px; letter-spacing: 0.03em; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 /* Movie/TV: poster is a DVD/Blu-ray case; a shiny disc slides out on hover. */
-.story-item__icon-case { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 680px; --case-slide: -14px; }
+.story-item__icon-case { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 680px; --case-slide: -10px; }
 .story-item__icon-case .story-item__icon-poster,
 .story-item__icon-case .story-item__icon--placeholder-poster {
   position: relative; z-index: 1; transform-origin: left center;
@@ -338,7 +338,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   .story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(12px) rotate(22deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
   .story-item__icon-poster { width: 88px; height: 132px; }
   .story-item__icon--placeholder-poster { width: 88px; height: 132px; font-size: 14px; }
-  .story-item__icon-case { --case-slide: -22px; }
+  .story-item__icon-case { --case-slide: -18px; }
   .story-item__icon-case__disc { width: 88px; height: 88px; margin-top: -44px; }
   .story-item__icon-poster--book { width: 96px; height: 132px; }
 
