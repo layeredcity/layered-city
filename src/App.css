@@ -112,9 +112,9 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item__icon-book__pages {
   position: absolute; inset: 0; border-radius: 1px 3px 3px 1px;
   background:
-    repeating-linear-gradient(to right, rgba(70,55,30,0.10) 0, rgba(70,55,30,0.10) 1px, transparent 1px, transparent 3px),
-    linear-gradient(to right, #efe7d6 0%, #fbf6ec 55%, #ece2cd 100%);
-  box-shadow: inset -2px 0 3px rgba(0,0,0,0.10), inset 2px 0 4px rgba(0,0,0,0.14);
+    repeating-linear-gradient(to right, rgba(150,130,95,0.09) 0, rgba(150,130,95,0.09) 1px, transparent 1px, transparent 3px),
+    linear-gradient(to right, #f6efe0 0%, #fffdf7 60%, #f4edde 100%);
+  box-shadow: inset -2px 0 2px rgba(0,0,0,0.06), inset 1px 0 2px rgba(0,0,0,0.07);
   /* Tilt the page block so its fore-edge leans toward the viewer: perspective
      then renders the front pages taller and the ones near the spine shorter. */
   transform-origin: left center; transform: rotateY(-14deg);
@@ -129,7 +129,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   transition: transform 0.5s cubic-bezier(.2,.7,.2,1);
 }
 .story-item:hover .story-item__icon-book__cover,
-.story-item__icon-book:hover .story-item__icon-book__cover { transform: rotateY(-34deg); }
+.story-item__icon-book:hover .story-item__icon-book__cover { transform: rotateY(-40deg); }
 /* Binding lines live on the cover so they swing with it. */
 .story-item__icon-book__cover::before,
 .story-item__icon-book__cover::after { content: ''; position: absolute; top: 0; bottom: 0; width: 1px; pointer-events: none; z-index: 1; }
