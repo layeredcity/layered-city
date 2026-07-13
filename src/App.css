@@ -239,6 +239,10 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-modal__btn { display: flex; align-items: center; justify-content: center; gap: 10px; background: #153B8F; color: white; border-radius: 10px; padding: 14px 20px; font-size: 15px; font-weight: 600; font-family: var(--font-body); text-decoration: none; transition: background var(--transition); border: none; cursor: pointer; width: 100%; }
 .story-modal__btn:hover { background: #082A74; }
 .story-modal__btn-icon { width: 18px; height: 18px; flex-shrink: 0; }
+/* Brand favicons rendered as small rounded chips (Goodreads "g", Bookshop "B"). */
+.brand-favicon { display: inline-flex; align-items: center; justify-content: center; width: 20px; height: 20px; border-radius: 4px; flex-shrink: 0; font-family: var(--font-display); font-size: 15px; line-height: 1; }
+.brand-favicon--goodreads { background: #ECE4D2; color: #33170A; }
+.brand-favicon--bookshop { background: #5B3F91; color: #ffffff; }
 .story-modal__btn--spotify { background: #1DB954; }
 .story-modal__btn--spotify:hover { background: #1aa34a; }
 .story-modal__btn--apple { background: #FA243C; }
