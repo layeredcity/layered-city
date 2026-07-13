@@ -206,8 +206,16 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
           const pinR = isPoster ? '4px' : borderRadius
           el.style.cssText = 'width:' + pinW + ';height:' + pinH + ';border-radius:' + pinR + ';background-image:url(' + imgSrc + ');background-size:cover;background-position:center;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;opacity:0;transition:opacity 0.35s ease;'
         } else {
-          el.style.cssText = 'width:32px;height:32px;border-radius:' + borderRadius + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease;'
-          el.textContent = (story.mediaType || '').slice(0, 3).toUpperCase()
+          const t = (story.mediaType || '').toLowerCase()
+          // Book/movie/TV pins are portrait (2:3) when they have art; match that
+          // for their text placeholders too, and spell out BOOK rather than "BOO".
+          const isPortraitType = t === 'book' || t === 'movie' || t === 'tv'
+          const boxW = isPortraitType ? '28px' : '32px'
+          const boxH = isPortraitType ? '42px' : '32px'
+          const boxR = isPortraitType ? '4px' : borderRadius
+          const fontSize = isPortraitType ? '8px' : '10px'
+          el.style.cssText = 'width:' + boxW + ';height:' + boxH + ';border-radius:' + boxR + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:' + fontSize + ';font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease;'
+          el.textContent = t === 'book' ? 'BOOK' : (story.mediaType || '').slice(0, 3).toUpperCase()
         }
         el.addEventListener('click', () => onStoryClick?.(story))
         // Wrap the visual element so Mapbox positions the wrapper and only ever

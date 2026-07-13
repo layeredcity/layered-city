@@ -239,12 +239,16 @@ function StoryIcon({ story, omdbData, bookData }) {
       />
     )
   }
+  const t = (story.mediaType || '').toLowerCase()
+  // Book/movie/TV covers render portrait (2:3); their placeholders should match.
+  const isPortraitType = t === 'book' || t === 'movie' || t === 'tv'
+  const placeholderLabel = t === 'book' ? 'BOOK' : label.slice(0,3).toUpperCase()
   return (
     <div
-      className="story-item__icon--placeholder"
-      style={{borderRadius: shape === 'video' ? '50%' : '14px'}}
+      className={'story-item__icon--placeholder' + (isPortraitType ? ' story-item__icon--placeholder-poster' : '')}
+      style={isPortraitType ? undefined : {borderRadius: shape === 'video' ? '50%' : '14px'}}
     >
-      {label.slice(0,3).toUpperCase()}
+      {placeholderLabel}
     </div>
   )
 }
