@@ -215,8 +215,14 @@ function QualityStars({ rating, max = 5 }) {
 function StoryIcon({ story, omdbData, bookData }) {
   const shape = iconShape(story.mediaType)
   const label = mediaTypeLabel(story.mediaType)
+  const t = (story.mediaType || '').toLowerCase()
+  const isBook = t === 'book'
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
+  // Books get a faux spine: wrap the portrait cover/placeholder so we can draw
+  // binding lines and give it asymmetric (book-like) corner rounding.
+  const wrapBook = (el) => isBook ? <span className="story-item__icon-book">{el}</span> : el
+
   if (story.channelIcon || story.artworkImage || poster || cover) {
     // Movie posters and book covers are both portrait (2:3).
     const isPortrait = (poster || cover) && !story.channelIcon && !story.artworkImage
@@ -227,30 +233,31 @@ function StoryIcon({ story, omdbData, bookData }) {
         ? story.artworkImage + '?w=256&h=256&fit=fill'
         : (poster || cover)
     const className = isPortrait
-      ? 'story-item__icon-poster'
+      ? 'story-item__icon-poster' + (isBook ? ' story-item__icon-poster--book' : '')
       : isAlbum
         ? 'story-item__icon-album'
         : 'story-item__icon-' + shape
-    return (
+    const img = (
       <img
         className={className}
         src={src}
         alt={story.channelName || story.title}
       />
     )
+    return isPortrait ? wrapBook(img) : img
   }
-  const t = (story.mediaType || '').toLowerCase()
   // Book/movie/TV covers render portrait (2:3); their placeholders should match.
-  const isPortraitType = t === 'book' || t === 'movie' || t === 'tv'
-  const placeholderLabel = t === 'book' ? 'BOOK' : label.slice(0,3).toUpperCase()
-  return (
+  const isPortraitType = isBook || t === 'movie' || t === 'tv'
+  const placeholderLabel = isBook ? 'BOOK' : label.slice(0,3).toUpperCase()
+  const placeholder = (
     <div
-      className={'story-item__icon--placeholder' + (isPortraitType ? ' story-item__icon--placeholder-poster' : '')}
+      className={'story-item__icon--placeholder' + (isPortraitType ? ' story-item__icon--placeholder-poster' : '') + (isBook ? ' story-item__icon-poster--book' : '')}
       style={isPortraitType ? undefined : {borderRadius: shape === 'video' ? '50%' : '14px'}}
     >
       {placeholderLabel}
     </div>
   )
+  return wrapBook(placeholder)
 }
 
 function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
