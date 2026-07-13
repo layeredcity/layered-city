@@ -3,7 +3,7 @@ import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import { fetchOmdbData } from './utils/omdb'
-import { fetchBook } from './utils/googlebooks'
+import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 
