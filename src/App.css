@@ -126,9 +126,35 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.05); }
 }
-.story-item__icon-poster { width: 40px; height: 60px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.story-item__icon-poster { width: 60px; height: 90px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: var(--ink-light); flex-shrink: 0; width: 56px; height: 56px; }
-.story-item__icon--placeholder-poster { width: 40px; height: 60px; border-radius: 2px; font-size: 11px; letter-spacing: 0.03em; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.story-item__icon--placeholder-poster { width: 60px; height: 90px; border-radius: 2px; font-size: 11px; letter-spacing: 0.03em; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+/* Movie/TV: poster is a DVD/Blu-ray case; a shiny disc slides out on hover. */
+.story-item__icon-case { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 680px; }
+.story-item__icon-case .story-item__icon-poster,
+.story-item__icon-case .story-item__icon--placeholder-poster {
+  position: relative; z-index: 1; transform-origin: left center;
+  transition: transform 0.55s cubic-bezier(.2,.7,.2,1), box-shadow 0.55s ease;
+}
+.story-item__icon-case__disc {
+  position: absolute; top: 50%; left: 0; width: 60px; height: 60px; margin-top: -30px; border-radius: 50%; z-index: 0;
+  background:
+    radial-gradient(circle at 50% 50%, #111 0 6%, rgba(0,0,0,0) 6.4%),
+    radial-gradient(circle at 50% 50%, #e6e9ee 0 14%, #a9b1bd 14% 16.5%, rgba(0,0,0,0) 17%),
+    conic-gradient(from 210deg at 50% 50%, rgba(120,220,255,0.2), rgba(255,140,220,0.2), rgba(180,255,150,0.2), rgba(255,225,140,0.2), rgba(120,220,255,0.2)),
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.1) 0 1px, rgba(0,0,0,0) 1px 3px),
+    radial-gradient(circle at 35% 30%, #f4f6f9 0%, #c3cad4 45%, #949cab 100%);
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  transform: translateX(0) rotate(0deg);
+  transition: transform 0.55s cubic-bezier(.2,.7,.2,1), box-shadow 0.4s ease;
+  will-change: transform;
+}
+.story-item:hover .story-item__icon-case__disc,
+.story-item__icon-case:hover .story-item__icon-case__disc { transform: translateX(12px) rotate(28deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
+.story-item:hover .story-item__icon-case .story-item__icon-poster,
+.story-item:hover .story-item__icon-case .story-item__icon--placeholder-poster,
+.story-item__icon-case:hover .story-item__icon-poster,
+.story-item__icon-case:hover .story-item__icon--placeholder-poster { transform: rotateY(-22deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
 /* Books get a faux binding on the left edge + asymmetric corner rounding.
    Slightly wider than the 2:3 poster box so covers crop less on the sides. */
 .story-item__icon-poster--book { width: 64px; height: 88px; border-radius: 1px 3px 3px 1px; }
@@ -287,8 +313,9 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   .story-item__icon-record__vinyl { width: 120px; height: 120px; }
   .story-item:hover .story-item__icon-record__vinyl,
   .story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(12px) rotate(22deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
-  .story-item__icon-poster { width: 54px; height: 80px; }
-  .story-item__icon--placeholder-poster { width: 54px; height: 80px; font-size: 14px; }
+  .story-item__icon-poster { width: 88px; height: 132px; }
+  .story-item__icon--placeholder-poster { width: 88px; height: 132px; font-size: 14px; }
+  .story-item__icon-case__disc { width: 88px; height: 88px; margin-top: -44px; }
   .story-item__icon-poster--book { width: 96px; height: 132px; }
 
   html { background: var(--white); }

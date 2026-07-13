@@ -219,6 +219,7 @@ function StoryIcon({ story, omdbData, bookData }) {
   const isBook = t === 'book'
   const isMusic = t === 'music'
   const isPodcast = t === 'podcast'
+  const isMovieTV = t === 'movie' || t === 'tv'
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
   // Books get a faux spine + a cover that swings open on hover. The cover layer
@@ -240,6 +241,14 @@ function StoryIcon({ story, omdbData, bookData }) {
   // Podcast icons broadcast: on hover, concentric rings pulse outward from the
   // icon like a signal from a radio tower.
   const wrapPulse = (el) => <span className="story-item__icon-pulse">{el}</span>
+  // Movie/TV posters are DVD/Blu-ray cases: on hover the case tilts and a shiny
+  // disc slides out from the right.
+  const wrapCase = (el) => (
+    <span className="story-item__icon-case">
+      <span className="story-item__icon-case__disc" aria-hidden="true" />
+      {el}
+    </span>
+  )
 
   if (story.channelIcon || story.artworkImage || poster || cover) {
     // Movie posters and book covers are both portrait (2:3).
@@ -262,7 +271,11 @@ function StoryIcon({ story, omdbData, bookData }) {
         alt={story.channelName || story.title}
       />
     )
-    if (isPortrait) return wrapBook(img)
+    if (isPortrait) {
+      if (isBook) return wrapBook(img)
+      if (isMovieTV) return wrapCase(img)
+      return img
+    }
     if (isAlbum && isMusic) return wrapRecord(img)
     if (isPodcast) return wrapPulse(img)
     return img
@@ -279,6 +292,7 @@ function StoryIcon({ story, omdbData, bookData }) {
     </div>
   )
   if (isBook) return wrapBook(placeholder)
+  if (isMovieTV) return wrapCase(placeholder)
   if (isPodcast) return wrapPulse(placeholder)
   return placeholder
 }
