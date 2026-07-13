@@ -62,6 +62,7 @@ export async function fetchStoriesForCity(cityId) {
       mediaType: f.mediaType || channel?.mediaType || null,
       genre: f.genre || null,
       imdbId: f.imdbId || null,
+      isbn: f.isbnNumber || null,
       releaseYear: f.releaseYear || null,
       season: f.seasonNumber || null,
       episode: f.episodeNumber || null,

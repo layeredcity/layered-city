@@ -3,6 +3,7 @@ import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity } from './utils/contentful'
 import { fetchOmdbData } from './utils/omdb'
+import { fetchBook } from './utils/googlebooks'
 import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 
@@ -447,6 +448,7 @@ export default function App() {
   const [selectedStory, setSelectedStory] = useState(null)
   const [mediaStory, setMediaStory] = useState(null)
   const [omdbCache, setOmdbCache] = useState({})
+  const [bookCache, setBookCache] = useState({})
   const modalAnchorRef = useRef(null)
 
   // iOS PWA: force app to fill the physical screen height
@@ -459,6 +461,7 @@ export default function App() {
   }, [])
 
   const omdbData = selectedStory?.imdbId ? (omdbCache[selectedStory.imdbId] ?? null) : null
+  const bookData = selectedStory?.isbn ? (bookCache[selectedStory.isbn] ?? null) : null
 
   const closeStoryWithFade = useCallback(() => {
     if (modalAnchorRef.current) {
@@ -483,6 +486,11 @@ export default function App() {
       data.filter(s => s.imdbId).forEach(s => {
         fetchOmdbData(s.imdbId).then(omdb => {
           if (omdb) setOmdbCache(prev => ({ ...prev, [s.imdbId]: omdb }))
+        })
+      })
+      data.filter(s => s.isbn).forEach(s => {
+        fetchBook(s.isbn).then(book => {
+          if (book) setBookCache(prev => ({ ...prev, [s.isbn]: book }))
         })
       })
     } catch (err) {
