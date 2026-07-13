@@ -70,19 +70,26 @@ const FIELD_MAP = {
   seconds: 'numberOfSeconds',
 }
 
-// For books with no ISBN supplied, look one up from Google Books by title +
-// author (used only for pulling a cover, so edition differences don't matter).
+// For books with no ISBN supplied, look one up from Open Library by title +
+// author (no API key / no quota; used only for a cover, so edition differences
+// don't matter). Prefers a 13-digit ISBN.
 async function resolveIsbn(title, author) {
-  const q = `intitle:${title}${author ? '+inauthor:' + author : ''}`
-  try {
-    const res = await fetch('https://www.googleapis.com/books/v1/volumes?q=' + encodeURIComponent(q))
+  const tryOne = async (t) => {
+    const params = new URLSearchParams({ title: t, limit: '5', fields: 'isbn' })
+    if (author) params.set('author', author)
+    const res = await fetch('https://openlibrary.org/search.json?' + params, { headers: { 'User-Agent': 'layered-city/1.0' } })
     const data = await res.json()
-    for (const item of (data.items || [])) {
-      const ids = item.volumeInfo?.industryIdentifiers || []
-      const isbn13 = ids.find(i => i.type === 'ISBN_13')?.identifier
-      const isbn10 = ids.find(i => i.type === 'ISBN_10')?.identifier
-      if (isbn13 || isbn10) return isbn13 || isbn10
+    for (const doc of (data.docs || [])) {
+      const isbns = doc.isbn || []
+      const pick = isbns.find(x => x.length === 13) || isbns[0]
+      if (pick) return pick
     }
+    return null
+  }
+  try {
+    let r = await tryOne(title)
+    if (!r && title.includes(':')) r = await tryOne(title.split(':')[0].trim()) // drop subtitle
+    return r
   } catch {}
   return null
 }
@@ -157,13 +164,12 @@ async function main() {
   // genre) instead of being skipped; published entries are re-published.
   const UPDATE = process.argv.includes('--update')
 
-  // Existing music entries per city (drafts + published): key -> full entry
+  // Existing story entries per city (any type, drafts + published): key -> entry
   const existing = new Map()
   let skip = 0
   while (true) {
     const page = await cma(`/entries?content_type=story&limit=1000&skip=${skip}`)
     for (const e of page.items) {
-      if ((e.fields.mediaType?.[L] || '').toLowerCase() !== 'music') continue
       const cid = e.fields.relatedCity?.[L]?.sys?.id
       const title = (e.fields.storyTitle?.[L] || '').trim().toLowerCase()
       const artist = (e.fields.creatorName?.[L] || '').trim().toLowerCase()
