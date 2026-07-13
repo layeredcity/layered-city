@@ -217,6 +217,7 @@ function StoryIcon({ story, omdbData, bookData }) {
   const label = mediaTypeLabel(story.mediaType)
   const t = (story.mediaType || '').toLowerCase()
   const isBook = t === 'book'
+  const isMusic = t === 'music'
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
   // Books get a faux spine + a cover that swings open on hover. The cover layer
@@ -227,6 +228,14 @@ function StoryIcon({ story, omdbData, bookData }) {
       <span className="story-item__icon-book__cover">{el}</span>
     </span>
   ) : el
+  // Music album covers become record sleeves: on hover the sleeve tilts and a
+  // vinyl disc slides out from the right.
+  const wrapRecord = (el) => (
+    <span className="story-item__icon-record">
+      <span className="story-item__icon-record__vinyl" aria-hidden="true" />
+      {el}
+    </span>
+  )
 
   if (story.channelIcon || story.artworkImage || poster || cover) {
     // Movie posters and book covers are both portrait (2:3).
@@ -249,7 +258,9 @@ function StoryIcon({ story, omdbData, bookData }) {
         alt={story.channelName || story.title}
       />
     )
-    return isPortrait ? wrapBook(img) : img
+    if (isPortrait) return wrapBook(img)
+    if (isAlbum && isMusic) return wrapRecord(img)
+    return img
   }
   // Book/movie/TV covers render portrait (2:3); their placeholders should match.
   const isPortraitType = isBook || t === 'movie' || t === 'tv'
