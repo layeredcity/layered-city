@@ -46,19 +46,22 @@ for (const [i, s] of songs.entries()) {
   if ((s.lat == null) !== (s.lon == null)) errors.push(`${who}: needs both lat and lon, or neither`)
   if (s.lat != null && (Math.abs(Number(s.lat)) > 90 || Math.abs(Number(s.lon)) > 180)) errors.push(`${who}: coordinates out of range`)
 
+  const type = (s.type || 'music').toLowerCase()
+  const creator = s.artist || s.author || s.creator
   const gaps = []
   if (s.lat == null) gaps.push('location')
-  if (s.minutes == null) gaps.push('duration')
+  if (type === 'music' && s.minutes == null) gaps.push('duration') // books/etc. have no duration
   if (s.year == null) gaps.push('year')
-  if (!s.artist) gaps.push('artist')
+  if (!creator) gaps.push(type === 'book' ? 'author' : 'creator')
   if (gaps.length) toFinish.push(`${who}: ${gaps.join(', ')}`)
 }
 
-// Duplicate detection within the file (city + title + artist)
+// Duplicate detection within the file (city + title + creator)
 const seen = new Map()
 for (const s of songs) {
-  const key = `${(s.city || '').toLowerCase()}::${(s.title || '').toLowerCase()}::${(s.artist || '').toLowerCase()}`
-  if (seen.has(key)) warnings.push(`duplicate in file: "${s.title}" — ${s.artist || ''} (${s.city})`)
+  const creator = (s.artist || s.author || s.creator || '').toLowerCase()
+  const key = `${(s.city || '').toLowerCase()}::${(s.title || '').toLowerCase()}::${creator}`
+  if (seen.has(key)) warnings.push(`duplicate in file: "${s.title}" — ${creator} (${s.city})`)
   seen.set(key, true)
 }
 

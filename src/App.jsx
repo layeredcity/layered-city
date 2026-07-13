@@ -230,7 +230,8 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
   if (!story) return null
   const label = mediaTypeLabel(story.mediaType)
   const duration = formatDuration(story.minutes, story.seconds)
-  const bookRating = story.mediaType?.toLowerCase() === 'book' ? bookData?.rating : null
+  const isBook = story.mediaType?.toLowerCase() === 'book'
+  const bookRating = isBook ? story.goodreadsRating : null
   const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   const qualityLabel = QUALITY_LABELS[effectiveRating] || null
   const url = story.mediaUrl || story.secondaryUrl || null
@@ -287,7 +288,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
               <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
               {bookRating}<span className="story-modal__imdb-max">/5</span>
             </div>
-          ) : (
+          ) : isBook ? null : (
             <>
               <QualityStars rating={effectiveRating} />
               {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
@@ -348,7 +349,8 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
   const label = mediaTypeLabel(story.mediaType)
   const t = (story.mediaType || '').toLowerCase()
   const isMovieOrTV = t === 'movie' || t === 'tv'
-  const bookRating = t === 'book' ? bookData?.rating : null
+  const isBook = t === 'book'
+  const bookRating = isBook ? story.goodreadsRating : null
   const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   return (
     <div className="story-item" onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
@@ -395,7 +397,7 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
             {bookRating}<span className="story-item__imdb-max">/5</span>
           </div>
         )}
-        {!isMovieOrTV && !bookRating && <QualityStars rating={effectiveRating} />}
+        {!isMovieOrTV && !isBook && <QualityStars rating={effectiveRating} />}
       </div>
     </div>
   )
@@ -817,11 +819,13 @@ export default function App() {
                     </>
                   )}
                   <div className="story-modal__meta">
-                    {t === 'book' && bookData?.rating ? (
-                      <div className="story-modal__imdb">
-                        <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-                        {bookData.rating}<span className="story-modal__imdb-max">/5</span>
-                      </div>
+                    {t === 'book' ? (
+                      s.goodreadsRating ? (
+                        <div className="story-modal__imdb">
+                          <svg viewBox="0 0 24 24" fill="#f5c518" width="14" height="14"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                          {s.goodreadsRating}<span className="story-modal__imdb-max">/5</span>
+                        </div>
+                      ) : null
                     ) : (
                       <>
                         <QualityStars rating={s.qualityRating} />

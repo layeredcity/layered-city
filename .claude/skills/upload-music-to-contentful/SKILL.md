@@ -7,7 +7,7 @@ description: Turn pasted per-city music selections into draft Contentful song en
 
 Layered City's Music section is a chronological, place-pinned song portrait of each
 city. This skill ingests the user's pasted song content and creates **draft
-(unpublished)** `story` entries in Contentful via `scripts/import-songs.mjs`. The
+(unpublished)** `story` entries in Contentful via `scripts/import-content.mjs`. The
 user finishes each draft by hand (album cover, any missing fields) and publishes it.
 
 Companion skill: `city-music-portrait` *generates* the 15-song content; this skill
@@ -18,7 +18,7 @@ Companion skill: `city-music-portrait` *generates* the 15-song content; this ski
 - Run from the repo root (`/Users/rnee/layered-city`), not the worktree.
 - `.env` must contain `VITE_CONTENTFUL_SPACE`, `VITE_CONTENTFUL_TOKEN`, and
   `CONTENTFUL_MANAGEMENT_TOKEN`. (The management token is the one that can write.)
-- `scripts/import-songs.mjs` and `scripts/validate-songs.mjs` exist.
+- `scripts/import-content.mjs` and `scripts/validate-songs.mjs` exist.
 - The city must already exist as a `city` entry in Contentful (the validator checks this).
 
 ## Workflow

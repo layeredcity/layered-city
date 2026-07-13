@@ -50,17 +50,41 @@ const SPACE = env.VITE_CONTENTFUL_SPACE
 const CDN_TOKEN = env.VITE_CONTENTFUL_TOKEN
 const CMA_TOKEN = env.CONTENTFUL_MANAGEMENT_TOKEN
 
-// Map our friendly input keys → Contentful story field IDs.
+// Map our friendly input keys → Contentful story field IDs. This is a superset
+// across content types; each entry supplies whichever keys make sense for its
+// `type` (music, book, …). `type` itself maps to mediaType (default: music).
 const FIELD_MAP = {
   title: 'storyTitle',
-  artist: 'creatorName',
+  artist: 'creatorName',   // music
+  author: 'creatorName',   // book
+  creator: 'creatorName',  // generic
   year: 'releaseYear',
   genre: 'genre',
   description: 'storyDescription',
-  spotify: 'mediaUrl',
-  apple: 'secondaryUrl',
+  spotify: 'mediaUrl',     // music
+  goodreads: 'mediaUrl',   // book
+  apple: 'secondaryUrl',   // music
+  bookshop: 'secondaryUrl',// book
+  isbn: 'isbnNumber',      // book
   minutes: 'numberOfMinutes',
   seconds: 'numberOfSeconds',
+}
+
+// For books with no ISBN supplied, look one up from Google Books by title +
+// author (used only for pulling a cover, so edition differences don't matter).
+async function resolveIsbn(title, author) {
+  const q = `intitle:${title}${author ? '+inauthor:' + author : ''}`
+  try {
+    const res = await fetch('https://www.googleapis.com/books/v1/volumes?q=' + encodeURIComponent(q))
+    const data = await res.json()
+    for (const item of (data.items || [])) {
+      const ids = item.volumeInfo?.industryIdentifiers || []
+      const isbn13 = ids.find(i => i.type === 'ISBN_13')?.identifier
+      const isbn10 = ids.find(i => i.type === 'ISBN_10')?.identifier
+      if (isbn13 || isbn10) return isbn13 || isbn10
+    }
+  } catch {}
+  return null
 }
 
 async function cdn(path) {
@@ -108,6 +132,16 @@ async function main() {
   catch (e) { fail(`Could not parse ${inputPath} as JSON: ${e.message}`) }
   if (!Array.isArray(songs)) fail('Input JSON must be an array of song objects.')
 
+  // Books without an ISBN: look one up (for the cover) before importing.
+  for (const s of songs) {
+    if ((s.type || '').toLowerCase() === 'book' && !s.isbn) {
+      const found = await resolveIsbn(s.title, s.author || s.creator || s.artist)
+      if (found) { s.isbn = found; console.log(`  ↩ resolved ISBN for "${s.title}": ${found}`) }
+      else console.log(`  ! no ISBN found for "${s.title}" — it will have no cover`)
+      await new Promise(r => setTimeout(r, 300)) // be gentle with Google Books
+    }
+  }
+
   // Field types (to coerce values correctly) + default locale
   const ct = await cma('/content_types/story')
   const fieldType = Object.fromEntries(ct.fields.map(f => [f.id, f.type]))
@@ -143,7 +177,7 @@ async function main() {
   const buildFields = (song, cityId) => {
     const fields = {
       storyTitle: { [L]: (song.title || '').trim() },
-      mediaType: { [L]: 'music' },
+      mediaType: { [L]: (song.type || 'music').toLowerCase() },
       relatedCity: { [L]: { sys: { type: 'Link', linkType: 'Entry', id: cityId } } },
     }
     if (song.lat != null && song.lon != null && song.lat !== '' && song.lon !== '') {
@@ -170,7 +204,8 @@ async function main() {
     if (!title || !cityKey) { console.log(`– skipped (missing title or city): ${JSON.stringify(song).slice(0, 80)}`); skipped++; continue }
     const cityId = cityIdByName[cityKey]
     if (!cityId) { console.log(`– skipped "${title}": no city named "${song.city}" in Contentful`); skipped++; continue }
-    const dedupeKey = cityId + '::' + title.toLowerCase() + '::' + (song.artist || '').trim().toLowerCase()
+    const creator = song.artist || song.author || song.creator || ''
+    const dedupeKey = cityId + '::' + title.toLowerCase() + '::' + creator.trim().toLowerCase()
 
     if (existing.has(dedupeKey)) {
       if (!UPDATE) { console.log(`– skipped "${title}" — ${song.artist || ''} (${song.city}): already exists`); skipped++; continue }
