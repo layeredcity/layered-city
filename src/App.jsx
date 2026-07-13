@@ -219,9 +219,14 @@ function StoryIcon({ story, omdbData, bookData }) {
   const isBook = t === 'book'
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
-  // Books get a faux spine: wrap the portrait cover/placeholder so we can draw
-  // binding lines and give it asymmetric (book-like) corner rounding.
-  const wrapBook = (el) => isBook ? <span className="story-item__icon-book">{el}</span> : el
+  // Books get a faux spine + a cover that swings open on hover. The cover layer
+  // rotates around its left edge (the spine) to reveal a "pages" layer behind.
+  const wrapBook = (el) => isBook ? (
+    <span className="story-item__icon-book">
+      <span className="story-item__icon-book__pages" aria-hidden="true" />
+      <span className="story-item__icon-book__cover">{el}</span>
+    </span>
+  ) : el
 
   if (story.channelIcon || story.artworkImage || poster || cover) {
     // Movie posters and book covers are both portrait (2:3).
