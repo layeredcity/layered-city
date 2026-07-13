@@ -99,7 +99,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   transition: transform 0.55s cubic-bezier(.2,.7,.2,1), box-shadow 0.55s ease;
 }
 .story-item:hover .story-item__icon-record__vinyl,
-.story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(8px) rotate(22deg); box-shadow: 4px 0 7px rgba(0,0,0,0.35); }
+.story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(8px) rotate(22deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
 .story-item:hover .story-item__icon-record .story-item__icon-album,
 .story-item__icon-record:hover .story-item__icon-album { transform: rotateY(-30deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
 /* Podcast: concentric rings pulse outward on hover, like a broadcast signal. */
@@ -275,7 +275,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   .story-item__icon-album { width: 120px; height: 120px; border-radius: 2px; }
   .story-item__icon-record__vinyl { width: 120px; height: 120px; }
   .story-item:hover .story-item__icon-record__vinyl,
-  .story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(12px) rotate(22deg); box-shadow: 4px 0 7px rgba(0,0,0,0.35); }
+  .story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(12px) rotate(22deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
   .story-item__icon-poster { width: 54px; height: 80px; }
   .story-item__icon--placeholder-poster { width: 54px; height: 80px; font-size: 14px; }
   .story-item__icon-poster--book { width: 96px; height: 132px; }
