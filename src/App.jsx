@@ -162,7 +162,7 @@ function musicLinks(story) {
 
 // Precise Goodreads / Bookshop links built from the ISBN. To earn affiliate
 // commission later, set BOOKSHOP_AFFILIATE to your Bookshop.org affiliate id.
-const BOOKSHOP_AFFILIATE = ''
+const BOOKSHOP_AFFILIATE = '126157'
 function bookLinks(story) {
   if (!story.isbn) return { goodreads: null, bookshop: null }
   const isbn = String(story.isbn).replace(/[^0-9Xx]/g, '')
