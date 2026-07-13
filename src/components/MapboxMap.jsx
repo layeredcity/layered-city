@@ -210,7 +210,14 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
           el.textContent = (story.mediaType || '').slice(0, 3).toUpperCase()
         }
         el.addEventListener('click', () => onStoryClick?.(story))
-        const marker = new mapboxgl.Marker(el)
+        // Wrap the visual element so Mapbox positions the wrapper and only ever
+        // touches the wrapper's opacity (for globe/terrain occlusion). We animate
+        // the inner element's opacity for filter show/hide — otherwise Mapbox
+        // rewrites el.style.opacity on every move/zoom and un-hides filtered pins.
+        const wrapper = document.createElement('div')
+        wrapper.style.cssText = 'display:inline-block;line-height:0;'
+        wrapper.appendChild(el)
+        const marker = new mapboxgl.Marker(wrapper)
           .setLngLat([lon, lat])
           .addTo(map)
         markersRef.current.push(marker)
