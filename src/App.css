@@ -105,16 +105,16 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 /* Podcast: concentric rings pulse outward on hover, like a broadcast signal. */
 .story-item__icon-viz { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 340px; }
 /* On hover the tile tilts, darkens, and a white equalizer bounces on its face. */
-.story-item__icon-viz > :first-child { transition: transform 0.4s cubic-bezier(.2,.7,.2,1), box-shadow 0.4s ease; transform-origin: right center; }
+.story-item__icon-viz > :first-child { transition: transform 0.4s cubic-bezier(.2,.7,.2,1), box-shadow 0.4s ease; transform-origin: center center; }
 .story-item:hover .story-item__icon-viz > :first-child,
-.story-item__icon-viz:hover > :first-child { transform: rotateY(28deg); box-shadow: -4px 3px 12px rgba(0,0,0,0.28); }
+.story-item__icon-viz:hover > :first-child { transform: rotateY(32deg); box-shadow: -4px 3px 12px rgba(0,0,0,0.28); }
 .story-item__icon-viz__bars {
   position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 3px;
   background: rgba(16,14,12,0.52); border-radius: 4px; opacity: 0; pointer-events: none;
-  transform-origin: right center; transition: opacity 0.22s ease, transform 0.4s cubic-bezier(.2,.7,.2,1);
+  transform-origin: center center; transition: opacity 0.22s ease, transform 0.4s cubic-bezier(.2,.7,.2,1);
 }
 .story-item:hover .story-item__icon-viz__bars,
-.story-item__icon-viz:hover .story-item__icon-viz__bars { opacity: 1; transform: rotateY(28deg); }
+.story-item__icon-viz:hover .story-item__icon-viz__bars { opacity: 1; transform: rotateY(32deg); }
 .story-item__icon-viz__bars i {
   display: block; width: 4px; height: 62%; background: #fff; border-radius: 2px; transform-origin: center;
 }
