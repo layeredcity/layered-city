@@ -238,14 +238,14 @@ function StoryIcon({ story, omdbData, bookData }) {
       {el}
     </span>
   )
-  // Podcast icons broadcast: on hover the icon pulses once and emits three
-  // concentric rings outward (like a radio tower), then settles.
-  const wrapPulse = (el) => (
-    <span className="story-item__icon-pulse">
+  // Podcast icons: on hover, darken the cover art and overlay a white audio
+  // equalizer to signal "listen".
+  const wrapViz = (el) => (
+    <span className="story-item__icon-viz">
       {el}
-      <span className="story-item__icon-pulse__ring" aria-hidden="true" />
-      <span className="story-item__icon-pulse__ring" aria-hidden="true" />
-      <span className="story-item__icon-pulse__ring" aria-hidden="true" />
+      <span className="story-item__icon-viz__bars" aria-hidden="true">
+        <i /><i /><i /><i /><i />
+      </span>
     </span>
   )
   // Movie/TV posters are DVD/Blu-ray cases: on hover the case tilts and a shiny
@@ -284,7 +284,7 @@ function StoryIcon({ story, omdbData, bookData }) {
       return img
     }
     if (isAlbum && isMusic) return wrapRecord(img)
-    if (isPodcast) return wrapPulse(img)
+    if (isPodcast) return wrapViz(img)
     return img
   }
   // Book/movie/TV covers render portrait (2:3); their placeholders should match.
@@ -300,7 +300,7 @@ function StoryIcon({ story, omdbData, bookData }) {
   )
   if (isBook) return wrapBook(placeholder)
   if (isMovieTV) return wrapCase(placeholder)
-  if (isPodcast) return wrapPulse(placeholder)
+  if (isPodcast) return wrapViz(placeholder)
   return placeholder
 }
 

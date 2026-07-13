@@ -103,30 +103,29 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item:hover .story-item__icon-record .story-item__icon-album,
 .story-item__icon-record:hover .story-item__icon-album { transform: translateX(-8px) rotateY(-20deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
 /* Podcast: concentric rings pulse outward on hover, like a broadcast signal. */
-.story-item__icon-pulse { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; }
-.story-item__icon-pulse > :first-child { position: relative; z-index: 1; }
-.story-item__icon-pulse__ring {
-  position: absolute; inset: 0; z-index: 0; border-radius: 4px;
-  border: 3px solid rgba(21,59,143,0.4); opacity: 0; pointer-events: none; filter: blur(1px);
+.story-item__icon-viz { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; }
+/* On hover: dark scrim over the cover art + a bouncing white equalizer. */
+.story-item__icon-viz__bars {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 3px;
+  background: rgba(16,14,12,0.52); border-radius: 4px; opacity: 0; pointer-events: none;
+  transition: opacity 0.22s ease;
 }
-/* One-shot on hover: icon pulses once, three rings emit outward, then stop. */
-.story-item:hover .story-item__icon-pulse > :first-child,
-.story-item__icon-pulse:hover > :first-child { animation: iconThrobOnce 0.7s ease-out; }
-.story-item:hover .story-item__icon-pulse__ring,
-.story-item__icon-pulse:hover .story-item__icon-pulse__ring { animation: ringEmit 1.3s ease-out; }
-.story-item:hover .story-item__icon-pulse__ring:nth-child(3),
-.story-item__icon-pulse:hover .story-item__icon-pulse__ring:nth-child(3) { animation-delay: 0.16s; }
-.story-item:hover .story-item__icon-pulse__ring:nth-child(4),
-.story-item__icon-pulse:hover .story-item__icon-pulse__ring:nth-child(4) { animation-delay: 0.32s; }
-@keyframes ringEmit {
-  0% { opacity: 0.5; transform: scale(1); }
-  70% { opacity: 0.32; }
-  100% { opacity: 0; transform: scale(1.85); }
+.story-item:hover .story-item__icon-viz__bars,
+.story-item__icon-viz:hover .story-item__icon-viz__bars { opacity: 1; }
+.story-item__icon-viz__bars i {
+  display: block; width: 4px; height: 60%; background: #fff; border-radius: 2px;
+  transform-origin: center; animation: vizBar 0.85s ease-in-out infinite paused;
 }
-@keyframes iconThrobOnce {
-  0% { transform: scale(1); }
-  30% { transform: scale(1.06); }
-  100% { transform: scale(1); }
+.story-item__icon-viz__bars i:nth-child(1) { animation-duration: 0.80s; animation-delay: -0.20s; }
+.story-item__icon-viz__bars i:nth-child(2) { animation-duration: 1.15s; animation-delay: -0.55s; }
+.story-item__icon-viz__bars i:nth-child(3) { animation-duration: 0.70s; animation-delay: -0.05s; }
+.story-item__icon-viz__bars i:nth-child(4) { animation-duration: 1.00s; animation-delay: -0.35s; }
+.story-item__icon-viz__bars i:nth-child(5) { animation-duration: 0.90s; animation-delay: -0.15s; }
+.story-item:hover .story-item__icon-viz__bars i,
+.story-item__icon-viz:hover .story-item__icon-viz__bars i { animation-play-state: running; }
+@keyframes vizBar {
+  0%, 100% { transform: scaleY(0.3); }
+  50% { transform: scaleY(1); }
 }
 .story-item__icon-poster { width: 60px; height: 90px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: var(--ink-light); flex-shrink: 0; width: 56px; height: 56px; }
