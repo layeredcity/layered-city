@@ -218,6 +218,7 @@ function StoryIcon({ story, omdbData, bookData }) {
   const t = (story.mediaType || '').toLowerCase()
   const isBook = t === 'book'
   const isMusic = t === 'music'
+  const isPodcast = t === 'podcast'
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
   // Books get a faux spine + a cover that swings open on hover. The cover layer
@@ -236,6 +237,9 @@ function StoryIcon({ story, omdbData, bookData }) {
       {el}
     </span>
   )
+  // Podcast icons broadcast: on hover, concentric rings pulse outward from the
+  // icon like a signal from a radio tower.
+  const wrapPulse = (el) => <span className="story-item__icon-pulse">{el}</span>
 
   if (story.channelIcon || story.artworkImage || poster || cover) {
     // Movie posters and book covers are both portrait (2:3).
@@ -260,6 +264,7 @@ function StoryIcon({ story, omdbData, bookData }) {
     )
     if (isPortrait) return wrapBook(img)
     if (isAlbum && isMusic) return wrapRecord(img)
+    if (isPodcast) return wrapPulse(img)
     return img
   }
   // Book/movie/TV covers render portrait (2:3); their placeholders should match.
@@ -273,7 +278,9 @@ function StoryIcon({ story, omdbData, bookData }) {
       {placeholderLabel}
     </div>
   )
-  return wrapBook(placeholder)
+  if (isBook) return wrapBook(placeholder)
+  if (isPodcast) return wrapPulse(placeholder)
+  return placeholder
 }
 
 function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
