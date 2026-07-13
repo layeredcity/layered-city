@@ -193,7 +193,7 @@ function StoryIcon({ story, omdbData, bookData }) {
   const shape = iconShape(story.mediaType)
   const label = mediaTypeLabel(story.mediaType)
   const poster = omdbData?.poster
-  const cover = bookData?.cover
+  const cover = story.bookCoverUrl || bookData?.cover
   if (story.channelIcon || story.artworkImage || poster || cover) {
     // Movie posters and book covers are both portrait (2:3).
     const isPortrait = (poster || cover) && !story.channelIcon && !story.artworkImage
@@ -505,7 +505,7 @@ export default function App() {
           if (omdb) setOmdbCache(prev => ({ ...prev, [s.imdbId]: omdb }))
         })
       })
-      data.filter(s => s.isbn).forEach(s => {
+      data.filter(s => s.isbn && !s.bookCoverUrl).forEach(s => {
         fetchBook(s.isbn).then(book => {
           if (book) setBookCache(prev => ({ ...prev, [s.isbn]: book }))
         })

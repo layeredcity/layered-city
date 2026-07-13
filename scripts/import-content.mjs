@@ -66,8 +66,42 @@ const FIELD_MAP = {
   apple: 'secondaryUrl',   // music
   bookshop: 'secondaryUrl',// book
   isbn: 'isbnNumber',      // book
+  bookCoverUrl: 'bookCoverUrl', // book (resolved at import)
   minutes: 'numberOfMinutes',
   seconds: 'numberOfSeconds',
+}
+
+// Resolve a working Open Library cover URL for a book. The by-ISBN endpoint has
+// gaps, so we fall back to a search that returns a cover id. All server-side,
+// so no CORS/quota limits (the browser can only load cover images, not search).
+async function coverExists(url) {
+  try { const r = await fetch(url); return r.ok && (r.headers.get('content-type') || '').startsWith('image') } catch { return false }
+}
+async function searchCoverId({ isbn, title, author }) {
+  const pick = async (params) => {
+    try {
+      const r = await fetch('https://openlibrary.org/search.json?' + params, { headers: { 'User-Agent': 'layered-city/1.0' } })
+      const j = await r.json()
+      return j.docs?.[0]?.cover_i || null
+    } catch { return null }
+  }
+  if (isbn) { const c = await pick(new URLSearchParams({ isbn, fields: 'cover_i', limit: '1' })); if (c) return c }
+  if (title) { const p = new URLSearchParams({ title, fields: 'cover_i', limit: '1' }); if (author) p.set('author', author); const c = await pick(p); if (c) return c }
+  if (title && title.includes(':')) { const p = new URLSearchParams({ title: title.split(':')[0].trim(), fields: 'cover_i', limit: '1' }); if (author) p.set('author', author); const c = await pick(p); if (c) return c }
+  return null
+}
+async function resolveBookCover(isbn, title, author) {
+  const clean = isbn ? String(isbn).replace(/[^0-9Xx]/g, '') : ''
+  if (clean) {
+    const byIsbn = `https://covers.openlibrary.org/b/isbn/${clean}-L.jpg`
+    if (await coverExists(byIsbn + '?default=false')) return byIsbn
+  }
+  const coverId = await searchCoverId({ isbn: clean, title, author })
+  if (coverId) {
+    const byId = `https://covers.openlibrary.org/b/id/${coverId}-L.jpg`
+    if (await coverExists(byId + '?default=false')) return byId
+  }
+  return null
 }
 
 // For books with no ISBN supplied, look one up from Open Library by title +
@@ -139,14 +173,21 @@ async function main() {
   catch (e) { fail(`Could not parse ${inputPath} as JSON: ${e.message}`) }
   if (!Array.isArray(songs)) fail('Input JSON must be an array of song objects.')
 
-  // Books without an ISBN: look one up (for the cover) before importing.
+  // Books: resolve an ISBN (if missing) and a working cover URL before importing.
   for (const s of songs) {
-    if ((s.type || '').toLowerCase() === 'book' && !s.isbn) {
-      const found = await resolveIsbn(s.title, s.author || s.creator || s.artist)
+    if ((s.type || '').toLowerCase() !== 'book') continue
+    const who = s.author || s.creator || s.artist
+    if (!s.isbn) {
+      const found = await resolveIsbn(s.title, who)
       if (found) { s.isbn = found; console.log(`  ↩ resolved ISBN for "${s.title}": ${found}`) }
-      else console.log(`  ! no ISBN found for "${s.title}" — it will have no cover`)
-      await new Promise(r => setTimeout(r, 300)) // be gentle with Google Books
+      else console.log(`  ! no ISBN found for "${s.title}"`)
     }
+    if (!s.bookCoverUrl) {
+      const cover = await resolveBookCover(s.isbn, s.title, who)
+      if (cover) { s.bookCoverUrl = cover; console.log(`  🖼 cover for "${s.title}": ${cover.split('/').pop()}`) }
+      else console.log(`  ! no cover found for "${s.title}"`)
+    }
+    await new Promise(r => setTimeout(r, 250)) // be gentle with Open Library
   }
 
   // Field types (to coerce values correctly) + default locale
