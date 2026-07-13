@@ -53,6 +53,10 @@ for (const [i, s] of songs.entries()) {
   if (type === 'music' && s.minutes == null) gaps.push('duration') // books/etc. have no duration
   if (s.year == null) gaps.push('year')
   if (!creator) gaps.push(type === 'book' ? 'author' : 'creator')
+  if (type === 'movie' || type === 'tv') {
+    if (!s.imdb) gaps.push('imdb id (no poster/rating without it)')
+    if (!s.justwatch && !s.mediaUrl) gaps.push('watch link (required to publish)')
+  }
   if (gaps.length) toFinish.push(`${who}: ${gaps.join(', ')}`)
 }
 

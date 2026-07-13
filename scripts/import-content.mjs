@@ -63,9 +63,11 @@ const FIELD_MAP = {
   description: 'storyDescription',
   spotify: 'mediaUrl',     // music
   goodreads: 'mediaUrl',   // book
+  justwatch: 'mediaUrl',   // movie/tv (generic "where to watch" link)
   apple: 'secondaryUrl',   // music
   bookshop: 'secondaryUrl',// book
   isbn: 'isbnNumber',      // book
+  imdb: 'imdbId',          // movie/tv (drives poster + rating via OMDb)
   bookCoverUrl: 'bookCoverUrl', // book (resolved at import)
   minutes: 'numberOfMinutes',
   seconds: 'numberOfSeconds',

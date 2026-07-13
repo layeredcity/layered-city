@@ -145,6 +145,7 @@ function movieBtnLabel(url) {
   if (!url) return 'Rent or buy'
   try {
     const host = new URL(url).hostname.replace('www.', '')
+    if (host.includes('justwatch')) return 'Find where to watch'
     if (host.includes('amazon') || host.includes('primevideo')) return 'Rent or buy on Amazon'
     if (host.includes('apple') || host.includes('tv.apple')) return 'Rent or buy on Apple TV'
     if (host.includes('vimeo')) return 'Watch on Vimeo'
