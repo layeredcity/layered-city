@@ -83,18 +83,20 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item__icon--placeholder-poster { width: 40px; height: 60px; border-radius: 2px; font-size: 11px; letter-spacing: 0.03em; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 /* Books get a faux binding on the left edge + asymmetric corner rounding.
    Slightly wider than the 2:3 poster box so covers crop less on the sides. */
-.story-item__icon-poster--book { width: 44px; border-radius: 1px 3px 3px 1px; }
+.story-item__icon-poster--book { width: 64px; height: 88px; border-radius: 1px 3px 3px 1px; }
 /* The book is a 3D scene: a cover layer that opens over a pages layer. */
-.story-item__icon-book { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 320px; }
-/* Interior pages, revealed as the cover swings open. */
+.story-item__icon-book { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 520px; }
+/* Interior pages, revealed as the cover swings open. Vertical striations
+   read as the stacked page edges of a book fanning open. */
 .story-item__icon-book__pages {
   position: absolute; inset: 0; border-radius: 1px 3px 3px 1px;
   background:
-    repeating-linear-gradient(to bottom, rgba(70,55,30,0.09) 0, rgba(70,55,30,0.09) 1px, transparent 1px, transparent 6px),
+    repeating-linear-gradient(to right, rgba(70,55,30,0.10) 0, rgba(70,55,30,0.10) 1px, transparent 1px, transparent 3px),
     linear-gradient(to right, #efe7d6 0%, #fbf6ec 55%, #ece2cd 100%);
   box-shadow: inset -2px 0 3px rgba(0,0,0,0.10), inset 2px 0 4px rgba(0,0,0,0.14);
   opacity: 0; transition: opacity 0.25s ease;
 }
+.story-item:hover .story-item__icon-book__pages,
 .story-item__icon-book:hover .story-item__icon-book__pages { opacity: 1; }
 /* The cover: rotates around the spine (left edge) on hover. */
 .story-item__icon-book__cover {
@@ -102,6 +104,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   transform-origin: left center; transform: rotateY(0deg); will-change: transform;
   transition: transform 0.5s cubic-bezier(.2,.7,.2,1);
 }
+.story-item:hover .story-item__icon-book__cover,
 .story-item__icon-book:hover .story-item__icon-book__cover { transform: rotateY(-42deg); }
 /* Binding lines live on the cover so they swing with it. */
 .story-item__icon-book__cover::before,
@@ -110,6 +113,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item__icon-book__cover::after { left: 3px; background: rgba(255,255,255,0.23); }
 /* Deepen + throw the cover's shadow as it lifts. */
 .story-item__icon-book__cover .story-item__icon-poster--book { transition: box-shadow 0.5s ease; }
+.story-item:hover .story-item__icon-poster--book,
 .story-item__icon-book:hover .story-item__icon-poster--book { box-shadow: 4px 3px 14px rgba(0,0,0,0.32); }
 .story-item__body { flex: 1; min-width: 0; }
 .story-item__title { font-size: 16px; font-weight: 500; color: var(--ink); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
@@ -227,7 +231,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   .story-item__icon-album { width: 120px; height: 120px; border-radius: 10px; }
   .story-item__icon-poster { width: 54px; height: 80px; }
   .story-item__icon--placeholder-poster { width: 54px; height: 80px; font-size: 14px; }
-  .story-item__icon-poster--book { width: 60px; }
+  .story-item__icon-poster--book { width: 96px; height: 132px; }
 
   html { background: var(--white); }
   .app { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: auto; height: var(--screen-h, 100dvh); flex-direction: column; }
