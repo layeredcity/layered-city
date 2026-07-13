@@ -101,7 +101,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item:hover .story-item__icon-record__vinyl,
 .story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(8px) rotate(22deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
 .story-item:hover .story-item__icon-record .story-item__icon-album,
-.story-item__icon-record:hover .story-item__icon-album { transform: rotateY(-30deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
+.story-item__icon-record:hover .story-item__icon-album { transform: translateX(-8px) rotateY(-20deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
 /* Podcast: concentric rings pulse outward on hover, like a broadcast signal. */
 .story-item__icon-pulse { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; }
 .story-item__icon-pulse > * { position: relative; z-index: 1; }
