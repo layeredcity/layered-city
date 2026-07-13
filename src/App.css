@@ -85,7 +85,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   background:
     radial-gradient(circle at 50% 50%, #0d0d0d 0 3%, rgba(0,0,0,0) 3.4%),
     radial-gradient(circle at 50% 50%, #c2410c 0 21%, rgba(0,0,0,0) 21.4%),
-    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.05) 0 1px, rgba(0,0,0,0) 1px 3px),
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.11) 0 1px, rgba(0,0,0,0) 1px 3px),
     radial-gradient(circle at 38% 32%, #3a3a3a 0%, #141414 55%, #000 100%);
   box-shadow: 0 2px 7px rgba(0,0,0,0.4);
   transform: translateX(0) rotate(0deg); transition: transform 0.55s cubic-bezier(.2,.7,.2,1);
