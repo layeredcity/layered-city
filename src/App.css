@@ -103,30 +103,34 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item:hover .story-item__icon-record .story-item__icon-album,
 .story-item__icon-record:hover .story-item__icon-album { transform: translateX(-8px) rotateY(-20deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
 /* Podcast: concentric rings pulse outward on hover, like a broadcast signal. */
-.story-item__icon-viz { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; }
-/* On hover: dark scrim over the cover art + a bouncing white equalizer. */
+.story-item__icon-viz { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 340px; }
+/* On hover the tile tilts, darkens, and a white equalizer bounces on its face. */
+.story-item__icon-viz > :first-child { transition: transform 0.4s cubic-bezier(.2,.7,.2,1), box-shadow 0.4s ease; transform-origin: left center; }
+.story-item:hover .story-item__icon-viz > :first-child,
+.story-item__icon-viz:hover > :first-child { transform: rotateY(-16deg); box-shadow: 4px 3px 12px rgba(0,0,0,0.28); }
 .story-item__icon-viz__bars {
   position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; gap: 3px;
   background: rgba(16,14,12,0.52); border-radius: 4px; opacity: 0; pointer-events: none;
-  transition: opacity 0.22s ease;
+  transform-origin: left center; transition: opacity 0.22s ease, transform 0.4s cubic-bezier(.2,.7,.2,1);
 }
 .story-item:hover .story-item__icon-viz__bars,
-.story-item__icon-viz:hover .story-item__icon-viz__bars { opacity: 1; }
+.story-item__icon-viz:hover .story-item__icon-viz__bars { opacity: 1; transform: rotateY(-16deg); }
 .story-item__icon-viz__bars i {
-  display: block; width: 4px; height: 60%; background: #fff; border-radius: 2px;
-  transform-origin: center; animation: vizBar 0.85s ease-in-out infinite paused;
+  display: block; width: 4px; height: 62%; background: #fff; border-radius: 2px; transform-origin: center;
 }
-.story-item__icon-viz__bars i:nth-child(1) { animation-duration: 0.80s; animation-delay: -0.20s; }
-.story-item__icon-viz__bars i:nth-child(2) { animation-duration: 1.15s; animation-delay: -0.55s; }
-.story-item__icon-viz__bars i:nth-child(3) { animation-duration: 0.70s; animation-delay: -0.05s; }
-.story-item__icon-viz__bars i:nth-child(4) { animation-duration: 1.00s; animation-delay: -0.35s; }
-.story-item__icon-viz__bars i:nth-child(5) { animation-duration: 0.90s; animation-delay: -0.15s; }
+/* Each bar rides its own irregular keyframe so the meter looks live. */
+.story-item__icon-viz__bars i:nth-child(1) { animation: viz1 0.90s ease-in-out -0.20s infinite paused; }
+.story-item__icon-viz__bars i:nth-child(2) { animation: viz2 1.15s ease-in-out -0.60s infinite paused; }
+.story-item__icon-viz__bars i:nth-child(3) { animation: viz3 0.75s ease-in-out -0.05s infinite paused; }
+.story-item__icon-viz__bars i:nth-child(4) { animation: viz4 1.05s ease-in-out -0.40s infinite paused; }
+.story-item__icon-viz__bars i:nth-child(5) { animation: viz5 0.85s ease-in-out -0.15s infinite paused; }
 .story-item:hover .story-item__icon-viz__bars i,
 .story-item__icon-viz:hover .story-item__icon-viz__bars i { animation-play-state: running; }
-@keyframes vizBar {
-  0%, 100% { transform: scaleY(0.3); }
-  50% { transform: scaleY(1); }
-}
+@keyframes viz1 { 0%{transform:scaleY(.30)} 15%{transform:scaleY(.90)} 30%{transform:scaleY(.45)} 45%{transform:scaleY(1)} 60%{transform:scaleY(.35)} 78%{transform:scaleY(.72)} 100%{transform:scaleY(.30)} }
+@keyframes viz2 { 0%{transform:scaleY(.55)} 20%{transform:scaleY(.25)} 38%{transform:scaleY(.85)} 55%{transform:scaleY(.40)} 72%{transform:scaleY(1)} 88%{transform:scaleY(.50)} 100%{transform:scaleY(.55)} }
+@keyframes viz3 { 0%{transform:scaleY(.70)} 14%{transform:scaleY(.35)} 30%{transform:scaleY(.60)} 46%{transform:scaleY(.22)} 64%{transform:scaleY(.95)} 82%{transform:scaleY(.50)} 100%{transform:scaleY(.70)} }
+@keyframes viz4 { 0%{transform:scaleY(.40)} 18%{transform:scaleY(.80)} 34%{transform:scaleY(.50)} 52%{transform:scaleY(.28)} 68%{transform:scaleY(.90)} 84%{transform:scaleY(.45)} 100%{transform:scaleY(.40)} }
+@keyframes viz5 { 0%{transform:scaleY(.60)} 22%{transform:scaleY(1)} 42%{transform:scaleY(.38)} 58%{transform:scaleY(.70)} 76%{transform:scaleY(.30)} 90%{transform:scaleY(.85)} 100%{transform:scaleY(.60)} }
 .story-item__icon-poster { width: 60px; height: 90px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: var(--ink-light); flex-shrink: 0; width: 56px; height: 56px; }
 .story-item__icon--placeholder-poster { width: 60px; height: 90px; border-radius: 2px; font-size: 11px; letter-spacing: 0.03em; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
