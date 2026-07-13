@@ -137,24 +137,33 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   transition: transform 0.55s cubic-bezier(.2,.7,.2,1), box-shadow 0.55s ease;
 }
 .story-item__icon-case__disc {
-  position: absolute; top: 50%; left: 0; width: 60px; height: 60px; margin-top: -30px; border-radius: 50%; z-index: 0;
+  position: absolute; top: 50%; left: 0; width: 60px; height: 60px; margin-top: -30px; border-radius: 50%; z-index: 0; overflow: hidden;
   background:
     radial-gradient(circle at 50% 50%, #111 0 6%, rgba(0,0,0,0) 6.4%),
-    radial-gradient(circle at 50% 50%, #e6e9ee 0 14%, #a9b1bd 14% 16.5%, rgba(0,0,0,0) 17%),
-    conic-gradient(from 210deg at 50% 50%, rgba(120,220,255,0.2), rgba(255,140,220,0.2), rgba(180,255,150,0.2), rgba(255,225,140,0.2), rgba(120,220,255,0.2)),
-    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.1) 0 1px, rgba(0,0,0,0) 1px 3px),
-    radial-gradient(circle at 35% 30%, #f4f6f9 0%, #c3cad4 45%, #949cab 100%);
+    radial-gradient(circle at 50% 50%, #eef1f5 0 14%, #aeb6c2 14% 16.5%, rgba(0,0,0,0) 17%),
+    repeating-radial-gradient(circle at 50% 50%, rgba(255,255,255,0.16) 0 1px, rgba(0,0,0,0) 1px 3px),
+    radial-gradient(circle at 38% 32%, #ffffff 0%, #e4eaf2 50%, #c6cedb 88%, #aab3c1 100%);
   box-shadow: 0 0 0 rgba(0,0,0,0);
   transform: translateX(0) rotate(0deg);
   transition: transform 0.55s cubic-bezier(.2,.7,.2,1), box-shadow 0.4s ease;
   will-change: transform;
 }
+/* Rotating iridescent sheen — the DVD shimmer. */
+.story-item__icon-case__disc::before {
+  content: ''; position: absolute; inset: 0; border-radius: 50%; pointer-events: none;
+  background: conic-gradient(from 0deg at 50% 50%,
+    rgba(90,200,255,0.34), rgba(255,120,220,0.34), rgba(255,235,140,0.34),
+    rgba(140,255,180,0.34), rgba(120,150,255,0.34), rgba(90,200,255,0.34));
+}
 .story-item:hover .story-item__icon-case__disc,
-.story-item__icon-case:hover .story-item__icon-case__disc { transform: translateX(12px) rotate(28deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
+.story-item__icon-case:hover .story-item__icon-case__disc { transform: translateX(12px) rotate(28deg); box-shadow: 1px 1px 3px rgba(0,0,0,0.22); }
+.story-item:hover .story-item__icon-case__disc::before,
+.story-item__icon-case:hover .story-item__icon-case__disc::before { animation: discShimmer 2.4s linear infinite; }
+@keyframes discShimmer { to { transform: rotate(1turn); } }
 .story-item:hover .story-item__icon-case .story-item__icon-poster,
 .story-item:hover .story-item__icon-case .story-item__icon--placeholder-poster,
 .story-item__icon-case:hover .story-item__icon-poster,
-.story-item__icon-case:hover .story-item__icon--placeholder-poster { transform: rotateY(-22deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
+.story-item__icon-case:hover .story-item__icon--placeholder-poster { transform: translateX(-8px) rotateY(-20deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
 /* Books get a faux binding on the left edge + asymmetric corner rounding.
    Slightly wider than the 2:3 poster box so covers crop less on the sides. */
 .story-item__icon-poster--book { width: 64px; height: 88px; border-radius: 1px 3px 3px 1px; }
