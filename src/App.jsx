@@ -180,8 +180,8 @@ function bookLinks(story) {
   }
 }
 
-const GOODREADS_ICON = <span className="brand-favicon brand-favicon--goodreads" aria-hidden="true">g</span>
-const BOOKSHOP_ICON = <span className="brand-favicon brand-favicon--bookshop" aria-hidden="true">B</span>
+const GOODREADS_ICON = <img className="brand-favicon" src="/goodreads.png" alt="" aria-hidden="true" />
+const BOOKSHOP_ICON = <span className="brand-favicon brand-favicon--bookshop" aria-hidden="true" />
 
 const SPOTIFY_ICON = <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-1.02-.12-1.14-.6-.12-.48.12-1.02.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.1 9.3c-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.32-1.32 11.4-1.02 15.9 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.6-1.56.3z"/></svg>
 const APPLE_ICON = <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.99-2.54 4.09l.01-.01zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
