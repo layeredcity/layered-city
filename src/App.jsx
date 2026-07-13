@@ -83,7 +83,7 @@ const TYPE_ICONS = {
   ),
 }
 
-function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
+function CityOverview({ city, stories, storiesLoading, onSelectFilter, onScroll }) {
   if (storiesLoading) {
     return (
       <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>
@@ -95,7 +95,7 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
     .map(f => ({ filter: f, count: stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
-    <div className="city-overview">
+    <div className="city-overview" onScroll={onScroll}>
       {sections.map(({ filter, count }) => (
         <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
           <div className="overview-item__icon-wrap">{TYPE_ICONS[filter.icon]}</div>
@@ -545,6 +545,19 @@ export default function App() {
   const [omdbCache, setOmdbCache] = useState({})
   const [bookCache, setBookCache] = useState({})
   const modalAnchorRef = useRef(null)
+  const heroWrapRef = useRef(null)
+
+  // Subtle hero parallax: as either list scrolls, drift the hero image within
+  // its clipped footprint (the image is pre-scaled so it has room to move).
+  const onListScroll = useCallback((e) => {
+    const y = e.currentTarget.scrollTop
+    const offset = Math.max(-15, -y * 0.06)
+    heroWrapRef.current?.style.setProperty('--hero-parallax', offset + 'px')
+  }, [])
+  // Recenter the hero when switching panels or cities (scroll position differs).
+  useEffect(() => {
+    heroWrapRef.current?.style.setProperty('--hero-parallax', '0px')
+  }, [detailView, selectedCity?.id])
 
   // iOS PWA: force app to fill the physical screen height
   useEffect(() => {
@@ -742,7 +755,7 @@ export default function App() {
           </div>
         )}
         {selectedCity && (
-          <div style={{display:'flex',flexDirection:'column',position:'absolute',top:0,left:0,right:0,bottom:0,overflow:'hidden'}}>
+          <div ref={heroWrapRef} style={{display:'flex',flexDirection:'column',position:'absolute',top:0,left:0,right:0,bottom:0,overflow:'hidden'}}>
             <CityHero city={selectedCity} />
             <div className={"nav-slide-track" + (detailView === 'stories' ? ' nav-slide-track--stories' : '')}>
               <div className="nav-slide-panel">
@@ -751,6 +764,7 @@ export default function App() {
                   stories={stories}
                   storiesLoading={storiesLoading}
                   onSelectFilter={f => { setActiveFilter(f); setDetailView('stories') }}
+                  onScroll={onListScroll}
                 />
               </div>
               <div className="nav-slide-panel">
@@ -772,7 +786,7 @@ export default function App() {
                     </a>
                   )}
                 </div>
-                <div className="stories-scroll">
+                <div className="stories-scroll" onScroll={onListScroll}>
                   {storiesLoading ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
                   ) : filteredStories.length === 0 ? (
