@@ -349,7 +349,7 @@ function StoryItem({ story, onSelect, omdbData }) {
           <>
             <div className="story-item__meta">
               <span className="story-item__type">{label}</span>
-              {story.creatorName && <span className="story-item__source"> by {story.creatorName}</span>}
+              {story.creatorName && <span className="story-item__source">by {story.creatorName}</span>}
             </div>
             {(story.releaseYear || story.genre || duration) && (
               <div className="story-item__meta">
