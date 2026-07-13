@@ -42,7 +42,7 @@ for (const [i, s] of songs.entries()) {
   if (!s.city) errors.push(`${who}: missing city`)
   if (s.description == null || s.description === '') errors.push(`${who}: missing description`)
   else if (String(s.description).length > 256) errors.push(`${who}: description ${String(s.description).length} chars (max 256)`)
-  if (s.year != null && !/^\d{4}$/.test(String(s.year))) errors.push(`${who}: year "${s.year}" must be a 4-digit number`)
+  if (s.year != null && !/^\d{1,4}$/.test(String(s.year))) errors.push(`${who}: year "${s.year}" must be a 1-4 digit number (e.g. 121 for a classical text, 1947 for modern)`)
   if ((s.lat == null) !== (s.lon == null)) errors.push(`${who}: needs both lat and lon, or neither`)
   if (s.lat != null && (Math.abs(Number(s.lat)) > 90 || Math.abs(Number(s.lon)) > 180)) errors.push(`${who}: coordinates out of range`)
 
