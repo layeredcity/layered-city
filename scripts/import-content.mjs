@@ -128,6 +128,22 @@ async function resolveIsbn(title, author) {
   return null
 }
 
+// Convert straight quotes/apostrophes to typographic (curly) ones.
+export function curlyQuotes(s) {
+  if (s == null) return s
+  return String(s)
+    .replace(/(^|[\s([{—–\-/])"/g, '$1“') // opening “
+    .replace(/"/g, '”')                              // closing ”
+    .replace(/'(?=\d)/g, '’')                        // elision: '90s → ’90s
+    .replace(/(^|[\s([{—–\-/])'/g, '$1‘')  // opening ‘
+    .replace(/'/g, '’')                              // apostrophe / closing ’
+}
+// Normalize curly quotes back to straight — used for quote-insensitive dedup keys.
+function plainQuotes(s) {
+  return String(s || '').replace(/[‘’]/g, "'").replace(/[“”]/g, '"')
+}
+const CURLY_FIELDS = new Set(['storyTitle', 'storyDescription', 'creatorName'])
+
 async function cdn(path) {
   const sep = path.includes('?') ? '&' : '?'
   const res = await fetch(`https://cdn.contentful.com/spaces/${SPACE}/environments/master${path}${sep}access_token=${CDN_TOKEN}`)
@@ -212,8 +228,8 @@ async function main() {
     const page = await cma(`/entries?content_type=story&limit=1000&skip=${skip}`)
     for (const e of page.items) {
       const cid = e.fields.relatedCity?.[L]?.sys?.id
-      const title = (e.fields.storyTitle?.[L] || '').trim().toLowerCase()
-      const artist = (e.fields.creatorName?.[L] || '').trim().toLowerCase()
+      const title = plainQuotes((e.fields.storyTitle?.[L] || '').trim()).toLowerCase()
+      const artist = plainQuotes((e.fields.creatorName?.[L] || '').trim()).toLowerCase()
       if (cid && title) existing.set(cid + '::' + title + '::' + artist, e)
     }
     skip += page.items.length
@@ -223,7 +239,7 @@ async function main() {
   // Build the Contentful field values a song maps to.
   const buildFields = (song, cityId) => {
     const fields = {
-      storyTitle: { [L]: (song.title || '').trim() },
+      storyTitle: { [L]: curlyQuotes((song.title || '').trim()) },
       mediaType: { [L]: (song.type || 'music').toLowerCase() },
       relatedCity: { [L]: { sys: { type: 'Link', linkType: 'Entry', id: cityId } } },
     }
@@ -233,6 +249,7 @@ async function main() {
     for (const [key, fieldId] of Object.entries(FIELD_MAP)) {
       if (key === 'title' || song[key] == null || song[key] === '') continue
       let val = song[key]
+      if (CURLY_FIELDS.has(fieldId)) val = curlyQuotes(val)
       if (fieldId === 'storyDescription' && String(val).length > 256) {
         console.log(`  ! "${song.title}": description over 256 chars — truncated (Contentful field limit).`)
         val = String(val).slice(0, 256)
@@ -252,7 +269,7 @@ async function main() {
     const cityId = cityIdByName[cityKey]
     if (!cityId) { console.log(`– skipped "${title}": no city named "${song.city}" in Contentful`); skipped++; continue }
     const creator = song.artist || song.author || song.creator || ''
-    const dedupeKey = cityId + '::' + title.toLowerCase() + '::' + creator.trim().toLowerCase()
+    const dedupeKey = cityId + '::' + plainQuotes(title).toLowerCase() + '::' + plainQuotes(creator.trim()).toLowerCase()
 
     if (existing.has(dedupeKey)) {
       if (!UPDATE) { console.log(`– skipped "${title}" — ${song.artist || ''} (${song.city}): already exists`); skipped++; continue }

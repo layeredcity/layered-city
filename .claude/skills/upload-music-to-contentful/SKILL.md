@@ -111,6 +111,9 @@ attach the new field. Songs with no match are skipped, never created.
 
 ## Notes
 
+- The importer auto-converts straight quotes/apostrophes to typographic (curly)
+  ones in the title, description, and creator; dedup is quote-insensitive so this
+  never causes duplicates.
 - The importer creates **drafts only** and never publishes (except re-publishing in `--update`).
 - `scripts/songs.json` is gitignored (transient working data). `scripts/songs.example.json`
   is the committed template.
