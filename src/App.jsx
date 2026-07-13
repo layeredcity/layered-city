@@ -269,7 +269,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
         {story.description && (
           <>
             <div className="story-modal__why">
-              {isVideo ? 'Why watch?' : t === 'audiotour' ? 'Why walk it?' : 'Why listen?'}
+              {isVideo ? 'Why watch?' : t === 'audiotour' ? 'Why walk it?' : t === 'book' ? 'Why read?' : 'Why listen?'}
             </div>
             <p className="story-modal__desc">{story.description}</p>
           </>
@@ -780,7 +780,7 @@ export default function App() {
           const url = s.mediaUrl || s.secondaryUrl || null
           const t = s.mediaType?.toLowerCase()
           const isVideo = ['video', 'movie', 'tv'].includes(t)
-          const whyLabel = isVideo ? 'Why watch?' : t === 'audiotour' ? 'Why walk it?' : t === 'book' ? 'Why read it?' : 'Why listen?'
+          const whyLabel = isVideo ? 'Why watch?' : t === 'audiotour' ? 'Why walk it?' : t === 'book' ? 'Why read?' : 'Why listen?'
           const btnLabel = isVideo ? 'Watch the video' : t === 'audiotour' ? 'Listen to the audio tour' : 'Listen to the episode'
           const hasMedia = url && (isVideo || t === 'podcast' || t === 'audiotour')
           return (
