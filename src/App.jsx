@@ -238,9 +238,16 @@ function StoryIcon({ story, omdbData, bookData }) {
       {el}
     </span>
   )
-  // Podcast icons broadcast: on hover, concentric rings pulse outward from the
-  // icon like a signal from a radio tower.
-  const wrapPulse = (el) => <span className="story-item__icon-pulse">{el}</span>
+  // Podcast icons broadcast: on hover the icon pulses once and emits three
+  // concentric rings outward (like a radio tower), then settles.
+  const wrapPulse = (el) => (
+    <span className="story-item__icon-pulse">
+      {el}
+      <span className="story-item__icon-pulse__ring" aria-hidden="true" />
+      <span className="story-item__icon-pulse__ring" aria-hidden="true" />
+      <span className="story-item__icon-pulse__ring" aria-hidden="true" />
+    </span>
+  )
   // Movie/TV posters are DVD/Blu-ray cases: on hover the case tilts and a shiny
   // disc slides out from the right.
   const wrapCase = (el) => (
