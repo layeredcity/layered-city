@@ -123,6 +123,18 @@ function capFirst(s) {
   return s ? s.charAt(0).toUpperCase() + s.slice(1) : s
 }
 
+// Display a release year with an era. Negative years are BCE; ancient positive
+// years (pre-1000) get a "CE" for clarity; modern years show bare. Sorting still
+// uses the raw signed number, so BCE texts order before CE ones.
+function formatYear(y) {
+  if (y == null || y === '') return y
+  const n = parseInt(y)
+  if (isNaN(n)) return y
+  if (n < 0) return `${-n} BCE`
+  if (n < 1000) return `${n} CE`
+  return String(n)
+}
+
 function mediaTypeLabel(type) {
   if (!type) return 'Story'
   const t = type.toLowerCase()
@@ -360,7 +372,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
           <div className="story-modal__header-text">
             <div className="story-modal__type">
               {label}
-              {story.releaseYear && t !== 'music' && t !== 'book' && <span className="story-modal__year"> · {story.releaseYear}</span>}
+              {story.releaseYear && t !== 'music' && t !== 'book' && <span className="story-modal__year"> · {formatYear(story.releaseYear)}</span>}
               {story.season && story.episode && <span className="story-modal__year"> · S{story.season} E{story.episode}</span>}
             </div>
             {story.creatorName && <div className="story-modal__channel">{t === 'movie' || t === 'tv' ? 'Directed by' : 'By'} {story.creatorName}</div>}
@@ -405,7 +417,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
           )}
           {t === 'music' || t === 'book'
             ? [story.releaseYear, story.genre, duration].filter(Boolean).length > 0 && (
-                <span className="story-modal__duration">{[story.releaseYear, capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
+                <span className="story-modal__duration">{[formatYear(story.releaseYear), capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
               )
             : isMovieOrTV
               ? [capFirst(story.genre), duration].filter(Boolean).length > 0 && (
@@ -498,14 +510,14 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
             </div>
             {(story.releaseYear || story.genre || duration) && (
               <div className="story-item__meta">
-                <span className="story-item__source">{[story.releaseYear, capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
+                <span className="story-item__source">{[formatYear(story.releaseYear), capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
               </div>
             )}
           </>
         ) : (
           <div className="story-item__meta">
             <span className="story-item__type">{label}</span>
-            {story.releaseYear && <span className="story-item__source"> · {story.releaseYear}</span>}
+            {story.releaseYear && <span className="story-item__source"> · {formatYear(story.releaseYear)}</span>}
             {isMovieOrTV
               ? story.genre && <span className="story-item__source"> · {capFirst(story.genre)}</span>
               : story.creatorName && <span className="story-item__source"> · {story.creatorName}</span>}
@@ -936,7 +948,7 @@ export default function App() {
                     <div className="story-modal__header-text">
                       <div className="story-modal__type">
                         {label}
-                        {s.releaseYear && t !== 'music' && t !== 'book' && <span className="story-modal__year"> · {s.releaseYear}</span>}
+                        {s.releaseYear && t !== 'music' && t !== 'book' && <span className="story-modal__year"> · {formatYear(s.releaseYear)}</span>}
                         {s.season && s.episode && <span className="story-modal__year"> · S{s.season} E{s.episode}</span>}
                       </div>
                       {s.creatorName && <div className="story-modal__channel">{(s.mediaType||'').toLowerCase() === 'movie' || (s.mediaType||'').toLowerCase() === 'tv' ? 'Directed by' : 'By'} {s.creatorName}</div>}
@@ -973,7 +985,7 @@ export default function App() {
                     )}
                     {t === 'music' || t === 'book'
                       ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
-                          <span className="story-modal__duration">{[s.releaseYear, capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
+                          <span className="story-modal__duration">{[formatYear(s.releaseYear), capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
                         )
                       : (t === 'movie' || t === 'tv')
                         ? [capFirst(s.genre), duration].filter(Boolean).length > 0 && (
