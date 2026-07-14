@@ -315,7 +315,7 @@ function StoryIcon({ story, omdbData, bookData }) {
   }
   // Book/movie/TV covers render portrait (2:3); their placeholders should match.
   const isPortraitType = isBook || t === 'movie' || t === 'tv'
-  const placeholderLabel = isBook ? 'BOOK' : label.slice(0,3).toUpperCase()
+  const placeholderLabel = isBook ? 'BOOK' : isMovieTV ? (t === 'tv' ? 'TV' : 'MOVIE') : label.slice(0,3).toUpperCase()
   const placeholder = (
     <div
       className={'story-item__icon--placeholder' + (isPortraitType ? ' story-item__icon--placeholder-poster' : '') + (isBook ? ' story-item__icon-poster--book' : '')}
