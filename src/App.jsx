@@ -829,7 +829,12 @@ export default function App() {
                     [5, 4, 3, 2, 1, 0].flatMap(rating => {
                       const group = filteredStories.filter(s => effectiveRatingForStory(s) === rating)
                       if (!group.length) return []
-                      const label = rating === 0 ? null : rating === 5 && group.length > 1 ? "Ryan's picks" : QUALITY_LABELS[rating]
+                      const isMovieGroup = group.every(s => { const t = (s.mediaType || '').toLowerCase(); return t === 'movie' || t === 'tv' })
+                      const label = rating === 0
+                        ? null
+                        : rating === 5
+                          ? (isMovieGroup ? 'Top rated' : (group.length > 1 ? "Ryan's picks" : QUALITY_LABELS[rating]))
+                          : QUALITY_LABELS[rating]
                       return [
                         label ? <div key={'heading-' + rating} className="story-group-heading">{label}</div> : null,
                         ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} bookData={bookCache[story.isbn]} />)
