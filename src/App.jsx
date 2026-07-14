@@ -407,7 +407,11 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
             ? [story.releaseYear, story.genre, duration].filter(Boolean).length > 0 && (
                 <span className="story-modal__duration">{[story.releaseYear, capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
               )
-            : duration && <span className="story-modal__duration">{duration}</span>
+            : isMovieOrTV
+              ? [capFirst(story.genre), duration].filter(Boolean).length > 0 && (
+                  <span className="story-modal__duration">{[capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
+                )
+              : duration && <span className="story-modal__duration">{duration}</span>
           }
         </div>
         {t === 'music' ? (
@@ -502,9 +506,9 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
           <div className="story-item__meta">
             <span className="story-item__type">{label}</span>
             {story.releaseYear && <span className="story-item__source"> · {story.releaseYear}</span>}
-            {story.creatorName && (
-              <span className="story-item__source"> · {story.creatorName}</span>
-            )}
+            {isMovieOrTV
+              ? story.genre && <span className="story-item__source"> · {capFirst(story.genre)}</span>
+              : story.creatorName && <span className="story-item__source"> · {story.creatorName}</span>}
             {story.channelName && (
               <span className="story-item__source"> from {story.channelName}</span>
             )}
@@ -971,7 +975,11 @@ export default function App() {
                       ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
                           <span className="story-modal__duration">{[s.releaseYear, capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
                         )
-                      : duration && <span className="story-modal__duration">{duration}</span>
+                      : (t === 'movie' || t === 'tv')
+                        ? [capFirst(s.genre), duration].filter(Boolean).length > 0 && (
+                            <span className="story-modal__duration">{[capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
+                          )
+                        : duration && <span className="story-modal__duration">{duration}</span>
                     }
                   </div>
                   {t === 'music' ? (
