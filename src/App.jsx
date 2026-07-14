@@ -248,6 +248,10 @@ function StoryIcon({ story, omdbData, bookData }) {
   const isMovieTV = t === 'movie' || t === 'tv'
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
+  // OMDb poster URLs (and occasionally book covers) sometimes 404 after the
+  // source drops the image. Treat a load failure like "no image" so we fall
+  // through to the placeholder instead of rendering a broken-image icon.
+  const [imgFailed, setImgFailed] = useState(false)
   // Books get a faux spine + a cover that swings open on hover. The cover layer
   // rotates around its left edge (the spine) to reveal a "pages" layer behind.
   const wrapBook = (el) => isBook ? (
@@ -283,7 +287,7 @@ function StoryIcon({ story, omdbData, bookData }) {
     </span>
   )
 
-  if (story.channelIcon || story.artworkImage || poster || cover) {
+  if (!imgFailed && (story.channelIcon || story.artworkImage || poster || cover)) {
     // Movie posters and book covers are both portrait (2:3).
     const isPortrait = (poster || cover) && !story.channelIcon && !story.artworkImage
     const isAlbum = story.artworkImage && !story.channelIcon
@@ -302,6 +306,7 @@ function StoryIcon({ story, omdbData, bookData }) {
         className={className}
         src={src}
         alt={story.channelName || story.title}
+        onError={() => setImgFailed(true)}
       />
     )
     if (isPortrait) {
