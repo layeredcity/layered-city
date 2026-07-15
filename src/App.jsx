@@ -258,6 +258,10 @@ function StoryIcon({ story, omdbData, bookData }) {
   const isMusic = t === 'music'
   const isPodcast = t === 'podcast'
   const isMovieTV = t === 'movie' || t === 'tv'
+  // Manual image override: wins over everything, for any media type. Lets us
+  // supply a poster for a movie OMDb lacks (or whose URL has gone dead), or
+  // correct a wrong auto-resolved book cover.
+  const override = story.coverImageUrl
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
   // OMDb poster URLs (and occasionally book covers) sometimes 404 after the
@@ -299,15 +303,15 @@ function StoryIcon({ story, omdbData, bookData }) {
     </span>
   )
 
-  if (!imgFailed && (story.channelIcon || story.artworkImage || poster || cover)) {
+  if (!imgFailed && (story.channelIcon || story.artworkImage || override || poster || cover)) {
     // Movie posters and book covers are both portrait (2:3).
-    const isPortrait = (poster || cover) && !story.channelIcon && !story.artworkImage
+    const isPortrait = (override || poster || cover) && !story.channelIcon && !story.artworkImage
     const isAlbum = story.artworkImage && !story.channelIcon
     const src = story.channelIcon
       ? story.channelIcon + '?w=112&h=112&fit=fill'
       : story.artworkImage
         ? story.artworkImage + '?w=256&h=256&fit=fill'
-        : (poster || cover)
+        : (override || poster || cover)
     const className = isPortrait
       ? 'story-item__icon-poster' + (isBook ? ' story-item__icon-poster--book' : '')
       : isAlbum

@@ -69,6 +69,8 @@ const FIELD_MAP = {
   isbn: 'isbnNumber',      // book
   imdb: 'imdbId',          // movie/tv (drives poster + rating via OMDb)
   bookCoverUrl: 'bookCoverUrl', // book (resolved at import)
+  poster: 'coverImageUrl',      // any type: manual image override (wins over OMDb/auto cover)
+  coverImageUrl: 'coverImageUrl',
   minutes: 'numberOfMinutes',
   seconds: 'numberOfSeconds',
 }

@@ -64,6 +64,7 @@ export async function fetchStoriesForCity(cityId) {
       imdbId: f.imdbId || null,
       isbn: f.isbnNumber || null,
       bookCoverUrl: f.bookCoverUrl || null,
+      coverImageUrl: f.coverImageUrl || null,
       goodreadsRating: f.goodreadsRating ?? null,
       releaseYear: f.releaseYear || null,
       season: f.seasonNumber || null,
