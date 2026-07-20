@@ -1,0 +1,13 @@
+# Netlify config — deliberately minimal.
+#
+# The build command, publish directory and SPA redirect are already set up and
+# working (site settings in the Netlify UI, plus public/_redirects). Declaring
+# them here as well would override those, so this file covers only what's new:
+# the cover-mirroring functions.
+
+[functions]
+  node_bundler = "esbuild"
+  # The functions import from shared/, which sits outside netlify/functions.
+  # esbuild follows the import, but this makes the dependency explicit so the
+  # file is guaranteed to ship with the bundle.
+  included_files = ["shared/**"]

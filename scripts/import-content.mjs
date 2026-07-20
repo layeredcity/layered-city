@@ -78,8 +78,21 @@ const FIELD_MAP = {
 // Resolve a working Open Library cover URL for a book. The by-ISBN endpoint has
 // gaps, so we fall back to a search that returns a cover id. All server-side,
 // so no CORS/quota limits (the browser can only load cover images, not search).
+// Returns 'ok' | 'missing' | 'unreachable'. The distinction matters: a 404 (via
+// ?default=false) means Open Library really has no cover, but a timeout or 5xx
+// means it isn't answering. Collapsing both into "no cover" made an Open
+// Library outage look like a batch of genuinely coverless books, which then
+// never got retried. Retries transient failures before giving up.
 async function coverExists(url) {
-  try { const r = await fetch(url); return r.ok && (r.headers.get('content-type') || '').startsWith('image') } catch { return false }
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const r = await fetch(url, { signal: AbortSignal.timeout(12000), headers: { 'User-Agent': 'layered-city/1.0' } })
+      if (r.ok && (r.headers.get('content-type') || '').startsWith('image')) return 'ok'
+      if (r.status === 404) return 'missing'
+    } catch { /* timeout or network error — retry */ }
+    if (attempt < 2) await new Promise(r => setTimeout(r, 1500 * (attempt + 1)))
+  }
+  return 'unreachable'
 }
 async function searchCoverId({ isbn, title, author }) {
   const pick = async (params) => {
@@ -94,16 +107,23 @@ async function searchCoverId({ isbn, title, author }) {
   if (title && title.includes(':')) { const p = new URLSearchParams({ title: title.split(':')[0].trim(), fields: 'cover_i', limit: '1' }); if (author) p.set('author', author); const c = await pick(p); if (c) return c }
   return null
 }
-async function resolveBookCover(isbn, title, author) {
+// Returns the cover URL, or null when there is none. Sets `outage.hit` if Open
+// Library failed to answer at any point, so the caller can say "retry later"
+// rather than "this book has no cover".
+async function resolveBookCover(isbn, title, author, outage = {}) {
   const clean = isbn ? String(isbn).replace(/[^0-9Xx]/g, '') : ''
   if (clean) {
     const byIsbn = `https://covers.openlibrary.org/b/isbn/${clean}-L.jpg`
-    if (await coverExists(byIsbn + '?default=false')) return byIsbn
+    const state = await coverExists(byIsbn + '?default=false')
+    if (state === 'ok') return byIsbn
+    if (state === 'unreachable') outage.hit = true
   }
   const coverId = await searchCoverId({ isbn: clean, title, author })
   if (coverId) {
     const byId = `https://covers.openlibrary.org/b/id/${coverId}-L.jpg`
-    if (await coverExists(byId + '?default=false')) return byId
+    const state = await coverExists(byId + '?default=false')
+    if (state === 'ok') return byId
+    if (state === 'unreachable') outage.hit = true
   }
   return null
 }
@@ -194,6 +214,7 @@ async function main() {
   if (!Array.isArray(songs)) fail('Input JSON must be an array of song objects.')
 
   // Books: resolve an ISBN (if missing) and a working cover URL before importing.
+  let coverOutages = 0
   for (const s of songs) {
     if ((s.type || '').toLowerCase() !== 'book') continue
     const who = s.author || s.creator || s.artist
@@ -203,8 +224,10 @@ async function main() {
       else console.log(`  ! no ISBN found for "${s.title}"`)
     }
     if (!s.bookCoverUrl) {
-      const cover = await resolveBookCover(s.isbn, s.title, who)
+      const outage = {}
+      const cover = await resolveBookCover(s.isbn, s.title, who, outage)
       if (cover) { s.bookCoverUrl = cover; console.log(`  🖼 cover for "${s.title}": ${cover.split('/').pop()}`) }
+      else if (outage.hit) { coverOutages++; console.log(`  ? Open Library unreachable for "${s.title}" — retry later with: npm run fix:covers`) }
       else console.log(`  ! no cover found for "${s.title}"`)
     }
     await new Promise(r => setTimeout(r, 250)) // be gentle with Open Library
@@ -322,6 +345,10 @@ async function main() {
 
   console.log(`\nDone. ${created} created, ${updated} updated, ${skipped} skipped, ${failed} failed.`)
   if (created) console.log('New entries are DRAFTS — finish them in Contentful (album cover, etc.) and publish.')
+  if (coverOutages) {
+    console.log(`\n⚠ ${coverOutages} book(s) have no cover because Open Library was unreachable, not because`)
+    console.log(`  no cover exists. Re-run once it recovers:  npm run fix:covers`)
+  }
   console.log('')
 }
 

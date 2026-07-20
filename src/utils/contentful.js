@@ -65,6 +65,12 @@ export async function fetchStoriesForCity(cityId) {
       isbn: f.isbnNumber || null,
       bookCoverUrl: f.bookCoverUrl || null,
       coverImageUrl: f.coverImageUrl || null,
+      // A copy of the cover hosted on Contentful (npm run mirror:covers), so a
+      // book's art doesn't depend on Open Library being reachable at page load.
+      // Falls back to bookCoverUrl when a book hasn't been mirrored yet.
+      coverAsset: f.coverAsset?.fields?.file?.url
+        ? 'https:' + f.coverAsset.fields.file.url
+        : null,
       goodreadsRating: f.goodreadsRating ?? null,
       releaseYear: f.releaseYear || null,
       season: f.seasonNumber || null,

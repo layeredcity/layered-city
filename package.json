@@ -9,7 +9,9 @@
     "preview": "vite preview",
     "validate:songs": "node scripts/validate-songs.mjs",
     "import": "node scripts/import-content.mjs",
-    "import:songs": "node scripts/import-content.mjs"
+    "import:songs": "node scripts/import-content.mjs",
+    "fix:covers": "node scripts/fix-covers.mjs",
+    "mirror:covers": "node scripts/mirror-covers.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
