@@ -6,6 +6,8 @@ import { fetchOmdbData } from './utils/omdb'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
+import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
+import { sizedAsset } from './utils/images'
 
 const QUALITY_LABELS = ['', 'Marginally interesting', 'Somewhat interesting', 'Interesting', 'Very interesting', "Ryan's pick"]
 
@@ -62,8 +64,8 @@ const TYPE_ICONS = {
     </svg>
   ),
   music: (
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
-      <path fill="currentColor" fillRule="evenodd" d="M45.5187 3.8627c0 -1.9293 -1.5643 -3.5072 -3.5263 -3.375 -4.9154 0.3314 -15.1165 1.5216 -24.8825 5.8116 -1.9194 0.8432 -3.0713 2.7731 -3.0713 4.8372v8.6489c0 0.0062 0.0001 0.0124 0.0004 0.0187v9.1341c-0.6836 -0.157 -1.3952 -0.24 -2.1256 -0.24 -5.2091 0 -9.434 4.2122 -9.434 9.4109s4.2249 9.4109 9.434 9.4109c5.209 0 9.434 -4.2122 9.434 -9.4109 0 -0.1382 -0.003 -0.2759 -0.0089 -0.4127 0.0049 -0.0281 0.0074 -0.057 0.0074 -0.0866V17.6066c6.6525 -2.3284 12.5931 -3.4611 16.8603 -4.0115v10.0862c-0.6735 -0.1532 -1.374 -0.2339 -2.093 -0.2339 -5.1958 0 -9.4075 4.2136 -9.4075 9.4109s4.2117 9.4109 9.4075 9.4109c5.1957 0 9.4074 -4.2137 9.4074 -9.4109 0 -0.1492 -0.0035 -0.2976 -0.0103 -0.4451 0.0019 -0.0179 0.0028 -0.0359 0.0028 -0.0542V12.6501c0.0037 -0.0245 0.0056 -0.0493 0.0056 -0.0744v-8.713Z" clipRule="evenodd"/>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox={MUSIC_GLYPH_VIEWBOX}>
+      <path fill="currentColor" fillRule="evenodd" d={MUSIC_GLYPH_PATH} clipRule="evenodd"/>
     </svg>
   ),
   book: (
@@ -264,6 +266,12 @@ function StoryIcon({ story, omdbData, bookData }) {
   const override = story.coverImageUrl
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
+  // Priority: our mirrored copy on Contentful first, then a manual override,
+  // then the remote source. The mirror wins over the override because it is
+  // *made from* the override — a hand-pasted coverImageUrl is still someone
+  // else's server, so once mirrored we serve our own copy. `mirror:covers`
+  // re-mirrors when the override changes, so edits still take effect.
+  const portraitSrc = story.coverAsset || override || poster || cover
   // OMDb poster URLs (and occasionally book covers) sometimes 404 after the
   // source drops the image. Treat a load failure like "no image" so we fall
   // through to the placeholder instead of rendering a broken-image icon.
@@ -303,15 +311,15 @@ function StoryIcon({ story, omdbData, bookData }) {
     </span>
   )
 
-  if (!imgFailed && (story.channelIcon || story.artworkImage || override || poster || cover)) {
+  if (!imgFailed && (story.channelIcon || story.artworkImage || portraitSrc)) {
     // Movie posters and book covers are both portrait (2:3).
-    const isPortrait = (override || poster || cover) && !story.channelIcon && !story.artworkImage
+    const isPortrait = portraitSrc && !story.channelIcon && !story.artworkImage
     const isAlbum = story.artworkImage && !story.channelIcon
     const src = story.channelIcon
       ? story.channelIcon + '?w=112&h=112&fit=fill'
       : story.artworkImage
         ? story.artworkImage + '?w=256&h=256&fit=fill'
-        : (override || poster || cover)
+        : sizedAsset(portraitSrc, 180)
     const className = isPortrait
       ? 'story-item__icon-poster' + (isBook ? ' story-item__icon-poster--book' : '')
       : isAlbum
@@ -336,7 +344,11 @@ function StoryIcon({ story, omdbData, bookData }) {
   }
   // Book/movie/TV covers render portrait (2:3); their placeholders should match.
   const isPortraitType = isBook || t === 'movie' || t === 'tv'
-  const placeholderLabel = isBook ? 'BOOK' : isMovieTV ? (t === 'tv' ? 'TV' : 'MOVIE') : label.slice(0,3).toUpperCase()
+  // Songs get the music-note glyph rather than a truncated word — "SON" read as
+  // an abbreviation of nothing. Everything else keeps its short text label.
+  const placeholderLabel = isMusic
+    ? <span className="story-item__icon--placeholder-glyph" aria-label="Song">{TYPE_ICONS.music}</span>
+    : isBook ? 'BOOK' : isMovieTV ? (t === 'tv' ? 'TV' : 'MOVIE') : label.slice(0,3).toUpperCase()
   const placeholder = (
     <div
       className={'story-item__icon--placeholder' + (isPortraitType ? ' story-item__icon--placeholder-poster' : '') + (isBook ? ' story-item__icon-poster--book' : '')}
@@ -659,7 +671,9 @@ export default function App() {
           if (omdb) setOmdbCache(prev => ({ ...prev, [s.imdbId]: omdb }))
         })
       })
-      data.filter(s => s.isbn && !s.bookCoverUrl).forEach(s => {
+      // Only ask Open Library for a cover we don't already have from somewhere
+      // better. A mirrored or manually-set cover means never touching them.
+      data.filter(s => s.isbn && !s.bookCoverUrl && !s.coverAsset && !s.coverImageUrl).forEach(s => {
         fetchBook(s.isbn).then(book => {
           if (book) setBookCache(prev => ({ ...prev, [s.isbn]: book }))
         })

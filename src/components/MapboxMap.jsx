@@ -1,5 +1,7 @@
 import { useEffect, useRef } from 'react'
 import mapboxgl from 'mapbox-gl'
+import { musicGlyphMarkup } from '../mediaGlyphs'
+import { sizedAsset } from '../utils/images'
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
@@ -19,6 +21,8 @@ const SYLLABLE_BREAKS = {
   'Lisbon':     'Lis​bon',
   'Berlin':     'Ber​lin',
   'Madrid':     'Mad​rid',
+  'Bucharest':  'Bucha​rest',
+  'Marseille':  'Mar​seille',
 }
 
 const FLY_DURATION = 4500
@@ -46,7 +50,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       container: containerRef.current,
       style: 'mapbox://styles/mapbox/streets-v12',
       center: [7.75, 48.57],
-      zoom: 4.2,
+      zoom: 3.8,
     })
     map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-right')
     mapRef.current = map
@@ -62,7 +66,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         mapRef.current.resize()
         mapRef.current.flyTo({
           center: [7.75, 48.57],
-          zoom: 4.2,
+          zoom: 3.8,
           duration: 1800,
           essential: true,
           easing: t => 1 - Math.pow(1 - t, 3),
@@ -197,7 +201,9 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         const el = document.createElement('div')
         const cachedPoster = story.imdbId ? omdbCacheRef.current?.[story.imdbId]?.poster : null
         const cachedCover = story.bookCoverUrl || (story.isbn ? bookCacheRef.current?.[story.isbn]?.cover : null)
-        const portraitImg = cachedPoster || cachedCover
+        // Same priority as the list icons: our Contentful mirror, then a manual
+        // override, then the remote source. Pins are tiny, so ask for a tiny image.
+        const portraitImg = sizedAsset(story.coverAsset, 96) || story.coverImageUrl || cachedPoster || cachedCover
         const imgSrc = story.channelIcon || story.artworkImage || portraitImg
         if (imgSrc) {
           const isPoster = portraitImg && !story.channelIcon && !story.artworkImage
@@ -215,7 +221,9 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
           const boxR = isPortraitType ? '4px' : borderRadius
           const fontSize = isPortraitType ? '8px' : '10px'
           el.style.cssText = 'width:' + boxW + ';height:' + boxH + ';border-radius:' + boxR + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:' + fontSize + ';font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;transition:opacity 0.35s ease;'
-          el.textContent = t === 'book' ? 'BOOK' : (story.mediaType || '').slice(0, 3).toUpperCase()
+          // Songs without album art get the music-note glyph rather than "MUS".
+          if (t === 'music') el.innerHTML = '<span style="display:flex;opacity:0.5">' + musicGlyphMarkup(15) + '</span>'
+          else el.textContent = t === 'book' ? 'BOOK' : (story.mediaType || '').slice(0, 3).toUpperCase()
         }
         el.addEventListener('click', () => onStoryClick?.(story))
         // Wrap the visual element so Mapbox positions the wrapper and only ever
