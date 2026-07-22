@@ -40,7 +40,7 @@ export default async (req) => {
   try {
     const client = makeClient({ space, token })
     const result = await mirrorStory(client, entryId)
-    console.log(`${entryId}: ${result.status}${result.reason ? ` (${result.reason})` : ''}${result.title ? ` — ${result.title}` : ''}`)
+    console.log(`${entryId}: ${result.status}${result.reason ? ` (${result.reason})` : ''}${result.title ? ` — ${result.title}` : ''}${result.pruned ? ' [pruned old asset]' : ''}`)
     return new Response(JSON.stringify(result), { status: 200 })
   } catch (e) {
     // Log and return 200: Contentful retries on failure, and a retry storm on a

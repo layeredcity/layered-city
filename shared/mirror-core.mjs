@@ -83,6 +83,25 @@ async function discardAsset(client, id) {
   } catch { /* best effort — the caller is already reporting a failure */ }
 }
 
+// Remove the mirror we just replaced. When a cover URL changes we make a fresh
+// asset and relink to it, which leaves the previous one referenced by nobody —
+// one wasted record per edit. Guarded two ways: only ever deletes an asset our
+// own tooling created (the description marker), and it's best-effort — the new
+// cover is already linked and live, so a prune hiccup is cosmetic, never fatal.
+async function pruneSupersededMirror(client, id) {
+  try {
+    const asset = await (await client.cma(`/assets/${id}`)).json()
+    if (!(asset.fields?.description?.['en-US'] || '').startsWith('Mirrored cover for')) return false
+    if (asset.sys?.publishedVersion) {
+      await client.cma(`/assets/${id}/published`, {
+        method: 'DELETE',
+        headers: { 'X-Contentful-Version': String(asset.sys.version) },
+      })
+    }
+    return (await client.cma(`/assets/${id}`, { method: 'DELETE' })).ok
+  } catch { return false }
+}
+
 async function createAsset(client, { sourceUrl, title, fileName }) {
   const create = await client.cma('/assets', {
     method: 'POST',
@@ -184,11 +203,20 @@ export async function mirrorStory(client, entryId) {
     throw e
   }
 
+  // The new cover is linked and live; the old mirror is now an orphan. Delete
+  // it so repeated edits don't pile up unused assets. Only runs once we're past
+  // the point of no failure, and never touches the asset we just created.
+  let pruned = false
+  if (existingId && existingId !== asset.sys.id) {
+    pruned = await pruneSupersededMirror(client, existingId)
+  }
+
   const details = asset.fields.file['en-US'].details
   return {
     status: 'mirrored',
     title,
     replaced: existingId || null,
+    pruned,
     bytes: details?.size || 0,
     width: details?.image?.width || null,
   }
