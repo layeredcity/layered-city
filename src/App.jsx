@@ -633,6 +633,7 @@ export default function App() {
   const [storiesLoading, setStoriesLoading] = useState(false)
   const [loading, setLoading] = useState(true)
   const [activeFilter, setActiveFilter] = useState('All')
+  const [sortMode, setSortMode] = useState('rating') // 'rating' | 'date' — Books/Movies sort toggle
   const [detailView, setDetailView] = useState('overview')
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
@@ -763,23 +764,44 @@ export default function App() {
   }, [omdbCache])
 
   const isMusicFilter = currentFilter.types.length === 1 && currentFilter.types[0] === 'music'
-  const isChronoFilter = currentFilter.types.length === 1 && (currentFilter.types[0] === 'music' || currentFilter.types[0] === 'book')
+  const isBooksFilter = currentFilter.label === 'Books'
+  const isMoviesFilter = currentFilter.label === 'Movies'
+  // The rating/date sort toggle is offered only where both axes are meaningful.
+  const showSortToggle = isBooksFilter || isMoviesFilter
+  // Books have no rating tiers, so they always render as a flat list; movies
+  // drop their tier headings only when sorted by date. Everything else keeps
+  // the tiered grouping.
+  const useFlatList = isBooksFilter || (isMoviesFilter && sortMode === 'date')
 
-  const filteredStories = useMemo(() =>
-    stories
-      .filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
-      .sort((a, b) => {
-        if (isChronoFilter) {
-          return (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0)
-        }
-        const tierDiff = effectiveRatingForStory(b) - effectiveRatingForStory(a)
-        if (tierDiff !== 0) return tierDiff
-        const rA = parseFloat(omdbCache[a.imdbId]?.rating) || 0
-        const rB = parseFloat(omdbCache[b.imdbId]?.rating) || 0
-        return rB - rA
-      }),
-    [stories, currentFilter, effectiveRatingForStory, omdbCache, isChronoFilter]
-  )
+  // Reset the sort to each section's natural default on entry: Movies by
+  // rating (the tiered view), Books by date (the chronological reading list).
+  // The user's toggle choice sticks until they switch sections.
+  useEffect(() => {
+    setSortMode(activeFilter === 'Books' ? 'date' : 'rating')
+  }, [activeFilter])
+
+  const filteredStories = useMemo(() => {
+    const list = stories.filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
+    const byDate = (a, b) => (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0)
+    const byRating = (a, b) => {
+      const tierDiff = effectiveRatingForStory(b) - effectiveRatingForStory(a)
+      if (tierDiff !== 0) return tierDiff
+      const rA = parseFloat(omdbCache[a.imdbId]?.rating) || 0
+      const rB = parseFloat(omdbCache[b.imdbId]?.rating) || 0
+      return rB - rA
+    }
+    // Music has no rating and always reads as a chronological list.
+    if (isMusicFilter) return [...list].sort(byDate)
+    if (showSortToggle) {
+      if (sortMode === 'date') return [...list].sort(byDate)
+      // Rating: books rank by their Goodreads score (they carry no quality
+      // tier); movies by tier, then exact IMDb rating within a tier.
+      if (isBooksFilter) return [...list].sort((a, b) => (b.goodreadsRating || 0) - (a.goodreadsRating || 0))
+      return [...list].sort(byRating)
+    }
+    // TV, podcasts, etc. keep the rating order they've always used.
+    return [...list].sort(byRating)
+  }, [stories, currentFilter, sortMode, isMusicFilter, isBooksFilter, showSortToggle, effectiveRatingForStory, omdbCache])
 
   const mapStories = detailView === 'overview' ? stories : filteredStories
 
@@ -857,6 +879,22 @@ export default function App() {
                 </div>
                 <div className="stories-header">
                   <div className="stories-header__title">{currentFilter.label}</div>
+                  {showSortToggle && filteredStories.length > 1 && (
+                    <div className="sort-toggle" role="group" aria-label="Sort by">
+                      <button
+                        type="button"
+                        className={'sort-toggle__opt' + (sortMode === 'rating' ? ' is-active' : '')}
+                        aria-pressed={sortMode === 'rating'}
+                        onClick={() => setSortMode('rating')}
+                      >Rating</button>
+                      <button
+                        type="button"
+                        className={'sort-toggle__opt' + (sortMode === 'date' ? ' is-active' : '')}
+                        aria-pressed={sortMode === 'date'}
+                        onClick={() => setSortMode('date')}
+                      >Date</button>
+                    </div>
+                  )}
                   {isMusicFilter && selectedCity.musicPlaylistSpotify && filteredStories.length > 0 && (
                     <a
                       className="playlist-link"
@@ -876,6 +914,10 @@ export default function App() {
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
                       Layered City does not yet have any {currentFilter.emptyLabel} about {selectedCity.name}.
                     </div>
+                  ) : useFlatList ? (
+                    filteredStories.map(story => (
+                      <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} bookData={bookCache[story.isbn]} />
+                    ))
                   ) : (
                     [5, 4, 3, 2, 1, 0].flatMap(rating => {
                       const group = filteredStories.filter(s => effectiveRatingForStory(s) === rating)
