@@ -240,10 +240,19 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         markerDataRef.current.push({ el, id: story.id, imdbId: story.imdbId || null, isbn: story.isbn || null })
       })
 
+      // Fade the pins in as the map settles on the city. Capture THIS run's
+      // markers in a local snapshot: reading the shared markerDataRef when the
+      // timer fires was racy — a quick city-to-city switch could leave the
+      // callback iterating a set that had already been emptied and rebuilt, so
+      // the new city's pins never received an opacity and stayed invisible until
+      // the city was re-selected (which collapses the delay to ~0). The snapshot
+      // always refers to the markers this run created; a stale run harmlessly
+      // sets opacity on its own already-removed nodes.
+      const created = markerDataRef.current.slice()
       const animEnd = (citySelectedAtRef.current || 0) + PANEL_TRANSITION + FLY_DURATION
-      const revealDelay = Math.max(0, animEnd - 500 - Date.now())
+      const revealDelay = Math.max(0, Math.min(animEnd - 500 - Date.now(), FLY_DURATION))
       revealTimerRef.current = setTimeout(() => {
-        markerDataRef.current.forEach(({ el, id }) => {
+        created.forEach(({ el, id }) => {
           setTimeout(() => {
             el.style.opacity = !visibleIdsRef.current.size || visibleIdsRef.current.has(id) ? '1' : '0'
           }, Math.random() * 500)
