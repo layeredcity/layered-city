@@ -942,15 +942,21 @@ export default function App() {
                       <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} bookData={bookCache[story.isbn]} />
                     ))
                   ) : (
-                    [5, 4, 3, 2, 1, 0].flatMap(rating => {
-                      const group = filteredStories.filter(s => effectiveRatingForStory(s) === rating)
-                      if (!group.length) return []
-                      const label = rating === 0 ? null : QUALITY_LABELS[rating]
-                      return [
-                        label ? <div key={'heading-' + rating} className="story-group-heading">{label}</div> : null,
-                        ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} bookData={bookCache[story.isbn]} />)
-                      ].filter(Boolean)
-                    })
+                    (() => {
+                      // Label the unrated (tier 0) group "Not rated" only when
+                      // some rated items sit above it — so an all-unrated list
+                      // (or Music, which carries no ratings) shows no heading.
+                      const hasRated = filteredStories.some(s => effectiveRatingForStory(s) > 0)
+                      return [5, 4, 3, 2, 1, 0].flatMap(rating => {
+                        const group = filteredStories.filter(s => effectiveRatingForStory(s) === rating)
+                        if (!group.length) return []
+                        const label = rating === 0 ? (hasRated ? 'Not rated' : null) : QUALITY_LABELS[rating]
+                        return [
+                          label ? <div key={'heading-' + rating} className="story-group-heading">{label}</div> : null,
+                          ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} bookData={bookCache[story.isbn]} />)
+                        ].filter(Boolean)
+                      })
+                    })()
                   )}
                 </div>
               </div>
