@@ -9,7 +9,10 @@ import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset } from './utils/images'
 
-const QUALITY_LABELS = ['', 'Marginally interesting', 'Somewhat interesting', 'Interesting', 'Very interesting', "Ryan's pick"]
+// Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
+// Used for movie/TV IMDb tiers and book Goodreads tiers alike, so the two
+// sections read consistently.
+const QUALITY_LABELS = ['', 'Fair', 'Decent', 'Good', 'Very good', 'Top rated']
 
 function imdbToQualityRating(imdbRating) {
   const r = parseFloat(imdbRating)
@@ -18,6 +21,19 @@ function imdbToQualityRating(imdbRating) {
   if (r >= 7.0) return 4
   if (r >= 6.0) return 3
   if (r >= 5.0) return 2
+  return 1
+}
+
+// Map a Goodreads average (0–5) to the same 1–5 quality tiers. Goodreads
+// scores cluster tightly (most titles 3.6–4.3), so the cutoffs are calibrated
+// to that band rather than evenly across 0–5. Returns null when unrated.
+function goodreadsToQualityRating(goodreadsRating) {
+  const r = parseFloat(goodreadsRating)
+  if (isNaN(r)) return null
+  if (r >= 4.2) return 5
+  if (r >= 4.0) return 4
+  if (r >= 3.8) return 3
+  if (r >= 3.6) return 2
   return 1
 }
 
@@ -760,6 +776,7 @@ export default function App() {
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
     if (t === 'movie' || t === 'tv') return imdbToQualityRating(omdbCache[s.imdbId]?.rating) || 0
+    if (t === 'book') return goodreadsToQualityRating(s.goodreadsRating) || 0
     return s.qualityRating || 0
   }, [omdbCache])
 
@@ -768,10 +785,10 @@ export default function App() {
   const isMoviesFilter = currentFilter.label === 'Movies'
   // The rating/date sort toggle is offered only where both axes are meaningful.
   const showSortToggle = isBooksFilter || isMoviesFilter
-  // Books have no rating tiers, so they always render as a flat list; movies
-  // drop their tier headings only when sorted by date. Everything else keeps
-  // the tiered grouping.
-  const useFlatList = isBooksFilter || (isMoviesFilter && sortMode === 'date')
+  // Date sort is a flat chronological list; Rating sort keeps the tier
+  // headings (books tier by Goodreads score, movies by IMDb). Other sections
+  // are unaffected.
+  const useFlatList = showSortToggle && sortMode === 'date'
 
   // Reset the sort to each section's natural default on entry: Movies by
   // rating (the tiered view), Books by date (the chronological reading list).
@@ -922,12 +939,7 @@ export default function App() {
                     [5, 4, 3, 2, 1, 0].flatMap(rating => {
                       const group = filteredStories.filter(s => effectiveRatingForStory(s) === rating)
                       if (!group.length) return []
-                      const isMovieGroup = group.every(s => { const t = (s.mediaType || '').toLowerCase(); return t === 'movie' || t === 'tv' })
-                      const label = rating === 0
-                        ? null
-                        : rating === 5
-                          ? (isMovieGroup ? 'Top rated' : (group.length > 1 ? "Ryan's picks" : QUALITY_LABELS[rating]))
-                          : QUALITY_LABELS[rating]
+                      const label = rating === 0 ? null : QUALITY_LABELS[rating]
                       return [
                         label ? <div key={'heading-' + rating} className="story-group-heading">{label}</div> : null,
                         ...group.map(story => <StoryItem key={story.id} story={story} onSelect={setSelectedStory} omdbData={omdbCache[story.imdbId]} bookData={bookCache[story.isbn]} />)
