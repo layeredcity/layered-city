@@ -185,13 +185,20 @@ function musicLinks(story) {
 // commission later, set BOOKSHOP_AFFILIATE to your Bookshop.org affiliate id.
 const BOOKSHOP_AFFILIATE = '126157'
 function bookLinks(story) {
-  if (!story.isbn) return { goodreads: null, bookshop: null }
-  const isbn = String(story.isbn).replace(/[^0-9Xx]/g, '')
+  const isbn = story.isbn ? String(story.isbn).replace(/[^0-9Xx]/g, '') : null
   return {
-    goodreads: `https://www.goodreads.com/search?q=${isbn}`,
-    bookshop: BOOKSHOP_AFFILIATE
-      ? `https://bookshop.org/a/${BOOKSHOP_AFFILIATE}/${isbn}`
-      : `https://bookshop.org/book/${isbn}`,
+    // With an ISBN we build precise links, and the Bookshop one carries our
+    // affiliate code. Some titles have no ISBN — fall back to the curated
+    // search links stored on the entry (Goodreads = mediaUrl, Bookshop =
+    // secondaryUrl) so their buttons still appear instead of vanishing.
+    goodreads: isbn
+      ? `https://www.goodreads.com/search?q=${isbn}`
+      : (story.mediaUrl || null),
+    bookshop: isbn
+      ? (BOOKSHOP_AFFILIATE
+          ? `https://bookshop.org/a/${BOOKSHOP_AFFILIATE}/${isbn}`
+          : `https://bookshop.org/book/${isbn}`)
+      : (story.secondaryUrl || null),
   }
 }
 
