@@ -794,11 +794,13 @@ export default function App() {
   // headings. Books with no ratings (no toggle) also render flat by date.
   const useFlatList = showSortToggle ? sortMode === 'date' : isBooksFilter
 
-  // Reset the sort to each section's natural default on entry: Movies by
-  // rating (the tiered view), Books by date (the chronological reading list).
-  // The user's toggle choice sticks until they switch sections.
+  // Both Books and Movies open on Rating (the tiered view). Unlike Music, a
+  // book's publish date is a weak signal of what era it's about, so
+  // chronological isn't the natural default. The choice sticks until you
+  // switch sections; cities with no rated books have no toggle and fall back
+  // to a date-sorted list regardless.
   useEffect(() => {
-    setSortMode(activeFilter === 'Books' ? 'date' : 'rating')
+    setSortMode('rating')
   }, [activeFilter])
 
   const filteredStories = useMemo(() => {
