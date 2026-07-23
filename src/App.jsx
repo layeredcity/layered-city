@@ -783,12 +783,16 @@ export default function App() {
   const isMusicFilter = currentFilter.types.length === 1 && currentFilter.types[0] === 'music'
   const isBooksFilter = currentFilter.label === 'Books'
   const isMoviesFilter = currentFilter.label === 'Movies'
-  // The rating/date sort toggle is offered only where both axes are meaningful.
-  const showSortToggle = isBooksFilter || isMoviesFilter
+  // A city's books are only worth a Rating sort once at least one is rated on
+  // Goodreads; until then the toggle is hidden and books just sort by date.
+  const cityHasRatedBook = useMemo(
+    () => stories.some(s => (s.mediaType || '').toLowerCase() === 'book' && goodreadsToQualityRating(s.goodreadsRating) != null),
+    [stories]
+  )
+  const showSortToggle = isMoviesFilter || (isBooksFilter && cityHasRatedBook)
   // Date sort is a flat chronological list; Rating sort keeps the tier
-  // headings (books tier by Goodreads score, movies by IMDb). Other sections
-  // are unaffected.
-  const useFlatList = showSortToggle && sortMode === 'date'
+  // headings. Books with no ratings (no toggle) also render flat by date.
+  const useFlatList = showSortToggle ? sortMode === 'date' : isBooksFilter
 
   // Reset the sort to each section's natural default on entry: Movies by
   // rating (the tiered view), Books by date (the chronological reading list).
@@ -809,16 +813,16 @@ export default function App() {
     }
     // Music has no rating and always reads as a chronological list.
     if (isMusicFilter) return [...list].sort(byDate)
-    if (showSortToggle) {
-      if (sortMode === 'date') return [...list].sort(byDate)
-      // Rating: books rank by their Goodreads score (they carry no quality
-      // tier); movies by tier, then exact IMDb rating within a tier.
-      if (isBooksFilter) return [...list].sort((a, b) => (b.goodreadsRating || 0) - (a.goodreadsRating || 0))
-      return [...list].sort(byRating)
+    if (isBooksFilter) {
+      // Rating sort only when the toggle is shown and picked; otherwise date —
+      // the default, and the only option in a city with no rated books yet.
+      if (showSortToggle && sortMode === 'rating') return [...list].sort((a, b) => (b.goodreadsRating || 0) - (a.goodreadsRating || 0))
+      return [...list].sort(byDate)
     }
+    if (isMoviesFilter) return sortMode === 'date' ? [...list].sort(byDate) : [...list].sort(byRating)
     // TV, podcasts, etc. keep the rating order they've always used.
     return [...list].sort(byRating)
-  }, [stories, currentFilter, sortMode, isMusicFilter, isBooksFilter, showSortToggle, effectiveRatingForStory, omdbCache])
+  }, [stories, currentFilter, sortMode, isMusicFilter, isBooksFilter, isMoviesFilter, showSortToggle, effectiveRatingForStory, omdbCache])
 
   const mapStories = detailView === 'overview' ? stories : filteredStories
 
