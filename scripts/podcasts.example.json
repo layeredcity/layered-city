@@ -1,0 +1,27 @@
+[
+  {
+    "city": "Athens",
+    "title": "Thucydides",
+    "show": "In Our Time",
+    "publisher": "BBC",
+    "lat": 37.9780,
+    "lon": 23.7173,
+    "description": "One- or two-sentence 'why listen' note pinned to the place (max 256 chars).",
+    "spotify": "In Our Time Thucydides",
+    "apple": "In Our Time Thucydides",
+    "minutes": 45,
+    "seconds": 39,
+    "date": "2015-01-29"
+  },
+  {
+    "city": "Athens",
+    "title": "The Delian League",
+    "show": "The Ancients",
+    "publisher": "History Hit",
+    "lat": 37.9715,
+    "lon": 23.7257,
+    "description": "A show that doesn't exist yet — the importer creates the channel, sourcing artwork from Apple and creating the publisher.",
+    "spotify": "The Ancients Delian League",
+    "apple": "The Ancients Delian League"
+  }
+]
