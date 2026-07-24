@@ -20,6 +20,19 @@ work is resolving each episode's show to a channel:
   finds/creates the publisher and pulls the show's official artwork from Apple's
   iTunes API automatically.
 
+## Autonomy — run this end to end without asking permission
+
+The user does **not** want to be asked for step-by-step approval on this task.
+Run the whole flow — parse the paste, create channels/publishers/artwork, create
+and publish episodes, enrich from Apple, fix data — and report at the end. Use
+sensible defaults for the small calls (which listen link is primary, trimming a
+long description to fit 256 chars, date normalization, leaving a genuinely
+unknown field blank and flagging it). A normal podcast batch has **no major
+decisions**, so just do it. Only pause for something genuinely consequential and
+irreversible (e.g. deleting or overwriting existing content, or a real ambiguity
+you can't resolve sensibly) — and surface everything else in the final summary
+rather than mid-run.
+
 ## Prerequisites
 
 - Run from the repo root (`/Users/rnee/layered-city`), not a worktree.
