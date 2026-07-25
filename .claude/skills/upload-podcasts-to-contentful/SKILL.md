@@ -204,6 +204,12 @@ Spot-check via the delivery (CDN) API for the city's podcast episodes:
 - **Channels** (+ publishers + artwork assets) are always created **and
   published** — an episode can't resolve its show on the live site otherwise.
 - **Episodes** publish with `--publish` (the standard here).
+- **Re-runs are safe.** The importer dedups by `city` + `title`: any episode
+  whose title already exists for that city is skipped (logged `· skipped`). So
+  after a partial failure — a transient Apple/artwork error on one episode
+  mid-batch, say — just re-run the same file; only the missing episodes import,
+  no duplicates. (Renaming later changes the title, so a renamed episode is no
+  longer matched by its old title — dedup is on the current stored title.)
 - No quality ratings are set; unrated episodes show as a flat list.
 - `scripts/podcasts.json` is gitignored (transient); `scripts/podcasts.example.json`
   is the committed template.

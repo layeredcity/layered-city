@@ -188,6 +188,17 @@ let channels = await allEntries('content_type=channel')
 const publishers = await allEntries('content_type=publisher')
 const channelByName = {}
 for (const c of channels) channelByName[norm(c.fields.channelName?.['en-US'])] = c.sys.id
+
+// Dedup guard: a story title already present for a city is treated as
+// "already imported" and skipped, so re-running a batch (e.g. after a partial
+// failure — the create step is not otherwise idempotent) never double-creates.
+// Keyed by cityId -> Set of normalized existing titles; new creates are added
+// to it so duplicates *within* one batch are caught too.
+const existingTitles = {}
+for (const cityId of [...new Set(episodes.map(e => cityByName[norm(e.city)]).filter(Boolean))]) {
+  const stories = await allEntries(`content_type=story&fields.relatedCity.sys.id=${cityId}`)
+  existingTitles[cityId] = new Set(stories.map(s => norm(s.fields.storyTitle?.['en-US'])))
+}
 const publisherByName = {}
 for (const p of publishers) publisherByName[norm(p.fields.publisherName?.['en-US'])] = p.sys.id
 
@@ -225,11 +236,14 @@ async function resolveChannel(ep) {
 }
 
 console.log(`${episodes.length} episode(s)${DRY_RUN ? ' [dry run]' : ''}${PUBLISH ? ' [will publish]' : ' [drafts]'}\n`)
-let created = 0, failed = 0, published = 0
+let created = 0, failed = 0, published = 0, skipped = 0
 const flags = []
 for (const ep of episodes) {
   const cityId = cityByName[norm(ep.city)]
   if (!cityId) { console.log(`✗ ${ep.title}: city "${ep.city}" not found in Contentful`); failed++; continue }
+  if (existingTitles[cityId]?.has(norm(ep.title))) {
+    console.log(`· skipped: ${ep.title} (already in ${ep.city})`); skipped++; continue
+  }
   try {
     const channelId = await resolveChannel(ep)
 
@@ -261,16 +275,16 @@ for (const ep of episodes) {
     if (minutes == null) flags.push(`${ep.title}: no duration`)
     if (!nd) flags.push(`${ep.title}: no date`)
 
-    if (DRY_RUN) { console.log(`→ would create: ${ep.title} [${ep.show}]`); created++; continue }
+    if (DRY_RUN) { console.log(`→ would create: ${ep.title} [${ep.show}]`); created++; existingTitles[cityId].add(norm(ep.title)); continue }
     const r = await cma('/entries', { method: 'POST', headers: { 'X-Contentful-Content-Type': 'story' }, body: JSON.stringify({ fields }) })
     if (!r.ok) { console.log(`✗ ${ep.title}: ${r.status} ${(await r.text()).slice(0, 160)}`); failed++; continue }
-    const e = await r.json(); created++
+    const e = await r.json(); created++; existingTitles[cityId].add(norm(ep.title))
     if (PUBLISH) { await publishEntry(e.sys.id, e.sys.version); published++ }
     console.log(`✓ ${ep.title} [${ep.show}]${PUBLISH ? '' : ' (draft)'}`)
   } catch (err) { console.log(`✗ ${ep.title}: ${err.message}`); failed++ }
 }
 
-console.log(`\n${DRY_RUN ? '[dry run] ' : ''}${created} created, ${failed} failed${PUBLISH ? `, ${published} published` : ''}.`)
+console.log(`\n${DRY_RUN ? '[dry run] ' : ''}${created} created, ${failed} failed${skipped ? `, ${skipped} skipped (already existed)` : ''}${PUBLISH ? `, ${published} published` : ''}.`)
 if (flags.length) { console.log('\nTo finish / verify:'); flags.forEach(f => console.log('  · ' + f)) }
 if (!PUBLISH && !DRY_RUN && created) console.log('\nEpisodes were created as DRAFTS. Review, then publish in Contentful or re-run with --publish.')
 if (failed) process.exit(1)
