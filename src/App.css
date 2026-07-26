@@ -306,6 +306,8 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-modal__btn--apple:hover { background: #e01730; }
 .story-modal__btn--goodreads { background: #59452b; }
 .story-modal__btn--goodreads:hover { background: #453620; }
+.story-modal__btn--overcast { background: #FC7E0F; }
+.story-modal__btn--overcast:hover { background: #e87109; }
 .story-modal__btn--bookshop { background: #1b4d5f; }
 .story-modal__btn--bookshop:hover { background: #143b49; }
 .story-modal__btn--imdb { background: #f5c518; color: #1a1a1a; }
