@@ -83,6 +83,9 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item__icon-podcast { width: 56px; height: 56px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon-video { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--border); border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon-album { width: 74px; height: 74px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+/* Audio-tour covers are landscape (VoiceMap art), so a wide thumbnail. */
+.story-item__icon-tour { width: 84px; height: 56px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.story-item__icon-tour--placeholder { display: flex; align-items: center; justify-content: center; }
 /* Music: album cover is a record sleeve; a vinyl disc slides out on hover. */
 .story-item__icon-record { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 700px; }
 .story-item__icon-record__vinyl {
@@ -308,6 +311,8 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-modal__btn--goodreads:hover { background: #453620; }
 .story-modal__btn--overcast { background: #FC7E0F; }
 .story-modal__btn--overcast:hover { background: #e87109; }
+.story-modal__btn--voicemap { background: #0e8a86; }
+.story-modal__btn--voicemap:hover { background: #0b716d; }
 .story-modal__btn--bookshop { background: #1b4d5f; }
 .story-modal__btn--bookshop:hover { background: #143b49; }
 .story-modal__btn--imdb { background: #f5c518; color: #1a1a1a; }
@@ -343,6 +348,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   .story-item__icon-podcast,
   .story-item__icon-video,
   .story-item__icon--placeholder { width: 80px; height: 80px; }
+  .story-item__icon-tour { width: 120px; height: 80px; }
   .story-item__icon--placeholder-glyph svg { width: 36px; height: 36px; }
   .story-item__icon-podcast { border-radius: 4px; }
   .story-item__icon-album { width: 120px; height: 120px; border-radius: 2px; }

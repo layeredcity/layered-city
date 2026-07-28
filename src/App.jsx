@@ -288,6 +288,16 @@ function formatDuration(minutes, seconds) {
   return m + 'm'
 }
 
+// Audio-tour formatting. We store distance in km and show both km and miles,
+// since the audience is split across metric and imperial.
+const KM_TO_MI = 0.621371
+const trimNum = n => (Number.isInteger(n) ? String(n) : n.toFixed(1))
+const formatDistance = km => (km == null ? null : `${trimNum(km)} km · ${(km * KM_TO_MI).toFixed(1)} mi`)
+const formatPrice = usd => (usd == null ? null : '$' + Number(usd).toFixed(2))
+const formatStars = r => Number(r).toFixed(1)
+// The duration · distance · price line shared by tour cards and modals.
+const tourMeta = story => [formatDuration(story.minutes, story.seconds), formatDistance(story.distanceKm), formatPrice(story.priceUsd)].filter(Boolean).join(' · ')
+
 function QualityStars({ rating, max = 5 }) {
   if (!rating) return null
   return (
@@ -301,6 +311,22 @@ function QualityStars({ rating, max = 5 }) {
   )
 }
 
+// Audio-tour rating: a gold-star decimal (e.g. 4.6/5) with its review count,
+// styled like the IMDb / Goodreads rating rows used for films and books.
+function TourRating({ story, compact }) {
+  if (story.rating == null) return null
+  const n = story.numberOfRatings
+  return (
+    <div className={compact ? 'story-item__imdb' : 'story-modal__imdb'}>
+      <svg viewBox="0 0 24 24" fill="#f5c518" width={compact ? 12 : 14} height={compact ? 12 : 14}><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      {formatStars(story.rating)}<span className={compact ? 'story-item__imdb-max' : 'story-modal__imdb-max'}>/5</span>
+      {n != null && <span className={compact ? 'story-item__imdb-label' : 'story-modal__imdb-label'}> · {n} rating{n === 1 ? '' : 's'}</span>}
+    </div>
+  )
+}
+
+const VOICEMAP_ICON = <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="story-modal__btn-icon"><path d="M12 21s-6-5.3-6-10a6 6 0 0112 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2"/></svg>
+
 function StoryIcon({ story, omdbData, bookData }) {
   const shape = iconShape(story.mediaType)
   const label = mediaTypeLabel(story.mediaType)
@@ -309,6 +335,7 @@ function StoryIcon({ story, omdbData, bookData }) {
   const isMusic = t === 'music'
   const isPodcast = t === 'podcast'
   const isMovieTV = t === 'movie' || t === 'tv'
+  const isTour = t === 'audiotour'
   // Manual image override: wins over everything, for any media type. Lets us
   // supply a poster for a movie OMDb lacks (or whose URL has gone dead), or
   // correct a wrong auto-resolved book cover.
@@ -361,19 +388,22 @@ function StoryIcon({ story, omdbData, bookData }) {
   )
 
   if (!imgFailed && (story.channelIcon || story.artworkImage || portraitSrc)) {
-    // Movie posters and book covers are both portrait (2:3).
-    const isPortrait = portraitSrc && !story.channelIcon && !story.artworkImage
+    // Movie posters and book covers are both portrait (2:3). Tour covers are
+    // landscape (VoiceMap art), so they get their own wide thumbnail.
+    const isPortrait = portraitSrc && !story.channelIcon && !story.artworkImage && !isTour
     const isAlbum = story.artworkImage && !story.channelIcon
     const src = story.channelIcon
       ? story.channelIcon + '?w=112&h=112&fit=fill'
       : story.artworkImage
         ? story.artworkImage + '?w=256&h=256&fit=fill'
-        : sizedAsset(portraitSrc, 180)
-    const className = isPortrait
-      ? 'story-item__icon-poster' + (isBook ? ' story-item__icon-poster--book' : '')
-      : isAlbum
-        ? 'story-item__icon-album'
-        : 'story-item__icon-' + shape
+        : sizedAsset(portraitSrc, isTour ? 320 : 180)
+    const className = isTour
+      ? 'story-item__icon-tour'
+      : isPortrait
+        ? 'story-item__icon-poster' + (isBook ? ' story-item__icon-poster--book' : '')
+        : isAlbum
+          ? 'story-item__icon-album'
+          : 'story-item__icon-' + shape
     const img = (
       <img
         className={className}
@@ -382,6 +412,7 @@ function StoryIcon({ story, omdbData, bookData }) {
         onError={() => setImgFailed(true)}
       />
     )
+    if (isTour) return img
     if (isPortrait) {
       if (isBook) return wrapBook(img)
       if (isMovieTV) return wrapCase(img)
@@ -391,6 +422,12 @@ function StoryIcon({ story, omdbData, bookData }) {
     if (isPodcast) return wrapViz(img)
     return img
   }
+  // Tours with no cover fall back to a wide placeholder with the tour glyph.
+  if (isTour) return (
+    <div className="story-item__icon-tour story-item__icon-tour--placeholder">
+      <span className="story-item__icon--placeholder-glyph" aria-label="Audio tour">{TYPE_ICONS.audiotour}</span>
+    </div>
+  )
   // Book/movie/TV covers render portrait (2:3); their placeholders should match.
   const isPortraitType = isBook || t === 'movie' || t === 'tv'
   // Songs get the music-note glyph rather than a truncated word — "SON" read as
@@ -423,6 +460,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
   const url = story.mediaUrl || story.secondaryUrl || null
   const t = story.mediaType?.toLowerCase()
   const isMovieOrTV = t === 'movie' || t === 'tv'
+  const isTour = t === 'audiotour'
   const isVideo = t === 'video' || t === 'movie' || t === 'tv'
   const hasMedia = url && (isVideo || t === 'podcast' || t === 'audiotour')
   const btnLabel = (t === 'movie' || t === 'tv') ? movieBtnLabel(url) : t === 'audiotour' ? 'Listen to the audio tour' : t === 'podcast' ? 'Listen to the episode' : 'Watch the video'
@@ -475,21 +513,25 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
               <span className="story-modal__imdb-label">Goodreads rating</span>
               {formatGoodreads(bookRating)}<span className="story-modal__imdb-max">/5</span>
             </div>
+          ) : isTour ? (
+            <TourRating story={story} />
           ) : isBook ? null : (
             <>
               <QualityStars rating={effectiveRating} />
               {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
             </>
           )}
-          {t === 'music' || t === 'book'
-            ? [story.releaseYear, story.genre, duration].filter(Boolean).length > 0 && (
-                <span className="story-modal__duration">{[formatYear(story.releaseYear), capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
-              )
-            : isMovieOrTV
-              ? [capFirst(story.genre), duration].filter(Boolean).length > 0 && (
-                  <span className="story-modal__duration">{[capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
+          {isTour
+            ? tourMeta(story) && <span className="story-modal__duration">{tourMeta(story)}</span>
+            : t === 'music' || t === 'book'
+              ? [story.releaseYear, story.genre, duration].filter(Boolean).length > 0 && (
+                  <span className="story-modal__duration">{[formatYear(story.releaseYear), capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
                 )
-              : duration && <span className="story-modal__duration">{duration}</span>
+              : isMovieOrTV
+                ? [capFirst(story.genre), duration].filter(Boolean).length > 0 && (
+                    <span className="story-modal__duration">{[capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
+                  )
+                : duration && <span className="story-modal__duration">{duration}</span>
           }
         </div>
         {t === 'music' ? (
@@ -563,6 +605,15 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
               </div>
             ) : null
           })()
+        ) : isTour ? (
+          url && (
+            <div className="story-modal__btn-row">
+              <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn story-modal__btn--voicemap">
+                {VOICEMAP_ICON}
+                Get the tour on VoiceMap
+              </a>
+            </div>
+          )
         ) : hasMedia && (
           t === 'video' ? (
             <button className="story-modal__btn" onClick={() => onOpenMedia(story)}>
@@ -588,6 +639,7 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
   const t = (story.mediaType || '').toLowerCase()
   const isMovieOrTV = t === 'movie' || t === 'tv'
   const isBook = t === 'book'
+  const isTour = t === 'audiotour'
   const bookRating = isBook ? story.goodreadsRating : null
   const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   return (
@@ -598,17 +650,23 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
           const i = isMovieOrTV ? story.title.indexOf(' (') : -1
           return i === -1 ? story.title : <>{story.title.slice(0, i)}<br />{story.title.slice(i + 1)}</>
         })()}</div>
-        {(t === 'music' || isBook) ? (
+        {(t === 'music' || isBook || isTour) ? (
           <>
             <div className="story-item__meta">
               <span className="story-item__type">{label}</span>
               {story.creatorName && <span className="story-item__source">by {story.creatorName}</span>}
             </div>
-            {(story.releaseYear || story.genre || duration) && (
-              <div className="story-item__meta">
-                <span className="story-item__source">{[formatYear(story.releaseYear), capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
-              </div>
-            )}
+            {isTour
+              ? tourMeta(story) && (
+                  <div className="story-item__meta">
+                    <span className="story-item__source">{tourMeta(story)}</span>
+                  </div>
+                )
+              : (story.releaseYear || story.genre || duration) && (
+                  <div className="story-item__meta">
+                    <span className="story-item__source">{[formatYear(story.releaseYear), capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
+                  </div>
+                )}
           </>
         ) : (
           <div className="story-item__meta">
@@ -639,7 +697,8 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
             {formatGoodreads(bookRating)}<span className="story-item__imdb-max">/5</span>
           </div>
         )}
-        {!isMovieOrTV && !isBook && <QualityStars rating={effectiveRating} />}
+        {isTour && <TourRating story={story} compact />}
+        {!isMovieOrTV && !isBook && !isTour && <QualityStars rating={effectiveRating} />}
       </div>
     </div>
   )
@@ -1078,6 +1137,7 @@ export default function App() {
           const qualityLabel = QUALITY_LABELS[s.qualityRating] || null
           const url = s.mediaUrl || s.secondaryUrl || null
           const t = s.mediaType?.toLowerCase()
+          const isTour = t === 'audiotour'
           const isVideo = ['video', 'movie', 'tv'].includes(t)
           const whyLabel = isVideo ? 'Why watch?' : t === 'audiotour' ? 'Why walk it?' : t === 'book' ? 'Why read?' : 'Why listen?'
           const btnLabel = isVideo ? 'Watch the video' : t === 'audiotour' ? 'Listen to the audio tour' : 'Listen to the episode'
@@ -1127,21 +1187,25 @@ export default function App() {
                           {formatGoodreads(s.goodreadsRating)}<span className="story-modal__imdb-max">/5</span>
                         </div>
                       ) : null
+                    ) : isTour ? (
+                      <TourRating story={s} />
                     ) : (
                       <>
                         <QualityStars rating={s.qualityRating} />
                         {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
                       </>
                     )}
-                    {t === 'music' || t === 'book'
-                      ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
-                          <span className="story-modal__duration">{[formatYear(s.releaseYear), capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
-                        )
-                      : (t === 'movie' || t === 'tv')
-                        ? [capFirst(s.genre), duration].filter(Boolean).length > 0 && (
-                            <span className="story-modal__duration">{[capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
+                    {isTour
+                      ? tourMeta(s) && <span className="story-modal__duration">{tourMeta(s)}</span>
+                      : t === 'music' || t === 'book'
+                        ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
+                            <span className="story-modal__duration">{[formatYear(s.releaseYear), capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
                           )
-                        : duration && <span className="story-modal__duration">{duration}</span>
+                        : (t === 'movie' || t === 'tv')
+                          ? [capFirst(s.genre), duration].filter(Boolean).length > 0 && (
+                              <span className="story-modal__duration">{[capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
+                            )
+                          : duration && <span className="story-modal__duration">{duration}</span>
                     }
                   </div>
                   {t === 'music' ? (
@@ -1188,6 +1252,15 @@ export default function App() {
                     })()
                   ) : (t === 'movie' || t === 'tv') ? (
                     <MovieButtons story={s} />
+                  ) : isTour ? (
+                    url && (
+                      <div className="story-modal__btn-row">
+                        <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn story-modal__btn--voicemap">
+                          {VOICEMAP_ICON}
+                          Get the tour on VoiceMap
+                        </a>
+                      </div>
+                    )
                   ) : hasMedia && (
                     <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
                       {isVideo

@@ -72,6 +72,12 @@ export async function fetchStoriesForCity(cityId) {
         ? 'https:' + f.coverAsset.fields.file.url
         : null,
       goodreadsRating: f.goodreadsRating ?? null,
+      // Audio-tour fields (VoiceMap): a 0–5 star rating with its review count,
+      // the price, and the walking distance in km (miles derived in the UI).
+      rating: f.rating ?? null,
+      numberOfRatings: f.numberOfRatings ?? null,
+      priceUsd: f.priceUsd ?? null,
+      distanceKm: f.distanceKm ?? null,
       releaseYear: f.releaseYear || null,
       season: f.seasonNumber || null,
       episode: f.episodeNumber || null,

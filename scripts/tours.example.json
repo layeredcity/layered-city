@@ -1,0 +1,23 @@
+[
+  {
+    "city": "Manchester",
+    "title": "Example Walking Tour: A Guide to Somewhere",
+    "creator": "Tour Author",
+    "lat": 53.4779, "lon": -2.2442,
+    "minutes": 90, "distanceKm": 4.0, "priceUsd": 9.99, "rating": 4.6, "numberOfRatings": 81,
+    "url": "https://voicemap.me/tour/manchester/example-walking-tour",
+    "image": "https://media.voicemap.me/public/routes/images/000/000/000/original/example.jpg",
+    "description": "A one- or two-sentence 'why take this tour' summary (max 256 chars), typically tracing the route from its start point to its end point."
+  },
+  {
+    "city": "Manchester",
+    "title": "Example Tour With An Unverified Pin",
+    "creator": "Tour Author",
+    "lat": 53.5474, "lon": -2.0045,
+    "minutes": 60, "distanceKm": 1.8, "priceUsd": 9.99, "rating": 4.8, "numberOfRatings": 8,
+    "url": "https://voicemap.me/tour/manchester/example-unverified",
+    "image": "https://media.voicemap.me/public/routes/images/000/000/001/original/example.jpg",
+    "description": "Set \"draft\": true to create the entry but leave it unpublished — e.g. when the coordinate is approximate and needs a human check before going live.",
+    "draft": true, "draftReason": "coordinate is approximate — verify the pin before publishing"
+  }
+]
