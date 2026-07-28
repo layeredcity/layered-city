@@ -86,17 +86,29 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 /* Audio-tour covers are landscape (VoiceMap art), so a wide thumbnail. */
 .story-item__icon-tour { width: 84px; height: 56px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon-tour--placeholder { display: flex; align-items: center; justify-content: center; }
-/* Tour cover hover: a quick camera flash, then a Polaroid-style develop. */
-.story-item__icon-tourwrap { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; border-radius: 4px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
-.story-item__icon-tourwrap .story-item__icon-tour { display: block; box-shadow: none; }
+/* Tour cover: a little Polaroid — persistent white frame + soft shadow. On
+   hover it grows, tilts, and lifts, fires a quick camera flash, then slowly
+   develops from washed-out into full colour. */
+.story-item__icon-tourwrap {
+  position: relative; display: inline-block; line-height: 0; flex-shrink: 0;
+  border: 5px solid #fff; border-radius: 2px; overflow: hidden;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.22);
+  transform-origin: center;
+  transition: transform 0.4s cubic-bezier(.2,.7,.2,1), box-shadow 0.4s ease;
+}
+.story-item__icon-tourwrap .story-item__icon-tour { display: block; box-shadow: none; border-radius: 0; }
 .story-item__icon-tourwrap__flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
+.story-item:hover .story-item__icon-tourwrap,
+.story-item__icon-tourwrap:hover { transform: scale(1.08) rotate(-2.5deg); box-shadow: 0 10px 24px rgba(0,0,0,0.32); z-index: 3; }
 .story-item:hover .story-item__icon-tourwrap .story-item__icon-tour,
-.story-item__icon-tourwrap:hover .story-item__icon-tour { animation: tour-develop 1.15s cubic-bezier(.2,.7,.2,1); }
+.story-item__icon-tourwrap:hover .story-item__icon-tour { animation: tour-develop 3.5s cubic-bezier(.2,.7,.2,1); }
 .story-item:hover .story-item__icon-tourwrap__flash,
-.story-item__icon-tourwrap:hover .story-item__icon-tourwrap__flash { animation: tour-flash 1.15s ease-out; }
-@keyframes tour-flash { 0% { opacity: 0; } 4% { opacity: 0.92; } 22% { opacity: 0; } 100% { opacity: 0; } }
+.story-item__icon-tourwrap:hover .story-item__icon-tourwrap__flash { animation: tour-flash 1.2s ease-out; }
+@keyframes tour-flash { 0% { opacity: 0; } 4% { opacity: 0.92; } 24% { opacity: 0; } 100% { opacity: 0; } }
 @keyframes tour-develop { 0%, 8% { filter: brightness(1.9) contrast(0.3) saturate(0.1); } 100% { filter: none; } }
 @media (prefers-reduced-motion: reduce) {
+  .story-item:hover .story-item__icon-tourwrap,
+  .story-item__icon-tourwrap:hover { transform: none; }
   .story-item:hover .story-item__icon-tourwrap .story-item__icon-tour,
   .story-item__icon-tourwrap:hover .story-item__icon-tour,
   .story-item:hover .story-item__icon-tourwrap__flash,
