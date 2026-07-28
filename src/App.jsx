@@ -404,7 +404,6 @@ function StoryIcon({ story, omdbData, bookData }) {
   // fires, then the top image develops from washed-out to full colour.
   const wrapTour = (el) => (
     <span className="story-item__icon-tourstack">
-      <span className="story-item__icon-tourstack__back story-item__icon-tourstack__back--3" aria-hidden="true" />
       <span className="story-item__icon-tourstack__back story-item__icon-tourstack__back--2" aria-hidden="true" />
       <span className="story-item__icon-tourstack__back story-item__icon-tourstack__back--1" aria-hidden="true" />
       <span className="story-item__icon-tourwrap">

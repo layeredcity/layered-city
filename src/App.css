@@ -104,11 +104,9 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item:hover .story-item__icon-tourstack__back,
 .story-item__icon-tourstack:hover .story-item__icon-tourstack__back { box-shadow: 0 1px 4px rgba(0,0,0,0.22); }
 .story-item:hover .story-item__icon-tourstack__back--1,
-.story-item__icon-tourstack:hover .story-item__icon-tourstack__back--1 { transform: rotate(4deg) translate(3px, 2px); }
+.story-item__icon-tourstack:hover .story-item__icon-tourstack__back--1 { transform: rotate(3deg) translate(2px, 1px); }
 .story-item:hover .story-item__icon-tourstack__back--2,
-.story-item__icon-tourstack:hover .story-item__icon-tourstack__back--2 { transform: rotate(-6deg) translate(-4px, 3px); }
-.story-item:hover .story-item__icon-tourstack__back--3,
-.story-item__icon-tourstack:hover .story-item__icon-tourstack__back--3 { transform: rotate(8.5deg) translate(5px, -2px); }
+.story-item__icon-tourstack:hover .story-item__icon-tourstack__back--2 { transform: rotate(-4.5deg) translate(-3px, 2px); }
 /* The top photo: white Polaroid frame, clips its image + flash. */
 .story-item__icon-tourwrap {
   position: relative; display: inline-block; line-height: 0;
@@ -123,7 +121,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .story-item:hover .story-item__icon-tourwrap,
 .story-item__icon-tourstack:hover .story-item__icon-tourwrap { box-shadow: 0 10px 24px rgba(0,0,0,0.32); }
 .story-item:hover .story-item__icon-tourwrap .story-item__icon-tour,
-.story-item__icon-tourstack:hover .story-item__icon-tourwrap .story-item__icon-tour { animation: tour-develop 3.5s cubic-bezier(.2,.7,.2,1); }
+.story-item__icon-tourstack:hover .story-item__icon-tourwrap .story-item__icon-tour { animation: tour-develop 4.2s cubic-bezier(.2,.7,.2,1); }
 .story-item:hover .story-item__icon-tourwrap__flash,
 .story-item__icon-tourstack:hover .story-item__icon-tourwrap__flash { animation: tour-flash 1.2s ease-out; }
 @keyframes tour-flash { 0% { opacity: 0; } 4% { opacity: 0.92; } 24% { opacity: 0; } 100% { opacity: 0; } }
