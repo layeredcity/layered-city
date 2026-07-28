@@ -399,12 +399,18 @@ function StoryIcon({ story, omdbData, bookData }) {
       {el}
     </span>
   )
-  // Tour covers: on hover a quick white "camera flash" fires, then the image
-  // develops from washed-out to full colour like a Polaroid coming up.
+  // Tour covers look like a haphazard little stack of Polaroids — a few blank
+  // ones tilted behind the real photo on top. On hover a white "camera flash"
+  // fires, then the top image develops from washed-out to full colour.
   const wrapTour = (el) => (
-    <span className="story-item__icon-tourwrap">
-      {el}
-      <span className="story-item__icon-tourwrap__flash" aria-hidden="true" />
+    <span className="story-item__icon-tourstack">
+      <span className="story-item__icon-tourstack__back story-item__icon-tourstack__back--3" aria-hidden="true" />
+      <span className="story-item__icon-tourstack__back story-item__icon-tourstack__back--2" aria-hidden="true" />
+      <span className="story-item__icon-tourstack__back story-item__icon-tourstack__back--1" aria-hidden="true" />
+      <span className="story-item__icon-tourwrap">
+        {el}
+        <span className="story-item__icon-tourwrap__flash" aria-hidden="true" />
+      </span>
     </span>
   )
 
