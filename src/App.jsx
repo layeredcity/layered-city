@@ -37,6 +37,19 @@ function goodreadsToQualityRating(goodreadsRating) {
   return 1
 }
 
+// Map a VoiceMap tour rating (0–5) to the same 1–5 quality tiers. Tour ratings
+// skew high (buyers rate tours they chose), clustering ~4.3–5.0, so the cutoffs
+// sit in that band rather than spread evenly. Returns null when unrated.
+function tourToQualityRating(rating) {
+  const r = parseFloat(rating)
+  if (isNaN(r)) return null
+  if (r >= 4.8) return 5
+  if (r >= 4.6) return 4
+  if (r >= 4.3) return 3
+  if (r >= 4.0) return 2
+  return 1
+}
+
 // Goodreads averages always show two decimals (4.00, not 4) so a column of
 // ratings lines up cleanly.
 const formatGoodreads = r => Number(r).toFixed(2)
@@ -889,6 +902,7 @@ export default function App() {
     const t = (s.mediaType || '').toLowerCase()
     if (t === 'movie' || t === 'tv') return imdbToQualityRating(omdbCache[s.imdbId]?.rating) || 0
     if (t === 'book') return goodreadsToQualityRating(s.goodreadsRating) || 0
+    if (t === 'audiotour') return tourToQualityRating(s.rating) || 0
     return s.qualityRating || 0
   }, [omdbCache])
 
@@ -918,12 +932,19 @@ export default function App() {
   const filteredStories = useMemo(() => {
     const list = stories.filter(s => currentFilter.types.includes((s.mediaType || '').toLowerCase()))
     const byDate = (a, b) => (parseInt(a.releaseYear) || 0) - (parseInt(b.releaseYear) || 0)
+    // Within a tier, order by the true underlying score for the media type
+    // (IMDb / Goodreads / VoiceMap), so e.g. a 4.7 tour sits above a 4.6.
+    const decimalRating = (s) => {
+      const t = (s.mediaType || '').toLowerCase()
+      if (t === 'movie' || t === 'tv') return parseFloat(omdbCache[s.imdbId]?.rating) || 0
+      if (t === 'book') return parseFloat(s.goodreadsRating) || 0
+      if (t === 'audiotour') return parseFloat(s.rating) || 0
+      return s.qualityRating || 0
+    }
     const byRating = (a, b) => {
       const tierDiff = effectiveRatingForStory(b) - effectiveRatingForStory(a)
       if (tierDiff !== 0) return tierDiff
-      const rA = parseFloat(omdbCache[a.imdbId]?.rating) || 0
-      const rB = parseFloat(omdbCache[b.imdbId]?.rating) || 0
-      return rB - rA
+      return decimalRating(b) - decimalRating(a)
     }
     // Music has no rating and always reads as a chronological list.
     if (isMusicFilter) return [...list].sort(byDate)
