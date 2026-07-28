@@ -399,6 +399,14 @@ function StoryIcon({ story, omdbData, bookData }) {
       {el}
     </span>
   )
+  // Tour covers: on hover a quick white "camera flash" fires, then the image
+  // develops from washed-out to full colour like a Polaroid coming up.
+  const wrapTour = (el) => (
+    <span className="story-item__icon-tourwrap">
+      {el}
+      <span className="story-item__icon-tourwrap__flash" aria-hidden="true" />
+    </span>
+  )
 
   if (!imgFailed && (story.channelIcon || story.artworkImage || portraitSrc)) {
     // Movie posters and book covers are both portrait (2:3). Tour covers are
@@ -425,7 +433,7 @@ function StoryIcon({ story, omdbData, bookData }) {
         onError={() => setImgFailed(true)}
       />
     )
-    if (isTour) return img
+    if (isTour) return wrapTour(img)
     if (isPortrait) {
       if (isBook) return wrapBook(img)
       if (isMovieTV) return wrapCase(img)
