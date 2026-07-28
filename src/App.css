@@ -94,14 +94,21 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
   transform-origin: center;
   transition: transform 0.4s cubic-bezier(.2,.7,.2,1);
 }
-/* Blank photos peeking out behind the top one, each at its own angle. */
+/* Blank photos hidden directly behind the top one at rest (so you see a single
+   photo), then fanning out to their own angles on hover. */
 .story-item__icon-tourstack__back {
   position: absolute; inset: 0; background: #fff; border-radius: 2px;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+  box-shadow: none;
+  transition: transform 0.45s cubic-bezier(.2,.7,.2,1), box-shadow 0.45s ease;
 }
-.story-item__icon-tourstack__back--1 { transform: rotate(3deg) translate(1px, 1px); }
-.story-item__icon-tourstack__back--2 { transform: rotate(-4.5deg) translate(-2px, 2px); }
-.story-item__icon-tourstack__back--3 { transform: rotate(6.5deg) translate(3px, -1px); }
+.story-item:hover .story-item__icon-tourstack__back,
+.story-item__icon-tourstack:hover .story-item__icon-tourstack__back { box-shadow: 0 1px 4px rgba(0,0,0,0.22); }
+.story-item:hover .story-item__icon-tourstack__back--1,
+.story-item__icon-tourstack:hover .story-item__icon-tourstack__back--1 { transform: rotate(4deg) translate(3px, 2px); }
+.story-item:hover .story-item__icon-tourstack__back--2,
+.story-item__icon-tourstack:hover .story-item__icon-tourstack__back--2 { transform: rotate(-6deg) translate(-4px, 3px); }
+.story-item:hover .story-item__icon-tourstack__back--3,
+.story-item__icon-tourstack:hover .story-item__icon-tourstack__back--3 { transform: rotate(8.5deg) translate(5px, -2px); }
 /* The top photo: white Polaroid frame, clips its image + flash. */
 .story-item__icon-tourwrap {
   position: relative; display: inline-block; line-height: 0;
@@ -123,7 +130,9 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 @keyframes tour-develop { 0%, 8% { filter: brightness(1.9) contrast(0.3) saturate(0.1); } 100% { filter: none; } }
 @media (prefers-reduced-motion: reduce) {
   .story-item:hover .story-item__icon-tourstack,
-  .story-item__icon-tourstack:hover { transform: none; }
+  .story-item__icon-tourstack:hover,
+  .story-item:hover .story-item__icon-tourstack__back,
+  .story-item__icon-tourstack:hover .story-item__icon-tourstack__back { transform: none; }
   .story-item:hover .story-item__icon-tourwrap .story-item__icon-tour,
   .story-item__icon-tourstack:hover .story-item__icon-tourwrap .story-item__icon-tour,
   .story-item:hover .story-item__icon-tourwrap__flash,
