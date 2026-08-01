@@ -40,13 +40,35 @@ function goodreadsToQualityRating(goodreadsRating) {
 // Map a VoiceMap tour rating (0–5) to the same 1–5 quality tiers. Tour ratings
 // skew high (buyers rate tours they chose), clustering ~4.3–5.0, so the cutoffs
 // sit in that band rather than spread evenly. Returns null when unrated.
-function tourToQualityRating(rating) {
+// Tours are ranked by a confidence-weighted (Bayesian) score, not the raw
+// VoiceMap star, so a 5.0 from a handful of ratings can't leapfrog a 4.8 from
+// hundreds. Each rating is shrunk toward the catalog mean (TOUR_RATING_MEAN)
+// in proportion to how few votes it has:
+//   score = (v/(v+K))·R + (K/(v+K))·mean
+// K is the confidence weight: a rating count of K contributes as much as the
+// catalog mean, so a high star needs roughly K+ votes before it's fully
+// trusted. A high-volume 4.8 lands ~4.80; a 5.0 from a single rating lands
+// ~4.69 (just above the mean); a 5.0 needs ~20+ votes to sit at the very top.
+// The tier thresholds below are calibrated to this shrunk scale, so they do NOT
+// match the raw 4.8/4.6/… cutoffs used for the star display — a 4.8★ needs
+// ~35 ratings to earn the "Top rated" badge.
+const TOUR_RATING_MEAN = 4.67   // catalog-wide average VoiceMap tour rating
+const TOUR_RATING_K = 30
+
+function bayesianTourScore(rating, numberOfRatings) {
   const r = parseFloat(rating)
   if (isNaN(r)) return null
-  if (r >= 4.8) return 5
-  if (r >= 4.6) return 4
-  if (r >= 4.3) return 3
-  if (r >= 4.0) return 2
+  const v = parseInt(numberOfRatings) || 0
+  return (v / (v + TOUR_RATING_K)) * r + (TOUR_RATING_K / (v + TOUR_RATING_K)) * TOUR_RATING_MEAN
+}
+
+function tourToQualityRating(rating, numberOfRatings) {
+  const b = bayesianTourScore(rating, numberOfRatings)
+  if (b == null) return null
+  if (b >= 4.74) return 5
+  if (b >= 4.60) return 4
+  if (b >= 4.42) return 3
+  if (b >= 4.24) return 2
   return 1
 }
 
@@ -915,7 +937,7 @@ export default function App() {
     const t = (s.mediaType || '').toLowerCase()
     if (t === 'movie' || t === 'tv') return imdbToQualityRating(omdbCache[s.imdbId]?.rating) || 0
     if (t === 'book') return goodreadsToQualityRating(s.goodreadsRating) || 0
-    if (t === 'audiotour') return tourToQualityRating(s.rating) || 0
+    if (t === 'audiotour') return tourToQualityRating(s.rating, s.numberOfRatings) || 0
     return s.qualityRating || 0
   }, [omdbCache])
 
@@ -951,7 +973,7 @@ export default function App() {
       const t = (s.mediaType || '').toLowerCase()
       if (t === 'movie' || t === 'tv') return parseFloat(omdbCache[s.imdbId]?.rating) || 0
       if (t === 'book') return parseFloat(s.goodreadsRating) || 0
-      if (t === 'audiotour') return parseFloat(s.rating) || 0
+      if (t === 'audiotour') return bayesianTourScore(s.rating, s.numberOfRatings) || 0
       return s.qualityRating || 0
     }
     const byRating = (a, b) => {
