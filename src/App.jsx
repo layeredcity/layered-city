@@ -306,7 +306,7 @@ function formatDuration(minutes, seconds) {
 const KM_TO_MI = 0.621371
 const trimNum = n => (Number.isInteger(n) ? String(n) : n.toFixed(1))
 const formatDistance = km => (km == null ? null : `${trimNum(km)} km · ${(km * KM_TO_MI).toFixed(1)} mi`)
-const formatPrice = usd => (usd == null ? null : '$' + Number(usd).toFixed(2))
+const formatPrice = usd => (usd == null ? null : Number(usd) === 0 ? 'Free' : '$' + Number(usd).toFixed(2))
 const formatStars = r => Number(r).toFixed(1)
 // The duration · distance · price line shared by tour cards and modals.
 const tourMeta = story => [formatDuration(story.minutes, story.seconds), formatDistance(story.distanceKm), formatPrice(story.priceUsd)].filter(Boolean).join(' · ')
