@@ -672,7 +672,7 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
     <div className="story-item" onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
       <StoryIcon story={story} omdbData={omdbData} bookData={bookData} />
       <div className="story-item__body">
-        <div className="story-item__title">{(() => {
+        <div className={'story-item__title' + (isTour ? ' story-item__title--tour' : '')}>{(() => {
           const i = isMovieOrTV ? story.title.indexOf(' (') : -1
           return i === -1 ? story.title : <>{story.title.slice(0, i)}<br />{story.title.slice(i + 1)}</>
         })()}</div>
