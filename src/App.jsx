@@ -40,35 +40,35 @@ function goodreadsToQualityRating(goodreadsRating) {
 // Map a VoiceMap tour rating (0–5) to the same 1–5 quality tiers. Tour ratings
 // skew high (buyers rate tours they chose), clustering ~4.3–5.0, so the cutoffs
 // sit in that band rather than spread evenly. Returns null when unrated.
-// Tours are ranked by a confidence-weighted (Bayesian) score, not the raw
-// VoiceMap star, so a 5.0 from a handful of ratings can't leapfrog a 4.8 from
-// hundreds. Each rating is shrunk toward the catalog mean (TOUR_RATING_MEAN)
-// in proportion to how few votes it has:
-//   score = (v/(v+K))·R + (K/(v+K))·mean
-// K is the confidence weight: a rating count of K contributes as much as the
-// catalog mean, so a high star needs roughly K+ votes before it's fully
-// trusted. A high-volume 4.8 lands ~4.80; a 5.0 from a single rating lands
-// ~4.69 (just above the mean); a 5.0 needs ~20+ votes to sit at the very top.
-// The tier thresholds below are calibrated to this shrunk scale, so they do NOT
-// match the raw 4.8/4.6/… cutoffs used for the star display — a 4.8★ needs
-// ~35 ratings to earn the "Top rated" badge.
-const TOUR_RATING_MEAN = 4.67   // catalog-wide average VoiceMap tour rating
-const TOUR_RATING_K = 30
+// Tours are ranked by a lower-confidence-bound on the rating, not the raw
+// VoiceMap star. We subtract an uncertainty penalty that shrinks as the rating
+// count grows:
+//   score = R − PENALTY / √n
+// The penalty can only ever LOWER a score, never raise it, so uncertainty is
+// always a cost. This fixes both failure modes of shrink-toward-the-mean: a
+// lone 5.0 can't top a well-reviewed 4.8 (thin high ratings are penalized), and
+// a thinly-rated 3.6 can't be inflated above a 4.1 with more ratings (thin low
+// ratings are NOT lifted toward the average). A high-volume tour is barely
+// penalized (√1098 ≈ 0.02); a 1-rating tour loses the full PENALTY. Thresholds
+// are calibrated to this scale — a high-volume 4.8 lands ~4.78 — so they do NOT
+// match the raw 4.8/4.6/… cutoffs used for the star display. The raw star is
+// still shown verbatim in TourRating; only the ranking uses this score.
+const TOUR_RATING_PENALTY = 0.6
 
-function bayesianTourScore(rating, numberOfRatings) {
+function tourRatingScore(rating, numberOfRatings) {
   const r = parseFloat(rating)
   if (isNaN(r)) return null
   const v = parseInt(numberOfRatings) || 0
-  return (v / (v + TOUR_RATING_K)) * r + (TOUR_RATING_K / (v + TOUR_RATING_K)) * TOUR_RATING_MEAN
+  return r - TOUR_RATING_PENALTY / Math.sqrt(Math.max(v, 1))
 }
 
 function tourToQualityRating(rating, numberOfRatings) {
-  const b = bayesianTourScore(rating, numberOfRatings)
-  if (b == null) return null
-  if (b >= 4.74) return 5
-  if (b >= 4.60) return 4
-  if (b >= 4.42) return 3
-  if (b >= 4.24) return 2
+  const s = tourRatingScore(rating, numberOfRatings)
+  if (s == null) return null
+  if (s >= 4.72) return 5
+  if (s >= 4.45) return 4
+  if (s >= 4.10) return 3
+  if (s >= 3.70) return 2
   return 1
 }
 
@@ -973,7 +973,7 @@ export default function App() {
       const t = (s.mediaType || '').toLowerCase()
       if (t === 'movie' || t === 'tv') return parseFloat(omdbCache[s.imdbId]?.rating) || 0
       if (t === 'book') return parseFloat(s.goodreadsRating) || 0
-      if (t === 'audiotour') return bayesianTourScore(s.rating, s.numberOfRatings) || 0
+      if (t === 'audiotour') return tourRatingScore(s.rating, s.numberOfRatings) || 0
       return s.qualityRating || 0
     }
     const byRating = (a, b) => {
