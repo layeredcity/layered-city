@@ -334,7 +334,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .currency-cheatsheet__select:focus { outline: none; }
 .currency-cheatsheet__select option { color: var(--ink); background: #fff; }
 .currency-cheatsheet__chevron { position: absolute; right: 7px; top: 50%; transform: translateY(-50%); width: 13px; height: 13px; color: rgba(255,255,255,0.85); pointer-events: none; }
-.currency-cheatsheet__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 22px; margin: 14px 0 12px; }
+.currency-cheatsheet__grid { display: grid; grid-auto-flow: column; grid-template-columns: 1fr 1fr; gap: 8px 22px; margin: 14px 0 12px; }
 .currency-cheatsheet__row { display: flex; align-items: baseline; gap: 10px; font-size: 14px; white-space: nowrap; }
 .currency-cheatsheet__usd { font-weight: 700; color: #fff; min-width: 30px; }
 .currency-cheatsheet__local { color: rgba(255,255,255,0.88); font-variant-numeric: tabular-nums; }

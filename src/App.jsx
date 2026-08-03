@@ -201,7 +201,7 @@ function CurrencyCheatSheet({ city }) {
           <svg className="currency-cheatsheet__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6"/></svg>
         </div>
       </div>
-      <div className="currency-cheatsheet__grid">
+      <div className="currency-cheatsheet__grid" style={{ gridTemplateRows: `repeat(${Math.ceil(notes.length / 2)}, auto)` }}>
         {notes.map(n => (
           <div className="currency-cheatsheet__row" key={n}>
             <span className="currency-cheatsheet__usd">{fmtBase.format(n)}</span>
