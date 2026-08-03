@@ -807,6 +807,23 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
 // Crossfades the hero when switching cities: the incoming image is preloaded,
 // and the whole card (image + name) only swaps once it's ready, so you never
 // see a new city's name over the previous city's photo.
+// Hero image that stays hidden until fully decoded, then fades in — so a cold
+// load shows a clean fade rather than the image painting in top-to-bottom. The
+// ref check covers already-cached images (onLoad may not fire for those), which
+// keeps city-to-city crossfades instant.
+function HeroImg({ src, alt }) {
+  const [loaded, setLoaded] = useState(false)
+  return (
+    <img
+      className={'city-hero__img' + (loaded ? ' is-loaded' : '')}
+      src={src}
+      alt={alt}
+      onLoad={() => setLoaded(true)}
+      ref={el => { if (el && el.complete) setLoaded(true) }}
+    />
+  )
+}
+
 function CityHero({ city }) {
   const targetSrc = city.heroImage ? city.heroImage + '?w=840&h=560&fit=fill' : null
   const [layers, setLayers] = useState([{ key: city.id, src: targetSrc, name: city.name, country: city.country }])
@@ -838,7 +855,7 @@ function CityHero({ city }) {
             onAnimationEnd={entering ? dropOld : undefined}
           >
             {L.src
-              ? <img className="city-hero__img" src={L.src} alt={L.name} />
+              ? <HeroImg src={L.src} alt={L.name} />
               : <div className="city-hero__img" style={{ background: 'var(--border)' }} />
             }
             <div className="city-hero__overlay" />
