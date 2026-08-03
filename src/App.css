@@ -444,16 +444,20 @@ img.city-hero__img.is-loaded { opacity: 1; }
 
   html { background: var(--white); }
   .app { position: fixed; top: 0; left: 0; right: 0; bottom: 0; width: auto; height: var(--screen-h, 100dvh); flex-direction: column; }
-  .panel-cities__header { padding-top: calc(16px + env(safe-area-inset-top)); }
+  .panel-cities__header { padding: calc(16px + env(safe-area-inset-top)) 18px 16px; }
   .panel-cities { width: auto; height: auto; border-right: none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 20; transform: translateX(0); transition: transform var(--drawer-transition); }
   .panel-cities--hidden { transform: translateX(-100%); }
-  /* Fill the full-width phone panel: larger logo and city names. */
-  .logo__img { width: 92px; height: 92px; }
+  /* Fill the full-width phone panel: larger logo and city names. The logo shares
+     its circle size, left padding (18px) and gap (16px) with the city rows, so
+     the logo circle stacks over the city thumbnails and the tagline left-aligns
+     with the city names. */
+  .logo { gap: 16px; }
+  .logo__img { width: 86px; height: 86px; }
   .logo__title { font-size: 15px; }
   .logo__sub { font-size: 13px; }
   .city-item { padding: 16px 18px; gap: 16px; }
-  .city-item__thumb-wrap { width: 92px; height: 92px; }
-  .city-item__name { font-size: 36px; }
+  .city-item__thumb-wrap { width: 86px; height: 86px; }
+  .city-item__name { font-size: 33px; }
   .city-item__country { font-size: 15px; }
   .city-item__count { font-size: 12px; }
   .panel-detail { width: auto; height: auto; border-right: none; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin-right: 0; z-index: 30; transform: translateX(100%); transition: transform var(--drawer-transition); }
