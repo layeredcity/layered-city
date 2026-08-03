@@ -203,7 +203,7 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
       <div className="overview-list">
         {sections.map(({ filter, count }) => (
           <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
-            <div className="overview-item__icon-wrap">{TYPE_ICONS[filter.icon]}</div>
+            <div className={'overview-item__icon-wrap' + (filter.icon === 'audiotour' ? ' overview-item__icon-wrap--tour' : '')}>{TYPE_ICONS[filter.icon]}</div>
             <div className="overview-item__body">
               <div className="overview-item__label">{filter.label}</div>
               {filter.blurb && <div className="overview-item__blurb">{filter.blurb.replace('{city}', city.name)}</div>}

@@ -299,6 +299,8 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .overview-item:hover { background: #dce8f9; }
 .overview-item__icon-wrap { width: 48px; height: 48px; border-radius: 12px; background: #153B8F; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: white; }
 .overview-item__icon-wrap svg { width: 24px; height: 24px; }
+/* The tour glyph reads visually smaller than the others; nudge it up ~15%. */
+.overview-item__icon-wrap--tour svg { width: 28px; height: 28px; }
 .overview-item__body { flex: 1; min-width: 0; }
 .overview-item__label { font-family: var(--font-display); font-size: 22px; color: var(--ink); line-height: 1.2; }
 .overview-item__blurb { font-size: 12px; color: #24201A; line-height: 1.35; margin-top: 3px; }
