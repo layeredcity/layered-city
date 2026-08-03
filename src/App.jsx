@@ -178,7 +178,6 @@ function CurrencyCheatSheet({ city }) {
         {CHEAT_SHEET_NOTES.map(n => (
           <div className="currency-cheatsheet__row" key={n}>
             <span className="currency-cheatsheet__usd">${n}</span>
-            <span className="currency-cheatsheet__eq">≈</span>
             <span className="currency-cheatsheet__local">{fmt.format(n * rate)}</span>
           </div>
         ))}
