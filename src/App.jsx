@@ -8,7 +8,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset } from './utils/images'
-import { currencyForCountry, fetchUsdRates } from './utils/currency'
+import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
 // Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
 // Used for movie/TV IMDb tiers and book Goodreads tiers alike, so the two
@@ -144,46 +144,73 @@ const TYPE_ICONS = {
   ),
 }
 
-// The common U.S. banknotes we convert. Base currency is USD for now; the card
-// is structured so swapping the base (GBP/AUD/…) later is a small change.
-const CHEAT_SHEET_NOTES = [1, 5, 10, 20, 50, 100]
+const LS_CURRENCY_BASE = 'lc_currency_base'
 
 function currencyDisplayName(code) {
   try { return new Intl.DisplayNames(['en'], { type: 'currency' }).of(code) }
   catch { return code }
 }
 
-// A non-interactive "currency cheat sheet": common USD banknotes shown in the
-// city's local currency. Renders nothing until rates load or when the country
-// isn't mapped, so it degrades quietly rather than showing a broken card.
+// A near-non-interactive "currency cheat sheet": common banknotes of a chosen
+// base currency shown in the city's local currency. The only control is the
+// base picker (default USD, remembered across cities). Rates are USD-based, so
+// any base→local conversion is a cross-rate: amount × rate[local] / rate[base].
+// Renders nothing until rates load or when the country isn't mapped, so it
+// degrades quietly rather than showing a broken card.
 function CurrencyCheatSheet({ city }) {
-  const code = currencyForCountry(city.country)
+  const localCode = currencyForCountry(city.country)
   const [rates, setRates] = useState(null)
+  const [base, setBase] = useState(() => {
+    try { return localStorage.getItem(LS_CURRENCY_BASE) || 'USD' } catch { return 'USD' }
+  })
   useEffect(() => {
     let alive = true
     fetchUsdRates().then(r => { if (alive) setRates(r) })
     return () => { alive = false }
   }, [])
 
-  if (!code || code === 'USD') return null
-  const rate = rates?.rates?.[code]
-  if (!rate) return null
+  if (!localCode) return null
+  // Base options exclude the city's own currency; fall back to USD (or the first
+  // option) when the remembered base isn't valid here.
+  const options = BASE_CURRENCIES.filter(c => c !== localCode)
+  const effBase = options.includes(base) ? base : (options.includes('USD') ? 'USD' : options[0])
+  const localRate = rates?.rates?.[localCode]
+  const baseRate = rates?.rates?.[effBase]
+  if (!localRate || !baseRate) return null
 
-  const fmt = new Intl.NumberFormat('en', { style: 'currency', currency: code })
+  const factor = localRate / baseRate
+  const notes = BASE_NOTES[effBase] || BASE_NOTES.USD
+  const fmtLocal = new Intl.NumberFormat('en', { style: 'currency', currency: localCode })
+  const fmtBase = new Intl.NumberFormat('en', { style: 'currency', currency: effBase, maximumFractionDigits: 0 })
+  const changeBase = e => {
+    setBase(e.target.value)
+    try { localStorage.setItem(LS_CURRENCY_BASE, e.target.value) } catch { /* private mode */ }
+  }
+
   return (
     <div className="currency-cheatsheet">
-      <div className="currency-cheatsheet__title">Currency cheat sheet</div>
-      <div className="currency-cheatsheet__sub">Roughly what U.S. cash is worth in {city.name} today</div>
+      <div className="currency-cheatsheet__head">
+        <div>
+          <div className="currency-cheatsheet__title">Currency cheat sheet</div>
+          <div className="currency-cheatsheet__sub">Roughly what {BASE_LABEL[effBase]} are worth in {city.name} today</div>
+        </div>
+        <div className="currency-cheatsheet__base">
+          <select className="currency-cheatsheet__select" value={effBase} onChange={changeBase} aria-label="Compare from currency">
+            {options.map(c => <option key={c} value={c}>{c}</option>)}
+          </select>
+          <svg className="currency-cheatsheet__chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </div>
+      </div>
       <div className="currency-cheatsheet__grid">
-        {CHEAT_SHEET_NOTES.map(n => (
+        {notes.map(n => (
           <div className="currency-cheatsheet__row" key={n}>
-            <span className="currency-cheatsheet__usd">${n}</span>
-            <span className="currency-cheatsheet__local">{fmt.format(n * rate)}</span>
+            <span className="currency-cheatsheet__usd">{fmtBase.format(n)}</span>
+            <span className="currency-cheatsheet__local">{fmtLocal.format(n * factor)}</span>
           </div>
         ))}
       </div>
       <div className="currency-cheatsheet__note">
-        US$ → {currencyDisplayName(code)} ({code}) · approximate{rates.date ? ` · ${rates.date}` : ''}
+        {effBase} → {currencyDisplayName(localCode)} ({localCode}) · approximate{rates.date ? ` · ${rates.date}` : ''}
       </div>
     </div>
   )

@@ -38,6 +38,33 @@ export function currencyForCountry(country) {
   return COUNTRY_CURRENCY[country] || null
 }
 
+// The currencies you can compare FROM: the common English-speaking ones plus
+// the euro. For a given city we drop its own local currency from this list
+// (no point comparing EUR→EUR in Paris, or GBP→GBP in London), which also means
+// the euro only appears when the city isn't already on the euro.
+export const BASE_CURRENCIES = ['USD', 'GBP', 'EUR', 'AUD', 'CAD', 'NZD']
+
+// The common banknotes for each base. USD keeps the $1 (a real note); the others
+// start at 5 because their 1-unit is a coin.
+export const BASE_NOTES = {
+  USD: [1, 5, 10, 20, 50, 100],
+  GBP: [5, 10, 20, 50],
+  EUR: [5, 10, 20, 50, 100],
+  AUD: [5, 10, 20, 50, 100],
+  CAD: [5, 10, 20, 50, 100],
+  NZD: [5, 10, 20, 50, 100],
+}
+
+// Friendly plural names for the subtitle line.
+export const BASE_LABEL = {
+  USD: 'US dollars',
+  GBP: 'British pounds',
+  EUR: 'euros',
+  AUD: 'Australian dollars',
+  CAD: 'Canadian dollars',
+  NZD: 'New Zealand dollars',
+}
+
 const LS_KEY = 'lc_usd_rates_v1'
 let pending = null
 

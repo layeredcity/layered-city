@@ -327,6 +327,13 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .currency-cheatsheet { margin: 0 16px 20px; padding: 16px 18px 14px; background: rgba(0,0,0,0.2); border-radius: 18px; }
 .currency-cheatsheet__title { font-family: var(--font-display); font-size: 18px; color: rgba(255,255,255,0.95); line-height: 1.2; }
 .currency-cheatsheet__sub { font-size: 12px; color: rgba(255,255,255,0.7); line-height: 1.35; margin-top: 3px; }
+.currency-cheatsheet__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.currency-cheatsheet__base { position: relative; display: inline-flex; align-items: center; flex-shrink: 0; }
+.currency-cheatsheet__select { appearance: none; -webkit-appearance: none; background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.22); border-radius: 8px; color: #fff; font-family: var(--font-body); font-size: 12px; font-weight: 600; letter-spacing: 0.02em; padding: 5px 24px 5px 10px; cursor: pointer; transition: background var(--transition); }
+.currency-cheatsheet__select:hover { background: rgba(255,255,255,0.18); }
+.currency-cheatsheet__select:focus { outline: none; }
+.currency-cheatsheet__select option { color: var(--ink); background: #fff; }
+.currency-cheatsheet__chevron { position: absolute; right: 7px; top: 50%; transform: translateY(-50%); width: 13px; height: 13px; color: rgba(255,255,255,0.85); pointer-events: none; }
 .currency-cheatsheet__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 22px; margin: 14px 0 12px; }
 .currency-cheatsheet__row { display: flex; align-items: baseline; gap: 10px; font-size: 14px; white-space: nowrap; }
 .currency-cheatsheet__usd { font-weight: 700; color: #fff; min-width: 30px; }
