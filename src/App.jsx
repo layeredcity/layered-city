@@ -842,13 +842,15 @@ function CityHero({ city }) {
               : <div className="city-hero__img" style={{ background: 'var(--border)' }} />
             }
             <div className="city-hero__overlay" />
-            <div className="city-hero__text">
-              <div className="city-hero__name">{L.name}</div>
-              <div className="city-hero__country">{L.country}</div>
-            </div>
           </div>
         )
       })}
+      {/* One name overlay for the current city — kept out of the crossfading
+          layers so two city names never overlap mid-transition. */}
+      <div className="city-hero__text">
+        <div className="city-hero__name">{city.name}</div>
+        <div className="city-hero__country">{city.country}</div>
+      </div>
     </div>
   )
 }
