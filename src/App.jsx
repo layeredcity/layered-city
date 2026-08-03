@@ -95,7 +95,7 @@ const FILTERS = [
   // No alwaysShow: unlike the other sections, Tours is hidden entirely for a
   // city with zero tours (rather than showing "Coming soon"), and reappears
   // automatically once that city has at least one published tour.
-  { label: 'Tours',            types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Explore {city} on an expert-led audio tour' },
+  { label: 'Tours',            types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
   { label: 'TV',               types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   alwaysShow: true, blurb: '{city} on the small screen' },
   { label: 'Videos',           types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  alwaysShow: true, blurb: 'The best of {city} on YouTube' },
   { label: 'Words',            types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Speak like a local in {city}' },
