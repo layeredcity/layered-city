@@ -290,8 +290,12 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-overview { flex: 1; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-direction: column; padding-top: 14px; background: linear-gradient(180deg, #0F2B68 0%, #17419A 100%); }
 .city-overview::-webkit-scrollbar { width: 4px; }
 .city-overview::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
-.overview-item { display: flex; align-items: center; gap: 14px; padding: 14px 16px; margin: 0 16px 10px; border-radius: 14px; cursor: pointer; transition: background var(--transition), box-shadow var(--transition); background: rgb(239 246 255); box-shadow: 0 2px 8px rgba(0,0,0,0.18); }
-.overview-item:hover { background: #dce8f9; box-shadow: 0 3px 12px rgba(0,0,0,0.24); }
+/* The section list is one card with divider lines, rather than separate cards
+   with gaps between them — calmer, less visual rhythm competing for attention. */
+.overview-list { margin: 0 16px 16px; border-radius: 14px; overflow: hidden; background: rgb(239 246 255); box-shadow: 0 2px 8px rgba(0,0,0,0.18); }
+.overview-item { display: flex; align-items: center; gap: 14px; padding: 14px 16px; cursor: pointer; transition: background var(--transition); background: transparent; border-bottom: 1px solid rgba(20,50,120,0.10); }
+.overview-item:last-child { border-bottom: none; }
+.overview-item:hover { background: #dce8f9; }
 .overview-item__icon-wrap { width: 44px; height: 44px; border-radius: 12px; background: #153B8F; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: white; }
 .overview-item__icon-wrap svg { width: 22px; height: 22px; }
 .overview-item__body { flex: 1; min-width: 0; }

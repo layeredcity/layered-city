@@ -202,17 +202,19 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
     <div className="city-overview">
-      {sections.map(({ filter, count }) => (
-        <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
-          <div className="overview-item__icon-wrap">{TYPE_ICONS[filter.icon]}</div>
-          <div className="overview-item__body">
-            <div className="overview-item__label">{filter.label}</div>
-            {filter.blurb && <div className="overview-item__blurb">{filter.blurb.replace('{city}', city.name)}</div>}
-            <div className="overview-item__count">{count === 0 ? 'Coming soon' : count + ' ' + (count === 1 ? filter.unitSingular : filter.unitPlural)}</div>
+      <div className="overview-list">
+        {sections.map(({ filter, count }) => (
+          <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
+            <div className="overview-item__icon-wrap">{TYPE_ICONS[filter.icon]}</div>
+            <div className="overview-item__body">
+              <div className="overview-item__label">{filter.label}</div>
+              {filter.blurb && <div className="overview-item__blurb">{filter.blurb.replace('{city}', city.name)}</div>}
+              <div className="overview-item__count">{count === 0 ? 'Coming soon' : count + ' ' + (count === 1 ? filter.unitSingular : filter.unitPlural)}</div>
+            </div>
+            <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
           </div>
-          <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
-        </div>
-      ))}
+        ))}
+      </div>
       {city.quote && (
         <div className="city-quote">
           <div className="city-quote__text">“{city.quote}”</div>
