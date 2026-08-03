@@ -59,7 +59,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-hero__text { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 20px; text-align: center; z-index: 3; }
 /* Fade the bottom of the hero into the exact blue the overview starts with,
    so the image and the panel below read as one continuous surface. */
-.city-hero::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 45%; background: linear-gradient(to bottom, rgba(15,43,104,0) 0%, #0F2B68 100%); pointer-events: none; z-index: 2; }
+.city-hero::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 45%; background: linear-gradient(to bottom, rgba(9,26,64,0) 0%, #091A40 100%); pointer-events: none; z-index: 2; }
 .city-hero__name { font-family: var(--font-display); font-size: 56px; color: white; line-height: 1; }
 .city-hero__country { font-size: 13px; font-weight: 700; color: rgba(255,255,255,0.7); letter-spacing: 0.1em; text-transform: uppercase; margin-top: 6px; }
 
@@ -285,7 +285,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .nav-slide-track--stories { transform: translateX(-50%); }
 .nav-slide-panel { width: 50%; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
 
-.city-overview { flex: 1; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; display: flex; flex-direction: column; padding-top: 14px; background: linear-gradient(180deg, #0F2B68 0%, #17419A 100%); }
+.city-overview { flex: 1; overflow-y: auto; overscroll-behavior: contain; scrollbar-width: none; display: flex; flex-direction: column; padding-top: 14px; background: linear-gradient(180deg, #091A40 0%, #17419A 100%); }
 .city-overview::-webkit-scrollbar { display: none; }
 /* The section list is one card with divider lines, rather than separate cards
    with gaps between them — calmer, less visual rhythm competing for attention. */
