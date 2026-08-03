@@ -190,18 +190,16 @@ function CurrencyCheatSheet({ city }) {
 }
 
 function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
-  if (storiesLoading) {
-    return (
-      <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>
-        Loading...
-      </div>
-    )
-  }
-  const sections = FILTERS.slice(1)
+  const sections = storiesLoading ? [] : FILTERS.slice(1)
     .map(f => ({ filter: f, count: stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
     <div className="city-overview">
+      <CityHero city={city} />
+      {storiesLoading ? (
+        <div className="city-overview__loading">Loading…</div>
+      ) : (
+      <>
       <div className="overview-list">
         {sections.map(({ filter, count }) => (
           <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
@@ -224,6 +222,8 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
         </div>
       )}
       <CurrencyCheatSheet city={city} />
+      </>
+      )}
     </div>
   )
 }
@@ -1105,7 +1105,6 @@ export default function App() {
         )}
         {selectedCity && (
           <div style={{display:'flex',flexDirection:'column',position:'absolute',top:0,left:0,right:0,bottom:0,overflow:'hidden'}}>
-            <CityHero city={selectedCity} />
             <div className={"nav-slide-track" + (detailView === 'stories' ? ' nav-slide-track--stories' : '')}>
               <div className="nav-slide-panel">
                 <CityOverview
