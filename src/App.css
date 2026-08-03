@@ -292,7 +292,7 @@ body { font-family: var(--font-body); background: var(--cream); color: var(--ink
 .city-overview::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
 /* The section list is one card with divider lines, rather than separate cards
    with gaps between them — calmer, less visual rhythm competing for attention. */
-.overview-list { margin: 0 16px 16px; border-radius: 14px; overflow: hidden; background: rgb(239 246 255); box-shadow: 0 2px 8px rgba(0,0,0,0.18); }
+.overview-list { flex-shrink: 0; margin: 0 16px 16px; border-radius: 14px; overflow: hidden; background: rgb(239 246 255); box-shadow: 0 2px 8px rgba(0,0,0,0.18); }
 .overview-item { display: flex; align-items: center; gap: 14px; padding: 14px 16px; cursor: pointer; transition: background var(--transition); background: transparent; border-bottom: 1px solid rgba(20,50,120,0.10); }
 .overview-item:last-child { border-bottom: none; }
 .overview-item:hover { background: #dce8f9; }
