@@ -8,6 +8,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset } from './utils/images'
+import { currencyForCountry, fetchUsdRates } from './utils/currency'
 
 // Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
 // Used for movie/TV IMDb tiers and book Goodreads tiers alike, so the two
@@ -143,6 +144,52 @@ const TYPE_ICONS = {
   ),
 }
 
+// The common U.S. banknotes we convert. Base currency is USD for now; the card
+// is structured so swapping the base (GBP/AUD/…) later is a small change.
+const CHEAT_SHEET_NOTES = [1, 5, 10, 20, 50, 100]
+
+function currencyDisplayName(code) {
+  try { return new Intl.DisplayNames(['en'], { type: 'currency' }).of(code) }
+  catch { return code }
+}
+
+// A non-interactive "currency cheat sheet": common USD banknotes shown in the
+// city's local currency. Renders nothing until rates load or when the country
+// isn't mapped, so it degrades quietly rather than showing a broken card.
+function CurrencyCheatSheet({ city }) {
+  const code = currencyForCountry(city.country)
+  const [rates, setRates] = useState(null)
+  useEffect(() => {
+    let alive = true
+    fetchUsdRates().then(r => { if (alive) setRates(r) })
+    return () => { alive = false }
+  }, [])
+
+  if (!code || code === 'USD') return null
+  const rate = rates?.rates?.[code]
+  if (!rate) return null
+
+  const fmt = new Intl.NumberFormat('en', { style: 'currency', currency: code })
+  return (
+    <div className="currency-cheatsheet">
+      <div className="currency-cheatsheet__title">Currency cheat sheet</div>
+      <div className="currency-cheatsheet__sub">Roughly what U.S. cash is worth in {city.name} today</div>
+      <div className="currency-cheatsheet__grid">
+        {CHEAT_SHEET_NOTES.map(n => (
+          <div className="currency-cheatsheet__row" key={n}>
+            <span className="currency-cheatsheet__usd">${n}</span>
+            <span className="currency-cheatsheet__eq">≈</span>
+            <span className="currency-cheatsheet__local">{fmt.format(n * rate)}</span>
+          </div>
+        ))}
+      </div>
+      <div className="currency-cheatsheet__note">
+        US$ → {currencyDisplayName(code)} ({code}) · approximate{rates.date ? ` · ${rates.date}` : ''}
+      </div>
+    </div>
+  )
+}
+
 function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
   if (storiesLoading) {
     return (
@@ -175,6 +222,7 @@ function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
           )}
         </div>
       )}
+      <CurrencyCheatSheet city={city} />
     </div>
   )
 }
