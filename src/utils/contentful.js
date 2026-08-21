@@ -29,6 +29,38 @@ export async function fetchCities() {
   }))
 }
 
+// Dishes worth eating in a city. Unlike stories, food carries no location — a
+// dish outlives the restaurants that serve it — so these never reach the map.
+// Ordered by the curated listOrder, with any unordered dish falling to the end.
+export async function fetchFoodsForCity(cityId) {
+  const res = await client.getEntries({
+    content_type: 'food',
+    'fields.relatedCity.sys.id': cityId,
+    limit: 200,
+  })
+  return res.items
+    .map(item => {
+      const f = item.fields
+      return {
+        id: item.sys.id,
+        name: f.foodName,
+        description: f.foodDescription,
+        listOrder: f.listOrder ?? null,
+        image: f.foodImage?.fields?.file?.url
+          ? 'https:' + f.foodImage.fields.file.url
+          : null,
+      }
+    })
+    // Sorted here rather than by the API: Contentful orders by Unicode
+    // codepoint, which would put "Pastel" ahead of "Pastéis".
+    .sort((a, b) => {
+      if (a.listOrder == null && b.listOrder == null) return (a.name || '').localeCompare(b.name || '', 'pt')
+      if (a.listOrder == null) return 1
+      if (b.listOrder == null) return -1
+      return a.listOrder - b.listOrder
+    })
+}
+
 export async function fetchStoriesForCity(cityId) {
   const res = await client.getEntries({
     content_type: 'story',

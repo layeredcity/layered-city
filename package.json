@@ -13,7 +13,8 @@
     "import:podcasts": "node scripts/import-podcasts.mjs",
     "fix:covers": "node scripts/fix-covers.mjs",
     "mirror:covers": "node scripts/mirror-covers.mjs",
-    "import:tours": "node scripts/import-tours.mjs"
+    "import:tours": "node scripts/import-tours.mjs",
+    "import:food": "node scripts/import-food.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -1,7 +1,7 @@
 import { useState, useEffect, useCallback, useMemo, useRef, cloneElement } from 'react'
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
-import { fetchCities, fetchStoriesForCity } from './utils/contentful'
+import { fetchCities, fetchStoriesForCity, fetchFoodsForCity } from './utils/contentful'
 import { fetchOmdbData } from './utils/omdb'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
@@ -89,6 +89,11 @@ function slugify(name) {
 const FILTERS = [
   { label: 'All',              types: ['podcast', 'video', 'movie', 'tv', 'music', 'book', 'speak', 'audiotour'] },
   { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true, blurb: 'Novels and nonfiction about {city}' },
+  // Food is not a story: it comes from its own `food` content type, carries no
+  // location, and reads as a flat list rather than opening a detail modal. The
+  // empty `types` keeps it out of every story filter. Like Tours it has no
+  // alwaysShow, so a city with no dishes doesn't advertise the section at all.
+  { label: 'Food',             types: [], food: true,   emptyLabel: 'dishes',           icon: 'food',    unitSingular: 'dish',    unitPlural: 'dishes',  blurb: 'What to eat in {city}' },
   { label: 'Movies',           types: ['movie'],        emptyLabel: 'movies',           icon: 'movie',   unitSingular: 'movie',   unitPlural: 'movies',  alwaysShow: true, blurb: '{city} on the big screen' },
   { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of {city} through its songs' },
   { label: 'Podcasts',         types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', alwaysShow: true, blurb: 'Episodes about {city}' },
@@ -140,6 +145,13 @@ const TYPE_ICONS = {
   audiotour: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
       <path fill="currentColor" fillRule="evenodd" d="M24 0.5c-3.5899 0 -6.5 2.91015 -6.5 6.5 0 3.5899 2.9101 6.5 6.5 6.5s6.5 -2.9101 6.5 -6.5c0 -3.58985 -2.9101 -6.5 -6.5 -6.5Zm-4.195 14c-1.2347 0 -2.5089 0.1549 -3.6945 0.6528 -5.0552 2.1229 -8.35652 6.2607 -9.34835 12.0863 -0.26298 1.5447 0.7559 2.9384 2.19429 3.3699l1.02594 0.3078c1.29602 0.3888 2.59182 -0.4447 2.91252 -1.7074 0.4933 -1.9418 1.1152 -3.2162 2.0113 -4.2675 0.7462 -0.8755 1.7001 -1.6178 2.9868 -2.4609l-0.046 0.4363c-0.7636 7.2491 -1.462 13.8783 -6.7044 18.7633 -1.27205 1.1853 -1.28457 3.4172 0.3108 4.3744l0.5362 0.3217c1.23 0.738 2.8029 0.8719 4.0579 0.0112 2.2011 -1.5095 5.7871 -4.7685 7.2875 -10.6356 1.6441 0.9767 2.9192 2.4462 3.8972 4.029 1.0852 1.7561 1.7873 3.6237 2.2149 5.038 0.4349 1.4382 2.0063 2.3685 3.4807 1.8362l0.6303 -0.2276c1.7574 -0.6345 2.987 -2.3294 2.6856 -4.2543 -0.5784 -3.6941 -2.4751 -10.2662 -8.7122 -14.4234l0.3734 -3.3605c1.3185 0.8872 2.594 1.5664 4.0833 1.9894 1.7481 0.4965 3.7543 0.63 6.4267 0.3795 1.5102 -0.1416 2.6491 -1.3674 2.7967 -2.8438l0.1012 -1.011c0.1298 -1.299 -0.8645 -2.4054 -2.1337 -2.5075 -3.4787 -0.2798 -5.8518 -1.033 -8.2508 -3.0846 -1.8541 -1.5856 -4.1367 -2.8117 -6.6752 -2.8117H19.805Z" clipRule="evenodd"/>
+    </svg>
+  ),
+  // Fork & spoon (Streamline). Drawn on a 24-unit grid rather than the 48 the
+  // other glyphs use — the viewBox handles the difference.
+  food: (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <path fill="currentColor" fillRule="evenodd" d="M1.3457142857142856 0.04114285714285714a1.2857142857142856 1.2857142857142856 0 0 1 1.2857142857142856 1.2857142857142856v4.285714285714286a3 3 0 0 0 1.7142857142857142 2.710285714285714V1.3268571428571427a1.2857142857142856 1.2857142857142856 0 1 1 2.571428571428571 0v6.996a3 3 0 0 0 1.7142857142857142 -2.710285714285714v-4.285714285714286a1.2857142857142856 1.2857142857142856 0 1 1 2.571428571428571 0v4.285714285714286a5.571428571428571 5.571428571428571 0 0 1 -3.8571428571428568 5.300571428571429V22.285714285714285a1.7142857142857142 1.7142857142857142 0 0 1 -3.4285714285714284 0V10.914857142857143a5.571428571428571 5.571428571428571 0 0 1 -3.8571428571428568 -5.302285714285714v-4.285714285714286a1.2857142857142856 1.2857142857142856 0 0 1 1.2857142857142856 -1.2857142857142856Zm17.228571428571428 0c-3.0377142857142854 0 -5.041714285714285 2.9605714285714284 -5.041714285714285 5.981142857142856 0 2.4068571428571426 1.272 4.776 3.3257142857142856 5.64V22.285714285714285a1.7142857142857142 1.7142857142857142 0 1 0 3.4285714285714284 0V11.660571428571426c2.057142857142857 -0.8622857142857142 3.3291428571428567 -3.2314285714285713 3.3291428571428567 -5.64 0 -3.0188571428571427 -2.0057142857142853 -5.979428571428571 -5.041714285714285 -5.979428571428571Z" clipRule="evenodd"/>
     </svg>
   ),
 }
@@ -216,14 +228,33 @@ function CurrencyCheatSheet({ city }) {
   )
 }
 
-function CityOverview({ city, stories, storiesLoading, onSelectFilter }) {
-  const sections = storiesLoading ? [] : FILTERS.slice(1)
-    .map(f => ({ filter: f, count: stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
+// A dish, read in place. There is no detail view to open: the description is
+// the whole point, so it sits on the row rather than behind a click.
+function FoodItem({ food }) {
+  return (
+    <div className="food-item">
+      {food.image ? (
+        <img className="food-item__img" src={sizedAsset(food.image, 240)} alt={food.name} loading="lazy" />
+      ) : (
+        <div className="food-item__img food-item__img--placeholder">{TYPE_ICONS.food}</div>
+      )}
+      <div className="food-item__body">
+        <div className="food-item__name">{food.name}</div>
+        <div className="food-item__desc">{food.description}</div>
+      </div>
+    </div>
+  )
+}
+
+function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, onSelectFilter }) {
+  const loading = storiesLoading || foodsLoading
+  const sections = loading ? [] : FILTERS.slice(1)
+    .map(f => ({ filter: f, count: f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
     <div className="city-overview">
       <CityHero city={city} />
-      {storiesLoading ? (
+      {loading ? (
         <div className="city-overview__loading">Loading…</div>
       ) : (
       <>
@@ -905,6 +936,8 @@ export default function App() {
   const [selectedCity, setSelectedCity] = useState(null)
   const [stories, setStories] = useState([])
   const [storiesLoading, setStoriesLoading] = useState(false)
+  const [foods, setFoods] = useState([])
+  const [foodsLoading, setFoodsLoading] = useState(false)
   const [loading, setLoading] = useState(true)
   const [activeFilter, setActiveFilter] = useState('All')
   const [sortMode, setSortMode] = useState('rating') // 'rating' | 'date' — Books/Movies sort toggle
@@ -944,6 +977,14 @@ export default function App() {
     setMobileView('detail')
     setStoriesLoading(true)
     window.history.pushState({}, '', '/' + slugify(city.name))
+    // Food loads alongside the stories rather than inside their try/catch, so a
+    // failure on either side can't blank out the other.
+    setFoods([])
+    setFoodsLoading(true)
+    fetchFoodsForCity(city.id)
+      .then(setFoods)
+      .catch(err => { console.error('Failed to fetch food:', err); setFoods([]) })
+      .finally(() => setFoodsLoading(false))
     try {
       const data = await fetchStoriesForCity(city.id)
       setStories(data)
@@ -972,6 +1013,7 @@ export default function App() {
     closeStoryWithFade()
     setSelectedCity(null)
     setStories([])
+    setFoods([])
     setDetailView('overview')
     setActiveFilter('All')
     setMobileView('list')
@@ -1029,7 +1071,7 @@ export default function App() {
   }, [selectCity])
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
-  const availableFilters = FILTERS.slice(1).filter(f => stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
+  const availableFilters = FILTERS.slice(1).filter(f => f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
 
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
@@ -1157,6 +1199,8 @@ export default function App() {
                   city={selectedCity}
                   stories={stories}
                   storiesLoading={storiesLoading}
+                  foods={foods}
+                  foodsLoading={foodsLoading}
                   onSelectFilter={f => { setActiveFilter(f); setDetailView('stories') }}
                 />
               </div>
@@ -1196,7 +1240,17 @@ export default function App() {
                   )}
                 </div>
                 <div className="stories-scroll">
-                  {storiesLoading ? (
+                  {currentFilter.food ? (
+                    foodsLoading ? (
+                      <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading food...</div>
+                    ) : foods.length === 0 ? (
+                      <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
+                        Layered City does not yet have any dishes for {selectedCity.name}.
+                      </div>
+                    ) : (
+                      foods.map(food => <FoodItem key={food.id} food={food} />)
+                    )
+                  ) : storiesLoading ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
                   ) : filteredStories.length === 0 ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
