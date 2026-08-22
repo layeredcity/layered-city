@@ -233,7 +233,10 @@ function CurrencyCheatSheet({ city }) {
 // stale is the part we don't own. Nothing is stored: the query is built here
 // from the dish and city names.
 function mapsSearchUrl(dish, city) {
-  const q = [dish, city].filter(Boolean).join(' ')
+  // The dish is quoted to push Maps toward places that actually mention it,
+  // rather than any Portuguese restaurant nearby. Maps treats quotes loosely —
+  // it is a place search, not a web search — so this is a nudge, not a filter.
+  const q = [dish && `"${dish}"`, city].filter(Boolean).join(' ')
   return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
 }
 
