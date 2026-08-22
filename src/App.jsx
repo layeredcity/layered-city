@@ -228,9 +228,18 @@ function CurrencyCheatSheet({ city }) {
   )
 }
 
+// Google Maps searched for the dish itself, not a restaurant we picked. Google's
+// data is always current and ours would rot, so the one part of this that goes
+// stale is the part we don't own. Nothing is stored: the query is built here
+// from the dish and city names.
+function mapsSearchUrl(dish, city) {
+  const q = [dish, city].filter(Boolean).join(' ')
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`
+}
+
 // A dish, read in place. There is no detail view to open: the description is
 // the whole point, so it sits on the row rather than behind a click.
-function FoodItem({ food }) {
+function FoodItem({ food, cityName }) {
   return (
     <div className="food-item">
       {food.image ? (
@@ -248,6 +257,18 @@ function FoodItem({ food }) {
             <span className="food-item__hood-label">Best neighborhood</span> {food.neighborhood}
           </div>
         )}
+        <a
+          className="food-item__map"
+          href={mapsSearchUrl(food.name, cityName)}
+          target="_blank"
+          rel="noreferrer"
+          aria-label={`Find ${food.name} on Google Maps`}
+        >
+          Find it on Google Maps
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <path d="M7 17 17 7M9 7h8v8"/>
+          </svg>
+        </a>
       </div>
     </div>
   )
@@ -1255,7 +1276,7 @@ export default function App() {
                         Layered City does not yet have any dishes for {selectedCity.name}.
                       </div>
                     ) : (
-                      foods.map(food => <FoodItem key={food.id} food={food} />)
+                      foods.map(food => <FoodItem key={food.id} food={food} cityName={selectedCity.name} />)
                     )
                   ) : storiesLoading ? (
                     <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading stories...</div>
