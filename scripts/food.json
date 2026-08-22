@@ -436,5 +436,785 @@
     "name": "Caffè napoletano",
     "description": "Espresso pulled short and strong, and sweetened before it reaches you unless you say otherwise, drunk standing at the bar in one swallow. Ask about the caffè sospeso — the habit of paying for a second cup a stranger can claim.",
     "listOrder": 15
+  },
+  {
+    "city": "Barcelona",
+    "name": "Pa amb tomàquet",
+    "description": "Grilled bread rubbed with a cut tomato until the crumb turns pink, then olive oil and salt. Not a topping — the tomato is crushed into the bread and the skin thrown away. It arrives before everything else and costs almost nothing.",
+    "listOrder": 1
+  },
+  {
+    "city": "Barcelona",
+    "name": "Bombas",
+    "description": "A fist-sized ball of mashed potato stuffed with spiced ground meat, breaded and fried, then hit with garlic aioli and a spicy red sauce. Invented in the Barceloneta docks in the 1950s. Order two; nobody has ever ordered one.",
+    "listOrder": 2
+  },
+  {
+    "city": "Barcelona",
+    "name": "Espinacs a la catalana",
+    "description": "Spinach wilted in olive oil with pine nuts and raisins soaked until they plump, sometimes with a little cured ham. Sweet and savory at once, and a taste of the Moorish centuries still sitting on Catalan menus.",
+    "listOrder": 3
+  },
+  {
+    "city": "Barcelona",
+    "name": "Escalivada",
+    "description": "Eggplant, peppers and onions charred whole over flame until the skins blacken, then peeled, torn into strips and dressed with oil. The name comes from the Catalan for cooking in embers. Served cold, usually piled on bread.",
+    "listOrder": 4
+  },
+  {
+    "city": "Barcelona",
+    "name": "Esqueixada",
+    "description": "Salt cod torn by hand — never cut — and served raw, cured only by its own salt, with tomato, onion, olives and oil. The name means shredded. A summer dish from before refrigeration, and still the coolest thing on the table.",
+    "listOrder": 5
+  },
+  {
+    "city": "Barcelona",
+    "name": "Fideuà",
+    "description": "Paella made with short toasted noodles instead of rice, cooked in fish stock until the ends stand upright and the bottom catches. From the fishing towns down the coast. Comes with garlic aioli to stir through at the table.",
+    "listOrder": 6
+  },
+  {
+    "city": "Barcelona",
+    "name": "Suquet de peix",
+    "description": "Fish and potatoes stewed in broth thickened with ground almonds and garlic, built from whatever the boats brought in. Fishermen cooked it on board with the fish they could not sell. Ask for bread; the broth is the point.",
+    "listOrder": 7
+  },
+  {
+    "city": "Barcelona",
+    "name": "Botifarra amb mongetes",
+    "description": "A fat pork sausage grilled over coals with white beans fried in the same pan so they take on the fat. Catalonia's plainest and most-eaten plate. No sauce, no garnish — a good sausage does not need either.",
+    "listOrder": 8
+  },
+  {
+    "city": "Barcelona",
+    "name": "Canelons",
+    "description": "Pasta tubes filled with the roast meat left over from the day before, covered in béchamel and baked until the top browns. Catalans eat them on December 26th, which is when the leftovers exist. An import that became a ritual.",
+    "listOrder": 9
+  },
+  {
+    "city": "Barcelona",
+    "name": "Calçots",
+    "description": "Long sweet spring onions charred black over vine cuttings, peeled at the table and dipped in romesco, a red sauce of almonds and peppers. Eaten in a bib, with your hands. January to March only, and worth planning around.",
+    "listOrder": 10
+  },
+  {
+    "city": "Barcelona",
+    "name": "Coca de Sant Joan",
+    "description": "A flat sweet bread strewn with candied fruit and pine nuts, eaten on the night of June 23rd with cava and fireworks on the beach. Sold everywhere for one week and nowhere the rest of the year. Buy it the day you see it.",
+    "listOrder": 11
+  },
+  {
+    "city": "Barcelona",
+    "name": "Mel i mató",
+    "description": "Fresh unsalted curd cheese under a pour of honey, sometimes with walnuts. Three ingredients, no technique, and Catalonia's oldest dessert — older than sugar reaching Europe. The cheese should taste of milk and nothing else.",
+    "listOrder": 12
+  },
+  {
+    "city": "Barcelona",
+    "name": "Panellets",
+    "description": "Marzipan balls rolled in pine nuts and baked until the nuts toast, made for All Saints on November 1st and eaten with sweet wine. Almond-dense and slightly chewy. Bakeries pile them in the windows for a fortnight, then stop.",
+    "listOrder": 13
+  },
+  {
+    "city": "Barcelona",
+    "name": "Crema catalana",
+    "description": "Custard set with cornstarch rather than cream, scented with lemon peel and cinnamon, sugar burned to glass on top with a hot iron. Lighter than crème brûlée and older — Catalan cookbooks describe it in the 1300s.",
+    "listOrder": 14
+  },
+  {
+    "city": "Barcelona",
+    "name": "Cava",
+    "description": "Sparkling wine made by the same slow method as Champagne, in cellars an hour outside the city, and drunk casually rather than saved for celebrations. A cold glass costs a couple of euros. Ask for brut nature if you want it bone dry.",
+    "listOrder": 15
+  },
+  {
+    "city": "Madrid",
+    "name": "Cocido madrileño",
+    "description": "A chickpea and meat stew served in three courses from one pot: the broth first as a noodle soup, then the chickpeas and vegetables, then the meats. Winter food that takes all morning to make. Order it before two or it is gone.",
+    "listOrder": 1
+  },
+  {
+    "city": "Madrid",
+    "name": "Bocadillo de calamares",
+    "description": "Rings of squid in a light batter stuffed into a crusty roll with nothing else — no sauce, no salad, just squid and bread. Madrid sits two hundred miles from the sea and eats this anyway. A lemon wedge, if you insist.",
+    "listOrder": 2
+  },
+  {
+    "city": "Madrid",
+    "name": "Tortilla de patatas",
+    "description": "Potatoes cooked slowly in olive oil until soft, bound with egg and set into a thick cake that should stay runny at the center. The argument about adding onion is real and unresolved. Eaten hot, cold, in a sandwich, at any hour.",
+    "listOrder": 3
+  },
+  {
+    "city": "Madrid",
+    "name": "Patatas bravas",
+    "description": "Fried potato chunks under a smoky, faintly hot red sauce built on paprika rather than tomato. The Madrid version is that sauce alone; the aioli one belongs elsewhere. A bar that gets these right usually gets everything right.",
+    "listOrder": 4
+  },
+  {
+    "city": "Madrid",
+    "name": "Ensaladilla rusa",
+    "description": "Potato, tuna, egg and vegetables bound in mayonnaise, served cold in a mound with breadsticks stuck in it. It sounds like a picnic salad and tastes far better, and every bar in the city is quietly judged on its version.",
+    "listOrder": 5
+  },
+  {
+    "city": "Madrid",
+    "name": "Croquetas de jamón",
+    "description": "Béchamel cooked with cured ham until stiff enough to shape, breaded and fried so the crust cracks and the inside runs. It is supposed to be molten. Homemade ones are lumpy and uneven, which is how you know they are homemade.",
+    "listOrder": 6
+  },
+  {
+    "city": "Madrid",
+    "name": "Huevos rotos",
+    "description": "Fried eggs broken over fried potatoes and usually ham, then stirred together at the table until the yolk coats everything. Nothing about it is refined. It is what Madrid eats at midnight, and again the next morning.",
+    "listOrder": 7
+  },
+  {
+    "city": "Madrid",
+    "name": "Gambas al ajillo",
+    "description": "Shrimp cooked in a clay dish of olive oil with sliced garlic and dried chili, brought to the table still bubbling. The oil is the actual reason to order it. Ask for bread first — it will be gone before the shrimp are.",
+    "listOrder": 8
+  },
+  {
+    "city": "Madrid",
+    "name": "Sopa de ajo",
+    "description": "Day-old bread simmered in broth with garlic and paprika until it collapses, an egg cracked in at the end to poach in the heat. Hard-times food that outlived the hard times. Winter only, in a tavern with tiles on the walls.",
+    "listOrder": 9
+  },
+  {
+    "city": "Madrid",
+    "name": "Callos a la madrileña",
+    "description": "Tripe stewed for hours with chorizo, blood sausage and paprika until the sauce goes sticky and the tripe turns tender. Organ meat, unapologetically. Madrid's oldest restaurant dish and still the test of a serious tavern.",
+    "listOrder": 10
+  },
+  {
+    "city": "Madrid",
+    "name": "Oreja a la plancha",
+    "description": "Pig's ear boiled, sliced and seared hard on a flat grill with garlic and paprika, crisp at the edges and gelatinous in the middle. A texture more than a flavor. Order it with a beer and stop thinking about it.",
+    "listOrder": 11
+  },
+  {
+    "city": "Madrid",
+    "name": "Churros con chocolate",
+    "description": "Ridged batter piped into hot oil and fried crisp, with chocolate thick enough to stand a spoon in — for dipping, not drinking. Eaten at dawn after a long night, or at six in the afternoon. Never for dessert.",
+    "listOrder": 12
+  },
+  {
+    "city": "Madrid",
+    "name": "Torrijas",
+    "description": "Bread soaked in milk and sweet wine, dipped in egg, fried, and dusted with cinnamon sugar. Spain's Easter answer to French toast, in every bakery through Lent and gone by May. Denser and boozier than it looks.",
+    "listOrder": 13
+  },
+  {
+    "city": "Madrid",
+    "name": "Rosquillas de San Isidro",
+    "description": "Small anise doughnuts sold for the city's patron saint in mid-May, in four versions: plain, sugar-glazed, meringue-topped, and the ones called French. The plain ones are the good ones. Two weeks a year, then nothing.",
+    "listOrder": 14
+  },
+  {
+    "city": "Madrid",
+    "name": "Vermut de grifo",
+    "description": "Sweet red vermouth poured from a tap over ice, with an olive and a twist of orange. Sunday before lunch is the appointed hour, and going for a vermut means the whole ritual rather than the drink. Most bars blend their own.",
+    "listOrder": 15
+  },
+  {
+    "city": "Seville",
+    "name": "Jamón ibérico",
+    "description": "Ham from black-footed pigs fattened on acorns in the oak pastures west of the city, cured for years and hand-sliced into sheets you can see through. The fat should melt on contact. Ask for bellota, and eat it at room temperature.",
+    "listOrder": 1
+  },
+  {
+    "city": "Seville",
+    "name": "Pescaíto frito",
+    "description": "Small fish — anchovy, red mullet, cuttlefish — floured and dropped into hot olive oil for barely a minute, so the coating stays pale and the fish steams inside. Served in a paper cone with lemon. Andalusia's best trick.",
+    "listOrder": 2
+  },
+  {
+    "city": "Seville",
+    "name": "Gazpacho",
+    "description": "Raw tomato, cucumber, pepper, garlic and bread blended cold with oil and vinegar into something closer to a drink than a soup. Served in a glass through the summer. What is sold abroad under the name is usually salsa by comparison.",
+    "listOrder": 3
+  },
+  {
+    "city": "Seville",
+    "name": "Espinacas con garbanzos",
+    "description": "Spinach and chickpeas stewed with cumin, paprika and garlic-rubbed fried bread that dissolves and thickens the whole thing. A Lenten dish with Moorish bones, now eaten year-round. Order it as a tapa, with dark bread.",
+    "listOrder": 4
+  },
+  {
+    "city": "Seville",
+    "name": "Montadito de pringá",
+    "description": "A small warm roll pressed around pringá: the pork, chorizo and blood sausage left at the end of a stew, mashed to a paste. Two bites, and deeply savory. What Seville eats standing at the bar at 2 a.m., and again at noon.",
+    "listOrder": 5
+  },
+  {
+    "city": "Seville",
+    "name": "Carrillada",
+    "description": "Pork cheeks braised in sherry and stock for hours until they give way completely, in a dark reduced sauce with fried potatoes. A cheap cut and a slow method — the most reliable thing on a Sevillian menu in winter.",
+    "listOrder": 6
+  },
+  {
+    "city": "Seville",
+    "name": "Cola de toro",
+    "description": "Oxtail stewed with red wine, carrots and cloves until the meat slides off the bone into the sauce. It came from the bullring, where the animal was eaten after the fight. Rich enough that it should end the day's eating.",
+    "listOrder": 7
+  },
+  {
+    "city": "Seville",
+    "name": "Tortillitas de camarones",
+    "description": "Lacy fritters of chickpea flour and tiny whole shrimp, fried so thin the edges shatter. The shrimp go in raw, shells and all, hundreds to a fritter. From the salt marshes near Cádiz, perfected in Seville's bars.",
+    "listOrder": 8
+  },
+  {
+    "city": "Seville",
+    "name": "Caracoles",
+    "description": "Small snails simmered in a broth of cumin, mint and hot pepper, served in a bowl with a toothpick, the broth drunk afterward. Signs go up in April and come down by June. Lighter and more herbal than the Portuguese version.",
+    "listOrder": 9
+  },
+  {
+    "city": "Seville",
+    "name": "Solomillo al whisky",
+    "description": "Pork tenderloin in a sauce of garlic, lemon and whisky cooked down to a sharp brown glaze, over fried potatoes. A 1970s bar invention with no pedigree whatsoever, and possibly the most-ordered dish in the city.",
+    "listOrder": 10
+  },
+  {
+    "city": "Seville",
+    "name": "Huevos a la flamenca",
+    "description": "Eggs baked in an earthenware dish over tomato, peppers, peas and ham until the whites just set and the yolks stay loose. A whole meal in one clay bowl. Break the yolks and eat it with bread, straight from the dish.",
+    "listOrder": 11
+  },
+  {
+    "city": "Seville",
+    "name": "Pestiños",
+    "description": "Wine-and-anise dough fried and then glazed in honey until sticky, dense and faintly perfumed. Made for both Christmas and Easter, by convents and grandmothers. They keep for weeks and improve over the first few days.",
+    "listOrder": 12
+  },
+  {
+    "city": "Seville",
+    "name": "Yemas de San Leandro",
+    "description": "Egg yolks cooked with sugar syrup into small bright rounds, made by cloistered nuns and sold through a turntable so buyer and seller never meet. Sherry makers used the whites to clarify wine and gave the convents the yolks.",
+    "listOrder": 13
+  },
+  {
+    "city": "Seville",
+    "name": "Polvorones",
+    "description": "Crumbly shortbread of flour, lard and almonds that collapses to dust the moment you bite it — the name comes from the word for powder. Made in Andalusian towns for Christmas, wrapped in twists of paper. December, in practice.",
+    "listOrder": 14
+  },
+  {
+    "city": "Seville",
+    "name": "Manzanilla",
+    "description": "Bone-dry sherry aged under a veil of live yeast in seaside cellars, tasting of salt and almonds and nothing sweet at all. Served cold in a small glass alongside anything fried. Ask by name; expect it to cost less than wine.",
+    "listOrder": 15
+  },
+  {
+    "city": "Rome",
+    "name": "Cacio e pepe",
+    "description": "Pecorino and cracked black pepper whisked with starchy pasta water into a sauce that clings — no butter, no cream, and it seizes if you rush it. Three ingredients and the hardest plate in Rome to make well. Eat it the moment it lands.",
+    "listOrder": 1
+  },
+  {
+    "city": "Rome",
+    "name": "Supplì",
+    "description": "A ball of tomato-stained rice with a plug of mozzarella at the center, breaded and deep-fried. Pull it apart and the cheese stretches like an old telephone cord, which is where the nickname came from. Eaten standing at a pizza counter.",
+    "listOrder": 2
+  },
+  {
+    "city": "Rome",
+    "name": "Carbonara",
+    "description": "Cured pork jowl rendered crisp, then egg yolk and pecorino stirred in off the heat until they thicken without scrambling. No cream, ever, and no bacon. The pepper goes on heavily at the end, and the timing is everything.",
+    "listOrder": 3
+  },
+  {
+    "city": "Rome",
+    "name": "Pizza al taglio",
+    "description": "Rectangular pizza baked in long trays, cut with scissors and sold by weight rather than the slice — point at what you want and say how much. The Roman base is thin and crisp, unlike Naples, and that argument is permanent.",
+    "listOrder": 4
+  },
+  {
+    "city": "Rome",
+    "name": "Amatriciana",
+    "description": "Cured pork jowl, tomato, pecorino and chili on bucatini, the hollow spaghetti that sprays sauce when you bite it. It comes from a hill town east of the city. Take the tomato away and you have gricia, its older ancestor.",
+    "listOrder": 5
+  },
+  {
+    "city": "Rome",
+    "name": "Carciofi alla giudia",
+    "description": "A whole artichoke pressed flat and fried twice, until the outer leaves turn to crisp petals and the heart stays soft. From the Roman Jewish quarter, cooked there for five centuries. February to April, when the artichokes arrive.",
+    "listOrder": 6
+  },
+  {
+    "city": "Rome",
+    "name": "Puntarelle",
+    "description": "Chicory stems cut into curls and soaked in ice water until they twist, then dressed with anchovy, garlic and vinegar. Bitter, cold and sharp. A winter salad the rest of Italy barely makes. Ask whether they are in season yet.",
+    "listOrder": 7
+  },
+  {
+    "city": "Rome",
+    "name": "Saltimbocca alla romana",
+    "description": "Thin veal layered with prosciutto and a sage leaf, pinned together and cooked fast in butter and white wine. The name means jumps in the mouth. Four ingredients, six minutes, and no substitution worth making.",
+    "listOrder": 8
+  },
+  {
+    "city": "Rome",
+    "name": "Coda alla vaccinara",
+    "description": "Oxtail stewed for hours with celery and tomato — and, in the old recipes, a little cocoa and raisin — until the meat gives up entirely. Cooked by slaughterhouse workers paid in the cuts nobody would buy. Order nothing after it.",
+    "listOrder": 9
+  },
+  {
+    "city": "Rome",
+    "name": "Porchetta",
+    "description": "A whole pig boned, packed with rosemary, garlic and fennel, rolled and roasted until the skin turns to glass. Sliced cold into a plain roll at market stalls. It belongs to the hill towns south of Rome and arrives by van.",
+    "listOrder": 10
+  },
+  {
+    "city": "Rome",
+    "name": "Trippa alla romana",
+    "description": "Tripe simmered in tomato with mint and a heavy dusting of pecorino. Saturday was traditionally the day for it. Organ meat, entirely unashamed — and the mint is what keeps the whole thing from turning heavy.",
+    "listOrder": 11
+  },
+  {
+    "city": "Rome",
+    "name": "Maritozzo",
+    "description": "A soft, faintly sweet bun split open and packed with an unreasonable quantity of unsweetened whipped cream. Eaten for breakfast alongside coffee, not as a dessert. Bakeries fill them in the morning and sell out by lunch.",
+    "listOrder": 12
+  },
+  {
+    "city": "Rome",
+    "name": "Crostata di ricotta e visciole",
+    "description": "A double-crusted tart of sheep's-milk ricotta and sour cherries from the bakeries of the Jewish quarter. The pastry lid hides the filling, said to have begun as a way around a rule against selling dairy sweets.",
+    "listOrder": 13
+  },
+  {
+    "city": "Rome",
+    "name": "Grattachecca",
+    "description": "Ice shaved by hand from a block, drowned in fruit syrup and topped with fresh fruit, sold from riverside kiosks that only open when the heat arrives. Older than the freezer. June through September, along the Tiber.",
+    "listOrder": 14
+  },
+  {
+    "city": "Rome",
+    "name": "Frascati",
+    "description": "Cold white wine from the volcanic hills southeast of the city, poured by the liter in old trattorias and drunk without ceremony. Not a wine to think about — it is what Romans drink with fried artichokes and pasta.",
+    "listOrder": 15
+  },
+  {
+    "city": "Florence",
+    "name": "Bistecca alla fiorentina",
+    "description": "A T-bone three fingers thick from local Chianina cattle, seared over coals and served rare in the middle, no exceptions entertained. Priced by weight and meant for two or three people. Salt and olive oil, nothing else.",
+    "listOrder": 1
+  },
+  {
+    "city": "Florence",
+    "name": "Lampredotto",
+    "description": "The cow's fourth stomach, simmered with tomato and herbs, chopped into a bun whose top is dipped in the cooking broth, with green sauce and chili. Sold from carts since the 1400s. Florence's real street food, and still cheap.",
+    "listOrder": 2
+  },
+  {
+    "city": "Florence",
+    "name": "Crostini di fegatini",
+    "description": "Chicken livers cooked down with capers, anchovy and sweet wine into a coarse dark paste spread on toast. It begins nearly every Tuscan meal. Stronger and far less sweet than a French pâté, and better with the local red.",
+    "listOrder": 3
+  },
+  {
+    "city": "Florence",
+    "name": "Ribollita",
+    "description": "Bread, white beans and black kale cooked into a thick mass, cooled, then cooked again — the name means reboiled, and that second cooking is the entire point. Winter only. It should be stiff enough to eat with a fork.",
+    "listOrder": 4
+  },
+  {
+    "city": "Florence",
+    "name": "Coccoli",
+    "description": "Small balls of fried bread dough served hot with stracchino, a soft young cheese, and prosciutto draped over the top. You build each bite yourself. They arrive with the wine and vanish before the menu is decided.",
+    "listOrder": 5
+  },
+  {
+    "city": "Florence",
+    "name": "Pappa al pomodoro",
+    "description": "Stale bread simmered with tomato, garlic and basil until it collapses into a thick porridge, finished with raw olive oil poured over. Thrift turned into something people order on purpose. Warm, or room temperature in summer.",
+    "listOrder": 6
+  },
+  {
+    "city": "Florence",
+    "name": "Pappardelle al cinghiale",
+    "description": "Wide ribbons of egg pasta under wild boar slow-cooked in red wine with juniper and rosemary until it shreds. The boar are hunted in the hills around the city, where they are a genuine nuisance. Autumn and winter food.",
+    "listOrder": 7
+  },
+  {
+    "city": "Florence",
+    "name": "Peposo",
+    "description": "Beef shin stewed in Chianti with a startling quantity of whole peppercorns and whole garlic cloves. Kiln workers cooked it beside the tiles they were firing for the cathedral dome. No stock and no vegetables — wine and pepper.",
+    "listOrder": 8
+  },
+  {
+    "city": "Florence",
+    "name": "Panzanella",
+    "description": "Stale bread soaked and squeezed dry, then torn up with tomato, cucumber, onion and basil and dressed with oil and vinegar. A summer salad built on bread that would otherwise be thrown away. Only as good as the tomatoes.",
+    "listOrder": 9
+  },
+  {
+    "city": "Florence",
+    "name": "Fagioli all'uccelletto",
+    "description": "White beans stewed with tomato, garlic and sage — cooked, the saying goes, the way you would cook small birds. Tuscans eat so many beans that other Italians call them bean-eaters. Ordered as a side and eaten as a meal.",
+    "listOrder": 10
+  },
+  {
+    "city": "Florence",
+    "name": "Schiacciata all'olio",
+    "description": "Flatbread dimpled with fingertips, drenched in olive oil and coarse salt and baked until the base crisps while the top stays soft. Sold by weight in bakeries and split for sandwiches. The name means squashed.",
+    "listOrder": 11
+  },
+  {
+    "city": "Florence",
+    "name": "Gelato",
+    "description": "Florence claims to have invented it at the Medici court in the 1500s, and the pale yellow flavor called Buontalenti is named for the man given credit. Look for muted colors and covered metal tubs — bright peaks mean air and additives.",
+    "listOrder": 12
+  },
+  {
+    "city": "Florence",
+    "name": "Cantucci e Vin Santo",
+    "description": "Hard almond biscuits baked twice, with a small glass of sweet amber wine to dunk them in until they soften. The wine ages in attic barrels through the temperature swings of the seasons. This is how a Tuscan meal ends.",
+    "listOrder": 13
+  },
+  {
+    "city": "Florence",
+    "name": "Schiacciata alla fiorentina",
+    "description": "A flat orange-scented sponge under heavy powdered sugar, stenciled with the city's lily crest and cut into squares. Made for Carnival in February and gone by Lent. Some bakeries fill it with cream, which is an improvement.",
+    "listOrder": 14
+  },
+  {
+    "city": "Florence",
+    "name": "Chianti",
+    "description": "Sangiovese from the hills between Florence and Siena, tart and dusty and built for food rather than sipping. The straw-covered flask is a tourist relic; the good bottles are not. Order the house red and this is usually what arrives.",
+    "listOrder": 15
+  },
+  {
+    "city": "London",
+    "name": "Full English breakfast",
+    "description": "Fried eggs, bacon, sausage, black pudding, beans, tomato, mushrooms and fried bread, all on one plate at once. Built for people about to do physical work and eaten mostly by people who are not. Tea alongside, not coffee.",
+    "listOrder": 1
+  },
+  {
+    "city": "London",
+    "name": "Fish and chips",
+    "description": "White fish in beer batter fried until it blisters, with thick-cut chips and mushy peas. Salt and malt vinegar go on at the counter, not the table. Ask for it wrapped, and a good piece will steam when you break it open.",
+    "listOrder": 2
+  },
+  {
+    "city": "London",
+    "name": "Pie and mash with liquor",
+    "description": "Minced beef pie, mashed potato, and liquor — a green parsley sauce, not alcohol — in tiled shops unchanged for a century. Cheap, plain, and vanishing: only a handful of the old family shops are still trading.",
+    "listOrder": 3
+  },
+  {
+    "city": "London",
+    "name": "Salt beef bagel",
+    "description": "Brisket cured in brine, boiled, and piled hot into a boiled-then-baked bagel with mustard and a pickled cucumber. From the Jewish East End and sold around the clock on Brick Lane. Order salt beef, not pastrami — they differ.",
+    "listOrder": 4
+  },
+  {
+    "city": "London",
+    "name": "Scotch egg",
+    "description": "A soft-boiled egg wrapped in sausage meat, breaded and fried, eaten cold in one hand. A London grocer claimed the invention in 1738. The good ones have a yolk that still runs; the bad ones are grey the whole way through.",
+    "listOrder": 5
+  },
+  {
+    "city": "London",
+    "name": "Sunday roast",
+    "description": "Roasted meat, potatoes crisped in fat, vegetables, gravy, and a Yorkshire pudding — a hollow baked batter built to catch the gravy. Served in pubs from noon until about four on Sundays and at no other time. Book, or go early.",
+    "listOrder": 6
+  },
+  {
+    "city": "London",
+    "name": "Chicken tikka masala",
+    "description": "Grilled marinated chicken in a spiced tomato and cream sauce, invented in Britain rather than India, most likely by a Bangladeshi cook adapting to local taste. A foreign secretary once called it a true British national dish.",
+    "listOrder": 7
+  },
+  {
+    "city": "London",
+    "name": "Jellied eels",
+    "description": "Eels chopped and boiled with their bones, then set in the savory jelly their own stock makes as it cools. Eaten cold with vinegar and white pepper. East End food, once daily, now defiantly rare. Genuinely not for everyone.",
+    "listOrder": 8
+  },
+  {
+    "city": "London",
+    "name": "Ploughman's lunch",
+    "description": "Cheddar, pickle, bread, butter and often ham on a board, with no cooking involved at any point. It sounds medieval and was invented in the 1950s to sell more cheese in pubs. Still the right thing to order beside a pint.",
+    "listOrder": 9
+  },
+  {
+    "city": "London",
+    "name": "Kedgeree",
+    "description": "Smoked haddock, rice, curry spice, hard-boiled egg and parsley, eaten at breakfast. Anglo-Indian by birth, carried home by colonial officials and adopted by Victorian country houses. It sounds strange and works completely.",
+    "listOrder": 10
+  },
+  {
+    "city": "London",
+    "name": "Eton mess",
+    "description": "Broken meringue, whipped cream and crushed strawberries stirred into deliberate wreckage. Named for the school, where it was served at cricket matches. Best in June and July, when English strawberries are actually in season.",
+    "listOrder": 11
+  },
+  {
+    "city": "London",
+    "name": "Sticky toffee pudding",
+    "description": "A dark sponge dense with chopped dates, drowned in hot toffee sauce and served with cream or custard. It tastes several centuries old and dates to the 1970s. Order it after a large meal; that is the accepted practice.",
+    "listOrder": 12
+  },
+  {
+    "city": "London",
+    "name": "Chelsea bun",
+    "description": "A coiled sweet dough with currants, lemon peel and spice, glazed sticky and pulled apart in a spiral. Sold from a Chelsea bakery from the 1700s that royalty lined up at. Eat it warm, the day it is baked, or not at all.",
+    "listOrder": 13
+  },
+  {
+    "city": "London",
+    "name": "Banoffee pie",
+    "description": "Banana, toffee made by boiling a can of condensed milk, and whipped cream on a biscuit base. Invented in a Sussex pub in 1971 and named by welding the two main ingredients together. The most 1970s dessert imaginable.",
+    "listOrder": 14
+  },
+  {
+    "city": "London",
+    "name": "Cask ale",
+    "description": "Beer that finishes fermenting in the barrel and is pulled by hand pump, served cool rather than cold and with no added gas. Softer and flatter than most visitors expect. Ask for a pint of bitter and drink it slowly.",
+    "listOrder": 15
+  },
+  {
+    "city": "Manchester",
+    "name": "Chips, gravy and a barm",
+    "description": "Thick-cut chips buried in beef gravy with a barm — the northern word for a soft bread roll — alongside, or built into a sandwich around the chips. Cheap, hot and unrepentant. The regional test of any chip shop.",
+    "listOrder": 1
+  },
+  {
+    "city": "Manchester",
+    "name": "Lancashire hotpot",
+    "description": "Lamb and onions layered under sliced potato and baked slowly until the top browns and the bottom turns to gravy. Made in a tall pot in the mill towns, left to cook while everyone was at work. Pickled red cabbage on the side.",
+    "listOrder": 2
+  },
+  {
+    "city": "Manchester",
+    "name": "Pie barm",
+    "description": "A whole meat and potato pie put inside a buttered bread roll — carbohydrate wrapped in carbohydrate, known locally as a Wigan kebab. Sold in bakeries at breakfast. There is no defense of it, and none is required.",
+    "listOrder": 3
+  },
+  {
+    "city": "Manchester",
+    "name": "Black pudding",
+    "description": "Blood sausage of pig's blood, oats and fat, sliced and fried until the edges crisp. The town of Bury built a reputation on it and sells it hot from a market stall with mustard. Earthier and far less sweet than it sounds.",
+    "listOrder": 4
+  },
+  {
+    "city": "Manchester",
+    "name": "Karahi",
+    "description": "Meat cooked hard and fast in a steel wok with tomato, ginger and green chili, arriving at the table still spitting. Rusholme's mile of Pakistani and Kashmiri restaurants has fed the city since the 1970s. Order bread, not rice.",
+    "listOrder": 5
+  },
+  {
+    "city": "Manchester",
+    "name": "Cheese and onion pie",
+    "description": "Shortcrust filled with sharp cheese, onion and potato, eaten hot with gravy or cold from a paper bag. Every northern bakery makes one and every family argues about the potato. Vegetarian by accident rather than design.",
+    "listOrder": 6
+  },
+  {
+    "city": "Manchester",
+    "name": "Rag pudding",
+    "description": "Beef and onion in suet pastry, tied in a cloth rag and boiled rather than baked, which leaves the pastry soft and slightly slippery. From Oldham, and rarer every year. Worth seeking where they still make their own.",
+    "listOrder": 7
+  },
+  {
+    "city": "Manchester",
+    "name": "Tripe and onions",
+    "description": "Tripe simmered pale in milk with onions, once sold from dedicated tripe shops on every northern high street — Manchester had dozens. Now nearly extinct, kept alive at Bury market. Soft, mild, and historically enormous.",
+    "listOrder": 8
+  },
+  {
+    "city": "Manchester",
+    "name": "Parched peas",
+    "description": "Black peas boiled soft and served hot in a cup with malt vinegar, sold at bonfire night and at fairgrounds in early November. Older than the fireworks they go with. Cheap, salty and faintly odd, eaten outdoors in the cold.",
+    "listOrder": 9
+  },
+  {
+    "city": "Manchester",
+    "name": "Manchester tart",
+    "description": "Shortcrust with a layer of raspberry jam, thick custard and desiccated coconut on top, often with a glacé cherry. The standard school pudding for generations, now on restaurant menus with a completely straight face.",
+    "listOrder": 10
+  },
+  {
+    "city": "Manchester",
+    "name": "Eccles cake",
+    "description": "A flat round of flaky pastry packed with currants, sugar and butter, the top slashed and sugared. Named for the town nearby and sold in every bakery. Eat it with a slice of crumbly Lancashire cheese, which is not a joke.",
+    "listOrder": 11
+  },
+  {
+    "city": "Manchester",
+    "name": "Vimto",
+    "description": "A dark, sweet cordial of grapes, raspberries, blackcurrants and herbs, invented in Manchester in 1908 as a health tonic and never adequately explained since. Drunk cold and diluted, or hot in winter. There is a statue to it.",
+    "listOrder": 12
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Haggis, neeps and tatties",
+    "description": "Sheep's heart, liver and lungs minced with oats, onion and a lot of pepper, cooked in a casing and served with mashed turnip and potato. Peppery and warm, and far less alarming than the description. Whisky sauce is a modern touch.",
+    "listOrder": 1
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Scotch pie",
+    "description": "A small double-crusted pie of spiced mutton in a stiff hot-water pastry that stands up on its own, with a hollow rim built to hold beans or gravy. Sold at football grounds and bakeries. Eaten in one hand, standing up.",
+    "listOrder": 2
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Cullen skink",
+    "description": "Smoked haddock, potato, onion and milk cooked into a thick soup. Skink is an old word for broth, and Cullen is the fishing village it comes from. Smoky, plain and entirely warming, with bread and butter alongside.",
+    "listOrder": 3
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Stovies",
+    "description": "Potatoes stewed slowly with onion, dripping and yesterday's roast meat until it all collapses together. Made from leftovers, so no two are the same. Served with oatcakes, and at funerals and weddings in vast quantities.",
+    "listOrder": 4
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Arbroath smokie",
+    "description": "Haddock salted, tied in pairs and hot-smoked over hardwood in a barrel until the skin blackens and the flesh cooks through. Protected by law and made only near one Angus town. Eat it warm from the paper, with butter.",
+    "listOrder": 5
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Scotch broth",
+    "description": "Barley, root vegetables and lamb or beef simmered until thick enough to stand a spoon in. Less a starter than a meal that admits what it is. Every household version differs and every one is described as the correct one.",
+    "listOrder": 6
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Lorne sausage",
+    "description": "Sausage meat pressed into a loaf and sliced into squares, so that it fits a square roll exactly — which is the reason it exists. Fried for breakfast and eaten in a morning roll with brown sauce. Nobody else makes it.",
+    "listOrder": 7
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Deep-fried Mars bar",
+    "description": "A chocolate bar chilled, dipped in the batter meant for fish and fried until the inside turns to hot caramel. Invented in an Aberdeenshire chip shop in the 1990s as a joke that got away. Worth doing once, honestly.",
+    "listOrder": 8
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Cranachan",
+    "description": "Toasted oats, raspberries, cream and honey folded together with a slug of whisky and served in a glass. Traditionally a harvest dish. The oats must be toasted and the raspberries Scottish, which is worth the fuss in July.",
+    "listOrder": 9
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Shortbread",
+    "description": "Butter, sugar and flour in a ratio that is mostly butter, baked pale and dense. A good one snaps rather than bends and tastes of cream. Sold in tins to tourists everywhere — buy it from a bakery instead and eat it fresh.",
+    "listOrder": 10
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Tablet",
+    "description": "Sugar, condensed milk and butter boiled and beaten until it sets into a crumbly, grainy block that dissolves rather than chews. Sweeter and harder than fudge. Sold at church sales and school fairs, in slabs, by weight.",
+    "listOrder": 11
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Dundee cake",
+    "description": "A rich fruit cake soaked in whisky and topped with concentric rings of blanched almonds, made without cherries by tradition. It began with a marmalade maker using up bitter orange peel. Keeps for months, improves for weeks.",
+    "listOrder": 12
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Porridge",
+    "description": "Oats cooked slowly in water with salt — not milk, not sugar, if you follow the old rule — and eaten from a bowl. Scotland lived on this for centuries. There is a world championship for it, held every year in Carrbridge.",
+    "listOrder": 13
+  },
+  {
+    "city": "Edinburgh",
+    "name": "Whisky",
+    "description": "Single malt comes from one distillery, blended from many. Drunk neat or with a splash of water, which opens it up; ice is considered waste. Ask for a dram and describe what you like — smoky, sweet, coastal — rather than a brand.",
+    "listOrder": 14
+  },
+  {
+    "city": "Dublin",
+    "name": "Coddle",
+    "description": "Sausages and rashers of bacon simmered pale with potato and onion in their own stock, never browned. A Dublin dish and only a Dublin dish, built from whatever needed using up before Friday. Ugly, soft, and deeply comforting.",
+    "listOrder": 1
+  },
+  {
+    "city": "Dublin",
+    "name": "Full Irish breakfast",
+    "description": "Bacon, sausage, egg, tomato and both black and white pudding, with fried soda bread alongside. White pudding is the same as black without the blood. Tea is not optional, and it is served all day, everywhere.",
+    "listOrder": 2
+  },
+  {
+    "city": "Dublin",
+    "name": "Soda bread",
+    "description": "Bread leavened with baking soda and buttermilk rather than yeast, so it goes from bowl to oven in minutes. A cross is cut in the top to help it rise. Brown and dense or white and cakey; both want butter and salt.",
+    "listOrder": 3
+  },
+  {
+    "city": "Dublin",
+    "name": "Irish stew",
+    "description": "Lamb or mutton with potato, onion and carrot simmered in water alone — no stock, no browning, no wine. The plainness is the recipe. Barley thickens it in some kitchens, an argument you can start deliberately.",
+    "listOrder": 4
+  },
+  {
+    "city": "Dublin",
+    "name": "Boxty",
+    "description": "A pancake made from both grated raw and mashed cooked potato, fried on a griddle until crisp outside and dense within. An old rhyme says a woman who cannot make it will never marry. Served rolled around meat, or at breakfast.",
+    "listOrder": 5
+  },
+  {
+    "city": "Dublin",
+    "name": "Colcannon",
+    "description": "Mashed potato beaten with kale or cabbage and scallions, with a well of melted butter in the middle. Eaten at Halloween with charms hidden inside to tell fortunes. The butter is not a garnish — it is the reason to eat it.",
+    "listOrder": 6
+  },
+  {
+    "city": "Dublin",
+    "name": "Bacon and cabbage",
+    "description": "A boiled joint of cured bacon with cabbage cooked in the same salty water and potatoes alongside, usually under parsley sauce. This is what corned beef and cabbage was before it emigrated to America and changed meat.",
+    "listOrder": 7
+  },
+  {
+    "city": "Dublin",
+    "name": "Dublin Bay prawns",
+    "description": "Langoustines from the Irish Sea, small and sweet, split and grilled with garlic butter or served cold with mayonnaise. Most of the catch is exported, which is why eating them here is worth doing on purpose.",
+    "listOrder": 8
+  },
+  {
+    "city": "Dublin",
+    "name": "Oysters",
+    "description": "Native flat oysters from the west coast, briny and faintly metallic, eaten raw with lemon and brown bread. The traditional pairing is with stout, which sounds wrong and is not. September to April, while the water is cold.",
+    "listOrder": 9
+  },
+  {
+    "city": "Dublin",
+    "name": "Smoked salmon",
+    "description": "Salmon cured in salt and cold-smoked over oak or beech, sliced thin onto brown bread with lemon and pepper. Irish smokehouses cure it less sweetly than the Scottish style. Ask which smokehouse it came from; they will know.",
+    "listOrder": 10
+  },
+  {
+    "city": "Dublin",
+    "name": "Spice bag",
+    "description": "Chips, shredded salt-and-chili chicken, fried peppers and onions tossed with spice mix and served in a paper bag. Invented in a Dublin Chinese takeaway around 2010 and now everywhere. The newest Irish national dish.",
+    "listOrder": 11
+  },
+  {
+    "city": "Dublin",
+    "name": "Crubeens",
+    "description": "Boiled pig's trotters, sometimes crumbed and fried, eaten with your hands beside a pint. Pub food from when nothing was thrown out. Mostly gone now, kept alive by a few places doing it deliberately. Sticky, salty, mostly gelatin.",
+    "listOrder": 12
+  },
+  {
+    "city": "Dublin",
+    "name": "Barmbrack",
+    "description": "A dark tea-soaked fruit loaf, sliced and buttered, with a ring baked inside at Halloween — whoever finds it is said to marry within the year. The name comes from the Irish for speckled bread. Sold all year, eaten in autumn.",
+    "listOrder": 13
+  },
+  {
+    "city": "Dublin",
+    "name": "Guinness",
+    "description": "Dry stout poured in two stages with a rest between, which is why it takes nearly two minutes. Roasted barley makes it bitter rather than sweet, and it is served cool rather than cold. It genuinely does taste different here.",
+    "listOrder": 14
   }
 ]
