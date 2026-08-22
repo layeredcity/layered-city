@@ -258,7 +258,13 @@ function FoodItem({ food, cityName }) {
         <div className="food-item__img food-item__img--placeholder">{TYPE_ICONS.food}</div>
       )}
       <div className="food-item__body">
-        <div className="food-item__name">{food.name}</div>
+        {/* Most dishes carry only their local name, because that is what English
+            speakers say — bitterballen, stroopwafel. Where a traveler is more
+            likely to meet it in English, that leads and the local name follows. */}
+        <div className="food-item__name">
+          {food.englishName || food.name}
+          {food.englishName && <span className="food-item__name-local">({food.name})</span>}
+        </div>
         <div className="food-item__desc">{food.description}</div>
         <a
           className="food-item__map"

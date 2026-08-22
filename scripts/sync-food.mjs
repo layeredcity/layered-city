@@ -4,9 +4,9 @@
 //   node scripts/sync-food.mjs --dry-run   # report what would change
 //   node scripts/sync-food.mjs             # apply
 //
-// Matches on dish name, and only ever writes description, neighborhood and
-// order — never the name itself and never the image, so illustrations added in
-// Contentful are safe.
+// Matches on dish name, and only ever writes description, English name,
+// neighborhood and order — never the local name itself and never the image, so
+// illustrations added in Contentful are safe.
 // Entries already matching are skipped, so this is safe to re-run.
 import fs from 'fs'
 import { join, dirname } from 'path'
@@ -80,7 +80,9 @@ for (const e of entries) {
   const descChanged = want.description && curDesc !== want.description
   const curHood = e.fields.foodNeighborhood?.[LOCALE] ?? ''
   const hoodChanged = (want.neighborhood || '') !== curHood
-  if (orderChanged || descChanged || hoodChanged) changes.push({ entry: e, name, want, orderChanged, descChanged, hoodChanged, curOrder, curHood })
+  const curEng = e.fields.foodEnglishName?.[LOCALE] ?? ''
+  const engChanged = (want.englishName || '') !== curEng
+  if (orderChanged || descChanged || hoodChanged || engChanged) changes.push({ entry: e, name, want, orderChanged, descChanged, hoodChanged, engChanged, curOrder, curHood, curEng })
 }
 
 if (!changes.length) { console.log('✓ Contentful already matches food.json — nothing to do.'); process.exit(0) }
@@ -91,6 +93,7 @@ for (const c of changes) {
   if (c.orderChanged) bits.push(`order ${c.curOrder ?? '—'} → ${c.want.listOrder}`)
   if (c.descChanged) bits.push('description rewritten')
   if (c.hoodChanged) bits.push(`neighborhood ${c.curHood || '—'} → ${c.want.neighborhood || '—'}`)
+  if (c.engChanged) bits.push(`english name ${c.curEng || '—'} → ${c.want.englishName || '—'}`)
   console.log(`   ${c.name}: ${bits.join(', ')}`)
 }
 if (DRY_RUN) { console.log('\n(dry run — nothing was written)'); process.exit(0) }
@@ -104,6 +107,10 @@ for (const c of changes) {
   if (c.hoodChanged) {
     if (c.want.neighborhood) fields.foodNeighborhood = { ...(fields.foodNeighborhood || {}), [LOCALE]: c.want.neighborhood }
     else delete fields.foodNeighborhood
+  }
+  if (c.engChanged) {
+    if (c.want.englishName) fields.foodEnglishName = { ...(fields.foodEnglishName || {}), [LOCALE]: c.want.englishName }
+    else delete fields.foodEnglishName
   }
   const res = await cma(`/entries/${c.entry.sys.id}`, {
     method: 'PUT',

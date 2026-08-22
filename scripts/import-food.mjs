@@ -122,6 +122,7 @@ for (const d of dishes) {
     relatedCity: { [LOCALE]: link(cityId[d.city]) },
   }
   if (d.listOrder != null) fields.listOrder = { [LOCALE]: d.listOrder }
+  if (d.englishName) fields.foodEnglishName = { [LOCALE]: d.englishName }
 
   const res = await cma('/entries', {
     method: 'POST',

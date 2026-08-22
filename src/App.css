@@ -290,6 +290,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .food-item__img--placeholder svg { width: 28px; height: 28px; display: block; color: var(--ink-xlight); }
 .food-item__body { flex: 1; min-width: 0; }
 .food-item__name { font-size: 16px; font-weight: 500; color: var(--ink); line-height: 1.35; }
+.food-item__name-local { display: block; font-weight: 400; color: var(--ink-light); }
 .food-item__desc { font-size: 12px; color: #4A443E; line-height: 1.5; margin-top: 5px; }
 /* The only interactive thing in an otherwise static list, so it gets the accent
    colour that the neighbourhood label gave up. */

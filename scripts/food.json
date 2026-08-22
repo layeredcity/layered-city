@@ -2469,13 +2469,15 @@
     "city": "Amsterdam",
     "name": "Haring",
     "description": "Raw herring cured lightly in salt, served with chopped onion and pickle and eaten by holding it up by the tail. The new season's fish arrives in June and is fattest then. Not fishy at all — sweet, soft and clean.",
-    "listOrder": 1
+    "listOrder": 1,
+    "englishName": "Raw herring"
   },
   {
     "city": "Amsterdam",
     "name": "Broodje kroket",
     "description": "A deep-fried roll of thick beef ragout, breaded and hot enough to burn you, in a soft white bun with mustard. The bread does nothing but hold it. Sold from vending machine walls, which is genuinely the best way.",
-    "listOrder": 2
+    "listOrder": 2,
+    "englishName": "Croquette sandwich"
   },
   {
     "city": "Amsterdam",
@@ -2487,7 +2489,8 @@
     "city": "Amsterdam",
     "name": "Patat oorlog",
     "description": "Fries with mayonnaise, spiced peanut sauce and raw onion piled on together — the name means war, for how it looks. The peanut sauce arrived through Indonesia and colonial history. Eaten with a small plastic fork.",
-    "listOrder": 4
+    "listOrder": 4,
+    "englishName": "War fries"
   },
   {
     "city": "Amsterdam",
@@ -2505,13 +2508,15 @@
     "city": "Amsterdam",
     "name": "Erwtensoep",
     "description": "Split pea soup cooked with pork until a spoon will stand up in it, with smoked sausage sliced through. Also called snert. Traditionally eaten after skating on frozen canals, and only correct when genuinely thick.",
-    "listOrder": 7
+    "listOrder": 7,
+    "englishName": "Split pea soup"
   },
   {
     "city": "Amsterdam",
     "name": "Rijsttafel",
     "description": "A dozen or more small Indonesian dishes served at once around rice — satay, rendang, sambals, pickles, fried banana. Invented by Dutch colonists to display the range of Javanese cooking. A meal that takes hours.",
-    "listOrder": 8
+    "listOrder": 8,
+    "englishName": "Rice table"
   },
   {
     "city": "Amsterdam",
@@ -2523,7 +2528,8 @@
     "city": "Amsterdam",
     "name": "Poffertjes",
     "description": "Small spongy pancakes made with buckwheat and yeast, cooked in a dimpled pan and served under butter and powdered sugar by the dozen. Eaten hot at winter markets with a tiny fork. Lighter than pancakes should be.",
-    "listOrder": 10
+    "listOrder": 10,
+    "englishName": "Mini pancakes"
   },
   {
     "city": "Amsterdam",
@@ -2535,19 +2541,22 @@
     "city": "Amsterdam",
     "name": "Appeltaart",
     "description": "A tall apple cake with thick pastry and a cinnamon-heavy filling, wedged with whipped cream and eaten with coffee in the afternoon. Denser and less sweet than the American pie, and ordered by the slab.",
-    "listOrder": 12
+    "listOrder": 12,
+    "englishName": "Dutch apple pie"
   },
   {
     "city": "Amsterdam",
     "name": "Hagelslag",
     "description": "Chocolate sprinkles eaten on buttered bread at breakfast, by adults, entirely without embarrassment. The butter is what makes them stick. The supermarket aisle for this is longer than the one for cereal.",
-    "listOrder": 13
+    "listOrder": 13,
+    "englishName": "Chocolate sprinkles"
   },
   {
     "city": "Amsterdam",
     "name": "Oliebollen",
     "description": "Deep-fried dough balls with raisins, buried in powdered sugar, sold from trailers that appear in December and vanish in January. Eaten outdoors at New Year in the cold. Better than a doughnut, and gone by the 2nd.",
-    "listOrder": 14
+    "listOrder": 14,
+    "englishName": "Dutch doughnuts"
   },
   {
     "city": "Amsterdam",

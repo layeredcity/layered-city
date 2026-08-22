@@ -44,6 +44,7 @@ export async function fetchFoodsForCity(cityId) {
       return {
         id: item.sys.id,
         name: f.foodName,
+        englishName: f.foodEnglishName || null,
         description: f.foodDescription,
         listOrder: f.listOrder ?? null,
         image: f.foodImage?.fields?.file?.url
