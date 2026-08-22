@@ -184,5 +184,257 @@
     "name": "Wiener Melange",
     "description": "Espresso lengthened with hot milk and capped with foam, closer to a cappuccino than to anything American. It arrives on a silver tray with a glass of water, refilled as long as you sit. The coffeehouse habit itself is UNESCO-listed.",
     "listOrder": 15
+  },
+  {
+    "city": "Budapest",
+    "name": "Gulyás",
+    "description": "The real thing is a soup, not a stew: beef, onion, potato and a great deal of paprika, thin enough to drink, traditionally cooked outdoors in a kettle over fire. What English calls goulash is closer to Hungary's pörkölt. Order it as a first course.",
+    "listOrder": 1
+  },
+  {
+    "city": "Budapest",
+    "name": "Lángos",
+    "description": "A disc of yeasted dough deep-fried until it blisters, rubbed with garlic water and buried under sour cream and grated cheese. Market and beach food, sold from stands and eaten with both hands. Get it the moment it leaves the fryer.",
+    "listOrder": 2
+  },
+  {
+    "city": "Budapest",
+    "name": "Paprikás csirke",
+    "description": "Chicken stewed in onion and sweet paprika, finished with enough sour cream to turn the sauce orange and silky. Served with nokedli, small torn egg dumplings that exist to mop it up. Hungary's gentlest paprika dish and its most homely.",
+    "listOrder": 3
+  },
+  {
+    "city": "Budapest",
+    "name": "Zsíros kenyér",
+    "description": "A slab of bread spread with pork lard, showered with sweet paprika and topped with raw onion rings. Peasant food that the ruin bars kept alive as something to eat while drinking. Salty, rich, and completely convincing after the second beer.",
+    "listOrder": 4
+  },
+  {
+    "city": "Budapest",
+    "name": "Halászlé",
+    "description": "Fisherman's soup, blazing red with hot paprika, made from river carp and cooked down until it stains the spoon. A Christmas Eve dish in most homes and a riverside one the rest of the year. Sweat through it with white bread.",
+    "listOrder": 5
+  },
+  {
+    "city": "Budapest",
+    "name": "Töltött káposzta",
+    "description": "Cabbage leaves rolled around pork and rice, simmered for hours with sauerkraut and smoked meat, served under a spoon of sour cream. Better on the second day, which is why families make vats of it. Winter food that outlasts winter.",
+    "listOrder": 6
+  },
+  {
+    "city": "Budapest",
+    "name": "Főzelék",
+    "description": "A thick vegetable stew — peas, lentils, squash, spinach — somewhere between a soup and a side, thickened with flour and sour cream. The everyday Hungarian lunch nobody puts on a postcard. Eaten with a fried egg or a sausage on top.",
+    "listOrder": 7
+  },
+  {
+    "city": "Budapest",
+    "name": "Hortobágyi palacsinta",
+    "description": "Thin pancakes rolled around minced veal, laid in a paprika and sour cream sauce and baked. A savory starter that looks like dessert and confuses every first-time visitor. Named for the grass plains east of the city.",
+    "listOrder": 8
+  },
+  {
+    "city": "Budapest",
+    "name": "Velőscsont",
+    "description": "Roasted beef marrow bones served with toast, coarse salt and a narrow spoon for digging. Traditionally eaten alongside gulyás, spread thick on the bread. Rich to the point of absurdity — one bone is plenty, and markets serve it before noon.",
+    "listOrder": 9
+  },
+  {
+    "city": "Budapest",
+    "name": "Dobos torta",
+    "description": "Five thin sponge layers stacked with chocolate buttercream under a sheet of hard caramel that cracks when the fork goes in. Invented in 1885, when that caramel lid was a trick for keeping a cake fresh without refrigeration.",
+    "listOrder": 10
+  },
+  {
+    "city": "Budapest",
+    "name": "Somlói galuska",
+    "description": "Three kinds of sponge soaked in rum and layered with walnuts, chocolate sauce, raisins and whipped cream until it collapses into itself. A trifle with no structural ambition. Order it when you have already eaten too much.",
+    "listOrder": 11
+  },
+  {
+    "city": "Budapest",
+    "name": "Gundel palacsinta",
+    "description": "Crepes filled with ground walnuts, raisins and rum under dark chocolate sauce, flamed at the table. Created at the Gundel restaurant in 1894 and copied everywhere since. The walnut filling, not the fire, is the actual point.",
+    "listOrder": 12
+  },
+  {
+    "city": "Budapest",
+    "name": "Kürtőskalács",
+    "description": "Sweet dough wound around a spit and rolled in sugar that caramelizes over coals into a crackling shell, then unwound in a spiral as you eat it. Transylvanian by origin, sold at every market. Cinnamon is the only topping worth having.",
+    "listOrder": 13
+  },
+  {
+    "city": "Budapest",
+    "name": "Hideg meggyleves",
+    "description": "Chilled sour cherry soup, thickened with sour cream and scented with clove and cinnamon, served as a first course rather than a dessert. Cold, pink and startling on a hot day. Summer only, while the cherries are in.",
+    "listOrder": 14
+  },
+  {
+    "city": "Budapest",
+    "name": "Unicum",
+    "description": "A squat black bottle of herbal bitters, forty-odd herbs aged in oak, tasting of licorice and burnt orange. Made by the same Budapest family since 1790, apart from the decades they spent in exile with the recipe. Drink it cold, after dinner.",
+    "listOrder": 15
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Pylsur",
+    "description": "An Icelandic hot dog, mostly lamb, snapping in a soft bun under raw and crisp fried onions, ketchup, sweet brown mustard and remoulade. Ask for eina með öllu — one with everything. The harbor stand has sold them since 1937.",
+    "listOrder": 1
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Plokkfiskur",
+    "description": "Boiled white fish and potato mashed together with butter, milk and onion into something between a stew and a mash. Nursery food, invented to use up yesterday's catch and still cooked weekly at home. Eat it on dark rye with butter.",
+    "listOrder": 2
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Kjötsúpa",
+    "description": "Lamb on the bone simmered with potato, carrot, rutabaga and herbs into a clear, plain, restorative soup. Iceland's answer to its weather. Nothing about it is fancy, and everyone has a grandmother whose version was better.",
+    "listOrder": 3
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Skyr",
+    "description": "Thick, tart, almost chalky cultured dairy Icelanders have eaten for a thousand years — technically a soft cheese rather than a yogurt, though nobody will correct you. Eaten with milk and sugar, or straight from the tub at a bus stop.",
+    "listOrder": 4
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Rúgbrauð",
+    "description": "Dense, dark, faintly sweet rye baked slowly underground using geothermal heat, which earns it the nickname thunder bread. Sliced thin and buttered heavily, usually under smoked fish. Sweeter than any rye bread you have had before.",
+    "listOrder": 5
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Humar",
+    "description": "Langoustines, called lobster here although they are neither — smaller and sweeter, usually split and grilled in garlic butter or turned into a thick bisque. The best come from the southeast coast. Expensive, and worth it once.",
+    "listOrder": 6
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Hangikjöt á flatkökum",
+    "description": "Lamb smoked over birch and, traditionally, dried sheep dung, sliced cold onto flatkaka: a soft rye flatbread cooked dark on a griddle. Christmas food that shops sell all year. Salty, smoky, and the most Icelandic thing you can hold.",
+    "listOrder": 7
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Harðfiskur",
+    "description": "Cod or haddock hung in the sea wind until it dries into stiff, protein-dense sheets, torn into strips and eaten under a thick layer of butter. Sold in every supermarket as a snack. Smells alarming, tastes clean and faintly sweet.",
+    "listOrder": 8
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Hákarl",
+    "description": "Greenland shark buried, fermented and hung for months, which is what makes it edible — fresh, the meat is poisonous. Ammonia on the nose, oily on the tongue, served in cubes with a toothpick. A dare, honestly, and chased with schnapps.",
+    "listOrder": 9
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Kleina",
+    "description": "A knot of cardamom-scented dough fried in fat, crisp outside and dense within. The bakery item every Icelandic household keeps in a tin, and the thing offered the moment you sit down. Not sweet enough to be a doughnut, which is the point.",
+    "listOrder": 10
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Bragðarefur",
+    "description": "Soft-serve blended with candy, cookies or fruit into a thick swirl, eaten year-round in defiance of the weather — Icelanders line up for ice cream in February. The name means trickster fox. Pick two mix-ins and regret nothing.",
+    "listOrder": 11
+  },
+  {
+    "city": "Reykjavík",
+    "name": "Brennivín",
+    "description": "Clear caraway schnapps, unsweetened and blunt, nicknamed black death for the old black label. Drunk cold in a shot beside fermented shark, on the theory that each makes the other survivable. Iceland's only real spirit tradition.",
+    "listOrder": 12
+  },
+  {
+    "city": "Naples",
+    "name": "Pizza margherita",
+    "description": "Tomato, buffalo mozzarella, basil and nothing else, baked ninety seconds in a wood oven until the rim blisters black and the center stays soupy. Naples invented this and protects it by law. Fold it in quarters if you are standing.",
+    "listOrder": 1
+  },
+  {
+    "city": "Naples",
+    "name": "Cuoppo",
+    "description": "A paper cone of whatever the fryer has going — anchovies, squid, zucchini flowers, rice balls — handed over scalding and eaten while walking. Street food in its purest form. Salt it yourself and do not ask what everything is.",
+    "listOrder": 2
+  },
+  {
+    "city": "Naples",
+    "name": "Ragù napoletano",
+    "description": "Not a meat sauce but whole cuts of beef and pork collapsed into tomato over five or six hours until the sauce goes dark and the meat falls apart. Sunday cooking. The pasta arrives first, the meat after it, as a second course.",
+    "listOrder": 3
+  },
+  {
+    "city": "Naples",
+    "name": "Frittatina di pasta",
+    "description": "A fistful of cooked pasta bound with béchamel, peas and ham, breaded and deep-fried into a crisp puck. Invented for leftovers, now sold at every fry shop and pizzeria counter. Eat it standing, before it cools and turns solid.",
+    "listOrder": 4
+  },
+  {
+    "city": "Naples",
+    "name": "Genovese",
+    "description": "Beef and an enormous quantity of onions cooked down for hours into a sweet, brown, almost jam-like sauce for thick ziti. Despite the name it is entirely Neapolitan, and nobody in Genoa has heard of it. Ask for extra black pepper.",
+    "listOrder": 5
+  },
+  {
+    "city": "Naples",
+    "name": "Pizza fritta",
+    "description": "Pizza dough stuffed with ricotta, pork cracklings and tomato, sealed and deep-fried into a puffed golden pillow. Postwar food from years when ovens and money were both scarce. Cheaper than baked pizza and, on a cold day, better.",
+    "listOrder": 6
+  },
+  {
+    "city": "Naples",
+    "name": "Spaghetti alle vongole",
+    "description": "Small clams opened in olive oil, garlic and white wine, tossed with spaghetti and their own briny liquid, parsley over the top, cheese never. Ask for it with veraci, the tiny local clams, and use bread on the plate afterward.",
+    "listOrder": 7
+  },
+  {
+    "city": "Naples",
+    "name": "Mozzarella di bufala",
+    "description": "Made from water buffalo milk in the flatlands north of the city and sold the day it is made, still warm at the best counters. Torn open, it should weep whey. Nothing like the rubbery blocks sold abroad under the same name.",
+    "listOrder": 8
+  },
+  {
+    "city": "Naples",
+    "name": "Pasta e patate con provola",
+    "description": "Pasta and potatoes cooked in one pot until the starch turns it thick and almost gluey, with smoked provola stirred in at the end so it pulls into strings. Poverty cooking, and the dish Neapolitans actually crave when away.",
+    "listOrder": 9
+  },
+  {
+    "city": "Naples",
+    "name": "Parmigiana di melanzane",
+    "description": "Fried eggplant layered with tomato, basil and cheese and baked until the edges caramelize. Three regions claim to have invented it and the argument is unresolved. Best at room temperature the next day, which is how families serve it.",
+    "listOrder": 10
+  },
+  {
+    "city": "Naples",
+    "name": "Taralli 'nzogna e pepe",
+    "description": "Dense savory rings made with lard, black pepper and whole almonds — nothing like the sweet kind. Bought by the bag along the seafront and eaten with cold beer while looking at the bay. The pepper heat builds slowly.",
+    "listOrder": 11
+  },
+  {
+    "city": "Naples",
+    "name": "Sfogliatella",
+    "description": "A shell of paper-thin pastry layers, ridged like a fan, filled with ricotta, semolina and candied citrus. Riccia is the crisp version, frolla the soft one. Buy it hot in the morning, while the shell still shatters when you bite.",
+    "listOrder": 12
+  },
+  {
+    "city": "Naples",
+    "name": "Babà",
+    "description": "A tall mushroom of yeasted cake soaked in rum syrup until it is heavy and dripping. Brought south by French cooks at the Bourbon court and adopted completely. A good one is saturated rather than soggy, and needs no cream.",
+    "listOrder": 13
+  },
+  {
+    "city": "Naples",
+    "name": "Pastiera",
+    "description": "A lattice-topped tart of ricotta and cooked wheat berries scented with orange flower water, made for Easter and eaten for days afterward. The wheat is the point: a spring symbol far older than the holiday it now belongs to.",
+    "listOrder": 14
+  },
+  {
+    "city": "Naples",
+    "name": "Caffè napoletano",
+    "description": "Espresso pulled short and strong, and sweetened before it reaches you unless you say otherwise, drunk standing at the bar in one swallow. Ask about the caffè sospeso — the habit of paying for a second cup a stranger can claim.",
+    "listOrder": 15
   }
 ]
