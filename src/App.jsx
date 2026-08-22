@@ -851,8 +851,10 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
       <StoryIcon story={story} omdbData={omdbData} bookData={bookData} />
       <div className="story-item__body">
         <div className={'story-item__title' + (isTour ? ' story-item__title--tour' : '')}>{(() => {
+          // Original-language title on its own line, lighter — the same
+          // treatment the food rows give a dish's local name.
           const i = isMovieOrTV ? story.title.indexOf(' (') : -1
-          return i === -1 ? story.title : <>{story.title.slice(0, i)}<br />{story.title.slice(i + 1)}</>
+          return i === -1 ? story.title : <>{story.title.slice(0, i)}<br /><span className="story-item__title-local">{story.title.slice(i + 1)}</span></>
         })()}</div>
         {(t === 'music' || isBook || isTour) ? (
           <>

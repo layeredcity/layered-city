@@ -303,6 +303,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* Tour titles are often long; let them wrap to as many lines as they need
    rather than clamp to two. Tours only — every other type keeps the clamp. */
 .story-item__title--tour { display: block; -webkit-line-clamp: none; overflow: visible; }
+.story-item__title-local { font-weight: 400; color: var(--ink-light); }
 .story-item__meta { display: flex; align-items: center; gap: 6px; margin-top: 5px; flex-wrap: wrap; }
 .story-item__type { font-size: 12px; font-weight: 600; color: var(--accent); }
 .story-item__source { font-size: 12px; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
