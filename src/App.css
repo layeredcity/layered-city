@@ -291,10 +291,6 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .food-item__body { flex: 1; min-width: 0; }
 .food-item__name { font-size: 16px; font-weight: 500; color: var(--ink); line-height: 1.35; }
 .food-item__desc { font-size: 12px; color: #4A443E; line-height: 1.5; margin-top: 5px; }
-/* One step lighter than the description, so the row reads name > description >
-   neighborhood rather than pulling the eye to the metadata. */
-.food-item__hood { font-size: 12px; color: var(--ink-light); margin-top: 6px; }
-.food-item__hood-label { font-weight: 600; }
 /* The only interactive thing in an otherwise static list, so it gets the accent
    colour that the neighbourhood label gave up. */
 .food-item__map { display: inline-flex; align-items: center; gap: 4px; margin-top: 7px; font-size: 12px; font-weight: 600; color: var(--accent); text-decoration: none; }
