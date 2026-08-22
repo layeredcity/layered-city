@@ -241,6 +241,13 @@ function FoodItem({ food }) {
       <div className="food-item__body">
         <div className="food-item__name">{food.name}</div>
         <div className="food-item__desc">{food.description}</div>
+        {/* Only dishes with a real answer carry this. Plenty are eaten all over
+            the city, and those stay blank rather than saying "citywide". */}
+        {food.neighborhood && (
+          <div className="food-item__hood">
+            <span className="food-item__hood-label">Best neighborhood</span> {food.neighborhood}
+          </div>
+        )}
       </div>
     </div>
   )

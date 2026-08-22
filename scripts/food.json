@@ -3,7 +3,8 @@
     "city": "Lisbon",
     "name": "Pastel de nata",
     "description": "Warm custard tart in shatter-crisp pastry, the top blistered almost black. When Portugal shut down its monasteries in 1834, the monks sold these to survive; the original bakery still guards the recipe. Eat it standing, minutes out of the oven.",
-    "listOrder": 1
+    "listOrder": 1,
+    "neighborhood": "Belém"
   },
   {
     "city": "Lisbon",
@@ -21,7 +22,8 @@
     "city": "Lisbon",
     "name": "Bacalhau à Brás",
     "description": "Shredded salt cod tangled with matchstick fries and onion, loosely bound in barely-set egg, black olives and parsley on top. Named for the Lisbon tavern keeper who invented it. It should be creamy — if it is firm like an omelet, it sat too long.",
-    "listOrder": 4
+    "listOrder": 4,
+    "neighborhood": "Bairro Alto"
   },
   {
     "city": "Lisbon",
@@ -33,7 +35,8 @@
     "city": "Lisbon",
     "name": "Sardinhas assadas",
     "description": "Whole oily sardines charred over coals, fattest and best from June to August. During the Santo António street festivals in June, the Alfama quarter fills with grills and smoke. Eat them with your fingers off a slice of bread — then eat the bread.",
-    "listOrder": 6
+    "listOrder": 6,
+    "neighborhood": "Alfama"
   },
   {
     "city": "Lisbon",
@@ -75,18 +78,21 @@
     "city": "Lisbon",
     "name": "Iscas com elas",
     "description": "Pork liver marinated in wine, vinegar and garlic, then flash-fried — with them means the boiled potatoes alongside. Old Lisbon food from when organ meat was the cheap cut. Sour, iron-rich, strong. Order it where the tablecloths are paper.",
-    "listOrder": 13
+    "listOrder": 13,
+    "neighborhood": "Mouraria"
   },
   {
     "city": "Lisbon",
     "name": "Travesseiro de Sintra",
     "description": "A sugar-dusted puff-pastry pillow filled with almond and egg cream, baked at the Piriquita bakery since 1862 and worth the train ride to Sintra. Eat one hot while the line is out the door, then take home a box of queijadas, small cheese tarts.",
-    "listOrder": 14
+    "listOrder": 14,
+    "neighborhood": "Sintra"
   },
   {
     "city": "Lisbon",
     "name": "Ginjinha",
     "description": "Sour-cherry liqueur, sweet and sticky, poured at stand-up counters since 1840. Ask for it com elas — with them — and the boozy cherries come in the glass. A euro or so, one shot, drunk on the sidewalk. A pre-dinner ritual, not a dessert.",
-    "listOrder": 15
+    "listOrder": 15,
+    "neighborhood": "Rossio"
   }
 ]
