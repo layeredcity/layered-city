@@ -94,5 +94,95 @@
     "description": "Sour-cherry liqueur, sweet and sticky, poured at stand-up counters since 1840. Ask for it com elas — with them — and the boozy cherries come in the glass. A euro or so, one shot, drunk on the sidewalk. A pre-dinner ritual, not a dessert.",
     "listOrder": 15,
     "neighborhood": "Rossio"
+  },
+  {
+    "city": "Vienna",
+    "name": "Wiener Schnitzel",
+    "description": "A veal cutlet pounded thin, breaded, and fried in butter until the crust puffs away from the meat in a golden blister. Austrian law reserves the name for veal; pork versions must say so. Squeeze the lemon, eat it with potato salad, skip the sauce.",
+    "listOrder": 1
+  },
+  {
+    "city": "Vienna",
+    "name": "Käsekrainer",
+    "description": "A fat pork sausage shot through with molten cheese, split and handed over at sidewalk stands with mustard, a bread roll and grated horseradish. The affectionate Viennese nickname translates as the pus-filled one. This is what the city eats at 2 a.m.",
+    "listOrder": 2
+  },
+  {
+    "city": "Vienna",
+    "name": "Frittatensuppe",
+    "description": "Clear beef broth with thin pancakes sliced into ribbons and dropped in at the last moment, so they soften without falling apart. The cheapest honest lunch in any Beisl, the wood-paneled neighborhood taverns where Vienna actually eats.",
+    "listOrder": 3
+  },
+  {
+    "city": "Vienna",
+    "name": "Zwiebelrostbraten",
+    "description": "Sirloin under a heap of crisp fried onions in dark gravy loosened with beer, fried potatoes alongside. A tavern standard since the 1800s, when onions were how you made a small piece of beef feed a whole table. Ask for it medium at most.",
+    "listOrder": 4
+  },
+  {
+    "city": "Vienna",
+    "name": "Tafelspitz",
+    "description": "Beef simmered until a spoon goes through it, brought to the table in its own copper pot of broth with apple-horseradish and a chive sauce. Emperor Franz Joseph ate it nearly every day for 68 years. Drink the broth first, then eat the meat.",
+    "listOrder": 5
+  },
+  {
+    "city": "Vienna",
+    "name": "Krautfleckerl",
+    "description": "Squares of egg pasta tossed with cabbage cooked slowly in sugar and pork fat until it caramelizes almost black at the edges. Poor-kitchen cooking that stayed on menus because it tastes far better than it sounds. Pepper it heavily. A winter dish.",
+    "listOrder": 6
+  },
+  {
+    "city": "Vienna",
+    "name": "Wiener Saftgulasch",
+    "description": "Vienna's answer to Hungarian goulash, and a different dish entirely: no vegetables, no soup, just beef and its own weight in onions cooked down to a thick paprika gravy. The Fiaker version arrives with a fried egg and a sausage on top.",
+    "listOrder": 7
+  },
+  {
+    "city": "Vienna",
+    "name": "Brettljause",
+    "description": "A wooden board of cured pork, blood sausage, pickles, black bread and Liptauer, a paprika-spiked cheese spread. This is the food of a Heuriger, the taverns on the city edge where wine growers pour their own vintage. Order a spritzer and stay.",
+    "listOrder": 8
+  },
+  {
+    "city": "Vienna",
+    "name": "Beuschel",
+    "description": "Veal lungs and heart cooked down with root vegetables into a fine sour ragout, sharpened with vinegar and capers and served with a bread dumpling. Organ meat, and the dish old Viennese cooking is proudest of. Order it where the menu is German only.",
+    "listOrder": 9
+  },
+  {
+    "city": "Vienna",
+    "name": "Sachertorte",
+    "description": "Dense chocolate cake with a seam of apricot jam under a hard chocolate glaze, invented in 1832 by a sixteen-year-old apprentice. The hotel and the bakery that both claim it fought a seven-year lawsuit over the name. Plain whipped cream is not optional.",
+    "listOrder": 10
+  },
+  {
+    "city": "Vienna",
+    "name": "Kaiserschmarrn",
+    "description": "A thick pancake torn into pieces in the pan, caramelized in butter and sugar, buried under powdered sugar and served with stewed plums. Named for Emperor Franz Joseph. Austrians order it as a main course at lunch, and so should you.",
+    "listOrder": 11
+  },
+  {
+    "city": "Vienna",
+    "name": "Apfelstrudel",
+    "description": "Apples, raisins, cinnamon and buttered breadcrumbs rolled in pastry stretched so thin a baker is supposed to read a newspaper through it. The layering technique arrived with the Ottomans. Eat it warm, with vanilla sauce rather than cream.",
+    "listOrder": 12
+  },
+  {
+    "city": "Vienna",
+    "name": "Buchteln",
+    "description": "Sweet yeast buns baked pressed together in one dish so they tear apart rather than slice, filled with plum jam and served warm under vanilla sauce. Coffeehouse food from the Czech half of the old empire. Best late, straight from the tray.",
+    "listOrder": 13
+  },
+  {
+    "city": "Vienna",
+    "name": "Marillenknödel",
+    "description": "A whole apricot wrapped in potato dough, boiled, then rolled in buttered breadcrumbs and sugar. The fruit stays whole and bursts hot when you cut it. Made with apricots from the Wachau valley upriver, and only worth eating in July and August.",
+    "listOrder": 14
+  },
+  {
+    "city": "Vienna",
+    "name": "Wiener Melange",
+    "description": "Espresso lengthened with hot milk and capped with foam, closer to a cappuccino than to anything American. It arrives on a silver tray with a glass of water, refilled as long as you sit. The coffeehouse habit itself is UNESCO-listed.",
+    "listOrder": 15
   }
 ]

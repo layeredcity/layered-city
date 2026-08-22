@@ -60,13 +60,19 @@ async function allEntries(query) {
 }
 
 const dishes = JSON.parse(fs.readFileSync(FILE, 'utf8'))
-const wanted = new Map(dishes.map(d => [norm(d.name), d]))
+const cities = await allEntries('content_type=city')
+const cityNameById = Object.fromEntries(cities.map(c => [c.sys.id, c.fields.cityName?.[LOCALE]]))
+// Keyed by city + dish: Vienna and Budapest can both list a goulash, and
+// matching on the dish name alone would have one overwrite the other.
+const key = (city, name) => `${norm(city)}::${norm(name)}`
+const wanted = new Map(dishes.map(d => [key(d.city, d.name), d]))
 const entries = await allEntries('content_type=food')
 
 const changes = []
 for (const e of entries) {
   const name = e.fields.foodName?.[LOCALE]
-  const want = wanted.get(norm(name))
+  const city = cityNameById[e.fields.relatedCity?.[LOCALE]?.sys?.id]
+  const want = wanted.get(key(city, name))
   if (!want) continue
   const curOrder = e.fields.listOrder?.[LOCALE] ?? null
   const curDesc = e.fields.foodDescription?.[LOCALE] ?? ''
