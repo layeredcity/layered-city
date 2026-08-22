@@ -277,13 +277,15 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .story-item__icon-book:hover .story-item__icon-poster--book { box-shadow: 4px 3px 14px rgba(0,0,0,0.32); }
 /* Food rows are not clickable — no hover state, no cursor change — because the
    description is already on the row and there is nothing further to open. */
-.food-item { display: flex; align-items: flex-start; gap: 14px; padding: 16px; border-bottom: 1px solid var(--border); }
+/* Tighter padding and gap than a story row, with the reclaimed space handed to
+   the illustration: 10 + 116 + 10 + text + 10 spans exactly what 16 + 100 + 14
+   + text + 16 did, so the art grows without the copy losing a pixel. */
+.food-item { display: flex; align-items: flex-start; gap: 10px; padding: 16px 10px; border-bottom: 1px solid var(--border); }
 /* The illustrations are transparent PNGs, so they sit straight on the panel —
    no plate, no shadow, no crop. `contain` rather than `cover` because these are
-   drawings that must not be cut off at the edges. */
-/* Nudged up: the drawings carry transparent space at the top, so aligning the
-   image box to the row top makes the art itself sit low against the dish name. */
-.food-item__img { width: 100px; height: 100px; object-fit: contain; flex-shrink: 0; margin-top: -20px; }
+   drawings that must not be cut off at the edges. Nudged up because the drawings
+   carry transparent space at the top, which otherwise reads as sitting low. */
+.food-item__img { width: 116px; height: 116px; object-fit: contain; flex-shrink: 0; margin-top: -20px; }
 .food-item__img--placeholder { display: flex; align-items: center; justify-content: center; }
 .food-item__img--placeholder svg { width: 28px; height: 28px; display: block; color: var(--ink-xlight); }
 .food-item__body { flex: 1; min-width: 0; }
