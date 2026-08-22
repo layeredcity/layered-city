@@ -311,6 +311,7 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, onSe
         </div>
         )
       })}
+      <CurrencyCheatSheet city={city} />
       {city.quote && (
         <div className="city-quote">
           <div className="city-quote__text">“{city.quote}”</div>
@@ -319,7 +320,6 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, onSe
           )}
         </div>
       )}
-      <CurrencyCheatSheet city={city} />
       </>
       )}
     </div>
