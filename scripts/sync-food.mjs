@@ -1,12 +1,12 @@
-// Push the listOrder values in scripts/food.json to entries that already exist
-// in Contentful, republishing the ones that were published.
+// Push description and listOrder from scripts/food.json to entries that already
+// exist in Contentful, republishing the ones that were published.
 //
-//   node scripts/sync-food-order.mjs --dry-run   # report what would change
-//   node scripts/sync-food-order.mjs             # apply
+//   node scripts/sync-food.mjs --dry-run   # report what would change
+//   node scripts/sync-food.mjs             # apply
 //
-// Matches on dish name within a city, so it only ever touches order — never
-// names, descriptions or images. Dishes that are already in the right place are
-// left alone, so this is safe to re-run.
+// Matches on dish name, and only ever writes those two fields — never the name
+// itself and never the image, so illustrations added in Contentful are safe.
+// Entries already matching are skipped, so this is safe to re-run.
 import fs from 'fs'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
@@ -59,28 +59,38 @@ async function allEntries(query) {
 }
 
 const dishes = JSON.parse(fs.readFileSync(FILE, 'utf8'))
-const wanted = new Map(dishes.filter(d => d.listOrder != null).map(d => [norm(d.name), d.listOrder]))
+const wanted = new Map(dishes.map(d => [norm(d.name), d]))
 const entries = await allEntries('content_type=food')
 
 const changes = []
 for (const e of entries) {
   const name = e.fields.foodName?.[LOCALE]
-  const target = wanted.get(norm(name))
-  if (target == null) continue
-  const current = e.fields.listOrder?.[LOCALE] ?? null
-  if (current !== target) changes.push({ entry: e, name, current, target })
+  const want = wanted.get(norm(name))
+  if (!want) continue
+  const curOrder = e.fields.listOrder?.[LOCALE] ?? null
+  const curDesc = e.fields.foodDescription?.[LOCALE] ?? ''
+  const orderChanged = want.listOrder != null && curOrder !== want.listOrder
+  const descChanged = want.description && curDesc !== want.description
+  if (orderChanged || descChanged) changes.push({ entry: e, name, want, orderChanged, descChanged, curOrder })
 }
 
-if (!changes.length) { console.log('✓ Order already matches — nothing to do.'); process.exit(0) }
+if (!changes.length) { console.log('✓ Contentful already matches food.json — nothing to do.'); process.exit(0) }
 
-console.log(`${changes.length} dish${changes.length === 1 ? '' : 'es'} to reorder:`)
-for (const c of changes) console.log(`   ${c.name}: ${c.current ?? '—'} → ${c.target}`)
+console.log(`${changes.length} dish${changes.length === 1 ? '' : 'es'} to update:`)
+for (const c of changes) {
+  const bits = []
+  if (c.orderChanged) bits.push(`order ${c.curOrder ?? '—'} → ${c.want.listOrder}`)
+  if (c.descChanged) bits.push('description rewritten')
+  console.log(`   ${c.name}: ${bits.join(', ')}`)
+}
 if (DRY_RUN) { console.log('\n(dry run — nothing was written)'); process.exit(0) }
 console.log('')
 
 for (const c of changes) {
   const wasPublished = !!c.entry.sys.publishedVersion
-  const fields = { ...c.entry.fields, listOrder: { ...(c.entry.fields.listOrder || {}), [LOCALE]: c.target } }
+  const fields = { ...c.entry.fields }
+  if (c.orderChanged) fields.listOrder = { ...(fields.listOrder || {}), [LOCALE]: c.want.listOrder }
+  if (c.descChanged) fields.foodDescription = { ...(fields.foodDescription || {}), [LOCALE]: c.want.description }
   const res = await cma(`/entries/${c.entry.sys.id}`, {
     method: 'PUT',
     headers: { 'X-Contentful-Version': String(c.entry.sys.version) },
@@ -95,6 +105,6 @@ for (const c of changes) {
     })
     if (!pub.ok) { console.error(`  ! ${c.name}: updated but not republished (${pub.status})`); continue }
   }
-  console.log(`  ✓ ${c.name} → ${c.target}${wasPublished ? '' : ' (left as draft)'}`)
+  console.log(`  ✓ ${c.name}${wasPublished ? '' : ' (left as draft)'}`)
   await sleep(120)
 }
