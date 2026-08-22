@@ -88,22 +88,29 @@ function slugify(name) {
 
 const FILTERS = [
   { label: 'All',              types: ['podcast', 'video', 'movie', 'tv', 'music', 'book', 'speak', 'audiotour'] },
-  { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true, blurb: 'Novels and nonfiction about {city}' },
+  { label: 'Books',            group: 'media',  types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true, blurb: 'Novels and nonfiction about {city}' },
   // Food is not a story: it comes from its own `food` content type, carries no
   // location, and reads as a flat list rather than opening a detail modal. The
   // empty `types` keeps it out of every story filter. Like Tours it has no
   // alwaysShow, so a city with no dishes doesn't advertise the section at all.
-  { label: 'Food',             types: [], food: true,   emptyLabel: 'dishes',           icon: 'food',    unitSingular: 'dish',    unitPlural: 'dishes',  blurb: 'What to eat in {city}' },
-  { label: 'Movies',           types: ['movie'],        emptyLabel: 'movies',           icon: 'movie',   unitSingular: 'movie',   unitPlural: 'movies',  alwaysShow: true, blurb: '{city} on the big screen' },
-  { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of {city} through its songs' },
-  { label: 'Podcasts',         types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', alwaysShow: true, blurb: 'Episodes about {city}' },
+  { label: 'Food',             group: 'deeper', types: [], food: true,   emptyLabel: 'dishes',           icon: 'food',    unitSingular: 'dish',    unitPlural: 'dishes',  blurb: 'What to eat in {city}' },
+  { label: 'Movies',           group: 'media',  types: ['movie'],        emptyLabel: 'movies',           icon: 'movie',   unitSingular: 'movie',   unitPlural: 'movies',  alwaysShow: true, blurb: '{city} on the big screen' },
+  { label: 'Music',            group: 'media',  types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of {city} through its songs' },
+  { label: 'Podcasts',         group: 'media',  types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', alwaysShow: true, blurb: 'Episodes about {city}' },
   // No alwaysShow: unlike the other sections, Tours is hidden entirely for a
   // city with zero tours (rather than showing "Coming soon"), and reappears
   // automatically once that city has at least one published tour.
-  { label: 'Tours',            types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
-  { label: 'TV',               types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   alwaysShow: true, blurb: '{city} on the small screen' },
-  { label: 'Videos',           types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  alwaysShow: true, blurb: 'The best of {city} on YouTube' },
-  { label: 'Words',            types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Speak like a local in {city}' },
+  { label: 'Tours',            group: 'deeper', types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
+  { label: 'TV',               group: 'media',  types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   alwaysShow: true, blurb: '{city} on the small screen' },
+  { label: 'Videos',           group: 'media',  types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  alwaysShow: true, blurb: 'The best of {city} on YouTube' },
+  { label: 'Words',            group: 'deeper', types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Speak like a local in {city}' },
+]
+
+// The overview splits into two: media made *about* the city, and the things
+// that get you into it. A group with nothing in it renders no heading.
+const OVERVIEW_GROUPS = [
+  { key: 'media',  heading: city => `Media about ${city}` },
+  { key: 'deeper', heading: city => `Go deeper in ${city}` },
 ]
 
 const TYPE_ICONS = {
@@ -282,8 +289,14 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, onSe
         <div className="city-overview__loading">Loading…</div>
       ) : (
       <>
-      <div className="overview-list">
-        {sections.map(({ filter, count }) => (
+      {OVERVIEW_GROUPS.map(group => {
+        const groupSections = sections.filter(s => (s.filter.group || 'media') === group.key)
+        if (!groupSections.length) return null
+        return (
+        <div key={group.key}>
+        <div className="overview-group-heading">{group.heading(city.name)}</div>
+        <div className="overview-list">
+        {groupSections.map(({ filter, count }) => (
           <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
             <div className={'overview-item__icon-wrap' + (filter.icon === 'audiotour' ? ' overview-item__icon-wrap--tour' : '')}>{TYPE_ICONS[filter.icon]}</div>
             <div className="overview-item__body">
@@ -294,7 +307,10 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, onSe
             <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
           </div>
         ))}
-      </div>
+        </div>
+        </div>
+        )
+      })}
       {city.quote && (
         <div className="city-quote">
           <div className="city-quote__text">“{city.quote}”</div>
