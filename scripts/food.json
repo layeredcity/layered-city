@@ -1216,5 +1216,1343 @@
     "name": "Guinness",
     "description": "Dry stout poured in two stages with a rest between, which is why it takes nearly two minutes. Roasted barley makes it bitter rather than sweet, and it is served cool rather than cold. It genuinely does taste different here.",
     "listOrder": 14
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Smørrebrød",
+    "description": "An open sandwich on dense rye built in a fixed order: butter, then one topping — pickled herring, roast pork, breaded plaice, shrimp — then garnish. Eaten with a knife and fork at lunch. Never stacked, never picked up.",
+    "listOrder": 1
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Ristet hotdog",
+    "description": "A red sausage in a bun, roasted rather than boiled, under remoulade, ketchup, mustard, both raw and crisp fried onions, and pickled cucumber. Sold from a pølsevogn, the sausage wagons that have stood on Danish streets since 1921.",
+    "listOrder": 2
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Frikadeller",
+    "description": "Pan-fried pork and veal meatballs, flattened slightly by the spoon that shapes them, with potatoes and pickled beetroot — or cold in a sandwich the next day. Every Danish family claims a different ratio of pork to veal.",
+    "listOrder": 3
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Stegt flæsk med persillesovs",
+    "description": "Thick slices of pork belly fried until the fat crisps, with boiled potatoes and a parsley cream sauce poured over everything. Voted the national dish by public ballot in 2014. Some places serve it until you surrender.",
+    "listOrder": 4
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Marinerede sild",
+    "description": "Herring cured in vinegar with onion, bay and peppercorn, laid on buttered rye. Sharp, oily and nothing like the tinned kind. The traditional order is herring first at lunch, and always with a cold shot alongside.",
+    "listOrder": 5
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Rugbrød",
+    "description": "Dense sour rye packed with whole grains and seeds, dark enough to look black and heavy enough to work as a plate. Danes eat it daily and judge it seriously. Everything else in a Danish lunch is sitting on top of it.",
+    "listOrder": 6
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Tarteletter",
+    "description": "Small crisp pastry shells filled with chicken and asparagus in white sauce, served two to a plate. Deeply unfashionable, quietly beloved, and served at family gatherings without irony. A dish that peaked in 1960 and stayed.",
+    "listOrder": 7
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Hakkebøf",
+    "description": "A thick beef patty fried and served under a heap of soft browned onions, with gravy, potatoes and pickles. Not a burger — there is no bun, and the onions are the point. Danish lunchtime cooking at its plainest and best.",
+    "listOrder": 8
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Flæskesteg",
+    "description": "Pork roasted with the rind scored into strips so it blisters into crackling you can snap. Hot at Christmas with red cabbage, and cold the rest of the year on rye with pickled cucumber. The crackling is the entire event.",
+    "listOrder": 9
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Wienerbrød",
+    "description": "What the rest of the world calls Danish pastry: laminated dough with butter folded in dozens of times, filled with custard or jam. Danes named it for Vienna, where the technique came from. Buy it before ten in the morning.",
+    "listOrder": 10
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Æbleskiver",
+    "description": "Spherical pancakes cooked in a cast-iron pan of round wells, turned with a knitting needle until they close into balls, then dusted with sugar and dipped in jam. Christmas market food, eaten with mulled wine from a paper tray.",
+    "listOrder": 11
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Koldskål",
+    "description": "Cold buttermilk whisked with egg, sugar, vanilla and lemon into a thin sweet soup, with small dry biscuits floated on top. Sold in cartons from May and eaten as lunch on hot days. Strange the first time and then not at all.",
+    "listOrder": 12
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Rødgrød med fløde",
+    "description": "Stewed red summer berries thickened into a loose pudding and poured with cream. It is also the sentence Danes ask foreigners to pronounce, because the vowels are impossible. Order it and let them enjoy watching.",
+    "listOrder": 13
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Drømmekage",
+    "description": "A soft vanilla sponge under coconut and brown sugar baked in butter until it caramelizes into a crackling crust. The name means dream cake. It came out of a village baking contest in the 1960s and never left.",
+    "listOrder": 14
+  },
+  {
+    "city": "Copenhagen",
+    "name": "Snaps",
+    "description": "Clear caraway or dill spirit served ice cold in a tiny glass beside herring, drunk in one swallow with a nod down the table. Not sipped and never mixed. One with the herring, one with the cheese, and then stop.",
+    "listOrder": 15
+  },
+  {
+    "city": "Stockholm",
+    "name": "Köttbullar",
+    "description": "Small pork and beef meatballs with cream gravy, boiled potatoes, lingonberry jam and pickled cucumber. The lingonberry is not a garnish — its sourness is what the gravy is built against. Thursday and Sunday food.",
+    "listOrder": 1
+  },
+  {
+    "city": "Stockholm",
+    "name": "Räksmörgås",
+    "description": "A mound of hand-peeled shrimp on buttered bread with egg, dill and mayonnaise, piled until the bread disappears. Ordered as a light lunch, though nothing about it is light. Judge it on whether the shrimp were peeled by hand.",
+    "listOrder": 2
+  },
+  {
+    "city": "Stockholm",
+    "name": "Strömming",
+    "description": "Small Baltic herring floured and fried in butter, with mashed potato, lingonberry and raw onion, often from a harbor stall. Softer and sweeter than sea herring. Eat it standing on the quay in the cold, out of paper.",
+    "listOrder": 3
+  },
+  {
+    "city": "Stockholm",
+    "name": "Ärtsoppa med pannkakor",
+    "description": "Yellow pea soup with pork and mustard, followed by thin pancakes with jam and cream — soup then dessert, in that order, on Thursdays. The habit comes from old fasting rules and outlived the reason entirely.",
+    "listOrder": 4
+  },
+  {
+    "city": "Stockholm",
+    "name": "Raggmunk",
+    "description": "Grated potato bound in a thin batter and fried into a crisp pancake, served with fried salt pork and lingonberry. Sweden's cheapest possible hot lunch. Best where the potato is grated that morning and the edges go lacy.",
+    "listOrder": 5
+  },
+  {
+    "city": "Stockholm",
+    "name": "Falukorv",
+    "description": "A thick, mild smoked sausage of beef and pork, sliced and fried or baked whole with mustard. Its recipe is protected by law. It came from a mining town where ox hides were made into rope and the meat had to go somewhere.",
+    "listOrder": 6
+  },
+  {
+    "city": "Stockholm",
+    "name": "Toast Skagen",
+    "description": "Shrimp folded with mayonnaise, dill and a little roe on fried bread, invented by a restaurateur on a boat in 1956 and named for a Danish cape. It became the standard Swedish starter and has not moved since.",
+    "listOrder": 7
+  },
+  {
+    "city": "Stockholm",
+    "name": "Smörgåstårta",
+    "description": "A sandwich built like a layer cake — bread layered with shrimp, egg, ham or salmon, the outside frosted in cream cheese and decorated. Served at birthdays and funerals. It looks like a joke and is taken entirely seriously.",
+    "listOrder": 8
+  },
+  {
+    "city": "Stockholm",
+    "name": "Janssons frestelse",
+    "description": "Potato, onion and cured sprats layered with cream and baked until the top browns and the fish dissolves into it. The sprats are cured with sugar and spice, so it turns sweet and salty at once. A Christmas table fixture.",
+    "listOrder": 9
+  },
+  {
+    "city": "Stockholm",
+    "name": "Kanelbulle",
+    "description": "Cardamom dough rolled with cinnamon butter, knotted rather than spiraled, topped with pearl sugar. The centerpiece of fika, the coffee break Swedes take seriously enough to schedule. It has an official day, October 4th.",
+    "listOrder": 10
+  },
+  {
+    "city": "Stockholm",
+    "name": "Semla",
+    "description": "A cardamom bun hollowed out, filled with almond paste and whipped cream and capped with its own lid. Sold between Christmas and Easter, and once eaten only on the Tuesday before Lent. A Swedish king died after eating too many.",
+    "listOrder": 11
+  },
+  {
+    "city": "Stockholm",
+    "name": "Prinsesstårta",
+    "description": "Sponge, jam, vanilla custard and a dome of whipped cream sealed under bright green marzipan with a pink rose on top. Created for three Swedish princesses in the 1930s. Unchanging, everywhere, and better than it needs to be.",
+    "listOrder": 12
+  },
+  {
+    "city": "Stockholm",
+    "name": "Kladdkaka",
+    "description": "A flat chocolate cake deliberately underbaked so the middle stays sticky, served with cream. The name means sticky cake. Every Swede can make it from memory and it takes about ten minutes to put together.",
+    "listOrder": 13
+  },
+  {
+    "city": "Stockholm",
+    "name": "Punsch",
+    "description": "A sweet spiced arrack liqueur Sweden drank obsessively for two centuries, served warm alongside Thursday pea soup or cold after dinner. Nearly forgotten, then revived. Sweeter than you expect and stronger than it tastes.",
+    "listOrder": 14
+  },
+  {
+    "city": "Oslo",
+    "name": "Pølse i lompe",
+    "description": "A hot dog wrapped in lompe, a soft potato flatbread, instead of a bun, with mustard, ketchup, crisp onions and sometimes shrimp salad. Sold from kiosks everywhere. Norway's most-eaten food and the cheapest thing in the country.",
+    "listOrder": 1
+  },
+  {
+    "city": "Oslo",
+    "name": "Fårikål",
+    "description": "Mutton on the bone and cabbage layered in a pot with whole peppercorns and boiled for hours, with nothing else added at all. Voted the national dish twice. Eaten every autumn, and it has its own Thursday in late September.",
+    "listOrder": 2
+  },
+  {
+    "city": "Oslo",
+    "name": "Kjøttkaker",
+    "description": "Large beef patties, coarser and heavier than meatballs, in brown gravy with mashed peas, potatoes and lingonberry. The everyday dinner Norwegians grow up on and order as adults when they want looking after.",
+    "listOrder": 3
+  },
+  {
+    "city": "Oslo",
+    "name": "Raspeballer",
+    "description": "Dense dumplings of grated raw and cooked potato, boiled and served with salted meat, sausage and rutabaga. They go by a different name in nearly every valley. Thursday is the day, and the leftovers get fried next morning.",
+    "listOrder": 4
+  },
+  {
+    "city": "Oslo",
+    "name": "Reker",
+    "description": "Cold-water shrimp boiled at sea and sold straight off the boat at the harbor, peeled by hand onto white bread with mayonnaise and lemon, with beer. A summer ritual more than a dish. Buy a kilo and take all afternoon.",
+    "listOrder": 5
+  },
+  {
+    "city": "Oslo",
+    "name": "Fiskesuppe",
+    "description": "Cream-based fish soup with root vegetables and whatever white fish came in, thickened lightly and finished with dill. Every coastal town has its version. The correct thing to eat when the weather is against you.",
+    "listOrder": 6
+  },
+  {
+    "city": "Oslo",
+    "name": "Gravlaks",
+    "description": "Salmon buried in salt, sugar and dill for a few days until it firms and cures without any smoke — the name means buried salmon, from when it was fermented in sand. Sliced thin, with sweet mustard sauce and dark bread.",
+    "listOrder": 7
+  },
+  {
+    "city": "Oslo",
+    "name": "Brunost",
+    "description": "Brown cheese made by boiling whey until the milk sugars caramelize, shaved into thin sheets with a slicer Norway invented. Sweet, fudgy and faintly goaty. Eaten on toast at breakfast and on waffles in the afternoon.",
+    "listOrder": 8
+  },
+  {
+    "city": "Oslo",
+    "name": "Rakfisk",
+    "description": "Trout salted and fermented in a barrel for months, then eaten raw with flatbread, sour cream and onion. Sharper and stranger than cured fish has any right to be. Autumn and winter, and a real test even for Norwegians.",
+    "listOrder": 9
+  },
+  {
+    "city": "Oslo",
+    "name": "Lutefisk",
+    "description": "Dried cod soaked in lye until it turns translucent and gelatinous, then baked and served with bacon, peas and potatoes. Eaten at Christmas out of tradition and stubbornness. Divisive at every table it arrives on.",
+    "listOrder": 10
+  },
+  {
+    "city": "Oslo",
+    "name": "Svele",
+    "description": "Thick soft pancakes cooked on a griddle and folded around butter and brown cheese, or sour cream and jam. Sold on the coastal ferries, which is where most Norwegians eat them. Impossible to stop at one.",
+    "listOrder": 11
+  },
+  {
+    "city": "Oslo",
+    "name": "Multekrem",
+    "description": "Cloudberries — amber, tart, and picked from bogs in locations people genuinely keep secret — folded through whipped cream with sugar. Served at Christmas. They cost what they cost because nobody can farm them properly.",
+    "listOrder": 12
+  },
+  {
+    "city": "Oslo",
+    "name": "Akevitt",
+    "description": "Potato spirit flavored with caraway and dill and aged in oak, some of it shipped across the equator and back because the motion is said to improve it. Drunk cold with fatty food at Christmas, in small glasses, slowly.",
+    "listOrder": 13
+  },
+  {
+    "city": "Helsinki",
+    "name": "Karjalanpiirakka",
+    "description": "A thin rye crust folded around rice porridge and baked until the edges char, brushed with butter and topped with chopped egg mashed into more butter. Eaten at breakfast, sold everywhere. From Karelia, on the eastern border.",
+    "listOrder": 1
+  },
+  {
+    "city": "Helsinki",
+    "name": "Ruisleipä",
+    "description": "Sour rye, dense and dark, traditionally baked in rings with a hole so it could hang from a pole to dry. Finns living abroad have it mailed to them. Eaten with butter and nothing else, and taken more seriously than any other food.",
+    "listOrder": 2
+  },
+  {
+    "city": "Helsinki",
+    "name": "Lohikeitto",
+    "description": "Salmon soup with potato, leek and cream, finished with a heavy hand of dill and butter melting on the surface. Served in the market halls with rye bread. The salmon should be in large soft pieces, never shredded.",
+    "listOrder": 3
+  },
+  {
+    "city": "Helsinki",
+    "name": "Muikku",
+    "description": "Tiny lake vendace rolled in rye flour and fried whole — heads, bones and all — served in a paper cone with garlic mayonnaise and lemon. Market square food, eaten with your fingers, crisp and salty and gone in two minutes.",
+    "listOrder": 4
+  },
+  {
+    "city": "Helsinki",
+    "name": "Poronkäristys",
+    "description": "Reindeer shaved into thin curls, sautéed in butter and served with mashed potato and lingonberry. Lean and only faintly gamy, closer to beef than to venison. It comes from Lapland, where herding is Sámi work.",
+    "listOrder": 5
+  },
+  {
+    "city": "Helsinki",
+    "name": "Karjalanpaisti",
+    "description": "Beef, pork and lamb in chunks with onion, carrot and allspice, cooked in a low oven for hours with nothing but water. No browning, no thickening, no wine. Finland's plainest stew and quietly its best-loved.",
+    "listOrder": 6
+  },
+  {
+    "city": "Helsinki",
+    "name": "Leipäjuusto",
+    "description": "A flat cheese made from first-milking colostrum, baked until it blisters brown and squeaks against your teeth, served warm with cloudberry jam. The name means bread cheese. Always heated, never eaten cold.",
+    "listOrder": 7
+  },
+  {
+    "city": "Helsinki",
+    "name": "Makkara",
+    "description": "Fat pork sausage grilled slowly until the skin splits, eaten with mustard and beer beside a lake or straight after a sauna. Not a delicacy and not pretending to be. The smell of Finnish summer, along with woodsmoke.",
+    "listOrder": 8
+  },
+  {
+    "city": "Helsinki",
+    "name": "Mämmi",
+    "description": "Rye flour and malt baked slowly into a dark, thick, faintly sweet pudding, eaten cold with cream and sugar at Easter. It looks alarming and tastes like malt bread. Finns are entirely aware of how it looks.",
+    "listOrder": 9
+  },
+  {
+    "city": "Helsinki",
+    "name": "Pulla",
+    "description": "Sweet cardamom bread braided or knotted and scattered with pearl sugar, torn apart and eaten with coffee — and Finland drinks more coffee per person than anywhere on earth. The cardamom is heavy, and should be.",
+    "listOrder": 10
+  },
+  {
+    "city": "Helsinki",
+    "name": "Runebergintorttu",
+    "description": "A cylindrical almond and rum cake topped with raspberry jam inside a ring of icing, eaten on February 5th for the national poet, and said to have been invented by his wife. Sold from January, gone by mid-February.",
+    "listOrder": 11
+  },
+  {
+    "city": "Helsinki",
+    "name": "Vispipuuro",
+    "description": "Semolina cooked with lingonberry and then whipped until it turns pale pink and foamy and doubles in size. Served cold with milk poured over it. A dessert made of porridge, and far better than that sounds.",
+    "listOrder": 12
+  },
+  {
+    "city": "Helsinki",
+    "name": "Salmiakki",
+    "description": "Salty licorice, black and hard, flavored with ammonium chloride — actually salty rather than sweet. Finns eat it constantly and put it in ice cream and vodka. Most foreign visitors do not recover from the first piece.",
+    "listOrder": 13
+  },
+  {
+    "city": "Helsinki",
+    "name": "Sima",
+    "description": "Lightly fermented lemon and brown sugar mead, made at home in bottles with a few raisins that float to the top when it is ready. Drunk at May Day with sugared doughnuts, in the first warm week of the year.",
+    "listOrder": 14
+  },
+  {
+    "city": "Berlin",
+    "name": "Currywurst",
+    "description": "A pork sausage fried, sliced, and drowned in curried tomato sauce, eaten with a small wooden fork and a bread roll. Invented in 1949 by a woman who got the ingredients from British soldiers. There is a museum and there are arguments.",
+    "listOrder": 1
+  },
+  {
+    "city": "Berlin",
+    "name": "Döner kebab",
+    "description": "Meat stacked and grilled on a vertical spit, carved into flatbread with salad, cabbage and garlic and chili sauces. Invented in Berlin in the 1970s by Turkish workers — not in Turkey. The city eats it at every hour.",
+    "listOrder": 2
+  },
+  {
+    "city": "Berlin",
+    "name": "Buletten",
+    "description": "Flat pork and beef patties with soaked bread, onion and marjoram, fried and eaten cold with mustard as often as hot. The Berlin word for what the rest of Germany calls a Frikadelle. Sold at bakeries and old corner pubs.",
+    "listOrder": 3
+  },
+  {
+    "city": "Berlin",
+    "name": "Königsberger Klopse",
+    "description": "Veal meatballs poached and served in a white sauce made sharp with capers and lemon, over potatoes or rice. Named for a Prussian city that is now Russian. East Berlin canteens kept the dish alive for decades.",
+    "listOrder": 4
+  },
+  {
+    "city": "Berlin",
+    "name": "Senfeier",
+    "description": "Hard-boiled eggs halved into a thick mustard cream sauce with potatoes. Cheap, sour and filling — a dish from the ration years that stayed on menus because people kept ordering it. Rarely found outside Germany's east.",
+    "listOrder": 5
+  },
+  {
+    "city": "Berlin",
+    "name": "Eisbein",
+    "description": "A cured pork knuckle boiled until the meat slides off the bone and the fat turns to jelly, with pea puree and sauerkraut. Boiled rather than roasted, which surprises anyone expecting crackling. Enormous, and cheap for the size.",
+    "listOrder": 6
+  },
+  {
+    "city": "Berlin",
+    "name": "Soljanka",
+    "description": "A sour, smoky soup of pickled cucumber, sausage, tomato and lemon, borrowed from Soviet kitchens and made East German. Sharp enough to wake you up. Still on older menus here and almost unknown further west.",
+    "listOrder": 7
+  },
+  {
+    "city": "Berlin",
+    "name": "Bratkartoffeln",
+    "description": "Boiled potatoes sliced and fried hard with bacon and onion until the edges caramelize, usually under a fried egg. A side dish everyone orders as a meal. The potatoes must be boiled the day before or they fall apart.",
+    "listOrder": 8
+  },
+  {
+    "city": "Berlin",
+    "name": "Rollmops",
+    "description": "Pickled herring rolled around a pickle and onion, pinned with a stick and eaten cold — traditionally the morning after drinking, on the theory that it helps. Sharp and oily, and sold in jars in every supermarket.",
+    "listOrder": 9
+  },
+  {
+    "city": "Berlin",
+    "name": "Berliner Pfannkuchen",
+    "description": "A round doughnut with no hole, filled with jam and dusted in sugar. In Berlin it is a Pfannkuchen; everywhere else it is a Berliner, and locals will correct you. Eaten at New Year, sometimes filled with mustard as a prank.",
+    "listOrder": 10
+  },
+  {
+    "city": "Berlin",
+    "name": "Schrippe",
+    "description": "The Berlin bread roll — crisp-crusted, split down the middle, and the base of most breakfasts here. Nothing about it is remarkable except that Berliners insist it is, and that the word is used in this city and nowhere else.",
+    "listOrder": 11
+  },
+  {
+    "city": "Berlin",
+    "name": "Kalter Hund",
+    "description": "Cocoa and coconut fat poured over layers of plain biscuits and chilled into a dark dense loaf that gets sliced like cake. No baking at any point. A childhood birthday standard on both sides of the wall.",
+    "listOrder": 12
+  },
+  {
+    "city": "Berlin",
+    "name": "Spargel",
+    "description": "White asparagus grown under mounded soil so it never sees light, peeled and boiled and served with hollandaise, ham and potatoes. For eight weeks each spring it takes over every menu in the city, then disappears completely.",
+    "listOrder": 13
+  },
+  {
+    "city": "Berlin",
+    "name": "Berliner Weisse",
+    "description": "A sour wheat beer, low in alcohol and tart enough to make you blink, traditionally cut with raspberry or woodruff syrup and served in a wide bowl of a glass. Napoleon's troops called it the Champagne of the north.",
+    "listOrder": 14
+  },
+  {
+    "city": "Prague",
+    "name": "Svíčková",
+    "description": "Beef sirloin braised with root vegetables, the vegetables blended into a thick cream sauce, served with bread dumplings, a spoon of cranberry and a curl of whipped cream. Sweet, sour and rich at once. The Sunday dish.",
+    "listOrder": 1
+  },
+  {
+    "city": "Prague",
+    "name": "Vepřo knedlo zelo",
+    "description": "Roast pork, bread dumplings and stewed sauerkraut — three words always said together, and the national dish. The dumplings exist to mop up the fat and the cabbage exists to cut through it. Order it once, early.",
+    "listOrder": 2
+  },
+  {
+    "city": "Prague",
+    "name": "Guláš s knedlíkem",
+    "description": "Beef stewed dark with onion, paprika and usually dark beer, served with bread dumplings and raw onion scattered on top. Thicker than the Hungarian soup and served differently from the Viennese. The beer in the sauce is the tell.",
+    "listOrder": 3
+  },
+  {
+    "city": "Prague",
+    "name": "Smažený sýr",
+    "description": "A slab of Edam breaded and deep-fried, with fries and tartar sauce. Invented for meat-free days under socialism and now the standard thing to eat at 2 a.m. Nobody claims it is good for you and everybody eats it.",
+    "listOrder": 4
+  },
+  {
+    "city": "Prague",
+    "name": "Bramborák",
+    "description": "A thin potato pancake with garlic, marjoram and a little flour, fried crisp and handed over on a paper plate at markets, sometimes wrapped around smoked meat. The marjoram is what makes it Czech and not a hash brown.",
+    "listOrder": 5
+  },
+  {
+    "city": "Prague",
+    "name": "Utopenec",
+    "description": "A fat sausage pickled in vinegar with onion, chili and bay for weeks until it turns sour and soft. The name means drowned man. Sold from jars kept on the bar in old pubs, eaten with dark bread and beer and nothing else.",
+    "listOrder": 6
+  },
+  {
+    "city": "Prague",
+    "name": "Nakládaný hermelín",
+    "description": "A whole soft white cheese marinated in oil with garlic, peppercorns and chili until it turns pungent and spreadable. Pub food, served with bread. It improves the longer it sits in the jar, up to a point.",
+    "listOrder": 7
+  },
+  {
+    "city": "Prague",
+    "name": "Chlebíčky",
+    "description": "Open sandwiches built on a slice of white bread with potato salad as the base, then ham, egg, salami or fish arranged neatly on top. Sold by the piece from delicatessen counters. A party food that became an everyday one.",
+    "listOrder": 8
+  },
+  {
+    "city": "Prague",
+    "name": "Kulajda",
+    "description": "A creamy dill soup with potato, wild mushrooms, vinegar and a poached egg dropped in at the end. Sour and herbal and unlike anything else on the table. The best argument against the idea that Czech food is all brown.",
+    "listOrder": 9
+  },
+  {
+    "city": "Prague",
+    "name": "Česnečka",
+    "description": "Garlic soup with potato, croutons and often cheese, made with a quantity of garlic that would be a mistake anywhere else. Ordered for hangovers and colds. It is medicine that happens to taste extremely good.",
+    "listOrder": 10
+  },
+  {
+    "city": "Prague",
+    "name": "Tlačenka",
+    "description": "Head cheese — meat set in its own jelly — sliced and served with raw onion and a great deal of vinegar. Pub food from an era when nothing was thrown away. Cold, sharp and gelatinous, and better with beer than it sounds.",
+    "listOrder": 11
+  },
+  {
+    "city": "Prague",
+    "name": "Koláč",
+    "description": "A round yeast pastry with a well of poppy seed, plum or curd cheese in the middle, baked soft. Made by the hundred for weddings, which is where the name comes from. Best from a bakery while still slightly warm.",
+    "listOrder": 12
+  },
+  {
+    "city": "Prague",
+    "name": "Medovník",
+    "description": "A honey cake of many thin layers with sour cream frosting between them, left to soften for a day before it is cut. Dense, spiced and not too sweet. Sold everywhere, and the best ones are made in somebody's kitchen.",
+    "listOrder": 13
+  },
+  {
+    "city": "Prague",
+    "name": "Pivo",
+    "description": "Czech lager poured slowly under a thick wet head that is part of the drink rather than a mistake — ask for a hladinka and you get the standard pour. Czechs drink more beer per person than anyone, and it costs less than water.",
+    "listOrder": 14
+  },
+  {
+    "city": "Kraków",
+    "name": "Obwarzanek",
+    "description": "A braided ring of dough boiled and then baked, sold from blue carts on every corner with salt, poppy or sesame. Kraków has made them since the 1300s and they are protected by EU law. Buy one early; they stale by noon.",
+    "listOrder": 1
+  },
+  {
+    "city": "Kraków",
+    "name": "Zapiekanka",
+    "description": "A halved baguette loaded with mushrooms and cheese, grilled until it bubbles, then finished with a stripe of ketchup and whatever else you point at. Sold from the round hall in the old Jewish quarter until very late.",
+    "listOrder": 2
+  },
+  {
+    "city": "Kraków",
+    "name": "Pierogi",
+    "description": "Half-moon dumplings, boiled or fried, filled with curd cheese and potato, meat, mushroom and cabbage, or fruit in summer. Order ruskie — the potato and cheese ones — first. Served with fried onion and sour cream.",
+    "listOrder": 3
+  },
+  {
+    "city": "Kraków",
+    "name": "Żurek",
+    "description": "Sour rye soup, fermented for days, with white sausage, potato and half a boiled egg, sometimes served inside a hollowed loaf. Sour in a way no other soup is. Eaten at Easter, and available here all year round.",
+    "listOrder": 4
+  },
+  {
+    "city": "Kraków",
+    "name": "Barszcz",
+    "description": "Clear beetroot broth, deep red and sharpened with lemon and a little sugar, served as a soup or drunk from a cup in winter. At Christmas it arrives with small mushroom dumplings floating in it. Nothing like a heavy borscht.",
+    "listOrder": 5
+  },
+  {
+    "city": "Kraków",
+    "name": "Maczanka krakowska",
+    "description": "Slow-roasted pork neck with caraway and marjoram, sliced into a soft roll and drenched in its own cooking juices — the name comes from the word for dipping. Kraków's own sandwich, sold from carts since the 1800s.",
+    "listOrder": 6
+  },
+  {
+    "city": "Kraków",
+    "name": "Kiełbasa z nyski",
+    "description": "Sausage grilled over wood in the back of a blue van that parks by the river at night and drives off at dawn. Served on a paper plate with a roll and mustard. It has run for decades, and the line is part of it.",
+    "listOrder": 7
+  },
+  {
+    "city": "Kraków",
+    "name": "Bigos",
+    "description": "Sauerkraut and fresh cabbage stewed for days with several meats, prunes and mushrooms, reheated over and over until it darkens. The reheating is the recipe. Hunters' stew by name, and better every day it survives.",
+    "listOrder": 8
+  },
+  {
+    "city": "Kraków",
+    "name": "Oscypek",
+    "description": "Smoked sheep's cheese from the mountains south of the city, pressed in carved wooden molds into spindle shapes, then grilled and served with cranberry jam. Salty and firm, and it squeaks. Protected by law and seasonal.",
+    "listOrder": 9
+  },
+  {
+    "city": "Kraków",
+    "name": "Flaki",
+    "description": "Tripe cut into ribbons and simmered for hours with root vegetables and marjoram into a thick, peppery soup. Sold in bars as a hangover cure and at weddings at two in the morning. Organ meat, but mild — the marjoram carries it.",
+    "listOrder": 10
+  },
+  {
+    "city": "Kraków",
+    "name": "Sernik krakowski",
+    "description": "Baked curd cheesecake under a shortcrust lattice, denser and far less sweet than the American kind, often with raisins or candied orange. The Kraków version is defined by that pastry lattice across the top.",
+    "listOrder": 11
+  },
+  {
+    "city": "Kraków",
+    "name": "Szarlotka",
+    "description": "Apple cake with a thick layer of grated spiced apple between shortcrust, served warm with cream. Every café makes one and every one disagrees about how much cinnamon is acceptable. Order it with tea in the afternoon.",
+    "listOrder": 12
+  },
+  {
+    "city": "Kraków",
+    "name": "Pączki",
+    "description": "A round doughnut filled with rose petal jam and glazed, eaten in enormous quantity on the Thursday before Lent — bakeries sell millions in a day and the lines run down the block. Rose is the traditional filling.",
+    "listOrder": 13
+  },
+  {
+    "city": "Kraków",
+    "name": "Wódka",
+    "description": "Drunk cold, neat, in one swallow, never sipped and never mixed, with food or a pickle immediately after. Poland argues with Russia about who invented it. Ordered by the small glass, with a toast before each one.",
+    "listOrder": 14
+  },
+  {
+    "city": "Zurich",
+    "name": "Zürcher Geschnetzeltes",
+    "description": "Veal sliced thin and cooked fast in a cream and white wine sauce with mushrooms, served with rösti. The city's one signature dish, on every menu, and the standard by which local kitchens are quietly measured.",
+    "listOrder": 1
+  },
+  {
+    "city": "Zurich",
+    "name": "Rösti",
+    "description": "Grated potato pressed into a pan and fried until a crust forms on both sides, then turned out like a cake. Eaten as a side, or under egg and cheese as a meal. The country is divided by a cultural line named after it.",
+    "listOrder": 2
+  },
+  {
+    "city": "Zurich",
+    "name": "Bratwurst mit Bürli",
+    "description": "A pale veal sausage grilled over wood and eaten with a crusty roll and mustard, standing at a street stall. Asking for ketchup is a minor scandal, and one politician's career only just survived doing it.",
+    "listOrder": 3
+  },
+  {
+    "city": "Zurich",
+    "name": "Älplermagronen",
+    "description": "Macaroni, potato, cream, onion and melted cheese baked together and served with applesauce alongside, which sounds wrong and is essential. Herders' food from the Alps, built from whatever kept well at altitude.",
+    "listOrder": 4
+  },
+  {
+    "city": "Zurich",
+    "name": "Fondue",
+    "description": "Melted cheese with white wine and garlic in a communal pot, with bread cubes on long forks. Winter only — the Swiss find eating it in summer genuinely strange. Losing your bread in the pot carries a forfeit.",
+    "listOrder": 5
+  },
+  {
+    "city": "Zurich",
+    "name": "Raclette",
+    "description": "Half a wheel of cheese heated at the cut edge and scraped molten over boiled potatoes, with pickles and cured meat. It arrives in waves, one plate at a time, for as long as you keep asking. Also strictly a winter thing.",
+    "listOrder": 6
+  },
+  {
+    "city": "Zurich",
+    "name": "Bündnerfleisch",
+    "description": "Beef cured with salt and mountain herbs, air-dried for months in the thin air of the eastern valleys, pressed into a dense rectangle and sliced tissue-thin. Deep red, intensely beefy, served with nothing at all.",
+    "listOrder": 7
+  },
+  {
+    "city": "Zurich",
+    "name": "Birchermüesli",
+    "description": "Rolled oats soaked overnight in milk with grated apple, lemon and nuts, invented around 1900 by a Zurich doctor for his patients. The original is far wetter and much less sweet than the packaged version it inspired.",
+    "listOrder": 8
+  },
+  {
+    "city": "Zurich",
+    "name": "Zopf",
+    "description": "A braided butter and milk bread with a glossy egg-washed crust, baked for Sunday breakfast across the country. Soft, faintly sweet, and torn rather than sliced. Bakeries sell out early on weekend mornings.",
+    "listOrder": 9
+  },
+  {
+    "city": "Zurich",
+    "name": "Luxemburgerli",
+    "description": "Small, feather-light macarons made by a Zurich confectioner since the 1950s — lighter and smaller than the Paris kind, sold by weight in pastel rows. They keep for two days at most, which is precisely the point.",
+    "listOrder": 10
+  },
+  {
+    "city": "Zurich",
+    "name": "Tirggel",
+    "description": "Thin, hard honey biscuits stamped with detailed scenes from carved wooden molds, baked so fast that one side scorches while the other stays pale. A Zurich Christmas item made here since the 1400s. More carving than cookie.",
+    "listOrder": 11
+  },
+  {
+    "city": "Zurich",
+    "name": "Rivella",
+    "description": "A soft drink made from milk whey — genuinely — that tastes faintly of apple and nothing at all like dairy. The Swiss drink it constantly and it has never sold anywhere else. Try the red one before anyone explains it.",
+    "listOrder": 12
+  },
+  {
+    "city": "Athens",
+    "name": "Souvlaki",
+    "description": "Pork or chicken grilled on skewers and wrapped in pita with tomato, onion, tzatziki and — this is not negotiable — a handful of fries inside the wrap. The cheapest full meal in the city, eaten standing or walking.",
+    "listOrder": 1
+  },
+  {
+    "city": "Athens",
+    "name": "Koulouri",
+    "description": "A ring of bread crusted in sesame seeds, sold from street carts from before dawn and eaten on the way to work. Chewy, faintly sweet, and stale by afternoon, which is why vendors sell out and go home by noon.",
+    "listOrder": 2
+  },
+  {
+    "city": "Athens",
+    "name": "Bougatsa",
+    "description": "Semolina custard between sheets of phyllo, baked, then cut up with a scraper and dusted with sugar and cinnamon in front of you. There is a savory cheese version too. Breakfast, and best from a shop that makes nothing else.",
+    "listOrder": 3
+  },
+  {
+    "city": "Athens",
+    "name": "Spanakopita",
+    "description": "Spinach, feta, dill and scallion between layers of oiled phyllo, baked until the top shatters. Sold in bakeries by the slab all day. The good ones have far more greens than cheese and are never soggy underneath.",
+    "listOrder": 4
+  },
+  {
+    "city": "Athens",
+    "name": "Horiatiki",
+    "description": "Tomato, cucumber, onion, pepper, olives and a whole slab of feta with oregano and olive oil — the village salad, and no lettuce anywhere in it. The oil left in the bowl is meant to be finished with bread.",
+    "listOrder": 5
+  },
+  {
+    "city": "Athens",
+    "name": "Fava",
+    "description": "Yellow split peas cooked to a smooth puree, served warm with raw onion, capers, lemon and a pour of olive oil. Not made from fava beans, despite everything. The best comes from Santorini and is worth asking about.",
+    "listOrder": 6
+  },
+  {
+    "city": "Athens",
+    "name": "Gigantes plaki",
+    "description": "Large white beans baked slowly in tomato with dill and olive oil until they go creamy inside. Served warm or at room temperature as part of a mezze spread. Nothing about it is fast, and it is better the next day.",
+    "listOrder": 7
+  },
+  {
+    "city": "Athens",
+    "name": "Saganaki",
+    "description": "A slab of hard cheese floured and fried in a small pan until it blisters and browns, served with lemon squeezed over it while it is still sizzling. Order it before the rest of the food and eat it immediately.",
+    "listOrder": 8
+  },
+  {
+    "city": "Athens",
+    "name": "Moussaka",
+    "description": "Layers of eggplant, spiced lamb and potato under a thick béchamel, baked until the top sets and browns. The version everyone knows was standardized by a Greek chef trained in France in the 1920s. Better warm than hot.",
+    "listOrder": 9
+  },
+  {
+    "city": "Athens",
+    "name": "Pastitsio",
+    "description": "Tubular pasta with cinnamon-spiced meat sauce under béchamel, baked and cut into squares. The cinnamon is what makes it Greek rather than Italian. Family food and taverna food, and always cut with a straight edge.",
+    "listOrder": 10
+  },
+  {
+    "city": "Athens",
+    "name": "Loukoumades",
+    "description": "Small yeast doughnuts fried and drowned in honey syrup with cinnamon and walnuts, served hot by the dozen. Said to have been given to victors at the ancient games. Eat them fast, before the syrup soaks all the way in.",
+    "listOrder": 11
+  },
+  {
+    "city": "Athens",
+    "name": "Galaktoboureko",
+    "description": "Semolina custard baked in phyllo and soaked in lemon syrup while still hot, so the top stays crisp and the base goes sticky. Cut into squares. Sweeter and more solid than it looks, and impossible to eat delicately.",
+    "listOrder": 12
+  },
+  {
+    "city": "Athens",
+    "name": "Melomakarona",
+    "description": "Small oval cookies of olive oil, orange and semolina soaked in honey syrup and topped with crushed walnuts. Made at Christmas by the hundred. They keep for weeks, and the syrup gets deeper into them as they sit.",
+    "listOrder": 13
+  },
+  {
+    "city": "Athens",
+    "name": "Frappé",
+    "description": "Instant coffee whipped with water, sugar and ice into a thick foam, served in a tall glass with a straw. Invented by accident at a trade fair in 1957. Ordered by sweetness, and drunk over an hour, never quickly.",
+    "listOrder": 14
+  },
+  {
+    "city": "Istanbul",
+    "name": "Simit",
+    "description": "A ring of bread dipped in grape molasses and crusted in sesame, sold from red carts on every corner and from men carrying trays on their heads. Chewy and faintly bitter. Eaten for breakfast, with tea, standing up.",
+    "listOrder": 1
+  },
+  {
+    "city": "Istanbul",
+    "name": "Balık ekmek",
+    "description": "A grilled mackerel fillet stuffed into half a loaf with raw onion, lettuce and lemon, sold from boats and stalls at the Galata bridge. Simple to the point of being nothing, and one of the best things in the city.",
+    "listOrder": 2
+  },
+  {
+    "city": "Istanbul",
+    "name": "Midye dolma",
+    "description": "Mussels stuffed with spiced rice, steamed and sold from trays on the street, opened one at a time and handed over with lemon. You pay by how many shells pile up. A late-night thing, and eaten in quantity.",
+    "listOrder": 3
+  },
+  {
+    "city": "Istanbul",
+    "name": "Lahmacun",
+    "description": "A very thin round of dough spread with minced lamb, tomato and pepper and baked in seconds. Not a pizza — it is rolled around parsley and lemon and eaten by hand. Cheap enough to order two without thinking.",
+    "listOrder": 4
+  },
+  {
+    "city": "Istanbul",
+    "name": "Pide",
+    "description": "A boat of dough baked with cheese, egg or minced meat, the edges folded to hold the filling, cut into pieces with a rocking blade. Order it with kaşar cheese and a raw egg cracked into the middle.",
+    "listOrder": 5
+  },
+  {
+    "city": "Istanbul",
+    "name": "Adana kebap",
+    "description": "Hand-minced lamb pressed onto a wide flat skewer and grilled over charcoal, spiced with red pepper and served with grilled tomato, onion and flatbread that soaks up the fat. Named for the southern city, and properly hot.",
+    "listOrder": 6
+  },
+  {
+    "city": "Istanbul",
+    "name": "İskender kebap",
+    "description": "Sliced spit-roasted lamb laid over cubes of bread, drenched in tomato sauce and browned butter poured at the table, with yogurt on the side. Invented in Bursa in the 1860s and still made under that family's name.",
+    "listOrder": 7
+  },
+  {
+    "city": "Istanbul",
+    "name": "Mantı",
+    "description": "Tiny dumplings of spiced lamb, boiled and served under garlic yogurt with melted butter and dried mint and red pepper poured over. Small enough that forty fit on a spoon. The smaller they are, the better the cook.",
+    "listOrder": 8
+  },
+  {
+    "city": "Istanbul",
+    "name": "Menemen",
+    "description": "Eggs scrambled slowly into tomato, green pepper and onion until soft and loose, served in the pan with bread for scooping. Breakfast, and the subject of one permanent national argument about whether onion belongs in it.",
+    "listOrder": 9
+  },
+  {
+    "city": "Istanbul",
+    "name": "Kumpir",
+    "description": "A large baked potato split and mashed in its skin with butter and cheese, then loaded with whatever you point at — olives, corn, sausage, pickles, russian salad. From Ortaköy, and the toppings are the entire event.",
+    "listOrder": 10
+  },
+  {
+    "city": "Istanbul",
+    "name": "Kokoreç",
+    "description": "Lamb intestines wrapped around offal, grilled on a spit for hours, then chopped fine with oregano and pepper and stuffed into bread. Organ meat, and the thing Istanbul eats at 3 a.m. It smells better than it sounds.",
+    "listOrder": 11
+  },
+  {
+    "city": "Istanbul",
+    "name": "Künefe",
+    "description": "Shredded pastry layered around unsalted stretchy cheese, baked in syrup and served hot so the cheese pulls when you cut it. Sweet and salty at once, topped with pistachio. Order it the moment it is made, never reheated.",
+    "listOrder": 12
+  },
+  {
+    "city": "Istanbul",
+    "name": "Baklava",
+    "description": "Forty or more sheets of pastry, clarified butter and pistachio, baked and soaked in syrup. Sold by weight and by cut — ask for şöbiyet or fıstıklı. Real ones shatter rather than squash, and the pistachios should be green.",
+    "listOrder": 13
+  },
+  {
+    "city": "Istanbul",
+    "name": "Dondurma",
+    "description": "Ice cream thickened with mastic and wild orchid root, so it stretches, resists the spoon and melts slowly. Vendors make a performance of taking it away from you before handing it over. Chewy in a way ice cream should not be.",
+    "listOrder": 14
+  },
+  {
+    "city": "Istanbul",
+    "name": "Türk kahvesi",
+    "description": "Finely ground coffee simmered with sugar in a small pot and poured grounds and all, drunk in small sips until you reach the sludge. Ordered by sweetness, not size. Served with water and, if you are lucky, a fortune read after.",
+    "listOrder": 15
+  },
+  {
+    "city": "Belgrade",
+    "name": "Ćevapi",
+    "description": "Small fingers of minced beef and lamb grilled over charcoal and served in a soft flatbread with raw onion and kajmak, by the five or the ten. The Balkans argue endlessly about whose are best. Ordered by number, not by plate.",
+    "listOrder": 1
+  },
+  {
+    "city": "Belgrade",
+    "name": "Pljeskavica",
+    "description": "The same minced meat as ćevapi pressed into one enormous flat patty, grilled hard and served in bread with onion, kajmak and ajvar. Bigger than the plate it comes on. Serbia's answer to a burger, and older than one.",
+    "listOrder": 2
+  },
+  {
+    "city": "Belgrade",
+    "name": "Karađorđeva šnicla",
+    "description": "Veal rolled around kajmak, breaded and fried, then served with tartar sauce — a 1950s invention nicknamed the maiden's dream, for reasons that become obvious. Enormous, molten inside, and entirely unserious.",
+    "listOrder": 3
+  },
+  {
+    "city": "Belgrade",
+    "name": "Burek",
+    "description": "Coiled phyllo filled with meat, cheese or spinach, baked in a huge round pan and sold by weight, cut in wedges. Eaten for breakfast with yogurt to drink. Greasy in a way that is the point rather than a flaw.",
+    "listOrder": 4
+  },
+  {
+    "city": "Belgrade",
+    "name": "Ajvar",
+    "description": "Red peppers roasted, peeled and cooked down with eggplant and oil into a thick relish, made in enormous batches every autumn and jarred for winter. Every family insists theirs is correct. Eaten on bread with cheese.",
+    "listOrder": 5
+  },
+  {
+    "city": "Belgrade",
+    "name": "Kajmak",
+    "description": "A fresh dairy spread skimmed from scalded milk and left to ripen, somewhere between clotted cream and young cheese, salty and slightly sour. Put on bread, on meat, inside everything. Nothing else quite tastes like it.",
+    "listOrder": 6
+  },
+  {
+    "city": "Belgrade",
+    "name": "Gibanica",
+    "description": "Layers of phyllo torn and mixed with eggs and salty white cheese, baked until the top curls and browns and the middle stays custardy. Served warm at every celebration and every ordinary breakfast alike.",
+    "listOrder": 7
+  },
+  {
+    "city": "Belgrade",
+    "name": "Šopska salata",
+    "description": "Tomato, cucumber, onion and pepper under a heavy snow of grated white cheese. Named for a region straddling three borders, and claimed by all of them. The cheese should completely hide what is underneath.",
+    "listOrder": 8
+  },
+  {
+    "city": "Belgrade",
+    "name": "Riblja čorba",
+    "description": "A peppery freshwater fish soup, red with paprika, made from whatever the Danube and Sava gave up — carp, catfish, perch. Cooked in a kettle by the river. There is also a famous rock band named after it.",
+    "listOrder": 9
+  },
+  {
+    "city": "Belgrade",
+    "name": "Pasulj",
+    "description": "White beans slow-cooked with smoked ribs, paprika and bay until the broth thickens by itself. The everyday winter meal of the whole country, cooked in vast pots. Eaten with raw onion and bread, and better reheated.",
+    "listOrder": 10
+  },
+  {
+    "city": "Belgrade",
+    "name": "Urnebes",
+    "description": "A fierce spread of crumbled white cheese, garlic, hot paprika and oil, mashed into a rough paste — the name translates roughly as chaos or pandemonium. Served with grilled meat, and it will overpower anything near it.",
+    "listOrder": 11
+  },
+  {
+    "city": "Belgrade",
+    "name": "Krempita",
+    "description": "Two thin layers of pastry with several centimeters of set vanilla custard between them, cut into squares and dusted with sugar. Sold from bakery windows in a solid slab. Eat it with a fork; it does not survive being picked up.",
+    "listOrder": 12
+  },
+  {
+    "city": "Belgrade",
+    "name": "Tulumba",
+    "description": "Ridged batter piped into hot oil, fried until deep gold and then soaked in cold sugar syrup so it stays crisp outside and syrupy within. Sold from trays, by the piece. Ottoman by inheritance, and sweeter than it looks.",
+    "listOrder": 13
+  },
+  {
+    "city": "Belgrade",
+    "name": "Rakija",
+    "description": "Fruit brandy — plum most often, but quince, apricot and pear all exist — distilled at home in enormous quantity. Drunk before a meal rather than after, at room temperature, in small glasses. Everyone claims an uncle who makes it.",
+    "listOrder": 14
+  },
+  {
+    "city": "Bucharest",
+    "name": "Mici",
+    "description": "Skinless grilled sausages of beef and lamb with garlic, pepper and baking soda, which is what makes them springy. Served in a pile with mustard and bread, never a bun. Ordered by the piece and eaten with beer, outdoors.",
+    "listOrder": 1
+  },
+  {
+    "city": "Bucharest",
+    "name": "Sarmale",
+    "description": "Cabbage leaves — pickled, not fresh — rolled around pork and rice with dill, cooked slowly with smoked meat and served with polenta and sour cream. Smaller and sourer than the Hungarian version. Christmas, and every Sunday.",
+    "listOrder": 2
+  },
+  {
+    "city": "Bucharest",
+    "name": "Mămăligă",
+    "description": "Cornmeal cooked to a thick polenta and turned out in a mound, cut with a thread rather than a knife. Eaten with cheese, sour cream, or under stew. It replaced bread for centuries in the countryside, and often still does.",
+    "listOrder": 3
+  },
+  {
+    "city": "Bucharest",
+    "name": "Ciorbă de burtă",
+    "description": "Tripe soup, white with sour cream and egg yolk, sharpened with vinegar and garlic and served scaldingly hot. The national hangover cure. Order it with a small dish of hot peppers and use them, one bite at a time.",
+    "listOrder": 4
+  },
+  {
+    "city": "Bucharest",
+    "name": "Ciorbă de perișoare",
+    "description": "Meatball soup soured with fermented wheat bran, thick with vegetables and finished with lovage — an herb that tastes like celery multiplied. The sourness is the defining feature of Romanian soup, and it takes a moment.",
+    "listOrder": 5
+  },
+  {
+    "city": "Bucharest",
+    "name": "Zacuscă",
+    "description": "Roasted eggplant and peppers cooked down with onion and tomato into a dark spread, made in huge autumn batches and jarred for the year. Eaten cold on bread. Every family's is different and every one is defended.",
+    "listOrder": 6
+  },
+  {
+    "city": "Bucharest",
+    "name": "Salată de vinete",
+    "description": "Eggplant roasted over flame until the skin burns, then chopped with oil and onion into a smoky, loose paste — never blended smooth. Served cold with tomato on bread. The wood-smoke taste is the whole reason for it.",
+    "listOrder": 7
+  },
+  {
+    "city": "Bucharest",
+    "name": "Covrigi",
+    "description": "Soft bread rings crusted in salt, poppy or sesame, sold hot from windows in the street for small change. Closer to a soft pretzel than a bagel. Eaten walking, at any hour, and best from a window with a line.",
+    "listOrder": 8
+  },
+  {
+    "city": "Bucharest",
+    "name": "Drob",
+    "description": "A baked loaf of chopped lamb offal with herbs, egg and onion, wrapped in caul fat and served cold in slices at Easter. Somewhere between a terrine and a meatloaf. Organ meat, and much gentler than the description.",
+    "listOrder": 9
+  },
+  {
+    "city": "Bucharest",
+    "name": "Plăcintă",
+    "description": "Thin pastry folded around salty cheese, potato, cabbage or apple and pan-fried or baked. Sold from bakeries and roadside stands in a paper napkin. The savory cheese one, eaten hot, is the one to start with.",
+    "listOrder": 10
+  },
+  {
+    "city": "Bucharest",
+    "name": "Papanași",
+    "description": "Two fried curd cheese doughnuts, one large with a small one perched on top, buried in sour cream and sour cherry jam. Enormous, hot, and meant to be shared, though nobody actually does. Order it after almost nothing else.",
+    "listOrder": 11
+  },
+  {
+    "city": "Bucharest",
+    "name": "Cozonac",
+    "description": "A sweet braided loaf swirled with ground walnuts, cocoa and rum, baked for Easter and Christmas and eaten in thick slices for days after. Dense, faintly boozy, and better toasted once it is a day or two old.",
+    "listOrder": 12
+  },
+  {
+    "city": "Bucharest",
+    "name": "Țuică",
+    "description": "Plum spirit, drunk cold in a small glass before food rather than after, and usually made at home rather than bought. Stronger than it tastes going down. Refusing a second is understood; refusing the first is not.",
+    "listOrder": 13
+  },
+  {
+    "city": "Paris",
+    "name": "Croissant",
+    "description": "Laminated dough folded with butter dozens of times and baked until it shatters. A straight one is made with real butter and a curved one usually is not — that is the convention, and it holds. Buy it before nine and eat it plain.",
+    "listOrder": 1
+  },
+  {
+    "city": "Paris",
+    "name": "Jambon-beurre",
+    "description": "Ham and butter in a baguette and nothing else: no cheese, no salad, no mustard unless you ask. France eats over a billion a year. The whole thing rests on the bread and the butter being good.",
+    "listOrder": 2
+  },
+  {
+    "city": "Paris",
+    "name": "Croque monsieur",
+    "description": "Ham and cheese toasted with béchamel and more cheese on top, browned under a grill. Add a fried egg and it becomes a croque madame. Café food since 1910, and the test of whether a café bothers with its kitchen.",
+    "listOrder": 3
+  },
+  {
+    "city": "Paris",
+    "name": "Steak frites",
+    "description": "A thin cut of beef seared rare under a pat of herb butter, with a mound of thin fries and no vegetable in sight. Order it saignant and expect it rarer than you meant. The fries are usually refilled without asking.",
+    "listOrder": 4
+  },
+  {
+    "city": "Paris",
+    "name": "Soupe à l'oignon",
+    "description": "Onions cooked down for an hour until dark and sweet, in beef broth under a raft of bread and melted gruyère. Market workers ate it at dawn at the old central market. Winter only, if you want it to make sense.",
+    "listOrder": 5
+  },
+  {
+    "city": "Paris",
+    "name": "Escargots",
+    "description": "Snails baked in their shells under garlic, parsley and a great deal of butter, served in a dimpled dish with tongs and a narrow fork. The snail is a delivery system for the butter, and the bread finishes the job.",
+    "listOrder": 6
+  },
+  {
+    "city": "Paris",
+    "name": "Steak tartare",
+    "description": "Raw beef chopped by hand and mixed with capers, shallot, mustard and egg yolk, either at the table or in the kitchen. Chopped, never ground — that texture is the whole difference. Order it with fries.",
+    "listOrder": 7
+  },
+  {
+    "city": "Paris",
+    "name": "Blanquette de veau",
+    "description": "Veal poached gently with carrot and onion, the broth turned into a cream sauce with egg yolk and lemon. Nothing is browned at any stage, which is the actual definition. Served with rice, and quietly loved by everyone.",
+    "listOrder": 8
+  },
+  {
+    "city": "Paris",
+    "name": "Andouillette",
+    "description": "A sausage made from coarsely cut pig intestine, grilled and served with mustard. It smells strongly of what it is, and you will either find it magnificent or you will not. Look for the AAAAA mark; the association is real.",
+    "listOrder": 9
+  },
+  {
+    "city": "Paris",
+    "name": "Falafel",
+    "description": "Chickpea fritters in pita with eggplant, cabbage, hummus and hot sauce, sold in the Marais with a line down the street. Not French in origin and entirely Parisian in practice. Eaten walking, and dripping.",
+    "listOrder": 10
+  },
+  {
+    "city": "Paris",
+    "name": "Huîtres",
+    "description": "Oysters from Brittany and Normandy, eaten raw by the half dozen with rye bread, butter and lemon, in brasseries with a shellfish stall out front. Ask for the flat ones if you want the strong metallic kind.",
+    "listOrder": 11
+  },
+  {
+    "city": "Paris",
+    "name": "Paris-Brest",
+    "description": "A ring of choux pastry split and filled with praline cream, created in 1910 to mark a bicycle race and shaped like a wheel. Hazelnut-heavy and less sweet than it looks. Eaten with a fork, never with hands.",
+    "listOrder": 12
+  },
+  {
+    "city": "Paris",
+    "name": "Éclair",
+    "description": "Choux pastry piped long, filled with chocolate or coffee cream and glazed on top in the same flavor. The name means lightning, supposedly for how fast it goes. Judge a pâtisserie on whether the glaze is thin and clean.",
+    "listOrder": 13
+  },
+  {
+    "city": "Paris",
+    "name": "Mille-feuille",
+    "description": "Three sheets of caramelized puff pastry with pastry cream between, glazed and marbled on top. It is built to shatter and collapse the moment you cut it, which makes eating one gracefully impossible.",
+    "listOrder": 14
+  },
+  {
+    "city": "Paris",
+    "name": "Kir",
+    "description": "White wine with a measure of blackcurrant liqueur, named for a Burgundy priest and mayor who served it constantly. Ordered before dinner at a café table in the late afternoon. Kir royal swaps the wine for champagne.",
+    "listOrder": 15
+  },
+  {
+    "city": "Marseille",
+    "name": "Bouillabaisse",
+    "description": "A fish stew of rockfish, saffron and fennel, served as two courses: the broth first with rouille and toast, the fish after. Fishermen made it from what they could not sell. The real thing is costly and ordered a day ahead.",
+    "listOrder": 1
+  },
+  {
+    "city": "Marseille",
+    "name": "Panisse",
+    "description": "Chickpea flour cooked to a paste, set, cut into batons and fried until crisp outside and creamy within, then salted hard. Sold from stalls in the old fishing quarter. The local answer to a french fry, and older.",
+    "listOrder": 2
+  },
+  {
+    "city": "Marseille",
+    "name": "Pizza moitié-moitié",
+    "description": "Half anchovy and half cheese on a thin base from a wood oven, sold from vans since Italian families arrived a century ago. Ask for half and half and you will be understood. Emmental rather than mozzarella, which is the local way.",
+    "listOrder": 3
+  },
+  {
+    "city": "Marseille",
+    "name": "Aïoli",
+    "description": "Garlic pounded with olive oil into a stiff yellow mayonnaise, served with poached salt cod, boiled vegetables and eggs — a whole Friday meal named after its sauce. The garlic is fierce and is meant to be.",
+    "listOrder": 4
+  },
+  {
+    "city": "Marseille",
+    "name": "Soupe au pistou",
+    "description": "Summer vegetable and bean soup with a spoon of basil, garlic and oil stirred in at the table rather than cooked into it. Related to pesto, without pine nuts. Made when the beans are fresh, in late July and August.",
+    "listOrder": 5
+  },
+  {
+    "city": "Marseille",
+    "name": "Tapenade",
+    "description": "Black olives, capers, anchovy and oil pounded into a coarse paste — the name comes from the Provençal word for caper, not for olive. Spread on toast before dinner. It should taste more of caper than you expect.",
+    "listOrder": 6
+  },
+  {
+    "city": "Marseille",
+    "name": "Anchoïade",
+    "description": "Salted anchovies mashed with garlic and olive oil into a strong warm dip for raw vegetables and bread. Fishermen's food, unapologetically salty. Served at the start of a meal with something cold to drink.",
+    "listOrder": 7
+  },
+  {
+    "city": "Marseille",
+    "name": "Supions frits",
+    "description": "Tiny whole cuttlefish floured and flash-fried, with lemon and sometimes garlic and parsley thrown over. Eaten with fingers at harbor tables. Sweeter and more tender than squid, and gone within minutes of arriving.",
+    "listOrder": 8
+  },
+  {
+    "city": "Marseille",
+    "name": "Pieds paquets",
+    "description": "Sheep tripe parcels stuffed with salt pork and garlic, tied by hand and braised with trotters in white wine and tomato for hours. Organ meat, slow and gelatinous, and a genuine local specialty. Order it at lunch.",
+    "listOrder": 9
+  },
+  {
+    "city": "Marseille",
+    "name": "Fougasse",
+    "description": "Flat bread slashed into a leaf shape so there is as much crust as possible, baked with olives, anchovy or bacon worked into the dough. Torn apart rather than sliced. Provence's focaccia, drier and crustier.",
+    "listOrder": 10
+  },
+  {
+    "city": "Marseille",
+    "name": "Chichi frégi",
+    "description": "A long ridged doughnut fried to order and rolled in sugar, sold on the seafront and out at the beach villages. Orange-flower scented and greasy in the correct way. Eat it hot, from the paper, with your hands.",
+    "listOrder": 11
+  },
+  {
+    "city": "Marseille",
+    "name": "Navettes",
+    "description": "Hard, dry boat-shaped biscuits scented with orange flower, baked at the same bakery near the abbey since 1781 and blessed in February at Candlemas. Meant for dunking, and they keep for months.",
+    "listOrder": 12
+  },
+  {
+    "city": "Marseille",
+    "name": "Pastis",
+    "description": "Anise spirit poured into a glass and cut with five parts cold water, which turns it cloudy yellow. Drunk slowly in the shade before lunch with a bowl of olives. Ordering it neat marks you out instantly.",
+    "listOrder": 13
+  },
+  {
+    "city": "Brussels",
+    "name": "Frites",
+    "description": "Potatoes fried twice — once low to cook them, once hot to crisp them — in a paper cone from a friture, with a sauce chosen off a list of twenty. Belgium claims the invention and defends it. Mayonnaise, or ask for andalouse.",
+    "listOrder": 1
+  },
+  {
+    "city": "Brussels",
+    "name": "Moules-frites",
+    "description": "Mussels steamed with white wine, celery and onion, arriving in the black pot they cooked in with fries alongside. Use an empty shell as tongs for the rest. In season from summer into winter, cheapest in autumn.",
+    "listOrder": 2
+  },
+  {
+    "city": "Brussels",
+    "name": "Carbonnade flamande",
+    "description": "Beef stewed in dark Belgian beer with onions, a slice of mustard-spread bread laid on top to dissolve and thicken it. Sweeter and deeper than a wine stew. Served with fries, because everything is.",
+    "listOrder": 3
+  },
+  {
+    "city": "Brussels",
+    "name": "Stoemp",
+    "description": "Potatoes mashed roughly with a vegetable — carrot, leek, endive, kale — and a great deal of butter, served with sausage or bacon. Working-class Brussels food. The vegetable changes with the season and nobody minds.",
+    "listOrder": 4
+  },
+  {
+    "city": "Brussels",
+    "name": "Waterzooi",
+    "description": "Chicken or fish poached in broth with root vegetables and thickened with cream and egg yolk, landing between a soup and a stew. From Ghent, adopted here. Eaten with a spoon and a fork at the same time.",
+    "listOrder": 5
+  },
+  {
+    "city": "Brussels",
+    "name": "Chicons au gratin",
+    "description": "Belgian endive wrapped in ham, covered in béchamel and cheese and baked until browned. The endive stays faintly bitter under all of it, which is the point. It is grown in the dark, in cellars, near this city.",
+    "listOrder": 6
+  },
+  {
+    "city": "Brussels",
+    "name": "Filet américain",
+    "description": "Raw beef minced with capers, onion, mustard and egg yolk, spread thickly on bread or served with fries. Nothing American about it. Sold in every butcher shop and eaten at lunch without any ceremony at all.",
+    "listOrder": 7
+  },
+  {
+    "city": "Brussels",
+    "name": "Gaufre de Bruxelles",
+    "description": "A light rectangular waffle with deep pockets, made from thin yeasted batter, crisp outside and hollow within, eaten warm with powdered sugar and nothing else. This is the one to eat with a knife and fork.",
+    "listOrder": 8
+  },
+  {
+    "city": "Brussels",
+    "name": "Boulets sauce lapin",
+    "description": "Large pork and beef meatballs in a dark sweet-sour sauce built on regional syrup, with fries. There is no rabbit involved — the name comes from the man who invented it. Sticky, strange, and better than it sounds.",
+    "listOrder": 9
+  },
+  {
+    "city": "Brussels",
+    "name": "Gaufre de Liège",
+    "description": "A dense, chewy waffle made from bread dough studded with pearl sugar that caramelizes on the iron into a crackling crust. Uneven-edged, eaten hot from a stand, and nothing like the Brussels kind.",
+    "listOrder": 10
+  },
+  {
+    "city": "Brussels",
+    "name": "Speculoos",
+    "description": "Thin, hard spiced biscuits pressed in carved wooden molds, tasting of cinnamon, clove and brown sugar, served with coffee everywhere. Belgium exported the crushed spread version, but the biscuit came first.",
+    "listOrder": 11
+  },
+  {
+    "city": "Brussels",
+    "name": "Cuberdon",
+    "description": "A cone-shaped sweet with a hard crust and thick raspberry syrup inside, sold from purple carts. It lasts about three weeks before the center crystallizes, which is why it never exported. Bite the tip and squeeze.",
+    "listOrder": 12
+  },
+  {
+    "city": "Brussels",
+    "name": "Pralines",
+    "description": "Filled chocolates — ganache, praliné, caramel — invented in Brussels in 1912 when a pharmacist's son put filling inside a chocolate shell. Bought by weight in a numbered box, and best eaten within days.",
+    "listOrder": 13
+  },
+  {
+    "city": "Brussels",
+    "name": "Gueuze",
+    "description": "A blend of young and old lambic beers fermented with wild yeast from the air of one valley, refermented in the bottle and sour enough to startle you. Served corked, like wine. Nothing else in beer tastes like it.",
+    "listOrder": 14
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Haring",
+    "description": "Raw herring cured lightly in salt, served with chopped onion and pickle and eaten by holding it up by the tail. The new season's fish arrives in June and is fattest then. Not fishy at all — sweet, soft and clean.",
+    "listOrder": 1
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Broodje kroket",
+    "description": "A deep-fried roll of thick beef ragout, breaded and hot enough to burn you, in a soft white bun with mustard. The bread does nothing but hold it. Sold from vending machine walls, which is genuinely the best way.",
+    "listOrder": 2
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Bitterballen",
+    "description": "Round versions of the same ragout, breaded and fried and served by the dozen with mustard beside beer. The standard order in a brown café at five in the afternoon. Wait two minutes or you will burn your mouth.",
+    "listOrder": 3
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Patat oorlog",
+    "description": "Fries with mayonnaise, spiced peanut sauce and raw onion piled on together — the name means war, for how it looks. The peanut sauce arrived through Indonesia and colonial history. Eaten with a small plastic fork.",
+    "listOrder": 4
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Kibbeling",
+    "description": "Chunks of cod in seasoned batter, deep-fried and served in a tray with garlic or tartar sauce from a market fish stall. Originally made from cheeks and offcuts. The best stalls fry to order and the line still moves fast.",
+    "listOrder": 5
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Stamppot",
+    "description": "Potatoes mashed with kale, endive or sauerkraut, with a smoked sausage pressed into the middle and a well of gravy. Winter food, eaten early in the evening. Every version has a name and a devoted constituency.",
+    "listOrder": 6
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Erwtensoep",
+    "description": "Split pea soup cooked with pork until a spoon will stand up in it, with smoked sausage sliced through. Also called snert. Traditionally eaten after skating on frozen canals, and only correct when genuinely thick.",
+    "listOrder": 7
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Rijsttafel",
+    "description": "A dozen or more small Indonesian dishes served at once around rice — satay, rendang, sambals, pickles, fried banana. Invented by Dutch colonists to display the range of Javanese cooking. A meal that takes hours.",
+    "listOrder": 8
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Gouda",
+    "description": "Cheese aged from a few weeks to several years, running from soft and mild to hard, crystalline and almost caramel. Ask for oud, the aged kind, and eat it with mustard. Market stalls will cut samples for you.",
+    "listOrder": 9
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Poffertjes",
+    "description": "Small spongy pancakes made with buckwheat and yeast, cooked in a dimpled pan and served under butter and powdered sugar by the dozen. Eaten hot at winter markets with a tiny fork. Lighter than pancakes should be.",
+    "listOrder": 10
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Stroopwafel",
+    "description": "Two thin waffle discs with caramel syrup between them, cut fresh off the iron at markets. Rest it over a hot drink so the steam softens the syrup before you eat it. That instruction is not optional.",
+    "listOrder": 11
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Appeltaart",
+    "description": "A tall apple cake with thick pastry and a cinnamon-heavy filling, wedged with whipped cream and eaten with coffee in the afternoon. Denser and less sweet than the American pie, and ordered by the slab.",
+    "listOrder": 12
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Hagelslag",
+    "description": "Chocolate sprinkles eaten on buttered bread at breakfast, by adults, entirely without embarrassment. The butter is what makes them stick. The supermarket aisle for this is longer than the one for cereal.",
+    "listOrder": 13
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Oliebollen",
+    "description": "Deep-fried dough balls with raisins, buried in powdered sugar, sold from trailers that appear in December and vanish in January. Eaten outdoors at New Year in the cold. Better than a doughnut, and gone by the 2nd.",
+    "listOrder": 14
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Jenever",
+    "description": "Juniper spirit aged in oak, the ancestor of gin, poured brimming into a tulip glass that you bend down to sip without lifting. Ordered beside a beer, a pairing called a headbutt. Ask for oude, the maltier kind.",
+    "listOrder": 15
   }
 ]
