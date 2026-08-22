@@ -13,20 +13,20 @@
   },
   {
     "city": "Lisbon",
-    "name": "Prego no pão",
-    "description": "Garlicky beef steak slapped into a bread roll — traditionally the full stop to a seafood meal, ordered after the shellfish rather than instead of it. At the old cervejarias it arrives as dessert. Mustard and piri-piri; never well done.",
-    "listOrder": 3
-  },
-  {
-    "city": "Lisbon",
     "name": "Pastéis de bacalhau",
     "description": "Croquettes of salt cod, potato and parsley, shaped between two spoons into a pointed rugby ball and fried till the ridges crisp. Cheap counter food since the 1800s, eaten warm or cold with a beer. The cheese-filled tourist version is modern.",
-    "listOrder": 4
+    "listOrder": 3
   },
   {
     "city": "Lisbon",
     "name": "Bacalhau à Brás",
     "description": "Shredded salt cod tangled with matchstick fries and onion, loosely bound in barely-set egg, black olives and parsley scattered over. Named for a 19th-century Bairro Alto tasqueiro. It should be creamy — if it's firm like an omelette, it sat too long.",
+    "listOrder": 4
+  },
+  {
+    "city": "Lisbon",
+    "name": "Prego no pão",
+    "description": "Garlicky beef steak slapped into a bread roll — traditionally the full stop to a seafood meal, ordered after the shellfish rather than instead of it. At the old cervejarias it arrives as dessert. Mustard and piri-piri; never well done.",
     "listOrder": 5
   },
   {
