@@ -281,7 +281,9 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* The illustrations are transparent PNGs, so they sit straight on the panel —
    no plate, no shadow, no crop. `contain` rather than `cover` because these are
    drawings that must not be cut off at the edges. */
-.food-item__img { width: 100px; height: 100px; object-fit: contain; flex-shrink: 0; }
+/* Nudged up: the drawings carry transparent space at the top, so aligning the
+   image box to the row top makes the art itself sit low against the dish name. */
+.food-item__img { width: 100px; height: 100px; object-fit: contain; flex-shrink: 0; margin-top: -20px; }
 .food-item__img--placeholder { display: flex; align-items: center; justify-content: center; }
 .food-item__img--placeholder svg { width: 28px; height: 28px; display: block; color: var(--ink-xlight); }
 .food-item__body { flex: 1; min-width: 0; }
