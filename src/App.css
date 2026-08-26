@@ -92,7 +92,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .words__cat-sub { padding: 6px 20px 2px; font-family: var(--font-display); font-size: 15px; font-style: italic; color: var(--ink-light); }
 .word-row { padding: 11px 20px; border-bottom: 1px solid var(--border); }
 .word-row__head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-.word-row__local { font-family: var(--font-display); font-size: 20px; line-height: 1.15; color: var(--ink); }
+.word-row__local { font-size: 16px; font-weight: 500; line-height: 1.35; color: var(--ink); }
 .word-row__phon { font-size: 12px; font-style: italic; letter-spacing: 0.02em; color: var(--ink-light); }
 .word-row__meaning { font-size: 14px; color: var(--ink); margin-top: 3px; }
 .word-row__ctx { font-size: 12.5px; line-height: 1.45; color: var(--ink-light); margin-top: 5px; }
