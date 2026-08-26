@@ -1085,14 +1085,14 @@ export default function App() {
     setTimeout(() => setSelectedStory(null), 200)
   }, [])
 
-  const selectCity = useCallback(async (city) => {
+  const selectCity = useCallback(async (city, pushUrl = true) => {
     closeStoryWithFade()
     setSelectedCity(city)
     setActiveFilter('All')
     setDetailView('overview')
     setMobileView('detail')
     setStoriesLoading(true)
-    window.history.pushState({}, '', '/' + slugify(city.name))
+    if (pushUrl) window.history.pushState({}, '', '/' + slugify(city.name))
     // Food loads alongside the stories rather than inside their try/catch, so a
     // failure on either side can't blank out the other.
     setFoods([])
@@ -1144,16 +1144,36 @@ export default function App() {
     window.history.pushState({}, '', '/')
   }, [closeStoryWithFade])
 
+  // URL is /{city} at the overview and /{city}/{section} once a section is open.
+  const selectedCityRef = useRef(null)
+  selectedCityRef.current = selectedCity
+  const sectionFilterBySlug = slug => slug ? FILTERS.slice(1).find(f => slugify(f.label) === slug) : null
+  const openSection = (label) => {
+    setActiveFilter(label)
+    setDetailView('stories')
+    if (selectedCity) window.history.pushState({}, '', '/' + slugify(selectedCity.name) + '/' + slugify(label))
+  }
+  const closeSection = () => {
+    closeStoryWithFade()
+    setActiveFilter('All')
+    setDetailView('overview')
+    if (selectedCity) window.history.pushState({}, '', '/' + slugify(selectedCity.name))
+  }
+
   useEffect(() => {
     fetchCities().then(async data => {
       setCities(data)
       setLoading(false)
 
-      // Auto-select city from URL on initial load
-      const slug = window.location.pathname.replace(/^\//, '').toLowerCase()
-      if (slug) {
-        const match = data.find(c => slugify(c.name) === slug)
-        if (match) selectCity(match)
+      // Auto-select city (and section) from URL on initial load: /{city}/{section}
+      const [citySlug, sectionSlug] = window.location.pathname.replace(/^\//, '').toLowerCase().split('/')
+      if (citySlug) {
+        const match = data.find(c => slugify(c.name) === citySlug)
+        if (match) {
+          selectCity(match, false) // URL is already correct — don't overwrite it
+          const f = sectionFilterBySlug(sectionSlug)
+          if (f) { setActiveFilter(f.label); setDetailView('stories') }
+        }
       }
 
       const counts = {}
@@ -1175,18 +1195,22 @@ export default function App() {
   // Handle browser back/forward
   useEffect(() => {
     const onPopState = () => {
-      const slug = window.location.pathname.replace(/^\//, '').toLowerCase()
+      const [citySlug, sectionSlug] = window.location.pathname.replace(/^\//, '').toLowerCase().split('/')
+      const f = sectionFilterBySlug(sectionSlug)
+      const applySection = () => {
+        if (f) { setActiveFilter(f.label); setDetailView('stories') }
+        else { setActiveFilter('All'); setDetailView('overview') }
+      }
+      if (!citySlug) {
+        closeStoryWithFade(); setSelectedCity(null); setStories([]); setFoods([]); setWords([])
+        setDetailView('overview'); setActiveFilter('All'); setMobileView('list'); return
+      }
+      // Same city, just a section change → don't re-fetch, only swap the view.
+      const current = selectedCityRef.current
+      if (current && slugify(current.name) === citySlug) { closeStoryWithFade(); applySection(); return }
       setCities(prev => {
-        if (!slug) {
-          setSelectedCity(null)
-          setStories([])
-          setDetailView('overview')
-          setActiveFilter('All')
-          setMobileView('list')
-        } else {
-          const match = prev.find(c => slugify(c.name) === slug)
-          if (match) selectCity(match)
-        }
+        const match = prev.find(c => slugify(c.name) === citySlug)
+        if (match) { selectCity(match, false); applySection() }
         return prev
       })
     }
@@ -1307,7 +1331,7 @@ export default function App() {
       <section className={"panel-detail" + (selectedCity ? ' panel-detail--open' : '')}>
         {mobileView === 'detail' && selectedCity && (
           <div className="mobile-back" onClick={() => {
-            if (detailView === 'stories') { closeStoryWithFade(); setDetailView('overview'); setActiveFilter('All') }
+            if (detailView === 'stories') { closeSection() }
             else goHome()
           }}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -1328,11 +1352,11 @@ export default function App() {
                   foodsLoading={foodsLoading}
                   words={words}
                   wordsLoading={wordsLoading}
-                  onSelectFilter={f => { setActiveFilter(f); setDetailView('stories') }}
+                  onSelectFilter={openSection}
                 />
               </div>
               <div className="nav-slide-panel">
-                <div className="overview-back" onClick={() => { closeStoryWithFade(); setDetailView('overview'); setActiveFilter('All') }}>
+                <div className="overview-back" onClick={closeSection}>
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M15 18l-6-6 6-6"/></svg>
                   All categories
                 </div>
@@ -1456,8 +1480,8 @@ export default function App() {
                 onChange={e => {
                   const v = e.target.value
                   closeStoryWithFade()
-                  if (v === 'All') { setActiveFilter('All'); setDetailView('overview') }
-                  else { setActiveFilter(v); setDetailView('stories') }
+                  if (v === 'All') closeSection()
+                  else openSection(v)
                 }}
               >
                 <option value="All">All content</option>
