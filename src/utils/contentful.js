@@ -26,7 +26,35 @@ export async function fetchCities() {
     mapHeight: item.fields.cityMapHeight,
     latLngDelta: item.fields.latitudeLongitudeDelta,
     musicPlaylistSpotify: item.fields.musicPlaylistSpotify || null,
+    wordsPreamble: item.fields.wordsPreamble || null,
+    wordsVariant: item.fields.wordsVariant || 'standard',
+    wordsPublished: item.fields.wordsPublished || false,
   }))
+}
+
+// The Words tier: a per-city phrasebook of `word` entries. Category, label, and
+// order are derived in the app (see utils/words.js); this just returns the flat
+// list of published words for a city.
+export async function fetchWordsForCity(cityId) {
+  const res = await client.getEntries({
+    content_type: 'word',
+    'fields.city.sys.id': cityId,
+    limit: 200,
+  })
+  return res.items.map(item => {
+    const f = item.fields
+    return {
+      id: item.sys.id,
+      slot: f.slot,
+      local: f.local,
+      phonetic: f.phonetic || null,
+      meaning: f.meaning || null,
+      context: f.context || null,
+      groupNote: f.groupNote || null,
+      phoneticApproximate: f.phoneticApproximate || false,
+      deepCutOrder: f.deepCutOrder ?? null,
+    }
+  })
 }
 
 // Dishes worth eating in a city. Unlike stories, food carries no location — a

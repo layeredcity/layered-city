@@ -1,7 +1,8 @@
 import { useState, useEffect, useCallback, useMemo, useRef, cloneElement } from 'react'
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
-import { fetchCities, fetchStoriesForCity, fetchFoodsForCity } from './utils/contentful'
+import { fetchCities, fetchStoriesForCity, fetchFoodsForCity, fetchWordsForCity } from './utils/contentful'
+import { groupWords, preambleBullets, deepCutsSubtitle } from './utils/words'
 import { fetchOmdbData } from './utils/omdb'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
@@ -103,7 +104,10 @@ const FILTERS = [
   { label: 'Tours',            group: 'deeper', types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
   { label: 'TV',               group: 'media',  types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   alwaysShow: true, blurb: '{city} on the small screen' },
   { label: 'Videos',           group: 'media',  types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  alwaysShow: true, blurb: 'The best of {city} on YouTube' },
-  { label: 'Words',            group: 'deeper', types: ['speak'],        emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Speak like a local in {city}' },
+  // Words is its own `word` content type (a per-city phrasebook), not stories.
+  // Empty `types` keeps it out of every story filter; `words: true` routes it to
+  // the phrasebook panel. Gated on the city's wordsPublished flag.
+  { label: 'Words',            group: 'deeper', types: [], words: true,   emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Speak like a local in {city}' },
 ]
 
 // The overview splits into two: media made *about* the city, and the things
@@ -249,6 +253,40 @@ function mapsSearchUrl(dish, city) {
 
 // A dish, read in place. There is no detail view to open: the description is
 // the whole point, so it sits on the row rather than behind a click.
+// The Words phrasebook: a preamble, then categories in the locked order, each
+// word showing local · phonetic · meaning, with optional context and a group
+// note. Deep cuts get the formula subtitle and carry their meaning in context.
+function WordsPanel({ city, words }) {
+  const bullets = preambleBullets(city.wordsPreamble)
+  const categories = groupWords(words)
+  return (
+    <div className="words">
+      {bullets.length > 0 && (
+        <ul className="words__preamble">
+          {bullets.map((b, i) => <li key={i}>{b}</li>)}
+        </ul>
+      )}
+      {categories.map(cat => (
+        <div key={cat.key} className="words__cat">
+          <div className="story-group-heading words__cat-heading">{cat.label}</div>
+          {cat.key === 'deep-cuts' && <div className="words__cat-sub">{deepCutsSubtitle(city.name)}</div>}
+          {cat.words.map(w => (
+            <div key={w.id} className="word-row">
+              <div className="word-row__head">
+                <span className="word-row__local">{w.local}</span>
+                {w.phonetic && <span className="word-row__phon">{w.phonetic}</span>}
+              </div>
+              {w.meaning && <div className="word-row__meaning">{w.meaning}</div>}
+              {w.context && <div className="word-row__ctx">{w.context}</div>}
+              {w.groupNote && <div className="word-row__grp">{w.groupNote}</div>}
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  )
+}
+
 function FoodItem({ food, cityName }) {
   return (
     <div className="food-item">
@@ -283,10 +321,11 @@ function FoodItem({ food, cityName }) {
   )
 }
 
-function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, onSelectFilter }) {
-  const loading = storiesLoading || foodsLoading
+function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, words, wordsLoading, onSelectFilter }) {
+  const loading = storiesLoading || foodsLoading || wordsLoading
+  const wordCount = city.wordsPublished ? words.length : 0
   const sections = loading ? [] : FILTERS.slice(1)
-    .map(f => ({ filter: f, count: f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
+    .map(f => ({ filter: f, count: f.words ? wordCount : f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
     <div className="city-overview">
@@ -986,6 +1025,8 @@ export default function App() {
   const [storiesLoading, setStoriesLoading] = useState(false)
   const [foods, setFoods] = useState([])
   const [foodsLoading, setFoodsLoading] = useState(false)
+  const [words, setWords] = useState([])
+  const [wordsLoading, setWordsLoading] = useState(false)
   const [loading, setLoading] = useState(true)
   const [activeFilter, setActiveFilter] = useState('All')
   const [sortMode, setSortMode] = useState('rating') // 'rating' | 'date' — Books/Movies sort toggle
@@ -1033,6 +1074,13 @@ export default function App() {
       .then(setFoods)
       .catch(err => { console.error('Failed to fetch food:', err); setFoods([]) })
       .finally(() => setFoodsLoading(false))
+    // Words (the phrasebook) load alongside food, same pattern.
+    setWords([])
+    setWordsLoading(true)
+    fetchWordsForCity(city.id)
+      .then(setWords)
+      .catch(err => { console.error('Failed to fetch words:', err); setWords([]) })
+      .finally(() => setWordsLoading(false))
     try {
       const data = await fetchStoriesForCity(city.id)
       setStories(data)
@@ -1062,6 +1110,7 @@ export default function App() {
     setSelectedCity(null)
     setStories([])
     setFoods([])
+    setWords([])
     setDetailView('overview')
     setActiveFilter('All')
     setMobileView('list')
@@ -1119,7 +1168,8 @@ export default function App() {
   }, [selectCity])
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
-  const availableFilters = FILTERS.slice(1).filter(f => f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
+  const wordsAvailable = !!(selectedCity?.wordsPublished && words.length > 0)
+  const availableFilters = FILTERS.slice(1).filter(f => f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
 
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
@@ -1249,6 +1299,8 @@ export default function App() {
                   storiesLoading={storiesLoading}
                   foods={foods}
                   foodsLoading={foodsLoading}
+                  words={words}
+                  wordsLoading={wordsLoading}
                   onSelectFilter={f => { setActiveFilter(f); setDetailView('stories') }}
                 />
               </div>
@@ -1288,7 +1340,17 @@ export default function App() {
                   )}
                 </div>
                 <div className="stories-scroll">
-                  {currentFilter.food ? (
+                  {currentFilter.words ? (
+                    wordsLoading ? (
+                      <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading words...</div>
+                    ) : !(selectedCity.wordsPublished && words.length) ? (
+                      <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>
+                        Layered City does not yet speak {selectedCity.name}.
+                      </div>
+                    ) : (
+                      <WordsPanel city={selectedCity} words={words} />
+                    )
+                  ) : currentFilter.food ? (
                     foodsLoading ? (
                       <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading food...</div>
                     ) : foods.length === 0 ? (
