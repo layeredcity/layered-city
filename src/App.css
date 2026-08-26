@@ -95,8 +95,12 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .words__cat-title { font-family: var(--font-display); font-size: 21px; line-height: 1.1; color: var(--ink); }
 .words__cat-sub { font-family: var(--font-display); font-size: 13px; font-style: italic; line-height: 1.3; color: var(--ink-light); margin-top: 4px; }
 .words__cat-main { flex: 1; min-width: 0; }
-.word-row { padding: 9px 0; }
+.word-row { display: flex; align-items: flex-start; gap: 8px; padding: 9px 0; }
 .word-row + .word-row { border-top: 1px solid var(--border); }
+.word-row__text { flex: 1; min-width: 0; }
+.word-row__audio { flex-shrink: 0; width: 28px; height: 28px; margin-top: -1px; display: inline-flex; align-items: center; justify-content: center; padding: 0; border: none; border-radius: 50%; background: transparent; color: var(--accent); cursor: pointer; transition: background var(--transition); }
+.word-row__audio:hover { background: rgba(200,65,42,0.12); }
+.word-row__audio svg { width: 17px; height: 17px; }
 .word-row__local { display: block; font-size: 16px; font-weight: 500; line-height: 1.3; color: var(--ink); }
 .word-row__phon { display: block; font-size: 12px; font-style: italic; letter-spacing: 0.02em; color: var(--ink-light); margin-top: 1px; }
 .word-row__meaning { display: block; font-size: 13.5px; color: var(--ink); margin-top: 3px; }

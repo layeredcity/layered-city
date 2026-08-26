@@ -53,6 +53,9 @@ export async function fetchWordsForCity(cityId) {
       groupNote: f.groupNote || null,
       phoneticApproximate: f.phoneticApproximate || false,
       deepCutOrder: f.deepCutOrder ?? null,
+      audioUrl: f.audio?.fields?.file?.url
+        ? 'https:' + f.audio.fields.file.url
+        : null,
     }
   })
 }
