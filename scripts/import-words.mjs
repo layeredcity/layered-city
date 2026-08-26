@@ -25,11 +25,18 @@ function loadEnv(){
 const env = loadEnv()
 const SPACE = env.VITE_CONTENTFUL_SPACE
 const CMA = env.CONTENTFUL_MANAGEMENT_TOKEN
-async function cma(path, opts={}){
+async function cma(path, opts={}, attempt=0){
   const res = await fetch(`https://api.contentful.com/spaces/${SPACE}/environments/master${path}`, {
     ...opts,
     headers: { 'Authorization':'Bearer '+CMA, 'Content-Type':'application/vnd.contentful.management.v1+json', ...(opts.headers||{}) },
   })
+  // Back off and retry on rate-limit / transient errors — a 1,150-entry run
+  // will otherwise trip Contentful's per-second cap.
+  if ((res.status === 429 || res.status >= 500) && attempt < 6) {
+    const wait = Number(res.headers.get('X-Contentful-RateLimit-Reset')) * 1000 || (500 * 2 ** attempt)
+    await new Promise(r=>setTimeout(r, Math.max(wait, 500)))
+    return cma(path, opts, attempt+1)
+  }
   const body = res.status === 204 ? null : await res.json().catch(()=>null)
   if (!res.ok) throw new Error(`CMA ${opts.method||'GET'} ${path} → ${res.status}: ${body?.message||JSON.stringify(body)}`)
   return body
