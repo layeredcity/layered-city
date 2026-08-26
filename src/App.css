@@ -85,10 +85,12 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* Words tier: the per-city phrasebook. Each category is two columns —
    illustration + title on the left, the stacked word text on the right. */
 .words { display: flex; flex-direction: column; }
-.words__preamble { list-style: none; margin: 0; padding: 16px 20px 10px; border-bottom: 1px solid var(--border); }
-.words__preamble li { position: relative; padding-left: 15px; font-size: 13px; line-height: 1.5; color: #47423d; margin-bottom: 9px; }
-.words__preamble li:last-child { margin-bottom: 0; }
-.words__preamble li::before { content: ''; position: absolute; left: 3px; top: 8px; width: 4px; height: 4px; border-radius: 50%; background: var(--accent); }
+/* Overall advice: bullets in the right column, text aligned with the word
+   text and the dots hanging out to the left into the column gap. */
+.words__advice { list-style: none; margin: 0; padding: 0; }
+.words__advice li { position: relative; font-size: 13px; line-height: 1.5; color: #47423d; margin-bottom: 10px; }
+.words__advice li:last-child { margin-bottom: 0; }
+.words__advice li::before { content: ''; position: absolute; left: -12px; top: 8px; width: 4px; height: 4px; border-radius: 50%; background: var(--accent); }
 .words__cat { display: flex; align-items: flex-start; gap: 14px; padding: 18px 20px; border-bottom: 1px solid var(--border); }
 .words__cat-aside { width: 86px; flex-shrink: 0; position: sticky; top: 16px; align-self: flex-start; }
 .words__cat-title { margin-top: 13px; font-family: var(--font-body); font-size: 12px; font-weight: 600; line-height: 1.3; color: #E1232F; text-transform: uppercase; letter-spacing: 0.06em; white-space: pre-line; }

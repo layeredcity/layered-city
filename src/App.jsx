@@ -278,9 +278,16 @@ function WordsPanel({ city, words }) {
   return (
     <div className="words">
       {bullets.length > 0 && (
-        <ul className="words__preamble">
-          {bullets.map((b, i) => <li key={i}>{b}</li>)}
-        </ul>
+        <div className="words__cat">
+          <div className="words__cat-aside">
+            <div className="words__cat-title">Overall advice</div>
+          </div>
+          <div className="words__cat-main">
+            <ul className="words__advice">
+              {bullets.map((b, i) => <li key={i}>{b}</li>)}
+            </ul>
+          </div>
+        </div>
       )}
       {categories.map(cat => (
         <div key={cat.key} className="words__cat">
