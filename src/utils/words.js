@@ -38,13 +38,14 @@ export const SLOT_CATEGORY = {
   'deep-cut': 'deep-cuts',
 }
 
+// \n forces the heading's line break (rendered with white-space: pre-line).
 export const CATEGORY_LABEL = {
-  'coming-going':    'Coming & going',
-  'basics':          'The basics',
+  'coming-going':    'Coming\n& going',
+  'basics':          'The\nbasics',
   'language':        'Language',
-  'apology-passage': 'Apology & passage',
+  'apology-passage': 'Apologizing',
   'numbers':         'Numbers',
-  'table':           'At the table',
+  'table':           'At the\ntable',
   'out-about':       'Out and about',
   'shopping':        'Shopping',
   'deep-cuts':       'Deep cuts',
