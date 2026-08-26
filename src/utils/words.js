@@ -3,10 +3,10 @@
 // all derived here in the app — code enforces the order, Contentful the vocab.
 
 export const WORD_SLOTS = [
-  // Coming & going
-  'greeting-morning', 'greeting-afternoon', 'greeting-evening', 'greeting-casual', 'leaving',
   // The basics
   'please', 'thanks', 'yes', 'no',
+  // Coming & going
+  'greeting-morning', 'greeting-afternoon', 'greeting-evening', 'greeting-casual', 'leaving',
   // Language
   'speak-english', 'dont-speak', 'dont-understand',
   // Apology & passage
