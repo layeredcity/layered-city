@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useMemo, useRef, cloneElement } from 
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity, fetchFoodsForCity, fetchWordsForCity } from './utils/contentful'
-import { groupWords, preambleBullets, deepCutsSubtitle } from './utils/words'
+import { groupWords, preambleBullets } from './utils/words'
 import { fetchOmdbData } from './utils/omdb'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
@@ -286,7 +286,6 @@ function WordsPanel({ city, words }) {
         <div key={cat.key} className="words__cat">
           <div className="words__cat-aside">
             <div className="words__cat-title">{cat.label}</div>
-            {cat.key === 'deep-cuts' && <div className="words__cat-sub">{deepCutsSubtitle(city.name)}</div>}
           </div>
           <div className="words__cat-main">
             {cat.words.map(w => (
