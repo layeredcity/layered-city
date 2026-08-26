@@ -81,6 +81,26 @@ export function groupWords(words) {
     }))
 }
 
+// The language each city's words are in (for the section blurb). Keyed by city
+// name; lookup is diacritic-insensitive so "Kraków"/"Krakow" both resolve.
+export const CITY_LANGUAGE = {
+  Lisbon: 'Portuguese',
+  Madrid: 'Spanish', Seville: 'Spanish', Barcelona: 'Catalan',
+  Paris: 'French', Marseille: 'French', Brussels: 'French',
+  Rome: 'Italian', Florence: 'Italian', Naples: 'Italian',
+  Berlin: 'German', Vienna: 'German', Zurich: 'German',
+  Amsterdam: 'Dutch',
+  Copenhagen: 'Danish', Stockholm: 'Swedish', Oslo: 'Norwegian',
+  Helsinki: 'Finnish', Reykjavík: 'Icelandic',
+  Athens: 'Greek', Belgrade: 'Serbian', Prague: 'Czech',
+  Kraków: 'Polish', Bucharest: 'Romanian',
+  Budapest: 'Hungarian', Istanbul: 'Turkish',
+  London: 'English', Dublin: 'English', Edinburgh: 'English', Manchester: 'English',
+}
+const _normName = s => String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
+const _langByNorm = Object.fromEntries(Object.entries(CITY_LANGUAGE).map(([k, v]) => [_normName(k), v]))
+export const cityLanguage = name => _langByNorm[_normName(name)] || null
+
 // Per-section watercolor illustrations, served from public/words/. A category
 // with no illustration here just shows its title (the <img> hides on 404).
 export const CATEGORY_ILLUSTRATION = {

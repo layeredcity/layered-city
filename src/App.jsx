@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useMemo, useRef, cloneElement } from 
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity, fetchFoodsForCity, fetchWordsForCity } from './utils/contentful'
-import { groupWords, preambleBullets } from './utils/words'
+import { groupWords, preambleBullets, cityLanguage } from './utils/words'
 import { fetchOmdbData } from './utils/omdb'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
@@ -107,7 +107,7 @@ const FILTERS = [
   // Words is its own `word` content type (a per-city phrasebook), not stories.
   // Empty `types` keeps it out of every story filter; `words: true` routes it to
   // the phrasebook panel. Gated on the city's wordsPublished flag.
-  { label: 'Words',            group: 'deeper', types: [], words: true,   emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Speak like a local in {city}' },
+  { label: 'Words',            group: 'deeper', types: [], words: true,   emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Learn enough {language} to be polite' },
 ]
 
 // The overview splits into two: media made *about* the city, and the things
@@ -366,7 +366,7 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, word
             <div className={'overview-item__icon-wrap' + (filter.icon === 'audiotour' ? ' overview-item__icon-wrap--tour' : '')}>{TYPE_ICONS[filter.icon]}</div>
             <div className="overview-item__body">
               <div className="overview-item__label">{filter.label}</div>
-              {filter.blurb && <div className="overview-item__blurb">{filter.blurb.replace('{city}', city.name)}</div>}
+              {filter.blurb && <div className="overview-item__blurb">{filter.blurb.replace('{city}', city.name).replace('{language}', cityLanguage(city.name) || city.name)}</div>}
               <div className="overview-item__count">{count === 0 ? 'Coming soon' : count + ' ' + (count === 1 ? filter.unitSingular : filter.unitPlural)}</div>
             </div>
             <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
