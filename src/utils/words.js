@@ -43,7 +43,7 @@ export const CATEGORY_LABEL = {
   'coming-going':    'Coming\n& going',
   'basics':          'The\nbasics',
   'language':        'Language',
-  'apology-passage': 'Apologizing',
+  'apology-passage': 'Apologies',
   'numbers':         'Numbers',
   'table':           'At the\ntable',
   'out-about':       'Out and about',
