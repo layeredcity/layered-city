@@ -8,7 +8,7 @@ export const WORD_SLOTS = [
   // Coming & going
   'greeting-morning', 'greeting-afternoon', 'greeting-evening', 'greeting-casual', 'leaving',
   // Language
-  'speak-english', 'dont-speak', 'dont-understand',
+  'speak-english', 'dont-understand',
   // Apology & passage
   'sorry', 'excuse-attention', 'excuse-passing',
   // Numbers
@@ -27,7 +27,7 @@ export const SLOT_CATEGORY = {
   'greeting-morning': 'coming-going', 'greeting-afternoon': 'coming-going',
   'greeting-evening': 'coming-going', 'greeting-casual': 'coming-going', 'leaving': 'coming-going',
   'please': 'basics', 'thanks': 'basics', 'yes': 'basics', 'no': 'basics',
-  'speak-english': 'language', 'dont-speak': 'language', 'dont-understand': 'language',
+  'speak-english': 'language', 'dont-understand': 'language',
   'sorry': 'apology-passage', 'excuse-attention': 'apology-passage', 'excuse-passing': 'apology-passage',
   'number-one': 'numbers', 'number-two': 'numbers', 'number-three': 'numbers', 'number-four': 'numbers',
   'table-for': 'table', 'menu': 'table', 'id-like-this': 'table', 'enjoy-meal': 'table',
