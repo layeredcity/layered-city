@@ -80,6 +80,12 @@ export function groupWords(words) {
     }))
 }
 
+// Per-section watercolor illustrations, served from public/words/. A category
+// with no illustration here just shows its title (the <img> hides on 404).
+export const CATEGORY_ILLUSTRATION = {
+  table: '/words/at-the-table.png',
+}
+
 // The preamble is stored as markdown "- " bullets; render as a plain list.
 export function preambleBullets(preamble) {
   if (!preamble) return []

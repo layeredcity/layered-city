@@ -2,7 +2,7 @@ import { useState, useEffect, useCallback, useMemo, useRef, cloneElement } from 
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity, fetchFoodsForCity, fetchWordsForCity } from './utils/contentful'
-import { groupWords, preambleBullets, deepCutsSubtitle } from './utils/words'
+import { groupWords, preambleBullets, deepCutsSubtitle, CATEGORY_ILLUSTRATION } from './utils/words'
 import { fetchOmdbData } from './utils/omdb'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
@@ -268,19 +268,24 @@ function WordsPanel({ city, words }) {
       )}
       {categories.map(cat => (
         <div key={cat.key} className="words__cat">
-          <div className="story-group-heading words__cat-heading">{cat.label}</div>
-          {cat.key === 'deep-cuts' && <div className="words__cat-sub">{deepCutsSubtitle(city.name)}</div>}
-          {cat.words.map(w => (
-            <div key={w.id} className="word-row">
-              <div className="word-row__head">
+          <div className="words__cat-aside">
+            {CATEGORY_ILLUSTRATION[cat.key] && (
+              <img className="words__cat-illo" src={CATEGORY_ILLUSTRATION[cat.key]} alt="" aria-hidden="true" onError={e => { e.currentTarget.style.display = 'none' }} />
+            )}
+            <div className="words__cat-title">{cat.label}</div>
+            {cat.key === 'deep-cuts' && <div className="words__cat-sub">{deepCutsSubtitle(city.name)}</div>}
+          </div>
+          <div className="words__cat-main">
+            {cat.words.map(w => (
+              <div key={w.id} className="word-row">
                 <span className="word-row__local">{w.local}</span>
                 {w.phonetic && <span className="word-row__phon">{w.phonetic}</span>}
+                {w.meaning && <span className="word-row__meaning">{w.meaning}</span>}
+                {w.context && <span className="word-row__ctx">{w.context}</span>}
+                {w.groupNote && <span className="word-row__grp">{w.groupNote}</span>}
               </div>
-              {w.meaning && <div className="word-row__meaning">{w.meaning}</div>}
-              {w.context && <div className="word-row__ctx">{w.context}</div>}
-              {w.groupNote && <div className="word-row__grp">{w.groupNote}</div>}
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       ))}
     </div>
