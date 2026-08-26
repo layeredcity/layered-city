@@ -87,7 +87,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .words { display: flex; flex-direction: column; }
 /* Overall advice: bullets in the right column, text aligned with the word
    text and the dots hanging out to the left into the column gap. */
-.words__advice { list-style: none; margin: 0; padding: 0; }
+.words__advice { list-style: none; margin: 0; padding: 9px 0; }
 .words__advice li { position: relative; font-size: 13px; line-height: 1.5; color: #47423d; margin-bottom: 10px; }
 .words__advice li:last-child { margin-bottom: 0; }
 .words__advice li::before { content: ''; position: absolute; left: -12px; top: 8px; width: 4px; height: 4px; border-radius: 50%; background: var(--accent); }
