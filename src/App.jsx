@@ -110,6 +110,19 @@ const FILTERS = [
   { label: 'Words',            group: 'deeper', types: [], words: true,   emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Learn enough {language} to be polite' },
 ]
 
+// One pithy line per section, count + connector + city (e.g. "15 dishes to eat
+// in Budapest"). Kept short deliberately — it must stay on a single line.
+const SECTION_CONNECTOR = {
+  Books: 'about', Food: 'to eat in', Movies: 'set in', Music: 'from',
+  Podcasts: 'about', Tours: 'of', TV: 'set in', Videos: 'about',
+}
+function sectionLine(filter, count, city) {
+  if (count === 0) return 'Coming soon'
+  const unit = count === 1 ? filter.unitSingular : filter.unitPlural
+  if (filter.words) return `${count} ${unit} in ${cityLanguage(city.name) || city.name}`
+  return `${count} ${unit} ${SECTION_CONNECTOR[filter.label] || 'about'} ${city.name}`
+}
+
 // The overview splits into two: media made *about* the city, and the things
 // that get you into it. A group with nothing in it renders no heading.
 const OVERVIEW_GROUPS = [
@@ -373,8 +386,7 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, word
             <div className={'overview-item__icon-wrap' + (filter.icon === 'audiotour' ? ' overview-item__icon-wrap--tour' : '')}>{TYPE_ICONS[filter.icon]}</div>
             <div className="overview-item__body">
               <div className="overview-item__label">{filter.label}</div>
-              {filter.blurb && <div className="overview-item__blurb">{filter.blurb.replace('{city}', city.name).replace('{language}', cityLanguage(city.name) || city.name)}</div>}
-              <div className="overview-item__count">{count === 0 ? 'Coming soon' : count + ' ' + (count === 1 ? filter.unitSingular : filter.unitPlural)}</div>
+              <div className="overview-item__line">{sectionLine(filter, count, city)}</div>
             </div>
             <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
           </div>
