@@ -462,15 +462,19 @@ function iconShape(type) {
 
 // JustWatch tokenizes the search query, so a trailing release year ranks every
 // unrelated title that shares that number ("Gloomy Sunday 1999" → "Space: 1999").
-// Drop a trailing year from JustWatch search URLs; leave mid-string years and
-// title-only years (e.g. "1984") alone, and never empty the query.
+// Drop a trailing release year from JustWatch search URLs. Left intact: mid-string
+// years, a title that is only a year ("1984"), and an implausibly old trailing
+// year (< 1930) that is almost certainly part of the title, not a release year —
+// e.g. the documentary "Paris 1900", which searches correctly as-is.
 function cleanWatchUrl(url) {
   if (!url || !url.includes('justwatch.com')) return url
   try {
     const u = new URL(url)
     const q = u.searchParams.get('q')
     if (!q) return url
-    const stripped = q.replace(/\s+(?:19|20)\d{2}\s*$/, '').trim()
+    const stripped = q.replace(/\s+((?:19|20)\d{2})\s*$/, (full, yr) =>
+      Number(yr) >= 1930 ? '' : full
+    ).trim()
     if (stripped && stripped !== q) {
       u.searchParams.set('q', stripped)
       return u.toString()
