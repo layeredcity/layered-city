@@ -376,7 +376,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 
 /* Currency "cheat sheet" — a non-interactive tinted panel pinned below the
    quote: a 10% black tint over the blue background, with white type throughout. */
-.currency-cheatsheet { margin: 14px 16px 20px; padding: 16px 18px 14px; background: rgba(0,0,0,0.2); border-radius: 18px; }
+.currency-cheatsheet { margin: 34px 16px 20px; padding: 16px 18px 14px; background: rgba(0,0,0,0.2); border-radius: 18px; }
 .currency-cheatsheet__title { font-family: var(--font-display); font-size: 18px; color: rgba(255,255,255,0.95); line-height: 1.2; }
 .currency-cheatsheet__sub { font-size: 12px; color: rgba(255,255,255,0.7); line-height: 1.35; margin-top: 3px; }
 .currency-cheatsheet__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
