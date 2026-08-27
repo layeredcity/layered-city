@@ -460,6 +460,27 @@ function iconShape(type) {
   return type.toLowerCase() === 'video' ? 'video' : 'podcast'
 }
 
+// JustWatch tokenizes the search query, so a trailing release year ranks every
+// unrelated title that shares that number ("Gloomy Sunday 1999" → "Space: 1999").
+// Drop a trailing year from JustWatch search URLs; leave mid-string years and
+// title-only years (e.g. "1984") alone, and never empty the query.
+function cleanWatchUrl(url) {
+  if (!url || !url.includes('justwatch.com')) return url
+  try {
+    const u = new URL(url)
+    const q = u.searchParams.get('q')
+    if (!q) return url
+    const stripped = q.replace(/\s+(?:19|20)\d{2}\s*$/, '').trim()
+    if (stripped && stripped !== q) {
+      u.searchParams.set('q', stripped)
+      return u.toString()
+    }
+    return url
+  } catch {
+    return url
+  }
+}
+
 function movieBtnLabel(url) {
   if (!url) return 'Rent or buy'
   try {
@@ -514,7 +535,7 @@ const IMDB_ICON = <svg viewBox="0 0 24 24" fill="currentColor" className="story-
 // Movie/TV link row: a JustWatch "where to watch" button + a "View on IMDb"
 // button built from the imdb id. Shared by the desktop and mobile modals.
 function MovieButtons({ story }) {
-  const url = story.mediaUrl || story.secondaryUrl || null
+  const url = cleanWatchUrl(story.mediaUrl || story.secondaryUrl || null)
   const imdb = story.imdbId ? `https://www.imdb.com/title/${story.imdbId}/` : null
   if (!url && !imdb) return null
   return (
@@ -755,7 +776,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
   const bookRating = isBook ? story.goodreadsRating : null
   const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   const qualityLabel = QUALITY_LABELS[effectiveRating] || null
-  const url = story.mediaUrl || story.secondaryUrl || null
+  const url = cleanWatchUrl(story.mediaUrl || story.secondaryUrl || null)
   const t = story.mediaType?.toLowerCase()
   const isMovieOrTV = t === 'movie' || t === 'tv'
   const isTour = t === 'audiotour'
