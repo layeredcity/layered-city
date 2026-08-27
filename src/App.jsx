@@ -313,7 +313,7 @@ function WordsPanel({ city, words }) {
                 <div className="word-row__text">
                   <span className="word-row__local">{w.local}</span>
                   {w.phonetic && <span className="word-row__phon">{w.phonetic}</span>}
-                  {w.meaning && <span className="word-row__meaning">{w.meaning}</span>}
+                  {w.meaning && <span className="word-row__meaning">{capFirst(w.meaning)}</span>}
                   {w.context && <span className="word-row__ctx">{w.context}</span>}
                   {w.groupNote && <span className="word-row__grp">{w.groupNote}</span>}
                 </div>
