@@ -297,7 +297,7 @@ function WordsPanel({ city, words }) {
           </div>
           <div className="words__cat-main">
             <ul className="words__advice">
-              {bullets.map((b, i) => <li key={i}>{b}</li>)}
+              {bullets.map((b, i) => <li key={i}>{renderInline(b)}</li>)}
             </ul>
           </div>
         </div>
@@ -412,6 +412,22 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, word
 
 function capFirst(s) {
   return s ? s.charAt(0).toUpperCase() + s.slice(1) : s
+}
+
+// Render lightweight inline markdown: **bold** and *italic*.
+function renderInline(text) {
+  if (!text) return text
+  const nodes = []
+  const re = /\*\*([^*]+)\*\*|\*([^*]+)\*/g
+  let last = 0, m, key = 0
+  while ((m = re.exec(text))) {
+    if (m.index > last) nodes.push(text.slice(last, m.index))
+    if (m[1] != null) nodes.push(<strong key={key++}>{m[1]}</strong>)
+    else nodes.push(<em key={key++}>{m[2]}</em>)
+    last = re.lastIndex
+  }
+  if (last < text.length) nodes.push(text.slice(last))
+  return nodes
 }
 
 // Display a release year with an era. Negative years are BCE; ancient positive
