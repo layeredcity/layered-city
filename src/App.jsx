@@ -102,7 +102,9 @@ const FILTERS = [
   // city with zero tours (rather than showing "Coming soon"), and reappears
   // automatically once that city has at least one published tour.
   { label: 'Tours',            group: 'deeper', types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
-  { label: 'TV',               group: 'media',  types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   alwaysShow: true, blurb: '{city} on the small screen' },
+  // No alwaysShow: TV coverage is spotty, so a city with no shows hides the
+  // section entirely rather than advertising "Coming soon".
+  { label: 'TV',               group: 'media',  types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   blurb: '{city} on the small screen' },
   { label: 'Videos',           group: 'media',  types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  alwaysShow: true, blurb: 'The best of {city} on YouTube' },
   // Words is its own `word` content type (a per-city phrasebook), not stories.
   // Empty `types` keeps it out of every story filter; `words: true` routes it to
