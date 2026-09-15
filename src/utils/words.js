@@ -4,7 +4,7 @@
 
 export const WORD_SLOTS = [
   // The basics
-  'please', 'thanks', 'yes', 'no',
+  'yes', 'no', 'please', 'thanks',
   // Coming & going
   'greeting-morning', 'greeting-afternoon', 'greeting-evening', 'greeting-casual', 'leaving',
   // Language
