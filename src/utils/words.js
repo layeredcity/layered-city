@@ -6,7 +6,7 @@ export const WORD_SLOTS = [
   // The basics
   'yes', 'no', 'please', 'thanks',
   // Coming & going
-  'greeting-morning', 'greeting-afternoon', 'greeting-evening', 'greeting-casual', 'leaving',
+  'greeting-casual', 'greeting-morning', 'greeting-afternoon', 'greeting-evening', 'leaving',
   // Language
   'speak-english', 'dont-understand',
   // Apology & passage
