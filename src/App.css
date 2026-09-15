@@ -93,7 +93,8 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .words__advice li::before { content: ''; position: absolute; left: -12px; top: 8px; width: 4px; height: 4px; border-radius: 50%; background: var(--accent); }
 .words__cat { display: flex; align-items: flex-start; gap: 14px; padding: 18px 20px; border-bottom: 1px solid var(--border); }
 .words__cat-aside { width: 86px; flex-shrink: 0; position: sticky; top: 16px; align-self: flex-start; }
-.words__cat-title { margin-top: 13px; font-family: var(--font-body); font-size: 12px; font-weight: 600; line-height: 1.3; color: #E1232F; text-transform: uppercase; letter-spacing: 0.06em; white-space: pre-line; }
+.words__cat-icon { display: block; width: 17px; height: 17px; color: #E1232F; margin: 13px 0 5px; }
+.words__cat-title { margin-top: 0; font-family: var(--font-body); font-size: 12px; font-weight: 600; line-height: 1.3; color: #E1232F; text-transform: uppercase; letter-spacing: 0.06em; white-space: pre-line; }
 .words__cat-main { flex: 1; min-width: 0; }
 .word-row { display: flex; align-items: flex-start; gap: 8px; padding: 9px 0; }
 .word-row + .word-row { border-top: 1px solid var(--border); }
