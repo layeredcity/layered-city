@@ -675,13 +675,57 @@ function TourRating({ story, compact }) {
   )
 }
 
+// Small filled icons for the modal's metadata block (Streamline: Tabler / Core).
+const META_ICONS = {
+  place: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.364 4.636a9 9 0 0 1 0.203 12.519l-0.203 0.21 -4.243 4.242a3 3 0 0 1 -4.097 0.135l-0.144 -0.135 -4.244 -4.243A9 9 0 0 1 18.364 4.636zM12 8a3 3 0 1 0 0 6 3 3 0 0 0 0 -6z"/></svg>,
+  duration: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17 3.34A10 10 0 1 1 2 12l0.005 -0.324A10 10 0 0 1 17 3.34M11 7v5.022l0.003 0.054 0.02 0.135 0.005 0.025a1 1 0 0 0 0.056 0.165l0.04 0.082 0.062 0.099 0.07 0.087 0.075 0.074 0.094 0.075 0.08 0.052 0.07 0.035 0.132 0.051 0.135 0.031 0.082 0.01 0.124 0.002 0.113 -0.012 0.108 -0.024 0.106 -0.036 0.108 -0.051 0.065 -0.04 3.007 -2.004a1 1 0 1 0 -1.11 -1.664L13 10.13V7a1 1 0 0 0 -0.883 -0.993L12 6a1 1 0 0 0 -1 1"/></svg>,
+  year: <svg viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" clipRule="evenodd" d="M4.5 1c0 -0.552285 -0.44772 -1 -1 -1s-1 0.447715 -1 1v1h-1C0.671573 2 0 2.67157 0 3.5V5h14V3.5c0 -0.82843 -0.6716 -1.5 -1.5 -1.5h-0.9999V1c0 -0.552285 -0.4477 -1 -1 -1 -0.55229 0 -1.00001 0.447715 -1.00001 1v1H4.5V1ZM14 6.25H0v6.25c0 0.8284 0.671573 1.5 1.5 1.5h11c0.8284 0 1.5 -0.6716 1.5 -1.5V6.25Z"/></svg>,
+}
+
+// One icon + text item in the metadata block.
+function MetaItem({ icon, children }) {
+  if (!children) return null
+  return (
+    <span className="story-modal__meta-item">
+      <span className="story-modal__meta-icon">{icon}</span>
+      <span>{children}</span>
+    </span>
+  )
+}
+
+// Year / genre / duration (or tour duration / distance / price) as icon items.
+// Genre borrows the media type's own section icon (music note, film, book).
+function MetaFacts({ story }) {
+  const t = story.mediaType?.toLowerCase()
+  const duration = formatDuration(story.minutes, story.seconds)
+  if (t === 'audiotour') {
+    return (
+      <>
+        <MetaItem icon={META_ICONS.duration}>{formatDuration(story.minutes, story.seconds)}</MetaItem>
+        {formatDistance(story.distanceKm) && <span className="story-modal__duration">{formatDistance(story.distanceKm)}</span>}
+        {formatPrice(story.priceUsd) && <span className="story-modal__duration">{formatPrice(story.priceUsd)}</span>}
+      </>
+    )
+  }
+  const genreIcon = TYPE_ICONS[t] || null
+  const showYear = t === 'music' || t === 'book'
+  const showGenre = showYear || t === 'movie' || t === 'tv'
+  return (
+    <>
+      {showYear && <MetaItem icon={META_ICONS.year}>{formatYear(story.releaseYear)}</MetaItem>}
+      {showGenre && <MetaItem icon={genreIcon}>{capFirst(story.genre)}</MetaItem>}
+      <MetaItem icon={META_ICONS.duration}>{duration}</MetaItem>
+    </>
+  )
+}
+
 // The pinned place's plain-English name (story.locationName), shown on its own
 // line at the bottom of the modal's metadata block.
 function PlaceName({ name }) {
   if (!name) return null
   return (
     <div className="story-modal__place">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="story-modal__place-icon" aria-hidden="true"><path d="M12 21s-6-5.3-6-10a6 6 0 0112 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2"/></svg>
+      <span className="story-modal__meta-icon">{META_ICONS.place}</span>
       <span>{name}</span>
     </div>
   )
@@ -896,18 +940,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
               {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
             </>
           )}
-          {isTour
-            ? tourMeta(story) && <span className="story-modal__duration">{tourMeta(story)}</span>
-            : t === 'music' || t === 'book'
-              ? [story.releaseYear, story.genre, duration].filter(Boolean).length > 0 && (
-                  <span className="story-modal__duration">{[formatYear(story.releaseYear), capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
-                )
-              : isMovieOrTV
-                ? [capFirst(story.genre), duration].filter(Boolean).length > 0 && (
-                    <span className="story-modal__duration">{[capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
-                  )
-                : duration && <span className="story-modal__duration">{duration}</span>
-          }
+          <MetaFacts story={story} />
           <PlaceName name={story.locationName} />
         </div>
         {t === 'music' ? (
@@ -1669,18 +1702,7 @@ export default function App() {
                         {qualityLabel && <span className="story-modal__quality-label">{qualityLabel}</span>}
                       </>
                     )}
-                    {isTour
-                      ? tourMeta(s) && <span className="story-modal__duration">{tourMeta(s)}</span>
-                      : t === 'music' || t === 'book'
-                        ? [s.releaseYear, s.genre, duration].filter(Boolean).length > 0 && (
-                            <span className="story-modal__duration">{[formatYear(s.releaseYear), capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
-                          )
-                        : (t === 'movie' || t === 'tv')
-                          ? [capFirst(s.genre), duration].filter(Boolean).length > 0 && (
-                              <span className="story-modal__duration">{[capFirst(s.genre), duration].filter(Boolean).join(' · ')}</span>
-                            )
-                          : duration && <span className="story-modal__duration">{duration}</span>
-                    }
+                    <MetaFacts story={s} />
                     <PlaceName name={s.locationName} />
                   </div>
                   {t === 'music' ? (
