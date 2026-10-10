@@ -426,7 +426,8 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .story-modal__quality-label { font-size: 13px; color: var(--ink-light); }
 .story-modal__duration { font-size: 13px; color: var(--ink-light); }
 /* Pin name: always its own line under the rating/duration row. */
-.story-modal__place { flex-basis: 100%; display: flex; align-items: flex-start; gap: 5px; font-size: 13px; line-height: 1.4; color: var(--ink-light); }
+/* Pin name sits on the same line when it fits, and wraps to its own line when not. */
+.story-modal__place { flex: 0 1 auto; min-width: 0; display: flex; align-items: flex-start; gap: 5px; font-size: 13px; line-height: 1.4; color: var(--ink-light); }
 /* Icon + text metadata items (year, genre, duration). */
 .story-modal__meta-item { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; line-height: 1.4; color: var(--ink-light); }
 .story-modal__meta-icon { display: inline-flex; width: 13px; height: 13px; flex-shrink: 0; }
