@@ -273,6 +273,10 @@ async function main() {
     if (song.lat != null && song.lon != null && song.lat !== '' && song.lon !== '') {
       fields.storyLocation = { [L]: { lat: Number(song.lat), lon: Number(song.lon) } }
     }
+    // Plain-English name of the pinned place → locationName (max 80 chars).
+    if (song.place != null && String(song.place).trim() !== '') {
+      fields.locationName = { [L]: curlyQuotes(String(song.place).trim()).slice(0, 80) }
+    }
     for (const [key, fieldId] of Object.entries(FIELD_MAP)) {
       if (key === 'title' || song[key] == null || song[key] === '') continue
       let val = song[key]

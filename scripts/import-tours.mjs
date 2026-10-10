@@ -96,6 +96,7 @@ for (const t of tours) {
     mediaUrl: { 'en-US': t.url },
     mediaType: { 'en-US': 'audiotour' },
   }
+  if (t.place) fields.locationName = { 'en-US': String(t.place).trim().replace(/'/g, '’').slice(0, 80) }
   if (t.creator) fields.creatorName = { 'en-US': t.creator }
   if (t.minutes != null) fields.numberOfMinutes = { 'en-US': t.minutes }
   if (t.distanceKm != null) fields.distanceKm = { 'en-US': t.distanceKm }

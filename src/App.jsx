@@ -675,6 +675,18 @@ function TourRating({ story, compact }) {
   )
 }
 
+// The pinned place's plain-English name (story.locationName), shown on its own
+// line at the bottom of the modal's metadata block.
+function PlaceName({ name }) {
+  if (!name) return null
+  return (
+    <div className="story-modal__place">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="story-modal__place-icon" aria-hidden="true"><path d="M12 21s-6-5.3-6-10a6 6 0 0112 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2"/></svg>
+      <span>{name}</span>
+    </div>
+  )
+}
+
 const VOICEMAP_ICON = <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="story-modal__btn-icon"><path d="M12 21s-6-5.3-6-10a6 6 0 0112 0c0 4.7-6 10-6 10z"/><circle cx="12" cy="11" r="2"/></svg>
 
 function StoryIcon({ story, omdbData, bookData }) {
@@ -896,6 +908,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
                   )
                 : duration && <span className="story-modal__duration">{duration}</span>
           }
+          <PlaceName name={story.locationName} />
         </div>
         {t === 'music' ? (
           (() => {
@@ -1668,6 +1681,7 @@ export default function App() {
                             )
                           : duration && <span className="story-modal__duration">{duration}</span>
                     }
+                    <PlaceName name={s.locationName} />
                   </div>
                   {t === 'music' ? (
                     (() => {

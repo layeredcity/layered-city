@@ -49,7 +49,10 @@ for (const [i, s] of songs.entries()) {
   const type = (s.type || 'music').toLowerCase()
   const creator = s.artist || s.author || s.creator
   const gaps = []
+  if (s.place != null && String(s.place).length > 80) errors.push(`${who}: place name ${String(s.place).length} chars (max 80)`)
+  if (s.place != null && /\.\s*$/.test(String(s.place))) errors.push(`${who}: place name should be a label, not a sentence (drop the full stop)`)
   if (s.lat == null) gaps.push('location')
+  else if (!s.place) gaps.push('place name (locationName)')
   if (type === 'music' && s.minutes == null) gaps.push('duration') // books/etc. have no duration
   if (s.year == null) gaps.push('year')
   if (!creator) gaps.push(type === 'book' ? 'author' : 'creator')

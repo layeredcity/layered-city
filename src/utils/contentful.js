@@ -109,6 +109,7 @@ export async function fetchStoriesForCity(cityId) {
       description: f.storyDescription,
       qualityRating: f.qualityRating,
       location: f.storyLocation,
+      locationName: f.locationName || null,
       secondaryLocation: f.secondaryLocation,
       mediaUrl: f.mediaUrl,
       secondaryUrl: f.secondaryUrl,

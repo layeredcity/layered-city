@@ -266,6 +266,8 @@ for (const ep of episodes) {
       relatedCity: { 'en-US': link(cityId) },
     }
     if (ep.lat != null) fields.storyLocation = { 'en-US': { lat: ep.lat, lon: ep.lon } }
+    if (ep.place) fields.locationName = { 'en-US': String(ep.place).trim().replace(/'/g, '’').slice(0, 80) }
+    else flags.push(`${ep.title}: no place name (locationName)`)
     const sp = buildUrl(ep.spotify, 'spotify'); if (sp) fields.mediaUrl = { 'en-US': sp }
     const ap = buildUrl(ep.apple, 'apple'); if (ap) fields.secondaryUrl = { 'en-US': ap }
     if (minutes != null) { fields.numberOfMinutes = { 'en-US': minutes }; fields.numberOfSeconds = { 'en-US': seconds || 0 } }
