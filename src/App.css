@@ -5,6 +5,7 @@
   --ink: #1A1714;
   --ink-light: #6B6560;
   --ink-xlight: #B0AAA4;
+  --ink-icon: #918A84; /* metadata icons: a step lighter than --ink-light text */
   --accent: #C8412A;
   --border: #E2DDD8;
   --white: #FFFFFF;
@@ -430,13 +431,13 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .story-modal__place { flex: 0 1 auto; min-width: 0; display: flex; align-items: flex-start; gap: 5px; font-size: 13px; line-height: 1.4; color: var(--ink-light); }
 /* Icon + text metadata items (year, genre, duration). */
 .story-modal__meta-item { display: inline-flex; align-items: center; gap: 5px; font-size: 13px; line-height: 1.4; color: var(--ink-light); }
-.story-modal__meta-icon { display: inline-flex; width: 13px; height: 13px; flex-shrink: 0; }
+.story-modal__meta-icon { display: inline-flex; width: 13px; height: 13px; flex-shrink: 0; color: var(--ink-icon); }
 .story-modal__place .story-modal__meta-icon { margin-top: 2px; }
 .story-modal__meta-icon svg { width: 100%; height: 100%; }
 /* In the modal, ratings match the metadata grey (list items keep gold/accent). */
 .story-modal__imdb, .story-modal__imdb-label, .story-modal__imdb-max { color: var(--ink-light); font-weight: 400; }
-.story-modal__imdb svg { fill: var(--ink-light); }
-.story-modal__meta .quality-star--filled { fill: var(--ink-light); stroke: var(--ink-light); }
+.story-modal__imdb svg { fill: var(--ink-icon); }
+.story-modal__meta .quality-star--filled { fill: var(--ink-icon); stroke: var(--ink-icon); }
 .story-modal__meta .quality-stars { margin-top: 0; margin-right: -5px; }
 /* "4.9/5": cancel the flex gap between the number and its "/5". */
 .story-modal__imdb-max { margin-left: -4px; }
