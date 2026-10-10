@@ -437,6 +437,10 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .story-modal__imdb svg { fill: var(--ink-light); }
 .story-modal__meta .quality-star--filled { fill: var(--ink-light); stroke: var(--ink-light); }
 .story-modal__meta .quality-stars { margin-top: 0; }
+/* "4.9/5": cancel the flex gap between the number and its "/5". */
+.story-modal__imdb-max { margin-left: -4px; }
+/* Tighter space between the facts line and the pin-name line. */
+.story-modal__meta { row-gap: 4px; }
 .story-modal__btn { display: flex; align-items: center; justify-content: center; gap: 10px; background: #153B8F; color: white; border-radius: 10px; padding: 14px 20px; font-size: 15px; font-weight: 600; font-family: var(--font-body); text-decoration: none; transition: background var(--transition); border: none; cursor: pointer; width: 100%; }
 .story-modal__btn:hover { background: #082A74; }
 .story-modal__btn-icon { width: 18px; height: 18px; flex-shrink: 0; }
