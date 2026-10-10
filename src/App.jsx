@@ -653,7 +653,7 @@ function QualityStars({ rating, max = 5 }) {
   return (
     <div className="quality-stars">
       {Array.from({ length: max }).map((_, i) => (
-        <svg key={i} className={"quality-star" + (i < rating ? " quality-star--filled" : "")} viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <svg key={i} className={"quality-star" + (i < rating ? " quality-star--filled" : "")} viewBox="2.6 1.2 18.8 18.8" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 2.5l2.6 5.3 5.9.9-4.3 4.1 1 5.9-5.2-2.7-5.2 2.7 1-5.9-4.3-4.1 5.9-.9z" strokeLinejoin="round" strokeLinecap="round"/>
         </svg>
       ))}
