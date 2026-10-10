@@ -776,14 +776,11 @@ function StoryIcon({ story, omdbData, bookData }) {
       {el}
     </span>
   )
-  // Podcast icons: on hover, darken the cover art and overlay a white audio
-  // equalizer to signal "listen".
+  // Podcast icons: on hover the cover art tilts. (No equalizer overlay: it read
+  // as "now playing", which nothing in the app does.)
   const wrapViz = (el) => (
     <span className="story-item__icon-viz">
       {el}
-      <span className="story-item__icon-viz__bars" aria-hidden="true">
-        <i /><i /><i /><i /><i />
-      </span>
     </span>
   )
   // Movie/TV posters are DVD/Blu-ray cases: on hover the case tilts and a shiny
