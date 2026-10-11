@@ -1768,7 +1768,7 @@ export default function App() {
                     </a>
                   )}
                 </div>
-                <MiniMap story={s} />
+                <MiniMap story={s} omdbData={omdbData} bookData={bookData} />
               </div>
             </>
           )
