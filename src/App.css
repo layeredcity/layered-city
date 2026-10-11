@@ -491,6 +491,12 @@ img.city-hero__img.is-loaded { opacity: 1; }
    descriptions — 12px was too small to read comfortably on a phone. */
 @media (max-width: 768px) {
   .food-item__desc { font-size: 15px; color: var(--ink); line-height: 1.6; }
+  /* Mobile list rows: larger secondary text ("Podcast from Atlas Obscura") and
+     the icon facts row under it, which shared the same 12px size. */
+  .story-item__type, .story-item__source { font-size: 14px; }
+  .story-item__facts .story-modal__meta-item,
+  .story-item__facts .story-item__imdb { font-size: 14px; }
+  .story-item__facts .story-modal__meta-icon { width: 13px; height: 13px; }
 }
 @media (max-width: 768px) {
   .story-item__icon-podcast,
