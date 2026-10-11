@@ -487,6 +487,11 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .panel-story { display: none; }
 .mini-map { width: 100%; height: 240px; }
 
+/* Mobile: dish descriptions read at the same size and colour as tour (story)
+   descriptions — 12px was too small to read comfortably on a phone. */
+@media (max-width: 768px) {
+  .food-item__desc { font-size: 15px; color: var(--ink); line-height: 1.6; }
+}
 @media (max-width: 768px) {
   .story-item__icon-podcast,
   .story-item__icon-video,
