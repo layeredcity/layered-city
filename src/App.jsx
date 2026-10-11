@@ -1060,55 +1060,39 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
           const i = isMovieOrTV ? story.title.indexOf(' (') : -1
           return i === -1 ? story.title : <>{story.title.slice(0, i)}<br /><span className="story-item__title-local">{story.title.slice(i + 1)}</span></>
         })()}</div>
-        {(t === 'music' || isBook || isTour) ? (
-          <>
-            <div className="story-item__meta">
-              <span className="story-item__type">{label}</span>
-              {story.creatorName && <span className="story-item__source">by {story.creatorName}</span>}
-            </div>
-            {isTour
-              ? tourMeta(story) && (
-                  <div className="story-item__meta">
-                    <span className="story-item__source">{tourMeta(story)}</span>
-                  </div>
-                )
-              : (story.releaseYear || story.genre || duration) && (
-                  <div className="story-item__meta">
-                    <span className="story-item__source">{[formatYear(story.releaseYear), capFirst(story.genre), duration].filter(Boolean).join(' · ')}</span>
-                  </div>
-                )}
-          </>
-        ) : (
-          <div className="story-item__meta">
-            <span className="story-item__type">{label}</span>
-            {story.releaseYear && <span className="story-item__source"> · {formatYear(story.releaseYear)}</span>}
-            {isMovieOrTV
-              ? story.genre && <span className="story-item__source"> · {capFirst(story.genre)}</span>
-              : story.creatorName && <span className="story-item__source"> · {story.creatorName}</span>}
-            {story.channelName && (
-              <span className="story-item__source"> from {story.channelName}</span>
-            )}
-            {duration && (
-              <span className="story-item__source"> · {duration}</span>
-            )}
-          </div>
-        )}
-        {omdbData?.rating && (
-          <div className="story-item__imdb">
-            <svg viewBox="0 0 24 24" fill="#f5c518" width="12" height="12"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-            <span className="story-item__imdb-label">IMDb rating</span>
-            {omdbData.rating}<span className="story-item__imdb-max">/10</span>
-          </div>
-        )}
-        {bookRating && (
-          <div className="story-item__imdb">
-            <svg viewBox="0 0 24 24" fill="#f5c518" width="12" height="12"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
-            <span className="story-item__imdb-label">Goodreads rating</span>
-            {formatGoodreads(bookRating)}<span className="story-item__imdb-max">/5</span>
-          </div>
-        )}
-        {isTour && <TourRating story={story} compact />}
-        {!isMovieOrTV && !isBook && !isTour && <QualityStars rating={effectiveRating} />}
+        {/* Line 1: what it is and who made it. */}
+        <div className="story-item__meta">
+          <span className="story-item__type">{label}</span>
+          {isMovieOrTV && story.releaseYear && <span className="story-item__source">{formatYear(story.releaseYear)}</span>}
+          {story.creatorName && !isMovieOrTV && <span className="story-item__source">by {story.creatorName}</span>}
+          {story.channelName && <span className="story-item__source">from {story.channelName}</span>}
+        </div>
+        {/* Line 2: rating plus year / genre / duration (or tour distance and
+            price) as grey icon items -- the same styling as the story modal. */}
+        <div className="story-item__meta story-item__facts">
+          {isMovieOrTV ? (
+            omdbData?.rating && (
+              <div className="story-item__imdb">
+                <svg viewBox="0 0 24 24" width="12" height="12"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <span className="story-item__imdb-label">IMDb</span>
+                {omdbData.rating}<span className="story-item__imdb-max">/10</span>
+              </div>
+            )
+          ) : isBook ? (
+            bookRating && (
+              <div className="story-item__imdb">
+                <svg viewBox="0 0 24 24" width="12" height="12"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                <span className="story-item__imdb-label">Goodreads</span>
+                {formatGoodreads(bookRating)}<span className="story-item__imdb-max">/5</span>
+              </div>
+            )
+          ) : isTour ? (
+            <TourRating story={story} compact />
+          ) : (
+            <QualityStars rating={effectiveRating} />
+          )}
+          <MetaFacts story={story} />
+        </div>
       </div>
     </div>
   )

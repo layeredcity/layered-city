@@ -396,6 +396,20 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .story-item__imdb { display: flex; align-items: center; gap: 3px; margin-top: 4px; font-size: 12px; font-weight: 600; color: var(--ink); }
 .story-item__imdb-label { font-weight: 700; color: var(--ink); margin-right: 1px; }
 .story-item__imdb-max { font-weight: 400; color: var(--ink-xlight); }
+/* List rows, line 2: rating + facts as grey icon items, matching the story modal. */
+.story-item__facts { gap: 4px 10px; color: var(--ink-light); }
+.story-item__facts .story-modal__meta-item { font-size: 12px; gap: 4px; }
+.story-item__facts .story-modal__meta-icon { width: 12px; height: 12px; }
+.story-item__facts .story-item__imdb { margin-top: 0; font-weight: 400; color: var(--ink-light); }
+.story-item__facts .story-item__imdb-label,
+.story-item__facts .story-item__imdb-max { font-weight: 400; color: var(--ink-light); }
+.story-item__facts .story-item__imdb-label { margin-right: 1px; }
+.story-item__facts .story-item__imdb-max { margin-left: -3px; }
+.story-item__facts .story-item__imdb svg { fill: var(--ink-icon); }
+.story-item__facts .quality-stars { margin-top: 0; margin-right: -5px; }
+.story-item__facts .quality-star--filled { fill: var(--ink-icon); stroke: var(--ink-icon); }
+/* Line 1: maker and channel in the same grey as the modal header. */
+.story-item__meta:not(.story-item__facts) .story-item__source { color: var(--ink-light); }
 .story-modal__title { font-family: var(--font-display); font-size: 28px; color: var(--ink); line-height: 1.2; margin-bottom: 18px; padding-right: 24px; }
 .story-modal__why { font-size: 13px; font-weight: 600; color: var(--ink-light); margin-bottom: 8px; }
 .story-modal__desc { font-size: 15px; color: var(--ink); line-height: 1.6; margin-bottom: 20px; }
