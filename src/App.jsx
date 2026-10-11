@@ -1187,8 +1187,14 @@ export default function App() {
   const [bookCache, setBookCache] = useState({})
   const modalAnchorRef = useRef(null)
 
-  // iOS PWA: force app to fill the physical screen height
+  // iOS PWA: force app to fill the physical screen height. Only when installed
+  // to the home screen — in a normal mobile browser the toolbars cover part of
+  // the screen, so screen.height pushed the bottom of every list out of reach
+  // (you had to over-pull to see it). There we leave it to 100dvh.
   useEffect(() => {
+    const standalone = window.navigator.standalone === true ||
+      window.matchMedia?.('(display-mode: standalone)').matches
+    if (!standalone) return
     const setScreenHeight = () => {
       document.documentElement.style.setProperty('--screen-h', window.screen.height + 'px')
     }
