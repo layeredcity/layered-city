@@ -106,7 +106,9 @@ async function main() {
     const art = assetUrl(stories.assets, f.artworkImage)
     if (art) wanted.push({ kind: 'artwork', id: e.sys.id, key: 'asset:' + f.artworkImage.sys.id, urls: [art] })
   }
-  const channels = await getAll('content_type=channel&select=sys.id,fields.channelIcon,fields.channelIconUrl')
+  // No `select` here: it rejects fields the content type doesn't have yet, and
+  // channelIconUrl is optional future-proofing. Channels are small anyway.
+  const channels = await getAll('content_type=channel')
   for (const e of channels.items) {
     const f = e.fields
     const asset = assetUrl(channels.assets, f.channelIcon)
@@ -171,7 +173,13 @@ async function main() {
   await fs.writeFile(APP_MAP, JSON.stringify(slim) + '\n')
 
   console.log(`covers: ${fetched} fetched, ${kept} unchanged, ${removed} removed, ${failed} failed`)
+  if (process.env.GITHUB_ACTIONS) console.log(`::notice::covers: ${fetched} fetched, ${kept} unchanged, ${removed} removed, ${failed} failed`)
   console.log(`totals: ${Object.entries(sorted).map(([k, m]) => `${Object.keys(m).length} ${k}`).join(', ')}`)
 }
 
-main().catch(e => { console.error(e); process.exit(1) })
+main().catch(e => {
+  console.error(e)
+  // Surfaces the reason as a check annotation on GitHub, not only in the log.
+  if (process.env.GITHUB_ACTIONS) console.log(`::error::${String(e.message).replace(/\n/g, ' ').slice(0, 900)}`)
+  process.exit(1)
+})
