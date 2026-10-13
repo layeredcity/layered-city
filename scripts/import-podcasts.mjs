@@ -4,11 +4,12 @@
 // Podcasts are modelled differently from songs/books/films: an episode is a
 // `story` that LINKS to a `channel` (the show) and inherits its media type from
 // it — the episode itself stores no mediaType. Creating a *new* channel is
-// non-trivial: the `channel` type requires a `publisher` link and a
-// `channelIcon` asset, both mandatory. This script handles all of that:
+// non-trivial: the `channel` type needs a `channelIcon` asset (mandatory) and
+// a plain-text `publisherName` (the old `publisher` entry link is deprecated to
+// save Contentful records). This script handles all of that:
 //
 //   • links episodes to an existing channel when the show already exists;
-//   • otherwise creates the channel — finding/creating its publisher and
+//   • otherwise creates the channel — setting its publisher name and
 //     pulling the show's official artwork from Apple's iTunes API;
 //   • optionally enriches missing durations/dates from the iTunes episode API;
 //   • creates the episode entries (drafts by default; --publish to publish).
@@ -18,7 +19,7 @@
 //   or: npm run import:podcasts -- --enrich     (fill missing duration/date from Apple)
 //   or: npm run import:podcasts -- --dry-run    (report only, write nothing)
 //
-// New channels (and their publishers + artwork assets) are always created AND
+// New channels (with a plain-text publisher name + artwork asset) are always created AND
 // published, because an episode can only resolve its show on the live site if
 // the channel is published. Episodes default to drafts so you can eyeball them
 // first, then publish in Contentful (or pass --publish).
@@ -185,7 +186,6 @@ if (errors.length) fail('Validation errors:\n  ' + errors.join('\n  '))
 const cities = await allEntries('content_type=city')
 const cityByName = Object.fromEntries(cities.map(c => [norm(c.fields.cityName?.['en-US']), c.sys.id]))
 let channels = await allEntries('content_type=channel')
-const publishers = await allEntries('content_type=publisher')
 const channelByName = {}
 for (const c of channels) channelByName[norm(c.fields.channelName?.['en-US'])] = c.sys.id
 
@@ -199,20 +199,6 @@ for (const cityId of [...new Set(episodes.map(e => cityByName[norm(e.city)]).fil
   const stories = await allEntries(`content_type=story&fields.relatedCity.sys.id=${cityId}`)
   existingTitles[cityId] = new Set(stories.map(s => norm(s.fields.storyTitle?.['en-US'])))
 }
-const publisherByName = {}
-for (const p of publishers) publisherByName[norm(p.fields.publisherName?.['en-US'])] = p.sys.id
-
-async function findOrCreatePublisher(name) {
-  const key = norm(name)
-  if (publisherByName[key]) return publisherByName[key]
-  if (DRY_RUN) { console.log(`   [dry] would create publisher "${name}"`); return 'DRY_PUB' }
-  const r = await cma('/entries', { method: 'POST', headers: { 'X-Contentful-Content-Type': 'publisher' }, body: JSON.stringify({ fields: { publisherName: { 'en-US': name } } }) })
-  if (!r.ok) throw new Error(`publisher ${r.status}: ${(await r.text()).slice(0, 150)}`)
-  const e = await r.json(); await publishEntry(e.sys.id, e.sys.version)
-  publisherByName[key] = e.sys.id
-  console.log(`   ✚ publisher "${name}"`)
-  return e.sys.id
-}
 async function resolveChannel(ep) {
   const key = norm(ep.show)
   if (channelByName[key]) return channelByName[key]
@@ -222,16 +208,15 @@ async function resolveChannel(ep) {
   const art = await showArtwork(ep.show)
   if (!art && !DRY_RUN) throw new Error(`no Apple artwork found for show "${ep.show}"; add it to Contentful by hand or set a real show name`)
   if (DRY_RUN) { console.log(`   [dry] would create channel "${ep.show}" with artwork ${art ? 'from Apple' : 'MISSING'}`); channelByName[key] = 'DRY_CH'; return 'DRY_CH' }
-  const pubId = await findOrCreatePublisher(publisherName)
   const iconId = await createIconAsset(art, ep.show + ' (podcast artwork)')
   const r = await cma('/entries', { method: 'POST', headers: { 'X-Contentful-Content-Type': 'channel' }, body: JSON.stringify({ fields: {
     channelName: { 'en-US': ep.show }, mediaType: { 'en-US': 'podcast' },
-    publisher: { 'en-US': link(pubId) }, channelIcon: { 'en-US': link(iconId, 'Asset') },
+    publisherName: { 'en-US': publisherName }, channelIcon: { 'en-US': link(iconId, 'Asset') },
   } }) })
   if (!r.ok) throw new Error(`channel ${r.status}: ${(await r.text()).slice(0, 200)}`)
   const e = await r.json(); await publishEntry(e.sys.id, e.sys.version)
   channelByName[key] = e.sys.id
-  console.log(`   ✚ channel "${ep.show}" (artwork + publisher)`)
+  console.log(`   ✚ channel "${ep.show}" (artwork, publisher "${publisherName}")`)
   return e.sys.id
 }
 
