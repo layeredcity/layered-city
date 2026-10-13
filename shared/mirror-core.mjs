@@ -72,14 +72,20 @@ const isPublished = e => e.sys.publishedVersion === e.sys.version - 1
 // library, and looks like a real cover that just isn't attached to anything.
 async function discardAsset(client, id) {
   try {
-    const asset = await (await client.cma(`/assets/${id}`)).json()
+    let asset = await (await client.cma(`/assets/${id}`)).json()
     if (asset.sys?.publishedVersion) {
-      await client.cma(`/assets/${id}/published`, {
+      const un = await client.cma(`/assets/${id}/published`, {
         method: 'DELETE',
         headers: { 'X-Contentful-Version': String(asset.sys.version) },
       })
+      if (un.ok) asset = await un.json()
     }
-    await client.cma(`/assets/${id}`, { method: 'DELETE' })
+    // Contentful refuses a DELETE without the current version, so pass it.
+    // (Leaving it out made every failed mirror leave an empty asset behind.)
+    await client.cma(`/assets/${id}`, {
+      method: 'DELETE',
+      headers: { 'X-Contentful-Version': String(asset.sys.version) },
+    })
   } catch { /* best effort — the caller is already reporting a failure */ }
 }
 
@@ -90,15 +96,19 @@ async function discardAsset(client, id) {
 // cover is already linked and live, so a prune hiccup is cosmetic, never fatal.
 async function pruneSupersededMirror(client, id) {
   try {
-    const asset = await (await client.cma(`/assets/${id}`)).json()
+    let asset = await (await client.cma(`/assets/${id}`)).json()
     if (!(asset.fields?.description?.['en-US'] || '').startsWith('Mirrored cover for')) return false
     if (asset.sys?.publishedVersion) {
-      await client.cma(`/assets/${id}/published`, {
+      const un = await client.cma(`/assets/${id}/published`, {
         method: 'DELETE',
         headers: { 'X-Contentful-Version': String(asset.sys.version) },
       })
+      if (un.ok) asset = await un.json()
     }
-    return (await client.cma(`/assets/${id}`, { method: 'DELETE' })).ok
+    return (await client.cma(`/assets/${id}`, {
+      method: 'DELETE',
+      headers: { 'X-Contentful-Version': String(asset.sys.version) },
+    })).ok
   } catch { return false }
 }
 
@@ -121,24 +131,37 @@ async function createAsset(client, { sourceUrl, title, fileName }) {
     method: 'PUT',
     headers: { 'X-Contentful-Version': String(asset.sys.version) },
   })
-  if (!proc.ok) throw new Error(`process ${proc.status}: ${(await proc.text()).slice(0, 200)}`)
+  if (!proc.ok) {
+    const msg = (await proc.text()).slice(0, 200)
+    await discardAsset(client, asset.sys.id)
+    throw new Error(`process ${proc.status}: ${msg}`)
+  }
 
   let processed = null
+  let fetchError = null
   for (let attempt = 0; attempt < 40; attempt++) {
     await sleep(1000)
     const current = await (await client.cma(`/assets/${asset.sys.id}`)).json()
-    if (current.fields?.file?.['en-US']?.url) { processed = current; break }
+    const file = current.fields?.file?.['en-US']
+    if (file?.url) { processed = current; break }
+    // Contentful reports a failed download (e.g. the source answered 403) on the
+    // file itself; stop waiting instead of polling for 40 seconds.
+    if (file?.error) { fetchError = file.error.message || 'source fetch failed'; break }
   }
   if (!processed) {
     await discardAsset(client, asset.sys.id)
-    throw new Error('asset processing timed out (source too slow or unreachable)')
+    throw new Error(fetchError ? `source unreachable: ${fetchError}` : 'asset processing timed out (source too slow or unreachable)')
   }
 
   const pub = await client.cma(`/assets/${processed.sys.id}/published`, {
     method: 'PUT',
     headers: { 'X-Contentful-Version': String(processed.sys.version) },
   })
-  if (!pub.ok) throw new Error(`publish ${pub.status}: ${(await pub.text()).slice(0, 200)}`)
+  if (!pub.ok) {
+    const msg = (await pub.text()).slice(0, 200)
+    await discardAsset(client, processed.sys.id)
+    throw new Error(`publish ${pub.status}: ${msg}`)
+  }
   return await pub.json()
 }
 
