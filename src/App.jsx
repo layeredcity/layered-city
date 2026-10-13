@@ -8,7 +8,7 @@ import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
-import { sizedAsset } from './utils/images'
+import { sizedAsset, squareAsset } from './utils/images'
 import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
 // Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
@@ -750,11 +750,11 @@ function StoryIcon({ story, omdbData, bookData }) {
   const override = story.coverImageUrl
   const poster = omdbData?.poster
   const cover = story.bookCoverUrl || bookData?.cover
-  // Priority: our mirrored copy on Contentful first, then a manual override,
-  // then the remote source. The mirror wins over the override because it is
-  // *made from* the override — a hand-pasted coverImageUrl is still someone
-  // else's server, so once mirrored we serve our own copy. `mirror:covers`
-  // re-mirrors when the override changes, so edits still take effect.
+  // Priority: our own copy first (the repo, see utils/covers.js), then a
+  // manual override, then the remote source. The copy wins over the override
+  // because it is *made from* the override — a hand-pasted coverImageUrl is
+  // still someone else's server. The nightly sync re-copies when the override
+  // changes, so an edit shows up the next morning.
   const portraitSrc = story.coverAsset || override || poster || cover
   // OMDb poster URLs (and occasionally book covers) sometimes 404 after the
   // source drops the image. Treat a load failure like "no image" so we fall
@@ -811,9 +811,9 @@ function StoryIcon({ story, omdbData, bookData }) {
     const isPortrait = portraitSrc && !story.channelIcon && !story.artworkImage && !isTour
     const isAlbum = story.artworkImage && !story.channelIcon
     const src = story.channelIcon
-      ? story.channelIcon + '?w=112&h=112&fit=fill'
+      ? squareAsset(story.channelIcon, 112)
       : story.artworkImage
-        ? story.artworkImage + '?w=256&h=256&fit=fill'
+        ? squareAsset(story.artworkImage, 256)
         : sizedAsset(portraitSrc, isTour ? 320 : 180)
     const className = isTour
       ? 'story-item__icon-tour'

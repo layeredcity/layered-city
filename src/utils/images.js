@@ -10,3 +10,10 @@ export function sizedAsset(url, width) {
   if (!url || !url.includes('images.ctfassets.net')) return url
   return `${url}?w=${width}&fm=webp&q=80`
 }
+
+// Square crop for channel icons and album art. Same rule: only Contentful URLs
+// take resize params; the repo copies are already stored at display size.
+export function squareAsset(url, px) {
+  if (!url || !url.includes('ctfassets.net')) return url
+  return `${url}?w=${px}&h=${px}&fit=fill`
+}

@@ -1,0 +1,49 @@
+# Copies every cover, album cover and channel icon into public/covers/ and
+# commits it, so those images live in this repo instead of using Contentful
+# records. See scripts/sync-covers.mjs. The commit triggers a Netlify deploy.
+name: Sync covers
+
+on:
+  schedule:
+    - cron: '20 4 * * *'   # nightly, 04:20 UTC
+  workflow_dispatch: {}     # "Run workflow" button on the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - scripts/sync-covers.mjs
+      - .github/workflows/sync-covers.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-covers
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # Only sharp is needed; skip installing the site's dependencies.
+      - run: npm install --no-save --no-package-lock sharp@0.33.5
+      - name: Sync
+        env:
+          CONTENTFUL_SPACE: yl6xhrcd616q
+          # Read-only Delivery token (it already ships in the site's bundle).
+          # A repository secret of the same name takes precedence.
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+        run: node scripts/sync-covers.mjs
+      - name: Commit
+        run: |
+          git add public/covers src/data/covers.json src/data/covers-manifest.json
+          if git diff --cached --quiet; then echo "No cover changes"; exit 0; fi
+          git config user.name "Layered City cover sync"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Sync covers"
+          git pull --rebase origin main
+          git push origin HEAD:main

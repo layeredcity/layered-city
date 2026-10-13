@@ -1,4 +1,5 @@
 import { createClient } from 'contentful'
+import { repoImage } from './covers'
 
 const client = createClient({
   space: import.meta.env.VITE_CONTENTFUL_SPACE,
@@ -118,24 +119,22 @@ export async function fetchStoriesForCity(cityId) {
       publishDate: f.originalPublishDate,
       channelName: channel?.channelName || null,
       creatorName: f.creatorName || null,
-      channelIcon: channel?.channelIcon?.fields?.file?.url
-        ? 'https:' + channel.channelIcon.fields.file.url
-        : null,
-      artworkImage: f.artworkImage?.fields?.file?.url
-        ? 'https:' + f.artworkImage.fields.file.url
-        : null,
+      channelIcon: repoImage('channel', f.channel?.sys?.id)
+        || (channel?.channelIcon?.fields?.file?.url ? 'https:' + channel.channelIcon.fields.file.url : null),
+      artworkImage: repoImage('artwork', item.sys.id)
+        || (f.artworkImage?.fields?.file?.url ? 'https:' + f.artworkImage.fields.file.url : null),
       mediaType: f.mediaType || channel?.mediaType || null,
       genre: f.genre || null,
       imdbId: f.imdbId || null,
       isbn: f.isbnNumber || null,
       bookCoverUrl: f.bookCoverUrl || null,
       coverImageUrl: f.coverImageUrl || null,
-      // A copy of the cover hosted on Contentful (npm run mirror:covers), so a
-      // book's art doesn't depend on Open Library being reachable at page load.
-      // Falls back to bookCoverUrl when a book hasn't been mirrored yet.
-      coverAsset: f.coverAsset?.fields?.file?.url
-        ? 'https:' + f.coverAsset.fields.file.url
-        : null,
+      // Our own copy of the cover, so a book's art doesn't depend on Open
+      // Library being reachable at page load: the repo copy first (see
+      // utils/covers.js), then an older Contentful-hosted mirror. Null means
+      // the app falls back to coverImageUrl / bookCoverUrl.
+      coverAsset: repoImage('story', item.sys.id)
+        || (f.coverAsset?.fields?.file?.url ? 'https:' + f.coverAsset.fields.file.url : null),
       goodreadsRating: f.goodreadsRating ?? null,
       // Audio-tour fields (VoiceMap): a 0–5 star rating with its review count,
       // the price, and the walking distance in km (miles derived in the UI).
