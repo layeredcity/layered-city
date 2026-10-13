@@ -88,7 +88,7 @@ export const CITY_LANGUAGE = {
   Madrid: 'Spanish', Seville: 'Spanish', Barcelona: 'Catalan',
   Paris: 'French', Marseille: 'French', Brussels: 'French',
   Rome: 'Italian', Florence: 'Italian', Naples: 'Italian', Venice: 'Italian',
-  Berlin: 'German', Vienna: 'German', Zurich: 'German',
+  Berlin: 'German', Vienna: 'German', Zurich: 'German', Munich: 'German',
   Amsterdam: 'Dutch',
   Copenhagen: 'Danish', Stockholm: 'Swedish', Oslo: 'Norwegian',
   Helsinki: 'Finnish', Reykjavík: 'Icelandic',
