@@ -1225,7 +1225,7 @@ export default function App() {
     // failure on either side can't blank out the other.
     setFoods([])
     setFoodsLoading(true)
-    fetchFoodsForCity(city.id)
+    fetchFoodsForCity(city.id, city.name)
       .then(setFoods)
       .catch(err => { console.error('Failed to fetch food:', err); setFoods([]) })
       .finally(() => setFoodsLoading(false))

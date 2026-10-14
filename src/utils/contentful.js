@@ -1,5 +1,5 @@
 import { createClient } from 'contentful'
-import { repoImage } from './covers'
+import { repoImage, repoFoodImage } from './covers'
 
 const client = createClient({
   space: import.meta.env.VITE_CONTENTFUL_SPACE,
@@ -64,7 +64,7 @@ export async function fetchWordsForCity(cityId) {
 // Dishes worth eating in a city. Unlike stories, food carries no location — a
 // dish outlives the restaurants that serve it — so these never reach the map.
 // Ordered by the curated listOrder, with any unordered dish falling to the end.
-export async function fetchFoodsForCity(cityId) {
+export async function fetchFoodsForCity(cityId, cityName) {
   const res = await client.getEntries({
     content_type: 'food',
     'fields.relatedCity.sys.id': cityId,
@@ -79,9 +79,9 @@ export async function fetchFoodsForCity(cityId) {
         englishName: f.foodEnglishName || null,
         description: f.foodDescription,
         listOrder: f.listOrder ?? null,
-        image: f.foodImage?.fields?.file?.url
-          ? 'https:' + f.foodImage.fields.file.url
-          : null,
+        // Repo copy first (utils/covers.js); Contentful image as the fallback.
+        image: repoFoodImage(cityName, f.foodName)
+          || (f.foodImage?.fields?.file?.url ? 'https:' + f.foodImage.fields.file.url : null),
       }
     })
     // Sorted here rather than by the API: Contentful orders by Unicode
