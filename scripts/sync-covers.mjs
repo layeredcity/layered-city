@@ -99,7 +99,7 @@ async function main() {
   const wanted = []
   const stories = await getAll('content_type=story&select=sys.id,fields.coverAsset,fields.coverImageUrl,fields.bookCoverUrl,fields.mediaType,fields.artworkImage')
   for (const e of stories.items) {
-    const f = e.fields
+    const f = e.fields || {} // absent when none of the selected fields are set
     const src = storySource(f)
     const mirror = assetUrl(stories.assets, f.coverAsset)
     if (src) wanted.push({ kind: 'story', id: e.sys.id, key: src, urls: [mirror, src] })
@@ -110,7 +110,7 @@ async function main() {
   // channelIconUrl is optional future-proofing. Channels are small anyway.
   const channels = await getAll('content_type=channel')
   for (const e of channels.items) {
-    const f = e.fields
+    const f = e.fields || {} // absent when none of the selected fields are set
     const asset = assetUrl(channels.assets, f.channelIcon)
     const key = f.channelIconUrl || (asset ? 'asset:' + f.channelIcon.sys.id : null)
     if (key) wanted.push({ kind: 'channel', id: e.sys.id, key, urls: [asset, f.channelIconUrl] })
