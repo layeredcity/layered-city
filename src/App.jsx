@@ -371,7 +371,9 @@ function FoodItem({ food, cityName }) {
   return (
     <div className="food-item">
       {food.image ? (
-        <img className="food-item__img" src={sizedAsset(food.image, 240)} alt={food.name} loading="lazy" />
+        <img
+          className={'food-item__img' + (food.image.startsWith('/food/') ? ' food-item__img--repo' : '')}
+          src={sizedAsset(food.image, 240)} alt={food.name} loading="lazy" />
       ) : (
         <div className="food-item__img food-item__img--placeholder">{TYPE_ICONS.food}</div>
       )}
