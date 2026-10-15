@@ -289,7 +289,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
    drawings that must not be cut off at the edges. Nudged up because the drawings
    carry transparent space at the top, which otherwise reads as sitting low. */
 .food-item__img { width: 116px; height: 116px; object-fit: contain; flex-shrink: 0; margin-top: -20px; }
-.food-item__img--repo { transform: scale(1.1); } /* repo illustrations have more padding inside the frame; scaling keeps the layout unchanged */
+.food-item__img--repo { transform: scale(1.18); } /* repo illustrations have more padding inside the frame; scaling keeps the layout unchanged */
 .food-item__img--placeholder { display: flex; align-items: center; justify-content: center; }
 .food-item__img--placeholder svg { width: 28px; height: 28px; display: block; color: var(--ink-xlight); }
 .food-item__body { flex: 1; min-width: 0; }
