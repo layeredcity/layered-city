@@ -19,6 +19,24 @@
    "id": "2esJPyq3mJX9Vxyv54sJE4",
    "text": "Özür dilerim",
    "endDb": -19.9
+  },
+  {
+   "kind": "food",
+   "id": "1FMsfYSS3GmWP5WtdJFDMy",
+   "text": "Midye dolma",
+   "endDb": -25
+  },
+  {
+   "kind": "food",
+   "id": "19EpHMLB0BzMIb38yl8Ndf",
+   "text": "Kokoreç",
+   "endDb": -24.4
+  },
+  {
+   "kind": "food",
+   "id": "6WMoIxPbDbDjN1UFpEDD0X",
+   "text": "Türk kahvesi",
+   "endDb": -21.3
   }
  ],
  "Kraków": [
@@ -46,6 +64,12 @@
    "id": "1jdQqCq65BsiVqZnA6jsdH",
    "text": "Nie rozumiem",
    "endDb": -17.1
+  },
+  {
+   "kind": "food",
+   "id": "2raQSTPBtzeNnGRmKxf038",
+   "text": "Szarlotka",
+   "endDb": -25.5
   }
  ],
  "Marseille": [
@@ -75,6 +99,12 @@
    "id": "7XXmjfrKRP0mM850zvHVa",
    "text": "Il coperto",
    "endDb": -24.8
+  },
+  {
+   "kind": "food",
+   "id": "7xiffjQxI4oNM3R9VnzECk",
+   "text": "Pasta e patate con provola",
+   "endDb": -24.7
   }
  ],
  "Reykjavík": [
@@ -82,6 +112,12 @@
    "id": "6181wk5XlhQcAmJFvrRwtU",
    "text": "Borð fyrir tvo",
    "endDb": -24.1
+  },
+  {
+   "kind": "food",
+   "id": "6DjnjqB4EBigsOQDDnRbx5",
+   "text": "Hangikjöt á flatkökum",
+   "endDb": -21.1
   }
  ],
  "Venice": [
@@ -111,6 +147,30 @@
    "id": "2Dbh0JbGhsnNbvIcNWMJtP",
    "text": "Uf Wiederluege",
    "endDb": -22.9
+  }
+ ],
+ "Athens": [
+  {
+   "kind": "food",
+   "id": "4O8iDIZhsxBxDFcGadRckG",
+   "text": "Melomakarona",
+   "endDb": -21.8
+  }
+ ],
+ "Barcelona": [
+  {
+   "kind": "food",
+   "id": "58igOA1QUhFFB7VPKP5Dm0",
+   "text": "Espinacs a la catalana",
+   "endDb": -23.1
+  }
+ ],
+ "London": [
+  {
+   "kind": "food",
+   "id": "sJmdYqRmrQp3HDWee6FWv",
+   "text": "Chicken tikka masala",
+   "endDb": -24
   }
  ]
 }
