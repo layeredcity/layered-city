@@ -119,6 +119,11 @@ for (const [city, cfg] of Object.entries(CITY_VOICES)) {
     try { add(await search({ language: cfg.lang, locale: loc }, 1)) } catch (e) { if (!String(e.message).startsWith('400')) throw e }
   }
   add(await search({ search: cfg.local[0] }, 1))
+  if (city === 'Lisbon' || city === 'Budapest') {
+    await fs.mkdir(path.join(ROOT, 'voices'), { recursive: true })
+    await fs.writeFile(path.join(ROOT, 'voices', `debug-${cfg.lang}.json`), JSON.stringify([...seen.values()].slice(0, 4), null, 1))
+    console.log(`::notice::${city}: ${seen.size} raw voices fetched`)
+  }
   const ranked = [...seen.values()]
     .map(v => ({ v, s: score(v, cfg) })).filter(x => x.s >= 0)
     .sort((a, b) => b.s - a.s).slice(0, 6)
