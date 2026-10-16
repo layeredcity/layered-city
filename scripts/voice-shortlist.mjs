@@ -58,6 +58,10 @@ export const CITY_VOICES = {
   Dublin:     { lang: 'en', locales: ['en-IE'], local: ['dublin', 'irish', 'ireland'] },
 }
 
+// Surface failures as GitHub check annotations (readable without log access).
+const fail = e => { console.error(e); if (process.env.GITHUB_ACTIONS) console.log(`::error::${String(e?.message || e).replace(/\n/g, ' ').slice(0, 900)}`); process.exit(1) }
+process.on('unhandledRejection', fail); process.on('uncaughtException', fail)
+
 const sleep = ms => new Promise(r => setTimeout(r, ms))
 async function api(p) {
   for (let i = 0; i < 4; i++) {
