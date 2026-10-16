@@ -1,17 +1,18 @@
 {
  "Copenhagen": [
   {
-   "id": "6N04vNGlawEAqQ6FYdtboD",
-   "text": "En",
-   "endDb": null,
-   "problem": "no usable audio after 3 tries"
+   "kind": "food",
+   "id": "4iSgHYFJmshQARt8LOk3mS",
+   "text": "Frikadeller",
+   "endDb": -24.4
   }
  ],
  "Dublin": [
   {
-   "id": "4EUa1BrxqXa6MfcJxrxH3N",
-   "text": "Thanks a million",
-   "endDb": -21.4
+   "kind": "words",
+   "id": "4povhobtLCUskEceAcUTBu",
+   "text": "The ATM",
+   "endDb": -24.6
   }
  ],
  "Istanbul": [
@@ -137,18 +138,6 @@
    "endDb": -23.6
   }
  ],
- "Zurich": [
-  {
-   "id": "7EKLliePwnkpdQMA4e8PiC",
-   "text": "Es tuet mer leid",
-   "endDb": -24.6
-  },
-  {
-   "id": "2Dbh0JbGhsnNbvIcNWMJtP",
-   "text": "Uf Wiederluege",
-   "endDb": -22.9
-  }
- ],
  "Athens": [
   {
    "kind": "food",
@@ -163,14 +152,6 @@
    "id": "58igOA1QUhFFB7VPKP5Dm0",
    "text": "Espinacs a la catalana",
    "endDb": -23.1
-  }
- ],
- "London": [
-  {
-   "kind": "food",
-   "id": "sJmdYqRmrQp3HDWee6FWv",
-   "text": "Chicken tikka masala",
-   "endDb": -24
   }
  ]
 }
