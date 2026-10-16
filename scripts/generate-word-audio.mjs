@@ -55,7 +55,10 @@ const TMP = await fs.mkdtemp(path.join(os.tmpdir(), 'wordaudio-'))
 async function tts(voiceId, text, lang, speed) {
   let lastErr = ''
   for (const m of MODELS) {
-    const body = { text, model_id: m, language_code: lang, seed: 7 }
+    // Very short inputs ("Oui", "Non") come back truncated without an ending;
+    // a full stop gives the model a complete utterance. Only sent, never shown.
+    const spoken = /[.!?…;:]$/.test(text) ? text : text + '.'
+    const body = { text: spoken, model_id: m, language_code: lang, seed: 7 }
     if (speed !== 1) body.voice_settings = { speed }
     const r = await el(`/v1/text-to-speech/${voiceId}?output_format=mp3_44100_64`, { method: 'POST', body: JSON.stringify(body) })
     if (r.ok) return Buffer.from(await r.arrayBuffer())
@@ -96,8 +99,11 @@ async function dropTailBlip(f) {
 }
 async function slowedClip(buf) {
   const f = await dropTailBlip(await trimmed(buf, SPEED === 1 ? '' : `,atempo=${SPEED}`))
-  const out = path.join(TMP, `${n++}.mp3`)
-  await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', f, '-ac', '1', '-b:a', '64k', out])
+  // Short lead-in and a fade into a little silence, so playback never starts
+  // or stops mid-sound (browsers can swallow the first few milliseconds).
+  const d = await dur(f), out = path.join(TMP, `${n++}.mp3`)
+  await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', f, '-af',
+    `afade=t=out:st=${Math.max(0, d - 0.04).toFixed(3)}:d=0.04,adelay=60,apad=pad_dur=0.25`, '-ac', '1', '-b:a', '64k', out])
   return fs.readFile(out)
 }
 
@@ -149,7 +155,7 @@ for (const city of targets) {
   try {
     for (const w of list) {
       const model = MODELS[0]
-      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v5', SPEED].join('|')).digest('hex').slice(0, 8)
+      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v6', SPEED].join('|')).digest('hex').slice(0, 8)
       if (map[w.id] === `${cs}/${hash}`) { kept++; continue }
       const audio = await slowedClip(await tts(voiceId, w.text, LANG[city], 1.0))
       if (map[w.id]) await fs.rm(path.join(ROOT, 'public', 'words-audio', `${map[w.id].split('/')[0]}`, `${w.id}-${map[w.id].split('/')[1]}.mp3`), { force: true })
