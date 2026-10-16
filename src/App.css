@@ -324,7 +324,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* White at 50% rather than an ink token: these headings sit on the navy
    gradient, where a warm gray reads as muddy. */
 .overview-list { flex-shrink: 0; margin: 4px 22px 16px; border-radius: 18px; overflow: hidden; background: rgb(239 246 255); box-shadow: 0 6px 18px rgba(0,0,0,0.3); }
-.overview-item { display: flex; align-items: center; gap: 14px; padding: 14px 16px; cursor: pointer; transition: background var(--transition); background: transparent; border-bottom: 1px solid rgba(20,50,120,0.10); }
+.overview-item { display: flex; align-items: center; gap: 14px; padding: 14px 16px 14px 14px; cursor: pointer; transition: background var(--transition); background: transparent; border-bottom: 1px solid rgba(20,50,120,0.10); }
 .overview-item:last-child { border-bottom: none; }
 .overview-item:hover { background: #dce8f9; }
 .overview-item__icon-wrap { width: 48px; height: 48px; border-radius: 12px; background: #153B8F; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: white; }
