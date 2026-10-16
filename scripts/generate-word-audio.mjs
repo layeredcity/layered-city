@@ -111,17 +111,27 @@ async function endLevel(f) {
   const m = log.match(/mean_volume: (-?[\d.]+) dB/)
   return m ? Number(m[1]) : -99
 }
+// Even out loudness between voices (one speaker came out ~10 dB quieter):
+// bring the speech to TARGET_DB mean, never letting peaks pass -1 dB.
+const TARGET_DB = Number(process.env.TARGET_DB || -17)
+async function levelGain(f) {
+  const log = await new Promise(res => execFile('ffmpeg', ['-nostdin', '-i', f, '-af', 'volumedetect', '-f', 'null', '-'], (e, so, se) => res(se || '')))
+  const mean = Number(log.match(/mean_volume: (-?[\d.]+) dB/)?.[1]), max = Number(log.match(/max_volume: (-?[\d.]+) dB/)?.[1])
+  if (!Number.isFinite(mean) || !Number.isFinite(max)) return 0
+  return Math.min(TARGET_DB - mean, -1 - max)
+}
 async function slowedClip(buf) {
   const t = await trimmed(buf, SPEED === 1 ? '' : `,atempo=${SPEED}`)
   const len = await dur(t).catch(() => NaN)
   if (!(len > 0.08)) return { audio: null, endDb: Infinity } // the take was silent: no usable audio
   const f = await dropTailBlip(t)
   const endDb = await endLevel(f)
+  const gain = await levelGain(f)
   // Short lead-in and a fade into a little silence, so playback never starts
   // or stops mid-sound (browsers can swallow the first few milliseconds).
   const d = await dur(f), out = path.join(TMP, `${n++}.mp3`)
   await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', f, '-af',
-    `afade=t=out:st=${Math.max(0, d - 0.04).toFixed(3)}:d=0.04,adelay=60,apad=pad_dur=0.25`, '-ac', '1', '-b:a', '64k', out])
+    `volume=${gain.toFixed(2)}dB,afade=t=out:st=${Math.max(0, d - 0.04).toFixed(3)}:d=0.04,adelay=60,apad=pad_dur=0.25`, '-ac', '1', '-b:a', '64k', out])
   return { audio: await fs.readFile(out), endDb }
 }
 
@@ -129,9 +139,10 @@ async function slowedClip(buf) {
 // voices/audio-check.json for a listen.
 const END_OK = Number(process.env.END_OK_DB || -26)
 const SEEDS = [7, 101, 2027]
-async function bestTake(voiceId, text, lang) {
+async function bestTake(voiceId, text, lang, round = 0) {
   let best = null, tries = 0
-  for (const seed of SEEDS) {
+  for (const base of SEEDS) {
+    const seed = base + round * 1000 // a redo round asks for genuinely different takes
     tries++
     let take
     try { take = await slowedClip(await tts(voiceId, text, lang, 1.0, seed)) }
@@ -172,6 +183,10 @@ const foods = (await cda('content_type=food&select=sys.id,fields.foodName,fields
   .map(f => ({ kind: 'food', id: f.sys.id, text: (f.fields.foodName || '').trim(), city: cities[f.fields.relatedCity?.sys?.id] }))
   .filter(f => f.text && f.city)
 const items = [...(KINDS.includes('words') ? words : []), ...(KINDS.includes('food') ? foods : [])]
+// voices/redo.json: clips Ryan heard as off, [{ city, kind, text, round }].
+// Each listed clip is regenerated with a new set of takes (bump `round` to try again).
+const redo = JSON.parse(await fs.readFile(path.join(ROOT, 'voices', 'redo.json'), 'utf8').catch(() => '[]'))
+const redoRound = (w) => redo.find(r => r.city === w.city && (r.kind || 'words') === w.kind && r.text === w.text)?.round || 0
 const targets = ONLY[0] === 'all' ? Object.keys(chosen) : ONLY
 const maps = {}
 for (const k of Object.keys(KIND)) maps[k] = JSON.parse(await fs.readFile(KIND[k].map, 'utf8').catch(() => '{}'))
@@ -204,13 +219,13 @@ for (const city of targets) {
       const dir = path.join(ROOT, 'public', KIND[w.kind].dir, cs)
       await fs.mkdir(dir, { recursive: true })
       const model = MODELS[0]
-      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v7', SPEED].join('|')).digest('hex').slice(0, 8)
+      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v7', SPEED, ...(redoRound(w) ? ['redo' + redoRound(w)] : [])].join('|')).digest('hex').slice(0, 8)
       if (map[w.id] === `${cs}/${hash}`) { kept++; continue }
       // A file with this exact hash is already on disk (an earlier run that
       // stopped before saving its map): adopt it rather than pay for it again.
       const existing = path.join(dir, `${w.id}-${hash}.mp3`)
       if (await fs.access(existing).then(() => true, () => false)) { map[w.id] = `${cs}/${hash}`; adopted++; continue }
-      const { audio, endDb, tries } = await bestTake(voiceId, w.text, LANG[city])
+      const { audio, endDb, tries } = await bestTake(voiceId, w.text, LANG[city], redoRound(w))
       retries += tries - 1
       if (!audio) { flagged.push({ city, kind: w.kind, id: w.id, text: w.text, endDb: null, problem: 'no usable audio after 3 tries' }); continue }
       if (endDb > END_OK) flagged.push({ city, kind: w.kind, id: w.id, text: w.text, endDb: Math.round(endDb * 10) / 10 })

@@ -19,7 +19,13 @@ const KEY = process.env.ELEVENLABS_API_KEY
 if (!KEY) { console.error('Set ELEVENLABS_API_KEY'); process.exit(1) }
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
-const OUT = path.join(ROOT, 'voices', 'shortlist.json')
+// ROUND=2 CITIES=London,Dublin re-shortlists only those cities, skips the
+// voice already chosen, shows more options, and writes shortlist-round2.json.
+const ROUND = Number(process.env.ROUND || 1)
+const ONLY = (process.env.CITIES || '').split(',').map(s => s.trim()).filter(Boolean)
+const COUNT = Number(process.env.COUNT || (ROUND > 1 ? 10 : 6))
+const OUT = path.join(ROOT, 'voices', ROUND > 1 ? `shortlist-round${ROUND}.json` : 'shortlist.json')
+const PREVIOUS = ROUND > 1 ? JSON.parse(await fs.readFile(path.join(ROOT, 'voices', 'chosen.json'), 'utf8')) : {}
 
 // lang: ISO 639-1 for the library filter. locales: preferred locale(s), best
 // first. local: words that mark a voice as being from this city or region.
@@ -52,10 +58,10 @@ export const CITY_VOICES = {
   Bucharest:  { lang: 'ro', locales: ['ro-RO'], local: ['bucharest', 'bucurești', 'bucuresti', 'romania'] },
   Budapest:   { lang: 'hu', locales: ['hu-HU'], local: ['budapest', 'hungary', 'magyar'] },
   Istanbul:   { lang: 'tr', locales: ['tr-TR'], local: ['istanbul', 'İstanbul', 'turkey', 'türkiye'] },
-  London:     { lang: 'en', locales: ['en-GB'], local: ['london', 'londoner', 'cockney', 'estuary'] },
-  Manchester: { lang: 'en', locales: ['en-GB'], local: ['manchester', 'mancunian', 'northern english', 'lancashire'] },
+  London:     { lang: 'en', locales: ['en-GB'], local: ['london', 'londoner', 'south east', 'southern english', 'estuary'], avoid: ['cockney', 'posh', 'aristocrat', 'royal', 'rp ', 'received pronunciation'] },
+  Manchester: { lang: 'en', locales: ['en-GB'], local: ['manchester', 'mancunian', 'northern', 'lancashire', 'yorkshire', 'north west', 'north of england'] },
   Edinburgh:  { lang: 'en', locales: ['en-GB'], local: ['edinburgh', 'scottish', 'scotland', 'scots'] },
-  Dublin:     { lang: 'en', locales: ['en-IE'], local: ['dublin', 'irish', 'ireland'] },
+  Dublin:     { lang: 'en', locales: ['en-IE'], local: ['dublin', 'dub', 'irish', 'ireland'] },
 }
 
 // Surface failures as GitHub check annotations (readable without log access).
@@ -88,6 +94,7 @@ async function search(params, pages = 3) {
 const text = v => [v.name, v.accent, v.description, v.descriptive, ...(v.verified_languages || []).flatMap(l => [l.accent, l.locale])]
   .filter(Boolean).join(' ').toLowerCase()
 
+const cfgCity = cfg => Object.keys(CITY_VOICES).find(k => CITY_VOICES[k] === cfg)
 function score(v, cfg) {
   const t = text(v)
   const langs = v.verified_languages || []
@@ -95,6 +102,10 @@ function score(v, cfg) {
   if (!native) return -1
   if ((v.rate || 1) > 1 || v.fiat_rate) return -1 // rate is a credit multiplier (1 = normal); legacy custom rates cost extra
   let s = 0
+  // Accents that read as American, or styles the city doesn't want, sink.
+  if (/american|\bus\b|en-us|transatlantic|mid-atlantic/.test(t)) s -= 80
+  if ((cfg.avoid || []).some(k => t.includes(k))) s -= 60
+  if (PREVIOUS[cfgCity(cfg)]?.voice_id === v.voice_id) return -1
   const hits = cfg.local.filter(k => t.includes(k.toLowerCase()))
   s += hits.length ? 100 + 10 * hits.length : 0
   // City name itself is the strongest signal.
@@ -110,7 +121,7 @@ function score(v, cfg) {
 }
 
 const result = { generated: new Date().toISOString(), cities: {} }
-for (const [city, cfg] of Object.entries(CITY_VOICES)) {
+for (const [city, cfg] of Object.entries(CITY_VOICES).filter(([c]) => !ONLY.length || ONLY.includes(c))) {
   const seen = new Map()
   const add = vs => vs.forEach(v => { if (!seen.has(v.voice_id)) seen.set(v.voice_id, v) })
   add(await search({ language: cfg.lang }))
@@ -118,10 +129,10 @@ for (const [city, cfg] of Object.entries(CITY_VOICES)) {
   for (const loc of cfg.locales) {
     try { add(await search({ language: cfg.lang, locale: loc }, 1)) } catch (e) { if (!String(e.message).startsWith('400')) throw e }
   }
-  add(await search({ search: cfg.local[0] }, 1))
+  for (const term of cfg.local.slice(0, ROUND > 1 ? 3 : 1)) add(await search({ search: term }, 1))
   const ranked = [...seen.values()]
     .map(v => ({ v, s: score(v, cfg) })).filter(x => x.s >= 0)
-    .sort((a, b) => b.s - a.s).slice(0, 6)
+    .sort((a, b) => b.s - a.s).slice(0, COUNT)
     .map(({ v, s }) => {
       const vl = (v.verified_languages || []).find(l => l.language === cfg.lang) || {}
       return {

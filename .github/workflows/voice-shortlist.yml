@@ -29,11 +29,10 @@ jobs:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
         run: |
           if [ -z "$ELEVENLABS_API_KEY" ]; then echo "::notice::ELEVENLABS_API_KEY secret not set yet; skipping"; exit 0; fi
-          node scripts/voice-shortlist.mjs
+          ROUND="$(grep '^round=' voices/run-shortlist | cut -d= -f2)" CITIES="$(grep '^cities=' voices/run-shortlist | cut -d= -f2)" node scripts/voice-shortlist.mjs
       - name: Commit
         run: |
-          [ -f voices/shortlist.json ] || exit 0
-          git add voices/shortlist.json voices/previews
+          git add voices/shortlist*.json voices/previews
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "Layered City voice shortlist"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
