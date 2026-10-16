@@ -25,7 +25,7 @@ import crypto from 'node:crypto'
 import { slugify } from '../src/utils/slugify.js'
 import { execFile } from 'node:child_process'
 import os from 'node:os'
-const run = (cmd, args) => new Promise((res, rej) => execFile(cmd, args, (e, so, se) => e ? rej(new Error(se || e.message)) : res(so)))
+const run = (cmd, args) => new Promise((res, rej) => execFile(cmd, cmd === 'ffmpeg' ? ['-nostdin', ...args] : args, { timeout: 60000 }, (e, so, se) => e ? rej(new Error(se || e.message)) : res(so)))
 
 const KEY = process.env.ELEVENLABS_API_KEY
 const CDA_TOKEN = process.env.CONTENTFUL_DELIVERY_TOKEN
@@ -99,7 +99,9 @@ async function joinWithPause(a, b) {
 const sleep = ms => new Promise(r => setTimeout(r, ms))
 async function el(p, opts = {}) {
   for (let i = 0; i < 5; i++) {
-    const res = await fetch('https://api.elevenlabs.io' + p, { ...opts, headers: { 'xi-api-key': KEY, 'Content-Type': 'application/json', ...(opts.headers || {}) } })
+    let res
+    try { res = await fetch('https://api.elevenlabs.io' + p, { ...opts, signal: AbortSignal.timeout(90000), headers: { 'xi-api-key': KEY, 'Content-Type': 'application/json', ...(opts.headers || {}) } }) }
+    catch (e) { if (i === 4) throw e; await sleep(3000); continue } // stalled or dropped request
     if (res.status === 429 || res.status >= 500) { await sleep(3000 * (i + 1)); continue }
     return res
   }
