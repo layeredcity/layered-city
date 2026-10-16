@@ -1,1 +1,116 @@
-{}
+{
+ "Copenhagen": [
+  {
+   "id": "6N04vNGlawEAqQ6FYdtboD",
+   "text": "En",
+   "endDb": null,
+   "problem": "no usable audio after 3 tries"
+  }
+ ],
+ "Dublin": [
+  {
+   "id": "4EUa1BrxqXa6MfcJxrxH3N",
+   "text": "Thanks a million",
+   "endDb": -21.4
+  }
+ ],
+ "Istanbul": [
+  {
+   "id": "2esJPyq3mJX9Vxyv54sJE4",
+   "text": "Özür dilerim",
+   "endDb": -19.9
+  }
+ ],
+ "Kraków": [
+  {
+   "id": "2sEn5gg1mLskbNGKbLldSr",
+   "text": "Reklamówka?",
+   "endDb": -14.1
+  },
+  {
+   "id": "2ew6wPvmFJn3SRLOjDdYVu",
+   "text": "Gotówka",
+   "endDb": -25.8
+  },
+  {
+   "id": "4XpmSYKHjp7FzAkxa0yZVe",
+   "text": "Poproszę to",
+   "endDb": -24.8
+  },
+  {
+   "id": "5v13XyJJ5KYgd4Wl9Ok3rZ",
+   "text": "Stolik dla dwojga",
+   "endDb": -24.4
+  },
+  {
+   "id": "1jdQqCq65BsiVqZnA6jsdH",
+   "text": "Nie rozumiem",
+   "endDb": -17.1
+  }
+ ],
+ "Marseille": [
+  {
+   "id": "17DKRp44XYuRph4gHVGrGN",
+   "text": "Bon appétit",
+   "endDb": -23.7
+  },
+  {
+   "id": "ia7OjT8wHcVHgt1DDWrtv",
+   "text": "Excusez-moi",
+   "endDb": -23.9
+  },
+  {
+   "id": "5KPCpXWw3wa9h2LEv5K9Xd",
+   "text": "Je ne comprends pas",
+   "endDb": -22.5
+  }
+ ],
+ "Naples": [
+  {
+   "id": "64CDxh9OQkZJ3m96SSnYkq",
+   "text": "Il conto?",
+   "endDb": -22.3
+  },
+  {
+   "id": "7XXmjfrKRP0mM850zvHVa",
+   "text": "Il coperto",
+   "endDb": -24.8
+  }
+ ],
+ "Reykjavík": [
+  {
+   "id": "6181wk5XlhQcAmJFvrRwtU",
+   "text": "Borð fyrir tvo",
+   "endDb": -24.1
+  }
+ ],
+ "Venice": [
+  {
+   "id": "1iMHA6jHK4yf5eM0drkHiZ",
+   "text": "Un sacchetto?",
+   "endDb": -24.8
+  },
+  {
+   "id": "7Cbih9JAa5ypFGv9veyD5v",
+   "text": "Un tavolo per due",
+   "endDb": -22.4
+  },
+  {
+   "id": "4xoQwHwdc6aGkkk4oIpWFY",
+   "text": "Non parlo italiano",
+   "endDb": -23.6
+  }
+ ],
+ "Zurich": [
+  {
+   "id": "7EKLliePwnkpdQMA4e8PiC",
+   "text": "Es tuet mer leid",
+   "endDb": -24.6
+  },
+  {
+   "id": "2Dbh0JbGhsnNbvIcNWMJtP",
+   "text": "Uf Wiederluege",
+   "endDb": -22.9
+  }
+ ]
+}
