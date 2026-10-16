@@ -283,7 +283,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* Tighter padding and gap than a story row, with the reclaimed space handed to
    the illustration: 10 + 116 + 10 + text + 10 spans exactly what 16 + 100 + 14
    + text + 16 did, so the art grows without the copy losing a pixel. */
-.food-item { display: flex; align-items: flex-start; gap: 10px; padding: 16px 10px; border-bottom: 1px solid var(--border); }
+.food-item { display: flex; flex-direction: row-reverse; align-items: flex-start; gap: 10px; padding: 16px 10px; border-bottom: 1px solid var(--border); }
 /* The illustrations are transparent PNGs, so they sit straight on the panel —
    no plate, no shadow, no crop. `contain` rather than `cover` because these are
    drawings that must not be cut off at the edges. Nudged up because the drawings
