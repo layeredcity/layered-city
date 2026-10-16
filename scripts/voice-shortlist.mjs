@@ -114,7 +114,10 @@ for (const [city, cfg] of Object.entries(CITY_VOICES)) {
   const seen = new Map()
   const add = vs => vs.forEach(v => { if (!seen.has(v.voice_id)) seen.set(v.voice_id, v) })
   add(await search({ language: cfg.lang }))
-  for (const loc of cfg.locales) add(await search({ language: cfg.lang, locale: loc }, 1))
+  // The API only accepts locales it knows (no ca-ES, for instance); skip ones it rejects.
+  for (const loc of cfg.locales) {
+    try { add(await search({ language: cfg.lang, locale: loc }, 1)) } catch (e) { if (!String(e.message).startsWith('400')) throw e }
+  }
   add(await search({ search: cfg.local[0] }, 1))
   const ranked = [...seen.values()]
     .map(v => ({ v, s: score(v, cfg) })).filter(x => x.s >= 0)
