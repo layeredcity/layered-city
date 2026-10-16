@@ -293,7 +293,7 @@ function WordAudioButton({ url, label }) {
     <button type="button" className={'word-row__audio' + (playing ? ' word-row__audio--playing' : '')} onClick={toggle}
       aria-label={playing ? `Stop ${label}` : `Play pronunciation of ${label}`}>
       {playing ? (
-        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="8" height="8" rx="1.2" fill="currentColor"/></svg>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2.4" fill="currentColor"/></svg>
       ) : (
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
           <path d="M13 4.5a1 1 0 0 0-1.62-.78L6.9 7.5H4a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2.9l4.48 3.78A1 1 0 0 0 13 19.5v-15z"/>
