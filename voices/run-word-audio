@@ -1,12 +1,8 @@
 # Cities to generate audio for, one per line (or: all). kinds= words, food or both.
-kinds=food
-Amsterdam
-Athens
-Belgrade
-Berlin
-Bucharest
-Budapest
-Florence
-Istanbul
-Munich
-Seville
+kinds=words,food
+Copenhagen
+Dublin
+London
+Manchester
+Vienna
+Zurich
