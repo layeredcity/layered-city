@@ -33,7 +33,7 @@ jobs:
       - name: Commit
         run: |
           [ -f voices/shortlist.json ] || exit 0
-          git add voices/shortlist.json
+          git add voices/shortlist.json voices/previews
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "Layered City voice shortlist"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

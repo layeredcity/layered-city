@@ -137,6 +137,23 @@ for (const [city, cfg] of Object.entries(CITY_VOICES)) {
   await sleep(300)
 }
 
+// Keep a copy of each preview clip so the picker page can play them (the
+// ElevenLabs storage host isn't reachable from every page that needs them).
+for (const [city, c] of Object.entries(result.cities)) {
+  for (const v of c.candidates) {
+    if (!v.preview_url) continue
+    const rel = `previews/${c.lang}-${v.voice_id}.mp3`
+    const dest = path.join(ROOT, 'voices', rel)
+    try { await fs.access(dest) } catch {
+      const r = await fetch(v.preview_url)
+      if (!r.ok) { console.warn(`preview ${r.status} for ${city} ${v.name}`); continue }
+      await fs.mkdir(path.dirname(dest), { recursive: true })
+      await fs.writeFile(dest, Buffer.from(await r.arrayBuffer()))
+    }
+    v.preview_file = rel
+  }
+}
+
 await fs.mkdir(path.dirname(OUT), { recursive: true })
 await fs.writeFile(OUT, JSON.stringify(result, null, 1) + '\n')
 const weak = Object.entries(result.cities).filter(([, c]) => !c.candidates.some(x => x.local_match)).map(([k]) => k)
