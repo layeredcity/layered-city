@@ -78,8 +78,24 @@ async function trimmed(buf, extra = '') {
   await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', a, '-af', `aresample=44100,aformat=sample_fmts=fltp:channel_layouts=mono,${TRIM}${extra}`, out])
   return out
 }
+// A take sometimes ends with a breath or click after a long gap, which the
+// silence trim can't reach. Cut a short sound (< 0.3s) that follows a gap of
+// at least 0.35s at the end of the clip.
+async function dropTailBlip(f) {
+  const log = await new Promise(res => execFile('ffmpeg', ['-nostdin', '-i', f, '-af', 'silencedetect=n=-40dB:d=0.35', '-f', 'null', '-'], (e, so, se) => res(se || '')))
+  const starts = [...log.matchAll(/silence_start: ([\d.]+)/g)].map(m => +m[1])
+  const ends = [...log.matchAll(/silence_end: ([\d.]+)/g)].map(m => +m[1])
+  if (!starts.length || !ends.length) return f
+  const total = await dur(f), lastStart = starts.at(-1), lastEnd = ends.at(-1)
+  if (lastEnd < total && total - lastEnd < 0.3 && lastStart > 0.2) {
+    const out = path.join(TMP, `${n++}.wav`)
+    await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', f, '-af', `atrim=0:${(lastStart + 0.1).toFixed(3)}`, out])
+    return out
+  }
+  return f
+}
 async function slowedClip(buf) {
-  const f = await trimmed(buf, SPEED === 1 ? '' : `,atempo=${SPEED}`)
+  const f = await dropTailBlip(await trimmed(buf, SPEED === 1 ? '' : `,atempo=${SPEED}`))
   const out = path.join(TMP, `${n++}.mp3`)
   await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', f, '-ac', '1', '-b:a', '64k', out])
   return fs.readFile(out)
@@ -133,7 +149,7 @@ for (const city of targets) {
   try {
     for (const w of list) {
       const model = MODELS[0]
-      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v4', SPEED].join('|')).digest('hex').slice(0, 8)
+      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v5', SPEED].join('|')).digest('hex').slice(0, 8)
       if (map[w.id] === `${cs}/${hash}`) { kept++; continue }
       const audio = await slowedClip(await tts(voiceId, w.text, LANG[city], 1.0))
       if (map[w.id]) await fs.rm(path.join(ROOT, 'public', 'words-audio', `${map[w.id].split('/')[0]}`, `${w.id}-${map[w.id].split('/')[1]}.mp3`), { force: true })
