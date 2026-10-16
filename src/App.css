@@ -103,6 +103,9 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .word-row__audio { flex-shrink: 0; width: 28px; height: 28px; margin-top: -1px; display: inline-flex; align-items: center; justify-content: center; padding: 0; border: none; border-radius: 50%; background: transparent; color: var(--accent); cursor: pointer; transition: background var(--transition); }
 .word-row__audio:hover { background: rgba(200,65,42,0.12); }
 .word-row__audio svg { width: 17px; height: 17px; }
+/* While a clip plays the button becomes a red circle with a white stop square. */
+.word-row__audio--playing, .word-row__audio--playing:hover { background: var(--accent); color: #fff; }
+.word-row__audio--playing svg { width: 18px; height: 18px; }
 .word-row__local { display: block; font-size: 16px; font-weight: 500; line-height: 1.3; color: var(--ink); }
 .word-row__phon { display: block; font-size: 12px; font-style: italic; letter-spacing: 0.02em; color: var(--ink-light); margin-top: 1px; }
 .word-row__meaning { display: block; font-size: 13.5px; color: var(--ink); margin-top: 3px; }

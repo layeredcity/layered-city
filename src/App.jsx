@@ -262,17 +262,44 @@ function mapsSearchUrl(dish, city) {
 // A dish, read in place. There is no detail view to open: the description is
 // the whole point, so it sits on the row rather than behind a click.
 // A small speaker button that plays a word's short pronunciation clip.
+// One clip plays at a time across the page: starting another stops the first
+// (and turns its button back into a speaker).
+let activeClip = null // { audio, stop }
+
 function WordAudioButton({ url, label }) {
-  const play = (e) => {
+  const [playing, setPlaying] = useState(false)
+  const audioRef = useRef(null)
+  const stop = useCallback(() => {
+    const a = audioRef.current
+    if (a) { a.pause(); a.currentTime = 0 }
+    setPlaying(false)
+    if (activeClip?.audio === a) activeClip = null
+  }, [])
+  useEffect(() => () => { if (activeClip?.audio === audioRef.current) stop() }, [stop])
+  const toggle = (e) => {
     e.stopPropagation()
-    try { const a = new Audio(url); a.play() } catch {}
+    if (playing) { stop(); return }
+    if (activeClip) activeClip.stop()
+    try {
+      const a = audioRef.current || (audioRef.current = new Audio(url))
+      a.onended = () => { setPlaying(false); if (activeClip?.audio === a) activeClip = null }
+      a.currentTime = 0
+      activeClip = { audio: a, stop }
+      setPlaying(true)
+      a.play().catch(() => { setPlaying(false); activeClip = null })
+    } catch { setPlaying(false) }
   }
   return (
-    <button type="button" className="word-row__audio" onClick={play} aria-label={`Play pronunciation of ${label}`}>
-      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-        <path d="M13 4.5a1 1 0 0 0-1.62-.78L6.9 7.5H4a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2.9l4.48 3.78A1 1 0 0 0 13 19.5v-15z"/>
-        <path fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/>
-      </svg>
+    <button type="button" className={'word-row__audio' + (playing ? ' word-row__audio--playing' : '')} onClick={toggle}
+      aria-label={playing ? `Stop ${label}` : `Play pronunciation of ${label}`}>
+      {playing ? (
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="8" width="8" height="8" rx="1.2" fill="currentColor"/></svg>
+      ) : (
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M13 4.5a1 1 0 0 0-1.62-.78L6.9 7.5H4a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h2.9l4.48 3.78A1 1 0 0 0 13 19.5v-15z"/>
+          <path fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" d="M16.5 9a4 4 0 0 1 0 6M19 6.5a7.5 7.5 0 0 1 0 11"/>
+        </svg>
+      )}
     </button>
   )
 }
