@@ -5,8 +5,9 @@
 //   CITIES="Paris" node scripts/generate-word-audio.mjs     # one or more cities
 //   CITIES=all node scripts/generate-word-audio.mjs          # everything
 //
-// Each clip is the phrase at normal speed, a one-second pause, then the same
-// phrase read slowly (a second, slower generation, not a time-stretch), joined
+// Each clip is one take, trimmed of surrounding silence and played at SPEED
+// (default 0.9: a little slower than normal; pitch is preserved). The voice
+// model ignores its own speed setting, so the slowing is done
 // with ffmpeg.
 //
 // Writes public/words-audio/<city>/<wordId>-<hash>.mp3 and
@@ -48,7 +49,7 @@ const LANG = {
   London: 'en', Manchester: 'en', Edinburgh: 'en', Dublin: 'en',
 }
 
-const SLOW = Number(process.env.SLOW_SPEED || 0.75)
+const SPEED = Number(process.env.SPEED || 0.9)
 const TMP = await fs.mkdtemp(path.join(os.tmpdir(), 'wordaudio-'))
 
 async function tts(voiceId, text, lang, speed) {
@@ -70,29 +71,17 @@ async function stretch(buf, speed) {
   return fs.readFile(out)
 }
 const dur = async f => Number(await run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]))
-// Trim the silence each take comes with, so the pause between them is exactly PAUSE seconds.
+// Trim the silence each take comes with.
 const TRIM = 'silenceremove=start_periods=1:start_threshold=-40dB:start_silence=0.05,areverse,silenceremove=start_periods=1:start_threshold=-40dB:start_silence=0.1,areverse'
 async function trimmed(buf, extra = '') {
   const a = await tmp(buf), out = path.join(TMP, `${n++}.wav`)
   await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', a, '-af', `aresample=44100,aformat=sample_fmts=fltp:channel_layouts=mono,${TRIM}${extra}`, out])
   return out
 }
-const PAUSE = Number(process.env.PAUSE_SECONDS || 1)
-async function joinWithPause(a, b) {
-  const fa = await trimmed(a)
-  let fb = await trimmed(b)
-  // The model may not honour the speed setting. If the slow take isn't clearly
-  // slower, stretch it (pitch preserved) to SLOW of the normal pace.
-  const want = (await dur(fa)) / SLOW, got = await dur(fb)
-  if (got < want * 0.92) {
-    const tempo = Math.min(2, Math.max(0.5, got / want))
-    const out = path.join(TMP, `${n++}.wav`)
-    await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', fb, '-af', `atempo=${tempo.toFixed(3)}`, out])
-    fb = out
-  }
+async function slowedClip(buf) {
+  const f = await trimmed(buf, SPEED === 1 ? '' : `,atempo=${SPEED}`)
   const out = path.join(TMP, `${n++}.mp3`)
-  await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', fa, '-f', 'lavfi', '-t', String(PAUSE), '-i', 'anullsrc=r=44100:cl=mono', '-i', fb,
-    '-filter_complex', '[0:a][1:a][2:a]concat=n=3:v=0:a=1', '-ac', '1', '-b:a', '64k', out])
+  await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', f, '-ac', '1', '-b:a', '64k', out])
   return fs.readFile(out)
 }
 
@@ -144,16 +133,12 @@ for (const city of targets) {
   try {
     for (const w of list) {
       const model = MODELS[0]
-      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'normal+pause+slow:v3', SLOW, process.env.PAUSE_SECONDS || 1].join('|')).digest('hex').slice(0, 8)
+      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v4', SPEED].join('|')).digest('hex').slice(0, 8)
       if (map[w.id] === `${cs}/${hash}`) { kept++; continue }
-      const normal = await tts(voiceId, w.text, LANG[city], 1.0)
-      let slow
-      try { slow = await tts(voiceId, w.text, LANG[city], SLOW) }
-      catch { slow = await stretch(normal, SLOW) } // model without a speed setting: slow the normal take instead
-      const audio = await joinWithPause(normal, slow)
+      const audio = await slowedClip(await tts(voiceId, w.text, LANG[city], 1.0))
       if (map[w.id]) await fs.rm(path.join(ROOT, 'public', 'words-audio', `${map[w.id].split('/')[0]}`, `${w.id}-${map[w.id].split('/')[1]}.mp3`), { force: true })
       await fs.writeFile(path.join(dir, `${w.id}-${hash}.mp3`), audio)
-      map[w.id] = `${cs}/${hash}`; made++; chars += 2 * w.text.length
+      map[w.id] = `${cs}/${hash}`; made++; chars += w.text.length
     }
   } finally {
     if (added) await el(`/v1/voices/${voiceId}`, { method: 'DELETE' }).catch(() => {})
