@@ -52,13 +52,13 @@ const LANG = {
 const SPEED = Number(process.env.SPEED || 0.9)
 const TMP = await fs.mkdtemp(path.join(os.tmpdir(), 'wordaudio-'))
 
-async function tts(voiceId, text, lang, speed) {
+async function tts(voiceId, text, lang, speed, seed = 7) {
   let lastErr = ''
   for (const m of MODELS) {
     // Very short inputs ("Oui", "Non") come back truncated without an ending;
     // a full stop gives the model a complete utterance. Only sent, never shown.
     const spoken = /[.!?…;:]$/.test(text) ? text : text + '.'
-    const body = { text: spoken, model_id: m, language_code: lang, seed: 7 }
+    const body = { text: spoken, model_id: m, language_code: lang, seed }
     if (speed !== 1) body.voice_settings = { speed }
     const r = await el(`/v1/text-to-speech/${voiceId}?output_format=mp3_44100_64`, { method: 'POST', body: JSON.stringify(body) })
     if (r.ok) return Buffer.from(await r.arrayBuffer())
@@ -97,14 +97,38 @@ async function dropTailBlip(f) {
   }
   return f
 }
+// Loudness of the last 80 ms of speech (before our fade). A word that ends
+// naturally has trailed off by then; one the model cut short is still loud.
+async function endLevel(f) {
+  const d = await dur(f)
+  const log = await new Promise(res => execFile('ffmpeg', ['-nostdin', '-ss', Math.max(0, d - 0.08).toFixed(3), '-i', f, '-af', 'volumedetect', '-f', 'null', '-'], (e, so, se) => res(se || '')))
+  const m = log.match(/mean_volume: (-?[\d.]+) dB/)
+  return m ? Number(m[1]) : -99
+}
 async function slowedClip(buf) {
   const f = await dropTailBlip(await trimmed(buf, SPEED === 1 ? '' : `,atempo=${SPEED}`))
+  const endDb = await endLevel(f)
   // Short lead-in and a fade into a little silence, so playback never starts
   // or stops mid-sound (browsers can swallow the first few milliseconds).
   const d = await dur(f), out = path.join(TMP, `${n++}.mp3`)
   await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', f, '-af',
     `afade=t=out:st=${Math.max(0, d - 0.04).toFixed(3)}:d=0.04,adelay=60,apad=pad_dur=0.25`, '-ac', '1', '-b:a', '64k', out])
-  return fs.readFile(out)
+  return { audio: await fs.readFile(out), endDb }
+}
+
+// Clips whose ending is still louder than this after retries are listed in
+// voices/audio-check.json for a listen.
+const END_OK = Number(process.env.END_OK_DB || -26)
+const SEEDS = [7, 101, 2027]
+async function bestTake(voiceId, text, lang) {
+  let best = null, tries = 0
+  for (const seed of SEEDS) {
+    tries++
+    const take = await slowedClip(await tts(voiceId, text, lang, 1.0, seed))
+    if (!best || take.endDb < best.endDb) best = take
+    if (take.endDb <= END_OK) break
+  }
+  return { ...best, tries }
 }
 
 const sleep = ms => new Promise(r => setTimeout(r, ms))
@@ -137,7 +161,10 @@ const targets = ONLY[0] === 'all' ? Object.keys(chosen) : ONLY
 const map = JSON.parse(await fs.readFile(MAP, 'utf8').catch(() => '{}'))
 const myVoices = new Set((await (await el('/v1/voices')).json()).voices?.map(v => v.voice_id) || [])
 
-let made = 0, kept = 0, chars = 0
+let made = 0, kept = 0, chars = 0, retries = 0
+const flagged = []
+const CHECK = path.join(ROOT, 'voices', 'audio-check.json')
+const check = JSON.parse(await fs.readFile(CHECK, 'utf8').catch(() => '{}'))
 for (const city of targets) {
   const pick = chosen[city]; if (!pick) { console.warn('No voice chosen for ' + city); continue }
   const list = words.filter(w => w.city === city)
@@ -152,23 +179,32 @@ for (const city of targets) {
     if (!r.ok) throw new Error(`Could not add ${pick.name} for ${city}: ${r.status} ${(await r.text()).slice(0, 300)}`)
     voiceId = (await r.json()).voice_id || voiceId; added = true
   }
+  const generatedNow = new Set()
   try {
     for (const w of list) {
       const model = MODELS[0]
-      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v6', SPEED].join('|')).digest('hex').slice(0, 8)
+      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v7', SPEED].join('|')).digest('hex').slice(0, 8)
       if (map[w.id] === `${cs}/${hash}`) { kept++; continue }
-      const audio = await slowedClip(await tts(voiceId, w.text, LANG[city], 1.0))
+      const { audio, endDb, tries } = await bestTake(voiceId, w.text, LANG[city])
+      retries += tries - 1
+      if (endDb > END_OK) flagged.push({ city, id: w.id, text: w.text, endDb: Math.round(endDb * 10) / 10 })
       if (map[w.id]) await fs.rm(path.join(ROOT, 'public', 'words-audio', `${map[w.id].split('/')[0]}`, `${w.id}-${map[w.id].split('/')[1]}.mp3`), { force: true })
       await fs.writeFile(path.join(dir, `${w.id}-${hash}.mp3`), audio)
-      map[w.id] = `${cs}/${hash}`; made++; chars += w.text.length
+      map[w.id] = `${cs}/${hash}`; generatedNow.add(w.id); made++; chars += w.text.length
     }
   } finally {
     if (added) await el(`/v1/voices/${voiceId}`, { method: 'DELETE' }).catch(() => {})
   }
+  // This city's listen-to list: earlier flags for phrases not regenerated
+  // now, plus this run's flags.
+  check[city] = [...(check[city] || []).filter(x => !generatedNow.has(x.id)),
+    ...flagged.filter(f => f.city === city).map(({ city: _c, ...rest }) => rest)]
+  if (!check[city].length) delete check[city]
   console.log(`${city}: ${list.length} phrases`)
 }
 
 const sorted = Object.fromEntries(Object.keys(map).sort().map(k => [k, map[k]]))
 await fs.writeFile(MAP, JSON.stringify(sorted) + '\n')
-const msg = `word audio: ${made} generated (~${chars} characters), ${kept} unchanged`
+await fs.writeFile(CHECK, JSON.stringify(check, null, 1) + '\n')
+const msg = `word audio: ${made} generated (~${chars} characters, ${retries} retakes), ${kept} unchanged; ${flagged.length} may sound cut off: ${flagged.map(f => `${f.city} "${f.text}"`).join(', ').slice(0, 600)}`
 console.log(msg); if (process.env.GITHUB_ACTIONS) console.log('::notice::' + msg)
