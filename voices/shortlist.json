@@ -1,0 +1,133 @@
+{
+ "generated": "2026-10-16T14:22:10.203Z",
+ "cities": {
+  "Lisbon": {
+   "lang": "pt",
+   "candidates": []
+  },
+  "Madrid": {
+   "lang": "es",
+   "candidates": []
+  },
+  "Seville": {
+   "lang": "es",
+   "candidates": []
+  },
+  "Barcelona": {
+   "lang": "ca",
+   "candidates": []
+  },
+  "Paris": {
+   "lang": "fr",
+   "candidates": []
+  },
+  "Marseille": {
+   "lang": "fr",
+   "candidates": []
+  },
+  "Brussels": {
+   "lang": "fr",
+   "candidates": []
+  },
+  "Rome": {
+   "lang": "it",
+   "candidates": []
+  },
+  "Florence": {
+   "lang": "it",
+   "candidates": []
+  },
+  "Naples": {
+   "lang": "it",
+   "candidates": []
+  },
+  "Venice": {
+   "lang": "it",
+   "candidates": []
+  },
+  "Berlin": {
+   "lang": "de",
+   "candidates": []
+  },
+  "Munich": {
+   "lang": "de",
+   "candidates": []
+  },
+  "Vienna": {
+   "lang": "de",
+   "candidates": []
+  },
+  "Zurich": {
+   "lang": "de",
+   "candidates": []
+  },
+  "Amsterdam": {
+   "lang": "nl",
+   "candidates": []
+  },
+  "Copenhagen": {
+   "lang": "da",
+   "candidates": []
+  },
+  "Stockholm": {
+   "lang": "sv",
+   "candidates": []
+  },
+  "Oslo": {
+   "lang": "no",
+   "candidates": []
+  },
+  "Helsinki": {
+   "lang": "fi",
+   "candidates": []
+  },
+  "Reykjavík": {
+   "lang": "is",
+   "candidates": []
+  },
+  "Athens": {
+   "lang": "el",
+   "candidates": []
+  },
+  "Belgrade": {
+   "lang": "sr",
+   "candidates": []
+  },
+  "Prague": {
+   "lang": "cs",
+   "candidates": []
+  },
+  "Kraków": {
+   "lang": "pl",
+   "candidates": []
+  },
+  "Bucharest": {
+   "lang": "ro",
+   "candidates": []
+  },
+  "Budapest": {
+   "lang": "hu",
+   "candidates": []
+  },
+  "Istanbul": {
+   "lang": "tr",
+   "candidates": []
+  },
+  "London": {
+   "lang": "en",
+   "candidates": []
+  },
+  "Manchester": {
+   "lang": "en",
+   "candidates": []
+  },
+  "Edinburgh": {
+   "lang": "en",
+   "candidates": []
+  },
+  "Dublin": {
+   "lang": "en",
+   "candidates": []
+  }
+ }
+}
