@@ -69,11 +69,30 @@ async function stretch(buf, speed) {
   await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', a, '-filter:a', `atempo=${speed}`, '-b:a', '64k', out])
   return fs.readFile(out)
 }
+const dur = async f => Number(await run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f]))
+// Trim the silence each take comes with, so the pause between them is exactly PAUSE seconds.
+const TRIM = 'silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.08,areverse'
+async function trimmed(buf, extra = '') {
+  const a = await tmp(buf), out = path.join(TMP, `${n++}.wav`)
+  await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', a, '-af', `aresample=44100,aformat=sample_fmts=fltp:channel_layouts=mono,${TRIM}${extra}`, out])
+  return out
+}
+const PAUSE = Number(process.env.PAUSE_SECONDS || 1)
 async function joinWithPause(a, b) {
-  const fa = await tmp(a), fb = await tmp(b), out = path.join(TMP, `${n++}.mp3`)
-  const norm = 'aresample=44100,aformat=sample_fmts=fltp:channel_layouts=mono'
-  await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', fa, '-f', 'lavfi', '-t', '1', '-i', 'anullsrc=r=44100:cl=mono', '-i', fb,
-    '-filter_complex', `[0:a]${norm}[x];[1:a]${norm}[p];[2:a]${norm}[y];[x][p][y]concat=n=3:v=0:a=1`, '-ac', '1', '-b:a', '64k', out])
+  const fa = await trimmed(a)
+  let fb = await trimmed(b)
+  // The model may not honour the speed setting. If the slow take isn't clearly
+  // slower, stretch it (pitch preserved) to SLOW of the normal pace.
+  const want = (await dur(fa)) / SLOW, got = await dur(fb)
+  if (got < want * 0.92) {
+    const tempo = Math.min(2, Math.max(0.5, got / want))
+    const out = path.join(TMP, `${n++}.wav`)
+    await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', fb, '-af', `atempo=${tempo.toFixed(3)}`, out])
+    fb = out
+  }
+  const out = path.join(TMP, `${n++}.mp3`)
+  await run('ffmpeg', ['-y', '-loglevel', 'error', '-i', fa, '-f', 'lavfi', '-t', String(PAUSE), '-i', 'anullsrc=r=44100:cl=mono', '-i', fb,
+    '-filter_complex', '[0:a][1:a][2:a]concat=n=3:v=0:a=1', '-ac', '1', '-b:a', '64k', out])
   return fs.readFile(out)
 }
 
@@ -123,7 +142,7 @@ for (const city of targets) {
   try {
     for (const w of list) {
       const model = MODELS[0]
-      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'normal+pause+slow', SLOW].join('|')).digest('hex').slice(0, 8)
+      const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'normal+pause+slow:v2', SLOW, process.env.PAUSE_SECONDS || 1].join('|')).digest('hex').slice(0, 8)
       if (map[w.id] === `${cs}/${hash}`) { kept++; continue }
       const normal = await tts(voiceId, w.text, LANG[city], 1.0)
       let slow
