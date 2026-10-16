@@ -1,5 +1,5 @@
 import { createClient } from 'contentful'
-import { repoImage, repoFoodImage } from './covers'
+import { repoImage, repoFoodImage, repoWordAudio } from './covers'
 
 const client = createClient({
   space: import.meta.env.VITE_CONTENTFUL_SPACE,
@@ -54,9 +54,8 @@ export async function fetchWordsForCity(cityId) {
       groupNote: f.groupNote || null,
       phoneticApproximate: f.phoneticApproximate || false,
       deepCutOrder: f.deepCutOrder ?? null,
-      audioUrl: f.audio?.fields?.file?.url
-        ? 'https:' + f.audio.fields.file.url
-        : null,
+      audioUrl: repoWordAudio(item.sys.id)
+        || (f.audio?.fields?.file?.url ? 'https:' + f.audio.fields.file.url : null),
     }
   })
 }

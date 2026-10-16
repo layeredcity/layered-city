@@ -1,0 +1,45 @@
+# Generates Words audio with ElevenLabs for the cities listed in
+# voices/run-word-audio (one city per line, or "all"), commits the MP3s and the
+# map the app reads. See scripts/generate-word-audio.mjs.
+name: Word audio
+
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - voices/run-word-audio
+
+permissions:
+  contents: write
+
+concurrency:
+  group: word-audio
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generate
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+        run: |
+          which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
+          CITIES="$(grep -v '^#' voices/run-word-audio | grep -v '^\s*$' | paste -sd, -)" node scripts/generate-word-audio.mjs
+      - name: Commit
+        if: always()
+        run: |
+          git add public/words-audio src/data/word-audio.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "Layered City word audio"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Generate Words audio"
+          git pull --rebase origin main
+          git push origin HEAD:main

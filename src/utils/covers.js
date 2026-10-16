@@ -6,6 +6,7 @@
 import map from '../data/covers.json'
 import foodMap from '../data/food-images.json'
 import { slugify } from './slugify'
+import wordAudioMap from '../data/word-audio.json'
 
 export function repoImage(kind, id) {
   const hash = id && map[kind]?.[id]
@@ -20,4 +21,13 @@ export function repoFoodImage(cityName, foodName) {
   const city = slugify(cityName), dish = slugify(foodName)
   const hash = foodMap[city]?.[dish]
   return hash ? `/food/${city}/${dish}-${hash}.webp` : null
+}
+
+// Words audio generated with ElevenLabs (scripts/generate-word-audio.mjs): the
+// phrase at normal speed, a pause, then slowly. Preferred over Contentful audio.
+export function repoWordAudio(wordId) {
+  const v = wordAudioMap[wordId]
+  if (!v) return null
+  const [city, hash] = v.split('/')
+  return `/words-audio/${city}/${wordId}-${hash}.mp3`
 }
