@@ -362,7 +362,9 @@ function WordsPanel({ city, words }) {
 
 function FoodItem({ food, cityName }) {
   return (
-    <div className="food-item">
+    <div className={'food-item' + (food.audioUrl ? ' food-item--audio' : '')}>
+      {/* The local name spoken in the city's voice (generated audio). */}
+      {food.audioUrl && <span className="food-item__audio"><WordAudioButton url={food.audioUrl} label={food.name} /></span>}
       {food.image ? (
         <img
           className={'food-item__img' + (food.image.startsWith('/food/') ? ' food-item__img--repo' : '')}

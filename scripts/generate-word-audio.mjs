@@ -32,6 +32,7 @@ const KEY = process.env.ELEVENLABS_API_KEY
 const CDA_TOKEN = process.env.CONTENTFUL_DELIVERY_TOKEN
 const SPACE = process.env.CONTENTFUL_SPACE || 'yl6xhrcd616q'
 const MODELS = (process.env.MODELS || 'eleven_v3').split(',')
+const KINDS = (process.env.KINDS || 'words').split(',').map(s => s.trim())
 const ONLY = (process.env.CITIES || '').split(',').map(s => s.trim()).filter(Boolean)
 if (!KEY || !CDA_TOKEN || !ONLY.length) { console.error('Need ELEVENLABS_API_KEY, CONTENTFUL_DELIVERY_TOKEN and CITIES'); process.exit(1) }
 
@@ -39,7 +40,12 @@ const fail = e => { console.error(e); if (process.env.GITHUB_ACTIONS) console.lo
 process.on('unhandledRejection', fail); process.on('uncaughtException', fail)
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
-const MAP = path.join(ROOT, 'src', 'data', 'word-audio.json')
+// Two kinds of clip share the voices and the processing: Words phrases and
+// the local names of dishes (Food). Each keeps its own folder and map.
+const KIND = {
+  words: { dir: 'words-audio', map: path.join(ROOT, 'src', 'data', 'word-audio.json') },
+  food: { dir: 'food-audio', map: path.join(ROOT, 'src', 'data', 'food-audio.json') },
+}
 const chosen = JSON.parse(await fs.readFile(path.join(ROOT, 'voices', 'chosen.json'), 'utf8'))
 const LANG = {
   Lisbon: 'pt', Madrid: 'es', Seville: 'es', Barcelona: 'ca', Paris: 'fr', Marseille: 'fr', Brussels: 'fr',
@@ -160,26 +166,29 @@ async function cda(q) {
 
 const cities = Object.fromEntries((await cda('content_type=city&select=sys.id,fields.cityName')).items.map(c => [c.sys.id, c.fields.cityName]))
 const words = (await cda('content_type=word&select=sys.id,fields.local,fields.slot,fields.city')).items
-  .map(w => ({ id: w.sys.id, text: (w.fields.local || '').trim(), city: cities[w.fields.city?.sys?.id] }))
+  .map(w => ({ kind: 'words', id: w.sys.id, text: (w.fields.local || '').trim(), city: cities[w.fields.city?.sys?.id] }))
   .filter(w => w.text && w.city)
+const foods = (await cda('content_type=food&select=sys.id,fields.foodName,fields.relatedCity')).items
+  .map(f => ({ kind: 'food', id: f.sys.id, text: (f.fields.foodName || '').trim(), city: cities[f.fields.relatedCity?.sys?.id] }))
+  .filter(f => f.text && f.city)
+const items = [...(KINDS.includes('words') ? words : []), ...(KINDS.includes('food') ? foods : [])]
 const targets = ONLY[0] === 'all' ? Object.keys(chosen) : ONLY
-const map = JSON.parse(await fs.readFile(MAP, 'utf8').catch(() => '{}'))
+const maps = {}
+for (const k of Object.keys(KIND)) maps[k] = JSON.parse(await fs.readFile(KIND[k].map, 'utf8').catch(() => '{}'))
 const myVoices = new Set((await (await el('/v1/voices')).json()).voices?.map(v => v.voice_id) || [])
 
 let made = 0, kept = 0, chars = 0, retries = 0, adopted = 0
 const flagged = []
 const CHECK = path.join(ROOT, 'voices', 'audio-check.json')
 async function saveProgress() {
-  await fs.writeFile(MAP, JSON.stringify(Object.fromEntries(Object.keys(map).sort().map(k => [k, map[k]]))) + '\n')
+  for (const k of KINDS) await fs.writeFile(KIND[k].map, JSON.stringify(Object.fromEntries(Object.keys(maps[k]).sort().map(id => [id, maps[k][id]]))) + '\n')
   await fs.writeFile(CHECK, JSON.stringify(check, null, 1) + '\n')
 }
 const check = JSON.parse(await fs.readFile(CHECK, 'utf8').catch(() => '{}'))
 for (const city of targets) {
   const pick = chosen[city]; if (!pick) { console.warn('No voice chosen for ' + city); continue }
-  const list = words.filter(w => w.city === city)
+  const list = items.filter(w => w.city === city)
   const cs = slugify(city)
-  const dir = path.join(ROOT, 'public', 'words-audio', cs)
-  await fs.mkdir(dir, { recursive: true })
 
   // Make the library voice usable from this account for the duration of the city.
   let voiceId = pick.voice_id, added = false
@@ -191,6 +200,9 @@ for (const city of targets) {
   const generatedNow = new Set()
   try {
     for (const w of list) {
+      const map = maps[w.kind]
+      const dir = path.join(ROOT, 'public', KIND[w.kind].dir, cs)
+      await fs.mkdir(dir, { recursive: true })
       const model = MODELS[0]
       const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v7', SPEED].join('|')).digest('hex').slice(0, 8)
       if (map[w.id] === `${cs}/${hash}`) { kept++; continue }
@@ -200,9 +212,9 @@ for (const city of targets) {
       if (await fs.access(existing).then(() => true, () => false)) { map[w.id] = `${cs}/${hash}`; adopted++; continue }
       const { audio, endDb, tries } = await bestTake(voiceId, w.text, LANG[city])
       retries += tries - 1
-      if (!audio) { flagged.push({ city, id: w.id, text: w.text, endDb: null, problem: 'no usable audio after 3 tries' }); continue }
-      if (endDb > END_OK) flagged.push({ city, id: w.id, text: w.text, endDb: Math.round(endDb * 10) / 10 })
-      if (map[w.id]) await fs.rm(path.join(ROOT, 'public', 'words-audio', `${map[w.id].split('/')[0]}`, `${w.id}-${map[w.id].split('/')[1]}.mp3`), { force: true })
+      if (!audio) { flagged.push({ city, kind: w.kind, id: w.id, text: w.text, endDb: null, problem: 'no usable audio after 3 tries' }); continue }
+      if (endDb > END_OK) flagged.push({ city, kind: w.kind, id: w.id, text: w.text, endDb: Math.round(endDb * 10) / 10 })
+      if (map[w.id]) await fs.rm(path.join(ROOT, 'public', KIND[w.kind].dir, `${map[w.id].split('/')[0]}`, `${w.id}-${map[w.id].split('/')[1]}.mp3`), { force: true })
       await fs.writeFile(path.join(dir, `${w.id}-${hash}.mp3`), audio)
       map[w.id] = `${cs}/${hash}`; generatedNow.add(w.id); made++; chars += w.text.length
     }

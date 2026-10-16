@@ -32,11 +32,14 @@ jobs:
           CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
         run: |
           which ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg)
-          CITIES="$(grep -v '^#' voices/run-word-audio | grep -v '^\s*$' | paste -sd, -)" node scripts/generate-word-audio.mjs
+          KINDS="$(grep '^kinds=' voices/run-word-audio | cut -d= -f2)"
+          CITIES="$(grep -v '^#' voices/run-word-audio | grep -v '^kinds=' | grep -v '^\s*$' | paste -sd, -)"
+          KINDS="${KINDS:-words}" CITIES="$CITIES" node scripts/generate-word-audio.mjs
       - name: Commit
         if: always()
         run: |
-          git add public/words-audio src/data/word-audio.json voices/audio-check.json
+          mkdir -p public/food-audio; touch src/data/food-audio.json
+          git add public/words-audio public/food-audio src/data/word-audio.json src/data/food-audio.json voices/audio-check.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "Layered City word audio"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

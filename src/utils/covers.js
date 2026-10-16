@@ -7,6 +7,7 @@ import map from '../data/covers.json'
 import foodMap from '../data/food-images.json'
 import { slugify } from './slugify'
 import wordAudioMap from '../data/word-audio.json'
+import foodAudioMap from '../data/food-audio.json'
 
 export function repoImage(kind, id) {
   const hash = id && map[kind]?.[id]
@@ -30,4 +31,12 @@ export function repoWordAudio(wordId) {
   if (!v) return null
   const [city, hash] = v.split('/')
   return `/words-audio/${city}/${wordId}-${hash}.mp3`
+}
+
+// Local dish names spoken in the city's voice (same generator, kind "food").
+export function repoFoodAudio(foodId) {
+  const v = foodAudioMap[foodId]
+  if (!v) return null
+  const [city, hash] = v.split('/')
+  return `/food-audio/${city}/${foodId}-${hash}.mp3`
 }

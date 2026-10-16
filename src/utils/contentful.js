@@ -1,5 +1,5 @@
 import { createClient } from 'contentful'
-import { repoImage, repoFoodImage, repoWordAudio } from './covers'
+import { repoImage, repoFoodImage, repoWordAudio, repoFoodAudio } from './covers'
 
 const client = createClient({
   space: import.meta.env.VITE_CONTENTFUL_SPACE,
@@ -78,6 +78,7 @@ export async function fetchFoodsForCity(cityId, cityName) {
         englishName: f.foodEnglishName || null,
         description: f.foodDescription,
         listOrder: f.listOrder ?? null,
+        audioUrl: repoFoodAudio(item.sys.id),
         // Repo copy first (utils/covers.js); Contentful image as the fallback.
         image: repoFoodImage(cityName, f.foodName)
           || (f.foodImage?.fields?.file?.url ? 'https:' + f.foodImage.fields.file.url : null),
