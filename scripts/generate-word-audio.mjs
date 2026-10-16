@@ -106,7 +106,10 @@ async function endLevel(f) {
   return m ? Number(m[1]) : -99
 }
 async function slowedClip(buf) {
-  const f = await dropTailBlip(await trimmed(buf, SPEED === 1 ? '' : `,atempo=${SPEED}`))
+  const t = await trimmed(buf, SPEED === 1 ? '' : `,atempo=${SPEED}`)
+  const len = await dur(t).catch(() => NaN)
+  if (!(len > 0.08)) return { audio: null, endDb: Infinity } // the take was silent: no usable audio
+  const f = await dropTailBlip(t)
   const endDb = await endLevel(f)
   // Short lead-in and a fade into a little silence, so playback never starts
   // or stops mid-sound (browsers can swallow the first few milliseconds).
@@ -124,7 +127,9 @@ async function bestTake(voiceId, text, lang) {
   let best = null, tries = 0
   for (const seed of SEEDS) {
     tries++
-    const take = await slowedClip(await tts(voiceId, text, lang, 1.0, seed))
+    let take
+    try { take = await slowedClip(await tts(voiceId, text, lang, 1.0, seed)) }
+    catch (e) { console.warn(`take failed for "${text}": ${e.message.slice(0, 200)}`); take = { audio: null, endDb: Infinity } }
     if (!best || take.endDb < best.endDb) best = take
     if (take.endDb <= END_OK) break
   }
@@ -161,9 +166,13 @@ const targets = ONLY[0] === 'all' ? Object.keys(chosen) : ONLY
 const map = JSON.parse(await fs.readFile(MAP, 'utf8').catch(() => '{}'))
 const myVoices = new Set((await (await el('/v1/voices')).json()).voices?.map(v => v.voice_id) || [])
 
-let made = 0, kept = 0, chars = 0, retries = 0
+let made = 0, kept = 0, chars = 0, retries = 0, adopted = 0
 const flagged = []
 const CHECK = path.join(ROOT, 'voices', 'audio-check.json')
+async function saveProgress() {
+  await fs.writeFile(MAP, JSON.stringify(Object.fromEntries(Object.keys(map).sort().map(k => [k, map[k]]))) + '\n')
+  await fs.writeFile(CHECK, JSON.stringify(check, null, 1) + '\n')
+}
 const check = JSON.parse(await fs.readFile(CHECK, 'utf8').catch(() => '{}'))
 for (const city of targets) {
   const pick = chosen[city]; if (!pick) { console.warn('No voice chosen for ' + city); continue }
@@ -185,8 +194,13 @@ for (const city of targets) {
       const model = MODELS[0]
       const hash = crypto.createHash('sha1').update([voiceId, model, w.text, 'single:v7', SPEED].join('|')).digest('hex').slice(0, 8)
       if (map[w.id] === `${cs}/${hash}`) { kept++; continue }
+      // A file with this exact hash is already on disk (an earlier run that
+      // stopped before saving its map): adopt it rather than pay for it again.
+      const existing = path.join(dir, `${w.id}-${hash}.mp3`)
+      if (await fs.access(existing).then(() => true, () => false)) { map[w.id] = `${cs}/${hash}`; adopted++; continue }
       const { audio, endDb, tries } = await bestTake(voiceId, w.text, LANG[city])
       retries += tries - 1
+      if (!audio) { flagged.push({ city, id: w.id, text: w.text, endDb: null, problem: 'no usable audio after 3 tries' }); continue }
       if (endDb > END_OK) flagged.push({ city, id: w.id, text: w.text, endDb: Math.round(endDb * 10) / 10 })
       if (map[w.id]) await fs.rm(path.join(ROOT, 'public', 'words-audio', `${map[w.id].split('/')[0]}`, `${w.id}-${map[w.id].split('/')[1]}.mp3`), { force: true })
       await fs.writeFile(path.join(dir, `${w.id}-${hash}.mp3`), audio)
@@ -200,11 +214,10 @@ for (const city of targets) {
   check[city] = [...(check[city] || []).filter(x => !generatedNow.has(x.id)),
     ...flagged.filter(f => f.city === city).map(({ city: _c, ...rest }) => rest)]
   if (!check[city].length) delete check[city]
+  await saveProgress() // so a later failure never loses finished cities
   console.log(`${city}: ${list.length} phrases`)
 }
 
-const sorted = Object.fromEntries(Object.keys(map).sort().map(k => [k, map[k]]))
-await fs.writeFile(MAP, JSON.stringify(sorted) + '\n')
-await fs.writeFile(CHECK, JSON.stringify(check, null, 1) + '\n')
-const msg = `word audio: ${made} generated (~${chars} characters, ${retries} retakes), ${kept} unchanged; ${flagged.length} may sound cut off: ${flagged.map(f => `${f.city} "${f.text}"`).join(', ').slice(0, 600)}`
+await saveProgress()
+const msg = `word audio: ${made} generated (~${chars} characters, ${retries} retakes), ${adopted} reused from an earlier run, ${kept} unchanged; ${flagged.length} may sound cut off: ${flagged.map(f => `${f.city} "${f.text}"`).join(', ').slice(0, 600)}`
 console.log(msg); if (process.env.GITHUB_ACTIONS) console.log('::notice::' + msg)
