@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-18T23:22:55.956Z",
+ "fetched": "2026-10-18T23:24:19.102Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -31,9 +31,9 @@
   },
   "unwrapped-nov": {
    "url": "https://vienna-unwrapped.com/?p=32595",
-   "final": "https://vienna-unwrapped.com/things-to-do-in-vienna-november/",
+   "final": "https://vienna-unwrapped.com/?p=32595",
    "http": 200,
-   "chars": 43502,
+   "chars": 73,
    "jsonLdEvents": 0
   },
   "staatsoper": {
@@ -44,38 +44,38 @@
    "jsonLdEvents": 0
   },
   "volksoper": {
-   "url": "https://www.volksoper.at/en/",
-   "final": "https://www.volksoper.at/en/",
-   "http": 404,
-   "chars": 2355,
+   "url": "https://tickets.volksoper.at/",
+   "final": "https://tickets.volksoper.at/",
+   "http": 200,
+   "chars": 8,
    "jsonLdEvents": 0
   },
   "theater-an-der-wien": {
-   "url": "https://www.theater-wien.at/en/programm",
-   "final": "https://www.theater-wien.at/en/home",
+   "url": "https://www.theater-wien.at/en/calendar",
+   "final": "https://www.theater-wien.at/en/calendar",
    "http": 200,
-   "chars": 8812,
+   "chars": 44314,
    "jsonLdEvents": 0
   },
   "musikverein": {
-   "url": "https://www.musikverein.at/en/",
-   "final": "https://www.musikverein.at/en/",
+   "url": "https://www.musikverein.at/en/spielplan/",
+   "final": "https://www.musikverein.at/en/spielplan/",
    "http": 200,
-   "chars": 11978,
+   "chars": 2643,
    "jsonLdEvents": 0
   },
   "konzerthaus": {
-   "url": "https://konzerthaus.at/en/",
-   "final": "https://konzerthaus.at/en",
+   "url": "https://konzerthaus.at/en/program-and-tickets",
+   "final": "https://konzerthaus.at/en/program-and-tickets",
    "http": 200,
-   "chars": 5499,
+   "chars": 4341,
    "jsonLdEvents": 0
   },
   "burgtheater": {
-   "url": "https://www.burgtheater.at/en",
-   "final": "https://www.burgtheater.at/en",
+   "url": "https://www.burgtheater.at/spielplan",
+   "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 8369,
+   "chars": 17595,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -132,11 +132,11 @@
    "jsonLdEvents": 0
   },
   "mak": {
-   "url": "https://www.mak.at/en",
-   "final": "https://www.mak.at/en",
+   "url": "https://www.mak.at/en/exhibitions/current",
+   "final": "https://www.mak.at/en/exhibitions/current",
    "http": 200,
-   "chars": 12746,
-   "jsonLdEvents": 5
+   "chars": 6394,
+   "jsonLdEvents": 0
   },
   "mumok": {
    "url": "https://www.mumok.at/en/exhibitions",
@@ -159,18 +159,11 @@
    "chars": 37472,
    "jsonLdEvents": 0
   },
-  "wien-museum": {
-   "url": "https://www.wienmuseum.at/en",
-   "final": "https://www.wienmuseum.at/en",
-   "http": 200,
-   "chars": 0,
-   "jsonLdEvents": 0
-  },
   "kunsthauswien": {
    "url": "https://www.kunsthauswien.com/en/",
    "final": "https://www.kunsthauswien.com/en/",
    "http": 200,
-   "chars": 7727,
+   "chars": 7563,
    "jsonLdEvents": 0
   },
   "mq": {
@@ -215,18 +208,46 @@
    "chars": 93813,
    "jsonLdEvents": 0
   },
+  "mak-events": {
+   "url": "https://www.mak.at/en",
+   "final": "https://www.mak.at/en",
+   "http": 200,
+   "chars": 12746,
+   "jsonLdEvents": 5
+  },
   "wieninfo-autumn": {
-   "url": "https://www.wien.info/en/now-on/autumn",
-   "final": "https://www.wien.info/en/now-on/autumn",
-   "http": 404,
-   "chars": 10077,
+   "url": "https://www.wien.info/en/now-on/autumn-in-vienna",
+   "final": "https://www.wien.info/en/now-on/autumn-in-vienna",
+   "http": 200,
+   "chars": 18684,
+   "jsonLdEvents": 0
+  },
+  "wieninfo-fall-culture": {
+   "url": "https://www.wien.info/en/art-culture/museums-exhibitions/culture-in-vienna-in-fall-343868",
+   "final": "https://www.wien.info/en/art-culture/museums-exhibitions/culture-in-vienna-in-fall-343868",
+   "http": 200,
+   "chars": 24746,
+   "jsonLdEvents": 0
+  },
+  "wieninfo-art-on-display": {
+   "url": "https://www.wien.info/en/art-culture/museums-exhibitions/art-on-display-in-vienna-339648",
+   "final": "https://www.wien.info/en/art-culture/museums-exhibitions/art-on-display-in-vienna-339648",
+   "http": 200,
+   "chars": 23349,
    "jsonLdEvents": 0
   },
   "wieninfo-christmas": {
-   "url": "https://www.wien.info/en/now-on/christmas-new-years-eve",
-   "final": "https://www.wien.info/en/now-on/christmas-new-years-eve",
-   "http": 404,
-   "chars": 10077,
+   "url": "https://www.wien.info/en/now-on/christmas/christmas-markets-342664",
+   "final": "https://www.wien.info/en/now-on/christmas/christmas-markets-342664",
+   "http": 200,
+   "chars": 25102,
+   "jsonLdEvents": 0
+  },
+  "wieninfo-design-fairs": {
+   "url": "https://www.wien.info/en/now-on/autumn-in-vienna/design-fairs-autumn-344296",
+   "final": "https://www.wien.info/en/now-on/autumn-in-vienna/design-fairs-autumn-344296",
+   "http": 200,
+   "chars": 15920,
    "jsonLdEvents": 0
   }
  }
