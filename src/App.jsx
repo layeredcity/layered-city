@@ -9,6 +9,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
+import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge } from './utils/events'
 import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
 // Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
@@ -94,6 +95,10 @@ const FILTERS = [
   // location, and reads as a flat list rather than opening a detail modal. The
   // empty `types` keeps it out of every story filter. Like Tours it has no
   // alwaysShow, so a city with no dishes doesn't advertise the section at all.
+  // Events is a pilot (Vienna only): a weekly-refreshed list of what's on,
+  // read from src/data/events.json rather than Contentful. Hidden for cities
+  // with nothing upcoming; past events drop off on their own.
+  { label: 'Events',           types: [], events: true, emptyLabel: 'events',           icon: 'events',  unitSingular: 'event',   unitPlural: 'events',  blurb: 'What’s on in {city}' },
   { label: 'Food',             types: [], food: true,   emptyLabel: 'dishes',           icon: 'food',    unitSingular: 'dish',    unitPlural: 'dishes',  blurb: 'What to eat in {city}' },
   { label: 'Movies',           types: ['movie'],        emptyLabel: 'movies',           icon: 'movie',   unitSingular: 'movie',   unitPlural: 'movies',  alwaysShow: true, blurb: '{city} on the big screen' },
   { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of {city} through its songs' },
@@ -115,7 +120,7 @@ const FILTERS = [
 // One pithy line per section, count + connector + city (e.g. "15 dishes to eat
 // in Budapest"). Kept short deliberately — it must stay on a single line.
 const SECTION_CONNECTOR = {
-  Books: 'about', Food: 'to eat in', Movies: 'set in', Music: 'from',
+  Books: 'about', Events: 'coming up in', Food: 'to eat in', Movies: 'set in', Music: 'from',
   Podcasts: 'about', Tours: 'of', TV: 'set in', Videos: 'about',
 }
 function sectionLine(filter, count, city) {
@@ -168,6 +173,11 @@ const TYPE_ICONS = {
   ),
   // Fork & spoon (Streamline). Drawn on a 24-unit grid rather than the 48 the
   // other glyphs use — the viewBox handles the difference.
+  events: (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+      <path fill="currentColor" fillRule="evenodd" d="M7.5 0.75a1.5 1.5 0 0 1 1.5 1.5V3h6v-0.75a1.5 1.5 0 0 1 3 0V3h1.25A3.75 3.75 0 0 1 23 6.75v13.5A3.75 3.75 0 0 1 19.25 24H4.75A3.75 3.75 0 0 1 1 20.25V6.75A3.75 3.75 0 0 1 4.75 3H6v-0.75a1.5 1.5 0 0 1 1.5 -1.5ZM4 10v10.25c0 0.414 0.336 0.75 0.75 0.75h14.5a0.75 0.75 0 0 0 0.75 -0.75V10H4Zm3 3.25A1.25 1.25 0 0 1 8.25 12h1.5A1.25 1.25 0 0 1 11 13.25v1.5A1.25 1.25 0 0 1 9.75 16h-1.5A1.25 1.25 0 0 1 7 14.75v-1.5Z" clipRule="evenodd"/>
+    </svg>
+  ),
   food: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
       <path fill="currentColor" fillRule="evenodd" d="M1.3457142857142856 0.04114285714285714a1.2857142857142856 1.2857142857142856 0 0 1 1.2857142857142856 1.2857142857142856v4.285714285714286a3 3 0 0 0 1.7142857142857142 2.710285714285714V1.3268571428571427a1.2857142857142856 1.2857142857142856 0 1 1 2.571428571428571 0v6.996a3 3 0 0 0 1.7142857142857142 -2.710285714285714v-4.285714285714286a1.2857142857142856 1.2857142857142856 0 1 1 2.571428571428571 0v4.285714285714286a5.571428571428571 5.571428571428571 0 0 1 -3.8571428571428568 5.300571428571429V22.285714285714285a1.7142857142857142 1.7142857142857142 0 0 1 -3.4285714285714284 0V10.914857142857143a5.571428571428571 5.571428571428571 0 0 1 -3.8571428571428568 -5.302285714285714v-4.285714285714286a1.2857142857142856 1.2857142857142856 0 0 1 1.2857142857142856 -1.2857142857142856Zm17.228571428571428 0c-3.0377142857142854 0 -5.041714285714285 2.9605714285714284 -5.041714285714285 5.981142857142856 0 2.4068571428571426 1.272 4.776 3.3257142857142856 5.64V22.285714285714285a1.7142857142857142 1.7142857142857142 0 1 0 3.4285714285714284 0V11.660571428571426c2.057142857142857 -0.8622857142857142 3.3291428571428567 -3.2314285714285713 3.3291428571428567 -5.64 0 -3.0188571428571427 -2.0057142857142853 -5.979428571428571 -5.041714285714285 -5.979428571428571Z" clipRule="evenodd"/>
@@ -387,6 +397,60 @@ function WordsPanel({ city, words }) {
   )
 }
 
+function EventItem({ event, cityName }) {
+  const badge = eventDateBadge(event)
+  return (
+    <div className="event-item">
+      <div className={'event-item__date' + (badge.range ? ' event-item__date--range' : '')}>
+        <span className="event-item__date-top">{badge.top}</span>
+        <span className="event-item__date-main">{badge.main}</span>
+        {badge.bottom && <span className="event-item__date-bottom">{badge.bottom}</span>}
+      </div>
+      <div className="event-item__body">
+        <div className="event-item__meta">
+          <span className="event-item__cat">{event.category}</span>
+          {event.venue && <span className="event-item__venue">{event.venue}</span>}
+        </div>
+        <div className="event-item__title">{event.title}</div>
+        {event.when && <div className="event-item__when">{event.when}</div>}
+        <div className="event-item__desc">{event.description}</div>
+        {event.why && <div className="event-item__why">{event.why}</div>}
+        <div className="event-item__links">
+          {event.url && (
+            <a className="food-item__map" href={event.url} target="_blank" rel="noreferrer">
+              {event.linkLabel || 'Details and tickets'}
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          )}
+          {event.venue && (
+            <a className="food-item__map" href={mapsSearchUrl(event.venue, cityName)} target="_blank" rel="noreferrer">
+              Map
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function EventsPanel({ city }) {
+  const events = upcomingEvents(city.name)
+  const updated = eventsUpdated(city.name)
+  if (!events.length) {
+    return <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>Nothing listed for {city.name} right now.</div>
+  }
+  return (
+    <>
+      {updated && <div className="events-updated">Updated weekly · last checked {updated}. Times change; check the link before you go.</div>}
+      {groupEvents(events).flatMap(g => [
+        <div key={'h-' + g.key} className="story-group-heading">{g.label}</div>,
+        ...g.events.map(e => <EventItem key={g.key + e.id} event={e} cityName={city.name} />),
+      ])}
+    </>
+  )
+}
+
 function FoodItem({ food, cityName }) {
   return (
     <div className={'food-item' + (food.audioUrl ? ' food-item--audio' : '')}>
@@ -429,7 +493,7 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, word
   const loading = storiesLoading || foodsLoading || wordsLoading
   const wordCount = city.wordsPublished ? words.length : 0
   const sections = loading ? [] : FILTERS.slice(1)
-    .map(f => ({ filter: f, count: f.words ? wordCount : f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
+    .map(f => ({ filter: f, count: f.events ? upcomingEvents(city.name).length : f.words ? wordCount : f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
     <div className="city-overview">
@@ -1549,6 +1613,8 @@ export default function App() {
                     ) : (
                       <WordsPanel city={selectedCity} words={words} />
                     )
+                  ) : currentFilter.events ? (
+                    <EventsPanel city={selectedCity} />
                   ) : currentFilter.food ? (
                     foodsLoading ? (
                       <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading food...</div>
