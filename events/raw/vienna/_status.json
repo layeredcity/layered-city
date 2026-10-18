@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-18T23:24:19.102Z",
+ "fetched": "2026-10-18T23:34:21.135Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -9,10 +9,10 @@
    "jsonLdEvents": 0
   },
   "wieninfo-events": {
-   "url": "https://www.wien.info/en/now-on/events",
-   "final": "https://www.wien.info/en/now-on/events",
+   "url": "https://www.wien.info/en/now-on/event-search",
+   "final": "https://www.wien.info/en/now-on/event-search",
    "http": 200,
-   "chars": 9666,
+   "chars": 11135,
    "jsonLdEvents": 0
   },
   "visitingvienna-oct": {
@@ -29,13 +29,6 @@
    "chars": 19325,
    "jsonLdEvents": 0
   },
-  "unwrapped-nov": {
-   "url": "https://vienna-unwrapped.com/?p=32595",
-   "final": "https://vienna-unwrapped.com/?p=32595",
-   "http": 200,
-   "chars": 73,
-   "jsonLdEvents": 0
-  },
   "staatsoper": {
    "url": "https://www.wiener-staatsoper.at/en/calendar/",
    "final": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
@@ -44,10 +37,10 @@
    "jsonLdEvents": 0
   },
   "volksoper": {
-   "url": "https://tickets.volksoper.at/",
-   "final": "https://tickets.volksoper.at/",
-   "http": 200,
-   "chars": 8,
+   "url": "https://www.volksoper.at/en/schedule/",
+   "final": "https://www.volksoper.at/en/schedule/",
+   "http": 404,
+   "chars": 2563,
    "jsonLdEvents": 0
   },
   "theater-an-der-wien": {
@@ -58,10 +51,10 @@
    "jsonLdEvents": 0
   },
   "musikverein": {
-   "url": "https://www.musikverein.at/en/spielplan/",
-   "final": "https://www.musikverein.at/en/spielplan/",
+   "url": "https://musikverein.at/spielplan/",
+   "final": "https://musikverein.at/spielplan/",
    "http": 200,
-   "chars": 2643,
+   "chars": 2544,
    "jsonLdEvents": 0
   },
   "konzerthaus": {
@@ -75,7 +68,7 @@
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 17595,
+   "chars": 17615,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -86,10 +79,10 @@
    "jsonLdEvents": 0
   },
   "wien-modern": {
-   "url": "https://www.wienmodern.at/en",
-   "final": "https://www.wienmodern.at/en",
+   "url": "https://www.wienmodern.at/2026-calendar-en",
+   "final": "https://www.wienmodern.at/calendar-en",
    "http": 200,
-   "chars": 5230,
+   "chars": 160644,
    "jsonLdEvents": 0
   },
   "vienna-art-week": {
@@ -108,7 +101,10 @@
   },
   "albertina": {
    "url": "https://www.albertina.at/en/exhibitions/",
-   "error": "fetch failed"
+   "final": "https://www.albertina.at/en/exhibitions/",
+   "http": 200,
+   "chars": 4852,
+   "jsonLdEvents": 0
   },
   "belvedere": {
    "url": "https://www.belvedere.at/en/exhibitions",
@@ -174,10 +170,10 @@
    "jsonLdEvents": 0
   },
   "porgy": {
-   "url": "https://www.porgy.at/",
-   "final": "https://www.porgy.at/",
+   "url": "https://www.porgy.at/events/upcoming",
+   "final": "https://www.porgy.at/events/upcoming",
    "http": 200,
-   "chars": 2135,
+   "chars": 37218,
    "jsonLdEvents": 0
   },
   "arena": {
@@ -248,6 +244,55 @@
    "final": "https://www.wien.info/en/now-on/autumn-in-vienna/design-fairs-autumn-344296",
    "http": 200,
    "chars": 15920,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-2": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=2",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=2",
+   "http": 200,
+   "chars": 5632,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-3": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=3",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=3",
+   "http": 200,
+   "chars": 5279,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-4": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=4",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=4",
+   "http": 200,
+   "chars": 5029,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-5": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=5",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=5",
+   "http": 200,
+   "chars": 5168,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-6": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=6",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=6",
+   "http": 200,
+   "chars": 4918,
+   "jsonLdEvents": 0
+  },
+  "khm-upcoming": {
+   "url": "https://www.khm.at/en/exhibitions/upcoming",
+   "final": "https://www.khm.at/en/exhibitions/upcoming",
+   "http": 200,
+   "chars": 6263,
+   "jsonLdEvents": 0
+  },
+  "burgtheater-nov": {
+   "url": "https://www.burgtheater.at/spielplan?date=2026-11",
+   "final": "https://www.burgtheater.at/spielplan?date=2026-11",
+   "http": 200,
+   "chars": 32801,
    "jsonLdEvents": 0
   }
  }

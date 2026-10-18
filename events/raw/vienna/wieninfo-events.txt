@@ -1,8 +1,8 @@
-SOURCE https://www.wien.info/en/now-on/events
-FETCHED 2026-10-18T23:23:31.445Z
+SOURCE https://www.wien.info/en/now-on/event-search
+FETCHED 2026-10-18T23:33:24.198Z
 HTTP 200
 
-Events - vienna.info
+Events and happenings in Vienna - vienna.info
 To navigation
 To contents
 B2B Services
@@ -10,16 +10,16 @@ Meeting Destination Vienna ⟨https://meeting.vienna.info/en⟩
 Vienna Tourist Board B2B ⟨https://b2b.wien.info/en⟩
 Vienna Experts Club ⟨https://experts.wien.info/welcome-en⟩
 English
-Deutsch ⟨https://www.wien.info/de/aktuell/veranstaltungen⟩
-Italiano ⟨https://www.wien.info/it/attualmente⟩
-Français ⟨https://www.wien.info/fr/en-ce-moment⟩
-Español ⟨https://www.wien.info/es/ahora-en-viena⟩
-Magyarul ⟨https://www.wien.info/hu/%C3%BAjdons%C3%A1gok-b%C3%A9csben⟩
-Русский ⟨https://www.wien.info/ru/%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F-%D0%B2-%D0%B2%D0%B5%D0%BD%D0%B5⟩
-Polski ⟨https://www.wien.info/pl/aktualnie-w-wiedniu⟩
-Română ⟨https://www.wien.info/ro/de-actualitate-in-viena⟩
-Česky ⟨https://www.wien.info/cs/aktualne-z-vidne⟩
-日本語 ⟨https://www.wien.info/ja/%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%B3%E6%9C%80%E6%96%B0%E6%83%85%E5%A0%B1⟩
+Deutsch ⟨https://www.wien.info/de/aktuell/veranstaltungssuche⟩
+Italiano ⟨https://www.wien.info/it/attualmente/ricerca-eventi⟩
+Français ⟨https://www.wien.info/fr/en-ce-moment/recherche-d-evenements⟩
+Español ⟨https://www.wien.info/es/ahora-en-viena/busqueda-de-eventos⟩
+Magyarul ⟨https://www.wien.info/hu/%C3%BAjdons%C3%A1gok-b%C3%A9csben/rendezvenyek-keresese⟩
+Русский ⟨https://www.wien.info/ru/%D1%81%D0%BE%D0%B1%D1%8B%D1%82%D0%B8%D1%8F-%D0%B2-%D0%B2%D0%B5%D0%BD%D0%B5/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%BC%D0%B5%D1%80%D0%BE%D0%BF%D1%80%D0%B8%D1%8F%D1%82%D0%B8%D0%B9⟩
+Polski ⟨https://www.wien.info/pl/aktualnie-w-wiedniu/wyszukiwarka-wydarzen⟩
+Română ⟨https://www.wien.info/ro/de-actualitate-in-viena/cautare-evenimente⟩
+Česky ⟨https://www.wien.info/cs/aktualne-z-vidne/vyhledavani-akci⟩
+日本語 ⟨https://www.wien.info/ja/%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%B3%E6%9C%80%E6%96%B0%E6%83%85%E5%A0%B1/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E6%A4%9C%E7%B4%A2⟩
 中文 ⟨https://www.wien.info/zh⟩
 ISL Video ⟨https://www.wien.info/en/travel-info/accessible-vienna/vienna-in-isl/welcome-to-vienna-video-in-international-sign-language-998046⟩
 Newsletter ⟨https://www.wien.info/en/newsletter⟩
@@ -28,7 +28,7 @@ My recommendations ⟨https://www.wien.info/en/my-recommendations⟩
 Show/hide navigation
 Now on in Vienna ⟨https://www.wien.info/en/now-on⟩
 Imperial Vienna 2027 ⟨https://www.wien.info/en/now-on/grandnew⟩
-Event Search ⟨https://www.wien.info/en/now-on/event-search⟩
+Event Search
 Spring in Vienna ⟨https://www.wien.info/en/now-on/spring-in-vienna⟩
 Summer in Vienna ⟨https://www.wien.info/en/now-on/summer-in-vienna⟩
 Autumn in Vienna ⟨https://www.wien.info/en/now-on/autumn-in-vienna⟩
@@ -107,8 +107,23 @@ What are you looking for?
 li]:px-100 [&>li]:py-200 [&>li]:hover:underline [&>li]:hover:text-black [&>li]:focus:underline [&>li]:focus:text-black [&>li]:cursor-pointer [&>li]:outline-none">
 Show search results on map
 Search
-Events
+Event Search
+Our event search feature presents you with a selection of events in Vienna grouped by categories and interests.
 Vienna Bites ⟨https://www.wien.info/en/dine-drink/viennabites⟩
+Close
+Exhibitions ⟨https://www.wien.info/en/now-on/events#/?f1=896982⟩
+Classic Concerts ⟨https://www.wien.info/en/now-on/events#/?f1=896984⟩
+Opera & Operetta ⟨https://www.wien.info/en/now-on/events#/?f1=896992⟩
+Musical & Dance ⟨https://www.wien.info/en/now-on/events#/?f1=896990⟩
+Theatre & Cabaret ⟨https://www.wien.info/en/now-on/events#/?f1=896998⟩
+Rock, Pop, Jazz & more ⟨https://www.wien.info/en/now-on/events#/?f1=896994⟩
+Festival, Parties & Shows ⟨https://www.wien.info/en/now-on/events#/?f1=896974⟩
+For Families ⟨https://www.wien.info/en/now-on/events#/?f2=897006⟩
+For LGBTIQ+ ⟨https://www.wien.info/en/now-on/events#/?f1=896986⟩
+Sports ⟨https://www.wien.info/en/now-on/events#/?f1=896996⟩
+Markets & Fairs ⟨https://www.wien.info/en/now-on/events#/?f1=896988⟩
+Culinary ⟨https://www.wien.info/en/now-on/events#/?f1=1060516⟩
+Program booklet spot - Culture and events in Vienna Fall in Vienna is at its most diverse, and the new edition of "spot" highlights the best of the season. The focus is on Vienna’s Art and Design Fall with ... ⟨https://www.wien.info/en/spot-431548⟩
 Close
 This location has been added to your favorites.
 Please note that your favorites are only available in this browser. If you clear your browser cache, your favorites will be lost. In the future, it will be possible to create a My Vienna profile, allowing you to access your favorites from other devices as well.
