@@ -1,0 +1,243 @@
+{
+ "fetched": "2026-10-18T23:20:17.848Z",
+ "status": {
+  "wieninfo-now": {
+   "url": "https://www.wien.info/en/now-on",
+   "final": "https://www.wien.info/en/now-on",
+   "http": 200,
+   "chars": 8681,
+   "jsonLdEvents": 0
+  },
+  "wieninfo-events": {
+   "url": "https://www.wien.info/en/now-on/events",
+   "final": "https://www.wien.info/en/now-on/events",
+   "http": 200,
+   "chars": 4757,
+   "jsonLdEvents": 0
+  },
+  "wieninfo-highlights": {
+   "url": "https://www.wien.info/en/now-on/highlights",
+   "final": "https://www.wien.info/en/now-on/highlights",
+   "http": 404,
+   "chars": 5429,
+   "jsonLdEvents": 0
+  },
+  "wieninfo-exhibitions": {
+   "url": "https://www.wien.info/en/now-on/exhibitions",
+   "final": "https://www.wien.info/en/now-on/exhibitions",
+   "http": 404,
+   "chars": 5429,
+   "jsonLdEvents": 0
+  },
+  "wieninfo-christmas": {
+   "url": "https://www.wien.info/en/now-on/christmas-markets",
+   "final": "https://www.wien.info/en/now-on/christmas-markets",
+   "http": 404,
+   "chars": 5429,
+   "jsonLdEvents": 0
+  },
+  "visitingvienna-oct": {
+   "url": "https://www.visitingvienna.com/entertainment/october/",
+   "final": "https://www.visitingvienna.com/entertainment/october/",
+   "http": 200,
+   "chars": 11793,
+   "jsonLdEvents": 0
+  },
+  "visitingvienna-nov": {
+   "url": "https://www.visitingvienna.com/entertainment/november/",
+   "final": "https://www.visitingvienna.com/entertainment/november/",
+   "http": 200,
+   "chars": 12761,
+   "jsonLdEvents": 0
+  },
+  "unwrapped-nov": {
+   "url": "https://vienna-unwrapped.com/?p=32595",
+   "final": "https://vienna-unwrapped.com/things-to-do-in-vienna-november/",
+   "http": 200,
+   "chars": 17466,
+   "jsonLdEvents": 0
+  },
+  "staatsoper": {
+   "url": "https://www.wiener-staatsoper.at/en/calendar/",
+   "final": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
+   "http": 200,
+   "chars": 45904,
+   "jsonLdEvents": 0
+  },
+  "volksoper": {
+   "url": "https://www.volksoper.at/en/calendar",
+   "final": "https://www.volksoper.at/en/calendar",
+   "http": 404,
+   "chars": 899,
+   "jsonLdEvents": 0
+  },
+  "theater-an-der-wien": {
+   "url": "https://www.theater-wien.at/en/programm",
+   "final": "https://www.theater-wien.at/en/home",
+   "http": 200,
+   "chars": 4974,
+   "jsonLdEvents": 0
+  },
+  "musikverein": {
+   "url": "https://www.musikverein.at/en/calendar",
+   "final": "https://www.musikverein.at/en/calendar",
+   "http": 404,
+   "chars": 1479,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus": {
+   "url": "https://konzerthaus.at/en/programm",
+   "final": "https://konzerthaus.at/en/programm",
+   "http": 404,
+   "chars": 470,
+   "jsonLdEvents": 0
+  },
+  "burgtheater": {
+   "url": "https://www.burgtheater.at/en/spielplan",
+   "final": "https://www.burgtheater.at/en/spielplan",
+   "http": 404,
+   "chars": 1370,
+   "jsonLdEvents": 0
+  },
+  "viennale": {
+   "url": "https://www.viennale.at/en",
+   "final": "https://www.viennale.at/en",
+   "http": 200,
+   "chars": 7461,
+   "jsonLdEvents": 0
+  },
+  "wien-modern": {
+   "url": "https://www.wienmodern.at/en",
+   "final": "https://www.wienmodern.at/en",
+   "http": 200,
+   "chars": 2680,
+   "jsonLdEvents": 0
+  },
+  "vienna-art-week": {
+   "url": "https://www.viennaartweek.at/en",
+   "final": "https://www.viennaartweek.at/en/",
+   "http": 200,
+   "chars": 5457,
+   "jsonLdEvents": 0
+  },
+  "filmmuseum": {
+   "url": "https://www.filmmuseum.at/en",
+   "final": "https://www.filmmuseum.at/en",
+   "http": 200,
+   "chars": 15978,
+   "jsonLdEvents": 0
+  },
+  "albertina": {
+   "url": "https://www.albertina.at/en/exhibitions/",
+   "final": "https://www.albertina.at/en/exhibitions/",
+   "http": 200,
+   "chars": 3666,
+   "jsonLdEvents": 0
+  },
+  "belvedere": {
+   "url": "https://www.belvedere.at/en/exhibitions",
+   "final": "https://www.belvedere.at/en/current-exhibitions",
+   "http": 200,
+   "chars": 9065,
+   "jsonLdEvents": 5
+  },
+  "khm": {
+   "url": "https://www.khm.at/en/exhibitions/",
+   "final": "https://www.khm.at/en/exhibitions",
+   "http": 200,
+   "chars": 6237,
+   "jsonLdEvents": 0
+  },
+  "leopold": {
+   "url": "https://www.leopoldmuseum.org/en/exhibitions",
+   "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
+   "http": 200,
+   "chars": 2076,
+   "jsonLdEvents": 0
+  },
+  "mak": {
+   "url": "https://www.mak.at/en/program/exhibitions",
+   "final": "https://www.mak.at/en/program/exhibitions",
+   "http": 404,
+   "chars": 1435,
+   "jsonLdEvents": 0
+  },
+  "mumok": {
+   "url": "https://www.mumok.at/en/exhibitions",
+   "final": "https://www.mumok.at/en/exhibitions/current",
+   "http": 200,
+   "chars": 1996,
+   "jsonLdEvents": 0
+  },
+  "kunsthalle": {
+   "url": "https://kunsthallewien.at/en/",
+   "final": "https://kunsthallewien.at/en/",
+   "http": 200,
+   "chars": 3482,
+   "jsonLdEvents": 0
+  },
+  "secession": {
+   "url": "https://www.secession.at/en/",
+   "final": "https://secession.at/en/",
+   "http": 200,
+   "chars": 25302,
+   "jsonLdEvents": 0
+  },
+  "wien-museum": {
+   "url": "https://www.wienmuseum.at/en/exhibitions",
+   "final": "https://www.wienmuseum.at/en/exhibitions",
+   "http": 404,
+   "chars": 56,
+   "jsonLdEvents": 0
+  },
+  "kunsthauswien": {
+   "url": "https://www.kunsthauswien.com/en/",
+   "final": "https://www.kunsthauswien.com/en/",
+   "http": 200,
+   "chars": 3913,
+   "jsonLdEvents": 0
+  },
+  "mq": {
+   "url": "https://www.mqw.at/en/program",
+   "final": "https://www.mqw.at/en/program/events/",
+   "http": 200,
+   "chars": 12013,
+   "jsonLdEvents": 0
+  },
+  "porgy": {
+   "url": "https://www.porgy.at/",
+   "final": "https://www.porgy.at/",
+   "http": 200,
+   "chars": 884,
+   "jsonLdEvents": 0
+  },
+  "arena": {
+   "url": "https://www.arena.wien/",
+   "final": "https://arena.wien/",
+   "http": 200,
+   "chars": 2723,
+   "jsonLdEvents": 0
+  },
+  "wuk": {
+   "url": "https://www.wuk.at/en/",
+   "final": "https://www.wuk.at/en/",
+   "http": 200,
+   "chars": 1408,
+   "jsonLdEvents": 0
+  },
+  "tqw": {
+   "url": "https://tqw.at/en/",
+   "final": "https://www.tqw.at/en/",
+   "http": 200,
+   "chars": 7098,
+   "jsonLdEvents": 0
+  },
+  "falter": {
+   "url": "https://www.falter.at/eventfinder",
+   "final": "https://www.falter.at/eventfinder",
+   "http": 404,
+   "chars": 2033,
+   "jsonLdEvents": 0
+  }
+ }
+}
