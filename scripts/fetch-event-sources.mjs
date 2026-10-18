@@ -25,10 +25,10 @@ function toText(html, base) {
     let url = href
     try { url = new URL(decode(href), base).href } catch {}
     const t = inner.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim()
-    return t ? ` ${t} <${url}> ` : ''
+    return t ? ` ${t} ⟨${url}⟩ ` : ''
   })
-  h = h.replace(/<(br|\/p|\/div|\/li|\/h\d|\/tr|\/section|\/article|time)[^>]*>/gi, '\n')
   h = h.replace(/<time[^>]*datetime="([^"]+)"[^>]*>/gi, ' [$1] ')
+  h = h.replace(/<(br|\/p|\/div|\/li|\/h\d|\/tr|\/section|\/article)[^>]*>/gi, '\n')
   h = decode(h.replace(/<[^>]+>/g, ' '))
   return h.split('\n').map(l => l.replace(/[ \t]+/g, ' ').trim()).filter(Boolean)
     .filter((l, i, a) => l !== a[i - 1]).join('\n')
