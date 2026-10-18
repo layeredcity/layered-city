@@ -422,7 +422,7 @@ function EventItem({ event, cityName }) {
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
             </a>
           )}
-          {event.venue && (
+          {event.venue && !/^various/i.test(event.venue) && (
             <a className="food-item__map" href={mapsSearchUrl(event.venue, cityName)} target="_blank" rel="noreferrer">
               Map
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
