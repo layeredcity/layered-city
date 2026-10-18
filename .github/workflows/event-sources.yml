@@ -1,0 +1,43 @@
+# Fetches the event listing pages in events/sources/<city>.json and commits
+# their text to events/raw/<city>/ for the weekly Events refresh to read.
+# Runs Sunday night, and whenever events/run-fetch changes.
+name: Event sources
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '17 2 * * 1'
+  push:
+    branches: [main]
+    paths:
+      - events/run-fetch
+      - events/sources/**
+
+permissions:
+  contents: write
+
+concurrency:
+  group: event-sources
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch
+        run: |
+          for f in events/sources/*.json; do CITY="$(basename "$f" .json)" node scripts/fetch-event-sources.mjs; done
+      - name: Commit
+        run: |
+          git add events/raw
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "Layered City events"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Fetch event sources"
+          git pull --rebase origin main
+          git push origin HEAD:main
