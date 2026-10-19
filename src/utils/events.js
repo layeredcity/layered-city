@@ -73,3 +73,19 @@ export function eventDateText(e) {
   if (e.end && e.end !== e.start) return `${fmt(e.start)} – ${fmt(e.end)}`
   return null
 }
+
+// Events as story-shaped objects, so the map pins, the desktop pop-up and the
+// mobile detail panel can treat them like any other item. The full event rides
+// along on `event`. An event with no single venue ("Various venues") gets no
+// location and so no pin, but still opens from the list.
+export function eventStories(cityName) {
+  return upcomingEvents(cityName).map(e => ({
+    id: 'event-' + e.id,
+    mediaType: 'event',
+    title: e.titleEnglish || e.title,
+    description: e.description,
+    location: e.lat && e.lon ? { lat: e.lat, lon: e.lon } : null,
+    locationName: e.venue + (e.venueNote ? `, ${e.venueNote}` : ''),
+    event: e,
+  }))
+}

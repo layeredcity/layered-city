@@ -210,7 +210,15 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         // override, then the remote source. Pins are tiny, so ask for a tiny image.
         const portraitImg = sizedAsset(story.coverAsset, 96) || story.coverImageUrl || cachedPoster || cachedCover
         const imgSrc = story.channelIcon || story.artworkImage || portraitImg
-        if (imgSrc) {
+        if (story.mediaType === 'event') {
+          // A tiny desk calendar: red header strip, day number underneath.
+          const d = story.event?.start ? Number(story.event.start.slice(8, 10)) : ''
+          const ongoing = story.event?.end && story.event.start <= new Date().toISOString().slice(0, 10)
+          const top = ongoing ? 'NOW' : ['SUN','MON','TUE','WED','THU','FRI','SAT'][new Date(story.event.start + 'T12:00').getDay()]
+          el.className = 'event-pin'
+          el.style.cssText = 'opacity:0;pointer-events:none;transition:opacity 0.35s ease;'
+          el.innerHTML = '<span class="event-pin__top">' + top + '</span><span class="event-pin__day">' + (ongoing ? '•' : d) + '</span>'
+        } else if (imgSrc) {
           const isPoster = portraitImg && !story.channelIcon && !story.artworkImage
           const pinW = isPoster ? '28px' : '36px'
           const pinH = isPoster ? '42px' : '36px'

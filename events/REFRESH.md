@@ -120,6 +120,11 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
   livestreamed". Keep `language` short ("Language not confirmed", "Sung in
   Italian, subtitles not confirmed"). `linkLabel` is plain English: "Tickets",
   "Event page", "Exhibition page", "Programme".
+- **`lat` / `lon`:** the venue's coordinates (4 decimals), which put the event on
+  the map. Take them from `events/venues/vienna.json`. For a new venue, add it to
+  that file with its real coordinates (Wikipedia or OpenStreetMap, which you may
+  find via WebSearch). Never estimate them. Events at "Various venues" get no
+  coordinates; they still show in the list.
 - **`venue`:** the plain name a map search will find, such as "Musikverein" or
   "Wiener Staatsoper".
 - **`description`:** at most 220 characters. Say what it is, naming the work,
@@ -190,13 +195,13 @@ time, price or event.** If the sources don't confirm it, leave it out.
 
 - Check with python:
   - the JSON parses;
-  - every entry has id, title, category, start, venue, language, description, why and url;
+  - every entry with a single venue has lat and lon; every entry has id, title, category, start, venue, language, description, why and url;
   - dates are valid and `end` ≥ `start`;
   - every entry overlaps the window;
   - description and why are within their length limits;
   - no ids are duplicated.
 - Set `updated` to today. Sort the events by `start`.
-- Commit only `src/data/events.json` and any `events/sources/` changes, with the
+- Commit only `src/data/events.json` and any `events/sources/` or `events/venues/` changes, with the
   message "Refresh Vienna events" and the attribution lines. Then run
   `git pull --rebase origin main && git push origin HEAD:main`. Netlify deploys on
   push.

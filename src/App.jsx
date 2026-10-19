@@ -9,7 +9,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
-import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge, eventDateText } from './utils/events'
+import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge, eventDateText, eventStories } from './utils/events'
 import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
 // Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
@@ -397,71 +397,106 @@ function WordsPanel({ city, words }) {
   )
 }
 
-function EventItem({ event, cityName }) {
+// The little spiral-bound desk-calendar date, used in the list and the pop-up.
+function EventDate({ event }) {
   const badge = eventDateBadge(event)
-  const dateLine = eventDateText(event)
   return (
-    <div className="event-item">
-      <div className={'event-item__date' + (badge.range ? ' event-item__date--range' : '')}>
-        <span className="event-item__date-top">{badge.top}</span>
-        <span className="event-item__date-main">{badge.main}</span>
-        {badge.bottom && <span className="event-item__date-bottom">{badge.bottom}</span>}
-      </div>
+    <div className={'event-item__date' + (badge.range ? ' event-item__date--range' : '')}>
+      <span className="event-item__date-top">{badge.top}</span>
+      <span className="event-item__date-main">{badge.main}</span>
+      {badge.bottom && <span className="event-item__date-bottom">{badge.bottom}</span>}
+    </div>
+  )
+}
+
+// English title first where the original is foreign, original in brackets
+// underneath, as with Food.
+function EventTitle({ event, className }) {
+  return (
+    <div className={className}>
+      {event.titleEnglish || event.title}
+      {event.titleEnglish && <span className="food-item__name-local">({event.title})</span>}
+    </div>
+  )
+}
+
+function EventFact({ icon, children }) {
+  if (!children) return null
+  return <div className="event-item__fact"><span className="story-modal__meta-icon">{icon}</span><span>{children}</span></div>
+}
+
+// List row: just enough to scan (date, what, where, when, one line of what it
+// is). Everything else lives in the pop-up, as with the other media types.
+function EventItem({ story, onSelect }) {
+  const e = story.event
+  return (
+    <div className="event-item event-item--row" onClick={() => onSelect(story)}>
+      <EventDate event={e} />
       <div className="event-item__body">
-        <div className="event-item__cat">{event.category}</div>
-        {/* As with Food: English leads where the original title is foreign, and
-            the original follows, since that is what the poster and ticket say. */}
-        <div className="event-item__title">
-          {event.titleEnglish || event.title}
-          {event.titleEnglish && <span className="food-item__name-local">({event.title})</span>}
-        </div>
+        <div className="event-item__cat">{e.category}</div>
+        <EventTitle event={e} className="event-item__title" />
         <div className="event-item__facts">
-          {event.venue && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.place}</span><span>{event.venue}{event.venueNote ? `, ${event.venueNote}` : ''}</span></div>}
-          {dateLine && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.year}</span><span>{dateLine}</span></div>}
-          {event.hours && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.duration}</span><span>{event.hours}</span></div>}
-          {event.price && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.price}</span><span>{event.price}</span></div>}
-          {event.language && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.language}</span><span>{event.language}</span></div>}
+          <EventFact icon={META_ICONS.place}>{[e.venue, e.hours].filter(Boolean).join(' · ')}</EventFact>
         </div>
-        <div className="event-item__label">What is it?</div>
-        <div className="event-item__desc">{event.description}</div>
-        {event.why && (
-          <>
-            <div className="event-item__label">Why go?</div>
-            <div className="event-item__why">{event.why}</div>
-          </>
-        )}
-        <div className="event-item__links">
-          {event.url && (
-            <a className="food-item__map" href={event.url} target="_blank" rel="noreferrer">
-              {event.linkLabel || 'Details and tickets'}
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-            </a>
-          )}
-          {event.venue && !/^various/i.test(event.venue) && (
-            <a className="food-item__map" href={mapsSearchUrl(event.venue, cityName)} target="_blank" rel="noreferrer">
-              Map
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="M7 17 17 7M9 7h8v8"/></svg>
-            </a>
-          )}
-        </div>
+        <div className="event-item__desc">{e.description}</div>
       </div>
     </div>
   )
 }
 
-function EventsPanel({ city }) {
-  const events = upcomingEvents(city.name)
+function EventsPanel({ city, stories, onSelect }) {
   const updated = eventsUpdated(city.name)
-  if (!events.length) {
+  if (!stories.length) {
     return <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>Nothing listed for {city.name} right now.</div>
   }
+  const byId = Object.fromEntries(stories.map(s => [s.event.id, s]))
   return (
     <>
       {updated && <div className="events-updated">Updated weekly · last checked {updated}. Times change; check the link before you go.</div>}
-      {groupEvents(events).flatMap(g => [
+      {groupEvents(stories.map(s => s.event)).flatMap(g => [
         <div key={'h-' + g.key} className="story-group-heading">{g.label}</div>,
-        ...g.events.map(e => <EventItem key={g.key + e.id} event={e} cityName={city.name} />),
+        ...g.events.map(e => <EventItem key={g.key + e.id} story={byId[e.id]} onSelect={onSelect} />),
       ])}
+    </>
+  )
+}
+
+// The full event, shared by the desktop pop-up and the mobile detail panel.
+function EventDetail({ story }) {
+  const e = story.event
+  return (
+    <>
+      <div className="story-modal__header">
+        <EventDate event={e} />
+        <div className="story-modal__header-text">
+          <div className="story-modal__type">{e.category}</div>
+          <div className="story-modal__channel">at {story.locationName}</div>
+        </div>
+      </div>
+      <EventTitle event={e} className="story-modal__title" />
+      <div className="story-modal__why">What is it?</div>
+      <p className="story-modal__desc">{e.description}</p>
+      {e.why && (
+        <>
+          <div className="story-modal__why">Why go?</div>
+          <p className="story-modal__desc">{e.why}</p>
+        </>
+      )}
+      <div className="event-modal__facts">
+        <EventFact icon={META_ICONS.place}>{story.locationName}</EventFact>
+        <EventFact icon={META_ICONS.year}>{eventDateText(e)}</EventFact>
+        <EventFact icon={META_ICONS.duration}>{e.hours}</EventFact>
+        <EventFact icon={META_ICONS.price}>{e.price}</EventFact>
+        <EventFact icon={META_ICONS.language}>{e.language}</EventFact>
+      </div>
+      {e.url && (
+        <div className="story-modal__btn-row">
+          <a href={e.url} target="_blank" rel="noreferrer" className="story-modal__btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="story-modal__btn-icon"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2M13 17v2M13 11v2"/></svg>
+            {e.linkLabel && /ticket/i.test(e.linkLabel) ? 'Get tickets' : 'Details and tickets'}
+          </a>
+        </div>
+      )}
     </>
   )
 }
@@ -969,6 +1004,18 @@ function StoryIcon({ story, omdbData, bookData }) {
 
 function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
   if (!story) return null
+  if (story.mediaType === 'event') {
+    return (
+      <div className="story-modal-overlay" onClick={onClose}>
+        <div className="story-modal story-modal--event" onClick={e => e.stopPropagation()}>
+          <button className="story-modal__close" onClick={onClose}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
+          </button>
+          <EventDetail story={story} />
+        </div>
+      </div>
+    )
+  }
   const label = mediaTypeLabel(story.mediaType)
   const duration = formatDuration(story.minutes, story.seconds)
   const isBook = story.mediaType?.toLowerCase() === 'book'
@@ -1447,8 +1494,12 @@ export default function App() {
   }, [selectCity])
 
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
+  // Events (pilot) ride on the map alongside the stories: their pins are made
+  // with everything else and only shown while the Events section is open.
+  const cityEventStories = useMemo(() => selectedCity ? eventStories(selectedCity.name) : [], [selectedCity])
+  const mapAllStories = useMemo(() => cityEventStories.length ? [...stories, ...cityEventStories] : stories, [stories, cityEventStories])
   const wordsAvailable = !!(selectedCity?.wordsPublished && words.length > 0)
-  const availableFilters = FILTERS.slice(1).filter(f => f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
+  const availableFilters = FILTERS.slice(1).filter(f => f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
 
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
@@ -1511,7 +1562,7 @@ export default function App() {
     return [...list].sort(byRating)
   }, [stories, currentFilter, sortMode, isMusicFilter, isBooksFilter, isMoviesFilter, showSortToggle, effectiveRatingForStory, omdbCache])
 
-  const mapStories = detailView === 'overview' ? stories : filteredStories
+  const mapStories = detailView === 'overview' ? stories : currentFilter.events ? cityEventStories : filteredStories
 
   if (loading) {
     return (
@@ -1630,7 +1681,7 @@ export default function App() {
                       <WordsPanel city={selectedCity} words={words} />
                     )
                   ) : currentFilter.events ? (
-                    <EventsPanel city={selectedCity} />
+                    <EventsPanel city={selectedCity} stories={cityEventStories} onSelect={setSelectedStory} />
                   ) : currentFilter.food ? (
                     foodsLoading ? (
                       <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading food...</div>
@@ -1679,7 +1730,7 @@ export default function App() {
         <MapboxMap
           city={selectedCity}
           cities={cities}
-          allStories={stories}
+          allStories={mapAllStories}
           stories={mapStories}
           omdbCache={omdbCache}
           bookCache={bookCache}
@@ -1694,9 +1745,9 @@ export default function App() {
           }}
         />
         {selectedStory && (
-          <div ref={modalAnchorRef} className="story-modal-anchor">
+          <div ref={modalAnchorRef} className={'story-modal-anchor' + (selectedStory.location ? '' : ' story-modal-anchor--center')}>
             <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} onOpenMedia={setMediaStory} omdbData={omdbData} bookData={bookData} />
-            <div className="story-modal-arrow" />
+            {selectedStory.location && <div className="story-modal-arrow" />}
           </div>
         )}
         <MediaModal story={mediaStory} onClose={() => setMediaStory(null)} />
@@ -1728,7 +1779,22 @@ export default function App() {
 
       {/* Mobile story detail panel */}
       <div className={"panel-story" + (selectedStory ? ' panel-story--open' : '')}>
-        {selectedStory && (() => {
+        {selectedStory && selectedStory.mediaType === 'event' && (
+          <>
+            <div className="mobile-back" onClick={() => setSelectedStory(null)}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              Back
+            </div>
+            <div className="panel-story__scroll">
+              <div className="panel-story__content panel-story__content--event">
+                <EventDetail story={selectedStory} />
+              </div>
+            </div>
+          </>
+        )}
+        {selectedStory && selectedStory.mediaType !== 'event' && (() => {
           const s = selectedStory
           const label = mediaTypeLabel(s.mediaType)
           const duration = formatDuration(s.minutes, s.seconds)

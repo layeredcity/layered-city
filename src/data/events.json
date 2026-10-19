@@ -19,7 +19,9 @@
     "hours": "",
     "dateNote": "Last chance! Closes on Oct 26",
     "price": "Free on Sun Oct 25",
-    "titleEnglish": "Lives and Works in Vienna"
+    "titleEnglish": "Lives and Works in Vienna",
+    "lat": 48.2032,
+    "lon": 16.359
    },
    {
     "id": "tolia-astakhishvili-mumok-2026",
@@ -37,7 +39,9 @@
     "source": "mumok",
     "hours": "",
     "dateNote": "Last chance! Closes on Nov 1",
-    "price": ""
+    "price": "",
+    "lat": 48.2036,
+    "lon": 16.3578
    },
    {
     "id": "bernhard-leitner-secession-2026",
@@ -55,7 +59,9 @@
     "source": "secession",
     "hours": "",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.2005,
+    "lon": 16.3656
    },
    {
     "id": "erika-giovanna-klien-belvedere-2026",
@@ -73,7 +79,9 @@
     "source": "belvedere",
     "hours": "",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.1985,
+    "lon": 16.3785
    },
    {
     "id": "design-week-posters-mak-2026",
@@ -91,7 +99,9 @@
     "source": "mak",
     "hours": "",
     "dateNote": "Last chance! Closes on Nov 1",
-    "price": ""
+    "price": "",
+    "lat": 48.2073,
+    "lon": 16.3812
    },
    {
     "id": "fliegende-hollaender-taw-2026",
@@ -109,7 +119,9 @@
     "hours": "19:00",
     "dateNote": "Also Oct 22, 25, 28, 30",
     "price": "",
-    "titleEnglish": "The Flying Dutchman"
+    "titleEnglish": "The Flying Dutchman",
+    "lat": 48.1997,
+    "lon": 16.3627
    },
    {
     "id": "fink-arena-2026",
@@ -127,7 +139,9 @@
     "hours": "Doors 19:00",
     "dateNote": "",
     "venueNote": "main hall",
-    "price": ""
+    "price": "",
+    "lat": 48.1886,
+    "lon": 16.4096
    },
    {
     "id": "nijinsky-staatsoper-2026",
@@ -144,7 +158,9 @@
     "source": "staatsoper",
     "hours": "19:00",
     "dateNote": "Premiere · Also Oct 22, 24, 27, 30, Nov 6, 9",
-    "price": ""
+    "price": "",
+    "lat": 48.203,
+    "lon": 16.3691
    },
    {
     "id": "fledermaus-volksoper-2026",
@@ -162,7 +178,9 @@
     "hours": "19:00–22:15",
     "dateNote": "Also Oct 25",
     "price": "",
-    "titleEnglish": "The Bat"
+    "titleEnglish": "The Bat",
+    "lat": 48.2245,
+    "lon": 16.3519
    },
    {
     "id": "hercules-taw-2026",
@@ -179,7 +197,9 @@
     "source": "theater-an-der-wien",
     "hours": "19:00",
     "dateNote": "One night only",
-    "price": ""
+    "price": "",
+    "lat": 48.1997,
+    "lon": 16.3627
    },
    {
     "id": "new-york-phil-dudamel-musikverein-2026",
@@ -196,7 +216,9 @@
     "source": "musikverein",
     "hours": "19:30",
     "dateNote": "Also Oct 22, with a different programme",
-    "price": ""
+    "price": "",
+    "lat": 48.2006,
+    "lon": 16.3729
    },
    {
     "id": "viennale-2026",
@@ -214,7 +236,9 @@
     "source": "viennale",
     "hours": "",
     "dateNote": "Opening film Oct 22 at 21:30",
-    "price": ""
+    "price": "",
+    "lat": 48.2066,
+    "lon": 16.3787
    },
    {
     "id": "aldrich-retrospective-filmmuseum-2026",
@@ -232,7 +256,9 @@
     "source": "filmmuseum",
     "hours": "18:30",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.2045,
+    "lon": 16.3685
    },
    {
     "id": "mak-vienna-1900-english-tour-2026",
@@ -249,7 +275,9 @@
     "source": "mak-events",
     "hours": "Every Sat 15:00",
     "dateNote": "Next Oct 24",
-    "price": ""
+    "price": "",
+    "lat": 48.2073,
+    "lon": 16.3812
    },
    {
     "id": "das-ferienhaus-burgtheater-2026",
@@ -267,7 +295,9 @@
     "hours": "18:30–22:30",
     "dateNote": "Also Oct 28, Nov 8",
     "price": "€6–74",
-    "titleEnglish": "The Holiday Home"
+    "titleEnglish": "The Holiday Home",
+    "lat": 48.2104,
+    "lon": 16.3614
    },
    {
     "id": "lorfeo-staatsoper-2026",
@@ -285,7 +315,9 @@
     "hours": "19:00",
     "dateNote": "Also Oct 28, 31, Nov 3",
     "price": "",
-    "titleEnglish": "Orpheus"
+    "titleEnglish": "Orpheus",
+    "lat": 48.203,
+    "lon": 16.3691
    },
    {
     "id": "krystian-zimerman-konzerthaus-2026",
@@ -303,7 +335,9 @@
     "hours": "19:30",
     "dateNote": "",
     "venueNote": "main hall",
-    "price": "€32–125 · few tickets left"
+    "price": "€32–125 · few tickets left",
+    "lat": 48.201,
+    "lon": 16.378
    },
    {
     "id": "otello-staatsoper-2026",
@@ -320,7 +354,9 @@
     "source": "staatsoper",
     "hours": "19:00",
     "dateNote": "Also Oct 29, Nov 2, 5, 8",
-    "price": ""
+    "price": "",
+    "lat": 48.203,
+    "lon": 16.3691
    },
    {
     "id": "nationalfeiertag-2026",
@@ -338,7 +374,9 @@
     "hours": "",
     "dateNote": "",
     "price": "",
-    "titleEnglish": "Austrian National Day"
+    "titleEnglish": "Austrian National Day",
+    "lat": 48.2063,
+    "lon": 16.3633
    },
    {
     "id": "wir-sind-noch-einmal-davongekommen-burgtheater-2026",
@@ -356,7 +394,9 @@
     "hours": "19:00–22:00",
     "dateNote": "Also Nov 9, 14",
     "price": "€5–72",
-    "titleEnglish": "The Skin of Our Teeth"
+    "titleEnglish": "The Skin of Our Teeth",
+    "lat": 48.2104,
+    "lon": 16.3614
    },
    {
     "id": "die-letzten-tage-der-menschheit-burgtheater-2026",
@@ -374,7 +414,9 @@
     "hours": "19:00–22:15",
     "dateNote": "Also Nov 2",
     "price": "€25 seats on Oct 30",
-    "titleEnglish": "The Last Days of Mankind"
+    "titleEnglish": "The Last Days of Mankind",
+    "lat": 48.2104,
+    "lon": 16.3614
    },
    {
     "id": "wien-modern-2026",
@@ -411,7 +453,9 @@
     "hours": "",
     "dateNote": "Actors’ reading Nov 4 at 20:15",
     "price": "",
-    "titleEnglish": "Musikverein Perspectives: Elfriede Jelinek"
+    "titleEnglish": "Musikverein Perspectives: Elfriede Jelinek",
+    "lat": 48.2006,
+    "lon": 16.3729
    },
    {
     "id": "schlondorff-talk-viennale-2026",
@@ -429,7 +473,9 @@
     "hours": "16:00",
     "dateNote": "",
     "venueNote": "festival centre in the old radio building",
-    "price": ""
+    "price": "",
+    "lat": 48.1937,
+    "lon": 16.3713
    },
    {
     "id": "fille-du-regiment-staatsoper-2026",
@@ -447,7 +493,9 @@
     "hours": "19:00",
     "dateNote": "Also Nov 4, 7, 10, 13",
     "price": "",
-    "titleEnglish": "The Daughter of the Regiment"
+    "titleEnglish": "The Daughter of the Regiment",
+    "lat": 48.203,
+    "lon": 16.3691
    },
    {
     "id": "molden-nino-konzerthaus-2026",
@@ -465,7 +513,9 @@
     "hours": "19:30",
     "dateNote": "",
     "venueNote": "smaller hall",
-    "price": "€29–83"
+    "price": "€29–83",
+    "lat": 48.201,
+    "lon": 16.378
    },
    {
     "id": "weihnachtsmarkt-schoenbrunn-2026",
@@ -483,7 +533,9 @@
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–21:00",
     "dateNote": "Opens Nov 6",
-    "price": ""
+    "price": "",
+    "lat": 48.1858,
+    "lon": 16.3122
    },
    {
     "id": "blickfang-mak-2026",
@@ -501,7 +553,9 @@
     "source": "wieninfo-design-fairs",
     "hours": "Fri 12:00–20:00, Sat 10:00–19:00, Sun 10:00–18:00",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.2073,
+    "lon": 16.3812
    },
    {
     "id": "bill-frisell-porgy-2026",
@@ -518,7 +572,9 @@
     "source": "porgy",
     "hours": "20:30",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.2074,
+    "lon": 16.3778
    },
    {
     "id": "franz-west-albertina-modern-2026",
@@ -535,7 +591,9 @@
     "source": "albertina",
     "hours": "",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.201,
+    "lon": 16.3713
    },
    {
     "id": "imperial-lights-schoenbrunn-2026",
@@ -553,7 +611,9 @@
     "source": "wieninfo-now",
     "hours": "",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.1822,
+    "lon": 16.3105
    },
    {
     "id": "vienna-art-week-2026",
@@ -588,7 +648,9 @@
     "source": "burgtheater-nov",
     "hours": "19:30",
     "dateNote": "Premiere",
-    "price": ""
+    "price": "",
+    "lat": 48.2104,
+    "lon": 16.3614
    },
    {
     "id": "lise-davidsen-recital-musikverein-2026",
@@ -606,7 +668,9 @@
     "hours": "19:30–21:30",
     "dateNote": "",
     "venueNote": "main hall",
-    "price": ""
+    "price": "",
+    "lat": 48.2006,
+    "lon": 16.3729
    },
    {
     "id": "simon-keenlyside-recital-2026",
@@ -623,7 +687,9 @@
     "source": "staatsoper-nov",
     "hours": "20:00–22:00",
     "dateNote": "One night only",
-    "price": ""
+    "price": "",
+    "lat": 48.203,
+    "lon": 16.3691
    },
    {
     "id": "art-antique-hofburg-2026",
@@ -641,7 +707,9 @@
     "source": "wieninfo-fall-culture",
     "hours": "",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.2066,
+    "lon": 16.3656
    },
    {
     "id": "christkindlmarkt-rathausplatz-2026",
@@ -659,7 +727,9 @@
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–22:00",
     "dateNote": "Ice rink from Nov 13",
-    "price": ""
+    "price": "",
+    "lat": 48.2105,
+    "lon": 16.3575
    },
    {
     "id": "altwiener-christkindlmarkt-freyung-2026",
@@ -677,7 +747,9 @@
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–21:00",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "lat": 48.2117,
+    "lon": 16.3655
    },
    {
     "id": "kunst-design-markt-ottakringer-2026",
@@ -696,7 +768,9 @@
     "hours": "",
     "dateNote": "",
     "price": "",
-    "titleEnglish": "Art & Design Market"
+    "titleEnglish": "Art & Design Market",
+    "lat": 48.2132,
+    "lon": 16.3233
    }
   ]
  }

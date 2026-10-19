@@ -615,3 +615,18 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* Same resting shadow as the other media thumbnails; deeper while it wobbles. */
 .event-item__date { box-shadow: inset 0 0 0 1px var(--border), 0 2px 8px rgba(0,0,0,0.2); }
 .event-item:hover .event-item__date, .event-item:active .event-item__date { box-shadow: inset 0 0 0 1px var(--border), 0 8px 18px rgba(0,0,0,0.26); }
+
+/* Events: list rows open the pop-up; map pins are tiny desk calendars. */
+.event-item--row { cursor: pointer; transition: background var(--transition); }
+.event-item--row:hover { background: var(--white); }
+.event-item--row .event-item__desc { margin-top: 6px; }
+.story-modal--event .story-modal__header { align-items: center; }
+.story-modal--event .event-item__date, .panel-story__content--event .event-item__date { margin-top: 5px; }
+.event-modal__facts { display: flex; flex-direction: column; gap: 5px; margin: 4px 0 22px; }
+.event-modal__facts .event-item__fact { font-size: 13px; }
+.event-modal__facts .event-item__fact .story-modal__meta-icon { width: 13px; height: 13px; }
+.event-pin { width: 30px; border-radius: 6px; overflow: hidden; background: #fff; border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.25); cursor: pointer; display: flex; flex-direction: column; align-items: center; font-family: var(--font-body); line-height: 1; }
+.event-pin__top { align-self: stretch; text-align: center; background: var(--accent); color: #fff; font-size: 7px; font-weight: 700; letter-spacing: 0.06em; padding: 3px 0 2px; }
+.event-pin__day { font-family: var(--font-display); font-size: 15px; color: var(--ink); padding: 2px 0 3px; }
+/* An item with no pin (an event at "various venues") opens centred on the map. */
+.story-modal-anchor--center { left: 50% !important; top: 50% !important; transform: translate(-50%, -50%); }
