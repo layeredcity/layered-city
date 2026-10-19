@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-19T04:53:03.302Z",
+ "fetched": "2026-10-19T04:55:03.476Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -37,10 +37,10 @@
    "jsonLdEvents": 0
   },
   "volksoper": {
-   "url": "https://www.music-opera.com/en/venues/wien-volksoper.html",
-   "final": "https://www.music-opera.com/en/venues/wien-volksoper.html",
-   "http": 403,
-   "chars": 16,
+   "url": "https://www.volksoper.at/spielplan/",
+   "final": "https://www.volksoper.at/spielplan/",
+   "http": 200,
+   "chars": 10595,
    "jsonLdEvents": 0
   },
   "theater-an-der-wien": {
@@ -51,10 +51,10 @@
    "jsonLdEvents": 0
   },
   "musikverein": {
-   "url": "https://www.music-opera.com/en/venues/wien-musikverein.html",
-   "final": "https://www.music-opera.com/en/venues/wien-musikverein.html",
-   "http": 403,
-   "chars": 16,
+   "url": "https://spielplan.musikverein.at/spielplan?month=2026-10",
+   "final": "https://spielplan.musikverein.at/spielplan?month=2026-10",
+   "http": 200,
+   "chars": 18036,
    "jsonLdEvents": 0
   },
   "konzerthaus": {
@@ -80,9 +80,9 @@
   },
   "wien-modern": {
    "url": "https://www.wienmodern.at/2026-calendar-en",
-   "final": "https://www.wienmodern.at/calendar-en",
-   "http": 200,
-   "chars": 160644,
+   "final": "https://www.wienmodern.at/2026-calendar-en",
+   "http": 500,
+   "chars": 140,
    "jsonLdEvents": 0
   },
   "vienna-art-week": {
@@ -185,7 +185,10 @@
   },
   "wuk": {
    "url": "https://www.wuk.at/en/",
-   "error": "The operation was aborted due to timeout"
+   "final": "https://www.wuk.at/en/",
+   "http": 200,
+   "chars": 5494,
+   "jsonLdEvents": 0
   },
   "tqw": {
    "url": "https://tqw.at/en/",
@@ -290,6 +293,13 @@
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
    "chars": 32751,
+   "jsonLdEvents": 0
+  },
+  "musikverein-nov": {
+   "url": "https://spielplan.musikverein.at/spielplan?month=2026-11",
+   "final": "https://spielplan.musikverein.at/spielplan?month=2026-11",
+   "http": 200,
+   "chars": 62071,
    "jsonLdEvents": 0
   }
  }
