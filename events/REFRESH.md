@@ -106,7 +106,11 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
   "Sung in Italian, English subtitles on the seat screens", "Original language with
   English subtitles", "No language needed" (instrumental music, dance, most
   exhibitions). Base it on a raw source file. If the source doesn't say, write
-  "Language not confirmed, check before booking". Never guess.
+  "Language not confirmed, check before booking". Never guess about subtitles or
+  surtitles. The language a work is sung or performed in is a fact about the
+  work, though, so state it ("Sung in Italian. Subtitles not confirmed, check
+  before booking"; "Sung in English" for Handel’s English oratorios; "In English"
+  for an English-speaking band).
 - **`url`:** the event's own page from the raw source file, or the listing page if
   the event has none. Never build a URL by hand.
 - **`source`:** the raw file the dates came from, for checking.
