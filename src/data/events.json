@@ -9,14 +9,15 @@
     "start": "2026-05-01",
     "end": "2026-10-26",
     "time": "",
-    "when": "Last chance: closes Oct 26 · free entry Sun Oct 25, 10:00–18:00",
     "venue": "Kunsthalle Wien",
     "description": "A big group show of art by people who live and work in Vienna today: more than 130 works of painting, sculpture, video and more, at two sites of the city’s contemporary art hall.",
     "why": "Last chance, and entry is free on Sunday Oct 25. A quick look at what the city’s artists are making right now.",
     "url": "https://kunsthallewien.at/en/exhibition/lebt-und-arbeitet-in-wien-contemporary-art-from-vienna",
     "linkLabel": "Exhibition page",
     "language": "No language needed",
-    "source": "kunsthalle"
+    "source": "kunsthalle",
+    "hours": "",
+    "notes": "Last chance · Free entry Sun Oct 25, 10:00–18:00"
    },
    {
     "id": "tolia-astakhishvili-mumok-2026",
@@ -25,14 +26,15 @@
     "start": "2026-06-20",
     "end": "2026-11-01",
     "time": "",
-    "when": "Last chance: closes Nov 1",
     "venue": "mumok",
     "description": "A solo show by a contemporary artist from Georgia, at Vienna’s museum of modern art in the MuseumsQuartier, the big museum complex just outside the old town.",
     "why": "Last chance to see it before it closes on Nov 1.",
     "url": "https://www.mumok.at/en/exhibitions/tolia-astakhishvili",
     "linkLabel": "Exhibition page",
     "language": "No language needed",
-    "source": "mumok"
+    "source": "mumok",
+    "hours": "",
+    "notes": "Last chance"
    },
    {
     "id": "bernhard-leitner-secession-2026",
@@ -41,14 +43,15 @@
     "start": "2026-09-11",
     "end": "2026-11-22",
     "time": "",
-    "when": "Until Nov 22 · two other artists shown alongside",
     "venue": "Secession",
     "description": "An exhibition where sound is the material: a Viennese artist uses speakers and moving sound to shape the space you walk through. Two other artists show alongside him.",
     "why": "The same ticket gets you into the basement room with Klimt’s Beethoven Frieze, a famous wall painting from 1902.",
     "url": "https://secession.at/ausstellung_bernhard_leitner_leicht",
     "linkLabel": "Exhibition page",
     "language": "No language needed",
-    "source": "secession"
+    "source": "secession",
+    "hours": "",
+    "notes": "Two other artists shown alongside"
    },
    {
     "id": "erika-giovanna-klien-belvedere-2026",
@@ -57,14 +60,15 @@
     "start": "2026-09-18",
     "end": "2027-01-31",
     "time": "",
-    "when": "Until Jan 31",
     "venue": "Unteres Belvedere",
     "description": "Paintings and drawings by a Viennese artist of the 1920s who tried to show movement and speed on paper and canvas, part of a short-lived local avant-garde.",
     "why": "A side of 1920s Vienna few visitors see, a short walk through the garden from the Belvedere’s famous Klimts.",
     "url": "https://www.belvedere.at/en/erika-giovanna-klien",
     "linkLabel": "Exhibition page",
     "language": "No language needed",
-    "source": "belvedere"
+    "source": "belvedere",
+    "hours": "",
+    "notes": ""
    },
    {
     "id": "design-week-posters-mak-2026",
@@ -73,14 +77,15 @@
     "start": "2026-09-29",
     "end": "2026-11-01",
     "time": "",
-    "when": "Last chance: closes Nov 1",
     "venue": "MAK",
     "description": "Twenty years of posters from Vienna Design Week, the city’s yearly design festival, at the museum of design and decorative arts.",
     "why": "Last chance. A quick, colourful look at the city’s design scene, easy to pair with the museum’s rooms of Vienna 1900 furniture.",
     "url": "https://www.mak.at/en/program/exhibitions/20_years_of_vienna_design_week",
     "linkLabel": "Exhibition page",
     "language": "No language needed",
-    "source": "mak"
+    "source": "mak",
+    "hours": "",
+    "notes": "Last chance"
    },
    {
     "id": "fliegende-hollaender-taw-2026",
@@ -88,14 +93,15 @@
     "category": "Opera",
     "start": "2026-10-20",
     "time": "19:00",
-    "when": "19:00 · also Oct 22, 25, 28, 30",
     "venue": "Theater an der Wien",
     "description": "Wagner’s opera The Flying Dutchman: a ghostly sea captain is doomed to sail forever unless a woman stays faithful to him. Stormy, dramatic music.",
     "why": "Wagner in a small, historic theatre, much closer to the stage than at the big State Opera.",
     "url": "https://www.theater-wien.at/en/events/season2026-27/1644/Der-fliegende-Hollaender",
     "linkLabel": "Dates and tickets",
     "language": "Sung in German. Subtitles not confirmed, check before booking",
-    "source": "theater-an-der-wien"
+    "source": "theater-an-der-wien",
+    "hours": "19:00",
+    "notes": "Also Oct 22, 25, 28, 30"
    },
    {
     "id": "fink-arena-2026",
@@ -103,14 +109,15 @@
     "category": "Concert",
     "start": "2026-10-20",
     "time": "19:00",
-    "when": "Doors 19:00 · main hall",
     "venue": "Arena Wien",
     "description": "A British band led by singer-songwriter Fin Greenall, playing slow-burning songs that mix folk, blues and electronic sounds.",
     "why": "A good way to see Arena, a rock venue in a former slaughterhouse that’s popular with locals.",
     "url": "https://arena.wien/Home/Programm-Detail/concert-id/48526",
     "linkLabel": "Concert page",
     "language": "In English",
-    "source": "arena"
+    "source": "arena",
+    "hours": "Doors 19:00",
+    "notes": "Main hall"
    },
    {
     "id": "nijinsky-staatsoper-2026",
@@ -118,14 +125,15 @@
     "category": "Ballet",
     "start": "2026-10-20",
     "time": "19:00",
-    "when": "Premiere 19:00 · also Oct 22, 24, 27, 30, Nov 6, 9",
     "venue": "Wiener Staatsoper",
     "description": "A new ballet about Vaslav Nijinsky, a famous early 20th-century dancer whose career ended in mental illness. Told through big, dramatic dancing.",
     "why": "The State Ballet’s big new show of the autumn. Opening night is also streamed online if you can’t get a seat.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/nijinsky/2026-10-20/",
     "linkLabel": "Dates and tickets",
     "language": "No language needed",
-    "source": "staatsoper"
+    "source": "staatsoper",
+    "hours": "19:00",
+    "notes": "Premiere · Also Oct 22, 24, 27, 30, Nov 6, 9"
    },
    {
     "id": "fledermaus-volksoper-2026",
@@ -133,14 +141,15 @@
     "category": "Opera",
     "start": "2026-10-21",
     "time": "19:00",
-    "when": "19:00–22:15 · also Oct 25 · German and English surtitles",
     "venue": "Volksoper Wien",
     "description": "Vienna’s best-loved operetta, a light comedy with songs about a revenge prank played out at a masked ball. Waltzes, champagne and mistaken identities.",
     "why": "The classic Viennese night out, at the theatre that has played it for decades, with English surtitles.",
     "url": "https://www.volksoper.at/produktion/die-fledermaus-1990.1013381835.de.html",
     "linkLabel": "Tickets",
     "language": "In German with English surtitles",
-    "source": "volksoper"
+    "source": "volksoper",
+    "hours": "19:00–22:15",
+    "notes": "Also Oct 25 · German and English surtitles"
    },
    {
     "id": "hercules-taw-2026",
@@ -148,14 +157,15 @@
     "category": "Opera",
     "start": "2026-10-21",
     "time": "19:00",
-    "when": "19:00 · one night only",
     "venue": "Theater an der Wien",
     "description": "Handel’s drama about the hero Hercules and his jealous wife, who sends him a robe she thinks will win back his love. It kills him instead.",
     "why": "A single night of baroque opera, music from the 1700s, which this small theatre does especially well.",
     "url": "https://www.theater-wien.at/en/events/season2026-27/1653/Hercules",
     "linkLabel": "Tickets",
     "language": "Sung in English",
-    "source": "theater-an-der-wien"
+    "source": "theater-an-der-wien",
+    "hours": "19:00",
+    "notes": "One night only"
    },
    {
     "id": "new-york-phil-dudamel-musikverein-2026",
@@ -163,14 +173,15 @@
     "category": "Classical",
     "start": "2026-10-21",
     "time": "19:30",
-    "when": "19:30 · Mahler on Oct 21 · different programme Oct 22",
     "venue": "Musikverein",
     "description": "One of America’s great orchestras on tour, two nights in a row. The first night ends with a Mahler symphony, the second mixes new American music with Prokofiev.",
     "why": "A chance to hear a top orchestra in the Musikverein’s main hall, one of the best-sounding concert halls in the world.",
     "url": "https://musikverein.at/konzert/?id=00069d4e",
     "linkLabel": "Concert page",
     "language": "No language needed",
-    "source": "musikverein"
+    "source": "musikverein",
+    "hours": "19:30",
+    "notes": "Mahler on Oct 21 · Different programme Oct 22"
    },
    {
     "id": "viennale-2026",
@@ -179,14 +190,15 @@
     "start": "2026-10-22",
     "end": "2026-11-03",
     "time": "",
-    "when": "Oct 22–Nov 3 · opening film Oct 22, 21:30, Gartenbaukino",
     "venue": "Gartenbaukino",
     "description": "Vienna’s big film festival: two weeks of new films from around the world, an old-Hollywood retrospective, talks with filmmakers and late-night parties.",
     "why": "The city’s main cultural event of the autumn. If a screening is sold out, check the festival’s page for returned tickets.",
     "url": "https://www.viennale.at/en/calendar",
     "linkLabel": "Programme and tickets",
     "language": "Language not confirmed, check before booking",
-    "source": "viennale"
+    "source": "viennale",
+    "hours": "",
+    "notes": "Opening film Oct 22, 21:30, Gartenbaukino"
    },
    {
     "id": "aldrich-retrospective-filmmuseum-2026",
@@ -195,14 +207,15 @@
     "start": "2026-10-23",
     "end": "2026-11-15",
     "time": "",
-    "when": "Starts Oct 23, 18:30 · most screenings introduced live",
     "venue": "Österreichisches Filmmuseum",
     "description": "A season of tough, stylish Hollywood films from the 1950s to the 1970s by one director, including the war film The Dirty Dozen, at the city’s film museum.",
     "why": "Almost every screening starts with a short live introduction, and it runs on for two weeks after the festival.",
     "url": "https://www.filmmuseum.at/en/film_program/calendar",
     "linkLabel": "Calendar",
     "language": "Original language, subtitled if needed. Intro language not confirmed",
-    "source": "filmmuseum"
+    "source": "filmmuseum",
+    "hours": "18:30",
+    "notes": "Most screenings introduced live"
    },
    {
     "id": "mak-vienna-1900-english-tour-2026",
@@ -210,14 +223,15 @@
     "category": "Talk",
     "start": "2026-10-24",
     "time": "15:00",
-    "when": "Every Sat 15:00 · next Oct 24",
     "venue": "MAK",
     "description": "A guided tour in English through rooms of Viennese furniture, glass and household design from around 1900, when the city set new standards for modern design.",
     "why": "An easy, guided way into Vienna 1900 design, with someone to explain what you’re looking at.",
     "url": "https://www.mak.at/en/education/guided_tour_in_english_vienna_1900everyday_a_total_work_of_art_2026-10-24_1500",
     "linkLabel": "Tour details",
     "language": "In English",
-    "source": "mak-events"
+    "source": "mak-events",
+    "hours": "Every Sat 15:00",
+    "notes": "Next Oct 24"
    },
    {
     "id": "das-ferienhaus-burgtheater-2026",
@@ -225,14 +239,15 @@
     "category": "Theatre",
     "start": "2026-10-24",
     "time": "18:30",
-    "when": "18:30–22:30 · also Oct 28, Nov 8 · phone surtitles · €6–74",
     "venue": "Burgtheater",
     "description": "A modern family drama based on a classic play by Ibsen, set at a holiday house, on the main stage of Vienna’s national theatre.",
     "why": "One of the few evenings at the national theatre where you can follow along with surtitles on your phone.",
     "url": "https://www.burgtheater.at/veranstaltungen/das-ferienhaus/2026-10-24",
     "linkLabel": "Tickets",
     "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
-    "source": "burgtheater"
+    "source": "burgtheater",
+    "hours": "18:30–22:30",
+    "notes": "Also Oct 28, Nov 8 · Phone surtitles · €6–74"
    },
    {
     "id": "lorfeo-staatsoper-2026",
@@ -240,14 +255,15 @@
     "category": "Opera",
     "start": "2026-10-25",
     "time": "19:00",
-    "when": "19:00 · also Oct 28, 31, Nov 3",
     "venue": "Wiener Staatsoper",
     "description": "One of the very first operas ever written, from 1607: the myth of Orpheus, who goes down to the underworld to bring back his dead wife.",
     "why": "A chance to hear how opera began, in one of the world’s grandest opera houses.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/lorfeo/2026-10-25/",
     "linkLabel": "Dates and tickets",
     "language": "Sung in Italian. Subtitles not confirmed, check before booking",
-    "source": "staatsoper"
+    "source": "staatsoper",
+    "hours": "19:00",
+    "notes": "Also Oct 28, 31, Nov 3"
    },
    {
     "id": "krystian-zimerman-konzerthaus-2026",
@@ -255,14 +271,15 @@
     "category": "Classical",
     "start": "2026-10-25",
     "time": "19:30",
-    "when": "19:30 · main hall · €32–125 · last tickets",
     "venue": "Wiener Konzerthaus",
     "description": "A solo piano recital by one of the world’s most admired pianists, who plays few concerts and rarely records.",
     "why": "He tours very little, so this is a rare chance to hear him live. Only the last tickets are left.",
     "url": "https://konzerthaus.at/en/program-and-tickets/krystian-zimerman/63771",
     "linkLabel": "Tickets",
     "language": "No language needed",
-    "source": "konzerthaus-3"
+    "source": "konzerthaus-3",
+    "hours": "19:30",
+    "notes": "Main hall · €32–125 · Last tickets"
    },
    {
     "id": "otello-staatsoper-2026",
@@ -270,14 +287,15 @@
     "category": "Opera",
     "start": "2026-10-26",
     "time": "19:00",
-    "when": "19:00 · also Oct 29, Nov 2, 5, 8",
     "venue": "Wiener Staatsoper",
     "description": "Verdi’s opera of Shakespeare’s Othello, a story of jealousy and betrayal, with Jonas Kaufmann, one of the world’s best-known tenors, in the title role.",
     "why": "Kaufmann is listed for all five nights, and seats go fast, so book early.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/otello/2026-10-26/",
     "linkLabel": "Dates and tickets",
     "language": "Sung in Italian. Subtitles not confirmed, check before booking",
-    "source": "staatsoper"
+    "source": "staatsoper",
+    "hours": "19:00",
+    "notes": "Also Oct 29, Nov 2, 5, 8"
    },
    {
     "id": "nationalfeiertag-2026",
@@ -285,14 +303,15 @@
     "category": "Tradition",
     "start": "2026-10-26",
     "time": "",
-    "when": "Oct 26 · safety and rescue fair at City Hall Oct 25–26",
     "venue": "Heldenplatz",
     "description": "Austria’s national holiday. The army usually sets up displays on Heldenplatz, the big square by the old palace, and police and fire services show their work at City Hall.",
     "why": "This is how Viennese families spend the day, strolling among tanks and fire engines. Many shops close, so plan ahead.",
     "url": "https://diehelferwiens.wien.gv.at/wiener-sicherheitsfest",
     "linkLabel": "Sicherheitsfest",
     "language": "No language needed",
-    "source": "visitingvienna-oct"
+    "source": "visitingvienna-oct",
+    "hours": "",
+    "notes": "Safety and rescue fair at City Hall Oct 25–26"
    },
    {
     "id": "wir-sind-noch-einmal-davongekommen-burgtheater-2026",
@@ -300,14 +319,15 @@
     "category": "Theatre",
     "start": "2026-10-27",
     "time": "19:00",
-    "when": "19:00–22:00 · also Nov 9, 14 · phone surtitles · €5–72",
     "venue": "Burgtheater",
     "description": "Thornton Wilder’s The Skin of Our Teeth, an American comedy about one family that survives the ice age, a great flood and war, played in German.",
     "why": "A play many English speakers know, so it’s easy to follow, with surtitles on your phone.",
     "url": "https://www.burgtheater.at/veranstaltungen/wir-sind-noch-einmal-davongekommen/2026-10-27",
     "linkLabel": "Tickets",
     "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
-    "source": "burgtheater"
+    "source": "burgtheater",
+    "hours": "19:00–22:00",
+    "notes": "Also Nov 9, 14 · Phone surtitles · €5–72"
    },
    {
     "id": "die-letzten-tage-der-menschheit-burgtheater-2026",
@@ -315,14 +335,15 @@
     "category": "Theatre",
     "start": "2026-10-30",
     "time": "19:00",
-    "when": "19:00–22:15 · also Nov 2 · phone surtitles · €25 tickets Oct 30",
     "venue": "Burgtheater",
     "description": "A huge, biting satire of Vienna during the First World War, “The Last Days of Mankind”, written by the city’s most famous critic and long thought impossible to stage.",
     "why": "A big Viennese classic, made easier with phone surtitles, and some €25 tickets on Oct 30.",
     "url": "https://www.burgtheater.at/veranstaltungen/die-letzten-tage-der-menschheit/2026-10-30",
     "linkLabel": "Tickets",
     "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
-    "source": "burgtheater"
+    "source": "burgtheater",
+    "hours": "19:00–22:15",
+    "notes": "Also Nov 2 · Phone surtitles · €25 tickets Oct 30"
    },
    {
     "id": "wien-modern-2026",
@@ -331,14 +352,15 @@
     "start": "2026-10-30",
     "end": "2026-11-30",
     "time": "",
-    "when": "Oct 30–Nov 30 · opening concert Oct 30, 19:30, Konzerthaus, €35",
     "venue": "Various venues",
     "description": "A month of new and experimental music in concert halls, clubs and churches around the city. Expect anything from orchestras to sound installations.",
     "why": "A different side of musical Vienna, often in unusual places, with top orchestras and ensembles.",
     "url": "https://www.wienmodern.at/2026-calendar-en",
     "linkLabel": "Festival calendar",
     "language": "Mostly no language needed. Check talks and stage works before booking",
-    "source": "visitingvienna-nov"
+    "source": "visitingvienna-nov",
+    "hours": "",
+    "notes": "Opening concert Oct 30, 19:30, Konzerthaus, €35"
    },
    {
     "id": "jelinek-perspektiven-musikverein-2026",
@@ -347,14 +369,15 @@
     "start": "2026-10-31",
     "end": "2026-11-04",
     "time": "",
-    "when": "Oct 31–Nov 4 · actors’ reading Nov 4, 20:15",
     "venue": "Musikverein",
     "description": "Five days of concerts, readings, films and talks about Elfriede Jelinek, the Austrian novelist who won the Nobel Prize, plus a sound and video installation.",
     "why": "On Nov 4, two of Austria’s best-loved actors read on stage.",
     "url": "https://musikverein.at/konzert/?id=0012d3c3",
     "linkLabel": "Programme",
     "language": "Language not confirmed, check before booking",
-    "source": "musikverein-nov"
+    "source": "musikverein-nov",
+    "hours": "",
+    "notes": "Actors’ reading Nov 4, 20:15"
    },
    {
     "id": "schlondorff-talk-viennale-2026",
@@ -362,14 +385,15 @@
     "category": "Talk",
     "start": "2026-11-01",
     "time": "16:00",
-    "when": "16:00 · festival centre in the old radio building",
     "venue": "Funkhaus Wien",
     "description": "A talk with Volker Schlöndorff, the German director of The Tin Drum, a 1979 film that won both the top prize at Cannes and an Oscar.",
     "why": "A chance to hear a key figure of German film in person.",
     "url": "https://www.viennale.at/en/event/talk-volker-schlondorff",
     "linkLabel": "Event page",
     "language": "Language not confirmed, check before booking",
-    "source": "viennale"
+    "source": "viennale",
+    "hours": "16:00",
+    "notes": "Festival centre in the old radio building"
    },
    {
     "id": "fille-du-regiment-staatsoper-2026",
@@ -377,14 +401,15 @@
     "category": "Opera",
     "start": "2026-11-01",
     "time": "19:00",
-    "when": "19:00 · also Nov 4, 7, 10, 13",
     "venue": "Wiener Staatsoper",
     "description": "A comic opera about a girl raised by a regiment of soldiers. It’s short, funny and a gentle first opera.",
     "why": "A light evening if you’ve never been to an opera, and an easy break from the heavier works this month.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/la-fille-du-regiment/2026-11-01/",
     "linkLabel": "Dates and tickets",
     "language": "Sung in French. Subtitles not confirmed, check before booking",
-    "source": "staatsoper-nov"
+    "source": "staatsoper-nov",
+    "hours": "19:00",
+    "notes": "Also Nov 4, 7, 10, 13"
    },
    {
     "id": "molden-nino-konzerthaus-2026",
@@ -392,14 +417,15 @@
     "category": "Concert",
     "start": "2026-11-02",
     "time": "19:30",
-    "when": "19:30 · smaller hall · €29–83",
     "venue": "Wiener Konzerthaus",
     "description": "Two Viennese songwriters, one older and one younger, singing their own songs about Austria in the local dialect, in the tradition of the Wienerlied (Viennese song).",
     "why": "Music that locals actually listen to, in a proper concert hall.",
     "url": "https://konzerthaus.at/en/program-and-tickets/ernst-molden-der-nino-aus-wien/64115",
     "linkLabel": "Tickets",
     "language": "Sung in Viennese dialect",
-    "source": "konzerthaus-4"
+    "source": "konzerthaus-4",
+    "hours": "19:30",
+    "notes": "Smaller hall · €29–83"
    },
    {
     "id": "weihnachtsmarkt-schoenbrunn-2026",
@@ -408,14 +434,15 @@
     "start": "2026-11-06",
     "end": "2027-01-06",
     "time": "10:00",
-    "when": "Daily 10:00–21:00 · opens Nov 6",
     "venue": "Schloss Schönbrunn",
     "description": "A Christmas market in front of Schönbrunn, the emperors’ summer palace, and one of the first in the city to open.",
     "why": "Opens before most other markets, so you get the mulled wine and the palace view without the December crowds.",
     "url": "https://www.weihnachtsmarkt-schoenbrunn.at/",
     "linkLabel": "Market website",
     "language": "No language needed",
-    "source": "wieninfo-christmas"
+    "source": "wieninfo-christmas",
+    "hours": "Daily 10:00–21:00",
+    "notes": "Opens Nov 6"
    },
    {
     "id": "blickfang-mak-2026",
@@ -424,14 +451,15 @@
     "start": "2026-11-06",
     "end": "2026-11-08",
     "time": "12:00",
-    "when": "Fri 12:00–20:00, Sat 10:00–19:00, Sun 10:00–18:00",
     "venue": "MAK",
     "description": "A design fair where about 160 selected designers sell their own furniture, lamps, clothes and jewellery, at the museum of design and decorative arts.",
     "why": "You can buy straight from the people who made it, and chat with them while you do.",
     "url": "http://www.blickfang.com/",
     "linkLabel": "Fair website",
     "language": "No language needed",
-    "source": "wieninfo-design-fairs"
+    "source": "wieninfo-design-fairs",
+    "hours": "Fri 12:00–20:00, Sat 10:00–19:00, Sun 10:00–18:00",
+    "notes": ""
    },
    {
     "id": "bill-frisell-porgy-2026",
@@ -439,14 +467,15 @@
     "category": "Jazz",
     "start": "2026-11-06",
     "time": "20:30",
-    "when": "20:30 · also livestreamed",
     "venue": "Porgy & Bess",
     "description": "A trio led by an American jazz guitarist who blends jazz with country and folk. Warm, melodic music, mostly without words.",
     "why": "A guitarist who usually plays much bigger halls, in Vienna’s main jazz club.",
     "url": "https://www.porgy.at/events/13266/",
     "linkLabel": "Event page",
     "language": "No language needed",
-    "source": "porgy"
+    "source": "porgy",
+    "hours": "20:30",
+    "notes": "Also livestreamed"
    },
    {
     "id": "franz-west-albertina-modern-2026",
@@ -454,14 +483,15 @@
     "category": "Exhibition",
     "start": "2026-11-06",
     "time": "",
-    "when": "Opens Nov 6",
     "venue": "Albertina Modern",
     "description": "A big show of a Viennese artist known for lumpy, odd sculptures you were often allowed to sit on or handle, at the modern branch of the Albertina museum.",
     "why": "The autumn’s big exhibition on one of Vienna’s own artists, opening this week.",
     "url": "https://www.albertina.at/en/albertina-modern/exhibitions/franz-west/",
     "linkLabel": "Exhibition page",
     "language": "No language needed",
-    "source": "albertina"
+    "source": "albertina",
+    "hours": "",
+    "notes": ""
    },
    {
     "id": "imperial-lights-schoenbrunn-2026",
@@ -470,14 +500,15 @@
     "start": "2026-11-06",
     "end": "2027-01-06",
     "time": "",
-    "when": "Nov 6–Jan 6",
     "venue": "Schlosspark Schönbrunn",
     "description": "A walk-through light show in the gardens of Schönbrunn Palace, with lit-up figures and decorations in the style of the palace.",
     "why": "Easy to combine with the palace Christmas market on the same evening.",
     "url": "https://imperial-lights.at/en/",
     "linkLabel": "Tickets",
     "language": "No language needed",
-    "source": "wieninfo-now"
+    "source": "wieninfo-now",
+    "hours": "",
+    "notes": ""
    },
    {
     "id": "vienna-art-week-2026",
@@ -486,14 +517,15 @@
     "start": "2026-11-06",
     "end": "2026-11-13",
     "time": "",
-    "when": "Nov 6–13 · free admission",
     "venue": "Various venues",
     "description": "A week of free tours, talks, open studios and exhibitions with around 70 museums, galleries and art schools across the city.",
     "why": "It’s free, and the open studio days get you into artists’ workspaces you couldn’t otherwise see.",
     "url": "https://www.viennaartweek.at/en/vienna-art-week-2026/program-2026/",
     "linkLabel": "Programme",
     "language": "Language not confirmed, check before booking",
-    "source": "vienna-art-week"
+    "source": "vienna-art-week",
+    "hours": "",
+    "notes": "Free admission"
    },
    {
     "id": "hotel-savoy-burgtheater-2026",
@@ -501,14 +533,15 @@
     "category": "Theatre",
     "start": "2026-11-07",
     "time": "19:30",
-    "when": "Premiere 19:30",
     "venue": "Burgtheater",
     "description": "A stage version of a 1924 novel about a soldier coming home from the war to a grand hotel, told with a live band that mixes brass music and old songs.",
     "why": "Lots of live music, so the evening still works if your German is patchy. This is the opening night.",
     "url": "https://www.burgtheater.at/veranstaltungen/hotel-savoy/2026-11-07",
     "linkLabel": "Tickets",
     "language": "In German, no surtitles listed",
-    "source": "burgtheater-nov"
+    "source": "burgtheater-nov",
+    "hours": "19:30",
+    "notes": "Premiere"
    },
    {
     "id": "lise-davidsen-recital-musikverein-2026",
@@ -516,14 +549,15 @@
     "category": "Classical",
     "start": "2026-11-07",
     "time": "19:30",
-    "when": "19:30–21:30 · main hall",
     "venue": "Musikverein",
     "description": "Lise Davidsen, one of today’s most talked-about opera singers, sings Schubert’s songs with piano, in Vienna’s grand concert hall.",
     "why": "A huge opera voice in an intimate set of songs, in the city where Schubert wrote them.",
     "url": "https://musikverein.at/konzert/?id=0006accc",
     "linkLabel": "Concert page",
     "language": "Language not confirmed, check before booking",
-    "source": "musikverein-nov"
+    "source": "musikverein-nov",
+    "hours": "19:30–21:30",
+    "notes": "Main hall"
    },
    {
     "id": "simon-keenlyside-recital-2026",
@@ -531,14 +565,15 @@
     "category": "Classical",
     "start": "2026-11-12",
     "time": "20:00",
-    "when": "20:00–22:00 · one night only",
     "venue": "Wiener Staatsoper",
     "description": "An English baritone sings an evening of songs with piano, on the main stage of the State Opera.",
     "why": "A rare quiet evening of songs inside the grand opera house.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/recital/2026-11-12/",
     "linkLabel": "Tickets",
     "language": "Language not confirmed, check before booking",
-    "source": "staatsoper-nov"
+    "source": "staatsoper-nov",
+    "hours": "20:00–22:00",
+    "notes": "One night only"
    },
    {
     "id": "art-antique-hofburg-2026",
@@ -547,14 +582,15 @@
     "start": "2026-11-12",
     "end": "2026-11-16",
     "time": "",
-    "when": "Nov 12–16",
     "venue": "Hofburg",
     "description": "An art and antiques fair with dealers from Austria and abroad, from ancient objects to modern design, inside the old imperial palace.",
     "why": "A chance to browse old Viennese furniture and design in the palace’s grand halls, whether or not you buy.",
     "url": "http://www.artantique-hofburg.at/",
     "linkLabel": "Fair website",
     "language": "No language needed",
-    "source": "wieninfo-fall-culture"
+    "source": "wieninfo-fall-culture",
+    "hours": "",
+    "notes": ""
    },
    {
     "id": "christkindlmarkt-rathausplatz-2026",
@@ -563,14 +599,15 @@
     "start": "2026-11-13",
     "end": "2026-12-26",
     "time": "10:00",
-    "when": "Daily 10:00–22:00 · ice rink Nov 13–Jan 6",
     "venue": "Rathausplatz",
     "description": "The city’s biggest Christmas market, in front of the City Hall, with skating paths winding through the park beside it.",
     "why": "Go in the first week, before the coach tours arrive.",
     "url": "https://www.christkindlmarkt.at/",
     "linkLabel": "Market website",
     "language": "No language needed",
-    "source": "wieninfo-christmas"
+    "source": "wieninfo-christmas",
+    "hours": "Daily 10:00–22:00",
+    "notes": "Ice rink Nov 13–Jan 6"
    },
    {
     "id": "altwiener-christkindlmarkt-freyung-2026",
@@ -579,14 +616,15 @@
     "start": "2026-11-14",
     "end": "2026-12-23",
     "time": "10:00",
-    "when": "Daily 10:00–21:00 · live music from 16:00",
     "venue": "Freyung",
     "description": "A traditional Christmas market on an old square in the centre, selling handmade crafts, glass ornaments, nativity figures and pottery.",
     "why": "The old-fashioned choice in the city centre, with live Christmas music in the late afternoons.",
     "url": "http://www.altwiener-markt.at/",
     "linkLabel": "Market website",
     "language": "No language needed",
-    "source": "wieninfo-christmas"
+    "source": "wieninfo-christmas",
+    "hours": "Daily 10:00–21:00",
+    "notes": "Live music from 16:00"
    },
    {
     "id": "kunst-design-markt-ottakringer-2026",
@@ -595,14 +633,15 @@
     "start": "2026-11-14",
     "end": "2026-11-15",
     "time": "",
-    "when": "Nov 14–15",
     "venue": "Ottakringer Brauerei",
     "description": "A market of small local designers and makers selling clothes, jewellery, homeware, chocolate and more, inside a working brewery.",
     "why": "Early Christmas shopping from local makers, in one of Vienna’s last big breweries.",
     "url": "https://kunst-designmarkt.at/",
     "linkLabel": "Market website",
     "language": "No language needed",
-    "source": "visitingvienna-nov"
+    "source": "visitingvienna-nov",
+    "hours": "",
+    "notes": ""
    }
   ]
  }

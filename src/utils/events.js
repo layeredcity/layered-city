@@ -63,3 +63,13 @@ export function eventDateBadge(e) {
   }
   return { top: DAYS[d.getDay()], main: d.getDate(), bottom: MONTHS[d.getMonth()] }
 }
+
+// The date line in an event's metadata: "Tue 20 Oct", "22 Oct – 3 Nov", or
+// "Until 26 Oct" for a run that has already started.
+export function eventDateText(e) {
+  const t = today()
+  const fmt = s => { const d = parse(s); return `${d.getDate()} ${MONTHS[d.getMonth()]}` }
+  if (isOngoing(e, t)) return `Until ${fmt(e.end)}`
+  if (e.end && e.end !== e.start) return `${fmt(e.start)} – ${fmt(e.end)}`
+  return `${DAYS[parse(e.start).getDay()]} ${fmt(e.start)}`
+}

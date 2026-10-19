@@ -49,7 +49,7 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
     Heuriger, ball season);
   - talks, design fairs and free things.
 - **One-off events beat long runs.** For opera and theatre, list a production
-  once, on its next date, and give the other dates in `when`.
+  once, on its next date, and give the other dates in `notes`.
 - **Long runs:** an exhibition, festival or market lasting longer than the
   window is one entry with `start` and `end`. The app shows it under "On now".
 
@@ -69,7 +69,8 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
         "start": "2026-10-22",
         "end": "2026-11-03",
         "time": "",
-        "when": "Oct 22–Nov 3 · Gartenbaukino, Stadtkino and others",
+        "hours": "",
+        "notes": "Opening film Oct 22, 21:30 · screenings in cinemas across the city",
         "venue": "Gartenbaukino",
         "description": "…",
         "why": "…",
@@ -90,8 +91,12 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
 - **Dates:**
   - `start` and `end` are `YYYY-MM-DD`; leave `end` out for a single date.
   - `time` is `"HH:MM"` (24h), or empty.
-- **`when`:** a short human line: time, other dates, price or the standing-place
-  tip. Keep it under 70 characters.
+- **`hours`:** the time or opening hours only, such as "19:30", "19:00–22:15",
+  "Daily 10:00–21:00" or "Doors 19:00". Leave it empty if the source gives no time.
+  Never repeat the date here: the app shows the date from `start`/`end`.
+- **`notes`:** short extras joined with " · ", such as "Also Oct 22, 25", "Last
+  chance", "Standing places from €15" or "Main hall". Don't repeat the date,
+  time, venue or language. Keep it under 70 characters, or leave it empty.
 - **`venue`:** the plain name a map search will find, such as "Musikverein" or
   "Wiener Staatsoper".
 - **`description`:** at most 220 characters. Say what it is, naming the work,

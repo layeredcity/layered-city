@@ -9,7 +9,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
-import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge } from './utils/events'
+import { upcomingEvents, eventsUpdated, groupEvents, eventDateText } from './utils/events'
 import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
 // Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
@@ -398,22 +398,18 @@ function WordsPanel({ city, words }) {
 }
 
 function EventItem({ event, cityName }) {
-  const badge = eventDateBadge(event)
   return (
     <div className="event-item">
-      <div className={'event-item__date' + (badge.range ? ' event-item__date--range' : '')}>
-        <span className="event-item__date-top">{badge.top}</span>
-        <span className="event-item__date-main">{badge.main}</span>
-        {badge.bottom && <span className="event-item__date-bottom">{badge.bottom}</span>}
-      </div>
       <div className="event-item__body">
-        <div className="event-item__meta">
-          <span className="event-item__cat">{event.category}</span>
-          {event.venue && <span className="event-item__venue">{event.venue}</span>}
-        </div>
+        <div className="event-item__cat">{event.category}</div>
         <div className="event-item__title">{event.title}</div>
-        {event.when && <div className="event-item__when">{event.when}</div>}
-        {event.language && <div className="event-item__lang">{event.language}</div>}
+        <div className="event-item__facts">
+          {event.venue && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.place}</span><span>{event.venue}</span></div>}
+          <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.year}</span><span>{eventDateText(event)}</span></div>
+          {event.hours && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.duration}</span><span>{event.hours}</span></div>}
+          {event.language && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.language}</span><span>{event.language}</span></div>}
+        </div>
+        {event.notes && <div className="event-item__notes">{event.notes}</div>}
         <div className="event-item__label">What is it?</div>
         <div className="event-item__desc">{event.description}</div>
         {event.why && (
@@ -768,6 +764,7 @@ function TourRating({ story, compact }) {
 
 // Small filled icons for the modal's metadata block (Streamline: Tabler / Core).
 const META_ICONS = {
+  language: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 3a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-4.724l-4.762 2.857a1 1 0 0 1 -1.508 -0.743l-0.006 -0.114v-2h-1a4 4 0 0 1 -3.995 -3.8l-0.005 -0.2v-8a4 4 0 0 1 4 -4z"/></svg>,
   place: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.364 4.636a9 9 0 0 1 0.203 12.519l-0.203 0.21 -4.243 4.242a3 3 0 0 1 -4.097 0.135l-0.144 -0.135 -4.244 -4.243A9 9 0 0 1 18.364 4.636zM12 8a3 3 0 1 0 0 6 3 3 0 0 0 0 -6z"/></svg>,
   duration: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17 3.34A10 10 0 1 1 2 12l0.005 -0.324A10 10 0 0 1 17 3.34M11 7v5.022l0.003 0.054 0.02 0.135 0.005 0.025a1 1 0 0 0 0.056 0.165l0.04 0.082 0.062 0.099 0.07 0.087 0.075 0.074 0.094 0.075 0.08 0.052 0.07 0.035 0.132 0.051 0.135 0.031 0.082 0.01 0.124 0.002 0.113 -0.012 0.108 -0.024 0.106 -0.036 0.108 -0.051 0.065 -0.04 3.007 -2.004a1 1 0 1 0 -1.11 -1.664L13 10.13V7a1 1 0 0 0 -0.883 -0.993L12 6a1 1 0 0 0 -1 1"/></svg>,
   price: <svg viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" clipRule="evenodd" d="M14 7A7 7 0 1 1 0 7a7 7 0 0 1 14 0ZM7.75 3.25a0.75 0.75 0 0 0 -1.5 0v0.51a1.866 1.866 0 0 0 -0.2 3.678l1.474 0.323a0.5 0.5 0 0 1 -0.107 0.989h-0.834a0.5 0.5 0 0 1 -0.471 -0.333 0.75 0.75 0 0 0 -1.415 0.5c0.239 0.674 0.83 1.184 1.553 1.305v0.528a0.75 0.75 0 0 0 1.5 0v-0.528a2.001 2.001 0 0 0 0.094 -3.927l-1.473 -0.322a0.366 0.366 0 0 1 0.078 -0.723h0.968a0.497 0.497 0 0 1 0.471 0.333 0.75 0.75 0 1 0 1.415 -0.5A2 2 0 0 0 7.75 3.778V3.25Z"/></svg>,
