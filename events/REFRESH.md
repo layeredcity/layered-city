@@ -103,9 +103,11 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
   not "29 Oct". Leave it empty if there's nothing beyond the date itself.
 - **`venueNote`:** optional words that follow the venue on the pin line, in lower
   case, such as "main hall" or "festival centre in the old radio building".
+- **`price`:** what it costs, as the source gives it, such as "€32–125", "Free",
+  "€6–74 · standing places from €5" or "Free on Sun Oct 25". Leave it empty if
+  the source doesn't say. Never guess a price.
 - **`notes`:** anything else that's short and useful, joined with " · ", such as
-  prices, "Standing places from €15", "Free entry Sun Oct 25" or "Also
-  livestreamed". Don't repeat the date, time, venue or language. Keep it under 70
+  "Phone surtitles", "Last tickets" or "Also livestreamed". Don't repeat the date, time, venue or language. Keep it under 70
   characters, or leave it empty.
 - **`venue`:** the plain name a map search will find, such as "Musikverein" or
   "Wiener Staatsoper".

@@ -414,6 +414,7 @@ function EventItem({ event, cityName }) {
           {event.venue && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.place}</span><span>{event.venue}{event.venueNote ? `, ${event.venueNote}` : ''}</span></div>}
           {dateLine && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.year}</span><span>{dateLine}</span></div>}
           {event.hours && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.duration}</span><span>{event.hours}</span></div>}
+          {event.price && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.price}</span><span>{event.price}</span></div>}
           {event.language && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.language}</span><span>{event.language}</span></div>}
         </div>
         {event.notes && <div className="event-item__notes">{event.notes}</div>}
