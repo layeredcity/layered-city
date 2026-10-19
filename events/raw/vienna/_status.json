@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-19T04:55:03.476Z",
+ "fetched": "2026-10-19T04:57:46.460Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -80,9 +80,9 @@
   },
   "wien-modern": {
    "url": "https://www.wienmodern.at/2026-calendar-en",
-   "final": "https://www.wienmodern.at/2026-calendar-en",
-   "http": 500,
-   "chars": 140,
+   "final": "https://www.wienmodern.at/calendar-en",
+   "http": 200,
+   "chars": 160644,
    "jsonLdEvents": 0
   },
   "vienna-art-week": {
