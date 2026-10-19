@@ -414,8 +414,14 @@ function EventItem({ event, cityName }) {
         <div className="event-item__title">{event.title}</div>
         {event.when && <div className="event-item__when">{event.when}</div>}
         {event.language && <div className="event-item__lang">{event.language}</div>}
+        <div className="event-item__label">What is it?</div>
         <div className="event-item__desc">{event.description}</div>
-        {event.why && <div className="event-item__why">{event.why}</div>}
+        {event.why && (
+          <>
+            <div className="event-item__label">Why go?</div>
+            <div className="event-item__why">{event.why}</div>
+          </>
+        )}
         <div className="event-item__links">
           {event.url && (
             <a className="food-item__map" href={event.url} target="_blank" rel="noreferrer">
