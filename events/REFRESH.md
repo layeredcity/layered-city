@@ -86,6 +86,14 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
 ```
 
 - **`id`:** a stable slug. Keep the same id for the same event across refreshes.
+- **`title`:** the event's title as the venue gives it, in the original
+  language.
+- **`titleEnglish`:** an English title for any title that isn't already English,
+  such as "The Flying Dutchman" for Der fliegende Holländer or "Austrian National
+  Day" for Nationalfeiertag. Use the established English title of a work when one
+  exists (Wilder's Wir sind noch einmal davongekommen is The Skin of Our Teeth).
+  The app shows it first, with the original in brackets underneath. Leave it out
+  when the title is already English or is a name (Otello, Hotel Savoy).
 - **`category`:** one of Opera, Ballet, Classical, Jazz, Concert, Theatre, Dance,
   Film, Exhibition, Festival, Market, Food & drink, Tradition, Talk, Design, Sport,
   Free.

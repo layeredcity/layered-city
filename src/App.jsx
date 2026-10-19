@@ -409,7 +409,12 @@ function EventItem({ event, cityName }) {
       </div>
       <div className="event-item__body">
         <div className="event-item__cat">{event.category}</div>
-        <div className="event-item__title">{event.title}</div>
+        {/* As with Food: English leads where the original title is foreign, and
+            the original follows, since that is what the poster and ticket say. */}
+        <div className="event-item__title">
+          {event.titleEnglish || event.title}
+          {event.titleEnglish && <span className="food-item__name-local">({event.title})</span>}
+        </div>
         <div className="event-item__facts">
           {event.venue && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.place}</span><span>{event.venue}{event.venueNote ? `, ${event.venueNote}` : ''}</span></div>}
           {dateLine && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.year}</span><span>{dateLine}</span></div>}

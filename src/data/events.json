@@ -18,7 +18,8 @@
     "source": "kunsthalle",
     "hours": "",
     "dateNote": "Last chance! Closes on Oct 26",
-    "price": "Free on Sun Oct 25"
+    "price": "Free on Sun Oct 25",
+    "titleEnglish": "Lives and Works in Vienna"
    },
    {
     "id": "tolia-astakhishvili-mumok-2026",
@@ -107,7 +108,8 @@
     "source": "theater-an-der-wien",
     "hours": "19:00",
     "dateNote": "Also Oct 22, 25, 28, 30",
-    "price": ""
+    "price": "",
+    "titleEnglish": "The Flying Dutchman"
    },
    {
     "id": "fink-arena-2026",
@@ -159,7 +161,8 @@
     "source": "volksoper",
     "hours": "19:00–22:15",
     "dateNote": "Also Oct 25",
-    "price": ""
+    "price": "",
+    "titleEnglish": "The Bat"
    },
    {
     "id": "hercules-taw-2026",
@@ -263,7 +266,8 @@
     "source": "burgtheater",
     "hours": "18:30–22:30",
     "dateNote": "Also Oct 28, Nov 8",
-    "price": "€6–74"
+    "price": "€6–74",
+    "titleEnglish": "The Holiday Home"
    },
    {
     "id": "lorfeo-staatsoper-2026",
@@ -280,7 +284,8 @@
     "source": "staatsoper",
     "hours": "19:00",
     "dateNote": "Also Oct 28, 31, Nov 3",
-    "price": ""
+    "price": "",
+    "titleEnglish": "Orpheus"
    },
    {
     "id": "krystian-zimerman-konzerthaus-2026",
@@ -332,7 +337,8 @@
     "source": "visitingvienna-oct",
     "hours": "",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "titleEnglish": "Austrian National Day"
    },
    {
     "id": "wir-sind-noch-einmal-davongekommen-burgtheater-2026",
@@ -349,7 +355,8 @@
     "source": "burgtheater",
     "hours": "19:00–22:00",
     "dateNote": "Also Nov 9, 14",
-    "price": "€5–72"
+    "price": "€5–72",
+    "titleEnglish": "The Skin of Our Teeth"
    },
    {
     "id": "die-letzten-tage-der-menschheit-burgtheater-2026",
@@ -366,7 +373,8 @@
     "source": "burgtheater",
     "hours": "19:00–22:15",
     "dateNote": "Also Nov 2",
-    "price": "€25 seats on Oct 30"
+    "price": "€25 seats on Oct 30",
+    "titleEnglish": "The Last Days of Mankind"
    },
    {
     "id": "wien-modern-2026",
@@ -402,7 +410,8 @@
     "source": "musikverein-nov",
     "hours": "",
     "dateNote": "Actors’ reading Nov 4 at 20:15",
-    "price": ""
+    "price": "",
+    "titleEnglish": "Musikverein Perspectives: Elfriede Jelinek"
    },
    {
     "id": "schlondorff-talk-viennale-2026",
@@ -437,7 +446,8 @@
     "source": "staatsoper-nov",
     "hours": "19:00",
     "dateNote": "Also Nov 4, 7, 10, 13",
-    "price": ""
+    "price": "",
+    "titleEnglish": "The Daughter of the Regiment"
    },
    {
     "id": "molden-nino-konzerthaus-2026",
@@ -685,7 +695,8 @@
     "source": "visitingvienna-nov",
     "hours": "",
     "dateNote": "",
-    "price": ""
+    "price": "",
+    "titleEnglish": "Art & Design Market"
    }
   ]
  }
