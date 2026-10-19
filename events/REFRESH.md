@@ -49,7 +49,7 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
     Heuriger, ball season);
   - talks, design fairs and free things.
 - **One-off events beat long runs.** For opera and theatre, list a production
-  once, on its next date, and give the other dates in `notes`.
+  once, on its next date, and give the other dates in `dateNote`.
 - **Long runs:** an exhibition, festival or market lasting longer than the
   window is one entry with `start` and `end`. The app shows it under "On now".
 
@@ -70,7 +70,9 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
         "end": "2026-11-03",
         "time": "",
         "hours": "",
-        "notes": "Opening film Oct 22, 21:30 · screenings in cinemas across the city",
+        "dateNote": "Opening film Oct 22, 21:30",
+        "venueNote": "",
+        "notes": "Screenings in cinemas across the city",
         "venue": "Gartenbaukino",
         "description": "…",
         "why": "…",
@@ -94,9 +96,17 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
 - **`hours`:** the time or opening hours only, such as "19:30", "19:00–22:15",
   "Daily 10:00–21:00" or "Doors 19:00". Leave it empty if the source gives no time.
   Never repeat the date here: the app shows the date from `start`/`end`.
-- **`notes`:** short extras joined with " · ", such as "Also Oct 22, 25", "Last
-  chance", "Standing places from €15" or "Main hall". Don't repeat the date,
-  time, venue or language. Keep it under 70 characters, or leave it empty.
+- **`dateNote`:** extra date information, shown next to the calendar icon beside
+  the date box. Examples: "Also Oct 22, 25, 28, 30", "Last chance! Closes on Oct 29"
+  (for anything closing within the window), "Premiere", "One night only",
+  "Opens Nov 6", "Next Oct 24". Join several with " · ". Write dates as "Oct 29",
+  not "29 Oct". Leave it empty if there's nothing beyond the date itself.
+- **`venueNote`:** optional words that follow the venue on the pin line, in lower
+  case, such as "main hall" or "festival centre in the old radio building".
+- **`notes`:** anything else that's short and useful, joined with " · ", such as
+  prices, "Standing places from €15", "Free entry Sun Oct 25" or "Also
+  livestreamed". Don't repeat the date, time, venue or language. Keep it under 70
+  characters, or leave it empty.
 - **`venue`:** the plain name a map search will find, such as "Musikverein" or
   "Wiener Staatsoper".
 - **`description`:** at most 220 characters. Say what it is, naming the work,

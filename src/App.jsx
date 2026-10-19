@@ -9,7 +9,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
-import { upcomingEvents, eventsUpdated, groupEvents, eventDateText } from './utils/events'
+import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge, eventDateText } from './utils/events'
 import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
 // Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
@@ -398,14 +398,21 @@ function WordsPanel({ city, words }) {
 }
 
 function EventItem({ event, cityName }) {
+  const badge = eventDateBadge(event)
+  const dateLine = eventDateText(event)
   return (
     <div className="event-item">
+      <div className={'event-item__date' + (badge.range ? ' event-item__date--range' : '')}>
+        <span className="event-item__date-top">{badge.top}</span>
+        <span className="event-item__date-main">{badge.main}</span>
+        {badge.bottom && <span className="event-item__date-bottom">{badge.bottom}</span>}
+      </div>
       <div className="event-item__body">
         <div className="event-item__cat">{event.category}</div>
         <div className="event-item__title">{event.title}</div>
         <div className="event-item__facts">
-          {event.venue && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.place}</span><span>{event.venue}</span></div>}
-          <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.year}</span><span>{eventDateText(event)}</span></div>
+          {event.venue && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.place}</span><span>{event.venue}{event.venueNote ? `, ${event.venueNote}` : ''}</span></div>}
+          {dateLine && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.year}</span><span>{dateLine}</span></div>}
           {event.hours && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.duration}</span><span>{event.hours}</span></div>}
           {event.language && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.language}</span><span>{event.language}</span></div>}
         </div>

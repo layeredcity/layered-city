@@ -17,7 +17,8 @@
     "language": "No language needed",
     "source": "kunsthalle",
     "hours": "",
-    "notes": "Last chance · Free entry Sun Oct 25, 10:00–18:00"
+    "notes": "Free entry Sun Oct 25, 10:00–18:00",
+    "dateNote": "Last chance! Closes on Oct 26"
    },
    {
     "id": "tolia-astakhishvili-mumok-2026",
@@ -34,7 +35,8 @@
     "language": "No language needed",
     "source": "mumok",
     "hours": "",
-    "notes": "Last chance"
+    "notes": "",
+    "dateNote": "Last chance! Closes on Nov 1"
    },
    {
     "id": "bernhard-leitner-secession-2026",
@@ -51,7 +53,8 @@
     "language": "No language needed",
     "source": "secession",
     "hours": "",
-    "notes": "Two other artists shown alongside"
+    "notes": "Two other artists shown alongside",
+    "dateNote": ""
    },
    {
     "id": "erika-giovanna-klien-belvedere-2026",
@@ -68,7 +71,8 @@
     "language": "No language needed",
     "source": "belvedere",
     "hours": "",
-    "notes": ""
+    "notes": "",
+    "dateNote": ""
    },
    {
     "id": "design-week-posters-mak-2026",
@@ -85,7 +89,8 @@
     "language": "No language needed",
     "source": "mak",
     "hours": "",
-    "notes": "Last chance"
+    "notes": "",
+    "dateNote": "Last chance! Closes on Nov 1"
    },
    {
     "id": "fliegende-hollaender-taw-2026",
@@ -101,7 +106,8 @@
     "language": "Sung in German. Subtitles not confirmed, check before booking",
     "source": "theater-an-der-wien",
     "hours": "19:00",
-    "notes": "Also Oct 22, 25, 28, 30"
+    "notes": "",
+    "dateNote": "Also Oct 22, 25, 28, 30"
    },
    {
     "id": "fink-arena-2026",
@@ -117,7 +123,9 @@
     "language": "In English",
     "source": "arena",
     "hours": "Doors 19:00",
-    "notes": "Main hall"
+    "notes": "",
+    "dateNote": "",
+    "venueNote": "main hall"
    },
    {
     "id": "nijinsky-staatsoper-2026",
@@ -133,7 +141,8 @@
     "language": "No language needed",
     "source": "staatsoper",
     "hours": "19:00",
-    "notes": "Premiere · Also Oct 22, 24, 27, 30, Nov 6, 9"
+    "notes": "",
+    "dateNote": "Premiere · Also Oct 22, 24, 27, 30, Nov 6, 9"
    },
    {
     "id": "fledermaus-volksoper-2026",
@@ -149,7 +158,8 @@
     "language": "In German with English surtitles",
     "source": "volksoper",
     "hours": "19:00–22:15",
-    "notes": "Also Oct 25 · German and English surtitles"
+    "notes": "German and English surtitles",
+    "dateNote": "Also Oct 25"
    },
    {
     "id": "hercules-taw-2026",
@@ -165,7 +175,8 @@
     "language": "Sung in English",
     "source": "theater-an-der-wien",
     "hours": "19:00",
-    "notes": "One night only"
+    "notes": "",
+    "dateNote": "One night only"
    },
    {
     "id": "new-york-phil-dudamel-musikverein-2026",
@@ -181,7 +192,8 @@
     "language": "No language needed",
     "source": "musikverein",
     "hours": "19:30",
-    "notes": "Mahler on Oct 21 · Different programme Oct 22"
+    "notes": "",
+    "dateNote": "Mahler on Oct 21 · Different programme Oct 22"
    },
    {
     "id": "viennale-2026",
@@ -198,7 +210,8 @@
     "language": "Language not confirmed, check before booking",
     "source": "viennale",
     "hours": "",
-    "notes": "Opening film Oct 22, 21:30, Gartenbaukino"
+    "notes": "",
+    "dateNote": "Opening film Oct 22, 21:30, Gartenbaukino"
    },
    {
     "id": "aldrich-retrospective-filmmuseum-2026",
@@ -215,7 +228,8 @@
     "language": "Original language, subtitled if needed. Intro language not confirmed",
     "source": "filmmuseum",
     "hours": "18:30",
-    "notes": "Most screenings introduced live"
+    "notes": "Most screenings introduced live",
+    "dateNote": ""
    },
    {
     "id": "mak-vienna-1900-english-tour-2026",
@@ -231,7 +245,8 @@
     "language": "In English",
     "source": "mak-events",
     "hours": "Every Sat 15:00",
-    "notes": "Next Oct 24"
+    "notes": "",
+    "dateNote": "Next Oct 24"
    },
    {
     "id": "das-ferienhaus-burgtheater-2026",
@@ -247,7 +262,8 @@
     "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
     "source": "burgtheater",
     "hours": "18:30–22:30",
-    "notes": "Also Oct 28, Nov 8 · Phone surtitles · €6–74"
+    "notes": "Phone surtitles · €6–74",
+    "dateNote": "Also Oct 28, Nov 8"
    },
    {
     "id": "lorfeo-staatsoper-2026",
@@ -263,7 +279,8 @@
     "language": "Sung in Italian. Subtitles not confirmed, check before booking",
     "source": "staatsoper",
     "hours": "19:00",
-    "notes": "Also Oct 28, 31, Nov 3"
+    "notes": "",
+    "dateNote": "Also Oct 28, 31, Nov 3"
    },
    {
     "id": "krystian-zimerman-konzerthaus-2026",
@@ -279,7 +296,9 @@
     "language": "No language needed",
     "source": "konzerthaus-3",
     "hours": "19:30",
-    "notes": "Main hall · €32–125 · Last tickets"
+    "notes": "€32–125 · Last tickets",
+    "dateNote": "",
+    "venueNote": "main hall"
    },
    {
     "id": "otello-staatsoper-2026",
@@ -295,7 +314,8 @@
     "language": "Sung in Italian. Subtitles not confirmed, check before booking",
     "source": "staatsoper",
     "hours": "19:00",
-    "notes": "Also Oct 29, Nov 2, 5, 8"
+    "notes": "",
+    "dateNote": "Also Oct 29, Nov 2, 5, 8"
    },
    {
     "id": "nationalfeiertag-2026",
@@ -311,7 +331,8 @@
     "language": "No language needed",
     "source": "visitingvienna-oct",
     "hours": "",
-    "notes": "Safety and rescue fair at City Hall Oct 25–26"
+    "notes": "Safety and rescue fair at City Hall Oct 25–26",
+    "dateNote": ""
    },
    {
     "id": "wir-sind-noch-einmal-davongekommen-burgtheater-2026",
@@ -327,7 +348,8 @@
     "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
     "source": "burgtheater",
     "hours": "19:00–22:00",
-    "notes": "Also Nov 9, 14 · Phone surtitles · €5–72"
+    "notes": "Phone surtitles · €5–72",
+    "dateNote": "Also Nov 9, 14"
    },
    {
     "id": "die-letzten-tage-der-menschheit-burgtheater-2026",
@@ -343,7 +365,8 @@
     "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
     "source": "burgtheater",
     "hours": "19:00–22:15",
-    "notes": "Also Nov 2 · Phone surtitles · €25 tickets Oct 30"
+    "notes": "Phone surtitles · €25 tickets Oct 30",
+    "dateNote": "Also Nov 2"
    },
    {
     "id": "wien-modern-2026",
@@ -360,7 +383,8 @@
     "language": "Mostly no language needed. Check talks and stage works before booking",
     "source": "visitingvienna-nov",
     "hours": "",
-    "notes": "Opening concert Oct 30, 19:30, Konzerthaus, €35"
+    "notes": "",
+    "dateNote": "Opening concert Oct 30, 19:30, Konzerthaus, €35"
    },
    {
     "id": "jelinek-perspektiven-musikverein-2026",
@@ -377,7 +401,8 @@
     "language": "Language not confirmed, check before booking",
     "source": "musikverein-nov",
     "hours": "",
-    "notes": "Actors’ reading Nov 4, 20:15"
+    "notes": "",
+    "dateNote": "Actors’ reading Nov 4, 20:15"
    },
    {
     "id": "schlondorff-talk-viennale-2026",
@@ -393,7 +418,9 @@
     "language": "Language not confirmed, check before booking",
     "source": "viennale",
     "hours": "16:00",
-    "notes": "Festival centre in the old radio building"
+    "notes": "",
+    "dateNote": "",
+    "venueNote": "festival centre in the old radio building"
    },
    {
     "id": "fille-du-regiment-staatsoper-2026",
@@ -409,7 +436,8 @@
     "language": "Sung in French. Subtitles not confirmed, check before booking",
     "source": "staatsoper-nov",
     "hours": "19:00",
-    "notes": "Also Nov 4, 7, 10, 13"
+    "notes": "",
+    "dateNote": "Also Nov 4, 7, 10, 13"
    },
    {
     "id": "molden-nino-konzerthaus-2026",
@@ -425,7 +453,9 @@
     "language": "Sung in Viennese dialect",
     "source": "konzerthaus-4",
     "hours": "19:30",
-    "notes": "Smaller hall · €29–83"
+    "notes": "€29–83",
+    "dateNote": "",
+    "venueNote": "smaller hall"
    },
    {
     "id": "weihnachtsmarkt-schoenbrunn-2026",
@@ -442,7 +472,8 @@
     "language": "No language needed",
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–21:00",
-    "notes": "Opens Nov 6"
+    "notes": "",
+    "dateNote": "Opens Nov 6"
    },
    {
     "id": "blickfang-mak-2026",
@@ -459,7 +490,8 @@
     "language": "No language needed",
     "source": "wieninfo-design-fairs",
     "hours": "Fri 12:00–20:00, Sat 10:00–19:00, Sun 10:00–18:00",
-    "notes": ""
+    "notes": "",
+    "dateNote": ""
    },
    {
     "id": "bill-frisell-porgy-2026",
@@ -475,7 +507,8 @@
     "language": "No language needed",
     "source": "porgy",
     "hours": "20:30",
-    "notes": "Also livestreamed"
+    "notes": "Also livestreamed",
+    "dateNote": ""
    },
    {
     "id": "franz-west-albertina-modern-2026",
@@ -491,7 +524,8 @@
     "language": "No language needed",
     "source": "albertina",
     "hours": "",
-    "notes": ""
+    "notes": "",
+    "dateNote": ""
    },
    {
     "id": "imperial-lights-schoenbrunn-2026",
@@ -508,7 +542,8 @@
     "language": "No language needed",
     "source": "wieninfo-now",
     "hours": "",
-    "notes": ""
+    "notes": "",
+    "dateNote": ""
    },
    {
     "id": "vienna-art-week-2026",
@@ -525,7 +560,8 @@
     "language": "Language not confirmed, check before booking",
     "source": "vienna-art-week",
     "hours": "",
-    "notes": "Free admission"
+    "notes": "Free admission",
+    "dateNote": ""
    },
    {
     "id": "hotel-savoy-burgtheater-2026",
@@ -541,7 +577,8 @@
     "language": "In German, no surtitles listed",
     "source": "burgtheater-nov",
     "hours": "19:30",
-    "notes": "Premiere"
+    "notes": "",
+    "dateNote": "Premiere"
    },
    {
     "id": "lise-davidsen-recital-musikverein-2026",
@@ -557,7 +594,9 @@
     "language": "Language not confirmed, check before booking",
     "source": "musikverein-nov",
     "hours": "19:30–21:30",
-    "notes": "Main hall"
+    "notes": "",
+    "dateNote": "",
+    "venueNote": "main hall"
    },
    {
     "id": "simon-keenlyside-recital-2026",
@@ -573,7 +612,8 @@
     "language": "Language not confirmed, check before booking",
     "source": "staatsoper-nov",
     "hours": "20:00–22:00",
-    "notes": "One night only"
+    "notes": "",
+    "dateNote": "One night only"
    },
    {
     "id": "art-antique-hofburg-2026",
@@ -590,7 +630,8 @@
     "language": "No language needed",
     "source": "wieninfo-fall-culture",
     "hours": "",
-    "notes": ""
+    "notes": "",
+    "dateNote": ""
    },
    {
     "id": "christkindlmarkt-rathausplatz-2026",
@@ -607,7 +648,8 @@
     "language": "No language needed",
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–22:00",
-    "notes": "Ice rink Nov 13–Jan 6"
+    "notes": "",
+    "dateNote": "Ice rink Nov 13–Jan 6"
    },
    {
     "id": "altwiener-christkindlmarkt-freyung-2026",
@@ -624,7 +666,8 @@
     "language": "No language needed",
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–21:00",
-    "notes": "Live music from 16:00"
+    "notes": "Live music from 16:00",
+    "dateNote": ""
    },
    {
     "id": "kunst-design-markt-ottakringer-2026",
@@ -641,7 +684,8 @@
     "language": "No language needed",
     "source": "visitingvienna-nov",
     "hours": "",
-    "notes": ""
+    "notes": "",
+    "dateNote": ""
    }
   ]
  }
