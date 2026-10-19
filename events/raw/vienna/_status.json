@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-19T04:57:46.460Z",
+ "fetched": "2026-10-19T07:54:35.695Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -61,14 +61,14 @@
    "url": "https://konzerthaus.at/en/program-and-tickets",
    "final": "https://konzerthaus.at/en/program-and-tickets",
    "http": 200,
-   "chars": 5563,
+   "chars": 5574,
    "jsonLdEvents": 0
   },
   "burgtheater": {
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 17535,
+   "chars": 17564,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -124,7 +124,7 @@
    "url": "https://www.leopoldmuseum.org/en/exhibitions",
    "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
    "http": 200,
-   "chars": 7617,
+   "chars": 7611,
    "jsonLdEvents": 0
   },
   "mak": {
@@ -180,7 +180,7 @@
    "url": "https://www.arena.wien/",
    "final": "https://arena.wien/",
    "http": 200,
-   "chars": 5088,
+   "chars": 5094,
    "jsonLdEvents": 0
   },
   "wuk": {
@@ -227,10 +227,7 @@
   },
   "wieninfo-art-on-display": {
    "url": "https://www.wien.info/en/art-culture/museums-exhibitions/art-on-display-in-vienna-339648",
-   "final": "https://www.wien.info/en/art-culture/museums-exhibitions/art-on-display-in-vienna-339648",
-   "http": 200,
-   "chars": 23349,
-   "jsonLdEvents": 0
+   "error": "The operation was aborted due to timeout"
   },
   "wieninfo-christmas": {
    "url": "https://www.wien.info/en/now-on/christmas/christmas-markets-342664",
