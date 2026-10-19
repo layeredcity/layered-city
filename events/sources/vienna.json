@@ -7,9 +7,9 @@
     "visitingvienna-oct": "https://www.visitingvienna.com/entertainment/october/",
     "visitingvienna-nov": "https://www.visitingvienna.com/entertainment/november/",
     "staatsoper": "https://www.wiener-staatsoper.at/en/calendar/",
-    "volksoper": "https://www.music-opera.com/en/venues/wien-volksoper.html",
+    "volksoper": "https://www.volksoper.at/spielplan/",
     "theater-an-der-wien": "https://www.theater-wien.at/en/calendar",
-    "musikverein": "https://www.music-opera.com/en/venues/wien-musikverein.html",
+    "musikverein": "https://spielplan.musikverein.at/spielplan?month=2026-10",
     "konzerthaus": "https://konzerthaus.at/en/program-and-tickets",
     "burgtheater": "https://www.burgtheater.at/spielplan",
     "viennale": "https://www.viennale.at/en",
@@ -43,6 +43,7 @@
     "konzerthaus-5": "https://konzerthaus.at/en/program-and-tickets?page=5",
     "konzerthaus-6": "https://konzerthaus.at/en/program-and-tickets?page=6",
     "khm-upcoming": "https://www.khm.at/en/exhibitions/upcoming",
-    "burgtheater-nov": "https://www.burgtheater.at/spielplan?date=2026-11"
+    "burgtheater-nov": "https://www.burgtheater.at/spielplan?date=2026-11",
+    "musikverein-nov": "https://spielplan.musikverein.at/spielplan?month=2026-11"
   }
 }
