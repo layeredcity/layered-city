@@ -75,6 +75,7 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
         "why": "…",
         "url": "https://…",
         "linkLabel": "Programme and tickets",
+        "language": "Original language with English subtitles",
         "source": "viennale"
       }
     ]
@@ -100,21 +101,64 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
   to go. It should be specific, such as the only chance to hear X, the way
   Viennese actually spend the holiday, or standing places from €15. Don't write
   "a must-see" or "unforgettable".
+- **`language`:** required, and always explicit, so nobody has to wonder. Examples:
+  "In English", "In German, no English", "In German with English surtitles",
+  "Sung in Italian, English subtitles on the seat screens", "Original language with
+  English subtitles", "No language needed" (instrumental music, dance, most
+  exhibitions). Base it on a raw source file. If the source doesn't say, write
+  "Language not confirmed, check before booking". Never guess.
 - **`url`:** the event's own page from the raw source file, or the listing page if
   the event has none. Never build a URL by hand.
 - **`source`:** the raw file the dates came from, for checking.
 
+## Voice: plain-spoken, for someone who knows nothing about it
+
+Assume the reader knows nothing about the art form, the venue or the people.
+Don't assume or imply they know opera, film history or Vienna. Write the way you'd
+tell a friend about it over coffee, not the way a programme note reads.
+
+- **Lead with what it actually is and what you'll experience:** "A comic opera
+  about a girl raised by an army regiment. Light, silly and easy to follow, even
+  if you’ve never been to an opera." Not a list of the cast and creative team.
+- **Use few names.** Mention a person only if a traveller would recognise them or
+  needs them, and then say in plain words who they are and why they matter to
+  the reader. One name per entry at most is a good default; often none. No
+  conductors, directors or casts unless one is famous to non-fans (Jonas
+  Kaufmann can stay, as "one of the world’s best-known tenors").
+- **No insider trivia** (nine high Cs, founding histories, who initiated what).
+- **Explain places.** Never use a hall or room name on its own ("Metallener Saal");
+  say what and where it is, or just name the building ("at the Konzerthaus").
+  Explain German terms (Stehplatz = standing place, Heuriger = wine tavern).
+- **Keep it short and light:** one or two short sentences, no stacked clauses, no
+  semicolons, and fewer than about three proper nouns per entry.
+- **`why`:** one plain sentence on what's in it for a visitor, such as a chance to
+  hear the director of an Oscar winner in person, the cheapest way into the opera,
+  or what Viennese actually do on the holiday.
+
+Before and after:
+
+- **Too dense:** “Austria’s biggest festival of contemporary music, founded in
+  1988 at the initiative of Claudio Abbado, with a month of events across the
+  city.”
+  **Better:** “A month of new and experimental music in concert halls, clubs and
+  churches around the city. Expect anything from orchestras to sound
+  installations.”
+- **Too dense:** “Donizetti’s comedy in Laurent Pelly’s production, with Erin
+  Morley and Xabier Anduaga; Evelino Pidò conducts.”
+  **Better:** “A comic opera about a girl raised by a regiment of soldiers. It’s
+  short, funny and a gentle first opera.”
+- **Good:** “A chance to hear a key figure of German film in person.” (Just make
+  sure `language` says whether the talk is in English.)
+
 Style: plain, dry, factual and warm, with curly quotes (’ “ ”). No salesy words
-("hidden gem", "must-see", "delightful", "charming", "fun"). Explain German terms
-the first time they appear (Stehplatz = standing place, Heuriger = wine tavern).
-**Never invent a date, time, price or event.** If the sources don't confirm it,
-leave it out.
+("hidden gem", "must-see", "delightful", "charming", "fun"). **Never invent a date,
+time, price or event.** If the sources don't confirm it, leave it out.
 
 ## 4. Validate and publish
 
 - Check with python:
   - the JSON parses;
-  - every entry has id, title, category, start, venue, description, why and url;
+  - every entry has id, title, category, start, venue, language, description, why and url;
   - dates are valid and `end` ≥ `start`;
   - every entry overlaps the window;
   - description and why are within their length limits;

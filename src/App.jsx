@@ -413,6 +413,7 @@ function EventItem({ event, cityName }) {
         </div>
         <div className="event-item__title">{event.title}</div>
         {event.when && <div className="event-item__when">{event.when}</div>}
+        {event.language && <div className="event-item__lang">{event.language}</div>}
         <div className="event-item__desc">{event.description}</div>
         {event.why && <div className="event-item__why">{event.why}</div>}
         <div className="event-item__links">
