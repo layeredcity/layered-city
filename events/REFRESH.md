@@ -72,7 +72,6 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
         "hours": "",
         "dateNote": "Opening film Oct 22, 21:30",
         "venueNote": "",
-        "notes": "Screenings in cinemas across the city",
         "venue": "Gartenbaukino",
         "description": "…",
         "why": "…",
@@ -106,9 +105,13 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
 - **`price`:** what it costs, as the source gives it, such as "€32–125", "Free",
   "€6–74 · standing places from €5" or "Free on Sun Oct 25". Leave it empty if
   the source doesn't say. Never guess a price.
-- **`notes`:** anything else that's short and useful, joined with " · ", such as
-  "Phone surtitles", "Last tickets" or "Also livestreamed". Don't repeat the date, time, venue or language. Keep it under 70
-  characters, or leave it empty.
+- **No other metadata.** Every extra detail belongs in a field above (date info in
+  `dateNote`, cost in `price`, hall in `venueNote`, hours in `hours`), in the
+  description or why, or nowhere. Leave out anything already said elsewhere,
+  such as surtitles already covered by `language`, plus trivia like "also
+  livestreamed". Keep `language` short ("Language not confirmed", "Sung in
+  Italian, subtitles not confirmed"). `linkLabel` is plain English: "Tickets",
+  "Event page", "Exhibition page", "Programme".
 - **`venue`:** the plain name a map search will find, such as "Musikverein" or
   "Wiener Staatsoper".
 - **`description`:** at most 220 characters. Say what it is, naming the work,

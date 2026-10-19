@@ -17,9 +17,8 @@
     "language": "No language needed",
     "source": "kunsthalle",
     "hours": "",
-    "notes": "",
     "dateNote": "Last chance! Closes on Oct 26",
-    "price": "Free on Sun Oct 25, 10:00–18:00"
+    "price": "Free on Sun Oct 25"
    },
    {
     "id": "tolia-astakhishvili-mumok-2026",
@@ -36,7 +35,6 @@
     "language": "No language needed",
     "source": "mumok",
     "hours": "",
-    "notes": "",
     "dateNote": "Last chance! Closes on Nov 1",
     "price": ""
    },
@@ -55,7 +53,6 @@
     "language": "No language needed",
     "source": "secession",
     "hours": "",
-    "notes": "Two other artists shown alongside",
     "dateNote": "",
     "price": ""
    },
@@ -74,7 +71,6 @@
     "language": "No language needed",
     "source": "belvedere",
     "hours": "",
-    "notes": "",
     "dateNote": "",
     "price": ""
    },
@@ -93,7 +89,6 @@
     "language": "No language needed",
     "source": "mak",
     "hours": "",
-    "notes": "",
     "dateNote": "Last chance! Closes on Nov 1",
     "price": ""
    },
@@ -108,10 +103,9 @@
     "why": "Wagner in a small, historic theatre, much closer to the stage than at the big State Opera.",
     "url": "https://www.theater-wien.at/en/events/season2026-27/1644/Der-fliegende-Hollaender",
     "linkLabel": "Dates and tickets",
-    "language": "Sung in German. Subtitles not confirmed, check before booking",
+    "language": "Sung in German, subtitles not confirmed",
     "source": "theater-an-der-wien",
     "hours": "19:00",
-    "notes": "",
     "dateNote": "Also Oct 22, 25, 28, 30",
     "price": ""
    },
@@ -129,7 +123,6 @@
     "language": "In English",
     "source": "arena",
     "hours": "Doors 19:00",
-    "notes": "",
     "dateNote": "",
     "venueNote": "main hall",
     "price": ""
@@ -148,7 +141,6 @@
     "language": "No language needed",
     "source": "staatsoper",
     "hours": "19:00",
-    "notes": "",
     "dateNote": "Premiere · Also Oct 22, 24, 27, 30, Nov 6, 9",
     "price": ""
    },
@@ -166,7 +158,6 @@
     "language": "In German with English surtitles",
     "source": "volksoper",
     "hours": "19:00–22:15",
-    "notes": "German and English surtitles",
     "dateNote": "Also Oct 25",
     "price": ""
    },
@@ -184,7 +175,6 @@
     "language": "Sung in English",
     "source": "theater-an-der-wien",
     "hours": "19:00",
-    "notes": "",
     "dateNote": "One night only",
     "price": ""
    },
@@ -202,8 +192,7 @@
     "language": "No language needed",
     "source": "musikverein",
     "hours": "19:30",
-    "notes": "",
-    "dateNote": "Mahler on Oct 21 · Different programme Oct 22",
+    "dateNote": "Also Oct 22, with a different programme",
     "price": ""
    },
    {
@@ -218,11 +207,10 @@
     "why": "The city’s main cultural event of the autumn. If a screening is sold out, check the festival’s page for returned tickets.",
     "url": "https://www.viennale.at/en/calendar",
     "linkLabel": "Programme and tickets",
-    "language": "Language not confirmed, check before booking",
+    "language": "Language not confirmed",
     "source": "viennale",
     "hours": "",
-    "notes": "",
-    "dateNote": "Opening film Oct 22, 21:30, Gartenbaukino",
+    "dateNote": "Opening film Oct 22 at 21:30",
     "price": ""
    },
    {
@@ -237,10 +225,9 @@
     "why": "Almost every screening starts with a short live introduction, and it runs on for two weeks after the festival.",
     "url": "https://www.filmmuseum.at/en/film_program/calendar",
     "linkLabel": "Calendar",
-    "language": "Original language, subtitled if needed. Intro language not confirmed",
+    "language": "Original language, subtitled where needed",
     "source": "filmmuseum",
     "hours": "18:30",
-    "notes": "Most screenings introduced live",
     "dateNote": "",
     "price": ""
    },
@@ -258,7 +245,6 @@
     "language": "In English",
     "source": "mak-events",
     "hours": "Every Sat 15:00",
-    "notes": "",
     "dateNote": "Next Oct 24",
     "price": ""
    },
@@ -273,10 +259,9 @@
     "why": "One of the few evenings at the national theatre where you can follow along with surtitles on your phone.",
     "url": "https://www.burgtheater.at/veranstaltungen/das-ferienhaus/2026-10-24",
     "linkLabel": "Tickets",
-    "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
+    "language": "In German, with phone surtitles (English not confirmed)",
     "source": "burgtheater",
     "hours": "18:30–22:30",
-    "notes": "Phone surtitles",
     "dateNote": "Also Oct 28, Nov 8",
     "price": "€6–74"
    },
@@ -291,10 +276,9 @@
     "why": "A chance to hear how opera began, in one of the world’s grandest opera houses.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/lorfeo/2026-10-25/",
     "linkLabel": "Dates and tickets",
-    "language": "Sung in Italian. Subtitles not confirmed, check before booking",
+    "language": "Sung in Italian, subtitles not confirmed",
     "source": "staatsoper",
     "hours": "19:00",
-    "notes": "",
     "dateNote": "Also Oct 28, 31, Nov 3",
     "price": ""
    },
@@ -312,10 +296,9 @@
     "language": "No language needed",
     "source": "konzerthaus-3",
     "hours": "19:30",
-    "notes": "Last tickets",
     "dateNote": "",
     "venueNote": "main hall",
-    "price": "€32–125"
+    "price": "€32–125 · few tickets left"
    },
    {
     "id": "otello-staatsoper-2026",
@@ -328,10 +311,9 @@
     "why": "Kaufmann is listed for all five nights, and seats go fast, so book early.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/otello/2026-10-26/",
     "linkLabel": "Dates and tickets",
-    "language": "Sung in Italian. Subtitles not confirmed, check before booking",
+    "language": "Sung in Italian, subtitles not confirmed",
     "source": "staatsoper",
     "hours": "19:00",
-    "notes": "",
     "dateNote": "Also Oct 29, Nov 2, 5, 8",
     "price": ""
    },
@@ -345,11 +327,10 @@
     "description": "Austria’s national holiday. The army usually sets up displays on Heldenplatz, the big square by the old palace, and police and fire services show their work at City Hall.",
     "why": "This is how Viennese families spend the day, strolling among tanks and fire engines. Many shops close, so plan ahead.",
     "url": "https://diehelferwiens.wien.gv.at/wiener-sicherheitsfest",
-    "linkLabel": "Sicherheitsfest",
+    "linkLabel": "Event page",
     "language": "No language needed",
     "source": "visitingvienna-oct",
     "hours": "",
-    "notes": "Safety and rescue fair at City Hall Oct 25–26",
     "dateNote": "",
     "price": ""
    },
@@ -364,10 +345,9 @@
     "why": "A play many English speakers know, so it’s easy to follow, with surtitles on your phone.",
     "url": "https://www.burgtheater.at/veranstaltungen/wir-sind-noch-einmal-davongekommen/2026-10-27",
     "linkLabel": "Tickets",
-    "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
+    "language": "In German, with phone surtitles (English not confirmed)",
     "source": "burgtheater",
     "hours": "19:00–22:00",
-    "notes": "Phone surtitles",
     "dateNote": "Also Nov 9, 14",
     "price": "€5–72"
    },
@@ -382,12 +362,11 @@
     "why": "A big Viennese classic, made easier with phone surtitles, and some €25 tickets on Oct 30.",
     "url": "https://www.burgtheater.at/veranstaltungen/die-letzten-tage-der-menschheit/2026-10-30",
     "linkLabel": "Tickets",
-    "language": "In German, with surtitles on the PROMPT phone app (languages not listed)",
+    "language": "In German, with phone surtitles (English not confirmed)",
     "source": "burgtheater",
     "hours": "19:00–22:15",
-    "notes": "Phone surtitles",
     "dateNote": "Also Nov 2",
-    "price": "€25 tickets Oct 30"
+    "price": "€25 seats on Oct 30"
    },
    {
     "id": "wien-modern-2026",
@@ -401,12 +380,11 @@
     "why": "A different side of musical Vienna, often in unusual places, with top orchestras and ensembles.",
     "url": "https://www.wienmodern.at/2026-calendar-en",
     "linkLabel": "Festival calendar",
-    "language": "Mostly no language needed. Check talks and stage works before booking",
+    "language": "Mostly no language needed",
     "source": "visitingvienna-nov",
     "hours": "",
-    "notes": "",
-    "dateNote": "Opening concert Oct 30, 19:30, Konzerthaus, €35",
-    "price": ""
+    "dateNote": "Opening concert Oct 30 at 19:30",
+    "price": "Opening concert €35"
    },
    {
     "id": "jelinek-perspektiven-musikverein-2026",
@@ -420,11 +398,10 @@
     "why": "On Nov 4, two of Austria’s best-loved actors read on stage.",
     "url": "https://musikverein.at/konzert/?id=0012d3c3",
     "linkLabel": "Programme",
-    "language": "Language not confirmed, check before booking",
+    "language": "Language not confirmed",
     "source": "musikverein-nov",
     "hours": "",
-    "notes": "",
-    "dateNote": "Actors’ reading Nov 4, 20:15",
+    "dateNote": "Actors’ reading Nov 4 at 20:15",
     "price": ""
    },
    {
@@ -438,10 +415,9 @@
     "why": "A chance to hear a key figure of German film in person.",
     "url": "https://www.viennale.at/en/event/talk-volker-schlondorff",
     "linkLabel": "Event page",
-    "language": "Language not confirmed, check before booking",
+    "language": "Language not confirmed",
     "source": "viennale",
     "hours": "16:00",
-    "notes": "",
     "dateNote": "",
     "venueNote": "festival centre in the old radio building",
     "price": ""
@@ -457,10 +433,9 @@
     "why": "A light evening if you’ve never been to an opera, and an easy break from the heavier works this month.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/la-fille-du-regiment/2026-11-01/",
     "linkLabel": "Dates and tickets",
-    "language": "Sung in French. Subtitles not confirmed, check before booking",
+    "language": "Sung in French, subtitles not confirmed",
     "source": "staatsoper-nov",
     "hours": "19:00",
-    "notes": "",
     "dateNote": "Also Nov 4, 7, 10, 13",
     "price": ""
    },
@@ -478,7 +453,6 @@
     "language": "Sung in Viennese dialect",
     "source": "konzerthaus-4",
     "hours": "19:30",
-    "notes": "",
     "dateNote": "",
     "venueNote": "smaller hall",
     "price": "€29–83"
@@ -498,7 +472,6 @@
     "language": "No language needed",
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–21:00",
-    "notes": "",
     "dateNote": "Opens Nov 6",
     "price": ""
    },
@@ -517,7 +490,6 @@
     "language": "No language needed",
     "source": "wieninfo-design-fairs",
     "hours": "Fri 12:00–20:00, Sat 10:00–19:00, Sun 10:00–18:00",
-    "notes": "",
     "dateNote": "",
     "price": ""
    },
@@ -535,7 +507,6 @@
     "language": "No language needed",
     "source": "porgy",
     "hours": "20:30",
-    "notes": "Also livestreamed",
     "dateNote": "",
     "price": ""
    },
@@ -553,7 +524,6 @@
     "language": "No language needed",
     "source": "albertina",
     "hours": "",
-    "notes": "",
     "dateNote": "",
     "price": ""
    },
@@ -572,7 +542,6 @@
     "language": "No language needed",
     "source": "wieninfo-now",
     "hours": "",
-    "notes": "",
     "dateNote": "",
     "price": ""
    },
@@ -588,10 +557,9 @@
     "why": "It’s free, and the open studio days get you into artists’ workspaces you couldn’t otherwise see.",
     "url": "https://www.viennaartweek.at/en/vienna-art-week-2026/program-2026/",
     "linkLabel": "Programme",
-    "language": "Language not confirmed, check before booking",
+    "language": "Language not confirmed",
     "source": "vienna-art-week",
     "hours": "",
-    "notes": "",
     "dateNote": "",
     "price": "Free"
    },
@@ -609,7 +577,6 @@
     "language": "In German, no surtitles listed",
     "source": "burgtheater-nov",
     "hours": "19:30",
-    "notes": "",
     "dateNote": "Premiere",
     "price": ""
    },
@@ -624,10 +591,9 @@
     "why": "A huge opera voice in an intimate set of songs, in the city where Schubert wrote them.",
     "url": "https://musikverein.at/konzert/?id=0006accc",
     "linkLabel": "Concert page",
-    "language": "Language not confirmed, check before booking",
+    "language": "Sung in German",
     "source": "musikverein-nov",
     "hours": "19:30–21:30",
-    "notes": "",
     "dateNote": "",
     "venueNote": "main hall",
     "price": ""
@@ -643,10 +609,9 @@
     "why": "A rare quiet evening of songs inside the grand opera house.",
     "url": "https://www.wiener-staatsoper.at/en/calendar/detail/recital/2026-11-12/",
     "linkLabel": "Tickets",
-    "language": "Language not confirmed, check before booking",
+    "language": "Language not confirmed",
     "source": "staatsoper-nov",
     "hours": "20:00–22:00",
-    "notes": "",
     "dateNote": "One night only",
     "price": ""
    },
@@ -665,7 +630,6 @@
     "language": "No language needed",
     "source": "wieninfo-fall-culture",
     "hours": "",
-    "notes": "",
     "dateNote": "",
     "price": ""
    },
@@ -684,8 +648,7 @@
     "language": "No language needed",
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–22:00",
-    "notes": "",
-    "dateNote": "Ice rink Nov 13–Jan 6",
+    "dateNote": "Ice rink from Nov 13",
     "price": ""
    },
    {
@@ -703,7 +666,6 @@
     "language": "No language needed",
     "source": "wieninfo-christmas",
     "hours": "Daily 10:00–21:00",
-    "notes": "Live music from 16:00",
     "dateNote": "",
     "price": ""
    },
@@ -722,7 +684,6 @@
     "language": "No language needed",
     "source": "visitingvienna-nov",
     "hours": "",
-    "notes": "",
     "dateNote": "",
     "price": ""
    }

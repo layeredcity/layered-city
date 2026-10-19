@@ -417,7 +417,6 @@ function EventItem({ event, cityName }) {
           {event.price && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.price}</span><span>{event.price}</span></div>}
           {event.language && <div className="event-item__fact"><span className="story-modal__meta-icon">{META_ICONS.language}</span><span>{event.language}</span></div>}
         </div>
-        {event.notes && <div className="event-item__notes">{event.notes}</div>}
         <div className="event-item__label">What is it?</div>
         <div className="event-item__desc">{event.description}</div>
         {event.why && (
