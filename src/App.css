@@ -608,3 +608,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* spiral rings */
 .event-item__date::before { content: ''; position: absolute; top: -5px; left: 13px; width: 3px; height: 10px; border-radius: 2px; background: linear-gradient(90deg, #8f8882, #d6d0ca 50%, #8f8882); box-shadow: 12px 0 0 #a39c96, 24px 0 0 #a39c96; z-index: 1; }
 .event-item__date-main { margin-top: 5px; }
+/* Five rings, with darker-red punched holes under each ring's foot. */
+.event-item__date-top { padding: 12px 0 5px; }
+.event-item__date-top::before { top: 3px; left: 7.5px; width: 5px; height: 5px; background: #8E2A1A; box-shadow: 8px 0 0 #8E2A1A, 16px 0 0 #8E2A1A, 24px 0 0 #8E2A1A, 32px 0 0 #8E2A1A; }
+.event-item__date::before { left: 8.5px; top: -5px; height: 11px; box-shadow: 8px 0 0 #a39c96, 16px 0 0 #a39c96, 24px 0 0 #a39c96, 32px 0 0 #a39c96; }
