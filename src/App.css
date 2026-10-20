@@ -631,3 +631,9 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* An item with no pin (an event at "various venues") opens centred on the map. */
 .story-modal-anchor--center { left: 50% !important; top: 50% !important; transform: translate(-50%, -50%); }
 .story-modal__title .food-item__name-local { display: block; font-size: 0.62em; line-height: 1.3; margin-top: 4px; }
+
+/* Overview split back into "Media about X" / "Go deeper in X". White at 50%
+   rather than an ink token: these headings sit on the navy gradient. */
+.overview-group-heading { text-align: center; font-size: 10px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin: 18px 22px 0; }
+.overview-group-heading--first { margin-top: 8px; }
+.overview-group-heading + .overview-list { margin-top: 8px; }

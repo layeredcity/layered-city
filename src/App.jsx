@@ -90,7 +90,7 @@ function slugify(name) {
 
 const FILTERS = [
   { label: 'All',              types: ['podcast', 'video', 'movie', 'tv', 'music', 'book', 'speak', 'audiotour'] },
-  { label: 'Books',            types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true, blurb: 'Novels and nonfiction about {city}' },
+  { label: 'Books',            group: 'media', types: ['book'],         emptyLabel: 'books',            icon: 'book',    unitSingular: 'book',    unitPlural: 'books',   alwaysShow: true, blurb: 'Novels and nonfiction about {city}' },
   // Food is not a story: it comes from its own `food` content type, carries no
   // location, and reads as a flat list rather than opening a detail modal. The
   // empty `types` keeps it out of every story filter. Like Tours it has no
@@ -98,23 +98,23 @@ const FILTERS = [
   // Events is a pilot (Vienna only): a weekly-refreshed list of what's on,
   // read from src/data/events.json rather than Contentful. Hidden for cities
   // with nothing upcoming; past events drop off on their own.
-  { label: 'Events',           types: [], events: true, emptyLabel: 'events',           icon: 'events',  unitSingular: 'event',   unitPlural: 'events',  blurb: 'What’s on in {city}' },
-  { label: 'Food',             types: [], food: true,   emptyLabel: 'dishes',           icon: 'food',    unitSingular: 'dish',    unitPlural: 'dishes',  blurb: 'What to eat in {city}' },
-  { label: 'Movies',           types: ['movie'],        emptyLabel: 'movies',           icon: 'movie',   unitSingular: 'movie',   unitPlural: 'movies',  alwaysShow: true, blurb: '{city} on the big screen' },
-  { label: 'Music',            types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of {city} through its songs' },
-  { label: 'Podcasts',         types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', alwaysShow: true, blurb: 'Episodes about {city}' },
+  { label: 'Events',           group: 'deeper', types: [], events: true, emptyLabel: 'events',           icon: 'events',  unitSingular: 'event',   unitPlural: 'events',  blurb: 'What’s on in {city}' },
+  { label: 'Food',             group: 'deeper', types: [], food: true,   emptyLabel: 'dishes',           icon: 'food',    unitSingular: 'dish',    unitPlural: 'dishes',  blurb: 'What to eat in {city}' },
+  { label: 'Movies',           group: 'media', types: ['movie'],        emptyLabel: 'movies',           icon: 'movie',   unitSingular: 'movie',   unitPlural: 'movies',  alwaysShow: true, blurb: '{city} on the big screen' },
+  { label: 'Music',            group: 'media', types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of {city} through its songs' },
+  { label: 'Podcasts',         group: 'media', types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', alwaysShow: true, blurb: 'Episodes about {city}' },
   // No alwaysShow: unlike the other sections, Tours is hidden entirely for a
   // city with zero tours (rather than showing "Coming soon"), and reappears
   // automatically once that city has at least one published tour.
-  { label: 'Tours',            types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
+  { label: 'Tours',            group: 'deeper', types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
   // No alwaysShow: TV coverage is spotty, so a city with no shows hides the
   // section entirely rather than advertising "Coming soon".
-  { label: 'TV',               types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   blurb: '{city} on the small screen' },
-  { label: 'Videos',           types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  alwaysShow: true, blurb: 'The best of {city} on YouTube' },
+  { label: 'TV',               group: 'media', types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   blurb: '{city} on the small screen' },
+  { label: 'Videos',           group: 'media', types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  alwaysShow: true, blurb: 'The best of {city} on YouTube' },
   // Words is its own `word` content type (a per-city phrasebook), not stories.
   // Empty `types` keeps it out of every story filter; `words: true` routes it to
   // the phrasebook panel. Gated on the city's wordsPublished flag.
-  { label: 'Words',            types: [], words: true,   emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Learn enough {language} to be polite' },
+  { label: 'Words',            group: 'deeper', types: [], words: true,   emptyLabel: 'words',            icon: 'words',   unitSingular: 'phrase',  unitPlural: 'phrases', alwaysShow: true, blurb: 'Learn enough {language} to be polite' },
 ]
 
 // One pithy line per section, count + connector + city (e.g. "15 dishes to eat
@@ -129,6 +129,13 @@ function sectionLine(filter, count, city) {
   if (filter.words) return `${count} ${unit} in ${cityLanguage(city.name) || city.name}`
   return `${count} ${unit} ${SECTION_CONNECTOR[filter.label] || 'about'} ${city.name}`
 }
+
+// The overview splits into two: media made *about* the city, and the things
+// that get you into it. A group with nothing in it renders no heading.
+const OVERVIEW_GROUPS = [
+  { key: 'media',  heading: city => `Media about ${city}` },
+  { key: 'deeper', heading: city => `Go deeper in ${city}` },
+]
 
 const TYPE_ICONS = {
   podcast: (
@@ -552,12 +559,16 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, word
         <div className="city-overview__loading">Loading…</div>
       ) : (
       <>
-      {/* One list of every section, alphabetical. (It used to be split into
-          "Media about" and "Go deeper in"; with fuller cities the split added
-          a decision for the reader without helping them find anything.) */}
-      {sections.length > 0 && (
+      {OVERVIEW_GROUPS.map((group, gi) => {
+        const groupSections = sections
+          .filter(s => (s.filter.group || 'media') === group.key)
+          .sort((a, b) => a.filter.label.localeCompare(b.filter.label))
+        if (!groupSections.length) return null
+        return (
+        <div key={group.key}>
+        <div className={'overview-group-heading' + (OVERVIEW_GROUPS.slice(0, gi).some(g => sections.some(s => (s.filter.group || 'media') === g.key)) ? '' : ' overview-group-heading--first')}>{group.heading(city.name)}</div>
         <div className="overview-list">
-        {[...sections].sort((a, b) => a.filter.label.localeCompare(b.filter.label)).map(({ filter, count }) => (
+        {groupSections.map(({ filter, count }) => (
           <div key={filter.label} className="overview-item" onClick={() => onSelectFilter(filter.label)}>
             <div className={'overview-item__icon-wrap' + (filter.icon === 'audiotour' ? ' overview-item__icon-wrap--tour' : '')}>{TYPE_ICONS[filter.icon]}</div>
             <div className="overview-item__body">
@@ -568,7 +579,9 @@ function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, word
           </div>
         ))}
         </div>
-      )}
+        </div>
+        )
+      })}
       <CurrencyCheatSheet city={city} />
       {city.quote && (
         <div className="city-quote">
