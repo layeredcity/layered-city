@@ -89,3 +89,17 @@ export function eventStories(cityName) {
     event: e,
   }))
 }
+
+// Secondary navigation inside Events: a handful of plain groups a traveller
+// would think in, built from the finer `category` on each event. Opera counts
+// as music (that's how most visitors think of it); ballet and dance as stage.
+export const EVENT_GROUPS = [
+  { label: 'Music', categories: ['Opera', 'Classical', 'Jazz', 'Concert'] },
+  { label: 'Art', categories: ['Exhibition', 'Design'] },
+  { label: 'Stage', categories: ['Theatre', 'Ballet', 'Dance'] },
+  { label: 'Film', categories: ['Film'] },
+  { label: 'Around town', categories: ['Festival', 'Market', 'Tradition', 'Food & drink', 'Talk', 'Sport', 'Free'] },
+]
+export function eventGroupOf(e) {
+  return (EVENT_GROUPS.find(g => g.categories.includes(e.category)) || EVENT_GROUPS[EVENT_GROUPS.length - 1]).label
+}

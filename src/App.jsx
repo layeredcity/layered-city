@@ -9,7 +9,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
-import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge, eventDateText, eventStories } from './utils/events'
+import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge, eventDateText, eventStories, EVENT_GROUPS, eventGroupOf } from './utils/events'
 import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
 // Shared quality-tier names, indexed by tier 1–5 (tier 0 = unrated, no label).
@@ -451,14 +451,24 @@ function EventItem({ story, onSelect }) {
   )
 }
 
-function EventsPanel({ city, stories, onSelect }) {
+function EventsPanel({ city, stories: allEventStories, group, onGroup, onSelect }) {
   const updated = eventsUpdated(city.name)
-  if (!stories.length) {
+  const groups = EVENT_GROUPS.filter(g => allEventStories.some(s => eventGroupOf(s.event) === g.label))
+  const stories = group === 'All' ? allEventStories : allEventStories.filter(s => eventGroupOf(s.event) === group)
+  const chips = groups.length > 1 && (
+    <div className="event-chips" role="group" aria-label="Kind of event">
+      {['All', ...groups.map(g => g.label)].map(label => (
+        <button key={label} type="button" className={'event-chip' + (group === label ? ' is-active' : '')} aria-pressed={group === label} onClick={() => onGroup(label)}>{label}</button>
+      ))}
+    </div>
+  )
+  if (!allEventStories.length) {
     return <div style={{padding:'40px',textAlign:'center',color:'var(--ink-xlight)',fontFamily:'var(--font-display)',fontStyle:'italic',fontSize:'17px'}}>Nothing listed for {city.name} right now.</div>
   }
   const byId = Object.fromEntries(stories.map(s => [s.event.id, s]))
   return (
     <>
+      {chips}
       {updated && <div className="events-updated">Updated weekly · last checked {updated}. Times change; check the link before you go.</div>}
       {groupEvents(stories.map(s => s.event)).flatMap(g => [
         <div key={'h-' + g.key} className="story-group-heading">{g.label}</div>,
@@ -1338,6 +1348,7 @@ export default function App() {
   const [wordsLoading, setWordsLoading] = useState(false)
   const [loading, setLoading] = useState(true)
   const [activeFilter, setActiveFilter] = useState('All')
+  const [eventGroup, setEventGroup] = useState('All') // Events secondary nav: 'All' | 'Music' | 'Art' | …
   const [sortMode, setSortMode] = useState('rating') // 'rating' | 'date' — Books/Movies sort toggle
   const [detailView, setDetailView] = useState('overview')
   const [mobileView, setMobileView] = useState('list')
@@ -1510,6 +1521,8 @@ export default function App() {
   // Events (pilot) ride on the map alongside the stories: their pins are made
   // with everything else and only shown while the Events section is open.
   const cityEventStories = useMemo(() => selectedCity ? eventStories(selectedCity.name) : [], [selectedCity])
+  const shownEventStories = useMemo(() => eventGroup === 'All' ? cityEventStories : cityEventStories.filter(s => eventGroupOf(s.event) === eventGroup), [cityEventStories, eventGroup])
+  useEffect(() => { setEventGroup('All') }, [selectedCity])
   const mapAllStories = useMemo(() => cityEventStories.length ? [...stories, ...cityEventStories] : stories, [stories, cityEventStories])
   const wordsAvailable = !!(selectedCity?.wordsPublished && words.length > 0)
   const availableFilters = FILTERS.slice(1).filter(f => f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
@@ -1575,7 +1588,7 @@ export default function App() {
     return [...list].sort(byRating)
   }, [stories, currentFilter, sortMode, isMusicFilter, isBooksFilter, isMoviesFilter, showSortToggle, effectiveRatingForStory, omdbCache])
 
-  const mapStories = detailView === 'overview' ? stories : currentFilter.events ? cityEventStories : filteredStories
+  const mapStories = detailView === 'overview' ? stories : currentFilter.events ? shownEventStories : filteredStories
 
   if (loading) {
     return (
@@ -1694,7 +1707,7 @@ export default function App() {
                       <WordsPanel city={selectedCity} words={words} />
                     )
                   ) : currentFilter.events ? (
-                    <EventsPanel city={selectedCity} stories={cityEventStories} onSelect={setSelectedStory} />
+                    <EventsPanel city={selectedCity} stories={cityEventStories} group={eventGroup} onGroup={g => { closeStoryWithFade(); setEventGroup(g) }} onSelect={setSelectedStory} />
                   ) : currentFilter.food ? (
                     foodsLoading ? (
                       <div style={{padding:'40px',textAlign:'center',color:'var(--ink-light)',fontStyle:'italic',fontFamily:'var(--font-display)',fontSize:'17px'}}>Loading food...</div>

@@ -97,6 +97,10 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
 - **`category`:** one of Opera, Ballet, Classical, Jazz, Concert, Theatre, Dance,
   Film, Exhibition, Festival, Market, Food & drink, Tradition, Talk, Design, Sport,
   Free.
+  The app groups these into chips: Music (Opera, Classical, Jazz, Concert), Art
+  (Exhibition, Design), Stage (Theatre, Ballet, Dance), Film, and Around town
+  (everything else). Pick the category a visitor would look under: Wien Modern
+  is music, so use Concert rather than Festival.
 - **Dates:**
   - `start` and `end` are `YYYY-MM-DD`; leave `end` out for a single date.
   - `time` is `"HH:MM"` (24h), or empty.

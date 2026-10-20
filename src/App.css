@@ -637,3 +637,9 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .overview-group-heading { text-align: center; font-size: 10px; font-weight: 600; letter-spacing: 0.11em; text-transform: uppercase; color: rgba(255,255,255,0.5); margin: 18px 22px 0; }
 .overview-group-heading--first { margin-top: 8px; }
 .overview-group-heading + .overview-list { margin-top: 8px; }
+
+/* Events secondary nav: a row of pill chips that wraps on narrow panels. */
+.event-chips { display: flex; flex-wrap: wrap; gap: 6px; padding: 12px 20px 10px; border-bottom: 1px solid var(--border); }
+.event-chip { appearance: none; border: 1px solid var(--border); background: var(--white); color: var(--ink); border-radius: 999px; padding: 5px 12px; font-family: var(--font-body); font-size: 12px; font-weight: 600; cursor: pointer; transition: background var(--transition), color var(--transition), border-color var(--transition); }
+.event-chip:hover { border-color: var(--ink-xlight); }
+.event-chip.is-active { background: var(--ink); border-color: var(--ink); color: #fff; }
