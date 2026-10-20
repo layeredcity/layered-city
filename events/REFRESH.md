@@ -100,7 +100,10 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
   The app groups these into chips: Music (Opera, Classical, Jazz, Concert), Art
   (Exhibition, Design), Stage (Theatre, Ballet, Dance), Film, and Around town
   (everything else). Pick the category a visitor would look under: Wien Modern
-  is music, so use Concert rather than Festival.
+  is music, so use Concert rather than Festival. When the category alone would
+  put an event in the wrong chip, add `group` (one of the chip names) to place it:
+  a film director’s talk gets `"group": "Film"`, and Vienna Art Week gets
+  `"group": "Art"`.
 - **Dates:**
   - `start` and `end` are `YYYY-MM-DD`; leave `end` out for a single date.
   - `time` is `"HH:MM"` (24h), or empty.

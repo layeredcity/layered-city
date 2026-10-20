@@ -277,7 +277,8 @@
     "dateNote": "Next Oct 24",
     "price": "",
     "lat": 48.2073,
-    "lon": 16.3812
+    "lon": 16.3812,
+    "group": "Art"
    },
    {
     "id": "das-ferienhaus-burgtheater-2026",
@@ -475,7 +476,8 @@
     "venueNote": "festival centre in the old radio building",
     "price": "",
     "lat": 48.1937,
-    "lon": 16.3713
+    "lon": 16.3713,
+    "group": "Film"
    },
    {
     "id": "fille-du-regiment-staatsoper-2026",
@@ -631,7 +633,8 @@
     "source": "vienna-art-week",
     "hours": "",
     "dateNote": "",
-    "price": "Free"
+    "price": "Free",
+    "group": "Art"
    },
    {
     "id": "hotel-savoy-burgtheater-2026",

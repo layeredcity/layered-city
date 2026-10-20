@@ -101,5 +101,6 @@ export const EVENT_GROUPS = [
   { label: 'Around town', categories: ['Festival', 'Market', 'Tradition', 'Food & drink', 'Talk', 'Sport', 'Free'] },
 ]
 export function eventGroupOf(e) {
+  if (e.group && EVENT_GROUPS.some(g => g.label === e.group)) return e.group
   return (EVENT_GROUPS.find(g => g.categories.includes(e.category)) || EVENT_GROUPS[EVENT_GROUPS.length - 1]).label
 }
