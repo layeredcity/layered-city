@@ -17,13 +17,42 @@ const span = e => (parse(e.end || e.start) - parse(e.start)) / 86400000
 
 // A run of three days or more (an exhibition, a festival, a market) that has
 // already started reads as "on now" rather than as a dated event.
-const isOngoing = (e, t) => e.end && span(e) >= 3 && e.start <= t
+const isOngoing = (e, t) => !e.repeat && e.end && span(e) >= 3 && e.start <= t
+
+// Weekly regulars (a Saturday flea market, Sunday mass) carry `repeat:
+// { weekdays: ['Sat'], except: ['YYYY-MM-DD'] }` and a season in start/end.
+// They are listed under every matching day in the next four weeks, mixed in
+// with the one-off events, so "what's on Saturday?" has one answer.
+const WINDOW_DAYS = 28
+function occurrences(e, t) {
+  const out = []
+  const from = e.start > t ? e.start : t
+  const last = addDays(t, WINDOW_DAYS - 1)
+  const to = e.end && e.end < last ? e.end : last
+  for (let d = from; d <= to; d = addDays(d, 1)) {
+    if (e.repeat.weekdays.includes(DAYS[parse(d).getDay()]) && !(e.repeat.except || []).includes(d)) {
+      out.push({ ...e, start: d, end: d })
+    }
+  }
+  return out
+}
+const LONG_DAY_PLURAL = { Sun: 'Sunday', Mon: 'Monday', Tue: 'Tuesday', Wed: 'Wednesday', Thu: 'Thursday', Fri: 'Friday', Sat: 'Saturday' }
+export function repeatText(e) {
+  if (!e.repeat) return null
+  const days = e.repeat.weekdays.map(d => LONG_DAY_PLURAL[d])
+  return 'Every ' + (days.length > 1 ? days.slice(0, -1).join(', ') + ' and ' + days[days.length - 1] : days[0])
+}
+// The next date a regular happens (or the event itself if it isn't one).
+export function nextOccurrence(e) {
+  if (!e.repeat) return e
+  return occurrences(e, today())[0] || e
+}
 
 export function upcomingEvents(cityName) {
   const city = data[cityName]
   if (!city) return []
   const t = today()
-  return (city.events || []).filter(e => (e.end || e.start) >= t)
+  return (city.events || []).filter(e => (e.end || e.start) >= t && (!e.repeat || occurrences(e, t).length))
 }
 
 export function eventsUpdated(cityName) {
@@ -39,7 +68,10 @@ export function groupEvents(events) {
   const ongoing = events.filter(e => isOngoing(e, t)).sort((a, b) => a.end.localeCompare(b.end))
   if (ongoing.length) groups.push({ key: 'ongoing', label: 'On now', events: ongoing })
   const byDay = {}
-  for (const e of events) if (!isOngoing(e, t)) (byDay[e.start] ||= []).push(e)
+  for (const e of events) {
+    if (e.repeat) occurrences(e, t).forEach(o => (byDay[o.start] ||= []).push(o))
+    else if (!isOngoing(e, t)) (byDay[e.start] ||= []).push(e)
+  }
   for (const day of Object.keys(byDay).sort()) {
     const d = parse(day)
     const label = day === t ? 'Today'
@@ -68,6 +100,7 @@ export function eventDateBadge(e) {
 // chance, premiere), or for a run with nothing extra, its full span. A single
 // date with nothing extra needs no line; the box already says it.
 export function eventDateText(e) {
+  if (e.repeat) return [repeatText(e), e.dateNote].filter(Boolean).join(' · ')
   if (e.dateNote) return e.dateNote
   const fmt = s => { const d = parse(s); return `${MONTHS[d.getMonth()]} ${d.getDate()}` }
   if (e.end && e.end !== e.start) return `${fmt(e.start)} – ${fmt(e.end)}`
@@ -86,7 +119,7 @@ export function eventStories(cityName) {
     description: e.description,
     location: e.lat && e.lon ? { lat: e.lat, lon: e.lon } : null,
     locationName: e.venue + (e.venueNote ? `, ${e.venueNote}` : ''),
-    event: e,
+    event: nextOccurrence(e),
   }))
 }
 

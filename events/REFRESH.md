@@ -53,6 +53,24 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
 - **Long runs:** an exhibition, festival or market lasting longer than the
   window is one entry with `start` and `end`. The app shows it under "On now".
 
+### Weekly regulars
+
+Include a few things that happen on fixed weekdays and that a visitor would plan
+around: a Saturday flea market, farmers' market days, the Boys' Choir Sunday
+mass. Leave out places that are simply open every day (the Naschmarkt itself, a
+museum's normal hours); those aren't events. Keep it selective, at around 4–8
+regulars. Each one needs a source page in `events/sources/vienna.json` that
+confirms its days, hours and exceptions.
+
+A regular is one entry with `repeat: { "weekdays": ["Sat"], "except":
+["YYYY-MM-DD"] }`, plus its season in `start`/`end` (use the season the source
+gives; if it gives none, run to the end of the window). The app lists it under
+every matching day in the next four weeks, mixed in with the dated events, and
+shows "Every Saturday" on the calendar line. Don't set `dateNote` to repeat
+that. Something that runs on only some weeks (the choir's Friday concerts run
+on 13 Fridays a season) is not a regular: list each confirmed date as a normal
+event instead.
+
 ## 3. Format
 
 `src/data/events.json` is keyed by city name:

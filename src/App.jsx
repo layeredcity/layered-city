@@ -434,10 +434,12 @@ function EventFact({ icon, children }) {
 
 // List row: just enough to scan (date, what, where, when, one line of what it
 // is). Everything else lives in the pop-up, as with the other media types.
-function EventItem({ story, onSelect }) {
-  const e = story.event
+function EventItem({ story, occurrence, onSelect }) {
+  // A weekly regular is listed under each of its days; the row (and the pop-up
+  // it opens) shows that day's date rather than the next one.
+  const e = occurrence || story.event
   return (
-    <div className="event-item event-item--row" onClick={() => onSelect(story)}>
+    <div className="event-item event-item--row" onClick={() => onSelect(occurrence ? { ...story, event: occurrence } : story)}>
       <EventDate event={e} />
       <div className="event-item__body">
         <div className="event-item__cat">{e.category}</div>
@@ -470,7 +472,7 @@ function EventsPanel({ city, stories: allEventStories, group, onGroup, onSelect 
       {chips}
       {groupEvents(stories.map(s => s.event)).flatMap(g => [
         <div key={'h-' + g.key} className="story-group-heading story-group-heading--events">{g.label}</div>,
-        ...g.events.map(e => <EventItem key={g.key + e.id} story={byId[e.id]} onSelect={onSelect} />),
+        ...g.events.map(e => <EventItem key={g.key + e.id} story={byId[e.id]} occurrence={e} onSelect={onSelect} />),
       ])}
     </>
   )
