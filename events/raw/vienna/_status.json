@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-20T05:53:14.979Z",
+ "fetched": "2026-10-20T05:54:46.415Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -109,9 +109,9 @@
   "belvedere": {
    "url": "https://www.belvedere.at/en/exhibitions",
    "final": "https://www.belvedere.at/en/current-exhibitions",
-   "http": 200,
-   "chars": 12979,
-   "jsonLdEvents": 5
+   "http": 500,
+   "chars": 61,
+   "jsonLdEvents": 0
   },
   "khm": {
    "url": "https://www.khm.at/en/exhibitions/",
@@ -302,25 +302,18 @@
    "chars": 62103,
    "jsonLdEvents": 0
   },
-  "reg-maerkte": {
-   "url": "https://www.wien.gv.at/freizeit/einkaufen/maerkte/",
-   "final": "https://www.wien.gv.at/freizeit/maerkte",
-   "http": 200,
-   "chars": 15556,
-   "jsonLdEvents": 0
-  },
   "reg-flohmarkt": {
-   "url": "https://www.wien.gv.at/freizeit/einkaufen/maerkte/flohmarkt.html",
-   "final": "https://www.wien.gv.at/freizeit/einkaufen/maerkte/flohmarkt.html",
-   "http": 404,
-   "chars": 11850,
+   "url": "https://www.wien.gv.at/freizeit/flohmarkt-naschmarkt",
+   "final": "https://www.wien.gv.at/freizeit/flohmarkt-naschmarkt",
+   "http": 200,
+   "chars": 14140,
    "jsonLdEvents": 0
   },
   "reg-freyung": {
-   "url": "https://www.wien.gv.at/freizeit/einkaufen/maerkte/lebensmittel/freyung.html",
-   "final": "https://www.wien.gv.at/freizeit/markt-freyung-1010",
+   "url": "https://www.wien.gv.at/freizeit/biomarkt-freyung-1010",
+   "final": "https://www.wien.gv.at/freizeit/biomarkt-freyung-1010",
    "http": 200,
-   "chars": 13430,
+   "chars": 13589,
    "jsonLdEvents": 0
   },
   "reg-karmeliter": {
@@ -331,28 +324,28 @@
    "jsonLdEvents": 0
   },
   "reg-hofburgkapelle": {
-   "url": "https://www.hofburgkapelle.at/en/",
+   "url": "https://www.hofburgkapelle.at/",
    "error": "fetch failed"
   },
   "reg-saengerknaben": {
-   "url": "https://www.wienersaengerknaben.at/en/",
-   "final": "https://www.wsk.at/",
+   "url": "https://www.wsk.at/konzerte-events/konzerte/",
+   "final": "https://www.wsk.at/konzerte-events/konzerte/",
    "http": 200,
-   "chars": 10405,
+   "chars": 10900,
    "jsonLdEvents": 0
   },
-  "reg-mak-visit": {
-   "url": "https://www.mak.at/en/visit",
-   "final": "https://www.mak.at/besuch/oeffnungszeiten__preise",
+  "reg-naschmarkt": {
+   "url": "https://www.wien.gv.at/freizeit/naschmarkt",
+   "final": "https://www.wien.gv.at/freizeit/naschmarkt",
    "http": 200,
-   "chars": 9278,
+   "chars": 15275,
    "jsonLdEvents": 0
   },
-  "reg-wieninfo-markets": {
-   "url": "https://www.wien.info/en/dine-drink/markets-districts",
-   "final": "https://www.wien.info/en/dine-drink/markets-districts",
-   "http": 404,
-   "chars": 10077,
+  "reg-muth-friday": {
+   "url": "https://muth.at/programm/friday-afternoon-2026-10-23/",
+   "final": "https://muth.at/programm/friday-afternoon-2026-10-23/",
+   "http": 200,
+   "chars": 5117,
    "jsonLdEvents": 0
   }
  }
