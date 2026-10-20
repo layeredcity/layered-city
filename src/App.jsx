@@ -469,7 +469,7 @@ function EventsPanel({ city, stories: allEventStories, group, onGroup, onSelect 
     <>
       {chips}
       {groupEvents(stories.map(s => s.event)).flatMap(g => [
-        <div key={'h-' + g.key} className="story-group-heading">{g.label}</div>,
+        <div key={'h-' + g.key} className="story-group-heading story-group-heading--events">{g.label}</div>,
         ...g.events.map(e => <EventItem key={g.key + e.id} story={byId[e.id]} onSelect={onSelect} />),
       ])}
     </>
