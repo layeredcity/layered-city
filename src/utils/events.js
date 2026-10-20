@@ -30,7 +30,7 @@ export function eventsUpdated(cityName) {
   const u = data[cityName]?.updated
   if (!u) return null
   const d = parse(u)
-  return `${d.getDate()} ${MONTHS[d.getMonth()]}`
+  return `${MONTHS[d.getMonth()]} ${d.getDate()}`
 }
 
 export function groupEvents(events) {

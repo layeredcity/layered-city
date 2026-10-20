@@ -650,3 +650,4 @@ img.city-hero__img.is-loaded { opacity: 1; }
   .event-chips::-webkit-scrollbar { display: none; }
   .event-chip { flex-shrink: 0; padding: 4px 9px; font-size: 11.5px; }
 }
+.events-updated-note { font-size: 11px; line-height: 1.35; color: var(--ink-light); text-align: right; }

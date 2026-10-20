@@ -452,7 +452,6 @@ function EventItem({ story, onSelect }) {
 }
 
 function EventsPanel({ city, stories: allEventStories, group, onGroup, onSelect }) {
-  const updated = eventsUpdated(city.name)
   const groups = EVENT_GROUPS.filter(g => allEventStories.some(s => eventGroupOf(s.event) === g.label))
   const stories = group === 'All' ? allEventStories : allEventStories.filter(s => eventGroupOf(s.event) === group)
   const chips = groups.length > 1 && (
@@ -469,7 +468,6 @@ function EventsPanel({ city, stories: allEventStories, group, onGroup, onSelect 
   return (
     <>
       {chips}
-      {updated && <div className="events-updated">Updated weekly · last checked {updated}. Times change; check the link before you go.</div>}
       {groupEvents(stories.map(s => s.event)).flatMap(g => [
         <div key={'h-' + g.key} className="story-group-heading">{g.label}</div>,
         ...g.events.map(e => <EventItem key={g.key + e.id} story={byId[e.id]} onSelect={onSelect} />),
@@ -1667,6 +1665,9 @@ export default function App() {
                 </div>
                 <div className="stories-header">
                   <div className="stories-header__title">{currentFilter.label}</div>
+                  {currentFilter.events && eventsUpdated(selectedCity.name) && (
+                    <div className="events-updated-note">Updated weekly<br />Last checked {eventsUpdated(selectedCity.name)}</div>
+                  )}
                   {showSortToggle && filteredStories.length > 1 && (
                     <div className="sort-toggle" role="group" aria-label="Sort by">
                       <button
