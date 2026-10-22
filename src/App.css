@@ -652,3 +652,6 @@ img.city-hero__img.is-loaded { opacity: 1; }
 }
 .events-updated-note { font-size: 11px; line-height: 1.35; color: var(--ink-light); text-align: right; }
 .story-group-heading--events { background: rgb(222 234 251); color: #2E3B52; border-bottom-color: rgb(205 220 243); }
+.event-modal__btns { flex-direction: column; gap: 8px; }
+.story-modal__btn--secondary { background: var(--white); color: #153B8F; box-shadow: inset 0 0 0 1.5px #153B8F; }
+.story-modal__btn--secondary:hover { background: rgb(239 246 255); }

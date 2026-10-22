@@ -114,6 +114,7 @@ export function eventDateText(e) {
 export function eventStories(cityName) {
   return upcomingEvents(cityName).map(e => ({
     id: 'event-' + e.id,
+    city: cityName,
     mediaType: 'event',
     title: e.titleEnglish || e.title,
     description: e.description,

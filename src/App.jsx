@@ -478,6 +478,15 @@ function EventsPanel({ city, stories: allEventStories, group, onGroup, onSelect 
   )
 }
 
+// Google Maps directions to the venue, from wherever the traveller is now.
+// The venue name plus city lets Maps show the place (hours, photos) rather than
+// a bare pin; the coordinates go along as a fallback hint.
+function directionsUrl(e, story) {
+  const city = story.city || ''
+  const dest = encodeURIComponent([e.venue, city].filter(Boolean).join(', '))
+  return `https://www.google.com/maps/dir/?api=1&destination=${dest}&travelmode=transit`
+}
+
 // The full event, shared by the desktop pop-up and the mobile detail panel.
 function EventDetail({ story }) {
   const e = story.event
@@ -506,12 +515,20 @@ function EventDetail({ story }) {
         <EventFact icon={META_ICONS.price}>{e.price}</EventFact>
         <EventFact icon={META_ICONS.language}>{e.language}</EventFact>
       </div>
-      {e.url && (
-        <div className="story-modal__btn-row">
-          <a href={e.url} target="_blank" rel="noreferrer" className="story-modal__btn">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="story-modal__btn-icon"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2M13 17v2M13 11v2"/></svg>
-            {e.linkLabel && /ticket/i.test(e.linkLabel) ? 'Get tickets' : 'Details and tickets'}
-          </a>
+      {(e.url || story.location) && (
+        <div className="story-modal__btn-row event-modal__btns">
+          {e.url && (
+            <a href={e.url} target="_blank" rel="noreferrer" className="story-modal__btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="story-modal__btn-icon"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2M13 17v2M13 11v2"/></svg>
+              {e.linkLabel && /ticket/i.test(e.linkLabel) ? 'Get tickets' : 'Details and tickets'}
+            </a>
+          )}
+          {story.location && (
+            <a href={directionsUrl(e, story)} target="_blank" rel="noreferrer" className="story-modal__btn story-modal__btn--secondary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="story-modal__btn-icon"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>
+              Get directions
+            </a>
+          )}
         </div>
       )}
     </>
