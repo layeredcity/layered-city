@@ -655,3 +655,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .event-modal__btns { flex-direction: column; gap: 8px; }
 .story-modal__btn--secondary { background: var(--white); color: #153B8F; box-shadow: inset 0 0 0 1.5px #153B8F; }
 .story-modal__btn--secondary:hover { background: rgb(239 246 255); }
+/* Keep the calendar rings' z-index inside the date box, so the sticky day
+   headings slide over them when the list scrolls. */
+.event-item__date { isolation: isolate; }
+.story-group-heading--events { z-index: 2; }
