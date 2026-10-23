@@ -41,7 +41,7 @@ The window runs from today to 28 days out. Aim for 25–40 entries.
 - **Aim for a mix:**
   - opera and ballet (pick standout productions, not every night);
   - concerts (classical, jazz, Wienerlied, pop/rock at real venues);
-  - theatre and dance, flagging anything with English surtitles or in English;
+  - theatre and dance, flagging anything with English subtitles or in English;
   - film festivals and special screenings;
   - exhibitions (new openings, plus anything closing within the window, with
     "last chance" in the copy);
@@ -141,7 +141,7 @@ event instead.
 - **No other metadata.** Every extra detail belongs in a field above (date info in
   `dateNote`, cost in `price`, hall in `venueNote`, hours in `hours`), in the
   description or why, or nowhere. Leave out anything already said elsewhere,
-  such as surtitles already covered by `language`, plus trivia like "also
+  such as subtitles already covered by `language`, plus trivia like "also
   livestreamed". Keep `language` short ("Language not confirmed", "Sung in
   Italian, subtitles not confirmed"). `linkLabel` is plain English: "Tickets",
   "Event page", "Exhibition page", "Programme".
@@ -160,12 +160,12 @@ event instead.
   Viennese actually spend the holiday, or standing places from €15. Don't write
   "a must-see" or "unforgettable".
 - **`language`:** required, and always explicit, so nobody has to wonder. Examples:
-  "In English", "In German, no English", "In German with English surtitles",
+  "In English", "In German, no English", "In German with English subtitles",
   "Sung in Italian, English subtitles on the seat screens", "Original language with
   English subtitles", "No language needed" (instrumental music, dance, most
   exhibitions). Base it on a raw source file. If the source doesn't say, write
   "Language not confirmed, check before booking". Never guess about subtitles or
-  surtitles. The language a work is sung or performed in is a fact about the
+  subtitles. The language a work is sung or performed in is a fact about the
   work, though, so state it ("Sung in Italian. Subtitles not confirmed, check
   before booking"; "Sung in English" for Handel’s English oratorios; "In English"
   for an English-speaking band).
@@ -188,6 +188,8 @@ tell a friend about it over coffee, not the way a programme note reads.
   conductors, directors or casts unless one is famous to non-fans (Jonas
   Kaufmann can stay, as "one of the world’s best-known tenors").
 - **No insider trivia** (nine high Cs, founding histories, who initiated what).
+- **Say "subtitles", not "surtitles".** Surtitles is the theatre term for text
+  shown above the stage, but most travellers know the plain word.
 - **Explain places.** Never use a hall or room name on its own ("Metallener Saal");
   say what and where it is, or just name the building ("at the Konzerthaus").
   Explain German terms (Stehplatz = standing place, Heuriger = wine tavern).
