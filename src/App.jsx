@@ -79,6 +79,13 @@ function tourToQualityRating(rating, numberOfRatings) {
 // ratings lines up cleanly.
 const formatGoodreads = r => Number(r).toFixed(2)
 
+// Great-circle distance between two points, in km.
+function distanceKm(lat1, lon1, lat2, lon2) {
+  const r = Math.PI / 180
+  const a = Math.sin((lat2 - lat1) * r / 2) ** 2 + Math.cos(lat1 * r) * Math.cos(lat2 * r) * Math.sin((lon2 - lon1) * r / 2) ** 2
+  return 12742 * Math.asin(Math.sqrt(a))
+}
+
 function slugify(name) {
   return name
     .toLowerCase()
@@ -1534,6 +1541,30 @@ export default function App() {
     return () => window.removeEventListener('popstate', onPopState)
   }, [selectCity])
 
+  // Nearest city first. Location is approximate (from the visitor's connection,
+  // via the /api/geo edge function, so no permission prompt) and only counts
+  // when a city is within NEAR_KM; someone in Minneapolis keeps the usual order.
+  const [visitorGeo, setVisitorGeo] = useState(null)
+  useEffect(() => {
+    fetch('/api/geo').then(r => r.ok ? r.json() : null).then(g => { if (g?.lat != null && g?.lon != null) setVisitorGeo(g) }).catch(() => {})
+  }, [])
+  const nearestCityId = useMemo(() => {
+    if (!visitorGeo || !cities.length) return null
+    const NEAR_KM = 250
+    let best = null
+    for (const c of cities) {
+      const lat = c.coordinates?.lat, lon = c.coordinates?.lon
+      if (lat == null || lon == null) continue
+      const d = distanceKm(visitorGeo.lat, visitorGeo.lon, lat, lon)
+      if (!best || d < best.d) best = { id: c.id, d }
+    }
+    return best && best.d <= NEAR_KM ? best.id : null
+  }, [visitorGeo, cities])
+  const orderedCities = useMemo(() => {
+    if (!nearestCityId) return cities
+    const near = cities.find(c => c.id === nearestCityId)
+    return [near, ...cities.filter(c => c.id !== nearestCityId)]
+  }, [cities, nearestCityId])
   const currentFilter = FILTERS.find(f => f.label === activeFilter) || FILTERS[0]
   // Events (pilot) ride on the map alongside the stories: their pins are made
   // with everything else and only shown while the Events section is open.
@@ -1629,7 +1660,7 @@ export default function App() {
           </div>
         </div>
         <div className="panel-cities__scroll">
-          {cities.map(city => (
+          {orderedCities.map(city => (
             <div
               key={city.id}
               className={"city-item" + (selectedCity && selectedCity.id === city.id ? ' city-item--active' : '')}
@@ -1643,7 +1674,7 @@ export default function App() {
               </div>
               <div className="city-item__info">
                 <div className="city-item__name">{city.name}</div>
-                <div className="city-item__country">{city.country}</div>
+                <div className="city-item__country">{city.country}{nearestCityId === city.id && <span className="city-item__near"> · Near you</span>}</div>
               </div>
             </div>
           ))}

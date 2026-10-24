@@ -659,3 +659,4 @@ img.city-hero__img.is-loaded { opacity: 1; }
    headings slide over them when the list scrolls. */
 .event-item__date { isolation: isolate; }
 .story-group-heading--events { z-index: 2; }
+.city-item__near { color: var(--ink-light); }
