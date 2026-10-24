@@ -1,8 +1,14 @@
 # Events refresh (weekly)
 
-The Events section is a pilot for Vienna. Once a week, a scheduled session rewrites
+The Events section is a pilot for **Vienna and Berlin**. Once a week, a scheduled session rewrites
 `src/data/events.json` with what's on in the city over the next four weeks. The app
 drops past events by itself, so nothing breaks between refreshes.
+
+Run every step for each city in turn: `vienna` → key `"Vienna"`, `berlin` → key
+`"Berlin"` in `src/data/events.json`. `<city>` below is the lower-case folder
+name. A city's key must match its name in the app exactly. To add a city,
+create `events/sources/<city>.json` and `events/venues/<city>.json` and add it
+to the list above.
 
 ## 1. Get fresh source pages
 
@@ -11,22 +17,22 @@ A GitHub job does the fetching instead and commits the page text to
 `events/raw/<city>/`.
 
 1. `git pull --rebase origin main`
-2. Look at `FETCHED` near the top of any file in `events/raw/vienna/`. If it is
+2. Look at `FETCHED` near the top of any file in `events/raw/<city>/`. If it is
    more than 2 days old, trigger a fetch:
    - `date -u > events/run-fetch`, then commit and push.
    - Poll `https://api.github.com/repos/layeredcity/layered-city/actions/runs?per_page=1&event=push`
      with curl until `status` is `completed`, then pull.
-3. `events/raw/vienna/_status.json` lists each source with its HTTP status and
+3. `events/raw/<city>/_status.json` lists each source with its HTTP status and
    size. `*.txt` holds the page text, with links shown as `⟨url⟩`.
    `*.events.json` holds any schema.org Event data found on the page.
 4. If a source is consistently 404, failing or nearly empty, fix or replace its
-   URL in `events/sources/vienna.json`. The homepage's links (in the `.txt`)
+   URL in `events/sources/<city>.json`. The homepage's links (in the `.txt`)
    usually show the right listing page.
 
 You can use WebSearch to find candidates or a source the job doesn't cover yet.
 Search results show only titles and URLs, so every date, time and venue must
 come from a raw source file. If something looks good but isn't covered, add its
-URL to `events/sources/vienna.json`, refetch and read it.
+URL to `events/sources/<city>.json`, refetch and read it.
 
 ## 2. Choose events
 
@@ -59,7 +65,7 @@ Include a few things that happen on fixed weekdays and that a visitor would plan
 around: a Saturday flea market, farmers' market days, the Boys' Choir Sunday
 mass. Leave out places that are simply open every day (the Naschmarkt itself, a
 museum's normal hours); those aren't events. Keep it selective, at around 4–8
-regulars. Each one needs a source page in `events/sources/vienna.json` that
+regulars. Each one needs a source page in `events/sources/<city>.json` that
 confirms its days, hours and exceptions.
 
 A regular is one entry with `repeat: { "weekdays": ["Sat"], "except":
@@ -146,9 +152,11 @@ event instead.
   Italian, subtitles not confirmed"). `linkLabel` is plain English: "Tickets",
   "Event page", "Exhibition page", "Programme".
 - **`lat` / `lon`:** the venue's coordinates (4 decimals), which put the event on
-  the map. Take them from `events/venues/vienna.json`. For a new venue, add it to
+  the map. Take them from `events/venues/<city>.json`. For a new venue, add it to
   that file with its real coordinates (Wikipedia or OpenStreetMap, which you may
-  find via WebSearch). Never estimate them. Events at "Various venues" get no
+  find via WebSearch, or a landmark you know precisely). If you aren't sure of a
+  venue's location to within about 100 m, leave its coordinates out; the event
+  still shows in the list, just without a pin. Events at "Various venues" get no
   coordinates; they still show in the list.
 - **`venue`:** the plain name a map search will find, such as "Musikverein" or
   "Wiener Staatsoper".
@@ -229,7 +237,7 @@ time, price or event.** If the sources don't confirm it, leave it out.
   - no ids are duplicated.
 - Set `updated` to today. Sort the events by `start`.
 - Commit only `src/data/events.json` and any `events/sources/` or `events/venues/` changes, with the
-  message "Refresh Vienna events" and the attribution lines. Then run
+  message "Refresh events" and the attribution lines. Then run
   `git pull --rebase origin main && git push origin HEAD:main`. Netlify deploys on
   push.
 - Finish with a short summary of what's new this week: 5–8 highlights in one
