@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-20T05:54:46.415Z",
+ "fetched": "2026-10-24T18:08:14.165Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -33,56 +33,56 @@
    "url": "https://www.wiener-staatsoper.at/en/calendar/",
    "final": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
    "http": 200,
-   "chars": 112526,
+   "chars": 113889,
    "jsonLdEvents": 0
   },
   "volksoper": {
    "url": "https://www.volksoper.at/spielplan/",
    "final": "https://www.volksoper.at/spielplan/",
    "http": 200,
-   "chars": 10120,
+   "chars": 7839,
    "jsonLdEvents": 0
   },
   "theater-an-der-wien": {
    "url": "https://www.theater-wien.at/en/calendar",
    "final": "https://www.theater-wien.at/en/calendar",
    "http": 200,
-   "chars": 45824,
+   "chars": 43678,
    "jsonLdEvents": 0
   },
   "musikverein": {
    "url": "https://spielplan.musikverein.at/spielplan?month=2026-10",
    "final": "https://spielplan.musikverein.at/spielplan?month=2026-10",
    "http": 200,
-   "chars": 16731,
+   "chars": 14206,
    "jsonLdEvents": 0
   },
   "konzerthaus": {
    "url": "https://konzerthaus.at/en/program-and-tickets",
    "final": "https://konzerthaus.at/en/program-and-tickets",
    "http": 200,
-   "chars": 5521,
+   "chars": 5054,
    "jsonLdEvents": 0
   },
   "burgtheater": {
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 16927,
+   "chars": 13324,
    "jsonLdEvents": 0
   },
   "viennale": {
    "url": "https://www.viennale.at/en",
    "final": "https://www.viennale.at/en",
    "http": 200,
-   "chars": 20511,
+   "chars": 19978,
    "jsonLdEvents": 0
   },
   "wien-modern": {
    "url": "https://www.wienmodern.at/2026-calendar-en",
    "final": "https://www.wienmodern.at/calendar-en",
    "http": 200,
-   "chars": 160644,
+   "chars": 169044,
    "jsonLdEvents": 0
   },
   "vienna-art-week": {
@@ -96,7 +96,7 @@
    "url": "https://www.filmmuseum.at/en",
    "final": "https://www.filmmuseum.at/en",
    "http": 200,
-   "chars": 41935,
+   "chars": 40858,
    "jsonLdEvents": 0
   },
   "albertina": {
@@ -109,29 +109,29 @@
   "belvedere": {
    "url": "https://www.belvedere.at/en/exhibitions",
    "final": "https://www.belvedere.at/en/current-exhibitions",
-   "http": 500,
-   "chars": 61,
-   "jsonLdEvents": 0
+   "http": 200,
+   "chars": 12979,
+   "jsonLdEvents": 5
   },
   "khm": {
    "url": "https://www.khm.at/en/exhibitions/",
    "final": "https://www.khm.at/en/exhibitions",
    "http": 200,
-   "chars": 10269,
+   "chars": 10439,
    "jsonLdEvents": 0
   },
   "leopold": {
    "url": "https://www.leopoldmuseum.org/en/exhibitions",
    "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
    "http": 200,
-   "chars": 7604,
+   "chars": 7618,
    "jsonLdEvents": 0
   },
   "mak": {
    "url": "https://www.mak.at/en/exhibitions/current",
    "final": "https://www.mak.at/en/exhibitions/current",
    "http": 200,
-   "chars": 8564,
+   "chars": 8780,
    "jsonLdEvents": 0
   },
   "mumok": {
@@ -145,70 +145,70 @@
    "url": "https://kunsthallewien.at/en/",
    "final": "https://kunsthallewien.at/en/",
    "http": 200,
-   "chars": 9250,
+   "chars": 9471,
    "jsonLdEvents": 0
   },
   "secession": {
    "url": "https://www.secession.at/en/",
    "final": "https://secession.at/en/",
    "http": 200,
-   "chars": 37771,
+   "chars": 38119,
    "jsonLdEvents": 0
   },
   "kunsthauswien": {
    "url": "https://www.kunsthauswien.com/en/",
    "final": "https://www.kunsthauswien.com/en/",
    "http": 200,
-   "chars": 7563,
+   "chars": 8181,
    "jsonLdEvents": 0
   },
   "mq": {
    "url": "https://www.mqw.at/en/program",
    "final": "https://www.mqw.at/en/program/events/",
    "http": 200,
-   "chars": 19274,
+   "chars": 20349,
    "jsonLdEvents": 0
   },
   "porgy": {
    "url": "https://www.porgy.at/events/upcoming",
    "final": "https://www.porgy.at/events/upcoming",
    "http": 200,
-   "chars": 37347,
+   "chars": 37935,
    "jsonLdEvents": 0
   },
   "arena": {
    "url": "https://www.arena.wien/",
    "final": "https://arena.wien/",
    "http": 200,
-   "chars": 5111,
+   "chars": 4889,
    "jsonLdEvents": 0
   },
   "wuk": {
    "url": "https://www.wuk.at/en/",
    "final": "https://www.wuk.at/en/",
    "http": 200,
-   "chars": 5831,
+   "chars": 4736,
    "jsonLdEvents": 0
   },
   "tqw": {
    "url": "https://tqw.at/en/",
    "final": "https://www.tqw.at/en/",
    "http": 200,
-   "chars": 10748,
+   "chars": 10923,
    "jsonLdEvents": 0
   },
   "staatsoper-nov": {
    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
    "final": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
    "http": 200,
-   "chars": 94158,
+   "chars": 94691,
    "jsonLdEvents": 0
   },
   "mak-events": {
    "url": "https://www.mak.at/en",
    "final": "https://www.mak.at/en",
    "http": 200,
-   "chars": 14916,
+   "chars": 15100,
    "jsonLdEvents": 5
   },
   "wieninfo-autumn": {
@@ -222,21 +222,21 @@
    "url": "https://www.wien.info/en/art-culture/museums-exhibitions/culture-in-vienna-in-fall-343868",
    "final": "https://www.wien.info/en/art-culture/museums-exhibitions/culture-in-vienna-in-fall-343868",
    "http": 200,
-   "chars": 24746,
+   "chars": 25305,
    "jsonLdEvents": 0
   },
   "wieninfo-art-on-display": {
    "url": "https://www.wien.info/en/art-culture/museums-exhibitions/art-on-display-in-vienna-339648",
    "final": "https://www.wien.info/en/art-culture/museums-exhibitions/art-on-display-in-vienna-339648",
    "http": 200,
-   "chars": 24055,
+   "chars": 25484,
    "jsonLdEvents": 0
   },
   "wieninfo-christmas": {
    "url": "https://www.wien.info/en/now-on/christmas/christmas-markets-342664",
    "final": "https://www.wien.info/en/now-on/christmas/christmas-markets-342664",
    "http": 200,
-   "chars": 25102,
+   "chars": 25176,
    "jsonLdEvents": 0
   },
   "wieninfo-design-fairs": {
@@ -250,35 +250,35 @@
    "url": "https://konzerthaus.at/en/program-and-tickets?page=2",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=2",
    "http": 200,
-   "chars": 5150,
+   "chars": 5065,
    "jsonLdEvents": 0
   },
   "konzerthaus-3": {
    "url": "https://konzerthaus.at/en/program-and-tickets?page=3",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=3",
    "http": 200,
-   "chars": 5181,
+   "chars": 4991,
    "jsonLdEvents": 0
   },
   "konzerthaus-4": {
    "url": "https://konzerthaus.at/en/program-and-tickets?page=4",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=4",
    "http": 200,
-   "chars": 4961,
+   "chars": 4669,
    "jsonLdEvents": 0
   },
   "konzerthaus-5": {
    "url": "https://konzerthaus.at/en/program-and-tickets?page=5",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=5",
    "http": 200,
-   "chars": 4919,
+   "chars": 5163,
    "jsonLdEvents": 0
   },
   "konzerthaus-6": {
    "url": "https://konzerthaus.at/en/program-and-tickets?page=6",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=6",
    "http": 200,
-   "chars": 4893,
+   "chars": 5231,
    "jsonLdEvents": 0
   },
   "khm-upcoming": {
@@ -292,14 +292,14 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 32886,
+   "chars": 32826,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
    "url": "https://spielplan.musikverein.at/spielplan?month=2026-11",
    "final": "https://spielplan.musikverein.at/spielplan?month=2026-11",
    "http": 200,
-   "chars": 62103,
+   "chars": 62079,
    "jsonLdEvents": 0
   },
   "reg-flohmarkt": {
@@ -331,7 +331,7 @@
    "url": "https://www.wsk.at/konzerte-events/konzerte/",
    "final": "https://www.wsk.at/konzerte-events/konzerte/",
    "http": 200,
-   "chars": 10900,
+   "chars": 10967,
    "jsonLdEvents": 0
   },
   "reg-naschmarkt": {
@@ -345,7 +345,7 @@
    "url": "https://muth.at/programm/friday-afternoon-2026-10-23/",
    "final": "https://muth.at/programm/friday-afternoon-2026-10-23/",
    "http": 200,
-   "chars": 5117,
+   "chars": 5118,
    "jsonLdEvents": 0
   }
  }
