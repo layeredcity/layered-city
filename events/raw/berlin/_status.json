@@ -1,11 +1,11 @@
 {
- "fetched": "2026-10-24T18:09:32.477Z",
+ "fetched": "2026-10-24T18:21:26.265Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 28480,
+   "chars": 29240,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
@@ -16,10 +16,10 @@
    "jsonLdEvents": 0
   },
   "exberliner": {
-   "url": "https://www.the-berliner.com/events/",
-   "final": "https://www.the-berliner.com/events/",
+   "url": "https://www.the-berliner.com/events/whats-on-this-week-daily-tips-berlin/",
+   "final": "https://www.the-berliner.com/events/whats-on-this-week-daily-tips-berlin/",
    "http": 200,
-   "chars": 3784,
+   "chars": 9633,
    "jsonLdEvents": 0
   },
   "staatsoper": {
@@ -30,8 +30,8 @@
    "jsonLdEvents": 0
   },
   "deutsche-oper": {
-   "url": "https://deutscheoperberlin.de/en_EN/calendar",
-   "final": "https://deutscheoperberlin.de/en_EN/calendar",
+   "url": "https://deutscheoperberlin.de/en_EN/calendar?month=2026-11",
+   "final": "https://deutscheoperberlin.de/en_EN/calendar?month=2026-11",
    "http": 200,
    "chars": 4334,
    "jsonLdEvents": 0
@@ -61,7 +61,7 @@
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "http": 200,
-   "chars": 19591,
+   "chars": 19731,
    "jsonLdEvents": 0
   },
   "schaubuehne": {
@@ -72,11 +72,11 @@
    "jsonLdEvents": 0
   },
   "gorki": {
-   "url": "https://www.gorki.de/en",
-   "final": "https://www.gorki.de/en",
+   "url": "https://www.gorki.de/en/schedule",
+   "final": "https://www.gorki.de/en/schedule",
    "http": 200,
-   "chars": 3197,
-   "jsonLdEvents": 0
+   "chars": 13157,
+   "jsonLdEvents": 60
   },
   "deutsches-theater": {
    "url": "https://www.deutschestheater.de/en/programme/",
@@ -93,10 +93,10 @@
    "jsonLdEvents": 0
   },
   "hau": {
-   "url": "https://www.hebbel-am-ufer.de/en/programme/",
-   "final": "https://www.hebbel-am-ufer.de/en/programme/",
+   "url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
+   "final": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
    "http": 200,
-   "chars": 4578,
+   "chars": 47063,
    "jsonLdEvents": 0
   },
   "radialsystem": {
@@ -163,17 +163,17 @@
    "jsonLdEvents": 0
   },
   "humboldt-forum": {
-   "url": "https://www.humboldtforum.org/en/programm/",
-   "final": "https://www.humboldtforum.org/de/programm/",
-   "http": 200,
-   "chars": 22407,
+   "url": "https://www.humboldtforum.org/en/angebote/genre/ausstellung/",
+   "final": "https://www.humboldtforum.org/en/angebote/genre/ausstellung/",
+   "http": 404,
+   "chars": 4394,
    "jsonLdEvents": 0
   },
   "hkw": {
-   "url": "https://www.hkw.de/en/programme",
-   "final": "https://www.hkw.de/en/programme",
+   "url": "https://www.hkw.de/en/calendar",
+   "final": "https://www.hkw.de/en/calendar",
    "http": 200,
-   "chars": 1655,
+   "chars": 1653,
    "jsonLdEvents": 0
   },
   "arsenal": {
@@ -184,10 +184,10 @@
    "jsonLdEvents": 0
   },
   "wall-memorial": {
-   "url": "https://www.stiftung-berliner-mauer.de/en",
-   "final": "https://www.stiftung-berliner-mauer.de/en",
+   "url": "https://www.stiftung-berliner-mauer.de/en/visit/program",
+   "final": "https://www.stiftung-berliner-mauer.de/en/visit/program",
    "http": 200,
-   "chars": 19346,
+   "chars": 20348,
    "jsonLdEvents": 0
   },
   "reg-markthalle-neun": {
@@ -208,7 +208,7 @@
    "url": "https://www.visitberlin.de/en/events-berlin",
    "final": "https://www.visitberlin.de/en/events-berlin",
    "http": 200,
-   "chars": 20882,
+   "chars": 20869,
    "jsonLdEvents": 0
   },
   "visitberlin-classical": {
@@ -219,10 +219,24 @@
    "jsonLdEvents": 0
   },
   "visitberlin-markets": {
-   "url": "https://www.visitberlin.de/en/flea-markets-berlin",
-   "final": "https://www.visitberlin.de/en/flea-markets-berlin",
+   "url": "https://www.visitberlin.de/de/flohmaerkte-berlin",
+   "final": "https://www.visitberlin.de/de/flohmaerkte-berlin",
    "http": 404,
-   "chars": 8840,
+   "chars": 9382,
+   "jsonLdEvents": 0
+  },
+  "staatsoper-nov": {
+   "url": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
+   "final": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
+   "http": 200,
+   "chars": 11610,
+   "jsonLdEvents": 0
+  },
+  "berliner-ensemble-2": {
+   "url": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
+   "final": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
+   "http": 200,
+   "chars": 19102,
    "jsonLdEvents": 0
   }
  }

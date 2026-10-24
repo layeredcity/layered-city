@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-24T18:10:29.584Z",
+ "fetched": "2026-10-24T18:22:32.765Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -68,7 +68,7 @@
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 13324,
+   "chars": 13284,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -124,7 +124,7 @@
    "url": "https://www.leopoldmuseum.org/en/exhibitions",
    "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
    "http": 200,
-   "chars": 7618,
+   "chars": 7620,
    "jsonLdEvents": 0
   },
   "mak": {
@@ -292,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 32606,
+   "chars": 32676,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
