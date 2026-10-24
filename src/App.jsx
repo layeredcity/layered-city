@@ -1542,11 +1542,16 @@ export default function App() {
   }, [selectCity])
 
   // Nearest city first. Location is approximate (from the visitor's connection,
-  // via the /api/geo edge function, so no permission prompt) and only counts
+  // so no permission prompt) and only counts
   // when a city is within NEAR_KM; someone in Minneapolis keeps the usual order.
   const [visitorGeo, setVisitorGeo] = useState(null)
   useEffect(() => {
-    fetch('/api/geo').then(r => r.ok ? r.json() : null).then(g => { if (g?.lat != null && g?.lon != null) setVisitorGeo(g) }).catch(() => {})
+    // GeoJS: free IP-to-city lookup, no key, no permission prompt. Only the
+    // rough coordinates are used, and only in the browser.
+    fetch('https://get.geojs.io/v1/ip/geo.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(g => { const lat = parseFloat(g?.latitude), lon = parseFloat(g?.longitude); if (!isNaN(lat) && !isNaN(lon)) setVisitorGeo({ lat, lon }) })
+      .catch(() => {})
   }, [])
   const nearestCityId = useMemo(() => {
     if (!visitorGeo || !cities.length) return null
