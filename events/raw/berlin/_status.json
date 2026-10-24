@@ -1,18 +1,11 @@
 {
- "fetched": "2026-10-24T18:07:01.115Z",
+ "fetched": "2026-10-24T18:09:32.477Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
    "chars": 28480,
-   "jsonLdEvents": 0
-  },
-  "visitberlin-highlights": {
-   "url": "https://www.visitberlin.de/en/event-highlights-berlin",
-   "final": "https://www.visitberlin.de/en/event-highlights-berlin",
-   "http": 404,
-   "chars": 8840,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
@@ -23,10 +16,10 @@
    "jsonLdEvents": 0
   },
   "exberliner": {
-   "url": "https://www.exberliner.com/whats-on/",
-   "final": "https://www.the-berliner.com/whats-on/",
-   "http": 404,
-   "chars": 1476,
+   "url": "https://www.the-berliner.com/events/",
+   "final": "https://www.the-berliner.com/events/",
+   "http": 200,
+   "chars": 3784,
    "jsonLdEvents": 0
   },
   "staatsoper": {
@@ -44,10 +37,10 @@
    "jsonLdEvents": 0
   },
   "komische-oper": {
-   "url": "https://www.komische-oper-berlin.de/en/programme/",
-   "final": "https://www.komische-oper-berlin.de/en/programme/",
-   "http": 404,
-   "chars": 5500,
+   "url": "https://www.komische-oper-berlin.de/en/what/schedule/",
+   "final": "https://www.komische-oper-berlin.de/en/what/schedule/",
+   "http": 200,
+   "chars": 37796,
    "jsonLdEvents": 0
   },
   "philharmonie": {
@@ -58,31 +51,31 @@
    "jsonLdEvents": 0
   },
   "konzerthaus": {
-   "url": "https://www.konzerthaus.de/en/programme",
-   "final": "https://www.konzerthaus.de/en/programme",
-   "http": 404,
-   "chars": 484,
+   "url": "https://www.konzerthaus.de/en/programm",
+   "final": "https://www.konzerthaus.de/en/programm/24-10-2026",
+   "http": 200,
+   "chars": 27261,
    "jsonLdEvents": 0
   },
   "berliner-ensemble": {
-   "url": "https://www.berliner-ensemble.de/en/spielplan",
-   "final": "https://www.berliner-ensemble.de/en/spielplan",
-   "http": 404,
-   "chars": 3085,
+   "url": "https://www.berliner-ensemble.de/index.php/en/schedule",
+   "final": "https://www.berliner-ensemble.de/index.php/en/schedule",
+   "http": 200,
+   "chars": 19591,
    "jsonLdEvents": 0
   },
   "schaubuehne": {
-   "url": "https://www.schaubuehne.de/en/spielplan/",
-   "final": "https://www.schaubuehne.de/en/spielplan/",
-   "http": 404,
-   "chars": 116,
+   "url": "https://www.schaubuehne.de/en/start/index.html",
+   "final": "https://www.schaubuehne.de/en/start/index.html",
+   "http": 200,
+   "chars": 10259,
    "jsonLdEvents": 0
   },
   "gorki": {
-   "url": "https://www.gorki.de/en/programme",
-   "final": "https://www.gorki.de/en/programme",
-   "http": 404,
-   "chars": 19,
+   "url": "https://www.gorki.de/en",
+   "final": "https://www.gorki.de/en",
+   "http": 200,
+   "chars": 3197,
    "jsonLdEvents": 0
   },
   "deutsches-theater": {
@@ -93,10 +86,10 @@
    "jsonLdEvents": 0
   },
   "volksbuehne": {
-   "url": "https://www.volksbuehne.berlin/en/spielplan",
-   "final": "https://www.volksbuehne-berlin.de/en/spielplan/",
-   "http": 404,
-   "chars": 2070,
+   "url": "https://www.volksbuehne.berlin/en",
+   "final": "https://www.volksbuehne-berlin.de/en/",
+   "http": 200,
+   "chars": 38001,
    "jsonLdEvents": 0
   },
   "hau": {
@@ -156,10 +149,10 @@
    "jsonLdEvents": 0
   },
   "co-berlin": {
-   "url": "https://co-berlin.org/en/program",
-   "final": "https://co-berlin.org/en/program",
-   "http": 404,
-   "chars": 4049,
+   "url": "https://co-berlin.org/en/program/exhibitions",
+   "final": "https://co-berlin.org/en/program/exhibitions",
+   "http": 200,
+   "chars": 4813,
    "jsonLdEvents": 0
   },
   "jewish-museum": {
@@ -197,13 +190,6 @@
    "chars": 19346,
    "jsonLdEvents": 0
   },
-  "reg-mauerpark": {
-   "url": "https://www.mauerparkmarkt.de/",
-   "final": "https://buffalo-technology.com/casinoohneoasis/",
-   "http": 200,
-   "chars": 32706,
-   "jsonLdEvents": 0
-  },
   "reg-markthalle-neun": {
    "url": "https://markthalleneun.de/en/",
    "final": "https://markthalleneun.de/en/",
@@ -216,6 +202,27 @@
    "final": "https://www.berliner-philharmoniker.de/en/concerts/lunch-concerts/",
    "http": 200,
    "chars": 14870,
+   "jsonLdEvents": 0
+  },
+  "visitberlin-events": {
+   "url": "https://www.visitberlin.de/en/events-berlin",
+   "final": "https://www.visitberlin.de/en/events-berlin",
+   "http": 200,
+   "chars": 20882,
+   "jsonLdEvents": 0
+  },
+  "visitberlin-classical": {
+   "url": "https://www.visitberlin.de/en/events-classic-music",
+   "final": "https://www.visitberlin.de/en/events-classic-music-berlin",
+   "http": 200,
+   "chars": 29457,
+   "jsonLdEvents": 0
+  },
+  "visitberlin-markets": {
+   "url": "https://www.visitberlin.de/en/flea-markets-berlin",
+   "final": "https://www.visitberlin.de/en/flea-markets-berlin",
+   "http": 404,
+   "chars": 8840,
    "jsonLdEvents": 0
   }
  }

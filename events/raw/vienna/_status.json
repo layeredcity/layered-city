@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-24T18:08:14.165Z",
+ "fetched": "2026-10-24T18:10:29.584Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -264,7 +264,7 @@
    "url": "https://konzerthaus.at/en/program-and-tickets?page=4",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=4",
    "http": 200,
-   "chars": 4669,
+   "chars": 4665,
    "jsonLdEvents": 0
   },
   "konzerthaus-5": {
@@ -292,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 32826,
+   "chars": 32606,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
