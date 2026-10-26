@@ -2,81 +2,6 @@
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "MAKtour: The MAK’s Architecture (in German)",
-  "startDate": "2026-10-25T11:00",
-  "endDate": "T",
-  "location": {
-   "@type": "Place",
-   "name": "MAK – Museum of Applied Arts",
-   "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "",
-    "addressLocality": "",
-    "postalCode": "",
-    "addressRegion": "",
-    "addressCountry": ""
-   }
-  },
-  "organizer": {
-   "@type": "Organization",
-   "name": "Museum für Angewandte Kunst Wien"
-  },
-  "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/bdb02ac82aeb86e0de3b96ba608d1125/0xAFCA8F0F6BFD7E6BC563553916DBA1B4.jpeg"
- },
- {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Tour of the Geymüllerschlössel",
-  "startDate": "2026-10-25T14:30",
-  "endDate": "T",
-  "location": {
-   "@type": "Place",
-   "name": "MAK Geymüllerschlössel",
-   "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "",
-    "addressLocality": "",
-    "postalCode": "",
-    "addressRegion": "",
-    "addressCountry": ""
-   }
-  },
-  "organizer": {
-   "@type": "Organization",
-   "name": "Museum für Angewandte Kunst Wien"
-  },
-  "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/14be7716dcabefcad52b2ae7f6989409/0xE5834FE308FD12510BA303EE1C6ABB55.jpeg"
- },
- {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "Guided Tour VIENNA 1900—Everyday. A Total Work of Art",
-  "startDate": "2026-10-25T15:00",
-  "endDate": "T",
-  "location": {
-   "@type": "Place",
-   "name": "MAK – Museum of Applied Arts",
-   "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "",
-    "addressLocality": "",
-    "postalCode": "",
-    "addressRegion": "",
-    "addressCountry": ""
-   }
-  },
-  "organizer": {
-   "@type": "Organization",
-   "name": "Museum für Angewandte Kunst Wien"
-  },
-  "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/57375f6c06d63c6eab66d7bae4462d5e/0xDAABF325EC777B8C5C8497FF7FF10302.jpeg"
- },
- {
-  "@context": "https://schema.org",
-  "@type": "Event",
   "name": "MAK Day 2026 sponsored by Wiener Städtische ",
   "startDate": "2026-10-26T10:00",
   "endDate": "2026-10-26T18:00",
@@ -123,5 +48,80 @@
   },
   "description": "",
   "image": "https://mak.at/jart/prj3/mak-resp/images/cache/bd871c9eac90e89af5418fb2811da6c6/0x7DC34A9BEE7D15FFBEF9E07668231B3C.jpeg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "MAK Day: Free Guided Tour Vienna 1900: Women Designers of Viennese Modernism (in German)",
+  "startDate": "2026-10-26T12:00",
+  "endDate": "T",
+  "location": {
+   "@type": "Place",
+   "name": "MAK – Museum of Applied Arts",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "",
+    "postalCode": "",
+    "addressRegion": "",
+    "addressCountry": ""
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Museum für Angewandte Kunst Wien"
+  },
+  "description": "",
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/d56ab7b04f77073af1975a258b5cedf5/0xC9AEB7013EA6BE51C5644A8C5C58648F.jpeg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "MAK Day: Free Guided Tour: Highlights of the MAK Collection",
+  "startDate": "2026-10-26T15:00",
+  "endDate": "T",
+  "location": {
+   "@type": "Place",
+   "name": "MAK – Museum of Applied Arts",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "",
+    "postalCode": "",
+    "addressRegion": "",
+    "addressCountry": ""
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Museum für Angewandte Kunst Wien"
+  },
+  "description": "",
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/ebd1a6d0bb3b1df1e48cbd0df15e577f/0x9D362D99518ADF72D84B9B7CD12E4E75.jpeg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "MAK Day: Free Mini MAK Tour: ArchitekTour—Join in the Fun—It’s More Than Just LEGO!",
+  "startDate": "2026-10-26T15:00",
+  "endDate": "T",
+  "location": {
+   "@type": "Place",
+   "name": "MAK – Museum of Applied Arts",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "",
+    "postalCode": "",
+    "addressRegion": "",
+    "addressCountry": ""
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Museum für Angewandte Kunst Wien"
+  },
+  "description": "",
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/a8f14f807040c91de63d41f3c1838cdd/0x9DA6B7BC1053E66EBC13255B7A413192.jpeg"
  }
 ]

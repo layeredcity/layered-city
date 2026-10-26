@@ -1,11 +1,11 @@
 {
- "fetched": "2026-10-24T18:21:26.265Z",
+ "fetched": "2026-10-26T05:56:40.880Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 29240,
+   "chars": 28236,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
@@ -19,14 +19,14 @@
    "url": "https://www.the-berliner.com/events/whats-on-this-week-daily-tips-berlin/",
    "final": "https://www.the-berliner.com/events/whats-on-this-week-daily-tips-berlin/",
    "http": 200,
-   "chars": 9633,
+   "chars": 9572,
    "jsonLdEvents": 0
   },
   "staatsoper": {
    "url": "https://www.staatsoper-berlin.de/en/spielplan/",
    "final": "https://www.staatsoper-berlin.de/en/programme/",
    "http": 200,
-   "chars": 15226,
+   "chars": 12494,
    "jsonLdEvents": 0
   },
   "deutsche-oper": {
@@ -40,7 +40,7 @@
    "url": "https://www.komische-oper-berlin.de/en/what/schedule/",
    "final": "https://www.komische-oper-berlin.de/en/what/schedule/",
    "http": 200,
-   "chars": 37796,
+   "chars": 35963,
    "jsonLdEvents": 0
   },
   "philharmonie": {
@@ -52,44 +52,44 @@
   },
   "konzerthaus": {
    "url": "https://www.konzerthaus.de/en/programm",
-   "final": "https://www.konzerthaus.de/en/programm/24-10-2026",
+   "final": "https://www.konzerthaus.de/en/programm/26-10-2026",
    "http": 200,
-   "chars": 27261,
+   "chars": 29115,
    "jsonLdEvents": 0
   },
   "berliner-ensemble": {
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "http": 200,
-   "chars": 19731,
+   "chars": 19572,
    "jsonLdEvents": 0
   },
   "schaubuehne": {
    "url": "https://www.schaubuehne.de/en/start/index.html",
    "final": "https://www.schaubuehne.de/en/start/index.html",
    "http": 200,
-   "chars": 10259,
+   "chars": 10010,
    "jsonLdEvents": 0
   },
   "gorki": {
    "url": "https://www.gorki.de/en/schedule",
    "final": "https://www.gorki.de/en/schedule",
    "http": 200,
-   "chars": 13157,
+   "chars": 12522,
    "jsonLdEvents": 60
   },
   "deutsches-theater": {
    "url": "https://www.deutschestheater.de/en/programme/",
    "final": "https://www.deutschestheater.de/en/program/events",
    "http": 200,
-   "chars": 19437,
+   "chars": 18147,
    "jsonLdEvents": 0
   },
   "volksbuehne": {
    "url": "https://www.volksbuehne.berlin/en",
    "final": "https://www.volksbuehne-berlin.de/en/",
    "http": 200,
-   "chars": 38001,
+   "chars": 37766,
    "jsonLdEvents": 0
   },
   "hau": {
@@ -117,7 +117,7 @@
    "url": "https://www.berlinerfestspiele.de/en/jazzfest-berlin",
    "final": "https://www.berlinerfestspiele.de/en/jazzfest-berlin",
    "http": 200,
-   "chars": 18673,
+   "chars": 18802,
    "jsonLdEvents": 0
   },
   "gropius-bau": {
@@ -131,21 +131,21 @@
    "url": "https://www.smb.museum/en/exhibitions/",
    "final": "https://www.smb.museum/en/exhibitions/current/",
    "http": 200,
-   "chars": 32570,
+   "chars": 32237,
    "jsonLdEvents": 0
   },
   "berlinische-galerie": {
    "url": "https://berlinischegalerie.de/en/exhibitions/",
    "final": "https://berlinischegalerie.de/en/exhibitions/",
    "http": 200,
-   "chars": 39478,
+   "chars": 39353,
    "jsonLdEvents": 0
   },
   "kw": {
    "url": "https://www.kw-berlin.de/en/",
    "final": "https://www.kw-berlin.de/en/",
    "http": 200,
-   "chars": 5873,
+   "chars": 5965,
    "jsonLdEvents": 0
   },
   "co-berlin": {
@@ -159,28 +159,25 @@
    "url": "https://www.jmberlin.de/en/exhibitions",
    "final": "https://www.jmberlin.de/en/current-exhibitions",
    "http": 200,
-   "chars": 9144,
+   "chars": 9107,
    "jsonLdEvents": 0
   },
   "humboldt-forum": {
-   "url": "https://www.humboldtforum.org/en/angebote/genre/ausstellung/",
-   "final": "https://www.humboldtforum.org/en/angebote/genre/ausstellung/",
-   "http": 404,
-   "chars": 4394,
-   "jsonLdEvents": 0
+   "url": "https://www.humboldtforum.org/en/programme-2/",
+   "error": "The operation was aborted due to timeout"
   },
   "hkw": {
-   "url": "https://www.hkw.de/en/calendar",
-   "final": "https://www.hkw.de/en/calendar",
+   "url": "https://www.hkw.de/en/programme",
+   "final": "https://www.hkw.de/en/programme",
    "http": 200,
-   "chars": 1653,
+   "chars": 1655,
    "jsonLdEvents": 0
   },
   "arsenal": {
    "url": "https://www.arsenal-berlin.de/en/",
    "final": "https://www.arsenal-berlin.de/en/",
    "http": 200,
-   "chars": 12591,
+   "chars": 12328,
    "jsonLdEvents": 0
   },
   "wall-memorial": {
@@ -194,7 +191,7 @@
    "url": "https://markthalleneun.de/en/",
    "final": "https://markthalleneun.de/en/",
    "http": 200,
-   "chars": 9935,
+   "chars": 9788,
    "jsonLdEvents": 0
   },
   "reg-philharmonie-lunch": {
@@ -208,35 +205,42 @@
    "url": "https://www.visitberlin.de/en/events-berlin",
    "final": "https://www.visitberlin.de/en/events-berlin",
    "http": 200,
-   "chars": 20869,
+   "chars": 20931,
    "jsonLdEvents": 0
   },
   "visitberlin-classical": {
    "url": "https://www.visitberlin.de/en/events-classic-music",
    "final": "https://www.visitberlin.de/en/events-classic-music-berlin",
    "http": 200,
-   "chars": 29457,
+   "chars": 28227,
    "jsonLdEvents": 0
   },
   "visitberlin-markets": {
-   "url": "https://www.visitberlin.de/de/flohmaerkte-berlin",
-   "final": "https://www.visitberlin.de/de/flohmaerkte-berlin",
-   "http": 404,
-   "chars": 9382,
+   "url": "https://www.visitberlin.de/en/flea-markets",
+   "final": "https://www.visitberlin.de/en/flea-markets",
+   "http": 200,
+   "chars": 19211,
    "jsonLdEvents": 0
   },
   "staatsoper-nov": {
    "url": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
    "final": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
    "http": 200,
-   "chars": 11610,
+   "chars": 11609,
    "jsonLdEvents": 0
   },
   "berliner-ensemble-2": {
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "http": 200,
-   "chars": 19102,
+   "chars": 18879,
+   "jsonLdEvents": 0
+  },
+  "reg-mauerpark": {
+   "url": "https://www.visitberlin.de/en/flea-market-mauerpark",
+   "final": "https://www.visitberlin.de/en/flea-market-mauerpark",
+   "http": 200,
+   "chars": 8725,
    "jsonLdEvents": 0
   }
  }

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-10-24T18:22:32.765Z",
+ "fetched": "2026-10-26T05:57:52.780Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -33,49 +33,49 @@
    "url": "https://www.wiener-staatsoper.at/en/calendar/",
    "final": "https://www.wiener-staatsoper.at/en/calendar/2026/october/",
    "http": 200,
-   "chars": 113889,
+   "chars": 114133,
    "jsonLdEvents": 0
   },
   "volksoper": {
    "url": "https://www.volksoper.at/spielplan/",
    "final": "https://www.volksoper.at/spielplan/",
    "http": 200,
-   "chars": 7839,
+   "chars": 6921,
    "jsonLdEvents": 0
   },
   "theater-an-der-wien": {
    "url": "https://www.theater-wien.at/en/calendar",
    "final": "https://www.theater-wien.at/en/calendar",
    "http": 200,
-   "chars": 43678,
+   "chars": 43471,
    "jsonLdEvents": 0
   },
   "musikverein": {
    "url": "https://spielplan.musikverein.at/spielplan?month=2026-10",
    "final": "https://spielplan.musikverein.at/spielplan?month=2026-10",
    "http": 200,
-   "chars": 14206,
+   "chars": 11714,
    "jsonLdEvents": 0
   },
   "konzerthaus": {
    "url": "https://konzerthaus.at/en/program-and-tickets",
    "final": "https://konzerthaus.at/en/program-and-tickets",
    "http": 200,
-   "chars": 5054,
+   "chars": 4886,
    "jsonLdEvents": 0
   },
   "burgtheater": {
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 13284,
+   "chars": 11552,
    "jsonLdEvents": 0
   },
   "viennale": {
    "url": "https://www.viennale.at/en",
    "final": "https://www.viennale.at/en",
    "http": 200,
-   "chars": 19978,
+   "chars": 20110,
    "jsonLdEvents": 0
   },
   "wien-modern": {
@@ -96,7 +96,7 @@
    "url": "https://www.filmmuseum.at/en",
    "final": "https://www.filmmuseum.at/en",
    "http": 200,
-   "chars": 40858,
+   "chars": 41493,
    "jsonLdEvents": 0
   },
   "albertina": {
@@ -124,14 +124,14 @@
    "url": "https://www.leopoldmuseum.org/en/exhibitions",
    "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
    "http": 200,
-   "chars": 7620,
+   "chars": 7617,
    "jsonLdEvents": 0
   },
   "mak": {
    "url": "https://www.mak.at/en/exhibitions/current",
    "final": "https://www.mak.at/en/exhibitions/current",
    "http": 200,
-   "chars": 8780,
+   "chars": 10326,
    "jsonLdEvents": 0
   },
   "mumok": {
@@ -145,14 +145,14 @@
    "url": "https://kunsthallewien.at/en/",
    "final": "https://kunsthallewien.at/en/",
    "http": 200,
-   "chars": 9471,
+   "chars": 9743,
    "jsonLdEvents": 0
   },
   "secession": {
    "url": "https://www.secession.at/en/",
    "final": "https://secession.at/en/",
    "http": 200,
-   "chars": 38119,
+   "chars": 38107,
    "jsonLdEvents": 0
   },
   "kunsthauswien": {
@@ -166,49 +166,49 @@
    "url": "https://www.mqw.at/en/program",
    "final": "https://www.mqw.at/en/program/events/",
    "http": 200,
-   "chars": 20349,
+   "chars": 20603,
    "jsonLdEvents": 0
   },
   "porgy": {
    "url": "https://www.porgy.at/events/upcoming",
    "final": "https://www.porgy.at/events/upcoming",
    "http": 200,
-   "chars": 37935,
+   "chars": 37589,
    "jsonLdEvents": 0
   },
   "arena": {
    "url": "https://www.arena.wien/",
    "final": "https://arena.wien/",
    "http": 200,
-   "chars": 4889,
+   "chars": 4812,
    "jsonLdEvents": 0
   },
   "wuk": {
    "url": "https://www.wuk.at/en/",
    "final": "https://www.wuk.at/en/",
    "http": 200,
-   "chars": 4736,
+   "chars": 4128,
    "jsonLdEvents": 0
   },
   "tqw": {
    "url": "https://tqw.at/en/",
    "final": "https://www.tqw.at/en/",
    "http": 200,
-   "chars": 10923,
+   "chars": 10679,
    "jsonLdEvents": 0
   },
   "staatsoper-nov": {
    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
    "final": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
    "http": 200,
-   "chars": 94691,
+   "chars": 94892,
    "jsonLdEvents": 0
   },
   "mak-events": {
    "url": "https://www.mak.at/en",
    "final": "https://www.mak.at/en",
    "http": 200,
-   "chars": 15100,
+   "chars": 17348,
    "jsonLdEvents": 5
   },
   "wieninfo-autumn": {
@@ -250,35 +250,35 @@
    "url": "https://konzerthaus.at/en/program-and-tickets?page=2",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=2",
    "http": 200,
-   "chars": 5065,
+   "chars": 5245,
    "jsonLdEvents": 0
   },
   "konzerthaus-3": {
    "url": "https://konzerthaus.at/en/program-and-tickets?page=3",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=3",
    "http": 200,
-   "chars": 4991,
+   "chars": 4939,
    "jsonLdEvents": 0
   },
   "konzerthaus-4": {
    "url": "https://konzerthaus.at/en/program-and-tickets?page=4",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=4",
    "http": 200,
-   "chars": 4665,
+   "chars": 4786,
    "jsonLdEvents": 0
   },
   "konzerthaus-5": {
    "url": "https://konzerthaus.at/en/program-and-tickets?page=5",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=5",
    "http": 200,
-   "chars": 5163,
+   "chars": 5039,
    "jsonLdEvents": 0
   },
   "konzerthaus-6": {
    "url": "https://konzerthaus.at/en/program-and-tickets?page=6",
    "final": "https://konzerthaus.at/en/program-and-tickets?page=6",
    "http": 200,
-   "chars": 5231,
+   "chars": 5277,
    "jsonLdEvents": 0
   },
   "khm-upcoming": {
@@ -292,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 32676,
+   "chars": 32550,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
@@ -324,8 +324,11 @@
    "jsonLdEvents": 0
   },
   "reg-hofburgkapelle": {
-   "url": "https://www.hofburgkapelle.at/",
-   "error": "fetch failed"
+   "url": "https://www.hofmusikkapelle.gv.at/en/program/masses",
+   "final": "https://www.hofmusikkapelle.gv.at/en/program/masses",
+   "http": 200,
+   "chars": 17421,
+   "jsonLdEvents": 0
   },
   "reg-saengerknaben": {
    "url": "https://www.wsk.at/konzerte-events/konzerte/",

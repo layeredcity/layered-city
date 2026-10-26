@@ -7,119 +7,6 @@
   "image": [
    "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
   ],
-  "startDate": "2026-10-24T11:00:00.000Z",
-  "endDate": "2026-10-24T19:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-10-24T19:00:00.000Z",
-  "endDate": "2026-10-24T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Rangfoyer",
-   "url": "https://www.gorki.de/en/spielorte/rangfoyer"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-10-25T12:00:00.000Z",
-  "endDate": "2026-10-25T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
   "startDate": "2026-10-27T12:00:00.000Z",
   "endDate": "2026-10-27T20:00:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1921,6 +1808,85 @@
    "@type": "Offer",
    "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14187",
    "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Ottinger - Exhibition – The Hearing Trumpet",
+  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "startDate": "2026-12-26T12:00:00.000Z",
+  "endDate": "2026-12-26T20:00:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Gallery",
+   "url": "https://www.gorki.de/en/spielorte/gallery"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-26T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Stage",
+   "url": "https://www.gorki.de/en/spielorte/saal"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14189",
+   "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Ottinger - Exhibition – The Hearing Trumpet",
+  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "startDate": "2026-12-27T12:00:00.000Z",
+  "endDate": "2026-12-27T20:00:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Gallery",
+   "url": "https://www.gorki.de/en/spielorte/gallery"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
   }
  }
 ]
