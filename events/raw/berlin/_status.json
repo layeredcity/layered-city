@@ -1,18 +1,18 @@
 {
- "fetched": "2026-10-26T05:56:40.880Z",
+ "fetched": "2026-10-26T07:53:25.663Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 28236,
+   "chars": 29661,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
    "url": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "final": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "http": 200,
-   "chars": 21773,
+   "chars": 21587,
    "jsonLdEvents": 0
   },
   "exberliner": {
@@ -61,7 +61,7 @@
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "http": 200,
-   "chars": 19572,
+   "chars": 19542,
    "jsonLdEvents": 0
   },
   "schaubuehne": {
@@ -82,7 +82,7 @@
    "url": "https://www.deutschestheater.de/en/programme/",
    "final": "https://www.deutschestheater.de/en/program/events",
    "http": 200,
-   "chars": 18147,
+   "chars": 18081,
    "jsonLdEvents": 0
   },
   "volksbuehne": {
@@ -164,7 +164,10 @@
   },
   "humboldt-forum": {
    "url": "https://www.humboldtforum.org/en/programme-2/",
-   "error": "The operation was aborted due to timeout"
+   "final": "https://www.humboldtforum.org/en/programme-2/",
+   "http": 200,
+   "chars": 18671,
+   "jsonLdEvents": 0
   },
   "hkw": {
    "url": "https://www.hkw.de/en/programme",
@@ -226,14 +229,14 @@
    "url": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
    "final": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
    "http": 200,
-   "chars": 11609,
+   "chars": 11608,
    "jsonLdEvents": 0
   },
   "berliner-ensemble-2": {
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "http": 200,
-   "chars": 18879,
+   "chars": 18919,
    "jsonLdEvents": 0
   },
   "reg-mauerpark": {
