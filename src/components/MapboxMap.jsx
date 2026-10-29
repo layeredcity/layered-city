@@ -28,7 +28,7 @@ const SYLLABLE_BREAKS = {
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
-export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick }) {
+export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -53,9 +53,24 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       zoom: 3.8,
     })
     map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), 'top-right')
+    // "Where am I?" — the blue dot, for finding what's around you when you're
+    // out in the city. Asks for location only when tapped.
+    map.addControl(new mapboxgl.GeolocateControl({
+      positionOptions: { enableHighAccuracy: true },
+      trackUserLocation: true,
+      showUserHeading: true,
+    }), 'top-right')
     mapRef.current = map
     return () => map.remove()
   }, [])
+
+  // On phones the map lives in a hidden layer until the Map button opens it;
+  // a map created at zero size needs a resize once it becomes visible.
+  useEffect(() => {
+    if (!shownKey || !mapRef.current) return
+    const id = requestAnimationFrame(() => mapRef.current?.resize())
+    return () => cancelAnimationFrame(id)
+  }, [shownKey])
 
   useEffect(() => {
     clearTimeout(flyTimerRef.current)

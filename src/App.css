@@ -660,3 +660,18 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .event-item__date { isolation: isolate; }
 .story-group-heading--events { z-index: 2; }
 .city-item__near { color: var(--ink-light); }
+
+/* Phones: a floating Map button on the city page opens the map full screen,
+   with a List button to come back. Tapping a pin opens the usual detail panel
+   on top; closing it returns to the map. */
+.mobile-map-btn, .map-mobile-close { display: none; }
+@media (max-width: 768px) {
+  .mobile-map-btn { display: inline-flex; align-items: center; gap: 8px; position: absolute; left: 50%; bottom: calc(22px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 15; padding: 12px 20px; border: none; border-radius: 999px; background: var(--ink); color: #fff; font-family: var(--font-body); font-size: 15px; font-weight: 600; box-shadow: 0 6px 20px rgba(0,0,0,0.28); cursor: pointer; }
+  .mobile-map-btn svg, .map-mobile-close svg { width: 18px; height: 18px; }
+  .panel-map--mobile-open { display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 35; box-shadow: none; }
+  .map-mobile-close { display: inline-flex; align-items: center; gap: 8px; position: absolute; left: 50%; bottom: calc(22px + env(safe-area-inset-bottom)); transform: translateX(-50%); z-index: 31; padding: 12px 20px; border: none; border-radius: 999px; background: var(--ink); color: #fff; font-family: var(--font-body); font-size: 15px; font-weight: 600; box-shadow: 0 6px 20px rgba(0,0,0,0.28); cursor: pointer; }
+  .panel-map--mobile-open .map-filter { top: calc(10px + env(safe-area-inset-top)); left: 10px; right: auto; }
+  .panel-map--mobile-open .mapboxgl-ctrl-top-right { top: env(safe-area-inset-top); }
+  /* The pin-anchored pop-up is a desktop thing; phones use the detail panel. */
+  .story-modal-anchor { display: none; }
+}

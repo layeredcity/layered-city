@@ -1375,6 +1375,9 @@ export default function App() {
   const [eventGroup, setEventGroup] = useState('All') // Events secondary nav: 'All' | 'Music' | 'Art' | …
   const [sortMode, setSortMode] = useState('rating') // 'rating' | 'date' — Books/Movies sort toggle
   const [detailView, setDetailView] = useState('overview')
+  // Phones: the map is a full-screen layer opened from the city page.
+  const [mobileMapOpen, setMobileMapOpen] = useState(false)
+  useEffect(() => { if (!selectedCity) setMobileMapOpen(false) }, [selectedCity])
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
   const [mediaStory, setMediaStory] = useState(null)
@@ -1806,10 +1809,23 @@ export default function App() {
             </div>
           </div>
         )}
+        {selectedCity && !selectedStory && !currentFilter.food && !currentFilter.words && (
+          <button type="button" className="mobile-map-btn" onClick={() => setMobileMapOpen(true)}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></svg>
+            Map
+          </button>
+        )}
       </section>
 
-      <div className="panel-map">
+      <div className={'panel-map' + (mobileMapOpen ? ' panel-map--mobile-open' : '')}>
+        {mobileMapOpen && (
+          <button type="button" className="map-mobile-close" onClick={() => setMobileMapOpen(false)}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+            List
+          </button>
+        )}
         <MapboxMap
+          shownKey={mobileMapOpen}
           city={selectedCity}
           cities={cities}
           allStories={mapAllStories}
