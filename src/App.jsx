@@ -1393,11 +1393,9 @@ export default function App() {
     const standalone = window.navigator.standalone === true ||
       window.matchMedia?.('(display-mode: standalone)').matches
     if (!standalone) return
-    const setScreenHeight = () => {
-      document.documentElement.style.setProperty('--screen-h', window.screen.height + 'px')
-    }
-    setScreenHeight()
-    window.addEventListener('orientationchange', () => setTimeout(setScreenHeight, 100))
+    // Superseded by 100lvh sizing in App.css (measured to equal the full screen
+    // in the home-screen app); kept as a no-op so the standalone check stays.
+    return
   }, [])
 
   // Phones: Safari colours the status-bar strip and the area behind its

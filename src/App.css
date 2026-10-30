@@ -692,10 +692,13 @@ img.city-hero__img.is-loaded { opacity: 1; }
    the bottom. Add the top inset back (and take the measured screen height if
    that's larger). */
 @media (max-width: 768px) {
-  html.is-standalone .app { height: max(var(--screen-h, 0px), calc(100lvh + env(safe-area-inset-top))); }
-}
-@media (max-width: 768px) and (display-mode: standalone) {
-  .app { height: max(var(--screen-h, 0px), calc(100lvh + env(safe-area-inset-top))); }
+  /* Measured on an iPhone: "100%" stops short (812 of 874 in the home-screen
+     app, 714 of 754 in Safari) and, with overflow hidden, html/body trimmed
+     everything below it. Size them, and the app, to the large viewport,
+     which is the whole screen in the home-screen app. */
+  html, body, #root { height: 100lvh; }
+  .app { height: 100lvh; }
+  html.is-standalone { --bar-gap: 0px; }
 }
 
 /* Safari on iOS 26 tints the status-bar strip and the area behind its toolbar
