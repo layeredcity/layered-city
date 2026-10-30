@@ -774,3 +774,26 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
   from { clip-path: circle(var(--tr, 150vmax) at var(--tx, 50%) var(--ty, 100%)); }
   to   { clip-path: circle(0 at var(--tx, 50%) var(--ty, 100%)); }
 }
+
+/* Landmarks (pilot) */
+.landmark-badge { width: 56px; height: 56px; border-radius: 14px; background: #153B8F; color: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.landmark-badge svg { width: 28px; height: 28px; }
+.landmark-badge--large { width: 64px; height: 64px; border-radius: 16px; }
+.landmark-badge--large svg { width: 32px; height: 32px; }
+.landmark-item { display: flex; align-items: center; gap: 16px; padding: 16px 20px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background var(--transition); }
+.landmark-item:hover { background: var(--white); }
+.landmark-item__body { flex: 1; min-width: 0; }
+.landmark-item__type { font-size: 12px; font-weight: 600; color: var(--accent); }
+.landmark-item__name { font-size: 16px; font-weight: 500; color: var(--ink); line-height: 1.35; margin-top: 1px; }
+.landmark-item__count { font-size: 12px; color: var(--ink-light); margin-top: 3px; }
+.landmark-detail__stories { margin: 4px -28px -28px; border-top: 1px solid var(--border); }
+.panel-story__content--landmark .landmark-detail__stories { margin: 4px -20px 0; }
+.back-to-landmark { display: inline-flex; align-items: center; gap: 4px; margin: -8px 0 14px -4px; padding: 4px; border: none; background: none; font-family: var(--font-body); font-size: 13px; font-weight: 600; color: #153B8F; cursor: pointer; }
+.back-to-landmark svg { width: 15px; height: 15px; }
+.landmark-pin { position: relative; width: 40px; height: 40px; border-radius: 12px; background: #153B8F; color: #fff; border: 2px solid #fff; box-shadow: 0 3px 10px rgba(0,0,0,0.3); cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.landmark-pin__icon { display: flex; width: 20px; height: 20px; }
+.landmark-pin__icon svg { width: 100%; height: 100%; }
+.landmark-pin__count { position: absolute; top: -8px; right: -8px; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 10px; background: var(--accent); color: #fff; border: 2px solid #fff; font: 700 11px/16px var(--font-body); text-align: center; box-sizing: border-box; }
+@media (max-width: 768px) {
+  .landmark-item__type, .landmark-item__count { font-size: 14px; }
+}

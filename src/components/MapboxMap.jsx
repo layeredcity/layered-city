@@ -28,6 +28,20 @@ const SYLLABLE_BREAKS = {
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
+// Landmark pin glyphs (same shapes as LANDMARK_ICONS in App.jsx, as strings
+// because markers are plain DOM).
+const LP = d => '<svg viewBox="0 0 24 24" fill="currentColor"><path d="' + d + '"/></svg>'
+const LANDMARK_PIN_SVGS = {
+  museum: LP('M12 1.5 1.5 7v2.5h21V7L12 1.5ZM3.5 11h3v7.5h-3V11Zm5 0h3v7.5h-3V11Zm4.99 0h3v7.5h-3V11Zm5.01 0h3v7.5h-3V11ZM1.5 20h21v2.5h-21V20Z'),
+  church: LP('M11 1h2v2.5h2v2h-2v2.4l5 3.6V23h-4.5v-5a1.5 1.5 0 0 0-3 0v5H6V11.5l5-3.6V5.5H9v-2h2V1Z'),
+  palace: LP('M12 2 9 5.5V8h6V5.5L12 2ZM1 9.5h4V7l2 1.5V10h10V8.5L19 7v2.5h4V23h-8.5v-5a2.5 2.5 0 0 0-5 0v5H1V9.5Zm3.5 4v3h2v-3h-2Zm15 0h-2v3h2v-3Z'),
+  music: LP('M20 2v13.5a3.5 3.5 0 1 1-2-3.16V6.3l-9 2v9.2a3.5 3.5 0 1 1-2-3.16V4.7L20 2Z'),
+  cafe: LP('M3 8h14v6a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6V8Zm14 1h1.5a3.5 3.5 0 0 1 0 7H17v-2h1.5a1.5 1.5 0 0 0 0-3H17V9ZM2 21.5h16V23H2v-1.5Z'),
+  cemetery: LP('M12 2a7 7 0 0 1 7 7v11H5V9a7 7 0 0 1 7-7Zm-1 4v2.5H8.5v2H11V16h2v-5.5h2.5v-2H13V6h-2ZM3 21.5h18V23H3v-1.5Z'),
+  building: LP('M2 5h20v18h-7v-5h-6v5H2V5Zm3 3v2.5h2.5V8H5Zm5.75 0v2.5h2.5V8h-2.5ZM16.5 8v2.5H19V8h-2.5ZM5 13v2.5h2.5V13H5Zm11.5 0v2.5H19V13h-2.5ZM10.75 13v2.5h2.5V13h-2.5ZM1 1.5h22V4H1V1.5Z'),
+  landmark: LP('M12 1a8 8 0 0 1 8 8c0 5.5-6.2 12.4-7.3 13.6a1 1 0 0 1-1.4 0C10.2 21.4 4 14.5 4 9a8 8 0 0 1 8-8Zm0 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z'),
+}
+
 export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
@@ -41,6 +55,20 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const citySelectedAtRef = useRef(null)
   const movListenerRef = useRef(null)
   const visibleIdsRef = useRef(new Set())
+  // Landmarks: below GROUP_ZOOM a landmark's stories fold into its one pin;
+  // zoomed in closer, the landmark pin gives way to the individual stories.
+  const GROUP_ZOOM = 16
+  const groupedRef = useRef(true)
+  const markerInfoRef = useRef({}) // id -> { landmarkId, isLandmark }
+  const focusIdRef = useRef(null)
+  const zoomOK = id => {
+    const info = markerInfoRef.current[id]
+    if (!info) return true
+    if (info.isLandmark) return groupedRef.current
+    if (info.landmarkId) return !groupedRef.current
+    return true
+  }
+  const shownId = id => (shownId(id)) && zoomOK(id)
   omdbCacheRef.current = omdbCache
   bookCacheRef.current = bookCache
 
@@ -62,6 +90,16 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     }), 'top-right')
     mapRef.current = map
     onReady?.(map)
+    map.on('zoom', () => {
+      const grouped = map.getZoom() < GROUP_ZOOM
+      if (grouped === groupedRef.current) return
+      groupedRef.current = grouped
+      markerDataRef.current.forEach(({ el, id }) => {
+        const visible = shownId(id)
+        el.style.opacity = visible ? (focusIdRef.current && focusIdRef.current !== id ? '0.15' : '1') : '0'
+        el.style.pointerEvents = visible ? 'auto' : 'none'
+      })
+    })
     return () => map.remove()
   }, [])
 
@@ -115,10 +153,11 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       movListenerRef.current = null
     }
 
+    focusIdRef.current = focusStory?.location ? focusStory.id : null
     if (!focusStory?.location) {
       onStoryPin?.(null)
       markerDataRef.current.forEach(({ el, id }) => {
-        const visible = !visibleIdsRef.current.size || visibleIdsRef.current.has(id)
+        const visible = shownId(id)
         el.style.opacity = visible ? '1' : '0'
         el.style.pointerEvents = visible ? 'auto' : 'none'
       })
@@ -133,7 +172,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     // Dim other markers, highlight focused one. Markers hidden by the active
     // filter stay hidden (and unclickable) rather than reappearing dimmed.
     markerDataRef.current.forEach(({ el, id }) => {
-      const visible = !visibleIdsRef.current.size || visibleIdsRef.current.has(id)
+      const visible = shownId(id)
       el.style.opacity = id === focusStory.id ? '1' : (visible ? '0.15' : '0')
       el.style.pointerEvents = visible ? 'auto' : 'none'
     })
@@ -205,6 +244,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     markersRef.current.forEach(m => m.remove())
     markersRef.current = []
     markerDataRef.current = []
+    markerInfoRef.current = {}
     clearTimeout(revealTimerRef.current)
 
     if (!allStories || !allStories.length) return
@@ -226,7 +266,15 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         // override, then the remote source. Pins are tiny, so ask for a tiny image.
         const portraitImg = sizedAsset(story.coverAsset, 96) || story.coverImageUrl || cachedPoster || cachedCover
         const imgSrc = story.channelIcon || story.artworkImage || portraitImg
-        if (story.mediaType === 'event') {
+        markerInfoRef.current[story.id] = { landmarkId: story.landmarkId || null, isLandmark: story.mediaType === 'landmark' }
+        if (story.mediaType === 'landmark') {
+          const n = story.landmark?.members?.length || ''
+          el.className = 'landmark-pin landmark-pin--' + (story.landmark?.type || 'landmark')
+          el.style.cssText = 'opacity:0;pointer-events:none;transition:opacity 0.35s ease;'
+          el.innerHTML = '<span class="landmark-pin__icon"></span><span class="landmark-pin__count">' + n + '</span>'
+          const icon = LANDMARK_PIN_SVGS[story.landmark?.type] || LANDMARK_PIN_SVGS.landmark
+          el.firstChild.innerHTML = icon
+        } else if (story.mediaType === 'event') {
           // A tiny desk calendar: red header strip, day number underneath.
           // Matches the list's date box: a run already under way shows its end date.
           const ev = story.event || {}
@@ -285,7 +333,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       revealTimerRef.current = setTimeout(() => {
         created.forEach(({ el, id }) => {
           setTimeout(() => {
-            const visible = !visibleIdsRef.current.size || visibleIdsRef.current.has(id)
+            const visible = shownId(id)
             el.style.opacity = visible ? '1' : '0'
             el.style.pointerEvents = visible ? 'auto' : 'none'
           }, Math.random() * 500)
@@ -301,7 +349,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   useEffect(() => {
     visibleIdsRef.current = new Set((stories || []).map(s => s.id))
     markerDataRef.current.forEach(({ el, id }) => {
-      const visible = !visibleIdsRef.current.size || visibleIdsRef.current.has(id)
+      const visible = shownId(id)
       el.style.opacity = visible ? '1' : '0'
       el.style.pointerEvents = visible ? 'auto' : 'none'
     })

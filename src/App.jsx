@@ -10,6 +10,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
+import { cityLandmarks, landmarkSummary } from './utils/landmarks'
 import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge, eventDateText, eventStories, EVENT_GROUPS, eventGroupOf } from './utils/events'
 import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
@@ -108,6 +109,9 @@ const FILTERS = [
   // with nothing upcoming; past events drop off on their own.
   { label: 'Events',           group: 'deeper', types: [], events: true, emptyLabel: 'events',           icon: 'events',  unitSingular: 'event',   unitPlural: 'events',  blurb: 'What’s on in {city}' },
   { label: 'Food',             group: 'deeper', types: [], food: true,   emptyLabel: 'dishes',           icon: 'food',    unitSingular: 'dish',    unitPlural: 'dishes',  blurb: 'What to eat in {city}' },
+  // Landmarks is a pilot (Vienna only): places where several stories are
+  // pinned, grouped into one map pin and one row. Hidden when a city has none.
+  { label: 'Landmarks', group: 'deeper', types: [], landmarks: true, emptyLabel: 'landmarks', icon: 'landmark', unitSingular: 'landmark', unitPlural: 'landmarks', blurb: 'Places in {city} with the most stories' },
   { label: 'Movies',           group: 'media', types: ['movie'],        emptyLabel: 'movies',           icon: 'movie',   unitSingular: 'movie',   unitPlural: 'movies',  alwaysShow: true, blurb: '{city} on the big screen' },
   { label: 'Music',            group: 'media', types: ['music'],        emptyLabel: 'music',            icon: 'music',   unitSingular: 'song',    unitPlural: 'songs',   alwaysShow: true, blurb: 'A portrait of {city} through its songs' },
   { label: 'Podcasts',         group: 'media', types: ['podcast'],      emptyLabel: 'podcast episodes', icon: 'podcast', unitSingular: 'episode', unitPlural: 'episodes', alwaysShow: true, blurb: 'Episodes about {city}' },
@@ -128,7 +132,7 @@ const FILTERS = [
 // One pithy line per section, count + connector + city (e.g. "15 dishes to eat
 // in Budapest"). Kept short deliberately — it must stay on a single line.
 const SECTION_CONNECTOR = {
-  Books: 'about', Events: 'coming up in', Food: 'to eat in', Movies: 'set in', Music: 'from',
+  Books: 'about', Events: 'coming up in', Landmarks: 'with stories in', Food: 'to eat in', Movies: 'set in', Music: 'from',
   Podcasts: 'about', Tours: 'of', TV: 'set in', Videos: 'about',
 }
 function sectionLine(filter, count, city) {
@@ -145,7 +149,20 @@ const OVERVIEW_GROUPS = [
   { key: 'deeper', heading: city => `Go deeper in ${city}` },
 ]
 
+// Small filled glyphs for landmark types (24×24).
+const LANDMARK_ICONS = {
+  museum: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1.5 1.5 7v2.5h21V7L12 1.5ZM3.5 11h3v7.5h-3V11Zm5 0h3v7.5h-3V11Zm4.99 0h3v7.5h-3V11Zm5.01 0h3v7.5h-3V11ZM1.5 20h21v2.5h-21V20Z"/></svg>,
+  church: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M11 1h2v2.5h2v2h-2v2.4l5 3.6V23h-4.5v-5a1.5 1.5 0 0 0-3 0v5H6V11.5l5-3.6V5.5H9v-2h2V1Z"/></svg>,
+  palace: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2 9 5.5V8h6V5.5L12 2ZM1 9.5h4V7l2 1.5V10h10V8.5L19 7v2.5h4V23h-8.5v-5a2.5 2.5 0 0 0-5 0v5H1V9.5Zm3.5 4v3h2v-3h-2Zm15 0h-2v3h2v-3Z"/></svg>,
+  music: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20 2v13.5a3.5 3.5 0 1 1-2-3.16V6.3l-9 2v9.2a3.5 3.5 0 1 1-2-3.16V4.7L20 2Z"/></svg>,
+  cafe: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3 8h14v6a6 6 0 0 1-6 6H9a6 6 0 0 1-6-6V8Zm14 1h1.5a3.5 3.5 0 0 1 0 7H17v-2h1.5a1.5 1.5 0 0 0 0-3H17V9ZM2 21.5h16V23H2v-1.5ZM7 2.5c1.2 1.2 1.2 2.8 0 4l-1-1c.6-.6.6-1.4 0-2l1-1Zm4 0c1.2 1.2 1.2 2.8 0 4l-1-1c.6-.6.6-1.4 0-2l1-1Z"/></svg>,
+  cemetery: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a7 7 0 0 1 7 7v11H5V9a7 7 0 0 1 7-7Zm-1 4v2.5H8.5v2H11V16h2v-5.5h2.5v-2H13V6h-2ZM3 21.5h18V23H3v-1.5Z"/></svg>,
+  building: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M2 5h20v18h-7v-5h-6v5H2V5Zm3 3v2.5h2.5V8H5Zm5.75 0v2.5h2.5V8h-2.5ZM16.5 8v2.5H19V8h-2.5ZM5 13v2.5h2.5V13H5Zm11.5 0v2.5H19V13h-2.5ZM10.75 13v2.5h2.5V13h-2.5ZM1 1.5h22V4H1V1.5Z"/></svg>,
+  landmark: <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 1a8 8 0 0 1 8 8c0 5.5-6.2 12.4-7.3 13.6a1 1 0 0 1-1.4 0C10.2 21.4 4 14.5 4 9a8 8 0 0 1 8-8Zm0 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z"/></svg>,
+}
+
 const TYPE_ICONS = {
+  landmark: <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1.5 1.5 7v2.5h21V7L12 1.5ZM3.5 11h3v7.5h-3V11Zm5 0h3v7.5h-3V11Zm4.99 0h3v7.5h-3V11Zm5.01 0h3v7.5h-3V11ZM1.5 20h21v2.5h-21V20Z"/></svg>,
   podcast: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
       <path fill="currentColor" fillRule="evenodd" d="M24 0.5487c12.9848 0 23.52 10.4273 23.52 23.3012v17.5028c0 2.0818 -1.3146 3.962 -3.3523 4.5346 -2.0036 0.563 -4.7785 1.2351 -7.5038 1.5393 -1.8924 0.211 -3.6091 -0.9413 -3.9324 -2.8723 -0.276 -1.6482 -0.5269 -4.1719 -0.5269 -7.9033 0 -3.7315 0.2509 -6.2552 0.5269 -7.9034 0.3233 -1.9309 2.04 -3.0833 3.9324 -2.8721 1.0752 0.1199 2.1582 0.2971 3.1984 0.5024v-2.9656c0 -8.3772 -7.0805 -15.2059 -15.8623 -15.2059S8.1377 15.0351 8.1377 23.4123v2.9656c1.0402 -0.2053 2.1232 -0.3826 3.1984 -0.5024 1.8924 -0.2112 3.6091 0.9412 3.9324 2.8721 0.276 1.6482 0.5268 4.1719 0.5268 7.9034 0 3.7314 -0.2508 6.2551 -0.5268 7.9033 -0.3233 1.931 -2.04 3.0833 -3.9324 2.8723 -2.7253 -0.3042 -5.5002 -0.9763 -7.5038 -1.5393C1.7946 45.3147 0.48 43.4345 0.48 41.3527V23.8499C0.48 10.976 11.0152 0.5487 24 0.5487Z" clipRule="evenodd"/>
@@ -412,6 +429,61 @@ function WordsPanel({ city, words }) {
   )
 }
 
+const LANDMARK_TYPE_LABEL = { museum: 'Museum', church: 'Church', palace: 'Palace', music: 'Music venue', cafe: 'Café', cemetery: 'Cemetery', building: 'Landmark building', landmark: 'Landmark' }
+
+function LandmarkBadge({ type, large }) {
+  return <div className={'landmark-badge' + (large ? ' landmark-badge--large' : '')}>{LANDMARK_ICONS[type] || LANDMARK_ICONS.landmark}</div>
+}
+
+function LandmarkItem({ story, onSelect }) {
+  const lm = story.landmark
+  return (
+    <div className="landmark-item" onClick={() => onSelect(story)}>
+      <LandmarkBadge type={lm.type} />
+      <div className="landmark-item__body">
+        <div className="landmark-item__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
+        <div className="landmark-item__name">{lm.name}</div>
+        <div className="landmark-item__count">{landmarkSummary(lm)}</div>
+      </div>
+      <svg className="overview-item__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
+    </div>
+  )
+}
+
+// The landmark pop-up / mobile panel: what the place is, then its stories.
+// Tapping a story opens it, with a way back to the landmark.
+function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
+  const lm = story.landmark
+  return (
+    <>
+      <div className="story-modal__header">
+        <LandmarkBadge type={lm.type} large />
+        <div className="story-modal__header-text">
+          <div className="story-modal__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
+          <div className="story-modal__channel">{landmarkSummary(lm)}</div>
+        </div>
+      </div>
+      <h2 className="story-modal__title">{lm.name}</h2>
+      <p className="story-modal__desc">{lm.description}</p>
+      <div className="landmark-detail__stories">
+        {lm.members.map(m => (
+          <StoryItem key={m.id} story={m} onSelect={s => onOpenStory({ ...s, fromLandmark: story })} omdbData={omdbCache?.[m.imdbId]} bookData={bookCache?.[m.isbn]} />
+        ))}
+      </div>
+    </>
+  )
+}
+
+function BackToLandmark({ story, onOpen }) {
+  if (!story?.fromLandmark) return null
+  return (
+    <button type="button" className="back-to-landmark" onClick={() => onOpen(story.fromLandmark)}>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+      {story.fromLandmark.landmark.name}
+    </button>
+  )
+}
+
 // The little spiral-bound desk-calendar date, used in the list and the pop-up.
 // iPhone Safari can't show Layered City full screen (it keeps its own bars),
 // but the home-screen app can. Suggest it once, to iPhone Safari visitors only;
@@ -617,11 +689,11 @@ function FoodItem({ food, cityName }) {
   )
 }
 
-function CityOverview({ city, stories, storiesLoading, foods, foodsLoading, words, wordsLoading, onSelectFilter }) {
+function CityOverview({ landmarkCount = 0, city, stories, storiesLoading, foods, foodsLoading, words, wordsLoading, onSelectFilter }) {
   const loading = storiesLoading || foodsLoading || wordsLoading
   const wordCount = city.wordsPublished ? words.length : 0
   const sections = loading ? [] : FILTERS.slice(1)
-    .map(f => ({ filter: f, count: f.events ? upcomingEvents(city.name).length : f.words ? wordCount : f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
+    .map(f => ({ filter: f, count: f.landmarks ? landmarkCount : f.events ? upcomingEvents(city.name).length : f.words ? wordCount : f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
     <div className="city-overview">
@@ -1086,8 +1158,20 @@ function StoryIcon({ story, omdbData, bookData }) {
   return placeholder
 }
 
-function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
+function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenStory, omdbCache, bookCache }) {
   if (!story) return null
+  if (story.mediaType === 'landmark') {
+    return (
+      <div className="story-modal-overlay" onClick={onClose}>
+        <div className="story-modal story-modal--landmark" onClick={e => e.stopPropagation()}>
+          <button className="story-modal__close" onClick={onClose}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
+          </button>
+          <LandmarkDetail story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
+        </div>
+      </div>
+    )
+  }
   if (story.mediaType === 'event') {
     return (
       <div className="story-modal-overlay" onClick={onClose}>
@@ -1119,6 +1203,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData }) {
         <button className="story-modal__close" onClick={onClose}>
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
         </button>
+        <BackToLandmark story={story} onOpen={onOpenStory} />
         <div className="story-modal__header">
           <StoryIcon story={story} omdbData={omdbData} bookData={bookData} />
           <div className="story-modal__header-text">
@@ -1631,9 +1716,27 @@ export default function App() {
   const cityEventStories = useMemo(() => selectedCity ? eventStories(selectedCity.name) : [], [selectedCity])
   const shownEventStories = useMemo(() => eventGroup === 'All' ? cityEventStories : cityEventStories.filter(s => eventGroupOf(s.event) === eventGroup), [cityEventStories, eventGroup])
   useEffect(() => { setEventGroup('All') }, [selectedCity])
-  const mapAllStories = useMemo(() => cityEventStories.length ? [...stories, ...cityEventStories] : stories, [stories, cityEventStories])
+  // Landmarks (pilot): stories inside a landmark carry its id, so the map can
+  // fold them into the landmark's single pin until you zoom in close.
+  const cityLandmarkStories = useMemo(() => selectedCity ? cityLandmarks(selectedCity.name, stories) : [], [selectedCity, stories])
+  const landmarkOf = useMemo(() => {
+    const m = {}
+    cityLandmarkStories.forEach(l => l.landmark.members.forEach(s => { m[s.id] = l.id }))
+    return m
+  }, [cityLandmarkStories])
+  const mapAllStories = useMemo(() => {
+    const base = cityLandmarkStories.length ? stories.map(s => landmarkOf[s.id] ? { ...s, landmarkId: landmarkOf[s.id] } : s) : stories
+    return [...base, ...cityEventStories, ...cityLandmarkStories]
+  }, [stories, cityEventStories, cityLandmarkStories, landmarkOf])
+  // Which landmark pins go with a set of visible stories: those with at least
+  // one member in the set.
+  const withLandmarks = list => {
+    if (!cityLandmarkStories.length) return list
+    const ids = new Set(list.map(s => s.id))
+    return [...list, ...cityLandmarkStories.filter(l => l.landmark.members.some(m => ids.has(m.id)))]
+  }
   const wordsAvailable = !!(selectedCity?.wordsPublished && words.length > 0)
-  const availableFilters = FILTERS.slice(1).filter(f => f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
+  const availableFilters = FILTERS.slice(1).filter(f => f.landmarks ? cityLandmarkStories.length > 0 : f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
 
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
@@ -1696,7 +1799,13 @@ export default function App() {
     return [...list].sort(byRating)
   }, [stories, currentFilter, sortMode, isMusicFilter, isBooksFilter, isMoviesFilter, showSortToggle, effectiveRatingForStory, omdbCache])
 
-  const mapStories = detailView === 'overview' ? stories : currentFilter.events ? shownEventStories : filteredStories
+  // Memoised: a new array every render would make the map reset pin opacity
+  // on every render, undoing the dimming around a selected pin.
+  const mapStories = useMemo(() => detailView === 'overview' ? withLandmarks(stories)
+    : currentFilter.events ? shownEventStories
+    : currentFilter.landmarks ? [...cityLandmarkStories, ...cityLandmarkStories.flatMap(l => l.landmark.members)]
+    : withLandmarks(filteredStories),
+  [detailView, stories, currentFilter, shownEventStories, cityLandmarkStories, filteredStories]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // List ⇄ map on phones, borrowed from aliriehle.com's theme switch: the
   // browser snapshots the current screen, swaps in the other one, and reveals
@@ -1781,6 +1890,7 @@ export default function App() {
             <div className={"nav-slide-track" + (detailView === 'stories' ? ' nav-slide-track--stories' : '')}>
               <div className="nav-slide-panel">
                 <CityOverview
+                  landmarkCount={cityLandmarkStories.length}
                   city={selectedCity}
                   stories={stories}
                   storiesLoading={storiesLoading}
@@ -1840,6 +1950,8 @@ export default function App() {
                     ) : (
                       <WordsPanel city={selectedCity} words={words} />
                     )
+                  ) : currentFilter.landmarks ? (
+                    cityLandmarkStories.map(l => <LandmarkItem key={l.id} story={l} onSelect={setSelectedStory} />)
                   ) : currentFilter.events ? (
                     <EventsPanel city={selectedCity} stories={cityEventStories} group={eventGroup} onGroup={g => { closeStoryWithFade(); setEventGroup(g) }} onSelect={setSelectedStory} />
                   ) : currentFilter.food ? (
@@ -1919,7 +2031,7 @@ export default function App() {
         />
         {selectedStory && (
           <div ref={modalAnchorRef} className={'story-modal-anchor' + (selectedStory.location ? '' : ' story-modal-anchor--center')}>
-            <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} onOpenMedia={setMediaStory} omdbData={omdbData} bookData={bookData} />
+            <StoryModal story={selectedStory} onClose={() => setSelectedStory(null)} onOpenMedia={setMediaStory} omdbData={omdbData} bookData={bookData} onOpenStory={setSelectedStory} omdbCache={omdbCache} bookCache={bookCache} />
             {selectedStory.location && <div className="story-modal-arrow" />}
           </div>
         )}
@@ -1967,7 +2079,22 @@ export default function App() {
             </div>
           </>
         )}
-        {selectedStory && selectedStory.mediaType !== 'event' && (() => {
+        {selectedStory && selectedStory.mediaType === 'landmark' && (
+          <>
+            <div className="mobile-back" onClick={() => setSelectedStory(null)}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+              Back
+            </div>
+            <div className="panel-story__scroll">
+              <div className="panel-story__content panel-story__content--landmark">
+                <LandmarkDetail story={selectedStory} onOpenStory={setSelectedStory} omdbCache={omdbCache} bookCache={bookCache} />
+              </div>
+            </div>
+          </>
+        )}
+        {selectedStory && selectedStory.mediaType !== 'event' && selectedStory.mediaType !== 'landmark' && (() => {
           const s = selectedStory
           const label = mediaTypeLabel(s.mediaType)
           const duration = formatDuration(s.minutes, s.seconds)
@@ -1981,11 +2108,11 @@ export default function App() {
           const hasMedia = url && (isVideo || t === 'podcast' || t === 'audiotour')
           return (
             <>
-              <div className="mobile-back" onClick={() => setSelectedStory(null)}>
+              <div className="mobile-back" onClick={() => setSelectedStory(s.fromLandmark || null)}>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M15 18l-6-6 6-6" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                Back
+                {s.fromLandmark ? s.fromLandmark.landmark.name : 'Back'}
               </div>
               <div className="panel-story__scroll">
                 <div className="panel-story__content">
