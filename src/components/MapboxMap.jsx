@@ -28,7 +28,7 @@ const SYLLABLE_BREAKS = {
 const FLY_DURATION = 4500
 const PANEL_TRANSITION = 520
 
-export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey }) {
+export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -61,6 +61,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       showUserHeading: true,
     }), 'top-right')
     mapRef.current = map
+    onReady?.(map)
     return () => map.remove()
   }, [])
 
