@@ -68,7 +68,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     if (info.landmarkId) return !groupedRef.current
     return true
   }
-  const shownId = id => (shownId(id)) && zoomOK(id)
+  const shownId = id => (!visibleIdsRef.current.size || visibleIdsRef.current.has(id)) && zoomOK(id)
   omdbCacheRef.current = omdbCache
   bookCacheRef.current = bookCache
 
