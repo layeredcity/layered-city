@@ -765,3 +765,12 @@ img.city-hero__img.is-loaded { opacity: 1; }
   from { clip-path: circle(0 at var(--tx, 50%) var(--ty, 100%)); }
   to   { clip-path: circle(var(--tr, 150vmax) at var(--tx, 50%) var(--ty, 100%)); }
 }
+
+/* Closing the map: the old screen (the map) sits on top and shrinks back into
+   the List button, uncovering the list, which holds still underneath. */
+html[data-vt="close"]::view-transition-new(root) { animation: none; }
+html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unreveal 0.6s cubic-bezier(0.65, 0, 0.35, 1) forwards; }
+@keyframes lc-unreveal {
+  from { clip-path: circle(var(--tr, 150vmax) at var(--tx, 50%) var(--ty, 100%)); }
+  to   { clip-path: circle(0 at var(--tx, 50%) var(--ty, 100%)); }
+}

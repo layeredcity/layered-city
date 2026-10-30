@@ -1712,7 +1712,10 @@ export default function App() {
     root.setProperty('--tx', x + 'px')
     root.setProperty('--ty', y + 'px')
     root.setProperty('--tr', Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y)) + 'px')
-    document.startViewTransition(apply)
+    // Opening grows the map out of the button; closing is the same move run
+    // backwards: the map shrinks back into the button, uncovering the list.
+    document.documentElement.dataset.vt = open ? 'open' : 'close'
+    document.startViewTransition(apply).finished.finally(() => { delete document.documentElement.dataset.vt })
   }
   const openMobileMap = e => switchMobileMap(true, e)
   const closeMobileMap = e => switchMobileMap(false, e)
