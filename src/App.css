@@ -735,3 +735,18 @@ img.city-hero__img.is-loaded { opacity: 1; }
   html.is-standalone .stories-header { padding-top: calc(env(safe-area-inset-top) + 88px); }
   html.is-standalone .panel-story__content { padding-top: calc(env(safe-area-inset-top) + 88px); }
 }
+
+/* Phones: city name and country 130% larger, centred halfway between the
+   "All cities" link and the "Media about…" heading. The text area starts just
+   below the back link (its padding + one ~20px line + 8px, mirroring the 8px
+   gap above the heading), so centring within it lands on the midpoint. The
+   fade-out moves from the whole hero to the photo, so the bigger, lower text
+   isn't faded with it. */
+@media (max-width: 768px) {
+  .city-hero__name { font-size: 57px; }
+  .city-hero__country { font-size: 17px; margin-top: 8px; }
+  .city-hero { -webkit-mask-image: none; mask-image: none; }
+  .city-hero__img, .city-hero__overlay { -webkit-mask-image: linear-gradient(to bottom, #000 60%, transparent 100%); mask-image: linear-gradient(to bottom, #000 60%, transparent 100%); }
+  .city-hero__text { padding: 42px 20px 0; }
+  html.is-standalone .city-hero__text { padding-top: calc(env(safe-area-inset-top) + 72px); }
+}
