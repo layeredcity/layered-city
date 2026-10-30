@@ -55,6 +55,9 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const citySelectedAtRef = useRef(null)
   const movListenerRef = useRef(null)
   const visibleIdsRef = useRef(new Set())
+  // map.loaded() goes false again whenever tiles are loading, and 'load' only
+  // fires once; remember that it fired so late callers don't wait forever.
+  const styleReadyRef = useRef(false)
   // Landmarks: below GROUP_ZOOM a landmark's stories fold into its one pin;
   // zoomed in closer, the landmark pin gives way to the individual stories.
   const GROUP_ZOOM = 16
@@ -89,6 +92,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       showUserHeading: true,
     }), 'top-right')
     mapRef.current = map
+    map.once('load', () => { styleReadyRef.current = true })
     onReady?.(map)
     map.on('zoom', () => {
       const grouped = map.getZoom() < GROUP_ZOOM
@@ -234,8 +238,8 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       })
     }
 
-    if (map.loaded()) addCityMarkers()
-    else map.on('load', addCityMarkers)
+    if (styleReadyRef.current || map.loaded()) addCityMarkers()
+    else map.once('load', addCityMarkers)
   }, [cities, city])
 
   // Create/destroy markers when the full story set changes (city switch)
@@ -341,8 +345,8 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       }, revealDelay)
     }
 
-    if (map.loaded()) addMarkers()
-    else map.on('load', addMarkers)
+    if (styleReadyRef.current || map.loaded()) addMarkers()
+    else map.once('load', addMarkers)
   }, [allStories])
 
   // Update marker visibility when filtered set changes — no recreate, just fade
