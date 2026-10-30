@@ -686,3 +686,14 @@ img.city-hero__img.is-loaded { opacity: 1; }
   .panel-cities__scroll, .stories-scroll, .city-overview, .panel-story__scroll { padding-bottom: calc(env(safe-area-inset-bottom) + var(--bar-gap)); }
   .mobile-map-btn, .map-mobile-close { bottom: calc(22px + env(safe-area-inset-bottom) + var(--bar-gap)); }
 }
+
+/* Home-screen app with a see-through status bar: iOS gives the page a
+   viewport that is short by the status bar's height, which left a strip at
+   the bottom. Add the top inset back (and take the measured screen height if
+   that's larger). */
+@media (max-width: 768px) {
+  html.is-standalone .app { height: max(var(--screen-h, 0px), calc(100lvh + env(safe-area-inset-top))); }
+}
+@media (max-width: 768px) and (display-mode: standalone) {
+  .app { height: max(var(--screen-h, 0px), calc(100lvh + env(safe-area-inset-top))); }
+}
