@@ -1411,6 +1411,7 @@ export default function App() {
       : detailView === 'overview' ? '#0E2560'
       : '#EFF6FF'
     document.documentElement.style.backgroundColor = color
+    document.documentElement.style.setProperty('--edge-color', color)
     document.body.style.backgroundColor = color
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', color)
   }, [selectedStory, mobileMapOpen, mobileView, selectedCity, detailView])

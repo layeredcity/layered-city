@@ -697,3 +697,13 @@ img.city-hero__img.is-loaded { opacity: 1; }
 @media (max-width: 768px) and (display-mode: standalone) {
   .app { height: max(var(--screen-h, 0px), calc(100lvh + env(safe-area-inset-top))); }
 }
+
+/* Safari on iOS 26 tints the status-bar strip and the area behind its toolbar
+   from the fixed layer at the screen edge rather than the page background.
+   Our fixed layer is .app, so give it the current edge colour, and hide the
+   off-screen city list (cream) so Safari can't sample it either. */
+@media (max-width: 768px) {
+  .app { background-color: var(--edge-color, var(--cream)); }
+  .panel-cities { transition: transform var(--drawer-transition), visibility 0s linear 0s; }
+  .panel-cities--hidden { visibility: hidden; transition: transform var(--drawer-transition), visibility 0s linear var(--drawer-transition); }
+}
