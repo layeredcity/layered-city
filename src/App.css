@@ -725,3 +725,13 @@ img.city-hero__img.is-loaded { opacity: 1; }
   .home-tip__close svg { width: 15px; height: 15px; }
 }
 @keyframes home-tip-in { from { opacity: 0; transform: translateY(-12px); } to { opacity: 1; transform: none; } }
+
+/* Home-screen app: iOS blurs a band at the top of the screen, a little deeper
+   than the status bar, and the back link sat inside it. Drop the back link
+   (and the titles below it) clear of that band. Safari keeps its own bar, so
+   this only applies to the home-screen app. */
+@media (max-width: 768px) {
+  html.is-standalone .mobile-back { padding-top: calc(env(safe-area-inset-top) + 44px); }
+  html.is-standalone .stories-header { padding-top: calc(env(safe-area-inset-top) + 88px); }
+  html.is-standalone .panel-story__content { padding-top: calc(env(safe-area-inset-top) + 88px); }
+}
