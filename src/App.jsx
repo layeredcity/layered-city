@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback, useMemo, useRef, cloneElement } from 'react'
+import { flushSync } from 'react-dom'
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity, fetchFoodsForCity, fetchWordsForCity } from './utils/contentful'
@@ -9,7 +10,6 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
-import { visibleListIcons, morphToMap, morphToList } from './mapMorph'
 import { upcomingEvents, eventsUpdated, groupEvents, eventDateBadge, eventDateText, eventStories, EVENT_GROUPS, eventGroupOf } from './utils/events'
 import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LABEL } from './utils/currency'
 
@@ -483,7 +483,7 @@ function EventItem({ story, occurrence, onSelect }) {
   // it opens) shows that day's date rather than the next one.
   const e = occurrence || story.event
   return (
-    <div className="event-item event-item--row" data-morph-id={story.id} onClick={() => onSelect(occurrence ? { ...story, event: occurrence } : story)}>
+    <div className="event-item event-item--row" onClick={() => onSelect(occurrence ? { ...story, event: occurrence } : story)}>
       <EventDate event={e} />
       <div className="event-item__body">
         <div className="event-item__cat">{e.category}</div>
@@ -1282,7 +1282,7 @@ function StoryItem({ story, onSelect, omdbData, bookData }) {
   const bookRating = isBook ? story.goodreadsRating : null
   const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
   return (
-    <div className="story-item" data-morph-id={story.id} onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
+    <div className="story-item" onClick={() => onSelect(story)} style={{cursor: 'pointer'}}>
       <StoryIcon story={story} omdbData={omdbData} bookData={bookData} />
       <div className="story-item__body">
         <div className={'story-item__title' + (isTour ? ' story-item__title--tour' : '')}>{(() => {
@@ -1415,9 +1415,7 @@ export default function App() {
   // Phones: the map is a full-screen layer opened from the city page.
   const [mobileMapOpen, setMobileMapOpen] = useState(false)
   useEffect(() => { if (!selectedCity) setMobileMapOpen(false) }, [selectedCity])
-  const mapInstanceRef = useRef(null)
-  const mapLayerRef = useRef(null)
-  const morphingRef = useRef(false)
+
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
   const [mediaStory, setMediaStory] = useState(null)
@@ -1700,29 +1698,24 @@ export default function App() {
 
   const mapStories = detailView === 'overview' ? stories : currentFilter.events ? shownEventStories : filteredStories
 
-  const storyByIdForMorph = useMemo(() => Object.fromEntries(mapAllStories.map(st => [st.id, st])), [mapAllStories])
-  const openMobileMap = (e) => {
-    if (morphingRef.current) return
-    morphingRef.current = true
-    const origin = e.currentTarget.getBoundingClientRect()
-    const items = detailView === 'stories' ? visibleListIcons() : []
-    setMobileMapOpen(true)
-    requestAnimationFrame(() => requestAnimationFrame(() => {
-      mapInstanceRef.current?.resize()
-      morphToMap({ items, storyById: storyByIdForMorph, map: mapInstanceRef.current, layer: mapLayerRef.current, origin })
-        .finally(() => { morphingRef.current = false })
-    }))
+  // List ⇄ map on phones, borrowed from aliriehle.com's theme switch: the
+  // browser snapshots the current screen, swaps in the other one, and reveals
+  // it through a circle that grows out of the button you tapped until it
+  // reaches the farthest corner. The old screen holds still underneath.
+  const switchMobileMap = (open, e) => {
+    const apply = () => flushSync(() => setMobileMapOpen(open))
+    const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
+    if (!document.startViewTransition || reduce || !e?.currentTarget) return apply()
+    const r = e.currentTarget.getBoundingClientRect()
+    const x = r.left + r.width / 2, y = r.top + r.height / 2
+    const root = document.documentElement.style
+    root.setProperty('--tx', x + 'px')
+    root.setProperty('--ty', y + 'px')
+    root.setProperty('--tr', Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y)) + 'px')
+    document.startViewTransition(apply)
   }
-  const closeMobileMap = (e) => {
-    if (morphingRef.current) return
-    morphingRef.current = true
-    const origin = e.currentTarget.getBoundingClientRect()
-    morphToList({ storyById: storyByIdForMorph, map: mapInstanceRef.current, layer: mapLayerRef.current, origin })
-      .finally(() => {
-        setMobileMapOpen(false)
-        requestAnimationFrame(() => { mapLayerRef.current?.getAnimations().forEach(a => a.cancel()); morphingRef.current = false })
-      })
-  }
+  const openMobileMap = e => switchMobileMap(true, e)
+  const closeMobileMap = e => switchMobileMap(false, e)
 
   if (loading) {
     return (
@@ -1896,7 +1889,7 @@ export default function App() {
         )}
       </section>
 
-      <div ref={mapLayerRef} className={'panel-map' + (mobileMapOpen ? ' panel-map--mobile-open' : '')}>
+      <div className={'panel-map' + (mobileMapOpen ? ' panel-map--mobile-open' : '')}>
         {mobileMapOpen && (
           <button type="button" className="map-mobile-close" onClick={closeMobileMap}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
@@ -1905,7 +1898,6 @@ export default function App() {
         )}
         <MapboxMap
           shownKey={mobileMapOpen}
-          onReady={m => { mapInstanceRef.current = m }}
           city={selectedCity}
           cities={cities}
           allStories={mapAllStories}

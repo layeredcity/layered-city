@@ -750,3 +750,18 @@ img.city-hero__img.is-loaded { opacity: 1; }
   .city-hero__text { padding: 42px 20px 0; }
   html.is-standalone .city-hero__text { padding-top: calc(env(safe-area-inset-top) + 72px); }
 }
+
+/* Phones: list ⇄ map reveal (see switchMobileMap). The map now stays laid
+   out full screen behind the list, just hidden, so it's already drawn at the
+   right size when the circle opens; no resize flash. */
+@media (max-width: 768px) {
+  .panel-map { display: block; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 35; box-shadow: none; visibility: hidden; pointer-events: none; }
+  .panel-map--mobile-open { visibility: visible; pointer-events: auto; }
+}
+::view-transition-old(root),
+::view-transition-new(root) { animation: none; mix-blend-mode: normal; }
+::view-transition-new(root) { animation: lc-reveal 0.6s cubic-bezier(0.65, 0, 0.35, 1); }
+@keyframes lc-reveal {
+  from { clip-path: circle(0 at var(--tx, 50%) var(--ty, 100%)); }
+  to   { clip-path: circle(var(--tr, 150vmax) at var(--tx, 50%) var(--ty, 100%)); }
+}
