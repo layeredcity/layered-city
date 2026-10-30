@@ -675,3 +675,14 @@ img.city-hero__img.is-loaded { opacity: 1; }
   /* The pin-anchored pop-up is a desktop thing; phones use the detail panel. */
   .story-modal-anchor { display: none; }
 }
+
+/* Phones in Safari: run the app under the floating toolbar (large viewport)
+   instead of stopping above it, and pad the bottom of every scrolling list by
+   the toolbar's height so the last item can still scroll into view. The
+   home-screen app keeps its own full-screen height (--screen-h). */
+@media (max-width: 768px) {
+  :root { --bar-gap: max(0px, calc(100lvh - 100dvh)); }
+  .app { height: var(--screen-h, 100lvh); }
+  .panel-cities__scroll, .stories-scroll, .city-overview, .panel-story__scroll { padding-bottom: calc(env(safe-area-inset-bottom) + var(--bar-gap)); }
+  .mobile-map-btn, .map-mobile-close { bottom: calc(22px + env(safe-area-inset-bottom) + var(--bar-gap)); }
+}

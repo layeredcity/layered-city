@@ -1400,6 +1400,21 @@ export default function App() {
     window.addEventListener('orientationchange', () => setTimeout(setScreenHeight, 100))
   }, [])
 
+  // Phones: Safari colours the status-bar strip and the area behind its
+  // floating toolbar from the page background (and theme-color), and the
+  // home-screen app shows it at the screen edges. Match it to whatever screen
+  // is showing so those edges blend in: cream for the city list, deep blue for
+  // a city's overview, light blue for a section list, white for a detail panel.
+  useEffect(() => {
+    const color = selectedStory || mobileMapOpen ? '#FFFFFF'
+      : mobileView !== 'detail' || !selectedCity ? '#F7F4EF'
+      : detailView === 'overview' ? '#0E2560'
+      : '#EFF6FF'
+    document.documentElement.style.backgroundColor = color
+    document.body.style.backgroundColor = color
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', color)
+  }, [selectedStory, mobileMapOpen, mobileView, selectedCity, detailView])
+
   const omdbData = selectedStory?.imdbId ? (omdbCache[selectedStory.imdbId] ?? null) : null
   const bookData = selectedStory?.isbn ? (bookCache[selectedStory.isbn] ?? null) : null
 
