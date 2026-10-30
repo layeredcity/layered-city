@@ -412,6 +412,42 @@ function WordsPanel({ city, words }) {
 }
 
 // The little spiral-bound desk-calendar date, used in the list and the pop-up.
+// iPhone Safari can't show Layered City full screen (it keeps its own bars),
+// but the home-screen app can. Suggest it once, to iPhone Safari visitors only;
+// dismissing it is remembered on this device.
+function HomeScreenTip() {
+  const [show, setShow] = useState(false)
+  useEffect(() => {
+    const ua = navigator.userAgent
+    const iphoneSafari = /iPhone|iPod/.test(ua) && /Safari/.test(ua) && !/CriOS|FxiOS|EdgiOS|OPiOS/.test(ua)
+    const standalone = navigator.standalone === true || window.matchMedia?.('(display-mode: standalone)').matches
+    let dismissed = false
+    try { dismissed = localStorage.getItem('lc-home-tip') === 'dismissed' } catch {}
+    if (iphoneSafari && !standalone && !dismissed) {
+      const t = setTimeout(() => setShow(true), 2500)
+      return () => clearTimeout(t)
+    }
+  }, [])
+  if (!show) return null
+  const close = () => { setShow(false); try { localStorage.setItem('lc-home-tip', 'dismissed') } catch {} }
+  return (
+    <div className="home-tip" role="dialog" aria-label="Add Layered City to your Home Screen">
+      <img className="home-tip__icon" src="/apple-touch-icon.png" alt="" />
+      <div className="home-tip__text">
+        <div className="home-tip__title">Get the full-screen app</div>
+        <div className="home-tip__how">
+          Tap <span className="home-tip__glyph" aria-label="Share">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M12 3v12M8 7l4-4 4 4"/><path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-7"/></svg>
+          </span> Share, then “Add to Home Screen”.
+        </div>
+      </div>
+      <button type="button" className="home-tip__close" onClick={close} aria-label="Dismiss">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg>
+      </button>
+    </div>
+  )
+}
+
 function EventDate({ event }) {
   const badge = eventDateBadge(event)
   return (
@@ -1671,6 +1707,7 @@ export default function App() {
 
   return (
     <div className={"app" + (selectedCity ? ' app--city-selected' : '')}>
+      <HomeScreenTip />
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
         <div className="panel-cities__header">
           <div className="logo" onClick={goHome} style={{cursor:'pointer'}}>
