@@ -1,40 +1,3783 @@
 {
-  "Vienna": [
-    { "id": "kunsthistorisches", "name": "Kunsthistorisches Museum", "type": "museum", "places": ["Kunsthistorisches Museum"],
-      "description": "The Habsburgs’ art collection in a palace-sized museum on the Ringstrasse: Bruegel, Vermeer, Rembrandt, and a café under the dome." },
-    { "id": "st-stephens", "name": "St Stephen’s Cathedral", "type": "church", "places": ["St Stephen’s Cathedral", "Stephansplatz"],
-      "description": "Vienna’s Gothic cathedral and the square around it, at the dead centre of the old town. Look up for the patterned tile roof." },
-    { "id": "hofburg", "name": "Hofburg palace", "type": "palace", "places": ["Imperial Treasury (Schatzkammer), Hofburg", "Heldenplatz", "Sisi Museum, Hofburg", "Spanish Riding School, Hofburg", "Austrian National Library, Hofburg"],
-      "description": "The Habsburgs’ sprawling city palace: the imperial treasury, the Sisi Museum, the Spanish Riding School, the old library and the big square in front." },
-    { "id": "state-opera", "name": "Vienna State Opera", "type": "music", "places": ["Vienna State Opera"],
-      "description": "One of the world’s great opera houses, on the Ringstrasse. Standing places go on sale shortly before most performances." },
-    { "id": "upper-belvedere", "name": "Upper Belvedere", "type": "palace", "places": ["Upper Belvedere palace museum"],
-      "description": "A baroque palace turned art museum, home to Klimt’s The Kiss and a big collection of Austrian painting." },
-    { "id": "leopold", "name": "Leopold Museum", "type": "museum", "places": ["Leopold Museum"],
-      "description": "A white-cube museum in the MuseumsQuartier with the world’s largest collection of Egon Schiele, plus Klimt and Vienna 1900 design." },
-    { "id": "albertina", "name": "Albertina", "type": "museum", "places": ["Albertina museum"],
-      "description": "A former Habsburg palace holding one of the great collections of drawings and prints, from Dürer’s hare to Picasso." },
-    { "id": "cafe-central", "name": "Café Central", "type": "cafe", "places": ["Café Central"],
-      "description": "The grandest of the old coffee houses, under vaulted ceilings in a former bank. Trotsky and Freud were regulars." },
-    { "id": "freud-museum", "name": "Sigmund Freud Museum", "type": "museum", "places": ["Sigmund Freud Museum, Berggasse 19"],
-      "description": "The apartment and consulting rooms where Freud lived and worked for 47 years, until he fled the Nazis in 1938." },
-    { "id": "mozarthaus", "name": "Mozarthaus", "type": "museum", "places": ["Mozarthaus museum, Domgasse"],
-      "description": "The only one of Mozart’s Vienna homes that survives, where he wrote The Marriage of Figaro." },
-    { "id": "zentralfriedhof", "name": "Central Cemetery", "type": "cemetery", "places": ["Central Cemetery (Zentralfriedhof)"],
-      "description": "A huge park-like cemetery on the edge of town, with the graves of Beethoven, Schubert, Brahms and the Strauss family." },
-    { "id": "beethoven-museum", "name": "Beethoven Museum", "type": "museum", "places": ["Beethoven Museum, Heiligenstadt"],
-      "description": "The village house in Heiligenstadt where Beethoven, going deaf, wrote his despairing letter to his brothers." },
-    { "id": "kapuzinergruft", "name": "Imperial Crypt", "type": "church", "places": ["Imperial Crypt (Kapuzinergruft)"],
-      "description": "The burial vault of the Habsburgs, under a plain Capuchin church: 150 coffins, some of them elaborately decorated." },
-    { "id": "schonbrunn", "name": "Schönbrunn Palace", "type": "palace", "places": ["Schönbrunn Palace"],
-      "description": "The Habsburgs’ summer palace and gardens, a short metro ride from the centre." },
-    { "id": "riesenrad", "name": "Giant Ferris Wheel", "type": "landmark", "places": ["Giant Ferris Wheel (Riesenrad), Prater"],
-      "description": "The 1897 Ferris wheel in the Prater amusement park, with wooden cabins and a famous scene in The Third Man." },
-    { "id": "musikverein", "name": "Musikverein", "type": "music", "places": ["Musikverein concert hall"],
-      "description": "The concert hall with the golden main hall, home of the Vienna Philharmonic and its New Year’s Concert." },
-    { "id": "secession", "name": "Secession", "type": "museum", "places": ["Secession building"],
-      "description": "The art nouveau exhibition hall with the golden dome of leaves, built by Klimt’s breakaway group of artists. Klimt’s Beethoven Frieze is in the basement." },
-    { "id": "karl-marx-hof", "name": "Karl-Marx-Hof", "type": "building", "places": ["Karl-Marx-Hof housing estate"],
-      "description": "A kilometre-long block of public housing built in 1927–30, the showpiece of ‘Red Vienna’ and its social housing programme." }
-  ]
+ "Vienna": [
+  {
+   "id": "kunsthistorisches",
+   "name": "Kunsthistorisches Museum",
+   "type": "museum",
+   "places": [
+    "Kunsthistorisches Museum"
+   ],
+   "description": "The Habsburgs’ art collection in a palace-sized museum on the Ringstrasse: Bruegel, Vermeer, Rembrandt, and a café under the dome."
+  },
+  {
+   "id": "st-stephens",
+   "name": "St Stephen’s Cathedral",
+   "type": "church",
+   "places": [
+    "St Stephen’s Cathedral",
+    "Stephansplatz"
+   ],
+   "description": "Vienna’s Gothic cathedral and the square around it, at the dead centre of the old town. Look up for the patterned tile roof."
+  },
+  {
+   "id": "hofburg",
+   "name": "Hofburg palace",
+   "type": "palace",
+   "places": [
+    "Imperial Treasury (Schatzkammer), Hofburg",
+    "Heldenplatz",
+    "Sisi Museum, Hofburg",
+    "Spanish Riding School, Hofburg",
+    "Austrian National Library, Hofburg"
+   ],
+   "description": "The Habsburgs’ sprawling city palace: the imperial treasury, the Sisi Museum, the Spanish Riding School, the old library and the big square in front."
+  },
+  {
+   "id": "state-opera",
+   "name": "Vienna State Opera",
+   "type": "music",
+   "places": [
+    "Vienna State Opera"
+   ],
+   "description": "One of the world’s great opera houses, on the Ringstrasse. Standing places go on sale shortly before most performances."
+  },
+  {
+   "id": "upper-belvedere",
+   "name": "Upper Belvedere",
+   "type": "palace",
+   "places": [
+    "Upper Belvedere palace museum"
+   ],
+   "description": "A baroque palace turned art museum, home to Klimt’s The Kiss and a big collection of Austrian painting."
+  },
+  {
+   "id": "leopold",
+   "name": "Leopold Museum",
+   "type": "museum",
+   "places": [
+    "Leopold Museum"
+   ],
+   "description": "A white-cube museum in the MuseumsQuartier with the world’s largest collection of Egon Schiele, plus Klimt and Vienna 1900 design."
+  },
+  {
+   "id": "albertina",
+   "name": "Albertina",
+   "type": "museum",
+   "places": [
+    "Albertina museum"
+   ],
+   "description": "A former Habsburg palace holding one of the great collections of drawings and prints, from Dürer’s hare to Picasso."
+  },
+  {
+   "id": "cafe-central",
+   "name": "Café Central",
+   "type": "cafe",
+   "places": [
+    "Café Central"
+   ],
+   "description": "The grandest of the old coffee houses, under vaulted ceilings in a former bank. Trotsky and Freud were regulars."
+  },
+  {
+   "id": "freud-museum",
+   "name": "Sigmund Freud Museum",
+   "type": "museum",
+   "places": [
+    "Sigmund Freud Museum, Berggasse 19"
+   ],
+   "description": "The apartment and consulting rooms where Freud lived and worked for 47 years, until he fled the Nazis in 1938."
+  },
+  {
+   "id": "mozarthaus",
+   "name": "Mozarthaus",
+   "type": "museum",
+   "places": [
+    "Mozarthaus museum, Domgasse"
+   ],
+   "description": "The only one of Mozart’s Vienna homes that survives, where he wrote The Marriage of Figaro."
+  },
+  {
+   "id": "zentralfriedhof",
+   "name": "Central Cemetery",
+   "type": "cemetery",
+   "places": [
+    "Central Cemetery (Zentralfriedhof)"
+   ],
+   "description": "A huge park-like cemetery on the edge of town, with the graves of Beethoven, Schubert, Brahms and the Strauss family."
+  },
+  {
+   "id": "beethoven-museum",
+   "name": "Beethoven Museum",
+   "type": "museum",
+   "places": [
+    "Beethoven Museum, Heiligenstadt"
+   ],
+   "description": "The village house in Heiligenstadt where Beethoven, going deaf, wrote his despairing letter to his brothers."
+  },
+  {
+   "id": "kapuzinergruft",
+   "name": "Imperial Crypt",
+   "type": "church",
+   "places": [
+    "Imperial Crypt (Kapuzinergruft)"
+   ],
+   "description": "The burial vault of the Habsburgs, under a plain Capuchin church: 150 coffins, some of them elaborately decorated."
+  },
+  {
+   "id": "schonbrunn",
+   "name": "Schönbrunn Palace",
+   "type": "palace",
+   "places": [
+    "Schönbrunn Palace"
+   ],
+   "description": "The Habsburgs’ summer palace and gardens, a short metro ride from the centre."
+  },
+  {
+   "id": "riesenrad",
+   "name": "Giant Ferris Wheel",
+   "type": "landmark",
+   "places": [
+    "Giant Ferris Wheel (Riesenrad), Prater"
+   ],
+   "description": "The 1897 Ferris wheel in the Prater amusement park, with wooden cabins and a famous scene in The Third Man."
+  },
+  {
+   "id": "musikverein",
+   "name": "Musikverein",
+   "type": "music",
+   "places": [
+    "Musikverein concert hall"
+   ],
+   "description": "The concert hall with the golden main hall, home of the Vienna Philharmonic and its New Year’s Concert."
+  },
+  {
+   "id": "secession",
+   "name": "Secession",
+   "type": "museum",
+   "places": [
+    "Secession building"
+   ],
+   "description": "The art nouveau exhibition hall with the golden dome of leaves, built by Klimt’s breakaway group of artists. Klimt’s Beethoven Frieze is in the basement."
+  },
+  {
+   "id": "karl-marx-hof",
+   "name": "Karl-Marx-Hof",
+   "type": "building",
+   "places": [
+    "Karl-Marx-Hof housing estate"
+   ],
+   "description": "A kilometre-long block of public housing built in 1927–30, the showpiece of ‘Red Vienna’ and its social housing programme."
+  }
+ ],
+ "Amsterdam": [
+  {
+   "id": "rijksmuseum",
+   "name": "Rijksmuseum",
+   "type": "museum",
+   "places": [
+    "Rijksmuseum"
+   ],
+   "description": "The Netherlands’ national museum, in a grand 1885 building: Rembrandt’s The Night Watch, Vermeer and Dutch Golden Age art."
+  },
+  {
+   "id": "centraal-station",
+   "name": "Amsterdam Centraal",
+   "type": "building",
+   "places": [
+    "Amsterdam Centraal station"
+   ],
+   "description": "The city’s main railway station, a brick palace of a building on the waterfront that opened in 1889."
+  },
+  {
+   "id": "dam-square",
+   "name": "Dam Square",
+   "type": "landmark",
+   "places": [
+    "Dam Square"
+   ],
+   "description": "The city’s main square, with the Royal Palace, the Nieuwe Kerk and the white National Monument to the Second World War."
+  },
+  {
+   "id": "van-gogh-museum",
+   "name": "Van Gogh Museum",
+   "type": "museum",
+   "places": [
+    "Van Gogh Museum"
+   ],
+   "description": "The world’s largest collection of Van Gogh’s paintings, drawings and letters, on Museumplein."
+  },
+  {
+   "id": "oude-kerk",
+   "name": "Oude Kerk",
+   "type": "church",
+   "places": [
+    "Oude Kerk church"
+   ],
+   "description": "Amsterdam’s oldest building, a medieval church in the middle of the red-light district, now also used for contemporary art."
+  },
+  {
+   "id": "waag",
+   "name": "Waag",
+   "type": "building",
+   "places": [
+    "Waag weigh house, Nieuwmarkt"
+   ],
+   "description": "A 15th-century city gate later used as a weigh house, standing in the middle of Nieuwmarkt square. It is now a restaurant."
+  },
+  {
+   "id": "anne-frank-house",
+   "name": "Anne Frank House",
+   "type": "museum",
+   "places": [
+    "Anne Frank House"
+   ],
+   "description": "The canal house where Anne Frank and her family hid from the Nazis for two years. The secret annexe is now a museum."
+  },
+  {
+   "id": "bloemenmarkt",
+   "name": "Flower Market",
+   "type": "landmark",
+   "places": [
+    "Bloemenmarkt flower market"
+   ],
+   "description": "A flower market on a row of floating stalls along the Singel canal, selling bulbs, plants and cut flowers."
+  },
+  {
+   "id": "oost-indisch-huis",
+   "name": "East India House",
+   "type": "building",
+   "places": [
+    "Oost-Indisch Huis (former VOC headquarters)"
+   ],
+   "description": "The 17th-century headquarters of the Dutch East India Company (VOC), now part of the University of Amsterdam."
+  },
+  {
+   "id": "vondelpark",
+   "name": "Vondelpark",
+   "type": "landmark",
+   "places": [
+    "Vondelpark",
+    "Vondelpark main entrance, Stadhouderskade"
+   ],
+   "description": "The city’s best-known park, opened in 1865 just south of the centre, with ponds, lawns and cycle paths."
+  },
+  {
+   "id": "resistance-museum",
+   "name": "Dutch Resistance Museum",
+   "type": "museum",
+   "places": [
+    "Dutch Resistance Museum"
+   ],
+   "description": "A museum about the Dutch Resistance and daily life in Amsterdam under German occupation in the Second World War."
+  },
+  {
+   "id": "leidseplein",
+   "name": "Leidseplein",
+   "type": "landmark",
+   "places": [
+    "Leidseplein"
+   ],
+   "description": "A busy square on the edge of the canal ring, lined with theatres, bars and music venues."
+  },
+  {
+   "id": "de-hallen",
+   "name": "De Hallen",
+   "type": "building",
+   "places": [
+    "Foodhallen food hall, De Hallen",
+    "Denim City, De Hallen"
+   ],
+   "description": "A former tram depot from the early 1900s, converted into a food hall, a cinema and denim workshops."
+  }
+ ],
+ "Athens": [
+  {
+   "id": "acropolis",
+   "name": "Acropolis",
+   "type": "landmark",
+   "places": [
+    "Parthenon, Acropolis",
+    "Acropolis",
+    "Erechtheion, Acropolis",
+    "Acropolis south slope entrance",
+    "Theatre of Dionysus"
+   ],
+   "description": "The rock above the city with the ruins of the Parthenon, the Erechtheion and, on the south slope, the Theatre of Dionysus."
+  },
+  {
+   "id": "syntagma-square",
+   "name": "Syntagma Square",
+   "type": "landmark",
+   "places": [
+    "Syntagma Square",
+    "Tomb of the Unknown Soldier, Syntagma Square"
+   ],
+   "description": "The square in front of the Greek parliament, scene of the city’s big protests. Guards change at the Tomb of the Unknown Soldier."
+  },
+  {
+   "id": "national-archaeological-museum",
+   "name": "National Archaeological Museum",
+   "type": "museum",
+   "places": [
+    "National Archaeological Museum"
+   ],
+   "description": "Greece’s largest archaeological museum, with ancient sculpture, bronzes, gold from Mycenae and the Antikythera mechanism."
+  },
+  {
+   "id": "acropolis-museum",
+   "name": "Acropolis Museum",
+   "type": "museum",
+   "places": [
+    "Acropolis Museum"
+   ],
+   "description": "A modern glass museum at the foot of the Acropolis, holding the sculptures and finds from the hill."
+  },
+  {
+   "id": "ancient-agora",
+   "name": "Ancient Agora",
+   "type": "landmark",
+   "places": [
+    "Ancient Agora"
+   ],
+   "description": "The ruins of ancient Athens’ marketplace and civic centre, with the Temple of Hephaestus and the rebuilt Stoa of Attalos."
+  },
+  {
+   "id": "kerameikos",
+   "name": "Kerameikos",
+   "type": "landmark",
+   "places": [
+    "Kerameikos archaeological site",
+    "Street of Tombs, Kerameikos"
+   ],
+   "description": "The ancient city cemetery just outside the old walls, with grave monuments along the Street of Tombs and a small museum."
+  },
+  {
+   "id": "pnyx",
+   "name": "Pnyx",
+   "type": "landmark",
+   "places": [
+    "Pnyx hill"
+   ],
+   "description": "The hill where the citizens’ assembly of ancient Athens met, with a view across to the Acropolis."
+  },
+  {
+   "id": "omonia-square",
+   "name": "Omonia Square",
+   "type": "landmark",
+   "places": [
+    "Omonia Square"
+   ],
+   "description": "One of the city’s main squares, a busy traffic hub where several big avenues meet."
+  },
+  {
+   "id": "exarchia-square",
+   "name": "Exarchia Square",
+   "type": "landmark",
+   "places": [
+    "Exarchia Square"
+   ],
+   "description": "The central square of Exarchia, a neighbourhood long known for students, bookshops and left-wing and anarchist politics."
+  },
+  {
+   "id": "polytechnic",
+   "name": "Athens Polytechnic",
+   "type": "building",
+   "places": [
+    "Polytechnic gate, Patission Street"
+   ],
+   "description": "The 19th-century university campus where a tank broke through the gate to end the student uprising against the junta in November 1973."
+  }
+ ],
+ "Barcelona": [
+  {
+   "id": "sagrada-familia",
+   "name": "Sagrada Família",
+   "type": "church",
+   "places": [
+    "Sagrada Família basilica"
+   ],
+   "description": "Gaudí’s vast basilica, under construction since 1882, with tree-like columns inside and stained glass that fills it with colour."
+  },
+  {
+   "id": "placa-de-catalunya",
+   "name": "Plaça de Catalunya",
+   "type": "landmark",
+   "places": [
+    "Plaça de Catalunya"
+   ],
+   "description": "The big square at the top of La Rambla, where the old city meets the 19th-century Eixample grid."
+  },
+  {
+   "id": "placa-sant-jaume",
+   "name": "Plaça de Sant Jaume",
+   "type": "landmark",
+   "places": [
+    "Plaça de Sant Jaume"
+   ],
+   "description": "The square at the heart of the Gothic Quarter, where the Catalan government palace and the city hall face each other."
+  },
+  {
+   "id": "camp-nou",
+   "name": "Camp Nou",
+   "type": "building",
+   "places": [
+    "Camp Nou stadium"
+   ],
+   "description": "FC Barcelona’s home stadium since 1957 and the largest in Europe. It is being rebuilt in stages."
+  },
+  {
+   "id": "palau-de-la-musica",
+   "name": "Palau de la Música Catalana",
+   "type": "music",
+   "places": [
+    "Palau de la Música Catalana concert hall"
+   ],
+   "description": "A modernista concert hall from 1908, covered in mosaics, with a stained-glass skylight over the auditorium."
+  },
+  {
+   "id": "mnac",
+   "name": "National Art Museum of Catalonia",
+   "type": "museum",
+   "places": [
+    "National Art Museum of Catalonia (MNAC)"
+   ],
+   "description": "Catalonia’s national art museum, in a palace on Montjuïc built for the 1929 exhibition, known for its Romanesque church murals."
+  },
+  {
+   "id": "telefonica-building",
+   "name": "Telefónica building",
+   "type": "building",
+   "places": [
+    "Telefónica building, Plaça de Catalunya"
+   ],
+   "description": "The telephone exchange on Plaça de Catalunya that was fought over in the street battles of May 1937, during the Spanish Civil War."
+  },
+  {
+   "id": "estadi-olimpic",
+   "name": "Olympic Stadium",
+   "type": "building",
+   "places": [
+    "Olympic Stadium (Estadi Olímpic Lluís Companys)"
+   ],
+   "description": "The stadium on Montjuïc built for the 1929 exhibition and rebuilt as the main stadium of the 1992 Olympics."
+  },
+  {
+   "id": "la-model",
+   "name": "La Model prison",
+   "type": "building",
+   "places": [
+    "La Model prison memorial"
+   ],
+   "description": "A prison built in 1904 in the Eixample, used to hold political prisoners under Franco. It closed in 2017 and is now open to visitors."
+  },
+  {
+   "id": "park-guell",
+   "name": "Park Güell",
+   "type": "landmark",
+   "places": [
+    "Park Güell",
+    "Park Güell main entrance"
+   ],
+   "description": "Gaudí’s hillside park, with mosaic benches, gingerbread-like gatehouses and views over the city."
+  },
+  {
+   "id": "santa-maria-del-mar",
+   "name": "Santa Maria del Mar",
+   "type": "church",
+   "places": [
+    "Santa Maria del Mar basilica",
+    "Fossar de les Moreres memorial"
+   ],
+   "description": "A 14th-century Gothic church in El Born. The memorial square beside it marks the graves of those killed in the 1714 siege."
+  }
+ ],
+ "Belgrade": [
+  {
+   "id": "national-assembly",
+   "name": "National Assembly",
+   "type": "building",
+   "places": [
+    "National Assembly (parliament building)"
+   ],
+   "description": "Serbia’s domed parliament building, finished in 1936. Protesters stormed it on 5 October 2000, bringing down Milošević."
+  },
+  {
+   "id": "kalemegdan",
+   "name": "Belgrade Fortress (Kalemegdan)",
+   "type": "landmark",
+   "places": [
+    "Kalemegdan Fortress"
+   ],
+   "description": "The old fortress on the ridge where the Sava meets the Danube, now a large park with walls, gates and river views."
+  },
+  {
+   "id": "house-of-flowers",
+   "name": "House of Flowers",
+   "type": "landmark",
+   "places": [
+    "House of Flowers (Tito’s mausoleum)"
+   ],
+   "description": "Tito’s mausoleum, a winter garden where he and his wife are buried, part of the Museum of Yugoslavia."
+  },
+  {
+   "id": "slavija-square",
+   "name": "Slavija Square",
+   "type": "landmark",
+   "places": [
+    "Slavija Square"
+   ],
+   "description": "A large roundabout square at the south end of the centre, where several main streets meet."
+  },
+  {
+   "id": "genex-tower",
+   "name": "Western City Gate (Genex Tower)",
+   "type": "building",
+   "places": [
+    "Western City Gate (Genex Tower)"
+   ],
+   "description": "A Brutalist pair of towers from 1977–80 at the entrance to New Belgrade, linked by a bridge with a round restaurant on top."
+  },
+  {
+   "id": "chinese-embassy-site",
+   "name": "Former Chinese embassy site",
+   "type": "building",
+   "places": [
+    "Chinese Cultural Centre (site of 1999 embassy bombing)"
+   ],
+   "description": "The site of the Chinese embassy that NATO bombed in May 1999, killing three people. A Chinese cultural centre now stands there."
+  },
+  {
+   "id": "tesla-museum",
+   "name": "Nikola Tesla Museum",
+   "type": "museum",
+   "places": [
+    "Nikola Tesla Museum"
+   ],
+   "description": "A museum of Tesla’s papers, inventions and working models, in a villa in the centre. His ashes are kept there in a gilded sphere."
+  },
+  {
+   "id": "marakana",
+   "name": "Red Star Stadium",
+   "type": "building",
+   "places": [
+    "Red Star Stadium (Marakana)"
+   ],
+   "description": "Red Star Belgrade’s football stadium, nicknamed the Marakana, and the biggest stadium in Serbia."
+  }
+ ],
+ "Berlin": [
+  {
+   "id": "gemaldegalerie",
+   "name": "Gemäldegalerie",
+   "type": "museum",
+   "places": [
+    "Gemäldegalerie art museum"
+   ],
+   "description": "Berlin’s main museum of European painting from the 13th to 18th centuries, at the Kulturforum: Rembrandt, Vermeer, Caravaggio, Bruegel."
+  },
+  {
+   "id": "alte-nationalgalerie",
+   "name": "Alte Nationalgalerie",
+   "type": "museum",
+   "places": [
+    "Alte Nationalgalerie museum"
+   ],
+   "description": "A temple-like museum on Museum Island with 19th-century painting and sculpture, including Caspar David Friedrich."
+  },
+  {
+   "id": "neues-museum",
+   "name": "Neues Museum",
+   "type": "museum",
+   "places": [
+    "Neues Museum"
+   ],
+   "description": "A museum on Museum Island, rebuilt after war damage, with Egyptian and prehistoric collections. The bust of Nefertiti is here."
+  },
+  {
+   "id": "pergamon-museum",
+   "name": "Pergamon Museum",
+   "type": "museum",
+   "places": [
+    "Pergamon Museum",
+    "Ishtar Gate, Pergamon Museum"
+   ],
+   "description": "The museum on Museum Island with the Ishtar Gate of Babylon and the Pergamon Altar. It is closed for a long renovation."
+  },
+  {
+   "id": "lustgarten",
+   "name": "Lustgarten",
+   "type": "landmark",
+   "places": [
+    "Lustgarten park"
+   ],
+   "description": "The lawn in front of the Altes Museum and Berlin Cathedral on Museum Island, once a royal garden and parade ground."
+  },
+  {
+   "id": "brandenburg-gate",
+   "name": "Brandenburg Gate",
+   "type": "landmark",
+   "places": [
+    "Brandenburg Gate"
+   ],
+   "description": "The 18th-century city gate at the end of Unter den Linden, cut off just inside East Berlin while the Wall stood."
+  },
+  {
+   "id": "reichstag",
+   "name": "Reichstag",
+   "type": "building",
+   "places": [
+    "Reichstag building"
+   ],
+   "description": "The German parliament building, with a glass dome you can climb for free if you book ahead."
+  },
+  {
+   "id": "alexanderplatz",
+   "name": "Alexanderplatz",
+   "type": "landmark",
+   "places": [
+    "Alexanderplatz"
+   ],
+   "description": "A big open square in former East Berlin, with the TV tower, the World Clock and a busy train station."
+  },
+  {
+   "id": "potsdamer-platz",
+   "name": "Potsdamer Platz",
+   "type": "landmark",
+   "places": [
+    "Potsdamer Platz"
+   ],
+   "description": "A busy square cut in two by the Wall and rebuilt in the 1990s with office towers and the Sony Center."
+  },
+  {
+   "id": "checkpoint-charlie",
+   "name": "Checkpoint Charlie",
+   "type": "landmark",
+   "places": [
+    "Checkpoint Charlie"
+   ],
+   "description": "The best-known crossing point between East and West Berlin during the Cold War, with a replica guard hut."
+  },
+  {
+   "id": "berghain",
+   "name": "Berghain",
+   "type": "music",
+   "places": [
+    "Berghain club"
+   ],
+   "description": "A techno club in a former power station, open from Saturday night into Monday, with a strict door policy."
+  },
+  {
+   "id": "berlin-wall-memorial",
+   "name": "Berlin Wall Memorial",
+   "type": "landmark",
+   "places": [
+    "Berlin Wall Memorial, Bernauer Straße"
+   ],
+   "description": "The main memorial to the Berlin Wall, along Bernauer Straße, with a preserved stretch of the border strip and a watchtower."
+  },
+  {
+   "id": "stasi-museum",
+   "name": "Stasi Museum",
+   "type": "museum",
+   "places": [
+    "Stasi Museum"
+   ],
+   "description": "The former headquarters of East Germany’s secret police, with the minister’s offices kept as they were."
+  },
+  {
+   "id": "victory-column",
+   "name": "Victory Column",
+   "type": "landmark",
+   "places": [
+    "Victory Column (Siegessäule)"
+   ],
+   "description": "A tall 19th-century column topped by a gilded Victory, in the middle of the Tiergarten, with a viewing platform."
+  },
+  {
+   "id": "olympiastadion",
+   "name": "Olympic Stadium",
+   "type": "building",
+   "places": [
+    "Olympic Stadium (Olympiastadion)"
+   ],
+   "description": "The stadium built for the 1936 Olympics, now home to Hertha BSC and the German Cup final."
+  },
+  {
+   "id": "so36",
+   "name": "SO36",
+   "type": "music",
+   "places": [
+    "SO36 club"
+   ],
+   "description": "A punk and alternative music club in Kreuzberg, open since 1978."
+  },
+  {
+   "id": "ddr-museum",
+   "name": "DDR Museum",
+   "type": "museum",
+   "places": [
+    "DDR Museum"
+   ],
+   "description": "A hands-on museum about everyday life in East Germany, beside the Spree opposite Museum Island."
+  }
+ ],
+ "Brussels": [
+  {
+   "id": "grand-place",
+   "name": "Grand-Place",
+   "type": "landmark",
+   "places": [
+    "Grand-Place"
+   ],
+   "description": "The city’s central square, surrounded by ornate guild houses and the Gothic town hall."
+  },
+  {
+   "id": "comic-strip-center",
+   "name": "Belgian Comic Strip Center",
+   "type": "museum",
+   "places": [
+    "Belgian Comic Strip Center"
+   ],
+   "description": "A museum of Belgian comics, from Tintin onwards, in an art nouveau former textile warehouse designed by Victor Horta."
+  },
+  {
+   "id": "atomium",
+   "name": "Atomium",
+   "type": "building",
+   "places": [
+    "Atomium"
+   ],
+   "description": "A 102-metre steel model of an iron crystal, built for the 1958 World’s Fair, with exhibitions and a view from the top sphere."
+  },
+  {
+   "id": "coudenberg",
+   "name": "Coudenberg Palace",
+   "type": "palace",
+   "places": [
+    "Coudenberg Palace remains, Place Royale"
+   ],
+   "description": "The underground remains of the old palace of the dukes of Brabant, which burned down in 1731, beneath Place Royale."
+  },
+  {
+   "id": "bourse",
+   "name": "Bourse",
+   "type": "building",
+   "places": [
+    "Bourse (former stock exchange)"
+   ],
+   "description": "The 19th-century former stock exchange in the centre, now home to a museum of Belgian beer."
+  },
+  {
+   "id": "tir-national",
+   "name": "Tir National memorial",
+   "type": "landmark",
+   "places": [
+    "Tir National memorial (Edith Cavell execution site)"
+   ],
+   "description": "A memorial ground on the site of the old national rifle range, where German forces shot Edith Cavell and resistance members in both world wars."
+  },
+  {
+   "id": "fine-arts-museums",
+   "name": "Royal Museums of Fine Arts",
+   "type": "museum",
+   "places": [
+    "Royal Museums of Fine Arts of Belgium",
+    "Magritte Museum"
+   ],
+   "description": "Belgium’s main art museums, from Flemish old masters to the Magritte Museum, in connected buildings near Place Royale."
+  }
+ ],
+ "Bucharest": [
+  {
+   "id": "revolution-square",
+   "name": "Revolution Square",
+   "type": "landmark",
+   "places": [
+    "Revolution Square (Piața Revoluției)"
+   ],
+   "description": "The square where the 1989 revolution came to a head, lined by the former Communist Party headquarters and the old Royal Palace."
+  },
+  {
+   "id": "palace-of-the-parliament",
+   "name": "Palace of the Parliament",
+   "type": "building",
+   "places": [
+    "Palace of the Parliament"
+   ],
+   "description": "Ceaușescu’s enormous government palace, one of the largest buildings in the world, built over a cleared historic district. Guided tours run inside."
+  },
+  {
+   "id": "romanian-athenaeum",
+   "name": "Romanian Athenaeum",
+   "type": "music",
+   "places": [
+    "Romanian Athenaeum concert hall"
+   ],
+   "description": "A domed 19th-century concert hall, home of the city’s philharmonic orchestra, with a painted fresco running around the main hall."
+  },
+  {
+   "id": "university-square",
+   "name": "University Square",
+   "type": "landmark",
+   "places": [
+    "University Square (Piața Universității)"
+   ],
+   "description": "A busy central square by the university, scene of street fighting in the 1989 revolution and of a long anti-government protest in 1990."
+  }
+ ],
+ "Budapest": [
+  {
+   "id": "parliament",
+   "name": "Hungarian Parliament",
+   "type": "building",
+   "places": [
+    "Hungarian Parliament Building",
+    "Kossuth Square (Kossuth Lajos tér)",
+    "Gyula Andrássy equestrian statue, Kossuth Square"
+   ],
+   "description": "The huge Gothic Revival parliament on the Danube and the square in front. Guided tours take you inside to see the Holy Crown."
+  },
+  {
+   "id": "heroes-square",
+   "name": "Heroes’ Square",
+   "type": "landmark",
+   "places": [
+    "Heroes’ Square"
+   ],
+   "description": "A wide square at the end of Andrássy Avenue, with a column and statues of Hungary’s founding chieftains and kings, between two art museums."
+  },
+  {
+   "id": "house-of-terror",
+   "name": "House of Terror",
+   "type": "museum",
+   "places": [
+    "House of Terror museum"
+   ],
+   "description": "A museum in the former headquarters of the fascist and then communist secret police, about the people they imprisoned, tortured and killed."
+  },
+  {
+   "id": "chain-bridge",
+   "name": "Széchenyi Chain Bridge",
+   "type": "building",
+   "places": [
+    "Széchenyi Chain Bridge"
+   ],
+   "description": "The first permanent bridge across the Danube in Budapest, opened in 1849, joining Pest to Buda below Castle Hill."
+  },
+  {
+   "id": "dohany-synagogue",
+   "name": "Dohány Street Synagogue",
+   "type": "church",
+   "places": [
+    "Dohány Street Synagogue",
+    "Hungarian Jewish Museum (site of Herzl’s birthplace)"
+   ],
+   "description": "Europe’s largest synagogue, with the Hungarian Jewish Museum next door and a Holocaust memorial garden behind."
+  },
+  {
+   "id": "great-market-hall",
+   "name": "Great Market Hall",
+   "type": "landmark",
+   "places": [
+    "Great Market Hall"
+   ],
+   "description": "Budapest’s largest covered market, from 1897, with produce and paprika stalls downstairs and food counters and souvenirs upstairs."
+  },
+  {
+   "id": "liberty-bridge",
+   "name": "Liberty Bridge",
+   "type": "building",
+   "places": [
+    "Liberty Bridge",
+    "Kermit the Frog statue, Liberty Bridge"
+   ],
+   "description": "A green steel bridge across the Danube, with mythical turul birds on top of its towers, leading to the Gellért Baths."
+  },
+  {
+   "id": "operetta-theatre",
+   "name": "Budapest Operetta Theatre",
+   "type": "music",
+   "places": [
+    "Budapest Operetta Theatre"
+   ],
+   "description": "A theatre on Nagymező Street devoted to operetta and musicals, the light-opera form Budapest is known for."
+  },
+  {
+   "id": "shoes-danube",
+   "name": "Shoes on the Danube Bank",
+   "type": "landmark",
+   "places": [
+    "Shoes on the Danube Bank memorial"
+   ],
+   "description": "Sixty pairs of iron shoes on the river bank, a memorial to the Jews shot into the Danube by Arrow Cross militiamen in 1944–45."
+  },
+  {
+   "id": "state-opera",
+   "name": "Hungarian State Opera",
+   "type": "music",
+   "places": [
+    "Hungarian State Opera"
+   ],
+   "description": "A neo-Renaissance opera house on Andrássy Avenue, opened in 1884, with a gilded auditorium. Guided tours run inside."
+  },
+  {
+   "id": "matthias-church",
+   "name": "Matthias Church",
+   "type": "church",
+   "places": [
+    "Matthias Church"
+   ],
+   "description": "A Gothic church on Castle Hill with a colourful tiled roof, where Hungary’s last kings were crowned. Fisherman’s Bastion is beside it."
+  },
+  {
+   "id": "liszt-academy",
+   "name": "Liszt Academy of Music",
+   "type": "music",
+   "places": [
+    "Liszt Academy of Music"
+   ],
+   "description": "Hungary’s top music school and one of its main concert halls, in an Art Nouveau building on Liszt Ferenc Square."
+  },
+  {
+   "id": "bartok-house",
+   "name": "Bartók Memorial House",
+   "type": "museum",
+   "places": [
+    "Bartók Memorial House"
+   ],
+   "description": "The composer Béla Bartók’s last Budapest home, in the Buda hills, kept as a museum with his furniture, plus a small concert hall."
+  },
+  {
+   "id": "puskas-arena",
+   "name": "Puskás Aréna",
+   "type": "building",
+   "places": [
+    "Puskás Aréna stadium"
+   ],
+   "description": "Hungary’s national football stadium, opened in 2019, which also hosts big concerts."
+  },
+  {
+   "id": "columbo-statue",
+   "name": "Columbo statue",
+   "type": "landmark",
+   "places": [
+    "Columbo statue, Falk Miksa Street"
+   ],
+   "description": "A life-size bronze statue of the TV detective Columbo and his dog, on Falk Miksa Street."
+  }
+ ],
+ "Copenhagen": [
+  {
+   "id": "city-hall",
+   "name": "Copenhagen City Hall",
+   "type": "building",
+   "places": [
+    "City Hall (Rådhuset)",
+    "City Hall Square (Rådhuspladsen)"
+   ],
+   "description": "The red-brick city hall and the big square in front, next to Tivoli. Inside is an astronomical clock, and the tower can be climbed."
+  },
+  {
+   "id": "hojbro-plads",
+   "name": "Højbro Plads",
+   "type": "landmark",
+   "places": [
+    "Højbro Plads square"
+   ],
+   "description": "An old-town square with a statue of Bishop Absalon on horseback, facing across the canal to Christiansborg Palace."
+  },
+  {
+   "id": "kongens-nytorv",
+   "name": "Kongens Nytorv",
+   "type": "landmark",
+   "places": [
+    "Kongens Nytorv square"
+   ],
+   "description": "Copenhagen’s largest square, at the head of Nyhavn, with an equestrian statue of King Christian V in the middle."
+  },
+  {
+   "id": "royal-danish-theatre",
+   "name": "Royal Danish Theatre",
+   "type": "music",
+   "places": [
+    "Royal Danish Theatre (Old Stage), Kongens Nytorv"
+   ],
+   "description": "The national theatre’s 1874 building on Kongens Nytorv, the home stage of the Royal Danish Ballet."
+  },
+  {
+   "id": "little-mermaid",
+   "name": "Little Mermaid",
+   "type": "landmark",
+   "places": [
+    "Little Mermaid statue"
+   ],
+   "description": "A small bronze statue of the fairy-tale mermaid, sitting on a rock by the harbour at Langelinie since 1913."
+  },
+  {
+   "id": "royal-hotel",
+   "name": "Radisson Collection Royal Hotel",
+   "type": "building",
+   "places": [
+    "Radisson Collection Royal Hotel (SAS Royal)"
+   ],
+   "description": "A 1960 modernist hotel tower opposite Tivoli, with furniture and fittings designed by the same architect as the building."
+  },
+  {
+   "id": "assistens-cemetery",
+   "name": "Assistens Cemetery",
+   "type": "cemetery",
+   "places": [
+    "Kierkegaard’s grave, Assistens Cemetery"
+   ],
+   "description": "A leafy cemetery in Nørrebro that locals use as a park, and the resting place of many well-known Danes, Kierkegaard among them."
+  },
+  {
+   "id": "danish-jewish-museum",
+   "name": "Danish Jewish Museum",
+   "type": "museum",
+   "places": [
+    "Danish Jewish Museum"
+   ],
+   "description": "A museum of Danish Jewish history, including the 1943 rescue to Sweden, with an angular interior built inside an old royal boathouse."
+  },
+  {
+   "id": "nyhavn",
+   "name": "Nyhavn",
+   "type": "landmark",
+   "places": [
+    "Nyhavn harbour"
+   ],
+   "description": "A 17th-century canal lined with colourful old townhouses, wooden ships and outdoor cafés, running from Kongens Nytorv to the harbour."
+  },
+  {
+   "id": "copenhill",
+   "name": "CopenHill",
+   "type": "building",
+   "places": [
+    "CopenHill power plant (Amager Bakke)"
+   ],
+   "description": "A waste-to-energy power plant with an artificial ski slope, a hiking trail and a climbing wall on its roof and walls."
+  }
+ ],
+ "Dublin": [
+  {
+   "id": "national-museum-archaeology",
+   "name": "National Museum of Ireland – Archaeology",
+   "type": "museum",
+   "places": [
+    "National Museum of Ireland – Archaeology"
+   ],
+   "description": "Ireland’s archaeology museum on Kildare Street, with prehistoric gold, Viking finds and bog bodies."
+  },
+  {
+   "id": "trinity-college",
+   "name": "Trinity College",
+   "type": "building",
+   "places": [
+    "Book of Kells, Old Library, Trinity College",
+    "Trinity College"
+   ],
+   "description": "Ireland’s oldest university, founded in 1592. Its Old Library holds the Book of Kells, a medieval illuminated gospel book."
+  },
+  {
+   "id": "spire",
+   "name": "The Spire",
+   "type": "building",
+   "places": [
+    "The Spire, O’Connell Street"
+   ],
+   "description": "A 120-metre stainless-steel needle in the middle of O’Connell Street, put up in 2003 where Nelson’s Pillar once stood."
+  },
+  {
+   "id": "gpo",
+   "name": "General Post Office",
+   "type": "building",
+   "places": [
+    "General Post Office (GPO)"
+   ],
+   "description": "Dublin’s main post office, headquarters of the rebels in the 1916 Easter Rising. A museum inside tells the story."
+  },
+  {
+   "id": "henrietta-street",
+   "name": "14 Henrietta Street",
+   "type": "museum",
+   "places": [
+    "14 Henrietta Street museum"
+   ],
+   "description": "A Georgian townhouse museum showing its life as a grand home and later as a crowded tenement, through to the 1970s."
+  },
+  {
+   "id": "cobblestone",
+   "name": "The Cobblestone",
+   "type": "music",
+   "places": [
+    "The Cobblestone pub, Smithfield"
+   ],
+   "description": "A pub in Smithfield known for its nightly traditional Irish music sessions."
+  },
+  {
+   "id": "st-stephens-green",
+   "name": "St Stephen’s Green",
+   "type": "landmark",
+   "places": [
+    "St Stephen’s Green park"
+   ],
+   "description": "A Victorian park in a Georgian square at the top of Grafton Street, with a lake, bridges and statues."
+  },
+  {
+   "id": "dublin-castle",
+   "name": "Dublin Castle",
+   "type": "palace",
+   "places": [
+    "Upper Yard, Dublin Castle",
+    "Bedford Tower, Dublin Castle",
+    "Chester Beatty museum, Dublin Castle"
+   ],
+   "description": "The former seat of British rule in Ireland, with state apartments, courtyards, and the Chester Beatty museum of manuscripts in its grounds."
+  }
+ ],
+ "Edinburgh": [
+  {
+   "id": "holyroodhouse",
+   "name": "Palace of Holyroodhouse",
+   "type": "palace",
+   "places": [
+    "Palace of Holyroodhouse"
+   ],
+   "description": "The monarch’s official residence in Scotland, at the foot of the Royal Mile, with Mary Queen of Scots’ rooms and a ruined abbey."
+  },
+  {
+   "id": "edinburgh-castle",
+   "name": "Edinburgh Castle",
+   "type": "palace",
+   "places": [
+    "Edinburgh Castle",
+    "Castle Esplanade",
+    "Witches’ Well, Castle Esplanade"
+   ],
+   "description": "The fortress on a volcanic rock above the city, with the Scottish crown jewels, and the esplanade in front where the Tattoo is held."
+  },
+  {
+   "id": "national-museum",
+   "name": "National Museum of Scotland",
+   "type": "museum",
+   "places": [
+    "National Museum of Scotland"
+   ],
+   "description": "A big museum of Scottish history, science and world cultures, with a rooftop terrace and Dolly the sheep."
+  },
+  {
+   "id": "writers-museum",
+   "name": "Writers’ Museum",
+   "type": "museum",
+   "places": [
+    "Writers’ Museum, Lady Stair’s Close"
+   ],
+   "description": "A 17th-century house off the Royal Mile with displays on Robert Burns, Walter Scott and Robert Louis Stevenson."
+  },
+  {
+   "id": "st-giles",
+   "name": "St Giles’ Cathedral",
+   "type": "church",
+   "places": [
+    "St Giles’ Cathedral",
+    "Heart of Midlothian mosaic (site of the Old Tolbooth)"
+   ],
+   "description": "Edinburgh’s main church, on the Royal Mile. In the cobbles outside, a heart marks the site of the old town prison."
+  },
+  {
+   "id": "greyfriars",
+   "name": "Greyfriars Kirkyard",
+   "type": "cemetery",
+   "places": [
+    "Greyfriars Kirkyard",
+    "Greyfriars Bobby statue"
+   ],
+   "description": "An old churchyard full of carved tombstones, with the statue of Greyfriars Bobby, the loyal terrier, by its gate."
+  },
+  {
+   "id": "princes-street-gardens",
+   "name": "Princes Street Gardens",
+   "type": "landmark",
+   "places": [
+    "Princes Street Gardens",
+    "Scott Monument"
+   ],
+   "description": "A park in the valley below the castle, home to the Gothic spire of the Scott Monument, which you can climb."
+  },
+  {
+   "id": "surgeons-hall",
+   "name": "Surgeons’ Hall Museums",
+   "type": "museum",
+   "places": [
+    "Surgeons’ Hall Museums"
+   ],
+   "description": "Medical museums run by the Royal College of Surgeons, with anatomy and pathology collections and the history of surgery in the city."
+  },
+  {
+   "id": "scottish-parliament",
+   "name": "Scottish Parliament",
+   "type": "building",
+   "places": [
+    "Scottish Parliament Building"
+   ],
+   "description": "Scotland’s parliament building, opened in 2004, opposite Holyroodhouse. Visitors can tour it and watch debates."
+  },
+  {
+   "id": "scottish-national-gallery",
+   "name": "Scottish National Gallery",
+   "type": "museum",
+   "places": [
+    "Scottish National Gallery"
+   ],
+   "description": "Scotland’s national collection of fine art, from the Renaissance to the early 20th century, on the Mound above Princes Street Gardens."
+  },
+  {
+   "id": "old-college",
+   "name": "Old College",
+   "type": "building",
+   "places": [
+    "Old College, University of Edinburgh",
+    "Site of Kirk o’ Field, Old College"
+   ],
+   "description": "The university’s neoclassical quadrangle, built on the site of Kirk o’ Field, where Mary Queen of Scots’ husband was killed in 1567."
+  }
+ ],
+ "Florence": [
+  {
+   "id": "uffizi",
+   "name": "Uffizi Gallery",
+   "type": "museum",
+   "places": [
+    "Uffizi Gallery",
+    "Uffizi Gallery entrance"
+   ],
+   "description": "The great collection of Italian Renaissance painting, in the Medici’s former offices by the Arno: Botticelli, Leonardo, Michelangelo and more."
+  },
+  {
+   "id": "museo-galileo",
+   "name": "Museo Galileo",
+   "type": "museum",
+   "places": [
+    "Museo Galileo science museum"
+   ],
+   "description": "A science museum with the Medici’s scientific instruments, globes and maps, and Galileo’s own telescopes."
+  },
+  {
+   "id": "duomo",
+   "name": "Florence Cathedral",
+   "type": "church",
+   "places": [
+    "Duomo cathedral (Santa Maria del Fiore)",
+    "Piazza del Duomo",
+    "Duomo central doorway, facing the Baptistery",
+    "Baptistery of San Giovanni"
+   ],
+   "description": "The cathedral with Brunelleschi’s dome, its bell tower and the octagonal Baptistery, around the square at the heart of the city."
+  },
+  {
+   "id": "opera-del-duomo",
+   "name": "Museo dell’Opera del Duomo",
+   "type": "museum",
+   "places": [
+    "Museo dell’Opera del Duomo (cathedral museum)"
+   ],
+   "description": "The cathedral museum, holding the original Baptistery doors, sculpture from the cathedral and Michelangelo’s late Pietà."
+  },
+  {
+   "id": "piazza-della-signoria",
+   "name": "Piazza della Signoria",
+   "type": "landmark",
+   "places": [
+    "Piazza della Signoria",
+    "Loggia dei Lanzi, Piazza della Signoria"
+   ],
+   "description": "Florence’s main civic square, with the Neptune fountain, a copy of Michelangelo’s David, and statues in the open-air Loggia dei Lanzi."
+  },
+  {
+   "id": "palazzo-vecchio",
+   "name": "Palazzo Vecchio",
+   "type": "palace",
+   "places": [
+    "Palazzo Vecchio",
+    "Hall of the Five Hundred, Palazzo Vecchio"
+   ],
+   "description": "The fortress-like town hall on Piazza della Signoria, with painted state rooms including the vast Hall of the Five Hundred."
+  },
+  {
+   "id": "piazza-della-repubblica",
+   "name": "Piazza della Repubblica",
+   "type": "landmark",
+   "places": [
+    "Piazza della Repubblica"
+   ],
+   "description": "A big 19th-century square on the site of the Roman forum, with a carousel, a triumphal arch and old cafés."
+  },
+  {
+   "id": "palazzo-medici-riccardi",
+   "name": "Palazzo Medici Riccardi",
+   "type": "palace",
+   "places": [
+    "Palazzo Medici Riccardi"
+   ],
+   "description": "The Medici family’s 15th-century palace, with a small chapel covered in frescoes of the procession of the Magi."
+  },
+  {
+   "id": "orsanmichele",
+   "name": "Orsanmichele",
+   "type": "church",
+   "places": [
+    "Orsanmichele church"
+   ],
+   "description": "A former grain market turned church, with statues of patron saints in niches on its outside walls, made for the city’s guilds."
+  },
+  {
+   "id": "san-lorenzo",
+   "name": "San Lorenzo",
+   "type": "church",
+   "places": [
+    "San Lorenzo basilica",
+    "Old Sacristy, San Lorenzo basilica"
+   ],
+   "description": "The Medici family’s parish church, designed by Brunelleschi, with a bare unfinished facade and the Old Sacristy inside."
+  },
+  {
+   "id": "laurentian-library",
+   "name": "Laurentian Library",
+   "type": "building",
+   "places": [
+    "Laurentian Library (Biblioteca Medicea Laurenziana)"
+   ],
+   "description": "The Medici library in the cloister of San Lorenzo, designed by Michelangelo, with a sculptural staircase and a long reading room."
+  },
+  {
+   "id": "medici-chapels",
+   "name": "Medici Chapels",
+   "type": "museum",
+   "places": [
+    "New Sacristy, Medici Chapels",
+    "Michelangelo’s secret room, Medici Chapels"
+   ],
+   "description": "The Medici family tombs behind San Lorenzo, including Michelangelo’s New Sacristy, with a room below where he may have hidden in 1530."
+  },
+  {
+   "id": "santa-croce",
+   "name": "Santa Croce",
+   "type": "church",
+   "places": [
+    "Santa Croce basilica",
+    "Piazza Santa Croce",
+    "Pazzi Chapel, Santa Croce"
+   ],
+   "description": "A large Franciscan church with the tombs of Michelangelo, Galileo and Machiavelli, the Pazzi Chapel, and a square in front."
+  },
+  {
+   "id": "bargello",
+   "name": "Bargello Museum",
+   "type": "museum",
+   "places": [
+    "Bargello Museum"
+   ],
+   "description": "A medieval palace and former prison, now Florence’s museum of Renaissance sculpture, with works by Donatello and Michelangelo."
+  },
+  {
+   "id": "ponte-vecchio",
+   "name": "Ponte Vecchio",
+   "type": "building",
+   "places": [
+    "Ponte Vecchio bridge",
+    "Ponte Vecchio bridge (south end)",
+    "Vasari Corridor, Ponte Vecchio"
+   ],
+   "description": "A medieval bridge over the Arno lined with jewellers’ shops, with the Vasari Corridor, a private Medici passage, running along the top."
+  },
+  {
+   "id": "piazzale-michelangelo",
+   "name": "Piazzale Michelangelo",
+   "type": "landmark",
+   "places": [
+    "Piazzale Michelangelo"
+   ],
+   "description": "A hilltop square across the Arno with a wide view over the city and a bronze copy of David."
+  },
+  {
+   "id": "accademia",
+   "name": "Accademia Gallery",
+   "type": "museum",
+   "places": [
+    "Accademia Gallery (Galleria dell’Accademia)"
+   ],
+   "description": "The museum that holds Michelangelo’s David, along with his unfinished Prisoners and Florentine paintings."
+  },
+  {
+   "id": "palazzo-pitti",
+   "name": "Palazzo Pitti",
+   "type": "palace",
+   "places": [
+    "Palazzo Pitti",
+    "Palatine Gallery, Palazzo Pitti"
+   ],
+   "description": "A huge palace across the Arno that became the Medici’s home, now a group of museums, with the Boboli Gardens behind."
+  },
+  {
+   "id": "santa-maria-novella",
+   "name": "Santa Maria Novella",
+   "type": "church",
+   "places": [
+    "Santa Maria Novella basilica",
+    "Piazza Santa Maria Novella"
+   ],
+   "description": "A Dominican church near the station with a striped marble facade, frescoes and Masaccio’s Trinity, facing its own square."
+  },
+  {
+   "id": "brancacci-chapel",
+   "name": "Brancacci Chapel",
+   "type": "church",
+   "places": [
+    "Brancacci Chapel, Santa Maria del Carmine"
+   ],
+   "description": "A chapel in the church of Santa Maria del Carmine, covered in early Renaissance frescoes by Masaccio and Masolino."
+  },
+  {
+   "id": "santo-spirito",
+   "name": "Santo Spirito",
+   "type": "church",
+   "places": [
+    "Santo Spirito basilica"
+   ],
+   "description": "A Brunelleschi church in the Oltrarno with a plain facade, a wooden crucifix attributed to Michelangelo, and a lively square in front."
+  }
+ ],
+ "Helsinki": [
+  {
+   "id": "senate-square",
+   "name": "Senate Square",
+   "type": "landmark",
+   "places": [
+    "Senate Square",
+    "Helsinki Cathedral"
+   ],
+   "description": "The city’s main neoclassical square, with the white, green-domed Helsinki Cathedral at the top of its wide steps."
+  },
+  {
+   "id": "olympic-stadium",
+   "name": "Olympic Stadium",
+   "type": "building",
+   "places": [
+    "Olympic Stadium"
+   ],
+   "description": "A white functionalist stadium built for the 1940 Olympics, which were cancelled; the Games came in 1952. Its tall tower has views over the city."
+  },
+  {
+   "id": "oodi",
+   "name": "Oodi Central Library",
+   "type": "building",
+   "places": [
+    "Oodi Central Library"
+   ],
+   "description": "A free public library opened in 2018 opposite Parliament, with a curved timber front, workshops with 3D printers and a big reading floor upstairs."
+  },
+  {
+   "id": "finlandia-hall",
+   "name": "Finlandia Hall",
+   "type": "music",
+   "places": [
+    "Finlandia Hall"
+   ],
+   "description": "A white marble concert and congress hall designed by Alvar Aalto, completed in 1971, on the shore of Töölö Bay."
+  },
+  {
+   "id": "sibelius-monument",
+   "name": "Sibelius Monument",
+   "type": "landmark",
+   "places": [
+    "Sibelius Monument, Sibelius Park"
+   ],
+   "description": "An abstract sculpture of hundreds of welded steel pipes, made in honour of the composer Jean Sibelius, in a small park by the sea."
+  },
+  {
+   "id": "suomenlinna",
+   "name": "Suomenlinna",
+   "type": "landmark",
+   "places": [
+    "Suomenlinna sea fortress"
+   ],
+   "description": "An 18th-century sea fortress spread over a group of islands, a short ferry ride from the centre, with walls, tunnels, museums and cafés."
+  },
+  {
+   "id": "hakaniemi-market",
+   "name": "Hakaniemi Market",
+   "type": "landmark",
+   "places": [
+    "Hakaniemi Market Square",
+    "Hakaniemi Market Hall"
+   ],
+   "description": "An open-air market square and its red-brick market hall from 1914, with stalls selling fish, meat, bread and Finnish food."
+  }
+ ],
+ "Istanbul": [
+  {
+   "id": "hagia-sophia",
+   "name": "Hagia Sophia",
+   "type": "church",
+   "places": [
+    "Hagia Sophia"
+   ],
+   "description": "Built as a cathedral in 537, it became a mosque in 1453, a museum in 1934 and a mosque again in 2020. Its huge dome still dominates the old city."
+  },
+  {
+   "id": "topkapi-palace",
+   "name": "Topkapı Palace",
+   "type": "palace",
+   "places": [
+    "Topkapı Palace"
+   ],
+   "description": "The Ottoman sultans’ palace for nearly 400 years: a series of courtyards, the harem, the treasury and views over the Bosphorus."
+  },
+  {
+   "id": "hippodrome",
+   "name": "Hippodrome",
+   "type": "landmark",
+   "places": [
+    "Hippodrome (Sultanahmet Square)"
+   ],
+   "description": "The long square on the site of the ancient chariot-racing track, with an Egyptian obelisk and other monuments along its middle."
+  },
+  {
+   "id": "suleymaniye",
+   "name": "Süleymaniye Mosque",
+   "type": "church",
+   "places": [
+    "Süleymaniye Mosque"
+   ],
+   "description": "The great 16th-century mosque on a hill above the Golden Horn, with a vast domed prayer hall, gardens and a cemetery."
+  },
+  {
+   "id": "cemberlitas-hamam",
+   "name": "Çemberlitaş Hamam",
+   "type": "building",
+   "places": [
+    "Çemberlitaş Hamam"
+   ],
+   "description": "A Turkish bath built in 1584 and still in use, with separate domed marble halls for men and women."
+  },
+  {
+   "id": "galata-bridge",
+   "name": "Galata Bridge",
+   "type": "building",
+   "places": [
+    "Galata Bridge"
+   ],
+   "description": "The bridge across the Golden Horn, with a tram and road on top, fishermen along the rails, and fish restaurants on the lower level."
+  },
+  {
+   "id": "rumeli-fortress",
+   "name": "Rumeli Fortress",
+   "type": "palace",
+   "places": [
+    "Rumeli Fortress (Rumeli Hisarı)"
+   ],
+   "description": "A fortress built by the Ottomans in 1452 on the European shore of the Bosphorus, a year before they took Constantinople."
+  },
+  {
+   "id": "galata-tower",
+   "name": "Galata Tower",
+   "type": "building",
+   "places": [
+    "Galata Tower"
+   ],
+   "description": "A round stone tower built by the Genoese in 1348, with a viewing balcony over the Golden Horn and the old city."
+  },
+  {
+   "id": "galata-mevlevi",
+   "name": "Galata Mevlevi Lodge",
+   "type": "museum",
+   "places": [
+    "Galata Mevlevi Lodge museum"
+   ],
+   "description": "A former lodge of the Mevlevi order, the whirling dervishes, now a museum with the wooden hall where their ceremony took place."
+  },
+  {
+   "id": "theodosian-walls",
+   "name": "Theodosian Walls",
+   "type": "landmark",
+   "places": [
+    "Theodosian Land Walls, Topkapı Gate"
+   ],
+   "description": "A stretch of the 5th-century walls that guarded Constantinople’s land side, at the gate named after the Ottoman cannon of the 1453 siege."
+  },
+  {
+   "id": "grand-bazaar",
+   "name": "Grand Bazaar",
+   "type": "landmark",
+   "places": [
+    "Grand Bazaar"
+   ],
+   "description": "One of the oldest and largest covered markets in the world: thousands of shops in a maze of vaulted lanes."
+  }
+ ],
+ "Kraków": [
+  {
+   "id": "main-market-square",
+   "name": "Main Market Square",
+   "type": "landmark",
+   "places": [
+    "Main Market Square (Rynek Główny)",
+    "Cloth Hall (Sukiennice)",
+    "Rynek Underground museum",
+    "Adam Mickiewicz Monument, Main Market Square"
+   ],
+   "description": "The huge medieval square at the heart of the old town, with the Cloth Hall in the middle and a museum of the city’s past underneath."
+  },
+  {
+   "id": "st-marys-basilica",
+   "name": "St Mary’s Basilica",
+   "type": "church",
+   "places": [
+    "St Mary’s Basilica"
+   ],
+   "description": "The brick Gothic church on the Main Market Square, with a carved wooden altarpiece and a trumpet call played from its tower every hour."
+  },
+  {
+   "id": "nowa-huta-central-square",
+   "name": "Central Square, Nowa Huta",
+   "type": "landmark",
+   "places": [
+    "Central Square (Plac Centralny), Nowa Huta"
+   ],
+   "description": "The main square of Nowa Huta, the socialist-realist steel town built in the 1950s on the city’s eastern edge."
+  },
+  {
+   "id": "schindler-factory",
+   "name": "Oskar Schindler’s Enamel Factory",
+   "type": "museum",
+   "places": [
+    "Oskar Schindler’s Enamel Factory museum"
+   ],
+   "description": "Oskar Schindler’s former factory, now a museum about life in Kraków under Nazi occupation from 1939 to 1945."
+  },
+  {
+   "id": "piwnica-pod-baranami",
+   "name": "Piwnica pod Baranami",
+   "type": "music",
+   "places": [
+    "Piwnica pod Baranami cabaret"
+   ],
+   "description": "A cellar cabaret under a palace on the Main Market Square, running since 1956, with cabaret and jazz evenings."
+  },
+  {
+   "id": "czartoryski-museum",
+   "name": "Czartoryski Museum",
+   "type": "museum",
+   "places": [
+    "Czartoryski Museum"
+   ],
+   "description": "A museum of art and historical objects collected by the Czartoryski family, including Leonardo da Vinci’s Lady with an Ermine."
+  },
+  {
+   "id": "plaszow",
+   "name": "Płaszów camp memorial",
+   "type": "landmark",
+   "places": [
+    "Former Płaszów camp memorial site"
+   ],
+   "description": "The site of the Nazi labour and concentration camp at Płaszów, now an open hillside with memorials to those who were held and killed there."
+  },
+  {
+   "id": "wieliczka",
+   "name": "Wieliczka Salt Mine",
+   "type": "landmark",
+   "places": [
+    "Wieliczka Salt Mine, Wieliczka"
+   ],
+   "description": "A salt mine worked for about 700 years just outside Kraków, with chambers, chapels and statues carved from rock salt deep underground."
+  },
+  {
+   "id": "wawel-cathedral",
+   "name": "Wawel Cathedral",
+   "type": "church",
+   "places": [
+    "Wawel Cathedral",
+    "Sigismund Tower, Wawel Cathedral"
+   ],
+   "description": "The royal cathedral on Wawel Hill, where Polish kings were crowned and buried. The great Sigismund Bell hangs in its tower."
+  }
+ ],
+ "Lisbon": [
+  {
+   "id": "largo-do-carmo",
+   "name": "Largo do Carmo",
+   "type": "landmark",
+   "places": [
+    "Largo do Carmo square",
+    "Carmo Convent ruins"
+   ],
+   "description": "A small square in Chiado beside the roofless ruins of the Carmo Convent, wrecked in the 1755 earthquake. The 1974 revolution ended here."
+  },
+  {
+   "id": "praca-do-comercio",
+   "name": "Praça do Comércio",
+   "type": "landmark",
+   "places": [
+    "Praça do Comércio (Commerce Square)",
+    "Rua Augusta Arch"
+   ],
+   "description": "The big riverside square rebuilt after the 1755 earthquake, with yellow arcades on three sides and a triumphal arch leading into the Baixa."
+  },
+  {
+   "id": "restauradores",
+   "name": "Praça dos Restauradores",
+   "type": "landmark",
+   "places": [
+    "Praça dos Restauradores"
+   ],
+   "description": "A square with an obelisk marking Portugal’s 1640 break from Spanish rule, at the foot of the Avenida da Liberdade."
+  },
+  {
+   "id": "sao-jorge-castle",
+   "name": "São Jorge Castle",
+   "type": "palace",
+   "places": [
+    "São Jorge Castle (Castelo de São Jorge)"
+   ],
+   "description": "The hilltop castle above Alfama, with walls and towers to walk and views over the city and the river."
+  },
+  {
+   "id": "rossio",
+   "name": "Rossio",
+   "type": "landmark",
+   "places": [
+    "Rossio square"
+   ],
+   "description": "The old town’s main square, with wave-patterned paving, two fountains and the national theatre on its north side."
+  },
+  {
+   "id": "sao-domingos",
+   "name": "São Domingos Church",
+   "type": "church",
+   "places": [
+    "São Domingos Church",
+    "Largo de São Domingos (1506 massacre memorial)"
+   ],
+   "description": "A church left scarred by a 1959 fire, and the small square beside it with a memorial to the Jews killed in the 1506 massacre."
+  },
+  {
+   "id": "praca-camoes",
+   "name": "Praça Luís de Camões",
+   "type": "landmark",
+   "places": [
+    "Praça Luís de Camões"
+   ],
+   "description": "A square between Chiado and Bairro Alto, with a statue of the poet Luís de Camões in the middle."
+  },
+  {
+   "id": "fado-museum",
+   "name": "Fado Museum",
+   "type": "museum",
+   "places": [
+    "Fado Museum (Museu do Fado)"
+   ],
+   "description": "A museum of fado, Lisbon’s song of longing, at the edge of Alfama, with guitars, recordings and portraits of singers."
+  },
+  {
+   "id": "a-brasileira",
+   "name": "A Brasileira",
+   "type": "cafe",
+   "places": [
+    "A Brasileira café, Chiado"
+   ],
+   "description": "A café in Chiado open since 1905, with a dark wood interior and a bronze statue of the poet Fernando Pessoa at a table outside."
+  },
+  {
+   "id": "national-pantheon",
+   "name": "National Pantheon",
+   "type": "church",
+   "places": [
+    "National Pantheon (Santa Engrácia Church)"
+   ],
+   "description": "A domed baroque church that took nearly 300 years to finish, now the resting place of national figures, including the fado singer Amália Rodrigues."
+  },
+  {
+   "id": "santa-luzia",
+   "name": "Santa Luzia viewpoint",
+   "type": "landmark",
+   "places": [
+    "Santa Luzia viewpoint"
+   ],
+   "description": "A terrace beside a small church in Alfama, with tiled panels on the walls and a view over the rooftops to the river."
+  },
+  {
+   "id": "25-de-abril-bridge",
+   "name": "25 de Abril Bridge",
+   "type": "building",
+   "places": [
+    "25 de Abril Bridge"
+   ],
+   "description": "The red suspension bridge over the Tagus, opened in 1966 and renamed after the 1974 revolution."
+  },
+  {
+   "id": "mercado-da-ribeira",
+   "name": "Mercado da Ribeira",
+   "type": "landmark",
+   "places": [
+    "Mercado da Ribeira (Time Out Market)",
+    "Pap’Açorda restaurant, Mercado da Ribeira"
+   ],
+   "description": "The city’s old riverside market hall, with fresh produce stalls on one side and a big food hall of restaurant counters on the other."
+  },
+  {
+   "id": "jeronimos",
+   "name": "Jerónimos Monastery",
+   "type": "church",
+   "places": [
+    "Jerónimos Monastery"
+   ],
+   "description": "A huge 16th-century monastery in Belém, carved in the ornate Manueline style, with the tomb of Vasco da Gama."
+  },
+  {
+   "id": "discoveries-monument",
+   "name": "Monument to the Discoveries",
+   "type": "landmark",
+   "places": [
+    "Monument to the Discoveries"
+   ],
+   "description": "A 52-metre monument on the Belém riverfront, shaped like a ship’s prow, lined with figures from Portugal’s age of exploration."
+  },
+  {
+   "id": "maritime-museum",
+   "name": "Maritime Museum",
+   "type": "museum",
+   "places": [
+    "Maritime Museum (Museu de Marinha)"
+   ],
+   "description": "A museum of Portuguese seafaring in a wing of the Jerónimos Monastery, with model ships, maps, instruments and royal barges."
+  },
+  {
+   "id": "gulbenkian",
+   "name": "Gulbenkian Museum",
+   "type": "museum",
+   "places": [
+    "Gulbenkian Museum"
+   ],
+   "description": "An art museum in a modernist building and garden, with one man’s collection running from ancient Egypt to art nouveau jewellery."
+  }
+ ],
+ "London": [
+  {
+   "id": "national-gallery",
+   "name": "National Gallery",
+   "type": "museum",
+   "places": [
+    "National Gallery"
+   ],
+   "description": "The national collection of European painting from the 1200s to 1900, on the north side of Trafalgar Square. Entry is free."
+  },
+  {
+   "id": "trafalgar-square",
+   "name": "Trafalgar Square",
+   "type": "landmark",
+   "places": [
+    "Trafalgar Square",
+    "Imperial measures plaques, Trafalgar Square",
+    "Charles I statue, Trafalgar Square"
+   ],
+   "description": "The big public square with Nelson’s Column, fountains and bronze lions, and the old official measures of length set into its steps."
+  },
+  {
+   "id": "british-museum",
+   "name": "British Museum",
+   "type": "museum",
+   "places": [
+    "British Museum"
+   ],
+   "description": "A huge free museum of world history and culture in Bloomsbury, with the Rosetta Stone, Egyptian mummies and the Parthenon sculptures."
+  },
+  {
+   "id": "tate-britain",
+   "name": "Tate Britain",
+   "type": "museum",
+   "places": [
+    "Tate Britain gallery"
+   ],
+   "description": "The national gallery of British art from 1500 to today, on the river at Millbank, with a large collection of Turner. Entry is free."
+  },
+  {
+   "id": "courtauld",
+   "name": "Courtauld Gallery",
+   "type": "museum",
+   "places": [
+    "Courtauld Gallery, Somerset House"
+   ],
+   "description": "A small gallery in Somerset House with a fine collection of Impressionist and Post-Impressionist paintings, plus Old Masters."
+  },
+  {
+   "id": "monument",
+   "name": "Monument to the Great Fire",
+   "type": "landmark",
+   "places": [
+    "Monument to the Great Fire of London"
+   ],
+   "description": "A stone column near where the Great Fire of 1666 began. You can climb its 311 steps to a viewing platform."
+  },
+  {
+   "id": "palace-of-westminster",
+   "name": "Palace of Westminster",
+   "type": "palace",
+   "places": [
+    "Palace of Westminster (Houses of Parliament)"
+   ],
+   "description": "The riverside home of the Houses of Parliament, rebuilt in Gothic style after a fire in 1834, with the clock tower that holds Big Ben."
+  },
+  {
+   "id": "parliament-square",
+   "name": "Parliament Square",
+   "type": "landmark",
+   "places": [
+    "Parliament Square"
+   ],
+   "description": "A green square between Parliament and Westminster Abbey, ringed with statues of statesmen and a frequent site of protests."
+  },
+  {
+   "id": "st-pauls",
+   "name": "St Paul’s Cathedral",
+   "type": "church",
+   "places": [
+    "St Paul’s Cathedral"
+   ],
+   "description": "The domed cathedral rebuilt after the Great Fire of 1666, with galleries up in the dome and crypts below."
+  },
+  {
+   "id": "tate-modern",
+   "name": "Tate Modern",
+   "type": "museum",
+   "places": [
+    "Tate Modern gallery"
+   ],
+   "description": "The national gallery of modern and contemporary art, in a former power station on the South Bank. Entry to the collection is free."
+  },
+  {
+   "id": "tower-of-london",
+   "name": "Tower of London",
+   "type": "palace",
+   "places": [
+    "Tower of London",
+    "Yeoman Warders’ Club, Tower of London"
+   ],
+   "description": "The medieval fortress on the Thames, once a royal palace and prison, now home to the Crown Jewels and the Yeoman Warders."
+  },
+  {
+   "id": "covent-garden-market",
+   "name": "Covent Garden Market",
+   "type": "landmark",
+   "places": [
+    "Covent Garden Market"
+   ],
+   "description": "The old fruit and vegetable market hall in the West End, now shops, stalls and cafés, with street performers in the piazza."
+  },
+  {
+   "id": "john-snow-pump",
+   "name": "John Snow pump",
+   "type": "landmark",
+   "places": [
+    "John Snow pump, Broadwick Street"
+   ],
+   "description": "A replica water pump in Soho marking where, in 1854, a doctor traced a cholera outbreak to a contaminated well."
+  },
+  {
+   "id": "430-kings-road",
+   "name": "430 King’s Road",
+   "type": "building",
+   "places": [
+    "430 King’s Road (McLaren and Westwood’s shop)"
+   ],
+   "description": "The Chelsea shop where Malcolm McLaren and Vivienne Westwood sold clothes in the 1970s, at the centre of the early punk scene."
+  },
+  {
+   "id": "gays-the-word",
+   "name": "Gay’s the Word",
+   "type": "landmark",
+   "places": [
+    "Gay’s the Word bookshop"
+   ],
+   "description": "Britain’s oldest LGBT bookshop, open in Bloomsbury since 1979."
+  },
+  {
+   "id": "shakespeares-globe",
+   "name": "Shakespeare’s Globe",
+   "type": "building",
+   "places": [
+    "Shakespeare’s Globe theatre"
+   ],
+   "description": "A reconstruction of Shakespeare’s open-air playhouse on the South Bank, opened in 1997, where plays are staged much as they were around 1600."
+  },
+  {
+   "id": "roman-wall",
+   "name": "Roman wall at Tower Hill",
+   "type": "landmark",
+   "places": [
+    "Roman wall, Tower Hill"
+   ],
+   "description": "One of the best-surviving stretches of the Roman wall that once enclosed London, beside Tower Hill station."
+  },
+  {
+   "id": "royal-albert-hall",
+   "name": "Royal Albert Hall",
+   "type": "music",
+   "places": [
+    "Royal Albert Hall"
+   ],
+   "description": "The round, domed concert hall in South Kensington, opened in 1871, home every summer to the Proms."
+  },
+  {
+   "id": "buckingham-palace",
+   "name": "Buckingham Palace",
+   "type": "palace",
+   "places": [
+    "Buckingham Palace"
+   ],
+   "description": "The monarch’s London home and office, at the end of the Mall. The state rooms open to visitors in summer."
+  },
+  {
+   "id": "british-library",
+   "name": "British Library",
+   "type": "building",
+   "places": [
+    "British Library"
+   ],
+   "description": "The national library of the UK, in a red-brick building next to St Pancras, with a free gallery of manuscripts such as Magna Carta."
+  },
+  {
+   "id": "beigel-bake",
+   "name": "Beigel Bake",
+   "type": "cafe",
+   "places": [
+    "Beigel Bake bakery, Brick Lane"
+   ],
+   "description": "A bagel bakery on Brick Lane, open 24 hours, known for its salt beef bagels."
+  },
+  {
+   "id": "v-and-a",
+   "name": "Victoria and Albert Museum",
+   "type": "museum",
+   "places": [
+    "Victoria and Albert Museum (V&A)",
+    "Cast Courts, Victoria and Albert Museum"
+   ],
+   "description": "A huge free museum of art and design in South Kensington, including the Cast Courts, halls of plaster copies of famous sculpture and buildings."
+  },
+  {
+   "id": "thames-barrier",
+   "name": "Thames Barrier",
+   "type": "building",
+   "places": [
+    "Thames Barrier"
+   ],
+   "description": "A row of steel flood gates across the Thames at Woolwich, in use since 1982 to protect London from tidal surges."
+  },
+  {
+   "id": "dulwich-picture-gallery",
+   "name": "Dulwich Picture Gallery",
+   "type": "museum",
+   "places": [
+    "Dulwich Picture Gallery"
+   ],
+   "description": "England’s oldest public art gallery, opened in 1817 in south London, with a collection of Old Master paintings."
+  },
+  {
+   "id": "westminster-abbey",
+   "name": "Westminster Abbey",
+   "type": "church",
+   "places": [
+    "Westminster Abbey",
+    "Henry VII Lady Chapel, Westminster Abbey"
+   ],
+   "description": "The Gothic abbey church where English and British monarchs are crowned, and many are buried, including in the fan-vaulted Lady Chapel."
+  },
+  {
+   "id": "london-mithraeum",
+   "name": "London Mithraeum",
+   "type": "museum",
+   "places": [
+    "London Mithraeum (Temple of Mithras), Bloomberg building",
+    "Bloomberg building"
+   ],
+   "description": "The remains of a Roman temple to the god Mithras, shown in the basement of the Bloomberg building in the City. Entry is free."
+  }
+ ],
+ "Madrid": [
+  {
+   "id": "prado",
+   "name": "Prado Museum",
+   "type": "museum",
+   "places": [
+    "Prado Museum",
+    "Goya Monument, beside the Prado Museum"
+   ],
+   "description": "Spain’s national art museum, built on the royal collections: Velázquez, Goya, El Greco and Bosch. A statue of Goya stands outside."
+  },
+  {
+   "id": "puerta-del-sol",
+   "name": "Puerta del Sol",
+   "type": "landmark",
+   "places": [
+    "Puerta del Sol square"
+   ],
+   "description": "Madrid’s busiest square. A plaque on the pavement marks kilometre zero of Spain’s roads, and crowds gather under the clock on New Year’s Eve."
+  },
+  {
+   "id": "plaza-mayor",
+   "name": "Plaza Mayor",
+   "type": "landmark",
+   "places": [
+    "Plaza Mayor"
+   ],
+   "description": "A big arcaded 17th-century square in the old town, once used for markets, bullfights and public executions."
+  },
+  {
+   "id": "las-ventas",
+   "name": "Las Ventas bullring",
+   "type": "building",
+   "places": [
+    "Las Ventas bullring"
+   ],
+   "description": "Madrid’s bullring, a large brick and tile building from the 1930s in neo-Mudéjar style. It also hosts concerts."
+  },
+  {
+   "id": "congress-of-deputies",
+   "name": "Congress of Deputies",
+   "type": "building",
+   "places": [
+    "Congress of Deputies (parliament)"
+   ],
+   "description": "The lower house of Spain’s parliament, in a 19th-century building guarded by two bronze lions."
+  },
+  {
+   "id": "bernabeu",
+   "name": "Santiago Bernabéu Stadium",
+   "type": "building",
+   "places": [
+    "Santiago Bernabéu Stadium"
+   ],
+   "description": "Real Madrid’s home stadium on the Paseo de la Castellana, with a club museum and stadium tour."
+  },
+  {
+   "id": "atocha",
+   "name": "Atocha station",
+   "type": "building",
+   "places": [
+    "Atocha station"
+   ],
+   "description": "Madrid’s main railway station, built around a 19th-century iron and glass train hall."
+  },
+  {
+   "id": "valley-of-the-fallen",
+   "name": "Valley of the Fallen",
+   "type": "landmark",
+   "places": [
+    "Valley of the Fallen (Cuelgamuros)"
+   ],
+   "description": "A basilica cut into a mountain outside Madrid under a huge stone cross, built by Franco’s regime partly with prisoners’ labour."
+  },
+  {
+   "id": "reina-sofia",
+   "name": "Reina Sofía Museum",
+   "type": "museum",
+   "places": [
+    "Reina Sofía Museum"
+   ],
+   "description": "Spain’s national museum of modern and contemporary art, in a former hospital. Picasso’s Guernica hangs here."
+  },
+  {
+   "id": "aranjuez-palace",
+   "name": "Royal Palace of Aranjuez",
+   "type": "palace",
+   "places": [
+    "Royal Palace of Aranjuez, Aranjuez"
+   ],
+   "description": "A royal palace with large gardens in the town of Aranjuez, south of Madrid, long used by Spanish kings as a spring residence."
+  },
+  {
+   "id": "plaza-de-santa-ana",
+   "name": "Plaza de Santa Ana",
+   "type": "landmark",
+   "places": [
+    "Plaza de Santa Ana",
+    "Lorca statue, Plaza de Santa Ana"
+   ],
+   "description": "A lively square in the old literary quarter, lined with bars and the Teatro Español, with a statue of the poet Lorca."
+  },
+  {
+   "id": "el-escorial",
+   "name": "El Escorial",
+   "type": "palace",
+   "places": [
+    "Royal Monastery of El Escorial",
+    "Friars’ Garden, Royal Monastery of El Escorial"
+   ],
+   "description": "A vast 16th-century monastery and royal palace in the hills northwest of Madrid, with a basilica, library, royal tombs and terraced gardens."
+  }
+ ],
+ "Manchester": [
+  {
+   "id": "hacienda",
+   "name": "The Haçienda (site)",
+   "type": "music",
+   "places": [
+    "Site of the Haçienda club, Whitworth Street West"
+   ],
+   "description": "The site of the Haçienda nightclub (1982–97), the centre of the city’s acid house scene. The building that replaced it is flats named after it."
+  },
+  {
+   "id": "free-trade-hall",
+   "name": "Free Trade Hall",
+   "type": "music",
+   "places": [
+    "Free Trade Hall, Peter Street"
+   ],
+   "description": "A Victorian hall on the site of the Peterloo Massacre, for a century the city’s main concert hall. It is now a hotel."
+  },
+  {
+   "id": "old-trafford",
+   "name": "Old Trafford",
+   "type": "building",
+   "places": [
+    "Old Trafford stadium"
+   ],
+   "description": "Manchester United’s home stadium, just outside the city centre, with a club museum and stadium tours."
+  },
+  {
+   "id": "central-library",
+   "name": "Manchester Central Library",
+   "type": "building",
+   "places": [
+    "Manchester Central Library"
+   ],
+   "description": "The city’s main public library, a round domed building from the 1930s on St Peter’s Square, with a large reading room under the dome."
+  },
+  {
+   "id": "chethams-library",
+   "name": "Chetham’s Library",
+   "type": "building",
+   "places": [
+    "Chetham’s Library"
+   ],
+   "description": "A public library founded in 1653 in a medieval building near the cathedral, often called the oldest in the English-speaking world."
+  },
+  {
+   "id": "pankhurst-centre",
+   "name": "Pankhurst Centre",
+   "type": "museum",
+   "places": [
+    "Pankhurst Centre, 62 Nelson Street"
+   ],
+   "description": "The house where Emmeline Pankhurst founded the Women’s Social and Political Union in 1903, now a small museum and women’s centre."
+  },
+  {
+   "id": "salford-lads-club",
+   "name": "Salford Lads Club",
+   "type": "building",
+   "places": [
+    "Salford Lads Club"
+   ],
+   "description": "A youth club opened in 1903 that is still running. Fans of The Smiths come to photograph the doorway seen in the band’s 1986 album artwork."
+  },
+  {
+   "id": "st-peters-square",
+   "name": "St Peter’s Square",
+   "type": "landmark",
+   "places": [
+    "St Peter’s Square (Peterloo Massacre site)"
+   ],
+   "description": "A city-centre square on part of the site of the 1819 Peterloo Massacre, when cavalry charged a peaceful crowd calling for the vote."
+  },
+  {
+   "id": "town-hall",
+   "name": "Manchester Town Hall",
+   "type": "building",
+   "places": [
+    "Manchester Town Hall"
+   ],
+   "description": "The Victorian Gothic town hall on Albert Square, finished in 1877, with murals of the city’s history in the Great Hall."
+  }
+ ],
+ "Marseille": [
+  {
+   "id": "vieux-port",
+   "name": "Old Port",
+   "type": "landmark",
+   "places": [
+    "Old Port (Vieux-Port)"
+   ],
+   "description": "The old harbour at the heart of the city, lined with cafés and moored boats, with a small fish market on the quay most mornings."
+  },
+  {
+   "id": "chateau-d-if",
+   "name": "Château d’If",
+   "type": "palace",
+   "places": [
+    "Château d’If island fortress"
+   ],
+   "description": "A 16th-century fortress and former prison on an island in the bay, the setting of The Count of Monte Cristo. Boats leave from the Old Port."
+  },
+  {
+   "id": "cite-radieuse",
+   "name": "Cité Radieuse",
+   "type": "building",
+   "places": [
+    "Cité Radieuse (Unité d’Habitation)"
+   ],
+   "description": "Le Corbusier’s 1952 concrete housing block on stilts, with shops and a hotel on an inside street and a terrace on the roof."
+  }
+ ],
+ "Munich": [
+  {
+   "id": "marienplatz",
+   "name": "Marienplatz",
+   "type": "landmark",
+   "places": [
+    "Marienplatz"
+   ],
+   "description": "Munich’s main square, in front of the neo-Gothic New Town Hall, whose tower has a mechanical Glockenspiel that plays most days at 11am."
+  },
+  {
+   "id": "lmu",
+   "name": "Ludwig Maximilian University",
+   "type": "building",
+   "places": [
+    "Ludwig Maximilian University main building",
+    "Ludwig Maximilian University atrium"
+   ],
+   "description": "The university’s main building, where White Rose students were arrested in 1943 for spreading anti-Nazi leaflets. A memorial is inside."
+  },
+  {
+   "id": "alte-pinakothek",
+   "name": "Alte Pinakothek",
+   "type": "museum",
+   "places": [
+    "Alte Pinakothek art museum"
+   ],
+   "description": "One of the oldest public galleries in the world, opened in 1836, with European paintings from the Middle Ages to the 18th century."
+  },
+  {
+   "id": "residenz",
+   "name": "Residenz",
+   "type": "palace",
+   "places": [
+    "Residenz palace",
+    "Cuvilliés Theatre, Residenz palace"
+   ],
+   "description": "The city palace of Bavaria’s rulers: courtyards, state rooms, a treasury and a small rococo court theatre."
+  },
+  {
+   "id": "olympic-stadium",
+   "name": "Olympic Stadium",
+   "type": "building",
+   "places": [
+    "Olympic Stadium, Olympiapark",
+    "Olympic Stadium"
+   ],
+   "description": "The stadium built for the 1972 Olympics, under a tent-like roof of acrylic panels, in a park laid out on wartime rubble."
+  },
+  {
+   "id": "connollystrasse-31",
+   "name": "Connollystraße 31",
+   "type": "building",
+   "places": [
+    "Connollystraße 31, Olympic Village",
+    "Connollystraße 31, former Olympic Village",
+    "Olympic Village, Connollystraße 31"
+   ],
+   "description": "The building in the Olympic Village where Israeli athletes were taken hostage during the 1972 Olympics. A plaque marks it."
+  },
+  {
+   "id": "nymphenburg",
+   "name": "Nymphenburg Palace",
+   "type": "palace",
+   "places": [
+    "Gallery of Beauties, Nymphenburg Palace"
+   ],
+   "description": "The baroque summer palace of Bavaria’s rulers, with large gardens and the Gallery of Beauties, a room of portraits of women."
+  },
+  {
+   "id": "odeonsplatz",
+   "name": "Odeonsplatz",
+   "type": "landmark",
+   "places": [
+    "Odeonsplatz"
+   ],
+   "description": "A grand square at the south end of Ludwigstraße, with the Feldherrnhalle loggia and the yellow Theatine Church."
+  },
+  {
+   "id": "hofbraeuhaus",
+   "name": "Hofbräuhaus",
+   "type": "cafe",
+   "places": [
+    "Hofbräuhaus beer hall"
+   ],
+   "description": "A huge beer hall that began as the royal brewery in 1589, with long shared tables, a brass band and its own beer."
+  },
+  {
+   "id": "isartor",
+   "name": "Isartor",
+   "type": "building",
+   "places": [
+    "Isartor city gate"
+   ],
+   "description": "One of three surviving gates of the medieval city wall, on the east side of the old town."
+  },
+  {
+   "id": "glyptothek",
+   "name": "Glyptothek",
+   "type": "museum",
+   "places": [
+    "Glyptothek sculpture museum, Königsplatz"
+   ],
+   "description": "A museum of ancient Greek and Roman sculpture in a temple-like building on Königsplatz, opened in 1830."
+  },
+  {
+   "id": "fuehrerbau",
+   "name": "Führerbau",
+   "type": "building",
+   "places": [
+    "Führerbau, now University of Music",
+    "Führerbau, Arcisstraße 12",
+    "Führerbau, now the University of Music and Performing Arts"
+   ],
+   "description": "A Nazi party building on Königsplatz where the 1938 Munich Agreement was signed. It is now a university of music."
+  },
+  {
+   "id": "national-theatre",
+   "name": "National Theatre (Bavarian State Opera)",
+   "type": "music",
+   "places": [
+    "National Theatre opera house, Max-Joseph-Platz",
+    "National Theatre opera house",
+    "National Theatre (Bavarian State Opera)"
+   ],
+   "description": "The neoclassical opera house on Max-Joseph-Platz, home of the Bavarian State Opera and Ballet, rebuilt after wartime bombing."
+  },
+  {
+   "id": "state-library",
+   "name": "Bavarian State Library",
+   "type": "building",
+   "places": [
+    "Bavarian State Library, Ludwigstraße",
+    "Bavarian State Library"
+   ],
+   "description": "One of Europe’s largest research libraries, in a long 19th-century building on Ludwigstraße."
+  },
+  {
+   "id": "musicland-studios",
+   "name": "Musicland Studios",
+   "type": "music",
+   "places": [
+    "Musicland Studios, Arabella high-rise, Bogenhausen",
+    "Arabellahaus, former Musicland Studios",
+    "Musicland Studios, Arabella High-Rise"
+   ],
+   "description": "A former recording studio in the basement of the Arabella high-rise, where many rock and disco records were made in the 1970s and 80s."
+  },
+  {
+   "id": "kurt-eisner-memorial",
+   "name": "Kurt Eisner memorial",
+   "type": "landmark",
+   "places": [
+    "Kurt Eisner memorial, Kardinal-Faulhaber-Straße",
+    "Kurt Eisner memorial, Kardinal-Faulhaber-Strasse"
+   ],
+   "description": "A memorial set into the pavement where Kurt Eisner, Bavaria’s first republican prime minister, was shot dead in 1919."
+  },
+  {
+   "id": "hofgarten-arcades",
+   "name": "Hofgarten arcades",
+   "type": "landmark",
+   "places": [
+    "Hofgarten arcades, site of the 1937 Degenerate Art show",
+    "Hofgarten arcades, Galeriestraße"
+   ],
+   "description": "The arcades around the old court garden beside the Residenz, where the Nazis’ 1937 ‘Degenerate Art’ exhibition was held."
+  },
+  {
+   "id": "allianz-arena",
+   "name": "Allianz Arena",
+   "type": "building",
+   "places": [
+    "Allianz Arena stadium",
+    "FC Bayern Museum, Allianz Arena"
+   ],
+   "description": "FC Bayern’s stadium on the northern edge of the city, wrapped in panels that light up at night, with the club museum inside."
+  }
+ ],
+ "Naples": [
+  {
+   "id": "archaeological-museum",
+   "name": "National Archaeological Museum",
+   "type": "museum",
+   "places": [
+    "National Archaeological Museum"
+   ],
+   "description": "One of the great collections of ancient Roman art, with mosaics, frescoes and objects found at Pompeii and Herculaneum."
+  },
+  {
+   "id": "stadio-maradona",
+   "name": "Stadio Diego Armando Maradona",
+   "type": "building",
+   "places": [
+    "Stadio Diego Armando Maradona"
+   ],
+   "description": "SSC Napoli’s home stadium in the Fuorigrotta district, renamed after Diego Maradona in 2020."
+  },
+  {
+   "id": "vele-di-scampia",
+   "name": "Vele di Scampia",
+   "type": "building",
+   "places": [
+    "Vele di Scampia housing blocks"
+   ],
+   "description": "Huge sail-shaped public housing blocks from the 1960s and 70s in the northern suburb of Scampia, partly demolished since the 1990s."
+  },
+  {
+   "id": "pompeii",
+   "name": "Pompeii",
+   "type": "landmark",
+   "places": [
+    "Porta Marina gate, Pompeii"
+   ],
+   "description": "The Roman town buried by Vesuvius in AD 79, south of Naples. Porta Marina is the main gate into its excavated streets and houses."
+  },
+  {
+   "id": "piazza-del-mercato",
+   "name": "Piazza del Mercato",
+   "type": "landmark",
+   "places": [
+    "Piazza del Mercato"
+   ],
+   "description": "A large square near the port that was for centuries the city’s main market and its place of public executions."
+  },
+  {
+   "id": "pio-monte",
+   "name": "Pio Monte della Misericordia",
+   "type": "church",
+   "places": [
+    "Pio Monte della Misericordia church"
+   ],
+   "description": "A small 17th-century church run by a charity, with Caravaggio’s Seven Works of Mercy above the altar."
+  },
+  {
+   "id": "pizzeria-brandi",
+   "name": "Pizzeria Brandi",
+   "type": "cafe",
+   "places": [
+    "Pizzeria Brandi"
+   ],
+   "description": "An old pizzeria near Piazza del Plebiscito that claims the margherita pizza was first made here, in 1889."
+  },
+  {
+   "id": "vesuvius",
+   "name": "Mount Vesuvius",
+   "type": "landmark",
+   "places": [
+    "Mount Vesuvius"
+   ],
+   "description": "The volcano that buried Pompeii in AD 79 and last erupted in 1944. A path leads up to the rim of the crater."
+  },
+  {
+   "id": "castel-nuovo",
+   "name": "Castel Nuovo",
+   "type": "palace",
+   "places": [
+    "Castel Nuovo (Maschio Angioino)"
+   ],
+   "description": "A medieval castle by the port with five round towers and a white marble triumphal arch at the entrance. It houses the civic museum."
+  }
+ ],
+ "Oslo": [
+  {
+   "id": "munch",
+   "name": "MUNCH",
+   "type": "museum",
+   "places": [
+    "MUNCH museum"
+   ],
+   "description": "A tall museum on the harbour front devoted to Edvard Munch, with thousands of his paintings, prints and drawings."
+  },
+  {
+   "id": "fram-museum",
+   "name": "Fram Museum",
+   "type": "museum",
+   "places": [
+    "Fram Museum"
+   ],
+   "description": "A museum on the Bygdøy peninsula built around the polar ship Fram, which you can go aboard, and the history of polar exploration."
+  },
+  {
+   "id": "kon-tiki-museum",
+   "name": "Kon-Tiki Museum",
+   "type": "museum",
+   "places": [
+    "Kon-Tiki Museum"
+   ],
+   "description": "A museum on Bygdøy holding the balsa raft Kon-Tiki, sailed across the Pacific in 1947, and other boats from Thor Heyerdahl’s voyages."
+  },
+  {
+   "id": "city-hall",
+   "name": "Oslo City Hall",
+   "type": "building",
+   "places": [
+    "City Hall (Rådhuset)"
+   ],
+   "description": "The brick city hall with two towers on the harbour, where the Nobel Peace Prize is presented each December. The halls are covered in murals."
+  },
+  {
+   "id": "royal-palace",
+   "name": "Royal Palace",
+   "type": "palace",
+   "places": [
+    "Royal Palace"
+   ],
+   "description": "The king’s official residence, at the top of Karl Johans gate, in a public park, with a daily changing of the guard."
+  },
+  {
+   "id": "helvete",
+   "name": "Helvete record shop (former)",
+   "type": "music",
+   "places": [
+    "Former Helvete record shop, Schweigaards gate"
+   ],
+   "description": "A former record shop near the central station that was the meeting place of Norway’s early-1990s black metal scene."
+  },
+  {
+   "id": "viking-age-museum",
+   "name": "Museum of the Viking Age",
+   "type": "museum",
+   "places": [
+    "Museum of the Viking Age (Viking Ship Museum)"
+   ],
+   "description": "The museum on Bygdøy built for three Viking ships found in burial mounds, being rebuilt and enlarged as the Museum of the Viking Age."
+  },
+  {
+   "id": "national-museum",
+   "name": "National Museum",
+   "type": "museum",
+   "places": [
+    "National Museum"
+   ],
+   "description": "Norway’s largest art museum, opened in 2022 by the harbour, with art and design from ancient times to today, including Munch’s The Scream."
+  },
+  {
+   "id": "akershus",
+   "name": "Akershus Fortress",
+   "type": "palace",
+   "places": [
+    "Akershus Fortress",
+    "Akershus Fortress waterfront"
+   ],
+   "description": "A medieval castle and fortress on the harbour, later a royal residence, with ramparts you can walk and a museum of the wartime resistance."
+  }
+ ],
+ "Paris": [
+  {
+   "id": "louvre",
+   "name": "Louvre",
+   "type": "museum",
+   "places": [
+    "Louvre Museum",
+    "Salle des États (Mona Lisa room), Louvre Museum",
+    "Louvre Pyramid",
+    "Cour Carrée, Louvre",
+    "Louis XIV statue, Louvre courtyard"
+   ],
+   "description": "The former royal palace turned art museum, entered through a glass pyramid. Its collection runs from ancient Egypt to the Mona Lisa."
+  },
+  {
+   "id": "orsay",
+   "name": "Musée d’Orsay",
+   "type": "museum",
+   "places": [
+    "Musée d’Orsay museum"
+   ],
+   "description": "A museum in a former railway station on the Left Bank, with the largest collection of Impressionist and Post-Impressionist painting."
+  },
+  {
+   "id": "palais-garnier",
+   "name": "Palais Garnier",
+   "type": "music",
+   "places": [
+    "Palais Garnier opera house"
+   ],
+   "description": "The 19th-century opera house, with a grand marble staircase and a ceiling painted by Chagall. It hosts opera and ballet."
+  },
+  {
+   "id": "notre-dame",
+   "name": "Notre-Dame Cathedral",
+   "type": "church",
+   "places": [
+    "Notre-Dame Cathedral",
+    "Point Zéro, Notre-Dame square"
+   ],
+   "description": "The Gothic cathedral on the Île de la Cité, reopened in 2024 after the 2019 fire. A plaque in the square marks the point distances in France are measured from."
+  },
+  {
+   "id": "eiffel-tower",
+   "name": "Eiffel Tower",
+   "type": "building",
+   "places": [
+    "Eiffel Tower"
+   ],
+   "description": "The wrought-iron tower built for the 1889 World’s Fair, with lifts and stairs up to viewing platforms over the city."
+  },
+  {
+   "id": "versailles",
+   "name": "Palace of Versailles",
+   "type": "palace",
+   "places": [
+    "Palace of Versailles"
+   ],
+   "description": "The vast palace and gardens of Louis XIV, outside Paris, with the Hall of Mirrors and the royal apartments."
+  },
+  {
+   "id": "orangerie",
+   "name": "Musée de l’Orangerie",
+   "type": "museum",
+   "places": [
+    "Musée de l’Orangerie museum"
+   ],
+   "description": "A small museum in the Tuileries Garden, built around two oval rooms that hold Monet’s Water Lilies panels."
+  },
+  {
+   "id": "pompidou",
+   "name": "Centre Pompidou",
+   "type": "museum",
+   "places": [
+    "Centre Pompidou modern art museum"
+   ],
+   "description": "France’s national museum of modern art, in a 1977 building with its pipes, ducts and escalators on the outside."
+  },
+  {
+   "id": "le-meurice",
+   "name": "Le Meurice",
+   "type": "building",
+   "places": [
+    "Le Meurice hotel, Rue de Rivoli"
+   ],
+   "description": "A luxury hotel on the Rue de Rivoli facing the Tuileries. During the Occupation it was the headquarters of the German military command in Paris."
+  },
+  {
+   "id": "pere-lachaise",
+   "name": "Père Lachaise Cemetery",
+   "type": "cemetery",
+   "places": [
+    "Père Lachaise Cemetery, Gambetta entrance",
+    "Communards’ Wall, Père Lachaise Cemetery",
+    "Père Lachaise Cemetery",
+    "Édith Piaf’s grave, Père Lachaise Cemetery"
+   ],
+   "description": "The city’s largest cemetery, on a hill in the east, with Édith Piaf’s grave and the wall where the last Communards were shot in 1871."
+  },
+  {
+   "id": "place-de-la-concorde",
+   "name": "Place de la Concorde",
+   "type": "landmark",
+   "places": [
+    "Place de la Concorde",
+    "Luxor Obelisk, Place de la Concorde"
+   ],
+   "description": "The largest square in Paris, where the guillotine stood during the Revolution. At its centre is an Egyptian obelisk over 3,000 years old."
+  },
+  {
+   "id": "place-de-la-bastille",
+   "name": "Place de la Bastille",
+   "type": "landmark",
+   "places": [
+    "Place de la Bastille",
+    "Bastille Métro station (fortress remains)"
+   ],
+   "description": "The square where the Bastille prison stood until it was stormed in 1789. A column marks the centre, and traces of the fortress survive in the Métro station."
+  },
+  {
+   "id": "trocadero",
+   "name": "Place du Trocadéro",
+   "type": "landmark",
+   "places": [
+    "Place du Trocadéro"
+   ],
+   "description": "A square across the river from the Eiffel Tower, with terraces that give one of the classic views of it."
+  },
+  {
+   "id": "shakespeare-and-company",
+   "name": "Shakespeare and Company",
+   "type": "landmark",
+   "places": [
+    "Shakespeare and Company bookshop"
+   ],
+   "description": "An English-language bookshop on the Left Bank, across the river from Notre-Dame, crammed with new and second-hand books."
+  },
+  {
+   "id": "pont-des-arts",
+   "name": "Pont des Arts",
+   "type": "building",
+   "places": [
+    "Pont des Arts bridge"
+   ],
+   "description": "A footbridge across the Seine between the Louvre and the Institut de France, once covered in love padlocks."
+  },
+  {
+   "id": "pont-neuf",
+   "name": "Pont Neuf",
+   "type": "building",
+   "places": [
+    "Pont Neuf bridge"
+   ],
+   "description": "Despite its name (‘New Bridge’), the oldest standing bridge across the Seine in Paris, finished in 1607 across the tip of the Île de la Cité."
+  },
+  {
+   "id": "carnavalet",
+   "name": "Carnavalet Museum",
+   "type": "museum",
+   "places": [
+    "Carnavalet Museum"
+   ],
+   "description": "The free museum of the history of Paris, in two mansions in the Marais, with old shop signs, period rooms and relics of the Revolution."
+  },
+  {
+   "id": "folies-bergere",
+   "name": "Folies Bergère",
+   "type": "music",
+   "places": [
+    "Folies Bergère music hall"
+   ],
+   "description": "A music hall open since 1869 and famous for its cabaret revues. It now mostly hosts concerts and musicals."
+  },
+  {
+   "id": "invalides",
+   "name": "Les Invalides",
+   "type": "building",
+   "places": [
+    "Les Invalides (Hôtel des Invalides)",
+    "Musée des Plans-Reliefs, Les Invalides"
+   ],
+   "description": "Louis XIV’s military hospital under a gilded dome. It now holds Napoleon’s tomb, the army museum and a museum of scale models of fortified towns."
+  },
+  {
+   "id": "hotel-de-ville",
+   "name": "Hôtel de Ville",
+   "type": "building",
+   "places": [
+    "Hôtel de Ville (City Hall)",
+    "Place de l’Hôtel de Ville"
+   ],
+   "description": "Paris’s city hall, a 19th-century rebuilding of a Renaissance original, and the square in front, where public executions once took place."
+  }
+ ],
+ "Prague": [
+  {
+   "id": "prague-castle",
+   "name": "Prague Castle",
+   "type": "palace",
+   "places": [
+    "Prague Castle",
+    "Old Royal Palace, Prague Castle"
+   ],
+   "description": "A huge castle complex on the hill above the Vltava, seat of Czech rulers for over a thousand years, including the Old Royal Palace."
+  },
+  {
+   "id": "st-vitus",
+   "name": "St Vitus Cathedral",
+   "type": "church",
+   "places": [
+    "St Vitus Cathedral, Prague Castle"
+   ],
+   "description": "The Gothic cathedral inside Prague Castle, where Czech kings were crowned and buried, with a stained-glass window by Alfons Mucha."
+  },
+  {
+   "id": "astronomical-clock",
+   "name": "Old Town Hall and Astronomical Clock",
+   "type": "building",
+   "places": [
+    "Astronomical Clock, Old Town Hall"
+   ],
+   "description": "The medieval astronomical clock on the Old Town Hall, first installed in 1410. On the hour, figures of the apostles appear in windows above the dials."
+  },
+  {
+   "id": "old-town-square",
+   "name": "Old Town Square",
+   "type": "landmark",
+   "places": [
+    "Old Town Square"
+   ],
+   "description": "The main square of the old town, ringed by pastel houses, the Old Town Hall and the twin towers of the Týn Church."
+  },
+  {
+   "id": "wenceslas-square",
+   "name": "Wenceslas Square",
+   "type": "landmark",
+   "places": [
+    "Wenceslas Square",
+    "Wenceslas Square (area)",
+    "Můstek (bottom of Wenceslas Square)"
+   ],
+   "description": "A long, wide square in the New Town, scene of the mass protests of 1989. A statue of St Wenceslas stands at the top end."
+  },
+  {
+   "id": "melantrich",
+   "name": "Melantrich building",
+   "type": "building",
+   "places": [
+    "Melantrich building, Wenceslas Square"
+   ],
+   "description": "A building on Wenceslas Square from whose balcony dissident leaders addressed the crowds during the Velvet Revolution in 1989."
+  },
+  {
+   "id": "municipal-house",
+   "name": "Municipal House",
+   "type": "building",
+   "places": [
+    "Municipal House (Obecní dům)"
+   ],
+   "description": "An Art Nouveau civic building from 1912, next to the Powder Tower, with the Smetana Hall concert hall, a café and a restaurant."
+  },
+  {
+   "id": "new-city-hall",
+   "name": "New City Hall",
+   "type": "building",
+   "places": [
+    "New City Hall, Mariánské Square"
+   ],
+   "description": "The early-1900s seat of Prague’s city government, on Mariánské Square, with large sculptures at its corners."
+  },
+  {
+   "id": "cyril-methodius",
+   "name": "Church of Sts Cyril and Methodius",
+   "type": "church",
+   "places": [
+    "Church of Sts Cyril and Methodius, Resslova"
+   ],
+   "description": "An Orthodox church where the Czech parachutists who assassinated Reinhard Heydrich hid and died in 1942. Its crypt is now a memorial."
+  },
+  {
+   "id": "old-jewish-cemetery",
+   "name": "Old Jewish Cemetery",
+   "type": "cemetery",
+   "places": [
+    "Old Jewish Cemetery"
+   ],
+   "description": "One of Europe’s oldest Jewish burial grounds, in the Jewish Quarter, with some 12,000 tombstones crowded together, many of them tilting."
+  },
+  {
+   "id": "old-new-synagogue",
+   "name": "Old-New Synagogue",
+   "type": "church",
+   "places": [
+    "Old-New Synagogue"
+   ],
+   "description": "Europe’s oldest active synagogue, a 13th-century Gothic building in the Jewish Quarter. Legend says the Golem lies in its attic."
+  },
+  {
+   "id": "estates-theatre",
+   "name": "Estates Theatre",
+   "type": "music",
+   "places": [
+    "Estates Theatre"
+   ],
+   "description": "An 18th-century theatre in the old town where Mozart’s Don Giovanni premiered in 1787. It still stages opera, drama and ballet."
+  },
+  {
+   "id": "charles-bridge",
+   "name": "Charles Bridge",
+   "type": "building",
+   "places": [
+    "Charles Bridge"
+   ],
+   "description": "The 14th-century stone bridge across the Vltava, lined with baroque statues of saints and busy from early morning to late at night."
+  }
+ ],
+ "Reykjavík": [
+  {
+   "id": "austurvollur",
+   "name": "Austurvöllur",
+   "type": "landmark",
+   "places": [
+    "Austurvöllur square"
+   ],
+   "description": "A small grassy square in the centre, facing the Parliament building and the cathedral, with a statue of the independence leader Jón Sigurðsson."
+  },
+  {
+   "id": "harpa",
+   "name": "Harpa",
+   "type": "music",
+   "places": [
+    "Harpa concert hall"
+   ],
+   "description": "The glass-fronted concert hall on the harbour, opened in 2011 and home of the Iceland Symphony Orchestra."
+  },
+  {
+   "id": "laekjartorg",
+   "name": "Lækjartorg",
+   "type": "landmark",
+   "places": [
+    "Lækjartorg square"
+   ],
+   "description": "A small square in the city centre, where Lækjargata meets Austurstræti, long used as a meeting point and for public gatherings."
+  },
+  {
+   "id": "hallgrimskirkja",
+   "name": "Hallgrímskirkja",
+   "type": "church",
+   "places": [
+    "Hallgrímskirkja church",
+    "Leif Erikson statue, Hallgrímskirkja"
+   ],
+   "description": "The concrete Lutheran church on the hill above the centre, with a 74.5 m tower you can go up. A statue of Leif Erikson stands in front."
+  },
+  {
+   "id": "university-of-iceland",
+   "name": "University of Iceland",
+   "type": "building",
+   "places": [
+    "University of Iceland"
+   ],
+   "description": "Iceland’s oldest and largest university, founded in 1911, on a campus just south of the city centre next to the National Museum."
+  },
+  {
+   "id": "kaffibarinn",
+   "name": "Kaffibarinn",
+   "type": "cafe",
+   "places": [
+    "Kaffibarinn bar"
+   ],
+   "description": "A small downtown bar in an old house just off Laugavegur, a fixture of the city’s nightlife since the 1990s and a setting in the film 101 Reykjavík."
+  },
+  {
+   "id": "hofdi",
+   "name": "Höfði House",
+   "type": "building",
+   "places": [
+    "Höfði House"
+   ],
+   "description": "A white wooden house by the shore, built in 1909, where the US and Soviet leaders Reagan and Gorbachev held their 1986 summit."
+  },
+  {
+   "id": "laugardalsholl",
+   "name": "Laugardalshöll",
+   "type": "building",
+   "places": [
+    "Laugardalshöll sports hall"
+   ],
+   "description": "The city’s main indoor sports and concert hall, where the 1972 world chess championship between Fischer and Spassky was played."
+  },
+  {
+   "id": "phallological-museum",
+   "name": "Icelandic Phallological Museum",
+   "type": "museum",
+   "places": [
+    "Icelandic Phallological Museum, Hafnartorg"
+   ],
+   "description": "A museum devoted to penises, with a large collection of specimens from Iceland’s land and sea mammals, in the Hafnartorg development by the harbour."
+  }
+ ],
+ "Rome": [
+  {
+   "id": "capitoline-museums",
+   "name": "Capitoline Museums",
+   "type": "museum",
+   "places": [
+    "Capitoline Museums",
+    "Palazzo dei Conservatori courtyard, Capitoline Museums",
+    "Piazza del Campidoglio"
+   ],
+   "description": "Some of the world’s oldest public museums, in the palaces around Michelangelo’s square on the Capitoline Hill, with the bronze she-wolf."
+  },
+  {
+   "id": "st-peters",
+   "name": "St Peter’s Basilica",
+   "type": "church",
+   "places": [
+    "St Peter’s Basilica",
+    "St Peter’s Square",
+    "Vatican Obelisk, St Peter’s Square",
+    "Michelangelo’s Pietà, St Peter’s Basilica",
+    "Bernini’s Baldacchino, St Peter’s Basilica",
+    "Chair of St Peter, St Peter’s Basilica",
+    "Treasury Museum, St Peter’s Basilica"
+   ],
+   "description": "The Pope’s basilica and the colonnaded square in front. Inside are Michelangelo’s Pietà, Bernini’s bronze canopy and the Chair of St Peter."
+  },
+  {
+   "id": "sistine-chapel",
+   "name": "Sistine Chapel",
+   "type": "church",
+   "places": [
+    "Sistine Chapel"
+   ],
+   "description": "The papal chapel at the end of the Vatican Museums route, with Michelangelo’s ceiling and Last Judgement. Popes are elected here."
+  },
+  {
+   "id": "vatican-museums",
+   "name": "Vatican Museums",
+   "type": "museum",
+   "places": [
+    "Vatican Museums",
+    "Vatican Museums entrance",
+    "Octagonal Court, Vatican Museums",
+    "Gregorian Etruscan Museum, Vatican Museums",
+    "Pio-Clementino Museum, Vatican Museums",
+    "Raphael Rooms, Vatican Museums",
+    "Braccio Nuovo, Vatican Museums",
+    "Pinacoteca (picture gallery), Vatican Museums"
+   ],
+   "description": "The popes’ art collections, spread through the Vatican palaces: ancient sculpture, Etruscan finds, the Raphael Rooms and a picture gallery."
+  },
+  {
+   "id": "borghese-gallery",
+   "name": "Borghese Gallery",
+   "type": "museum",
+   "places": [
+    "Borghese Gallery"
+   ],
+   "description": "A 17th-century villa in the Borghese park holding sculptures by Bernini and paintings by Caravaggio. Entry is by timed booking only."
+  },
+  {
+   "id": "colosseum",
+   "name": "Colosseum",
+   "type": "landmark",
+   "places": [
+    "Colosseum"
+   ],
+   "description": "The amphitheatre finished in 80 AD, where gladiators fought in front of crowds of around 50,000."
+  },
+  {
+   "id": "trevi-fountain",
+   "name": "Trevi Fountain",
+   "type": "landmark",
+   "places": [
+    "Trevi Fountain"
+   ],
+   "description": "The largest baroque fountain in Rome, finished in 1762. Tradition says a coin thrown over your shoulder means you will come back."
+  },
+  {
+   "id": "roman-forum",
+   "name": "Roman Forum",
+   "type": "landmark",
+   "places": [
+    "Roman Forum",
+    "Arch of Titus, Roman Forum",
+    "Santa Maria Antiqua, Roman Forum",
+    "Temple of Antoninus and Faustina, Roman Forum",
+    "Temple of Vesta, Roman Forum",
+    "Arch of Septimius Severus, Roman Forum",
+    "Basilica of Maxentius, Roman Forum"
+   ],
+   "description": "The ruins of ancient Rome’s political and religious centre: temples, triumphal arches and the early frescoed church of Santa Maria Antiqua."
+  },
+  {
+   "id": "castel-sant-angelo",
+   "name": "Castel Sant’Angelo",
+   "type": "palace",
+   "places": [
+    "Castel Sant’Angelo"
+   ],
+   "description": "Hadrian’s mausoleum by the Tiber, later a papal fortress and prison. It is now a museum, with views from the terrace at the top."
+  },
+  {
+   "id": "ponte-sant-angelo",
+   "name": "Ponte Sant’Angelo",
+   "type": "building",
+   "places": [
+    "Ponte Sant’Angelo bridge"
+   ],
+   "description": "A Roman footbridge across the Tiber, built by Hadrian to reach his tomb, lined with ten baroque angels designed by Bernini."
+  },
+  {
+   "id": "pantheon",
+   "name": "Pantheon",
+   "type": "building",
+   "places": [
+    "Pantheon"
+   ],
+   "description": "A Roman temple from around 125 AD, now a church, with a huge unreinforced concrete dome open to the sky at the top."
+  },
+  {
+   "id": "arch-of-constantine",
+   "name": "Arch of Constantine",
+   "type": "landmark",
+   "places": [
+    "Arch of Constantine"
+   ],
+   "description": "A triumphal arch beside the Colosseum, put up in 315 AD for the emperor Constantine, partly decorated with carvings taken from older monuments."
+  },
+  {
+   "id": "largo-argentina",
+   "name": "Largo di Torre Argentina",
+   "type": "landmark",
+   "places": [
+    "Largo di Torre Argentina"
+   ],
+   "description": "A sunken square of temple ruins next to the spot where Julius Caesar was killed. A cat shelter operates on the site."
+  },
+  {
+   "id": "piazza-navona",
+   "name": "Piazza Navona",
+   "type": "landmark",
+   "places": [
+    "Piazza Navona",
+    "Fountain of the Moor, Piazza Navona"
+   ],
+   "description": "A long baroque square on the outline of an ancient stadium, with three fountains, including Bernini’s Fountain of the Four Rivers."
+  },
+  {
+   "id": "testaccio-market",
+   "name": "Testaccio Market",
+   "type": "landmark",
+   "places": [
+    "Testaccio Market"
+   ],
+   "description": "A covered food market in the Testaccio neighbourhood, with produce stalls and counters selling Roman street food."
+  },
+  {
+   "id": "san-luigi-dei-francesi",
+   "name": "San Luigi dei Francesi",
+   "type": "church",
+   "places": [
+    "San Luigi dei Francesi church"
+   ],
+   "description": "The church of the French community near Piazza Navona, with three Caravaggio paintings of the life of St Matthew in a side chapel."
+  },
+  {
+   "id": "acqua-paola",
+   "name": "Acqua Paola Fountain",
+   "type": "landmark",
+   "places": [
+    "Acqua Paola Fountain (Fontanone), Janiculum"
+   ],
+   "description": "A large early-1600s fountain on the Janiculum hill, built like a triumphal arch, with views across the city."
+  },
+  {
+   "id": "santa-maria-maggiore",
+   "name": "Santa Maria Maggiore",
+   "type": "church",
+   "places": [
+    "Santa Maria Maggiore basilica"
+   ],
+   "description": "One of Rome’s four major papal basilicas, with fifth-century mosaics and a gilded coffered ceiling."
+  },
+  {
+   "id": "baths-of-caracalla",
+   "name": "Baths of Caracalla",
+   "type": "landmark",
+   "places": [
+    "Baths of Caracalla"
+   ],
+   "description": "The huge brick ruins of a third-century public bath complex. Opera and concerts are staged here in summer."
+  },
+  {
+   "id": "ara-pacis",
+   "name": "Ara Pacis Museum",
+   "type": "museum",
+   "places": [
+    "Ara Pacis Museum"
+   ],
+   "description": "A glass-walled museum by the Tiber built around the Ara Pacis, a carved marble altar celebrating the peace brought by Augustus."
+  },
+  {
+   "id": "circus-maximus",
+   "name": "Circus Maximus",
+   "type": "landmark",
+   "places": [
+    "Circus Maximus"
+   ],
+   "description": "The site of ancient Rome’s chariot-racing stadium, now a long grassy hollow below the Palatine Hill."
+  },
+  {
+   "id": "trajans-forum",
+   "name": "Trajan’s Forum and Column",
+   "type": "landmark",
+   "places": [
+    "Trajan’s Column",
+    "Trajan’s Forum",
+    "Trajan’s Markets"
+   ],
+   "description": "The last and largest of the imperial forums, with Trajan’s Column, carved with his wars in a spiral, and the brick market halls on the hillside."
+  },
+  {
+   "id": "san-pietro-in-vincoli",
+   "name": "San Pietro in Vincoli",
+   "type": "church",
+   "places": [
+    "San Pietro in Vincoli church"
+   ],
+   "description": "A basilica that keeps the chains said to have bound St Peter, and Michelangelo’s statue of Moses on the tomb of Pope Julius II."
+  },
+  {
+   "id": "santa-maria-del-popolo",
+   "name": "Santa Maria del Popolo",
+   "type": "church",
+   "places": [
+    "Santa Maria del Popolo church"
+   ],
+   "description": "A church on Piazza del Popolo with two Caravaggio paintings, of St Paul and St Peter, and a chapel designed by Raphael."
+  },
+  {
+   "id": "villa-giulia",
+   "name": "National Etruscan Museum",
+   "type": "museum",
+   "places": [
+    "National Etruscan Museum (Villa Giulia)"
+   ],
+   "description": "A 16th-century papal villa, now the national museum of the Etruscans, the people who ruled central Italy before the Romans."
+  },
+  {
+   "id": "palazzo-massimo",
+   "name": "Palazzo Massimo",
+   "type": "museum",
+   "places": [
+    "Palazzo Massimo, National Roman Museum"
+   ],
+   "description": "A branch of the National Roman Museum near Termini station, with ancient sculpture, bronzes and painted rooms from Roman villas."
+  },
+  {
+   "id": "spanish-steps",
+   "name": "Spanish Steps",
+   "type": "landmark",
+   "places": [
+    "Spanish Steps",
+    "Barcaccia Fountain, Spanish Steps"
+   ],
+   "description": "A wide 18th-century stairway from Piazza di Spagna up to a church, with a boat-shaped fountain at the bottom."
+  },
+  {
+   "id": "gesu",
+   "name": "Church of the Gesù",
+   "type": "church",
+   "places": [
+    "Church of the Gesù",
+    "Chapel of St Ignatius, Church of the Gesù"
+   ],
+   "description": "The mother church of the Jesuits, with a painted ceiling that seems to open to the sky and the tomb of St Ignatius in a side chapel."
+  },
+  {
+   "id": "sant-andrea-al-quirinale",
+   "name": "Sant’Andrea al Quirinale",
+   "type": "church",
+   "places": [
+    "Sant’Andrea al Quirinale church",
+    "Rooms of St Stanislas Kostka, Sant’Andrea al Quirinale"
+   ],
+   "description": "A small oval church by Bernini, with the rooms next door where the young Jesuit St Stanislas Kostka lived and died."
+  }
+ ],
+ "Seville": [
+  {
+   "id": "seville-cathedral",
+   "name": "Seville Cathedral",
+   "type": "church",
+   "places": [
+    "Seville Cathedral",
+    "Giralda bell tower, Seville Cathedral",
+    "Patio de los Naranjos, Seville Cathedral"
+   ],
+   "description": "A vast Gothic cathedral built on the site of a mosque. The mosque’s minaret became the Giralda bell tower, and its orange-tree courtyard survives."
+  },
+  {
+   "id": "archivo-de-indias",
+   "name": "Archive of the Indies",
+   "type": "building",
+   "places": [
+    "General Archive of the Indies (Archivo de Indias)"
+   ],
+   "description": "A 16th-century merchants’ exchange next to the cathedral, now holding the records of Spain’s empire in the Americas. Some rooms are open to visitors."
+  },
+  {
+   "id": "alcazar",
+   "name": "Real Alcázar",
+   "type": "palace",
+   "places": [
+    "Real Alcázar palace"
+   ],
+   "description": "A royal palace begun in the Middle Ages, with Mudéjar halls, tiled courtyards and large gardens. The upper floors are still used by the Spanish royal family."
+  },
+  {
+   "id": "plaza-nueva",
+   "name": "Plaza Nueva",
+   "type": "landmark",
+   "places": [
+    "Plaza Nueva"
+   ],
+   "description": "A large open square by the city hall, with a statue of King Ferdinand III on horseback in the middle."
+  },
+  {
+   "id": "alameda-de-hercules",
+   "name": "Alameda de Hércules",
+   "type": "landmark",
+   "places": [
+    "Alameda de Hércules square"
+   ],
+   "description": "A long tree-lined promenade laid out in the 1500s, with old stone columns at each end, now lined with bars and busy at night."
+  },
+  {
+   "id": "torre-del-oro",
+   "name": "Torre del Oro",
+   "type": "building",
+   "places": [
+    "Torre del Oro tower"
+   ],
+   "description": "A 13th-century Moorish watchtower on the riverbank, built to guard the port. Inside is a small naval museum, with views from the top."
+  },
+  {
+   "id": "maestranza",
+   "name": "Maestranza bullring",
+   "type": "landmark",
+   "places": [
+    "Maestranza bullring"
+   ],
+   "description": "An 18th-century bullring by the river, one of the oldest in Spain, with a museum and guided tours."
+  },
+  {
+   "id": "triana-bridge",
+   "name": "Triana Bridge",
+   "type": "building",
+   "places": [
+    "Triana Bridge (Puente de Isabel II)"
+   ],
+   "description": "A 19th-century iron bridge over the Guadalquivir, linking the centre with Triana, the old potters’ and flamenco quarter."
+  },
+  {
+   "id": "tobacco-factory",
+   "name": "Royal Tobacco Factory",
+   "type": "building",
+   "places": [
+    "Royal Tobacco Factory (University of Seville)"
+   ],
+   "description": "A huge 18th-century tobacco factory, now part of the university. Carmen, the heroine of Bizet’s opera, works here as a cigar-maker."
+  },
+  {
+   "id": "hospital-de-la-caridad",
+   "name": "Hospital de la Caridad",
+   "type": "building",
+   "places": [
+    "Hospital de la Caridad"
+   ],
+   "description": "A 17th-century almshouse near the river, still caring for the elderly, with a baroque church full of paintings by Murillo and Valdés Leal."
+  }
+ ],
+ "Stockholm": [
+  {
+   "id": "vasa-museum",
+   "name": "Vasa Museum",
+   "type": "museum",
+   "places": [
+    "Vasa Museum"
+   ],
+   "description": "A museum built around the Vasa, a 17th-century warship that sank on its maiden voyage in 1628 and was raised almost intact in 1961."
+  },
+  {
+   "id": "stortorget",
+   "name": "Stortorget",
+   "type": "landmark",
+   "places": [
+    "Stortorget square, Gamla stan"
+   ],
+   "description": "The old town’s main square, ringed by tall merchants’ houses in red and ochre. In 1520 it was the scene of the Stockholm Bloodbath."
+  },
+  {
+   "id": "sergels-torg",
+   "name": "Sergels torg",
+   "type": "landmark",
+   "places": [
+    "Sergels torg square"
+   ],
+   "description": "The city’s central sunken plaza, with black-and-white triangle paving and a glass obelisk, next to the Kulturhuset arts centre."
+  },
+  {
+   "id": "palme-murder-site",
+   "name": "Olof Palme murder site",
+   "type": "landmark",
+   "places": [
+    "Olof Palme murder site, Sveavägen"
+   ],
+   "description": "The spot on Sveavägen where Prime Minister Olof Palme was shot dead in 1986, marked by a plaque in the pavement."
+  },
+  {
+   "id": "norrmalmstorg",
+   "name": "Norrmalmstorg",
+   "type": "landmark",
+   "places": [
+    "Norrmalmstorg square"
+   ],
+   "description": "A city-centre square where a 1973 bank robbery and hostage siege gave the world the term “Stockholm syndrome”."
+  },
+  {
+   "id": "drottningholm",
+   "name": "Drottningholm Palace",
+   "type": "palace",
+   "places": [
+    "Drottningholm Palace"
+   ],
+   "description": "The Swedish royal family’s home, on an island west of the city, with baroque gardens and an 18th-century court theatre still in working order."
+  },
+  {
+   "id": "kungstradgarden",
+   "name": "Kungsträdgården",
+   "type": "landmark",
+   "places": [
+    "Kungsträdgården park"
+   ],
+   "description": "A central park and public square, once the royal kitchen garden, used for outdoor events. Its cherry trees blossom in spring."
+  },
+  {
+   "id": "riksdag",
+   "name": "Parliament House",
+   "type": "building",
+   "places": [
+    "Parliament House (Riksdagshuset)"
+   ],
+   "description": "The home of Sweden’s parliament, the Riksdag, on a small island between the old town and the city centre."
+  },
+  {
+   "id": "raoul-wallenbergs-torg",
+   "name": "Raoul Wallenbergs torg",
+   "type": "landmark",
+   "places": [
+    "Raoul Wallenbergs torg square"
+   ],
+   "description": "A waterside square named after the Swedish diplomat who saved thousands of Hungarian Jews in 1944, with a memorial to him."
+  },
+  {
+   "id": "abba-museum",
+   "name": "ABBA The Museum",
+   "type": "museum",
+   "places": [
+    "ABBA The Museum"
+   ],
+   "description": "A museum on Djurgården about the Swedish pop group, with stage costumes, gold records and rooms where you can sing along."
+  }
+ ],
+ "Venice": [
+  {
+   "id": "st-marks",
+   "name": "St Mark’s Basilica",
+   "type": "church",
+   "places": [
+    "St Mark’s Square",
+    "St Mark’s Basilica",
+    "Tetrarchs sculpture, St Mark’s Basilica",
+    "Horses of St Mark, St Mark’s Basilica"
+   ],
+   "description": "Venice’s great square and the gold-mosaic basilica at its end, home of the bronze horses of St Mark and the Tetrarchs sculpture."
+  },
+  {
+   "id": "doges-palace",
+   "name": "Doge’s Palace",
+   "type": "palace",
+   "places": [
+    "Doge’s Palace",
+    "Doge’s Palace, Piazzetta San Marco",
+    "Doge’s Palace and the Piombi prison cells",
+    "Doge’s Palace, Piombi prison cells",
+    "Hall of the Great Council, Doge’s Palace",
+    "Bridge of Sighs"
+   ],
+   "description": "The Gothic palace that ran the Venetian republic, with the vast Great Council hall, the Piombi prison cells and the Bridge of Sighs."
+  },
+  {
+   "id": "rialto-bridge",
+   "name": "Rialto Bridge",
+   "type": "building",
+   "places": [
+    "Rialto Bridge"
+   ],
+   "description": "The oldest bridge across the Grand Canal, a 16th-century stone arch lined with shops, next to the Rialto market."
+  },
+  {
+   "id": "la-fenice",
+   "name": "La Fenice",
+   "type": "music",
+   "places": [
+    "Teatro La Fenice opera house"
+   ],
+   "description": "Venice’s opera house, burned down and rebuilt more than once, most recently reopening in 2003. You can tour it by day."
+  },
+  {
+   "id": "hotel-des-bains",
+   "name": "Grand Hotel des Bains",
+   "type": "building",
+   "places": [
+    "Grand Hotel des Bains, Lido di Venezia",
+    "Grand Hotel des Bains, Lido"
+   ],
+   "description": "A Belle Époque beach hotel on the Lido, the setting of Thomas Mann’s Death in Venice. It has been closed since 2010."
+  },
+  {
+   "id": "jewish-ghetto",
+   "name": "Jewish Ghetto",
+   "type": "landmark",
+   "places": [
+    "Campo del Ghetto Nuovo, Jewish Ghetto",
+    "Jewish Ghetto, Campo del Ghetto Nuovo",
+    "Campo del Ghetto Nuovo",
+    "Campo del Ghetto Novo"
+   ],
+   "description": "The main square of the Ghetto, set up in 1516 and the origin of the word “ghetto”, with old synagogues and the Jewish Museum."
+  },
+  {
+   "id": "corte-del-milion",
+   "name": "Corte del Milion",
+   "type": "landmark",
+   "places": [
+    "Corte del Milion, Marco Polo’s family home"
+   ],
+   "description": "A small courtyard near the Rialto where Marco Polo’s family lived. Their house later burned down, and a theatre now stands on the site."
+  },
+  {
+   "id": "accademia",
+   "name": "Gallerie dell’Accademia",
+   "type": "museum",
+   "places": [
+    "Gallerie dell’Accademia art museum"
+   ],
+   "description": "The city’s main collection of Venetian painting from the 1300s to the 1700s: Bellini, Giorgione, Titian, Tintoretto and Veronese."
+  },
+  {
+   "id": "scuola-san-rocco",
+   "name": "Scuola Grande di San Rocco",
+   "type": "museum",
+   "places": [
+    "Scuola Grande di San Rocco"
+   ],
+   "description": "A confraternity’s meeting house whose walls and ceilings are covered with more than 50 paintings by Tintoretto."
+  },
+  {
+   "id": "frari",
+   "name": "Frari church",
+   "type": "church",
+   "places": [
+    "Frari church (Santa Maria Gloriosa dei Frari)",
+    "Frari basilica, Monteverdi’s tomb"
+   ],
+   "description": "A huge Gothic friars’ church with Titian’s Assumption over the high altar and the tombs of Titian and the composer Monteverdi."
+  },
+  {
+   "id": "san-barnaba",
+   "name": "San Barnaba",
+   "type": "church",
+   "places": [
+    "San Barnaba church",
+    "Campo San Barnaba"
+   ],
+   "description": "An 18th-century church and the canal-side square in front of it, in Dorsoduro. The church was a library in Indiana Jones and the Last Crusade."
+  },
+  {
+   "id": "pieta",
+   "name": "La Pietà church",
+   "type": "church",
+   "places": [
+    "Pietà church, Riva degli Schiavoni",
+    "La Pietà church, Riva degli Schiavoni"
+   ],
+   "description": "The waterfront church of the orphanage where Vivaldi taught music, rebuilt after his death. It still hosts concerts."
+  },
+  {
+   "id": "scuola-san-marco",
+   "name": "Scuola Grande di San Marco",
+   "type": "building",
+   "places": [
+    "Scuola Grande di San Marco",
+    "Ospedale Civile city hospital, Scuola Grande di San Marco"
+   ],
+   "description": "A Renaissance confraternity building with a marble trompe-l’œil façade, now the entrance to the city hospital and a museum of medical history."
+  },
+  {
+   "id": "naval-museum",
+   "name": "Naval History Museum",
+   "type": "museum",
+   "places": [
+    "Naval History Museum (Museo Storico Navale)",
+    "Museo Storico Navale, naval history museum"
+   ],
+   "description": "A museum near the Arsenal on Venice’s life at sea, with ship models, weapons and a model of the doge’s ceremonial barge."
+  },
+  {
+   "id": "arsenale-gate",
+   "name": "Arsenal gate",
+   "type": "building",
+   "places": [
+    "Arsenale shipyard gate (Porta Magna)",
+    "Porta Magna, Venetian Arsenal"
+   ],
+   "description": "The Renaissance land gate of the Arsenal, the vast state shipyard that built Venice’s fleet, guarded by stone lions brought from Greece."
+  },
+  {
+   "id": "torcello-cathedral",
+   "name": "Torcello Cathedral",
+   "type": "church",
+   "places": [
+    "Torcello Cathedral, Santa Maria Assunta",
+    "Santa Maria Assunta cathedral, Torcello"
+   ],
+   "description": "A cathedral founded in 639 on a now nearly empty island in the northern lagoon, with Byzantine mosaics including a huge Last Judgement."
+  }
+ ],
+ "Zurich": [
+  {
+   "id": "paradeplatz",
+   "name": "Paradeplatz",
+   "type": "landmark",
+   "places": [
+    "Paradeplatz"
+   ],
+   "description": "A square on Bahnhofstrasse lined with the head offices of Swiss banks, plus the Sprüngli café and chocolate shop."
+  },
+  {
+   "id": "cabaret-voltaire",
+   "name": "Cabaret Voltaire",
+   "type": "landmark",
+   "places": [
+    "Cabaret Voltaire"
+   ],
+   "description": "The small old-town venue where the Dada art movement started in 1916, now an arts space and bar with exhibitions and events."
+  },
+  {
+   "id": "kunsthaus",
+   "name": "Kunsthaus Zürich",
+   "type": "museum",
+   "places": [
+    "Kunsthaus Zürich art museum"
+   ],
+   "description": "Zurich’s main art museum, with Swiss and European painting and sculpture and a large collection of work by Alberto Giacometti."
+  },
+  {
+   "id": "grossmunster",
+   "name": "Grossmünster",
+   "type": "church",
+   "places": [
+    "Grossmünster church"
+   ],
+   "description": "A twin-towered Romanesque church by the river, where Zwingli launched the Swiss Reformation in the 1520s. You can climb one of the towers."
+  },
+  {
+   "id": "burkliplatz",
+   "name": "Bürkliplatz",
+   "type": "landmark",
+   "places": [
+    "Bürkliplatz lakefront"
+   ],
+   "description": "A square on the lake at the end of Bahnhofstrasse, where the lake boats leave and a flea market runs on Saturdays in summer."
+  },
+  {
+   "id": "sechselautenplatz",
+   "name": "Sechseläutenplatz",
+   "type": "landmark",
+   "places": [
+    "Sechseläutenplatz square"
+   ],
+   "description": "A big open square between the opera house and the lake, where a snowman effigy is burned at the Sechseläuten spring festival."
+  },
+  {
+   "id": "rote-fabrik",
+   "name": "Rote Fabrik",
+   "type": "music",
+   "places": [
+    "Rote Fabrik culture centre"
+   ],
+   "description": "A former silk mill on the lakeshore, turned into an alternative arts centre after 1980s protests, with concerts, theatre and a restaurant."
+  }
+ ]
 }
