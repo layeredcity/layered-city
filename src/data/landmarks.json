@@ -1887,7 +1887,8 @@
     "Gulbenkian Museum"
    ],
    "description": "An art museum in a modernist building and garden, with one man’s collection running from ancient Egypt to art nouveau jewellery.",
-   "photoSearch": true
+   "photoSearch": true,
+   "noPhoto": true
   }
  ],
  "London": [
@@ -2637,7 +2638,8 @@
     "MUNCH museum"
    ],
    "description": "A tall museum on the harbour front devoted to Edvard Munch, with thousands of his paintings, prints and drawings.",
-   "photoSearch": true
+   "photoSearch": true,
+   "noPhoto": true
   },
   {
    "id": "fram-museum",
@@ -2683,7 +2685,8 @@
     "Former Helvete record shop, Schweigaards gate"
    ],
    "description": "A former record shop near the central station that was the meeting place of Norway’s early-1990s black metal scene.",
-   "photoSearch": true
+   "photoSearch": true,
+   "noPhoto": true
   },
   {
    "id": "viking-age-museum",
@@ -2693,7 +2696,8 @@
     "Museum of the Viking Age (Viking Ship Museum)"
    ],
    "description": "The museum on Bygdøy built for three Viking ships found in burial mounds, being rebuilt and enlarged as the Museum of the Viking Age.",
-   "photoSearch": true
+   "photoSearch": true,
+   "noPhoto": true
   },
   {
    "id": "national-museum",
