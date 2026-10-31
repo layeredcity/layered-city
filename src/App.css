@@ -812,8 +812,6 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
 .landmark-hero__credit:hover { text-decoration: underline; }
 .story-modal--landmark-photo .story-modal__close { z-index: 2; color: #fff; filter: drop-shadow(0 1px 3px rgba(0,0,0,0.5)); }
 @media (max-width: 768px) {
-  .panel-story__content--landmark .landmark-hero { height: 300px; margin: calc(-58px - env(safe-area-inset-top)) -20px 0; border-radius: 0; }
-  html.is-standalone .panel-story__content--landmark .landmark-hero { margin-top: calc(-88px - env(safe-area-inset-top)); }
   .panel-story__content--landmark .landmark-hero__text { padding-top: calc(48px + env(safe-area-inset-top)); }
   .panel-story__content--landmark .landmark-hero__name { font-size: 42px; }
   .panel-story__content--landmark .landmark-hero__count { font-size: 14px; }
