@@ -1,0 +1,87 @@
+[
+  {
+    "id": "main-market-square",
+    "name": "Main Market Square",
+    "type": "landmark",
+    "places": [
+      "Main Market Square (Rynek Główny)",
+      "Cloth Hall (Sukiennice)",
+      "Rynek Underground museum",
+      "Adam Mickiewicz Monument, Main Market Square"
+    ],
+    "description": "The huge medieval square at the heart of the old town, with the Cloth Hall in the middle and a museum of the city’s past underneath."
+  },
+  {
+    "id": "st-marys-basilica",
+    "name": "St Mary’s Basilica",
+    "type": "church",
+    "places": [
+      "St Mary’s Basilica"
+    ],
+    "description": "The brick Gothic church on the Main Market Square, with a carved wooden altarpiece and a trumpet call played from its tower every hour."
+  },
+  {
+    "id": "nowa-huta-central-square",
+    "name": "Central Square, Nowa Huta",
+    "type": "landmark",
+    "places": [
+      "Central Square (Plac Centralny), Nowa Huta"
+    ],
+    "description": "The main square of Nowa Huta, the socialist-realist steel town built in the 1950s on the city’s eastern edge."
+  },
+  {
+    "id": "schindler-factory",
+    "name": "Oskar Schindler’s Enamel Factory",
+    "type": "museum",
+    "places": [
+      "Oskar Schindler’s Enamel Factory museum"
+    ],
+    "description": "Oskar Schindler’s former factory, now a museum about life in Kraków under Nazi occupation from 1939 to 1945."
+  },
+  {
+    "id": "piwnica-pod-baranami",
+    "name": "Piwnica pod Baranami",
+    "type": "music",
+    "places": [
+      "Piwnica pod Baranami cabaret"
+    ],
+    "description": "A cellar cabaret under a palace on the Main Market Square, running since 1956, with cabaret and jazz evenings."
+  },
+  {
+    "id": "czartoryski-museum",
+    "name": "Czartoryski Museum",
+    "type": "museum",
+    "places": [
+      "Czartoryski Museum"
+    ],
+    "description": "A museum of art and historical objects collected by the Czartoryski family, including Leonardo da Vinci’s Lady with an Ermine."
+  },
+  {
+    "id": "plaszow",
+    "name": "Płaszów camp memorial",
+    "type": "landmark",
+    "places": [
+      "Former Płaszów camp memorial site"
+    ],
+    "description": "The site of the Nazi labour and concentration camp at Płaszów, now an open hillside with memorials to those who were held and killed there."
+  },
+  {
+    "id": "wieliczka",
+    "name": "Wieliczka Salt Mine",
+    "type": "landmark",
+    "places": [
+      "Wieliczka Salt Mine, Wieliczka"
+    ],
+    "description": "A salt mine worked for about 700 years just outside Kraków, with chambers, chapels and statues carved from rock salt deep underground."
+  },
+  {
+    "id": "wawel-cathedral",
+    "name": "Wawel Cathedral",
+    "type": "church",
+    "places": [
+      "Wawel Cathedral",
+      "Sigismund Tower, Wawel Cathedral"
+    ],
+    "description": "The royal cathedral on Wawel Hill, where Polish kings were crowned and buried. The great Sigismund Bell hangs in its tower."
+  }
+]

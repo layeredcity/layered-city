@@ -1,0 +1,165 @@
+[
+  {
+    "id": "st-marks",
+    "name": "St Mark’s Basilica",
+    "type": "church",
+    "places": [
+      "St Mark’s Square",
+      "St Mark’s Basilica",
+      "Tetrarchs sculpture, St Mark’s Basilica",
+      "Horses of St Mark, St Mark’s Basilica"
+    ],
+    "description": "Venice’s great square and the gold-mosaic basilica at its end, home of the bronze horses of St Mark and the Tetrarchs sculpture."
+  },
+  {
+    "id": "doges-palace",
+    "name": "Doge’s Palace",
+    "type": "palace",
+    "places": [
+      "Doge’s Palace",
+      "Doge’s Palace, Piazzetta San Marco",
+      "Doge’s Palace and the Piombi prison cells",
+      "Doge’s Palace, Piombi prison cells",
+      "Hall of the Great Council, Doge’s Palace",
+      "Bridge of Sighs"
+    ],
+    "description": "The Gothic palace that ran the Venetian republic, with the vast Great Council hall, the Piombi prison cells and the Bridge of Sighs."
+  },
+  {
+    "id": "rialto-bridge",
+    "name": "Rialto Bridge",
+    "type": "building",
+    "places": [
+      "Rialto Bridge"
+    ],
+    "description": "The oldest bridge across the Grand Canal, a 16th-century stone arch lined with shops, next to the Rialto market."
+  },
+  {
+    "id": "la-fenice",
+    "name": "La Fenice",
+    "type": "music",
+    "places": [
+      "Teatro La Fenice opera house"
+    ],
+    "description": "Venice’s opera house, burned down and rebuilt more than once, most recently reopening in 2003. You can tour it by day."
+  },
+  {
+    "id": "hotel-des-bains",
+    "name": "Grand Hotel des Bains",
+    "type": "building",
+    "places": [
+      "Grand Hotel des Bains, Lido di Venezia",
+      "Grand Hotel des Bains, Lido"
+    ],
+    "description": "A Belle Époque beach hotel on the Lido, the setting of Thomas Mann’s Death in Venice. It has been closed since 2010."
+  },
+  {
+    "id": "jewish-ghetto",
+    "name": "Jewish Ghetto",
+    "type": "landmark",
+    "places": [
+      "Campo del Ghetto Nuovo, Jewish Ghetto",
+      "Jewish Ghetto, Campo del Ghetto Nuovo",
+      "Campo del Ghetto Nuovo",
+      "Campo del Ghetto Novo"
+    ],
+    "description": "The main square of the Ghetto, set up in 1516 and the origin of the word “ghetto”, with old synagogues and the Jewish Museum."
+  },
+  {
+    "id": "corte-del-milion",
+    "name": "Corte del Milion",
+    "type": "landmark",
+    "places": [
+      "Corte del Milion, Marco Polo’s family home"
+    ],
+    "description": "A small courtyard near the Rialto where Marco Polo’s family lived. Their house later burned down, and a theatre now stands on the site."
+  },
+  {
+    "id": "accademia",
+    "name": "Gallerie dell’Accademia",
+    "type": "museum",
+    "places": [
+      "Gallerie dell’Accademia art museum"
+    ],
+    "description": "The city’s main collection of Venetian painting from the 1300s to the 1700s: Bellini, Giorgione, Titian, Tintoretto and Veronese."
+  },
+  {
+    "id": "scuola-san-rocco",
+    "name": "Scuola Grande di San Rocco",
+    "type": "museum",
+    "places": [
+      "Scuola Grande di San Rocco"
+    ],
+    "description": "A confraternity’s meeting house whose walls and ceilings are covered with more than 50 paintings by Tintoretto."
+  },
+  {
+    "id": "frari",
+    "name": "Frari church",
+    "type": "church",
+    "places": [
+      "Frari church (Santa Maria Gloriosa dei Frari)",
+      "Frari basilica, Monteverdi’s tomb"
+    ],
+    "description": "A huge Gothic friars’ church with Titian’s Assumption over the high altar and the tombs of Titian and the composer Monteverdi."
+  },
+  {
+    "id": "san-barnaba",
+    "name": "San Barnaba",
+    "type": "church",
+    "places": [
+      "San Barnaba church",
+      "Campo San Barnaba"
+    ],
+    "description": "An 18th-century church and the canal-side square in front of it, in Dorsoduro. The church was a library in Indiana Jones and the Last Crusade."
+  },
+  {
+    "id": "pieta",
+    "name": "La Pietà church",
+    "type": "church",
+    "places": [
+      "Pietà church, Riva degli Schiavoni",
+      "La Pietà church, Riva degli Schiavoni"
+    ],
+    "description": "The waterfront church of the orphanage where Vivaldi taught music, rebuilt after his death. It still hosts concerts."
+  },
+  {
+    "id": "scuola-san-marco",
+    "name": "Scuola Grande di San Marco",
+    "type": "building",
+    "places": [
+      "Scuola Grande di San Marco",
+      "Ospedale Civile city hospital, Scuola Grande di San Marco"
+    ],
+    "description": "A Renaissance confraternity building with a marble trompe-l’œil façade, now the entrance to the city hospital and a museum of medical history."
+  },
+  {
+    "id": "naval-museum",
+    "name": "Naval History Museum",
+    "type": "museum",
+    "places": [
+      "Naval History Museum (Museo Storico Navale)",
+      "Museo Storico Navale, naval history museum"
+    ],
+    "description": "A museum near the Arsenal on Venice’s life at sea, with ship models, weapons and a model of the doge’s ceremonial barge."
+  },
+  {
+    "id": "arsenale-gate",
+    "name": "Arsenal gate",
+    "type": "building",
+    "places": [
+      "Arsenale shipyard gate (Porta Magna)",
+      "Porta Magna, Venetian Arsenal"
+    ],
+    "description": "The Renaissance land gate of the Arsenal, the vast state shipyard that built Venice’s fleet, guarded by stone lions brought from Greece."
+  },
+  {
+    "id": "torcello-cathedral",
+    "name": "Torcello Cathedral",
+    "type": "church",
+    "places": [
+      "Torcello Cathedral, Santa Maria Assunta",
+      "Santa Maria Assunta cathedral, Torcello"
+    ],
+    "description": "A cathedral founded in 639 on a now nearly empty island in the northern lagoon, with Byzantine mosaics including a huge Last Judgement."
+  }
+]

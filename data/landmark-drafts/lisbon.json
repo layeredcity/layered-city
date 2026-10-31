@@ -1,0 +1,159 @@
+[
+  {
+    "id": "largo-do-carmo",
+    "name": "Largo do Carmo",
+    "type": "landmark",
+    "places": [
+      "Largo do Carmo square",
+      "Carmo Convent ruins"
+    ],
+    "description": "A small square in Chiado beside the roofless ruins of the Carmo Convent, wrecked in the 1755 earthquake. The 1974 revolution ended here."
+  },
+  {
+    "id": "praca-do-comercio",
+    "name": "Praça do Comércio",
+    "type": "landmark",
+    "places": [
+      "Praça do Comércio (Commerce Square)",
+      "Rua Augusta Arch"
+    ],
+    "description": "The big riverside square rebuilt after the 1755 earthquake, with yellow arcades on three sides and a triumphal arch leading into the Baixa."
+  },
+  {
+    "id": "restauradores",
+    "name": "Praça dos Restauradores",
+    "type": "landmark",
+    "places": [
+      "Praça dos Restauradores"
+    ],
+    "description": "A square with an obelisk marking Portugal’s 1640 break from Spanish rule, at the foot of the Avenida da Liberdade."
+  },
+  {
+    "id": "sao-jorge-castle",
+    "name": "São Jorge Castle",
+    "type": "palace",
+    "places": [
+      "São Jorge Castle (Castelo de São Jorge)"
+    ],
+    "description": "The hilltop castle above Alfama, with walls and towers to walk and views over the city and the river."
+  },
+  {
+    "id": "rossio",
+    "name": "Rossio",
+    "type": "landmark",
+    "places": [
+      "Rossio square"
+    ],
+    "description": "The old town’s main square, with wave-patterned paving, two fountains and the national theatre on its north side."
+  },
+  {
+    "id": "sao-domingos",
+    "name": "São Domingos Church",
+    "type": "church",
+    "places": [
+      "São Domingos Church",
+      "Largo de São Domingos (1506 massacre memorial)"
+    ],
+    "description": "A church left scarred by a 1959 fire, and the small square beside it with a memorial to the Jews killed in the 1506 massacre."
+  },
+  {
+    "id": "praca-camoes",
+    "name": "Praça Luís de Camões",
+    "type": "landmark",
+    "places": [
+      "Praça Luís de Camões"
+    ],
+    "description": "A square between Chiado and Bairro Alto, with a statue of the poet Luís de Camões in the middle."
+  },
+  {
+    "id": "fado-museum",
+    "name": "Fado Museum",
+    "type": "museum",
+    "places": [
+      "Fado Museum (Museu do Fado)"
+    ],
+    "description": "A museum of fado, Lisbon’s song of longing, at the edge of Alfama, with guitars, recordings and portraits of singers."
+  },
+  {
+    "id": "a-brasileira",
+    "name": "A Brasileira",
+    "type": "cafe",
+    "places": [
+      "A Brasileira café, Chiado"
+    ],
+    "description": "A café in Chiado open since 1905, with a dark wood interior and a bronze statue of the poet Fernando Pessoa at a table outside."
+  },
+  {
+    "id": "national-pantheon",
+    "name": "National Pantheon",
+    "type": "church",
+    "places": [
+      "National Pantheon (Santa Engrácia Church)"
+    ],
+    "description": "A domed baroque church that took nearly 300 years to finish, now the resting place of national figures, including the fado singer Amália Rodrigues."
+  },
+  {
+    "id": "santa-luzia",
+    "name": "Santa Luzia viewpoint",
+    "type": "landmark",
+    "places": [
+      "Santa Luzia viewpoint"
+    ],
+    "description": "A terrace beside a small church in Alfama, with tiled panels on the walls and a view over the rooftops to the river."
+  },
+  {
+    "id": "25-de-abril-bridge",
+    "name": "25 de Abril Bridge",
+    "type": "building",
+    "places": [
+      "25 de Abril Bridge"
+    ],
+    "description": "The red suspension bridge over the Tagus, opened in 1966 and renamed after the 1974 revolution."
+  },
+  {
+    "id": "mercado-da-ribeira",
+    "name": "Mercado da Ribeira",
+    "type": "landmark",
+    "places": [
+      "Mercado da Ribeira (Time Out Market)",
+      "Pap’Açorda restaurant, Mercado da Ribeira"
+    ],
+    "description": "The city’s old riverside market hall, with fresh produce stalls on one side and a big food hall of restaurant counters on the other."
+  },
+  {
+    "id": "jeronimos",
+    "name": "Jerónimos Monastery",
+    "type": "church",
+    "places": [
+      "Jerónimos Monastery"
+    ],
+    "description": "A huge 16th-century monastery in Belém, carved in the ornate Manueline style, with the tomb of Vasco da Gama."
+  },
+  {
+    "id": "discoveries-monument",
+    "name": "Monument to the Discoveries",
+    "type": "landmark",
+    "places": [
+      "Monument to the Discoveries"
+    ],
+    "description": "A 52-metre monument on the Belém riverfront, shaped like a ship’s prow, lined with figures from Portugal’s age of exploration."
+  },
+  {
+    "id": "maritime-museum",
+    "name": "Maritime Museum",
+    "type": "museum",
+    "places": [
+      "Maritime Museum (Museu de Marinha)"
+    ],
+    "description": "A museum of Portuguese seafaring in a wing of the Jerónimos Monastery, with model ships, maps, instruments and royal barges."
+  },
+  {
+    "id": "gulbenkian",
+    "name": "Gulbenkian Museum",
+    "type": "museum",
+    "places": [
+      "Gulbenkian Museum"
+    ],
+    "description": "An art museum in a modernist building and garden, with one man’s collection running from ancient Egypt to art nouveau jewellery."
+  }
+]

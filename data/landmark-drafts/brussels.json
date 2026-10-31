@@ -1,0 +1,66 @@
+[
+  {
+    "id": "grand-place",
+    "name": "Grand-Place",
+    "type": "landmark",
+    "places": [
+      "Grand-Place"
+    ],
+    "description": "The city’s central square, surrounded by ornate guild houses and the Gothic town hall."
+  },
+  {
+    "id": "comic-strip-center",
+    "name": "Belgian Comic Strip Center",
+    "type": "museum",
+    "places": [
+      "Belgian Comic Strip Center"
+    ],
+    "description": "A museum of Belgian comics, from Tintin onwards, in an art nouveau former textile warehouse designed by Victor Horta."
+  },
+  {
+    "id": "atomium",
+    "name": "Atomium",
+    "type": "building",
+    "places": [
+      "Atomium"
+    ],
+    "description": "A 102-metre steel model of an iron crystal, built for the 1958 World’s Fair, with exhibitions and a view from the top sphere."
+  },
+  {
+    "id": "coudenberg",
+    "name": "Coudenberg Palace",
+    "type": "palace",
+    "places": [
+      "Coudenberg Palace remains, Place Royale"
+    ],
+    "description": "The underground remains of the old palace of the dukes of Brabant, which burned down in 1731, beneath Place Royale."
+  },
+  {
+    "id": "bourse",
+    "name": "Bourse",
+    "type": "building",
+    "places": [
+      "Bourse (former stock exchange)"
+    ],
+    "description": "The 19th-century former stock exchange in the centre, now home to a museum of Belgian beer."
+  },
+  {
+    "id": "tir-national",
+    "name": "Tir National memorial",
+    "type": "landmark",
+    "places": [
+      "Tir National memorial (Edith Cavell execution site)"
+    ],
+    "description": "A memorial ground on the site of the old national rifle range, where German forces shot Edith Cavell and resistance members in both world wars."
+  },
+  {
+    "id": "fine-arts-museums",
+    "name": "Royal Museums of Fine Arts",
+    "type": "museum",
+    "places": [
+      "Royal Museums of Fine Arts of Belgium",
+      "Magritte Museum"
+    ],
+    "description": "Belgium’s main art museums, from Flemish old masters to the Magritte Museum, in connected buildings near Place Royale."
+  }
+]

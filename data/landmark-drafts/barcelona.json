@@ -1,0 +1,103 @@
+[
+  {
+    "id": "sagrada-familia",
+    "name": "Sagrada Família",
+    "type": "church",
+    "places": [
+      "Sagrada Família basilica"
+    ],
+    "description": "Gaudí’s vast basilica, under construction since 1882, with tree-like columns inside and stained glass that fills it with colour."
+  },
+  {
+    "id": "placa-de-catalunya",
+    "name": "Plaça de Catalunya",
+    "type": "landmark",
+    "places": [
+      "Plaça de Catalunya"
+    ],
+    "description": "The big square at the top of La Rambla, where the old city meets the 19th-century Eixample grid."
+  },
+  {
+    "id": "placa-sant-jaume",
+    "name": "Plaça de Sant Jaume",
+    "type": "landmark",
+    "places": [
+      "Plaça de Sant Jaume"
+    ],
+    "description": "The square at the heart of the Gothic Quarter, where the Catalan government palace and the city hall face each other."
+  },
+  {
+    "id": "camp-nou",
+    "name": "Camp Nou",
+    "type": "building",
+    "places": [
+      "Camp Nou stadium"
+    ],
+    "description": "FC Barcelona’s home stadium since 1957 and the largest in Europe. It is being rebuilt in stages."
+  },
+  {
+    "id": "palau-de-la-musica",
+    "name": "Palau de la Música Catalana",
+    "type": "music",
+    "places": [
+      "Palau de la Música Catalana concert hall"
+    ],
+    "description": "A modernista concert hall from 1908, covered in mosaics, with a stained-glass skylight over the auditorium."
+  },
+  {
+    "id": "mnac",
+    "name": "National Art Museum of Catalonia",
+    "type": "museum",
+    "places": [
+      "National Art Museum of Catalonia (MNAC)"
+    ],
+    "description": "Catalonia’s national art museum, in a palace on Montjuïc built for the 1929 exhibition, known for its Romanesque church murals."
+  },
+  {
+    "id": "telefonica-building",
+    "name": "Telefónica building",
+    "type": "building",
+    "places": [
+      "Telefónica building, Plaça de Catalunya"
+    ],
+    "description": "The telephone exchange on Plaça de Catalunya that was fought over in the street battles of May 1937, during the Spanish Civil War."
+  },
+  {
+    "id": "estadi-olimpic",
+    "name": "Olympic Stadium",
+    "type": "building",
+    "places": [
+      "Olympic Stadium (Estadi Olímpic Lluís Companys)"
+    ],
+    "description": "The stadium on Montjuïc built for the 1929 exhibition and rebuilt as the main stadium of the 1992 Olympics."
+  },
+  {
+    "id": "la-model",
+    "name": "La Model prison",
+    "type": "building",
+    "places": [
+      "La Model prison memorial"
+    ],
+    "description": "A prison built in 1904 in the Eixample, used to hold political prisoners under Franco. It closed in 2017 and is now open to visitors."
+  },
+  {
+    "id": "park-guell",
+    "name": "Park Güell",
+    "type": "landmark",
+    "places": [
+      "Park Güell",
+      "Park Güell main entrance"
+    ],
+    "description": "Gaudí’s hillside park, with mosaic benches, gingerbread-like gatehouses and views over the city."
+  },
+  {
+    "id": "santa-maria-del-mar",
+    "name": "Santa Maria del Mar",
+    "type": "church",
+    "places": [
+      "Santa Maria del Mar basilica",
+      "Fossar de les Moreres memorial"
+    ],
+    "description": "A 14th-century Gothic church in El Born. The memorial square beside it marks the graves of those killed in the 1714 siege."
+  }
+]

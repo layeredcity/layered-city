@@ -1,0 +1,67 @@
+[
+  {
+    "id": "senate-square",
+    "name": "Senate Square",
+    "type": "landmark",
+    "places": [
+      "Senate Square",
+      "Helsinki Cathedral"
+    ],
+    "description": "The city’s main neoclassical square, with the white, green-domed Helsinki Cathedral at the top of its wide steps."
+  },
+  {
+    "id": "olympic-stadium",
+    "name": "Olympic Stadium",
+    "type": "building",
+    "places": [
+      "Olympic Stadium"
+    ],
+    "description": "A white functionalist stadium built for the 1940 Olympics, which were cancelled; the Games came in 1952. Its tall tower has views over the city."
+  },
+  {
+    "id": "oodi",
+    "name": "Oodi Central Library",
+    "type": "building",
+    "places": [
+      "Oodi Central Library"
+    ],
+    "description": "A free public library opened in 2018 opposite Parliament, with a curved timber front, workshops with 3D printers and a big reading floor upstairs."
+  },
+  {
+    "id": "finlandia-hall",
+    "name": "Finlandia Hall",
+    "type": "music",
+    "places": [
+      "Finlandia Hall"
+    ],
+    "description": "A white marble concert and congress hall designed by Alvar Aalto, completed in 1971, on the shore of Töölö Bay."
+  },
+  {
+    "id": "sibelius-monument",
+    "name": "Sibelius Monument",
+    "type": "landmark",
+    "places": [
+      "Sibelius Monument, Sibelius Park"
+    ],
+    "description": "An abstract sculpture of hundreds of welded steel pipes, made in honour of the composer Jean Sibelius, in a small park by the sea."
+  },
+  {
+    "id": "suomenlinna",
+    "name": "Suomenlinna",
+    "type": "landmark",
+    "places": [
+      "Suomenlinna sea fortress"
+    ],
+    "description": "An 18th-century sea fortress spread over a group of islands, a short ferry ride from the centre, with walls, tunnels, museums and cafés."
+  },
+  {
+    "id": "hakaniemi-market",
+    "name": "Hakaniemi Market",
+    "type": "landmark",
+    "places": [
+      "Hakaniemi Market Square",
+      "Hakaniemi Market Hall"
+    ],
+    "description": "An open-air market square and its red-brick market hall from 1914, with stalls selling fish, meat, bread and Finnish food."
+  }
+]

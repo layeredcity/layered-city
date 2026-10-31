@@ -1,0 +1,242 @@
+[
+  {
+    "id": "national-gallery",
+    "name": "National Gallery",
+    "type": "museum",
+    "places": [
+      "National Gallery"
+    ],
+    "description": "The national collection of European painting from the 1200s to 1900, on the north side of Trafalgar Square. Entry is free."
+  },
+  {
+    "id": "trafalgar-square",
+    "name": "Trafalgar Square",
+    "type": "landmark",
+    "places": [
+      "Trafalgar Square",
+      "Imperial measures plaques, Trafalgar Square",
+      "Charles I statue, Trafalgar Square"
+    ],
+    "description": "The big public square with Nelson’s Column, fountains and bronze lions, and the old official measures of length set into its steps."
+  },
+  {
+    "id": "british-museum",
+    "name": "British Museum",
+    "type": "museum",
+    "places": [
+      "British Museum"
+    ],
+    "description": "A huge free museum of world history and culture in Bloomsbury, with the Rosetta Stone, Egyptian mummies and the Parthenon sculptures."
+  },
+  {
+    "id": "tate-britain",
+    "name": "Tate Britain",
+    "type": "museum",
+    "places": [
+      "Tate Britain gallery"
+    ],
+    "description": "The national gallery of British art from 1500 to today, on the river at Millbank, with a large collection of Turner. Entry is free."
+  },
+  {
+    "id": "courtauld",
+    "name": "Courtauld Gallery",
+    "type": "museum",
+    "places": [
+      "Courtauld Gallery, Somerset House"
+    ],
+    "description": "A small gallery in Somerset House with a fine collection of Impressionist and Post-Impressionist paintings, plus Old Masters."
+  },
+  {
+    "id": "monument",
+    "name": "Monument to the Great Fire",
+    "type": "landmark",
+    "places": [
+      "Monument to the Great Fire of London"
+    ],
+    "description": "A stone column near where the Great Fire of 1666 began. You can climb its 311 steps to a viewing platform."
+  },
+  {
+    "id": "palace-of-westminster",
+    "name": "Palace of Westminster",
+    "type": "palace",
+    "places": [
+      "Palace of Westminster (Houses of Parliament)"
+    ],
+    "description": "The riverside home of the Houses of Parliament, rebuilt in Gothic style after a fire in 1834, with the clock tower that holds Big Ben."
+  },
+  {
+    "id": "parliament-square",
+    "name": "Parliament Square",
+    "type": "landmark",
+    "places": [
+      "Parliament Square"
+    ],
+    "description": "A green square between Parliament and Westminster Abbey, ringed with statues of statesmen and a frequent site of protests."
+  },
+  {
+    "id": "st-pauls",
+    "name": "St Paul’s Cathedral",
+    "type": "church",
+    "places": [
+      "St Paul’s Cathedral"
+    ],
+    "description": "The domed cathedral rebuilt after the Great Fire of 1666, with galleries up in the dome and crypts below."
+  },
+  {
+    "id": "tate-modern",
+    "name": "Tate Modern",
+    "type": "museum",
+    "places": [
+      "Tate Modern gallery"
+    ],
+    "description": "The national gallery of modern and contemporary art, in a former power station on the South Bank. Entry to the collection is free."
+  },
+  {
+    "id": "tower-of-london",
+    "name": "Tower of London",
+    "type": "palace",
+    "places": [
+      "Tower of London",
+      "Yeoman Warders’ Club, Tower of London"
+    ],
+    "description": "The medieval fortress on the Thames, once a royal palace and prison, now home to the Crown Jewels and the Yeoman Warders."
+  },
+  {
+    "id": "covent-garden-market",
+    "name": "Covent Garden Market",
+    "type": "landmark",
+    "places": [
+      "Covent Garden Market"
+    ],
+    "description": "The old fruit and vegetable market hall in the West End, now shops, stalls and cafés, with street performers in the piazza."
+  },
+  {
+    "id": "john-snow-pump",
+    "name": "John Snow pump",
+    "type": "landmark",
+    "places": [
+      "John Snow pump, Broadwick Street"
+    ],
+    "description": "A replica water pump in Soho marking where, in 1854, a doctor traced a cholera outbreak to a contaminated well."
+  },
+  {
+    "id": "430-kings-road",
+    "name": "430 King’s Road",
+    "type": "building",
+    "places": [
+      "430 King’s Road (McLaren and Westwood’s shop)"
+    ],
+    "description": "The Chelsea shop where Malcolm McLaren and Vivienne Westwood sold clothes in the 1970s, at the centre of the early punk scene."
+  },
+  {
+    "id": "gays-the-word",
+    "name": "Gay’s the Word",
+    "type": "landmark",
+    "places": [
+      "Gay’s the Word bookshop"
+    ],
+    "description": "Britain’s oldest LGBT bookshop, open in Bloomsbury since 1979."
+  },
+  {
+    "id": "shakespeares-globe",
+    "name": "Shakespeare’s Globe",
+    "type": "building",
+    "places": [
+      "Shakespeare’s Globe theatre"
+    ],
+    "description": "A reconstruction of Shakespeare’s open-air playhouse on the South Bank, opened in 1997, where plays are staged much as they were around 1600."
+  },
+  {
+    "id": "roman-wall",
+    "name": "Roman wall at Tower Hill",
+    "type": "landmark",
+    "places": [
+      "Roman wall, Tower Hill"
+    ],
+    "description": "One of the best-surviving stretches of the Roman wall that once enclosed London, beside Tower Hill station."
+  },
+  {
+    "id": "royal-albert-hall",
+    "name": "Royal Albert Hall",
+    "type": "music",
+    "places": [
+      "Royal Albert Hall"
+    ],
+    "description": "The round, domed concert hall in South Kensington, opened in 1871, home every summer to the Proms."
+  },
+  {
+    "id": "buckingham-palace",
+    "name": "Buckingham Palace",
+    "type": "palace",
+    "places": [
+      "Buckingham Palace"
+    ],
+    "description": "The monarch’s London home and office, at the end of the Mall. The state rooms open to visitors in summer."
+  },
+  {
+    "id": "british-library",
+    "name": "British Library",
+    "type": "building",
+    "places": [
+      "British Library"
+    ],
+    "description": "The national library of the UK, in a red-brick building next to St Pancras, with a free gallery of manuscripts such as Magna Carta."
+  },
+  {
+    "id": "beigel-bake",
+    "name": "Beigel Bake",
+    "type": "cafe",
+    "places": [
+      "Beigel Bake bakery, Brick Lane"
+    ],
+    "description": "A bagel bakery on Brick Lane, open 24 hours, known for its salt beef bagels."
+  },
+  {
+    "id": "v-and-a",
+    "name": "Victoria and Albert Museum",
+    "type": "museum",
+    "places": [
+      "Victoria and Albert Museum (V&A)",
+      "Cast Courts, Victoria and Albert Museum"
+    ],
+    "description": "A huge free museum of art and design in South Kensington, including the Cast Courts, halls of plaster copies of famous sculpture and buildings."
+  },
+  {
+    "id": "thames-barrier",
+    "name": "Thames Barrier",
+    "type": "building",
+    "places": [
+      "Thames Barrier"
+    ],
+    "description": "A row of steel flood gates across the Thames at Woolwich, in use since 1982 to protect London from tidal surges."
+  },
+  {
+    "id": "dulwich-picture-gallery",
+    "name": "Dulwich Picture Gallery",
+    "type": "museum",
+    "places": [
+      "Dulwich Picture Gallery"
+    ],
+    "description": "England’s oldest public art gallery, opened in 1817 in south London, with a collection of Old Master paintings."
+  },
+  {
+    "id": "westminster-abbey",
+    "name": "Westminster Abbey",
+    "type": "church",
+    "places": [
+      "Westminster Abbey",
+      "Henry VII Lady Chapel, Westminster Abbey"
+    ],
+    "description": "The Gothic abbey church where English and British monarchs are crowned, and many are buried, including in the fan-vaulted Lady Chapel."
+  },
+  {
+    "id": "london-mithraeum",
+    "name": "London Mithraeum",
+    "type": "museum",
+    "places": [
+      "London Mithraeum (Temple of Mithras), Bloomberg building",
+      "Bloomberg building"
+    ],
+    "description": "The remains of a Roman temple to the god Mithras, shown in the basement of the Bloomberg building in the City. Entry is free."
+  }
+]

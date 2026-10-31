@@ -1,0 +1,20 @@
+[
+  { "id": "hacienda", "name": "The Haçienda (site)", "type": "music", "places": ["Site of the Haçienda club, Whitworth Street West"],
+    "description": "The site of the Haçienda nightclub (1982–97), the centre of the city’s acid house scene. The building that replaced it is flats named after it." },
+  { "id": "free-trade-hall", "name": "Free Trade Hall", "type": "music", "places": ["Free Trade Hall, Peter Street"],
+    "description": "A Victorian hall on the site of the Peterloo Massacre, for a century the city’s main concert hall. It is now a hotel." },
+  { "id": "old-trafford", "name": "Old Trafford", "type": "building", "places": ["Old Trafford stadium"],
+    "description": "Manchester United’s home stadium, just outside the city centre, with a club museum and stadium tours." },
+  { "id": "central-library", "name": "Manchester Central Library", "type": "building", "places": ["Manchester Central Library"],
+    "description": "The city’s main public library, a round domed building from the 1930s on St Peter’s Square, with a large reading room under the dome." },
+  { "id": "chethams-library", "name": "Chetham’s Library", "type": "building", "places": ["Chetham’s Library"],
+    "description": "A public library founded in 1653 in a medieval building near the cathedral, often called the oldest in the English-speaking world." },
+  { "id": "pankhurst-centre", "name": "Pankhurst Centre", "type": "museum", "places": ["Pankhurst Centre, 62 Nelson Street"],
+    "description": "The house where Emmeline Pankhurst founded the Women’s Social and Political Union in 1903, now a small museum and women’s centre." },
+  { "id": "salford-lads-club", "name": "Salford Lads Club", "type": "building", "places": ["Salford Lads Club"],
+    "description": "A youth club opened in 1903 that is still running. Fans of The Smiths come to photograph the doorway seen in the band’s 1986 album artwork." },
+  { "id": "st-peters-square", "name": "St Peter’s Square", "type": "landmark", "places": ["St Peter’s Square (Peterloo Massacre site)"],
+    "description": "A city-centre square on part of the site of the 1819 Peterloo Massacre, when cavalry charged a peaceful crowd calling for the vote." },
+  { "id": "town-hall", "name": "Manchester Town Hall", "type": "building", "places": ["Manchester Town Hall"],
+    "description": "The Victorian Gothic town hall on Albert Square, finished in 1877, with murals of the city’s history in the Great Hall." }
+]

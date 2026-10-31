@@ -1,0 +1,121 @@
+[
+  {
+    "id": "rijksmuseum",
+    "name": "Rijksmuseum",
+    "type": "museum",
+    "places": [
+      "Rijksmuseum"
+    ],
+    "description": "The Netherlands’ national museum, in a grand 1885 building: Rembrandt’s The Night Watch, Vermeer and Dutch Golden Age art."
+  },
+  {
+    "id": "centraal-station",
+    "name": "Amsterdam Centraal",
+    "type": "building",
+    "places": [
+      "Amsterdam Centraal station"
+    ],
+    "description": "The city’s main railway station, a brick palace of a building on the waterfront that opened in 1889."
+  },
+  {
+    "id": "dam-square",
+    "name": "Dam Square",
+    "type": "landmark",
+    "places": [
+      "Dam Square"
+    ],
+    "description": "The city’s main square, with the Royal Palace, the Nieuwe Kerk and the white National Monument to the Second World War."
+  },
+  {
+    "id": "van-gogh-museum",
+    "name": "Van Gogh Museum",
+    "type": "museum",
+    "places": [
+      "Van Gogh Museum"
+    ],
+    "description": "The world’s largest collection of Van Gogh’s paintings, drawings and letters, on Museumplein."
+  },
+  {
+    "id": "oude-kerk",
+    "name": "Oude Kerk",
+    "type": "church",
+    "places": [
+      "Oude Kerk church"
+    ],
+    "description": "Amsterdam’s oldest building, a medieval church in the middle of the red-light district, now also used for contemporary art."
+  },
+  {
+    "id": "waag",
+    "name": "Waag",
+    "type": "building",
+    "places": [
+      "Waag weigh house, Nieuwmarkt"
+    ],
+    "description": "A 15th-century city gate later used as a weigh house, standing in the middle of Nieuwmarkt square. It is now a restaurant."
+  },
+  {
+    "id": "anne-frank-house",
+    "name": "Anne Frank House",
+    "type": "museum",
+    "places": [
+      "Anne Frank House"
+    ],
+    "description": "The canal house where Anne Frank and her family hid from the Nazis for two years. The secret annexe is now a museum."
+  },
+  {
+    "id": "bloemenmarkt",
+    "name": "Flower Market",
+    "type": "landmark",
+    "places": [
+      "Bloemenmarkt flower market"
+    ],
+    "description": "A flower market on a row of floating stalls along the Singel canal, selling bulbs, plants and cut flowers."
+  },
+  {
+    "id": "oost-indisch-huis",
+    "name": "East India House",
+    "type": "building",
+    "places": [
+      "Oost-Indisch Huis (former VOC headquarters)"
+    ],
+    "description": "The 17th-century headquarters of the Dutch East India Company (VOC), now part of the University of Amsterdam."
+  },
+  {
+    "id": "vondelpark",
+    "name": "Vondelpark",
+    "type": "landmark",
+    "places": [
+      "Vondelpark",
+      "Vondelpark main entrance, Stadhouderskade"
+    ],
+    "description": "The city’s best-known park, opened in 1865 just south of the centre, with ponds, lawns and cycle paths."
+  },
+  {
+    "id": "resistance-museum",
+    "name": "Dutch Resistance Museum",
+    "type": "museum",
+    "places": [
+      "Dutch Resistance Museum"
+    ],
+    "description": "A museum about the Dutch Resistance and daily life in Amsterdam under German occupation in the Second World War."
+  },
+  {
+    "id": "leidseplein",
+    "name": "Leidseplein",
+    "type": "landmark",
+    "places": [
+      "Leidseplein"
+    ],
+    "description": "A busy square on the edge of the canal ring, lined with theatres, bars and music venues."
+  },
+  {
+    "id": "de-hallen",
+    "name": "De Hallen",
+    "type": "building",
+    "places": [
+      "Foodhallen food hall, De Hallen",
+      "Denim City, De Hallen"
+    ],
+    "description": "A former tram depot from the early 1900s, converted into a food hall, a cinema and denim workshops."
+  }
+]

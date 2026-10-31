@@ -1,0 +1,101 @@
+[
+  {
+    "id": "hagia-sophia",
+    "name": "Hagia Sophia",
+    "type": "church",
+    "places": [
+      "Hagia Sophia"
+    ],
+    "description": "Built as a cathedral in 537, it became a mosque in 1453, a museum in 1934 and a mosque again in 2020. Its huge dome still dominates the old city."
+  },
+  {
+    "id": "topkapi-palace",
+    "name": "Topkapı Palace",
+    "type": "palace",
+    "places": [
+      "Topkapı Palace"
+    ],
+    "description": "The Ottoman sultans’ palace for nearly 400 years: a series of courtyards, the harem, the treasury and views over the Bosphorus."
+  },
+  {
+    "id": "hippodrome",
+    "name": "Hippodrome",
+    "type": "landmark",
+    "places": [
+      "Hippodrome (Sultanahmet Square)"
+    ],
+    "description": "The long square on the site of the ancient chariot-racing track, with an Egyptian obelisk and other monuments along its middle."
+  },
+  {
+    "id": "suleymaniye",
+    "name": "Süleymaniye Mosque",
+    "type": "church",
+    "places": [
+      "Süleymaniye Mosque"
+    ],
+    "description": "The great 16th-century mosque on a hill above the Golden Horn, with a vast domed prayer hall, gardens and a cemetery."
+  },
+  {
+    "id": "cemberlitas-hamam",
+    "name": "Çemberlitaş Hamam",
+    "type": "building",
+    "places": [
+      "Çemberlitaş Hamam"
+    ],
+    "description": "A Turkish bath built in 1584 and still in use, with separate domed marble halls for men and women."
+  },
+  {
+    "id": "galata-bridge",
+    "name": "Galata Bridge",
+    "type": "building",
+    "places": [
+      "Galata Bridge"
+    ],
+    "description": "The bridge across the Golden Horn, with a tram and road on top, fishermen along the rails, and fish restaurants on the lower level."
+  },
+  {
+    "id": "rumeli-fortress",
+    "name": "Rumeli Fortress",
+    "type": "palace",
+    "places": [
+      "Rumeli Fortress (Rumeli Hisarı)"
+    ],
+    "description": "A fortress built by the Ottomans in 1452 on the European shore of the Bosphorus, a year before they took Constantinople."
+  },
+  {
+    "id": "galata-tower",
+    "name": "Galata Tower",
+    "type": "building",
+    "places": [
+      "Galata Tower"
+    ],
+    "description": "A round stone tower built by the Genoese in 1348, with a viewing balcony over the Golden Horn and the old city."
+  },
+  {
+    "id": "galata-mevlevi",
+    "name": "Galata Mevlevi Lodge",
+    "type": "museum",
+    "places": [
+      "Galata Mevlevi Lodge museum"
+    ],
+    "description": "A former lodge of the Mevlevi order, the whirling dervishes, now a museum with the wooden hall where their ceremony took place."
+  },
+  {
+    "id": "theodosian-walls",
+    "name": "Theodosian Walls",
+    "type": "landmark",
+    "places": [
+      "Theodosian Land Walls, Topkapı Gate"
+    ],
+    "description": "A stretch of the 5th-century walls that guarded Constantinople’s land side, at the gate named after the Ottoman cannon of the 1453 siege."
+  },
+  {
+    "id": "grand-bazaar",
+    "name": "Grand Bazaar",
+    "type": "landmark",
+    "places": [
+      "Grand Bazaar"
+    ],
+    "description": "One of the oldest and largest covered markets in the world: thousands of shops in a maze of vaulted lanes."
+  }
+]

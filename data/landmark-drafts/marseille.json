@@ -1,0 +1,8 @@
+[
+  { "id": "vieux-port", "name": "Old Port", "type": "landmark", "places": ["Old Port (Vieux-Port)"],
+    "description": "The old harbour at the heart of the city, lined with cafés and moored boats, with a small fish market on the quay most mornings." },
+  { "id": "chateau-d-if", "name": "Château d’If", "type": "palace", "places": ["Château d’If island fortress"],
+    "description": "A 16th-century fortress and former prison on an island in the bay, the setting of The Count of Monte Cristo. Boats leave from the Old Port." },
+  { "id": "cite-radieuse", "name": "Cité Radieuse", "type": "building", "places": ["Cité Radieuse (Unité d’Habitation)"],
+    "description": "Le Corbusier’s 1952 concrete housing block on stilts, with shops and a hotel on an inside street and a terrace on the roof." }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "national-assembly",
+    "name": "National Assembly",
+    "type": "building",
+    "places": [
+      "National Assembly (parliament building)"
+    ],
+    "description": "Serbia’s domed parliament building, finished in 1936. Protesters stormed it on 5 October 2000, bringing down Milošević."
+  },
+  {
+    "id": "kalemegdan",
+    "name": "Belgrade Fortress (Kalemegdan)",
+    "type": "landmark",
+    "places": [
+      "Kalemegdan Fortress"
+    ],
+    "description": "The old fortress on the ridge where the Sava meets the Danube, now a large park with walls, gates and river views."
+  },
+  {
+    "id": "house-of-flowers",
+    "name": "House of Flowers",
+    "type": "landmark",
+    "places": [
+      "House of Flowers (Tito’s mausoleum)"
+    ],
+    "description": "Tito’s mausoleum, a winter garden where he and his wife are buried, part of the Museum of Yugoslavia."
+  },
+  {
+    "id": "slavija-square",
+    "name": "Slavija Square",
+    "type": "landmark",
+    "places": [
+      "Slavija Square"
+    ],
+    "description": "A large roundabout square at the south end of the centre, where several main streets meet."
+  },
+  {
+    "id": "genex-tower",
+    "name": "Western City Gate (Genex Tower)",
+    "type": "building",
+    "places": [
+      "Western City Gate (Genex Tower)"
+    ],
+    "description": "A Brutalist pair of towers from 1977–80 at the entrance to New Belgrade, linked by a bridge with a round restaurant on top."
+  },
+  {
+    "id": "chinese-embassy-site",
+    "name": "Former Chinese embassy site",
+    "type": "building",
+    "places": [
+      "Chinese Cultural Centre (site of 1999 embassy bombing)"
+    ],
+    "description": "The site of the Chinese embassy that NATO bombed in May 1999, killing three people. A Chinese cultural centre now stands there."
+  },
+  {
+    "id": "tesla-museum",
+    "name": "Nikola Tesla Museum",
+    "type": "museum",
+    "places": [
+      "Nikola Tesla Museum"
+    ],
+    "description": "A museum of Tesla’s papers, inventions and working models, in a villa in the centre. His ashes are kept there in a gilded sphere."
+  },
+  {
+    "id": "marakana",
+    "name": "Red Star Stadium",
+    "type": "building",
+    "places": [
+      "Red Star Stadium (Marakana)"
+    ],
+    "description": "Red Star Belgrade’s football stadium, nicknamed the Marakana, and the biggest stadium in Serbia."
+  }
+]

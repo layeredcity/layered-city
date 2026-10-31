@@ -1,0 +1,98 @@
+[
+  {
+    "id": "acropolis",
+    "name": "Acropolis",
+    "type": "landmark",
+    "places": [
+      "Parthenon, Acropolis",
+      "Acropolis",
+      "Erechtheion, Acropolis",
+      "Acropolis south slope entrance",
+      "Theatre of Dionysus"
+    ],
+    "description": "The rock above the city with the ruins of the Parthenon, the Erechtheion and, on the south slope, the Theatre of Dionysus."
+  },
+  {
+    "id": "syntagma-square",
+    "name": "Syntagma Square",
+    "type": "landmark",
+    "places": [
+      "Syntagma Square",
+      "Tomb of the Unknown Soldier, Syntagma Square"
+    ],
+    "description": "The square in front of the Greek parliament, scene of the city’s big protests. Guards change at the Tomb of the Unknown Soldier."
+  },
+  {
+    "id": "national-archaeological-museum",
+    "name": "National Archaeological Museum",
+    "type": "museum",
+    "places": [
+      "National Archaeological Museum"
+    ],
+    "description": "Greece’s largest archaeological museum, with ancient sculpture, bronzes, gold from Mycenae and the Antikythera mechanism."
+  },
+  {
+    "id": "acropolis-museum",
+    "name": "Acropolis Museum",
+    "type": "museum",
+    "places": [
+      "Acropolis Museum"
+    ],
+    "description": "A modern glass museum at the foot of the Acropolis, holding the sculptures and finds from the hill."
+  },
+  {
+    "id": "ancient-agora",
+    "name": "Ancient Agora",
+    "type": "landmark",
+    "places": [
+      "Ancient Agora"
+    ],
+    "description": "The ruins of ancient Athens’ marketplace and civic centre, with the Temple of Hephaestus and the rebuilt Stoa of Attalos."
+  },
+  {
+    "id": "kerameikos",
+    "name": "Kerameikos",
+    "type": "landmark",
+    "places": [
+      "Kerameikos archaeological site",
+      "Street of Tombs, Kerameikos"
+    ],
+    "description": "The ancient city cemetery just outside the old walls, with grave monuments along the Street of Tombs and a small museum."
+  },
+  {
+    "id": "pnyx",
+    "name": "Pnyx",
+    "type": "landmark",
+    "places": [
+      "Pnyx hill"
+    ],
+    "description": "The hill where the citizens’ assembly of ancient Athens met, with a view across to the Acropolis."
+  },
+  {
+    "id": "omonia-square",
+    "name": "Omonia Square",
+    "type": "landmark",
+    "places": [
+      "Omonia Square"
+    ],
+    "description": "One of the city’s main squares, a busy traffic hub where several big avenues meet."
+  },
+  {
+    "id": "exarchia-square",
+    "name": "Exarchia Square",
+    "type": "landmark",
+    "places": [
+      "Exarchia Square"
+    ],
+    "description": "The central square of Exarchia, a neighbourhood long known for students, bookshops and left-wing and anarchist politics."
+  },
+  {
+    "id": "polytechnic",
+    "name": "Athens Polytechnic",
+    "type": "building",
+    "places": [
+      "Polytechnic gate, Patission Street"
+    ],
+    "description": "The 19th-century university campus where a tank broke through the gate to end the student uprising against the junta in November 1973."
+  }
+]

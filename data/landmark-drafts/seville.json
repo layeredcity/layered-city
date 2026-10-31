@@ -1,0 +1,94 @@
+[
+  {
+    "id": "seville-cathedral",
+    "name": "Seville Cathedral",
+    "type": "church",
+    "places": [
+      "Seville Cathedral",
+      "Giralda bell tower, Seville Cathedral",
+      "Patio de los Naranjos, Seville Cathedral"
+    ],
+    "description": "A vast Gothic cathedral built on the site of a mosque. The mosque’s minaret became the Giralda bell tower, and its orange-tree courtyard survives."
+  },
+  {
+    "id": "archivo-de-indias",
+    "name": "Archive of the Indies",
+    "type": "building",
+    "places": [
+      "General Archive of the Indies (Archivo de Indias)"
+    ],
+    "description": "A 16th-century merchants’ exchange next to the cathedral, now holding the records of Spain’s empire in the Americas. Some rooms are open to visitors."
+  },
+  {
+    "id": "alcazar",
+    "name": "Real Alcázar",
+    "type": "palace",
+    "places": [
+      "Real Alcázar palace"
+    ],
+    "description": "A royal palace begun in the Middle Ages, with Mudéjar halls, tiled courtyards and large gardens. The upper floors are still used by the Spanish royal family."
+  },
+  {
+    "id": "plaza-nueva",
+    "name": "Plaza Nueva",
+    "type": "landmark",
+    "places": [
+      "Plaza Nueva"
+    ],
+    "description": "A large open square by the city hall, with a statue of King Ferdinand III on horseback in the middle."
+  },
+  {
+    "id": "alameda-de-hercules",
+    "name": "Alameda de Hércules",
+    "type": "landmark",
+    "places": [
+      "Alameda de Hércules square"
+    ],
+    "description": "A long tree-lined promenade laid out in the 1500s, with old stone columns at each end, now lined with bars and busy at night."
+  },
+  {
+    "id": "torre-del-oro",
+    "name": "Torre del Oro",
+    "type": "building",
+    "places": [
+      "Torre del Oro tower"
+    ],
+    "description": "A 13th-century Moorish watchtower on the riverbank, built to guard the port. Inside is a small naval museum, with views from the top."
+  },
+  {
+    "id": "maestranza",
+    "name": "Maestranza bullring",
+    "type": "landmark",
+    "places": [
+      "Maestranza bullring"
+    ],
+    "description": "An 18th-century bullring by the river, one of the oldest in Spain, with a museum and guided tours."
+  },
+  {
+    "id": "triana-bridge",
+    "name": "Triana Bridge",
+    "type": "building",
+    "places": [
+      "Triana Bridge (Puente de Isabel II)"
+    ],
+    "description": "A 19th-century iron bridge over the Guadalquivir, linking the centre with Triana, the old potters’ and flamenco quarter."
+  },
+  {
+    "id": "tobacco-factory",
+    "name": "Royal Tobacco Factory",
+    "type": "building",
+    "places": [
+      "Royal Tobacco Factory (University of Seville)"
+    ],
+    "description": "A huge 18th-century tobacco factory, now part of the university. Carmen, the heroine of Bizet’s opera, works here as a cigar-maker."
+  },
+  {
+    "id": "hospital-de-la-caridad",
+    "name": "Hospital de la Caridad",
+    "type": "building",
+    "places": [
+      "Hospital de la Caridad"
+    ],
+    "description": "A 17th-century almshouse near the river, still caring for the elderly, with a baroque church full of paintings by Murillo and Valdés Leal."
+  }
+]

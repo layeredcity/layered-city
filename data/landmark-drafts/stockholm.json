@@ -1,0 +1,92 @@
+[
+  {
+    "id": "vasa-museum",
+    "name": "Vasa Museum",
+    "type": "museum",
+    "places": [
+      "Vasa Museum"
+    ],
+    "description": "A museum built around the Vasa, a 17th-century warship that sank on its maiden voyage in 1628 and was raised almost intact in 1961."
+  },
+  {
+    "id": "stortorget",
+    "name": "Stortorget",
+    "type": "landmark",
+    "places": [
+      "Stortorget square, Gamla stan"
+    ],
+    "description": "The old town’s main square, ringed by tall merchants’ houses in red and ochre. In 1520 it was the scene of the Stockholm Bloodbath."
+  },
+  {
+    "id": "sergels-torg",
+    "name": "Sergels torg",
+    "type": "landmark",
+    "places": [
+      "Sergels torg square"
+    ],
+    "description": "The city’s central sunken plaza, with black-and-white triangle paving and a glass obelisk, next to the Kulturhuset arts centre."
+  },
+  {
+    "id": "palme-murder-site",
+    "name": "Olof Palme murder site",
+    "type": "landmark",
+    "places": [
+      "Olof Palme murder site, Sveavägen"
+    ],
+    "description": "The spot on Sveavägen where Prime Minister Olof Palme was shot dead in 1986, marked by a plaque in the pavement."
+  },
+  {
+    "id": "norrmalmstorg",
+    "name": "Norrmalmstorg",
+    "type": "landmark",
+    "places": [
+      "Norrmalmstorg square"
+    ],
+    "description": "A city-centre square where a 1973 bank robbery and hostage siege gave the world the term “Stockholm syndrome”."
+  },
+  {
+    "id": "drottningholm",
+    "name": "Drottningholm Palace",
+    "type": "palace",
+    "places": [
+      "Drottningholm Palace"
+    ],
+    "description": "The Swedish royal family’s home, on an island west of the city, with baroque gardens and an 18th-century court theatre still in working order."
+  },
+  {
+    "id": "kungstradgarden",
+    "name": "Kungsträdgården",
+    "type": "landmark",
+    "places": [
+      "Kungsträdgården park"
+    ],
+    "description": "A central park and public square, once the royal kitchen garden, used for outdoor events. Its cherry trees blossom in spring."
+  },
+  {
+    "id": "riksdag",
+    "name": "Parliament House",
+    "type": "building",
+    "places": [
+      "Parliament House (Riksdagshuset)"
+    ],
+    "description": "The home of Sweden’s parliament, the Riksdag, on a small island between the old town and the city centre."
+  },
+  {
+    "id": "raoul-wallenbergs-torg",
+    "name": "Raoul Wallenbergs torg",
+    "type": "landmark",
+    "places": [
+      "Raoul Wallenbergs torg square"
+    ],
+    "description": "A waterside square named after the Swedish diplomat who saved thousands of Hungarian Jews in 1944, with a memorial to him."
+  },
+  {
+    "id": "abba-museum",
+    "name": "ABBA The Museum",
+    "type": "museum",
+    "places": [
+      "ABBA The Museum"
+    ],
+    "description": "A museum on Djurgården about the Swedish pop group, with stage costumes, gold records and rooms where you can sing along."
+  }
+]

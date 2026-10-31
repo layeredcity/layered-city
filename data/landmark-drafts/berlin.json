@@ -1,0 +1,156 @@
+[
+  {
+    "id": "gemaldegalerie",
+    "name": "Gemäldegalerie",
+    "type": "museum",
+    "places": [
+      "Gemäldegalerie art museum"
+    ],
+    "description": "Berlin’s main museum of European painting from the 13th to 18th centuries, at the Kulturforum: Rembrandt, Vermeer, Caravaggio, Bruegel."
+  },
+  {
+    "id": "alte-nationalgalerie",
+    "name": "Alte Nationalgalerie",
+    "type": "museum",
+    "places": [
+      "Alte Nationalgalerie museum"
+    ],
+    "description": "A temple-like museum on Museum Island with 19th-century painting and sculpture, including Caspar David Friedrich."
+  },
+  {
+    "id": "neues-museum",
+    "name": "Neues Museum",
+    "type": "museum",
+    "places": [
+      "Neues Museum"
+    ],
+    "description": "A museum on Museum Island, rebuilt after war damage, with Egyptian and prehistoric collections. The bust of Nefertiti is here."
+  },
+  {
+    "id": "pergamon-museum",
+    "name": "Pergamon Museum",
+    "type": "museum",
+    "places": [
+      "Pergamon Museum",
+      "Ishtar Gate, Pergamon Museum"
+    ],
+    "description": "The museum on Museum Island with the Ishtar Gate of Babylon and the Pergamon Altar. It is closed for a long renovation."
+  },
+  {
+    "id": "lustgarten",
+    "name": "Lustgarten",
+    "type": "landmark",
+    "places": [
+      "Lustgarten park"
+    ],
+    "description": "The lawn in front of the Altes Museum and Berlin Cathedral on Museum Island, once a royal garden and parade ground."
+  },
+  {
+    "id": "brandenburg-gate",
+    "name": "Brandenburg Gate",
+    "type": "landmark",
+    "places": [
+      "Brandenburg Gate"
+    ],
+    "description": "The 18th-century city gate at the end of Unter den Linden, cut off just inside East Berlin while the Wall stood."
+  },
+  {
+    "id": "reichstag",
+    "name": "Reichstag",
+    "type": "building",
+    "places": [
+      "Reichstag building"
+    ],
+    "description": "The German parliament building, with a glass dome you can climb for free if you book ahead."
+  },
+  {
+    "id": "alexanderplatz",
+    "name": "Alexanderplatz",
+    "type": "landmark",
+    "places": [
+      "Alexanderplatz"
+    ],
+    "description": "A big open square in former East Berlin, with the TV tower, the World Clock and a busy train station."
+  },
+  {
+    "id": "potsdamer-platz",
+    "name": "Potsdamer Platz",
+    "type": "landmark",
+    "places": [
+      "Potsdamer Platz"
+    ],
+    "description": "A busy square cut in two by the Wall and rebuilt in the 1990s with office towers and the Sony Center."
+  },
+  {
+    "id": "checkpoint-charlie",
+    "name": "Checkpoint Charlie",
+    "type": "landmark",
+    "places": [
+      "Checkpoint Charlie"
+    ],
+    "description": "The best-known crossing point between East and West Berlin during the Cold War, with a replica guard hut."
+  },
+  {
+    "id": "berghain",
+    "name": "Berghain",
+    "type": "music",
+    "places": [
+      "Berghain club"
+    ],
+    "description": "A techno club in a former power station, open from Saturday night into Monday, with a strict door policy."
+  },
+  {
+    "id": "berlin-wall-memorial",
+    "name": "Berlin Wall Memorial",
+    "type": "landmark",
+    "places": [
+      "Berlin Wall Memorial, Bernauer Straße"
+    ],
+    "description": "The main memorial to the Berlin Wall, along Bernauer Straße, with a preserved stretch of the border strip and a watchtower."
+  },
+  {
+    "id": "stasi-museum",
+    "name": "Stasi Museum",
+    "type": "museum",
+    "places": [
+      "Stasi Museum"
+    ],
+    "description": "The former headquarters of East Germany’s secret police, with the minister’s offices kept as they were."
+  },
+  {
+    "id": "victory-column",
+    "name": "Victory Column",
+    "type": "landmark",
+    "places": [
+      "Victory Column (Siegessäule)"
+    ],
+    "description": "A tall 19th-century column topped by a gilded Victory, in the middle of the Tiergarten, with a viewing platform."
+  },
+  {
+    "id": "olympiastadion",
+    "name": "Olympic Stadium",
+    "type": "building",
+    "places": [
+      "Olympic Stadium (Olympiastadion)"
+    ],
+    "description": "The stadium built for the 1936 Olympics, now home to Hertha BSC and the German Cup final."
+  },
+  {
+    "id": "so36",
+    "name": "SO36",
+    "type": "music",
+    "places": [
+      "SO36 club"
+    ],
+    "description": "A punk and alternative music club in Kreuzberg, open since 1978."
+  },
+  {
+    "id": "ddr-museum",
+    "name": "DDR Museum",
+    "type": "museum",
+    "places": [
+      "DDR Museum"
+    ],
+    "description": "A hands-on museum about everyday life in East Germany, beside the Spree opposite Museum Island."
+  }
+]

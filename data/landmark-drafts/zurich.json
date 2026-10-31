@@ -1,0 +1,74 @@
+[
+  {
+    "id": "paradeplatz",
+    "name": "Paradeplatz",
+    "type": "landmark",
+    "places": [
+      "Paradeplatz"
+    ],
+    "description": "A square on Bahnhofstrasse lined with the head offices of Swiss banks, plus the Sprüngli café and chocolate shop."
+  },
+  {
+    "id": "cabaret-voltaire",
+    "name": "Cabaret Voltaire",
+    "type": "landmark",
+    "places": [
+      "Cabaret Voltaire"
+    ],
+    "description": "The small old-town venue where the Dada art movement started in 1916, now an arts space and bar with exhibitions and events."
+  },
+  {
+    "id": "kunsthaus",
+    "name": "Kunsthaus Zürich",
+    "type": "museum",
+    "places": [
+      "Kunsthaus Zürich art museum"
+    ],
+    "description": "Zurich’s main art museum, with Swiss and European painting and sculpture and a large collection of work by Alberto Giacometti."
+  },
+  {
+    "id": "grossmunster",
+    "name": "Grossmünster",
+    "type": "church",
+    "places": [
+      "Grossmünster church"
+    ],
+    "description": "A twin-towered Romanesque church by the river, where Zwingli launched the Swiss Reformation in the 1520s. You can climb one of the towers."
+  },
+  {
+    "id": "burkliplatz",
+    "name": "Bürkliplatz",
+    "type": "landmark",
+    "places": [
+      "Bürkliplatz lakefront"
+    ],
+    "description": "A square on the lake at the end of Bahnhofstrasse, where the lake boats leave and a flea market runs on Saturdays in summer."
+  },
+  {
+    "id": "sechselautenplatz",
+    "name": "Sechseläutenplatz",
+    "type": "landmark",
+    "places": [
+      "Sechseläutenplatz square"
+    ],
+    "description": "A big open square between the opera house and the lake, where a snowman effigy is burned at the Sechseläuten spring festival."
+  },
+  {
+    "id": "rote-fabrik",
+    "name": "Rote Fabrik",
+    "type": "music",
+    "places": [
+      "Rote Fabrik culture centre"
+    ],
+    "description": "A former silk mill on the lakeshore, turned into an alternative arts centre after 1980s protests, with concerts, theatre and a restaurant."
+  },
+  {
+    "id": "burgholzli",
+    "name": "Burghölzli",
+    "type": "building",
+    "places": [
+      "Burghölzli psychiatric hospital"
+    ],
+    "description": "The university psychiatric hospital on the edge of the city, where Carl Jung trained. It is a working hospital, not open to visitors."
+  }
+]
