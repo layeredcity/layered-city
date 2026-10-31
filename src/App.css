@@ -833,3 +833,10 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
   .panel-story__content--landmark .landmark-top .landmark-hero__credit { margin-left: 20px; margin-right: 20px; }
   .panel-story__content--landmark .landmark-top__desc { padding: 4px 20px 24px; font-size: 16px; }
 }
+
+/* Credit under the description, left-aligned. */
+.landmark-top .landmark-hero__credit { margin: -14px 28px 0; padding-bottom: 22px; text-align: left; }
+.landmark-top__desc { padding-top: 6px; }
+@media (max-width: 768px) {
+  .panel-story__content--landmark .landmark-top .landmark-hero__credit { margin: -12px 20px 0; padding-bottom: 22px; }
+}

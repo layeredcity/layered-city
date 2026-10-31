@@ -472,8 +472,8 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
               <div className="landmark-hero__count">{landmarkSummary(lm)}</div>
             </div>
           </div>
-          <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
           <p className="landmark-top__desc">{lm.description}</p>
+          <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
         </div>
         <div className="landmark-detail__stories">
           {lm.members.map(m => (
