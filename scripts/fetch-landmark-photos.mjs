@@ -12,7 +12,18 @@ const CITIES = (process.env.CITIES || 'Vienna').split(',').map(s => s.trim())
 const UA = { 'user-agent': 'LayeredCityBot/1.0 (https://layeredcity.com; landmark photos)' }
 const slug = s => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 const strip = h => (h || '').replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim()
-const api = (host, params) => fetch(`https://${host}/w/api.php?` + new URLSearchParams({ format: 'json', formatversion: '2', ...params }), { headers: UA }).then(r => r.json())
+const sleep = ms => new Promise(r => setTimeout(r, ms))
+// Wikimedia rate-limits bursts; pace requests and back off when told to.
+async function api(host, params) {
+  for (let attempt = 0; attempt < 6; attempt++) {
+    await sleep(700)
+    const r = await fetch(`https://${host}/w/api.php?` + new URLSearchParams({ format: 'json', formatversion: '2', maxlag: '5', ...params }), { headers: UA })
+    const text = await r.text()
+    try { const j = JSON.parse(text); if (!j.error) return j } catch {}
+    await sleep(5000 * (attempt + 1))
+  }
+  throw new Error('Wikimedia API kept refusing')
+}
 
 const landmarks = JSON.parse(await fs.readFile('src/data/landmarks.json', 'utf8'))
 const mapPath = 'src/data/landmark-photos.json'
@@ -44,6 +55,7 @@ for (const city of CITIES) {
       const info = (await api('commons.wikimedia.org', { action: 'query', prop: 'imageinfo', titles: 'File:' + file, iiprop: 'url|extmetadata', iiurlwidth: '1200' })).query?.pages?.[0]?.imageinfo?.[0]
       if (!info?.thumburl) { console.log(`::warning::${key}: ${file} not on Commons`); continue }
       const meta = info.extmetadata || {}
+      await sleep(700)
       const buf = Buffer.from(await (await fetch(info.thumburl, { headers: UA })).arrayBuffer())
       const out = await sharp(buf).resize({ width: 1200, withoutEnlargement: true }).webp({ quality: 78 }).toBuffer()
       const hash = crypto.createHash('sha1').update(out).digest('hex').slice(0, 8)
