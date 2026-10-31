@@ -31,7 +31,8 @@ for (const city of CITIES) {
       // first photograph.
       if (!file || !/\.(jpe?g|png|webp|tiff?)$/i.test(file) || /logo|map|plan|icon|flag|coat|seal|signature/i.test(file)) {
         const imgs = (await api(wiki, { action: 'query', prop: 'images', titles: lm.wikipedia, redirects: '1', imlimit: '50' })).query?.pages?.[0]?.images || []
-        file = imgs.map(i => i.title.replace(/^File:/, '')).find(f => /\.(jpe?g)$/i.test(f) && !/logo|map|plan|icon|flag|coat|seal|signature|portrait|commons-logo| - |GG \d|Testament/i.test(f))
+        if (process.env.ONLY) console.log(`::notice::${key} images: ` + imgs.map(i => i.title.replace(/^(File|Datei):/, '')).filter(f => /\.jpe?g$/i.test(f)).join(' | ').slice(0, 3500))
+        file = imgs.map(i => i.title.replace(/^(File|Datei):/, '')).find(f => /\.(jpe?g)$/i.test(f) && !/logo|map|plan|icon|flag|coat|seal|signature|portrait|commons-logo| - |GG \d|Testament/i.test(f))
       }
       if (!file) { console.log(`::warning::${key}: no photo on "${lm.wikipedia}"`); continue }
       const info = (await api('commons.wikimedia.org', { action: 'query', prop: 'imageinfo', titles: 'File:' + file, iiprop: 'url|extmetadata', iiurlwidth: '1200' })).query?.pages?.[0]?.imageinfo?.[0]
