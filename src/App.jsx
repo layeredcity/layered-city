@@ -439,7 +439,7 @@ function LandmarkItem({ story, onSelect }) {
   const lm = story.landmark
   return (
     <div className="landmark-item" onClick={() => onSelect(story)}>
-      <LandmarkBadge type={lm.type} />
+      {lm.photo ? <img className="landmark-item__photo" src={lm.photo.src} alt="" loading="lazy" /> : <LandmarkBadge type={lm.type} />}
       <div className="landmark-item__body">
         <div className="landmark-item__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
         <div className="landmark-item__name">{lm.name}</div>
@@ -454,6 +454,31 @@ function LandmarkItem({ story, onSelect }) {
 // Tapping a story opens it, with a way back to the landmark.
 function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
   const lm = story.landmark
+  if (lm.photo) {
+    // Photo header, like the city page: the place's photo, darkened, with its
+    // name over it, fading into the page. Credit line underneath (the
+    // licence requires it).
+    return (
+      <>
+        <div className="landmark-hero">
+          <img className="landmark-hero__img" src={lm.photo.src} alt={lm.name} />
+          <div className="landmark-hero__overlay" />
+          <div className="landmark-hero__text">
+            <div className="landmark-hero__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
+            <div className="landmark-hero__name">{lm.name}</div>
+            <div className="landmark-hero__count">{landmarkSummary(lm)}</div>
+          </div>
+        </div>
+        <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
+        <p className="story-modal__desc">{lm.description}</p>
+        <div className="landmark-detail__stories">
+          {lm.members.map(m => (
+            <StoryItem key={m.id} story={m} onSelect={s => onOpenStory({ ...s, fromLandmark: story })} omdbData={omdbCache?.[m.imdbId]} bookData={bookCache?.[m.isbn]} />
+          ))}
+        </div>
+      </>
+    )
+  }
   return (
     <>
       <div className="story-modal__header">
@@ -1163,7 +1188,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
   if (story.mediaType === 'landmark') {
     return (
       <div className="story-modal-overlay" onClick={onClose}>
-        <div className="story-modal story-modal--landmark" onClick={e => e.stopPropagation()}>
+        <div className={'story-modal story-modal--landmark' + (story.landmark?.photo ? ' story-modal--landmark-photo' : '')} onClick={e => e.stopPropagation()}>
           <button className="story-modal__close" onClick={onClose}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
           </button>

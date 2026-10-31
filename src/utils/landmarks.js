@@ -4,6 +4,9 @@
 // when its pin's place name is one of that landmark's `places`. Only
 // landmarks with at least MIN_STORIES stories are shown; no empty landmarks.
 import data from '../data/landmarks.json'
+import photos from '../data/landmark-photos.json'
+
+const citySlug = s => s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
 
 const MIN_STORIES = 2
 
@@ -23,7 +26,7 @@ export function cityLandmarks(cityName, stories) {
       description: def.description,
       location: { lat, lon },
       locationName: def.name,
-      landmark: { ...def, members },
+      landmark: { ...def, members, photo: photos[`${citySlug(cityName)}/${def.id}`] || null },
     }
   }).filter(Boolean).sort((a, b) => b.landmark.members.length - a.landmark.members.length)
 }
