@@ -7,7 +7,8 @@
    "places": [
     "Kunsthistorisches Museum"
    ],
-   "description": "The Habsburgs’ art collection in a palace-sized museum on the Ringstrasse: Bruegel, Vermeer, Rembrandt, and a café under the dome."
+   "description": "The Habsburgs’ art collection in a palace-sized museum on the Ringstrasse: Bruegel, Vermeer, Rembrandt, and a café under the dome.",
+   "wikipedia": "Kunsthistorisches Museum"
   },
   {
    "id": "st-stephens",
@@ -17,7 +18,8 @@
     "St Stephen’s Cathedral",
     "Stephansplatz"
    ],
-   "description": "Vienna’s Gothic cathedral and the square around it, at the dead centre of the old town. Look up for the patterned tile roof."
+   "description": "Vienna’s Gothic cathedral and the square around it, at the dead centre of the old town. Look up for the patterned tile roof.",
+   "wikipedia": "St. Stephen's Cathedral, Vienna"
   },
   {
    "id": "hofburg",
@@ -30,7 +32,8 @@
     "Spanish Riding School, Hofburg",
     "Austrian National Library, Hofburg"
    ],
-   "description": "The Habsburgs’ sprawling city palace: the imperial treasury, the Sisi Museum, the Spanish Riding School, the old library and the big square in front."
+   "description": "The Habsburgs’ sprawling city palace: the imperial treasury, the Sisi Museum, the Spanish Riding School, the old library and the big square in front.",
+   "wikipedia": "Hofburg"
   },
   {
    "id": "state-opera",
@@ -39,7 +42,8 @@
    "places": [
     "Vienna State Opera"
    ],
-   "description": "One of the world’s great opera houses, on the Ringstrasse. Standing places go on sale shortly before most performances."
+   "description": "One of the world’s great opera houses, on the Ringstrasse. Standing places go on sale shortly before most performances.",
+   "wikipedia": "Vienna State Opera"
   },
   {
    "id": "upper-belvedere",
@@ -48,7 +52,8 @@
    "places": [
     "Upper Belvedere palace museum"
    ],
-   "description": "A baroque palace turned art museum, home to Klimt’s The Kiss and a big collection of Austrian painting."
+   "description": "A baroque palace turned art museum, home to Klimt’s The Kiss and a big collection of Austrian painting.",
+   "wikipedia": "Belvedere, Vienna"
   },
   {
    "id": "leopold",
@@ -57,7 +62,8 @@
    "places": [
     "Leopold Museum"
    ],
-   "description": "A white-cube museum in the MuseumsQuartier with the world’s largest collection of Egon Schiele, plus Klimt and Vienna 1900 design."
+   "description": "A white-cube museum in the MuseumsQuartier with the world’s largest collection of Egon Schiele, plus Klimt and Vienna 1900 design.",
+   "wikipedia": "Leopold Museum"
   },
   {
    "id": "albertina",
@@ -66,7 +72,8 @@
    "places": [
     "Albertina museum"
    ],
-   "description": "A former Habsburg palace holding one of the great collections of drawings and prints, from Dürer’s hare to Picasso."
+   "description": "A former Habsburg palace holding one of the great collections of drawings and prints, from Dürer’s hare to Picasso.",
+   "wikipedia": "Albertina"
   },
   {
    "id": "cafe-central",
@@ -75,7 +82,8 @@
    "places": [
     "Café Central"
    ],
-   "description": "The grandest of the old coffee houses, under vaulted ceilings in a former bank. Trotsky and Freud were regulars."
+   "description": "The grandest of the old coffee houses, under vaulted ceilings in a former bank. Trotsky and Freud were regulars.",
+   "wikipedia": "Café Central"
   },
   {
    "id": "freud-museum",
@@ -84,7 +92,8 @@
    "places": [
     "Sigmund Freud Museum, Berggasse 19"
    ],
-   "description": "The apartment and consulting rooms where Freud lived and worked for 47 years, until he fled the Nazis in 1938."
+   "description": "The apartment and consulting rooms where Freud lived and worked for 47 years, until he fled the Nazis in 1938.",
+   "wikipedia": "Sigmund Freud Museum (Vienna)"
   },
   {
    "id": "mozarthaus",
@@ -93,7 +102,8 @@
    "places": [
     "Mozarthaus museum, Domgasse"
    ],
-   "description": "The only one of Mozart’s Vienna homes that survives, where he wrote The Marriage of Figaro."
+   "description": "The only one of Mozart’s Vienna homes that survives, where he wrote The Marriage of Figaro.",
+   "wikipedia": "Mozarthaus Vienna"
   },
   {
    "id": "zentralfriedhof",
@@ -102,7 +112,8 @@
    "places": [
     "Central Cemetery (Zentralfriedhof)"
    ],
-   "description": "A huge park-like cemetery on the edge of town, with the graves of Beethoven, Schubert, Brahms and the Strauss family."
+   "description": "A huge park-like cemetery on the edge of town, with the graves of Beethoven, Schubert, Brahms and the Strauss family.",
+   "wikipedia": "Vienna Central Cemetery"
   },
   {
    "id": "beethoven-museum",
@@ -111,7 +122,8 @@
    "places": [
     "Beethoven Museum, Heiligenstadt"
    ],
-   "description": "The village house in Heiligenstadt where Beethoven, going deaf, wrote his despairing letter to his brothers."
+   "description": "The village house in Heiligenstadt where Beethoven, going deaf, wrote his despairing letter to his brothers.",
+   "wikipedia": "Beethoven Museum"
   },
   {
    "id": "kapuzinergruft",
@@ -120,7 +132,8 @@
    "places": [
     "Imperial Crypt (Kapuzinergruft)"
    ],
-   "description": "The burial vault of the Habsburgs, under a plain Capuchin church: 150 coffins, some of them elaborately decorated."
+   "description": "The burial vault of the Habsburgs, under a plain Capuchin church: 150 coffins, some of them elaborately decorated.",
+   "wikipedia": "Imperial Crypt"
   },
   {
    "id": "schonbrunn",
@@ -129,7 +142,8 @@
    "places": [
     "Schönbrunn Palace"
    ],
-   "description": "The Habsburgs’ summer palace and gardens, a short metro ride from the centre."
+   "description": "The Habsburgs’ summer palace and gardens, a short metro ride from the centre.",
+   "wikipedia": "Schönbrunn Palace"
   },
   {
    "id": "riesenrad",
@@ -138,7 +152,8 @@
    "places": [
     "Giant Ferris Wheel (Riesenrad), Prater"
    ],
-   "description": "The 1897 Ferris wheel in the Prater amusement park, with wooden cabins and a famous scene in The Third Man."
+   "description": "The 1897 Ferris wheel in the Prater amusement park, with wooden cabins and a famous scene in The Third Man.",
+   "wikipedia": "Wiener Riesenrad"
   },
   {
    "id": "musikverein",
@@ -147,7 +162,8 @@
    "places": [
     "Musikverein concert hall"
    ],
-   "description": "The concert hall with the golden main hall, home of the Vienna Philharmonic and its New Year’s Concert."
+   "description": "The concert hall with the golden main hall, home of the Vienna Philharmonic and its New Year’s Concert.",
+   "wikipedia": "Musikverein"
   },
   {
    "id": "secession",
@@ -156,7 +172,8 @@
    "places": [
     "Secession building"
    ],
-   "description": "The art nouveau exhibition hall with the golden dome of leaves, built by Klimt’s breakaway group of artists. Klimt’s Beethoven Frieze is in the basement."
+   "description": "The art nouveau exhibition hall with the golden dome of leaves, built by Klimt’s breakaway group of artists. Klimt’s Beethoven Frieze is in the basement.",
+   "wikipedia": "Vienna Secession Building"
   },
   {
    "id": "karl-marx-hof",
@@ -165,7 +182,8 @@
    "places": [
     "Karl-Marx-Hof housing estate"
    ],
-   "description": "A kilometre-long block of public housing built in 1927–30, the showpiece of ‘Red Vienna’ and its social housing programme."
+   "description": "A kilometre-long block of public housing built in 1927–30, the showpiece of ‘Red Vienna’ and its social housing programme.",
+   "wikipedia": "Karl-Marx-Hof"
   }
  ],
  "Amsterdam": [

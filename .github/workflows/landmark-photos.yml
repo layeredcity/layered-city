@@ -1,0 +1,28 @@
+# Fetches landmark photos from Wikimedia Commons for the cities listed in
+# data/run-landmark-photos (comma-separated city names), and commits them.
+name: Landmark photos
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/run-landmark-photos]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: |
+          npm i --no-save sharp
+          CITIES="$(grep -v '^#' data/run-landmark-photos | head -1)" node scripts/fetch-landmark-photos.mjs
+      - run: |
+          git add public/landmarks src/data/landmark-photos.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City landmark photos"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Landmark photos"
+          git pull --rebase origin main
+          git push origin HEAD:main
