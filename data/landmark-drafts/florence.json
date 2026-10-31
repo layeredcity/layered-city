@@ -1,0 +1,205 @@
+[
+  {
+    "id": "uffizi",
+    "name": "Uffizi Gallery",
+    "type": "museum",
+    "places": [
+      "Uffizi Gallery",
+      "Uffizi Gallery entrance"
+    ],
+    "description": "The great collection of Italian Renaissance painting, in the Medici’s former offices by the Arno: Botticelli, Leonardo, Michelangelo and more."
+  },
+  {
+    "id": "museo-galileo",
+    "name": "Museo Galileo",
+    "type": "museum",
+    "places": [
+      "Museo Galileo science museum"
+    ],
+    "description": "A science museum with the Medici’s scientific instruments, globes and maps, and Galileo’s own telescopes."
+  },
+  {
+    "id": "duomo",
+    "name": "Florence Cathedral",
+    "type": "church",
+    "places": [
+      "Duomo cathedral (Santa Maria del Fiore)",
+      "Piazza del Duomo",
+      "Duomo central doorway, facing the Baptistery",
+      "Baptistery of San Giovanni"
+    ],
+    "description": "The cathedral with Brunelleschi’s dome, its bell tower and the octagonal Baptistery, around the square at the heart of the city."
+  },
+  {
+    "id": "opera-del-duomo",
+    "name": "Museo dell’Opera del Duomo",
+    "type": "museum",
+    "places": [
+      "Museo dell’Opera del Duomo (cathedral museum)"
+    ],
+    "description": "The cathedral museum, holding the original Baptistery doors, sculpture from the cathedral and Michelangelo’s late Pietà."
+  },
+  {
+    "id": "piazza-della-signoria",
+    "name": "Piazza della Signoria",
+    "type": "landmark",
+    "places": [
+      "Piazza della Signoria",
+      "Loggia dei Lanzi, Piazza della Signoria"
+    ],
+    "description": "Florence’s main civic square, with the Neptune fountain, a copy of Michelangelo’s David, and statues in the open-air Loggia dei Lanzi."
+  },
+  {
+    "id": "palazzo-vecchio",
+    "name": "Palazzo Vecchio",
+    "type": "palace",
+    "places": [
+      "Palazzo Vecchio",
+      "Hall of the Five Hundred, Palazzo Vecchio"
+    ],
+    "description": "The fortress-like town hall on Piazza della Signoria, with painted state rooms including the vast Hall of the Five Hundred."
+  },
+  {
+    "id": "piazza-della-repubblica",
+    "name": "Piazza della Repubblica",
+    "type": "landmark",
+    "places": [
+      "Piazza della Repubblica"
+    ],
+    "description": "A big 19th-century square on the site of the Roman forum, with a carousel, a triumphal arch and old cafés."
+  },
+  {
+    "id": "palazzo-medici-riccardi",
+    "name": "Palazzo Medici Riccardi",
+    "type": "palace",
+    "places": [
+      "Palazzo Medici Riccardi"
+    ],
+    "description": "The Medici family’s 15th-century palace, with a small chapel covered in frescoes of the procession of the Magi."
+  },
+  {
+    "id": "orsanmichele",
+    "name": "Orsanmichele",
+    "type": "church",
+    "places": [
+      "Orsanmichele church"
+    ],
+    "description": "A former grain market turned church, with statues of patron saints in niches on its outside walls, made for the city’s guilds."
+  },
+  {
+    "id": "san-lorenzo",
+    "name": "San Lorenzo",
+    "type": "church",
+    "places": [
+      "San Lorenzo basilica",
+      "Old Sacristy, San Lorenzo basilica"
+    ],
+    "description": "The Medici family’s parish church, designed by Brunelleschi, with a bare unfinished facade and the Old Sacristy inside."
+  },
+  {
+    "id": "laurentian-library",
+    "name": "Laurentian Library",
+    "type": "building",
+    "places": [
+      "Laurentian Library (Biblioteca Medicea Laurenziana)"
+    ],
+    "description": "The Medici library in the cloister of San Lorenzo, designed by Michelangelo, with a sculptural staircase and a long reading room."
+  },
+  {
+    "id": "medici-chapels",
+    "name": "Medici Chapels",
+    "type": "museum",
+    "places": [
+      "New Sacristy, Medici Chapels",
+      "Michelangelo’s secret room, Medici Chapels"
+    ],
+    "description": "The Medici family tombs behind San Lorenzo, including Michelangelo’s New Sacristy, with a room below where he may have hidden in 1530."
+  },
+  {
+    "id": "santa-croce",
+    "name": "Santa Croce",
+    "type": "church",
+    "places": [
+      "Santa Croce basilica",
+      "Piazza Santa Croce",
+      "Pazzi Chapel, Santa Croce"
+    ],
+    "description": "A large Franciscan church with the tombs of Michelangelo, Galileo and Machiavelli, the Pazzi Chapel, and a square in front."
+  },
+  {
+    "id": "bargello",
+    "name": "Bargello Museum",
+    "type": "museum",
+    "places": [
+      "Bargello Museum"
+    ],
+    "description": "A medieval palace and former prison, now Florence’s museum of Renaissance sculpture, with works by Donatello and Michelangelo."
+  },
+  {
+    "id": "ponte-vecchio",
+    "name": "Ponte Vecchio",
+    "type": "building",
+    "places": [
+      "Ponte Vecchio bridge",
+      "Ponte Vecchio bridge (south end)",
+      "Vasari Corridor, Ponte Vecchio"
+    ],
+    "description": "A medieval bridge over the Arno lined with jewellers’ shops, with the Vasari Corridor, a private Medici passage, running along the top."
+  },
+  {
+    "id": "piazzale-michelangelo",
+    "name": "Piazzale Michelangelo",
+    "type": "landmark",
+    "places": [
+      "Piazzale Michelangelo"
+    ],
+    "description": "A hilltop square across the Arno with a wide view over the city and a bronze copy of David."
+  },
+  {
+    "id": "accademia",
+    "name": "Accademia Gallery",
+    "type": "museum",
+    "places": [
+      "Accademia Gallery (Galleria dell’Accademia)"
+    ],
+    "description": "The museum that holds Michelangelo’s David, along with his unfinished Prisoners and Florentine paintings."
+  },
+  {
+    "id": "palazzo-pitti",
+    "name": "Palazzo Pitti",
+    "type": "palace",
+    "places": [
+      "Palazzo Pitti",
+      "Palatine Gallery, Palazzo Pitti"
+    ],
+    "description": "A huge palace across the Arno that became the Medici’s home, now a group of museums, with the Boboli Gardens behind."
+  },
+  {
+    "id": "santa-maria-novella",
+    "name": "Santa Maria Novella",
+    "type": "church",
+    "places": [
+      "Santa Maria Novella basilica",
+      "Piazza Santa Maria Novella"
+    ],
+    "description": "A Dominican church near the station with a striped marble facade, frescoes and Masaccio’s Trinity, facing its own square."
+  },
+  {
+    "id": "brancacci-chapel",
+    "name": "Brancacci Chapel",
+    "type": "church",
+    "places": [
+      "Brancacci Chapel, Santa Maria del Carmine"
+    ],
+    "description": "A chapel in the church of Santa Maria del Carmine, covered in early Renaissance frescoes by Masaccio and Masolino."
+  },
+  {
+    "id": "santo-spirito",
+    "name": "Santo Spirito",
+    "type": "church",
+    "places": [
+      "Santo Spirito basilica"
+    ],
+    "description": "A Brunelleschi church in the Oltrarno with a plain facade, a wooden crucifix attributed to Michelangelo, and a lively square in front."
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "holyroodhouse",
+    "name": "Palace of Holyroodhouse",
+    "type": "palace",
+    "places": [
+      "Palace of Holyroodhouse"
+    ],
+    "description": "The monarch’s official residence in Scotland, at the foot of the Royal Mile, with Mary Queen of Scots’ rooms and a ruined abbey."
+  },
+  {
+    "id": "edinburgh-castle",
+    "name": "Edinburgh Castle",
+    "type": "palace",
+    "places": [
+      "Edinburgh Castle",
+      "Castle Esplanade",
+      "Witches’ Well, Castle Esplanade"
+    ],
+    "description": "The fortress on a volcanic rock above the city, with the Scottish crown jewels, and the esplanade in front where the Tattoo is held."
+  },
+  {
+    "id": "national-museum",
+    "name": "National Museum of Scotland",
+    "type": "museum",
+    "places": [
+      "National Museum of Scotland"
+    ],
+    "description": "A big museum of Scottish history, science and world cultures, with a rooftop terrace and Dolly the sheep."
+  },
+  {
+    "id": "writers-museum",
+    "name": "Writers’ Museum",
+    "type": "museum",
+    "places": [
+      "Writers’ Museum, Lady Stair’s Close"
+    ],
+    "description": "A 17th-century house off the Royal Mile with displays on Robert Burns, Walter Scott and Robert Louis Stevenson."
+  },
+  {
+    "id": "st-giles",
+    "name": "St Giles’ Cathedral",
+    "type": "church",
+    "places": [
+      "St Giles’ Cathedral",
+      "Heart of Midlothian mosaic (site of the Old Tolbooth)"
+    ],
+    "description": "Edinburgh’s main church, on the Royal Mile. In the cobbles outside, a heart marks the site of the old town prison."
+  },
+  {
+    "id": "greyfriars",
+    "name": "Greyfriars Kirkyard",
+    "type": "cemetery",
+    "places": [
+      "Greyfriars Kirkyard",
+      "Greyfriars Bobby statue"
+    ],
+    "description": "An old churchyard full of carved tombstones, with the statue of Greyfriars Bobby, the loyal terrier, by its gate."
+  },
+  {
+    "id": "princes-street-gardens",
+    "name": "Princes Street Gardens",
+    "type": "landmark",
+    "places": [
+      "Princes Street Gardens",
+      "Scott Monument"
+    ],
+    "description": "A park in the valley below the castle, home to the Gothic spire of the Scott Monument, which you can climb."
+  },
+  {
+    "id": "surgeons-hall",
+    "name": "Surgeons’ Hall Museums",
+    "type": "museum",
+    "places": [
+      "Surgeons’ Hall Museums"
+    ],
+    "description": "Medical museums run by the Royal College of Surgeons, with anatomy and pathology collections and the history of surgery in the city."
+  },
+  {
+    "id": "scottish-parliament",
+    "name": "Scottish Parliament",
+    "type": "building",
+    "places": [
+      "Scottish Parliament Building"
+    ],
+    "description": "Scotland’s parliament building, opened in 2004, opposite Holyroodhouse. Visitors can tour it and watch debates."
+  },
+  {
+    "id": "scottish-national-gallery",
+    "name": "Scottish National Gallery",
+    "type": "museum",
+    "places": [
+      "Scottish National Gallery"
+    ],
+    "description": "Scotland’s national collection of fine art, from the Renaissance to the early 20th century, on the Mound above Princes Street Gardens."
+  },
+  {
+    "id": "old-college",
+    "name": "Old College",
+    "type": "building",
+    "places": [
+      "Old College, University of Edinburgh",
+      "Site of Kirk o’ Field, Old College"
+    ],
+    "description": "The university’s neoclassical quadrangle, built on the site of Kirk o’ Field, where Mary Queen of Scots’ husband was killed in 1567."
+  }
+]

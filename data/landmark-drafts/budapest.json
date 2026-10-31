@@ -1,0 +1,141 @@
+[
+  {
+    "id": "parliament",
+    "name": "Hungarian Parliament",
+    "type": "building",
+    "places": [
+      "Hungarian Parliament Building",
+      "Kossuth Square (Kossuth Lajos tér)",
+      "Gyula Andrássy equestrian statue, Kossuth Square"
+    ],
+    "description": "The huge Gothic Revival parliament on the Danube and the square in front. Guided tours take you inside to see the Holy Crown."
+  },
+  {
+    "id": "heroes-square",
+    "name": "Heroes’ Square",
+    "type": "landmark",
+    "places": [
+      "Heroes’ Square"
+    ],
+    "description": "A wide square at the end of Andrássy Avenue, with a column and statues of Hungary’s founding chieftains and kings, between two art museums."
+  },
+  {
+    "id": "house-of-terror",
+    "name": "House of Terror",
+    "type": "museum",
+    "places": [
+      "House of Terror museum"
+    ],
+    "description": "A museum in the former headquarters of the fascist and then communist secret police, about the people they imprisoned, tortured and killed."
+  },
+  {
+    "id": "chain-bridge",
+    "name": "Széchenyi Chain Bridge",
+    "type": "building",
+    "places": [
+      "Széchenyi Chain Bridge"
+    ],
+    "description": "The first permanent bridge across the Danube in Budapest, opened in 1849, joining Pest to Buda below Castle Hill."
+  },
+  {
+    "id": "dohany-synagogue",
+    "name": "Dohány Street Synagogue",
+    "type": "church",
+    "places": [
+      "Dohány Street Synagogue",
+      "Hungarian Jewish Museum (site of Herzl’s birthplace)"
+    ],
+    "description": "Europe’s largest synagogue, with the Hungarian Jewish Museum next door and a Holocaust memorial garden behind."
+  },
+  {
+    "id": "great-market-hall",
+    "name": "Great Market Hall",
+    "type": "landmark",
+    "places": [
+      "Great Market Hall"
+    ],
+    "description": "Budapest’s largest covered market, from 1897, with produce and paprika stalls downstairs and food counters and souvenirs upstairs."
+  },
+  {
+    "id": "liberty-bridge",
+    "name": "Liberty Bridge",
+    "type": "building",
+    "places": [
+      "Liberty Bridge",
+      "Kermit the Frog statue, Liberty Bridge"
+    ],
+    "description": "A green steel bridge across the Danube, with mythical turul birds on top of its towers, leading to the Gellért Baths."
+  },
+  {
+    "id": "operetta-theatre",
+    "name": "Budapest Operetta Theatre",
+    "type": "music",
+    "places": [
+      "Budapest Operetta Theatre"
+    ],
+    "description": "A theatre on Nagymező Street devoted to operetta and musicals, the light-opera form Budapest is known for."
+  },
+  {
+    "id": "shoes-danube",
+    "name": "Shoes on the Danube Bank",
+    "type": "landmark",
+    "places": [
+      "Shoes on the Danube Bank memorial"
+    ],
+    "description": "Sixty pairs of iron shoes on the river bank, a memorial to the Jews shot into the Danube by Arrow Cross militiamen in 1944–45."
+  },
+  {
+    "id": "state-opera",
+    "name": "Hungarian State Opera",
+    "type": "music",
+    "places": [
+      "Hungarian State Opera"
+    ],
+    "description": "A neo-Renaissance opera house on Andrássy Avenue, opened in 1884, with a gilded auditorium. Guided tours run inside."
+  },
+  {
+    "id": "matthias-church",
+    "name": "Matthias Church",
+    "type": "church",
+    "places": [
+      "Matthias Church"
+    ],
+    "description": "A Gothic church on Castle Hill with a colourful tiled roof, where Hungary’s last kings were crowned. Fisherman’s Bastion is beside it."
+  },
+  {
+    "id": "liszt-academy",
+    "name": "Liszt Academy of Music",
+    "type": "music",
+    "places": [
+      "Liszt Academy of Music"
+    ],
+    "description": "Hungary’s top music school and one of its main concert halls, in an Art Nouveau building on Liszt Ferenc Square."
+  },
+  {
+    "id": "bartok-house",
+    "name": "Bartók Memorial House",
+    "type": "museum",
+    "places": [
+      "Bartók Memorial House"
+    ],
+    "description": "The composer Béla Bartók’s last Budapest home, in the Buda hills, kept as a museum with his furniture, plus a small concert hall."
+  },
+  {
+    "id": "puskas-arena",
+    "name": "Puskás Aréna",
+    "type": "building",
+    "places": [
+      "Puskás Aréna stadium"
+    ],
+    "description": "Hungary’s national football stadium, opened in 2019, which also hosts big concerts."
+  },
+  {
+    "id": "columbo-statue",
+    "name": "Columbo statue",
+    "type": "landmark",
+    "places": [
+      "Columbo statue, Falk Miksa Street"
+    ],
+    "description": "A life-size bronze statue of the TV detective Columbo and his dog, on Falk Miksa Street."
+  }
+]

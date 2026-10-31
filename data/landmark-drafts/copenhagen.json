@@ -1,0 +1,93 @@
+[
+  {
+    "id": "city-hall",
+    "name": "Copenhagen City Hall",
+    "type": "building",
+    "places": [
+      "City Hall (Rådhuset)",
+      "City Hall Square (Rådhuspladsen)"
+    ],
+    "description": "The red-brick city hall and the big square in front, next to Tivoli. Inside is an astronomical clock, and the tower can be climbed."
+  },
+  {
+    "id": "hojbro-plads",
+    "name": "Højbro Plads",
+    "type": "landmark",
+    "places": [
+      "Højbro Plads square"
+    ],
+    "description": "An old-town square with a statue of Bishop Absalon on horseback, facing across the canal to Christiansborg Palace."
+  },
+  {
+    "id": "kongens-nytorv",
+    "name": "Kongens Nytorv",
+    "type": "landmark",
+    "places": [
+      "Kongens Nytorv square"
+    ],
+    "description": "Copenhagen’s largest square, at the head of Nyhavn, with an equestrian statue of King Christian V in the middle."
+  },
+  {
+    "id": "royal-danish-theatre",
+    "name": "Royal Danish Theatre",
+    "type": "music",
+    "places": [
+      "Royal Danish Theatre (Old Stage), Kongens Nytorv"
+    ],
+    "description": "The national theatre’s 1874 building on Kongens Nytorv, the home stage of the Royal Danish Ballet."
+  },
+  {
+    "id": "little-mermaid",
+    "name": "Little Mermaid",
+    "type": "landmark",
+    "places": [
+      "Little Mermaid statue"
+    ],
+    "description": "A small bronze statue of the fairy-tale mermaid, sitting on a rock by the harbour at Langelinie since 1913."
+  },
+  {
+    "id": "royal-hotel",
+    "name": "Radisson Collection Royal Hotel",
+    "type": "building",
+    "places": [
+      "Radisson Collection Royal Hotel (SAS Royal)"
+    ],
+    "description": "A 1960 modernist hotel tower opposite Tivoli, with furniture and fittings designed by the same architect as the building."
+  },
+  {
+    "id": "assistens-cemetery",
+    "name": "Assistens Cemetery",
+    "type": "cemetery",
+    "places": [
+      "Kierkegaard’s grave, Assistens Cemetery"
+    ],
+    "description": "A leafy cemetery in Nørrebro that locals use as a park, and the resting place of many well-known Danes, Kierkegaard among them."
+  },
+  {
+    "id": "danish-jewish-museum",
+    "name": "Danish Jewish Museum",
+    "type": "museum",
+    "places": [
+      "Danish Jewish Museum"
+    ],
+    "description": "A museum of Danish Jewish history, including the 1943 rescue to Sweden, with an angular interior built inside an old royal boathouse."
+  },
+  {
+    "id": "nyhavn",
+    "name": "Nyhavn",
+    "type": "landmark",
+    "places": [
+      "Nyhavn harbour"
+    ],
+    "description": "A 17th-century canal lined with colourful old townhouses, wooden ships and outdoor cafés, running from Kongens Nytorv to the harbour."
+  },
+  {
+    "id": "copenhill",
+    "name": "CopenHill",
+    "type": "building",
+    "places": [
+      "CopenHill power plant (Amager Bakke)"
+    ],
+    "description": "A waste-to-energy power plant with an artificial ski slope, a hiking trail and a climbing wall on its roof and walls."
+  }
+]

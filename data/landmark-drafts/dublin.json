@@ -1,0 +1,77 @@
+[
+  {
+    "id": "national-museum-archaeology",
+    "name": "National Museum of Ireland – Archaeology",
+    "type": "museum",
+    "places": [
+      "National Museum of Ireland – Archaeology"
+    ],
+    "description": "Ireland’s archaeology museum on Kildare Street, with prehistoric gold, Viking finds and bog bodies."
+  },
+  {
+    "id": "trinity-college",
+    "name": "Trinity College",
+    "type": "building",
+    "places": [
+      "Book of Kells, Old Library, Trinity College",
+      "Trinity College"
+    ],
+    "description": "Ireland’s oldest university, founded in 1592. Its Old Library holds the Book of Kells, a medieval illuminated gospel book."
+  },
+  {
+    "id": "spire",
+    "name": "The Spire",
+    "type": "building",
+    "places": [
+      "The Spire, O’Connell Street"
+    ],
+    "description": "A 120-metre stainless-steel needle in the middle of O’Connell Street, put up in 2003 where Nelson’s Pillar once stood."
+  },
+  {
+    "id": "gpo",
+    "name": "General Post Office",
+    "type": "building",
+    "places": [
+      "General Post Office (GPO)"
+    ],
+    "description": "Dublin’s main post office, headquarters of the rebels in the 1916 Easter Rising. A museum inside tells the story."
+  },
+  {
+    "id": "henrietta-street",
+    "name": "14 Henrietta Street",
+    "type": "museum",
+    "places": [
+      "14 Henrietta Street museum"
+    ],
+    "description": "A Georgian townhouse museum showing its life as a grand home and later as a crowded tenement, through to the 1970s."
+  },
+  {
+    "id": "cobblestone",
+    "name": "The Cobblestone",
+    "type": "music",
+    "places": [
+      "The Cobblestone pub, Smithfield"
+    ],
+    "description": "A pub in Smithfield known for its nightly traditional Irish music sessions."
+  },
+  {
+    "id": "st-stephens-green",
+    "name": "St Stephen’s Green",
+    "type": "landmark",
+    "places": [
+      "St Stephen’s Green park"
+    ],
+    "description": "A Victorian park in a Georgian square at the top of Grafton Street, with a lake, bridges and statues."
+  },
+  {
+    "id": "dublin-castle",
+    "name": "Dublin Castle",
+    "type": "palace",
+    "places": [
+      "Upper Yard, Dublin Castle",
+      "Bedford Tower, Dublin Castle",
+      "Chester Beatty museum, Dublin Castle"
+    ],
+    "description": "The former seat of British rule in Ireland, with state apartments, courtyards, and the Chester Beatty museum of manuscripts in its grounds."
+  }
+]

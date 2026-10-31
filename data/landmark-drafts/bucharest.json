@@ -1,0 +1,38 @@
+[
+  {
+    "id": "revolution-square",
+    "name": "Revolution Square",
+    "type": "landmark",
+    "places": [
+      "Revolution Square (Piața Revoluției)"
+    ],
+    "description": "The square where the 1989 revolution came to a head, lined by the former Communist Party headquarters and the old Royal Palace."
+  },
+  {
+    "id": "palace-of-the-parliament",
+    "name": "Palace of the Parliament",
+    "type": "building",
+    "places": [
+      "Palace of the Parliament"
+    ],
+    "description": "Ceaușescu’s enormous government palace, one of the largest buildings in the world, built over a cleared historic district. Guided tours run inside."
+  },
+  {
+    "id": "romanian-athenaeum",
+    "name": "Romanian Athenaeum",
+    "type": "music",
+    "places": [
+      "Romanian Athenaeum concert hall"
+    ],
+    "description": "A domed 19th-century concert hall, home of the city’s philharmonic orchestra, with a painted fresco running around the main hall."
+  },
+  {
+    "id": "university-square",
+    "name": "University Square",
+    "type": "landmark",
+    "places": [
+      "University Square (Piața Universității)"
+    ],
+    "description": "A busy central square by the university, scene of street fighting in the 1989 revolution and of a long anti-government protest in 1990."
+  }
+]
