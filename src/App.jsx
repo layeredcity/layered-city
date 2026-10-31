@@ -460,17 +460,21 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
     // licence requires it).
     return (
       <>
-        <div className="landmark-hero">
-          <img className="landmark-hero__img" src={lm.photo.src} alt={lm.name} />
-          <div className="landmark-hero__overlay" />
-          <div className="landmark-hero__text">
-            <div className="landmark-hero__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
-            <div className="landmark-hero__name">{lm.name}</div>
-            <div className="landmark-hero__count">{landmarkSummary(lm)}</div>
+        {/* Photo, credit and description sit on the city page's royal blue;
+            only the stories below get the white background. */}
+        <div className="landmark-top">
+          <div className="landmark-hero">
+            <img className="landmark-hero__img" src={lm.photo.src} alt={lm.name} />
+            <div className="landmark-hero__overlay" />
+            <div className="landmark-hero__text">
+              <div className="landmark-hero__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
+              <div className="landmark-hero__name">{lm.name}</div>
+              <div className="landmark-hero__count">{landmarkSummary(lm)}</div>
+            </div>
           </div>
+          <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
+          <p className="landmark-top__desc">{lm.description}</p>
         </div>
-        <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
-        <p className="story-modal__desc">{lm.description}</p>
         <div className="landmark-detail__stories">
           {lm.members.map(m => (
             <StoryItem key={m.id} story={m} onSelect={s => onOpenStory({ ...s, fromLandmark: story })} omdbData={omdbCache?.[m.imdbId]} bookData={bookCache?.[m.isbn]} />

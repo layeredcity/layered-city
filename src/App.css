@@ -818,3 +818,20 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
   .panel-story__content--landmark .landmark-hero__name { font-size: 42px; }
   .panel-story__content--landmark .landmark-hero__count { font-size: 14px; }
 }
+
+/* Landmark top block on royal blue (same gradient as the city overview). The
+   photo is tinted blue and fades into it; the description is white on blue. */
+.landmark-top { margin: -28px -28px 0; border-radius: 16px 16px 0 0; overflow: hidden; background: linear-gradient(180deg, #05102B 0%, #17419A 100%); }
+.landmark-top .landmark-hero { margin: 0; height: 290px; border-radius: 0; }
+.landmark-hero__overlay { background: linear-gradient(180deg, rgba(5,16,43,0.55) 0%, rgba(13,38,97,0.35) 55%, rgba(13,38,97,0.2) 100%); }
+.landmark-top .landmark-hero__img, .landmark-top .landmark-hero__overlay { -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%); mask-image: linear-gradient(to bottom, #000 55%, transparent 100%); }
+.landmark-top .landmark-hero__credit { margin: -22px 28px 10px; position: relative; color: rgba(255,255,255,0.45); }
+.landmark-top__desc { margin: 0; padding: 4px 28px 26px; font-size: 15px; line-height: 1.6; color: rgba(255,255,255,0.92); }
+.landmark-top + .landmark-detail__stories { margin-top: 0; border-top: none; background: var(--white); }
+@media (max-width: 768px) {
+  .panel-story__content--landmark .landmark-top { margin: calc(-58px - env(safe-area-inset-top)) -20px 0; border-radius: 0; }
+  html.is-standalone .panel-story__content--landmark .landmark-top { margin-top: calc(-88px - env(safe-area-inset-top)); }
+  .panel-story__content--landmark .landmark-top .landmark-hero { height: 360px; margin: 0; }
+  .panel-story__content--landmark .landmark-top .landmark-hero__credit { margin-left: 20px; margin-right: 20px; }
+  .panel-story__content--landmark .landmark-top__desc { padding: 4px 20px 24px; font-size: 16px; }
+}
