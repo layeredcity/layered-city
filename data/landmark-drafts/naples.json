@@ -1,0 +1,20 @@
+[
+  { "id": "archaeological-museum", "name": "National Archaeological Museum", "type": "museum", "places": ["National Archaeological Museum"],
+    "description": "One of the great collections of ancient Roman art, with mosaics, frescoes and objects found at Pompeii and Herculaneum." },
+  { "id": "stadio-maradona", "name": "Stadio Diego Armando Maradona", "type": "building", "places": ["Stadio Diego Armando Maradona"],
+    "description": "SSC Napoli’s home stadium in the Fuorigrotta district, renamed after Diego Maradona in 2020." },
+  { "id": "vele-di-scampia", "name": "Vele di Scampia", "type": "building", "places": ["Vele di Scampia housing blocks"],
+    "description": "Huge sail-shaped public housing blocks from the 1960s and 70s in the northern suburb of Scampia, partly demolished since the 1990s." },
+  { "id": "pompeii", "name": "Pompeii", "type": "landmark", "places": ["Porta Marina gate, Pompeii"],
+    "description": "The Roman town buried by Vesuvius in AD 79, south of Naples. Porta Marina is the main gate into its excavated streets and houses." },
+  { "id": "piazza-del-mercato", "name": "Piazza del Mercato", "type": "landmark", "places": ["Piazza del Mercato"],
+    "description": "A large square near the port that was for centuries the city’s main market and its place of public executions." },
+  { "id": "pio-monte", "name": "Pio Monte della Misericordia", "type": "church", "places": ["Pio Monte della Misericordia church"],
+    "description": "A small 17th-century church run by a charity, with Caravaggio’s Seven Works of Mercy above the altar." },
+  { "id": "pizzeria-brandi", "name": "Pizzeria Brandi", "type": "cafe", "places": ["Pizzeria Brandi"],
+    "description": "An old pizzeria near Piazza del Plebiscito that claims the margherita pizza was first made here, in 1889." },
+  { "id": "vesuvius", "name": "Mount Vesuvius", "type": "landmark", "places": ["Mount Vesuvius"],
+    "description": "The volcano that buried Pompeii in AD 79 and last erupted in 1944. A path leads up to the rim of the crater." },
+  { "id": "castel-nuovo", "name": "Castel Nuovo", "type": "palace", "places": ["Castel Nuovo (Maschio Angioino)"],
+    "description": "A medieval castle by the port with five round towers and a white marble triumphal arch at the entrance. It houses the civic museum." }
+]

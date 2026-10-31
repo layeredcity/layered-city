@@ -1,0 +1,194 @@
+[
+  {
+    "id": "louvre",
+    "name": "Louvre",
+    "type": "museum",
+    "places": [
+      "Louvre Museum",
+      "Salle des États (Mona Lisa room), Louvre Museum",
+      "Louvre Pyramid",
+      "Cour Carrée, Louvre",
+      "Louis XIV statue, Louvre courtyard"
+    ],
+    "description": "The former royal palace turned art museum, entered through a glass pyramid. Its collection runs from ancient Egypt to the Mona Lisa."
+  },
+  {
+    "id": "orsay",
+    "name": "Musée d’Orsay",
+    "type": "museum",
+    "places": [
+      "Musée d’Orsay museum"
+    ],
+    "description": "A museum in a former railway station on the Left Bank, with the largest collection of Impressionist and Post-Impressionist painting."
+  },
+  {
+    "id": "palais-garnier",
+    "name": "Palais Garnier",
+    "type": "music",
+    "places": [
+      "Palais Garnier opera house"
+    ],
+    "description": "The 19th-century opera house, with a grand marble staircase and a ceiling painted by Chagall. It hosts opera and ballet."
+  },
+  {
+    "id": "notre-dame",
+    "name": "Notre-Dame Cathedral",
+    "type": "church",
+    "places": [
+      "Notre-Dame Cathedral",
+      "Point Zéro, Notre-Dame square"
+    ],
+    "description": "The Gothic cathedral on the Île de la Cité, reopened in 2024 after the 2019 fire. A plaque in the square marks the point distances in France are measured from."
+  },
+  {
+    "id": "eiffel-tower",
+    "name": "Eiffel Tower",
+    "type": "building",
+    "places": [
+      "Eiffel Tower"
+    ],
+    "description": "The wrought-iron tower built for the 1889 World’s Fair, with lifts and stairs up to viewing platforms over the city."
+  },
+  {
+    "id": "versailles",
+    "name": "Palace of Versailles",
+    "type": "palace",
+    "places": [
+      "Palace of Versailles"
+    ],
+    "description": "The vast palace and gardens of Louis XIV, outside Paris, with the Hall of Mirrors and the royal apartments."
+  },
+  {
+    "id": "orangerie",
+    "name": "Musée de l’Orangerie",
+    "type": "museum",
+    "places": [
+      "Musée de l’Orangerie museum"
+    ],
+    "description": "A small museum in the Tuileries Garden, built around two oval rooms that hold Monet’s Water Lilies panels."
+  },
+  {
+    "id": "pompidou",
+    "name": "Centre Pompidou",
+    "type": "museum",
+    "places": [
+      "Centre Pompidou modern art museum"
+    ],
+    "description": "France’s national museum of modern art, in a 1977 building with its pipes, ducts and escalators on the outside."
+  },
+  {
+    "id": "le-meurice",
+    "name": "Le Meurice",
+    "type": "building",
+    "places": [
+      "Le Meurice hotel, Rue de Rivoli"
+    ],
+    "description": "A luxury hotel on the Rue de Rivoli facing the Tuileries. During the Occupation it was the headquarters of the German military command in Paris."
+  },
+  {
+    "id": "pere-lachaise",
+    "name": "Père Lachaise Cemetery",
+    "type": "cemetery",
+    "places": [
+      "Père Lachaise Cemetery, Gambetta entrance",
+      "Communards’ Wall, Père Lachaise Cemetery",
+      "Père Lachaise Cemetery",
+      "Édith Piaf’s grave, Père Lachaise Cemetery"
+    ],
+    "description": "The city’s largest cemetery, on a hill in the east, with Édith Piaf’s grave and the wall where the last Communards were shot in 1871."
+  },
+  {
+    "id": "place-de-la-concorde",
+    "name": "Place de la Concorde",
+    "type": "landmark",
+    "places": [
+      "Place de la Concorde",
+      "Luxor Obelisk, Place de la Concorde"
+    ],
+    "description": "The largest square in Paris, where the guillotine stood during the Revolution. At its centre is an Egyptian obelisk over 3,000 years old."
+  },
+  {
+    "id": "place-de-la-bastille",
+    "name": "Place de la Bastille",
+    "type": "landmark",
+    "places": [
+      "Place de la Bastille",
+      "Bastille Métro station (fortress remains)"
+    ],
+    "description": "The square where the Bastille prison stood until it was stormed in 1789. A column marks the centre, and traces of the fortress survive in the Métro station."
+  },
+  {
+    "id": "trocadero",
+    "name": "Place du Trocadéro",
+    "type": "landmark",
+    "places": [
+      "Place du Trocadéro"
+    ],
+    "description": "A square across the river from the Eiffel Tower, with terraces that give one of the classic views of it."
+  },
+  {
+    "id": "shakespeare-and-company",
+    "name": "Shakespeare and Company",
+    "type": "landmark",
+    "places": [
+      "Shakespeare and Company bookshop"
+    ],
+    "description": "An English-language bookshop on the Left Bank, across the river from Notre-Dame, crammed with new and second-hand books."
+  },
+  {
+    "id": "pont-des-arts",
+    "name": "Pont des Arts",
+    "type": "building",
+    "places": [
+      "Pont des Arts bridge"
+    ],
+    "description": "A footbridge across the Seine between the Louvre and the Institut de France, once covered in love padlocks."
+  },
+  {
+    "id": "pont-neuf",
+    "name": "Pont Neuf",
+    "type": "building",
+    "places": [
+      "Pont Neuf bridge"
+    ],
+    "description": "Despite its name (‘New Bridge’), the oldest standing bridge across the Seine in Paris, finished in 1607 across the tip of the Île de la Cité."
+  },
+  {
+    "id": "carnavalet",
+    "name": "Carnavalet Museum",
+    "type": "museum",
+    "places": [
+      "Carnavalet Museum"
+    ],
+    "description": "The free museum of the history of Paris, in two mansions in the Marais, with old shop signs, period rooms and relics of the Revolution."
+  },
+  {
+    "id": "folies-bergere",
+    "name": "Folies Bergère",
+    "type": "music",
+    "places": [
+      "Folies Bergère music hall"
+    ],
+    "description": "A music hall open since 1869 and famous for its cabaret revues. It now mostly hosts concerts and musicals."
+  },
+  {
+    "id": "invalides",
+    "name": "Les Invalides",
+    "type": "building",
+    "places": [
+      "Les Invalides (Hôtel des Invalides)",
+      "Musée des Plans-Reliefs, Les Invalides"
+    ],
+    "description": "Louis XIV’s military hospital under a gilded dome. It now holds Napoleon’s tomb, the army museum and a museum of scale models of fortified towns."
+  },
+  {
+    "id": "hotel-de-ville",
+    "name": "Hôtel de Ville",
+    "type": "building",
+    "places": [
+      "Hôtel de Ville (City Hall)",
+      "Place de l’Hôtel de Ville"
+    ],
+    "description": "Paris’s city hall, a 19th-century rebuilding of a Renaissance original, and the square in front, where public executions once took place."
+  }
+]

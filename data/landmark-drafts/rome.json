@@ -1,0 +1,290 @@
+[
+  {
+    "id": "capitoline-museums",
+    "name": "Capitoline Museums",
+    "type": "museum",
+    "places": [
+      "Capitoline Museums",
+      "Palazzo dei Conservatori courtyard, Capitoline Museums",
+      "Piazza del Campidoglio"
+    ],
+    "description": "Some of the world’s oldest public museums, in the palaces around Michelangelo’s square on the Capitoline Hill, with the bronze she-wolf."
+  },
+  {
+    "id": "st-peters",
+    "name": "St Peter’s Basilica",
+    "type": "church",
+    "places": [
+      "St Peter’s Basilica",
+      "St Peter’s Square",
+      "Vatican Obelisk, St Peter’s Square",
+      "Michelangelo’s Pietà, St Peter’s Basilica",
+      "Bernini’s Baldacchino, St Peter’s Basilica",
+      "Chair of St Peter, St Peter’s Basilica",
+      "Treasury Museum, St Peter’s Basilica"
+    ],
+    "description": "The Pope’s basilica and the colonnaded square in front. Inside are Michelangelo’s Pietà, Bernini’s bronze canopy and the Chair of St Peter."
+  },
+  {
+    "id": "sistine-chapel",
+    "name": "Sistine Chapel",
+    "type": "church",
+    "places": [
+      "Sistine Chapel"
+    ],
+    "description": "The papal chapel at the end of the Vatican Museums route, with Michelangelo’s ceiling and Last Judgement. Popes are elected here."
+  },
+  {
+    "id": "vatican-museums",
+    "name": "Vatican Museums",
+    "type": "museum",
+    "places": [
+      "Vatican Museums",
+      "Vatican Museums entrance",
+      "Octagonal Court, Vatican Museums",
+      "Gregorian Etruscan Museum, Vatican Museums",
+      "Pio-Clementino Museum, Vatican Museums",
+      "Raphael Rooms, Vatican Museums",
+      "Braccio Nuovo, Vatican Museums",
+      "Pinacoteca (picture gallery), Vatican Museums"
+    ],
+    "description": "The popes’ art collections, spread through the Vatican palaces: ancient sculpture, Etruscan finds, the Raphael Rooms and a picture gallery."
+  },
+  {
+    "id": "borghese-gallery",
+    "name": "Borghese Gallery",
+    "type": "museum",
+    "places": [
+      "Borghese Gallery"
+    ],
+    "description": "A 17th-century villa in the Borghese park holding sculptures by Bernini and paintings by Caravaggio. Entry is by timed booking only."
+  },
+  {
+    "id": "colosseum",
+    "name": "Colosseum",
+    "type": "landmark",
+    "places": [
+      "Colosseum"
+    ],
+    "description": "The amphitheatre finished in 80 AD, where gladiators fought in front of crowds of around 50,000."
+  },
+  {
+    "id": "trevi-fountain",
+    "name": "Trevi Fountain",
+    "type": "landmark",
+    "places": [
+      "Trevi Fountain"
+    ],
+    "description": "The largest baroque fountain in Rome, finished in 1762. Tradition says a coin thrown over your shoulder means you will come back."
+  },
+  {
+    "id": "roman-forum",
+    "name": "Roman Forum",
+    "type": "landmark",
+    "places": [
+      "Roman Forum",
+      "Arch of Titus, Roman Forum",
+      "Santa Maria Antiqua, Roman Forum",
+      "Temple of Antoninus and Faustina, Roman Forum",
+      "Temple of Vesta, Roman Forum",
+      "Arch of Septimius Severus, Roman Forum",
+      "Basilica of Maxentius, Roman Forum"
+    ],
+    "description": "The ruins of ancient Rome’s political and religious centre: temples, triumphal arches and the early frescoed church of Santa Maria Antiqua."
+  },
+  {
+    "id": "castel-sant-angelo",
+    "name": "Castel Sant’Angelo",
+    "type": "palace",
+    "places": [
+      "Castel Sant’Angelo"
+    ],
+    "description": "Hadrian’s mausoleum by the Tiber, later a papal fortress and prison. It is now a museum, with views from the terrace at the top."
+  },
+  {
+    "id": "ponte-sant-angelo",
+    "name": "Ponte Sant’Angelo",
+    "type": "building",
+    "places": [
+      "Ponte Sant’Angelo bridge"
+    ],
+    "description": "A Roman footbridge across the Tiber, built by Hadrian to reach his tomb, lined with ten baroque angels designed by Bernini."
+  },
+  {
+    "id": "pantheon",
+    "name": "Pantheon",
+    "type": "building",
+    "places": [
+      "Pantheon"
+    ],
+    "description": "A Roman temple from around 125 AD, now a church, with a huge unreinforced concrete dome open to the sky at the top."
+  },
+  {
+    "id": "arch-of-constantine",
+    "name": "Arch of Constantine",
+    "type": "landmark",
+    "places": [
+      "Arch of Constantine"
+    ],
+    "description": "A triumphal arch beside the Colosseum, put up in 315 AD for the emperor Constantine, partly decorated with carvings taken from older monuments."
+  },
+  {
+    "id": "largo-argentina",
+    "name": "Largo di Torre Argentina",
+    "type": "landmark",
+    "places": [
+      "Largo di Torre Argentina"
+    ],
+    "description": "A sunken square of temple ruins next to the spot where Julius Caesar was killed. A cat shelter operates on the site."
+  },
+  {
+    "id": "piazza-navona",
+    "name": "Piazza Navona",
+    "type": "landmark",
+    "places": [
+      "Piazza Navona",
+      "Fountain of the Moor, Piazza Navona"
+    ],
+    "description": "A long baroque square on the outline of an ancient stadium, with three fountains, including Bernini’s Fountain of the Four Rivers."
+  },
+  {
+    "id": "testaccio-market",
+    "name": "Testaccio Market",
+    "type": "landmark",
+    "places": [
+      "Testaccio Market"
+    ],
+    "description": "A covered food market in the Testaccio neighbourhood, with produce stalls and counters selling Roman street food."
+  },
+  {
+    "id": "san-luigi-dei-francesi",
+    "name": "San Luigi dei Francesi",
+    "type": "church",
+    "places": [
+      "San Luigi dei Francesi church"
+    ],
+    "description": "The church of the French community near Piazza Navona, with three Caravaggio paintings of the life of St Matthew in a side chapel."
+  },
+  {
+    "id": "acqua-paola",
+    "name": "Acqua Paola Fountain",
+    "type": "landmark",
+    "places": [
+      "Acqua Paola Fountain (Fontanone), Janiculum"
+    ],
+    "description": "A large early-1600s fountain on the Janiculum hill, built like a triumphal arch, with views across the city."
+  },
+  {
+    "id": "santa-maria-maggiore",
+    "name": "Santa Maria Maggiore",
+    "type": "church",
+    "places": [
+      "Santa Maria Maggiore basilica"
+    ],
+    "description": "One of Rome’s four major papal basilicas, with fifth-century mosaics and a gilded coffered ceiling."
+  },
+  {
+    "id": "baths-of-caracalla",
+    "name": "Baths of Caracalla",
+    "type": "landmark",
+    "places": [
+      "Baths of Caracalla"
+    ],
+    "description": "The huge brick ruins of a third-century public bath complex. Opera and concerts are staged here in summer."
+  },
+  {
+    "id": "ara-pacis",
+    "name": "Ara Pacis Museum",
+    "type": "museum",
+    "places": [
+      "Ara Pacis Museum"
+    ],
+    "description": "A glass-walled museum by the Tiber built around the Ara Pacis, a carved marble altar celebrating the peace brought by Augustus."
+  },
+  {
+    "id": "circus-maximus",
+    "name": "Circus Maximus",
+    "type": "landmark",
+    "places": [
+      "Circus Maximus"
+    ],
+    "description": "The site of ancient Rome’s chariot-racing stadium, now a long grassy hollow below the Palatine Hill."
+  },
+  {
+    "id": "trajans-forum",
+    "name": "Trajan’s Forum and Column",
+    "type": "landmark",
+    "places": [
+      "Trajan’s Column",
+      "Trajan’s Forum",
+      "Trajan’s Markets"
+    ],
+    "description": "The last and largest of the imperial forums, with Trajan’s Column, carved with his wars in a spiral, and the brick market halls on the hillside."
+  },
+  {
+    "id": "san-pietro-in-vincoli",
+    "name": "San Pietro in Vincoli",
+    "type": "church",
+    "places": [
+      "San Pietro in Vincoli church"
+    ],
+    "description": "A basilica that keeps the chains said to have bound St Peter, and Michelangelo’s statue of Moses on the tomb of Pope Julius II."
+  },
+  {
+    "id": "santa-maria-del-popolo",
+    "name": "Santa Maria del Popolo",
+    "type": "church",
+    "places": [
+      "Santa Maria del Popolo church"
+    ],
+    "description": "A church on Piazza del Popolo with two Caravaggio paintings, of St Paul and St Peter, and a chapel designed by Raphael."
+  },
+  {
+    "id": "villa-giulia",
+    "name": "National Etruscan Museum",
+    "type": "museum",
+    "places": [
+      "National Etruscan Museum (Villa Giulia)"
+    ],
+    "description": "A 16th-century papal villa, now the national museum of the Etruscans, the people who ruled central Italy before the Romans."
+  },
+  {
+    "id": "palazzo-massimo",
+    "name": "Palazzo Massimo",
+    "type": "museum",
+    "places": [
+      "Palazzo Massimo, National Roman Museum"
+    ],
+    "description": "A branch of the National Roman Museum near Termini station, with ancient sculpture, bronzes and painted rooms from Roman villas."
+  },
+  {
+    "id": "spanish-steps",
+    "name": "Spanish Steps",
+    "type": "landmark",
+    "places": [
+      "Spanish Steps",
+      "Barcaccia Fountain, Spanish Steps"
+    ],
+    "description": "A wide 18th-century stairway from Piazza di Spagna up to a church, with a boat-shaped fountain at the bottom."
+  },
+  {
+    "id": "gesu",
+    "name": "Church of the Gesù",
+    "type": "church",
+    "places": [
+      "Church of the Gesù",
+      "Chapel of St Ignatius, Church of the Gesù"
+    ],
+    "description": "The mother church of the Jesuits, with a painted ceiling that seems to open to the sky and the tomb of St Ignatius in a side chapel."
+  },
+  {
+    "id": "sant-andrea-al-quirinale",
+    "name": "Sant’Andrea al Quirinale",
+    "type": "church",
+    "places": [
+      "Sant’Andrea al Quirinale church",
+      "Rooms of St Stanislas Kostka, Sant’Andrea al Quirinale"
+    ],
+    "description": "A small oval church by Bernini, with the rooms next door where the young Jesuit St Stanislas Kostka lived and died."
+  }
+]

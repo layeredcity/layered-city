@@ -1,0 +1,20 @@
+[
+  { "id": "munch", "name": "MUNCH", "type": "museum", "places": ["MUNCH museum"],
+    "description": "A tall museum on the harbour front devoted to Edvard Munch, with thousands of his paintings, prints and drawings." },
+  { "id": "fram-museum", "name": "Fram Museum", "type": "museum", "places": ["Fram Museum"],
+    "description": "A museum on the Bygdøy peninsula built around the polar ship Fram, which you can go aboard, and the history of polar exploration." },
+  { "id": "kon-tiki-museum", "name": "Kon-Tiki Museum", "type": "museum", "places": ["Kon-Tiki Museum"],
+    "description": "A museum on Bygdøy holding the balsa raft Kon-Tiki, sailed across the Pacific in 1947, and other boats from Thor Heyerdahl’s voyages." },
+  { "id": "city-hall", "name": "Oslo City Hall", "type": "building", "places": ["City Hall (Rådhuset)"],
+    "description": "The brick city hall with two towers on the harbour, where the Nobel Peace Prize is presented each December. The halls are covered in murals." },
+  { "id": "royal-palace", "name": "Royal Palace", "type": "palace", "places": ["Royal Palace"],
+    "description": "The king’s official residence, at the top of Karl Johans gate, in a public park, with a daily changing of the guard." },
+  { "id": "helvete", "name": "Helvete record shop (former)", "type": "music", "places": ["Former Helvete record shop, Schweigaards gate"],
+    "description": "A former record shop near the central station that was the meeting place of Norway’s early-1990s black metal scene." },
+  { "id": "viking-age-museum", "name": "Museum of the Viking Age", "type": "museum", "places": ["Museum of the Viking Age (Viking Ship Museum)"],
+    "description": "The museum on Bygdøy built for three Viking ships found in burial mounds, being rebuilt and enlarged as the Museum of the Viking Age." },
+  { "id": "national-museum", "name": "National Museum", "type": "museum", "places": ["National Museum"],
+    "description": "Norway’s largest art museum, opened in 2022 by the harbour, with art and design from ancient times to today, including Munch’s The Scream." },
+  { "id": "akershus", "name": "Akershus Fortress", "type": "palace", "places": ["Akershus Fortress", "Akershus Fortress waterfront"],
+    "description": "A medieval castle and fortress on the harbour, later a royal residence, with ramparts you can walk and a museum of the wartime resistance." }
+]

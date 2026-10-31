@@ -1,0 +1,84 @@
+[
+  {
+    "id": "austurvollur",
+    "name": "Austurvöllur",
+    "type": "landmark",
+    "places": [
+      "Austurvöllur square"
+    ],
+    "description": "A small grassy square in the centre, facing the Parliament building and the cathedral, with a statue of the independence leader Jón Sigurðsson."
+  },
+  {
+    "id": "harpa",
+    "name": "Harpa",
+    "type": "music",
+    "places": [
+      "Harpa concert hall"
+    ],
+    "description": "The glass-fronted concert hall on the harbour, opened in 2011 and home of the Iceland Symphony Orchestra."
+  },
+  {
+    "id": "laekjartorg",
+    "name": "Lækjartorg",
+    "type": "landmark",
+    "places": [
+      "Lækjartorg square"
+    ],
+    "description": "A small square in the city centre, where Lækjargata meets Austurstræti, long used as a meeting point and for public gatherings."
+  },
+  {
+    "id": "hallgrimskirkja",
+    "name": "Hallgrímskirkja",
+    "type": "church",
+    "places": [
+      "Hallgrímskirkja church",
+      "Leif Erikson statue, Hallgrímskirkja"
+    ],
+    "description": "The concrete Lutheran church on the hill above the centre, with a 74.5 m tower you can go up. A statue of Leif Erikson stands in front."
+  },
+  {
+    "id": "university-of-iceland",
+    "name": "University of Iceland",
+    "type": "building",
+    "places": [
+      "University of Iceland"
+    ],
+    "description": "Iceland’s oldest and largest university, founded in 1911, on a campus just south of the city centre next to the National Museum."
+  },
+  {
+    "id": "kaffibarinn",
+    "name": "Kaffibarinn",
+    "type": "cafe",
+    "places": [
+      "Kaffibarinn bar"
+    ],
+    "description": "A small downtown bar in an old house just off Laugavegur, a fixture of the city’s nightlife since the 1990s and a setting in the film 101 Reykjavík."
+  },
+  {
+    "id": "hofdi",
+    "name": "Höfði House",
+    "type": "building",
+    "places": [
+      "Höfði House"
+    ],
+    "description": "A white wooden house by the shore, built in 1909, where the US and Soviet leaders Reagan and Gorbachev held their 1986 summit."
+  },
+  {
+    "id": "laugardalsholl",
+    "name": "Laugardalshöll",
+    "type": "building",
+    "places": [
+      "Laugardalshöll sports hall"
+    ],
+    "description": "The city’s main indoor sports and concert hall, where the 1972 world chess championship between Fischer and Spassky was played."
+  },
+  {
+    "id": "phallological-museum",
+    "name": "Icelandic Phallological Museum",
+    "type": "museum",
+    "places": [
+      "Icelandic Phallological Museum, Hafnartorg"
+    ],
+    "description": "A museum devoted to penises, with a large collection of specimens from Iceland’s land and sea mammals, in the Hafnartorg development by the harbour."
+  }
+]

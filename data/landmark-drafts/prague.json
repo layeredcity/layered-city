@@ -1,0 +1,122 @@
+[
+  {
+    "id": "prague-castle",
+    "name": "Prague Castle",
+    "type": "palace",
+    "places": [
+      "Prague Castle",
+      "Old Royal Palace, Prague Castle"
+    ],
+    "description": "A huge castle complex on the hill above the Vltava, seat of Czech rulers for over a thousand years, including the Old Royal Palace."
+  },
+  {
+    "id": "st-vitus",
+    "name": "St Vitus Cathedral",
+    "type": "church",
+    "places": [
+      "St Vitus Cathedral, Prague Castle"
+    ],
+    "description": "The Gothic cathedral inside Prague Castle, where Czech kings were crowned and buried, with a stained-glass window by Alfons Mucha."
+  },
+  {
+    "id": "astronomical-clock",
+    "name": "Old Town Hall and Astronomical Clock",
+    "type": "building",
+    "places": [
+      "Astronomical Clock, Old Town Hall"
+    ],
+    "description": "The medieval astronomical clock on the Old Town Hall, first installed in 1410. On the hour, figures of the apostles appear in windows above the dials."
+  },
+  {
+    "id": "old-town-square",
+    "name": "Old Town Square",
+    "type": "landmark",
+    "places": [
+      "Old Town Square"
+    ],
+    "description": "The main square of the old town, ringed by pastel houses, the Old Town Hall and the twin towers of the Týn Church."
+  },
+  {
+    "id": "wenceslas-square",
+    "name": "Wenceslas Square",
+    "type": "landmark",
+    "places": [
+      "Wenceslas Square",
+      "Wenceslas Square (area)",
+      "Můstek (bottom of Wenceslas Square)"
+    ],
+    "description": "A long, wide square in the New Town, scene of the mass protests of 1989. A statue of St Wenceslas stands at the top end."
+  },
+  {
+    "id": "melantrich",
+    "name": "Melantrich building",
+    "type": "building",
+    "places": [
+      "Melantrich building, Wenceslas Square"
+    ],
+    "description": "A building on Wenceslas Square from whose balcony dissident leaders addressed the crowds during the Velvet Revolution in 1989."
+  },
+  {
+    "id": "municipal-house",
+    "name": "Municipal House",
+    "type": "building",
+    "places": [
+      "Municipal House (Obecní dům)"
+    ],
+    "description": "An Art Nouveau civic building from 1912, next to the Powder Tower, with the Smetana Hall concert hall, a café and a restaurant."
+  },
+  {
+    "id": "new-city-hall",
+    "name": "New City Hall",
+    "type": "building",
+    "places": [
+      "New City Hall, Mariánské Square"
+    ],
+    "description": "The early-1900s seat of Prague’s city government, on Mariánské Square, with large sculptures at its corners."
+  },
+  {
+    "id": "cyril-methodius",
+    "name": "Church of Sts Cyril and Methodius",
+    "type": "church",
+    "places": [
+      "Church of Sts Cyril and Methodius, Resslova"
+    ],
+    "description": "An Orthodox church where the Czech parachutists who assassinated Reinhard Heydrich hid and died in 1942. Its crypt is now a memorial."
+  },
+  {
+    "id": "old-jewish-cemetery",
+    "name": "Old Jewish Cemetery",
+    "type": "cemetery",
+    "places": [
+      "Old Jewish Cemetery"
+    ],
+    "description": "One of Europe’s oldest Jewish burial grounds, in the Jewish Quarter, with some 12,000 tombstones crowded together, many of them tilting."
+  },
+  {
+    "id": "old-new-synagogue",
+    "name": "Old-New Synagogue",
+    "type": "church",
+    "places": [
+      "Old-New Synagogue"
+    ],
+    "description": "Europe’s oldest active synagogue, a 13th-century Gothic building in the Jewish Quarter. Legend says the Golem lies in its attic."
+  },
+  {
+    "id": "estates-theatre",
+    "name": "Estates Theatre",
+    "type": "music",
+    "places": [
+      "Estates Theatre"
+    ],
+    "description": "An 18th-century theatre in the old town where Mozart’s Don Giovanni premiered in 1787. It still stages opera, drama and ballet."
+  },
+  {
+    "id": "charles-bridge",
+    "name": "Charles Bridge",
+    "type": "building",
+    "places": [
+      "Charles Bridge"
+    ],
+    "description": "The 14th-century stone bridge across the Vltava, lined with baroque statues of saints and busy from early morning to late at night."
+  }
+]
