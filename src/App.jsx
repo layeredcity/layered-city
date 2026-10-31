@@ -476,9 +476,7 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
           <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
         </div>
         <div className="landmark-detail__stories">
-          {lm.members.map(m => (
-            <StoryItem key={m.id} story={m} onSelect={s => onOpenStory({ ...s, fromLandmark: story })} omdbData={omdbCache?.[m.imdbId]} bookData={bookCache?.[m.isbn]} />
-          ))}
+          <LandmarkStories story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
         </div>
       </>
     )
@@ -501,6 +499,24 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
       </div>
     </>
   )
+}
+
+// A landmark's stories, grouped by media type under narrow sticky dividers
+// with the type's icon, types in alphabetical order.
+function LandmarkStories({ story, onOpenStory, omdbCache, bookCache }) {
+  const groups = FILTERS.slice(1).filter(f => f.types.length)
+    .map(f => ({ f, items: story.landmark.members.filter(m => f.types.includes((m.mediaType || '').toLowerCase())) }))
+    .filter(g => g.items.length)
+    .sort((a, b) => a.f.label.localeCompare(b.f.label))
+  return groups.flatMap(({ f, items }) => [
+    <div key={'h-' + f.label} className="story-group-heading landmark-group-heading">
+      <span className="landmark-group-heading__icon">{TYPE_ICONS[f.icon]}</span>
+      {f.label}
+    </div>,
+    ...items.map(m => (
+      <StoryItem key={m.id} story={m} onSelect={s => onOpenStory({ ...s, fromLandmark: story })} omdbData={omdbCache?.[m.imdbId]} bookData={bookCache?.[m.isbn]} />
+    )),
+  ])
 }
 
 function BackToLandmark({ story, onOpen }) {

@@ -840,3 +840,9 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
 @media (max-width: 768px) {
   .panel-story__content--landmark .landmark-top .landmark-hero__credit { margin: -12px 20px 0; padding-bottom: 22px; }
 }
+
+/* Landmark stories: narrow sticky divider per media type, with its icon. */
+.landmark-group-heading { display: flex; align-items: center; gap: 7px; background: rgb(222 234 251); color: #2E3B52; border-bottom-color: rgb(205 220 243); z-index: 2; }
+.landmark-group-heading__icon { display: inline-flex; width: 13px; height: 13px; color: #153B8F; }
+.landmark-group-heading__icon svg { width: 100%; height: 100%; }
+.story-modal--landmark { padding-top: 28px; }
