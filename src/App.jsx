@@ -2101,7 +2101,7 @@ export default function App() {
               </svg>
               Back
             </div>
-            <div className="panel-story__scroll">
+            <div className="panel-story__scroll" key={selectedStory.id}>
               <div className="panel-story__content panel-story__content--event">
                 <EventDetail story={selectedStory} />
               </div>
@@ -2116,7 +2116,7 @@ export default function App() {
               </svg>
               Back
             </div>
-            <div className="panel-story__scroll">
+            <div className="panel-story__scroll" key={selectedStory.id}>
               <div className="panel-story__content panel-story__content--landmark">
                 <LandmarkDetail story={selectedStory} onOpenStory={setSelectedStory} omdbCache={omdbCache} bookCache={bookCache} />
               </div>
@@ -2143,7 +2143,7 @@ export default function App() {
                 </svg>
                 {s.fromLandmark ? s.fromLandmark.landmark.name : 'Back'}
               </div>
-              <div className="panel-story__scroll">
+              <div className="panel-story__scroll" key={selectedStory.id}>
                 <div className="panel-story__content">
                   <div className="story-modal__header">
                     <StoryIcon story={s} omdbData={omdbData} bookData={bookData} />
