@@ -24,8 +24,14 @@ for (const city of CITIES) {
     if (!lm.wikipedia || (photos[key] && !process.env.REFRESH)) continue
     try {
       const page = (await api('en.wikipedia.org', { action: 'query', prop: 'pageimages', piprop: 'name', titles: lm.wikipedia, redirects: '1' })).query?.pages?.[0]
-      const file = page?.pageimage
-      if (!file) { console.log(`::warning::${key}: no lead image on "${lm.wikipedia}"`); continue }
+      let file = lm.photoFile || page?.pageimage
+      // No lead image, or it's a logo/map/drawing: fall back to the article's
+      // first photograph.
+      if (!file || !/\.(jpe?g|png|webp|tiff?)$/i.test(file) || /logo|map|plan|icon|flag|coat|seal|signature/i.test(file)) {
+        const imgs = (await api('en.wikipedia.org', { action: 'query', prop: 'images', titles: lm.wikipedia, redirects: '1', imlimit: '50' })).query?.pages?.[0]?.images || []
+        file = imgs.map(i => i.title.replace(/^File:/, '')).find(f => /\.(jpe?g)$/i.test(f) && !/logo|map|plan|icon|flag|coat|seal|signature|portrait|commons-logo/i.test(f))
+      }
+      if (!file) { console.log(`::warning::${key}: no photo on "${lm.wikipedia}"`); continue }
       const info = (await api('commons.wikimedia.org', { action: 'query', prop: 'imageinfo', titles: 'File:' + file, iiprop: 'url|extmetadata', iiurlwidth: '1200' })).query?.pages?.[0]?.imageinfo?.[0]
       if (!info?.thumburl) { console.log(`::warning::${key}: ${file} not on Commons`); continue }
       const meta = info.extmetadata || {}
