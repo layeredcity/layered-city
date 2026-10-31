@@ -846,3 +846,10 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
 .landmark-group-heading__icon { display: inline-flex; width: 13px; height: 13px; color: #153B8F; }
 .landmark-group-heading__icon svg { width: 100%; height: 100%; }
 .story-modal--landmark { padding-top: 28px; }
+
+/* Touch screens: no row highlight. On phones :hover sticks to whatever you
+   touched while scrolling, which flashed rows blue. Desktop keeps it. */
+@media (hover: none) {
+  .story-item:hover, .event-item--row:hover, .landmark-item:hover { background: transparent; }
+  .story-item, .event-item--row, .landmark-item, .overview-item { -webkit-tap-highlight-color: transparent; }
+}
