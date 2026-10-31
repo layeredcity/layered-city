@@ -21,10 +21,16 @@ const photos = JSON.parse(await fs.readFile(mapPath, 'utf8').catch(() => '{}'))
 for (const city of CITIES) {
   for (const lm of landmarks[city] || []) {
     const key = `${slug(city)}/${lm.id}`
-    if (!lm.wikipedia || (photos[key] && !process.env.REFRESH && !(process.env.ONLY || '').split(',').includes(lm.id))) continue
+    if (lm.noPhoto || (photos[key] && !process.env.REFRESH && !(process.env.ONLY || '').split(',').includes(lm.id))) continue
     if (process.env.ONLY && !process.env.ONLY.split(',').includes(lm.id)) continue
     const wiki = (lm.wikipediaLang || 'en') + '.wikipedia.org'
     try {
+      // No article given: search Wikipedia for "name city" and take the top hit.
+      if (!lm.wikipedia) {
+        const hit = (await api(wiki, { action: 'query', list: 'search', srsearch: `${lm.name} ${city}`, srlimit: '1' })).query?.search?.[0]
+        if (!hit) { console.log(`::warning::${key}: no article found`); continue }
+        lm.wikipedia = hit.title
+      }
       const page = (await api(wiki, { action: 'query', prop: 'pageimages', piprop: 'name', titles: lm.wikipedia, redirects: '1' })).query?.pages?.[0]
       let file = lm.photoFile || page?.pageimage
       // No lead image, or it's a logo/map/drawing: fall back to the article's
@@ -48,6 +54,8 @@ for (const city of CITIES) {
         author: strip(meta.Artist?.value) || 'Unknown',
         license: strip(meta.LicenseShortName?.value) || '',
         page: info.descriptionurl,
+        article: lm.wikipedia,
+        file,
       }
       console.log(`::notice::${key}: ${file} (${photos[key].license}, ${photos[key].author})`)
     } catch (e) {
