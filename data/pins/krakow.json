@@ -1,0 +1,509 @@
+{
+ "city": "Kraków",
+ "pins": [
+  {
+   "id": "4QA43OcfUKP82lYpUGYOjX",
+   "title": "The World That No Longer Exists: Krakow's Kazimierz District",
+   "type": "audiotour",
+   "place": "",
+   "lat": 50.0468,
+   "lon": 19.9435
+  },
+  {
+   "id": "4evJ3RCOrBfY5hmQJ80tLj",
+   "title": "World War Two in Krakow: A Jewish Quarter and Ghetto Walking Tour",
+   "type": "audiotour",
+   "place": "Kazimierz district (area)",
+   "lat": 50.0503,
+   "lon": 19.9463
+  },
+  {
+   "id": "5Xw0zq1YNWbawYcYnUXAMb",
+   "title": "Historic Krakow: From Medieval Old Town to Wawel Castle",
+   "type": "audiotour",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0617,
+   "lon": 19.9388
+  },
+  {
+   "id": "6OQu2OIhBe3lbLC0dbjmmg",
+   "title": "Kraków's Wawel Royal Castle and Surroundings: History Meets Mystery",
+   "type": "audiotour",
+   "place": "Dżok the Dog statue, Vistula Boulevards",
+   "lat": 50.0503,
+   "lon": 19.9364
+  },
+  {
+   "id": "3lvapF5W2y9gyNq60gNIkv",
+   "title": "The Trumpeter of Krakow",
+   "type": "book",
+   "place": "St Mary’s Basilica",
+   "lat": 50.0616,
+   "lon": 19.9394
+  },
+  {
+   "id": "1zjLkFeehuiQwefluvpHOJ",
+   "title": "The Kraków Ghetto Pharmacy",
+   "type": "book",
+   "place": "Under the Eagle Pharmacy museum, Ghetto Heroes Square",
+   "lat": 50.0464,
+   "lon": 19.9544
+  },
+  {
+   "id": "1uKLuNj3D5WWEJT8SMKOYR",
+   "title": "The Captive Mind",
+   "type": "book",
+   "place": "Skałka Church (Pauline monastery)",
+   "lat": 50.0488,
+   "lon": 19.9375
+  },
+  {
+   "id": "5a7UETvR7611n70KTI1IEF",
+   "title": "If This Is a Man",
+   "type": "book",
+   "place": "Auschwitz-Birkenau Memorial, Oświęcim",
+   "lat": 50.0274,
+   "lon": 19.2019
+  },
+  {
+   "id": "6KIDuPfHHdPf7Y3EiWuHGj",
+   "title": "Schindler’s Ark",
+   "type": "book",
+   "place": "Oskar Schindler’s Enamel Factory museum",
+   "lat": 50.0474,
+   "lon": 19.9618
+  },
+  {
+   "id": "1KhJAssxMGV7lMGUCe0bsE",
+   "title": "Another Beauty",
+   "type": "book",
+   "place": "Collegium Novum, Jagiellonian University",
+   "lat": 50.0608,
+   "lon": 19.9331
+  },
+  {
+   "id": "1PsAsJibHAlVFIdRCY3jNc",
+   "title": "The Crooked Mirror",
+   "type": "book",
+   "place": "Kazimierz district (area)",
+   "lat": 50.0514,
+   "lon": 19.9486
+  },
+  {
+   "id": "5kS8DE6el0SMdIK3JsdjyP",
+   "title": "A History of Kraków for Everyone",
+   "type": "book",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0617,
+   "lon": 19.9373
+  },
+  {
+   "id": "hNsHjK1BpOfU6yWa6GYnJ",
+   "title": "The Wedding",
+   "type": "book",
+   "place": "Rydlówka manor museum, Bronowice",
+   "lat": 50.0878,
+   "lon": 19.8781
+  },
+  {
+   "id": "2DWgLLoi3TyUUX0y6Ryk69",
+   "title": "Map: Collected and Last Poems",
+   "type": "book",
+   "place": "Rakowicki Cemetery",
+   "lat": 50.072,
+   "lon": 19.9523
+  },
+  {
+   "id": "JLTlJDVOpjihRKrd9RR9D",
+   "title": "Litania",
+   "type": "music",
+   "place": "Krzysztof Penderecki Academy of Music",
+   "lat": 50.0625,
+   "lon": 19.941
+  },
+  {
+   "id": "3lBtnjwmJFtar0wu4Rlzhl",
+   "title": "HUTA (gasną światła)",
+   "type": "music",
+   "place": "Central Square (Plac Centralny), Nowa Huta",
+   "lat": 50.0728,
+   "lon": 20.0367
+  },
+  {
+   "id": "4wE38vP7X4PYOsXqynzduu",
+   "title": "Nikt nam nie zrobił nic",
+   "type": "music",
+   "place": "Plac Nowy square, Kazimierz",
+   "lat": 50.0518,
+   "lon": 19.9447
+  },
+  {
+   "id": "1O5864GlokP2SLk4Y1pJQ2",
+   "title": "Zacznij od Bacha",
+   "type": "music",
+   "place": "Kraków Philharmonic concert hall",
+   "lat": 50.0596,
+   "lon": 19.931
+  },
+  {
+   "id": "1XAk1gLjTSXnSelJBCki9r",
+   "title": "Naprawdę nie dzieje się nic",
+   "type": "music",
+   "place": "Piwnica pod Baranami cabaret",
+   "lat": 50.0616,
+   "lon": 19.9357
+  },
+  {
+   "id": "6utpBRP1KNhisv4JcLHScG",
+   "title": "Krakowski spleen",
+   "type": "music",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0617,
+   "lon": 19.9373
+  },
+  {
+   "id": "1rzuPPpAZd3iwBVhjGmDbz",
+   "title": "Man of the Light",
+   "type": "music",
+   "place": "U Muniaka jazz club",
+   "lat": 50.0626,
+   "lon": 19.9395
+  },
+  {
+   "id": "eESLEObRyW1PX0EU7HuRj",
+   "title": "Dni, których nie znamy",
+   "type": "music",
+   "place": "Jama Michalika café",
+   "lat": 50.0641,
+   "lon": 19.9409
+  },
+  {
+   "id": "1wEUn0cQec8wZpCu2Ltraf",
+   "title": "Threnody to the Victims of Hiroshima",
+   "type": "music",
+   "place": "Krzysztof Penderecki Academy of Music",
+   "lat": 50.0625,
+   "lon": 19.941
+  },
+  {
+   "id": "2dTlh60q4tCXk8uaSDA0AP",
+   "title": "Es brent",
+   "type": "music",
+   "place": "Mordechai Gebirtig’s house, Kazimierz",
+   "lat": 50.053,
+   "lon": 19.949
+  },
+  {
+   "id": "43L9uo6dPa7WPwbAinDZNz",
+   "title": "Czerwiec",
+   "type": "music",
+   "place": "",
+   "lat": 50.0625,
+   "lon": 19.942
+  },
+  {
+   "id": "3oWHlMDKg1gBg456cnO7hx",
+   "title": "Filandia",
+   "type": "music",
+   "place": "",
+   "lat": 50.06,
+   "lon": 19.944
+  },
+  {
+   "id": "5W5DKHXmlutGLqTTw2eKYp",
+   "title": "The Secrets of the Life Tree",
+   "type": "music",
+   "place": "Szeroka Street",
+   "lat": 50.053,
+   "lon": 19.9476
+  },
+  {
+   "id": "4ZAN4rRhK0a1CMoxdsdad1",
+   "title": "Toward Nowa Huta (Richtung Nowa Huta)",
+   "type": "movie",
+   "place": "Nowa Huta steelworks",
+   "lat": 50.077,
+   "lon": 20.09
+  },
+  {
+   "id": "3xbzFtV6YEYmX5EIVJbVVh",
+   "title": "Vinci",
+   "type": "movie",
+   "place": "Czartoryski Museum",
+   "lat": 50.0648,
+   "lon": 19.941
+  },
+  {
+   "id": "o0MHTU2nxWuW1d3PuQ4Lb",
+   "title": "33 Scenes from Life (33 sceny z życia)",
+   "type": "movie",
+   "place": "Kazimierz district (area)",
+   "lat": 50.0492,
+   "lon": 19.9448
+  },
+  {
+   "id": "4x1m1Eelvt3bPhaVzvc5Z9",
+   "title": "The Double Life of Veronique (La Double vie de Véronique)",
+   "type": "movie",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0617,
+   "lon": 19.9373
+  },
+  {
+   "id": "77V8qPObLWgrTj0zLoqQMb",
+   "title": "Schindler’s List",
+   "type": "movie",
+   "place": "Ghetto Heroes Square (Plac Bohaterów Getta)",
+   "lat": 50.0468,
+   "lon": 19.9558
+  },
+  {
+   "id": "48O06Nm4z7mG45vI5Plt2I",
+   "title": "Man of Marble (Człowiek z marmuru)",
+   "type": "movie",
+   "place": "Central Square (Plac Centralny), Nowa Huta",
+   "lat": 50.072,
+   "lon": 20.037
+  },
+  {
+   "id": "62w6IkrIvLPHyWCIzfN78p",
+   "title": "Joanna",
+   "type": "movie",
+   "place": "Old Town (area)",
+   "lat": 50.06,
+   "lon": 19.938
+  },
+  {
+   "id": "5ML7FSce1oAlb9B9T42eUY",
+   "title": "primabalerina",
+   "type": "music",
+   "place": "Klub Studio, AGH campus",
+   "lat": 50.0681,
+   "lon": 19.908
+  },
+  {
+   "id": "2y8JUqnoVfjfW4Fe8bwT01",
+   "title": "Karuzela z Madonnami",
+   "type": "music",
+   "place": "Piwnica pod Baranami cabaret",
+   "lat": 50.0616,
+   "lon": 19.9355
+  },
+  {
+   "id": "6KmWTAcYcIKgBb1TI4IsPM",
+   "title": "A Nazi party member's factory becomes his redemption",
+   "type": "podcast",
+   "place": "Oskar Schindler’s Enamel Factory museum",
+   "lat": 50.0474,
+   "lon": 19.9616
+  },
+  {
+   "id": "5KJSYEIewrjLyhHfYjD7dQ",
+   "title": "A servant volunteers to be shot to prove a point",
+   "type": "podcast",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0619,
+   "lon": 19.9368
+  },
+  {
+   "id": "61YkiGoffBnDp1hIJ08vqL",
+   "title": "A pierogi crawl through Europe's largest medieval square",
+   "type": "podcast",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0619,
+   "lon": 19.9368
+  },
+  {
+   "id": "2GZT1Z3l4i2QJPai1gECT8",
+   "title": "A merchant's orphaned son upends the universe",
+   "type": "podcast",
+   "place": "Collegium Maius, Jagiellonian University",
+   "lat": 50.0616,
+   "lon": 19.9339
+  },
+  {
+   "id": "1oBVA9foekBOt2PYNKj4pF",
+   "title": "A dragon's cave becomes a kingdom's founding myth",
+   "type": "podcast",
+   "place": "Dragon’s Den cave (Smocza Jama), Wawel Hill",
+   "lat": 50.053,
+   "lon": 19.9336
+  },
+  {
+   "id": "4TQpM2e8VgD29J5rzvhSzI",
+   "title": "Rick Steves walks the old royal capital from square to castle",
+   "type": "video",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0614,
+   "lon": 19.9372
+  },
+  {
+   "id": "52cJNfNvVY5FOiCAoI6Uec",
+   "title": "A science-fiction writer predicts the internet from a Kraków desk",
+   "type": "podcast",
+   "place": "Salwator Cemetery",
+   "lat": 50.0527,
+   "lon": 19.9079
+  },
+  {
+   "id": "4ryEYJQM8ui5qh6xOyuxEs",
+   "title": "Life Is Bearable at Times (Chwilami życie bywa znośne)",
+   "type": "movie",
+   "place": "Writers’ House, Krupnicza Street",
+   "lat": 50.0631,
+   "lon": 19.9284
+  },
+  {
+   "id": "3XWe8OTXQcvKUSEAPLQc1h",
+   "title": "Inheritance",
+   "type": "movie",
+   "place": "Former Płaszów camp memorial site",
+   "lat": 50.0372,
+   "lon": 19.9652
+  },
+  {
+   "id": "sKGmH9KPa3bzMWhMJ8dw7",
+   "title": "Tom Holland and Dominic Sandbrook go down Poland’s salt mine",
+   "type": "podcast",
+   "place": "Wieliczka Salt Mine, Wieliczka",
+   "lat": 49.9833,
+   "lon": 20.0546
+  },
+  {
+   "id": "44tLEsEGt0Ob8WLRddQvUQ",
+   "title": "A historian walks the streets of Poland’s old royal capital",
+   "type": "podcast",
+   "place": "Cloth Hall (Sukiennice)",
+   "lat": 50.0616,
+   "lon": 19.937
+  },
+  {
+   "id": "44u6z7swNSOSQjbfAmKvYX",
+   "title": "Stalin’s planners build a steel town to outnumber the professors",
+   "type": "video",
+   "place": "Central Square (Plac Centralny), Nowa Huta",
+   "lat": 50.0718,
+   "lon": 20.0377
+  },
+  {
+   "id": "5yIiscSpQzKDpahAqeCsPf",
+   "title": "Miners carve chapels and chandeliers out of solid salt",
+   "type": "video",
+   "place": "Wieliczka Salt Mine, Wieliczka",
+   "lat": 49.9833,
+   "lon": 20.0553
+  },
+  {
+   "id": "5lXGpiKRs72rbyUrQDhlmV",
+   "title": "A royal capital comes through the war with its old town intact",
+   "type": "video",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0617,
+   "lon": 19.9373
+  },
+  {
+   "id": "1XJAp9du8GoGcssQW5DyJz",
+   "title": "Leonardo paints a duke’s teenage mistress holding a white stoat",
+   "type": "video",
+   "place": "Czartoryski Museum",
+   "lat": 50.0646,
+   "lon": 19.9406
+  },
+  {
+   "id": "23WUOaAWFD7E9wkrWAOprx",
+   "title": "Conservators spend six years cleaning a 500-year-old wooden altar",
+   "type": "video",
+   "place": "St Mary’s Basilica",
+   "lat": 50.0616,
+   "lon": 19.9394
+  },
+  {
+   "id": "3q8bUpZBqH5I2bufcE33RG",
+   "title": "A fourth-generation craftsman builds glittering churches from foil",
+   "type": "video",
+   "place": "Adam Mickiewicz Monument, Main Market Square",
+   "lat": 50.0614,
+   "lon": 19.9385
+  },
+  {
+   "id": "70u1LZT3NqwcDvuXG0wGS0",
+   "title": "A medieval king invites Jews to settle beside his new town",
+   "type": "video",
+   "place": "Szeroka Street",
+   "lat": 50.0517,
+   "lon": 19.948
+  },
+  {
+   "id": "4BRJQQN76kpVeskEhKSRGQ",
+   "title": "A girl is crowned king of Poland and leaves her jewels to a university",
+   "type": "podcast",
+   "place": "Wawel Cathedral",
+   "lat": 50.0543,
+   "lon": 19.9356
+  },
+  {
+   "id": "6SwY7Yw5k87ooeXqxsyJq",
+   "title": "A king’s 13-tonne bell rings out for its 500th birthday",
+   "type": "video",
+   "place": "Sigismund Tower, Wawel Cathedral",
+   "lat": 50.0546,
+   "lon": 19.9353
+  },
+  {
+   "id": "6FoGKy0BXiwq8OBrYLhehd",
+   "title": "A medieval town lies four metres under the market square",
+   "type": "video",
+   "place": "Rynek Underground museum",
+   "lat": 50.062,
+   "lon": 19.9368
+  },
+  {
+   "id": "34kEIIDxqdtHz0LcJPyzxs",
+   "title": "Tinfoil churches compete for a prize beside a poet’s statue",
+   "type": "video",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0617,
+   "lon": 19.9373
+  },
+  {
+   "id": "5lSqxBQchJaAlOxyyfr6XD",
+   "title": "Synagogues and courtyards return to life in the old Jewish town",
+   "type": "video",
+   "place": "Kazimierz district (area)",
+   "lat": 50.0517,
+   "lon": 19.9465
+  },
+  {
+   "id": "7NZmF3Z75SzBENED6ilqB",
+   "title": "A Nobel poet from Kraków asks who really likes poetry",
+   "type": "podcast",
+   "place": "Writers’ House, Krupnicza Street",
+   "lat": 50.0623,
+   "lon": 19.9283
+  },
+  {
+   "id": "72rnMR0ylNw65EeBD03qF8",
+   "title": "A boy from the Płaszów camp grows up to hunt its commandant",
+   "type": "podcast",
+   "place": "Former Płaszów camp memorial site",
+   "lat": 50.0355,
+   "lon": 19.9644
+  },
+  {
+   "id": "6H8MijSaftQDPCSzRwxcbU",
+   "title": "Farmers sell pickles, cheese and berries at an old city market",
+   "type": "video",
+   "place": "Stary Kleparz market",
+   "lat": 50.0687,
+   "lon": 19.942
+  },
+  {
+   "id": "2gzpsVfIxeXuGsips6NRZ6",
+   "title": "Kraków grows rich on trade and survives the Mongols of 1241",
+   "type": "podcast",
+   "place": "Main Market Square (Rynek Główny)",
+   "lat": 50.0617,
+   "lon": 19.9373
+  }
+ ]
+}

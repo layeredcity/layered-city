@@ -1,0 +1,621 @@
+{
+ "city": "Munich",
+ "pins": [
+  {
+   "id": "6ZKM4uUSemMlyqdYXZXb0t",
+   "title": "Lagrime di San Pietro: Il magnanimo Pietro",
+   "type": "music",
+   "place": "Orlando di Lasso statue, Promenadeplatz square",
+   "lat": 48.1401,
+   "lon": 11.5731
+  },
+  {
+   "id": "5wciXTNBXjBinutQheFN55",
+   "title": "Idomeneo, K. 366: Overture",
+   "type": "music",
+   "place": "Cuvilliés Theatre, Residenz palace",
+   "lat": 48.1408,
+   "lon": 11.5799
+  },
+  {
+   "id": "5VY3DU474fTUCtsNUNekGN",
+   "title": "Morgen!",
+   "type": "music",
+   "place": "Richard Strauss’s birthplace, Altheimer Eck",
+   "lat": 48.1375,
+   "lon": 11.5709
+  },
+  {
+   "id": "2S4lMQWBcAM4mGjllRyp6M",
+   "title": "Tristan und Isolde: Prelude",
+   "type": "music",
+   "place": "National Theatre opera house, Max-Joseph-Platz",
+   "lat": 48.1394,
+   "lon": 11.5786
+  },
+  {
+   "id": "1QSHtOeqyItd8lAIJ0kV6f",
+   "title": "Carmina Burana: O Fortuna",
+   "type": "music",
+   "place": "Bavarian State Library, Ludwigstraße",
+   "lat": 48.1477,
+   "lon": 11.5803
+  },
+  {
+   "id": "eb3feyLZsZ84UTLriz6jQ",
+   "title": "I Feel Love",
+   "type": "music",
+   "place": "Musicland Studios, Arabella high-rise, Bogenhausen",
+   "lat": 48.1525,
+   "lon": 11.6165
+  },
+  {
+   "id": "1XHvz5ftEPlW6n2xpVpdHl",
+   "title": "Skandal im Sperrbezirk",
+   "type": "music",
+   "place": "Bahnhofsviertel, around the main station",
+   "lat": 48.1385,
+   "lon": 11.5615
+  },
+  {
+   "id": "2jYpYNs7wk2Qq9sVQgMEK4",
+   "title": "Archangels Thunderbird",
+   "type": "music",
+   "place": "Leopoldstraße, Schwabing",
+   "lat": 48.158,
+   "lon": 11.5852
+  },
+  {
+   "id": "5AGhEJ4XGD0qbMQxh7YBK",
+   "title": "Die weiße Rose",
+   "type": "music",
+   "place": "Ludwig Maximilian University main building",
+   "lat": 48.1504,
+   "lon": 11.5798
+  },
+  {
+   "id": "5KpbEnNDw85CToPLYLFSs7",
+   "title": "Ich, Roque",
+   "type": "music",
+   "place": "Olympic Stadium, Olympiapark",
+   "lat": 48.1728,
+   "lon": 11.5471
+  },
+  {
+   "id": "7sjcYaanZxda0sBCj8ACZp",
+   "title": "Stadt die immer schläft",
+   "type": "music",
+   "place": "Englischer Garten park",
+   "lat": 48.152,
+   "lon": 11.59
+  },
+  {
+   "id": "5rd8gKB2x3q9YP12wWOd0N",
+   "title": "Ohne dich (schlaf’ ich heut’ Nacht nicht ein)",
+   "type": "music",
+   "place": "Münchner Freiheit square, Schwabing",
+   "lat": 48.1622,
+   "lon": 11.5866
+  },
+  {
+   "id": "epZXFlXViit0jeGcnZL2x",
+   "title": "Living on My Own",
+   "type": "music",
+   "place": "Old Mrs Henderson nightclub (now Paradiso), Glockenbach",
+   "lat": 48.1332,
+   "lon": 11.5749
+  },
+  {
+   "id": "7jqho4Es16OMK4p4VKYHhp",
+   "title": "Lola Montez: A Life",
+   "type": "book",
+   "place": "Gallery of Beauties, Nymphenburg Palace",
+   "lat": 48.1581,
+   "lon": 11.5036
+  },
+  {
+   "id": "5EwCyaxS4bOjZnvnPOBmsY",
+   "title": "Gladius Dei",
+   "type": "book",
+   "place": "Odeonsplatz",
+   "lat": 48.1424,
+   "lon": 11.5772
+  },
+  {
+   "id": "Q86D98hRz6qaPnisFCsiX",
+   "title": "The Swan King: Ludwig II of Bavaria",
+   "type": "book",
+   "place": "National Theatre opera house",
+   "lat": 48.1394,
+   "lon": 11.5794
+  },
+  {
+   "id": "LnoU486RpODTJJfArVOVr",
+   "title": "A Time of Gifts",
+   "type": "book",
+   "place": "Hofbräuhaus beer hall",
+   "lat": 48.1378,
+   "lon": 11.5802
+  },
+  {
+   "id": "4MrVYM6BTEOyoSnW1cqvI6",
+   "title": "Where Ghosts Walked: Munich’s Road to the Third Reich",
+   "type": "book",
+   "place": "Site of the Bürgerbräukeller beer hall, Gasteig",
+   "lat": 48.1301,
+   "lon": 11.5927
+  },
+  {
+   "id": "6jowt3la4gnzWog8NYXtB1",
+   "title": "Concerning the Spiritual in Art",
+   "type": "book",
+   "place": "Lenbachhaus art museum",
+   "lat": 48.1469,
+   "lon": 11.5636
+  },
+  {
+   "id": "6OlDAZzDZBoMw7pNubTRRq",
+   "title": "The Munich Art Hoard: Hitler’s Dealer and His Secret Legacy",
+   "type": "book",
+   "place": "Hofgarten arcades, site of the 1937 Degenerate Art show",
+   "lat": 48.1436,
+   "lon": 11.5803
+  },
+  {
+   "id": "1Zm3Ae88ySL0DTKsyOvyKp",
+   "title": "The White Rose: Munich 1942–1943",
+   "type": "book",
+   "place": "Ludwig Maximilian University main building",
+   "lat": 48.151,
+   "lon": 11.5806
+  },
+  {
+   "id": "1G6yrTZIn24LCbIRAWFNie",
+   "title": "Munich",
+   "type": "book",
+   "place": "Führerbau, now University of Music",
+   "lat": 48.1463,
+   "lon": 11.5678
+  },
+  {
+   "id": "4IMpQIXJzQOyZnWLVtu2Ff",
+   "title": "One Day in September",
+   "type": "book",
+   "place": "Connollystraße 31, Olympic Village",
+   "lat": 48.1795,
+   "lon": 11.5489
+  },
+  {
+   "id": "4dNqzg1pddd6r8cK3mac1z",
+   "title": "Munich Through the Centuries: Highlights of the Historic City Centre",
+   "type": "audiotour",
+   "place": "Marienplatz",
+   "lat": 48.1373,
+   "lon": 11.5756
+  },
+  {
+   "id": "1nhcCdCqNgmGnMeyVnmakh",
+   "title": "Munich’s Third Reich: The City’s Role in Nazi Germany",
+   "type": "audiotour",
+   "place": "Isartor city gate",
+   "lat": 48.1353,
+   "lon": 11.5815
+  },
+  {
+   "id": "64I4PWCa5HZyIfmjpKS2VT",
+   "title": "Munich’s Old Town: A Family-Friendly Tour of Its Secrets and Legends",
+   "type": "audiotour",
+   "place": "Odeonsplatz",
+   "lat": 48.1424,
+   "lon": 11.5772
+  },
+  {
+   "id": "4FqsJoDHQZrOow5rJuZi0o",
+   "title": "Nazi History of Munich: A Tour with Context",
+   "type": "audiotour",
+   "place": "Marienplatz",
+   "lat": 48.1372,
+   "lon": 11.5754
+  },
+  {
+   "id": "3FDa059yofJRmSTNzjTjCT",
+   "title": "Munching on Munich: A Guide to its Cafés and Culinary Highlights",
+   "type": "audiotour",
+   "place": "Isartor city gate",
+   "lat": 48.1352,
+   "lon": 11.5817
+  },
+  {
+   "id": "7soswZNsHc0n16cg5Q6k2l",
+   "title": "Flavors of Bavaria: A Food Tour in Munich with Context",
+   "type": "audiotour",
+   "place": "Sendlinger Tor city gate",
+   "lat": 48.134,
+   "lon": 11.5675
+  },
+  {
+   "id": "2IdJQvwcBUGUwZdZGxxyC3",
+   "title": "Munich’s Beer Culture: A Walking Tour of its Biergartens with Context",
+   "type": "audiotour",
+   "place": "Karlsplatz (Stachus) square",
+   "lat": 48.1392,
+   "lon": 11.5662
+  },
+  {
+   "id": "5MCLNGuHjmSvdRcljt5uJa",
+   "title": "Bayern: Creating a Global Superclub",
+   "type": "book",
+   "place": "Allianz Arena stadium",
+   "lat": 48.2186,
+   "lon": 11.624
+  },
+  {
+   "id": "1npeuIY1bWm2KF0LzW4wrU",
+   "title": "A Youth in Germany",
+   "type": "book",
+   "place": "Kurt Eisner memorial, Kardinal-Faulhaber-Straße",
+   "lat": 48.14,
+   "lon": 11.5738
+  },
+  {
+   "id": "0cEEbZu1giTGY1D2jmGWe",
+   "title": "In München steht ein Hofbräuhaus",
+   "type": "music",
+   "place": "Hofbräuhaus beer hall",
+   "lat": 48.1375,
+   "lon": 11.5797
+  },
+  {
+   "id": "sZm2rHsKNnkuPPDSRifpa",
+   "title": "Solang der alte Peter",
+   "type": "music",
+   "place": "St Peter’s Church (Alter Peter)",
+   "lat": 48.1364,
+   "lon": 11.5761
+  },
+  {
+   "id": "2X8bnx2UqSsLzRWQqfhN1x",
+   "title": "Welcome to Germany",
+   "type": "movie",
+   "place": "Munich Hauptbahnhof, central station",
+   "lat": 48.1404,
+   "lon": 11.5596
+  },
+  {
+   "id": "28iMfJn4IQIALv4HI3wngm",
+   "title": "Munich: Secrets of a City",
+   "type": "movie",
+   "place": "Marienplatz",
+   "lat": 48.1372,
+   "lon": 11.5758
+  },
+  {
+   "id": "4vZ0XfZHqLqsiEyv4POFfr",
+   "title": "Rossini",
+   "type": "movie",
+   "place": "Former Romagna Antica restaurant, Elisabethstraße",
+   "lat": 48.1598,
+   "lon": 11.5654
+  },
+  {
+   "id": "510LtMy8WaOMCRxSujsONM",
+   "title": "Der blinde Fleck",
+   "type": "movie",
+   "place": "Oktoberfest bombing memorial, Theresienwiese main entrance",
+   "lat": 48.136,
+   "lon": 11.5505
+  },
+  {
+   "id": "2PwXS2mAHxVCB2yqotaNkW",
+   "title": "Love to Love You, Donna Summer",
+   "type": "movie",
+   "place": "Arabellahaus, former Musicland Studios",
+   "lat": 48.1529,
+   "lon": 11.6172
+  },
+  {
+   "id": "2CZmI3qQl1k8J8dGG47Vw0",
+   "title": "Ali: Fear Eats the Soul",
+   "type": "movie",
+   "place": "Osteria Italiana restaurant, Schellingstraße",
+   "lat": 48.1515,
+   "lon": 11.5722
+  },
+  {
+   "id": "4NMnv5FEm0nysrsdycrQu",
+   "title": "September 5",
+   "type": "movie",
+   "place": "Olympic Park, near the TV tower",
+   "lat": 48.1743,
+   "lon": 11.5537
+  },
+  {
+   "id": "5rvVBIbpeI2YwGiQCFV9lX",
+   "title": "One Day in September",
+   "type": "movie",
+   "place": "Connollystraße 31, former Olympic Village",
+   "lat": 48.1799,
+   "lon": 11.5494
+  },
+  {
+   "id": "26PUZhBtMCHrBNc6gSnqz2",
+   "title": "Visions of Eight",
+   "type": "movie",
+   "place": "Olympic Stadium",
+   "lat": 48.1733,
+   "lon": 11.5462
+  },
+  {
+   "id": "5bN4KwodgSsqlnJ9kpxKh1",
+   "title": "Go for It, Baby",
+   "type": "movie",
+   "place": "Türkenstraße, Maxvorstadt",
+   "lat": 48.1503,
+   "lon": 11.5759
+  },
+  {
+   "id": "2BYcN1OY18KBpBnQDk7SRw",
+   "title": "Sophie Scholl – The Final Days",
+   "type": "movie",
+   "place": "Ludwig Maximilian University atrium",
+   "lat": 48.1508,
+   "lon": 11.5803
+  },
+  {
+   "id": "5garogkxtrxPq3nHVMlE2b",
+   "title": "13 Minutes",
+   "type": "movie",
+   "place": "Site of the Bürgerbräukeller beer hall, Gasteig",
+   "lat": 48.1299,
+   "lon": 11.5929
+  },
+  {
+   "id": "JZlMnpKtMeXKHwLDl26FS",
+   "title": "Munich: The Edge of War",
+   "type": "movie",
+   "place": "Führerbau, Arcisstraße 12",
+   "lat": 48.1461,
+   "lon": 11.5674
+  },
+  {
+   "id": "5cHtI6MqMJsyKStttNyV63",
+   "title": "Ludwig",
+   "type": "movie",
+   "place": "Cuvilliés Theatre, Residenz palace",
+   "lat": 48.1409,
+   "lon": 11.5801
+  },
+  {
+   "id": "5gBVQllzhqoOO6Bd0UrWHR",
+   "title": "Pastel colours and pictograms for a cheerful Olympics",
+   "type": "video",
+   "place": "Olympic Stadium, Olympiapark",
+   "lat": 48.1731,
+   "lon": 11.5466
+  },
+  {
+   "id": "2t99MbGkA4wBqYpMwVxKYi",
+   "title": "Letters from the Jewish president who built FC Bayern",
+   "type": "video",
+   "place": "FC Bayern Museum, Allianz Arena",
+   "lat": 48.2188,
+   "lon": 11.6236
+  },
+  {
+   "id": "2UnpQoFIuSsklqxgVtESnY",
+   "title": "Litres, visitors and records at the world’s biggest beer festival",
+   "type": "video",
+   "place": "Oktoberfest beer tents, Theresienwiese",
+   "lat": 48.1336,
+   "lon": 11.5482
+  },
+  {
+   "id": "4zyE1EM4hYHhPDVjNr0NMJ",
+   "title": "After the king flees, Bavaria tries a revolution of its own",
+   "type": "video",
+   "place": "Kurt Eisner memorial, Kardinal-Faulhaber-Strasse",
+   "lat": 48.1401,
+   "lon": 11.5737
+  },
+  {
+   "id": "5t5nqjr5SEMa2EL7CjWeKQ",
+   "title": "US Army engineers blow up the Nazis’ temples of honour",
+   "type": "video",
+   "place": "Ehrentempel bases, Königsplatz",
+   "lat": 48.1453,
+   "lon": 11.5683
+  },
+  {
+   "id": "6Y94Ll2nuRVlr6aFrz4snd",
+   "title": "Live television turns a hostage siege into a global broadcast",
+   "type": "video",
+   "place": "Olympic Village, Connollystraße 31",
+   "lat": 48.1797,
+   "lon": 11.5491
+  },
+  {
+   "id": "5Rtx0PQrrGYjZ2BZyHvKDM",
+   "title": "The beer festival’s uncomfortable chapters",
+   "type": "video",
+   "place": "Theresienwiese, Oktoberfest grounds",
+   "lat": 48.1316,
+   "lon": 11.5496
+  },
+  {
+   "id": "4UMq8WcpQwQzQKXO2DUPmw",
+   "title": "Surfers ride a standing wave in the middle of the city",
+   "type": "video",
+   "place": "Eisbach surf wave, Englischer Garten",
+   "lat": 48.1435,
+   "lon": 11.5878
+  },
+  {
+   "id": "3dh7zxIMy8vq94tEyLNike",
+   "title": "From the town hall glockenspiel to the city’s open-air food market",
+   "type": "video",
+   "place": "Viktualienmarkt food market",
+   "lat": 48.1351,
+   "lon": 11.5762
+  },
+  {
+   "id": "2zvwmwfHg2ZlfewNZHBSFy",
+   "title": "Room after room of Wittelsbach splendour in the royal palace",
+   "type": "video",
+   "place": "Residenz palace",
+   "lat": 48.141,
+   "lon": 11.579
+  },
+  {
+   "id": "35Nn8KEyiX4Kz2nQWGa6lR",
+   "title": "Hitler opens a temple for art and a show to mock the rest",
+   "type": "video",
+   "place": "Haus der Kunst art museum",
+   "lat": 48.1441,
+   "lon": 11.586
+  },
+  {
+   "id": "3uC9JHFh35MKqc7F6Wb3hg",
+   "title": "Greek temple sculptures change style between front and back",
+   "type": "video",
+   "place": "Glyptothek sculpture museum, Königsplatz",
+   "lat": 48.1466,
+   "lon": 11.5653
+  },
+  {
+   "id": "3c4V0FvasUTMQ7k639Vm8c",
+   "title": "A sleeping satyr bought by a crown prince for his new museum",
+   "type": "video",
+   "place": "Glyptothek sculpture museum, Königsplatz",
+   "lat": 48.1465,
+   "lon": 11.5658
+  },
+  {
+   "id": "5GrnUVATcFinM0cYljNB4A",
+   "title": "A duke commissions an ancient battle that fills the whole sky",
+   "type": "video",
+   "place": "Alte Pinakothek art museum",
+   "lat": 48.148,
+   "lon": 11.5703
+  },
+  {
+   "id": "74oPah9i1PPBFegPXY35uo",
+   "title": "Two painted panels Dürer gave to his own city",
+   "type": "video",
+   "place": "Alte Pinakothek art museum",
+   "lat": 48.1484,
+   "lon": 11.5698
+  },
+  {
+   "id": "3qXtlPTzZNbOpaKoEmM88m",
+   "title": "Dürer paints himself to look like Christ",
+   "type": "video",
+   "place": "Alte Pinakothek art museum",
+   "lat": 48.1482,
+   "lon": 11.57
+  },
+  {
+   "id": "5D0P5tOQv1VFzVIehFyWQu",
+   "title": "Eight centuries of a city that kept reinventing itself",
+   "type": "podcast",
+   "place": "Marienplatz",
+   "lat": 48.1374,
+   "lon": 11.5755
+  },
+  {
+   "id": "1p34gukwOa0LfiRolNVz1N",
+   "title": "Germany locks Hitler’s book away in a library’s poison cabinet",
+   "type": "podcast",
+   "place": "Bavarian State Library",
+   "lat": 48.1474,
+   "lon": 11.5806
+  },
+  {
+   "id": "2X1vloj42HkKd4Q5pmGo2O",
+   "title": "A Cold War radio editor tells his wife he has been spying for the KGB",
+   "type": "podcast",
+   "place": "Former Radio Free Europe/Radio Liberty building, Englischer Garten",
+   "lat": 48.1499,
+   "lon": 11.594
+  },
+  {
+   "id": "63h0SOdoEpXqkmYcofHThs",
+   "title": "Chamberlain flies to meet Hitler and comes home waving a piece of paper",
+   "type": "podcast",
+   "place": "Führerbau, now the University of Music and Performing Arts",
+   "lat": 48.1458,
+   "lon": 11.5668
+  },
+  {
+   "id": "36iBsbxID71cJ2aY89DQVh",
+   "title": "Three seconds are replayed until the Americans lose a gold medal",
+   "type": "podcast",
+   "place": "Rudi-Sedlmayer-Halle (1972 Olympic basketball hall)",
+   "lat": 48.126,
+   "lon": 11.5254
+  },
+  {
+   "id": "5kIvkFSm2b1giYxjOwpgwS",
+   "title": "A basement studio under a tower block invents the sound of the future",
+   "type": "podcast",
+   "place": "Musicland Studios, Arabella High-Rise",
+   "lat": 48.1527,
+   "lon": 11.618
+  },
+  {
+   "id": "2cVOHBfoooJjKLitr4EvwV",
+   "title": "A snowbound takeoff destroys a great young football team",
+   "type": "podcast",
+   "place": "Munich air disaster memorial, Trudering",
+   "lat": 48.1261,
+   "lon": 11.6778
+  },
+  {
+   "id": "3p7L1jQC6tasaUEfXn7MOx",
+   "title": "Hitler’s own exhibition of the art he wanted the public to sneer at",
+   "type": "podcast",
+   "place": "Hofgarten arcades, Galeriestraße",
+   "lat": 48.143,
+   "lon": 11.5795
+  },
+  {
+   "id": "3m7E0yXKYlGJg8tf2LNM0d",
+   "title": "Students scatter leaflets in a university atrium and pay with their lives",
+   "type": "podcast",
+   "place": "Ludwig Maximilian University main building",
+   "lat": 48.1506,
+   "lon": 11.5803
+  },
+  {
+   "id": "7ABCTp8KYUuzPKrj66rNuf",
+   "title": "An unknown agitator storms a beer hall and stumbles into a myth",
+   "type": "podcast",
+   "place": "Site of the Bürgerbräukeller beer hall",
+   "lat": 48.1303,
+   "lon": 11.5903
+  },
+  {
+   "id": "1EQXtPIvpN69X3bRIB3ppX",
+   "title": "A mad king’s money gets Wagner’s strangest opera onto the stage",
+   "type": "podcast",
+   "place": "National Theatre (Bavarian State Opera)",
+   "lat": 48.1395,
+   "lon": 11.5789
+  },
+  {
+   "id": "1uH0CprKrJM4TdyYqwDVsn",
+   "title": "An Irish dancer posing as a Spaniard costs a king his throne",
+   "type": "podcast",
+   "place": "Gallery of Beauties, Nymphenburg Palace",
+   "lat": 48.1583,
+   "lon": 11.5033
+  },
+  {
+   "id": "xegtDjV98H5ERaDKaHJSF",
+   "title": "A castle-building king is deposed and found dead in a lake",
+   "type": "podcast",
+   "place": "St Michael’s Church (Ludwig II’s tomb)",
+   "lat": 48.1389,
+   "lon": 11.5704
+  }
+ ]
+}

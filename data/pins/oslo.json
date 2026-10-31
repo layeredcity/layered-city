@@ -1,0 +1,597 @@
+{
+ "city": "Oslo",
+ "pins": [
+  {
+   "id": "4t91BbeEl78lhjsM1OQAlP",
+   "title": "The Almost Nearly Perfect People",
+   "type": "book",
+   "place": "City Hall (Rådhuset)",
+   "lat": 59.9071,
+   "lon": 10.7335
+  },
+  {
+   "id": "3MArTPOby4SNFzcaAIJ4W9",
+   "title": "The Best of Oslo's City Centre: From the Royal Palace to Aker Brygge",
+   "type": "audiotour",
+   "place": "Royal Palace",
+   "lat": 59.9168,
+   "lon": 10.7283
+  },
+  {
+   "id": "5ccBaoTxf3qtuHN7Ss46IR",
+   "title": "Edvard Munch: Behind the Scream",
+   "type": "book",
+   "place": "MUNCH museum",
+   "lat": 59.9057,
+   "lon": 10.7553
+  },
+  {
+   "id": "2pUMmQmLjKcS3pByFajLNg",
+   "title": "Oslo Walking Tour: A Waterfront Stroll from East to West",
+   "type": "audiotour",
+   "place": "MUNCH museum",
+   "lat": 59.9062,
+   "lon": 10.7553
+  },
+  {
+   "id": "3URnzycgEx3qJnC2HwFrRO",
+   "title": "Farthest North",
+   "type": "book",
+   "place": "Fram Museum",
+   "lat": 59.9033,
+   "lon": 10.6994
+  },
+  {
+   "id": "OQ5FXP7Vg5oBwgXKZgFkb",
+   "title": "Akerselva Walking Tour: Oslo's Industrial and Working-Class Story",
+   "type": "audiotour",
+   "place": "Vaterland Park",
+   "lat": 59.9136,
+   "lon": 10.7579
+  },
+  {
+   "id": "6sgCnGWY0oVfVfyOs84kDE",
+   "title": "Classic Oslo Walking Tour: Central Station to The Akershus Castle and Fortress",
+   "type": "audiotour",
+   "place": "Oslo Central Station (Oslo S)",
+   "lat": 59.9114,
+   "lon": 10.7505
+  },
+  {
+   "id": "5jf3Nnalu8xYVegmoUJQVE",
+   "title": "Downtown Oslo: Exploring the City's Highlights and History",
+   "type": "audiotour",
+   "place": "City Hall Square (Rådhusplassen)",
+   "lat": 59.9109,
+   "lon": 10.7328
+  },
+  {
+   "id": "2yiKyu5HDplHBLu7ONMLtV",
+   "title": "Kon-Tiki",
+   "type": "book",
+   "place": "Kon-Tiki Museum",
+   "lat": 59.9035,
+   "lon": 10.698
+  },
+  {
+   "id": "1tiGGUMmGxV8I3U4iADhUh",
+   "title": "Hunger",
+   "type": "book",
+   "place": "Harbour below Akershus Fortress (area)",
+   "lat": 59.9028,
+   "lon": 10.7411
+  },
+  {
+   "id": "2AWrZBuiRFmZmRJjBLGhV4",
+   "title": "Henrik Ibsen: A New Biography",
+   "type": "book",
+   "place": "Grand Café, Karl Johans gate",
+   "lat": 59.9137,
+   "lon": 10.7394
+  },
+  {
+   "id": "5JwV84kV2djBVawKtebzvI",
+   "title": "The Redbreast",
+   "type": "book",
+   "place": "Schrøder restaurant, Waldemar Thranes gate",
+   "lat": 59.923,
+   "lon": 10.7389
+  },
+  {
+   "id": "7FTyv06Sb347gCPaCQaVB9",
+   "title": "In the Wake",
+   "type": "book",
+   "place": "Bogstadveien street",
+   "lat": 59.9272,
+   "lon": 10.7201
+  },
+  {
+   "id": "6SlEEYV4QQ8m0IoFa06HXt",
+   "title": "One of Us",
+   "type": "book",
+   "place": "Government Quarter (Regjeringskvartalet)",
+   "lat": 59.915,
+   "lon": 10.7461
+  },
+  {
+   "id": "1mX3xaWILuH2iiviJlitmo",
+   "title": "The Half Brother",
+   "type": "book",
+   "place": "Bislett (area)",
+   "lat": 59.9215,
+   "lon": 10.7333
+  },
+  {
+   "id": "7jCTBUFVqCy1bLFRZoTV39",
+   "title": "Håper du har plass",
+   "type": "music",
+   "place": "Grønland (area)",
+   "lat": 59.9127,
+   "lon": 10.7614
+  },
+  {
+   "id": "4p4B3EWXBK5o7X5C1ERsAl",
+   "title": "Brother Wind",
+   "type": "music",
+   "place": "Rainbow Studio, Grünerløkka",
+   "lat": 59.9268,
+   "lon": 10.764
+  },
+  {
+   "id": "MeIgbLRmKuAtm9nAp5zjH",
+   "title": "Inspector Norse",
+   "type": "music",
+   "place": "Blindern campus, University of Oslo",
+   "lat": 59.9397,
+   "lon": 10.718
+  },
+  {
+   "id": "1VdDlZ9NbW12dfYqkKE7qW",
+   "title": "Alt kan repareres",
+   "type": "music",
+   "place": "Grünerløkka (area)",
+   "lat": 59.9247,
+   "lon": 10.7594
+  },
+  {
+   "id": "7qH6IdvEtP93ojtusC8Shg",
+   "title": "Take On Me",
+   "type": "music",
+   "place": "Oslo Spektrum arena",
+   "lat": 59.9127,
+   "lon": 10.7539
+  },
+  {
+   "id": "1yiSLbEAu9a7vHbzZwFalB",
+   "title": "Romance for Violin and Orchestra, Op. 26",
+   "type": "music",
+   "place": "National Theatre",
+   "lat": 59.9144,
+   "lon": 10.7343
+  },
+  {
+   "id": "2ifhNZJGKbaezjeQiNqKl9",
+   "title": "i wanna be your girlfriend",
+   "type": "music",
+   "place": "Grünerløkka (area)",
+   "lat": 59.9247,
+   "lon": 10.7696
+  },
+  {
+   "id": "nUebqOrlrbzZYqmK3lMFS",
+   "title": "Alexander Kiellands plass",
+   "type": "music",
+   "place": "Alexander Kiellands plass square",
+   "lat": 59.9277,
+   "lon": 10.7504
+  },
+  {
+   "id": "1GGYXgHIJdTIbaYMi9PuRe",
+   "title": "Mother North",
+   "type": "music",
+   "place": "Former Helvete record shop, Schweigaards gate",
+   "lat": 59.9085,
+   "lon": 10.7697
+  },
+  {
+   "id": "6pxj1PMJfwXCD4lK46gwSU",
+   "title": "Påfugl",
+   "type": "music",
+   "place": "Holmlia (area)",
+   "lat": 59.8343,
+   "lon": 10.7903
+  },
+  {
+   "id": "1XFMsCB3yLy1miHhNCytve",
+   "title": "Majesty",
+   "type": "music",
+   "place": "",
+   "lat": 59.9139,
+   "lon": 10.7522
+  },
+  {
+   "id": "5dvPYkKAmSVIyAzkK1zutr",
+   "title": "Beggin’",
+   "type": "music",
+   "place": "",
+   "lat": 59.9066,
+   "lon": 10.8232
+  },
+  {
+   "id": "7xc8Ouxc2rSNOQI8pb2K63",
+   "title": "Lovers",
+   "type": "music",
+   "place": "",
+   "lat": 59.9127,
+   "lon": 10.7461
+  },
+  {
+   "id": "2yDsuR0VGUVLfA9sneoQM4",
+   "title": "Italia",
+   "type": "music",
+   "place": "Tøyen and Gamlebyen (area)",
+   "lat": 59.9145,
+   "lon": 10.769
+  },
+  {
+   "id": "6xyO4eP7zdKKKByHh5sxkf",
+   "title": "The Age of Pamparius",
+   "type": "music",
+   "place": "Youngstorget square",
+   "lat": 59.9139,
+   "lon": 10.7495
+  },
+  {
+   "id": "1L4HUmvJs9SpTRQlp6VFB8",
+   "title": "Hunger (Sult)",
+   "type": "movie",
+   "place": "Karl Johans gate (main street)",
+   "lat": 59.914,
+   "lon": 10.74
+  },
+  {
+   "id": "7MbMhuwp55sWG2IpkrqnyE",
+   "title": "Headhunters (Hodejegerne)",
+   "type": "movie",
+   "place": "Aker Brygge (area)",
+   "lat": 59.9097,
+   "lon": 10.7267
+  },
+  {
+   "id": "4dmjaWPxTxpSCoIp5Hxwgc",
+   "title": "Hope (Håp)",
+   "type": "movie",
+   "place": "Lovisenberg hospice",
+   "lat": 59.9335,
+   "lon": 10.7468
+  },
+  {
+   "id": "4nDGAzOUsSsHh4pm6jIsQv",
+   "title": "Elling",
+   "type": "movie",
+   "place": "Majorstuen (area)",
+   "lat": 59.928,
+   "lon": 10.715
+  },
+  {
+   "id": "2Kxocx4aTgBwxMs4bvmSqy",
+   "title": "The Bothersome Man (Den brysomme mannen)",
+   "type": "movie",
+   "place": "Bjørvika (area)",
+   "lat": 59.907,
+   "lon": 10.757
+  },
+  {
+   "id": "1JMmddTnl3rytWtc9dbmr9",
+   "title": "Max Manus (Man of War)",
+   "type": "movie",
+   "place": "Akershus Fortress waterfront",
+   "lat": 59.907,
+   "lon": 10.735
+  },
+  {
+   "id": "6rD61RGUh6AE6dzqZKNbQe",
+   "title": "22 July",
+   "type": "movie",
+   "place": "Government Quarter (Regjeringskvartalet)",
+   "lat": 59.9155,
+   "lon": 10.752
+  },
+  {
+   "id": "OCxqr7x6pGaTkxr0bCDXw",
+   "title": "Oslo, August 31st (Oslo, 31. august)",
+   "type": "movie",
+   "place": "City centre (area)",
+   "lat": 59.915,
+   "lon": 10.733
+  },
+  {
+   "id": "6wHR1JvqjW3YfmnQbSLQ8d",
+   "title": "Edvard Munch",
+   "type": "movie",
+   "place": "Grünerløkka (area)",
+   "lat": 59.923,
+   "lon": 10.7585
+  },
+  {
+   "id": "4DjgsLXxRxyratT1t0qS6K",
+   "title": "Sick of Myself (Syk pike)",
+   "type": "movie",
+   "place": "Grünerløkka (area)",
+   "lat": 59.9245,
+   "lon": 10.76
+  },
+  {
+   "id": "30VsAZ2HFs38tDe25biwJc",
+   "title": "The Innocents (De uskyldige)",
+   "type": "movie",
+   "place": "Romsås estate (area)",
+   "lat": 59.964,
+   "lon": 10.89
+  },
+  {
+   "id": "1slsyy6IgTR0225Ecgblb0",
+   "title": "A forest grows to print books no one has read yet",
+   "type": "podcast",
+   "place": "Future Library forest, Nordmarka",
+   "lat": 59.9863,
+   "lon": 10.6968
+  },
+  {
+   "id": "677hTQInGphVIPDtZ1gLBR",
+   "title": "A brother's masterpiece hides in permanent darkness",
+   "type": "podcast",
+   "place": "Emanuel Vigeland Museum",
+   "lat": 59.9471,
+   "lon": 10.6926
+  },
+  {
+   "id": "QMqgBhJE3Nw2TjX2eS6Rk",
+   "title": "A raft of balsa wood crosses the Pacific to prove a theory",
+   "type": "podcast",
+   "place": "Kon-Tiki Museum",
+   "lat": 59.9035,
+   "lon": 10.698
+  },
+  {
+   "id": "2zEPQiuCM8ccBHaWfXTaqo",
+   "title": "A record shop basement becomes a genre's ground zero",
+   "type": "podcast",
+   "place": "Former Helvete record shop, Schweigaards gate",
+   "lat": 59.9084,
+   "lon": 10.7695
+  },
+  {
+   "id": "6RyWIxB35kHEgOTsI05u3y",
+   "title": "A Doll's House shocks Europe into rethinking marriage",
+   "type": "podcast",
+   "place": "Ibsen Museum (Ibsen’s apartment), Arbins gate",
+   "lat": 59.9152,
+   "lon": 10.727
+  },
+  {
+   "id": "7G4ntbLX6qzxBNnUruDUy7",
+   "title": "A historian traces Oslo from Viking outpost to modern capital",
+   "type": "podcast",
+   "place": "Akershus Fortress",
+   "lat": 59.9076,
+   "lon": 10.7371
+  },
+  {
+   "id": "u1Pl0YFeS9GtDV6rMVUE8",
+   "title": "A confused will creates the world's most contested prize",
+   "type": "podcast",
+   "place": "University Aula, Karl Johans gate",
+   "lat": 59.915,
+   "lon": 10.7358
+  },
+  {
+   "id": "6oXYVdodpeAwiYs8z4Qllm",
+   "title": "A prime minister recalls building a fund to outlast the oil",
+   "type": "podcast",
+   "place": "Parliament building (Stortinget)",
+   "lat": 59.913,
+   "lon": 10.74
+  },
+  {
+   "id": "xVHbOqlv1HxL5910tzBu2",
+   "title": "A teenager’s murder brings tens of thousands onto the streets",
+   "type": "podcast",
+   "place": "Holmlia (area)",
+   "lat": 59.8357,
+   "lon": 10.7975
+  },
+  {
+   "id": "1ZeSqTn3UX36iAkshHlJgv",
+   "title": "A sloping marble roof invites the whole city to walk on the opera",
+   "type": "video",
+   "place": "Opera House",
+   "lat": 59.9075,
+   "lon": 10.7531
+  },
+  {
+   "id": "4vF7yd0OxggnXNm0L2xOBI",
+   "title": "A politician’s surname becomes a word for traitor",
+   "type": "podcast",
+   "place": "Villa Grande (Norwegian Holocaust Center)",
+   "lat": 59.9075,
+   "lon": 10.687
+  },
+  {
+   "id": "2gnAYl5vMIG6z6AbierBMI",
+   "title": "Two women are buried in a ship that survives eleven centuries",
+   "type": "video",
+   "place": "Museum of the Viking Age (Viking Ship Museum)",
+   "lat": 59.9049,
+   "lon": 10.6847
+  },
+  {
+   "id": "3MQP92eS8bZ09l4tY3pH6k",
+   "title": "A girl from Oslo wins three Olympics, then conquers Hollywood",
+   "type": "podcast",
+   "place": "Sonja Henie statue, Frogner Stadium",
+   "lat": 59.9282,
+   "lon": 10.7104
+  },
+  {
+   "id": "7AKeJ7riwar8E7lrSYc4Rj",
+   "title": "One sculptor fills a city park with 200 naked figures",
+   "type": "video",
+   "place": "Vigeland Sculpture Park, Frogner Park",
+   "lat": 59.927,
+   "lon": 10.7008
+  },
+  {
+   "id": "1rzaLGhSAqU9OYvWhI5XRl",
+   "title": "A Viking museum is rebuilt around ships too fragile to move far",
+   "type": "video",
+   "place": "Museum of the Viking Age (Viking Ship Museum)",
+   "lat": 59.905,
+   "lon": 10.685
+  },
+  {
+   "id": "7Zlr66elaQ0LkGgwCvI8Q",
+   "title": "A ski jump towers over the city that made skiing a sport",
+   "type": "video",
+   "place": "Holmenkollen ski jump",
+   "lat": 59.964,
+   "lon": 10.6676
+  },
+  {
+   "id": "1MN51AGwizth1nSO3efmGK",
+   "title": "Office workers take a sauna break and jump into the fjord",
+   "type": "video",
+   "place": "Floating saunas, Bjørvika harbour",
+   "lat": 59.9078,
+   "lon": 10.748
+  },
+  {
+   "id": "OG0AQg4QiccKgehqkbtGs",
+   "title": "A polar hero becomes a champion for stateless refugees",
+   "type": "podcast",
+   "place": "Fram Museum",
+   "lat": 59.9034,
+   "lon": 10.6997
+  },
+  {
+   "id": "5mKOD3PLqn70lWpXGUOWff",
+   "title": "Thieves steal 'The Scream' in under a minute",
+   "type": "podcast",
+   "place": "National Museum",
+   "lat": 59.9115,
+   "lon": 10.7292
+  },
+  {
+   "id": "1fK4ATO99CJU1B0nyQQORN",
+   "title": "A nation’s art collections move under one enormous roof",
+   "type": "video",
+   "place": "National Museum",
+   "lat": 59.9113,
+   "lon": 10.7297
+  },
+  {
+   "id": "48B0KityRx0gUJyxWzmAbu",
+   "title": "Old farmhouses and a stave church are rebuilt on a city peninsula",
+   "type": "video",
+   "place": "Norwegian Folk Museum",
+   "lat": 59.9075,
+   "lon": 10.6847
+  },
+  {
+   "id": "ZYbyVLIhua7rveIqYv2qQ",
+   "title": "A container port is turned into a city on the water",
+   "type": "video",
+   "place": "Barcode towers, Bjørvika",
+   "lat": 59.9083,
+   "lon": 10.759
+  },
+  {
+   "id": "5olE26OEOUAnGlz9YCDgz2",
+   "title": "Secret talks run by Norwegian diplomats lead to a Middle East handshake",
+   "type": "podcast",
+   "place": "Victoria Terrasse (Foreign Ministry)",
+   "lat": 59.9136,
+   "lon": 10.73
+  },
+  {
+   "id": "273kUMXgGVYfcWrzF1eGQP",
+   "title": "A secret detour wins the race to the South Pole",
+   "type": "podcast",
+   "place": "Fram Museum",
+   "lat": 59.9034,
+   "lon": 10.6997
+  },
+  {
+   "id": "3UfLfyEHOQA68W90CnvZ4K",
+   "title": "A seafaring nation keeps its famous vessels in one harbourside row",
+   "type": "video",
+   "place": "Fram Museum",
+   "lat": 59.9029,
+   "lon": 10.6993
+  },
+  {
+   "id": "7bPW6UPq3T4FJ3czpqXdNl",
+   "title": "A capital pulls the cars out of its downtown streets",
+   "type": "video",
+   "place": "Karl Johans gate (main street)",
+   "lat": 59.9133,
+   "lon": 10.7425
+  },
+  {
+   "id": "49tvOFqJEiTi7nBrPOdy62",
+   "title": "A childhood haunted by death shapes an artist's vision",
+   "type": "podcast",
+   "place": "MUNCH museum",
+   "lat": 59.9059,
+   "lon": 10.7553
+  },
+  {
+   "id": "3w6P4fNUkezuBD3A54mtQl",
+   "title": "A leaning tower opens to hold one painter’s life’s work",
+   "type": "video",
+   "place": "MUNCH museum",
+   "lat": 59.9058,
+   "lon": 10.7553
+  },
+  {
+   "id": "1zBeFJrSwYgokbu2zwhE06",
+   "title": "Old trams and buses rest in a depot in Majorstuen",
+   "type": "video",
+   "place": "Tramway Museum (Sporveismuseet), Majorstuen",
+   "lat": 59.931,
+   "lon": 10.7155
+  },
+  {
+   "id": "1Pa5m4Rvx2mBTXdFSilwHH",
+   "title": "A toboggan run races the metro back down from the forest",
+   "type": "video",
+   "place": "Korketrekkeren toboggan run, Frognerseteren station",
+   "lat": 59.9773,
+   "lon": 10.6767
+  },
+  {
+   "id": "1p5oxY0r9KbZRpqLwdtJun",
+   "title": "A king flees his palace hours before Nazi tanks arrive",
+   "type": "podcast",
+   "place": "Royal Palace",
+   "lat": 59.9171,
+   "lon": 10.7276
+  },
+  {
+   "id": "50W2rwabzF17ei5aikhKBQ",
+   "title": "Painted walls tell a nation’s story where the peace prize is given",
+   "type": "video",
+   "place": "City Hall (Rådhuset)",
+   "lat": 59.9119,
+   "lon": 10.7336
+  },
+  {
+   "id": "4a4RqKSiza7rcPteERjYK4",
+   "title": "An immigrant engineer designs a nation's economic model",
+   "type": "podcast",
+   "place": "",
+   "lat": 59.9086,
+   "lon": 10.7424
+  }
+ ]
+}

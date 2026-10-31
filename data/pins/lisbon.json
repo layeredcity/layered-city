@@ -1,0 +1,933 @@
+{
+ "city": "Lisbon",
+ "pins": [
+  {
+   "id": "7wdLOV6YCA9nB0VOrdF81v",
+   "title": "Earthquakes and Espionage: A Tour from Lisbon's Baixa to Bairro Alto",
+   "type": "audiotour",
+   "place": "Praça do Comércio (Commerce Square)",
+   "lat": 38.7075,
+   "lon": -9.1364
+  },
+  {
+   "id": "5fK88IEmpSOEkrNM398YEl",
+   "title": "Roman and Medieval Lisbon: A Tour with Context",
+   "type": "audiotour",
+   "place": "São Jorge Castle (Castelo de São Jorge)",
+   "lat": 38.7126,
+   "lon": -9.133
+  },
+  {
+   "id": "4BgeKX4ogYt9pqaM83QWMe",
+   "title": "Tram 28's Final Destination: Prazeres Cemetery",
+   "type": "audiotour",
+   "place": "Prazeres Cemetery (Tram 28 terminus)",
+   "lat": 38.7143,
+   "lon": -9.1695
+  },
+  {
+   "id": "5WwW4Cq5ZpXgl1RWFItHvu",
+   "title": "From Posh Príncipe Real to Downtown Lisbon for a Ginjinha",
+   "type": "audiotour",
+   "place": "Príncipe Real Garden",
+   "lat": 38.7169,
+   "lon": -9.1484
+  },
+  {
+   "id": "2qZxxPK0bBsrE4DaztMrHv",
+   "title": "Lisbon and the Tagus River",
+   "type": "audiotour",
+   "place": "A Brasileira café, Chiado",
+   "lat": 38.7107,
+   "lon": -9.142
+  },
+  {
+   "id": "8Xv3uU9ZMlYXeCDHQsZYM",
+   "title": "Lisbon's Iconic Tiles: A Walking Tour with Context",
+   "type": "audiotour",
+   "place": "National Pantheon (Santa Engrácia Church)",
+   "lat": 38.7149,
+   "lon": -9.125
+  },
+  {
+   "id": "29SoRPz0C5VRe50XsNt2Wp",
+   "title": "Riverside Ride to Belém: A Guide to Lisbon's Legends along the Tagus",
+   "type": "audiotour",
+   "place": "Campo das Cebolas square",
+   "lat": 38.7082,
+   "lon": -9.1328
+  },
+  {
+   "id": "5rkkCQUHzPmT5KEnTciR9I",
+   "title": "Tram 28: A Time Traveller's Guide to Lisbon's Historic Quarters",
+   "type": "audiotour",
+   "place": "Martim Moniz square",
+   "lat": 38.7154,
+   "lon": -9.136
+  },
+  {
+   "id": "ntSdcNANTmmp7FkUdCFdB",
+   "title": "Architecture of Lisbon: A Historical Tour with Context",
+   "type": "audiotour",
+   "place": "São Pedro de Alcântara viewpoint",
+   "lat": 38.7152,
+   "lon": -9.1442
+  },
+  {
+   "id": "3VdteaMmYhEbUl3adAcXXO",
+   "title": "Lisbon: The Age of Discovery",
+   "type": "audiotour",
+   "place": "Praça Afonso de Albuquerque, Belém",
+   "lat": 38.6972,
+   "lon": -9.2003
+  },
+  {
+   "id": "7DJe01WuYdfQHuNRPhPmBE",
+   "title": "Graffiti, Tags, and Murals: A Lisbon Street Art Tour with Context",
+   "type": "audiotour",
+   "place": "Senhora do Monte viewpoint",
+   "lat": 38.7192,
+   "lon": -9.1328
+  },
+  {
+   "id": "3OKvP61f3BZXAizJXYWwEt",
+   "title": "The Soul of Alfama",
+   "type": "audiotour",
+   "place": "Santa Luzia viewpoint",
+   "lat": 38.7114,
+   "lon": -9.1306
+  },
+  {
+   "id": "4MvUQ8msWQl0dyrRx3jdIS",
+   "title": "The Carnation Revolution",
+   "type": "book",
+   "place": "25 de Abril Bridge",
+   "lat": 38.6942,
+   "lon": -9.1782
+  },
+  {
+   "id": "4WPOHPQOJARorOMjty6NMC",
+   "title": "Lisbon's historic neighbourhoods: a walk through Baixa, Mouraria and Graça",
+   "type": "audiotour",
+   "place": "Rua Augusta Arch",
+   "lat": 38.7084,
+   "lon": -9.1368
+  },
+  {
+   "id": "1LRXAZ7cV8M4LW6RWFykva",
+   "title": "Lisboeta",
+   "type": "book",
+   "place": "Mercado da Ribeira (Time Out Market)",
+   "lat": 38.7071,
+   "lon": -9.1457
+  },
+  {
+   "id": "383Gs03rhWu5ncP89ng7QV",
+   "title": "Monastery of Jerónimos: Stories from Lisbon's Glorious Past",
+   "type": "audiotour",
+   "place": "Jerónimos Monastery",
+   "lat": 38.6974,
+   "lon": -9.2054
+  },
+  {
+   "id": "6UXiiC8Y0600mcbnEL60AI",
+   "title": "This Gulf of Fire",
+   "type": "book",
+   "place": "Carmo Convent ruins",
+   "lat": 38.712,
+   "lon": -9.1406
+  },
+  {
+   "id": "2PIfE8kJ8T78zaU676fnzF",
+   "title": "Castelo de São Jorge and Bairro do Castelo: A Lisbon Walking Tour",
+   "type": "audiotour",
+   "place": "São Jorge Castle (Castelo de São Jorge)",
+   "lat": 38.7122,
+   "lon": -9.1326
+  },
+  {
+   "id": "5Vlbrz1P6ZVxOh7kBy2Kha",
+   "title": "The Portuguese: A Modern History",
+   "type": "book",
+   "place": "Praça do Comércio (Commerce Square)",
+   "lat": 38.7073,
+   "lon": -9.1364
+  },
+  {
+   "id": "1fy6HAMgkwKt1GGl8jralN",
+   "title": "Lisbon: War in the Shadows of the City of Light, 1939–1945",
+   "type": "book",
+   "place": "Rossio square",
+   "lat": 38.7139,
+   "lon": -9.1391
+  },
+  {
+   "id": "2yjpQMlMt4O0I0DBNYVccK",
+   "title": "Pereira Maintains",
+   "type": "book",
+   "place": "Bairro Alto district (area)",
+   "lat": 38.7128,
+   "lon": -9.1451
+  },
+  {
+   "id": "1nWiinTyT5BXvWHkDbzFTT",
+   "title": "The Year of the Death of Ricardo Reis",
+   "type": "book",
+   "place": "Cais do Sodré (area)",
+   "lat": 38.7066,
+   "lon": -9.1435
+  },
+  {
+   "id": "6Cdf93gd07HOVkCiGYykmU",
+   "title": "Conquerors: How Portugal Forged the First Global Empire",
+   "type": "book",
+   "place": "Monument to the Discoveries",
+   "lat": 38.6936,
+   "lon": -9.2057
+  },
+  {
+   "id": "4yn9HwkYNeLj2YKkM2YUFi",
+   "title": "The Book of Disquiet",
+   "type": "book",
+   "place": "A Brasileira café, Chiado",
+   "lat": 38.7107,
+   "lon": -9.142
+  },
+  {
+   "id": "IXkBK4lTsZSyOGVj7YlF0",
+   "title": "The Last Kabbalist of Lisbon",
+   "type": "book",
+   "place": "Largo de São Domingos (1506 massacre memorial)",
+   "lat": 38.7149,
+   "lon": -9.1391
+  },
+  {
+   "id": "5BMaBGNSqqI22XH5Pdob2V",
+   "title": "Variações (Variações: Guardian Angel)",
+   "type": "movie",
+   "place": "Rua de São José",
+   "lat": 38.7193,
+   "lon": -9.1432
+  },
+  {
+   "id": "4tL1xznG94HQV21bXjHhoL",
+   "title": "Tabu",
+   "type": "movie",
+   "place": "Rossio square",
+   "lat": 38.714,
+   "lon": -9.1379
+  },
+  {
+   "id": "1GM8OZjgIJUjQgK9xsyQ6w",
+   "title": "Capitães de Abril (April Captains)",
+   "type": "movie",
+   "place": "Largo do Carmo square",
+   "lat": 38.7121,
+   "lon": -9.1402
+  },
+  {
+   "id": "1ByMtYLrAcmvg5lUqMpECO",
+   "title": "Sangue do Meu Sangue (Blood of My Blood)",
+   "type": "movie",
+   "place": "Bairro Padre Cruz estate, Carnide (area)",
+   "lat": 38.7696,
+   "lon": -9.1881
+  },
+  {
+   "id": "20w23YRDAQFiSpXrZCkQvX",
+   "title": "Colossal Youth (Juventude em Marcha)",
+   "type": "movie",
+   "place": "Casal da Boba estate, Amadora",
+   "lat": 38.759,
+   "lon": -9.223
+  },
+  {
+   "id": "6Vngr4gfudNu17hbkIgEBs",
+   "title": "48",
+   "type": "movie",
+   "place": "Aljube Museum (former political prison)",
+   "lat": 38.7102,
+   "lon": -9.1326
+  },
+  {
+   "id": "4q2fqIkC7rElpw0Xf24lRB",
+   "title": "Recordações da Casa Amarela (Recollections of the Yellow House)",
+   "type": "movie",
+   "place": "Bairro Alto district (area)",
+   "lat": 38.7132,
+   "lon": -9.145
+  },
+  {
+   "id": "6XYQpdTYcpywISeHOylUAg",
+   "title": "Lisbon Story",
+   "type": "movie",
+   "place": "Alfama district (area)",
+   "lat": 38.7118,
+   "lon": -9.13
+  },
+  {
+   "id": "5tdSgppG2Sudtxoy9BR6jK",
+   "title": "Night Train to Lisbon",
+   "type": "movie",
+   "place": "25 de Abril Bridge",
+   "lat": 38.6892,
+   "lon": -9.1773
+  },
+  {
+   "id": "2710H7tg4u5GuDRZiXNIdl",
+   "title": "Os Verdes Anos (The Green Years)",
+   "type": "movie",
+   "place": "Alvalade district (area)",
+   "lat": 38.753,
+   "lon": -9.144
+  },
+  {
+   "id": "aoFjx0a8UPAYhFV8TXyXJ",
+   "title": "Fados",
+   "type": "movie",
+   "place": "Mouraria district (area)",
+   "lat": 38.7155,
+   "lon": -9.1355
+  },
+  {
+   "id": "6i0OMllPtx9bsu71ZAfaDU",
+   "title": "The Attaché Guide to Lisbon",
+   "type": "video",
+   "place": "Frangasqueira Nacional chicken shop",
+   "lat": 38.71667,
+   "lon": -9.15051
+  },
+  {
+   "id": "3AyiiulnTGIFyibrDmOYCU",
+   "title": "Fishing for gooseneck barnacles for a celebrity chef",
+   "type": "video",
+   "place": "BAHR restaurant, Bairro Alto Hotel",
+   "lat": 38.71027,
+   "lon": -9.14333
+  },
+  {
+   "id": "6V7a2Dp7EAgBkaWeKbSUfh",
+   "title": "Shining a spotlight on a Michelin 2-Star chef",
+   "type": "video",
+   "place": "Belcanto restaurant",
+   "lat": 38.71009,
+   "lon": -9.14146
+  },
+  {
+   "id": "23Dg8Qudyx9KaJJPokVVdC",
+   "title": "Three culinary standouts in Lisbon",
+   "type": "video",
+   "place": "Cervejaria Ramiro seafood restaurant",
+   "lat": 38.72025,
+   "lon": -9.13586
+  },
+  {
+   "id": "24vxtP3ZqaYJn3HQqS6kvF",
+   "title": "Shopping for uniquely Portuguese products",
+   "type": "video",
+   "place": "Feira da Ladra flea market, Campo de Santa Clara",
+   "lat": 38.71559,
+   "lon": -9.12546
+  },
+  {
+   "id": "8ijMXVWVE2PQVjz4BgP81",
+   "title": "Cocktails mixed with history at Pavilhão Chinês",
+   "type": "video",
+   "place": "Pavilhão Chinês bar",
+   "lat": 38.71578,
+   "lon": -9.14671
+  },
+  {
+   "id": "3cMZIXs15ZoMfl6nFohI15",
+   "title": "Restful and rousing places to visit in Lisbon",
+   "type": "video",
+   "place": "Estrela Garden (Jardim da Estrela)",
+   "lat": 38.71477,
+   "lon": -9.15926
+  },
+  {
+   "id": "1nuvOWtDTikutmdaKy4plY",
+   "title": "An unlikely path to becoming a celebrity chef",
+   "type": "video",
+   "place": "Alma restaurant, Chiado",
+   "lat": 38.71011,
+   "lon": -9.14114
+  },
+  {
+   "id": "PvmgSixx3s93U1drBJul5",
+   "title": "A tour of three culinary treats in Lisbon",
+   "type": "video",
+   "place": "Bifanas do Afonso snack bar",
+   "lat": 38.71155,
+   "lon": -9.13565
+  },
+  {
+   "id": "4ik6dHNVn4UQv1l3JUyQ4l",
+   "title": "Safeguarding the secret recipe of Pastéis de Belém",
+   "type": "video",
+   "place": "Pastéis de Belém bakery",
+   "lat": 38.69751,
+   "lon": -9.20322
+  },
+  {
+   "id": "4AQTC0DVhmUJC6aHPC0g5U",
+   "title": "New perspectives of Lisbon from a boat on the Tagus River",
+   "type": "video",
+   "place": "Tagus riverfront, Alcântara docks (area)",
+   "lat": 38.70131,
+   "lon": -9.16977
+  },
+  {
+   "id": "4h8SzTfvAa5tdmvO9bUDdS",
+   "title": "Riding the waves at Carcavelos Beach",
+   "type": "video",
+   "place": "Carcavelos Beach",
+   "lat": 38.67959,
+   "lon": -9.33601
+  },
+  {
+   "id": "4BYzhUwaXYG5suAJPx7yNB",
+   "title": "Big surfing in a small town",
+   "type": "video",
+   "place": "Ericeira (area)",
+   "lat": 38.96342,
+   "lon": -9.41898
+  },
+  {
+   "id": "pR5RfWKoRSAUyYA7YY7b5",
+   "title": "Repairing and restoring dolls at the Hospital de Bonecas",
+   "type": "video",
+   "place": "Hospital de Bonecas doll hospital",
+   "lat": 38.71417,
+   "lon": -9.1382
+  },
+  {
+   "id": "1RFVbk33vKWZClAmRND4DE",
+   "title": "Summers spent slurping snails by the seashore",
+   "type": "video",
+   "place": "Júlio dos Caracóis restaurant",
+   "lat": 38.74843,
+   "lon": -9.1041
+  },
+  {
+   "id": "3Y3I4ZTAEe4R3hUqLkLdSM",
+   "title": "Five ways to order coffee in Portugal",
+   "type": "video",
+   "place": "Café Martinho da Arcada",
+   "lat": 38.70867,
+   "lon": -9.13585
+  },
+  {
+   "id": "3VLDkkyW4WJKlD1rUa8qFv",
+   "title": "Music that makes magic out of melancholy",
+   "type": "video",
+   "place": "Café Luso fado house, Bairro Alto",
+   "lat": 38.71305,
+   "lon": -9.14388
+  },
+  {
+   "id": "dbNvJavUodYB4PgvGZ0OO",
+   "title": "Historic technology to help the city ascend",
+   "type": "video",
+   "place": "Lavra Funicular (Elevador do Lavra)",
+   "lat": 38.71784,
+   "lon": -9.1418
+  },
+  {
+   "id": "6SMb9y4vdvdX3IlgIFi7Qa",
+   "title": "Manueline architecture at the Jerónimos Monastery",
+   "type": "video",
+   "place": "Jerónimos Monastery",
+   "lat": 38.6981,
+   "lon": -9.2058
+  },
+  {
+   "id": "5kTmCs9cmcXwTTHPly8ZDz",
+   "title": "“A Tribute” to the longtime residents of Mouraria",
+   "type": "video",
+   "place": "Beco das Farinhas, Mouraria",
+   "lat": 38.7136,
+   "lon": -9.13588
+  },
+  {
+   "id": "mYKpQsn5pKbsJx5HF3vIf",
+   "title": "Collecting the creations of a country",
+   "type": "video",
+   "place": "A Vida Portuguesa shop, Chiado",
+   "lat": 38.71001,
+   "lon": -9.14107
+  },
+  {
+   "id": "1SomMAvqKmWx8BobVbN0Ej",
+   "title": "The human cost of Portugal’s trading empire",
+   "type": "video",
+   "place": "Ribeira das Naus riverfront",
+   "lat": 38.70598,
+   "lon": -9.13951
+  },
+  {
+   "id": "36eSb8WivwI9MN4ZA4gpbR",
+   "title": "Understanding Portugal’s pioneering nautical voyages",
+   "type": "video",
+   "place": "Maritime Museum (Museu de Marinha)",
+   "lat": 38.69748,
+   "lon": -9.20802
+  },
+  {
+   "id": "7gSfW9L1O5FwNI5Hibcq3o",
+   "title": "A century of royal carriages in one place",
+   "type": "video",
+   "place": "National Coach Museum",
+   "lat": 38.69659,
+   "lon": -9.19844
+  },
+  {
+   "id": "1Sizx6V45M0smtqWP8QW10",
+   "title": "Fleeing war in Angola before becoming a Lisbon chef",
+   "type": "video",
+   "place": "Batala Doce restaurant, Santos",
+   "lat": 38.70769,
+   "lon": -9.1584
+  },
+  {
+   "id": "2uLT3CNXfF9qVubprhLdJI",
+   "title": "Drawing inspiration from Lisbon’s azulejo tiles",
+   "type": "video",
+   "place": "Sedimento ceramics studio",
+   "lat": 38.71507,
+   "lon": -9.15706
+  },
+  {
+   "id": "1DdaTCJuLZeKriK8xuUWEk",
+   "title": "The inverted tower of Quinta da Regaleira",
+   "type": "video",
+   "place": "Quinta da Regaleira (Initiation Well), Sintra",
+   "lat": 38.79561,
+   "lon": -9.39715
+  },
+  {
+   "id": "eMav801lgf5ni1Yj5j8Hv",
+   "title": "The last upscale glove shop in Lisbon",
+   "type": "video",
+   "place": "Luvaria Ulisses glove shop",
+   "lat": 38.71236,
+   "lon": -9.13972
+  },
+  {
+   "id": "4YlyCDpOZN0TSGmvZqZbEY",
+   "title": "Moments of modernity mixed into Lisbon",
+   "type": "video",
+   "place": "Praça Luís de Camões",
+   "lat": 38.71062,
+   "lon": -9.14432
+  },
+  {
+   "id": "2FZI2Byv8UXZ04y4UhjoIC",
+   "title": "Surviving the Lisbon earthquake of 1755",
+   "type": "podcast",
+   "place": "São Domingos Church",
+   "lat": 38.7147,
+   "lon": -9.13875
+  },
+  {
+   "id": "2y3Vq2UKhGkruKJKG7xTzY",
+   "title": "The multicolored castle of Sintra",
+   "type": "video",
+   "place": "Pena Palace, Sintra",
+   "lat": 38.78758,
+   "lon": -9.3906
+  },
+  {
+   "id": "6CpqJgyxaKniw4asaha3Ox",
+   "title": "Cherry liqueur at a hole-in-the-wall bar",
+   "type": "video",
+   "place": "A Ginjinha bar, Largo de São Domingos",
+   "lat": 38.7147,
+   "lon": -9.13907
+  },
+  {
+   "id": "6lg6KLzKbUfaRbuFVEVqnW",
+   "title": "The violent spectacle of Portuguese-style bullfighting",
+   "type": "video",
+   "place": "Campo Pequeno bullring",
+   "lat": 38.7426,
+   "lon": -9.14522
+  },
+  {
+   "id": "1JtTvbMZ9WBK50kosP9gu7",
+   "title": "Reviving traditions after the darkness of dictatorship",
+   "type": "podcast",
+   "place": "Praça Luís de Camões",
+   "lat": 38.71048,
+   "lon": -9.14365
+  },
+  {
+   "id": "4BR6iRK3EwWsq0Jk3fOrEd",
+   "title": "Asserting the right to think, speak, and write freely",
+   "type": "podcast",
+   "place": "Largo do Carmo square",
+   "lat": 38.7121,
+   "lon": -9.14081
+  },
+  {
+   "id": "6wTZcoAgrROoVK0M8JLrOz",
+   "title": "Circumnavigating the globe with Ferdinand Magellan",
+   "type": "podcast",
+   "place": "Monument to the Discoveries",
+   "lat": 38.69347,
+   "lon": -9.20561
+  },
+  {
+   "id": "6XAXAMG8wVk8ipwD3yQyRv",
+   "title": "Seeing the history of humanity at the Gulbenkian Museum",
+   "type": "video",
+   "place": "Gulbenkian Museum",
+   "lat": 38.73781,
+   "lon": -9.15354
+  },
+  {
+   "id": "Ffr39nLhl36y5sCg0JHMD",
+   "title": "Lisbon tour with travel writer Rick Steves",
+   "type": "audiotour",
+   "place": "Praça do Comércio (Commerce Square)",
+   "lat": 38.70705,
+   "lon": -9.13625
+  },
+  {
+   "id": "42C17mJW8tYIWrE9BrsXya",
+   "title": "Fado music: The presence of absence",
+   "type": "podcast",
+   "place": "Fado Museum (Museu do Fado)",
+   "lat": 38.71112,
+   "lon": -9.12761
+  },
+  {
+   "id": "14OEq2oN7oZ7vJug09I2SU",
+   "title": "The many voices of Fernando Pessoa",
+   "type": "podcast",
+   "place": "Casa Fernando Pessoa museum",
+   "lat": 38.71665,
+   "lon": -9.16243
+  },
+  {
+   "id": "6AFWmJXLm1xhve9mCIB3wP",
+   "title": "What fueled Calouste Gulbenkian",
+   "type": "podcast",
+   "place": "Gulbenkian Museum",
+   "lat": 38.73776,
+   "lon": -9.15412
+  },
+  {
+   "id": "5GoP9tcmnRUatS19FPnCey",
+   "title": "Lisbon in four voices",
+   "type": "podcast",
+   "place": "Largo do Carmo square",
+   "lat": 38.71176,
+   "lon": -9.14074
+  },
+  {
+   "id": "211ZSbJJkyguDbGoXCYl8y",
+   "title": "Rice fields and endless beaches in Comporta",
+   "type": "podcast",
+   "place": "Comporta (area)",
+   "lat": 38.38154,
+   "lon": -8.78783
+  },
+  {
+   "id": "5EoP1NjCaoPqd0N60O7ZA0",
+   "title": "Rival powers during the Age of Discoveries",
+   "type": "podcast",
+   "place": "Maritime Museum (Museu de Marinha)",
+   "lat": 38.69781,
+   "lon": -9.20812
+  },
+  {
+   "id": "TKNfTAzI3zUp4hP6T8xaq",
+   "title": "Retribution and revenge after a failed assassination",
+   "type": "podcast",
+   "place": "Beco do Chão Salgado column, Belém",
+   "lat": 38.69759,
+   "lon": -9.20383
+  },
+  {
+   "id": "2Z12rw9L3SIpTc9JCWxvOu",
+   "title": "A peek into Afro-Portuguese culture in Lisbon",
+   "type": "video",
+   "place": "Site of the Casa dos Escravos, near Praça do Comércio",
+   "lat": 38.70653,
+   "lon": -9.13757
+  },
+  {
+   "id": "2SopoeavbGmYcxGz2pu6gE",
+   "title": "A building that engages the public",
+   "type": "video",
+   "place": "MAAT museum",
+   "lat": 38.6957,
+   "lon": -9.19374
+  },
+  {
+   "id": "3P6ocD3sAAeG2Qk0TpfC4c",
+   "title": "Unique finds at Mercado de Ribeira",
+   "type": "video",
+   "place": "Mercado da Ribeira (Time Out Market)",
+   "lat": 38.70701,
+   "lon": -9.14547
+  },
+  {
+   "id": "Y3I1T3DUpZIKUvUDxdXk4",
+   "title": "The forgotten Portuguese soldiers of World War I",
+   "type": "video",
+   "place": "Monument to the Dead of the Great War, Avenida da Liberdade",
+   "lat": 38.7195,
+   "lon": -9.14528
+  },
+  {
+   "id": "Av0IbpImctX5sIgBMcPtu",
+   "title": "Saudade, saudade",
+   "type": "music",
+   "place": "Praça dos Restauradores",
+   "lat": 38.7169,
+   "lon": -9.1399
+  },
+  {
+   "id": "qFJStHLkuKxgGtxytcdWp",
+   "title": "Canção Verdes Anos",
+   "type": "music",
+   "place": "Praça dos Restauradores",
+   "lat": 38.7169,
+   "lon": -9.1399
+  },
+  {
+   "id": "5WvsP6jKDwt5ctR9jNvTYq",
+   "title": "Mundu Nôbu",
+   "type": "music",
+   "place": "Praça dos Restauradores",
+   "lat": 38.7169,
+   "lon": -9.1399
+  },
+  {
+   "id": "1UKS6F3UblAtOO0v8qa7DO",
+   "title": "Amar Pelos Dois",
+   "type": "music",
+   "place": "Altice Arena",
+   "lat": 38.76847,
+   "lon": -9.0939
+  },
+  {
+   "id": "24yQOGCiu8MrY8lJY8Xpai",
+   "title": "Sobre(tudo)",
+   "type": "music",
+   "place": "Chelas district (area)",
+   "lat": 38.75482,
+   "lon": -9.11387
+  },
+  {
+   "id": "239dyqcZjPPgS1CcECXh2j",
+   "title": "Canção de Engate",
+   "type": "music",
+   "place": "Baixa district (area)",
+   "lat": 38.71012,
+   "lon": -9.13702
+  },
+  {
+   "id": "4d6PamS0ReiyxFuRLPOFXT",
+   "title": "Desfado",
+   "type": "music",
+   "place": "Praça dos Restauradores",
+   "lat": 38.7169,
+   "lon": -9.1399
+  },
+  {
+   "id": "2FXjakz2YHEXPMRK6612Ww",
+   "title": "Sound of Kuduro",
+   "type": "music",
+   "place": "Buraca, Amadora (area)",
+   "lat": 38.74308,
+   "lon": -9.20857
+  },
+  {
+   "id": "iPwYswvjmMMWcDfAFj9lt",
+   "title": "Ó Gente da Minha Terra",
+   "type": "music",
+   "place": "Mouraria district (area)",
+   "lat": 38.71499,
+   "lon": -9.13484
+  },
+  {
+   "id": "1ZudIDTXXdubbgg9Gmbakk",
+   "title": "Ainda",
+   "type": "music",
+   "place": "Alfama district (area)",
+   "lat": 38.71177,
+   "lon": -9.12838
+  },
+  {
+   "id": "7noDuwW5xtRAcR7jTuIGw0",
+   "title": "Canção do Mar",
+   "type": "music",
+   "place": "Tagus riverfront by Belém Tower (area)",
+   "lat": 38.6936,
+   "lon": -9.216
+  },
+  {
+   "id": "4bDXMJYHwNFeGwFOZM8ZSe",
+   "title": "A Casa da Mariquinhas",
+   "type": "music",
+   "place": "Fado Museum (Museu do Fado)",
+   "lat": 38.71103,
+   "lon": -9.12766
+  },
+  {
+   "id": "5akXNzritPrjbSlCvyPcQ",
+   "title": "Sweet treats at a 200-year-old pastry shop",
+   "type": "video",
+   "place": "Confeitaria Nacional pastry shop",
+   "lat": 38.7131,
+   "lon": -9.13807
+  },
+  {
+   "id": "74j6ZvpUkYVmUYQN2RTS6g",
+   "title": "Lisboa Menina e Moça",
+   "type": "music",
+   "place": "Santa Luzia viewpoint",
+   "lat": 38.71194,
+   "lon": -9.13001
+  },
+  {
+   "id": "6KzVJy5HdWJ5DqJsfQNdZg",
+   "title": "Grândola, Vila Morena",
+   "type": "music",
+   "place": "Largo do Carmo square",
+   "lat": 38.71193,
+   "lon": -9.14084
+  },
+  {
+   "id": "2h4t1DzbmPSU3PrOrb4VTE",
+   "title": "Uma Casa Portuguesa",
+   "type": "music",
+   "place": "National Pantheon (Santa Engrácia Church)",
+   "lat": 38.71499,
+   "lon": -9.12468
+  },
+  {
+   "id": "39vFiCcFGl9Ys9rvfELFZi",
+   "title": "A city shaped by an earthquake and the Marquês de Pombal",
+   "type": "video",
+   "place": "Praça do Comércio (Commerce Square)",
+   "lat": 38.70731,
+   "lon": -9.13637
+  },
+  {
+   "id": "2Z2yrDsVZmDHUuczt89Wgy",
+   "title": "New life for a street in the Cais do Sodre neighborhood",
+   "type": "video",
+   "place": "Pink Street (Rua Nova do Carvalho)",
+   "lat": 38.70721,
+   "lon": -9.14364
+  },
+  {
+   "id": "6zEi5upsMXTZUTvFNoe73K",
+   "title": "Street fashion in the heart of Lisbon",
+   "type": "video",
+   "place": "Praça Luís de Camões",
+   "lat": 38.7106,
+   "lon": -9.14327
+  },
+  {
+   "id": "24GfLOnLugbYWzYaPKWYFI",
+   "title": "Inside the oldest tile factory in Portugal",
+   "type": "video",
+   "place": "Fábrica Sant’Anna tile factory",
+   "lat": 38.70118,
+   "lon": -9.19161
+  },
+  {
+   "id": "5XOsn6YU8nxGTlZQ8s68Kq",
+   "title": "The Portuguese dish that inspired Japanese tempura",
+   "type": "video",
+   "place": "Pap’Açorda restaurant, Mercado da Ribeira",
+   "lat": 38.70674,
+   "lon": -9.14605
+  },
+  {
+   "id": "7HJILpOTwa6m4BNVnXpEpn",
+   "title": "How to spend 36 Hours in Lisbon",
+   "type": "video",
+   "place": "Pink Street (Rua Nova do Carvalho)",
+   "lat": 38.70724,
+   "lon": -9.14356
+  },
+  {
+   "id": "1K2hypCUB22FrvnczOju38",
+   "title": "An exotic rhinoceros ends up in the city’s pavements",
+   "type": "video",
+   "place": "Rossio square",
+   "lat": 38.7139,
+   "lon": -9.1394
+  },
+  {
+   "id": "3Ka8J7i0hEyKw7orIL9Qhs",
+   "title": "Crusaders bound for the Holy Land stop to take a Moorish city",
+   "type": "video",
+   "place": "São Jorge Castle (Castelo de São Jorge)",
+   "lat": 38.7139,
+   "lon": -9.1335
+  },
+  {
+   "id": "YSOS0DiK05AfGRhm2OAkO",
+   "title": "Twelve-string guitars and songs of longing from the old quarters",
+   "type": "video",
+   "place": "Fado Museum (Museu do Fado)",
+   "lat": 38.7106,
+   "lon": -9.129
+  },
+  {
+   "id": "5RaMRDmP4zn6ma4nJycqc3",
+   "title": "Soldiers with carnations in their rifles end a dictatorship in a day",
+   "type": "podcast",
+   "place": "Largo do Carmo square",
+   "lat": 38.7121,
+   "lon": -9.1406
+  },
+  {
+   "id": "9ck9dmCTc0TJxqGNGWqX0",
+   "title": "An economics professor runs Portugal for four decades",
+   "type": "podcast",
+   "place": "São Bento Palace (Parliament)",
+   "lat": 38.713,
+   "lon": -9.1535
+  },
+  {
+   "id": "7wwAeaLVE5LEPXl9HIW8wC",
+   "title": "A playboy double agent gambles under Ian Fleming’s gaze",
+   "type": "podcast",
+   "place": "Casino Estoril, Estoril",
+   "lat": 38.7058,
+   "lon": -9.3976
+  },
+  {
+   "id": "6bf3NWkh9YRhJCupH85xPo",
+   "title": "Chico Fininho",
+   "type": "music",
+   "place": "",
+   "lat": 38.7169,
+   "lon": -9.1399
+  },
+  {
+   "id": "1cQm0JFFrMoPvvenuDJVxm",
+   "title": "Saving shops with history",
+   "type": "video",
+   "place": "",
+   "lat": 38.71222,
+   "lon": -9.1364
+  },
+  {
+   "id": "mZ7vADyeeViECKpTKBHXq",
+   "title": "Outdoor spaces in Lisbon that are loved by locals",
+   "type": "video",
+   "place": "",
+   "lat": 38.71918,
+   "lon": -9.13283
+  }
+ ]
+}

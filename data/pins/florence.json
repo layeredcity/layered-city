@@ -1,0 +1,1037 @@
+{
+ "city": "Florence",
+ "pins": [
+  {
+   "id": "R9t1qjuLn1NWiEOcUsYDk",
+   "title": "The History of the Jewish Ghetto in Florence: A Walking Tour with Context",
+   "type": "audiotour",
+   "place": "",
+   "lat": 43.7678,
+   "lon": 11.2514
+  },
+  {
+   "id": "5H59w8KASTJzbaxaPpdiDO",
+   "title": "AudioZoom into Florence: An Introduction to the Historical City Center",
+   "type": "audiotour",
+   "place": "San Lorenzo basilica",
+   "lat": 43.7748,
+   "lon": 11.2548
+  },
+  {
+   "id": "481ZU29qXsevHQv3xXKdcX",
+   "title": "Bridging Florence's History: An Arno River Walking Tour with Context",
+   "type": "audiotour",
+   "place": "Piazza dei Mozzi, by Ponte alle Grazie",
+   "lat": 43.7653,
+   "lon": 11.2601
+  },
+  {
+   "id": "7GWzw0StCziKudK59aMQuj",
+   "title": "Fine Food in Florence: A Walking Tour with Context",
+   "type": "audiotour",
+   "place": "Piazza della Signoria",
+   "lat": 43.7696,
+   "lon": 11.2559
+  },
+  {
+   "id": "lzjKYDsr3wc8MZlqRJ7c1",
+   "title": "Classic Florence: From Piazza di Santa Maria Novella to Ponte Vecchio",
+   "type": "audiotour",
+   "place": "Piazza Santa Maria Novella",
+   "lat": 43.7736,
+   "lon": 11.2495
+  },
+  {
+   "id": "1yY3jAG0UJK9vB2P2ZhIE1",
+   "title": "Politics and Power: An Introduction to Florence with Context",
+   "type": "audiotour",
+   "place": "Piazza della Repubblica",
+   "lat": 43.7715,
+   "lon": 11.254
+  },
+  {
+   "id": "2cSp73Fi2QCOLLocHmgNIz",
+   "title": "Uffizi Gallery: A Tour of Renaissance Masterpieces",
+   "type": "audiotour",
+   "place": "Uffizi Gallery entrance",
+   "lat": 43.7686,
+   "lon": 11.2556
+  },
+  {
+   "id": "3NdIOcFtyIDXG0POkD1P0F",
+   "title": "Where Tradition Meets History: A Walking Tour of Florence's Oltrarno District",
+   "type": "audiotour",
+   "place": "Ponte Vecchio bridge (south end)",
+   "lat": 43.7677,
+   "lon": 11.2529
+  },
+  {
+   "id": "3phYa8nZi9pzHbPodVH2IY",
+   "title": "Monumental Moments in History: A Florence Walking Tour",
+   "type": "audiotour",
+   "place": "Piazza del Duomo",
+   "lat": 43.7733,
+   "lon": 11.2554
+  },
+  {
+   "id": "5V2hFMQBRXrXt1xiqbn9mg",
+   "title": "Three Hundred Years of Art, Power, and Politics: A Tour of Medici Florence",
+   "type": "audiotour",
+   "place": "San Lorenzo basilica",
+   "lat": 43.7748,
+   "lon": 11.2547
+  },
+  {
+   "id": "3PMZtcjsbskHW9KAgT6YU9",
+   "title": "Fantastic Florence Sights: Michelangelo Terrace and San Miniato Basilica",
+   "type": "audiotour",
+   "place": "Ponte alle Grazie bridge",
+   "lat": 43.7663,
+   "lon": 11.2587
+  },
+  {
+   "id": "2Dp6rnZudrh94ZXWQtkB2",
+   "title": "Inside the Uffizi Galleries: An Art History Guide",
+   "type": "audiotour",
+   "place": "Uffizi Gallery entrance",
+   "lat": 43.7686,
+   "lon": 11.256
+  },
+  {
+   "id": "5jKvk0eyaiXTvFsbvz3VXP",
+   "title": "Palaces and Piazzas: The Highlights of Florence",
+   "type": "audiotour",
+   "place": "Piazza del Duomo",
+   "lat": 43.7731,
+   "lon": 11.2554
+  },
+  {
+   "id": "4ZLG0HfXq0jQhPFwI19soA",
+   "title": "The Rise and Fall of the House of Medici",
+   "type": "book",
+   "place": "Palazzo Medici Riccardi",
+   "lat": 43.7752,
+   "lon": 11.2557
+  },
+  {
+   "id": "6xyWP8uNXc9wqDRjAE8EF1",
+   "title": "Death in Florence",
+   "type": "book",
+   "place": "Piazza della Signoria",
+   "lat": 43.7697,
+   "lon": 11.2556
+  },
+  {
+   "id": "6YcH3YgQZA6VOW6UIfkOf9",
+   "title": "The Stones of Florence",
+   "type": "book",
+   "place": "Ponte Vecchio bridge",
+   "lat": 43.7679,
+   "lon": 11.2531
+  },
+  {
+   "id": "6lleltZljWQ9VujeLNY3i4",
+   "title": "Galileo’s Daughter",
+   "type": "book",
+   "place": "Museo Galileo science museum",
+   "lat": 43.7677,
+   "lon": 11.2559
+  },
+  {
+   "id": "1Rax7XmQ3LxWJBeRXiR9mJ",
+   "title": "Dante: A Life",
+   "type": "book",
+   "place": "Casa di Dante museum",
+   "lat": 43.7711,
+   "lon": 11.2571
+  },
+  {
+   "id": "7ydOslh3IWptoQ5YWDO913",
+   "title": "Brunelleschi’s Dome",
+   "type": "book",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "3aSEcFy2eB8booJ82pCzkz",
+   "title": "Dark Water: Flood and Redemption in the City of Masterpieces",
+   "type": "book",
+   "place": "Santa Croce basilica",
+   "lat": 43.7686,
+   "lon": 11.2623
+  },
+  {
+   "id": "4TC5wX83otSBxzNSceB2Vw",
+   "title": "A Room with a View",
+   "type": "book",
+   "place": "Piazzale Michelangelo",
+   "lat": 43.7629,
+   "lon": 11.2651
+  },
+  {
+   "id": "2VvQvMZ7GnidU84uG5mJQA",
+   "title": "The Agony and the Ecstasy",
+   "type": "book",
+   "place": "Accademia Gallery (Galleria dell’Accademia)",
+   "lat": 43.7768,
+   "lon": 11.2586
+  },
+  {
+   "id": "1izl78HqxNYiVMtFtrzWuX",
+   "title": "Lives of the Artists",
+   "type": "book",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1nF13Os7JJA0njjvn9n7nn",
+   "title": "The Prince",
+   "type": "book",
+   "place": "Palazzo Vecchio",
+   "lat": 43.7693,
+   "lon": 11.2562
+  },
+  {
+   "id": "2DgGM9e8RnAvuzQGuZhPGt",
+   "title": "Metello",
+   "type": "movie",
+   "place": "Oltrarno district (area)",
+   "lat": 43.769,
+   "lon": 11.244
+  },
+  {
+   "id": "4bDtpprEXpJ1eb1dIzxnd",
+   "title": "Cronaca familiare (Family Diary)",
+   "type": "movie",
+   "place": "Ponte Santa Trinita bridge",
+   "lat": 43.7686,
+   "lon": 11.2503
+  },
+  {
+   "id": "3ZW2ZyUTM28sdzJuqtN2d3",
+   "title": "Paisà (Paisan)",
+   "type": "movie",
+   "place": "Vasari Corridor, Ponte Vecchio",
+   "lat": 43.768,
+   "lon": 11.2531
+  },
+  {
+   "id": "32eZWBGoWyHORA1gWTGorD",
+   "title": "Tea with Mussolini",
+   "type": "movie",
+   "place": "Santa Croce basilica",
+   "lat": 43.7686,
+   "lon": 11.2621
+  },
+  {
+   "id": "JmNuVF4z5Rq43U0iyPF7r",
+   "title": "A Room with a View",
+   "type": "movie",
+   "place": "Piazza della Signoria",
+   "lat": 43.7696,
+   "lon": 11.2558
+  },
+  {
+   "id": "5hgk6NwP0xUl7JM3xfBFUU",
+   "title": "Light in the Piazza",
+   "type": "movie",
+   "place": "Piazza del Duomo",
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "54q8pku3fn2wxrBzxtoMpN",
+   "title": "Hannibal",
+   "type": "movie",
+   "place": "Palazzo Vecchio",
+   "lat": 43.7693,
+   "lon": 11.2562
+  },
+  {
+   "id": "3hn3JSkJsuS9IIrKjcstQF",
+   "title": "Amici miei (My Friends)",
+   "type": "movie",
+   "place": "Santa Maria Novella station",
+   "lat": 43.7723,
+   "lon": 11.2422
+  },
+  {
+   "id": "6WSpf7gUESBRrz1LAkmlPP",
+   "title": "Florence and the Uffizi Gallery",
+   "type": "movie",
+   "place": "Uffizi Gallery",
+   "lat": 43.7683,
+   "lon": 11.2557
+  },
+  {
+   "id": "5cAxw55q8NB9aTy029EWC1",
+   "title": "In vacanza da una vita",
+   "type": "music",
+   "place": "Piazza della Repubblica",
+   "lat": 43.7715,
+   "lon": 11.2539
+  },
+  {
+   "id": "6Maw2MCc5skCp7l4U83bWz",
+   "title": "Euridice",
+   "type": "music",
+   "place": "Palazzo Pitti",
+   "lat": 43.7652,
+   "lon": 11.25
+  },
+  {
+   "id": "4QaUhdRCt7OgIESDJKEjr6",
+   "title": "Ecco la primavera",
+   "type": "music",
+   "place": "San Lorenzo basilica",
+   "lat": 43.775,
+   "lon": 11.2539
+  },
+  {
+   "id": "2mp4MZJMsjQqggdFRHwKJu",
+   "title": "O Fiorentina",
+   "type": "music",
+   "place": "Stadio Artemio Franchi stadium",
+   "lat": 43.7804,
+   "lon": 11.2834
+  },
+  {
+   "id": "2mt7gpXrk6cioKDqsdKvcs",
+   "title": "Requiem in C minor",
+   "type": "music",
+   "place": "Luigi Cherubini Conservatory",
+   "lat": 43.7763,
+   "lon": 11.2586
+  },
+  {
+   "id": "3hXtHcAj85GPFs7aAvem2e",
+   "title": "Amarilli, mia bella",
+   "type": "music",
+   "place": "Palazzo Pitti",
+   "lat": 43.7652,
+   "lon": 11.25
+  },
+  {
+   "id": "6BQrcnrqumB6B0dzLiIwYJ",
+   "title": "Disperato",
+   "type": "music",
+   "place": "Piazza della Repubblica",
+   "lat": 43.7715,
+   "lon": 11.2539
+  },
+  {
+   "id": "1nPf3AKvUriyzAWwoWbkVi",
+   "title": "Siberia",
+   "type": "music",
+   "place": "Piazza della Repubblica",
+   "lat": 43.7715,
+   "lon": 11.2539
+  },
+  {
+   "id": "4xltRT8MwxarsZE2o2DMrQ",
+   "title": "Luglio",
+   "type": "music",
+   "place": "Fiesole (area)",
+   "lat": 43.8068,
+   "lon": 11.2926
+  },
+  {
+   "id": "3wQi9QqURNwhpXCULhJ7TV",
+   "title": "El Diablo",
+   "type": "music",
+   "place": "Via de’ Bardi",
+   "lat": 43.7663,
+   "lon": 11.2555
+  },
+  {
+   "id": "JPmsYdZRqgiWD75m1afnk",
+   "title": "Se mi rilasso collasso",
+   "type": "music",
+   "place": "Piazza della Repubblica",
+   "lat": 43.7715,
+   "lon": 11.2539
+  },
+  {
+   "id": "12cYH2BHw6MvsJpCq3DtCk",
+   "title": "Governo Punk",
+   "type": "music",
+   "place": "Villanova, Empoli",
+   "lat": 43.7179,
+   "lon": 10.9479
+  },
+  {
+   "id": "6wDJzZH5LOxzphsoudwJZA",
+   "title": "La Porti un Bacione a Firenze",
+   "type": "music",
+   "place": "Piazzale Michelangelo",
+   "lat": 43.7629,
+   "lon": 11.2651
+  },
+  {
+   "id": "4XZ6TGCBCN7tUjoEa1hquR",
+   "title": "A banker converts fortune into hidden power",
+   "type": "podcast",
+   "place": "Palazzo Medici Riccardi",
+   "lat": 43.7752,
+   "lon": 11.2557
+  },
+  {
+   "id": "i7PlnwB6gZTNaouIk8A51",
+   "title": "Crediting Persian engineering for Florence's dome",
+   "type": "podcast",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "lat": 43.7732,
+   "lon": 11.2568
+  },
+  {
+   "id": "4tuL8nlymP5ZknpN9hnMpP",
+   "title": "Assassins strike during Sunday Mass",
+   "type": "podcast",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "6kkvvQSWVZfauWfqbSf6ct",
+   "title": "A poet dreams of a homecoming that never came",
+   "type": "podcast",
+   "place": "Baptistery of San Giovanni",
+   "lat": 43.7731,
+   "lon": 11.255
+  },
+  {
+   "id": "1DvUTaa3WVTLfmjru0OHW3",
+   "title": "Rivals debate where to put a giant",
+   "type": "podcast",
+   "place": "Piazza della Signoria",
+   "lat": 43.7697,
+   "lon": 11.2556
+  },
+  {
+   "id": "3UMmrJcHrfuj9qVkDFcVZN",
+   "title": "A friar burns Florence's art in a public square",
+   "type": "podcast",
+   "place": "Piazza della Signoria",
+   "lat": 43.7697,
+   "lon": 11.2556
+  },
+  {
+   "id": "7s9Luf4OtXjWpm6WzsZOB",
+   "title": "A barefoot boy becomes shoemaker to Hollywood",
+   "type": "podcast",
+   "place": "Ferragamo Museum, Palazzo Spini Feroni",
+   "lat": 43.7698,
+   "lon": 11.2512
+  },
+  {
+   "id": "7wElQJI3hWAxzPRI2BLxmo",
+   "title": "The one bridge a retreating army wouldn't blow up",
+   "type": "podcast",
+   "place": "Ponte Vecchio bridge",
+   "lat": 43.7679,
+   "lon": 11.2531
+  },
+  {
+   "id": "1EbgZhqa7DvgK9CjE6xz7v",
+   "title": "A teenage apprentice outshines his own master",
+   "type": "podcast",
+   "place": "Orsanmichele church",
+   "lat": 43.7707,
+   "lon": 11.255
+  },
+  {
+   "id": "7GtTd7k4r7ndbPe5DcvpMh",
+   "title": "A cousin lures Florence's duke to his own murder",
+   "type": "podcast",
+   "place": "Palazzo Medici Riccardi",
+   "lat": 43.7752,
+   "lon": 11.2557
+  },
+  {
+   "id": "2h4mPSxRfPJmENYC4UdW4z",
+   "title": "A goddess born from sea foam and Medici money",
+   "type": "podcast",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1TK5URBsFdalu7R405GNaL",
+   "title": "A condemned astronomer keeps working from house arrest",
+   "type": "podcast",
+   "place": "Villa Il Gioiello, Arcetri",
+   "lat": 43.7478,
+   "lon": 11.2576
+  },
+  {
+   "id": "1HVc3iEr7iQ5J2jnyLAuGc",
+   "title": "An orphaned Medici becomes France's most feared queen",
+   "type": "podcast",
+   "place": "Palazzo Medici Riccardi",
+   "lat": 43.7752,
+   "lon": 11.2557
+  },
+  {
+   "id": "2sgAKmQHJcfI4hnClxGvXQ",
+   "title": "A Florentine gives his name to two continents",
+   "type": "podcast",
+   "place": "Ognissanti church",
+   "lat": 43.7725,
+   "lon": 11.2458
+  },
+  {
+   "id": "5zmbJ7eAvSefeawurUalRY",
+   "title": "A monk's math book invents modern bookkeeping",
+   "type": "podcast",
+   "place": "Mercato Nuovo loggia (Porcellino)",
+   "lat": 43.77,
+   "lon": 11.2543
+  },
+  {
+   "id": "2oX92wBjpgsua2RkZSOCB5",
+   "title": "An 11-year-old apprentice becomes king of the booksellers",
+   "type": "podcast",
+   "place": "Via del Proconsolo",
+   "lat": 43.7712,
+   "lon": 11.2579
+  },
+  {
+   "id": "3rUmwG4cPiXT11MrgFx5qp",
+   "title": "An English mercenary gets a painted horse in the cathedral",
+   "type": "podcast",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "lat": 43.7728,
+   "lon": 11.2566
+  },
+  {
+   "id": "3TxY3GkPezrNOpQCTV1pZz",
+   "title": "A flat church wall opens into a painted chapel",
+   "type": "video",
+   "place": "Santa Maria Novella basilica",
+   "lat": 43.7746,
+   "lon": 11.2494
+  },
+  {
+   "id": "6GRn6RXaNNSlQMuwUo89j1",
+   "title": "Bronze doors take a goldsmith 27 years to finish",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "lat": 43.7731,
+   "lon": 11.2551
+  },
+  {
+   "id": "nscLmGreE7n2aZUx0vhER",
+   "title": "A friar paints the Annunciation at the top of the stairs",
+   "type": "video",
+   "place": "San Marco Museum",
+   "lat": 43.7781,
+   "lon": 11.2588
+  },
+  {
+   "id": "3VbShgmcla0nQNokQYy65O",
+   "title": "A young painter gives the apostles real weight and shadow",
+   "type": "video",
+   "place": "Brancacci Chapel, Santa Maria del Carmine",
+   "lat": 43.7681,
+   "lon": 11.244
+  },
+  {
+   "id": "beu4jQDbOu0k4j1l3Kh1V",
+   "title": "Michelangelo carves Night and Day for two Medici tombs",
+   "type": "video",
+   "place": "New Sacristy, Medici Chapels",
+   "lat": 43.7751,
+   "lon": 11.2533
+  },
+  {
+   "id": "4MUtDvEGSVaGw8oLabCSNK",
+   "title": "A library staircase spills down into its own lobby",
+   "type": "video",
+   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
+   "lat": 43.7746,
+   "lon": 11.2538
+  },
+  {
+   "id": "3aCBHDVXbM0vKtvO4t0XTN",
+   "title": "A boy hero in bronze stands nude for the first time in centuries",
+   "type": "video",
+   "place": "Bargello Museum",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "6F9XKwjk4K4F5A5vH4letG",
+   "title": "Four stonemasons die rather than carve a pagan god",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "lat": 43.7709,
+   "lon": 11.2549
+  },
+  {
+   "id": "2KxobaulRV3cMPdt7OHeKd",
+   "title": "A banking family’s chapel sets the rules for Renaissance building",
+   "type": "video",
+   "place": "Pazzi Chapel, Santa Croce",
+   "lat": 43.7681,
+   "lon": 11.2627
+  },
+  {
+   "id": "6ekZS8jYx6AV8ikCCypUlV",
+   "title": "The armorers’ guild orders a saint in shining marble armor",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "lat": 43.7708,
+   "lon": 11.2547
+  },
+  {
+   "id": "3VtYptKdaQ8P9eHztQkLp4",
+   "title": "Charcoal drawings turn up in a sealed room below the Medici tombs",
+   "type": "video",
+   "place": "Michelangelo’s secret room, Medici Chapels",
+   "lat": 43.7752,
+   "lon": 11.2535
+  },
+  {
+   "id": "55lug3NP8S2cZf4s8mxOWL",
+   "title": "Chronicle of Poor Lovers (Cronache di poveri amanti)",
+   "type": "movie",
+   "place": "Via del Corno",
+   "lat": 43.769,
+   "lon": 11.2575
+  },
+  {
+   "id": "4XdZ8sFpIguMqTPpkzzR7P",
+   "title": "A mafia car bomb tears into the Uffizi in the night",
+   "type": "podcast",
+   "place": "Via dei Georgofili, behind the Uffizi",
+   "lat": 43.7677,
+   "lon": 11.2554
+  },
+  {
+   "id": "7yjGUUpxhQsO0pyoq51kjx",
+   "title": "Leonardo and Michelangelo are hired to paint rival battles",
+   "type": "podcast",
+   "place": "Hall of the Five Hundred, Palazzo Vecchio",
+   "lat": 43.7695,
+   "lon": 11.2561
+  },
+  {
+   "id": "7b9NLRMA2EoI0UtIYUzfyl",
+   "title": "Builders argue for years over how many doors a church needs",
+   "type": "podcast",
+   "place": "Santo Spirito basilica",
+   "lat": 43.7672,
+   "lon": 11.2479
+  },
+  {
+   "id": "2RBKYNQwUfMd1IL10Y82QU",
+   "title": "The Arno bursts its banks and buries the city in mud",
+   "type": "video",
+   "place": "National Central Library",
+   "lat": 43.7673,
+   "lon": 11.2636
+  },
+  {
+   "id": "1EdwwTraEUq4l8czZ5HltV",
+   "title": "Twenty-seven men a side fight over a ball in a sand-covered square",
+   "type": "video",
+   "place": "Piazza Santa Croce",
+   "lat": 43.769,
+   "lon": 11.2617
+  },
+  {
+   "id": "4MroN0QaAo2ZjN1Ory1LZA",
+   "title": "A goldsmith raises the largest dome of its age with no wooden frame",
+   "type": "video",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "5apLce43s7kTzfguEECXb9",
+   "title": "Violin makers and framers keep working south of the river",
+   "type": "video",
+   "place": "Oltrarno district (area)",
+   "lat": 43.7667,
+   "lon": 11.2481
+  },
+  {
+   "id": "58wqr7scUQW1Pf20z15EZv",
+   "title": "A painted panel and a mirror teach artists to draw in depth",
+   "type": "video",
+   "place": "Duomo central doorway, facing the Baptistery",
+   "lat": 43.7729,
+   "lon": 11.2553
+  },
+  {
+   "id": "4y5NL20VBbqHIbdHjUAMl1",
+   "title": "Monks still chant in a marble church above the city",
+   "type": "video",
+   "place": "San Miniato al Monte church",
+   "lat": 43.7595,
+   "lon": 11.265
+  },
+  {
+   "id": "4H909fA6tKUFdUAe4nKYwB",
+   "title": "A fortress town hall becomes a Medici palace",
+   "type": "video",
+   "place": "Palazzo Vecchio",
+   "lat": 43.7693,
+   "lon": 11.2558
+  },
+  {
+   "id": "2FtvSfb1xijQw5ddSxSMkb",
+   "title": "Florentines line up for a sandwich of cow’s fourth stomach",
+   "type": "video",
+   "place": "Mercato Centrale food market",
+   "lat": 43.7764,
+   "lon": 11.2533
+  },
+  {
+   "id": "1kA8g4nbdKhihmAC4WWopZ",
+   "title": "A whole Renaissance city still packed inside its old walls",
+   "type": "video",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "5jkAQ5LvRtnSDPsSg5yVhO",
+   "title": "Goldsmiths keep shop on the one bridge the Germans spared",
+   "type": "video",
+   "place": "Ponte Vecchio bridge",
+   "lat": 43.768,
+   "lon": 11.2531
+  },
+  {
+   "id": "5qGdkcYSbfluJzoXcl9MPI",
+   "title": "The Medici offices become the world’s first great picture gallery",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7677,
+   "lon": 11.2554
+  },
+  {
+   "id": "5dJJ0Mtavpql9FppHFRDlb",
+   "title": "An angel kneels and Mary half turns away in gilded stone",
+   "type": "video",
+   "place": "Santa Croce basilica",
+   "lat": 43.7686,
+   "lon": 11.2622
+  },
+  {
+   "id": "3XMFzw3WMPA5Qsjxq2rWVu",
+   "title": "Verrocchio’s David is a skinny teenager who has just won",
+   "type": "video",
+   "place": "Bargello Museum",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "6BwgGNPsPRQr10hXB7mKqm",
+   "title": "An arcade for abandoned babies sets the Renaissance in motion",
+   "type": "video",
+   "place": "Ospedale degli Innocenti (Foundling Hospital)",
+   "lat": 43.7762,
+   "lon": 11.2611
+  },
+  {
+   "id": "16es7P9fbQ18DUA9ZXqydP",
+   "title": "Florence’s first bronze doors tell the Baptist’s story in 28 panels",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "lat": 43.7731,
+   "lon": 11.2577
+  },
+  {
+   "id": "i3atkwnsQUmyxFkxkLDUu",
+   "title": "The linen weavers’ saint stands firmly on a cushion of cloth",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "lat": 43.7708,
+   "lon": 11.2547
+  },
+  {
+   "id": "1qCcnEsS0BfZh6kXa9o9Eh",
+   "title": "Donatello carves a penitent saint worn down to skin and bone",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "lat": 43.7731,
+   "lon": 11.2551
+  },
+  {
+   "id": "1tYlT7r9omahotSLYhj9VR",
+   "title": "Michelangelo’s giant keeps watch for the young republic",
+   "type": "video",
+   "place": "Accademia Gallery (Galleria dell’Accademia)",
+   "lat": 43.7768,
+   "lon": 11.2588
+  },
+  {
+   "id": "2fLiCLRmB4MZS4ViEqir3u",
+   "title": "Venus presides over a spring garden full of flowers",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1vHBIi9kKWdBFTqiFWDGst",
+   "title": "Two goldsmiths compete for the Baptistery’s bronze doors",
+   "type": "video",
+   "place": "Bargello Museum",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "3UJZHGVjN3Ir9GnngWdeyk",
+   "title": "Pastel figures carry Christ’s body with no ground to stand on",
+   "type": "video",
+   "place": "Capponi Chapel, Santa Felicita church",
+   "lat": 43.7666,
+   "lon": 11.2523
+  },
+  {
+   "id": "Grbk8L1zQxzSKgGLfmfA8",
+   "title": "A banker’s house sets the pattern for Renaissance palaces",
+   "type": "video",
+   "place": "Palazzo Medici Riccardi",
+   "lat": 43.7752,
+   "lon": 11.2559
+  },
+  {
+   "id": "2NcQTvSu84euFQz44vouX3",
+   "title": "A Flemish altarpiece arrives and Florentine painters take notes",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "6WlKzLmTjVPg06uo8n7pb",
+   "title": "Cimabue sets the Virgin on a throne above four prophets",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "5oR1P3Y8KdFh4jD9QrTpUA",
+   "title": "A giant Bible copied in England was meant as a gift for the pope",
+   "type": "video",
+   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
+   "lat": 43.7746,
+   "lon": 11.2538
+  },
+  {
+   "id": "2FEguoAYQASaw2Ki9bFTey",
+   "title": "A towering Madonna long credited to Cimabue turns out to be Duccio’s",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "70zx7kXtqucAZJcvmsfB0Q",
+   "title": "Gold and flowing lines frame an angel’s greeting, Siena style",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "58V898h4X7xcOyGvCPle8u",
+   "title": "Giotto’s Virgin sits solidly on her throne, with real weight",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4RGqGh5JHIKHn3oNWo0rDN",
+   "title": "Venus drifts ashore on a scallop shell",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1G4iFwMgFZ3vIpBmcvQQwS",
+   "title": "Two women hold down a general and cut off his head",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "6rt3zDqe72QKo5vkHkdPGJ",
+   "title": "The Magi arrive with a glittering retinue of horses and hounds",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "5aBakxffmr9xrspja7rga3",
+   "title": "Alberti gives a Gothic church a classical front",
+   "type": "video",
+   "place": "Santa Maria Novella basilica",
+   "lat": 43.7731,
+   "lon": 11.2494
+  },
+  {
+   "id": "7pjSVO039nG3D7MWfwFSDW",
+   "title": "Fruit, a bird’s nest and insects on a forest floor",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "3JfXMChlOXPjCpOaBsL7HC",
+   "title": "Adam hides his face and Eve howls as they leave Eden",
+   "type": "video",
+   "place": "Brancacci Chapel, Santa Maria del Carmine",
+   "lat": 43.768,
+   "lon": 11.244
+  },
+  {
+   "id": "4bmzd8rMaD2ZRNgG21bWDs",
+   "title": "Perseus holds up Medusa’s head over the city’s main square",
+   "type": "video",
+   "place": "Loggia dei Lanzi, Piazza della Signoria",
+   "lat": 43.7693,
+   "lon": 11.2556
+  },
+  {
+   "id": "aTGOhhWjjYbvdfbkNbqJu",
+   "title": "A merchant’s palace wears the three classical orders",
+   "type": "video",
+   "place": "Palazzo Rucellai",
+   "lat": 43.7713,
+   "lon": 11.249
+  },
+  {
+   "id": "57aYHsLDQGKCZgm2so18Pc",
+   "title": "Two towering Madonnas show painting turn toward real bodies",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4tZbD7FJmWGbpMlUy41J6j",
+   "title": "A cube topped by a dome makes one of the first Renaissance rooms",
+   "type": "video",
+   "place": "Old Sacristy, San Lorenzo basilica",
+   "lat": 43.7748,
+   "lon": 11.254
+  },
+  {
+   "id": "2SYRghlDLY7rCzXDqRelWY",
+   "title": "A church built from rows of identical arches and chapels",
+   "type": "video",
+   "place": "Santo Spirito basilica",
+   "lat": 43.7665,
+   "lon": 11.2479
+  },
+  {
+   "id": "S2l3uGPlk9l4hY1b6YECP",
+   "title": "A duchess in a brocade gown sits with her young son",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "98dvIg3DEKBnGZ5Di2P7o",
+   "title": "A grinning angel lifts the baby Jesus toward his mother",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "3QTfd2JDXBQBd8dtHXPDC4",
+   "title": "A Sienese painter builds a deep temple behind the figures",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "7IOo3FF1NKJXiUXzAyCUbI",
+   "title": "Pastel saints stand in a sunlit loggia with the Virgin",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4XlqGY48pIzHqFEvsBVMiF",
+   "title": "A nude Venus looks straight out while maids search a chest",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "222wpVF6DLMTiV1HbsYfvt",
+   "title": "An elegant Madonna stretches like a swan",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "OI2j14lBGSRJeAFAdstgu",
+   "title": "Two children play with a small bird in a field",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "79JFTeVoSyFQwiGDDi1cg0",
+   "title": "A duke and duchess face each other in strict profile",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1CpbB2z30GfeaDsciflWia",
+   "title": "Galileo’s finger points skyward from a glass reliquary",
+   "type": "video",
+   "place": "Museo Galileo science museum",
+   "lat": 43.7677,
+   "lon": 11.256
+  },
+  {
+   "id": "5gDZCOsDIeDLulYib7CeSH",
+   "title": "Mars breaks free from Venus while Europe mourns",
+   "type": "video",
+   "place": "Palatine Gallery, Palazzo Pitti",
+   "lat": 43.7651,
+   "lon": 11.25
+  },
+  {
+   "id": "zit4U8Tk9xKSO5a1VNBmV",
+   "title": "Small hexagons show people inventing farming and weaving",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "lat": 43.7731,
+   "lon": 11.2577
+  },
+  {
+   "id": "4Y9eNR6ZzQo4DuggBkEZ2c",
+   "title": "A private corridor lets the Medici cross the river unseen",
+   "type": "video",
+   "place": "Vasari Corridor, Ponte Vecchio",
+   "lat": 43.768,
+   "lon": 11.2531
+  }
+ ]
+}

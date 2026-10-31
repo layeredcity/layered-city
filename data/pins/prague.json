@@ -1,0 +1,701 @@
+{
+ "city": "Prague",
+ "pins": [
+  {
+   "id": "aqx8p1sxwL93qwGugDtdz",
+   "title": "A Walk Through Post-Industrial Holešovice",
+   "type": "audiotour",
+   "place": "Holešovice Market (Pražská tržnice)",
+   "lat": 50.0982,
+   "lon": 14.4442
+  },
+  {
+   "id": "bP1XhnE95jjdlQEnqg1jF",
+   "title": "Tracing a 16th-Century Water Supply Tunnel",
+   "type": "audiotour",
+   "place": "Riverbank below the Letná Metronome",
+   "lat": 50.094,
+   "lon": 14.4164
+  },
+  {
+   "id": "1zQKNsFsYZXqS1QRI6amtH",
+   "title": "Iconic Prague Castle: A Walk around the Ancient Complex with Context",
+   "type": "audiotour",
+   "place": "Hradčany Square (Hradčanské náměstí)",
+   "lat": 50.0895,
+   "lon": 14.398
+  },
+  {
+   "id": "3t67Cdd9Vp35QeN5aLLzUr",
+   "title": "The Dark Shadows of the Old Town (Ghosts of Prague)",
+   "type": "audiotour",
+   "place": "Astronomical Clock, Old Town Hall",
+   "lat": 50.088,
+   "lon": 14.4207
+  },
+  {
+   "id": "5dgBBH5izMMyoBk7Nghbjf",
+   "title": "Prague's Vršovice District: From Workers' Quarter to Local Hotspot",
+   "type": "audiotour",
+   "place": "Čechovo Square (Čechovo náměstí), Vršovice",
+   "lat": 50.0683,
+   "lon": 14.4586
+  },
+  {
+   "id": "51RA60wjQRZ6Gq7mESXpxx",
+   "title": "Contemporary Prague: David Černý's Striking Art Installations",
+   "type": "audiotour",
+   "place": "Wenceslas Square",
+   "lat": 50.0812,
+   "lon": 14.427
+  },
+  {
+   "id": "4urkuagfI3fCjcriUDa3MW",
+   "title": "Introduction to Prague with Context: A Walk from Old to Lesser Town",
+   "type": "audiotour",
+   "place": "House of the Black Madonna",
+   "lat": 50.0871,
+   "lon": 14.4253
+  },
+  {
+   "id": "3nxr50nnmoBf5T7wAGdLot",
+   "title": "World Wars, Communism and Liberation: A Prague Walking Tour",
+   "type": "audiotour",
+   "place": "Municipal House (Obecní dům)",
+   "lat": 50.087,
+   "lon": 14.428
+  },
+  {
+   "id": "4dsJbIRoMbSNgsgHz4QCBA",
+   "title": "Prague Old Town: Royal Route Part I",
+   "type": "audiotour",
+   "place": "Municipal House (Obecní dům)",
+   "lat": 50.0874,
+   "lon": 14.4282
+  },
+  {
+   "id": "5FHbhnCOalmoHJB6g2xdSJ",
+   "title": "New Town: Art Nouveau and Elegant Cafés",
+   "type": "audiotour",
+   "place": "Můstek (bottom of Wenceslas Square)",
+   "lat": 50.0842,
+   "lon": 14.4237
+  },
+  {
+   "id": "5adfnesuMqcIKqY3bSW5Zu",
+   "title": "A Prague Walking Tour: The Glory, Decline and Revival of Vysehrad Castle",
+   "type": "audiotour",
+   "place": "Tábor Gate, Vyšehrad",
+   "lat": 50.0617,
+   "lon": 14.4243
+  },
+  {
+   "id": "4obipvblJfgBNekdZCzCOz",
+   "title": "Prague's Medieval Heart: A Walking Tour",
+   "type": "audiotour",
+   "place": "Astronomical Clock, Old Town Hall",
+   "lat": 50.0869,
+   "lon": 14.4204
+  },
+  {
+   "id": "5ejiGOR3z4GfpGugr5OyuJ",
+   "title": "Tales Behind the House Signs of Old Prague",
+   "type": "audiotour",
+   "place": "Můstek (bottom of Wenceslas Square)",
+   "lat": 50.0842,
+   "lon": 14.4234
+  },
+  {
+   "id": "6ca7V2hP9VaiK2xUfMeY8h",
+   "title": "The Mercurial Emperor",
+   "type": "book",
+   "place": "Prague Castle",
+   "lat": 50.0897,
+   "lon": 14.3984
+  },
+  {
+   "id": "1hYszCiwOAiuesXVzxTzMy",
+   "title": "The King's Road",
+   "type": "audiotour",
+   "place": "Palladium shopping centre",
+   "lat": 50.0888,
+   "lon": 14.4285
+  },
+  {
+   "id": "6zjs16dgpxLKc7RgzalS3b",
+   "title": "Exploring Prague's Jewish Quarter",
+   "type": "audiotour",
+   "place": "New City Hall, Mariánské Square",
+   "lat": 50.0869,
+   "lon": 14.4178
+  },
+  {
+   "id": "1RwLHE9hc2CZ7nrq92FsAy",
+   "title": "Prague in Black and Gold",
+   "type": "book",
+   "place": "Old Town Square",
+   "lat": 50.0857,
+   "lon": 14.4195
+  },
+  {
+   "id": "1df7kI14HW7nvCR2QKL1VB",
+   "title": "HHhH",
+   "type": "book",
+   "place": "Church of Sts Cyril and Methodius, Resslova",
+   "lat": 50.0759,
+   "lon": 14.417
+  },
+  {
+   "id": "uTPPYtGdQOFNATwrf3XpB",
+   "title": "The Magic Lantern",
+   "type": "book",
+   "place": "Laterna Magika theatre",
+   "lat": 50.0828,
+   "lon": 14.4219
+  },
+  {
+   "id": "Kk80FUja2C3SYE8Gu0rqU",
+   "title": "The Unbearable Lightness of Being",
+   "type": "book",
+   "place": "Wenceslas Square",
+   "lat": 50.0809,
+   "lon": 14.4281
+  },
+  {
+   "id": "51dm5RGvXmysiIJkkBiv2r",
+   "title": "Utz",
+   "type": "book",
+   "place": "Old Jewish Cemetery",
+   "lat": 50.0872,
+   "lon": 14.417
+  },
+  {
+   "id": "15MGbIMQsR6HZXYIw4HMzj",
+   "title": "Under a Cruel Star",
+   "type": "book",
+   "place": "Pankrác Prison",
+   "lat": 50.0552,
+   "lon": 14.4367
+  },
+  {
+   "id": "63gNbhfOgpWswjvoYd4v38",
+   "title": "Too Loud a Solitude",
+   "type": "book",
+   "place": "Libeň district (area)",
+   "lat": 50.1053,
+   "lon": 14.4735
+  },
+  {
+   "id": "7irVSbLql3p0g8nQcaz0Rm",
+   "title": "The Good Soldier Švejk",
+   "type": "book",
+   "place": "U Kalicha pub",
+   "lat": 50.0756,
+   "lon": 14.428
+  },
+  {
+   "id": "6MpP4GNwqEzC7iyFltC40",
+   "title": "The Golem",
+   "type": "book",
+   "place": "Old-New Synagogue",
+   "lat": 50.0873,
+   "lon": 14.4178
+  },
+  {
+   "id": "4RLeQXqNCyTmp0Dt4p4zwI",
+   "title": "The Trial",
+   "type": "book",
+   "place": "Kafka’s grave, New Jewish Cemetery",
+   "lat": 50.0798,
+   "lon": 14.4775
+  },
+  {
+   "id": "5mXgCx01HEZD7sJubrELNU",
+   "title": "Amerika",
+   "type": "music",
+   "place": "Výstaviště exhibition grounds, Holešovice",
+   "lat": 50.1053,
+   "lon": 14.431
+  },
+  {
+   "id": "1wxN4K2KWQ62QsXg1TzVLv",
+   "title": "Higher",
+   "type": "music",
+   "place": "Forum Karlín concert hall",
+   "lat": 50.0925,
+   "lon": 14.4515
+  },
+  {
+   "id": "6PYi4DRHkDqKJsh7UdvijY",
+   "title": "Veronika’s Dream",
+   "type": "music",
+   "place": "DOX Centre for Contemporary Art",
+   "lat": 50.103,
+   "lon": 14.447
+  },
+  {
+   "id": "LniHYVxxxzKEQoFSvHmUt",
+   "title": "Praha",
+   "type": "music",
+   "place": "Palác Akropolis music venue",
+   "lat": 50.0823,
+   "lon": 14.4489
+  },
+  {
+   "id": "3ukQTyaZRD1b2iyibKLRBX",
+   "title": "Modlitba pro Martu",
+   "type": "music",
+   "place": "St Wenceslas statue, Wenceslas Square",
+   "lat": 50.0796,
+   "lon": 14.4281
+  },
+  {
+   "id": "4X8FYMJroqVuDMuxUu7Fgw",
+   "title": "Lady Karneval",
+   "type": "music",
+   "place": "Lucerna Palace",
+   "lat": 50.0817,
+   "lon": 14.4232
+  },
+  {
+   "id": "5wwNmbEcuuoZt5al56WQxY",
+   "title": "Bugatti Step",
+   "type": "music",
+   "place": "Jaroslav Ježek Blue Room museum",
+   "lat": 50.0884,
+   "lon": 14.4184
+  },
+  {
+   "id": "4FO2y8R808a1PbDalgGwbH",
+   "title": "Stříhali dohola malého chlapečka",
+   "type": "music",
+   "place": "Vinohrady district (area)",
+   "lat": 50.0755,
+   "lon": 14.4378
+  },
+  {
+   "id": "11HXWLAOdPxt133OcfETEB",
+   "title": "Songs My Mother Taught Me (Gypsy Songs, Op. 55)",
+   "type": "music",
+   "place": "Dvořák Museum (Villa Amerika)",
+   "lat": 50.0716,
+   "lon": 14.4267
+  },
+  {
+   "id": "56AQi250RucHUtithzCoNI",
+   "title": "Želva",
+   "type": "music",
+   "place": "Rokoko Theatre, Wenceslas Square",
+   "lat": 50.081,
+   "lon": 14.4258
+  },
+  {
+   "id": "3CEuEhiJcUcvA7gVIDVMnr",
+   "title": "Vltava (Má vlast, No. 2)",
+   "type": "music",
+   "place": "Smetana Museum",
+   "lat": 50.0854,
+   "lon": 14.4129
+  },
+  {
+   "id": "C2D8z2QdiKd9lgQKT1twj",
+   "title": "Don Giovanni, K. 527: Overture",
+   "type": "music",
+   "place": "Estates Theatre",
+   "lat": 50.086,
+   "lon": 14.4236
+  },
+  {
+   "id": "7y5lbxzM4lwORDOJTbp6ZS",
+   "title": "Muchomůrky bílé",
+   "type": "music",
+   "place": "",
+   "lat": 50.0808,
+   "lon": 14.4192
+  },
+  {
+   "id": "kJuoILXphc3p8rBDqPhlR",
+   "title": "Kokalero",
+   "type": "music",
+   "place": "Žižkov Television Tower",
+   "lat": 50.0808,
+   "lon": 14.4508
+  },
+  {
+   "id": "54vBMkWQ4SSVJfO3DbGQNP",
+   "title": "Jan Palach",
+   "type": "movie",
+   "place": "Jan Palach memorial, Wenceslas Square",
+   "lat": 50.0788,
+   "lon": 14.43
+  },
+  {
+   "id": "5bN48Arfae6LTMrAku59eJ",
+   "title": "The Ear (Ucho)",
+   "type": "movie",
+   "place": "Prague Castle",
+   "lat": 50.0907,
+   "lon": 14.4003
+  },
+  {
+   "id": "7H9o4BRsVpKRZD118950fq",
+   "title": "Daisies (Sedmikrásky)",
+   "type": "movie",
+   "place": "Wenceslas Square (area)",
+   "lat": 50.081,
+   "lon": 14.427
+  },
+  {
+   "id": "8HKoIeddNauHJuGtJgJpK",
+   "title": "The Cremator (Spalovač mrtvol)",
+   "type": "movie",
+   "place": "Strašnice Crematorium",
+   "lat": 50.0765,
+   "lon": 14.4847
+  },
+  {
+   "id": "16buHJdYVr1UwGmmXIiyxb",
+   "title": "I Served the King of England (Obsluhoval jsem anglického krále)",
+   "type": "movie",
+   "place": "Hotel Paříž",
+   "lat": 50.0882,
+   "lon": 14.4271
+  },
+  {
+   "id": "3Z9CckgMCDis32tm3qTjf4",
+   "title": "Kafka",
+   "type": "movie",
+   "place": "Old Town Square",
+   "lat": 50.0875,
+   "lon": 14.421
+  },
+  {
+   "id": "1uWLERrZoE9JMFNh6QgvfG",
+   "title": "Citizen Havel (Občan Havel)",
+   "type": "movie",
+   "place": "Prague Castle",
+   "lat": 50.0905,
+   "lon": 14.401
+  },
+  {
+   "id": "mUBAl2f6mm4DjiUegy4D9",
+   "title": "Pelíšky (Cosy Dens)",
+   "type": "movie",
+   "place": "Vinohrady district (area)",
+   "lat": 50.077,
+   "lon": 14.447
+  },
+  {
+   "id": "6V3BIlJtkS4s0UpP9gX4Xj",
+   "title": "Kolya (Kolja)",
+   "type": "movie",
+   "place": "Lesser Town (Malá Strana) (area)",
+   "lat": 50.088,
+   "lon": 14.404
+  },
+  {
+   "id": "55eif8xk0qOchOyTMfn2aD",
+   "title": "The Emperor and the Golem (Císařův pekař – Pekařův císař)",
+   "type": "movie",
+   "place": "Prague Castle",
+   "lat": 50.091,
+   "lon": 14.4016
+  },
+  {
+   "id": "2pYvEz7b9eaWtZ4cLI2sp2",
+   "title": "Loners (Samotáři)",
+   "type": "movie",
+   "place": "Vinohrady and Žižkov districts (area)",
+   "lat": 50.08,
+   "lon": 14.455
+  },
+  {
+   "id": "77p4UpjmIpnMHxmRvD6IVZ",
+   "title": "Anthropoid",
+   "type": "movie",
+   "place": "Church of Sts Cyril and Methodius, Resslova",
+   "lat": 50.0756,
+   "lon": 14.416
+  },
+  {
+   "id": "1oPWDsRWziOAEKxurJ3RlZ",
+   "title": "Fluidum",
+   "type": "music",
+   "place": "Roxy club, Dlouhá",
+   "lat": 50.0904,
+   "lon": 14.427
+  },
+  {
+   "id": "26rq1GXAs9I2rjQ6bRNLqn",
+   "title": "The Power of the Powerless",
+   "type": "book",
+   "place": "Theatre on the Balustrade (Divadlo Na zábradlí)",
+   "lat": 50.085,
+   "lon": 14.4146
+  },
+  {
+   "id": "75i75bkx9eCTSPgg73xXr5",
+   "title": "A general builds an imperial palace, then loses everything",
+   "type": "podcast",
+   "place": "Wallenstein Palace",
+   "lat": 50.0901,
+   "lon": 14.4057
+  },
+  {
+   "id": "3WdaupLK10Ddj3YrMXXqqN",
+   "title": "Three men thrown from a window ignite a European war",
+   "type": "podcast",
+   "place": "Old Royal Palace, Prague Castle",
+   "lat": 50.0911,
+   "lon": 14.4016
+  },
+  {
+   "id": "3Y4HrrBVQaIvF3u3FhjGZI",
+   "title": "A duke's own brother arranges his murder at church",
+   "type": "podcast",
+   "place": "St Vitus Cathedral, Prague Castle",
+   "lat": 50.0909,
+   "lon": 14.4005
+  },
+  {
+   "id": "ZSXDNxhFAq1mUmuiY2706",
+   "title": "A thrown stone turns a sermon into a massacre",
+   "type": "podcast",
+   "place": "New Town Hall",
+   "lat": 50.0783,
+   "lon": 14.4212
+  },
+  {
+   "id": "X2YteMHq1RWTwxmLiM167",
+   "title": "Radio staff seize their own building to spark an uprising",
+   "type": "podcast",
+   "place": "Czech Radio building, Vinohradská",
+   "lat": 50.0786,
+   "lon": 14.4344
+  },
+  {
+   "id": "3aZcvrbA0EtgL3Ur0ilCqd",
+   "title": "Prague loves this composer more than his hometown does",
+   "type": "podcast",
+   "place": "Estates Theatre",
+   "lat": 50.086,
+   "lon": 14.4237
+  },
+  {
+   "id": "13EsKXJzeasQdL3vW2x52E",
+   "title": "Two prime ministers split a country in six days",
+   "type": "podcast",
+   "place": "Straka Academy (Czech government office)",
+   "lat": 50.0921,
+   "lon": 14.4121
+  },
+  {
+   "id": "696xEnSCFG5S4VhKoZ69EK",
+   "title": "Women rule from a rival fortress, then lose everything",
+   "type": "podcast",
+   "place": "Vyšehrad fortress",
+   "lat": 50.0642,
+   "lon": 14.4189
+  },
+  {
+   "id": "5Xc92uBAWBpvJldC47VoPk",
+   "title": "A clay giant sleeps in a synagogue attic",
+   "type": "podcast",
+   "place": "Old-New Synagogue",
+   "lat": 50.0901,
+   "lon": 14.4186
+  },
+  {
+   "id": "lJ3tyrdbnHx3fCQJYUSAP",
+   "title": "Tanks roll into the square as reform crumbles overnight",
+   "type": "podcast",
+   "place": "Melantrich building, Wenceslas Square",
+   "lat": 50.0818,
+   "lon": 14.4271
+  },
+  {
+   "id": "5KGy2yIgGAlYw269YEXeLr",
+   "title": "A bureaucrat writes nightmares about bureaucracy at night",
+   "type": "podcast",
+   "place": "Former Workers’ Accident Insurance office, Na Poříčí 7",
+   "lat": 50.0894,
+   "lon": 14.4312
+  },
+  {
+   "id": "5jS6LZskDfb6gf0I6DCE1r",
+   "title": "An emperor builds a Rome of his own on the Vltava",
+   "type": "podcast",
+   "place": "New Town district (area)",
+   "lat": 50.0758,
+   "lon": 14.4191
+  },
+  {
+   "id": "7Ceb7BRLvbihOjpGwDT65K",
+   "title": "In the footsteps of Franz Kafka: A Prague Walking Tour",
+   "type": "audiotour",
+   "place": "Franz Kafka Square (náměstí Franze Kafky)",
+   "lat": 50.0878,
+   "lon": 14.4193
+  },
+  {
+   "id": "1dQOwvN48Ue6aNikFqpJDI",
+   "title": "A playwright addresses 300,000 people from a balcony",
+   "type": "podcast",
+   "place": "Melantrich building, Wenceslas Square",
+   "lat": 50.0818,
+   "lon": 14.4271
+  },
+  {
+   "id": "3BZBN1uC84AzkVmZWWmw1k",
+   "title": "A confessor is drowned for keeping the queen's secrets",
+   "type": "podcast",
+   "place": "Charles Bridge",
+   "lat": 50.0865,
+   "lon": 14.4114
+  },
+  {
+   "id": "BdT5G5NEnpop0wCMWgH5c",
+   "title": "One brewery outlasts five centuries of Prague's history",
+   "type": "podcast",
+   "place": "U Fleků brewery pub",
+   "lat": 50.0788,
+   "lon": 14.417
+  },
+  {
+   "id": "1QvGpC34w8yvHeZc3R0NM6",
+   "title": "A clockmaker's revenge curses his own masterpiece",
+   "type": "podcast",
+   "place": "Astronomical Clock, Old Town Hall",
+   "lat": 50.087,
+   "lon": 14.4207
+  },
+  {
+   "id": "5opk4gfseVC1XIFaZ68JJl",
+   "title": "An astronomer with a metal nose ends his days at the emperor’s court",
+   "type": "podcast",
+   "place": "Church of Our Lady before Týn",
+   "lat": 50.0876,
+   "lon": 14.4225
+  },
+  {
+   "id": "7DO3F4Bsl1tj5r4rIRhNH8",
+   "title": "An English princess holds the Bohemian crown for a single winter",
+   "type": "podcast",
+   "place": "Prague Castle",
+   "lat": 50.0899,
+   "lon": 14.4013
+  },
+  {
+   "id": "77RTvnN4Cj8FCPNUDB4m4U",
+   "title": "Doorless lifts loop endlessly through the old office buildings",
+   "type": "video",
+   "place": "New City Hall, Mariánské Square",
+   "lat": 50.0869,
+   "lon": 14.4177
+  },
+  {
+   "id": "5seUtwcnsnLQdEZMs47hsZ",
+   "title": "An Art Nouveau poster artist’s work comes home to Prague",
+   "type": "video",
+   "place": "Mucha Museum",
+   "lat": 50.0848,
+   "lon": 14.4263
+  },
+  {
+   "id": "1FwvZuGmyQXqcBeHK3dI9G",
+   "title": "Learning to read a medieval clock that tracks sun and moon",
+   "type": "video",
+   "place": "Astronomical Clock, Old Town Hall",
+   "lat": 50.087,
+   "lon": 14.4207
+  },
+  {
+   "id": "3dYBvRTbjZiw8K05yNlHL2",
+   "title": "Newsreel cameras catch the city the year before the Spring",
+   "type": "video",
+   "place": "Old Town Square",
+   "lat": 50.0875,
+   "lon": 14.4213
+  },
+  {
+   "id": "6KqTyBttnxdBSN2QJi2V3R",
+   "title": "The largest stadium ever built sits half forgotten on a hill",
+   "type": "video",
+   "place": "Great Strahov Stadium",
+   "lat": 50.0806,
+   "lon": 14.3878
+  },
+  {
+   "id": "18a94sO8GijWELlS5BOPeU",
+   "title": "Six synagogues and a hall of names in the old Jewish Town",
+   "type": "video",
+   "place": "Josefov Jewish Quarter (area)",
+   "lat": 50.09,
+   "lon": 14.418
+  },
+  {
+   "id": "4Vl3WCfwvNsRgbl3fRV5w8",
+   "title": "Twelve layers of graves crowd a small walled cemetery",
+   "type": "video",
+   "place": "Old Jewish Cemetery",
+   "lat": 50.0902,
+   "lon": 14.4174
+  },
+  {
+   "id": "2OLVcKQvDf0S9Ah69NAihr",
+   "title": "Monks build a painted hall for philosophy and theology",
+   "type": "video",
+   "place": "Strahov Monastery library",
+   "lat": 50.0862,
+   "lon": 14.3894
+  },
+  {
+   "id": "6FybVsZZj4v61tg5dNYsEj",
+   "title": "A Jesuit college shelves the nation’s books under frescoes",
+   "type": "video",
+   "place": "Clementinum library",
+   "lat": 50.0865,
+   "lon": 14.416
+  },
+  {
+   "id": "39HNBbSVNTCgrT73X4KhdC",
+   "title": "A thousand years of kings, presidents and saints on one hill",
+   "type": "video",
+   "place": "St Vitus Cathedral, Prague Castle",
+   "lat": 50.0909,
+   "lon": 14.4005
+  },
+  {
+   "id": "2ntYzMZALD6fW12nSSrAVh",
+   "title": "A Gothic stone bridge carries a gallery of Baroque saints",
+   "type": "video",
+   "place": "Charles Bridge",
+   "lat": 50.0865,
+   "lon": 14.4114
+  },
+  {
+   "id": "45Ij77ogZband8LnctEKOs",
+   "title": "A chemist makes the first soft contact lens on his kitchen table",
+   "type": "podcast",
+   "place": "Institute of Macromolecular Chemistry, Petřiny",
+   "lat": 50.0866,
+   "lon": 14.3532
+  },
+  {
+   "id": "6gRuE9AF37ehYTvpS68Suo",
+   "title": "Gothic towers and Baroque domes on both banks of the Vltava",
+   "type": "video",
+   "place": "Old Town Square",
+   "lat": 50.0875,
+   "lon": 14.4213
+  },
+  {
+   "id": "2KDRJzYVGeKiqyd3rxx7Pg",
+   "title": "A long sloping square where Czechs gather to make history",
+   "type": "video",
+   "place": "Wenceslas Square",
+   "lat": 50.0812,
+   "lon": 14.428
+  }
+ ]
+}

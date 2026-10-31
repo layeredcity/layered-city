@@ -1,0 +1,557 @@
+{
+ "city": "Reykjavík",
+ "pins": [
+  {
+   "id": "56dZdDkMlYL5azdHGjxSyK",
+   "title": "Letters from Iceland",
+   "type": "book",
+   "place": "Old Harbour (area)",
+   "lat": 64.1501,
+   "lon": -21.9392
+  },
+  {
+   "id": "qsS8YQABW1NUxRzI7FIRW",
+   "title": "Reykjavik Revealed: A Tour of its Main Sights and Hidden Gems",
+   "type": "audiotour",
+   "place": "Hallgrímskirkja church",
+   "lat": 64.142,
+   "lon": -21.9271
+  },
+  {
+   "id": "2JjWSJ5rvEAOeCvLl0zich",
+   "title": "Names for the Sea: Strangers in Iceland",
+   "type": "book",
+   "place": "University of Iceland",
+   "lat": 64.1406,
+   "lon": -21.9494
+  },
+  {
+   "id": "6s81MAEuiT8ucLZmGstRBj",
+   "title": "Moonstone: The Boy Who Never Was",
+   "type": "book",
+   "place": "Gamla Bíó cinema",
+   "lat": 64.1466,
+   "lon": -21.9343
+  },
+  {
+   "id": "2WiFACctLhY5s35OcqoBvX",
+   "title": "The History of Iceland",
+   "type": "book",
+   "place": "Austurvöllur square",
+   "lat": 64.1472,
+   "lon": -21.9399
+  },
+  {
+   "id": "2l9rwsvjQ0ovdqAhONsySU",
+   "title": "Jar City",
+   "type": "book",
+   "place": "Norðurmýri (area)",
+   "lat": 64.1391,
+   "lon": -21.9187
+  },
+  {
+   "id": "2r1aQlXGNEXc4tR0S955Qe",
+   "title": "Meltdown Iceland",
+   "type": "book",
+   "place": "Austurvöllur square",
+   "lat": 64.1472,
+   "lon": -21.9399
+  },
+  {
+   "id": "2TI3aslrLAJPlGyomNoPJo",
+   "title": "Devil’s Island",
+   "type": "book",
+   "place": "Site of Camp Knox barracks, Vesturbær (area)",
+   "lat": 64.1486,
+   "lon": -21.9528
+  },
+  {
+   "id": "4ju6JnMAuzKth9P3TfKb4B",
+   "title": "The Fish Can Sing",
+   "type": "book",
+   "place": "Tjörnin pond",
+   "lat": 64.1415,
+   "lon": -21.9426
+  },
+  {
+   "id": "61sa0DZUa4xBnstYbPxzzR",
+   "title": "101 Reykjavík",
+   "type": "book",
+   "place": "Laugavegur street",
+   "lat": 64.1405,
+   "lon": -21.923
+  },
+  {
+   "id": "7FcprLA90lAK2aXJpFXam5",
+   "title": "The Sagas of Icelanders",
+   "type": "book",
+   "place": "Ingólfur Arnarson statue, Arnarhóll",
+   "lat": 64.1478,
+   "lon": -21.9331
+  },
+  {
+   "id": "EGfNklLdKMnD54ejtSvwO",
+   "title": "Way Down We Go",
+   "type": "music",
+   "place": "Mosfellsbær (area)",
+   "lat": 64.1707,
+   "lon": -21.687
+  },
+  {
+   "id": "48j4JipDyrcg4Xqlq2qz93",
+   "title": "Near Light",
+   "type": "music",
+   "place": "Mosfellsbær (area)",
+   "lat": 64.167,
+   "lon": -21.6944
+  },
+  {
+   "id": "3NdsSwGMufBnVOuesdFtpF",
+   "title": "Reykjavík",
+   "type": "music",
+   "place": "Breiðholt (area)",
+   "lat": 64.0964,
+   "lon": -21.829
+  },
+  {
+   "id": "4gBqJv7rIUlCh8s8HHTzIW",
+   "title": "Jungle Drum",
+   "type": "music",
+   "place": "Kópavogur (area)",
+   "lat": 64.1122,
+   "lon": -21.911
+  },
+  {
+   "id": "5o6lfrYlN5XEaLUH4V2w6F",
+   "title": "Believe",
+   "type": "music",
+   "place": "Kaffibarinn bar",
+   "lat": 64.1463,
+   "lon": -21.9369
+  },
+  {
+   "id": "3Vj4zV5BvXRkWxOtzAw7J1",
+   "title": "Green Grass of Tunnel",
+   "type": "music",
+   "place": "Grandi harbour district (area)",
+   "lat": 64.1545,
+   "lon": -21.949
+  },
+  {
+   "id": "2PkRlFgaXgptqrKnArT12W",
+   "title": "Jóga",
+   "type": "music",
+   "place": "Grótta lighthouse, Seltjarnarnes",
+   "lat": 64.1662,
+   "lon": -22.0268
+  },
+  {
+   "id": "5JvcGcp4Ml5ClOnt1QBshQ",
+   "title": "From the Start",
+   "type": "music",
+   "place": "Tjörnin pond",
+   "lat": 64.145,
+   "lon": -21.943
+  },
+  {
+   "id": "kAITvJWV4yaegtyp5H19w",
+   "title": "Ekki enn",
+   "type": "music",
+   "place": "Hótel Borg, Austurvöllur",
+   "lat": 64.147,
+   "lon": -21.937
+  },
+  {
+   "id": "drfJOoLqVywFH7kPKmsci",
+   "title": "Spáðu í mig",
+   "type": "music",
+   "place": "Ingólfstorg square",
+   "lat": 64.1476,
+   "lon": -21.941
+  },
+  {
+   "id": "3cXwFnc21hsnXofwImplJ1",
+   "title": "Birthday",
+   "type": "music",
+   "place": "Laugavegur street",
+   "lat": 64.1445,
+   "lon": -21.9255
+  },
+  {
+   "id": "4u4FwnbiIJm4lDviIBnvaf",
+   "title": "Little Talks",
+   "type": "music",
+   "place": "Laugavegur street",
+   "lat": 64.1438,
+   "lon": -21.93
+  },
+  {
+   "id": "2MIm1k83wAVBYOXcPasl5D",
+   "title": "Minni Íslands (Iceland Overture), Op. 9",
+   "type": "music",
+   "place": "Harpa concert hall",
+   "lat": 64.1504,
+   "lon": -21.9327
+  },
+  {
+   "id": "46mFinpwSrWnMQ8LPYQIaQ",
+   "title": "Garden Party",
+   "type": "music",
+   "place": "",
+   "lat": 64.1432,
+   "lon": -21.9146
+  },
+  {
+   "id": "4qqJZDvc5woy4miIzCjlFC",
+   "title": "Devil’s Island (Djöflaeyjan)",
+   "type": "movie",
+   "place": "Site of Camp Knox barracks, Vesturbær (area)",
+   "lat": 64.151,
+   "lon": -21.96
+  },
+  {
+   "id": "59UCtri1LZAvA2Sy6hIPXb",
+   "title": "Woman at War (Kona fer í stríð)",
+   "type": "movie",
+   "place": "Austurvöllur square",
+   "lat": 64.1472,
+   "lon": -21.9397
+  },
+  {
+   "id": "79owUpmD7jUUiAiXLpNtTF",
+   "title": "Under the Tree (Undir trénu)",
+   "type": "movie",
+   "place": "Reykjavík residential suburbs (area)",
+   "lat": 64.115,
+   "lon": -21.87
+  },
+  {
+   "id": "5LwqmYeMREH0eR503qH6Av",
+   "title": "Volcano (Eldfjall)",
+   "type": "movie",
+   "place": "Residential Reykjavík (area)",
+   "lat": 64.142,
+   "lon": -21.89
+  },
+  {
+   "id": "2Fji1yAGO2yfChWFPuSNIS",
+   "title": "Screaming Masterpiece (Gargandi snilld)",
+   "type": "movie",
+   "place": "Downtown 101 district (area)",
+   "lat": 64.145,
+   "lon": -21.928
+  },
+  {
+   "id": "2v8n6QzvL1iefzG17Ftcey",
+   "title": "Reykjavík-Rotterdam",
+   "type": "movie",
+   "place": "Old Harbour (area)",
+   "lat": 64.15,
+   "lon": -21.942
+  },
+  {
+   "id": "DG5vwNLGiSoOynzDyixcg",
+   "title": "Life in a Fishbowl (Vonarstræti)",
+   "type": "movie",
+   "place": "Vonarstræti street",
+   "lat": 64.146,
+   "lon": -21.944
+  },
+  {
+   "id": "2vJoUbffvqPbkDE5wmr6WH",
+   "title": "Virgin Mountain (Fúsi)",
+   "type": "movie",
+   "place": "Breiðholt (area)",
+   "lat": 64.103,
+   "lon": -21.825
+  },
+  {
+   "id": "445rzr2aNH4XrfnGZUZNu8",
+   "title": "101 Reykjavík",
+   "type": "movie",
+   "place": "Kaffibarinn bar",
+   "lat": 64.1462,
+   "lon": -21.933
+  },
+  {
+   "id": "6senhcgyh2zRf46kZcMvKj",
+   "title": "Gnarr",
+   "type": "movie",
+   "place": "City Hall (Ráðhús), by Tjörnin",
+   "lat": 64.1465,
+   "lon": -21.942
+  },
+  {
+   "id": "6u1d6WoU72eCOpaYpovsos",
+   "title": "Svefn-g-englar",
+   "type": "music",
+   "place": "Sundlaugin studio, Álafoss, Mosfellsbær",
+   "lat": 64.169,
+   "lon": -21.696
+  },
+  {
+   "id": "5We9K41O8ZHneFCkF0Hbe5",
+   "title": "Two professors argue over medieval Iceland's body counts",
+   "type": "podcast",
+   "place": "Edda, House of Icelandic (manuscript exhibition)",
+   "lat": 64.1417,
+   "lon": -21.9504
+  },
+  {
+   "id": "4BHRsvAR0S9DR1UnQfQJLg",
+   "title": "A tiny country's banks grow ten times bigger than its economy",
+   "type": "podcast",
+   "place": "Borgartún financial district (area)",
+   "lat": 64.145,
+   "lon": -21.9091
+  },
+  {
+   "id": "4lKKjdS03WTE8SNYdz9jzz",
+   "title": "A chieftain's tossed pillars choose Iceland's capital",
+   "type": "podcast",
+   "place": "Settlement Exhibition museum, Aðalstræti",
+   "lat": 64.1474,
+   "lon": -21.9425
+  },
+  {
+   "id": "QEg9sZie9AIEVdPC2P6CL",
+   "title": "A tiny navy wins a war without firing a shot",
+   "type": "podcast",
+   "place": "British Embassy, Laufásvegur",
+   "lat": 64.1428,
+   "lon": -21.9368
+  },
+  {
+   "id": "6tQOV9VwUBn4MAMQVVqqUd",
+   "title": "An airline promises impossibly cheap flights, then vanishes overnight",
+   "type": "podcast",
+   "place": "Keflavík International Airport",
+   "lat": 63.9815,
+   "lon": -22.6282
+  },
+  {
+   "id": "6NOOlQOEBAqGp0QSZQ9hCs",
+   "title": "The most photographed statue wasn't even the real hero",
+   "type": "podcast",
+   "place": "Leif Erikson statue, Hallgrímskirkja",
+   "lat": 64.142,
+   "lon": -21.9265
+  },
+  {
+   "id": "74RaPWfQiw3pDcEx8mUu6",
+   "title": "A blacklisted socialist wins Iceland's only Nobel Prize",
+   "type": "podcast",
+   "place": "Gljúfrasteinn (Laxness Museum), Mosfellsdalur",
+   "lat": 64.1809,
+   "lon": -21.5818
+  },
+  {
+   "id": "1DM0e9OSj3JAcixrAAS9CQ",
+   "title": "A backwater country becomes a genetics goldmine",
+   "type": "podcast",
+   "place": "deCODE genetics headquarters",
+   "lat": 64.1357,
+   "lon": -21.9455
+  },
+  {
+   "id": "7oGO4giiBA7fY208kd4OXp",
+   "title": "Six innocent people confess to murders that can't be proven",
+   "type": "podcast",
+   "place": "Former Síðumúli Prison",
+   "lat": 64.134,
+   "lon": -21.879
+  },
+  {
+   "id": "5wqwoVKWfNvX1F6iLPeRnp",
+   "title": "A government committee decides what parents may call their baby",
+   "type": "podcast",
+   "place": "University of Iceland",
+   "lat": 64.1404,
+   "lon": -21.95
+  },
+  {
+   "id": "7tovBbc6xMtTGRsA5D87AH",
+   "title": "A hilltop church takes four decades to build",
+   "type": "podcast",
+   "place": "Hallgrímskirkja church",
+   "lat": 64.1417,
+   "lon": -21.9266
+  },
+  {
+   "id": "5GN3rFeIl1VGszuWKvyiMK",
+   "title": "Wine and vodka are legal but beer stays banned until 1989",
+   "type": "podcast",
+   "place": "National Museum of Iceland",
+   "lat": 64.1416,
+   "lon": -21.9487
+  },
+  {
+   "id": "2bM2qBUzb0JOqarFEipZfl",
+   "title": "Reagan and Gorbachev arrive at a small white house by the sea",
+   "type": "video",
+   "place": "Höfði House",
+   "lat": 64.1477,
+   "lon": -21.9187
+  },
+  {
+   "id": "6CcXmbVvMwrNV7Bmr0KYl3",
+   "title": "An office-block school teaches the lore of Iceland’s hidden folk",
+   "type": "podcast",
+   "place": "Elf School (Álfaskólinn), Síðumúli",
+   "lat": 64.1355,
+   "lon": -21.877
+  },
+  {
+   "id": "71pCR1XA6u9N8jAfDCxuZC",
+   "title": "Björk takes apart her own heartbreak anthem",
+   "type": "podcast",
+   "place": "Harpa concert hall",
+   "lat": 64.1502,
+   "lon": -21.9323
+  },
+  {
+   "id": "1OeRY9Mf7vJf7EudZSpUUQ",
+   "title": "A column of light rises every autumn from a small island",
+   "type": "video",
+   "place": "Imagine Peace Tower, Viðey island",
+   "lat": 64.1642,
+   "lon": -21.8555
+  },
+  {
+   "id": "1JKkT0BDAQDnaG9BNAo1Pw",
+   "title": "An artist wraps a concert hall in thousands of glass bricks",
+   "type": "video",
+   "place": "Harpa concert hall",
+   "lat": 64.1503,
+   "lon": -21.9327
+  },
+  {
+   "id": "1otguljkRRLko8o9op7hzT",
+   "title": "Neighbours settle the day’s news in a steaming hot pot",
+   "type": "video",
+   "place": "Laugardalslaug swimming pool",
+   "lat": 64.1464,
+   "lon": -21.8781
+  },
+  {
+   "id": "6krGLFCUL985eLxMmx5y6n",
+   "title": "Two superpowers nearly scrap their nukes in a seaside house",
+   "type": "podcast",
+   "place": "Höfði House",
+   "lat": 64.1477,
+   "lon": -21.9187
+  },
+  {
+   "id": "2i7ef4uZdTXfIUPQcl4o1F",
+   "title": "Nine in ten women walk out and the whole country stops",
+   "type": "podcast",
+   "place": "Lækjartorg square",
+   "lat": 64.1475,
+   "lon": -21.9367
+  },
+  {
+   "id": "p9qPBrlpxjCrO1LDWG3p4",
+   "title": "Women walk off work and fill the square in the centre of town",
+   "type": "video",
+   "place": "Lækjartorg square",
+   "lat": 64.1475,
+   "lon": -21.9367
+  },
+  {
+   "id": "7eTEhEjhvUtQmEcvy55rY8",
+   "title": "A rainbow-painted street climbs to a concrete church",
+   "type": "video",
+   "place": "Skólavörðustígur (Rainbow Street)",
+   "lat": 64.145,
+   "lon": -21.9284
+  },
+  {
+   "id": "2oVri41Q4RgJRtXhb2ubIg",
+   "title": "A small fishing capital in the 1950s, on archive film",
+   "type": "video",
+   "place": "Lækjartorg square",
+   "lat": 64.1474,
+   "lon": -21.9393
+  },
+  {
+   "id": "2Io55bbAA0wBcqsRMBsj84",
+   "title": "A polite invasion catches a neutral nation off guard",
+   "type": "podcast",
+   "place": "Old Harbour (area)",
+   "lat": 64.1512,
+   "lon": -21.9444
+  },
+  {
+   "id": "adzWeTWlCANJ9fxHbfxVT",
+   "title": "British troops sail into a neutral harbour without asking",
+   "type": "video",
+   "place": "Old Harbour (area)",
+   "lat": 64.1503,
+   "lon": -21.9406
+  },
+  {
+   "id": "7zbqDBBJ2DKnjN9PvBM7cS",
+   "title": "Fermented shark and whale meat test a visitor’s nerve",
+   "type": "video",
+   "place": "Old Harbour (area)",
+   "lat": 64.149,
+   "lon": -21.942
+  },
+  {
+   "id": "1VTRppX2PHvCai2VNIKXAC",
+   "title": "Cold War tensions get decided on a chessboard",
+   "type": "podcast",
+   "place": "Laugardalshöll sports hall",
+   "lat": 64.1405,
+   "lon": -21.8766
+  },
+  {
+   "id": "2P1Ntiw5BCS39oQlnzlL4K",
+   "title": "Bands from a tiny capital play every bar and gallery for a week",
+   "type": "video",
+   "place": "Hafnarhús art museum",
+   "lat": 64.1489,
+   "lon": -21.9405
+  },
+  {
+   "id": "1rtOVmSlBpKxVrcQINN9Qf",
+   "title": "A reclusive American challenges the Soviet champion in a sports hall",
+   "type": "video",
+   "place": "Laugardalshöll sports hall",
+   "lat": 64.1406,
+   "lon": -21.8783
+  },
+  {
+   "id": "7hPSdXcTuimfTC94pakNBM",
+   "title": "A museum devoted entirely to the male member",
+   "type": "podcast",
+   "place": "Icelandic Phallological Museum, Hafnartorg",
+   "lat": 64.1485,
+   "lon": -21.9358
+  },
+  {
+   "id": "3SReHaw8F0oSXjb8qiz7AU",
+   "title": "A teacher sets out to collect the penis of every Icelandic mammal",
+   "type": "video",
+   "place": "Icelandic Phallological Museum, Hafnartorg",
+   "lat": 64.1488,
+   "lon": -21.9358
+  },
+  {
+   "id": "6LbtuuGu2yLjzEFdSRLbN",
+   "title": "A country lets its banks fail and puts bankers on trial",
+   "type": "video",
+   "place": "Former Landsbanki head office, Austurstræti",
+   "lat": 64.1474,
+   "lon": -21.9387
+  },
+  {
+   "id": "13RQ9c62N2MFRvBcgjEYNg",
+   "title": "The capital bans dogs for sixty years and cats take over",
+   "type": "podcast",
+   "place": "",
+   "lat": 64.1459,
+   "lon": -21.9425
+  }
+ ]
+}

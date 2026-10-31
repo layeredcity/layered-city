@@ -1,0 +1,533 @@
+{
+ "city": "Helsinki",
+ "pins": [
+  {
+   "id": "5urnkWa1TLvwP4x1JJT8PM",
+   "title": "The Nordic Theory of Everything",
+   "type": "book",
+   "place": "Oodi Central Library",
+   "lat": 60.1739,
+   "lon": 24.9381
+  },
+  {
+   "id": "3mbq50fzIoK1R7NwYijHmp",
+   "title": "Kallio Walking Tour: Workers, Rebels and Pioneering Women",
+   "type": "audiotour",
+   "place": "Hakaniemi Market Square",
+   "lat": 60.1789,
+   "lon": 24.9514
+  },
+  {
+   "id": "4ztWfIuDV25pNRVKfm4Q19",
+   "title": "Helsinki Walking Tour: Historical Highlights of the Finnish Capital",
+   "type": "audiotour",
+   "place": "Senate Square",
+   "lat": 60.1693,
+   "lon": 24.9517
+  },
+  {
+   "id": "OHSsk86RNdcZ9G9HFQL2m",
+   "title": "Engel to Aalto: A Helsinki Architecture Walking Tour",
+   "type": "audiotour",
+   "place": "Senate Square",
+   "lat": 60.1699,
+   "lon": 24.9522
+  },
+  {
+   "id": "10HlL4ffmkVicL8LPQ2J1d",
+   "title": "Capital of Contrasts: A Helsinki Walking Tour",
+   "type": "audiotour",
+   "place": "Senate Square",
+   "lat": 60.1698,
+   "lon": 24.9523
+  },
+  {
+   "id": "41GLeiQa0sREX9mSJAM5Qv",
+   "title": "A History of Finland",
+   "type": "book",
+   "place": "Senate Square",
+   "lat": 60.1697,
+   "lon": 24.9521
+  },
+  {
+   "id": "7HOdVqCEghpa2nzsi3NZFQ",
+   "title": "The Final Act: The Helsinki Accords and the Transformation of the Cold War",
+   "type": "book",
+   "place": "Finlandia Hall",
+   "lat": 60.1722,
+   "lon": 24.9265
+  },
+  {
+   "id": "2kPsJ2LkDsg6lOK75LZXFc",
+   "title": "Suomenlinna Walking Tour: A Guide to Helsinki's Island Fortress",
+   "type": "audiotour",
+   "place": "Suomenlinna ferry pier (Main Quay)",
+   "lat": 60.1493,
+   "lon": 24.9839
+  },
+  {
+   "id": "2jDK8yAxcPwo86GjMfcJjc",
+   "title": "The Kalevala",
+   "type": "book",
+   "place": "Ateneum art museum",
+   "lat": 60.1704,
+   "lon": 24.9418
+  },
+  {
+   "id": "18KGRUsBLLFyZIGx50Fiuu",
+   "title": "The Wednesday Club",
+   "type": "book",
+   "place": "Hotel Kämp",
+   "lat": 60.1684,
+   "lon": 24.947
+  },
+  {
+   "id": "3oJuH4ORVLSCdpYB1qchq3",
+   "title": "A Frozen Hell: The Russo-Finnish Winter War of 1939–1940",
+   "type": "book",
+   "place": "Mannerheim statue, Mannerheimintie",
+   "lat": 60.1716,
+   "lon": 24.9363
+  },
+  {
+   "id": "3ePxX5Ji1Lw05emHJzApnX",
+   "title": "The Finnish Cookbook",
+   "type": "book",
+   "place": "Old Market Hall (Vanha kauppahalli)",
+   "lat": 60.1661,
+   "lon": 24.9528
+  },
+  {
+   "id": "3Cmt9yYs69woIC1vPHw4Fu",
+   "title": "Sculptor’s Daughter",
+   "type": "book",
+   "place": "Katajanokka (area)",
+   "lat": 60.1677,
+   "lon": 24.956
+  },
+  {
+   "id": "4T5TMIrliYu00p8Luw14Hr",
+   "title": "Unknown Soldiers",
+   "type": "book",
+   "place": "Hietaniemi Cemetery",
+   "lat": 60.1683,
+   "lon": 24.9173
+  },
+  {
+   "id": "78jrehLgLgilrA31eRgGbE",
+   "title": "Alvar Aalto: Architect",
+   "type": "book",
+   "place": "Aalto House (Alvar Aalto’s home), Munkkiniemi",
+   "lat": 60.1968,
+   "lon": 24.8765
+  },
+  {
+   "id": "56mi6y3Pr4KanfCV6RXNFQ",
+   "title": "Ciel d’hiver",
+   "type": "music",
+   "place": "Helsinki Music Centre (Musiikkitalo)",
+   "lat": 60.1736,
+   "lon": 24.935
+  },
+  {
+   "id": "41ZzrbcZ2iAtrGS8DWQ0p5",
+   "title": "Chasing Highs",
+   "type": "music",
+   "place": "Vuosaari (area)",
+   "lat": 60.2072,
+   "lon": 25.1422
+  },
+  {
+   "id": "3wA0b8ffHAEyxPZsGM4hHN",
+   "title": "Cha Cha Cha",
+   "type": "music",
+   "place": "Käärijä mural, Ruskeasanta, Vantaa",
+   "lat": 60.2931,
+   "lon": 25.034
+  },
+  {
+   "id": "5Uschri0pQrRMP5MjY2fah",
+   "title": "In the Shadows",
+   "type": "music",
+   "place": "Suutarila (area)",
+   "lat": 60.2749,
+   "lon": 25.0043
+  },
+  {
+   "id": "1i318Rnpf8Jhj8E9y6Nouh",
+   "title": "Join Me in Death",
+   "type": "music",
+   "place": "Oulunkylä (area)",
+   "lat": 60.2281,
+   "lon": 24.9666
+  },
+  {
+   "id": "1MfFSHTXjf1i6kCtKXminP",
+   "title": "Oi maamme Helsinki",
+   "type": "music",
+   "place": "Puhos shopping centre, Itäkeskus",
+   "lat": 60.2138,
+   "lon": 25.0819
+  },
+  {
+   "id": "43xe5Vr1d8ZCPoWJHbESNh",
+   "title": "Freestyler",
+   "type": "music",
+   "place": "Hakaniemi metro station",
+   "lat": 60.18,
+   "lon": 24.9506
+  },
+  {
+   "id": "3T7b2hGa8WoJlSlB2Iyu3y",
+   "title": "Nothing Else Matters",
+   "type": "music",
+   "place": "Sibelius Academy building, Pohjoinen Rautatiekatu",
+   "lat": 60.1716,
+   "lon": 24.9323
+  },
+  {
+   "id": "32FuOg96OhCe4sskglgiN2",
+   "title": "Voittamaton",
+   "type": "music",
+   "place": "Herttoniemi (area)",
+   "lat": 60.195,
+   "lon": 25.0308
+  },
+  {
+   "id": "3NkhkEqTZzrdqmvJA8pYvu",
+   "title": "Malibu Beach Nightmare",
+   "type": "music",
+   "place": "Tavastia Club",
+   "lat": 60.1685,
+   "lon": 24.933
+  },
+  {
+   "id": "4KQvu5s7Hr6m14V6RSaZ53",
+   "title": "Ampukaa komissaarit, nuo hullut koirat!",
+   "type": "music",
+   "place": "Kallio (area)",
+   "lat": 60.1841,
+   "lon": 24.9494
+  },
+  {
+   "id": "3dUuD6oIvIZ1m3GdRJg2sD",
+   "title": "Fairyport",
+   "type": "music",
+   "place": "Finnvox Studios, Pitäjänmäki",
+   "lat": 60.2211,
+   "lon": 24.8511
+  },
+  {
+   "id": "7CFr0B9QCRw06NNQNmlpe5",
+   "title": "Finlandia, Op. 26",
+   "type": "music",
+   "place": "Sibelius Monument, Sibelius Park",
+   "lat": 60.182,
+   "lon": 24.9134
+  },
+  {
+   "id": "5qhM9DzB6oFvrvYzx3jV3L",
+   "title": "Get On",
+   "type": "music",
+   "place": "",
+   "lat": 60.2303,
+   "lon": 24.8835
+  },
+  {
+   "id": "9mok9I8KF2mYkPvH0MIf7",
+   "title": "Muistatko Monrepos’n",
+   "type": "music",
+   "place": "",
+   "lat": 60.1915,
+   "lon": 24.981
+  },
+  {
+   "id": "2wNZi9ad6rudihpb1Bg2ty",
+   "title": "The Man Without a Past (Mies vailla menneisyyttä)",
+   "type": "movie",
+   "place": "Verkkosaari harbour (area)",
+   "lat": 60.183,
+   "lon": 24.975
+  },
+  {
+   "id": "1isMUkY4MCpfbclI4pL7Cj",
+   "title": "Zombie and the Ghost Train (Zombie ja Kummitusjuna)",
+   "type": "movie",
+   "place": "Kallio (area)",
+   "lat": 60.184,
+   "lon": 24.952
+  },
+  {
+   "id": "71B3XSehGDDWGFEU5bnDVQ",
+   "title": "A concert hall becomes a Cold War summit stage",
+   "type": "podcast",
+   "place": "Finlandia Hall",
+   "lat": 60.1757,
+   "lon": 24.9336
+  },
+  {
+   "id": "1TQWkW6z7f7QCD7ROlDu18",
+   "title": "Cold War spies hide behind ordinary Helsinki lives",
+   "type": "podcast",
+   "place": "Kaivopuisto park",
+   "lat": 60.1557,
+   "lon": 24.9557
+  },
+  {
+   "id": "7l6ZbChM7U0mhYDqJdmIcy",
+   "title": "A government treats policy like a design problem",
+   "type": "podcast",
+   "place": "Government Palace",
+   "lat": 60.1696,
+   "lon": 24.9547
+  },
+  {
+   "id": "2TchCZeoC8M01j8vuTGwH5",
+   "title": "A parliament votes itself out of the Russian Empire",
+   "type": "podcast",
+   "place": "House of the Estates (Säätytalo)",
+   "lat": 60.1712,
+   "lon": 24.9538
+  },
+  {
+   "id": "3GLecOK8QOXvIMB3DUfo6n",
+   "title": "A tone poem disguised itself to dodge Russian censors",
+   "type": "podcast",
+   "place": "Sibelius Monument, Sibelius Park",
+   "lat": 60.182,
+   "lon": 24.9134
+  },
+  {
+   "id": "7ArCF7wbAbw8b7ALbGttsJ",
+   "title": "A rubber-boot company conquers the world's pockets",
+   "type": "podcast",
+   "place": "Nokia headquarters, Keilaniemi, Espoo",
+   "lat": 60.2217,
+   "lon": 24.7562
+  },
+  {
+   "id": "1oz30jAkHUJCZMCU9ptE52",
+   "title": "A city gives itself a library as a birthday present",
+   "type": "video",
+   "place": "Oodi Central Library",
+   "lat": 60.1738,
+   "lon": 24.9381
+  },
+  {
+   "id": "2KV31kOxo7yC9joqUeULRb",
+   "title": "Helsinki, Forever (Helsinki, ikuisesti)",
+   "type": "movie",
+   "place": "Senate Square",
+   "lat": 60.1695,
+   "lon": 24.952
+  },
+  {
+   "id": "5zgKYES11lqMgwdtUs2yyr",
+   "title": "Oodi Central Library Tour: Helsinki's Community Hub of the Future",
+   "type": "audiotour",
+   "place": "Oodi Central Library",
+   "lat": 60.1734,
+   "lon": 24.9381
+  },
+  {
+   "id": "3HXJBnJkoC1IFDPtfSmpVJ",
+   "title": "A public sauna on the shore looks like a slab of rock",
+   "type": "video",
+   "place": "Löyly public sauna",
+   "lat": 60.1523,
+   "lon": 24.9264
+  },
+  {
+   "id": "4yrITjbNcv1pv0ywmoQ2Qx",
+   "title": "A country decides homeless people should get a flat first",
+   "type": "video",
+   "place": "Alppikatu 25 supported housing, Kallio",
+   "lat": 60.1866,
+   "lon": 24.9465
+  },
+  {
+   "id": "2raK5On3OWJVaITaFRL01Y",
+   "title": "Inside the studio where Alvar Aalto drew his late masterpieces",
+   "type": "video",
+   "place": "Studio Aalto, Munkkiniemi",
+   "lat": 60.1951,
+   "lon": 24.8787
+  },
+  {
+   "id": "3MLJhiGojLNxRiey7MhkAA",
+   "title": "A postwar textile firm prints Finland’s bright self-image",
+   "type": "video",
+   "place": "Marimekko factory and headquarters, Herttoniemi",
+   "lat": 60.196,
+   "lon": 25.033
+  },
+  {
+   "id": "2usgBaWWxacZkaxqov1uC3",
+   "title": "A city’s bomb shelters double as gyms and swimming pools",
+   "type": "video",
+   "place": "Itäkeskus cavern swimming hall",
+   "lat": 60.2107,
+   "lon": 25.0811
+  },
+  {
+   "id": "3xLzZ5tpg84mnDnDONX0G1",
+   "title": "A student writes an operating system in his Helsinki bedroom",
+   "type": "podcast",
+   "place": "University of Helsinki main building",
+   "lat": 60.1693,
+   "lon": 24.9503
+  },
+  {
+   "id": "6DfLG24anzWXJh3n9bkRoM",
+   "title": "A Lutheran church rises over the tsar’s new capital",
+   "type": "podcast",
+   "place": "Helsinki Cathedral",
+   "lat": 60.1704,
+   "lon": 24.9522
+  },
+  {
+   "id": "4pV36p3JcJMF8tRAgJth7v",
+   "title": "A sea fortress turns into a neighbourhood with a ferry commute",
+   "type": "podcast",
+   "place": "Suomenlinna sea fortress",
+   "lat": 60.1468,
+   "lon": 24.9885
+  },
+  {
+   "id": "2dbBczVujYJpQx2nEHbemo",
+   "title": "An old bus station hides an art museum under its square",
+   "type": "video",
+   "place": "Amos Rex art museum (Lasipalatsi)",
+   "lat": 60.1702,
+   "lon": 24.9367
+  },
+  {
+   "id": "72SaR5eycu9yhBxhUcQpL7",
+   "title": "A wartime flood story becomes a beloved family",
+   "type": "podcast",
+   "place": "Ullanlinna (area)",
+   "lat": 60.1635,
+   "lon": 24.9477
+  },
+  {
+   "id": "jGR73QEbTLQtWQ5jxr6wp",
+   "title": "A theatre on a park slope becomes a modernist landmark",
+   "type": "podcast",
+   "place": "City Theatre (Kaupunginteatteri)",
+   "lat": 60.183,
+   "lon": 24.9447
+  },
+  {
+   "id": "5f2bvxXXBGLxMobGn3zHA1",
+   "title": "A Swedish island fortress guards the harbour for two centuries",
+   "type": "video",
+   "place": "Suomenlinna sea fortress",
+   "lat": 60.1454,
+   "lon": 24.9881
+  },
+  {
+   "id": "6JMZm7XcSGXx0KWlxYwh7e",
+   "title": "Tove",
+   "type": "movie",
+   "place": "Ullanlinna (area)",
+   "lat": 60.1609,
+   "lon": 24.9471
+  },
+  {
+   "id": "1I2Q4zW05v2xY5ZobQSBIe",
+   "title": "Concrete Night (Betoniyö)",
+   "type": "movie",
+   "place": "East Helsinki housing estates (area)",
+   "lat": 60.196,
+   "lon": 25.075
+  },
+  {
+   "id": "jgvm4fKaYLzFbfabWKW9Q",
+   "title": "Granite bears and forest myths creep onto city facades",
+   "type": "video",
+   "place": "Central Railway Station",
+   "lat": 60.1711,
+   "lon": 24.9414
+  },
+  {
+   "id": "5qg440silT55F5ygV2hPD9",
+   "title": "A 1914 brick market hall reopens after five years shut",
+   "type": "video",
+   "place": "Hakaniemi Market Hall",
+   "lat": 60.1793,
+   "lon": 24.951
+  },
+  {
+   "id": "6VeWSHEfOe67sgxqm3TMAb",
+   "title": "A newly independent country splits into Reds and Whites",
+   "type": "podcast",
+   "place": "Paasitorni workers’ hall",
+   "lat": 60.1797,
+   "lon": 24.9529
+  },
+  {
+   "id": "7yZMRPtcZK4G0u0ySAqRHc",
+   "title": "The Happiest Day in the Life of Olli Mäki",
+   "type": "movie",
+   "place": "Olympic Stadium",
+   "lat": 60.1868,
+   "lon": 24.927
+  },
+  {
+   "id": "6HoZQq0Oc1so4xEMy5zHE7",
+   "title": "Olympia 52",
+   "type": "movie",
+   "place": "Olympic Stadium",
+   "lat": 60.1867,
+   "lon": 24.927
+  },
+  {
+   "id": "3xIjPCkCqtD1SZAo6q7oLp",
+   "title": "The Soviet Union joins the Olympics in a small Nordic capital",
+   "type": "video",
+   "place": "Olympic Stadium",
+   "lat": 60.1867,
+   "lon": 24.927
+  },
+  {
+   "id": "7uugqhFepfS5Fm4YeFDvWM",
+   "title": "A Czech soldier wins three golds in eight days",
+   "type": "podcast",
+   "place": "Olympic Stadium",
+   "lat": 60.1867,
+   "lon": 24.9272
+  },
+  {
+   "id": "2vAq7K3EHAC1lY4mEcocqg",
+   "title": "Tom of Finland",
+   "type": "movie",
+   "place": "City centre (area)",
+   "lat": 60.167,
+   "lon": 24.947
+  },
+  {
+   "id": "5GVATrnq5DFYJug8MMG4jG",
+   "title": "A design festival built by one family, not city hall",
+   "type": "podcast",
+   "place": "",
+   "lat": 60.1606,
+   "lon": 24.9467
+  },
+  {
+   "id": "7uYoPi00xnNKFsalTrVYe2",
+   "title": "Dogs Don’t Wear Pants (Koirat eivät käytä housuja)",
+   "type": "movie",
+   "place": "",
+   "lat": 60.175,
+   "lon": 24.935
+  },
+  {
+   "id": "5jQ3nFZS95DbcuwvC6Q2wE",
+   "title": "Girl Picture (Tytöt tytöt tytöt)",
+   "type": "movie",
+   "place": "",
+   "lat": 60.19,
+   "lon": 24.96
+  }
+ ]
+}

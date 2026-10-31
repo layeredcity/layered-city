@@ -1,0 +1,661 @@
+{
+ "city": "Stockholm",
+ "pins": [
+  {
+   "id": "1tUmThP31VjkBUHfdGwgZx",
+   "title": "Stockholm's Old Town: A Scenic Island Walk",
+   "type": "audiotour",
+   "place": "",
+   "lat": 59.3279,
+   "lon": 18.059
+  },
+  {
+   "id": "F9Tpcs0IKB1JAt7hzbnVI",
+   "title": "Drottningholm Palace Park: A Stockholm Walking Tour",
+   "type": "audiotour",
+   "place": "Drottningholm Palace",
+   "lat": 59.3217,
+   "lon": 17.8863
+  },
+  {
+   "id": "5V7LlDjMU2k8P7kFyKykk4",
+   "title": "Vasa: A Swedish Warship",
+   "type": "book",
+   "place": "Vasa Museum",
+   "lat": 59.328,
+   "lon": 18.0914
+  },
+  {
+   "id": "1i406YjnhmcMwCtCtKfmyF",
+   "title": "Stockholm by Bus: A Local's Tour of the Capital's Highlights",
+   "type": "audiotour",
+   "place": "Hötorget square",
+   "lat": 59.3348,
+   "lon": 18.0628
+  },
+  {
+   "id": "1hbTAgQiOocE9kJwH1TT3x",
+   "title": "Stockholm Walking Tour: A Tour from Sergels Torg to its City Hall",
+   "type": "audiotour",
+   "place": "Sergels torg square",
+   "lat": 59.3341,
+   "lon": 18.068
+  },
+  {
+   "id": "2EOAEKcn9HskT0jHs5C8Zi",
+   "title": "Central Stockholm: A Guide to the Modern City",
+   "type": "audiotour",
+   "place": "Drottninggatan street",
+   "lat": 59.3318,
+   "lon": 18.0635
+  },
+  {
+   "id": "LymJLUEvzgPnQHpYIA5kx",
+   "title": "Stockholm's Musical Legacy: An Audio Guide to the ABBA Story",
+   "type": "audiotour",
+   "place": "Kungsträdgården park",
+   "lat": 59.3311,
+   "lon": 18.0718
+  },
+  {
+   "id": "4XSbjaMzG27WpNGcuBxUd8",
+   "title": "Royal Djurgården Tour: A Cycle Around Stockholm's Royal National City Park",
+   "type": "audiotour",
+   "place": "Blue Gate (Blå Porten), Djurgården",
+   "lat": 59.3307,
+   "lon": 18.0944
+  },
+  {
+   "id": "76flKAY3Ci1QwVqGQYKUfu",
+   "title": "Sweden's Past and Present: Stories from Stockholm's Old Town",
+   "type": "audiotour",
+   "place": "Riksbron bridge, opposite Parliament",
+   "lat": 59.3285,
+   "lon": 18.067
+  },
+  {
+   "id": "ic9XskhAd3K2woxHSGiBx",
+   "title": "Stockholm walking tour: the landmarks and legends of Gamla Stan and beyond",
+   "type": "audiotour",
+   "place": "Kornhamnstorg square",
+   "lat": 59.3234,
+   "lon": 18.0683
+  },
+  {
+   "id": "xKqbXO3kMSlO8XKs67fFd",
+   "title": "Gamla Stan Walking Tour: A Guide to Stockholm's Old City",
+   "type": "audiotour",
+   "place": "Gamla stan metro station",
+   "lat": 59.3231,
+   "lon": 18.067
+  },
+  {
+   "id": "44TGfAc64bvgJCAIU1nxKz",
+   "title": "Our House Is on Fire",
+   "type": "book",
+   "place": "Parliament House (Riksdagshuset)",
+   "lat": 59.3275,
+   "lon": 18.0676
+  },
+  {
+   "id": "7f12h6HqNWTnDy358odGRu",
+   "title": "Blood on the Snow: The Killing of Olof Palme",
+   "type": "book",
+   "place": "Olof Palme murder site, Sveavägen",
+   "lat": 59.3352,
+   "lon": 18.062
+  },
+  {
+   "id": "TUkhooEe9UACHTy3sydiq",
+   "title": "Raoul Wallenberg",
+   "type": "book",
+   "place": "Raoul Wallenbergs torg square",
+   "lat": 59.3322,
+   "lon": 18.0757
+  },
+  {
+   "id": "2KkSp6pB6uh8VGZ1yoeVK",
+   "title": "The Nordic Cookbook",
+   "type": "book",
+   "place": "Östermalm Market Hall (Östermalms Saluhall)",
+   "lat": 59.336,
+   "lon": 18.078
+  },
+  {
+   "id": "PpJATmTjpLMtPssU59o7T",
+   "title": "Roseanna",
+   "type": "book",
+   "place": "Kungsholmen (area)",
+   "lat": 59.33,
+   "lon": 18.04
+  },
+  {
+   "id": "SFZJfwzJSav4zg4w11E3J",
+   "title": "Astrid Lindgren: The Woman Behind Pippi Longstocking",
+   "type": "book",
+   "place": "Astrid Lindgren’s home, Dalagatan 46",
+   "lat": 59.3412,
+   "lon": 18.0465
+  },
+  {
+   "id": "3jh6Rcc85kl0jM5EKquFyT",
+   "title": "Strindberg: A Life",
+   "type": "book",
+   "place": "Strindberg Museum (Blue Tower), Drottninggatan",
+   "lat": 59.3385,
+   "lon": 18.0566
+  },
+  {
+   "id": "4LvvJSxwzFDYPzbDeBfZ6Y",
+   "title": "Bright Lights Dark Shadows: The Real Story of ABBA",
+   "type": "book",
+   "place": "ABBA The Museum",
+   "lat": 59.3251,
+   "lon": 18.0968
+  },
+  {
+   "id": "7zgGY4NpRxy9g7RNTS06wV",
+   "title": "The Nobel Prize: A History of Genius, Controversy and Prestige",
+   "type": "book",
+   "place": "Nobel Prize Museum, Stortorget",
+   "lat": 59.3253,
+   "lon": 18.0707
+  },
+  {
+   "id": "1pzXwY4FbAipKiNvVa6yF1",
+   "title": "The Girl with the Dragon Tattoo",
+   "type": "book",
+   "place": "Bellmansgatan 1 (Blomkvist’s flat)",
+   "lat": 59.3206,
+   "lon": 18.0647
+  },
+  {
+   "id": "4rL5T8Z63bZ7KJtgbTU42Z",
+   "title": "The Children of Ash and Elm",
+   "type": "book",
+   "place": "Swedish History Museum",
+   "lat": 59.3346,
+   "lon": 18.0908
+  },
+  {
+   "id": "4sHwqEnDKATxVebpqqcBrT",
+   "title": "The Swedish Theory of Love",
+   "type": "movie",
+   "place": "Sergels torg square",
+   "lat": 59.3326,
+   "lon": 18.0649
+  },
+  {
+   "id": "4UWlUDy6UgY3gINkYt8v7A",
+   "title": "Together (Tillsammans)",
+   "type": "movie",
+   "place": "Bromma (area)",
+   "lat": 59.3398,
+   "lon": 17.9395
+  },
+  {
+   "id": "492UQ2PcuWf8pXG7m5fKnE",
+   "title": "Palme",
+   "type": "movie",
+   "place": "Olof Palme murder site, Sveavägen",
+   "lat": 59.3366,
+   "lon": 18.0628
+  },
+  {
+   "id": "4HAqRpdkfKU7051CP4KWQ",
+   "title": "The Square",
+   "type": "movie",
+   "place": "Kungsträdgården park",
+   "lat": 59.3308,
+   "lon": 18.071
+  },
+  {
+   "id": "2a4TH68XaW5qmVLnyAiV1H",
+   "title": "Waltz for Monica (Monica Z)",
+   "type": "movie",
+   "place": "Nalen concert hall, Regeringsgatan",
+   "lat": 59.3372,
+   "lon": 18.0688
+  },
+  {
+   "id": "31zVPruYbK93YBia2liMhs",
+   "title": "Stockholm",
+   "type": "movie",
+   "place": "Norrmalmstorg square",
+   "lat": 59.3328,
+   "lon": 18.0722
+  },
+  {
+   "id": "bIzUSVXFO7Rx4yB1uKiTX",
+   "title": "Stockholm Bloodbath",
+   "type": "movie",
+   "place": "Stortorget square, Gamla stan",
+   "lat": 59.3257,
+   "lon": 18.0719
+  },
+  {
+   "id": "5izhrAJLtpLbrcYgVbVQq3",
+   "title": "The Girl with the Dragon Tattoo (Män som hatar kvinnor)",
+   "type": "movie",
+   "place": "Bellmansgatan 1 (Blomkvist’s flat)",
+   "lat": 59.3197,
+   "lon": 18.068
+  },
+  {
+   "id": "72PxTF4RvEvffErVdW33YR",
+   "title": "The Man on the Roof (Mannen på taket)",
+   "type": "movie",
+   "place": "Odenplan square",
+   "lat": 59.339,
+   "lon": 18.0432
+  },
+  {
+   "id": "7uIY81Mo2Ez95KiQl2qJPz",
+   "title": "Summer with Monika (Sommaren med Monika)",
+   "type": "movie",
+   "place": "Södermalm (area)",
+   "lat": 59.314,
+   "lon": 18.07
+  },
+  {
+   "id": "5ZmIIQRfA5cxaKr6890Rq8",
+   "title": "Easy Money (Snabba Cash)",
+   "type": "movie",
+   "place": "Stureplan square",
+   "lat": 59.3362,
+   "lon": 18.0728
+  },
+  {
+   "id": "21yEvvYXqmWGgstnSIzRR8",
+   "title": "Fjäriln vingad syns på Haga",
+   "type": "music",
+   "place": "Haga Park",
+   "lat": 59.3645,
+   "lon": 18.0333
+  },
+  {
+   "id": "LdxEAVnvBO4yVbHSg2fi6",
+   "title": "Emmylou",
+   "type": "music",
+   "place": "Enskede (area)",
+   "lat": 59.2763,
+   "lon": 18.0385
+  },
+  {
+   "id": "2FT0MdQx838S03U6Wpzcq4",
+   "title": "The Final Countdown",
+   "type": "music",
+   "place": "Upplands Väsby (area)",
+   "lat": 59.5196,
+   "lon": 17.9283
+  },
+  {
+   "id": "5XKR25Mp3R5HErxFoBkogp",
+   "title": "Somliga går med trasiga skor",
+   "type": "music",
+   "place": "Mosebacke torg square",
+   "lat": 59.3181,
+   "lon": 18.0748
+  },
+  {
+   "id": "6N2kF8gtU3zuEHqcw4IXWg",
+   "title": "Välkommen till förorten",
+   "type": "music",
+   "place": "Alby, Botkyrka (area)",
+   "lat": 59.2334,
+   "lon": 17.8515
+  },
+  {
+   "id": "UyjAqwgxJRcFQOkM0leeb",
+   "title": "Staten och kapitalet",
+   "type": "music",
+   "place": "Rågsved (area)",
+   "lat": 59.2557,
+   "lon": 18.0323
+  },
+  {
+   "id": "3U8YIHrNwzTK8ftdrS0RQk",
+   "title": "Levels",
+   "type": "music",
+   "place": "Avicii Arena",
+   "lat": 59.2937,
+   "lon": 18.0832
+  },
+  {
+   "id": "3uK6rmAuGdRM0yoyVFtUPg",
+   "title": "163 För Evigt",
+   "type": "music",
+   "place": "Rinkeby (area)",
+   "lat": 59.3897,
+   "lon": 17.9272
+  },
+  {
+   "id": "1ZR6OPWQ2hjH94swPjjWxU",
+   "title": "Ginseng Strip 2002",
+   "type": "music",
+   "place": "Södermalm (area)",
+   "lat": 59.3181,
+   "lon": 18.0623
+  },
+  {
+   "id": "eDVXI4G4CjDx28Qp1twwL",
+   "title": "Dancing On My Own",
+   "type": "music",
+   "place": "Södermalm (area)",
+   "lat": 59.3181,
+   "lon": 18.0623
+  },
+  {
+   "id": "2VMbgiVlYOkmyfKLNQcxz7",
+   "title": "Dancing Queen",
+   "type": "music",
+   "place": "ABBA The Museum",
+   "lat": 59.3251,
+   "lon": 18.0968
+  },
+  {
+   "id": "4CdahKunOtHGRJRiSx9soo",
+   "title": "A stabbing in a shopping aisle shocks a nation",
+   "type": "podcast",
+   "place": "NK department store",
+   "lat": 59.3332,
+   "lon": 18.0692
+  },
+  {
+   "id": "1kvlwp2nJ6pNx10FFzEaGF",
+   "title": "A king dances into an assassin's waiting pistol",
+   "type": "podcast",
+   "place": "Royal Swedish Opera (site of Gustav III’s opera house)",
+   "lat": 59.3297,
+   "lon": 18.0705
+  },
+  {
+   "id": "72oLQNc8VrUQodTtFL7Ak8",
+   "title": "A herding call once meant to summon cows across valleys",
+   "type": "podcast",
+   "place": "Royal College of Music (KMH)",
+   "lat": 59.3437,
+   "lon": 18.0812
+  },
+  {
+   "id": "6pp2hH0ChQ0HkUuEGqNbrG",
+   "title": "A prime minister is shot walking home from the movies",
+   "type": "podcast",
+   "place": "Olof Palme murder site, Sveavägen",
+   "lat": 59.3366,
+   "lon": 18.0628
+  },
+  {
+   "id": "6cWYsDwA9PENAFkH0Sh5od",
+   "title": "A laureate crosses the stage and spots his daughter crying",
+   "type": "podcast",
+   "place": "Stockholm Concert Hall (Konserthuset)",
+   "lat": 59.3351,
+   "lon": 18.0629
+  },
+  {
+   "id": "6T7JSg8nypfhCoL9L4ZAlj",
+   "title": "Death challenges a knight to one final chess game",
+   "type": "podcast",
+   "place": "Royal Dramatic Theatre (Dramaten)",
+   "lat": 59.3332,
+   "lon": 18.0769
+  },
+  {
+   "id": "35mtNY9t5J4JxJfQgRPnyQ",
+   "title": "A businessman becomes an accidental Holocaust hero",
+   "type": "podcast",
+   "place": "Raoul Wallenbergs torg square",
+   "lat": 59.3322,
+   "lon": 18.0758
+  },
+  {
+   "id": "DsRu41u20NfIIzWbYWTsa",
+   "title": "A log floating ashore names Sweden's future capital",
+   "type": "podcast",
+   "place": "Birger Jarl statue, Riddarholmen",
+   "lat": 59.3251,
+   "lon": 18.0639
+  },
+  {
+   "id": "5b6kFlkEjV8XJ3qkuTG2WG",
+   "title": "A neutral nation quietly houses another country's escaped navy",
+   "type": "podcast",
+   "place": "Mariefred, Södermanland (area)",
+   "lat": 59.262,
+   "lon": 17.2231
+  },
+  {
+   "id": "6bFVV3Fs4llKwxeoqIhsi3",
+   "title": "Banned from the city, he moves his explosives to a park",
+   "type": "podcast",
+   "place": "Vinterviken bay (site of Nobel’s factory)",
+   "lat": 59.3106,
+   "lon": 17.9861
+  },
+  {
+   "id": "4hWf7obTviGTEGFff5hl9j",
+   "title": "A worker's shoes reveal a disaster the Kremlin hid",
+   "type": "podcast",
+   "place": "Forsmark Nuclear Power Plant",
+   "lat": 60.4034,
+   "lon": 18.1762
+  },
+  {
+   "id": "6so4oI6XDN229yx7XPcQq1",
+   "title": "A sitting Speaker reflects on his historic office",
+   "type": "podcast",
+   "place": "Parliament House (Riksdagshuset)",
+   "lat": 59.3275,
+   "lon": 18.0676
+  },
+  {
+   "id": "5pNXPStFaVcM84hkwHK4qY",
+   "title": "Lush Life",
+   "type": "music",
+   "place": "Sergels torg square",
+   "lat": 59.3324,
+   "lon": 18.0645
+  },
+  {
+   "id": "4wJazCSG3Uw4AaJ22GM0aR",
+   "title": "Young Folks",
+   "type": "music",
+   "place": "Sergels torg square",
+   "lat": 59.3324,
+   "lon": 18.0645
+  },
+  {
+   "id": "4TOXXPWlzMkfCfl5iCvbTw",
+   "title": "Cobrastyle",
+   "type": "music",
+   "place": "Sergels torg square",
+   "lat": 59.3324,
+   "lon": 18.0645
+  },
+  {
+   "id": "ztbsRqqhwQeUSwOrNuEPj",
+   "title": "Sakta vi gå genom stan",
+   "type": "music",
+   "place": "Stortorget square, Gamla stan",
+   "lat": 59.3251,
+   "lon": 18.0707
+  },
+  {
+   "id": "3GNJ0bah53hhXlvHd7EX2t",
+   "title": "A whole country swaps sides of the road before dawn",
+   "type": "podcast",
+   "place": "Kungsgatan street",
+   "lat": 59.3352,
+   "lon": 18.0637
+  },
+  {
+   "id": "74QzwmZagFoGduCQbDxexP",
+   "title": "A young queen is crowned king, then gives up the throne",
+   "type": "podcast",
+   "place": "Stockholm Cathedral (Storkyrkan)",
+   "lat": 59.3258,
+   "lon": 18.0706
+  },
+  {
+   "id": "6SzFLtVdmGFKNfMBuSFeo0",
+   "title": "A king's floating fortress sinks in twenty minutes",
+   "type": "podcast",
+   "place": "Vasa Museum",
+   "lat": 59.328,
+   "lon": 18.0914
+  },
+  {
+   "id": "4cK43WaQEEjFhlJwaRhnoJ",
+   "title": "A sunken warship is hauled up from the harbour after 333 years",
+   "type": "video",
+   "place": "Vasa Museum",
+   "lat": 59.328,
+   "lon": 18.0915
+  },
+  {
+   "id": "7LWHutEGg4FlYWIhjL3M69",
+   "title": "A Cold War bunker under a park becomes a server hall",
+   "type": "video",
+   "place": "Pionen data centre, Vitabergsparken",
+   "lat": 59.3138,
+   "lon": 18.0826
+  },
+  {
+   "id": "7y31I3eUgsL82Tc0MBmM15",
+   "title": "Two young architects turn a gravel pit into a forest of the dead",
+   "type": "video",
+   "place": "Woodland Cemetery (Skogskyrkogården)",
+   "lat": 59.2752,
+   "lon": 18.0995
+  },
+  {
+   "id": "LD3rG2YSWOuTcXfVFv8Lx",
+   "title": "A royal island retreat keeps its 18th-century theatre working",
+   "type": "video",
+   "place": "Drottningholm Palace",
+   "lat": 59.3216,
+   "lon": 17.8863
+  },
+  {
+   "id": "3YaHBOwI8ep8KVn3dvnmCn",
+   "title": "The medieval island where Stockholm began",
+   "type": "video",
+   "place": "Stortorget square, Gamla stan",
+   "lat": 59.325,
+   "lon": 18.0707
+  },
+  {
+   "id": "3V2JhpyumTHUNAguSWqYgC",
+   "title": "A king's promised amnesty turns into a mass execution",
+   "type": "podcast",
+   "place": "Stortorget square, Gamla stan",
+   "lat": 59.3251,
+   "lon": 18.0707
+  },
+  {
+   "id": "4e8qny4Zvrjp5zN9SJS1dO",
+   "title": "The town hall where Nobel laureates dine each December",
+   "type": "video",
+   "place": "City Hall (Stadshuset)",
+   "lat": 59.3275,
+   "lon": 18.0543
+  },
+  {
+   "id": "7gA5sfJ0VxSV8ULZxOh1rp",
+   "title": "Old farmhouses from across Sweden rebuilt on one hill",
+   "type": "video",
+   "place": "Skansen open-air museum",
+   "lat": 59.3268,
+   "lon": 18.1036
+  },
+  {
+   "id": "5sKt5yWDK9N9k8JDkVJB93",
+   "title": "White ferries thread through thousands of islands",
+   "type": "video",
+   "place": "Strömkajen quay",
+   "lat": 59.3297,
+   "lon": 18.0763
+  },
+  {
+   "id": "4Ujv7Jj1JzOQhqeHdIGOY9",
+   "title": "A king dies after a feast of cream-filled buns",
+   "type": "video",
+   "place": "Royal Palace",
+   "lat": 59.3268,
+   "lon": 18.0717
+  },
+  {
+   "id": "6HsIidz3YITs4g2uYaccn4",
+   "title": "Unarmed bombers fly ball bearings out of neutral Sweden",
+   "type": "video",
+   "place": "Bromma Airport",
+   "lat": 59.3544,
+   "lon": 17.9416
+  },
+  {
+   "id": "25KRKj70HXv5QOHHkbSHiU",
+   "title": "A tangle of traffic between lake and sea is rebuilt for people",
+   "type": "video",
+   "place": "Slussen lock and junction",
+   "lat": 59.3195,
+   "lon": 18.0718
+  },
+  {
+   "id": "2P5WL9vClPgTLj3F1XorbE",
+   "title": "Old working ships retire along a promenade full of joggers",
+   "type": "video",
+   "place": "Strandvägen waterfront",
+   "lat": 59.3326,
+   "lon": 18.0848
+  },
+  {
+   "id": "6b9pH3NgIkyOKX8VRaQ1uE",
+   "title": "Sweden’s national art collection reopens in its 1860s palace",
+   "type": "video",
+   "place": "Nationalmuseum art museum",
+   "lat": 59.329,
+   "lon": 18.0782
+  },
+  {
+   "id": "77hlOwM5lpko9wMYageIxZ",
+   "title": "A basement discovery reveals a city built for war",
+   "type": "podcast",
+   "place": "T-Centralen metro station",
+   "lat": 59.3311,
+   "lon": 18.0597
+  },
+  {
+   "id": "3nAwLo69DOhu30GocNN1xf",
+   "title": "Hostages come to trust the man holding them captive",
+   "type": "podcast",
+   "place": "Norrmalmstorg square",
+   "lat": 59.3332,
+   "lon": 18.074
+  },
+  {
+   "id": "T68r0YeTqrDwAcfVFgR36",
+   "title": "A bank robbery gives the world a name for loving your captor",
+   "type": "video",
+   "place": "Norrmalmstorg square",
+   "lat": 59.333,
+   "lon": 18.0738
+  },
+  {
+   "id": "3xRB8vxLbk8cSUC9va7zFc",
+   "title": "Small jokes and details built into the metro’s trains",
+   "type": "video",
+   "place": "T-Centralen metro station",
+   "lat": 59.3313,
+   "lon": 18.0598
+  },
+  {
+   "id": "5qaowX45G0E0Ff6f03g9r6",
+   "title": "A piracy-fighting idea outgrows music entirely",
+   "type": "podcast",
+   "place": "",
+   "lat": 59.3306,
+   "lon": 18.0682
+  }
+ ]
+}

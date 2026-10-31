@@ -1,0 +1,573 @@
+{
+ "city": "Naples",
+ "pins": [
+  {
+   "id": "o5NPuD4fWzbLbvMnCHHbz",
+   "title": "Sweet, Savory and Traditional Treats: A Naples Food Tour with Context",
+   "type": "audiotour",
+   "place": "Piazza San Domenico Maggiore",
+   "lat": 40.8485,
+   "lon": 14.2548
+  },
+  {
+   "id": "1KhgGOd6ZL4cCP1teT97iR",
+   "title": "Italy at its most Italian: A Guide to Naples from Ancient Greece to the Present",
+   "type": "audiotour",
+   "place": "Piazza Municipio",
+   "lat": 40.8399,
+   "lon": 14.2525
+  },
+  {
+   "id": "620AKuWGfF9LrXZIJ2M0So",
+   "title": "Blood and Passion in Naples: A Guide to the City's Fiery Heart",
+   "type": "audiotour",
+   "place": "Porta Capuana gate",
+   "lat": 40.8545,
+   "lon": 14.2656
+  },
+  {
+   "id": "5T6k9JiI8cZNuf4Hpzq5Oq",
+   "title": "The Rise, Fall, and Rediscovery of Pompeii: An Audio Guide with Context",
+   "type": "audiotour",
+   "place": "Porta Marina gate, Pompeii",
+   "lat": 40.7485,
+   "lon": 14.4828
+  },
+  {
+   "id": "3ESKVmSrGyewaWBzkBvMZs",
+   "title": "Street Fight in Naples",
+   "type": "book",
+   "place": "Piazza del Mercato",
+   "lat": 40.8475,
+   "lon": 14.2658
+  },
+  {
+   "id": "22lyiRyqUASzuqTZkWagHl",
+   "title": "Naples ’44",
+   "type": "book",
+   "place": "Via Toledo",
+   "lat": 40.8425,
+   "lon": 14.2488
+  },
+  {
+   "id": "5LSHUdyH4IwLnsklyR24Tq",
+   "title": "The Day Before Happiness",
+   "type": "book",
+   "place": "Spanish Quarter (area)",
+   "lat": 40.8408,
+   "lon": 14.2464
+  },
+  {
+   "id": "1jn2Ai8jyCUeVvsKxxco8e",
+   "title": "Maradona: The Hand of God",
+   "type": "book",
+   "place": "Stadio Diego Armando Maradona",
+   "lat": 40.828,
+   "lon": 14.193
+  },
+  {
+   "id": "4ieQ1JmLRoLoVKPPynr7NI",
+   "title": "Caravaggio: A Life Sacred and Profane",
+   "type": "book",
+   "place": "Pio Monte della Misericordia church",
+   "lat": 40.8519,
+   "lon": 14.2604
+  },
+  {
+   "id": "3IwOcOmmnrmOvaTATLTtNk",
+   "title": "My Brilliant Friend",
+   "type": "book",
+   "place": "Rione Luzzatti (area)",
+   "lat": 40.858,
+   "lon": 14.2916
+  },
+  {
+   "id": "4twuFoCDHLvsVGvIAFa1E3",
+   "title": "The Ancient Shore: Dispatches from Naples",
+   "type": "book",
+   "place": "Riviera di Chiaia seafront",
+   "lat": 40.8336,
+   "lon": 14.2336
+  },
+  {
+   "id": "j42QVeH3lsMV2ukQ50nrR",
+   "title": "Delizia!",
+   "type": "book",
+   "place": "Pizzeria Brandi",
+   "lat": 40.8367,
+   "lon": 14.2468
+  },
+  {
+   "id": "3JnFXrQZTKG8zky9ooxpH8",
+   "title": "Gomorrah",
+   "type": "book",
+   "place": "Vele di Scampia housing blocks",
+   "lat": 40.8989,
+   "lon": 14.2394
+  },
+  {
+   "id": "1zEDPfPbsKr9Nzh2b3CAq4",
+   "title": "Italian Journey",
+   "type": "book",
+   "place": "Mount Vesuvius",
+   "lat": 40.8216,
+   "lon": 14.4254
+  },
+  {
+   "id": "3HkqyLzVf5IlIRLfvgUFpQ",
+   "title": "The Skin",
+   "type": "book",
+   "place": "Castel dell’Ovo",
+   "lat": 40.8278,
+   "lon": 14.2481
+  },
+  {
+   "id": "4695MQKO1NHBRGf4ObUC0x",
+   "title": "Pompeii: The Life of a Roman Town",
+   "type": "book",
+   "place": "Porta Marina gate, Pompeii",
+   "lat": 40.7485,
+   "lon": 14.4847
+  },
+  {
+   "id": "1eCVY7655Ft7M6ysddcndI",
+   "title": "Tammurriata Nera",
+   "type": "music",
+   "place": "Piazza del Gesù Nuovo",
+   "lat": 40.8464,
+   "lon": 14.2513
+  },
+  {
+   "id": "2P1rd8mzLMQnH3KESVqC6P",
+   "title": "Nove Maggio",
+   "type": "music",
+   "place": "Marechiaro cove, Posillipo",
+   "lat": 40.7963,
+   "lon": 14.1953
+  },
+  {
+   "id": "1L7Tw2U044zsAjoUjcGA8A",
+   "title": "Tienatè",
+   "type": "music",
+   "place": "Via Caracciolo seafront (Lungomare)",
+   "lat": 40.8283,
+   "lon": 14.228
+  },
+  {
+   "id": "6EpSS2bNu5zHZ0nGwLU5PC",
+   "title": "Salvamm’ o munno",
+   "type": "music",
+   "place": "Piscinola–Marianella (area)",
+   "lat": 40.8875,
+   "lon": 14.246
+  },
+  {
+   "id": "2p0ihmNzNEMmdI4uwjrNHY",
+   "title": "Figli di Annibale",
+   "type": "music",
+   "place": "Spanish Quarter (area)",
+   "lat": 40.8418,
+   "lon": 14.2472
+  },
+  {
+   "id": "4AISOtRNDsNshVpfB5zXOc",
+   "title": "Curre curre guagliò",
+   "type": "music",
+   "place": "Officina 99 social centre, Gianturco",
+   "lat": 40.8515,
+   "lon": 14.283
+  },
+  {
+   "id": "4rkpXo698OF5PBMhkdGHc2",
+   "title": "Napule è",
+   "type": "music",
+   "place": "Historic centre near Santa Chiara (area)",
+   "lat": 40.8455,
+   "lon": 14.253
+  },
+  {
+   "id": "5DdLmVNO9VluCBAIoX5V9o",
+   "title": "Funiculì Funiculà",
+   "type": "music",
+   "place": "Mount Vesuvius",
+   "lat": 40.8224,
+   "lon": 14.4289
+  },
+  {
+   "id": "6lYNUTgmTIoI9ldyt3w1JO",
+   "title": "Tu vuo’ fa’ l’americano",
+   "type": "music",
+   "place": "Piazza del Mercato (area)",
+   "lat": 40.8462,
+   "lon": 14.262
+  },
+  {
+   "id": "46rEzthLTPTMGI2nxLKSHd",
+   "title": "Malafemmena",
+   "type": "music",
+   "place": "Totò’s birthplace, Via Santa Maria Antesaecula",
+   "lat": 40.8607,
+   "lon": 14.2558
+  },
+  {
+   "id": "PScfDJD3vfSI39lZbRq9D",
+   "title": "‘O Sole Mio",
+   "type": "music",
+   "place": "Borgo Santa Lucia (area)",
+   "lat": 40.8338,
+   "lon": 14.2504
+  },
+  {
+   "id": "2erZKuywg2BBQwYjgPdJAB",
+   "title": "Santa Lucia Luntana",
+   "type": "music",
+   "place": "Borgo Santa Lucia (area)",
+   "lat": 40.8374,
+   "lon": 14.2548
+  },
+  {
+   "id": "5vl34GknLLSjVn8YGKqGDw",
+   "title": "Munasterio ‘e Santa Chiara",
+   "type": "music",
+   "place": "Santa Chiara cloister",
+   "lat": 40.8466,
+   "lon": 14.2534
+  },
+  {
+   "id": "3Q5kKElEuLcJWC3dD8pBBz",
+   "title": "‘O Zappatore",
+   "type": "music",
+   "place": "Teatro Trianon, Forcella",
+   "lat": 40.8504,
+   "lon": 14.2634
+  },
+  {
+   "id": "2UwcZCJIO6hszOrcX0Imh4",
+   "title": "Ammore e malavita (Love and Bullets)",
+   "type": "movie",
+   "place": "Basilica of Santa Maria della Sanità",
+   "lat": 40.8597,
+   "lon": 14.249
+  },
+  {
+   "id": "2HUcXBOxteRQLm22Ho9Eh0",
+   "title": "Hands over the City (Le mani sulla città)",
+   "type": "movie",
+   "place": "Palazzo San Giacomo (city hall), Piazza Municipio",
+   "lat": 40.8395,
+   "lon": 14.253
+  },
+  {
+   "id": "3tkc2M1ehjJM8b8Uts7dp8",
+   "title": "Fortapàsc",
+   "type": "movie",
+   "place": "Vomero district (area)",
+   "lat": 40.846,
+   "lon": 14.227
+  },
+  {
+   "id": "3pMcJ2PMdIYcb8PiAohl5S",
+   "title": "Nostalgia",
+   "type": "movie",
+   "place": "Rione Sanità district (area)",
+   "lat": 40.859,
+   "lon": 14.251
+  },
+  {
+   "id": "2yWumi4FsEYZ2oJpZjj4wv",
+   "title": "Così parlò Bellavista",
+   "type": "movie",
+   "place": "Vomero district (area)",
+   "lat": 40.844,
+   "lon": 14.229
+  },
+  {
+   "id": "6NXB5R2iOT7l8w1hsgWMiy",
+   "title": "Naples Millionaire (Napoli milionaria)",
+   "type": "movie",
+   "place": "Spanish Quarter (area)",
+   "lat": 40.841,
+   "lon": 14.247
+  },
+  {
+   "id": "7nFhCVwJE35Zs86z1h1Ej5",
+   "title": "The Gold of Naples (L’oro di Napoli)",
+   "type": "movie",
+   "place": "Spaccanapoli street",
+   "lat": 40.849,
+   "lon": 14.258
+  },
+  {
+   "id": "37QbUBTJPHbWUufLVZ2Ezh",
+   "title": "Il resto di niente",
+   "type": "movie",
+   "place": "Piazza del Mercato",
+   "lat": 40.8465,
+   "lon": 14.2635
+  },
+  {
+   "id": "2XGbVpdUPJBxnFIaeA89pz",
+   "title": "Passione",
+   "type": "movie",
+   "place": "Lungomare seafront, Santa Lucia",
+   "lat": 40.829,
+   "lon": 14.248
+  },
+  {
+   "id": "3FVjRimlLLM6E4F7g8maXG",
+   "title": "The Four Days of Naples (Le quattro giornate di Napoli)",
+   "type": "movie",
+   "place": "Historic centre (area)",
+   "lat": 40.85,
+   "lon": 14.257
+  },
+  {
+   "id": "1nQ9yiBahJYCAeRbEvbf0J",
+   "title": "Gomorrah (Gomorra)",
+   "type": "movie",
+   "place": "Vele di Scampia housing blocks",
+   "lat": 40.8989,
+   "lon": 14.2394
+  },
+  {
+   "id": "mXS7pihAv2Yl48WdG03S6",
+   "title": "The Hand of God (È stata la mano di Dio)",
+   "type": "movie",
+   "place": "Stadio Diego Armando Maradona",
+   "lat": 40.8279,
+   "lon": 14.193
+  },
+  {
+   "id": "5m3aeNnORd4WG11iRBb05w",
+   "title": "Nu jeans e ‘na maglietta",
+   "type": "music",
+   "place": "San Pietro a Patierno (area)",
+   "lat": 40.8933,
+   "lon": 14.2857
+  },
+  {
+   "id": "4i7YqVm8sTQxSXaLJTJnn1",
+   "title": "A fugitive painter finds sanctuary and his masterpiece",
+   "type": "podcast",
+   "place": "Pio Monte della Misericordia church",
+   "lat": 40.852,
+   "lon": 14.2604
+  },
+  {
+   "id": "CrV5ru3hfgehdZCWpaMTu",
+   "title": "A city frozen mid-day by a volcano's fury",
+   "type": "podcast",
+   "place": "Pompeii archaeological site",
+   "lat": 40.7512,
+   "lon": 14.4887
+  },
+  {
+   "id": "4eCx6BESkX14otJ9sMHuzx",
+   "title": "A queen's visit births a legend, real or not",
+   "type": "podcast",
+   "place": "Pizzeria Brandi",
+   "lat": 40.8367,
+   "lon": 14.2468
+  },
+  {
+   "id": "4jh12bMqrsXPNXL4iiJ3d8",
+   "title": "AI finally reads scrolls burned solid by Vesuvius",
+   "type": "podcast",
+   "place": "Villa of the Papyri, Herculaneum",
+   "lat": 40.8075,
+   "lon": 14.3447
+  },
+  {
+   "id": "4xu0GwWPdJkuxcNzH50aLJ",
+   "title": "A crown jewel nearly slips from Spanish hands",
+   "type": "podcast",
+   "place": "Castel Nuovo (Maschio Angioino)",
+   "lat": 40.8385,
+   "lon": 14.2527
+  },
+  {
+   "id": "2BqmXi7J6gCQVMEpVbmBd5",
+   "title": "An Argentine outsider becomes a city's patron saint",
+   "type": "podcast",
+   "place": "Stadio Diego Armando Maradona",
+   "lat": 40.8279,
+   "lon": 14.1931
+  },
+  {
+   "id": "y0X88XQqDMv5P4y6StadQ",
+   "title": "A queen survives four husbands and a mob's fury",
+   "type": "podcast",
+   "place": "Castel Nuovo (Maschio Angioino)",
+   "lat": 40.8385,
+   "lon": 14.2527
+  },
+  {
+   "id": "52EQT4OXMCGFV6cYdpZyb1",
+   "title": "A wine-fueled chat descends into the city's spookiest depths",
+   "type": "podcast",
+   "place": "Piazza San Gaetano (Napoli Sotterranea)",
+   "lat": 40.8509,
+   "lon": 14.2574
+  },
+  {
+   "id": "2NrfSNrJg3nqbXy9zfyvrB",
+   "title": "A skinny girl from a bombed town becomes a screen goddess",
+   "type": "podcast",
+   "place": "Pozzuoli (area)",
+   "lat": 40.8216,
+   "lon": 14.1201
+  },
+  {
+   "id": "9czO14qxxn7elWabsM713",
+   "title": "Allied liberators find a starving city running on the black market",
+   "type": "podcast",
+   "place": "Galleria Umberto I arcade",
+   "lat": 40.8386,
+   "lon": 14.2497
+  },
+  {
+   "id": "3IsH8I5ZVheHSDClVAsrnO",
+   "title": "A prince-composer catches his wife with her lover and kills them both",
+   "type": "podcast",
+   "place": "Palazzo Sansevero, Piazza San Domenico Maggiore",
+   "lat": 40.8486,
+   "lon": 14.2547
+  },
+  {
+   "id": "4aHtqM6wfIwvpfrZzzKh4S",
+   "title": "A wartime eruption buries a village under Vesuvius lava",
+   "type": "podcast",
+   "place": "San Sebastiano al Vesuvio (area)",
+   "lat": 40.8434,
+   "lon": 14.3667
+  },
+  {
+   "id": "5L7kDvq0CRTEbPqK9OXrnJ",
+   "title": "A city founded by a siren never stops singing",
+   "type": "podcast",
+   "place": "Teatro di San Carlo opera house",
+   "lat": 40.8375,
+   "lon": 14.2496
+  },
+  {
+   "id": "4FW1fBBPn7kP6rowEVkAxW",
+   "title": "Nelson arrives a hero and stays to settle a bloody score",
+   "type": "podcast",
+   "place": "Palazzo Sessa",
+   "lat": 40.8357,
+   "lon": 14.2438
+  },
+  {
+   "id": "7iOMaA9NFri15Z6mexjZ3i",
+   "title": "A million tiny stones show Alexander staring down a king",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 40.8536,
+   "lon": 14.2506
+  },
+  {
+   "id": "669D5xQuFxGynA4xkAOLGd",
+   "title": "A worn-out Hercules leans on his club after the last labour",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 40.8536,
+   "lon": 14.2506
+  },
+  {
+   "id": "6dwQu4I3yS5NtF2VZVDBxi",
+   "title": "Pompeii’s mosaics and Roman marbles fill a former university",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 40.8536,
+   "lon": 14.2506
+  },
+  {
+   "id": "5wYDYpIDqU6JSjRjQCOb0a",
+   "title": "The statue that set the rules for the ideal male body",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 40.8536,
+   "lon": 14.2506
+  },
+  {
+   "id": "7FTAQX8chY1EOemTMV2qMS",
+   "title": "Residents of the Gomorrah towers watch them come down",
+   "type": "video",
+   "place": "Vele di Scampia housing blocks",
+   "lat": 40.8955,
+   "lon": 14.237
+  },
+  {
+   "id": "5WX2xk7ioEkWsFaekB528C",
+   "title": "Neapolitans adopt the skulls of the forgotten dead",
+   "type": "video",
+   "place": "Fontanelle Cemetery",
+   "lat": 40.8584,
+   "lon": 14.2427
+  },
+  {
+   "id": "2quHcjeXWiNnK2uhflp2sb",
+   "title": "Street fighters drive the Germans out before the Allies arrive",
+   "type": "video",
+   "place": "Vomero district (area)",
+   "lat": 40.8434,
+   "lon": 14.2306
+  },
+  {
+   "id": "7MYB9vX8Irtbyp7uB4lelH",
+   "title": "A street priest takes on the cult of teenage gangsters",
+   "type": "video",
+   "place": "San Giorgio Maggiore church, Forcella",
+   "lat": 40.8509,
+   "lon": 14.2604
+  },
+  {
+   "id": "4A39SbhcI45OWlnEUewAWm",
+   "title": "Before the Margherita, pizza was cheap street food for the poor",
+   "type": "video",
+   "place": "Antica Pizzeria Port’Alba",
+   "lat": 40.8497,
+   "lon": 14.2507
+  },
+  {
+   "id": "ZNwRurCFeetA73PRNHJD8",
+   "title": "Daily life spills out along the street that splits the old city",
+   "type": "video",
+   "place": "Spaccanapoli street",
+   "lat": 40.8494,
+   "lon": 14.2566
+  },
+  {
+   "id": "2iKkw4E1DT1lfcVsM00FQE",
+   "title": "Ancient erotic art is locked away from respectable eyes",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 40.8536,
+   "lon": 14.2506
+  },
+  {
+   "id": "580viZNcXOlhrG0kZGfFd5",
+   "title": "A Pompeian woman pauses with a stylus to her lips",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 40.8535,
+   "lon": 14.2508
+  },
+  {
+   "id": "7mWIRcop1Lg613yVpEXngZ",
+   "title": "Caravaggio paints the scourging of Christ during his Naples exile",
+   "type": "video",
+   "place": "Capodimonte Museum",
+   "lat": 40.867,
+   "lon": 14.2505
+  },
+  {
+   "id": "2vsZOcSw9J7psScMXmu2ls",
+   "title": "A loaf baked the day Vesuvius erupted, still in eight slices",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 40.8535,
+   "lon": 14.2505
+  }
+ ]
+}
