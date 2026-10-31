@@ -17,7 +17,7 @@ jobs:
         with: { node-version: 22 }
       - run: |
           npm i --no-save sharp
-          CITIES="$(grep -v '^#' data/run-landmark-photos | head -1)" node scripts/fetch-landmark-photos.mjs
+          CITIES="$(grep -v '^#' data/run-landmark-photos | grep -v '^only=' | head -1)" ONLY="$(grep '^only=' data/run-landmark-photos | cut -d= -f2)" node scripts/fetch-landmark-photos.mjs
       - run: |
           git add public/landmarks src/data/landmark-photos.json
           git diff --cached --quiet && exit 0

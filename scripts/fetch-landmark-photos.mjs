@@ -21,15 +21,17 @@ const photos = JSON.parse(await fs.readFile(mapPath, 'utf8').catch(() => '{}'))
 for (const city of CITIES) {
   for (const lm of landmarks[city] || []) {
     const key = `${slug(city)}/${lm.id}`
-    if (!lm.wikipedia || (photos[key] && !process.env.REFRESH)) continue
+    if (!lm.wikipedia || (photos[key] && !process.env.REFRESH && !(process.env.ONLY || '').split(',').includes(lm.id))) continue
+    if (process.env.ONLY && !process.env.ONLY.split(',').includes(lm.id)) continue
+    const wiki = (lm.wikipediaLang || 'en') + '.wikipedia.org'
     try {
-      const page = (await api('en.wikipedia.org', { action: 'query', prop: 'pageimages', piprop: 'name', titles: lm.wikipedia, redirects: '1' })).query?.pages?.[0]
+      const page = (await api(wiki, { action: 'query', prop: 'pageimages', piprop: 'name', titles: lm.wikipedia, redirects: '1' })).query?.pages?.[0]
       let file = lm.photoFile || page?.pageimage
       // No lead image, or it's a logo/map/drawing: fall back to the article's
       // first photograph.
       if (!file || !/\.(jpe?g|png|webp|tiff?)$/i.test(file) || /logo|map|plan|icon|flag|coat|seal|signature/i.test(file)) {
-        const imgs = (await api('en.wikipedia.org', { action: 'query', prop: 'images', titles: lm.wikipedia, redirects: '1', imlimit: '50' })).query?.pages?.[0]?.images || []
-        file = imgs.map(i => i.title.replace(/^File:/, '')).find(f => /\.(jpe?g)$/i.test(f) && !/logo|map|plan|icon|flag|coat|seal|signature|portrait|commons-logo/i.test(f))
+        const imgs = (await api(wiki, { action: 'query', prop: 'images', titles: lm.wikipedia, redirects: '1', imlimit: '50' })).query?.pages?.[0]?.images || []
+        file = imgs.map(i => i.title.replace(/^File:/, '')).find(f => /\.(jpe?g)$/i.test(f) && !/logo|map|plan|icon|flag|coat|seal|signature|portrait|commons-logo| - |GG \d|Testament/i.test(f))
       }
       if (!file) { console.log(`::warning::${key}: no photo on "${lm.wikipedia}"`); continue }
       const info = (await api('commons.wikimedia.org', { action: 'query', prop: 'imageinfo', titles: 'File:' + file, iiprop: 'url|extmetadata', iiurlwidth: '1200' })).query?.pages?.[0]?.imageinfo?.[0]
