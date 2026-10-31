@@ -1,0 +1,28 @@
+# Exports story pins per city to data/pins/ (read-only). Runs when
+# data/run-dump-pins changes.
+name: Dump pins
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/run-dump-pins]
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/dump-pins.mjs
+        env:
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+      - run: |
+          git add data/pins
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City pins"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Dump story pins"
+          git pull --rebase origin main
+          git push origin HEAD:main
