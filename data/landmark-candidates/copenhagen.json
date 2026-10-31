@@ -1,0 +1,288 @@
+{
+ "city": "Copenhagen",
+ "candidates": [
+  {
+   "place": "City Hall Square (Rådhuspladsen)",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "music": 3
+   },
+   "near_within_150m": [
+    "Jyllands-Posten offices, City Hall Square (1, 123 m)",
+    "City Hall (Rådhuset) (2, 51 m)"
+   ]
+  },
+  {
+   "place": "Højbro Plads square",
+   "stories": 3,
+   "types": {
+    "audiotour": 3
+   },
+   "near_within_150m": [
+    "Nordic Council offices, Ved Stranden 18 (1, 81 m)"
+   ]
+  },
+  {
+   "place": "Central Station (Hovedbanegården)",
+   "stories": 3,
+   "types": {
+    "audiotour": 2,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kongens Nytorv square",
+   "stories": 3,
+   "types": {
+    "audiotour": 3
+   },
+   "near_within_150m": [
+    "Royal Danish Theatre (Old Stage), Kongens Nytorv (2, 62 m)",
+    "Magasin du Nord department store, Kongens Nytorv (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Noma restaurant, Refshalevej",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "CopenHill power plant (Amager Bakke) (2, 116 m)"
+   ]
+  },
+  {
+   "place": "Christianshavn canals (area)",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "music": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Little Mermaid statue",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Radisson Collection Royal Hotel (SAS Royal)",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Danish Theatre (Old Stage), Kongens Nytorv",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Kongens Nytorv square (3, 62 m)",
+    "Magasin du Nord department store, Kongens Nytorv (1, 101 m)"
+   ]
+  },
+  {
+   "place": "Kierkegaard’s grave, Assistens Cemetery",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Danish Jewish Museum",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Kierkegaard statue, Royal Library Garden (1, 84 m)"
+   ]
+  },
+  {
+   "place": "Nyhavn harbour",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Freetown Christiania",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "City Hall (Rådhuset)",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "City Hall Square (Rådhuspladsen) (4, 51 m)"
+   ]
+  },
+  {
+   "place": "CopenHill power plant (Amager Bakke)",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Noma restaurant, Refshalevej (3, 116 m)"
+   ]
+  },
+  {
+   "place": "King’s Garden (Kongens Have)",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Rosenborg Castle (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Queen Louise’s Bridge (Dronning Louises Bro)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "The Lakes (area) (1, 133 m)"
+   ]
+  },
+  {
+   "place": "Site of Kierkegaard’s birthplace, Nytorv",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Strøget pedestrian street (1, 101 m)"
+   ]
+  },
+  {
+   "place": "Niels Bohr Institute, Blegdamsvej",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "April Coffee Roasters café, Østerbro (1, 137 m)"
+   ]
+  },
+  {
+   "place": "Strøget pedestrian street",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Site of Kierkegaard’s birthplace, Nytorv (1, 101 m)",
+    "Copenhagen Cathedral (Vor Frue Kirke) (1, 114 m)"
+   ]
+  },
+  {
+   "place": "The Lakes (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Queen Louise’s Bridge (Dronning Louises Bro) (1, 133 m)"
+   ]
+  },
+  {
+   "place": "Kierkegaard statue, Royal Library Garden",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Danish Jewish Museum (2, 84 m)"
+   ]
+  },
+  {
+   "place": "April Coffee Roasters café, Østerbro",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Niels Bohr Institute, Blegdamsvej (1, 137 m)"
+   ]
+  },
+  {
+   "place": "Jyllands-Posten offices, City Hall Square",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "City Hall Square (Rådhuspladsen) (4, 123 m)"
+   ]
+  },
+  {
+   "place": "Nordic Council offices, Ved Stranden 18",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Højbro Plads square (3, 81 m)"
+   ]
+  },
+  {
+   "place": "Rosenborg Castle",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "King’s Garden (Kongens Have) (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Magasin du Nord department store, Kongens Nytorv",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Kongens Nytorv square (3, 127 m)",
+    "Royal Danish Theatre (Old Stage), Kongens Nytorv (2, 101 m)"
+   ]
+  },
+  {
+   "place": "Copenhagen Cathedral (Vor Frue Kirke)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Strøget pedestrian street (1, 114 m)"
+   ]
+  }
+ ]
+}

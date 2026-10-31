@@ -1,0 +1,294 @@
+{
+ "city": "Dublin",
+ "candidates": [
+  {
+   "place": "National Museum of Ireland – Archaeology",
+   "stories": 4,
+   "types": {
+    "video": 4
+   },
+   "near_within_150m": [
+    "Government Buildings, Merrion Street (1, 147 m)"
+   ]
+  },
+  {
+   "place": "Book of Kells, Old Library, Trinity College",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Trinity College (1, 19 m)"
+   ]
+  },
+  {
+   "place": "The Spire, O’Connell Street",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "video": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "General Post Office (GPO) (3, 37 m)"
+   ]
+  },
+  {
+   "place": "General Post Office (GPO)",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "The Spire, O’Connell Street (3, 37 m)"
+   ]
+  },
+  {
+   "place": "14 Henrietta Street museum",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "The Lord Edward pub, Christchurch Place",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Site of the Great Music Hall, Fishamble Street (1, 121 m)"
+   ]
+  },
+  {
+   "place": "Dún Laoghaire (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Crumlin (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Grafton Street",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "McDaid’s pub, Harry Street (1, 86 m)",
+    "Phil Lynott statue, Harry Street (1, 71 m)"
+   ]
+  },
+  {
+   "place": "The Cobblestone pub, Smithfield",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Stephen’s Green park",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "College Green",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Molly Malone statue, Suffolk Street (1, 129 m)"
+   ]
+  },
+  {
+   "place": "St Patrick’s Cathedral",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Marsh’s Library (1, 53 m)"
+   ]
+  },
+  {
+   "place": "McDaid’s pub, Harry Street",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Grafton Street (2, 86 m)",
+    "Phil Lynott statue, Harry Street (1, 20 m)"
+   ]
+  },
+  {
+   "place": "James Joyce Tower (Martello tower), Sandycove",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Forty Foot bathing place, Sandycove (1, 7 m)"
+   ]
+  },
+  {
+   "place": "Molly Malone statue, Suffolk Street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "College Green (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Phil Lynott statue, Harry Street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "McDaid’s pub, Harry Street (1, 20 m)",
+    "Grafton Street (2, 71 m)"
+   ]
+  },
+  {
+   "place": "Site of the Great Music Hall, Fishamble Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "The Lord Edward pub, Christchurch Place (2, 121 m)",
+    "Wood Quay Viking site (Civic Offices) (1, 124 m)"
+   ]
+  },
+  {
+   "place": "Wood Quay Viking site (Civic Offices)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Site of the Great Music Hall, Fishamble Street (1, 124 m)"
+   ]
+  },
+  {
+   "place": "Oscar Wilde House, 21 Westland Row",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sweny’s Pharmacy (1, 79 m)"
+   ]
+  },
+  {
+   "place": "Sweny’s Pharmacy",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Oscar Wilde House, 21 Westland Row (1, 79 m)"
+   ]
+  },
+  {
+   "place": "Government Buildings, Merrion Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "National Museum of Ireland – Archaeology (4, 147 m)"
+   ]
+  },
+  {
+   "place": "Upper Yard, Dublin Castle",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Chester Beatty museum, Dublin Castle (1, 145 m)",
+    "Bedford Tower, Dublin Castle (1, 59 m)"
+   ]
+  },
+  {
+   "place": "Marsh’s Library",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "St Patrick’s Cathedral (1, 53 m)"
+   ]
+  },
+  {
+   "place": "Forty Foot bathing place, Sandycove",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "James Joyce Tower (Martello tower), Sandycove (1, 7 m)"
+   ]
+  },
+  {
+   "place": "Chester Beatty museum, Dublin Castle",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Upper Yard, Dublin Castle (1, 145 m)",
+    "Bedford Tower, Dublin Castle (1, 93 m)"
+   ]
+  },
+  {
+   "place": "Trinity College",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Book of Kells, Old Library, Trinity College (3, 19 m)"
+   ]
+  },
+  {
+   "place": "Bedford Tower, Dublin Castle",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Upper Yard, Dublin Castle (1, 59 m)",
+    "Chester Beatty museum, Dublin Castle (1, 93 m)"
+   ]
+  }
+ ]
+}

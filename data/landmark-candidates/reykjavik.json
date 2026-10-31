@@ -1,0 +1,329 @@
+{
+ "city": "Reykjavík",
+ "candidates": [
+  {
+   "place": "Old Harbour (area)",
+   "stories": 5,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Hafnarhús art museum (1, 147 m)"
+   ]
+  },
+  {
+   "place": "Austurvöllur square",
+   "stories": 3,
+   "types": {
+    "book": 2,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Hótel Borg, Austurvöllur (1, 139 m)",
+    "Ingólfstorg square (1, 72 m)",
+    "City Hall (Ráðhús), by Tjörnin (1, 131 m)",
+    "Settlement Exhibition museum, Aðalstræti (1, 131 m)",
+    "Lækjartorg square (3, 114 m)",
+    "Former Landsbanki head office, Austurstræti (1, 59 m)"
+   ]
+  },
+  {
+   "place": "Laugavegur street",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "music": 2
+   },
+   "near_within_150m": [
+    "Hallgrímskirkja church (2, 125 m)",
+    "Leif Erikson statue, Hallgrímskirkja (1, 105 m)"
+   ]
+  },
+  {
+   "place": "Harpa concert hall",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Lækjartorg square",
+   "stories": 3,
+   "types": {
+    "podcast": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Austurvöllur square (3, 114 m)",
+    "Hótel Borg, Austurvöllur (1, 59 m)",
+    "Former Landsbanki head office, Austurstræti (1, 56 m)"
+   ]
+  },
+  {
+   "place": "Hallgrímskirkja church",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Laugavegur street (3, 125 m)",
+    "Leif Erikson statue, Hallgrímskirkja (1, 24 m)"
+   ]
+  },
+  {
+   "place": "University of Iceland",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Edda, House of Icelandic (manuscript exhibition) (1, 138 m)",
+    "National Museum of Iceland (1, 132 m)"
+   ]
+  },
+  {
+   "place": "Site of Camp Knox barracks, Vesturbær (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Tjörnin pond",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Mosfellsbær (area)",
+   "stories": 2,
+   "types": {
+    "music": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Breiðholt (area)",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kaffibarinn bar",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Gamla Bíó cinema (1, 50 m)",
+    "Hótel Borg, Austurvöllur (1, 130 m)"
+   ]
+  },
+  {
+   "place": "Höfði House",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Laugardalshöll sports hall",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Icelandic Phallological Museum, Hafnartorg",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Gamla Bíó cinema",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Ingólfur Arnarson statue, Arnarhóll (1, 146 m)",
+    "Kaffibarinn bar (2, 50 m)",
+    "Hótel Borg, Austurvöllur (1, 138 m)"
+   ]
+  },
+  {
+   "place": "Ingólfur Arnarson statue, Arnarhóll",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Gamla Bíó cinema (1, 146 m)"
+   ]
+  },
+  {
+   "place": "Hótel Borg, Austurvöllur",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Gamla Bíó cinema (1, 138 m)",
+    "Austurvöllur square (3, 139 m)",
+    "Kaffibarinn bar (2, 130 m)",
+    "Lækjartorg square (3, 59 m)",
+    "Former Landsbanki head office, Austurstræti (1, 94 m)"
+   ]
+  },
+  {
+   "place": "Ingólfstorg square",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Austurvöllur square (3, 72 m)",
+    "City Hall (Ráðhús), by Tjörnin (1, 132 m)",
+    "Settlement Exhibition museum, Aðalstræti (1, 76 m)",
+    "Hafnarhús art museum (1, 147 m)",
+    "Former Landsbanki head office, Austurstræti (1, 114 m)"
+   ]
+  },
+  {
+   "place": "Downtown 101 district (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Skólavörðustígur (Rainbow Street) (1, 19 m)"
+   ]
+  },
+  {
+   "place": "Vonarstræti street",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "City Hall (Ráðhús), by Tjörnin (1, 112 m)"
+   ]
+  },
+  {
+   "place": "City Hall (Ráðhús), by Tjörnin",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Austurvöllur square (3, 131 m)",
+    "Ingólfstorg square (1, 132 m)",
+    "Vonarstræti street (1, 112 m)",
+    "Settlement Exhibition museum, Aðalstræti (1, 103 m)"
+   ]
+  },
+  {
+   "place": "Edda, House of Icelandic (manuscript exhibition)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "University of Iceland (2, 138 m)",
+    "National Museum of Iceland (1, 83 m)"
+   ]
+  },
+  {
+   "place": "Settlement Exhibition museum, Aðalstræti",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Austurvöllur square (3, 131 m)",
+    "Ingólfstorg square (1, 76 m)",
+    "City Hall (Ráðhús), by Tjörnin (1, 103 m)"
+   ]
+  },
+  {
+   "place": "Leif Erikson statue, Hallgrímskirkja",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Hallgrímskirkja church (2, 24 m)",
+    "Laugavegur street (3, 105 m)"
+   ]
+  },
+  {
+   "place": "National Museum of Iceland",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "University of Iceland (2, 132 m)",
+    "Edda, House of Icelandic (manuscript exhibition) (1, 83 m)"
+   ]
+  },
+  {
+   "place": "Skólavörðustígur (Rainbow Street)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Downtown 101 district (area) (1, 19 m)"
+   ]
+  },
+  {
+   "place": "Hafnarhús art museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Old Harbour (area) (5, 147 m)",
+    "Ingólfstorg square (1, 147 m)"
+   ]
+  },
+  {
+   "place": "Former Landsbanki head office, Austurstræti",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Austurvöllur square (3, 59 m)",
+    "Hótel Borg, Austurvöllur (1, 94 m)",
+    "Ingólfstorg square (1, 114 m)",
+    "Lækjartorg square (3, 56 m)"
+   ]
+  }
+ ]
+}

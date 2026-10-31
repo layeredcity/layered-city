@@ -1,0 +1,892 @@
+{
+ "city": "Rome",
+ "candidates": [
+  {
+   "place": "Capitoline Museums",
+   "stories": 9,
+   "types": {
+    "podcast": 2,
+    "video": 7
+   },
+   "near_within_150m": [
+    "Piazza del Campidoglio (1, 79 m)",
+    "Palazzo dei Conservatori courtyard, Capitoline Museums (1, 9 m)"
+   ]
+  },
+  {
+   "place": "St Peter’s Square",
+   "stories": 8,
+   "types": {
+    "audiotour": 3,
+    "book": 1,
+    "podcast": 2,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Vatican Obelisk, St Peter’s Square (1, 58 m)"
+   ]
+  },
+  {
+   "place": "Sistine Chapel",
+   "stories": 7,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "music": 1,
+    "podcast": 1,
+    "video": 3
+   },
+   "near_within_150m": [
+    "Tower of Nicholas V (Vatican Bank), Vatican City (1, 91 m)",
+    "Vatican City (area) (2, 92 m)",
+    "Swiss Guard barracks, Vatican City (1, 92 m)",
+    "Treasury Museum, St Peter’s Basilica (1, 92 m)",
+    "Michelangelo’s Pietà, St Peter’s Basilica (1, 92 m)",
+    "Bernini’s Baldacchino, St Peter’s Basilica (1, 92 m)",
+    "St Peter’s Basilica (1, 92 m)",
+    "Chair of St Peter, St Peter’s Basilica (1, 92 m)"
+   ]
+  },
+  {
+   "place": "Borghese Gallery",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1,
+    "video": 3
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Colosseum",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "podcast": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Colle Oppio park (1, 135 m)",
+    "Arch of Constantine (3, 148 m)"
+   ]
+  },
+  {
+   "place": "Trevi Fountain",
+   "stories": 4,
+   "types": {
+    "audiotour": 1,
+    "movie": 1,
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Roman Forum",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Temple of Antoninus and Faustina, Roman Forum (1, 63 m)",
+    "Temple of Vesta, Roman Forum (1, 73 m)",
+    "Palace of Domitian, Palatine Hill (1, 145 m)",
+    "Arch of Septimius Severus, Roman Forum (1, 123 m)",
+    "Santa Maria Antiqua, Roman Forum (2, 90 m)"
+   ]
+  },
+  {
+   "place": "Castel Sant’Angelo",
+   "stories": 4,
+   "types": {
+    "music": 1,
+    "audiotour": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Ponte Sant’Angelo bridge (2, 87 m)"
+   ]
+  },
+  {
+   "place": "Pantheon",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Arch of Constantine",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Colosseum (5, 148 m)"
+   ]
+  },
+  {
+   "place": "Largo di Torre Argentina",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza Navona",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Fountain of the Moor, Piazza Navona (1, 122 m)",
+    "San Luigi dei Francesi church (2, 138 m)"
+   ]
+  },
+  {
+   "place": "Jewish Ghetto, Via del Portico d’Ottavia",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Turtle Fountain, Piazza Mattei (1, 145 m)"
+   ]
+  },
+  {
+   "place": "Via Veneto",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ponte Sant’Angelo bridge",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Castel Sant’Angelo (4, 87 m)"
+   ]
+  },
+  {
+   "place": "Testaccio Market",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "San Luigi dei Francesi church",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piazza Navona (3, 138 m)"
+   ]
+  },
+  {
+   "place": "Acqua Paola Fountain (Fontanone), Janiculum",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Trastevere district (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Santa Maria Maggiore basilica",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Santa Prassede church (1, 27 m)"
+   ]
+  },
+  {
+   "place": "Baths of Caracalla",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Arch of Titus, Roman Forum",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Basilica of Maxentius, Roman Forum (1, 146 m)"
+   ]
+  },
+  {
+   "place": "Octagonal Court, Vatican Museums",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Vatican Museums entrance (1, 67 m)",
+    "Vatican Museums (1, 50 m)",
+    "Gregorian Etruscan Museum, Vatican Museums (1, 50 m)",
+    "Pio-Clementino Museum, Vatican Museums (1, 50 m)"
+   ]
+  },
+  {
+   "place": "Ara Pacis Museum",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Circus Maximus",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Trajan’s Column",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Trajan’s Forum (1, 89 m)"
+   ]
+  },
+  {
+   "place": "San Pietro in Vincoli church",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Vatican City (area)",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Sistine Chapel (7, 92 m)",
+    "Tower of Nicholas V (Vatican Bank), Vatican City (1, 88 m)",
+    "Swiss Guard barracks, Vatican City (1, 0 m)",
+    "Treasury Museum, St Peter’s Basilica (1, 0 m)",
+    "Michelangelo’s Pietà, St Peter’s Basilica (1, 0 m)",
+    "Bernini’s Baldacchino, St Peter’s Basilica (1, 0 m)",
+    "St Peter’s Basilica (1, 0 m)",
+    "Chair of St Peter, St Peter’s Basilica (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Santa Maria Antiqua, Roman Forum",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Temple of Antoninus and Faustina, Roman Forum (1, 69 m)",
+    "Roman Forum (4, 90 m)",
+    "Temple of Vesta, Roman Forum (1, 28 m)",
+    "Palace of Domitian, Palatine Hill (1, 58 m)"
+   ]
+  },
+  {
+   "place": "Santa Maria del Popolo church",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Pincio Terrace (1, 130 m)"
+   ]
+  },
+  {
+   "place": "National Etruscan Museum (Villa Giulia)",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palazzo Massimo, National Roman Museum",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Fountain of the Moor, Piazza Navona",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Piazza Navona (3, 122 m)"
+   ]
+  },
+  {
+   "place": "Piazza del Campidoglio",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Capitoline Museums (9, 79 m)",
+    "Palazzo dei Conservatori courtyard, Capitoline Museums (1, 73 m)",
+    "Arch of Septimius Severus, Roman Forum (1, 101 m)"
+   ]
+  },
+  {
+   "place": "Colle Oppio park",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Colosseum (5, 135 m)"
+   ]
+  },
+  {
+   "place": "Ponte Sisto bridge",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Piazza Trilussa (1, 75 m)"
+   ]
+  },
+  {
+   "place": "Pincio Terrace",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Santa Maria del Popolo church (2, 130 m)"
+   ]
+  },
+  {
+   "place": "Vatican Museums entrance",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Octagonal Court, Vatican Museums (2, 67 m)",
+    "Vatican Museums (1, 34 m)",
+    "Gregorian Etruscan Museum, Vatican Museums (1, 34 m)",
+    "Pio-Clementino Museum, Vatican Museums (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Vatican Obelisk, St Peter’s Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "St Peter’s Square (8, 58 m)"
+   ]
+  },
+  {
+   "place": "Turtle Fountain, Piazza Mattei",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Jewish Ghetto, Via del Portico d’Ottavia (3, 145 m)"
+   ]
+  },
+  {
+   "place": "Barcaccia Fountain, Spanish Steps",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Spanish Steps (1, 14 m)",
+    "Keats-Shelley House, Spanish Steps (1, 51 m)"
+   ]
+  },
+  {
+   "place": "Temple of Antoninus and Faustina, Roman Forum",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Roman Forum (4, 63 m)",
+    "Temple of Vesta, Roman Forum (1, 42 m)",
+    "Palace of Domitian, Palatine Hill (1, 126 m)",
+    "Santa Maria Antiqua, Roman Forum (2, 69 m)",
+    "Basilica of Maxentius, Roman Forum (1, 125 m)"
+   ]
+  },
+  {
+   "place": "Piazza Trilussa",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Ponte Sisto bridge (1, 75 m)"
+   ]
+  },
+  {
+   "place": "Spanish Steps",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Barcaccia Fountain, Spanish Steps (1, 14 m)",
+    "Keats-Shelley House, Spanish Steps (1, 47 m)"
+   ]
+  },
+  {
+   "place": "Domus Aurea (Nero’s Golden House)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Ludus Magnus gladiator school (1, 114 m)"
+   ]
+  },
+  {
+   "place": "Via della Pallacorda",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Alfredo alla Scrofa restaurant (1, 120 m)"
+   ]
+  },
+  {
+   "place": "Temple of Vesta, Roman Forum",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Temple of Antoninus and Faustina, Roman Forum (1, 42 m)",
+    "Roman Forum (4, 73 m)",
+    "Palace of Domitian, Palatine Hill (1, 85 m)",
+    "Santa Maria Antiqua, Roman Forum (2, 28 m)"
+   ]
+  },
+  {
+   "place": "Ludus Magnus gladiator school",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Domus Aurea (Nero’s Golden House) (1, 114 m)"
+   ]
+  },
+  {
+   "place": "Palace of Domitian, Palatine Hill",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Temple of Antoninus and Faustina, Roman Forum (1, 126 m)",
+    "Roman Forum (4, 145 m)",
+    "Temple of Vesta, Roman Forum (1, 85 m)",
+    "Santa Maria Antiqua, Roman Forum (2, 58 m)"
+   ]
+  },
+  {
+   "place": "Tower of Nicholas V (Vatican Bank), Vatican City",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sistine Chapel (7, 91 m)",
+    "Vatican City (area) (2, 88 m)",
+    "Swiss Guard barracks, Vatican City (1, 88 m)",
+    "Treasury Museum, St Peter’s Basilica (1, 88 m)",
+    "Michelangelo’s Pietà, St Peter’s Basilica (1, 88 m)",
+    "Bernini’s Baldacchino, St Peter’s Basilica (1, 88 m)",
+    "St Peter’s Basilica (1, 88 m)",
+    "Chair of St Peter, St Peter’s Basilica (1, 88 m)"
+   ]
+  },
+  {
+   "place": "Keats-Shelley House, Spanish Steps",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Barcaccia Fountain, Spanish Steps (1, 51 m)",
+    "Spanish Steps (1, 47 m)"
+   ]
+  },
+  {
+   "place": "Raphael Rooms, Vatican Museums",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Braccio Nuovo, Vatican Museums (1, 0 m)",
+    "Pinacoteca (picture gallery), Vatican Museums (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Palazzo dei Conservatori courtyard, Capitoline Museums",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piazza del Campidoglio (1, 73 m)",
+    "Capitoline Museums (9, 9 m)",
+    "Arch of Septimius Severus, Roman Forum (1, 149 m)"
+   ]
+  },
+  {
+   "place": "Swiss Guard barracks, Vatican City",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sistine Chapel (7, 92 m)",
+    "Tower of Nicholas V (Vatican Bank), Vatican City (1, 88 m)",
+    "Vatican City (area) (2, 0 m)",
+    "Treasury Museum, St Peter’s Basilica (1, 0 m)",
+    "Michelangelo’s Pietà, St Peter’s Basilica (1, 0 m)",
+    "Bernini’s Baldacchino, St Peter’s Basilica (1, 0 m)",
+    "St Peter’s Basilica (1, 0 m)",
+    "Chair of St Peter, St Peter’s Basilica (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Vatican Museums",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Vatican Museums entrance (1, 34 m)",
+    "Octagonal Court, Vatican Museums (2, 50 m)",
+    "Gregorian Etruscan Museum, Vatican Museums (1, 0 m)",
+    "Pio-Clementino Museum, Vatican Museums (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Treasury Museum, St Peter’s Basilica",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sistine Chapel (7, 92 m)",
+    "Tower of Nicholas V (Vatican Bank), Vatican City (1, 88 m)",
+    "Vatican City (area) (2, 0 m)",
+    "Swiss Guard barracks, Vatican City (1, 0 m)",
+    "Michelangelo’s Pietà, St Peter’s Basilica (1, 0 m)",
+    "Bernini’s Baldacchino, St Peter’s Basilica (1, 0 m)",
+    "St Peter’s Basilica (1, 0 m)",
+    "Chair of St Peter, St Peter’s Basilica (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Michelangelo’s Pietà, St Peter’s Basilica",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sistine Chapel (7, 92 m)",
+    "Tower of Nicholas V (Vatican Bank), Vatican City (1, 88 m)",
+    "Vatican City (area) (2, 0 m)",
+    "Swiss Guard barracks, Vatican City (1, 0 m)",
+    "Treasury Museum, St Peter’s Basilica (1, 0 m)",
+    "Bernini’s Baldacchino, St Peter’s Basilica (1, 0 m)",
+    "St Peter’s Basilica (1, 0 m)",
+    "Chair of St Peter, St Peter’s Basilica (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Trajan’s Forum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Trajan’s Column (2, 89 m)",
+    "Trajan’s Markets (1, 82 m)"
+   ]
+  },
+  {
+   "place": "Lateran Obelisk, Piazza San Giovanni in Laterano",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Chapel of San Venanzio, Lateran Baptistery (1, 94 m)"
+   ]
+  },
+  {
+   "place": "Chapel of San Venanzio, Lateran Baptistery",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Lateran Obelisk, Piazza San Giovanni in Laterano (1, 94 m)"
+   ]
+  },
+  {
+   "place": "Church of the Gesù",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Chapel of St Ignatius, Church of the Gesù (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Braccio Nuovo, Vatican Museums",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Raphael Rooms, Vatican Museums (1, 0 m)",
+    "Pinacoteca (picture gallery), Vatican Museums (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Arch of Septimius Severus, Roman Forum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piazza del Campidoglio (1, 101 m)",
+    "Roman Forum (4, 123 m)",
+    "Palazzo dei Conservatori courtyard, Capitoline Museums (1, 149 m)"
+   ]
+  },
+  {
+   "place": "Pinacoteca (picture gallery), Vatican Museums",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Raphael Rooms, Vatican Museums (1, 0 m)",
+    "Braccio Nuovo, Vatican Museums (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Trajan’s Markets",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Trajan’s Forum (1, 82 m)"
+   ]
+  },
+  {
+   "place": "Basilica of Maxentius, Roman Forum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Temple of Antoninus and Faustina, Roman Forum (1, 125 m)",
+    "Arch of Titus, Roman Forum (2, 146 m)"
+   ]
+  },
+  {
+   "place": "Bernini’s Baldacchino, St Peter’s Basilica",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sistine Chapel (7, 92 m)",
+    "Tower of Nicholas V (Vatican Bank), Vatican City (1, 88 m)",
+    "Vatican City (area) (2, 0 m)",
+    "Swiss Guard barracks, Vatican City (1, 0 m)",
+    "Treasury Museum, St Peter’s Basilica (1, 0 m)",
+    "Michelangelo’s Pietà, St Peter’s Basilica (1, 0 m)",
+    "St Peter’s Basilica (1, 0 m)",
+    "Chair of St Peter, St Peter’s Basilica (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Chapel of St Ignatius, Church of the Gesù",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Church of the Gesù (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Gregorian Etruscan Museum, Vatican Museums",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Vatican Museums entrance (1, 34 m)",
+    "Octagonal Court, Vatican Museums (2, 50 m)",
+    "Vatican Museums (1, 0 m)",
+    "Pio-Clementino Museum, Vatican Museums (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Pio-Clementino Museum, Vatican Museums",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Vatican Museums entrance (1, 34 m)",
+    "Octagonal Court, Vatican Museums (2, 50 m)",
+    "Vatican Museums (1, 0 m)",
+    "Gregorian Etruscan Museum, Vatican Museums (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Sant’Andrea al Quirinale church",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Rooms of St Stanislas Kostka, Sant’Andrea al Quirinale (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Rooms of St Stanislas Kostka, Sant’Andrea al Quirinale",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sant’Andrea al Quirinale church (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Santa Prassede church",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Santa Maria Maggiore basilica (2, 27 m)"
+   ]
+  },
+  {
+   "place": "St Peter’s Basilica",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sistine Chapel (7, 92 m)",
+    "Tower of Nicholas V (Vatican Bank), Vatican City (1, 88 m)",
+    "Vatican City (area) (2, 0 m)",
+    "Swiss Guard barracks, Vatican City (1, 0 m)",
+    "Treasury Museum, St Peter’s Basilica (1, 0 m)",
+    "Michelangelo’s Pietà, St Peter’s Basilica (1, 0 m)",
+    "Bernini’s Baldacchino, St Peter’s Basilica (1, 0 m)",
+    "Chair of St Peter, St Peter’s Basilica (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Chair of St Peter, St Peter’s Basilica",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sistine Chapel (7, 92 m)",
+    "Tower of Nicholas V (Vatican Bank), Vatican City (1, 88 m)",
+    "Vatican City (area) (2, 0 m)",
+    "Swiss Guard barracks, Vatican City (1, 0 m)",
+    "Treasury Museum, St Peter’s Basilica (1, 0 m)",
+    "Michelangelo’s Pietà, St Peter’s Basilica (1, 0 m)",
+    "Bernini’s Baldacchino, St Peter’s Basilica (1, 0 m)",
+    "St Peter’s Basilica (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Alfredo alla Scrofa restaurant",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Via della Pallacorda (1, 120 m)"
+   ]
+  }
+ ]
+}

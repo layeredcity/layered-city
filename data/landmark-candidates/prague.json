@@ -1,0 +1,309 @@
+{
+ "city": "Prague",
+ "candidates": [
+  {
+   "place": "Prague Castle",
+   "stories": 5,
+   "types": {
+    "book": 1,
+    "movie": 3,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Old Royal Palace, Prague Castle (1, 113 m)",
+    "St Vitus Cathedral, Prague Castle (2, 60 m)"
+   ]
+  },
+  {
+   "place": "Astronomical Clock, Old Town Hall",
+   "stories": 4,
+   "types": {
+    "audiotour": 2,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Old Town Square (4, 22 m)",
+    "Franz Kafka Square (náměstí Franze Kafky) (1, 114 m)",
+    "Church of Our Lady before Týn (1, 140 m)"
+   ]
+  },
+  {
+   "place": "Old Town Square",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Astronomical Clock, Old Town Hall (4, 22 m)",
+    "Franz Kafka Square (náměstí Franze Kafky) (1, 134 m)",
+    "Church of Our Lady before Týn (1, 138 m)"
+   ]
+  },
+  {
+   "place": "Wenceslas Square",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Rokoko Theatre, Wenceslas Square (1, 136 m)",
+    "Wenceslas Square (area) (1, 51 m)",
+    "Melantrich building, Wenceslas Square (2, 89 m)"
+   ]
+  },
+  {
+   "place": "Municipal House (Obecní dům)",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": [
+    "Hotel Paříž (1, 132 m)"
+   ]
+  },
+  {
+   "place": "Můstek (bottom of Wenceslas Square)",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "New City Hall, Mariánské Square",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Franz Kafka Square (náměstí Franze Kafky) (1, 149 m)",
+    "Clementinum library (1, 133 m)"
+   ]
+  },
+  {
+   "place": "Church of Sts Cyril and Methodius, Resslova",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Old Jewish Cemetery",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Old-New Synagogue (2, 71 m)",
+    "Jaroslav Ježek Blue Room museum (1, 92 m)"
+   ]
+  },
+  {
+   "place": "Old-New Synagogue",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Old Jewish Cemetery (2, 71 m)",
+    "Jaroslav Ježek Blue Room museum (1, 36 m)",
+    "Franz Kafka Square (náměstí Franze Kafky) (1, 127 m)",
+    "Josefov Jewish Quarter (area) (1, 145 m)"
+   ]
+  },
+  {
+   "place": "Vinohrady district (area)",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Estates Theatre",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Vitus Cathedral, Prague Castle",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Prague Castle (5, 60 m)",
+    "Old Royal Palace, Prague Castle (1, 82 m)"
+   ]
+  },
+  {
+   "place": "Melantrich building, Wenceslas Square",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "Wenceslas Square (3, 89 m)",
+    "Rokoko Theatre, Wenceslas Square (1, 129 m)",
+    "Wenceslas Square (area) (1, 89 m)"
+   ]
+  },
+  {
+   "place": "Charles Bridge",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palladium shopping centre",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Hotel Paříž (1, 120 m)"
+   ]
+  },
+  {
+   "place": "Jaroslav Ježek Blue Room museum",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Old Jewish Cemetery (2, 92 m)",
+    "Old-New Synagogue (2, 36 m)",
+    "Franz Kafka Square (náměstí Franze Kafky) (1, 93 m)"
+   ]
+  },
+  {
+   "place": "Rokoko Theatre, Wenceslas Square",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Wenceslas Square (3, 136 m)",
+    "Wenceslas Square (area) (1, 86 m)",
+    "Melantrich building, Wenceslas Square (2, 129 m)"
+   ]
+  },
+  {
+   "place": "Smetana Museum",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Theatre on the Balustrade (Divadlo Na zábradlí) (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Wenceslas Square (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Wenceslas Square (3, 51 m)",
+    "Rokoko Theatre, Wenceslas Square (1, 86 m)",
+    "Melantrich building, Wenceslas Square (2, 89 m)"
+   ]
+  },
+  {
+   "place": "Hotel Paříž",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Municipal House (Obecní dům) (2, 132 m)",
+    "Palladium shopping centre (1, 120 m)"
+   ]
+  },
+  {
+   "place": "Theatre on the Balustrade (Divadlo Na zábradlí)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Smetana Museum (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Old Royal Palace, Prague Castle",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Prague Castle (5, 113 m)",
+    "St Vitus Cathedral, Prague Castle (2, 82 m)"
+   ]
+  },
+  {
+   "place": "Franz Kafka Square (náměstí Franze Kafky)",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Astronomical Clock, Old Town Hall (4, 114 m)",
+    "New City Hall, Mariánské Square (2, 149 m)",
+    "Old Town Square (4, 134 m)",
+    "Old-New Synagogue (2, 127 m)",
+    "Jaroslav Ježek Blue Room museum (1, 93 m)"
+   ]
+  },
+  {
+   "place": "Church of Our Lady before Týn",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Astronomical Clock, Old Town Hall (4, 140 m)",
+    "Old Town Square (4, 138 m)"
+   ]
+  },
+  {
+   "place": "Josefov Jewish Quarter (area)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Old-New Synagogue (2, 145 m)"
+   ]
+  },
+  {
+   "place": "Clementinum library",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "New City Hall, Mariánské Square (2, 133 m)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,290 @@
+{
+ "city": "Athens",
+ "candidates": [
+  {
+   "place": "Syntagma Square",
+   "stories": 7,
+   "types": {
+    "audiotour": 3,
+    "book": 1,
+    "movie": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Tomb of the Unknown Soldier, Syntagma Square (1, 104 m)"
+   ]
+  },
+  {
+   "place": "National Archaeological Museum",
+   "stories": 6,
+   "types": {
+    "podcast": 1,
+    "video": 5
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Acropolis Museum",
+   "stories": 5,
+   "types": {
+    "podcast": 1,
+    "video": 4
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ancient Agora",
+   "stories": 4,
+   "types": {
+    "audiotour": 1,
+    "book": 2,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kerameikos archaeological site",
+   "stories": 4,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Iera Odos (Sacred Way) (1, 117 m)",
+    "Street of Tombs, Kerameikos (1, 66 m)"
+   ]
+  },
+  {
+   "place": "Parthenon, Acropolis",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Acropolis (2, 86 m)",
+    "Erechtheion, Acropolis (2, 67 m)"
+   ]
+  },
+  {
+   "place": "Piraeus port (area)",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Exarchia Square",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Exarchia district (area) (2, 73 m)"
+   ]
+  },
+  {
+   "place": "Kypseli district (area)",
+   "stories": 3,
+   "types": {
+    "movie": 1,
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Pnyx hill",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Plaka district (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Anafiotika neighbourhood (1, 50 m)"
+   ]
+  },
+  {
+   "place": "Exarchia district (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Exarchia Square (3, 73 m)"
+   ]
+  },
+  {
+   "place": "Omonia Square",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Polytechnic gate, Patission Street",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Acropolis",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "Parthenon, Acropolis (4, 86 m)",
+    "Erechtheion, Acropolis (2, 107 m)"
+   ]
+  },
+  {
+   "place": "Erechtheion, Acropolis",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Parthenon, Acropolis (4, 67 m)",
+    "Acropolis (2, 107 m)"
+   ]
+  },
+  {
+   "place": "Acropolis south slope entrance",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Theatre of Dionysus (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Tomb of the Unknown Soldier, Syntagma Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Syntagma Square (7, 104 m)",
+    "Hellenic Parliament building (1, 71 m)"
+   ]
+  },
+  {
+   "place": "Police headquarters, Alexandras Avenue",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Ambelokipi district (area) (1, 71 m)"
+   ]
+  },
+  {
+   "place": "Iera Odos (Sacred Way)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Kerameikos archaeological site (4, 117 m)",
+    "Street of Tombs, Kerameikos (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Ambelokipi district (area)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Police headquarters, Alexandras Avenue (1, 71 m)"
+   ]
+  },
+  {
+   "place": "Athinas Street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "City Hall, Kotzia Square (1, 45 m)"
+   ]
+  },
+  {
+   "place": "Hellenic Parliament building",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Tomb of the Unknown Soldier, Syntagma Square (1, 71 m)"
+   ]
+  },
+  {
+   "place": "Theatre of Dionysus",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Acropolis south slope entrance (1, 34 m)"
+   ]
+  },
+  {
+   "place": "City Hall, Kotzia Square",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Athinas Street (1, 45 m)"
+   ]
+  },
+  {
+   "place": "Street of Tombs, Kerameikos",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Kerameikos archaeological site (4, 66 m)",
+    "Iera Odos (Sacred Way) (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Anafiotika neighbourhood",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Plaka district (area) (2, 50 m)"
+   ]
+  }
+ ]
+}

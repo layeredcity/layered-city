@@ -1,0 +1,331 @@
+{
+ "city": "Madrid",
+ "candidates": [
+  {
+   "place": "Prado Museum",
+   "stories": 18,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "movie": 1,
+    "video": 14,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Goya Monument, beside the Prado Museum (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Puerta del Sol square",
+   "stories": 11,
+   "types": {
+    "audiotour": 2,
+    "book": 1,
+    "movie": 1,
+    "podcast": 1,
+    "music": 6
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Plaza Mayor",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "movie": 1,
+    "video": 2,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sobrino de Botín restaurant (1, 148 m)",
+    "Mercado de San Miguel market (1, 132 m)"
+   ]
+  },
+  {
+   "place": "Las Ventas bullring",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Congress of Deputies (parliament)",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Gran Vía avenue",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Lavapiés district (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ciudad Universitaria campus (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Santiago Bernabéu Stadium",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Malasaña district (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Salamanca district (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Atocha station",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Valley of the Fallen (Cuelgamuros)",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Reina Sofía Museum",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Palace of Aranjuez, Aranjuez",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Isabel II statue, Plaza de Isabel II",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Plaza de Isabel II (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Plaza de Isabel II",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Isabel II statue, Plaza de Isabel II (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Plaza de Santa Ana",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Lorca statue, Plaza de Santa Ana (1, 10 m)",
+    "La Venencia sherry bar (1, 133 m)"
+   ]
+  },
+  {
+   "place": "Goya Monument, beside the Prado Museum",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Prado Museum (18, 135 m)"
+   ]
+  },
+  {
+   "place": "Chamberí district (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Plaza de Olavide (1, 117 m)"
+   ]
+  },
+  {
+   "place": "Sobrino de Botín restaurant",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Plaza Mayor (5, 148 m)",
+    "Las Carboneras flamenco tablao (1, 120 m)"
+   ]
+  },
+  {
+   "place": "Royal Monastery of El Escorial",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Friars’ Garden, Royal Monastery of El Escorial (1, 137 m)"
+   ]
+  },
+  {
+   "place": "Mercado de San Miguel market",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Plaza Mayor (5, 132 m)",
+    "Las Carboneras flamenco tablao (1, 90 m)"
+   ]
+  },
+  {
+   "place": "AlliOli paella restaurant",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "El Rastro flea market (1, 105 m)"
+   ]
+  },
+  {
+   "place": "Las Carboneras flamenco tablao",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sobrino de Botín restaurant (1, 120 m)",
+    "Mercado de San Miguel market (1, 90 m)"
+   ]
+  },
+  {
+   "place": "Lorca statue, Plaza de Santa Ana",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Plaza de Santa Ana (1, 10 m)",
+    "La Venencia sherry bar (1, 143 m)"
+   ]
+  },
+  {
+   "place": "Friars’ Garden, Royal Monastery of El Escorial",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Royal Monastery of El Escorial (1, 137 m)"
+   ]
+  },
+  {
+   "place": "Mercado de la Cebada market, La Latina",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "La Latina district (area) (1, 84 m)"
+   ]
+  },
+  {
+   "place": "Plaza de Olavide",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Chamberí district (area) (1, 117 m)"
+   ]
+  },
+  {
+   "place": "La Venencia sherry bar",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Plaza de Santa Ana (1, 133 m)",
+    "Lorca statue, Plaza de Santa Ana (1, 143 m)"
+   ]
+  },
+  {
+   "place": "El Rastro flea market",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "AlliOli paella restaurant (1, 105 m)"
+   ]
+  },
+  {
+   "place": "La Latina district (area)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Mercado de la Cebada market, La Latina (1, 84 m)"
+   ]
+  }
+ ]
+}

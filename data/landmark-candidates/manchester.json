@@ -1,0 +1,194 @@
+{
+ "city": "Manchester",
+ "candidates": [
+  {
+   "place": "Site of the Haçienda club, Whitworth Street West",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Free Trade Hall, Peter Street",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Old Trafford stadium",
+   "stories": 4,
+   "types": {
+    "movie": 2,
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ancoats (area)",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Salford (area)",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "movie": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Manchester Central Library",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "St Peter’s Square (Peterloo Massacre site) (2, 34 m)"
+   ]
+  },
+  {
+   "place": "Chetham’s Library",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Corporation Street (1996 IRA bomb site) (1, 145 m)"
+   ]
+  },
+  {
+   "place": "Moss Side (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Pankhurst Centre, 62 Nelson Street",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Salford Lads Club",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Peter’s Square (Peterloo Massacre site)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Manchester Central Library (2, 34 m)"
+   ]
+  },
+  {
+   "place": "Manchester Town Hall",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Exchange Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Corporation Street (1996 IRA bomb site) (1, 68 m)"
+   ]
+  },
+  {
+   "place": "Corporation Street (1996 IRA bomb site)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Exchange Square (1, 68 m)",
+    "Chetham’s Library (2, 145 m)"
+   ]
+  },
+  {
+   "place": "University of Manchester",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Coupland Street (site of the Manchester Baby computer) (1, 115 m)"
+   ]
+  },
+  {
+   "place": "Coupland Street (site of the Manchester Baby computer)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "University of Manchester (1, 115 m)",
+    "Rutherford Building, Coupland Street (1, 94 m)"
+   ]
+  },
+  {
+   "place": "Rutherford Building, Coupland Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Coupland Street (site of the Manchester Baby computer) (1, 94 m)"
+   ]
+  },
+  {
+   "place": "Athenaeum building, Princess Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Manchester Art Gallery (1, 45 m)"
+   ]
+  },
+  {
+   "place": "Manchester Art Gallery",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Athenaeum building, Princess Street (1, 45 m)"
+   ]
+  }
+ ]
+}

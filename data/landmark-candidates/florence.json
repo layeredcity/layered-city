@@ -1,0 +1,567 @@
+{
+ "city": "Florence",
+ "candidates": [
+  {
+   "place": "Uffizi Gallery",
+   "stories": 23,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1,
+    "video": 20
+   },
+   "near_within_150m": [
+    "Uffizi Gallery entrance (2, 95 m)",
+    "Museo Galileo science museum (2, 52 m)",
+    "Via dei Georgofili, behind the Uffizi (1, 15 m)"
+   ]
+  },
+  {
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "stories": 6,
+   "types": {
+    "book": 1,
+    "podcast": 3,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Piazza del Duomo (3, 52 m)",
+    "Baptistery of San Giovanni (1, 99 m)",
+    "Museo dell’Opera del Duomo (cathedral museum) (4, 14 m)",
+    "Duomo central doorway, facing the Baptistery (1, 77 m)"
+   ]
+  },
+  {
+   "place": "Piazza della Signoria",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "movie": 1,
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "Uffizi Gallery entrance (2, 118 m)",
+    "Palazzo Vecchio (3, 50 m)",
+    "Orsanmichele church (4, 145 m)",
+    "Mercato Nuovo loggia (Porcellino) (1, 119 m)",
+    "Hall of the Five Hundred, Palazzo Vecchio (1, 37 m)",
+    "Loggia dei Lanzi, Piazza della Signoria (1, 41 m)"
+   ]
+  },
+  {
+   "place": "Piazza della Repubblica",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "music": 4
+   },
+   "near_within_150m": [
+    "Orsanmichele church (4, 107 m)"
+   ]
+  },
+  {
+   "place": "Palazzo Medici Riccardi",
+   "stories": 5,
+   "types": {
+    "book": 1,
+    "podcast": 3,
+    "video": 1
+   },
+   "near_within_150m": [
+    "San Lorenzo basilica (3, 109 m)",
+    "Old Sacristy, San Lorenzo basilica (1, 147 m)"
+   ]
+  },
+  {
+   "place": "Orsanmichele church",
+   "stories": 4,
+   "types": {
+    "podcast": 1,
+    "video": 3
+   },
+   "near_within_150m": [
+    "Piazza della Signoria (5, 145 m)",
+    "Piazza della Repubblica (5, 107 m)",
+    "Mercato Nuovo loggia (Porcellino) (1, 99 m)"
+   ]
+  },
+  {
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "stories": 4,
+   "types": {
+    "video": 4
+   },
+   "near_within_150m": [
+    "Piazza del Duomo (3, 65 m)",
+    "Duomo cathedral (Santa Maria del Fiore) (6, 14 m)",
+    "Baptistery of San Giovanni (1, 113 m)",
+    "Duomo central doorway, facing the Baptistery (1, 91 m)"
+   ]
+  },
+  {
+   "place": "San Lorenzo basilica",
+   "stories": 3,
+   "types": {
+    "audiotour": 2,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Palazzo Medici Riccardi (5, 109 m)",
+    "New Sacristy, Medici Chapels (1, 97 m)",
+    "Laurentian Library (Biblioteca Medicea Laurenziana) (2, 61 m)",
+    "Michelangelo’s secret room, Medici Chapels (1, 86 m)",
+    "Old Sacristy, San Lorenzo basilica (1, 38 m)"
+   ]
+  },
+  {
+   "place": "Piazza del Duomo",
+   "stories": 3,
+   "types": {
+    "audiotour": 2,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Duomo cathedral (Santa Maria del Fiore) (6, 52 m)",
+    "Baptistery of San Giovanni (1, 49 m)",
+    "Museo dell’Opera del Duomo (cathedral museum) (4, 65 m)",
+    "Duomo central doorway, facing the Baptistery (1, 38 m)"
+   ]
+  },
+  {
+   "place": "Ponte Vecchio bridge",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Ponte Vecchio bridge (south end) (1, 31 m)",
+    "Vasari Corridor, Ponte Vecchio (2, 7 m)"
+   ]
+  },
+  {
+   "place": "Santa Croce basilica",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pazzi Chapel, Santa Croce (1, 69 m)",
+    "Piazza Santa Croce (1, 60 m)"
+   ]
+  },
+  {
+   "place": "Palazzo Vecchio",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piazza della Signoria (5, 50 m)",
+    "Uffizi Gallery entrance (2, 81 m)",
+    "Via del Corno (1, 120 m)",
+    "Hall of the Five Hundred, Palazzo Vecchio (1, 22 m)",
+    "Loggia dei Lanzi, Piazza della Signoria (1, 38 m)"
+   ]
+  },
+  {
+   "place": "Bargello Museum",
+   "stories": 3,
+   "types": {
+    "video": 3
+   },
+   "near_within_150m": [
+    "Casa di Dante museum (1, 118 m)",
+    "Via del Proconsolo (1, 92 m)"
+   ]
+  },
+  {
+   "place": "Uffizi Gallery entrance",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": [
+    "Piazza della Signoria (5, 118 m)",
+    "Museo Galileo science museum (2, 101 m)",
+    "Uffizi Gallery (23, 95 m)",
+    "Palazzo Vecchio (3, 81 m)",
+    "Via del Corno (1, 144 m)",
+    "Via dei Georgofili, behind the Uffizi (1, 105 m)",
+    "Hall of the Five Hundred, Palazzo Vecchio (1, 103 m)",
+    "Loggia dei Lanzi, Piazza della Signoria (1, 80 m)"
+   ]
+  },
+  {
+   "place": "Museo Galileo science museum",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Uffizi Gallery entrance (2, 101 m)",
+    "Uffizi Gallery (23, 52 m)",
+    "Via dei Georgofili, behind the Uffizi (1, 44 m)"
+   ]
+  },
+  {
+   "place": "Piazzale Michelangelo",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Accademia Gallery (Galleria dell’Accademia)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Luigi Cherubini Conservatory (1, 56 m)",
+    "San Marco Museum (1, 145 m)"
+   ]
+  },
+  {
+   "place": "Oltrarno district (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Vasari Corridor, Ponte Vecchio",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Ponte Vecchio bridge (south end) (1, 37 m)",
+    "Ponte Vecchio bridge (3, 7 m)"
+   ]
+  },
+  {
+   "place": "Palazzo Pitti",
+   "stories": 2,
+   "types": {
+    "music": 2
+   },
+   "near_within_150m": [
+    "Palatine Gallery, Palazzo Pitti (1, 11 m)"
+   ]
+  },
+  {
+   "place": "Santa Maria Novella basilica",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Piazza Santa Maria Novella (1, 29 m)"
+   ]
+  },
+  {
+   "place": "Brancacci Chapel, Santa Maria del Carmine",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "San Lorenzo basilica (3, 61 m)",
+    "New Sacristy, Medici Chapels (1, 69 m)",
+    "Michelangelo’s secret room, Medici Chapels (1, 71 m)",
+    "Old Sacristy, San Lorenzo basilica (1, 27 m)"
+   ]
+  },
+  {
+   "place": "Santo Spirito basilica",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza Santa Maria Novella",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Santa Maria Novella basilica (2, 29 m)"
+   ]
+  },
+  {
+   "place": "Ponte Vecchio bridge (south end)",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Ponte Vecchio bridge (3, 31 m)",
+    "Vasari Corridor, Ponte Vecchio (2, 37 m)",
+    "Capponi Chapel, Santa Felicita church (1, 132 m)"
+   ]
+  },
+  {
+   "place": "Casa di Dante museum",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Via del Proconsolo (1, 65 m)",
+    "Bargello Museum (3, 118 m)"
+   ]
+  },
+  {
+   "place": "Luigi Cherubini Conservatory",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Accademia Gallery (Galleria dell’Accademia) (2, 56 m)"
+   ]
+  },
+  {
+   "place": "Baptistery of San Giovanni",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Piazza del Duomo (3, 49 m)",
+    "Duomo cathedral (Santa Maria del Fiore) (6, 99 m)",
+    "Museo dell’Opera del Duomo (cathedral museum) (4, 113 m)",
+    "Duomo central doorway, facing the Baptistery (1, 33 m)"
+   ]
+  },
+  {
+   "place": "Mercato Nuovo loggia (Porcellino)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Piazza della Signoria (5, 119 m)",
+    "Orsanmichele church (4, 99 m)",
+    "Loggia dei Lanzi, Piazza della Signoria (1, 130 m)"
+   ]
+  },
+  {
+   "place": "Via del Proconsolo",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Casa di Dante museum (1, 65 m)",
+    "Bargello Museum (3, 92 m)"
+   ]
+  },
+  {
+   "place": "San Marco Museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Accademia Gallery (Galleria dell’Accademia) (2, 145 m)"
+   ]
+  },
+  {
+   "place": "New Sacristy, Medici Chapels",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "San Lorenzo basilica (3, 97 m)",
+    "Laurentian Library (Biblioteca Medicea Laurenziana) (2, 69 m)",
+    "Michelangelo’s secret room, Medici Chapels (1, 20 m)",
+    "Mercato Centrale food market (1, 145 m)",
+    "Old Sacristy, San Lorenzo basilica (1, 65 m)"
+   ]
+  },
+  {
+   "place": "Pazzi Chapel, Santa Croce",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Santa Croce basilica (3, 69 m)",
+    "National Central Library (1, 115 m)",
+    "Piazza Santa Croce (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Michelangelo’s secret room, Medici Chapels",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "San Lorenzo basilica (3, 86 m)",
+    "New Sacristy, Medici Chapels (1, 20 m)",
+    "Laurentian Library (Biblioteca Medicea Laurenziana) (2, 71 m)",
+    "Mercato Centrale food market (1, 135 m)",
+    "Old Sacristy, San Lorenzo basilica (1, 60 m)"
+   ]
+  },
+  {
+   "place": "Via del Corno",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Uffizi Gallery entrance (2, 144 m)",
+    "Palazzo Vecchio (3, 120 m)",
+    "Hall of the Five Hundred, Palazzo Vecchio (1, 126 m)"
+   ]
+  },
+  {
+   "place": "Via dei Georgofili, behind the Uffizi",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Uffizi Gallery entrance (2, 105 m)",
+    "Museo Galileo science museum (2, 44 m)",
+    "Uffizi Gallery (23, 15 m)"
+   ]
+  },
+  {
+   "place": "Hall of the Five Hundred, Palazzo Vecchio",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Piazza della Signoria (5, 37 m)",
+    "Uffizi Gallery entrance (2, 103 m)",
+    "Palazzo Vecchio (3, 22 m)",
+    "Via del Corno (1, 126 m)",
+    "Loggia dei Lanzi, Piazza della Signoria (1, 46 m)"
+   ]
+  },
+  {
+   "place": "National Central Library",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pazzi Chapel, Santa Croce (1, 115 m)"
+   ]
+  },
+  {
+   "place": "Piazza Santa Croce",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Santa Croce basilica (3, 60 m)",
+    "Pazzi Chapel, Santa Croce (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Duomo central doorway, facing the Baptistery",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piazza del Duomo (3, 38 m)",
+    "Duomo cathedral (Santa Maria del Fiore) (6, 77 m)",
+    "Baptistery of San Giovanni (1, 33 m)",
+    "Museo dell’Opera del Duomo (cathedral museum) (4, 91 m)"
+   ]
+  },
+  {
+   "place": "Mercato Centrale food market",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "New Sacristy, Medici Chapels (1, 145 m)",
+    "Michelangelo’s secret room, Medici Chapels (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Capponi Chapel, Santa Felicita church",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Ponte Vecchio bridge (south end) (1, 132 m)"
+   ]
+  },
+  {
+   "place": "Loggia dei Lanzi, Piazza della Signoria",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piazza della Signoria (5, 41 m)",
+    "Uffizi Gallery entrance (2, 80 m)",
+    "Palazzo Vecchio (3, 38 m)",
+    "Mercato Nuovo loggia (Porcellino) (1, 130 m)",
+    "Hall of the Five Hundred, Palazzo Vecchio (1, 46 m)"
+   ]
+  },
+  {
+   "place": "Old Sacristy, San Lorenzo basilica",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "San Lorenzo basilica (3, 38 m)",
+    "Palazzo Medici Riccardi (5, 147 m)",
+    "New Sacristy, Medici Chapels (1, 65 m)",
+    "Laurentian Library (Biblioteca Medicea Laurenziana) (2, 27 m)",
+    "Michelangelo’s secret room, Medici Chapels (1, 60 m)"
+   ]
+  },
+  {
+   "place": "Palatine Gallery, Palazzo Pitti",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Palazzo Pitti (2, 11 m)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,213 @@
+{
+ "city": "Brussels",
+ "candidates": [
+  {
+   "place": "Grand-Place",
+   "stories": 6,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "podcast": 1,
+    "video": 3
+   },
+   "near_within_150m": [
+    "Toone puppet theatre (1, 138 m)"
+   ]
+  },
+  {
+   "place": "Belgian Comic Strip Center",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Atomium",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Coudenberg Palace remains, Place Royale",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "Magritte Museum (1, 137 m)"
+   ]
+  },
+  {
+   "place": "Bourse (former stock exchange)",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Ancienne Belgique concert hall (1, 143 m)"
+   ]
+  },
+  {
+   "place": "Tir National memorial (Edith Cavell execution site)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Molenbeek-Saint-Jean (area)",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Schaerbeek (area)",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Museums of Fine Arts of Belgium",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Place du Grand Sablon (1, 106 m)",
+    "Magritte Museum (1, 79 m)",
+    "Musical Instruments Museum (MIM) (1, 102 m)"
+   ]
+  },
+  {
+   "place": "Porte de Namur",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Galerie d’Ixelles, Matongé (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Louise tram stop",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Avenue Louise (1, 56 m)"
+   ]
+  },
+  {
+   "place": "Place du Grand Sablon",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Royal Museums of Fine Arts of Belgium (2, 106 m)",
+    "Musical Instruments Museum (MIM) (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Ancienne Belgique concert hall",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Bourse (former stock exchange) (2, 143 m)"
+   ]
+  },
+  {
+   "place": "Galerie d’Ixelles, Matongé",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Porte de Namur (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Avenue Louise",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Louise tram stop (1, 56 m)"
+   ]
+  },
+  {
+   "place": "Molenbeek (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Place Communale, Molenbeek-Saint-Jean (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Magritte Museum",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Coudenberg Palace remains, Place Royale (3, 137 m)",
+    "Royal Museums of Fine Arts of Belgium (2, 79 m)",
+    "Musical Instruments Museum (MIM) (1, 72 m)"
+   ]
+  },
+  {
+   "place": "Musical Instruments Museum (MIM)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Place du Grand Sablon (1, 123 m)",
+    "Magritte Museum (1, 72 m)",
+    "Royal Museums of Fine Arts of Belgium (2, 102 m)"
+   ]
+  },
+  {
+   "place": "Place Communale, Molenbeek-Saint-Jean",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Molenbeek (area) (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Toone puppet theatre",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Grand-Place (6, 138 m)"
+   ]
+  }
+ ]
+}

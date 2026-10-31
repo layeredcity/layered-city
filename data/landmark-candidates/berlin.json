@@ -1,0 +1,287 @@
+{
+ "city": "Berlin",
+ "candidates": [
+  {
+   "place": "Gemäldegalerie art museum",
+   "stories": 9,
+   "types": {
+    "video": 9
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Alte Nationalgalerie museum",
+   "stories": 6,
+   "types": {
+    "video": 6
+   },
+   "near_within_150m": [
+    "Neues Museum (3, 78 m)",
+    "Ishtar Gate, Pergamon Museum (1, 77 m)",
+    "Pergamon Museum (1, 111 m)"
+   ]
+  },
+  {
+   "place": "Brandenburg Gate",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "movie": 1,
+    "video": 1,
+    "music": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Reichstag building",
+   "stories": 5,
+   "types": {
+    "audiotour": 2,
+    "book": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Bundestag U-Bahn station (1, 118 m)"
+   ]
+  },
+  {
+   "place": "Alexanderplatz",
+   "stories": 4,
+   "types": {
+    "movie": 1,
+    "music": 3
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Neues Museum",
+   "stories": 3,
+   "types": {
+    "video": 3
+   },
+   "near_within_150m": [
+    "Ishtar Gate, Pergamon Museum (1, 83 m)",
+    "Pergamon Museum (1, 118 m)",
+    "Altes Museum (1, 102 m)",
+    "Alte Nationalgalerie museum (6, 78 m)"
+   ]
+  },
+  {
+   "place": "Lustgarten park",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": [
+    "Altes Museum (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Potsdamer Platz",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Checkpoint Charlie",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Berghain club",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Berlin Wall Memorial, Bernauer Straße",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Schöneberg district (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Stasi Museum",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Victory Column (Siegessäule)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Olympic Stadium (Olympiastadion)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "SO36 club",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "DDR Museum",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bundestag U-Bahn station",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Reichstag building (5, 118 m)"
+   ]
+  },
+  {
+   "place": "Museum Island (area)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Site of the Palace of the Republic (now Humboldt Forum) (1, 42 m)"
+   ]
+  },
+  {
+   "place": "Nollendorfstraße 17 (Isherwood’s lodgings)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Nollendorfplatz (1, 58 m)",
+    "Metropol (now Neues Schauspielhaus), Nollendorfplatz (1, 55 m)"
+   ]
+  },
+  {
+   "place": "St. Matthäus-Kirche, Kulturforum",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Neue Nationalgalerie museum (1, 113 m)"
+   ]
+  },
+  {
+   "place": "Nollendorfplatz",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Nollendorfstraße 17 (Isherwood’s lodgings) (1, 58 m)",
+    "Metropol (now Neues Schauspielhaus), Nollendorfplatz (1, 113 m)"
+   ]
+  },
+  {
+   "place": "Metropol (now Neues Schauspielhaus), Nollendorfplatz",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Nollendorfstraße 17 (Isherwood’s lodgings) (1, 55 m)",
+    "Nollendorfplatz (1, 113 m)"
+   ]
+  },
+  {
+   "place": "Ishtar Gate, Pergamon Museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Neues Museum (3, 83 m)",
+    "Pergamon Museum (1, 38 m)",
+    "Alte Nationalgalerie museum (6, 77 m)"
+   ]
+  },
+  {
+   "place": "Site of the Palace of the Republic (now Humboldt Forum)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Museum Island (area) (1, 42 m)"
+   ]
+  },
+  {
+   "place": "Pergamon Museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Neues Museum (3, 118 m)",
+    "Ishtar Gate, Pergamon Museum (1, 38 m)",
+    "Alte Nationalgalerie museum (6, 111 m)"
+   ]
+  },
+  {
+   "place": "Altes Museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Lustgarten park (2, 129 m)",
+    "Neues Museum (3, 102 m)"
+   ]
+  },
+  {
+   "place": "Neue Nationalgalerie museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "St. Matthäus-Kirche, Kulturforum (1, 113 m)"
+   ]
+  }
+ ]
+}

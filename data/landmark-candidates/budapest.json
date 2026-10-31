@@ -1,0 +1,283 @@
+{
+ "city": "Budapest",
+ "candidates": [
+  {
+   "place": "Hungarian Parliament Building",
+   "stories": 5,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 3
+   },
+   "near_within_150m": [
+    "Kossuth Square (Kossuth Lajos tér) (1, 96 m)"
+   ]
+  },
+  {
+   "place": "Heroes’ Square",
+   "stories": 4,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Hősök tere metro station (1, 88 m)"
+   ]
+  },
+  {
+   "place": "House of Terror museum",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Széchenyi Chain Bridge",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Dohány Street Synagogue",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Hungarian Jewish Museum (site of Herzl’s birthplace) (1, 67 m)"
+   ]
+  },
+  {
+   "place": "Great Market Hall",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Liberty Bridge",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Kermit the Frog statue, Liberty Bridge (1, 15 m)"
+   ]
+  },
+  {
+   "place": "Budapest Operetta Theatre",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Hungarian State Opera (2, 135 m)"
+   ]
+  },
+  {
+   "place": "Shoes on the Danube Bank memorial",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Corvin Passage (Corvin köz)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hungarian State Opera",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Budapest Operetta Theatre (2, 135 m)"
+   ]
+  },
+  {
+   "place": "Kispipa restaurant, Akácfa Street",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Matthias Church",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Castle Hill (area) (1, 74 m)"
+   ]
+  },
+  {
+   "place": "Liszt Academy of Music",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Nagymező Street (Nagymező utca) (1, 138 m)"
+   ]
+  },
+  {
+   "place": "Bartók Memorial House",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Puskás Aréna stadium",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Columbo statue, Falk Miksa Street",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Gyula Andrássy equestrian statue, Kossuth Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Kossuth Square (Kossuth Lajos tér) (1, 143 m)"
+   ]
+  },
+  {
+   "place": "Hősök tere metro station",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Heroes’ Square (4, 88 m)"
+   ]
+  },
+  {
+   "place": "Castle Hill (area)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Matthias Church (2, 74 m)"
+   ]
+  },
+  {
+   "place": "Nagymező Street (Nagymező utca)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Liszt Academy of Music (2, 138 m)",
+    "Robert Capa Contemporary Photography Center (1, 107 m)"
+   ]
+  },
+  {
+   "place": "Deák Ferenc tér metro station",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Deák Ferenc Square (Deák Ferenc tér) (1, 39 m)"
+   ]
+  },
+  {
+   "place": "Hungarian Jewish Museum (site of Herzl’s birthplace)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Dohány Street Synagogue (3, 67 m)"
+   ]
+  },
+  {
+   "place": "Robert Capa Contemporary Photography Center",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Nagymező Street (Nagymező utca) (1, 107 m)"
+   ]
+  },
+  {
+   "place": "Deák Ferenc Square (Deák Ferenc tér)",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Deák Ferenc tér metro station (1, 39 m)"
+   ]
+  },
+  {
+   "place": "Kossuth Square (Kossuth Lajos tér)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Gyula Andrássy equestrian statue, Kossuth Square (1, 143 m)",
+    "Hungarian Parliament Building (5, 96 m)"
+   ]
+  },
+  {
+   "place": "Kermit the Frog statue, Liberty Bridge",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Liberty Bridge (2, 15 m)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "city": "Naples",
+ "candidates": [
+  {
+   "place": "National Archaeological Museum",
+   "stories": 7,
+   "types": {
+    "video": 7
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Spanish Quarter (area)",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Stadio Diego Armando Maradona",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Vele di Scampia housing blocks",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Vomero district (area)",
+   "stories": 3,
+   "types": {
+    "movie": 2,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Porta Marina gate, Pompeii",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza del Mercato",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Pio Monte della Misericordia church",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "San Giorgio Maggiore church, Forcella (1, 117 m)"
+   ]
+  },
+  {
+   "place": "Pizzeria Brandi",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Mount Vesuvius",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Borgo Santa Lucia (area)",
+   "stories": 2,
+   "types": {
+    "music": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Spaccanapoli street",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Historic centre (area) (1, 93 m)"
+   ]
+  },
+  {
+   "place": "Castel Nuovo (Maschio Angioino)",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "Palazzo San Giacomo (city hall), Piazza Municipio (1, 114 m)"
+   ]
+  },
+  {
+   "place": "Piazza San Domenico Maggiore",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Palazzo Sansevero, Piazza San Domenico Maggiore (1, 14 m)"
+   ]
+  },
+  {
+   "place": "Piazza Municipio",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Palazzo San Giacomo (city hall), Piazza Municipio (1, 61 m)"
+   ]
+  },
+  {
+   "place": "Castel dell’Ovo",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Lungomare seafront, Santa Lucia (1, 134 m)"
+   ]
+  },
+  {
+   "place": "Historic centre near Santa Chiara (area)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Santa Chiara cloister (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Santa Chiara cloister",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Historic centre near Santa Chiara (area) (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Palazzo San Giacomo (city hall), Piazza Municipio",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Piazza Municipio (1, 61 m)",
+    "Castel Nuovo (Maschio Angioino) (2, 114 m)"
+   ]
+  },
+  {
+   "place": "Lungomare seafront, Santa Lucia",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Castel dell’Ovo (1, 134 m)"
+   ]
+  },
+  {
+   "place": "Historic centre (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Spaccanapoli street (2, 93 m)",
+    "Piazza San Gaetano (Napoli Sotterranea) (1, 106 m)"
+   ]
+  },
+  {
+   "place": "Piazza San Gaetano (Napoli Sotterranea)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Historic centre (area) (1, 106 m)"
+   ]
+  },
+  {
+   "place": "Galleria Umberto I arcade",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Teatro di San Carlo opera house (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Palazzo Sansevero, Piazza San Domenico Maggiore",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Piazza San Domenico Maggiore (1, 14 m)"
+   ]
+  },
+  {
+   "place": "Teatro di San Carlo opera house",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Galleria Umberto I arcade (1, 123 m)"
+   ]
+  },
+  {
+   "place": "San Giorgio Maggiore church, Forcella",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pio Monte della Misericordia church (2, 117 m)"
+   ]
+  }
+ ]
+}

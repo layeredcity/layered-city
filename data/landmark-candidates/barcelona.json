@@ -1,0 +1,289 @@
+{
+ "city": "Barcelona",
+ "candidates": [
+  {
+   "place": "Sagrada Família basilica",
+   "stories": 6,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "movie": 1,
+    "podcast": 1,
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Plaça de Catalunya",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "music": 3,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Telefónica building, Plaça de Catalunya (2, 22 m)",
+    "Catalunya metro station (1, 105 m)"
+   ]
+  },
+  {
+   "place": "Plaça de Sant Jaume",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Gothic Quarter (area) (3, 70 m)"
+   ]
+  },
+  {
+   "place": "Camp Nou stadium",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Poble-sec district (area)",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Gothic Quarter (area)",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Plaça de Sant Jaume (4, 70 m)",
+    "Barcelona Cathedral square (Pla de la Seu) (1, 96 m)"
+   ]
+  },
+  {
+   "place": "El Raval district (area)",
+   "stories": 3,
+   "types": {
+    "movie": 1,
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palau de la Música Catalana concert hall",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Carrer de Sant Pere més Baix (1, 73 m)"
+   ]
+  },
+  {
+   "place": "National Art Museum of Catalonia (MNAC)",
+   "stories": 3,
+   "types": {
+    "video": 3
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Telefónica building, Plaça de Catalunya",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Portal de l’Àngel (1, 138 m)",
+    "Plaça de Catalunya (5, 22 m)",
+    "Catalunya metro station (1, 113 m)"
+   ]
+  },
+  {
+   "place": "Olympic Stadium (Estadi Olímpic Lluís Companys)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "La Model prison memorial",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Plaça del Raspall, Gràcia",
+   "stories": 2,
+   "types": {
+    "music": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Canaletes Fountain, La Rambla",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Poliorama Theatre, La Rambla (1, 129 m)",
+    "Catalunya metro station (1, 58 m)"
+   ]
+  },
+  {
+   "place": "Portal de l’Àngel",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Telefónica building, Plaça de Catalunya (2, 138 m)"
+   ]
+  },
+  {
+   "place": "Park Güell main entrance",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Park Güell (1, 115 m)"
+   ]
+  },
+  {
+   "place": "Barceloneta metro station",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Barceloneta district (area) (1, 35 m)"
+   ]
+  },
+  {
+   "place": "Santa Maria del Mar basilica",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Fossar de les Moreres memorial (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Ciutadella Park",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Parliament of Catalonia, Ciutadella Park (1, 103 m)"
+   ]
+  },
+  {
+   "place": "Poliorama Theatre, La Rambla",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Canaletes Fountain, La Rambla (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Carrer de Sant Pere més Baix",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Palau de la Música Catalana concert hall (3, 73 m)"
+   ]
+  },
+  {
+   "place": "Park Güell",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Park Güell main entrance (1, 115 m)"
+   ]
+  },
+  {
+   "place": "Barcelona Cathedral square (Pla de la Seu)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Gothic Quarter (area) (3, 96 m)"
+   ]
+  },
+  {
+   "place": "Fossar de les Moreres memorial",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Santa Maria del Mar basilica (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Catalunya metro station",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Canaletes Fountain, La Rambla (1, 58 m)",
+    "Plaça de Catalunya (5, 105 m)",
+    "Telefónica building, Plaça de Catalunya (2, 113 m)"
+   ]
+  },
+  {
+   "place": "Parliament of Catalonia, Ciutadella Park",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Ciutadella Park (1, 103 m)"
+   ]
+  },
+  {
+   "place": "Barceloneta district (area)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Barceloneta metro station (1, 35 m)"
+   ]
+  }
+ ]
+}

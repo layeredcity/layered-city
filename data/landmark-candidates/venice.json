@@ -1,0 +1,630 @@
+{
+ "city": "Venice",
+ "candidates": [
+  {
+   "place": "St Mark’s Square",
+   "stories": 5,
+   "types": {
+    "audiotour": 2,
+    "movie": 1,
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Doge’s Palace, Piazzetta San Marco (1, 135 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 137 m)",
+    "St Mark’s Basilica (2, 72 m)",
+    "Doge’s Palace, Piombi prison cells (1, 144 m)",
+    "Doge’s Palace (1, 137 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 95 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 140 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 49 m)"
+   ]
+  },
+  {
+   "place": "Rialto Bridge",
+   "stories": 4,
+   "types": {
+    "audiotour": 2,
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Campo San Bartolomeo (1, 83 m)",
+    "Cantina Do Mori bàcaro, Rialto (1, 144 m)"
+   ]
+  },
+  {
+   "place": "Teatro La Fenice opera house",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Grand Hotel des Bains, Lido di Venezia",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Grand Hotel des Bains, Lido (1, 30 m)"
+   ]
+  },
+  {
+   "place": "Corte del Milion, Marco Polo’s family home",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Campiello dei Miracoli, by Santa Maria dei Miracoli church (1, 113 m)"
+   ]
+  },
+  {
+   "place": "St Mark’s Basilica",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Bridge of Sighs (1, 126 m)",
+    "St Mark’s Square (5, 72 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 125 m)",
+    "Doge’s Palace, Piombi prison cells (1, 129 m)",
+    "Doge’s Palace (1, 125 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 62 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 139 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 25 m)"
+   ]
+  },
+  {
+   "place": "Scuola Grande di San Rocco",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Frari basilica, Monteverdi’s tomb (1, 56 m)",
+    "Frari church (Santa Maria Gloriosa dei Frari) (1, 96 m)"
+   ]
+  },
+  {
+   "place": "Gallerie dell’Accademia art museum",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Grand Canal at the Accademia Bridge (1, 86 m)",
+    "Accademia Bridge (Ponte dell’Accademia) (1, 93 m)"
+   ]
+  },
+  {
+   "place": "Frari basilica, Monteverdi’s tomb",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Scuola Grande di San Rocco (2, 56 m)",
+    "Frari church (Santa Maria Gloriosa dei Frari) (1, 41 m)"
+   ]
+  },
+  {
+   "place": "San Barnaba church",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Campo Santa Margherita, Dorsoduro (1, 141 m)",
+    "Campo San Barnaba (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Pietà church, Riva degli Schiavoni",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "La Pietà church, Riva degli Schiavoni (1, 59 m)"
+   ]
+  },
+  {
+   "place": "Grand Canal at the Accademia Bridge",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Accademia Bridge (Ponte dell’Accademia) (1, 11 m)",
+    "Palazzo Barbaro on the Grand Canal (1, 79 m)",
+    "Gallerie dell’Accademia art museum (2, 86 m)"
+   ]
+  },
+  {
+   "place": "Ospedale Civile city hospital, Scuola Grande di San Marco",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Campo Santi Giovanni e Paolo (1, 56 m)",
+    "Scuola Grande di San Marco (1, 33 m)"
+   ]
+  },
+  {
+   "place": "Bacino di San Marco, site of the 1989 Pink Floyd floating stage",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Doge’s Palace, Piazzetta San Marco (1, 123 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 150 m)"
+   ]
+  },
+  {
+   "place": "Bridge of Sighs",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Doge’s Palace, Piazzetta San Marco (1, 113 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 59 m)",
+    "St Mark’s Basilica (2, 126 m)",
+    "Doge’s Palace, Piombi prison cells (1, 54 m)",
+    "Doge’s Palace (1, 59 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 71 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 82 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Doge’s Palace, Piazzetta San Marco",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Bacino di San Marco, site of the 1989 Pink Floyd floating stage (1, 123 m)",
+    "Bridge of Sighs (1, 113 m)",
+    "St Mark’s Square (5, 135 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 54 m)",
+    "Doge’s Palace, Piombi prison cells (1, 59 m)",
+    "Doge’s Palace (1, 54 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 100 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 32 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 134 m)"
+   ]
+  },
+  {
+   "place": "Naval History Museum (Museo Storico Navale)",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Museo Storico Navale, naval history museum (1, 136 m)"
+   ]
+  },
+  {
+   "place": "Campo San Geremia",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Ponte delle Guglie bridge (1, 101 m)"
+   ]
+  },
+  {
+   "place": "Campo San Bartolomeo",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Rialto Bridge (4, 83 m)"
+   ]
+  },
+  {
+   "place": "Ponte delle Guglie bridge",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Campo San Geremia (1, 101 m)",
+    "Campo del Ghetto Nuovo, Jewish Ghetto (1, 114 m)",
+    "Campo del Ghetto Novo (1, 121 m)"
+   ]
+  },
+  {
+   "place": "Accademia Bridge (Ponte dell’Accademia)",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Grand Canal at the Accademia Bridge (1, 11 m)",
+    "Palazzo Barbaro on the Grand Canal (1, 78 m)",
+    "Gallerie dell’Accademia art museum (2, 93 m)"
+   ]
+  },
+  {
+   "place": "Campo Santi Giovanni e Paolo",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Ospedale Civile city hospital, Scuola Grande di San Marco (1, 56 m)",
+    "Scuola Grande di San Marco (1, 77 m)"
+   ]
+  },
+  {
+   "place": "Campo del Ghetto Nuovo, Jewish Ghetto",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Ponte delle Guglie bridge (1, 114 m)",
+    "Jewish Ghetto, Campo del Ghetto Nuovo (1, 78 m)",
+    "Campo del Ghetto Nuovo (1, 78 m)",
+    "Campo del Ghetto Novo (1, 14 m)"
+   ]
+  },
+  {
+   "place": "Doge’s Palace and the Piombi prison cells",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Bridge of Sighs (1, 59 m)",
+    "St Mark’s Square (5, 137 m)",
+    "Doge’s Palace, Piazzetta San Marco (1, 54 m)",
+    "St Mark’s Basilica (2, 125 m)",
+    "Doge’s Palace, Piombi prison cells (1, 8 m)",
+    "Doge’s Palace (1, 0 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 64 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 24 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 116 m)"
+   ]
+  },
+  {
+   "place": "Rialto fish market (Pescheria)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Ca’ d’Oro palazzo on the Grand Canal (1, 146 m)",
+    "Bacari wine bars near the Rialto market (1, 56 m)",
+    "Cantina Do Mori bàcaro, Rialto (1, 60 m)"
+   ]
+  },
+  {
+   "place": "Campo Santa Margherita, Dorsoduro",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "San Barnaba church (1, 141 m)",
+    "Campo San Barnaba (1, 141 m)"
+   ]
+  },
+  {
+   "place": "Arsenale shipyard gate (Porta Magna)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Porta Magna, Venetian Arsenal (1, 14 m)"
+   ]
+  },
+  {
+   "place": "Torcello Cathedral, Santa Maria Assunta",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Torcello island (1, 37 m)",
+    "Santa Maria Assunta cathedral, Torcello (1, 56 m)"
+   ]
+  },
+  {
+   "place": "Ca’ d’Oro palazzo on the Grand Canal",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Rialto fish market (Pescheria) (1, 146 m)"
+   ]
+  },
+  {
+   "place": "Campiello dei Miracoli, by Santa Maria dei Miracoli church",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Corte del Milion, Marco Polo’s family home (2, 113 m)"
+   ]
+  },
+  {
+   "place": "Campo San Barnaba",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "San Barnaba church (1, 0 m)",
+    "Campo Santa Margherita, Dorsoduro (1, 141 m)"
+   ]
+  },
+  {
+   "place": "Grand Hotel des Bains, Lido",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Grand Hotel des Bains, Lido di Venezia (3, 30 m)"
+   ]
+  },
+  {
+   "place": "Palazzo Barbaro on the Grand Canal",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Grand Canal at the Accademia Bridge (1, 79 m)",
+    "Accademia Bridge (Ponte dell’Accademia) (1, 78 m)"
+   ]
+  },
+  {
+   "place": "Doge’s Palace, Piombi prison cells",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Bridge of Sighs (1, 54 m)",
+    "St Mark’s Square (5, 144 m)",
+    "Doge’s Palace, Piazzetta San Marco (1, 59 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 8 m)",
+    "St Mark’s Basilica (2, 129 m)",
+    "Doge’s Palace (1, 8 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 68 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 27 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 122 m)"
+   ]
+  },
+  {
+   "place": "Jewish Ghetto, Campo del Ghetto Nuovo",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Campo del Ghetto Nuovo, Jewish Ghetto (1, 78 m)",
+    "Campo del Ghetto Nuovo (1, 8 m)",
+    "Campo del Ghetto Novo (1, 69 m)"
+   ]
+  },
+  {
+   "place": "Torcello island",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Torcello Cathedral, Santa Maria Assunta (1, 37 m)",
+    "Santa Maria Assunta cathedral, Torcello (1, 32 m)"
+   ]
+  },
+  {
+   "place": "Scuola Grande di San Marco",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Ospedale Civile city hospital, Scuola Grande di San Marco (1, 33 m)",
+    "Campo Santi Giovanni e Paolo (1, 77 m)"
+   ]
+  },
+  {
+   "place": "Campo del Ghetto Nuovo",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Campo del Ghetto Nuovo, Jewish Ghetto (1, 78 m)",
+    "Jewish Ghetto, Campo del Ghetto Nuovo (1, 8 m)",
+    "Campo del Ghetto Novo (1, 67 m)"
+   ]
+  },
+  {
+   "place": "Bacari wine bars near the Rialto market",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Rialto fish market (Pescheria) (1, 56 m)",
+    "Cantina Do Mori bàcaro, Rialto (1, 23 m)"
+   ]
+  },
+  {
+   "place": "Doge’s Palace",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Bridge of Sighs (1, 59 m)",
+    "St Mark’s Square (5, 137 m)",
+    "Doge’s Palace, Piazzetta San Marco (1, 54 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 0 m)",
+    "St Mark’s Basilica (2, 125 m)",
+    "Doge’s Palace, Piombi prison cells (1, 8 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 64 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 24 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 116 m)"
+   ]
+  },
+  {
+   "place": "Tetrarchs sculpture, St Mark’s Basilica",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Bridge of Sighs (1, 71 m)",
+    "St Mark’s Square (5, 95 m)",
+    "Doge’s Palace, Piazzetta San Marco (1, 100 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 64 m)",
+    "St Mark’s Basilica (2, 62 m)",
+    "Doge’s Palace, Piombi prison cells (1, 68 m)",
+    "Doge’s Palace (1, 64 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 81 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 59 m)"
+   ]
+  },
+  {
+   "place": "Frari church (Santa Maria Gloriosa dei Frari)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Frari basilica, Monteverdi’s tomb (1, 41 m)",
+    "Scuola Grande di San Rocco (2, 96 m)"
+   ]
+  },
+  {
+   "place": "Cantina Do Mori bàcaro, Rialto",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Rialto Bridge (4, 144 m)",
+    "Rialto fish market (Pescheria) (1, 60 m)",
+    "Bacari wine bars near the Rialto market (1, 23 m)"
+   ]
+  },
+  {
+   "place": "Museo Storico Navale, naval history museum",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Naval History Museum (Museo Storico Navale) (1, 136 m)"
+   ]
+  },
+  {
+   "place": "La Pietà church, Riva degli Schiavoni",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Pietà church, Riva degli Schiavoni (1, 59 m)"
+   ]
+  },
+  {
+   "place": "Porta Magna, Venetian Arsenal",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Arsenale shipyard gate (Porta Magna) (1, 14 m)"
+   ]
+  },
+  {
+   "place": "Campo del Ghetto Novo",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Ponte delle Guglie bridge (1, 121 m)",
+    "Campo del Ghetto Nuovo, Jewish Ghetto (1, 14 m)",
+    "Jewish Ghetto, Campo del Ghetto Nuovo (1, 69 m)",
+    "Campo del Ghetto Nuovo (1, 67 m)"
+   ]
+  },
+  {
+   "place": "Hall of the Great Council, Doge’s Palace",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Bacino di San Marco, site of the 1989 Pink Floyd floating stage (1, 150 m)",
+    "Bridge of Sighs (1, 82 m)",
+    "St Mark’s Square (5, 140 m)",
+    "Doge’s Palace, Piazzetta San Marco (1, 32 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 24 m)",
+    "St Mark’s Basilica (2, 139 m)",
+    "Doge’s Palace, Piombi prison cells (1, 27 m)",
+    "Doge’s Palace (1, 24 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 81 m)",
+    "Horses of St Mark, St Mark’s Basilica (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Horses of St Mark, St Mark’s Basilica",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Bridge of Sighs (1, 129 m)",
+    "St Mark’s Square (5, 49 m)",
+    "Doge’s Palace, Piazzetta San Marco (1, 134 m)",
+    "Doge’s Palace and the Piombi prison cells (1, 116 m)",
+    "St Mark’s Basilica (2, 25 m)",
+    "Doge’s Palace, Piombi prison cells (1, 122 m)",
+    "Doge’s Palace (1, 116 m)",
+    "Tetrarchs sculpture, St Mark’s Basilica (1, 59 m)",
+    "Hall of the Great Council, Doge’s Palace (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Santa Maria Assunta cathedral, Torcello",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Torcello Cathedral, Santa Maria Assunta (1, 56 m)",
+    "Torcello island (1, 32 m)"
+   ]
+  }
+ ]
+}

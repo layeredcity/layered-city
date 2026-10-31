@@ -1,0 +1,270 @@
+{
+ "city": "Kraków",
+ "candidates": [
+  {
+   "place": "Main Market Square (Rynek Główny)",
+   "stories": 10,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "music": 1,
+    "movie": 1,
+    "podcast": 3,
+    "video": 3
+   },
+   "near_within_150m": [
+    "St Mary’s Basilica (2, 148 m)",
+    "Piwnica pod Baranami cabaret (2, 125 m)",
+    "Cloth Hall (Sukiennice) (1, 27 m)",
+    "Adam Mickiewicz Monument, Main Market Square (1, 90 m)",
+    "Rynek Underground museum (1, 50 m)"
+   ]
+  },
+  {
+   "place": "Kazimierz district (area)",
+   "stories": 4,
+   "types": {
+    "audiotour": 1,
+    "book": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Central Square (Plac Centralny), Nowa Huta",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Mary’s Basilica",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Main Market Square (Rynek Główny) (10, 148 m)",
+    "U Muniaka jazz club (1, 112 m)",
+    "Adam Mickiewicz Monument, Main Market Square (1, 68 m)"
+   ]
+  },
+  {
+   "place": "Oskar Schindler’s Enamel Factory museum",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Krzysztof Penderecki Academy of Music",
+   "stories": 2,
+   "types": {
+    "music": 2
+   },
+   "near_within_150m": [
+    "U Muniaka jazz club (1, 108 m)"
+   ]
+  },
+  {
+   "place": "Piwnica pod Baranami cabaret",
+   "stories": 2,
+   "types": {
+    "music": 2
+   },
+   "near_within_150m": [
+    "Main Market Square (Rynek Główny) (10, 125 m)",
+    "Collegium Maius, Jagiellonian University (1, 121 m)",
+    "Cloth Hall (Sukiennice) (1, 100 m)",
+    "Rynek Underground museum (1, 97 m)"
+   ]
+  },
+  {
+   "place": "Szeroka Street",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Mordechai Gebirtig’s house, Kazimierz (1, 112 m)"
+   ]
+  },
+  {
+   "place": "Czartoryski Museum",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Jama Michalika café (1, 67 m)"
+   ]
+  },
+  {
+   "place": "Writers’ House, Krupnicza Street",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Former Płaszów camp memorial site",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Wieliczka Salt Mine, Wieliczka",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Under the Eagle Pharmacy museum, Ghetto Heroes Square",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Ghetto Heroes Square (Plac Bohaterów Getta) (1, 110 m)"
+   ]
+  },
+  {
+   "place": "Collegium Novum, Jagiellonian University",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Collegium Maius, Jagiellonian University (1, 106 m)"
+   ]
+  },
+  {
+   "place": "U Muniaka jazz club",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "St Mary’s Basilica (2, 112 m)",
+    "Krzysztof Penderecki Academy of Music (2, 108 m)"
+   ]
+  },
+  {
+   "place": "Jama Michalika café",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Czartoryski Museum (2, 67 m)"
+   ]
+  },
+  {
+   "place": "Mordechai Gebirtig’s house, Kazimierz",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Szeroka Street (2, 112 m)"
+   ]
+  },
+  {
+   "place": "Ghetto Heroes Square (Plac Bohaterów Getta)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Under the Eagle Pharmacy museum, Ghetto Heroes Square (1, 110 m)"
+   ]
+  },
+  {
+   "place": "Collegium Maius, Jagiellonian University",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Collegium Novum, Jagiellonian University (1, 106 m)",
+    "Piwnica pod Baranami cabaret (2, 121 m)"
+   ]
+  },
+  {
+   "place": "Cloth Hall (Sukiennice)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Main Market Square (Rynek Główny) (10, 27 m)",
+    "Piwnica pod Baranami cabaret (2, 100 m)",
+    "Adam Mickiewicz Monument, Main Market Square (1, 109 m)",
+    "Rynek Underground museum (1, 47 m)"
+   ]
+  },
+  {
+   "place": "Adam Mickiewicz Monument, Main Market Square",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Main Market Square (Rynek Główny) (10, 90 m)",
+    "St Mary’s Basilica (2, 68 m)",
+    "Cloth Hall (Sukiennice) (1, 109 m)",
+    "Rynek Underground museum (1, 139 m)"
+   ]
+  },
+  {
+   "place": "Wawel Cathedral",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sigismund Tower, Wawel Cathedral (1, 40 m)"
+   ]
+  },
+  {
+   "place": "Sigismund Tower, Wawel Cathedral",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Wawel Cathedral (1, 40 m)"
+   ]
+  },
+  {
+   "place": "Rynek Underground museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Main Market Square (Rynek Główny) (10, 50 m)",
+    "Piwnica pod Baranami cabaret (2, 97 m)",
+    "Cloth Hall (Sukiennice) (1, 47 m)",
+    "Adam Mickiewicz Monument, Main Market Square (1, 139 m)"
+   ]
+  }
+ ]
+}

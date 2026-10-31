@@ -1,0 +1,457 @@
+{
+ "city": "Lisbon",
+ "candidates": [
+  {
+   "place": "Largo do Carmo square",
+   "stories": 5,
+   "types": {
+    "movie": 1,
+    "podcast": 3,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Carmo Convent ruins (1, 3 m)",
+    "Luvaria Ulisses glove shop (1, 89 m)"
+   ]
+  },
+  {
+   "place": "Praça do Comércio (Commerce Square)",
+   "stories": 4,
+   "types": {
+    "audiotour": 2,
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Rua Augusta Arch (1, 129 m)",
+    "Site of the Casa dos Escravos, near Praça do Comércio (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Praça dos Restauradores",
+   "stories": 4,
+   "types": {
+    "music": 4
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "São Jorge Castle (Castelo de São Jorge)",
+   "stories": 3,
+   "types": {
+    "audiotour": 2,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Rossio square",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Largo de São Domingos (1506 massacre memorial) (1, 111 m)",
+    "Hospital de Bonecas doll hospital (1, 58 m)",
+    "São Domingos Church (1, 85 m)",
+    "A Ginjinha bar, Largo de São Domingos (1, 89 m)",
+    "Confeitaria Nacional pastry shop (1, 112 m)"
+   ]
+  },
+  {
+   "place": "Praça Luís de Camões",
+   "stories": 3,
+   "types": {
+    "video": 2,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "BAHR restaurant, Bairro Alto Hotel (1, 49 m)"
+   ]
+  },
+  {
+   "place": "Fado Museum (Museu do Fado)",
+   "stories": 3,
+   "types": {
+    "podcast": 1,
+    "music": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Alfama district (area) (2, 136 m)"
+   ]
+  },
+  {
+   "place": "A Brasileira café, Chiado",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "BAHR restaurant, Bairro Alto Hotel (1, 125 m)",
+    "Belcanto restaurant (1, 83 m)",
+    "Alma restaurant, Chiado (1, 99 m)",
+    "A Vida Portuguesa shop, Chiado (1, 111 m)"
+   ]
+  },
+  {
+   "place": "National Pantheon (Santa Engrácia Church)",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Feira da Ladra flea market, Campo de Santa Clara (1, 90 m)"
+   ]
+  },
+  {
+   "place": "Santa Luzia viewpoint",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Alfama district (area) (2, 98 m)"
+   ]
+  },
+  {
+   "place": "25 de Abril Bridge",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Mercado da Ribeira (Time Out Market)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pap’Açorda restaurant, Mercado da Ribeira (1, 53 m)"
+   ]
+  },
+  {
+   "place": "Jerónimos Monastery",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bairro Alto district (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Café Luso fado house, Bairro Alto (1, 102 m)"
+   ]
+  },
+  {
+   "place": "Monument to the Discoveries",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Alfama district (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Santa Luzia viewpoint (2, 98 m)",
+    "Fado Museum (Museu do Fado) (3, 136 m)"
+   ]
+  },
+  {
+   "place": "Mouraria district (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Martim Moniz square (1, 74 m)"
+   ]
+  },
+  {
+   "place": "Maritime Museum (Museu de Marinha)",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Gulbenkian Museum",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Pink Street (Rua Nova do Carvalho)",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Cais do Sodré (area) (1, 70 m)"
+   ]
+  },
+  {
+   "place": "Martim Moniz square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Mouraria district (area) (2, 74 m)"
+   ]
+  },
+  {
+   "place": "Rua Augusta Arch",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Praça do Comércio (Commerce Square) (4, 129 m)",
+    "Café Martinho da Arcada (1, 88 m)"
+   ]
+  },
+  {
+   "place": "Carmo Convent ruins",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Largo do Carmo square (5, 3 m)",
+    "Luvaria Ulisses glove shop (1, 86 m)"
+   ]
+  },
+  {
+   "place": "Cais do Sodré (area)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Pink Street (Rua Nova do Carvalho) (2, 70 m)"
+   ]
+  },
+  {
+   "place": "Largo de São Domingos (1506 massacre memorial)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Rossio square (3, 111 m)",
+    "Hospital de Bonecas doll hospital (1, 113 m)",
+    "São Domingos Church (1, 38 m)",
+    "A Ginjinha bar, Largo de São Domingos (1, 22 m)"
+   ]
+  },
+  {
+   "place": "BAHR restaurant, Bairro Alto Hotel",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "A Brasileira café, Chiado (2, 125 m)",
+    "Praça Luís de Camões (3, 49 m)"
+   ]
+  },
+  {
+   "place": "Belcanto restaurant",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "A Brasileira café, Chiado (2, 83 m)",
+    "Alma restaurant, Chiado (1, 28 m)",
+    "A Vida Portuguesa shop, Chiado (1, 35 m)"
+   ]
+  },
+  {
+   "place": "Feira da Ladra flea market, Campo de Santa Clara",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "National Pantheon (Santa Engrácia Church) (2, 90 m)"
+   ]
+  },
+  {
+   "place": "Alma restaurant, Chiado",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "A Brasileira café, Chiado (2, 99 m)",
+    "Belcanto restaurant (1, 28 m)",
+    "A Vida Portuguesa shop, Chiado (1, 13 m)"
+   ]
+  },
+  {
+   "place": "Pastéis de Belém bakery",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Beco do Chão Salgado column, Belém (1, 54 m)"
+   ]
+  },
+  {
+   "place": "Hospital de Bonecas doll hospital",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Rossio square (3, 58 m)",
+    "Largo de São Domingos (1506 massacre memorial) (1, 113 m)",
+    "São Domingos Church (1, 76 m)",
+    "A Ginjinha bar, Largo de São Domingos (1, 96 m)",
+    "Confeitaria Nacional pastry shop (1, 120 m)"
+   ]
+  },
+  {
+   "place": "Café Martinho da Arcada",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Rua Augusta Arch (1, 88 m)"
+   ]
+  },
+  {
+   "place": "Café Luso fado house, Bairro Alto",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Bairro Alto district (area) (2, 102 m)"
+   ]
+  },
+  {
+   "place": "A Vida Portuguesa shop, Chiado",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "A Brasileira café, Chiado (2, 111 m)",
+    "Belcanto restaurant (1, 35 m)",
+    "Alma restaurant, Chiado (1, 13 m)"
+   ]
+  },
+  {
+   "place": "Luvaria Ulisses glove shop",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Carmo Convent ruins (1, 86 m)",
+    "Largo do Carmo square (5, 89 m)"
+   ]
+  },
+  {
+   "place": "São Domingos Church",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Rossio square (3, 85 m)",
+    "Largo de São Domingos (1506 massacre memorial) (1, 38 m)",
+    "Hospital de Bonecas doll hospital (1, 76 m)",
+    "A Ginjinha bar, Largo de São Domingos (1, 28 m)"
+   ]
+  },
+  {
+   "place": "A Ginjinha bar, Largo de São Domingos",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Rossio square (3, 89 m)",
+    "Largo de São Domingos (1506 massacre memorial) (1, 22 m)",
+    "Hospital de Bonecas doll hospital (1, 96 m)",
+    "São Domingos Church (1, 28 m)"
+   ]
+  },
+  {
+   "place": "Beco do Chão Salgado column, Belém",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Pastéis de Belém bakery (1, 54 m)"
+   ]
+  },
+  {
+   "place": "Site of the Casa dos Escravos, near Praça do Comércio",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Praça do Comércio (Commerce Square) (4, 135 m)"
+   ]
+  },
+  {
+   "place": "Confeitaria Nacional pastry shop",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Rossio square (3, 112 m)",
+    "Hospital de Bonecas doll hospital (1, 120 m)"
+   ]
+  },
+  {
+   "place": "Pap’Açorda restaurant, Mercado da Ribeira",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Mercado da Ribeira (Time Out Market) (2, 53 m)"
+   ]
+  }
+ ]
+}

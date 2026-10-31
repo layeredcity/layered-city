@@ -1,0 +1,201 @@
+{
+ "city": "Zurich",
+ "candidates": [
+  {
+   "place": "Paradeplatz",
+   "stories": 4,
+   "types": {
+    "audiotour": 1,
+    "book": 2,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Cabaret Voltaire",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Spiegelgasse 14 (Lenin’s flat) (1, 38 m)",
+    "Niederdorf old town (area) (2, 70 m)",
+    "Zurich Town Hall (Rathaus) (1, 134 m)"
+   ]
+  },
+  {
+   "place": "Langstrasse, Kreis 4 (area)",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Helvetiaplatz (1, 144 m)"
+   ]
+  },
+  {
+   "place": "Kunsthaus Zürich art museum",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bürkliplatz lakefront",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Grossmünster church",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Burghölzli psychiatric hospital",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Rote Fabrik culture centre",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Niederdorf old town (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Spiegelgasse 14 (Lenin’s flat) (1, 84 m)",
+    "Cabaret Voltaire (3, 70 m)",
+    "Zurich Town Hall (Rathaus) (1, 130 m)"
+   ]
+  },
+  {
+   "place": "Zurich Airport, Kloten",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Sechseläutenplatz square",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Zurich Opera House (1, 45 m)"
+   ]
+  },
+  {
+   "place": "Spiegelgasse 14 (Lenin’s flat)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Cabaret Voltaire (3, 38 m)",
+    "Niederdorf old town (area) (2, 84 m)"
+   ]
+  },
+  {
+   "place": "Helvetiaplatz",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Langstrasse, Kreis 4 (area) (3, 144 m)"
+   ]
+  },
+  {
+   "place": "Stadthaus Zürich",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Fraumünster church (1, 67 m)"
+   ]
+  },
+  {
+   "place": "Zurich Opera House",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Sechseläutenplatz square (2, 45 m)"
+   ]
+  },
+  {
+   "place": "Zurich Main Station (Hauptbahnhof)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Swiss National Museum (1, 111 m)"
+   ]
+  },
+  {
+   "place": "Zurich Town Hall (Rathaus)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Cabaret Voltaire (3, 134 m)",
+    "Niederdorf old town (area) (2, 130 m)"
+   ]
+  },
+  {
+   "place": "Fraumünster church",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Stadthaus Zürich (1, 67 m)"
+   ]
+  },
+  {
+   "place": "Swiss National Museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Zurich Main Station (Hauptbahnhof) (1, 111 m)"
+   ]
+  }
+ ]
+}

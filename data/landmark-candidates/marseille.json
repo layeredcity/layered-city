@@ -1,0 +1,110 @@
+{
+ "city": "Marseille",
+ "candidates": [
+  {
+   "place": "Old Port (Vieux-Port)",
+   "stories": 11,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "movie": 3,
+    "podcast": 5,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Le Panier (area)",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "movie": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "La Canebière avenue",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Noailles district (area) (1, 74 m)",
+    "Noailles market (Marché des Capucins) (1, 52 m)"
+   ]
+  },
+  {
+   "place": "L’Estaque (area)",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "video": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Château d’If island fortress",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Cité Radieuse (Unité d’Habitation)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Noailles district (area)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "La Canebière avenue (3, 74 m)",
+    "Noailles market (Marché des Capucins) (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Noailles market (Marché des Capucins)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Noailles district (area) (1, 34 m)",
+    "La Canebière avenue (3, 52 m)"
+   ]
+  },
+  {
+   "place": "Former Hôtel Splendide, Boulevard d’Athènes",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "25 Rue Thubaneau (Marseillaise plaque) (1, 82 m)"
+   ]
+  },
+  {
+   "place": "25 Rue Thubaneau (Marseillaise plaque)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Former Hôtel Splendide, Boulevard d’Athènes (1, 82 m)"
+   ]
+  }
+ ]
+}

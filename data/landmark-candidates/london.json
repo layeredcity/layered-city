@@ -1,0 +1,956 @@
+{
+ "city": "London",
+ "candidates": [
+  {
+   "place": "National Gallery",
+   "stories": 30,
+   "types": {
+    "video": 30
+   },
+   "near_within_150m": [
+    "Trafalgar Square (2, 84 m)",
+    "Imperial measures plaques, Trafalgar Square (1, 66 m)",
+    "Charles I statue, Trafalgar Square (1, 77 m)",
+    "National Portrait Gallery (1, 60 m)"
+   ]
+  },
+  {
+   "place": "British Museum",
+   "stories": 19,
+   "types": {
+    "book": 1,
+    "video": 16,
+    "podcast": 1,
+    "audiotour": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Tate Britain gallery",
+   "stories": 19,
+   "types": {
+    "video": 19
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Courtauld Gallery, Somerset House",
+   "stories": 5,
+   "types": {
+    "video": 5
+   },
+   "near_within_150m": [
+    "Victoria Embankment (1, 119 m)"
+   ]
+  },
+  {
+   "place": "Monument to the Great Fire of London",
+   "stories": 4,
+   "types": {
+    "audiotour": 2,
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pudding Lane (1, 17 m)"
+   ]
+  },
+  {
+   "place": "Palace of Westminster (Houses of Parliament)",
+   "stories": 4,
+   "types": {
+    "movie": 1,
+    "video": 3
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Paul’s Cathedral",
+   "stories": 3,
+   "types": {
+    "audiotour": 2,
+    "video": 1
+   },
+   "near_within_150m": [
+    "City of London (area) (1, 30 m)"
+   ]
+  },
+  {
+   "place": "Tate Modern gallery",
+   "stories": 3,
+   "types": {
+    "video": 3
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Farringdon station",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Tower of London",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Yeoman Warders’ Club, Tower of London (1, 97 m)"
+   ]
+  },
+  {
+   "place": "Green Park station",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Covent Garden Market",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Covent Garden station (1, 116 m)",
+    "Site of the Africa Centre, King Street (1, 49 m)"
+   ]
+  },
+  {
+   "place": "London Bridge station",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "John Snow pump, Broadwick Street",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Phonica Records shop, Poland Street (1, 138 m)",
+    "Soho (area) (1, 64 m)"
+   ]
+  },
+  {
+   "place": "430 King’s Road (McLaren and Westwood’s shop)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Parliament Square",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Gold post box near Westminster Abbey (1, 63 m)"
+   ]
+  },
+  {
+   "place": "Gay’s the Word bookshop",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Camden Town (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Trafalgar Square",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Charing Cross (1, 90 m)",
+    "National Gallery (30, 84 m)",
+    "Imperial measures plaques, Trafalgar Square (1, 19 m)",
+    "Charles I statue, Trafalgar Square (1, 21 m)",
+    "National Portrait Gallery (1, 136 m)"
+   ]
+  },
+  {
+   "place": "Shakespeare’s Globe theatre",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Bankside riverfront (area) (1, 104 m)"
+   ]
+  },
+  {
+   "place": "Roman wall, Tower Hill",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Tower Hill (1, 141 m)"
+   ]
+  },
+  {
+   "place": "Royal Albert Hall",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Buckingham Palace",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "British Library",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bow (area)",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Beigel Bake bakery, Brick Lane",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Victoria and Albert Museum (V&A)",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Cast Courts, Victoria and Albert Museum (1, 78 m)"
+   ]
+  },
+  {
+   "place": "Thames Barrier",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Dulwich Picture Gallery",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Pudding Lane",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Monument to the Great Fire of London (4, 17 m)"
+   ]
+  },
+  {
+   "place": "St Paul’s station",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "City of London (area) (1, 142 m)"
+   ]
+  },
+  {
+   "place": "The Ritz hotel, Piccadilly",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Itsu restaurant, Piccadilly (1, 60 m)",
+    "Beau Brummell statue, Jermyn Street (1, 126 m)",
+    "Burlington Arcade (1, 94 m)"
+   ]
+  },
+  {
+   "place": "TKTS booth, Leicester Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "National Portrait Gallery (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Marble Arch",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Tyburn Tree memorial, Marble Arch (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Covent Garden station",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Covent Garden Market (2, 116 m)",
+    "Site of the Africa Centre, King Street (1, 111 m)"
+   ]
+  },
+  {
+   "place": "Tower Hill",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Roman wall, Tower Hill (2, 141 m)"
+   ]
+  },
+  {
+   "place": "City of London (area)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "St Paul’s station (1, 142 m)",
+    "St Paul’s Cathedral (3, 30 m)"
+   ]
+  },
+  {
+   "place": "Baker Street station",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "221b Baker Street (Sherlock Holmes Museum) (1, 130 m)"
+   ]
+  },
+  {
+   "place": "Victoria Embankment",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Savoy Chapel (1, 143 m)",
+    "Courtauld Gallery, Somerset House (5, 119 m)"
+   ]
+  },
+  {
+   "place": "Dr Johnson’s House, Gough Square",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Fleet Street (1, 99 m)",
+    "Ye Olde Cheshire Cheese pub, Fleet Street (1, 114 m)"
+   ]
+  },
+  {
+   "place": "Floris perfumers, Jermyn Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Beau Brummell statue, Jermyn Street (1, 119 m)",
+    "Fortnum & Mason department store (1, 76 m)"
+   ]
+  },
+  {
+   "place": "221b Baker Street (Sherlock Holmes Museum)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Baker Street station (1, 130 m)"
+   ]
+  },
+  {
+   "place": "Bloomberg building",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Mansion House (1, 108 m)",
+    "London Mithraeum (Temple of Mithras), Bloomberg building (1, 44 m)"
+   ]
+  },
+  {
+   "place": "Temple Bar dragon, Fleet Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Temple Church (1, 118 m)"
+   ]
+  },
+  {
+   "place": "Charing Cross",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Trafalgar Square (2, 90 m)",
+    "Imperial measures plaques, Trafalgar Square (1, 107 m)",
+    "Charles I statue, Trafalgar Square (1, 107 m)"
+   ]
+  },
+  {
+   "place": "Piccadilly Circus station",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piccadilly Circus (1, 31 m)"
+   ]
+  },
+  {
+   "place": "Viaduct Tavern pub",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "First public drinking fountain, St Sepulchre’s Church (1, 22 m)"
+   ]
+  },
+  {
+   "place": "Pickering Place",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Lock & Co hatters, St James’s Street (1, 21 m)",
+    "Christie’s auction house, King Street (1, 106 m)"
+   ]
+  },
+  {
+   "place": "Tower Bridge",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Yeoman Warders’ Club, Tower of London (1, 134 m)"
+   ]
+  },
+  {
+   "place": "Imperial measures plaques, Trafalgar Square",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Trafalgar Square (2, 19 m)",
+    "Charing Cross (1, 107 m)",
+    "National Gallery (30, 66 m)",
+    "Charles I statue, Trafalgar Square (1, 23 m)",
+    "National Portrait Gallery (1, 119 m)"
+   ]
+  },
+  {
+   "place": "Tyburn Tree memorial, Marble Arch",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Marble Arch (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Itsu restaurant, Piccadilly",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "The Ritz hotel, Piccadilly (1, 60 m)",
+    "Beau Brummell statue, Jermyn Street (1, 74 m)",
+    "Fortnum & Mason department store (1, 113 m)",
+    "Burlington Arcade (1, 43 m)"
+   ]
+  },
+  {
+   "place": "Aldwych station (disused)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "St Clement Danes church (1, 133 m)"
+   ]
+  },
+  {
+   "place": "Piccadilly Circus",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piccadilly Circus station (1, 31 m)"
+   ]
+  },
+  {
+   "place": "Phonica Records shop, Poland Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "John Snow pump, Broadwick Street (2, 138 m)",
+    "Soho (area) (1, 89 m)"
+   ]
+  },
+  {
+   "place": "Charles I statue, Trafalgar Square",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Trafalgar Square (2, 21 m)",
+    "Charing Cross (1, 107 m)",
+    "National Gallery (30, 77 m)",
+    "Imperial measures plaques, Trafalgar Square (1, 23 m)",
+    "National Portrait Gallery (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Mansion House",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Bloomberg building (1, 108 m)",
+    "London Mithraeum (Temple of Mithras), Bloomberg building (1, 98 m)"
+   ]
+  },
+  {
+   "place": "Lock & Co hatters, St James’s Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pickering Place (1, 21 m)",
+    "Christie’s auction house, King Street (1, 111 m)"
+   ]
+  },
+  {
+   "place": "Gold post box near Westminster Abbey",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Parliament Square (2, 63 m)"
+   ]
+  },
+  {
+   "place": "Fleet Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Dr Johnson’s House, Gough Square (1, 99 m)",
+    "Ye Olde Cheshire Cheese pub, Fleet Street (1, 56 m)"
+   ]
+  },
+  {
+   "place": "Royal Academy of Arts",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Burlington Arcade (1, 125 m)"
+   ]
+  },
+  {
+   "place": "Donmar Warehouse theatre",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Site of the Roxy club, Neal Street (1, 59 m)"
+   ]
+  },
+  {
+   "place": "Temple Church",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Temple Bar dragon, Fleet Street (1, 118 m)"
+   ]
+  },
+  {
+   "place": "Trishna restaurant, Blandford Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Wallace Collection museum, Hertford House (1, 96 m)"
+   ]
+  },
+  {
+   "place": "Sarap restaurant, Brixton Village",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Round Table Books bookshop, Brixton (1, 145 m)"
+   ]
+  },
+  {
+   "place": "Beau Brummell statue, Jermyn Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "The Ritz hotel, Piccadilly (1, 126 m)",
+    "Floris perfumers, Jermyn Street (1, 119 m)",
+    "Itsu restaurant, Piccadilly (1, 74 m)",
+    "Fortnum & Mason department store (1, 65 m)",
+    "Burlington Arcade (1, 88 m)"
+   ]
+  },
+  {
+   "place": "St Clement Danes church",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Aldwych station (disused) (1, 133 m)"
+   ]
+  },
+  {
+   "place": "Savoy Chapel",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Victoria Embankment (1, 143 m)"
+   ]
+  },
+  {
+   "place": "Ye Olde Cheshire Cheese pub, Fleet Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Dr Johnson’s House, Gough Square (1, 114 m)",
+    "Fleet Street (1, 56 m)"
+   ]
+  },
+  {
+   "place": "London Mithraeum (Temple of Mithras), Bloomberg building",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Bloomberg building (1, 44 m)",
+    "Mansion House (1, 98 m)"
+   ]
+  },
+  {
+   "place": "Soho (area)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "John Snow pump, Broadwick Street (2, 64 m)",
+    "Phonica Records shop, Poland Street (1, 89 m)"
+   ]
+  },
+  {
+   "place": "Westminster Abbey",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Henry VII Lady Chapel, Westminster Abbey (1, 11 m)"
+   ]
+  },
+  {
+   "place": "Site of the Africa Centre, King Street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Covent Garden Market (2, 49 m)",
+    "Covent Garden station (1, 111 m)"
+   ]
+  },
+  {
+   "place": "Fortnum & Mason department store",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Floris perfumers, Jermyn Street (1, 76 m)",
+    "Itsu restaurant, Piccadilly (1, 113 m)",
+    "Beau Brummell statue, Jermyn Street (1, 65 m)",
+    "Burlington Arcade (1, 98 m)"
+   ]
+  },
+  {
+   "place": "First public drinking fountain, St Sepulchre’s Church",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Viaduct Tavern pub (1, 22 m)"
+   ]
+  },
+  {
+   "place": "Granary Square, King’s Cross",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Central Saint Martins, Granary Building (1, 75 m)"
+   ]
+  },
+  {
+   "place": "National Portrait Gallery",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "TKTS booth, Leicester Square (1, 127 m)",
+    "Trafalgar Square (2, 136 m)",
+    "National Gallery (30, 60 m)",
+    "Imperial measures plaques, Trafalgar Square (1, 119 m)",
+    "Charles I statue, Trafalgar Square (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Leadenhall Building (Cheesegrater)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Lloyd’s building (1, 85 m)"
+   ]
+  },
+  {
+   "place": "Bankside riverfront (area)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Shakespeare’s Globe theatre (2, 104 m)"
+   ]
+  },
+  {
+   "place": "Central Saint Martins, Granary Building",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Granary Square, King’s Cross (1, 75 m)"
+   ]
+  },
+  {
+   "place": "Tottenham Court Road station",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Site of the Meux Brewery, Tottenham Court Road (1, 11 m)"
+   ]
+  },
+  {
+   "place": "Round Table Books bookshop, Brixton",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sarap restaurant, Brixton Village (1, 145 m)"
+   ]
+  },
+  {
+   "place": "Cast Courts, Victoria and Albert Museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Victoria and Albert Museum (V&A) (2, 78 m)"
+   ]
+  },
+  {
+   "place": "Site of the Roxy club, Neal Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Donmar Warehouse theatre (1, 59 m)"
+   ]
+  },
+  {
+   "place": "Christie’s auction house, King Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pickering Place (1, 106 m)",
+    "Lock & Co hatters, St James’s Street (1, 111 m)"
+   ]
+  },
+  {
+   "place": "Yeoman Warders’ Club, Tower of London",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Tower of London (2, 97 m)",
+    "Tower Bridge (1, 134 m)"
+   ]
+  },
+  {
+   "place": "Burlington Arcade",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "The Ritz hotel, Piccadilly (1, 94 m)",
+    "Itsu restaurant, Piccadilly (1, 43 m)",
+    "Royal Academy of Arts (1, 125 m)",
+    "Beau Brummell statue, Jermyn Street (1, 88 m)",
+    "Fortnum & Mason department store (1, 98 m)"
+   ]
+  },
+  {
+   "place": "Lloyd’s building",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Leadenhall Building (Cheesegrater) (1, 85 m)"
+   ]
+  },
+  {
+   "place": "Wallace Collection museum, Hertford House",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Trishna restaurant, Blandford Street (1, 96 m)"
+   ]
+  },
+  {
+   "place": "Henry VII Lady Chapel, Westminster Abbey",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Westminster Abbey (1, 11 m)"
+   ]
+  },
+  {
+   "place": "Site of the Meux Brewery, Tottenham Court Road",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Tottenham Court Road station (1, 11 m)"
+   ]
+  }
+ ]
+}

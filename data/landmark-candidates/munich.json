@@ -1,0 +1,438 @@
+{
+ "city": "Munich",
+ "candidates": [
+  {
+   "place": "Marienplatz",
+   "stories": 4,
+   "types": {
+    "audiotour": 2,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "St Peter’s Church (Alter Peter) (1, 105 m)"
+   ]
+  },
+  {
+   "place": "Ludwig Maximilian University main building",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Ludwig Maximilian University atrium (1, 16 m)"
+   ]
+  },
+  {
+   "place": "Alte Pinakothek art museum",
+   "stories": 3,
+   "types": {
+    "video": 3
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Cuvilliés Theatre, Residenz palace",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Residenz palace (1, 76 m)"
+   ]
+  },
+  {
+   "place": "Olympic Stadium, Olympiapark",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Olympic Stadium (1, 62 m)"
+   ]
+  },
+  {
+   "place": "Gallery of Beauties, Nymphenburg Palace",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Odeonsplatz",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "audiotour": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hofbräuhaus beer hall",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Site of the Bürgerbräukeller beer hall, Gasteig",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Isartor city gate",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Glyptothek sculpture museum, Königsplatz",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Lenbachhaus art museum (1, 150 m)",
+    "Führerbau, Arcisstraße 12 (1, 146 m)",
+    "Führerbau, now the University of Music and Performing Arts (1, 125 m)"
+   ]
+  },
+  {
+   "place": "Orlando di Lasso statue, Promenadeplatz square",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Kurt Eisner memorial, Kardinal-Faulhaber-Straße (1, 53 m)",
+    "Kurt Eisner memorial, Kardinal-Faulhaber-Strasse (1, 45 m)"
+   ]
+  },
+  {
+   "place": "National Theatre opera house, Max-Joseph-Platz",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "National Theatre opera house (1, 59 m)",
+    "National Theatre (Bavarian State Opera) (1, 25 m)"
+   ]
+  },
+  {
+   "place": "Bavarian State Library, Ludwigstraße",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Bavarian State Library (1, 40 m)"
+   ]
+  },
+  {
+   "place": "Musicland Studios, Arabella high-rise, Bogenhausen",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Arabellahaus, former Musicland Studios (1, 68 m)",
+    "Musicland Studios, Arabella High-Rise (1, 114 m)"
+   ]
+  },
+  {
+   "place": "National Theatre opera house",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "National Theatre opera house, Max-Joseph-Platz (1, 59 m)",
+    "National Theatre (Bavarian State Opera) (1, 39 m)"
+   ]
+  },
+  {
+   "place": "Lenbachhaus art museum",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Glyptothek sculpture museum, Königsplatz (2, 150 m)"
+   ]
+  },
+  {
+   "place": "Hofgarten arcades, site of the 1937 Degenerate Art show",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Hofgarten arcades, Galeriestraße (1, 89 m)"
+   ]
+  },
+  {
+   "place": "Führerbau, now University of Music",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Führerbau, Arcisstraße 12 (1, 37 m)",
+    "Ehrentempel bases, Königsplatz (1, 117 m)",
+    "Führerbau, now the University of Music and Performing Arts (1, 93 m)"
+   ]
+  },
+  {
+   "place": "Connollystraße 31, Olympic Village",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Connollystraße 31, former Olympic Village (1, 58 m)",
+    "Olympic Village, Connollystraße 31 (1, 27 m)"
+   ]
+  },
+  {
+   "place": "Allianz Arena stadium",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "FC Bayern Museum, Allianz Arena (1, 37 m)"
+   ]
+  },
+  {
+   "place": "Kurt Eisner memorial, Kardinal-Faulhaber-Straße",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Orlando di Lasso statue, Promenadeplatz square (1, 53 m)",
+    "Kurt Eisner memorial, Kardinal-Faulhaber-Strasse (1, 13 m)"
+   ]
+  },
+  {
+   "place": "St Peter’s Church (Alter Peter)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Marienplatz (4, 105 m)",
+    "Viktualienmarkt food market (1, 145 m)"
+   ]
+  },
+  {
+   "place": "Arabellahaus, former Musicland Studios",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Musicland Studios, Arabella high-rise, Bogenhausen (1, 68 m)",
+    "Musicland Studios, Arabella High-Rise (1, 63 m)"
+   ]
+  },
+  {
+   "place": "Connollystraße 31, former Olympic Village",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Connollystraße 31, Olympic Village (1, 58 m)",
+    "Olympic Village, Connollystraße 31 (1, 31 m)"
+   ]
+  },
+  {
+   "place": "Olympic Stadium",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Olympic Stadium, Olympiapark (2, 62 m)"
+   ]
+  },
+  {
+   "place": "Ludwig Maximilian University atrium",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Ludwig Maximilian University main building (3, 16 m)"
+   ]
+  },
+  {
+   "place": "Führerbau, Arcisstraße 12",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Führerbau, now University of Music (1, 37 m)",
+    "Ehrentempel bases, Königsplatz (1, 111 m)",
+    "Glyptothek sculpture museum, Königsplatz (2, 146 m)",
+    "Führerbau, now the University of Music and Performing Arts (1, 56 m)"
+   ]
+  },
+  {
+   "place": "FC Bayern Museum, Allianz Arena",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Allianz Arena stadium (1, 37 m)"
+   ]
+  },
+  {
+   "place": "Kurt Eisner memorial, Kardinal-Faulhaber-Strasse",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Orlando di Lasso statue, Promenadeplatz square (1, 45 m)",
+    "Kurt Eisner memorial, Kardinal-Faulhaber-Straße (1, 13 m)"
+   ]
+  },
+  {
+   "place": "Ehrentempel bases, Königsplatz",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Führerbau, now University of Music (1, 117 m)",
+    "Führerbau, Arcisstraße 12 (1, 111 m)",
+    "Führerbau, now the University of Music and Performing Arts (1, 125 m)"
+   ]
+  },
+  {
+   "place": "Olympic Village, Connollystraße 31",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Connollystraße 31, Olympic Village (1, 27 m)",
+    "Connollystraße 31, former Olympic Village (1, 31 m)"
+   ]
+  },
+  {
+   "place": "Eisbach surf wave, Englischer Garten",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Haus der Kunst art museum (1, 149 m)"
+   ]
+  },
+  {
+   "place": "Viktualienmarkt food market",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "St Peter’s Church (Alter Peter) (1, 145 m)"
+   ]
+  },
+  {
+   "place": "Residenz palace",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Cuvilliés Theatre, Residenz palace (2, 76 m)"
+   ]
+  },
+  {
+   "place": "Haus der Kunst art museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Eisbach surf wave, Englischer Garten (1, 149 m)"
+   ]
+  },
+  {
+   "place": "Bavarian State Library",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Bavarian State Library, Ludwigstraße (1, 40 m)"
+   ]
+  },
+  {
+   "place": "Führerbau, now the University of Music and Performing Arts",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Führerbau, now University of Music (1, 93 m)",
+    "Führerbau, Arcisstraße 12 (1, 56 m)",
+    "Ehrentempel bases, Königsplatz (1, 125 m)",
+    "Glyptothek sculpture museum, Königsplatz (2, 125 m)"
+   ]
+  },
+  {
+   "place": "Musicland Studios, Arabella High-Rise",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Musicland Studios, Arabella high-rise, Bogenhausen (1, 114 m)",
+    "Arabellahaus, former Musicland Studios (1, 63 m)"
+   ]
+  },
+  {
+   "place": "Hofgarten arcades, Galeriestraße",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Hofgarten arcades, site of the 1937 Degenerate Art show (1, 89 m)"
+   ]
+  },
+  {
+   "place": "National Theatre (Bavarian State Opera)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "National Theatre opera house, Max-Joseph-Platz (1, 25 m)",
+    "National Theatre opera house (1, 39 m)"
+   ]
+  }
+ ]
+}

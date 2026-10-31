@@ -1,0 +1,215 @@
+{
+ "city": "Oslo",
+ "candidates": [
+  {
+   "place": "MUNCH museum",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "audiotour": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Fram Museum",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "podcast": 2,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Kon-Tiki Museum (2, 90 m)"
+   ]
+  },
+  {
+   "place": "Grünerløkka (area)",
+   "stories": 4,
+   "types": {
+    "music": 2,
+    "movie": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "City Hall (Rådhuset)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Palace",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kon-Tiki Museum",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Fram Museum (4, 90 m)"
+   ]
+  },
+  {
+   "place": "Government Quarter (Regjeringskvartalet)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Former Helvete record shop, Schweigaards gate",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Holmlia (area)",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Karl Johans gate (main street)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Grand Café, Karl Johans gate (1, 103 m)",
+    "Parliament building (Stortinget) (1, 101 m)"
+   ]
+  },
+  {
+   "place": "Museum of the Viking Age (Viking Ship Museum)",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "National Museum",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Grand Café, Karl Johans gate",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Karl Johans gate (main street) (2, 103 m)",
+    "Parliament building (Stortinget) (1, 85 m)"
+   ]
+  },
+  {
+   "place": "National Theatre",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "City centre (area) (1, 99 m)",
+    "University Aula, Karl Johans gate (1, 107 m)"
+   ]
+  },
+  {
+   "place": "Akershus Fortress waterfront",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Akershus Fortress (1, 135 m)"
+   ]
+  },
+  {
+   "place": "City centre (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "National Theatre (1, 99 m)"
+   ]
+  },
+  {
+   "place": "Akershus Fortress",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Akershus Fortress waterfront (1, 135 m)"
+   ]
+  },
+  {
+   "place": "University Aula, Karl Johans gate",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "National Theatre (1, 107 m)"
+   ]
+  },
+  {
+   "place": "Parliament building (Stortinget)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Grand Café, Karl Johans gate (1, 85 m)",
+    "Karl Johans gate (main street) (2, 101 m)"
+   ]
+  },
+  {
+   "place": "Villa Grande (Norwegian Holocaust Center)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Norwegian Folk Museum (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Norwegian Folk Museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Villa Grande (Norwegian Holocaust Center) (1, 128 m)"
+   ]
+  }
+ ]
+}

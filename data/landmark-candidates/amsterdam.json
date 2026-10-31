@@ -1,0 +1,326 @@
+{
+ "city": "Amsterdam",
+ "candidates": [
+  {
+   "place": "Rijksmuseum",
+   "stories": 6,
+   "types": {
+    "book": 1,
+    "video": 4,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Amsterdam Centraal station",
+   "stories": 6,
+   "types": {
+    "audiotour": 4,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Dam Square",
+   "stories": 6,
+   "types": {
+    "audiotour": 4,
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Van Gogh Museum",
+   "stories": 5,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 3
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Oude Kerk church",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Waag weigh house, Nieuwmarkt",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Anne Frank House",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Westerkerk church (1, 143 m)"
+   ]
+  },
+  {
+   "place": "Bloemenmarkt flower market",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Oost-Indisch Huis (former VOC headquarters)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Het Kleinste Huis tea shop, Oude Hoogstraat (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Vondelpark",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Dutch Resistance Museum",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "Entrepotdok warehouses (1, 133 m)",
+    "Micropia museum (1, 109 m)"
+   ]
+  },
+  {
+   "place": "Bijlmermeer (area)",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Leidseplein",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Entrepotdok warehouses",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Dutch Resistance Museum (2, 133 m)",
+    "Micropia museum (1, 147 m)"
+   ]
+  },
+  {
+   "place": "Westerkerk church",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Anne Frank House (2, 143 m)"
+   ]
+  },
+  {
+   "place": "Vondelpark main entrance, Stadhouderskade",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Paradiso concert hall (1, 147 m)"
+   ]
+  },
+  {
+   "place": "Ace & Tate eyewear shop, Nine Streets",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Keizersgracht 321 (Han van Meegeren’s house) (1, 94 m)"
+   ]
+  },
+  {
+   "place": "Keizersgracht 321 (Han van Meegeren’s house)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Ace & Tate eyewear shop, Nine Streets (1, 94 m)"
+   ]
+  },
+  {
+   "place": "Jonk Volendammer Haringhandel herring stand",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Het Lieverdje statue, Spui (1, 119 m)"
+   ]
+  },
+  {
+   "place": "The School of Life Amsterdam",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "De Nederlandsche Bank, Frederiksplein (1, 143 m)"
+   ]
+  },
+  {
+   "place": "Het Kleinste Huis tea shop, Oude Hoogstraat",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Oost-Indisch Huis (former VOC headquarters) (2, 34 m)",
+    "De Wallen red-light district (area) (1, 146 m)"
+   ]
+  },
+  {
+   "place": "Foodhallen food hall, De Hallen",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Denim City, De Hallen (1, 46 m)"
+   ]
+  },
+  {
+   "place": "Micropia museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Entrepotdok warehouses (1, 147 m)",
+    "Dutch Resistance Museum (2, 109 m)",
+    "Hollandsche Schouwburg memorial (1, 110 m)"
+   ]
+  },
+  {
+   "place": "MX3D 3D-printed bridge, Oudezijds Achterburgwal",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "De Wallen red-light district (area) (1, 11 m)"
+   ]
+  },
+  {
+   "place": "Mauritshuis museum, The Hague",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Binnenhof parliament complex, The Hague (1, 116 m)"
+   ]
+  },
+  {
+   "place": "Denim City, De Hallen",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Foodhallen food hall, De Hallen (1, 46 m)"
+   ]
+  },
+  {
+   "place": "Binnenhof parliament complex, The Hague",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Mauritshuis museum, The Hague (1, 116 m)"
+   ]
+  },
+  {
+   "place": "Paradiso concert hall",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Vondelpark main entrance, Stadhouderskade (1, 147 m)"
+   ]
+  },
+  {
+   "place": "Het Lieverdje statue, Spui",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Jonk Volendammer Haringhandel herring stand (1, 119 m)"
+   ]
+  },
+  {
+   "place": "De Nederlandsche Bank, Frederiksplein",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "The School of Life Amsterdam (1, 143 m)"
+   ]
+  },
+  {
+   "place": "De Wallen red-light district (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Het Kleinste Huis tea shop, Oude Hoogstraat (1, 146 m)",
+    "MX3D 3D-printed bridge, Oudezijds Achterburgwal (1, 11 m)"
+   ]
+  },
+  {
+   "place": "Hollandsche Schouwburg memorial",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Micropia museum (1, 110 m)"
+   ]
+  }
+ ]
+}

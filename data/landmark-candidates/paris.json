@@ -1,0 +1,717 @@
+{
+ "city": "Paris",
+ "candidates": [
+  {
+   "place": "Louvre Museum",
+   "stories": 43,
+   "types": {
+    "book": 1,
+    "video": 40,
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "Cour Carrée, Louvre (1, 127 m)",
+    "Salle des États (Mona Lisa room), Louvre Museum (3, 80 m)"
+   ]
+  },
+  {
+   "place": "Musée d’Orsay museum",
+   "stories": 25,
+   "types": {
+    "book": 1,
+    "audiotour": 1,
+    "video": 22,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palais Garnier opera house",
+   "stories": 5,
+   "types": {
+    "book": 1,
+    "video": 4
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Notre-Dame Cathedral",
+   "stories": 5,
+   "types": {
+    "audiotour": 3,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Point Zéro, Notre-Dame square (1, 67 m)"
+   ]
+  },
+  {
+   "place": "Eiffel Tower",
+   "stories": 4,
+   "types": {
+    "movie": 1,
+    "music": 2,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palace of Versailles",
+   "stories": 4,
+   "types": {
+    "video": 2,
+    "podcast": 1,
+    "audiotour": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Salle des États (Mona Lisa room), Louvre Museum",
+   "stories": 3,
+   "types": {
+    "video": 2,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Louvre Museum (43, 80 m)",
+    "Cour Carrée, Louvre (1, 71 m)",
+    "Pont des Arts bridge (2, 133 m)"
+   ]
+  },
+  {
+   "place": "Musée de l’Orangerie museum",
+   "stories": 3,
+   "types": {
+    "video": 3
+   },
+   "near_within_150m": [
+    "Tuileries Garden, Concorde entrance (1, 124 m)"
+   ]
+  },
+  {
+   "place": "Centre Pompidou modern art museum",
+   "stories": 3,
+   "types": {
+    "video": 3
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Le Meurice hotel, Rue de Rivoli",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Père Lachaise Cemetery, Gambetta entrance",
+   "stories": 2,
+   "types": {
+    "audiotour": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Place de la Concorde",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Tuileries Garden, Concorde entrance (1, 105 m)",
+    "Luxor Obelisk, Place de la Concorde (1, 26 m)"
+   ]
+  },
+  {
+   "place": "Place de la Bastille",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Bastille Métro station (fortress remains) (1, 104 m)"
+   ]
+  },
+  {
+   "place": "Place du Trocadéro",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Palais de Chaillot (1, 111 m)"
+   ]
+  },
+  {
+   "place": "Shakespeare and Company bookshop",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Point Zéro, Notre-Dame square (1, 145 m)",
+    "Studio Galande cinema (1, 113 m)",
+    "42 Rue Galande (medieval carved sign) (1, 115 m)"
+   ]
+  },
+  {
+   "place": "Pont des Arts bridge",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Cour Carrée, Louvre (1, 94 m)",
+    "Salle des États (Mona Lisa room), Louvre Museum (3, 133 m)"
+   ]
+  },
+  {
+   "place": "Île de la Cité (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Cité Métro station, Île de la Cité (1, 74 m)"
+   ]
+  },
+  {
+   "place": "Pont Neuf bridge",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Monnaie de Paris mint (1, 137 m)"
+   ]
+  },
+  {
+   "place": "Communards’ Wall, Père Lachaise Cemetery",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Carnavalet Museum",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Rue Cler market street",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "audiotour": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Louvre Pyramid",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Louis XIV statue, Louvre courtyard (1, 40 m)"
+   ]
+  },
+  {
+   "place": "Folies Bergère music hall",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Port-Royal maternity hospital, Boulevard de Port-Royal",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Port-Royal RER station (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Place de l’Hôtel de Ville",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Hôtel de Ville (City Hall) (1, 80 m)"
+   ]
+  },
+  {
+   "place": "Cité Métro station, Île de la Cité",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Île de la Cité (area) (2, 74 m)",
+    "Sainte-Chapelle (1, 106 m)",
+    "Conciergerie (former palace prison) (1, 85 m)"
+   ]
+  },
+  {
+   "place": "Pont Louis-Philippe bridge",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Shoah Memorial (Mémorial de la Shoah) (1, 105 m)"
+   ]
+  },
+  {
+   "place": "Cour Carrée, Louvre",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Louvre Museum (43, 127 m)",
+    "Pont des Arts bridge (2, 94 m)",
+    "Salle des États (Mona Lisa room), Louvre Museum (3, 71 m)"
+   ]
+  },
+  {
+   "place": "Pont au Change bridge",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Châtelet Métro station (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Point Zéro, Notre-Dame square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Notre-Dame Cathedral (5, 67 m)",
+    "Shakespeare and Company bookshop (2, 145 m)"
+   ]
+  },
+  {
+   "place": "Pont de Grenelle bridge",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Statue of Liberty replica, Île aux Cygnes (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Arc de Triomphe du Carrousel",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Louis XIV statue, Louvre courtyard (1, 148 m)"
+   ]
+  },
+  {
+   "place": "Port-Royal RER station",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Port-Royal maternity hospital, Boulevard de Port-Royal (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Hôtel Lutetia",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Poilâne bakery, Rue du Cherche-Midi (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Louis XIV statue, Louvre courtyard",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Arc de Triomphe du Carrousel (1, 148 m)",
+    "Louvre Pyramid (2, 40 m)"
+   ]
+  },
+  {
+   "place": "Shoah Memorial (Mémorial de la Shoah)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Pont Louis-Philippe bridge (1, 105 m)"
+   ]
+  },
+  {
+   "place": "Café de Flore",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Saint-Germain-des-Prés (area) (1, 0 m)",
+    "Brasserie Lipp (1, 55 m)"
+   ]
+  },
+  {
+   "place": "Montmartre (area)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Place du Tertre (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Saint-Germain-des-Prés (area)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Café de Flore (1, 0 m)",
+    "Brasserie Lipp (1, 55 m)"
+   ]
+  },
+  {
+   "place": "Palais de Chaillot",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Place du Trocadéro (2, 111 m)"
+   ]
+  },
+  {
+   "place": "Moulin Rouge cabaret",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Café des Deux Moulins, Rue Lepic (1, 143 m)",
+    "Maison Février feather workshop (1, 95 m)"
+   ]
+  },
+  {
+   "place": "Café des Deux Moulins, Rue Lepic",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Moulin Rouge cabaret (1, 143 m)",
+    "Maison Février feather workshop (1, 54 m)"
+   ]
+  },
+  {
+   "place": "Châtelet Métro station",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Pont au Change bridge (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Les Invalides (Hôtel des Invalides)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Musée des Plans-Reliefs, Les Invalides (1, 44 m)"
+   ]
+  },
+  {
+   "place": "Patrick Roger chocolate shop, Boulevard Saint-Germain",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Latin Quarter (area) (1, 108 m)"
+   ]
+  },
+  {
+   "place": "Statue of Liberty replica, Île aux Cygnes",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pont de Grenelle bridge (1, 34 m)"
+   ]
+  },
+  {
+   "place": "Tuileries Garden, Concorde entrance",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Place de la Concorde (2, 105 m)",
+    "Luxor Obelisk, Place de la Concorde (1, 79 m)",
+    "Jeu de Paume gallery, Tuileries Garden (1, 126 m)",
+    "Musée de l’Orangerie museum (3, 124 m)"
+   ]
+  },
+  {
+   "place": "Monnaie de Paris mint",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Pont Neuf bridge (2, 137 m)"
+   ]
+  },
+  {
+   "place": "Maison Février feather workshop",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Moulin Rouge cabaret (1, 95 m)",
+    "Café des Deux Moulins, Rue Lepic (1, 54 m)"
+   ]
+  },
+  {
+   "place": "Latin Quarter (area)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Patrick Roger chocolate shop, Boulevard Saint-Germain (1, 108 m)",
+    "Cluny Museum (Museum of the Middle Ages) (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Père Lachaise Cemetery",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Édith Piaf’s grave, Père Lachaise Cemetery (1, 17 m)"
+   ]
+  },
+  {
+   "place": "Sainte-Chapelle",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Cité Métro station, Île de la Cité (1, 106 m)",
+    "Algerian massacre plaque, Pont Saint-Michel (1, 129 m)",
+    "Conciergerie (former palace prison) (1, 85 m)"
+   ]
+  },
+  {
+   "place": "Saint-Roch Church",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Joan of Arc statue, Place des Pyramides (1, 112 m)"
+   ]
+  },
+  {
+   "place": "Luxor Obelisk, Place de la Concorde",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Place de la Concorde (2, 26 m)",
+    "Tuileries Garden, Concorde entrance (1, 79 m)"
+   ]
+  },
+  {
+   "place": "Brasserie Lipp",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Café de Flore (1, 55 m)",
+    "Saint-Germain-des-Prés (area) (1, 55 m)"
+   ]
+  },
+  {
+   "place": "Cluny Museum (Museum of the Middle Ages)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Latin Quarter (area) (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Hôtel de Ville (City Hall)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Place de l’Hôtel de Ville (1, 80 m)"
+   ]
+  },
+  {
+   "place": "Poilâne bakery, Rue du Cherche-Midi",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Hôtel Lutetia (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Algerian massacre plaque, Pont Saint-Michel",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sainte-Chapelle (1, 129 m)"
+   ]
+  },
+  {
+   "place": "Bastille Métro station (fortress remains)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Place de la Bastille (2, 104 m)"
+   ]
+  },
+  {
+   "place": "Studio Galande cinema",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Shakespeare and Company bookshop (2, 113 m)",
+    "42 Rue Galande (medieval carved sign) (1, 6 m)"
+   ]
+  },
+  {
+   "place": "42 Rue Galande (medieval carved sign)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Shakespeare and Company bookshop (2, 115 m)",
+    "Studio Galande cinema (1, 6 m)"
+   ]
+  },
+  {
+   "place": "Musée des Plans-Reliefs, Les Invalides",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Les Invalides (Hôtel des Invalides) (1, 44 m)"
+   ]
+  },
+  {
+   "place": "Conciergerie (former palace prison)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Cité Métro station, Île de la Cité (1, 85 m)",
+    "Sainte-Chapelle (1, 85 m)"
+   ]
+  },
+  {
+   "place": "Joan of Arc statue, Place des Pyramides",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Saint-Roch Church (1, 112 m)"
+   ]
+  },
+  {
+   "place": "Place du Tertre",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Montmartre (area) (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Édith Piaf’s grave, Père Lachaise Cemetery",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Père Lachaise Cemetery (1, 17 m)"
+   ]
+  },
+  {
+   "place": "Jeu de Paume gallery, Tuileries Garden",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Tuileries Garden, Concorde entrance (1, 126 m)"
+   ]
+  }
+ ]
+}

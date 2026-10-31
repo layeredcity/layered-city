@@ -1,0 +1,441 @@
+{
+ "city": "Edinburgh",
+ "candidates": [
+  {
+   "place": "Palace of Holyroodhouse",
+   "stories": 6,
+   "types": {
+    "audiotour": 4,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Scottish Parliament Building (2, 140 m)"
+   ]
+  },
+  {
+   "place": "Edinburgh Castle",
+   "stories": 5,
+   "types": {
+    "book": 1,
+    "podcast": 2,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Castle Esplanade (3, 100 m)"
+   ]
+  },
+  {
+   "place": "Royal Mile",
+   "stories": 4,
+   "types": {
+    "movie": 2,
+    "video": 2
+   },
+   "near_within_150m": [
+    "High Street at North Bridge junction (1, 62 m)",
+    "City Chambers, High Street (1, 117 m)",
+    "Fringe Shop, High Street (1, 87 m)",
+    "South Bridge Vaults, Niddry Street (1, 127 m)"
+   ]
+  },
+  {
+   "place": "National Museum of Scotland",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Greyfriars Kirkyard (2, 111 m)",
+    "Bristo Square (1, 129 m)",
+    "Greyfriars Bobby statue (1, 79 m)",
+    "Elephant House café, George IV Bridge (1, 131 m)"
+   ]
+  },
+  {
+   "place": "Writers’ Museum, Lady Stair’s Close",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "David Hume statue, High Street (1, 108 m)"
+   ]
+  },
+  {
+   "place": "Castle Esplanade",
+   "stories": 3,
+   "types": {
+    "audiotour": 2,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Witches’ Well, Castle Esplanade (1, 141 m)",
+    "Edinburgh Castle (5, 100 m)"
+   ]
+  },
+  {
+   "place": "St Giles’ Cathedral",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "City Chambers, High Street (1, 72 m)",
+    "Heart of Midlothian mosaic (site of the Old Tolbooth) (2, 36 m)",
+    "David Hume statue, High Street (1, 88 m)",
+    "Fringe Shop, High Street (1, 90 m)",
+    "Fruitmarket gallery (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Greyfriars Kirkyard",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "National Museum of Scotland (3, 111 m)",
+    "Greyfriars Bobby statue (1, 32 m)",
+    "Elephant House café, George IV Bridge (1, 83 m)"
+   ]
+  },
+  {
+   "place": "Princes Street Gardens",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Scott Monument (1, 21 m)",
+    "Princes Street (1, 65 m)",
+    "Scottish National Gallery (2, 106 m)"
+   ]
+  },
+  {
+   "place": "Surgeons’ Hall Museums",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Heart of Midlothian mosaic (site of the Old Tolbooth)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "St Giles’ Cathedral (2, 36 m)",
+    "City Chambers, High Street (1, 96 m)",
+    "David Hume statue, High Street (1, 53 m)",
+    "Fringe Shop, High Street (1, 122 m)",
+    "Fruitmarket gallery (1, 115 m)"
+   ]
+  },
+  {
+   "place": "Edinburgh College of Art, Lauriston Place",
+   "stories": 2,
+   "types": {
+    "music": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "The Shore, Leith",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Scottish Parliament Building",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Palace of Holyroodhouse (6, 140 m)"
+   ]
+  },
+  {
+   "place": "Scottish National Gallery",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Scott Monument (1, 122 m)",
+    "Princes Street Gardens (2, 106 m)",
+    "Princes Street (1, 132 m)"
+   ]
+  },
+  {
+   "place": "West Register House, Charlotte Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Georgian House, Charlotte Square (1, 92 m)"
+   ]
+  },
+  {
+   "place": "Calton Hill",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Site of The Venue, Calton Road (1, 117 m)"
+   ]
+  },
+  {
+   "place": "Scott Monument",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Princes Street Gardens (2, 21 m)",
+    "Princes Street (1, 50 m)",
+    "Scottish National Gallery (2, 122 m)"
+   ]
+  },
+  {
+   "place": "High Street at North Bridge junction",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "City Chambers, High Street (1, 92 m)",
+    "Royal Mile (4, 62 m)",
+    "Fringe Shop, High Street (1, 83 m)",
+    "Fruitmarket gallery (1, 147 m)"
+   ]
+  },
+  {
+   "place": "Witches’ Well, Castle Esplanade",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Castle Esplanade (3, 141 m)"
+   ]
+  },
+  {
+   "place": "City Chambers, High Street",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "High Street at North Bridge junction (1, 92 m)",
+    "St Giles’ Cathedral (2, 72 m)",
+    "Heart of Midlothian mosaic (site of the Old Tolbooth) (2, 96 m)",
+    "Royal Mile (4, 117 m)",
+    "David Hume statue, High Street (1, 147 m)",
+    "Fringe Shop, High Street (1, 38 m)",
+    "Fruitmarket gallery (1, 100 m)"
+   ]
+  },
+  {
+   "place": "David Hume’s tomb, Old Calton Burial Ground",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Site of The Venue, Calton Road (1, 144 m)"
+   ]
+  },
+  {
+   "place": "Bristo Square",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "National Museum of Scotland (3, 129 m)",
+    "Sandy Bell’s pub, Forrest Road (1, 115 m)"
+   ]
+  },
+  {
+   "place": "Bannerman’s bar, Cowgate",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "South Bridge Vaults, Niddry Street (1, 36 m)"
+   ]
+  },
+  {
+   "place": "Site of The Venue, Calton Road",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Calton Hill (1, 117 m)",
+    "David Hume’s tomb, Old Calton Burial Ground (1, 144 m)"
+   ]
+  },
+  {
+   "place": "Sandy Bell’s pub, Forrest Road",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Bristo Square (1, 115 m)"
+   ]
+  },
+  {
+   "place": "Princes Street",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Scott Monument (1, 50 m)",
+    "Princes Street Gardens (2, 65 m)",
+    "Scottish National Gallery (2, 132 m)"
+   ]
+  },
+  {
+   "place": "Old Town (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Fruitmarket gallery (1, 121 m)"
+   ]
+  },
+  {
+   "place": "Site of Kirk o’ Field, Old College",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Old College, University of Edinburgh (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Old College, University of Edinburgh",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Site of Kirk o’ Field, Old College (1, 0 m)"
+   ]
+  },
+  {
+   "place": "Greyfriars Bobby statue",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "National Museum of Scotland (3, 79 m)",
+    "Greyfriars Kirkyard (2, 32 m)",
+    "Elephant House café, George IV Bridge (1, 84 m)"
+   ]
+  },
+  {
+   "place": "Elephant House café, George IV Bridge",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "National Museum of Scotland (3, 131 m)",
+    "Greyfriars Kirkyard (2, 83 m)",
+    "Greyfriars Bobby statue (1, 84 m)"
+   ]
+  },
+  {
+   "place": "David Hume statue, High Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Writers’ Museum, Lady Stair’s Close (3, 108 m)",
+    "St Giles’ Cathedral (2, 88 m)",
+    "City Chambers, High Street (1, 147 m)",
+    "Heart of Midlothian mosaic (site of the Old Tolbooth) (2, 53 m)",
+    "Fruitmarket gallery (1, 138 m)"
+   ]
+  },
+  {
+   "place": "Georgian House, Charlotte Square",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "West Register House, Charlotte Square (1, 92 m)"
+   ]
+  },
+  {
+   "place": "Fringe Shop, High Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "High Street at North Bridge junction (1, 83 m)",
+    "St Giles’ Cathedral (2, 90 m)",
+    "City Chambers, High Street (1, 38 m)",
+    "Heart of Midlothian mosaic (site of the Old Tolbooth) (2, 122 m)",
+    "Royal Mile (4, 87 m)",
+    "Fruitmarket gallery (1, 137 m)"
+   ]
+  },
+  {
+   "place": "South Bridge Vaults, Niddry Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Bannerman’s bar, Cowgate (1, 36 m)",
+    "Royal Mile (4, 127 m)"
+   ]
+  },
+  {
+   "place": "Fruitmarket gallery",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "High Street at North Bridge junction (1, 147 m)",
+    "St Giles’ Cathedral (2, 123 m)",
+    "City Chambers, High Street (1, 100 m)",
+    "Heart of Midlothian mosaic (site of the Old Tolbooth) (2, 115 m)",
+    "Old Town (area) (1, 121 m)",
+    "David Hume statue, High Street (1, 138 m)",
+    "Fringe Shop, High Street (1, 137 m)"
+   ]
+  }
+ ]
+}

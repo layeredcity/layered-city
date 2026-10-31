@@ -1,0 +1,193 @@
+{
+ "city": "Helsinki",
+ "candidates": [
+  {
+   "place": "Senate Square",
+   "stories": 5,
+   "types": {
+    "audiotour": 3,
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Government Palace (1, 146 m)",
+    "University of Helsinki main building (1, 105 m)",
+    "Helsinki Cathedral (1, 85 m)"
+   ]
+  },
+  {
+   "place": "Olympic Stadium",
+   "stories": 4,
+   "types": {
+    "movie": 2,
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Oodi Central Library",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "video": 1,
+    "audiotour": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Finlandia Hall",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kallio (area)",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Sibelius Monument, Sibelius Park",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Suomenlinna sea fortress",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ullanlinna (area)",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hakaniemi Market Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Hakaniemi metro station (1, 130 m)",
+    "Hakaniemi Market Hall (1, 50 m)",
+    "Paasitorni workers’ hall (1, 122 m)"
+   ]
+  },
+  {
+   "place": "Ateneum art museum",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Central Railway Station (1, 81 m)"
+   ]
+  },
+  {
+   "place": "Hakaniemi metro station",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Hakaniemi Market Square (1, 130 m)",
+    "Hakaniemi Market Hall (1, 81 m)",
+    "Paasitorni workers’ hall (1, 132 m)"
+   ]
+  },
+  {
+   "place": "Government Palace",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Senate Square (5, 146 m)"
+   ]
+  },
+  {
+   "place": "House of the Estates (Säätytalo)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Helsinki Cathedral (1, 126 m)"
+   ]
+  },
+  {
+   "place": "University of Helsinki main building",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Senate Square (5, 105 m)"
+   ]
+  },
+  {
+   "place": "Helsinki Cathedral",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Senate Square (5, 85 m)",
+    "House of the Estates (Säätytalo) (1, 126 m)"
+   ]
+  },
+  {
+   "place": "Central Railway Station",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Ateneum art museum (1, 81 m)"
+   ]
+  },
+  {
+   "place": "Hakaniemi Market Hall",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Hakaniemi Market Square (1, 50 m)",
+    "Hakaniemi metro station (1, 81 m)",
+    "Paasitorni workers’ hall (1, 114 m)"
+   ]
+  },
+  {
+   "place": "Paasitorni workers’ hall",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Hakaniemi Market Square (1, 122 m)",
+    "Hakaniemi metro station (1, 132 m)",
+    "Hakaniemi Market Hall (1, 114 m)"
+   ]
+  }
+ ]
+}

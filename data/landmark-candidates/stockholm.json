@@ -1,0 +1,292 @@
+{
+ "city": "Stockholm",
+ "candidates": [
+  {
+   "place": "Sergels torg square",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "movie": 1,
+    "music": 3
+   },
+   "near_within_150m": [
+    "Drottninggatan street (1, 149 m)"
+   ]
+  },
+  {
+   "place": "Stortorget square, Gamla stan",
+   "stories": 4,
+   "types": {
+    "movie": 1,
+    "music": 1,
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Nobel Prize Museum, Stortorget (1, 19 m)",
+    "Stockholm Cathedral (Storkyrkan) (1, 68 m)"
+   ]
+  },
+  {
+   "place": "Vasa Museum",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Olof Palme murder site, Sveavägen",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Hötorget square (1, 149 m)",
+    "Stockholm Concert Hall (Konserthuset) (1, 117 m)",
+    "Kungsgatan street (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Norrmalmstorg square",
+   "stories": 3,
+   "types": {
+    "movie": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Södermalm (area)",
+   "stories": 3,
+   "types": {
+    "movie": 1,
+    "music": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Drottningholm Palace",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kungsträdgården park",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Royal Swedish Opera (site of Gustav III’s opera house) (1, 148 m)"
+   ]
+  },
+  {
+   "place": "Parliament House (Riksdagshuset)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Riksbron bridge, opposite Parliament (1, 116 m)"
+   ]
+  },
+  {
+   "place": "Raoul Wallenbergs torg square",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Royal Dramatic Theatre (Dramaten) (1, 129 m)"
+   ]
+  },
+  {
+   "place": "ABBA The Museum",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bellmansgatan 1 (Blomkvist’s flat)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "T-Centralen metro station",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hötorget square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Olof Palme murder site, Sveavägen (3, 149 m)",
+    "Stockholm Concert Hall (Konserthuset) (1, 34 m)",
+    "Kungsgatan street (1, 68 m)"
+   ]
+  },
+  {
+   "place": "Drottninggatan street",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Sergels torg square (5, 149 m)"
+   ]
+  },
+  {
+   "place": "Riksbron bridge, opposite Parliament",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Parliament House (Riksdagshuset) (2, 116 m)"
+   ]
+  },
+  {
+   "place": "Kornhamnstorg square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Gamla stan metro station (1, 81 m)"
+   ]
+  },
+  {
+   "place": "Gamla stan metro station",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Kornhamnstorg square (1, 81 m)"
+   ]
+  },
+  {
+   "place": "Nobel Prize Museum, Stortorget",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Stortorget square, Gamla stan (4, 19 m)",
+    "Stockholm Cathedral (Storkyrkan) (1, 56 m)"
+   ]
+  },
+  {
+   "place": "Royal Swedish Opera (site of Gustav III’s opera house)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Kungsträdgården park (2, 148 m)"
+   ]
+  },
+  {
+   "place": "Stockholm Concert Hall (Konserthuset)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Hötorget square (1, 34 m)",
+    "Olof Palme murder site, Sveavägen (3, 117 m)",
+    "Kungsgatan street (1, 47 m)"
+   ]
+  },
+  {
+   "place": "Royal Dramatic Theatre (Dramaten)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Raoul Wallenbergs torg square (2, 129 m)"
+   ]
+  },
+  {
+   "place": "Kungsgatan street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Hötorget square (1, 68 m)",
+    "Olof Palme murder site, Sveavägen (3, 123 m)",
+    "Stockholm Concert Hall (Konserthuset) (1, 47 m)"
+   ]
+  },
+  {
+   "place": "Stockholm Cathedral (Storkyrkan)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Nobel Prize Museum, Stortorget (1, 56 m)",
+    "Stortorget square, Gamla stan (4, 68 m)",
+    "Royal Palace (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Strömkajen quay",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Nationalmuseum art museum (1, 133 m)"
+   ]
+  },
+  {
+   "place": "Royal Palace",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Stockholm Cathedral (Storkyrkan) (1, 128 m)"
+   ]
+  },
+  {
+   "place": "Nationalmuseum art museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Strömkajen quay (1, 133 m)"
+   ]
+  }
+ ]
+}

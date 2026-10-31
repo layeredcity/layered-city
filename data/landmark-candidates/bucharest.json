@@ -1,0 +1,121 @@
+{
+ "city": "Bucharest",
+ "candidates": [
+  {
+   "place": "Revolution Square (Piața Revoluției)",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "podcast": 2,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Calea Victoriei (1, 101 m)",
+    "Royal Palace (National Museum of Art) (1, 127 m)"
+   ]
+  },
+  {
+   "place": "Palace of the Parliament",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "TVR headquarters, Calea Dorobanților",
+   "stories": 3,
+   "types": {
+    "podcast": 2,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Romanian Athenaeum concert hall",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Athénée Palace hotel (1, 130 m)"
+   ]
+  },
+  {
+   "place": "Old Town (area)",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Lipscani Street, Old Town (1, 58 m)"
+   ]
+  },
+  {
+   "place": "University Square (Piața Universității)",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": [
+    "University of Bucharest main building (1, 88 m)"
+   ]
+  },
+  {
+   "place": "University of Bucharest main building",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "University Square (Piața Universității) (2, 88 m)"
+   ]
+  },
+  {
+   "place": "Athénée Palace hotel",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Romanian Athenaeum concert hall (2, 130 m)",
+    "Royal Palace (National Museum of Art) (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Calea Victoriei",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Revolution Square (Piața Revoluției) (4, 101 m)"
+   ]
+  },
+  {
+   "place": "Royal Palace (National Museum of Art)",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Revolution Square (Piața Revoluției) (4, 127 m)",
+    "Athénée Palace hotel (1, 135 m)"
+   ]
+  },
+  {
+   "place": "Lipscani Street, Old Town",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Old Town (area) (2, 58 m)"
+   ]
+  }
+ ]
+}

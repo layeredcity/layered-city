@@ -1,0 +1,232 @@
+{
+ "city": "Belgrade",
+ "candidates": [
+  {
+   "place": "National Assembly (parliament building)",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "podcast": 2,
+    "audiotour": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kalemegdan Fortress",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "podcast": 3
+   },
+   "near_within_150m": [
+    "Belgrade Zoo, Kalemegdan (1, 107 m)"
+   ]
+  },
+  {
+   "place": "Skadarlija street",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Cetinjska 15 courtyard (old brewery) (1, 87 m)"
+   ]
+  },
+  {
+   "place": "House of Flowers (Tito’s mausoleum)",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Dorćol district (area)",
+   "stories": 3,
+   "types": {
+    "music": 1,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Slavija Square",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Western City Gate (Genex Tower)",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Chinese Cultural Centre (site of 1999 embassy bombing)",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "New Belgrade (area)",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Nikola Tesla Museum",
+   "stories": 2,
+   "types": {
+    "podcast": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Red Star Stadium (Marakana)",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Knez Mihailova Street",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Site of Akademija club, Knez Mihailova (1, 119 m)"
+   ]
+  },
+  {
+   "place": "Serbian Government building, Nemanjina 11",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Former Yugoslav Army HQ (Generalštab), Kneza Miloša (1, 108 m)",
+    "Government district, Nemanjina Street (area) (1, 146 m)"
+   ]
+  },
+  {
+   "place": "Republic Square",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Dom omladine youth centre (1, 80 m)"
+   ]
+  },
+  {
+   "place": "SKC Student Cultural Centre",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Former Yugoslav Army HQ (Generalštab), Kneza Miloša (1, 142 m)"
+   ]
+  },
+  {
+   "place": "Kosovska 11 (Rimtutituki launch site)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Radio Belgrade building (Studio V) (1, 105 m)"
+   ]
+  },
+  {
+   "place": "Cetinjska 15 courtyard (old brewery)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Skadarlija street (3, 87 m)"
+   ]
+  },
+  {
+   "place": "Site of Akademija club, Knez Mihailova",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Knez Mihailova Street (1, 119 m)"
+   ]
+  },
+  {
+   "place": "Radio Belgrade building (Studio V)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Kosovska 11 (Rimtutituki launch site) (1, 105 m)"
+   ]
+  },
+  {
+   "place": "Dom omladine youth centre",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Republic Square (1, 80 m)"
+   ]
+  },
+  {
+   "place": "Belgrade Zoo, Kalemegdan",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Kalemegdan Fortress (4, 107 m)"
+   ]
+  },
+  {
+   "place": "Former Yugoslav Army HQ (Generalštab), Kneza Miloša",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Serbian Government building, Nemanjina 11 (1, 108 m)",
+    "SKC Student Cultural Centre (1, 142 m)"
+   ]
+  },
+  {
+   "place": "Government district, Nemanjina Street (area)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Serbian Government building, Nemanjina 11 (1, 146 m)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,236 @@
+{
+ "city": "Istanbul",
+ "candidates": [
+  {
+   "place": "Hagia Sophia",
+   "stories": 6,
+   "types": {
+    "book": 1,
+    "video": 4,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Topkapı Palace",
+   "stories": 4,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hippodrome (Sultanahmet Square)",
+   "stories": 4,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "Blue Mosque (Sultan Ahmed Mosque) (1, 109 m)"
+   ]
+  },
+  {
+   "place": "Süleymaniye Mosque",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Çemberlitaş Hamam",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Galata Bridge",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Rumeli Fortress (Rumeli Hisarı)",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Galata Tower",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Galata Mevlevi Lodge museum",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Theodosian Land Walls, Topkapı Gate",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Grand Bazaar",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "İstiklal Avenue",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Nevizade Street (tavern alley) (1, 145 m)",
+    "Beyoğlu district (area) (1, 55 m)"
+   ]
+  },
+  {
+   "place": "Yeşilçam Street",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Nevizade Street (tavern alley) (1, 92 m)"
+   ]
+  },
+  {
+   "place": "Sultanahmet Park",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Basilica Cistern (1, 124 m)",
+    "Hürrem Sultan Hamam (1, 84 m)"
+   ]
+  },
+  {
+   "place": "Spice Bazaar (Egyptian Bazaar)",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Rüstem Pasha Mosque (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Nevizade Street (tavern alley)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "İstiklal Avenue (2, 145 m)",
+    "Yeşilçam Street (2, 92 m)"
+   ]
+  },
+  {
+   "place": "Beyoğlu district (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "İstiklal Avenue (2, 55 m)"
+   ]
+  },
+  {
+   "place": "Basilica Cistern",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sultanahmet Park (1, 124 m)"
+   ]
+  },
+  {
+   "place": "Hürrem Sultan Hamam",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sultanahmet Park (1, 84 m)"
+   ]
+  },
+  {
+   "place": "Rüstem Pasha Mosque",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Spice Bazaar (Egyptian Bazaar) (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Eminönü ferry piers",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Hacı Bekir confectionery, Bahçekapı (1, 106 m)"
+   ]
+  },
+  {
+   "place": "Blue Mosque (Sultan Ahmed Mosque)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Hippodrome (Sultanahmet Square) (4, 109 m)"
+   ]
+  },
+  {
+   "place": "Hacı Bekir confectionery, Bahçekapı",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Eminönü ferry piers (1, 106 m)"
+   ]
+  }
+ ]
+}

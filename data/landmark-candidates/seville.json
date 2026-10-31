@@ -1,0 +1,279 @@
+{
+ "city": "Seville",
+ "candidates": [
+  {
+   "place": "General Archive of the Indies (Archivo de Indias)",
+   "stories": 5,
+   "types": {
+    "audiotour": 2,
+    "book": 1,
+    "podcast": 1,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Seville Cathedral (4, 143 m)"
+   ]
+  },
+  {
+   "place": "Plaza Nueva",
+   "stories": 5,
+   "types": {
+    "audiotour": 1,
+    "music": 4
+   },
+   "near_within_150m": [
+    "Plaza de San Francisco (1, 121 m)"
+   ]
+  },
+  {
+   "place": "Alameda de Hércules square",
+   "stories": 5,
+   "types": {
+    "book": 1,
+    "music": 3,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Seville Cathedral",
+   "stories": 4,
+   "types": {
+    "movie": 1,
+    "podcast": 1,
+    "video": 2
+   },
+   "near_within_150m": [
+    "General Archive of the Indies (Archivo de Indias) (5, 143 m)",
+    "Giralda bell tower, Seville Cathedral (2, 33 m)",
+    "Patio de los Naranjos, Seville Cathedral (1, 84 m)"
+   ]
+  },
+  {
+   "place": "Torre del Oro tower",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Guadalquivir River by the Torre del Oro (area) (1, 5 m)"
+   ]
+  },
+  {
+   "place": "Maestranza bullring",
+   "stories": 3,
+   "types": {
+    "book": 1,
+    "movie": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Real Alcázar palace",
+   "stories": 3,
+   "types": {
+    "podcast": 2,
+    "video": 1
+   },
+   "near_within_150m": [
+    "Plaza de Alfaro (Rosina’s balcony), Santa Cruz (1, 123 m)"
+   ]
+  },
+  {
+   "place": "Triana Bridge (Puente de Isabel II)",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Tobacco Factory (University of Seville)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hospital de la Caridad",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Triana district (area)",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Castillo de San Jorge museum, Triana (1, 0 m)",
+    "Plaza del Altozano, Triana (1, 124 m)"
+   ]
+  },
+  {
+   "place": "Giralda bell tower, Seville Cathedral",
+   "stories": 2,
+   "types": {
+    "book": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Seville Cathedral (4, 33 m)",
+    "Patio de los Naranjos, Seville Cathedral (1, 51 m)"
+   ]
+  },
+  {
+   "place": "Feria de Abril fairground, Los Remedios",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Las Tres Mil Viviendas, Polígono Sur (area)",
+   "stories": 2,
+   "types": {
+    "movie": 2
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Santa Cruz quarter (area)",
+   "stories": 2,
+   "types": {
+    "video": 2
+   },
+   "near_within_150m": [
+    "Don Juan Tenorio statue, Plaza de los Refinadores (1, 143 m)"
+   ]
+  },
+  {
+   "place": "Castillo de San Jorge museum, Triana",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Triana district (area) (2, 0 m)",
+    "Plaza del Altozano, Triana (1, 124 m)"
+   ]
+  },
+  {
+   "place": "Macarena Basilica",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Macarena district (area) (1, 132 m)"
+   ]
+  },
+  {
+   "place": "Plaza del Altozano, Triana",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Triana district (area) (2, 124 m)",
+    "Castillo de San Jorge museum, Triana (1, 124 m)"
+   ]
+  },
+  {
+   "place": "Macarena district (area)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Macarena Basilica (1, 132 m)"
+   ]
+  },
+  {
+   "place": "Plaza de Alfaro (Rosina’s balcony), Santa Cruz",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Real Alcázar palace (3, 123 m)"
+   ]
+  },
+  {
+   "place": "Plaza de San Francisco",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Plaza Nueva (5, 121 m)",
+    "Site of the Royal Prison, Calle Sierpes (1, 130 m)"
+   ]
+  },
+  {
+   "place": "Don Juan Tenorio statue, Plaza de los Refinadores",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Santa Cruz quarter (area) (2, 143 m)"
+   ]
+  },
+  {
+   "place": "Patio de los Naranjos, Seville Cathedral",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Giralda bell tower, Seville Cathedral (2, 51 m)",
+    "Seville Cathedral (4, 84 m)"
+   ]
+  },
+  {
+   "place": "Site of the Royal Prison, Calle Sierpes",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Plaza de San Francisco (1, 130 m)",
+    "Calle Tetuán (1, 125 m)"
+   ]
+  },
+  {
+   "place": "Calle Tetuán",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Site of the Royal Prison, Calle Sierpes (1, 125 m)"
+   ]
+  },
+  {
+   "place": "Guadalquivir River by the Torre del Oro (area)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Torre del Oro tower (3, 5 m)"
+   ]
+  }
+ ]
+}
