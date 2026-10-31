@@ -42,6 +42,13 @@ for (const city of CITIES) {
         if (!hit) { console.log(`::warning::${key}: no article found`); continue }
         lm.wikipedia = hit.title
       }
+      // photoSearch: skip the article and search Wikimedia Commons directly
+      // for a photo of the place (used where the article's image was wrong).
+      if (lm.photoSearch && !lm.photoFile) {
+        const hits = (await api('commons.wikimedia.org', { action: 'query', list: 'search', srnamespace: '6', srsearch: `${lm.name} ${city} filetype:bitmap`, srlimit: '10' })).query?.search || []
+        lm.photoFile = hits.map(h => h.title.replace(/^File:/, '')).find(f => /\.jpe?g$/i.test(f) && !/logo|map|plan|portrait|painting|drawing|interior|detail/i.test(f))
+        if (!lm.photoFile) { console.log(`::warning::${key}: no Commons photo found`); continue }
+      }
       const page = (await api(wiki, { action: 'query', prop: 'pageimages', piprop: 'name', titles: lm.wikipedia, redirects: '1' })).query?.pages?.[0]
       let file = lm.photoFile || page?.pageimage
       // No lead image, or it's a logo/map/drawing: fall back to the article's

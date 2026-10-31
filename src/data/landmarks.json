@@ -287,7 +287,8 @@
    "places": [
     "Dutch Resistance Museum"
    ],
-   "description": "A museum about the Dutch Resistance and daily life in Amsterdam under German occupation in the Second World War."
+   "description": "A museum about the Dutch Resistance and daily life in Amsterdam under German occupation in the Second World War.",
+   "photoSearch": true
   },
   {
    "id": "leidseplein",
@@ -386,7 +387,8 @@
    "places": [
     "Omonia Square"
    ],
-   "description": "One of the city’s main squares, a busy traffic hub where several big avenues meet."
+   "description": "One of the city’s main squares, a busy traffic hub where several big avenues meet.",
+   "photoSearch": true
   },
   {
    "id": "exarchia-square",
@@ -572,7 +574,8 @@
    "places": [
     "Nikola Tesla Museum"
    ],
-   "description": "A museum of Tesla’s papers, inventions and working models, in a villa in the centre. His ashes are kept there in a gilded sphere."
+   "description": "A museum of Tesla’s papers, inventions and working models, in a villa in the centre. His ashes are kept there in a gilded sphere.",
+   "photoSearch": true
   },
   {
    "id": "marakana",
@@ -919,7 +922,8 @@
    "places": [
     "Budapest Operetta Theatre"
    ],
-   "description": "A theatre on Nagymező Street devoted to operetta and musicals, the light-opera form Budapest is known for."
+   "description": "A theatre on Nagymező Street devoted to operetta and musicals, the light-opera form Budapest is known for.",
+   "photoSearch": true
   },
   {
    "id": "shoes-danube",
@@ -964,7 +968,8 @@
    "places": [
     "Bartók Memorial House"
    ],
-   "description": "The composer Béla Bartók’s last Budapest home, in the Buda hills, kept as a museum with his furniture, plus a small concert hall."
+   "description": "The composer Béla Bartók’s last Budapest home, in the Buda hills, kept as a museum with his furniture, plus a small concert hall.",
+   "photoSearch": true
   },
   {
    "id": "puskas-arena",
@@ -1240,7 +1245,8 @@
    "places": [
     "Scottish Parliament Building"
    ],
-   "description": "Scotland’s parliament building, opened in 2004, opposite Holyroodhouse. Visitors can tour it and watch debates."
+   "description": "Scotland’s parliament building, opened in 2004, opposite Holyroodhouse. Visitors can tour it and watch debates.",
+   "photoSearch": true
   },
   {
    "id": "scottish-national-gallery",
@@ -1512,7 +1518,8 @@
    "places": [
     "Sibelius Monument, Sibelius Park"
    ],
-   "description": "An abstract sculpture of hundreds of welded steel pipes, made in honour of the composer Jean Sibelius, in a small park by the sea."
+   "description": "An abstract sculpture of hundreds of welded steel pipes, made in honour of the composer Jean Sibelius, in a small park by the sea.",
+   "photoSearch": true
   },
   {
    "id": "suomenlinna",
@@ -1787,7 +1794,8 @@
    "places": [
     "Praça Luís de Camões"
    ],
-   "description": "A square between Chiado and Bairro Alto, with a statue of the poet Luís de Camões in the middle."
+   "description": "A square between Chiado and Bairro Alto, with a statue of the poet Luís de Camões in the middle.",
+   "photoSearch": true
   },
   {
    "id": "fado-museum",
@@ -1878,7 +1886,8 @@
    "places": [
     "Gulbenkian Museum"
    ],
-   "description": "An art museum in a modernist building and garden, with one man’s collection running from ancient Egypt to art nouveau jewellery."
+   "description": "An art museum in a modernist building and garden, with one man’s collection running from ancient Egypt to art nouveau jewellery.",
+   "photoSearch": true
   }
  ],
  "London": [
@@ -2000,7 +2009,8 @@
    "places": [
     "John Snow pump, Broadwick Street"
    ],
-   "description": "A replica water pump in Soho marking where, in 1854, a doctor traced a cholera outbreak to a contaminated well."
+   "description": "A replica water pump in Soho marking where, in 1854, a doctor traced a cholera outbreak to a contaminated well.",
+   "photoSearch": true
   },
   {
    "id": "430-kings-road",
@@ -2036,7 +2046,8 @@
    "places": [
     "Roman wall, Tower Hill"
    ],
-   "description": "One of the best-surviving stretches of the Roman wall that once enclosed London, beside Tower Hill station."
+   "description": "One of the best-surviving stretches of the Roman wall that once enclosed London, beside Tower Hill station.",
+   "photoSearch": true
   },
   {
    "id": "royal-albert-hall",
@@ -2082,7 +2093,8 @@
     "Victoria and Albert Museum (V&A)",
     "Cast Courts, Victoria and Albert Museum"
    ],
-   "description": "A huge free museum of art and design in South Kensington, including the Cast Courts, halls of plaster copies of famous sculpture and buildings."
+   "description": "A huge free museum of art and design in South Kensington, including the Cast Courts, halls of plaster copies of famous sculpture and buildings.",
+   "photoSearch": true
   },
   {
    "id": "thames-barrier",
@@ -2168,7 +2180,8 @@
    "places": [
     "Congress of Deputies (parliament)"
    ],
-   "description": "The lower house of Spain’s parliament, in a 19th-century building guarded by two bronze lions."
+   "description": "The lower house of Spain’s parliament, in a 19th-century building guarded by two bronze lions.",
+   "photoSearch": true
   },
   {
    "id": "bernabeu",
@@ -2177,7 +2190,8 @@
    "places": [
     "Santiago Bernabéu Stadium"
    ],
-   "description": "Real Madrid’s home stadium on the Paseo de la Castellana, with a club museum and stadium tour."
+   "description": "Real Madrid’s home stadium on the Paseo de la Castellana, with a club museum and stadium tour.",
+   "photoSearch": true
   },
   {
    "id": "atocha",
@@ -2204,7 +2218,8 @@
    "places": [
     "Reina Sofía Museum"
    ],
-   "description": "Spain’s national museum of modern and contemporary art, in a former hospital. Picasso’s Guernica hangs here."
+   "description": "Spain’s national museum of modern and contemporary art, in a former hospital. Picasso’s Guernica hangs here.",
+   "photoSearch": true
   },
   {
    "id": "aranjuez-palace",
@@ -2385,7 +2400,8 @@
     "Residenz palace",
     "Cuvilliés Theatre, Residenz palace"
    ],
-   "description": "The city palace of Bavaria’s rulers: courtyards, state rooms, a treasury and a small rococo court theatre."
+   "description": "The city palace of Bavaria’s rulers: courtyards, state rooms, a treasury and a small rococo court theatre.",
+   "photoSearch": true
   },
   {
    "id": "olympic-stadium",
@@ -2504,7 +2520,8 @@
     "Kurt Eisner memorial, Kardinal-Faulhaber-Straße",
     "Kurt Eisner memorial, Kardinal-Faulhaber-Strasse"
    ],
-   "description": "A memorial set into the pavement where Kurt Eisner, Bavaria’s first republican prime minister, was shot dead in 1919."
+   "description": "A memorial set into the pavement where Kurt Eisner, Bavaria’s first republican prime minister, was shot dead in 1919.",
+   "photoSearch": true
   },
   {
    "id": "hofgarten-arcades",
@@ -2562,7 +2579,8 @@
    "places": [
     "Porta Marina gate, Pompeii"
    ],
-   "description": "The Roman town buried by Vesuvius in AD 79, south of Naples. Porta Marina is the main gate into its excavated streets and houses."
+   "description": "The Roman town buried by Vesuvius in AD 79, south of Naples. Porta Marina is the main gate into its excavated streets and houses.",
+   "photoSearch": true
   },
   {
    "id": "piazza-del-mercato",
@@ -2618,7 +2636,8 @@
    "places": [
     "MUNCH museum"
    ],
-   "description": "A tall museum on the harbour front devoted to Edvard Munch, with thousands of his paintings, prints and drawings."
+   "description": "A tall museum on the harbour front devoted to Edvard Munch, with thousands of his paintings, prints and drawings.",
+   "photoSearch": true
   },
   {
    "id": "fram-museum",
@@ -2663,7 +2682,8 @@
    "places": [
     "Former Helvete record shop, Schweigaards gate"
    ],
-   "description": "A former record shop near the central station that was the meeting place of Norway’s early-1990s black metal scene."
+   "description": "A former record shop near the central station that was the meeting place of Norway’s early-1990s black metal scene.",
+   "photoSearch": true
   },
   {
    "id": "viking-age-museum",
@@ -2672,7 +2692,8 @@
    "places": [
     "Museum of the Viking Age (Viking Ship Museum)"
    ],
-   "description": "The museum on Bygdøy built for three Viking ships found in burial mounds, being rebuilt and enlarged as the Museum of the Viking Age."
+   "description": "The museum on Bygdøy built for three Viking ships found in burial mounds, being rebuilt and enlarged as the Museum of the Viking Age.",
+   "photoSearch": true
   },
   {
    "id": "national-museum",
@@ -2715,7 +2736,8 @@
    "places": [
     "Musée d’Orsay museum"
    ],
-   "description": "A museum in a former railway station on the Left Bank, with the largest collection of Impressionist and Post-Impressionist painting."
+   "description": "A museum in a former railway station on the Left Bank, with the largest collection of Impressionist and Post-Impressionist painting.",
+   "photoSearch": true
   },
   {
    "id": "palais-garnier",
@@ -3064,7 +3086,8 @@
    "places": [
     "Kaffibarinn bar"
    ],
-   "description": "A small downtown bar in an old house just off Laugavegur, a fixture of the city’s nightlife since the 1990s and a setting in the film 101 Reykjavík."
+   "description": "A small downtown bar in an old house just off Laugavegur, a fixture of the city’s nightlife since the 1990s and a setting in the film 101 Reykjavík.",
+   "photoSearch": true
   },
   {
    "id": "hofdi",
@@ -3091,7 +3114,8 @@
    "places": [
     "Icelandic Phallological Museum, Hafnartorg"
    ],
-   "description": "A museum devoted to penises, with a large collection of specimens from Iceland’s land and sea mammals, in the Hafnartorg development by the harbour."
+   "description": "A museum devoted to penises, with a large collection of specimens from Iceland’s land and sea mammals, in the Hafnartorg development by the harbour.",
+   "photoSearch": true
   }
  ],
  "Rome": [
@@ -3119,7 +3143,8 @@
     "Chair of St Peter, St Peter’s Basilica",
     "Treasury Museum, St Peter’s Basilica"
    ],
-   "description": "The Pope’s basilica and the colonnaded square in front. Inside are Michelangelo’s Pietà, Bernini’s bronze canopy and the Chair of St Peter."
+   "description": "The Pope’s basilica and the colonnaded square in front. Inside are Michelangelo’s Pietà, Bernini’s bronze canopy and the Chair of St Peter.",
+   "photoSearch": true
   },
   {
    "id": "sistine-chapel",
@@ -3250,7 +3275,8 @@
    "places": [
     "Testaccio Market"
    ],
-   "description": "A covered food market in the Testaccio neighbourhood, with produce stalls and counters selling Roman street food."
+   "description": "A covered food market in the Testaccio neighbourhood, with produce stalls and counters selling Roman street food.",
+   "photoSearch": true
   },
   {
    "id": "san-luigi-dei-francesi",
@@ -3268,7 +3294,8 @@
    "places": [
     "Acqua Paola Fountain (Fontanone), Janiculum"
    ],
-   "description": "A large early-1600s fountain on the Janiculum hill, built like a triumphal arch, with views across the city."
+   "description": "A large early-1600s fountain on the Janiculum hill, built like a triumphal arch, with views across the city.",
+   "photoSearch": true
   },
   {
    "id": "santa-maria-maggiore",
@@ -3522,7 +3549,8 @@
    "places": [
     "Norrmalmstorg square"
    ],
-   "description": "A city-centre square where a 1973 bank robbery and hostage siege gave the world the term “Stockholm syndrome”."
+   "description": "A city-centre square where a 1973 bank robbery and hostage siege gave the world the term “Stockholm syndrome”.",
+   "photoSearch": true
   },
   {
    "id": "drottningholm",
@@ -3712,7 +3740,8 @@
     "Naval History Museum (Museo Storico Navale)",
     "Museo Storico Navale, naval history museum"
    ],
-   "description": "A museum near the Arsenal on Venice’s life at sea, with ship models, weapons and a model of the doge’s ceremonial barge."
+   "description": "A museum near the Arsenal on Venice’s life at sea, with ship models, weapons and a model of the doge’s ceremonial barge.",
+   "photoSearch": true
   },
   {
    "id": "arsenale-gate",
