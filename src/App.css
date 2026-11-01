@@ -865,3 +865,20 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
   .panel-story__content--landmark .landmark-top__heading { padding: 0 20px 4px; }
   .panel-story__content--landmark .landmark-top__heading .landmark-hero__name { font-size: 38px; }
 }
+
+/* Desktop modals: the close button stays pinned while the modal scrolls.
+   A zero-height sticky strip at the top of the content holds it, so it takes
+   no room and doesn't disturb the layout; the button hangs out of it to sit
+   14px in from the corner. A soft circle keeps it legible over whatever
+   scrolls underneath. */
+.story-modal__close-pin { position: sticky; top: 28px; height: 0; z-index: 5; }
+.story-modal__close-pin .story-modal__close {
+  top: -14px; right: -14px; width: 32px; height: 32px; padding: 0;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+}
+.story-modal--landmark-photo .story-modal__close-pin .story-modal__close {
+  background: rgba(13,38,97,0.7); box-shadow: none; filter: none; color: #fff;
+}
+.story-modal--landmark-photo .story-modal__close-pin .story-modal__close:hover { background: rgba(13,38,97,0.9); }

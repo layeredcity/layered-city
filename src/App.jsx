@@ -1209,9 +1209,11 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
     return (
       <div className="story-modal-overlay" onClick={onClose}>
         <div className={'story-modal story-modal--landmark' + (story.landmark?.photo ? ' story-modal--landmark-photo' : '')} onClick={e => e.stopPropagation()}>
-          <button className="story-modal__close" onClick={onClose}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
-          </button>
+          <div className="story-modal__close-pin">
+            <button className="story-modal__close" onClick={onClose}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
+            </button>
+          </div>
           <LandmarkDetail story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
         </div>
       </div>
@@ -1221,9 +1223,11 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
     return (
       <div className="story-modal-overlay" onClick={onClose}>
         <div className="story-modal story-modal--event" onClick={e => e.stopPropagation()}>
-          <button className="story-modal__close" onClick={onClose}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
-          </button>
+          <div className="story-modal__close-pin">
+            <button className="story-modal__close" onClick={onClose}>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
+            </button>
+          </div>
           <EventDetail story={story} />
         </div>
       </div>
@@ -1245,9 +1249,11 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
   return (
     <div className="story-modal-overlay" onClick={onClose}>
       <div className="story-modal" onClick={e => e.stopPropagation()}>
-        <button className="story-modal__close" onClick={onClose}>
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
-        </button>
+        <div className="story-modal__close-pin">
+          <button className="story-modal__close" onClick={onClose}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round"/></svg>
+          </button>
+        </div>
         <BackToLandmark story={story} onOpen={onOpenStory} />
         <div className="story-modal__header">
           <StoryIcon story={story} omdbData={omdbData} bookData={bookData} />
