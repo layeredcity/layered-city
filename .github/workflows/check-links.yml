@@ -1,0 +1,28 @@
+# Exports a channel's stories to data/channels/ (read-only). Runs when
+# data/run-check-links changes.
+name: Check media links
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/run-check-links]
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/check-media-links.mjs
+        env:
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+      - run: |
+          git add data/single-work-check.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City link check"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Check media links"
+          git pull --rebase origin main
+          git push origin HEAD:main
