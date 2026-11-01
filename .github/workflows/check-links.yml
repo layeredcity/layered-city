@@ -15,11 +15,18 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
+      - run: pip install -q yt-dlp
+      - run: |
+          mkdir -p data/yt
+          for ch in GreatArtExplained; do
+            yt-dlp --flat-playlist -J "https://www.youtube.com/@$ch/videos" > /tmp/$ch.json || true
+            python3 -c "import json,sys;d=json.load(open('/tmp/$ch.json'));json.dump([{'id':e.get('id'),'title':e.get('title'),'duration':e.get('duration')} for e in d.get('entries',[])],open('data/yt/$ch.json','w'),indent=1,ensure_ascii=False)" || true
+          done
       - run: node scripts/check-media-links.mjs
         env:
           CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
       - run: |
-          git add data/single-work-check.json
+          git add data/single-work-check.json data/yt
           git diff --cached --quiet && exit 0
           git config user.name "Layered City link check"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
