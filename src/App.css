@@ -853,3 +853,5 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
   .story-item:hover, .event-item--row:hover, .landmark-item:hover { background: transparent; }
   .story-item, .event-item--row, .landmark-item, .overview-item { -webkit-tap-highlight-color: transparent; }
 }
+/* Desktop: the landmark pop-up runs 50px shorter than other pop-ups. */
+.story-modal--landmark { max-height: calc(70vh - 50px); }
