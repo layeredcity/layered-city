@@ -1870,8 +1870,8 @@ export default function App() {
   // browser snapshots the current screen, swaps in the other one, and reveals
   // it through a circle that grows out of the button you tapped until it
   // reaches the farthest corner. The old screen holds still underneath.
-  const switchMobileMap = (open, e) => {
-    const apply = () => flushSync(() => setMobileMapOpen(open))
+  const switchMobileMap = (open, e, alsoDo) => {
+    const apply = () => flushSync(() => { setMobileMapOpen(open); alsoDo?.() })
     const reduce = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
     if (!document.startViewTransition || reduce || !e?.currentTarget) return apply()
     const r = e.currentTarget.getBoundingClientRect()
@@ -1886,7 +1886,20 @@ export default function App() {
     document.startViewTransition(apply).finished.finally(() => { delete document.documentElement.dataset.vt })
   }
   const openMobileMap = e => switchMobileMap(true, e)
-  const closeMobileMap = e => switchMobileMap(false, e)
+  // Tapping the little map on a story opens the full map with the same
+  // circle reveal, growing from the tap. The story steps aside (the map was
+  // already flown to it), and "List" brings you back to that story.
+  const mapReturnStoryRef = useRef(null)
+  const openMapFromStory = e => {
+    const story = selectedStory
+    const pt = { currentTarget: { getBoundingClientRect: () => ({ left: e.clientX, top: e.clientY, width: 0, height: 0 }) } }
+    switchMobileMap(true, pt, () => { mapReturnStoryRef.current = story; setSelectedStory(null) })
+  }
+  const closeMobileMap = e => {
+    const back = mapReturnStoryRef.current
+    mapReturnStoryRef.current = null
+    switchMobileMap(false, e, back ? () => setSelectedStory(back) : undefined)
+  }
 
   if (loading) {
     return (
@@ -2285,7 +2298,7 @@ export default function App() {
                     </a>
                   )}
                 </div>
-                <MiniMap story={s} omdbData={omdbData} bookData={bookData} />
+                <MiniMap story={s} omdbData={omdbData} bookData={bookData} onOpen={openMapFromStory} />
               </div>
             </>
           )

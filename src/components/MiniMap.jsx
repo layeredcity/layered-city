@@ -5,7 +5,7 @@ import { sizedAsset, squareAsset } from '../utils/images'
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
-export default function MiniMap({ story, omdbData, bookData }) {
+export default function MiniMap({ story, omdbData, bookData, onOpen }) {
   const containerRef = useRef(null)
 
   useEffect(() => {
@@ -50,5 +50,5 @@ export default function MiniMap({ story, omdbData, bookData }) {
   }, [story?.id, omdbData?.poster, bookData?.cover])
 
   if (!story?.location) return null
-  return <div ref={containerRef} className="mini-map" />
+  return <div ref={containerRef} className={'mini-map' + (onOpen ? ' mini-map--tappable' : '')} onClick={onOpen} />
 }

@@ -882,3 +882,9 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
   background: rgba(13,38,97,0.7); box-shadow: none; filter: none; color: #fff;
 }
 .story-modal--landmark-photo .story-modal__close-pin .story-modal__close:hover { background: rgba(13,38,97,0.9); }
+
+/* The story's little map opens the full map on tap. While the circle
+   reveal runs, the story panel leaves instantly rather than sliding, so the
+   reveal shows the map, not a panel mid-slide. */
+.mini-map--tappable { cursor: pointer; }
+html[data-vt] .panel-story { transition: none !important; }
