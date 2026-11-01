@@ -857,11 +857,11 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
 .story-modal--landmark { max-height: calc(70vh - 50px); }
 
 /* Landmark heading below the photo, left-aligned, on the blue. */
-.landmark-top__heading { position: relative; margin-top: -48px; padding: 0 28px 10px; color: #fff; }
-.landmark-top__heading .landmark-hero__name { font-size: 32px; margin-top: 4px; }
+.landmark-top__heading { position: relative; margin-top: -48px; padding: 0 28px 4px; color: #fff; }
+.landmark-top__heading .landmark-hero__name { font-size: 32px; margin-top: 8px; }
 .landmark-top__heading .landmark-hero__count { margin-top: 6px; }
 .landmark-top .landmark-hero__overlay { background: linear-gradient(180deg, rgba(5,16,43,0.35) 0%, rgba(13,38,97,0.25) 55%, rgba(13,38,97,0.15) 100%); }
 @media (max-width: 768px) {
-  .panel-story__content--landmark .landmark-top__heading { padding: 0 20px 10px; }
+  .panel-story__content--landmark .landmark-top__heading { padding: 0 20px 4px; }
   .panel-story__content--landmark .landmark-top__heading .landmark-hero__name { font-size: 38px; }
 }
