@@ -1,3 +1,777 @@
 {
- "episodes": []
+ "show": "Painting of the Week Podcast",
+ "feed": "https://rss.buzzsprout.com/1793619.rss",
+ "episodes": [
+  {
+   "title": "Edouard Manet, A Bar At The Folies Bergere",
+   "duration": "1952",
+   "date": "2026-10-29T06:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/edouard-manet-a-bar-at-the-folies-bergere/id1573430649?i=1000798654508&uo=4",
+   "ms": 1952000
+  },
+  {
+   "title": "Claude Lorrain, Seaport With The Embarkation Of The Queen Of Sheba",
+   "duration": "2156",
+   "date": "2026-10-22T05:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/claude-lorrain-seaport-with-the-embarkation/id1573430649?i=1000797561261&uo=4",
+   "ms": 2156000
+  },
+  {
+   "title": "Piero Della Francesca, The Flagellation Of Christ - with author Michael Harrison",
+   "duration": "2349",
+   "date": "2026-10-15T05:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/piero-della-francesca-the-flagellation-of-christ/id1573430649?i=1000796434021&uo=4",
+   "ms": 2349000
+  },
+  {
+   "title": "Antoni Gaudí, La Sagrada Família",
+   "duration": "1804",
+   "date": "2026-10-08T05:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/antoni-gaud%C3%AD-la-sagrada-fam%C3%ADlia/id1573430649?i=1000793805994&uo=4",
+   "ms": 1804000
+  },
+  {
+   "title": "Leonardo da Vinci, Mona Lisa / La Gioconda",
+   "duration": "2325",
+   "date": "2026-10-01T05:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/leonardo-da-vinci-mona-lisa-la-gioconda/id1573430649?i=1000792512762&uo=4",
+   "ms": 2325000
+  },
+  {
+   "title": "Frida Kahlo, Self-Portrait with Necklace of Thorns and Hummingbird",
+   "duration": "2076",
+   "date": "2026-09-24T05:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/frida-kahlo-self-portrait-with-necklace-of/id1573430649?i=1000791405817&uo=4",
+   "ms": 2076000
+  },
+  {
+   "title": "James McNeill Whistler, Nocturne In Black &amp; Gold (The Falling Rocket)",
+   "duration": "2218",
+   "date": "Thu, 17 Sep 2026 06:00:00 +0100"
+  },
+  {
+   "title": "Bonus Episode: The Arnolfini Portrait by Jan van Eyck",
+   "duration": "2424",
+   "date": "2026-06-11T13:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/bonus-episode-the-arnolfini-portrait-by-jan-van-eyck/id1573430649?i=1000772218936&uo=4",
+   "ms": 2424000
+  },
+  {
+   "title": "J. M. W. Turner, Brighthelmston, Sussex",
+   "duration": "1386",
+   "date": "2026-03-13T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/j-m-w-turner-brighthelmston-sussex/id1573430649?i=1000755075274&uo=4",
+   "ms": 1386000
+  },
+  {
+   "title": "John Constable, Salisbury Cathedral from the Meadows",
+   "duration": "1855",
+   "date": "2026-03-05T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/john-constable-salisbury-cathedral-from-the-meadows/id1573430649?i=1000753391663&uo=4",
+   "ms": 1855000
+  },
+  {
+   "title": "Sofonisba Anguissola, The Chess Game -  with author &amp; filmmaker Howard Burton",
+   "duration": "2433",
+   "date": "Thu, 26 Feb 2026 14:00:00 +0000"
+  },
+  {
+   "title": "Emily McIlroy, River of Passing",
+   "duration": "1576",
+   "date": "2026-02-19T10:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/emily-mcilroy-river-of-passing/id1573430649?i=1000750470671&uo=4",
+   "ms": 1576000
+  },
+  {
+   "title": "Bernard Perlin, Orthodox Boys! - with author Michael Schreiber",
+   "duration": "2720",
+   "date": "2026-02-12T10:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/bernard-perlin-orthodox-boys-with-author-michael/id1573430649?i=1000749417430&uo=4",
+   "ms": 2720000
+  },
+  {
+   "title": "Caravaggio, Victorious Cupid - with Xavier Bray, Director of the Wallace Collection",
+   "duration": "2112",
+   "date": "2026-02-05T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/caravaggio-victorious-cupid-with-xavier-bray-director/id1573430649?i=1000748391766&uo=4",
+   "ms": 2112000
+  },
+  {
+   "title": "Hermann Herzog, Sunset in the Florida Hammocks - with author Deborah Pollack",
+   "duration": "2107",
+   "date": "2026-01-29T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/hermann-herzog-sunset-in-the-florida-hammocks-with/id1573430649?i=1000747195257&uo=4",
+   "ms": 2107000
+  },
+  {
+   "title": "Cecilia Beaux, Twilight Confidences",
+   "duration": "1621",
+   "date": "2026-01-23T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/cecilia-beaux-twilight-confidences/id1573430649?i=1000746319845&uo=4",
+   "ms": 1621000
+  },
+  {
+   "title": "Joseph Wright of Derby, An Experiment on a Bird in the Air Pump",
+   "duration": "2050",
+   "date": "2026-01-22T17:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/joseph-wright-of-derby-an-experiment-on-a-bird-in-the-air-pump/id1573430649?i=1000746233014&uo=4",
+   "ms": 2050000
+  },
+  {
+   "title": "James McNeill Whistler, Arrangement in Grey and Black No. 1 (Whistler’s Mother)",
+   "duration": "1751",
+   "date": "2026-01-09T16:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/james-mcneill-whistler-arrangement-in-grey-and-black/id1573430649?i=1000744462154&uo=4",
+   "ms": 1751000
+  },
+  {
+   "title": "Christmas Special 2025",
+   "duration": "2681",
+   "date": "2025-12-19T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/christmas-special-2025/id1573430649?i=1000741982588&uo=4",
+   "ms": 2681000
+  },
+  {
+   "title": "Season 6 Ep 10: Caravaggio, Conversion of Saint Paul",
+   "duration": "1953",
+   "date": "2025-10-16T10:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-10-caravaggio-conversion-of-saint-paul/id1573430649?i=1000732125266&uo=4",
+   "ms": 1953000
+  },
+  {
+   "title": "Season 6 Ep 9: Georges Seurat, Bathers at Asnières",
+   "duration": "1893",
+   "date": "2025-10-09T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-9-georges-seurat-bathers-at-asni%C3%A8res/id1573430649?i=1000730976939&uo=4",
+   "ms": 1893000
+  },
+  {
+   "title": "Season 6 Ep 8: Dora Carrington, Farmhouse at Waternlath",
+   "duration": "1919",
+   "date": "2025-10-02T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-8-dora-carrington-farmhouse-at-waternlath/id1573430649?i=1000729677151&uo=4",
+   "ms": 1919000
+  },
+  {
+   "title": "Season 6 Ep 7: Zdeněk Dvořák, Czech Tradition",
+   "duration": "1654",
+   "date": "2025-09-19T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-7-zden%C4%9Bk-dvo%C5%99%C3%A1k-czech-tradition/id1573430649?i=1000727483406&uo=4",
+   "ms": 1654000
+  },
+  {
+   "title": "Season 6 Ep 6: Henri Matisse, Woman Reading at a Yellow Table",
+   "duration": "1756",
+   "date": "2025-09-11T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-6-henri-matisse-woman-reading-at-a-yellow-table/id1573430649?i=1000726192224&uo=4",
+   "ms": 1756000
+  },
+  {
+   "title": "Season 6 Ep 5: Henri de Toulouse-Lautrec, La Chaîne Simpson",
+   "duration": "1926",
+   "date": "2025-09-04T08:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-5-henri-de-toulouse-lautrec-la-cha%C3%AEne-simpson/id1573430649?i=1000724953057&uo=4",
+   "ms": 1926000
+  },
+  {
+   "title": "Season 6 Ep 4: Artemesia Gentileschi, Self Portrait as Saint Catherine",
+   "duration": "2084",
+   "date": "2025-08-28T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-4-artemesia-gentileschi-self-portrait-as/id1573430649?i=1000723858860&uo=4",
+   "ms": 2084000
+  },
+  {
+   "title": "Season 6 Ep 3: Keith Pettit, Cabriole",
+   "duration": "3625",
+   "date": "2025-08-21T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-3-keith-pettit-cabriole/id1573430649?i=1000722932564&uo=4",
+   "ms": 3625000
+  },
+  {
+   "title": "Season 6 Ep. 2: J M W Turner, The Lake, Petworth: Sunset, Fighting Bucks at Petworth",
+   "duration": "2319",
+   "date": "2025-08-15T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-6-ep-2-j-m-w-turner-the-lake-petworth-sunset/id1573430649?i=1000722071983&uo=4",
+   "ms": 2319000
+  },
+  {
+   "title": "Leonardo da Vinci, The Last Supper",
+   "duration": "2376",
+   "date": "2025-08-07T10:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/leonardo-da-vinci-the-last-supper/id1573430649?i=1000721033441&uo=4",
+   "ms": 2376000
+  },
+  {
+   "title": "Season 5, Ep.11: Tibetan Wheel of Life Thangka",
+   "duration": "1583",
+   "date": "2025-02-18T16:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-11-tibetan-wheel-of-life-thangka/id1573430649?i=1000691893582&uo=4",
+   "ms": 1583000
+  },
+  {
+   "title": "Season 5, Ep.10: Wood, Earth, Hoop by Walter Bailey",
+   "duration": "2363",
+   "date": "2025-02-06T10:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-10-wood-earth-hoop-by-walter-bailey/id1573430649?i=1000689607772&uo=4",
+   "ms": 2363000
+  },
+  {
+   "title": "Season 5, Ep.9: Orange, Red, Yellow by Mark Rothko",
+   "duration": "2225",
+   "date": "2025-01-30T10:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-9-orange-red-yellow-by-mark-rothko/id1573430649?i=1000687095253&uo=4",
+   "ms": 2225000
+  },
+  {
+   "title": "Season 5, Ep.8: Genesis #9/18 by Alan Magee",
+   "duration": "1642",
+   "date": "2025-01-24T13:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-8-genesis-9-18-by-alan-magee/id1573430649?i=1000685306429&uo=4",
+   "ms": 1642000
+  },
+  {
+   "title": "Season 5, Ep.6: Deep Forest by Emily Carr",
+   "duration": "1860",
+   "date": "2025-01-21T12:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-6-deep-forest-by-emily-carr/id1573430649?i=1000684840972&uo=4",
+   "ms": 1860000
+  },
+  {
+   "title": "Season 5, Ep.7: The Haywain Tryptich by Hieronymus Bosch",
+   "duration": "2034",
+   "date": "2025-01-16T16:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-7-the-haywain-tryptich-by-hieronymus-bosch/id1573430649?i=1000684256238&uo=4",
+   "ms": 2034000
+  },
+  {
+   "title": "Season 5, Ep.5: Starry Night over the Rhône by Van Gogh with Martin Bailey",
+   "duration": "1403",
+   "date": "2025-01-02T08:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-5-starry-night-over-the-rh%C3%B4ne-by-van-gogh/id1573430649?i=1000682383200&uo=4",
+   "ms": 1403000
+  },
+  {
+   "title": "Season 5, Ep.4: Christmas Special - The Monopoly Board, Lizzie Magie",
+   "duration": "2700",
+   "date": "2024-12-24T08:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-4-christmas-special-the-monopoly-board/id1573430649?i=1000681535513&uo=4",
+   "ms": 2700000
+  },
+  {
+   "title": "Season 5, Ep.3: Le Pont-Neuf by Pierre-Auguste Renoir",
+   "duration": "1333",
+   "date": "2024-12-19T08:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-3-le-pont-neuf-by-pierre-auguste-renoir/id1573430649?i=1000680940724&uo=4",
+   "ms": 1333000
+  },
+  {
+   "title": "Season 5, Ep.2: Christ of Saint John of the Cross by Salvador Dalí",
+   "duration": "1845",
+   "date": "2024-12-12T06:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-2-christ-of-saint-john-of-the-cross/id1573430649?i=1000680103404&uo=4",
+   "ms": 1845000
+  },
+  {
+   "title": "Season 5, Ep.1: Olive Grove, Saint-Rémy (1889) by Vincent van Gogh",
+   "duration": "2731",
+   "date": "2024-12-05T08:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-5-ep-1-olive-grove-saint-r%C3%A9my-1889-by-vincent-van-gogh/id1573430649?i=1000679318899&uo=4",
+   "ms": 2731000
+  },
+  {
+   "title": "Season 4, Ep.10: Starry Night Over the Rhône by Vincent Van Gogh",
+   "duration": "2198",
+   "date": "2024-06-27T16:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-10-starry-night-over-the-rh%C3%B4ne-by-vincent-van-gogh/id1573430649?i=1000660454191&uo=4",
+   "ms": 2198000
+  },
+  {
+   "title": "Season 4, Ep.9: Augustus of Prima Porta Statue - Vatican Museums",
+   "duration": "2283",
+   "date": "2024-06-19T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-9-augustus-of-prima-porta-statue-vatican-museums/id1573430649?i=1000659618611&uo=4",
+   "ms": 2283000
+  },
+  {
+   "title": "Season 4, Ep.8: Colliers Unloading on Hove Beach by John Constable",
+   "duration": "1638",
+   "date": "2024-06-13T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-8-colliers-unloading-on-hove-beach-by-john/id1573430649?i=1000659541194&uo=4",
+   "ms": 1638000
+  },
+  {
+   "title": "Season 4, Ep.7: Las Meninas by Diego Velázquez",
+   "duration": "2069",
+   "date": "2024-06-04T10:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-7-las-meninas-by-diego-vel%C3%A1zquez/id1573430649?i=1000658151347&uo=4",
+   "ms": 2069000
+  },
+  {
+   "title": "Season 4, Ep.6: Miss La La at the Cirque Fernando by Edgar Degas",
+   "duration": "1729",
+   "date": "2024-05-30T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-6-miss-la-la-at-the-cirque-fernando-by-edgar-degas/id1573430649?i=1000657912864&uo=4",
+   "ms": 1729000
+  },
+  {
+   "title": "Season 4, Ep.5: Rain, Steam, and Speed by JMW Turner",
+   "duration": "1842",
+   "date": "2024-05-20T16:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-5-rain-steam-and-speed-by-jmw-turner/id1573430649?i=1000656529199&uo=4",
+   "ms": 1842000
+  },
+  {
+   "title": "Season 4, Ep.4: The Virgin of the Rocks by Leonardo da Vinci",
+   "duration": "1756",
+   "date": "2024-05-20T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-4-the-virgin-of-the-rocks-by-leonardo-da-vinci/id1573430649?i=1000656244614&uo=4",
+   "ms": 1756000
+  },
+  {
+   "title": "Season 4, Ep.3: The Ambassadors by Hans Holbein the Younger",
+   "duration": "2093",
+   "date": "2024-05-02T10:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-3-the-ambassadors-by-hans-holbein-the-younger/id1573430649?i=1000655071884&uo=4",
+   "ms": 2093000
+  },
+  {
+   "title": "Season 4, Ep.2: The AIDS Memorial Quilt with Yvonne Gilleece",
+   "duration": "1819",
+   "date": "2024-04-17T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-2-the-aids-memorial-quilt-with-yvonne-gilleece/id1573430649?i=1000654331985&uo=4",
+   "ms": 1819000
+  },
+  {
+   "title": "Season 4, Ep.1: Madame X by John Singer Sargent",
+   "duration": "1796",
+   "date": "2024-04-11T16:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-4-ep-1-madame-x-by-john-singer-sargent/id1573430649?i=1000653588017&uo=4",
+   "ms": 1796000
+  },
+  {
+   "title": "Christmas Special: Painting of the Year",
+   "duration": "3704",
+   "date": "2023-12-19T12:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/christmas-special-painting-of-the-year/id1573430649?i=1000639074041&uo=4",
+   "ms": 3704000
+  },
+  {
+   "title": "Season 3, Ep.20, Gustav Klimt - Hermine Gallia",
+   "duration": "1956",
+   "date": "2023-09-25T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-20-gustav-klimt-hermine-gallia/id1573430649?i=1000630323365&uo=4",
+   "ms": 1956000
+  },
+  {
+   "title": "Season 3, Ep.19: Ditchling War Memorial by Eric Gill",
+   "duration": "1815",
+   "date": "2023-09-14T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-19-ditchling-war-memorial-by-eric-gill/id1573430649?i=1000627988261&uo=4",
+   "ms": 1815000
+  },
+  {
+   "title": "Season 3, Ep.18 Mohri Yuko - Moré Moré",
+   "duration": "1530",
+   "date": "2023-08-14T14:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-18-mohri-yuko-mor%C3%A9-mor%C3%A9/id1573430649?i=1000626443502&uo=4",
+   "ms": 1530000
+  },
+  {
+   "title": "Season 3, Ep 17: Georges de La Tour - Penitent Magdalen",
+   "duration": "1615",
+   "date": "2023-08-03T13:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-17-georges-de-la-tour-penitent-magdalen/id1573430649?i=1000624509055&uo=4",
+   "ms": 1615000
+  },
+  {
+   "title": "Season 3, Ep 16: Wilfredo Lam - La Silla (The Chair)",
+   "duration": "1412",
+   "date": "2023-07-20T14:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-16-wilfredo-lam-la-silla-the-chair/id1573430649?i=1000621773893&uo=4",
+   "ms": 1412000
+  },
+  {
+   "title": "Season 3, ep.15: Charles Webster Hawthorne - The Boat Steerer",
+   "duration": "1355",
+   "date": "2023-06-29T08:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-15-charles-webster-hawthorne-the-boat-steerer/id1573430649?i=1000619876417&uo=4",
+   "ms": 1355000
+  },
+  {
+   "title": "Season 3 Ep.14: John Singer Sargent - El Jaleo",
+   "duration": "1769",
+   "date": "2023-06-08T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-14-john-singer-sargent-el-jaleo/id1573430649?i=1000617138497&uo=4",
+   "ms": 1769000
+  },
+  {
+   "title": "Season 3, Ep 13: Egon Schiele - Seated Woman with Bent Knees",
+   "duration": "1805",
+   "date": "2023-06-08T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-13-egon-schiele-seated-woman-with-bent-knees/id1573430649?i=1000616137493&uo=4",
+   "ms": 1805000
+  },
+  {
+   "title": "Season 2, Ep. 12: Goya, The Duchess of Alba",
+   "duration": "2217",
+   "date": "2023-03-10T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-12-goya-the-duchess-of-alba/id1573430649?i=1000603585799&uo=4",
+   "ms": 2217000
+  },
+  {
+   "title": "Season 3, Ep.11: Albrecht Dürer, Great Piece of Turf",
+   "duration": "2008",
+   "date": "2023-03-02T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-11-albrecht-d%C3%BCrer-great-piece-of-turf/id1573430649?i=1000602440786&uo=4",
+   "ms": 2008000
+  },
+  {
+   "title": "Season 3, Ep.10: Vermeer - Girl Reading a Letter by an Open Window",
+   "duration": "1228",
+   "date": "2023-02-16T13:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-10-vermeer-girl-reading-a-letter-by-an-open-window/id1573430649?i=1000599997690&uo=4",
+   "ms": 1228000
+  },
+  {
+   "title": "Season 3, Ep. 9: Caravaggio, The Calling of Saint Matthew",
+   "duration": "2115",
+   "date": "2023-01-25T15:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-9-caravaggio-the-calling-of-saint-matthew/id1573430649?i=1000596571205&uo=4",
+   "ms": 2115000
+  },
+  {
+   "title": "Season 3, Ep.8: Pieter de Hooch - Courtyard of a House in Delft",
+   "duration": "1916",
+   "date": "2023-01-12T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-8-pieter-de-hooch-courtyard-of-a-house-in-delft/id1573430649?i=1000594040698&uo=4",
+   "ms": 1916000
+  },
+  {
+   "title": "Season 3, Ep. 7: Horace Pippin - Christmas Morning, Breakfast",
+   "duration": "1817",
+   "date": "2022-12-21T12:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-7-horace-pippin-christmas-morning-breakfast/id1573430649?i=1000590863928&uo=4",
+   "ms": 1817000
+  },
+  {
+   "title": "Season 3, Ep.6: Rembrandt, The Jewish Bride",
+   "duration": "1767",
+   "date": "2022-11-24T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-6-rembrandt-the-jewish-bride/id1573430649?i=1000590309177&uo=4",
+   "ms": 1767000
+  },
+  {
+   "title": "Season 3, Ep. 5: Renoir, Luncheon of the Boating Party",
+   "duration": "1917",
+   "date": "2022-11-21T14:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-5-renoir-luncheon-of-the-boating-party/id1573430649?i=1000587367944&uo=4",
+   "ms": 1917000
+  },
+  {
+   "title": "Season 3, Ep. 4: William Meyerowitz, Gloucester Humoresque",
+   "duration": "1395",
+   "date": "2022-11-02T16:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-4-william-meyerowitz-gloucester-humoresque/id1573430649?i=1000584827876&uo=4",
+   "ms": 1395000
+  },
+  {
+   "title": "Season 3, Ep. 3: Caspar David Friedrich, Wanderer Above the Sea of Fog",
+   "duration": "1916",
+   "date": "2022-09-29T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-3-caspar-david-friedrich-wanderer-above/id1573430649?i=1000581039158&uo=4",
+   "ms": 1916000
+  },
+  {
+   "title": "Season 3, Ep. 2: Rene Margritte, The Promenades of Euclid",
+   "duration": "1884",
+   "date": "2022-09-09T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-2-rene-margritte-the-promenades-of-euclid/id1573430649?i=1000578941792&uo=4",
+   "ms": 1884000
+  },
+  {
+   "title": "Season 3, Ep. 1: Dame Laura Knight, Ruby Loftus Screwing a Breech Ring",
+   "duration": "1653",
+   "date": "2022-08-25T07:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-3-ep-1-dame-laura-knight-ruby-loftus-screwing/id1573430649?i=1000577293578&uo=4",
+   "ms": 1653000
+  },
+  {
+   "title": "Season 2, Ep. 20: Daybreak - Maxfield Parrish",
+   "duration": "2519",
+   "date": "2022-03-28T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-20-daybreak-maxfield-parrish/id1573430649?i=1000555525584&uo=4",
+   "ms": 2519000
+  },
+  {
+   "title": "Season 2, Ep. 19: Kiss of Judas - Giotto",
+   "duration": "2181",
+   "date": "2022-03-22T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-19-kiss-of-judas-giotto/id1573430649?i=1000554793049&uo=4",
+   "ms": 2181000
+  },
+  {
+   "title": "Season 2, Ep. 18: Railroad Gates - Jo Hopper, Edward Hopper",
+   "duration": "2050",
+   "date": "2022-03-15T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-18-railroad-gates-jo-hopper-edward-hopper/id1573430649?i=1000554028230&uo=4",
+   "ms": 2050000
+  },
+  {
+   "title": "Season 2, Ep. 17: The Madonna del Parto - Piero della Francesca",
+   "duration": "1849",
+   "date": "2022-03-08T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-17-the-madonna-del-parto-piero-della-francesca/id1573430649?i=1000553240573&uo=4",
+   "ms": 1849000
+  },
+  {
+   "title": "Season 2, Ep. 16: The Night Watch - Rembrandt",
+   "duration": "1973",
+   "date": "2022-03-01T06:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-16-the-night-watch-rembrandt/id1573430649?i=1000552547023&uo=4",
+   "ms": 1973000
+  },
+  {
+   "title": "Season 2, Ep. 15: The Two Fridas (1939) - Frida Kahlo",
+   "duration": "1926",
+   "date": "2022-02-22T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-15-the-two-fridas-1939-frida-kahlo/id1573430649?i=1000551826306&uo=4",
+   "ms": 1926000
+  },
+  {
+   "title": "Season 2, Ep. 14: The Room with a View - Duncan Grant",
+   "duration": "1682",
+   "date": "2022-02-15T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-14-the-room-with-a-view-duncan-grant/id1573430649?i=1000551103099&uo=4",
+   "ms": 1682000
+  },
+  {
+   "title": "Season 2, Ep. 13: Virgin and Child with Canon van der Paele (1434–1436) - Jan van Eyck",
+   "duration": "2281",
+   "date": "2022-02-08T08:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-13-virgin-and-child-with-canon-van-der/id1573430649?i=1000550413440&uo=4",
+   "ms": 2281000
+  },
+  {
+   "title": "Season 2, Ep. 12: Filtres a Cafe (91-S) - Kaixuan Feng",
+   "duration": "1810",
+   "date": "2022-02-03T11:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-12-filtres-a-cafe-91-s-kaixuan-feng/id1573430649?i=1000549888999&uo=4",
+   "ms": 1810000
+  },
+  {
+   "title": "Season 2, Ep. 11: The Skating Minister (The Reverend Robert Walker Skating on Duddingston Loch) - Henry Raeburn",
+   "duration": "2071",
+   "date": "2022-01-25T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-11-the-skating-minister-the-reverend/id1573430649?i=1000548885466&uo=4",
+   "ms": 2071000
+  },
+  {
+   "title": "Season 2, Ep. 10: The Deposition from the Cross (altarpiece) - Jacopo Pontormo",
+   "duration": "2452",
+   "date": "2022-01-18T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-10-the-deposition-from-the-cross/id1573430649?i=1000548177930&uo=4",
+   "ms": 2452000
+  },
+  {
+   "title": "Season 2, Ep. 9: The Lady of Shalott - William Holman Hunt",
+   "duration": "2052",
+   "date": "2022-01-11T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-9-the-lady-of-shalott-william-holman-hunt/id1573430649?i=1000547487160&uo=4",
+   "ms": 2052000
+  },
+  {
+   "title": "Season 2, Ep. 8: Great Bookcase - William Burges",
+   "duration": "1563",
+   "date": "2022-01-04T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-8-great-bookcase-william-burges/id1573430649?i=1000546835591&uo=4",
+   "ms": 1563000
+  },
+  {
+   "title": "Season 2, Ep. 7: The Bridge at Argenteuil - Alfred Sisley",
+   "duration": "2076",
+   "date": "2021-12-28T09:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-7-the-bridge-at-argenteuil-alfred-sisley/id1573430649?i=1000546315418&uo=4",
+   "ms": 2076000
+  },
+  {
+   "title": "Season 2, Ep. 6: In The Loge - Mary Cassatt",
+   "duration": "1765",
+   "date": "2021-12-14T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-6-in-the-loge-mary-cassatt/id1573430649?i=1000544874868&uo=4",
+   "ms": 1765000
+  },
+  {
+   "title": "Season 2, Ep. 5: The Gleaners - John Constable",
+   "duration": "2184",
+   "date": "2021-12-07T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-5-the-gleaners-john-constable/id1573430649?i=1000544153989&uo=4",
+   "ms": 2184000
+  },
+  {
+   "title": "Season 2, Ep. 4: Dept Store Game - Utagawa Kunimasa IV",
+   "duration": "1499",
+   "date": "2021-11-30T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-4-dept-store-game-utagawa-kunimasa-iv/id1573430649?i=1000543445521&uo=4",
+   "ms": 1499000
+  },
+  {
+   "title": "Season 2, Ep. 3: ‘Four Girls on a Bridge’ - Edvard Munch (1905)",
+   "duration": "2024",
+   "date": "2021-11-23T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-3-four-girls-on-a-bridge-edvard-munch-1905/id1573430649?i=1000542772853&uo=4",
+   "ms": 2024000
+  },
+  {
+   "title": "Season 2, Ep. 2: Portrait of John Ruskin - John Everett Millais",
+   "duration": "686",
+   "date": "2021-11-16T12:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-2-portrait-of-john-ruskin-john-everett-millais/id1573430649?i=1000542093399&uo=4",
+   "ms": 686000
+  },
+  {
+   "title": "Season 2, Ep. 1: Going to the Match - L.S. Lowry",
+   "duration": "2191",
+   "date": "2021-11-09T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-2-ep-1-going-to-the-match-l-s-lowry/id1573430649?i=1000541175656&uo=4",
+   "ms": 2191000
+  },
+  {
+   "title": "Season 1, Ep. 20: The Railway - Edouard Manet",
+   "duration": "2402",
+   "date": "2021-11-04T00:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-20-the-railway-edouard-manet/id1573430649?i=1000540684273&uo=4",
+   "ms": 2402000
+  },
+  {
+   "title": "Season 1, Ep. 19: Triumphs of Caesar - Andrea Mantegna",
+   "duration": "2231",
+   "date": "2021-10-25T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-19-triumphs-of-caesar-andrea-mantegna/id1573430649?i=1000539700455&uo=4",
+   "ms": 2231000
+  },
+  {
+   "title": "Season 1, Ep. 18: Portrait of Pope Innocent X (1650) - Diego Velázquez",
+   "duration": "2429",
+   "date": "2021-10-18T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-18-portrait-of-pope-innocent-x-1650/id1573430649?i=1000538996827&uo=4",
+   "ms": 2429000
+  },
+  {
+   "title": "Season 1, Ep. 17: Uneasy centre, 1963 - Bridget Riley",
+   "duration": "2273",
+   "date": "2021-10-11T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-17-uneasy-centre-1963-bridget-riley/id1573430649?i=1000538275468&uo=4",
+   "ms": 2273000
+  },
+  {
+   "title": "Season 1, Ep. 16: Girl in a Boat, with Geese - Berthe Morisot",
+   "duration": "2740",
+   "date": "2021-10-04T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-16-girl-in-a-boat-with-geese-berthe-morisot/id1573430649?i=1000537551315&uo=4",
+   "ms": 2740000
+  },
+  {
+   "title": "Season 1, Ep. 15: Money Art - Shamsia Hassani",
+   "duration": "2298",
+   "date": "2021-09-06T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-15-money-art-shamsia-hassani/id1573430649?i=1000534507170&uo=4",
+   "ms": 2298000
+  },
+  {
+   "title": "Season 1, Ep. 14: The Alexander Mosaic",
+   "duration": "2588",
+   "date": "2021-08-30T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-14-the-alexander-mosaic/id1573430649?i=1000533748381&uo=4",
+   "ms": 2588000
+  },
+  {
+   "title": "Season 1, Ep. 13: Girl with a Pearl Earring - Johannes Vermeer",
+   "duration": "2565",
+   "date": "2021-08-23T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-13-girl-with-a-pearl-earring-johannes-vermeer/id1573430649?i=1000532908968&uo=4",
+   "ms": 2565000
+  },
+  {
+   "title": "Season 1, Ep. 12: The Snail - Henri Matisse",
+   "duration": "2530",
+   "date": "2021-08-16T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-12-the-snail-henri-matisse/id1573430649?i=1000532212282&uo=4",
+   "ms": 2530000
+  },
+  {
+   "title": "Season 1, Ep. 11: People in the Sun - Edward Hopper",
+   "duration": "2427",
+   "date": "2021-08-09T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-11-people-in-the-sun-edward-hopper/id1573430649?i=1000531539012&uo=4",
+   "ms": 2427000
+  },
+  {
+   "title": "Season 1, Ep. 10: Mrs Acton in Delhi - Howard Hodgkin",
+   "duration": "2797",
+   "date": "2021-08-02T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-10-mrs-acton-in-delhi-howard-hodgkin/id1573430649?i=1000530811597&uo=4",
+   "ms": 2797000
+  },
+  {
+   "title": "Season 1, Ep. 9: The Hunters in the Snow - Pieter Bruegel",
+   "duration": "2196",
+   "date": "2021-07-28T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-9-the-hunters-in-the-snow-pieter-bruegel/id1573430649?i=1000530344075&uo=4",
+   "ms": 2196000
+  },
+  {
+   "title": "Season 1, Ep. 8: Portrait of the Journalist Sylvia von Harden - Otto Dix",
+   "duration": "2266",
+   "date": "2021-07-21T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-8-portrait-of-the-journalist-sylvia/id1573430649?i=1000529637550&uo=4",
+   "ms": 2266000
+  },
+  {
+   "title": "Season 1, Ep. 7: The Descent from the Cross - Peter Paul Rubens",
+   "duration": "2408",
+   "date": "2021-07-14T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-7-the-descent-from-the-cross-peter-paul-rubens/id1573430649?i=1000528911596&uo=4",
+   "ms": 2408000
+  },
+  {
+   "title": "Season 1, Ep. 6: Les Demoiselles d&#39;Avignon - Picasso",
+   "duration": "3233",
+   "date": "Thu, 08 Jul 2021 00:00:00 +0100"
+  },
+  {
+   "title": "Season 1, Ep. 5: Train Landscape - Eric Ravilious",
+   "duration": "2444",
+   "date": "2021-06-30T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-5-train-landscape-eric-ravilious/id1573430649?i=1000527439359&uo=4",
+   "ms": 2444000
+  },
+  {
+   "title": "Season 1, Ep. 4: The Death of Marat - Jacques-Louis David",
+   "duration": "2175",
+   "date": "2021-06-23T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-4-the-death-of-marat-jacques-louis-david/id1573430649?i=1000526669930&uo=4",
+   "ms": 2175000
+  },
+  {
+   "title": "Season 1, Ep. 3: The Two Fridas - Frida Kahlo",
+   "duration": "2928",
+   "date": "2021-06-23T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-3-the-two-fridas-frida-kahlo/id1573430649?i=1000526669845&uo=4",
+   "ms": 2928000
+  },
+  {
+   "title": "Season 1, Ep. 2: Sunflowers - Claude Monet",
+   "duration": "2439",
+   "date": "2021-06-23T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-2-sunflowers-claude-monet/id1573430649?i=1000526669873&uo=4",
+   "ms": 2439000
+  },
+  {
+   "title": "Season 1, Ep. 1: The Fighting Temeraire - J. M. W. Turner",
+   "duration": "2526",
+   "date": "2021-06-23T23:00:00Z",
+   "apple": "https://podcasts.apple.com/us/podcast/season-1-ep-1-the-fighting-temeraire-j-m-w-turner/id1573430649?i=1000526669678&uo=4",
+   "ms": 2526000
+  }
+ ]
 }
