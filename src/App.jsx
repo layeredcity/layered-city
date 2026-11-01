@@ -467,12 +467,11 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
             <img className="landmark-hero__img" src={lm.photo.src} alt={lm.name} />
             <div className="landmark-hero__overlay" />
           </div>
-          {/* Type, name and story count stacked left above the description,
-              so the photo stays clear. */}
+          {/* Type and name stacked left above the description, so the photo
+              stays clear. No story count: the stories are listed right below. */}
           <div className="landmark-top__heading">
             <div className="landmark-hero__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
             <div className="landmark-hero__name">{lm.name}</div>
-            <div className="landmark-hero__count">{landmarkSummary(lm)}</div>
           </div>
           <p className="landmark-top__desc">{lm.description}</p>
           <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
@@ -489,7 +488,6 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
         <LandmarkBadge type={lm.type} large />
         <div className="story-modal__header-text">
           <div className="story-modal__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
-          <div className="story-modal__channel">{landmarkSummary(lm)}</div>
         </div>
       </div>
       <h2 className="story-modal__title">{lm.name}</h2>
