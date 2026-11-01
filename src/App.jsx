@@ -503,11 +503,19 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
 
 // A landmark's stories, grouped by media type under narrow sticky dividers
 // with the type's icon, types in alphabetical order.
+// Order of the media groups inside a landmark. Anything not listed (TV
+// sits after Movies) goes at the end, alphabetically.
+const LANDMARK_GROUP_ORDER = ['Videos', 'Podcasts', 'Books', 'Movies', 'TV', 'Music', 'Tours']
+function landmarkOrder(label) {
+  const i = LANDMARK_GROUP_ORDER.indexOf(label)
+  return i === -1 ? 100 + label.charCodeAt(0) : i
+}
+
 function LandmarkStories({ story, onOpenStory, omdbCache, bookCache }) {
   const groups = FILTERS.slice(1).filter(f => f.types.length)
     .map(f => ({ f, items: story.landmark.members.filter(m => f.types.includes((m.mediaType || '').toLowerCase())) }))
     .filter(g => g.items.length)
-    .sort((a, b) => a.f.label.localeCompare(b.f.label))
+    .sort((a, b) => landmarkOrder(a.f.label) - landmarkOrder(b.f.label))
   return groups.flatMap(({ f, items }) => [
     <div key={'h-' + f.label} className="story-group-heading landmark-group-heading">
       <span className="landmark-group-heading__icon">{TYPE_ICONS[f.icon]}</span>
