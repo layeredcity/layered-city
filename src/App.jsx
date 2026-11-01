@@ -466,11 +466,13 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
           <div className="landmark-hero">
             <img className="landmark-hero__img" src={lm.photo.src} alt={lm.name} />
             <div className="landmark-hero__overlay" />
-            <div className="landmark-hero__text">
-              <div className="landmark-hero__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
-              <div className="landmark-hero__name">{lm.name}</div>
-              <div className="landmark-hero__count">{landmarkSummary(lm)}</div>
-            </div>
+          </div>
+          {/* Type, name and story count stacked left above the description,
+              so the photo stays clear. */}
+          <div className="landmark-top__heading">
+            <div className="landmark-hero__type">{LANDMARK_TYPE_LABEL[lm.type] || 'Landmark'}</div>
+            <div className="landmark-hero__name">{lm.name}</div>
+            <div className="landmark-hero__count">{landmarkSummary(lm)}</div>
           </div>
           <p className="landmark-top__desc">{lm.description}</p>
           <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
