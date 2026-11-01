@@ -1,0 +1,28 @@
+# Exports a channel's stories to data/channels/ (read-only). Runs when
+# data/run-dump-channel changes.
+name: Dump channel stories
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/run-dump-channel]
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/dump-channel-stories.mjs
+        env:
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+      - run: |
+          git add data/channels
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City channels"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Dump channel stories"
+          git pull --rebase origin main
+          git push origin HEAD:main
