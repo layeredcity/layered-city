@@ -2,9 +2,9 @@
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "MAK Day 2026 sponsored by Wiener Städtische ",
-  "startDate": "2026-10-26T10:00",
-  "endDate": "2026-10-26T18:00",
+  "name": "short and sweet: VALLY WIESELTHIER",
+  "startDate": "2026-11-03T18:15",
+  "endDate": "2026-11-03T18:45",
   "location": {
    "@type": "Place",
    "name": "MAK – Museum of Applied Arts",
@@ -22,13 +22,13 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/f36a384e47a2c8e0aa906f9ca60c4391/0x2909DEB1A70DDD02FBF50E788EAE390C.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/9719c96f1a224a0a178b4c39f18c8c1f/0x0A1490B8FC97CE5CC0F6D48309ABF543.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "MAK Day: Free MAKtour: Stages of Everyday Life (GER/ÖGS)",
-  "startDate": "2026-10-26T11:00",
+  "name": "MAKtuell: All Current Exhibitions at a Glance",
+  "startDate": "2026-11-05T16:30",
   "endDate": "T",
   "location": {
    "@type": "Place",
@@ -47,13 +47,38 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/bd871c9eac90e89af5418fb2811da6c6/0x7DC34A9BEE7D15FFBEF9E07668231B3C.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/83b1df81d37878d309abe217815117ef/0x2E7655930520FA0C4DC58F781B7FC2FC.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "MAK Day: Free Guided Tour Vienna 1900: Women Designers of Viennese Modernism (in German)",
-  "startDate": "2026-10-26T12:00",
+  "name": "Blickfang 2026",
+  "startDate": "2026-11-06T12:00",
+  "endDate": "2026-11-06T20:00",
+  "location": {
+   "@type": "Place",
+   "name": "MAK – Museum of Applied Arts",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "",
+    "postalCode": "",
+    "addressRegion": "",
+    "addressCountry": ""
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Museum für Angewandte Kunst Wien"
+  },
+  "description": "",
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/adbeff30730ce8b194da45f8d126cd03/0x5E42564A9371DE224245704BDB81311F.jpeg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Curator Guided Tour: Permanent Collection Textiles and Carpets",
+  "startDate": "2026-11-06T16:30",
   "endDate": "T",
   "location": {
    "@type": "Place",
@@ -72,14 +97,14 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/d56ab7b04f77073af1975a258b5cedf5/0xC9AEB7013EA6BE51C5644A8C5C58648F.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/c014e2ee477163d528447dc7bb0154d0/0xD8662D4C4B2AB68ADA4969842EA6A4BC.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "MAK Day: Free Guided Tour: Highlights of the MAK Collection",
-  "startDate": "2026-10-26T15:00",
-  "endDate": "T",
+  "name": "Blickfang 2026",
+  "startDate": "2026-11-07T10:00",
+  "endDate": "2026-11-07T19:00",
   "location": {
    "@type": "Place",
    "name": "MAK – Museum of Applied Arts",
@@ -97,31 +122,6 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/ebd1a6d0bb3b1df1e48cbd0df15e577f/0x9D362D99518ADF72D84B9B7CD12E4E75.jpeg"
- },
- {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "MAK Day: Free Mini MAK Tour: ArchitekTour—Join in the Fun—It’s More Than Just LEGO!",
-  "startDate": "2026-10-26T15:00",
-  "endDate": "T",
-  "location": {
-   "@type": "Place",
-   "name": "MAK – Museum of Applied Arts",
-   "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "",
-    "addressLocality": "",
-    "postalCode": "",
-    "addressRegion": "",
-    "addressCountry": ""
-   }
-  },
-  "organizer": {
-   "@type": "Organization",
-   "name": "Museum für Angewandte Kunst Wien"
-  },
-  "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/a8f14f807040c91de63d41f3c1838cdd/0x9DA6B7BC1053E66EBC13255B7A413192.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/adbeff30730ce8b194da45f8d126cd03/0x5E42564A9371DE224245704BDB81311F.jpeg"
  }
 ]

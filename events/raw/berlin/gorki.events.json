@@ -7,279 +7,6 @@
   "image": [
    "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
   ],
-  "startDate": "2026-10-27T12:00:00.000Z",
-  "endDate": "2026-10-27T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-10-28T12:00:00.000Z",
-  "endDate": "2026-10-28T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-10-29T12:00:00.000Z",
-  "endDate": "2026-10-29T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-10-30T12:00:00.000Z",
-  "endDate": "2026-10-30T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-10-31T12:00:00.000Z",
-  "endDate": "2026-10-31T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-10-31T20:00:00.000Z",
-  "endDate": "2026-10-31T21:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Parkettfoyer",
-   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-01T12:00:00.000Z",
-  "endDate": "2026-11-01T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
   "startDate": "2026-11-03T12:00:00.000Z",
   "endDate": "2026-11-03T20:00:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -307,6 +34,40 @@
   ],
   "offers": {
    "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Noise as a Strategy — Workshop",
+  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
+  "url": "https://www.gorki.de/en/noise-as-a-strategy",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
+  ],
+  "startDate": "2026-11-03T16:00:00.000Z",
+  "endDate": "2026-11-03T17:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Eingangsfoyer",
+   "url": "https://www.gorki.de/en/spielorte/entree"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Marco Fusinato"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14227",
    "availability": "https://schema.org/InStock",
    "price": "0",
    "priceCurrency": "EUR"
@@ -354,6 +115,40 @@
  },
  {
   "@type": "TheaterEvent",
+  "name": "Noise as a Strategy — Workshop",
+  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
+  "url": "https://www.gorki.de/en/noise-as-a-strategy",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
+  ],
+  "startDate": "2026-11-04T16:00:00.000Z",
+  "endDate": "2026-11-04T17:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Eingangsfoyer",
+   "url": "https://www.gorki.de/en/spielorte/entree"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Marco Fusinato"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14228",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
   "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
   "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
   "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
@@ -387,6 +182,40 @@
   ],
   "offers": {
    "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Noise as a Strategy — Workshop",
+  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
+  "url": "https://www.gorki.de/en/noise-as-a-strategy",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
+  ],
+  "startDate": "2026-11-05T16:00:00.000Z",
+  "endDate": "2026-11-05T17:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Eingangsfoyer",
+   "url": "https://www.gorki.de/en/spielorte/entree"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Marco Fusinato"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14229",
    "availability": "https://schema.org/InStock",
    "price": "0",
    "priceCurrency": "EUR"
@@ -434,6 +263,40 @@
  },
  {
   "@type": "TheaterEvent",
+  "name": "Noise as a Strategy — Workshop",
+  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
+  "url": "https://www.gorki.de/en/noise-as-a-strategy",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
+  ],
+  "startDate": "2026-11-06T13:00:00.000Z",
+  "endDate": "2026-11-06T14:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Eingangsfoyer",
+   "url": "https://www.gorki.de/en/spielorte/entree"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Marco Fusinato"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14234",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
   "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
   "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
   "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
@@ -474,11 +337,11 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "An Aesthetics of Equity or How does Justice look like",
+  "name": "An Aesthetics of Justice or How does Justice look like",
   "description": "Issues of law and justice are too important to be left solely to lawyers and philosophers. That is why, in his series of events, Wolfgang Kaleck gives a platform to diverse voices from various fields and regions—recognizing that justice can only be achieved through social processes based on the…",
   "url": "https://www.gorki.de/en/an-aesthetics-of-equity-or-how-does-justice-look-like",
   "image": [
-   "https://www.gorki.de/api/media/file/Ebene209-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Wolfgang-vert-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-11-07T17:00:00.000Z",
   "endDate": "2026-11-07T19:30:00.000Z",
@@ -497,7 +360,14 @@
     "@type": "Person",
     "name": "Wolfgang Kaleck"
    }
-  ]
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14235",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
  },
  {
   "@type": "TheaterEvent",
@@ -614,6 +484,40 @@
  },
  {
   "@type": "TheaterEvent",
+  "name": "Noise as a Strategy — Workshop",
+  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
+  "url": "https://www.gorki.de/en/noise-as-a-strategy",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
+  ],
+  "startDate": "2026-11-10T16:00:00.000Z",
+  "endDate": "2026-11-10T17:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Eingangsfoyer",
+   "url": "https://www.gorki.de/en/spielorte/entree"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Marco Fusinato"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14230",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
   "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
   "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
   "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
@@ -654,6 +558,40 @@
  },
  {
   "@type": "TheaterEvent",
+  "name": "Noise as a Strategy — Workshop",
+  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
+  "url": "https://www.gorki.de/en/noise-as-a-strategy",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
+  ],
+  "startDate": "2026-11-11T16:00:00.000Z",
+  "endDate": "2026-11-11T17:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Eingangsfoyer",
+   "url": "https://www.gorki.de/en/spielorte/entree"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Marco Fusinato"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14231",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
   "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
   "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
   "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
@@ -687,6 +625,40 @@
   ],
   "offers": {
    "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Noise as a Strategy — Workshop",
+  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
+  "url": "https://www.gorki.de/en/noise-as-a-strategy",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
+  ],
+  "startDate": "2026-11-12T16:00:00.000Z",
+  "endDate": "2026-11-12T17:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Eingangsfoyer",
+   "url": "https://www.gorki.de/en/spielorte/entree"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Marco Fusinato"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14232",
    "availability": "https://schema.org/InStock",
    "price": "0",
    "priceCurrency": "EUR"
@@ -840,6 +812,120 @@
   ],
   "offers": {
    "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Music of Fears ",
+  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
+  "url": "https://www.gorki.de/en/music-of-fears",
+  "image": [
+   "https://www.gorki.de/api/media/file/rot-1920x2717.png?prefix=staging"
+  ],
+  "startDate": "2026-11-27T18:30:00.000Z",
+  "endDate": "2026-11-27T20:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Studio",
+   "url": "https://www.gorki.de/en/spielorte/studio"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Luca Cerizza"
+   },
+   {
+    "@type": "Person",
+    "name": "Çağla Ilk"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14236",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Music of Fears ",
+  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
+  "url": "https://www.gorki.de/en/music-of-fears",
+  "image": [
+   "https://www.gorki.de/api/media/file/rot-1920x2717.png?prefix=staging"
+  ],
+  "startDate": "2026-11-28T18:30:00.000Z",
+  "endDate": "2026-11-28T20:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Stage",
+   "url": "https://www.gorki.de/en/spielorte/saal"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Luca Cerizza"
+   },
+   {
+    "@type": "Person",
+    "name": "Çağla Ilk"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14238",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Music of Fears ",
+  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
+  "url": "https://www.gorki.de/en/music-of-fears",
+  "image": [
+   "https://www.gorki.de/api/media/file/rot-1920x2717.png?prefix=staging"
+  ],
+  "startDate": "2026-11-29T18:30:00.000Z",
+  "endDate": "2026-11-29T20:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Studio",
+   "url": "https://www.gorki.de/en/spielorte/studio"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Luca Cerizza"
+   },
+   {
+    "@type": "Person",
+    "name": "Çağla Ilk"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14237",
    "availability": "https://schema.org/InStock",
    "price": "0",
    "priceCurrency": "EUR"
@@ -1808,85 +1894,6 @@
    "@type": "Offer",
    "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14187",
    "availability": "https://schema.org/InStock"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
-  "startDate": "2026-12-26T12:00:00.000Z",
-  "endDate": "2026-12-26T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Gallery",
-   "url": "https://www.gorki.de/en/spielorte/gallery"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "The Hearing Trumpet",
-  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet",
-  "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
-  ],
-  "startDate": "2026-12-26T18:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Stage",
-   "url": "https://www.gorki.de/en/spielorte/saal"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Ulrike Ottinger"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14189",
-   "availability": "https://schema.org/InStock"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
-  "startDate": "2026-12-27T12:00:00.000Z",
-  "endDate": "2026-12-27T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Gallery",
-   "url": "https://www.gorki.de/en/spielorte/gallery"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
   }
  }
 ]
