@@ -25,7 +25,7 @@ for (const [slug, key] of Object.entries(SHOWS)) {
     let items = []
     if (show?.feedUrl) {
       const xml = await fetch(show.feedUrl, { headers: { 'User-Agent': 'Mozilla/5.0' } }).then(r => r.text())
-      items = xml.split('<item>').slice(1).map(x => ({ title: tag(x, 'title'), link: tag(x, 'link'), duration: tag(x, 'itunes:duration'), date: tag(x, 'pubDate') }))
+      items = xml.split('<item>').slice(1).map(x => ({ title: tag(x, 'title'), link: tag(x, 'link'), duration: tag(x, 'itunes:duration'), date: tag(x, 'pubDate'), about: (tag(x, 'description') || tag(x, 'itunes:summary') || '').replace(/<[^>]+>/g, ' ').replace(/&[a-z#0-9]+;/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 350) }))
     }
     const rows = items.length ? items.map(i => ({ ...i, ...(apple[i.title] || {}) })) : Object.entries(apple).map(([title, a]) => ({ title, ...a }))
     fs.writeFileSync(`data/feeds/${slug}.json`, JSON.stringify({ show: show?.collectionName, feed: show?.feedUrl, episodes: rows }, null, 1))
