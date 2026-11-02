@@ -23,11 +23,14 @@ jobs:
             python3 -c "import json,sys;d=json.load(open('/tmp/$ch.json'));json.dump([{'id':e.get('id'),'title':e.get('title'),'duration':e.get('duration')} for e in d.get('entries',[])],open('data/yt/$ch.json','w'),indent=1,ensure_ascii=False)" || true
           done
           yt-dlp -J --flat-playlist --playlist-items 0 "https://www.youtube.com/@GreatArtExplained" | python3 -c "import json,sys;d=json.load(sys.stdin);json.dump([t for t in d.get('thumbnails',[])],open('data/yt/GreatArtExplained-thumbs.json','w'),indent=1)" || true
+      - run: |
+          mkdir -p data/icons
+          curl -sfL -A "Mozilla/5.0" -o data/icons/moving-pictures.jpg https://ichef.bbci.co.uk/images/ic/600x600/p0gpngwb.jpg || true
       - run: node scripts/check-media-links.mjs
         env:
           CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
       - run: |
-          git add data/single-work-check.json data/yt
+          git add data/single-work-check.json data/yt data/icons
           git diff --cached --quiet && exit 0
           git config user.name "Layered City link check"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
