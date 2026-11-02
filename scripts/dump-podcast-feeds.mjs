@@ -4,8 +4,11 @@
 import fs from 'node:fs'
 // Show id, or a search term when the id isn't known.
 const SHOWS = { 'painting-of-the-week': 'Painting of the Week Podcast', 'lonely-palette': 1110780638, 'inside-the-masterpiece': 1844970987 }
-const extra = fs.existsSync('data/run-dump-feeds') ? fs.readFileSync('data/run-dump-feeds', 'utf8').split('\n').slice(1).filter(l => /^\S+ \d+$/.test(l)) : []
-for (const l of extra) { const [k, v] = l.split(' '); SHOWS[k] = +v }
+// Extra shows: lines after the first in data/run-dump-feeds, "slug|id or search term".
+// When extra lines are given, only those shows are dumped.
+const extra = fs.existsSync('data/run-dump-feeds') ? fs.readFileSync('data/run-dump-feeds', 'utf8').split('\n').slice(1).filter(l => l.includes('|')) : []
+if (extra.length) { for (const k of Object.keys(SHOWS)) delete SHOWS[k] }
+for (const l of extra) { const [k, v] = l.split('|').map(x => x.trim()); SHOWS[k] = /^\d+$/.test(v) ? +v : v }
 fs.mkdirSync('data/feeds', { recursive: true })
 const tag = (x, t) => (x.match(new RegExp(`<${t}[^>]*>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${t}>`)) || [])[1]?.trim()
 for (const [slug, key] of Object.entries(SHOWS)) {
@@ -13,7 +16,7 @@ for (const [slug, key] of Object.entries(SHOWS)) {
     let id = key
     if (typeof key === 'string') {
       const sr = await fetch(`https://itunes.apple.com/search?media=podcast&entity=podcast&term=${encodeURIComponent(key)}`).then(r => r.json())
-      id = sr.results.find(r => r.collectionName.toLowerCase().includes(key.toLowerCase().slice(0, 18)))?.collectionId
+      id = (sr.results.find(r => r.collectionName.toLowerCase() === key.toLowerCase()) || sr.results.find(r => r.collectionName.toLowerCase().includes(key.toLowerCase().slice(0, 18))))?.collectionId
       console.log(`::notice::${slug}: search → ${id}`)
     }
     const lk = await fetch(`https://itunes.apple.com/lookup?id=${id}&entity=podcastEpisode&limit=300`).then(r => r.json())
