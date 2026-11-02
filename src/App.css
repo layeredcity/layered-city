@@ -871,7 +871,7 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
    no room and doesn't disturb the layout; the button hangs out of it to sit
    14px in from the corner. A soft circle keeps it legible over whatever
    scrolls underneath. */
-.story-modal__close-pin { position: sticky; top: 28px; height: 0; z-index: 5; }
+.story-modal__close-pin { position: sticky; top: 0; height: 0; z-index: 5; }
 .story-modal__close-pin .story-modal__close {
   top: -14px; right: -14px; width: 32px; height: 32px; padding: 0;
   border-radius: 50%;
@@ -893,3 +893,7 @@ html[data-vt] .panel-story { transition: none !important; }
    set from the pin's position), so they don't stick out above the window. */
 .story-modal-anchor:not(.story-modal-anchor--center) .story-modal { max-height: min(70vh, var(--room, 70vh)); }
 .story-modal-anchor:not(.story-modal-anchor--center) .story-modal--landmark { max-height: min(calc(70vh - 50px), var(--room, 70vh)); }
+/* In the desktop pop-up the sticky media-type headings stick to the pop-up's
+   top edge, not 28px below it (the pop-up's padding), so nothing scrolls
+   past above them. */
+.story-modal .landmark-group-heading { top: -28px; }
