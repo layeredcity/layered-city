@@ -3,7 +3,7 @@
 // (YouTube lengthSeconds, schema/OG duration, BBC programme duration).
 // Input: data/single-work-candidates.json. Output: data/single-work-check.json.
 import fs from 'node:fs'
-const items = JSON.parse(fs.readFileSync('data/single-work-candidates.json', 'utf8')).concat([{ title: 'Moving Pictures (series)', channel: 'Moving Pictures', url: 'https://www.bbc.co.uk/programmes/b07bp3jn' }])
+const items = JSON.parse(fs.readFileSync('data/single-work-candidates.json', 'utf8')).filter(i => i.channel === 'Moving Pictures')
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36'
 const sleep = ms => new Promise(r => setTimeout(r, ms))
 function dur(html) {
@@ -24,6 +24,7 @@ for (const it of items) {
     r.pageTitle = (html.match(/<title[^>]*>([^<]*)<\/title>/i)?.[1] || '').trim().slice(0, 160)
     r.ogTitle = (html.match(/property="og:title"\s+content="([^"]*)"/i)?.[1] || '').slice(0, 160)
     r.ogImage = html.match(/property="og:image"\s+content="([^"]*)"/i)?.[1] || ''
+    if (/bbc\.co\.uk/.test(it.url)) r.ld = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m => m[1].slice(0, 3000))
     r.seconds = dur(html)
     const y = html.match(/"(?:uploadDate|datePublished|publishDate)"\s*:\s*"(\d{4})/); if (y) r.year = +y[1]
   } catch (e) { r.error = String(e) }
