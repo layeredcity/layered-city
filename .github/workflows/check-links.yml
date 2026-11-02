@@ -18,7 +18,7 @@ jobs:
       - run: pip install -q yt-dlp
       - run: |
           mkdir -p data/yt
-          for ch in GreatArtExplained; do
+          for ch in GreatArtExplained MarkFeltonProductions toldinstone RickStevesEurope HistoryHit; do
             yt-dlp --flat-playlist -J "https://www.youtube.com/@$ch/videos" > /tmp/$ch.json || true
             python3 -c "import json,sys;d=json.load(open('/tmp/$ch.json'));json.dump([{'id':e.get('id'),'title':e.get('title'),'duration':e.get('duration')} for e in d.get('entries',[])],open('data/yt/$ch.json','w'),indent=1,ensure_ascii=False)" || true
           done
