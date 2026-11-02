@@ -13,6 +13,7 @@ for (const l of lines) {
     let html
     try { html = await fetch(`https://www.bbc.co.uk/programmes/${pid}/episodes/guide?page=${page}`, { headers: { 'User-Agent': UA } }).then(r => r.ok ? r.text() : '') } catch { html = '' }
     if (!html) break
+    if (page === 5) fs.writeFileSync(`data/feeds/bbc-${slug}-sample.html`, html)
     const blocks = html.split('programme--episode').slice(1)
     let added = 0
     for (const b of blocks) {
