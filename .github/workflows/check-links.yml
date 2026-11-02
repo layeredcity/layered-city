@@ -22,6 +22,7 @@ jobs:
             yt-dlp --flat-playlist -J "https://www.youtube.com/@$ch/videos" > /tmp/$ch.json || true
             python3 -c "import json,sys;d=json.load(open('/tmp/$ch.json'));json.dump([{'id':e.get('id'),'title':e.get('title'),'duration':e.get('duration')} for e in d.get('entries',[])],open('data/yt/$ch.json','w'),indent=1,ensure_ascii=False)" || true
           done
+          yt-dlp -J --flat-playlist --playlist-items 0 "https://www.youtube.com/@GreatArtExplained" | python3 -c "import json,sys;d=json.load(sys.stdin);json.dump([t for t in d.get('thumbnails',[])],open('data/yt/GreatArtExplained-thumbs.json','w'),indent=1)" || true
       - run: node scripts/check-media-links.mjs
         env:
           CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
