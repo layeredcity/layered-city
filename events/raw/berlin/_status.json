@@ -1,11 +1,11 @@
 {
- "fetched": "2026-11-02T05:52:12.737Z",
+ "fetched": "2026-11-02T06:03:39.489Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 27697,
+   "chars": 28707,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
@@ -170,10 +170,10 @@
    "jsonLdEvents": 0
   },
   "hkw": {
-   "url": "https://www.hkw.de/en/programme",
-   "final": "https://www.hkw.de/en/programme",
+   "url": "https://www.hkw.de/en/calendar",
+   "final": "https://www.hkw.de/en/calendar",
    "http": 200,
-   "chars": 1655,
+   "chars": 1653,
    "jsonLdEvents": 0
   },
   "arsenal": {
@@ -208,7 +208,7 @@
    "url": "https://www.visitberlin.de/en/events-berlin",
    "final": "https://www.visitberlin.de/en/events-berlin",
    "http": 200,
-   "chars": 20898,
+   "chars": 20896,
    "jsonLdEvents": 0
   },
   "visitberlin-classical": {

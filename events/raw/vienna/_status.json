@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-02T05:53:32.699Z",
+ "fetched": "2026-11-02T06:05:03.730Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -68,7 +68,7 @@
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 31927,
+   "chars": 32057,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -292,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 32174,
+   "chars": 31994,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
@@ -345,10 +345,38 @@
    "jsonLdEvents": 0
   },
   "reg-muth-friday": {
-   "url": "https://muth.at/programm/friday-afternoon-2026-10-23/",
-   "final": "https://muth.at/programm/friday-afternoon-2026-10-23/",
+   "url": "https://muth.at/programm/friday-afternoon-2026-11-13/",
+   "final": "https://muth.at/programm/friday-afternoon-2026-11-13/",
    "http": 200,
-   "chars": 5118,
+   "chars": 5034,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-7": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=7",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=7",
+   "http": 200,
+   "chars": 5046,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-8": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=8",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=8",
+   "http": 200,
+   "chars": 4903,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-9": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=9",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=9",
+   "http": 200,
+   "chars": 5154,
+   "jsonLdEvents": 0
+  },
+  "konzerthaus-10": {
+   "url": "https://konzerthaus.at/en/program-and-tickets?page=10",
+   "final": "https://konzerthaus.at/en/program-and-tickets?page=10",
+   "http": 200,
+   "chars": 5158,
    "jsonLdEvents": 0
   }
  }
