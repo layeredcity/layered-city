@@ -1,18 +1,18 @@
 {
- "fetched": "2026-11-02T06:03:39.489Z",
+ "fetched": "2026-11-02T09:37:14.449Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 28707,
+   "chars": 28874,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
    "url": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "final": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "http": 200,
-   "chars": 21849,
+   "chars": 21644,
    "jsonLdEvents": 0
   },
   "exberliner": {
@@ -26,7 +26,7 @@
    "url": "https://www.staatsoper-berlin.de/en/spielplan/",
    "final": "https://www.staatsoper-berlin.de/en/programme/",
    "http": 200,
-   "chars": 20353,
+   "chars": 20368,
    "jsonLdEvents": 0
   },
   "deutsche-oper": {
@@ -40,7 +40,7 @@
    "url": "https://www.komische-oper-berlin.de/en/what/schedule/",
    "final": "https://www.komische-oper-berlin.de/en/what/schedule/",
    "http": 200,
-   "chars": 45755,
+   "chars": 45742,
    "jsonLdEvents": 0
   },
   "philharmonie": {
@@ -89,42 +89,42 @@
    "url": "https://www.volksbuehne.berlin/en",
    "final": "https://www.volksbuehne-berlin.de/en/",
    "http": 200,
-   "chars": 29082,
+   "chars": 29161,
    "jsonLdEvents": 0
   },
   "hau": {
    "url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
    "final": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/",
    "http": 200,
-   "chars": 44176,
+   "chars": 44319,
    "jsonLdEvents": 0
   },
   "radialsystem": {
    "url": "https://www.radialsystem.de/en/",
    "final": "https://www.radialsystem.de/en/",
    "http": 200,
-   "chars": 7944,
+   "chars": 7374,
    "jsonLdEvents": 0
   },
   "festspiele": {
    "url": "https://www.berlinerfestspiele.de/en/",
    "final": "https://www.berlinerfestspiele.de/en",
    "http": 200,
-   "chars": 16716,
+   "chars": 16900,
    "jsonLdEvents": 0
   },
   "jazzfest": {
    "url": "https://www.berlinerfestspiele.de/en/jazzfest-berlin",
    "final": "https://www.berlinerfestspiele.de/en/jazzfest-berlin",
    "http": 200,
-   "chars": 18775,
+   "chars": 18689,
    "jsonLdEvents": 0
   },
   "gropius-bau": {
    "url": "https://www.berlinerfestspiele.de/en/gropius-bau",
    "final": "https://www.berlinerfestspiele.de/en/gropius-bau",
    "http": 200,
-   "chars": 9542,
+   "chars": 9413,
    "jsonLdEvents": 0
   },
   "smb-exhibitions": {
@@ -159,14 +159,14 @@
    "url": "https://www.jmberlin.de/en/exhibitions",
    "final": "https://www.jmberlin.de/en/current-exhibitions",
    "http": 200,
-   "chars": 8768,
+   "chars": 8795,
    "jsonLdEvents": 0
   },
   "humboldt-forum": {
    "url": "https://www.humboldtforum.org/en/programme-2/",
    "final": "https://www.humboldtforum.org/en/programme-2/",
    "http": 200,
-   "chars": 17978,
+   "chars": 17926,
    "jsonLdEvents": 0
   },
   "hkw": {
@@ -208,14 +208,14 @@
    "url": "https://www.visitberlin.de/en/events-berlin",
    "final": "https://www.visitberlin.de/en/events-berlin",
    "http": 200,
-   "chars": 20896,
+   "chars": 20956,
    "jsonLdEvents": 0
   },
   "visitberlin-classical": {
    "url": "https://www.visitberlin.de/en/events-classic-music",
    "final": "https://www.visitberlin.de/en/events-classic-music-berlin",
    "http": 200,
-   "chars": 30146,
+   "chars": 28798,
    "jsonLdEvents": 0
   },
   "visitberlin-markets": {
@@ -229,14 +229,14 @@
    "url": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
    "final": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
    "http": 200,
-   "chars": 20498,
+   "chars": 20513,
    "jsonLdEvents": 0
   },
   "berliner-ensemble-2": {
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "http": 200,
-   "chars": 19117,
+   "chars": 19128,
    "jsonLdEvents": 0
   },
   "reg-mauerpark": {

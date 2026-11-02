@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-02T06:05:03.730Z",
+ "fetched": "2026-11-02T09:38:13.952Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -33,7 +33,7 @@
    "url": "https://www.wiener-staatsoper.at/en/calendar/",
    "final": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
    "http": 200,
-   "chars": 97050,
+   "chars": 97391,
    "jsonLdEvents": 0
   },
   "volksoper": {
@@ -68,7 +68,7 @@
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 32057,
+   "chars": 31688,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -124,7 +124,7 @@
    "url": "https://www.leopoldmuseum.org/en/exhibitions",
    "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
    "http": 200,
-   "chars": 7617,
+   "chars": 7631,
    "jsonLdEvents": 0
   },
   "mak": {
@@ -138,7 +138,7 @@
    "url": "https://www.mumok.at/en/exhibitions",
    "final": "https://www.mumok.at/en/exhibitions/current",
    "http": 200,
-   "chars": 5737,
+   "chars": 5605,
    "jsonLdEvents": 0
   },
   "kunsthalle": {
@@ -173,14 +173,14 @@
    "url": "https://www.porgy.at/events/upcoming",
    "final": "https://www.porgy.at/events/upcoming",
    "http": 200,
-   "chars": 37396,
+   "chars": 37601,
    "jsonLdEvents": 0
   },
   "arena": {
    "url": "https://www.arena.wien/",
    "final": "https://arena.wien/",
    "http": 200,
-   "chars": 4974,
+   "chars": 5038,
    "jsonLdEvents": 0
   },
   "wuk": {
@@ -201,7 +201,7 @@
    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
    "final": "https://www.wiener-staatsoper.at/en/calendar/2026/november/",
    "http": 200,
-   "chars": 97050,
+   "chars": 97391,
    "jsonLdEvents": 0
   },
   "mak-events": {
@@ -292,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 31994,
+   "chars": 31935,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
