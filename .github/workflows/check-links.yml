@@ -18,7 +18,7 @@ jobs:
       - run: pip install -q yt-dlp
       - run: |
           mkdir -p data/yt
-          for ch in GreatArtExplained MarkFeltonProductions toldinstone RickStevesEurope HistoryHit; do
+          for ch in ; do
             yt-dlp --flat-playlist -J "https://www.youtube.com/@$ch/videos" > /tmp/$ch.json || true
             python3 -c "import json,sys;d=json.load(open('/tmp/$ch.json'));json.dump([{'id':e.get('id'),'title':e.get('title'),'duration':e.get('duration')} for e in d.get('entries',[])],open('data/yt/$ch.json','w'),indent=1,ensure_ascii=False)" || true
           done
@@ -28,9 +28,12 @@ jobs:
           curl -sfL -A "Mozilla/5.0" -o data/icons/moving-pictures.jpg https://ichef.bbci.co.uk/images/ic/600x600/p0gpngwb.jpg || true
       - run: node scripts/check-media-links.mjs
         env:
+          LINKS_FILE: data/history-pass-candidates.json
+          LINKS_OUT: data/history-pass-check.json
+        env:
           CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
       - run: |
-          git add data/single-work-check.json data/yt data/icons
+          git add data/single-work-check.json data/history-pass-check.json data/yt data/icons
           git diff --cached --quiet && exit 0
           git config user.name "Layered City link check"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

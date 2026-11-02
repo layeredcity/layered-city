@@ -3,7 +3,7 @@
 // (YouTube lengthSeconds, schema/OG duration, BBC programme duration).
 // Input: data/single-work-candidates.json. Output: data/single-work-check.json.
 import fs from 'node:fs'
-const items = JSON.parse(fs.readFileSync('data/single-work-candidates.json', 'utf8'))
+const items = JSON.parse(fs.readFileSync(process.env.LINKS_FILE || 'data/single-work-candidates.json', 'utf8'))
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36'
 const sleep = ms => new Promise(r => setTimeout(r, ms))
 function dur(html) {
@@ -31,4 +31,4 @@ for (const it of items) {
   out.push(r); console.log(r.status, r.seconds, r.pageTitle?.slice(0, 70))
   await sleep(700)
 }
-fs.writeFileSync('data/single-work-check.json', JSON.stringify(out, null, 1))
+fs.writeFileSync(process.env.LINKS_OUT || 'data/single-work-check.json', JSON.stringify(out, null, 1))
