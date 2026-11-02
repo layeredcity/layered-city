@@ -2098,6 +2098,10 @@ export default function App() {
             if (modalAnchorRef.current) {
               modalAnchorRef.current.style.left = (pos?.x ?? -9999) + 'px'
               modalAnchorRef.current.style.top  = (pos?.y ?? -9999) + 'px'
+              // Space between the top of the map and the pin (less the arrow
+              // and a margin): the pop-up never grows taller than this, so it
+              // can't stick out above the window; it scrolls instead.
+              if (pos) modalAnchorRef.current.style.setProperty('--room', Math.max(240, pos.y - 30) + 'px')
             }
           }}
         />

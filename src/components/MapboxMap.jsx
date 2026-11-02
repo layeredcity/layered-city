@@ -195,7 +195,9 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       zoom: 15,
       duration: 1200,
       essential: true,
-      padding: { top: 340, bottom: 60, left: 60, right: 60 },
+      // Leave room above the pin for the pop-up. Landmark pop-ups are tall
+      // (photo + description + stories), so they get most of the height.
+      padding: { top: focusStory.mediaType === 'landmark' ? Math.round(Math.min(map.getContainer().clientHeight * 0.72, 680)) : 340, bottom: 60, left: 60, right: 60 },
       easing: t => 1 - Math.pow(1 - t, 3),
     })
   }, [focusStory?.id])

@@ -888,3 +888,8 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
    reveal shows the map, not a panel mid-slide. */
 .mini-map--tappable { cursor: pointer; }
 html[data-vt] .panel-story { transition: none !important; }
+
+/* Desktop pop-ups never taller than the space above their pin (--room is
+   set from the pin's position), so they don't stick out above the window. */
+.story-modal-anchor:not(.story-modal-anchor--center) .story-modal { max-height: min(70vh, var(--room, 70vh)); }
+.story-modal-anchor:not(.story-modal-anchor--center) .story-modal--landmark { max-height: min(calc(70vh - 50px), var(--room, 70vh)); }
