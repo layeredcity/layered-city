@@ -2,6 +2,22 @@
  "city": "Edinburgh",
  "pins": [
   {
+   "id": "5D8MznEB4DKgIHM2YMhi68",
+   "title": "The Skating Minister by Henry Raeburn",
+   "type": "podcast",
+   "place": "Scottish National Gallery",
+   "lat": 55.9509,
+   "lon": -3.196
+  },
+  {
+   "id": "1e7v7NgdFwycr6PfHspRWN",
+   "title": "The Vision after the Sermon by Paul Gauguin",
+   "type": "video",
+   "place": "Scottish National Gallery",
+   "lat": 55.9509,
+   "lon": -3.1958
+  },
+  {
    "id": "71K7w7as4IzVxOJTnMEnYi",
    "title": "Robert Louis Stevenson's Edinburgh Trail: The University Years",
    "type": "audiotour",
@@ -704,14 +720,6 @@
    "place": "Rose Street",
    "lat": 55.9548,
    "lon": -3.1972
-  },
-  {
-   "id": "1e7v7NgdFwycr6PfHspRWN",
-   "title": "A Gauguin of praying Breton women ends up in Edinburgh",
-   "type": "video",
-   "place": "Scottish National Gallery",
-   "lat": 55.9509,
-   "lon": -3.1958
   },
   {
    "id": "49v41qpmKM2thoubOQLwnm",

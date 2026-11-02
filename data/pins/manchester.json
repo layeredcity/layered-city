@@ -2,6 +2,30 @@
  "city": "Manchester",
  "pins": [
   {
+   "id": "5aa7YKu2XoYDPmwaVOWRVm",
+   "title": "Going to the Match by L.S. Lowry",
+   "type": "podcast",
+   "place": "The Lowry, Salford Quays",
+   "lat": 53.4708,
+   "lon": -2.2946
+  },
+  {
+   "id": "4fqG7nfEaxbmrjQu6unlCU",
+   "title": "Imperial War Museum North by Daniel Libeskind",
+   "type": "video",
+   "place": "Imperial War Museum North, Salford Quays",
+   "lat": 53.4697,
+   "lon": -2.2988
+  },
+  {
+   "id": "5SWHGv7p6hffu0LH06hBXH",
+   "title": "Work by Ford Madox Brown",
+   "type": "video",
+   "place": "Manchester Art Gallery",
+   "lat": 53.4787,
+   "lon": -2.2413
+  },
+  {
    "id": "5YHBRuXDpKjdE4YYOTfo9V",
    "title": "Theatre of Dreams: A Walking Tour around Old Trafford",
    "type": "audiotour",
@@ -560,22 +584,6 @@
    "place": "Manchester Central Library",
    "lat": 53.478,
    "lon": -2.2445
-  },
-  {
-   "id": "5SWHGv7p6hffu0LH06hBXH",
-   "title": "Navvies dig up a Hampstead street while the idle look on",
-   "type": "video",
-   "place": "Manchester Art Gallery",
-   "lat": 53.4787,
-   "lon": -2.2413
-  },
-  {
-   "id": "4fqG7nfEaxbmrjQu6unlCU",
-   "title": "Libeskind builds a museum from the shards of a broken globe",
-   "type": "video",
-   "place": "Imperial War Museum North, Salford Quays",
-   "lat": 53.4697,
-   "lon": -2.2988
   }
  ]
 }

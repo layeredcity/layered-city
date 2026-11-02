@@ -2,6 +2,54 @@
  "city": "Dublin",
  "pins": [
   {
+   "id": "45hDVQdu2i7QpSfJRIEYPA",
+   "title": "The Taking of Christ by Caravaggio",
+   "type": "video",
+   "place": "National Gallery of Ireland",
+   "lat": 53.3409,
+   "lon": -6.2525
+  },
+  {
+   "id": "5OxV7XL7QT9kGWboPLri0x",
+   "title": "The Book of Kells, an illuminated gospel book",
+   "type": "video",
+   "place": "Book of Kells, Old Library, Trinity College",
+   "lat": 53.3439,
+   "lon": -6.2566
+  },
+  {
+   "id": "v4IedbC0xJOA6zRq4u5l5",
+   "title": "The Cross of Cong, a 12th-century reliquary cross",
+   "type": "video",
+   "place": "National Museum of Ireland – Archaeology",
+   "lat": 53.3404,
+   "lon": -6.2552
+  },
+  {
+   "id": "bi5C76RU4RS2u6yjgUrha",
+   "title": "The Shrine of Saint Patrick’s Bell",
+   "type": "video",
+   "place": "National Museum of Ireland – Archaeology",
+   "lat": 53.3404,
+   "lon": -6.2552
+  },
+  {
+   "id": "44RZu1ACQ20UOG4QA6TZSp",
+   "title": "The Ardagh Chalice",
+   "type": "video",
+   "place": "National Museum of Ireland – Archaeology",
+   "lat": 53.3404,
+   "lon": -6.2549
+  },
+  {
+   "id": "66c4iJXy4PrqssFEzzXYwV",
+   "title": "The Coggalbeg Hoard, a gold lunula and two discs",
+   "type": "video",
+   "place": "National Museum of Ireland – Archaeology",
+   "lat": 53.3405,
+   "lon": -6.2549
+  },
+  {
    "id": "10FfLdidfTH1RrlKYbQVJa",
    "title": "Composing Dublin: Photography on a Walking Tour",
    "type": "audiotour",
@@ -610,52 +658,12 @@
    "lon": -6.2674
   },
   {
-   "id": "66c4iJXy4PrqssFEzzXYwV",
-   "title": "Gold collars and discs show Bronze Age Ireland’s wealth",
-   "type": "video",
-   "place": "National Museum of Ireland – Archaeology",
-   "lat": 53.3405,
-   "lon": -6.2549
-  },
-  {
    "id": "SoSGyGzneu9F1xiECuZIU",
    "title": "A countess trades her ballgowns for a rebel’s uniform",
    "type": "video",
    "place": "St Stephen’s Green park",
    "lat": 53.3382,
    "lon": -6.2591
-  },
-  {
-   "id": "44RZu1ACQ20UOG4QA6TZSp",
-   "title": "Two boys digging potatoes find Ireland’s finest chalice",
-   "type": "video",
-   "place": "National Museum of Ireland – Archaeology",
-   "lat": 53.3404,
-   "lon": -6.2549
-  },
-  {
-   "id": "bi5C76RU4RS2u6yjgUrha",
-   "title": "A plain iron bell gets a jewelled case eight centuries later",
-   "type": "video",
-   "place": "National Museum of Ireland – Archaeology",
-   "lat": 53.3404,
-   "lon": -6.2552
-  },
-  {
-   "id": "v4IedbC0xJOA6zRq4u5l5",
-   "title": "A processional cross made to hold a fragment of the True Cross",
-   "type": "video",
-   "place": "National Museum of Ireland – Archaeology",
-   "lat": 53.3404,
-   "lon": -6.2552
-  },
-  {
-   "id": "5OxV7XL7QT9kGWboPLri0x",
-   "title": "Monks fill a gospel book with spirals, beasts and tiny jokes",
-   "type": "video",
-   "place": "Book of Kells, Old Library, Trinity College",
-   "lat": 53.3439,
-   "lon": -6.2566
   },
   {
    "id": "6pojApAGojCR98QPKJEbnT",

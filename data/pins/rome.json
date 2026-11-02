@@ -2,6 +2,630 @@
  "city": "Rome",
  "pins": [
   {
+   "id": "4arQbiQAGTgDa0BjnPoU3m",
+   "title": "Portrait of Pope Innocent X by Diego Velázquez",
+   "type": "podcast",
+   "place": "Doria Pamphilj Gallery",
+   "lat": 41.8981,
+   "lon": 12.4813
+  },
+  {
+   "id": "2A90Sp9II6XKVg9JuzGuEI",
+   "title": "Augustus of Prima Porta, Roman marble statue",
+   "type": "podcast",
+   "place": "Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4536
+  },
+  {
+   "id": "6tkvbuUUOAZbfr1ePlqTmW",
+   "title": "The Conversion of Saint Paul by Caravaggio",
+   "type": "podcast",
+   "place": "Santa Maria del Popolo church",
+   "lat": 41.9113,
+   "lon": 12.4763
+  },
+  {
+   "id": "4EWqldH7ktv6gwpjh8Nei7",
+   "title": "The Calling of Saint Matthew by Caravaggio",
+   "type": "podcast",
+   "place": "San Luigi dei Francesi church",
+   "lat": 41.8995,
+   "lon": 12.4747
+  },
+  {
+   "id": "3SEGcTdNQHYWN0cwTNIjWt",
+   "title": "Apollo and Daphne by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Borghese Gallery",
+   "lat": 41.9142,
+   "lon": 12.4921
+  },
+  {
+   "id": "2MOeiyc1t5sMhMiDdE5u0E",
+   "title": "The School of Athens by Raphael",
+   "type": "video",
+   "place": "Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4536
+  },
+  {
+   "id": "7zQhyIOxKLKQu8vyGZ0yvh",
+   "title": "The Crucifixion of Saint Peter by Caravaggio",
+   "type": "video",
+   "place": "Santa Maria del Popolo church",
+   "lat": 41.9114,
+   "lon": 12.4766
+  },
+  {
+   "id": "4RDAEUuHNaiEyClNql6DG5",
+   "title": "Narcissus by Caravaggio",
+   "type": "video",
+   "place": "Palazzo Barberini gallery",
+   "lat": 41.9034,
+   "lon": 12.4901
+  },
+  {
+   "id": "2rskC1fmFaezdxT2Ivz5nk",
+   "title": "The Chair of Saint Peter by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Chair of St Peter, St Peter’s Basilica",
+   "lat": 41.9022,
+   "lon": 12.4539
+  },
+  {
+   "id": "4bqhqSfbCE25PqinHiuF3I",
+   "title": "St Peter’s Basilica, from Bramante to Bernini",
+   "type": "video",
+   "place": "St Peter’s Basilica",
+   "lat": 41.9022,
+   "lon": 12.4539
+  },
+  {
+   "id": "rFPns1uH5HS7Eii4hAQhV",
+   "title": "Santa Prassede, a ninth-century mosaic church",
+   "type": "video",
+   "place": "Santa Prassede church",
+   "lat": 41.8977,
+   "lon": 12.4987
+  },
+  {
+   "id": "6evbiBwDibJmGprKPUNWFK",
+   "title": "Medusa by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Capitoline Museums",
+   "lat": 41.893,
+   "lon": 12.4828
+  },
+  {
+   "id": "5NSVSibNP4CPuT7oWUp2C3",
+   "title": "The Tempietto by Donato Bramante",
+   "type": "video",
+   "place": "Bramante’s Tempietto, San Pietro in Montorio",
+   "lat": 41.8885,
+   "lon": 12.4664
+  },
+  {
+   "id": "33tnYmZbi0jcxkv9x7vVB3",
+   "title": "The Garden Room of the Villa of Livia",
+   "type": "video",
+   "place": "Palazzo Massimo, National Roman Museum",
+   "lat": 41.9014,
+   "lon": 12.498
+  },
+  {
+   "id": "7ectltRIr9hRwDh4e8F2xk",
+   "title": "Saint Stanislas Kostka on His Deathbed by Pierre Legros the Younger",
+   "type": "video",
+   "place": "Rooms of St Stanislas Kostka, Sant’Andrea al Quirinale",
+   "lat": 41.9011,
+   "lon": 12.489
+  },
+  {
+   "id": "1A2UmTzuDyho0PksTHagn1",
+   "title": "Sant’Andrea al Quirinale by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Sant’Andrea al Quirinale church",
+   "lat": 41.9011,
+   "lon": 12.489
+  },
+  {
+   "id": "2Jvi3XZFuRW77kBnU86eR2",
+   "title": "The Boxer at Rest, a Hellenistic bronze",
+   "type": "video",
+   "place": "Palazzo Massimo, National Roman Museum",
+   "lat": 41.9014,
+   "lon": 12.498
+  },
+  {
+   "id": "2amV9wPzwu0aiM28MFcQWr",
+   "title": "The Triumph of Galatea by Raphael",
+   "type": "video",
+   "place": "Villa Farnesina",
+   "lat": 41.8935,
+   "lon": 12.4672
+  },
+  {
+   "id": "43oJnn5J14zl8rgmsQHhcM",
+   "title": "The Glorification of Saint Ignatius by Andrea Pozzo",
+   "type": "video",
+   "place": "Sant’Ignazio church",
+   "lat": 41.899,
+   "lon": 12.4797
+  },
+  {
+   "id": "5tUj3ubGG3RY4TuAAilpXG",
+   "title": "The Apoxyomenos (Scraper), after Lysippos",
+   "type": "video",
+   "place": "Pio-Clementino Museum, Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4536
+  },
+  {
+   "id": "68KzPH2Ze3DVUNFOobafxF",
+   "title": "The Ludovisi Battle Sarcophagus",
+   "type": "video",
+   "place": "Palazzo Altemps, National Roman Museum",
+   "lat": 41.901,
+   "lon": 12.4729
+  },
+  {
+   "id": "4Lp57wsPorhICou9fS9qFC",
+   "title": "Achilles and Ajax Playing a Game by Exekias",
+   "type": "video",
+   "place": "Gregorian Etruscan Museum, Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4536
+  },
+  {
+   "id": "HOyxTkHj8g5cnhtY2ZBl6",
+   "title": "The Chapel of Saint Ignatius by Andrea Pozzo",
+   "type": "video",
+   "place": "Chapel of St Ignatius, Church of the Gesù",
+   "lat": 41.8959,
+   "lon": 12.4799
+  },
+  {
+   "id": "4sYJGgon7IVFx1tUG8hqLt",
+   "title": "The Baldacchino by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Bernini’s Baldacchino, St Peter’s Basilica",
+   "lat": 41.9022,
+   "lon": 12.4539
+  },
+  {
+   "id": "2WqjPjhpb86PgRoT1Gikjb",
+   "title": "The Capitoline Brutus, an ancient bronze head",
+   "type": "video",
+   "place": "Capitoline Museums",
+   "lat": 41.893,
+   "lon": 12.4828
+  },
+  {
+   "id": "17Kr19GZn54TH4gKvFceGk",
+   "title": "The Pantheon",
+   "type": "video",
+   "place": "Pantheon",
+   "lat": 41.8986,
+   "lon": 12.4769
+  },
+  {
+   "id": "6EgVZeZsM2kLRkBuv5l8mf",
+   "title": "The Basilica of Maxentius and Constantine",
+   "type": "video",
+   "place": "Basilica of Maxentius, Roman Forum",
+   "lat": 41.8919,
+   "lon": 12.488
+  },
+  {
+   "id": "4ugGMfs7h5lJeEy3QvRF0B",
+   "title": "The Sistine Chapel Ceiling by Michelangelo",
+   "type": "video",
+   "place": "Sistine Chapel",
+   "lat": 41.9029,
+   "lon": 12.4545
+  },
+  {
+   "id": "7jm9mLO7Ddpoa7mdKfUqRt",
+   "title": "The Last Judgment by Pietro Cavallini",
+   "type": "video",
+   "place": "Santa Cecilia in Trastevere church",
+   "lat": 41.8875,
+   "lon": 12.4757
+  },
+  {
+   "id": "5KfLntmPE4pVpcM4nIlkQi",
+   "title": "The Last Judgment by Michelangelo",
+   "type": "video",
+   "place": "Sistine Chapel",
+   "lat": 41.9029,
+   "lon": 12.4545
+  },
+  {
+   "id": "3AElNRc8EqJwtHQsmQ7v8Q",
+   "title": "Trajan’s Markets by Apollodorus of Damascus",
+   "type": "video",
+   "place": "Trajan’s Markets",
+   "lat": 41.8958,
+   "lon": 12.4862
+  },
+  {
+   "id": "1NjEdsNDXzvTIGfJRwy8tM",
+   "title": "The Catacombs of Priscilla",
+   "type": "video",
+   "place": "Catacombs of Priscilla",
+   "lat": 41.9291,
+   "lon": 12.5094
+  },
+  {
+   "id": "33WZ9jfS1SPD0Qtd0PbpsQ",
+   "title": "The Spoils of Jerusalem Relief on the Arch of Titus",
+   "type": "video",
+   "place": "Arch of Titus, Roman Forum",
+   "lat": 41.8907,
+   "lon": 12.4888
+  },
+  {
+   "id": "7Cf9sFaR2pqcpY67KSB9wT",
+   "title": "The Sarcophagus of the Spouses",
+   "type": "video",
+   "place": "National Etruscan Museum (Villa Giulia)",
+   "lat": 41.9175,
+   "lon": 12.4775
+  },
+  {
+   "id": "2KhdbmRLgVEsl1sD2g9id1",
+   "title": "The Capitoline Venus, a Roman marble copy",
+   "type": "video",
+   "place": "Capitoline Museums",
+   "lat": 41.893,
+   "lon": 12.4828
+  },
+  {
+   "id": "2Uki09FOrmOHlI9qj4AtZ4",
+   "title": "Moses and the Tomb of Julius II by Michelangelo",
+   "type": "video",
+   "place": "San Pietro in Vincoli church",
+   "lat": 41.8937,
+   "lon": 12.4931
+  },
+  {
+   "id": "7EANl1MZJnZ0tDXmZ3Lpdu",
+   "title": "The Arch of Constantine",
+   "type": "video",
+   "place": "Arch of Constantine",
+   "lat": 41.8898,
+   "lon": 12.4906
+  },
+  {
+   "id": "2YT4DCXIyfq45KxiUmF07Z",
+   "title": "The Apollo of Veii, an Etruscan terracotta statue",
+   "type": "video",
+   "place": "National Etruscan Museum (Villa Giulia)",
+   "lat": 41.9175,
+   "lon": 12.4775
+  },
+  {
+   "id": "t5Qg4PltRqTmtFzcJ77QW",
+   "title": "Apollo and Daphne by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Borghese Gallery",
+   "lat": 41.9142,
+   "lon": 12.4921
+  },
+  {
+   "id": "pMOoCxsafaJxSuVaAU43i",
+   "title": "The Santa Maria Antiqua Sarcophagus, an early Christian coffin",
+   "type": "video",
+   "place": "Santa Maria Antiqua, Roman Forum",
+   "lat": 41.8915,
+   "lon": 12.486
+  },
+  {
+   "id": "po3cs5l7L5gpuzZYqFJYf",
+   "title": "The Conversion of Saint Paul by Caravaggio",
+   "type": "video",
+   "place": "Santa Maria del Popolo church",
+   "lat": 41.9115,
+   "lon": 12.4764
+  },
+  {
+   "id": "4CSdoSwekSiRXIAPJTtu8A",
+   "title": "The Rape of Proserpina by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Borghese Gallery",
+   "lat": 41.9142,
+   "lon": 12.4921
+  },
+  {
+   "id": "5gSfM9rv3hfursMwuuheMI",
+   "title": "The Dying Gaul and the Ludovisi Gaul, Roman marble copies",
+   "type": "video",
+   "place": "Capitoline Museums",
+   "lat": 41.893,
+   "lon": 12.4828
+  },
+  {
+   "id": "7GFjPnUut3G9eg9wZ56Ae1",
+   "title": "Santa Maria Antiqua, a sixth-century church in the Forum",
+   "type": "video",
+   "place": "Santa Maria Antiqua, Roman Forum",
+   "lat": 41.8915,
+   "lon": 12.486
+  },
+  {
+   "id": "5Nb92Vyto3n7eETPKjYSEa",
+   "title": "St Peter’s Square by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "St Peter’s Square",
+   "lat": 41.9022,
+   "lon": 12.4568
+  },
+  {
+   "id": "1wcKdddHbqrAh6HFQagpm4",
+   "title": "The Fonseca Bust, a Flavian woman’s portrait",
+   "type": "video",
+   "place": "Capitoline Museums",
+   "lat": 41.893,
+   "lon": 12.4828
+  },
+  {
+   "id": "3NE2XBBruwGyAog1HDXJ0X",
+   "title": "The Decemviri Altarpiece by Perugino",
+   "type": "video",
+   "place": "Pinacoteca (picture gallery), Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4561
+  },
+  {
+   "id": "TyHcESIVsrowQjCrT3lk8",
+   "title": "Castel Sant’Angelo, Hadrian’s Mausoleum",
+   "type": "video",
+   "place": "Castel Sant’Angelo",
+   "lat": 41.9031,
+   "lon": 12.4663
+  },
+  {
+   "id": "4XTiA8JXPzrLhhQPNqUrai",
+   "title": "The Colosseum",
+   "type": "video",
+   "place": "Colosseum",
+   "lat": 41.8902,
+   "lon": 12.4922
+  },
+  {
+   "id": "5pDfPrKE0YpMy6CSo40Ezq",
+   "title": "The Arch of Septimius Severus",
+   "type": "video",
+   "place": "Arch of Septimius Severus, Roman Forum",
+   "lat": 41.893,
+   "lon": 12.4847
+  },
+  {
+   "id": "4MepMim4Yqjm3iktvDqMBW",
+   "title": "The Roman Forum",
+   "type": "video",
+   "place": "Roman Forum",
+   "lat": 41.8925,
+   "lon": 12.4853
+  },
+  {
+   "id": "3ldRYALBLm90URZed55z4H",
+   "title": "The Augustus of Primaporta",
+   "type": "video",
+   "place": "Braccio Nuovo, Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4561
+  },
+  {
+   "id": "434m2zY6MrYbYfHivD56jr",
+   "title": "The Ara Pacis, Augustus’s Altar of Peace",
+   "type": "video",
+   "place": "Ara Pacis Museum",
+   "lat": 41.9062,
+   "lon": 12.4755
+  },
+  {
+   "id": "40RjYk342CVp1rx8qNK2J3",
+   "title": "The Spinario (Boy with Thorn), an ancient bronze",
+   "type": "video",
+   "place": "Capitoline Museums",
+   "lat": 41.893,
+   "lon": 12.4829
+  },
+  {
+   "id": "6LsS98Y319aT9PaqUncf1i",
+   "title": "The Church of the Gesù by Giacomo da Vignola and Giacomo della Porta",
+   "type": "video",
+   "place": "Church of the Gesù",
+   "lat": 41.8959,
+   "lon": 12.4799
+  },
+  {
+   "id": "7BJQYpHYOpv5XQr9OiJjjb",
+   "title": "Landscape with the Flight into Egypt by Annibale Carracci",
+   "type": "video",
+   "place": "Doria Pamphilj Gallery",
+   "lat": 41.8981,
+   "lon": 12.4813
+  },
+  {
+   "id": "5OkmtQKUZ2WVvsxQfMzg3Z",
+   "title": "Trajan’s Column",
+   "type": "video",
+   "place": "Trajan’s Column",
+   "lat": 41.8958,
+   "lon": 12.4843
+  },
+  {
+   "id": "4MuL4fWrfNaPUxxZLrn1bI",
+   "title": "The Chapel of San Venanzio, lined with seventh-century mosaics",
+   "type": "video",
+   "place": "Chapel of San Venanzio, Lateran Baptistery",
+   "lat": 41.8858,
+   "lon": 12.5045
+  },
+  {
+   "id": "6TsHRJ46U7x2i5pYzROyNS",
+   "title": "The Apse Mosaic of Santa Pudenziana",
+   "type": "video",
+   "place": "Santa Pudenziana church",
+   "lat": 41.8983,
+   "lon": 12.4955
+  },
+  {
+   "id": "5vU2ctuc8bh3a86zT4x31L",
+   "title": "The Mausoleum of Santa Costanza",
+   "type": "video",
+   "place": "Mausoleum of Santa Costanza",
+   "lat": 41.9228,
+   "lon": 12.5181
+  },
+  {
+   "id": "2UW8EjwREVA9Ny9kfaVocY",
+   "title": "The Lateran Obelisk, made for Pharaoh Thutmose III",
+   "type": "video",
+   "place": "Lateran Obelisk, Piazza San Giovanni in Laterano",
+   "lat": 41.8862,
+   "lon": 12.5055
+  },
+  {
+   "id": "7z8HtNeaU9zIsPn3WPYTtJ",
+   "title": "The Mosaics of Santa Maria Maggiore",
+   "type": "video",
+   "place": "Santa Maria Maggiore basilica",
+   "lat": 41.8976,
+   "lon": 12.4984
+  },
+  {
+   "id": "6h8IC7MYi63Fy7wPdg1K33",
+   "title": "The Equestrian Statue of Marcus Aurelius",
+   "type": "video",
+   "place": "Capitoline Museums",
+   "lat": 41.893,
+   "lon": 12.4828
+  },
+  {
+   "id": "6rCRoCf68lYSqpSZ682WPQ",
+   "title": "Trajan’s Forum by Apollodorus of Damascus",
+   "type": "video",
+   "place": "Trajan’s Forum",
+   "lat": 41.8955,
+   "lon": 12.4853
+  },
+  {
+   "id": "3gpSN3CxyKm0wDTzHWwp6j",
+   "title": "The Pietà by Michelangelo",
+   "type": "video",
+   "place": "Michelangelo’s Pietà, St Peter’s Basilica",
+   "lat": 41.9022,
+   "lon": 12.4539
+  },
+  {
+   "id": "1oUUfKtLlV5Y6M0mo96e6N",
+   "title": "The Sarcophagus of Junius Bassus",
+   "type": "video",
+   "place": "Treasury Museum, St Peter’s Basilica",
+   "lat": 41.9022,
+   "lon": 12.4539
+  },
+  {
+   "id": "3H3RuV220Y5jAG6WAHCYFX",
+   "title": "The Odyssey Landscapes, Roman wall paintings",
+   "type": "video",
+   "place": "Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4536
+  },
+  {
+   "id": "3AXvECNYMSLvJ2WjyN4hNZ",
+   "title": "Laocoön and His Sons, an ancient marble group",
+   "type": "video",
+   "place": "Octagonal Court, Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4536
+  },
+  {
+   "id": "2GLnQp4G4RZ86DAuahCYf",
+   "title": "The Colossus of Constantine",
+   "type": "video",
+   "place": "Palazzo dei Conservatori courtyard, Capitoline Museums",
+   "lat": 41.893,
+   "lon": 12.4829
+  },
+  {
+   "id": "2Jinowi7kJpaUulAASrHKF",
+   "title": "Santa Sabina, an early Christian basilica",
+   "type": "video",
+   "place": "Santa Sabina basilica",
+   "lat": 41.8846,
+   "lon": 12.4797
+  },
+  {
+   "id": "3Rz2ijp78fRq2i0ZsGemYD",
+   "title": "The MAXXI Museum by Zaha Hadid",
+   "type": "video",
+   "place": "MAXXI museum",
+   "lat": 41.9283,
+   "lon": 12.4667
+  },
+  {
+   "id": "6pbZf3U9KkV4qzl0N7mvOm",
+   "title": "The School of Athens by Raphael",
+   "type": "video",
+   "place": "Raphael Rooms, Vatican Museums",
+   "lat": 41.9065,
+   "lon": 12.4561
+  },
+  {
+   "id": "2UyhqaKhALDQLupQDA9SPz",
+   "title": "The Temple of Portunus",
+   "type": "video",
+   "place": "Temple of Portunus",
+   "lat": 41.8892,
+   "lon": 12.4805
+  },
+  {
+   "id": "7n9DBxQMxhZpD95iJLS0Ku",
+   "title": "The Ecstasy of Saint Teresa by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Cornaro Chapel, Santa Maria della Vittoria",
+   "lat": 41.9045,
+   "lon": 12.4942
+  },
+  {
+   "id": "2hP1xis4QCQv4pf2lmiBZk",
+   "title": "The Loves of the Gods (Farnese Ceiling) by Annibale Carracci",
+   "type": "video",
+   "place": "Palazzo Farnese",
+   "lat": 41.8946,
+   "lon": 12.4705
+  },
+  {
+   "id": "1kuhRjIEpWxw4YY03XbZ6v",
+   "title": "David by Gian Lorenzo Bernini",
+   "type": "video",
+   "place": "Borghese Gallery",
+   "lat": 41.9142,
+   "lon": 12.4921
+  },
+  {
+   "id": "3mNloBGr72upZ8imprjKAP",
+   "title": "The Calling of Saint Matthew by Caravaggio",
+   "type": "video",
+   "place": "San Luigi dei Francesi church",
+   "lat": 41.8995,
+   "lon": 12.4747
+  },
+  {
+   "id": "7c7VkOzU0lMa048C3dNE2e",
+   "title": "San Carlo alle Quattro Fontane by Francesco Borromini",
+   "type": "video",
+   "place": "San Carlo alle Quattro Fontane church",
+   "lat": 41.9017,
+   "lon": 12.4914
+  },
+  {
    "id": "3lev9Lsqk0EMSVLlX5Li2D",
    "title": "Ancient Stadium, Baroque Fountains: A Piazza Navona Audio Tour",
    "type": "audiotour",
@@ -818,92 +1442,12 @@
    "lon": 12.4663
   },
   {
-   "id": "7c7VkOzU0lMa048C3dNE2e",
-   "title": "A tiny church squeezes a whole dome onto a street corner",
-   "type": "video",
-   "place": "San Carlo alle Quattro Fontane church",
-   "lat": 41.9017,
-   "lon": 12.4914
-  },
-  {
-   "id": "3mNloBGr72upZ8imprjKAP",
-   "title": "A tax collector looks up as a beam of light picks him out",
-   "type": "video",
-   "place": "San Luigi dei Francesi church",
-   "lat": 41.8995,
-   "lon": 12.4747
-  },
-  {
-   "id": "1kuhRjIEpWxw4YY03XbZ6v",
-   "title": "A young sculptor carves David mid-throw, biting his lip",
-   "type": "video",
-   "place": "Borghese Gallery",
-   "lat": 41.9142,
-   "lon": 12.4921
-  },
-  {
-   "id": "2hP1xis4QCQv4pf2lmiBZk",
-   "title": "Two brothers cover a cardinal’s ceiling in pagan love stories",
-   "type": "video",
-   "place": "Palazzo Farnese",
-   "lat": 41.8946,
-   "lon": 12.4705
-  },
-  {
-   "id": "7n9DBxQMxhZpD95iJLS0Ku",
-   "title": "A saint swoons in a chapel staged like a theatre",
-   "type": "video",
-   "place": "Cornaro Chapel, Santa Maria della Vittoria",
-   "lat": 41.9045,
-   "lon": 12.4942
-  },
-  {
-   "id": "2UyhqaKhALDQLupQDA9SPz",
-   "title": "A small temple by the river guarded Rome’s busy port",
-   "type": "video",
-   "place": "Temple of Portunus",
-   "lat": 41.8892,
-   "lon": 12.4805
-  },
-  {
-   "id": "6pbZf3U9KkV4qzl0N7mvOm",
-   "title": "Raphael paints the great philosophers into a papal library",
-   "type": "video",
-   "place": "Raphael Rooms, Vatican Museums",
-   "lat": 41.9065,
-   "lon": 12.4561
-  },
-  {
-   "id": "3Rz2ijp78fRq2i0ZsGemYD",
-   "title": "Zaha Hadid pours concrete ribbons into an old army barracks",
-   "type": "video",
-   "place": "MAXXI museum",
-   "lat": 41.9283,
-   "lon": 12.4667
-  },
-  {
    "id": "6659ZG9lsy68j8p0Sdh5Pk",
    "title": "A church sits on a church that sits on a pagan temple",
    "type": "video",
    "place": "Basilica of San Clemente",
    "lat": 41.8894,
    "lon": 12.4975
-  },
-  {
-   "id": "2Jinowi7kJpaUulAASrHKF",
-   "title": "A fifth-century church still has its original cypress doors",
-   "type": "video",
-   "place": "Santa Sabina basilica",
-   "lat": 41.8846,
-   "lon": 12.4797
-  },
-  {
-   "id": "2GLnQp4G4RZ86DAuahCYf",
-   "title": "An emperor’s giant head and hand sit in a museum courtyard",
-   "type": "video",
-   "place": "Palazzo dei Conservatori courtyard, Capitoline Museums",
-   "lat": 41.893,
-   "lon": 12.4829
   },
   {
    "id": "2bWKAQag0jk6m9OSZ7Aewt",
@@ -1008,502 +1552,6 @@
    "place": "Trastevere district (area)",
    "lat": 41.8897,
    "lon": 12.4695
-  },
-  {
-   "id": "3AXvECNYMSLvJ2WjyN4hNZ",
-   "title": "A priest and his sons fight off sea serpents in writhing marble",
-   "type": "video",
-   "place": "Octagonal Court, Vatican Museums",
-   "lat": 41.9065,
-   "lon": 12.4536
-  },
-  {
-   "id": "3H3RuV220Y5jAG6WAHCYFX",
-   "title": "Odysseus sails through wide painted landscapes on a Roman wall",
-   "type": "video",
-   "place": "Vatican Museums",
-   "lat": 41.9065,
-   "lon": 12.4536
-  },
-  {
-   "id": "1oUUfKtLlV5Y6M0mo96e6N",
-   "title": "A Roman official is buried in a coffin carved with Bible stories",
-   "type": "video",
-   "place": "Treasury Museum, St Peter’s Basilica",
-   "lat": 41.9022,
-   "lon": 12.4539
-  },
-  {
-   "id": "3gpSN3CxyKm0wDTzHWwp6j",
-   "title": "A young Michelangelo signs the Virgin’s sash so no one doubts him",
-   "type": "video",
-   "place": "Michelangelo’s Pietà, St Peter’s Basilica",
-   "lat": 41.9022,
-   "lon": 12.4539
-  },
-  {
-   "id": "6rCRoCf68lYSqpSZ682WPQ",
-   "title": "An emperor flattens a hillside to build the grandest forum of all",
-   "type": "video",
-   "place": "Trajan’s Forum",
-   "lat": 41.8955,
-   "lon": 12.4853
-  },
-  {
-   "id": "6h8IC7MYi63Fy7wPdg1K33",
-   "title": "A bronze emperor on horseback survives by being mistaken for a saint",
-   "type": "video",
-   "place": "Capitoline Museums",
-   "lat": 41.893,
-   "lon": 12.4828
-  },
-  {
-   "id": "7z8HtNeaU9zIsPn3WPYTtJ",
-   "title": "Mosaics eight centuries apart share one great basilica",
-   "type": "video",
-   "place": "Santa Maria Maggiore basilica",
-   "lat": 41.8976,
-   "lon": 12.4984
-  },
-  {
-   "id": "2UW8EjwREVA9Ny9kfaVocY",
-   "title": "An obelisk carved for a pharaoh ends up beside the pope’s cathedral",
-   "type": "video",
-   "place": "Lateran Obelisk, Piazza San Giovanni in Laterano",
-   "lat": 41.8862,
-   "lon": 12.5055
-  },
-  {
-   "id": "5vU2ctuc8bh3a86zT4x31L",
-   "title": "An emperor’s daughter is buried under a dome of vine mosaics",
-   "type": "video",
-   "place": "Mausoleum of Santa Costanza",
-   "lat": 41.9228,
-   "lon": 12.5181
-  },
-  {
-   "id": "6TsHRJ46U7x2i5pYzROyNS",
-   "title": "Christ sits among the apostles like a Roman magistrate",
-   "type": "video",
-   "place": "Santa Pudenziana church",
-   "lat": 41.8983,
-   "lon": 12.4955
-  },
-  {
-   "id": "4MuL4fWrfNaPUxxZLrn1bI",
-   "title": "A Dalmatian pope brings his homeland’s martyrs to Rome in gold",
-   "type": "video",
-   "place": "Chapel of San Venanzio, Lateran Baptistery",
-   "lat": 41.8858,
-   "lon": 12.5045
-  },
-  {
-   "id": "5OkmtQKUZ2WVvsxQfMzg3Z",
-   "title": "A spiral of carved soldiers climbs 30 metres into the sky",
-   "type": "video",
-   "place": "Trajan’s Column",
-   "lat": 41.8958,
-   "lon": 12.4843
-  },
-  {
-   "id": "7BJQYpHYOpv5XQr9OiJjjb",
-   "title": "The Holy Family is small in a calm, ordered landscape",
-   "type": "video",
-   "place": "Doria Pamphilj Gallery",
-   "lat": 41.8981,
-   "lon": 12.4813
-  },
-  {
-   "id": "6LsS98Y319aT9PaqUncf1i",
-   "title": "The Jesuits build a mother church to draw in the crowds",
-   "type": "video",
-   "place": "Church of the Gesù",
-   "lat": 41.8959,
-   "lon": 12.4799
-  },
-  {
-   "id": "40RjYk342CVp1rx8qNK2J3",
-   "title": "A boy has been pulling a thorn from his foot for 2,000 years",
-   "type": "video",
-   "place": "Capitoline Museums",
-   "lat": 41.893,
-   "lon": 12.4829
-  },
-  {
-   "id": "434m2zY6MrYbYfHivD56jr",
-   "title": "Augustus wraps an altar in a peaceful procession of his family",
-   "type": "video",
-   "place": "Ara Pacis Museum",
-   "lat": 41.9062,
-   "lon": 12.4755
-  },
-  {
-   "id": "3ldRYALBLm90URZed55z4H",
-   "title": "An emperor in armour, barefoot like a god",
-   "type": "video",
-   "place": "Braccio Nuovo, Vatican Museums",
-   "lat": 41.9065,
-   "lon": 12.4561
-  },
-  {
-   "id": "4MepMim4Yqjm3iktvDqMBW",
-   "title": "Temples, law courts and rostra crowd the valley at Rome’s heart",
-   "type": "video",
-   "place": "Roman Forum",
-   "lat": 41.8925,
-   "lon": 12.4853
-  },
-  {
-   "id": "5pDfPrKE0YpMy6CSo40Ezq",
-   "title": "An African-born emperor marks a victory at the Forum’s edge",
-   "type": "video",
-   "place": "Arch of Septimius Severus, Roman Forum",
-   "lat": 41.893,
-   "lon": 12.4847
-  },
-  {
-   "id": "4XTiA8JXPzrLhhQPNqUrai",
-   "title": "Fifty thousand Romans pack an arena for games",
-   "type": "video",
-   "place": "Colosseum",
-   "lat": 41.8902,
-   "lon": 12.4922
-  },
-  {
-   "id": "TyHcESIVsrowQjCrT3lk8",
-   "title": "An emperor’s tomb becomes a papal fortress",
-   "type": "video",
-   "place": "Castel Sant’Angelo",
-   "lat": 41.9031,
-   "lon": 12.4663
-  },
-  {
-   "id": "3NE2XBBruwGyAog1HDXJ0X",
-   "title": "Napoleon carries off an altarpiece and only half comes home",
-   "type": "video",
-   "place": "Pinacoteca (picture gallery), Vatican Museums",
-   "lat": 41.9065,
-   "lon": 12.4561
-  },
-  {
-   "id": "1wcKdddHbqrAh6HFQagpm4",
-   "title": "A Roman woman’s hair piled high in drilled marble curls",
-   "type": "video",
-   "place": "Capitoline Museums",
-   "lat": 41.893,
-   "lon": 12.4828
-  },
-  {
-   "id": "5Nb92Vyto3n7eETPKjYSEa",
-   "title": "Bernini’s colonnades open like arms in front of St Peter’s",
-   "type": "video",
-   "place": "St Peter’s Square",
-   "lat": 41.9022,
-   "lon": 12.4568
-  },
-  {
-   "id": "7GFjPnUut3G9eg9wZ56Ae1",
-   "title": "A church in the Forum buried by an earthquake keeps its frescoes",
-   "type": "video",
-   "place": "Santa Maria Antiqua, Roman Forum",
-   "lat": 41.8915,
-   "lon": 12.486
-  },
-  {
-   "id": "5gSfM9rv3hfursMwuuheMI",
-   "title": "Roman copies of Gauls defeated by a Greek king",
-   "type": "video",
-   "place": "Capitoline Museums",
-   "lat": 41.893,
-   "lon": 12.4828
-  },
-  {
-   "id": "4CSdoSwekSiRXIAPJTtu8A",
-   "title": "A god’s fingers press into marble as if it were flesh",
-   "type": "video",
-   "place": "Borghese Gallery",
-   "lat": 41.9142,
-   "lon": 12.4921
-  },
-  {
-   "id": "po3cs5l7L5gpuzZYqFJYf",
-   "title": "A man is thrown from his horse into sudden light",
-   "type": "video",
-   "place": "Santa Maria del Popolo church",
-   "lat": 41.9115,
-   "lon": 12.4764
-  },
-  {
-   "id": "pMOoCxsafaJxSuVaAU43i",
-   "title": "Jonah and a philosopher share a third-century coffin",
-   "type": "video",
-   "place": "Santa Maria Antiqua, Roman Forum",
-   "lat": 41.8915,
-   "lon": 12.486
-  },
-  {
-   "id": "t5Qg4PltRqTmtFzcJ77QW",
-   "title": "A nymph turns into a laurel tree as a god catches her",
-   "type": "video",
-   "place": "Borghese Gallery",
-   "lat": 41.9142,
-   "lon": 12.4921
-  },
-  {
-   "id": "2YT4DCXIyfq45KxiUmF07Z",
-   "title": "A striding terracotta god once stood on an Etruscan temple roof",
-   "type": "video",
-   "place": "National Etruscan Museum (Villa Giulia)",
-   "lat": 41.9175,
-   "lon": 12.4775
-  },
-  {
-   "id": "7EANl1MZJnZ0tDXmZ3Lpdu",
-   "title": "An emperor’s arch built partly from older monuments",
-   "type": "video",
-   "place": "Arch of Constantine",
-   "lat": 41.8898,
-   "lon": 12.4906
-  },
-  {
-   "id": "2Uki09FOrmOHlI9qj4AtZ4",
-   "title": "A horned Moses guards a pope’s much-shrunk tomb",
-   "type": "video",
-   "place": "San Pietro in Vincoli church",
-   "lat": 41.8937,
-   "lon": 12.4931
-  },
-  {
-   "id": "2KhdbmRLgVEsl1sD2g9id1",
-   "title": "A Roman Venus steps from her bath, covering herself",
-   "type": "video",
-   "place": "Capitoline Museums",
-   "lat": 41.893,
-   "lon": 12.4828
-  },
-  {
-   "id": "7Cf9sFaR2pqcpY67KSB9wT",
-   "title": "An Etruscan couple reclines together at an eternal banquet",
-   "type": "video",
-   "place": "National Etruscan Museum (Villa Giulia)",
-   "lat": 41.9175,
-   "lon": 12.4775
-  },
-  {
-   "id": "33WZ9jfS1SPD0Qtd0PbpsQ",
-   "title": "Roman soldiers carry the menorah from Jerusalem’s Temple",
-   "type": "video",
-   "place": "Arch of Titus, Roman Forum",
-   "lat": 41.8907,
-   "lon": 12.4888
-  },
-  {
-   "id": "1NjEdsNDXzvTIGfJRwy8tM",
-   "title": "Early Christians paint the Virgin in an underground cemetery",
-   "type": "video",
-   "place": "Catacombs of Priscilla",
-   "lat": 41.9291,
-   "lon": 12.5094
-  },
-  {
-   "id": "3AElNRc8EqJwtHQsmQ7v8Q",
-   "title": "A Roman shopping centre climbs the hillside in brick",
-   "type": "video",
-   "place": "Trajan’s Markets",
-   "lat": 41.8958,
-   "lon": 12.4862
-  },
-  {
-   "id": "5KfLntmPE4pVpcM4nIlkQi",
-   "title": "Michelangelo covers the altar wall with bodies rising and falling",
-   "type": "video",
-   "place": "Sistine Chapel",
-   "lat": 41.9029,
-   "lon": 12.4545
-  },
-  {
-   "id": "7jm9mLO7Ddpoa7mdKfUqRt",
-   "title": "Apostles with soft, solid faces, painted before Giotto",
-   "type": "video",
-   "place": "Santa Cecilia in Trastevere church",
-   "lat": 41.8875,
-   "lon": 12.4757
-  },
-  {
-   "id": "4ugGMfs7h5lJeEy3QvRF0B",
-   "title": "Michelangelo paints Genesis on a papal chapel ceiling",
-   "type": "video",
-   "place": "Sistine Chapel",
-   "lat": 41.9029,
-   "lon": 12.4545
-  },
-  {
-   "id": "6EgVZeZsM2kLRkBuv5l8mf",
-   "title": "Three huge vaults survive from Rome’s grandest hall",
-   "type": "video",
-   "place": "Basilica of Maxentius, Roman Forum",
-   "lat": 41.8919,
-   "lon": 12.488
-  },
-  {
-   "id": "17Kr19GZn54TH4gKvFceGk",
-   "title": "A temple to all the gods under an open concrete dome",
-   "type": "video",
-   "place": "Pantheon",
-   "lat": 41.8986,
-   "lon": 12.4769
-  },
-  {
-   "id": "2WqjPjhpb86PgRoT1Gikjb",
-   "title": "A stern bronze face said to be Rome’s first consul",
-   "type": "video",
-   "place": "Capitoline Museums",
-   "lat": 41.893,
-   "lon": 12.4828
-  },
-  {
-   "id": "4sYJGgon7IVFx1tUG8hqLt",
-   "title": "Twisted bronze columns mark Saint Peter’s grave",
-   "type": "video",
-   "place": "Bernini’s Baldacchino, St Peter’s Basilica",
-   "lat": 41.9022,
-   "lon": 12.4539
-  },
-  {
-   "id": "HOyxTkHj8g5cnhtY2ZBl6",
-   "title": "Lapis, gold and silver honour the founder of the Jesuits",
-   "type": "video",
-   "place": "Chapel of St Ignatius, Church of the Gesù",
-   "lat": 41.8959,
-   "lon": 12.4799
-  },
-  {
-   "id": "4Lp57wsPorhICou9fS9qFC",
-   "title": "Two heroes hunch over a board game in the middle of a war",
-   "type": "video",
-   "place": "Gregorian Etruscan Museum, Vatican Museums",
-   "lat": 41.9065,
-   "lon": 12.4536
-  },
-  {
-   "id": "68KzPH2Ze3DVUNFOobafxF",
-   "title": "Romans and barbarians tangle in a deep-cut marble battle",
-   "type": "video",
-   "place": "Palazzo Altemps, National Roman Museum",
-   "lat": 41.901,
-   "lon": 12.4729
-  },
-  {
-   "id": "5tUj3ubGG3RY4TuAAilpXG",
-   "title": "An athlete scrapes off oil and sweat after a contest",
-   "type": "video",
-   "place": "Pio-Clementino Museum, Vatican Museums",
-   "lat": 41.9065,
-   "lon": 12.4536
-  },
-  {
-   "id": "43oJnn5J14zl8rgmsQHhcM",
-   "title": "A painted ceiling makes a church roof open to the sky",
-   "type": "video",
-   "place": "Sant’Ignazio church",
-   "lat": 41.899,
-   "lon": 12.4797
-  },
-  {
-   "id": "2amV9wPzwu0aiM28MFcQWr",
-   "title": "A sea nymph rides a shell pulled by dolphins",
-   "type": "video",
-   "place": "Villa Farnesina",
-   "lat": 41.8935,
-   "lon": 12.4672
-  },
-  {
-   "id": "2Jvi3XZFuRW77kBnU86eR2",
-   "title": "A battered bronze boxer turns his head after the fight",
-   "type": "video",
-   "place": "Palazzo Massimo, National Roman Museum",
-   "lat": 41.9014,
-   "lon": 12.498
-  },
-  {
-   "id": "1A2UmTzuDyho0PksTHagn1",
-   "title": "Bernini squeezes an oval church onto a narrow site",
-   "type": "video",
-   "place": "Sant’Andrea al Quirinale church",
-   "lat": 41.9011,
-   "lon": 12.489
-  },
-  {
-   "id": "7ectltRIr9hRwDh4e8F2xk",
-   "title": "A young Jesuit lies dying in coloured marble",
-   "type": "video",
-   "place": "Rooms of St Stanislas Kostka, Sant’Andrea al Quirinale",
-   "lat": 41.9011,
-   "lon": 12.489
-  },
-  {
-   "id": "33tnYmZbi0jcxkv9x7vVB3",
-   "title": "Birds and fruit trees cover the walls of an underground room",
-   "type": "video",
-   "place": "Palazzo Massimo, National Roman Museum",
-   "lat": 41.9014,
-   "lon": 12.498
-  },
-  {
-   "id": "5NSVSibNP4CPuT7oWUp2C3",
-   "title": "A small round temple marks where Saint Peter was said to die",
-   "type": "video",
-   "place": "Bramante’s Tempietto, San Pietro in Montorio",
-   "lat": 41.8885,
-   "lon": 12.4664
-  },
-  {
-   "id": "6evbiBwDibJmGprKPUNWFK",
-   "title": "Medusa catches sight of herself as she turns to stone",
-   "type": "video",
-   "place": "Capitoline Museums",
-   "lat": 41.893,
-   "lon": 12.4828
-  },
-  {
-   "id": "rFPns1uH5HS7Eii4hAQhV",
-   "title": "A pope’s chapel glows with gold mosaics from the 800s",
-   "type": "video",
-   "place": "Santa Prassede church",
-   "lat": 41.8977,
-   "lon": 12.4987
-  },
-  {
-   "id": "4bqhqSfbCE25PqinHiuF3I",
-   "title": "Over a century of architects build the world’s largest church",
-   "type": "video",
-   "place": "St Peter’s Basilica",
-   "lat": 41.9022,
-   "lon": 12.4539
-  },
-  {
-   "id": "2rskC1fmFaezdxT2Ivz5nk",
-   "title": "A bronze throne floats on a burst of gilded clouds",
-   "type": "video",
-   "place": "Chair of St Peter, St Peter’s Basilica",
-   "lat": 41.9022,
-   "lon": 12.4539
-  },
-  {
-   "id": "4RDAEUuHNaiEyClNql6DG5",
-   "title": "A young man leans over a pool, lost in his own reflection",
-   "type": "video",
-   "place": "Palazzo Barberini gallery",
-   "lat": 41.9034,
-   "lon": 12.4901
-  },
-  {
-   "id": "7zQhyIOxKLKQu8vyGZ0yvh",
-   "title": "Three workmen strain to lift an old man’s upside-down cross",
-   "type": "video",
-   "place": "Santa Maria del Popolo church",
-   "lat": 41.9114,
-   "lon": 12.4766
   },
   {
    "id": "6GxOZmCNH4u3riaYyAsGtS",

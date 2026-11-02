@@ -2,6 +2,662 @@
  "city": "Paris",
  "pins": [
   {
+   "id": "25Flv8g3yvBwdeIUGaaAEi",
+   "title": "Yellow-Red-Blue by Wassily Kandinsky",
+   "type": "podcast",
+   "place": "Centre Pompidou modern art museum",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "1slpCYWZo4AY3y9BYEze85",
+   "title": "Bal du moulin de la Galette by Pierre-Auguste Renoir",
+   "type": "podcast",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1oehNFytWGXkSafKaQ44x5",
+   "title": "The Cradle by Berthe Morisot",
+   "type": "podcast",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "6koqbf7hJRBUXYwimlEZ5z",
+   "title": "Portrait of the Journalist Sylvia von Harden by Otto Dix",
+   "type": "podcast",
+   "place": "Centre Pompidou modern art museum",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "6x5G8mYOp9LGIpW5U5f8Hg",
+   "title": "Mona Lisa by Leonardo da Vinci",
+   "type": "podcast",
+   "place": "Louvre Museum",
+   "lat": 48.8597,
+   "lon": 2.3384
+  },
+  {
+   "id": "6Oq0YuU1C10uvDo9MMuEyk",
+   "title": "The Mona Lisa by Leonardo da Vinci",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "78gzwt9oy3dPCT2uaaquEM",
+   "title": "Starry Night over the Rhône by Vincent van Gogh",
+   "type": "podcast",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "wbjNlPHEL5oWCNzoOitG8",
+   "title": "Whistler’s Mother by James McNeill Whistler",
+   "type": "podcast",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "169ct8l94ulqPh7IP9hwOq",
+   "title": "Mona Lisa by Leonardo da Vinci",
+   "type": "podcast",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2v0EVN7eDvCcXUN9sxAnXq",
+   "title": "Napoleon Crossing the Alps by Jacques-Louis David",
+   "type": "video",
+   "place": "Château de Malmaison",
+   "lat": 48.8706,
+   "lon": 2.1667
+  },
+  {
+   "id": "6yJkPrzDUJgbiURWB25ayS",
+   "title": "The Thinker by Auguste Rodin",
+   "type": "video",
+   "place": "Musée Rodin",
+   "lat": 48.8553,
+   "lon": 2.3159
+  },
+  {
+   "id": "5iqDaNU6rpXpkWVx5iViVq",
+   "title": "Water Lilies by Claude Monet",
+   "type": "video",
+   "place": "Musée de l’Orangerie museum",
+   "lat": 48.8638,
+   "lon": 2.3226
+  },
+  {
+   "id": "2z6tML86PHe6HWCfFF3fAx",
+   "title": "The Raft of the Medusa by Théodore Géricault",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "3ni4voGLDAk4tcmk1omn48",
+   "title": "The Basilica of Saint-Denis, birthplace of Gothic architecture",
+   "type": "video",
+   "place": "Basilica of Saint-Denis, Saint-Denis",
+   "lat": 48.9356,
+   "lon": 2.3598
+  },
+  {
+   "id": "60BleRblD5158D4RRlvvvn",
+   "title": "The Palais Garnier by Charles Garnier",
+   "type": "video",
+   "place": "Palais Garnier opera house",
+   "lat": 48.872,
+   "lon": 2.3316
+  },
+  {
+   "id": "2LmEOLOQnzggHONXBgsFZK",
+   "title": "Portrait of the Journalist Sylvia von Harden by Otto Dix",
+   "type": "video",
+   "place": "Centre Pompidou modern art museum",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "2v2gA1NbgfxMiLtIgCO1v",
+   "title": "Composition A XX by László Moholy-Nagy",
+   "type": "video",
+   "place": "Centre Pompidou modern art museum",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "3tlatLclVw0Ggu2znVWmHX",
+   "title": "Mechanical Head (The Spirit of Our Time) by Raoul Hausmann",
+   "type": "video",
+   "place": "Centre Pompidou modern art museum",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "6Iy85jK5CLE80HOB8iE5Ky",
+   "title": "La Belle Jardinière by Raphael",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "1Cx0xoxQ2tSX421VmvE95U",
+   "title": "Peasant Family in an Interior by Louis Le Nain",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "26YSrmLz6oSKHvuESCoTH3",
+   "title": "The Victory Stele of Naram-Sin",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7KmhluR13wN4j1I5gBBqMn",
+   "title": "The Death of Sardanapalus by Eugène Delacroix",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6y5i1PcaXXb9WqvH1LvZCn",
+   "title": "Saint Francis Receiving the Stigmata by Giotto",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7waCah91qFSvFiuRwn21jw",
+   "title": "The Sleep of Endymion by Anne-Louis Girodet",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6G5p9IxOoOhQm9ny668iqe",
+   "title": "The Dying Slave and the Rebellious Slave by Michelangelo",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "5usA4a8kA0JHqlwJ3ZEOVu",
+   "title": "The Intervention of the Sabine Women by Jacques-Louis David",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6DYRQNxSusCwsKTS8IG0lA",
+   "title": "The Death of the Virgin by Caravaggio",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "17PWUA8XpfgXay4pT2UGuN",
+   "title": "The Lictors Bring to Brutus the Bodies of His Sons by Jacques-Louis David",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7idwBVrQYgguPmmfkt7eDf",
+   "title": "The Painted Beaker from Susa, with ibex motifs",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "1M0RDAlJSTtTu4uq2wTdzi",
+   "title": "Bathsheba at Her Bath by Rembrandt",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "61B3DaYkaVwfJIIuHjRnHZ",
+   "title": "The Bull Capital from Darius I’s Palace at Susa",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "5OliT2ZQYDotGNUXFX1EaJ",
+   "title": "The Crowning with Thorns by Titian",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "642NzSPjVwU2G7hoyvbEZd",
+   "title": "Pilgrimage to Cythera by Antoine Watteau",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2cYKKpYnKk1hhGgxvKVcbP",
+   "title": "The Avignon Pietà by Enguerrand Quarton",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "4Y7Ui4moju6LNGqj3omcAq",
+   "title": "The Lamassu of Khorsabad, Assyrian palace guardians",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2vi3JUvpeRQlzXIVfCwzsx",
+   "title": "The Presentation of the Portrait of Marie de’ Medici by Peter Paul Rubens",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "50DlxDuQthH8n2UUo0I51U",
+   "title": "The Plaque of the Ergastines, from the Parthenon frieze",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6k7BeVcLPKRnB6125hh1T4",
+   "title": "Charles I at the Hunt by Anthony van Dyck",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "KeDzP4A69Oi5ns2hP1kRi",
+   "title": "The Niobid Krater by the Niobid Painter",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "0Gnjfekb1NbatJmQNnEKb",
+   "title": "Et in Arcadia Ego by Nicolas Poussin",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "5uobMs3YNqgodN6ltPu2Z9",
+   "title": "The Baptistère de Saint Louis by Muhammad ibn al-Zayn",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "4sz7nzTisDKLaUETGo5w77",
+   "title": "The Barberini Ivory, a Byzantine imperial panel",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "246T7CG0FlRbjBV05ukFER",
+   "title": "The Oath of the Horatii by Jacques-Louis David",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "1hoMWXD9ubzgXhPjXSSPcG",
+   "title": "Liberty Leading the People by Eugène Delacroix",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "48qpFo7ScM02C5cjw0qBaG",
+   "title": "The Code of Hammurabi, a Babylonian law stele",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2YUNM4erSr4ytXmlSL2GkY",
+   "title": "Self-Portrait with Her Daughter Julie by Élisabeth Vigée Le Brun",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "3UnQhDJ3fVW93XKMSyF61X",
+   "title": "Seated Gudea Holding a Temple Plan, a Sumerian statue",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6VGt8rZy0UVlynximKMNv7",
+   "title": "The Virgin and Child of Jeanne d’Évreux, a silver statuette",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "rWhKa6S5zDXDtFYj5cWjZ",
+   "title": "The Lady of Auxerre, an early Greek statuette",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2fre9S23k883AXvZfjxADC",
+   "title": "The Winged Victory of Samothrace",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2cz78oDykRrYlKdl1lgTUe",
+   "title": "The Harbaville Triptych, a Byzantine ivory altarpiece",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6BvcnQcHqozhr6G7C907B6",
+   "title": "Bonaparte Visiting the Plague Victims of Jaffa by Antoine-Jean Gros",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "5y4HGPE0nWz5jBWtQxf4B7",
+   "title": "The Seated Scribe, an ancient Egyptian statue",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "723bNfPRRBL29LIpvVfQsw",
+   "title": "Women of Algiers in Their Apartment by Eugène Delacroix",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7J3pp1AyyXIUSxmuktIPQQ",
+   "title": "Grande Odalisque by Jean-Auguste-Dominique Ingres",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "3yABDTjKunJuujC66kG9UI",
+   "title": "The Massacre at Chios by Eugène Delacroix",
+   "type": "video",
+   "place": "Louvre Museum",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "3htysGs1K5Tbg5DCwWuXw2",
+   "title": "The Red Rock by Paul Cézanne",
+   "type": "video",
+   "place": "Musée de l’Orangerie museum",
+   "lat": 48.8638,
+   "lon": 2.3227
+  },
+  {
+   "id": "7gGVN0OAtYCgG6nJ4Ze5I0",
+   "title": "The Argenteuil Bridge by Claude Monet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "2pFyOQ1RM9TKKLIID3h6bh",
+   "title": "The Balcony by Édouard Manet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "2hcrzHdGiSbZQQOvAlFncp",
+   "title": "Portrait of Émile Zola by Édouard Manet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "3tlMUHzUnKyG0Bs6Nvzks4",
+   "title": "The Bellelli Family by Edgar Degas",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7Fx9zBUQ5T9ovif8atfpkj",
+   "title": "The Dance by Jean-Baptiste Carpeaux",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7HWMBNKPag5ORXUWzTclGN",
+   "title": "Luxe, Calme et Volupté by Henri Matisse",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1tNmrsn1wutlGcD8zQr11j",
+   "title": "The Angelus by Jean-François Millet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "4AVLRdNjVBKPD0EcXX08F8",
+   "title": "Ploughing in the Nivernais by Rosa Bonheur",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7s0U4cPP3RvsyRKFAhOciZ",
+   "title": "The Gleaners by Jean-François Millet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1StKqfLsD8VpiN9UQmd0P8",
+   "title": "Le Déjeuner sur l’herbe by Édouard Manet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "2LuKZcqlOFUuUHZOOFTda7",
+   "title": "The Floor Scrapers by Gustave Caillebotte",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "3qLcyN4UzLKaNBUv8tZp07",
+   "title": "Romans of the Decadence by Thomas Couture",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1lrHcTEK6jcd7e0tQeAJsx",
+   "title": "The Cradle by Berthe Morisot",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1eX1QJJZRHjQg1nWk2jr79",
+   "title": "A Burial at Ornans by Gustave Courbet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "5MisD5c7Yjwsw29y6aw1cj",
+   "title": "The Painter’s Studio by Gustave Courbet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "4zPDu7ILcr2XWHfbwkMwga",
+   "title": "Hunting Butterflies by Berthe Morisot",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "6qnqr9pf08eyO4GO30knIm",
+   "title": "Dance at Le Moulin de la Galette by Pierre-Auguste Renoir",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "3MrN2lnD7b1lTBidl3YBQ0",
+   "title": "The Basin at Argenteuil by Claude Monet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7dCmVGlGjpOUTfRaD6b108",
+   "title": "The Swing by Pierre-Auguste Renoir",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "4kedaVvjqSW3BlPmacXlcK",
+   "title": "The Gare Saint-Lazare by Claude Monet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7lTBkkpjoq8VqF9ewqe5dL",
+   "title": "Still Life with Chair Caning by Pablo Picasso",
+   "type": "video",
+   "place": "Picasso Museum (Hôtel Salé)",
+   "lat": 48.8598,
+   "lon": 2.3623
+  },
+  {
+   "id": "629lTUdgi4nU1hIMi0HvHW",
+   "title": "Notre-Dame de Paris, a Gothic cathedral",
+   "type": "video",
+   "place": "Notre-Dame Cathedral",
+   "lat": 48.853,
+   "lon": 2.3499
+  },
+  {
+   "id": "4lT5XgXZ4BqJV1IY8y6vvs",
+   "title": "The Porte Dauphine Métro Entrance by Hector Guimard",
+   "type": "video",
+   "place": "Porte Dauphine Métro entrance",
+   "lat": 48.8714,
+   "lon": 2.2766
+  },
+  {
+   "id": "24OZbqutN9DqH5bbLysJ3p",
+   "title": "The Eiffel Tower by Gustave Eiffel",
+   "type": "video",
+   "place": "Eiffel Tower",
+   "lat": 48.8584,
+   "lon": 2.2945
+  },
+  {
+   "id": "7sNLpMqUbdFRVQ3wl39wl",
+   "title": "Jupiter and Semele by Gustave Moreau",
+   "type": "video",
+   "place": "Gustave Moreau Museum",
+   "lat": 48.879,
+   "lon": 2.3349
+  },
+  {
    "id": "4YkHfg0Uihhx9bNhXY4BxV",
    "title": "Paris Reborn",
    "type": "book",
@@ -1490,14 +2146,6 @@
    "lon": 2.3485
   },
   {
-   "id": "7sNLpMqUbdFRVQ3wl39wl",
-   "title": "A mortal lover burns up at the sight of the god in his glory",
-   "type": "video",
-   "place": "Gustave Moreau Museum",
-   "lat": 48.879,
-   "lon": 2.3349
-  },
-  {
    "id": "4Qu0gvcfClRMY5Tj2dmYJO",
    "title": "Hitler orders the city wrecked and his general drags his feet",
    "type": "video",
@@ -1522,14 +2170,6 @@
    "lon": 2.324
   },
   {
-   "id": "24OZbqutN9DqH5bbLysJ3p",
-   "title": "An iron tower built for a fair outlasts the critics who hated it",
-   "type": "video",
-   "place": "Eiffel Tower",
-   "lat": 48.8584,
-   "lon": 2.2945
-  },
-  {
    "id": "4qQuLTVcOgoG1hjv4vnjZE",
    "title": "Il est cinq heures, Paris s’éveille",
    "type": "music",
@@ -1546,24 +2186,8 @@
    "lon": 2.34821
   },
   {
-   "id": "4lT5XgXZ4BqJV1IY8y6vvs",
-   "title": "Cast-iron plant stems mark the way down to the Métro",
-   "type": "video",
-   "place": "Porte Dauphine Métro entrance",
-   "lat": 48.8714,
-   "lon": 2.2766
-  },
-  {
    "id": "2STbmfP0sF0Ss6CkiEboUq",
    "title": "Craftspeople rebuild a cathedral after the fire",
-   "type": "video",
-   "place": "Notre-Dame Cathedral",
-   "lat": 48.853,
-   "lon": 2.3499
-  },
-  {
-   "id": "629lTUdgi4nU1hIMi0HvHW",
-   "title": "A Gothic cathedral on its island, seen before the fire",
    "type": "video",
    "place": "Notre-Dame Cathedral",
    "lat": 48.853,
@@ -1576,14 +2200,6 @@
    "place": "Musée d’Orsay museum",
    "lat": 48.86013,
    "lon": 2.32557
-  },
-  {
-   "id": "7lTBkkpjoq8VqF9ewqe5dL",
-   "title": "Picasso glues printed oilcloth to a canvas and frames it in rope",
-   "type": "video",
-   "place": "Picasso Museum (Hôtel Salé)",
-   "lat": 48.8598,
-   "lon": 2.3623
   },
   {
    "id": "F6X2WdKj3Wj3tvcVhjBfj",
@@ -1602,156 +2218,12 @@
    "lon": 2.32698
   },
   {
-   "id": "4kedaVvjqSW3BlPmacXlcK",
-   "title": "Monet sets up his easel inside a station full of steam",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
    "id": "56VcFruprY6LujSxh4l7Wb",
    "title": "Living as a woman during the Belle Époque",
    "type": "podcast",
    "place": "Musée d’Orsay museum",
    "lat": 48.85955,
    "lon": 2.32722
-  },
-  {
-   "id": "7dCmVGlGjpOUTfRaD6b108",
-   "title": "Sunlight falls in patches on a dress in a Montmartre garden",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "3MrN2lnD7b1lTBidl3YBQ0",
-   "title": "Strollers and sailboats on the river at Argenteuil",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "6qnqr9pf08eyO4GO30knIm",
-   "title": "A Sunday afternoon dance in a Montmartre garden",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "4zPDu7ILcr2XWHfbwkMwga",
-   "title": "Morisot’s sister and nieces chase butterflies in a garden",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "5MisD5c7Yjwsw29y6aw1cj",
-   "title": "Courbet paints himself at the centre of French society",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1eX1QJJZRHjQg1nWk2jr79",
-   "title": "A village funeral painted at the size of a history painting",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1lrHcTEK6jcd7e0tQeAJsx",
-   "title": "A sister watches over a sleeping baby behind a veil",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "3qLcyN4UzLKaNBUv8tZp07",
-   "title": "Ancient Romans sprawl at the end of an orgy",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "2LuKZcqlOFUuUHZOOFTda7",
-   "title": "Three shirtless workmen plane a Paris apartment floor",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1StKqfLsD8VpiN9UQmd0P8",
-   "title": "A nude woman picnics with two dressed men and stares back",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7s0U4cPP3RvsyRKFAhOciZ",
-   "title": "Three poor women bend to pick up what the harvest left behind",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "4AVLRdNjVBKPD0EcXX08F8",
-   "title": "Teams of oxen drag ploughs through heavy autumn soil",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1tNmrsn1wutlGcD8zQr11j",
-   "title": "Two farm workers stop to pray as the church bell rings",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7HWMBNKPag5ORXUWzTclGN",
-   "title": "Bathers picnic on a Riviera beach in dots of pure colour",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7Fx9zBUQ5T9ovif8atfpkj",
-   "title": "Laughing dancers in stone shocked Paris operagoers",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "3tlMUHzUnKyG0Bs6Nvzks4",
-   "title": "An aunt, an uncle and two cousins sit in a tense Florentine room",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "2hcrzHdGiSbZQQOvAlFncp",
-   "title": "Manet thanks a young writer who defended him in print",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
   },
   {
    "id": "5KJngufZARAYe53p8HjsyD",
@@ -1770,22 +2242,6 @@
    "lon": 2.32323
   },
   {
-   "id": "2pFyOQ1RM9TKKLIID3h6bh",
-   "title": "Three friends on a balcony look past each other",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7gGVN0OAtYCgG6nJ4Ze5I0",
-   "title": "Sailboats rock beside a rebuilt bridge on the Seine",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
    "id": "5HtFApevk6WfaqMnxjXOPy",
    "title": "A close look at The Turkish Bath by Ingres",
    "type": "video",
@@ -1802,14 +2258,6 @@
    "lon": 2.33477
   },
   {
-   "id": "3htysGs1K5Tbg5DCwWuXw2",
-   "title": "An orange rock hangs over a path in the Provençal woods",
-   "type": "video",
-   "place": "Musée de l’Orangerie museum",
-   "lat": 48.8638,
-   "lon": 2.3227
-  },
-  {
    "id": "5BBR1UlT6gwu4G7MgLiZiU",
    "title": "Théâtre de la Mode: A beacon of hope for postwar France",
    "type": "podcast",
@@ -1824,334 +2272,6 @@
    "place": "Louvre Museum",
    "lat": 48.8602,
    "lon": 2.33538
-  },
-  {
-   "id": "3yABDTjKunJuujC66kG9UI",
-   "title": "A Greek massacre painted as a raw news event",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7J3pp1AyyXIUSxmuktIPQQ",
-   "title": "A reclining nude with a back too long to be real",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "723bNfPRRBL29LIpvVfQsw",
-   "title": "Delacroix paints a women’s room he glimpsed in Algiers",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "5y4HGPE0nWz5jBWtQxf4B7",
-   "title": "An Egyptian scribe with crystal eyes waits to take dictation",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6BvcnQcHqozhr6G7C907B6",
-   "title": "Napoleon touches a plague victim to win a propaganda war",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2cz78oDykRrYlKdl1lgTUe",
-   "title": "A folding ivory altar shows the Byzantine heavens",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2fre9S23k883AXvZfjxADC",
-   "title": "A winged goddess lands on a ship’s prow at the top of the stairs",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "rWhKa6S5zDXDtFYj5cWjZ",
-   "title": "A small Greek goddess with braided hair and a belted dress",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6VGt8rZy0UVlynximKMNv7",
-   "title": "A queen’s silver Virgin plays with her baby",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "3UnQhDJ3fVW93XKMSyF61X",
-   "title": "A Sumerian ruler sits with his temple plan on his lap",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2YUNM4erSr4ytXmlSL2GkY",
-   "title": "A painter hugs her young daughter and shows a hint of teeth",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "48qpFo7ScM02C5cjw0qBaG",
-   "title": "A Babylonian king’s laws carved into black stone",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "1hoMWXD9ubzgXhPjXSSPcG",
-   "title": "Liberty climbs the barricades in the July Revolution",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "246T7CG0FlRbjBV05ukFER",
-   "title": "Three brothers swear to fight for Rome as the women weep",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "4sz7nzTisDKLaUETGo5w77",
-   "title": "A Byzantine emperor rides in triumph on five ivory plaques",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "5uobMs3YNqgodN6ltPu2Z9",
-   "title": "A Mamluk brass basin later used to baptise French princes",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "0Gnjfekb1NbatJmQNnEKb",
-   "title": "Shepherds find a tomb and read a warning about death",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "KeDzP4A69Oi5ns2hP1kRi",
-   "title": "Apollo and Artemis shoot down Niobe’s children on a vase",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6k7BeVcLPKRnB6125hh1T4",
-   "title": "An English king poses off duty, still very much in charge",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "50DlxDuQthH8n2UUo0I51U",
-   "title": "Young Athenian women walk in procession on a Parthenon slab",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2vi3JUvpeRQlzXIVfCwzsx",
-   "title": "Henri IV falls for a portrait of his future queen",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "4Y7Ui4moju6LNGqj3omcAq",
-   "title": "Winged bulls with five legs guarded an Assyrian king’s gates",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2cYKKpYnKk1hhGgxvKVcbP",
-   "title": "Mary holds her dead son against a plain gold sky",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "642NzSPjVwU2G7hoyvbEZd",
-   "title": "Lovers linger before leaving the island of Venus",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "5OliT2ZQYDotGNUXFX1EaJ",
-   "title": "Soldiers ram a crown of thorns down onto Christ’s head",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "61B3DaYkaVwfJIIuHjRnHZ",
-   "title": "Two kneeling bulls once held up a Persian king’s roof",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "1M0RDAlJSTtTu4uq2wTdzi",
-   "title": "A woman holds King David’s letter and considers what it means",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7idwBVrQYgguPmmfkt7eDf",
-   "title": "Ibex with sweeping horns painted on a 6,000-year-old pot",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "17PWUA8XpfgXay4pT2UGuN",
-   "title": "A Roman father sits in shadow as his executed sons come home",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6DYRQNxSusCwsKTS8IG0lA",
-   "title": "Mary lies dead with swollen feet under a red curtain",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "5usA4a8kA0JHqlwJ3ZEOVu",
-   "title": "A woman steps between two armies to stop the fighting",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6G5p9IxOoOhQm9ny668iqe",
-   "title": "Two marble captives strain and sleep in unfinished bonds",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7waCah91qFSvFiuRwn21jw",
-   "title": "Moonlight falls through the trees onto a sleeping shepherd",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6y5i1PcaXXb9WqvH1LvZCn",
-   "title": "A seraph with six wings marks Francis with Christ’s wounds",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7KmhluR13wN4j1I5gBBqMn",
-   "title": "A doomed king watches calmly as his palace is destroyed",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "26YSrmLz6oSKHvuESCoTH3",
-   "title": "An Akkadian king climbs a mountain over his fallen enemies",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "1Cx0xoxQ2tSX421VmvE95U",
-   "title": "A poor family pose with bread and wine in a dark room",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6Iy85jK5CLE80HOB8iE5Ky",
-   "title": "Mary, Jesus and John meet in a gentle meadow",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "3tlatLclVw0Ggu2znVWmHX",
-   "title": "A wig-maker’s dummy fitted with a ruler, a wallet and a tape",
-   "type": "video",
-   "place": "Centre Pompidou modern art museum",
-   "lat": 48.8606,
-   "lon": 2.3522
-  },
-  {
-   "id": "2v2gA1NbgfxMiLtIgCO1v",
-   "title": "Transparent shapes overlap like coloured glass on black",
-   "type": "video",
-   "place": "Centre Pompidou modern art museum",
-   "lat": 48.8606,
-   "lon": 2.3522
-  },
-  {
-   "id": "2LmEOLOQnzggHONXBgsFZK",
-   "title": "A Berlin writer sits alone with a cigarette and a monocle",
-   "type": "video",
-   "place": "Centre Pompidou modern art museum",
-   "lat": 48.8606,
-   "lon": 2.3522
   },
   {
    "id": "5zUrFb6BxpPzj1bKpSHrFf",
@@ -2176,22 +2296,6 @@
    "place": "Palais Garnier opera house",
    "lat": 48.87325,
    "lon": 2.33118
-  },
-  {
-   "id": "60BleRblD5158D4RRlvvvn",
-   "title": "An opera house built as a stage for the audience itself",
-   "type": "video",
-   "place": "Palais Garnier opera house",
-   "lat": 48.872,
-   "lon": 2.3316
-  },
-  {
-   "id": "3ni4voGLDAk4tcmk1omn48",
-   "title": "An abbot fills a church with light and Gothic begins",
-   "type": "video",
-   "place": "Basilica of Saint-Denis, Saint-Denis",
-   "lat": 48.9356,
-   "lon": 2.3598
   },
   {
    "id": "6qOBZRGcijEJMkzrwhESCN",

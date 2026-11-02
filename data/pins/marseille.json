@@ -2,6 +2,22 @@
  "city": "Marseille",
  "pins": [
   {
+   "id": "3X6HfL7mQJntnMtsNia9iO",
+   "title": "The Arrival of Marie de’ Medici at Marseilles by Peter Paul Rubens",
+   "type": "video",
+   "place": "Old Port (Vieux-Port)",
+   "lat": 43.295,
+   "lon": 5.3745
+  },
+  {
+   "id": "3r9UD5hUK8XHdwbmbjH0oH",
+   "title": "Viaduct at L’Estaque by Georges Braque",
+   "type": "video",
+   "place": "L’Estaque (area)",
+   "lat": 43.3628,
+   "lon": 5.32
+  },
+  {
    "id": "4U2OwS28EXp1xUEp7pqOfY",
    "title": "Moon (And It Went Like)",
    "type": "music",
@@ -266,14 +282,6 @@
    "lon": 5.3963
   },
   {
-   "id": "3r9UD5hUK8XHdwbmbjH0oH",
-   "title": "Braque turns a railway viaduct into early Cubist blocks",
-   "type": "video",
-   "place": "L’Estaque (area)",
-   "lat": 43.3628,
-   "lon": 5.32
-  },
-  {
    "id": "2wWHdrSsXwwTbr4M87VNoL",
    "title": "A Greek navigator sails from here to the edge of the known world",
    "type": "podcast",
@@ -400,14 +408,6 @@
    "place": "Old Port (Vieux-Port)",
    "lat": 43.295,
    "lon": 5.3646
-  },
-  {
-   "id": "3X6HfL7mQJntnMtsNia9iO",
-   "title": "A Medici bride steps ashore escorted by sea gods",
-   "type": "video",
-   "place": "Old Port (Vieux-Port)",
-   "lat": 43.295,
-   "lon": 5.3745
   },
   {
    "id": "4WcwX2j99gER3IFeZ4B3Ag",

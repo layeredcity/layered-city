@@ -2,6 +2,54 @@
  "city": "Munich",
  "pins": [
   {
+   "id": "3qXtlPTzZNbOpaKoEmM88m",
+   "title": "Self-Portrait in a Fur-Collared Robe by Albrecht Dürer",
+   "type": "video",
+   "place": "Alte Pinakothek art museum",
+   "lat": 48.1482,
+   "lon": 11.57
+  },
+  {
+   "id": "74oPah9i1PPBFegPXY35uo",
+   "title": "The Four Apostles by Albrecht Dürer",
+   "type": "video",
+   "place": "Alte Pinakothek art museum",
+   "lat": 48.1484,
+   "lon": 11.5698
+  },
+  {
+   "id": "5GrnUVATcFinM0cYljNB4A",
+   "title": "The Battle of Alexander at Issus by Albrecht Altdorfer",
+   "type": "video",
+   "place": "Alte Pinakothek art museum",
+   "lat": 48.148,
+   "lon": 11.5703
+  },
+  {
+   "id": "3c4V0FvasUTMQ7k639Vm8c",
+   "title": "The Barberini Faun, a Hellenistic marble satyr",
+   "type": "video",
+   "place": "Glyptothek sculpture museum, Königsplatz",
+   "lat": 48.1465,
+   "lon": 11.5658
+  },
+  {
+   "id": "3uC9JHFh35MKqc7F6Wb3hg",
+   "title": "The Aegina Marbles, from the Temple of Aphaia",
+   "type": "video",
+   "place": "Glyptothek sculpture museum, Königsplatz",
+   "lat": 48.1466,
+   "lon": 11.5653
+  },
+  {
+   "id": "35Nn8KEyiX4Kz2nQWGa6lR",
+   "title": "The House of German Art by Paul Ludwig Troost",
+   "type": "video",
+   "place": "Haus der Kunst art museum",
+   "lat": 48.1441,
+   "lon": 11.586
+  },
+  {
    "id": "6ZKM4uUSemMlyqdYXZXb0t",
    "title": "Lagrime di San Pietro: Il magnanimo Pietro",
    "type": "music",
@@ -464,54 +512,6 @@
    "place": "Residenz palace",
    "lat": 48.141,
    "lon": 11.579
-  },
-  {
-   "id": "35Nn8KEyiX4Kz2nQWGa6lR",
-   "title": "Hitler opens a temple for art and a show to mock the rest",
-   "type": "video",
-   "place": "Haus der Kunst art museum",
-   "lat": 48.1441,
-   "lon": 11.586
-  },
-  {
-   "id": "3uC9JHFh35MKqc7F6Wb3hg",
-   "title": "Greek temple sculptures change style between front and back",
-   "type": "video",
-   "place": "Glyptothek sculpture museum, Königsplatz",
-   "lat": 48.1466,
-   "lon": 11.5653
-  },
-  {
-   "id": "3c4V0FvasUTMQ7k639Vm8c",
-   "title": "A sleeping satyr bought by a crown prince for his new museum",
-   "type": "video",
-   "place": "Glyptothek sculpture museum, Königsplatz",
-   "lat": 48.1465,
-   "lon": 11.5658
-  },
-  {
-   "id": "5GrnUVATcFinM0cYljNB4A",
-   "title": "A duke commissions an ancient battle that fills the whole sky",
-   "type": "video",
-   "place": "Alte Pinakothek art museum",
-   "lat": 48.148,
-   "lon": 11.5703
-  },
-  {
-   "id": "74oPah9i1PPBFegPXY35uo",
-   "title": "Two painted panels Dürer gave to his own city",
-   "type": "video",
-   "place": "Alte Pinakothek art museum",
-   "lat": 48.1484,
-   "lon": 11.5698
-  },
-  {
-   "id": "3qXtlPTzZNbOpaKoEmM88m",
-   "title": "Dürer paints himself to look like Christ",
-   "type": "video",
-   "place": "Alte Pinakothek art museum",
-   "lat": 48.1482,
-   "lon": 11.57
   },
   {
    "id": "5D0P5tOQv1VFzVIehFyWQu",

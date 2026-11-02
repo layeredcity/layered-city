@@ -2,6 +2,38 @@
  "city": "Brussels",
  "pins": [
   {
+   "id": "2IM52OylqHeAMzP5XOBRmT",
+   "title": "The Descent from the Cross by Peter Paul Rubens",
+   "type": "podcast",
+   "place": "Cathedral of Our Lady, Antwerp",
+   "lat": 51.2203,
+   "lon": 4.4015
+  },
+  {
+   "id": "21Vq6xMB1EKuilR67FJvTw",
+   "title": "Virgin and Child with Canon van der Paele by Jan van Eyck",
+   "type": "podcast",
+   "place": "Groeninge Museum, Bruges",
+   "lat": 51.205,
+   "lon": 3.225
+  },
+  {
+   "id": "3RugvLqHbJLBgscjgnTPnF",
+   "title": "The Death of Marat by Jacques-Louis David",
+   "type": "podcast",
+   "place": "Royal Museums of Fine Arts of Belgium",
+   "lat": 50.8417,
+   "lon": 4.3577
+  },
+  {
+   "id": "2gTDrmuCKG8cOUS5CuWlKK",
+   "title": "The Death of Marat by Jacques-Louis David",
+   "type": "video",
+   "place": "Royal Museums of Fine Arts of Belgium",
+   "lat": 50.8418,
+   "lon": 4.358
+  },
+  {
    "id": "1nfujYXVzEgqu8Bkoc3XKj",
    "title": "Art Nouveau's Sublime Capital: A Brussels Walking Tour",
    "type": "audiotour",
@@ -392,14 +424,6 @@
    "place": "Magritte Museum",
    "lat": 50.8424,
    "lon": 4.3586
-  },
-  {
-   "id": "2gTDrmuCKG8cOUS5CuWlKK",
-   "title": "A murdered revolutionary is painted like a martyred saint",
-   "type": "video",
-   "place": "Royal Museums of Fine Arts of Belgium",
-   "lat": 50.8418,
-   "lon": 4.358
   },
   {
    "id": "7jWkxN3VN2f00AUBsOXl1I",

@@ -2,6 +2,118 @@
  "city": "Athens",
  "pins": [
   {
+   "id": "2qzPG1Yrr3tWPB3gekSsoT",
+   "title": "The Mask of Agamemnon, a Mycenaean gold death mask",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 37.989,
+   "lon": 23.7326
+  },
+  {
+   "id": "NfivHOqVwehx58aSEI9hm",
+   "title": "The Parthenon Marbles and the restitution debate",
+   "type": "video",
+   "place": "Acropolis Museum",
+   "lat": 37.9685,
+   "lon": 23.7285
+  },
+  {
+   "id": "1AlzKzbBL85t1myA6s3qLW",
+   "title": "Nike Adjusting Her Sandal, from the Temple of Athena Nike",
+   "type": "video",
+   "place": "Acropolis Museum",
+   "lat": 37.9685,
+   "lon": 23.7285
+  },
+  {
+   "id": "3VBc2ZROeYXOiAs0X9Rdd0",
+   "title": "The Erechtheion, a temple on the Acropolis",
+   "type": "video",
+   "place": "Erechtheion, Acropolis",
+   "lat": 37.9722,
+   "lon": 23.7268
+  },
+  {
+   "id": "1pSe020HiPoiC96orc3uup",
+   "title": "The Antikythera Youth, a bronze from a shipwreck",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 37.9887,
+   "lon": 23.7327
+  },
+  {
+   "id": "66r5A4mlimOYeCshc47dP4",
+   "title": "The Grave Stele of Hegeso",
+   "type": "video",
+   "place": "Street of Tombs, Kerameikos",
+   "lat": 37.9776,
+   "lon": 23.7178
+  },
+  {
+   "id": "5S3CwEnzY0AUxSI2blTPvM",
+   "title": "The Artemision Bronze, Zeus or Poseidon",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 37.9892,
+   "lon": 23.733
+  },
+  {
+   "id": "31IH9l8566Tr2hh0Pu8Hy4",
+   "title": "The Kroisos Kouros, an Archaic grave statue",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "lat": 37.9889,
+   "lon": 23.7323
+  },
+  {
+   "id": "71oATJRGnWoOJDOov3kPfo",
+   "title": "The Ancient Agora of Athens",
+   "type": "video",
+   "place": "Ancient Agora",
+   "lat": 37.9746,
+   "lon": 23.7224
+  },
+  {
+   "id": "7CDadG9yKm5y8TgiCjT0Lk",
+   "title": "The Dipylon Amphora, a Geometric grave marker",
+   "type": "video",
+   "place": "Kerameikos archaeological site",
+   "lat": 37.9785,
+   "lon": 23.7192
+  },
+  {
+   "id": "6X2vDyRAIRzTMTfNG9QW0y",
+   "title": "The Peplos Kore, a painted Archaic statue",
+   "type": "video",
+   "place": "Acropolis Museum",
+   "lat": 37.9686,
+   "lon": 23.7282
+  },
+  {
+   "id": "7DC4TqZgjb2qQxU0pDeqXM",
+   "title": "The Kritios Boy, an early Classical marble youth",
+   "type": "video",
+   "place": "Acropolis Museum",
+   "lat": 37.9683,
+   "lon": 23.7288
+  },
+  {
+   "id": "7hBANSkVUT7a2VK8DPYIG8",
+   "title": "A Caryatid from the Erechtheion",
+   "type": "video",
+   "place": "Erechtheion, Acropolis",
+   "lat": 37.972,
+   "lon": 23.7265
+  },
+  {
+   "id": "715NPqaAeHjvzoNvS7ekBe",
+   "title": "The Parthenon by Iktinos and Kallikrates",
+   "type": "video",
+   "place": "Parthenon, Acropolis",
+   "lat": 37.9715,
+   "lon": 23.7267
+  },
+  {
    "id": "2yA0S0IaZHfqvoYyQsje9a",
    "title": "Athens Below the Surface: A Walking Tour of the Podoniftis Stream",
    "type": "audiotour",
@@ -538,30 +650,6 @@
    "lon": 24.0246
   },
   {
-   "id": "715NPqaAeHjvzoNvS7ekBe",
-   "title": "Athens builds a marble temple to announce its golden age",
-   "type": "video",
-   "place": "Parthenon, Acropolis",
-   "lat": 37.9715,
-   "lon": 23.7267
-  },
-  {
-   "id": "7hBANSkVUT7a2VK8DPYIG8",
-   "title": "Six marble women hold up a temple roof on their heads",
-   "type": "video",
-   "place": "Erechtheion, Acropolis",
-   "lat": 37.972,
-   "lon": 23.7265
-  },
-  {
-   "id": "7DC4TqZgjb2qQxU0pDeqXM",
-   "title": "A marble youth shifts his weight and sculpture comes alive",
-   "type": "video",
-   "place": "Acropolis Museum",
-   "lat": 37.9683,
-   "lon": 23.7288
-  },
-  {
    "id": "39hJpS6fxhn0MN61teKUZ4",
    "title": "A city appoints someone to protect it from its own summers",
    "type": "video",
@@ -570,68 +658,12 @@
    "lon": 23.7268
   },
   {
-   "id": "6X2vDyRAIRzTMTfNG9QW0y",
-   "title": "A smiling marble maiden still carries traces of her paint",
-   "type": "video",
-   "place": "Acropolis Museum",
-   "lat": 37.9686,
-   "lon": 23.7282
-  },
-  {
    "id": "36qMuQxyvApgx1flLNNFtv",
    "title": "A neighbourhood of bookshops, squats and graffiti goes its own way",
    "type": "video",
    "place": "Exarchia Square",
    "lat": 37.9866,
    "lon": 23.7347
-  },
-  {
-   "id": "7CDadG9yKm5y8TgiCjT0Lk",
-   "title": "A pot as tall as a man marks an aristocrat’s grave",
-   "type": "video",
-   "place": "Kerameikos archaeological site",
-   "lat": 37.9785,
-   "lon": 23.7192
-  },
-  {
-   "id": "71oATJRGnWoOJDOov3kPfo",
-   "title": "Citizens vote with pottery shards in a crowded marketplace",
-   "type": "video",
-   "place": "Ancient Agora",
-   "lat": 37.9746,
-   "lon": 23.7224
-  },
-  {
-   "id": "31IH9l8566Tr2hh0Pu8Hy4",
-   "title": "A fallen soldier’s statue asks passers-by to stop and mourn",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.9889,
-   "lon": 23.7323
-  },
-  {
-   "id": "5S3CwEnzY0AUxSI2blTPvM",
-   "title": "A bronze god poised to throw, recovered from the seabed",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.9892,
-   "lon": 23.733
-  },
-  {
-   "id": "66r5A4mlimOYeCshc47dP4",
-   "title": "A woman picks a necklace from her jewellery box, forever",
-   "type": "video",
-   "place": "Street of Tombs, Kerameikos",
-   "lat": 37.9776,
-   "lon": 23.7178
-  },
-  {
-   "id": "1pSe020HiPoiC96orc3uup",
-   "title": "A shipwreck preserves a bronze youth that melting would have destroyed",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.9887,
-   "lon": 23.7327
   },
   {
    "id": "5lPX6AFdP0z4EFQgBFvKON",
@@ -650,14 +682,6 @@
    "lon": 23.7327
   },
   {
-   "id": "3VBc2ZROeYXOiAs0X9Rdd0",
-   "title": "An odd-shaped temple squeezes several cults onto sacred ground",
-   "type": "video",
-   "place": "Erechtheion, Acropolis",
-   "lat": 37.9722,
-   "lon": 23.7268
-  },
-  {
    "id": "7aF1hdq0NxftwusUnhfDe6",
    "title": "A 1961 newsreel camera takes in a fast-growing capital",
    "type": "video",
@@ -672,30 +696,6 @@
    "place": "Parthenon, Acropolis",
    "lat": 37.9715,
    "lon": 23.7267
-  },
-  {
-   "id": "1AlzKzbBL85t1myA6s3qLW",
-   "title": "A goddess bends to fix her sandal in rippling drapery",
-   "type": "video",
-   "place": "Acropolis Museum",
-   "lat": 37.9685,
-   "lon": 23.7285
-  },
-  {
-   "id": "NfivHOqVwehx58aSEI9hm",
-   "title": "Two museums argue over the marbles of one temple",
-   "type": "video",
-   "place": "Acropolis Museum",
-   "lat": 37.9685,
-   "lon": 23.7285
-  },
-  {
-   "id": "2qzPG1Yrr3tWPB3gekSsoT",
-   "title": "A gold death mask named for a king who probably wasn’t",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.989,
-   "lon": 23.7326
   }
  ]
 }

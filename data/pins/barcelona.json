@@ -2,6 +2,54 @@
  "city": "Barcelona",
  "pins": [
   {
+   "id": "1Y2aIrG1XjvlOVaDfCWaqp",
+   "title": "The Sagrada Família by Antoni Gaudí",
+   "type": "podcast",
+   "place": "Sagrada Família basilica",
+   "lat": 41.4037,
+   "lon": 2.1745
+  },
+  {
+   "id": "7tsqUtxRV0ODBbTJhpmwVZ",
+   "title": "The Wise and Foolish Virgins by the Master of Pedret",
+   "type": "video",
+   "place": "National Art Museum of Catalonia (MNAC)",
+   "lat": 41.3685,
+   "lon": 2.1534
+  },
+  {
+   "id": "4HdkW0daxgxIhHqxP3L8CD",
+   "title": "The Historiated Capitals of Sant Miquel, Camarasa",
+   "type": "video",
+   "place": "National Art Museum of Catalonia (MNAC)",
+   "lat": 41.3685,
+   "lon": 2.1534
+  },
+  {
+   "id": "2QDslJFq90weIBLKstGRrT",
+   "title": "The Virgin of Ger, a Romanesque wooden Madonna",
+   "type": "video",
+   "place": "National Art Museum of Catalonia (MNAC)",
+   "lat": 41.3685,
+   "lon": 2.1534
+  },
+  {
+   "id": "fuskSVzyMvDrT1is0jBjc",
+   "title": "Les Demoiselles d’Avignon by Pablo Picasso",
+   "type": "video",
+   "place": "Carrer d’Avinyó",
+   "lat": 41.381,
+   "lon": 2.177
+  },
+  {
+   "id": "2ChWx2mq8JCkBh4w1nx3vV",
+   "title": "The Sagrada Família by Antoni Gaudí",
+   "type": "video",
+   "place": "Sagrada Família basilica",
+   "lat": 41.4036,
+   "lon": 2.1744
+  },
+  {
    "id": "274hlxhsXRCSF7HGRcHGrM",
    "title": "Barcelona Walking Tour: El Raval and the Gothic Quarter's Landmarks",
    "type": "audiotour",
@@ -538,22 +586,6 @@
    "lon": 2.1162
   },
   {
-   "id": "2ChWx2mq8JCkBh4w1nx3vV",
-   "title": "Gaudí’s church reads like a Bible carved in stone",
-   "type": "video",
-   "place": "Sagrada Família basilica",
-   "lat": 41.4036,
-   "lon": 2.1744
-  },
-  {
-   "id": "fuskSVzyMvDrT1is0jBjc",
-   "title": "A painting that broke modern art is named for a Barcelona street",
-   "type": "video",
-   "place": "Carrer d’Avinyó",
-   "lat": 41.381,
-   "lon": 2.177
-  },
-  {
    "id": "1garFjLBZuwNltwfyWj1O8",
    "title": "A region votes to leave Spain and the state says no",
    "type": "video",
@@ -626,14 +658,6 @@
    "lon": 2.196
   },
   {
-   "id": "2QDslJFq90weIBLKstGRrT",
-   "title": "A stiff wooden Madonna holds the Christ child on her lap",
-   "type": "video",
-   "place": "National Art Museum of Catalonia (MNAC)",
-   "lat": 41.3685,
-   "lon": 2.1534
-  },
-  {
    "id": "6pHdM1UjhDKaZ8o8UBCkiO",
    "title": "A 1934 cruise ship drops anchor and passengers go ashore",
    "type": "video",
@@ -664,22 +688,6 @@
    "place": "Camp Nou stadium",
    "lat": 41.3809,
    "lon": 2.1228
-  },
-  {
-   "id": "4HdkW0daxgxIhHqxP3L8CD",
-   "title": "Romanesque stone capitals carved with tiny stories",
-   "type": "video",
-   "place": "National Art Museum of Catalonia (MNAC)",
-   "lat": 41.3685,
-   "lon": 2.1534
-  },
-  {
-   "id": "7tsqUtxRV0ODBbTJhpmwVZ",
-   "title": "Five girls with lit lamps, five shut out in the dark",
-   "type": "video",
-   "place": "National Art Museum of Catalonia (MNAC)",
-   "lat": 41.3685,
-   "lon": 2.1534
   },
   {
    "id": "1Lv7jH6K6mEhJbftw0nMMX",

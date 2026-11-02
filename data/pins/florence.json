@@ -2,6 +2,430 @@
  "city": "Florence",
  "pins": [
   {
+   "id": "1ioyGsMQu0knhy5Tw8hbvk",
+   "title": "David by Michelangelo",
+   "type": "video",
+   "place": "Accademia Gallery (Galleria dell’Accademia)",
+   "lat": 43.7768,
+   "lon": 11.2586
+  },
+  {
+   "id": "7G5C3K1esZwFeWquWDZBci",
+   "title": "The Deposition by Jacopo Pontormo",
+   "type": "podcast",
+   "place": "Santa Felicita",
+   "lat": 43.7666,
+   "lon": 11.2527
+  },
+  {
+   "id": "6wC6sbdKb3UPv4gvxr2h1p",
+   "title": "Judith Slaying Holofernes by Artemisia Gentileschi",
+   "type": "podcast",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "ji7TVhUfEbwzq0APRuxKf",
+   "title": "The Birth of Venus by Sandro Botticelli",
+   "type": "podcast",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "48PjTNVWij6kqKlVH3qNHA",
+   "title": "The Birth of Venus by Sandro Botticelli",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "zit4U8Tk9xKSO5a1VNBmV",
+   "title": "The Campanile Reliefs by Andrea Pisano",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "lat": 43.7731,
+   "lon": 11.2577
+  },
+  {
+   "id": "5gDZCOsDIeDLulYib7CeSH",
+   "title": "The Consequences of War by Peter Paul Rubens",
+   "type": "video",
+   "place": "Palatine Gallery, Palazzo Pitti",
+   "lat": 43.7651,
+   "lon": 11.25
+  },
+  {
+   "id": "79JFTeVoSyFQwiGDDi1cg0",
+   "title": "The Duke and Duchess of Urbino by Piero della Francesca",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "OI2j14lBGSRJeAFAdstgu",
+   "title": "The Madonna of the Goldfinch by Raphael",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "222wpVF6DLMTiV1HbsYfvt",
+   "title": "The Madonna with the Long Neck by Parmigianino",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4XlqGY48pIzHqFEvsBVMiF",
+   "title": "The Venus of Urbino by Titian",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "7IOo3FF1NKJXiUXzAyCUbI",
+   "title": "The Saint Lucy Altarpiece by Domenico Veneziano",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "3QTfd2JDXBQBd8dtHXPDC4",
+   "title": "The Presentation in the Temple by Ambrogio Lorenzetti",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "98dvIg3DEKBnGZ5Di2P7o",
+   "title": "Madonna and Child with Two Angels by Fra Filippo Lippi",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "S2l3uGPlk9l4hY1b6YECP",
+   "title": "Eleonora of Toledo and Her Son by Bronzino",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "2SYRghlDLY7rCzXDqRelWY",
+   "title": "Santo Spirito by Filippo Brunelleschi",
+   "type": "video",
+   "place": "Santo Spirito basilica",
+   "lat": 43.7665,
+   "lon": 11.2479
+  },
+  {
+   "id": "4tZbD7FJmWGbpMlUy41J6j",
+   "title": "The Old Sacristy by Filippo Brunelleschi",
+   "type": "video",
+   "place": "Old Sacristy, San Lorenzo basilica",
+   "lat": 43.7748,
+   "lon": 11.254
+  },
+  {
+   "id": "57aYHsLDQGKCZgm2so18Pc",
+   "title": "The Santa Trinita and Ognissanti Madonnas by Cimabue and Giotto",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "aTGOhhWjjYbvdfbkNbqJu",
+   "title": "Palazzo Rucellai by Leon Battista Alberti",
+   "type": "video",
+   "place": "Palazzo Rucellai",
+   "lat": 43.7713,
+   "lon": 11.249
+  },
+  {
+   "id": "4bmzd8rMaD2ZRNgG21bWDs",
+   "title": "Perseus with the Head of Medusa by Benvenuto Cellini",
+   "type": "video",
+   "place": "Loggia dei Lanzi, Piazza della Signoria",
+   "lat": 43.7693,
+   "lon": 11.2556
+  },
+  {
+   "id": "3JfXMChlOXPjCpOaBsL7HC",
+   "title": "The Expulsion from the Garden of Eden by Masaccio",
+   "type": "video",
+   "place": "Brancacci Chapel, Santa Maria del Carmine",
+   "lat": 43.768,
+   "lon": 11.244
+  },
+  {
+   "id": "7pjSVO039nG3D7MWfwFSDW",
+   "title": "Fruit and Insects by Rachel Ruysch",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "5aBakxffmr9xrspja7rga3",
+   "title": "The Façade of Santa Maria Novella by Leon Battista Alberti",
+   "type": "video",
+   "place": "Santa Maria Novella basilica",
+   "lat": 43.7731,
+   "lon": 11.2494
+  },
+  {
+   "id": "6rt3zDqe72QKo5vkHkdPGJ",
+   "title": "The Adoration of the Magi by Gentile da Fabriano",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1G4iFwMgFZ3vIpBmcvQQwS",
+   "title": "Judith Slaying Holofernes by Artemisia Gentileschi",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4RGqGh5JHIKHn3oNWo0rDN",
+   "title": "The Birth of Venus by Sandro Botticelli",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "58V898h4X7xcOyGvCPle8u",
+   "title": "The Ognissanti Madonna by Giotto",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "70zx7kXtqucAZJcvmsfB0Q",
+   "title": "The Annunciation by Simone Martini and Lippo Memmi",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "2FEguoAYQASaw2Ki9bFTey",
+   "title": "The Rucellai Madonna by Duccio",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "5oR1P3Y8KdFh4jD9QrTpUA",
+   "title": "The Codex Amiatinus, the oldest complete Latin Bible",
+   "type": "video",
+   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
+   "lat": 43.7746,
+   "lon": 11.2538
+  },
+  {
+   "id": "6WlKzLmTjVPg06uo8n7pb",
+   "title": "The Santa Trinita Maestà by Cimabue",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "2NcQTvSu84euFQz44vouX3",
+   "title": "The Portinari Altarpiece by Hugo van der Goes",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "Grbk8L1zQxzSKgGLfmfA8",
+   "title": "Palazzo Medici Riccardi by Michelozzo",
+   "type": "video",
+   "place": "Palazzo Medici Riccardi",
+   "lat": 43.7752,
+   "lon": 11.2559
+  },
+  {
+   "id": "3UJZHGVjN3Ir9GnngWdeyk",
+   "title": "The Deposition by Pontormo",
+   "type": "video",
+   "place": "Capponi Chapel, Santa Felicita church",
+   "lat": 43.7666,
+   "lon": 11.2523
+  },
+  {
+   "id": "1vHBIi9kKWdBFTqiFWDGst",
+   "title": "The Sacrifice of Isaac by Lorenzo Ghiberti and Filippo Brunelleschi",
+   "type": "video",
+   "place": "Bargello Museum",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "2fLiCLRmB4MZS4ViEqir3u",
+   "title": "Primavera by Sandro Botticelli",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1tYlT7r9omahotSLYhj9VR",
+   "title": "David by Michelangelo",
+   "type": "video",
+   "place": "Accademia Gallery (Galleria dell’Accademia)",
+   "lat": 43.7768,
+   "lon": 11.2588
+  },
+  {
+   "id": "1qCcnEsS0BfZh6kXa9o9Eh",
+   "title": "The Penitent Magdalene by Donatello",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "lat": 43.7731,
+   "lon": 11.2551
+  },
+  {
+   "id": "i3atkwnsQUmyxFkxkLDUu",
+   "title": "Saint Mark by Donatello",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "lat": 43.7708,
+   "lon": 11.2547
+  },
+  {
+   "id": "16es7P9fbQ18DUA9ZXqydP",
+   "title": "The South Doors of the Baptistery by Andrea Pisano",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "lat": 43.7731,
+   "lon": 11.2577
+  },
+  {
+   "id": "3XMFzw3WMPA5Qsjxq2rWVu",
+   "title": "David by Andrea del Verrocchio",
+   "type": "video",
+   "place": "Bargello Museum",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "5dJJ0Mtavpql9FppHFRDlb",
+   "title": "The Cavalcanti Annunciation by Donatello",
+   "type": "video",
+   "place": "Santa Croce basilica",
+   "lat": 43.7686,
+   "lon": 11.2622
+  },
+  {
+   "id": "58wqr7scUQW1Pf20z15EZv",
+   "title": "Brunelleschi’s Perspective Experiment",
+   "type": "video",
+   "place": "Duomo central doorway, facing the Baptistery",
+   "lat": 43.7729,
+   "lon": 11.2553
+  },
+  {
+   "id": "4MroN0QaAo2ZjN1Ory1LZA",
+   "title": "The Dome of Florence Cathedral by Filippo Brunelleschi",
+   "type": "video",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "6ekZS8jYx6AV8ikCCypUlV",
+   "title": "Saint George by Donatello",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "lat": 43.7708,
+   "lon": 11.2547
+  },
+  {
+   "id": "6F9XKwjk4K4F5A5vH4letG",
+   "title": "Four Crowned Saints by Nanni di Banco",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "lat": 43.7709,
+   "lon": 11.2549
+  },
+  {
+   "id": "3aCBHDVXbM0vKtvO4t0XTN",
+   "title": "David by Donatello",
+   "type": "video",
+   "place": "Bargello Museum",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "4MUtDvEGSVaGw8oLabCSNK",
+   "title": "The Laurentian Library by Michelangelo",
+   "type": "video",
+   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
+   "lat": 43.7746,
+   "lon": 11.2538
+  },
+  {
+   "id": "beu4jQDbOu0k4j1l3Kh1V",
+   "title": "The New Sacristy by Michelangelo",
+   "type": "video",
+   "place": "New Sacristy, Medici Chapels",
+   "lat": 43.7751,
+   "lon": 11.2533
+  },
+  {
+   "id": "3VbShgmcla0nQNokQYy65O",
+   "title": "The Tribute Money by Masaccio",
+   "type": "video",
+   "place": "Brancacci Chapel, Santa Maria del Carmine",
+   "lat": 43.7681,
+   "lon": 11.244
+  },
+  {
+   "id": "nscLmGreE7n2aZUx0vhER",
+   "title": "The Annunciation by Fra Angelico",
+   "type": "video",
+   "place": "San Marco Museum",
+   "lat": 43.7781,
+   "lon": 11.2588
+  },
+  {
+   "id": "6GRn6RXaNNSlQMuwUo89j1",
+   "title": "The Gates of Paradise by Lorenzo Ghiberti",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "lat": 43.7731,
+   "lon": 11.2551
+  },
+  {
+   "id": "3TxY3GkPezrNOpQCTV1pZz",
+   "title": "The Holy Trinity by Masaccio",
+   "type": "video",
+   "place": "Santa Maria Novella basilica",
+   "lat": 43.7746,
+   "lon": 11.2494
+  },
+  {
    "id": "R9t1qjuLn1NWiEOcUsYDk",
    "title": "The History of the Jewish Ghetto in Florence: A Walking Tour with Context",
    "type": "audiotour",
@@ -506,84 +930,12 @@
    "lon": 11.2566
   },
   {
-   "id": "3TxY3GkPezrNOpQCTV1pZz",
-   "title": "A flat church wall opens into a painted chapel",
-   "type": "video",
-   "place": "Santa Maria Novella basilica",
-   "lat": 43.7746,
-   "lon": 11.2494
-  },
-  {
-   "id": "6GRn6RXaNNSlQMuwUo89j1",
-   "title": "Bronze doors take a goldsmith 27 years to finish",
-   "type": "video",
-   "place": "Museo dell’Opera del Duomo (cathedral museum)",
-   "lat": 43.7731,
-   "lon": 11.2551
-  },
-  {
-   "id": "nscLmGreE7n2aZUx0vhER",
-   "title": "A friar paints the Annunciation at the top of the stairs",
-   "type": "video",
-   "place": "San Marco Museum",
-   "lat": 43.7781,
-   "lon": 11.2588
-  },
-  {
-   "id": "3VbShgmcla0nQNokQYy65O",
-   "title": "A young painter gives the apostles real weight and shadow",
-   "type": "video",
-   "place": "Brancacci Chapel, Santa Maria del Carmine",
-   "lat": 43.7681,
-   "lon": 11.244
-  },
-  {
-   "id": "beu4jQDbOu0k4j1l3Kh1V",
-   "title": "Michelangelo carves Night and Day for two Medici tombs",
-   "type": "video",
-   "place": "New Sacristy, Medici Chapels",
-   "lat": 43.7751,
-   "lon": 11.2533
-  },
-  {
-   "id": "4MUtDvEGSVaGw8oLabCSNK",
-   "title": "A library staircase spills down into its own lobby",
-   "type": "video",
-   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
-   "lat": 43.7746,
-   "lon": 11.2538
-  },
-  {
-   "id": "3aCBHDVXbM0vKtvO4t0XTN",
-   "title": "A boy hero in bronze stands nude for the first time in centuries",
-   "type": "video",
-   "place": "Bargello Museum",
-   "lat": 43.7704,
-   "lon": 11.2582
-  },
-  {
-   "id": "6F9XKwjk4K4F5A5vH4letG",
-   "title": "Four stonemasons die rather than carve a pagan god",
-   "type": "video",
-   "place": "Orsanmichele church",
-   "lat": 43.7709,
-   "lon": 11.2549
-  },
-  {
    "id": "2KxobaulRV3cMPdt7OHeKd",
    "title": "A banking family’s chapel sets the rules for Renaissance building",
    "type": "video",
    "place": "Pazzi Chapel, Santa Croce",
    "lat": 43.7681,
    "lon": 11.2627
-  },
-  {
-   "id": "6ekZS8jYx6AV8ikCCypUlV",
-   "title": "The armorers’ guild orders a saint in shining marble armor",
-   "type": "video",
-   "place": "Orsanmichele church",
-   "lat": 43.7708,
-   "lon": 11.2547
   },
   {
    "id": "3VtYptKdaQ8P9eHztQkLp4",
@@ -642,28 +994,12 @@
    "lon": 11.2617
   },
   {
-   "id": "4MroN0QaAo2ZjN1Ory1LZA",
-   "title": "A goldsmith raises the largest dome of its age with no wooden frame",
-   "type": "video",
-   "place": "Duomo cathedral (Santa Maria del Fiore)",
-   "lat": 43.7731,
-   "lon": 11.256
-  },
-  {
    "id": "5apLce43s7kTzfguEECXb9",
    "title": "Violin makers and framers keep working south of the river",
    "type": "video",
    "place": "Oltrarno district (area)",
    "lat": 43.7667,
    "lon": 11.2481
-  },
-  {
-   "id": "58wqr7scUQW1Pf20z15EZv",
-   "title": "A painted panel and a mirror teach artists to draw in depth",
-   "type": "video",
-   "place": "Duomo central doorway, facing the Baptistery",
-   "lat": 43.7729,
-   "lon": 11.2553
   },
   {
    "id": "4y5NL20VBbqHIbdHjUAMl1",
@@ -714,22 +1050,6 @@
    "lon": 11.2554
   },
   {
-   "id": "5dJJ0Mtavpql9FppHFRDlb",
-   "title": "An angel kneels and Mary half turns away in gilded stone",
-   "type": "video",
-   "place": "Santa Croce basilica",
-   "lat": 43.7686,
-   "lon": 11.2622
-  },
-  {
-   "id": "3XMFzw3WMPA5Qsjxq2rWVu",
-   "title": "Verrocchio’s David is a skinny teenager who has just won",
-   "type": "video",
-   "place": "Bargello Museum",
-   "lat": 43.7704,
-   "lon": 11.2582
-  },
-  {
    "id": "6BwgGNPsPRQr10hXB7mKqm",
    "title": "An arcade for abandoned babies sets the Renaissance in motion",
    "type": "video",
@@ -738,292 +1058,12 @@
    "lon": 11.2611
   },
   {
-   "id": "16es7P9fbQ18DUA9ZXqydP",
-   "title": "Florence’s first bronze doors tell the Baptist’s story in 28 panels",
-   "type": "video",
-   "place": "Museo dell’Opera del Duomo (cathedral museum)",
-   "lat": 43.7731,
-   "lon": 11.2577
-  },
-  {
-   "id": "i3atkwnsQUmyxFkxkLDUu",
-   "title": "The linen weavers’ saint stands firmly on a cushion of cloth",
-   "type": "video",
-   "place": "Orsanmichele church",
-   "lat": 43.7708,
-   "lon": 11.2547
-  },
-  {
-   "id": "1qCcnEsS0BfZh6kXa9o9Eh",
-   "title": "Donatello carves a penitent saint worn down to skin and bone",
-   "type": "video",
-   "place": "Museo dell’Opera del Duomo (cathedral museum)",
-   "lat": 43.7731,
-   "lon": 11.2551
-  },
-  {
-   "id": "1tYlT7r9omahotSLYhj9VR",
-   "title": "Michelangelo’s giant keeps watch for the young republic",
-   "type": "video",
-   "place": "Accademia Gallery (Galleria dell’Accademia)",
-   "lat": 43.7768,
-   "lon": 11.2588
-  },
-  {
-   "id": "2fLiCLRmB4MZS4ViEqir3u",
-   "title": "Venus presides over a spring garden full of flowers",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "1vHBIi9kKWdBFTqiFWDGst",
-   "title": "Two goldsmiths compete for the Baptistery’s bronze doors",
-   "type": "video",
-   "place": "Bargello Museum",
-   "lat": 43.7704,
-   "lon": 11.2582
-  },
-  {
-   "id": "3UJZHGVjN3Ir9GnngWdeyk",
-   "title": "Pastel figures carry Christ’s body with no ground to stand on",
-   "type": "video",
-   "place": "Capponi Chapel, Santa Felicita church",
-   "lat": 43.7666,
-   "lon": 11.2523
-  },
-  {
-   "id": "Grbk8L1zQxzSKgGLfmfA8",
-   "title": "A banker’s house sets the pattern for Renaissance palaces",
-   "type": "video",
-   "place": "Palazzo Medici Riccardi",
-   "lat": 43.7752,
-   "lon": 11.2559
-  },
-  {
-   "id": "2NcQTvSu84euFQz44vouX3",
-   "title": "A Flemish altarpiece arrives and Florentine painters take notes",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "6WlKzLmTjVPg06uo8n7pb",
-   "title": "Cimabue sets the Virgin on a throne above four prophets",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "5oR1P3Y8KdFh4jD9QrTpUA",
-   "title": "A giant Bible copied in England was meant as a gift for the pope",
-   "type": "video",
-   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
-   "lat": 43.7746,
-   "lon": 11.2538
-  },
-  {
-   "id": "2FEguoAYQASaw2Ki9bFTey",
-   "title": "A towering Madonna long credited to Cimabue turns out to be Duccio’s",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "70zx7kXtqucAZJcvmsfB0Q",
-   "title": "Gold and flowing lines frame an angel’s greeting, Siena style",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "58V898h4X7xcOyGvCPle8u",
-   "title": "Giotto’s Virgin sits solidly on her throne, with real weight",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "4RGqGh5JHIKHn3oNWo0rDN",
-   "title": "Venus drifts ashore on a scallop shell",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "1G4iFwMgFZ3vIpBmcvQQwS",
-   "title": "Two women hold down a general and cut off his head",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "6rt3zDqe72QKo5vkHkdPGJ",
-   "title": "The Magi arrive with a glittering retinue of horses and hounds",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "5aBakxffmr9xrspja7rga3",
-   "title": "Alberti gives a Gothic church a classical front",
-   "type": "video",
-   "place": "Santa Maria Novella basilica",
-   "lat": 43.7731,
-   "lon": 11.2494
-  },
-  {
-   "id": "7pjSVO039nG3D7MWfwFSDW",
-   "title": "Fruit, a bird’s nest and insects on a forest floor",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "3JfXMChlOXPjCpOaBsL7HC",
-   "title": "Adam hides his face and Eve howls as they leave Eden",
-   "type": "video",
-   "place": "Brancacci Chapel, Santa Maria del Carmine",
-   "lat": 43.768,
-   "lon": 11.244
-  },
-  {
-   "id": "4bmzd8rMaD2ZRNgG21bWDs",
-   "title": "Perseus holds up Medusa’s head over the city’s main square",
-   "type": "video",
-   "place": "Loggia dei Lanzi, Piazza della Signoria",
-   "lat": 43.7693,
-   "lon": 11.2556
-  },
-  {
-   "id": "aTGOhhWjjYbvdfbkNbqJu",
-   "title": "A merchant’s palace wears the three classical orders",
-   "type": "video",
-   "place": "Palazzo Rucellai",
-   "lat": 43.7713,
-   "lon": 11.249
-  },
-  {
-   "id": "57aYHsLDQGKCZgm2so18Pc",
-   "title": "Two towering Madonnas show painting turn toward real bodies",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "4tZbD7FJmWGbpMlUy41J6j",
-   "title": "A cube topped by a dome makes one of the first Renaissance rooms",
-   "type": "video",
-   "place": "Old Sacristy, San Lorenzo basilica",
-   "lat": 43.7748,
-   "lon": 11.254
-  },
-  {
-   "id": "2SYRghlDLY7rCzXDqRelWY",
-   "title": "A church built from rows of identical arches and chapels",
-   "type": "video",
-   "place": "Santo Spirito basilica",
-   "lat": 43.7665,
-   "lon": 11.2479
-  },
-  {
-   "id": "S2l3uGPlk9l4hY1b6YECP",
-   "title": "A duchess in a brocade gown sits with her young son",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "98dvIg3DEKBnGZ5Di2P7o",
-   "title": "A grinning angel lifts the baby Jesus toward his mother",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "3QTfd2JDXBQBd8dtHXPDC4",
-   "title": "A Sienese painter builds a deep temple behind the figures",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "7IOo3FF1NKJXiUXzAyCUbI",
-   "title": "Pastel saints stand in a sunlit loggia with the Virgin",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "4XlqGY48pIzHqFEvsBVMiF",
-   "title": "A nude Venus looks straight out while maids search a chest",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "222wpVF6DLMTiV1HbsYfvt",
-   "title": "An elegant Madonna stretches like a swan",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "OI2j14lBGSRJeAFAdstgu",
-   "title": "Two children play with a small bird in a field",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "79JFTeVoSyFQwiGDDi1cg0",
-   "title": "A duke and duchess face each other in strict profile",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
    "id": "1CpbB2z30GfeaDsciflWia",
    "title": "Galileo’s finger points skyward from a glass reliquary",
    "type": "video",
    "place": "Museo Galileo science museum",
    "lat": 43.7677,
    "lon": 11.256
-  },
-  {
-   "id": "5gDZCOsDIeDLulYib7CeSH",
-   "title": "Mars breaks free from Venus while Europe mourns",
-   "type": "video",
-   "place": "Palatine Gallery, Palazzo Pitti",
-   "lat": 43.7651,
-   "lon": 11.25
-  },
-  {
-   "id": "zit4U8Tk9xKSO5a1VNBmV",
-   "title": "Small hexagons show people inventing farming and weaving",
-   "type": "video",
-   "place": "Museo dell’Opera del Duomo (cathedral museum)",
-   "lat": 43.7731,
-   "lon": 11.2577
   },
   {
    "id": "4Y9eNR6ZzQo4DuggBkEZ2c",

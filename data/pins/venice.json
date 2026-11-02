@@ -2,6 +2,38 @@
  "city": "Venice",
  "pins": [
   {
+   "id": "CZDeLTKaE20ZGBzXH38O5",
+   "title": "The Tempest by Giorgione",
+   "type": "video",
+   "place": "Gallerie dell’Accademia art museum",
+   "lat": 45.4313,
+   "lon": 12.3279
+  },
+  {
+   "id": "1IeiNNTK7duMEuQYoeoT6O",
+   "title": "The Feast in the House of Levi by Paolo Veronese",
+   "type": "video",
+   "place": "Gallerie dell’Accademia art museum",
+   "lat": 45.431,
+   "lon": 12.3283
+  },
+  {
+   "id": "3iIUQrKJosnebYjLe16E3k",
+   "title": "The Pesaro Madonna by Titian",
+   "type": "video",
+   "place": "Frari church (Santa Maria Gloriosa dei Frari)",
+   "lat": 45.4368,
+   "lon": 12.3266
+  },
+  {
+   "id": "MzBTIymDEdU5y1EmP80TP",
+   "title": "The Tetrarchs, four Roman co-emperors in porphyry",
+   "type": "video",
+   "place": "Tetrarchs sculpture, St Mark’s Basilica",
+   "lat": 45.4342,
+   "lon": 12.34
+  },
+  {
    "id": "3l8QyGm8qnLXuTGhsEeTgx",
    "title": "L’incoronazione di Poppea: Pur ti miro",
    "type": "music",
@@ -544,38 +576,6 @@
    "place": "Doge’s Palace",
    "lat": 45.4337,
    "lon": 12.3404
-  },
-  {
-   "id": "MzBTIymDEdU5y1EmP80TP",
-   "title": "Four Roman emperors embrace on the corner of St Mark’s",
-   "type": "video",
-   "place": "Tetrarchs sculpture, St Mark’s Basilica",
-   "lat": 45.4342,
-   "lon": 12.34
-  },
-  {
-   "id": "3iIUQrKJosnebYjLe16E3k",
-   "title": "A family of admirals gets painted into the Virgin’s court",
-   "type": "video",
-   "place": "Frari church (Santa Maria Gloriosa dei Frari)",
-   "lat": 45.4368,
-   "lon": 12.3266
-  },
-  {
-   "id": "1IeiNNTK7duMEuQYoeoT6O",
-   "title": "A Last Supper lands its painter in front of the Inquisition",
-   "type": "video",
-   "place": "Gallerie dell’Accademia art museum",
-   "lat": 45.431,
-   "lon": 12.3283
-  },
-  {
-   "id": "CZDeLTKaE20ZGBzXH38O5",
-   "title": "A soldier, a nursing mother and a storm no one can explain",
-   "type": "video",
-   "place": "Gallerie dell’Accademia art museum",
-   "lat": 45.4313,
-   "lon": 12.3279
   },
   {
    "id": "VjSp6Mvm6NujdO59y3pvG",
