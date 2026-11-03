@@ -117,8 +117,8 @@ img.city-hero__img.is-loaded { opacity: 1; }
 
 .story-item { display: flex; align-items: flex-start; gap: 14px; padding: 16px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background var(--transition); }
 .story-item:hover { background: rgba(220,232,249,0.5); }
-.story-item__icon-podcast { width: 56px; height: 56px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
-.story-item__icon-video { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--border); border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.story-item__icon-podcast { width: 64px; height: 64px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
+.story-item__icon-video { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--border); border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon-album { width: 74px; height: 74px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 /* Audio-tour covers are landscape (VoiceMap art), so a wide thumbnail. */
 .story-item__icon-tour { width: 84px; height: 56px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
@@ -203,7 +203,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .story-item:hover .story-item__icon-viz > :first-child,
 .story-item__icon-viz:hover > :first-child { transform: rotateY(32deg); box-shadow: -4px 3px 12px rgba(0,0,0,0.28); }
 .story-item__icon-poster { width: 60px; height: 90px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
-.story-item__icon--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: var(--ink-light); flex-shrink: 0; width: 56px; height: 56px; }
+.story-item__icon--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: var(--ink-light); flex-shrink: 0; width: 64px; height: 64px; }
 .story-item__icon--placeholder-poster { width: 60px; height: 90px; border-radius: 2px; font-size: 11px; letter-spacing: 0.03em; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 /* Songs with no album art show the music-note glyph instead of a text label. */
 .story-item__icon--placeholder-glyph { display: flex; opacity: 0.5; }
@@ -508,7 +508,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 @media (max-width: 768px) {
   .story-item__icon-podcast,
   .story-item__icon-video,
-  .story-item__icon--placeholder { width: 80px; height: 80px; }
+  .story-item__icon--placeholder { width: 96px; height: 96px; }
   .story-item__icon-tour { width: 120px; height: 80px; }
   .story-item__icon--placeholder-glyph svg { width: 36px; height: 36px; }
   .story-item__icon-podcast { border-radius: 4px; }

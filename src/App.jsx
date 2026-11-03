@@ -1215,9 +1215,10 @@ function StoryIcon({ story, omdbData, bookData }) {
   const isPortraitType = isBook || t === 'movie' || t === 'tv'
   // Songs get the music-note glyph rather than a truncated word — "SON" read as
   // an abbreviation of nothing. Everything else keeps its short text label.
-  const placeholderLabel = isMusic
-    ? <span className="story-item__icon--placeholder-glyph" aria-label="Song">{TYPE_ICONS.music}</span>
-    : isBook ? 'BOOK' : isMovieTV ? (t === 'tv' ? 'TV' : 'MOVIE') : label.slice(0,3).toUpperCase()
+  const glyphKey = isMusic ? 'music' : isBook ? 'book' : t === 'movie' ? 'movie' : null
+  const placeholderLabel = glyphKey
+    ? <span className="story-item__icon--placeholder-glyph" aria-label={label}>{TYPE_ICONS[glyphKey]}</span>
+    : t === 'tv' ? 'TV' : label.slice(0,3).toUpperCase()
   const placeholder = (
     <div
       className={'story-item__icon--placeholder' + (isPortraitType ? ' story-item__icon--placeholder-poster' : '') + (isBook ? ' story-item__icon-poster--book' : '')}
