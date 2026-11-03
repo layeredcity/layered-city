@@ -495,9 +495,7 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
       <h2 className="story-modal__title">{lm.name}</h2>
       <p className="story-modal__desc">{lm.description}</p>
       <div className="landmark-detail__stories">
-        {lm.members.map(m => (
-          <StoryItem key={m.id} story={m} onSelect={s => onOpenStory({ ...s, fromLandmark: story })} omdbData={omdbCache?.[m.imdbId]} bookData={bookCache?.[m.isbn]} />
-        ))}
+        <LandmarkStories story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
       </div>
     </>
   )

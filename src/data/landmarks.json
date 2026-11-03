@@ -565,7 +565,8 @@
    "places": [
     "Chinese Cultural Centre (site of 1999 embassy bombing)"
    ],
-   "description": "The site of the Chinese embassy that NATO bombed in May 1999, killing three people. A Chinese cultural centre now stands there."
+   "description": "The site of the Chinese embassy that NATO bombed in May 1999, killing three people. A Chinese cultural centre now stands there.",
+   "photoSearch": true
   },
   {
    "id": "tesla-museum",
@@ -659,7 +660,8 @@
    "places": [
     "Alexanderplatz"
    ],
-   "description": "A big open square in former East Berlin, with the TV tower, the World Clock and a busy train station."
+   "description": "A big open square in former East Berlin, with the TV tower, the World Clock and a busy train station.",
+   "photoSearch": true
   },
   {
    "id": "potsdamer-platz",
@@ -826,7 +828,8 @@
    "places": [
     "Palace of the Parliament"
    ],
-   "description": "Ceaușescu’s enormous government palace, one of the largest buildings in the world, built over a cleared historic district. Guided tours run inside."
+   "description": "Ceaușescu’s enormous government palace, one of the largest buildings in the world, built over a cleared historic district. Guided tours run inside.",
+   "photoSearch": true
   },
   {
    "id": "romanian-athenaeum",
@@ -1035,7 +1038,8 @@
    "places": [
     "Little Mermaid statue"
    ],
-   "description": "A small bronze statue of the fairy-tale mermaid, sitting on a rock by the harbour at Langelinie since 1913."
+   "description": "A small bronze statue of the fairy-tale mermaid, sitting on a rock by the harbour at Langelinie since 1913.",
+   "photoSearch": true
   },
   {
    "id": "royal-hotel",
@@ -1179,7 +1183,8 @@
     "Castle Esplanade",
     "Witches’ Well, Castle Esplanade"
    ],
-   "description": "The fortress on a volcanic rock above the city, with the Scottish crown jewels, and the esplanade in front where the Tattoo is held."
+   "description": "The fortress on a volcanic rock above the city, with the Scottish crown jewels, and the esplanade in front where the Tattoo is held.",
+   "photoSearch": true
   },
   {
    "id": "national-museum",
@@ -1621,7 +1626,8 @@
    "places": [
     "Galata Mevlevi Lodge museum"
    ],
-   "description": "A former lodge of the Mevlevi order, the whirling dervishes, now a museum with the wooden hall where their ceremony took place."
+   "description": "A former lodge of the Mevlevi order, the whirling dervishes, now a museum with the wooden hall where their ceremony took place.",
+   "photoSearch": true
   },
   {
    "id": "theodosian-walls",
@@ -1822,7 +1828,8 @@
    "places": [
     "National Pantheon (Santa Engrácia Church)"
    ],
-   "description": "A domed baroque church that took nearly 300 years to finish, now the resting place of national figures, including the fado singer Amália Rodrigues."
+   "description": "A domed baroque church that took nearly 300 years to finish, now the resting place of national figures, including the fado singer Amália Rodrigues.",
+   "photoSearch": true
   },
   {
    "id": "santa-luzia",
@@ -2029,7 +2036,8 @@
    "places": [
     "Gay’s the Word bookshop"
    ],
-   "description": "Britain’s oldest LGBT bookshop, open in Bloomsbury since 1979."
+   "description": "Britain’s oldest LGBT bookshop, open in Bloomsbury since 1979.",
+   "photoSearch": true
   },
   {
    "id": "shakespeares-globe",
@@ -2361,7 +2369,8 @@
    "places": [
     "Cité Radieuse (Unité d’Habitation)"
    ],
-   "description": "Le Corbusier’s 1952 concrete housing block on stilts, with shops and a hotel on an inside street and a terrace on the roof."
+   "description": "Le Corbusier’s 1952 concrete housing block on stilts, with shops and a hotel on an inside street and a terrace on the roof.",
+   "photoSearch": true
   }
  ],
  "Munich": [
@@ -2891,7 +2900,8 @@
    "places": [
     "Folies Bergère music hall"
    ],
-   "description": "A music hall open since 1869 and famous for its cabaret revues. It now mostly hosts concerts and musicals."
+   "description": "A music hall open since 1869 and famous for its cabaret revues. It now mostly hosts concerts and musicals.",
+   "photoSearch": true
   },
   {
    "id": "invalides",
@@ -3053,7 +3063,8 @@
    "places": [
     "Harpa concert hall"
    ],
-   "description": "The glass-fronted concert hall on the harbour, opened in 2011 and home of the Iceland Symphony Orchestra."
+   "description": "The glass-fronted concert hall on the harbour, opened in 2011 and home of the Iceland Symphony Orchestra.",
+   "photoSearch": true
   },
   {
    "id": "laekjartorg",
@@ -3081,7 +3092,8 @@
    "places": [
     "University of Iceland"
    ],
-   "description": "Iceland’s oldest and largest university, founded in 1911, on a campus just south of the city centre next to the National Museum."
+   "description": "Iceland’s oldest and largest university, founded in 1911, on a campus just south of the city centre next to the National Museum.",
+   "photoSearch": true
   },
   {
    "id": "kaffibarinn",
@@ -3326,7 +3338,8 @@
    "places": [
     "Ara Pacis Museum"
    ],
-   "description": "A glass-walled museum by the Tiber built around the Ara Pacis, a carved marble altar celebrating the peace brought by Augustus."
+   "description": "A glass-walled museum by the Tiber built around the Ara Pacis, a carved marble altar celebrating the peace brought by Augustus.",
+   "photoSearch": true
   },
   {
    "id": "circus-maximus",
