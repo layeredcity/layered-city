@@ -53,6 +53,7 @@ const LANG = {
   Amsterdam: 'nl', Copenhagen: 'da', Stockholm: 'sv', Oslo: 'no', Helsinki: 'fi', 'Reykjavík': 'is',
   Athens: 'el', Belgrade: 'sr', Prague: 'cs', 'Kraków': 'pl', Bucharest: 'ro', Budapest: 'hu', Istanbul: 'tr',
   London: 'en', Manchester: 'en', Edinburgh: 'en', Dublin: 'en',
+  Milan: 'it', Warsaw: 'pl', Belfast: 'en', Liverpool: 'en', Glasgow: 'en',
 }
 
 const SPEED = Number(process.env.SPEED || 0.9)
