@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import mapboxgl from 'mapbox-gl'
-import { musicGlyphMarkup } from '../mediaGlyphs'
+import { placeholderGlyphMarkup } from '../mediaGlyphs'
 import { sizedAsset } from '../utils/images'
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
@@ -306,8 +306,9 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
           const boxR = isPortraitType ? '4px' : borderRadius
           const fontSize = isPortraitType ? '8px' : '10px'
           el.style.cssText = 'width:' + boxW + ';height:' + boxH + ';border-radius:' + boxR + ';background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:' + fontSize + ';font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.25);cursor:pointer;font-family:sans-serif;opacity:0;pointer-events:none;transition:opacity 0.35s ease;'
-          // Songs without album art get the music-note glyph rather than "MUS".
-          if (t === 'music') el.innerHTML = '<span style="display:flex;opacity:0.5">' + musicGlyphMarkup(15) + '</span>'
+          // Songs, books and films without art get a grey glyph rather than a word.
+          const glyph = placeholderGlyphMarkup(t, 15)
+          if (glyph) el.innerHTML = '<span style="display:flex;opacity:0.5">' + glyph + '</span>'
           else el.textContent = t === 'book' ? 'BOOK' : (story.mediaType || '').slice(0, 3).toUpperCase()
         }
         el.addEventListener('click', () => onStoryClick?.(story))

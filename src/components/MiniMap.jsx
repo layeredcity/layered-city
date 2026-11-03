@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react'
 import mapboxgl from 'mapbox-gl'
-import { musicGlyphMarkup } from '../mediaGlyphs'
+import { placeholderGlyphMarkup } from '../mediaGlyphs'
 import { sizedAsset, squareAsset } from '../utils/images'
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
@@ -36,9 +36,13 @@ export default function MiniMap({ story, omdbData, bookData, onOpen }) {
       const w = isPoster ? 30 : 40, h = isPoster ? 45 : 40, r = isPoster ? '4px' : borderRadius
       el.style.cssText = `width:${w}px;height:${h}px;border-radius:${r};background-image:url(${story.artworkImage ? squareAsset(story.artworkImage, 96) : portraitImg});background-size:cover;background-position:center;border:2.5px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.3);`
     } else {
-      el.style.cssText = `width:36px;height:36px;border-radius:${borderRadius};background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.3);font-family:sans-serif;`
-      // Songs without album art get the music-note glyph rather than "MUS".
-      if ((story.mediaType || '').toLowerCase() === 'music') el.innerHTML = `<span style="display:flex;opacity:0.5">${musicGlyphMarkup(18)}</span>`
+      const t = (story.mediaType || '').toLowerCase()
+      const portrait = t === 'book' || t === 'movie'
+      const w = portrait ? 30 : 36, h = portrait ? 45 : 36, r = portrait ? '4px' : borderRadius
+      el.style.cssText = `width:${w}px;height:${h}px;border-radius:${r};background:#1A1714;color:white;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;border:2px solid white;box-shadow:0 2px 8px rgba(0,0,0,0.3);font-family:sans-serif;`
+      // Songs, books and films without art get a grey glyph rather than a word.
+      const glyph = placeholderGlyphMarkup(t, 18)
+      if (glyph) el.innerHTML = `<span style="display:flex;opacity:0.5">${glyph}</span>`
       else el.textContent = (story.mediaType || '').slice(0, 3).toUpperCase()
     }
 
