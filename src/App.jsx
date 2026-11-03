@@ -1786,11 +1786,9 @@ export default function App() {
     }
     return best && best.d <= NEAR_KM ? best.id : null
   }, [visitorGeo, cities])
-  const orderedCities = useMemo(() => {
-    if (!nearestCityId) return cities
-    const near = cities.find(c => c.id === nearestCityId)
-    return [near, ...cities.filter(c => c.id !== nearestCityId)]
-  }, [cities, nearestCityId])
+  // Strictly alphabetical; the nearest city is marked in place rather than
+  // moved to the top (Ryan kept looking for it in its alphabetical spot).
+  const orderedCities = useMemo(() => [...cities].sort((a, b) => a.name.localeCompare(b.name)), [cities])
   // City list order: alphabetical (default) or grouped by country. The choice
   // is remembered per browser.
   const [cityOrder, setCityOrderState] = useState(() => { try { return localStorage.getItem('lc-city-order') === 'country' ? 'country' : 'alpha' } catch { return 'alpha' } })
@@ -1980,7 +1978,7 @@ export default function App() {
               </div>
               <div className="city-item__info">
                 <div className="city-item__name">{city.name}</div>
-                <div className="city-item__country">{city.country}{nearestCityId === city.id && <span className="city-item__near"> · Near you</span>}</div>
+                <div className="city-item__country">{city.country}{nearestCityId === city.id && <span className="city-item__near"> · <span className="city-item__near-dot" aria-hidden="true" />Near you</span>}</div>
               </div>
             </div>
           ))}
