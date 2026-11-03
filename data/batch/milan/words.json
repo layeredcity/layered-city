@@ -1,0 +1,282 @@
+{
+ "wordsPreamble": "- Milan speaks standard Italian with a northern accent. The old Milanese dialect survives mostly among older people and in a handful of phrases everyone knows.\n- An *s* between vowels is buzzed like a z here: *casa* sounds like “kaza.” Every letter is still pronounced, and double consonants are held longer.\n- English is common in the centre, in business and fashion, and in hotels. Milan is Italy’s working city and moves quickly, so keep exchanges short and polite.\n- Greet people entering a shop or bar, and again on the way out. Coffee is drunk standing at the counter, and fast.",
+ "words": [
+  {
+   "slot": "greeting-morning",
+   "local": "Buongiorno",
+   "phonetic": "bwon-JOR-noh",
+   "meaning": "good morning / hello"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Buongiorno",
+   "phonetic": "bwon-JOR-noh",
+   "meaning": "good afternoon",
+   "context": "Still buongiorno until mid-afternoon. Buon pomeriggio exists but is rarely said to strangers."
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Buonasera",
+   "phonetic": "BWOH-nah-SEH-rah",
+   "meaning": "good evening",
+   "groupNote": "Buonasera starts in the afternoon, from about four. Milanese often clip both to ’giorno and ’sera."
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Ciao",
+   "phonetic": "chow",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye, for friends and peers. Among friends you will also hear Uè (weh), a loud all-purpose Milanese hey."
+  },
+  {
+   "slot": "leaving",
+   "local": "Arrivederci",
+   "phonetic": "ah-ree-veh-DEHR-chee",
+   "meaning": "leaving a shop or café",
+   "context": "Buona giornata (have a good day) on the way out is just as common, and Milanese shopkeepers will say it first."
+  },
+  {
+   "slot": "please",
+   "local": "Per favore",
+   "phonetic": "pehr fah-VOH-reh",
+   "meaning": "please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Grazie",
+   "phonetic": "GRAHT-tsee-eh",
+   "meaning": "thank you",
+   "context": "Three syllables, not two. Grazie mille is a thousand thanks."
+  },
+  {
+   "slot": "yes",
+   "local": "Sì",
+   "phonetic": "see",
+   "meaning": "yes"
+  },
+  {
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Parla inglese?",
+   "phonetic": "PAR-lah een-GLEH-zeh",
+   "meaning": "do you speak English?",
+   "context": "Often answered in English before you finish. Milan does business in it."
+  },
+  {
+   "slot": "dont-speak",
+   "local": "Non parlo italiano",
+   "phonetic": "non PAR-loh ee-tah-LYAH-noh",
+   "meaning": "I don’t speak Italian"
+  },
+  {
+   "slot": "dont-understand",
+   "local": "Non capisco",
+   "phonetic": "non kah-PEES-koh",
+   "meaning": "I don’t understand"
+  },
+  {
+   "slot": "sorry",
+   "local": "Mi dispiace",
+   "phonetic": "mee dee-SPYAH-cheh",
+   "meaning": "sorry",
+   "context": "For a real apology. For a bump on the metro, scusi is the word."
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Scusi",
+   "phonetic": "SKOO-zee",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Permesso",
+   "phonetic": "pehr-MEHS-soh",
+   "meaning": "excuse me (squeezing past)",
+   "context": "Say it on a packed tram or metro before you move toward the doors."
+  },
+  {
+   "slot": "number-one",
+   "local": "Uno",
+   "phonetic": "OO-noh",
+   "meaning": "one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Due",
+   "phonetic": "DOO-eh",
+   "meaning": "two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Tre",
+   "phonetic": "treh",
+   "meaning": "three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Quattro",
+   "phonetic": "KWAHT-troh",
+   "meaning": "four"
+  },
+  {
+   "slot": "table-for",
+   "local": "Un tavolo per due",
+   "phonetic": "oon TAH-voh-loh pehr DOO-eh",
+   "meaning": "a table for two",
+   "context": "Milan eats dinner around eight, earlier than Rome. Book on Fridays and Saturdays."
+  },
+  {
+   "slot": "menu",
+   "local": "Il menù?",
+   "phonetic": "eel meh-NOO",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: Il menù, per favore."
+  },
+  {
+   "slot": "id-like-this",
+   "local": "Vorrei questo",
+   "phonetic": "vor-RAY KWEH-stoh",
+   "meaning": "I’d like this"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Buon appetito",
+   "phonetic": "bwon ah-peh-TEE-toh",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Cin cin",
+   "phonetic": "chin chin",
+   "meaning": "cheers",
+   "context": "The clink at aperitivo. Salute (sah-LOO-teh) is the plainer toast, and also what you say after a sneeze."
+  },
+  {
+   "slot": "delicious",
+   "local": "Buonissimo!",
+   "phonetic": "bwoh-NEES-see-moh",
+   "meaning": "delicious!"
+  },
+  {
+   "slot": "check",
+   "local": "Il conto?",
+   "phonetic": "eel KON-toh",
+   "meaning": "the check?",
+   "context": "More polite version: Il conto, per favore. At a busy coffee bar, pay first at the till and hand the receipt to the barista."
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Il coperto",
+   "phonetic": "eel koh-PEHR-toh",
+   "meaning": "cover charge",
+   "context": "A per-person charge for bread and the table, printed on the menu. Legitimate. At aperitivo the drink price usually includes the snacks."
+  },
+  {
+   "slot": "where-is",
+   "local": "Dov’è…?",
+   "phonetic": "doh-VEH",
+   "meaning": "where is…?"
+  },
+  {
+   "slot": "ticket",
+   "local": "Il biglietto",
+   "phonetic": "eel bee-LYEHT-toh",
+   "meaning": "ticket",
+   "context": "On the metro you can tap a contactless bank card at the gates instead of buying one. Keep it to tap out."
+  },
+  {
+   "slot": "bathroom",
+   "local": "Il bagno",
+   "phonetic": "eel BAH-nyoh",
+   "meaning": "bathroom",
+   "context": "Bars expect you to buy something first. A coffee at the counter is the usual price of entry."
+  },
+  {
+   "slot": "door-men",
+   "local": "Uomini",
+   "phonetic": "WOH-mee-nee",
+   "meaning": "men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Donne",
+   "phonetic": "DON-neh",
+   "meaning": "women",
+   "groupNote": "Also Signori (men) and Signore (women), one vowel apart on adjacent doors."
+  },
+  {
+   "slot": "atm",
+   "local": "Il bancomat",
+   "phonetic": "eel BAHN-koh-maht",
+   "meaning": "ATM",
+   "context": "Not to be confused with ATM, the city’s transport company, whose logo is on every tram stop. Decline the offer to charge you in dollars."
+  },
+  {
+   "slot": "how-much",
+   "local": "Quanto costa?",
+   "phonetic": "KWAHN-toh KOH-stah",
+   "meaning": "how much?"
+  },
+  {
+   "slot": "card",
+   "local": "Con la carta",
+   "phonetic": "kon lah KAR-tah",
+   "meaning": "by card",
+   "context": "Cards are accepted almost everywhere, including for a single espresso."
+  },
+  {
+   "slot": "cash",
+   "local": "Contanti",
+   "phonetic": "kon-TAHN-tee",
+   "meaning": "cash",
+   "context": "Worth a few coins for market stalls, newsstands and the odd old bar."
+  },
+  {
+   "slot": "bag",
+   "local": "Un sacchetto?",
+   "phonetic": "oon sahk-KEHT-toh",
+   "meaning": "bag?",
+   "context": "Charged by law. Say no grazie if you brought one."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 1,
+   "local": "Sciura",
+   "phonetic": "SHOO-rah",
+   "context": "Dialect for signora: the well-dressed, well-off older Milanese lady, fur coat in winter, small dog, firm opinions, coffee at the same bar every day. Said with affection, and some caution."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 2,
+   "local": "Bauscia",
+   "phonetic": "bow-SHAH",
+   "context": "A braggart, roughly one who drools while boasting. AC Milan fans use it for Inter fans, and Inter fans have adopted it with pride. The two clubs share San Siro stadium."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 3,
+   "local": "Milano da bere",
+   "phonetic": "mee-LAH-noh dah BEH-reh",
+   "context": "“Milan to drink”: a 1980s advertising slogan for Ramazzotti, a Milanese herbal liqueur, that became the name for the city’s high-living decade, and for the bribery scandals that ended it."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 4,
+   "local": "Apericena",
+   "phonetic": "ah-peh-ree-CHEH-nah",
+   "context": "Aperitivo plus cena, dinner: an early-evening drink with a buffet substantial enough to replace the meal. The bars along the Navigli canals are where it is taken most seriously."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 5,
+   "local": "Ghe pensi mi",
+   "phonetic": "geh PEHN-see mee",
+   "context": "Dialect for “I’ll take care of it.” The Milanese motto of quiet self-reliance and getting on with the job, quoted with pride and, increasingly, with irony."
+  }
+ ]
+}

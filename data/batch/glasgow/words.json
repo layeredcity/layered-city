@@ -1,0 +1,161 @@
+{
+ "wordsPreamble": "- English, with a Glasgow accent and a set of Scots words that visitors from England find harder than Edinburgh’s. People will slow down if you ask.\n- Glasgow is famously open. Strangers start conversations at bus stops and in pub queues, and a short answer reads as unfriendly rather than polite.\n- The humour is dry, quick and often at someone’s expense, including yours. Giving some back is expected.\n- Football runs deep. Celtic and Rangers are a divide with religious and political history, so don’t pick a side casually or wear either strip into a pub.",
+ "words": [
+  {
+   "slot": "yes",
+   "local": "Aye",
+   "phonetic": "eye",
+   "meaning": "yes",
+   "context": "Universal, at every age and in every setting. Aye, right — with the stress on right — means the opposite."
+  },
+  {
+   "slot": "no",
+   "local": "Naw",
+   "phonetic": "naw",
+   "meaning": "no",
+   "context": "Also nae for “not” — nae bother means no problem."
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "How’s it gaun?",
+   "phonetic": "hooz it GAWN",
+   "meaning": "hello",
+   "context": "A greeting, not a question. “No bad, yersel?” closes it. Awright? does the same job in one word."
+  },
+  {
+   "slot": "leaving",
+   "local": "See ye later",
+   "meaning": "leaving a shop or café",
+   "context": "Cheerio is still current. Shop staff often send you off with cheers, pal or cheers, hen — pal for men, hen for women."
+  },
+  {
+   "slot": "thanks",
+   "local": "Cheers",
+   "meaning": "thank you",
+   "context": "Standard. Thanks very much is fine; ta is understood but sounds English."
+  },
+  {
+   "slot": "sorry",
+   "local": "Sorry",
+   "meaning": "sorry",
+   "context": "Used freely. Sorry? also means “what did you say,” which you may need often."
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Excuse me",
+   "meaning": "getting attention",
+   "context": "Bar staff work out the order from who arrived when. A nod and eye contact are enough; waving money is not."
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Sorry",
+   "meaning": "squeezing past",
+   "groupNote": "Sorry covers both apology and getting past. Excuse me opens a request."
+  },
+  {
+   "slot": "id-like-this",
+   "local": "Could I get…",
+   "meaning": "I'd like this",
+   "context": "Or just name it — a pint of Tennent’s, please. Glasgow is not fussy about phrasing."
+  },
+  {
+   "slot": "check",
+   "local": "The bill, please",
+   "meaning": "the check, please",
+   "context": "Asking for the check marks you instantly, though nobody will mind."
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Service charge",
+   "meaning": "service charge",
+   "context": "Sometimes added for groups and shown at the bottom of the bill. Otherwise tipping around 10% for table service is normal."
+  },
+  {
+   "slot": "ticket",
+   "local": "Contactless",
+   "meaning": "ticket",
+   "context": "Tap a bank card on most city buses. The Subway is a single circular line, nicknamed the Clockwork Orange after its trains."
+  },
+  {
+   "slot": "bathroom",
+   "local": "The toilets",
+   "meaning": "bathroom",
+   "context": "Loo works and the cludgie is old Glasgow slang for it. Restroom gets a blank look."
+  },
+  {
+   "slot": "door-men",
+   "local": "Gents",
+   "meaning": "men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Ladies",
+   "meaning": "women",
+   "groupNote": "Standard on most doors. Gaelic signs at stations use Fir for men and Mnathan for women."
+  },
+  {
+   "slot": "atm",
+   "local": "Cashpoint",
+   "meaning": "ATM",
+   "context": "Also the hole in the wall. Cash machines here dispense Scottish banknotes."
+  },
+  {
+   "slot": "card",
+   "local": "Card",
+   "meaning": "credit card",
+   "context": "Contactless almost everywhere, including most chip shops and taxis."
+  },
+  {
+   "slot": "cash",
+   "local": "Cash",
+   "meaning": "cash",
+   "context": "Three Scottish banks print their own notes. They are legal across the UK but some English shops hesitate, so spend them here."
+  },
+  {
+   "slot": "bag",
+   "local": "Bag?",
+   "meaning": "bag?",
+   "context": "Charged. Doing the messages means doing the grocery shopping, so bring one if you are."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 1,
+   "local": "Gallus",
+   "phonetic": "GAL-us",
+   "meaning": "bold, confident, a bit cheeky",
+   "context": "Glasgow’s favourite compliment for a person or a move with some swagger. Originally it meant fit for the gallows."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 2,
+   "local": "Wean",
+   "phonetic": "wayn",
+   "meaning": "a child",
+   "context": "From wee ane, little one. The weans are the kids, and a greetin’ wean is a crying one."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 3,
+   "local": "Ginger",
+   "phonetic": "JIN-jer",
+   "meaning": "any fizzy soft drink",
+   "context": "Irn-Bru, cola, lemonade — all ginger in Glasgow. A bottle of ginger has nothing to do with ginger."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 4,
+   "local": "Boggin",
+   "phonetic": "BOG-in",
+   "meaning": "disgusting, filthy",
+   "context": "For a smell, a room, a pub toilet or the weather. Also used of a person who badly needs a wash."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 5,
+   "local": "Steamin",
+   "phonetic": "STEE-min",
+   "meaning": "very drunk",
+   "context": "One of many Glasgow words for it, alongside blootered and mortal. Usually said with some admiration."
+  }
+ ]
+}

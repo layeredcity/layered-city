@@ -1,0 +1,47 @@
+[
+ {
+  "type": "movie",
+  "city": "Belfast",
+  "title": "Titanic Town",
+  "creator": "Roger Michell",
+  "year": 1998,
+  "genre": "drama",
+  "lat": 54.5745,
+  "lon": -5.985,
+  "place": "Andersonstown, West Belfast",
+  "minutes": null,
+  "imdb": "tt0127319",
+  "justwatch": "https://www.justwatch.com/us/search?q=Titanic%20Town",
+  "description": "Julie Walters plays a mother in 1972 Andersonstown, a Catholic estate in west Belfast, who starts a peace campaign and ends up despised by the IRA and the British Army alike. From Mary Costello’s novel based on her own mother. Funny as often as grim."
+ },
+ {
+  "type": "movie",
+  "city": "Belfast",
+  "title": "Framing John DeLorean",
+  "creator": "Don Argott and Sheena M. Joyce",
+  "year": 2019,
+  "genre": "docudrama",
+  "lat": 54.5503,
+  "lon": -6.003,
+  "place": "DeLorean factory, Dunmurry",
+  "minutes": null,
+  "imdb": "tt6256978",
+  "justwatch": "https://www.justwatch.com/us/search?q=Framing%20John%20DeLorean",
+  "description": "Documentary with dramatised scenes, Alec Baldwin as carmaker John DeLorean, whose gull-winged DMC-12 was built with British government money at a factory in Dunmurry on Belfast’s edge. It closed in 1982, the year of his arrest on drug charges."
+ },
+ {
+  "type": "movie",
+  "city": "Belfast",
+  "title": "George Best: All by Himself",
+  "creator": "Daniel Gordon",
+  "year": 2016,
+  "genre": "documentary",
+  "lat": 54.5826,
+  "lon": -5.9554,
+  "place": "Windsor Park football stadium",
+  "minutes": null,
+  "imdb": "tt6545160",
+  "justwatch": "https://www.justwatch.com/us/search?q=George%20Best%20All%20by%20Himself",
+  "description": "Daniel Gordon’s documentary on footballer George Best, from the Cregagh estate in east Belfast to Manchester United stardom and a long fall into alcoholism. He won 37 caps for Northern Ireland, whose home ground is Windsor Park stadium."
+ }
+]

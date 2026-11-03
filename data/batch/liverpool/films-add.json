@@ -1,0 +1,47 @@
+[
+ {
+  "type": "movie",
+  "city": "Liverpool",
+  "title": "Violent Playground",
+  "creator": "Basil Dearden",
+  "year": 1958,
+  "genre": "crime drama",
+  "lat": 53.4118,
+  "lon": -2.9822,
+  "place": "Gerard Gardens tenements site",
+  "minutes": null,
+  "imdb": "tt0052367",
+  "justwatch": "https://www.justwatch.com/us/search?q=Violent%20Playground",
+  "description": "Director Basil Dearden’s drama about a Liverpool policeman, played by Stanley Baker, moved to youth work and up against a teenage arsonist played by David McCallum. It was shot around Gerard Gardens, inner-city council tenements since demolished."
+ },
+ {
+  "type": "movie",
+  "city": "Liverpool",
+  "title": "Dockers",
+  "creator": "Bill Anderson",
+  "year": 1999,
+  "genre": "drama",
+  "lat": 53.459,
+  "lon": -3.0215,
+  "place": "Royal Seaforth Dock",
+  "minutes": null,
+  "imdb": "tt0206691",
+  "justwatch": "https://www.justwatch.com/us/search?q=Dockers",
+  "description": "Television film about the Liverpool dock strike of 1995–98, when some 500 dockers were sacked after refusing to cross a picket line. Writers Jimmy McGovern and Irvine Welsh made it with the sacked men, whose pickets stood at the Royal Seaforth Dock gates."
+ },
+ {
+  "type": "tv",
+  "city": "Liverpool",
+  "title": "Bread",
+  "creator": "Carla Lane",
+  "year": 1986,
+  "genre": "sitcom",
+  "lat": 53.385,
+  "lon": -2.972,
+  "place": "Dingle district",
+  "minutes": null,
+  "imdb": "tt0090402",
+  "justwatch": "https://www.justwatch.com/us/search?q=Bread",
+  "description": "Writer Carla Lane’s BBC sitcom, 1986–91, about the Boswells, a big Catholic family in the Dingle, a working-class district by the south docks, getting by on the dole and small scams in Thatcher’s Britain, all under their mother Nellie’s rule."
+ }
+]

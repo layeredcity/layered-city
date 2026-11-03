@@ -1,0 +1,32 @@
+[
+ {
+  "type": "movie",
+  "city": "Milan",
+  "title": "Il Posto",
+  "creator": "Ermanno Olmi",
+  "year": 1961,
+  "genre": "drama",
+  "lat": 45.4682,
+  "lon": 9.1756,
+  "place": "Cadorna railway station",
+  "minutes": 93,
+  "imdb": "tt0055320",
+  "justwatch": "https://www.justwatch.com/us/search?q=Il%20Posto",
+  "description": "Original title means “the job.” Ermanno Olmi’s quiet drama about a shy teenager from the town of Meda who commutes into Milan, sits the entrance tests for a big company and finds a dead-end desk. Trains from Meda end at Cadorna station."
+ },
+ {
+  "type": "tv",
+  "city": "Milan",
+  "title": "1992",
+  "creator": "Giuseppe Gagliardi",
+  "year": 2015,
+  "genre": "political drama",
+  "lat": 45.4614,
+  "lon": 9.201,
+  "place": "Palace of Justice",
+  "minutes": 55,
+  "imdb": "tt2983290",
+  "justwatch": "https://www.justwatch.com/us/search?q=1992",
+  "description": "Sky series created by actor Stefano Accorsi, set during Mani Pulite (“clean hands”), the 1992 bribery inquiry by Milan magistrates that brought down Italy’s main parties. The investigators worked from the city’s Palace of Justice."
+ }
+]

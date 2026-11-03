@@ -1,0 +1,26 @@
+{
+ "cityName": "Milan",
+ "countryName": "Italy",
+ "continent": "Europe",
+ "lat": 45.4642,
+ "lon": 9.19,
+ "cityQuote": "What a wonder it is! So grand, so solemn, so vast! And yet so delicate, so airy, so graceful!",
+ "cityQuoteAttribution": "Mark Twain, writer",
+ "quoteSource": "https://standardebooks.org/ebooks/mark-twain/the-innocents-abroad/text/chapter-18",
+ "quoteAlternatives": [
+  {
+   "rank": 2,
+   "quote": "What a wonder it is! So grand, so solemn, so vast! And yet so delicate, so airy, so graceful! A very world of solid weight, and yet it seems in the soft moonlight only a fairy delusion of frost-work that might vanish with a breath!",
+   "attribution": "Mark Twain, writer, The Innocents Abroad (1869)",
+   "source": "https://standardebooks.org/ebooks/mark-twain/the-innocents-abroad/text/chapter-18",
+   "note": "Full sentence of option 1. Twain is describing the Duomo cathedral, not the city as a whole."
+  },
+  {
+   "rank": 3,
+   "quote": "Arrigo Beyle, Milanese. Scrisse, amò, visse.",
+   "attribution": "Stendhal, novelist, his own epitaph (“Henri Beyle, Milanese. He wrote, he loved, he lived.”)",
+   "source": "https://www.milanofree.it/tradizioni/personaggi/seguendo-le-orme-milanesi-di-stendhal.html",
+   "note": "The French novelist chose to be called Milanese on his grave in Montmartre Cemetery, Paris. In Italian; would need the translation shown."
+  }
+ ]
+}

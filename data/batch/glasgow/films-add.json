@@ -1,0 +1,32 @@
+[
+ {
+  "type": "tv",
+  "city": "Glasgow",
+  "title": "Rab C. Nesbitt",
+  "creator": "Ian Pattison",
+  "year": 1988,
+  "genre": "sitcom",
+  "lat": 55.8618,
+  "lon": -4.306,
+  "place": "Govan Road, Govan",
+  "minutes": 30,
+  "imdb": "tt0129709",
+  "justwatch": "https://www.justwatch.com/us/search?q=Rab%20C.%20Nesbitt",
+  "description": "Writer Ian Pattison’s BBC Scotland sitcom about Rab C. Nesbitt, an unemployed street philosopher in a string vest, played by Gregor Fisher, and his family in Govan, the old shipbuilding district on the south bank of the Clyde."
+ },
+ {
+  "type": "movie",
+  "city": "Glasgow",
+  "title": "The Angels’ Share",
+  "creator": "Ken Loach",
+  "year": 2012,
+  "genre": "comedy drama",
+  "lat": 55.8547,
+  "lon": -4.2528,
+  "place": "Glasgow Sheriff Court",
+  "minutes": 101,
+  "imdb": "tt1924394",
+  "justwatch": "https://www.justwatch.com/us/search?q=The%20Angels%27%20Share",
+  "description": "Director Ken Loach and writer Paul Laverty’s comedy about Robbie, a young Glaswegian sentenced in the city’s sheriff court to community service, who finds a nose for whisky. The Sheriff Court stands on the south bank of the Clyde in the Gorbals."
+ }
+]

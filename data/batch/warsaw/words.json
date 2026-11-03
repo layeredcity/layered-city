@@ -1,0 +1,282 @@
+{
+ "wordsPreamble": "- Warsaw speaks standard Polish, with little regional accent, and more English than anywhere else in Poland, especially among people under forty.\n- Use pan (sir) and pani (madam) with strangers and people behind counters. The informal form is for friends and people your age.\n- Greet people in shops with dzień dobry and say do widzenia leaving. Skipping it reads as rude.\n- *sz* is “sh,” *cz* is “ch,” *w* is “v,” *ł* is “w,” and *rz* sounds like the s in “pleasure.” Stress almost always falls on the second-to-last syllable.",
+ "words": [
+  {
+   "slot": "greeting-morning",
+   "local": "Dzień dobry",
+   "phonetic": "jen DOB-ri",
+   "meaning": "good morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Dzień dobry",
+   "phonetic": "jen DOB-ri",
+   "meaning": "good afternoon",
+   "context": "The same phrase all day: literally “good day.” Polish has no separate afternoon greeting."
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Dobry wieczór",
+   "phonetic": "DOB-ri VYEH-choor",
+   "meaning": "good evening",
+   "groupNote": "The switch comes when it gets dark, so as early as four in a Warsaw winter."
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Cześć",
+   "phonetic": "cheshch",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye both, for friends and people your age. Hej (hey) is softer and common among younger Varsovians."
+  },
+  {
+   "slot": "leaving",
+   "local": "Do widzenia",
+   "phonetic": "doh vee-DZEN-yah",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until seeing.” Say it on the way out of a shop even if you bought nothing."
+  },
+  {
+   "slot": "please",
+   "local": "Proszę",
+   "phonetic": "PROH-sheh",
+   "meaning": "please",
+   "context": "Also “you’re welcome,” “here you go” and, on the phone, “go ahead.” Poproszę (poh-PROH-sheh) means “I’ll have” when ordering."
+  },
+  {
+   "slot": "thanks",
+   "local": "Dziękuję",
+   "phonetic": "jen-KOO-yeh",
+   "meaning": "thank you",
+   "context": "Dzięki (JEN-kee) is the casual version."
+  },
+  {
+   "slot": "yes",
+   "local": "Tak",
+   "phonetic": "tahk",
+   "meaning": "yes"
+  },
+  {
+   "slot": "no",
+   "local": "Nie",
+   "phonetic": "nyeh",
+   "meaning": "no",
+   "context": "You’ll hear no (noh) constantly. It means “yeah” or “well,” not no."
+  },
+  {
+   "slot": "speak-english",
+   "local": "Czy mówi pan po angielsku?",
+   "phonetic": "chi MOO-vee pahn poh ahn-GYEL-skoo",
+   "meaning": "do you speak English?",
+   "context": "Pan to a man, pani (PAH-nee) to a woman. Most young Varsovians speak English well, so a plain hello first is enough."
+  },
+  {
+   "slot": "dont-understand",
+   "local": "Nie rozumiem",
+   "phonetic": "nyeh roh-ZOOM-yem",
+   "meaning": "I don't understand"
+  },
+  {
+   "slot": "sorry",
+   "local": "Przepraszam",
+   "phonetic": "psheh-PRAH-shahm",
+   "meaning": "sorry",
+   "context": "The same word apologises, gets attention and clears a path."
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Przepraszam",
+   "phonetic": "psheh-PRAH-shahm",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Przepraszam",
+   "phonetic": "psheh-PRAH-shahm",
+   "meaning": "excuse me (squeezing past)",
+   "context": "On a packed tram, ask Wysiada pan? (vi-SHAH-dah pahn): are you getting off? If not, they let you through.",
+   "groupNote": "One word for all three. Polish doesn’t split them."
+  },
+  {
+   "slot": "number-one",
+   "local": "Jeden",
+   "phonetic": "YEH-den",
+   "meaning": "one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Dwa",
+   "phonetic": "dvah",
+   "meaning": "two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Trzy",
+   "phonetic": "tshi",
+   "meaning": "three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Cztery",
+   "phonetic": "CHTEH-ri",
+   "meaning": "four"
+  },
+  {
+   "slot": "table-for",
+   "local": "Stolik dla dwóch osób",
+   "phonetic": "STOH-leek dlah dvooh OH-soob",
+   "meaning": "a table for two",
+   "context": "Literally “a little table for two people.” In milk bars you order at the counter and sit anywhere."
+  },
+  {
+   "slot": "menu",
+   "local": "Menu?",
+   "phonetic": "MEH-noo",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: Poproszę menu."
+  },
+  {
+   "slot": "id-like-this",
+   "local": "Poproszę to",
+   "phonetic": "poh-PROH-sheh toh",
+   "meaning": "I'd like this",
+   "context": "Point as you say it. Also works at bakery counters and market stalls."
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Smacznego",
+   "phonetic": "smahch-NEH-goh",
+   "meaning": "enjoy your meal",
+   "context": "Said by waiters, by people at the next table, and to you by anyone who walks in while you eat."
+  },
+  {
+   "slot": "cheers",
+   "local": "Na zdrowie",
+   "phonetic": "nah ZDROH-vyeh",
+   "meaning": "cheers",
+   "context": "Look people in the eye. With vodka, follow the shot with a bite of food straight away."
+  },
+  {
+   "slot": "delicious",
+   "local": "Pyszne!",
+   "phonetic": "PISH-neh",
+   "meaning": "delicious!"
+  },
+  {
+   "slot": "check",
+   "local": "Rachunek?",
+   "phonetic": "rah-HOO-nek",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: Poproszę rachunek. To tip by card, say the amount before the waiter keys it in."
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Kaucja",
+   "phonetic": "KOWTS-yah",
+   "meaning": "deposit",
+   "context": "Since October 2025 bottles and cans carry a deposit, 50 groszy for plastic and cans, added at the till. Return them to larger shops to get it back."
+  },
+  {
+   "slot": "where-is",
+   "local": "Gdzie jest…?",
+   "phonetic": "gjeh yest",
+   "meaning": "where is…?"
+  },
+  {
+   "slot": "ticket",
+   "local": "Bilet",
+   "phonetic": "BEE-let",
+   "meaning": "ticket",
+   "context": "One ticket covers trams, buses, metro and city trains. Validate a paper ticket in the small yellow box when you first board. Inspectors are common."
+  },
+  {
+   "slot": "bathroom",
+   "local": "Toaleta",
+   "phonetic": "toh-ah-LEH-tah",
+   "meaning": "bathroom",
+   "context": "WC on signs. Station and park toilets often charge a couple of złoty."
+  },
+  {
+   "slot": "door-men",
+   "local": "Męski",
+   "phonetic": "MEN-skee",
+   "meaning": "men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Damski",
+   "phonetic": "DAHM-skee",
+   "meaning": "women",
+   "groupNote": "Often no words at all: a triangle means men, a circle means women."
+  },
+  {
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "bahn-KOH-maht",
+   "meaning": "ATM",
+   "context": "Use bank-branded machines rather than the standalone ones near the Old Town. Decline the offer to charge you in dollars or pounds."
+  },
+  {
+   "slot": "how-much",
+   "local": "Ile kosztuje?",
+   "phonetic": "EE-leh kosh-TOO-yeh",
+   "meaning": "how much?",
+   "context": "Ile? alone does the job at a market stall."
+  },
+  {
+   "slot": "card",
+   "local": "Kartą",
+   "phonetic": "KAR-tohn",
+   "meaning": "by card",
+   "context": "Say it as you hold the card up. Contactless and phone payment are universal, even at bazaar stalls."
+  },
+  {
+   "slot": "cash",
+   "local": "Gotówka",
+   "phonetic": "goh-TOOF-kah",
+   "meaning": "cash",
+   "context": "Poland isn’t in the euro. Prices are in złoty (ZWOH-ti), and euros get a poor rate where they’re taken at all."
+  },
+  {
+   "slot": "bag",
+   "local": "Torebka?",
+   "phonetic": "toh-REP-kah",
+   "meaning": "bag?",
+   "context": "Charged at the till. Say nie, dziękuję if you brought one."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 1,
+   "local": "Wawa",
+   "phonetic": "VAH-vah",
+   "context": "The city’s nickname for itself, on T-shirts, in rap lyrics and in text messages. Affectionate when locals say it, slightly cheeky from anyone else."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 2,
+   "local": "Pekin",
+   "phonetic": "PEH-keen",
+   "context": "Beijing: locals’ nickname for the Palace of Culture and Science, from its initials PKiN. Stalin’s gift to the city, and the old joke says the best view is from the top, where you can’t see it."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 3,
+   "local": "Słoik",
+   "phonetic": "SWOH-eek",
+   "context": "A jar: the half-joking word for newcomers from the provinces who go home at weekends and come back with jars of their mother’s cooking. Most of Warsaw’s workforce, by that measure."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 4,
+   "local": "Godzina W",
+   "phonetic": "goh-JEE-nah voo",
+   "context": "W-hour: 5pm on 1 August, when the Warsaw Uprising against the German occupation began in 1944. Sirens sound every year, and traffic and pedestrians stop where they are for a minute."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 5,
+   "local": "Syrenka",
+   "phonetic": "si-REN-kah",
+   "context": "The little mermaid with sword and shield on Warsaw’s coat of arms. Her statue stands in the Old Town Market Square and another on the Vistula bank. Also the name of a communist-era car."
+  }
+ ]
+}

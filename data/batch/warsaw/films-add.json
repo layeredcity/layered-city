@@ -1,0 +1,62 @@
+[
+ {
+  "type": "movie",
+  "city": "Warsaw",
+  "title": "A Film Unfinished",
+  "creator": "Yael Hersonski",
+  "year": 2010,
+  "genre": "documentary",
+  "lat": 52.2357,
+  "lon": 20.9889,
+  "place": "Ghetto footbridge memorial, Chłodna Street",
+  "minutes": 89,
+  "imdb": "tt1568923",
+  "justwatch": "https://www.justwatch.com/us/search?q=A%20Film%20Unfinished",
+  "description": "Israeli director Yael Hersonski examines ‘Das Ghetto’, unfinished Nazi propaganda film shot in the Warsaw ghetto in 1942, setting staged scenes against survivors’ accounts. On Chłodna Street, light poles mark the footbridge joining the ghetto’s two parts."
+ },
+ {
+  "type": "movie",
+  "city": "Warsaw",
+  "title": "Popiełuszko: Freedom Is Within Us",
+  "creator": "Rafał Wieczyński",
+  "year": 2009,
+  "genre": "biopic",
+  "lat": 52.269,
+  "lon": 20.985,
+  "place": "St Stanisław Kostka Church, Żoliborz",
+  "minutes": null,
+  "imdb": "tt1387528",
+  "justwatch": "https://www.justwatch.com/us/search?q=Popie%C5%82uszko%3A%20Freedom%20Is%20Within%20Us",
+  "description": "Biopic of Jerzy Popiełuszko, the priest whose ‘Masses for the Homeland’ drew thousands of Solidarity supporters until secret police officers murdered him in 1984. He is buried at St Stanisław Kostka Church in Żoliborz, where he served."
+ },
+ {
+  "type": "movie",
+  "city": "Warsaw",
+  "title": "Saviour Square",
+  "creator": "Krzysztof Krauze, Joanna Kos-Krauze",
+  "year": 2006,
+  "genre": "drama",
+  "lat": 52.2196,
+  "lon": 21.0178,
+  "place": "Saviour Square (Plac Zbawiciela)",
+  "minutes": null,
+  "imdb": "tt0488027",
+  "justwatch": "https://www.justwatch.com/us/search?q=Saviour%20Square",
+  "description": "A young family loses its savings when the developer of its new flat goes bust, and moves in with a domineering mother-in-law. Bleak and hard-going. Fiction, named for the round square of arcaded 1950s blocks around the Church of the Holiest Saviour."
+ },
+ {
+  "type": "movie",
+  "city": "Warsaw",
+  "title": "Stones for the Rampart",
+  "creator": "Robert Gliński",
+  "year": 2014,
+  "genre": "war drama",
+  "lat": 52.2447,
+  "lon": 21.0027,
+  "place": "Arsenal building, Długa Street",
+  "minutes": null,
+  "imdb": "tt3470928",
+  "justwatch": "https://www.justwatch.com/us/search?q=Stones%20for%20the%20Rampart",
+  "description": "Drawn from Aleksander Kamiński’s 1943 book about real scouts in the Home Army underground. Its climax is Operation Arsenal, the March 1943 raid by the Arsenal on Długa Street that freed Jan Bytnar from a Gestapo truck. He died of his torture days later."
+ }
+]

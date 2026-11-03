@@ -1,0 +1,158 @@
+{
+ "wordsPreamble": "- English, spoken with Scouse, the fast, sing-song Liverpool accent shaped by Irish and Welsh migrants and the port. It sounds nothing like Manchester, 30 miles away, and locals would rather you didn’t compare them.\n- Liverpool talks. Strangers chat at bus stops and bars, and teasing is friendly. A quick reply goes down better than a polite one.\n- The city is red or blue: Liverpool FC or Everton. Families split down the middle, and someone will ask which you support.\n- Many shops won’t sell *The Sun* newspaper, over its false 1989 coverage of the Hillsborough disaster, a stadium crush in which 97 Liverpool fans died. It is not a subject for jokes.",
+ "words": [
+  {
+   "slot": "yes",
+   "local": "Sound",
+   "phonetic": "sownd",
+   "meaning": "yes / OK",
+   "context": "The all-purpose agreement: fine, good, that works. Said of a person, he’s sound is real praise."
+  },
+  {
+   "slot": "thanks",
+   "local": "Ta",
+   "phonetic": "tah",
+   "meaning": "thank you",
+   "context": "Used with strangers as well as friends, and not considered sloppy. Cheers works just as well."
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Y’alright?",
+   "phonetic": "yer-ALL-rite",
+   "meaning": "hello",
+   "context": "A greeting, not a question. “Sound, you?” closes it. Men add la (lad) and women often get queen or girl, all of it friendly."
+  },
+  {
+   "slot": "leaving",
+   "local": "Ta-ra",
+   "phonetic": "tah-RAH",
+   "meaning": "leaving a shop or café",
+   "context": "The local goodbye, often stretched to ta-ra well. See you later works too."
+  },
+  {
+   "slot": "sorry",
+   "local": "Sorry",
+   "meaning": "sorry",
+   "context": "The same reflex as the rest of England. Also means “what did you say?”, which you may need for the accent."
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Excuse me",
+   "meaning": "getting attention",
+   "context": "At a bar, stand where the staff can see you and wait your turn. Waving money or calling out gets you served later."
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Sorry",
+   "meaning": "squeezing past",
+   "groupNote": "Sorry works for apologising and for getting past. Excuse me is for asking something."
+  },
+  {
+   "slot": "id-like-this",
+   "local": "Can I get…",
+   "meaning": "I’d like this",
+   "context": "Some British people hear “Can I get” as too American. Liverpool barely notices; “Can I have” is the safe version."
+  },
+  {
+   "slot": "delicious",
+   "local": "Boss",
+   "phonetic": "boss",
+   "meaning": "delicious / excellent",
+   "context": "That was boss covers food, a night out or a goal. Nothing to do with anyone’s employer."
+  },
+  {
+   "slot": "check",
+   "local": "The bill, please",
+   "meaning": "the check, please",
+   "context": "Ask for the check and you’ll be understood, and marked as American."
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Service charge",
+   "meaning": "service charge",
+   "context": "Some restaurants add 10–12.5% to the bill. It should be printed on the bill and can be removed if you ask, so check before tipping on top."
+  },
+  {
+   "slot": "bathroom",
+   "local": "The toilets",
+   "meaning": "bathroom",
+   "context": "Loo works, and bogs is cruder but common. Ask for the restroom and you’ll get a blank look."
+  },
+  {
+   "slot": "door-men",
+   "local": "Gents",
+   "meaning": "men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Ladies",
+   "meaning": "women",
+   "groupNote": "Standard on most doors. Pubs occasionally get creative with the signs."
+  },
+  {
+   "slot": "ticket",
+   "local": "Contactless",
+   "meaning": "ticket",
+   "context": "Local buses take a tapped bank card or phone. Merseyrail, the local train network that loops under the city centre, needs a ticket from a machine or app before you board."
+  },
+  {
+   "slot": "atm",
+   "local": "Cashpoint",
+   "meaning": "ATM",
+   "context": "Also the hole in the wall. Bank-branded machines are free; some in shops and pubs charge a fee."
+  },
+  {
+   "slot": "card",
+   "local": "Card",
+   "meaning": "credit card",
+   "context": "Contactless almost everywhere. Say it as you hold the card up."
+  },
+  {
+   "slot": "cash",
+   "local": "Cash",
+   "meaning": "cash",
+   "context": "Still handy in older pubs, chippies and at the match, though card works nearly everywhere."
+  },
+  {
+   "slot": "bag",
+   "local": "Do you want a bag?",
+   "meaning": "bag?",
+   "context": "The cashier is asking if you want a bag, which costs extra. Say no thanks if you brought one."
+  },
+  {
+   "slot": "deep-cut",
+   "local": "La",
+   "phonetic": "lah",
+   "meaning": "Lad, used to address a man, friend or stranger: alright, la? Lid is the older version. Not rude in any way.",
+   "deepCutOrder": 1
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Made up",
+   "phonetic": "mayd UP",
+   "meaning": "Delighted. I’m made up for you means you’re genuinely pleased for them. Nothing to do with lying or make-up.",
+   "deepCutOrder": 2
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Jarg",
+   "phonetic": "jarg",
+   "meaning": "Fake or counterfeit, as in a jarg watch or a jarg football shirt. Also a person who isn’t what they claim to be.",
+   "deepCutOrder": 3
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Scran",
+   "phonetic": "skran",
+   "meaning": "Food. Sailors used the word long before Liverpool did, and the port kept it. Is there any scran? means what’s to eat.",
+   "deepCutOrder": 4
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Ar eh",
+   "phonetic": "ARR-ay",
+   "meaning": "A protest at something unfair, said in a rising whine: ar eh, give us a go. Close to “oh, come on.”",
+   "deepCutOrder": 5
+  }
+ ]
+}

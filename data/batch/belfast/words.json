@@ -1,0 +1,179 @@
+{
+ "wordsPreamble": "- English, with an Ulster accent that runs fast and moves its vowels around. Irish and Ulster Scots turn up on some signs; neither is widely spoken day to day.\n- Belfast is friendly and direct, and strangers will talk to you at bus stops. The humour is dry and teasing, and being slagged off by a new friend is a good sign.\n- Words carry sides here. Place names, flags, football shirts and Derry versus Londonderry all signal something, so follow how the person you’re talking to says it.\n- Prices are in pounds sterling. Northern Irish banks print their own notes, which look unfamiliar but spend the same.",
+ "words": [
+  {
+   "slot": "yes",
+   "local": "Aye",
+   "phonetic": "eye",
+   "meaning": "yes",
+   "context": "Universal across Northern Ireland, from bus drivers to bank managers."
+  },
+  {
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no",
+   "context": "Not at all is the standard reply to thanks, and means you’re welcome rather than no."
+  },
+  {
+   "slot": "thanks",
+   "local": "Cheers",
+   "phonetic": "cheerz",
+   "meaning": "thank you",
+   "context": "The usual thanks at a bar or counter. Thanks very much is the fuller form."
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "What about ye?",
+   "phonetic": "WAH-a-BOWT-yeh",
+   "meaning": "hello",
+   "context": "A greeting, not a question, usually squashed to ’bout ye. “Not bad, yourself?” closes it."
+  },
+  {
+   "slot": "leaving",
+   "local": "Cheerio",
+   "phonetic": "cheer-ee-OH",
+   "meaning": "leaving a shop or café",
+   "context": "Still current here. Bye is often said several times in a row on the way out the door."
+  },
+  {
+   "slot": "sorry",
+   "local": "Sorry",
+   "phonetic": "SOR-ee",
+   "meaning": "sorry",
+   "context": "The same reflex as Britain. Also means “pardon?”"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Excuse me",
+   "phonetic": "ex-KYOOZ mee",
+   "meaning": "getting attention",
+   "context": "Bar service runs on eye contact and patience. The bar staff know who came in when."
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Sorry",
+   "phonetic": "SOR-ee",
+   "meaning": "squeezing past",
+   "groupNote": "Sorry covers both apology and getting past. Excuse me opens a request."
+  },
+  {
+   "slot": "id-like-this",
+   "local": "Could I get…",
+   "phonetic": "kud eye GET",
+   "meaning": "I’d like this",
+   "context": "Can I get passes here without comment. A wee one of anything is also understood."
+  },
+  {
+   "slot": "delicious",
+   "local": "That was lovely",
+   "phonetic": "that woz LUV-lee",
+   "meaning": "delicious!",
+   "context": "Class works among younger people: that was class means excellent."
+  },
+  {
+   "slot": "check",
+   "local": "The bill, please",
+   "phonetic": "the BILL pleez",
+   "meaning": "the check, please",
+   "context": "Asking for the check marks you instantly."
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Service charge",
+   "phonetic": "SER-viss charj",
+   "meaning": "service charge",
+   "context": "Less common than in London and usually only for big groups. Check the bill before you tip around 10%."
+  },
+  {
+   "slot": "ticket",
+   "local": "Contactless",
+   "phonetic": "KON-takt-less",
+   "meaning": "ticket",
+   "context": "Translink Metro buses and the Glider take contactless. On the Glider you pay at the stop, not on board."
+  },
+  {
+   "slot": "bathroom",
+   "local": "The toilets",
+   "phonetic": "the TOY-lets",
+   "meaning": "bathroom",
+   "context": "Loo works. The bogs is cruder and common. Restroom gets a blank look."
+  },
+  {
+   "slot": "door-men",
+   "local": "Gents",
+   "phonetic": "jents",
+   "meaning": "men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Ladies",
+   "phonetic": "LAY-deez",
+   "meaning": "women",
+   "groupNote": "Standard on most doors."
+  },
+  {
+   "slot": "atm",
+   "local": "Cashpoint",
+   "phonetic": "KASH-point",
+   "meaning": "ATM",
+   "context": "Northern Irish banks print their own sterling notes. They’re valid across the UK but shops in England sometimes refuse them."
+  },
+  {
+   "slot": "card",
+   "local": "Card",
+   "phonetic": "kard",
+   "meaning": "credit card",
+   "context": "Contactless everywhere. Say it as you hold the card up."
+  },
+  {
+   "slot": "cash",
+   "local": "Cash",
+   "phonetic": "kash",
+   "meaning": "cash",
+   "context": "Still useful at St George’s Market stalls and in older pubs."
+  },
+  {
+   "slot": "bag",
+   "local": "Bag?",
+   "phonetic": "bag",
+   "meaning": "bag?",
+   "context": "Charged since 2013. Say no thanks if you brought one."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 1,
+   "local": "Wee",
+   "phonetic": "wee",
+   "context": "Small, and also a softener attached to almost anything. A wee cup of tea, a wee minute, a wee drive to Bangor, which is not that wee."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 2,
+   "local": "Dead on",
+   "phonetic": "ded ON",
+   "context": "Fine, sound, agreed. He’s dead on is a compliment; dead on, see you at eight settles a plan. Dead on its own just means very."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 3,
+   "local": "Catch yourself on",
+   "phonetic": "KATCH yer-self ON",
+   "context": "Get a grip, don’t be ridiculous. Said to someone talking nonsense, usually with a laugh, sometimes without one."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 4,
+   "local": "Scundered",
+   "phonetic": "SKUN-derd",
+   "context": "Mortified, deeply embarrassed. The feeling of waving back at someone who was waving at the person behind you."
+  },
+  {
+   "slot": "deep-cut",
+   "deepCutOrder": 5,
+   "local": "Norn Iron",
+   "phonetic": "norn EYE-ern",
+   "context": "Northern Ireland, said fast in a Belfast accent and written down as a joke. Mostly heard from football fans and on the terraces at Windsor Park stadium."
+  }
+ ]
+}
