@@ -62,6 +62,11 @@ export const CITY_VOICES = {
   Manchester: { lang: 'en', locales: ['en-GB'], local: ['manchester', 'mancunian', 'northern', 'lancashire', 'yorkshire', 'north west', 'north of england'] },
   Edinburgh:  { lang: 'en', locales: ['en-GB'], local: ['edinburgh', 'scottish', 'scotland', 'scots'] },
   Dublin:     { lang: 'en', locales: ['en-IE'], local: ['dublin', 'dub', 'irish', 'ireland'] },
+  Milan:      { lang: 'it', locales: ['it-IT'], local: ['milan', 'milano', 'milanese', 'lombard', 'lombardy', 'lombardia', 'northern italian'] },
+  Warsaw:     { lang: 'pl', locales: ['pl-PL'], local: ['warsaw', 'warszawa', 'mazovia', 'mazowsze', 'polish', 'poland'] },
+  Belfast:    { lang: 'en', locales: ['en-GB', 'en-IE'], local: ['belfast', 'northern irish', 'northern ireland', 'ulster', 'norn iron'], avoid: ['dublin', 'southern irish'] },
+  Liverpool:  { lang: 'en', locales: ['en-GB'], local: ['liverpool', 'scouse', 'scouser', 'merseyside', 'liverpudlian'] },
+  Glasgow:    { lang: 'en', locales: ['en-GB'], local: ['glasgow', 'glaswegian', 'weegie', 'west of scotland', 'scottish', 'scotland'] },
 }
 
 // Surface failures as GitHub check annotations (readable without log access).
