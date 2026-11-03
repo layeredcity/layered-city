@@ -130,8 +130,13 @@ export async function fetchStoriesForCity(cityId) {
       creatorName: f.creatorName || null,
       channelIcon: repoImage('channel', f.channel?.sys?.id)
         || (channel?.channelIcon?.fields?.file?.url ? 'https:' + channel.channelIcon.fields.file.url : null),
+      // Album art. About half the songs store it as an uploaded asset and the
+      // rest as a pasted coverImageUrl; both must show as square album art,
+      // not as a book-style portrait cover.
       artworkImage: repoImage('artwork', item.sys.id)
-        || (f.artworkImage?.fields?.file?.url ? 'https:' + f.artworkImage.fields.file.url : null),
+        || (f.artworkImage?.fields?.file?.url ? 'https:' + f.artworkImage.fields.file.url : null)
+        || (((f.mediaType || channel?.mediaType || '').toLowerCase() === 'music')
+          ? (repoImage('story', item.sys.id) || f.coverImageUrl || null) : null),
       mediaType: f.mediaType || channel?.mediaType || null,
       genre: f.genre || null,
       imdbId: f.imdbId || null,
