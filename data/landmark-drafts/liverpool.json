@@ -1,0 +1,109 @@
+[
+  {
+    "id": "cavern-club",
+    "name": "Cavern Club",
+    "type": "music",
+    "places": [
+      "Cavern Club, Mathew Street"
+    ],
+    "description": "A cellar club on Mathew Street where the Beatles played hundreds of times in the early 1960s. Today’s club is a rebuild on part of the original site."
+  },
+  {
+    "id": "st-georges-hall",
+    "name": "St George’s Hall",
+    "type": "building",
+    "places": [
+      "St George’s Hall"
+    ],
+    "description": "A huge neoclassical hall opposite Lime Street station, opened in 1854 with a concert hall and law courts under one roof."
+  },
+  {
+    "id": "royal-albert-dock",
+    "name": "Royal Albert Dock",
+    "type": "landmark",
+    "places": [
+      "Royal Albert Dock",
+      "International Slavery Museum, Royal Albert Dock"
+    ],
+    "description": "Brick and iron dock warehouses opened in 1846, now home to museums, including the International Slavery Museum, and shops and cafés."
+  },
+  {
+    "id": "anfield",
+    "name": "Anfield",
+    "type": "building",
+    "places": [
+      "Hillsborough memorial, Anfield stadium",
+      "The Kop stand, Anfield",
+      "Anfield stadium, the Kop",
+      "Shankly statue, Anfield stadium"
+    ],
+    "description": "Liverpool FC’s stadium, with the Kop stand, a statue of manager Bill Shankly and a memorial to the 97 who died at Hillsborough in 1989."
+  },
+  {
+    "id": "liverpool-town-hall",
+    "name": "Liverpool Town Hall",
+    "type": "building",
+    "places": [
+      "Liverpool Town Hall",
+      "Liverpool Town Hall, Exchange Flags",
+      "Exchange Flags (Nelson monument)"
+    ],
+    "description": "Liverpool’s 18th-century town hall and Exchange Flags, the square behind it where merchants traded, with a monument to Nelson."
+  },
+  {
+    "id": "liverpool-cathedral",
+    "name": "Liverpool Cathedral",
+    "type": "church",
+    "places": [
+      "Liverpool Cathedral, St James’s Mount"
+    ],
+    "description": "Britain’s largest cathedral, a red sandstone Anglican church built between 1904 and 1978. You can climb the tower."
+  },
+  {
+    "id": "metropolitan-cathedral",
+    "name": "Metropolitan Cathedral",
+    "type": "church",
+    "places": [
+      "Metropolitan Cathedral of Christ the King",
+      "Lutyens Crypt, Metropolitan Cathedral"
+    ],
+    "description": "Liverpool’s Catholic cathedral, a round 1960s church with a stained-glass lantern tower, built over the crypt of a far larger unbuilt design."
+  },
+  {
+    "id": "st-peters-woolton",
+    "name": "St Peter’s Church, Woolton",
+    "type": "church",
+    "places": [
+      "St Peter’s Church, Woolton"
+    ],
+    "description": "A village church in south Liverpool. John Lennon and Paul McCartney first met at its summer fête in 1957."
+  },
+  {
+    "id": "st-lukes",
+    "name": "St Luke’s Church",
+    "type": "church",
+    "places": [
+      "St Luke’s Church (the “bombed-out church”)",
+      "St Luke’s bombed-out church, Leece Street"
+    ],
+    "description": "A Gothic church gutted by bombs in the 1941 Blitz and left as a roofless shell. It now stands as a war memorial and hosts events."
+  },
+  {
+    "id": "cunard-building",
+    "name": "Cunard Building",
+    "type": "building",
+    "places": [
+      "Cunard Building, Pier Head"
+    ],
+    "description": "The former head office of the Cunard shipping line, finished in 1917, one of three large Edwardian buildings on the waterfront at Pier Head."
+  },
+  {
+    "id": "mersey-ferries",
+    "name": "Mersey Ferries terminal",
+    "type": "landmark",
+    "places": [
+      "Mersey Ferries terminal, Pier Head"
+    ],
+    "description": "The Pier Head terminal for the ferries across the River Mersey to the Wirral. River cruises leave from here every day."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "milan-cathedral",
+    "name": "Milan Cathedral",
+    "type": "church",
+    "places": [
+      "Duomo cathedral",
+      "Duomo cathedral rooftop",
+      "Madonnina statue, Duomo cathedral",
+      "Piazza del Duomo",
+      "Piazza del Duomo, cathedral square"
+    ],
+    "description": "Milan’s Gothic cathedral, begun in 1386, and the square in front. You can walk on the roof among the spires, below the gilded Madonnina statue."
+  },
+  {
+    "id": "san-siro",
+    "name": "San Siro",
+    "type": "building",
+    "places": [
+      "San Siro stadium"
+    ],
+    "description": "The football stadium shared by AC Milan and Inter, opened in 1926, with a club museum and stadium tours."
+  },
+  {
+    "id": "brera",
+    "name": "Pinacoteca di Brera",
+    "type": "museum",
+    "places": [
+      "Pinacoteca di Brera art gallery"
+    ],
+    "description": "Milan’s main art gallery, in a 17th-century palace in Brera, with Italian painting from Mantegna and Raphael to Caravaggio."
+  },
+  {
+    "id": "sant-ambrogio",
+    "name": "Basilica of Sant’Ambrogio",
+    "type": "church",
+    "places": [
+      "Basilica of Sant’Ambrogio"
+    ],
+    "description": "A Romanesque brick basilica on the site of a church founded by Milan’s bishop Ambrose in the 4th century, with an arcaded courtyard in front."
+  },
+  {
+    "id": "santa-maria-delle-grazie",
+    "name": "Santa Maria delle Grazie",
+    "type": "church",
+    "places": [
+      "Santa Maria delle Grazie church",
+      "Last Supper refectory, Santa Maria delle Grazie"
+    ],
+    "description": "A Renaissance church and convent. Leonardo’s Last Supper is painted on a wall of the monks’ old dining hall; visits must be booked ahead."
+  },
+  {
+    "id": "la-scala",
+    "name": "La Scala",
+    "type": "music",
+    "places": [
+      "La Scala opera house",
+      "Teatro alla Scala opera house",
+      "Piazza della Scala"
+    ],
+    "description": "Milan’s opera house, opened in 1778, and the square in front of it. A theatre museum next door has views into the auditorium."
+  },
+  {
+    "id": "milano-centrale",
+    "name": "Milano Centrale",
+    "type": "building",
+    "places": [
+      "Milano Centrale railway station"
+    ],
+    "description": "Milan’s main railway station, a huge stone building finished in 1931, with a vaulted iron-and-glass train shed."
+  },
+  {
+    "id": "castello-sforzesco",
+    "name": "Castello Sforzesco",
+    "type": "palace",
+    "places": [
+      "Castello Sforzesco",
+      "Sala delle Asse, Castello Sforzesco"
+    ],
+    "description": "The Sforza dukes’ brick castle, now a group of museums. One room, the Sala delle Asse, was painted by Leonardo as a canopy of trees."
+  }
+]

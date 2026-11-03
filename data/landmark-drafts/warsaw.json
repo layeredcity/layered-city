@@ -1,0 +1,108 @@
+[
+  {
+    "id": "warsaw-rising-museum",
+    "name": "Warsaw Rising Museum",
+    "type": "museum",
+    "places": [
+      "Warsaw Rising Museum"
+    ],
+    "description": "A museum in a former tram power station about the 1944 Warsaw Uprising against the German occupation, told through objects, film and sound."
+  },
+  {
+    "id": "palace-of-culture",
+    "name": "Palace of Culture and Science",
+    "type": "building",
+    "places": [
+      "Palace of Culture and Science",
+      "Congress Hall, Palace of Culture and Science"
+    ],
+    "description": "A Stalin-era skyscraper given to Warsaw by the Soviet Union in the 1950s, with theatres, a congress hall and a viewing terrace."
+  },
+  {
+    "id": "royal-castle",
+    "name": "Royal Castle",
+    "type": "palace",
+    "places": [
+      "Royal Castle, Castle Square",
+      "Royal Castle main entrance",
+      "Castle Square",
+      "Castle Square and Sigismund’s Column",
+      "Sigismund’s Column, Castle Square"
+    ],
+    "description": "The Polish kings’ castle, blown up in 1944 and rebuilt in the 1970s, and Castle Square in front with Sigismund’s Column."
+  },
+  {
+    "id": "old-town-market-square",
+    "name": "Old Town Market Square",
+    "type": "landmark",
+    "places": [
+      "Old Town Market Square"
+    ],
+    "description": "The main square of the Old Town, destroyed in 1944 and rebuilt after the war from old paintings, drawings and photographs."
+  },
+  {
+    "id": "wilanow",
+    "name": "Wilanów Palace",
+    "type": "palace",
+    "places": [
+      "Wilanów Palace"
+    ],
+    "description": "A baroque palace built for King Jan III Sobieski in the late 17th century, with formal gardens. Its rooms are now a museum."
+  },
+  {
+    "id": "lazienki",
+    "name": "Łazienki Palace",
+    "type": "palace",
+    "places": [
+      "Łazienki Park",
+      "Palace on the Isle, Łazienki Park"
+    ],
+    "description": "A large royal park with a classical palace standing in a lake, built for Poland’s last king in the 18th century."
+  },
+  {
+    "id": "curie-museum",
+    "name": "Maria Skłodowska-Curie Museum",
+    "type": "museum",
+    "places": [
+      "Maria Skłodowska-Curie Museum, Freta Street"
+    ],
+    "description": "A small museum in the New Town house where Marie Curie was born in 1867, about her life and her work on radioactivity."
+  },
+  {
+    "id": "constitution-square",
+    "name": "Constitution Square",
+    "type": "landmark",
+    "places": [
+      "Constitution Square, MDM district"
+    ],
+    "description": "A large square at the heart of the MDM housing district, built in the early 1950s in the socialist realist style, with reliefs of workers."
+  },
+  {
+    "id": "mila-18",
+    "name": "Miła 18",
+    "type": "landmark",
+    "places": [
+      "Miła 18 bunker memorial mound"
+    ],
+    "description": "A grassy mound and memorial stone over the bunker where leaders of the 1943 Warsaw Ghetto Uprising died."
+  },
+  {
+    "id": "ghetto-wall-sienna",
+    "name": "Warsaw Ghetto wall fragment",
+    "type": "landmark",
+    "places": [
+      "Ghetto wall fragment, Sienna Street"
+    ],
+    "description": "One of the few surviving stretches of the wall that enclosed the Warsaw Ghetto, in a courtyard off Sienna Street, with memorial plaques."
+  },
+  {
+    "id": "warsaw-zoo",
+    "name": "Warsaw Zoo",
+    "type": "landmark",
+    "places": [
+      "Warsaw Zoo",
+      "Żabiński villa, Warsaw Zoo"
+    ],
+    "description": "The city zoo on the east bank of the Vistula. The director’s villa inside, where Jews were hidden during the war, is open to visitors."
+  }
+]

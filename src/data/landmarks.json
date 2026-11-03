@@ -3832,5 +3832,500 @@
    ],
    "description": "A former silk mill on the lakeshore, turned into an alternative arts centre after 1980s protests, with concerts, theatre and a restaurant."
   }
+ ],
+ "Milan": [
+  {
+   "id": "milan-cathedral",
+   "name": "Milan Cathedral",
+   "type": "church",
+   "places": [
+    "Duomo cathedral",
+    "Duomo cathedral rooftop",
+    "Madonnina statue, Duomo cathedral",
+    "Piazza del Duomo",
+    "Piazza del Duomo, cathedral square"
+   ],
+   "description": "Milan’s Gothic cathedral, begun in 1386, and the square in front. You can walk on the roof among the spires, below the gilded Madonnina statue."
+  },
+  {
+   "id": "san-siro",
+   "name": "San Siro",
+   "type": "building",
+   "places": [
+    "San Siro stadium"
+   ],
+   "description": "The football stadium shared by AC Milan and Inter, opened in 1926, with a club museum and stadium tours."
+  },
+  {
+   "id": "brera",
+   "name": "Pinacoteca di Brera",
+   "type": "museum",
+   "places": [
+    "Pinacoteca di Brera art gallery"
+   ],
+   "description": "Milan’s main art gallery, in a 17th-century palace in Brera, with Italian painting from Mantegna and Raphael to Caravaggio."
+  },
+  {
+   "id": "sant-ambrogio",
+   "name": "Basilica of Sant’Ambrogio",
+   "type": "church",
+   "places": [
+    "Basilica of Sant’Ambrogio"
+   ],
+   "description": "A Romanesque brick basilica on the site of a church founded by Milan’s bishop Ambrose in the 4th century, with an arcaded courtyard in front."
+  },
+  {
+   "id": "santa-maria-delle-grazie",
+   "name": "Santa Maria delle Grazie",
+   "type": "church",
+   "places": [
+    "Santa Maria delle Grazie church",
+    "Last Supper refectory, Santa Maria delle Grazie"
+   ],
+   "description": "A Renaissance church and convent. Leonardo’s Last Supper is painted on a wall of the monks’ old dining hall; visits must be booked ahead."
+  },
+  {
+   "id": "la-scala",
+   "name": "La Scala",
+   "type": "music",
+   "places": [
+    "La Scala opera house",
+    "Teatro alla Scala opera house",
+    "Piazza della Scala"
+   ],
+   "description": "Milan’s opera house, opened in 1778, and the square in front of it. A theatre museum next door has views into the auditorium."
+  },
+  {
+   "id": "milano-centrale",
+   "name": "Milano Centrale",
+   "type": "building",
+   "places": [
+    "Milano Centrale railway station"
+   ],
+   "description": "Milan’s main railway station, a huge stone building finished in 1931, with a vaulted iron-and-glass train shed."
+  },
+  {
+   "id": "castello-sforzesco",
+   "name": "Castello Sforzesco",
+   "type": "palace",
+   "places": [
+    "Castello Sforzesco",
+    "Sala delle Asse, Castello Sforzesco"
+   ],
+   "description": "The Sforza dukes’ brick castle, now a group of museums. One room, the Sala delle Asse, was painted by Leonardo as a canopy of trees."
+  }
+ ],
+ "Warsaw": [
+  {
+   "id": "warsaw-rising-museum",
+   "name": "Warsaw Rising Museum",
+   "type": "museum",
+   "places": [
+    "Warsaw Rising Museum"
+   ],
+   "description": "A museum in a former tram power station about the 1944 Warsaw Uprising against the German occupation, told through objects, film and sound."
+  },
+  {
+   "id": "palace-of-culture",
+   "name": "Palace of Culture and Science",
+   "type": "building",
+   "places": [
+    "Palace of Culture and Science",
+    "Congress Hall, Palace of Culture and Science"
+   ],
+   "description": "A Stalin-era skyscraper given to Warsaw by the Soviet Union in the 1950s, with theatres, a congress hall and a viewing terrace."
+  },
+  {
+   "id": "royal-castle",
+   "name": "Royal Castle",
+   "type": "palace",
+   "places": [
+    "Royal Castle, Castle Square",
+    "Royal Castle main entrance",
+    "Castle Square",
+    "Castle Square and Sigismund’s Column",
+    "Sigismund’s Column, Castle Square"
+   ],
+   "description": "The Polish kings’ castle, blown up in 1944 and rebuilt in the 1970s, and Castle Square in front with Sigismund’s Column."
+  },
+  {
+   "id": "old-town-market-square",
+   "name": "Old Town Market Square",
+   "type": "landmark",
+   "places": [
+    "Old Town Market Square"
+   ],
+   "description": "The main square of the Old Town, destroyed in 1944 and rebuilt after the war from old paintings, drawings and photographs."
+  },
+  {
+   "id": "wilanow",
+   "name": "Wilanów Palace",
+   "type": "palace",
+   "places": [
+    "Wilanów Palace"
+   ],
+   "description": "A baroque palace built for King Jan III Sobieski in the late 17th century, with formal gardens. Its rooms are now a museum."
+  },
+  {
+   "id": "lazienki",
+   "name": "Łazienki Palace",
+   "type": "palace",
+   "places": [
+    "Łazienki Park",
+    "Palace on the Isle, Łazienki Park"
+   ],
+   "description": "A large royal park with a classical palace standing in a lake, built for Poland’s last king in the 18th century."
+  },
+  {
+   "id": "curie-museum",
+   "name": "Maria Skłodowska-Curie Museum",
+   "type": "museum",
+   "places": [
+    "Maria Skłodowska-Curie Museum, Freta Street"
+   ],
+   "description": "A small museum in the New Town house where Marie Curie was born in 1867, about her life and her work on radioactivity."
+  },
+  {
+   "id": "constitution-square",
+   "name": "Constitution Square",
+   "type": "landmark",
+   "places": [
+    "Constitution Square, MDM district"
+   ],
+   "description": "A large square at the heart of the MDM housing district, built in the early 1950s in the socialist realist style, with reliefs of workers."
+  },
+  {
+   "id": "mila-18",
+   "name": "Miła 18",
+   "type": "landmark",
+   "places": [
+    "Miła 18 bunker memorial mound"
+   ],
+   "description": "A grassy mound and memorial stone over the bunker where leaders of the 1943 Warsaw Ghetto Uprising died."
+  },
+  {
+   "id": "ghetto-wall-sienna",
+   "name": "Warsaw Ghetto wall fragment",
+   "type": "landmark",
+   "places": [
+    "Ghetto wall fragment, Sienna Street"
+   ],
+   "description": "One of the few surviving stretches of the wall that enclosed the Warsaw Ghetto, in a courtyard off Sienna Street, with memorial plaques."
+  },
+  {
+   "id": "warsaw-zoo",
+   "name": "Warsaw Zoo",
+   "type": "landmark",
+   "places": [
+    "Warsaw Zoo",
+    "Żabiński villa, Warsaw Zoo"
+   ],
+   "description": "The city zoo on the east bank of the Vistula. The director’s villa inside, where Jews were hidden during the war, is open to visitors."
+  }
+ ],
+ "Belfast": [
+  {
+   "id": "city-hall",
+   "name": "Belfast City Hall",
+   "type": "building",
+   "places": [
+    "Belfast City Hall",
+    "Belfast City Hall, Donegall Square"
+   ],
+   "description": "Belfast’s domed city hall, finished in 1906, in the middle of Donegall Square, with free tours and an exhibition on the city’s history."
+  },
+  {
+   "id": "crown-liquor-saloon",
+   "name": "Crown Liquor Saloon",
+   "type": "cafe",
+   "places": [
+    "Crown Liquor Saloon, Great Victoria Street"
+   ],
+   "description": "A Victorian pub opposite the Europa Hotel, with gas lamps, coloured tiles and carved wooden snugs. It is owned by the National Trust."
+  },
+  {
+   "id": "titanic-belfast",
+   "name": "Titanic Belfast",
+   "type": "museum",
+   "places": [
+    "Titanic Belfast",
+    "Titanic slipways, Queen’s Island"
+   ],
+   "description": "A museum on the story of the Titanic, at the head of the slipways where the ship was built. The slipways are now an open plaza."
+  },
+  {
+   "id": "drawing-offices",
+   "name": "Harland & Wolff Drawing Offices",
+   "type": "building",
+   "places": [
+    "Harland & Wolff Drawing Offices",
+    "Harland & Wolff Drawing Offices (Titanic Hotel)"
+   ],
+   "description": "The shipyard offices where the Titanic and her sister ships were designed, now part of the Titanic Hotel. The tall drawing halls survive."
+  },
+  {
+   "id": "divis-tower",
+   "name": "Divis Tower",
+   "type": "building",
+   "places": [
+    "Divis Tower",
+    "Divis Tower, Divis Street",
+    "Divis Flats, Divis Street"
+   ],
+   "description": "A 20-storey tower at the foot of the Falls Road, the only block left of the 1960s Divis Flats estate. The army kept a post on its roof."
+  },
+  {
+   "id": "cupar-way-peace-wall",
+   "name": "Cupar Way peace wall",
+   "type": "landmark",
+   "places": [
+    "Cupar Way peace wall",
+    "Peace wall, Cupar Way"
+   ],
+   "description": "A high wall of concrete and steel between the Catholic Falls and Protestant Shankill areas, covered in murals and visitors’ messages."
+  },
+  {
+   "id": "stormont",
+   "name": "Parliament Buildings, Stormont",
+   "type": "building",
+   "places": [
+    "Parliament Buildings, Stormont"
+   ],
+   "description": "Northern Ireland’s parliament, a white neoclassical building at the top of a long drive on the Stormont estate. It is open for tours."
+  },
+  {
+   "id": "europa-hotel",
+   "name": "Europa Hotel",
+   "type": "building",
+   "places": [
+    "Europa Hotel",
+    "Europa Hotel, Great Victoria Street"
+   ],
+   "description": "A city-centre hotel opened in 1971 and bombed many times during the Troubles, often called the most bombed hotel in Europe."
+  },
+  {
+   "id": "culturlann",
+   "name": "Cultúrlann McAdam Ó Fiaich",
+   "type": "building",
+   "places": [
+    "Cultúrlann McAdam Ó Fiaich, Falls Road"
+   ],
+   "description": "An Irish-language arts centre in a former church on the Falls Road, with a café, a bookshop and a theatre."
+  },
+  {
+   "id": "queens-university",
+   "name": "Queen’s University Belfast",
+   "type": "building",
+   "places": [
+    "Queen’s University Belfast, Lanyon Building",
+    "Queen’s University Students’ Union"
+   ],
+   "description": "Belfast’s main university, founded in 1845. Its red-brick Lanyon Building faces University Road, and the students’ union hosts gigs."
+  }
+ ],
+ "Liverpool": [
+  {
+   "id": "cavern-club",
+   "name": "Cavern Club",
+   "type": "music",
+   "places": [
+    "Cavern Club, Mathew Street"
+   ],
+   "description": "A cellar club on Mathew Street where the Beatles played hundreds of times in the early 1960s. Today’s club is a rebuild on part of the original site."
+  },
+  {
+   "id": "st-georges-hall",
+   "name": "St George’s Hall",
+   "type": "building",
+   "places": [
+    "St George’s Hall"
+   ],
+   "description": "A huge neoclassical hall opposite Lime Street station, opened in 1854 with a concert hall and law courts under one roof."
+  },
+  {
+   "id": "royal-albert-dock",
+   "name": "Royal Albert Dock",
+   "type": "landmark",
+   "places": [
+    "Royal Albert Dock",
+    "International Slavery Museum, Royal Albert Dock"
+   ],
+   "description": "Brick and iron dock warehouses opened in 1846, now home to museums, including the International Slavery Museum, and shops and cafés."
+  },
+  {
+   "id": "anfield",
+   "name": "Anfield",
+   "type": "building",
+   "places": [
+    "Hillsborough memorial, Anfield stadium",
+    "The Kop stand, Anfield",
+    "Anfield stadium, the Kop",
+    "Shankly statue, Anfield stadium"
+   ],
+   "description": "Liverpool FC’s stadium, with the Kop stand, a statue of manager Bill Shankly and a memorial to the 97 who died at Hillsborough in 1989."
+  },
+  {
+   "id": "liverpool-town-hall",
+   "name": "Liverpool Town Hall",
+   "type": "building",
+   "places": [
+    "Liverpool Town Hall",
+    "Liverpool Town Hall, Exchange Flags",
+    "Exchange Flags (Nelson monument)"
+   ],
+   "description": "Liverpool’s 18th-century town hall and Exchange Flags, the square behind it where merchants traded, with a monument to Nelson."
+  },
+  {
+   "id": "liverpool-cathedral",
+   "name": "Liverpool Cathedral",
+   "type": "church",
+   "places": [
+    "Liverpool Cathedral, St James’s Mount"
+   ],
+   "description": "Britain’s largest cathedral, a red sandstone Anglican church built between 1904 and 1978. You can climb the tower."
+  },
+  {
+   "id": "metropolitan-cathedral",
+   "name": "Metropolitan Cathedral",
+   "type": "church",
+   "places": [
+    "Metropolitan Cathedral of Christ the King",
+    "Lutyens Crypt, Metropolitan Cathedral"
+   ],
+   "description": "Liverpool’s Catholic cathedral, a round 1960s church with a stained-glass lantern tower, built over the crypt of a far larger unbuilt design."
+  },
+  {
+   "id": "st-peters-woolton",
+   "name": "St Peter’s Church, Woolton",
+   "type": "church",
+   "places": [
+    "St Peter’s Church, Woolton"
+   ],
+   "description": "A village church in south Liverpool. John Lennon and Paul McCartney first met at its summer fête in 1957."
+  },
+  {
+   "id": "st-lukes",
+   "name": "St Luke’s Church",
+   "type": "church",
+   "places": [
+    "St Luke’s Church (the “bombed-out church”)",
+    "St Luke’s bombed-out church, Leece Street"
+   ],
+   "description": "A Gothic church gutted by bombs in the 1941 Blitz and left as a roofless shell. It now stands as a war memorial and hosts events."
+  },
+  {
+   "id": "cunard-building",
+   "name": "Cunard Building",
+   "type": "building",
+   "places": [
+    "Cunard Building, Pier Head"
+   ],
+   "description": "The former head office of the Cunard shipping line, finished in 1917, one of three large Edwardian buildings on the waterfront at Pier Head."
+  },
+  {
+   "id": "mersey-ferries",
+   "name": "Mersey Ferries terminal",
+   "type": "landmark",
+   "places": [
+    "Mersey Ferries terminal, Pier Head"
+   ],
+   "description": "The Pier Head terminal for the ferries across the River Mersey to the Wirral. River cruises leave from here every day."
+  }
+ ],
+ "Glasgow": [
+  {
+   "id": "glasgow-cathedral",
+   "name": "Glasgow Cathedral",
+   "type": "church",
+   "places": [
+    "Glasgow Cathedral"
+   ],
+   "description": "A medieval Gothic cathedral that came through the Reformation with its roof intact. The lower church holds the tomb of St Mungo."
+  },
+  {
+   "id": "george-square",
+   "name": "George Square",
+   "type": "landmark",
+   "places": [
+    "George Square"
+   ],
+   "description": "Glasgow’s main civic square, laid out in the late 18th century and lined with statues, with the City Chambers along its east side."
+  },
+  {
+   "id": "glasgow-school-of-art",
+   "name": "Glasgow School of Art",
+   "type": "building",
+   "places": [
+    "Glasgow School of Art, Mackintosh Building",
+    "Glasgow School of Art"
+   ],
+   "description": "The art school whose main building, designed by Charles Rennie Mackintosh, was gutted by fires in 2014 and 2018 and awaits rebuilding."
+  },
+  {
+   "id": "kelvingrove",
+   "name": "Kelvingrove Art Gallery and Museum",
+   "type": "museum",
+   "places": [
+    "Kelvingrove Art Gallery and Museum"
+   ],
+   "description": "A red sandstone museum opened in 1901, with Scottish and European painting, natural history, and arms and armour. Entry is free."
+  },
+  {
+   "id": "university-of-glasgow",
+   "name": "University of Glasgow",
+   "type": "building",
+   "places": [
+    "University of Glasgow main building"
+   ],
+   "description": "Scotland’s second-oldest university, founded in 1451. Its Gothic Revival main building on Gilmorehill has a tall tower and cloisters."
+  },
+  {
+   "id": "barrowland",
+   "name": "Barrowland Ballroom",
+   "type": "music",
+   "places": [
+    "Barrowland Ballroom"
+   ],
+   "description": "A dance hall in the East End above the Barras market, now a concert venue known for its sprung floor and neon sign."
+  },
+  {
+   "id": "celtic-park",
+   "name": "Celtic Park",
+   "type": "building",
+   "places": [
+    "Celtic Park",
+    "Celtic Park football stadium"
+   ],
+   "description": "Celtic FC’s stadium in the East End, the largest club ground in Scotland, with room for about 60,000 fans."
+  },
+  {
+   "id": "willow-tea-rooms",
+   "name": "Willow Tea Rooms",
+   "type": "cafe",
+   "places": [
+    "Mackintosh at the Willow, Sauchiehall Street",
+    "Willow Tea Rooms building, Sauchiehall Street"
+   ],
+   "description": "Tea rooms on Sauchiehall Street designed by Charles Rennie Mackintosh in 1903, restored and reopened in 2018 as Mackintosh at the Willow."
+  },
+  {
+   "id": "goma",
+   "name": "Gallery of Modern Art",
+   "type": "museum",
+   "places": [
+    "Gallery of Modern Art, Royal Exchange Square",
+    "Duke of Wellington statue, Royal Exchange Square"
+   ],
+   "description": "A modern art gallery in a former merchant’s mansion. The statue of the Duke of Wellington outside usually wears a traffic cone."
+  },
+  {
+   "id": "mary-barbour",
+   "name": "Mary Barbour statue",
+   "type": "landmark",
+   "places": [
+    "Mary Barbour statue, Govan Cross"
+   ],
+   "description": "A statue at Govan Cross of Mary Barbour, who led the 1915 rent strikes against Glasgow’s landlords. It was unveiled in 2018."
+  }
  ]
 }

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "glasgow-cathedral",
+    "name": "Glasgow Cathedral",
+    "type": "church",
+    "places": [
+      "Glasgow Cathedral"
+    ],
+    "description": "A medieval Gothic cathedral that came through the Reformation with its roof intact. The lower church holds the tomb of St Mungo."
+  },
+  {
+    "id": "george-square",
+    "name": "George Square",
+    "type": "landmark",
+    "places": [
+      "George Square"
+    ],
+    "description": "Glasgow’s main civic square, laid out in the late 18th century and lined with statues, with the City Chambers along its east side."
+  },
+  {
+    "id": "glasgow-school-of-art",
+    "name": "Glasgow School of Art",
+    "type": "building",
+    "places": [
+      "Glasgow School of Art, Mackintosh Building",
+      "Glasgow School of Art"
+    ],
+    "description": "The art school whose main building, designed by Charles Rennie Mackintosh, was gutted by fires in 2014 and 2018 and awaits rebuilding."
+  },
+  {
+    "id": "kelvingrove",
+    "name": "Kelvingrove Art Gallery and Museum",
+    "type": "museum",
+    "places": [
+      "Kelvingrove Art Gallery and Museum"
+    ],
+    "description": "A red sandstone museum opened in 1901, with Scottish and European painting, natural history, and arms and armour. Entry is free."
+  },
+  {
+    "id": "university-of-glasgow",
+    "name": "University of Glasgow",
+    "type": "building",
+    "places": [
+      "University of Glasgow main building"
+    ],
+    "description": "Scotland’s second-oldest university, founded in 1451. Its Gothic Revival main building on Gilmorehill has a tall tower and cloisters."
+  },
+  {
+    "id": "barrowland",
+    "name": "Barrowland Ballroom",
+    "type": "music",
+    "places": [
+      "Barrowland Ballroom"
+    ],
+    "description": "A dance hall in the East End above the Barras market, now a concert venue known for its sprung floor and neon sign."
+  },
+  {
+    "id": "celtic-park",
+    "name": "Celtic Park",
+    "type": "building",
+    "places": [
+      "Celtic Park",
+      "Celtic Park football stadium"
+    ],
+    "description": "Celtic FC’s stadium in the East End, the largest club ground in Scotland, with room for about 60,000 fans."
+  },
+  {
+    "id": "willow-tea-rooms",
+    "name": "Willow Tea Rooms",
+    "type": "cafe",
+    "places": [
+      "Mackintosh at the Willow, Sauchiehall Street",
+      "Willow Tea Rooms building, Sauchiehall Street"
+    ],
+    "description": "Tea rooms on Sauchiehall Street designed by Charles Rennie Mackintosh in 1903, restored and reopened in 2018 as Mackintosh at the Willow."
+  },
+  {
+    "id": "goma",
+    "name": "Gallery of Modern Art",
+    "type": "museum",
+    "places": [
+      "Gallery of Modern Art, Royal Exchange Square",
+      "Duke of Wellington statue, Royal Exchange Square"
+    ],
+    "description": "A modern art gallery in a former merchant’s mansion. The statue of the Duke of Wellington outside usually wears a traffic cone."
+  },
+  {
+    "id": "mary-barbour",
+    "name": "Mary Barbour statue",
+    "type": "landmark",
+    "places": [
+      "Mary Barbour statue, Govan Cross"
+    ],
+    "description": "A statue at Govan Cross of Mary Barbour, who led the 1915 rent strikes against Glasgow’s landlords. It was unveiled in 2018."
+  }
+]

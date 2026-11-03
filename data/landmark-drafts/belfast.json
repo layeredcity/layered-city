@@ -1,0 +1,100 @@
+[
+  {
+    "id": "city-hall",
+    "name": "Belfast City Hall",
+    "type": "building",
+    "places": [
+      "Belfast City Hall",
+      "Belfast City Hall, Donegall Square"
+    ],
+    "description": "Belfast’s domed city hall, finished in 1906, in the middle of Donegall Square, with free tours and an exhibition on the city’s history."
+  },
+  {
+    "id": "crown-liquor-saloon",
+    "name": "Crown Liquor Saloon",
+    "type": "cafe",
+    "places": [
+      "Crown Liquor Saloon, Great Victoria Street"
+    ],
+    "description": "A Victorian pub opposite the Europa Hotel, with gas lamps, coloured tiles and carved wooden snugs. It is owned by the National Trust."
+  },
+  {
+    "id": "titanic-belfast",
+    "name": "Titanic Belfast",
+    "type": "museum",
+    "places": [
+      "Titanic Belfast",
+      "Titanic slipways, Queen’s Island"
+    ],
+    "description": "A museum on the story of the Titanic, at the head of the slipways where the ship was built. The slipways are now an open plaza."
+  },
+  {
+    "id": "drawing-offices",
+    "name": "Harland & Wolff Drawing Offices",
+    "type": "building",
+    "places": [
+      "Harland & Wolff Drawing Offices",
+      "Harland & Wolff Drawing Offices (Titanic Hotel)"
+    ],
+    "description": "The shipyard offices where the Titanic and her sister ships were designed, now part of the Titanic Hotel. The tall drawing halls survive."
+  },
+  {
+    "id": "divis-tower",
+    "name": "Divis Tower",
+    "type": "building",
+    "places": [
+      "Divis Tower",
+      "Divis Tower, Divis Street",
+      "Divis Flats, Divis Street"
+    ],
+    "description": "A 20-storey tower at the foot of the Falls Road, the only block left of the 1960s Divis Flats estate. The army kept a post on its roof."
+  },
+  {
+    "id": "cupar-way-peace-wall",
+    "name": "Cupar Way peace wall",
+    "type": "landmark",
+    "places": [
+      "Cupar Way peace wall",
+      "Peace wall, Cupar Way"
+    ],
+    "description": "A high wall of concrete and steel between the Catholic Falls and Protestant Shankill areas, covered in murals and visitors’ messages."
+  },
+  {
+    "id": "stormont",
+    "name": "Parliament Buildings, Stormont",
+    "type": "building",
+    "places": [
+      "Parliament Buildings, Stormont"
+    ],
+    "description": "Northern Ireland’s parliament, a white neoclassical building at the top of a long drive on the Stormont estate. It is open for tours."
+  },
+  {
+    "id": "europa-hotel",
+    "name": "Europa Hotel",
+    "type": "building",
+    "places": [
+      "Europa Hotel",
+      "Europa Hotel, Great Victoria Street"
+    ],
+    "description": "A city-centre hotel opened in 1971 and bombed many times during the Troubles, often called the most bombed hotel in Europe."
+  },
+  {
+    "id": "culturlann",
+    "name": "Cultúrlann McAdam Ó Fiaich",
+    "type": "building",
+    "places": [
+      "Cultúrlann McAdam Ó Fiaich, Falls Road"
+    ],
+    "description": "An Irish-language arts centre in a former church on the Falls Road, with a café, a bookshop and a theatre."
+  },
+  {
+    "id": "queens-university",
+    "name": "Queen’s University Belfast",
+    "type": "building",
+    "places": [
+      "Queen’s University Belfast, Lanyon Building",
+      "Queen’s University Students’ Union"
+    ],
+    "description": "Belfast’s main university, founded in 1845. Its red-brick Lanyon Building faces University Road, and the students’ union hosts gigs."
+  }
+]
