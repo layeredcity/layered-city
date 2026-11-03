@@ -1,0 +1,3418 @@
+[
+  {
+    "type": "word",
+    "id": "6Mz9mgUPHEawNWHA09iLnv",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Works for apologising and for getting past. Sorry? also means “what did you say,” which you may need often.",
+    "new": "Works for apologising and for getting past. “Sorry?” also means “what did you say,” which you may need often."
+  },
+  {
+    "type": "word",
+    "id": "3xe8SKQR1icDPaUumV2pxE",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "Reserved for an actual apology. For everything else, ursäkta.",
+    "new": "Reserved for an actual apology. For everything else, “ursäkta”."
+  },
+  {
+    "type": "word",
+    "id": "6JTTwh6crAkBkTo9m1twWV",
+    "city": "Reykjavík",
+    "field": "context",
+    "old": "Kept for a real apology. For everything else, afsakið.",
+    "new": "Kept for a real apology. For everything else, “afsakið”."
+  },
+  {
+    "type": "word",
+    "id": "45yuU7g7hJP7RfFkmd9cpw",
+    "city": "Oslo",
+    "field": "context",
+    "old": "For a genuine apology. For everything else, unnskyld.",
+    "new": "For a genuine apology. For everything else, “unnskyld”."
+  },
+  {
+    "type": "word",
+    "id": "5FdMIgRl55IsAbDn529HR5",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "For apologising, getting attention and squeezing past. On a tram, Wysiada pan? (vi-SHAH-dah pahn) asks if someone is getting off.",
+    "new": "For apologising, getting attention and squeezing past. On a tram, “Wysiada pan?” (vi-SHAH-dah pahn) asks if someone is getting off."
+  },
+  {
+    "type": "word",
+    "id": "3zcdlVzQkWPsJT1R0G6Xr9",
+    "city": "Kraków",
+    "field": "context",
+    "old": "For apologising, getting someone’s attention and squeezing past. The most useful word here after proszę.",
+    "new": "For apologising, getting someone’s attention and squeezing past. The most useful word here after “proszę”."
+  },
+  {
+    "type": "word",
+    "id": "1l0hLGdw1jmfUzSV8G1Zru",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "For apologising and for getting someone’s attention. Oprostite is the more formal alternative.",
+    "new": "For apologising and for getting someone’s attention. “Oprostite” is the more formal alternative."
+  },
+  {
+    "type": "word",
+    "id": "2ruwTKkKvqq9bjVMHGDXKu",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "Not free, and you can wave it away with não, obrigado. The most common tourist friction point in Portugal.",
+    "new": "Not free, and you can wave it away with “não, obrigado”. The most common tourist friction point in Portugal."
+  },
+  {
+    "type": "word",
+    "id": "7t3C7YRpF745HQgQRxQUkc",
+    "city": "Madrid",
+    "field": "context",
+    "old": "What the sign says. El baño works fine out loud.",
+    "new": "What the sign says. “El baño” works fine out loud."
+  },
+  {
+    "type": "word",
+    "id": "N1n68u4xRnsgXkFyuAi7c",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "Bags cost money by law here. Say nee if you brought one.",
+    "new": "Bags cost money by law here. Say “nee” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "5cgyZwJ3lNWrbtci2fUa06",
+    "city": "Zurich",
+    "field": "context",
+    "old": "The -li ending is Zurich shrinking something. A Sack becomes a Säckli.",
+    "new": "The “-li” ending is Zurich shrinking something. A “Sack” becomes a “Säckli”."
+  },
+  {
+    "type": "word",
+    "id": "24Vtgbiv6pkhWrn6edNy7U",
+    "city": "Paris",
+    "field": "context",
+    "old": "Short for distributeur automatique. Decline the offer to charge you in dollars.",
+    "new": "Short for “distributeur automatique”. Decline the offer to charge you in dollars."
+  },
+  {
+    "type": "word",
+    "id": "6M9LXBSaCx7jhhwhF59pqY",
+    "city": "Paris",
+    "field": "context",
+    "old": "Charged by law. Say non merci if you brought one.",
+    "new": "Charged by law. Say “non merci” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "20xSitHTybqN864nO2tU5M",
+    "city": "Rome",
+    "field": "context",
+    "old": "Charged by law. Say no grazie if you brought one.",
+    "new": "Charged by law. Say “no grazie” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "2qGJakp3A9n9cAHtlZ47Rg",
+    "city": "Berlin",
+    "field": "context",
+    "old": "Charged. Say nein danke if you brought one.",
+    "new": "Charged. Say “nein danke” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "2rQKnmPJMuBDhgmzGJhQBx",
+    "city": "Vienna",
+    "field": "context",
+    "old": "WC on the door. Coffeehouses expect you to have ordered something first.",
+    "new": "“WC” on the door. Coffeehouses expect you to have ordered something first."
+  },
+  {
+    "type": "word",
+    "id": "1TEfCadYTG1u2PdNQM11Qx",
+    "city": "Vienna",
+    "field": "context",
+    "old": "Austria says Bankomat, like Italy and Switzerland. Germany says Geldautomat, and it marks you.",
+    "new": "Austria says “Bankomat”, like Italy and Switzerland. Germany says “Geldautomat”, and it marks you."
+  },
+  {
+    "type": "word",
+    "id": "3dys2gYFOZIUd8yDbg6v0j",
+    "city": "Vienna",
+    "field": "context",
+    "old": "The Austrian word. A German would say Tüte, and saying it here marks you as one.",
+    "new": "The Austrian word. A German would say “Tüte”, and saying it here marks you as one."
+  },
+  {
+    "type": "word",
+    "id": "1sYRTuvCMbPaVyCkaXImt8",
+    "city": "Copenhagen",
+    "field": "context",
+    "old": "Charged. Say nej tak if you brought one.",
+    "new": "Charged. Say “nej tak” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "1kEU81JQveaHidyy7kprxk",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "Charged. Say nej tack if you brought one.",
+    "new": "Charged. Say “nej tack” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "1k13xGLowAsJYaPSXKTANp",
+    "city": "Oslo",
+    "field": "context",
+    "old": "Charged. Say nei takk if you brought one.",
+    "new": "Charged. Say “nei takk” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "6d2CNrLleZJSQI1E1RND0X",
+    "city": "Bucharest",
+    "field": "context",
+    "old": "Charged. Say nu, mulțumesc if you brought one.",
+    "new": "Charged. Say “nu, mulțumesc” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "1pkpWijPl27rtwJpsLZT7Y",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "Charged. Say no, gràcies if you brought one.",
+    "new": "Charged. Say “no, gràcies” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "1wF7UhxO0wCoIwThdqZyZz",
+    "city": "Seville",
+    "field": "context",
+    "old": "Servicios here more than aseos. Bars expect you to have ordered first.",
+    "new": "“Servicios” here more than “aseos”. Bars expect you to have ordered first."
+  },
+  {
+    "type": "word",
+    "id": "375tFhn7zJ4x8sNHPYQ687",
+    "city": "Florence",
+    "field": "context",
+    "old": "Charged by law. Say no grazie if you brought one.",
+    "new": "Charged by law. Say “no grazie” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "3u5A16rXoHBjAJVEMCWKU5",
+    "city": "Naples",
+    "field": "context",
+    "old": "Charged by law. Say no grazie if you brought one.",
+    "new": "Charged by law. Say “no grazie” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "3n161cQTbbr0G64lmzunCX",
+    "city": "Marseille",
+    "field": "context",
+    "old": "Short for distributeur automatique. Decline the offer to charge you in dollars.",
+    "new": "Short for “distributeur automatique”. Decline the offer to charge you in dollars."
+  },
+  {
+    "type": "word",
+    "id": "1ufwBLl9MNjuPUlNkQSo14",
+    "city": "Marseille",
+    "field": "context",
+    "old": "Charged by law. Say non merci if you brought one.",
+    "new": "Charged by law. Say “non merci” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "23zCxOgD2nPK7mHtaNj2uy",
+    "city": "Brussels",
+    "field": "context",
+    "old": "Charged. Say non merci if you brought one.",
+    "new": "Charged. Say “non merci” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "1gSZtOcq1LC84woz7cD4fv",
+    "city": "London",
+    "field": "context",
+    "old": "Signs say Toilets. Restroom and bathroom both get a blank look, and washroom is Canadian.",
+    "new": "Signs say “Toilets”. “Restroom” and “bathroom” both get a blank look, and “washroom” is Canadian."
+  },
+  {
+    "type": "word",
+    "id": "4povhobtLCUskEceAcUTBu",
+    "city": "Dublin",
+    "field": "context",
+    "old": "Also the hole in the wall. Ireland uses the euro, unlike Northern Ireland an hour up the road.",
+    "new": "Also “the hole in the wall”. Ireland uses the euro, unlike Northern Ireland an hour up the road."
+  },
+  {
+    "type": "word",
+    "id": "5OYll6HvFWDKJLXPPNfduR",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "Loo works. Older pubs occasionally sign them in Scots or Gaelic with no English at all.",
+    "new": "“Loo” works. Older pubs occasionally sign them in Scots or Gaelic with no English at all."
+  },
+  {
+    "type": "word",
+    "id": "6wYS9FXNBivrTMUjC92QIV",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Loo works, bogs is cruder and common. Restroom gets a blank look.",
+    "new": "“Loo” works, “bogs” is cruder and common. “Restroom” gets a blank look."
+  },
+  {
+    "type": "word",
+    "id": "fIb55TSfft99LjK0zLpIY",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: A ementa, se faz favor.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “A ementa, se faz favor”."
+  },
+  {
+    "type": "word",
+    "id": "7wyTv7R3HUiKDc88rvFubg",
+    "city": "Madrid",
+    "field": "context",
+    "old": "Order la carta — el menú is the set lunch. More polite version: La carta, por favor.",
+    "new": "Order “la carta” — “el menú” is the set lunch. More polite version: “La carta, por favor”."
+  },
+  {
+    "type": "word",
+    "id": "3AKj3BnlmBbko3pbkaWQhu",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: De menukaart, alstublieft.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “De menukaart, alstublieft”."
+  },
+  {
+    "type": "word",
+    "id": "B7kTS5Cp0ggNRar347T4u",
+    "city": "Rome",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Il menù, per favore.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "0GZyWwUrRnqh7SfhFmcR0",
+    "city": "Berlin",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Die Karte, bitte.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Die Karte, bitte”."
+  },
+  {
+    "type": "word",
+    "id": "7jqOsPs7IVijRDj7qEpxEl",
+    "city": "Vienna",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Die Speisekarte, bitte.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte”."
+  },
+  {
+    "type": "word",
+    "id": "5oz79OqKowwPImY9zcXviT",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: La carta, si us plau.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “La carta, si us plau”."
+  },
+  {
+    "type": "word",
+    "id": "7cONqVuStWvHHnsKLWTZ0v",
+    "city": "Seville",
+    "field": "context",
+    "old": "Order la carta — el menú is the set lunch. More polite version: La carta, por favor.",
+    "new": "Order “la carta” — “el menú” is the set lunch. More polite version: “La carta, por favor”."
+  },
+  {
+    "type": "word",
+    "id": "3Z54Sd9pqXkISyKj8EDK2m",
+    "city": "Florence",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Il menù, per favore.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "4FJjtwcBI5opFMCbxe3Rfp",
+    "city": "Naples",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Il menù, per favore.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "1dKuaalIG28pX3n7Vj6ak7",
+    "city": "Venice",
+    "field": "context",
+    "old": "If you’re warm and kind, this is enough to get by. More polite version: Il menù, per favore.",
+    "new": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "1iMHA6jHK4yf5eM0drkHiZ",
+    "city": "Venice",
+    "field": "context",
+    "old": "Charged by law. Say no grazie if you brought one.",
+    "new": "Charged by law. Say “no grazie” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "3yNeoD3QjOXp41v5ee3kAb",
+    "city": "Munich",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Die Speisekarte, bitte.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte”."
+  },
+  {
+    "type": "word",
+    "id": "5jXOV9yzKtgvTbbwQtKN48",
+    "city": "Munich",
+    "field": "context",
+    "old": "WC on signs. Station toilets usually charge, so keep a coin.",
+    "new": "“WC” on signs. Station toilets usually charge, so keep a coin."
+  },
+  {
+    "type": "word",
+    "id": "4PpEVXRuTfqP7p5Ysp9j57",
+    "city": "Munich",
+    "field": "context",
+    "old": "Bankomat is the Austrian word. Decline the offer to charge you in dollars.",
+    "new": "“Bankomat” is the Austrian word. Decline the offer to charge you in dollars."
+  },
+  {
+    "type": "word",
+    "id": "l0jxDBjFr7KhwtiFQhqjf",
+    "city": "Munich",
+    "field": "context",
+    "old": "Usually charged. Say nein, danke if you brought one.",
+    "new": "Usually charged. Say “nein, danke” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "2iCokjmqd809gHFoWgwfPU",
+    "city": "Milan",
+    "field": "context",
+    "old": "If you’re warm and kind, this is enough to get by. More polite version: Il menù, per favore.",
+    "new": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "6dgnp8P6FECvqOanYfHCNu",
+    "city": "Milan",
+    "field": "context",
+    "old": "Charged by law. Say no grazie if you brought one.",
+    "new": "Charged by law. Say “no grazie” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "47vUwcgaIRWzk7pNoLkJvH",
+    "city": "Belfast",
+    "field": "context",
+    "old": "Loo works. The bogs is cruder and common. Restroom gets a blank look.",
+    "new": "“Loo” works. “The bogs” is cruder and common. “Restroom” gets a blank look."
+  },
+  {
+    "type": "word",
+    "id": "30roe83BSf5TmMAXKplgGS",
+    "city": "Liverpool",
+    "field": "context",
+    "old": "Loo works, and bogs is cruder but common. Ask for the restroom and you’ll get a blank look.",
+    "new": "“Loo” works, and “bogs” is cruder but common. Ask for the “restroom” and you’ll get a blank look."
+  },
+  {
+    "type": "word",
+    "id": "QC2NDkuWz5WW9zUxRHfjh",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Loo works and the cludgie is old Glasgow slang for it. Restroom gets a blank look.",
+    "new": "“Loo” works and “the cludgie” is old Glasgow slang for it. “Restroom” gets a blank look."
+  },
+  {
+    "type": "word",
+    "id": "3pessF5Pqpz8zkDdtrugJ3",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "Enough to get by. More polite: Poproszę rachunek. To tip by card, say the amount before the waiter keys it in.",
+    "new": "Enough to get by. More polite: “Poproszę rachunek”. To tip by card, say the amount before the waiter keys it in."
+  },
+  {
+    "type": "word",
+    "id": "1aiaP6pFuoU8MVioP6P8Bv",
+    "city": "Milan",
+    "field": "context",
+    "old": "Dialect for signora: the well-off older Milanese lady, fur coat, small dog, firm opinions. Said with affection, and some caution.",
+    "new": "Dialect for “signora”: the well-off older Milanese lady, fur coat, small dog, firm opinions. Said with affection, and some caution."
+  },
+  {
+    "type": "word",
+    "id": "6pZRplXCXFJcy1ndcJ80u6",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "One of many Glasgow words for it, alongside blootered and mortal. Usually said with some admiration.",
+    "new": "One of many Glasgow words for it, alongside “blootered” and “mortal”. Usually said with some admiration."
+  },
+  {
+    "type": "word",
+    "id": "3l8BWlN8YR0VxGekLf5cjM",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Irn-Bru, cola, lemonade — all ginger in Glasgow. A bottle of ginger has nothing to do with ginger.",
+    "new": "Irn-Bru, cola, lemonade — all “ginger” in Glasgow. “A bottle of ginger” has nothing to do with ginger."
+  },
+  {
+    "type": "word",
+    "id": "31ZvjccThJj3qgxUaMVtXP",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "From wee ane, little one. The weans are the kids, and a greetin’ wean is a crying one.",
+    "new": "From “wee ane”, little one. “The weans” are the kids, and “a greetin’ wean” is a crying one."
+  },
+  {
+    "type": "word",
+    "id": "1UFb6GxWccYlzLymGmQv2E",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Charged. Doing the messages means doing the grocery shopping, so bring one if you are.",
+    "new": "Charged. “Doing the messages” means doing the grocery shopping, so bring one if you are."
+  },
+  {
+    "type": "word",
+    "id": "1HSkfYBYk8T3X77iVmKrlG",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Also the hole in the wall. Cash machines here dispense Scottish banknotes.",
+    "new": "Also “the hole in the wall”. Cash machines here dispense Scottish banknotes."
+  },
+  {
+    "type": "word",
+    "id": "10W2XhVwdrPmPtrDrtj09T",
+    "city": "Glasgow",
+    "field": "groupNote",
+    "old": "Standard on most doors. Gaelic signs at stations use Fir for men and Mnathan for women.",
+    "new": "Standard on most doors. Gaelic signs at stations use “Fir” for men and “Mnathan” for women."
+  },
+  {
+    "type": "word",
+    "id": "1T8wKWwluvyJ65SNxZuyvz",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Tap a bank card on most city buses. The Subway is a single circular line, nicknamed the Clockwork Orange after its trains.",
+    "new": "Tap a bank card on most city buses. The Subway is a single circular line, nicknamed “the Clockwork Orange” after its trains."
+  },
+  {
+    "type": "word",
+    "id": "4aBkPQacEbkZqokHX77aSa",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Asking for the check marks you instantly, though nobody will mind.",
+    "new": "Asking for “the check” marks you instantly, though nobody will mind."
+  },
+  {
+    "type": "word",
+    "id": "di3H8r9fZa7Np8xPwGh7t",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Standard. Thanks very much is fine; ta is understood but sounds English.",
+    "new": "Standard. “Thanks very much” is fine; “ta” is understood but sounds English."
+  },
+  {
+    "type": "word",
+    "id": "1VE7AEijeL7gE4ovYfrd1W",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Cheerio is still current. Shop staff often send you off with cheers, pal or cheers, hen — pal for men, hen for women.",
+    "new": "“Cheerio” is still current. Shop staff often send you off with “cheers, pal” or “cheers, hen” — “pal” for men, “hen” for women."
+  },
+  {
+    "type": "word",
+    "id": "4tXld7jt9stFKiNBQOHLNQ",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "A greeting, not a question. “No bad, yersel?” closes it. Awright? does the same job in one word.",
+    "new": "A greeting, not a question. “No bad, yersel?” closes it. “Awright?” does the same job in one word."
+  },
+  {
+    "type": "word",
+    "id": "1oqVAt2YdY969DaTXYBAbd",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Also nae for “not” — nae bother means no problem.",
+    "new": "Also “nae” for “not” — “nae bother” means no problem."
+  },
+  {
+    "type": "word",
+    "id": "3wxwewRDNzJAMIwgyZI1TM",
+    "city": "Glasgow",
+    "field": "context",
+    "old": "Universal, at every age and in every setting. Aye, right — with the stress on right — means the opposite.",
+    "new": "Universal, at every age and in every setting. “Aye, right” — with the stress on “right” — means the opposite."
+  },
+  {
+    "type": "word",
+    "id": "6r2DlRWAuEgZxKkahl0loA",
+    "city": "Liverpool",
+    "field": "context",
+    "old": "The cashier is asking if you want a bag, which costs extra. Say no thanks if you brought one.",
+    "new": "The cashier is asking if you want a bag, which costs extra. Say “no thanks” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "6J0O5sYxaij2PIox8PjFZI",
+    "city": "Liverpool",
+    "field": "context",
+    "old": "Ask for the check and you’ll be understood, and marked as American.",
+    "new": "Ask for “the check” and you’ll be understood, and marked as American."
+  },
+  {
+    "type": "word",
+    "id": "6K6JxPGNicXPDhdgFOayq2",
+    "city": "Liverpool",
+    "field": "context",
+    "old": "That was boss covers food, a night out or a goal. Nothing to do with anyone’s employer.",
+    "new": "“That was boss” covers food, a night out or a goal. Nothing to do with anyone’s employer."
+  },
+  {
+    "type": "word",
+    "id": "5zzH7b7vLZdSUeWGIzWjZf",
+    "city": "Liverpool",
+    "field": "context",
+    "old": "The local goodbye, often stretched to ta-ra well. See you later works too.",
+    "new": "The local goodbye, often stretched to “ta-ra well”. “See you later” works too."
+  },
+  {
+    "type": "word",
+    "id": "3vgZPYQzLrqjxzs73v6G1G",
+    "city": "Liverpool",
+    "field": "context",
+    "old": "A greeting, not a question. “Sound, you?” closes it. Men add la (lad) and women often get queen or girl, all of it friendly.",
+    "new": "A greeting, not a question. “Sound, you?” closes it. Men add “la” (lad) and women often get “queen” or “girl”, all of it friendly."
+  },
+  {
+    "type": "word",
+    "id": "3DRjDNplg0rvI0aiMHazlx",
+    "city": "Liverpool",
+    "field": "context",
+    "old": "Used with strangers as well as friends, and not considered sloppy. Cheers works just as well.",
+    "new": "Used with strangers as well as friends, and not considered sloppy. “Cheers” works just as well."
+  },
+  {
+    "type": "word",
+    "id": "5AHlZMBeQeXrrGrwwezDfV",
+    "city": "Liverpool",
+    "field": "context",
+    "old": "The all-purpose agreement: fine, good, that works. Said of a person, he’s sound is real praise.",
+    "new": "The all-purpose agreement: fine, good, that works. Said of a person, “he’s sound” is real praise."
+  },
+  {
+    "type": "word",
+    "id": "7uH5spJO4kmKsRIRPBjcDe",
+    "city": "Belfast",
+    "field": "context",
+    "old": "Fine, sound, agreed. He’s dead on is a compliment; dead on, see you at eight settles a plan. Dead on its own just means very.",
+    "new": "Fine, sound, agreed. “He’s dead on” is a compliment; “dead on, see you at eight” settles a plan. “Dead” on its own just means very."
+  },
+  {
+    "type": "word",
+    "id": "3KlGsnhmkTRhylvs7R5G4f",
+    "city": "Belfast",
+    "field": "context",
+    "old": "Small, and also a softener attached to almost anything. A wee cup of tea, a wee minute, a wee drive to Bangor, which is not that wee.",
+    "new": "Small, and also a softener attached to almost anything. “A wee cup of tea”, “a wee minute”, “a wee drive to Bangor”, which is not that wee."
+  },
+  {
+    "type": "word",
+    "id": "pat1NJLV5DmUzlcaPlBiM",
+    "city": "Belfast",
+    "field": "context",
+    "old": "Charged since 2013. Say no thanks if you brought one.",
+    "new": "Charged since 2013. Say “no thanks” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "1tpsU1tuDepHLBSibcwAXY",
+    "city": "Belfast",
+    "field": "context",
+    "old": "Asking for the check marks you instantly.",
+    "new": "Asking for “the check” marks you instantly."
+  },
+  {
+    "type": "word",
+    "id": "49vRWnthXS3ROltHHNMSeT",
+    "city": "Belfast",
+    "field": "context",
+    "old": "Class works among younger people: that was class means excellent.",
+    "new": "“Class” works among younger people: “that was class” means excellent."
+  },
+  {
+    "type": "word",
+    "id": "1WlSW32FwacrFgHnMCwcIA",
+    "city": "Belfast",
+    "field": "context",
+    "old": "Still current here. Bye is often said several times in a row on the way out the door.",
+    "new": "Still current here. “Bye” is often said several times in a row on the way out the door."
+  },
+  {
+    "type": "word",
+    "id": "7vu9e0QlK89k3OAGUjFotq",
+    "city": "Belfast",
+    "field": "context",
+    "old": "A greeting, not a question, usually squashed to ’bout ye. “Not bad, yourself?” closes it.",
+    "new": "A greeting, not a question, usually squashed to “’bout ye”. “Not bad, yourself?” closes it."
+  },
+  {
+    "type": "word",
+    "id": "2W66JymnoyEkjWQLRxhY60",
+    "city": "Belfast",
+    "field": "context",
+    "old": "The usual thanks at a bar or counter. Thanks very much is the fuller form.",
+    "new": "The usual thanks at a bar or counter. “Thanks very much” is the fuller form."
+  },
+  {
+    "type": "word",
+    "id": "3Ss4bVUlUea2POi6Fu51Ws",
+    "city": "Belfast",
+    "field": "context",
+    "old": "Not at all is the standard reply to thanks, and means you’re welcome rather than no.",
+    "new": "“Not at all” is the standard reply to thanks, and means you’re welcome rather than no."
+  },
+  {
+    "type": "word",
+    "id": "59RzkJIJkqE8Du7Yln9UA7",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "Charged at the till. Say nie, dziękuję if you brought one.",
+    "new": "Charged at the till. Say “nie, dziękuję” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "4BiBZV0ldfWXVSW87V2s3m",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "Ile? alone does the job at a market stall.",
+    "new": "“Ile?” alone does the job at a market stall."
+  },
+  {
+    "type": "word",
+    "id": "4W0qciQpRojlPkDFw0ujVj",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "WC on signs. Station and park toilets often charge a couple of złoty.",
+    "new": "“WC” on signs. Station and park toilets often charge a couple of złoty."
+  },
+  {
+    "type": "word",
+    "id": "7gPQp4ES3OCKGMRcG9aSK4",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "If you’re warm and kind, this is enough to get by. More polite version: Poproszę menu.",
+    "new": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę menu”."
+  },
+  {
+    "type": "word",
+    "id": "IkUGrd7FGzvO72uBPnkr8",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "Pan to a man, pani (PAH-nee) to a woman. Most young Varsovians speak English well, so a plain hello first is enough.",
+    "new": "“Pan” to a man, “pani” (PAH-nee) to a woman. Most young Varsovians speak English well, so a plain hello first is enough."
+  },
+  {
+    "type": "word",
+    "id": "4gZJJACYagu3eowUTJ4G1s",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "You’ll hear no (noh) constantly. It means “yeah” or “well,” not no.",
+    "new": "You’ll hear “no” (noh) constantly. It means “yeah” or “well,” not no."
+  },
+  {
+    "type": "word",
+    "id": "2ZZIma5ZlbSiGiZ58BYzsw",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "Dzięki (JEN-kee) is the casual version.",
+    "new": "“Dzięki” (JEN-kee) is the casual version."
+  },
+  {
+    "type": "word",
+    "id": "1c00liyb5VlHuKpx9s0Pi1",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "Also “you’re welcome,” “here you go” and, on the phone, “go ahead.” Poproszę (poh-PROH-sheh) means “I’ll have” when ordering.",
+    "new": "Also “you’re welcome,” “here you go” and, on the phone, “go ahead.” “Poproszę” (poh-PROH-sheh) means “I’ll have” when ordering."
+  },
+  {
+    "type": "word",
+    "id": "1iyDzxUHmD9qSF9QqJAMk1",
+    "city": "Warsaw",
+    "field": "context",
+    "old": "Hello and goodbye both, for friends and people your age. Hej (hey) is softer and common among younger Varsovians.",
+    "new": "Hello and goodbye both, for friends and people your age. “Hej” (hey) is softer and common among younger Varsovians."
+  },
+  {
+    "type": "word",
+    "id": "pdqLnlaT4iHEzm8eC7uW5",
+    "city": "Milan",
+    "field": "groupNote",
+    "old": "Also Signori (men) and Signore (women), one vowel apart on adjacent doors.",
+    "new": "Also “Signori” (men) and “Signore” (women), one vowel apart on adjacent doors."
+  },
+  {
+    "type": "word",
+    "id": "50ivLtQW4tHpve1iYlJjSo",
+    "city": "Milan",
+    "field": "context",
+    "old": "More polite version: Il conto, per favore. At a busy coffee bar, pay first at the till and hand the receipt to the barista.",
+    "new": "More polite version: “Il conto, per favore”. At a busy coffee bar, pay first at the till and hand the receipt to the barista."
+  },
+  {
+    "type": "word",
+    "id": "SLyKd5Kyh5KE1W7JlR8l6",
+    "city": "Milan",
+    "field": "context",
+    "old": "The clink at aperitivo. Salute (sah-LOO-teh) is the plainer toast, and also what you say after a sneeze.",
+    "new": "The clink at aperitivo. “Salute” (sah-LOO-teh) is the plainer toast, and also what you say after a sneeze."
+  },
+  {
+    "type": "word",
+    "id": "53trsO2ebpxsbwoDqgtXfE",
+    "city": "Milan",
+    "field": "context",
+    "old": "For a real apology. For a bump on the metro, scusi is the word.",
+    "new": "For a real apology. For a bump on the metro, “scusi” is the word."
+  },
+  {
+    "type": "word",
+    "id": "1I4yzs9YHVfLN4JzxUeYYK",
+    "city": "Milan",
+    "field": "context",
+    "old": "Three syllables, not two. Grazie mille is a thousand thanks.",
+    "new": "Three syllables, not two. “Grazie mille” is a thousand thanks."
+  },
+  {
+    "type": "word",
+    "id": "5tobz2a9nLV6taaN1AkbxB",
+    "city": "Milan",
+    "field": "context",
+    "old": "Buona giornata (have a good day) on the way out is just as common, and Milanese shopkeepers will say it first.",
+    "new": "“Buona giornata” (have a good day) on the way out is just as common, and Milanese shopkeepers will say it first."
+  },
+  {
+    "type": "word",
+    "id": "7EeC5T2TAyu1zUSRccGGFh",
+    "city": "Milan",
+    "field": "context",
+    "old": "Hello and goodbye, for friends and peers. Among friends you will also hear Uè (weh), a loud all-purpose Milanese hey.",
+    "new": "Hello and goodbye, for friends and peers. Among friends you will also hear “Uè” (weh), a loud all-purpose Milanese hey."
+  },
+  {
+    "type": "word",
+    "id": "1DDcU82iWyOIhue5oaEQzF",
+    "city": "Milan",
+    "field": "groupNote",
+    "old": "Buonasera starts in the afternoon, from about four. Milanese often clip both to ’giorno and ’sera.",
+    "new": "“Buonasera” starts in the afternoon, from about four. Milanese often clip both to “’giorno” and “’sera”."
+  },
+  {
+    "type": "word",
+    "id": "7ZjGacQgRh2z7skYoAiy0",
+    "city": "Milan",
+    "field": "context",
+    "old": "Still buongiorno until mid-afternoon. Buon pomeriggio exists but is rarely said to strangers.",
+    "new": "Still “buongiorno” until mid-afternoon. “Buon pomeriggio” exists but is rarely said to strangers."
+  },
+  {
+    "type": "word",
+    "id": "01gzYSFSQu6VVlfZqSuEzu",
+    "city": "Munich",
+    "field": "context",
+    "old": "Fun, a good time, a bit of a riot. A beer tent at full volume is a Riesengaudi, a giant one.",
+    "new": "Fun, a good time, a bit of a riot. A beer tent at full volume is a “Riesengaudi”, a giant one."
+  },
+  {
+    "type": "word",
+    "id": "6tQD3o6NYc3PdJr1guEqLg",
+    "city": "Munich",
+    "field": "context",
+    "old": "The Munich grump, complaining as a matter of style. Grantig is the mood. It is rarely personal.",
+    "new": "The Munich grump, complaining as a matter of style. “Grantig” is the mood. It is rarely personal."
+  },
+  {
+    "type": "word",
+    "id": "5oneen2z7N34ZaKu0bfkDr",
+    "city": "Munich",
+    "field": "context",
+    "old": "Literally bread time: a cold spread of bread, cheese, sausage and radish, at any hour. It is also what you unpack at a beer garden.",
+    "new": "Literally “bread time”: a cold spread of bread, cheese, sausage and radish, at any hour. It is also what you unpack at a beer garden."
+  },
+  {
+    "type": "word",
+    "id": "6ZXYn60InziAZoK4PZ2DJv",
+    "city": "Munich",
+    "field": "groupNote",
+    "old": "H is men, D is women. Some places print only the single letters.",
+    "new": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+    "type": "word",
+    "id": "4WEppy1jEDMeib8OHG1nGd",
+    "city": "Munich",
+    "field": "context",
+    "old": "Expect zusammen oder getrennt? (together or separate?). To tip, round up and say the total as you pay.",
+    "new": "Expect “zusammen oder getrennt?” (together or separate?). To tip, round up and say the total as you pay."
+  },
+  {
+    "type": "word",
+    "id": "6Z1MXMpJ6JMpwvvJy2aQI1",
+    "city": "Munich",
+    "field": "context",
+    "old": "Lecker works too but sounds northern. Bavarians say guad (gwahd).",
+    "new": "“Lecker” works too but sounds northern. Bavarians say “guad” (gwahd)."
+  },
+  {
+    "type": "word",
+    "id": "2ycKbaj5chGHl317YFETvo",
+    "city": "Munich",
+    "field": "context",
+    "old": "The Bavarian version is An Guadn (an GWAH-dn). Mahlzeit is the midday greeting in passing.",
+    "new": "The Bavarian version is “An Guadn” (an GWAH-dn). “Mahlzeit” is the midday greeting in passing."
+  },
+  {
+    "type": "word",
+    "id": "4kENy1XBX22vJWTLyAXyjO",
+    "city": "Munich",
+    "field": "context",
+    "old": "On a packed beer hall bench, a plain Entschuldigung while you squeeze does the job.",
+    "new": "On a packed beer hall bench, a plain “Entschuldigung” while you squeeze does the job."
+  },
+  {
+    "type": "word",
+    "id": "h9rfeETg3TOOW0JE5WboK",
+    "city": "Munich",
+    "field": "context",
+    "old": "Danke schön is the usual form at a counter.",
+    "new": "“Danke schön” is the usual form at a counter."
+  },
+  {
+    "type": "word",
+    "id": "3VzMFEoiVFgPZWCXJ66xzD",
+    "city": "Munich",
+    "field": "context",
+    "old": "The southern form of Auf Wiedersehen. Among friends you'll hear Pfiat di (FEE-at dee), short for God protect you.",
+    "new": "The southern form of “Auf Wiedersehen”. Among friends you'll hear “Pfiat di” (FEE-at dee), short for God protect you."
+  },
+  {
+    "type": "word",
+    "id": "44qRhah7ptptghoL0RP8qt",
+    "city": "Munich",
+    "field": "groupNote",
+    "old": "Grüß Gott covers most of the day, so the morning and evening forms are both optional.",
+    "new": "“Grüß Gott” covers most of the day, so the morning and evening forms are both optional."
+  },
+  {
+    "type": "word",
+    "id": "xmgx42oqAFWZBAc7oSWRX",
+    "city": "Munich",
+    "field": "context",
+    "old": "The Bavarian daytime greeting for shops and strangers. Guten Tag is understood everywhere but sounds northern here.",
+    "new": "The Bavarian daytime greeting for shops and strangers. “Guten Tag” is understood everywhere but sounds northern here."
+  },
+  {
+    "type": "word",
+    "id": "kSVVJ57WlgZjOgVfr78bp",
+    "city": "Munich",
+    "field": "context",
+    "old": "Often cut to just Morgen.",
+    "new": "Often cut to just “Morgen”."
+  },
+  {
+    "type": "word",
+    "id": "7MoMAL6NFZSDnVoWWug4XU",
+    "city": "Venice",
+    "field": "context",
+    "old": "Every square in Venice is a campo, a field — most were once grass. Only St Mark’s is a piazza.",
+    "new": "Every square in Venice is a “campo”, a field — most were once grass. Only St Mark’s is a “piazza”."
+  },
+  {
+    "type": "word",
+    "id": "t1I3nu6ZrLlWLXJR9bfkO",
+    "city": "Venice",
+    "field": "context",
+    "old": "A small, plain wine bar with cicchetti on the counter, mostly standing room. Moving from one to the next is the giro d’ombre.",
+    "new": "A small, plain wine bar with cicchetti on the counter, mostly standing room. Moving from one to the next is the “giro d’ombre”."
+  },
+  {
+    "type": "word",
+    "id": "bHUxqWnbebOlz9uvX5UHr",
+    "city": "Venice",
+    "field": "groupNote",
+    "old": "One vowel apart, same font, adjacent doors. Signori is men. Uomini and Donne are the plainer pair.",
+    "new": "One vowel apart, same font, adjacent doors. “Signori” is men. “Uomini” and “Donne” are the plainer pair."
+  },
+  {
+    "type": "word",
+    "id": "i2Oz4hy1WKF8x30iKGn21",
+    "city": "Venice",
+    "field": "context",
+    "old": "If you’re warm and kind, this is enough to get by. More polite version: Il conto, per favore.",
+    "new": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "1iCy94ClLSSVSR1ajXV3ab",
+    "city": "Venice",
+    "field": "context",
+    "old": "Cin cin (chin chin) is the lighter clinking version.",
+    "new": "“Cin cin” (chin chin) is the lighter clinking version."
+  },
+  {
+    "type": "word",
+    "id": "5vD0od0zhoXFoHuZU4xglF",
+    "city": "Venice",
+    "field": "context",
+    "old": "For a real apology. If you’ve just bumped someone, scusi is the word.",
+    "new": "For a real apology. If you’ve just bumped someone, “scusi” is the word."
+  },
+  {
+    "type": "word",
+    "id": "7FN07lwJW1DRWBT8rYGD1f",
+    "city": "Venice",
+    "field": "context",
+    "old": "Literally “until we see each other again.” ArrivederLa is the extra-formal version.",
+    "new": "Literally “until we see each other again.” “ArrivederLa” is the extra-formal version."
+  },
+  {
+    "type": "word",
+    "id": "6Uf24To0FjMYkAJ7UwkL8r",
+    "city": "Venice",
+    "field": "context",
+    "old": "Hello and goodbye, for peers only. It started here, from the Venetian s-ciào, “your servant.”",
+    "new": "Hello and goodbye, for peers only. It started here, from the Venetian “s-ciào”, “your servant.”"
+  },
+  {
+    "type": "word",
+    "id": "5UJB9g4SpMDrqCqWWdXco9",
+    "city": "Venice",
+    "field": "context",
+    "old": "Still buongiorno. Buon pomeriggio exists on paper and nobody says it.",
+    "new": "Still “buongiorno”. “Buon pomeriggio” exists on paper and nobody says it."
+  },
+  {
+    "type": "word",
+    "id": "4un5EwTTK5DqBUJiXno4Dh",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "What shopkeepers say to you. Doei (DOO-ee) is the casual version, usually doubled: doei doei.",
+    "new": "What shopkeepers say to you. “Doei” (DOO-ee) is the casual version, usually doubled: “doei doei”."
+  },
+  {
+    "type": "word",
+    "id": "5a3zsqoVruG8tWaHKnA5HE",
+    "city": "Amsterdam",
+    "field": "groupNote",
+    "old": "In speech all three get clipped to Morgen, Middag, and Avond. A mumbled Goeie (KHOO-yuh) covers any of them.",
+    "new": "In speech all three get clipped to “Morgen”, “Middag”, and “Avond”. A mumbled “Goeie” (KHOO-yuh) covers any of them."
+  },
+  {
+    "type": "word",
+    "id": "6UFDgTCSn2HTPBI6gSdyv9",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "The formal one. Dank je wel with peers, and a quick bedankt (buh-DAHNKT) works anywhere.",
+    "new": "The formal one. “Dank je wel” with peers, and a quick “bedankt” (buh-DAHNKT) works anywhere."
+  },
+  {
+    "type": "word",
+    "id": "65HJ2J8GXBSIXO9WERKIhz",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "Also means \"here you go\" — you'll hear it with every coffee handed over. Casual: alsjeblieft.",
+    "new": "Also means “here you go” — you'll hear it with every coffee handed over. Casual: “alsjeblieft”."
+  },
+  {
+    "type": "word",
+    "id": "3A8PvJPNdMNVAf5JQD1FYS",
+    "city": "Athens",
+    "field": "context",
+    "old": "Charged. Say όχι ευχαριστώ if you brought one.",
+    "new": "Charged. Say “όχι ευχαριστώ” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "7BUpJzP8UurA064nwKYcxR",
+    "city": "Athens",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Τον λογαριασμό, παρακαλώ.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Τον λογαριασμό, παρακαλώ”."
+  },
+  {
+    "type": "word",
+    "id": "5hbuj3Gh0JRETClOQIgEUr",
+    "city": "Athens",
+    "field": "context",
+    "old": "Literally \"to our health.\" Στην υγειά μας (steen ee-YAH mahs) is the fuller toast.",
+    "new": "Literally “to our health.” “Στην υγειά μας” (steen ee-YAH mahs) is the fuller toast."
+  },
+  {
+    "type": "word",
+    "id": "55khcXJ7ABcv2L5OzyHwBN",
+    "city": "Athens",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Τον κατάλογο, παρακαλώ.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Τον κατάλογο, παρακαλώ”."
+  },
+  {
+    "type": "word",
+    "id": "75f8YjtBY5QNw5oSsbSAAx",
+    "city": "Athens",
+    "field": "groupNote",
+    "old": "Signomi covers both apology and getting attention. Greek doesn't split them sharply.",
+    "new": "“Signomi” covers both apology and getting attention. Greek doesn't split them sharply."
+  },
+  {
+    "type": "word",
+    "id": "5wLj3ndEqklQHG4uKrZBQG",
+    "city": "Athens",
+    "field": "context",
+    "old": "The same phrase does hello and goodbye. Αντίο (ah-DEE-oh) exists but sounds final.",
+    "new": "The same phrase does hello and goodbye. “Αντίο” (ah-DEE-oh) exists but sounds final."
+  },
+  {
+    "type": "word",
+    "id": "5k9kAT97FdIQb3yEHl8S9t",
+    "city": "Athens",
+    "field": "context",
+    "old": "Singular and casual. To a group or anyone you don't know it's γεια σας (YAH sahs).",
+    "new": "Singular and casual. To a group or anyone you don't know it's “γεια σας” (YAH sahs)."
+  },
+  {
+    "type": "word",
+    "id": "4BuE0jZ6mjKSYKa7xCHGgt",
+    "city": "Athens",
+    "field": "groupNote",
+    "old": "Kalispera starts from around noon or early afternoon — much earlier than you'd expect.",
+    "new": "“Kalispera” starts from around noon or early afternoon — much earlier than you'd expect."
+  },
+  {
+    "type": "word",
+    "id": "VwN9YhsVPaxWOpyx6blUt",
+    "city": "Athens",
+    "field": "context",
+    "old": "The all-purpose formal greeting for when it's too late for kalimera and too early for kalispera.",
+    "new": "The all-purpose formal greeting for when it's too late for “kalimera” and too early for “kalispera”."
+  },
+  {
+    "type": "word",
+    "id": "6K4pSm073qo1NHihnGoMvV",
+    "city": "Athens",
+    "field": "context",
+    "old": "Ευχαριστώ πολύ (po-LEE) is thank you very much.",
+    "new": "“Ευχαριστώ πολύ” (po-LEE) is thank you very much."
+  },
+  {
+    "type": "word",
+    "id": "4dX3yHSHsRDwt9FlsEmqLJ",
+    "city": "Budapest",
+    "field": "context",
+    "old": "Hungarian builds politeness into the verb, so a bare “kérem” can sound terse. Legyen szíves is warmer.",
+    "new": "Hungarian builds politeness into the verb, so a bare “kérem” can sound terse. “Legyen szíves” is warmer."
+  },
+  {
+    "type": "word",
+    "id": "46eoeqkdYB04ekPVSi5nFn",
+    "city": "Budapest",
+    "field": "context",
+    "old": "What the checkout cashier will ask, and usually charged. Say nem, köszönöm if you brought your own.",
+    "new": "What the checkout cashier will ask, and usually charged. Say “nem, köszönöm” if you brought your own."
+  },
+  {
+    "type": "word",
+    "id": "4mclkCAKeaSRc59vJ2Yrta",
+    "city": "Madrid",
+    "field": "context",
+    "old": "The one thing the cashier reliably asks. Usually charged — say no, gracias if you brought your own.",
+    "new": "The one thing the cashier reliably asks. Usually charged — say “no, gracias” if you brought your own."
+  },
+  {
+    "type": "word",
+    "id": "5X8YR4UqkLJe9zH9hiOvSU",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "What the checkout cashier will ask, and usually charged. Say não, obrigado if you brought your own.",
+    "new": "What the checkout cashier will ask, and usually charged. Say “não, obrigado” if you brought your own."
+  },
+  {
+    "type": "word",
+    "id": "6Uttg2uvjekK1s7S6lRH65",
+    "city": "Budapest",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Az étlapot, legyen szíves.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Az étlapot, legyen szíves”."
+  },
+  {
+    "type": "word",
+    "id": "2g1jNrSJjlP7Zs48TimBwV",
+    "city": "Istanbul",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Hesap, lütfen.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Hesap, lütfen”."
+  },
+  {
+    "type": "word",
+    "id": "5OyDhTxvktlnpaEwGLS1m2",
+    "city": "Istanbul",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Menü, lütfen.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Menü, lütfen”."
+  },
+  {
+    "type": "word",
+    "id": "64CDxh9OQkZJ3m96SSnYkq",
+    "city": "Naples",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Il conto, per favore.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Il conto, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "4QD9X4f6ajKt4YUxXYc8sq",
+    "city": "Florence",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Il conto, per favore.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Il conto, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "1yfhMCpgobaOvG7Xc4WCYm",
+    "city": "Seville",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: La cuenta, por favor.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “La cuenta, por favor”."
+  },
+  {
+    "type": "word",
+    "id": "2EesbwhhtDu9BF6mEPXicq",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: El compte, si us plau.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “El compte, si us plau”."
+  },
+  {
+    "type": "word",
+    "id": "EROjdRGe22RWcOtg1hFW1",
+    "city": "Bucharest",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Nota, vă rog.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Nota, vă rog”."
+  },
+  {
+    "type": "word",
+    "id": "5eK9QExxgvHTW06EO38KcK",
+    "city": "Bucharest",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Meniul, vă rog.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Meniul, vă rog”."
+  },
+  {
+    "type": "word",
+    "id": "3dxQevHewGvSUMO3k6vjHI",
+    "city": "Kraków",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Poproszę rachunek.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Poproszę rachunek”."
+  },
+  {
+    "type": "word",
+    "id": "4mpFbPd4hvO0AQee1vowF8",
+    "city": "Kraków",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Poproszę menu.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Poproszę menu”."
+  },
+  {
+    "type": "word",
+    "id": "LfdWldX4IfZ4MhvrJ1u4h",
+    "city": "Prague",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Jídelní lístek, prosím.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Jídelní lístek, prosím”."
+  },
+  {
+    "type": "word",
+    "id": "4bn0MrOghUUZffwyKyCHUS",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Račun, molim.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Račun, molim”."
+  },
+  {
+    "type": "word",
+    "id": "52OVcsf62FcU89TMnqU7vf",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Jelovnik, molim.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Jelovnik, molim”."
+  },
+  {
+    "type": "word",
+    "id": "32Uyh5PS8WCAr1m9XIibQT",
+    "city": "Reykjavík",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Get ég fengið reikninginn?",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Get ég fengið reikninginn?”"
+  },
+  {
+    "type": "word",
+    "id": "3RV4xeWdkopKVOc8N9ovLp",
+    "city": "Reykjavík",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Matseðilinn, takk.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Matseðilinn, takk”."
+  },
+  {
+    "type": "word",
+    "id": "1wqmuKCmhJWUXpjsmSTDA3",
+    "city": "Helsinki",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Saisinko laskun.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Saisinko laskun”."
+  },
+  {
+    "type": "word",
+    "id": "2UpkRxmBaoGbATJ6y4Aba2",
+    "city": "Helsinki",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Ruokalista, kiitos.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Ruokalista, kiitos”."
+  },
+  {
+    "type": "word",
+    "id": "7ho4EiBeZT1T0G2flBPenb",
+    "city": "Oslo",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Kan jeg få regningen?",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Kan jeg få regningen?”"
+  },
+  {
+    "type": "word",
+    "id": "2lHQZloyMwYdbzvIfB0Dmg",
+    "city": "Oslo",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Menyen, takk.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Menyen, takk”."
+  },
+  {
+    "type": "word",
+    "id": "5QwbTetqe95uSJYLovJlAr",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Notan, tack.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Notan, tack”."
+  },
+  {
+    "type": "word",
+    "id": "3BOuA1frIx07kdz8BFEQMG",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Menyn, tack.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Menyn, tack”."
+  },
+  {
+    "type": "word",
+    "id": "7ro2ADS6CyJqdx7BS9gWB0",
+    "city": "Copenhagen",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Må jeg bede om regningen?",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Må jeg bede om regningen?”"
+  },
+  {
+    "type": "word",
+    "id": "rjMMNHAUksRhtjii306h9",
+    "city": "Copenhagen",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Menukortet, tak.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Menukortet, tak”."
+  },
+  {
+    "type": "word",
+    "id": "s30WF2v1lEq26A967mBZd",
+    "city": "Vienna",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Zahlen, bitte.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Zahlen, bitte”."
+  },
+  {
+    "type": "word",
+    "id": "649AY3FyOJ4YyexNDscwIR",
+    "city": "Berlin",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Zahlen, bitte.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Zahlen, bitte”."
+  },
+  {
+    "type": "word",
+    "id": "3gRZPP8MGVgS7NJJ3oXcRk",
+    "city": "Rome",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Il conto, per favore.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Il conto, per favore”."
+  },
+  {
+    "type": "word",
+    "id": "5Q9sYv8jbenfWpLUR8qIYM",
+    "city": "Zurich",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: Zahle bitte.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “Zahle bitte”."
+  },
+  {
+    "type": "word",
+    "id": "6khoHETpjjzOs6DKAy10s7",
+    "city": "Zurich",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: D Charte, bitte.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “D Charte, bitte”."
+  },
+  {
+    "type": "word",
+    "id": "6119Wouq79oX3k1hmUcVxy",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: De rekening, alstublieft.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “De rekening, alstublieft”."
+  },
+  {
+    "type": "word",
+    "id": "2PX6uoOVhA16XoCi0MI1Td",
+    "city": "Madrid",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: La cuenta, por favor.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “La cuenta, por favor”."
+  },
+  {
+    "type": "word",
+    "id": "5pa2UemxKqXPJQS4nr39iS",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "If you're warm and kind, this is enough to get by. More polite version: A conta, se faz favor.",
+    "new": "If you're warm and kind, this is enough to get by. More polite version: “A conta, se faz favor”."
+  },
+  {
+    "type": "word",
+    "id": "2EyTaFYp9f56dM8Xd3jeIc",
+    "city": "Budapest",
+    "field": "groupNote",
+    "old": "Two has two forms: kettő standing alone, két in front of a noun — két sör, two beers.",
+    "new": "Two has two forms: “kettő” standing alone, “két” in front of a noun — “két sör”, two beers."
+  },
+  {
+    "type": "word",
+    "id": "6JtVYUxlmRhrrbr9WQrDyO",
+    "city": "Budapest",
+    "field": "context",
+    "old": "Short for viszontlátásra, \"until we see each other again.\" The full version is for formal occasions.",
+    "new": "Short for “viszontlátásra”, “until we see each other again.” The full version is for formal occasions."
+  },
+  {
+    "type": "word",
+    "id": "6x4uidpCqAZzZGGZ9BeL9q",
+    "city": "Budapest",
+    "field": "context",
+    "old": "Casual and singular — for peers, not the older woman behind the counter. To a group it's sziasztok.",
+    "new": "Casual and singular — for peers, not the older woman behind the counter. To a group it's “sziasztok”."
+  },
+  {
+    "type": "word",
+    "id": "1arijS49N6dGCqr1hvRNjY",
+    "city": "Budapest",
+    "field": "context",
+    "old": "Shortened to köszi (KUH-see) among friends.",
+    "new": "Shortened to “köszi” (KUH-see) among friends."
+  },
+  {
+    "type": "word",
+    "id": "4h28eBj6hUfIg1nCBwHdXB",
+    "city": "Lisbon",
+    "field": "groupNote",
+    "old": "Dia becomes tarde around lunch. Tarde becomes noite at dark, not by the clock.",
+    "new": "“Dia” becomes “tarde” around lunch. “Tarde” becomes “noite” at dark, not by the clock."
+  },
+  {
+    "type": "word",
+    "id": "4QecWiI1hWjpQPBs2FKZ7P",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Very. Dead good means very good, which trips up almost every visitor at least once.",
+    "new": "Very. “Dead good” means very good, which trips up almost every visitor at least once."
+  },
+  {
+    "type": "word",
+    "id": "5sjZkqdt9J4v4TjdVaND3A",
+    "city": "Manchester",
+    "field": "context",
+    "old": "A cup of tea. Fancy a brew is the standard offer, and refusing it outright is faintly odd.",
+    "new": "A cup of tea. “Fancy a brew” is the standard offer, and refusing it outright is faintly odd."
+  },
+  {
+    "type": "word",
+    "id": "5hJ6M82VFzEkSKsKXmjMpM",
+    "city": "Manchester",
+    "field": "context",
+    "old": "A soft bread roll. Calling it a bap, a cob, or a bun starts a real argument that has never been settled.",
+    "new": "A soft bread roll. Calling it a “bap”, a “cob”, or a “bun” starts a real argument that has never been settled."
+  },
+  {
+    "type": "word",
+    "id": "4kC15w6y5qHXCipujXOHSU",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Good, fine, reliable, agreed. Also describes a person — he's sound is a genuine compliment.",
+    "new": "Good, fine, reliable, agreed. Also describes a person — “he's sound” is a genuine compliment."
+  },
+  {
+    "type": "word",
+    "id": "3ma8yG5Xd2eNbL36b5agAq",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Excellent. That's mint is high praise and has nothing whatsoever to do with the flavour.",
+    "new": "Excellent. “That's mint” is high praise and has nothing whatsoever to do with the flavour."
+  },
+  {
+    "type": "word",
+    "id": "1lXpy7wAwKTLUfeYmBSC2u",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Charged. Say no thanks if you brought one.",
+    "new": "Charged. Say “no thanks” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "60JpGZJ2rUJEgdkdSsxh88",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Also the hole in the wall. Avoid the ones that charge a fee.",
+    "new": "Also “the hole in the wall”. Avoid the ones that charge a fee."
+  },
+  {
+    "type": "word",
+    "id": "6Ie8Fg6CfKCVdPRzH09vgm",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Asking for the check marks you instantly.",
+    "new": "Asking for “the check” marks you instantly."
+  },
+  {
+    "type": "word",
+    "id": "7vHJPmpwfyQIO11kQxHZP9",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Ta-ra, said tah-RAH, is the local version and still widely used. Laters among younger people.",
+    "new": "“Ta-ra”, said tah-RAH, is the local version and still widely used. “Laters” among younger people."
+  },
+  {
+    "type": "word",
+    "id": "5b4Lt8lUIIq9uyUEF6tkx2",
+    "city": "Manchester",
+    "field": "context",
+    "old": "Ta is more common here than in London and isn't casual — people use it with strangers.",
+    "new": "“Ta” is more common here than in London and isn't casual — people use it with strangers."
+  },
+  {
+    "type": "word",
+    "id": "7ASdbEZguL0zwHLYnk8ita",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "The groceries. Away to get the messages means going to the shops, and catches out every visitor once.",
+    "new": "The groceries. “Away to get the messages” means going to the shops, and catches out every visitor once."
+  },
+  {
+    "type": "word",
+    "id": "4xDVVob5WdOPC4dmnCxCxk",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "Know. D'ye ken? is you know?, and ah dinnae ken is I don't know.",
+    "new": "Know. “D'ye ken?” is “you know?”, and “ah dinnae ken” is “I don't know”."
+  },
+  {
+    "type": "word",
+    "id": "6Q13BvfFRa9CxwS4bOCb0w",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "Small, and also a softener attached to almost anything. A wee minute can comfortably mean an hour.",
+    "new": "Small, and also a softener attached to almost anything. “A wee minute” can comfortably mean an hour."
+  },
+  {
+    "type": "word",
+    "id": "tKU1H6R6iOeDoJD6io4lO",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "Charged. Say no thanks if you brought one.",
+    "new": "Charged. Say “no thanks” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "4tCt3ZDUS0GJXNGWOdZP31",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "Also the hole in the wall. Scottish banks issue their own notes, which are legal but sometimes refused in England.",
+    "new": "Also “the hole in the wall”. Scottish banks issue their own notes, which are legal but sometimes refused in England."
+  },
+  {
+    "type": "word",
+    "id": "NCUncOvMEkviEs3srPaPv",
+    "city": "Edinburgh",
+    "field": "groupNote",
+    "old": "Standard on most doors. Fir and Mnathan turn up on Gaelic signage — Fir is men.",
+    "new": "Standard on most doors. “Fir” and “Mnathan” turn up on Gaelic signage — “Fir” is men."
+  },
+  {
+    "type": "word",
+    "id": "0qLsOHWZHdkQSLNYaRRQp",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "Asking for the check marks you instantly.",
+    "new": "Asking for “the check” marks you instantly."
+  },
+  {
+    "type": "word",
+    "id": "Ztvd7RnrOAvYg3mv1TJMi",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "Cheerio is still current here in a way it isn't in England. Mind how you go is the warm version.",
+    "new": "“Cheerio” is still current here in a way it isn't in England. “Mind how you go” is the warm version."
+  },
+  {
+    "type": "word",
+    "id": "7cYmlnveth1N4yZERfH0sL",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "Universal. Ta works. Cheers, aye is the fuller and warmer version.",
+    "new": "Universal. “Ta” works. “Cheers, aye” is the fuller and warmer version."
+  },
+  {
+    "type": "word",
+    "id": "2Glz5Q3LO7INhVxO871uC5",
+    "city": "Edinburgh",
+    "field": "context",
+    "old": "A greeting. \"Aye, yourself?\" closes it. How's it gaun? is the Scots version and means the same.",
+    "new": "A greeting. “Aye, yourself?” closes it. “How's it gaun?” is the Scots version and means the same."
+  },
+  {
+    "type": "word",
+    "id": "7EZAjFiG6loMK1TLta1Mvh",
+    "city": "Dublin",
+    "field": "context",
+    "old": "House or flat. A free gaff means the parents are away, which is the phrase's main use.",
+    "new": "House or flat. “A free gaff” means the parents are away, which is the phrase's main use."
+  },
+  {
+    "type": "word",
+    "id": "6Jz2Z4v1B1QWUZo56O1img",
+    "city": "Dublin",
+    "field": "context",
+    "old": "The police. Plural Gardaí, said GAR-dee. Nobody here says the police.",
+    "new": "The police. Plural “Gardaí”, said GAR-dee. Nobody here says “the police”."
+  },
+  {
+    "type": "word",
+    "id": "2ArSCddsDVaK6PPKT3zflu",
+    "city": "Dublin",
+    "field": "context",
+    "old": "That man, whose name I'm not supplying. Yer one for a woman. Fully functional as identification.",
+    "new": "That man, whose name I'm not supplying. “Yer one” for a woman. Fully functional as identification."
+  },
+  {
+    "type": "word",
+    "id": "2O1rB2DCozkAS1mv3mdK67",
+    "city": "Dublin",
+    "field": "context",
+    "old": "Fun, atmosphere, company, and news all at once. What's the craic? is a greeting. Grim when marketed, real when not.",
+    "new": "Fun, atmosphere, company, and news all at once. “What's the craic?” is a greeting. Grim when marketed, real when not."
+  },
+  {
+    "type": "word",
+    "id": "4ImQSOFtQdLbUf3ja4EpEl",
+    "city": "Dublin",
+    "field": "context",
+    "old": "Casual and very Dublin. Signs say Toilets, with Leithreas printed underneath.",
+    "new": "Casual and very Dublin. Signs say “Toilets”, with “Leithreas” printed underneath."
+  },
+  {
+    "type": "word",
+    "id": "2WbdV1l3AU6Hx78w5MSzch",
+    "city": "Dublin",
+    "field": "context",
+    "old": "Asking for the check marks you immediately.",
+    "new": "Asking for “the check” marks you immediately."
+  },
+  {
+    "type": "word",
+    "id": "7kqTZmIqCFklAqgqyArYlX",
+    "city": "Dublin",
+    "field": "context",
+    "old": "Said leaving a shop with no luck implied. See you now works, and so does a rapid string of byes.",
+    "new": "Said leaving a shop with no luck implied. “See you now” works, and so does a rapid string of byes."
+  },
+  {
+    "type": "word",
+    "id": "4EUa1BrxqXa6MfcJxrxH3N",
+    "city": "Dublin",
+    "field": "context",
+    "old": "The standard warm version, often compressed to thanks a mil. Cheers works fine too.",
+    "new": "The standard warm version, often compressed to “thanks a mil”. “Cheers” works fine too."
+  },
+  {
+    "type": "word",
+    "id": "1ejhiGb8LTCar1BUMRGeGY",
+    "city": "Dublin",
+    "field": "context",
+    "old": "A greeting, not a question. \"Grand, yourself?\" closes it. What's the story? does the same job.",
+    "new": "A greeting, not a question. “Grand, yourself?” closes it. “What's the story?” does the same job."
+  },
+  {
+    "type": "word",
+    "id": "LMsWL5FxwFIKxw9sqf3tp",
+    "city": "London",
+    "field": "context",
+    "old": "The Underground. Never the subway, which here means a pedestrian tunnel under a road.",
+    "new": "The Underground. Never “the subway”, which here means a pedestrian tunnel under a road."
+  },
+  {
+    "type": "word",
+    "id": "2P7sq2z5Gt5X7FTRjfBMVD",
+    "city": "London",
+    "field": "context",
+    "old": "Mediocre. British understatement inverts the intensifier: not bad is high praise, quite good is faint.",
+    "new": "Mediocre. British understatement inverts the intensifier: “not bad” is high praise, “quite good” is faint."
+  },
+  {
+    "type": "word",
+    "id": "2LVEiGoohSjaWmkBnda6J7",
+    "city": "London",
+    "field": "context",
+    "old": "Small, indulgent, technically unearned. A cheeky pint is one you weren't supposed to be having.",
+    "new": "Small, indulgent, technically unearned. “A cheeky pint” is one you weren't supposed to be having."
+  },
+  {
+    "type": "word",
+    "id": "q3OQINnEKMd5F930qJxZp",
+    "city": "London",
+    "field": "context",
+    "old": "Bags are charged. The sturdy reusable one is called a bag for life and gets replaced free when it wears out.",
+    "new": "Bags are charged. The sturdy reusable one is called a “bag for life” and gets replaced free when it wears out."
+  },
+  {
+    "type": "word",
+    "id": "5Iw3UDLBvpXDTnfiTO0hsG",
+    "city": "London",
+    "field": "context",
+    "old": "Nobody says ATM. Avoid the ones charging a fee — the bank-branded machines are free.",
+    "new": "Nobody says “ATM”. Avoid the ones charging a fee — the bank-branded machines are free."
+  },
+  {
+    "type": "word",
+    "id": "5vtDRfeZe9IbF1Pjjt1FyL",
+    "city": "London",
+    "field": "groupNote",
+    "old": "Gents and Ladies on most doors. Pubs occasionally get creative, which is its own small hazard.",
+    "new": "“Gents” and “Ladies” on most doors. Pubs occasionally get creative, which is its own small hazard."
+  },
+  {
+    "type": "word",
+    "id": "2XvJl28RIaYUYsFDxgJrWk",
+    "city": "London",
+    "field": "context",
+    "old": "Asking for the check marks you in one syllable.",
+    "new": "Asking for “the check” marks you in one syllable."
+  },
+  {
+    "type": "word",
+    "id": "4TfvlqXmh9DihprMxdks7n",
+    "city": "London",
+    "field": "context",
+    "old": "Said to people you will not see later. Cheers and bye then do the same job.",
+    "new": "Said to people you will not see later. “Cheers” and “bye then” do the same job."
+  },
+  {
+    "type": "word",
+    "id": "3HGZKlClNEsIzyIl8TT4j3",
+    "city": "London",
+    "field": "context",
+    "old": "Thanks, in most casual settings. Ta is the shorter version and slightly more northern.",
+    "new": "Thanks, in most casual settings. “Ta” is the shorter version and slightly more northern."
+  },
+  {
+    "type": "word",
+    "id": "19HiZzWjJkRw7xG67SMhls",
+    "city": "Istanbul",
+    "field": "context",
+    "old": "Charged. Say istemem, teşekkürler if you brought one.",
+    "new": "Charged. Say “istemem, teşekkürler” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "6uW7AW0kix0GcG43fJFnwI",
+    "city": "Istanbul",
+    "field": "groupNote",
+    "old": "One letter apart, and the shorter one is men. Erkek and Kadın also appear and are far easier to tell apart.",
+    "new": "One letter apart, and the shorter one is men. “Erkek” and “Kadın” also appear and are far easier to tell apart."
+  },
+  {
+    "type": "word",
+    "id": "IQhQCLV3f2fVqnPx7iEJu",
+    "city": "Istanbul",
+    "field": "context",
+    "old": "Often a small charge. WC on the door, and paper goes in the bin beside it.",
+    "new": "Often a small charge. “WC” on the door, and paper goes in the bin beside it."
+  },
+  {
+    "type": "word",
+    "id": "3aNSgigWkhyfBNjNn5D9Aa",
+    "city": "Istanbul",
+    "field": "groupNote",
+    "old": "Affedersiniz opens a request. Pardon, borrowed from French, is for squeezing past.",
+    "new": "“Affedersiniz” opens a request. “Pardon”, borrowed from French, is for squeezing past."
+  },
+  {
+    "type": "word",
+    "id": "4FPm9dKS3XjGZmN4GBDqkq",
+    "city": "Istanbul",
+    "field": "context",
+    "old": "Teşekkür ederim is the fuller form, sağ ol (sah OL) the casual one.",
+    "new": "“Teşekkür ederim” is the fuller form, “sağ ol” (sah OL) the casual one."
+  },
+  {
+    "type": "word",
+    "id": "3io5bCELwswIpb1xh0E4GE",
+    "city": "Istanbul",
+    "field": "context",
+    "old": "Said by the person leaving. The one staying says güle güle. They are not interchangeable.",
+    "new": "Said by the person leaving. The one staying says “güle güle”. They are not interchangeable."
+  },
+  {
+    "type": "word",
+    "id": "65lOzUqVNmibfdOS1l36WD",
+    "city": "Istanbul",
+    "field": "context",
+    "old": "Neutral and safe with anyone. Selam (seh-LAHM) is the casual version among peers.",
+    "new": "Neutral and safe with anyone. “Selam” (seh-LAHM) is the casual version among peers."
+  },
+  {
+    "type": "word",
+    "id": "6c701fXbhkOF8SEdUGASMK",
+    "city": "Istanbul",
+    "field": "groupNote",
+    "old": "Günaydın until about eleven, günler through the day, akşamlar after dark.",
+    "new": "“Günaydın” until about eleven, “günler” through the day, “akşamlar” after dark."
+  },
+  {
+    "type": "word",
+    "id": "5khvYPZsgyNBCTlNxiW8uN",
+    "city": "Brussels",
+    "field": "context",
+    "old": "The chip stand — frituur in Dutch, and both words appear on signs. Frites are fried twice and the sauce list runs to twenty.",
+    "new": "The chip stand — “frituur” in Dutch, and both words appear on signs. Frites are fried twice and the sauce list runs to twenty."
+  },
+  {
+    "type": "word",
+    "id": "31CiFqrhnCDJ3po0946cdH",
+    "city": "Brussels",
+    "field": "groupNote",
+    "old": "Doors may be in Dutch instead — Heren for men, Dames for women. H is men in both languages.",
+    "new": "Doors may be in Dutch instead — “Heren” for men, “Dames” for women. “H” is men in both languages."
+  },
+  {
+    "type": "word",
+    "id": "BMwO7RvWanfqbTAd2GmaM",
+    "city": "Brussels",
+    "field": "context",
+    "old": "Eye contact as you clink. Schol is the Dutch version.",
+    "new": "Eye contact as you clink. “Schol” is the Dutch version."
+  },
+  {
+    "type": "word",
+    "id": "7hWavN09cpqrWttOh5GRDZ",
+    "city": "Brussels",
+    "field": "context",
+    "old": "Smakelijk (SMAH-kuh-luk) is the Dutch, and you'll hear both in the same restaurant.",
+    "new": "“Smakelijk” (SMAH-kuh-luk) is the Dutch, and you'll hear both in the same restaurant."
+  },
+  {
+    "type": "word",
+    "id": "3ljYwkMMw6HxJKIzi62N2w",
+    "city": "Brussels",
+    "field": "context",
+    "old": "Le menu is the fixed-price set meal. The list of dishes is la carte.",
+    "new": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte”."
+  },
+  {
+    "type": "word",
+    "id": "54FMZWqDg6HNv4Xfn3nOgg",
+    "city": "Brussels",
+    "field": "groupNote",
+    "old": "Three words for three jobs: pardon for bumping, excusez-moi to open a request, désolé for a real apology.",
+    "new": "Three words for three jobs: “pardon” for bumping, “excusez-moi” to open a request, “désolé” for a real apology."
+  },
+  {
+    "type": "word",
+    "id": "4q9veVnkaAZamKkcBFb1gR",
+    "city": "Brussels",
+    "field": "context",
+    "old": "Attach madame or monsieur and it warms considerably. Dank u is the Dutch.",
+    "new": "Attach “madame” or “monsieur” and it warms considerably. “Dank u” is the Dutch."
+  },
+  {
+    "type": "word",
+    "id": "2sjKqnYAbrTzRlTNB3nsLf",
+    "city": "Brussels",
+    "field": "groupNote",
+    "old": "The switch comes around six. Goeiedag and goeienavond are the Dutch equivalents you'll see written.",
+    "new": "The switch comes around six. “Goeiedag” and “goeienavond” are the Dutch equivalents you'll see written."
+  },
+  {
+    "type": "word",
+    "id": "4pJWF4iEe3pLyqLA7Br4Wk",
+    "city": "Brussels",
+    "field": "context",
+    "old": "Still bonjour. French has no separate afternoon greeting.",
+    "new": "Still “bonjour”. French has no separate afternoon greeting."
+  },
+  {
+    "type": "word",
+    "id": "Mx38xji6lyiTfhd1dml5q",
+    "city": "Marseille",
+    "field": "groupNote",
+    "old": "Femmes is \"fahm,\" not \"fem.\" Some places print Messieurs and Dames instead.",
+    "new": "“Femmes” is “fahm,” not “fem.” Some places print “Messieurs” and “Dames” instead."
+  },
+  {
+    "type": "word",
+    "id": "1UdPwAukBMAGKhiN5lFlKK",
+    "city": "Marseille",
+    "field": "context",
+    "old": "Le menu is the fixed-price set meal. The list of dishes is la carte.",
+    "new": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte”."
+  },
+  {
+    "type": "word",
+    "id": "20MxsNkQz5OHd3hkdQy2HS",
+    "city": "Marseille",
+    "field": "groupNote",
+    "old": "Three words for three jobs: pardon for bumping, excusez-moi to open a request, désolé for a real apology.",
+    "new": "Three words for three jobs: “pardon” for bumping, “excusez-moi” to open a request, “désolé” for a real apology."
+  },
+  {
+    "type": "word",
+    "id": "2RJtJwT2ih8y57hVHkuQGe",
+    "city": "Marseille",
+    "field": "context",
+    "old": "Attach madame or monsieur and it warms considerably.",
+    "new": "Attach “madame” or “monsieur” and it warms considerably."
+  },
+  {
+    "type": "word",
+    "id": "t39ML7PqU48Nij78rnhqJ",
+    "city": "Marseille",
+    "field": "context",
+    "old": "Still bonjour. French has no separate afternoon greeting.",
+    "new": "Still “bonjour”. French has no separate afternoon greeting."
+  },
+  {
+    "type": "word",
+    "id": "2nlqxMnMDEdkuVN8qg6jxn",
+    "city": "Naples",
+    "field": "context",
+    "old": "The shell-shaped ricotta pastry, eaten hot and standing up. Riccia is the flaky one, frolla the smooth.",
+    "new": "The shell-shaped ricotta pastry, eaten hot and standing up. “Riccia” is the flaky one, “frolla” the smooth."
+  },
+  {
+    "type": "word",
+    "id": "5Lt68NVgi9RGlGnybOl9WL",
+    "city": "Naples",
+    "field": "groupNote",
+    "old": "The plainer pair, common here. Where Signori and Signore appear, they're one vowel apart — read carefully.",
+    "new": "The plainer pair, common here. Where “Signori” and “Signore” appear, they're one vowel apart — read carefully."
+  },
+  {
+    "type": "word",
+    "id": "7MDL5ibpJ3uFofi1e2yfqv",
+    "city": "Naples",
+    "field": "groupNote",
+    "old": "Three words for three situations. Permesso is also what you say stepping into someone's home.",
+    "new": "Three words for three situations. “Permesso” is also what you say stepping into someone's home."
+  },
+  {
+    "type": "word",
+    "id": "6uFCQOOquFtGl714Z3CEEk",
+    "city": "Naples",
+    "field": "context",
+    "old": "Literally \"until we see each other again.\" Ciao is the casual version.",
+    "new": "Literally “until we see each other again.” “Ciao” is the casual version."
+  },
+  {
+    "type": "word",
+    "id": "5pWjnbx6mqdJM9ow5sxRWL",
+    "city": "Naples",
+    "field": "context",
+    "old": "Uè (weh) is the Neapolitan version and you'll hear it constantly between people who know each other.",
+    "new": "“Uè” (weh) is the Neapolitan version and you'll hear it constantly between people who know each other."
+  },
+  {
+    "type": "word",
+    "id": "2ewdi9ws6BSBycJqnX1cJF",
+    "city": "Naples",
+    "field": "context",
+    "old": "Still buongiorno. There's no separate afternoon greeting in use.",
+    "new": "Still “buongiorno”. There's no separate afternoon greeting in use."
+  },
+  {
+    "type": "word",
+    "id": "70BCUWUu4gcMI7tiabPpC2",
+    "city": "Florence",
+    "field": "context",
+    "old": "The Tuscan habit of softening hard c into h. Locals demonstrate it with una coca-cola con la cannuccia corta.",
+    "new": "The Tuscan habit of softening hard c into h. Locals demonstrate it with “una coca-cola con la cannuccia corta”."
+  },
+  {
+    "type": "word",
+    "id": "4sfPX46GusIQFFFANscW1t",
+    "city": "Florence",
+    "field": "groupNote",
+    "old": "One vowel apart, same font, adjacent doors. Signori is men. Uomini and Donne are the plainer pair.",
+    "new": "One vowel apart, same font, adjacent doors. “Signori” is men. “Uomini” and “Donne” are the plainer pair."
+  },
+  {
+    "type": "word",
+    "id": "4TA1VyS9WuV1vmLLXNZ3HG",
+    "city": "Florence",
+    "field": "context",
+    "old": "Cin cin (chin chin) is the lighter clinking version.",
+    "new": "“Cin cin” (chin chin) is the lighter clinking version."
+  },
+  {
+    "type": "word",
+    "id": "68mwdwKnDfqjkRkpAEgwOB",
+    "city": "Florence",
+    "field": "context",
+    "old": "For a real apology. If you've just bumped someone, scusi is the word.",
+    "new": "For a real apology. If you've just bumped someone, “scusi” is the word."
+  },
+  {
+    "type": "word",
+    "id": "1imbjZ1emZc0skuAY9taz7",
+    "city": "Florence",
+    "field": "context",
+    "old": "Literally \"until we see each other again.\" ArrivederLa is the extra-formal version.",
+    "new": "Literally “until we see each other again.” “ArrivederLa” is the extra-formal version."
+  },
+  {
+    "type": "word",
+    "id": "5zhanE3RmFowMZldiT6JiQ",
+    "city": "Florence",
+    "field": "context",
+    "old": "Still buongiorno. Buon pomeriggio exists on paper and nobody says it.",
+    "new": "Still “buongiorno”. “Buon pomeriggio” exists on paper and nobody says it."
+  },
+  {
+    "type": "word",
+    "id": "5BJkPzx1ByrVwD1ketndoK",
+    "city": "Seville",
+    "field": "context",
+    "old": "Fried fish, Andalusian style. The name is the accent in miniature — pescadito with the d dropped out.",
+    "new": "Fried fish, Andalusian style. The name is the accent in miniature — “pescadito” with the d dropped out."
+  },
+  {
+    "type": "word",
+    "id": "3kuE4EIKFQ05wDiClggV9Z",
+    "city": "Seville",
+    "field": "groupNote",
+    "old": "Where Hombres and Mujeres appear instead, M is women. Never read M as men in Spanish.",
+    "new": "Where “Hombres” and “Mujeres” appear instead, “M” is women. Never read “M” as men in Spanish."
+  },
+  {
+    "type": "word",
+    "id": "3JE1cSTT89bdYAusdoI1ME",
+    "city": "Seville",
+    "field": "groupNote",
+    "old": "Dos and tres lose their s in Andalusian — doh and treh. Hold up fingers and nobody minds either way.",
+    "new": "“Dos” and “tres” lose their s in Andalusian — doh and treh. Hold up fingers and nobody minds either way."
+  },
+  {
+    "type": "word",
+    "id": "1NzVfXczLjtGR1TTlOpSyK",
+    "city": "Seville",
+    "field": "groupNote",
+    "old": "In practice perdón covers most of this ground. Spanish splits it far less sharply than Italian.",
+    "new": "In practice “perdón” covers most of this ground. Spanish splits it far less sharply than Italian."
+  },
+  {
+    "type": "word",
+    "id": "1sImMnuzFOLTRwcem0Otzs",
+    "city": "Seville",
+    "field": "context",
+    "old": "Compressed almost past recognition here — something like ta-LWEH-oh. Adiós sounds final and is rarely used.",
+    "new": "Compressed almost past recognition here — something like ta-LWEH-oh. “Adiós” sounds final and is rarely used."
+  },
+  {
+    "type": "word",
+    "id": "1bvzy1ktAnzUviMLu0I46r",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "The Sunday pre-lunch vermouth, with olives and tinned conserves. Fer el vermut is an activity, not a drink order.",
+    "new": "The Sunday pre-lunch vermouth, with olives and tinned conserves. “Fer el vermut” is an activity, not a drink order."
+  },
+  {
+    "type": "word",
+    "id": "BtohPZbbTMlQPr4h5oq1d",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "From Caixa, the bank. Cajero is the Spanish. Decline the offer to charge you in dollars.",
+    "new": "From Caixa, the bank. “Cajero” is the Spanish. Decline the offer to charge you in dollars."
+  },
+  {
+    "type": "word",
+    "id": "2cgaurrYSY0rs6lOj6w14V",
+    "city": "Barcelona",
+    "field": "groupNote",
+    "old": "Catalan, not Spanish — Homes and Dones. Where Spanish appears instead, M is women, not men.",
+    "new": "Catalan, not Spanish — “Homes” and “Dones”. Where Spanish appears instead, “M” is women, not men."
+  },
+  {
+    "type": "word",
+    "id": "4tk7CqzqXAhEfsPooglXgV",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "The Catalan version, and constant here. Que aproveche is the Spanish equivalent.",
+    "new": "The Catalan version, and constant here. “Que aproveche” is the Spanish equivalent."
+  },
+  {
+    "type": "word",
+    "id": "1rkecTH8y3stJGp9xpFLaL",
+    "city": "Barcelona",
+    "field": "groupNote",
+    "old": "Perdoni gets attention, permís gets you past, and ho sento is for a real apology.",
+    "new": "“Perdoni” gets attention, “permís” gets you past, and “ho sento” is for a real apology."
+  },
+  {
+    "type": "word",
+    "id": "Hwn8Ory3N2V0jnJ0m5Z6z",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "Note the ending — it isn't the Spanish gracias. Mercès (mer-SES) turns up too.",
+    "new": "Note the ending — it isn't the Spanish “gracias”. “Mercès” (mer-SES) turns up too."
+  },
+  {
+    "type": "word",
+    "id": "6GsLb5XYs320VNySv6XkQZ",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "Literally \"if it pleases you.\" Por favor is understood everywhere as well.",
+    "new": "Literally “if it pleases you.” “Por favor” is understood everywhere as well."
+  },
+  {
+    "type": "word",
+    "id": "4r9MiFPI0hoMqO2CO5UJmH",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "Everyday in Catalan, unlike the Spanish adiós, which sounds final. Fins després (feens des-PRES) is \"see you later.\"",
+    "new": "Everyday in Catalan, unlike the Spanish “adiós”, which sounds final. “Fins després” (feens des-PRES) is “see you later.”"
+  },
+  {
+    "type": "word",
+    "id": "5EYBkbQayQ4nGRXVxKIHGH",
+    "city": "Barcelona",
+    "field": "groupNote",
+    "old": "Tarda starts after lunch, vespre from about eight. Catalan splits the evening later than Spanish does.",
+    "new": "“Tarda” starts after lunch, “vespre” from about eight. Catalan splits the evening later than Spanish does."
+  },
+  {
+    "type": "word",
+    "id": "5iFNAGfBqG6MsLqN0hNmAR",
+    "city": "Barcelona",
+    "field": "context",
+    "old": "Covers morning and into the early afternoon. Buenos días works everywhere here too.",
+    "new": "Covers morning and into the early afternoon. “Buenos días” works everywhere here too."
+  },
+  {
+    "type": "word",
+    "id": "30CXYyj8krWJkoEFMm9Uya",
+    "city": "Bucharest",
+    "field": "context",
+    "old": "Someone who manages, improvises, finds a way. The same instinct Poland calls kombinować, and admired just as much.",
+    "new": "Someone who manages, improvises, finds a way. The same instinct Poland calls “kombinować”, and admired just as much."
+  },
+  {
+    "type": "word",
+    "id": "wbuPnVdNbY38aHLKNYVZ4",
+    "city": "Bucharest",
+    "field": "groupNote",
+    "old": "B is men, F is women. Some places print only the single letters.",
+    "new": "“B” is men, “F” is women. Some places print only the single letters."
+  },
+  {
+    "type": "word",
+    "id": "7epWd0KnppCL0EPPkREZXm",
+    "city": "Bucharest",
+    "field": "groupNote",
+    "old": "Scuzați covers most of it. Îmi pare rău is kept for a genuine apology.",
+    "new": "“Scuzați” covers most of it. “Îmi pare rău” is kept for a genuine apology."
+  },
+  {
+    "type": "word",
+    "id": "blNTeBXiWstv6rKLSOdjb",
+    "city": "Bucharest",
+    "field": "context",
+    "old": "Mersi (mehr-SEE), borrowed from French, is just as common and considerably easier to say.",
+    "new": "“Mersi” (mehr-SEE), borrowed from French, is just as common and considerably easier to say."
+  },
+  {
+    "type": "word",
+    "id": "3yyacH50G0wQDJaPv4t8d4",
+    "city": "Bucharest",
+    "field": "context",
+    "old": "Literally \"until the re-seeing.\" Pa (pah) is the casual version.",
+    "new": "Literally “until the re-seeing.” “Pa” (pah) is the casual version."
+  },
+  {
+    "type": "word",
+    "id": "6cYXeXwW1whwVpzl7LKP8s",
+    "city": "Bucharest",
+    "field": "context",
+    "old": "Casual, for peers. Bună (BOO-nah) on its own sits in the same register.",
+    "new": "Casual, for peers. “Bună” (BOO-nah) on its own sits in the same register."
+  },
+  {
+    "type": "word",
+    "id": "5NpufpXjrWdvpkQ32Ja6e7",
+    "city": "Bucharest",
+    "field": "groupNote",
+    "old": "Dimineața until about ten, ziua until evening, seara after that.",
+    "new": "“Dimineața” until about ten, “ziua” until evening, “seara” after that."
+  },
+  {
+    "type": "word",
+    "id": "2sEn5gg1mLskbNGKbLldSr",
+    "city": "Kraków",
+    "field": "context",
+    "old": "Charged. Say nie, dziękuję if you brought one.",
+    "new": "Charged. Say “nie, dziękuję” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "5mCexH2vWIiK0tE4proDV1",
+    "city": "Kraków",
+    "field": "context",
+    "old": "Pan to a man, pani (PAH-nee) to a woman. Polish makes you pick, and the informal form is too familiar with strangers.",
+    "new": "“Pan” to a man, “pani” (PAH-nee) to a woman. Polish makes you pick, and the informal form is too familiar with strangers."
+  },
+  {
+    "type": "word",
+    "id": "180LV5QOoIVRJ14z21xYPm",
+    "city": "Kraków",
+    "field": "context",
+    "old": "Dzięki (JEN-kee) is the casual version.",
+    "new": "“Dzięki” (JEN-kee) is the casual version."
+  },
+  {
+    "type": "word",
+    "id": "36ahEmHVqJhKOiYcnOTNDa",
+    "city": "Kraków",
+    "field": "context",
+    "old": "Literally \"until seeing.\" Cześć is the casual version.",
+    "new": "Literally “until seeing.” “Cześć” is the casual version."
+  },
+  {
+    "type": "word",
+    "id": "2pLMwIFqpDF3eBhMGdMZcK",
+    "city": "Kraków",
+    "field": "context",
+    "old": "Still dzień dobry — literally \"good day.\" Polish has no separate afternoon greeting.",
+    "new": "Still “dzień dobry” — literally “good day.” Polish has no separate afternoon greeting."
+  },
+  {
+    "type": "word",
+    "id": "3YWCuR51Nr3v2hIUyXEiHn",
+    "city": "Prague",
+    "field": "context",
+    "old": "Charged. Say ne, děkuji if you brought one.",
+    "new": "Charged. Say “ne, děkuji” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "4LVI1XVqQY6WxgO9ucpsmO",
+    "city": "Prague",
+    "field": "groupNote",
+    "old": "M is men, Ž is women. Páni and Dámy turn up in older places instead.",
+    "new": "“M” is men, “Ž” is women. “Páni” and “Dámy” turn up in older places instead."
+  },
+  {
+    "type": "word",
+    "id": "5JwUqHTV1meLDbTe020R1H",
+    "city": "Prague",
+    "field": "context",
+    "old": "WC on the door. Many charge a few crowns and have an attendant.",
+    "new": "“WC” on the door. Many charge a few crowns and have an attendant."
+  },
+  {
+    "type": "word",
+    "id": "79jOcP2S7SH4By4FuAW6H5",
+    "city": "Prague",
+    "field": "groupNote",
+    "old": "Promiňte covers apology and getting attention both.",
+    "new": "“Promiňte” covers apology and getting attention both."
+  },
+  {
+    "type": "word",
+    "id": "5k5EqYt2WYQ4Bcs0DpEmnB",
+    "city": "Prague",
+    "field": "context",
+    "old": "Frequently shortened to no — which means yes. That one trips up every visitor.",
+    "new": "Frequently shortened to “no” — which means yes. That one trips up every visitor."
+  },
+  {
+    "type": "word",
+    "id": "4fBmgaq4hMHMs5NQOtRwig",
+    "city": "Prague",
+    "field": "context",
+    "old": "Díky (DEE-kee) is the casual version, closer to \"thanks.\"",
+    "new": "“Díky” (DEE-kee) is the casual version, closer to “thanks.”"
+  },
+  {
+    "type": "word",
+    "id": "701aduT99cIT3g5PapzWkp",
+    "city": "Prague",
+    "field": "context",
+    "old": "Literally \"until seeing.\" Often clipped to na shle. Ahoj is the casual version.",
+    "new": "Literally “until seeing.” Often clipped to “na shle”. “Ahoj” is the casual version."
+  },
+  {
+    "type": "word",
+    "id": "mRAsFLR11QsIAmgydcSaN",
+    "city": "Prague",
+    "field": "groupNote",
+    "old": "Ráno only until about nine. Den covers the rest of the day.",
+    "new": "“Ráno” only until about nine. “Den” covers the rest of the day."
+  },
+  {
+    "type": "word",
+    "id": "7JBDdnkz4xcJG9QM3XZdeH",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "Charged. Say ne, hvala if you brought one.",
+    "new": "Charged. Say “ne, hvala” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "5DTAKeuu6I4SZ9eySUh4nI",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "Borrowed straight from English. Gotovina is the formal word. Serbia isn't in the euro — prices are in dinars.",
+    "new": "Borrowed straight from English. “Gotovina” is the formal word. Serbia isn't in the euro — prices are in dinars."
+  },
+  {
+    "type": "word",
+    "id": "KWJLvQfPV690yYPvE37Np",
+    "city": "Belgrade",
+    "field": "groupNote",
+    "old": "M is men, Ž is women — and doors may be in Cyrillic instead: МУШКАРЦИ and ЖЕНЕ.",
+    "new": "“M” is men, “Ž” is women — and doors may be in Cyrillic instead: “МУШКАРЦИ” and “ЖЕНЕ”."
+  },
+  {
+    "type": "word",
+    "id": "2K3ux9OBlh4uN72YgvT33W",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "You'll be asked for it constantly — imate sitno? ATMs hand out large notes that small shops struggle to break.",
+    "new": "You'll be asked for it constantly — “imate sitno?” ATMs hand out large notes that small shops struggle to break."
+  },
+  {
+    "type": "word",
+    "id": "5PN1vYKlQwApw8mwsoLBvw",
+    "city": "Belgrade",
+    "field": "groupNote",
+    "old": "Izvinite covers apology and getting attention both. Oprostite is the more formal alternative.",
+    "new": "“Izvinite” covers apology and getting attention both. “Oprostite” is the more formal alternative."
+  },
+  {
+    "type": "word",
+    "id": "2k5i7brbC5PAVOlNwCOgQF",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "Hvala lepo (LEH-po) is the warmer version. The H is breathy, almost swallowed.",
+    "new": "“Hvala lepo” (LEH-po) is the warmer version. The H is breathy, almost swallowed."
+  },
+  {
+    "type": "word",
+    "id": "uAhur3dZ5mCBMPzmvq8vs",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "Literally \"until seeing.\" Ćao is the casual version.",
+    "new": "Literally “until seeing.” “Ćao” is the casual version."
+  },
+  {
+    "type": "word",
+    "id": "4FbeXUtwCt6tQMkjEotb7H",
+    "city": "Belgrade",
+    "field": "context",
+    "old": "Borrowed from Italian, used for hello and goodbye among peers. Zdravo (ZDRAH-vo) is the neutral option.",
+    "new": "Borrowed from Italian, used for hello and goodbye among peers. “Zdravo” (ZDRAH-vo) is the neutral option."
+  },
+  {
+    "type": "word",
+    "id": "1QE4jZEm9R9c3YjgiGGsIS",
+    "city": "Belgrade",
+    "field": "groupNote",
+    "old": "Jutro until about ten, dan until dark, veče after that.",
+    "new": "“Jutro” until about ten, “dan” until dark, “veče” after that."
+  },
+  {
+    "type": "word",
+    "id": "46XQYWwjHCR4kwdTEGDWPV",
+    "city": "Reykjavík",
+    "field": "context",
+    "old": "Charged. Say nei takk if you brought one.",
+    "new": "Charged. Say “nei takk” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "4KrYI7n6ouHqobUPg8NQZc",
+    "city": "Reykjavík",
+    "field": "context",
+    "old": "What the signs say. Klósett is the everyday spoken word.",
+    "new": "What the signs say. “Klósett” is the everyday spoken word."
+  },
+  {
+    "type": "word",
+    "id": "50gkZfMqMwO3dxGzfCrPx6",
+    "city": "Reykjavík",
+    "field": "context",
+    "old": "Takk fyrir (FIH-rir) is the fuller version. Icelanders say it constantly.",
+    "new": "“Takk fyrir” (FIH-rir) is the fuller version. Icelanders say it constantly."
+  },
+  {
+    "type": "word",
+    "id": "1isdUopecsGknWi4swpOXA",
+    "city": "Reykjavík",
+    "field": "context",
+    "old": "Often doubled: bless bless. From an old blessing, though nobody hears it that way now.",
+    "new": "Often doubled: “bless bless”. From an old blessing, though nobody hears it that way now."
+  },
+  {
+    "type": "word",
+    "id": "3o2dLEPYh8kxL4nHEjVn61",
+    "city": "Reykjavík",
+    "field": "groupNote",
+    "old": "The daytime greeting is often clipped to just daginn.",
+    "new": "The daytime greeting is often clipped to just “daginn”."
+  },
+  {
+    "type": "word",
+    "id": "1pdJS9M3TYFipKZ0bh7aDq",
+    "city": "Reykjavík",
+    "field": "context",
+    "old": "Still góðan daginn. Icelandic has no separate afternoon greeting.",
+    "new": "Still “góðan daginn”. Icelandic has no separate afternoon greeting."
+  },
+  {
+    "type": "word",
+    "id": "2blRSdkXNUfLKwKZPK9hWH",
+    "city": "Helsinki",
+    "field": "context",
+    "old": "Charged. Say ei kiitos if you brought one.",
+    "new": "Charged. Say “ei kiitos” if you brought one."
+  },
+  {
+    "type": "word",
+    "id": "53szUAxv1qXURYEWKoOD9U",
+    "city": "Helsinki",
+    "field": "groupNote",
+    "old": "M is men here, the opposite of Spanish. Doors are often labelled in Finnish and Swedish both.",
+    "new": "“M” is men here, the opposite of Spanish. Doors are often labelled in Finnish and Swedish both."
+  },
+  {
+    "type": "word",
+    "id": "2SMrFt5Ebr2D7SGP1bugdp",
+    "city": "Helsinki",
+    "field": "context",
+    "old": "WC on the door. Vessa is what people actually say.",
+    "new": "“WC” on the door. “Vessa” is what people actually say."
+  },
+  {
+    "type": "word",
+    "id": "6UpSQS6sTTpu6NIhqidwm0",
+    "city": "Helsinki",
+    "field": "context",
+    "old": "Joo (yoh) is the casual everyday yes and what you'll mostly hear.",
+    "new": "“Joo” (yoh) is the casual everyday yes and what you'll mostly hear."
+  },
+  {
+    "type": "word",
+    "id": "3GTbQ3fxZNN5zmlNZH32cd",
+    "city": "Helsinki",
+    "field": "context",
+    "old": "Also does duty as please and yes-please. Kiitos paljon (PAHL-yon) is the fuller version.",
+    "new": "Also does duty as please and yes-please. “Kiitos paljon” (PAHL-yon) is the fuller version."
+  },
+  {
+    "type": "word",
+    "id": "4kVV5dG7UGRgNzRRdli90q",
+    "city": "Helsinki",
+    "field": "context",
+    "old": "Literally \"until seeing.\" Moi moi is the casual version and far more common.",
+    "new": "Literally “until seeing.” “Moi moi” is the casual version and far more common."
+  },
+  {
+    "type": "word",
+    "id": "4oKotjgHNjn91ShxhY4fEM",
+    "city": "Helsinki",
+    "field": "context",
+    "old": "Works for hello and goodbye both. Hei (hay) sits in the same register.",
+    "new": "Works for hello and goodbye both. “Hei” (hay) sits in the same register."
+  },
+  {
+    "type": "word",
+    "id": "5Dq2ZQnwRGhz9ff9blktgC",
+    "city": "Oslo",
+    "field": "groupNote",
+    "old": "H is men, D is women. Some places print only the single letters.",
+    "new": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+    "type": "word",
+    "id": "1326TjLbjNox0zUeikpeEV",
+    "city": "Oslo",
+    "field": "context",
+    "old": "Tusen takk (TOO-sen tahk), \"a thousand thanks,\" is the everyday warm version.",
+    "new": "“Tusen takk” (TOO-sen tahk), “a thousand thanks,” is the everyday warm version."
+  },
+  {
+    "type": "word",
+    "id": "6dJM5EY1XHRIpnG3tpznUW",
+    "city": "Oslo",
+    "field": "context",
+    "old": "Norwegian has no neutral please, and this one is emphatic. Most requests simply attach takk.",
+    "new": "Norwegian has no neutral please, and this one is emphatic. Most requests simply attach “takk”."
+  },
+  {
+    "type": "word",
+    "id": "CIxs9vv4Bx8s8K8Ee3jNn",
+    "city": "Oslo",
+    "field": "context",
+    "old": "Short for ha det bra, \"have it good.\" Often doubled: ha det, ha det.",
+    "new": "Short for “ha det bra”, “have it good.” Often doubled: “ha det, ha det”."
+  },
+  {
+    "type": "word",
+    "id": "61RDqj9OlWXSUnP0TM2FtB",
+    "city": "Oslo",
+    "field": "groupNote",
+    "old": "All three read as formal. Hei does most of the work at any hour.",
+    "new": "All three read as formal. “Hei” does most of the work at any hour."
+  },
+  {
+    "type": "word",
+    "id": "4Gvx3I5pL1Fghg4TjaNbYL",
+    "city": "Oslo",
+    "field": "context",
+    "old": "Formal and fading. Hei has largely replaced it in ordinary speech.",
+    "new": "Formal and fading. “Hei” has largely replaced it in ordinary speech."
+  },
+  {
+    "type": "word",
+    "id": "3DUYePcGhu4qaMJ5XhbIn9",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "To have the energy for something. Usually said in the negative — orkar inte — and it works as a complete sentence.",
+    "new": "To have the energy for something. Usually said in the negative — “orkar inte” — and it works as a complete sentence."
+  },
+  {
+    "type": "word",
+    "id": "3VMGmVC1VSWYb5utJ4f0zp",
+    "city": "Stockholm",
+    "field": "groupNote",
+    "old": "H is men, D is women. Some places print only the single letters.",
+    "new": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+    "type": "word",
+    "id": "7dMvD4TLPD64dXGrTmbXQM",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "Du is fine with anyone. Sweden dropped its formal \"you\" in the 1960s and never went back.",
+    "new": "“Du” is fine with anyone. Sweden dropped its formal “you” in the 1960s and never went back."
+  },
+  {
+    "type": "word",
+    "id": "7dEIsaoOJ7Nv5Hh8XvAIaw",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "Does the work of please, thanks, and yes-please. Tack så mycket (soh MYK-eh) is the fuller version.",
+    "new": "Does the work of please, thanks, and yes-please. “Tack så mycket” (soh MYK-eh) is the fuller version."
+  },
+  {
+    "type": "word",
+    "id": "5O1NNni4sc4JxN60Tsol8y",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "Swedish has no neutral please. Snälla leans towards pleading — ordinary requests just attach tack instead.",
+    "new": "Swedish has no neutral please. “Snälla” leans towards pleading — ordinary requests just attach “tack” instead."
+  },
+  {
+    "type": "word",
+    "id": "2hjMvuLgWYFUFUu67TG65y",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "The standard goodbye. Adjö (ah-YUR) is archaic and would sound theatrical.",
+    "new": "The standard goodbye. “Adjö” (ah-YUR) is archaic and would sound theatrical."
+  },
+  {
+    "type": "word",
+    "id": "3fbuQmIkFTRA0fcPpo35Yo",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "Universal, all ages, every situation. Often doubled: hej hej.",
+    "new": "Universal, all ages, every situation. Often doubled: “hej hej”."
+  },
+  {
+    "type": "word",
+    "id": "1JlAwsjRCN5noMdLw8RuPl",
+    "city": "Stockholm",
+    "field": "groupNote",
+    "old": "All three read as formal. In practice hej covers the whole day.",
+    "new": "All three read as formal. In practice “hej” covers the whole day."
+  },
+  {
+    "type": "word",
+    "id": "41DorMxMQ6qdEF5yXYt7LU",
+    "city": "Stockholm",
+    "field": "context",
+    "old": "Formal and fading. Hej has almost entirely replaced it in ordinary speech.",
+    "new": "Formal and fading. “Hej” has almost entirely replaced it in ordinary speech."
+  },
+  {
+    "type": "word",
+    "id": "1injC7QFiAadCvaLAfVHVI",
+    "city": "Copenhagen",
+    "field": "groupNote",
+    "old": "H is men, D is women. Some places print only the single letters.",
+    "new": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+    "type": "word",
+    "id": "6KJs4jrE3nXidhh7KW9Ohb",
+    "city": "Copenhagen",
+    "field": "groupNote",
+    "old": "Undskyld covers both apology and getting attention. Danish doesn't split them the way Italian does.",
+    "new": "“Undskyld” covers both apology and getting attention. Danish doesn't split them the way Italian does."
+  },
+  {
+    "type": "word",
+    "id": "qgFWoeZx7VkgdIQ39dHNO",
+    "city": "Copenhagen",
+    "field": "context",
+    "old": "Du is fine with anyone. Danish dropped the formal \"you\" decades ago and never brought it back.",
+    "new": "“Du” is fine with anyone. Danish dropped the formal “you” decades ago and never brought it back."
+  },
+  {
+    "type": "word",
+    "id": "5BTuw6K5GtQ2UOebvij97U",
+    "city": "Copenhagen",
+    "field": "context",
+    "old": "Does enormous work — thanks, please, and yes please. Tusind tak (TOO-sen tahk) is \"a thousand thanks.\"",
+    "new": "Does enormous work — thanks, please, and yes please. “Tusind tak” (TOO-sen tahk) is “a thousand thanks.”"
+  },
+  {
+    "type": "word",
+    "id": "3uGDGcLRNmIzHWjOL2KscZ",
+    "city": "Copenhagen",
+    "field": "context",
+    "old": "The doubled version is goodbye. Farvel (far-VEL) exists but sounds final.",
+    "new": "The doubled version is goodbye. “Farvel” (far-VEL) exists but sounds final."
+  },
+  {
+    "type": "word",
+    "id": "4Tjd9Loh07Uh1O08xMnjML",
+    "city": "Copenhagen",
+    "field": "groupNote",
+    "old": "All three are fading from casual speech. Hej has taken over nearly everything.",
+    "new": "All three are fading from casual speech. “Hej” has taken over nearly everything."
+  },
+  {
+    "type": "word",
+    "id": "25jcyFl88IVMvG8mcwcANM",
+    "city": "Copenhagen",
+    "field": "context",
+    "old": "Formal and increasingly old-fashioned. Most people just say hej at any hour.",
+    "new": "Formal and increasingly old-fashioned. Most people just say “hej” at any hour."
+  },
+  {
+    "type": "word",
+    "id": "1lXA2roT7Ccqq4usi27cZK",
+    "city": "Vienna",
+    "field": "groupNote",
+    "old": "H is men, D is women. Some places print only the single letters.",
+    "new": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+    "type": "word",
+    "id": "1xCF76nbaG9s1DR94t8Ogs",
+    "city": "Vienna",
+    "field": "context",
+    "old": "Said around midday, in passing, to anyone eating or about to. Guten Appetit is the version used at the table.",
+    "new": "Said around midday, in passing, to anyone eating or about to. “Guten Appetit” is the version used at the table."
+  },
+  {
+    "type": "word",
+    "id": "nwK3bD2eTA4AVg0ZGL2qv",
+    "city": "Vienna",
+    "field": "context",
+    "old": "In a coffeehouse, use sustained eye contact instead. Waving gets you worse service, and Herr Ober now sounds like a joke.",
+    "new": "In a coffeehouse, use sustained eye contact instead. Waving gets you worse service, and “Herr Ober” now sounds like a joke."
+  },
+  {
+    "type": "word",
+    "id": "4Vm9urXbq72VMYK6noV348",
+    "city": "Vienna",
+    "field": "context",
+    "old": "Danke vielmals (FEEL-mahls) is the warmer Austrian form.",
+    "new": "“Danke vielmals” (FEEL-mahls) is the warmer Austrian form."
+  },
+  {
+    "type": "word",
+    "id": "1ZHDljc0E0AbEi4fwm5pMR",
+    "city": "Vienna",
+    "field": "context",
+    "old": "Wiederschauen (VEE-der-show-en) is the Austrian version, and what you'll actually hear in shops.",
+    "new": "“Wiederschauen” (VEE-der-show-en) is the Austrian version, and what you'll actually hear in shops."
+  },
+  {
+    "type": "word",
+    "id": "49jvGwEA9UMtc09pq7TuJ2",
+    "city": "Vienna",
+    "field": "groupNote",
+    "old": "Grüß Gott covers most of the day, so the morning and evening forms are both optional.",
+    "new": "“Grüß Gott” covers most of the day, so the morning and evening forms are both optional."
+  },
+  {
+    "type": "word",
+    "id": "5c4XNG1GGnJMqA92IX6p6N",
+    "city": "Vienna",
+    "field": "context",
+    "old": "The Austrian daytime greeting, literally \"greet God,\" with no religious weight left in it. Guten Tag sounds German here.",
+    "new": "The Austrian daytime greeting, literally “greet God,” with no religious weight left in it. “Guten Tag” sounds German here."
+  },
+  {
+    "type": "word",
+    "id": "1OblwWJ6EAVlux4Njh9UfW",
+    "city": "Berlin",
+    "field": "context",
+    "old": "Say it as you hold the card up, and be ready to hear nein.",
+    "new": "Say it as you hold the card up, and be ready to hear “nein”."
+  },
+  {
+    "type": "word",
+    "id": "6BcWwKy7lHjwluL7LAxjY9",
+    "city": "Berlin",
+    "field": "groupNote",
+    "old": "H is men, D is women. Some places print only the single letters.",
+    "new": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+    "type": "word",
+    "id": "1PkxaKiMM96h08IniDqmQH",
+    "city": "Berlin",
+    "field": "groupNote",
+    "old": "Zwei is often said as zwo (tsvoh) over noise or on the phone, to keep it distinct from drei.",
+    "new": "“Zwei” is often said as “zwo” (tsvoh) over noise or on the phone, to keep it distinct from “drei”."
+  },
+  {
+    "type": "word",
+    "id": "2lOnfQ4FyIKgtvgedfSALg",
+    "city": "Berlin",
+    "field": "context",
+    "old": "Danke schön (shurn) is the warmer version.",
+    "new": "“Danke schön” (shurn) is the warmer version."
+  },
+  {
+    "type": "word",
+    "id": "1Ha9d0S7G7tu366dBAKdPB",
+    "city": "Berlin",
+    "field": "context",
+    "old": "The everyday goodbye. Auf Wiedersehen is correct but formal enough to sound stiff in a café.",
+    "new": "The everyday goodbye. “Auf Wiedersehen” is correct but formal enough to sound stiff in a café."
+  },
+  {
+    "type": "word",
+    "id": "5B20wgy47elsWjNWgELtfj",
+    "city": "Berlin",
+    "field": "groupNote",
+    "old": "In Berlin all three often clip down to a bare Morgen, Tag, or Abend.",
+    "new": "In Berlin all three often clip down to a bare “Morgen”, “Tag”, or “Abend”."
+  },
+  {
+    "type": "word",
+    "id": "5bKNn4ZpuLZOdJTDRrl3C3",
+    "city": "Rome",
+    "field": "context",
+    "old": "Studied not-caring, from me ne frego, \"I don't give a damn.\" Named, diagnosed, and complained about by Italians themselves.",
+    "new": "Studied not-caring, from “me ne frego”, “I don't give a damn.” Named, diagnosed, and complained about by Italians themselves."
+  },
+  {
+    "type": "word",
+    "id": "2ditSRBQHVuyF3omWz1DT2",
+    "city": "Rome",
+    "field": "groupNote",
+    "old": "One vowel apart, same font, adjacent doors. Signori is men. Uomini and Donne are the plainer pair.",
+    "new": "One vowel apart, same font, adjacent doors. “Signori” is men. “Uomini” and “Donne” are the plainer pair."
+  },
+  {
+    "type": "word",
+    "id": "HiQ2tQEHVplmoAyEQCJPR",
+    "city": "Rome",
+    "field": "context",
+    "old": "Cin cin (chin chin) is the lighter, clinking version.",
+    "new": "“Cin cin” (chin chin) is the lighter, clinking version."
+  },
+  {
+    "type": "word",
+    "id": "5F5NfbtMk4bFedg5foqJJx",
+    "city": "Rome",
+    "field": "context",
+    "old": "For a real apology. If you've just bumped someone, scusi is the word you want.",
+    "new": "For a real apology. If you've just bumped someone, “scusi” is the word you want."
+  },
+  {
+    "type": "word",
+    "id": "3Hrul115HJpZIDGG5ekDtr",
+    "city": "Rome",
+    "field": "context",
+    "old": "Literally \"until we see each other again.\" ArrivederLa is the extra-formal version.",
+    "new": "Literally “until we see each other again.” “ArrivederLa” is the extra-formal version."
+  },
+  {
+    "type": "word",
+    "id": "5wqdtJtkly2FjVI8hdC5Rh",
+    "city": "Rome",
+    "field": "groupNote",
+    "old": "The switch to buonasera comes early — from about four, sometimes three. Earlier than you'd expect.",
+    "new": "The switch to “buonasera” comes early — from about four, sometimes three. Earlier than you'd expect."
+  },
+  {
+    "type": "word",
+    "id": "6DG9ynpG1jTv8U5Sl0qRE1",
+    "city": "Rome",
+    "field": "context",
+    "old": "Still buongiorno. Buon pomeriggio exists on paper but nobody says it.",
+    "new": "Still “buongiorno”. “Buon pomeriggio” exists on paper but nobody says it."
+  },
+  {
+    "type": "word",
+    "id": "6EMXmgcb0NIHaOLYsdzbbT",
+    "city": "Paris",
+    "field": "groupNote",
+    "old": "Femmes is \"fahm,\" not \"fem.\" Some places print Messieurs and Dames instead.",
+    "new": "“Femmes” is “fahm,” not “fem.” Some places print “Messieurs” and “Dames” instead."
+  },
+  {
+    "type": "word",
+    "id": "2u7SJ6Ou4ecL4ChpQg5gZd",
+    "city": "Paris",
+    "field": "context",
+    "old": "Le menu is the fixed-price set meal. The list of dishes is la carte.",
+    "new": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte”."
+  },
+  {
+    "type": "word",
+    "id": "4iuBs7k0XHcxUOeGPKNdZ",
+    "city": "Paris",
+    "field": "groupNote",
+    "old": "Three words for three jobs: pardon for bumping, excusez-moi to open a request, désolé for a real apology.",
+    "new": "Three words for three jobs: “pardon” for bumping, “excusez-moi” to open a request, “désolé” for a real apology."
+  },
+  {
+    "type": "word",
+    "id": "6RHonrrXTdrktEB52iE67m",
+    "city": "Paris",
+    "field": "context",
+    "old": "Attach madame or monsieur and it warms considerably. Bare merci is fine but slightly flat.",
+    "new": "Attach “madame” or “monsieur” and it warms considerably. Bare “merci” is fine but slightly flat."
+  },
+  {
+    "type": "word",
+    "id": "3zIQLOGeE7Vu13zQiv26iV",
+    "city": "Paris",
+    "field": "groupNote",
+    "old": "The switch happens around six, or when it gets dark. After that, bonjour sounds slightly off.",
+    "new": "The switch happens around six, or when it gets dark. After that, “bonjour” sounds slightly off."
+  },
+  {
+    "type": "word",
+    "id": "3VRBGWl4KC4oAidjVgs72M",
+    "city": "Paris",
+    "field": "context",
+    "old": "Still bonjour. French has no separate afternoon greeting.",
+    "new": "Still “bonjour”. French has no separate afternoon greeting."
+  },
+  {
+    "type": "word",
+    "id": "67c2aYlCgqUhoVffKO83Zd",
+    "city": "Zurich",
+    "field": "groupNote",
+    "old": "Standard German on every door. H is Herren, men. D is Damen, women.",
+    "new": "Standard German on every door. “H” is “Herren”, men. “D” is “Damen”, women."
+  },
+  {
+    "type": "word",
+    "id": "5rIdlA3MgMoH0zSe0doj21",
+    "city": "Zurich",
+    "field": "context",
+    "old": "Ask for the WC. Toilette works too.",
+    "new": "Ask for the “WC”. “Toilette” works too."
+  },
+  {
+    "type": "word",
+    "id": "Zt21DBeIsZ7aTpH1ewjXS",
+    "city": "Zurich",
+    "field": "context",
+    "old": "Swiss uses the French word, not the German Fahrkarte.",
+    "new": "Swiss uses the French word, not the German “Fahrkarte”."
+  },
+  {
+    "type": "word",
+    "id": "61SRc8BXo0f2UJSaNyGfIT",
+    "city": "Zurich",
+    "field": "groupNote",
+    "old": "The Swiss forms. Standard German eins, zwei, drei, vier is understood everywhere.",
+    "new": "The Swiss forms. Standard German “eins, zwei, drei, vier” is understood everywhere."
+  },
+  {
+    "type": "word",
+    "id": "6juEaBFEg6K9cFlFLCqOd4",
+    "city": "Zurich",
+    "field": "context",
+    "old": "Borrowed from French and unmistakably Swiss. Entschuldigung is the standard German and works fine.",
+    "new": "Borrowed from French and unmistakably Swiss. “Entschuldigung” is the standard German and works fine."
+  },
+  {
+    "type": "word",
+    "id": "5zIgkLXxEmgUP4IT0Ho7kk",
+    "city": "Zurich",
+    "field": "context",
+    "old": "Zurich thanks you in French. Merci vilmal (feel-MAHL) is the warmer version. Danke works but marks you as German.",
+    "new": "Zurich thanks you in French. “Merci vilmal” (feel-MAHL) is the warmer version. “Danke” works but marks you as German."
+  },
+  {
+    "type": "word",
+    "id": "2Dbh0JbGhsnNbvIcNWMJtP",
+    "city": "Zurich",
+    "field": "context",
+    "old": "Formal, and what shopkeepers say back. Tschau (chow) is the casual one.",
+    "new": "Formal, and what shopkeepers say back. “Tschau” (chow) is the casual one."
+  },
+  {
+    "type": "word",
+    "id": "3e9VXrc0tVdPWu4q1fF9Kv",
+    "city": "Zurich",
+    "field": "context",
+    "old": "Casual and singular, for peers. Salü (sah-LEW) is the same register.",
+    "new": "Casual and singular, for peers. “Salü” (sah-LEW) is the same register."
+  },
+  {
+    "type": "word",
+    "id": "1qni8IgfJw1pOhPvPJXfa2",
+    "city": "Zurich",
+    "field": "groupNote",
+    "old": "Both time-of-day greetings are optional. Standard German Guten Morgen and Guten Abend are understood everywhere.",
+    "new": "Both time-of-day greetings are optional. Standard German “Guten Morgen” and “Guten Abend” are understood everywhere."
+  },
+  {
+    "type": "word",
+    "id": "3gPcVKkjbXffwJtH3pn1IM",
+    "city": "Zurich",
+    "field": "context",
+    "old": "There is no separate afternoon greeting — Grüezi covers the whole day. To a group it's Grüezi mitenand.",
+    "new": "There is no separate afternoon greeting — “Grüezi” covers the whole day. To a group it's “Grüezi mitenand”."
+  },
+  {
+    "type": "word",
+    "id": "6YDFrU09iuGrM76qgMYkMe",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "Drinks after work with snacks, at a fixed hour. Not a party, an institution. Friday's has its own word: vrijdagmiddagborrel.",
+    "new": "Drinks after work with snacks, at a fixed hour. Not a party, an institution. Friday's has its own word: “vrijdagmiddagborrel”."
+  },
+  {
+    "type": "word",
+    "id": "6D88M6YlTZ4UStFVfma7cp",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "Warm, easy, good company — a room, an evening, a group of people. Its absence is a real complaint: a bar can be ungezellig.",
+    "new": "Warm, easy, good company — a room, an evening, a group of people. Its absence is a real complaint: a bar can be “ungezellig”."
+  },
+  {
+    "type": "word",
+    "id": "4J4hYdrFG21WIy9KFjlouw",
+    "city": "Amsterdam",
+    "field": "groupNote",
+    "old": "H is Heren, men. D is Dames, women. Don't read D as \"dudes.\"",
+    "new": "“H” is “Heren”, men. “D” is “Dames”, women. Don't read “D” as “dudes.”"
+  },
+  {
+    "type": "word",
+    "id": "gtzsHEZdVrFlOtPOcHDCn",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "On signs everywhere. Pinnen means Dutch debit — some places still refuse foreign credit cards, though acceptance is widening fast.",
+    "new": "On signs everywhere. “Pinnen” means Dutch debit — some places still refuse foreign credit cards, though acceptance is widening fast."
+  },
+  {
+    "type": "word",
+    "id": "48fv99J2j75P9huAC0DBxl",
+    "city": "Amsterdam",
+    "field": "context",
+    "old": "For trams and narrow shops. A plain sorry works too.",
+    "new": "For trams and narrow shops. A plain “sorry” works too."
+  },
+  {
+    "type": "word",
+    "id": "1lxHqGOSwuBGqSh3FuC2mN",
+    "city": "Madrid",
+    "field": "groupNote",
+    "old": "Bars and older places use these instead of Hombres and Mujeres. Note that M is women, not men.",
+    "new": "Bars and older places use these instead of “Hombres” and “Mujeres”. Note that “M” is women, not men."
+  },
+  {
+    "type": "word",
+    "id": "7eryO7iJYDwQ3cuphsBh4a",
+    "city": "Madrid",
+    "field": "groupNote",
+    "old": "Spanish splits these less sharply than Portuguese or Italian. Perdón covers most of the ground.",
+    "new": "Spanish splits these less sharply than Portuguese or Italian. “Perdón” covers most of the ground."
+  },
+  {
+    "type": "word",
+    "id": "4ejGDvGXSzNf4CismnKXCi",
+    "city": "Madrid",
+    "field": "context",
+    "old": "Usually slurred to \"ta-LWEH-goh.\" Adiós exists but sounds final and almost nobody uses it.",
+    "new": "Usually slurred to “ta-LWEH-goh.” “Adiós” exists but sounds final and almost nobody uses it."
+  },
+  {
+    "type": "word",
+    "id": "1KXV4B2p7DS0X7zbJnfHa4",
+    "city": "Madrid",
+    "field": "context",
+    "old": "Doesn't start until after lunch, and Madrid eats lunch at two or three. At noon it's still días.",
+    "new": "Doesn't start until after lunch, and Madrid eats lunch at two or three. At noon it's still “días”."
+  },
+  {
+    "type": "word",
+    "id": "iuQ1rn6fSmvzd9PivL7Sr",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "Adeus (uh-DEH-oosh) exists but sounds final. Tchau (chow) is the casual one.",
+    "new": "“Adeus” (uh-DEH-oosh) exists but sounds final. “Tchau” (chow) is the casual one."
+  },
+  {
+    "type": "word",
+    "id": "2WSMbTWa2zSAuGehnyzpoO",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "The ending matches your own gender, not the person you're thanking. A man says obrigado to everyone.",
+    "new": "The ending matches your own gender, not the person you're thanking. A man says “obrigado” to everyone."
+  },
+  {
+    "type": "word",
+    "id": "6npnmwEJ91VYNlBhV2q8Qr",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "The Portuguese way to summon a waiter. Not garçom, which is Brazilian and lands badly here.",
+    "new": "The Portuguese way to summon a waiter. Not “garçom”, which is Brazilian and lands badly here."
+  },
+  {
+    "type": "word",
+    "id": "22QhQSMnJKTI92VfdH12CI",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "Signs say WC. Banheiro is Brazilian and means lifeguard here.",
+    "new": "Signs say “WC”. “Banheiro” is Brazilian and means lifeguard here."
+  },
+  {
+    "type": "word",
+    "id": "7Aq1FiAtmyyvpAKFyb9GZO",
+    "city": "Lisbon",
+    "field": "groupNote",
+    "old": "Often shortened on the door to just H and S.",
+    "new": "Often shortened on the door to just “H” and “S”."
+  },
+  {
+    "type": "word",
+    "id": "GIKNnGhYshl78dWS4BaUf",
+    "city": "Lisbon",
+    "field": "context",
+    "old": "An espresso, but only in Lisbon. Porto calls it a cimbalino. Order one standing at the counter for about a euro.",
+    "new": "An espresso, but only in Lisbon. Porto calls it a “cimbalino”. Order one standing at the counter for about a euro."
+  },
+  {
+    "type": "food",
+    "id": "3afiDNOh6qHsIncBZbuAMR",
+    "city": "Glasgow",
+    "field": "foodDescription",
+    "old": "A bright orange fizzy drink made by AG Barr, a Glasgow firm, since 1901, now produced in Cumbernauld. Sweet, faintly of bubblegum and citrus, with a secret recipe. Scots drink it as a hangover cure. A Glaswegian may call any fizzy drink ginger.",
+    "new": "A bright orange fizzy drink made by AG Barr, a Glasgow firm, since 1901, now produced in Cumbernauld. Sweet, faintly of bubblegum and citrus, with a secret recipe. Scots drink it as a hangover cure. A Glaswegian may call any fizzy drink “ginger”."
+  },
+  {
+    "type": "food",
+    "id": "42oUYF8rseEyuoGB1StOHw",
+    "city": "Glasgow",
+    "field": "foodDescription",
+    "old": "A spiced fruit pudding of flour, suet, dried fruit and treacle, wrapped in a cloth — a cloot — and boiled for hours until it forms a dark, shiny skin. Sliced and eaten with custard, or fried for breakfast the next morning. Made at Christmas and birthdays.",
+    "new": "A spiced fruit pudding of flour, suet, dried fruit and treacle, wrapped in a cloth — a “cloot” — and boiled for hours until it forms a dark, shiny skin. Sliced and eaten with custard, or fried for breakfast the next morning. Made at Christmas and birthdays."
+  },
+  {
+    "type": "food",
+    "id": "6DUPduJjnO6FW7lEjkKm6E",
+    "city": "Glasgow",
+    "field": "foodDescription",
+    "old": "Haddock, not cod, in batter with chips, wrapped and eaten hot. In Glasgow a supper means it comes with chips; a single fish means without. Many of the city’s chip shops were opened by Italian immigrant families, and some still are. Salt and vinegar on top.",
+    "new": "Haddock, not cod, in batter with chips, wrapped and eaten hot. In Glasgow a “supper” means it comes with chips; a “single fish” means without. Many of the city’s chip shops were opened by Italian immigrant families, and some still are. Salt and vinegar on top."
+  },
+  {
+    "type": "food",
+    "id": "1QklWFyJVWSCtEAfzqBY5j",
+    "city": "Glasgow",
+    "field": "foodDescription",
+    "old": "A Glasgow morning roll, floury and soft with a crust that shatters, split and filled with a slice of square sausage, also called Lorne. The local hangover breakfast. Add a fried egg or tattie scone, and choose red sauce or brown — people do care.",
+    "new": "A Glasgow morning roll, floury and soft with a crust that shatters, split and filled with a slice of square sausage, also called “Lorne”. The local hangover breakfast. Add a fried egg or tattie scone, and choose red sauce or brown — people do care."
+  },
+  {
+    "type": "food",
+    "id": "3oAZzMq9wLmZQysFGbK6VB",
+    "city": "Liverpool",
+    "field": "foodDescription",
+    "old": "White bread, butter and strawberry jam, folded or cut in half; a butty is any sandwich here. Comedian Ken Dodd, from the Knotty Ash district, spent a career joking about the jam butty mines worked by his Diddy Men. Best with a mug of tea.",
+    "new": "White bread, butter and strawberry jam, folded or cut in half; a “butty” is any sandwich here. Comedian Ken Dodd, from the Knotty Ash district, spent a career joking about the jam butty mines worked by his Diddy Men. Best with a mug of tea."
+  },
+  {
+    "type": "food",
+    "id": "4PizvtsHQZ3wEzhbDTdfdR",
+    "city": "Liverpool",
+    "field": "foodDescription",
+    "old": "Hard butter toffee first sold in the 1700s by Molly Bushell in Everton, then a village above the docks. It gave Everton FC its nickname, the Toffees, and before home games a Toffee Lady still throws Everton mints, striped boiled sweets, into the crowd.",
+    "new": "Hard butter toffee first sold in the 1700s by Molly Bushell in Everton, then a village above the docks. It gave Everton FC its nickname, “the Toffees”, and before home games a Toffee Lady still throws Everton mints, striped boiled sweets, into the crowd."
+  },
+  {
+    "type": "food",
+    "id": "7FoppjkASInEEpj3VmvXKc",
+    "city": "Liverpool",
+    "field": "foodDescription",
+    "old": "Lamb or beef stewed for hours with potatoes, onions and carrots until the potatoes break down and thicken it. Named after lobscouse, a sailors’ stew, and the source of the city’s nickname. Eat it with pickled red cabbage or beetroot and buttered bread.",
+    "new": "Lamb or beef stewed for hours with potatoes, onions and carrots until the potatoes break down and thicken it. Named after “lobscouse”, a sailors’ stew, and the source of the city’s nickname. Eat it with pickled red cabbage or beetroot and buttered bread."
+  },
+  {
+    "type": "food",
+    "id": "6hIO1aJnxNkUuGuHn6Tuwm",
+    "city": "Belfast",
+    "field": "foodDescription",
+    "old": "A pastie here is no Cornish pasty: it is a round patty of minced pork, onion and potato, battered and deep-fried. Supper means it comes with chips. A Belfast chip shop order that needs salt, vinegar and nothing more complicated.",
+    "new": "A pastie here is no Cornish pasty: it is a round patty of minced pork, onion and potato, battered and deep-fried. “Supper” means it comes with chips. A Belfast chip shop order that needs salt, vinegar and nothing more complicated."
+  },
+  {
+    "type": "food",
+    "id": "2V3lxM1hjs3FbeaY2FVF1X",
+    "city": "Belfast",
+    "field": "foodDescription",
+    "old": "Mashed potato kneaded with flour and butter, rolled thin and cut into triangles, then browned on a griddle. Also called fadge or tattie bread. Unlike boxty it uses cooked potato only. Fried in butter it goes crisp and chewy at the same time.",
+    "new": "Mashed potato kneaded with flour and butter, rolled thin and cut into triangles, then browned on a griddle. Also called “fadge” or “tattie bread”. Unlike boxty it uses cooked potato only. Fried in butter it goes crisp and chewy at the same time."
+  },
+  {
+    "type": "food",
+    "id": "L4lwsWlH7t2n8dikX1AA0",
+    "city": "Belfast",
+    "field": "foodDescription",
+    "old": "Soda bread dough patted into a round, cut in four and cooked on a dry griddle rather than baked, so it comes out flat, floury and soft inside. Farl is from an old word for a quarter. Split it, fry it, and fill it with bacon or an egg.",
+    "new": "Soda bread dough patted into a round, cut in four and cooked on a dry griddle rather than baked, so it comes out flat, floury and soft inside. “Farl” is from an old word for a quarter. Split it, fry it, and fill it with bacon or an egg."
+  },
+  {
+    "type": "food",
+    "id": "7ITlt1F1uHZO6Oti5mxmxw",
+    "city": "Milan",
+    "field": "foodDescription",
+    "old": "Campari and red vermouth topped with sparkling wine instead of gin. The story goes that Mirko Stocchetto, owner of Bar Basso, picked up the wrong bottle in the early 1970s. The bar still serves it, in an outsized goblet. Sbagliato means mistaken.",
+    "new": "Campari and red vermouth topped with sparkling wine instead of gin. The story goes that Mirko Stocchetto, owner of Bar Basso, picked up the wrong bottle in the early 1970s. The bar still serves it, in an outsized goblet. “Sbagliato” means mistaken."
+  },
+  {
+    "type": "food",
+    "id": "6umeBSgeYpI2GHp7xwIDrN",
+    "city": "Milan",
+    "field": "foodDescription",
+    "old": "A tall domed loaf of butter, eggs, candied orange and raisins, raised over days from a natural starter. Legend credits a kitchen boy named Toni at the Sforza court: pan de Toni. Keep a slice for 3 February, San Biagio’s day, said to protect the throat.",
+    "new": "A tall domed loaf of butter, eggs, candied orange and raisins, raised over days from a natural starter. Legend credits a kitchen boy named Toni at the Sforza court: “pan de Toni”. Keep a slice for 3 February, San Biagio’s day, said to protect the throat."
+  },
+  {
+    "type": "food",
+    "id": "1TbIGmEf7LxlEArpfMyWtt",
+    "city": "Milan",
+    "field": "foodDescription",
+    "old": "Tendons and cartilage from calves’ knees, boiled for hours, pressed, sliced thin and dressed with raw onion, oil and vinegar, sometimes with beans. Cold, chewy and translucent. A fixture of old osterie, where it is listed in dialect as gnervitt.",
+    "new": "Tendons and cartilage from calves’ knees, boiled for hours, pressed, sliced thin and dressed with raw onion, oil and vinegar, sometimes with beans. Cold, chewy and translucent. A fixture of old osterie, where it is listed in dialect as “gnervitt”."
+  },
+  {
+    "type": "food",
+    "id": "1FkzWtno0PYs6vervxfiRk",
+    "city": "Milan",
+    "field": "foodDescription",
+    "old": "Flattened meatballs of leftover boiled meat, mortadella or salami, milk-soaked bread and Parmigiano, fried in butter. The name is traced to the Spanish albóndiga. Thrift food turned bar food: look for them on aperitivo counters around six.",
+    "new": "Flattened meatballs of leftover boiled meat, mortadella or salami, milk-soaked bread and Parmigiano, fried in butter. The name is traced to the Spanish “albóndiga”. Thrift food turned bar food: look for them on aperitivo counters around six."
+  },
+  {
+    "type": "food",
+    "id": "66ZdcekazzhMrnBZiTiJFO",
+    "city": "Milan",
+    "field": "foodDescription",
+    "old": "Tripe cut into fine strips and simmered with white beans, carrot, celery and tomato, then finished with Parmigiano. Once the meal after midnight mass on Christmas Eve. Other Italians used to call the Milanese busecconi, tripe eaters, and it stuck.",
+    "new": "Tripe cut into fine strips and simmered with white beans, carrot, celery and tomato, then finished with Parmigiano. Once the meal after midnight mass on Christmas Eve. Other Italians used to call the Milanese “busecconi”, tripe eaters, and it stuck."
+  },
+  {
+    "type": "food",
+    "id": "3y0JVDBxX49xENQG9Ztgdq",
+    "city": "Milan",
+    "field": "foodDescription",
+    "old": "A veal chop on the bone, dipped in egg and breadcrumbs and fried in clarified butter. Milan and Vienna argue over who came first, this or the Wiener Schnitzel. The version beaten out to the size of the plate is called orecchia d’elefant, elephant’s ear.",
+    "new": "A veal chop on the bone, dipped in egg and breadcrumbs and fried in clarified butter. Milan and Vienna argue over who came first, this or the Wiener Schnitzel. The version beaten out to the size of the plate is called “orecchia d’elefant”, elephant’s ear."
+  },
+  {
+    "type": "food",
+    "id": "NZiT7kNsWibIpIfKipZiQ",
+    "city": "Munich",
+    "field": "foodDescription",
+    "old": "Helles and clear lemon soda, half and half. Franz Xaver Kugler claimed to have invented it in 1922 for cyclists at his inn south of Munich — Radler means cyclist — though the word appears in print earlier. Sold by the Maß in beer gardens.",
+    "new": "Helles and clear lemon soda, half and half. Franz Xaver Kugler claimed to have invented it in 1922 for cyclists at his inn south of Munich — “Radler” means cyclist — though the word appears in print earlier. Sold by the Maß in beer gardens."
+  },
+  {
+    "type": "food",
+    "id": "15OeCzGXHYutzA0Va0z09w",
+    "city": "Lisbon",
+    "field": "foodDescription",
+    "old": "Tiny snails simmered with garlic, oregano and piri-piri chili, served by the bowlful with cold beer from May to August. A sign reading Há caracóis — we have snails — means the season is open. Pull each one out with a toothpick, then drink the broth.",
+    "new": "Tiny snails simmered with garlic, oregano and piri-piri chili, served by the bowlful with cold beer from May to August. A sign reading “Há caracóis” — we have snails — means the season is open. Pull each one out with a toothpick, then drink the broth."
+  },
+  {
+    "type": "food",
+    "id": "1IhEKCUv1cawsVD2vWtUjo",
+    "city": "Lisbon",
+    "field": "foodDescription",
+    "old": "Octopus boiled tender, then roasted until the edges crisp and drenched in olive oil — lagar means olive press — with smashed potatoes and whole garlic cloves. Portugal eats more octopus per person than almost anywhere. The oil is the sauce.",
+    "new": "Octopus boiled tender, then roasted until the edges crisp and drenched in olive oil — “lagar” means olive press — with smashed potatoes and whole garlic cloves. Portugal eats more octopus per person than almost anywhere. The oil is the sauce."
+  },
+  {
+    "type": "food",
+    "id": "4BZId2eAeWbi4wvMeXZk54",
+    "city": "Lisbon",
+    "field": "foodDescription",
+    "old": "Pork liver marinated in wine, vinegar and garlic, then flash-fried — with them means the boiled potatoes alongside. Old Lisbon food from when organ meat was the cheap cut. Sour, iron-rich, strong. Order it where the tablecloths are paper.",
+    "new": "Pork liver marinated in wine, vinegar and garlic, then flash-fried — “with them” means the boiled potatoes alongside. Old Lisbon food from when organ meat was the cheap cut. Sour, iron-rich, strong. Order it where the tablecloths are paper."
+  },
+  {
+    "type": "food",
+    "id": "nEJ09izqnB26CMTscaiPh",
+    "city": "Lisbon",
+    "field": "foodDescription",
+    "old": "Sour-cherry liqueur, sweet and sticky, poured at stand-up counters since 1840. Ask for it com elas — with them — and the boozy cherries come in the glass. A euro or so, one shot, drunk on the sidewalk. A pre-dinner ritual, not a dessert.",
+    "new": "Sour-cherry liqueur, sweet and sticky, poured at stand-up counters since 1840. Ask for it “com elas” — with them — and the boozy cherries come in the glass. A euro or so, one shot, drunk on the sidewalk. A pre-dinner ritual, not a dessert."
+  },
+  {
+    "type": "food",
+    "id": "5WZOEqhVEZZSPaZbmJ3It1",
+    "city": "Reykjavík",
+    "field": "foodDescription",
+    "old": "An Icelandic hot dog, mostly lamb, snapping in a soft bun under raw and crisp fried onions, ketchup, sweet brown mustard and remoulade. Ask for eina með öllu — one with everything. The harbor stand has sold them since 1937.",
+    "new": "An Icelandic hot dog, mostly lamb, snapping in a soft bun under raw and crisp fried onions, ketchup, sweet brown mustard and remoulade. Ask for “eina með öllu” — one with everything. The harbor stand has sold them since 1937."
+  },
+  {
+    "type": "food",
+    "id": "61xjCTpdojDDOkInustLQG",
+    "city": "Reykjavík",
+    "field": "foodDescription",
+    "old": "Dense, dark, faintly sweet rye baked slowly underground using geothermal heat, which earns it the nickname thunder bread. Sliced thin and buttered heavily, usually under smoked fish. Sweeter than any rye bread you have had before.",
+    "new": "Dense, dark, faintly sweet rye baked slowly underground using geothermal heat, which earns it the nickname “thunder bread”. Sliced thin and buttered heavily, usually under smoked fish. Sweeter than any rye bread you have had before."
+  },
+  {
+    "type": "food",
+    "id": "28rVVBaFFeQPtW2EOCOkPm",
+    "city": "Reykjavík",
+    "field": "foodDescription",
+    "old": "Langoustines, called lobster here although they are neither — smaller and sweeter, usually split and grilled in garlic butter or turned into a thick bisque. The best come from the southeast coast. Expensive, and worth it once.",
+    "new": "Langoustines, called “lobster” here although they are neither — smaller and sweeter, usually split and grilled in garlic butter or turned into a thick bisque. The best come from the southeast coast. Expensive, and worth it once."
+  },
+  {
+    "type": "food",
+    "id": "4LmsuPvzn0lIFtHxD6wUHD",
+    "city": "Reykjavík",
+    "field": "foodDescription",
+    "old": "Clear caraway schnapps, unsweetened and blunt, nicknamed black death for the old black label. Drunk cold in a shot beside fermented shark, on the theory that each makes the other survivable. Iceland's only real spirit tradition.",
+    "new": "Clear caraway schnapps, unsweetened and blunt, nicknamed “black death” for the old black label. Drunk cold in a shot beside fermented shark, on the theory that each makes the other survivable. Iceland's only real spirit tradition."
+  },
+  {
+    "type": "food",
+    "id": "21Ep2NoQAr4pDuQDjY2aIk",
+    "city": "Naples",
+    "field": "foodDescription",
+    "old": "A shell of paper-thin pastry layers, ridged like a fan, filled with ricotta, semolina and candied citrus. Riccia is the crisp version, frolla the soft one. Buy it hot in the morning, while the shell still shatters when you bite.",
+    "new": "A shell of paper-thin pastry layers, ridged like a fan, filled with ricotta, semolina and candied citrus. “Riccia” is the crisp version, “frolla” the soft one. Buy it hot in the morning, while the shell still shatters when you bite."
+  },
+  {
+    "type": "food",
+    "id": "7aiuWYuUy1VarfeNKtkE9C",
+    "city": "Madrid",
+    "field": "foodDescription",
+    "old": "Small anise doughnuts sold for the city's patron saint in mid-May, in four versions: plain, sugar-glazed, meringue-topped, and the ones called French. The plain ones are the good ones. Two weeks a year, then nothing.",
+    "new": "Small anise doughnuts sold for the city's patron saint in mid-May, in four versions: plain, sugar-glazed, meringue-topped, and the ones called “French”. The plain ones are the good ones. Two weeks a year, then nothing."
+  },
+  {
+    "type": "food",
+    "id": "4sOVXn89SmUrNaEncT7Aro",
+    "city": "Madrid",
+    "field": "foodDescription",
+    "old": "Sweet red vermouth poured from a tap over ice, with an olive and a twist of orange. Sunday before lunch is the appointed hour, and going for a vermut means the whole ritual rather than the drink. Most bars blend their own.",
+    "new": "Sweet red vermouth poured from a tap over ice, with an olive and a twist of orange. Sunday before lunch is the appointed hour, and “going for a vermut” means the whole ritual rather than the drink. Most bars blend their own."
+  },
+  {
+    "type": "food",
+    "id": "3ZUPmUuMr8cMV5Pbg7QdJw",
+    "city": "Florence",
+    "field": "foodDescription",
+    "old": "White beans stewed with tomato, garlic and sage — cooked, the saying goes, the way you would cook small birds. Tuscans eat so many beans that other Italians call them bean-eaters. Ordered as a side and eaten as a meal.",
+    "new": "White beans stewed with tomato, garlic and sage — cooked, the saying goes, the way you would cook small birds. Tuscans eat so many beans that other Italians call them “bean-eaters”. Ordered as a side and eaten as a meal."
+  },
+  {
+    "type": "food",
+    "id": "48bRsFWdnTYFyRJC9MklvG",
+    "city": "Edinburgh",
+    "field": "foodDescription",
+    "old": "Smoked haddock, potato, onion and milk cooked into a thick soup. Skink is an old word for broth, and Cullen is the fishing village it comes from. Smoky, plain and entirely warming, with bread and butter alongside.",
+    "new": "Smoked haddock, potato, onion and milk cooked into a thick soup. “Skink” is an old word for broth, and Cullen is the fishing village it comes from. Smoky, plain and entirely warming, with bread and butter alongside."
+  },
+  {
+    "type": "food",
+    "id": "4NdOofGzAH6d9cxOr1J7hd",
+    "city": "Copenhagen",
+    "field": "foodDescription",
+    "old": "What the rest of the world calls Danish pastry: laminated dough with butter folded in dozens of times, filled with custard or jam. Danes named it for Vienna, where the technique came from. Buy it before ten in the morning.",
+    "new": "What the rest of the world calls “Danish pastry”: laminated dough with butter folded in dozens of times, filled with custard or jam. Danes named it for Vienna, where the technique came from. Buy it before ten in the morning."
+  },
+  {
+    "type": "food",
+    "id": "6KNtUKMS6vZPVu1z53M2oc",
+    "city": "Berlin",
+    "field": "foodDescription",
+    "old": "Flat pork and beef patties with soaked bread, onion and marjoram, fried and eaten cold with mustard as often as hot. The Berlin word for what the rest of Germany calls a Frikadelle. Sold at bakeries and old corner pubs.",
+    "new": "Flat pork and beef patties with soaked bread, onion and marjoram, fried and eaten cold with mustard as often as hot. The Berlin word for what the rest of Germany calls a “Frikadelle”. Sold at bakeries and old corner pubs."
+  },
+  {
+    "type": "food",
+    "id": "3Esp53ud1CmmkaRBATiBxt",
+    "city": "Berlin",
+    "field": "foodDescription",
+    "old": "A round doughnut with no hole, filled with jam and dusted in sugar. In Berlin it is a Pfannkuchen; everywhere else it is a Berliner, and locals will correct you. Eaten at New Year, sometimes filled with mustard as a prank.",
+    "new": "A round doughnut with no hole, filled with jam and dusted in sugar. In Berlin it is a “Pfannkuchen”; everywhere else it is a “Berliner”, and locals will correct you. Eaten at New Year, sometimes filled with mustard as a prank."
+  },
+  {
+    "type": "food",
+    "id": "6zz1TZ9ZaZB0TF3ERjhwIv",
+    "city": "Berlin",
+    "field": "foodDescription",
+    "old": "A sour wheat beer, low in alcohol and tart enough to make you blink, traditionally cut with raspberry or woodruff syrup and served in a wide bowl of a glass. Napoleon's troops called it the Champagne of the north.",
+    "new": "A sour wheat beer, low in alcohol and tart enough to make you blink, traditionally cut with raspberry or woodruff syrup and served in a wide bowl of a glass. Napoleon's troops called it “the Champagne of the north”."
+  },
+  {
+    "type": "food",
+    "id": "1r624T6TQplwhhIKFWiiyr",
+    "city": "Prague",
+    "field": "foodDescription",
+    "old": "Czech lager poured slowly under a thick wet head that is part of the drink rather than a mistake — ask for a hladinka and you get the standard pour. Czechs drink more beer per person than anyone, and it costs less than water.",
+    "new": "Czech lager poured slowly under a thick wet head that is part of the drink rather than a mistake — ask for a “hladinka” and you get the standard pour. Czechs drink more beer per person than anyone, and it costs less than water."
+  },
+  {
+    "type": "food",
+    "id": "50gvdrC3vvmv3z91Q81rmo",
+    "city": "Belgrade",
+    "field": "foodDescription",
+    "old": "Veal rolled around kajmak, breaded and fried, then served with tartar sauce — a 1950s invention nicknamed the maiden's dream, for reasons that become obvious. Enormous, molten inside, and entirely unserious.",
+    "new": "Veal rolled around kajmak, breaded and fried, then served with tartar sauce — a 1950s invention nicknamed “the maiden's dream”, for reasons that become obvious. Enormous, molten inside, and entirely unserious."
+  },
+  {
+    "type": "food",
+    "id": "7tvDlclKoCqXTXurVwrgMg",
+    "city": "Marseille",
+    "field": "foodDescription",
+    "old": "Half anchovy and half cheese on a thin base from a wood oven, sold from vans since Italian families arrived a century ago. Ask for half and half and you will be understood. Emmental rather than mozzarella, which is the local way.",
+    "new": "Half anchovy and half cheese on a thin base from a wood oven, sold from vans since Italian families arrived a century ago. Ask for “half and half” and you will be understood. Emmental rather than mozzarella, which is the local way."
+  },
+  {
+    "type": "food",
+    "id": "3kVMQL0cTSBS7eBfFzS5kd",
+    "city": "Amsterdam",
+    "field": "foodDescription",
+    "old": "Juniper spirit aged in oak, the ancestor of gin, poured brimming into a tulip glass that you bend down to sip without lifting. Ordered beside a beer, a pairing called a headbutt. Ask for oude, the maltier kind.",
+    "new": "Juniper spirit aged in oak, the ancestor of gin, poured brimming into a tulip glass that you bend down to sip without lifting. Ordered beside a beer, a pairing called a “headbutt”. Ask for oude, the maltier kind."
+  },
+  {
+    "type": "food",
+    "id": "5vZutuuZsDkGhkPgVG0ESn",
+    "city": "Budapest",
+    "field": "foodDescription",
+    "old": "The real thing is a soup, not a stew: beef, onion, potato and a great deal of paprika, thin enough to drink, traditionally cooked outdoors in a kettle over fire. What English calls goulash is closer to Hungary's pörkölt. Order it as a first course.",
+    "new": "The real thing is a soup, not a stew: beef, onion, potato and a great deal of paprika, thin enough to drink, traditionally cooked outdoors in a kettle over fire. What English calls “goulash” is closer to Hungary's pörkölt. Order it as a first course."
+  },
+  {
+    "type": "food",
+    "id": "7F7e0NwGBPJrUfMcEulTDX",
+    "city": "Amsterdam",
+    "field": "foodDescription",
+    "old": "Split pea soup cooked with pork until a spoon will stand up in it, with smoked sausage sliced through. Also called snert. Traditionally eaten after skating on frozen canals, and only correct when genuinely thick.",
+    "new": "Split pea soup cooked with pork until a spoon will stand up in it, with smoked sausage sliced through. Also called “snert”. Traditionally eaten after skating on frozen canals, and only correct when genuinely thick."
+  },
+  {
+    "type": "food",
+    "id": "1n9dCtcOLIIbKDyzSjnbwJ",
+    "city": "Paris",
+    "field": "foodDescription",
+    "old": "A thin cut of beef seared rare under a pat of herb butter, with a mound of thin fries and no vegetable in sight. Order it saignant and expect it rarer than you meant. The fries are usually refilled without asking.",
+    "new": "A thin cut of beef seared rare under a pat of herb butter, with a mound of thin fries and no vegetable in sight. Order it “saignant” and expect it rarer than you meant. The fries are usually refilled without asking."
+  },
+  {
+    "type": "food",
+    "id": "17zdPef4TUihqYbLwFASzQ",
+    "city": "Manchester",
+    "field": "foodDescription",
+    "old": "A whole meat and potato pie put inside a buttered bread roll — carbohydrate wrapped in carbohydrate, known locally as a Wigan kebab. Sold in bakeries at breakfast. There is no defense of it, and none is required.",
+    "new": "A whole meat and potato pie put inside a buttered bread roll — carbohydrate wrapped in carbohydrate, known locally as a “Wigan kebab”. Sold in bakeries at breakfast. There is no defense of it, and none is required."
+  },
+  {
+    "type": "food",
+    "id": "sJmdYqRmrQp3HDWee6FWv",
+    "city": "London",
+    "field": "foodDescription",
+    "old": "Grilled marinated chicken in a spiced tomato and cream sauce, invented in Britain rather than India, most likely by a Bangladeshi cook adapting to local taste. A foreign secretary once called it a true British national dish.",
+    "new": "Grilled marinated chicken in a spiced tomato and cream sauce, invented in Britain rather than India, most likely by a Bangladeshi cook adapting to local taste. A foreign secretary once called it “a true British national dish”."
+  },
+  {
+    "type": "city",
+    "id": "4IawvSrbVK1Z1L7g9sj8at",
+    "city": "Warsaw",
+    "field": "wordsPreamble",
+    "old": "- Warsaw speaks standard Polish, with little regional accent, and more English than anywhere else in Poland, especially among people under forty.\n- Use pan (sir) and pani (madam) with strangers and people behind counters. The informal form is for friends and people your age.\n- Greet people in shops with dzień dobry and say do widzenia leaving. Skipping it reads as rude.\n- *sz* is “sh,” *cz* is “ch,” *w* is “v,” *ł* is “w,” and *rz* sounds like the s in “pleasure.” Stress almost always falls on the second-to-last syllable.",
+    "new": "- Warsaw speaks standard Polish, with little regional accent, and more English than anywhere else in Poland, especially among people under forty.\n- Use “pan” (sir) and “pani” (madam) with strangers and people behind counters. The informal form is for friends and people your age.\n- Greet people in shops with “dzień dobry” and say “do widzenia” leaving. Skipping it reads as rude.\n- *sz* is “sh,” *cz* is “ch,” *w* is “v,” *ł* is “w,” and *rz* sounds like the s in “pleasure.” Stress almost always falls on the second-to-last syllable."
+  },
+  {
+    "type": "city",
+    "id": "Hpbl9OGLqntXX2jktTOXV",
+    "city": "Brussels",
+    "field": "wordsPreamble",
+    "old": "- Brussels is officially bilingual and everything written appears in French and Dutch. In practice the city runs in French, and that’s what’s below.\n- English is very widely spoken — this is an EU capital and a large share of residents were born elsewhere.\n- Belgian French is close to the Paris version, with two differences worth knowing: septante is seventy and nonante is ninety.\n- The greeting ritual is softer than Paris. Greet people walking in and the rest of the stiffness doesn’t apply.",
+    "new": "- Brussels is officially bilingual and everything written appears in French and Dutch. In practice the city runs in French, and that’s what’s below.\n- English is very widely spoken — this is an EU capital and a large share of residents were born elsewhere.\n- Belgian French is close to the Paris version, with two differences worth knowing: “septante” is seventy and “nonante” is ninety.\n- The greeting ritual is softer than Paris. Greet people walking in and the rest of the stiffness doesn’t apply."
+  }
+]
