@@ -2,6 +2,30 @@
  "city": "Dublin",
  "pins": [
   {
+   "id": "5pYGs6QBdTr5WKGDayKq6p",
+   "title": "Surviving Ireland’s Magdalene laundries",
+   "type": "podcast",
+   "place": "Former Magdalene laundry, Seán McDermott Street",
+   "lat": 53.3528,
+   "lon": -6.2551
+  },
+  {
+   "id": "3ZLCy7re2UvUaRatFDHcUS",
+   "title": "Jonathan Swift’s ‘A Modest Proposal’",
+   "type": "podcast",
+   "place": "St Patrick’s Cathedral",
+   "lat": 53.3395,
+   "lon": -6.2715
+  },
+  {
+   "id": "se7Iwk7OZKjAZGkRFHhdc",
+   "title": "The Great Irish Famine, 1845–52",
+   "type": "podcast",
+   "place": "Famine Memorial, Custom House Quay",
+   "lat": 53.3485,
+   "lon": -6.2486
+  },
+  {
    "id": "45hDVQdu2i7QpSfJRIEYPA",
    "title": "The Taking of Christ by Caravaggio",
    "type": "video",

@@ -2,6 +2,54 @@
  "city": "Paris",
  "pins": [
   {
+   "id": "5r2qM8uUFOjNmsnJZcQxJH",
+   "title": "Eugène Atget’s photographs of old Paris",
+   "type": "video",
+   "place": "17 bis rue Campagne-Première, Montparnasse",
+   "lat": 48.8418,
+   "lon": 2.3307
+  },
+  {
+   "id": "5z3xg4XR6JlwQ4DTtRiYq1",
+   "title": "The student revolt of May 1968",
+   "type": "podcast",
+   "place": "La Sorbonne, Latin Quarter",
+   "lat": 48.8486,
+   "lon": 2.3431
+  },
+  {
+   "id": "5aMVMGQzpYAoSQhFltmQPy",
+   "title": "The trial and execution of Louis XVI, 1793",
+   "type": "podcast",
+   "place": "Place de la Concorde",
+   "lat": 48.8656,
+   "lon": 2.3212
+  },
+  {
+   "id": "2p08tgRdHjozMLTZSDg4zu",
+   "title": "How Paris moved six million dead into old quarries",
+   "type": "podcast",
+   "place": "Catacombs of Paris entrance, Place Denfert-Rochereau",
+   "lat": 48.8338,
+   "lon": 2.3324
+  },
+  {
+   "id": "5VVrfAEtBc69QdzdhREBsN",
+   "title": "The Dreyfus Affair and the officer stripped of his rank",
+   "type": "podcast",
+   "place": "École Militaire, Champ de Mars",
+   "lat": 48.8512,
+   "lon": 2.3027
+  },
+  {
+   "id": "7y1pZxaQPltYe624xrV6yW",
+   "title": "The St Bartholomew’s Day Massacre, 1572",
+   "type": "podcast",
+   "place": "Saint-Germain-l’Auxerrois church",
+   "lat": 48.8595,
+   "lon": 2.3409
+  },
+  {
    "id": "25Flv8g3yvBwdeIUGaaAEi",
    "title": "Yellow-Red-Blue by Wassily Kandinsky",
    "type": "podcast",

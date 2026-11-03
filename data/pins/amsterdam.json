@@ -2,6 +2,46 @@
  "city": "Amsterdam",
  "pins": [
   {
+   "id": "1skQb04hrfEbnNNPJbEqzn",
+   "title": "How Rembrandt made his etchings",
+   "type": "video",
+   "place": "Rembrandt House Museum",
+   "lat": 52.3693,
+   "lon": 4.9012
+  },
+  {
+   "id": "4T6kmpNtZQkInf7xsQCLNZ",
+   "title": "The world’s first same-sex weddings, Amsterdam 2001",
+   "type": "podcast",
+   "place": "Amsterdam City Hall (Stopera), Amstel 1",
+   "lat": 52.3675,
+   "lon": 4.9009
+  },
+  {
+   "id": "IuaByAL41RXyXaFYdMYrS",
+   "title": "Amsterdam’s canals and the Dutch Golden Age",
+   "type": "podcast",
+   "place": "Herengracht, Golden Bend",
+   "lat": 52.3648,
+   "lon": 4.8925
+  },
+  {
+   "id": "a2oPqVGJXMeVsk4SV8J3J",
+   "title": "Medieval Amsterdam: the 1345 miracle and the Reformation",
+   "type": "podcast",
+   "place": "Oude Kerk, Oudekerksplein",
+   "lat": 52.3742,
+   "lon": 4.898
+  },
+  {
+   "id": "4USv2LlmHzRXh1yBStiAWU",
+   "title": "Anne Frank’s diary reaches the world, 1947",
+   "type": "podcast",
+   "place": "Anne Frank House",
+   "lat": 52.3752,
+   "lon": 4.884
+  },
+  {
    "id": "1o2RdmtDvgQtzZanOXSpSY",
    "title": "The Jewish Bride by Rembrandt",
    "type": "podcast",

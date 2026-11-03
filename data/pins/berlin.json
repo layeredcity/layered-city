@@ -2,6 +2,54 @@
  "city": "Berlin",
  "pins": [
   {
+   "id": "3zEUwDAFtDXtNxWgG1iJwp",
+   "title": "The Wannsee Conference, 1942",
+   "type": "podcast",
+   "place": "House of the Wannsee Conference, Am Großen Wannsee 56–58",
+   "lat": 52.4331,
+   "lon": 13.1656
+  },
+  {
+   "id": "4V2RF7oxHBU4f9mSX0zZJa",
+   "title": "Queer life in Weimar Berlin",
+   "type": "podcast",
+   "place": "Nollendorfplatz, Schöneberg",
+   "lat": 52.4995,
+   "lon": 13.3538
+  },
+  {
+   "id": "48fRyIEke1qHJSXl6jyxnZ",
+   "title": "Frederick the Great of Prussia",
+   "type": "podcast",
+   "place": "Sanssouci Palace, Potsdam",
+   "lat": 52.4043,
+   "lon": 13.0384
+  },
+  {
+   "id": "4DA4ikaEzquyLtcgSewxCs",
+   "title": "Fighting for Berlin, April–May 1945",
+   "type": "podcast",
+   "place": "Reichstag building",
+   "lat": 52.5186,
+   "lon": 13.3762
+  },
+  {
+   "id": "2T3tmsLB8oDLGrJtKO9awc",
+   "title": "Inside Hitler’s bunker, from 1945 to its demolition",
+   "type": "video",
+   "place": "Führerbunker site, Gertrud-Kolmar-Straße",
+   "lat": 52.5125,
+   "lon": 13.3812
+  },
+  {
+   "id": "3aYtekTuZ7wro6RbN2VBtn",
+   "title": "Kristallnacht, November 1938",
+   "type": "podcast",
+   "place": "Neue Synagoge, Oranienburger Straße",
+   "lat": 52.5249,
+   "lon": 13.3945
+  },
+  {
    "id": "2euTtWuOzEnl9XSSB24vF8",
    "title": "Potsdamer Platz by Ernst Ludwig Kirchner",
    "type": "podcast",

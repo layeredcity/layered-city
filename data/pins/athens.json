@@ -2,6 +2,30 @@
  "city": "Athens",
  "pins": [
   {
+   "id": "1BrmcpuRYLxIAR5NSoPRSd",
+   "title": "Athens revives the Olympics, 1896",
+   "type": "podcast",
+   "place": "Panathenaic Stadium",
+   "lat": 37.9683,
+   "lon": 23.7411
+  },
+  {
+   "id": "2Lp1CKqnbMXX2v2jGNa6Yo",
+   "title": "The Athens famine under German occupation, 1941–42",
+   "type": "podcast",
+   "place": "Syntagma Square",
+   "lat": 37.9755,
+   "lon": 23.7348
+  },
+  {
+   "id": "4R0OVEP9dZt1UW0Q3uTFzz",
+   "title": "How Athenian democracy worked",
+   "type": "podcast",
+   "place": "Pnyx hill",
+   "lat": 37.9719,
+   "lon": 23.7193
+  },
+  {
    "id": "2qzPG1Yrr3tWPB3gekSsoT",
    "title": "The Mask of Agamemnon, a Mycenaean gold death mask",
    "type": "video",

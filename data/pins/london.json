@@ -2,6 +2,110 @@
  "city": "London",
  "pins": [
   {
+   "id": "3lwqcxj4OQmnkvwfKoTm81",
+   "title": "Monet’s Waterloo Bridge, painted from the Savoy",
+   "type": "video",
+   "place": "Savoy Hotel, Strand",
+   "lat": 51.5104,
+   "lon": -0.1205
+  },
+  {
+   "id": "1f2OU9OokF0aLFfkcg2bjg",
+   "title": "Frank Auerbach’s Mornington Crescent",
+   "type": "video",
+   "place": "Mornington Crescent station",
+   "lat": 51.5343,
+   "lon": -0.1387
+  },
+  {
+   "id": "3SAoKdUlzTcvq6NHrSedN",
+   "title": "Westminster Abbey, coronation church since 1066",
+   "type": "podcast",
+   "place": "Westminster Abbey",
+   "lat": 51.4993,
+   "lon": -0.1273
+  },
+  {
+   "id": "3B6qyeNyYAwcYd554c1c75",
+   "title": "The Peasants’ Revolt and the death of Wat Tyler, 1381",
+   "type": "podcast",
+   "place": "West Smithfield",
+   "lat": 51.5185,
+   "lon": -0.1009
+  },
+  {
+   "id": "5x0ozWD1yuaXXk8mo5ihgq",
+   "title": "Inside Churchill’s underground War Rooms",
+   "type": "video",
+   "place": "Churchill War Rooms, King Charles Street",
+   "lat": 51.5022,
+   "lon": -0.1293
+  },
+  {
+   "id": "2LUO9HtYdjAEXNOARIn6N",
+   "title": "Christopher Wren, the architect of St Paul’s",
+   "type": "podcast",
+   "place": "St Paul’s Cathedral",
+   "lat": 51.5138,
+   "lon": -0.0984
+  },
+  {
+   "id": "3Ce9OSh3mTo2MsPURyR39M",
+   "title": "St Paul’s and the Second Great Fire of London, 1940",
+   "type": "podcast",
+   "place": "St Paul’s Cathedral",
+   "lat": 51.5138,
+   "lon": -0.0984
+  },
+  {
+   "id": "ZBtyldtvUDTBOO1ek5baC",
+   "title": "London and the Great Plague of 1665",
+   "type": "podcast",
+   "place": "Site of the Bedlam burial ground, Liverpool Street",
+   "lat": 51.518,
+   "lon": -0.0821
+  },
+  {
+   "id": "64zQ2H393yovFzB4OKYCiC",
+   "title": "The execution of Charles I, 1649",
+   "type": "podcast",
+   "place": "Banqueting House, Whitehall",
+   "lat": 51.5044,
+   "lon": -0.1261
+  },
+  {
+   "id": "4cMGyeBhtIR9isxtpfw0GG",
+   "title": "The Gunpowder Plot, 1605",
+   "type": "podcast",
+   "place": "Palace of Westminster (Houses of Parliament)",
+   "lat": 51.4987,
+   "lon": -0.1254
+  },
+  {
+   "id": "4x0A21YRkm03aVLfr9K8Dv",
+   "title": "The history of Westminster Abbey",
+   "type": "video",
+   "place": "Westminster Abbey",
+   "lat": 51.4993,
+   "lon": -0.1273
+  },
+  {
+   "id": "46XIN59WXRKfZasPCLBAfc",
+   "title": "The Tower as a medieval prison, from Flambard to the Princes",
+   "type": "podcast",
+   "place": "Tower of London",
+   "lat": 51.5077,
+   "lon": -0.0765
+  },
+  {
+   "id": "7p9Urz6vBz4d5JMpIIYQI1",
+   "title": "A thousand years at the Tower of London",
+   "type": "podcast",
+   "place": "Tower of London",
+   "lat": 51.5081,
+   "lon": -0.0759
+  },
+  {
    "id": "3f6gcJlR3EVLvNUhg5XqsY",
    "title": "Self-Portrait with Bandaged Ear by Vincent van Gogh",
    "type": "podcast",
