@@ -1,0 +1,26 @@
+# Looks up film posters on IMDb for data/posters/in.json. Read-only; commits
+# data/posters/out.json for review.
+name: IMDb posters
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/posters/in.json]
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/imdb-posters.mjs
+      - run: |
+          git add data/posters/out.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City posters"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "IMDb posters"
+          git pull --rebase origin main
+          git push origin HEAD:main
