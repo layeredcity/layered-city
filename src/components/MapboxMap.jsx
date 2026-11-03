@@ -23,6 +23,9 @@ const SYLLABLE_BREAKS = {
   'Madrid':     'Mad​rid',
   'Bucharest':  'Bucha​rest',
   'Marseille':  'Mar​seille',
+  'Liverpool':  'Liver​pool',
+  'Manchester': 'Man​chester',
+  'Reykjavík':  'Reyk​ja​vík',
 }
 
 const FLY_DURATION = 4500
@@ -215,6 +218,9 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         // Wrapper: Mapbox sets transform here for positioning
         const wrapper = document.createElement('div')
         wrapper.style.cssText = 'width:48px;height:48px;'
+        // A hovered city comes to the front, so a neighbour's circle can't
+        // cover its enlarged name (Liverpool under Manchester).
+        wrapper.className = 'city-marker-wrap'
 
         // Inner: we control visuals + hover transitions here
         const inner = document.createElement('div')
