@@ -1,0 +1,28 @@
+# Exports a channel's stories to data/channels/ (read-only). Runs when
+# data/run-dump-movies changes.
+name: Dump movie links
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/run-dump-movies]
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/dump-movie-links.mjs
+        env:
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+      - run: |
+          git add data/movie-links.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City movies"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Dump movie links"
+          git pull --rebase origin main
+          git push origin HEAD:main
