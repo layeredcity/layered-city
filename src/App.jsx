@@ -928,7 +928,7 @@ const isJustWatch = u => { try { return new URL(u).hostname.includes('justwatch'
 function MovieButtons({ story }) {
   const stored = [story.mediaUrl, story.secondaryUrl].filter(Boolean)
   const jw = cleanWatchUrl(stored.find(isJustWatch) ||
-    (story.title ? `https://www.justwatch.com/us/search?q=${encodeURIComponent(story.title)}` : null))
+    (story.title ? `https://www.justwatch.com/us/search?q=${encodeURIComponent(story.title.replace(/\s*\([^)]*\)\s*$/, ''))}` : null))
   const other = stored.find(u => !isJustWatch(u)) || null
   const imdb = story.imdbId ? `https://www.imdb.com/title/${story.imdbId}/` : null
   if (!jw && !other && !imdb) return null
