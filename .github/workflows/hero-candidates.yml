@@ -1,0 +1,26 @@
+# Hero candidates lists for research (read-only). Runs when data/run-hero changes.
+name: Hero candidates
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/run-hero]
+permissions:
+  contents: write
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: echo ok
+      - run: node scripts/hero-candidates.mjs
+      - run: |
+          git add data/heroes
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City research"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Hero candidates results"
+          git pull --rebase origin main
+          git push origin HEAD:main
