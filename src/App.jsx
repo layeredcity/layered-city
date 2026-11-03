@@ -121,7 +121,8 @@ const FILTERS = [
   { label: 'Tours',            group: 'deeper', types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
   // No alwaysShow: TV coverage is spotty, so a city with no shows hides the
   // section entirely rather than advertising "Coming soon".
-  { label: 'TV',               group: 'media', types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   blurb: '{city} on the small screen' },
+  // TV section hidden for now; shows are filtered out in fetchStoriesForCity.
+  { label: 'TV', hidden: true, group: 'media', types: ['tv'],           emptyLabel: 'TV',               icon: 'tv',      unitSingular: 'show',    unitPlural: 'shows',   blurb: '{city} on the small screen' },
   { label: 'Videos',           group: 'media', types: ['video'],        emptyLabel: 'short videos',     icon: 'video',   unitSingular: 'video',   unitPlural: 'videos',  alwaysShow: true, blurb: 'The best of {city} on YouTube' },
   // Words is its own `word` content type (a per-city phrasebook), not stories.
   // Empty `types` keeps it out of every story filter; `words: true` routes it to
@@ -745,7 +746,7 @@ function FoodItem({ food, cityName }) {
 function CityOverview({ landmarkCount = 0, city, stories, storiesLoading, foods, foodsLoading, words, wordsLoading, onSelectFilter }) {
   const loading = storiesLoading || foodsLoading || wordsLoading
   const wordCount = city.wordsPublished ? words.length : 0
-  const sections = loading ? [] : FILTERS.slice(1)
+  const sections = loading ? [] : FILTERS.slice(1).filter(f => !f.hidden)
     .map(f => ({ filter: f, count: f.landmarks ? landmarkCount : f.events ? upcomingEvents(city.name).length : f.words ? wordCount : f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
@@ -1814,7 +1815,7 @@ export default function App() {
     return [...list, ...cityLandmarkStories.filter(l => l.landmark.members.some(m => ids.has(m.id)))]
   }
   const wordsAvailable = !!(selectedCity?.wordsPublished && words.length > 0)
-  const availableFilters = FILTERS.slice(1).filter(f => f.landmarks ? cityLandmarkStories.length > 0 : f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
+  const availableFilters = FILTERS.slice(1).filter(f => !f.hidden).filter(f => f.landmarks ? cityLandmarkStories.length > 0 : f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
 
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()

@@ -95,13 +95,22 @@ export async function fetchFoodsForCity(cityId, cityName) {
 }
 
 export async function fetchStoriesForCity(cityId) {
-  const res = await client.getEntries({
-    content_type: 'story',
-    'fields.relatedCity.sys.id': cityId,
-    limit: 500,
-    include: 2,
-  })
-  return res.items.map(item => {
+  // Paged: London is past 500 stories, the most one request can return
+  // with linked entries included.
+  const items = []
+  for (let skip = 0; ; ) {
+    const res = await client.getEntries({
+      content_type: 'story',
+      'fields.relatedCity.sys.id': cityId,
+      limit: 400,
+      skip,
+      include: 2,
+    })
+    items.push(...res.items)
+    skip += res.items.length
+    if (!res.items.length || skip >= res.total) break
+  }
+  return items.map(item => {
     const f = item.fields
     const channel = f.channel?.fields
     return {
@@ -148,4 +157,8 @@ export async function fetchStoriesForCity(cityId) {
       categories: (f.categories || []).map(c => c.fields?.name || c.fields?.categoryName || ''),
     }
   })
+  // TV is switched off for now (Ryan, Nov 2026): shows stay in Contentful
+  // but don't appear anywhere in the app. Remove 'tv' here to bring them back.
+    .filter(s => !HIDDEN_TYPES.includes((s.mediaType || '').toLowerCase()))
 }
+const HIDDEN_TYPES = ['tv']
