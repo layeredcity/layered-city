@@ -566,7 +566,7 @@
     "Chinese Cultural Centre (site of 1999 embassy bombing)"
    ],
    "description": "The site of the Chinese embassy that NATO bombed in May 1999, killing three people. A Chinese cultural centre now stands there.",
-   "photoSearch": true
+   "noPhoto": true
   },
   {
    "id": "tesla-museum",
@@ -661,7 +661,7 @@
     "Alexanderplatz"
    ],
    "description": "A big open square in former East Berlin, with the TV tower, the World Clock and a busy train station.",
-   "photoSearch": true
+   "photoFile": "Weltzeituhr and Fernsehturm at Alexanderplatz (15186345718).jpg"
   },
   {
    "id": "potsdamer-platz",
@@ -829,7 +829,7 @@
     "Palace of the Parliament"
    ],
    "description": "Ceaușescu’s enormous government palace, one of the largest buildings in the world, built over a cleared historic district. Guided tours run inside.",
-   "photoSearch": true
+   "photoFile": "Bucureşti . Palatul parlamentului from Bulevardul unirii. June 1996 (3402687988).jpg"
   },
   {
    "id": "romanian-athenaeum",
@@ -1627,7 +1627,7 @@
     "Galata Mevlevi Lodge museum"
    ],
    "description": "A former lodge of the Mevlevi order, the whirling dervishes, now a museum with the wooden hall where their ceremony took place.",
-   "photoSearch": true
+   "photoFile": "Galata Mevlevi Lodge - Museum - Cemetery - Istanbul, Turkey (10583334626).jpg"
   },
   {
    "id": "theodosian-walls",
@@ -2370,7 +2370,7 @@
     "Cité Radieuse (Unité d’Habitation)"
    ],
    "description": "Le Corbusier’s 1952 concrete housing block on stilts, with shops and a hotel on an inside street and a terrace on the roof.",
-   "photoSearch": true
+   "noPhoto": true
   }
  ],
  "Munich": [
@@ -2901,7 +2901,7 @@
     "Folies Bergère music hall"
    ],
    "description": "A music hall open since 1869 and famous for its cabaret revues. It now mostly hosts concerts and musicals.",
-   "photoSearch": true
+   "photoFile": "Folies-bergere-facade.jpg"
   },
   {
    "id": "invalides",
@@ -3064,7 +3064,7 @@
     "Harpa concert hall"
    ],
    "description": "The glass-fronted concert hall on the harbour, opened in 2011 and home of the Iceland Symphony Orchestra.",
-   "photoSearch": true
+   "noPhoto": true
   },
   {
    "id": "laekjartorg",
