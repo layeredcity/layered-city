@@ -897,3 +897,5 @@ html[data-vt] .panel-story { transition: none !important; }
    top edge, not 28px below it (the pop-up's padding), so nothing scrolls
    past above them. */
 .story-modal .landmark-group-heading { top: -28px; }
+
+.story-modal__btn-row--extra { margin-top: 10px; }

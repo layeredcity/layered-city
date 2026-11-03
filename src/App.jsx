@@ -919,18 +919,26 @@ const GOODREADS_ICON = <img className="brand-favicon" src="/goodreads.png" alt="
 const BOOKSHOP_ICON = <span className="brand-favicon brand-favicon--bookshop" aria-hidden="true" />
 const IMDB_ICON = <svg viewBox="0 0 24 24" fill="currentColor" className="story-modal__btn-icon"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
 
-// Movie/TV link row: a JustWatch "where to watch" button + a "View on IMDb"
-// button built from the imdb id. Shared by the desktop and mobile modals.
+// Movie/TV link row. Every film and show gets a JustWatch "Find where to
+// watch" button: the stored JustWatch link if there is one, otherwise a
+// JustWatch search for the title. A stored link to somewhere else (YouTube,
+// Vimeo, Amazon…) is kept as its own button alongside. Then "View on IMDb",
+// built from the imdb id. Shared by the desktop and mobile modals.
+const isJustWatch = u => { try { return new URL(u).hostname.includes('justwatch') } catch { return false } }
 function MovieButtons({ story }) {
-  const url = cleanWatchUrl(story.mediaUrl || story.secondaryUrl || null)
+  const stored = [story.mediaUrl, story.secondaryUrl].filter(Boolean)
+  const jw = cleanWatchUrl(stored.find(isJustWatch) ||
+    (story.title ? `https://www.justwatch.com/us/search?q=${encodeURIComponent(story.title)}` : null))
+  const other = stored.find(u => !isJustWatch(u)) || null
   const imdb = story.imdbId ? `https://www.imdb.com/title/${story.imdbId}/` : null
-  if (!url && !imdb) return null
+  if (!jw && !other && !imdb) return null
   return (
+    <>
     <div className="story-modal__btn-row">
-      {url && (
-        <a href={url} target="_blank" rel="noreferrer" className="story-modal__btn">
+      {jw && (
+        <a href={jw} target="_blank" rel="noreferrer" className="story-modal__btn">
           {cloneElement(TYPE_ICONS.movie, { className: 'story-modal__btn-icon' })}
-          {movieBtnLabel(url)}
+          Find where to watch
         </a>
       )}
       {imdb && (
@@ -940,6 +948,17 @@ function MovieButtons({ story }) {
         </a>
       )}
     </div>
+    {/* A stored non-JustWatch link gets its own row, so three buttons never
+        squeeze into one. */}
+    {other && (
+      <div className="story-modal__btn-row story-modal__btn-row--extra">
+        <a href={other} target="_blank" rel="noreferrer" className="story-modal__btn">
+          {cloneElement(TYPE_ICONS.movie, { className: 'story-modal__btn-icon' })}
+          {movieBtnLabel(other)}
+        </a>
+      </div>
+    )}
+    </>
   )
 }
 
