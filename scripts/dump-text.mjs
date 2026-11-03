@@ -11,6 +11,7 @@ async function all(type) {
   }
   return items
 }
+await fs.mkdir('data/text', { recursive: true })
 const cities = await all('city')
 const cn = Object.fromEntries(cities.map(c => [c.sys.id, c.fields.cityName]))
 const strip = (o, keys) => Object.fromEntries(keys.filter(k => o[k] != null && typeof o[k] !== 'object').map(k => [k, o[k]]))
