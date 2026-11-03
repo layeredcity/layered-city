@@ -2202,8 +2202,10 @@
    "minutes": null,
    "km": null,
    "creator": null,
+   "about": "",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/belfast/exploring-belfast-s-titanic-quarter": {
    "status": 200,
@@ -2216,8 +2218,10 @@
    "minutes": 25,
    "km": 2,
    "creator": "Patti schifano",
+   "about": "Set sail to discover the origins of the famous and doomed RMS Titanic with this self-guided tour of Belfast, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/belfast/belfast-s-peace-walls-walking-tour-from-divis-tower-to-bobby-sands": {
    "status": 200,
@@ -2230,8 +2234,10 @@
    "minutes": 60,
    "km": 2,
    "creator": "Hélène K",
+   "about": "Discover Belfast&#39;s divided streets, political murals, and interface gates on a self-guided audio tour from Divis Tower to the Bobby Sands mural. ",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/belfast/boom-bloodshed-and-belfast-s-remarkable-comeback-a-walking-tour": {
    "status": 200,
@@ -2244,8 +2250,10 @@
    "minutes": 10,
    "km": 2,
    "creator": "Jonathan Meadows",
+   "about": "Discover Belfast&#39;s journey from Victorian powerhouse to modern capital — Crown Bar, City Hall, and the Grand Opera House. Start instantly.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/belfast/belfast-s-maritime-mile-a-walking-tour-from-city-center-to-titanic": {
    "status": 200,
@@ -2258,8 +2266,10 @@
    "minutes": 60,
    "km": 2,
    "creator": "William &amp; Teresa Weller",
+   "about": "Follow the shoreline path where riveters and towering cranes built the Titanic with this self-guided tour of Belfast, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/belfast/the-heart-of-belfast-from-humble-beginnings-to-shipbuilding-glory": {
    "status": 200,
@@ -2272,8 +2282,10 @@
    "minutes": 60,
    "km": 2,
    "creator": "Jonathan Meadows",
+   "about": "Chart a course through the ebbs and flows of this former shipbuilding city with this self-guided tour of Belfast, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/glasgow/glasgow-through-the-ages-a-sightseeing-walk-from-the-cathedral-to-glasgow-green": {
    "status": 200,
@@ -2286,8 +2298,10 @@
    "minutes": 75,
    "km": 2,
    "creator": "Georgia",
+   "about": "Ramble back in time to discover Glasgow&#39;s humble beginnings with this self-guided tour of Glasgow, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/glasgow/glasgow-the-merchant-city": {
    "status": 200,
@@ -2300,8 +2314,10 @@
    "minutes": 75,
    "km": 2,
    "creator": "emily",
+   "about": "Trace the shifting fortunes of the British Empire’s ‘Second City’ with this self-guided tour of Glasgow, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/glasgow/ghouls-and-gruesome-tales-a-glasgow-ghost-tour-with-where-now": {
    "status": 200,
@@ -2314,8 +2330,10 @@
    "minutes": 90,
    "km": 3,
    "creator": "Sean W",
+   "about": "Dig up the dark, mysterious, and haunted past of Scotland’s biggest city with this self-guided tour of Glasgow, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/glasgow/stroll-through-time-a-walking-tour-of-glasgow-s-west-end": {
    "status": 200,
@@ -2328,8 +2346,10 @@
    "minutes": 120,
    "km": 4,
    "creator": "Anonymous Explorer",
+   "about": "Get schooled on the events and people who shaped the city’s university district with this self-guided tour of Glasgow, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/liverpool/hidden-histories-liverpool-s-links-to-the-transatlantic-slave-trade": {
    "status": 200,
@@ -2342,8 +2362,10 @@
    "minutes": 60,
    "km": 2,
    "creator": "Francis",
+   "about": "Unravel the thread that links Liverpool’s monuments to the Slave Trade with this self-guided tour of Liverpool, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/liverpool/the-beatles-docks-and-rock-n-roll-liverpool-s-musical-heritage": {
    "status": 200,
@@ -2356,8 +2378,10 @@
    "minutes": 90,
    "km": 3,
    "creator": "Anonymous Explorer",
+   "about": "A self-guided audio tour through Beatles history &amp; Liverpool&#39;s waterfront. Discover Cavern Club, music venues &amp; maritime heritage. Start anytime.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/liverpool/liverpool-history-and-culture-from-the-past-to-the-present": {
    "status": 200,
@@ -2370,8 +2394,10 @@
    "minutes": 60,
    "km": 2,
    "creator": "Hélène K",
+   "about": "Rock out along the River Mersey in the birthplace of the fab four with this self-guided tour of Liverpool, the United Kingdom. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/the-best-of-milan-explore-the-city-s-secrets": {
    "status": 200,
@@ -2384,8 +2410,10 @@
    "minutes": 90,
    "km": 3,
    "creator": "Marian",
+   "about": "Unlock Milan&#39;s hidden secrets on this self-guided audio tour. Discover Duomo mysteries, La Scala stories, and trendy Brera without booking.\r\n",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/the-mysteries-of-milan-from-the-duomo-to-the-royal-palace": {
    "status": 200,
@@ -2398,8 +2426,10 @@
    "minutes": 90,
    "km": 2,
    "creator": "Pebbles Fancy",
+   "about": "Seek out a side of Milan that you won&#39;t find in glossy magazines  with this self-guided tour of Milan, Italy. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/milano-cortina-2026-a-walking-tour-of-milan-at-the-winter-olympics": {
    "status": 200,
@@ -2412,8 +2442,10 @@
    "minutes": 90,
    "km": 3,
    "creator": "Emma Collins",
+   "about": "Experience Milan’s Olympic spirit on this on-demand audio tour. Walk the Via Azzurra at your own pace via the VoiceMap app. No booking required!",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/milan-fashion-tour-a-guide-to-quadrilatero-della-moda-with-context": {
    "status": 200,
@@ -2426,8 +2458,10 @@
    "minutes": 90,
    "km": 3,
    "creator": "Benjamin ",
+   "about": "See where art, design and history meet in the fashion capital that birthed Prada with this self-guided tour of Milan, Italy. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/milan-s-duomo-quarter-stories-secrets-and-architecture": {
    "status": 200,
@@ -2440,8 +2474,10 @@
    "minutes": 90,
    "km": 3,
    "creator": "Sandi S",
+   "about": "Explore 1,000 years of Milanese history, from Gothic spires to Renaissance palaces. A self-guided walk on your smartphone. Start whenever you like.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/leonardo-da-vinci-s-milan-a-walking-tour": {
    "status": 200,
@@ -2454,8 +2490,10 @@
    "minutes": 120,
    "km": 5,
    "creator": "Kevin H Higa",
+   "about": "Navigate the Renaissance city’s evolution through da Vinci’s groundbreaking work with this self-guided tour of Milan, Italy. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/the-shades-of-old-milan-a-navigli-walking-tour-with-context": {
    "status": 200,
@@ -2468,8 +2506,10 @@
    "minutes": 75,
    "km": 2,
    "creator": "Helen ",
+   "about": "Meander along quaint streets and canals in the modern city&#39;s traditional corner with this self-guided tour of Milan, Italy. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/stories-of-the-fashion-capital-milan": {
    "status": 200,
@@ -2482,8 +2522,10 @@
    "minutes": 60,
    "km": 2,
    "creator": "Rosie L",
+   "about": "Self-guided audio tour through Milan. Duomo Cathedral, Galleria Vittorio Emanuele II, La Scala Theatre, Via Montenapoleone. Walk at your own pace.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/milan/legends-and-curiosities-a-guide-to-milan-s-hidden-corners": {
    "status": 200,
@@ -2496,8 +2538,10 @@
    "minutes": 150,
    "km": 5,
    "creator": "JM Harrell",
+   "about": "Hunt down strange secrets and forgotten stories in Milan’s medieval center with this self-guided tour of Milan, Italy. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/warsaw/a-miracle-from-the-rubble-warsaw-old-town-walking-tour": {
    "status": 200,
@@ -2510,8 +2554,10 @@
    "minutes": 90,
    "km": 1,
    "creator": "Eric Marsh",
+   "about": "Explore Warsaw&#39;s rebuilt Old Town. Hear the miracle story of the Royal Castle, Market Square, and WWII survival on this audio tour.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/warsaw/krakowskie-przedmiescie-the-fascinating-story-of-the-street": {
    "status": 200,
@@ -2524,8 +2570,10 @@
    "minutes": 60,
    "km": 3,
    "creator": "Anonymous Explorer",
+   "about": "Embark on a timeless journey of this historical street with Warsaw local Hanna with this self-guided tour of Warsaw, Poland. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/warsaw/warsaw-at-war-1939-1945": {
    "status": 200,
@@ -2538,8 +2586,10 @@
    "minutes": 75,
    "km": 3,
    "creator": "Agnieszka  Y",
+   "about": "Follow the 1944 Uprising from Sigismund&#39;s Column to the Little Insurgent and the Ghetto wall markers, on your phone, whenever suits you. No booking. ",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/warsaw/lazienki-park-legacy-of-the-last-king": {
    "status": 200,
@@ -2552,8 +2602,10 @@
    "minutes": 75,
    "km": 3,
    "creator": "Anonymous Explorer",
+   "about": "Stroll through Royal Lazienki, Warsaw&#39;s gorgeous and historical green heart with this self-guided tour of Warsaw, Poland. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/warsaw/wilanow-palace-legacy-of-king-jan-iii-sobieski": {
    "status": 200,
@@ -2566,8 +2618,10 @@
    "minutes": 90,
    "km": 4,
    "creator": "Anonymous Explorer",
+   "about": "From the Main Gate to Saturn&#39;s sundial and the Chinese Gazebo. Use the VoiceMap app, with no booking needed, and take as long as you like.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   },
   "https://voicemap.me/tour/warsaw/from-stalin-to-skyscrapers-a-walk-around-warsaw-s-palace-of-culture": {
    "status": 200,
@@ -2580,8 +2634,10 @@
    "minutes": 60,
    "km": 90,
    "creator": "Mike Abbott",
+   "about": "Explore Stalin’s &quot;gift&quot; and Warsaw Manhattan at your own pace. This on-demand audio tour via mobile app reveals the city’s Soviet and modern soul.",
    "lat": null,
-   "lon": null
+   "lon": null,
+   "start": ""
   }
  }
 }
