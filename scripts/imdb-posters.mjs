@@ -3,7 +3,18 @@
 // writes data/posters/out.json for review. Input: data/posters/in.json
 // [{ key, imdb?, q }].
 import fs from 'node:fs/promises'
-const list = JSON.parse(await fs.readFile('data/posters/in.json', 'utf8'))
+let list = JSON.parse(await fs.readFile('data/posters/in.json', 'utf8'))
+// { "allMoviesWithoutCover": true }: every published movie with an IMDb id
+// and no pinned cover (coverImageUrl / coverAsset) in Contentful.
+if (list.allMoviesWithoutCover) {
+  const T = process.env.CONTENTFUL_DELIVERY_TOKEN, items = []
+  for (let skip = 0; ; ) {
+    const d = await (await fetch(`https://cdn.contentful.com/spaces/yl6xhrcd616q/environments/master/entries?content_type=story&fields.mediaType=movie&limit=1000&skip=${skip}`, { headers: { Authorization: 'Bearer ' + T } })).json()
+    items.push(...d.items); skip += d.items.length
+    if (skip >= d.total || !d.items.length) break
+  }
+  list = items.filter(i => i.fields.imdbId && !i.fields.coverImageUrl && !i.fields.coverAsset).map(i => ({ key: i.sys.id, imdb: i.fields.imdbId, t: i.fields.storyTitle }))
+}
 const out = []
 for (const f of list) {
   const q = f.imdb || f.q
@@ -13,7 +24,7 @@ for (const f of list) {
     out.push({ ...f, status: r.status, hits: (d.d || []).slice(0, 5).map(h => ({ id: h.id, l: h.l, y: h.y, q: h.q, s: h.s, img: h.i?.imageUrl || null })) })
   } catch (e) { out.push({ ...f, err: String(e) }) }
   // also check the OMDb-style image still loads, for comparison
-  await new Promise(r => setTimeout(r, 500))
+  await new Promise(r => setTimeout(r, 300))
 }
 for (const o of out) for (const h of o.hits || []) if (h.img) { try { const r = await fetch(h.img, { method: 'HEAD' }); h.ok = r.status } catch { h.ok = 0 } }
 await fs.writeFile('data/posters/out.json', JSON.stringify(out, null, 1))
