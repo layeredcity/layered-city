@@ -8,13 +8,13 @@ export const WORD_SLOTS = [
   // Coming & going
   'greeting-casual', 'greeting-morning', 'greeting-afternoon', 'greeting-evening', 'leaving',
   // Language
-  'speak-english', 'dont-understand',
+  'speak-english',
   // Apology & passage
   'sorry', 'excuse-attention', 'excuse-passing',
   // Numbers
-  'number-one', 'number-two', 'number-three', 'number-four',
+  'number-one', 'number-two', 'number-three', 'number-four', 'number-five',
   // At the table
-  'table-for', 'menu', 'id-like-this', 'enjoy-meal', 'cheers', 'delicious', 'check', 'money-surprise',
+  'menu', 'enjoy-meal', 'cheers', 'delicious', 'check', 'money-surprise',
   // Out and about
   'where-is', 'ticket', 'bathroom', 'door-men', 'door-women', 'atm',
   // Shopping
@@ -27,15 +27,23 @@ export const SLOT_CATEGORY = {
   'greeting-morning': 'coming-going', 'greeting-afternoon': 'coming-going',
   'greeting-evening': 'coming-going', 'greeting-casual': 'coming-going', 'leaving': 'coming-going',
   'please': 'basics', 'thanks': 'basics', 'yes': 'basics', 'no': 'basics',
-  'speak-english': 'language', 'dont-understand': 'language',
+  'speak-english': 'language',
   'sorry': 'apology-passage', 'excuse-attention': 'apology-passage', 'excuse-passing': 'apology-passage',
-  'number-one': 'numbers', 'number-two': 'numbers', 'number-three': 'numbers', 'number-four': 'numbers',
-  'table-for': 'table', 'menu': 'table', 'id-like-this': 'table', 'enjoy-meal': 'table',
+  'number-one': 'numbers', 'number-two': 'numbers', 'number-three': 'numbers', 'number-four': 'numbers', 'number-five': 'numbers',
+  'menu': 'table', 'enjoy-meal': 'table',
   'cheers': 'table', 'delicious': 'table', 'check': 'table', 'money-surprise': 'table',
   'where-is': 'out-about', 'ticket': 'out-about', 'bathroom': 'out-about',
   'door-men': 'out-about', 'door-women': 'out-about', 'atm': 'out-about',
   'how-much': 'shopping', 'card': 'shopping', 'cash': 'shopping', 'bag': 'shopping',
   'deep-cut': 'deep-cuts',
+}
+
+// A fixed line shown on every city's word for these slots, above the city's own
+// context: why the word is there, or that it's one you'll hear rather than say.
+export const SLOT_NOTE = {
+  'delicious': 'Say it to warmly compliment your waiter, the owner or the chef.',
+  'enjoy-meal': 'You’ll hear this from the waiter. It isn’t one you need to say.',
+  'bag': 'You’ll hear this from the cashier at the checkout.',
 }
 
 // \n forces the heading's line break (rendered with white-space: pre-line).

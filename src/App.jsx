@@ -3,7 +3,7 @@ import { flushSync } from 'react-dom'
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
 import { fetchCities, fetchStoriesForCity, fetchFoodsForCity, fetchWordsForCity } from './utils/contentful'
-import { groupWords, preambleBullets, cityLanguage } from './utils/words'
+import { groupWords, preambleBullets, cityLanguage, SLOT_NOTE } from './utils/words'
 import { fetchOmdbData } from './utils/omdb'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
@@ -383,7 +383,7 @@ const WORD_ICONS = {
   ),
 }
 
-// The Words phrasebook: a preamble, then categories in the locked order, each
+// The Words phrasebook: categories, then the overall advice in the locked order, each
 // word showing local · phonetic · meaning, with optional context and a group
 // note. Deep cuts get the formula subtitle and carry their meaning in context.
 function WordsPanel({ city, words }) {
@@ -391,19 +391,6 @@ function WordsPanel({ city, words }) {
   const categories = groupWords(words)
   return (
     <div className="words">
-      {bullets.length > 0 && (
-        <div className="words__cat">
-          <div className="words__cat-aside">
-            {WORD_ICONS.advice}
-            <div className="words__cat-title">Overall advice</div>
-          </div>
-          <div className="words__cat-main">
-            <ul className="words__advice">
-              {bullets.map((b, i) => <li key={i}>{renderInline(b)}</li>)}
-            </ul>
-          </div>
-        </div>
-      )}
       {categories.map(cat => (
         <div key={cat.key} className="words__cat">
           <div className="words__cat-aside">
@@ -417,6 +404,7 @@ function WordsPanel({ city, words }) {
                   <span className="word-row__local">{w.local}</span>
                   {w.phonetic && <span className="word-row__phon">{w.phonetic}</span>}
                   {w.meaning && <span className="word-row__meaning">{capFirst(w.meaning)}</span>}
+                  {SLOT_NOTE[w.slot] && <span className="word-row__ctx word-row__note">{SLOT_NOTE[w.slot]}</span>}
                   {w.context && <span className="word-row__ctx">{w.context}</span>}
                   {w.groupNote && <span className="word-row__grp">{w.groupNote}</span>}
                 </div>
@@ -426,6 +414,19 @@ function WordsPanel({ city, words }) {
           </div>
         </div>
       ))}
+      {bullets.length > 0 && (
+        <div className="words__cat">
+          <div className="words__cat-aside">
+            {WORD_ICONS.advice}
+            <div className="words__cat-title">Overall advice</div>
+          </div>
+          <div className="words__cat-main">
+            <ul className="words__advice">
+              {bullets.map((b, i) => <li key={i}>{renderInline(b)}</li>)}
+            </ul>
+          </div>
+        </div>
+      )}
     </div>
   )
 }
