@@ -8,12 +8,14 @@ import fs from 'node:fs'
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36'
 const sleep = ms => new Promise(r => setTimeout(r, ms))
 const get = (u, o = {}) => fetch(u, { headers: { 'User-Agent': UA, 'Accept-Language': 'en-GB,en', ...(o.headers || {}) }, redirect: 'follow' })
-const out = { videos: {}, channels: {}, podcasts: {}, shows: {}, books: {}, films: {}, tours: {} }
+const TOURS_ONLY = process.env.TOURS_ONLY === '1'
+const out = TOURS_ONLY ? JSON.parse(fs.readFileSync('data/batch/check.json', 'utf8')) : { videos: {}, channels: {}, podcasts: {}, shows: {}, books: {}, films: {}, tours: {} }
+if (TOURS_ONLY) out.tours = {}
 const cities = fs.readdirSync('data/batch').filter(d => fs.statSync(`data/batch/${d}`).isDirectory())
 const read = (c, f) => { try { return JSON.parse(fs.readFileSync(`data/batch/${c}/${f}.json`, 'utf8')) } catch { return [] } }
 const all = f => cities.flatMap(c => [...read(c, f), ...read(c, f + '-add')])
 
-for (const v of all('videos')) {
+for (const v of TOURS_ONLY ? [] : all('videos')) {
   if (!v.youtube || out.videos[v.youtube]) continue
   const r = { }
   try {
@@ -32,7 +34,7 @@ for (const v of all('videos')) {
   await sleep(400)
 }
 
-for (const p of all('podcasts')) {
+for (const p of TOURS_ONLY ? [] : all('podcasts')) {
   const key = `${p.show}|${p.episode}`
   if (out.podcasts[key]) continue
   const r = {}
@@ -58,7 +60,7 @@ for (const p of all('podcasts')) {
   await sleep(3200)
 }
 
-for (const b of all('books')) {
+for (const b of TOURS_ONLY ? [] : all('books')) {
   if (!b.isbn || out.books[b.isbn]) continue
   const r = {}
   try {
@@ -72,7 +74,7 @@ for (const b of all('books')) {
   await sleep(300)
 }
 
-const films = all('films').filter(f => f.imdb)
+const films = TOURS_ONLY ? [] : all('films').filter(f => f.imdb)
 if (films.length) {
   const ids = films.map(f => `"${f.imdb}"`).join(' ')
   const q = `SELECT ?id ?itemLabel ?date WHERE { VALUES ?id { ${ids} } ?item wdt:P345 ?id . OPTIONAL { ?item wdt:P577 ?date } SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } }`
@@ -97,8 +99,11 @@ for (const t of all('tours')) {
     r.minutes = +(h.match(/(\d+)\s*min(?:ute)?s?\b/)?.[1] || 0) || null
     r.km = +(h.match(/([\d.]+)\s*km\b/)?.[1] || 0) || null
     r.creator = ld.match(/"author":\s*\{[^}]*"name":\s*"([^"]+)"/)?.[1] || null
-    r.lat = +(ld.match(/"latitude":\s*"?(-?[\d.]+)/)?.[1] || 0) || null
-    r.lon = +(ld.match(/"longitude":\s*"?(-?[\d.]+)/)?.[1] || 0) || null
+    r.about = (h.match(/name="description" content="([^"]*)"/)?.[1] || '').slice(0, 400)
+    r.km = +(h.match(/([\d.]+)\s*km\b/)?.[1] || 0) || null
+    const ll = h.match(/"lat(?:itude)?"\s*:\s*"?(-?\d{1,2}\.\d{3,})"?\s*,\s*"(?:lng|lon|longitude)"\s*:\s*"?(-?\d{1,3}\.\d{3,})/)
+    r.lat = ll ? +ll[1] : null; r.lon = ll ? +ll[2] : null
+    r.start = (h.match(/[Ss]tart(?:ing)? (?:point|location)[^<]{0,20}<[^>]*>\s*([^<]{3,120})/)?.[1] || '').trim()
   } catch (e) { r.error = String(e) }
   out.tours[t.url] = r
   await sleep(600)
