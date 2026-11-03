@@ -1,0 +1,514 @@
+{
+ "city": "Warsaw",
+ "candidates": [
+  {
+   "place": "Warsaw Rising Museum",
+   "stories": 4,
+   "types": {
+    "podcast": 1,
+    "music": 1,
+    "movie": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palace of Culture and Science",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "video": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Congress Hall, Palace of Culture and Science"
+   ]
+  },
+  {
+   "place": "Wilanów Palace",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Constitution Square, MDM district",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Miła 18 bunker memorial mound",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Monument to the Ghetto Heroes"
+   ]
+  },
+  {
+   "place": "Ghetto wall fragment, Sienna Street",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Maria Skłodowska-Curie Museum, Freta Street",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Old Town Market Square",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Little Insurgent statue, Podwale Street",
+    "Jezuicka Street police station, Old Town"
+   ]
+  },
+  {
+   "place": "Łazienki Park",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Palace on the Isle, Łazienki Park"
+   ]
+  },
+  {
+   "place": "Sigismund’s Column, Castle Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Royal Castle main entrance",
+    "Castle Square",
+    "Castle Square and Sigismund’s Column",
+    "Royal Castle, Castle Square"
+   ]
+  },
+  {
+   "place": "Royal Castle main entrance",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Sigismund’s Column, Castle Square",
+    "Castle Square",
+    "Castle Square and Sigismund’s Column",
+    "Royal Castle, Castle Square"
+   ]
+  },
+  {
+   "place": "Castle Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Sigismund’s Column, Castle Square",
+    "Royal Castle main entrance",
+    "Castle Square and Sigismund’s Column",
+    "Royal Castle, Castle Square"
+   ]
+  },
+  {
+   "place": "Warsaw Ghetto Museum, former Bersohn and Bauman Children’s Hospital",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Site of Mała Ziemiańska café, Mazowiecka Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Belweder Palace",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palace on the Isle, Łazienki Park",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Łazienki Park"
+   ]
+  },
+  {
+   "place": "Neon Muzeum, Soho Factory",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Monument to the Ghetto Heroes",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Miła 18 bunker memorial mound"
+   ]
+  },
+  {
+   "place": "Fryderyk Chopin Museum, Ostrogski Palace",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Warsaw Uprising Monument, Krasiński Square",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Castle Square and Sigismund’s Column",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sigismund’s Column, Castle Square",
+    "Royal Castle main entrance",
+    "Castle Square",
+    "Royal Castle, Castle Square"
+   ]
+  },
+  {
+   "place": "Little Insurgent statue, Podwale Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Old Town Market Square",
+    "Jezuicka Street police station, Old Town"
+   ]
+  },
+  {
+   "place": "Smolensk disaster memorial, Piłsudski Square",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "University of Warsaw main gate",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Congress Hall, Palace of Culture and Science",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Palace of Culture and Science"
+   ]
+  },
+  {
+   "place": "Barbican, Old Town walls",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Presidential Palace, Krakowskie Przedmieście",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Krakowskie Przedmieście street"
+   ]
+  },
+  {
+   "place": "Wola Massacre memorial, Leszno Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Castle, Castle Square",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Sigismund’s Column, Castle Square",
+    "Royal Castle main entrance",
+    "Castle Square",
+    "Castle Square and Sigismund’s Column"
+   ]
+  },
+  {
+   "place": "National Stadium (PGE Narodowy)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Stefan Batory High School, Myśliwiecka street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Polish Radio Three building, Myśliwiecka street"
+   ]
+  },
+  {
+   "place": "Świętokrzyska metro station",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ursynów housing estates, KEN avenue",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Szpilman hiding place, Niepodległości avenue 223",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Polish Radio Three building, Myśliwiecka street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Stefan Batory High School, Myśliwiecka street"
+   ]
+  },
+  {
+   "place": "Warszawa Gdańska railway station",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Legia Warsaw stadium, Łazienkowska street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "National Philharmonic concert hall",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Adria dance hall, Moniuszki street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Grand Theatre (Teatr Wielki), Theatre Square",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Holy Cross Church, Krakowskie Przedmieście",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Arsenal building, Długa Street",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Jewish Historical Institute, Tłomackie Street"
+   ]
+  },
+  {
+   "place": "Saviour Square (Plac Zbawiciela)",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Stanisław Kostka Church, Żoliborz",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ghetto footbridge memorial, Chłodna Street",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Jezuicka Street police station, Old Town",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Little Insurgent statue, Podwale Street",
+    "Old Town Market Square"
+   ]
+  },
+  {
+   "place": "Vistula boulevards",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Dworkowa Street memorial",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Umschlagplatz memorial",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Warsaw Zoo",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Jewish Historical Institute, Tłomackie Street",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Arsenal building, Długa Street"
+   ]
+  },
+  {
+   "place": "Żabiński villa, Warsaw Zoo",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Korczak’s orphanage, Jaktorowska Street",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Krochmalna Street",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Krakowskie Przedmieście street",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Presidential Palace, Krakowskie Przedmieście"
+   ]
+  }
+ ]
+}

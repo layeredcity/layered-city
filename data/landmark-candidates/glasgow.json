@@ -1,0 +1,557 @@
+{
+ "city": "Glasgow",
+ "candidates": [
+  {
+   "place": "George Square",
+   "stories": 3,
+   "types": {
+    "audiotour": 2,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "City Chambers, George Square"
+   ]
+  },
+  {
+   "place": "Glasgow Cathedral",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Provan’s Lordship"
+   ]
+  },
+  {
+   "place": "Mary Barbour statue, Govan Cross",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kelvingrove Art Gallery and Museum",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Gorbals",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "University of Glasgow main building",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Barrowland Ballroom",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Glasgow School of Art, Mackintosh Building",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "The Tenement House, Buccleuch Street",
+    "Glasgow School of Art"
+   ]
+  },
+  {
+   "place": "Hillhead subway station",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Òran Mór, Byres Road"
+   ]
+  },
+  {
+   "place": "Celtic Park",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Celtic Park football stadium"
+   ]
+  },
+  {
+   "place": "Provan’s Lordship",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Glasgow Cathedral"
+   ]
+  },
+  {
+   "place": "Duke of Wellington statue, Royal Exchange Square",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Gallery of Modern Art, Royal Exchange Square"
+   ]
+  },
+  {
+   "place": "Barras market, Gallowgate",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Glasgow Necropolis",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Mackintosh at the Willow, Sauchiehall Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Willow Tea Rooms building, Sauchiehall Street"
+   ]
+  },
+  {
+   "place": "The Tenement House, Buccleuch Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Glasgow School of Art, Mackintosh Building"
+   ]
+  },
+  {
+   "place": "Riverside Museum",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Burrell Collection, Pollok Country Park",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Tobacco Merchant’s House, Miller Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "People’s Palace, Glasgow Green",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "John Brown shipyard, Clydebank",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Enoch subway station",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Mungo mural, High Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Buchanan Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Shish Mahal restaurant, Park Road",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Andrew’s Halls, Granville Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Southern Necropolis",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Linthouse shipyard site",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Òran Mór, Byres Road",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Hillhead subway station"
+   ]
+  },
+  {
+   "place": "Bellahouston Park",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Saltmarket",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hampden Park",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "The Mackintosh House, Hunterian Art Gallery",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Fairfield shipyard, Govan",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Barlinnie Prison",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ibrox Stadium",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Merchant City",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "University of Strathclyde",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Dalmarnock",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "13th Note, King Street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Glasgow School of Art",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Glasgow School of Art, Mackintosh Building"
+   ]
+  },
+  {
+   "place": "Stow College, Cowcaddens",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bellshill",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "City Chambers, George Square",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "George Square"
+   ]
+  },
+  {
+   "place": "West Princes Street, Woodlands",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Red Road flats site, Balornock",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Duke Street, Dennistoun",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bridgeton Cross",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Glasgow Central Station",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Glasgow Sheriff Court",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Argyle Street",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Site of the Red Road flats",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ruchill neighbourhood",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Ruchazie housing scheme",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Forth and Clyde Canal, Maryhill",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Sighthill neighbourhood",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kelvingrove Park",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Celtic Park football stadium",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Celtic Park"
+   ]
+  },
+  {
+   "place": "Glasgow Green park",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Site of Alexander Stephen & Sons shipyard, Linthouse",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Riddrie housing scheme",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Gorbals neighbourhood",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Willow Tea Rooms building, Sauchiehall Street",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Mackintosh at the Willow, Sauchiehall Street"
+   ]
+  },
+  {
+   "place": "Gallery of Modern Art, Royal Exchange Square",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Duke of Wellington statue, Royal Exchange Square"
+   ]
+  }
+ ]
+}

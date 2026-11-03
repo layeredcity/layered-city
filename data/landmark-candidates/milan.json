@@ -1,0 +1,591 @@
+{
+ "city": "Milan",
+ "candidates": [
+  {
+   "place": "San Siro stadium",
+   "stories": 4,
+   "types": {
+    "video": 1,
+    "podcast": 1,
+    "music": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Pinacoteca di Brera art gallery",
+   "stories": 4,
+   "types": {
+    "video": 4
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Basilica of Sant’Ambrogio",
+   "stories": 3,
+   "types": {
+    "video": 1,
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Santa Maria delle Grazie church",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Last Supper refectory, Santa Maria delle Grazie"
+   ]
+  },
+  {
+   "place": "La Scala opera house",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Piazza della Scala",
+    "Teatro alla Scala opera house"
+   ]
+  },
+  {
+   "place": "Via Palestro 20",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Via Palestro 20, Maurizio Gucci’s office"
+   ]
+  },
+  {
+   "place": "Milano Centrale railway station",
+   "stories": 2,
+   "types": {
+    "movie": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Via Montenapoleone",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza del Duomo",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Duomo cathedral rooftop",
+    "Duomo cathedral",
+    "Madonnina statue, Duomo cathedral",
+    "Palazzo Reale palace",
+    "Piazza del Duomo, cathedral square"
+   ]
+  },
+  {
+   "place": "Piazza della Scala",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "La Scala opera house",
+    "Teatro alla Scala opera house"
+   ]
+  },
+  {
+   "place": "Torre Velasca",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Galleria Vittorio Emanuele II",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Castello Sforzesco",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Sala delle Asse, Castello Sforzesco"
+   ]
+  },
+  {
+   "place": "Bosco Verticale towers, Porta Nuova",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Expo 2015 site, Rho",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Igloo houses, Via Lepanto, Maggiolina",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Risorgimento Museum, Palazzo Moriggia",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Police headquarters, Via Fatebenefratelli"
+   ]
+  },
+  {
+   "place": "Piazza Gae Aulenti, Porta Nuova",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza Affari, outside the stock exchange",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Biblioteca Ambrosiana library",
+    "Piazza San Sepolcro"
+   ]
+  },
+  {
+   "place": "Duomo cathedral rooftop",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piazza del Duomo",
+    "Duomo cathedral",
+    "Madonnina statue, Duomo cathedral",
+    "Palazzo Reale palace",
+    "Piazza del Duomo, cathedral square"
+   ]
+  },
+  {
+   "place": "Museo del Novecento, Piazza del Duomo",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Palazzo Reale palace",
+    "Piazza del Duomo, cathedral square"
+   ]
+  },
+  {
+   "place": "Biblioteca Ambrosiana library",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Piazza Affari, outside the stock exchange",
+    "Piazza San Sepolcro"
+   ]
+  },
+  {
+   "place": "Fiera Milano exhibition grounds, Rho",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Alda Merini’s home, Naviglio Grande canal",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "10 Corso Como",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Santa Maria presso San Satiro church",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Casa Museo Boschi Di Stefano, Via Jan",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palazzo Castiglioni, Corso Venezia",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Cimitero Monumentale cemetery",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Via Palestro 20, Maurizio Gucci’s office",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Via Palestro 20"
+   ]
+  },
+  {
+   "place": "Duomo cathedral",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Piazza del Duomo",
+    "Duomo cathedral rooftop",
+    "Madonnina statue, Duomo cathedral",
+    "Palazzo Reale palace",
+    "Piazza del Duomo, cathedral square"
+   ]
+  },
+  {
+   "place": "Last Supper refectory, Santa Maria delle Grazie",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Santa Maria delle Grazie church"
+   ]
+  },
+  {
+   "place": "Sala delle Asse, Castello Sforzesco",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Castello Sforzesco"
+   ]
+  },
+  {
+   "place": "Ca’ Granda, the former Ospedale Maggiore",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "San Gottardo in Corte church",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Palazzo Reale palace",
+    "Piazza Fontana, site of the agricultural bank"
+   ]
+  },
+  {
+   "place": "Cimitero Maggiore cemetery, Musocco",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza San Sepolcro",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Piazza Affari, outside the stock exchange",
+    "Biblioteca Ambrosiana library"
+   ]
+  },
+  {
+   "place": "Gratosoglio towers",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Baggio district",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza Gramsci, Cinisello Balsamo",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Barona district",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Derby Club site, Viale Monte Rosa",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Via Gluck, Greco",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Porta Romana gate",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "San Vittore prison",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Madonnina statue, Duomo cathedral",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Piazza del Duomo",
+    "Duomo cathedral rooftop",
+    "Duomo cathedral",
+    "Palazzo Reale palace",
+    "Piazza del Duomo, cathedral square"
+   ]
+  },
+  {
+   "place": "Teatro alla Scala opera house",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Piazza della Scala",
+    "La Scala opera house"
+   ]
+  },
+  {
+   "place": "San Marco church, Brera",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Casa Verdi rest home, Piazza Buonarroti",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Teatro Lirico, Via Larga",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Palazzo Reale palace",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Piazza del Duomo",
+    "Duomo cathedral rooftop",
+    "Museo del Novecento, Piazza del Duomo",
+    "Duomo cathedral",
+    "San Gottardo in Corte church",
+    "Madonnina statue, Duomo cathedral",
+    "Piazza del Duomo, cathedral square"
+   ]
+  },
+  {
+   "place": "Cadorna railway station",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Villa Necchi Campiglio",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza Fontana, site of the agricultural bank",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "San Gottardo in Corte church"
+   ]
+  },
+  {
+   "place": "Pirelli Tower",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Idroscalo lake",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazza del Duomo, cathedral square",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Piazza del Duomo",
+    "Duomo cathedral rooftop",
+    "Museo del Novecento, Piazza del Duomo",
+    "Duomo cathedral",
+    "Madonnina statue, Duomo cathedral",
+    "Palazzo Reale palace"
+   ]
+  },
+  {
+   "place": "Palace of Justice courthouse",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Police headquarters, Via Fatebenefratelli",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Risorgimento Museum, Palazzo Moriggia"
+   ]
+  },
+  {
+   "place": "Corriere della Sera offices, Via Solferino",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Piazzale Loreto",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Casa del Manzoni museum, Via Morone",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  }
+ ]
+}

@@ -1,0 +1,580 @@
+{
+ "city": "Belfast",
+ "candidates": [
+  {
+   "place": "Belfast City Hall",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "video": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Linen Hall Library, Donegall Square North",
+    "Belfast City Hall, Donegall Square"
+   ]
+  },
+  {
+   "place": "Crown Liquor Saloon, Great Victoria Street",
+   "stories": 3,
+   "types": {
+    "audiotour": 1,
+    "video": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Europa Hotel, Great Victoria Street",
+    "Europa Hotel",
+    "Ulster Hall, Bedford Street"
+   ]
+  },
+  {
+   "place": "Parliament Buildings, Stormont",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Good Vibrations record shop, Great Victoria Street",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "York Street, North Belfast",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Cultúrlann McAdam Ó Fiaich, Falls Road",
+   "stories": 2,
+   "types": {
+    "music": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Falls Road"
+   ]
+  },
+  {
+   "place": "Custom House Square",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Divis Tower",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Divis Tower, Divis Street"
+   ]
+  },
+  {
+   "place": "Titanic Belfast",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Harland & Wolff Drawing Offices",
+    "Harland & Wolff Drawing Offices (Titanic Hotel)"
+   ]
+  },
+  {
+   "place": "Little Lea, Circular Road",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Pottinger’s Entry",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Jaffe Fountain, Victoria Square"
+   ]
+  },
+  {
+   "place": "Europa Hotel, Great Victoria Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Crown Liquor Saloon, Great Victoria Street",
+    "Europa Hotel"
+   ]
+  },
+  {
+   "place": "Divis Flats, Divis Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Divis Tower, Divis Street"
+   ]
+  },
+  {
+   "place": "Cupar Way peace wall",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Peace wall, Cupar Way"
+   ]
+  },
+  {
+   "place": "Falls Road",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Cultúrlann McAdam Ó Fiaich, Falls Road"
+   ]
+  },
+  {
+   "place": "Samson and Goliath cranes",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Harland & Wolff Drawing Offices",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Titanic Belfast",
+    "Titanic slipways, Queen’s Island",
+    "Harland & Wolff Drawing Offices (Titanic Hotel)"
+   ]
+  },
+  {
+   "place": "Lord Kelvin’s birthplace, College Square East",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hyndford Street, east Belfast",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Victoria Hospital, Grosvenor Road",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "The Oval football stadium, Ballymacarrett",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Patrick’s Church, Donegall Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Linen Hall Library, Donegall Square North",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Belfast City Hall",
+    "Belfast City Hall, Donegall Square"
+   ]
+  },
+  {
+   "place": "Ulster Museum",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Clifton Street Cemetery",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Europa Hotel",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Crown Liquor Saloon, Great Victoria Street",
+    "Europa Hotel, Great Victoria Street"
+   ]
+  },
+  {
+   "place": "Castle Buildings, Stormont estate",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Queen’s University Belfast, Lanyon Building",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Queen’s University Students’ Union",
+    "Queen’s University, University Quarter"
+   ]
+  },
+  {
+   "place": "Milltown Cemetery",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Oxford Street bus station site",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bombay Street peace wall",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Belfast City Cemetery",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kinnaird Terrace, Antrim Road",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Craigavon House",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Titanic slipways, Queen’s Island",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Harland & Wolff Drawing Offices",
+    "Harland & Wolff Drawing Offices (Titanic Hotel)"
+   ]
+  },
+  {
+   "place": "Jaffe Fountain, Victoria Square",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Pottinger’s Entry"
+   ]
+  },
+  {
+   "place": "North Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Queen’s University Students’ Union",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Queen’s University Belfast, Lanyon Building",
+    "Queen’s University, University Quarter"
+   ]
+  },
+  {
+   "place": "Belfast City Hall, Donegall Square",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Belfast City Hall",
+    "Linen Hall Library, Donegall Square North"
+   ]
+  },
+  {
+   "place": "York Road, north Belfast",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Harp Bar, Hill Street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Hill Street, Cathedral Quarter"
+   ]
+  },
+  {
+   "place": "Ulster Hall, Bedford Street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Crown Liquor Saloon, Great Victoria Street"
+   ]
+  },
+  {
+   "place": "Burren Way, Cregagh estate",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Cregagh estate, East Belfast"
+   ]
+  },
+  {
+   "place": "Cyprus Avenue, east Belfast",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Maritime Hotel, College Square North",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Donegall Road, the Village",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Lagan Weir, River Lagan",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Windsor Park football stadium",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "DeLorean factory, Dunmurry",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Andersonstown, West Belfast",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Bobby Sands mural, Falls Road",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Hill Street, Cathedral Quarter",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Harp Bar, Hill Street"
+   ]
+  },
+  {
+   "place": "Peace wall, Cupar Way",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Cupar Way peace wall"
+   ]
+  },
+  {
+   "place": "Mountcollyer Street, North Belfast",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Shankill Road",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Divis Tower, Divis Street",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Divis Tower",
+    "Divis Flats, Divis Street"
+   ]
+  },
+  {
+   "place": "Holy Cross church, Ardoyne",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Raglan Street, Lower Falls",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Queen’s University, University Quarter",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Queen’s University Belfast, Lanyon Building",
+    "Queen’s University Students’ Union"
+   ]
+  },
+  {
+   "place": "Cregagh estate, East Belfast",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Burren Way, Cregagh estate"
+   ]
+  },
+  {
+   "place": "Harland & Wolff Drawing Offices (Titanic Hotel)",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Titanic Belfast",
+    "Harland & Wolff Drawing Offices",
+    "Titanic slipways, Queen’s Island"
+   ]
+  },
+  {
+   "place": "C. S. Lewis Square, East Belfast",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  }
+ ]
+}

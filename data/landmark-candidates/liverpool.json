@@ -1,0 +1,495 @@
+{
+ "city": "Liverpool",
+ "candidates": [
+  {
+   "place": "Cavern Club, Mathew Street",
+   "stories": 4,
+   "types": {
+    "podcast": 1,
+    "music": 1,
+    "movie": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Site of Eric’s club, Mathew Street"
+   ]
+  },
+  {
+   "place": "St George’s Hall",
+   "stories": 3,
+   "types": {
+    "video": 1,
+    "music": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Albert Dock",
+   "stories": 2,
+   "types": {
+    "audiotour": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "International Slavery Museum, Royal Albert Dock"
+   ]
+  },
+  {
+   "place": "Granby Street, Toxteth",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Liverpool Cathedral, St James’s Mount",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "International Slavery Museum, Royal Albert Dock",
+   "stories": 2,
+   "types": {
+    "video": 1,
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Royal Albert Dock"
+   ]
+  },
+  {
+   "place": "St Peter’s Church, Woolton",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Mersey Ferries terminal, Pier Head",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "music": 1
+   },
+   "near_within_150m": [
+    "Chinese seamen memorial plaque, Pier Head",
+    "Cunard Building, Pier Head",
+    "Museum of Liverpool, Mann Island"
+   ]
+  },
+  {
+   "place": "Cunard Building, Pier Head",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "book": 1
+   },
+   "near_within_150m": [
+    "Chinese seamen memorial plaque, Pier Head",
+    "Royal Liver Building, Pier Head",
+    "Mersey Ferries terminal, Pier Head"
+   ]
+  },
+  {
+   "place": "Hillsborough memorial, Anfield stadium",
+   "stories": 2,
+   "types": {
+    "podcast": 1,
+    "movie": 1
+   },
+   "near_within_150m": [
+    "The Kop stand, Anfield",
+    "Anfield stadium, the Kop",
+    "Shankly statue, Anfield stadium"
+   ]
+  },
+  {
+   "place": "St Luke’s bombed-out church, Leece Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "St Luke’s Church (the “bombed-out church”)"
+   ]
+  },
+  {
+   "place": "Liverpool Town Hall, Exchange Flags",
+   "stories": 1,
+   "types": {
+    "audiotour": 1
+   },
+   "near_within_150m": [
+    "Exchange Flags (Nelson monument)",
+    "India Buildings, Water Street",
+    "Liverpool Town Hall"
+   ]
+  },
+  {
+   "place": "Lutyens Crypt, Metropolitan Cathedral",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Metropolitan Cathedral of Christ the King"
+   ]
+  },
+  {
+   "place": "Walker Art Gallery",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Regent Road by Stanley Dock",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Goodison Park stadium, Walton",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "The Kop stand, Anfield",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Hillsborough memorial, Anfield stadium",
+    "Anfield stadium, the Kop",
+    "Shankly statue, Anfield stadium"
+   ]
+  },
+  {
+   "place": "Upper Parliament Street, Toxteth",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Chinese seamen memorial plaque, Pier Head",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Royal Liver Building, Pier Head",
+    "Mersey Ferries terminal, Pier Head",
+    "Cunard Building, Pier Head",
+    "Museum of Liverpool, Mann Island"
+   ]
+  },
+  {
+   "place": "Chinatown arch, Nelson Street",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Royal Liver Building, Pier Head",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Chinese seamen memorial plaque, Pier Head",
+    "Cunard Building, Pier Head"
+   ]
+  },
+  {
+   "place": "Exchange Flags (Nelson monument)",
+   "stories": 1,
+   "types": {
+    "video": 1
+   },
+   "near_within_150m": [
+    "Liverpool Town Hall, Exchange Flags",
+    "Liverpool Town Hall"
+   ]
+  },
+  {
+   "place": "Williamson Tunnels Heritage Centre, Smithdown Lane",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Municipal Buildings, Dale Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Scotland Road",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Tate & Lyle refinery site, Love Lane",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Metropolitan Cathedral of Christ the King",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Lutyens Crypt, Metropolitan Cathedral"
+   ]
+  },
+  {
+   "place": "Edge Hill station",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "India Buildings, Water Street",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": [
+    "Liverpool Town Hall, Exchange Flags",
+    "Liverpool Town Hall"
+   ]
+  },
+  {
+   "place": "Old Dock, Liverpool ONE",
+   "stories": 1,
+   "types": {
+    "podcast": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Liverpool Institute for Performing Arts (LIPA)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Hope Street"
+   ]
+  },
+  {
+   "place": "Hoylake, Wirral",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "St Luke’s Church (the “bombed-out church”)",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "St Luke’s bombed-out church, Leece Street"
+   ]
+  },
+  {
+   "place": "Site of Eric’s club, Mathew Street",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "Cavern Club, Mathew Street"
+   ]
+  },
+  {
+   "place": "Meols, Wirral",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Lime Street station",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Strawberry Field gates, Woolton",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Penny Lane, Mossley Hill",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Anfield stadium, the Kop",
+   "stories": 1,
+   "types": {
+    "music": 1
+   },
+   "near_within_150m": [
+    "The Kop stand, Anfield",
+    "Hillsborough memorial, Anfield stadium",
+    "Shankly statue, Anfield stadium"
+   ]
+  },
+  {
+   "place": "Royal Seaforth Dock",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Gerard Gardens tenements site",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kirkby town centre",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Museum of Liverpool, Mann Island",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": [
+    "Chinese seamen memorial plaque, Pier Head",
+    "Mersey Ferries terminal, Pier Head"
+   ]
+  },
+  {
+   "place": "Mendips, 251 Menlove Avenue",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Kensington district",
+   "stories": 1,
+   "types": {
+    "movie": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Shankly statue, Anfield stadium",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "The Kop stand, Anfield",
+    "Hillsborough memorial, Anfield stadium",
+    "Anfield stadium, the Kop"
+   ]
+  },
+  {
+   "place": "Hope Street",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Liverpool Institute for Performing Arts (LIPA)"
+   ]
+  },
+  {
+   "place": "Liverpool Playhouse theatre",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Woodside ferry terminal, Birkenhead",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  },
+  {
+   "place": "Liverpool Town Hall",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": [
+    "Liverpool Town Hall, Exchange Flags",
+    "Exchange Flags (Nelson monument)",
+    "India Buildings, Water Street"
+   ]
+  },
+  {
+   "place": "Prince’s Dock",
+   "stories": 1,
+   "types": {
+    "book": 1
+   },
+   "near_within_150m": []
+  }
+ ]
+}
