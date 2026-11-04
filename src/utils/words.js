@@ -122,4 +122,4 @@ export function preambleBullets(preamble) {
 }
 
 // Deep cuts subtitle is a formula, not stored content.
-export const deepCutsSubtitle = cityName => `Words you won't need, but ${cityName} does`
+export const deepCutsSubtitle = cityName => `Words you won’t need, but ${cityName} does`
