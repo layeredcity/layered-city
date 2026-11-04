@@ -1,5 +1,40 @@
 [
  {
+  "id": "6YMGKWvIC8O8iStM8vfFAQ",
+  "city": "Stockholm",
+  "wordsPreamble": "- English is essentially universal here and spoken very well. Anything you attempt in Swedish is pure courtesy, and it’s received as one.\n- There is no everyday word for “please.” Politeness lives in tone, and in the thank-you word, which does a remarkable amount of work.\n- Sk and sj before soft vowels make a sound English doesn’t have, somewhere between h and sh. Approximating it is completely fine.\n- Å, Ä, and Ö are separate letters and they’re all over the map. Ö is roughly the vowel in “her.”"
+ },
+ {
+  "id": "10dZM9paYeB9CNgTyiarsR",
+  "city": "Seville",
+  "wordsPreamble": "- Not the Spanish you hear in Madrid. Andalusians drop final s, soften consonants, and run words together — faster and flatter.\n- The Madrid “th” mostly disappears here. Seville says *gracias* closer to *GRAH-see-ah* than *GRAH-thee-ahs*.\n- Less English than Madrid or Barcelona. Seville is a working city rather than one performing for visitors.\n- Say hello walking into any shop or bar and goodbye on the way out. It matters as much here as in Madrid, possibly more."
+ },
+ {
+  "id": "4TEz1tswPGXIpTukA5UGBQ",
+  "city": "Naples",
+  "wordsPreamble": "- Standard Italian works everywhere. Neapolitan is a separate language, spoken constantly around you, and not something you’ll follow.\n- English is thinner here than in Rome or Florence, and Naples isn’t performing for visitors the way they do.\n- Neapolitan clips the ends off words: *mozzarella* becomes *muzzarell*, *Napoli* becomes *Napule*. You’ll hear it everywhere.\n- Double consonants are held twice as long, and it changes the word."
+ },
+ {
+  "id": "6WQuKZBUyDrEkxYJaIl9Rf",
+  "city": "Marseille",
+  "wordsPreamble": "- The southern accent is real. Final e’s get pronounced where Paris drops them, and nasal vowels end on a hard “-ng” — *pain* comes out *peng*.\n- Marseille is far less formal than Paris. The greeting ritual still matters walking into a shop, but the rest of the stiffness doesn’t.\n- English is thinner than in Paris, especially away from the Vieux-Port.\n- This is a Mediterranean port with a large North African population. You’ll hear Arabic and Comorian alongside French."
+ },
+ {
+  "id": "42HgqLORuIlIV8Jb6pNPfS",
+  "city": "Munich",
+  "wordsPreamble": "- Munich speaks standard German to visitors, with a Bavarian accent and a set of southern greetings. Reaching for the northern ones is understood, just marked.\n- Use *Sie* with anyone you don’t know, and greet people when you walk into a shop or bakery. Bavarian manners run more formal than the beer halls suggest.\n- English is widely spoken in the centre, by younger people and in hotels and museums, and thinner in old Wirtshäuser and among older locals.\n- *ei* is “eye” and *ie* is “ee.” *St* and *sp* at the start of a word are “sht” and “shp,” and ß is simply a double s."
+ },
+ {
+  "id": "Hpbl9OGLqntXX2jktTOXV",
+  "city": "Brussels",
+  "wordsPreamble": "- Brussels is officially bilingual and everything written appears in French and Dutch. In practice the city runs in French, and that’s what’s below.\n- English is very widely spoken — this is an EU capital and a large share of residents were born elsewhere.\n- Belgian French is close to the Paris version, with two differences worth knowing: “septante” is seventy and “nonante” is ninety.\n- The greeting ritual is softer than Paris. Greet people walking in and the rest of the stiffness doesn’t apply."
+ },
+ {
+  "id": "4IawvSrbVK1Z1L7g9sj8at",
+  "city": "Warsaw",
+  "wordsPreamble": "- Warsaw speaks standard Polish, with little regional accent, and more English than anywhere else in Poland, especially among people under forty.\n- Use “pan” (sir) and “pani” (madam) with strangers and people behind counters. The informal form is for friends and people your age.\n- Greet people in shops with “dzień dobry” and say “do widzenia” leaving. Skipping it reads as rude.\n- *sz* is “sh,” *cz* is “ch,” *w* is “v,” *ł* is “w,” and *rz* sounds like the s in “pleasure.” Stress almost always falls on the second-to-last syllable."
+ },
+ {
   "id": "6FKa004UhZFjYBx6KBt723",
   "city": "Belfast",
   "wordsPreamble": "- English, with an Ulster accent that runs fast and moves its vowels around. Irish and Ulster Scots turn up on some signs; neither is widely spoken day to day.\n- Belfast is friendly and direct, and strangers will talk to you at bus stops. The humour is dry and teasing, and being slagged off by a new friend is a good sign.\n- Words carry sides here. Place names, flags, football shirts and Derry versus Londonderry all signal something, so follow how the person you’re talking to says it.\n- Prices are in pounds sterling. Northern Irish banks print their own notes, which look unfamiliar but spend the same."
@@ -15,19 +50,9 @@
   "wordsPreamble": "- English, with a Glasgow accent and a set of Scots words that visitors from England find harder than Edinburgh’s. People will slow down if you ask.\n- Glasgow is famously open. Strangers start conversations at bus stops and in pub queues, and a short answer reads as unfriendly rather than polite.\n- The humour is dry, quick and often at someone’s expense, including yours. Giving some back is expected.\n- Football runs deep. Celtic and Rangers are a divide with religious and political history, so don’t pick a side casually or wear either strip into a pub."
  },
  {
-  "id": "4IawvSrbVK1Z1L7g9sj8at",
-  "city": "Warsaw",
-  "wordsPreamble": "- Warsaw speaks standard Polish, with little regional accent, and more English than anywhere else in Poland, especially among people under forty.\n- Use pan (sir) and pani (madam) with strangers and people behind counters. The informal form is for friends and people your age.\n- Greet people in shops with dzień dobry and say do widzenia leaving. Skipping it reads as rude.\n- *sz* is “sh,” *cz* is “ch,” *w* is “v,” *ł* is “w,” and *rz* sounds like the s in “pleasure.” Stress almost always falls on the second-to-last syllable."
- },
- {
   "id": "4ZBR7OHqipSyaZx2qOPoqc",
   "city": "Milan",
   "wordsPreamble": "- Milan speaks standard Italian with a northern accent. The old Milanese dialect survives mostly among older people and in a handful of phrases everyone knows.\n- An *s* between vowels is buzzed like a z here: *casa* sounds like “kaza.” Every letter is still pronounced, and double consonants are held longer.\n- English is common in the centre, in business and fashion, and in hotels. Milan is Italy’s working city and moves quickly, so keep exchanges short and polite.\n- Greet people entering a shop or bar, and again on the way out. Coffee is drunk standing at the counter, and fast."
- },
- {
-  "id": "42HgqLORuIlIV8Jb6pNPfS",
-  "city": "Munich",
-  "wordsPreamble": "- Munich speaks standard German to visitors, with a Bavarian accent and a set of southern greetings. Reaching for the northern ones is understood, just marked.\n- Use *Sie* with anyone you don't know, and greet people when you walk into a shop or bakery. Bavarian manners run more formal than the beer halls suggest.\n- English is widely spoken in the centre, by younger people and in hotels and museums, and thinner in old Wirtshäuser and among older locals.\n- *ei* is “eye” and *ie* is “ee.” *St* and *sp* at the start of a word are “sht” and “shp,” and ß is simply a double s."
  },
  {
   "id": "dwwHDZDNhAFjjPRXIUXdp",
@@ -65,29 +90,9 @@
   "wordsPreamble": "- English is common in Sultanahmet, Beyoğlu, and anything tourist-facing, and drops off quickly beyond them.\n- Turkish uses the Latin alphabet and is spelled exactly as it sounds. Once you know a few letters you can read any sign aloud.\n- C is “j” as in jam, and Ç is “ch.” So *Caddesi* is *jahd-DEH-see* and *Beşiktaş* is *beh-SHEEK-tash*.\n- The undotted ı is a swallowed “uh,” different from the dotted i. Both turn up constantly, including in capitals."
  },
  {
-  "id": "Hpbl9OGLqntXX2jktTOXV",
-  "city": "Brussels",
-  "wordsPreamble": "- Brussels is officially bilingual and everything written appears in French and Dutch. In practice the city runs in French, and that’s what’s below.\n- English is very widely spoken — this is an EU capital and a large share of residents were born elsewhere.\n- Belgian French is close to the Paris version, with two differences worth knowing: septante is seventy and nonante is ninety.\n- The greeting ritual is softer than Paris. Greet people walking in and the rest of the stiffness doesn’t apply."
- },
- {
-  "id": "6WQuKZBUyDrEkxYJaIl9Rf",
-  "city": "Marseille",
-  "wordsPreamble": "- The southern accent is real. Final e’s get pronounced where Paris drops them, and nasal vowels end on a hard “-ng” — *pain* comes out *peng*.\n- Marseille is far less formal than Paris. The greeting ritual still matters walking into a shop, but the rest of the stiffness doesn’t.\n- English is thinner than in Paris, especially away from the Vieux-Port.\n- This is a Mediterranean port with a large North African population. You’ll hear Arabic and Comorian alongside French."
- },
- {
-  "id": "4TEz1tswPGXIpTukA5UGBQ",
-  "city": "Naples",
-  "wordsPreamble": "- Standard Italian works everywhere. Neapolitan is a separate language, spoken constantly around you, and not something you’ll follow.\n- English is thinner here than in Rome or Florence, and Naples isn’t performing for visitors the way they do.\n- Neapolitan clips the ends off words: *mozzarella* becomes *muzzarell*, *Napoli* becomes *Napule*. You’ll hear it everywhere.\n- Double consonants are held twice as long, and it changes the word."
- },
- {
   "id": "6tc9ZM1BlUqr9yJHxHeZRT",
   "city": "Florence",
   "wordsPreamble": "- English is heavy in the centre — Florence takes more visitors per resident than almost anywhere in Europe — and drops off sharply across the river.\n- Tuscans soften a hard c between vowels into an h. *La casa* comes out closer to *la hasa*. It’s the local accent, not a mistake.\n- Double consonants are held twice as long, and it changes the word.\n- Greet people entering a shop or bar, and again on the way out."
- },
- {
-  "id": "10dZM9paYeB9CNgTyiarsR",
-  "city": "Seville",
-  "wordsPreamble": "- Not the Spanish you hear in Madrid. Andalusians drop final s, soften consonants, and run words together — faster and flatter.\n- The Madrid “th” mostly disappears here. Seville says *gracias* closer to *GRAH-see-ah* than *GRAH-thee-ahs*.\n- Less English than Madrid or Barcelona. Seville is a working city rather than one performing for visitors.\n- Say hello walking into any shop or bar and goodbye on the way out. It matters as much here as in Madrid, possibly more."
  },
  {
   "id": "560jFPfkqLs0D08ZUn8NzF",
@@ -133,11 +138,6 @@
   "id": "7iL9a6YMsNFGOqHUR58yV",
   "city": "Oslo",
   "wordsPreamble": "- English is universal and excellent. Norwegian is a courtesy here rather than a requirement.\n- Norway has two written standards and a great many dialects, so nobody expects consistency. Say it roughly and you’ll be fine.\n- There is no everyday word for “please.” Politeness lives in tone and in the thank-you word.\n- Æ, Ø, and Å appear on every sign and map. Ø is roughly the vowel in “her”; Å is “oh.”"
- },
- {
-  "id": "6YMGKWvIC8O8iStM8vfFAQ",
-  "city": "Stockholm",
-  "wordsPreamble": "- English is essentially universal here and spoken very well. Anything you attempt in Swedish is pure courtesy, and it’s received as one.\n- There is no everyday word for “please.” Politeness lives in tone, and in the thank-you word, which does a remarkable amount of work.\n- Sk and sj before soft vowels make a sound English doesn’t have, somewhere between h and sh. Approximating it is completely fine.\n- Å, Ä, and Ö are separate letters and they’re all over the map. Ö is roughly the vowel in “her.”"
  },
  {
   "id": "2xDHEPpY9If68wuvjEOxK4",
