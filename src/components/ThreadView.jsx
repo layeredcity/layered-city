@@ -9,10 +9,23 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
 import { fetchStoriesByIds } from '../utils/contentful'
+import PHOTOS from '../data/thread-photos.json'
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
 const ROUTE_COLOR = '#C8412A'
+
+// A Commons image with its credit line (the licences require one).
+function ThreadPhoto({ file, className }) {
+  const p = file && PHOTOS[file]
+  if (!p) return null
+  return (
+    <figure className={className}>
+      <div className={className + '__frame'}><img src={p.src} alt="" loading="lazy" /></div>
+      <figcaption><a href={p.page} target="_blank" rel="noreferrer">{p.author}{p.license ? ` · ${p.license}` : ''}</a></figcaption>
+    </figure>
+  )
+}
 
 function chapterPoints(ch) {
   return ch.points?.length ? ch.points : [{ lat: ch.lat, lon: ch.lon, label: ch.city }]
@@ -125,6 +138,7 @@ export default function ThreadView({ thread, onClose, renderStory }) {
         </button>
         <div className="thread__map" ref={mapEl} />
         <div className="thread__scroll" ref={scrollRef}>
+          <ThreadPhoto file={thread.image} className="thread-hero" />
           <header className="thread__head">
             <div className="thread__kicker">{thread.kind} · {thread.chapters.length} stops</div>
             <h1 className="thread__title">{thread.title}</h1>
@@ -141,6 +155,7 @@ export default function ThreadView({ thread, onClose, renderStory }) {
                   <div className="thread-ch__when">{c.when}</div>
                   <h2 className="thread-ch__heading">{c.heading}</h2>
                   <div className="thread-ch__place">{c.place}</div>
+                  <ThreadPhoto file={c.image} className="thread-img" />
                   <p className="thread-ch__text">{c.text}</p>
                   {c.tip && <p className="thread-ch__tip"><span className="thread-ch__tip-label">If you go</span>{c.tip}</p>}
                   {c.stories.length > 0 && (
