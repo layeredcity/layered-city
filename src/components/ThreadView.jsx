@@ -22,7 +22,7 @@ function ThreadPhoto({ file, className }) {
   return (
     <figure className={className}>
       <div className={className + '__frame'}><img src={p.src} alt="" loading="lazy" /></div>
-      <figcaption><a href={p.page} target="_blank" rel="noreferrer">{p.author}{p.license ? ` · ${p.license}` : ''}</a></figcaption>
+      <figcaption><a href={p.page} target="_blank" rel="noreferrer">{p.author.replace(/^(.+?)\1$/, '$1')}{p.license ? ` · ${p.license}` : ''}</a></figcaption>
     </figure>
   )
 }
