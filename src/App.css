@@ -1003,3 +1003,9 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-pills--dark .thread-pill svg { color: #fff; }
 .thread-pills--dark .thread-pill:hover { background: rgba(255,255,255,0.24); border-color: rgba(255,255,255,0.6); }
 .story-modal__desc + .thread-pills { display: flex; margin: -4px 0 16px; }
+.landmark-top .thread-pills--dark { margin: -12px 28px 24px; }
+.landmark-top .thread-pills--dark + .landmark-hero__credit { margin-top: 0; }
+@media (max-width: 768px) {
+  .panel-story__content--landmark .landmark-top .thread-pills--dark { margin: -10px 20px 22px; }
+  .panel-story__content--landmark .landmark-top .thread-pills--dark + .landmark-hero__credit { margin-top: 0; }
+}
