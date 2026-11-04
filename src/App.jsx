@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useMemo, useRef, cloneElement, Fragment } from 'react'
+import { useState, useEffect, useCallback, useMemo, useRef, cloneElement, Fragment, createContext, useContext } from 'react'
 import { flushSync } from 'react-dom'
 import MediaModal, { getYouTubeEmbedUrl } from './components/MediaModal'
 import './App.css'
@@ -456,6 +456,39 @@ function LandmarkItem({ story, onSelect }) {
 
 // The landmark pop-up / mobile panel: what the place is, then its stories.
 // Tapping a story opens it, with a way back to the landmark.
+// Which threads a story appears in: story ID → [{ slug, title, kind, chapter }].
+const THREADS_BY_STORY = {}
+THREADS.forEach(t => t.chapters.forEach((c, i) => c.stories.forEach(id => {
+  const list = (THREADS_BY_STORY[id] ||= [])
+  if (!list.some(x => x.slug === t.slug)) list.push({ slug: t.slug, title: t.title, kind: t.kind, chapter: i })
+})))
+// Lets story and landmark views open a thread without passing props through
+// every layer: { open(slug, chapter), current: slug of the open thread }.
+const ThreadContext = createContext({ open: () => {}, current: null })
+
+// "Part of a thread" links under a story or landmark.
+function ThreadLinks({ ids }) {
+  const { open, current } = useContext(ThreadContext)
+  const seen = new Set(), links = []
+  ids.forEach(id => (THREADS_BY_STORY[id] || []).forEach(t => {
+    if (t.slug === current || seen.has(t.slug)) return
+    seen.add(t.slug); links.push(t)
+  }))
+  if (!links.length) return null
+  return (
+    <div className="thread-refs">
+      <div className="thread-refs__label">{links.length > 1 ? 'Part of these threads' : 'Part of a thread'}</div>
+      {links.map(t => (
+        <button key={t.slug} type="button" className="thread-ref" onClick={() => open(t.slug, t.chapter)}>
+          <span className="thread-ref__kind">{t.kind}</span>
+          <span className="thread-ref__title">{t.title}</span>
+          <svg className="thread-ref__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      ))}
+    </div>
+  )
+}
+
 function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
   const lm = story.landmark
   if (lm.photo) {
@@ -481,6 +514,7 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
           <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
         </div>
         <div className="landmark-detail__stories">
+          <ThreadLinks ids={lm.members.map(m => m.id)} />
           <LandmarkStories story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
         </div>
       </>
@@ -496,6 +530,7 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
       </div>
       <h2 className="story-modal__title">{lm.name}</h2>
       <p className="story-modal__desc">{lm.description}</p>
+      <ThreadLinks ids={lm.members.map(m => m.id)} />
       <div className="landmark-detail__stories">
         <LandmarkStories story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
       </div>
@@ -1313,6 +1348,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
             <p className="story-modal__desc">{story.description}</p>
           </>
         )}
+        <ThreadLinks ids={[story.id]} />
         <div className="story-modal__meta">
           {isMovieOrTV ? (
             omdbData?.rating && (
@@ -1588,8 +1624,11 @@ export default function App() {
   const [openThreadSlug, setOpenThreadSlug] = useState(() => (window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null)
   const [threadStory, setThreadStory] = useState(null)
   const threadReturnPath = useRef('/')
-  const openThread = useCallback(slug => {
-    threadReturnPath.current = window.location.pathname.startsWith('/threads/') ? '/' : window.location.pathname
+  const [threadStart, setThreadStart] = useState(null)
+  const openThread = useCallback((slug, chapter = null) => {
+    if (!window.location.pathname.startsWith('/threads/')) threadReturnPath.current = window.location.pathname
+    setThreadStory(null); setSelectedStory(null)
+    setThreadStart(chapter)
     setOpenThreadSlug(slug)
     window.history.pushState({}, '', '/threads/' + slug)
   }, [])
@@ -1603,6 +1642,7 @@ export default function App() {
     return () => window.removeEventListener('popstate', onPop)
   }, [])
   const openThreadData = THREADS.find(t => t.slug === openThreadSlug) || null
+  const threadCtx = useMemo(() => ({ open: openThread, current: openThreadSlug }), [openThread, openThreadSlug])
   const [mediaStory, setMediaStory] = useState(null)
   const [omdbCache, setOmdbCache] = useState({})
   const [bookCache, setBookCache] = useState({})
@@ -1961,6 +2001,7 @@ export default function App() {
   }
 
   return (
+    <ThreadContext.Provider value={threadCtx}>
     <div className={"app" + (selectedCity ? ' app--city-selected' : '')}>
       <HomeScreenTip />
       <aside className={"panel-cities" + (mobileView === 'detail' ? ' panel-cities--hidden' : '')}>
@@ -2291,6 +2332,7 @@ export default function App() {
                       <p className="story-modal__desc">{s.description}</p>
                     </>
                   )}
+                  <ThreadLinks ids={[s.id]} />
                   <div className="story-modal__meta">
                     {t === 'book' ? (
                       s.goodreadsRating ? (
@@ -2383,7 +2425,9 @@ export default function App() {
       </div>
       {openThreadData && (
         <ThreadView
+          key={openThreadData.slug}
           thread={openThreadData}
+          startChapter={threadStart}
           onClose={closeThread}
           renderStory={st => <StoryItem story={st} onSelect={setThreadStory} omdbData={omdbCache[st.imdbId]} bookData={bookCache[st.isbn]} />}
         />
@@ -2399,5 +2443,6 @@ export default function App() {
         <div className="thread-media"><MediaModal story={mediaStory} onClose={() => setMediaStory(null)} /></div>
       )}
     </div>
+    </ThreadContext.Provider>
   )
 }

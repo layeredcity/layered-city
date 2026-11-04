@@ -31,7 +31,15 @@ function chapterPoints(ch) {
   return ch.points?.length ? ch.points : [{ lat: ch.lat, lon: ch.lon, label: ch.city }]
 }
 
-export default function ThreadView({ thread, onClose, renderStory }) {
+// Stories in a chapter are listed in the same type order as a landmark.
+const TYPE_ORDER = ['video', 'podcast', 'book', 'movie', 'tv', 'music', 'audiotour']
+const typeRank = s => { const i = TYPE_ORDER.indexOf((s.mediaType || '').toLowerCase()); return i < 0 ? 99 : i }
+
+// The chapter map never zooms in further than this, so a stop still shows its
+// surroundings rather than a few streets.
+const MAX_ZOOM = 11.5
+
+export default function ThreadView({ thread, onClose, renderStory, startChapter = null }) {
   const scrollRef = useRef(null)
   const mapEl = useRef(null)
   const mapRef = useRef(null)
@@ -102,6 +110,13 @@ export default function ThreadView({ thread, onClose, renderStory }) {
     return () => root.removeEventListener('scroll', onScroll)
   }, [])
 
+  // Opened from a story: jump to the chapter it belongs to.
+  useEffect(() => {
+    if (startChapter == null) return
+    const t = setTimeout(() => sectionRefs.current[startChapter]?.scrollIntoView({ block: 'start' }), 350)
+    return () => clearTimeout(t)
+  }, [startChapter, thread])
+
   // Move the map to the chapter being read.
   useEffect(() => {
     const map = mapRef.current
@@ -119,7 +134,8 @@ export default function ThreadView({ thread, onClose, renderStory }) {
       c.points.forEach(p => b.extend([p.lon, p.lat]))
       map.fitBounds(b, { padding: pad, duration: 2200, essential: true })
     } else {
-      map.flyTo({ center: [c.lon, c.lat], zoom: narrow ? Math.max(4, c.zoom - 1) : c.zoom, duration: 2600, curve: 1.6, essential: true })
+      const z = Math.min(c.zoom - 1.5, MAX_ZOOM) - (narrow ? 1 : 0)
+      map.flyTo({ center: [c.lon, c.lat], zoom: Math.max(4, z), duration: 2600, curve: 1.4, essential: true })
     }
   }, [active, thread, bounds])
 
@@ -143,9 +159,15 @@ export default function ThreadView({ thread, onClose, renderStory }) {
             <div className="thread__kicker">{thread.kind} · {thread.chapters.length} stops</div>
             <h1 className="thread__title">{thread.title}</h1>
             <div className="thread__dates">{thread.dates}</div>
-            <p className="thread__dek">{thread.dek}</p>
-            {thread.intro.map((p, i) => <p key={i} className="thread__intro">{p}</p>)}
-            <div className="thread__start">Scroll to follow the route</div>
+            {thread.intro.map((p, i) => {
+              // The intro's first sentence is the lead, set larger.
+              if (i > 0) return <p key={i} className="thread__intro">{p}</p>
+              const m = p.match(/^(.+?[.!?])\s+(.*)$/s)
+              return m
+                ? [<p key="lead" className="thread__dek">{m[1]}</p>, <p key={i} className="thread__intro">{m[2]}</p>]
+                : <p key={i} className="thread__dek">{p}</p>
+            })}
+            <div className="thread__start">Scroll to follow the thread</div>
           </header>
           <ol className="thread__chapters">
             {thread.chapters.map((c, i) => (
@@ -160,14 +182,14 @@ export default function ThreadView({ thread, onClose, renderStory }) {
                   {c.tip && <p className="thread-ch__tip"><span className="thread-ch__tip-label">If you go</span>{c.tip}</p>}
                   {c.stories.length > 0 && (
                     <div className="thread-ch__stories">
-                      {c.stories.map(id => stories[id] ? <div key={id}>{renderStory(stories[id])}</div> : null)}
+                      {c.stories.map(id => stories[id]).filter(Boolean).sort((a, b) => typeRank(a) - typeRank(b)).map(st => <div key={st.id}>{renderStory(st)}</div>)}
                     </div>
                   )}
                 </div>
               </li>
             ))}
           </ol>
-          <div className="thread__end">End of the route</div>
+          <div className="thread__end">End of the thread</div>
         </div>
       </div>
     </div>
