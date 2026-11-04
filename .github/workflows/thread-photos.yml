@@ -1,0 +1,26 @@
+# Copies the Commons images named in src/data/threads.json into public/threads/.
+name: Thread photos
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [src/data/threads.json]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --no-save --no-package-lock sharp@0.33.5
+      - run: node scripts/fetch-thread-photos.mjs
+      - run: |
+          git add public/threads src/data/thread-photos.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City thread photos"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Thread photos"
+          git pull --rebase origin main
+          git push origin HEAD:main
