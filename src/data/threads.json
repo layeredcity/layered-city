@@ -107,6 +107,144 @@
     "image": "The Last Supper Leonardo Da Vinci - High Resolution.jpg"
   },
   {
+    "slug": "michelangelo",
+    "kind": "Artists",
+    "title": "Michelangelo",
+    "dates": "1475–1564",
+    "intro": [
+      "Michelangelo thought of himself as a sculptor, but popes kept making him paint and build. He spent his working life going back and forth between Florence and Rome, and most of what he made is still in those two cities.",
+      "This thread follows him between them, plus two pieces that ended up in Paris and London."
+    ],
+    "chapters": [
+      {
+        "city": "Rome",
+        "place": "St Peter’s Basilica, Rome",
+        "when": "1498–1499",
+        "heading": "The Pietà",
+        "text": "A French cardinal commissioned a marble of Mary holding the dead Christ for his tomb. Michelangelo was in his early twenties. It is the only work he ever signed, on the sash across Mary’s chest.",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "zoom": 14,
+        "stories": [
+          "3gpSN3CxyKm0wDTzHWwp6j",
+          "5jpFOJ2eJeYvPhHr4wpSLL"
+        ],
+        "image": "The Pietà by Michelangelo (48135182552).jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Piazza della Signoria, Florence",
+        "when": "1501–1504",
+        "heading": "David",
+        "text": "Back in Florence, he took a tall block of marble that had been started and abandoned decades before and carved David from it. A committee that included Leonardo decided to put it outside the town hall instead of on the cathedral. It stood there until 1873, when it moved into the Accademia. A copy now stands in its place.",
+        "lat": 43.7697,
+        "lon": 11.2556,
+        "zoom": 14,
+        "stories": [
+          "1DvUTaa3WVTLfmjru0OHW3",
+          "1tYlT7r9omahotSLYhj9VR",
+          "1ioyGsMQu0knhy5Tw8hbvk",
+          "2VvQvMZ7GnidU84uG5mJQA"
+        ],
+        "image": "David, by Michelangelo (32651813498).jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "San Pietro in Vincoli, Rome",
+        "when": "1505–1545",
+        "heading": "The tomb",
+        "text": "Pope Julius II called him to Rome to build a huge freestanding tomb with more than forty statues. Money and politics cut it down over forty years to a wall tomb with Moses at the centre. In 1506, while he was in Rome, the Laocoön was dug up in a vineyard and he was sent to look at it.",
+        "lat": 41.8937,
+        "lon": 12.4931,
+        "zoom": 14,
+        "stories": [
+          "2Uki09FOrmOHlI9qj4AtZ4",
+          "5SJfuDCJXjcdRrknEx8IT4",
+          "3AXvECNYMSLvJ2WjyN4hNZ"
+        ],
+        "image": "San Pietro in Vincole May 2022-4.jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Sistine Chapel, Rome",
+        "when": "1508–1512",
+        "heading": "The ceiling",
+        "text": "Julius then made him paint the ceiling of the Sistine Chapel, a job he didn’t want. He worked standing on scaffolding, not lying on his back, and it took four years. Raphael was painting rooms for the same pope down the corridor.",
+        "lat": 41.9029,
+        "lon": 12.4545,
+        "zoom": 14,
+        "stories": [
+          "4ugGMfs7h5lJeEy3QvRF0B",
+          "1rEBVcnySpA62AcB9UOACn",
+          "3ZgBMfTJUYNVYvBZISjY91",
+          "17rTe7XDTlc90FK6zMzYWy",
+          "3zsFBqiTZuZGrRWJ4hgkM5"
+        ],
+        "image": "Sistine Chapel ceiling 03.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Louvre, Paris",
+        "when": "1513–1516",
+        "heading": "Two slaves",
+        "text": "He carved two bound figures for the tomb, then they were dropped from the plan. He gave them away, and they went to France. They are now in the Louvre.",
+        "lat": 48.8606,
+        "lon": 2.3376,
+        "zoom": 14,
+        "stories": [
+          "6G5p9IxOoOhQm9ny668iqe"
+        ],
+        "image": "Dying and Rebellious Slaves by Michelangelo (Louvre).jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "San Lorenzo, Florence",
+        "when": "1520–1534",
+        "heading": "The Medici rooms",
+        "text": "For the Medici he designed a funeral chapel at San Lorenzo, with reclining figures of Night, Day, Dawn and Dusk, and a library with a staircase that seems to pour into the entrance hall. In 1530, after siding with the republic against the Medici, he is thought to have hidden in a small room under the chapel. Drawings on its walls were found in 1975.",
+        "lat": 43.7751,
+        "lon": 11.2533,
+        "zoom": 14,
+        "stories": [
+          "beu4jQDbOu0k4j1l3Kh1V",
+          "4MUtDvEGSVaGw8oLabCSNK",
+          "3VtYptKdaQ8P9eHztQkLp4"
+        ],
+        "image": "Tomb of Lorenzo, Duke of Urbino, New Sacristy (Medici Chapel), San Lorenzo, Florence (2) (48768615417).jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Sistine Chapel and St Peter’s, Rome",
+        "when": "1534–1564",
+        "heading": "Judgment and the dome",
+        "text": "He moved to Rome for good in 1534 and painted the Last Judgment on the chapel’s altar wall. In his seventies he took over the building of St Peter’s and designed its dome, and he laid out the square on the Capitoline Hill. He died in Rome in 1564, and his body was taken to Florence to be buried.",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "zoom": 12.5,
+        "stories": [
+          "5KfLntmPE4pVpcM4nIlkQi",
+          "5OaeFegPVLl3auD6c1Pykh",
+          "3gmHz7RWCse3zFGQzH6QjN"
+        ],
+        "image": "Dome of St. Peter's Basilica by Michelangelo (7990081751).jpg"
+      },
+      {
+        "city": "London",
+        "place": "Victoria and Albert Museum, London",
+        "when": "1857",
+        "heading": "A copy for London",
+        "text": "The Grand Duke of Tuscany gave Queen Victoria a full-size plaster cast of David. It stands in the V&A’s Cast Courts with other copies of famous works. A plaster fig leaf was made for it so it could be covered for royal visits.",
+        "lat": 51.4969,
+        "lon": -0.1713,
+        "zoom": 14,
+        "stories": [
+          "108PxXGItGeOAsTGJoQCtt"
+        ]
+      }
+    ],
+    "image": "CAPPELLA SISTINA Ceiling.jpg"
+  },
+  {
     "slug": "caravaggio",
     "kind": "Artists",
     "title": "Caravaggio",
@@ -350,6 +488,301 @@
       }
     ],
     "image": "Mozart Family Croce.jpg"
+  },
+  {
+    "slug": "picasso",
+    "kind": "Artists",
+    "title": "Picasso and Cubism",
+    "dates": "1895–1981",
+    "intro": [
+      "Picasso grew up in Barcelona, made his name in Paris and painted his best-known picture there about a bombing in the Basque Country. Cubism, which he worked out with Georges Braque, spread from a few studios in Paris to buildings in Prague within a few years.",
+      "This thread follows him and the style from Barcelona to the painting that now hangs in Madrid."
+    ],
+    "chapters": [
+      {
+        "city": "Barcelona",
+        "place": "Carrer de Montcada, Barcelona",
+        "when": "1895–1904",
+        "heading": "A teenager in Barcelona",
+        "text": "His family moved to Barcelona when he was 13, and he studied at the art school where his father taught. The Picasso Museum, in five medieval palaces on Carrer de Montcada, has the student work that shows how quickly he mastered academic painting.",
+        "lat": 41.3852,
+        "lon": 2.1809,
+        "zoom": 14,
+        "stories": [
+          "AydMxdmPIgw7jSmwTV1De",
+          "7uyH5LVybNaD3yKfDiBJyn"
+        ],
+        "image": "062 Casa Finestres, Museu Picasso, c. Montcada 23 (Barcelona), pati.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Bateau-Lavoir, Montmartre, Paris",
+        "when": "1904–1909",
+        "heading": "The Bateau-Lavoir",
+        "text": "He settled in Paris in 1904 in a run-down building of studios on a Montmartre hillside, nicknamed the Bateau-Lavoir after the laundry boats on the Seine. He painted his rose period pictures there, then the canvases that led to Cubism.",
+        "lat": 48.8865,
+        "lon": 2.3375,
+        "zoom": 12.5,
+        "stories": [
+          "7vj74ZRqMvFja82O3ZRMhD"
+        ],
+        "image": "Le Bateau Lavoir 1, Paris 20 May 2014.jpg"
+      },
+      {
+        "city": "Barcelona",
+        "place": "Carrer d’Avinyó, Barcelona",
+        "when": "1907",
+        "heading": "Les Demoiselles d’Avignon",
+        "text": "The painting of five women he made in the Bateau-Lavoir in 1907 is named after Carrer d’Avinyó, a street of brothels in Barcelona’s Gothic Quarter he knew as a teenager. His friends found it shocking. It is now in New York.",
+        "lat": 41.381,
+        "lon": 2.177,
+        "zoom": 14,
+        "stories": [
+          "fuskSVzyMvDrT1is0jBjc"
+        ],
+        "image": "Barcelona 2016-242.jpg"
+      },
+      {
+        "city": "Marseille",
+        "place": "L’Estaque, Marseille",
+        "when": "1908",
+        "heading": "Little cubes",
+        "text": "Georges Braque spent the summer of 1908 in L’Estaque, on Marseille’s northern shore, where Cézanne had painted. His landscapes reduced the houses and viaduct to blocks. A critic described them as made of cubes, and the name stuck.",
+        "lat": 43.3628,
+        "lon": 5.32,
+        "zoom": 14,
+        "stories": [
+          "3r9UD5hUK8XHdwbmbjH0oH"
+        ],
+        "image": "L'Estaque - Chemin de la Nerthe - Viaduc ferroviaire du Marinier.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Louvre, Paris",
+        "when": "1911",
+        "heading": "Questioned over the Mona Lisa",
+        "text": "When the Mona Lisa was stolen in 1911, police looked at Picasso’s circle. His friend Apollinaire was jailed for several days and Picasso was questioned, because both were linked to small Iberian statues that had been stolen from the Louvre earlier. Picasso had bought two of them.",
+        "lat": 48.8606,
+        "lon": 2.3376,
+        "zoom": 14,
+        "stories": [
+          "1Wm3duPt6D6wfsGDlWtcK1"
+        ]
+      },
+      {
+        "city": "Prague",
+        "place": "House of the Black Madonna, Prague",
+        "when": "1911–1912",
+        "heading": "Cubist buildings",
+        "text": "Czech architects were almost alone in turning Cubism into buildings. Josef Gočár’s House of the Black Madonna, a department store just off the Old Town Square, has angled window frames and a staircase to match. It now houses a café on the first floor.",
+        "lat": 50.0871,
+        "lon": 14.4253,
+        "zoom": 14,
+        "stories": [
+          "4urkuagfI3fCjcriUDa3MW"
+        ],
+        "image": "House of the Black Madonna 2010 1.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Musée Picasso, Marais, Paris",
+        "when": "1912",
+        "heading": "The first collage",
+        "text": "In 1912 he glued a piece of oilcloth printed to look like chair caning onto a small still life and framed it with rope. It is often called the first collage in modern art. It is in the Musée Picasso in the Marais, which opened in 1985.",
+        "lat": 48.8598,
+        "lon": 2.3623,
+        "zoom": 14,
+        "stories": [
+          "7lTBkkpjoq8VqF9ewqe5dL",
+          "41CPjN1sztLfuw4kbTB3Qq"
+        ],
+        "image": "Paris 3e Hôtel Salé Musée Picasso 110.jpg"
+      },
+      {
+        "city": "Madrid",
+        "place": "Reina Sofía Museum, Madrid",
+        "when": "1937–1981",
+        "heading": "Guernica",
+        "text": "After German planes bombed the Basque town of Guernica in April 1937, Picasso painted a huge black-and-white canvas for the Spanish Republic’s pavilion at the Paris World’s Fair. He refused to let it go to Spain while Franco was in power. It arrived in 1981 and has hung in the Reina Sofía since 1992.",
+        "lat": 40.408,
+        "lon": -3.6945,
+        "zoom": 14,
+        "stories": [
+          "4qkuZ3hJ243BtYVUiTdzg7",
+          "14blinPjFea3ScRDzoPgZ3",
+          "57h47aCLL2smUa0XCJId9E",
+          "4pFdrSyudRPbQKY3siuYZ6"
+        ],
+        "image": "Museo Reina Sofia, Madrid (6394601959).jpg"
+      }
+    ],
+    "image": "Bateau-Lavoir face avant.jpg"
+  },
+  {
+    "slug": "opera",
+    "kind": "Music",
+    "title": "Opera houses",
+    "dates": "1637–2008",
+    "intro": [
+      "Opera started at Italian courts and became a paying public entertainment in Venice in 1637. Over the next three centuries every capital wanted its own opera house, and some of the most famous first nights were disasters.",
+      "This thread visits the houses, the premieres and one assassination."
+    ],
+    "chapters": [
+      {
+        "city": "Venice",
+        "place": "Frari basilica, Venice",
+        "when": "1637–1643",
+        "heading": "Opera goes public",
+        "text": "The first public opera house, where anyone with a ticket could get in, opened in Venice in 1637. Claudio Monteverdi, who ran the music at St Mark’s, wrote his last operas for the city’s new theatres. He is buried in the Frari.",
+        "lat": 45.4367,
+        "lon": 12.3261,
+        "zoom": 14,
+        "stories": [
+          "3l8QyGm8qnLXuTGhsEeTgx"
+        ],
+        "image": "Frari (Venice) - Sacristy -General view.jpg"
+      },
+      {
+        "city": "Naples",
+        "place": "Teatro di San Carlo, Naples",
+        "when": "1737",
+        "heading": "San Carlo",
+        "text": "The Bourbon king of Naples built the Teatro di San Carlo next to his palace in 1737. It is the oldest opera house still in use. In the early 1800s its manager, Domenico Barbaja, hired Rossini and then Donizetti to write for it.",
+        "lat": 40.8375,
+        "lon": 14.2496,
+        "zoom": 14,
+        "stories": [
+          "5L7kDvq0CRTEbPqK9OXrnJ"
+        ],
+        "image": "Napoli - teatro di San Carlo.jpg"
+      },
+      {
+        "city": "Milan",
+        "place": "La Scala, Milan",
+        "when": "1778–1950s",
+        "heading": "La Scala",
+        "text": "La Scala opened in 1778 on the site of a demolished church. Verdi’s Nabucco made his name there in 1842, and Puccini’s Madama Butterfly was booed off at its first night in 1904. In the 1950s it was where Maria Callas sang her greatest roles.",
+        "lat": 45.4674,
+        "lon": 9.1895,
+        "zoom": 14,
+        "stories": [
+          "5YuA9WKlqT85Xj6ES5Mxcy",
+          "7n3KYuO7ny4c5Uj4WGJWff",
+          "1xpCWuJnHkCkBiZumi4TOJ",
+          "2sfeKNBmqi4xLuIQF1MxiJ",
+          "6ksQZurAsSyswIRHlow105"
+        ],
+        "image": "La Scala interior--w.jpg"
+      },
+      {
+        "city": "Stockholm",
+        "place": "Royal Swedish Opera, Stockholm",
+        "when": "1792",
+        "heading": "Shot at a masked ball",
+        "text": "King Gustav III built Stockholm’s opera house and was shot at a masked ball there in March 1792. He died two weeks later. Verdi turned the story into Un ballo in maschera, though the censors made him move it to Boston.",
+        "lat": 59.3297,
+        "lon": 18.0705,
+        "zoom": 14,
+        "stories": [
+          "1kvlwp2nJ6pNx10FFzEaGF"
+        ],
+        "image": "Kungliga Operan Royal Swedish Opera Stockholm 2016 01.jpg"
+      },
+      {
+        "city": "Brussels",
+        "place": "La Monnaie, Brussels",
+        "when": "1830",
+        "heading": "An opera starts a revolution",
+        "text": "On 25 August 1830 La Monnaie staged La Muette de Portici, about a Neapolitan revolt. During a duet about love of country the audience began to riot, and the unrest in the streets that night grew into the revolution that created Belgium.",
+        "lat": 50.8498,
+        "lon": 4.3538,
+        "zoom": 14,
+        "stories": [
+          "7zKcKE8XuQ71eHtisBdFpt"
+        ],
+        "image": "1004 Royal Theatre of La Monnaie in Brussels Photo by Giles Laurent.jpg"
+      },
+      {
+        "city": "Munich",
+        "place": "Zurich, Venice and Munich",
+        "when": "1857–1865",
+        "heading": "Tristan in three cities",
+        "text": "Wagner began Tristan und Isolde as a political exile in Zurich, where he fell for Mathilde Wesendonck. He wrote the second act in a palazzo on Venice’s Grand Canal. It was called unperformable until Ludwig II of Bavaria paid Wagner’s debts and had it staged in Munich in 1865.",
+        "lat": 47.3567,
+        "lon": 8.5306,
+        "zoom": 14,
+        "stories": [
+          "2xaW5P53nmszjBWrjzE4Dy",
+          "1AbrGjYYErOmRH4rnC5W7J",
+          "2S4lMQWBcAM4mGjllRyp6M",
+          "1EQXtPIvpN69X3bRIB3ppX",
+          "Q86D98hRz6qaPnisFCsiX"
+        ],
+        "image": "Nationaltheater Munich.jpg",
+        "points": [
+          {
+            "label": "Zurich",
+            "lat": 47.3594,
+            "lon": 8.5305
+          },
+          {
+            "label": "Venice",
+            "lat": 45.4308,
+            "lon": 12.329
+          },
+          {
+            "label": "Munich",
+            "lat": 48.1396,
+            "lon": 11.5794
+          }
+        ]
+      },
+      {
+        "city": "Paris",
+        "place": "Palais Garnier, Paris",
+        "when": "1875",
+        "heading": "The Palais Garnier",
+        "text": "Charles Garnier’s opera house opened in 1875 after fourteen years of building, with a grand staircase meant for being seen on. A water tank under its foundations gave Gaston Leroux the underground lake in The Phantom of the Opera.",
+        "lat": 48.872,
+        "lon": 2.3316,
+        "zoom": 14,
+        "stories": [
+          "60BleRblD5158D4RRlvvvn",
+          "5zUrFb6BxpPzj1bKpSHrFf"
+        ],
+        "image": "Grand Staircase of Palais Garnier, Paris, France.jpg"
+      },
+      {
+        "city": "Vienna",
+        "place": "Vienna State Opera",
+        "when": "1869–1955",
+        "heading": "Mahler’s house",
+        "text": "The Court Opera on the Ringstrasse opened in 1869. Gustav Mahler ran it from 1897 to 1907 and made it the best in Europe. It burned after bombing in March 1945, and its reopening in 1955, the year Austria regained its independence, was a national event.",
+        "lat": 48.203,
+        "lon": 16.3691,
+        "zoom": 14,
+        "stories": [
+          "47ncfms70F3RpBwjbqnNV7",
+          "2zMrkeX82wKfqGN1oUhKyk"
+        ],
+        "image": "Staatsoper Wien DSC 5273w.jpg"
+      },
+      {
+        "city": "Oslo",
+        "place": "Oslo Opera House",
+        "when": "2008",
+        "heading": "A roof to walk on",
+        "text": "Oslo’s opera house opened in 2008 on the harbour at Bjørvika. Its sloping white marble roof rises out of the fjord, and anyone can walk up it, ticket or not.",
+        "lat": 59.9075,
+        "lon": 10.7531,
+        "zoom": 14,
+        "stories": [
+          "1ZeSqTn3UX36iAkshHlJgv"
+        ],
+        "image": "Roof of the Oslo Opera House.jpg"
+      }
+    ],
+    "image": "La Scala interior.jpg"
   },
   {
     "slug": "songs-of-longing",
@@ -617,6 +1050,294 @@
       }
     ],
     "image": "The 100 Club Oxford Street, London 2023-04-26.jpg"
+  },
+  {
+    "slug": "eurovision",
+    "kind": "Music",
+    "title": "Eurovision",
+    "dates": "1974–2023",
+    "intro": [
+      "The Eurovision Song Contest started in 1956 with seven countries. It has launched a few global careers, started at least one revolution and become the place where Europe argues about itself in three-minute songs.",
+      "This thread follows a handful of entries back to the cities that sent them."
+    ],
+    "chapters": [
+      {
+        "city": "Stockholm",
+        "place": "ABBA The Museum, Stockholm",
+        "when": "1974",
+        "heading": "Waterloo",
+        "text": "ABBA won in Brighton in April 1974 with Waterloo and became one of the biggest-selling groups ever. Their whole story is in a museum on the island of Djurgården.",
+        "lat": 59.3251,
+        "lon": 18.0968,
+        "zoom": 14,
+        "stories": [
+          "2VMbgiVlYOkmyfKLNQcxz7",
+          "LymJLUEvzgPnQHpYIA5kx",
+          "4LvvJSxwzFDYPzbDeBfZ6Y"
+        ],
+        "image": "ABBA the Museum, winter 2014 01.JPG"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Largo do Carmo, Lisbon",
+        "when": "1974",
+        "heading": "A song as a signal",
+        "text": "Portugal’s 1974 entry, E Depois do Adeus, came near the bottom. Three weeks later a radio station played it late on 24 April as the first signal for army officers to start a coup against the dictatorship. The second signal, after midnight, was the banned folk song Grândola, Vila Morena.",
+        "lat": 38.7119,
+        "lon": -9.1408,
+        "zoom": 14,
+        "stories": [
+          "6KzVJy5HdWJ5DqJsfQNdZg"
+        ],
+        "image": "Lisboa - Largo do Carmo (53847670618).jpg"
+      },
+      {
+        "city": "Vienna",
+        "place": "Wiener Stadthalle, Vienna",
+        "when": "2014",
+        "heading": "Rise Like a Phoenix",
+        "text": "Conchita Wurst, the bearded drag persona of Tom Neuwirth, won for Austria in 2014 with a Bond-style ballad and a speech about tolerance. Vienna hosted the contest the next year.",
+        "lat": 48.2023,
+        "lon": 16.3329,
+        "zoom": 14,
+        "stories": [
+          "4EdsluuhKN7zNJvuWJHqC8"
+        ],
+        "image": "Stadthalle Wien ca 1972.jpg"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Altice Arena, Lisbon",
+        "when": "2017–2018",
+        "heading": "Portugal finally wins",
+        "text": "After more than fifty years of trying, Portugal won in 2017 with Salvador Sobral’s quiet ballad Amar Pelos Dois, written by his sister. Lisbon hosted the contest in 2018.",
+        "lat": 38.7685,
+        "lon": -9.0939,
+        "zoom": 14,
+        "stories": [
+          "1UKS6F3UblAtOO0v8qa7DO",
+          "Av0IbpImctX5sIgBMcPtu"
+        ],
+        "image": "POR Lisbon Altice Arena 01.jpg"
+      },
+      {
+        "city": "Milan",
+        "place": "Gratosoglio, Milan",
+        "when": "2019",
+        "heading": "Soldi",
+        "text": "Mahmood grew up in Gratosoglio, a high-rise estate on Milan’s southern edge. Soldi, about a father who left, includes a line in Arabic. It came second in 2019.",
+        "lat": 45.414,
+        "lon": 9.174,
+        "zoom": 14,
+        "stories": [
+          "1fRZSQkpFvHn0DyVo0OXHg"
+        ]
+      },
+      {
+        "city": "Rome",
+        "place": "Via del Corso, Rome",
+        "when": "2021",
+        "heading": "Måneskin",
+        "text": "Måneskin started as teenagers busking on Via del Corso. They won in 2021 with a glam-rock song, the first Italian win since 1990, and went on to tour the world.",
+        "lat": 41.9032,
+        "lon": 12.4795,
+        "zoom": 14,
+        "stories": [
+          "6ZWE70ipfzcY1nhpsIe8VX"
+        ],
+        "image": "Crowds on Via del Corso on a weekend afternoon November 2024.jpg"
+      },
+      {
+        "city": "Belgrade",
+        "place": "Belgrade",
+        "when": "2022",
+        "heading": "In corpore sano",
+        "text": "Serbia won in 2007, and Belgrade hosted the next year. In 2022 Konstrakta, an architect turned performer, sat at a basin washing her hands and sang deadpan about health care and beauty standards. It came fifth.",
+        "lat": 44.8125,
+        "lon": 20.4612,
+        "zoom": 12.5,
+        "stories": [
+          "1H0q0BSix97I13U301KCjJ"
+        ],
+        "image": "Štark Arena.jpg"
+      },
+      {
+        "city": "Helsinki",
+        "place": "Ruskeasanta, Vantaa",
+        "when": "2023",
+        "heading": "Cha Cha Cha",
+        "text": "Finland won in 2006 with the monster-masked rock band Lordi. In 2023 Käärijä, in a bolero of bright green sleeves, won the public vote with a song about drinking away the working week, and came second overall. His home town painted a mural of him.",
+        "lat": 60.2931,
+        "lon": 25.034,
+        "zoom": 14,
+        "stories": [
+          "3wA0b8ffHAEyxPZsGM4hHN"
+        ],
+        "image": "Käärijä Eurovision Song Contest Final 2024 interval act.jpg"
+      }
+    ],
+    "image": "Eurovision Song Contest 2025 Stage.jpg"
+  },
+  {
+    "slug": "exiles",
+    "kind": "History",
+    "title": "Exiles",
+    "dates": "1302–today",
+    "intro": [
+      "Europe’s cities have always taken in people who couldn’t go home: poets thrown out by rivals, revolutionaries waiting for their moment, refugees from war. Some places became waiting rooms where people sat for months for a visa or a ship.",
+      "This thread follows exiles from Dante to people arriving now."
+    ],
+    "chapters": [
+      {
+        "city": "Florence",
+        "place": "Casa di Dante, Florence",
+        "when": "1302",
+        "heading": "Dante",
+        "text": "In 1302 Dante was exiled from Florence by a rival faction and sentenced to be burned if he came back. He never returned and wrote the Divine Comedy in exile, putting several of his enemies in hell. He died in Ravenna in 1321.",
+        "lat": 43.7711,
+        "lon": 11.2571,
+        "zoom": 14,
+        "stories": [
+          "1Rax7XmQ3LxWJBeRXiR9mJ"
+        ],
+        "image": "Casa di Dante (firenze).JPG"
+      },
+      {
+        "city": "Zurich",
+        "place": "Spiegelgasse, Zurich",
+        "when": "1916–1917",
+        "heading": "Lenin, Joyce and Dada",
+        "text": "Neutral Switzerland filled with refugees and draft dodgers in the First World War. On one short street in Zurich’s old town, artists founded Dada at the Cabaret Voltaire while Lenin lived a few doors up. James Joyce was writing Ulysses across town. In April 1917 Lenin left by train for Russia.",
+        "lat": 47.3717,
+        "lon": 8.5441,
+        "zoom": 14,
+        "stories": [
+          "2ZWtE0fSc4goMRJpL6FGDL",
+          "5Q0QO9yjvLgbBCcj3rfBJv",
+          "5EEWT8kUUnmQPcnNV24abb",
+          "3tneq0hveHH4rmvidSayzo",
+          "3wST7kiAoQU06PzJe2K6d8"
+        ],
+        "image": "Zürich - Cabaret Voltaire (48687833078).jpg"
+      },
+      {
+        "city": "Oslo",
+        "place": "Fram Museum, Oslo",
+        "when": "1922",
+        "heading": "A passport for the stateless",
+        "text": "The polar explorer Fridtjof Nansen became the League of Nations’ high commissioner for refugees. In 1922 he created the Nansen passport, a travel document for people who had lost their citizenship, and won the Nobel Peace Prize.",
+        "lat": 59.9034,
+        "lon": 10.6997,
+        "zoom": 14,
+        "stories": [
+          "OG0AQg4QiccKgehqkbtGs"
+        ],
+        "image": "Fram Museum in Oslo.JPG"
+      },
+      {
+        "city": "Athens",
+        "place": "Nea Smyrni, Athens",
+        "when": "1922–1923",
+        "heading": "The exchange",
+        "text": "After Greece’s defeat in Anatolia, Greece and Turkey agreed in 1923 to swap their minorities by religion. More than a million Orthodox Christians came to Greece. In Athens they built new districts and named them after the towns they had lost, like Nea Smyrni and Nea Ionia.",
+        "lat": 37.945,
+        "lon": 23.7142,
+        "zoom": 14,
+        "stories": [
+          "ImOYPgStgBue2Xx5H1iE9",
+          "3dJPL1MhJcnHKH7AAKSE6b"
+        ],
+        "image": "Nea Smyrni church.JPG"
+      },
+      {
+        "city": "Vienna",
+        "place": "Belvedere, Vienna",
+        "when": "1938",
+        "heading": "Leaving Vienna",
+        "text": "After Germany annexed Austria in March 1938, tens of thousands of Viennese Jews fled, leaving homes and art to be taken. Maria Altmann was one of them. Decades later she won back Klimt’s portrait of her aunt, which had hung in the Belvedere.",
+        "lat": 48.1914,
+        "lon": 16.3808,
+        "zoom": 14,
+        "stories": [
+          "34F13PA10qMALxx1Re9fXm",
+          "6u6tEAX0VbsK3QLUCOlShz"
+        ],
+        "image": "Palacio Belvedere, Viena, Austria, 2020-02-01, DD 93-95 HDR.jpg"
+      },
+      {
+        "city": "Marseille",
+        "place": "Boulevard d’Athènes, Marseille",
+        "when": "1940–1941",
+        "heading": "Marseille",
+        "text": "When France fell, refugees crowded into Marseille looking for visas and ships. The American journalist Varian Fry helped about 2,000 people get out, among them Chagall, Hannah Arendt and André Breton. Anna Seghers turned the waiting into the novel Transit.",
+        "lat": 43.2997,
+        "lon": 5.38,
+        "zoom": 14,
+        "stories": [
+          "3oWcDr47y7erpc5YInFq8n",
+          "3clDUMIHI1mALE5ghRtYzD",
+          "sCYb4luVt43GWbgmuzNya",
+          "1hS5PTrjw0Mpj06BOaAzwn"
+        ],
+        "image": "Canebière - Marseille I (FR13) - 2023-07-22 - 1.jpg"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Rossio, Lisbon",
+        "when": "1940–1942",
+        "heading": "The last port",
+        "text": "Neutral Portugal was the way out of Europe for many who made it across Spain. Refugees waited in Lisbon’s cafés for a place on a ship to America, sometimes for months.",
+        "lat": 38.7139,
+        "lon": -9.1391,
+        "zoom": 14,
+        "stories": [
+          "1fy6HAMgkwKt1GGl8jralN"
+        ],
+        "image": "Westward view from the south end of Rossio, Lisbon, 2010.jpg"
+      },
+      {
+        "city": "Venice",
+        "place": "San Michele, Venice",
+        "when": "1972–1996",
+        "heading": "Brodsky’s winters",
+        "text": "The Soviet Union expelled the poet Joseph Brodsky in 1972. He settled in the US but spent most winters in Venice and wrote a short book about it. He is buried on the cemetery island of San Michele.",
+        "lat": 45.4472,
+        "lon": 12.3475,
+        "zoom": 14,
+        "stories": [
+          "6mLTSvPmiDiXOUT7pIJ9pa"
+        ],
+        "image": "San Michele the Cemetery Island (21356112529).jpg"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Amsterdam and Paris",
+        "when": "2016–today",
+        "heading": "Arriving now",
+        "text": "The war in Syria sent more than a million people to Europe in 2015 and 2016. One Syrian filmmaker recorded his arrival at Amsterdam Centraal. In Paris, a workshop gives exiled artists space and tools.",
+        "lat": 52.3789,
+        "lon": 4.9015,
+        "zoom": 14,
+        "stories": [
+          "1qIxSZ8fbr8XLErs4Jkj7M",
+          "7vA0qaR1GDqjZgHR2iIfmY"
+        ],
+        "image": "Amsterdam Centraal 2016-09-13.jpg",
+        "points": [
+          {
+            "label": "Amsterdam",
+            "lat": 52.3791,
+            "lon": 4.9003
+          },
+          {
+            "label": "Paris",
+            "lat": 48.8916,
+            "lon": 2.3775
+          }
+        ]
+      }
+    ],
+    "image": "Marseille La Canebière postcard.jpg"
   },
   {
     "slug": "plague",
@@ -1001,6 +1722,426 @@
     "image": "Brookes slave ship, British Library (cropped).jpg"
   },
   {
+    "slug": "spies",
+    "kind": "History",
+    "title": "Spies",
+    "dates": "1915–2006",
+    "intro": [
+      "For a century, Europe’s cities were where spies met, traded and sometimes died. Neutral capitals, divided cities and grand hotels were the places to be.",
+      "The stops run in date order, from the First World War to a poisoned cup of tea in London."
+    ],
+    "chapters": [
+      {
+        "city": "Brussels",
+        "place": "Tir National, Brussels",
+        "when": "1915",
+        "heading": "A nurse before a firing squad",
+        "text": "Edith Cavell, a British nurse running a clinic in occupied Brussels, helped hundreds of Allied soldiers escape to the neutral Netherlands. The Germans shot her in October 1915, and Britain made her a martyr. Historians have since found she was also passing on intelligence.",
+        "lat": 50.853,
+        "lon": 4.407,
+        "zoom": 13,
+        "stories": [
+          "5Bqh8ifhhxiZtlysAfRahB"
+        ],
+        "image": "Schaerbeek. Tir National, GP121515.jpg"
+      },
+      {
+        "city": "Barcelona",
+        "place": "Plaça de Catalunya, Barcelona",
+        "when": "1937",
+        "heading": "Orwell’s war",
+        "text": "George Orwell came to Barcelona to fight against Franco. His wife Eileen worked in the office of the party militia he joined, and both were watched by Soviet-backed agents. In 1937 the militia was suppressed, and they escaped Spain just in time.",
+        "lat": 41.387,
+        "lon": 2.169,
+        "zoom": 13.5,
+        "stories": [
+          "2iNCN7loa38eHC56umNdF"
+        ],
+        "image": "13 Edifici Telefònica, av. Portal de l'Àngel - pl. Catalunya (Barcelona).jpg"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Baixa and Chiado, Lisbon",
+        "when": "1939–1945",
+        "heading": "The neutral port",
+        "text": "Portugal stayed neutral in the Second World War, and Lisbon became the last open door out of Europe. Refugees waited for ships to America, and British and German agents worked the same hotels and cafés.",
+        "lat": 38.708,
+        "lon": -9.136,
+        "zoom": 13.5,
+        "stories": [
+          "7wdLOV6YCA9nB0VOrdF81v"
+        ],
+        "image": "BondeCCFL406.CCFL~standard.1930-1939.Rossio.jpg"
+      },
+      {
+        "city": "Vienna",
+        "place": "Vienna",
+        "when": "1948",
+        "heading": "The Third Man",
+        "text": "Postwar Vienna was split between four occupying powers, with a black market in everything. Graham Greene and Carol Reed made The Third Man there in the ruins, with the chase through the sewers and the meeting on the Prater wheel.",
+        "lat": 48.2167,
+        "lon": 16.3958,
+        "zoom": 12,
+        "stories": [
+          "34yhSqkKMikIWHvF96QJOp"
+        ],
+        "image": "Wien, Prater, Riesenrad -- 2018 -- 3165.jpg"
+      },
+      {
+        "city": "Berlin",
+        "place": "Glienicke Bridge and Teufelsberg, Berlin",
+        "when": "1945–1989",
+        "heading": "The front line",
+        "text": "Berlin was the Cold War’s listening post. The Americans and British built a station on Teufelsberg, a hill made of wartime rubble, to listen into the East. On the Glienicke Bridge the two sides exchanged captured spies, starting in 1962. After 1989, East Germans could read the files the Stasi had kept on them.",
+        "lat": 52.497,
+        "lon": 13.241,
+        "zoom": 11,
+        "stories": [
+          "1qGo5Y9kwJeJxqiwcKAyH5",
+          "5kAHA2oCevK9OigQNB8Off",
+          "7z7is1mpITLcexgmEA3Ehx",
+          "24zdoYzuoQmugjzeQuNMD4"
+        ]
+      },
+      {
+        "city": "Munich",
+        "place": "Radio Free Europe, Munich",
+        "when": "1950s–1990s",
+        "heading": "Radio across the Curtain",
+        "text": "Radio Free Europe broadcast news into the Eastern bloc from a building beside the English Garden. Communist services planted agents on its staff, and in 1981 its offices were bombed.",
+        "lat": 48.15,
+        "lon": 11.594,
+        "zoom": 13,
+        "stories": [
+          "2X1vloj42HkKd4Q5pmGo2O"
+        ]
+      },
+      {
+        "city": "Belgrade",
+        "place": "Hotel Moskva, Belgrade",
+        "when": "1945–1991",
+        "heading": "Between the blocs",
+        "text": "Tito’s Yugoslavia broke with Stalin in 1948 and belonged to neither side, which made Belgrade a place where both sides met. The café of the Hotel Moskva was a favourite.",
+        "lat": 44.813,
+        "lon": 20.4604,
+        "zoom": 14,
+        "stories": [
+          "uHZPGWdZMkcjPmLm9k18x"
+        ],
+        "image": "Hotel Moskva and the fountain in Belgrade.jpg"
+      },
+      {
+        "city": "Bucharest",
+        "place": "Bucharest",
+        "when": "1970s–1989",
+        "heading": "Reading your own file",
+        "text": "Romania’s Securitate had one of the largest informer networks in the bloc. The American anthropologist Katherine Verdery did fieldwork there and later read the files it kept on her, in which she appears as a spy.",
+        "lat": 44.441,
+        "lon": 26.096,
+        "zoom": 12.5,
+        "stories": [
+          "6piYk2ZPlXfwrtmQtej6ut"
+        ]
+      },
+      {
+        "city": "London",
+        "place": "Piccadilly, London",
+        "when": "2006",
+        "heading": "Polonium in Mayfair",
+        "text": "Alexander Litvinenko, a former Russian security officer living in London, was poisoned with polonium in November 2006 and died three weeks later. A British inquiry concluded that the Russian state was probably behind it.",
+        "lat": 51.508,
+        "lon": -0.14,
+        "zoom": 13.5,
+        "stories": [
+          "2YzuFYRUZma0S4myK5Ugkr"
+        ],
+        "image": "London, Piccadilly Circus -- 2016 -- 4866.jpg"
+      }
+    ],
+    "image": "Glienicke Bridge (2018).jpg"
+  },
+  {
+    "slug": "queer-europe",
+    "kind": "History",
+    "title": "Queer Europe",
+    "dates": "1919–2015",
+    "intro": [
+      "For most of the twentieth century, gay men in Europe could be jailed for their relationships, and queer life went on in bars, magazines and private clubs. In 1989 Denmark became the first country to recognise same-sex couples, and in 2015 Ireland voted for same-sex marriage.",
+      "This thread follows that change through the places where it happened."
+    ],
+    "chapters": [
+      {
+        "city": "Berlin",
+        "place": "Nollendorfplatz, Berlin",
+        "when": "1919–1933",
+        "heading": "Weimar Berlin",
+        "text": "In the 1920s the streets around Nollendorfplatz were full of gay and lesbian bars, and Magnus Hirschfeld ran an institute that studied sexuality. Christopher Isherwood lodged nearby and wrote the stories that became Cabaret. In May 1933 the Nazis ransacked the institute and burned its books.",
+        "lat": 52.4995,
+        "lon": 13.3538,
+        "zoom": 14,
+        "stories": [
+          "4V2RF7oxHBU4f9mSX0zZJa",
+          "1Lqqz5gLW5P4UtYOae8iYJ",
+          "aaIpNWfPeGz6QAr7fFR1h",
+          "1DcilnKXeBjMRPOMhJfKSq"
+        ],
+        "image": "Berlin - U-Bahnhof Nollendorfplatz (9548045271).jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Palazzo Federici, Rome",
+        "when": "1938",
+        "heading": "Sent away",
+        "text": "Fascist Italy didn’t make homosexuality a crime but sent gay men into internal exile on remote islands. Ettore Scola’s film A Special Day takes place on the day Hitler visited Rome in 1938, when a housewife meets a neighbour about to be deported.",
+        "lat": 41.9192,
+        "lon": 12.5206,
+        "zoom": 14,
+        "stories": [
+          "5MTHinnx0R0urMQSny2oVJ"
+        ]
+      },
+      {
+        "city": "Zurich",
+        "place": "Niederdorf, Zurich",
+        "when": "1943–1967",
+        "heading": "Der Kreis",
+        "text": "Switzerland legalised gay sex between adults in 1942. In Zurich, a club and magazine called Der Kreis held discreet dances and published in three languages, until a police crackdown in the 1960s broke it up.",
+        "lat": 47.372,
+        "lon": 8.544,
+        "zoom": 14,
+        "stories": [
+          "16J4B54SvAkMJZbwKmbdWW"
+        ],
+        "image": "Zuerich Altstadt 1229.jpg"
+      },
+      {
+        "city": "Manchester",
+        "place": "Sackville Gardens, Manchester",
+        "when": "1952",
+        "heading": "Alan Turing",
+        "text": "The codebreaker, who worked on one of the first computers at Manchester University, was convicted of gross indecency in 1952 and given hormone treatment. He died two years later. A statue of him sits on a bench in Sackville Gardens, by the gay village.",
+        "lat": 53.4657,
+        "lon": -2.2327,
+        "zoom": 14,
+        "stories": [
+          "7JCvobaE10mawgd19yatKS",
+          "24sovsv4M8Dpv5161gYDcg"
+        ],
+        "image": "Alan Turing Memorial Sackville Park.jpg"
+      },
+      {
+        "city": "Helsinki",
+        "place": "Helsinki",
+        "when": "1950s–1971",
+        "heading": "Tom of Finland",
+        "text": "Touko Laaksonen, a war veteran working in advertising, drew muscular, cheerful gay men in a country where homosexuality was illegal until 1971. As Tom of Finland he became famous abroad long before he was accepted at home.",
+        "lat": 60.1699,
+        "lon": 24.9384,
+        "zoom": 12.5,
+        "stories": [
+          "2vAq7K3EHAC1lY4mEcocqg"
+        ],
+        "image": "Statue of Johan Ludvig Runeberg on Esplanadi in Helsinki, Finland.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Gay’s the Word, Bloomsbury, London",
+        "when": "1984",
+        "heading": "Pride",
+        "text": "During the 1984 miners’ strike, a group of gay and lesbian activists raised money for a mining village in Wales. They met at Gay’s the Word bookshop. The miners later marched at London Pride.",
+        "lat": 51.5254,
+        "lon": -0.1254,
+        "zoom": 14,
+        "stories": [
+          "4khqKuH8xsJNipzgMdhg6i"
+        ],
+        "image": "Gay's the Word, London, Bloomsbury, WC1 b.jpg"
+      },
+      {
+        "city": "Madrid",
+        "place": "Chueca, Madrid",
+        "when": "1979–1990s",
+        "heading": "After Franco",
+        "text": "Spain decriminalised homosexuality in 1979, a few years after Franco’s death. In the Movida, Madrid’s 1980s pop explosion, Alaska’s A quién le importa became an anthem, and Chueca grew into the city’s gay district.",
+        "lat": 40.4231,
+        "lon": -3.6996,
+        "zoom": 14,
+        "stories": [
+          "1vJMYmUfi4WTMt8WpDN4Z8",
+          "36mdKTIhmcBeaFzEceeSWC"
+        ],
+        "image": "Madrid Pride Orgullo 2015 58350 (19159357349).jpg"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "City Hall, Copenhagen",
+        "when": "1989",
+        "heading": "The first partnerships",
+        "text": "On 1 October 1989 Denmark became the first country to let same-sex couples register their partnership. Eleven couples signed at Copenhagen City Hall that day, including the activists Axel and Eigil Axgil.",
+        "lat": 55.6761,
+        "lon": 12.5695,
+        "zoom": 14,
+        "stories": [
+          "32o9YnTKihErNiquotlIAd",
+          "4OpDIJmchIaxYmncintViA"
+        ],
+        "image": "Copenhagen City Hall, Denmark.jpg"
+      },
+      {
+        "city": "Dublin",
+        "place": "Dublin Castle",
+        "when": "1993–2015",
+        "heading": "The vote",
+        "text": "Gay sex was illegal in Ireland until 1993. Twenty-two years later Ireland became the first country to allow same-sex marriage by popular vote, and crowds watched the result come in at Dublin Castle.",
+        "lat": 53.3434,
+        "lon": -6.2677,
+        "zoom": 14,
+        "stories": [
+          "1Hx2uFfjWuEy8KprdZWuBU",
+          "4guojnU32rUFLEJrkZTrOf"
+        ],
+        "image": "Dublin Castle Upper Castle Yard Panorama 01.jpg"
+      }
+    ],
+    "image": "Copenhagen Pride Parade 2022 07.jpg"
+  },
+  {
+    "slug": "bombed-cities",
+    "kind": "History",
+    "title": "Cities under bombs",
+    "dates": "1939–1999",
+    "intro": [
+      "In the Second World War, bombing cities became a strategy rather than an accident. Warsaw, London, Belfast, Naples and Berlin all spent months or years under air raids, and the ruins shaped how they were rebuilt.",
+      "This thread visits cities that were bombed and how they remember it."
+    ],
+    "chapters": [
+      {
+        "city": "Warsaw",
+        "place": "Royal Castle, Warsaw",
+        "when": "September 1939",
+        "heading": "Warsaw",
+        "text": "When Germany invaded Poland, its planes and artillery bombarded Warsaw for nearly three weeks. The Royal Castle burned, and the city surrendered on 28 September. The castle was rebuilt in the 1970s.",
+        "lat": 52.248,
+        "lon": 21.0152,
+        "zoom": 14,
+        "stories": [
+          "4wYZP7em6DxAlkxGYpy6ED"
+        ],
+        "image": "Fall of Warsaw in 1939.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Churchill War Rooms, London",
+        "when": "1940–1941",
+        "heading": "The Blitz",
+        "text": "From September 1940 to May 1941 German bombers attacked London most nights. People sheltered in Tube stations, and Churchill’s government worked from a basement under Whitehall. In March 1943, 173 people were crushed on the stairs of the Bethnal Green station during an alert.",
+        "lat": 51.5022,
+        "lon": -0.1293,
+        "zoom": 14,
+        "stories": [
+          "5x0ozWD1yuaXXk8mo5ihgq",
+          "zH1O2Q2mEUj4R8slZ7XNR",
+          "3VrGn1qtPNVfcu6CyQlr58",
+          "5EQuVHifxnkxPAhWXzIcE9",
+          "3lICEMWbegCrKZQgEOprfR",
+          "4yaHxarqRe9nrSWMfpyNmD"
+        ],
+        "image": "London Blitz 791940.jpg"
+      },
+      {
+        "city": "Liverpool",
+        "place": "St Luke’s Church, Liverpool",
+        "when": "May 1941",
+        "heading": "The May Blitz",
+        "text": "Liverpool’s docks were the main port for supplies from America, and it was the most bombed British city outside London. In the first week of May 1941, St Luke’s Church burned out. It was left roofless as a memorial.",
+        "lat": 53.4022,
+        "lon": -2.9759,
+        "zoom": 14,
+        "stories": [
+          "6zFJYcXdJK4c9OLLxOOqh6",
+          "1s7AWWHeec0ajGJj6SXIUY"
+        ],
+        "image": "St. Luke's Church \"Bombed out Church\", Liverpool - geograph.org.uk - 7378089.jpg"
+      },
+      {
+        "city": "Belfast",
+        "place": "York Street, Belfast",
+        "when": "April–May 1941",
+        "heading": "Belfast",
+        "text": "Belfast had almost no shelters when German bombers came in April 1941. About 900 people died on Easter Tuesday, the most killed in one night anywhere in the UK outside London.",
+        "lat": 54.6058,
+        "lon": -5.9288,
+        "zoom": 14,
+        "stories": [
+          "5cKuL7rygDYduSRuPZSwEh",
+          "7Gos0RItYY2yzFaUy5Z3lU"
+        ],
+        "image": "York Street post-Belfast blitz - merge (34488232446).jpg"
+      },
+      {
+        "city": "Naples",
+        "place": "Napoli Sotterranea, Naples",
+        "when": "1940–1943",
+        "heading": "Naples",
+        "text": "Allied planes bombed Naples, Italy’s main southern port, again and again. Families sheltered in the ancient quarries and water tunnels under the city. Sophia Loren grew up in nearby Pozzuoli during the raids.",
+        "lat": 40.8509,
+        "lon": 14.2574,
+        "zoom": 14,
+        "stories": [
+          "52EQT4OXMCGFV6cYdpZyb1",
+          "2NrfSNrJg3nqbXy9zfyvrB"
+        ],
+        "image": "Napoli Sotterranea 1.jpg"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "Frederiksberg Allé, Copenhagen",
+        "when": "March 1945",
+        "heading": "A mistake",
+        "text": "In March 1945 the RAF bombed the Gestapo’s headquarters in Copenhagen at the Danish resistance’s request. One plane crashed near a French school, and later planes bombed the fire by mistake. Eighty-six children were killed.",
+        "lat": 55.6738,
+        "lon": 12.536,
+        "zoom": 14,
+        "stories": [
+          "AjOcvfjxzOR9NmYmCtGMH"
+        ],
+        "image": "Shellhuset 210345.jpg"
+      },
+      {
+        "city": "Berlin",
+        "place": "Kaiser Wilhelm Memorial Church, Berlin",
+        "when": "1943–1947",
+        "heading": "Rubble",
+        "text": "By 1945 bombing and the final battle had left much of Berlin in ruins. The broken tower of the Kaiser Wilhelm Memorial Church was kept as a reminder, next to a new church built in the 1960s. Rossellini filmed the rubble in 1947.",
+        "lat": 52.5049,
+        "lon": 13.335,
+        "zoom": 14,
+        "stories": [
+          "5K9TNlCQ4an8LH72s5f7aC",
+          "1JA8OeZoBYZAGq3whc2pGm",
+          "Y7vJNo3EmCQGHjbfqNXaJ"
+        ],
+        "image": "20140831-Türme Gedächtniskirche by sebaso.jpg"
+      },
+      {
+        "city": "Belgrade",
+        "place": "Kneza Miloša, Belgrade",
+        "when": "1999",
+        "heading": "Belgrade",
+        "text": "NATO bombed Yugoslavia for 78 days in 1999 over Kosovo. The army headquarters on Kneza Miloša street was hit and left as a ruin, and US bombs hit the Chinese embassy, killing three people.",
+        "lat": 44.8053,
+        "lon": 20.4627,
+        "zoom": 14,
+        "stories": [
+          "2YBglolhHZ9usBKolXF9uZ",
+          "4zzlKC5iWCxKXjFaaowr9P"
+        ],
+        "image": "Generalštab, Belgrade 2014.jpg"
+      }
+    ],
+    "image": "London Blitz 9 September 1940.jpg"
+  },
+  {
     "slug": "uprisings",
     "kind": "History",
     "title": "Uprisings",
@@ -1152,145 +2293,6 @@
       }
     ],
     "image": "Berlin 1989, Fall der Mauer, Chute du mur 10.jpg"
-  },
-  {
-    "slug": "spies",
-    "kind": "History",
-    "title": "Spies",
-    "dates": "1915–2006",
-    "intro": [
-      "For a century, Europe’s cities were where spies met, traded and sometimes died. Neutral capitals, divided cities and grand hotels were the places to be.",
-      "The stops run in date order, from the First World War to a poisoned cup of tea in London."
-    ],
-    "chapters": [
-      {
-        "city": "Brussels",
-        "place": "Tir National, Brussels",
-        "when": "1915",
-        "heading": "A nurse before a firing squad",
-        "text": "Edith Cavell, a British nurse running a clinic in occupied Brussels, helped hundreds of Allied soldiers escape to the neutral Netherlands. The Germans shot her in October 1915, and Britain made her a martyr. Historians have since found she was also passing on intelligence.",
-        "lat": 50.853,
-        "lon": 4.407,
-        "zoom": 13,
-        "stories": [
-          "5Bqh8ifhhxiZtlysAfRahB"
-        ],
-        "image": "Schaerbeek. Tir National, GP121515.jpg"
-      },
-      {
-        "city": "Barcelona",
-        "place": "Plaça de Catalunya, Barcelona",
-        "when": "1937",
-        "heading": "Orwell’s war",
-        "text": "George Orwell came to Barcelona to fight against Franco. His wife Eileen worked in the office of the party militia he joined, and both were watched by Soviet-backed agents. In 1937 the militia was suppressed, and they escaped Spain just in time.",
-        "lat": 41.387,
-        "lon": 2.169,
-        "zoom": 13.5,
-        "stories": [
-          "2iNCN7loa38eHC56umNdF"
-        ],
-        "image": "13 Edifici Telefònica, av. Portal de l'Àngel - pl. Catalunya (Barcelona).jpg"
-      },
-      {
-        "city": "Lisbon",
-        "place": "Baixa and Chiado, Lisbon",
-        "when": "1939–1945",
-        "heading": "The neutral port",
-        "text": "Portugal stayed neutral in the Second World War, and Lisbon became the last open door out of Europe. Refugees waited for ships to America, and British and German agents worked the same hotels and cafés.",
-        "lat": 38.708,
-        "lon": -9.136,
-        "zoom": 13.5,
-        "stories": [
-          "7wdLOV6YCA9nB0VOrdF81v"
-        ],
-        "image": "BondeCCFL406.CCFL~standard.1930-1939.Rossio.jpg"
-      },
-      {
-        "city": "Vienna",
-        "place": "Vienna",
-        "when": "1948",
-        "heading": "The Third Man",
-        "text": "Postwar Vienna was split between four occupying powers, with a black market in everything. Graham Greene and Carol Reed made The Third Man there in the ruins, with the chase through the sewers and the meeting on the Prater wheel.",
-        "lat": 48.2167,
-        "lon": 16.3958,
-        "zoom": 12,
-        "stories": [
-          "34yhSqkKMikIWHvF96QJOp"
-        ],
-        "image": "Wien, Prater, Riesenrad -- 2018 -- 3165.jpg"
-      },
-      {
-        "city": "Berlin",
-        "place": "Glienicke Bridge and Teufelsberg, Berlin",
-        "when": "1945–1989",
-        "heading": "The front line",
-        "text": "Berlin was the Cold War’s listening post. The Americans and British built a station on Teufelsberg, a hill made of wartime rubble, to listen into the East. On the Glienicke Bridge the two sides exchanged captured spies, starting in 1962. After 1989, East Germans could read the files the Stasi had kept on them.",
-        "lat": 52.497,
-        "lon": 13.241,
-        "zoom": 11,
-        "stories": [
-          "1qGo5Y9kwJeJxqiwcKAyH5",
-          "5kAHA2oCevK9OigQNB8Off",
-          "7z7is1mpITLcexgmEA3Ehx",
-          "24zdoYzuoQmugjzeQuNMD4"
-        ]
-      },
-      {
-        "city": "Munich",
-        "place": "Radio Free Europe, Munich",
-        "when": "1950s–1990s",
-        "heading": "Radio across the Curtain",
-        "text": "Radio Free Europe broadcast news into the Eastern bloc from a building beside the English Garden. Communist services planted agents on its staff, and in 1981 its offices were bombed.",
-        "lat": 48.15,
-        "lon": 11.594,
-        "zoom": 13,
-        "stories": [
-          "2X1vloj42HkKd4Q5pmGo2O"
-        ]
-      },
-      {
-        "city": "Belgrade",
-        "place": "Hotel Moskva, Belgrade",
-        "when": "1945–1991",
-        "heading": "Between the blocs",
-        "text": "Tito’s Yugoslavia broke with Stalin in 1948 and belonged to neither side, which made Belgrade a place where both sides met. The café of the Hotel Moskva was a favourite.",
-        "lat": 44.813,
-        "lon": 20.4604,
-        "zoom": 14,
-        "stories": [
-          "uHZPGWdZMkcjPmLm9k18x"
-        ],
-        "image": "Hotel Moskva and the fountain in Belgrade.jpg"
-      },
-      {
-        "city": "Bucharest",
-        "place": "Bucharest",
-        "when": "1970s–1989",
-        "heading": "Reading your own file",
-        "text": "Romania’s Securitate had one of the largest informer networks in the bloc. The American anthropologist Katherine Verdery did fieldwork there and later read the files it kept on her, in which she appears as a spy.",
-        "lat": 44.441,
-        "lon": 26.096,
-        "zoom": 12.5,
-        "stories": [
-          "6piYk2ZPlXfwrtmQtej6ut"
-        ]
-      },
-      {
-        "city": "London",
-        "place": "Piccadilly, London",
-        "when": "2006",
-        "heading": "Polonium in Mayfair",
-        "text": "Alexander Litvinenko, a former Russian security officer living in London, was poisoned with polonium in November 2006 and died three weeks later. A British inquiry concluded that the Russian state was probably behind it.",
-        "lat": 51.508,
-        "lon": -0.14,
-        "zoom": 13.5,
-        "stories": [
-          "2YzuFYRUZma0S4myK5Ugkr"
-        ],
-        "image": "London, Piccadilly Circus -- 2016 -- 4866.jpg"
-      }
-    ],
-    "image": "Glienicke Bridge (2018).jpg"
   },
   {
     "slug": "1968",
@@ -1835,6 +2837,134 @@
     "image": "Relief of Vienna 1683 - Wien Museum - 2 (photo by Andrew Nash).jpg"
   },
   {
+    "slug": "napoleon",
+    "kind": "Empires",
+    "title": "Napoleon",
+    "dates": "1795–1840",
+    "intro": [
+      "Napoleon went from an artillery officer to emperor in under ten years, and by 1810 he controlled most of continental Europe. He ended the Venetian Republic, made himself King of Italy, put his brother on the Spanish throne and moved hundreds of paintings to Paris.",
+      "This thread follows his rise and fall through the cities that felt it."
+    ],
+    "chapters": [
+      {
+        "city": "Paris",
+        "place": "Saint-Roch church, Paris",
+        "when": "1795",
+        "heading": "A whiff of grapeshot",
+        "text": "In October 1795 royalist crowds marched on the government in Paris. The young general Bonaparte had cannon fire on them outside the church of Saint-Roch, killing hundreds. It made his name.",
+        "lat": 48.8649,
+        "lon": 2.3322,
+        "zoom": 14,
+        "stories": [
+          "5QA1XlxuZs7EmZpM5ugYNt"
+        ],
+        "image": "Church Saint Roch, Paris.jpg"
+      },
+      {
+        "city": "Venice",
+        "place": "Arsenale, Venice",
+        "when": "1797",
+        "heading": "The end of a republic",
+        "text": "In May 1797, with French troops on the lagoon’s edge, Venice’s Great Council voted itself out of existence after eleven centuries. Napoleon handed the city to Austria a few months later and sent the four bronze horses of St Mark’s to Paris.",
+        "lat": 45.4334,
+        "lon": 12.3488,
+        "zoom": 14,
+        "stories": [
+          "7kgGIrllzgToloxqPsB3Vd"
+        ],
+        "image": "Venice, Castello, Arsenale, main gate 02.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Château de Malmaison, Rueil-Malmaison",
+        "when": "1800–1804",
+        "heading": "The picture of power",
+        "text": "He crossed the Alps in 1800 on a mule, but Jacques-Louis David painted him on a rearing horse, in five versions. Antoine-Jean Gros painted him touching plague victims in Jaffa to counter reports that he had abandoned his sick soldiers. In 1804 he crowned himself emperor.",
+        "lat": 48.8706,
+        "lon": 2.1667,
+        "zoom": 14,
+        "stories": [
+          "2v0EVN7eDvCcXUN9sxAnXq",
+          "6BvcnQcHqozhr6G7C907B6"
+        ]
+      },
+      {
+        "city": "Milan",
+        "place": "Pinacoteca di Brera, Milan",
+        "when": "1805–1814",
+        "heading": "King of Italy",
+        "text": "In 1805 he was crowned King of Italy in Milan Cathedral. His government shut down churches and convents across northern Italy and gathered their paintings in Milan, where they became the Brera gallery. Others went to the Louvre, among them a Titian taken from a Milan church.",
+        "lat": 45.4722,
+        "lon": 9.1884,
+        "zoom": 14,
+        "stories": [
+          "4ISgST2FalziWW5PLZrypV",
+          "5OliT2ZQYDotGNUXFX1EaJ"
+        ],
+        "image": "Pinacoteca di Brera - Milano - il cortile interno.JPG"
+      },
+      {
+        "city": "Madrid",
+        "place": "Prado Museum, Madrid",
+        "when": "1808",
+        "heading": "The second and third of May",
+        "text": "French troops occupied Spain in 1808, and on 2 May Madrid rose against them. The next day the French shot prisoners on the edge of the city. Goya painted both days in 1814, and his Third of May is now in the Prado.",
+        "lat": 40.4138,
+        "lon": -3.6921,
+        "zoom": 14,
+        "stories": [
+          "4aczqXt2OxFj6SEvSjdDrW",
+          "j6ePGqgNohxKz9Bm3ceD6"
+        ],
+        "image": "El Tres de Mayo, by Francisco de Goya, from Prado (cropped).jpg"
+      },
+      {
+        "city": "Vienna",
+        "place": "Ballhausplatz, Vienna",
+        "when": "1814–1815",
+        "heading": "The Congress of Vienna",
+        "text": "Napoleon occupied Vienna twice and married an Austrian archduchess. After his first defeat, monarchs and ministers spent nine months in Vienna redrawing Europe’s borders, between balls run by the Austrian court.",
+        "lat": 48.2091,
+        "lon": 16.3634,
+        "zoom": 14,
+        "stories": [
+          "1LCUVKGa1uBH0iqSQPS0QL"
+        ],
+        "image": "Wien 01 Ballhausplatz a.jpg"
+      },
+      {
+        "city": "Brussels",
+        "place": "Waterloo, south of Brussels",
+        "when": "1815",
+        "heading": "Waterloo",
+        "text": "He escaped from Elba in 1815 and ruled for a hundred days. On 18 June, Wellington and the Prussian commander Blücher beat him near the village of Waterloo, south of Brussels. A mound with a lion on top marks the battlefield.",
+        "lat": 50.6787,
+        "lon": 4.4044,
+        "zoom": 14,
+        "stories": [
+          "4s8Bab8uAQP85j27nexdAW"
+        ],
+        "image": "Belgique Butte du Lion dit de Waterloo.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Les Invalides, Paris",
+        "when": "1840",
+        "heading": "Back to Paris",
+        "text": "He died on Saint Helena in 1821. In 1840 the French government brought his body back to Paris, and he now lies under the gilded dome of Les Invalides. The column on Place Vendôme was cast from captured cannon.",
+        "lat": 48.8551,
+        "lon": 2.3125,
+        "zoom": 14,
+        "stories": [
+          "6aYm4rbVgPgACGKKWMP9KT",
+          "6mTeK6BGfPOfwq8xtdEQZj"
+        ],
+        "image": "Les Invalides, Paris, France (Ank Kumar) 03.jpg"
+      }
+    ],
+    "image": "Paris - Les invalides - Le Dôme - 138.jpg"
+  },
+  {
     "slug": "coffeehouses",
     "kind": "Places",
     "title": "The coffeehouse",
@@ -1985,6 +3115,164 @@
       }
     ],
     "image": "Cafe Central Wien 2015-i.JPG"
+  },
+  {
+    "slug": "going-underground",
+    "kind": "Places",
+    "title": "Going underground",
+    "dates": "1863–today",
+    "intro": [
+      "London opened the first underground railway in 1863, with steam engines in shallow tunnels. Budapest and Glasgow followed, then Paris, and by the end of the twentieth century almost every big European city had one.",
+      "This thread rides through some of the oldest and strangest of them."
+    ],
+    "chapters": [
+      {
+        "city": "London",
+        "place": "Edgware Road, London",
+        "when": "1863",
+        "heading": "The first",
+        "text": "The Metropolitan Railway opened in January 1863 between Paddington and Farringdon, through Edgware Road and Baker Street. Steam trains ran in shallow trenches roofed over under the street. Some stations later closed and are now used for filming.",
+        "lat": 51.5232,
+        "lon": -0.1569,
+        "zoom": 14,
+        "stories": [
+          "5HJY3y9N0JKDMaGetnxGkN",
+          "1M32dclPqGtpBMg8LPXcGk",
+          "18PewsU4ukaGcZFtxfmfD1",
+          "5a1c7PxW0BHOdiPhqgq6ue"
+        ],
+        "image": "Constructing the Metropolitan Railway.png"
+      },
+      {
+        "city": "Budapest",
+        "place": "Andrássy út, Budapest",
+        "when": "1896",
+        "heading": "The first on the Continent",
+        "text": "Budapest opened the first underground railway in continental Europe in 1896, for the celebration of Hungary’s thousandth year. Its little yellow trains still run just under Andrássy Avenue to Heroes’ Square.",
+        "lat": 47.5142,
+        "lon": 19.077,
+        "zoom": 14,
+        "stories": [
+          "2Qk8p4wOtlKNNb7DKd02c6",
+          "6cwOtsse9pPMEpDMrwjStp"
+        ],
+        "image": "Földalatti Budapest - Vörösmarty tér M1.jpg"
+      },
+      {
+        "city": "Glasgow",
+        "place": "St Enoch, Glasgow",
+        "when": "1896",
+        "heading": "The Clockwork Orange",
+        "text": "Glasgow’s subway opened at the end of 1896, the third in the world. It is still one loop of fifteen stations under both banks of the Clyde, with trains so small they are known as the Clockwork Orange.",
+        "lat": 55.8571,
+        "lon": -4.2559,
+        "zoom": 14,
+        "stories": [
+          "3jpuFfEYmazd093HFsncz6"
+        ],
+        "image": "Subway train at Buchanan Street, Glasgow - DSC06203.JPG"
+      },
+      {
+        "city": "Paris",
+        "place": "Châtelet, Paris",
+        "when": "1900",
+        "heading": "The Métro",
+        "text": "Paris argued for decades about whether its railway should run above or below the street. The first Métro line opened underground in July 1900, in time for the World’s Fair, with Hector Guimard’s green iron entrances.",
+        "lat": 48.8733,
+        "lon": 2.3312,
+        "zoom": 14,
+        "stories": [
+          "3AmosrXt4HzLkPF57zbUfB",
+          "5tXHy7vMXml8tBNPiz59f5",
+          "4lT5XgXZ4BqJV1IY8y6vvs"
+        ],
+        "image": "Travaux du métro. Station gare de Lyon, vue prise en bas, 12ème arrondissement, Paris. 6 avril 1900. PH16949.jpg"
+      },
+      {
+        "city": "Madrid",
+        "place": "Madrid and Barcelona",
+        "when": "1919–1924",
+        "heading": "Spain goes underground",
+        "text": "Madrid’s first line opened in 1919. Its Chamberí station closed in 1966 when platforms had to be lengthened, and it is now a museum you see from passing trains. Barcelona followed in 1924 with a line from Plaça de Catalunya.",
+        "lat": 40.4323,
+        "lon": -3.6977,
+        "zoom": 14,
+        "stories": [
+          "kWhjKDCTS89vyEGlzGhZF",
+          "4Q2TbDhyRTB7TfvGu8hu20"
+        ],
+        "image": "Chamberi Anden 0 DSCF0689.JPG",
+        "points": [
+          {
+            "label": "Madrid",
+            "lat": 40.4318,
+            "lon": -3.7004
+          },
+          {
+            "label": "Barcelona",
+            "lat": 41.3863,
+            "lon": 2.17
+          }
+        ]
+      },
+      {
+        "city": "Stockholm",
+        "place": "T-Centralen, Stockholm",
+        "when": "1950",
+        "heading": "Painted caves",
+        "text": "Stockholm’s tunnelbana opened in 1950. Many stations were blasted into bedrock and left rough, then painted by artists, and parts of the system were built to double as shelters in a nuclear war.",
+        "lat": 59.3313,
+        "lon": 18.0598,
+        "zoom": 14,
+        "stories": [
+          "3xRB8vxLbk8cSUC9va7zFc",
+          "77hlOwM5lpko9wMYageIxZ"
+        ],
+        "image": "Sth-Metro-Kungstradgarden-5-Summer-2010.jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Rome and Istanbul",
+        "when": "2004–today",
+        "heading": "Digging through history",
+        "text": "New lines in old cities turn into archaeology. In Istanbul, digging for the Marmaray tunnel uncovered a Byzantine harbour with dozens of wrecked ships. In Rome, the stations of Metro C near the Colosseum display what was found on the way down.",
+        "lat": 41.8913,
+        "lon": 12.4906,
+        "zoom": 14,
+        "stories": [
+          "3ytkZNJpAMBB825RFmWLcs",
+          "6vcAFp0lMluJ7IYbWA1L8"
+        ],
+        "image": "Roma Colosseo Metro C Fori Imperiali.jpg",
+        "points": [
+          {
+            "label": "Rome",
+            "lat": 41.8925,
+            "lon": 12.4906
+          },
+          {
+            "label": "Istanbul",
+            "lat": 41.0045,
+            "lon": 28.9506
+          }
+        ]
+      },
+      {
+        "city": "Belgrade",
+        "place": "Vukov Spomenik, Belgrade",
+        "when": "still waiting",
+        "heading": "No metro yet",
+        "text": "Belgrade has planned a metro since the 1920s and is one of the biggest cities in Europe without one. The closest thing is Vukov Spomenik, a deep station on the city railway that opened in 1995.",
+        "lat": 44.8053,
+        "lon": 20.4776,
+        "zoom": 14,
+        "stories": [
+          "1mFdSBR1ANxRiLwsFKQlLQ"
+        ],
+        "image": "Vukov spomenik Beovoz envi.png"
+      }
+    ],
+    "image": "Kungsträdgården T-bana Metro station in Stockholm Sweden.png"
   },
   {
     "slug": "art-nouveau",
@@ -2240,6 +3528,132 @@
       }
     ],
     "image": "L'Exposition universelle de Paris, 1889.jpg"
+  },
+  {
+    "slug": "socialist-cities",
+    "kind": "Places",
+    "title": "Socialist cities",
+    "dates": "1919–1989",
+    "intro": [
+      "Socialist governments wanted to build new kinds of cities: workers’ housing with courtyards and kindergartens, wide avenues for parades, towers to show who was in charge. Red Vienna did it by vote in the 1920s. After 1945 the communist states did it on a much bigger scale.",
+      "This thread follows the buildings, from council flats to Ceaușescu’s palace."
+    ],
+    "chapters": [
+      {
+        "city": "Vienna",
+        "place": "Karl-Marx-Hof, Vienna",
+        "when": "1919–1934",
+        "heading": "Red Vienna",
+        "text": "Vienna’s Social Democrats built tens of thousands of council flats in the 1920s, paid for by new taxes on luxuries. The Karl-Marx-Hof is a kilometre long, with laundries, baths and kindergartens. The city still owns its flats and still builds more.",
+        "lat": 48.2482,
+        "lon": 16.3637,
+        "zoom": 14,
+        "stories": [
+          "227MI2RS9CC8l7bQv2OwfY",
+          "6uNDjzksloz1iZOAzrtqFJ"
+        ],
+        "image": "Karl Marx Hof.jpg"
+      },
+      {
+        "city": "Kraków",
+        "place": "Nowa Huta, Kraków",
+        "when": "1949",
+        "heading": "A steel town for Kraków",
+        "text": "Poland’s communist government built Nowa Huta from 1949 next to Kraków: a huge steelworks and a planned town for its workers, partly to outweigh the old Catholic university city. Its avenues radiate from a central square. Wajda’s Man of Marble is about one of the bricklayers who built it.",
+        "lat": 50.0718,
+        "lon": 20.0377,
+        "zoom": 14,
+        "stories": [
+          "44u6z7swNSOSQjbfAmKvYX",
+          "48O06Nm4z7mG45vI5Plt2I",
+          "4ZAN4rRhK0a1CMoxdsdad1",
+          "3lBtnjwmJFtar0wu4Rlzhl"
+        ],
+        "image": "Nowa Huta - Plac Centralny z lotu ptaka.jpg"
+      },
+      {
+        "city": "Warsaw",
+        "place": "Palace of Culture and Science, Warsaw",
+        "when": "1950–1955",
+        "heading": "Stalin’s gift",
+        "text": "Warsaw was rebuilt in the Soviet style called socialist realism: the MDM district has arcades and reliefs of model workers. Then the Soviet Union built the Palace of Culture and Science as a gift from Stalin. Many Varsovians still dislike it, but the Rolling Stones played there in 1967.",
+        "lat": 52.232,
+        "lon": 21.0067,
+        "zoom": 14,
+        "stories": [
+          "6MtboIp2IFZVkJCBdceCnr",
+          "639v5wxZQbdrizRmlGxFMm",
+          "5GzH0F56MEycoAjgUMeoR1",
+          "4PO24tAPMvOEGG9ljm65B4",
+          "1nbXNbUkoIfaSryb1AbZTv"
+        ],
+        "image": "Palace of Culture and Science, Warsaw (by Pudelek).jpg"
+      },
+      {
+        "city": "Berlin",
+        "place": "Karl-Marx-Allee, Berlin",
+        "when": "1952–1989",
+        "heading": "Stalinallee to Plattenbau",
+        "text": "East Berlin built a grand boulevard of tiled apartment blocks, Stalinallee, and the building workers there started the uprising of June 1953. It was renamed Karl-Marx-Allee in 1961. Later, East Germany switched to cheaper prefabricated blocks, Plattenbau, and put up hundreds of thousands of flats.",
+        "lat": 52.516,
+        "lon": 13.4541,
+        "zoom": 14,
+        "stories": [
+          "4Hk0nl0qveJKDXjqmpwyKE",
+          "3WnLFVes8zaV6BMLnBo3ur",
+          "4t2Wh6uTWrwvgPXRTExO3q"
+        ],
+        "image": "Berlin-Friedrichshain, zicht op de Karl Marx Allee bij de Friedrichs Strasse Dm09085173 IMG 5358 2024-09-05 09.28.jpg"
+      },
+      {
+        "city": "Belgrade",
+        "place": "New Belgrade",
+        "when": "1948–1977",
+        "heading": "New Belgrade",
+        "text": "After 1948 Tito’s Yugoslavia built a new capital on marshland across the Sava: government buildings, huge housing blocks and the twin towers of the Western City Gate. Yugoslavia had broken with Stalin in 1948, and its architects followed Western modernism rather than Soviet models.",
+        "lat": 44.8202,
+        "lon": 20.4049,
+        "zoom": 14,
+        "stories": [
+          "6pYd3hCfDP6j39BcG36X3s",
+          "64aLjd0PC29LQ1qq4q5vQK",
+          "18ZdDZ2RrtA9JPkLj9BPz8",
+          "6jTEQkbqeplLq55UN5QtgO"
+        ],
+        "image": "Genex Tower 4.jpg"
+      },
+      {
+        "city": "Prague",
+        "place": "Žižkov TV Tower, Prague",
+        "when": "1985–1992",
+        "heading": "A tower over Žižkov",
+        "text": "Communist Czechoslovakia began a television tower in the old working-class district of Žižkov in 1985. Many people believed it was also meant to jam Western broadcasts. It was finished after the regime fell. In 2000 the artist David Černý added giant crawling babies to its sides.",
+        "lat": 50.0808,
+        "lon": 14.4508,
+        "zoom": 14,
+        "stories": [
+          "kJuoILXphc3p8rBDqPhlR"
+        ],
+        "image": "Vaclav Aulicky (4987456854).jpg"
+      },
+      {
+        "city": "Bucharest",
+        "place": "Palace of the Parliament, Bucharest",
+        "when": "1984–1989",
+        "heading": "Ceaușescu’s palace",
+        "text": "Nicolae Ceaușescu had a fifth of old Bucharest demolished, churches and all, to make room for a palace and a boulevard longer than the Champs-Élysées. Romanians lived with food and power shortages while it went up. It was unfinished when he was overthrown in 1989.",
+        "lat": 44.4275,
+        "lon": 26.0875,
+        "zoom": 14,
+        "stories": [
+          "1PMzik4rTewxy67jO5Vk5Q",
+          "6Kt4pZ61vbTEsJImt6oIRr",
+          "5S9gIYK7Yh9kXKxPXUBO76"
+        ],
+        "image": "Palace of the Parliament in Bucharest (51878975552).jpg"
+      }
+    ],
+    "image": "DJI 0088 Nowa Huta.jpg"
   },
   {
     "slug": "olympics",
