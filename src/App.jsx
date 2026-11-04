@@ -466,8 +466,10 @@ THREADS.forEach(t => t.chapters.forEach((c, i) => c.stories.forEach(id => {
 // every layer: { open(slug, chapter), current: slug of the open thread }.
 const ThreadContext = createContext({ open: () => {}, current: null })
 
-// "Part of a thread" links under a story or landmark.
-function ThreadLinks({ ids }) {
+const THREAD_ICON = <svg viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" clipRule="evenodd" d="M10.5 0H13c0.5523 0 1 0.447715 1 1v2.5c0 0.55228 -0.4477 1 -1 1h-0.9179l-0.8988 2.51676C11.648 7.10284 12 7.51031 12 8v2.5c0 0.5523 -0.4477 1 -1 1H8.5c-0.55228 0 -1 -0.4477 -1 -1V8.69541L5.62635 6.99209C5.58497 6.99731 5.5428 7 5.5 7H4.23131l-0.53964 2.51835c0.46059 0.08941 0.80833 0.49495 0.80833 0.98165V13c0 0.5523 -0.44772 1 -1 1H1c-0.552285 0 -1 -0.4477 -1 -1v-2.5c0 -0.55229 0.447715 -1 1 -1h1.16155l0.54508 -2.54372C2.2975 6.83091 2 6.4502 2 6V3.5c0 -0.55228 0.44772 -1 1 -1h2.5c0.55228 0 1 0.44772 1 1v2.25913l1.50743 1.3704C8.15283 7.04707 8.32092 7 8.5 7h1.09646l0.89284 -2.50006C9.94196 4.49423 9.5 4.04873 9.5 3.5V1c0 -0.552285 0.44772 -1 1 -1Z" /></svg>
+
+// Small "thread" pills on a story or landmark, one per thread it's part of.
+function ThreadLinks({ ids, onDark }) {
   const { open, current } = useContext(ThreadContext)
   const seen = new Set(), links = []
   ids.forEach(id => (THREADS_BY_STORY[id] || []).forEach(t => {
@@ -476,16 +478,14 @@ function ThreadLinks({ ids }) {
   }))
   if (!links.length) return null
   return (
-    <div className="thread-refs">
-      <div className="thread-refs__label">{links.length > 1 ? 'Part of these threads' : 'Part of a thread'}</div>
+    <span className={'thread-pills' + (onDark ? ' thread-pills--dark' : '')}>
       {links.map(t => (
-        <button key={t.slug} type="button" className="thread-ref" onClick={() => open(t.slug, t.chapter)}>
-          <span className="thread-ref__kind">{t.kind}</span>
-          <span className="thread-ref__title">{t.title}</span>
-          <svg className="thread-ref__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
+        <button key={t.slug} type="button" className="thread-pill" onClick={() => open(t.slug, t.chapter)} title={`Open the ${t.title} thread`}>
+          {THREAD_ICON}
+          <span>{t.title}</span>
         </button>
       ))}
-    </div>
+    </span>
   )
 }
 
@@ -511,10 +511,10 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
             <div className="landmark-hero__name">{lm.name}</div>
           </div>
           <p className="landmark-top__desc">{lm.description}</p>
+          <ThreadLinks ids={lm.members.map(m => m.id)} onDark />
           <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
         </div>
         <div className="landmark-detail__stories">
-          <ThreadLinks ids={lm.members.map(m => m.id)} />
           <LandmarkStories story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
         </div>
       </>
@@ -1348,7 +1348,6 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
             <p className="story-modal__desc">{story.description}</p>
           </>
         )}
-        <ThreadLinks ids={[story.id]} />
         <div className="story-modal__meta">
           {isMovieOrTV ? (
             omdbData?.rating && (
@@ -1374,6 +1373,7 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
           )}
           <MetaFacts story={story} />
           <PlaceName name={story.locationName} />
+          <ThreadLinks ids={[story.id]} />
         </div>
         {t === 'music' ? (
           (() => {
@@ -2332,7 +2332,6 @@ export default function App() {
                       <p className="story-modal__desc">{s.description}</p>
                     </>
                   )}
-                  <ThreadLinks ids={[s.id]} />
                   <div className="story-modal__meta">
                     {t === 'book' ? (
                       s.goodreadsRating ? (
@@ -2352,6 +2351,7 @@ export default function App() {
                     )}
                     <MetaFacts story={s} />
                     <PlaceName name={s.locationName} />
+                    <ThreadLinks ids={[s.id]} />
                   </div>
                   {t === 'music' ? (
                     (() => {

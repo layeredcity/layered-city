@@ -993,12 +993,13 @@ html[data-vt] .panel-story { transition: none !important; }
   .thread-story__box .story-modal { border-radius: 16px 16px 0 0; max-height: 85vh; padding-bottom: calc(28px + env(safe-area-inset-bottom)); }
 }
 
-/* "Part of a thread" links in story and landmark views */
-.thread-refs { margin: 4px 0 18px; }
-.landmark-detail__stories > .thread-refs { margin: 0; padding: 14px 20px; border-bottom: 1px solid var(--border); background: #FBF8F3; }
-.thread-refs__label { font-size: 11px; font-weight: 700; color: var(--ink-light); text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 6px; }
-.thread-ref { appearance: none; width: 100%; display: flex; align-items: baseline; gap: 10px; text-align: left; cursor: pointer; border: 1px solid var(--border); border-radius: 10px; background: var(--white); padding: 9px 12px; margin-top: 6px; font-family: var(--font-body); transition: border-color var(--transition); }
-.thread-ref:hover { border-color: var(--accent); }
-.thread-ref__kind { font-size: 10px; font-weight: 700; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; flex-shrink: 0; }
-.thread-ref__title { flex: 1; font-family: var(--font-display); font-size: 18px; color: var(--ink); line-height: 1.2; }
-.thread-ref__arrow { width: 16px; height: 16px; color: var(--ink-light); flex-shrink: 0; align-self: center; }
+/* Thread pills in story metadata and landmark headers */
+.thread-pills { display: inline-flex; flex-wrap: wrap; gap: 6px; }
+.thread-pills--dark { display: flex; margin: 2px 0 12px; }
+.thread-pill { appearance: none; display: inline-flex; align-items: center; gap: 6px; cursor: pointer; border: 1px solid var(--border); border-radius: 999px; background: var(--white); color: var(--ink); padding: 4px 11px 4px 9px; font: 600 12px var(--font-body); line-height: 1.3; transition: border-color var(--transition), background var(--transition); }
+.thread-pill svg { width: 12px; height: 12px; color: var(--accent); flex-shrink: 0; }
+.thread-pill:hover { border-color: var(--accent); }
+.thread-pills--dark .thread-pill { background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.32); color: #fff; }
+.thread-pills--dark .thread-pill svg { color: #fff; }
+.thread-pills--dark .thread-pill:hover { background: rgba(255,255,255,0.24); border-color: rgba(255,255,255,0.6); }
+.story-modal__desc + .thread-pills { display: flex; margin: -4px 0 16px; }
