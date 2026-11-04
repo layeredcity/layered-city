@@ -9,7 +9,8 @@ import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import ThreadView from './components/ThreadView'
-import THREADS from './data/threads.json'
+import THREADS_DATA from './data/threads.json'
+import { smartQuotes } from './utils/smartQuotes'
 import THREAD_PHOTOS from './data/thread-photos.json'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
@@ -22,6 +23,9 @@ import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LA
 // sections read consistently.
 const QUALITY_LABELS = ['', 'Fair', 'Decent', 'Good', 'Very good', 'Top rated']
 
+
+// Thread copy with typographic quotes; slugs and image file names stay as written.
+const THREADS = THREADS_DATA.map(t => JSON.parse(JSON.stringify(t), (k, v) => (typeof v === 'string' && k !== 'slug' && k !== 'image' ? smartQuotes(v) : v)))
 
 // Threads for the home list, grouped under their kind in the order the
 // kinds first appear in threads.json.

@@ -1,10 +1,16 @@
 import { createClient } from 'contentful'
+import { smartenEntries } from './smartQuotes'
 import { repoImage, repoFoodImage, repoWordAudio, repoFoodAudio } from './covers'
 
-const client = createClient({
+const rawClient = createClient({
   space: import.meta.env.VITE_CONTENTFUL_SPACE,
   accessToken: import.meta.env.VITE_CONTENTFUL_TOKEN,
 })
+
+// Every response gets typographic quotes and apostrophes (utils/smartQuotes.js).
+const client = {
+  getEntries: async query => smartenEntries(await rawClient.getEntries(query)),
+}
 
 export async function fetchCities() {
   const res = await client.getEntries({
