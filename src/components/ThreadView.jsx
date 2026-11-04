@@ -54,20 +54,9 @@ export default function ThreadView({ thread, onClose, renderStory }) {
     map.addControl(new mapboxgl.AttributionControl({ compact: true }), 'bottom-right')
     mapRef.current = map
     map.on('load', () => {
-      // A chapter that spans several cities fans out from the previous stop.
-      const fans = []
-      thread.chapters.forEach((c, i) => {
-        if (!c.points?.length || i === 0) return
-        const prev = thread.chapters[i - 1]
-        c.points.forEach(p => fans.push([[prev.lon, prev.lat], [p.lon, p.lat]]))
-      })
       const main = thread.chapters.filter(c => !c.points?.length).map(c => [c.lon, c.lat])
       map.addSource('route', { type: 'geojson', data: { type: 'Feature', geometry: { type: 'LineString', coordinates: main } } })
       map.addLayer({ id: 'route', type: 'line', source: 'route', paint: { 'line-color': ROUTE_COLOR, 'line-width': 2.5, 'line-opacity': 0.75 }, layout: { 'line-cap': 'round', 'line-join': 'round' } })
-      if (fans.length) {
-        map.addSource('fans', { type: 'geojson', data: { type: 'FeatureCollection', features: fans.map(c => ({ type: 'Feature', geometry: { type: 'LineString', coordinates: c } })) } })
-        map.addLayer({ id: 'fans', type: 'line', source: 'fans', paint: { 'line-color': ROUTE_COLOR, 'line-width': 1.5, 'line-opacity': 0.55, 'line-dasharray': [2, 2] } })
-      }
     })
     markersRef.current = []
     thread.chapters.forEach((c, i) => {
@@ -128,8 +117,6 @@ export default function ThreadView({ thread, onClose, renderStory }) {
     return () => window.removeEventListener('keydown', onKey)
   }, [onClose])
 
-  const cityCount = new Set(thread.chapters.flatMap(c => c.points?.length ? c.points.map(p => p.label) : [c.city])).size
-
   return (
     <div className="thread-overlay" onClick={onClose}>
       <div className="thread" onClick={e => e.stopPropagation()} role="dialog" aria-label={thread.title}>
@@ -139,7 +126,7 @@ export default function ThreadView({ thread, onClose, renderStory }) {
         <div className="thread__map" ref={mapEl} />
         <div className="thread__scroll" ref={scrollRef}>
           <header className="thread__head">
-            <div className="thread__kicker">{thread.kind} · {thread.chapters.length} stops · {cityCount} cities</div>
+            <div className="thread__kicker">{thread.kind} · {thread.chapters.length} stops</div>
             <h1 className="thread__title">{thread.title}</h1>
             <div className="thread__dates">{thread.dates}</div>
             <p className="thread__dek">{thread.dek}</p>
@@ -153,7 +140,7 @@ export default function ThreadView({ thread, onClose, renderStory }) {
                 <div className="thread-ch__body">
                   <div className="thread-ch__when">{c.when}</div>
                   <h2 className="thread-ch__heading">{c.heading}</h2>
-                  <div className="thread-ch__place">{c.place === c.heading ? c.city : `${c.place}, ${c.city}`}</div>
+                  <div className="thread-ch__place">{c.place}</div>
                   <p className="thread-ch__text">{c.text}</p>
                   {c.stories.length > 0 && (
                     <div className="thread-ch__stories">

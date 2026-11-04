@@ -16,59 +16,106 @@
     "when": "1571–1592",
     "heading": "Training in Lombardy",
     "text": "Born in Milan in 1571 and raised partly in Caravaggio after plague killed his father. At 13 he was apprenticed to Simone Peterzano, a Milanese painter who said he had trained under Titian. Lombard painters liked plain, closely observed detail, and he took that with him.",
-    "lat": 45.4642, "lon": 9.19, "zoom": 6.2,
+    "lat": 45.4642,
+    "lon": 9.19,
+    "zoom": 6.2,
     "stories": []
    },
    {
     "city": "Rome",
-    "place": "San Luigi dei Francesi and Santa Maria del Popolo",
+    "place": "San Luigi dei Francesi and Santa Maria del Popolo, Rome",
     "when": "1592–1606",
     "heading": "Fame in two chapels",
     "text": "He arrived in Rome broke and painted fruit and flowers for other artists. His break was the Contarelli Chapel in San Luigi dei Francesi in 1600: the Calling of Saint Matthew, with a shaft of light across a tax office. Two more canvases for Santa Maria del Popolo followed. Both churches are free, and the paintings are still where he hung them.",
-    "lat": 41.8995, "lon": 12.4747, "zoom": 13.2,
-    "stories": ["3mNloBGr72upZ8imprjKAP", "4EWqldH7ktv6gwpjh8Nei7", "po3cs5l7L5gpuzZYqFJYf", "7zQhyIOxKLKQu8vyGZ0yvh", "4RDAEUuHNaiEyClNql6DG5", "1qbbRHGLEPsEQe9luJujLX", "3JhAf2nOJzOxUjre2CGebv"]
+    "lat": 41.8995,
+    "lon": 12.4747,
+    "zoom": 13.2,
+    "stories": [
+     "3mNloBGr72upZ8imprjKAP",
+     "4EWqldH7ktv6gwpjh8Nei7",
+     "po3cs5l7L5gpuzZYqFJYf",
+     "7zQhyIOxKLKQu8vyGZ0yvh",
+     "4RDAEUuHNaiEyClNql6DG5",
+     "1qbbRHGLEPsEQe9luJujLX",
+     "3JhAf2nOJzOxUjre2CGebv"
+    ]
    },
    {
     "city": "Rome",
-    "place": "Via della Pallacorda",
+    "place": "Via della Pallacorda, Rome",
     "when": "May 1606",
     "heading": "A death on the tennis court",
     "text": "In May 1606 a fight near the tennis courts on Via della Pallacorda ended with Caravaggio killing Ranuccio Tomassoni. He was sentenced to death in absentia, which meant anyone could kill him on sight, and he left Rome.",
-    "lat": 41.9017, "lon": 12.4741, "zoom": 15,
-    "stories": ["4xwEo9Zd32Lce7ppMv0Jwf"]
+    "lat": 41.9017,
+    "lon": 12.4741,
+    "zoom": 15,
+    "stories": [
+     "4xwEo9Zd32Lce7ppMv0Jwf"
+    ]
    },
    {
     "city": "Naples",
-    "place": "Pio Monte della Misericordia",
+    "place": "Pio Monte della Misericordia, Naples",
     "when": "1606–1607, 1609–1610",
     "heading": "Sanctuary in Naples",
     "text": "Naples was Spanish-ruled and outside the Pope's reach. He was in demand at once: the Seven Works of Mercy, painted for a charity's chapel, still hangs over its altar. The Flagellation of Christ is at Capodimonte.",
-    "lat": 40.8517, "lon": 14.2593, "zoom": 13.2,
-    "stories": ["4i7YqVm8sTQxSXaLJTJnn1", "7mWIRcop1Lg613yVpEXngZ", "4ieQ1JmLRoLoVKPPynr7NI"]
+    "lat": 40.8517,
+    "lon": 14.2593,
+    "zoom": 13.2,
+    "stories": [
+     "4i7YqVm8sTQxSXaLJTJnn1",
+     "7mWIRcop1Lg613yVpEXngZ",
+     "4ieQ1JmLRoLoVKPPynr7NI"
+    ]
    },
    {
     "city": "Malta, Sicily and Porto Ercole",
-    "place": "Valletta, Syracuse, Messina, Palermo",
+    "place": "Valletta, Syracuse, Messina, Palermo and Porto Ercole",
     "when": "1607–1610",
     "heading": "On the run",
     "text": "In Malta he was made a Knight of the Order of St John, then jailed after another fight, escaped, and was expelled. He moved through Sicily painting altarpieces, went back to Naples, and was badly cut in the face outside a tavern. He died in July 1610 at Porto Ercole, on his way to Rome to ask for a pardon. He was 38.",
-    "lat": 37.5, "lon": 14.2, "zoom": 5.6,
+    "lat": 37.5,
+    "lon": 14.2,
+    "zoom": 5.6,
     "stories": []
    },
    {
     "city": "London, Dublin, Berlin and Paris",
-    "place": "Where the paintings went",
+    "place": "London, Dublin, Berlin and Paris",
     "when": "Today",
     "heading": "Where the paintings went",
     "text": "Collectors and dukes moved his easel paintings north. The Death of the Virgin was turned down by the church that ordered it and bought for the Duke of Mantua on Rubens's advice; it is now in the Louvre. The Taking of Christ was lost for two centuries and turned up in 1990 in a Jesuit house in Dublin.",
-    "lat": 50.5, "lon": 2.5, "zoom": 4.2,
+    "lat": 50.5,
+    "lon": 2.5,
+    "zoom": 4.2,
     "points": [
-     { "lat": 51.5089, "lon": -0.1283, "label": "London" },
-     { "lat": 53.3409, "lon": -6.2524, "label": "Dublin" },
-     { "lat": 52.5085, "lon": 13.3654, "label": "Berlin" },
-     { "lat": 48.8606, "lon": 2.3376, "label": "Paris" }
+     {
+      "lat": 51.5089,
+      "lon": -0.1283,
+      "label": "London"
+     },
+     {
+      "lat": 53.3409,
+      "lon": -6.2524,
+      "label": "Dublin"
+     },
+     {
+      "lat": 52.5085,
+      "lon": 13.3654,
+      "label": "Berlin"
+     },
+     {
+      "lat": 48.8606,
+      "lon": 2.3376,
+      "label": "Paris"
+     }
     ],
-    "stories": ["2qcGvyRGzX8eSO4rYjXhp6", "45hDVQdu2i7QpSfJRIEYPA", "1ODlLmZUiyn9lhbADoXM6p", "6DYRQNxSusCwsKTS8IG0lA"]
+    "stories": [
+     "2qcGvyRGzX8eSO4rYjXhp6",
+     "45hDVQdu2i7QpSfJRIEYPA",
+     "1ODlLmZUiyn9lhbADoXM6p",
+     "6DYRQNxSusCwsKTS8IG0lA"
+    ]
    }
   ]
  },
@@ -89,26 +136,43 @@
     "when": "August–October 1944",
     "heading": "Warsaw rises",
     "text": "On 1 August 1944 the Polish Home Army attacked the German occupiers, hoping to free the city before the Red Army arrived. The Soviets stopped on the far bank of the Vistula and waited. The fighting lasted 63 days. Up to 200,000 civilians died, and the Germans then destroyed most of what was left of the city.",
-    "lat": 52.2323, "lon": 20.9811, "zoom": 12.6,
-    "stories": ["6FOcSM2Xaz4ITOVa2XoVqR", "2z5lH5aYbRqk50gwFdWSRI", "28WcXAWZnZvpJ6Tb6AQHRX", "17HR05uqiCO9AvhxRJOAUO"]
+    "lat": 52.2323,
+    "lon": 20.9811,
+    "zoom": 12.6,
+    "stories": [
+     "6FOcSM2Xaz4ITOVa2XoVqR",
+     "2z5lH5aYbRqk50gwFdWSRI",
+     "28WcXAWZnZvpJ6Tb6AQHRX",
+     "17HR05uqiCO9AvhxRJOAUO"
+    ]
    },
    {
     "city": "Berlin",
-    "place": "Potsdamer Platz",
+    "place": "Potsdamer Platz, Berlin",
     "when": "17 June 1953",
     "heading": "Builders strike in East Berlin",
     "text": "Construction workers on Stalinallee walked off the job over higher work quotas. Within a day hundreds of thousands were protesting across East Germany. Soviet tanks put it down, and dozens were killed.",
-    "lat": 52.5096, "lon": 13.376, "zoom": 13,
-    "stories": ["2LKISTmRBGSfQq1aeu7iC5"]
+    "lat": 52.5096,
+    "lon": 13.376,
+    "zoom": 13,
+    "stories": [
+     "2LKISTmRBGSfQq1aeu7iC5"
+    ]
    },
    {
     "city": "Budapest",
-    "place": "Corvin Passage",
+    "place": "Corvin Passage, Budapest",
     "when": "October–November 1956",
     "heading": "Budapest fights the tanks",
     "text": "A student march on 23 October ended with Stalin's statue pulled down. Young fighters held the Corvin Passage against Soviet armour, and Prime Minister Imre Nagy announced that Hungary would leave the Warsaw Pact. On 4 November the Soviet army came back in force. About 2,500 Hungarians were killed and 200,000 fled the country. Nagy was hanged in 1958.",
-    "lat": 47.4855, "lon": 19.0717, "zoom": 13,
-    "stories": ["6arhIKXOdgMkfIQK0cA9TD", "1MoIvwhwewOvhJY10h9mbk", "3fAtUdRd1rLG53cLs9RMjS"]
+    "lat": 47.4855,
+    "lon": 19.0717,
+    "zoom": 13,
+    "stories": [
+     "6arhIKXOdgMkfIQK0cA9TD",
+     "1MoIvwhwewOvhJY10h9mbk",
+     "3fAtUdRd1rLG53cLs9RMjS"
+    ]
    },
    {
     "city": "Warsaw",
@@ -116,53 +180,87 @@
     "when": "March 1968",
     "heading": "Students against the censors",
     "text": "When the authorities closed a production of Mickiewicz's play Dziady for being anti-Russian, students protested. The crackdown came with an antisemitic campaign that pushed about 13,000 Polish Jews to emigrate.",
-    "lat": 52.2403, "lon": 21.0189, "zoom": 13.5,
-    "stories": ["2SreKF6Y49CjNCdeBKLn90"]
+    "lat": 52.2403,
+    "lon": 21.0189,
+    "zoom": 13.5,
+    "stories": [
+     "2SreKF6Y49CjNCdeBKLn90"
+    ]
    },
    {
     "city": "Prague",
-    "place": "Wenceslas Square",
+    "place": "Wenceslas Square, Prague",
     "when": "August 1968",
     "heading": "The end of the Prague Spring",
     "text": "Alexander Dubček had promised “socialism with a human face”: less censorship, more debate. On the night of 20 August, Warsaw Pact armies invaded. In January 1969 the student Jan Palach set himself on fire at the top of Wenceslas Square in protest. Marta Kubišová's song “Modlitba pro Martu” became an anthem, and she was banned from performing for twenty years.",
-    "lat": 50.081, "lon": 14.428, "zoom": 13.5,
-    "stories": ["lJ3tyrdbnHx3fCQJYUSAP", "3ukQTyaZRD1b2iyibKLRBX", "54vBMkWQ4SSVJfO3DbGQNP", "Kk80FUja2C3SYE8Gu0rqU"]
+    "lat": 50.081,
+    "lon": 14.428,
+    "zoom": 13.5,
+    "stories": [
+     "lJ3tyrdbnHx3fCQJYUSAP",
+     "3ukQTyaZRD1b2iyibKLRBX",
+     "54vBMkWQ4SSVJfO3DbGQNP",
+     "Kk80FUja2C3SYE8Gu0rqU"
+    ]
    },
    {
     "city": "Budapest",
-    "place": "Heroes' Square",
+    "place": "Heroes' Square, Budapest",
     "when": "16 June 1989",
     "heading": "A funeral, thirty-one years late",
     "text": "Hungary's government agreed to rebury Imre Nagy with honours. About a quarter of a million people filled Heroes' Square. It was the first sign that 1956 could be spoken about in public.",
-    "lat": 47.5149, "lon": 19.0779, "zoom": 13.5,
-    "stories": ["bDa2Kgjsn2NCLyrWuxYRH"]
+    "lat": 47.5149,
+    "lon": 19.0779,
+    "zoom": 13.5,
+    "stories": [
+     "bDa2Kgjsn2NCLyrWuxYRH"
+    ]
    },
    {
     "city": "Berlin",
-    "place": "Bornholmer Straße",
+    "place": "Bornholmer Straße, Berlin",
     "when": "9 November 1989",
     "heading": "The Wall opens",
     "text": "Erich Honecker had already been pushed out. At an evening press conference, a Politburo spokesman said the new travel rules applied “immediately”. Crowds went to the checkpoints, and at Bornholmer Straße the guards gave up and opened the gate.",
-    "lat": 52.5548, "lon": 13.398, "zoom": 13,
-    "stories": ["6Gt4C9pN84v6GeqUhLf3rw", "6uBjFquR8UvVC8Rmygzoat", "4Hk0nl0qveJKDXjqmpwyKE"]
+    "lat": 52.5548,
+    "lon": 13.398,
+    "zoom": 13,
+    "stories": [
+     "6Gt4C9pN84v6GeqUhLf3rw",
+     "6uBjFquR8UvVC8Rmygzoat",
+     "4Hk0nl0qveJKDXjqmpwyKE"
+    ]
    },
    {
     "city": "Prague",
-    "place": "Melantrich building, Wenceslas Square",
+    "place": "Melantrich building, Wenceslas Square, Prague",
     "when": "November–December 1989",
     "heading": "The Velvet Revolution",
     "text": "Police beat students on Národní street on 17 November. Within days, Wenceslas Square filled every evening. Václav Havel spoke from the Melantrich balcony, and Marta Kubišová, banned since 1970, stood up there beside him. By the end of December Havel was president.",
-    "lat": 50.0817, "lon": 14.4258, "zoom": 13.5,
-    "stories": ["1dQOwvN48Ue6aNikFqpJDI", "uTPPYtGdQOFNATwrf3XpB", "1uWLERrZoE9JMFNh6QgvfG"]
+    "lat": 50.0817,
+    "lon": 14.4258,
+    "zoom": 13.5,
+    "stories": [
+     "1dQOwvN48Ue6aNikFqpJDI",
+     "uTPPYtGdQOFNATwrf3XpB",
+     "1uWLERrZoE9JMFNh6QgvfG"
+    ]
    },
    {
     "city": "Bucharest",
-    "place": "Revolution Square",
+    "place": "Revolution Square, Bucharest",
     "when": "December 1989",
     "heading": "Ceaușescu's last speech",
     "text": "On 21 December Nicolae Ceaușescu addressed a rally from the Central Committee balcony, and the crowd booed him on live television. He fled by helicopter the next day. He and his wife were tried and shot on 25 December. Romania's was the only revolution of 1989 with heavy bloodshed: more than a thousand people died.",
-    "lat": 44.4396, "lon": 26.0968, "zoom": 13.5,
-    "stories": ["6oj6a6CZDZvKKqKHtVhzpd", "5xzbJSutEhUh53ZBV1u0ck", "xQ3g8Ja3wsY39s08FuMiD", "415FvPVn29SlfrFwcB2Ck7"]
+    "lat": 44.4396,
+    "lon": 26.0968,
+    "zoom": 13.5,
+    "stories": [
+     "6oj6a6CZDZvKKqKHtVhzpd",
+     "5xzbJSutEhUh53ZBV1u0ck",
+     "xQ3g8Ja3wsY39s08FuMiD",
+     "415FvPVn29SlfrFwcB2Ck7"
+    ]
    }
   ]
  }
