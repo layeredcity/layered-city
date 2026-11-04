@@ -20,3 +20,6 @@ const food = (await all('food')).map(i => ({ id: i.sys.id, city: cn[i.fields.rel
 await fs.writeFile('data/text/words.json', JSON.stringify(words, null, 1))
 await fs.writeFile('data/text/food.json', JSON.stringify(food, null, 1))
 await fs.writeFile('data/text/cities.json', JSON.stringify(cities.map(c => ({ id: c.sys.id, city: c.fields.cityName, wordsPreamble: c.fields.wordsPreamble })), null, 1))
+// Stories, compact, for finding material for cross-city threads.
+const stories = (await all('story')).map(i => ({ id: i.sys.id, city: cn[i.fields.relatedCity?.sys?.id], type: (i.fields.mediaType || '').toLowerCase(), title: i.fields.storyTitle, place: i.fields.locationName || undefined, creator: i.fields.creatorName || undefined, desc: i.fields.storyDescription }))
+await fs.writeFile('data/text/stories.json', JSON.stringify(stories))
