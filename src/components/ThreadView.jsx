@@ -159,14 +159,8 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
             <div className="thread__kicker">{thread.kind} · {thread.chapters.length} stops</div>
             <h1 className="thread__title">{thread.title}</h1>
             <div className="thread__dates">{thread.dates}</div>
-            {thread.intro.map((p, i) => {
-              // The intro's first sentence is the lead, set larger.
-              if (i > 0) return <p key={i} className="thread__intro">{p}</p>
-              const m = p.match(/^(.+?[.!?])\s+(.*)$/s)
-              return m
-                ? [<p key="lead" className="thread__dek">{m[1]}</p>, <p key={i} className="thread__intro">{m[2]}</p>]
-                : <p key={i} className="thread__dek">{p}</p>
-            })}
+            {/* The intro's first paragraph is the lead, set larger. */}
+            {thread.intro.map((p, i) => <p key={i} className={i === 0 ? 'thread__dek' : 'thread__intro'}>{p}</p>)}
             <div className="thread__start">Scroll to follow the thread</div>
           </header>
           <ol className="thread__chapters">
