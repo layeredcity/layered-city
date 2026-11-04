@@ -10,6 +10,7 @@ import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
 import ThreadView from './components/ThreadView'
 import THREADS from './data/threads.json'
+import THREAD_PHOTOS from './data/thread-photos.json'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
 import { cityLandmarks, landmarkSummary } from './utils/landmarks'
@@ -20,6 +21,11 @@ import { currencyForCountry, fetchUsdRates, BASE_CURRENCIES, BASE_NOTES, BASE_LA
 // Used for movie/TV IMDb tiers and book Goodreads tiers alike, so the two
 // sections read consistently.
 const QUALITY_LABELS = ['', 'Fair', 'Decent', 'Good', 'Very good', 'Top rated']
+
+
+// Threads for the home list, grouped under their kind in the order the
+// kinds first appear in threads.json.
+const THREAD_GROUPS = Object.entries(THREADS.reduce((g, t) => { (g[t.kind] ||= []).push(t); return g }, {}))
 
 function imdbToQualityRating(imdbRating) {
   const r = parseFloat(imdbRating)
@@ -2015,19 +2021,6 @@ export default function App() {
           </div>
         </div>
         <div className="panel-cities__scroll">
-          <div className="thread-links">
-            <div className="thread-links__title">Across cities</div>
-            <div className="thread-links__row">
-            {THREADS.map(t => (
-              <button key={t.slug} type="button" className="thread-link" onClick={() => openThread(t.slug)}>
-                <span className="thread-link__text">
-                  <span className="thread-link__kind">{t.kind}</span>
-                  <span className="thread-link__title">{t.title}</span>
-                </span>
-              </button>
-            ))}
-            </div>
-          </div>
           <div className="city-order">
             <div className="city-order__title">Cities</div>
             <div className="sort-toggle" role="group" aria-label="Order cities">
@@ -2052,6 +2045,25 @@ export default function App() {
               <div className="city-item__info">
                 <div className="city-item__name">{city.name}</div>
                 <div className="city-item__country">{city.country}{nearestCityId === city.id && <span className="city-item__near"> · <span className="city-item__near-dot" aria-hidden="true" />Near you</span>}</div>
+              </div>
+            </div>
+          ))}
+          </Fragment>))}
+          <div className="city-order city-order--threads">
+            <div className="city-order__title">Threads across cities</div>
+          </div>
+          {THREAD_GROUPS.map(([kind, list]) => (<Fragment key={kind}>
+          <div className="city-group-heading">{kind}</div>
+          {list.map(t => (
+            <div key={t.slug} className="city-item city-item--thread" onClick={() => openThread(t.slug)}>
+              <div className="city-item__thumb-wrap">
+                {THREAD_PHOTOS[t.image]
+                  ? <img className="city-item__thumb" src={THREAD_PHOTOS[t.image].src} alt="" loading="lazy" />
+                  : <div className="city-item__thumb city-item__thumb--placeholder" />}
+              </div>
+              <div className="city-item__info">
+                <div className="city-item__name">{t.title}</div>
+                <div className="city-item__country">{t.dates} · {new Set(t.chapters.map(c => c.city)).size} cities</div>
               </div>
             </div>
           ))}

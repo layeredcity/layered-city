@@ -1009,3 +1009,8 @@ html[data-vt] .panel-story { transition: none !important; }
   .panel-story__content--landmark .landmark-top .thread-pills--dark { margin: -10px 20px 22px; }
   .panel-story__content--landmark .landmark-top .thread-pills--dark + .landmark-hero__credit { margin-top: 0; }
 }
+
+/* Threads in the home list: square-ish thumbnails to tell them apart from cities. */
+.city-order--threads { margin-top: 18px; border-top: 1px solid var(--border); }
+.city-item--thread .city-item__thumb-wrap { border-radius: 14px; }
+.city-item--thread .city-item__country { color: var(--ink-light); text-transform: none; letter-spacing: 0; font-weight: 500; }
