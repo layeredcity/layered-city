@@ -935,7 +935,7 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-hero + .thread__head { padding-top: 30px; }
 .thread-img { margin: 4px 0 18px; }
 .thread-img__frame { background: #EFE8DD; border-radius: 10px; overflow: hidden; display: flex; justify-content: center; }
-.thread-img__frame img { display: block; max-width: 100%; max-height: 360px; }
+.thread-img__frame img { display: block; max-width: 100%; max-height: 360px; width: auto; height: auto; }
 .thread-img figcaption { padding: 5px 0 0; }
 .thread__head { padding: 56px 56px 36px; border-bottom: 1px solid var(--border); }
 .thread__kicker { font-size: 12px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; }

@@ -26,10 +26,11 @@ for (const file of files) {
     await sleep(700)
     const buf = Buffer.from(await (await fetch(info.thumburl, { headers: UA })).arrayBuffer())
     const out = await sharp(buf).resize({ width: 1600, withoutEnlargement: true }).webp({ quality: 78 }).toBuffer()
+    const { width: w, height: h } = await sharp(out).metadata()
     const hash = crypto.createHash('sha1').update(out).digest('hex').slice(0, 10)
     await fs.writeFile(`public/threads/${hash}.webp`, out)
     const meta = info.extmetadata || {}
-    photos[file] = { src: `/threads/${hash}.webp`, author: strip(meta.Artist?.value) || 'Unknown', license: strip(meta.LicenseShortName?.value) || '', page: info.descriptionurl }
+    photos[file] = { src: `/threads/${hash}.webp`, author: strip(meta.Artist?.value) || 'Unknown', license: strip(meta.LicenseShortName?.value) || '', page: info.descriptionurl, w, h }
     console.log(`::notice::${file}: ${photos[file].license}, ${photos[file].author}`)
   } catch (e) { console.log(`::warning::${file}: ${e.message}`) }
   await sleep(700)
