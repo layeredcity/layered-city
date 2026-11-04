@@ -110,7 +110,24 @@ export async function fetchStoriesForCity(cityId) {
     skip += res.items.length
     if (!res.items.length || skip >= res.total) break
   }
-  return items.map(item => {
+  return items.map(mapStory)
+  // TV is switched off for now (Ryan, Nov 2026): shows stay in Contentful
+  // but don't appear anywhere in the app. Remove 'tv' here to bring them back.
+    .filter(s => !HIDDEN_TYPES.includes((s.mediaType || '').toLowerCase()))
+}
+
+// Specific stories by ID, in the order given (for cross-city threads).
+export async function fetchStoriesByIds(ids) {
+  const items = []
+  for (let i = 0; i < ids.length; i += 100) {
+    const res = await client.getEntries({ content_type: 'story', 'sys.id[in]': ids.slice(i, i + 100).join(','), limit: 100, include: 2 })
+    items.push(...res.items)
+  }
+  const byId = Object.fromEntries(items.map(it => [it.sys.id, mapStory(it)]))
+  return ids.map(id => byId[id]).filter(Boolean)
+}
+
+function mapStory(item) {
     const f = item.fields
     const channel = f.channel?.fields
     return {
@@ -161,9 +178,5 @@ export async function fetchStoriesForCity(cityId) {
       episode: f.episodeNumber || null,
       categories: (f.categories || []).map(c => c.fields?.name || c.fields?.categoryName || ''),
     }
-  })
-  // TV is switched off for now (Ryan, Nov 2026): shows stay in Contentful
-  // but don't appear anywhere in the app. Remove 'tv' here to bring them back.
-    .filter(s => !HIDDEN_TYPES.includes((s.mediaType || '').toLowerCase()))
 }
 const HIDDEN_TYPES = ['tv']

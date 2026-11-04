@@ -8,6 +8,8 @@ import { fetchOmdbData } from './utils/omdb'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
+import ThreadView from './components/ThreadView'
+import THREADS from './data/threads.json'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
 import { cityLandmarks, landmarkSummary } from './utils/landmarks'
@@ -1582,6 +1584,25 @@ export default function App() {
 
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
+  // Cross-city threads (/threads/<slug>): a full-screen page over the app.
+  const [openThreadSlug, setOpenThreadSlug] = useState(() => (window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null)
+  const [threadStory, setThreadStory] = useState(null)
+  const threadReturnPath = useRef('/')
+  const openThread = useCallback(slug => {
+    threadReturnPath.current = window.location.pathname.startsWith('/threads/') ? '/' : window.location.pathname
+    setOpenThreadSlug(slug)
+    window.history.pushState({}, '', '/threads/' + slug)
+  }, [])
+  const closeThread = useCallback(() => {
+    setOpenThreadSlug(null); setThreadStory(null)
+    window.history.pushState({}, '', threadReturnPath.current || '/')
+  }, [])
+  useEffect(() => {
+    const onPop = () => { setOpenThreadSlug((window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null); setThreadStory(null) }
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+  }, [])
+  const openThreadData = THREADS.find(t => t.slug === openThreadSlug) || null
   const [mediaStory, setMediaStory] = useState(null)
   const [omdbCache, setOmdbCache] = useState({})
   const [bookCache, setBookCache] = useState({})
@@ -1953,6 +1974,18 @@ export default function App() {
           </div>
         </div>
         <div className="panel-cities__scroll">
+          <div className="thread-links">
+            <div className="thread-links__title">Across cities</div>
+            {THREADS.map(t => (
+              <button key={t.slug} type="button" className="thread-link" onClick={() => openThread(t.slug)}>
+                <span className="thread-link__text">
+                  <span className="thread-link__kind">{t.kind} · {t.dates}</span>
+                  <span className="thread-link__title">{t.title}</span>
+                </span>
+                <svg className="thread-link__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
+              </button>
+            ))}
+          </div>
           <div className="city-order">
             <div className="city-order__title">Cities</div>
             <div className="sort-toggle" role="group" aria-label="Order cities">
@@ -2150,7 +2183,7 @@ export default function App() {
             {selectedStory.location && <div className="story-modal-arrow" />}
           </div>
         )}
-        <MediaModal story={mediaStory} onClose={() => setMediaStory(null)} />
+        {!openThreadData && <MediaModal story={mediaStory} onClose={() => setMediaStory(null)} />}
         {selectedCity && (
           <div className="map-filter">
             <span className="map-filter__label">Show</span>
@@ -2347,6 +2380,23 @@ export default function App() {
           )
         })()}
       </div>
+      {openThreadData && (
+        <ThreadView
+          thread={openThreadData}
+          onClose={closeThread}
+          renderStory={st => <StoryItem story={st} onSelect={setThreadStory} omdbData={omdbCache[st.imdbId]} bookData={bookCache[st.isbn]} />}
+        />
+      )}
+      {openThreadData && threadStory && (
+        <div className="thread-story" onClick={() => setThreadStory(null)}>
+          <div className="thread-story__box" onClick={e => e.stopPropagation()}>
+            <StoryModal story={threadStory} onClose={() => setThreadStory(null)} onOpenMedia={setMediaStory} omdbData={omdbCache[threadStory.imdbId] ?? null} bookData={bookCache[threadStory.isbn] ?? null} onOpenStory={setThreadStory} omdbCache={omdbCache} bookCache={bookCache} />
+          </div>
+        </div>
+      )}
+      {openThreadData && mediaStory && (
+        <div className="thread-media"><MediaModal story={mediaStory} onClose={() => setMediaStory(null)} /></div>
+      )}
     </div>
   )
 }
