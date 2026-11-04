@@ -37,7 +37,7 @@ const typeRank = s => { const i = TYPE_ORDER.indexOf((s.mediaType || '').toLower
 
 // The chapter map never zooms in further than this, so a stop still shows its
 // surroundings rather than a few streets.
-const MAX_ZOOM = 9.5
+const MAX_ZOOM = 7.5
 
 export default function ThreadView({ thread, onClose, renderStory, startChapter = null }) {
   const scrollRef = useRef(null)
@@ -135,7 +135,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       map.fitBounds(b, { padding: pad, duration: 2200, essential: true })
     } else {
       const z = Math.min(c.zoom - 3, MAX_ZOOM) - (narrow ? 1 : 0)
-      map.flyTo({ center: [c.lon, c.lat], zoom: Math.max(4, z), duration: 2200, curve: 1, essential: true })
+      map.flyTo({ center: [c.lon, c.lat], zoom: Math.max(4, z), duration: 2200, curve: 0.8, essential: true })
     }
   }, [active, thread, bounds])
 
