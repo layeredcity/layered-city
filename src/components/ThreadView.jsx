@@ -142,6 +142,7 @@ export default function ThreadView({ thread, onClose, renderStory }) {
                   <h2 className="thread-ch__heading">{c.heading}</h2>
                   <div className="thread-ch__place">{c.place}</div>
                   <p className="thread-ch__text">{c.text}</p>
+                  {c.tip && <p className="thread-ch__tip"><span className="thread-ch__tip-label">If you go</span>{c.tip}</p>}
                   {c.stories.length > 0 && (
                     <div className="thread-ch__stories">
                       {c.stories.map(id => stories[id] ? <div key={id}>{renderStory(stories[id])}</div> : null)}

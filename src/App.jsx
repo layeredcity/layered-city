@@ -1976,15 +1976,16 @@ export default function App() {
         <div className="panel-cities__scroll">
           <div className="thread-links">
             <div className="thread-links__title">Across cities</div>
+            <div className="thread-links__row">
             {THREADS.map(t => (
               <button key={t.slug} type="button" className="thread-link" onClick={() => openThread(t.slug)}>
                 <span className="thread-link__text">
-                  <span className="thread-link__kind">{t.kind} · {t.dates}</span>
+                  <span className="thread-link__kind">{t.kind}</span>
                   <span className="thread-link__title">{t.title}</span>
                 </span>
-                <svg className="thread-link__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
               </button>
             ))}
+            </div>
           </div>
           <div className="city-order">
             <div className="city-order__title">Cities</div>

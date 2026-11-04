@@ -263,5 +263,381 @@
     ]
    }
   ]
+ },
+ {
+  "slug": "songs-of-longing",
+  "kind": "Music",
+  "title": "Songs of longing",
+  "dates": "Lisbon to Istanbul",
+  "dek": "Seven cities, seven song forms built on loss, heard from west to east.",
+  "intro": [
+   "Many European cities have a song form built on missing something: a home, a lover, a country, a self. Most grew in port districts and poor quarters, often among people who had arrived from somewhere else, and most were looked down on before they became national treasures.",
+   "This one has no timeline. Start anywhere, and listen before you read."
+  ],
+  "chapters": [
+   {
+    "city": "Lisbon",
+    "place": "Alfama and Mouraria, Lisbon",
+    "when": "Fado",
+    "heading": "Saudade in the old quarters",
+    "text": "Fado comes out of 19th-century Lisbon: sailors' bars, brothels and taverns in Alfama and Mouraria. The word for its mood is saudade, longing for something gone or never had. Amália Rodrigues took it to the world in the 1950s, and UNESCO listed it in 2011.",
+    "tip": "Fado houses start late, often after 9 pm. When a fadista sings, the room goes quiet and stays that way.",
+    "lat": 38.7111,
+    "lon": -9.1276,
+    "zoom": 14,
+    "stories": [
+     "4bDXMJYHwNFeGwFOZM8ZSe",
+     "2h4t1DzbmPSU3PrOrb4VTE",
+     "iPwYswvjmMMWcDfAFj9lt",
+     "42C17mJW8tYIWrE9BrsXya",
+     "YSOS0DiK05AfGRhm2OAkO",
+     "aoFjx0a8UPAYhFV8TXyXJ"
+    ]
+   },
+   {
+    "city": "Seville",
+    "place": "Triana, Seville",
+    "when": "Flamenco",
+    "heading": "Deep song across the river",
+    "text": "Triana, across the Guadalquivir from the cathedral, was home to Gitano families, potters and sailors. The oldest flamenco, cante jondo or “deep song”, is about grief, prison and hunger. Niña de los Peines recorded it in the 1910s, when most of it had never been written down.",
+    "tip": "Tablaos are shows for visitors. Peñas, members' clubs that often let in guests, are where locals listen.",
+    "lat": 37.3835,
+    "lon": -6.0031,
+    "zoom": 14,
+    "stories": [
+     "6QaB6BDDGt8sri1SEhxaaG",
+     "2jodJdlFgt3FVbOLx0YGCX",
+     "7JT3fJmW8mP27ioVqCMUZw",
+     "4oC4si1tBNdzbGW7nH7iNH",
+     "1iAFrqerCRiupzF9JXUErS"
+    ]
+   },
+   {
+    "city": "Naples",
+    "place": "Santa Chiara, Naples",
+    "when": "Canzone napoletana",
+    "heading": "Songs for the people who left",
+    "text": "Millions of Neapolitans emigrated to the Americas, and many of the city's songs were written for them. “Santa Lucia luntana” is sung from a ship pulling out of the bay. “Munasterio 'e Santa Chiara”, from 1945, asks whether it's true that Naples has been destroyed, after Allied bombs burned the church.",
+    "lat": 40.8466,
+    "lon": 14.2534,
+    "zoom": 14,
+    "stories": [
+     "5vl34GknLLSjVn8YGKqGDw",
+     "2erZKuywg2BBQwYjgPdJAB",
+     "PScfDJD3vfSI39lZbRq9D"
+    ]
+   },
+   {
+    "city": "Budapest",
+    "place": "Kispipa restaurant, Akácfa Street, Budapest",
+    "when": "Gloomy Sunday",
+    "heading": "One song, played everywhere",
+    "text": "Rezső Seress wrote “Szomorú vasárnap” in 1933 and played piano most nights at the Kispipa in the old Jewish quarter. Translated as “Gloomy Sunday”, it went around the world, and the press gave it a reputation as cursed. Billie Holiday's 1941 version is the best known in English.",
+    "lat": 47.4999,
+    "lon": 19.0657,
+    "zoom": 14,
+    "stories": [
+     "5r8jZYeDvNn5WIBnpqRqPq",
+     "1gBB6xPeJQm39Y89jXaSUA"
+    ]
+   },
+   {
+    "city": "Athens",
+    "place": "Piraeus, Athens",
+    "when": "Rebetiko",
+    "heading": "Refugees in the port",
+    "text": "After 1922 more than a million Greeks were expelled from Asia Minor, and many ended up in shanty towns around Piraeus. They brought the music of Smyrna's cafés, and in the port's hash dens it became rebetiko: bouzouki songs about exile, prison, drugs and love. The Metaxas dictatorship censored it in the 1930s.",
+    "lat": 37.9469,
+    "lon": 23.6404,
+    "zoom": 13,
+    "stories": [
+     "5ZjR9b6X6iZHgXSMtSQBkh",
+     "5WloUHIWsvtnXsSHEgrBEM",
+     "33qApObRl9Zc7AKcrCYajD",
+     "Z4h9e73iTypgEHpaH8ZVk",
+     "3TcX9uHX1LdtCtQIek6Uwu"
+    ]
+   },
+   {
+    "city": "Bucharest",
+    "place": "Bucharest",
+    "when": "Lăutari songs",
+    "heading": "The voice of the old taverns",
+    "text": "Maria Tănase sang the songs of Romania's lăutari, the mostly Roma musicians who played in taverns and at weddings. She was a star from the late 1930s to her death in 1963, and many Romanians still know her songs by heart.",
+    "lat": 44.4083,
+    "lon": 26.105,
+    "zoom": 12,
+    "stories": [
+     "3W1aZIOV48gVTcv6S0gNjt"
+    ]
+   },
+   {
+    "city": "Istanbul",
+    "place": "Unkapanı, Istanbul",
+    "when": "Arabesk",
+    "heading": "Songs for the new arrivals",
+    "text": "From the 1960s, millions moved from the Anatolian countryside to Istanbul and built houses on its edges overnight. Arabesk, with Turkish folk tunes, Egyptian strings and lyrics about fate and heartbreak, was their music. State radio kept it off the air for years. It sold on cassettes from the wholesale blocks at Unkapanı.",
+    "lat": 41.0174,
+    "lon": 28.9575,
+    "zoom": 13.5,
+    "stories": [
+     "1Y4GGwUS9DsQIzy8CcAiaq",
+     "N8m9zJupU5d9KThmueuqM"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "coffeehouses",
+  "kind": "Places to sit",
+  "title": "The coffeehouse",
+  "dates": "Istanbul to Lisbon",
+  "dek": "Nine cafés and café cities where you can still order one coffee and stay for the afternoon.",
+  "intro": [
+   "Coffee reached Europe through Istanbul, and the coffeehouse came with it: a public room where anyone who paid for a cup could sit, read and argue. Writers worked in them, spies met in them, and several governments tried to shut them down.",
+   "Every stop here is somewhere you can go."
+  ],
+  "chapters": [
+   {
+    "city": "Istanbul",
+    "place": "Tahtakale and Pera, Istanbul",
+    "when": "Since the 1550s",
+    "heading": "Where it started",
+    "text": "The first coffeehouses in Istanbul opened in the 1550s, near the spice markets. Sultans and clerics tried more than once to close them as places of gossip and sedition. In the 19th century, Levantine families built the European-style café life of Pera, now İstiklal Avenue.",
+    "tip": "Turkish coffee is served with its grounds. Let them settle, and stop drinking before you reach them.",
+    "lat": 41.0167,
+    "lon": 28.97,
+    "zoom": 13,
+    "stories": [
+     "6RF0yH8lxpfcQF4MGNHvac",
+     "52T4U8DjHX5vn0Y8xj1RWR"
+    ]
+   },
+   {
+    "city": "Belgrade",
+    "place": "Hotel Moskva, Terazije, Belgrade",
+    "when": "Since 1908",
+    "heading": "Spies on Terazije",
+    "text": "Hotel Moskva's café opened on Belgrade's main square in 1908. Through two world wars and the Cold War it was where diplomats, journalists and agents watched each other.",
+    "tip": "Order the Moskva šnit, the hotel's own fruit-and-cream cake.",
+    "lat": 44.813,
+    "lon": 20.4604,
+    "zoom": 14.5,
+    "stories": [
+     "uHZPGWdZMkcjPmLm9k18x"
+    ]
+   },
+   {
+    "city": "Budapest",
+    "place": "Vörösmarty Square, Budapest",
+    "when": "Around 1900",
+    "heading": "Six hundred coffeehouses",
+    "text": "By 1900 Budapest had about six hundred coffeehouses. Writers had regular tables, editors ran magazines from them, and some cafés stayed open all night. Gerbeaud, on Vörösmarty Square, is the confectioner of the era that survived.",
+    "tip": "Gerbeaud is best for cake. Expect to share the room with tour groups.",
+    "lat": 47.497,
+    "lon": 19.0503,
+    "zoom": 14.5,
+    "stories": [
+     "6nxBWCtAdhsUwCQuKiGv5M",
+     "325YwfG5SMbhMXnZgbaYQk"
+    ]
+   },
+   {
+    "city": "Vienna",
+    "place": "Café Central, Vienna",
+    "when": "Since 1685",
+    "heading": "A seat for the afternoon",
+    "text": "Vienna's first licensed coffeehouse opened in 1685, two years after the Ottoman siege. By 1900 the coffeehouse was the city's living room: Café Central had chess players, poets and, for a while, a Russian exile called Trotsky. UNESCO lists the culture as intangible heritage.",
+    "tip": "One coffee buys a seat for as long as you like. It comes with a glass of water, and you can ask for the newspapers.",
+    "lat": 48.2104,
+    "lon": 16.3654,
+    "zoom": 14.5,
+    "stories": [
+     "5WpCUOJ3OJJsbRz38cVxCZ",
+     "1okw6RWgw994GVqxErLBpY",
+     "4pD0v5C7cxm0glPC0imlNz",
+     "6w3oQuBmrHabcRlPJPOewd"
+    ]
+   },
+   {
+    "city": "Prague",
+    "place": "New Town, Prague",
+    "when": "1900s–1930s",
+    "heading": "Art Nouveau rooms",
+    "text": "Prague's grand cafés were built in the 1900s, when the city was rich and building fast. Kafka and his friends met in the Louvre on Národní; Café Slavia faced the National Theatre and later became a meeting place for dissidents.",
+    "tip": "The café inside the Municipal House keeps its original 1912 interior.",
+    "lat": 50.0842,
+    "lon": 14.4237,
+    "zoom": 14.5,
+    "stories": [
+     "5FHbhnCOalmoHJB6g2xdSJ",
+     "7Ceb7BRLvbihOjpGwDT65K"
+    ]
+   },
+   {
+    "city": "Warsaw",
+    "place": "Mazowiecka Street, Warsaw",
+    "when": "1918–1944",
+    "heading": "The poets' table",
+    "text": "Between the wars, Mała Ziemiańska on Mazowiecka Street was where Warsaw's poets held court, with the Skamander group upstairs. It was destroyed with the rest of the city centre in 1944 and never reopened.",
+    "lat": 52.2384,
+    "lon": 21.0127,
+    "zoom": 14.5,
+    "stories": [
+     "2YBQR2ytLIxNOMqDDgNx0J"
+    ]
+   },
+   {
+    "city": "Oslo",
+    "place": "Grand Café, Karl Johans gate, Oslo",
+    "when": "1890s",
+    "heading": "Ibsen's lunch",
+    "text": "In his last years in Oslo, Henrik Ibsen walked to the Grand Café at the same time every day, and people came to watch him arrive. A mural inside shows him among the city's writers and artists.",
+    "lat": 59.9137,
+    "lon": 10.7394,
+    "zoom": 14.5,
+    "stories": [
+     "2AWrZBuiRFmZmRJjBLGhV4"
+    ]
+   },
+   {
+    "city": "Paris",
+    "place": "Saint-Germain-des-Prés, Paris",
+    "when": "1940s",
+    "heading": "The existentialists' café",
+    "text": "During and after the war, Sartre and Beauvoir wrote most days at the Café de Flore, partly because it was heated. Paris café life goes back to the Procope in 1686, but it was Saint-Germain that made the café a symbol of intellectual life.",
+    "tip": "Coffee costs less standing at the counter than at a table, and more on the terrace.",
+    "lat": 48.8542,
+    "lon": 2.3326,
+    "zoom": 14.5,
+    "stories": [
+     "7eNvMz4ZGVBvNtVj4eFjUL",
+     "5lQa46gqIKrSNLQ7nQAaao",
+     "7n0ylbAs56luFAMIXSVf8Y"
+    ]
+   },
+   {
+    "city": "Lisbon",
+    "place": "A Brasileira, Chiado, Lisbon",
+    "when": "Since 1905",
+    "heading": "Pessoa's table",
+    "text": "A Brasileira opened in 1905 to sell Brazilian coffee. Fernando Pessoa drank there, and a bronze of him sits at a table outside. Martinho da Arcada, on the Praça do Comércio, has been open since 1782.",
+    "tip": "In Lisbon an espresso is “uma bica”.",
+    "lat": 38.7107,
+    "lon": -9.142,
+    "zoom": 14.5,
+    "stories": [
+     "4yn9HwkYNeLj2YKkM2YUFi",
+     "3Y3I4ZTAEe4R3hUqLkLdSM",
+     "2qZxxPK0bBsrE4DaztMrHv"
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "1968",
+  "kind": "One year",
+  "title": "1968",
+  "dates": "March to November",
+  "dek": "Students, strikes, tanks and songs: one year in seven cities.",
+  "intro": [
+   "In 1968 protest moved across Europe in months, not years. Students in Warsaw and Paris, workers in France, reformers in Prague and singers in Barcelona had different enemies, but they were watching each other.",
+   "The chapters follow the calendar."
+  ],
+  "chapters": [
+   {
+    "city": "Warsaw",
+    "place": "University of Warsaw main gate",
+    "when": "March",
+    "heading": "A banned play",
+    "text": "The authorities closed a production of Mickiewicz's Dziady for being anti-Russian. Students protested, police beat them at the university gate, and the government answered with an antisemitic campaign that drove about 13,000 Polish Jews to emigrate.",
+    "lat": 52.2403,
+    "lon": 21.0189,
+    "zoom": 13.5,
+    "stories": [
+     "2SreKF6Y49CjNCdeBKLn90"
+    ]
+   },
+   {
+    "city": "Munich",
+    "place": "Schwabing, Munich",
+    "when": "April",
+    "heading": "Easter riots",
+    "text": "After the student leader Rudi Dutschke was shot in Berlin on 11 April, students blamed the Springer press and blockaded its offices across West Germany. In Munich two people died. Schwabing, the student district, had just been the setting of the year's comedy hit, Zur Sache, Schätzchen.",
+    "lat": 48.1503,
+    "lon": 11.5759,
+    "zoom": 13.5,
+    "stories": [
+     "5bN4KwodgSsqlnJ9kpxKh1"
+    ]
+   },
+   {
+    "city": "Paris",
+    "place": "La Sorbonne, Paris",
+    "when": "May",
+    "heading": "Barricades in the Latin Quarter",
+    "text": "Police cleared the occupied Sorbonne on 3 May. A week later students built barricades in the Latin Quarter, and by the end of the month around ten million workers were on strike. De Gaulle called an election and won it in June.",
+    "lat": 48.8486,
+    "lon": 2.3431,
+    "zoom": 14,
+    "stories": [
+     "5z3xg4XR6JlwQ4DTtRiYq1",
+     "2LJ9gGh2UEduepLvjNZBWc",
+     "4qQuLTVcOgoG1hjv4vnjZE"
+    ]
+   },
+   {
+    "city": "Belgrade",
+    "place": "University of Belgrade",
+    "when": "June",
+    "heading": "Students against the “red bourgeoisie”",
+    "text": "Belgrade students occupied their university for a week, protesting unemployment and the privileges of party officials. Tito went on television and said they were partly right, and the protest ended.",
+    "lat": 44.8186,
+    "lon": 20.4577,
+    "zoom": 13.5,
+    "stories": []
+   },
+   {
+    "city": "Prague",
+    "place": "Wenceslas Square, Prague",
+    "when": "August",
+    "heading": "The tanks arrive",
+    "text": "Dubček's Prague Spring had lifted censorship since January. On the night of 20 August, Warsaw Pact armies invaded. Crowds argued with Soviet soldiers on Wenceslas Square, and Marta Kubišová's “Modlitba pro Martu” became the song of the occupation.",
+    "lat": 50.081,
+    "lon": 14.428,
+    "zoom": 13.5,
+    "stories": [
+     "lJ3tyrdbnHx3fCQJYUSAP",
+     "3ukQTyaZRD1b2iyibKLRBX",
+     "mUBAl2f6mm4DjiUegy4D9"
+    ]
+   },
+   {
+    "city": "Barcelona",
+    "place": "Plaça de Sant Jaume, Barcelona",
+    "when": "1968",
+    "heading": "The stake",
+    "text": "Lluís Llach wrote “L'Estaca” in 1968, a song in Catalan about pulling down a rotten stake together, at a time when Franco's Spain restricted the language. It became an anthem far from Barcelona; in 1978 a Polish version, “Mury”, was taken up by Solidarity.",
+    "lat": 41.3828,
+    "lon": 2.1772,
+    "zoom": 14,
+    "stories": [
+     "4okMimaNU8F727I8FEAgQc"
+    ]
+   },
+   {
+    "city": "Belfast",
+    "place": "Cyprus Avenue, east Belfast",
+    "when": "November",
+    "heading": "Astral Weeks",
+    "text": "Northern Ireland's civil rights marches began that autumn, and students at Queen's University founded People's Democracy. In November Van Morrison released Astral Weeks, an album about the Belfast streets he grew up on, months before the city turned violent.",
+    "lat": 54.5944,
+    "lon": -5.8728,
+    "zoom": 13.5,
+    "stories": [
+     "705pU4HJRPPQRjYSiZOCMR"
+    ]
+   }
+  ]
  }
 ]
