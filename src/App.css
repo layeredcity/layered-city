@@ -921,7 +921,7 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-link__title { font-family: var(--font-display); font-size: 20px; color: var(--ink); line-height: 1.15; margin-top: 3px; }
 .thread-link__arrow { width: 18px; height: 18px; color: var(--ink-light); flex-shrink: 0; }
 
-.thread-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(13,24,48,0.55); }
+.thread-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(13,24,48,0.78); }
 .thread { position: absolute; inset: 60px; border-radius: 18px; overflow: hidden; background: #FBF8F3; box-shadow: 0 20px 60px rgba(0,0,0,0.35); display: grid; grid-template-columns: minmax(400px, min(46%, 620px)) 1fr; }
 .thread__scroll { grid-column: 1; grid-row: 1; overflow-y: auto; overscroll-behavior: contain; padding: 0 0 40vh; }
 .thread__map { grid-column: 2; grid-row: 1; position: relative; min-height: 0; }
