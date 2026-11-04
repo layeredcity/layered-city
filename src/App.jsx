@@ -480,7 +480,7 @@ function ThreadLinks({ ids, onDark }) {
   return (
     <span className={'thread-pills' + (onDark ? ' thread-pills--dark' : '')}>
       {links.map(t => (
-        <button key={t.slug} type="button" className="thread-pill" onClick={() => open(t.slug, t.chapter)} title={`Open the ${t.title} thread`}>
+        <button key={t.slug} type="button" className="thread-pill" onClick={() => open(t.slug)} title={`Open the ${t.title} thread`}>
           {THREAD_ICON}
           <span>{t.title}</span>
         </button>
