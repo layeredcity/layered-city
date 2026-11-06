@@ -12,6 +12,7 @@ import ThreadView from './components/ThreadView'
 import THREADS_DATA from './data/threads.json'
 import { smartQuotes } from './utils/smartQuotes'
 import THREAD_PHOTOS from './data/thread-photos.json'
+import ABOUT from './data/about'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
 import { cityLandmarks, landmarkSummary } from './utils/landmarks'
@@ -1860,6 +1861,9 @@ export default function App() {
   const orderedCities = useMemo(() => [...cities].sort((a, b) => a.name.localeCompare(b.name)), [cities])
   // City list order: alphabetical (default) or grouped by country. The choice
   // is remembered per browser.
+  // Left column tabs: Cities, Threads, About. Remembered per browser.
+  const [leftTab, setLeftTabState] = useState(() => { try { const v = localStorage.getItem('lc-left-tab'); return ['cities', 'threads', 'about'].includes(v) ? v : 'cities' } catch { return 'cities' } })
+  const setLeftTab = v => { setLeftTabState(v); try { localStorage.setItem('lc-left-tab', v) } catch {} }
   const [cityOrder, setCityOrderState] = useState(() => { try { return localStorage.getItem('lc-city-order') === 'country' ? 'country' : 'alpha' } catch { return 'alpha' } })
   const setCityOrder = v => { setCityOrderState(v); try { localStorage.setItem('lc-city-order', v) } catch {} }
   const cityGroups = useMemo(() => {
@@ -2024,7 +2028,13 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="panel-cities__scroll">
+        <div className="left-tabs" role="tablist">
+          {[['cities', 'Cities'], ['threads', 'Threads'], ['about', 'About']].map(([k, label]) => (
+            <button key={k} type="button" role="tab" aria-selected={leftTab === k} className={'left-tabs__tab' + (leftTab === k ? ' is-active' : '')} onClick={() => setLeftTab(k)}>{label}</button>
+          ))}
+        </div>
+        <div className="panel-cities__scroll" key={leftTab}>
+          {leftTab === 'cities' && (<>
           <div className="city-order">
             <div className="city-order__title">Cities</div>
             <div className="sort-toggle" role="group" aria-label="Order cities">
@@ -2053,9 +2063,9 @@ export default function App() {
             </div>
           ))}
           </Fragment>))}
-          <div className="city-order city-order--threads">
-            <div className="city-order__title">Threads across cities</div>
-          </div>
+          </>)}
+          {leftTab === 'threads' && (<>
+          <p className="left-intro">Each thread follows one subject across several cities, with a map that moves as you read.</p>
           {THREAD_GROUPS.map(([kind, list]) => (<Fragment key={kind}>
           <div className="city-group-heading">{kind}</div>
           {list.map(t => (
@@ -2072,6 +2082,17 @@ export default function App() {
             </div>
           ))}
           </Fragment>))}
+          </>)}
+          {leftTab === 'about' && (
+            <div className="about">
+              {ABOUT.map((sec, i) => (
+                <section key={i} className="about__section">
+                  {sec.heading && <h2 className="about__heading">{sec.heading}</h2>}
+                  {sec.paragraphs.map((p, j) => <p key={j} className={i === 0 && j === 0 ? 'about__lead' : 'about__p'}>{p.replace('{cities}', cities.length || 'a few dozen')}</p>)}
+                </section>
+              ))}
+            </div>
+          )}
         </div>
       </aside>
 
