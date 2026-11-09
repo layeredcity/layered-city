@@ -1630,13 +1630,17 @@ export default function App() {
 
   const [mobileView, setMobileView] = useState('list')
   const [selectedStory, setSelectedStory] = useState(null)
-  // Cross-city threads (/threads/<slug>): a full-screen page over the app.
+  // Cross-city threads (/threads/<slug>). On desktop a thread fills the space
+  // right of the list column, like a city; on phones it's a full-screen page.
   const [openThreadSlug, setOpenThreadSlug] = useState(() => (window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null)
   const [threadStory, setThreadStory] = useState(null)
   const threadReturnPath = useRef('/')
   const [threadStart, setThreadStart] = useState(null)
+  // Left column: the list of cities or the list of threads.
+  const [leftTab, setLeftTab] = useState(() => window.location.pathname.startsWith('/threads/') ? 'threads' : 'cities')
   const openThread = useCallback((slug, chapter = null) => {
     if (!window.location.pathname.startsWith('/threads/')) threadReturnPath.current = window.location.pathname
+    setLeftTab('threads')
     setThreadStory(null); setSelectedStory(null)
     setThreadStart(chapter)
     setOpenThreadSlug(slug)
@@ -1700,6 +1704,7 @@ export default function App() {
 
   const selectCity = useCallback(async (city, pushUrl = true) => {
     closeStoryWithFade()
+    setOpenThreadSlug(null); setThreadStory(null); setLeftTab('cities')
     setSelectedCity(city)
     setActiveFilter('All')
     setDetailView('overview')
@@ -1747,6 +1752,7 @@ export default function App() {
 
   const goHome = useCallback(() => {
     closeStoryWithFade()
+    setOpenThreadSlug(null); setThreadStory(null)
     setSelectedCity(null)
     setStories([])
     setFoods([])
@@ -2024,7 +2030,13 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="panel-cities__scroll">
+        <div className="left-tabs" role="tablist">
+          {[['cities', 'Cities'], ['threads', 'Threads']].map(([k, label]) => (
+            <button key={k} type="button" role="tab" aria-selected={leftTab === k} className={'left-tabs__tab' + (leftTab === k ? ' is-active' : '')} onClick={() => setLeftTab(k)}>{label}</button>
+          ))}
+        </div>
+        <div className="panel-cities__scroll" key={leftTab}>
+          {leftTab === 'cities' && (<>
           <div className="city-order">
             <div className="city-order__title">Cities</div>
             <div className="sort-toggle" role="group" aria-label="Order cities">
@@ -2053,13 +2065,13 @@ export default function App() {
             </div>
           ))}
           </Fragment>))}
-          <div className="city-order city-order--threads">
-            <div className="city-order__title">Threads across cities</div>
-          </div>
+          </>)}
+          {leftTab === 'threads' && (<>
+          <p className="left-intro">Each thread follows one subject across several cities.</p>
           {THREAD_GROUPS.map(([kind, list]) => (<Fragment key={kind}>
           <div className="city-group-heading">{kind}</div>
           {list.map(t => (
-            <div key={t.slug} className="city-item city-item--thread" onClick={() => openThread(t.slug)}>
+            <div key={t.slug} className={'city-item city-item--thread' + (openThreadSlug === t.slug ? ' city-item--active' : '')} onClick={() => openThread(t.slug)}>
               <div className="city-item__thumb-wrap">
                 {THREAD_PHOTOS[t.image]
                   ? <img className="city-item__thumb" src={THREAD_PHOTOS[t.image].src} alt="" loading="lazy" />
@@ -2072,6 +2084,7 @@ export default function App() {
             </div>
           ))}
           </Fragment>))}
+          </>)}
         </div>
       </aside>
 
