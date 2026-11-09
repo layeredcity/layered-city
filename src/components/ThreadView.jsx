@@ -104,6 +104,9 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       const line = root.getBoundingClientRect().top + root.clientHeight * 0.35
       let idx = -1
       sectionRefs.current.forEach((el, i) => { if (el && el.getBoundingClientRect().top <= line) idx = i })
+      // At the very bottom the last chapter counts as read, even if it's too
+      // short for its top to reach the line.
+      if (root.scrollTop + root.clientHeight >= root.scrollHeight - 4) idx = sectionRefs.current.length - 1
       setActive(idx)
     }
     root.addEventListener('scroll', onScroll, { passive: true })
@@ -168,7 +171,6 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                 ? <><p className="thread__dek">{m[1]}</p><p className="thread__intro">{m[2]}</p></>
                 : <p className="thread__dek">{text}</p>
             })()}
-            <div className="thread__start">Scroll to follow the thread</div>
           </header>
           <ol className="thread__chapters">
             {thread.chapters.map((c, i) => (
@@ -190,7 +192,6 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
               </li>
             ))}
           </ol>
-          <div className="thread__end">End of the thread</div>
         </div>
       </div>
     </div>
