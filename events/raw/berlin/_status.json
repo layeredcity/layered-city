@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-09T05:51:21.957Z",
+ "fetched": "2026-11-09T05:54:28.800Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
@@ -66,10 +66,7 @@
   },
   "schaubuehne": {
    "url": "https://www.schaubuehne.de/en/start/index.html",
-   "final": "https://www.schaubuehne.de/en/start/index.html",
-   "http": 200,
-   "chars": 9580,
-   "jsonLdEvents": 0
+   "error": "fetch failed"
   },
   "gorki": {
    "url": "https://www.gorki.de/en/schedule",
@@ -244,6 +241,27 @@
    "final": "https://www.visitberlin.de/en/flea-market-mauerpark",
    "http": 200,
    "chars": 8725,
+   "jsonLdEvents": 0
+  },
+  "deutsche-oper-dec": {
+   "url": "https://deutscheoperberlin.de/en_EN/calendar?month=2026-12",
+   "final": "https://deutscheoperberlin.de/en_EN/calendar?month=2026-12",
+   "http": 200,
+   "chars": 4334,
+   "jsonLdEvents": 0
+  },
+  "staatsoper-dec": {
+   "url": "https://www.staatsoper-berlin.de/en/programme/01-12-2026/",
+   "final": "https://www.staatsoper-berlin.de/en/programme/01-12-2026/",
+   "http": 200,
+   "chars": 17664,
+   "jsonLdEvents": 0
+  },
+  "hau-dec": {
+   "url": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/prodMonth/12-2026/?cHash=dbc2d543d677d183640de7b2f34bbefe",
+   "final": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/prodMonth/12-2026/?cHash=dbc2d543d677d183640de7b2f34bbefe",
+   "http": 200,
+   "chars": 36538,
    "jsonLdEvents": 0
   }
  }

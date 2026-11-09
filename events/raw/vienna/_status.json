@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-09T05:52:35.637Z",
+ "fetched": "2026-11-09T05:55:25.754Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -15,11 +15,11 @@
    "chars": 11147,
    "jsonLdEvents": 0
   },
-  "visitingvienna-oct": {
-   "url": "https://www.visitingvienna.com/entertainment/october/",
-   "final": "https://www.visitingvienna.com/entertainment/october/",
+  "visitingvienna-dec": {
+   "url": "https://www.visitingvienna.com/entertainment/december/",
+   "final": "https://www.visitingvienna.com/entertainment/december/",
    "http": 200,
-   "chars": 13574,
+   "chars": 18617,
    "jsonLdEvents": 0
   },
   "visitingvienna-nov": {
@@ -51,10 +51,10 @@
    "jsonLdEvents": 0
   },
   "musikverein": {
-   "url": "https://spielplan.musikverein.at/spielplan?month=2026-10",
-   "final": "https://spielplan.musikverein.at/spielplan?month=2026-10",
+   "url": "https://spielplan.musikverein.at/spielplan?month=2026-12",
+   "final": "https://spielplan.musikverein.at/spielplan?month=2026-12",
    "http": 200,
-   "chars": 40685,
+   "chars": 48988,
    "jsonLdEvents": 0
   },
   "konzerthaus": {
@@ -377,6 +377,20 @@
    "final": "https://konzerthaus.at/en/program-and-tickets?page=10",
    "http": 200,
    "chars": 5304,
+   "jsonLdEvents": 0
+  },
+  "staatsoper-dec": {
+   "url": "https://www.wiener-staatsoper.at/en/calendar/2026/december/",
+   "final": "https://www.wiener-staatsoper.at/en/calendar/2026/december/",
+   "http": 200,
+   "chars": 75670,
+   "jsonLdEvents": 0
+  },
+  "burgtheater-dec": {
+   "url": "https://www.burgtheater.at/spielplan?date=2026-12",
+   "final": "https://www.burgtheater.at/spielplan?date=2026-12",
+   "http": 200,
+   "chars": 30488,
    "jsonLdEvents": 0
   }
  }
