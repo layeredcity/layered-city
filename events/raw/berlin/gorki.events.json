@@ -7,449 +7,6 @@
   "image": [
    "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
   ],
-  "startDate": "2026-11-03T12:00:00.000Z",
-  "endDate": "2026-11-03T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Noise as a Strategy — Workshop",
-  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
-  "url": "https://www.gorki.de/en/noise-as-a-strategy",
-  "image": [
-   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
-  ],
-  "startDate": "2026-11-03T16:00:00.000Z",
-  "endDate": "2026-11-03T17:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Eingangsfoyer",
-   "url": "https://www.gorki.de/en/spielorte/entree"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14227",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-04T12:00:00.000Z",
-  "endDate": "2026-11-04T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Noise as a Strategy — Workshop",
-  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
-  "url": "https://www.gorki.de/en/noise-as-a-strategy",
-  "image": [
-   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
-  ],
-  "startDate": "2026-11-04T16:00:00.000Z",
-  "endDate": "2026-11-04T17:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Eingangsfoyer",
-   "url": "https://www.gorki.de/en/spielorte/entree"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14228",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-05T12:00:00.000Z",
-  "endDate": "2026-11-05T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Noise as a Strategy — Workshop",
-  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
-  "url": "https://www.gorki.de/en/noise-as-a-strategy",
-  "image": [
-   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
-  ],
-  "startDate": "2026-11-05T16:00:00.000Z",
-  "endDate": "2026-11-05T17:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Eingangsfoyer",
-   "url": "https://www.gorki.de/en/spielorte/entree"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14229",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-06T12:00:00.000Z",
-  "endDate": "2026-11-06T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Noise as a Strategy — Workshop",
-  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
-  "url": "https://www.gorki.de/en/noise-as-a-strategy",
-  "image": [
-   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
-  ],
-  "startDate": "2026-11-06T13:00:00.000Z",
-  "endDate": "2026-11-06T14:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Eingangsfoyer",
-   "url": "https://www.gorki.de/en/spielorte/entree"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14234",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-07T12:00:00.000Z",
-  "endDate": "2026-11-07T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "An Aesthetics of Justice or How does Justice look like",
-  "description": "Issues of law and justice are too important to be left solely to lawyers and philosophers. That is why, in his series of events, Wolfgang Kaleck gives a platform to diverse voices from various fields and regions—recognizing that justice can only be achieved through social processes based on the…",
-  "url": "https://www.gorki.de/en/an-aesthetics-of-equity-or-how-does-justice-look-like",
-  "image": [
-   "https://www.gorki.de/api/media/file/Wolfgang-vert-1920x2717.jpg?prefix=staging"
-  ],
-  "startDate": "2026-11-07T17:00:00.000Z",
-  "endDate": "2026-11-07T19:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Kronprinzenpalais",
-   "url": "https://www.gorki.de/en/spielorte/kronprinzenpalais"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Wolfgang Kaleck"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14235",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-07T20:00:00.000Z",
-  "endDate": "2026-11-07T21:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Parkettfoyer",
-   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-08T12:00:00.000Z",
-  "endDate": "2026-11-08T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
   "startDate": "2026-11-10T12:00:00.000Z",
   "endDate": "2026-11-10T20:00:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -823,7 +380,7 @@
   "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
   "url": "https://www.gorki.de/en/music-of-fears",
   "image": [
-   "https://www.gorki.de/api/media/file/rot-1920x2717.png?prefix=staging"
+   "https://www.gorki.de/api/media/file/MusicOffearsCard-2.png?prefix=staging"
   ],
   "startDate": "2026-11-27T18:30:00.000Z",
   "endDate": "2026-11-27T20:30:00.000Z",
@@ -861,7 +418,7 @@
   "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
   "url": "https://www.gorki.de/en/music-of-fears",
   "image": [
-   "https://www.gorki.de/api/media/file/rot-1920x2717.png?prefix=staging"
+   "https://www.gorki.de/api/media/file/MusicOffearsCard-2.png?prefix=staging"
   ],
   "startDate": "2026-11-28T18:30:00.000Z",
   "endDate": "2026-11-28T20:30:00.000Z",
@@ -899,7 +456,7 @@
   "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
   "url": "https://www.gorki.de/en/music-of-fears",
   "image": [
-   "https://www.gorki.de/api/media/file/rot-1920x2717.png?prefix=staging"
+   "https://www.gorki.de/api/media/file/MusicOffearsCard-2.png?prefix=staging"
   ],
   "startDate": "2026-11-29T18:30:00.000Z",
   "endDate": "2026-11-29T20:30:00.000Z",
@@ -933,11 +490,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-03T12:00:00.000Z",
-  "endDate": "2026-12-03T20:00:00.000Z",
+  "endDate": "2026-12-03T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -948,6 +508,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -987,11 +553,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-04T12:00:00.000Z",
-  "endDate": "2026-12-04T20:00:00.000Z",
+  "endDate": "2026-12-04T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1002,6 +571,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1011,11 +586,37 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "BAM BAM BAM – First Episode",
+  "description": "Daniel Richter IT’S ENOUGH TO MAKE YOU CRY Pop music can’t do without tears, and neither can other genres. Painter Daniel Richter explores the art of tear-jerking music.",
+  "url": "https://www.gorki.de/en/bam-bam-bam/bam-bam-bam-0",
+  "startDate": "2026-12-04T18:30:00.000Z",
+  "endDate": "2026-12-04T20:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Stage",
+   "url": "https://www.gorki.de/en/spielorte/saal"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14240",
+   "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-05T12:00:00.000Z",
-  "endDate": "2026-12-05T20:00:00.000Z",
+  "endDate": "2026-12-05T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1026,6 +627,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1066,11 +673,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-06T12:00:00.000Z",
-  "endDate": "2026-12-06T20:00:00.000Z",
+  "endDate": "2026-12-06T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1081,6 +691,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1121,11 +737,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-07T12:00:00.000Z",
-  "endDate": "2026-12-07T20:00:00.000Z",
+  "endDate": "2026-12-07T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1136,6 +755,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1145,11 +770,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-08T12:00:00.000Z",
-  "endDate": "2026-12-08T20:00:00.000Z",
+  "endDate": "2026-12-08T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1160,6 +788,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1200,11 +834,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-09T12:00:00.000Z",
-  "endDate": "2026-12-09T20:00:00.000Z",
+  "endDate": "2026-12-09T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1215,6 +852,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1255,11 +898,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-10T12:00:00.000Z",
-  "endDate": "2026-12-10T20:00:00.000Z",
+  "endDate": "2026-12-10T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1270,6 +916,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1279,11 +931,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-11T12:00:00.000Z",
-  "endDate": "2026-12-11T20:00:00.000Z",
+  "endDate": "2026-12-11T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1294,6 +949,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1303,11 +964,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-12T12:00:00.000Z",
-  "endDate": "2026-12-12T20:00:00.000Z",
+  "endDate": "2026-12-12T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1318,6 +982,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1327,8 +997,8 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Back to the Present",
-  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company Dorky Park created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
+  "name": "Back to the Present. New Version",
+  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company DorkyPark created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
   "url": "https://www.gorki.de/en/back-to-the-present",
   "image": [
    "https://www.gorki.de/api/media/file/Gorki_Dorkypark-1920x2717.jpg?prefix=staging"
@@ -1352,7 +1022,7 @@
    },
    {
     "@type": "Person",
-    "name": "Dorky Park "
+    "name": "DorkyPark "
    }
   ],
   "offers": {
@@ -1363,11 +1033,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-13T12:00:00.000Z",
-  "endDate": "2026-12-13T20:00:00.000Z",
+  "endDate": "2026-12-13T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1378,6 +1051,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1387,8 +1066,8 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Back to the Present",
-  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company Dorky Park created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
+  "name": "Back to the Present. New Version",
+  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company DorkyPark created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
   "url": "https://www.gorki.de/en/back-to-the-present",
   "image": [
    "https://www.gorki.de/api/media/file/Gorki_Dorkypark-1920x2717.jpg?prefix=staging"
@@ -1412,7 +1091,7 @@
    },
    {
     "@type": "Person",
-    "name": "Dorky Park "
+    "name": "DorkyPark "
    }
   ],
   "offers": {
@@ -1423,11 +1102,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-14T12:00:00.000Z",
-  "endDate": "2026-12-14T20:00:00.000Z",
+  "endDate": "2026-12-14T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1438,6 +1120,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1447,11 +1135,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-15T12:00:00.000Z",
-  "endDate": "2026-12-15T20:00:00.000Z",
+  "endDate": "2026-12-15T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1462,6 +1153,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1471,11 +1168,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-16T12:00:00.000Z",
-  "endDate": "2026-12-16T20:00:00.000Z",
+  "endDate": "2026-12-16T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1486,6 +1186,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1495,11 +1201,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-17T12:00:00.000Z",
-  "endDate": "2026-12-17T20:00:00.000Z",
+  "endDate": "2026-12-17T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1510,6 +1219,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1551,11 +1266,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-18T12:00:00.000Z",
-  "endDate": "2026-12-18T20:00:00.000Z",
+  "endDate": "2026-12-18T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1566,6 +1284,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1607,11 +1331,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-19T12:00:00.000Z",
-  "endDate": "2026-12-19T20:00:00.000Z",
+  "endDate": "2026-12-19T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1622,6 +1349,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1663,11 +1396,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-20T12:00:00.000Z",
-  "endDate": "2026-12-20T20:00:00.000Z",
+  "endDate": "2026-12-20T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1678,6 +1414,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1687,8 +1429,8 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Back to the Present",
-  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company Dorky Park created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
+  "name": "Back to the Present. New Version",
+  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company DorkyPark created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
   "url": "https://www.gorki.de/en/back-to-the-present",
   "image": [
    "https://www.gorki.de/api/media/file/Gorki_Dorkypark-1920x2717.jpg?prefix=staging"
@@ -1712,7 +1454,7 @@
    },
    {
     "@type": "Person",
-    "name": "Dorky Park "
+    "name": "DorkyPark "
    }
   ],
   "offers": {
@@ -1723,11 +1465,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-21T12:00:00.000Z",
-  "endDate": "2026-12-21T20:00:00.000Z",
+  "endDate": "2026-12-21T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1738,6 +1483,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1747,8 +1498,8 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Back to the Present",
-  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company Dorky Park created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
+  "name": "Back to the Present. New Version",
+  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company DorkyPark created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
   "url": "https://www.gorki.de/en/back-to-the-present",
   "image": [
    "https://www.gorki.de/api/media/file/Gorki_Dorkypark-1920x2717.jpg?prefix=staging"
@@ -1772,7 +1523,7 @@
    },
    {
     "@type": "Person",
-    "name": "Dorky Park "
+    "name": "DorkyPark "
    }
   ],
   "offers": {
@@ -1783,11 +1534,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-22T12:00:00.000Z",
-  "endDate": "2026-12-22T20:00:00.000Z",
+  "endDate": "2026-12-22T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1798,6 +1552,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1807,8 +1567,8 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Back to the Present",
-  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company Dorky Park created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
+  "name": "Back to the Present. New Version",
+  "description": "Memory is fragile, garbage lasts forever. In 2003, Constanza Macras and her company DorkyPark created the legendary piece Back to the Present, which premiered in the abandoned Jandorf department store. Now, more than 20 years later, Back to the Present is coming to the Gorki—to a new venue and…",
   "url": "https://www.gorki.de/en/back-to-the-present",
   "image": [
    "https://www.gorki.de/api/media/file/Gorki_Dorkypark-1920x2717.jpg?prefix=staging"
@@ -1832,7 +1592,7 @@
    },
    {
     "@type": "Person",
-    "name": "Dorky Park "
+    "name": "DorkyPark "
    }
   ],
   "offers": {
@@ -1843,11 +1603,14 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "Ottinger - Exhibition – The Hearing Trumpet",
-  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
-  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
   "startDate": "2026-12-23T12:00:00.000Z",
-  "endDate": "2026-12-23T20:00:00.000Z",
+  "endDate": "2026-12-23T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -1858,6 +1621,12 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "availability": "https://schema.org/InStock",
@@ -1894,6 +1663,350 @@
    "@type": "Offer",
    "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14187",
    "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-26T12:00:00.000Z",
+  "endDate": "2026-12-26T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Gallery",
+   "url": "https://www.gorki.de/en/spielorte/gallery"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-26T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Stage",
+   "url": "https://www.gorki.de/en/spielorte/saal"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14189",
+   "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "Ottinger - Exhibition – The Hearing Trumpet",
+  "description": "The exhibition runs December 3–December 31, daily from 13:00 to 21:00. Admission is free.",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet/ottinger-exhibition",
+  "startDate": "2026-12-27T12:00:00.000Z",
+  "endDate": "2026-12-27T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Gallery",
+   "url": "https://www.gorki.de/en/spielorte/gallery"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-27T17:00:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Stage",
+   "url": "https://www.gorki.de/en/spielorte/saal"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14190",
+   "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-28T12:00:00.000Z",
+  "endDate": "2026-12-28T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Gallery",
+   "url": "https://www.gorki.de/en/spielorte/gallery"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-28T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Stage",
+   "url": "https://www.gorki.de/en/spielorte/saal"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14191",
+   "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-29T12:00:00.000Z",
+  "endDate": "2026-12-29T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Gallery",
+   "url": "https://www.gorki.de/en/spielorte/gallery"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-29T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Stage",
+   "url": "https://www.gorki.de/en/spielorte/saal"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14192",
+   "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-30T12:00:00.000Z",
+  "endDate": "2026-12-30T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Gallery",
+   "url": "https://www.gorki.de/en/spielorte/gallery"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-30T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Stage",
+   "url": "https://www.gorki.de/en/spielorte/saal"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14193",
+   "availability": "https://schema.org/InStock"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+  ],
+  "startDate": "2026-12-31T12:00:00.000Z",
+  "endDate": "2026-12-31T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Gallery",
+   "url": "https://www.gorki.de/en/spielorte/gallery"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ],
+  "offers": {
+   "@type": "Offer",
+   "availability": "https://schema.org/InStock",
+   "price": "0",
+   "priceCurrency": "EUR"
   }
  }
 ]

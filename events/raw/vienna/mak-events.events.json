@@ -2,33 +2,8 @@
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "short and sweet: VALLY WIESELTHIER",
-  "startDate": "2026-11-03T18:15",
-  "endDate": "2026-11-03T18:45",
-  "location": {
-   "@type": "Place",
-   "name": "MAK – Museum of Applied Arts",
-   "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "",
-    "addressLocality": "",
-    "postalCode": "",
-    "addressRegion": "",
-    "addressCountry": ""
-   }
-  },
-  "organizer": {
-   "@type": "Organization",
-   "name": "Museum für Angewandte Kunst Wien"
-  },
-  "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/9719c96f1a224a0a178b4c39f18c8c1f/0x0A1490B8FC97CE5CC0F6D48309ABF543.jpeg"
- },
- {
-  "@context": "https://schema.org",
-  "@type": "Event",
-  "name": "MAKtuell: All Current Exhibitions at a Glance",
-  "startDate": "2026-11-05T16:30",
+  "name": "Vienna Art Week Talk: &quot;im Fundus arbeiten&quot;",
+  "startDate": "2026-11-10T17:30",
   "endDate": "T",
   "location": {
    "@type": "Place",
@@ -47,14 +22,14 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/83b1df81d37878d309abe217815117ef/0x2E7655930520FA0C4DC58F781B7FC2FC.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/001ae28e9ca29a2ba6403272a6bb62fa/0xFF012BBAA8B93BF4BA40DF8239F4BB6E.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Blickfang 2026",
-  "startDate": "2026-11-06T12:00",
-  "endDate": "2026-11-06T20:00",
+  "name": "short and sweet: ARCHITECTURAL CONSTRUCTION KITS 1890–1990",
+  "startDate": "2026-11-10T18:15",
+  "endDate": "2026-11-10T18:45",
   "location": {
    "@type": "Place",
    "name": "MAK – Museum of Applied Arts",
@@ -72,13 +47,38 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/adbeff30730ce8b194da45f8d126cd03/0x5E42564A9371DE224245704BDB81311F.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/e069d43418a33e071c59d420fcea8a1f/0x969CD6E1D7F441F354ADBB1ED83B2B28.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Curator Guided Tour: Permanent Collection Textiles and Carpets",
-  "startDate": "2026-11-06T16:30",
+  "name": "Cancelled: MAK-it! Extended: Monastery Crafts with Leni Frodl and Elisabeth Mayrhofer",
+  "startDate": "2026-11-13T10:00",
+  "endDate": "2026-11-15T14:00",
+  "location": {
+   "@type": "Place",
+   "name": "MAK – Museum of Applied Arts",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "",
+    "postalCode": "",
+    "addressRegion": "",
+    "addressCountry": ""
+   }
+  },
+  "organizer": {
+   "@type": "Organization",
+   "name": "Museum für Angewandte Kunst Wien"
+  },
+  "description": "",
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/e4162b7b97830d927d73fa0a0b000013/0xD35B401410A8866BCD05B0606932214E.jpeg"
+ },
+ {
+  "@context": "https://schema.org",
+  "@type": "Event",
+  "name": "Curator Guided Tour: VALLY WIESELTHIER: Ceramic Sculptor",
+  "startDate": "2026-11-13T16:30",
   "endDate": "T",
   "location": {
    "@type": "Place",
@@ -97,14 +97,14 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/c014e2ee477163d528447dc7bb0154d0/0xD8662D4C4B2AB68ADA4969842EA6A4BC.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/863973cd2f74890489b42efdb7f27ae0/0x8F051EEA0630A8BF4C105457E7772A18.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Blickfang 2026",
-  "startDate": "2026-11-07T10:00",
-  "endDate": "2026-11-07T19:00",
+  "name": "MAK4Family: ein Ton, viele Töne",
+  "startDate": "2026-11-14T14:00",
+  "endDate": "2026-11-14T16:00",
   "location": {
    "@type": "Place",
    "name": "MAK – Museum of Applied Arts",
@@ -122,6 +122,6 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/adbeff30730ce8b194da45f8d126cd03/0x5E42564A9371DE224245704BDB81311F.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/4663d4db6b1a1db6e05cd6c5b4813e76/0xBA6F45363889905527B1EE2F7D7F2FD7.jpeg"
  }
 ]
