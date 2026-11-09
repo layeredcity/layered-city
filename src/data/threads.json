@@ -371,6 +371,177 @@
     "image": "The Calling of Saint Matthew-Caravaggo (1599-1600).jpg"
   },
   {
+    "slug": "dutch-golden-age",
+    "kind": "Artists",
+    "title": "The Dutch Golden Age",
+    "dates": "1600s",
+    "intro": [
+      "In the 1600s a small, newly independent republic became the richest place in Europe, and its merchants wanted pictures of themselves, their houses and their dinners. Rembrandt, Vermeer and Frans Hals painted for that market.",
+      "Their work has since scattered from Amsterdam to Berlin, Paris, London, Vienna and Florence, along with a few stories about who owned it."
+    ],
+    "chapters": [
+      {
+        "city": "Amsterdam",
+        "place": "Herengracht, Amsterdam",
+        "when": "From 1613",
+        "heading": "A city of merchants",
+        "text": "Amsterdam began digging its ring of canals in 1613 to house the traders who were making it rich. The tall, narrow houses along the Herengracht were built for the same people who bought paintings.",
+        "lat": 52.3648,
+        "lon": 4.8925,
+        "zoom": 14,
+        "stories": [
+          "IuaByAL41RXyXaFYdMYrS"
+        ],
+        "image": "Gerrit Adriaensz. Berckheyde - The Bend in the Herengracht in Amsterdam - WGA1920.jpg"
+      },
+      {
+        "city": "Berlin",
+        "place": "Gemäldegalerie, Berlin",
+        "when": "1620s–1630s",
+        "heading": "Frans Hals",
+        "text": "In Haarlem, Frans Hals painted portraits so fast you can see each brushstroke. Two of his best are in Berlin: a boy singing with a flute, and Malle Babbe, a real Haarlem woman with a tankard and an owl on her shoulder.",
+        "lat": 52.5085,
+        "lon": 13.3651,
+        "zoom": 14,
+        "stories": [
+          "3msYufBlwyYvWLebKI943Q",
+          "QV1LVf6SmXj5pk3nJRwVt"
+        ],
+        "image": "Frans Hals Malle Babbe about 1640-1646 Gemäldegalerie Berlin 9387.jpg"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Rijksmuseum, Amsterdam",
+        "when": "1642",
+        "heading": "The Night Watch",
+        "text": "An Amsterdam militia company paid Rembrandt for a group portrait, and he painted them moving, half in shadow. It got its name later, when its varnish had darkened. In 1715 it was trimmed on all sides to fit a wall in the town hall.",
+        "lat": 52.36,
+        "lon": 4.8852,
+        "zoom": 14,
+        "stories": [
+          "1uopa4uuze7NbGXkn9hAoI",
+          "4tVVnyqSNeBARZohOGuGvW",
+          "3NIdYb0ofjQmHJtrhQPKw4",
+          "7FLc1lmwWwsM9s8h0aJ6wK"
+        ],
+        "image": "Rembrandt Nightwatch Rijksmuseum.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Dulwich Picture Gallery, London",
+        "when": "1645",
+        "heading": "A girl at a window",
+        "text": "Rembrandt’s Girl at a Window leans on a sill so convincingly that a story grew up about it being set in a real window to fool passers-by. It hangs in Dulwich Picture Gallery in south London, which opened in 1817 as England’s first public art gallery.",
+        "lat": 51.446,
+        "lon": -0.0865,
+        "zoom": 14,
+        "stories": [
+          "53jV0HD6tqaRTLkLUyPQDd"
+        ],
+        "image": "Dulwich Picture Gallery, main entrance.JPG"
+      },
+      {
+        "city": "Paris",
+        "place": "Louvre, Paris",
+        "when": "1654",
+        "heading": "Bathsheba",
+        "text": "Rembrandt’s Bathsheba was probably modelled by Hendrickje Stoffels, who lived with him without marrying him. The year he painted it, his church summoned her for living in sin.",
+        "lat": 48.8606,
+        "lon": 2.3376,
+        "zoom": 14,
+        "stories": [
+          "1M0RDAlJSTtTu4uq2wTdzi"
+        ]
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Amsterdam and Berlin",
+        "when": "c. 1658–1660",
+        "heading": "Vermeer’s rooms",
+        "text": "In Delft, Johannes Vermeer painted slowly, about 35 pictures in all, most of them one or two people in a room lit from the left. The Milkmaid is in the Rijksmuseum. The Glass of Wine, a quiet courtship by a stained-glass window, is in Berlin.",
+        "lat": 52.36,
+        "lon": 4.8852,
+        "zoom": 14,
+        "stories": [
+          "4kBt84cVojci4RX9LErVe9",
+          "608gUSh5JUxK6USHlOo5t8",
+          "2l5pBGomzXZPMHgfAso8Nz"
+        ],
+        "image": "The Milkmaid by Johannes Vermeer (1).jpg",
+        "points": [
+          {
+            "label": "Amsterdam",
+            "lat": 52.36,
+            "lon": 4.8852
+          },
+          {
+            "label": "Berlin",
+            "lat": 52.5085,
+            "lon": 13.3653
+          }
+        ]
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Rembrandt House, Amsterdam",
+        "when": "1656–1669",
+        "heading": "Late Rembrandt",
+        "text": "Rembrandt went bankrupt in 1656 and lost the house where he had made most of his etchings. His late paintings got rougher and thicker. Van Gogh said he would give ten years of his life to sit in front of The Jewish Bride with a crust of bread.",
+        "lat": 52.3693,
+        "lon": 4.9012,
+        "zoom": 14,
+        "stories": [
+          "1skQb04hrfEbnNNPJbEqzn",
+          "1o2RdmtDvgQtzZanOXSpSY"
+        ],
+        "image": "Rembrandthuis, Amsterdam, 2015-04-25c.jpg"
+      },
+      {
+        "city": "Vienna",
+        "place": "Kunsthistorisches Museum, Vienna",
+        "when": "1666–1940",
+        "heading": "The painting Vermeer kept",
+        "text": "Vermeer never sold The Art of Painting, which shows a painter at work on a model dressed as the muse of history. In 1940 Hitler bought it for the museum he planned in Linz. It is now in the Kunsthistorisches Museum.",
+        "lat": 48.2038,
+        "lon": 16.3617,
+        "zoom": 14,
+        "stories": [
+          "5NPX8FEX1QPW7Gh3Jf80bm"
+        ],
+        "image": "The Art of Painting.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Uffizi, Florence",
+        "when": "1711",
+        "heading": "Rachel Ruysch",
+        "text": "The Golden Age outlived Rembrandt. Rachel Ruysch painted flowers and fruit with insects crawling over them, became court painter to a German prince, and sold her pictures for more than Rembrandt’s had fetched.",
+        "lat": 43.7678,
+        "lon": 11.2553,
+        "zoom": 14,
+        "stories": [
+          "7pjSVO039nG3D7MWfwFSDW"
+        ],
+        "image": "Uffizi Gallery, Florence-2.jpg"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Keizersgracht 321, Amsterdam",
+        "when": "1945",
+        "heading": "The fake Vermeers",
+        "text": "After the war Dutch police arrested Han van Meegeren for selling a Vermeer to Hermann Göring. To avoid a treason charge he admitted he had painted it himself, along with several other “Vermeers”, and proved it by painting another under supervision.",
+        "lat": 52.3697,
+        "lon": 4.885,
+        "zoom": 14,
+        "stories": [
+          "32jGQndO4zQchzvkZPrMTS"
+        ],
+        "image": "Amsterdam, Keizersgracht 124tm138 met RM2496tm2501 IMG 0935 2026-04-06 10.38.jpg"
+      }
+    ],
+    "image": "The Night Watch - Rembrandt Harmenszoon van Rijn.png"
+  },
+  {
     "slug": "mozart",
     "kind": "Artists",
     "title": "Mozart",
@@ -914,6 +1085,176 @@
     "image": "Alfama, Lisbon (DSC03373).jpg"
   },
   {
+    "slug": "jazz",
+    "kind": "Music",
+    "title": "Jazz in Europe",
+    "dates": "1920s–1980s",
+    "intro": [
+      "Jazz arrived in Europe with American soldiers and touring bands after the First World War, and Black American musicians soon found they were treated better in Paris than at home. Within a generation every city had its own players.",
+      "Under communism in Poland it was first banned and then tolerated, which made it sound like freedom."
+    ],
+    "chapters": [
+      {
+        "city": "Paris",
+        "place": "Montmartre and Folies Bergère, Paris",
+        "when": "1920s",
+        "heading": "Le jazz hot",
+        "text": "In the 1920s Black American musicians filled the clubs of Montmartre. Josephine Baker arrived in 1925 with the Revue Nègre and became the biggest star in Paris, dancing at the Folies Bergère.",
+        "lat": 48.8866,
+        "lon": 2.3408,
+        "zoom": 14,
+        "stories": [
+          "71urQttxJmpv2qkTZLZIqL",
+          "FaMwaKy1zb55nNGyTjiAy",
+          "7L83MQ2US2CZJVuaoITrh2"
+        ],
+        "image": "Josephine Baker, Amerikaans,Franse artieste, in de Folies Bergère tijdens een optreden, SFA001007973.jpg"
+      },
+      {
+        "city": "Marseille",
+        "place": "La Joliette, Marseille",
+        "when": "1920s",
+        "heading": "Banjo",
+        "text": "Claude McKay, a Harlem Renaissance writer, set his 1929 novel Banjo on the Marseille docks, among Black sailors and drifters from Africa, America and the Caribbean who played music for whatever they could get.",
+        "lat": 43.3052,
+        "lon": 5.3658,
+        "zoom": 14,
+        "stories": [
+          "1DLzplEe0Vt3t2mbEf1yu5"
+        ],
+        "image": "TLM-CP-Les-Docks-Place-Joliette-1.jpg"
+      },
+      {
+        "city": "Istanbul",
+        "place": "Pera Palace Hotel, Istanbul",
+        "when": "1920s",
+        "heading": "Jazz in Pera",
+        "text": "In the years when Constantinople became Istanbul, Russian refugees and visiting bands brought jazz to the nightclubs and hotel ballrooms of Pera, the European quarter above the Golden Horn.",
+        "lat": 41.0312,
+        "lon": 28.9734,
+        "zoom": 14,
+        "stories": [
+          "1ueDWvPfIdBd6VbBOlk1AJ"
+        ],
+        "image": "Pera Palace Hotel - panoramio.jpg"
+      },
+      {
+        "city": "Prague",
+        "place": "Jaroslav Ježek’s Blue Room, Prague",
+        "when": "1927–1938",
+        "heading": "Ježek",
+        "text": "Jaroslav Ježek wrote jazzy songs and dance numbers for Prague’s satirical Liberated Theatre. He was almost blind and composed in a flat painted deep blue to ease his eyes. He left for New York in 1939 and died there in 1942.",
+        "lat": 50.0884,
+        "lon": 14.4184,
+        "zoom": 14,
+        "stories": [
+          "5wwNmbEcuuoZt5al56WQxY"
+        ],
+        "image": "Praha, Památník Jaroslava Ježka 3.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Saint-Ouen flea market, Paris",
+        "when": "1940",
+        "heading": "Django",
+        "text": "Django Reinhardt, a Romani guitarist who played with two fingers on his fretting hand after a fire, wrote Nuages in occupied Paris in 1940. His style, gypsy jazz, still plays in the bars of the Saint-Ouen flea market.",
+        "lat": 48.9028,
+        "lon": 2.3409,
+        "zoom": 14,
+        "stories": [
+          "2fCYUOfLejyjlYZgfMVbpo"
+        ],
+        "image": "Marche aux Puces 08.jpg"
+      },
+      {
+        "city": "Stockholm",
+        "place": "Gamla stan, Stockholm",
+        "when": "1950s–1960s",
+        "heading": "Monica Zetterlund",
+        "text": "Stockholm had one of Europe’s liveliest jazz scenes, centred on the Nalen hall. Monica Zetterlund sang American standards with Swedish words and in 1964 recorded an album with the pianist Bill Evans.",
+        "lat": 59.3251,
+        "lon": 18.0707,
+        "zoom": 14,
+        "stories": [
+          "ztbsRqqhwQeUSwOrNuEPj",
+          "2a4TH68XaW5qmVLnyAiV1H"
+        ],
+        "image": "Monica Zetterlund sjunger på scen, 1963-09-29.jpg"
+      },
+      {
+        "city": "Brussels",
+        "place": "Rue Haute, Marolles, Brussels",
+        "when": "1962",
+        "heading": "Bluesette",
+        "text": "Toots Thielemans, born above a café in the Marolles, played harmonica and guitar, and could whistle along with his own guitar lines. His 1962 waltz Bluesette became a jazz standard.",
+        "lat": 50.8367,
+        "lon": 4.3467,
+        "zoom": 14,
+        "stories": [
+          "7dF5N1UVNnryuP0x8frBEh"
+        ],
+        "image": "Toots Thielemans' statue.jpg"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "Jazzhus Montmartre, Copenhagen",
+        "when": "1960s",
+        "heading": "Americans in Copenhagen",
+        "text": "In the 1960s American players like Dexter Gordon and Ben Webster settled in Copenhagen, where they found steady work and less racism. At Jazzhus Montmartre the teenage bassist Niels-Henning Ørsted Pedersen backed them night after night.",
+        "lat": 55.682,
+        "lon": 12.5825,
+        "zoom": 14,
+        "stories": [
+          "5WWGEO1ORuwEzPa7dLB646"
+        ],
+        "image": "Jazzhus Montmartre.jpg"
+      },
+      {
+        "city": "Warsaw",
+        "place": "Warsaw and Kraków",
+        "when": "1950s–1970s",
+        "heading": "Polish jazz",
+        "text": "In Stalinist Poland jazz was banned and played in private, the “catacomb” years. After 1956 it came into the open. Krzysztof Komeda recorded Astigmatic in Warsaw in 1965, and in Kraków Tomasz Stańko and the violinist Zbigniew Seifert took it further out.",
+        "lat": 52.2328,
+        "lon": 21.0111,
+        "zoom": 14,
+        "stories": [
+          "3Qpp6LJ9L2Uw20nYVWLDO9",
+          "JLTlJDVOpjihRKrd9RR9D",
+          "1rzuPPpAZd3iwBVhjGmDbz"
+        ],
+        "image": "Krakow Kopernika 22 Komeda mural 2023.jpg",
+        "points": [
+          {
+            "label": "Warsaw",
+            "lat": 52.2335,
+            "lon": 21.0098
+          },
+          {
+            "label": "Kraków",
+            "lat": 50.0617,
+            "lon": 19.9373
+          }
+        ]
+      },
+      {
+        "city": "Reykjavík",
+        "place": "Reykjavík",
+        "when": "1983",
+        "heading": "Garden Party",
+        "text": "A group of Reykjavík schoolfriends called Mezzoforte made a jazz-funk instrumental that reached the British top 20 in 1983, the first time many people heard music from Iceland.",
+        "lat": 64.1432,
+        "lon": -21.9146,
+        "zoom": 12.5,
+        "stories": [
+          "46mFinpwSrWnMQ8LPYQIaQ"
+        ],
+        "image": "Mezzoforte Clubkonzert.jpg"
+      }
+    ],
+    "image": "30e festival Django Reinhardt Samois-sur-Seine.jpg"
+  },
+  {
     "slug": "punk",
     "kind": "Music",
     "title": "Punk",
@@ -1052,6 +1393,167 @@
     "image": "The 100 Club Oxford Street, London 2023-04-26.jpg"
   },
   {
+    "slug": "electronic-music",
+    "kind": "Music",
+    "title": "Electronic music",
+    "dates": "1970s–today",
+    "intro": [
+      "Synthesizers came out of studios in West Berlin, Paris and Munich in the 1970s. By the end of the 1980s their sound had moved into clubs in Manchester and London, and after the Wall fell, Berlin’s empty buildings filled with techno.",
+      "Most of the places here are clubs and studios, some of them long gone."
+    ],
+    "chapters": [
+      {
+        "city": "Berlin",
+        "place": "West Berlin",
+        "when": "1970s",
+        "heading": "Tangerine Dream",
+        "text": "In walled-in West Berlin, Tangerine Dream made long, slow pieces on synthesizers and sequencers. Albums like Stratosfear, from 1976, laid down a sound later heard in every Berlin club.",
+        "lat": 52.5009,
+        "lon": 13.3437,
+        "zoom": 12.5,
+        "stories": [
+          "HQYEvoBDGggGNiUaLlwah"
+        ],
+        "image": "Tangerine-dream-ebw-2.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Place de la Concorde, Paris",
+        "when": "1976",
+        "heading": "Oxygène",
+        "text": "Jean-Michel Jarre recorded Oxygène in a home studio, and it sold millions. He later played giant free concerts, including one on the Place de la Concorde in 1979.",
+        "lat": 48.8656,
+        "lon": 2.3212,
+        "zoom": 14,
+        "stories": [
+          "13LIEW82ZlIQJcTdJUtlFq"
+        ],
+        "image": "Concierto de Jean Michel Jarre (4848306376).jpg"
+      },
+      {
+        "city": "Munich",
+        "place": "Arabella high-rise, Munich",
+        "when": "1977",
+        "heading": "I Feel Love",
+        "text": "In a studio under a Munich tower block, Giorgio Moroder and Pete Bellotte built I Feel Love for Donna Summer almost entirely on a Moog synthesizer. Its pulsing bassline seeded house and techno.",
+        "lat": 48.1527,
+        "lon": 11.618,
+        "zoom": 14,
+        "stories": [
+          "5kIvkFSm2b1giYxjOwpgwS",
+          "eb3feyLZsZ84UTLriz6jQ",
+          "2PwXS2mAHxVCB2yqotaNkW"
+        ],
+        "image": "Arabella Klinik Gebäude.jpg"
+      },
+      {
+        "city": "Brussels",
+        "place": "Brussels",
+        "when": "1978–1988",
+        "heading": "Belgian electronics",
+        "text": "Brussels had Telex, a deadpan synth-pop trio, and then Front 242, who called their harsh, marching sound electronic body music. Both fed straight into techno.",
+        "lat": 50.8467,
+        "lon": 4.3525,
+        "zoom": 12.5,
+        "stories": [
+          "6nOgug2eop3YigMyaIzNrK",
+          "2BmvtiDiQ6Mkccg2FghzrH"
+        ],
+        "image": "20170318 Oberhausen E-Tropolis Front 242 0165.jpg"
+      },
+      {
+        "city": "Manchester",
+        "place": "Whitworth Street West, Manchester",
+        "when": "1982–1997",
+        "heading": "The Haçienda",
+        "text": "New Order put royalties from Blue Monday into a huge club, the Haçienda, in 1982. Hardly anyone danced at first. Then acid house arrived in 1988, along with local records like Voodoo Ray, and the Haçienda became the centre of it. It lost money the whole time and closed in 1997.",
+        "lat": 53.4742,
+        "lon": -2.2471,
+        "zoom": 14,
+        "stories": [
+          "37OysQLONMuxbeKiIKMojx",
+          "55YAeIeykBBWUcFgsEeQJl",
+          "56VubPXkzFYRolg8hRsQg4",
+          "5LBH4Tbp1XN7SDaePYxstC",
+          "51iFR66Uk49wwo8a8eocdd"
+        ],
+        "image": "Haciendaapartments.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Africa Centre, Covent Garden, London",
+        "when": "1989",
+        "heading": "Soul II Soul",
+        "text": "Soul II Soul started as a sound system playing Sunday nights at the Africa Centre in Covent Garden. Their slow, heavy Back to Life went to number one in 1989.",
+        "lat": 51.5119,
+        "lon": -0.1243,
+        "zoom": 14,
+        "stories": [
+          "16jvjaVrmxfpfvAAsAFnSY"
+        ]
+      },
+      {
+        "city": "Berlin",
+        "place": "Berlin",
+        "when": "1989–today",
+        "heading": "After the Wall",
+        "text": "West Berlin DJs had been playing house and techno through the 1980s. When the Wall came down, the empty buildings of East Berlin became clubs, and the Love Parade grew from 150 people in 1989 to over a million. Berghain, in a former power station, opened in 2004.",
+        "lat": 52.5111,
+        "lon": 13.443,
+        "zoom": 14,
+        "stories": [
+          "1D6u3JW5opTJAm0oP7Vvys",
+          "2gyGr3kk3v9b4SOIsPZvqz",
+          "7Aoti6v79TEq2tLJxLzA1s",
+          "3EzmFAzvuF4cx1UHa1dqgQ"
+        ],
+        "image": "Berlino Love Parade 1998.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Rex Club, Paris",
+        "when": "1990s",
+        "heading": "French touch",
+        "text": "In the 1990s Daft Punk and their peers made filtered, disco-flavoured house that the press called French touch. The Rex Club, a basement on the Grands Boulevards, was its home.",
+        "lat": 48.8706,
+        "lon": 2.3474,
+        "zoom": 14,
+        "stories": [
+          "3tURYFe5uz9EZ0uis5wmzA"
+        ]
+      },
+      {
+        "city": "Stockholm",
+        "place": "Stockholm",
+        "when": "2011",
+        "heading": "Levels",
+        "text": "Tim Bergling, a young producer from Stockholm who called himself Avicii, became one of the biggest names in the global dance boom with Levels. He died in 2018, and the city’s arena was renamed after him.",
+        "lat": 59.2937,
+        "lon": 18.0832,
+        "zoom": 14,
+        "stories": [
+          "3U8YIHrNwzTK8ftdrS0RQk"
+        ],
+        "image": "Stockholm Globe Arena 2012.jpg"
+      },
+      {
+        "city": "Belfast",
+        "place": "Queen’s University, Belfast",
+        "when": "2017",
+        "heading": "Glue",
+        "text": "The Belfast duo Bicep grew up going to Shine, a club night at Queen’s University. Their 2017 track Glue is about missing the raves of the 1990s.",
+        "lat": 54.5847,
+        "lon": -5.9345,
+        "zoom": 14,
+        "stories": [
+          "6M0TMLJbNGmeMPJ7VnsofI"
+        ],
+        "image": "Queen's University Belfast Students' Union.jpg"
+      }
+    ],
+    "image": "Tangerine Dream 2025.jpg"
+  },
+  {
     "slug": "eurovision",
     "kind": "Music",
     "title": "Eurovision",
@@ -1177,6 +1679,155 @@
       }
     ],
     "image": "Eurovision Song Contest 2025 Stage.jpg"
+  },
+  {
+    "slug": "disasters",
+    "kind": "History",
+    "title": "Fire, flood and earthquake",
+    "dates": "64–today",
+    "intro": [
+      "Cities burn, flood and shake, and some of the ones we visit were shaped by the disaster as much as by any architect. London’s skyline after 1666 and Lisbon’s grid after 1755 were both built on ruins.",
+      "The most recent of these is still being dealt with, by steel gates under the sea."
+    ],
+    "chapters": [
+      {
+        "city": "Rome",
+        "place": "Circus Maximus, Rome",
+        "when": "64",
+        "heading": "Rome burns",
+        "text": "A fire broke out near the Circus Maximus in July 64 and burned for six days. The story of Nero fiddling while it burned is a later invention, but he did use the cleared land for a vast new palace.",
+        "lat": 41.8859,
+        "lon": 12.4858,
+        "zoom": 14,
+        "stories": [
+          "3orYMQhZAjaMW915cOdVCV"
+        ],
+        "image": "Palatine Hill from Circus Maximus (1).jpg"
+      },
+      {
+        "city": "Naples",
+        "place": "Pompeii",
+        "when": "79",
+        "heading": "Vesuvius",
+        "text": "In 79 Vesuvius buried Pompeii and Herculaneum under ash and hot gas. The towns lay hidden until the 1700s. Loaves found still in a baker’s oven are in the archaeological museum in Naples.",
+        "lat": 40.7512,
+        "lon": 14.4887,
+        "zoom": 14,
+        "stories": [
+          "CrV5ru3hfgehdZCWpaMTu",
+          "5T6k9JiI8cZNuf4Hpzq5Oq",
+          "2vsZOcSw9J7psScMXmu2ls"
+        ],
+        "image": "Forum (Pompeii) and the Vesuvio.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Pudding Lane and the Monument, London",
+        "when": "1666",
+        "heading": "The Great Fire",
+        "text": "In September 1666 a fire started in a bakery on Pudding Lane and burned for four days, destroying most of the medieval City, including St Paul’s Cathedral. Christopher Wren rebuilt St Paul’s and designed the Monument near where the fire began.",
+        "lat": 51.5101,
+        "lon": -0.0863,
+        "zoom": 14,
+        "stories": [
+          "xoVamyukTCt59Z0iyjgVz",
+          "4DPDFci12lqcJq1UpLB9Qx",
+          "7a4YJ7ifxSExDLhFoagM41"
+        ],
+        "image": "Great Fire London.jpg"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Praça do Comércio, Lisbon",
+        "when": "1755",
+        "heading": "All Saints’ Day",
+        "text": "On the morning of 1 November 1755 an earthquake flattened much of Lisbon, then a tsunami came up the river and fires burned for days. Tens of thousands died. The Marquis of Pombal rebuilt the lower town on a grid, with buildings framed to survive the next one. The Carmo Convent was left as a ruin.",
+        "lat": 38.7073,
+        "lon": -9.1364,
+        "zoom": 14,
+        "stories": [
+          "39vFiCcFGl9Ys9rvfELFZi",
+          "6UXiiC8Y0600mcbnEL60AI",
+          "2FZI2Byv8UXZ04y4UhjoIC",
+          "ntSdcNANTmmp7FkUdCFdB"
+        ],
+        "image": "Convento do Carmo de Lisboa 12.JPG"
+      },
+      {
+        "city": "Paris",
+        "place": "Pont de l’Alma, Paris",
+        "when": "1910",
+        "heading": "The Seine floods",
+        "text": "In January 1910 the Seine rose about eight metres and flooded streets, cellars and Métro tunnels for weeks. Parisians still judge floods by how far up the stone Zouave soldier on the Pont de l’Alma the water reaches.",
+        "lat": 48.8638,
+        "lon": 2.302,
+        "zoom": 14,
+        "stories": [
+          "2ssr0v9WaJusAwknSfA7YP"
+        ],
+        "image": "Crue de la Seine. Rue Surcouf, 7ème arrondissement, Paris, le 28 janvier 1910. PH3201.jpg"
+      },
+      {
+        "city": "Naples",
+        "place": "San Sebastiano al Vesuvio, Naples",
+        "when": "1944",
+        "heading": "Vesuvius again",
+        "text": "In March 1944, with Allied troops already in Naples, Vesuvius erupted for eleven days. Lava swallowed the village of San Sebastiano, and falling ash wrecked dozens of American bombers at a nearby airfield.",
+        "lat": 40.8434,
+        "lon": 14.3667,
+        "zoom": 14,
+        "stories": [
+          "4aHtqM6wfIwvpfrZzzKh4S"
+        ],
+        "image": "Mt Vesuvius Erupting.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Santa Croce, Florence",
+        "when": "1966",
+        "heading": "The Arno floods",
+        "text": "On 4 November 1966 the Arno burst its banks and filled Florence with mud and fuel oil. Volunteers from around the world, the “mud angels”, came to dig out books and paintings. Cimabue’s crucifix in Santa Croce was among the worst damaged.",
+        "lat": 43.7686,
+        "lon": 11.2623,
+        "zoom": 14,
+        "stories": [
+          "3aSEcFy2eB8booJ82pCzkz",
+          "2RBKYNQwUfMd1IL10Y82QU",
+          "481ZU29qXsevHQv3xXKdcX"
+        ],
+        "image": "National Library manuscripts being washed in Florence after the 1966 flood of the Arno - UNESCO - PHOTO 0000001407 0001 - Restoration.jpg"
+      },
+      {
+        "city": "Bucharest",
+        "place": "Magheru Boulevard, Bucharest",
+        "when": "1977",
+        "heading": "The 1977 earthquake",
+        "text": "On 4 March 1977 an earthquake killed about 1,500 people, most of them in Bucharest, where interwar apartment blocks along the main boulevards collapsed. Ceaușescu used the damage as a reason for the demolitions that followed.",
+        "lat": 44.4385,
+        "lon": 26.0995,
+        "zoom": 14,
+        "stories": [
+          "1G0Rod6eWzt8X657hCXlcX"
+        ],
+        "image": "Bucharest-1977.jpg"
+      },
+      {
+        "city": "Venice",
+        "place": "St Mark’s Square, Venice",
+        "when": "1966–today",
+        "heading": "High water",
+        "text": "The same day the Arno flooded Florence, the highest tide on record flooded Venice. After decades of delay, a line of steel gates on the seabed, called MOSE, began rising to close the lagoon in 2020. St Mark’s Square, the lowest part of the city, still floods most often.",
+        "lat": 45.4339,
+        "lon": 12.3383,
+        "zoom": 14,
+        "stories": [
+          "53dotLZhzBAyP89ek7H8HF",
+          "5RXGpo9M2PBrT5MJon46Qn"
+        ],
+        "image": "San Marco, Acqua Alta - Venice, Italy - panoramio.jpg"
+      }
+    ],
+    "image": "Verschuier-fire.jpg"
   },
   {
     "slug": "exiles",
@@ -2406,6 +3057,592 @@
     "image": "Youth, Paris - UNESCO - PHOTO0000001264 0001.tiff"
   },
   {
+    "slug": "assassinations",
+    "kind": "Crime",
+    "title": "Assassinations",
+    "dates": "44 BC–2004",
+    "intro": [
+      "Political killings tend to happen in ordinary places: a theatre, a church during Mass, a shopping street, a car at a red light. Several of the spots are marked, and a few are still just street corners.",
+      "Some of these killings changed what happened next, and some changed very little."
+    ],
+    "chapters": [
+      {
+        "city": "Rome",
+        "place": "Largo di Torre Argentina, Rome",
+        "when": "44 BC",
+        "heading": "Caesar",
+        "text": "On the Ides of March, senators stabbed Julius Caesar at a meeting in the Theatre of Pompey. They meant to save the Republic, but his death led to civil war and to his adopted son Augustus becoming emperor. The site is now a sunken square with a cat shelter.",
+        "lat": 41.8955,
+        "lon": 12.4768,
+        "zoom": 14,
+        "stories": [
+          "6GxOZmCNH4u3riaYyAsGtS",
+          "8EExUhnBR9txcGAQ1a0rw"
+        ],
+        "image": "Largo di Torre Argentina 4.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Florence Cathedral",
+        "when": "1478",
+        "heading": "The Pazzi conspiracy",
+        "text": "During Sunday Mass in April 1478, men hired by the rival Pazzi family stabbed Giuliano de’ Medici to death in the cathedral. His brother Lorenzo escaped into the sacristy, and the city hunted down the conspirators within days.",
+        "lat": 43.7731,
+        "lon": 11.256,
+        "zoom": 14,
+        "stories": [
+          "4tuL8nlymP5ZknpN9hnMpP",
+          "7GtTd7k4r7ndbPe5DcvpMh"
+        ],
+        "image": "Santa Maria del Fiore, Florence Cathedral, interior, 223756.jpg"
+      },
+      {
+        "city": "Edinburgh",
+        "place": "Palace of Holyroodhouse, Edinburgh",
+        "when": "1566–1567",
+        "heading": "Mary’s court",
+        "text": "In 1566 Mary, Queen of Scots, watched her secretary David Rizzio stabbed in her supper room at Holyrood. The next year her husband, Lord Darnley, was found dead after the house he was staying in blew up. Within months she had lost her throne.",
+        "lat": 55.9529,
+        "lon": -3.172,
+        "zoom": 14,
+        "stories": [
+          "72M10LDr4ct5aKgE9ZLkvS",
+          "14fVk2M4hZ78xn2y8uWwu8"
+        ],
+        "image": "Holyrood Palace and Abbey 20211021.jpg"
+      },
+      {
+        "city": "Stockholm",
+        "place": "Royal Swedish Opera, Stockholm",
+        "when": "1792",
+        "heading": "A masked ball",
+        "text": "King Gustav III was shot in the back at a masked ball in the opera house he had built. He had been warned and went anyway. He died two weeks later.",
+        "lat": 59.3297,
+        "lon": 18.0705,
+        "zoom": 14,
+        "stories": [
+          "1kvlwp2nJ6pNx10FFzEaGF"
+        ],
+        "image": "Kungliga Operan Royal Swedish Opera Stockholm 2016 01.jpg"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Praça do Comércio, Lisbon",
+        "when": "1908",
+        "heading": "The regicide",
+        "text": "On 1 February 1908 republican gunmen shot King Carlos I and his heir in their open carriage as it turned out of the Praça do Comércio. Portugal’s monarchy lasted two more years.",
+        "lat": 38.708,
+        "lon": -9.138,
+        "zoom": 14,
+        "stories": [
+          "5HIEzfDOq5oLLzKCp9ErEz"
+        ],
+        "image": "Rua Augusta Arch (Lisbon) 01.jpg"
+      },
+      {
+        "city": "Prague",
+        "place": "Church of Sts Cyril and Methodius, Prague",
+        "when": "1942",
+        "heading": "Heydrich",
+        "text": "Czechoslovak parachutists trained in Britain ambushed Reinhard Heydrich, the Nazi governor of Bohemia, on a bend in a Prague street. He died of his wounds. The parachutists died weeks later in the crypt of a church, and the Nazis destroyed the villages of Lidice and Ležáky in revenge.",
+        "lat": 50.0758,
+        "lon": 14.418,
+        "zoom": 14,
+        "stories": [
+          "60H5RH17vhkqqgZcnAhtwf",
+          "1df7kI14HW7nvCR2QKL1VB",
+          "77p4UpjmIpnMHxmRvD6IVZ"
+        ],
+        "image": "Resslova ulice 2014.JPG"
+      },
+      {
+        "city": "Madrid",
+        "place": "Calle Claudio Coello, Madrid",
+        "when": "1973",
+        "heading": "Carrero Blanco",
+        "text": "Franco’s prime minister and closest ally, Luis Carrero Blanco, was killed when the Basque group ETA set off a bomb under his car as he left Mass. The blast threw the car over a church building.",
+        "lat": 40.4342,
+        "lon": -3.6861,
+        "zoom": 14,
+        "stories": [
+          "23JnJ0P9XwBKgbL3BQWUBN"
+        ],
+        "image": "Calle de Claudio Coello.JPG"
+      },
+      {
+        "city": "Stockholm",
+        "place": "Sveavägen, Stockholm",
+        "when": "1986 and 2003",
+        "heading": "Palme and Lindh",
+        "text": "Prime Minister Olof Palme was shot dead in 1986 walking home from the cinema without bodyguards. No one was ever convicted. In 2003 the foreign minister, Anna Lindh, was stabbed while shopping in a department store a short walk away.",
+        "lat": 59.3366,
+        "lon": 18.0628,
+        "zoom": 14,
+        "stories": [
+          "6pp2hH0ChQ0HkUuEGqNbrG",
+          "492UQ2PcuWf8pXG7m5fKnE",
+          "7f12h6HqNWTnDy358odGRu",
+          "4CdahKunOtHGRJRiSx9soo"
+        ],
+        "image": "Olof Palme Memorial Plaque.jpg"
+      },
+      {
+        "city": "Belgrade",
+        "place": "Nemanjina Street, Belgrade",
+        "when": "2003",
+        "heading": "Đinđić",
+        "text": "Zoran Đinđić, the prime minister who had sent Slobodan Milošević to the war crimes tribunal in The Hague, was shot by a sniper outside the government building. The killers were tied to a paramilitary unit and organised crime.",
+        "lat": 44.8065,
+        "lon": 20.4605,
+        "zoom": 14,
+        "stories": [
+          "1HVmEj3BZUPGbGfz2p53Of",
+          "312CWXgCZLdnTNUuLyf0wx"
+        ]
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Oosterpark, Amsterdam",
+        "when": "2004",
+        "heading": "Theo van Gogh",
+        "text": "The filmmaker Theo van Gogh was shot and stabbed on an Amsterdam street by a man angered by his short film about Islam and women. A steel sculpture called The Scream stands in the nearby Oosterpark.",
+        "lat": 52.3595,
+        "lon": 4.9222,
+        "zoom": 14,
+        "stories": [
+          "1OsOVIZVxfpP8OdAFoLX7W"
+        ],
+        "image": "2020 De Schreeuw (09).jpg"
+      }
+    ],
+    "image": "Sacred area in Largo di Torre Argentina 02.jpg"
+  },
+  {
+    "slug": "heists",
+    "kind": "Crime",
+    "title": "Heists",
+    "dates": "1801–2015",
+    "intro": [
+      "Some of the most famous objects in Europe are famous partly because someone took them. Others are still being argued over, two centuries after they were removed.",
+      "The thieves here range from a museum handyman to the Nazi leadership to a gang of pensioners."
+    ],
+    "chapters": [
+      {
+        "city": "Athens",
+        "place": "Athens and London",
+        "when": "1801–today",
+        "heading": "The Parthenon sculptures",
+        "text": "Around 1801 agents of Lord Elgin, the British ambassador to the Ottoman Empire, cut sculptures from the Parthenon and shipped them to Britain. The British Museum has had them since 1816. The Acropolis Museum in Athens, opened in 2009, has a gallery waiting for them.",
+        "lat": 37.9684,
+        "lon": 23.7285,
+        "zoom": 14,
+        "stories": [
+          "4w98AtJSqeDCD85u44csGy",
+          "NfivHOqVwehx58aSEI9hm",
+          "4whsgLjYD9Q4RhOyAE4Hjd"
+        ],
+        "image": "Elgin-marbles-jan-2024.jpg",
+        "points": [
+          {
+            "label": "Athens",
+            "lat": 37.9685,
+            "lon": 23.7285
+          },
+          {
+            "label": "London",
+            "lat": 51.5194,
+            "lon": -0.127
+          }
+        ]
+      },
+      {
+        "city": "Paris",
+        "place": "Louvre, Paris",
+        "when": "1911",
+        "heading": "The Mona Lisa",
+        "text": "In August 1911 Vincenzo Peruggia, who had worked at the Louvre, walked out with the Mona Lisa under his coat. Crowds came to stare at the empty wall. He was caught two years later trying to sell it in Florence, and the painting came home far more famous than it left.",
+        "lat": 48.8602,
+        "lon": 2.3354,
+        "zoom": 14,
+        "stories": [
+          "2CKJTf2tNwQ8GHGSnDNZhv",
+          "1Wm3duPt6D6wfsGDlWtcK1"
+        ]
+      },
+      {
+        "city": "Vienna",
+        "place": "Belvedere, Vienna",
+        "when": "1938–2006",
+        "heading": "The Woman in Gold",
+        "text": "The Nazis took Klimt’s gold portrait of Adele Bloch-Bauer from her family in 1938, and it hung in Vienna’s Belvedere for decades. Her niece Maria Altmann sued Austria and won it back in 2006.",
+        "lat": 48.1915,
+        "lon": 16.3809,
+        "zoom": 14,
+        "stories": [
+          "1R3wbgdmBWuSgTV37Xd3jw",
+          "3ol5TcAWrB6hXXsDlmbSgP"
+        ]
+      },
+      {
+        "city": "Paris",
+        "place": "Jeu de Paume, Paris",
+        "when": "1940–1944",
+        "heading": "Göring’s shopping",
+        "text": "During the occupation, art seized from Jewish families in France was sorted at the Jeu de Paume in the Tuileries. Hermann Göring came again and again to choose pieces for himself. A curator, Rose Valland, secretly recorded where everything went, which helped return much of it after the war.",
+        "lat": 48.8658,
+        "lon": 2.324,
+        "zoom": 14,
+        "stories": [
+          "1PSqxjWcyoikDtIauyqbyh"
+        ],
+        "image": "Jeu de Paume, Jardin des Tuileries, Paris 25 May 2017.jpg"
+      },
+      {
+        "city": "Oslo",
+        "place": "National Museum, Oslo",
+        "when": "1994",
+        "heading": "The Scream",
+        "text": "On the morning the 1994 Winter Olympics opened, two men climbed a ladder into Oslo’s National Gallery, cut The Scream from the wall and left a note thanking it for the poor security. It was recovered three months later. Another version was stolen from the Munch Museum in 2004.",
+        "lat": 59.9115,
+        "lon": 10.7292,
+        "zoom": 14,
+        "stories": [
+          "5mKOD3PLqn70lWpXGUOWff",
+          "4vSine4nGIg8kahtUOfDcH"
+        ],
+        "image": "Edvard Munch, The Scream, 1893, National Gallery, Oslo (1) (35658212823).jpg"
+      },
+      {
+        "city": "Zurich",
+        "place": "Kunsthaus, Zurich",
+        "when": "2008",
+        "heading": "The Bührle robbery",
+        "text": "In 2008 three armed men walked into a private museum in Zurich and left with four paintings, including a Cézanne and a Van Gogh. All four were eventually found. The collection now hangs in the Kunsthaus.",
+        "lat": 47.3703,
+        "lon": 8.5481,
+        "zoom": 14,
+        "stories": [
+          "5Qs3hnGJWHe4KXfggCbUrP"
+        ],
+        "image": "Chipperfield Candrian.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Musée d’Art Moderne, Paris",
+        "when": "2010",
+        "heading": "The Spider-Man",
+        "text": "A burglar known as the Spider-Man cut through a window of the Paris Museum of Modern Art one night in 2010 and took five paintings, including a Picasso and a Matisse. He was caught, but the paintings have never been found.",
+        "lat": 48.8643,
+        "lon": 2.2978,
+        "zoom": 14,
+        "stories": [
+          "179nKT2Cy831jpJMF8rmOe"
+        ],
+        "image": "Paris-expo-1937-musée d'art moderne-14.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Hatton Garden, London",
+        "when": "2015",
+        "heading": "Hatton Garden",
+        "text": "Over the Easter weekend of 2015 a gang of men mostly in their sixties and seventies drilled through the wall of a safe-deposit vault in London’s jewellery quarter. They were caught within weeks, partly because they talked about it in their cars.",
+        "lat": 51.5202,
+        "lon": -0.1054,
+        "zoom": 14,
+        "stories": [
+          "3DKP2ItBnjOv1t3g3V1DQ8"
+        ],
+        "image": "Hatton Garden south end.jpg"
+      }
+    ],
+    "image": "Visitors of Louvre in front of Mona Lisa.jpg"
+  },
+  {
+    "slug": "organised-crime",
+    "kind": "Crime",
+    "title": "Organised crime",
+    "dates": "1930s–today",
+    "intro": [
+      "Port cities and poor estates have bred gangs everywhere, but some have shaped how their cities are seen: Marseille and heroin, Naples and the Camorra, Belgrade’s gangster-celebrities of the 1990s.",
+      "Most of the stories here are told by journalists who paid for it, or by films the cities have mixed feelings about."
+    ],
+    "chapters": [
+      {
+        "city": "Marseille",
+        "place": "Opéra quarter, Marseille",
+        "when": "1930s",
+        "heading": "Carbone and Spirito",
+        "text": "Paul Carbone and François Spirito ran protection, gambling and prostitution in interwar Marseille, with friends in city politics. Borsalino, with Alain Delon and Jean-Paul Belmondo, is loosely based on them.",
+        "lat": 43.295,
+        "lon": 5.379,
+        "zoom": 14,
+        "stories": [
+          "28sMdveNIK9lapk27gX6V7"
+        ],
+        "image": "Marseille - Opéra Municipal (16265981769).jpg"
+      },
+      {
+        "city": "Marseille",
+        "place": "Marseille",
+        "when": "1960s–today",
+        "heading": "The French Connection",
+        "text": "Corsican gangs in Marseille refined heroin and shipped it to New York until the network was broken up in the early 1970s. A judge who went after its successors, Pierre Michel, was shot dead in 1981. Today street gangs fight over drug dealing in the northern estates.",
+        "lat": 43.2951,
+        "lon": 5.374,
+        "zoom": 12.5,
+        "stories": [
+          "2INYrAYKI7svTJI8IAprV8",
+          "7IZylioO77II4XwnI2rEgJ"
+        ],
+        "image": "Marseille Old Port.jpg"
+      },
+      {
+        "city": "Glasgow",
+        "place": "Barlinnie Prison, Glasgow",
+        "when": "1973",
+        "heading": "The Special Unit",
+        "text": "In 1973 Glasgow’s Barlinnie Prison opened a unit that gave its most violent long-term prisoners art materials and a say in how it was run. Its best-known inmate, the gangster Jimmy Boyle, came out a sculptor and writer.",
+        "lat": 55.8781,
+        "lon": -4.1825,
+        "zoom": 14,
+        "stories": [
+          "4nziSgFiJeUDFwljTuJSEZ"
+        ]
+      },
+      {
+        "city": "Rome",
+        "place": "Magliana, Rome",
+        "when": "1970s–1980s",
+        "heading": "The Magliana gang",
+        "text": "The Banda della Magliana, named after a district in the south of Rome, ran much of the city’s drug trade and gambling, and was tied to neo-fascists, the secret services and the Vatican bank scandal.",
+        "lat": 41.846,
+        "lon": 12.456,
+        "zoom": 14,
+        "stories": [
+          "2MPxAFF3Za5GDAxmEcFZiC"
+        ]
+      },
+      {
+        "city": "London",
+        "place": "St Katharine Docks, London",
+        "when": "1980",
+        "heading": "The Long Good Friday",
+        "text": "In The Long Good Friday Bob Hoskins plays a London gang boss who wants to redevelop the derelict docks as the old East End world falls apart around him. A few years later the docks really were redeveloped.",
+        "lat": 51.5065,
+        "lon": -0.0715,
+        "zoom": 14,
+        "stories": [
+          "6AksoseSrize1PwPsUYHs1"
+        ],
+        "image": "East Dock. St Katharine Docks, London 02.jpg"
+      },
+      {
+        "city": "Naples",
+        "place": "Scampia, Naples",
+        "when": "1985–today",
+        "heading": "The Camorra",
+        "text": "The Camorra shot the young reporter Giancarlo Siani in 1985 for writing about it. In 2006 Roberto Saviano’s book Gomorrah named the clans and their business, from fake couture to toxic waste, and he has lived under police protection since. The Vele towers of Scampia, where the clan wars were fought, are being demolished.",
+        "lat": 40.8989,
+        "lon": 14.2394,
+        "zoom": 14,
+        "stories": [
+          "3JnFXrQZTKG8zky9ooxpH8",
+          "1nQ9yiBahJYCAeRbEvbf0J",
+          "3tkc2M1ehjJM8b8Uts7dp8",
+          "7FTAQX8chY1EOemTMV2qMS"
+        ],
+        "image": "Vela Scampia.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Via dei Georgofili, Florence",
+        "when": "1993",
+        "heading": "A bomb at the Uffizi",
+        "text": "In May 1993 the Sicilian Mafia set off a car bomb in the narrow street behind the Uffizi, part of a campaign against the Italian state. Five people died, and paintings in the gallery were damaged.",
+        "lat": 43.7677,
+        "lon": 11.2554,
+        "zoom": 14,
+        "stories": [
+          "4XdZ8sFpIguMqTPpkzzR7P"
+        ]
+      },
+      {
+        "city": "Belgrade",
+        "place": "New Belgrade",
+        "when": "1990s",
+        "heading": "Belgrade’s lost decade",
+        "text": "During the wars and sanctions of the 1990s, smugglers and paramilitaries became rich and famous in Belgrade, appearing in magazines and marrying pop stars. The film The Wounds follows two boys from New Belgrade who want to be them.",
+        "lat": 44.813,
+        "lon": 20.4,
+        "zoom": 14,
+        "stories": [
+          "3ttEvs5kcp1MqJC912wXzd"
+        ],
+        "image": "Блок 44 - беле зграде.jpg"
+      },
+      {
+        "city": "Dublin",
+        "place": "Naas Road, Dublin",
+        "when": "1996",
+        "heading": "Veronica Guerin",
+        "text": "The journalist Veronica Guerin was shot at a red light in 1996 after years of writing about Dublin’s drug gangs. Within months Ireland set up the Criminal Assets Bureau to seize criminals’ money.",
+        "lat": 53.31,
+        "lon": -6.403,
+        "zoom": 14,
+        "stories": [
+          "ix9Z3qf8Bgts7kt3Xz6b4"
+        ]
+      }
+    ],
+    "image": "Vele di Scampia.jpg"
+  },
+  {
+    "slug": "romans",
+    "kind": "Empires",
+    "title": "The Roman Empire",
+    "dates": "27 BC–c. 450",
+    "intro": [
+      "At its height Rome ruled from Scotland to Syria, and it left roads, walls, theatres and towns across Europe that later cities were built on top of. Plenty of it is underground, in basements, under squares and under office buildings.",
+      "Rome itself comes first, then the provinces, and finally the people who left when the empire fell apart."
+    ],
+    "chapters": [
+      {
+        "city": "Rome",
+        "place": "Ara Pacis and the Forum, Rome",
+        "when": "27 BC–AD 14",
+        "heading": "Augustus",
+        "text": "Caesar’s adopted son Augustus ended the civil wars, called himself first citizen rather than king, and ruled for forty years. The Senate built him the Altar of Peace, and his statue from his wife’s villa shows him as a young general.",
+        "lat": 41.9058,
+        "lon": 12.4754,
+        "zoom": 14,
+        "stories": [
+          "4iZULH7elfnpxxGD7Xi5MJ",
+          "2A90Sp9II6XKVg9JuzGuEI",
+          "4MepMim4Yqjm3iktvDqMBW"
+        ],
+        "image": "Ara Pacis (SW).jpg"
+      },
+      {
+        "city": "London",
+        "place": "London Mithraeum and London Wall",
+        "when": "47–410",
+        "heading": "Londinium",
+        "text": "The Romans founded Londinium by a bridge over the Thames around 47. Boudica’s rebels burned it in 60 or 61, leaving a red layer archaeologists still find. A temple to Mithras now sits under an office building, and stretches of the wall survive by Tower Hill.",
+        "lat": 51.5049,
+        "lon": -0.0877,
+        "zoom": 14,
+        "stories": [
+          "5YMGXdDIvb9aI9DjPvHTkV",
+          "2u2Qf29Eec24VckQQFQRvy",
+          "3ggc0vdyKVn6PxnJ4igG0z"
+        ],
+        "image": "London Roman Wall - surviving section by Tower Hill gardens full section.jpg"
+      },
+      {
+        "city": "Naples",
+        "place": "Pompeii",
+        "when": "79",
+        "heading": "Pompeii",
+        "text": "Pompeii is the best picture we have of an ordinary Roman town: its bakeries, bars, graffiti and election slogans, all frozen by the eruption of 79.",
+        "lat": 40.7485,
+        "lon": 14.4847,
+        "zoom": 14,
+        "stories": [
+          "4695MQKO1NHBRGf4ObUC0x",
+          "5Oh72ZFsW1sjzQCUY0IkrM"
+        ],
+        "image": "Forum, Pompeii 05.jpg"
+      },
+      {
+        "city": "Seville",
+        "place": "Itálica, near Seville",
+        "when": "98–138",
+        "heading": "Emperors from Spain",
+        "text": "Itálica, outside Seville, was founded for Roman veterans in 206 BC. Trajan, born there, became the first emperor from outside Italy, and his successor Hadrian came from a family there. Hadrian later rebuilt the Pantheon in Rome.",
+        "lat": 37.4442,
+        "lon": -6.0444,
+        "zoom": 14,
+        "stories": [
+          "5Kk9ZdhSAwHLwSMAs6MXZP",
+          "17Kr19GZn54TH4gKvFceGk"
+        ],
+        "image": "Anfiteatro de las ruinas romanas de Itálica, Santiponce, Sevilla, España, 2015-12-06, DD 34-45 PAN HDR.JPG"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Alfama, Lisbon",
+        "when": "c. 50",
+        "heading": "Olisipo",
+        "text": "Roman Lisbon, Olisipo, had a theatre on the hillside below the castle. Its remains were found under houses in the 1790s, after the earthquake.",
+        "lat": 38.7126,
+        "lon": -9.133,
+        "zoom": 14,
+        "stories": [
+          "5fK88IEmpSOEkrNM398YEl"
+        ],
+        "image": "Teatro romano, Lisboa 01.jpg"
+      },
+      {
+        "city": "Belgrade",
+        "place": "Kalemegdan, Belgrade",
+        "when": "1st–5th century",
+        "heading": "Singidunum",
+        "text": "Belgrade began as Singidunum, a legion’s fortress on the Danube frontier. One of the city’s main streets still follows the Roman road out of the camp.",
+        "lat": 44.8117,
+        "lon": 20.4658,
+        "zoom": 14,
+        "stories": [
+          "3YPTPFHfh7Ix2kLdAcS8cC"
+        ],
+        "image": "Kalemegdan, a13.jpg"
+      },
+      {
+        "city": "Milan",
+        "place": "Sant’Ambrogio, Milan",
+        "when": "286–402",
+        "heading": "Capital of the West",
+        "text": "For about a century Milan was the capital of the western half of the empire. In 313 Constantine and his co-emperor agreed there to tolerate Christianity, and the bishop Ambrose later founded the church where he is buried.",
+        "lat": 45.4624,
+        "lon": 9.1756,
+        "zoom": 14,
+        "stories": [
+          "amdffiQWJR03DFXnBEJ1g"
+        ],
+        "image": "Milano - Basilica di Sant'Ambrogio - 2025-09-30 22-35-33 001.jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Arch of Constantine, Rome",
+        "when": "315",
+        "heading": "Constantine",
+        "text": "After winning Rome at the Milvian Bridge, Constantine got a triumphal arch beside the Colosseum, decorated partly with reliefs taken from older monuments. He went on to found a new capital at Constantinople.",
+        "lat": 41.8898,
+        "lon": 12.4906,
+        "zoom": 14,
+        "stories": [
+          "7EANl1MZJnZ0tDXmZ3Lpdu"
+        ],
+        "image": "Arch of Constantine - 016.jpg"
+      },
+      {
+        "city": "Venice",
+        "place": "Torcello, Venice",
+        "when": "5th–7th century",
+        "heading": "After Rome",
+        "text": "As the empire collapsed, people from mainland towns fled to the islands of the lagoon. Refugees from Altinum settled Torcello, using stone from the old Roman towns, and their settlements grew into Venice.",
+        "lat": 45.4977,
+        "lon": 12.418,
+        "zoom": 14,
+        "stories": [
+          "6ap6tNz4TDGyyISf5cDGGz",
+          "9LXs2WiytvwKQgsB2CLGL"
+        ],
+        "image": "Venedig Torcello Basilica di Santa Maria Assunta-4345.jpg"
+      }
+    ],
+    "image": "Colosseum and Arch of Constantine seen from Palatine.jpg"
+  },
+  {
     "slug": "byzantium",
     "kind": "Empires",
     "title": "Byzantium",
@@ -2963,6 +4200,260 @@
       }
     ],
     "image": "Paris - Les invalides - Le Dôme - 138.jpg"
+  },
+  {
+    "slug": "ships",
+    "kind": "Places",
+    "title": "Ships and harbours",
+    "dates": "c. 600 BC–1976",
+    "intro": [
+      "For most of history the richest cities were the ones with the best harbours. Ships brought settlers, trade and emigrants, and building them employed whole districts.",
+      "Most of the old shipyards have closed. Several have been turned into museums, hotels or flats."
+    ],
+    "chapters": [
+      {
+        "city": "Marseille",
+        "place": "Vieux-Port, Marseille",
+        "when": "c. 600 BC",
+        "heading": "A Greek harbour",
+        "text": "Greek sailors from Phocaea founded Massalia around a natural harbour in about 600 BC, making Marseille France’s oldest city. Fishermen still sell their catch straight off the boats on the quay.",
+        "lat": 43.2977,
+        "lon": 5.3741,
+        "zoom": 14,
+        "stories": [
+          "39htbgQRJGvspZ42p4MkAu",
+          "11TrJ1sAeMh7Noig7V1Qvy"
+        ],
+        "image": "Marseille vieux port pano.jpg"
+      },
+      {
+        "city": "Venice",
+        "place": "Arsenale, Venice",
+        "when": "1100s–1797",
+        "heading": "The Arsenale",
+        "text": "Venice built its war fleets in the Arsenale, a walled state shipyard where thousands worked. Ships moved past a line of workshops as they were fitted out, and at its height it was said to turn out a galley in a day.",
+        "lat": 45.4333,
+        "lon": 12.34,
+        "zoom": 14,
+        "stories": [
+          "3uQCjY8KUaj15mVqkQ39YT",
+          "1m8O09o5k32p2a2SpfP2sH"
+        ],
+        "image": "Vista Arsenale di Venezia - panoramio.jpg"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Belém, Lisbon",
+        "when": "1497",
+        "heading": "Setting out",
+        "text": "Vasco da Gama sailed from Belém in 1497 and reached India by sea. The Jerónimos Monastery was built with the profits of the spice trade, and he is buried there.",
+        "lat": 38.6972,
+        "lon": -9.2003,
+        "zoom": 14,
+        "stories": [
+          "3VdteaMmYhEbUl3adAcXXO",
+          "383Gs03rhWu5ncP89ng7QV"
+        ],
+        "image": "Monument of the Discoveries in Belém, Lisbon, 20250604 1030 9078.jpg"
+      },
+      {
+        "city": "Seville",
+        "place": "Torre del Oro, Seville",
+        "when": "1503–1717",
+        "heading": "Gateway to the Americas",
+        "text": "For two centuries every legal ship between Spain and the Americas had to pass through Seville, 80 kilometres up the Guadalquivir. The Torre del Oro guarded the river port. When the river silted up, the trade moved to Cádiz.",
+        "lat": 37.3825,
+        "lon": -5.9963,
+        "zoom": 14,
+        "stories": [
+          "2wjaMkIzWXguo2TJgu6aQs",
+          "7vpNRHIKCoqQuGaokJTjOp"
+        ],
+        "image": "Torre del Oro, Guadalquivir, Sevilla.jpg"
+      },
+      {
+        "city": "Dublin",
+        "place": "Custom House Quay, Dublin",
+        "when": "1845–1852",
+        "heading": "Famine ships",
+        "text": "During the Great Famine, hundreds of thousands left from Dublin’s quays for Liverpool and America. A replica emigrant ship, the Jeanie Johnston, is moored on the Liffey.",
+        "lat": 53.3484,
+        "lon": -6.2531,
+        "zoom": 14,
+        "stories": [
+          "3zxH6TizBNK3JCg5PplHWY"
+        ],
+        "image": "Jeanie Johnston Dublin quai.jpg"
+      },
+      {
+        "city": "Liverpool",
+        "place": "Pier Head, Liverpool",
+        "when": "1839–1915",
+        "heading": "The Pier Head",
+        "text": "Herman Melville came to Liverpool as a young sailor in 1839 and found its docks full of emigrant ships. By 1900 the great liners sailed from the Pier Head. The Lusitania was heading home here when a U-boat sank her in 1915.",
+        "lat": 53.4103,
+        "lon": -2.9978,
+        "zoom": 14,
+        "stories": [
+          "4jYrZBmsVyTomXUsVPFcs7",
+          "6WRl7cMrCWdJA8eODO2dTK",
+          "7jQ2AbKruVPd10vF6KrNRY"
+        ],
+        "image": "\"The Three Graces\", Liverpool Pier Head - geograph.org.uk - 4866613.jpg"
+      },
+      {
+        "city": "Belfast",
+        "place": "Titanic Quarter, Belfast",
+        "when": "1909–1912",
+        "heading": "Titanic",
+        "text": "Harland & Wolff built the Titanic and her sister ships on slipways on Queen’s Island. Her designer, Thomas Andrews, went down with her. The drawing offices are now a hotel, and the slipways sit beside the Titanic museum.",
+        "lat": 54.6072,
+        "lon": -5.9081,
+        "zoom": 14,
+        "stories": [
+          "4UXtik5DMsmbddkk8WiRGJ",
+          "580iIiI5Fp1ZX5FDfw6dwM",
+          "3e9bd6TqUfIJI0Qf4kwYjk"
+        ],
+        "image": "Titanic slipways, Belfast - geograph.org.uk - 6735401.jpg"
+      },
+      {
+        "city": "Glasgow",
+        "place": "The Clyde, Glasgow",
+        "when": "1883–1971",
+        "heading": "Clydebuilt",
+        "text": "At one point the Clyde built about a fifth of the world’s ships. In 1883 the steamer Daphne capsized at her launch with 124 workers aboard. The QE2 was the last great liner built there, and in 1971 the workers of Upper Clyde Shipbuilders refused to let the yards close.",
+        "lat": 55.866,
+        "lon": -4.329,
+        "zoom": 14,
+        "stories": [
+          "sQmlLn2L8zr7xvP2jOZrF",
+          "7I0WQ2LiHqIReFmTUixypv",
+          "7KwbKFe7ItiMTh6bP2yx2z"
+        ],
+        "image": "20260928 Titan Clydebank 3.jpg"
+      },
+      {
+        "city": "Reykjavík",
+        "place": "Reykjavík",
+        "when": "1958–1976",
+        "heading": "The Cod Wars",
+        "text": "Iceland lives on fish, and it pushed its fishing limits from 4 miles out to 200. When British trawlers kept fishing, Icelandic coastguard ships cut their nets, and the Royal Navy came to protect them. Iceland won.",
+        "lat": 64.1428,
+        "lon": -21.9368,
+        "zoom": 14,
+        "stories": [
+          "QEg9sZie9AIEVdPC2P6CL",
+          "2v8n6QzvL1iefzG17Ftcey"
+        ],
+        "image": "Elding Whale Watching boats Reykjavik harbour (25381979881).jpg"
+      }
+    ],
+    "image": "Finnieston Crane ^ Clyde Arc Bridge - geograph.org.uk - 3851383.jpg"
+  },
+  {
+    "slug": "beer",
+    "kind": "Places",
+    "title": "Beer",
+    "dates": "1499–today",
+    "intro": [
+      "Northern Europe drank beer before it drank water safely, and its breweries grew into some of its biggest businesses. Several of them built museums, palaces and art collections with the money.",
+      "Beer halls have also been the backdrop to some darker history."
+    ],
+    "chapters": [
+      {
+        "city": "Prague",
+        "place": "U Fleků, Prague",
+        "when": "1499–today",
+        "heading": "U Fleků",
+        "text": "U Fleků has brewed its dark lager in Prague’s New Town since at least 1499. Czechs drink more beer per person than anyone, and the city’s pubs are where the good soldier Švejk plots his way through the First World War.",
+        "lat": 50.0788,
+        "lon": 14.417,
+        "zoom": 14,
+        "stories": [
+          "BdT5G5NEnpop0wCMWgH5c",
+          "7irVSbLql3p0g8nQcaz0Rm"
+        ],
+        "image": "U Fleků (6).jpg"
+      },
+      {
+        "city": "Munich",
+        "place": "Hofbräuhaus, Munich",
+        "when": "1516–1810",
+        "heading": "Purity and Oktoberfest",
+        "text": "Bavaria’s 1516 purity law said beer could be made only from barley, hops and water. The dukes opened the Hofbräuhaus as their court brewery in 1589. Oktoberfest started in 1810 as a horse race for a royal wedding.",
+        "lat": 48.1392,
+        "lon": 11.5662,
+        "zoom": 14,
+        "stories": [
+          "2IdJQvwcBUGUwZdZGxxyC3",
+          "0cEEbZu1giTGY1D2jmGWe",
+          "2UnpQoFIuSsklqxgVtESnY",
+          "LnoU486RpODTJJfArVOVr"
+        ],
+        "image": "Hofbräuhaus München (53325154138).jpg"
+      },
+      {
+        "city": "Dublin",
+        "place": "St James’s Gate, Dublin",
+        "when": "1759",
+        "heading": "Guinness",
+        "text": "In 1759 Arthur Guinness signed a 9,000-year lease on a brewery at St James’s Gate. His dark porter became Ireland’s best-known export, and the brewery is still there.",
+        "lat": 53.3418,
+        "lon": -6.2867,
+        "zoom": 14,
+        "stories": [
+          "7tosmkrzccdV9H7Hodybv9",
+          "4W4q601qakMkQyIvvl6dgb"
+        ],
+        "image": "St James Gate, Dublin (30296081722).jpg"
+      },
+      {
+        "city": "London",
+        "place": "Tottenham Court Road, London",
+        "when": "1814",
+        "heading": "The beer flood",
+        "text": "In October 1814 a huge vat burst at the Meux brewery off Tottenham Court Road, and over a million litres of porter swept through the slums behind it. Eight people died.",
+        "lat": 51.5163,
+        "lon": -0.1302,
+        "zoom": 14,
+        "stories": [
+          "7vjkIUaF81HKKkslYzwvWI"
+        ]
+      },
+      {
+        "city": "Munich",
+        "place": "Bürgerbräukeller, Munich",
+        "when": "1920–1939",
+        "heading": "Beer halls and the Nazis",
+        "text": "Hitler announced the Nazi party’s programme in the Hofbräuhaus in 1920, and in 1923 he fired a shot into the ceiling of the Bürgerbräukeller to start a failed coup. In 1939 a carpenter, Georg Elser, hid a bomb in a pillar there that missed Hitler by thirteen minutes.",
+        "lat": 48.1303,
+        "lon": 11.5903,
+        "zoom": 14,
+        "stories": [
+          "7ABCTp8KYUuzPKrj66rNuf",
+          "5garogkxtrxPq3nHVMlE2b"
+        ],
+        "image": "Georg Elser Bodenplatte.JPG"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "Carlsberg, Copenhagen",
+        "when": "1847–today",
+        "heading": "Carlsberg",
+        "text": "J.C. Jacobsen founded Carlsberg in 1847. In 1883 its laboratory isolated a pure lager yeast and gave it away, and most lager in the world now descends from it. His son Carl spent the profits on art and founded the Ny Carlsberg Glyptotek. Today small brewpubs have spread across the city.",
+        "lat": 55.6649,
+        "lon": 12.5313,
+        "zoom": 14,
+        "stories": [
+          "4O3pLu84XZG5Op3rGv8QZt",
+          "thZpge3pr2rEIZNEAJ6O2",
+          "1Ih8JAZpRvBm67Uqp7eTPx"
+        ],
+        "image": "Elefantporten (Carlsberg).jpg"
+      }
+    ],
+    "image": "U Fleků (7).jpg"
   },
   {
     "slug": "coffeehouses",
