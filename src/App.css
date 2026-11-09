@@ -1033,3 +1033,12 @@ html[data-vt] .panel-story { transition: none !important; }
   .thread__title { font-size: 60px; }
 }
 @keyframes thread-in { from { opacity: 0; } to { opacity: 1; } }
+
+/* Thread photo captions: what the place is, then the credit. */
+.thread-cap__label { color: #6b625a; }
+.thread-cap__label::after { content: ' · '; color: var(--ink-light); }
+
+/* Group headings in the list column sit on its pink, so they use a deeper
+   pink instead of the light blue used in the detail panel. */
+.panel-cities .story-group-heading { background: #F8E3E3; border-bottom-color: #EED0D0; color: #8C5A5A; }
+.thread-hero figcaption, .thread-img figcaption { white-space: normal; line-height: 1.4; }

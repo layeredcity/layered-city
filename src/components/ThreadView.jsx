@@ -10,19 +10,21 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import mapboxgl from 'mapbox-gl'
 import { fetchStoriesByIds } from '../utils/contentful'
 import PHOTOS from '../data/thread-photos.json'
+import LABELS from '../data/thread-photo-labels.json'
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
 const ROUTE_COLOR = '#C8412A'
 
-// A Commons image with its credit line (the licences require one).
+// A Commons image with a short label for what it shows (thread-photo-labels.json)
+// and its credit line (the licences require one).
 function ThreadPhoto({ file, className }) {
   const p = file && PHOTOS[file]
   if (!p) return null
   return (
     <figure className={className}>
       <div className={className + '__frame'}><img src={p.src} alt="" width={p.w} height={p.h} /></div>
-      <figcaption><a href={p.page} target="_blank" rel="noreferrer">{p.author.replace(/^(.+?)\1$/, '$1')}{p.license ? ` · ${p.license}` : ''}</a></figcaption>
+      <figcaption>{LABELS[file] && <span className="thread-cap__label">{LABELS[file]}</span>}<a href={p.page} target="_blank" rel="noreferrer">{p.author.replace(/^(.+?)\1$/, '$1')}{p.license ? ` · ${p.license}` : ''}</a></figcaption>
     </figure>
   )
 }
