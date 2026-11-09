@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-09T06:10:35.324Z",
+ "fetched": "2026-11-09T09:56:07.569Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -61,21 +61,21 @@
    "url": "https://konzerthaus.at/en/program-and-tickets",
    "final": "https://konzerthaus.at/en/program-and-tickets",
    "http": 200,
-   "chars": 4818,
+   "chars": 4833,
    "jsonLdEvents": 0
   },
   "burgtheater": {
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 26601,
+   "chars": 26371,
    "jsonLdEvents": 0
   },
   "viennale": {
    "url": "https://www.viennale.at/en",
    "final": "https://www.viennale.at/en",
    "http": 200,
-   "chars": 17865,
+   "chars": 17467,
    "jsonLdEvents": 0
   },
   "wien-modern": {
@@ -124,7 +124,7 @@
    "url": "https://www.leopoldmuseum.org/en/exhibitions",
    "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
    "http": 200,
-   "chars": 7649,
+   "chars": 7660,
    "jsonLdEvents": 0
   },
   "mak": {
@@ -152,7 +152,7 @@
    "url": "https://www.secession.at/en/",
    "final": "https://secession.at/en/",
    "http": 200,
-   "chars": 38008,
+   "chars": 44910,
    "jsonLdEvents": 0
   },
   "kunsthauswien": {
@@ -173,14 +173,14 @@
    "url": "https://www.porgy.at/events/upcoming",
    "final": "https://www.porgy.at/events/upcoming",
    "http": 200,
-   "chars": 37102,
+   "chars": 37246,
    "jsonLdEvents": 0
   },
   "arena": {
    "url": "https://www.arena.wien/",
    "final": "https://arena.wien/",
    "http": 200,
-   "chars": 5178,
+   "chars": 5285,
    "jsonLdEvents": 0
   },
   "wuk": {
@@ -292,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 26818,
+   "chars": 26878,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
@@ -390,7 +390,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-12",
    "final": "https://www.burgtheater.at/spielplan?date=2026-12",
    "http": 200,
-   "chars": 30668,
+   "chars": 30468,
    "jsonLdEvents": 0
   }
  }
