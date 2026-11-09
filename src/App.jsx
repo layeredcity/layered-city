@@ -1866,7 +1866,9 @@ export default function App() {
   const orderedCities = useMemo(() => [...cities].sort((a, b) => a.name.localeCompare(b.name)), [cities])
   // City list order: alphabetical (default) or grouped by country. The choice
   // is remembered per browser.
-  const [cityOrder, setCityOrderState] = useState(() => { try { return localStorage.getItem('lc-city-order') === 'country' ? 'country' : 'alpha' } catch { return 'alpha' } })
+  // The Alphabetical / By country toggle is hidden for now (Ryan, Nov 2026), so the
+  // list is always alphabetical. Restore the .city-order row to bring it back.
+  const [cityOrder, setCityOrderState] = useState('alpha')
   const setCityOrder = v => { setCityOrderState(v); try { localStorage.setItem('lc-city-order', v) } catch {} }
   const cityGroups = useMemo(() => {
     if (cityOrder !== 'country') return [{ country: null, cities: orderedCities }]
@@ -2037,13 +2039,6 @@ export default function App() {
         </div>
         <div className="panel-cities__scroll" key={leftTab}>
           {leftTab === 'cities' && (<>
-          <div className="city-order">
-            <div className="city-order__title">Cities</div>
-            <div className="sort-toggle" role="group" aria-label="Order cities">
-              <button type="button" className={'sort-toggle__opt' + (cityOrder === 'alpha' ? ' is-active' : '')} aria-pressed={cityOrder === 'alpha'} onClick={() => setCityOrder('alpha')}>Alphabetical</button>
-              <button type="button" className={'sort-toggle__opt' + (cityOrder === 'country' ? ' is-active' : '')} aria-pressed={cityOrder === 'country'} onClick={() => setCityOrder('country')}>By country</button>
-            </div>
-          </div>
           {cityGroups.map(group => (<Fragment key={group.country || 'all'}>
           {group.country && <div className="city-group-heading">{group.country}</div>}
           {group.cities.map(city => (
