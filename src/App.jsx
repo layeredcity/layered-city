@@ -2062,7 +2062,6 @@ export default function App() {
           </Fragment>))}
           </>)}
           {leftTab === 'threads' && (<>
-          <p className="left-intro">Each thread follows one subject across several cities.</p>
           {THREAD_GROUPS.map(([kind, list]) => (<Fragment key={kind}>
           <div className="story-group-heading">{kind}</div>
           {list.map(t => (

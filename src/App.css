@@ -1021,8 +1021,7 @@ html[data-vt] .panel-story { transition: none !important; }
 .left-tabs__tab { appearance: none; flex: 1; border: none; background: none; cursor: pointer; padding: 11px 4px 10px; font-family: var(--font-body); font-size: 12px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-light); border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color var(--transition), border-color var(--transition); }
 .left-tabs__tab:hover { color: var(--ink); }
 .left-tabs__tab.is-active { color: var(--ink); border-bottom-color: var(--accent); }
-.left-intro { margin: 0; padding: 14px 16px 12px 14px; font-size: 13px; line-height: 1.5; color: var(--ink-light); border-bottom: 1px solid var(--border); }
-@media (max-width: 768px) { .left-tabs__tab { font-size: 14px; padding: 14px 4px 13px; } .left-intro { font-size: 15px; } }
+@media (max-width: 768px) { .left-tabs__tab { font-size: 14px; padding: 14px 4px 13px; } }
 
 /* Desktop: a thread is a page beside the list column, not a modal. The text
    column is wider and the map narrower than in a city's view. */
