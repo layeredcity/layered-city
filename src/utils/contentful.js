@@ -133,6 +133,8 @@ export async function fetchStoriesByIds(ids) {
   return ids.map(id => byId[id]).filter(Boolean)
 }
 
+const UNRATED_TYPES = ['podcast', 'video']
+
 function mapStory(item) {
     const f = item.fields
     const channel = f.channel?.fields
@@ -140,7 +142,9 @@ function mapStory(item) {
       id: item.sys.id,
       title: f.storyTitle,
       description: f.storyDescription,
-      qualityRating: f.qualityRating,
+      // Podcast and video ratings are hidden until more of them are rated
+      // (Ryan, Nov 2026); remove the type check to show them again.
+      qualityRating: UNRATED_TYPES.includes((f.mediaType || channel?.mediaType || '').toLowerCase()) ? null : f.qualityRating,
       location: f.storyLocation,
       locationName: f.locationName || null,
       secondaryLocation: f.secondaryLocation,
