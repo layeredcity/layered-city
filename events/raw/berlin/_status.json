@@ -1,18 +1,18 @@
 {
- "fetched": "2026-11-09T05:54:28.800Z",
+ "fetched": "2026-11-09T06:09:23.360Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 28896,
+   "chars": 28803,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
    "url": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "final": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "http": 200,
-   "chars": 21987,
+   "chars": 22035,
    "jsonLdEvents": 0
   },
   "exberliner": {
@@ -40,7 +40,7 @@
    "url": "https://www.komische-oper-berlin.de/en/what/schedule/",
    "final": "https://www.komische-oper-berlin.de/en/what/schedule/",
    "http": 200,
-   "chars": 41920,
+   "chars": 41933,
    "jsonLdEvents": 0
   },
   "philharmonie": {
@@ -66,7 +66,10 @@
   },
   "schaubuehne": {
    "url": "https://www.schaubuehne.de/en/start/index.html",
-   "error": "fetch failed"
+   "final": "https://www.schaubuehne.de/en/start/index.html",
+   "http": 200,
+   "chars": 9580,
+   "jsonLdEvents": 0
   },
   "gorki": {
    "url": "https://www.gorki.de/en/schedule",
@@ -205,7 +208,7 @@
    "url": "https://www.visitberlin.de/en/events-berlin",
    "final": "https://www.visitberlin.de/en/events-berlin",
    "http": 200,
-   "chars": 20872,
+   "chars": 20831,
    "jsonLdEvents": 0
   },
   "visitberlin-classical": {
@@ -233,7 +236,7 @@
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "http": 200,
-   "chars": 19662,
+   "chars": 19722,
    "jsonLdEvents": 0
   },
   "reg-mauerpark": {
@@ -262,6 +265,13 @@
    "final": "https://www.hebbel-am-ufer.de/en/programme/schedule-tickets/prodMonth/12-2026/?cHash=dbc2d543d677d183640de7b2f34bbefe",
    "http": 200,
    "chars": 36538,
+   "jsonLdEvents": 0
+  },
+  "staatsoper-mid-nov": {
+   "url": "https://www.staatsoper-berlin.de/en/programme/16-11-2026/",
+   "final": "https://www.staatsoper-berlin.de/en/programme/16-11-2026/",
+   "http": 200,
+   "chars": 19113,
    "jsonLdEvents": 0
   }
  }

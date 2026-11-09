@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-09T05:55:25.754Z",
+ "fetched": "2026-11-09T06:10:35.324Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -68,7 +68,7 @@
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 26411,
+   "chars": 26601,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -292,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 26658,
+   "chars": 26818,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
@@ -390,7 +390,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-12",
    "final": "https://www.burgtheater.at/spielplan?date=2026-12",
    "http": 200,
-   "chars": 30488,
+   "chars": 30668,
    "jsonLdEvents": 0
   }
  }
