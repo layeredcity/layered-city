@@ -4,12 +4,12 @@
   "urls": {
     "wieninfo-now": "https://www.wien.info/en/now-on",
     "wieninfo-events": "https://www.wien.info/en/now-on/event-search",
-    "visitingvienna-oct": "https://www.visitingvienna.com/entertainment/october/",
+    "visitingvienna-dec": "https://www.visitingvienna.com/entertainment/december/",
     "visitingvienna-nov": "https://www.visitingvienna.com/entertainment/november/",
     "staatsoper": "https://www.wiener-staatsoper.at/en/calendar/",
     "volksoper": "https://www.volksoper.at/spielplan/",
     "theater-an-der-wien": "https://www.theater-wien.at/en/calendar",
-    "musikverein": "https://spielplan.musikverein.at/spielplan?month=2026-10",
+    "musikverein": "https://spielplan.musikverein.at/spielplan?month=2026-12",
     "konzerthaus": "https://konzerthaus.at/en/program-and-tickets",
     "burgtheater": "https://www.burgtheater.at/spielplan",
     "viennale": "https://www.viennale.at/en",
@@ -55,6 +55,8 @@
     "konzerthaus-7": "https://konzerthaus.at/en/program-and-tickets?page=7",
     "konzerthaus-8": "https://konzerthaus.at/en/program-and-tickets?page=8",
     "konzerthaus-9": "https://konzerthaus.at/en/program-and-tickets?page=9",
-    "konzerthaus-10": "https://konzerthaus.at/en/program-and-tickets?page=10"
+    "konzerthaus-10": "https://konzerthaus.at/en/program-and-tickets?page=10",
+    "staatsoper-dec": "https://www.wiener-staatsoper.at/en/calendar/2026/december/",
+    "burgtheater-dec": "https://www.burgtheater.at/spielplan?date=2026-12"
   }
 }
