@@ -2064,7 +2064,7 @@ export default function App() {
           {leftTab === 'threads' && (<>
           <p className="left-intro">Each thread follows one subject across several cities.</p>
           {THREAD_GROUPS.map(([kind, list]) => (<Fragment key={kind}>
-          <div className="city-group-heading">{kind}</div>
+          <div className="story-group-heading">{kind}</div>
           {list.map(t => (
             <div key={t.slug} className={'city-item city-item--thread' + (openThreadSlug === t.slug ? ' city-item--active' : '')} onClick={() => openThread(t.slug)}>
               <div className="city-item__thumb-wrap">
