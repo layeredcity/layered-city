@@ -1350,6 +1350,31 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
           </div>
         </div>
         <h2 className="story-modal__title">{story.title}</h2>
+        <StoryDetails story={story} omdbData={omdbData} onOpenMedia={onOpenMedia} />
+      </div>
+    </div>
+  )
+}
+
+// The body of a story — why it's worth your time, its facts and the buttons
+// to watch, listen or read. Shared by the story pop-up and the inline story
+// rows in a thread.
+function StoryDetails({ story, omdbData, onOpenMedia }) {
+  const label = mediaTypeLabel(story.mediaType)
+  const duration = formatDuration(story.minutes, story.seconds)
+  const isBook = story.mediaType?.toLowerCase() === 'book'
+  const bookRating = isBook ? story.goodreadsRating : null
+  const effectiveRating = story.qualityRating || imdbToQualityRating(omdbData?.rating)
+  const qualityLabel = QUALITY_LABELS[effectiveRating] || null
+  const url = cleanWatchUrl(story.mediaUrl || story.secondaryUrl || null)
+  const t = story.mediaType?.toLowerCase()
+  const isMovieOrTV = t === 'movie' || t === 'tv'
+  const isTour = t === 'audiotour'
+  const isVideo = t === 'video' || t === 'movie' || t === 'tv'
+  const hasMedia = url && (isVideo || t === 'podcast' || t === 'audiotour')
+  const btnLabel = (t === 'movie' || t === 'tv') ? movieBtnLabel(url) : t === 'audiotour' ? 'Listen to the audio tour' : t === 'podcast' ? 'Listen to the episode' : 'Watch the video'
+  return (
+    <>
         {story.description && (
           <>
             <div className="story-modal__why">
@@ -1479,7 +1504,23 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
             </a>
           )
         )}
+    </>
+  )
+}
+
+// A story inside a thread: its usual row, which opens in place to show the
+// story's details instead of a pop-up. Videos still play in the media viewer.
+function ThreadStory({ story, open, onToggle, onOpenMedia, omdbData, bookData }) {
+  return (
+    <div className={'thread-story-row' + (open ? ' is-open' : '')}>
+      <div aria-expanded={open}>
+        <StoryItem story={story} onSelect={() => onToggle(story.id)} omdbData={omdbData} bookData={bookData} />
       </div>
+      {open && (
+        <div className="thread-story-row__detail">
+          <StoryDetails story={story} omdbData={omdbData} onOpenMedia={onOpenMedia} />
+        </div>
+      )}
     </div>
   )
 }
@@ -1633,7 +1674,7 @@ export default function App() {
   // Cross-city threads (/threads/<slug>). On desktop a thread fills the space
   // right of the list column, like a city; on phones it's a full-screen page.
   const [openThreadSlug, setOpenThreadSlug] = useState(() => (window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null)
-  const [threadStory, setThreadStory] = useState(null)
+  const [threadStory, setThreadStory] = useState(null) // id of the story opened in place
   const threadReturnPath = useRef('/')
   const [threadStart, setThreadStart] = useState(null)
   // Left column: the list of cities or the list of threads.
@@ -2452,15 +2493,8 @@ export default function App() {
           thread={openThreadData}
           startChapter={threadStart}
           onClose={closeThread}
-          renderStory={st => <StoryItem story={st} onSelect={setThreadStory} omdbData={omdbCache[st.imdbId]} bookData={bookCache[st.isbn]} />}
+          renderStory={st => <ThreadStory story={st} open={threadStory === st.id} onToggle={id => setThreadStory(cur => cur === id ? null : id)} onOpenMedia={setMediaStory} omdbData={omdbCache[st.imdbId]} bookData={bookCache[st.isbn]} />}
         />
-      )}
-      {openThreadData && threadStory && (
-        <div className="thread-story" onClick={() => setThreadStory(null)}>
-          <div className="thread-story__box" onClick={e => e.stopPropagation()}>
-            <StoryModal story={threadStory} onClose={() => setThreadStory(null)} onOpenMedia={setMediaStory} omdbData={omdbCache[threadStory.imdbId] ?? null} bookData={bookCache[threadStory.isbn] ?? null} onOpenStory={setThreadStory} omdbCache={omdbCache} bookCache={bookCache} />
-          </div>
-        </div>
       )}
       {openThreadData && mediaStory && (
         <div className="thread-media"><MediaModal story={mediaStory} onClose={() => setMediaStory(null)} /></div>

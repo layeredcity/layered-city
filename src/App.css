@@ -1043,3 +1043,13 @@ html[data-vt] .panel-story { transition: none !important; }
    pink instead of the light blue used in the detail panel. */
 .panel-cities .story-group-heading { background: #F8E3E3; border-bottom-color: #EED0D0; color: #8C5A5A; }
 .thread-hero figcaption, .thread-img figcaption { white-space: normal; line-height: 1.4; }
+
+/* Stories inside a thread open in place rather than in a pop-up. */
+.thread-story-row { border-bottom: 1px solid var(--border); }
+.thread-ch__stories .thread-story-row:last-child { border-bottom: none; }
+.thread-story-row .story-item { border-bottom: none; }
+.thread-story-row.is-open .story-item { background: rgba(220,232,249,0.35); }
+.thread-story-row__detail { padding: 2px 18px 20px; background: rgba(220,232,249,0.35); animation: thread-story-open 0.25s ease; }
+.thread-story-row__detail .story-modal__why { margin-top: 4px; }
+.thread-story-row__detail .story-modal__btn-row, .thread-story-row__detail > .story-modal__btn { margin-top: 14px; }
+@keyframes thread-story-open { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
