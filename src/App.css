@@ -13,6 +13,8 @@
   --panel-detail: 375px;
   --font-display: 'DM Serif Display', Georgia, serif;
   --font-body: 'IBM Plex Sans', system-ui, sans-serif;
+  /* Labels and secondary type on the royal-blue gradient. */
+  --electric: #7CC0FF;
   --radius: 8px;
   --transition: 0.18s ease;
   --drawer-transition: 0.5s cubic-bezier(0.22, 1, 0.36, 1);
@@ -1102,3 +1104,8 @@ html[data-vt] .panel-story { transition: none !important; }
   .thread-top__hero { height: 240px; }
   .thread-top .thread__head--over { margin-top: -56px; }
 }
+
+/* Labels on the royal-blue gradient use the electric blue. */
+.overview-group-heading, .city-quote__attribution, .currency-cheatsheet__note,
+.landmark-top__heading .landmark-hero__type,
+.thread-top .thread__kicker, .thread-top .thread__dates { color: var(--electric); }
