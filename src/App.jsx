@@ -2010,9 +2010,10 @@ export default function App() {
     const t = THREADS.find(x => x.slug === openThreadSlug)
     document.title = t ? `${t.title} | ${base}`
       : selectedCity ? `${activeFilter && activeFilter !== 'All' ? activeFilter + ' in ' : ''}${selectedCity.name} | ${base}`
+      : leftTab === 'about' ? `About | ${base}`
       : `${base} | The guidebook companion for curious travelers in Europe`
     trackPageview()
-  }, [openThreadSlug, selectedCity, activeFilter])
+  }, [openThreadSlug, selectedCity, activeFilter, leftTab === 'about'])
 
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
