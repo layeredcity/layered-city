@@ -172,7 +172,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
               </div>
             )}
           <header className={'thread__head' + (hero ? ' thread__head--over' : '')}>
-            <div className="thread__kicker">Threads</div>
+            <div className="thread__kicker">Thread</div>
             <h1 className="thread__title">{thread.title}</h1>
             <div className="thread__dates">{thread.dates}</div>
             {/* The intro's first sentence is the lead, set larger; the rest of
