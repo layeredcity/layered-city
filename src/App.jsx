@@ -1371,7 +1371,19 @@ function ReportProblem({ story }) {
     e.preventDefault()
     if (!message.trim()) return
     setState('sending')
-    const body = new URLSearchParams({ 'form-name': 'story-feedback', story: story.title || '', 'story-id': story.id, city: location.pathname.split('/')[1] || '', page: location.href, message, email })
+    // Field names must match the hidden form in index.html. They're kept
+    // distinct because Netlify's emails label fields by a tidied-up name
+    // ("story" and "story-id" both came out as "Story").
+    const body = new URLSearchParams({
+      'form-name': 'story-feedback',
+      title: story.title || '',
+      type: story.mediaType || '',
+      city: location.pathname.split('/')[1] || '',
+      page: location.href,
+      contentful: `https://app.contentful.com/spaces/yl6xhrcd616q/entries/${story.id}`,
+      message,
+      email,
+    })
     try {
       const r = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: body.toString() })
       setState(r.ok ? 'sent' : 'error')
