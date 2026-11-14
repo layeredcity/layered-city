@@ -542,125 +542,6 @@
     "image": "The Night Watch - Rembrandt Harmenszoon van Rijn.png"
   },
   {
-    "slug": "mozart",
-    "kind": "Artists",
-    "title": "Mozart",
-    "dates": "1756–1791",
-    "intro": [
-      "Wolfgang Amadeus Mozart was born in Salzburg in 1756 and spent much of his childhood on the road, shown off by his father to courts across Europe. As an adult he went where the opera commissions were, until he settled in Vienna in 1781 and tried to live without a court job.",
-      "This route follows him to the rooms where his music was first heard, most of which you can still sit in."
-    ],
-    "chapters": [
-      {
-        "city": "Vienna",
-        "place": "Schönbrunn Palace, Vienna",
-        "when": "1762",
-        "heading": "Playing for the empress",
-        "text": "At six, Mozart played for Empress Maria Theresa at Schönbrunn with his sister Nannerl. The family story is that he slipped on the polished floor, was helped up by the young Marie Antoinette, and announced he would marry her.",
-        "lat": 48.1849,
-        "lon": 16.3122,
-        "zoom": 13.5,
-        "stories": [
-          "6W3NhysKyybdD2CMffMAis"
-        ],
-        "image": "Schloss Schönbrunn Wien 2014 (Zuschnitt 1).jpg"
-      },
-      {
-        "city": "Rome",
-        "place": "Sistine Chapel, Rome",
-        "when": "April 1770",
-        "heading": "Writing down a secret",
-        "text": "Allegri’s Miserere was sung only in the Sistine Chapel in Holy Week, and copying it was forbidden. The fourteen-year-old Mozart heard it once and wrote it out from memory that evening. The Pope made him a knight a few months later.",
-        "lat": 41.9029,
-        "lon": 12.4545,
-        "zoom": 13.5,
-        "stories": [
-          "6wB3O2renv8wCDUrXei6TA"
-        ],
-        "image": "Pope Pius VII in the Sistine Chapel A29940.jpg"
-      },
-      {
-        "city": "Milan",
-        "place": "Palazzo Reale, Milan",
-        "when": "December 1770",
-        "heading": "His first big opera",
-        "text": "Milan’s court theatre, then inside the Palazzo Reale, commissioned an opera seria from a fourteen-year-old. Mitridate, re di Ponto ran for more than twenty nights. The theatre burned down in 1776, and La Scala was built to replace it.",
-        "lat": 45.4632,
-        "lon": 9.1912,
-        "zoom": 13.5,
-        "stories": [
-          "LywTyAAGXyrAMjAZ41ecz"
-        ],
-        "image": "Veduta di tre quarti del Palazzo Reale di Milano.jpg"
-      },
-      {
-        "city": "Munich",
-        "place": "Cuvilliés Theatre, Munich",
-        "when": "January 1781",
-        "heading": "Idomeneo",
-        "text": "Munich’s elector commissioned Idomeneo, and it opened in the little rococo Cuvilliés Theatre in the Residenz. A few months later Mozart quarrelled with his employer, the Archbishop of Salzburg, and was shown out of his service with a kick from the archbishop’s steward.",
-        "lat": 48.1408,
-        "lon": 11.5799,
-        "zoom": 14,
-        "stories": [
-          "5wciXTNBXjBinutQheFN55"
-        ],
-        "image": "Cuvilliés-Theater in Münchner Residenz.jpg"
-      },
-      {
-        "city": "Vienna",
-        "place": "Mozarthaus, Domgasse, Vienna",
-        "when": "1781–1791",
-        "heading": "Ten years in Vienna",
-        "text": "In Vienna he lived on concerts, teaching and commissions, and moved house more than a dozen times. The Domgasse apartment, the grandest, is where he wrote The Marriage of Figaro. He died in December 1791 at Rauhensteingasse, two streets away, with the Requiem unfinished.",
-        "lat": 48.2082,
-        "lon": 16.375,
-        "zoom": 14.5,
-        "stories": [
-          "4ku9q1nKTt1qjx0rs9n5xG",
-          "3UeLwNRVb4IlSBa8A14u5q",
-          "4V4B6QAzyHygskfV1xzzvM",
-          "33BiLGfv7kEcKMyxTVjBih",
-          "289Y9bXbGZ8a1K1P65yUPn",
-          "7nXDPInGKtxpYNSAzyimhf",
-          "2tP9kWGhjwFdPFxMxIEFTW"
-        ],
-        "tip": "The Mozarthaus museum keeps the Domgasse apartment’s rooms. St Stephen’s, where he married and where his funeral service was held, is around the corner.",
-        "image": "Wien 01 Domgasse a.jpg"
-      },
-      {
-        "city": "Prague",
-        "place": "Estates Theatre, Prague",
-        "when": "October 1787",
-        "heading": "The city that loved him most",
-        "text": "Figaro was a bigger hit in Prague than in Vienna, and Prague commissioned the next opera. Mozart conducted the premiere of Don Giovanni at the Estates Theatre on 29 October 1787. The theatre still stands and still plays Mozart.",
-        "lat": 50.086,
-        "lon": 14.4236,
-        "zoom": 14.5,
-        "stories": [
-          "C2D8z2QdiKd9lgQKT1twj",
-          "3aZcvrbA0EtgL3Ur0ilCqd"
-        ],
-        "image": "Stavovské divadlo 1b.jpg"
-      },
-      {
-        "city": "Seville",
-        "place": "Santa Cruz, Seville",
-        "when": "Never visited",
-        "heading": "A city he never saw",
-        "text": "Both Figaro and Don Giovanni are set in Seville, a city Mozart never went to. The Barber of Seville, the prequel to Figaro, was written later by Rossini, and Seville still points out balconies from both stories.",
-        "lat": 37.3842,
-        "lon": -5.9903,
-        "zoom": 14,
-        "stories": [
-          "1oobkiKK4RMep0kQHF5Sov"
-        ],
-        "image": "Jardines de la plaza de Santa Cruz.jpg"
-      }
-    ],
-    "image": "Mozart Family Croce.jpg"
-  },
-  {
     "slug": "picasso",
     "kind": "Artists",
     "title": "Picasso and Cubism",
@@ -788,6 +669,125 @@
       }
     ],
     "image": "Bateau-Lavoir face avant.jpg"
+  },
+  {
+    "slug": "mozart",
+    "kind": "Music",
+    "title": "Mozart",
+    "dates": "1756–1791",
+    "intro": [
+      "Wolfgang Amadeus Mozart was born in Salzburg in 1756 and spent much of his childhood on the road, shown off by his father to courts across Europe. As an adult he went where the opera commissions were, until he settled in Vienna in 1781 and tried to live without a court job.",
+      "This route follows him to the rooms where his music was first heard, most of which you can still sit in."
+    ],
+    "chapters": [
+      {
+        "city": "Vienna",
+        "place": "Schönbrunn Palace, Vienna",
+        "when": "1762",
+        "heading": "Playing for the empress",
+        "text": "At six, Mozart played for Empress Maria Theresa at Schönbrunn with his sister Nannerl. The family story is that he slipped on the polished floor, was helped up by the young Marie Antoinette, and announced he would marry her.",
+        "lat": 48.1849,
+        "lon": 16.3122,
+        "zoom": 13.5,
+        "stories": [
+          "6W3NhysKyybdD2CMffMAis"
+        ],
+        "image": "Schloss Schönbrunn Wien 2014 (Zuschnitt 1).jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Sistine Chapel, Rome",
+        "when": "April 1770",
+        "heading": "Writing down a secret",
+        "text": "Allegri’s Miserere was sung only in the Sistine Chapel in Holy Week, and copying it was forbidden. The fourteen-year-old Mozart heard it once and wrote it out from memory that evening. The Pope made him a knight a few months later.",
+        "lat": 41.9029,
+        "lon": 12.4545,
+        "zoom": 13.5,
+        "stories": [
+          "6wB3O2renv8wCDUrXei6TA"
+        ],
+        "image": "Pope Pius VII in the Sistine Chapel A29940.jpg"
+      },
+      {
+        "city": "Milan",
+        "place": "Palazzo Reale, Milan",
+        "when": "December 1770",
+        "heading": "His first big opera",
+        "text": "Milan’s court theatre, then inside the Palazzo Reale, commissioned an opera seria from a fourteen-year-old. Mitridate, re di Ponto ran for more than twenty nights. The theatre burned down in 1776, and La Scala was built to replace it.",
+        "lat": 45.4632,
+        "lon": 9.1912,
+        "zoom": 13.5,
+        "stories": [
+          "LywTyAAGXyrAMjAZ41ecz"
+        ],
+        "image": "Veduta di tre quarti del Palazzo Reale di Milano.jpg"
+      },
+      {
+        "city": "Munich",
+        "place": "Cuvilliés Theatre, Munich",
+        "when": "January 1781",
+        "heading": "Idomeneo",
+        "text": "Munich’s elector commissioned Idomeneo, and it opened in the little rococo Cuvilliés Theatre in the Residenz. A few months later Mozart quarrelled with his employer, the Archbishop of Salzburg, and was shown out of his service with a kick from the archbishop’s steward.",
+        "lat": 48.1408,
+        "lon": 11.5799,
+        "zoom": 14,
+        "stories": [
+          "5wciXTNBXjBinutQheFN55"
+        ],
+        "image": "Cuvilliés-Theater in Münchner Residenz.jpg"
+      },
+      {
+        "city": "Vienna",
+        "place": "Mozarthaus, Domgasse, Vienna",
+        "when": "1781–1791",
+        "heading": "Ten years in Vienna",
+        "text": "In Vienna he lived on concerts, teaching and commissions, and moved house more than a dozen times. The Domgasse apartment, the grandest, is where he wrote The Marriage of Figaro. He died in December 1791 at Rauhensteingasse, two streets away, with the Requiem unfinished.",
+        "lat": 48.2082,
+        "lon": 16.375,
+        "zoom": 14.5,
+        "stories": [
+          "4ku9q1nKTt1qjx0rs9n5xG",
+          "3UeLwNRVb4IlSBa8A14u5q",
+          "4V4B6QAzyHygskfV1xzzvM",
+          "33BiLGfv7kEcKMyxTVjBih",
+          "289Y9bXbGZ8a1K1P65yUPn",
+          "7nXDPInGKtxpYNSAzyimhf",
+          "2tP9kWGhjwFdPFxMxIEFTW"
+        ],
+        "tip": "The Mozarthaus museum keeps the Domgasse apartment’s rooms. St Stephen’s, where he married and where his funeral service was held, is around the corner.",
+        "image": "Wien 01 Domgasse a.jpg"
+      },
+      {
+        "city": "Prague",
+        "place": "Estates Theatre, Prague",
+        "when": "October 1787",
+        "heading": "The city that loved him most",
+        "text": "Figaro was a bigger hit in Prague than in Vienna, and Prague commissioned the next opera. Mozart conducted the premiere of Don Giovanni at the Estates Theatre on 29 October 1787. The theatre still stands and still plays Mozart.",
+        "lat": 50.086,
+        "lon": 14.4236,
+        "zoom": 14.5,
+        "stories": [
+          "C2D8z2QdiKd9lgQKT1twj",
+          "3aZcvrbA0EtgL3Ur0ilCqd"
+        ],
+        "image": "Stavovské divadlo 1b.jpg"
+      },
+      {
+        "city": "Seville",
+        "place": "Santa Cruz, Seville",
+        "when": "Never visited",
+        "heading": "A city he never saw",
+        "text": "Both Figaro and Don Giovanni are set in Seville, a city Mozart never went to. The Barber of Seville, the prequel to Figaro, was written later by Rossini, and Seville still points out balconies from both stories.",
+        "lat": 37.3842,
+        "lon": -5.9903,
+        "zoom": 14,
+        "stories": [
+          "1oobkiKK4RMep0kQHF5Sov"
+        ],
+        "image": "Jardines de la plaza de Santa Cruz.jpg"
+      }
+    ],
+    "image": "Mozart Family Croce.jpg"
   },
   {
     "slug": "opera",
