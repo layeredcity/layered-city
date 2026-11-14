@@ -1115,3 +1115,5 @@ html[data-vt] .panel-story { transition: none !important; }
 /* Filled step circles (chapter rail and map) use the logo red. */
 .thread-ch.is-active .thread-ch__num, .thread-marker.is-active { background: #EF4853; border-color: #EF4853; }
 .thread-marker.is-active { border-color: #fff; }
+/* Kicker sits 4px closer to the title (optical, not metric, spacing). */
+.thread-top .thread__title { margin-top: 10px; }
