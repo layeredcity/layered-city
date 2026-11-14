@@ -1731,7 +1731,7 @@ export default function App() {
     window.history.pushState({}, '', threadReturnPath.current || '/')
   }, [])
   useEffect(() => {
-    const onPop = () => { setOpenThreadSlug((window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null); setThreadStory(null) }
+    const onPop = () => { if (window.location.pathname.startsWith('/threads/')) setLeftTab('threads'); setOpenThreadSlug((window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null); setThreadStory(null) }
     window.addEventListener('popstate', onPop)
     return () => window.removeEventListener('popstate', onPop)
   }, [])
@@ -1843,6 +1843,20 @@ export default function App() {
     window.history.pushState({}, '', '/')
   }, [closeStoryWithFade])
 
+  // Tabs. About has its own URL and closes whatever else is open; leaving it
+  // goes back to the home URL.
+  const selectTab = useCallback(k => {
+    if (k === 'about') {
+      if (window.location.pathname !== '/about') {
+        goHome(); setMediaStory(null)
+        window.history.pushState({}, '', '/about')
+      }
+    } else if (window.location.pathname === '/about') {
+      window.history.pushState({}, '', '/')
+    }
+    setLeftTab(k)
+  }, [goHome])
+
   // URL is /{city} at the overview and /{city}/{section} once a section is open.
   const selectedCityRef = useRef(null)
   selectedCityRef.current = selectedCity
@@ -1900,7 +1914,12 @@ export default function App() {
         if (f) { setActiveFilter(f.label); setDetailView('stories') }
         else { setActiveFilter('All'); setDetailView('overview') }
       }
+      if (citySlug === 'about') {
+        closeStoryWithFade(); setSelectedCity(null); setStories([]); setFoods([]); setWords([])
+        setDetailView('overview'); setActiveFilter('All'); setMobileView('list'); setLeftTab('about'); return
+      }
       if (!citySlug) {
+        setLeftTab(t => t === 'about' ? 'cities' : t)
         closeStoryWithFade(); setSelectedCity(null); setStories([]); setFoods([]); setWords([])
         setDetailView('overview'); setActiveFilter('All'); setMobileView('list'); return
       }
@@ -2124,7 +2143,7 @@ export default function App() {
         </div>
         <div className="left-tabs" role="tablist">
           {[['cities', 'Cities'], ['threads', 'Threads'], ['about', 'About']].map(([k, label]) => (
-            <button key={k} type="button" role="tab" aria-selected={leftTab === k} className={'left-tabs__tab' + (leftTab === k ? ' is-active' : '')} onClick={() => setLeftTab(k)}>{label}</button>
+            <button key={k} type="button" role="tab" aria-selected={leftTab === k} className={'left-tabs__tab' + (leftTab === k ? ' is-active' : '')} onClick={() => selectTab(k)}>{label}</button>
           ))}
         </div>
         <div className="panel-cities__scroll" key={leftTab}>
