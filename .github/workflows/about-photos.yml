@@ -1,0 +1,27 @@
+# Copies Ryan's photos from ryannee.com into public/about/ as small WebP files.
+# Runs when the list in scripts/fetch-about-photos.mjs changes.
+name: About photos
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [scripts/fetch-about-photos.mjs]
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --no-save --no-package-lock sharp@0.33.5
+      - run: node scripts/fetch-about-photos.mjs
+      - run: |
+          git add public/about
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City about photos"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "About photos"
+          git pull --rebase origin main
+          git push origin HEAD:main

@@ -2199,6 +2199,11 @@ export default function App() {
                   {sec.paragraphs.map((p, j) => <p key={j} className="about__p">{p.replace('{cities}', cities.length || 'dozens of')}</p>)}
                 </section>
               ))}
+              <div className="about__photos">
+                <img className="about__photo about__photo--wide" src="/about/ryan-owl.webp" alt="Ryan holding an owl" width="900" height="675" loading="lazy" />
+                <img className="about__photo" src="/about/ali-ryan-italy.webp" alt="Ali and Ryan in Italy" width="900" height="677" loading="lazy" />
+                <img className="about__photo" src="/about/ali-ryan-wedding.webp" alt="Ali and Ryan on their wedding day" width="900" height="675" loading="lazy" />
+              </div>
             </div>
           )}
         </div>
