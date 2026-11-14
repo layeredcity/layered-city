@@ -1681,6 +1681,331 @@
     "image": "Eurovision Song Contest 2025 Stage.jpg"
   },
   {
+    "slug": "writers",
+    "kind": "Ideas",
+    "title": "Writers’ cities",
+    "dates": "1597–1996",
+    "intro": [
+      "Some books are inseparable from the city they were written in. You can stand where Bloom bought his soap or where Kafka filed his reports.",
+      "Each stop is one writer and the building or street most tied to them."
+    ],
+    "chapters": [
+      {
+        "city": "Seville",
+        "place": "Calle Sierpes, Seville",
+        "when": "1597",
+        "heading": "Cervantes in jail",
+        "text": "Miguel de Cervantes spent years in Seville as a tax collector and in 1597 was jailed in the Royal Prison on Calle Sierpes over missing money. In the prologue to Don Quixote he says the book was born in a prison. The thieves and card sharps of his Exemplary Stories work the same streets.",
+        "lat": 37.3898,
+        "lon": -5.9947,
+        "zoom": 15,
+        "stories": [
+          "3P9EbSsmdV1EUT9JdSMkpU",
+          "2aBkjF8CZYQ8pIKUGwlOHu"
+        ],
+        "image": "Calle Sierpes 02.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Shakespeare’s Globe, London",
+        "when": "1599–1613",
+        "heading": "Shakespeare’s Bankside",
+        "text": "The Globe opened on the south bank of the Thames in 1599, among bear pits and brothels outside the City’s control. Shakespeare wrote Hamlet, King Lear and Macbeth for it. It burned down in 1613 when a cannon fired during Henry VIII set the thatch alight. The reconstruction opened nearby in 1997.",
+        "lat": 51.5081,
+        "lon": -0.0972,
+        "zoom": 15,
+        "stories": [
+          "4vauzvkD0ZqTnLEUIGXUry",
+          "3OpjNTlJAUKeFcTCWW8HjK"
+        ],
+        "image": "London - Shakespeare's Globe Theatre Replica 1997.jpg"
+      },
+      {
+        "city": "Edinburgh",
+        "place": "Writers’ Museum, Edinburgh",
+        "when": "1786–1787",
+        "heading": "Burns comes to town",
+        "text": "Robert Burns arrived in Edinburgh in 1786, a ploughman from Ayrshire whose first book of poems had just made him famous. The city’s salons took him up for a season. The Writers’ Museum, in a close off the Royal Mile, keeps his desk along with relics of Walter Scott and Robert Louis Stevenson.",
+        "lat": 55.9497,
+        "lon": -3.1937,
+        "zoom": 15,
+        "stories": [
+          "7JLsEQDLCLZYycT4Lf81XU",
+          "7Gfstx3xWZWnbo3LhUnnzr"
+        ],
+        "image": "Edinburgh - Edinburgh, Lawnmarket, Lady Stair's Close, Lady Stair's House - 20140421142708.jpg"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "Nyhavn, Copenhagen",
+        "when": "1819–1875",
+        "heading": "Andersen",
+        "text": "Hans Christian Andersen, a cobbler’s son, came to Copenhagen at fourteen to be an actor and failed. He wrote The Little Mermaid, The Snow Queen and more than 150 other tales instead, and lived in three different houses on Nyhavn.",
+        "lat": 55.6798,
+        "lon": 12.5913,
+        "zoom": 15,
+        "stories": [
+          "1VlDmC0LGNmeonEAPco8Zq"
+        ],
+        "image": "Kopenhagen (DK), Nyhavn -- 2017 -- 1711.jpg"
+      },
+      {
+        "city": "Oslo",
+        "place": "Ibsen’s apartment, Oslo",
+        "when": "1891–1906",
+        "heading": "Ibsen comes home",
+        "text": "Henrik Ibsen wrote A Doll’s House and Ghosts in Italy and Germany, in a self-imposed exile of 27 years. He came back to Kristiania, now Oslo, in 1891, walked every day to the Grand Café, and spent his last years in an apartment on Arbins gate, now a museum.",
+        "lat": 59.9152,
+        "lon": 10.727,
+        "zoom": 15,
+        "stories": [
+          "6RyWIxB35kHEgOTsI05u3y"
+        ],
+        "image": "Ibsen museum Oslo.jpg"
+      },
+      {
+        "city": "Dublin",
+        "place": "Sweny’s Pharmacy, Dublin",
+        "when": "16 June 1904",
+        "heading": "One day in Dublin",
+        "text": "James Joyce left Dublin in 1904 and never lived there again, but Ulysses follows one day there, 16 June 1904, street by street. It opens in the Martello tower at Sandycove. Leopold Bloom buys lemon soap at Sweny’s, which still sells it. Bloomsday is celebrated on the date every year.",
+        "lat": 53.3419,
+        "lon": -6.2506,
+        "zoom": 13,
+        "stories": [
+          "71EPA6h771Mv3e11siaZYa",
+          "HuMReZwX5UeeMYb40GSR9",
+          "6uEy95ydn8XSy04pCCJdRc"
+        ],
+        "image": "Sweny's pharmacy, Lincoln Place, Dublin, Ireland 11.jpg"
+      },
+      {
+        "city": "Prague",
+        "place": "Workers’ Accident Insurance Institute, Prague",
+        "when": "1908–1922",
+        "heading": "Kafka at the office",
+        "text": "Franz Kafka spent fourteen years as a lawyer at the Workers’ Accident Insurance Institute, assessing injury claims and writing reports on factory safety. He wrote at night: The Metamorphosis, The Trial, The Castle. Before he died in 1924 he asked his friend Max Brod to burn the manuscripts. Brod published them.",
+        "lat": 50.0894,
+        "lon": 14.4312,
+        "zoom": 15,
+        "stories": [
+          "5KGy2yIgGAlYw269YEXeLr",
+          "3Z9CckgMCDis32tm3qTjf4"
+        ],
+        "image": "Na poříčí, Na Florenci, od Těšnova.jpg"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Casa Fernando Pessoa, Lisbon",
+        "when": "1914–1935",
+        "heading": "Pessoa’s many names",
+        "text": "Fernando Pessoa worked as a commercial translator in Lisbon and wrote under dozens of invented names, each with its own biography and style. Almost none of it was published in his lifetime. After he died a trunk of more than 25,000 pages was found. His last flat in Campo de Ourique is now a museum.",
+        "lat": 38.7167,
+        "lon": -9.1624,
+        "zoom": 14,
+        "stories": [
+          "14OEq2oN7oZ7vJug09I2SU",
+          "1nWiinTyT5BXvWHkDbzFTT"
+        ],
+        "image": "Casa Fernando Pessoa.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Shakespeare and Company, Paris",
+        "when": "1921–1926",
+        "heading": "Hemingway’s Paris",
+        "text": "Ernest Hemingway lived in Paris in the early 1920s as a newspaper correspondent, borrowing books from Sylvia Beach’s Shakespeare and Company and writing in cafés. A Moveable Feast, published after his death, is his account of those years. The present shop by Notre-Dame took the name in 1964.",
+        "lat": 48.8526,
+        "lon": 2.3471,
+        "zoom": 13,
+        "stories": [
+          "43NB49fQSbZykpdYnCd9Gt",
+          "6GCLThKVxMNSKK4bgtxtef"
+        ],
+        "image": "Shakespeare and Company, Paris.jpg"
+      },
+      {
+        "city": "Kraków",
+        "place": "Writers’ House, Kraków",
+        "when": "1945–2012",
+        "heading": "Szymborska",
+        "text": "Wisława Szymborska lived most of her life in Kraków, at first in the communal writers’ house on Krupnicza Street. She published few poems, short and dry and funny, and won the Nobel Prize in 1996. She found the fame that followed hard to bear.",
+        "lat": 50.0623,
+        "lon": 19.9283,
+        "zoom": 15,
+        "stories": [
+          "7NZmF3Z75SzBENED6ilqB",
+          "4ryEYJQM8ui5qh6xOyuxEs"
+        ],
+        "image": "Krupnicza street, view to W, Kraków, Poland.jpg"
+      }
+    ],
+    "image": "The interior of Sweny's pharmacy, Lincoln Place, Dublin, Ireland 02.jpg"
+  },
+  {
+    "slug": "science",
+    "kind": "Ideas",
+    "title": "Scientists",
+    "dates": "1491–1941",
+    "intro": [
+      "Many of the ideas that changed how we see the world were worked out in a few European rooms, often by people who had to move to find them.",
+      "The stops follow science from Copernicus’s student years to Bohr’s institute in occupied Copenhagen."
+    ],
+    "chapters": [
+      {
+        "city": "Kraków",
+        "place": "Collegium Maius, Kraków",
+        "when": "1491–1495",
+        "heading": "Copernicus",
+        "text": "Nicolaus Copernicus studied at the university in Kraków in the early 1490s, where astronomy was taught well. Half a century later his book arguing that the earth goes around the sun was published as he died, in 1543. The university’s oldest building, the Collegium Maius, keeps instruments from his time.",
+        "lat": 50.0616,
+        "lon": 19.9339,
+        "zoom": 15,
+        "stories": [
+          "2GZT1Z3l4i2QJPai1gECT8"
+        ],
+        "image": "Courtyard of the Collegium Maius (Kraków), 2019.jpg"
+      },
+      {
+        "city": "Prague",
+        "place": "Týn Church, Prague",
+        "when": "1599–1612",
+        "heading": "Tycho and Kepler",
+        "text": "The Danish astronomer Tycho Brahe, who had lost part of his nose in a duel, came to Prague in 1599 as Rudolf II’s imperial mathematician. He hired a young Johannes Kepler and died in 1601. Kepler used Tycho’s observations to work out that the planets move in ellipses. Tycho is buried in the Týn Church.",
+        "lat": 50.0876,
+        "lon": 14.4225,
+        "zoom": 15,
+        "stories": [
+          "5opk4gfseVC1XIFaZ68JJl",
+          "6ca7V2hP9VaiK2xUfMeY8h",
+          "7yTQgm9u8aKPQO06PqxWEL"
+        ],
+        "image": "Praha Týn Church Interior 02.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Museo Galileo, Florence",
+        "when": "1610–1642",
+        "heading": "Galileo’s telescopes",
+        "text": "Galileo turned a telescope on the sky in 1609 and found four moons circling Jupiter. He named them after the Medici, and the next year they made him court mathematician in Florence. Two of his telescopes are in the Museo Galileo, along with a finger taken from his body when it was moved in 1737.",
+        "lat": 43.7677,
+        "lon": 11.256,
+        "zoom": 15,
+        "stories": [
+          "1CpbB2z30GfeaDsciflWia",
+          "6lleltZljWQ9VujeLNY3i4"
+        ],
+        "image": "Galilei telescopes, Museo Galileo, Florence, Inv. 242, 2428, 224088.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Royal Observatory, Greenwich",
+        "when": "1675–1884",
+        "heading": "Longitude",
+        "text": "Charles II founded the Royal Observatory in 1675 to chart the stars well enough for ships to find their longitude. Christopher Wren, an astronomer before he was an architect, designed it. From 1833 a ball on its roof dropped every day at one o’clock so ships on the Thames could set their clocks. In 1884 the world agreed to measure longitude from here.",
+        "lat": 51.4768,
+        "lon": -0.0005,
+        "zoom": 14,
+        "stories": [
+          "38xgdvv7xj4Mjg9pW2iz5P",
+          "2LUO9HtYdjAEXNOARIn6N"
+        ],
+        "image": "View of the Royal Observatory Greenwich from One Tree Hill in Greenwich Park, London, 20260719 0940 4508.jpg"
+      },
+      {
+        "city": "Stockholm",
+        "place": "Vinterviken and the Nobel Prize Museum, Stockholm",
+        "when": "1864–1901",
+        "heading": "Nobel",
+        "text": "Alfred Nobel’s experiments with nitroglycerin killed his younger brother in Stockholm in 1864, and the city banned him. He moved his work to a barge and then to Vinterviken, invented dynamite and grew rich. His will left most of his fortune to prizes, first awarded in 1901.",
+        "lat": 59.3106,
+        "lon": 17.9861,
+        "zoom": 13,
+        "stories": [
+          "6bFVV3Fs4llKwxeoqIhsi3",
+          "7zgGY4NpRxy9g7RNTS06wV",
+          "4e8qny4Zvrjp5zN9SJS1dO"
+        ],
+        "image": "Stockholm - Nobel Prize Museum - April 2019.jpg"
+      },
+      {
+        "city": "Warsaw",
+        "place": "Freta Street, Warsaw",
+        "when": "1867–1911",
+        "heading": "Maria Skłodowska",
+        "text": "Maria Skłodowska was born on Freta Street in 1867, in Russian-ruled Warsaw, and studied at the illegal Flying University because women could not go to the real one. She moved to Paris in 1891. As Marie Curie she won the Nobel Prize for physics in 1903 and for chemistry in 1911.",
+        "lat": 52.2524,
+        "lon": 21.0089,
+        "zoom": 15,
+        "stories": [
+          "5PyVz8yFEX1k0JcN0z0LFy",
+          "1LFc7xSjPbGg0hI8tmKu4n"
+        ],
+        "image": "Maria Skłodowska-Curie Museum (9632829844).jpg"
+      },
+      {
+        "city": "Vienna",
+        "place": "Berggasse 19, Vienna",
+        "when": "1891–1938",
+        "heading": "Freud",
+        "text": "Sigmund Freud lived and saw patients at Berggasse 19 for 47 years. The Interpretation of Dreams came out in 1899. In 1938, after Germany annexed Austria, he left for London with the famous couch. The Vienna flat is a museum; the couch is in London.",
+        "lat": 48.2186,
+        "lon": 16.3631,
+        "zoom": 15,
+        "stories": [
+          "1Kp1dS6iUxMPLkIJHscIfw",
+          "1w9SfWRnv3wtqbOQbIGmVp",
+          "4Ddb6GCpHfCZB0GNaCivLK"
+        ],
+        "image": "Berggasse Freud Museum 01.jpg"
+      },
+      {
+        "city": "Zurich",
+        "place": "ETH Zurich",
+        "when": "1896–1914",
+        "heading": "Einstein",
+        "text": "Albert Einstein trained as a physics teacher at the Zurich Polytechnic, now ETH, from 1896, and could not get an academic job after. He wrote his papers of 1905, including special relativity, while working in the patent office in Bern. Zurich gave him professorships in 1909 and 1912 before he left for Berlin.",
+        "lat": 47.3763,
+        "lon": 8.548,
+        "zoom": 15,
+        "stories": [
+          "2Rx5WGyloSwfpW1iXSCiQ5"
+        ],
+        "image": "ETH Zurich, Main building.jpg"
+      },
+      {
+        "city": "Manchester",
+        "place": "Rutherford Building, Manchester",
+        "when": "1907–1919",
+        "heading": "The nucleus",
+        "text": "Ernest Rutherford ran the physics laboratory at Manchester for twelve years. In 1911 he showed that an atom has a tiny, dense nucleus, from experiments firing particles at gold foil, and in 1917 he became the first to change one element into another. Graphene was isolated in the same university in 2004.",
+        "lat": 53.4672,
+        "lon": -2.233,
+        "zoom": 14,
+        "stories": [
+          "2ojDFI2fs22YvXwtZmSpX9",
+          "5PV15F5hllLHYuSk61Y32X"
+        ],
+        "image": "Front Entrance of the Rutherford building.jpg"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "Niels Bohr Institute, Copenhagen",
+        "when": "1921–1943",
+        "heading": "Bohr’s institute",
+        "text": "Niels Bohr’s institute on Blegdamsvej opened in 1921 and became the centre of quantum physics, with young physicists visiting from all over the world. In September 1941 Werner Heisenberg, by then working on Germany’s atomic programme, came to see Bohr in occupied Copenhagen. Nobody knows exactly what was said. Bohr escaped to Sweden in 1943.",
+        "lat": 55.6968,
+        "lon": 12.5716,
+        "zoom": 14,
+        "stories": [
+          "4TRrnUwCJAAWchGGi4Njeg"
+        ],
+        "image": "Niels Bohr Institutet 02.jpg"
+      }
+    ],
+    "image": "An Experiment on a Bird in the Air Pump.jpg"
+  },
+  {
     "slug": "disasters",
     "kind": "History",
     "title": "Fire, flood and earthquake",
@@ -3057,6 +3382,485 @@
     "image": "Youth, Paris - UNESCO - PHOTO0000001264 0001.tiff"
   },
   {
+    "slug": "queens",
+    "kind": "History",
+    "title": "Queens",
+    "dates": "1343–1898",
+    "intro": [
+      "Most of Europe’s thrones passed to sons, so a woman who ruled usually got there by accident, by marriage or by outliving the men around her.",
+      "Each stop is one queen and the room, church or square where her reign turned. Several of them ended badly."
+    ],
+    "chapters": [
+      {
+        "city": "Naples",
+        "place": "Castel Nuovo, Naples",
+        "when": "1343–1382",
+        "heading": "Joanna I",
+        "text": "Joanna inherited Naples at sixteen. Her first husband, Andrew of Hungary, was strangled in 1345, and many blamed her. She married three more times and ruled for nearly forty years from the Castel Nuovo, until a cousin with Hungarian backing took the city and had her killed in 1382.",
+        "lat": 40.8385,
+        "lon": 14.2527,
+        "zoom": 14,
+        "stories": [
+          "y0X88XQqDMv5P4y6StadQ"
+        ],
+        "image": "Castel Nuovo (Maschio Angioino), Entrance, Naples (5257).jpg"
+      },
+      {
+        "city": "Kraków",
+        "place": "Wawel Cathedral, Kraków",
+        "when": "1384–1399",
+        "heading": "Crowned king",
+        "text": "Jadwiga was about ten when she was crowned in Wawel Cathedral, with the title king, since Polish law had no place for a reigning queen. Her marriage to Jogaila of Lithuania joined the two countries for four centuries. She left her jewels to refound Kraków’s university.",
+        "lat": 50.0543,
+        "lon": 19.9356,
+        "zoom": 15,
+        "stories": [
+          "4BRJQQN76kpVeskEhKSRGQ"
+        ],
+        "image": "Kraków - Wawel Cathedral - 20240418010646.jpg"
+      },
+      {
+        "city": "Seville",
+        "place": "Real Alcázar, Seville",
+        "when": "1474–1504",
+        "heading": "Isabella of Castile",
+        "text": "Isabella and her husband Ferdinand held court in Seville’s Alcázar. In the 1480s and 1490s they set up the Spanish Inquisition, finished the conquest of Granada, expelled Spain’s Jews and paid for Columbus’s first voyage. The trade house that ran the Americas opened in the palace in 1503.",
+        "lat": 37.3831,
+        "lon": -5.9902,
+        "zoom": 15,
+        "stories": [
+          "5zwC8wQKYx3YjfBLwf3EP7"
+        ],
+        "image": "Baths of Maria de Padilla, Alcázar of Seville.jpg"
+      },
+      {
+        "city": "Istanbul",
+        "place": "Hürrem Sultan Hamam, Istanbul",
+        "when": "c. 1520–1558",
+        "heading": "Hürrem",
+        "text": "She was captured as a girl in what is now Ukraine and sold into the harem of Süleyman the Magnificent. He freed and married her, which no sultan had done for centuries, and she became an adviser and a builder. Mimar Sinan designed the bathhouse near Hagia Sophia that carries her name.",
+        "lat": 41.0073,
+        "lon": 28.9791,
+        "zoom": 15,
+        "stories": [
+          "4qKMrhOTJBPKyyX6mbFwq0",
+          "5njnfPt86rI3yuF6RFMRsz"
+        ],
+        "image": "İstanbul - Ayasofya Hürrem Sultan Hamamı r3 - Şub 2013.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Palazzo Medici Riccardi, Florence",
+        "when": "1519–1589",
+        "heading": "Catherine de’ Medici",
+        "text": "Catherine was born in the Medici palace in 1519 and orphaned within weeks. At fourteen she was married to the future Henry II of France. After his death she ruled through three of her sons for thirty years of religious war, and was blamed for the St Bartholomew’s Day massacre of 1572.",
+        "lat": 43.7752,
+        "lon": 11.2557,
+        "zoom": 15,
+        "stories": [
+          "1HVc3iEr7iQ5J2jnyLAuGc"
+        ],
+        "image": "Courtyard of Palazzo Medici-Riccardi.jpg"
+      },
+      {
+        "city": "Edinburgh",
+        "place": "Palace of Holyroodhouse, Edinburgh",
+        "when": "1561–1567",
+        "heading": "Mary, Queen of Scots",
+        "text": "Mary came back from France in 1561 to a Protestant Scotland. In 1566 her secretary David Rizzio was stabbed to death in her supper room at Holyrood, with her husband Darnley among the plotters. A year later Darnley’s house blew up and he was found strangled. She was forced to abdicate that summer.",
+        "lat": 55.9529,
+        "lon": -3.172,
+        "zoom": 14.5,
+        "stories": [
+          "72M10LDr4ct5aKgE9ZLkvS",
+          "14fVk2M4hZ78xn2y8uWwu8",
+          "1LrSmnWSyY0VEwFOlUVU7e"
+        ],
+        "image": "Palace of Holyroodhouse quadrangle Edinburgh 2025 dllu.jpg"
+      },
+      {
+        "city": "Stockholm",
+        "place": "Storkyrkan, Stockholm",
+        "when": "1632–1654",
+        "heading": "Christina of Sweden",
+        "text": "Christina became queen at six when her father died in battle. She was crowned king in Storkyrkan in 1650, brought Descartes to her court, and refused to marry. In 1654 she gave up the throne, became a Catholic and moved to Rome, where she is buried in St Peter’s.",
+        "lat": 59.3258,
+        "lon": 18.0706,
+        "zoom": 15,
+        "stories": [
+          "74QzwmZagFoGduCQbDxexP"
+        ],
+        "image": "Stockholm Storkyrkan Innen Grabmal.JPG"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "Christiansborg, Copenhagen",
+        "when": "1766–1772",
+        "heading": "Caroline Matilda",
+        "text": "George III’s sister was married at fifteen to Christian VII of Denmark, who was mentally ill. She and the king’s doctor, Johann Struensee, ran the country together and passed hundreds of reforms. A coup in 1772 ended it. Struensee was executed, and she was divorced and sent away. She died at 23.",
+        "lat": 55.6759,
+        "lon": 12.5797,
+        "zoom": 15,
+        "stories": [
+          "DKXqL6R9aUFssuTOj0QJl",
+          "6T6AFL8zuHFI5Cg7gHqqF0"
+        ],
+        "image": "2018 - Christiansborg from the Marble Bridge.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Versailles and the Conciergerie, Paris",
+        "when": "1770–1793",
+        "heading": "Marie Antoinette",
+        "text": "A daughter of Maria Theresa, she was sent from Vienna at fourteen to marry the future Louis XVI. At Versailles she became the face of everything the Revolution hated. After the monarchy fell she spent her last weeks in the Conciergerie prison, and was guillotined in October 1793.",
+        "lat": 48.8044,
+        "lon": 2.1202,
+        "zoom": 12,
+        "stories": [
+          "4sccvryvnxQf5YaQeS2TBt",
+          "4JZChCkvDezYAsmqGspOIX",
+          "SL3b98oHE2il51udhn6Ya"
+        ],
+        "image": "Paris, Conciergerie -- 2014 -- 1320.jpg"
+      },
+      {
+        "city": "Vienna",
+        "place": "Hofburg and Schönbrunn, Vienna",
+        "when": "1854–1898",
+        "heading": "Sisi",
+        "text": "Elisabeth of Bavaria married Franz Joseph at sixteen and never settled at the Viennese court. She travelled constantly, rode, fenced, kept to punishing diets and was much loved in Hungary. An Italian anarchist stabbed her with a sharpened file on the lakefront in Geneva in 1898.",
+        "lat": 48.2077,
+        "lon": 16.3659,
+        "zoom": 13,
+        "stories": [
+          "4ppwwY1ygPSCntXH1X26pd",
+          "7GWMsVWxU3u7684khMgoUU",
+          "6W3NhysKyybdD2CMffMAis"
+        ],
+        "image": "Schoenbrunn Palace as seen from Neptune Fountain, September 2016.jpg"
+      }
+    ],
+    "image": "John Opie (1761-1807) - The Murder of Rizzio - 49 - Guildhall Art Gallery.jpg"
+  },
+  {
+    "slug": "resistance",
+    "kind": "History",
+    "title": "Resistance",
+    "dates": "1940–1944",
+    "intro": [
+      "Under Nazi rule most people kept their heads down. Some wrote leaflets, hid neighbours, forged papers or took up guns.",
+      "The stops run from Berlin itself to occupied capitals across Europe, ending with the summer and autumn of 1944."
+    ],
+    "chapters": [
+      {
+        "city": "Berlin",
+        "place": "Rosenstraße, Berlin",
+        "when": "1940–1943",
+        "heading": "In the capital",
+        "text": "Otto and Elise Hampel, a working couple, spent two years leaving anti-Hitler postcards in Berlin stairwells until they were caught and beheaded in 1943. Hans Fallada turned their story into Alone in Berlin. That same year, women stood for days outside a building on Rosenstraße until the Jewish husbands held inside were released.",
+        "lat": 52.5063,
+        "lon": 13.2952,
+        "zoom": 13,
+        "stories": [
+          "7CSGWxJZtxPDmjHqIjrsMu",
+          "1tI1bHddGhNzOZ8rhFsCKA",
+          "5HAxcPeR1eItV2V3GjGdJe"
+        ],
+        "image": "Rosenstraße-Protest.jpg"
+      },
+      {
+        "city": "Athens",
+        "place": "Kaisariani, Athens",
+        "when": "1941–1944",
+        "heading": "Hunger and the flag",
+        "text": "Germany occupied Greece in April 1941, and that winter tens of thousands starved in Athens. In May 1941 two students climbed the Acropolis at night and pulled down the swastika flag. The resistance grew into one of the largest in Europe. On 1 May 1944 the Germans shot 200 prisoners at the Kaisariani firing range.",
+        "lat": 37.9658,
+        "lon": 23.7587,
+        "zoom": 13,
+        "stories": [
+          "4rEIl6JBgMDVG00ndQHdfp",
+          "2Lp1CKqnbMXX2v2jGNa6Yo"
+        ],
+        "image": "Kaisariani skopeftirio 1.jpg"
+      },
+      {
+        "city": "Warsaw",
+        "place": "Warsaw Zoo and the Arsenal, Warsaw",
+        "when": "1939–1944",
+        "heading": "The zoo and the scouts",
+        "text": "Jan Żabiński, director of the Warsaw Zoo, and his wife Antonina hid around 300 Jews over the war in empty animal enclosures and their own villa. In March 1943 Home Army scouts ambushed a Gestapo truck by the old Arsenal to free a captured friend, an action later retold in Stones for the Rampart.",
+        "lat": 52.2585,
+        "lon": 21.024,
+        "zoom": 13,
+        "stories": [
+          "38rArSnMMgrCVUY0w0WkkH",
+          "6Dbgem6LsRJcSq28Km6zrP"
+        ],
+        "image": "Willa żabińskich róg płnwsch.jpg"
+      },
+      {
+        "city": "Munich",
+        "place": "Ludwig Maximilian University, Munich",
+        "when": "February 1943",
+        "heading": "The White Rose",
+        "text": "A handful of Munich students and a professor printed leaflets calling Germans to resist. On 18 February 1943 Hans and Sophie Scholl scattered copies into the university’s atrium from the floor above, and a caretaker saw them. They were tried and beheaded four days later.",
+        "lat": 48.1508,
+        "lon": 11.5803,
+        "zoom": 15,
+        "stories": [
+          "2BYcN1OY18KBpBnQDk7SRw",
+          "1Zm3Ae88ySL0DTKsyOvyKp"
+        ],
+        "tip": "A memorial of bronze leaflets is set into the pavement outside the main university building.",
+        "image": "20230122 Hauptgebäude der Ludwig-Maximilians-Universität München.jpg"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "Mindelunden, Copenhagen",
+        "when": "1943–1944",
+        "heading": "Flame and Citron",
+        "text": "Denmark was occupied with a light touch until 1943, when the government resigned and resistance grew. Two young members of the Holger Danske group, known as Flame and Citron, shot informers and collaborators in Copenhagen. Both were dead by October 1944. Executed resistance fighters are buried at Mindelunden in Ryvangen.",
+        "lat": 55.7221,
+        "lon": 12.5669,
+        "zoom": 13,
+        "stories": [
+          "5GWqwfXba8jyUXL2jfkNUm"
+        ],
+        "image": "Mindelunden i Ryvangen - grave-1.jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Fosse Ardeatine, Rome",
+        "when": "1943–1944",
+        "heading": "Open city",
+        "text": "Germany occupied Rome in September 1943. In March 1944 partisans bombed an SS column on Via Rasella, and the next day the Germans shot 335 men and boys in caves on the Via Ardeatina. Priests hid Jews and escaped prisoners in convents and Vatican buildings. Rossellini filmed Rome, Open City in the same streets in 1945.",
+        "lat": 41.8572,
+        "lon": 12.5105,
+        "zoom": 12,
+        "stories": [
+          "4UFUZMHIb16lV5IokYbXq2",
+          "7Bx4yN4HdczAff1ooYsUBs",
+          "1m8NSBhWGHJIgWIFrdrhu6"
+        ],
+        "image": "Mausoelum Fosse Ardeatine.JPG"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Dutch Resistance Museum, Amsterdam",
+        "when": "1942–1945",
+        "heading": "Hiding and fighting",
+        "text": "Anne Frank’s family hid behind a bookcase on the Prinsengracht for two years before they were betrayed in August 1944. Others fought: the teenage Oversteegen sisters lured collaborators to be shot, and the banker Walraven van Hall funded the resistance with money taken from the central bank. The Hunger Winter of 1944–45 killed about 20,000.",
+        "lat": 52.3678,
+        "lon": 4.9128,
+        "zoom": 13,
+        "stories": [
+          "1tSU3FACSQ5RQF7NiZyroK",
+          "3cKtUKyjNjknu4pPYFm9rI",
+          "FnP2fhfva7aLi7QapZe1R",
+          "1F1titZze82q9VKBPBWZRK"
+        ],
+        "image": "Verzetsmuseum Amsterdam entrance Oct 2011.JPG"
+      },
+      {
+        "city": "Paris",
+        "place": "Hôtel de Ville, Paris",
+        "when": "August 1944",
+        "heading": "Liberation",
+        "text": "On 19 August 1944, with Allied armies close, the Paris resistance rose. Fighters took the Hôtel de Ville and Colonel Rol-Tanguy ran the uprising from a bunker under Place Denfert-Rochereau. Hitler ordered the city wrecked. On 25 August the German commander surrendered it intact.",
+        "lat": 48.8566,
+        "lon": 2.3518,
+        "zoom": 13,
+        "stories": [
+          "4NoSSna64pL1Tco7DFof5c",
+          "5wM2bjMHeWjorwRE12VQHH",
+          "2wKvbOriKuBZUqrwPPpO0A"
+        ],
+        "image": "Crowds of French patriots line the Champs Elysees-edit2.jpg"
+      },
+      {
+        "city": "Budapest",
+        "place": "Danube bank, Budapest",
+        "when": "1944",
+        "heading": "The last months",
+        "text": "Hungary was Germany’s ally until March 1944, when the Germans occupied it and began deporting its Jews. Hannah Szenes, a Budapest-born poet, parachuted in from Palestine with the British and was caught and shot in November. Pinchas Rosenbaum put on a stolen Arrow Cross uniform to pull people out of the deportation lines.",
+        "lat": 47.5027,
+        "lon": 19.0447,
+        "zoom": 13,
+        "stories": [
+          "3dA18diirRLdOYL9894NRu",
+          "3DvOubvg8TTvLz7dbZNtmY"
+        ],
+        "image": "Girl contemplates Shoes on the Danube Bank (Budapest, Hungary).jpg"
+      }
+    ],
+    "image": "Press used by the Dutch resistance (25671677677).jpg"
+  },
+  {
+    "slug": "dictators",
+    "kind": "History",
+    "title": "Dictators",
+    "dates": "1908–1989",
+    "intro": [
+      "Twentieth-century Europe produced dictators of every kind, and most of them left buildings behind: palaces, balconies, prisons, a bunker.",
+      "Each stop is one regime and the places where it started or ended."
+    ],
+    "chapters": [
+      {
+        "city": "Vienna",
+        "place": "Meldemannstraße, Vienna",
+        "when": "1908–1913",
+        "heading": "Hitler’s apprenticeship",
+        "text": "The young Hitler moved to Vienna hoping to study painting and was turned down twice by the Academy. He lived in cheap lodgings and a men’s hostel, selling watercolours of city sights, and soaked up the populism of the mayor, Karl Lueger, along with pan-German politics and everyday antisemitism. He left for Munich in 1913.",
+        "lat": 48.24,
+        "lon": 16.3776,
+        "zoom": 13,
+        "stories": [
+          "2xH8xlZv0IbnM8q35t5WZw",
+          "4vpcEJW9kY5qAT8v3wOGx2"
+        ],
+        "image": "Wohnhausanlage Meldemannstraße 2–4 IMG 3597.jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Palazzo Venezia, Rome, and Piazzale Loreto, Milan",
+        "when": "1919–1945",
+        "heading": "Mussolini",
+        "text": "Mussolini founded the Fascist movement at a meeting on Milan’s Piazza San Sepolcro in 1919 and took power three years later. He ruled from Palazzo Venezia in Rome and spoke to crowds from its balcony. His own Grand Council voted him out in July 1943. Partisans shot him in April 1945 and hung his body in Milan’s Piazzale Loreto.",
+        "lat": 41.896,
+        "lon": 12.4818,
+        "zoom": 12,
+        "stories": [
+          "694HhSxBz8TtZA1YH49s3u",
+          "7pTi57JvUilFYsLUQreyU0",
+          "35HVtzrXrnezS5Fmxz38Lm",
+          "2ReuRwovJxVIABlterZ9nb"
+        ],
+        "points": [
+          {
+            "label": "Rome",
+            "lat": 41.896,
+            "lon": 12.4818
+          },
+          {
+            "label": "Milan",
+            "lat": 45.4858,
+            "lon": 9.2163
+          }
+        ],
+        "image": "Palazzo Venezia (Rome) - Exterior.jpg"
+      },
+      {
+        "city": "Lisbon",
+        "place": "Aljube Museum, Lisbon",
+        "when": "1932–1974",
+        "heading": "Salazar",
+        "text": "António de Oliveira Salazar, an economics professor, ran Portugal for 36 years. His secret police, the PIDE, held political prisoners in the Aljube jail by the cathedral. He kept Portugal out of the Second World War and fought long colonial wars in Africa. Young officers ended the regime in April 1974.",
+        "lat": 38.7102,
+        "lon": -9.1326,
+        "zoom": 13,
+        "stories": [
+          "6Vngr4gfudNu17hbkIgEBs",
+          "1GM8OZjgIJUjQgK9xsyQ6w",
+          "4MvUQ8msWQl0dyrRx3jdIS"
+        ],
+        "image": "Museu do Aljube.jpg"
+      },
+      {
+        "city": "Madrid",
+        "place": "Almudena Cemetery, Madrid",
+        "when": "1939–1975",
+        "heading": "Franco",
+        "text": "Franco won the Civil War in 1939 and ruled until he died in bed in 1975. Tens of thousands were executed in the years after the war, many against the wall of Madrid’s Almudena cemetery. Spain agreed after his death not to prosecute the crimes of the regime, and the families of the dead are still pushing against that silence.",
+        "lat": 40.4193,
+        "lon": -3.6332,
+        "zoom": 12,
+        "stories": [
+          "2J9tDkpdr7wWAnrcogWElF",
+          "5pK0fg6tm0VuYLcFtSzWST",
+          "5GFbeHAxY6dZJ01b82a9V1"
+        ],
+        "image": "Cementerio de la Almudena (28227025725).jpg .jpg"
+      },
+      {
+        "city": "Oslo",
+        "place": "Villa Grande, Oslo",
+        "when": "1940–1945",
+        "heading": "Quisling",
+        "text": "Vidkun Quisling urged Hitler to occupy Norway and announced himself prime minister on the day of the invasion. He led the puppet government from 1942 from a villa on the Bygdøy peninsula that he called Gimle. He was shot for treason in October 1945, and his surname became a word for traitor.",
+        "lat": 59.9075,
+        "lon": 10.687,
+        "zoom": 13,
+        "stories": [
+          "4vF7yd0OxggnXNm0L2xOBI"
+        ],
+        "image": "Villa grande oslo.jpg"
+      },
+      {
+        "city": "Berlin",
+        "place": "Site of the Führerbunker, Berlin",
+        "when": "April 1945",
+        "heading": "The bunker",
+        "text": "Hitler spent his last weeks underground beneath the Reich Chancellery garden as the Red Army fought its way into Berlin. He killed himself there on 30 April 1945. The bunker was later demolished, and the site is a car park with an information board.",
+        "lat": 52.5125,
+        "lon": 13.3812,
+        "zoom": 15,
+        "stories": [
+          "2T3tmsLB8oDLGrJtKO9awc",
+          "3BPhEGsTHPCsQhL0zbiHbS"
+        ],
+        "image": "Führerbunker, Berlin (Ank Kumar, Infosys).jpg"
+      },
+      {
+        "city": "Belgrade",
+        "place": "House of Flowers, Belgrade",
+        "when": "1945–1980",
+        "heading": "Tito",
+        "text": "Josip Broz Tito led the partisans, took power in 1945, and in 1948 broke with Stalin and survived. He ran Yugoslavia as a one-party state that let its people travel and work abroad. He is buried in the winter garden of his Belgrade residence, and the country came apart within a decade of his death.",
+        "lat": 44.7866,
+        "lon": 20.4518,
+        "zoom": 13,
+        "stories": [
+          "5nFwHqMp7gDrFxaJvE7Pr5",
+          "1qhfLEBLH74JSaviSSuRjX",
+          "3fLeueJuL3nA2vB8HaGxbM"
+        ],
+        "image": "Grob Josipa Broza Tita.jpg"
+      },
+      {
+        "city": "Athens",
+        "place": "Parliament and Polytechnic, Athens",
+        "when": "1967–1974",
+        "heading": "The colonels",
+        "text": "On 21 April 1967 a group of army colonels seized Greece in a near bloodless coup. They banned parties, jailed and tortured opponents, and censored the press, books and songs. In November 1973 students occupied the Polytechnic and a tank broke down its gate. The junta fell the next summer.",
+        "lat": 37.9753,
+        "lon": 23.7369,
+        "zoom": 13,
+        "stories": [
+          "91b4yIhBkKIypnuwzhbIu",
+          "3PI1nu0yW7fkwZL8i4dzSI"
+        ],
+        "image": "Μετσόβιο Πολυτεχνείο 7936.JPG"
+      },
+      {
+        "city": "Bucharest",
+        "place": "Revolution Square, Bucharest",
+        "when": "1965–1989",
+        "heading": "Ceaușescu",
+        "text": "Nicolae Ceaușescu was courted by the West in the 1970s for defying Moscow. In the 1980s he starved Romania to pay off its debts and bulldozed a fifth of old Bucharest for his palace. On 21 December 1989 a crowd he had summoned to cheer him booed instead. He and his wife were shot four days later.",
+        "lat": 44.4389,
+        "lon": 26.0975,
+        "zoom": 13,
+        "stories": [
+          "4RWXTpG7lavTeWCdVyuTrg",
+          "1PMzik4rTewxy67jO5Vk5Q",
+          "5S9gIYK7Yh9kXKxPXUBO76"
+        ],
+        "image": "Imperio Eroii Revolutiei.jpg"
+      }
+    ],
+    "image": "Palace of the Parliament in Bucharest (51878975552).jpg"
+  },
+  {
     "slug": "assassinations",
     "kind": "Crime",
     "title": "Assassinations",
@@ -3495,6 +4299,134 @@
       }
     ],
     "image": "Vele di Scampia.jpg"
+  },
+  {
+    "slug": "heretics",
+    "kind": "Crime",
+    "title": "Heretics and witches",
+    "dates": "1415–1834",
+    "intro": [
+      "For four centuries, believing the wrong thing could get you burned. Churches, both Catholic and Protestant, and the states behind them tried and killed reformers, scientists, alleged witches and anyone who read the wrong book.",
+      "The stops follow it from Jan Hus to the end of the Spanish Inquisition."
+    ],
+    "chapters": [
+      {
+        "city": "Prague",
+        "place": "Bethlehem Chapel, Prague",
+        "when": "1402–1415",
+        "heading": "Jan Hus",
+        "text": "Jan Hus preached church reform in Czech at the Bethlehem Chapel. He was summoned to the Council of Constance under a promise of safe conduct, then tried and burned as a heretic in 1415. His followers held off five crusades in the Hussite Wars that followed.",
+        "lat": 50.0848,
+        "lon": 14.4176,
+        "zoom": 15,
+        "stories": [
+          "3uy7iQZ43UMoocptwxgs0c"
+        ],
+        "image": "Betlemska kaple.jpg"
+      },
+      {
+        "city": "Seville",
+        "place": "Castillo de San Jorge, Seville",
+        "when": "1481–1562",
+        "heading": "The Inquisition begins",
+        "text": "The Spanish Inquisition held its first auto-da-fé in Seville in 1481 and kept its headquarters in the Castillo de San Jorge in Triana for three centuries. Its first targets were Jews who had converted to Christianity. Around 1560 it burned a group of Seville monks who had been translating the Bible into Spanish.",
+        "lat": 37.3835,
+        "lon": -6.0031,
+        "zoom": 14,
+        "stories": [
+          "df4sTryI6xqH2nCxgabVh",
+          "2rsbd3ZmwSKubIqCjhHHrp"
+        ],
+        "tip": "The castle’s ruins are now a small museum under the Triana market.",
+        "image": "Castillo de San Jorge Sevilla.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Piazza della Signoria, Florence",
+        "when": "1497–1498",
+        "heading": "Savonarola",
+        "text": "The friar Girolamo Savonarola ran Florence for four years on sermons against luxury. In February 1497 his followers burned mirrors, cards, books and paintings in a bonfire in Piazza della Signoria. A year later he was excommunicated, tortured and burned in the same square.",
+        "lat": 43.7697,
+        "lon": 11.2556,
+        "zoom": 15,
+        "stories": [
+          "3UMmrJcHrfuj9qVkDFcVZN"
+        ],
+        "image": "Savonarola's execution memorial, Piazza della Signoria, Florence (26073214863).jpg"
+      },
+      {
+        "city": "Venice",
+        "place": "Santa Maria Formosa, Venice",
+        "when": "1580",
+        "heading": "Veronica Franco",
+        "text": "Veronica Franco was a courtesan and a published poet in Venice. In 1580 she was brought before the Inquisition on a charge of witchcraft. She defended herself and was acquitted, probably helped by her friends among the city’s nobility.",
+        "lat": 45.4369,
+        "lon": 12.3411,
+        "zoom": 15,
+        "stories": [
+          "2F4Clg5adc0lup4Evv1aIM"
+        ],
+        "image": "Campo Santa Maria Formosa (Venice).jpg"
+      },
+      {
+        "city": "Edinburgh",
+        "place": "Castle Esplanade, Edinburgh",
+        "when": "1590–1720s",
+        "heading": "Scotland’s witch trials",
+        "text": "Scotland tried several thousand people for witchcraft, most of them women. The panic began in 1590 when James VI blamed witches for storms that nearly sank his ship. Hundreds of the accused were strangled and burned on Castlehill, by the castle. A small fountain there, the Witches’ Well, remembers them.",
+        "lat": 55.9489,
+        "lon": -3.1965,
+        "zoom": 15,
+        "stories": [
+          "40HrZkYaloTEOpBZkcxGg2",
+          "5qS1SMyK2wKC4eP1spiKfF"
+        ],
+        "image": "Witches Well - Detail 4.jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "Campo de’ Fiori, Rome",
+        "when": "1600",
+        "heading": "Giordano Bruno",
+        "text": "The former friar Giordano Bruno argued that the universe was infinite and full of other worlds. After eight years of trial he refused to recant, and on 17 February 1600 he was burned alive in Campo de’ Fiori. A hooded statue of him has stood over the market since 1889.",
+        "lat": 41.8956,
+        "lon": 12.4722,
+        "zoom": 15,
+        "stories": [
+          "3xGQoBRFS3wwYlE8DP9owW"
+        ],
+        "image": "Statue of Giordano Bruno, Campo de' Fiori (45788557464).jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Arcetri, Florence",
+        "when": "1633–1642",
+        "heading": "Galileo",
+        "text": "In 1633 the Inquisition in Rome found Galileo vehemently suspected of heresy for teaching that the earth moves around the sun. He was made to recant on his knees and spent his last nine years under house arrest in a villa at Arcetri, above Florence, still working.",
+        "lat": 43.7478,
+        "lon": 11.2576,
+        "zoom": 14,
+        "stories": [
+          "1TK5URBsFdalu7R405GNaL"
+        ],
+        "image": "Galileo before the Holy Office.jpg"
+      },
+      {
+        "city": "Madrid",
+        "place": "Plaza Mayor and the Prado, Madrid",
+        "when": "1680–1834",
+        "heading": "The last trials",
+        "text": "The grandest auto-da-fé was held in Madrid’s Plaza Mayor in 1680 before the king. By Goya’s time the Inquisition was weaker but still dangerous; he was questioned over his Naked Maja. Napoleon abolished it in 1808, the restored king brought it back, and it was finally ended in 1834.",
+        "lat": 40.4155,
+        "lon": -3.7074,
+        "zoom": 14,
+        "stories": [
+          "j6ePGqgNohxKz9Bm3ceD6"
+        ],
+        "image": "Francisco rizi-auto de fe.jpg"
+      }
+    ],
+    "image": "Pedro Berruguete - Saint Dominic Presiding over an Auto-da-fe (detail) - c. 1491-1499 - 02.jpg"
   },
   {
     "slug": "romans",
@@ -5145,6 +6077,650 @@
       }
     ],
     "image": "DJI 0088 Nowa Huta.jpg"
+  },
+  {
+    "slug": "cathedrals",
+    "kind": "Places",
+    "title": "Cathedrals",
+    "dates": "537–today",
+    "intro": [
+      "A great cathedral could take centuries to build, outlive the people who started it and end up in a style they would not have recognised.",
+      "Each stop is one church and how it got built."
+    ],
+    "chapters": [
+      {
+        "city": "Istanbul",
+        "place": "Hagia Sophia, Istanbul",
+        "when": "532–537",
+        "heading": "Hagia Sophia",
+        "text": "After riots burned the old church in 532, the emperor Justinian had Hagia Sophia rebuilt in under six years, with a dome that seemed to float. It was the largest church in the world for nearly a thousand years. It became a mosque in 1453, a museum in 1934 and a mosque again in 2020.",
+        "lat": 41.0086,
+        "lon": 28.9802,
+        "zoom": 15,
+        "stories": [
+          "3zGmbHkf1Q4Z3KPV4VQBxT",
+          "2ydycZ25MuhTHmQToONPQf"
+        ],
+        "image": "Interior of Hagia Sophia (6) - Istanbul (2022).jpg"
+      },
+      {
+        "city": "Venice",
+        "place": "St Mark’s Basilica, Venice",
+        "when": "828–1204",
+        "heading": "St Mark’s",
+        "text": "Venetian merchants smuggled the body of St Mark out of Alexandria in 828. The church built for it, consecrated in 1094, was modelled on a church in Constantinople. After 1204 it was covered in marble, columns and mosaics looted from that city.",
+        "lat": 45.4346,
+        "lon": 12.3393,
+        "zoom": 15,
+        "stories": [
+          "PR1gyPlFotUDgwgWd8uXJ"
+        ],
+        "image": "(Venice) St. Mark's Basilica, lunette - The body of St. Mark is received in Venice, ca. 1660 by Pietro Vecchia.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Saint-Denis and Notre-Dame, Paris",
+        "when": "1140s–2024",
+        "heading": "The first Gothic",
+        "text": "Abbot Suger rebuilt the choir of Saint-Denis in the 1140s with pointed arches and walls of glass, and Gothic was born. Notre-Dame was begun in 1163. In April 2019 fire destroyed its roof and spire. It reopened in December 2024, rebuilt by carpenters and masons using medieval methods.",
+        "lat": 48.9356,
+        "lon": 2.3598,
+        "zoom": 12,
+        "stories": [
+          "3ni4voGLDAk4tcmk1omn48",
+          "629lTUdgi4nU1hIMi0HvHW",
+          "2STbmfP0sF0Ss6CkiEboUq"
+        ],
+        "image": "Basilica of Saint Denis, Saint Denis, France 02.jpg"
+      },
+      {
+        "city": "Seville",
+        "place": "Seville Cathedral",
+        "when": "1401–1506",
+        "heading": "Built on a mosque",
+        "text": "Seville’s chapter decided in 1401 to build a church so big that people would think them mad. It went up on the site of the Almohad mosque, and kept the mosque’s minaret as its bell tower, the Giralda. It is the largest Gothic cathedral in the world, and holds a tomb said to contain Columbus.",
+        "lat": 37.3861,
+        "lon": -5.993,
+        "zoom": 15,
+        "stories": [
+          "2eHDXtRxXDj7SQE5CBobTe",
+          "7kiVpaCl4gfm3rngFeCXqK"
+        ],
+        "image": "Plaza Virgen de los Reyes, Seville, Spain - Sep 2009.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Duomo, Florence",
+        "when": "1420–1436",
+        "heading": "Brunelleschi’s dome",
+        "text": "Florence’s cathedral stood with a hole in its roof for decades because no one knew how to span it. Filippo Brunelleschi, a goldsmith, built the dome without a wooden frame, laying bricks in a herringbone pattern so each ring held itself up. It is still the largest brick dome ever built.",
+        "lat": 43.7731,
+        "lon": 11.256,
+        "zoom": 15,
+        "stories": [
+          "4MroN0QaAo2ZjN1Ory1LZA",
+          "i7PlnwB6gZTNaouIk8A51"
+        ],
+        "tip": "You can climb between the two shells of the dome to the lantern. Book a time slot ahead.",
+        "image": "Florence, Italy, Brunelleschi's Dome of Florence Cathedral.jpg"
+      },
+      {
+        "city": "Milan",
+        "place": "Duomo, Milan",
+        "when": "1386–1965",
+        "heading": "Six centuries",
+        "text": "Milan began its cathedral in 1386 in white Candoglia marble and kept going for nearly six centuries. Napoleon had the façade finished so he could be crowned there in 1805, and the last bronze door went in in 1965. In Milanese, an endless job is still called a fabbrica del Duomo.",
+        "lat": 45.4642,
+        "lon": 9.1916,
+        "zoom": 15,
+        "stories": [
+          "7EBoGdfv2dOUgDCq7I7i1p",
+          "1IbskT2fx8ddnqewB0WJx5"
+        ],
+        "image": "20110724 Milan Cathedral 5266.jpg"
+      },
+      {
+        "city": "Rome",
+        "place": "St Peter’s Basilica, Rome",
+        "when": "1506–1667",
+        "heading": "St Peter’s",
+        "text": "Pope Julius II had the old basilica pulled down in 1506. Bramante, Michelangelo, Maderno and Bernini followed one another over 120 years, and the sale of indulgences to pay for it helped set off the Reformation. Bernini’s bronze canopy went up over the altar in 1634, and his colonnade was finished in 1667.",
+        "lat": 41.9022,
+        "lon": 12.4539,
+        "zoom": 15,
+        "stories": [
+          "4bqhqSfbCE25PqinHiuF3I",
+          "4sYJGgon7IVFx1tUG8hqLt"
+        ],
+        "image": "Basilica di San Pietro in Vaticano September 2015-1a.jpg"
+      },
+      {
+        "city": "London",
+        "place": "St Paul’s Cathedral, London",
+        "when": "1675–1940",
+        "heading": "Wren’s St Paul’s",
+        "text": "The Great Fire of 1666 ruined old St Paul’s. Christopher Wren’s replacement was built from 1675 to 1710, and he lived to see it finished. On 29 December 1940 German bombs set the City around it on fire, and a photograph of its dome rising through the smoke became the image of the Blitz.",
+        "lat": 51.5138,
+        "lon": -0.0984,
+        "zoom": 15,
+        "stories": [
+          "2LUO9HtYdjAEXNOARIn6N",
+          "3Ce9OSh3mTo2MsPURyR39M"
+        ],
+        "image": "St Paul's Cathedra Millennium Bridge JBU04.jpg"
+      },
+      {
+        "city": "Barcelona",
+        "place": "Sagrada Família, Barcelona",
+        "when": "1882–today",
+        "heading": "Gaudí’s basilica",
+        "text": "The Sagrada Família was begun in 1882, and Antoni Gaudí took it over the next year. He spent the rest of his life on it and was killed by a tram in 1926 with less than a quarter built. Work has gone on ever since, paid for by visitors’ tickets.",
+        "lat": 41.4036,
+        "lon": 2.1744,
+        "zoom": 15,
+        "stories": [
+          "7uydbQucrdFsncGhACo8IF",
+          "1Y2aIrG1XjvlOVaDfCWaqp",
+          "2ChWx2mq8JCkBh4w1nx3vV"
+        ],
+        "image": "Sagrada Família 2010.JPG"
+      },
+      {
+        "city": "Liverpool",
+        "place": "Hope Street, Liverpool",
+        "when": "1904–1978",
+        "heading": "Two cathedrals",
+        "text": "Giles Gilbert Scott was 22 when he won the competition for Liverpool’s Anglican cathedral. Building began in 1904 and finished in 1978, after his death. At the other end of Hope Street, Lutyens’s Catholic cathedral, meant to have a dome bigger than St Peter’s, stopped at the crypt. Frederick Gibberd’s round concrete one went up on top in 1967.",
+        "lat": 53.3975,
+        "lon": -2.9732,
+        "zoom": 14,
+        "stories": [
+          "6gmSQsrOC2b5m6UgNyZBoB",
+          "5v77CgZfNxfKkwR4lCIYlm",
+          "6TRzSZPu5mLHJdj0nhjHMK"
+        ],
+        "image": "Liverpool Metropolitan Cathedral at dusk (reduced grain), corrected perspective.jpg"
+      }
+    ],
+    "image": "Dome of Cattedrale di Santa Maria del Fiore (Florence).jpg"
+  },
+  {
+    "slug": "bridges",
+    "kind": "Places",
+    "title": "Bridges",
+    "dates": "134–2021",
+    "intro": [
+      "A bridge decides how a city grows, and holding one has often decided who holds the city.",
+      "The stops run from a Roman emperor’s bridge to one made by a robot."
+    ],
+    "chapters": [
+      {
+        "city": "Rome",
+        "place": "Ponte Sant’Angelo, Rome",
+        "when": "134–1599",
+        "heading": "The emperor’s bridge",
+        "text": "Hadrian built this bridge in 134 to reach his mausoleum, now the Castel Sant’Angelo. For centuries pilgrims crossed it to St Peter’s, and criminals were executed at its end. Beatrice Cenci was beheaded there in 1599 for the murder of her abusive father. Bernini’s workshop added the ten angels around 1670.",
+        "lat": 41.9017,
+        "lon": 12.4665,
+        "zoom": 15,
+        "stories": [
+          "6hH4pn54xqSwmVX23v9Uxb"
+        ],
+        "image": "Sant'Angelo bridge, dusk, Rome, Italy.jpg"
+      },
+      {
+        "city": "London",
+        "place": "London Bridge and Tower Bridge, London",
+        "when": "1014–1894",
+        "heading": "London’s bridges",
+        "text": "For most of its history London had one bridge. Norse sagas say Olaf Haraldsson pulled the wooden one down in 1014. The stone bridge that followed carried houses and shops, and traitors’ heads on spikes. Watermen rowed everyone else across until a second central bridge opened at Westminster in 1750. Tower Bridge, with its lifting roadway, opened in 1894.",
+        "lat": 51.5079,
+        "lon": -0.0877,
+        "zoom": 14,
+        "stories": [
+          "63cJIsonj1nSptyvfZ77u0",
+          "513ZHOfJzvOwst9eLsFsZv",
+          "5pYzZXyURxRVbnqEnSRH7S"
+        ],
+        "image": "Tower Bridge London Dusk Feb 2006.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Ponte Vecchio, Florence",
+        "when": "1345–1944",
+        "heading": "The bridge they spared",
+        "text": "The Ponte Vecchio was rebuilt after a flood in 1345 with shops along it. In 1565 Vasari built a private corridor across its roof so Cosimo I de’ Medici could walk from palace to palace unseen, and in 1593 the butchers below were replaced by goldsmiths. In August 1944 the retreating Germans blew up every other bridge in the city.",
+        "lat": 43.7679,
+        "lon": 11.2531,
+        "zoom": 15,
+        "stories": [
+          "7wElQJI3hWAxzPRI2BLxmo",
+          "4Y9eNR6ZzQo4DuggBkEZ2c",
+          "5jkAQ5LvRtnSDPsSg5yVhO"
+        ],
+        "image": "Ponte Vecchio from Ponte Santa Trinita Blue hour.jpg"
+      },
+      {
+        "city": "Prague",
+        "place": "Charles Bridge, Prague",
+        "when": "1357–1714",
+        "heading": "Charles Bridge",
+        "text": "Charles IV laid the first stone in 1357, and for four centuries it was Prague’s only bridge over the Vltava. In 1393 the priest John of Nepomuk was thrown from it on the king’s orders. His statue, put up in 1683, was the first of the thirty Baroque saints that now line the parapets.",
+        "lat": 50.0865,
+        "lon": 14.4114,
+        "zoom": 15,
+        "stories": [
+          "2ntYzMZALD6fW12nSSrAVh",
+          "3BZBN1uC84AzkVmZWWmw1k"
+        ],
+        "tip": "Go before 8 in the morning, when it is almost empty.",
+        "image": "Prague 07-2016 View from Petrinska Tower img2.jpg"
+      },
+      {
+        "city": "Venice",
+        "place": "Rialto Bridge, Venice",
+        "when": "1588–1591",
+        "heading": "The Rialto",
+        "text": "Wooden bridges at the Rialto kept burning or falling down, once under a crowd watching a wedding procession. The stone one was built from 1588 to 1591 by Antonio da Ponte, whose name means bridge. It was the only way across the Grand Canal on foot until 1854.",
+        "lat": 45.438,
+        "lon": 12.3359,
+        "zoom": 15,
+        "stories": [
+          "1RwA04w2EoKlpkJchgLrdP",
+          "4OabILmFd0EY4M7K7I2ZGD"
+        ],
+        "image": "Ponte di Rialto Venice 1.jpg"
+      },
+      {
+        "city": "Edinburgh",
+        "place": "South Bridge and the Forth Bridge, Edinburgh",
+        "when": "1788–1890",
+        "heading": "Over valleys and firths",
+        "text": "Edinburgh’s South Bridge, finished in 1788, carries a street over the Cowgate on a row of arches, and the vaults inside it became workshops, taverns and slum rooms. A century later the red cantilever Forth Bridge, opened in 1890, carried the railway across the Firth of Forth west of the city.",
+        "lat": 55.9491,
+        "lon": -3.1868,
+        "zoom": 12,
+        "stories": [
+          "31nOf9IgZCbTfv0zLDXmLe",
+          "4b013MA9EoGkSRiGnOU5E6"
+        ],
+        "image": "ScotRail Class 170 Forth Bridge.jpg"
+      },
+      {
+        "city": "Budapest",
+        "place": "Széchenyi Chain Bridge, Budapest",
+        "when": "1839–1849",
+        "heading": "Joining Buda and Pest",
+        "text": "Buda and Pest had no permanent bridge until Count István Széchenyi pushed for one. Its English designer, William Tierney Clark, and Scottish engineer, Adam Clark, finished the Chain Bridge in 1849. The Germans blew it up in January 1945, and it was rebuilt by 1949.",
+        "lat": 47.4989,
+        "lon": 19.0436,
+        "zoom": 15,
+        "stories": [
+          "6JLTxq4md29ivbMEHIVJqg"
+        ],
+        "image": "Széchenyi Chain Bridge in Budapest at night.jpg"
+      },
+      {
+        "city": "Manchester",
+        "place": "Barton Swing Aqueduct, Manchester",
+        "when": "1894",
+        "heading": "A bridge full of water",
+        "text": "When the Manchester Ship Canal opened in 1894 to make the city a seaport, it had to cross the older Bridgewater Canal. The answer was a steel trough that holds the water of one canal and swings aside, full, to let ships pass on the other. It still works.",
+        "lat": 53.4724,
+        "lon": -2.353,
+        "zoom": 14,
+        "stories": [
+          "2bfSQQfWyqMt4UE7Y9jj8D"
+        ],
+        "image": "Barton Swing Aqueduct - geograph.org.uk - 3415601.jpg"
+      },
+      {
+        "city": "Istanbul",
+        "place": "Bosphorus Bridge, Istanbul",
+        "when": "1973–2016",
+        "heading": "Between two continents",
+        "text": "The Bosphorus Bridge opened in 1973, the first to join the European and Asian sides of Istanbul. On the night of 15 July 2016 soldiers trying to overthrow the government blocked it with tanks, and civilians came out to face them. It has been called the 15 July Martyrs Bridge since.",
+        "lat": 41.0451,
+        "lon": 29.034,
+        "zoom": 13,
+        "stories": [
+          "1MFlbwSExlhAN98RW7drVl"
+        ],
+        "image": "Bosphorus Bridge(15 July Martyrs Bridge), Istanbul, Turkey (Ank Kumar) 12.jpg"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Oudezijds Achterburgwal, Amsterdam",
+        "when": "2021",
+        "heading": "A printed bridge",
+        "text": "Amsterdam has more than 1,500 bridges. In 2021 one of the newest was installed over a canal in the old centre: a stainless-steel footbridge printed by robots, layer by layer, by the Dutch company MX3D. Sensors in it recorded how people used it.",
+        "lat": 52.3726,
+        "lon": 4.898,
+        "zoom": 15,
+        "stories": [
+          "79Z7z9RZMRKE3QqVKW4VK4"
+        ],
+        "image": "World first 3D printed steel bridge in Amsterdam.jpg"
+      }
+    ],
+    "image": "Prague morning - View towards Charles Bridge - Flickr - A Peach.jpg"
+  },
+  {
+    "slug": "markets",
+    "kind": "Places",
+    "title": "Markets",
+    "dates": "c. 110–today",
+    "intro": [
+      "A city’s markets are where you see what it eats, what it sells and who lives there.",
+      "The stops run from Rome’s ancient market halls to a fish quay that still works every morning."
+    ],
+    "chapters": [
+      {
+        "city": "Rome",
+        "place": "Trajan’s Markets, Rome",
+        "when": "c. 100–110",
+        "heading": "Trajan’s Markets",
+        "text": "Apollodorus of Damascus built this curving complex of brick halls and vaulted rooms into the Quirinal hill beside Trajan’s Forum. It is usually called a market, though some of the rooms were probably offices. It is the best-preserved shopping street of the ancient world.",
+        "lat": 41.8958,
+        "lon": 12.4862,
+        "zoom": 15,
+        "stories": [
+          "3AElNRc8EqJwtHQsmQ7v8Q"
+        ],
+        "image": "Mercati di Traiano - Roma.jpg"
+      },
+      {
+        "city": "Kraków",
+        "place": "Rynek Główny, Kraków",
+        "when": "1257–today",
+        "heading": "The market square",
+        "text": "After the Mongols burned Kraków in 1241, the city was relaid in 1257 around a market square of about four hectares, one of the largest in medieval Europe. The Cloth Hall in the middle was its trading floor. Excavations under the square found the old stalls and roads, now a museum.",
+        "lat": 50.062,
+        "lon": 19.9368,
+        "zoom": 15,
+        "stories": [
+          "6FoGKy0BXiwq8OBrYLhehd",
+          "2gzpsVfIxeXuGsips6NRZ6",
+          "6H8MijSaftQDPCSzRwxcbU"
+        ],
+        "image": "Kraków Cloth Hall, Café Noworolski, 3 Main Market square, Old Town, Kraków, Poland.jpg"
+      },
+      {
+        "city": "Istanbul",
+        "place": "Grand Bazaar, Istanbul",
+        "when": "1455–today",
+        "heading": "The Grand Bazaar",
+        "text": "Mehmed the Conqueror built a domed warehouse for valuables soon after he took Constantinople. Streets of shops grew around and over it until they were roofed in, and the bazaar now holds about 4,000 shops on some sixty lanes.",
+        "lat": 41.0107,
+        "lon": 28.9681,
+        "zoom": 15,
+        "stories": [
+          "6Q7D0YEZ12Yh33GUzee8pw",
+          "MO7LS3ob7mNSqwyhVSLj7"
+        ],
+        "image": "Sample of Tee - Grand Bazaar.JPG"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Bloemenmarkt, Amsterdam",
+        "when": "1636–1637",
+        "heading": "Tulip mania",
+        "text": "In the winter of 1636–37 the price of rare tulip bulbs in the Dutch Republic rose until a single bulb could cost as much as a canal house, then collapsed in February. Historians now think the damage was smaller than the legend. The flower market on the Singel has sold bulbs from boats since 1862.",
+        "lat": 52.3668,
+        "lon": 4.8913,
+        "zoom": 15,
+        "stories": [
+          "6c69cvTtZ4kUo9oNmbNQMS"
+        ],
+        "image": "Amsterdam - Singel - Bloemenmarkt - Flowermarket - View WNW I.jpg"
+      },
+      {
+        "city": "Madrid",
+        "place": "El Rastro, Madrid",
+        "when": "1740–today",
+        "heading": "El Rastro",
+        "text": "Madrid’s Sunday flea market has filled the streets below La Latina since the 18th century. It grew in the old tanners’ district, where the word rastro, a trail, is said to come from the blood dragged down from the slaughterhouse. The iron-and-glass Mercado de San Miguel opened nearby in 1916.",
+        "lat": 40.4082,
+        "lon": -3.7073,
+        "zoom": 15,
+        "stories": [
+          "1UKJdeSRN8yFFX6J7X6dtH",
+          "2duQuuspRgk4RLysKrzt7I"
+        ],
+        "image": "El Rastro de Madrid 50.jpg"
+      },
+      {
+        "city": "Florence",
+        "place": "Mercato Centrale, Florence",
+        "when": "1874–today",
+        "heading": "The central market",
+        "text": "Giuseppe Mengoni, who also designed Milan’s Galleria, built Florence’s iron-and-glass central market in 1874 in the San Lorenzo district. The ground floor still sells meat, cheese and vegetables. Florentines queue for lampredotto, a sandwich of cow’s fourth stomach.",
+        "lat": 43.7764,
+        "lon": 11.2533,
+        "zoom": 15,
+        "stories": [
+          "2FtvSfb1xijQw5ddSxSMkb"
+        ],
+        "image": "Mercato centrale di san lorenzo 02.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Saint-Ouen flea market, Paris",
+        "when": "1880s–today",
+        "heading": "Les Puces",
+        "text": "In the 1880s Paris’s ragpickers were pushed outside the city walls, and they set up to sell what they found just beyond the northern gate at Saint-Ouen. The fleas, les puces, grew into one of the largest antiques markets in the world, a dozen separate markets with about 1,700 dealers.",
+        "lat": 48.9031,
+        "lon": 2.3439,
+        "zoom": 13,
+        "stories": [
+          "18N7PgeNVqE8aDlQWrRQXI",
+          "3FAcZNCbZ99A5VUVbc4IKU"
+        ],
+        "image": "Saint-Ouen-sur-Seine (93) Marché aux puces 977.jpg"
+      },
+      {
+        "city": "Budapest",
+        "place": "Great Market Hall, Budapest",
+        "when": "1897–today",
+        "heading": "The Great Market Hall",
+        "text": "Budapest’s Great Market Hall opened in 1897 by the Liberty Bridge, a steel hall under a roof of coloured Zsolnay tiles. Barges once brought goods straight into it through a tunnel from the Danube. Paprika, sausages and pickles fill the ground floor.",
+        "lat": 47.487,
+        "lon": 19.0585,
+        "zoom": 15,
+        "stories": [
+          "2QAZaxyNXorzYag73vYU3J",
+          "RU5VTxVtvAoc7YWpDBA7H"
+        ],
+        "image": "Budapest - Great Market Hall (Nagyvásárcsarnok).jpg"
+      },
+      {
+        "city": "Glasgow",
+        "place": "The Barras, Glasgow",
+        "when": "1920s–today",
+        "heading": "The Barras",
+        "text": "Maggie McIver started out renting barrows to street traders in Glasgow’s East End and built the Barras market on the Gallowgate from them in the 1920s. When the traders needed somewhere to go at night, she built the Barrowland Ballroom above it, which opened in 1934.",
+        "lat": 55.8547,
+        "lon": -4.2393,
+        "zoom": 15,
+        "stories": [
+          "6UnALklo0wv5TwNjdOndJp",
+          "4dRqgAdCkLzOGR5ROf20Ye"
+        ],
+        "image": "2002-04-Glasgow-Bain-Street-The-Barras.jpg"
+      },
+      {
+        "city": "Marseille",
+        "place": "Quai des Belges, Marseille",
+        "when": "Every morning",
+        "heading": "The fish quay",
+        "text": "Every morning fishermen sell their catch straight off the boats on the Quai des Belges at the head of the Old Port, as they have for generations. It is where bouillabaisse starts. Julia Child lived in Marseille in the 1950s and made the stew on television years later.",
+        "lat": 43.295,
+        "lon": 5.3646,
+        "zoom": 15,
+        "stories": [
+          "11TrJ1sAeMh7Noig7V1Qvy",
+          "1MvKxTEuOdbdGJC9x3tstp"
+        ],
+        "tip": "Get there by 8; most of the fish is gone by mid-morning.",
+        "image": "Marseille (France), fish market in Vieux-Port, 2013.JPG"
+      }
+    ],
+    "image": "Istanbul - Grand Bazaar (55107617958).jpg"
+  },
+  {
+    "slug": "gardens",
+    "kind": "Places",
+    "title": "Parks and gardens",
+    "dates": "c. 30 BC–2013",
+    "intro": [
+      "Gardens began as private paradises for emperors and kings. Over time most of them were opened up, and cities began making parks for everyone.",
+      "The stops run from a painted Roman garden to a park in Istanbul that people protested to save."
+    ],
+    "chapters": [
+      {
+        "city": "Rome",
+        "place": "Palazzo Massimo, Rome",
+        "when": "c. 30–20 BC",
+        "heading": "A painted garden",
+        "text": "The empress Livia had an underground dining room at her villa north of Rome painted floor to ceiling as a garden, with fruit trees, flowers and birds. The frescoes were cut from the walls and moved to the Palazzo Massimo museum, where the room has been rebuilt.",
+        "lat": 41.9014,
+        "lon": 12.498,
+        "zoom": 15,
+        "stories": [
+          "33tnYmZbi0jcxkv9x7vVB3"
+        ],
+        "image": "Villa of Livia - Garden fresco 005.jpg"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Hortus Botanicus, Amsterdam",
+        "when": "1638",
+        "heading": "A garden of medicines",
+        "text": "The city founded the Hortus Botanicus in 1638 as a herb garden for doctors and apothecaries, during an outbreak of plague. Ships of the Dutch East India Company brought back plants from Asia, Africa and the Americas, and some went on from here to plantations around the world.",
+        "lat": 52.3667,
+        "lon": 4.9082,
+        "zoom": 15,
+        "stories": [
+          "5omTqBFwIcsOSTuAVQmSkC"
+        ],
+        "image": "Hortus Botanicus Amsterdam. (actm.).jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Gardens of Versailles",
+        "when": "1661–1700",
+        "heading": "Le Nôtre’s Versailles",
+        "text": "From 1661 André Le Nôtre laid out the gardens of Versailles for Louis XIV: terraces, clipped hedges, fountains and a mile-long canal on which the king kept gondolas. The design was copied by every court in Europe. The Tuileries in central Paris were also his.",
+        "lat": 48.8076,
+        "lon": 2.1097,
+        "zoom": 13,
+        "stories": [
+          "4v2qooAFnnMrgmYNi4rJpC",
+          "3fyLin46skZtOhF7aukTTu"
+        ],
+        "image": "Versailles gardens Aug 2026 01.jpg"
+      },
+      {
+        "city": "London",
+        "place": "Kew Gardens, London",
+        "when": "1759–1848",
+        "heading": "Kew",
+        "text": "Princess Augusta started a botanic garden at Kew in 1759. William Chambers built the ten-storey Great Pagoda in 1762, and the iron-and-glass Palm House, finished in 1848, was built to hold tropical plants collected across the empire. Kew is still a research institution.",
+        "lat": 51.4712,
+        "lon": -0.2957,
+        "zoom": 14,
+        "stories": [
+          "36LAj1yH2DGaocXxlpKpKs",
+          "2DOV5h1PThdgKUb4rUuOHo"
+        ],
+        "image": "Kew Gardens Palm House, London - July 2009.jpg"
+      },
+      {
+        "city": "Warsaw",
+        "place": "Łazienki Park, Warsaw",
+        "when": "1772–1795",
+        "heading": "The last king’s park",
+        "text": "Stanisław August Poniatowski, the last king of Poland, turned a bathhouse in a park south of Warsaw into a small palace standing in a lake, the Palace on the Isle. He lost his throne when Poland was partitioned in 1795. On summer Sundays there are Chopin concerts by the monument in the park.",
+        "lat": 52.2152,
+        "lon": 21.0355,
+        "zoom": 14,
+        "stories": [
+          "UoLlKUj45f5cyxFDZxe0X"
+        ],
+        "image": "Palace on the Isle (21895p).jpg"
+      },
+      {
+        "city": "Stockholm",
+        "place": "Skansen, Stockholm",
+        "when": "1891",
+        "heading": "Skansen",
+        "text": "Artur Hazelius worried that industry was wiping out rural Sweden, so he bought old farmhouses, churches and workshops from around the country and rebuilt them on a hill on Djurgården. Skansen opened in 1891, the world’s first open-air museum.",
+        "lat": 59.3268,
+        "lon": 18.1036,
+        "zoom": 14,
+        "stories": [
+          "7gA5sfJ0VxSV8ULZxOh1rp"
+        ],
+        "image": "Skansen, Stockholm (by Pudelek) 3.JPG"
+      },
+      {
+        "city": "Copenhagen",
+        "place": "Kolonihaven Vennelyst, Copenhagen",
+        "when": "1892–today",
+        "heading": "Allotments",
+        "text": "Copenhagen’s kolonihaver are allotment gardens, each with a small house, rented by city dwellers. Vennelyst on Amager was founded in 1892. They were meant to give working families fresh vegetables, and waiting lists for them now run to years.",
+        "lat": 55.67,
+        "lon": 12.6026,
+        "zoom": 14,
+        "stories": [
+          "2I7kmNyZh5koF5VSjlgsWW"
+        ],
+        "image": "Solvang kolonihave.JPG"
+      },
+      {
+        "city": "Oslo",
+        "place": "Vigeland Park, Oslo",
+        "when": "1921–1949",
+        "heading": "Vigeland",
+        "text": "In 1921 the sculptor Gustav Vigeland agreed to give Oslo all his future work in return for a studio. He spent the rest of his life filling Frogner Park with more than 200 granite and bronze figures, crowned by a granite column of 121 bodies.",
+        "lat": 59.927,
+        "lon": 10.7008,
+        "zoom": 14,
+        "stories": [
+          "7AKeJ7riwar8E7lrSYc4Rj"
+        ],
+        "image": "Vigeland Sculpture Park - Granite sculptures on the staircase, Oslo, Norway.jpg"
+      },
+      {
+        "city": "Zurich",
+        "place": "Platzspitz, Zurich",
+        "when": "1987–1992",
+        "heading": "Needle Park",
+        "text": "From 1987 the Platzspitz, a riverside park behind the Swiss National Museum, was where Zurich’s police let heroin users gather. Thousands came from across Europe. The park was closed in 1992, and Switzerland moved to prescribing heroin under medical supervision. The park has been open again since 1993.",
+        "lat": 47.3816,
+        "lon": 8.5398,
+        "zoom": 15,
+        "stories": [
+          "1o8TcESsyCAecwoBOQQ0Fv"
+        ],
+        "image": "Zürich - Platzspitzpark IMG 1210.JPG"
+      },
+      {
+        "city": "Istanbul",
+        "place": "Gezi Park, Istanbul",
+        "when": "2013",
+        "heading": "Gezi Park",
+        "text": "In May 2013 a few dozen people camped in Gezi Park, beside Taksim Square, to stop its trees being cut down for a shopping centre. The police burned their tents, and within days there were protests in cities across Turkey. The park is still there.",
+        "lat": 41.0383,
+        "lon": 28.9869,
+        "zoom": 15,
+        "stories": [
+          "50XCtyLqjvRozEiUoX5xGR"
+        ],
+        "image": "İstanbul - Taksim Gezi Parkı - Mart 2013 - r7.JPG"
+      }
+    ],
+    "image": "Versailles view from the Parterre d'eau.jpg"
   },
   {
     "slug": "olympics",
