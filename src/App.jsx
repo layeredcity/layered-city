@@ -2174,7 +2174,7 @@ export default function App() {
               {ABOUT.map((sec, i) => (
                 <section key={i} className="about__section">
                   {sec.heading && <h2 className="about__heading">{sec.heading}</h2>}
-                  {sec.paragraphs.map((p, j) => <p key={j} className={i === 0 && j === 0 ? 'about__lead' : 'about__p'}>{p.replace('{cities}', cities.length || 'dozens of')}</p>)}
+                  {sec.paragraphs.map((p, j) => <p key={j} className="about__p">{p.replace('{cities}', cities.length || 'dozens of')}</p>)}
                 </section>
               ))}
             </div>
