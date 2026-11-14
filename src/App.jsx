@@ -1848,8 +1848,10 @@ export default function App() {
   const selectTab = useCallback(k => {
     if (k === 'about') {
       if (window.location.pathname !== '/about') {
+        // goHome pushes '/'; swap that entry for /about so Back returns to
+        // wherever you were before.
         goHome(); setMediaStory(null)
-        window.history.pushState({}, '', '/about')
+        window.history.replaceState({}, '', '/about')
       }
     } else if (window.location.pathname === '/about') {
       window.history.pushState({}, '', '/')
