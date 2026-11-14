@@ -1112,3 +1112,6 @@ html[data-vt] .panel-story { transition: none !important; }
 /* Thread photo fades into the blue over a longer stretch: the fade starts
    60px higher than a landmark's. */
 .thread-top__hero img, .thread-top__overlay { -webkit-mask-image: linear-gradient(to bottom, #000 calc(55% - 60px), transparent 100%); mask-image: linear-gradient(to bottom, #000 calc(55% - 60px), transparent 100%); }
+/* Filled step circles (chapter rail and map) use the logo red. */
+.thread-ch.is-active .thread-ch__num, .thread-marker.is-active { background: #EF4853; border-color: #EF4853; }
+.thread-marker.is-active { border-color: #fff; }
