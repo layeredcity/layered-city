@@ -50,6 +50,8 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   const [active, setActive] = useState(-1) // -1 = the intro, whole route in view
   const [stories, setStories] = useState({})
 
+  const hero = thread.image && PHOTOS[thread.image]
+
   const allIds = useMemo(() => thread.chapters.flatMap(c => c.stories), [thread])
   useEffect(() => {
     let live = true
@@ -159,8 +161,17 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
         </button>
         <div className="thread__map" ref={mapEl} />
         <div className="thread__scroll" ref={scrollRef}>
-          <ThreadPhoto file={thread.image} className="thread-hero" />
-          <header className="thread__head">
+          {/* Top block on the city page's royal blue, like a landmark: the photo
+              tinted and fading into the blue, then the heading and intro in
+              light type, then the photo credit. The chapters stay on white. */}
+          <div className="thread-top">
+            {hero && (
+              <div className="thread-top__hero">
+                <img src={hero.src} alt="" width={hero.w} height={hero.h} />
+                <div className="thread-top__overlay" />
+              </div>
+            )}
+          <header className={'thread__head' + (hero ? ' thread__head--over' : '')}>
             <div className="thread__kicker">{thread.kind} · {thread.chapters.length} stops</div>
             <h1 className="thread__title">{thread.title}</h1>
             <div className="thread__dates">{thread.dates}</div>
@@ -173,7 +184,13 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                 ? <><p className="thread__dek">{m[1]}</p><p className="thread__intro">{m[2]}</p></>
                 : <p className="thread__dek">{text}</p>
             })()}
+            {hero && (
+              <a className="thread-top__credit" href={hero.page} target="_blank" rel="noreferrer">
+                {LABELS[thread.image] ? `${LABELS[thread.image]} · ` : ''}Photo: {hero.author.replace(/^(.+?)\1$/, '$1')}{hero.license ? ` · ${hero.license}` : ''}
+              </a>
+            )}
           </header>
+          </div>
           <ol className="thread__chapters">
             {thread.chapters.map((c, i) => (
               <li key={i} ref={el => { sectionRefs.current[i] = el }} className={'thread-ch' + (i === active ? ' is-active' : '')}>

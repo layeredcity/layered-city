@@ -1081,3 +1081,24 @@ html[data-vt] .panel-story { transition: none !important; }
 .report-form__send:disabled { opacity: 0.6; }
 .report-form__cancel { appearance: none; border: none; background: none; font: 500 13px var(--font-body); color: var(--ink-light); cursor: pointer; }
 .report-form__error { font-size: 12px; color: #B3261E; }
+
+/* Thread top block on royal blue, like a landmark: photo tinted blue and
+   fading into the gradient, heading and intro in light type, left-aligned. */
+.thread-top { background: linear-gradient(180deg, #05102B 0%, #17419A 100%); color: #fff; }
+.thread-top__hero { position: relative; height: 340px; }
+.thread-top__hero img, .thread-top__overlay { position: absolute; inset: 0; width: 100%; height: 100%; -webkit-mask-image: linear-gradient(to bottom, #000 55%, transparent 100%); mask-image: linear-gradient(to bottom, #000 55%, transparent 100%); }
+.thread-top__hero img { object-fit: cover; display: block; }
+.thread-top__overlay { background: linear-gradient(180deg, rgba(5,16,43,0.35) 0%, rgba(13,38,97,0.25) 55%, rgba(13,38,97,0.15) 100%); }
+.thread-top .thread__head { border-bottom: none; padding-bottom: 26px; }
+.thread-top .thread__head--over { position: relative; margin-top: -72px; padding-top: 0; }
+.thread-top .thread__kicker { color: rgba(255,255,255,0.8); }
+.thread-top .thread__title { color: #fff; text-shadow: 0 1px 12px rgba(0,0,0,0.25); }
+.thread-top .thread__dates { color: rgba(255,255,255,0.7); }
+.thread-top .thread__dek { color: rgba(255,255,255,0.95); }
+.thread-top .thread__intro { color: rgba(255,255,255,0.85); }
+.thread-top__credit { display: block; margin-top: 18px; font-size: 11px; line-height: 1.4; color: rgba(255,255,255,0.45); text-decoration: none; }
+.thread-top__credit:hover { text-decoration: underline; }
+@media (max-width: 768px) {
+  .thread-top__hero { height: 240px; }
+  .thread-top .thread__head--over { margin-top: -56px; }
+}
