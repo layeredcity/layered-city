@@ -1109,3 +1109,6 @@ html[data-vt] .panel-story { transition: none !important; }
 .overview-group-heading, .city-quote__attribution, .currency-cheatsheet__note,
 .landmark-top__heading .landmark-hero__type,
 .thread-top .thread__kicker, .thread-top .thread__dates { color: var(--electric); }
+/* Thread photo fades into the blue over a longer stretch: the fade starts
+   60px higher than a landmark's. */
+.thread-top__hero img, .thread-top__overlay { -webkit-mask-image: linear-gradient(to bottom, #000 calc(55% - 60px), transparent 100%); mask-image: linear-gradient(to bottom, #000 calc(55% - 60px), transparent 100%); }
