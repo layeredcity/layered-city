@@ -542,6 +542,141 @@
     "image": "The Night Watch - Rembrandt Harmenszoon van Rijn.png"
   },
   {
+    "slug": "van-gogh",
+    "kind": "Artists",
+    "title": "Van Gogh",
+    "dates": "1853–1890",
+    "intro": [
+      "Vincent van Gogh painted for only ten years and sold almost nothing, then became the most famous painter in the world.",
+      "He moved constantly: London, Amsterdam, a Dutch village, Paris, the south of France. The stops follow him in order, and end where most of the paintings are now."
+    ],
+    "image": "Van Gogh - Starry Night - Google Art Project.jpg",
+    "chapters": [
+      {
+        "city": "London",
+        "place": "87 Hackford Road, London",
+        "when": "1873–1876",
+        "heading": "The art dealer",
+        "text": "At twenty Vincent was sent by the dealers Goupil & Co to their London branch near Covent Garden. He lodged at 87 Hackford Road in Stockwell, walked to work across the Thames, and fell for his landlady’s daughter, who turned him down. He drew the house. By 1876 he had been sacked and turned to religion.",
+        "lat": 51.4745,
+        "lon": -0.1151,
+        "zoom": 15,
+        "stories": [
+          "7L9Q4u6Jo5dsYS90SjGoBE"
+        ],
+        "image": "Vincent van Gogh - 87 Hackford Road.jpg",
+        "tip": "The house is now Van Gogh House, an artists’ residency that opens for events. A blue plaque marks it."
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Rijksmuseum, Amsterdam",
+        "when": "1877–1885",
+        "heading": "Rembrandt",
+        "text": "In 1877 he moved to Amsterdam to study for the university entrance exams in theology, lodging with his uncle at the navy yard, and gave up within a year. He came back in 1885 to see the new Rijksmuseum and sat in front of Rembrandt’s Jewish Bride, saying he would give ten years of his life to stay there a fortnight with a crust of bread.",
+        "lat": 52.36,
+        "lon": 4.8852,
+        "zoom": 15,
+        "stories": [
+          "1o2RdmtDvgQtzZanOXSpSY"
+        ],
+        "image": "Rembrandt - The Jewish Bride - WGA19158.jpg"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Nuenen, and the Van Gogh Museum, Amsterdam",
+        "when": "1883–1885",
+        "heading": "The Potato Eaters",
+        "text": "After failing as a preacher in the Belgian mining country, he decided to be an artist and lived with his parents in the village of Nuenen, near Eindhoven. He painted weavers and peasants in browns and greys. The Potato Eaters, from 1885, was his first big picture. Even his friends disliked it. It is in the Van Gogh Museum.",
+        "lat": 51.4436,
+        "lon": 5.5522,
+        "zoom": 12,
+        "stories": [
+          "1rl6lnp1HJnIyhKwZI28Y3",
+          "66kEXXXtJTfmsoxggRmXkT"
+        ],
+        "image": "The Potato Eaters - Vincent Van Gogh.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "54 rue Lepic, Paris",
+        "when": "1886–1888",
+        "heading": "Paris and colour",
+        "text": "In 1886 he turned up in Paris unannounced and moved in with his brother Theo, an art dealer, in a flat at 54 rue Lepic in Montmartre. He met Pissarro, Toulouse-Lautrec and Gauguin, bought Japanese prints and painted some two hundred pictures in two years. His palette went from mud to bright colour.",
+        "lat": 48.8865,
+        "lon": 2.3339,
+        "zoom": 15,
+        "stories": [
+          "6lWY1gvcguooGWlPNrxcKN",
+          "UDqLQoYqcDJw7h3NwsrSX"
+        ],
+        "image": "54 rue Lepic, Theo and Vincent Van Goghs Paris house 2010.jpg"
+      },
+      {
+        "city": "Arles",
+        "place": "The Yellow House, Arles",
+        "when": "1888",
+        "heading": "The south",
+        "text": "In February 1888 he took the train to Arles, wanting the light of Japan. He rented the Yellow House on Place Lamartine and painted orchards, the night café and the stars over the Rhône. In August he painted sunflowers to decorate the room for Paul Gauguin, who arrived in October. One of them is in the National Gallery in London.",
+        "lat": 43.6845,
+        "lon": 4.6311,
+        "zoom": 13,
+        "stories": [
+          "78gzwt9oy3dPCT2uaaquEM",
+          "5Il5UkQmdmzE3uEd0CdORe",
+          "Btn7N1fvnk9k7og6Q5yBZ"
+        ],
+        "image": "Vincent van Gogh - The yellow house ('The street').jpg"
+      },
+      {
+        "city": "Arles",
+        "place": "Espace Van Gogh, Arles",
+        "when": "1888–1890",
+        "heading": "The ear",
+        "text": "Two months together went badly. On 23 December 1888, after a quarrel with Gauguin, Vincent cut off part of his left ear and gave it to a woman at a brothel. He was treated at the town hospital, now the Espace Van Gogh, and painted himself with the bandage weeks later. In May 1889 he admitted himself to the asylum at Saint-Rémy, where he painted The Starry Night.",
+        "lat": 43.677,
+        "lon": 4.6283,
+        "zoom": 15,
+        "stories": [
+          "3f6gcJlR3EVLvNUhg5XqsY"
+        ],
+        "image": "Arles - Espace Van Gogh 1.jpg"
+      },
+      {
+        "city": "Paris",
+        "place": "Auberge Ravoux, Auvers-sur-Oise",
+        "when": "May–July 1890",
+        "heading": "Auvers",
+        "text": "In May 1890 he moved to Auvers-sur-Oise, north of Paris, near Dr Paul Gachet, and painted about seventy pictures in seventy days. On 27 July he shot himself in the chest, probably in the fields, and walked back to his room at the Auberge Ravoux. He died two days later with Theo beside him. Tree Roots was likely his last painting.",
+        "lat": 49.0707,
+        "lon": 2.1715,
+        "zoom": 13,
+        "stories": [
+          "5b3UNBhCSojNZJmOCChp8z",
+          "89bXBlfNOLqdaEzr595qW",
+          "NaliSk6OgyfU5UhCgyAzV"
+        ],
+        "image": "Vincent van Gogh - Wheatfield with crows - Google Art Project.jpg"
+      },
+      {
+        "city": "Amsterdam",
+        "place": "Van Gogh Museum, Amsterdam",
+        "when": "1891–today",
+        "heading": "Jo",
+        "text": "Theo died six months after Vincent. His widow, Johanna van Gogh-Bonger, was left with hundreds of paintings and his letters. She lent and sold the pictures carefully, organised exhibitions and published the letters in 1914. Her son’s collection became the Van Gogh Museum, which opened on Museumplein in 1973.",
+        "lat": 52.3584,
+        "lon": 4.8811,
+        "zoom": 15,
+        "stories": [
+          "ZmLnXKxCwBtEHboNgxm6K",
+          "7wGMtNtb0AC411ampghoiZ",
+          "59uqvkdnKaZxcxJ9tIffee"
+        ],
+        "image": "Van Gogh Museum Amsterdam.jpg",
+        "tip": "Tickets are timed and sell out; book online. The paintings are hung in the order he made them."
+      }
+    ]
+  },
+  {
     "slug": "picasso",
     "kind": "Artists",
     "title": "Picasso and Cubism",
