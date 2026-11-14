@@ -1,7 +1,6 @@
 // Privacy-friendly pageview counting with GoatCounter (no cookies, no
-// personal data). Off until GOATCOUNTER_CODE is set to the site code from
-// goatcounter.com, e.g. 'layeredcity' for layeredcity.goatcounter.com.
-const GOATCOUNTER_CODE = ''
+// personal data), at layeredcity.goatcounter.com. Set GOATCOUNTER_CODE to '' to turn it off.
+const GOATCOUNTER_CODE = 'layeredcity'
 
 let loading = null
 function load() {

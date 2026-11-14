@@ -1,0 +1,36 @@
+# Once a day, checks whether anything in Contentful has changed since the last
+# check. If it has, it records the time in data/content-stamp.txt and commits
+# it, which makes Netlify rebuild the site. The rebuild regenerates the
+# sitemap, the static pages for search engines and the link previews, so
+# they pick up content published in Contentful without a code change.
+name: Content refresh
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '17 9 * * *'
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Latest Contentful change
+        env:
+          TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+        run: |
+          base="https://cdn.contentful.com/spaces/yl6xhrcd616q/environments/master"
+          e=$(curl -sf "$base/entries?order=-sys.updatedAt&limit=1&select=sys.updatedAt&access_token=$TOKEN" | jq -r '.items[0].sys.updatedAt')
+          a=$(curl -sf "$base/assets?order=-sys.updatedAt&limit=1&select=sys.updatedAt&access_token=$TOKEN" | jq -r '.items[0].sys.updatedAt')
+          latest=$(printf '%s\n%s\n' "$e" "$a" | sort | tail -1)
+          [ -n "$latest" ] && [ "$latest" != "null" ] || { echo "No answer from Contentful"; exit 1; }
+          echo "Latest change: $latest"
+          echo "$latest" > data/content-stamp.txt
+      - run: |
+          git add data/content-stamp.txt
+          git diff --cached --quiet && { echo "No changes since last check"; exit 0; }
+          git config user.name "Layered City content refresh"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Content changed in Contentful; rebuild"
+          git pull --rebase origin main
+          git push origin HEAD:main
