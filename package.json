@@ -17,13 +17,14 @@
     "sync:covers": "node scripts/sync-covers.mjs"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "contentful": "^10.11.0",
     "mapbox-gl": "^3.4.0",
-    "contentful": "^10.11.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
+    "sharp": "^0.33.5",
     "vite": "^5.3.1"
   }
 }

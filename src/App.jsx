@@ -12,6 +12,8 @@ import ThreadView from './components/ThreadView'
 import THREADS_DATA from './data/threads.json'
 import { smartQuotes } from './utils/smartQuotes'
 import THREAD_PHOTOS from './data/thread-photos.json'
+import ABOUT from './data/about'
+import { trackPageview } from './utils/analytics'
 import { MUSIC_GLYPH_PATH, MUSIC_GLYPH_VIEWBOX } from './mediaGlyphs'
 import { sizedAsset, squareAsset } from './utils/images'
 import { cityLandmarks, landmarkSummary } from './utils/landmarks'
@@ -1356,6 +1358,42 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
   )
 }
 
+// A small "Report a problem" link under a story, opening a short form that
+// goes to Netlify Forms (see the hidden form in index.html).
+function ReportProblem({ story }) {
+  const [open, setOpen] = useState(false)
+  const [state, setState] = useState('idle') // idle | sending | sent | error
+  const [message, setMessage] = useState('')
+  const [email, setEmail] = useState('')
+  if (!open) return <button type="button" className="report-link" onClick={() => setOpen(true)}>Report a problem with this story</button>
+  if (state === 'sent') return <p className="report-done">Thanks — that’s been sent.</p>
+  const send = async e => {
+    e.preventDefault()
+    if (!message.trim()) return
+    setState('sending')
+    const body = new URLSearchParams({ 'form-name': 'story-feedback', story: story.title || '', 'story-id': story.id, city: location.pathname.split('/')[1] || '', page: location.href, message, email })
+    try {
+      const r = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: body.toString() })
+      setState(r.ok ? 'sent' : 'error')
+    } catch { setState('error') }
+  }
+  return (
+    <form className="report-form" onSubmit={send}>
+      <label className="report-form__label">What’s wrong? A broken link, a mistake, a wrong place…
+        <textarea value={message} onChange={e => setMessage(e.target.value)} rows={3} required />
+      </label>
+      <label className="report-form__label">Your email, if you’d like a reply (optional)
+        <input type="email" value={email} onChange={e => setEmail(e.target.value)} />
+      </label>
+      <div className="report-form__row">
+        <button type="submit" className="report-form__send" disabled={state === 'sending'}>{state === 'sending' ? 'Sending…' : 'Send'}</button>
+        <button type="button" className="report-form__cancel" onClick={() => setOpen(false)}>Cancel</button>
+        {state === 'error' && <span className="report-form__error">That didn’t send. Please try again.</span>}
+      </div>
+    </form>
+  )
+}
+
 // The body of a story — why it's worth your time, its facts and the buttons
 // to watch, listen or read. Shared by the story pop-up and the inline story
 // rows in a thread.
@@ -1504,6 +1542,7 @@ function StoryDetails({ story, omdbData, onOpenMedia }) {
             </a>
           )
         )}
+      <ReportProblem story={story} />
     </>
   )
 }
@@ -1678,7 +1717,7 @@ export default function App() {
   const threadReturnPath = useRef('/')
   const [threadStart, setThreadStart] = useState(null)
   // Left column: the list of cities or the list of threads.
-  const [leftTab, setLeftTab] = useState(() => window.location.pathname.startsWith('/threads/') ? 'threads' : 'cities')
+  const [leftTab, setLeftTab] = useState(() => window.location.pathname.startsWith('/threads/') ? 'threads' : window.location.pathname === '/about' ? 'about' : 'cities')
   const openThread = useCallback((slug, chapter = null) => {
     if (!window.location.pathname.startsWith('/threads/')) threadReturnPath.current = window.location.pathname
     setLeftTab('threads')
@@ -1946,6 +1985,16 @@ export default function App() {
   const wordsAvailable = !!(selectedCity?.wordsPublished && words.length > 0)
   const availableFilters = FILTERS.slice(1).filter(f => !f.hidden).filter(f => f.landmarks ? cityLandmarkStories.length > 0 : f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
 
+  // Tab title for the page in view, and a pageview for analytics.
+  useEffect(() => {
+    const base = 'Layered City'
+    const t = THREADS.find(x => x.slug === openThreadSlug)
+    document.title = t ? `${t.title} | ${base}`
+      : selectedCity ? `${activeFilter && activeFilter !== 'All' ? activeFilter + ' in ' : ''}${selectedCity.name} | ${base}`
+      : `${base} | The guidebook companion for curious travelers in Europe`
+    trackPageview()
+  }, [openThreadSlug, selectedCity, activeFilter])
+
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
     if (t === 'movie' || t === 'tv') return imdbToQualityRating(omdbCache[s.imdbId]?.rating) || 0
@@ -2074,7 +2123,7 @@ export default function App() {
           </div>
         </div>
         <div className="left-tabs" role="tablist">
-          {[['cities', 'Cities'], ['threads', 'Threads']].map(([k, label]) => (
+          {[['cities', 'Cities'], ['threads', 'Threads'], ['about', 'About']].map(([k, label]) => (
             <button key={k} type="button" role="tab" aria-selected={leftTab === k} className={'left-tabs__tab' + (leftTab === k ? ' is-active' : '')} onClick={() => setLeftTab(k)}>{label}</button>
           ))}
         </div>
@@ -2120,6 +2169,16 @@ export default function App() {
           ))}
           </Fragment>))}
           </>)}
+          {leftTab === 'about' && (
+            <div className="about">
+              {ABOUT.map((sec, i) => (
+                <section key={i} className="about__section">
+                  {sec.heading && <h2 className="about__heading">{sec.heading}</h2>}
+                  {sec.paragraphs.map((p, j) => <p key={j} className={i === 0 && j === 0 ? 'about__lead' : 'about__p'}>{p.replace('{cities}', cities.length || 'dozens of')}</p>)}
+                </section>
+              ))}
+            </div>
+          )}
         </div>
       </aside>
 

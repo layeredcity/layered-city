@@ -1053,3 +1053,28 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-story-row__detail .story-modal__why { margin-top: 4px; }
 .thread-story-row__detail .story-modal__btn-row, .thread-story-row__detail > .story-modal__btn { margin-top: 14px; }
 @keyframes thread-story-open { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+
+/* ---------- About tab ---------- */
+.about { padding: 22px 18px 40px 16px; }
+.about__section + .about__section { margin-top: 22px; }
+.about__heading { font-family: var(--font-display); font-size: 20px; font-weight: 400; color: var(--ink); margin: 0 0 8px; line-height: 1.2; }
+.about__lead { font-size: 16px; line-height: 1.5; color: var(--ink); font-weight: 500; margin: 0 0 12px; }
+.about__p { font-size: 14px; line-height: 1.6; color: #47423d; margin: 0 0 10px; }
+@media (max-width: 768px) {
+  .about__lead { font-size: 18px; }
+  .about__p { font-size: 16px; }
+  .about__heading { font-size: 24px; }
+}
+
+/* ---------- Report a problem ---------- */
+.report-link { appearance: none; border: none; background: none; padding: 0; margin: 16px 0 0; font: 500 12px var(--font-body); color: var(--ink-light); text-decoration: underline; text-underline-offset: 2px; cursor: pointer; }
+.report-link:hover { color: var(--ink); }
+.report-done { margin: 16px 0 0; font-size: 13px; color: var(--ink-light); }
+.report-form { margin-top: 16px; display: flex; flex-direction: column; gap: 10px; }
+.report-form__label { display: flex; flex-direction: column; gap: 5px; font-size: 12px; color: var(--ink-light); }
+.report-form textarea, .report-form input { font: 14px var(--font-body); color: var(--ink); border: 1px solid var(--border); border-radius: 8px; padding: 8px 10px; background: var(--white); }
+.report-form__row { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.report-form__send { appearance: none; border: none; border-radius: 8px; background: #153B8F; color: #fff; font: 600 13px var(--font-body); padding: 8px 16px; cursor: pointer; }
+.report-form__send:disabled { opacity: 0.6; }
+.report-form__cancel { appearance: none; border: none; background: none; font: 500 13px var(--font-body); color: var(--ink-light); cursor: pointer; }
+.report-form__error { font-size: 12px; color: #B3261E; }
