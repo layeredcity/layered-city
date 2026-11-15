@@ -1117,3 +1117,18 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-marker.is-active { border-color: #fff; }
 /* Kicker sits 4px closer to the title (optical, not metric, spacing). */
 .thread-top .thread__title { margin-top: 10px; }
+
+/* Narration (prototype): Listen button, the sentence being read, and a small
+   player that sticks to the bottom of the text column. */
+.thread-listen { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; padding: 9px 16px 9px 12px; border: none; border-radius: 999px; background: #fff; color: #0D2661; font: 600 14px var(--font-body); cursor: pointer; }
+.thread-listen svg { width: 18px; height: 18px; }
+.rd { transition: background-color 0.3s, box-shadow 0.3s; border-radius: 3px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
+.rd.is-reading { background: rgba(239,72,83,0.14); box-shadow: 0 0 0 3px rgba(239,72,83,0.14); }
+.thread-top .rd.is-reading { background: rgba(124,192,255,0.22); box-shadow: 0 0 0 3px rgba(124,192,255,0.22); }
+.thread-ch__num--play { cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; padding: 0; }
+.thread-ch__num--play:hover { border-color: #EF4853; color: #EF4853; }
+.thread-player { position: sticky; bottom: 16px; z-index: 6; display: flex; align-items: center; gap: 10px; width: max-content; max-width: calc(100% - 32px); margin: 0 auto; padding: 6px 6px 6px 6px; border-radius: 999px; background: #0D2661; color: #fff; box-shadow: 0 6px 24px rgba(5,16,43,0.35); }
+.thread-player__btn { flex: 0 0 auto; width: 38px; height: 38px; border-radius: 50%; border: none; background: #fff; color: #0D2661; display: flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+.thread-player__btn svg { width: 18px; height: 18px; }
+.thread-player__btn--stop { background: transparent; color: rgba(255,255,255,0.8); }
+.thread-player__label { font: 500 14px var(--font-body); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }

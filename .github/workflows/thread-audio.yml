@@ -1,0 +1,29 @@
+# Narrates the threads listed in data/thread-audio.json with ElevenLabs and
+# commits the audio to public/audio/. Needs the ELEVENLABS_API_KEY secret.
+# Runs when that list changes, or by hand; unchanged segments are skipped.
+name: Thread audio
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/thread-audio.json, scripts/thread-audio.mjs]
+permissions:
+  contents: write
+jobs:
+  narrate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/thread-audio.mjs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      - run: |
+          git add public/audio
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City thread audio"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Thread audio"
+          git pull --rebase origin main
+          git push origin HEAD:main

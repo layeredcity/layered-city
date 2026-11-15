@@ -11,6 +11,7 @@ import mapboxgl from 'mapbox-gl'
 import { fetchStoriesByIds } from '../utils/contentful'
 import PHOTOS from '../data/thread-photos.json'
 import LABELS from '../data/thread-photo-labels.json'
+import { sentences } from '../utils/sentences'
 
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 
@@ -49,6 +50,63 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   const sectionRefs = useRef([])
   const [active, setActive] = useState(-1) // -1 = the intro, whole route in view
   const [stories, setStories] = useState({})
+
+  // Narration (prototype). If public/audio/<slug>/index.json exists (made by
+  // scripts/thread-audio.mjs), a Listen button plays the thread aloud one
+  // segment at a time and highlights the sentence being read, scrolling to
+  // keep it in view.
+  const [narration, setNarration] = useState(null)
+  const [seg, setSeg] = useState(-1) // segment playing, -1 = stopped
+  const [paused, setPaused] = useState(false)
+  const [readingKey, setReadingKey] = useState(null)
+  const audioRef = useRef(null)
+  useEffect(() => {
+    let live = true
+    setNarration(null)
+    fetch(`/audio/${thread.slug}/index.json`).then(r => r.ok ? r.json() : null).then(d => { if (live && d?.segments?.length) setNarration(d) }).catch(() => {})
+    return () => { live = false }
+  }, [thread.slug])
+  const stopNarration = () => {
+    const a = audioRef.current
+    if (a) { a.pause(); a.removeAttribute('src') }
+    setSeg(-1); setPaused(false); setReadingKey(null)
+  }
+  const playSegment = n => {
+    if (!narration || n >= narration.segments.length) { stopNarration(); return }
+    const a = audioRef.current || (audioRef.current = new Audio())
+    const sg = narration.segments[n]
+    a.src = `/audio/${thread.slug}/${sg.file}`
+    a.ontimeupdate = () => {
+      let k = sg.marks[0]?.key
+      for (const m of sg.marks) { if (m.t <= a.currentTime + 0.05) k = m.key; else break }
+      setReadingKey(k)
+    }
+    a.onended = () => playSegment(n + 1)
+    a.play().catch(() => {})
+    setSeg(n); setPaused(false); setReadingKey(sg.marks[0]?.key || null)
+    if ('mediaSession' in navigator) {
+      try { navigator.mediaSession.metadata = new window.MediaMetadata({ title: n === 0 ? thread.title : thread.chapters[n - 1].heading, artist: 'Layered City', album: thread.title }) } catch { /* not supported */ }
+    }
+  }
+  const togglePause = () => {
+    const a = audioRef.current
+    if (!a) return
+    if (a.paused) { a.play().catch(() => {}); setPaused(false) } else { a.pause(); setPaused(true) }
+  }
+  useEffect(() => () => { audioRef.current?.pause() }, [])
+  // Keep the sentence being read about a third of the way down the column.
+  useEffect(() => {
+    const root = scrollRef.current
+    if (!readingKey || !root) return
+    const el = root.querySelector(`[data-rk="${readingKey}"]`)
+    if (!el) return
+    const top = el.getBoundingClientRect().top - root.getBoundingClientRect().top
+    if (top < root.clientHeight * 0.18 || top > root.clientHeight * 0.55) {
+      root.scrollTo({ top: root.scrollTop + top - root.clientHeight * 0.3, behavior: 'smooth' })
+    }
+  }, [readingKey])
+  const rd = k => 'rd' + (readingKey === k ? ' is-reading' : '')
+  const totalMin = narration ? Math.round(narration.segments.reduce((t, x) => t + (x.dur || 0), 0) / 60) : 0
 
   const hero = thread.image && PHOTOS[thread.image]
 
@@ -173,16 +231,24 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
             )}
           <header className={'thread__head' + (hero ? ' thread__head--over' : '')}>
             <div className="thread__kicker">Thread</div>
-            <h1 className="thread__title">{thread.title}</h1>
+            <h1 className={"thread__title " + rd('title')} data-rk="title">{thread.title}</h1>
             <div className="thread__dates">{thread.dates}</div>
+            {narration && (
+              <button type="button" className="thread-listen" onClick={() => (seg < 0 ? playSegment(0) : togglePause())}>
+                {seg >= 0 && !paused
+                  ? <svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>
+                  : <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z" /></svg>}
+                {seg < 0 ? `Listen · ${totalMin} min` : paused ? 'Resume' : 'Pause'}
+              </button>
+            )}
             {/* The intro's first sentence is the lead, set larger; the rest of
                 the intro runs on as one paragraph. */}
             {(() => {
-              const text = thread.intro.join(' ')
-              const m = text.match(/^(.+?[.!?])\s+(.*)$/s)
-              return m
-                ? <><p className="thread__dek">{m[1]}</p><p className="thread__intro">{m[2]}</p></>
-                : <p className="thread__dek">{text}</p>
+              const ss = sentences(thread.intro.join(' '))
+              return <>
+                <p className="thread__dek"><span className={rd('i-0')} data-rk="i-0">{ss[0]}</span></p>
+                {ss.length > 1 && <p className="thread__intro">{ss.slice(1).map((x, j) => <span key={j} className={rd(`i-${j + 1}`)} data-rk={`i-${j + 1}`}>{x} </span>)}</p>}
+              </>
             })()}
             {hero && (
               <a className="thread-top__credit" href={hero.page} target="_blank" rel="noreferrer">
@@ -194,13 +260,15 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
           <ol className="thread__chapters">
             {thread.chapters.map((c, i) => (
               <li key={i} ref={el => { sectionRefs.current[i] = el }} className={'thread-ch' + (i === active ? ' is-active' : '')}>
-                <div className="thread-ch__rail"><span className="thread-ch__num">{i + 1}</span></div>
+                <div className="thread-ch__rail">{narration
+                  ? <button type="button" className="thread-ch__num thread-ch__num--play" onClick={() => playSegment(i + 1)} aria-label={`Listen from chapter ${i + 1}`} title="Listen from here">{i + 1}</button>
+                  : <span className="thread-ch__num">{i + 1}</span>}</div>
                 <div className="thread-ch__body">
                   <div className="thread-ch__when">{c.when}</div>
-                  <h2 className="thread-ch__heading">{c.heading}</h2>
+                  <h2 className={"thread-ch__heading " + rd(`c${i}-h`)} data-rk={`c${i}-h`}>{c.heading}</h2>
                   <div className="thread-ch__place">{c.place}</div>
                   <ThreadPhoto file={c.image} className="thread-img" />
-                  <p className="thread-ch__text">{c.text}</p>
+                  <p className="thread-ch__text">{sentences(c.text).map((x, j) => <span key={j} className={rd(`c${i}-${j}`)} data-rk={`c${i}-${j}`}>{x} </span>)}</p>
                   {c.tip && <p className="thread-ch__tip"><span className="thread-ch__tip-label">If you go</span>{c.tip}</p>}
                   {c.stories.length > 0 && (
                     <div className="thread-ch__stories">
@@ -211,6 +279,19 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
               </li>
             ))}
           </ol>
+          {seg >= 0 && (
+            <div className="thread-player">
+              <button type="button" className="thread-player__btn" onClick={togglePause} aria-label={paused ? 'Resume' : 'Pause'}>
+                {paused
+                  ? <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z" /></svg>
+                  : <svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>}
+              </button>
+              <div className="thread-player__label">{seg === 0 ? thread.title : `${seg}. ${thread.chapters[seg - 1].heading}`}</div>
+              <button type="button" className="thread-player__btn thread-player__btn--stop" onClick={stopNarration} aria-label="Stop">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round" /></svg>
+              </button>
+            </div>
+          )}
         </div>
       </div>
     </div>
