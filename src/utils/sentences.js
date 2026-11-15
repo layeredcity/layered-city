@@ -17,7 +17,9 @@ export function speakable(text) {
 
 // The narration for a thread, as segments (the intro, then one per chapter).
 // Each segment is a list of parts; each part has the key of the element it
-// highlights and the words to say.
+// highlights and the words to say. A chapter's optional `mediaNote` is spoken
+// last and never shown: it says what the stories listed under the chapter
+// are, while the page scrolls down to them.
 export function threadScript(thread) {
   const intro = thread.intro.join(' ')
   const segs = [[
@@ -28,6 +30,7 @@ export function threadScript(thread) {
     segs.push([
       { key: `c${i}-h`, say: `${c.heading}. ${c.place}.` },
       ...sentences(c.text).map((s, j) => ({ key: `c${i}-${j}`, say: s })),
+      ...(c.mediaNote && c.stories?.length ? [{ key: `c${i}-m`, say: c.mediaNote }] : []),
     ])
   })
   return segs.map(parts => parts.map(p => ({ ...p, say: speakable(p.say) })))
