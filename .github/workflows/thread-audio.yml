@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}
   push:
     branches: [main]
-    paths: [data/thread-audio.json, scripts/thread-audio.mjs]
+    paths: [data/thread-audio.json, scripts/thread-audio.mjs, src/data/threads.json, src/utils/sentences.js]
 permissions:
   contents: write
 jobs:
