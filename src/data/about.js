@@ -6,7 +6,7 @@ export default [
     heading: 'What is Layered City?',
     paragraphs: [
       'Layered City is a companion for a trip, not a guide to it. Guidebooks are good at telling you where to go and when it’s open. They’re less good at telling you why a place matters, what happened there, or what it sounds like. That’s what this is for.',
-      'Every city here is built from things other people made: podcast episodes, short documentaries, films, books, songs and walking tours. Each one is pinned to the place it’s about, so when you’re standing in a square you can find the story of that square.',
+      'Every city here is built from things other people made: podcast episodes, short documentaries, films, books, songs, and walking tours. Each one is pinned to the place it’s about, so when you’re standing in a square you can find the story of that square.',
     ],
   },
   {
@@ -24,7 +24,7 @@ export default [
   {
     heading: 'How are things chosen?',
     paragraphs: [
-      'With a point of view, on purpose. Some of it follows my own interests, like architecture, design and how cities are planned, but I try to reach past them, and to include voices that reflect who actually lives in each city.',
+      'With a point of view, on purpose. Some of it follows my own interests, like architecture, design, and how cities are planned, but I try to reach past them, and to include voices that reflect who actually lives in each city.',
     ],
   },
   {
@@ -36,7 +36,7 @@ export default [
   {
     heading: 'What are threads?',
     paragraphs: [
-      'A thread follows one subject, like a painter, a kind of music or a stretch of history, across several cities, for when you want to see how places connect.',
+      'A thread follows one subject, like a painter, a kind of music, or a stretch of history, across several cities, for when you want to see how places connect.',
     ],
   },
   {

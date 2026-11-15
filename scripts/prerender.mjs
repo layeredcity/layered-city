@@ -117,7 +117,7 @@ export default async function prerender() {
     const stories = byCity[c.id] || []
     const present = SECTIONS.filter(sec => stories.some(s => s.type === sec.type))
     const counts = present.map(sec => { const n = stories.filter(s => s.type === sec.type).length; return `${n} ${sec.unit[n === 1 ? 0 : 1]}` })
-    const description = clip(`Podcasts, films, books, music and walking tours pinned to the places in ${c.name} they’re about: ${counts.join(', ')}.`)
+    const description = clip(`Podcasts, films, books, music, and walking tours pinned to the places in ${c.name} they’re about: ${counts.join(', ')}.`)
     const body = `<h1>${esc(c.name)}</h1><p>${esc(c.country)}</p>${c.quote ? `<blockquote>${esc(c.quote)}${c.quoteBy ? ` — ${esc(c.quoteBy)}` : ''}</blockquote>` : ''}` +
       present.map(sec => `<h2><a href="/${c.slug}/${slugify(sec.label)}">${sec.label}</a></h2>` + storyList(stories.filter(s => s.type === sec.type))).join('')
     await write(`${c.slug}.html`, page(shell, { title: `${c.name} | Layered City`, description, url: `${SITE}/${c.slug}`, image: cityImage(c), body }))
@@ -172,7 +172,7 @@ export default async function prerender() {
     '</ul><h2>Threads</h2><ul>' + threads.map(t => `<li><a href="/threads/${t.slug}">${esc(t.title)}</a>: ${esc(clip(t.intro[0], 140))}</li>`).join('') + '</ul>'
   await fs.writeFile(path.join(DIST, 'index.html'), page(shell, {
     title: `Layered City | ${TAGLINE}`,
-    description: `Podcasts, films, books, music and walking tours pinned to the places they’re about, in ${cities.length} European cities.`,
+    description: `Podcasts, films, books, music, and walking tours pinned to the places they’re about, in ${cities.length} European cities.`,
     url: SITE + '/', image: homeImage, body: homeBody,
   }))
 
