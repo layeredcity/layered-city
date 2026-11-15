@@ -313,7 +313,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .food-item__map svg { width: 11px; height: 11px; flex-shrink: 0; }
 
 .story-item__body { flex: 1; min-width: 0; }
-.story-item__title { font-size: 16px; font-weight: 500; color: var(--ink); line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.story-item__title { font-size: 16px; font-weight: 500; color: var(--ink); line-height: 1.35; } /* always the full title, never clamped */
 /* Tour titles are often long; let them wrap to as many lines as they need
    rather than clamp to two. Tours only — every other type keeps the clamp. */
 .story-item__title--tour { display: block; -webkit-line-clamp: none; overflow: visible; }
