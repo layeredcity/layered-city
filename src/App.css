@@ -1122,9 +1122,7 @@ html[data-vt] .panel-story { transition: none !important; }
    player that sticks to the bottom of the text column. */
 .thread-listen { display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; padding: 9px 16px 9px 12px; border: none; border-radius: 999px; background: #fff; color: #0D2661; font: 600 14px var(--font-body); cursor: pointer; }
 .thread-listen svg { width: 18px; height: 18px; }
-.rd { transition: background-color 0.3s, box-shadow 0.3s; border-radius: 3px; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
-.rd.is-reading { background: rgba(239,72,83,0.14); box-shadow: 0 0 0 3px rgba(239,72,83,0.14); }
-.thread-top .rd.is-reading { background: rgba(124,192,255,0.22); box-shadow: 0 0 0 3px rgba(124,192,255,0.22); }
+/* The sentence being read isn’t highlighted (it felt like a screen reader); the column just scrolls along with it. */
 .thread-ch__num--play { cursor: pointer; font: inherit; font-size: 13px; font-weight: 700; padding: 0; }
 .thread-ch__num--play:hover { border-color: #EF4853; color: #EF4853; }
 .thread-player { position: sticky; bottom: 16px; z-index: 6; display: flex; align-items: center; gap: 10px; width: max-content; max-width: calc(100% - 32px); margin: 0 auto; padding: 6px 6px 6px 6px; border-radius: 999px; background: #0D2661; color: #fff; box-shadow: 0 6px 24px rgba(5,16,43,0.35); }
