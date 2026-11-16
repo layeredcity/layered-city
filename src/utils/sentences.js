@@ -3,7 +3,8 @@
 // scripts/thread-audio.mjs (which times each sentence in the narration), so
 // both must split identically.
 export function sentences(text) {
-  return (text || '').split(/(?<=[.!?”’)])\s+(?=[A-Z0-9“‘"'(À-Ž])/).filter(Boolean)
+  // Not after abbreviations like “St.” and “Dr.”, which are followed by a name.
+  return (text || '').split(/(?<=[.!?”’)])(?<!\b(?:St|Dr|Mr|Mrs|Ms)\.)\s+(?=[A-Z0-9“‘"'(À-Ž])/).filter(Boolean)
 }
 
 // What the narrator says for a piece of text: year ranges are read as
