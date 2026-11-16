@@ -1176,3 +1176,11 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-player__btn--skip:disabled { opacity: 0.35; cursor: default; }
 .thread-player__btn--skip + .thread-player__btn--skip { margin-left: -8px; }
 .thread-player__label { margin-right: 2px; }
+
+/* Player label: a short title over a smaller line with the stop and place. */
+.thread-player__label { display: flex; flex-direction: column; line-height: 1.2; padding-right: 2px; }
+.thread-player__title { font: 600 14px var(--font-body); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.thread-player__sub { font: 400 12px var(--font-body); color: rgba(255,255,255,0.7); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 768px) {
+  .thread-player { left: 24px; right: 24px; }
+}

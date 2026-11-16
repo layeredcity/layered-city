@@ -312,7 +312,14 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                   ? <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z" /></svg>
                   : <svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>}
               </button>
-              <div className="thread-player__label">{seg === 0 ? thread.title : `${seg}. ${thread.chapters[seg - 1].heading}`}</div>
+              {/* Two short lines: what the chapter is about, then where and which stop.
+                  Chapters carry a `short` label (and `shortPlace` when the city
+                  field isn't the real place); otherwise the heading is used. */}
+              <div className="thread-player__label">
+                {seg === 0
+                  ? <><span className="thread-player__title">{thread.title}</span><span className="thread-player__sub">Introduction</span></>
+                  : (c => <><span className="thread-player__title">{c.short || c.heading}</span><span className="thread-player__sub">{seg} of {thread.chapters.length} · {c.shortPlace || c.city}</span></>)(thread.chapters[seg - 1])}
+              </div>
               <button type="button" className="thread-player__btn thread-player__btn--skip" onClick={() => skip(-1)} aria-label="Previous chapter">
                 <svg viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="5" width="2.5" height="14" rx="1" /><path d="M19 6.2v11.6a1 1 0 0 1-1.53.85L9.6 13.7a.85.85 0 0 1 0-1.44l7.87-4.95A1 1 0 0 1 19 6.2z" /></svg>
               </button>

@@ -570,7 +570,8 @@
           "items": [
             "If you want more on his London years, a podcast episode asks how the city set him on the road to painting."
           ]
-        }
+        },
+        "short": "Art dealer"
       },
       {
         "city": "Amsterdam",
@@ -589,7 +590,8 @@
           "items": [
             "To look more closely at The Jewish Bride, there is a podcast episode about the painting he sat in front of for hours."
           ]
-        }
+        },
+        "short": "Rembrandt"
       },
       {
         "city": "Amsterdam",
@@ -611,7 +613,9 @@
             "A longer video explains what Van Gogh wanted the painting to say, and why critics disliked it.",
             "In a shorter one, two art historians look at why he painted farm workers, and how the rough brushwork suits the family’s hard life."
           ]
-        }
+        },
+        "short": "The Potato Eaters",
+        "shortPlace": "Nuenen"
       },
       {
         "city": "Paris",
@@ -630,7 +634,8 @@
           "items": [
             "For more on these two years, there is a podcast episode in which two art historians explain how Paris and the Japanese prints changed the way he painted."
           ]
-        }
+        },
+        "short": "Colour"
       },
       {
         "city": "Arles",
@@ -654,7 +659,8 @@
             "A feature-length documentary follows the sunflower paintings from Arles to museums around the world.",
             "A short video looks at the self-portrait Gauguin sent him that year."
           ]
-        }
+        },
+        "short": "The Yellow House"
       },
       {
         "city": "Arles",
@@ -676,7 +682,8 @@
             "A podcast episode takes a slow look at the self-portrait with the bandaged ear, which now hangs in the Courtauld Gallery in London.",
             "A short video argues that his colours and compositions often reflected his state of mind."
           ]
-        }
+        },
+        "short": "The ear"
       },
       {
         "city": "Paris",
@@ -700,7 +707,9 @@
             "A video looks at Tree Roots, and at the recent discovery of the exact spot he painted.",
             "Loving Vincent is a feature film that investigates how he died, and every frame of it is an oil painting."
           ]
-        }
+        },
+        "short": "Last days",
+        "shortPlace": "Auvers-sur-Oise"
       },
       {
         "city": "Amsterdam",
@@ -723,7 +732,8 @@
             "A podcast episode tells how Jo made Van Gogh famous.",
             "Van Gogh: The Life is a long biography, built on his letters."
           ]
-        }
+        },
+        "short": "Jo"
       }
     ]
   },
@@ -2222,7 +2232,8 @@
             "A short, personal book by a modern philosopher tells the story of his expulsion."
           ]
         },
-        "image": "Spinozamonument Amsterdam.jpg"
+        "image": "Spinozamonument Amsterdam.jpg",
+        "short": "Spinoza"
       },
       {
         "city": "Paris",
@@ -2244,7 +2255,8 @@
             "A short video looks at The Oath of the Horatii, a painting by Jacques-Louis David that caught the mood of Paris a few years before the Revolution."
           ]
         },
-        "image": "Façade Panthéon Paris 1.jpg"
+        "image": "Façade Panthéon Paris 1.jpg",
+        "short": "The Encyclopédie"
       },
       {
         "city": "Berlin",
@@ -2263,7 +2275,9 @@
             "For the whole contradictory man, there is a radio discussion about his wars, his writing, and his court at Sanssouci."
           ]
         },
-        "image": "Schloss Sanssouci Potsdam - Weinbergterrasse 01.jpg"
+        "image": "Schloss Sanssouci Potsdam - Weinbergterrasse 01.jpg",
+        "short": "Frederick the Great",
+        "shortPlace": "Potsdam"
       },
       {
         "city": "Lisbon",
@@ -2282,7 +2296,8 @@
             "To see what Pombal built, there is a short video about how he rebuilt the city after the earthquake."
           ]
         },
-        "image": "Praça do Comércio, Lisboa 05.jpg"
+        "image": "Praça do Comércio, Lisboa 05.jpg",
+        "short": "The earthquake"
       },
       {
         "city": "London",
@@ -2304,7 +2319,8 @@
             "A short episode takes a slow look at Wright’s painting, which hangs in the National Gallery."
           ]
         },
-        "image": "Dr Johnsons House - 17 Gough Square, City of London (4043340189).jpg"
+        "image": "Dr Johnsons House - 17 Gough Square, City of London (4043340189).jpg",
+        "short": "Johnson’s dictionary"
       },
       {
         "city": "Edinburgh",
@@ -2330,7 +2346,8 @@
             "A walking tour follows the thinkers through the Old Town."
           ]
         },
-        "image": "6. Bronze statue of philosopher David Hume (1711-1776 CE), by Alexander Stoddart. Royal Mile, Edinburgh, Scotland, UK.jpg"
+        "image": "6. Bronze statue of philosopher David Hume (1711-1776 CE), by Alexander Stoddart. Royal Mile, Edinburgh, Scotland, UK.jpg",
+        "short": "Hume and Smith"
       },
       {
         "city": "Copenhagen",
@@ -2352,7 +2369,8 @@
             "A Danish film dramatises the affair and the reforms."
           ]
         },
-        "image": "Christiansborg Ridebane fra Tårnet.jpg"
+        "image": "Christiansborg Ridebane fra Tårnet.jpg",
+        "short": "Struensee"
       },
       {
         "city": "London",
@@ -2371,7 +2389,8 @@
             "For the whole strange story, there is a short video about how his body ended up on display."
           ]
         },
-        "image": "Jeremy Bentham UCL founder.jpg"
+        "image": "Jeremy Bentham UCL founder.jpg",
+        "short": "Bentham"
       }
     ]
   },
@@ -4095,7 +4114,8 @@
             "A book describes the city Hitler knew, a place of cheap hostels and resentment.",
             "An audio tour walks you past his lodgings and the academy that rejected him."
           ]
-        }
+        },
+        "short": "Young Hitler"
       },
       {
         "city": "Rome",
@@ -4131,7 +4151,9 @@
             "Another covers his fall in 1943.",
             "A book follows what happened to his body after Piazzale Loreto, which was buried, stolen, and fought over for years."
           ]
-        }
+        },
+        "short": "Mussolini",
+        "shortPlace": "Rome and Milan"
       },
       {
         "city": "Lisbon",
@@ -4155,7 +4177,8 @@
             "A feature film re-creates the day of the 1974 coup.",
             "A book covers the same day in more detail."
           ]
-        }
+        },
+        "short": "Salazar"
       },
       {
         "city": "Madrid",
@@ -4177,7 +4200,8 @@
             "A documentary follows victims of the regime as they go to court decades later.",
             "A long history book counts the civilians killed by Franco’s side."
           ]
-        }
+        },
+        "short": "Franco"
       },
       {
         "city": "Oslo",
@@ -4196,7 +4220,8 @@
           "items": [
             "For the full story of Quisling, there is a podcast episode about him, and about how his name became an insult."
           ]
-        }
+        },
+        "short": "Quisling"
       },
       {
         "city": "Berlin",
@@ -4218,7 +4243,8 @@
             "A short video shows the rooms as they were found, and what became of them.",
             "Downfall is a German feature film about Hitler’s last ten days, based on his secretary’s memoir."
           ]
-        }
+        },
+        "short": "The bunker"
       },
       {
         "city": "Belgrade",
@@ -4242,7 +4268,8 @@
             "Another covers his death and what followed.",
             "There is also a short biography."
           ]
-        }
+        },
+        "short": "Tito"
       },
       {
         "city": "Athens",
@@ -4264,7 +4291,8 @@
             "In one, a resistance fighter describes the coup and what happened to him afterwards.",
             "The other reports on the students at the Polytechnic."
           ]
-        }
+        },
+        "short": "The colonels"
       },
       {
         "city": "Bucharest",
@@ -4288,7 +4316,8 @@
             "A short video is about the palace.",
             "In another podcast episode, a British diplomat describes watching Romania go hungry in the early 1980s."
           ]
-        }
+        },
+        "short": "Ceaușescu"
       }
     ],
     "image": "Palace of the Parliament in Bucharest (51878975552).jpg"
@@ -6609,7 +6638,8 @@
           "items": [
             "To see how it was put together, there is a short video about how Trajan’s Markets were built and what they held."
           ]
-        }
+        },
+        "short": "Trajan’s Markets"
       },
       {
         "city": "Kraków",
@@ -6633,7 +6663,8 @@
             "One short video goes down into the museum under the square.",
             "Another visits the farmers’ stalls at Stary Kleparz."
           ]
-        }
+        },
+        "short": "Market square"
       },
       {
         "city": "Istanbul",
@@ -6655,7 +6686,8 @@
             "A podcast episode tells its history, including its darker stories.",
             "A short video walks through the lanes."
           ]
-        }
+        },
+        "short": "Grand Bazaar"
       },
       {
         "city": "Amsterdam",
@@ -6674,7 +6706,8 @@
           "items": [
             "If you want to understand the bubble, there is a short podcast episode in which an economist explains how the tulip trade worked."
           ]
-        }
+        },
+        "short": "Tulip mania"
       },
       {
         "city": "Madrid",
@@ -6696,7 +6729,8 @@
             "A podcast episode recorded at El Rastro describes what is for sale and gives tips for a visit.",
             "A short video picks out things to eat at the Mercado de San Miguel."
           ]
-        }
+        },
+        "short": "El Rastro"
       },
       {
         "city": "Florence",
@@ -6715,7 +6749,8 @@
           "items": [
             "If you are curious about that sandwich, there is a video about lampredotto, and the people who queue for it."
           ]
-        }
+        },
+        "short": "Mercato Centrale"
       },
       {
         "city": "Paris",
@@ -6734,7 +6769,8 @@
           "items": [
             "To see what it looks like today, there is a short video that explores the stalls at Les Puces and stops for lunch."
           ]
-        }
+        },
+        "short": "Les Puces"
       },
       {
         "city": "Budapest",
@@ -6756,7 +6792,8 @@
             "One looks around the market hall.",
             "The other tells the story of goulash, the paprika stew that became Hungary’s national dish."
           ]
-        }
+        },
+        "short": "Great Market Hall"
       },
       {
         "city": "Glasgow",
@@ -6778,7 +6815,8 @@
             "A video marks a hundred years of the Barras.",
             "A podcast episode tells the story of the Barrowland Ballroom."
           ]
-        }
+        },
+        "short": "The Barras"
       },
       {
         "city": "Marseille",
@@ -6801,7 +6839,8 @@
             "A podcast episode uses bouillabaisse to tell the story of who came to Marseille.",
             "The other is the Julia Child episode, in which she makes the stew."
           ]
-        }
+        },
+        "short": "Fish quay"
       }
     ],
     "image": "Istanbul - Grand Bazaar (55107617958).jpg"
@@ -7245,7 +7284,8 @@
             "To hear more about the city’s Greek beginnings, there is a podcast episode about the settlers who founded it."
           ]
         },
-        "image": "Marseille - Le jardin des vestiges.JPG"
+        "image": "Marseille - Le jardin des vestiges.JPG",
+        "short": "The first vines"
       },
       {
         "city": "Rome",
@@ -7264,7 +7304,8 @@
             "For a closer look at the mosaics, there is a short video about the building and the grape harvest on its ceiling."
           ]
         },
-        "image": "The Mausoleum of Costanza (Constantina) (V) (7556340052).jpg"
+        "image": "The Mausoleum of Costanza (Constantina) (V) (7556340052).jpg",
+        "short": "Harvest mosaics"
       },
       {
         "city": "Seville",
@@ -7286,7 +7327,9 @@
             "In another, a sherry enthusiast explains the bodegas, the wineries where it ages, from La Venencia, an old sherry bar in Madrid."
           ]
         },
-        "image": "Bodega Gonzalez- Byas Jerez de la Frontera.JPG"
+        "image": "Bodega Gonzalez- Byas Jerez de la Frontera.JPG",
+        "short": "Sherry",
+        "shortPlace": "Jerez"
       },
       {
         "city": "London",
@@ -7305,7 +7348,8 @@
             "To hear how that family trade continues, there is a podcast episode with the son of a port maker who now runs a Portuguese restaurant in London."
           ]
         },
-        "image": "Boats of Port Wine in Vila Nova de Gaia, Porto in the background - panoramio.jpg"
+        "image": "Boats of Port Wine in Vila Nova de Gaia, Porto in the background - panoramio.jpg",
+        "short": "Port"
       },
       {
         "city": "Vienna",
@@ -7327,7 +7371,8 @@
             "A food walk through the old centre includes a glass of Viennese wine."
           ]
         },
-        "image": "Heuriger Bach Hengl Föhrenbuschen.jpg"
+        "image": "Heuriger Bach Hengl Föhrenbuschen.jpg",
+        "short": "Heurigen"
       },
       {
         "city": "Paris",
@@ -7346,7 +7391,8 @@
             "For the story from someone who was there, there is a short podcast episode about the tasting."
           ]
         },
-        "image": "Madeleine Paris.jpg"
+        "image": "Madeleine Paris.jpg",
+        "short": "The Paris tasting"
       },
       {
         "city": "Venice",
@@ -7370,7 +7416,8 @@
             "A walking tour stops at five of the old bars."
           ]
         },
-        "image": "\" 05 - ITALY - un bacaro a Venezia Osteria appetizers restaurant in Venice wine enoteca.jpg"
+        "image": "\" 05 - ITALY - un bacaro a Venezia Osteria appetizers restaurant in Venice wine enoteca.jpg",
+        "short": "Bàcari"
       },
       {
         "city": "London",
@@ -7389,7 +7436,8 @@
             "To meet the people who work it, there is a short video about the vineyard and its volunteers."
           ]
         },
-        "image": "Forty Hall, Enfield, UK.jpg"
+        "image": "Forty Hall, Enfield, UK.jpg",
+        "short": "London vineyard"
       }
     ]
   },
