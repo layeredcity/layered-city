@@ -1170,3 +1170,9 @@ html[data-vt] .panel-story { transition: none !important; }
   .thread-player { position: fixed; left: 16px; right: 16px; bottom: max(16px, calc(env(safe-area-inset-bottom) - 6px)); width: auto; max-width: none; margin: 0; }
   .thread-player__label { flex: 1 1 auto; }
 }
+
+/* Previous / next chapter in the narration player. */
+.thread-player__btn--skip { width: 34px; background: transparent; color: #fff; }
+.thread-player__btn--skip:disabled { opacity: 0.35; cursor: default; }
+.thread-player__btn--skip + .thread-player__btn--skip { margin-left: -8px; }
+.thread-player__label { margin-right: 2px; }

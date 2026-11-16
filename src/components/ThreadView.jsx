@@ -85,8 +85,24 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     a.play().catch(() => {})
     setSeg(n); setPaused(false); setReadingKey(sg.marks[0]?.key || null)
     if ('mediaSession' in navigator) {
+      try {
+        navigator.mediaSession.setActionHandler('previoustrack', () => skip(-1))
+        navigator.mediaSession.setActionHandler('nexttrack', () => skip(1))
+      } catch { /* not supported */ }
       try { navigator.mediaSession.metadata = new window.MediaMetadata({ title: n === 0 ? thread.title : thread.chapters[n - 1].heading, artist: 'Layered City', album: thread.title }) } catch { /* not supported */ }
     }
+  }
+  // Previous / next chapter. "Previous" first restarts the current chapter
+  // if it's more than a few seconds in, like a music player.
+  const segRef = useRef(-1)
+  segRef.current = seg
+  const skip = d => {
+    const a = audioRef.current
+    const cur = segRef.current
+    if (cur < 0 || !narration) return
+    if (d < 0 && a && a.currentTime > 3) { a.currentTime = 0; return }
+    const n = Math.min(Math.max(0, cur + d), narration.segments.length - 1)
+    if (n !== cur || d < 0) playSegment(n)
   }
   const togglePause = () => {
     const a = audioRef.current
@@ -297,6 +313,12 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                   : <svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>}
               </button>
               <div className="thread-player__label">{seg === 0 ? thread.title : `${seg}. ${thread.chapters[seg - 1].heading}`}</div>
+              <button type="button" className="thread-player__btn thread-player__btn--skip" onClick={() => skip(-1)} aria-label="Previous chapter">
+                <svg viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="5" width="2.5" height="14" rx="1" /><path d="M19 6.2v11.6a1 1 0 0 1-1.53.85L9.6 13.7a.85.85 0 0 1 0-1.44l7.87-4.95A1 1 0 0 1 19 6.2z" /></svg>
+              </button>
+              <button type="button" className="thread-player__btn thread-player__btn--skip" onClick={() => skip(1)} disabled={seg >= narration.segments.length - 1} aria-label="Next chapter">
+                <svg viewBox="0 0 24 24" fill="currentColor"><rect x="16.5" y="5" width="2.5" height="14" rx="1" /><path d="M5 6.2v11.6a1 1 0 0 0 1.53.85l7.87-4.95a.85.85 0 0 0 0-1.44L6.53 7.31A1 1 0 0 0 5 6.2z" /></svg>
+              </button>
               <button type="button" className="thread-player__btn thread-player__btn--stop" onClick={stopNarration} aria-label="Stop">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round" /></svg>
               </button>
