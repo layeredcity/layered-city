@@ -1,0 +1,269 @@
+{
+ "generated": "2026-11-16T17:02:07.177Z",
+ "text": "He dreamed of a “studio of the south” where artists would live and work together, and he talked Gauguin into joining him. The two men painted side by side for nine weeks, but they argued constantly. On the night of December 23, 1888, after a bad quarrel, Van Gogh cut off part of his left ear with a razor.",
+ "current": "XrExE9yKIg1WjnnlVkGX",
+ "voices": [
+  {
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "name": "Matilda - Knowledgable, Professional",
+   "current": "Current narrator",
+   "gender": "female",
+   "accent": "american",
+   "description": "A professional woman with a pleasing alto pitch. Suitable for many use cases.",
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "XrExE9yKIg1WjnnlVkGX-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+   "name": "Jon",
+   "current": "Current title voice",
+   "gender": "male",
+   "accent": "american",
+   "description": "",
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "MFZUKuGQUsGJPQjTS4wC-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "uYXf8XasLslADfZ2MB4u",
+   "owner": "7d272ea0221fbc9ce382a3eaf4d7f907179558360d93b351ec7d344d30023cf9",
+   "name": "Hope - Bubbly, Gossipy and Girly",
+   "gender": "female",
+   "age": "young",
+   "accent": "American",
+   "description": "A voice that sounds like a genuine conversation — natural mmms, ahhs, chuckles, and pauses make her perfectly imperfect, like chatting with a close friend or thoughtful AI therapist. Perfect for any AI assistant, best friend, therapist, aud",
+   "uses_1y": 5979068097,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "uYXf8XasLslADfZ2MB4u-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "yj30vwTGJxSHezdAGsv9",
+   "owner": "f995f689648bc413c1b7fb9ec8524f634e4d32f5030ee172ef6d847ba9dc5ee9",
+   "name": "Jessa - Easygoing and Effortless",
+   "gender": "female",
+   "age": "young",
+   "accent": "American",
+   "description": "A natural, effortless, and relatable female voice with a casual, off-the-cuff style that feels genuinely real.",
+   "uses_1y": 3987083706,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "yj30vwTGJxSHezdAGsv9-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "DLsHlh26Ugcm6ELvS0qi",
+   "owner": "68b2b457084a4258a6d22d361b6abcb7631a988b8ddabd6cb7d548530efdd859",
+   "name": "Ms. Walker – Warm, Reassuring, and Round",
+   "gender": "female",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "A comforting Southern voice that feels like home—with a spark of excitement in every word. Ms. Walker blends warmth, wisdom, and that proud mama energy that lifts you up and keeps you going. Whether she’s telling stories, giving advice, or ",
+   "uses_1y": 3743633729,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "DLsHlh26Ugcm6ELvS0qi-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "yM93hbw8Qtvdma2wCnJG",
+   "owner": "76fb06688ef565775843b4efa41dd61de204a6cf28aa7ba86536140378d39188",
+   "name": "Ivanna - Young, Versatile and Casual",
+   "gender": "female",
+   "age": "young",
+   "accent": "American",
+   "description": "A dynamic and versatile voice, perfect for bringing your projects to life. With a youthful, fresh tone and a natural delivery, this voice captivates audiences effortlessly. Featuring a clear and neutral US English accent, it’s ideal for pod",
+   "uses_1y": 3709605520,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "yM93hbw8Qtvdma2wCnJG-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "lxYfHSkYm1EzQzGhdbfc",
+   "owner": "066125d0c3eac062cd6655ed319d2347c29d07eab96ee22c6ebe7ef1841c3b1a",
+   "name": "Jessica Anne Bogart - A VO Professional; now cloned!",
+   "gender": "female",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "A credited VoiceOver actor, now cloned. Confident, Conversational.",
+   "uses_1y": 3352008093,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "lxYfHSkYm1EzQzGhdbfc-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "XfNU2rGpBa01ckF309OY",
+   "owner": "2f06b94223212b276650562b935af0b0c3d45abc717f3fd23fa458016cf4130b",
+   "name": "Nichalia Schwartz - Bright and Friendly",
+   "gender": "female",
+   "age": "young",
+   "accent": "American",
+   "description": "Friendly, intelligent, engaging 20s-30s female American. Ideal for audiobooks, long-form narration, eLearning / e-learning, YouTube channel narration, educational material, explainers, podcasts, and corporate training videos. My natural, co",
+   "uses_1y": 3206968092,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "XfNU2rGpBa01ckF309OY-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "ZthjuvLPty3kTMaNKVKb",
+   "owner": "37242178387aa74ac807790c7307e81312f0791cf06777a4791b86d941a77525",
+   "name": "Peter",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "Confident, reliable, credible narrator. A resolute voice that you can trust.",
+   "uses_1y": 5554749496,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "ZthjuvLPty3kTMaNKVKb-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "EkK5I93UQWFDigLMpZcX",
+   "owner": "4924aa9f5b71211c5655bbeed2ee9b9e8e58e840807ba5d783a0fe0d339afc54",
+   "name": "James - Husky, Engaging and Bold",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "A slightly husky and bassy voice with a standard American accent. Modulated, controlled, and direct and perfect for audiobooks, captivating narrations, or storytelling, or other professional voiceover work.",
+   "uses_1y": 4776939322,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "EkK5I93UQWFDigLMpZcX-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "uju3wxzG5OhpWcoi3SMy",
+   "owner": "95e7935f31f209326e8bbd4ec2ebbd05ce34d72c04dac7da2d5b9d422ea05caf",
+   "name": "Michael C. Vincent - Confident, Expressive",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "A confident and expressive narrator across multiple genres. Warm bass tones and crisp high-end clarity deliver an articulate, intelligent voice suited for commercials, explainers, educational narrations and storytelling.",
+   "uses_1y": 4542936782,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "uju3wxzG5OhpWcoi3SMy-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "NNl6r8mD7vthiJatiJt1",
+   "owner": "f426b5e4e149cced75ac3745b8ef7071a45c5e94648bbb4eef3a45c303152e71",
+   "name": "Bradford - Expressive and Articulate",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "An adult British Male Storyteller. Expressive, articulate, and engaging!",
+   "uses_1y": 3404676681,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "NNl6r8mD7vthiJatiJt1-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "alFofuDn3cOwyoz1i44T",
+   "owner": "48bb76e670688ffb83b5c79f932a88b6eda68e4623f6ba36e763ac9be03c3428",
+   "name": "Dallin - Positive, Inspiring and Clear",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "Adult American Male Voice. Calming, Deep, Warm. Perfect for stories.",
+   "uses_1y": 2545287826,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "alFofuDn3cOwyoz1i44T-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "gUABw7pXQjhjt0kNFBTF",
+   "owner": "3faac6dcbbd5f188317e3336732e56a34190e84ac9ed772320a895227c7ffe67",
+   "name": "Andrew - Smooth, Smart and Clear",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "Middle age American male, smooth voice. Suitable for Audiobooks, promotional voice overs.",
+   "uses_1y": 2482793857,
+   "clips": [
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "gUABw7pXQjhjt0kNFBTF-v3.mp3"
+    }
+   ]
+  }
+ ]
+}
