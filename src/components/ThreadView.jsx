@@ -272,7 +272,10 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                   {c.tip && <p className="thread-ch__tip"><span className="thread-ch__tip-label">If you go</span>{c.tip}</p>}
                   {c.stories.length > 0 && (
                     <div className={'thread-ch__stories ' + rd(`c${i}-m`)} data-rk={`c${i}-m`}>
-                      {c.stories.map(id => stories[id]).filter(Boolean).sort((a, b) => typeRank(a) - typeRank(b)).map(st => <div key={st.id}>{renderStory(st)}</div>)}
+                      {(c.mediaNote
+                        ? c.stories.map(id => stories[id]).filter(Boolean) // listed in the order the narrator describes them
+                        : c.stories.map(id => stories[id]).filter(Boolean).sort((a, b) => typeRank(a) - typeRank(b))
+                      ).map(st => <div key={st.id}>{renderStory(st)}</div>)}
                     </div>
                   )}
                 </div>
