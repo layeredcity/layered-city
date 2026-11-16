@@ -1,17 +1,1256 @@
 [
  {
-  "id": "5fHlLZGhEpuSy5DUXJwOWx",
-  "city": "London",
-  "foodName": "Ploughman’s lunch",
-  "foodDescription": "Cheddar, pickle, bread, butter and often ham on a board, with no cooking involved at any point. It sounds medieval and was invented in the 1950s to sell more cheese in pubs. Still the right thing to order beside a pint.",
+  "id": "5zpshCMfQ95nS5zQLmXbdV",
+  "city": "Liverpool",
+  "foodName": "Liverpool tart",
+  "foodDescription": "A shortcrust tart filled with a whole lemon, peel and all, cooked down with brown sugar, butter, and egg. Sharper and darker than a French lemon tart, with a faint bitterness from the rind. An old home recipe, now mostly found in cookbooks and a few cafés.",
+  "listOrder": 5
+ },
+ {
+  "id": "1PTahzFJlmDBejf2XuYLnF",
+  "city": "Liverpool",
+  "foodName": "Meat and potato pie",
+  "foodDescription": "Minced beef, onion, and potato in shortcrust, the matchday lunch around the football grounds. The best known come from Homebaked, the co-operative bakery on Oakfield Road opposite Anfield, Liverpool FC’s stadium. On match days they sell out before kickoff.",
   "listOrder": 9
+ },
+ {
+  "id": "5CGPVyuZlsnAMqQoBMUBiO",
+  "city": "Naples",
+  "foodName": "Pizza margherita",
+  "foodDescription": "Tomato, buffalo mozzarella, basil, and nothing else, baked ninety seconds in a wood oven until the rim blisters black and the center stays soupy. Naples invented this and protects it by law. Fold it in quarters if you are standing.",
+  "listOrder": 1
+ },
+ {
+  "id": "5BqaGF4189rV8XMxzOGAEh",
+  "city": "London",
+  "foodName": "Kedgeree",
+  "foodDescription": "Smoked haddock, rice, curry spice, hard-boiled egg, and parsley, eaten at breakfast. Anglo-Indian by birth, carried home by colonial officials and adopted by Victorian country houses. It sounds strange and works completely.",
+  "listOrder": 10
+ },
+ {
+  "id": "01O43X76GQs9p1X0O4H0OR",
+  "city": "Manchester",
+  "foodName": "Chips, gravy and a barm",
+  "foodDescription": "Thick-cut chips buried in beef gravy with a barm — the northern word for a soft bread roll — alongside, or built into a sandwich around the chips. Cheap, hot, and unrepentant. The regional test of any chip shop.",
+  "listOrder": 1
+ },
+ {
+  "id": "2LKMFXh9f6U6n0dERDgZ8r",
+  "city": "Manchester",
+  "foodName": "Eccles cake",
+  "foodDescription": "A flat round of flaky pastry packed with currants, sugar and butter, the top slashed, and sugared. Named for the town nearby and sold in every bakery. Eat it with a slice of crumbly Lancashire cheese, which is not a joke.",
+  "listOrder": 11
+ },
+ {
+  "id": "5lPNX6ZSdwmyMRhxyhE3xx",
+  "city": "Edinburgh",
+  "foodName": "Shortbread",
+  "foodDescription": "Butter, sugar, and flour in a ratio that is mostly butter, baked pale and dense. A good one snaps rather than bends and tastes of cream. Sold in tins to tourists everywhere — buy it from a bakery instead and eat it fresh.",
+  "listOrder": 10
+ },
+ {
+  "id": "70ICDODEhUBvPPPkjnGvl9",
+  "city": "London",
+  "foodName": "Full English breakfast",
+  "foodDescription": "Fried eggs, bacon, sausage, black pudding, beans, tomato, mushrooms, and fried bread, all on one plate at once. Built for people about to do physical work and eaten mostly by people who are not. Tea alongside, not coffee.",
+  "listOrder": 1
+ },
+ {
+  "id": "1lcg1HLrVENFfSjqwUNURh",
+  "city": "Seville",
+  "foodName": "Gazpacho",
+  "foodDescription": "Raw tomato, cucumber, pepper, garlic, and bread blended cold with oil and vinegar into something closer to a drink than a soup. Served in a glass through the summer. What is sold abroad under the name is usually salsa by comparison.",
+  "listOrder": 3
+ },
+ {
+  "id": "7lpmI9z9oxYXtm8XyNC73x",
+  "city": "Oslo",
+  "foodName": "Lutefisk",
+  "foodDescription": "Dried cod soaked in lye until it turns translucent and gelatinous, then baked and served with bacon, peas, and potatoes. Eaten at Christmas out of tradition and stubbornness. Divisive at every table it arrives on.",
+  "listOrder": 10
+ },
+ {
+  "id": "5K82aHL76e1jgVxNPTX7zz",
+  "city": "London",
+  "foodName": "Chelsea bun",
+  "foodDescription": "A coiled sweet dough with currants, lemon peel and spice, glazed sticky, and pulled apart in a spiral. Sold from a Chelsea bakery from the 1700s that royalty lined up at. Eat it warm, the day it is baked, or not at all.",
+  "listOrder": 13
+ },
+ {
+  "id": "58oD6ItxTglmjvUPBdQMck",
+  "city": "London",
+  "foodName": "Eton mess",
+  "foodDescription": "Broken meringue, whipped cream, and crushed strawberries stirred into deliberate wreckage. Named for the school, where it was served at cricket matches. Best in June and July, when English strawberries are actually in season.",
+  "listOrder": 11
+ },
+ {
+  "id": "6p1tcPokZ5SIr9pwh9ZdKF",
+  "city": "Paris",
+  "foodName": "Falafel",
+  "foodDescription": "Chickpea fritters in pita with eggplant, cabbage, hummus, and hot sauce, sold in the Marais with a line down the street. Not French in origin and entirely Parisian in practice. Eaten walking, and dripping.",
+  "listOrder": 10
+ },
+ {
+  "id": "1ar450NRBbHraj0fyHAnBP",
+  "city": "Manchester",
+  "foodName": "Parched peas",
+  "foodDescription": "Black peas boiled soft and served hot in a cup with malt vinegar, sold at bonfire night and at fairgrounds in early November. Older than the fireworks they go with. Cheap, salty, and faintly odd, eaten outdoors in the cold.",
+  "listOrder": 9
+ },
+ {
+  "id": "gNFFEOGaS0NNRBIHfDUCc",
+  "city": "Manchester",
+  "foodName": "Cheese and onion pie",
+  "foodDescription": "Shortcrust filled with sharp cheese, onion and potato, eaten hot with gravy, or cold from a paper bag. Every northern bakery makes one and every family argues about the potato. Vegetarian by accident rather than design.",
+  "listOrder": 6
+ },
+ {
+  "id": "4Swb33MdbsFPgUlTsa5cQQ",
+  "city": "Athens",
+  "foodName": "Souvlaki",
+  "foodDescription": "Pork or chicken grilled on skewers and wrapped in pita with tomato, onion, tzatziki, and — this is not negotiable — a handful of fries inside the wrap. The cheapest full meal in the city, eaten standing or walking.",
+  "listOrder": 1
+ },
+ {
+  "id": "6O0nkIy3HYNc8v8Bq2I38K",
+  "city": "Manchester",
+  "foodName": "Vimto",
+  "foodDescription": "A dark, sweet cordial of grapes, raspberries, blackcurrants, and herbs, invented in Manchester in 1908 as a health tonic and never adequately explained since. Drunk cold and diluted, or hot in winter. There is a statue to it.",
+  "listOrder": 12
+ },
+ {
+  "id": "77MlaYJgVPyyY510LG5sYe",
+  "city": "Edinburgh",
+  "foodName": "Scotch broth",
+  "foodDescription": "Barley, root vegetables, and lamb or beef simmered until thick enough to stand a spoon in. Less a starter than a meal that admits what it is. Every household version differs and every one is described as the correct one.",
+  "listOrder": 6
+ },
+ {
+  "id": "FZgDcoRFKR1FU0WtgkVTO",
+  "city": "Barcelona",
+  "foodName": "Escalivada",
+  "foodEnglishName": "Charred vegetables",
+  "foodDescription": "Eggplant, peppers, and onions charred whole over flame until the skins blacken, then peeled, torn into strips, and dressed with oil. The name comes from the Catalan for cooking in embers. Served cold, usually piled on bread.",
+  "listOrder": 4
+ },
+ {
+  "id": "5sOc89uJZV7vzaPrNGLo25",
+  "city": "Dublin",
+  "foodName": "Full Irish breakfast",
+  "foodDescription": "Bacon, sausage, egg, tomato, and both black and white pudding, with fried soda bread alongside. White pudding is the same as black without the blood. Tea is not optional, and it is served all day, everywhere.",
+  "listOrder": 2
+ },
+ {
+  "id": "3PJGbvpRNQckdMOxHwNnaa",
+  "city": "Dublin",
+  "foodName": "Spice bag",
+  "foodDescription": "Chips, shredded salt-and-chili chicken, fried peppers, and onions tossed with spice mix and served in a paper bag. Invented in a Dublin Chinese takeaway around 2010 and now everywhere. The newest Irish national dish.",
+  "listOrder": 11
+ },
+ {
+  "id": "lTHKdFcUKJsTpMFSNRYA6",
+  "city": "Athens",
+  "foodName": "Spanakopita",
+  "foodEnglishName": "Spinach pie",
+  "foodDescription": "Spinach, feta, dill, and scallion between layers of oiled phyllo, baked until the top shatters. Sold in bakeries by the slab all day. The good ones have far more greens than cheese and are never soggy underneath.",
+  "listOrder": 4
+ },
+ {
+  "id": "3fJk38VnsVJoPCrFspPOsZ",
+  "city": "Berlin",
+  "foodName": "Döner kebab",
+  "foodDescription": "Meat stacked and grilled on a vertical spit, carved into flatbread with salad, cabbage, and garlic and chili sauces. Invented in Berlin in the 1970s by Turkish workers — not in Turkey. The city eats it at every hour.",
+  "listOrder": 2
+ },
+ {
+  "id": "2J86UcNUnDFUtGlPqjYUdT",
+  "city": "Paris",
+  "foodName": "Steak tartare",
+  "foodDescription": "Raw beef chopped by hand and mixed with capers, shallot, mustard, and egg yolk, either at the table or in the kitchen. Chopped, never ground — that texture is the whole difference. Order it with fries.",
+  "listOrder": 7
+ },
+ {
+  "id": "T03oVRlSANF25MXpaZufD",
+  "city": "Vienna",
+  "foodName": "Apfelstrudel",
+  "foodEnglishName": "Apple strudel",
+  "foodDescription": "Apples, raisins, cinnamon, and buttered breadcrumbs rolled in pastry stretched so thin a baker is supposed to read a newspaper through it. The layering technique arrived with the Ottomans. Eat it warm, with vanilla sauce rather than cream.",
+  "listOrder": 12
+ },
+ {
+  "id": "7eQmSUOPZRzZDzu7A0tTMG",
+  "city": "Marseille",
+  "foodName": "Tapenade",
+  "foodDescription": "Black olives, capers, anchovy, and oil pounded into a coarse paste — the name comes from the Provençal word for caper, not for olive. Spread on toast before dinner. It should taste more of caper than you expect.",
+  "listOrder": 6
+ },
+ {
+  "id": "7o7AbjZAJN8j3dCEEw81S",
+  "city": "Marseille",
+  "foodName": "Aïoli",
+  "foodEnglishName": "Garlic mayonnaise",
+  "foodDescription": "Garlic pounded with olive oil into a stiff yellow mayonnaise, served with poached salt cod, boiled vegetables, and eggs — a whole Friday meal named after its sauce. The garlic is fierce and is meant to be.",
+  "listOrder": 4
+ },
+ {
+  "id": "2SnnJyyNaTgFdgRig8anPn",
+  "city": "Amsterdam",
+  "foodName": "Patat oorlog",
+  "foodEnglishName": "War fries",
+  "foodDescription": "Fries with mayonnaise, spiced peanut sauce, and raw onion piled on together — the name means war, for how it looks. The peanut sauce arrived through Indonesia and colonial history. Eaten with a small plastic fork.",
+  "listOrder": 4
+ },
+ {
+  "id": "fNV6bUpSubUy2V7ncPWhQ",
+  "city": "Belgrade",
+  "foodName": "Rakija",
+  "foodEnglishName": "Fruit brandy",
+  "foodDescription": "Fruit brandy — plum most often, but quince, apricot, and pear all exist — distilled at home in enormous quantity. Drunk before a meal rather than after, at room temperature, in small glasses. Everyone claims an uncle who makes it.",
+  "listOrder": 14
+ },
+ {
+  "id": "6lRwpHjWtUPRnHxDMzHm5y",
+  "city": "Athens",
+  "foodName": "Moussaka",
+  "foodDescription": "Layers of eggplant, spiced lamb, and potato under a thick béchamel, baked until the top sets and browns. The version everyone knows was standardized by a Greek chef trained in France in the 1920s. Better warm than hot.",
+  "listOrder": 9
+ },
+ {
+  "id": "14Vm6ZVUcG27L41IYgo2Qv",
+  "city": "Barcelona",
+  "foodName": "Esqueixada",
+  "foodEnglishName": "Salt cod salad",
+  "foodDescription": "Salt cod torn by hand — never cut — and served raw, cured only by its own salt, with tomato, onion, olives, and oil. The name means shredded. A summer dish from before refrigeration, and still the coolest thing on the table.",
+  "listOrder": 5
+ },
+ {
+  "id": "3OLNXkFYSctDmjjU9YNFND",
+  "city": "Belgrade",
+  "foodName": "Ajvar",
+  "foodEnglishName": "Red pepper relish",
+  "foodDescription": "Red peppers roasted, peeled, and cooked down with eggplant and oil into a thick relish, made in enormous batches every autumn and jarred for winter. Every family insists theirs is correct. Eaten on bread with cheese.",
+  "listOrder": 5
+ },
+ {
+  "id": "2v4BOFNrlJU6f6Chq6FXZ4",
+  "city": "Athens",
+  "foodName": "Fava",
+  "foodEnglishName": "Split pea purée",
+  "foodDescription": "Yellow split peas cooked to a smooth puree, served warm with raw onion, capers, lemon, and a pour of olive oil. Not made from fava beans, despite everything. The best comes from Santorini and is worth asking about.",
+  "listOrder": 6
+ },
+ {
+  "id": "6Hfnn44gs2nleUYTXcNmnI",
+  "city": "Athens",
+  "foodName": "Horiatiki",
+  "foodEnglishName": "Greek salad",
+  "foodDescription": "Tomato, cucumber, onion, pepper, olives, and a whole slab of feta with oregano and olive oil — the village salad, and no lettuce anywhere in it. The oil left in the bowl is meant to be finished with bread.",
+  "listOrder": 5
+ },
+ {
+  "id": "3kppa8zoAGXGgYqviDDYfM",
+  "city": "Kraków",
+  "foodName": "Żurek",
+  "foodEnglishName": "Sour rye soup",
+  "foodDescription": "Sour rye soup, fermented for days, with white sausage, potato, and half a boiled egg, sometimes served inside a hollowed loaf. Sour in a way no other soup is. Eaten at Easter, and available here all year round.",
+  "listOrder": 4
+ },
+ {
+  "id": "6ZY9wF7SOKEsHAHlpEmObO",
+  "city": "Budapest",
+  "foodName": "Hideg meggyleves",
+  "foodEnglishName": "Cold sour cherry soup",
+  "foodDescription": "Chilled sour cherry soup, thickened with sour cream and scented with clove and cinnamon, served as a first course rather than a dessert. Cold, pink, and startling on a hot day. Summer only, while the cherries are in.",
+  "listOrder": 14
+ },
+ {
+  "id": "3b7jwLle8wI9fwEWhwJGa9",
+  "city": "Budapest",
+  "foodName": "Somlói galuska",
+  "foodEnglishName": "Sponge trifle",
+  "foodDescription": "Three kinds of sponge soaked in rum and layered with walnuts, chocolate sauce, raisins, and whipped cream until it collapses into itself. A trifle with no structural ambition. Order it when you have already eaten too much.",
+  "listOrder": 11
+ },
+ {
+  "id": "aZLAQubtw0RBEBDOrwCt8",
+  "city": "Brussels",
+  "foodName": "Speculoos",
+  "foodEnglishName": "Spiced cookies",
+  "foodDescription": "Thin, hard spiced cookies pressed in carved wooden molds, tasting of cinnamon, clove, and brown sugar, served with coffee everywhere. Belgium exported the crushed spread version, but the cookie came first.",
+  "listOrder": 11
+ },
+ {
+  "id": "5F6HoWs2Y6Onsx67ySVFHa",
+  "city": "Marseille",
+  "foodName": "Panisse",
+  "foodEnglishName": "Chickpea fries",
+  "foodDescription": "Chickpea flour cooked to a paste, set, cut into batons, and fried until crisp outside and creamy within, then salted hard. Sold from stalls in the old fishing quarter. The local answer to a french fry, and older.",
+  "listOrder": 2
+ },
+ {
+  "id": "1gtoK09I1gWzjZqFFouAXj",
+  "city": "Prague",
+  "foodName": "Kulajda",
+  "foodEnglishName": "Creamy dill soup",
+  "foodDescription": "A creamy dill soup with potato, wild mushrooms, vinegar, and a poached egg dropped in at the end. Sour and herbal and unlike anything else on the table. The best argument against the idea that Czech food is all brown.",
+  "listOrder": 9
+ },
+ {
+  "id": "7flQ1SGvUx6tgxxFgwHdBq",
+  "city": "Brussels",
+  "foodName": "Filet américain",
+  "foodEnglishName": "Steak tartare",
+  "foodDescription": "Raw beef minced with capers, onion, mustard, and egg yolk, spread thickly on bread or served with fries. Nothing American about it. Sold in every butcher shop and eaten at lunch without any ceremony at all.",
+  "listOrder": 7
+ },
+ {
+  "id": "Utxur81TG2EQJLTmJvMay",
+  "city": "Belgrade",
+  "foodName": "Urnebes",
+  "foodEnglishName": "Spicy cheese spread",
+  "foodDescription": "A fierce spread of crumbled white cheese, garlic, hot paprika, and oil, mashed into a rough paste — the name translates roughly as chaos or pandemonium. Served with grilled meat, and it will overpower anything near it.",
+  "listOrder": 11
+ },
+ {
+  "id": "2KVUV2UfDsCnwppNPjseaJ",
+  "city": "Prague",
+  "foodName": "Svíčková",
+  "foodEnglishName": "Sirloin in cream sauce",
+  "foodDescription": "Beef sirloin braised with root vegetables, the vegetables blended into a thick cream sauce, served with bread dumplings, a spoon of cranberry, and a curl of whipped cream. Sweet, sour, and rich at once. The Sunday dish.",
+  "listOrder": 1
+ },
+ {
+  "id": "64wbYZBNgPHyVas5Z3mvkc",
+  "city": "Istanbul",
+  "foodName": "Dondurma",
+  "foodEnglishName": "Turkish ice cream",
+  "foodDescription": "Ice cream thickened with mastic and wild orchid root, so it stretches, resists the spoon, and melts slowly. Vendors make a performance of taking it away from you before handing it over. Chewy in a way ice cream should not be.",
+  "listOrder": 14
+ },
+ {
+  "id": "6UajerBM08mWD1L6ex82YF",
+  "city": "Bucharest",
+  "foodName": "Plăcintă",
+  "foodEnglishName": "Filled pastry",
+  "foodDescription": "Thin pastry folded around salty cheese, potato, cabbage, or apple and pan-fried or baked. Sold from bakeries and roadside stands in a paper napkin. The savory cheese one, eaten hot, is the one to start with.",
+  "listOrder": 10
+ },
+ {
+  "id": "4o9XqiQe8heuaf7OgjsKNg",
+  "city": "Oslo",
+  "foodName": "Rakfisk",
+  "foodEnglishName": "Fermented trout",
+  "foodDescription": "Trout salted and fermented in a barrel for months, then eaten raw with flatbread, sour cream, and onion. Sharper and stranger than cured fish has any right to be. Autumn and winter, and a real test even for Norwegians.",
+  "listOrder": 9
+ },
+ {
+  "id": "4KOs0cPfSIlXn9fhqdlBnR",
+  "city": "Prague",
+  "foodName": "Tlačenka",
+  "foodEnglishName": "Head cheese",
+  "foodDescription": "Head cheese — meat set in its own jelly — sliced and served with raw onion and a great deal of vinegar. Pub food from an era when nothing was thrown away. Cold, sharp, and gelatinous, and better with beer than it sounds.",
+  "listOrder": 11
+ },
+ {
+  "id": "2oRy5YlCRlCeDDMuwVVxQx",
+  "city": "Belgrade",
+  "foodName": "Šopska salata",
+  "foodEnglishName": "Shopska salad",
+  "foodDescription": "Tomato, cucumber, onion, and pepper under a heavy snow of grated white cheese. Named for a region straddling three borders, and claimed by all of them. The cheese should completely hide what is underneath.",
+  "listOrder": 8
+ },
+ {
+  "id": "MTMwhbAPN8IKY86x1osGJ",
+  "city": "Prague",
+  "foodName": "Guláš s knedlíkem",
+  "foodEnglishName": "Goulash with dumplings",
+  "foodDescription": "Beef stewed dark with onion, paprika and usually dark beer, served with bread dumplings, and raw onion scattered on top. Thicker than the Hungarian soup and served differently from the Viennese. The beer in the sauce is the tell.",
+  "listOrder": 3
+ },
+ {
+  "id": "7EHfhAQaRoYr0Aekv4xW0C",
+  "city": "Oslo",
+  "foodName": "Kjøttkaker",
+  "foodEnglishName": "Beef patties",
+  "foodDescription": "Large beef patties, coarser and heavier than meatballs, in brown gravy with mashed peas, potatoes, and lingonberry. The everyday dinner Norwegians grow up on and order as adults when they want looking after.",
+  "listOrder": 3
+ },
+ {
+  "id": "7cydaLSG0srOhZ7PhqFnsZ",
+  "city": "Istanbul",
+  "foodName": "Balık ekmek",
+  "foodEnglishName": "Fish sandwich",
+  "foodDescription": "A grilled mackerel fillet stuffed into half a loaf with raw onion, lettuce and lemon, sold from boats, and stalls at the Galata bridge. Simple to the point of being nothing, and one of the best things in the city.",
+  "listOrder": 2
+ },
+ {
+  "id": "3DXyoNPjbXW0L3R1HQhEuF",
+  "city": "Stockholm",
+  "foodName": "Strömming",
+  "foodEnglishName": "Fried herring",
+  "foodDescription": "Small Baltic herring floured and fried in butter, with mashed potato, lingonberry, and raw onion, often from a harbor stall. Softer and sweeter than sea herring. Eat it standing on the quay in the cold, out of paper.",
+  "listOrder": 3
+ },
+ {
+  "id": "WWUfiR3XdLDbLusdZERMl",
+  "city": "Berlin",
+  "foodName": "Soljanka",
+  "foodEnglishName": "Sour sausage soup",
+  "foodDescription": "A sour, smoky soup of pickled cucumber, sausage, tomato, and lemon, borrowed from Soviet kitchens and made East German. Sharp enough to wake you up. Still on older menus here and almost unknown further west.",
+  "listOrder": 7
+ },
+ {
+  "id": "7AJem4hyK9g0uD0OdtRy8M",
+  "city": "Prague",
+  "foodName": "Chlebíčky",
+  "foodEnglishName": "Open sandwiches",
+  "foodDescription": "Open sandwiches built on a slice of white bread with potato salad as the base, then ham, egg, salami, or fish arranged neatly on top. Sold by the piece from delicatessen counters. A party food that became an everyday one.",
+  "listOrder": 8
+ },
+ {
+  "id": "1kfNtkN5pzg1Y8ECzUJZzM",
+  "city": "Oslo",
+  "foodName": "Brunost",
+  "foodEnglishName": "Brown cheese",
+  "foodDescription": "Brown cheese made by boiling whey until the milk sugars caramelize, shaved into thin sheets with a slicer Norway invented. Sweet, fudgy, and faintly goaty. Eaten on toast at breakfast and on waffles in the afternoon.",
+  "listOrder": 8
+ },
+ {
+  "id": "PXMRZeiBIKxJBpH6bikVT",
+  "city": "Copenhagen",
+  "foodName": "Hakkebøf",
+  "foodEnglishName": "Beef patty with onions",
+  "foodDescription": "A thick beef patty fried and served under a heap of soft browned onions, with gravy, potatoes, and pickles. Not a burger — there is no bun, and the onions are the point. Danish lunchtime cooking at its plainest and best.",
+  "listOrder": 8
+ },
+ {
+  "id": "5hIric4IRwypDuWiYKc5v9",
+  "city": "Prague",
+  "foodName": "Vepřo knedlo zelo",
+  "foodEnglishName": "Pork, dumplings, and sauerkraut",
+  "foodDescription": "Roast pork, bread dumplings, and stewed sauerkraut — three words always said together, and the national dish. The dumplings exist to mop up the fat and the cabbage exists to cut through it. Order it once, early.",
+  "listOrder": 2
+ },
+ {
+  "id": "3pgpaQgiENpDZobHTM2ETy",
+  "city": "Helsinki",
+  "foodName": "Muikku",
+  "foodEnglishName": "Fried vendace",
+  "foodDescription": "Tiny lake vendace rolled in rye flour and fried whole — heads, bones, and all — served in a paper cone with garlic mayonnaise and lemon. Market square food, eaten with your fingers, crisp and salty and gone in two minutes.",
+  "listOrder": 4
+ },
+ {
+  "id": "4gIZgPGoaq7ggs2IhRsYJE",
+  "city": "Stockholm",
+  "foodName": "Prinsesstårta",
+  "foodEnglishName": "Princess cake",
+  "foodDescription": "Sponge, jam, vanilla custard, and a dome of whipped cream sealed under bright green marzipan with a pink rose on top. Created for three Swedish princesses in the 1930s. Unchanging, everywhere, and better than it needs to be.",
+  "listOrder": 12
+ },
+ {
+  "id": "5jsKWLg5UOOv3PbOlE25WJ",
+  "city": "Edinburgh",
+  "foodName": "Cranachan",
+  "foodEnglishName": "Raspberry whisky cream",
+  "foodDescription": "Toasted oats, raspberries, cream, and honey folded together with a slug of whisky and served in a glass. Traditionally a harvest dish. The oats must be toasted and the raspberries Scottish, which is worth the fuss in July.",
+  "listOrder": 9
+ },
+ {
+  "id": "6iNuHqSxCtTGJrSVqbhpcx",
+  "city": "Oslo",
+  "foodName": "Raspeballer",
+  "foodEnglishName": "Potato dumplings",
+  "foodDescription": "Dense dumplings of grated raw and cooked potato, boiled and served with salted meat, sausage, and rutabaga. They go by a different name in nearly every valley. Thursday is the day, and the leftovers get fried next morning.",
+  "listOrder": 4
+ },
+ {
+  "id": "50JNXjU0hbQqMEwPXLcm50",
+  "city": "Florence",
+  "foodName": "Ribollita",
+  "foodEnglishName": "Bread and bean soup",
+  "foodDescription": "Bread, white beans, and black kale cooked into a thick mass, cooled, then cooked again — the name means reboiled, and that second cooking is the entire point. Winter only. It should be stiff enough to eat with a fork.",
+  "listOrder": 4
+ },
+ {
+  "id": "1nlyYfJ67fTiU9chdNKRzz",
+  "city": "Stockholm",
+  "foodName": "Köttbullar",
+  "foodEnglishName": "Swedish meatballs",
+  "foodDescription": "Small pork and beef meatballs with cream gravy, boiled potatoes, lingonberry jam, and pickled cucumber. The lingonberry is not a garnish — its sourness is what the gravy is built against. Thursday and Sunday food.",
+  "listOrder": 1
+ },
+ {
+  "id": "5aIBpI2hKCx4eZ4vGWwqIC",
+  "city": "Stockholm",
+  "foodName": "Janssons frestelse",
+  "foodEnglishName": "Jansson’s temptation",
+  "foodDescription": "Potato, onion, and cured sprats layered with cream and baked until the top browns and the fish dissolves into it. The sprats are cured with sugar and spice, so it turns sweet and salty at once. A Christmas table fixture.",
+  "listOrder": 9
+ },
+ {
+  "id": "6CvLD3mJHpjtEgC6DHIXzh",
+  "city": "Rome",
+  "foodName": "Puntarelle",
+  "foodEnglishName": "Chicory with anchovy dressing",
+  "foodDescription": "Chicory stems cut into curls and soaked in ice water until they twist, then dressed with anchovy, garlic, and vinegar. Bitter, cold, and sharp. A winter salad the rest of Italy barely makes. Ask whether they are in season yet.",
+  "listOrder": 7
+ },
+ {
+  "id": "2PfrI2N2TrjsON1KeJqISF",
+  "city": "Copenhagen",
+  "foodName": "Marinerede sild",
+  "foodEnglishName": "Pickled herring",
+  "foodDescription": "Herring cured in vinegar with onion, bay and peppercorn, laid on buttered rye. Sharp, oily, and nothing like the tinned kind. The traditional order is herring first at lunch, and always with a cold shot alongside.",
+  "listOrder": 5
+ },
+ {
+  "id": "3tZwD5h2aoXKkp0OzjzUSi",
+  "city": "Copenhagen",
+  "foodName": "Koldskål",
+  "foodEnglishName": "Cold buttermilk soup",
+  "foodDescription": "Cold buttermilk whisked with egg, sugar, vanilla, and lemon into a thin sweet soup, with small dry cookies floated on top. Sold in cartons from May and eaten as lunch on hot days. Strange the first time and then not at all.",
+  "listOrder": 12
+ },
+ {
+  "id": "4hbIYFX2BdnzMvvErx3Iom",
+  "city": "Seville",
+  "foodName": "Montadito de pringá",
+  "foodEnglishName": "Shredded stew meat roll",
+  "foodDescription": "A small warm roll pressed around pringá: the pork, chorizo, and blood sausage left at the end of a stew, mashed to a paste. Two bites, and deeply savory. What Seville eats standing at the bar at 2 a.m., and again at noon.",
+  "listOrder": 5
+ },
+ {
+  "id": "7DNToOhPGtlzWl9LgVp5W7",
+  "city": "Edinburgh",
+  "foodName": "Tablet",
+  "foodEnglishName": "Scottish fudge",
+  "foodDescription": "Sugar, condensed milk, and butter boiled and beaten until it sets into a crumbly, grainy block that dissolves rather than chews. Sweeter and harder than fudge. Sold at church sales and school fairs, in slabs, by weight.",
+  "listOrder": 11
+ },
+ {
+  "id": "3ou3FRn6258oqv2MIgbBIz",
+  "city": "Naples",
+  "foodName": "Spaghetti alle vongole",
+  "foodEnglishName": "Spaghetti with clams",
+  "foodDescription": "Small clams opened in olive oil, garlic and white wine, tossed with spaghetti, and their own briny liquid, parsley over the top, cheese never. Ask for it with veraci, the tiny local clams, and use bread on the plate afterward.",
+  "listOrder": 7
+ },
+ {
+  "id": "1YG3bi6PRNtOQkKhZmEmU7",
+  "city": "Edinburgh",
+  "foodName": "Arbroath smokie",
+  "foodEnglishName": "Smoked haddock",
+  "foodDescription": "Haddock salted, tied in pairs, and hot-smoked over hardwood in a barrel until the skin blackens and the flesh cooks through. Protected by law and made only near one Angus town. Eat it warm from the paper, with butter.",
+  "listOrder": 5
+ },
+ {
+  "id": "5m7cTxJ7ieHycoguGFZWYQ",
+  "city": "Florence",
+  "foodName": "Panzanella",
+  "foodEnglishName": "Bread salad",
+  "foodDescription": "Stale bread soaked and squeezed dry, then torn up with tomato, cucumber, onion, and basil and dressed with oil and vinegar. A summer salad built on bread that would otherwise be thrown away. Only as good as the tomatoes.",
+  "listOrder": 9
+ },
+ {
+  "id": "6rmMYl8FUlOYMFYx2h4453",
+  "city": "Lisbon",
+  "foodName": "Bitoque",
+  "foodEnglishName": "Steak and egg",
+  "foodDescription": "The everyday Portuguese lunch: a thin steak under a fried egg, with rice, fries, and a buttery wine pan sauce. Break the yolk so it runs into the rice — that is the whole point. About €10 with a glass of wine, and the truest test of a cheap diner.",
+  "listOrder": 11
+ },
+ {
+  "id": "1ZcLbW4MYz9OC8qQSslIur",
+  "city": "Rome",
+  "foodName": "Porchetta",
+  "foodEnglishName": "Rolled roast pork",
+  "foodDescription": "A whole pig boned, packed with rosemary, garlic, and fennel, rolled and roasted until the skin turns to glass. Sliced cold into a plain roll at market stalls. It belongs to the hill towns south of Rome and arrives by van.",
+  "listOrder": 10
+ },
+ {
+  "id": "2z4wA5MYwM3alZr802VgyP",
+  "city": "Munich",
+  "foodName": "Steckerlfisch",
+  "foodEnglishName": "Fish on a stick",
+  "foodDescription": "Whole mackerel or whitefish, spiced, threaded on a wooden stick, and grilled slowly beside charcoal. Eaten with your hands at beer gardens and at the Oktoberfest, with a Brezn. Look for the long grill with rows of fish standing in it.",
+  "listOrder": 7
+ },
+ {
+  "id": "5Amfobg9WWjHXn17CUfAdp",
+  "city": "Rome",
+  "foodName": "Amatriciana",
+  "foodEnglishName": "Pork and tomato pasta",
+  "foodDescription": "Cured pork jowl, tomato, pecorino, and chili on bucatini, the hollow spaghetti that sprays sauce when you bite it. It comes from a hill town east of the city. Take the tomato away and you have gricia, its older ancestor.",
+  "listOrder": 5
+ },
+ {
+  "id": "1iZviyaDGthZAEMGZLsZFF",
+  "city": "Milan",
+  "foodName": "Cassoeula",
+  "foodEnglishName": "Pork and cabbage stew",
+  "foodDescription": "Pork ribs, rind, trotters, and small sausages stewed with Savoy cabbage, best after the first frost. A winter dish, traditionally started around January 17, the feast of St. Anthony the Abbot. Served with polenta, followed by a long walk.",
+  "listOrder": 4
+ },
+ {
+  "id": "ZrFnKu6aoT9ddRZ70BBU8",
+  "city": "Madrid",
+  "foodName": "Ensaladilla rusa",
+  "foodEnglishName": "Russian salad",
+  "foodDescription": "Potato, tuna, egg, and vegetables bound in mayonnaise, served cold in a mound with breadsticks stuck in it. It sounds like a picnic salad and tastes far better, and every bar in the city is quietly judged on its version.",
+  "listOrder": 5
+ },
+ {
+  "id": "6RBHgxHgaNrJUNEX0GiFI9",
+  "city": "Rome",
+  "foodName": "Saltimbocca alla romana",
+  "foodEnglishName": "Veal, ham, and sage",
+  "foodDescription": "Thin veal layered with prosciutto and a sage leaf, pinned together and cooked fast in butter and white wine. The name means jumps in the mouth. Four ingredients, six minutes, and no substitution worth making.",
+  "listOrder": 8
+ },
+ {
+  "id": "3YXpOgVlDZCt1hMVwysb7E",
+  "city": "Warsaw",
+  "foodName": "Tatar",
+  "foodEnglishName": "Steak tartare",
+  "foodDescription": "Raw chopped beef with a raw egg yolk on top, surrounded by diced pickles, onion, and pickled mushrooms that you mix in yourself. A starter in old restaurants and a vodka snack in all-night bars. The yolk may come in its half-shell so you can add it slowly.",
+  "listOrder": 10
+ },
+ {
+  "id": "STzafl8ZTOvCMXyosLxs9",
+  "city": "Seville",
+  "foodName": "Huevos a la flamenca",
+  "foodEnglishName": "Flamenco-style baked eggs",
+  "foodDescription": "Eggs baked in an earthenware dish over tomato, peppers, peas, and ham until the whites just set and the yolks stay loose. A whole meal in one clay bowl. Break the yolks and eat it with bread, straight from the dish.",
+  "listOrder": 11
+ },
+ {
+  "id": "3baIG54EjBk3LcdvQM6bya",
+  "city": "Reykjavík",
+  "foodName": "Hákarl",
+  "foodEnglishName": "Fermented shark",
+  "foodDescription": "Greenland shark buried, fermented, and hung for months, which is what makes it edible — fresh, the meat is poisonous. Ammonia on the nose, oily on the tongue, served in cubes with a toothpick. A dare, honestly, and chased with schnapps.",
+  "listOrder": 9
+ },
+ {
+  "id": "3yW4UN0ArAFFGoM8e1DCvy",
+  "city": "Liverpool",
+  "foodName": "Blind scouse",
+  "foodEnglishName": "Meatless scouse",
+  "foodDescription": "Scouse with no meat in it, made at the end of the week or the end of the money from potatoes, onions, carrots, and stock. Still cooked at home and in some cafés. Thinner than the real thing and not pretending otherwise; the pickled cabbage does the work.",
+  "listOrder": 2
+ },
+ {
+  "id": "5F1t5nyDn3OiJx4OOv8Bf7",
+  "city": "Vienna",
+  "foodName": "Brettljause",
+  "foodEnglishName": "Cold cuts board",
+  "foodDescription": "A wooden board of cured pork, blood sausage, pickles, black bread, and Liptauer, a paprika-spiked cheese spread. This is the food of a Heuriger, the taverns on the city edge where wine growers pour their own vintage. Order a spritzer and stay.",
+  "listOrder": 8
+ },
+ {
+  "id": "6XXT8NMO4Fyrhik4Y0jndV",
+  "city": "Venice",
+  "foodName": "Spritz",
+  "foodDescription": "White wine, a bitter liqueur, and a splash of soda over ice, with an olive or a slice of orange. The name goes back to Austrian soldiers in the 1800s who added water to local wine. Venetians often order it with Select, a bitter first made here in 1920.",
+  "listOrder": 13
+ },
+ {
+  "id": "241shdvSt3KBuLLbFWXdyr",
+  "city": "Liverpool",
+  "foodName": "Dim sum",
+  "foodDescription": "Steamed dumplings, char siu pork buns, and egg tarts in the restaurants around Nelson Street in Chinatown, under its ceremonial arch. The community dates to the 1860s, when the Blue Funnel shipping line began sailing to China. Go at weekend lunchtime.",
+  "listOrder": 7
+ },
+ {
+  "id": "7GTBBoAwoP1CtcyZyDNXfn",
+  "city": "Lisbon",
+  "foodName": "Arroz de marisco",
+  "foodEnglishName": "Seafood rice",
+  "foodDescription": "Soupy tomato, cilantro, and shellfish rice, brought to the table in its pot and ladled out wet rather than fluffy. A coastal Sunday dish that became a restaurant classic. Usually serves two and takes half an hour — order it as soon as you sit down.",
+  "listOrder": 8
+ },
+ {
+  "id": "3UgvrVdaYFwfRwLwFeUfwg",
+  "city": "Munich",
+  "foodName": "Helles",
+  "foodEnglishName": "Pale lager",
+  "foodDescription": "Munich’s everyday beer: pale gold, soft, and mildly bitter, first brewed by Spaten in 1894 to compete with Pilsner. Ask for “a Helles” in any beer garden and this is what comes. Lighter in taste than in alcohol.",
+  "listOrder": 12
+ },
+ {
+  "id": "3oAZzMq9wLmZQysFGbK6VB",
+  "city": "Liverpool",
+  "foodName": "Jam butty",
+  "foodDescription": "White bread, butter, and strawberry jam, folded, or cut in half; a “butty” is any sandwich here. Comedian Ken Dodd, from the Knotty Ash district, spent a career joking about the jam butty mines worked by his Diddy Men. Best with a mug of tea.",
+  "listOrder": 13
+ },
+ {
+  "id": "2pOnzt2Pj4FfGvqMkvimVX",
+  "city": "Munich",
+  "foodName": "Obatzda",
+  "foodEnglishName": "Beer cheese spread",
+  "foodDescription": "Ripe Camembert mashed with butter, sweet paprika, onion, and caraway, sometimes with a splash of beer. A beer garden staple, spread thick on a Brezn or rye bread. The name means mashed-up in Bavarian.",
+  "listOrder": 3
+ },
+ {
+  "id": "4z7SYhQJy9bcOK0kxHAQ2n",
+  "city": "Milan",
+  "foodName": "Minestrone alla milanese",
+  "foodEnglishName": "Vegetable and rice soup",
+  "foodDescription": "A thick soup of beans, cabbage, courgette, potato, and whatever else is in season, made in Milan with rice rather than pasta and often a piece of pork rind for depth. In summer it is served at room temperature, which is how many locals prefer it.",
+  "listOrder": 8
+ },
+ {
+  "id": "1TbIGmEf7LxlEArpfMyWtt",
+  "city": "Milan",
+  "foodName": "Nervetti",
+  "foodEnglishName": "Veal cartilage salad",
+  "foodDescription": "Tendons and cartilage from calves’ knees, boiled for hours, pressed, sliced thin, and dressed with raw onion, oil and vinegar, sometimes with beans. Cold, chewy, and translucent. A fixture of old osterie, where it is listed in dialect as “gnervitt.”",
+  "listOrder": 7
+ },
+ {
+  "id": "5h9Q80c2BkAOwmeACVNEhZ",
+  "city": "Milan",
+  "foodName": "Ossobuco",
+  "foodEnglishName": "Braised veal shank",
+  "foodDescription": "A thick cross-cut of veal shank braised slowly in white wine and stock until the meat comes off the bone, topped with gremolata: chopped lemon zest, garlic, and parsley. The marrow in the middle is the prize, and some places bring a small spoon for it.",
+  "listOrder": 2
+ },
+ {
+  "id": "WD4BsnQlrBGGSCgY2Z99W",
+  "city": "Belfast",
+  "foodName": "Ulster fry",
+  "foodDescription": "Bacon, sausage, egg, and black pudding, but what makes it Ulster is the bread: a soda farl and a slice of potato bread, both fried in the pan fat until golden. Beans are a point of dispute. Eaten late morning, followed by nothing until dinner.",
+  "listOrder": 1
+ },
+ {
+  "id": "5WZOEqhVEZZSPaZbmJ3It1",
+  "city": "Reykjavík",
+  "foodName": "Pylsur",
+  "foodEnglishName": "Icelandic hot dog",
+  "foodDescription": "An Icelandic hot dog, mostly lamb, snapping in a soft bun under raw and crisp fried onions, ketchup, sweet brown mustard, and remoulade. Ask for “eina með öllu” — one with everything. The harbor stand has sold them since 1937.",
+  "listOrder": 1
+ },
+ {
+  "id": "6yekId3YalKRiq19yTz9TE",
+  "city": "Liverpool",
+  "foodName": "Wet nelly",
+  "foodDescription": "A dense slab of bread pudding or leftover cake, packed with dried fruit and soaked in syrup until it sags. The name is usually traced to Lord Nelson, via a richer Nelson cake. Heavy, sticky, and cheap, a bakery staple. Eat it warm, with custard if offered.",
+  "listOrder": 3
+ },
+ {
+  "id": "6KNtUKMS6vZPVu1z53M2oc",
+  "city": "Berlin",
+  "foodName": "Buletten",
+  "foodEnglishName": "Meat patties",
+  "foodDescription": "Flat pork and beef patties with soaked bread, onion and marjoram, fried, and eaten cold with mustard as often as hot. The Berlin word for what the rest of Germany calls a “Frikadelle.” Sold at bakeries and old corner pubs.",
+  "listOrder": 3
+ },
+ {
+  "id": "5b2kj23HBOESeS1a64B2FB",
+  "city": "Glasgow",
+  "foodName": "Munchy box",
+  "foodDescription": "A pizza box filled with whatever the takeaway has: doner meat, chicken pakora, chips, onion rings, garlic bread, naan, salad, and several sauces, all piled together. Bought late at night from Glasgow’s Indian and Pakistani takeaways, and meant for sharing.",
+  "listOrder": 2
+ },
+ {
+  "id": "4OvBbBJMnMylW3Dizyjunh",
+  "city": "Reykjavík",
+  "foodName": "Kjötsúpa",
+  "foodEnglishName": "Lamb soup",
+  "foodDescription": "Lamb on the bone simmered with potato, carrot, rutabaga, and herbs into a clear, plain, restorative soup. Iceland’s answer to its weather. Nothing about it is fancy, and everyone has a grandmother whose version was better.",
+  "listOrder": 3
+ },
+ {
+  "id": "1WAKIF3zfZtYH4RoccktPB",
+  "city": "Warsaw",
+  "foodName": "Zrazy zawijane",
+  "foodEnglishName": "Beef roulades",
+  "foodDescription": "Thin beef slices rolled around pickled cucumber, bacon and onion, tied with string, and braised soft in dark gravy. Served with buckwheat groats or mashed potato. Old-school Warsaw restaurants keep them on the menu. Check for the string before you bite.",
+  "listOrder": 3
+ },
+ {
+  "id": "L4lwsWlH7t2n8dikX1AA0",
+  "city": "Belfast",
+  "foodName": "Soda farl",
+  "foodEnglishName": "Soda bread",
+  "foodDescription": "Soda bread dough patted into a round, cut in four and cooked on a dry griddle rather than baked, so it comes out flat, floury, and soft inside. “Farl” is from an old word for a quarter. Split it, fry it, and fill it with bacon or an egg.",
+  "listOrder": 2
+ },
+ {
+  "id": "2OqT0jDB5t344hlBc1KxMq",
+  "city": "Oslo",
+  "foodName": "Pølse i lompe",
+  "foodEnglishName": "Hot dog in potato wrap",
+  "foodDescription": "A hot dog wrapped in lompe, a soft potato flatbread, instead of a bun, with mustard, ketchup, crisp onions, and sometimes shrimp salad. Sold from kiosks everywhere. Norway’s most-eaten food and the cheapest thing in the country.",
+  "listOrder": 1
+ },
+ {
+  "id": "54MLRpddXCCcpHcbJxTj6u",
+  "city": "Belfast",
+  "foodName": "Fifteens",
+  "foodDescription": "A no-bake traybake of fifteen crushed digestive biscuits, fifteen marshmallows and fifteen glacé cherries, bound with condensed milk, and rolled in coconut. Chilled and sliced. Sold in every café cabinet and nobody has ever needed a recipe card for it.",
+  "listOrder": 8
+ },
+ {
+  "id": "1FkzWtno0PYs6vervxfiRk",
+  "city": "Milan",
+  "foodName": "Mondeghili",
+  "foodEnglishName": "Milanese meatballs",
+  "foodDescription": "Flattened meatballs of leftover boiled meat, mortadella or salami, milk-soaked bread, and Parmigiano, fried in butter. The name is traced to the Spanish “albóndiga.” Thrift food turned bar food: look for them on aperitivo counters around six.",
+  "listOrder": 6
+ },
+ {
+  "id": "2TzaSqwAZZShazPuT4xWuQ",
+  "city": "Prague",
+  "foodName": "Medovník",
+  "foodEnglishName": "Honey cake",
+  "foodDescription": "A honey cake of many thin layers with sour cream frosting between them, left to soften for a day before it is cut. Dense, spiced, and not too sweet. Sold everywhere, and the best ones are made in somebody’s kitchen.",
+  "listOrder": 13
+ },
+ {
+  "id": "767irXxpBsaNtm7L1H6YMp",
+  "city": "Liverpool",
+  "foodName": "Salt and pepper chips",
+  "foodDescription": "Chips fried crisp, then tossed in a wok with salt, chilli, onion, peppers, and five-spice. Liverpool’s Chinese takeaways claim them, and the city has Europe’s oldest Chinese community, so the claim holds up. Eat them fast, before the steam turns them soft.",
+  "listOrder": 6
+ },
+ {
+  "id": "21Ep2NoQAr4pDuQDjY2aIk",
+  "city": "Naples",
+  "foodName": "Sfogliatella",
+  "foodEnglishName": "Ricotta shell pastry",
+  "foodDescription": "A shell of paper-thin pastry layers, ridged like a fan, filled with ricotta, semolina, and candied citrus. “Riccia” is the crisp version, “frolla” the soft one. Buy it hot in the morning, while the shell still shatters when you bite.",
+  "listOrder": 12
+ },
+ {
+  "id": "4RCO6kZs2qTkQxY1QPgyaJ",
+  "city": "Amsterdam",
+  "foodName": "Haring",
+  "foodEnglishName": "Raw herring",
+  "foodDescription": "Raw herring cured lightly in salt, served with chopped onion and pickle and eaten by holding it up by the tail. The new season’s fish arrives in June and is fattest then. Not fishy at all — sweet, soft, and clean.",
+  "listOrder": 1
+ },
+ {
+  "id": "4gHaIF8mTcG4jmYzYt3WWL",
+  "city": "Glasgow",
+  "foodName": "Tattie scone",
+  "foodEnglishName": "Potato scone",
+  "foodDescription": "Mashed potato kneaded with flour and butter, rolled thin, cut into triangles, and cooked dry on a griddle. Fried again in the pan for a Scottish breakfast, or folded into a roll with square sausage. Supermarkets sell them in packs; bakeries’ are better.",
+  "listOrder": 6
+ },
+ {
+  "id": "42oUYF8rseEyuoGB1StOHw",
+  "city": "Glasgow",
+  "foodName": "Clootie dumpling",
+  "foodDescription": "A spiced fruit pudding of flour, suet, dried fruit, and treacle, wrapped in a cloth — a “cloot” — and boiled for hours until it forms a dark, shiny skin. Sliced and eaten with custard, or fried for breakfast next morning. Made at Christmas and birthdays.",
+  "listOrder": 11
+ },
+ {
+  "id": "1Ti7hGPXc2ILe6z7bvapcB",
+  "city": "Madrid",
+  "foodName": "Oreja a la plancha",
+  "foodEnglishName": "Grilled pig’s ear",
+  "foodDescription": "Pig’s ear boiled, sliced, and seared hard on a flat grill with garlic and paprika, crisp at the edges and gelatinous in the middle. A texture more than a flavor. Order it with a beer and stop thinking about it.",
+  "listOrder": 11
+ },
+ {
+  "id": "6umeBSgeYpI2GHp7xwIDrN",
+  "city": "Milan",
+  "foodName": "Panettone",
+  "foodEnglishName": "Milanese Christmas bread",
+  "foodDescription": "A tall domed loaf of butter, eggs, candied orange, and raisins, raised over days from a natural starter. Legend credits a kitchen boy named Toni at the Sforza court: “pan de Toni.” Keep a slice for February 3, San Biagio’s day, said to protect the throat.",
+  "listOrder": 10
+ },
+ {
+  "id": "66ZdcekazzhMrnBZiTiJFO",
+  "city": "Milan",
+  "foodName": "Busecca",
+  "foodEnglishName": "Milanese tripe soup",
+  "foodDescription": "Tripe cut into fine strips and simmered with white beans, carrot, celery, and tomato, then finished with Parmigiano. Once the meal after midnight mass on Christmas Eve. Other Italians used to call the Milanese “busecconi,” tripe eaters, and it stuck.",
+  "listOrder": 5
+ },
+ {
+  "id": "2wnO175ps87JVlV1GsigV",
+  "city": "Helsinki",
+  "foodName": "Karjalanpaisti",
+  "foodEnglishName": "Karelian stew",
+  "foodDescription": "Beef, pork, and lamb in chunks with onion, carrot and allspice, cooked in a low oven for hours with nothing but water. No browning, no thickening, no wine. Finland’s plainest stew and quietly its best-loved.",
+  "listOrder": 6
+ },
+ {
+  "id": "48bRsFWdnTYFyRJC9MklvG",
+  "city": "Edinburgh",
+  "foodName": "Cullen skink",
+  "foodEnglishName": "Smoked haddock soup",
+  "foodDescription": "Smoked haddock, potato, onion, and milk cooked into a thick soup. “Skink” is an old word for broth, and Cullen is the fishing village it comes from. Smoky, plain, and entirely warming, with bread and butter alongside.",
+  "listOrder": 3
+ },
+ {
+  "id": "1EFcUffbNzil8sk9514PuH",
+  "city": "Zurich",
+  "foodName": "Älplermagronen",
+  "foodEnglishName": "Alpine macaroni",
+  "foodDescription": "Macaroni, potato, cream, onion, and melted cheese baked together and served with applesauce alongside, which sounds wrong and is essential. Herders’ food from the Alps, built from whatever kept well at altitude.",
+  "listOrder": 4
+ },
+ {
+  "id": "5vZutuuZsDkGhkPgVG0ESn",
+  "city": "Budapest",
+  "foodName": "Gulyás",
+  "foodEnglishName": "Goulash soup",
+  "foodDescription": "The real thing is a soup, not a stew: beef, onion, potato, and a great deal of paprika, thin enough to drink, traditionally cooked outdoors in a kettle over fire. What English calls “goulash” is closer to Hungary’s pörkölt. Order it as a first course.",
+  "listOrder": 1
  },
  {
   "id": "5j1uDDFWEbKLFUpT4zlyVs",
   "city": "Manchester",
   "foodName": "Black pudding",
-  "foodDescription": "Blood sausage of pig’s blood, oats and fat, sliced and fried until the edges crisp. The town of Bury built a reputation on it and sells it hot from a market stall with mustard. Earthier and far less sweet than it sounds.",
+  "foodDescription": "Blood sausage of pig’s blood, oats and fat, sliced, and fried until the edges crisp. The town of Bury built a reputation on it and sells it hot from a market stall with mustard. Earthier and far less sweet than it sounds.",
   "listOrder": 4
+ },
+ {
+  "id": "6mBruMKCysqiTIjtKqcxV",
+  "city": "Edinburgh",
+  "foodName": "Haggis, neeps and tatties",
+  "foodEnglishName": "Haggis, turnip, and potato",
+  "foodDescription": "Sheep’s heart, liver, and lungs minced with oats, onion, and a lot of pepper, cooked in a casing and served with mashed turnip and potato. Peppery and warm, and far less alarming than the description. Whisky sauce is a modern touch.",
+  "listOrder": 1
+ },
+ {
+  "id": "ZO0dDdLd7IUBOXJLKItt6",
+  "city": "Berlin",
+  "foodName": "Senfeier",
+  "foodEnglishName": "Eggs in mustard sauce",
+  "foodDescription": "Hard-boiled eggs halved into a thick mustard cream sauce with potatoes. Cheap, sour, and filling — a dish from the ration years that stayed on menus because people kept ordering it. Rarely found outside Germany’s east.",
+  "listOrder": 5
+ },
+ {
+  "id": "7sHJmkto0zsihGtOdscTox",
+  "city": "Marseille",
+  "foodName": "Fougasse",
+  "foodEnglishName": "Provençal flatbread",
+  "foodDescription": "Flat bread slashed into a leaf shape so there is as much crust as possible, baked with olives, anchovy, or bacon worked into the dough. Torn apart rather than sliced. Provence’s focaccia, drier and crustier.",
+  "listOrder": 10
+ },
+ {
+  "id": "5fHlLZGhEpuSy5DUXJwOWx",
+  "city": "London",
+  "foodName": "Ploughman’s lunch",
+  "foodDescription": "Cheddar, pickle, bread, butter, and often ham on a board, with no cooking involved at any point. It sounds medieval and was invented in the 1950s to sell more cheese in pubs. Still the right thing to order beside a pint.",
+  "listOrder": 9
+ },
+ {
+  "id": "1xq6V7ym1fRx1gzNM2oD2d",
+  "city": "London",
+  "foodName": "Scotch egg",
+  "foodDescription": "A soft-boiled egg wrapped in sausage meat, breaded and fried, eaten cold in one hand. A London grocer claimed the invention in 1738. The good ones have a yolk that still runs; the bad ones are gray the whole way through.",
+  "listOrder": 5
+ },
+ {
+  "id": "33q5k4dSHnUpUDHGXHI9rP",
+  "city": "London",
+  "foodName": "Banoffee pie",
+  "foodDescription": "Banana, toffee made by boiling a can of condensed milk, and whipped cream on a cookie base. Invented in a Sussex pub in 1971 and named by welding the two main ingredients together. The most 1970s dessert imaginable.",
+  "listOrder": 14
+ },
+ {
+  "id": "3Mdz5bSB0I9j5Okif3POYP",
+  "city": "Manchester",
+  "foodName": "Tripe and onions",
+  "foodDescription": "Tripe simmered pale in milk with onions, once sold from dedicated tripe shops on every northern main street — Manchester had dozens. Now nearly extinct, kept alive at Bury market. Soft, mild, and historically enormous.",
+  "listOrder": 8
+ },
+ {
+  "id": "5NTtLOk1Rx7nytPXqgCt6A",
+  "city": "Marseille",
+  "foodName": "Navettes",
+  "foodEnglishName": "Orange-flower cookies",
+  "foodDescription": "Hard, dry boat-shaped cookies scented with orange flower, baked at the same bakery near the abbey since 1781 and blessed in February at Candlemas. Meant for dunking, and they keep for months.",
+  "listOrder": 12
+ },
+ {
+  "id": "1dYYk9p5XkwsLgCZEWswfk",
+  "city": "Zurich",
+  "foodName": "Tirggel",
+  "foodEnglishName": "Honey cookies",
+  "foodDescription": "Thin, hard honey cookies stamped with detailed scenes from carved wooden molds, baked so fast that one side scorches while the other stays pale. A Zurich Christmas item made here since the 1400s. More carving than cookie.",
+  "listOrder": 11
+ },
+ {
+  "id": "1ix8RGUVsuk8Qv7OlSCFfE",
+  "city": "Berlin",
+  "foodName": "Kalter Hund",
+  "foodEnglishName": "Chocolate cookie cake",
+  "foodDescription": "Cocoa and coconut fat poured over layers of plain cookies and chilled into a dark dense loaf that gets sliced like cake. No baking at any point. A childhood birthday standard on both sides of the wall.",
+  "listOrder": 12
+ },
+ {
+  "id": "1KThliP5rcozyjM8WJT3dl",
+  "city": "Florence",
+  "foodName": "Cantucci e Vin Santo",
+  "foodEnglishName": "Biscotti and dessert wine",
+  "foodDescription": "Hard almond cookies baked twice, with a small glass of sweet amber wine to dunk them in until they soften. The wine ages in attic barrels through the temperature swings of the seasons. This is how a Tuscan meal ends.",
+  "listOrder": 13
+ },
+ {
+  "id": "3zEj5lGun5N3HJ5WKI9vXK",
+  "city": "Barcelona",
+  "foodName": "Panellets",
+  "foodEnglishName": "Pine nut marzipan balls",
+  "foodDescription": "Marzipan balls rolled in pine nuts and baked until the nuts toast, made for All Saints on November 1st and eaten with sweet wine. Almond-dense and slightly chewy. Bakeries pile them in the windows for two weeks, then stop.",
+  "listOrder": 13
+ },
+ {
+  "id": "7gnaW0qFVO1lhsmbu0EWnD",
+  "city": "Venice",
+  "foodName": "Risi e bisi",
+  "foodEnglishName": "Rice and peas",
+  "foodDescription": "Rice cooked with young spring peas and a stock made from their pods, looser than risotto and eaten with a spoon. It was served to the doge on April 25, the feast of St. Mark, when the first peas came in from the lagoon gardens.",
+  "listOrder": 7
+ },
+ {
+  "id": "69EzbqhT7z5SgIeS5oXtxz",
+  "city": "Venice",
+  "foodName": "Seppie al nero",
+  "foodEnglishName": "Cuttlefish in black ink",
+  "foodDescription": "Cuttlefish stewed in their own ink, usually with white wine, until the sauce is jet black. Served with soft white polenta, which is the Venetian kind. It stains your teeth for a while afterward, and nobody minds.",
+  "listOrder": 8
+ },
+ {
+  "id": "70BZSW0tDY0IS5t43IAdkR",
+  "city": "Venice",
+  "foodName": "Baìcoli",
+  "foodEnglishName": "Venetian cookies",
+  "foodDescription": "Thin, dry oval cookies named after the young sea bass they’re said to resemble. Baked twice so they would keep for months at sea. Dunked in coffee, hot chocolate or sweet wine, and still sold in tins by Venetian bakers.",
+  "listOrder": 12
+ },
+ {
+  "id": "3uFEahNBNOwtx87c0ldMzD",
+  "city": "Venice",
+  "foodName": "Ombra",
+  "foodEnglishName": "Small glass of wine",
+  "foodDescription": "A small glass of house wine, drunk standing at the counter, often well before noon. The name means shade: wine sellers in St. Mark’s Square are said to have moved their stalls with the bell tower’s shadow to keep the wine cool.",
+  "listOrder": 14
+ },
+ {
+  "id": "OiXxJ2t9oZR3Lur4mqhLD",
+  "city": "Venice",
+  "foodName": "Bellini",
+  "foodDescription": "White peach purée topped with Prosecco, invented by Giuseppe Cipriani at Harry’s Bar near St. Mark’s in 1948 and named for the painter Giovanni Bellini, for its pink color. Harry’s Bar still serves it, at Harry’s Bar prices.",
+  "listOrder": 15
+ },
+ {
+  "id": "pHn9DfRx805Nx2Mo2eAZD",
+  "city": "Munich",
+  "foodName": "Maß",
+  "foodEnglishName": "Liter of beer",
+  "foodDescription": "A full liter in a heavy glass mug, the beer garden standard. Augustiner, Munich’s oldest brewery, is the local favorite. In the self-service area you may bring your own food, a right dating to 1812, but you buy the drinks there.",
+  "listOrder": 15
+ },
+ {
+  "id": "7kuPcFKMbiulcIyzjaketY",
+  "city": "Milan",
+  "foodName": "Pan de mej",
+  "foodEnglishName": "Elderflower cornmeal buns",
+  "foodDescription": "Sweet cornmeal buns scented with dried elderflower and dusted with sugar. Made for April 23, the feast of St. George, patron of Milan’s dairymen, and once eaten dipped in fresh cream. The name means millet bread, after the flour it was first made with.",
+  "listOrder": 11
+ },
+ {
+  "id": "3OvMopVfXhR1EsdYWoLEU4",
+  "city": "Milan",
+  "foodName": "Panzerotto",
+  "foodEnglishName": "Fried filled pastry",
+  "foodDescription": "A half-moon of dough filled with tomato and mozzarella and fried until it puffs. Puglian by origin, made a Milanese habit by Luini, the bakery just off the Duomo square since 1949. The line moves fast. Eat it on the sidewalk and mind the molten middle.",
+  "listOrder": 15
+ },
+ {
+  "id": "7J3VGkXYfkKvrcByBkNjCO",
+  "city": "Warsaw",
+  "foodName": "Wuzetka",
+  "foodEnglishName": "W-Z cake",
+  "foodDescription": "Chocolate sponge soaked in punch, layered with thick whipped cream and covered in chocolate glaze. Created in Warsaw around 1950, most likely named after the W-Z route, the postwar east–west road through the rebuilt center. Eat it with a fork, carefully.",
+  "listOrder": 11
+ },
+ {
+  "id": "2oE2m0MqHJdXb9JxOXzdlS",
+  "city": "Warsaw",
+  "foodName": "Czekolada do picia",
+  "foodEnglishName": "Drinking chocolate",
+  "foodDescription": "Melted chocolate rather than cocoa, thick enough to stand a spoon in, served in Wedel’s chocolate lounges, the oldest on Szpitalna Street in the city center. Order it plain or with chilli and expect to finish with a spoon. A glass of water helps.",
+  "listOrder": 13
+ },
+ {
+  "id": "6i7XxdErJIFs8vKUtKWFF8",
+  "city": "Warsaw",
+  "foodName": "Pańska skórka",
+  "foodEnglishName": "Warsaw cemetery candy",
+  "foodDescription": "A pink-and-white chewy sugar sweet, made in Praga since the 19th century. Sold from stalls outside Warsaw cemeteries such as Powązki on All Saints’ Day, November 1. It sticks to your teeth; that is the point.",
+  "listOrder": 14
+ },
+ {
+  "id": "2Vn3hMmCY6BSz4MwpEVPAp",
+  "city": "Belfast",
+  "foodName": "Belfast bap",
+  "foodDescription": "A big, round, soft white roll dusted in flour, with a dark crust on top that looks close to burned. Bakeries pile them in the window. Split one for a bacon or sausage bap, or for a pastie bap, which is exactly what it sounds like.",
+  "listOrder": 5
+ },
+ {
+  "id": "qSuIqGrQgHuMwQ7woPTDb",
+  "city": "Belfast",
+  "foodName": "Dulse",
+  "foodDescription": "Red seaweed gathered off the north Antrim coast and dried until leathery, then eaten straight from the bag as a salty snack. Traditionally paired with yellowman at the Lammas Fair. Look for it at St. George’s Market. The taste is the sea, concentrated.",
+  "listOrder": 11
+ },
+ {
+  "id": "2iNBChQc9zK5YhtnVawX4v",
+  "city": "Belfast",
+  "foodName": "Bushmills",
+  "foodDescription": "Irish whiskey from the Old Bushmills Distillery on the north Antrim coast, which points to a 1608 royal license to distil in the area. Triple-distilled and smooth. Ask for it neat or with a drop of water; Belfast bars stock several ages of it.",
+  "listOrder": 13
+ },
+ {
+  "id": "7Daw4pX0gk9NjdlQQb6USC",
+  "city": "Belfast",
+  "foodName": "Tayto cheese & onion",
+  "foodEnglishName": "Crisps",
+  "foodDescription": "Northern Ireland’s own Tayto, made since 1956 at Tandragee Castle in County Armagh and unrelated to the Tayto brand in the Republic. Cheese and onion is the flagship flavor. A crisp sandwich in buttered white bread is a respected local lunch.",
+  "listOrder": 14
+ },
+ {
+  "id": "1amakyalaOsr0uax7f8b4H",
+  "city": "Liverpool",
+  "foodName": "Ormskirk gingerbread",
+  "foodDescription": "Hard, flat ginger cookies sold at the market in Ormskirk, a Lancashire market town just north of the city, where they have been made since the 1700s. Sold by the bag. They snap rather than bend and are best dunked in tea, the ginger arriving slowly.",
+  "listOrder": 15
+ },
+ {
+  "id": "5V4TWpLQDv9tcaffhlFncj",
+  "city": "Glasgow",
+  "foodName": "Tunnock’s teacake",
+  "foodDescription": "A round shortbread cookie topped with a dome of soft white marshmallow and coated in thin milk chocolate, in red and silver foil. Made by Tunnock’s in Uddingston, east of the city, since 1956. Giant dancing versions opened the 2014 Commonwealth Games.",
+  "listOrder": 12
+ },
+ {
+  "id": "3afiDNOh6qHsIncBZbuAMR",
+  "city": "Glasgow",
+  "foodName": "Irn-Bru",
+  "foodDescription": "A bright orange fizzy drink made by AG Barr, a Glasgow firm, since 1901, now produced in Cumbernauld. Sweet, faintly of bubblegum and citrus, with a secret recipe. Scots drink it as a hangover cure. A Glaswegian may call any fizzy drink “ginger.”",
+  "listOrder": 14
+ },
+ {
+  "id": "1QklWFyJVWSCtEAfzqBY5j",
+  "city": "Glasgow",
+  "foodName": "Roll and square",
+  "foodDescription": "A Glasgow morning roll, floury and soft with a crust that shatters, split and filled with a slice of square sausage, also called “Lorne.” The local hangover breakfast. Add a fried egg or tattie scone, and choose red sauce or brown — people do care.",
+  "listOrder": 5
+ },
+ {
+  "id": "4PizvtsHQZ3wEzhbDTdfdR",
+  "city": "Liverpool",
+  "foodName": "Everton toffee",
+  "foodDescription": "Hard butter toffee first sold in the 1700s by Molly Bushell in Everton, then a village above the docks. It gave Everton FC its nickname, “the Toffees,” and before home games a Toffee Lady still throws Everton mints, striped hard candies, into the crowd.",
+  "listOrder": 4
+ },
+ {
+  "id": "7FoppjkASInEEpj3VmvXKc",
+  "city": "Liverpool",
+  "foodName": "Scouse",
+  "foodDescription": "Lamb or beef stewed for hours with potatoes, onions and carrots until the potatoes break down and thicken it. Named after “lobscouse,” a sailors’ stew, and the source of the city’s nickname. Eat it with pickled red cabbage or beetroot and buttered bread.",
+  "listOrder": 1
+ },
+ {
+  "id": "2V3lxM1hjs3FbeaY2FVF1X",
+  "city": "Belfast",
+  "foodName": "Potato bread",
+  "foodDescription": "Mashed potato kneaded with flour and butter, rolled thin and cut into triangles, then browned on a griddle. Also called “fadge” or “tattie bread.” Unlike boxty it uses cooked potato only. Fried in butter it goes crisp and chewy at the same time.",
+  "listOrder": 3
+ },
+ {
+  "id": "3y0JVDBxX49xENQG9Ztgdq",
+  "city": "Milan",
+  "foodName": "Cotoletta alla milanese",
+  "foodEnglishName": "Breaded veal cutlet",
+  "foodDescription": "A veal chop on the bone, dipped in egg and breadcrumbs and fried in clarified butter. Milan and Vienna argue over who came first, this or the Wiener Schnitzel. The version beaten out to the size of the plate is called “orecchia d’elefant,” elephant’s ear.",
+  "listOrder": 3
+ },
+ {
+  "id": "61xjCTpdojDDOkInustLQG",
+  "city": "Reykjavík",
+  "foodName": "Rúgbrauð",
+  "foodEnglishName": "Rye bread",
+  "foodDescription": "Dense, dark, faintly sweet rye baked slowly underground using geothermal heat, which earns it the nickname “thunder bread.” Sliced thin and buttered heavily, usually under smoked fish. Sweeter than any rye bread you have had before.",
+  "listOrder": 5
+ },
+ {
+  "id": "3Esp53ud1CmmkaRBATiBxt",
+  "city": "Berlin",
+  "foodName": "Berliner Pfannkuchen",
+  "foodEnglishName": "Jam doughnut",
+  "foodDescription": "A round doughnut with no hole, filled with jam and dusted in sugar. In Berlin it is a “Pfannkuchen”; everywhere else it is a “Berliner,” and locals will correct you. Eaten at New Year, sometimes filled with mustard as a prank.",
+  "listOrder": 10
+ },
+ {
+  "id": "3kVMQL0cTSBS7eBfFzS5kd",
+  "city": "Amsterdam",
+  "foodName": "Jenever",
+  "foodEnglishName": "Dutch gin",
+  "foodDescription": "Juniper spirit aged in oak, the ancestor of gin, poured brimming into a tulip glass that you bend down to sip without lifting. Ordered beside a beer, a pairing called a “headbutt.” Ask for oude, the maltier kind.",
+  "listOrder": 15
+ },
+ {
+  "id": "7F7e0NwGBPJrUfMcEulTDX",
+  "city": "Amsterdam",
+  "foodName": "Erwtensoep",
+  "foodEnglishName": "Split pea soup",
+  "foodDescription": "Split pea soup cooked with pork until a spoon will stand up in it, with smoked sausage sliced through. Also called “snert.” Traditionally eaten after skating on frozen canals, and only correct when genuinely thick.",
+  "listOrder": 7
+ },
+ {
+  "id": "17zdPef4TUihqYbLwFASzQ",
+  "city": "Manchester",
+  "foodName": "Pie barm",
+  "foodDescription": "A whole meat and potato pie put inside a buttered bread roll — carbohydrate wrapped in carbohydrate, known locally as a “Wigan kebab.” Sold in bakeries at breakfast. There is no defense of it, and none is required.",
+  "listOrder": 3
+ },
+ {
+  "id": "sJmdYqRmrQp3HDWee6FWv",
+  "city": "London",
+  "foodName": "Chicken tikka masala",
+  "foodDescription": "Grilled marinated chicken in a spiced tomato and cream sauce, invented in Britain rather than India, most likely by a Bangladeshi cook adapting to local taste. A foreign secretary once called it “a true British national dish.”",
+  "listOrder": 7
+ },
+ {
+  "id": "50gvdrC3vvmv3z91Q81rmo",
+  "city": "Belgrade",
+  "foodName": "Karađorđeva šnicla",
+  "foodEnglishName": "Karađorđe’s schnitzel",
+  "foodDescription": "Veal rolled around kajmak, breaded and fried, then served with tartar sauce — a 1950s invention nicknamed “the maiden’s dream,” for reasons that become obvious. Enormous, molten inside, and entirely unserious.",
+  "listOrder": 3
+ },
+ {
+  "id": "6zz1TZ9ZaZB0TF3ERjhwIv",
+  "city": "Berlin",
+  "foodName": "Berliner Weisse",
+  "foodEnglishName": "Sour wheat beer",
+  "foodDescription": "A sour wheat beer, low in alcohol and tart enough to make you blink, traditionally cut with raspberry or woodruff syrup and served in a wide bowl of a glass. Napoleon’s troops called it “the Champagne of the north.”",
+  "listOrder": 14
+ },
+ {
+  "id": "3ZUPmUuMr8cMV5Pbg7QdJw",
+  "city": "Florence",
+  "foodName": "Fagioli all’uccelletto",
+  "foodEnglishName": "Tomato and sage beans",
+  "foodDescription": "White beans stewed with tomato, garlic and sage — cooked, the saying goes, the way you would cook small birds. Tuscans eat so many beans that other Italians call them “bean-eaters.” Ordered as a side and eaten as a meal.",
+  "listOrder": 10
+ },
+ {
+  "id": "7aiuWYuUy1VarfeNKtkE9C",
+  "city": "Madrid",
+  "foodName": "Rosquillas de San Isidro",
+  "foodEnglishName": "San Isidro doughnuts",
+  "foodDescription": "Small anise doughnuts sold for the city’s patron saint in mid-May, in four versions: plain, sugar-glazed, meringue-topped, and the ones called “French.” The plain ones are the good ones. Two weeks a year, then nothing.",
+  "listOrder": 14
  },
  {
   "id": "6hsKCehHjOwCoekYYYt4DU",
@@ -19,14 +1258,6 @@
   "foodName": "Karahi",
   "foodDescription": "Meat cooked hard and fast in a steel wok with tomato, ginger and green chili, arriving at the table still spitting. Rusholme’s mile of Pakistani and Kashmiri restaurants has fed the city since the 1970s. Order bread, not rice.",
   "listOrder": 5
- },
- {
-  "id": "4RCO6kZs2qTkQxY1QPgyaJ",
-  "city": "Amsterdam",
-  "foodName": "Haring",
-  "foodEnglishName": "Raw herring",
-  "foodDescription": "Raw herring cured lightly in salt, served with chopped onion and pickle and eaten by holding it up by the tail. The new season’s fish arrives in June and is fattest then. Not fishy at all — sweet, soft and clean.",
-  "listOrder": 1
  },
  {
   "id": "3BM30cTcokiKSHY7rWBSSr",
@@ -51,14 +1282,6 @@
   "foodEnglishName": "Filled chocolates",
   "foodDescription": "Filled chocolates — ganache, praliné, caramel — invented in Brussels in 1912 when a pharmacist’s son put filling inside a chocolate shell. Bought by weight in a numbered box, and best eaten within days.",
   "listOrder": 13
- },
- {
-  "id": "7sHJmkto0zsihGtOdscTox",
-  "city": "Marseille",
-  "foodName": "Fougasse",
-  "foodEnglishName": "Provençal flatbread",
-  "foodDescription": "Flat bread slashed into a leaf shape so there is as much crust as possible, baked with olives, anchovy or bacon worked into the dough. Torn apart rather than sliced. Provence’s focaccia, drier and crustier.",
-  "listOrder": 10
  },
  {
   "id": "3lmdbOw3dYt51BpM8g8Jy",
@@ -101,14 +1324,6 @@
   "listOrder": 7
  },
  {
-  "id": "1EFcUffbNzil8sk9514PuH",
-  "city": "Zurich",
-  "foodName": "Älplermagronen",
-  "foodEnglishName": "Alpine macaroni",
-  "foodDescription": "Macaroni, potato, cream, onion and melted cheese baked together and served with applesauce alongside, which sounds wrong and is essential. Herders’ food from the Alps, built from whatever kept well at altitude.",
-  "listOrder": 4
- },
- {
   "id": "GzZ8aQrg2tn9PXvqVJ4J1",
   "city": "Zurich",
   "foodName": "Bratwurst mit Bürli",
@@ -149,38 +1364,6 @@
   "listOrder": 6
  },
  {
-  "id": "2TzaSqwAZZShazPuT4xWuQ",
-  "city": "Prague",
-  "foodName": "Medovník",
-  "foodEnglishName": "Honey cake",
-  "foodDescription": "A honey cake of many thin layers with sour cream frosting between them, left to soften for a day before it is cut. Dense, spiced and not too sweet. Sold everywhere, and the best ones are made in somebody’s kitchen.",
-  "listOrder": 13
- },
- {
-  "id": "ZO0dDdLd7IUBOXJLKItt6",
-  "city": "Berlin",
-  "foodName": "Senfeier",
-  "foodEnglishName": "Eggs in mustard sauce",
-  "foodDescription": "Hard-boiled eggs halved into a thick mustard cream sauce with potatoes. Cheap, sour and filling — a dish from the ration years that stayed on menus because people kept ordering it. Rarely found outside Germany’s east.",
-  "listOrder": 5
- },
- {
-  "id": "2wnO175ps87JVlV1GsigV",
-  "city": "Helsinki",
-  "foodName": "Karjalanpaisti",
-  "foodEnglishName": "Karelian stew",
-  "foodDescription": "Beef, pork and lamb in chunks with onion, carrot and allspice, cooked in a low oven for hours with nothing but water. No browning, no thickening, no wine. Finland’s plainest stew and quietly its best-loved.",
-  "listOrder": 6
- },
- {
-  "id": "2OqT0jDB5t344hlBc1KxMq",
-  "city": "Oslo",
-  "foodName": "Pølse i lompe",
-  "foodEnglishName": "Hot dog in potato wrap",
-  "foodDescription": "A hot dog wrapped in lompe, a soft potato flatbread, instead of a bun, with mustard, ketchup, crisp onions and sometimes shrimp salad. Sold from kiosks everywhere. Norway’s most-eaten food and the cheapest thing in the country.",
-  "listOrder": 1
- },
- {
   "id": "1mksuVebsItze4LslPAEfK",
   "city": "Stockholm",
   "foodName": "Raggmunk",
@@ -203,14 +1386,6 @@
   "foodEnglishName": "Potato stew",
   "foodDescription": "Potatoes stewed slowly with onion, dripping and yesterday’s roast meat until it all collapses together. Made from leftovers, so no two are the same. Served with oatcakes, and at funerals and weddings in vast quantities.",
   "listOrder": 4
- },
- {
-  "id": "6mBruMKCysqiTIjtKqcxV",
-  "city": "Edinburgh",
-  "foodName": "Haggis, neeps and tatties",
-  "foodEnglishName": "Haggis, turnip and potato",
-  "foodDescription": "Sheep’s heart, liver and lungs minced with oats, onion and a lot of pepper, cooked in a casing and served with mashed turnip and potato. Peppery and warm, and far less alarming than the description. Whisky sauce is a modern touch.",
-  "listOrder": 1
  },
  {
   "id": "1xw2RXDH9gxy5arGoo1iAz",
@@ -277,14 +1452,6 @@
   "listOrder": 13
  },
  {
-  "id": "1Ti7hGPXc2ILe6z7bvapcB",
-  "city": "Madrid",
-  "foodName": "Oreja a la plancha",
-  "foodEnglishName": "Grilled pig’s ear",
-  "foodDescription": "Pig’s ear boiled, sliced and seared hard on a flat grill with garlic and paprika, crisp at the edges and gelatinous in the middle. A texture more than a flavor. Order it with a beer and stop thinking about it.",
-  "listOrder": 11
- },
- {
   "id": "2zoIGkPYrAux950TCNCGhF",
   "city": "Madrid",
   "foodName": "Callos a la madrileña",
@@ -325,14 +1492,6 @@
   "listOrder": 11
  },
  {
-  "id": "4OvBbBJMnMylW3Dizyjunh",
-  "city": "Reykjavík",
-  "foodName": "Kjötsúpa",
-  "foodEnglishName": "Lamb soup",
-  "foodDescription": "Lamb on the bone simmered with potato, carrot, rutabaga and herbs into a clear, plain, restorative soup. Iceland’s answer to its weather. Nothing about it is fancy, and everyone has a grandmother whose version was better.",
-  "listOrder": 3
- },
- {
   "id": "5DhqARJKejVFReOVFUtUwG",
   "city": "Reykjavík",
   "foodName": "Plokkfiskur",
@@ -349,46 +1508,6 @@
   "listOrder": 12
  },
  {
-  "id": "7aiuWYuUy1VarfeNKtkE9C",
-  "city": "Madrid",
-  "foodName": "Rosquillas de San Isidro",
-  "foodEnglishName": "San Isidro doughnuts",
-  "foodDescription": "Small anise doughnuts sold for the city’s patron saint in mid-May, in four versions: plain, sugar-glazed, meringue-topped, and the ones called “French”. The plain ones are the good ones. Two weeks a year, then nothing.",
-  "listOrder": 14
- },
- {
-  "id": "3ZUPmUuMr8cMV5Pbg7QdJw",
-  "city": "Florence",
-  "foodName": "Fagioli all’uccelletto",
-  "foodEnglishName": "Tomato and sage beans",
-  "foodDescription": "White beans stewed with tomato, garlic and sage — cooked, the saying goes, the way you would cook small birds. Tuscans eat so many beans that other Italians call them “bean-eaters”. Ordered as a side and eaten as a meal.",
-  "listOrder": 10
- },
- {
-  "id": "6zz1TZ9ZaZB0TF3ERjhwIv",
-  "city": "Berlin",
-  "foodName": "Berliner Weisse",
-  "foodEnglishName": "Sour wheat beer",
-  "foodDescription": "A sour wheat beer, low in alcohol and tart enough to make you blink, traditionally cut with raspberry or woodruff syrup and served in a wide bowl of a glass. Napoleon’s troops called it “the Champagne of the north”.",
-  "listOrder": 14
- },
- {
-  "id": "50gvdrC3vvmv3z91Q81rmo",
-  "city": "Belgrade",
-  "foodName": "Karađorđeva šnicla",
-  "foodEnglishName": "Karađorđe’s schnitzel",
-  "foodDescription": "Veal rolled around kajmak, breaded and fried, then served with tartar sauce — a 1950s invention nicknamed “the maiden’s dream”, for reasons that become obvious. Enormous, molten inside, and entirely unserious.",
-  "listOrder": 3
- },
- {
-  "id": "5vZutuuZsDkGhkPgVG0ESn",
-  "city": "Budapest",
-  "foodName": "Gulyás",
-  "foodEnglishName": "Goulash soup",
-  "foodDescription": "The real thing is a soup, not a stew: beef, onion, potato and a great deal of paprika, thin enough to drink, traditionally cooked outdoors in a kettle over fire. What English calls “goulash” is closer to Hungary’s pörkölt. Order it as a first course.",
-  "listOrder": 1
- },
- {
   "id": "6DUPduJjnO6FW7lEjkKm6E",
   "city": "Glasgow",
   "foodName": "Fish supper",
@@ -396,48 +1515,11 @@
   "listOrder": 9
  },
  {
-  "id": "42oUYF8rseEyuoGB1StOHw",
-  "city": "Glasgow",
-  "foodName": "Clootie dumpling",
-  "foodDescription": "A spiced fruit pudding of flour, suet, dried fruit and treacle, wrapped in a cloth — a “cloot” — and boiled for hours until it forms a dark, shiny skin. Sliced and eaten with custard, or fried for breakfast next morning. Made at Christmas and birthdays.",
-  "listOrder": 11
- },
- {
-  "id": "sJmdYqRmrQp3HDWee6FWv",
-  "city": "London",
-  "foodName": "Chicken tikka masala",
-  "foodDescription": "Grilled marinated chicken in a spiced tomato and cream sauce, invented in Britain rather than India, most likely by a Bangladeshi cook adapting to local taste. A foreign secretary once called it “a true British national dish”.",
-  "listOrder": 7
- },
- {
-  "id": "17zdPef4TUihqYbLwFASzQ",
-  "city": "Manchester",
-  "foodName": "Pie barm",
-  "foodDescription": "A whole meat and potato pie put inside a buttered bread roll — carbohydrate wrapped in carbohydrate, known locally as a “Wigan kebab”. Sold in bakeries at breakfast. There is no defense of it, and none is required.",
-  "listOrder": 3
- },
- {
   "id": "1n9dCtcOLIIbKDyzSjnbwJ",
   "city": "Paris",
   "foodName": "Steak frites",
   "foodDescription": "A thin cut of beef seared rare under a pat of herb butter, with a mound of thin fries and no vegetable in sight. Order it “saignant” and expect it rarer than you meant. The fries are usually refilled without asking.",
   "listOrder": 4
- },
- {
-  "id": "7F7e0NwGBPJrUfMcEulTDX",
-  "city": "Amsterdam",
-  "foodName": "Erwtensoep",
-  "foodEnglishName": "Split pea soup",
-  "foodDescription": "Split pea soup cooked with pork until a spoon will stand up in it, with smoked sausage sliced through. Also called “snert”. Traditionally eaten after skating on frozen canals, and only correct when genuinely thick.",
-  "listOrder": 7
- },
- {
-  "id": "3kVMQL0cTSBS7eBfFzS5kd",
-  "city": "Amsterdam",
-  "foodName": "Jenever",
-  "foodEnglishName": "Dutch gin",
-  "foodDescription": "Juniper spirit aged in oak, the ancestor of gin, poured brimming into a tulip glass that you bend down to sip without lifting. Ordered beside a beer, a pairing called a “headbutt”. Ask for oude, the maltier kind.",
-  "listOrder": 15
  },
  {
   "id": "7tvDlclKoCqXTXurVwrgMg",
@@ -456,36 +1538,12 @@
   "listOrder": 14
  },
  {
-  "id": "3Esp53ud1CmmkaRBATiBxt",
-  "city": "Berlin",
-  "foodName": "Berliner Pfannkuchen",
-  "foodEnglishName": "Jam doughnut",
-  "foodDescription": "A round doughnut with no hole, filled with jam and dusted in sugar. In Berlin it is a “Pfannkuchen”; everywhere else it is a “Berliner”, and locals will correct you. Eaten at New Year, sometimes filled with mustard as a prank.",
-  "listOrder": 10
- },
- {
-  "id": "6KNtUKMS6vZPVu1z53M2oc",
-  "city": "Berlin",
-  "foodName": "Buletten",
-  "foodEnglishName": "Meat patties",
-  "foodDescription": "Flat pork and beef patties with soaked bread, onion and marjoram, fried and eaten cold with mustard as often as hot. The Berlin word for what the rest of Germany calls a “Frikadelle”. Sold at bakeries and old corner pubs.",
-  "listOrder": 3
- },
- {
   "id": "4NdOofGzAH6d9cxOr1J7hd",
   "city": "Copenhagen",
   "foodName": "Wienerbrød",
   "foodEnglishName": "Danish pastry",
   "foodDescription": "What the rest of the world calls “Danish pastry”: laminated dough with butter folded in dozens of times, filled with custard or jam. Danes named it for Vienna, where the technique came from. Buy it before ten in the morning.",
   "listOrder": 10
- },
- {
-  "id": "48bRsFWdnTYFyRJC9MklvG",
-  "city": "Edinburgh",
-  "foodName": "Cullen skink",
-  "foodEnglishName": "Smoked haddock soup",
-  "foodDescription": "Smoked haddock, potato, onion and milk cooked into a thick soup. “Skink” is an old word for broth, and Cullen is the fishing village it comes from. Smoky, plain and entirely warming, with bread and butter alongside.",
-  "listOrder": 3
  },
  {
   "id": "4sOVXn89SmUrNaEncT7Aro",
@@ -496,36 +1554,12 @@
   "listOrder": 15
  },
  {
-  "id": "21Ep2NoQAr4pDuQDjY2aIk",
-  "city": "Naples",
-  "foodName": "Sfogliatella",
-  "foodEnglishName": "Ricotta shell pastry",
-  "foodDescription": "A shell of paper-thin pastry layers, ridged like a fan, filled with ricotta, semolina and candied citrus. “Riccia” is the crisp version, “frolla” the soft one. Buy it hot in the morning, while the shell still shatters when you bite.",
-  "listOrder": 12
- },
- {
   "id": "28rVVBaFFeQPtW2EOCOkPm",
   "city": "Reykjavík",
   "foodName": "Humar",
   "foodEnglishName": "Langoustine",
   "foodDescription": "Langoustines, called “lobster” here although they are neither — smaller and sweeter, usually split and grilled in garlic butter or turned into a thick bisque. The best come from the southeast coast. Expensive, and worth it once.",
   "listOrder": 6
- },
- {
-  "id": "61xjCTpdojDDOkInustLQG",
-  "city": "Reykjavík",
-  "foodName": "Rúgbrauð",
-  "foodEnglishName": "Rye bread",
-  "foodDescription": "Dense, dark, faintly sweet rye baked slowly underground using geothermal heat, which earns it the nickname “thunder bread”. Sliced thin and buttered heavily, usually under smoked fish. Sweeter than any rye bread you have had before.",
-  "listOrder": 5
- },
- {
-  "id": "5WZOEqhVEZZSPaZbmJ3It1",
-  "city": "Reykjavík",
-  "foodName": "Pylsur",
-  "foodEnglishName": "Icelandic hot dog",
-  "foodDescription": "An Icelandic hot dog, mostly lamb, snapping in a soft bun under raw and crisp fried onions, ketchup, sweet brown mustard and remoulade. Ask for “eina með öllu” — one with everything. The harbor stand has sold them since 1937.",
-  "listOrder": 1
  },
  {
   "id": "nEJ09izqnB26CMTscaiPh",
@@ -570,46 +1604,6 @@
   "listOrder": 14
  },
  {
-  "id": "3y0JVDBxX49xENQG9Ztgdq",
-  "city": "Milan",
-  "foodName": "Cotoletta alla milanese",
-  "foodEnglishName": "Breaded veal cutlet",
-  "foodDescription": "A veal chop on the bone, dipped in egg and breadcrumbs and fried in clarified butter. Milan and Vienna argue over who came first, this or the Wiener Schnitzel. The version beaten out to the size of the plate is called “orecchia d’elefant”, elephant’s ear.",
-  "listOrder": 3
- },
- {
-  "id": "66ZdcekazzhMrnBZiTiJFO",
-  "city": "Milan",
-  "foodName": "Busecca",
-  "foodEnglishName": "Milanese tripe soup",
-  "foodDescription": "Tripe cut into fine strips and simmered with white beans, carrot, celery and tomato, then finished with Parmigiano. Once the meal after midnight mass on Christmas Eve. Other Italians used to call the Milanese “busecconi”, tripe eaters, and it stuck.",
-  "listOrder": 5
- },
- {
-  "id": "1FkzWtno0PYs6vervxfiRk",
-  "city": "Milan",
-  "foodName": "Mondeghili",
-  "foodEnglishName": "Milanese meatballs",
-  "foodDescription": "Flattened meatballs of leftover boiled meat, mortadella or salami, milk-soaked bread and Parmigiano, fried in butter. The name is traced to the Spanish “albóndiga”. Thrift food turned bar food: look for them on aperitivo counters around six.",
-  "listOrder": 6
- },
- {
-  "id": "1TbIGmEf7LxlEArpfMyWtt",
-  "city": "Milan",
-  "foodName": "Nervetti",
-  "foodEnglishName": "Veal cartilage salad",
-  "foodDescription": "Tendons and cartilage from calves’ knees, boiled for hours, pressed, sliced thin and dressed with raw onion, oil and vinegar, sometimes with beans. Cold, chewy and translucent. A fixture of old osterie, where it is listed in dialect as “gnervitt”.",
-  "listOrder": 7
- },
- {
-  "id": "6umeBSgeYpI2GHp7xwIDrN",
-  "city": "Milan",
-  "foodName": "Panettone",
-  "foodEnglishName": "Milanese Christmas bread",
-  "foodDescription": "A tall domed loaf of butter, eggs, candied orange and raisins, raised over days from a natural starter. Legend credits a kitchen boy named Toni at the Sforza court: “pan de Toni”. Keep a slice for 3 February, San Biagio’s day, said to protect the throat.",
-  "listOrder": 10
- },
- {
   "id": "7ITlt1F1uHZO6Oti5mxmxw",
   "city": "Milan",
   "foodName": "Negroni sbagliato",
@@ -618,61 +1612,11 @@
   "listOrder": 14
  },
  {
-  "id": "L4lwsWlH7t2n8dikX1AA0",
-  "city": "Belfast",
-  "foodName": "Soda farl",
-  "foodEnglishName": "Soda bread",
-  "foodDescription": "Soda bread dough patted into a round, cut in four and cooked on a dry griddle rather than baked, so it comes out flat, floury and soft inside. “Farl” is from an old word for a quarter. Split it, fry it, and fill it with bacon or an egg.",
-  "listOrder": 2
- },
- {
-  "id": "2V3lxM1hjs3FbeaY2FVF1X",
-  "city": "Belfast",
-  "foodName": "Potato bread",
-  "foodDescription": "Mashed potato kneaded with flour and butter, rolled thin and cut into triangles, then browned on a griddle. Also called “fadge” or “tattie bread”. Unlike boxty it uses cooked potato only. Fried in butter it goes crisp and chewy at the same time.",
-  "listOrder": 3
- },
- {
   "id": "6hIO1aJnxNkUuGuHn6Tuwm",
   "city": "Belfast",
   "foodName": "Pastie supper",
   "foodDescription": "A pastie here is no Cornish pasty: it is a round patty of minced pork, onion and potato, battered and deep-fried. “Supper” means it comes with chips. A Belfast chip shop order that needs salt, vinegar and nothing more complicated.",
   "listOrder": 6
- },
- {
-  "id": "7FoppjkASInEEpj3VmvXKc",
-  "city": "Liverpool",
-  "foodName": "Scouse",
-  "foodDescription": "Lamb or beef stewed for hours with potatoes, onions and carrots until the potatoes break down and thicken it. Named after “lobscouse”, a sailors’ stew, and the source of the city’s nickname. Eat it with pickled red cabbage or beetroot and buttered bread.",
-  "listOrder": 1
- },
- {
-  "id": "4PizvtsHQZ3wEzhbDTdfdR",
-  "city": "Liverpool",
-  "foodName": "Everton toffee",
-  "foodDescription": "Hard butter toffee first sold in the 1700s by Molly Bushell in Everton, then a village above the docks. It gave Everton FC its nickname, “the Toffees”, and before home games a Toffee Lady still throws Everton mints, striped boiled sweets, into the crowd.",
-  "listOrder": 4
- },
- {
-  "id": "3oAZzMq9wLmZQysFGbK6VB",
-  "city": "Liverpool",
-  "foodName": "Jam butty",
-  "foodDescription": "White bread, butter and strawberry jam, folded or cut in half; a “butty” is any sandwich here. Comedian Ken Dodd, from the Knotty Ash district, spent a career joking about the jam butty mines worked by his Diddy Men. Best with a mug of tea.",
-  "listOrder": 13
- },
- {
-  "id": "1QklWFyJVWSCtEAfzqBY5j",
-  "city": "Glasgow",
-  "foodName": "Roll and square",
-  "foodDescription": "A Glasgow morning roll, floury and soft with a crust that shatters, split and filled with a slice of square sausage, also called “Lorne”. The local hangover breakfast. Add a fried egg or tattie scone, and choose red sauce or brown — people do care.",
-  "listOrder": 5
- },
- {
-  "id": "3afiDNOh6qHsIncBZbuAMR",
-  "city": "Glasgow",
-  "foodName": "Irn-Bru",
-  "foodDescription": "A bright orange fizzy drink made by AG Barr, a Glasgow firm, since 1901, now produced in Cumbernauld. Sweet, faintly of bubblegum and citrus, with a secret recipe. Scots drink it as a hangover cure. A Glaswegian may call any fizzy drink “ginger”.",
-  "listOrder": 14
  },
  {
   "id": "3kCLDsuFeLGUKY5PBxtl6O",
@@ -688,13 +1632,6 @@
   "foodEnglishName": "Ice cream cone",
   "foodDescription": "Glasgow’s word for an ice cream cone, sold from ice cream vans and from the cafés opened by Italian families who arrived from the late 1800s. Vanilla is standard. Ask for a ninety-nine and you get a chocolate flake pushed in the top.",
   "listOrder": 13
- },
- {
-  "id": "5V4TWpLQDv9tcaffhlFncj",
-  "city": "Glasgow",
-  "foodName": "Tunnock’s teacake",
-  "foodDescription": "A round shortbread biscuit topped with a dome of soft white marshmallow and coated in thin milk chocolate, in red and silver foil. Made by Tunnock’s in Uddingston, east of the city, since 1956. Giant dancing versions opened the 2014 Commonwealth Games.",
-  "listOrder": 12
  },
  {
   "id": "kbnIKVATFB5kebby1btbm",
@@ -719,14 +1656,6 @@
   "listOrder": 7
  },
  {
-  "id": "4gHaIF8mTcG4jmYzYt3WWL",
-  "city": "Glasgow",
-  "foodName": "Tattie scone",
-  "foodEnglishName": "Potato scone",
-  "foodDescription": "Mashed potato kneaded with flour and butter, rolled thin, cut into triangles and cooked dry on a griddle. Fried again in the pan for a Scottish breakfast, or folded into a roll with square sausage. Supermarkets sell them in packs; bakeries’ are better.",
-  "listOrder": 6
- },
- {
   "id": "rNdsBgrT7Re6br5YdwvLx",
   "city": "Glasgow",
   "foodName": "Haggis pakora",
@@ -741,25 +1670,11 @@
   "listOrder": 3
  },
  {
-  "id": "5b2kj23HBOESeS1a64B2FB",
-  "city": "Glasgow",
-  "foodName": "Munchy box",
-  "foodDescription": "A pizza box filled with whatever the takeaway has: doner meat, chicken pakora, chips, onion rings, garlic bread, naan, salad and several sauces, all piled together. Bought late at night from Glasgow’s Indian and Pakistani takeaways, and meant for sharing.",
-  "listOrder": 2
- },
- {
   "id": "1E2bdLne1kp6lGvnz95AT2",
   "city": "Glasgow",
   "foodName": "Chicken tikka masala",
   "foodDescription": "Grilled chicken tikka in a creamy, mildly spiced tomato sauce. Glasgow’s claim: in the early 1970s Ali Ahmed Aslam at the Shish Mahal restaurant improvised the sauce, tomato soup included, for a diner who found his chicken dry. London disputes it.",
   "listOrder": 1
- },
- {
-  "id": "1amakyalaOsr0uax7f8b4H",
-  "city": "Liverpool",
-  "foodName": "Ormskirk gingerbread",
-  "foodDescription": "Hard, flat ginger biscuits sold at the market in Ormskirk, a Lancashire market town just north of the city, where they have been made since the 1700s. Sold by the bag. They snap rather than bend and are best dunked in tea, the ginger arriving slowly.",
-  "listOrder": 15
  },
  {
   "id": "480cmMX14HvfKtEbDXS27R",
@@ -791,54 +1706,11 @@
   "listOrder": 10
  },
  {
-  "id": "1PTahzFJlmDBejf2XuYLnF",
-  "city": "Liverpool",
-  "foodName": "Meat and potato pie",
-  "foodDescription": "Minced beef, onion and potato in shortcrust, the matchday lunch around the football grounds. The best known come from Homebaked, the co-operative bakery on Oakfield Road opposite Anfield, Liverpool FC’s stadium. On match days they sell out before kick-off.",
-  "listOrder": 9
- },
- {
   "id": "7bD4PUxccuvkkAzvwFkenT",
   "city": "Liverpool",
   "foodName": "Chippy tea",
   "foodDescription": "The Friday tea from the chip shop: fish or a pie, chips, mushy peas and, here, curry sauce or gravy over the top. Many chippies here are Chinese-run, so the curry sauce is the takeaway kind. A chip butty, chips in a buttered roll, is the cheap option.",
   "listOrder": 8
- },
- {
-  "id": "241shdvSt3KBuLLbFWXdyr",
-  "city": "Liverpool",
-  "foodName": "Dim sum",
-  "foodDescription": "Steamed dumplings, char siu pork buns and egg tarts in the restaurants around Nelson Street in Chinatown, under its ceremonial arch. The community dates to the 1860s, when the Blue Funnel shipping line began sailing to China. Go at weekend lunchtime.",
-  "listOrder": 7
- },
- {
-  "id": "767irXxpBsaNtm7L1H6YMp",
-  "city": "Liverpool",
-  "foodName": "Salt and pepper chips",
-  "foodDescription": "Chips fried crisp, then tossed in a wok with salt, chilli, onion, peppers and five-spice. Liverpool’s Chinese takeaways claim them, and the city has Europe’s oldest Chinese community, so the claim holds up. Eat them fast, before the steam turns them soft.",
-  "listOrder": 6
- },
- {
-  "id": "5zpshCMfQ95nS5zQLmXbdV",
-  "city": "Liverpool",
-  "foodName": "Liverpool tart",
-  "foodDescription": "A shortcrust tart filled with a whole lemon, peel and all, cooked down with brown sugar, butter and egg. Sharper and darker than a French lemon tart, with a faint bitterness from the rind. An old home recipe, now mostly found in cookbooks and the odd café.",
-  "listOrder": 5
- },
- {
-  "id": "6yekId3YalKRiq19yTz9TE",
-  "city": "Liverpool",
-  "foodName": "Wet nelly",
-  "foodDescription": "A dense slab of bread pudding or leftover cake, packed with dried fruit and soaked in syrup until it sags. The name is usually traced to Lord Nelson, via a richer Nelson cake. Heavy, sticky and cheap, a bakery staple. Eat it warm, with custard if offered.",
-  "listOrder": 3
- },
- {
-  "id": "3yW4UN0ArAFFGoM8e1DCvy",
-  "city": "Liverpool",
-  "foodName": "Blind scouse",
-  "foodEnglishName": "Meatless scouse",
-  "foodDescription": "Scouse with no meat in it, made at the end of the week or the end of the money from potatoes, onions, carrots and stock. Still cooked at home and in some cafés. Thinner than the real thing and not pretending otherwise; the pickled cabbage does the work.",
-  "listOrder": 2
  },
  {
   "id": "1e8EOmwuoq9uc18py2tC9H",
@@ -848,34 +1720,12 @@
   "listOrder": 15
  },
  {
-  "id": "7Daw4pX0gk9NjdlQQb6USC",
-  "city": "Belfast",
-  "foodName": "Tayto cheese & onion",
-  "foodEnglishName": "Crisps",
-  "foodDescription": "Northern Ireland’s own Tayto, made since 1956 at Tandragee Castle in County Armagh and unrelated to the Tayto brand in the Republic. Cheese and onion is the flagship flavour. A crisp sandwich in buttered white bread is a respected local lunch.",
-  "listOrder": 14
- },
- {
-  "id": "2iNBChQc9zK5YhtnVawX4v",
-  "city": "Belfast",
-  "foodName": "Bushmills",
-  "foodDescription": "Irish whiskey from the Old Bushmills Distillery on the north Antrim coast, which points to a 1608 royal licence to distil in the area. Triple-distilled and smooth. Ask for it neat or with a drop of water; Belfast bars stock several ages of it.",
-  "listOrder": 13
- },
- {
   "id": "4EqPknYE1AzoGUOlpcBVKX",
   "city": "Belfast",
   "foodName": "Comber Earlies",
   "foodEnglishName": "New potatoes",
   "foodDescription": "The first new potatoes of the year, grown in the light soil around Comber in County Down and with protected-name status since 2012. Thin-skinned and waxy, in shops from early summer. Boil them, add butter and salt, and that is the whole recipe.",
   "listOrder": 12
- },
- {
-  "id": "qSuIqGrQgHuMwQ7woPTDb",
-  "city": "Belfast",
-  "foodName": "Dulse",
-  "foodDescription": "Red seaweed gathered off the north Antrim coast and dried until leathery, then eaten straight from the bag as a salty snack. Traditionally paired with yellowman at the Lammas Fair. Look for it at St George’s Market. The taste is the sea, concentrated.",
-  "listOrder": 11
  },
  {
   "id": "3024jHQiJE1PrY0IYs1Vfg",
@@ -893,13 +1743,6 @@
   "listOrder": 9
  },
  {
-  "id": "54MLRpddXCCcpHcbJxTj6u",
-  "city": "Belfast",
-  "foodName": "Fifteens",
-  "foodDescription": "A no-bake traybake of fifteen crushed digestive biscuits, fifteen marshmallows and fifteen glacé cherries, bound with condensed milk and rolled in coconut. Chilled and sliced. Sold in every café cabinet and nobody has ever needed a recipe card for it.",
-  "listOrder": 8
- },
- {
   "id": "7sALZuJyE9BrzioRmzIt7t",
   "city": "Belfast",
   "foodName": "Gravy ring",
@@ -908,25 +1751,11 @@
   "listOrder": 7
  },
  {
-  "id": "2Vn3hMmCY6BSz4MwpEVPAp",
-  "city": "Belfast",
-  "foodName": "Belfast bap",
-  "foodDescription": "A big, round, soft white roll dusted in flour, with a dark crust on top that looks close to burnt. Bakeries pile them in the window. Split one for a bacon or sausage bap, or for a pastie bap, which is exactly what it sounds like.",
-  "listOrder": 5
- },
- {
   "id": "5TGbbZGc9DlerIsceK97JQ",
   "city": "Belfast",
   "foodName": "Champ",
   "foodDescription": "Mashed potato beaten with hot milk and chopped scallions, piled up with a well of butter melting in the middle. Not colcannon, which has cabbage or kale; Ulster cooks will explain the difference unasked. Served beside sausages or boiled ham.",
   "listOrder": 4
- },
- {
-  "id": "WD4BsnQlrBGGSCgY2Z99W",
-  "city": "Belfast",
-  "foodName": "Ulster fry",
-  "foodDescription": "Bacon, sausage, egg and black pudding, but what makes it Ulster is the bread: a soda farl and a slice of potato bread, both fried in the pan fat until golden. Beans are a point of dispute. Eaten late morning, followed by nothing until dinner.",
-  "listOrder": 1
  },
  {
   "id": "4NiF4bvVyrMZvskszoQdfW",
@@ -937,44 +1766,12 @@
   "listOrder": 15
  },
  {
-  "id": "6i7XxdErJIFs8vKUtKWFF8",
-  "city": "Warsaw",
-  "foodName": "Pańska skórka",
-  "foodEnglishName": "Warsaw cemetery candy",
-  "foodDescription": "A pink-and-white chewy sugar sweet, made in Praga since the 19th century. Sold from stalls outside Warsaw cemeteries such as Powązki on All Saints’ Day, 1 November. It sticks to your teeth; that is the point.",
-  "listOrder": 14
- },
- {
-  "id": "2oE2m0MqHJdXb9JxOXzdlS",
-  "city": "Warsaw",
-  "foodName": "Czekolada do picia",
-  "foodEnglishName": "Drinking chocolate",
-  "foodDescription": "Melted chocolate rather than cocoa, thick enough to stand a spoon in, served in Wedel’s chocolate lounges, the oldest on Szpitalna Street in the city centre. Order it plain or with chilli and expect to finish with a spoon. A glass of water helps.",
-  "listOrder": 13
- },
- {
   "id": "7Kq79wiG7KkEAAYGNAvoYO",
   "city": "Warsaw",
   "foodName": "Ptasie mleczko",
   "foodEnglishName": "Bird’s milk",
   "foodDescription": "Squares of soft vanilla mousse coated in chocolate, invented by Warsaw chocolatier Jan Wedel in 1936. The name is from the saying that a rich man has everything but bird’s milk. Sold in every corner shop; the vanilla box is the original.",
   "listOrder": 12
- },
- {
-  "id": "7J3VGkXYfkKvrcByBkNjCO",
-  "city": "Warsaw",
-  "foodName": "Wuzetka",
-  "foodEnglishName": "W-Z cake",
-  "foodDescription": "Chocolate sponge soaked in punch, layered with thick whipped cream and covered in chocolate glaze. Created in Warsaw around 1950, most likely named after the W-Z route, the postwar east–west road through the rebuilt centre. Eat it with a fork, carefully.",
-  "listOrder": 11
- },
- {
-  "id": "3YXpOgVlDZCt1hMVwysb7E",
-  "city": "Warsaw",
-  "foodName": "Tatar",
-  "foodEnglishName": "Steak tartare",
-  "foodDescription": "Raw chopped beef with a raw egg yolk on top, surrounded by diced pickles, onion and pickled mushrooms that you mix in yourself. A starter in old restaurants and a vodka snack in all-night bars. The yolk may come in its half-shell so you can add it slowly.",
-  "listOrder": 10
  },
  {
   "id": "4tGpre4Q9XVfabYCh36FPy",
@@ -1025,14 +1822,6 @@
   "listOrder": 4
  },
  {
-  "id": "1WAKIF3zfZtYH4RoccktPB",
-  "city": "Warsaw",
-  "foodName": "Zrazy zawijane",
-  "foodEnglishName": "Beef roulades",
-  "foodDescription": "Thin beef slices rolled around pickled cucumber, bacon and onion, tied with string and braised soft in dark gravy. Served with buckwheat groats or mashed potato. Old-school Warsaw restaurants keep them on the menu. Check for the string before you bite.",
-  "listOrder": 3
- },
- {
   "id": "1NUbutgAR0BSuHwszlUDhT",
   "city": "Warsaw",
   "foodName": "Schabowy",
@@ -1047,14 +1836,6 @@
   "foodEnglishName": "Potato dumplings",
   "foodDescription": "Round dumplings of grated raw and boiled potato, often stuffed with minced meat, served under fried onion and pork crackling. A Praga dish: women once sold them hot from jars at Bazar Różyckiego, the old east-bank market. Heavy, so plan a walk after.",
   "listOrder": 1
- },
- {
-  "id": "3OvMopVfXhR1EsdYWoLEU4",
-  "city": "Milan",
-  "foodName": "Panzerotto",
-  "foodEnglishName": "Fried filled pastry",
-  "foodDescription": "A half-moon of dough filled with tomato and mozzarella and fried until it puffs. Puglian by origin, made a Milanese habit by Luini, the bakery just off the Duomo square since 1949. The queue moves fast. Eat it on the pavement and mind the molten middle.",
-  "listOrder": 15
  },
  {
   "id": "2Mf7Wd9AGn9T33g2bKyDQ2",
@@ -1072,44 +1853,12 @@
   "listOrder": 12
  },
  {
-  "id": "7kuPcFKMbiulcIyzjaketY",
-  "city": "Milan",
-  "foodName": "Pan de mej",
-  "foodEnglishName": "Elderflower cornmeal buns",
-  "foodDescription": "Sweet cornmeal buns scented with dried elderflower and dusted with sugar. Made for 23 April, the feast of St George, patron of Milan’s dairymen, and once eaten dipped in fresh cream. The name means millet bread, after the flour it was first made with.",
-  "listOrder": 11
- },
- {
   "id": "4AU8MmTkBhfNN2Nc2o9H42",
   "city": "Milan",
   "foodName": "Michetta",
   "foodEnglishName": "Milanese bread roll",
   "foodDescription": "A puffed white roll stamped with a star pattern, almost entirely crust and air, descended from the Austrian Kaisersemmel brought in under Habsburg rule. Good ones are getting rarer. Split one and fill it with mortadella, or with a slab of cotoletta.",
   "listOrder": 9
- },
- {
-  "id": "4z7SYhQJy9bcOK0kxHAQ2n",
-  "city": "Milan",
-  "foodName": "Minestrone alla milanese",
-  "foodEnglishName": "Vegetable and rice soup",
-  "foodDescription": "A thick soup of beans, cabbage, courgette, potato and whatever else is in season, made in Milan with rice rather than pasta and often a piece of pork rind for depth. In summer it is served at room temperature, which is how many locals prefer it.",
-  "listOrder": 8
- },
- {
-  "id": "1iZviyaDGthZAEMGZLsZFF",
-  "city": "Milan",
-  "foodName": "Cassoeula",
-  "foodEnglishName": "Pork and cabbage stew",
-  "foodDescription": "Pork ribs, rind, trotters and small sausages stewed with Savoy cabbage, best after the first frost. A winter dish, traditionally started around 17 January, the feast of St Anthony the Abbot. Served with polenta, followed by a long walk.",
-  "listOrder": 4
- },
- {
-  "id": "5h9Q80c2BkAOwmeACVNEhZ",
-  "city": "Milan",
-  "foodName": "Ossobuco",
-  "foodEnglishName": "Braised veal shank",
-  "foodDescription": "A thick cross-cut of veal shank braised slowly in white wine and stock until the meat comes off the bone, topped with gremolata: chopped lemon zest, garlic and parsley. The marrow in the middle is the prize, and some places bring a small spoon for it.",
-  "listOrder": 2
  },
  {
   "id": "5nwQr5aSHHRiY1DFLKCax5",
@@ -1120,28 +1869,12 @@
   "listOrder": 1
  },
  {
-  "id": "pHn9DfRx805Nx2Mo2eAZD",
-  "city": "Munich",
-  "foodName": "Maß",
-  "foodEnglishName": "Litre of beer",
-  "foodDescription": "A full litre in a heavy glass mug, the beer garden standard. Augustiner, Munich’s oldest brewery, is the local favorite. In the self-service area you may bring your own food, a right dating to 1812, but you buy the drinks there.",
-  "listOrder": 15
- },
- {
   "id": "35HajTMpqBGtwxA6o4CW1D",
   "city": "Munich",
   "foodName": "Weißbier",
   "foodEnglishName": "Wheat beer",
   "foodDescription": "Cloudy, fizzy beer brewed with wheat, tasting of banana and clove from the yeast. Poured slowly into a tall curved glass. For centuries only Bavaria’s rulers had the right to brew it. Drunk in the morning with Weißwurst without anyone remarking on it.",
   "listOrder": 13
- },
- {
-  "id": "3UgvrVdaYFwfRwLwFeUfwg",
-  "city": "Munich",
-  "foodName": "Helles",
-  "foodEnglishName": "Pale lager",
-  "foodDescription": "Munich’s everyday beer: pale gold, soft and mildly bitter, first brewed by Spaten in 1894 to compete with Pilsner. Ask for “a Helles” in any beer garden and this is what comes. Lighter in taste than in alcohol.",
-  "listOrder": 12
  },
  {
   "id": "uRT1uPL9U6bOPk5UAES9W",
@@ -1176,14 +1909,6 @@
   "listOrder": 8
  },
  {
-  "id": "2z4wA5MYwM3alZr802VgyP",
-  "city": "Munich",
-  "foodName": "Steckerlfisch",
-  "foodEnglishName": "Fish on a stick",
-  "foodDescription": "Whole mackerel or whitefish, spiced, threaded on a wooden stick and grilled slowly beside charcoal. Eaten with your hands at beer gardens and at the Oktoberfest, with a Brezn. Look for the long grill with rows of fish standing in it.",
-  "listOrder": 7
- },
- {
   "id": "3BfYMdgjn8cibwkn0RUQm7",
   "city": "Munich",
   "foodName": "Schweinebraten mit Knödel",
@@ -1208,14 +1933,6 @@
   "listOrder": 4
  },
  {
-  "id": "2pOnzt2Pj4FfGvqMkvimVX",
-  "city": "Munich",
-  "foodName": "Obatzda",
-  "foodEnglishName": "Beer cheese spread",
-  "foodDescription": "Ripe Camembert mashed with butter, sweet paprika, onion and caraway, sometimes with a splash of beer. A beer garden staple, spread thick on a Brezn or rye bread. The name means mashed-up in Bavarian.",
-  "listOrder": 3
- },
- {
   "id": "6uDVLCP3ZQF71mrZnkK4FW",
   "city": "Munich",
   "foodName": "Brezn",
@@ -1230,36 +1947,6 @@
   "foodEnglishName": "White sausage",
   "foodDescription": "Veal and pork sausage flavored with parsley and lemon, kept warm in water and peeled at the table. Eaten before noon with sweet mustard, a Brezn and a wheat beer — the Weißwurstfrühstück. Tradition says it should never hear the midday bells.",
   "listOrder": 1
- },
- {
-  "id": "OiXxJ2t9oZR3Lur4mqhLD",
-  "city": "Venice",
-  "foodName": "Bellini",
-  "foodDescription": "White peach purée topped with Prosecco, invented by Giuseppe Cipriani at Harry’s Bar near St Mark’s in 1948 and named for the painter Giovanni Bellini, for its pink colour. Harry’s Bar still serves it, at Harry’s Bar prices.",
-  "listOrder": 15
- },
- {
-  "id": "3uFEahNBNOwtx87c0ldMzD",
-  "city": "Venice",
-  "foodName": "Ombra",
-  "foodEnglishName": "Small glass of wine",
-  "foodDescription": "A small glass of house wine, drunk standing at the counter, often well before noon. The name means shade: wine sellers in St Mark’s Square are said to have moved their stalls with the bell tower’s shadow to keep the wine cool.",
-  "listOrder": 14
- },
- {
-  "id": "6XXT8NMO4Fyrhik4Y0jndV",
-  "city": "Venice",
-  "foodName": "Spritz",
-  "foodDescription": "White wine, a bitter liqueur and a splash of soda over ice, with an olive or a slice of orange. The name goes back to Austrian soldiers in the 1800s who added water to local wine. Venetians often order it with Select, a bitter first made here in 1920.",
-  "listOrder": 13
- },
- {
-  "id": "70BZSW0tDY0IS5t43IAdkR",
-  "city": "Venice",
-  "foodName": "Baìcoli",
-  "foodEnglishName": "Venetian biscuits",
-  "foodDescription": "Thin, dry oval biscuits named after the young sea bass they’re said to resemble. Baked twice so they would keep for months at sea. Dunked in coffee, hot chocolate or sweet wine, and still sold in tins by Venetian bakers.",
-  "listOrder": 12
  },
  {
   "id": "5qJaIllybb448g38nHnqCQ",
@@ -1283,22 +1970,6 @@
   "foodEnglishName": "Venetian-style calf’s liver",
   "foodDescription": "Calf’s liver cut into thin strips and cooked fast in a pan of onions that have already been softened slowly, finished with parsley. Served with polenta. The onions are as much the point as the liver, and there are a lot of them.",
   "listOrder": 9
- },
- {
-  "id": "69EzbqhT7z5SgIeS5oXtxz",
-  "city": "Venice",
-  "foodName": "Seppie al nero",
-  "foodEnglishName": "Cuttlefish in black ink",
-  "foodDescription": "Cuttlefish stewed in their own ink, usually with white wine, until the sauce is jet black. Served with soft white polenta, which is the Venetian kind. It stains your teeth for a while afterwards, and nobody minds.",
-  "listOrder": 8
- },
- {
-  "id": "7gnaW0qFVO1lhsmbu0EWnD",
-  "city": "Venice",
-  "foodName": "Risi e bisi",
-  "foodEnglishName": "Rice and peas",
-  "foodDescription": "Rice cooked with young spring peas and a stock made from their pods, looser than risotto and eaten with a spoon. It was served to the doge on 25 April, the feast of St Mark, when the first peas came in from the lagoon gardens.",
-  "listOrder": 7
  },
  {
   "id": "4PVULeR0aiv9hEHgp6elWa",
@@ -1347,22 +2018,6 @@
   "foodEnglishName": "Venetian bar snacks",
   "foodDescription": "Small snacks lined up on the counter of a bacaro: crostini, fried meatballs, half an egg with an anchovy, salami on grilled polenta. Point at what you want, eat standing, pay by the piece. For plenty of Venetians this is dinner.",
   "listOrder": 1
- },
- {
-  "id": "6rmMYl8FUlOYMFYx2h4453",
-  "city": "Lisbon",
-  "foodName": "Bitoque",
-  "foodEnglishName": "Steak and egg",
-  "foodDescription": "The everyday Portuguese lunch: a thin steak under a fried egg, with rice, fries and a buttery wine pan sauce. Break the yolk so it runs into the rice — that is the whole point. About €10 with a glass of wine, and the truest test of a cheap diner.",
-  "listOrder": 11
- },
- {
-  "id": "7GTBBoAwoP1CtcyZyDNXfn",
-  "city": "Lisbon",
-  "foodName": "Arroz de marisco",
-  "foodEnglishName": "Seafood rice",
-  "foodDescription": "Soupy tomato, cilantro and shellfish rice, brought to the table in its pot and ladled out wet rather than fluffy. A coastal Sunday dish that became a restaurant classic. Usually serves two and takes half an hour — order it as soon as you sit down.",
-  "listOrder": 8
  },
  {
   "id": "2xHwSHVxZbOGe6TXWvvCT9",
@@ -1457,14 +2112,6 @@
   "listOrder": 8
  },
  {
-  "id": "3baIG54EjBk3LcdvQM6bya",
-  "city": "Reykjavík",
-  "foodName": "Hákarl",
-  "foodEnglishName": "Fermented shark",
-  "foodDescription": "Greenland shark buried, fermented and hung for months, which is what makes it edible — fresh, the meat is poisonous. Ammonia on the nose, oily on the tongue, served in cubes with a toothpick. A dare, honestly, and chased with schnapps.",
-  "listOrder": 9
- },
- {
   "id": "7uaJYCtDiOgaUWRrI6vzNX",
   "city": "Reykjavík",
   "foodName": "Kleina",
@@ -1519,14 +2166,6 @@
   "foodEnglishName": "Fried pizza",
   "foodDescription": "Pizza dough stuffed with ricotta, pork cracklings and tomato, sealed and deep-fried into a puffed golden pillow. Postwar food from years when ovens and money were both scarce. Cheaper than baked pizza and, on a cold day, better.",
   "listOrder": 6
- },
- {
-  "id": "3ou3FRn6258oqv2MIgbBIz",
-  "city": "Naples",
-  "foodName": "Spaghetti alle vongole",
-  "foodEnglishName": "Spaghetti with clams",
-  "foodDescription": "Small clams opened in olive oil, garlic and white wine, tossed with spaghetti and their own briny liquid, parsley over the top, cheese never. Ask for it with veraci, the tiny local clams, and use bread on the plate afterward.",
-  "listOrder": 7
  },
  {
   "id": "6ElieIpf01kFU8Kg9QLmjN",
@@ -1617,14 +2256,6 @@
   "listOrder": 6
  },
  {
-  "id": "5F1t5nyDn3OiJx4OOv8Bf7",
-  "city": "Vienna",
-  "foodName": "Brettljause",
-  "foodEnglishName": "Cold cuts board",
-  "foodDescription": "A wooden board of cured pork, blood sausage, pickles, black bread and Liptauer, a paprika-spiked cheese spread. This is the food of a Heuriger, the taverns on the city edge where wine growers pour their own vintage. Order a spritzer and stay.",
-  "listOrder": 8
- },
- {
   "id": "11QRNQ2p1PzY5j3g1troX2",
   "city": "Barcelona",
   "foodName": "Fideuà",
@@ -1665,14 +2296,6 @@
   "listOrder": 11
  },
  {
-  "id": "3zEj5lGun5N3HJ5WKI9vXK",
-  "city": "Barcelona",
-  "foodName": "Panellets",
-  "foodEnglishName": "Pine nut marzipan balls",
-  "foodDescription": "Marzipan balls rolled in pine nuts and baked until the nuts toast, made for All Saints on November 1st and eaten with sweet wine. Almond-dense and slightly chewy. Bakeries pile them in the windows for a fortnight, then stop.",
-  "listOrder": 13
- },
- {
   "id": "dKJpY7So6rI66x1Tk7IhL",
   "city": "Barcelona",
   "foodName": "Crema catalana",
@@ -1703,14 +2326,6 @@
   "foodEnglishName": "Spanish omelette",
   "foodDescription": "Potatoes cooked slowly in olive oil until soft, bound with egg and set into a thick cake that should stay runny at the center. The argument about adding onion is real and unresolved. Eaten hot, cold, in a sandwich, at any hour.",
   "listOrder": 3
- },
- {
-  "id": "ZrFnKu6aoT9ddRZ70BBU8",
-  "city": "Madrid",
-  "foodName": "Ensaladilla rusa",
-  "foodEnglishName": "Russian salad",
-  "foodDescription": "Potato, tuna, egg and vegetables bound in mayonnaise, served cold in a mound with breadsticks stuck in it. It sounds like a picnic salad and tastes far better, and every bar in the city is quietly judged on its version.",
-  "listOrder": 5
  },
  {
   "id": "564Kk0MKRc8eAqW2kQl2LN",
@@ -1761,14 +2376,6 @@
   "listOrder": 4
  },
  {
-  "id": "4hbIYFX2BdnzMvvErx3Iom",
-  "city": "Seville",
-  "foodName": "Montadito de pringá",
-  "foodEnglishName": "Shredded stew meat roll",
-  "foodDescription": "A small warm roll pressed around pringá: the pork, chorizo and blood sausage left at the end of a stew, mashed to a paste. Two bites, and deeply savory. What Seville eats standing at the bar at 2 a.m., and again at noon.",
-  "listOrder": 5
- },
- {
   "id": "5EBCnKCnzcSKWKYSazUG2f",
   "city": "Seville",
   "foodName": "Carrillada",
@@ -1791,14 +2398,6 @@
   "foodEnglishName": "Whisky pork tenderloin",
   "foodDescription": "Pork tenderloin in a sauce of garlic, lemon and whisky cooked down to a sharp brown glaze, over fried potatoes. A 1970s bar invention with no pedigree whatsoever, and possibly the most-ordered dish in the city.",
   "listOrder": 10
- },
- {
-  "id": "STzafl8ZTOvCMXyosLxs9",
-  "city": "Seville",
-  "foodName": "Huevos a la flamenca",
-  "foodEnglishName": "Flamenco-style baked eggs",
-  "foodDescription": "Eggs baked in an earthenware dish over tomato, peppers, peas and ham until the whites just set and the yolks stay loose. A whole meal in one clay bowl. Break the yolks and eat it with bread, straight from the dish.",
-  "listOrder": 11
  },
  {
   "id": "3TcJ9Jt7fCdkPx6uzYBLlm",
@@ -1857,14 +2456,6 @@
   "listOrder": 4
  },
  {
-  "id": "5Amfobg9WWjHXn17CUfAdp",
-  "city": "Rome",
-  "foodName": "Amatriciana",
-  "foodEnglishName": "Pork and tomato pasta",
-  "foodDescription": "Cured pork jowl, tomato, pecorino and chili on bucatini, the hollow spaghetti that sprays sauce when you bite it. It comes from a hill town east of the city. Take the tomato away and you have gricia, its older ancestor.",
-  "listOrder": 5
- },
- {
   "id": "7JvZP6CHE8r9OEUPOt4ThR",
   "city": "Rome",
   "foodName": "Carciofi alla giudia",
@@ -1873,36 +2464,12 @@
   "listOrder": 6
  },
  {
-  "id": "6CvLD3mJHpjtEgC6DHIXzh",
-  "city": "Rome",
-  "foodName": "Puntarelle",
-  "foodEnglishName": "Chicory with anchovy dressing",
-  "foodDescription": "Chicory stems cut into curls and soaked in ice water until they twist, then dressed with anchovy, garlic and vinegar. Bitter, cold and sharp. A winter salad the rest of Italy barely makes. Ask whether they are in season yet.",
-  "listOrder": 7
- },
- {
-  "id": "6RBHgxHgaNrJUNEX0GiFI9",
-  "city": "Rome",
-  "foodName": "Saltimbocca alla romana",
-  "foodEnglishName": "Veal, ham and sage",
-  "foodDescription": "Thin veal layered with prosciutto and a sage leaf, pinned together and cooked fast in butter and white wine. The name means jumps in the mouth. Four ingredients, six minutes, and no substitution worth making.",
-  "listOrder": 8
- },
- {
   "id": "3ufnfWzDBhNvrV9zoYLrRd",
   "city": "Rome",
   "foodName": "Coda alla vaccinara",
   "foodEnglishName": "Roman oxtail stew",
   "foodDescription": "Oxtail stewed for hours with celery and tomato — and, in the old recipes, a little cocoa and raisin — until the meat gives up entirely. Cooked by slaughterhouse workers paid in the cuts nobody would buy. Order nothing after it.",
   "listOrder": 9
- },
- {
-  "id": "1ZcLbW4MYz9OC8qQSslIur",
-  "city": "Rome",
-  "foodName": "Porchetta",
-  "foodEnglishName": "Rolled roast pork",
-  "foodDescription": "A whole pig boned, packed with rosemary, garlic and fennel, rolled and roasted until the skin turns to glass. Sliced cold into a plain roll at market stalls. It belongs to the hill towns south of Rome and arrives by van.",
-  "listOrder": 10
  },
  {
   "id": "2JwkAZxosLTAxeS3B0FXm7",
@@ -1945,14 +2512,6 @@
   "listOrder": 3
  },
  {
-  "id": "50JNXjU0hbQqMEwPXLcm50",
-  "city": "Florence",
-  "foodName": "Ribollita",
-  "foodEnglishName": "Bread and bean soup",
-  "foodDescription": "Bread, white beans and black kale cooked into a thick mass, cooled, then cooked again — the name means reboiled, and that second cooking is the entire point. Winter only. It should be stiff enough to eat with a fork.",
-  "listOrder": 4
- },
- {
   "id": "68Y447Z7nTR6U4vttJnuYB",
   "city": "Florence",
   "foodName": "Coccoli",
@@ -1985,52 +2544,12 @@
   "listOrder": 8
  },
  {
-  "id": "5m7cTxJ7ieHycoguGFZWYQ",
-  "city": "Florence",
-  "foodName": "Panzanella",
-  "foodEnglishName": "Bread salad",
-  "foodDescription": "Stale bread soaked and squeezed dry, then torn up with tomato, cucumber, onion and basil and dressed with oil and vinegar. A summer salad built on bread that would otherwise be thrown away. Only as good as the tomatoes.",
-  "listOrder": 9
- },
- {
-  "id": "1KThliP5rcozyjM8WJT3dl",
-  "city": "Florence",
-  "foodName": "Cantucci e Vin Santo",
-  "foodEnglishName": "Biscotti and dessert wine",
-  "foodDescription": "Hard almond biscuits baked twice, with a small glass of sweet amber wine to dunk them in until they soften. The wine ages in attic barrels through the temperature swings of the seasons. This is how a Tuscan meal ends.",
-  "listOrder": 13
- },
- {
-  "id": "1YG3bi6PRNtOQkKhZmEmU7",
-  "city": "Edinburgh",
-  "foodName": "Arbroath smokie",
-  "foodEnglishName": "Smoked haddock",
-  "foodDescription": "Haddock salted, tied in pairs and hot-smoked over hardwood in a barrel until the skin blackens and the flesh cooks through. Protected by law and made only near one Angus town. Eat it warm from the paper, with butter.",
-  "listOrder": 5
- },
- {
   "id": "1Qt0Rs1Na83NoYyifgJUxF",
   "city": "Edinburgh",
   "foodName": "Lorne sausage",
   "foodEnglishName": "Square sausage",
   "foodDescription": "Sausage meat pressed into a loaf and sliced into squares, so that it fits a square roll exactly — which is the reason it exists. Fried for breakfast and eaten in a morning roll with brown sauce. Nobody else makes it.",
   "listOrder": 7
- },
- {
-  "id": "5jsKWLg5UOOv3PbOlE25WJ",
-  "city": "Edinburgh",
-  "foodName": "Cranachan",
-  "foodEnglishName": "Raspberry whisky cream",
-  "foodDescription": "Toasted oats, raspberries, cream and honey folded together with a slug of whisky and served in a glass. Traditionally a harvest dish. The oats must be toasted and the raspberries Scottish, which is worth the fuss in July.",
-  "listOrder": 9
- },
- {
-  "id": "7DNToOhPGtlzWl9LgVp5W7",
-  "city": "Edinburgh",
-  "foodName": "Tablet",
-  "foodEnglishName": "Scottish fudge",
-  "foodDescription": "Sugar, condensed milk and butter boiled and beaten until it sets into a crumbly, grainy block that dissolves rather than chews. Sweeter and harder than fudge. Sold at church sales and school fairs, in slabs, by weight.",
-  "listOrder": 11
  },
  {
   "id": "26OUMpDAHwyJ1PIY0WTmo3",
@@ -2089,14 +2608,6 @@
   "listOrder": 4
  },
  {
-  "id": "2PfrI2N2TrjsON1KeJqISF",
-  "city": "Copenhagen",
-  "foodName": "Marinerede sild",
-  "foodEnglishName": "Pickled herring",
-  "foodDescription": "Herring cured in vinegar with onion, bay and peppercorn, laid on buttered rye. Sharp, oily and nothing like the tinned kind. The traditional order is herring first at lunch, and always with a cold shot alongside.",
-  "listOrder": 5
- },
- {
   "id": "1LBtnjge9dPwK1zHySmZOY",
   "city": "Copenhagen",
   "foodName": "Rugbrød",
@@ -2113,14 +2624,6 @@
   "listOrder": 7
  },
  {
-  "id": "PXMRZeiBIKxJBpH6bikVT",
-  "city": "Copenhagen",
-  "foodName": "Hakkebøf",
-  "foodEnglishName": "Beef patty with onions",
-  "foodDescription": "A thick beef patty fried and served under a heap of soft browned onions, with gravy, potatoes and pickles. Not a burger — there is no bun, and the onions are the point. Danish lunchtime cooking at its plainest and best.",
-  "listOrder": 8
- },
- {
   "id": "290KsY4MbXu3w39CGavW0i",
   "city": "Copenhagen",
   "foodName": "Flæskesteg",
@@ -2135,14 +2638,6 @@
   "foodEnglishName": "Pancake balls",
   "foodDescription": "Spherical pancakes cooked in a cast-iron pan of round wells, turned with a knitting needle until they close into balls, then dusted with sugar and dipped in jam. Christmas market food, eaten with mulled wine from a paper tray.",
   "listOrder": 11
- },
- {
-  "id": "3tZwD5h2aoXKkp0OzjzUSi",
-  "city": "Copenhagen",
-  "foodName": "Koldskål",
-  "foodEnglishName": "Cold buttermilk soup",
-  "foodDescription": "Cold buttermilk whisked with egg, sugar, vanilla and lemon into a thin sweet soup, with small dry biscuits floated on top. Sold in cartons from May and eaten as lunch on hot days. Strange the first time and then not at all.",
-  "listOrder": 12
  },
  {
   "id": "3QyslsYHSwJsXjLTxyg5Qc",
@@ -2169,28 +2664,12 @@
   "listOrder": 15
  },
  {
-  "id": "1nlyYfJ67fTiU9chdNKRzz",
-  "city": "Stockholm",
-  "foodName": "Köttbullar",
-  "foodEnglishName": "Swedish meatballs",
-  "foodDescription": "Small pork and beef meatballs with cream gravy, boiled potatoes, lingonberry jam and pickled cucumber. The lingonberry is not a garnish — its sourness is what the gravy is built against. Thursday and Sunday food.",
-  "listOrder": 1
- },
- {
   "id": "63jBe5VGUnwTs0SdZdr93",
   "city": "Stockholm",
   "foodName": "Räksmörgås",
   "foodEnglishName": "Shrimp sandwich",
   "foodDescription": "A mound of hand-peeled shrimp on buttered bread with egg, dill and mayonnaise, piled until the bread disappears. Ordered as a light lunch, though nothing about it is light. Judge it on whether the shrimp were peeled by hand.",
   "listOrder": 2
- },
- {
-  "id": "3DXyoNPjbXW0L3R1HQhEuF",
-  "city": "Stockholm",
-  "foodName": "Strömming",
-  "foodEnglishName": "Fried herring",
-  "foodDescription": "Small Baltic herring floured and fried in butter, with mashed potato, lingonberry and raw onion, often from a harbor stall. Softer and sweeter than sea herring. Eat it standing on the quay in the cold, out of paper.",
-  "listOrder": 3
  },
  {
   "id": "rOKv1KUxMikeOx0cINBtI",
@@ -2225,14 +2704,6 @@
   "listOrder": 8
  },
  {
-  "id": "5aIBpI2hKCx4eZ4vGWwqIC",
-  "city": "Stockholm",
-  "foodName": "Janssons frestelse",
-  "foodEnglishName": "Jansson’s temptation",
-  "foodDescription": "Potato, onion and cured sprats layered with cream and baked until the top browns and the fish dissolves into it. The sprats are cured with sugar and spice, so it turns sweet and salty at once. A Christmas table fixture.",
-  "listOrder": 9
- },
- {
   "id": "1TxZaIGNNhy9qdDiYjkztX",
   "city": "Stockholm",
   "foodName": "Semla",
@@ -2247,14 +2718,6 @@
   "foodEnglishName": "Cinnamon bun",
   "foodDescription": "Cardamom dough rolled with cinnamon butter, knotted rather than spiraled, topped with pearl sugar. The centerpiece of fika, the coffee break Swedes take seriously enough to schedule. It has an official day, October 4th.",
   "listOrder": 10
- },
- {
-  "id": "4gIZgPGoaq7ggs2IhRsYJE",
-  "city": "Stockholm",
-  "foodName": "Prinsesstårta",
-  "foodEnglishName": "Princess cake",
-  "foodDescription": "Sponge, jam, vanilla custard and a dome of whipped cream sealed under bright green marzipan with a pink rose on top. Created for three Swedish princesses in the 1930s. Unchanging, everywhere, and better than it needs to be.",
-  "listOrder": 12
  },
  {
   "id": "5Qpfx7rReJzrvBCxtNVdOd",
@@ -2273,28 +2736,12 @@
   "listOrder": 13
  },
  {
-  "id": "7EHfhAQaRoYr0Aekv4xW0C",
-  "city": "Oslo",
-  "foodName": "Kjøttkaker",
-  "foodEnglishName": "Beef patties",
-  "foodDescription": "Large beef patties, coarser and heavier than meatballs, in brown gravy with mashed peas, potatoes and lingonberry. The everyday dinner Norwegians grow up on and order as adults when they want looking after.",
-  "listOrder": 3
- },
- {
   "id": "4LS86z94BvDRylD0KN71qN",
   "city": "Oslo",
   "foodName": "Fårikål",
   "foodEnglishName": "Mutton and cabbage stew",
   "foodDescription": "Mutton on the bone and cabbage layered in a pot with whole peppercorns and boiled for hours, with nothing else added at all. Voted the national dish twice. Eaten every autumn, and it has its own Thursday in late September.",
   "listOrder": 2
- },
- {
-  "id": "6iNuHqSxCtTGJrSVqbhpcx",
-  "city": "Oslo",
-  "foodName": "Raspeballer",
-  "foodEnglishName": "Potato dumplings",
-  "foodDescription": "Dense dumplings of grated raw and cooked potato, boiled and served with salted meat, sausage and rutabaga. They go by a different name in nearly every valley. Thursday is the day, and the leftovers get fried next morning.",
-  "listOrder": 4
  },
  {
   "id": "43290r5bCtv0odLDRk5YiM",
@@ -2319,22 +2766,6 @@
   "foodEnglishName": "Cured salmon",
   "foodDescription": "Salmon buried in salt, sugar and dill for a few days until it firms and cures without any smoke — the name means buried salmon, from when it was fermented in sand. Sliced thin, with sweet mustard sauce and dark bread.",
   "listOrder": 7
- },
- {
-  "id": "1kfNtkN5pzg1Y8ECzUJZzM",
-  "city": "Oslo",
-  "foodName": "Brunost",
-  "foodEnglishName": "Brown cheese",
-  "foodDescription": "Brown cheese made by boiling whey until the milk sugars caramelize, shaved into thin sheets with a slicer Norway invented. Sweet, fudgy and faintly goaty. Eaten on toast at breakfast and on waffles in the afternoon.",
-  "listOrder": 8
- },
- {
-  "id": "4o9XqiQe8heuaf7OgjsKNg",
-  "city": "Oslo",
-  "foodName": "Rakfisk",
-  "foodEnglishName": "Fermented trout",
-  "foodDescription": "Trout salted and fermented in a barrel for months, then eaten raw with flatbread, sour cream and onion. Sharper and stranger than cured fish has any right to be. Autumn and winter, and a real test even for Norwegians.",
-  "listOrder": 9
  },
  {
   "id": "7oUiQKd2oiCpN4ppHdfoJ6",
@@ -2383,14 +2814,6 @@
   "foodEnglishName": "Salmon soup",
   "foodDescription": "Salmon soup with potato, leek and cream, finished with a heavy hand of dill and butter melting on the surface. Served in the market halls with rye bread. The salmon should be in large soft pieces, never shredded.",
   "listOrder": 3
- },
- {
-  "id": "3pgpaQgiENpDZobHTM2ETy",
-  "city": "Helsinki",
-  "foodName": "Muikku",
-  "foodEnglishName": "Fried vendace",
-  "foodDescription": "Tiny lake vendace rolled in rye flour and fried whole — heads, bones and all — served in a paper cone with garlic mayonnaise and lemon. Market square food, eaten with your fingers, crisp and salty and gone in two minutes.",
-  "listOrder": 4
  },
  {
   "id": "XxnLQ4YkBRLTbgMvBtB2N",
@@ -2481,14 +2904,6 @@
   "listOrder": 6
  },
  {
-  "id": "WWUfiR3XdLDbLusdZERMl",
-  "city": "Berlin",
-  "foodName": "Soljanka",
-  "foodEnglishName": "Sour sausage soup",
-  "foodDescription": "A sour, smoky soup of pickled cucumber, sausage, tomato and lemon, borrowed from Soviet kitchens and made East German. Sharp enough to wake you up. Still on older menus here and almost unknown further west.",
-  "listOrder": 7
- },
- {
   "id": "1jAvIx5TIF3rWxNa4ZI4Ol",
   "city": "Berlin",
   "foodName": "Bratkartoffeln",
@@ -2505,44 +2920,12 @@
   "listOrder": 11
  },
  {
-  "id": "1ix8RGUVsuk8Qv7OlSCFfE",
-  "city": "Berlin",
-  "foodName": "Kalter Hund",
-  "foodEnglishName": "Chocolate biscuit cake",
-  "foodDescription": "Cocoa and coconut fat poured over layers of plain biscuits and chilled into a dark dense loaf that gets sliced like cake. No baking at any point. A childhood birthday standard on both sides of the wall.",
-  "listOrder": 12
- },
- {
   "id": "7llri7duQ5dpKsVudohPpe",
   "city": "Berlin",
   "foodName": "Spargel",
   "foodEnglishName": "White asparagus",
   "foodDescription": "White asparagus grown under mounded soil so it never sees light, peeled and boiled and served with hollandaise, ham and potatoes. For eight weeks each spring it takes over every menu in the city, then disappears completely.",
   "listOrder": 13
- },
- {
-  "id": "2KVUV2UfDsCnwppNPjseaJ",
-  "city": "Prague",
-  "foodName": "Svíčková",
-  "foodEnglishName": "Sirloin in cream sauce",
-  "foodDescription": "Beef sirloin braised with root vegetables, the vegetables blended into a thick cream sauce, served with bread dumplings, a spoon of cranberry and a curl of whipped cream. Sweet, sour and rich at once. The Sunday dish.",
-  "listOrder": 1
- },
- {
-  "id": "5hIric4IRwypDuWiYKc5v9",
-  "city": "Prague",
-  "foodName": "Vepřo knedlo zelo",
-  "foodEnglishName": "Pork, dumplings and sauerkraut",
-  "foodDescription": "Roast pork, bread dumplings and stewed sauerkraut — three words always said together, and the national dish. The dumplings exist to mop up the fat and the cabbage exists to cut through it. Order it once, early.",
-  "listOrder": 2
- },
- {
-  "id": "MTMwhbAPN8IKY86x1osGJ",
-  "city": "Prague",
-  "foodName": "Guláš s knedlíkem",
-  "foodEnglishName": "Goulash with dumplings",
-  "foodDescription": "Beef stewed dark with onion, paprika and usually dark beer, served with bread dumplings and raw onion scattered on top. Thicker than the Hungarian soup and served differently from the Viennese. The beer in the sauce is the tell.",
-  "listOrder": 3
  },
  {
   "id": "3JJcVBc8w07bv05cFV3QZx",
@@ -2569,28 +2952,12 @@
   "listOrder": 6
  },
  {
-  "id": "1gtoK09I1gWzjZqFFouAXj",
-  "city": "Prague",
-  "foodName": "Kulajda",
-  "foodEnglishName": "Creamy dill soup",
-  "foodDescription": "A creamy dill soup with potato, wild mushrooms, vinegar and a poached egg dropped in at the end. Sour and herbal and unlike anything else on the table. The best argument against the idea that Czech food is all brown.",
-  "listOrder": 9
- },
- {
   "id": "699XzHlNHmDYKuHCQGQ39B",
   "city": "Prague",
   "foodName": "Nakládaný hermelín",
   "foodEnglishName": "Marinated soft cheese",
   "foodDescription": "A whole soft white cheese marinated in oil with garlic, peppercorns and chili until it turns pungent and spreadable. Pub food, served with bread. It improves the longer it sits in the jar, up to a point.",
   "listOrder": 7
- },
- {
-  "id": "7AJem4hyK9g0uD0OdtRy8M",
-  "city": "Prague",
-  "foodName": "Chlebíčky",
-  "foodEnglishName": "Open sandwiches",
-  "foodDescription": "Open sandwiches built on a slice of white bread with potato salad as the base, then ham, egg, salami or fish arranged neatly on top. Sold by the piece from delicatessen counters. A party food that became an everyday one.",
-  "listOrder": 8
  },
  {
   "id": "qAjBh7zPFXN1LHtnV4yqZ",
@@ -2609,14 +2976,6 @@
   "listOrder": 12
  },
  {
-  "id": "4KOs0cPfSIlXn9fhqdlBnR",
-  "city": "Prague",
-  "foodName": "Tlačenka",
-  "foodEnglishName": "Head cheese",
-  "foodDescription": "Head cheese — meat set in its own jelly — sliced and served with raw onion and a great deal of vinegar. Pub food from an era when nothing was thrown away. Cold, sharp and gelatinous, and better with beer than it sounds.",
-  "listOrder": 11
- },
- {
   "id": "1sK0FYy3kHK0l3z8GLeU8C",
   "city": "Kraków",
   "foodName": "Obwarzanek",
@@ -2631,14 +2990,6 @@
   "foodEnglishName": "Toasted baguette",
   "foodDescription": "A halved baguette loaded with mushrooms and cheese, grilled until it bubbles, then finished with a stripe of ketchup and whatever else you point at. Sold from the round hall in the old Jewish quarter until very late.",
   "listOrder": 2
- },
- {
-  "id": "3kppa8zoAGXGgYqviDDYfM",
-  "city": "Kraków",
-  "foodName": "Żurek",
-  "foodEnglishName": "Sour rye soup",
-  "foodDescription": "Sour rye soup, fermented for days, with white sausage, potato and half a boiled egg, sometimes served inside a hollowed loaf. Sour in a way no other soup is. Eaten at Easter, and available here all year round.",
-  "listOrder": 4
  },
  {
   "id": "5sVSJJy2zDOP1VspWdzwz1",
@@ -2729,28 +3080,12 @@
   "listOrder": 10
  },
  {
-  "id": "1dYYk9p5XkwsLgCZEWswfk",
-  "city": "Zurich",
-  "foodName": "Tirggel",
-  "foodEnglishName": "Honey biscuits",
-  "foodDescription": "Thin, hard honey biscuits stamped with detailed scenes from carved wooden molds, baked so fast that one side scorches while the other stays pale. A Zurich Christmas item made here since the 1400s. More carving than cookie.",
-  "listOrder": 11
- },
- {
   "id": "73Fs8Cr0bseGDS01C6KcB1",
   "city": "Istanbul",
   "foodName": "Simit",
   "foodEnglishName": "Sesame bread ring",
   "foodDescription": "A ring of bread dipped in grape molasses and crusted in sesame, sold from red carts on every corner and from men carrying trays on their heads. Chewy and faintly bitter. Eaten for breakfast, with tea, standing up.",
   "listOrder": 1
- },
- {
-  "id": "7cydaLSG0srOhZ7PhqFnsZ",
-  "city": "Istanbul",
-  "foodName": "Balık ekmek",
-  "foodEnglishName": "Fish sandwich",
-  "foodDescription": "A grilled mackerel fillet stuffed into half a loaf with raw onion, lettuce and lemon, sold from boats and stalls at the Galata bridge. Simple to the point of being nothing, and one of the best things in the city.",
-  "listOrder": 2
  },
  {
   "id": "1FMsfYSS3GmWP5WtdJFDMy",
@@ -2825,14 +3160,6 @@
   "listOrder": 12
  },
  {
-  "id": "64wbYZBNgPHyVas5Z3mvkc",
-  "city": "Istanbul",
-  "foodName": "Dondurma",
-  "foodEnglishName": "Turkish ice cream",
-  "foodDescription": "Ice cream thickened with mastic and wild orchid root, so it stretches, resists the spoon and melts slowly. Vendors make a performance of taking it away from you before handing it over. Chewy in a way ice cream should not be.",
-  "listOrder": 14
- },
- {
   "id": "6WMoIxPbDbDjN1UFpEDD0X",
   "city": "Istanbul",
   "foodName": "Türk kahvesi",
@@ -2857,14 +3184,6 @@
   "listOrder": 4
  },
  {
-  "id": "3OLNXkFYSctDmjjU9YNFND",
-  "city": "Belgrade",
-  "foodName": "Ajvar",
-  "foodEnglishName": "Red pepper relish",
-  "foodDescription": "Red peppers roasted, peeled and cooked down with eggplant and oil into a thick relish, made in enormous batches every autumn and jarred for winter. Every family insists theirs is correct. Eaten on bread with cheese.",
-  "listOrder": 5
- },
- {
   "id": "2wyw2Fsmc3uZqLwaQHGSYZ",
   "city": "Belgrade",
   "foodName": "Kajmak",
@@ -2879,14 +3198,6 @@
   "foodEnglishName": "Cheese pie",
   "foodDescription": "Layers of phyllo torn and mixed with eggs and salty white cheese, baked until the top curls and browns and the middle stays custardy. Served warm at every celebration and every ordinary breakfast alike.",
   "listOrder": 7
- },
- {
-  "id": "2oRy5YlCRlCeDDMuwVVxQx",
-  "city": "Belgrade",
-  "foodName": "Šopska salata",
-  "foodEnglishName": "Shopska salad",
-  "foodDescription": "Tomato, cucumber, onion and pepper under a heavy snow of grated white cheese. Named for a region straddling three borders, and claimed by all of them. The cheese should completely hide what is underneath.",
-  "listOrder": 8
  },
  {
   "id": "6Li3IN575hGXecuAJXkPD2",
@@ -2905,14 +3216,6 @@
   "listOrder": 10
  },
  {
-  "id": "Utxur81TG2EQJLTmJvMay",
-  "city": "Belgrade",
-  "foodName": "Urnebes",
-  "foodEnglishName": "Spicy cheese spread",
-  "foodDescription": "A fierce spread of crumbled white cheese, garlic, hot paprika and oil, mashed into a rough paste — the name translates roughly as chaos or pandemonium. Served with grilled meat, and it will overpower anything near it.",
-  "listOrder": 11
- },
- {
   "id": "GSroW1ZQ0MOZfjrsLfD9V",
   "city": "Belgrade",
   "foodName": "Krempita",
@@ -2927,14 +3230,6 @@
   "foodEnglishName": "Fried syrup pastry",
   "foodDescription": "Ridged batter piped into hot oil, fried until deep gold and then soaked in cold sugar syrup so it stays crisp outside and syrupy within. Sold from trays, by the piece. Ottoman by inheritance, and sweeter than it looks.",
   "listOrder": 13
- },
- {
-  "id": "fNV6bUpSubUy2V7ncPWhQ",
-  "city": "Belgrade",
-  "foodName": "Rakija",
-  "foodEnglishName": "Fruit brandy",
-  "foodDescription": "Fruit brandy — plum most often, but quince, apricot and pear all exist — distilled at home in enormous quantity. Drunk before a meal rather than after, at room temperature, in small glasses. Everyone claims an uncle who makes it.",
-  "listOrder": 14
  },
  {
   "id": "Gz4kjnoctaXO83r4K9jR5",
@@ -3001,14 +3296,6 @@
   "listOrder": 9
  },
  {
-  "id": "6UajerBM08mWD1L6ex82YF",
-  "city": "Bucharest",
-  "foodName": "Plăcintă",
-  "foodEnglishName": "Filled pastry",
-  "foodDescription": "Thin pastry folded around salty cheese, potato, cabbage or apple and pan-fried or baked. Sold from bakeries and roadside stands in a paper napkin. The savory cheese one, eaten hot, is the one to start with.",
-  "listOrder": 10
- },
- {
   "id": "7p6om1tqoimx0jfzPldKpL",
   "city": "Bucharest",
   "foodName": "Papanași",
@@ -3073,28 +3360,12 @@
   "listOrder": 11
  },
  {
-  "id": "5F6HoWs2Y6Onsx67ySVFHa",
-  "city": "Marseille",
-  "foodName": "Panisse",
-  "foodEnglishName": "Chickpea fries",
-  "foodDescription": "Chickpea flour cooked to a paste, set, cut into batons and fried until crisp outside and creamy within, then salted hard. Sold from stalls in the old fishing quarter. The local answer to a french fry, and older.",
-  "listOrder": 2
- },
- {
   "id": "6jjKhtutL9ZxrEKxJQPVg6",
   "city": "Paris",
   "foodName": "Paris-Brest",
   "foodEnglishName": "Praline choux ring",
   "foodDescription": "A ring of choux pastry split and filled with praline cream, created in 1910 to mark a bicycle race and shaped like a wheel. Hazelnut-heavy and less sweet than it looks. Eaten with a fork, never with hands.",
   "listOrder": 12
- },
- {
-  "id": "7o7AbjZAJN8j3dCEEw81S",
-  "city": "Marseille",
-  "foodName": "Aïoli",
-  "foodEnglishName": "Garlic mayonnaise",
-  "foodDescription": "Garlic pounded with olive oil into a stiff yellow mayonnaise, served with poached salt cod, boiled vegetables and eggs — a whole Friday meal named after its sauce. The garlic is fierce and is meant to be.",
-  "listOrder": 4
  },
  {
   "id": "2TawffNB8CSi3WpjZPOqBW",
@@ -3127,14 +3398,6 @@
   "foodEnglishName": "Sugared fritters",
   "foodDescription": "A long ridged doughnut fried to order and rolled in sugar, sold on the seafront and out at the beach villages. Orange-flower scented and greasy in the correct way. Eat it hot, from the paper, with your hands.",
   "listOrder": 11
- },
- {
-  "id": "5NTtLOk1Rx7nytPXqgCt6A",
-  "city": "Marseille",
-  "foodName": "Navettes",
-  "foodEnglishName": "Orange-flower biscuits",
-  "foodDescription": "Hard, dry boat-shaped biscuits scented with orange flower, baked at the same bakery near the abbey since 1781 and blessed in February at Candlemas. Meant for dunking, and they keep for months.",
-  "listOrder": 12
  },
  {
   "id": "34nERTRsXY0kpshhBIs77H",
@@ -3185,14 +3448,6 @@
   "listOrder": 6
  },
  {
-  "id": "7flQ1SGvUx6tgxxFgwHdBq",
-  "city": "Brussels",
-  "foodName": "Filet américain",
-  "foodEnglishName": "Steak tartare",
-  "foodDescription": "Raw beef minced with capers, onion, mustard and egg yolk, spread thickly on bread or served with fries. Nothing American about it. Sold in every butcher shop and eaten at lunch without any ceremony at all.",
-  "listOrder": 7
- },
- {
   "id": "4ftWsj5IiDsuN5NSm0yMJj",
   "city": "Brussels",
   "foodName": "Gaufre de Bruxelles",
@@ -3217,14 +3472,6 @@
   "listOrder": 10
  },
  {
-  "id": "aZLAQubtw0RBEBDOrwCt8",
-  "city": "Brussels",
-  "foodName": "Speculoos",
-  "foodEnglishName": "Spiced biscuits",
-  "foodDescription": "Thin, hard spiced biscuits pressed in carved wooden molds, tasting of cinnamon, clove and brown sugar, served with coffee everywhere. Belgium exported the crushed spread version, but the biscuit came first.",
-  "listOrder": 11
- },
- {
   "id": "18QVMI1kBJnVdvnGsAB56X",
   "city": "Brussels",
   "foodName": "Cuberdon",
@@ -3247,14 +3494,6 @@
   "foodEnglishName": "Shredded pancake",
   "foodDescription": "A thick pancake torn into pieces in the pan, caramelized in butter and sugar, buried under powdered sugar and served with stewed plums. Named for Emperor Franz Joseph. Austrians order it as a main course at lunch, and so should you.",
   "listOrder": 11
- },
- {
-  "id": "T03oVRlSANF25MXpaZufD",
-  "city": "Vienna",
-  "foodName": "Apfelstrudel",
-  "foodEnglishName": "Apple strudel",
-  "foodDescription": "Apples, raisins, cinnamon and buttered breadcrumbs rolled in pastry stretched so thin a baker is supposed to read a newspaper through it. The layering technique arrived with the Ottomans. Eat it warm, with vanilla sauce rather than cream.",
-  "listOrder": 12
  },
  {
   "id": "yzp11cXidVs78XViI2pMa",
@@ -3361,14 +3600,6 @@
   "listOrder": 9
  },
  {
-  "id": "3b7jwLle8wI9fwEWhwJGa9",
-  "city": "Budapest",
-  "foodName": "Somlói galuska",
-  "foodEnglishName": "Sponge trifle",
-  "foodDescription": "Three kinds of sponge soaked in rum and layered with walnuts, chocolate sauce, raisins and whipped cream until it collapses into itself. A trifle with no structural ambition. Order it when you have already eaten too much.",
-  "listOrder": 11
- },
- {
   "id": "1i8MWs1pUcjodHvCx3I03h",
   "city": "Budapest",
   "foodName": "Dobos torta",
@@ -3401,44 +3632,12 @@
   "listOrder": 2
  },
  {
-  "id": "6ZY9wF7SOKEsHAHlpEmObO",
-  "city": "Budapest",
-  "foodName": "Hideg meggyleves",
-  "foodEnglishName": "Cold sour cherry soup",
-  "foodDescription": "Chilled sour cherry soup, thickened with sour cream and scented with clove and cinnamon, served as a first course rather than a dessert. Cold, pink and startling on a hot day. Summer only, while the cherries are in.",
-  "listOrder": 14
- },
- {
   "id": "6WzuexRIlKo4GN2dFIuibF",
   "city": "Athens",
   "foodName": "Bougatsa",
   "foodEnglishName": "Custard pastry",
   "foodDescription": "Semolina custard between sheets of phyllo, baked, then cut up with a scraper and dusted with sugar and cinnamon in front of you. There is a savory cheese version too. Breakfast, and best from a shop that makes nothing else.",
   "listOrder": 3
- },
- {
-  "id": "lTHKdFcUKJsTpMFSNRYA6",
-  "city": "Athens",
-  "foodName": "Spanakopita",
-  "foodEnglishName": "Spinach pie",
-  "foodDescription": "Spinach, feta, dill and scallion between layers of oiled phyllo, baked until the top shatters. Sold in bakeries by the slab all day. The good ones have far more greens than cheese and are never soggy underneath.",
-  "listOrder": 4
- },
- {
-  "id": "6Hfnn44gs2nleUYTXcNmnI",
-  "city": "Athens",
-  "foodName": "Horiatiki",
-  "foodEnglishName": "Greek salad",
-  "foodDescription": "Tomato, cucumber, onion, pepper, olives and a whole slab of feta with oregano and olive oil — the village salad, and no lettuce anywhere in it. The oil left in the bowl is meant to be finished with bread.",
-  "listOrder": 5
- },
- {
-  "id": "2v4BOFNrlJU6f6Chq6FXZ4",
-  "city": "Athens",
-  "foodName": "Fava",
-  "foodEnglishName": "Split pea purée",
-  "foodDescription": "Yellow split peas cooked to a smooth puree, served warm with raw onion, capers, lemon and a pour of olive oil. Not made from fava beans, despite everything. The best comes from Santorini and is worth asking about.",
-  "listOrder": 6
  },
  {
   "id": "2tuV3r2JIq96TJgN1hZQ5H",
@@ -3489,22 +3688,6 @@
   "listOrder": 3
  },
  {
-  "id": "FZgDcoRFKR1FU0WtgkVTO",
-  "city": "Barcelona",
-  "foodName": "Escalivada",
-  "foodEnglishName": "Charred vegetables",
-  "foodDescription": "Eggplant, peppers and onions charred whole over flame until the skins blacken, then peeled, torn into strips and dressed with oil. The name comes from the Catalan for cooking in embers. Served cold, usually piled on bread.",
-  "listOrder": 4
- },
- {
-  "id": "14Vm6ZVUcG27L41IYgo2Qv",
-  "city": "Barcelona",
-  "foodName": "Esqueixada",
-  "foodEnglishName": "Salt cod salad",
-  "foodDescription": "Salt cod torn by hand — never cut — and served raw, cured only by its own salt, with tomato, onion, olives and oil. The name means shredded. A summer dish from before refrigeration, and still the coolest thing on the table.",
-  "listOrder": 5
- },
- {
   "id": "10a27wqFFHvcNWUtMhyay2",
   "city": "Athens",
   "foodName": "Pastitsio",
@@ -3529,20 +3712,6 @@
   "listOrder": 14
  },
  {
-  "id": "6lRwpHjWtUPRnHxDMzHm5y",
-  "city": "Athens",
-  "foodName": "Moussaka",
-  "foodDescription": "Layers of eggplant, spiced lamb and potato under a thick béchamel, baked until the top sets and browns. The version everyone knows was standardized by a Greek chef trained in France in the 1920s. Better warm than hot.",
-  "listOrder": 9
- },
- {
-  "id": "4Swb33MdbsFPgUlTsa5cQQ",
-  "city": "Athens",
-  "foodName": "Souvlaki",
-  "foodDescription": "Pork or chicken grilled on skewers and wrapped in pita with tomato, onion, tzatziki and — this is not negotiable — a handful of fries inside the wrap. The cheapest full meal in the city, eaten standing or walking.",
-  "listOrder": 1
- },
- {
   "id": "7rnFKG3FoNUD3KcbEcCJ64",
   "city": "Budapest",
   "foodName": "Unicum",
@@ -3556,14 +3725,6 @@
   "foodEnglishName": "Croquette sandwich",
   "foodDescription": "A deep-fried roll of thick beef ragout, breaded and hot enough to burn you, in a soft white bun with mustard. The bread does nothing but hold it. Sold from vending machine walls, which is genuinely the best way.",
   "listOrder": 2
- },
- {
-  "id": "2SnnJyyNaTgFdgRig8anPn",
-  "city": "Amsterdam",
-  "foodName": "Patat oorlog",
-  "foodEnglishName": "War fries",
-  "foodDescription": "Fries with mayonnaise, spiced peanut sauce and raw onion piled on together — the name means war, for how it looks. The peanut sauce arrived through Indonesia and colonial history. Eaten with a small plastic fork.",
-  "listOrder": 4
  },
  {
   "id": "2HhG3xHqjfI9qwsZg9YXqm",
@@ -3634,13 +3795,6 @@
   "listOrder": 13
  },
  {
-  "id": "7eQmSUOPZRzZDzu7A0tTMG",
-  "city": "Marseille",
-  "foodName": "Tapenade",
-  "foodDescription": "Black olives, capers, anchovy and oil pounded into a coarse paste — the name comes from the Provençal word for caper, not for olive. Spread on toast before dinner. It should taste more of caper than you expect.",
-  "listOrder": 6
- },
- {
   "id": "jat6H8t8oxwa80Khtk1vT",
   "city": "Marseille",
   "foodName": "Bouillabaisse",
@@ -3667,20 +3821,6 @@
   "foodName": "Éclair",
   "foodDescription": "Choux pastry piped long, filled with chocolate or coffee cream and glazed on top in the same flavor. The name means lightning, supposedly for how fast it goes. Judge a pâtisserie on whether the glaze is thin and clean.",
   "listOrder": 13
- },
- {
-  "id": "6p1tcPokZ5SIr9pwh9ZdKF",
-  "city": "Paris",
-  "foodName": "Falafel",
-  "foodDescription": "Chickpea fritters in pita with eggplant, cabbage, hummus and hot sauce, sold in the Marais with a line down the street. Not French in origin and entirely Parisian in practice. Eaten walking, and dripping.",
-  "listOrder": 10
- },
- {
-  "id": "2J86UcNUnDFUtGlPqjYUdT",
-  "city": "Paris",
-  "foodName": "Steak tartare",
-  "foodDescription": "Raw beef chopped by hand and mixed with capers, shallot, mustard and egg yolk, either at the table or in the kitchen. Chopped, never ground — that texture is the whole difference. Order it with fries.",
-  "listOrder": 7
  },
  {
   "id": "3O8ftoxGLrEimgQGA28CZ4",
@@ -3746,13 +3886,6 @@
   "listOrder": 9
  },
  {
-  "id": "3fJk38VnsVJoPCrFspPOsZ",
-  "city": "Berlin",
-  "foodName": "Döner kebab",
-  "foodDescription": "Meat stacked and grilled on a vertical spit, carved into flatbread with salad, cabbage and garlic and chili sauces. Invented in Berlin in the 1970s by Turkish workers — not in Turkey. The city eats it at every hour.",
-  "listOrder": 2
- },
- {
   "id": "6EcUSQN9xSRJ4DRoQj3dgN",
   "city": "Berlin",
   "foodName": "Currywurst",
@@ -3760,25 +3893,11 @@
   "listOrder": 1
  },
  {
-  "id": "7lpmI9z9oxYXtm8XyNC73x",
-  "city": "Oslo",
-  "foodName": "Lutefisk",
-  "foodDescription": "Dried cod soaked in lye until it turns translucent and gelatinous, then baked and served with bacon, peas and potatoes. Eaten at Christmas out of tradition and stubbornness. Divisive at every table it arrives on.",
-  "listOrder": 10
- },
- {
   "id": "7cgeqB3yirD6tdvVblVSNS",
   "city": "Dublin",
   "foodName": "Guinness",
   "foodDescription": "Dry stout poured in two stages with a rest between, which is why it takes nearly two minutes. Roasted barley makes it bitter rather than sweet, and it is served cool rather than cold. It genuinely does taste different here.",
   "listOrder": 14
- },
- {
-  "id": "3PJGbvpRNQckdMOxHwNnaa",
-  "city": "Dublin",
-  "foodName": "Spice bag",
-  "foodDescription": "Chips, shredded salt-and-chili chicken, fried peppers and onions tossed with spice mix and served in a paper bag. Invented in a Dublin Chinese takeaway around 2010 and now everywhere. The newest Irish national dish.",
-  "listOrder": 11
  },
  {
   "id": "ihTlg5yTJPbvlp5lYLqXb",
@@ -3823,13 +3942,6 @@
   "listOrder": 3
  },
  {
-  "id": "5sOc89uJZV7vzaPrNGLo25",
-  "city": "Dublin",
-  "foodName": "Full Irish breakfast",
-  "foodDescription": "Bacon, sausage, egg, tomato and both black and white pudding, with fried soda bread alongside. White pudding is the same as black without the blood. Tea is not optional, and it is served all day, everywhere.",
-  "listOrder": 2
- },
- {
   "id": "49RZge9orpbLWt4UpJMdFf",
   "city": "Dublin",
   "foodName": "Coddle",
@@ -3858,25 +3970,11 @@
   "listOrder": 12
  },
  {
-  "id": "5lPNX6ZSdwmyMRhxyhE3xx",
-  "city": "Edinburgh",
-  "foodName": "Shortbread",
-  "foodDescription": "Butter, sugar and flour in a ratio that is mostly butter, baked pale and dense. A good one snaps rather than bends and tastes of cream. Sold in tins to tourists everywhere — buy it from a bakery instead and eat it fresh.",
-  "listOrder": 10
- },
- {
   "id": "3s8P8HxMPJW9bBXxOWYxWG",
   "city": "Edinburgh",
   "foodName": "Deep-fried Mars bar",
   "foodDescription": "A chocolate bar chilled, dipped in the batter meant for fish and fried until the inside turns to hot caramel. Invented in an Aberdeenshire chip shop in the 1990s as a joke that got away. Worth doing once, honestly.",
   "listOrder": 8
- },
- {
-  "id": "77MlaYJgVPyyY510LG5sYe",
-  "city": "Edinburgh",
-  "foodName": "Scotch broth",
-  "foodDescription": "Barley, root vegetables and lamb or beef simmered until thick enough to stand a spoon in. Less a starter than a meal that admits what it is. Every household version differs and every one is described as the correct one.",
-  "listOrder": 6
  },
  {
   "id": "3bVZPGY1IZKaPkuvRDWQOi",
@@ -3886,39 +3984,11 @@
   "listOrder": 2
  },
  {
-  "id": "6O0nkIy3HYNc8v8Bq2I38K",
-  "city": "Manchester",
-  "foodName": "Vimto",
-  "foodDescription": "A dark, sweet cordial of grapes, raspberries, blackcurrants and herbs, invented in Manchester in 1908 as a health tonic and never adequately explained since. Drunk cold and diluted, or hot in winter. There is a statue to it.",
-  "listOrder": 12
- },
- {
-  "id": "2LKMFXh9f6U6n0dERDgZ8r",
-  "city": "Manchester",
-  "foodName": "Eccles cake",
-  "foodDescription": "A flat round of flaky pastry packed with currants, sugar and butter, the top slashed and sugared. Named for the town nearby and sold in every bakery. Eat it with a slice of crumbly Lancashire cheese, which is not a joke.",
-  "listOrder": 11
- },
- {
   "id": "7JJqwt4HPrds1TzvZBTnsw",
   "city": "Manchester",
   "foodName": "Manchester tart",
   "foodDescription": "Shortcrust with a layer of raspberry jam, thick custard and desiccated coconut on top, often with a glacé cherry. The standard school pudding for generations, now on restaurant menus with a completely straight face.",
   "listOrder": 10
- },
- {
-  "id": "1ar450NRBbHraj0fyHAnBP",
-  "city": "Manchester",
-  "foodName": "Parched peas",
-  "foodDescription": "Black peas boiled soft and served hot in a cup with malt vinegar, sold at bonfire night and at fairgrounds in early November. Older than the fireworks they go with. Cheap, salty and faintly odd, eaten outdoors in the cold.",
-  "listOrder": 9
- },
- {
-  "id": "3Mdz5bSB0I9j5Okif3POYP",
-  "city": "Manchester",
-  "foodName": "Tripe and onions",
-  "foodDescription": "Tripe simmered pale in milk with onions, once sold from dedicated tripe shops on every northern high street — Manchester had dozens. Now nearly extinct, kept alive at Bury market. Soft, mild, and historically enormous.",
-  "listOrder": 8
  },
  {
   "id": "2J2On7fmIdoHQdSd09YWSd",
@@ -3928,25 +3998,11 @@
   "listOrder": 7
  },
  {
-  "id": "gNFFEOGaS0NNRBIHfDUCc",
-  "city": "Manchester",
-  "foodName": "Cheese and onion pie",
-  "foodDescription": "Shortcrust filled with sharp cheese, onion and potato, eaten hot with gravy or cold from a paper bag. Every northern bakery makes one and every family argues about the potato. Vegetarian by accident rather than design.",
-  "listOrder": 6
- },
- {
   "id": "39hbONxcWSpp1dl2sKvSj8",
   "city": "Manchester",
   "foodName": "Lancashire hotpot",
   "foodDescription": "Lamb and onions layered under sliced potato and baked slowly until the top browns and the bottom turns to gravy. Made in a tall pot in the mill towns, left to cook while everyone was at work. Pickled red cabbage on the side.",
   "listOrder": 2
- },
- {
-  "id": "01O43X76GQs9p1X0O4H0OR",
-  "city": "Manchester",
-  "foodName": "Chips, gravy and a barm",
-  "foodDescription": "Thick-cut chips buried in beef gravy with a barm — the northern word for a soft bread roll — alongside, or built into a sandwich around the chips. Cheap, hot and unrepentant. The regional test of any chip shop.",
-  "listOrder": 1
  },
  {
   "id": "2QrDlJDM0mBdRi8xsiuzEA",
@@ -3956,39 +4012,11 @@
   "listOrder": 15
  },
  {
-  "id": "33q5k4dSHnUpUDHGXHI9rP",
-  "city": "London",
-  "foodName": "Banoffee pie",
-  "foodDescription": "Banana, toffee made by boiling a can of condensed milk, and whipped cream on a biscuit base. Invented in a Sussex pub in 1971 and named by welding the two main ingredients together. The most 1970s dessert imaginable.",
-  "listOrder": 14
- },
- {
-  "id": "5K82aHL76e1jgVxNPTX7zz",
-  "city": "London",
-  "foodName": "Chelsea bun",
-  "foodDescription": "A coiled sweet dough with currants, lemon peel and spice, glazed sticky and pulled apart in a spiral. Sold from a Chelsea bakery from the 1700s that royalty lined up at. Eat it warm, the day it is baked, or not at all.",
-  "listOrder": 13
- },
- {
   "id": "5nEyGfmRrQD32iQR0A4NLe",
   "city": "London",
   "foodName": "Sticky toffee pudding",
   "foodDescription": "A dark sponge dense with chopped dates, drowned in hot toffee sauce and served with cream or custard. It tastes several centuries old and dates to the 1970s. Order it after a large meal; that is the accepted practice.",
   "listOrder": 12
- },
- {
-  "id": "58oD6ItxTglmjvUPBdQMck",
-  "city": "London",
-  "foodName": "Eton mess",
-  "foodDescription": "Broken meringue, whipped cream and crushed strawberries stirred into deliberate wreckage. Named for the school, where it was served at cricket matches. Best in June and July, when English strawberries are actually in season.",
-  "listOrder": 11
- },
- {
-  "id": "5BqaGF4189rV8XMxzOGAEh",
-  "city": "London",
-  "foodName": "Kedgeree",
-  "foodDescription": "Smoked haddock, rice, curry spice, hard-boiled egg and parsley, eaten at breakfast. Anglo-Indian by birth, carried home by colonial officials and adopted by Victorian country houses. It sounds strange and works completely.",
-  "listOrder": 10
  },
  {
   "id": "7rEOceQXMCXQdtAifc2Txm",
@@ -4003,13 +4031,6 @@
   "foodName": "Sunday roast",
   "foodDescription": "Roasted meat, potatoes crisped in fat, vegetables, gravy, and a Yorkshire pudding — a hollow baked batter built to catch the gravy. Served in pubs from noon until about four on Sundays and at no other time. Book, or go early.",
   "listOrder": 6
- },
- {
-  "id": "1xq6V7ym1fRx1gzNM2oD2d",
-  "city": "London",
-  "foodName": "Scotch egg",
-  "foodDescription": "A soft-boiled egg wrapped in sausage meat, breaded and fried, eaten cold in one hand. A London grocer claimed the invention in 1738. The good ones have a yolk that still runs; the bad ones are grey the whole way through.",
-  "listOrder": 5
  },
  {
   "id": "69PteNMyzXI9lItjIVFHrO",
@@ -4031,13 +4052,6 @@
   "foodName": "Fish and chips",
   "foodDescription": "White fish in beer batter fried until it blisters, with thick-cut chips and mushy peas. Salt and malt vinegar go on at the counter, not the table. Ask for it wrapped, and a good piece will steam when you break it open.",
   "listOrder": 2
- },
- {
-  "id": "70ICDODEhUBvPPPkjnGvl9",
-  "city": "London",
-  "foodName": "Full English breakfast",
-  "foodDescription": "Fried eggs, bacon, sausage, black pudding, beans, tomato, mushrooms and fried bread, all on one plate at once. Built for people about to do physical work and eaten mostly by people who are not. Tea alongside, not coffee.",
-  "listOrder": 1
  },
  {
   "id": "4c3KIiQlGkdQnp2WG5lq0Z",
@@ -4068,13 +4082,6 @@
   "listOrder": 3
  },
  {
-  "id": "1lcg1HLrVENFfSjqwUNURh",
-  "city": "Seville",
-  "foodName": "Gazpacho",
-  "foodDescription": "Raw tomato, cucumber, pepper, garlic and bread blended cold with oil and vinegar into something closer to a drink than a soup. Served in a glass through the summer. What is sold abroad under the name is usually salsa by comparison.",
-  "listOrder": 3
- },
- {
   "id": "6QOoZlXXST4NhNptxo9ndI",
   "city": "Madrid",
   "foodName": "Churros con chocolate",
@@ -4100,13 +4107,6 @@
   "city": "Barcelona",
   "foodName": "Pa amb tomàquet",
   "foodDescription": "Grilled bread rubbed with a cut tomato until the crumb turns pink, then olive oil and salt. Not a topping — the tomato is crushed into the bread and the skin thrown away. It arrives before everything else and costs almost nothing.",
-  "listOrder": 1
- },
- {
-  "id": "5CGPVyuZlsnAMqQoBMUBiO",
-  "city": "Naples",
-  "foodName": "Pizza margherita",
-  "foodDescription": "Tomato, buffalo mozzarella, basil and nothing else, baked ninety seconds in a wood oven until the rim blisters black and the center stays soupy. Naples invented this and protects it by law. Fold it in quarters if you are standing.",
   "listOrder": 1
  },
  {

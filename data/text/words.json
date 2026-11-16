@@ -1,5 +1,1500 @@
 [
  {
+  "id": "q0BtzGG5fXSzNvnZmFMJe",
+  "city": "Istanbul",
+  "slot": "deep-cut",
+  "local": "Keyif",
+  "phonetic": "kay-EEF",
+  "context": "Idle contentment done properly — tea, a view, no plan, and no hurry. Doing nothing, taken entirely seriously."
+ },
+ {
+  "id": "4QR3bdkcxpDuv2Eaui4e5K",
+  "city": "Helsinki",
+  "slot": "sorry",
+  "local": "Anteeksi",
+  "phonetic": "AHN-tayk-see",
+  "meaning": "sorry / excuse me",
+  "context": "For apologising, getting someone’s attention, and squeezing past."
+ },
+ {
+  "id": "6K6JxPGNicXPDhdgFOayq2",
+  "city": "Liverpool",
+  "slot": "delicious",
+  "local": "Boss",
+  "phonetic": "boss",
+  "meaning": "delicious / excellent",
+  "context": "“That was boss” covers food, a night out, or a goal. Nothing to do with anyone’s employer."
+ },
+ {
+  "id": "53jSvmOyDinmSEaSLmU5hK",
+  "city": "Glasgow",
+  "slot": "deep-cut",
+  "local": "Boggin",
+  "phonetic": "BOG-in",
+  "meaning": "disgusting, filthy",
+  "context": "For a smell, a room, a pub toilet, or the weather. Also used of a person who badly needs a wash."
+ },
+ {
+  "id": "5FdMIgRl55IsAbDn529HR5",
+  "city": "Warsaw",
+  "slot": "sorry",
+  "local": "Przepraszam",
+  "phonetic": "psheh-PRAH-shahm",
+  "meaning": "sorry / excuse me",
+  "context": "For apologising, getting attention, and squeezing past. On a tram, “Wysiada pan?” (vi-SHAH-dah pahn) asks if someone is getting off."
+ },
+ {
+  "id": "5oneen2z7N34ZaKu0bfkDr",
+  "city": "Munich",
+  "slot": "deep-cut",
+  "local": "Brotzeit",
+  "phonetic": "BROHT-tsite",
+  "context": "Literally “bread time”: a cold spread of bread, cheese, sausage, and radish, at any hour. It is also what you unpack at a beer garden."
+ },
+ {
+  "id": "2JpX4CS7WPvAepi9y7FQaL",
+  "city": "Warsaw",
+  "slot": "ticket",
+  "local": "Bilet",
+  "phonetic": "BEE-let",
+  "meaning": "ticket",
+  "context": "One ticket covers trams, buses, metro, and city trains. Validate a paper ticket in the yellow box when you board."
+ },
+ {
+  "id": "3zcdlVzQkWPsJT1R0G6Xr9",
+  "city": "Kraków",
+  "slot": "sorry",
+  "local": "Przepraszam",
+  "phonetic": "psheh-PRAH-shahm",
+  "meaning": "sorry / excuse me",
+  "context": "For apologising, getting someone’s attention, and squeezing past. The most useful word here after “proszę.”"
+ },
+ {
+  "id": "rIiasV1yfvkV7xRMYcV6o",
+  "city": "Madrid",
+  "slot": "deep-cut",
+  "local": "Castizo",
+  "phonetic": "kahs-TEE-thoh",
+  "context": "Old-Madrid authentic: the tiled taverns, the vermouth on tap, the neighborhoods that never got renovated."
+ },
+ {
+  "id": "5arhKwgPYcsXq5Eny7NjK7",
+  "city": "Paris",
+  "slot": "deep-cut",
+  "local": "La terrasse",
+  "phonetic": "lah teh-RAHSS",
+  "context": "The sidewalk seating that fills every street. Coffee costs more there than standing at the bar, and everyone pays it."
+ },
+ {
+  "id": "1nfNVjYe3Iu1HOyPKrgJsz",
+  "city": "Berlin",
+  "slot": "deep-cut",
+  "local": "Kiez",
+  "phonetic": "keets",
+  "context": "Your immediate neighborhood — the few blocks you actually live in. Berliners are loyal to theirs in a way that surprises outsiders."
+ },
+ {
+  "id": "5BIovJGawDKbUymapGeMed",
+  "city": "Prague",
+  "slot": "atm",
+  "local": "Bankomat",
+  "phonetic": "BAN-koh-maht",
+  "meaning": "ATM",
+  "context": "Avoid the standalone machines in the tourist center — their rates are dreadful. Decline dollar conversion."
+ },
+ {
+  "id": "3PU6YPYre8SFTpyv2OEUFX",
+  "city": "Prague",
+  "slot": "deep-cut",
+  "local": "Hospoda",
+  "phonetic": "HOS-poh-dah",
+  "context": "The neighborhood pub: beer, plain food, no music, long shared tables. Older than any bar concept and still the center of things."
+ },
+ {
+  "id": "4PC0OBVSsihPdVpDebdwit",
+  "city": "Barcelona",
+  "slot": "deep-cut",
+  "local": "Calçotada",
+  "phonetic": "kal-soo-TAH-thah",
+  "context": "A winter feast of charred spring onions dipped in romesco, eaten with your hands over a bib. Whole towns organize around it."
+ },
+ {
+  "id": "3d2CAKnQQ5lUn73aKLWG1X",
+  "city": "Marseille",
+  "slot": "deep-cut",
+  "local": "Cagole",
+  "phonetic": "kah-GOL",
+  "context": "A loud, heavily made-up Marseillaise woman. An insult that locals have largely reclaimed as a badge of honor."
+ },
+ {
+  "id": "6fOjcl9kZCLZOXVoRgioLj",
+  "city": "Istanbul",
+  "slot": "deep-cut",
+  "local": "Hüzün",
+  "phonetic": "hew-ZEWN",
+  "context": "A collective melancholy — the ache of a city that was once the center of the world. Pamuk built a whole book around it."
+ },
+ {
+  "id": "1MCuyJmG3inm06kPvjtUjS",
+  "city": "Edinburgh",
+  "slot": "deep-cut",
+  "local": "Dreich",
+  "context": "Gray, damp, cold, and endless — the specific Scottish weather that never quite commits to being rain."
+ },
+ {
+  "id": "2o5Gpx4FJVrG7oF3Mumrzn",
+  "city": "Manchester",
+  "slot": "money-surprise",
+  "local": "Service charge",
+  "meaning": "service charge",
+  "context": "Usually 10% and added mainly in city-center restaurants. Removable on request and stated on the bill."
+ },
+ {
+  "id": "2gjUcQGyXMq5GTLgeLh5zV",
+  "city": "Athens",
+  "slot": "cash",
+  "local": "Μετρητά",
+  "phonetic": "meh-tree-TAH",
+  "meaning": "cash",
+  "context": "Still common in tavernas and at kiosks, especially away from the center."
+ },
+ {
+  "id": "1EYufNzAWM5P5jxRmGcgiK",
+  "city": "Belfast",
+  "slot": "cash",
+  "local": "Cash",
+  "phonetic": "kash",
+  "meaning": "cash",
+  "context": "Still useful at St. George’s Market stalls and in older pubs."
+ },
+ {
+  "id": "7essNx284mUgihb77wz0on",
+  "city": "Glasgow",
+  "slot": "deep-cut",
+  "local": "Gallus",
+  "phonetic": "GAL-us",
+  "meaning": "bold, confident, a bit cheeky",
+  "context": "Glasgow’s favorite compliment for a person or a move with some swagger. Originally it meant fit for the gallows."
+ },
+ {
+  "id": "4lokeQHyVwYk4VzP7WhWuf",
+  "city": "Warsaw",
+  "slot": "deep-cut",
+  "local": "Godzina W",
+  "phonetic": "goh-JEE-nah voo",
+  "context": "“W-hour”: 5 p.m. on August 1, when the 1944 Warsaw Uprising began. Sirens sound every year and the city stops for a minute."
+ },
+ {
+  "id": "BepmDEowXGKVlvCGrc4mz",
+  "city": "Venice",
+  "slot": "money-surprise",
+  "local": "Coperto",
+  "phonetic": "koh-PEHR-toh",
+  "meaning": "cover charge",
+  "context": "Per person, on the menu. Some add servizio too. Sitting costs more than standing at the bar — on St. Mark’s Square, far more."
+ },
+ {
+  "id": "3A51lStl6xextvVnenMxCX",
+  "city": "Florence",
+  "slot": "ticket",
+  "local": "Biglietto",
+  "phonetic": "bee-LYET-toh",
+  "meaning": "ticket",
+  "context": "For museums, book ahead. The Uffizi and Accademia sell out, and the line without one runs to hours."
+ },
+ {
+  "id": "2XSkWIKgUdPFWnE6T9jBGj",
+  "city": "Florence",
+  "slot": "money-surprise",
+  "local": "Coperto",
+  "phonetic": "koh-PEHR-toh",
+  "meaning": "cover charge",
+  "context": "Per person, printed on the menu. In the tourist center some places add servizio on top — check the bill for both."
+ },
+ {
+  "id": "57L7zgV1vimlYcd446oa4Z",
+  "city": "Liverpool",
+  "slot": "sorry",
+  "local": "Sorry",
+  "phonetic": "",
+  "meaning": "sorry",
+  "context": "Works for apologising and for getting past. Also means “what did you say?” which you may need for the accent."
+ },
+ {
+  "id": "3xe8SKQR1icDPaUumV2pxE",
+  "city": "Stockholm",
+  "slot": "sorry",
+  "local": "Förlåt",
+  "phonetic": "fur-LOHT",
+  "meaning": "sorry",
+  "context": "Reserved for an actual apology. For everything else, “ursäkta.”"
+ },
+ {
+  "id": "6JTTwh6crAkBkTo9m1twWV",
+  "city": "Reykjavík",
+  "slot": "sorry",
+  "local": "Fyrirgefðu",
+  "phonetic": "FIH-rir-gev-thoo",
+  "meaning": "sorry",
+  "context": "Kept for a real apology. For everything else, “afsakið.”"
+ },
+ {
+  "id": "45yuU7g7hJP7RfFkmd9cpw",
+  "city": "Oslo",
+  "slot": "sorry",
+  "local": "Beklager",
+  "phonetic": "beh-KLAH-ger",
+  "meaning": "sorry",
+  "context": "For a genuine apology. For everything else, “unnskyld.”"
+ },
+ {
+  "id": "2ruwTKkKvqq9bjVMHGDXKu",
+  "city": "Lisbon",
+  "slot": "money-surprise",
+  "local": "Couvert",
+  "phonetic": "koo-VEHR",
+  "meaning": "bread and olives that arrive unordered",
+  "context": "Not free, and you can wave it away with “não, obrigado.” The most common tourist friction point in Portugal."
+ },
+ {
+  "id": "5cgyZwJ3lNWrbtci2fUa06",
+  "city": "Zurich",
+  "slot": "bag",
+  "local": "Säckli?",
+  "phonetic": "SEK-lee",
+  "meaning": "bag?",
+  "context": "The “-li” ending is Zurich shrinking something. A “Sack” becomes a “Säckli.”"
+ },
+ {
+  "id": "24Vtgbiv6pkhWrn6edNy7U",
+  "city": "Paris",
+  "slot": "atm",
+  "local": "Distributeur",
+  "phonetic": "dees-tree-bew-TUR",
+  "meaning": "ATM",
+  "context": "Short for “distributeur automatique.” Decline the offer to charge you in dollars."
+ },
+ {
+  "id": "1TEfCadYTG1u2PdNQM11Qx",
+  "city": "Vienna",
+  "slot": "atm",
+  "local": "Bankomat",
+  "phonetic": "BAHN-koh-maht",
+  "meaning": "ATM",
+  "context": "Austria says “Bankomat,” like Italy and Switzerland. Germany says “Geldautomat,” and it marks you."
+ },
+ {
+  "id": "3dys2gYFOZIUd8yDbg6v0j",
+  "city": "Vienna",
+  "slot": "bag",
+  "local": "Sackerl?",
+  "phonetic": "SAH-kerl",
+  "meaning": "bag?",
+  "context": "The Austrian word. A German would say “Tüte,” and saying it here marks you as one."
+ },
+ {
+  "id": "1wF7UhxO0wCoIwThdqZyZz",
+  "city": "Seville",
+  "slot": "bathroom",
+  "local": "Servicios",
+  "phonetic": "ser-VEE-see-oh",
+  "meaning": "bathroom",
+  "context": "“Servicios” here more than “aseos.” Bars expect you to have ordered first."
+ },
+ {
+  "id": "3n161cQTbbr0G64lmzunCX",
+  "city": "Marseille",
+  "slot": "atm",
+  "local": "Distributeur",
+  "phonetic": "dees-tree-bew-TUR",
+  "meaning": "ATM",
+  "context": "Short for “distributeur automatique.” Decline the offer to charge you in dollars."
+ },
+ {
+  "id": "1gSZtOcq1LC84woz7cD4fv",
+  "city": "London",
+  "slot": "bathroom",
+  "local": "Loo",
+  "meaning": "bathroom",
+  "context": "Signs say “Toilets.” “Restroom” and “bathroom” both get a blank look, and “washroom” is Canadian."
+ },
+ {
+  "id": "4povhobtLCUskEceAcUTBu",
+  "city": "Dublin",
+  "slot": "atm",
+  "local": "ATM",
+  "meaning": "ATM",
+  "context": "Also “the hole in the wall.” Ireland uses the euro, unlike Northern Ireland an hour up the road."
+ },
+ {
+  "id": "7wyTv7R3HUiKDc88rvFubg",
+  "city": "Madrid",
+  "slot": "menu",
+  "local": "Carta?",
+  "phonetic": "KAR-tah",
+  "meaning": "menu?",
+  "context": "Order “la carta” — “el menú” is the set lunch. More polite version: “La carta, por favor.”"
+ },
+ {
+  "id": "7cONqVuStWvHHnsKLWTZ0v",
+  "city": "Seville",
+  "slot": "menu",
+  "local": "Carta?",
+  "phonetic": "KAR-tah",
+  "meaning": "menu?",
+  "context": "Order “la carta” — “el menú” is the set lunch. More polite version: “La carta, por favor.”"
+ },
+ {
+  "id": "1dKuaalIG28pX3n7Vj6ak7",
+  "city": "Venice",
+  "slot": "menu",
+  "local": "Menù?",
+  "phonetic": "meh-NOO",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore.”"
+ },
+ {
+  "id": "2iCokjmqd809gHFoWgwfPU",
+  "city": "Milan",
+  "slot": "menu",
+  "local": "Menù?",
+  "phonetic": "meh-NOO",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore.”"
+ },
+ {
+  "id": "3pessF5Pqpz8zkDdtrugJ3",
+  "city": "Warsaw",
+  "slot": "check",
+  "local": "Rachunek?",
+  "phonetic": "rah-HOO-nek",
+  "meaning": "the check?",
+  "context": "Enough to get by. More polite: “Poproszę rachunek.” To tip by card, say the amount before the waiter keys it in."
+ },
+ {
+  "id": "6pZRplXCXFJcy1ndcJ80u6",
+  "city": "Glasgow",
+  "slot": "deep-cut",
+  "local": "Steamin",
+  "phonetic": "STEE-min",
+  "meaning": "very drunk",
+  "context": "One of many Glasgow words for it, alongside “blootered” and “mortal.” Usually said with some admiration."
+ },
+ {
+  "id": "31ZvjccThJj3qgxUaMVtXP",
+  "city": "Glasgow",
+  "slot": "deep-cut",
+  "local": "Wean",
+  "phonetic": "wayn",
+  "meaning": "a child",
+  "context": "From “wee ane,” little one. “The weans” are the kids, and “a greetin’ wean” is a crying one."
+ },
+ {
+  "id": "1HSkfYBYk8T3X77iVmKrlG",
+  "city": "Glasgow",
+  "slot": "atm",
+  "local": "Cashpoint",
+  "phonetic": "",
+  "meaning": "ATM",
+  "context": "Also “the hole in the wall.” Cash machines here dispense Scottish banknotes."
+ },
+ {
+  "id": "5zzH7b7vLZdSUeWGIzWjZf",
+  "city": "Liverpool",
+  "slot": "leaving",
+  "local": "Ta-ra",
+  "phonetic": "tah-RAH",
+  "meaning": "leaving a shop or café",
+  "context": "The local goodbye, often stretched to “ta-ra well.” “See you later” works too."
+ },
+ {
+  "id": "3vgZPYQzLrqjxzs73v6G1G",
+  "city": "Liverpool",
+  "slot": "greeting-casual",
+  "local": "Y’alright?",
+  "phonetic": "yer-ALL-rite",
+  "meaning": "hello",
+  "context": "A greeting, not a question. “Sound, you?” closes it. Men add “la” (lad) and women often get “queen” or “girl,” all of it friendly."
+ },
+ {
+  "id": "3KlGsnhmkTRhylvs7R5G4f",
+  "city": "Belfast",
+  "slot": "deep-cut",
+  "local": "Wee",
+  "phonetic": "wee",
+  "context": "Small, and also a softener attached to almost anything. “A wee cup of tea,” “a wee minute,” “a wee drive to Bangor,” which is not that wee."
+ },
+ {
+  "id": "7vu9e0QlK89k3OAGUjFotq",
+  "city": "Belfast",
+  "slot": "greeting-casual",
+  "local": "What about ye?",
+  "phonetic": "WAH-a-BOWT-yeh",
+  "meaning": "hello",
+  "context": "A greeting, not a question, usually squashed to “’bout ye.” “Not bad, yourself?” closes it."
+ },
+ {
+  "id": "7gPQp4ES3OCKGMRcG9aSK4",
+  "city": "Warsaw",
+  "slot": "menu",
+  "local": "Menu?",
+  "phonetic": "MEH-noo",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę menu.”"
+ },
+ {
+  "id": "50ivLtQW4tHpve1iYlJjSo",
+  "city": "Milan",
+  "slot": "check",
+  "local": "Il conto?",
+  "phonetic": "eel KON-toh",
+  "meaning": "the check?",
+  "context": "More polite version: “Il conto, per favore.” At a busy coffee bar, pay first at the till and hand the receipt to the barista."
+ },
+ {
+  "id": "1DDcU82iWyOIhue5oaEQzF",
+  "city": "Milan",
+  "slot": "greeting-evening",
+  "local": "Buonasera",
+  "phonetic": "BWOH-nah-SEH-rah",
+  "meaning": "good evening",
+  "groupNote": "“Buonasera” starts in the afternoon, from about four. Milanese often clip both to “’giorno” and “’sera.”"
+ },
+ {
+  "id": "01gzYSFSQu6VVlfZqSuEzu",
+  "city": "Munich",
+  "slot": "deep-cut",
+  "local": "Gaudi",
+  "phonetic": "GOW-dee",
+  "context": "Fun, a good time, a bit of a riot. A beer tent at full volume is a “Riesengaudi,” a giant one."
+ },
+ {
+  "id": "kSVVJ57WlgZjOgVfr78bp",
+  "city": "Munich",
+  "slot": "greeting-morning",
+  "local": "Guten Morgen",
+  "phonetic": "GOO-ten MOR-gen",
+  "meaning": "good morning",
+  "context": "Often cut to just “Morgen.”"
+ },
+ {
+  "id": "7MoMAL6NFZSDnVoWWug4XU",
+  "city": "Venice",
+  "slot": "deep-cut",
+  "local": "Campo",
+  "phonetic": "KAHM-poh",
+  "context": "Every square in Venice is a “campo,” a field — most were once grass. Only St. Mark’s is a “piazza.”"
+ },
+ {
+  "id": "t1I3nu6ZrLlWLXJR9bfkO",
+  "city": "Venice",
+  "slot": "deep-cut",
+  "local": "Bacaro",
+  "phonetic": "BAH-kah-roh",
+  "context": "A small, plain wine bar with cicchetti on the counter, mostly standing room. Moving from one to the next is the “giro d’ombre.”"
+ },
+ {
+  "id": "i2Oz4hy1WKF8x30iKGn21",
+  "city": "Venice",
+  "slot": "check",
+  "local": "Il conto?",
+  "phonetic": "eel KON-toh",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore.”"
+ },
+ {
+  "id": "6Uf24To0FjMYkAJ7UwkL8r",
+  "city": "Venice",
+  "slot": "greeting-casual",
+  "local": "Ciao",
+  "phonetic": "chow",
+  "meaning": "hello (casual)",
+  "context": "Hello and goodbye, for peers only. It started here, from the Venetian “s-ciào,” “your servant.”"
+ },
+ {
+  "id": "5UJB9g4SpMDrqCqWWdXco9",
+  "city": "Venice",
+  "slot": "greeting-afternoon",
+  "local": "Buongiorno",
+  "phonetic": "bwon-JOR-noh",
+  "meaning": "good afternoon",
+  "context": "Still “buongiorno.” “Buon pomeriggio” exists on paper and nobody says it."
+ },
+ {
+  "id": "4un5EwTTK5DqBUJiXno4Dh",
+  "city": "Amsterdam",
+  "slot": "leaving",
+  "local": "Tot ziens",
+  "phonetic": "tot ZEENS",
+  "meaning": "leaving a shop or café",
+  "context": "What shopkeepers say to you. “Doei” (DOO-ee) is the casual version, usually doubled: “doei doei.”"
+ },
+ {
+  "id": "5a3zsqoVruG8tWaHKnA5HE",
+  "city": "Amsterdam",
+  "slot": "greeting-evening",
+  "local": "Goedenavond",
+  "phonetic": "KHOO-duh-NAH-vont",
+  "meaning": "good evening",
+  "groupNote": "In speech all three get clipped to “Morgen,” “Middag,” and “Avond.” A mumbled “Goeie” (KHOO-yuh) covers any of them."
+ },
+ {
+  "id": "2EyTaFYp9f56dM8Xd3jeIc",
+  "city": "Budapest",
+  "slot": "number-four",
+  "local": "Négy",
+  "phonetic": "naydj",
+  "meaning": "four",
+  "groupNote": "Two has two forms: “kettő” standing alone, “két” in front of a noun — “két sör,” two beers."
+ },
+ {
+  "id": "6JtVYUxlmRhrrbr9WQrDyO",
+  "city": "Budapest",
+  "slot": "leaving",
+  "local": "Viszlát",
+  "phonetic": "VEES-lahtt",
+  "meaning": "leaving a shop or café",
+  "context": "Short for “viszontlátásra,” “until we see each other again.” The full version is for formal occasions."
+ },
+ {
+  "id": "5hJ6M82VFzEkSKsKXmjMpM",
+  "city": "Manchester",
+  "slot": "deep-cut",
+  "local": "Barm",
+  "context": "A soft bread roll. Calling it a “bap,” a “cob,” or a “bun” starts a real argument that has never been settled."
+ },
+ {
+  "id": "60JpGZJ2rUJEgdkdSsxh88",
+  "city": "Manchester",
+  "slot": "atm",
+  "local": "Cashpoint",
+  "meaning": "ATM",
+  "context": "Also “the hole in the wall.” Avoid the ones that charge a fee."
+ },
+ {
+  "id": "7vHJPmpwfyQIO11kQxHZP9",
+  "city": "Manchester",
+  "slot": "leaving",
+  "local": "See you later",
+  "meaning": "leaving a shop or café",
+  "context": "“Ta-ra,” said tah-RAH, is the local version and still widely used. “Laters” among younger people."
+ },
+ {
+  "id": "4tCt3ZDUS0GJXNGWOdZP31",
+  "city": "Edinburgh",
+  "slot": "atm",
+  "local": "Cashpoint",
+  "meaning": "ATM",
+  "context": "Also “the hole in the wall.” Scottish banks issue their own notes, which are legal but sometimes refused in England."
+ },
+ {
+  "id": "6Jz2Z4v1B1QWUZo56O1img",
+  "city": "Dublin",
+  "slot": "deep-cut",
+  "local": "Garda",
+  "context": "The police. Plural “Gardaí,” said GAR-dee. Nobody here says “the police.”"
+ },
+ {
+  "id": "4ImQSOFtQdLbUf3ja4EpEl",
+  "city": "Dublin",
+  "slot": "bathroom",
+  "local": "The jacks",
+  "meaning": "bathroom",
+  "context": "Casual and very Dublin. Signs say “Toilets,” with “Leithreas” printed underneath."
+ },
+ {
+  "id": "4EUa1BrxqXa6MfcJxrxH3N",
+  "city": "Dublin",
+  "slot": "thanks",
+  "local": "Thanks a million",
+  "meaning": "thank you",
+  "context": "The standard warm version, often compressed to “thanks a mil.” “Cheers” works fine too."
+ },
+ {
+  "id": "LMsWL5FxwFIKxw9sqf3tp",
+  "city": "London",
+  "slot": "deep-cut",
+  "local": "The Tube",
+  "context": "The Underground. Never “the subway,” which here means a pedestrian tunnel under a road."
+ },
+ {
+  "id": "5Iw3UDLBvpXDTnfiTO0hsG",
+  "city": "London",
+  "slot": "atm",
+  "local": "Cashpoint",
+  "meaning": "ATM",
+  "context": "Nobody says “ATM.” Avoid the ones charging a fee — the bank-branded machines are free."
+ },
+ {
+  "id": "3aNSgigWkhyfBNjNn5D9Aa",
+  "city": "Istanbul",
+  "slot": "excuse-passing",
+  "local": "Pardon",
+  "phonetic": "par-DON",
+  "meaning": "excuse me (squeezing past)",
+  "groupNote": "“Affedersiniz” opens a request. “Pardon,” borrowed from French, is for squeezing past."
+ },
+ {
+  "id": "3io5bCELwswIpb1xh0E4GE",
+  "city": "Istanbul",
+  "slot": "leaving",
+  "local": "Hoşça kalın",
+  "phonetic": "HOSH-chah kah-LUHN",
+  "meaning": "leaving a shop or café",
+  "context": "Said by the person leaving. The one staying says “güle güle.” They are not interchangeable."
+ },
+ {
+  "id": "4pJWF4iEe3pLyqLA7Br4Wk",
+  "city": "Brussels",
+  "slot": "greeting-afternoon",
+  "local": "Bonjour",
+  "phonetic": "bong-ZHOOR",
+  "meaning": "good afternoon",
+  "context": "Still “bonjour.” French has no separate afternoon greeting."
+ },
+ {
+  "id": "t39ML7PqU48Nij78rnhqJ",
+  "city": "Marseille",
+  "slot": "greeting-afternoon",
+  "local": "Bonjour",
+  "phonetic": "bong-ZHOOR",
+  "meaning": "good afternoon",
+  "context": "Still “bonjour.” French has no separate afternoon greeting."
+ },
+ {
+  "id": "70BCUWUu4gcMI7tiabPpC2",
+  "city": "Florence",
+  "slot": "deep-cut",
+  "local": "La gorgia",
+  "phonetic": "lah GOR-jah",
+  "context": "The Tuscan habit of softening hard c into h. Locals demonstrate it with “una coca-cola con la cannuccia corta.”"
+ },
+ {
+  "id": "5zhanE3RmFowMZldiT6JiQ",
+  "city": "Florence",
+  "slot": "greeting-afternoon",
+  "local": "Buongiorno",
+  "phonetic": "bwon-JOR-noh",
+  "meaning": "good afternoon",
+  "context": "Still “buongiorno.” “Buon pomeriggio” exists on paper and nobody says it."
+ },
+ {
+  "id": "2cgaurrYSY0rs6lOj6w14V",
+  "city": "Barcelona",
+  "slot": "door-women",
+  "local": "Dones",
+  "phonetic": "DOH-nus",
+  "meaning": "women",
+  "groupNote": "Catalan, not Spanish — “Homes” and “Dones.” Where Spanish appears instead, “M” is women, not men."
+ },
+ {
+  "id": "4r9MiFPI0hoMqO2CO5UJmH",
+  "city": "Barcelona",
+  "slot": "leaving",
+  "local": "Adéu",
+  "phonetic": "ah-DEW",
+  "meaning": "leaving a shop or café",
+  "context": "Everyday in Catalan, unlike the Spanish “adiós,” which sounds final. “Fins després” (feens des-PRES) is “see you later.”"
+ },
+ {
+  "id": "30CXYyj8krWJkoEFMm9Uya",
+  "city": "Bucharest",
+  "slot": "deep-cut",
+  "local": "Descurcăreț",
+  "phonetic": "des-koor-kah-RETS",
+  "context": "Someone who manages, improvises, finds a way. The same instinct Poland calls “kombinować,” and admired just as much."
+ },
+ {
+  "id": "701aduT99cIT3g5PapzWkp",
+  "city": "Prague",
+  "slot": "leaving",
+  "local": "Na shledanou",
+  "phonetic": "nahs-HLEH-dah-no",
+  "meaning": "leaving a shop or café",
+  "context": "Literally “until seeing.” Often clipped to “na shle.” “Ahoj” is the casual version."
+ },
+ {
+  "id": "KWJLvQfPV690yYPvE37Np",
+  "city": "Belgrade",
+  "slot": "door-women",
+  "local": "Žene",
+  "phonetic": "ZHEH-neh",
+  "meaning": "women",
+  "groupNote": "“M” is men, “Ž” is women — and doors may be in Cyrillic instead: “МУШКАРЦИ” and “ЖЕНЕ.”"
+ },
+ {
+  "id": "1isdUopecsGknWi4swpOXA",
+  "city": "Reykjavík",
+  "slot": "leaving",
+  "local": "Bless",
+  "phonetic": "bless",
+  "meaning": "leaving a shop or café",
+  "context": "Often doubled: “bless bless.” From an old blessing, though nobody hears it that way now."
+ },
+ {
+  "id": "3o2dLEPYh8kxL4nHEjVn61",
+  "city": "Reykjavík",
+  "slot": "greeting-evening",
+  "local": "Gott kvöld",
+  "phonetic": "got KVURLD",
+  "meaning": "good evening",
+  "groupNote": "The daytime greeting is often clipped to just “daginn.”"
+ },
+ {
+  "id": "1pdJS9M3TYFipKZ0bh7aDq",
+  "city": "Reykjavík",
+  "slot": "greeting-afternoon",
+  "local": "Góðan daginn",
+  "phonetic": "GOH-than DIE-in",
+  "meaning": "good afternoon",
+  "context": "Still “góðan daginn.” Icelandic has no separate afternoon greeting."
+ },
+ {
+  "id": "53szUAxv1qXURYEWKoOD9U",
+  "city": "Helsinki",
+  "slot": "door-women",
+  "local": "Naiset",
+  "phonetic": "NIGH-set",
+  "meaning": "women",
+  "groupNote": "“M” is men here, the opposite of Spanish. Doors are often labeled in Finnish and Swedish both."
+ },
+ {
+  "id": "6dJM5EY1XHRIpnG3tpznUW",
+  "city": "Oslo",
+  "slot": "please",
+  "local": "Vær så snill",
+  "phonetic": "vair soh SNILL",
+  "meaning": "please",
+  "context": "Norwegian has no neutral please, and this one is emphatic. Most requests simply attach “takk.”"
+ },
+ {
+  "id": "CIxs9vv4Bx8s8K8Ee3jNn",
+  "city": "Oslo",
+  "slot": "leaving",
+  "local": "Ha det",
+  "phonetic": "HA deh",
+  "meaning": "leaving a shop or café",
+  "context": "Short for “ha det bra,” “have it good.” Often doubled: “ha det, ha det.”"
+ },
+ {
+  "id": "5O1NNni4sc4JxN60Tsol8y",
+  "city": "Stockholm",
+  "slot": "please",
+  "local": "Snälla",
+  "phonetic": "SNEL-lah",
+  "meaning": "please",
+  "context": "Swedish has no neutral please. “Snälla” leans toward pleading — ordinary requests just attach “tack” instead."
+ },
+ {
+  "id": "3fbuQmIkFTRA0fcPpo35Yo",
+  "city": "Stockholm",
+  "slot": "greeting-casual",
+  "local": "Hej",
+  "phonetic": "hey",
+  "meaning": "hello",
+  "context": "Universal, all ages, every situation. Often doubled: “hej hej.”"
+ },
+ {
+  "id": "1OblwWJ6EAVlux4Njh9UfW",
+  "city": "Berlin",
+  "slot": "card",
+  "local": "Kreditkarte",
+  "phonetic": "kray-DEET-kar-tuh",
+  "meaning": "credit card",
+  "context": "Say it as you hold the card up, and be ready to hear “nein.”"
+ },
+ {
+  "id": "1PkxaKiMM96h08IniDqmQH",
+  "city": "Berlin",
+  "slot": "number-four",
+  "local": "Vier",
+  "phonetic": "feer",
+  "meaning": "four",
+  "groupNote": "“Zwei” is often said as “zwo” (tsvoh) over noise or on the phone, to keep it distinct from “drei.”"
+ },
+ {
+  "id": "5B20wgy47elsWjNWgELtfj",
+  "city": "Berlin",
+  "slot": "greeting-evening",
+  "local": "Guten Abend",
+  "phonetic": "GOO-ten AH-bent",
+  "meaning": "good evening",
+  "groupNote": "In Berlin all three often clip down to a bare “Morgen,” “Tag,” or “Abend.”"
+ },
+ {
+  "id": "6DG9ynpG1jTv8U5Sl0qRE1",
+  "city": "Rome",
+  "slot": "greeting-afternoon",
+  "local": "Buongiorno",
+  "phonetic": "bwon-JOR-noh",
+  "meaning": "good afternoon",
+  "context": "Still “buongiorno.” “Buon pomeriggio” exists on paper but nobody says it."
+ },
+ {
+  "id": "3VRBGWl4KC4oAidjVgs72M",
+  "city": "Paris",
+  "slot": "greeting-afternoon",
+  "local": "Bonjour",
+  "phonetic": "bong-ZHOOR",
+  "meaning": "good afternoon",
+  "context": "Still “bonjour.” French has no separate afternoon greeting."
+ },
+ {
+  "id": "67c2aYlCgqUhoVffKO83Zd",
+  "city": "Zurich",
+  "slot": "door-women",
+  "local": "Damen",
+  "phonetic": "DAH-mun",
+  "meaning": "women",
+  "groupNote": "Standard German on every door. “H” is “Herren,” men. “D” is “Damen,” women."
+ },
+ {
+  "id": "5rIdlA3MgMoH0zSe0doj21",
+  "city": "Zurich",
+  "slot": "bathroom",
+  "local": "WC",
+  "phonetic": "vay-tsay",
+  "meaning": "bathroom",
+  "context": "Ask for the “WC.” “Toilette” works too."
+ },
+ {
+  "id": "Zt21DBeIsZ7aTpH1ewjXS",
+  "city": "Zurich",
+  "slot": "ticket",
+  "local": "Billett",
+  "phonetic": "bee-YET",
+  "meaning": "ticket",
+  "context": "Swiss uses the French word, not the German “Fahrkarte.”"
+ },
+ {
+  "id": "6D88M6YlTZ4UStFVfma7cp",
+  "city": "Amsterdam",
+  "slot": "deep-cut",
+  "local": "Gezellig",
+  "phonetic": "khuh-ZEL-lukh",
+  "context": "Warm, easy, good company — a room, an evening, a group of people. Its absence is a real complaint: a bar can be “ungezellig.”"
+ },
+ {
+  "id": "1lxHqGOSwuBGqSh3FuC2mN",
+  "city": "Madrid",
+  "slot": "door-women",
+  "local": "Señoras",
+  "phonetic": "seh-NYOH-rahs",
+  "meaning": "women",
+  "groupNote": "Bars and older places use these instead of “Hombres” and “Mujeres.” Note that “M” is women, not men."
+ },
+ {
+  "id": "6npnmwEJ91VYNlBhV2q8Qr",
+  "city": "Lisbon",
+  "slot": "excuse-attention",
+  "local": "Se faz favor",
+  "phonetic": "suh fash fuh-VOR",
+  "meaning": "excuse me (getting attention)",
+  "context": "The Portuguese way to summon a waiter. Not “garçom,” which is Brazilian and lands badly here."
+ },
+ {
+  "id": "22QhQSMnJKTI92VfdH12CI",
+  "city": "Lisbon",
+  "slot": "bathroom",
+  "local": "Casa de banho",
+  "phonetic": "KAH-zuh duh BAHN-yoo",
+  "meaning": "bathroom",
+  "context": "Signs say “WC.” “Banheiro” is Brazilian and means lifeguard here."
+ },
+ {
+  "id": "7Aq1FiAtmyyvpAKFyb9GZO",
+  "city": "Lisbon",
+  "slot": "door-women",
+  "local": "Senhoras",
+  "phonetic": "suh-NYOR-ush",
+  "meaning": "women",
+  "groupNote": "Often shortened on the door to just “H” and “S.”"
+ },
+ {
+  "id": "GIKNnGhYshl78dWS4BaUf",
+  "city": "Lisbon",
+  "slot": "deep-cut",
+  "local": "Bica",
+  "phonetic": "BEE-kuh",
+  "context": "An espresso, but only in Lisbon. Porto calls it a “cimbalino.” Order one standing at the counter for about a euro."
+ },
+ {
+  "id": "1KXV4B2p7DS0X7zbJnfHa4",
+  "city": "Madrid",
+  "slot": "greeting-afternoon",
+  "local": "Buenas tardes",
+  "phonetic": "BWEH-nahs TAR-dehs",
+  "meaning": "good afternoon",
+  "context": "Doesn’t start until after lunch, and Madrid eats lunch at two or three. At noon it’s still “días.”"
+ },
+ {
+  "id": "4J4hYdrFG21WIy9KFjlouw",
+  "city": "Amsterdam",
+  "slot": "door-women",
+  "local": "Dames",
+  "phonetic": "DAH-mus",
+  "meaning": "women",
+  "groupNote": "“H” is “Heren,” men. “D” is “Dames,” women. Don’t read “D” as “dudes.”"
+ },
+ {
+  "id": "6YDFrU09iuGrM76qgMYkMe",
+  "city": "Amsterdam",
+  "slot": "deep-cut",
+  "local": "Borrel",
+  "phonetic": "BOR-rul",
+  "context": "Drinks after work with snacks, at a fixed hour. Not a party, an institution. Friday’s has its own word: “vrijdagmiddagborrel.”"
+ },
+ {
+  "id": "3gPcVKkjbXffwJtH3pn1IM",
+  "city": "Zurich",
+  "slot": "greeting-afternoon",
+  "local": "Grüezi",
+  "phonetic": "GREW-tsee",
+  "meaning": "hello / good day",
+  "context": "There is no separate afternoon greeting — “Grüezi” covers the whole day. To a group it’s “Grüezi mitenand.”"
+ },
+ {
+  "id": "2u7SJ6Ou4ecL4ChpQg5gZd",
+  "city": "Paris",
+  "slot": "menu",
+  "local": "La carte, s’il vous plaît",
+  "phonetic": "lah KART",
+  "meaning": "the menu, please",
+  "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte.”"
+ },
+ {
+  "id": "5bKNn4ZpuLZOdJTDRrl3C3",
+  "city": "Rome",
+  "slot": "deep-cut",
+  "local": "Menefreghismo",
+  "phonetic": "meh-neh-freh-GEEZ-moh",
+  "context": "Studied not-caring, from “me ne frego,” “I don’t give a damn.” Named, diagnosed, and complained about by Italians themselves."
+ },
+ {
+  "id": "Hwn8Ory3N2V0jnJ0m5Z6z",
+  "city": "Barcelona",
+  "slot": "thanks",
+  "local": "Gràcies",
+  "phonetic": "GRAH-see-uhs",
+  "meaning": "thank you",
+  "context": "Note the ending — it isn’t the Spanish “gracias.” “Mercès” (mer-SES) turns up too."
+ },
+ {
+  "id": "2ewdi9ws6BSBycJqnX1cJF",
+  "city": "Naples",
+  "slot": "greeting-afternoon",
+  "local": "Buongiorno",
+  "phonetic": "bwon-JOR-noh",
+  "meaning": "good afternoon",
+  "context": "Still “buongiorno.” There’s no separate afternoon greeting in use."
+ },
+ {
+  "id": "1UdPwAukBMAGKhiN5lFlKK",
+  "city": "Marseille",
+  "slot": "menu",
+  "local": "La carte, s’il vous plaît",
+  "phonetic": "lah KART",
+  "meaning": "the menu, please",
+  "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte.”"
+ },
+ {
+  "id": "3ljYwkMMw6HxJKIzi62N2w",
+  "city": "Brussels",
+  "slot": "menu",
+  "local": "La carte, s’il vous plaît",
+  "phonetic": "lah KART",
+  "meaning": "the menu, please",
+  "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte.”"
+ },
+ {
+  "id": "7EZAjFiG6loMK1TLta1Mvh",
+  "city": "Dublin",
+  "slot": "deep-cut",
+  "local": "Gaff",
+  "context": "House or apartment. “A free gaff” means the parents are away, which is the phrase’s main use."
+ },
+ {
+  "id": "4xDVVob5WdOPC4dmnCxCxk",
+  "city": "Edinburgh",
+  "slot": "deep-cut",
+  "local": "Ken",
+  "context": "Know. “D’ye ken?” is “you know?” and “ah dinnae ken” is “I don’t know.”"
+ },
+ {
+  "id": "3ma8yG5Xd2eNbL36b5agAq",
+  "city": "Manchester",
+  "slot": "deep-cut",
+  "local": "Mint",
+  "context": "Excellent. “That’s mint” is high praise and has nothing whatsoever to do with the flavor."
+ },
+ {
+  "id": "6x4uidpCqAZzZGGZ9BeL9q",
+  "city": "Budapest",
+  "slot": "greeting-casual",
+  "local": "Szia",
+  "phonetic": "SEE-yah",
+  "meaning": "hello",
+  "context": "Casual and singular — for peers, not the older woman behind the counter. To a group it’s “sziasztok.”"
+ },
+ {
+  "id": "5pa2UemxKqXPJQS4nr39iS",
+  "city": "Lisbon",
+  "slot": "check",
+  "local": "A conta?",
+  "phonetic": "uh KON-tuh",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “A conta, se faz favor.”"
+ },
+ {
+  "id": "2PX6uoOVhA16XoCi0MI1Td",
+  "city": "Madrid",
+  "slot": "check",
+  "local": "La cuenta?",
+  "phonetic": "lah KWEHN-tah",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “La cuenta, por favor.”"
+ },
+ {
+  "id": "6119Wouq79oX3k1hmUcVxy",
+  "city": "Amsterdam",
+  "slot": "check",
+  "local": "De rekening?",
+  "phonetic": "duh RAY-kuh-ning",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “De rekening, alstublieft.”"
+ },
+ {
+  "id": "6khoHETpjjzOs6DKAy10s7",
+  "city": "Zurich",
+  "slot": "menu",
+  "local": "D Charte?",
+  "phonetic": "dee KHAR-tuh",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “D Charte, bitte.”"
+ },
+ {
+  "id": "5Q9sYv8jbenfWpLUR8qIYM",
+  "city": "Zurich",
+  "slot": "check",
+  "local": "Zahle?",
+  "phonetic": "TSAH-luh",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahle bitte.”"
+ },
+ {
+  "id": "3gRZPP8MGVgS7NJJ3oXcRk",
+  "city": "Rome",
+  "slot": "check",
+  "local": "Il conto?",
+  "phonetic": "eel KON-toh",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore.”"
+ },
+ {
+  "id": "649AY3FyOJ4YyexNDscwIR",
+  "city": "Berlin",
+  "slot": "check",
+  "local": "Zahlen?",
+  "phonetic": "TSAH-len",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahlen, bitte.”"
+ },
+ {
+  "id": "s30WF2v1lEq26A967mBZd",
+  "city": "Vienna",
+  "slot": "check",
+  "local": "Zahlen?",
+  "phonetic": "TSAH-len",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahlen, bitte.”"
+ },
+ {
+  "id": "rjMMNHAUksRhtjii306h9",
+  "city": "Copenhagen",
+  "slot": "menu",
+  "local": "Menukortet?",
+  "phonetic": "meh-NEW-kor-tet",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menukortet, tak.”"
+ },
+ {
+  "id": "3BOuA1frIx07kdz8BFEQMG",
+  "city": "Stockholm",
+  "slot": "menu",
+  "local": "Menyn?",
+  "phonetic": "meh-NEWN",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menyn, tack.”"
+ },
+ {
+  "id": "5QwbTetqe95uSJYLovJlAr",
+  "city": "Stockholm",
+  "slot": "check",
+  "local": "Notan?",
+  "phonetic": "NOO-tan",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Notan, tack.”"
+ },
+ {
+  "id": "2lHQZloyMwYdbzvIfB0Dmg",
+  "city": "Oslo",
+  "slot": "menu",
+  "local": "Menyen?",
+  "phonetic": "meh-NEW-en",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menyen, takk.”"
+ },
+ {
+  "id": "2UpkRxmBaoGbATJ6y4Aba2",
+  "city": "Helsinki",
+  "slot": "menu",
+  "local": "Ruokalista?",
+  "phonetic": "ROO-oh-kah-lis-tah",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Ruokalista, kiitos.”"
+ },
+ {
+  "id": "1wqmuKCmhJWUXpjsmSTDA3",
+  "city": "Helsinki",
+  "slot": "check",
+  "local": "Lasku?",
+  "phonetic": "LAHS-koo",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Saisinko laskun.”"
+ },
+ {
+  "id": "3RV4xeWdkopKVOc8N9ovLp",
+  "city": "Reykjavík",
+  "slot": "menu",
+  "local": "Matseðilinn?",
+  "phonetic": "MAHT-seth-il-in",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Matseðilinn, takk.”"
+ },
+ {
+  "id": "52OVcsf62FcU89TMnqU7vf",
+  "city": "Belgrade",
+  "slot": "menu",
+  "local": "Jelovnik?",
+  "phonetic": "YEH-lov-neek",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Jelovnik, molim.”"
+ },
+ {
+  "id": "4bn0MrOghUUZffwyKyCHUS",
+  "city": "Belgrade",
+  "slot": "check",
+  "local": "Račun?",
+  "phonetic": "RAH-choon",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Račun, molim.”"
+ },
+ {
+  "id": "LfdWldX4IfZ4MhvrJ1u4h",
+  "city": "Prague",
+  "slot": "menu",
+  "local": "Jídelní lístek?",
+  "phonetic": "YEE-del-nee LEE-stek",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Jídelní lístek, prosím.”"
+ },
+ {
+  "id": "4mpFbPd4hvO0AQee1vowF8",
+  "city": "Kraków",
+  "slot": "menu",
+  "local": "Menu?",
+  "phonetic": "MEH-noo",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę menu.”"
+ },
+ {
+  "id": "3dxQevHewGvSUMO3k6vjHI",
+  "city": "Kraków",
+  "slot": "check",
+  "local": "Rachunek?",
+  "phonetic": "rah-KHOO-nek",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę rachunek.”"
+ },
+ {
+  "id": "5eK9QExxgvHTW06EO38KcK",
+  "city": "Bucharest",
+  "slot": "menu",
+  "local": "Meniul?",
+  "phonetic": "MEH-nyool",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Meniul, vă rog.”"
+ },
+ {
+  "id": "EROjdRGe22RWcOtg1hFW1",
+  "city": "Bucharest",
+  "slot": "check",
+  "local": "Nota?",
+  "phonetic": "NOH-tah",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Nota, vă rog.”"
+ },
+ {
+  "id": "2EesbwhhtDu9BF6mEPXicq",
+  "city": "Barcelona",
+  "slot": "check",
+  "local": "El compte?",
+  "phonetic": "el KOMP-tuh",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “El compte, si us plau.”"
+ },
+ {
+  "id": "1yfhMCpgobaOvG7Xc4WCYm",
+  "city": "Seville",
+  "slot": "check",
+  "local": "La cuenta?",
+  "phonetic": "lah KWEN-tah",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “La cuenta, por favor.”"
+ },
+ {
+  "id": "4QD9X4f6ajKt4YUxXYc8sq",
+  "city": "Florence",
+  "slot": "check",
+  "local": "Il conto?",
+  "phonetic": "eel KON-toh",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore.”"
+ },
+ {
+  "id": "64CDxh9OQkZJ3m96SSnYkq",
+  "city": "Naples",
+  "slot": "check",
+  "local": "Il conto?",
+  "phonetic": "eel KON-toh",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore.”"
+ },
+ {
+  "id": "5OyDhTxvktlnpaEwGLS1m2",
+  "city": "Istanbul",
+  "slot": "menu",
+  "local": "Menü?",
+  "phonetic": "meh-NEW",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menü, lütfen.”"
+ },
+ {
+  "id": "2g1jNrSJjlP7Zs48TimBwV",
+  "city": "Istanbul",
+  "slot": "check",
+  "local": "Hesap?",
+  "phonetic": "heh-SAHP",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Hesap, lütfen.”"
+ },
+ {
+  "id": "6Uttg2uvjekK1s7S6lRH65",
+  "city": "Budapest",
+  "slot": "menu",
+  "local": "Az étlapot?",
+  "phonetic": "ahz AYT-lah-pot",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Az étlapot, legyen szíves.”"
+ },
+ {
+  "id": "VwN9YhsVPaxWOpyx6blUt",
+  "city": "Athens",
+  "slot": "greeting-afternoon",
+  "local": "Χαίρετε",
+  "phonetic": "HEH-reh-teh",
+  "meaning": "hello (formal)",
+  "context": "The all-purpose formal greeting for when it’s too late for “kalimera” and too early for “kalispera.”"
+ },
+ {
+  "id": "55khcXJ7ABcv2L5OzyHwBN",
+  "city": "Athens",
+  "slot": "menu",
+  "local": "Τον κατάλογο;",
+  "phonetic": "ton kah-TAH-loh-goh",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Τον κατάλογο, παρακαλώ.”"
+ },
+ {
+  "id": "7BUpJzP8UurA064nwKYcxR",
+  "city": "Athens",
+  "slot": "check",
+  "local": "Τον λογαριασμό;",
+  "phonetic": "ton loh-gah-ryahz-MOH",
+  "meaning": "the check?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Τον λογαριασμό, παρακαλώ.”"
+ },
+ {
+  "id": "65HJ2J8GXBSIXO9WERKIhz",
+  "city": "Amsterdam",
+  "slot": "please",
+  "local": "Alstublieft",
+  "phonetic": "AHL-stoo-BLEEFT",
+  "meaning": "please",
+  "context": "Also means “here you go” — you’ll hear it with every coffee handed over. Casual: “alsjeblieft.”"
+ },
+ {
+  "id": "3VzMFEoiVFgPZWCXJ66xzD",
+  "city": "Munich",
+  "slot": "leaving",
+  "local": "Auf Wiederschaun",
+  "phonetic": "owf VEE-der-shown",
+  "meaning": "leaving a shop or café",
+  "context": "The southern form of “Auf Wiedersehen.” Among friends you’ll hear “Pfiat di” (FEE-at dee), short for God protect you."
+ },
+ {
+  "id": "3yNeoD3QjOXp41v5ee3kAb",
+  "city": "Munich",
+  "slot": "menu",
+  "local": "Speisekarte?",
+  "phonetic": "SHPY-zuh-kar-tuh",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte.”"
+ },
+ {
+  "id": "4FJjtwcBI5opFMCbxe3Rfp",
+  "city": "Naples",
+  "slot": "menu",
+  "local": "Menù?",
+  "phonetic": "meh-NOO",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore.”"
+ },
+ {
+  "id": "3Z54Sd9pqXkISyKj8EDK2m",
+  "city": "Florence",
+  "slot": "menu",
+  "local": "Menù?",
+  "phonetic": "meh-NOO",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore.”"
+ },
+ {
+  "id": "5oz79OqKowwPImY9zcXviT",
+  "city": "Barcelona",
+  "slot": "menu",
+  "local": "Carta?",
+  "phonetic": "KAR-tah",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “La carta, si us plau.”"
+ },
+ {
+  "id": "7jqOsPs7IVijRDj7qEpxEl",
+  "city": "Vienna",
+  "slot": "menu",
+  "local": "Speisekarte?",
+  "phonetic": "SHPY-zuh-kar-tuh",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte.”"
+ },
+ {
+  "id": "0GZyWwUrRnqh7SfhFmcR0",
+  "city": "Berlin",
+  "slot": "menu",
+  "local": "Karte?",
+  "phonetic": "KAR-tuh",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Karte, bitte.”"
+ },
+ {
+  "id": "B7kTS5Cp0ggNRar347T4u",
+  "city": "Rome",
+  "slot": "menu",
+  "local": "Menù?",
+  "phonetic": "meh-NOO",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore.”"
+ },
+ {
+  "id": "3AKj3BnlmBbko3pbkaWQhu",
+  "city": "Amsterdam",
+  "slot": "menu",
+  "local": "Menukaart?",
+  "phonetic": "muh-NEW-kart",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “De menukaart, alstublieft.”"
+ },
+ {
+  "id": "fIb55TSfft99LjK0zLpIY",
+  "city": "Lisbon",
+  "slot": "menu",
+  "local": "Ementa?",
+  "phonetic": "ee-MEN-tuh",
+  "meaning": "menu?",
+  "context": "If you’re warm and kind, this is enough to get by. More polite version: “A ementa, se faz favor.”"
+ },
+ {
+  "id": "2TB8a8vE6MRVtsBeoqYmgM",
+  "city": "Dublin",
+  "slot": "excuse-attention",
+  "local": "Excuse me",
+  "meaning": "getting attention",
+  "context": "Bar service runs on eye contact and patience. There’s no line at the bar but there is an order, and it’s tracked."
+ },
+ {
+  "id": "1Ojf4YmrDpP1JhUVzjQsTO",
+  "city": "Athens",
+  "slot": "deep-cut",
+  "local": "Πλατεία",
+  "phonetic": "plah-TEE-ah",
+  "context": "The neighborhood square. Every Athens district has one, and it’s where the evening actually happens."
+ },
+ {
+  "id": "4s3w8oztl3DqSHRKXDT2Sz",
+  "city": "Dublin",
+  "slot": "deep-cut",
+  "local": "An Lár",
+  "context": "“The centre” — what city-center buses show as their destination. The single most useful piece of Irish for a visitor."
+ },
+ {
+  "id": "3YWxbzWe5eKJbwZhYSBO2w",
+  "city": "Brussels",
+  "slot": "deep-cut",
+  "local": "Zwanze",
+  "phonetic": "zwahnz",
+  "context": "Brussels humor: deadpan, self-mocking, faintly absurd. The city’s standing answer to being small and overlooked."
+ },
+ {
+  "id": "2820VokuAdEGrnO97AjAjy",
+  "city": "Florence",
+  "slot": "deep-cut",
+  "local": "Bischero",
+  "phonetic": "BEE-skeh-roh",
+  "context": "An idiot, affectionately. Originally a Florentine family who lost everything, now the city’s favorite mild insult."
+ },
+ {
+  "id": "2e3yXQ1AQfSSQv9ZYDzprI",
+  "city": "Florence",
+  "slot": "deep-cut",
+  "local": "Lampredotto",
+  "phonetic": "lam-preh-DOT-toh",
+  "context": "The fourth stomach of a cow, simmered and served in a bun from street carts. Florence’s real street food, and locals line up for it."
+ },
+ {
+  "id": "VnSNH9qpin231ZGSDn3jn",
+  "city": "Kraków",
+  "slot": "deep-cut",
+  "local": "Hejnał",
+  "phonetic": "HAY-now",
+  "context": "The trumpet call from St. Mary’s tower, played every hour and cut off mid-note to mark a 13th-century arrow."
+ },
+ {
+  "id": "1rNRgoRDwd5KewH8jRi0tr",
+  "city": "Oslo",
+  "slot": "deep-cut",
+  "local": "Koselig",
+  "phonetic": "KOO-shuh-li",
+  "context": "Cozy and warm in company. Norway’s hygge, and Norwegians will tell you theirs came first."
+ },
+ {
+  "id": "3wGFEpNey5HpGeVPvheUeu",
+  "city": "Stockholm",
+  "slot": "deep-cut",
+  "local": "Mysig",
+  "phonetic": "MEW-sig",
+  "context": "Cozy, warm, pleasant. Sweden’s answer to hygge, less exported and used far more casually."
+ },
+ {
   "id": "4TvA09yJEKhhPEyMFWmNHd",
   "city": "Lisbon",
   "slot": "deep-cut",
@@ -238,14 +1733,6 @@
   "context": "Say it as you hold the card up. It’s the default nearly everywhere."
  },
  {
-  "id": "3wGFEpNey5HpGeVPvheUeu",
-  "city": "Stockholm",
-  "slot": "deep-cut",
-  "local": "Mysig",
-  "phonetic": "MEW-sig",
-  "context": "Cosy, warm, pleasant. Sweden’s answer to hygge, less exported and used far more casually."
- },
- {
   "id": "7x9XsRqLTDaCcIv9R7y5Ae",
   "city": "Oslo",
   "slot": "enjoy-meal",
@@ -271,14 +1758,6 @@
   "phonetic": "kort",
   "meaning": "credit card",
   "context": "Say it as you hold the card up. It’s the default everywhere."
- },
- {
-  "id": "1rNRgoRDwd5KewH8jRi0tr",
-  "city": "Oslo",
-  "slot": "deep-cut",
-  "local": "Koselig",
-  "phonetic": "KOO-shuh-li",
-  "context": "Cosy and warm in company. Norway’s hygge, and Norwegians will tell you theirs came first."
  },
  {
   "id": "5kfF1fv8tZ8zEQAJtg1FUK",
@@ -495,14 +1974,6 @@
   "context": "“Milk bar”: a subsidised communist-era canteen serving plain Polish home cooking. Several survive in Krakow and are still cheap."
  },
  {
-  "id": "VnSNH9qpin231ZGSDn3jn",
-  "city": "Kraków",
-  "slot": "deep-cut",
-  "local": "Hejnał",
-  "phonetic": "HAY-now",
-  "context": "The trumpet call from St Mary’s tower, played every hour and cut off mid-note to mark a 13th-century arrow."
- },
- {
   "id": "63RXabY9YH7I7k6fA0vxld",
   "city": "Bucharest",
   "slot": "greeting-afternoon",
@@ -607,22 +2078,6 @@
   "meaning": "where is…?"
  },
  {
-  "id": "2e3yXQ1AQfSSQv9ZYDzprI",
-  "city": "Florence",
-  "slot": "deep-cut",
-  "local": "Lampredotto",
-  "phonetic": "lam-preh-DOT-toh",
-  "context": "The fourth stomach of a cow, simmered and served in a bun from street carts. Florence’s real street food, and locals queue for it."
- },
- {
-  "id": "2820VokuAdEGrnO97AjAjy",
-  "city": "Florence",
-  "slot": "deep-cut",
-  "local": "Bischero",
-  "phonetic": "BEE-skeh-roh",
-  "context": "An idiot, affectionately. Originally a Florentine family who lost everything, now the city’s favourite mild insult."
- },
- {
   "id": "2OpOtcFpTOPDCoXWCghlnq",
   "city": "Florence",
   "slot": "deep-cut",
@@ -716,14 +2171,6 @@
   "context": "It won’t come until you ask."
  },
  {
-  "id": "3YWxbzWe5eKJbwZhYSBO2w",
-  "city": "Brussels",
-  "slot": "deep-cut",
-  "local": "Zwanze",
-  "phonetic": "zwahnz",
-  "context": "Brussels humour: deadpan, self-mocking, faintly absurd. The city’s standing answer to being small and overlooked."
- },
- {
   "id": "5BWEYbPRQm40t3LSOxK2Gj",
   "city": "Brussels",
   "slot": "deep-cut",
@@ -781,13 +2228,6 @@
   "slot": "deep-cut",
   "local": "Faff",
   "context": "Unnecessary fuss and bother. “It’s a bit of a faff” means it’s technically possible and not worth doing."
- },
- {
-  "id": "4s3w8oztl3DqSHRKXDT2Sz",
-  "city": "Dublin",
-  "slot": "deep-cut",
-  "local": "An Lár",
-  "context": "“The centre” — what city-centre buses show as their destination. The single most useful piece of Irish for a visitor."
  },
  {
   "id": "1O2DPkgnT9FuWXAgBvcehR",
@@ -939,14 +2379,6 @@
   "context": "“Slowly, slowly.” An instruction, a reassurance, and occasionally a polite refusal to hurry on your behalf."
  },
  {
-  "id": "1Ojf4YmrDpP1JhUVzjQsTO",
-  "city": "Athens",
-  "slot": "deep-cut",
-  "local": "Πλατεία",
-  "phonetic": "plah-TEE-ah",
-  "context": "The neighbourhood square. Every Athens district has one, and it’s where the evening actually happens."
- },
- {
   "id": "5ADljnfA791nFXl5jyoYdo",
   "city": "Munich",
   "slot": "please",
@@ -1026,131 +2458,6 @@
   "context": "At a bar it’s eye contact and patience. Waving, clicking, or calling out gets you served last."
  },
  {
-  "id": "2TB8a8vE6MRVtsBeoqYmgM",
-  "city": "Dublin",
-  "slot": "excuse-attention",
-  "local": "Excuse me",
-  "meaning": "getting attention",
-  "context": "Bar service runs on eye contact and patience. There’s no queue at the bar but there is an order, and it’s tracked."
- },
- {
-  "id": "fIb55TSfft99LjK0zLpIY",
-  "city": "Lisbon",
-  "slot": "menu",
-  "local": "Ementa?",
-  "phonetic": "ee-MEN-tuh",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “A ementa, se faz favor”."
- },
- {
-  "id": "3AKj3BnlmBbko3pbkaWQhu",
-  "city": "Amsterdam",
-  "slot": "menu",
-  "local": "Menukaart?",
-  "phonetic": "muh-NEW-kart",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “De menukaart, alstublieft”."
- },
- {
-  "id": "B7kTS5Cp0ggNRar347T4u",
-  "city": "Rome",
-  "slot": "menu",
-  "local": "Menù?",
-  "phonetic": "meh-NOO",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
- },
- {
-  "id": "0GZyWwUrRnqh7SfhFmcR0",
-  "city": "Berlin",
-  "slot": "menu",
-  "local": "Karte?",
-  "phonetic": "KAR-tuh",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Karte, bitte”."
- },
- {
-  "id": "7jqOsPs7IVijRDj7qEpxEl",
-  "city": "Vienna",
-  "slot": "menu",
-  "local": "Speisekarte?",
-  "phonetic": "SHPY-zuh-kar-tuh",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte”."
- },
- {
-  "id": "5oz79OqKowwPImY9zcXviT",
-  "city": "Barcelona",
-  "slot": "menu",
-  "local": "Carta?",
-  "phonetic": "KAR-tah",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “La carta, si us plau”."
- },
- {
-  "id": "3Z54Sd9pqXkISyKj8EDK2m",
-  "city": "Florence",
-  "slot": "menu",
-  "local": "Menù?",
-  "phonetic": "meh-NOO",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
- },
- {
-  "id": "4FJjtwcBI5opFMCbxe3Rfp",
-  "city": "Naples",
-  "slot": "menu",
-  "local": "Menù?",
-  "phonetic": "meh-NOO",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
- },
- {
-  "id": "3yNeoD3QjOXp41v5ee3kAb",
-  "city": "Munich",
-  "slot": "menu",
-  "local": "Speisekarte?",
-  "phonetic": "SHPY-zuh-kar-tuh",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte”."
- },
- {
-  "id": "3VzMFEoiVFgPZWCXJ66xzD",
-  "city": "Munich",
-  "slot": "leaving",
-  "local": "Auf Wiederschaun",
-  "phonetic": "owf VEE-der-shown",
-  "meaning": "leaving a shop or café",
-  "context": "The southern form of “Auf Wiedersehen”. Among friends you’ll hear “Pfiat di” (FEE-at dee), short for God protect you."
- },
- {
-  "id": "65HJ2J8GXBSIXO9WERKIhz",
-  "city": "Amsterdam",
-  "slot": "please",
-  "local": "Alstublieft",
-  "phonetic": "AHL-stoo-BLEEFT",
-  "meaning": "please",
-  "context": "Also means “here you go” — you’ll hear it with every coffee handed over. Casual: “alsjeblieft”."
- },
- {
-  "id": "7BUpJzP8UurA064nwKYcxR",
-  "city": "Athens",
-  "slot": "check",
-  "local": "Τον λογαριασμό;",
-  "phonetic": "ton loh-gah-ryahz-MOH",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Τον λογαριασμό, παρακαλώ”."
- },
- {
-  "id": "55khcXJ7ABcv2L5OzyHwBN",
-  "city": "Athens",
-  "slot": "menu",
-  "local": "Τον κατάλογο;",
-  "phonetic": "ton kah-TAH-loh-goh",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Τον κατάλογο, παρακαλώ”."
- },
- {
   "id": "75f8YjtBY5QNw5oSsbSAAx",
   "city": "Athens",
   "slot": "excuse-passing",
@@ -1178,141 +2485,6 @@
   "groupNote": "“Kalispera” starts from around noon or early afternoon — much earlier than you’d expect."
  },
  {
-  "id": "VwN9YhsVPaxWOpyx6blUt",
-  "city": "Athens",
-  "slot": "greeting-afternoon",
-  "local": "Χαίρετε",
-  "phonetic": "HEH-reh-teh",
-  "meaning": "hello (formal)",
-  "context": "The all-purpose formal greeting for when it’s too late for “kalimera” and too early for “kalispera”."
- },
- {
-  "id": "6Uttg2uvjekK1s7S6lRH65",
-  "city": "Budapest",
-  "slot": "menu",
-  "local": "Az étlapot?",
-  "phonetic": "ahz AYT-lah-pot",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Az étlapot, legyen szíves”."
- },
- {
-  "id": "2g1jNrSJjlP7Zs48TimBwV",
-  "city": "Istanbul",
-  "slot": "check",
-  "local": "Hesap?",
-  "phonetic": "heh-SAHP",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Hesap, lütfen”."
- },
- {
-  "id": "5OyDhTxvktlnpaEwGLS1m2",
-  "city": "Istanbul",
-  "slot": "menu",
-  "local": "Menü?",
-  "phonetic": "meh-NEW",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menü, lütfen”."
- },
- {
-  "id": "64CDxh9OQkZJ3m96SSnYkq",
-  "city": "Naples",
-  "slot": "check",
-  "local": "Il conto?",
-  "phonetic": "eel KON-toh",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore”."
- },
- {
-  "id": "4QD9X4f6ajKt4YUxXYc8sq",
-  "city": "Florence",
-  "slot": "check",
-  "local": "Il conto?",
-  "phonetic": "eel KON-toh",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore”."
- },
- {
-  "id": "1yfhMCpgobaOvG7Xc4WCYm",
-  "city": "Seville",
-  "slot": "check",
-  "local": "La cuenta?",
-  "phonetic": "lah KWEN-tah",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “La cuenta, por favor”."
- },
- {
-  "id": "2EesbwhhtDu9BF6mEPXicq",
-  "city": "Barcelona",
-  "slot": "check",
-  "local": "El compte?",
-  "phonetic": "el KOMP-tuh",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “El compte, si us plau”."
- },
- {
-  "id": "EROjdRGe22RWcOtg1hFW1",
-  "city": "Bucharest",
-  "slot": "check",
-  "local": "Nota?",
-  "phonetic": "NOH-tah",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Nota, vă rog”."
- },
- {
-  "id": "5eK9QExxgvHTW06EO38KcK",
-  "city": "Bucharest",
-  "slot": "menu",
-  "local": "Meniul?",
-  "phonetic": "MEH-nyool",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Meniul, vă rog”."
- },
- {
-  "id": "3dxQevHewGvSUMO3k6vjHI",
-  "city": "Kraków",
-  "slot": "check",
-  "local": "Rachunek?",
-  "phonetic": "rah-KHOO-nek",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę rachunek”."
- },
- {
-  "id": "4mpFbPd4hvO0AQee1vowF8",
-  "city": "Kraków",
-  "slot": "menu",
-  "local": "Menu?",
-  "phonetic": "MEH-noo",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę menu”."
- },
- {
-  "id": "LfdWldX4IfZ4MhvrJ1u4h",
-  "city": "Prague",
-  "slot": "menu",
-  "local": "Jídelní lístek?",
-  "phonetic": "YEE-del-nee LEE-stek",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Jídelní lístek, prosím”."
- },
- {
-  "id": "4bn0MrOghUUZffwyKyCHUS",
-  "city": "Belgrade",
-  "slot": "check",
-  "local": "Račun?",
-  "phonetic": "RAH-choon",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Račun, molim”."
- },
- {
-  "id": "52OVcsf62FcU89TMnqU7vf",
-  "city": "Belgrade",
-  "slot": "menu",
-  "local": "Jelovnik?",
-  "phonetic": "YEH-lov-neek",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Jelovnik, molim”."
- },
- {
   "id": "32Uyh5PS8WCAr1m9XIibQT",
   "city": "Reykjavík",
   "slot": "check",
@@ -1320,33 +2492,6 @@
   "phonetic": "RAYK-ning-in",
   "meaning": "the check?",
   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Get ég fengið reikninginn?”"
- },
- {
-  "id": "3RV4xeWdkopKVOc8N9ovLp",
-  "city": "Reykjavík",
-  "slot": "menu",
-  "local": "Matseðilinn?",
-  "phonetic": "MAHT-seth-il-in",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Matseðilinn, takk”."
- },
- {
-  "id": "1wqmuKCmhJWUXpjsmSTDA3",
-  "city": "Helsinki",
-  "slot": "check",
-  "local": "Lasku?",
-  "phonetic": "LAHS-koo",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Saisinko laskun”."
- },
- {
-  "id": "2UpkRxmBaoGbATJ6y4Aba2",
-  "city": "Helsinki",
-  "slot": "menu",
-  "local": "Ruokalista?",
-  "phonetic": "ROO-oh-kah-lis-tah",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Ruokalista, kiitos”."
  },
  {
   "id": "7ho4EiBeZT1T0G2flBPenb",
@@ -1358,33 +2503,6 @@
   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Kan jeg få regningen?”"
  },
  {
-  "id": "2lHQZloyMwYdbzvIfB0Dmg",
-  "city": "Oslo",
-  "slot": "menu",
-  "local": "Menyen?",
-  "phonetic": "meh-NEW-en",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menyen, takk”."
- },
- {
-  "id": "5QwbTetqe95uSJYLovJlAr",
-  "city": "Stockholm",
-  "slot": "check",
-  "local": "Notan?",
-  "phonetic": "NOO-tan",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Notan, tack”."
- },
- {
-  "id": "3BOuA1frIx07kdz8BFEQMG",
-  "city": "Stockholm",
-  "slot": "menu",
-  "local": "Menyn?",
-  "phonetic": "meh-NEWN",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menyn, tack”."
- },
- {
   "id": "7ro2ADS6CyJqdx7BS9gWB0",
   "city": "Copenhagen",
   "slot": "check",
@@ -1394,108 +2512,11 @@
   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Må jeg bede om regningen?”"
  },
  {
-  "id": "rjMMNHAUksRhtjii306h9",
-  "city": "Copenhagen",
-  "slot": "menu",
-  "local": "Menukortet?",
-  "phonetic": "meh-NEW-kor-tet",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menukortet, tak”."
- },
- {
-  "id": "s30WF2v1lEq26A967mBZd",
-  "city": "Vienna",
-  "slot": "check",
-  "local": "Zahlen?",
-  "phonetic": "TSAH-len",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahlen, bitte”."
- },
- {
-  "id": "649AY3FyOJ4YyexNDscwIR",
-  "city": "Berlin",
-  "slot": "check",
-  "local": "Zahlen?",
-  "phonetic": "TSAH-len",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahlen, bitte”."
- },
- {
-  "id": "3gRZPP8MGVgS7NJJ3oXcRk",
-  "city": "Rome",
-  "slot": "check",
-  "local": "Il conto?",
-  "phonetic": "eel KON-toh",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore”."
- },
- {
-  "id": "5Q9sYv8jbenfWpLUR8qIYM",
-  "city": "Zurich",
-  "slot": "check",
-  "local": "Zahle?",
-  "phonetic": "TSAH-luh",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahle bitte”."
- },
- {
-  "id": "6khoHETpjjzOs6DKAy10s7",
-  "city": "Zurich",
-  "slot": "menu",
-  "local": "D Charte?",
-  "phonetic": "dee KHAR-tuh",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “D Charte, bitte”."
- },
- {
-  "id": "6119Wouq79oX3k1hmUcVxy",
-  "city": "Amsterdam",
-  "slot": "check",
-  "local": "De rekening?",
-  "phonetic": "duh RAY-kuh-ning",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “De rekening, alstublieft”."
- },
- {
-  "id": "2PX6uoOVhA16XoCi0MI1Td",
-  "city": "Madrid",
-  "slot": "check",
-  "local": "La cuenta?",
-  "phonetic": "lah KWEHN-tah",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “La cuenta, por favor”."
- },
- {
-  "id": "5pa2UemxKqXPJQS4nr39iS",
-  "city": "Lisbon",
-  "slot": "check",
-  "local": "A conta?",
-  "phonetic": "uh KON-tuh",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “A conta, se faz favor”."
- },
- {
-  "id": "6x4uidpCqAZzZGGZ9BeL9q",
-  "city": "Budapest",
-  "slot": "greeting-casual",
-  "local": "Szia",
-  "phonetic": "SEE-yah",
-  "meaning": "hello",
-  "context": "Casual and singular — for peers, not the older woman behind the counter. To a group it’s “sziasztok”."
- },
- {
   "id": "4kC15w6y5qHXCipujXOHSU",
   "city": "Manchester",
   "slot": "deep-cut",
   "local": "Sound",
   "context": "Good, fine, reliable, agreed. Also describes a person — “he’s sound” is a genuine compliment."
- },
- {
-  "id": "3ma8yG5Xd2eNbL36b5agAq",
-  "city": "Manchester",
-  "slot": "deep-cut",
-  "local": "Mint",
-  "context": "Excellent. “That’s mint” is high praise and has nothing whatsoever to do with the flavour."
  },
  {
   "id": "5b4Lt8lUIIq9uyUEF6tkx2",
@@ -1504,13 +2525,6 @@
   "local": "Cheers",
   "meaning": "thank you",
   "context": "“Ta” is more common here than in London and isn’t casual — people use it with strangers."
- },
- {
-  "id": "4xDVVob5WdOPC4dmnCxCxk",
-  "city": "Edinburgh",
-  "slot": "deep-cut",
-  "local": "Ken",
-  "context": "Know. “D’ye ken?” is “you know?”, and “ah dinnae ken” is “I don’t know”."
  },
  {
   "id": "Ztvd7RnrOAvYg3mv1TJMi",
@@ -1527,13 +2541,6 @@
   "local": "You alright?",
   "meaning": "hello",
   "context": "A greeting. “Aye, yourself?” closes it. “How’s it gaun?” is the Scots version and means the same."
- },
- {
-  "id": "7EZAjFiG6loMK1TLta1Mvh",
-  "city": "Dublin",
-  "slot": "deep-cut",
-  "local": "Gaff",
-  "context": "House or flat. “A free gaff” means the parents are away, which is the phrase’s main use."
  },
  {
   "id": "2ArSCddsDVaK6PPKT3zflu",
@@ -1574,15 +2581,6 @@
   "context": "“Smakelijk” (SMAH-kuh-luk) is the Dutch, and you’ll hear both in the same restaurant."
  },
  {
-  "id": "3ljYwkMMw6HxJKIzi62N2w",
-  "city": "Brussels",
-  "slot": "menu",
-  "local": "La carte, s’il vous plaît",
-  "phonetic": "lah KART",
-  "meaning": "the menu, please",
-  "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte”."
- },
- {
   "id": "2sjKqnYAbrTzRlTNB3nsLf",
   "city": "Brussels",
   "slot": "greeting-evening",
@@ -1590,15 +2588,6 @@
   "phonetic": "bong-SWAHR",
   "meaning": "good evening",
   "groupNote": "The switch comes around six. “Goeiedag” and “goeienavond” are the Dutch equivalents you’ll see written."
- },
- {
-  "id": "1UdPwAukBMAGKhiN5lFlKK",
-  "city": "Marseille",
-  "slot": "menu",
-  "local": "La carte, s’il vous plaît",
-  "phonetic": "lah KART",
-  "meaning": "the menu, please",
-  "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte”."
  },
  {
   "id": "5Lt68NVgi9RGlGnybOl9WL",
@@ -1628,15 +2617,6 @@
   "context": "“Uè” (weh) is the Neapolitan version and you’ll hear it constantly between people who know each other."
  },
  {
-  "id": "2ewdi9ws6BSBycJqnX1cJF",
-  "city": "Naples",
-  "slot": "greeting-afternoon",
-  "local": "Buongiorno",
-  "phonetic": "bwon-JOR-noh",
-  "meaning": "good afternoon",
-  "context": "Still “buongiorno”. There’s no separate afternoon greeting in use."
- },
- {
   "id": "68mwdwKnDfqjkRkpAEgwOB",
   "city": "Florence",
   "slot": "sorry",
@@ -1644,15 +2624,6 @@
   "phonetic": "mee dees-PYAH-cheh",
   "meaning": "sorry",
   "context": "For a real apology. If you’ve just bumped someone, “scusi” is the word."
- },
- {
-  "id": "Hwn8Ory3N2V0jnJ0m5Z6z",
-  "city": "Barcelona",
-  "slot": "thanks",
-  "local": "Gràcies",
-  "phonetic": "GRAH-see-uhs",
-  "meaning": "thank you",
-  "context": "Note the ending — it isn’t the Spanish “gracias”. “Mercès” (mer-SES) turns up too."
  },
  {
   "id": "5DTAKeuu6I4SZ9eySUh4nI",
@@ -1700,14 +2671,6 @@
   "context": "“Wiederschauen” (VEE-der-show-en) is the Austrian version, and what you’ll actually hear in shops."
  },
  {
-  "id": "5bKNn4ZpuLZOdJTDRrl3C3",
-  "city": "Rome",
-  "slot": "deep-cut",
-  "local": "Menefreghismo",
-  "phonetic": "meh-neh-freh-GEEZ-moh",
-  "context": "Studied not-caring, from “me ne frego”, “I don’t give a damn.” Named, diagnosed, and complained about by Italians themselves."
- },
- {
   "id": "5F5NfbtMk4bFedg5foqJJx",
   "city": "Rome",
   "slot": "sorry",
@@ -1726,50 +2689,6 @@
   "groupNote": "The switch to “buonasera” comes early — from about four, sometimes three. Earlier than you’d expect."
  },
  {
-  "id": "2u7SJ6Ou4ecL4ChpQg5gZd",
-  "city": "Paris",
-  "slot": "menu",
-  "local": "La carte, s’il vous plaît",
-  "phonetic": "lah KART",
-  "meaning": "the menu, please",
-  "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte”."
- },
- {
-  "id": "3gPcVKkjbXffwJtH3pn1IM",
-  "city": "Zurich",
-  "slot": "greeting-afternoon",
-  "local": "Grüezi",
-  "phonetic": "GREW-tsee",
-  "meaning": "hello / good day",
-  "context": "There is no separate afternoon greeting — “Grüezi” covers the whole day. To a group it’s “Grüezi mitenand”."
- },
- {
-  "id": "6YDFrU09iuGrM76qgMYkMe",
-  "city": "Amsterdam",
-  "slot": "deep-cut",
-  "local": "Borrel",
-  "phonetic": "BOR-rul",
-  "context": "Drinks after work with snacks, at a fixed hour. Not a party, an institution. Friday’s has its own word: “vrijdagmiddagborrel”."
- },
- {
-  "id": "4J4hYdrFG21WIy9KFjlouw",
-  "city": "Amsterdam",
-  "slot": "door-women",
-  "local": "Dames",
-  "phonetic": "DAH-mus",
-  "meaning": "women",
-  "groupNote": "“H” is “Heren”, men. “D” is “Dames”, women. Don’t read “D” as “dudes.”"
- },
- {
-  "id": "1KXV4B2p7DS0X7zbJnfHa4",
-  "city": "Madrid",
-  "slot": "greeting-afternoon",
-  "local": "Buenas tardes",
-  "phonetic": "BWEH-nahs TAR-dehs",
-  "meaning": "good afternoon",
-  "context": "Doesn’t start until after lunch, and Madrid eats lunch at two or three. At noon it’s still “días”."
- },
- {
   "id": "2WSMbTWa2zSAuGehnyzpoO",
   "city": "Lisbon",
   "slot": "thanks",
@@ -1777,41 +2696,6 @@
   "phonetic": "oo-bree-GAH-doo / -duh",
   "meaning": "thank you",
   "context": "The ending matches your own gender, not the person you’re thanking. A man says “obrigado” to everyone."
- },
- {
-  "id": "GIKNnGhYshl78dWS4BaUf",
-  "city": "Lisbon",
-  "slot": "deep-cut",
-  "local": "Bica",
-  "phonetic": "BEE-kuh",
-  "context": "An espresso, but only in Lisbon. Porto calls it a “cimbalino”. Order one standing at the counter for about a euro."
- },
- {
-  "id": "7Aq1FiAtmyyvpAKFyb9GZO",
-  "city": "Lisbon",
-  "slot": "door-women",
-  "local": "Senhoras",
-  "phonetic": "suh-NYOR-ush",
-  "meaning": "women",
-  "groupNote": "Often shortened on the door to just “H” and “S”."
- },
- {
-  "id": "22QhQSMnJKTI92VfdH12CI",
-  "city": "Lisbon",
-  "slot": "bathroom",
-  "local": "Casa de banho",
-  "phonetic": "KAH-zuh duh BAHN-yoo",
-  "meaning": "bathroom",
-  "context": "Signs say “WC”. “Banheiro” is Brazilian and means lifeguard here."
- },
- {
-  "id": "6npnmwEJ91VYNlBhV2q8Qr",
-  "city": "Lisbon",
-  "slot": "excuse-attention",
-  "local": "Se faz favor",
-  "phonetic": "suh fash fuh-VOR",
-  "meaning": "excuse me (getting attention)",
-  "context": "The Portuguese way to summon a waiter. Not “garçom”, which is Brazilian and lands badly here."
  },
  {
   "id": "iuQ1rn6fSmvzd9PivL7Sr",
@@ -1841,15 +2725,6 @@
   "groupNote": "Spanish splits these less sharply than Portuguese or Italian. “Perdón” covers most of the ground."
  },
  {
-  "id": "1lxHqGOSwuBGqSh3FuC2mN",
-  "city": "Madrid",
-  "slot": "door-women",
-  "local": "Señoras",
-  "phonetic": "seh-NYOH-rahs",
-  "meaning": "women",
-  "groupNote": "Bars and older places use these instead of “Hombres” and “Mujeres”. Note that “M” is women, not men."
- },
- {
   "id": "48fv99J2j75P9huAC0DBxl",
   "city": "Amsterdam",
   "slot": "excuse-passing",
@@ -1866,14 +2741,6 @@
   "phonetic": "ah-LAYN PIN-nuh",
   "meaning": "card only, no cash",
   "context": "On signs everywhere. “Pinnen” means Dutch debit — some places still refuse foreign credit cards, though acceptance is widening fast."
- },
- {
-  "id": "6D88M6YlTZ4UStFVfma7cp",
-  "city": "Amsterdam",
-  "slot": "deep-cut",
-  "local": "Gezellig",
-  "phonetic": "khuh-ZEL-lukh",
-  "context": "Warm, easy, good company — a room, an evening, a group of people. Its absence is a real complaint: a bar can be “ungezellig”."
  },
  {
   "id": "1qni8IgfJw1pOhPvPJXfa2",
@@ -1930,42 +2797,6 @@
   "groupNote": "The Swiss forms. Standard German “eins, zwei, drei, vier” is understood everywhere."
  },
  {
-  "id": "Zt21DBeIsZ7aTpH1ewjXS",
-  "city": "Zurich",
-  "slot": "ticket",
-  "local": "Billett",
-  "phonetic": "bee-YET",
-  "meaning": "ticket",
-  "context": "Swiss uses the French word, not the German “Fahrkarte”."
- },
- {
-  "id": "5rIdlA3MgMoH0zSe0doj21",
-  "city": "Zurich",
-  "slot": "bathroom",
-  "local": "WC",
-  "phonetic": "vay-tsay",
-  "meaning": "bathroom",
-  "context": "Ask for the “WC”. “Toilette” works too."
- },
- {
-  "id": "67c2aYlCgqUhoVffKO83Zd",
-  "city": "Zurich",
-  "slot": "door-women",
-  "local": "Damen",
-  "phonetic": "DAH-mun",
-  "meaning": "women",
-  "groupNote": "Standard German on every door. “H” is “Herren”, men. “D” is “Damen”, women."
- },
- {
-  "id": "3VRBGWl4KC4oAidjVgs72M",
-  "city": "Paris",
-  "slot": "greeting-afternoon",
-  "local": "Bonjour",
-  "phonetic": "bong-ZHOOR",
-  "meaning": "good afternoon",
-  "context": "Still “bonjour”. French has no separate afternoon greeting."
- },
- {
   "id": "3zIQLOGeE7Vu13zQiv26iV",
   "city": "Paris",
   "slot": "greeting-evening",
@@ -2002,15 +2833,6 @@
   "groupNote": "“Femmes” is “fahm,” not “fem.” Some places print “Messieurs” and “Dames” instead."
  },
  {
-  "id": "6DG9ynpG1jTv8U5Sl0qRE1",
-  "city": "Rome",
-  "slot": "greeting-afternoon",
-  "local": "Buongiorno",
-  "phonetic": "bwon-JOR-noh",
-  "meaning": "good afternoon",
-  "context": "Still “buongiorno”. “Buon pomeriggio” exists on paper but nobody says it."
- },
- {
   "id": "3Hrul115HJpZIDGG5ekDtr",
   "city": "Rome",
   "slot": "leaving",
@@ -2038,15 +2860,6 @@
   "groupNote": "One vowel apart, same font, adjacent doors. “Signori” is men. “Uomini” and “Donne” are the plainer pair."
  },
  {
-  "id": "5B20wgy47elsWjNWgELtfj",
-  "city": "Berlin",
-  "slot": "greeting-evening",
-  "local": "Guten Abend",
-  "phonetic": "GOO-ten AH-bent",
-  "meaning": "good evening",
-  "groupNote": "In Berlin all three often clip down to a bare “Morgen”, “Tag”, or “Abend”."
- },
- {
   "id": "1Ha9d0S7G7tu366dBAKdPB",
   "city": "Berlin",
   "slot": "leaving",
@@ -2065,15 +2878,6 @@
   "context": "“Danke schön” (shurn) is the warmer version."
  },
  {
-  "id": "1PkxaKiMM96h08IniDqmQH",
-  "city": "Berlin",
-  "slot": "number-four",
-  "local": "Vier",
-  "phonetic": "feer",
-  "meaning": "four",
-  "groupNote": "“Zwei” is often said as “zwo” (tsvoh) over noise or on the phone, to keep it distinct from “drei”."
- },
- {
   "id": "6BcWwKy7lHjwluL7LAxjY9",
   "city": "Berlin",
   "slot": "door-women",
@@ -2081,15 +2885,6 @@
   "phonetic": "DAH-men",
   "meaning": "women",
   "groupNote": "“H” is men, “D” is women. Some places print only the single letters."
- },
- {
-  "id": "1OblwWJ6EAVlux4Njh9UfW",
-  "city": "Berlin",
-  "slot": "card",
-  "local": "Kreditkarte",
-  "phonetic": "kray-DEET-kar-tuh",
-  "meaning": "credit card",
-  "context": "Say it as you hold the card up, and be ready to hear “nein”."
  },
  {
   "id": "5c4XNG1GGnJMqA92IX6p6N",
@@ -2218,15 +3013,6 @@
   "groupNote": "All three read as formal. In practice “hej” covers the whole day."
  },
  {
-  "id": "3fbuQmIkFTRA0fcPpo35Yo",
-  "city": "Stockholm",
-  "slot": "greeting-casual",
-  "local": "Hej",
-  "phonetic": "hey",
-  "meaning": "hello",
-  "context": "Universal, all ages, every situation. Often doubled: “hej hej”."
- },
- {
   "id": "2hjMvuLgWYFUFUu67TG65y",
   "city": "Stockholm",
   "slot": "leaving",
@@ -2234,15 +3020,6 @@
   "phonetic": "hey DOH",
   "meaning": "leaving a shop or café",
   "context": "The standard goodbye. “Adjö” (ah-YUR) is archaic and would sound theatrical."
- },
- {
-  "id": "5O1NNni4sc4JxN60Tsol8y",
-  "city": "Stockholm",
-  "slot": "please",
-  "local": "Snälla",
-  "phonetic": "SNEL-lah",
-  "meaning": "please",
-  "context": "Swedish has no neutral please. “Snälla” leans towards pleading — ordinary requests just attach “tack” instead."
  },
  {
   "id": "7dEIsaoOJ7Nv5Hh8XvAIaw",
@@ -2296,24 +3073,6 @@
   "phonetic": "goo KVELL",
   "meaning": "good evening",
   "groupNote": "All three read as formal. “Hei” does most of the work at any hour."
- },
- {
-  "id": "CIxs9vv4Bx8s8K8Ee3jNn",
-  "city": "Oslo",
-  "slot": "leaving",
-  "local": "Ha det",
-  "phonetic": "HA deh",
-  "meaning": "leaving a shop or café",
-  "context": "Short for “ha det bra”, “have it good.” Often doubled: “ha det, ha det”."
- },
- {
-  "id": "6dJM5EY1XHRIpnG3tpznUW",
-  "city": "Oslo",
-  "slot": "please",
-  "local": "Vær så snill",
-  "phonetic": "vair soh SNILL",
-  "meaning": "please",
-  "context": "Norwegian has no neutral please, and this one is emphatic. Most requests simply attach “takk”."
  },
  {
   "id": "1326TjLbjNox0zUeikpeEV",
@@ -2370,15 +3129,6 @@
   "context": "“WC” on the door. “Vessa” is what people actually say."
  },
  {
-  "id": "53szUAxv1qXURYEWKoOD9U",
-  "city": "Helsinki",
-  "slot": "door-women",
-  "local": "Naiset",
-  "phonetic": "NIGH-set",
-  "meaning": "women",
-  "groupNote": "“M” is men here, the opposite of Spanish. Doors are often labelled in Finnish and Swedish both."
- },
- {
   "id": "2blRSdkXNUfLKwKZPK9hWH",
   "city": "Helsinki",
   "slot": "bag",
@@ -2386,33 +3136,6 @@
   "phonetic": "POOS-see",
   "meaning": "bag?",
   "context": "Charged. Say “ei kiitos” if you brought one."
- },
- {
-  "id": "1pdJS9M3TYFipKZ0bh7aDq",
-  "city": "Reykjavík",
-  "slot": "greeting-afternoon",
-  "local": "Góðan daginn",
-  "phonetic": "GOH-than DIE-in",
-  "meaning": "good afternoon",
-  "context": "Still “góðan daginn”. Icelandic has no separate afternoon greeting."
- },
- {
-  "id": "3o2dLEPYh8kxL4nHEjVn61",
-  "city": "Reykjavík",
-  "slot": "greeting-evening",
-  "local": "Gott kvöld",
-  "phonetic": "got KVURLD",
-  "meaning": "good evening",
-  "groupNote": "The daytime greeting is often clipped to just “daginn”."
- },
- {
-  "id": "1isdUopecsGknWi4swpOXA",
-  "city": "Reykjavík",
-  "slot": "leaving",
-  "local": "Bless",
-  "phonetic": "bless",
-  "meaning": "leaving a shop or café",
-  "context": "Often doubled: “bless bless”. From an old blessing, though nobody hears it that way now."
  },
  {
   "id": "50gkZfMqMwO3dxGzfCrPx6",
@@ -2487,15 +3210,6 @@
   "groupNote": "“Izvinite” covers apology and getting attention both. “Oprostite” is the more formal alternative."
  },
  {
-  "id": "KWJLvQfPV690yYPvE37Np",
-  "city": "Belgrade",
-  "slot": "door-women",
-  "local": "Žene",
-  "phonetic": "ZHEH-neh",
-  "meaning": "women",
-  "groupNote": "“M” is men, “Ž” is women — and doors may be in Cyrillic instead: “МУШКАРЦИ” and “ЖЕНЕ”."
- },
- {
   "id": "7JBDdnkz4xcJG9QM3XZdeH",
   "city": "Belgrade",
   "slot": "bag",
@@ -2512,15 +3226,6 @@
   "phonetic": "DOH-bree VEH-cher",
   "meaning": "good evening",
   "groupNote": "“Ráno” only until about nine. “Den” covers the rest of the day."
- },
- {
-  "id": "701aduT99cIT3g5PapzWkp",
-  "city": "Prague",
-  "slot": "leaving",
-  "local": "Na shledanou",
-  "phonetic": "nahs-HLEH-dah-no",
-  "meaning": "leaving a shop or café",
-  "context": "Literally “until seeing.” Often clipped to “na shle”. “Ahoj” is the casual version."
  },
  {
   "id": "4fBmgaq4hMHMs5NQOtRwig",
@@ -2676,14 +3381,6 @@
   "groupNote": "“B” is men, “F” is women. Some places print only the single letters."
  },
  {
-  "id": "30CXYyj8krWJkoEFMm9Uya",
-  "city": "Bucharest",
-  "slot": "deep-cut",
-  "local": "Descurcăreț",
-  "phonetic": "des-koor-kah-RETS",
-  "context": "Someone who manages, improvises, finds a way. The same instinct Poland calls “kombinować”, and admired just as much."
- },
- {
   "id": "5iFNAGfBqG6MsLqN0hNmAR",
   "city": "Barcelona",
   "slot": "greeting-morning",
@@ -2700,15 +3397,6 @@
   "phonetic": "bon VES-pruh",
   "meaning": "good evening",
   "groupNote": "“Tarda” starts after lunch, “vespre” from about eight. Catalan splits the evening later than Spanish does."
- },
- {
-  "id": "4r9MiFPI0hoMqO2CO5UJmH",
-  "city": "Barcelona",
-  "slot": "leaving",
-  "local": "Adéu",
-  "phonetic": "ah-DEW",
-  "meaning": "leaving a shop or café",
-  "context": "Everyday in Catalan, unlike the Spanish “adiós”, which sounds final. “Fins després” (feens des-PRES) is “see you later.”"
  },
  {
   "id": "6GsLb5XYs320VNySv6XkQZ",
@@ -2736,15 +3424,6 @@
   "phonetic": "bon proo-FEET",
   "meaning": "enjoy your meal",
   "context": "The Catalan version, and constant here. “Que aproveche” is the Spanish equivalent."
- },
- {
-  "id": "2cgaurrYSY0rs6lOj6w14V",
-  "city": "Barcelona",
-  "slot": "door-women",
-  "local": "Dones",
-  "phonetic": "DOH-nus",
-  "meaning": "women",
-  "groupNote": "Catalan, not Spanish — “Homes” and “Dones”. Where Spanish appears instead, “M” is women, not men."
  },
  {
   "id": "BtohPZbbTMlQPr4h5oq1d",
@@ -2808,15 +3487,6 @@
   "context": "Fried fish, Andalusian style. The name is the accent in miniature — “pescadito” with the d dropped out."
  },
  {
-  "id": "5zhanE3RmFowMZldiT6JiQ",
-  "city": "Florence",
-  "slot": "greeting-afternoon",
-  "local": "Buongiorno",
-  "phonetic": "bwon-JOR-noh",
-  "meaning": "good afternoon",
-  "context": "Still “buongiorno”. “Buon pomeriggio” exists on paper and nobody says it."
- },
- {
   "id": "1imbjZ1emZc0skuAY9taz7",
   "city": "Florence",
   "slot": "leaving",
@@ -2844,14 +3514,6 @@
   "groupNote": "One vowel apart, same font, adjacent doors. “Signori” is men. “Uomini” and “Donne” are the plainer pair."
  },
  {
-  "id": "70BCUWUu4gcMI7tiabPpC2",
-  "city": "Florence",
-  "slot": "deep-cut",
-  "local": "La gorgia",
-  "phonetic": "lah GOR-jah",
-  "context": "The Tuscan habit of softening hard c into h. Locals demonstrate it with “una coca-cola con la cannuccia corta”."
- },
- {
   "id": "6uFCQOOquFtGl714Z3CEEk",
   "city": "Naples",
   "slot": "leaving",
@@ -2867,15 +3529,6 @@
   "local": "Sfogliatella",
   "phonetic": "sfo-lyah-TEL-lah",
   "context": "The shell-shaped ricotta pastry, eaten hot and standing up. “Riccia” is the flaky one, “frolla” the smooth."
- },
- {
-  "id": "t39ML7PqU48Nij78rnhqJ",
-  "city": "Marseille",
-  "slot": "greeting-afternoon",
-  "local": "Bonjour",
-  "phonetic": "bong-ZHOOR",
-  "meaning": "good afternoon",
-  "context": "Still “bonjour”. French has no separate afternoon greeting."
  },
  {
   "id": "2RJtJwT2ih8y57hVHkuQGe",
@@ -2903,15 +3556,6 @@
   "phonetic": "fahm",
   "meaning": "women",
   "groupNote": "“Femmes” is “fahm,” not “fem.” Some places print “Messieurs” and “Dames” instead."
- },
- {
-  "id": "4pJWF4iEe3pLyqLA7Br4Wk",
-  "city": "Brussels",
-  "slot": "greeting-afternoon",
-  "local": "Bonjour",
-  "phonetic": "bong-ZHOOR",
-  "meaning": "good afternoon",
-  "context": "Still “bonjour”. French has no separate afternoon greeting."
  },
  {
   "id": "4q9veVnkaAZamKkcBFb1gR",
@@ -2976,15 +3620,6 @@
   "context": "Neutral and safe with anyone. “Selam” (seh-LAHM) is the casual version among peers."
  },
  {
-  "id": "3io5bCELwswIpb1xh0E4GE",
-  "city": "Istanbul",
-  "slot": "leaving",
-  "local": "Hoşça kalın",
-  "phonetic": "HOSH-chah kah-LUHN",
-  "meaning": "leaving a shop or café",
-  "context": "Said by the person leaving. The one staying says “güle güle”. They are not interchangeable."
- },
- {
   "id": "4FPm9dKS3XjGZmN4GBDqkq",
   "city": "Istanbul",
   "slot": "thanks",
@@ -2992,15 +3627,6 @@
   "phonetic": "teh-shek-kewr-LEHR",
   "meaning": "thank you",
   "context": "“Teşekkür ederim” is the fuller form, “sağ ol” (sah OL) the casual one."
- },
- {
-  "id": "3aNSgigWkhyfBNjNn5D9Aa",
-  "city": "Istanbul",
-  "slot": "excuse-passing",
-  "local": "Pardon",
-  "phonetic": "par-DON",
-  "meaning": "excuse me (squeezing past)",
-  "groupNote": "“Affedersiniz” opens a request. “Pardon”, borrowed from French, is for squeezing past."
  },
  {
   "id": "IQhQCLV3f2fVqnPx7iEJu",
@@ -3062,14 +3688,6 @@
   "groupNote": "“Gents” and “Ladies” on most doors. Pubs occasionally get creative, which is its own small hazard."
  },
  {
-  "id": "5Iw3UDLBvpXDTnfiTO0hsG",
-  "city": "London",
-  "slot": "atm",
-  "local": "Cashpoint",
-  "meaning": "ATM",
-  "context": "Nobody says “ATM”. Avoid the ones charging a fee — the bank-branded machines are free."
- },
- {
   "id": "q3OQINnEKMd5F930qJxZp",
   "city": "London",
   "slot": "bag",
@@ -3083,21 +3701,6 @@
   "slot": "deep-cut",
   "local": "Quite good",
   "context": "Mediocre. British understatement inverts the intensifier: “not bad” is high praise, “quite good” is faint."
- },
- {
-  "id": "LMsWL5FxwFIKxw9sqf3tp",
-  "city": "London",
-  "slot": "deep-cut",
-  "local": "The Tube",
-  "context": "The Underground. Never “the subway”, which here means a pedestrian tunnel under a road."
- },
- {
-  "id": "4EUa1BrxqXa6MfcJxrxH3N",
-  "city": "Dublin",
-  "slot": "thanks",
-  "local": "Thanks a million",
-  "meaning": "thank you",
-  "context": "The standard warm version, often compressed to “thanks a mil”. “Cheers” works fine too."
  },
  {
   "id": "7kqTZmIqCFklAqgqyArYlX",
@@ -3114,21 +3717,6 @@
   "local": "The bill, please",
   "meaning": "the check, please",
   "context": "Asking for “the check” marks you immediately."
- },
- {
-  "id": "4ImQSOFtQdLbUf3ja4EpEl",
-  "city": "Dublin",
-  "slot": "bathroom",
-  "local": "The jacks",
-  "meaning": "bathroom",
-  "context": "Casual and very Dublin. Signs say “Toilets”, with “Leithreas” printed underneath."
- },
- {
-  "id": "6Jz2Z4v1B1QWUZo56O1img",
-  "city": "Dublin",
-  "slot": "deep-cut",
-  "local": "Garda",
-  "context": "The police. Plural “Gardaí”, said GAR-dee. Nobody here says “the police”."
  },
  {
   "id": "7cYmlnveth1N4yZERfH0sL",
@@ -3155,14 +3743,6 @@
   "groupNote": "Standard on most doors. “Fir” and “Mnathan” turn up on Gaelic signage — “Fir” is men."
  },
  {
-  "id": "4tCt3ZDUS0GJXNGWOdZP31",
-  "city": "Edinburgh",
-  "slot": "atm",
-  "local": "Cashpoint",
-  "meaning": "ATM",
-  "context": "Also “the hole in the wall”. Scottish banks issue their own notes, which are legal but sometimes refused in England."
- },
- {
   "id": "tKU1H6R6iOeDoJD6io4lO",
   "city": "Edinburgh",
   "slot": "bag",
@@ -3185,14 +3765,6 @@
   "context": "The groceries. “Away to get the messages” means going to the shops, and catches out every visitor once."
  },
  {
-  "id": "7vHJPmpwfyQIO11kQxHZP9",
-  "city": "Manchester",
-  "slot": "leaving",
-  "local": "See you later",
-  "meaning": "leaving a shop or café",
-  "context": "“Ta-ra”, said tah-RAH, is the local version and still widely used. “Laters” among younger people."
- },
- {
   "id": "6Ie8Fg6CfKCVdPRzH09vgm",
   "city": "Manchester",
   "slot": "check",
@@ -3201,27 +3773,12 @@
   "context": "Asking for “the check” marks you instantly."
  },
  {
-  "id": "60JpGZJ2rUJEgdkdSsxh88",
-  "city": "Manchester",
-  "slot": "atm",
-  "local": "Cashpoint",
-  "meaning": "ATM",
-  "context": "Also “the hole in the wall”. Avoid the ones that charge a fee."
- },
- {
   "id": "1lXpy7wAwKTLUfeYmBSC2u",
   "city": "Manchester",
   "slot": "bag",
   "local": "Bag?",
   "meaning": "bag?",
   "context": "Charged. Say “no thanks” if you brought one."
- },
- {
-  "id": "5hJ6M82VFzEkSKsKXmjMpM",
-  "city": "Manchester",
-  "slot": "deep-cut",
-  "local": "Barm",
-  "context": "A soft bread roll. Calling it a “bap”, a “cob”, or a “bun” starts a real argument that has never been settled."
  },
  {
   "id": "5sjZkqdt9J4v4TjdVaND3A",
@@ -3254,24 +3811,6 @@
   "phonetic": "KUH-suh-nuhm",
   "meaning": "thank you",
   "context": "Shortened to “köszi” (KUH-see) among friends."
- },
- {
-  "id": "6JtVYUxlmRhrrbr9WQrDyO",
-  "city": "Budapest",
-  "slot": "leaving",
-  "local": "Viszlát",
-  "phonetic": "VEES-lahtt",
-  "meaning": "leaving a shop or café",
-  "context": "Short for “viszontlátásra”, “until we see each other again.” The full version is for formal occasions."
- },
- {
-  "id": "2EyTaFYp9f56dM8Xd3jeIc",
-  "city": "Budapest",
-  "slot": "number-four",
-  "local": "Négy",
-  "phonetic": "naydj",
-  "meaning": "four",
-  "groupNote": "Two has two forms: “kettő” standing alone, “két” in front of a noun — “két sör”, two beers."
  },
  {
   "id": "5X8YR4UqkLJe9zH9hiOvSU",
@@ -3355,42 +3894,6 @@
   "context": "The formal one. “Dank je wel” with peers, and a quick “bedankt” (buh-DAHNKT) works anywhere."
  },
  {
-  "id": "5a3zsqoVruG8tWaHKnA5HE",
-  "city": "Amsterdam",
-  "slot": "greeting-evening",
-  "local": "Goedenavond",
-  "phonetic": "KHOO-duh-NAH-vont",
-  "meaning": "good evening",
-  "groupNote": "In speech all three get clipped to “Morgen”, “Middag”, and “Avond”. A mumbled “Goeie” (KHOO-yuh) covers any of them."
- },
- {
-  "id": "4un5EwTTK5DqBUJiXno4Dh",
-  "city": "Amsterdam",
-  "slot": "leaving",
-  "local": "Tot ziens",
-  "phonetic": "tot ZEENS",
-  "meaning": "leaving a shop or café",
-  "context": "What shopkeepers say to you. “Doei” (DOO-ee) is the casual version, usually doubled: “doei doei”."
- },
- {
-  "id": "5UJB9g4SpMDrqCqWWdXco9",
-  "city": "Venice",
-  "slot": "greeting-afternoon",
-  "local": "Buongiorno",
-  "phonetic": "bwon-JOR-noh",
-  "meaning": "good afternoon",
-  "context": "Still “buongiorno”. “Buon pomeriggio” exists on paper and nobody says it."
- },
- {
-  "id": "6Uf24To0FjMYkAJ7UwkL8r",
-  "city": "Venice",
-  "slot": "greeting-casual",
-  "local": "Ciao",
-  "phonetic": "chow",
-  "meaning": "hello (casual)",
-  "context": "Hello and goodbye, for peers only. It started here, from the Venetian “s-ciào”, “your servant.”"
- },
- {
   "id": "7FN07lwJW1DRWBT8rYGD1f",
   "city": "Venice",
   "slot": "leaving",
@@ -3418,15 +3921,6 @@
   "context": "“Cin cin” (chin chin) is the lighter clinking version."
  },
  {
-  "id": "i2Oz4hy1WKF8x30iKGn21",
-  "city": "Venice",
-  "slot": "check",
-  "local": "Il conto?",
-  "phonetic": "eel KON-toh",
-  "meaning": "the check?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore”."
- },
- {
   "id": "bHUxqWnbebOlz9uvX5UHr",
   "city": "Venice",
   "slot": "door-women",
@@ -3434,31 +3928,6 @@
   "phonetic": "see-NYOH-reh",
   "meaning": "women",
   "groupNote": "One vowel apart, same font, adjacent doors. “Signori” is men. “Uomini” and “Donne” are the plainer pair."
- },
- {
-  "id": "t1I3nu6ZrLlWLXJR9bfkO",
-  "city": "Venice",
-  "slot": "deep-cut",
-  "local": "Bacaro",
-  "phonetic": "BAH-kah-roh",
-  "context": "A small, plain wine bar with cicchetti on the counter, mostly standing room. Moving from one to the next is the “giro d’ombre”."
- },
- {
-  "id": "7MoMAL6NFZSDnVoWWug4XU",
-  "city": "Venice",
-  "slot": "deep-cut",
-  "local": "Campo",
-  "phonetic": "KAHM-poh",
-  "context": "Every square in Venice is a “campo”, a field — most were once grass. Only St Mark’s is a “piazza”."
- },
- {
-  "id": "kSVVJ57WlgZjOgVfr78bp",
-  "city": "Munich",
-  "slot": "greeting-morning",
-  "local": "Guten Morgen",
-  "phonetic": "GOO-ten MOR-gen",
-  "meaning": "good morning",
-  "context": "Often cut to just “Morgen”."
  },
  {
   "id": "xmgx42oqAFWZBAc7oSWRX",
@@ -3533,28 +4002,12 @@
   "groupNote": "“H” is men, “D” is women. Some places print only the single letters."
  },
  {
-  "id": "5oneen2z7N34ZaKu0bfkDr",
-  "city": "Munich",
-  "slot": "deep-cut",
-  "local": "Brotzeit",
-  "phonetic": "BROHT-tsite",
-  "context": "Literally “bread time”: a cold spread of bread, cheese, sausage and radish, at any hour. It is also what you unpack at a beer garden."
- },
- {
   "id": "6tQD3o6NYc3PdJr1guEqLg",
   "city": "Munich",
   "slot": "deep-cut",
   "local": "Grantler",
   "phonetic": "GRAHNT-ler",
   "context": "The Munich grump, complaining as a matter of style. “Grantig” is the mood. It is rarely personal."
- },
- {
-  "id": "01gzYSFSQu6VVlfZqSuEzu",
-  "city": "Munich",
-  "slot": "deep-cut",
-  "local": "Gaudi",
-  "phonetic": "GOW-dee",
-  "context": "Fun, a good time, a bit of a riot. A beer tent at full volume is a “Riesengaudi”, a giant one."
  },
  {
   "id": "7ZjGacQgRh2z7skYoAiy0",
@@ -3564,15 +4017,6 @@
   "phonetic": "bwon-JOR-noh",
   "meaning": "good afternoon",
   "context": "Still “buongiorno” until mid-afternoon. “Buon pomeriggio” exists but is rarely said to strangers."
- },
- {
-  "id": "1DDcU82iWyOIhue5oaEQzF",
-  "city": "Milan",
-  "slot": "greeting-evening",
-  "local": "Buonasera",
-  "phonetic": "BWOH-nah-SEH-rah",
-  "meaning": "good evening",
-  "groupNote": "“Buonasera” starts in the afternoon, from about four. Milanese often clip both to “’giorno” and “’sera”."
  },
  {
   "id": "7EeC5T2TAyu1zUSRccGGFh",
@@ -3618,15 +4062,6 @@
   "phonetic": "chin chin",
   "meaning": "cheers",
   "context": "The clink at aperitivo. “Salute” (sah-LOO-teh) is the plainer toast, and also what you say after a sneeze."
- },
- {
-  "id": "50ivLtQW4tHpve1iYlJjSo",
-  "city": "Milan",
-  "slot": "check",
-  "local": "Il conto?",
-  "phonetic": "eel KON-toh",
-  "meaning": "the check?",
-  "context": "More polite version: “Il conto, per favore”. At a busy coffee bar, pay first at the till and hand the receipt to the barista."
  },
  {
   "id": "pdqLnlaT4iHEzm8eC7uW5",
@@ -3683,15 +4118,6 @@
   "context": "“Pan” to a man, “pani” (PAH-nee) to a woman. Most young Varsovians speak English well, so a plain hello first is enough."
  },
  {
-  "id": "7gPQp4ES3OCKGMRcG9aSK4",
-  "city": "Warsaw",
-  "slot": "menu",
-  "local": "Menu?",
-  "phonetic": "MEH-noo",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę menu”."
- },
- {
   "id": "4W0qciQpRojlPkDFw0ujVj",
   "city": "Warsaw",
   "slot": "bathroom",
@@ -3737,15 +4163,6 @@
   "context": "The usual thanks at a bar or counter. “Thanks very much” is the fuller form."
  },
  {
-  "id": "7vu9e0QlK89k3OAGUjFotq",
-  "city": "Belfast",
-  "slot": "greeting-casual",
-  "local": "What about ye?",
-  "phonetic": "WAH-a-BOWT-yeh",
-  "meaning": "hello",
-  "context": "A greeting, not a question, usually squashed to “’bout ye”. “Not bad, yourself?” closes it."
- },
- {
   "id": "1WlSW32FwacrFgHnMCwcIA",
   "city": "Belfast",
   "slot": "leaving",
@@ -3782,14 +4199,6 @@
   "context": "Charged since 2013. Say “no thanks” if you brought one."
  },
  {
-  "id": "3KlGsnhmkTRhylvs7R5G4f",
-  "city": "Belfast",
-  "slot": "deep-cut",
-  "local": "Wee",
-  "phonetic": "wee",
-  "context": "Small, and also a softener attached to almost anything. “A wee cup of tea”, “a wee minute”, “a wee drive to Bangor”, which is not that wee."
- },
- {
   "id": "7uH5spJO4kmKsRIRPBjcDe",
   "city": "Belfast",
   "slot": "deep-cut",
@@ -3814,33 +4223,6 @@
   "phonetic": "tah",
   "meaning": "thank you",
   "context": "Used with strangers as well as friends, and not considered sloppy. “Cheers” works just as well."
- },
- {
-  "id": "3vgZPYQzLrqjxzs73v6G1G",
-  "city": "Liverpool",
-  "slot": "greeting-casual",
-  "local": "Y’alright?",
-  "phonetic": "yer-ALL-rite",
-  "meaning": "hello",
-  "context": "A greeting, not a question. “Sound, you?” closes it. Men add “la” (lad) and women often get “queen” or “girl”, all of it friendly."
- },
- {
-  "id": "5zzH7b7vLZdSUeWGIzWjZf",
-  "city": "Liverpool",
-  "slot": "leaving",
-  "local": "Ta-ra",
-  "phonetic": "tah-RAH",
-  "meaning": "leaving a shop or café",
-  "context": "The local goodbye, often stretched to “ta-ra well”. “See you later” works too."
- },
- {
-  "id": "6K6JxPGNicXPDhdgFOayq2",
-  "city": "Liverpool",
-  "slot": "delicious",
-  "local": "Boss",
-  "phonetic": "boss",
-  "meaning": "delicious / excellent",
-  "context": "“That was boss” covers food, a night out or a goal. Nothing to do with anyone’s employer."
  },
  {
   "id": "6J0O5sYxaij2PIox8PjFZI",
@@ -3933,15 +4315,6 @@
   "groupNote": "Standard on most doors. Gaelic signs at stations use “Fir” for men and “Mnathan” for women."
  },
  {
-  "id": "1HSkfYBYk8T3X77iVmKrlG",
-  "city": "Glasgow",
-  "slot": "atm",
-  "local": "Cashpoint",
-  "phonetic": "",
-  "meaning": "ATM",
-  "context": "Also “the hole in the wall”. Cash machines here dispense Scottish banknotes."
- },
- {
   "id": "1UFb6GxWccYlzLymGmQv2E",
   "city": "Glasgow",
   "slot": "bag",
@@ -3949,15 +4322,6 @@
   "phonetic": "",
   "meaning": "bag?",
   "context": "Charged. “Doing the messages” means doing the grocery shopping, so bring one if you are."
- },
- {
-  "id": "31ZvjccThJj3qgxUaMVtXP",
-  "city": "Glasgow",
-  "slot": "deep-cut",
-  "local": "Wean",
-  "phonetic": "wayn",
-  "meaning": "a child",
-  "context": "From “wee ane”, little one. “The weans” are the kids, and “a greetin’ wean” is a crying one."
  },
  {
   "id": "3l8BWlN8YR0VxGekLf5cjM",
@@ -3969,30 +4333,12 @@
   "context": "Irn-Bru, cola, lemonade — all “ginger” in Glasgow. “A bottle of ginger” has nothing to do with ginger."
  },
  {
-  "id": "6pZRplXCXFJcy1ndcJ80u6",
-  "city": "Glasgow",
-  "slot": "deep-cut",
-  "local": "Steamin",
-  "phonetic": "STEE-min",
-  "meaning": "very drunk",
-  "context": "One of many Glasgow words for it, alongside “blootered” and “mortal”. Usually said with some admiration."
- },
- {
   "id": "1aiaP6pFuoU8MVioP6P8Bv",
   "city": "Milan",
   "slot": "deep-cut",
   "local": "Sciura",
   "phonetic": "SHOO-rah",
   "context": "Dialect for “signora”: the well-off older Milanese lady, fur coat, small dog, firm opinions. Said with affection, and some caution."
- },
- {
-  "id": "3pessF5Pqpz8zkDdtrugJ3",
-  "city": "Warsaw",
-  "slot": "check",
-  "local": "Rachunek?",
-  "phonetic": "rah-HOO-nek",
-  "meaning": "the check?",
-  "context": "Enough to get by. More polite: “Poproszę rachunek”. To tip by card, say the amount before the waiter keys it in."
  },
  {
   "id": "QC2NDkuWz5WW9zUxRHfjh",
@@ -4031,15 +4377,6 @@
   "context": "Charged by law. Say “no grazie” if you brought one."
  },
  {
-  "id": "2iCokjmqd809gHFoWgwfPU",
-  "city": "Milan",
-  "slot": "menu",
-  "local": "Menù?",
-  "phonetic": "meh-NOO",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
- },
- {
   "id": "l0jxDBjFr7KhwtiFQhqjf",
   "city": "Munich",
   "slot": "bag",
@@ -4076,33 +4413,6 @@
   "context": "Charged by law. Say “no grazie” if you brought one."
  },
  {
-  "id": "1dKuaalIG28pX3n7Vj6ak7",
-  "city": "Venice",
-  "slot": "menu",
-  "local": "Menù?",
-  "phonetic": "meh-NOO",
-  "meaning": "menu?",
-  "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore”."
- },
- {
-  "id": "7cONqVuStWvHHnsKLWTZ0v",
-  "city": "Seville",
-  "slot": "menu",
-  "local": "Carta?",
-  "phonetic": "KAR-tah",
-  "meaning": "menu?",
-  "context": "Order “la carta” — “el menú” is the set lunch. More polite version: “La carta, por favor”."
- },
- {
-  "id": "7wyTv7R3HUiKDc88rvFubg",
-  "city": "Madrid",
-  "slot": "menu",
-  "local": "Carta?",
-  "phonetic": "KAR-tah",
-  "meaning": "menu?",
-  "context": "Order “la carta” — “el menú” is the set lunch. More polite version: “La carta, por favor”."
- },
- {
   "id": "6wYS9FXNBivrTMUjC92QIV",
   "city": "Manchester",
   "slot": "bathroom",
@@ -4117,22 +4427,6 @@
   "local": "Toilets",
   "meaning": "bathroom",
   "context": "“Loo” works. Older pubs occasionally sign them in Scots or Gaelic with no English at all."
- },
- {
-  "id": "4povhobtLCUskEceAcUTBu",
-  "city": "Dublin",
-  "slot": "atm",
-  "local": "ATM",
-  "meaning": "ATM",
-  "context": "Also “the hole in the wall”. Ireland uses the euro, unlike Northern Ireland an hour up the road."
- },
- {
-  "id": "1gSZtOcq1LC84woz7cD4fv",
-  "city": "London",
-  "slot": "bathroom",
-  "local": "Loo",
-  "meaning": "bathroom",
-  "context": "Signs say “Toilets”. “Restroom” and “bathroom” both get a blank look, and “washroom” is Canadian."
  },
  {
   "id": "23zCxOgD2nPK7mHtaNj2uy",
@@ -4153,15 +4447,6 @@
   "context": "Charged by law. Say “non merci” if you brought one."
  },
  {
-  "id": "3n161cQTbbr0G64lmzunCX",
-  "city": "Marseille",
-  "slot": "atm",
-  "local": "Distributeur",
-  "phonetic": "dees-tree-bew-TUR",
-  "meaning": "ATM",
-  "context": "Short for “distributeur automatique”. Decline the offer to charge you in dollars."
- },
- {
   "id": "3u5A16rXoHBjAJVEMCWKU5",
   "city": "Naples",
   "slot": "bag",
@@ -4178,15 +4463,6 @@
   "phonetic": "sak-KET-toh",
   "meaning": "bag?",
   "context": "Charged by law. Say “no grazie” if you brought one."
- },
- {
-  "id": "1wF7UhxO0wCoIwThdqZyZz",
-  "city": "Seville",
-  "slot": "bathroom",
-  "local": "Servicios",
-  "phonetic": "ser-VEE-see-oh",
-  "meaning": "bathroom",
-  "context": "“Servicios” here more than “aseos”. Bars expect you to have ordered first."
  },
  {
   "id": "1pkpWijPl27rtwJpsLZT7Y",
@@ -4234,24 +4510,6 @@
   "context": "Charged. Say “nej tak” if you brought one."
  },
  {
-  "id": "3dys2gYFOZIUd8yDbg6v0j",
-  "city": "Vienna",
-  "slot": "bag",
-  "local": "Sackerl?",
-  "phonetic": "SAH-kerl",
-  "meaning": "bag?",
-  "context": "The Austrian word. A German would say “Tüte”, and saying it here marks you as one."
- },
- {
-  "id": "1TEfCadYTG1u2PdNQM11Qx",
-  "city": "Vienna",
-  "slot": "atm",
-  "local": "Bankomat",
-  "phonetic": "BAHN-koh-maht",
-  "meaning": "ATM",
-  "context": "Austria says “Bankomat”, like Italy and Switzerland. Germany says “Geldautomat”, and it marks you."
- },
- {
   "id": "2rQKnmPJMuBDhgmzGJhQBx",
   "city": "Vienna",
   "slot": "bathroom",
@@ -4288,24 +4546,6 @@
   "context": "Charged by law. Say “non merci” if you brought one."
  },
  {
-  "id": "24Vtgbiv6pkhWrn6edNy7U",
-  "city": "Paris",
-  "slot": "atm",
-  "local": "Distributeur",
-  "phonetic": "dees-tree-bew-TUR",
-  "meaning": "ATM",
-  "context": "Short for “distributeur automatique”. Decline the offer to charge you in dollars."
- },
- {
-  "id": "5cgyZwJ3lNWrbtci2fUa06",
-  "city": "Zurich",
-  "slot": "bag",
-  "local": "Säckli?",
-  "phonetic": "SEK-lee",
-  "meaning": "bag?",
-  "context": "The “-li” ending is Zurich shrinking something. A “Sack” becomes a “Säckli”."
- },
- {
   "id": "N1n68u4xRnsgXkFyuAi7c",
   "city": "Amsterdam",
   "slot": "bag",
@@ -4324,15 +4564,6 @@
   "context": "What the sign says. “El baño” works fine out loud."
  },
  {
-  "id": "2ruwTKkKvqq9bjVMHGDXKu",
-  "city": "Lisbon",
-  "slot": "money-surprise",
-  "local": "Couvert",
-  "phonetic": "koo-VEHR",
-  "meaning": "bread and olives that arrive unordered",
-  "context": "Not free, and you can wave it away with “não, obrigado”. The most common tourist friction point in Portugal."
- },
- {
   "id": "1l0hLGdw1jmfUzSV8G1Zru",
   "city": "Belgrade",
   "slot": "sorry",
@@ -4340,51 +4571,6 @@
   "phonetic": "eez-VEE-nee-teh",
   "meaning": "sorry / excuse me",
   "context": "For apologising and for getting someone’s attention. “Oprostite” is the more formal alternative."
- },
- {
-  "id": "3zcdlVzQkWPsJT1R0G6Xr9",
-  "city": "Kraków",
-  "slot": "sorry",
-  "local": "Przepraszam",
-  "phonetic": "psheh-PRAH-shahm",
-  "meaning": "sorry / excuse me",
-  "context": "For apologising, getting someone’s attention and squeezing past. The most useful word here after “proszę”."
- },
- {
-  "id": "5FdMIgRl55IsAbDn529HR5",
-  "city": "Warsaw",
-  "slot": "sorry",
-  "local": "Przepraszam",
-  "phonetic": "psheh-PRAH-shahm",
-  "meaning": "sorry / excuse me",
-  "context": "For apologising, getting attention and squeezing past. On a tram, “Wysiada pan?” (vi-SHAH-dah pahn) asks if someone is getting off."
- },
- {
-  "id": "45yuU7g7hJP7RfFkmd9cpw",
-  "city": "Oslo",
-  "slot": "sorry",
-  "local": "Beklager",
-  "phonetic": "beh-KLAH-ger",
-  "meaning": "sorry",
-  "context": "For a genuine apology. For everything else, “unnskyld”."
- },
- {
-  "id": "6JTTwh6crAkBkTo9m1twWV",
-  "city": "Reykjavík",
-  "slot": "sorry",
-  "local": "Fyrirgefðu",
-  "phonetic": "FIH-rir-gev-thoo",
-  "meaning": "sorry",
-  "context": "Kept for a real apology. For everything else, “afsakið”."
- },
- {
-  "id": "3xe8SKQR1icDPaUumV2pxE",
-  "city": "Stockholm",
-  "slot": "sorry",
-  "local": "Förlåt",
-  "phonetic": "fur-LOHT",
-  "meaning": "sorry",
-  "context": "Reserved for an actual apology. For everything else, “ursäkta”."
  },
  {
   "id": "6Mz9mgUPHEawNWHA09iLnv",
@@ -4661,15 +4847,6 @@
   "context": "At a bar, stand where the staff can see you and wait your turn. Waving money or calling out gets you served later."
  },
  {
-  "id": "57L7zgV1vimlYcd446oa4Z",
-  "city": "Liverpool",
-  "slot": "sorry",
-  "local": "Sorry",
-  "phonetic": "",
-  "meaning": "sorry",
-  "context": "Works for apologising and for getting past. Also means “what did you say?”, which you may need for the accent."
- },
- {
   "id": "36dGvI3N8iaBjlhJBvlDrl",
   "city": "Belfast",
   "slot": "excuse-attention",
@@ -4754,15 +4931,6 @@
   "phonetic": "OON-shil",
   "meaning": "excuse me",
   "context": "For getting someone’s attention and for squeezing past."
- },
- {
-  "id": "4QR3bdkcxpDuv2Eaui4e5K",
-  "city": "Helsinki",
-  "slot": "sorry",
-  "local": "Anteeksi",
-  "phonetic": "AHN-tayk-see",
-  "meaning": "sorry / excuse me",
-  "context": "For apologising, getting someone’s attention and squeezing past."
  },
  {
   "id": "zItIPJqKvGQVOQMSCZkVa",
@@ -4943,24 +5111,6 @@
   "context": "Standing at the counter is cheaper than a table, and cheaper again than the terrace. Same tapa, three prices."
  },
  {
-  "id": "2XSkWIKgUdPFWnE6T9jBGj",
-  "city": "Florence",
-  "slot": "money-surprise",
-  "local": "Coperto",
-  "phonetic": "koh-PEHR-toh",
-  "meaning": "cover charge",
-  "context": "Per person, printed on the menu. In the tourist centre some places add servizio on top — check the bill for both."
- },
- {
-  "id": "3A51lStl6xextvVnenMxCX",
-  "city": "Florence",
-  "slot": "ticket",
-  "local": "Biglietto",
-  "phonetic": "bee-LYET-toh",
-  "meaning": "ticket",
-  "context": "For museums, book ahead. The Uffizi and Accademia sell out, and the queue without one runs to hours."
- },
- {
   "id": "3g0YEpRlZ1xrRDM7t0w8UO",
   "city": "Florence",
   "slot": "bathroom",
@@ -5084,15 +5234,6 @@
   "context": "Say it as you hold the card up. Same word as the menu — context does the work."
  },
  {
-  "id": "BepmDEowXGKVlvCGrc4mz",
-  "city": "Venice",
-  "slot": "money-surprise",
-  "local": "Coperto",
-  "phonetic": "koh-PEHR-toh",
-  "meaning": "cover charge",
-  "context": "Per person, on the menu. Some add servizio too. Sitting costs more than standing at the bar — on St Mark’s Square, far more."
- },
- {
   "id": "70a3eyWDT2xyw7ZAhwo52x",
   "city": "Venice",
   "slot": "ticket",
@@ -5208,14 +5349,6 @@
   "context": "The mermaid with sword and shield on Warsaw’s coat of arms. Her statue stands in the Old Town Market Square."
  },
  {
-  "id": "4lokeQHyVwYk4VzP7WhWuf",
-  "city": "Warsaw",
-  "slot": "deep-cut",
-  "local": "Godzina W",
-  "phonetic": "goh-JEE-nah voo",
-  "context": "“W-hour”: 5pm on 1 August, when the 1944 Warsaw Uprising began. Sirens sound every year and the city stops for a minute."
- },
- {
   "id": "7CovPPQKLIQvSIjngQV06y",
   "city": "Warsaw",
   "slot": "deep-cut",
@@ -5238,15 +5371,6 @@
   "local": "Wawa",
   "phonetic": "VAH-vah",
   "context": "The city’s nickname for itself, on T-shirts and in rap lyrics. Affectionate from locals, slightly cheeky from anyone else."
- },
- {
-  "id": "2JpX4CS7WPvAepi9y7FQaL",
-  "city": "Warsaw",
-  "slot": "ticket",
-  "local": "Bilet",
-  "phonetic": "BEE-let",
-  "meaning": "ticket",
-  "context": "One ticket covers trams, buses, metro and city trains. Validate a paper ticket in the yellow box when you board."
  },
  {
   "id": "49YQbqjynrja3QY8GfWHw1",
@@ -5288,24 +5412,6 @@
   "local": "Bauscia",
   "phonetic": "bow-SHAH",
   "context": "A braggart, roughly one who drools while boasting. Milan fans use it for Inter fans, who have adopted it with pride."
- },
- {
-  "id": "53jSvmOyDinmSEaSLmU5hK",
-  "city": "Glasgow",
-  "slot": "deep-cut",
-  "local": "Boggin",
-  "phonetic": "BOG-in",
-  "meaning": "disgusting, filthy",
-  "context": "For a smell, a room, a pub toilet or the weather. Also used of a person who badly needs a wash."
- },
- {
-  "id": "7essNx284mUgihb77wz0on",
-  "city": "Glasgow",
-  "slot": "deep-cut",
-  "local": "Gallus",
-  "phonetic": "GAL-us",
-  "meaning": "bold, confident, a bit cheeky",
-  "context": "Glasgow’s favourite compliment for a person or a move with some swagger. Originally it meant fit for the gallows."
  },
  {
   "id": "50PLnNl81B4ioHnY4IMXGQ",
@@ -5450,15 +5556,6 @@
   "local": "Catch yourself on",
   "phonetic": "KATCH yer-self ON",
   "context": "Get a grip, don’t be ridiculous. Said to someone talking nonsense, usually with a laugh, sometimes without one."
- },
- {
-  "id": "1EYufNzAWM5P5jxRmGcgiK",
-  "city": "Belfast",
-  "slot": "cash",
-  "local": "Cash",
-  "phonetic": "kash",
-  "meaning": "cash",
-  "context": "Still useful at St George’s Market stalls and in older pubs."
  },
  {
   "id": "t0AhDq98PnpMu6ff6tmyW",
@@ -6225,15 +6322,6 @@
   "local": "Κέφι",
   "phonetic": "KEH-fee",
   "context": "High spirits — the mood that makes a night take off. You can have it, lose it, or be given it by other people."
- },
- {
-  "id": "2gjUcQGyXMq5GTLgeLh5zV",
-  "city": "Athens",
-  "slot": "cash",
-  "local": "Μετρητά",
-  "phonetic": "meh-tree-TAH",
-  "meaning": "cash",
-  "context": "Still common in tavernas and at kiosks, especially away from the centre."
  },
  {
   "id": "540PpROwo4uL2ncMGQWYbJ",
@@ -7027,14 +7115,6 @@
   "context": "Bee Network buses and trams take contactless with daily capping. Metrolink has no barriers but inspectors do check."
  },
  {
-  "id": "2o5Gpx4FJVrG7oF3Mumrzn",
-  "city": "Manchester",
-  "slot": "money-surprise",
-  "local": "Service charge",
-  "meaning": "service charge",
-  "context": "Usually 10% and added mainly in city-centre restaurants. Removable on request and stated on the bill."
- },
- {
   "id": "6K1JAp8dlBUBrPrlTr1ign",
   "city": "Edinburgh",
   "slot": "deep-cut",
@@ -7047,13 +7127,6 @@
   "slot": "deep-cut",
   "local": "Close",
   "context": "A narrow covered passage off the Royal Mile leading to a courtyard. There are dozens and most are easy to walk straight past."
- },
- {
-  "id": "1MCuyJmG3inm06kPvjtUjS",
-  "city": "Edinburgh",
-  "slot": "deep-cut",
-  "local": "Dreich",
-  "context": "Grey, damp, cold, and endless — the specific Scottish weather that never quite commits to being rain."
  },
  {
   "id": "261IG66K5jKXQQgEPD8hvR",
@@ -7260,22 +7333,6 @@
   "local": "Nazar",
   "phonetic": "nah-ZAR",
   "context": "The evil eye, and the blue glass charm that deflects it. On doorways, taxis, babies, and building sites everywhere."
- },
- {
-  "id": "6fOjcl9kZCLZOXVoRgioLj",
-  "city": "Istanbul",
-  "slot": "deep-cut",
-  "local": "Hüzün",
-  "phonetic": "hew-ZEWN",
-  "context": "A collective melancholy — the ache of a city that was once the centre of the world. Pamuk built a whole book around it."
- },
- {
-  "id": "q0BtzGG5fXSzNvnZmFMJe",
-  "city": "Istanbul",
-  "slot": "deep-cut",
-  "local": "Keyif",
-  "phonetic": "kay-EEF",
-  "context": "Idle contentment done properly — tea, a view, no plan and no hurry. Doing nothing, taken entirely seriously."
  },
  {
   "id": "mKAqh3cd5VjjZwi8njqrh",
@@ -7554,14 +7611,6 @@
   "local": "Panisse",
   "phonetic": "pah-NEES",
   "context": "Chickpea-flour chips, fried and salted. Street food from the old Italian quarter, still sold along the Corniche."
- },
- {
-  "id": "3d2CAKnQQ5lUn73aKLWG1X",
-  "city": "Marseille",
-  "slot": "deep-cut",
-  "local": "Cagole",
-  "phonetic": "kah-GOL",
-  "context": "A loud, heavily made-up Marseillaise woman. An insult that locals have largely reclaimed as a badge of honour."
  },
  {
   "id": "1cCXzMfNiNtJpkH9UOV0wZ",
@@ -8226,14 +8275,6 @@
   "context": "The final s vanishes in Andalusian. It comes out closer to BWEH-noh DEE-ah."
  },
  {
-  "id": "4PC0OBVSsihPdVpDebdwit",
-  "city": "Barcelona",
-  "slot": "deep-cut",
-  "local": "Calçotada",
-  "phonetic": "kal-soo-TAH-thah",
-  "context": "A winter feast of charred spring onions dipped in romesco, eaten with your hands over a bib. Whole towns organise around it."
- },
- {
   "id": "6c2CostMwpUfENyh70wCR",
   "city": "Barcelona",
   "slot": "deep-cut",
@@ -8727,14 +8768,6 @@
   "context": "Calm contentment — everything fine, nothing urgent. A state Czechs actively aim for rather than stumble into."
  },
  {
-  "id": "3PU6YPYre8SFTpyv2OEUFX",
-  "city": "Prague",
-  "slot": "deep-cut",
-  "local": "Hospoda",
-  "phonetic": "HOS-poh-dah",
-  "context": "The neighbourhood pub: beer, plain food, no music, long shared tables. Older than any bar concept and still the centre of things."
- },
- {
   "id": "7iBZOlGSlNEY5SgCBa2BiT",
   "city": "Prague",
   "slot": "card",
@@ -8742,15 +8775,6 @@
   "phonetic": "KAR-tah",
   "meaning": "credit card",
   "context": "Say it as you hold the card up."
- },
- {
-  "id": "5BIovJGawDKbUymapGeMed",
-  "city": "Prague",
-  "slot": "atm",
-  "local": "Bankomat",
-  "phonetic": "BAN-koh-maht",
-  "meaning": "ATM",
-  "context": "Avoid the standalone machines in the tourist centre — their rates are dreadful. Decline dollar conversion."
  },
  {
   "id": "34wW9egyf1lvXQOqo5hTra",
@@ -9937,14 +9961,6 @@
   "context": "The moment work ends and the evening becomes yours. A state rather than a time; you can wish someone a good one."
  },
  {
-  "id": "1nfNVjYe3Iu1HOyPKrgJsz",
-  "city": "Berlin",
-  "slot": "deep-cut",
-  "local": "Kiez",
-  "phonetic": "keets",
-  "context": "Your immediate neighbourhood — the few blocks you actually live in. Berliners are loyal to theirs in a way that surprises outsiders."
- },
- {
   "id": "4NqEI79Nxkew4AW1C1hIPC",
   "city": "Berlin",
   "slot": "deep-cut",
@@ -10272,14 +10288,6 @@
   "local": "Râler",
   "phonetic": "rah-LAY",
   "context": "To complain, constantly and with relish. The French treat it as a hobby rather than a flaw."
- },
- {
-  "id": "5arhKwgPYcsXq5Eny7NjK7",
-  "city": "Paris",
-  "slot": "deep-cut",
-  "local": "La terrasse",
-  "phonetic": "lah teh-RAHSS",
-  "context": "The pavement seating that fills every street. Coffee costs more there than standing at the bar, and everyone pays it."
  },
  {
   "id": "1lVTwgSUv6LUpMHlFGnS89",
@@ -10719,14 +10727,6 @@
   "phonetic": "SOH-ree",
   "meaning": "sorry",
   "context": "Dutch borrowed the English word and uses it for most small apologies."
- },
- {
-  "id": "rIiasV1yfvkV7xRMYcV6o",
-  "city": "Madrid",
-  "slot": "deep-cut",
-  "local": "Castizo",
-  "phonetic": "kahs-TEE-thoh",
-  "context": "Old-Madrid authentic: the tiled taverns, the vermouth on tap, the neighbourhoods that never got renovated."
  },
  {
   "id": "6WtMH0LGDvpyPtwf2seesz",
