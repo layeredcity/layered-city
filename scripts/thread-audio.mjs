@@ -28,7 +28,13 @@ process.on('unhandledRejection', fail); process.on('uncaughtException', fail)
 const cfg = JSON.parse(await fs.readFile('data/thread-audio.json', 'utf8'))
 const threads = JSON.parse(await fs.readFile('src/data/threads.json', 'utf8'))
 const model = cfg.model || 'eleven_multilingual_v2'
-const GAP = 0.45 // seconds of silence between the title voice and the body voice
+const GAP = 0.6 // seconds of silence between the title voice and the body voice
+const FADE = 0.06 // seconds faded out at the end of each clip before the next voice
+// The title voice sometimes clipped its last syllable just before the body
+// voice came in. Its text is recorded with a trailing pause (an ellipsis,
+// which v3 reads as a breath), and each clip fades out before the gap. The
+// pause isn't part of the hash, so existing recordings aren't redone.
+const TAIL = ' …'
 const idOf = v => (typeof v === 'string' ? v : v?.voice_id)
 const VOICES = { body: cfg.voice, title: cfg.titleVoice || cfg.voice }
 const two = idOf(VOICES.title) !== idOf(VOICES.body)
@@ -79,7 +85,8 @@ try {
       }
       for (const g of groups) g.text = g.parts.map(p => p.say).join(' ')
       const hash = crypto.createHash('sha1').update(two
-        ? `2|${model}|${GAP}|` + groups.map(g => `${idOf(VOICES[g.role])}|${g.text}`).join('|')
+        // 0.45 was the original gap. It stays in the hash so changing GAP doesn't re-record everything.
+        ? `2|${model}|0.45|` + groups.map(g => `${idOf(VOICES[g.role])}|${g.text}`).join('|')
         : `${idOf(VOICES.body)}|${model}|${groups[0].text}`).digest('hex').slice(0, 12)
       const prev = old.segments[n]
       if (prev && prev.hash === hash) { segments.push(prev); continue }
@@ -96,16 +103,18 @@ try {
         // Record each group, then join them with a pause after each but the last.
         const clips = []
         let offset = 0
+        const durs = []
         for (const [gi, g] of groups.entries()) {
-          const d = await speak(VOICES[g.role], g.text)
+          const d = await speak(VOICES[g.role], g.role === 'title' ? g.text + TAIL : g.text)
           const f = path.join(tmp, `${slug}-${n}-${gi}.mp3`)
           await fs.writeFile(f, d.audio)
           let at = 0
           for (const p of g.parts) { marks.push({ key: p.key, t: offset + (d.starts[at] ?? 0) }); at += p.say.length + 1 }
           clips.push(f)
-          offset += (await duration(f)) + (gi < groups.length - 1 ? GAP : 0)
+          durs.push(await duration(f))
+          offset += durs.at(-1) + (gi < groups.length - 1 ? GAP : 0)
         }
-        const filter = clips.map((_, i) => i < clips.length - 1 ? `[${i}:a]apad=pad_dur=${GAP}[a${i}]` : `[${i}:a]anull[a${i}]`).join(';')
+        const filter = clips.map((_, i) => i < clips.length - 1 ? `[${i}:a]afade=t=out:st=${Math.max(0, durs[i] - FADE).toFixed(3)}:d=${FADE},apad=pad_dur=${GAP}[a${i}]` : `[${i}:a]afade=t=in:st=0:d=0.02[a${i}]`).join(';')
           + ';' + clips.map((_, i) => `[a${i}]`).join('') + `concat=n=${clips.length}:v=0:a=1[out]`
         await run('ffmpeg', ['-y', ...clips.flatMap(f => ['-i', f]), '-filter_complex', filter, '-map', '[out]', '-c:a', 'libmp3lame', '-b:a', '128k', '-ar', '44100', `${dir}/${file}`])
         dur = await duration(`${dir}/${file}`)
