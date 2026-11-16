@@ -90,6 +90,10 @@ try {
         : `${idOf(VOICES.body)}|${model}|${groups[0].text}`).digest('hex').slice(0, 12)
       const prev = old.segments[n]
       if (prev && prev.hash === hash) { segments.push(prev); continue }
+      // Threads listed in `keep` hold on to their existing recordings even when
+      // the text changes slightly (a spelling pass), as long as the chapter's
+      // sentences still line up with the recorded timings.
+      if (prev && (cfg.keep || []).includes(slug) && prev.marks?.length === parts.length && prev.marks.every((m, i) => m.key === parts[i].key)) { segments.push(prev); continue }
       const file = `${n}-${hash}.mp3`
       const marks = []
       let dur

@@ -6,6 +6,7 @@ These apply to all text in the app: Contentful descriptions, threads, About, UI 
 
 - Plain, dry, and straightforward. No salesy phrasing or heavy emphasis.
 - Always use the Oxford (serial) comma: "Paris, Rome, and Vienna", "met, traded, or died".
+- American English: color, center, theater, organize, traveled, gray; dates as “September 12, 1945”; “St.” and “Dr.” with a period; commas and periods inside closing quotation marks. Proper names keep their own spelling (Estates Theatre, Royal Albert Hall).
 - Curly quotes and apostrophes (converted automatically at load, but write them curly anyway).
 
 ## Threads

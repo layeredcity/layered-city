@@ -76,7 +76,7 @@ export function groupEvents(events) {
     const d = parse(day)
     const label = day === t ? 'Today'
       : day === addDays(t, 1) ? 'Tomorrow'
-      : `${LONG_DAYS[d.getDay()]} ${d.getDate()} ${LONG_MONTHS[d.getMonth()]}`
+      : `${LONG_DAYS[d.getDay()]}, ${LONG_MONTHS[d.getMonth()]} ${d.getDate()}`
     groups.push({ key: day, label, events: byDay[day].sort((a, b) => (a.time || '').localeCompare(b.time || '')) })
   }
   return groups
@@ -91,7 +91,8 @@ export function eventDateBadge(e) {
   const d = parse(e.start)
   if (e.end && e.end !== e.start) {
     const end = parse(e.end)
-    return { top: DAYS[d.getDay()], main: d.getDate(), bottom: `${MONTHS[d.getMonth()]}–${end.getDate()} ${MONTHS[end.getMonth()]}`, range: true }
+    const sameMonth = end.getMonth() === d.getMonth()
+    return { top: DAYS[d.getDay()], main: d.getDate(), bottom: sameMonth ? `${MONTHS[d.getMonth()]}–${end.getDate()}` : `${MONTHS[d.getMonth()]}–${MONTHS[end.getMonth()]} ${end.getDate()}`, range: true }
   }
   return { top: DAYS[d.getDay()], main: d.getDate(), bottom: MONTHS[d.getMonth()] }
 }
