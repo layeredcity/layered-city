@@ -1,5 +1,6 @@
 {
   "voice": "XrExE9yKIg1WjnnlVkGX",
-  "model": "eleven_multilingual_v2",
+  "titleVoice": { "voice_id": "MFZUKuGQUsGJPQjTS4wC", "owner": "b45c1524a1f360319535f16b301e5b6f37edf26fd1d59861eda66206ff25cdc9", "name": "Jon" },
+  "model": "eleven_v3",
   "threads": ["van-gogh"]
 }
