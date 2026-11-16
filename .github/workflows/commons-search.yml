@@ -1,0 +1,27 @@
+# Research helper: searches Wikimedia Commons for the queries in
+# data/commons/queries.json and commits results and contact sheets.
+name: Commons search
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/commons/queries.json]
+permissions:
+  contents: write
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm install --no-save --no-package-lock sharp@0.33.5
+      - run: node scripts/commons-search.mjs
+      - run: |
+          git add data/commons
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City research"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Commons search results"
+          git pull --rebase origin main
+          git push origin HEAD:main
