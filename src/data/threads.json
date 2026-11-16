@@ -3843,16 +3843,16 @@
     "title": "Dictators",
     "dates": "1908–1989",
     "intro": [
-      "Twentieth-century Europe produced dictators of every kind, and most of them left buildings behind: palaces, balconies, prisons, a bunker.",
-      "Each stop is one regime and the places where it started or ended."
+      "Twentieth-century Europe produced dictators of every kind. Some were soldiers, one was a professor, and one was a failed painter.",
+      "Most of these men had nothing to do with each other, but their stories have the same shape: a way in, years of control, and an ending. This thread takes them in order, from a men’s hostel in Vienna in 1908 to a square in Bucharest in 1989. Each stop is a place where one regime started or ended."
     ],
     "chapters": [
       {
         "city": "Vienna",
         "place": "Meldemannstraße, Vienna",
         "when": "1908–1913",
-        "heading": "Hitler’s apprenticeship",
-        "text": "The young Hitler moved to Vienna hoping to study painting and was turned down twice by the Academy. He lived in cheap lodgings and a men’s hostel, selling watercolours of city sights, and soaked up the populism of the mayor, Karl Lueger, along with pan-German politics and everyday antisemitism. He left for Munich in 1913.",
+        "heading": "Hitler, a failed painter in Vienna",
+        "text": "The story starts with a young man who wanted to be a painter. Adolf Hitler moved to Vienna, then the capital of the Austrian empire, hoping to study at its Academy of Fine Arts. The Academy turned him down twice. He stayed anyway, living in cheap lodgings and then in a men’s hostel on Meldemannstraße, a poor street. He got by selling watercolours of the city’s sights. Vienna also gave him his politics. Its mayor, Karl Lueger, won votes by blaming Jews for the city’s problems, and Hitler took note. He left for Munich, in Germany, in 1913. Twenty years later he was running that country.",
         "lat": 48.24,
         "lon": 16.3776,
         "zoom": 13,
@@ -3860,22 +3860,22 @@
           "2xH8xlZv0IbnM8q35t5WZw",
           "4vpcEJW9kY5qAT8v3wOGx2"
         ],
-        "image": "Wohnhausanlage Meldemannstraße 2–4 IMG 3597.jpg"
+        "image": "Wohnhausanlage Meldemannstraße 2–4 IMG 3597.jpg",
+        "mediaNote": "There are two things below. A book describes the Vienna Hitler knew, a city of cheap hostels and resentment. An audio tour walks you past his lodgings and the academy that rejected him."
       },
       {
         "city": "Rome",
         "place": "Palazzo Venezia, Rome, and Piazzale Loreto, Milan",
         "when": "1919–1945",
-        "heading": "Mussolini",
-        "text": "Mussolini founded the Fascist movement at a meeting on Milan’s Piazza San Sepolcro in 1919 and took power three years later. He ruled from Palazzo Venezia in Rome and spoke to crowds from its balcony. His own Grand Council voted him out in July 1943. Partisans shot him in April 1945 and hung his body in Milan’s Piazzale Loreto.",
+        "heading": "Mussolini invents Fascism",
+        "text": "Hitler was not the first, though. His model was an Italian. Benito Mussolini was a blacksmith’s son and a former socialist newspaper editor. In 1919 he founded the Fascist movement at a meeting in a hall on Piazza San Sepolcro, a small square in Milan. Three years later he was in power. He ruled from Palazzo Venezia, a palace in the centre of Rome, and spoke to crowds from its balcony. The end came from his own side. In July 1943, with the war going badly, his Fascist Grand Council voted him out. In April 1945 he was shot by partisans, the Italian resistance fighters. They hung his body upside down in Piazzale Loreto, a square in Milan.",
         "lat": 41.896,
         "lon": 12.4818,
         "zoom": 12,
         "stories": [
           "694HhSxBz8TtZA1YH49s3u",
           "7pTi57JvUilFYsLUQreyU0",
-          "35HVtzrXrnezS5Fmxz38Lm",
-          "2ReuRwovJxVIABlterZ9nb"
+          "35HVtzrXrnezS5Fmxz38Lm"
         ],
         "points": [
           {
@@ -3889,14 +3889,15 @@
             "lon": 9.2163
           }
         ],
-        "image": "Palazzo Venezia (Rome) - Exterior.jpg"
+        "image": "Palazzo Venezia (Rome) - Exterior.jpg",
+        "mediaNote": "There are three things below. One podcast episode covers his rise, starting with the meeting in Milan. Another covers his fall in 1943. A book follows what happened to his body after Piazzale Loreto, which was buried, stolen, and fought over for years."
       },
       {
         "city": "Lisbon",
         "place": "Aljube Museum, Lisbon",
         "when": "1932–1974",
-        "heading": "Salazar",
-        "text": "António de Oliveira Salazar, an economics professor, ran Portugal for 36 years. His secret police, the PIDE, held political prisoners in the Aljube jail by the cathedral. He kept Portugal out of the Second World War and fought long colonial wars in Africa. Young officers ended the regime in April 1974.",
+        "heading": "Salazar, the professor who ruled Portugal",
+        "text": "Not every dictator shouted from a balcony. António de Oliveira Salazar was an economics professor who kept out of the public eye. He ran Portugal for 36 years, from 1932. His secret police, known as the PIDE, did the work that speeches did elsewhere. They held political prisoners in the Aljube, a jail beside Lisbon’s cathedral. Salazar kept Portugal out of the Second World War. Later he fought long wars to hold on to its colonies in Africa. Those wars finished the regime, though he did not live to see it. In April 1974 young army officers, tired of fighting them, overthrew his successors in a single day. People put carnations in the soldiers’ gun barrels. The Aljube is now a museum about the prisoners.",
         "lat": 38.7102,
         "lon": -9.1326,
         "zoom": 13,
@@ -3905,44 +3906,46 @@
           "1GM8OZjgIJUjQgK9xsyQ6w",
           "4MvUQ8msWQl0dyrRx3jdIS"
         ],
-        "image": "Museu do Aljube.jpg"
+        "image": "Museu do Aljube.jpg",
+        "mediaNote": "There are three things below. A documentary tells the story of the secret police using only prisoners’ mugshots and survivors’ voices. A feature film re-creates the day of the 1974 coup. A book covers the same day in more detail."
       },
       {
         "city": "Madrid",
         "place": "Almudena Cemetery, Madrid",
         "when": "1939–1975",
-        "heading": "Franco",
-        "text": "Franco won the Civil War in 1939 and ruled until he died in bed in 1975. Tens of thousands were executed in the years after the war, many against the wall of Madrid’s Almudena cemetery. Spain agreed after his death not to prosecute the crimes of the regime, and the families of the dead are still pushing against that silence.",
+        "heading": "Franco and the silence after him",
+        "text": "Next door in Spain, the dictator got there by war. Francisco Franco was a general who rose against the elected government in 1936. Three years of civil war followed, and he won in 1939. The killing did not stop with the war. Tens of thousands of people were executed in the years after it, many of them against the wall of the Almudena cemetery in Madrid. Franco ruled until 1975 and died in bed. After his death, Spain agreed not to prosecute the crimes of his regime. The families of the dead are still pushing against that silence.",
         "lat": 40.4193,
         "lon": -3.6332,
         "zoom": 12,
         "stories": [
           "2J9tDkpdr7wWAnrcogWElF",
-          "5pK0fg6tm0VuYLcFtSzWST",
-          "5GFbeHAxY6dZJ01b82a9V1"
+          "5pK0fg6tm0VuYLcFtSzWST"
         ],
-        "image": "Cementerio de la Almudena (28227025725).jpg .jpg"
+        "image": "Cementerio de la Almudena (28227025725).jpg .jpg",
+        "mediaNote": "There are two things below. A documentary follows victims of the regime as they go to court decades later. A long history book counts the civilians killed by Franco’s side."
       },
       {
         "city": "Oslo",
         "place": "Villa Grande, Oslo",
         "when": "1940–1945",
-        "heading": "Quisling",
-        "text": "Vidkun Quisling urged Hitler to occupy Norway and announced himself prime minister on the day of the invasion. He led the puppet government from 1942 from a villa on the Bygdøy peninsula that he called Gimle. He was shot for treason in October 1945, and his surname became a word for traitor.",
+        "heading": "Quisling, the name that means traitor",
+        "text": "Franco stayed out of Hitler’s war. Norway was not given the choice. Germany invaded in April 1940, and one Norwegian politician had asked for it. Vidkun Quisling had urged Hitler to occupy the country, and on the day of the invasion he announced himself prime minister. From 1942 he led a puppet government, one that took its orders from Berlin. He lived in a villa on Bygdøy, a peninsula on the edge of Oslo, and called it Gimle. After the war he was tried for treason, and he was shot in October 1945. His surname became a word for traitor.",
         "lat": 59.9075,
         "lon": 10.687,
         "zoom": 13,
         "stories": [
           "4vF7yd0OxggnXNm0L2xOBI"
         ],
-        "image": "Villa grande oslo.jpg"
+        "image": "Villa grande oslo.jpg",
+        "mediaNote": "There is a podcast episode below about Quisling, and how his name became an insult."
       },
       {
         "city": "Berlin",
         "place": "Site of the Führerbunker, Berlin",
         "when": "April 1945",
-        "heading": "The bunker",
-        "text": "Hitler spent his last weeks underground beneath the Reich Chancellery garden as the Red Army fought its way into Berlin. He killed himself there on 30 April 1945. The bunker was later demolished, and the site is a car park with an information board.",
+        "heading": "Hitler’s last days in the bunker",
+        "text": "By then the man Quisling served was already dead. In early 1945 Hitler moved underground, into a bunker beneath the garden of the Reich Chancellery, his headquarters in Berlin. He spent his last weeks there while the Red Army, the army of the Soviet Union, fought its way into the city. Mussolini was shot on 28 April. Two days later, on 30 April 1945, Hitler killed himself. The bunker was later demolished. Today the site is a car park with a single information board.",
         "lat": 52.5125,
         "lon": 13.3812,
         "zoom": 15,
@@ -3950,14 +3953,15 @@
           "2T3tmsLB8oDLGrJtKO9awc",
           "3BPhEGsTHPCsQhL0zbiHbS"
         ],
-        "image": "Führerbunker, Berlin (Ank Kumar, Infosys).jpg"
+        "image": "Führerbunker, Berlin (Ank Kumar, Infosys).jpg",
+        "mediaNote": "There are two things below. A short video shows the bunker’s rooms as they were found, and what became of them. Downfall is a German feature film about Hitler’s last ten days, based on his secretary’s memoir."
       },
       {
         "city": "Belgrade",
         "place": "House of Flowers, Belgrade",
         "when": "1945–1980",
-        "heading": "Tito",
-        "text": "Josip Broz Tito led the partisans, took power in 1945, and in 1948 broke with Stalin and survived. He ran Yugoslavia as a one-party state that let its people travel and work abroad. He is buried in the winter garden of his Belgrade residence, and the country came apart within a decade of his death.",
+        "heading": "Tito, who defied Stalin",
+        "text": "The war that destroyed Hitler made the next dictator. Josip Broz, known as Tito, led the partisans, the communist fighters who resisted the German occupation of Yugoslavia. In 1945 he took power. Three years later he broke with Joseph Stalin, the Soviet leader, who expected communist countries to obey Moscow. Few people thought Tito would last. He did. He ran Yugoslavia as a one-party state, but one that let its people travel and work abroad. He died in 1980 and is buried in the winter garden of his residence in Belgrade, now called the House of Flowers. About a decade after his death, the country came apart in war.",
         "lat": 44.7866,
         "lon": 20.4518,
         "zoom": 13,
@@ -3966,14 +3970,15 @@
           "1qhfLEBLH74JSaviSSuRjX",
           "3fLeueJuL3nA2vB8HaGxbM"
         ],
-        "image": "Grob Josipa Broza Tita.jpg"
+        "image": "Grob Josipa Broza Tita.jpg",
+        "mediaNote": "There are three things below. One podcast episode covers the break with Stalin. Another covers Tito’s death and what followed. There is also a short biography."
       },
       {
         "city": "Athens",
         "place": "Parliament and Polytechnic, Athens",
         "when": "1967–1974",
-        "heading": "The colonels",
-        "text": "On 21 April 1967 a group of army colonels seized Greece in a near bloodless coup. They banned parties, jailed and tortured opponents, and censored the press, books, and songs. In November 1973 students occupied the Polytechnic and a tank broke down its gate. The junta fell the next summer.",
+        "heading": "The colonels who seized Greece",
+        "text": "Tito was still in power when soldiers took over the country to his south. On 21 April 1967 a group of Greek army colonels seized the government in a coup, with almost no bloodshed. They banned political parties and censored newspapers, books, and songs. Opponents were jailed and tortured. The challenge came from students. In November 1973 they occupied the Polytechnic, a university in central Athens. The army sent a tank through its gate. The occupation was crushed, but the regime never recovered, and it fell the following summer.",
         "lat": 37.9753,
         "lon": 23.7369,
         "zoom": 13,
@@ -3981,14 +3986,15 @@
           "91b4yIhBkKIypnuwzhbIu",
           "3PI1nu0yW7fkwZL8i4dzSI"
         ],
-        "image": "Μετσόβιο Πολυτεχνείο 7936.JPG"
+        "image": "Μετσόβιο Πολυτεχνείο 7936.JPG",
+        "mediaNote": "There are two short podcast episodes below. In one, a resistance fighter describes the coup and what happened to him afterwards. The other reports on the students at the Polytechnic."
       },
       {
         "city": "Bucharest",
         "place": "Revolution Square, Bucharest",
         "when": "1965–1989",
-        "heading": "Ceaușescu",
-        "text": "Nicolae Ceaușescu was courted by the West in the 1970s for defying Moscow. In the 1980s he starved Romania to pay off its debts and bulldozed a fifth of old Bucharest for his palace. On 21 December 1989 a crowd he had summoned to cheer him booed instead. He and his wife were shot four days later.",
+        "heading": "Ceaușescu and the crowd that booed",
+        "text": "The last dictator in this thread held on longest. Nicolae Ceaușescu led communist Romania from 1965. Like Tito, he defied Moscow, and in the 1970s Western governments courted him for it. The 1980s were different. He decided to pay off all of Romania’s foreign debt, and his people went hungry while he did it. At the same time he bulldozed a fifth of old Bucharest to build himself a palace. On 21 December 1989 he summoned a crowd to the city’s central square to cheer him. They booed instead. Four days later, on Christmas Day, he and his wife were shot.",
         "lat": 44.4389,
         "lon": 26.0975,
         "zoom": 13,
@@ -3997,7 +4003,8 @@
           "1PMzik4rTewxy67jO5Vk5Q",
           "5S9gIYK7Yh9kXKxPXUBO76"
         ],
-        "image": "Imperio Eroii Revolutiei.jpg"
+        "image": "Imperio Eroii Revolutiei.jpg",
+        "mediaNote": "There are three things below. A podcast episode covers the speech and the execution. A short video is about the palace. In another podcast episode, a British diplomat describes watching Romania go hungry in the early 1980s."
       }
     ],
     "image": "Palace of the Parliament in Bucharest (51878975552).jpg"
@@ -6553,30 +6560,31 @@
     "title": "Markets",
     "dates": "c. 110–today",
     "intro": [
-      "A city’s markets are where you see what it eats, what it sells, and who lives there.",
-      "The stops run from Rome’s ancient market halls to a fish quay that still works every morning."
+      "A city’s markets show you what it eats, what it sells, and who lives there.",
+      "They also last. Some of the markets in this thread have traded on the same spot for hundreds of years. The stops run in order of age, from the market halls of ancient Rome to a quay in Marseille where fishermen still sell their catch every morning."
     ],
     "chapters": [
       {
         "city": "Rome",
         "place": "Trajan’s Markets, Rome",
         "when": "c. 100–110",
-        "heading": "Trajan’s Markets",
-        "text": "Apollodorus of Damascus built this curving complex of brick halls and vaulted rooms into the Quirinal hill beside Trajan’s Forum. It is usually called a market, though some of the rooms were probably offices. It is the best-preserved shopping street of the ancient world.",
+        "heading": "Rome’s ancient shopping street",
+        "text": "The oldest stop is in Rome, and it is nearly two thousand years old. Around the year 100 the emperor Trajan had a new forum built, a public square for the city’s business. Beside it his architect, Apollodorus of Damascus, cut into the Quirinal hill and built a curving complex of brick halls and vaulted rooms on several levels. It is usually called Trajan’s Markets. Some of the rooms were probably offices, so the name may flatter it. Even so, it is the best-preserved shopping street of the ancient world.",
         "lat": 41.8958,
         "lon": 12.4862,
         "zoom": 15,
         "stories": [
           "3AElNRc8EqJwtHQsmQ7v8Q"
         ],
-        "image": "Mercati di Traiano - Roma.jpg"
+        "image": "Mercati di Traiano - Roma.jpg",
+        "mediaNote": "There is a short video below about how Trajan’s Markets were built and what they held."
       },
       {
         "city": "Kraków",
         "place": "Rynek Główny, Kraków",
         "when": "1257–today",
-        "heading": "The market square",
-        "text": "After the Mongols burned Kraków in 1241, the city was relaid in 1257 around a market square of about four hectares, one of the largest in medieval Europe. The Cloth Hall in the middle was its trading floor. Excavations under the square found the old stalls and roads, now a museum.",
+        "heading": "A square laid out for trade",
+        "text": "Long after Rome’s empire was gone, the towns of Europe traded in the open, on a market square. One of the biggest is in Kraków, in southern Poland. Mongol armies burned the city in 1241. In 1257 it was laid out again around a square of about four hectares, one of the largest in medieval Europe. The long building in the middle, the Cloth Hall, was its trading floor. The ground has risen since then, and the medieval market now lies about four metres below the paving. Archaeologists dug out its stalls and roads, and you can walk among them in a museum under the square. Just north of the old town, farmers still sell produce at Stary Kleparz, which has been a market since the 1300s.",
         "lat": 50.062,
         "lon": 19.9368,
         "zoom": 15,
@@ -6585,14 +6593,15 @@
           "2gzpsVfIxeXuGsips6NRZ6",
           "6H8MijSaftQDPCSzRwxcbU"
         ],
-        "image": "Kraków Cloth Hall, Café Noworolski, 3 Main Market square, Old Town, Kraków, Poland.jpg"
+        "image": "Kraków Cloth Hall, Café Noworolski, 3 Main Market square, Old Town, Kraków, Poland.jpg",
+        "mediaNote": "There are three things below. A podcast episode tells how Kraków grew rich on trade and survived the Mongols. One short video goes down into the museum under the square. Another visits the farmers’ stalls at Stary Kleparz."
       },
       {
         "city": "Istanbul",
         "place": "Grand Bazaar, Istanbul",
         "when": "1455–today",
-        "heading": "The Grand Bazaar",
-        "text": "Mehmed the Conqueror built a domed warehouse for valuables soon after he took Constantinople. Streets of shops grew around and over it until they were roofed in, and the bazaar now holds about 4,000 shops on some sixty lanes.",
+        "heading": "Four thousand shops under one roof",
+        "text": "Two centuries later, another city put its market under a roof. In 1453 the Ottoman sultan Mehmed the Second, known as the Conqueror, took Constantinople, the city now called Istanbul. Soon afterwards he built a domed warehouse where merchants could lock up their valuables. Streets of shops grew around it, and over time those streets were roofed in too. The result is the Grand Bazaar. It now holds about 4,000 shops on some sixty lanes.",
         "lat": 41.0107,
         "lon": 28.9681,
         "zoom": 15,
@@ -6600,28 +6609,30 @@
           "6Q7D0YEZ12Yh33GUzee8pw",
           "MO7LS3ob7mNSqwyhVSLj7"
         ],
-        "image": "Sample of Tee - Grand Bazaar.JPG"
+        "image": "Sample of Tee - Grand Bazaar.JPG",
+        "mediaNote": "There are two things below. A podcast episode tells the bazaar’s history, including its darker stories. A short video walks through the lanes."
       },
       {
         "city": "Amsterdam",
         "place": "Bloemenmarkt, Amsterdam",
         "when": "1636–1637",
-        "heading": "Tulip mania",
-        "text": "In the winter of 1636–37 the price of rare tulip bulbs in the Dutch Republic rose until a single bulb could cost as much as a canal house, then collapsed in February. Historians now think the damage was smaller than the legend. The flower market on the Singel has sold bulbs from boats since 1862.",
+        "heading": "When a tulip cost a house",
+        "text": "Markets do not only sell things you can carry home. In the 1630s traders in the Dutch Republic, as the Netherlands was then called, bought and sold tulip bulbs that were still in the ground. In the winter of 1636 and 1637 the price of rare bulbs kept rising, until a single bulb could cost as much as a house on an Amsterdam canal. In February the prices collapsed. The story is often told as the first financial bubble. Historians now think the damage was smaller than the legend. Amsterdam still sells bulbs at the Bloemenmarkt, a flower market on the Singel canal, where traders have worked from boats since 1862.",
         "lat": 52.3668,
         "lon": 4.8913,
         "zoom": 15,
         "stories": [
           "6c69cvTtZ4kUo9oNmbNQMS"
         ],
-        "image": "Amsterdam - Singel - Bloemenmarkt - Flowermarket - View WNW I.jpg"
+        "image": "Amsterdam - Singel - Bloemenmarkt - Flowermarket - View WNW I.jpg",
+        "mediaNote": "There is a short podcast episode below in which an economist explains how the tulip trade worked."
       },
       {
         "city": "Madrid",
         "place": "El Rastro, Madrid",
         "when": "1740–today",
-        "heading": "El Rastro",
-        "text": "Madrid’s Sunday flea market has filled the streets below La Latina since the 18th century. It grew in the old tanners’ district, where the word rastro, a trail, is said to come from the blood dragged down from the slaughterhouse. The iron-and-glass Mercado de San Miguel opened nearby in 1916.",
+        "heading": "Madrid’s Sunday flea market",
+        "text": "A different kind of market sells what people no longer want. In Madrid it happens every Sunday, in the streets that run downhill from La Latina, an old neighbourhood in the centre. The flea market there is called El Rastro, and it has been going since about 1740. It grew up in the tanners’ district, near the slaughterhouse. Rastro means trail, and the name is said to come from the blood left behind when carcasses were dragged down the hill. For food, Madrid has the Mercado de San Miguel, an iron-and-glass hall that opened nearby in 1916.",
         "lat": 40.4082,
         "lon": -3.7073,
         "zoom": 15,
@@ -6629,43 +6640,45 @@
           "1UKJdeSRN8yFFX6J7X6dtH",
           "2duQuuspRgk4RLysKrzt7I"
         ],
-        "image": "El Rastro de Madrid 50.jpg"
+        "image": "El Rastro de Madrid 50.jpg",
+        "mediaNote": "There are two things below. A podcast episode recorded at El Rastro describes what is for sale and gives tips for a visit. A short video picks out things to eat at the Mercado de San Miguel."
       },
       {
         "city": "Florence",
         "place": "Mercato Centrale, Florence",
         "when": "1874–today",
-        "heading": "The central market",
-        "text": "Giuseppe Mengoni, who also designed Milan’s Galleria, built Florence’s iron-and-glass central market in 1874 in the San Lorenzo district. The ground floor still sells meat, cheese, and vegetables. Florentines queue for lampredotto, a sandwich of cow’s fourth stomach.",
+        "heading": "Florence’s iron-and-glass food hall",
+        "text": "Iron-and-glass halls like San Miguel were an invention of the 1800s. They let cities build big, bright buildings and move their food sellers indoors. Florence built its central market this way in 1874, in the San Lorenzo district. The architect was Giuseppe Mengoni, who also designed the Galleria, the glass-roofed shopping arcade in Milan. The ground floor still sells meat, cheese, and vegetables. It is also the place to try lampredotto, a sandwich made from the fourth stomach of a cow. Florentines queue for it.",
         "lat": 43.7764,
         "lon": 11.2533,
         "zoom": 15,
         "stories": [
           "2FtvSfb1xijQw5ddSxSMkb"
         ],
-        "image": "Mercato centrale di san lorenzo 02.jpg"
+        "image": "Mercato centrale di san lorenzo 02.jpg",
+        "mediaNote": "There is a video below about lampredotto, and the people who queue for it."
       },
       {
         "city": "Paris",
         "place": "Saint-Ouen flea market, Paris",
         "when": "1880s–today",
-        "heading": "Les Puces",
-        "text": "In the 1880s Paris’s ragpickers were pushed outside the city walls, and they set up to sell what they found just beyond the northern gate at Saint-Ouen. The fleas, les puces, grew into one of the largest antiques markets in the world, a dozen separate markets with about 1,700 dealers.",
+        "heading": "The ragpickers’ market outside Paris",
+        "text": "While Florence was moving its food sellers indoors, Paris was pushing its poorest traders out. In the 1880s the city’s ragpickers, people who made a living sorting through rubbish for things to sell, were moved outside the city walls. They set up just beyond the northern gate, at Saint-Ouen. The market became known as les puces, the fleas. It grew into one of the largest antiques markets in the world. Today it is a dozen separate markets with about 1,700 dealers.",
         "lat": 48.9031,
         "lon": 2.3439,
         "zoom": 13,
         "stories": [
-          "18N7PgeNVqE8aDlQWrRQXI",
-          "3FAcZNCbZ99A5VUVbc4IKU"
+          "18N7PgeNVqE8aDlQWrRQXI"
         ],
-        "image": "Saint-Ouen-sur-Seine (93) Marché aux puces 977.jpg"
+        "image": "Saint-Ouen-sur-Seine (93) Marché aux puces 977.jpg",
+        "mediaNote": "There is a short video below that explores the stalls at Les Puces and stops for lunch."
       },
       {
         "city": "Budapest",
         "place": "Great Market Hall, Budapest",
         "when": "1897–today",
-        "heading": "The Great Market Hall",
-        "text": "Budapest’s Great Market Hall opened in 1897 by the Liberty Bridge, a steel hall under a roof of coloured Zsolnay tiles. Barges once brought goods straight into it through a tunnel from the Danube. Paprika, sausages, and pickles fill the ground floor.",
+        "heading": "Budapest’s hall beside the Danube",
+        "text": "In the 1890s Budapest built a market hall of its own, and built it big. The Great Market Hall opened in 1897 beside the Liberty Bridge, on the bank of the Danube. It is a long steel hall under a roof of coloured tiles made by Zsolnay, a Hungarian ceramics firm. Barges once brought goods straight inside, through a tunnel from the river. The ground floor is still full of paprika, sausages, and pickles.",
         "lat": 47.487,
         "lon": 19.0585,
         "zoom": 15,
@@ -6673,14 +6686,15 @@
           "2QAZaxyNXorzYag73vYU3J",
           "RU5VTxVtvAoc7YWpDBA7H"
         ],
-        "image": "Budapest - Great Market Hall (Nagyvásárcsarnok).jpg"
+        "image": "Budapest - Great Market Hall (Nagyvásárcsarnok).jpg",
+        "mediaNote": "There are two videos below. One looks around the market hall. The other tells the story of goulash, the paprika stew that became Hungary’s national dish."
       },
       {
         "city": "Glasgow",
         "place": "The Barras, Glasgow",
         "when": "1920s–today",
-        "heading": "The Barras",
-        "text": "Maggie McIver started out renting barrows to street traders in Glasgow’s East End and built the Barras market on the Gallowgate from them in the 1920s. When the traders needed somewhere to go at night, she built the Barrowland Ballroom above it, which opened in 1934.",
+        "heading": "The Barras, built from barrows",
+        "text": "Glasgow’s best-known market started with one woman and some handcarts. Maggie McIver rented out barrows to street traders in the East End of the city. In the 1920s she built a covered market for them on the Gallowgate, one of the main streets there. It was called the Barras, the local word for barrows. Her traders wanted somewhere to go in the evening. So in 1934 she built a dance hall above the market, the Barrowland Ballroom. It later became one of Britain’s best-loved rock venues.",
         "lat": 55.8547,
         "lon": -4.2393,
         "zoom": 15,
@@ -6688,14 +6702,15 @@
           "6UnALklo0wv5TwNjdOndJp",
           "4dRqgAdCkLzOGR5ROf20Ye"
         ],
-        "image": "2002-04-Glasgow-Bain-Street-The-Barras.jpg"
+        "image": "2002-04-Glasgow-Bain-Street-The-Barras.jpg",
+        "mediaNote": "There are two things below. A video marks a hundred years of the Barras. A podcast episode tells the story of the Barrowland Ballroom."
       },
       {
         "city": "Marseille",
         "place": "Quai des Belges, Marseille",
         "when": "Every morning",
-        "heading": "The fish quay",
-        "text": "Every morning fishermen sell their catch straight off the boats on the Quai des Belges at the head of the Old Port, as they have for generations. It is where bouillabaisse starts. Julia Child lived in Marseille in the 1950s and made the stew on television years later.",
+        "heading": "Fish off the boat in Marseille",
+        "text": "The last stop is the simplest market of all. Every morning, fishermen tie up at the Quai des Belges, the quay at the head of Marseille’s Old Port, and sell their catch straight off the boats. They have done it for generations. This is where bouillabaisse starts, the fish stew the city is known for. The American cook Julia Child lived in Marseille in the 1950s, and years later she made the stew on television. Trajan’s Markets are a ruin now. On this quay the oldest kind of market carries on: someone with something to sell, and a place to stand.",
         "lat": 43.295,
         "lon": 5.3646,
         "zoom": 15,
@@ -6704,7 +6719,8 @@
           "1MvKxTEuOdbdGJC9x3tstp"
         ],
         "tip": "Get there by 8; most of the fish is gone by mid-morning.",
-        "image": "Marseille (France), fish market in Vieux-Port, 2013.JPG"
+        "image": "Marseille (France), fish market in Vieux-Port, 2013.JPG",
+        "mediaNote": "There are two things below. A podcast episode uses bouillabaisse to tell the story of who came to Marseille. The other is the Julia Child episode, in which she makes the stew."
       }
     ],
     "image": "Istanbul - Grand Bazaar (55107617958).jpg"
