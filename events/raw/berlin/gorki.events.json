@@ -1,381 +1,6 @@
 [
  {
   "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-10T12:00:00.000Z",
-  "endDate": "2026-11-10T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Noise as a Strategy — Workshop",
-  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
-  "url": "https://www.gorki.de/en/noise-as-a-strategy",
-  "image": [
-   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
-  ],
-  "startDate": "2026-11-10T16:00:00.000Z",
-  "endDate": "2026-11-10T17:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Eingangsfoyer",
-   "url": "https://www.gorki.de/en/spielorte/entree"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14230",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-11T12:00:00.000Z",
-  "endDate": "2026-11-11T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Noise as a Strategy — Workshop",
-  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
-  "url": "https://www.gorki.de/en/noise-as-a-strategy",
-  "image": [
-   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
-  ],
-  "startDate": "2026-11-11T16:00:00.000Z",
-  "endDate": "2026-11-11T17:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Eingangsfoyer",
-   "url": "https://www.gorki.de/en/spielorte/entree"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14231",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-12T12:00:00.000Z",
-  "endDate": "2026-11-12T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "Noise as a Strategy — Workshop",
-  "description": "When do you long for noise, and when for silence? How do you move through darkness? And when do you wear a mask? In Marco Fusinato’s installation IN THE CORPSE OF THE PRESENT at the Maxim Gorki Theater, Heinrich von Kleist’s The Prince of Homburg meets records played in slow motion, masks…",
-  "url": "https://www.gorki.de/en/noise-as-a-strategy",
-  "image": [
-   "https://www.gorki.de/api/media/file/Gorki_In_The_Corpse_of_the_Present_Marco_Fusinato_8890Card-1920x2559.png?prefix=staging"
-  ],
-  "startDate": "2026-11-12T16:00:00.000Z",
-  "endDate": "2026-11-12T17:30:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Eingangsfoyer",
-   "url": "https://www.gorki.de/en/spielorte/entree"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14232",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-13T12:00:00.000Z",
-  "endDate": "2026-11-13T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-14T12:00:00.000Z",
-  "endDate": "2026-11-14T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-14T20:00:00.000Z",
-  "endDate": "2026-11-14T21:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": {
-   "@type": "Place",
-   "name": "Rangfoyer",
-   "url": "https://www.gorki.de/en/spielorte/rangfoyer"
-  },
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
-  "name": "IN THE CORPSE OF THE PRESENT Prinz Friedrich von Homburg Heinrich von Kleist",
-  "description": "Marco Fusinato’s IN THE CORPSE OF THE PRESENT unfolds across two levels of the Maxim Gorki Theater for eight hours each day over twenty-one days. The work occupies both the theater’s former foyer, transformed into a stage on the ground floor, and the main theater hall on the first floor. These two…",
-  "url": "https://www.gorki.de/en/in-the-corpse-of-the-present-prinz-friedrich-von-homburg-2",
-  "image": [
-   "https://www.gorki.de/api/media/file/MarcoProjectPic2.png?prefix=staging"
-  ],
-  "startDate": "2026-11-15T12:00:00.000Z",
-  "endDate": "2026-11-15T20:00:00.000Z",
-  "eventStatus": "https://schema.org/EventScheduled",
-  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-  "location": [
-   {
-    "@type": "Place",
-    "name": "Gallery",
-    "url": "https://www.gorki.de/en/spielorte/gallery"
-   },
-   {
-    "@type": "Place",
-    "name": "Stage",
-    "url": "https://www.gorki.de/en/spielorte/saal"
-   }
-  ],
-  "organizer": {
-   "@id": "https://www.gorki.de/#organization"
-  },
-  "performer": [
-   {
-    "@type": "Person",
-    "name": "Marco Fusinato"
-   }
-  ],
-  "offers": {
-   "@type": "Offer",
-   "availability": "https://schema.org/InStock",
-   "price": "0",
-   "priceCurrency": "EUR"
-  }
- },
- {
-  "@type": "TheaterEvent",
   "name": "Music of Fears ",
   "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
   "url": "https://www.gorki.de/en/music-of-fears",
@@ -458,8 +83,8 @@
   "image": [
    "https://www.gorki.de/api/media/file/MusicOffearsCard-2.png?prefix=staging"
   ],
-  "startDate": "2026-11-29T18:30:00.000Z",
-  "endDate": "2026-11-29T20:30:00.000Z",
+  "startDate": "2026-11-29T17:00:00.000Z",
+  "endDate": "2026-11-29T19:00:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
   "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
   "location": {
@@ -494,7 +119,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-03T12:00:00.000Z",
   "endDate": "2026-12-03T18:30:00.000Z",
@@ -527,7 +152,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-03T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -557,7 +182,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-04T12:00:00.000Z",
   "endDate": "2026-12-04T18:30:00.000Z",
@@ -586,9 +211,12 @@
  },
  {
   "@type": "TheaterEvent",
-  "name": "BAM BAM BAM – First Episode",
-  "description": "Daniel Richter IT’S ENOUGH TO MAKE YOU CRY Pop music can’t do without tears, and neither can other genres. Painter Daniel Richter explores the art of tear-jerking music.",
-  "url": "https://www.gorki.de/en/bam-bam-bam/bam-bam-bam-0",
+  "name": "BAM BAM BAM",
+  "description": "For BAM BAM BAM, we invite figures from diverse fields to talk about what has shaped their musical tastes: a song, an album, a concert, or an entire genre. Whether they’re writers, artists, politicians, or athletes, what matters isn’t their fame, but the magic of their stories. Guests from the…",
+  "url": "https://www.gorki.de/en/bam-bam-bam",
+  "image": [
+   "https://www.gorki.de/api/media/file/PHOTO-2026-11-06-23-56-09.png?prefix=staging"
+  ],
   "startDate": "2026-12-04T18:30:00.000Z",
   "endDate": "2026-12-04T20:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -601,6 +229,16 @@
   "organizer": {
    "@id": "https://www.gorki.de/#organization"
   },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Imran Ayata"
+   },
+   {
+    "@type": "Person",
+    "name": "Daniel Richter"
+   }
+  ],
   "offers": {
    "@type": "Offer",
    "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14240",
@@ -613,7 +251,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-05T12:00:00.000Z",
   "endDate": "2026-12-05T18:30:00.000Z",
@@ -646,7 +284,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-05T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -677,7 +315,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-06T12:00:00.000Z",
   "endDate": "2026-12-06T18:30:00.000Z",
@@ -710,7 +348,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-06T17:00:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -741,7 +379,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-07T12:00:00.000Z",
   "endDate": "2026-12-07T18:30:00.000Z",
@@ -774,7 +412,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-08T12:00:00.000Z",
   "endDate": "2026-12-08T18:30:00.000Z",
@@ -807,7 +445,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-08T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -838,7 +476,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-09T12:00:00.000Z",
   "endDate": "2026-12-09T18:30:00.000Z",
@@ -871,7 +509,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-09T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -902,7 +540,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-10T12:00:00.000Z",
   "endDate": "2026-12-10T18:30:00.000Z",
@@ -935,7 +573,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-11T12:00:00.000Z",
   "endDate": "2026-12-11T18:30:00.000Z",
@@ -964,11 +602,33 @@
  },
  {
   "@type": "TheaterEvent",
+  "name": "PLAYBACK 1",
+  "description": "In recent years we have seen a revival of the mid-to-late 2000s, much of it driven by nostalgia for the early years of social media. Corporations had yet to see the commercial potential of these platforms, and we, as users, were far less aware of their mechanisms or of the symbolic capital…",
+  "url": "https://www.gorki.de/en/playback-sessions/playback-1-2",
+  "startDate": "2026-12-11T17:30:00.000Z",
+  "endDate": "2026-12-11T23:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Studio",
+   "url": "https://www.gorki.de/en/spielorte/studio"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "offers": {
+   "@type": "Offer",
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14241"
+  }
+ },
+ {
+  "@type": "TheaterEvent",
   "name": "The Hearing Trumpet",
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-12T12:00:00.000Z",
   "endDate": "2026-12-12T18:30:00.000Z",
@@ -1037,7 +697,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-13T12:00:00.000Z",
   "endDate": "2026-12-13T18:30:00.000Z",
@@ -1106,7 +766,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-14T12:00:00.000Z",
   "endDate": "2026-12-14T18:30:00.000Z",
@@ -1139,7 +799,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-15T12:00:00.000Z",
   "endDate": "2026-12-15T18:30:00.000Z",
@@ -1172,7 +832,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-16T12:00:00.000Z",
   "endDate": "2026-12-16T18:30:00.000Z",
@@ -1205,7 +865,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-17T12:00:00.000Z",
   "endDate": "2026-12-17T18:30:00.000Z",
@@ -1270,7 +930,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-18T12:00:00.000Z",
   "endDate": "2026-12-18T18:30:00.000Z",
@@ -1335,7 +995,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-19T12:00:00.000Z",
   "endDate": "2026-12-19T18:30:00.000Z",
@@ -1400,7 +1060,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-20T12:00:00.000Z",
   "endDate": "2026-12-20T18:30:00.000Z",
@@ -1469,7 +1129,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-21T12:00:00.000Z",
   "endDate": "2026-12-21T18:30:00.000Z",
@@ -1538,7 +1198,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-22T12:00:00.000Z",
   "endDate": "2026-12-22T18:30:00.000Z",
@@ -1607,7 +1267,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-23T12:00:00.000Z",
   "endDate": "2026-12-23T18:30:00.000Z",
@@ -1640,7 +1300,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-23T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1671,7 +1331,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-26T12:00:00.000Z",
   "endDate": "2026-12-26T18:30:00.000Z",
@@ -1704,7 +1364,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-26T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1759,7 +1419,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-27T17:00:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1790,7 +1450,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-28T12:00:00.000Z",
   "endDate": "2026-12-28T18:30:00.000Z",
@@ -1823,7 +1483,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-28T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1854,7 +1514,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-29T12:00:00.000Z",
   "endDate": "2026-12-29T18:30:00.000Z",
@@ -1887,7 +1547,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-29T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1918,7 +1578,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-30T12:00:00.000Z",
   "endDate": "2026-12-30T18:30:00.000Z",
@@ -1951,7 +1611,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-30T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1982,7 +1642,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger-1-1920x2716.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
   ],
   "startDate": "2026-12-31T12:00:00.000Z",
   "endDate": "2026-12-31T18:30:00.000Z",

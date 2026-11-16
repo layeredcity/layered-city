@@ -22,5 +22,9 @@
  {
   "@type": "ExhibitionEvent",
   "@id": "https://www.belvedere.at/en/feminist-futures-forever#exhibitionevent"
+ },
+ {
+  "@type": "ExhibitionEvent",
+  "@id": "https://www.belvedere.at/en/civa-2026#exhibitionevent"
  }
 ]

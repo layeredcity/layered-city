@@ -1,188 +1,7 @@
 SOURCE https://secession.at/en/
-FETCHED 2026-11-09T09:55:30.636Z
+FETCHED 2026-11-16T05:52:01.225Z
 HTTP 200
 
-Deprecated : Constant E_STRICT is deprecated in /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php on line 78
-A PHP Error was encountered
-Severity: Warning
-Message: ini_set(): Session ini settings cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 303
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: session_set_cookie_params(): Session cookie parameters cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 328
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: ini_set(): Session ini settings cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 355
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: ini_set(): Session ini settings cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 365
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: ini_set(): Session ini settings cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 366
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: ini_set(): Session ini settings cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 367
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: ini_set(): Session ini settings cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 368
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: ini_set(): Session ini settings cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 426
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: session_set_save_handler(): Session save handler cannot be changed after headers have already been sent
-Filename: Session/Session.php
-Line Number: 110
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
-A PHP Error was encountered
-Severity: Warning
-Message: session_start(): Session cannot be started after headers have already been sent
-Filename: Session/Session.php
-Line Number: 137
-Backtrace:
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/libraries/Session/MY_Session.php
-Line: 7
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/core/MY_Controller.php
-Line: 19
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/application/controllers/Frontend.php
-Line: 8
-Function: __construct
-File: /is/htdocs/wp12374585_50UH377PY8/www/secession.at/index.php
-Line: 292
-Function: require_once
 Secession
 Gehe zum Hauptinhalt
 Gehe zum Menü
@@ -276,12 +95,8 @@ Mehr Informationen zum Beethovenfries beethovenfries ⟨https://secession.at/bee
 Pause animations
 tickets kaufen tickets kaufen tickets kaufen tickets kaufen tickets kaufen ⟨https://secession.at/informationen_tickets⟩
 / veranstaltungen
-13.11. | 16:30 13. November, 16:30 Uhr Lecture Performance Marianne Vlaschits und Chanyoung Park: Where we stutter with pride and we speak with an accent with joy Mehr erfahren ⟨https://secession.at/lecture_performance_park_vlaschits⟩
 19.11. | 18:00 19. November, 18 Uhr Gespräch Kooperation Wien Modern: Bernhard Leitner im Gespräch mit Stefan Kraus Mehr erfahren ⟨https://secession.at/bernhard_leitner_stefan_kraus⟩
 03.12. | 19:00 3. Dezember, 19 Uhr Eröffnung Iza Tarasewicz | Beaux Mendes | Yoshinori Niwa Mehr erfahren ⟨https://secession.at/eroeffnung_tarasewicz_mendes_niwa⟩
-13.11. | 16:30 13. November, 16:30 Uhr
-Lecture Performance: Marianne Vlaschits und Chanyoung Park: Where we stutter with pride and we speak with an accent with joy
-Mehr erfahren ⟨https://secession.at/lecture_performance_park_vlaschits⟩
 19.11. | 18:00 19. November, 18 Uhr
 Gespräch: Kooperation Wien Modern: Bernhard Leitner im Gespräch mit Stefan Kraus
 Mehr erfahren ⟨https://secession.at/bernhard_leitner_stefan_kraus⟩
@@ -372,6 +187,7 @@ Alle Neuigkeiten ⟨https://secession.at/category/news⟩
 Pause animations
 Publikationen Publikationen Publikationen Publikationen Publikationen ⟨https://secession.at/category/digital_publication⟩
 / podcasts
+Secession Podcast Artists: Bernhard Leitner im Gespräch mit Jeanette Pacher Secession Podcast Artists: Bernhard Leitner im Gespräch mit Jeanette Pacher Mehr erfahren ⟨https://secession.at/podcast_bernhard_leitner_jeanette_pacher⟩
 Secession Podcast Artists: JJJJJerome Ellis im Gespräch mit Bettina Spörr Secession Podcast Artists: JJJJJerome Ellis im Gespräch mit Bettina Spörr Mehr erfahren ⟨https://secession.at/podcast_jjjjjerome_ellis_bettina_spoerr⟩
 Secession Podcast Artists: Lap-See Lam und Haris Giannouras - Lesung Secession Podcast Artists: Lap-See Lam und Haris Giannouras - Lesung Mehr erfahren ⟨https://secession.at/podcast_lap_see_lam_haris_giannouras⟩
 Secession Podcast Artists: Marianna Simnett im Gespräch mit Bettina Spörr Secession Podcast Artists: Marianna Simnett im Gespräch mit Bettina Spörr Mehr erfahren ⟨https://secession.at/podcast_marianna_simnett_bettina_spoerr⟩
@@ -461,10 +277,10 @@ Artists: B. Ingrid Olson im Gespräch mit Annette Südbeck Artists: B. Ingrid Ol
 Artists: Siggi Hofer im Gespräch mit Bettina Spörr Artists: Siggi Hofer im Gespräch mit Bettina Spörr Mehr erfahren ⟨https://secession.at/podcast_siggi_hofer_bettina_spoerr⟩
 Artists: DIS im Gespräch mit Jeanette Pacher Artists: DIS im Gespräch mit Jeanette Pacher Mehr erfahren ⟨https://secession.at/podcast_dis_jeanette_pacher⟩
 Artists: Dineo Seshee Bopape im Gespräch mit Annette Südbeck Artists: Dineo Seshee Bopape im Gespräch mit Annette Südbeck Mehr erfahren ⟨https://secession.at/podcast_dineo_seshee_bopape_annette_suedbeck⟩
+Secession Podcast Artists: Bernhard Leitner im Gespräch mit Jeanette Pacher Mehr erfahren ⟨https://secession.at/podcast_bernhard_leitner_jeanette_pacher⟩
 Secession Podcast Artists: JJJJJerome Ellis im Gespräch mit Bettina Spörr Mehr erfahren ⟨https://secession.at/podcast_jjjjjerome_ellis_bettina_spoerr⟩
 Secession Podcast Artists: Lap-See Lam und Haris Giannouras - Lesung Mehr erfahren ⟨https://secession.at/podcast_lap_see_lam_haris_giannouras⟩
 Secession Podcast Artists: Marianna Simnett im Gespräch mit Bettina Spörr Mehr erfahren ⟨https://secession.at/podcast_marianna_simnett_bettina_spoerr⟩
-Secession Podcast Artists: Katherine Hubbard im Gespräch mit Sophie Thun Mehr erfahren ⟨https://secession.at/podcast_katherine_hubbard_sophie_thun⟩
 Alle Podcasts ⟨https://secession.at/category/podcasts⟩
 Vereinigung bildender Künstler*innen Wiener Secession
 Friedrichstraße 12
