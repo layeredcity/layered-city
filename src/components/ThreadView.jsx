@@ -272,10 +272,17 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                   {c.tip && <p className="thread-ch__tip"><span className="thread-ch__tip-label">If you go</span>{c.tip}</p>}
                   {c.stories.length > 0 && (
                     <div className={'thread-ch__stories ' + rd(`c${i}-m`)} data-rk={`c${i}-m`}>
-                      {(c.mediaNote
-                        ? c.stories.map(id => stories[id]).filter(Boolean) // listed in the order the narrator describes them
-                        : c.stories.map(id => stories[id]).filter(Boolean).sort((a, b) => typeRank(a) - typeRank(b))
-                      ).map(st => <div key={st.id}>{renderStory(st)}</div>)}
+                      {c.mediaNote
+                        // Listed in the order the narrator describes them. While one
+                        // is being described it plays its hover state and the others dim.
+                        ? c.stories.map((id, j) => {
+                          const st = stories[id]
+                          if (!st) return null
+                          const k = `c${i}-m${j}`
+                          const describing = readingKey && readingKey.startsWith(`c${i}-m`) && readingKey !== `c${i}-m`
+                          return <div key={st.id} data-rk={k} className={'thread-ch__story' + (readingKey === k ? ' is-described' : describing ? ' is-dimmed' : '')}>{renderStory(st)}</div>
+                        })
+                        : c.stories.map(id => stories[id]).filter(Boolean).sort((a, b) => typeRank(a) - typeRank(b)).map(st => <div key={st.id}>{renderStory(st)}</div>)}
                     </div>
                   )}
                 </div>

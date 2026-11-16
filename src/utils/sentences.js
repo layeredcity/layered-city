@@ -19,7 +19,19 @@ export function speakable(text) {
 // Each segment is a list of parts; each part has the key of the element it
 // highlights and the words to say. A chapter's optional `mediaNote` is spoken
 // last and never shown: it says what the stories listed under the chapter
-// are, while the page scrolls down to them.
+// are, while the page scrolls down to them. It is { lead, items }: an
+// optional lead-in (key c<i>-m, the whole list) and one entry per story, in
+// the order of the chapter's `stories` (key c<i>-m<j>, that story). A plain
+// string is read as a lead-in only.
+function mediaParts(c, i) {
+  const n = c.mediaNote
+  if (!n || !c.stories?.length) return []
+  if (typeof n === 'string') return [{ key: `c${i}-m`, say: n }]
+  return [
+    ...(n.lead ? [{ key: `c${i}-m`, say: n.lead }] : []),
+    ...(n.items || []).map((say, j) => (say ? { key: `c${i}-m${j}`, say } : null)).filter(Boolean),
+  ]
+}
 export function threadScript(thread) {
   const intro = thread.intro.join(' ')
   const segs = [[
@@ -30,7 +42,7 @@ export function threadScript(thread) {
     segs.push([
       { key: `c${i}-h`, say: `${c.heading}. ${c.place}.` },
       ...sentences(c.text).map((s, j) => ({ key: `c${i}-${j}`, say: s })),
-      ...(c.mediaNote && c.stories?.length ? [{ key: `c${i}-m`, say: c.mediaNote }] : []),
+      ...mediaParts(c, i),
     ])
   })
   return segs.map(parts => parts.map(p => ({ ...p, say: speakable(p.say) })))

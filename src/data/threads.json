@@ -566,7 +566,11 @@
         ],
         "image": "Vincent van Gogh - 87 Hackford Road.jpg",
         "tip": "The house is now Van Gogh House, an artists’ residency that opens for events. A blue plaque marks it.",
-        "mediaNote": "There is a podcast episode below about his time in London. It asks how the city set him on the road to painting."
+        "mediaNote": {
+          "items": [
+            "If you want more on his London years, a podcast episode asks how the city set him on the road to painting."
+          ]
+        }
       },
       {
         "city": "Amsterdam",
@@ -581,7 +585,11 @@
           "1o2RdmtDvgQtzZanOXSpSY"
         ],
         "image": "Rembrandt - The Jewish Bride - WGA19158.jpg",
-        "mediaNote": "There is a podcast episode below about The Jewish Bride. It looks closely at the painting he sat in front of for hours."
+        "mediaNote": {
+          "items": [
+            "To look more closely at The Jewish Bride, there is a podcast episode about the painting he sat in front of for hours."
+          ]
+        }
       },
       {
         "city": "Amsterdam",
@@ -597,7 +605,13 @@
           "66kEXXXtJTfmsoxggRmXkT"
         ],
         "image": "The Potato Eaters - Vincent Van Gogh.jpg",
-        "mediaNote": "There are two videos below about The Potato Eaters. The longer one explains what Van Gogh wanted the painting to say, and why critics disliked it. In the shorter one, two art historians look at why he painted farm workers, and how the rough brushwork suits the family’s hard life."
+        "mediaNote": {
+          "lead": "Here are two ways to look harder at The Potato Eaters.",
+          "items": [
+            "A longer video explains what Van Gogh wanted the painting to say, and why critics disliked it.",
+            "In a shorter one, two art historians look at why he painted farm workers, and how the rough brushwork suits the family’s hard life."
+          ]
+        }
       },
       {
         "city": "Paris",
@@ -612,7 +626,11 @@
           "6lWY1gvcguooGWlPNrxcKN"
         ],
         "image": "54 rue Lepic, Theo and Vincent Van Goghs Paris house 2010.jpg",
-        "mediaNote": "There is a podcast episode below about these two years. Two art historians explain how Paris and the Japanese prints changed the way he painted."
+        "mediaNote": {
+          "items": [
+            "For more on these two years, there is a podcast episode in which two art historians explain how Paris and the Japanese prints changed the way he painted."
+          ]
+        }
       },
       {
         "city": "Arles",
@@ -629,7 +647,14 @@
           "Btn7N1fvnk9k7og6Q5yBZ"
         ],
         "image": "Vincent van Gogh - The yellow house ('The street').jpg",
-        "mediaNote": "There are three things below. A podcast episode looks at Starry Night over the Rhône, his painting of the stars over the river. A feature-length documentary follows the sunflower paintings from Arles to museums around the world. A short video looks at the self-portrait Gauguin sent him that year."
+        "mediaNote": {
+          "lead": "Three things here take you further into that year in Arles.",
+          "items": [
+            "A podcast episode looks at Starry Night over the Rhône, his painting of the stars over the river.",
+            "A feature-length documentary follows the sunflower paintings from Arles to museums around the world.",
+            "A short video looks at the self-portrait Gauguin sent him that year."
+          ]
+        }
       },
       {
         "city": "Arles",
@@ -645,7 +670,13 @@
           "59uqvkdnKaZxcxJ9tIffee"
         ],
         "image": "Arles - Espace Van Gogh 1.jpg",
-        "mediaNote": "There is a podcast episode below that takes a slow look at the self-portrait with the bandaged ear. That painting now hangs in the Courtauld Gallery in London. There is also a short video that argues his colours and compositions often reflected his state of mind."
+        "mediaNote": {
+          "lead": "There are two ways to stay with this part of the story.",
+          "items": [
+            "A podcast episode takes a slow look at the self-portrait with the bandaged ear, which now hangs in the Courtauld Gallery in London.",
+            "A short video argues that his colours and compositions often reflected his state of mind."
+          ]
+        }
       },
       {
         "city": "Paris",
@@ -662,7 +693,14 @@
           "NaliSk6OgyfU5UhCgyAzV"
         ],
         "image": "Vincent van Gogh - Wheatfield with crows - Google Art Project.jpg",
-        "mediaNote": "There are three things below. In a podcast episode, two art historians go through his last weeks in Auvers. A video looks at Tree Roots, and at the recent discovery of the exact spot he painted. Loving Vincent is a feature film that investigates how he died, and every frame of it is an oil painting."
+        "mediaNote": {
+          "lead": "If you want to know more about how it ended, there are three places to go.",
+          "items": [
+            "In a podcast episode, two art historians go through his last weeks in Auvers.",
+            "A video looks at Tree Roots, and at the recent discovery of the exact spot he painted.",
+            "Loving Vincent is a feature film that investigates how he died, and every frame of it is an oil painting."
+          ]
+        }
       },
       {
         "city": "Amsterdam",
@@ -679,7 +717,13 @@
         ],
         "image": "Van Gogh Museum Amsterdam.jpg",
         "tip": "Tickets are timed and sell out; book online. The paintings are hung in the order he made them.",
-        "mediaNote": "There is a podcast episode below about Jo, and how she made Van Gogh famous. There is also a long biography, Van Gogh: The Life, which is built on his letters."
+        "mediaNote": {
+          "lead": "Two things here carry the story on.",
+          "items": [
+            "A podcast episode tells how Jo made Van Gogh famous.",
+            "Van Gogh: The Life is a long biography, built on his letters."
+          ]
+        }
       }
     ]
   },
@@ -3861,7 +3905,13 @@
           "4vpcEJW9kY5qAT8v3wOGx2"
         ],
         "image": "Wohnhausanlage Meldemannstraße 2–4 IMG 3597.jpg",
-        "mediaNote": "There are two things below. A book describes the Vienna Hitler knew, a city of cheap hostels and resentment. An audio tour walks you past his lodgings and the academy that rejected him."
+        "mediaNote": {
+          "lead": "Two things here show you the Vienna that shaped him.",
+          "items": [
+            "A book describes the city Hitler knew, a place of cheap hostels and resentment.",
+            "An audio tour walks you past his lodgings and the academy that rejected him."
+          ]
+        }
       },
       {
         "city": "Rome",
@@ -3890,7 +3940,14 @@
           }
         ],
         "image": "Palazzo Venezia (Rome) - Exterior.jpg",
-        "mediaNote": "There are three things below. One podcast episode covers his rise, starting with the meeting in Milan. Another covers his fall in 1943. A book follows what happened to his body after Piazzale Loreto, which was buried, stolen, and fought over for years."
+        "mediaNote": {
+          "lead": "Here are three ways to follow Mussolini from start to finish.",
+          "items": [
+            "One podcast episode covers his rise, starting with the meeting in Milan.",
+            "Another covers his fall in 1943.",
+            "A book follows what happened to his body after Piazzale Loreto, which was buried, stolen, and fought over for years."
+          ]
+        }
       },
       {
         "city": "Lisbon",
@@ -3907,7 +3964,14 @@
           "4MvUQ8msWQl0dyrRx3jdIS"
         ],
         "image": "Museu do Aljube.jpg",
-        "mediaNote": "There are three things below. A documentary tells the story of the secret police using only prisoners’ mugshots and survivors’ voices. A feature film re-creates the day of the 1974 coup. A book covers the same day in more detail."
+        "mediaNote": {
+          "lead": "To see what the regime did, and how it ended, there are three things here.",
+          "items": [
+            "A documentary tells the story of the secret police using only prisoners’ mugshots and survivors’ voices.",
+            "A feature film re-creates the day of the 1974 coup.",
+            "A book covers the same day in more detail."
+          ]
+        }
       },
       {
         "city": "Madrid",
@@ -3923,7 +3987,13 @@
           "5pK0fg6tm0VuYLcFtSzWST"
         ],
         "image": "Cementerio de la Almudena (28227025725).jpg .jpg",
-        "mediaNote": "There are two things below. A documentary follows victims of the regime as they go to court decades later. A long history book counts the civilians killed by Franco’s side."
+        "mediaNote": {
+          "lead": "Two things here go deeper into the killing and the silence.",
+          "items": [
+            "A documentary follows victims of the regime as they go to court decades later.",
+            "A long history book counts the civilians killed by Franco’s side."
+          ]
+        }
       },
       {
         "city": "Oslo",
@@ -3938,7 +4008,11 @@
           "4vF7yd0OxggnXNm0L2xOBI"
         ],
         "image": "Villa grande oslo.jpg",
-        "mediaNote": "There is a podcast episode below about Quisling, and how his name became an insult."
+        "mediaNote": {
+          "items": [
+            "For the full story of Quisling, there is a podcast episode about him, and about how his name became an insult."
+          ]
+        }
       },
       {
         "city": "Berlin",
@@ -3954,7 +4028,13 @@
           "3BPhEGsTHPCsQhL0zbiHbS"
         ],
         "image": "Führerbunker, Berlin (Ank Kumar, Infosys).jpg",
-        "mediaNote": "There are two things below. A short video shows the bunker’s rooms as they were found, and what became of them. Downfall is a German feature film about Hitler’s last ten days, based on his secretary’s memoir."
+        "mediaNote": {
+          "lead": "There are two ways to get inside the bunker.",
+          "items": [
+            "A short video shows the rooms as they were found, and what became of them.",
+            "Downfall is a German feature film about Hitler’s last ten days, based on his secretary’s memoir."
+          ]
+        }
       },
       {
         "city": "Belgrade",
@@ -3971,7 +4051,14 @@
           "1qhfLEBLH74JSaviSSuRjX"
         ],
         "image": "Grob Josipa Broza Tita.jpg",
-        "mediaNote": "There are three things below. One podcast episode covers the break with Stalin. Another covers Tito’s death and what followed. There is also a short biography."
+        "mediaNote": {
+          "lead": "If Tito interests you, there are three things to try.",
+          "items": [
+            "One podcast episode covers the break with Stalin.",
+            "Another covers his death and what followed.",
+            "There is also a short biography."
+          ]
+        }
       },
       {
         "city": "Athens",
@@ -3987,7 +4074,13 @@
           "3PI1nu0yW7fkwZL8i4dzSI"
         ],
         "image": "Μετσόβιο Πολυτεχνείο 7936.JPG",
-        "mediaNote": "There are two short podcast episodes below. In one, a resistance fighter describes the coup and what happened to him afterwards. The other reports on the students at the Polytechnic."
+        "mediaNote": {
+          "lead": "Two short podcast episodes here bring these years closer.",
+          "items": [
+            "In one, a resistance fighter describes the coup and what happened to him afterwards.",
+            "The other reports on the students at the Polytechnic."
+          ]
+        }
       },
       {
         "city": "Bucharest",
@@ -4004,7 +4097,14 @@
           "5S9gIYK7Yh9kXKxPXUBO76"
         ],
         "image": "Imperio Eroii Revolutiei.jpg",
-        "mediaNote": "There are three things below. A podcast episode covers the speech and the execution. A short video is about the palace. In another podcast episode, a British diplomat describes watching Romania go hungry in the early 1980s."
+        "mediaNote": {
+          "lead": "Here are three ways into Ceaușescu’s last decade.",
+          "items": [
+            "A podcast episode covers the speech and the execution.",
+            "A short video is about the palace.",
+            "In another podcast episode, a British diplomat describes watching Romania go hungry in the early 1980s."
+          ]
+        }
       }
     ],
     "image": "Palace of the Parliament in Bucharest (51878975552).jpg"
@@ -6577,7 +6677,11 @@
           "3AElNRc8EqJwtHQsmQ7v8Q"
         ],
         "image": "Mercati di Traiano - Roma.jpg",
-        "mediaNote": "There is a short video below about how Trajan’s Markets were built and what they held."
+        "mediaNote": {
+          "items": [
+            "To see how it was put together, there is a short video about how Trajan’s Markets were built and what they held."
+          ]
+        }
       },
       {
         "city": "Kraków",
@@ -6594,7 +6698,14 @@
           "6H8MijSaftQDPCSzRwxcbU"
         ],
         "image": "Kraków Cloth Hall, Café Noworolski, 3 Main Market square, Old Town, Kraków, Poland.jpg",
-        "mediaNote": "There are three things below. A podcast episode tells how Kraków grew rich on trade and survived the Mongols. One short video goes down into the museum under the square. Another visits the farmers’ stalls at Stary Kleparz."
+        "mediaNote": {
+          "lead": "There are three ways to explore Kraków’s markets further.",
+          "items": [
+            "A podcast episode tells how the city grew rich on trade and survived the Mongols.",
+            "One short video goes down into the museum under the square.",
+            "Another visits the farmers’ stalls at Stary Kleparz."
+          ]
+        }
       },
       {
         "city": "Istanbul",
@@ -6610,7 +6721,13 @@
           "MO7LS3ob7mNSqwyhVSLj7"
         ],
         "image": "Sample of Tee - Grand Bazaar.JPG",
-        "mediaNote": "There are two things below. A podcast episode tells the bazaar’s history, including its darker stories. A short video walks through the lanes."
+        "mediaNote": {
+          "lead": "Two things here take you inside the bazaar.",
+          "items": [
+            "A podcast episode tells its history, including its darker stories.",
+            "A short video walks through the lanes."
+          ]
+        }
       },
       {
         "city": "Amsterdam",
@@ -6625,7 +6742,11 @@
           "6c69cvTtZ4kUo9oNmbNQMS"
         ],
         "image": "Amsterdam - Singel - Bloemenmarkt - Flowermarket - View WNW I.jpg",
-        "mediaNote": "There is a short podcast episode below in which an economist explains how the tulip trade worked."
+        "mediaNote": {
+          "items": [
+            "If you want to understand the bubble, there is a short podcast episode in which an economist explains how the tulip trade worked."
+          ]
+        }
       },
       {
         "city": "Madrid",
@@ -6641,7 +6762,13 @@
           "2duQuuspRgk4RLysKrzt7I"
         ],
         "image": "El Rastro de Madrid 50.jpg",
-        "mediaNote": "There are two things below. A podcast episode recorded at El Rastro describes what is for sale and gives tips for a visit. A short video picks out things to eat at the Mercado de San Miguel."
+        "mediaNote": {
+          "lead": "Here are two things worth a look before a Sunday in Madrid.",
+          "items": [
+            "A podcast episode recorded at El Rastro describes what is for sale and gives tips for a visit.",
+            "A short video picks out things to eat at the Mercado de San Miguel."
+          ]
+        }
       },
       {
         "city": "Florence",
@@ -6656,7 +6783,11 @@
           "2FtvSfb1xijQw5ddSxSMkb"
         ],
         "image": "Mercato centrale di san lorenzo 02.jpg",
-        "mediaNote": "There is a video below about lampredotto, and the people who queue for it."
+        "mediaNote": {
+          "items": [
+            "If you are curious about that sandwich, there is a video about lampredotto, and the people who queue for it."
+          ]
+        }
       },
       {
         "city": "Paris",
@@ -6671,7 +6802,11 @@
           "18N7PgeNVqE8aDlQWrRQXI"
         ],
         "image": "Saint-Ouen-sur-Seine (93) Marché aux puces 977.jpg",
-        "mediaNote": "There is a short video below that explores the stalls at Les Puces and stops for lunch."
+        "mediaNote": {
+          "items": [
+            "To see what it looks like today, there is a short video that explores the stalls at Les Puces and stops for lunch."
+          ]
+        }
       },
       {
         "city": "Budapest",
@@ -6687,7 +6822,13 @@
           "RU5VTxVtvAoc7YWpDBA7H"
         ],
         "image": "Budapest - Great Market Hall (Nagyvásárcsarnok).jpg",
-        "mediaNote": "There are two videos below. One looks around the market hall. The other tells the story of goulash, the paprika stew that became Hungary’s national dish."
+        "mediaNote": {
+          "lead": "Two videos here go further into the hall and its food.",
+          "items": [
+            "One looks around the market hall.",
+            "The other tells the story of goulash, the paprika stew that became Hungary’s national dish."
+          ]
+        }
       },
       {
         "city": "Glasgow",
@@ -6703,7 +6844,13 @@
           "4dRqgAdCkLzOGR5ROf20Ye"
         ],
         "image": "2002-04-Glasgow-Bain-Street-The-Barras.jpg",
-        "mediaNote": "There are two things below. A video marks a hundred years of the Barras. A podcast episode tells the story of the Barrowland Ballroom."
+        "mediaNote": {
+          "lead": "There are two ways to hear more about Maggie McIver’s market.",
+          "items": [
+            "A video marks a hundred years of the Barras.",
+            "A podcast episode tells the story of the Barrowland Ballroom."
+          ]
+        }
       },
       {
         "city": "Marseille",
@@ -6720,7 +6867,13 @@
         ],
         "tip": "Get there by 8; most of the fish is gone by mid-morning.",
         "image": "Marseille (France), fish market in Vieux-Port, 2013.JPG",
-        "mediaNote": "There are two things below. A podcast episode uses bouillabaisse to tell the story of who came to Marseille. The other is the Julia Child episode, in which she makes the stew."
+        "mediaNote": {
+          "lead": "Two things here follow the fish from the quay to the pot.",
+          "items": [
+            "A podcast episode uses bouillabaisse to tell the story of who came to Marseille.",
+            "The other is the Julia Child episode, in which she makes the stew."
+          ]
+        }
       }
     ],
     "image": "Istanbul - Grand Bazaar (55107617958).jpg"

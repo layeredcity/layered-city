@@ -118,7 +118,8 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .word-row__grp { display: block; font-size: 12px; font-style: italic; line-height: 1.45; color: var(--ink-light); margin-top: 6px; padding-top: 6px; border-top: 1px dashed var(--border); }
 
 .story-item { display: flex; align-items: flex-start; gap: 14px; padding: 16px; border-bottom: 1px solid var(--border); cursor: pointer; transition: background var(--transition); }
-.story-item:hover { background: rgba(220,232,249,0.5); }
+.story-item:hover,
+.is-described .story-item { background: rgba(220,232,249,0.5); }
 .story-item__icon-podcast { width: 64px; height: 64px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon-video { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--border); border: 2px solid white; box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon-album { width: 64px; height: 64px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
@@ -141,10 +142,13 @@ img.city-hero__img.is-loaded { opacity: 1; }
   transition: transform 0.45s cubic-bezier(.2,.7,.2,1), box-shadow 0.45s ease;
 }
 .story-item:hover .story-item__icon-tourstack__back,
+.is-described .story-item .story-item__icon-tourstack__back,
 .story-item__icon-tourstack:hover .story-item__icon-tourstack__back { box-shadow: 0 1px 4px rgba(0,0,0,0.22); }
 .story-item:hover .story-item__icon-tourstack__back--1,
+.is-described .story-item .story-item__icon-tourstack__back--1,
 .story-item__icon-tourstack:hover .story-item__icon-tourstack__back--1 { transform: rotate(3deg) translate(2px, 1px); }
 .story-item:hover .story-item__icon-tourstack__back--2,
+.is-described .story-item .story-item__icon-tourstack__back--2,
 .story-item__icon-tourstack:hover .story-item__icon-tourstack__back--2 { transform: rotate(-4.5deg) translate(-3px, 2px); }
 /* The top photo: white Polaroid frame, clips its image + flash. */
 .story-item__icon-tourwrap {
@@ -156,24 +160,32 @@ img.city-hero__img.is-loaded { opacity: 1; }
 .story-item__icon-tourwrap .story-item__icon-tour { display: block; box-shadow: none; border-radius: 0; }
 .story-item__icon-tourwrap__flash { position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }
 .story-item:hover .story-item__icon-tourstack,
+.is-described .story-item .story-item__icon-tourstack,
 .story-item__icon-tourstack:hover { transform: scale(1.08) rotate(-2.5deg); z-index: 3; }
 .story-item:hover .story-item__icon-tourwrap,
+.is-described .story-item .story-item__icon-tourwrap,
 .story-item__icon-tourstack:hover .story-item__icon-tourwrap { box-shadow: 0 10px 24px rgba(0,0,0,0.32); }
 .story-item:hover .story-item__icon-tourwrap .story-item__icon-tour,
+.is-described .story-item .story-item__icon-tourwrap .story-item__icon-tour,
 .story-item__icon-tourstack:hover .story-item__icon-tourwrap .story-item__icon-tour { animation: tour-develop 4.2s cubic-bezier(.2,.7,.2,1); }
 .story-item:hover .story-item__icon-tourwrap__flash,
+.is-described .story-item .story-item__icon-tourwrap__flash,
 .story-item__icon-tourstack:hover .story-item__icon-tourwrap__flash { animation: tour-flash 1.2s ease-out; }
 @keyframes tour-flash { 0% { opacity: 0; } 4% { opacity: 0.92; } 24% { opacity: 0; } 100% { opacity: 0; } }
 @keyframes tour-develop { 0%, 8% { filter: brightness(1.9) contrast(0.3) saturate(0.1); } 100% { filter: none; } }
 @media (prefers-reduced-motion: reduce) {
   .story-item:hover .story-item__icon-tourstack,
-  .story-item__icon-tourstack:hover,
-  .story-item:hover .story-item__icon-tourstack__back,
-  .story-item__icon-tourstack:hover .story-item__icon-tourstack__back { transform: none; }
+.is-described .story-item .story-item__icon-tourstack,
+.story-item__icon-tourstack:hover,
+.story-item:hover .story-item__icon-tourstack__back,
+.is-described .story-item .story-item__icon-tourstack__back,
+.story-item__icon-tourstack:hover .story-item__icon-tourstack__back { transform: none; }
   .story-item:hover .story-item__icon-tourwrap .story-item__icon-tour,
-  .story-item__icon-tourstack:hover .story-item__icon-tourwrap .story-item__icon-tour,
-  .story-item:hover .story-item__icon-tourwrap__flash,
-  .story-item__icon-tourstack:hover .story-item__icon-tourwrap__flash { animation: none; }
+.is-described .story-item .story-item__icon-tourwrap .story-item__icon-tour,
+.story-item__icon-tourstack:hover .story-item__icon-tourwrap .story-item__icon-tour,
+.story-item:hover .story-item__icon-tourwrap__flash,
+.is-described .story-item .story-item__icon-tourwrap__flash,
+.story-item__icon-tourstack:hover .story-item__icon-tourwrap__flash { animation: none; }
 }
 /* Music: album cover is a record sleeve; a vinyl disc slides out on hover. */
 .story-item__icon-record { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 700px; }
@@ -196,13 +208,16 @@ img.city-hero__img.is-loaded { opacity: 1; }
   transition: transform 0.55s cubic-bezier(.2,.7,.2,1), box-shadow 0.55s ease;
 }
 .story-item:hover .story-item__icon-record__vinyl,
+.is-described .story-item .story-item__icon-record__vinyl,
 .story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(8px) rotate(22deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
 .story-item:hover .story-item__icon-record .story-item__icon-album,
+.is-described .story-item .story-item__icon-record .story-item__icon-album,
 .story-item__icon-record:hover .story-item__icon-album { transform: translateX(-8px) rotateY(-20deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
 /* Podcast: the cover tile tilts on hover. */
 .story-item__icon-viz { position: relative; display: inline-block; line-height: 0; flex-shrink: 0; perspective: 340px; }
 .story-item__icon-viz > :first-child { transition: transform 0.4s cubic-bezier(.2,.7,.2,1), box-shadow 0.4s ease; transform-origin: center center; }
 .story-item:hover .story-item__icon-viz > :first-child,
+.is-described .story-item .story-item__icon-viz > :first-child,
 .story-item__icon-viz:hover > :first-child { transform: rotateY(32deg); box-shadow: -4px 3px 12px rgba(0,0,0,0.28); }
 .story-item__icon-poster { width: 60px; height: 90px; border-radius: 2px; object-fit: cover; flex-shrink: 0; background: var(--border); box-shadow: 0 2px 8px rgba(0,0,0,0.2); }
 .story-item__icon--placeholder { background: var(--border); display: flex; align-items: center; justify-content: center; font-size: 13px; font-weight: 600; color: var(--ink-light); flex-shrink: 0; width: 64px; height: 64px; }
@@ -241,12 +256,16 @@ img.city-hero__img.is-loaded { opacity: 1; }
   mask: radial-gradient(circle closest-side at 50% 50%, transparent 0 24%, #000 26% 100%);
 }
 .story-item:hover .story-item__icon-case__disc,
+.is-described .story-item .story-item__icon-case__disc,
 .story-item__icon-case:hover .story-item__icon-case__disc { transform: translateX(12px); box-shadow: 0 1px 3px rgba(0,0,0,0.22); }
 .story-item:hover .story-item__icon-case__disc::before,
+.is-described .story-item .story-item__icon-case__disc::before,
 .story-item__icon-case:hover .story-item__icon-case__disc::before { animation: discShimmer 2.6s linear infinite; }
 @keyframes discShimmer { to { transform: rotate(1turn); } }
 .story-item:hover .story-item__icon-case .story-item__icon-poster,
+.is-described .story-item .story-item__icon-case .story-item__icon-poster,
 .story-item:hover .story-item__icon-case .story-item__icon--placeholder-poster,
+.is-described .story-item .story-item__icon-case .story-item__icon--placeholder-poster,
 .story-item__icon-case:hover .story-item__icon-poster,
 .story-item__icon-case:hover .story-item__icon--placeholder-poster { transform: translateX(var(--case-slide)) rotateY(-34deg); box-shadow: 4px 3px 14px rgba(0,0,0,0.3); }
 /* Books get a faux binding on the left edge + asymmetric corner rounding.
@@ -268,6 +287,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
   opacity: 0; transition: opacity 0.25s ease;
 }
 .story-item:hover .story-item__icon-book__pages,
+.is-described .story-item .story-item__icon-book__pages,
 .story-item__icon-book:hover .story-item__icon-book__pages { opacity: 1; }
 /* The cover: rotates around the spine (left edge) on hover. */
 .story-item__icon-book__cover {
@@ -276,6 +296,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
   transition: transform 0.5s cubic-bezier(.2,.7,.2,1);
 }
 .story-item:hover .story-item__icon-book__cover,
+.is-described .story-item .story-item__icon-book__cover,
 .story-item__icon-book:hover .story-item__icon-book__cover { transform: rotateY(-40deg); }
 /* Binding lines live on the cover so they swing with it. */
 .story-item__icon-book__cover::before,
@@ -285,6 +306,7 @@ img.city-hero__img.is-loaded { opacity: 1; }
 /* Deepen + throw the cover's shadow as it lifts. */
 .story-item__icon-book__cover .story-item__icon-poster--book { transition: box-shadow 0.5s ease; }
 .story-item:hover .story-item__icon-poster--book,
+.is-described .story-item .story-item__icon-poster--book,
 .story-item__icon-book:hover .story-item__icon-poster--book { box-shadow: 4px 3px 14px rgba(0,0,0,0.32); }
 /* Food rows are not clickable — no hover state, no cursor change — because the
    description is already on the row and there is nothing further to open. */
@@ -518,7 +540,8 @@ img.city-hero__img.is-loaded { opacity: 1; }
   .story-item__icon-album { width: 96px; height: 96px; border-radius: 2px; }
   .story-item__icon-record__vinyl { width: 96px; height: 96px; }
   .story-item:hover .story-item__icon-record__vinyl,
-  .story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(12px) rotate(22deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
+.is-described .story-item .story-item__icon-record__vinyl,
+.story-item__icon-record:hover .story-item__icon-record__vinyl { transform: translateX(12px) rotate(22deg); box-shadow: 4px 0 9px rgba(0,0,0,0.2); }
   .story-item__icon-poster { width: 88px; height: 132px; }
   .story-item__icon--placeholder-poster { width: 88px; height: 132px; font-size: 14px; }
   .story-item__icon-case { --case-slide: -18px; }
@@ -860,7 +883,10 @@ html[data-vt="close"]::view-transition-old(root) { z-index: 2; animation: lc-unr
 /* Touch screens: no row highlight. On phones :hover sticks to whatever you
    touched while scrolling, which flashed rows blue. Desktop keeps it. */
 @media (hover: none) {
-  .story-item:hover, .event-item--row:hover, .landmark-item:hover { background: transparent; }
+  .story-item:hover,
+.is-described .story-item,
+.event-item--row:hover,
+.landmark-item:hover { background: transparent; }
   .story-item, .event-item--row, .landmark-item, .overview-item { -webkit-tap-highlight-color: transparent; }
 }
 /* Desktop: the landmark pop-up runs 50px shorter than other pop-ups. */
@@ -1130,3 +1156,8 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-player__btn svg { width: 18px; height: 18px; }
 .thread-player__btn--stop { background: transparent; color: rgba(255,255,255,0.8); }
 .thread-player__label { font: 500 14px var(--font-body); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+
+/* Thread narration: while the narrator describes one of a chapter's stories,
+   that story plays its hover state (the selectors above) and the rest dim. */
+.thread-ch__story { transition: opacity 0.4s ease; }
+.thread-ch__story.is-dimmed { opacity: 0.35; }
