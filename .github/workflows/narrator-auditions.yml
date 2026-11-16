@@ -1,0 +1,30 @@
+# Records short audition clips of candidate thread narrators with ElevenLabs
+# and commits them to voices/narrator-auditions/. Needs the ELEVENLABS_API_KEY
+# secret. Runs when voices/run-narrator-auditions or the script changes.
+name: Narrator auditions
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [voices/run-narrator-auditions, scripts/narrator-auditions.mjs, .github/workflows/narrator-auditions.yml]
+permissions:
+  contents: write
+jobs:
+  audition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/narrator-auditions.mjs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+      - run: |
+          git add -A voices/narrator-auditions voices/narrator-auditions.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City narrator auditions"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Narrator auditions"
+          git pull --rebase origin main
+          git push origin HEAD:main
