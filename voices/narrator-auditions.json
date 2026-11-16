@@ -1,0 +1,346 @@
+{
+ "generated": "2026-11-16T02:27:13.854Z",
+ "text": "He dreamed of a “studio of the south” where artists would live and work together, and he talked Gauguin into joining him. The two men painted side by side for nine weeks, but they argued constantly. On the night of 23 December 1888, after a bad quarrel, Van Gogh cut off part of his left ear with a razor.",
+ "current": "XrExE9yKIg1WjnnlVkGX",
+ "voices": [
+  {
+   "voice_id": "XrExE9yKIg1WjnnlVkGX",
+   "name": "Matilda - Knowledgable, Professional",
+   "current": true,
+   "gender": "female",
+   "accent": "american",
+   "description": "A professional woman with a pleasing alto pitch. Suitable for many use cases.",
+   "clips": [
+    {
+     "label": "v2-current",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.5,
+      "similarity_boost": 0.75,
+      "style": 0.15
+     },
+     "timed": true,
+     "file": "XrExE9yKIg1WjnnlVkGX-v2-current.mp3"
+    },
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "XrExE9yKIg1WjnnlVkGX-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "XrExE9yKIg1WjnnlVkGX-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "Se2Vw1WbHmGbBbyWTuu4",
+   "owner": "89aa1f4768185949a1b12bf3aa6a9f31995d2cf8ff70e9051d4e2dfa758d1ab5",
+   "name": "Allison - Inviting and Velvety",
+   "gender": "female",
+   "age": "young",
+   "accent": "British",
+   "description": "A smooth British accent that is elegant and engaging. A perfect choice for audiobook narration and YouTube. ",
+   "uses_1y": 9991889308,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "Se2Vw1WbHmGbBbyWTuu4-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "Se2Vw1WbHmGbBbyWTuu4-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "ZF6FPAbjXT4488VcRRnw",
+   "owner": "9265ac49c437181ced8d508db9b8248e1b839589ba453afca0db0f9d60ff389a",
+   "name": "Amelia - Enthusiastic and Expressive",
+   "gender": "female",
+   "age": "young",
+   "accent": "British",
+   "description": "A young British English woman's voice, clear and easy to understand. Expressive and enthusiastic, it's beautiful for narration, podcasts and social media such as YouTube, Tiktok, Reels and Stories. This studio-produced audio is great for a ",
+   "uses_1y": 5685891499,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "ZF6FPAbjXT4488VcRRnw-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "ZF6FPAbjXT4488VcRRnw-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "19STyYD15bswVz51nqLf",
+   "owner": "6643afd1d55a6987b18e340e00bb89ed60329c878a01823e0c10a50fb522bd76",
+   "name": "Samara X - Smooth Classy British",
+   "gender": "female",
+   "age": "middle_aged",
+   "accent": "British",
+   "description": "A smooth, high-quality British female voice with an elegant, relaxed tone. Warm, clear, trustworthy, and conversational, making it ideal for professional voiceover projects that educate, explain, motivate, or inspire. Perfect for premium br",
+   "uses_1y": 5335116350,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "19STyYD15bswVz51nqLf-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "19STyYD15bswVz51nqLf-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "G17SuINrv2H9FC6nvetn",
+   "owner": "f13913702490da75fc7c40d5df4c32442d935af25a575fccb96c63096f992025",
+   "name": "Christopher - Gentle and Trustworthy",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "British",
+   "description": "British male narrator, English, well-spoken, gentle and trustworthy voice. Great for audiobooks, podcasts and voiceovers.",
+   "uses_1y": 5195344144,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "G17SuINrv2H9FC6nvetn-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "G17SuINrv2H9FC6nvetn-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "j9jfwdrw7BRfcR43Qohk",
+   "owner": "3d1fa6a5595e0a31fff8d7c1a2f2794b91ca87ddd200066dfbdfcef662a65a1b",
+   "name": "Frederick Surrey - Smooth and Velvety",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "British",
+   "description": "Professional, calm, well spoken British narrator full of intrigue and wonder. Suitable for Nature, Science, Mystery & History documentaries or audio books & narration projects that need a smooth & velvety tone. ",
+   "uses_1y": 2405824032,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "j9jfwdrw7BRfcR43Qohk-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "j9jfwdrw7BRfcR43Qohk-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "NYC9WEgkq1u4jiqBseQ9",
+   "owner": "3d1fa6a5595e0a31fff8d7c1a2f2794b91ca87ddd200066dfbdfcef662a65a1b",
+   "name": "Russell - Dramatic British TV",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "British",
+   "description": "Fast paced, deep & serious British Documentary Narrator for dramatic subjects. For TV, News, Radio, YouTube & Social Media.",
+   "uses_1y": 1940719899,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "NYC9WEgkq1u4jiqBseQ9-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "NYC9WEgkq1u4jiqBseQ9-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "kPzsL2i3teMYv0FxEYQ6",
+   "owner": "e70117aeedd1f2d59cffcc96e42961819238d6ce7ec83e34fad935c7db9e95ec",
+   "name": "Brittney - Social Media Voice - Fun, Youthful & Informative",
+   "gender": "female",
+   "age": "young",
+   "accent": "American",
+   "description": "A young, vibrant female voice that is perfect for celebrity news, hot topics, and fun conversation. Great for YouTube channels, informative videos, how-to's, and more! ",
+   "uses_1y": 16683194329,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "kPzsL2i3teMYv0FxEYQ6-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "kPzsL2i3teMYv0FxEYQ6-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "jqcCZkN6Knx8BJ5TBdYR",
+   "owner": "14bf0419ccdd0281b4481d9e67e9ad96d1106953d3d66c7ba70a77cfb0245e40",
+   "name": "Zara - The Warm, Real-World Conversationalist",
+   "gender": "female",
+   "age": "young",
+   "accent": "American",
+   "description": "Zara is a female voice, 20s–30s, blends warmth, clarity, and confident expression. Ideal for creators and brands who want their content to feel real, relatable, and human.\n\nTrained across multiple formats including storytelling, ads, social",
+   "uses_1y": 8392963848,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "jqcCZkN6Knx8BJ5TBdYR-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "jqcCZkN6Knx8BJ5TBdYR-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "MFZUKuGQUsGJPQjTS4wC",
+   "owner": "b45c1524a1f360319535f16b301e5b6f37edf26fd1d59861eda66206ff25cdc9",
+   "name": "Jon - Warm & Grounded Storyteller",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "A warm, trustworthy American voice with a mature and grounded tone. Ideal for narration and commercials. It carries an intelligent and calm presence, making it perfect for delivering messages with clarity.",
+   "uses_1y": 7311750709,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "MFZUKuGQUsGJPQjTS4wC-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "MFZUKuGQUsGJPQjTS4wC-v3.mp3"
+    }
+   ]
+  },
+  {
+   "voice_id": "ZthjuvLPty3kTMaNKVKb",
+   "owner": "37242178387aa74ac807790c7307e81312f0791cf06777a4791b86d941a77525",
+   "name": "Peter",
+   "gender": "male",
+   "age": "middle_aged",
+   "accent": "American",
+   "description": "Confident, reliable, credible narrator. A resolute voice that you can trust.",
+   "uses_1y": 5559188476,
+   "clips": [
+    {
+     "label": "v2-expressive",
+     "model": "eleven_multilingual_v2",
+     "settings": {
+      "stability": 0.35,
+      "similarity_boost": 0.75,
+      "style": 0.4
+     },
+     "timed": true,
+     "file": "ZthjuvLPty3kTMaNKVKb-v2-expressive.mp3"
+    },
+    {
+     "label": "v3",
+     "model": "eleven_v3",
+     "settings": null,
+     "timed": true,
+     "file": "ZthjuvLPty3kTMaNKVKb-v3.mp3"
+    }
+   ]
+  }
+ ]
+}
