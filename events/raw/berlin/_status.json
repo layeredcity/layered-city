@@ -1,18 +1,18 @@
 {
- "fetched": "2026-11-16T06:03:42.453Z",
+ "fetched": "2026-11-16T09:53:10.588Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 29611,
+   "chars": 29255,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
    "url": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "final": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "http": 200,
-   "chars": 22151,
+   "chars": 22199,
    "jsonLdEvents": 0
   },
   "exberliner": {
@@ -61,7 +61,7 @@
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "http": 200,
-   "chars": 19713,
+   "chars": 19343,
    "jsonLdEvents": 0
   },
   "schaubuehne": {
@@ -82,7 +82,7 @@
    "url": "https://www.deutschestheater.de/en/programme/",
    "final": "https://www.deutschestheater.de/en/program/events",
    "http": 200,
-   "chars": 45580,
+   "chars": 45808,
    "jsonLdEvents": 0
   },
   "volksbuehne": {
@@ -159,14 +159,14 @@
    "url": "https://www.jmberlin.de/en/exhibitions",
    "final": "https://www.jmberlin.de/en/current-exhibitions",
    "http": 200,
-   "chars": 8651,
+   "chars": 8556,
    "jsonLdEvents": 0
   },
   "humboldt-forum": {
    "url": "https://www.humboldtforum.org/en/programme-2/",
    "final": "https://www.humboldtforum.org/en/programme-2/",
    "http": 200,
-   "chars": 17145,
+   "chars": 16744,
    "jsonLdEvents": 0
   },
   "hkw": {
@@ -236,7 +236,7 @@
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "http": 200,
-   "chars": 19255,
+   "chars": 19385,
    "jsonLdEvents": 0
   },
   "reg-mauerpark": {

@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-16T06:05:26.123Z",
+ "fetched": "2026-11-16T09:54:32.918Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -40,7 +40,7 @@
    "url": "https://www.volksoper.at/spielplan/",
    "final": "https://www.volksoper.at/spielplan/",
    "http": 200,
-   "chars": 11265,
+   "chars": 11269,
    "jsonLdEvents": 0
   },
   "theater-an-der-wien": {
@@ -68,7 +68,7 @@
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 19928,
+   "chars": 19957,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -96,12 +96,15 @@
    "url": "https://www.filmmuseum.at/en",
    "final": "https://www.filmmuseum.at/en",
    "http": 200,
-   "chars": 26265,
+   "chars": 25980,
    "jsonLdEvents": 0
   },
   "albertina": {
    "url": "https://www.albertina.at/en/exhibitions/",
-   "error": "fetch failed"
+   "final": "https://www.albertina.at/en/exhibitions/",
+   "http": 200,
+   "chars": 4397,
+   "jsonLdEvents": 0
   },
   "belvedere": {
    "url": "https://www.belvedere.at/en/exhibitions",
@@ -121,7 +124,7 @@
    "url": "https://www.leopoldmuseum.org/en/exhibitions",
    "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
    "http": 200,
-   "chars": 7803,
+   "chars": 7814,
    "jsonLdEvents": 0
   },
   "mak": {
@@ -170,14 +173,14 @@
    "url": "https://www.porgy.at/events/upcoming",
    "final": "https://www.porgy.at/events/upcoming",
    "http": 200,
-   "chars": 38888,
+   "chars": 38943,
    "jsonLdEvents": 0
   },
   "arena": {
    "url": "https://www.arena.wien/",
    "final": "https://arena.wien/",
    "http": 200,
-   "chars": 4927,
+   "chars": 4902,
    "jsonLdEvents": 0
   },
   "wuk": {
@@ -289,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 20149,
+   "chars": 20178,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
@@ -387,12 +390,15 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-12",
    "final": "https://www.burgtheater.at/spielplan?date=2026-12",
    "http": 200,
-   "chars": 34339,
+   "chars": 34307,
    "jsonLdEvents": 0
   },
   "albertina-home": {
    "url": "https://www.albertina.at/en/",
-   "error": "fetch failed"
+   "final": "https://www.albertina.at/en/",
+   "http": 200,
+   "chars": 2770,
+   "jsonLdEvents": 0
   }
  }
 }
