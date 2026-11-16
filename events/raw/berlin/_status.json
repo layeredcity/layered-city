@@ -1,11 +1,11 @@
 {
- "fetched": "2026-11-16T05:51:11.700Z",
+ "fetched": "2026-11-16T06:03:42.453Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 29600,
+   "chars": 29611,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
@@ -61,7 +61,7 @@
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "http": 200,
-   "chars": 19373,
+   "chars": 19713,
    "jsonLdEvents": 0
   },
   "schaubuehne": {
@@ -236,7 +236,7 @@
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "http": 200,
-   "chars": 19135,
+   "chars": 19255,
    "jsonLdEvents": 0
   },
   "reg-mauerpark": {
@@ -272,6 +272,13 @@
    "final": "https://www.staatsoper-berlin.de/en/programme/16-11-2026/",
    "http": 200,
    "chars": 19014,
+   "jsonLdEvents": 0
+  },
+  "hkw-home": {
+   "url": "https://www.hkw.de/en",
+   "final": "https://www.hkw.de/en",
+   "http": 200,
+   "chars": 4585,
    "jsonLdEvents": 0
   }
  }

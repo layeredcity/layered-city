@@ -1,5 +1,5 @@
 {
- "fetched": "2026-11-16T05:52:30.136Z",
+ "fetched": "2026-11-16T06:05:26.123Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
@@ -389,6 +389,10 @@
    "http": 200,
    "chars": 34339,
    "jsonLdEvents": 0
+  },
+  "albertina-home": {
+   "url": "https://www.albertina.at/en/",
+   "error": "fetch failed"
   }
  }
 }
