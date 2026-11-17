@@ -20,7 +20,10 @@
     "mozart",
     "spies",
     "napoleon",
-    "coffeehouses",
+    "coffeehouses"
+  ],
+  "rev": "trim-3",
+  "pending": [
     "leonardo",
     "dutch-golden-age",
     "opera",
@@ -31,6 +34,5 @@
     "romans",
     "beer",
     "bridges"
-  ],
-  "rev": "trim-3"
+  ]
 }
