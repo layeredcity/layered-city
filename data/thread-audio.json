@@ -34,6 +34,34 @@
         "name": "Michael C. Vincent"
       },
       "rev": "trim-3"
+    },
+    {
+      "slug": "enlightenment",
+      "voice": {
+        "voice_id": "lxYfHSkYm1EzQzGhdbfc",
+        "owner": "066125d0c3eac062cd6655ed319d2347c29d07eab96ee22c6ebe7ef1841c3b1a",
+        "name": "Jessica Anne Bogart"
+      },
+      "titleVoice": {
+        "voice_id": "uju3wxzG5OhpWcoi3SMy",
+        "owner": "95e7935f31f209326e8bbd4ec2ebbd05ce34d72c04dac7da2d5b9d422ea05caf",
+        "name": "Michael C. Vincent"
+      },
+      "rev": "trim-3"
+    },
+    {
+      "slug": "wine",
+      "voice": {
+        "voice_id": "lxYfHSkYm1EzQzGhdbfc",
+        "owner": "066125d0c3eac062cd6655ed319d2347c29d07eab96ee22c6ebe7ef1841c3b1a",
+        "name": "Jessica Anne Bogart"
+      },
+      "titleVoice": {
+        "voice_id": "uju3wxzG5OhpWcoi3SMy",
+        "owner": "95e7935f31f209326e8bbd4ec2ebbd05ce34d72c04dac7da2d5b9d422ea05caf",
+        "name": "Michael C. Vincent"
+      },
+      "rev": "trim-3"
     }
   ]
 }
