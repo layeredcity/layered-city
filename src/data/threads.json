@@ -5,8 +5,8 @@
     "title": "Leonardo da Vinci",
     "dates": "1452–1519",
     "intro": [
-      "Leonardo finished very few paintings, and they are now spread across five cities. He spent his life moving between patrons in Florence, Milan, Rome, and France, often leaving work half done when something more interesting came along.",
-      "This thread follows his working life and the paintings it left behind."
+      "Leonardo da Vinci finished only a handful of paintings, and they are now spread across Europe. He was also an engineer, an inventor, and a tireless note-taker, and he often left a painting half done when something more interesting came along.",
+      "This thread follows his working life from a workshop in Florence to the French court. It ends with the theft that made his most famous portrait more famous still."
     ],
     "chapters": [
       {
@@ -14,41 +14,57 @@
         "place": "Orsanmichele, Florence",
         "when": "1466–1482",
         "heading": "Apprentice",
-        "text": "Leonardo trained in the workshop of Andrea del Verrocchio, a sculptor and painter who supplied Florence’s churches and guild halls. Vasari tells the story that after the young Leonardo painted an angel in Verrocchio’s Baptism of Christ, his master gave up painting.",
+        "text": "Leonardo was born in 1452 near Vinci, a small town in the hills west of Florence. He was the son of a notary and a young local woman who were not married. As a teenager he was sent to Florence to train in the workshop of Andrea del Verrocchio. Verrocchio was a sculptor and painter who made altarpieces, statues, and metalwork for the city’s churches and guilds. Verrocchio’s bronze of Doubting Thomas was made for a niche on the outside of Orsanmichele, a guild church in the center of town. Leonardo helped his master on a painting of the Baptism of Christ, now in the Uffizi gallery, and painted one of the angels in it. Giorgio Vasari, who wrote the first lives of the artists in the 1500s, claimed that Verrocchio was so impressed that he gave up painting.",
         "lat": 43.7711,
         "lon": 11.2552,
         "zoom": 14,
         "stories": [
           "1EbgZhqa7DvgK9CjE6xz7v",
-          "5qGdkcYSbfluJzoXcl9MPI",
           "2cSp73Fi2QCOLLocHmgNIz"
         ],
-        "image": "Florence, southwest corner of Orsanmichele.jpg"
+        "image": "Florence, southwest corner of Orsanmichele.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to meet the young Leonardo.",
+          "items": [
+            "A long podcast episode from the Getty museum looks at his years in Verrocchio’s workshop.",
+            "An audio tour of the Uffizi passes Botticelli’s mythologies and an unfinished Leonardo."
+          ]
+        },
+        "short": "Apprentice"
       },
       {
         "city": "Milan",
         "place": "Santa Maria delle Grazie, Milan",
         "when": "1482–1499",
         "heading": "The Last Supper",
-        "text": "He wrote to the Duke of Milan offering himself mainly as a military engineer, mentioning painting near the end. In Milan he painted the Last Supper on the refectory wall of Santa Maria delle Grazie, in an experimental technique that started flaking within his lifetime. He also turned a hall of the Sforza castle into a forest of painted trees.",
+        "text": "Around 1482, at about thirty, he moved to Milan. He applied for a job with its ruler, Ludovico Sforza, in a letter that promised portable bridges, cannons, and siege machines, and mentioned painting only near the end. He stayed for seventeen years. For the friars of Santa Maria delle Grazie, a church the Sforza family favored, he painted the Last Supper on the wall of their dining hall. The usual method was to paint quickly into wet plaster. Leonardo wanted to work slowly, so he used an experimental mix of oil and tempera on dry plaster instead. It began to flake within his lifetime. He also painted a hall in the Sforza Castle as a forest, with the branches of trees knotting together across the ceiling. In 1499 a French army took Milan, and Leonardo left.",
         "lat": 45.466,
         "lon": 9.171,
         "zoom": 14,
         "stories": [
-          "1dRsDqYiHlTH3ZAKV1LGnh",
           "1PUMMAeNVmlGQuedWYtwxz",
-          "43aLCI5hVpzgnJAycvaVz2",
+          "1dRsDqYiHlTH3ZAKV1LGnh",
           "4k6YcaZx1lpWGrtuQrcKgS",
           "6GPZrOo6fgRoBWpSmmcRHr"
         ],
-        "image": "Santa Maria delle Grazie Milano 07-08-2007.JPG"
+        "image": "Santa Maria delle Grazie Milano 07-08-2007.JPG",
+        "mediaNote": {
+          "lead": "The Last Supper has more good material than almost any painting, and here are four pieces of it.",
+          "items": [
+            "A short video looks at the job letter, which survives in his notebooks.",
+            "Another explains how he painted the Last Supper, and why it started flaking so soon.",
+            "A podcast episode visits the castle hall he turned into a forest.",
+            "And Ross King’s short book tells how the mural was made while war closed in on Milan."
+          ]
+        },
+        "short": "The Last Supper"
       },
       {
         "city": "Kraków",
         "place": "Czartoryski Museum, Kraków",
         "when": "c. 1490",
         "heading": "Lady with an Ermine",
-        "text": "In Milan he also painted Cecilia Gallerani, the duke’s teenage mistress, holding an ermine. It was bought for a Polish princess around 1800, the Nazis took it, and it came back to Kraków after the war. It is one of only four portraits of women by Leonardo.",
+        "text": "While he was in Milan, he painted Cecilia Gallerani, a well-educated girl of about sixteen who was the duke’s mistress. She holds an ermine, a white stoat, which was one of the duke’s emblems, and the animal turns its head the same way she does. Around 1800 a Polish prince, Adam Czartoryski, bought the painting in Italy for his mother’s collection, and it ended up in Kraków. The Nazis seized it during the Second World War. It was found in Bavaria in 1945 and brought back. It is one of only four portraits of women by Leonardo, and it now hangs in the Czartoryski Museum.",
         "lat": 50.065,
         "lon": 19.941,
         "zoom": 14,
@@ -56,52 +72,80 @@
           "1XJAp9du8GoGcssQW5DyJz",
           "3xbzFtV6YEYmX5EIVJbVVh"
         ],
-        "image": "Interior of the Czartoryski Museum, 2024, 10.jpg"
+        "image": "Interior of the Czartoryski Museum, 2024, 10.jpg",
+        "mediaNote": {
+          "lead": "If you go to see it, two things will add to the visit.",
+          "items": [
+            "A short video from Sotheby’s tells the story of the sitter and the painting.",
+            "And Vinci, a Polish heist comedy, follows two thieves who plan to swap the painting for a fake."
+          ]
+        },
+        "short": "Lady with an Ermine"
       },
       {
         "city": "Florence",
         "place": "Palazzo Vecchio, Florence",
         "when": "1503–1506",
         "heading": "The battle with Michelangelo",
-        "text": "Back in Florence, the republic hired Leonardo and the young Michelangelo to paint rival battle scenes on facing walls of the great council hall. Neither finished. Leonardo’s experimental paint ran, and Michelangelo was called away to Rome.",
+        "text": "Leonardo went back to Florence, which had become a republic again. In 1503 its government hired him to paint a huge battle scene on a wall of the new council hall in the Palazzo Vecchio, the town hall. A year later it hired Michelangelo, then twenty-nine and already famous for his statue of David, to paint another battle in the same hall. The two men disliked each other, and the city watched the contest closely. Neither painting was finished. Leonardo again tried an experimental technique, and the paint ran when he heated it to dry it. Michelangelo was called to Rome by the pope before he got past his drawing. Both designs survive only in copies.",
         "lat": 43.7696,
         "lon": 11.2558,
         "zoom": 14,
         "stories": [
           "7yjGUUpxhQsO0pyoq51kjx"
         ],
-        "image": "Firenze-palazzo vecchio 24.jpg"
+        "image": "Firenze-palazzo vecchio 24.jpg",
+        "mediaNote": {
+          "items": [
+            "To go further, there is a podcast episode about the contest, and the long argument over what is left of it."
+          ]
+        },
+        "short": "Rival battles"
       },
       {
         "city": "London",
         "place": "National Gallery, London",
         "when": "c. 1500",
         "heading": "A drawing the size of a painting",
-        "text": "The Burlington House Cartoon, a full-size chalk drawing of the Virgin, Saint Anne, and the infants, was never turned into a painting. The National Gallery bought it in 1962 after a public appeal.",
+        "text": "Around this time he also made a large drawing in charcoal and chalk. It shows the Virgin Mary sitting on the lap of her mother, Saint Anne, with the infants Jesus and John the Baptist. It is a cartoon, a full-size drawing made to plan a painting, but no painting from it is known. For many years it belonged to the Royal Academy in London, at Burlington House, which gives it its name. In 1962 the Academy put it up for sale, and the National Gallery raised the money to keep it in Britain with a public appeal. In 1987 a man shot at it with a shotgun. It was restored, and it now hangs in a dim room of its own to protect it from light.",
         "lat": 51.5089,
         "lon": -0.1283,
         "zoom": 13.5,
         "stories": [
           "7llyAtsvLpJCvEjQylEto1"
         ],
-        "image": "Pied droit de sainte Anne (détail).png"
+        "image": "Pied droit de sainte Anne (détail).png",
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a short video about the drawing and its history."
+          ]
+        },
+        "short": "The cartoon"
       },
       {
         "city": "Paris",
         "place": "Louvre, Paris",
         "when": "1503–1519, 1911",
         "heading": "The Mona Lisa",
-        "text": "He started the portrait of Lisa del Giocondo in Florence and kept working on it for years, taking it with him to France, where he died in 1519. It became the world’s most famous painting partly because it was stolen from the Louvre in 1911 and missing for two years.",
+        "text": "In about 1503, in Florence, he also began a portrait of Lisa del Giocondo, the wife of a silk merchant. He never handed it over. He kept working on it for years, adding thin layers of paint that soften the edges of her face, and he took it with him when he moved. In 1516 the French king, Francis I, invited him to France and gave him a manor house near the royal castle at Amboise, in the Loire valley. He died there in 1519, and the portrait stayed in the French royal collection. For centuries it was admired but not especially famous. That changed in 1911, when an Italian handyman walked out of the Louvre with it under his coat. It was missing for two years, and the newspaper coverage made it the most famous painting in the world.",
         "lat": 48.8606,
         "lon": 2.3376,
         "zoom": 13.5,
         "stories": [
           "6Oq0YuU1C10uvDo9MMuEyk",
-          "6x5G8mYOp9LGIpW5U5f8Hg",
           "2CKJTf2tNwQ8GHGSnDNZhv",
           "1Us2rCZokuBuAYx4xMop6V"
         ],
-        "image": "Mona Lisa crowd.jpg"
+        "image": "Mona Lisa crowd.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways to see past the crowds in front of it.",
+          "items": [
+            "A long video from Great Art Explained covers who she was, how Leonardo painted her, and how the theft made her famous.",
+            "A short Witness History episode tells the story of the theft.",
+            "And a video from Vox explains how the painting rose to stardom."
+          ]
+        },
+        "short": "The Mona Lisa"
       }
     ],
     "image": "The Last Supper Leonardo Da Vinci - High Resolution.jpg"
@@ -376,8 +420,8 @@
     "title": "The Dutch Golden Age",
     "dates": "1600s",
     "intro": [
-      "In the 1600s a small, newly independent republic became the richest place in Europe, and its merchants wanted pictures of themselves, their houses, and their dinners. Rembrandt, Vermeer, and Frans Hals painted for that market.",
-      "Their work has since scattered from Amsterdam to Berlin, Paris, London, Vienna, and Florence, along with a few stories about who owned it."
+      "In the 1600s the Dutch Republic, a small country that had broken away from Spanish rule, became the richest place in Europe. Its merchants wanted pictures of themselves, their houses, and their dinners, and painters such as Rembrandt, Vermeer, and Frans Hals worked for that market.",
+      "This thread starts on an Amsterdam canal and follows the paintings to the museums across Europe where they hang now. It ends with a forger who fooled the experts."
     ],
     "chapters": [
       {
@@ -385,21 +429,27 @@
         "place": "Herengracht, Amsterdam",
         "when": "From 1613",
         "heading": "A city of merchants",
-        "text": "Amsterdam began digging its ring of canals in 1613 to house the traders who were making it rich. The tall, narrow houses along the Herengracht were built for the same people who bought paintings.",
+        "text": "The story begins on the canals of Amsterdam. In 1613 the city started digging a ring of new canals to house the merchants who were making it rich. Dutch ships carried grain, spices, and timber around the world, and the Dutch East India Company, founded in 1602, was the largest trading company of its time. The traders built tall, narrow brick houses along the Herengracht, the grandest of the new canals, with storerooms in the attic and hooks on the gables for hoisting goods. They filled the rooms with paintings. Pictures were so common that even bakers and tailors owned them, and hundreds of painters made a living.",
         "lat": 52.3648,
         "lon": 4.8925,
         "zoom": 14,
         "stories": [
           "IuaByAL41RXyXaFYdMYrS"
         ],
-        "image": "Gerrit Adriaensz. Berckheyde - The Bend in the Herengracht in Amsterdam - WGA1920.jpg"
+        "image": "Gerrit Adriaensz. Berckheyde - The Bend in the Herengracht in Amsterdam - WGA1920.jpg",
+        "mediaNote": {
+          "items": [
+            "If you want to walk it with company, there is a podcast episode that tours the canals and tells the story of the Golden Age."
+          ]
+        },
+        "short": "The canals"
       },
       {
         "city": "Berlin",
         "place": "Gemäldegalerie, Berlin",
         "when": "1620s–1630s",
         "heading": "Frans Hals",
-        "text": "In Haarlem, Frans Hals painted portraits so fast you can see each brushstroke. Two of his best are in Berlin: a boy singing with a flute, and Malle Babbe, a real Haarlem woman with a tankard and an owl on her shoulder.",
+        "text": "One of the first great painters of the period worked in Haarlem, a town just west of Amsterdam. Frans Hals painted portraits with quick, loose brushstrokes that you can still see on the canvas. His sitters seem to be caught in the middle of laughing or talking. Two of his best pictures ended up in Berlin, in the Gemäldegalerie, the city’s gallery of old masters. One shows a boy singing and holding a flute. The other is Malle Babbe, a real Haarlem woman of the 1630s, painted with a tankard of beer and an owl on her shoulder.",
         "lat": 52.5085,
         "lon": 13.3651,
         "zoom": 14,
@@ -407,64 +457,91 @@
           "3msYufBlwyYvWLebKI943Q",
           "QV1LVf6SmXj5pk3nJRwVt"
         ],
-        "image": "Frans Hals Malle Babbe about 1640-1646 Gemäldegalerie Berlin 9387.jpg"
+        "image": "Frans Hals Malle Babbe about 1640-1646 Gemäldegalerie Berlin 9387.jpg",
+        "mediaNote": {
+          "lead": "Both Berlin paintings have short videos worth watching.",
+          "items": [
+            "One looks at Malle Babbe and the speed of Hals’s brushwork.",
+            "The other looks at the singing boy, who may stand for the sense of hearing."
+          ]
+        },
+        "short": "Frans Hals"
       },
       {
         "city": "Amsterdam",
         "place": "Rijksmuseum, Amsterdam",
         "when": "1642",
         "heading": "The Night Watch",
-        "text": "An Amsterdam militia company paid Rembrandt for a group portrait, and he painted them moving, half in shadow. It got its name later, when its varnish had darkened. In 1715 it was trimmed on all sides to fit a wall in the town hall.",
+        "text": "In Amsterdam, the leading painter was Rembrandt van Rijn, who had come from the university town of Leiden. In 1642 a company of the civic guard, the city’s citizen militia, paid him to paint their group portrait. Most such pictures showed the men lined up in rows. Rembrandt showed them in motion, getting ready to march, with some faces in bright light and others in shadow. The painting got its name, The Night Watch, much later, after its varnish had darkened. In 1715 it was moved to the town hall and cut down on all four sides to fit a wall. It now has its own room in the Rijksmuseum, the national museum.",
         "lat": 52.36,
         "lon": 4.8852,
         "zoom": 14,
         "stories": [
           "1uopa4uuze7NbGXkn9hAoI",
           "4tVVnyqSNeBARZohOGuGvW",
-          "3NIdYb0ofjQmHJtrhQPKw4",
           "7FLc1lmwWwsM9s8h0aJ6wK"
         ],
-        "image": "Rembrandt Nightwatch Rijksmuseum.jpg"
+        "image": "Rembrandt Nightwatch Rijksmuseum.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the Rijksmuseum’s most famous painting.",
+          "items": [
+            "A podcast episode explains who paid for it, why it looks so busy, and what was lost when it was cut down.",
+            "A shorter one shows how Rembrandt used light to pull the men out of the dark.",
+            "And Peter Greenaway’s film Nightwatching imagines that Rembrandt hid an accusation of murder in it."
+          ]
+        },
+        "short": "The Night Watch"
       },
       {
         "city": "London",
         "place": "Dulwich Picture Gallery, London",
         "when": "1645",
         "heading": "A girl at a window",
-        "text": "Rembrandt’s Girl at a Window leans on a sill so convincingly that a story grew up about it being set in a real window to fool passers-by. It hangs in Dulwich Picture Gallery in south London, which opened in 1817 as England’s first public art gallery.",
+        "text": "Rembrandt could also paint something very simple. In 1645 he painted a girl leaning on a stone windowsill, looking straight out at us. The effect was so real that a story grew up that he had set the painting in a real window to fool people walking past. It is now in south London, in the Dulwich Picture Gallery, which opened in 1817 as England’s first public art gallery. The gallery was built to show a collection that had been put together for the king of Poland, who lost his throne before it could be delivered.",
         "lat": 51.446,
         "lon": -0.0865,
         "zoom": 14,
         "stories": [
           "53jV0HD6tqaRTLkLUyPQDd"
         ],
-        "image": "Dulwich Picture Gallery, main entrance.JPG"
+        "image": "Dulwich Picture Gallery, main entrance.JPG",
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a short video about the painting and the story of the window."
+          ]
+        },
+        "short": "Girl at a Window"
       },
       {
         "city": "Paris",
         "place": "Louvre, Paris",
         "when": "1654",
         "heading": "Bathsheba",
-        "text": "Rembrandt’s Bathsheba was probably modeled by Hendrickje Stoffels, who lived with him without marrying him. The year he painted it, his church summoned her for living in sin.",
+        "text": "His private life was less simple. After his wife, Saskia, died in 1642, he lived with Hendrickje Stoffels, who kept his house, and they had a daughter, but they never married. In 1654 he painted Bathsheba, the woman in the Bible whom King David saw bathing and summoned to him. She sits naked, holding the king’s letter, and the model was probably Hendrickje. That same year, Amsterdam’s Reformed Church called Hendrickje before its council and condemned her for living with Rembrandt outside marriage. The painting is now in the Louvre in Paris.",
         "lat": 48.8606,
         "lon": 2.3376,
         "zoom": 14,
         "stories": [
           "1M0RDAlJSTtTu4uq2wTdzi"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "To see what makes it so moving, there is a short video about the painting and the woman who probably posed for it."
+          ]
+        },
+        "short": "Bathsheba"
       },
       {
         "city": "Amsterdam",
         "place": "Amsterdam and Berlin",
         "when": "c. 1658–1660",
         "heading": "Vermeer’s rooms",
-        "text": "In Delft, Johannes Vermeer painted slowly, about 35 pictures in all, most of them one or two people in a room lit from the left. The Milkmaid is in the Rijksmuseum. The Glass of Wine, a quiet courtship by a stained-glass window, is in Berlin.",
+        "text": "In Delft, a quieter town south of The Hague, Johannes Vermeer worked very differently. He painted slowly, and only about 35 of his pictures survive. Most show one or two people in a room, lit by soft daylight from a window on the left. In The Milkmaid, now in the Rijksmuseum, a kitchen maid pours milk into a bowl, and the bread, the jug, and the plaster wall look almost real enough to touch. In The Glass of Wine, now in Berlin, a man waits while a woman finishes her drink, beside a window of stained glass. Very little happens in either picture.",
         "lat": 52.36,
         "lon": 4.8852,
         "zoom": 14,
         "stories": [
           "4kBt84cVojci4RX9LErVe9",
-          "608gUSh5JUxK6USHlOo5t8",
           "2l5pBGomzXZPMHgfAso8Nz"
         ],
         "image": "The Milkmaid by Johannes Vermeer (1).jpg",
@@ -479,14 +556,22 @@
             "lat": 52.5085,
             "lon": 13.3653
           }
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Two videos look closely at these rooms.",
+          "items": [
+            "Great Art Explained looks at The Milkmaid, and how Vermeer made light, bread, and plaster look so real.",
+            "A shorter video looks at The Glass of Wine and its quiet courtship."
+          ]
+        },
+        "short": "Vermeer"
       },
       {
         "city": "Amsterdam",
         "place": "Rembrandt House, Amsterdam",
         "when": "1656–1669",
         "heading": "Late Rembrandt",
-        "text": "Rembrandt went bankrupt in 1656 and lost the house where he had made most of his etchings. His late paintings got rougher and thicker. Van Gogh said he would give ten years of his life to sit in front of The Jewish Bride with a crust of bread.",
+        "text": "Rembrandt, meanwhile, was living beyond his means. He spent heavily on art and curiosities, and in 1656 he went bankrupt. He lost his large house on the Jodenbreestraat, in the Jewish quarter, where he had lived for almost twenty years and made most of his etchings. The house is now a museum, and it still demonstrates how he printed them. His late paintings grew rougher, with the paint laid on thickly, sometimes with a palette knife. One of them, The Jewish Bride, shows a couple in an embrace, his hand on her heart. Two centuries later, Vincent van Gogh said he would give ten years of his life to sit in front of it with only a crust of bread.",
         "lat": 52.3693,
         "lon": 4.9012,
         "zoom": 14,
@@ -494,49 +579,75 @@
           "1skQb04hrfEbnNNPJbEqzn",
           "1o2RdmtDvgQtzZanOXSpSY"
         ],
-        "image": "Rembrandthuis, Amsterdam, 2015-04-25c.jpg"
+        "image": "Rembrandthuis, Amsterdam, 2015-04-25c.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into his last years.",
+          "items": [
+            "A short video shows, step by step, how he made his etchings in this house.",
+            "A podcast episode looks closely at The Jewish Bride."
+          ]
+        },
+        "short": "Late Rembrandt"
       },
       {
         "city": "Vienna",
         "place": "Kunsthistorisches Museum, Vienna",
         "when": "1666–1940",
         "heading": "The painting Vermeer kept",
-        "text": "Vermeer never sold The Art of Painting, which shows a painter at work on a model dressed as the muse of history. In 1940 Hitler bought it for the museum he planned in Linz. It is now in the Kunsthistorisches Museum.",
+        "text": "Vermeer kept one painting for himself. The Art of Painting shows an artist, seen from behind, painting a young woman dressed as Clio, the muse of history, with a large map of the Netherlands on the wall. When he died in 1675, deep in debt, his widow tried to keep it from his creditors. In 1940 it belonged to an Austrian noble family, and Adolf Hitler bought it for the huge art museum he planned to build in Linz, the city where he grew up. After the war it went to the Kunsthistorisches Museum in Vienna, which still has it.",
         "lat": 48.2038,
         "lon": 16.3617,
         "zoom": 14,
         "stories": [
           "5NPX8FEX1QPW7Gh3Jf80bm"
         ],
-        "image": "The Art of Painting.jpg"
+        "image": "The Art of Painting.jpg",
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a short video about the painting and how Hitler came to own it."
+          ]
+        },
+        "short": "The Art of Painting"
       },
       {
         "city": "Florence",
         "place": "Uffizi, Florence",
         "when": "1711",
         "heading": "Rachel Ruysch",
-        "text": "The Golden Age outlived Rembrandt. Rachel Ruysch painted flowers and fruit with insects crawling over them, became court painter to a German prince, and sold her pictures for more than Rembrandt’s had fetched.",
+        "text": "The Golden Age did not end with Rembrandt and Vermeer. Rachel Ruysch, the daughter of an Amsterdam professor of anatomy, became one of the best-paid painters of her time. She painted flowers and fruit in great detail, often with insects and lizards crawling among them. From 1708 she was court painter to the Elector Palatine, a German prince in Düsseldorf, and her pictures sold for more than Rembrandt’s ever had. One of her paintings of fruit and insects, from 1711, hangs in the Uffizi in Florence.",
         "lat": 43.7678,
         "lon": 11.2553,
         "zoom": 14,
         "stories": [
           "7pjSVO039nG3D7MWfwFSDW"
         ],
-        "image": "Uffizi Gallery, Florence-2.jpg"
+        "image": "Uffizi Gallery, Florence-2.jpg",
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a short video about the painting and how highly she was paid."
+          ]
+        },
+        "short": "Rachel Ruysch"
       },
       {
         "city": "Amsterdam",
         "place": "Keizersgracht 321, Amsterdam",
         "when": "1945",
         "heading": "The fake Vermeers",
-        "text": "After the war Dutch police arrested Han van Meegeren for selling a Vermeer to Hermann Göring. To avoid a treason charge he admitted he had painted it himself, along with several other “Vermeers,” and proved it by painting another under supervision.",
+        "text": "Because Vermeer left so few pictures, every new one caused a sensation. In the 1930s and 1940s, several unknown Vermeers appeared on the market, and experts declared them genuine. One was sold to Hermann Göring, the Nazi leader. After the war, Dutch police traced that sale to Han van Meegeren, a painter who lived in a grand house on the Keizersgracht. They arrested him for selling a national treasure to the enemy. To avoid a charge of treason, he confessed that he had painted it himself, along with the other “Vermeers.” Nobody believed him, so he painted another one in front of witnesses. He was convicted of forgery instead, and he died before he could serve his sentence.",
         "lat": 52.3697,
         "lon": 4.885,
         "zoom": 14,
         "stories": [
           "32jGQndO4zQchzvkZPrMTS"
         ],
-        "image": "Amsterdam, Keizersgracht 124tm138 met RM2496tm2501 IMG 0935 2026-04-06 10.38.jpg"
+        "image": "Amsterdam, Keizersgracht 124tm138 met RM2496tm2501 IMG 0935 2026-04-06 10.38.jpg",
+        "mediaNote": {
+          "items": [
+            "For the full story, there is a short podcast episode about the forger who fooled the art world."
+          ]
+        },
+        "short": "The forger"
       }
     ],
     "image": "The Night Watch - Rembrandt Harmenszoon van Rijn.png"
@@ -1107,8 +1218,8 @@
     "title": "Opera houses",
     "dates": "1637–2008",
     "intro": [
-      "Opera started at Italian courts and became a paying public entertainment in Venice in 1637. Over the next three centuries every capital wanted its own opera house, and some of the most famous first nights were disasters.",
-      "This thread visits the houses, the premieres, and one assassination."
+      "Opera began at the courts of Italian princes around 1600, and in 1637 Venice opened the first public opera house, where anyone with a ticket could get in. Over the next three centuries, every capital wanted an opera house of its own.",
+      "This thread visits some of the grandest of them, and some famous first nights, including a disaster, a revolution, and an assassination."
     ],
     "chapters": [
       {
@@ -1116,35 +1227,47 @@
         "place": "Frari basilica, Venice",
         "when": "1637–1643",
         "heading": "Opera goes public",
-        "text": "The first public opera house, where anyone with a ticket could get in, opened in Venice in 1637. Claudio Monteverdi, who ran the music at St. Mark’s, wrote his last operas for the city’s new theaters. He is buried in the Frari.",
+        "text": "The first opera house open to the paying public was the Teatro San Cassiano in Venice, which opened in 1637. Within a few years the city had several more, competing for audiences at carnival time. The greatest composer working for them was Claudio Monteverdi, who had already been director of music at St. Mark’s Basilica for more than twenty years. In his seventies he wrote his last operas for these theaters. The Coronation of Poppea, from 1643, tells how the Roman emperor Nero puts aside his wife for his mistress. It ends with a love duet that is still one of the most beautiful in opera, though it may have been written by a younger colleague. Monteverdi died later that year, and he is buried in the Frari, a great Gothic church near the Rialto.",
         "lat": 45.4367,
         "lon": 12.3261,
         "zoom": 14,
         "stories": [
           "3l8QyGm8qnLXuTGhsEeTgx"
         ],
-        "image": "Frari (Venice) - Sacristy -General view.jpg"
+        "image": "Frari (Venice) - Sacristy -General view.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of that final duet, “Pur ti miro.”"
+          ]
+        },
+        "short": "Monteverdi"
       },
       {
         "city": "Naples",
         "place": "Teatro di San Carlo, Naples",
         "when": "1737",
         "heading": "San Carlo",
-        "text": "The Bourbon king of Naples built the Teatro di San Carlo next to his palace in 1737. It is the oldest opera house still in use. In the early 1800s its manager, Domenico Barbaja, hired Rossini and then Donizetti to write for it.",
+        "text": "By the 1700s, Naples was one of the musical capitals of Europe. Its king, Charles of Bourbon, built the Teatro di San Carlo next to his royal palace and opened it in 1737. It is the oldest opera house in Europe still in use. In the early 1800s it was run by Domenico Barbaja, a former waiter who had made a fortune from gambling tables. He hired the young Gioachino Rossini to write operas for it, and later Gaetano Donizetti. The theater burned in 1816 and was rebuilt within a year.",
         "lat": 40.8375,
         "lon": 14.2496,
         "zoom": 14,
         "stories": [
           "5L7kDvq0CRTEbPqK9OXrnJ"
         ],
-        "image": "Napoli - teatro di San Carlo.jpg"
+        "image": "Napoli - teatro di San Carlo.jpg",
+        "mediaNote": {
+          "items": [
+            "If you want to hear how music runs through the city, there is a radio documentary that goes from old Neapolitan songs to the San Carlo."
+          ]
+        },
+        "short": "San Carlo"
       },
       {
         "city": "Milan",
         "place": "La Scala, Milan",
         "when": "1778–1950s",
         "heading": "La Scala",
-        "text": "La Scala opened in 1778 on the site of a demolished church. Verdi’s Nabucco made his name there in 1842, and Puccini’s Madama Butterfly was booed off at its first night in 1904. In the 1950s it was where Maria Callas sang her greatest roles.",
+        "text": "Milan’s opera house, La Scala, opened in 1778, replacing the court theater that had burned two years before. It was built on the site of a demolished church, Santa Maria alla Scala, and took its name. It became the most important opera house in Italy. In 1842 Giuseppe Verdi’s Nabucco made his name there. Its chorus of Hebrew slaves longing for home came to be seen as a song for Italians who wanted to free their country from Austrian rule. Not every first night went well. In 1904 Giacomo Puccini’s Madama Butterfly was booed so loudly that he withdrew it after one performance. In the 1950s, La Scala was where the soprano Maria Callas sang many of her greatest roles.",
         "lat": 45.4674,
         "lon": 9.1895,
         "zoom": 14,
@@ -1152,45 +1275,66 @@
           "5YuA9WKlqT85Xj6ES5Mxcy",
           "7n3KYuO7ny4c5Uj4WGJWff",
           "1xpCWuJnHkCkBiZumi4TOJ",
-          "2sfeKNBmqi4xLuIQF1MxiJ",
-          "6ksQZurAsSyswIRHlow105"
+          "2sfeKNBmqi4xLuIQF1MxiJ"
         ],
-        "image": "La Scala interior--w.jpg"
+        "image": "La Scala interior--w.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways to get to know La Scala, two of them to listen to.",
+          "items": [
+            "A history podcast tells the story of the theater and the church it replaced.",
+            "A recording of “Va, pensiero,” the chorus of Hebrew slaves from Nabucco, is the song that made Verdi’s name.",
+            "A recording of “Un bel dì,” from Madama Butterfly, is the aria in which Cio-Cio-San imagines her husband’s ship coming back.",
+            "And Maria by Callas, a documentary, tells the soprano’s life in her own words."
+          ]
+        },
+        "short": "La Scala"
       },
       {
         "city": "Stockholm",
         "place": "Royal Swedish Opera, Stockholm",
         "when": "1792",
         "heading": "Shot at a masked ball",
-        "text": "King Gustav III built Stockholm’s opera house and was shot at a masked ball there in March 1792. He died two weeks later. Verdi turned the story into Un ballo in maschera, though the censors made him move it to Boston.",
+        "text": "Opera houses were places to be seen, and sometimes that was dangerous. Gustav III, king of Sweden, loved the theater, and in 1782 he opened a royal opera house in Stockholm. He had also made enemies among the nobles by taking power away from them. On March 16, 1792, he went to a masked ball at his opera house, although he had been warned of a plot. A group of nobles surrounded him, and one of them shot him in the back. He died two weeks later. Verdi later turned the story into an opera, Un ballo in maschera, A Masked Ball. The censors would not allow a king to be murdered on stage, so in the first version the story was moved to Boston.",
         "lat": 59.3297,
         "lon": 18.0705,
         "zoom": 14,
         "stories": [
           "1kvlwp2nJ6pNx10FFzEaGF"
         ],
-        "image": "Kungliga Operan Royal Swedish Opera Stockholm 2016 01.jpg"
+        "image": "Kungliga Operan Royal Swedish Opera Stockholm 2016 01.jpg",
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is a short podcast episode about the king who went to the ball despite the warning."
+          ]
+        },
+        "short": "Gustav III"
       },
       {
         "city": "Brussels",
         "place": "La Monnaie, Brussels",
         "when": "1830",
         "heading": "An opera starts a revolution",
-        "text": "On August 25, 1830, La Monnaie staged La Muette de Portici, about a Neapolitan revolt. During a duet about love of country the audience began to riot, and the unrest in the streets that night grew into the revolution that created Belgium.",
+        "text": "In Brussels, an opera started a revolution. In 1830 what is now Belgium was part of the United Kingdom of the Netherlands, ruled by a Dutch king, and many in the south resented it. On August 25 the city’s opera house, La Monnaie, staged La Muette de Portici, a French opera about a rising in Naples against Spanish rule. During a duet about love of one’s country, the audience grew so excited that some of them rushed out into the streets. The riot that followed that night grew into a revolution, and within months Belgium was independent.",
         "lat": 50.8498,
         "lon": 4.3538,
         "zoom": 14,
         "stories": [
           "7zKcKE8XuQ71eHtisBdFpt"
         ],
-        "image": "1004 Royal Theatre of La Monnaie in Brussels Photo by Giles Laurent.jpg"
+        "image": "1004 Royal Theatre of La Monnaie in Brussels Photo by Giles Laurent.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear more, there is a short radio episode about the night the opera started a revolution."
+          ]
+        },
+        "short": "La Muette de Portici"
       },
       {
         "city": "Munich",
         "place": "Zurich, Venice, and Munich",
         "when": "1857–1865",
         "heading": "Tristan in three cities",
-        "text": "Wagner began Tristan und Isolde as a political exile in Zurich, where he fell for Mathilde Wesendonck. He wrote the second act in a palazzo on Venice’s Grand Canal. It was called unperformable until Ludwig II of Bavaria paid Wagner’s debts and had it staged in Munich in 1865.",
+        "text": "Richard Wagner wanted opera to be something bigger. After taking part in a failed revolution in Dresden in 1849, he fled to Switzerland. In Zurich, a wealthy merchant, Otto Wesendonck, gave him a house next to his own villa, and Wagner fell in love with his patron’s wife, Mathilde. He set five of her poems to music, and he began Tristan und Isolde, an opera about forbidden love. When the situation became too much for both households, he left for Venice. There he wrote the second act, in rooms in a palace on the Grand Canal. The opera was so long and difficult that it was called unperformable. It reached the stage only in 1865, in Munich, after the young King Ludwig II of Bavaria paid Wagner’s debts.",
         "lat": 47.3567,
         "lon": 8.5306,
         "zoom": 14,
@@ -1198,8 +1342,7 @@
           "2xaW5P53nmszjBWrjzE4Dy",
           "1AbrGjYYErOmRH4rnC5W7J",
           "2S4lMQWBcAM4mGjllRyp6M",
-          "1EQXtPIvpN69X3bRIB3ppX",
-          "Q86D98hRz6qaPnisFCsiX"
+          "1EQXtPIvpN69X3bRIB3ppX"
         ],
         "image": "Nationaltheater Munich.jpg",
         "points": [
@@ -1218,14 +1361,24 @@
             "lat": 48.1396,
             "lon": 11.5794
           }
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are four ways to hear how Tristan came together.",
+          "items": [
+            "“Träume,” one of the songs he wrote to Mathilde’s poems, was a study for the opera.",
+            "A recording of the long love duet comes from the second act, the part he wrote in Venice.",
+            "The prelude opens with one of the most famous chords in music, which never resolves the way the ear expects.",
+            "And a conductor’s podcast episode explains why Tristan was so new, and how a king’s money got it on stage."
+          ]
+        },
+        "short": "Tristan und Isolde"
       },
       {
         "city": "Paris",
         "place": "Palais Garnier, Paris",
         "when": "1875",
         "heading": "The Palais Garnier",
-        "text": "Charles Garnier’s opera house opened in 1875 after fourteen years of building, with a grand staircase meant for being seen on. A water tank under its foundations gave Gaston Leroux the underground lake in The Phantom of the Opera.",
+        "text": "In Paris, Emperor Napoleon III wanted an opera house to match his rebuilt capital. A competition in 1861 was won by Charles Garnier, a young architect who was almost unknown. Building took fourteen years, partly because the ground was so wet that the foundations had to hold back water, and partly because the empire fell in 1870. The Palais Garnier opened in 1875, with a grand marble staircase designed so that the audience could watch each other arrive. The water under the building, held in a great tank in the foundations, gave the novelist Gaston Leroux the idea for the underground lake in The Phantom of the Opera.",
         "lat": 48.872,
         "lon": 2.3316,
         "zoom": 14,
@@ -1233,14 +1386,22 @@
           "60BleRblD5158D4RRlvvvn",
           "5zUrFb6BxpPzj1bKpSHrFf"
         ],
-        "image": "Grand Staircase of Palais Garnier, Paris, France.jpg"
+        "image": "Grand Staircase of Palais Garnier, Paris, France.jpg",
+        "mediaNote": {
+          "lead": "Two videos cover the building and its ghost.",
+          "items": [
+            "One explains Garnier’s design, from the staircase to the gilded foyer.",
+            "The other sorts fact from fiction in The Phantom of the Opera."
+          ]
+        },
+        "short": "Palais Garnier"
       },
       {
         "city": "Vienna",
         "place": "Vienna State Opera",
         "when": "1869–1955",
         "heading": "Mahler’s house",
-        "text": "The Court Opera on the Ringstrasse opened in 1869. Gustav Mahler ran it from 1897 to 1907 and made it the best in Europe. It burned after bombing in March 1945, and its reopening in 1955, the year Austria regained its independence, was a national event.",
+        "text": "Vienna’s Court Opera opened in 1869 as one of the first grand buildings on the Ringstrasse, the boulevard that replaced the old city walls. From 1897 to 1907 it was run by the composer Gustav Mahler. He was a demanding director. He darkened the auditorium during performances, kept latecomers out until a break, and made it one of the best opera houses in Europe. In March 1945, near the end of the Second World War, a bombing raid set it on fire, and most of it burned. Its reopening in 1955, the same year Austria regained its full independence, was celebrated across the country.",
         "lat": 48.203,
         "lon": 16.3691,
         "zoom": 14,
@@ -1248,21 +1409,35 @@
           "47ncfms70F3RpBwjbqnNV7",
           "2zMrkeX82wKfqGN1oUhKyk"
         ],
-        "image": "Staatsoper Wien DSC 5273w.jpg"
+        "image": "Staatsoper Wien DSC 5273w.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Mahler’s house.",
+          "items": [
+            "A short video goes inside the opera house.",
+            "And a recording of the Adagietto from his Fifth Symphony, written while he ran the opera, shows Mahler the composer."
+          ]
+        },
+        "short": "Mahler"
       },
       {
         "city": "Oslo",
         "place": "Oslo Opera House",
         "when": "2008",
         "heading": "A roof to walk on",
-        "text": "Oslo’s opera house opened in 2008 on the harbor at Bjørvika. Its sloping white marble roof rises out of the fjord, and anyone can walk up it, ticket or not.",
+        "text": "The newest stop is a different idea of what an opera house can be. Oslo’s opera house, designed by the Norwegian firm Snøhetta, opened in 2008 on the harbor at Bjørvika, an old industrial waterfront. Its roof is a sloping white plane of marble and granite that rises straight out of the fjord. Anyone can walk up it, with or without a ticket, and on summer evenings people sit up there to watch the sun go down over the water. The building helped turn the area into a new part of the city.",
         "lat": 59.9075,
         "lon": 10.7531,
         "zoom": 14,
         "stories": [
           "1ZeSqTn3UX36iAkshHlJgv"
         ],
-        "image": "Roof of the Oslo Opera House.jpg"
+        "image": "Roof of the Oslo Opera House.jpg",
+        "mediaNote": {
+          "items": [
+            "If you want to know the thinking behind it, there is a video about the idea of a public building that people can climb."
+          ]
+        },
+        "short": "Oslo Opera"
       }
     ],
     "image": "La Scala interior.jpg"
@@ -1572,8 +1747,8 @@
     "title": "Punk",
     "dates": "1976–1982",
     "intro": [
-      "Punk started in London in 1976 and spread across Europe within a couple of years: three chords, cheap clubs, home-made records. In most cities it was also about something local, from boredom to the Troubles.",
-      "The stops run roughly in the order punk arrived."
+      "Punk started in London in 1976 and spread across Europe within a couple of years. It was loud, fast, and cheap: three chords, small clubs, and records made at home.",
+      "In each city it also became about something local, from unemployment in Manchester to the Troubles in Belfast. The stops run roughly in the order punk arrived."
     ],
     "chapters": [
       {
@@ -1581,24 +1756,33 @@
         "place": "King’s Road, London",
         "when": "1976",
         "heading": "Year zero",
-        "text": "Malcolm McLaren and Vivienne Westwood’s shop at 430 King’s Road dressed the Sex Pistols. The scene played the 100 Club and the Roxy, and by 1977 the Clash were singing about London itself.",
+        "text": "It started in a clothes shop. At 430 King’s Road in Chelsea, Malcolm McLaren and the designer Vivienne Westwood sold rubber, bondage gear, and T-shirts with slogans meant to shock. McLaren also managed a band of young regulars, the Sex Pistols. In 1976 they played basement clubs such as the 100 Club on Oxford Street, and that winter a club called the Roxy opened in Covent Garden for the new bands. Britain was in a long economic slump, with high unemployment, and punk gave bored teenagers something to do. By 1979 the Clash, another London band, were singing about the city itself in “London Calling.”",
         "lat": 51.483,
         "lon": -0.177,
         "zoom": 13,
         "stories": [
           "1l1xmyqeDUCEuBmRZZZEtY",
           "1hkDLYRDryTsX921dyDnMQ",
-          "KTeXqax0C2zjCQ2jwwf41",
           "3BkNHvIErzcCDe6M8o87LW",
           "13qiGnNgqvWo2cEtuEVJpY"
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are four ways into London punk.",
+          "items": [
+            "England’s Dreaming, by Jon Savage, is the best book on how it all happened.",
+            "A podcast about clothes explains how the safety-pin look came out of that shop.",
+            "A radio episode looks at the Roxy, and how punk mixed with reggae there.",
+            "And “London Calling” shows where the Clash had taken punk by 1979."
+          ]
+        },
+        "short": "King’s Road"
       },
       {
         "city": "Manchester",
         "place": "Lesser Free Trade Hall, Manchester",
         "when": "1976",
         "heading": "Forty people",
-        "text": "In June 1976 the Sex Pistols played the Lesser Free Trade Hall to a small crowd. Members of Buzzcocks, Joy Division, and the Fall were there, or said they were, and Manchester’s bands came out of it.",
+        "text": "Punk spread fast because people who saw it went home and started bands. On June 4, 1976, the Sex Pistols played the Lesser Free Trade Hall in Manchester, a small room above a concert hall. Only about forty people came. Among them, by most accounts, were young men who went on to form Joy Division and the Fall. The two students who had booked the gig were already starting a band of their own, called Buzzcocks. The gig became a legend, and later many more people claimed to have been there. Manchester went on to have one of the richest music scenes in Britain.",
         "lat": 53.478,
         "lon": -2.248,
         "zoom": 14,
@@ -1608,45 +1792,69 @@
           "2tt6L1VspLxeW3tZ6GE21M",
           "r40FwF1Mk9ImjzNOY7lZA"
         ],
-        "image": "The Free Trade Hall, Manchester.jpg"
+        "image": "The Free Trade Hall, Manchester.jpg",
+        "mediaNote": {
+          "lead": "Here is the gig, and three songs from the bands that came out of it.",
+          "items": [
+            "A podcast episode tells the story of the night itself.",
+            "“Ever Fallen in Love,” by Buzzcocks, is two minutes of perfect lovesick punk.",
+            "“Love Will Tear Us Apart,” by Joy Division, was recorded weeks before their singer, Ian Curtis, died.",
+            "And “Totally Wired,” by the Fall, is Mark E. Smith at his most scratchy and restless."
+          ]
+        },
+        "short": "Free Trade Hall"
       },
       {
         "city": "Belfast",
         "place": "Great Victoria Street, Belfast",
         "when": "1977–1979",
         "heading": "Good Vibrations",
-        "text": "In Belfast during the Troubles, punk was one of the few scenes Catholic and Protestant kids shared. Terri Hooley’s Good Vibrations record shop put out records by local bands, including the Undertones’ “Teenage Kicks.”",
+        "text": "In Belfast, punk meant something more. In the late 1970s the city was in the middle of the Troubles, the long and violent conflict over whether Northern Ireland should stay in the United Kingdom. Catholics and Protestants lived largely apart, and there were soldiers on the streets. Punk was one of the few scenes that young people from both sides shared. Terri Hooley ran a record shop called Good Vibrations on Great Victoria Street, and he started a label to put out records by local bands. In 1978 he released “Teenage Kicks” by the Undertones, a band from Derry, which became one of the best-loved singles of the decade.",
         "lat": 54.593,
         "lon": -5.936,
         "zoom": 14,
         "stories": [
           "4WHYtmhF34E3fANapQQHjA",
           "55F0BHHDQAoowlgM35hSor",
-          "6AcDr4E6jAVPNxMdGKsdD3",
           "7oJJWss2INoAMSxvsJqyll"
         ],
-        "image": "Belfast's Cathedral Quarter - geograph.org.uk - 5634739.jpg"
+        "image": "Belfast's Cathedral Quarter - geograph.org.uk - 5634739.jpg",
+        "mediaNote": {
+          "lead": "Three stories bring Belfast punk back.",
+          "items": [
+            "A podcast episode looks at Hooley’s life and the scene that grew up around his shop.",
+            "“Alternative Ulster,” by Stiff Little Fingers, shouts about growing up under the Troubles.",
+            "And Good Vibrations, a warm comedy-drama, tells Hooley’s story."
+          ]
+        },
+        "short": "Good Vibrations"
       },
       {
         "city": "Brussels",
         "place": "Ancienne Belgique, Brussels",
         "when": "1977",
         "heading": "Ça plane pour moi",
-        "text": "Plastic Bertrand’s “Ça plane pour moi” was a Europe-wide hit in 1977, a novelty punk single fronted by a Belgian drummer.",
+        "text": "On the continent, punk sometimes turned into pop. In 1977 a Belgian singer called Plastic Bertrand had a hit across Europe with “Ça plane pour moi,” a fast, happy song with nonsense lyrics in French. It sounded like punk, but it was made in a studio as a novelty record. Years later it came out that Plastic Bertrand did not even sing on it. The vocals were by its producer, Lou Deprijck. It is still played at parties all over Europe.",
         "lat": 50.848,
         "lon": 4.348,
         "zoom": 14,
         "stories": [
           "2cDxvoswwb8wkHLMW4H4fe"
         ],
-        "image": "Ancienne Belgique 2.jpg"
+        "image": "Ancienne Belgique 2.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of the song, pinned to the Ancienne Belgique, a Brussels concert hall."
+          ]
+        },
+        "short": "Plastic Bertrand"
       },
       {
         "city": "Zurich",
         "place": "Rote Fabrik, Zurich",
         "when": "1978–1980",
         "heading": "Zurich burns",
-        "text": "Zurich’s punk band Kleenex, later LiLiPUT, were four women whose records came out on Rough Trade in London. In 1980 young people rioted for a cultural center of their own, and got the Rote Fabrik.",
+        "text": "In Zurich, women were at the front of punk. Kleenex was a band of young women who formed in 1978. Their records came out on Rough Trade, an independent label in London, and they were played on British radio. The company that made Kleenex tissues threatened to sue, so they changed their name to LiLiPUT. Zurich’s young people also wanted somewhere to play. In 1980 they rioted for a youth center of their own, in protest at the city spending millions on its opera house. The city eventually gave them the Rote Fabrik, an old factory on the lake, which is still a cultural center.",
         "lat": 47.344,
         "lon": 8.536,
         "zoom": 13.5,
@@ -1654,44 +1862,66 @@
           "1kJordoli4fCDdjckZBxv8",
           "2o56NGcymc5CXVzisQi8PY"
         ],
-        "image": "Zürich - Wollishofen - Rote Fabrik IMG 1018.JPG"
+        "image": "Zürich - Wollishofen - Rote Fabrik IMG 1018.JPG",
+        "mediaNote": {
+          "lead": "Here are two songs from Zurich’s scene.",
+          "items": [
+            "“Ain’t You,” by Kleenex, is snarling and joyful at once.",
+            "“Tubel Trophy,” by Baby Jail, is the kind of dialect fun-punk that filled the Rote Fabrik."
+          ]
+        },
+        "short": "Kleenex"
       },
       {
         "city": "Berlin",
         "place": "SO36, Berlin",
         "when": "1978–1989",
         "heading": "West Berlin",
-        "text": "In walled-in West Berlin, Kreuzberg’s SO36 club was the center of the punk and post-punk scene. Nina Hagen had come over from the East in 1976.",
+        "text": "West Berlin was a strange place for punk, and a good one. It was an island of West Germany surrounded by the communist East, with cheap rent and empty buildings. Young men moved there to avoid military service, which did not apply in the city. In Kreuzberg, a district against the Wall, the club SO36 became the center of the punk and post-punk scene from 1978. The singer Nina Hagen had moved to the West from East Berlin in 1976, after the East German state expelled her stepfather, a singer who criticized the regime. Her wild, operatic voice made her the godmother of German punk.",
         "lat": 52.502,
         "lon": 13.424,
         "zoom": 13.5,
         "stories": [
           "5kYNmZyQM5LVUnJWmhGY1a",
-          "3bwbz8C64XYlXlDATP72h3",
-          "64MPJlmLzlMYtxUPPIuiyo"
+          "3bwbz8C64XYlXlDATP72h3"
         ],
-        "image": "Berlin-kreuzberg so36 20051019 307.jpg"
+        "image": "Berlin-kreuzberg so36 20051019 307.jpg",
+        "mediaNote": {
+          "lead": "Two things give the feel of punk in West Berlin.",
+          "items": [
+            "B-Movie, an archive documentary, follows the city’s underground through the 1980s.",
+            "And “African Reggae,” from 1979, is Nina Hagen at full force."
+          ]
+        },
+        "short": "SO36"
       },
       {
         "city": "Stockholm",
         "place": "Rågsved, Stockholm",
         "when": "1978–1983",
         "heading": "Ebba Grön",
-        "text": "Ebba Grön came out of a youth center in the Stockholm suburb of Rågsved. “Staten och kapitalet,” the state and capital, became a protest anthem.",
+        "text": "In Sweden, punk came from the suburbs. Rågsved, in the south of Stockholm, is one of the concrete housing areas the city built after the Second World War. Its youth center gave rehearsal space to local bands. The best-known band to come out of it was Ebba Grön, which took its name from a police code word. In 1980 they recorded “Staten och kapitalet,” The State and Capital, a cover of a 1970s protest song. It became one of the best-known songs in Swedish rock.",
         "lat": 59.256,
         "lon": 18.032,
         "zoom": 13,
         "stories": [
           "UyjAqwgxJRcFQOkM0leeb"
         ],
-        "image": "Rågsved.jpg"
+        "image": "Rågsved.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of the song that became the anthem of Swedish punk."
+          ]
+        },
+        "short": "Ebba Grön",
+        "shortPlace": "Rågsved"
       },
       {
         "city": "Reykjavík",
         "place": "Austurvöllur, Reykjavík",
         "when": "1981–1982",
         "heading": "Rokk í Reykjavík",
-        "text": "Iceland’s punk scene was tiny but loud. Purrkur Pillnikk and other bands appear in the 1982 film Rokk í Reykjavík. Jón Gnarr, a teenage punk at the time, became the city’s mayor in 2010.",
+        "text": "Punk reached Iceland last, and the scene there was tiny but loud. In 1981 and 1982 a handful of bands played in Reykjavík, the capital, often at Hótel Borg, a hotel on Austurvöllur, the square in front of the parliament. Purrkur Pillnikk, one of the best, played songs that were often over in less than two minutes. Its singer, Einar Örn, later sang in the Sugarcubes with Björk. The scene was filmed in Rokk í Reykjavík, a documentary released in 1982. One of the teenage punks of that time was Jón Gnarr, who became a comedian and, in 2010, the mayor of Reykjavík.",
         "lat": 64.147,
         "lon": -21.937,
         "zoom": 14,
@@ -1699,7 +1929,15 @@
           "kAITvJWV4yaegtyp5H19w",
           "6senhcgyh2zRf46kZcMvKj"
         ],
-        "image": "Austurvöllur 2023.jpg"
+        "image": "Austurvöllur 2023.jpg",
+        "mediaNote": {
+          "lead": "Here is a song from the scene, and the story of one of its fans.",
+          "items": [
+            "“Ekki enn,” Not Yet, by Purrkur Pillnikk, is a typical burst of Reykjavík punk.",
+            "And Gnarr, a documentary, follows Jón Gnarr from punk comedian to mayor."
+          ]
+        },
+        "short": "Rokk í Reykjavík"
       }
     ],
     "image": "The 100 Club Oxford Street, London 2023-04-26.jpg"
@@ -2826,8 +3064,8 @@
     "title": "Plague cities",
     "dates": "1348–1720",
     "intro": [
-      "The Black Death killed about a third of Europe’s people in the 1340s, and plague kept coming back for nearly four hundred years. Cities invented quarantine, built churches to give thanks for surviving, and left monuments that are still there.",
-      "The stops run in date order."
+      "The Black Death killed about a third of Europe’s people in the late 1340s, and plague kept coming back for nearly four hundred years. Cities learned to live with it. They invented quarantine, built churches to give thanks when it passed, and left monuments that are still there.",
+      "The stops run in date order, from Florence in 1348 to the last great outbreak, in Marseille in 1720."
     ],
     "chapters": [
       {
@@ -2835,21 +3073,27 @@
         "place": "Santa Maria Novella, Florence",
         "when": "1348",
         "heading": "The Decameron",
-        "text": "Plague reached Florence in 1348 and killed perhaps half the city. Boccaccio’s Decameron opens with seven young women meeting three young men at Santa Maria Novella and leaving town to tell each other stories while it passes.",
+        "text": "Plague arrived in Italy in 1347 on ships from the Black Sea, and in the spring of 1348 it reached Florence. It killed perhaps half of the city’s people within months. The writer Giovanni Boccaccio lived through it, and he opened his book the Decameron with a description of the city in the grip of the disease. Then the stories begin. Seven young women meet three young men in the church of Santa Maria Novella, and they agree to leave the city for a villa in the hills. To pass the time while the plague burns itself out, they take turns telling stories.",
         "lat": 43.7746,
         "lon": 11.2493,
         "zoom": 14,
         "stories": [
           "3sDcXk88EzFXYqfiMl4iUP"
         ],
-        "image": "Santa Maria Novella Florence façade.jpg"
+        "image": "Santa Maria Novella Florence façade.jpg",
+        "mediaNote": {
+          "items": [
+            "If you want to know what it was like, there is a podcast episode that uses the Decameron to show how Florentines lived through the Black Death."
+          ]
+        },
+        "short": "The Decameron"
       },
       {
         "city": "Venice",
         "place": "Rialto and the lagoon, Venice",
         "when": "1423 and 1631",
         "heading": "Quarantine",
-        "text": "Venice set up the first permanent plague hospital on an island in 1423 and kept ships and goods waiting forty days, quaranta giorni. After the plague of 1630–31 it built Santa Maria della Salute to give thanks.",
+        "text": "Plague kept coming back, and Venice, a trading city full of ships from the east, worked out how to defend itself. In 1423 it opened the first permanent plague hospital, a lazaretto, on an island in the lagoon, where the sick were sent away from the city. Later it added a second island, where ships, crews, and goods from infected ports had to wait for forty days before they could land. The word quarantine comes from the Italian for forty days, quaranta giorni. Even so, the plague of 1630 killed about a third of the city. During the outbreak, the government vowed to build a church if the city was saved. The result was Santa Maria della Salute, Our Lady of Health, the great domed church at the mouth of the Grand Canal.",
         "lat": 45.431,
         "lon": 12.335,
         "zoom": 13.5,
@@ -2857,28 +3101,42 @@
           "3UhYjcIXeRIZQmT3eFzgw3",
           "1cZP0oew4xceXJnp731YVh"
         ],
-        "image": "(Venice) - Santa Maria della Salute - Le due cupole e i due campanili.jpg"
+        "image": "(Venice) - Santa Maria della Salute - Le due cupole e i due campanili.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to see how Venice fought the plague.",
+          "items": [
+            "A walking tour from the Rialto covers Venetian ideas, from banking to quarantine.",
+            "And a short video tells the story of the church the city built to give thanks."
+          ]
+        },
+        "short": "Quarantine"
       },
       {
         "city": "Milan",
         "place": "Milan",
         "when": "1630",
         "heading": "The Betrothed",
-        "text": "The plague of 1630 killed about half of Milan. Alessandro Manzoni set the climax of The Betrothed, Italy’s best-known novel, in the city’s lazzaretto, with crowds blaming “anointers” for spreading it.",
+        "text": "The same epidemic hit Milan even harder. It arrived in 1629 with German soldiers fighting a war in northern Italy, and in 1630 it killed about half of the city. Frightened people looked for someone to blame, and rumors spread of “anointers” who smeared walls and doors with poison. Several men were tortured and executed on that charge. Two hundred years later, the writer Alessandro Manzoni set the end of The Betrothed, the best-known Italian novel, during this plague. Its climax takes place in the lazzaretto, the vast plague hospital outside the city walls, where thousands of the sick were crowded together.",
         "lat": 45.469,
         "lon": 9.192,
         "zoom": 13,
         "stories": [
           "3kFo78whlC3VyVc6TNgZoL"
         ],
-        "image": "Dal Re, Marc'Antonio (1697-1766) - Vedute di Milano - Il lazzaretto.jpg"
+        "image": "Dal Re, Marc'Antonio (1697-1766) - Vedute di Milano - Il lazzaretto.jpg",
+        "mediaNote": {
+          "items": [
+            "If you have time for a long novel, The Betrothed follows two village lovers through bread riots and the plague."
+          ]
+        },
+        "short": "The Betrothed"
       },
       {
         "city": "London",
         "place": "City of London",
         "when": "1665",
         "heading": "The Great Plague",
-        "text": "London’s last great plague killed about a fifth of the city in 1665. Samuel Pepys recorded it in his diary, and then the Great Fire of 1666.",
+        "text": "In London, the last great outbreak came in 1665. It began in the spring, in the poor parishes outside the city walls. By the end of the year it had killed about a hundred thousand people, around a fifth of the population. The rich left town, including the king and his court. Houses with plague inside were shut up with the families still in them, and marked with a red cross. Samuel Pepys, a young official at the Navy Office, stayed and wrote about it in his diary. The next year he described something else: the Great Fire of 1666, which burned most of the old city.",
         "lat": 51.51,
         "lon": -0.086,
         "zoom": 13,
@@ -2886,35 +3144,55 @@
           "ZBtyldtvUDTBOO1ek5baC",
           "30NyrRhnzoNDmlvPaHAjpS"
         ],
-        "image": "Monument to the Great Fire of London EC3R 8AH.jpg"
+        "image": "Monument to the Great Fire of London EC3R 8AH.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to hear about London in 1665.",
+          "items": [
+            "A historian explains how the plague spread, and how ordinary Londoners tried to cope.",
+            "And the diary of Samuel Pepys tells it day by day, along with everything else in his life."
+          ]
+        },
+        "short": "The Great Plague"
       },
       {
         "city": "Naples",
         "place": "Fontanelle Cemetery, Naples",
         "when": "1656 and after",
         "heading": "The skulls of Fontanelle",
-        "text": "The plague of 1656 killed about half of Naples. Many of the dead ended up in a quarry in the Sanità district, later a cemetery. Neapolitans adopted the skulls there and cared for them in return for favors.",
+        "text": "Naples suffered one of the worst outbreaks of all. In 1656 plague killed about half of its people, perhaps 150,000 in a few months. There was not room to bury them, and many bodies were carried to an old quarry in the Sanità district, at the foot of a hill. Later epidemics added more. In the 1870s a priest had the bones arranged in the caves, and it became the Fontanelle Cemetery. Local people began to adopt individual skulls. They cleaned them, built little shrines for them, and prayed for the souls of the dead, in return for help with their own lives. In 1969 the church banned the practice as superstition, but the cemetery is open to visitors.",
         "lat": 40.858,
         "lon": 14.243,
         "zoom": 14,
         "stories": [
           "5WX2xk7ioEkWsFaekB528C"
         ],
-        "image": "Cimitero delle Fontanelle - DM - 021.jpg"
+        "image": "Cimitero delle Fontanelle - DM - 021.jpg",
+        "mediaNote": {
+          "items": [
+            "To see inside, there is a short video about the cemetery and the people who cared for its skulls."
+          ]
+        },
+        "short": "Fontanelle"
       },
       {
         "city": "Marseille",
         "place": "Old Port, Marseille",
         "when": "1720",
         "heading": "The last great outbreak",
-        "text": "In 1720 a ship carrying plague was let into Marseille’s port, reportedly because the merchants who owned its cargo pushed to skip quarantine. Around half the city died. It was the last major plague outbreak in Western Europe.",
+        "text": "The last great outbreak in Western Europe came in 1720. In May a merchant ship, the Grand Saint-Antoine, arrived in Marseille from the eastern Mediterranean with a valuable cargo of silk and cotton. Several people on board had already died. The ship should have stayed in strict quarantine, but the rules were bent, reportedly because merchants wanted the cargo in time for a big trade fair. Fleas in the cloth carried the plague into the city. Over the next two years, about half of Marseille’s people died. France built a wall across the hills of Provence to stop the disease spreading, and parts of it still stand.",
         "lat": 43.295,
         "lon": 5.365,
         "zoom": 14,
         "stories": [
           "44Clo0B5JSPj25PExr2Bqk"
         ],
-        "image": "Michel Serre-Peste-Cours Belsunce.jpg"
+        "image": "Michel Serre-Peste-Cours Belsunce.jpg",
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is a long podcast episode about the ship, the quarantine that was skipped, and what followed."
+          ]
+        },
+        "short": "Marseille, 1720"
       }
     ],
     "image": "The Triumph of Death by Pieter Bruegel the Elder.jpg"
