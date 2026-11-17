@@ -35,7 +35,7 @@ const FADE = 0.06 // seconds faded out at the end of each clip before the next v
 // which v3 reads as a breath), and each clip fades out before the gap. The
 // pause isn't part of the hash, so existing recordings aren't redone.
 const TAIL = ' …'
-// Seconds kept after the title voice's last word before the clip is cut.
+// Seconds kept after a clip's last word before it is cut.
 const TRIM_AFTER = 0.25
 const idOf = v => (typeof v === 'string' ? v : v?.voice_id)
 // Each job narrates one thread into public/audio/<dir>/. The threads list uses
@@ -44,7 +44,7 @@ const idOf = v => (typeof v === 'string' ? v : v?.voice_id)
 // live recordings.
 const jobs = [
   ...cfg.threads.map(slug => ({ slug, dir: slug, body: cfg.voice, title: cfg.titleVoice || cfg.voice })),
-  ...(cfg.trials || []).map(t => ({ slug: t.slug, dir: `${t.slug}--trial`, body: t.voice, title: t.titleVoice || t.voice })),
+  ...(cfg.trials || []).map(t => ({ slug: t.slug, dir: `${t.slug}--trial`, body: t.voice, title: t.titleVoice || t.voice, rev: t.rev })),
 ]
 
 const run = (cmd, args) => new Promise((res, rej) => execFile(cmd, cmd === 'ffmpeg' ? ['-nostdin', '-loglevel', 'error', ...args] : args, { timeout: 120000 }, (e, so, se) => e ? rej(new Error(`${cmd}: ${se || e.message}`)) : res(so)))
@@ -74,6 +74,17 @@ async function speak(voice, text) {
   return { audio: Buffer.from(d.audio_base64, 'base64'), starts: d.alignment.character_start_times_seconds, ends: d.alignment.character_end_times_seconds, end: d.alignment.character_end_times_seconds.at(-1) || 0 }
 }
 
+// v3 often adds a breath after the last word, and some voices render the
+// title voice's trailing pause as crackle. Every clip is cut shortly after its
+// last word (from the character timings) and faded out there.
+async function trimClip(f, d, len) {
+  const last = d.ends?.[len - 1]
+  if (!last) return f
+  const cut = f.replace(/\.mp3$/, '-cut.mp3')
+  await run('ffmpeg', ['-y', '-i', f, '-af', `atrim=end=${(last + TRIM_AFTER).toFixed(3)},afade=t=out:st=${(last + 0.05).toFixed(3)}:d=${(TRIM_AFTER - 0.05).toFixed(3)}`, '-c:a', 'libmp3lame', '-b:a', '128k', '-ar', '44100', cut])
+  return cut
+}
+
 const tmp = await fs.mkdtemp(path.join(os.tmpdir(), 'thread-audio-'))
 try {
   for (const job of jobs) {
@@ -95,10 +106,10 @@ try {
         if (groups.at(-1)?.role === role) groups.at(-1).parts.push(p); else groups.push({ role, parts: [p] })
       }
       for (const g of groups) g.text = g.parts.map(p => p.say).join(' ')
-      const hash = crypto.createHash('sha1').update(two
+      const hash = crypto.createHash('sha1').update((job.rev ? `${job.rev}|` : '') + (two
         // 0.45 was the original gap. It stays in the hash so changing GAP doesn't re-record everything.
         ? `2|${model}|0.45|` + groups.map(g => `${idOf(VOICES[g.role])}|${g.text}`).join('|')
-        : `${idOf(VOICES.body)}|${model}|${groups[0].text}`).digest('hex').slice(0, 12)
+        : `${idOf(VOICES.body)}|${model}|${groups[0].text}`)).digest('hex').slice(0, 12)
       const prev = old.segments[n]
       if (prev && prev.hash === hash) { segments.push(prev); continue }
       // Threads listed in `keep` hold on to their existing recordings even when
@@ -110,10 +121,12 @@ try {
       let dur
       if (groups.length === 1) {
         const d = await speak(VOICES[groups[0].role], groups[0].text)
-        await fs.writeFile(`${dir}/${file}`, d.audio)
+        const raw = path.join(tmp, `${slug}-${n}-only.mp3`)
+        await fs.writeFile(raw, d.audio)
+        await fs.copyFile(await trimClip(raw, d, groups[0].text.length), `${dir}/${file}`)
         let at = 0
         for (const p of groups[0].parts) { marks.push({ key: p.key, t: d.starts[at] ?? 0 }); at += p.say.length + 1 }
-        dur = d.end
+        dur = await duration(`${dir}/${file}`)
       } else {
         // Record each group, then join them with a pause after each but the last.
         const clips = []
@@ -123,17 +136,7 @@ try {
           const d = await speak(VOICES[g.role], g.role === 'title' ? g.text + TAIL : g.text)
           let f = path.join(tmp, `${slug}-${n}-${gi}.mp3`)
           await fs.writeFile(f, d.audio)
-          if (g.role === 'title') {
-            // v3 renders the trailing pause as a breath, which some voices turn
-            // into crackle. Cut the clip just after the last word (from the
-            // character timings) and fade it out there instead.
-            const last = d.ends?.[g.text.length - 1]
-            if (last) {
-              const cut = path.join(tmp, `${slug}-${n}-${gi}-cut.mp3`)
-              await run('ffmpeg', ['-y', '-i', f, '-af', `atrim=end=${(last + TRIM_AFTER).toFixed(3)},afade=t=out:st=${(last + 0.05).toFixed(3)}:d=${(TRIM_AFTER - 0.05).toFixed(3)}`, '-c:a', 'libmp3lame', '-b:a', '128k', '-ar', '44100', cut])
-              f = cut
-            }
-          }
+          f = await trimClip(f, d, g.text.length)
           let at = 0
           for (const p of g.parts) { marks.push({ key: p.key, t: offset + (d.starts[at] ?? 0) }); at += p.say.length + 1 }
           clips.push(f)
