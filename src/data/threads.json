@@ -8754,8 +8754,8 @@
     "title": "Cathedrals",
     "dates": "537–today",
     "intro": [
-      "A great cathedral could take centuries to build, outlive the people who started it, and end up in a style they would not have recognized.",
-      "Each stop is one church and how it got built."
+      "A great cathedral could take centuries to build. It often outlived the people who started it, and it could end up in a style they would not have recognized.",
+      "This thread visits ten of them, from Istanbul in the 500s to Barcelona, where the building is still going on. Each stop is one church and how it got built."
     ],
     "chapters": [
       {
@@ -8763,7 +8763,7 @@
         "place": "Hagia Sophia, Istanbul",
         "when": "532–537",
         "heading": "Hagia Sophia",
-        "text": "After riots burned the old church in 532, the emperor Justinian had Hagia Sophia rebuilt in under six years, with a dome that seemed to float. It was the largest church in the world for nearly a thousand years. It became a mosque in 1453, a museum in 1934, and a mosque again in 2020.",
+        "text": "The story starts in Constantinople, the capital of the Byzantine Empire, now Istanbul. In 532, riots burned the city’s main church. The emperor Justinian had it rebuilt in under six years by two mathematicians, Anthemius of Tralles and Isidore of Miletus. Their church, Hagia Sophia, has a huge dome resting on a ring of forty windows, so it seems to float on light. It was the largest church in the world for nearly a thousand years. When the Ottomans took the city in 1453, it became a mosque. It became a museum in 1934, and a mosque again in 2020.",
         "lat": 41.0086,
         "lon": 28.9802,
         "zoom": 15,
@@ -8771,28 +8771,42 @@
           "3zGmbHkf1Q4Z3KPV4VQBxT",
           "2ydycZ25MuhTHmQToONPQf"
         ],
-        "image": "Interior of Hagia Sophia (6) - Istanbul (2022).jpg"
+        "image": "Interior of Hagia Sophia (6) - Istanbul (2022).jpg",
+        "mediaNote": {
+          "lead": "Here are two short films on Hagia Sophia.",
+          "items": [
+            "One shows how the forty windows at the base of the dome make it seem to float.",
+            "And the other looks at what changed when it became a mosque again in 2020."
+          ]
+        },
+        "short": "Hagia Sophia"
       },
       {
         "city": "Venice",
         "place": "St. Mark’s Basilica, Venice",
         "when": "828–1204",
         "heading": "St. Mark’s",
-        "text": "Venetian merchants smuggled the body of St. Mark out of Alexandria in 828. The church built for it, consecrated in 1094, was modeled on a church in Constantinople. After 1204 it was covered in marble, columns, and mosaics looted from that city.",
+        "text": "Venice looked east to Constantinople, and its great church shows it. In 828, two Venetian merchants smuggled the body of St. Mark the Evangelist out of Alexandria, in Egypt, reportedly hidden under pork to keep Muslim customs officers away. The city built a church to hold it, modeled on a church in Constantinople, with five domes and gold mosaics. Then, in 1204, a crusade led by Venice sacked Constantinople itself. The Venetians shipped home marble, columns, and treasure, including four bronze horses, and covered St. Mark’s with them.",
         "lat": 45.4346,
         "lon": 12.3393,
         "zoom": 15,
         "stories": [
           "PR1gyPlFotUDgwgWd8uXJ"
         ],
-        "image": "(Venice) St. Mark's Basilica, lunette - The body of St. Mark is received in Venice, ca. 1660 by Pietro Vecchia.jpg"
+        "image": "(Venice) St. Mark's Basilica, lunette - The body of St. Mark is received in Venice, ca. 1660 by Pietro Vecchia.jpg",
+        "mediaNote": {
+          "items": [
+            "For a quick look, there is a short video about the basilica that glitters with loot from Constantinople."
+          ]
+        },
+        "short": "St. Mark’s"
       },
       {
         "city": "Paris",
         "place": "Saint-Denis and Notre-Dame, Paris",
         "when": "1140s–2024",
         "heading": "The first Gothic",
-        "text": "Abbot Suger rebuilt the choir of Saint-Denis in the 1140s with pointed arches and walls of glass, and Gothic was born. Notre-Dame was begun in 1163. In April 2019 fire destroyed its roof and spire. It reopened in December 2024, rebuilt by carpenters and masons using medieval methods.",
+        "text": "The next great change in church building began just north of Paris. In the 1140s, Abbot Suger rebuilt the choir of the abbey of Saint-Denis, where the kings of France were buried. He used pointed arches and ribbed vaults, which let the walls become thinner and filled with stained glass. This was the beginning of Gothic. Twenty years later, Paris began Notre-Dame, on the island in the Seine, in the new style. In April 2019, fire destroyed its roof and spire. Carpenters and masons rebuilt them, largely with medieval methods, and the cathedral reopened in December 2024.",
         "lat": 48.9356,
         "lon": 2.3598,
         "zoom": 12,
@@ -8801,29 +8815,44 @@
           "629lTUdgi4nU1hIMi0HvHW",
           "2STbmfP0sF0Ss6CkiEboUq"
         ],
-        "image": "Basilica of Saint Denis, Saint Denis, France 02.jpg"
+        "image": "Basilica of Saint Denis, Saint Denis, France 02.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways to look at the first Gothic churches.",
+          "items": [
+            "A short video shows how Abbot Suger’s choir at Saint-Denis began Gothic architecture.",
+            "Another tours Notre-Dame, filmed before the fire.",
+            "And a third follows the craftspeople who rebuilt the cathedral’s roof and spire."
+          ]
+        },
+        "short": "The first Gothic",
+        "shortPlace": "Saint-Denis and Paris"
       },
       {
         "city": "Seville",
         "place": "Seville Cathedral",
         "when": "1401–1506",
         "heading": "Built on a mosque",
-        "text": "Seville’s chapter decided in 1401 to build a church so big that people would think them mad. It went up on the site of the Almohad mosque, and kept the mosque’s minaret as its bell tower, the Giralda. It is the largest Gothic cathedral in the world, and holds a tomb said to contain Columbus.",
+        "text": "Gothic spread across Europe, and in Spain it was built over the past. Seville had been a Muslim city until 1248, when it was conquered by the kingdom of Castile. For more than a century its Christians worshipped in the old Almohad mosque. Then, in 1401, the cathedral chapter decided to build a church so big that people would think them mad. They kept the mosque’s minaret as the bell tower, now called the Giralda, and its courtyard of orange trees. The result is the largest Gothic cathedral in the world. It holds a tomb said to contain Christopher Columbus.",
         "lat": 37.3861,
         "lon": -5.993,
         "zoom": 15,
         "stories": [
-          "2eHDXtRxXDj7SQE5CBobTe",
-          "7kiVpaCl4gfm3rngFeCXqK"
+          "2eHDXtRxXDj7SQE5CBobTe"
         ],
-        "image": "Plaza Virgen de los Reyes, Seville, Spain - Sep 2009.jpg"
+        "image": "Plaza Virgen de los Reyes, Seville, Spain - Sep 2009.jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a podcast episode about how the minaret survived as the cathedral’s bell tower."
+          ]
+        },
+        "short": "Seville"
       },
       {
         "city": "Florence",
         "place": "Duomo, Florence",
         "when": "1420–1436",
         "heading": "Brunelleschi’s dome",
-        "text": "Florence’s cathedral stood with a hole in its roof for decades because no one knew how to span it. Filippo Brunelleschi, a goldsmith, built the dome without a wooden frame, laying bricks in a herringbone pattern so each ring held itself up. It is still the largest brick dome ever built.",
+        "text": "In Florence, the cathedral had a different problem. It had been designed with a dome wider than any built since ancient Rome, and nobody knew how to build it. For decades the church stood with a hole in its roof. In 1418, the city held a competition, and Filippo Brunelleschi, a goldsmith, won. Starting in 1420, he built the dome without a wooden frame to hold it up. He used two shells, one inside the other, and laid the bricks in a herringbone pattern so each ring supported itself. It was finished in 1436, and it is still the largest brick dome in the world.",
         "lat": 43.7731,
         "lon": 11.256,
         "zoom": 15,
@@ -8832,14 +8861,22 @@
           "i7PlnwB6gZTNaouIk8A51"
         ],
         "tip": "You can climb between the two shells of the dome to the lantern. Book a time slot ahead.",
-        "image": "Florence, Italy, Brunelleschi's Dome of Florence Cathedral.jpg"
+        "image": "Florence, Italy, Brunelleschi's Dome of Florence Cathedral.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the dome.",
+          "items": [
+            "A short video explains how Brunelleschi built the dome without a frame.",
+            "And a podcast episode argues that his ideas came from Persian domes, not genius alone."
+          ]
+        },
+        "short": "Brunelleschi’s dome"
       },
       {
         "city": "Milan",
         "place": "Duomo, Milan",
         "when": "1386–1965",
         "heading": "Six centuries",
-        "text": "Milan began its cathedral in 1386 in white Candoglia marble and kept going for nearly six centuries. Napoleon had the façade finished so he could be crowned there in 1805, and the last bronze door went in in 1965. In Milanese, an endless job is still called a fabbrica del Duomo.",
+        "text": "Milan began its cathedral in 1386, and it took almost six hundred years to finish. It was built of white and pink marble from Candoglia, a quarry in the Alps, brought most of the way by water. Work went on slowly for centuries. Napoleon had the façade finished so he could be crowned King of Italy there in 1805. The last bronze door was put in only in 1965. In Milanese dialect, a job that never ends is still called a fabbrica del Duomo, a cathedral works.",
         "lat": 45.4642,
         "lon": 9.1916,
         "zoom": 15,
@@ -8847,14 +8884,22 @@
           "7EBoGdfv2dOUgDCq7I7i1p",
           "1IbskT2fx8ddnqewB0WJx5"
         ],
-        "image": "20110724 Milan Cathedral 5266.jpg"
+        "image": "20110724 Milan Cathedral 5266.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Milan’s cathedral.",
+          "items": [
+            "A short video climbs onto the marble roof to walk among the spires.",
+            "And a food podcast tells the legend of a glassmaker’s apprentice on the cathedral’s windows, who is said to have invented saffron risotto."
+          ]
+        },
+        "short": "Six centuries"
       },
       {
         "city": "Rome",
         "place": "St. Peter’s Basilica, Rome",
         "when": "1506–1667",
         "heading": "St. Peter’s",
-        "text": "Pope Julius II had the old basilica pulled down in 1506. Bramante, Michelangelo, Maderno, and Bernini followed one another over 120 years, and the sale of indulgences to pay for it helped set off the Reformation. Bernini’s bronze canopy went up over the altar in 1634, and his colonnade was finished in 1667.",
+        "text": "In Rome, the greatest building project of the age destroyed one of the oldest churches in Christendom. In 1506, Pope Julius II had the old basilica of St. Peter, more than a thousand years old, pulled down. He hired the architect Donato Bramante to build a new one. Over the next 120 years the job passed from one architect to the next, among them Michelangelo, who designed the dome. To pay for it, the church sold indulgences, which promised to shorten time in purgatory. Martin Luther’s protest against them helped set off the Reformation. The basilica’s interior was finished by Gian Lorenzo Bernini, who built the bronze canopy over the altar.",
         "lat": 41.9022,
         "lon": 12.4539,
         "zoom": 15,
@@ -8862,14 +8907,22 @@
           "4bqhqSfbCE25PqinHiuF3I",
           "4sYJGgon7IVFx1tUG8hqLt"
         ],
-        "image": "Basilica di San Pietro in Vaticano September 2015-1a.jpg"
+        "image": "Basilica di San Pietro in Vaticano September 2015-1a.jpg",
+        "mediaNote": {
+          "lead": "Here are two short films on St. Peter’s.",
+          "items": [
+            "One follows the basilica from Bramante to Bernini.",
+            "And the other looks at Bernini’s bronze canopy over the tomb of St. Peter."
+          ]
+        },
+        "short": "St. Peter’s"
       },
       {
         "city": "London",
         "place": "St. Paul’s Cathedral, London",
         "when": "1675–1940",
         "heading": "Wren’s St. Paul’s",
-        "text": "The Great Fire of 1666 ruined old St. Paul’s. Christopher Wren’s replacement was built from 1675 to 1710, and he lived to see it finished. On December 29, 1940, German bombs set the City around it on fire, and a photograph of its dome rising through the smoke became the image of the Blitz.",
+        "text": "In London, a catastrophe made room for a new cathedral. The Great Fire of 1666 ruined old St. Paul’s, along with most of the medieval city. Christopher Wren, an astronomer turned architect, designed its replacement, with a great dome inspired by St. Peter’s. It was built from 1675 to 1710, and Wren lived to see it finished. On the night of December 29, 1940, German bombs set the City around it on fire. A photograph of its dome rising through the smoke became the defining image of the Blitz.",
         "lat": 51.5138,
         "lon": -0.0984,
         "zoom": 15,
@@ -8877,14 +8930,22 @@
           "2LUO9HtYdjAEXNOARIn6N",
           "3Ce9OSh3mTo2MsPURyR39M"
         ],
-        "image": "St Paul's Cathedra Millennium Bridge JBU04.jpg"
+        "image": "St Paul's Cathedra Millennium Bridge JBU04.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into St. Paul’s.",
+          "items": [
+            "A podcast episode tells the story of Wren, the scientist who rebuilt London.",
+            "And another tours the bomb damage of 1940 and tells the story behind the famous photograph."
+          ]
+        },
+        "short": "Wren’s St. Paul’s"
       },
       {
         "city": "Barcelona",
         "place": "Sagrada Família, Barcelona",
         "when": "1882–today",
         "heading": "Gaudí’s basilica",
-        "text": "The Sagrada Família was begun in 1882, and Antoni Gaudí took it over the next year. He spent the rest of his life on it and was killed by a tram in 1926 with less than a quarter built. Work has gone on ever since, paid for by visitors’ tickets.",
+        "text": "Barcelona is still building its great church. The Sagrada Família was begun in 1882, and the next year the young architect Antoni Gaudí took it over. He threw out the plain Gothic design and spent the rest of his life on something stranger, with towers like honeycombs and columns that branch like trees. In 1926, he was hit by a tram, and he died with less than a quarter of it built. Work has gone on ever since, paid for by visitors’ tickets, with architects trying to work out what he intended.",
         "lat": 41.4036,
         "lon": 2.1744,
         "zoom": 15,
@@ -8893,14 +8954,23 @@
           "1Y2aIrG1XjvlOVaDfCWaqp",
           "2ChWx2mq8JCkBh4w1nx3vV"
         ],
-        "image": "Sagrada Família 2010.JPG"
+        "image": "Sagrada Família 2010.JPG",
+        "mediaNote": {
+          "lead": "Here are three ways into the Sagrada Família.",
+          "items": [
+            "A 99% Invisible episode looks at how architects are piecing together a church its designer never finished.",
+            "Another podcast episode looks at how it became a lifelong obsession for Gaudí.",
+            "And a short video reads its façades, from the side Gaudí lived to see to the side added after his death."
+          ]
+        },
+        "short": "Sagrada Família"
       },
       {
         "city": "Liverpool",
         "place": "Hope Street, Liverpool",
         "when": "1904–1978",
         "heading": "Two cathedrals",
-        "text": "Giles Gilbert Scott was 22 when he won the competition for Liverpool’s Anglican cathedral. Building began in 1904 and finished in 1978, after his death. At the other end of Hope Street, Lutyens’s Catholic cathedral, meant to have a dome bigger than St. Peter’s, stopped at the crypt. Frederick Gibberd’s round concrete one went up on top in 1967.",
+        "text": "The last stop is Liverpool, which built two cathedrals in the 20th century, one at each end of Hope Street. In 1903, Giles Gilbert Scott, aged only 22, won the competition for the Anglican one. Building began in 1904 and went on until 1978, long after his death, and the result is the largest cathedral in Britain. The Catholics hired Edwin Lutyens, who designed a cathedral with a dome larger than St. Peter’s. Work stopped in the Second World War with only the crypt built. In the 1960s, Frederick Gibberd built a round concrete cathedral on top of it, nicknamed Paddy’s Wigwam.",
         "lat": 53.3975,
         "lon": -2.9732,
         "zoom": 14,
@@ -8909,7 +8979,17 @@
           "5v77CgZfNxfKkwR4lCIYlm",
           "6TRzSZPu5mLHJdj0nhjHMK"
         ],
-        "image": "Liverpool Metropolitan Cathedral at dusk (reduced grain), corrected perspective.jpg"
+        "image": "Liverpool Metropolitan Cathedral at dusk (reduced grain), corrected perspective.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Liverpool’s two cathedrals.",
+          "items": [
+            "A short video tells the story of the young architect and his 74 years of building.",
+            "A podcast episode tours the art inside the round Catholic cathedral.",
+            "And another video tells the story of the cathedral that would have outdomed St. Peter’s."
+          ]
+        },
+        "short": "Two cathedrals",
+        "shortPlace": "Liverpool"
       }
     ],
     "image": "Dome of Cattedrale di Santa Maria del Fiore (Florence).jpg"
@@ -9385,7 +9465,7 @@
     "title": "Parks and gardens",
     "dates": "c. 30 BC–2013",
     "intro": [
-      "Gardens began as private paradises for emperors and kings. Over time most of them were opened up, and cities began making parks for everyone.",
+      "Gardens began as private paradises for emperors and kings. Over time most of them were opened to the public, and cities began making parks for everyone.",
       "The stops run from a painted Roman garden to a park in Istanbul that people protested to save."
     ],
     "chapters": [
@@ -9394,50 +9474,68 @@
         "place": "Palazzo Massimo, Rome",
         "when": "c. 30–20 BC",
         "heading": "A painted garden",
-        "text": "The empress Livia had an underground dining room at her villa north of Rome painted floor to ceiling as a garden, with fruit trees, flowers, and birds. The frescoes were cut from the walls and moved to the Palazzo Massimo museum, where the room has been rebuilt.",
+        "text": "Our first garden is painted. Around 30 BC, Livia, the wife of the emperor Augustus, had an underground dining room at her villa north of Rome painted floor to ceiling as a garden. The walls show fruit trees, flowers, and birds, as if the room opened onto an orchard. It would have stayed cool in the summer heat. In the 1950s the frescoes were cut from the walls to save them. They are now in the Palazzo Massimo, a museum near Rome’s main train station, where the room has been rebuilt.",
         "lat": 41.9014,
         "lon": 12.498,
         "zoom": 15,
         "stories": [
           "33tnYmZbi0jcxkv9x7vVB3"
         ],
-        "image": "Villa of Livia - Garden fresco 005.jpg"
+        "image": "Villa of Livia - Garden fresco 005.jpg",
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a short video on the garden room, now rebuilt in the museum."
+          ]
+        },
+        "short": "A painted garden"
       },
       {
         "city": "Amsterdam",
         "place": "Hortus Botanicus, Amsterdam",
         "when": "1638",
         "heading": "A garden of medicines",
-        "text": "The city founded the Hortus Botanicus in 1638 as a herb garden for doctors and apothecaries, during an outbreak of plague. Ships of the Dutch East India Company brought back plants from Asia, Africa, and the Americas, and some went on from here to plantations around the world.",
+        "text": "Later gardens were practical as well as beautiful. Amsterdam founded the Hortus Botanicus in 1638, during an outbreak of plague, as a garden of medicinal herbs for doctors and apothecaries. Ships of the Dutch East India Company brought back plants from Asia, Africa, and the Americas. Some of them went on from here to plantations around the world. A single coffee plant grown here is said to be the ancestor of much of the coffee of Latin America.",
         "lat": 52.3667,
         "lon": 4.9082,
         "zoom": 15,
         "stories": [
           "5omTqBFwIcsOSTuAVQmSkC"
         ],
-        "image": "Hortus Botanicus Amsterdam. (actm.).jpg"
+        "image": "Hortus Botanicus Amsterdam. (actm.).jpg",
+        "mediaNote": {
+          "items": [
+            "For a visit, there is a short video tour of the 400-year-old garden."
+          ]
+        },
+        "short": "Hortus Botanicus"
       },
       {
         "city": "Paris",
         "place": "Gardens of Versailles",
         "when": "1661–1700",
         "heading": "Le Nôtre’s Versailles",
-        "text": "From 1661 André Le Nôtre laid out the gardens of Versailles for Louis XIV: terraces, clipped hedges, fountains, and a mile-long canal on which the king kept gondolas. The design was copied by every court in Europe. The Tuileries in central Paris were also his.",
+        "text": "In France, gardens became a show of royal power. From 1661, the gardener André Le Nôtre laid out the gardens of Versailles for Louis XIV, outside Paris. He used terraces, clipped hedges, fountains, and a canal more than a mile and a half long, where the king kept gondolas. Everything was arranged in straight lines and long views, to show that the king controlled even nature. Courts all over Europe copied it. Le Nôtre also redesigned the Tuileries Garden in central Paris.",
         "lat": 48.8076,
         "lon": 2.1097,
         "zoom": 13,
         "stories": [
-          "4v2qooAFnnMrgmYNi4rJpC",
-          "3fyLin46skZtOhF7aukTTu"
+          "4v2qooAFnnMrgmYNi4rJpC"
         ],
-        "image": "Versailles gardens Aug 2026 01.jpg"
+        "image": "Versailles gardens Aug 2026 01.jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a short video about the gardens and other sights beyond the palace walls."
+          ]
+        },
+        "short": "Versailles",
+        "shortPlace": "Versailles"
       },
       {
         "city": "London",
         "place": "Kew Gardens, London",
         "when": "1759–1848",
         "heading": "Kew",
-        "text": "Princess Augusta started a botanic garden at Kew in 1759. William Chambers built the ten-story Great Pagoda in 1762, and the iron-and-glass Palm House, finished in 1848, was built to hold tropical plants collected across the empire. Kew is still a research institution.",
+        "text": "In England, a royal garden became a center of science. In 1759, Princess Augusta, the mother of George III, started a botanic garden at Kew, west of London. The architect William Chambers filled it with follies, including a ten-story Great Pagoda in 1762. In the 1840s, Kew built the Palm House, a huge greenhouse of iron and glass, to hold tropical plants collected across the British Empire. Kew is still a major research institution.",
         "lat": 51.4712,
         "lon": -0.2957,
         "zoom": 14,
@@ -9445,91 +9543,135 @@
           "36LAj1yH2DGaocXxlpKpKs",
           "2DOV5h1PThdgKUb4rUuOHo"
         ],
-        "image": "Kew Gardens Palm House, London - July 2009.jpg"
+        "image": "Kew Gardens Palm House, London - July 2009.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Kew.",
+          "items": [
+            "A cheerful video starts at the Great Pagoda and tours the gardens.",
+            "And another tells the story of a lonely tree in the Palm House, the last male of its kind."
+          ]
+        },
+        "short": "Kew"
       },
       {
         "city": "Warsaw",
         "place": "Łazienki Park, Warsaw",
         "when": "1772–1795",
         "heading": "The last king’s park",
-        "text": "Stanisław August Poniatowski, the last king of Poland, turned a bathhouse in a park south of Warsaw into a small palace standing in a lake, the Palace on the Isle. He lost his throne when Poland was partitioned in 1795. On summer Sundays there are Chopin concerts by the monument in the park.",
+        "text": "Poland’s last king made his garden a refuge. Stanisław August Poniatowski, elected king in 1764, bought a park south of Warsaw with an old bathhouse in it. He turned the bathhouse into a small palace standing in a lake, the Palace on the Isle, and filled the park with pavilions and a theater. He lost his throne in 1795, when Russia, Prussia, and Austria divided Poland between them. The park is now Warsaw’s favorite. On summer Sundays, pianists play Chopin by his monument there.",
         "lat": 52.2152,
         "lon": 21.0355,
         "zoom": 14,
         "stories": [
           "UoLlKUj45f5cyxFDZxe0X"
         ],
-        "image": "Palace on the Isle (21895p).jpg"
+        "image": "Palace on the Isle (21895p).jpg",
+        "mediaNote": {
+          "items": [
+            "For a tour, there is a video from Polish television about the park and its bathhouse palace."
+          ]
+        },
+        "short": "Łazienki"
       },
       {
         "city": "Stockholm",
         "place": "Skansen, Stockholm",
         "when": "1891",
         "heading": "Skansen",
-        "text": "Artur Hazelius worried that industry was wiping out rural Sweden, so he bought old farmhouses, churches, and workshops from around the country and rebuilt them on a hill on Djurgården. Skansen opened in 1891, the world’s first open-air museum.",
+        "text": "In Stockholm, a park was built to save a vanishing country. In the 1880s, Artur Hazelius, a teacher and collector, worried that industry was wiping out the old rural Sweden. He bought farmhouses, churches, and workshops from around the country, and he rebuilt them on a hill on Djurgården, an island park in the city. Skansen opened in 1891, the world’s first open-air museum. Its idea was copied across Europe.",
         "lat": 59.3268,
         "lon": 18.1036,
         "zoom": 14,
         "stories": [
           "7gA5sfJ0VxSV8ULZxOh1rp"
         ],
-        "image": "Skansen, Stockholm (by Pudelek) 3.JPG"
+        "image": "Skansen, Stockholm (by Pudelek) 3.JPG",
+        "mediaNote": {
+          "items": [
+            "For a quick look, there is a short video about the farmhouses rebuilt on the hill."
+          ]
+        },
+        "short": "Skansen"
       },
       {
         "city": "Copenhagen",
         "place": "Kolonihaven Vennelyst, Copenhagen",
         "when": "1892–today",
         "heading": "Allotments",
-        "text": "Copenhagen’s kolonihaver are allotment gardens, each with a small house, rented by city dwellers. Vennelyst on Amager was founded in 1892. They were meant to give working families fresh vegetables, and waiting lists for them now run to years.",
+        "text": "In Copenhagen, gardens were made for ordinary families. In the late 1800s, many workers lived in crowded apartments with no outdoor space. Allotment gardens, called kolonihaver, gave them a small plot of land outside the city, often with a tiny house. Vennelyst, on the island of Amager, was founded in 1892. The gardens were meant to give working families fresh vegetables and air. Today the waiting lists for a plot can run for years.",
         "lat": 55.67,
         "lon": 12.6026,
         "zoom": 14,
         "stories": [
           "2I7kmNyZh5koF5VSjlgsWW"
         ],
-        "image": "Solvang kolonihave.JPG"
+        "image": "Solvang kolonihave.JPG",
+        "mediaNote": {
+          "items": [
+            "For more, there is a short episode of Monocle’s urbanism podcast from one of the allotments."
+          ]
+        },
+        "short": "Allotments"
       },
       {
         "city": "Oslo",
         "place": "Vigeland Park, Oslo",
         "when": "1921–1949",
         "heading": "Vigeland",
-        "text": "In 1921 the sculptor Gustav Vigeland agreed to give Oslo all his future work in return for a studio. He spent the rest of his life filling Frogner Park with more than 200 granite and bronze figures, crowned by a granite column of 121 bodies.",
+        "text": "In Oslo, one man filled a park with his life’s work. In 1921, the sculptor Gustav Vigeland made a deal with the city. He would give it all his future work, and it would give him a studio. He spent the rest of his life filling part of Frogner Park with more than two hundred granite and bronze figures, from babies to the very old. At the top of the park stands a granite column of 121 human bodies, carved over fourteen years.",
         "lat": 59.927,
         "lon": 10.7008,
         "zoom": 14,
         "stories": [
           "7AKeJ7riwar8E7lrSYc4Rj"
         ],
-        "image": "Vigeland Sculpture Park - Granite sculptures on the staircase, Oslo, Norway.jpg"
+        "image": "Vigeland Sculpture Park - Granite sculptures on the staircase, Oslo, Norway.jpg",
+        "mediaNote": {
+          "items": [
+            "For a stroll through it, there is a short video about the park and its two hundred naked figures."
+          ]
+        },
+        "short": "Vigeland"
       },
       {
         "city": "Zurich",
         "place": "Platzspitz, Zurich",
         "when": "1987–1992",
         "heading": "Needle Park",
-        "text": "From 1987 the Platzspitz, a riverside park behind the Swiss National Museum, was where Zurich’s police let heroin users gather. Thousands came from across Europe. The park was closed in 1992, and Switzerland moved to prescribing heroin under medical supervision. The park has been open again since 1993.",
+        "text": "Parks can also become places where cities hide their problems. From 1987, the police in Zurich let heroin users gather in the Platzspitz, a park on the river behind the Swiss National Museum. They hoped to keep drugs out of the rest of the city. Thousands of people came, from across Switzerland and beyond, and it became known as Needle Park. It was closed in 1992. Switzerland then began prescribing heroin to addicts under medical supervision, a policy that was later copied elsewhere. The park reopened in 1993.",
         "lat": 47.3816,
         "lon": 8.5398,
         "zoom": 15,
         "stories": [
           "1o8TcESsyCAecwoBOQQ0Fv"
         ],
-        "image": "Zürich - Platzspitzpark IMG 1210.JPG"
+        "image": "Zürich - Platzspitzpark IMG 1210.JPG",
+        "mediaNote": {
+          "items": [
+            "For the story, there is a short video about the years when the park was Europe’s largest open drug scene."
+          ]
+        },
+        "short": "Needle Park"
       },
       {
         "city": "Istanbul",
         "place": "Gezi Park, Istanbul",
         "when": "2013",
         "heading": "Gezi Park",
-        "text": "In May 2013 a few dozen people camped in Gezi Park, beside Taksim Square, to stop its trees being cut down for a shopping center. The police burned their tents, and within days there were protests in cities across Turkey. The park is still there.",
+        "text": "The last park was saved by protest. Gezi Park is a small green space beside Taksim Square, in the center of Istanbul. In May 2013, a few dozen people camped there to stop its trees from being cut down for a shopping center. The police burned their tents. Within days, protests against the government had spread to cities across Turkey. The shopping center was never built, and the park is still there.",
         "lat": 41.0383,
         "lon": 28.9869,
         "zoom": 15,
         "stories": [
           "50XCtyLqjvRozEiUoX5xGR"
         ],
-        "image": "İstanbul - Taksim Gezi Parkı - Mart 2013 - r7.JPG"
+        "image": "İstanbul - Taksim Gezi Parkı - Mart 2013 - r7.JPG",
+        "mediaNote": {
+          "items": [
+            "For a first-hand account, there is a BBC episode in which an actor tells how one social media post changed his life."
+          ]
+        },
+        "short": "Gezi Park"
       }
     ],
     "image": "Versailles view from the Parterre d'eau.jpg"
@@ -10092,8 +10234,8 @@
     "title": "Olympic cities",
     "dates": "1896–2012",
     "intro": [
-      "The modern Olympics began in Athens in 1896, and European cities have used them since to rebuild, to show off, and once to make propaganda. Most of the stadiums are still in use.",
-      "The stops run in date order."
+      "The modern Olympics began in Athens in 1896. European cities have used them since to rebuild, to show off, and once to make propaganda. Most of the stadiums are still in use.",
+      "This thread follows the Games through seven cities, in date order."
     ],
     "chapters": [
       {
@@ -10101,21 +10243,27 @@
         "place": "Panathenaic Stadium, Athens",
         "when": "1896",
         "heading": "The first modern Games",
-        "text": "Pierre de Coubertin’s revived Olympics opened in 1896 in Athens’ ancient stadium, rebuilt in white marble. The Greek water carrier Spyridon Louis won the first marathon.",
+        "text": "The ancient Olympic Games ended in the 4th century AD. In the 1890s, a French educator, Pierre de Coubertin, set out to revive them. The first modern Games opened in Athens in April 1896, in the ancient Panathenaic Stadium. A wealthy Greek merchant, Georgios Averoff, paid to rebuild it in white marble. Only a few hundred athletes took part, almost all men. The most popular winner was Spyridon Louis, a Greek water carrier, who won the first marathon.",
         "lat": 37.968,
         "lon": 23.741,
         "zoom": 14,
         "stories": [
           "1BrmcpuRYLxIAR5NSoPRSd"
         ],
-        "image": "GR-athen-panathinaiko-stadion.jpg"
+        "image": "GR-athen-panathinaiko-stadion.jpg",
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is an episode of The Rest Is History that starts in this stadium and follows the Games up to the Second World War."
+          ]
+        },
+        "short": "Athens, 1896"
       },
       {
         "city": "Berlin",
         "place": "Olympiastadion, Berlin",
         "when": "1936",
         "heading": "Hitler’s Games",
-        "text": "The Nazis used the 1936 Games to show the world a confident Germany. Jesse Owens, a Black American, won four gold medals in their new stadium.",
+        "text": "Forty years later, the Olympics became propaganda. Berlin had won the 1936 Games before the Nazis came to power, and Hitler used them to show the world a confident, orderly Germany. The regime built a huge new stadium and staged the first torch relay. Leni Riefenstahl filmed it all for her documentary Olympia. But the star of the Games was Jesse Owens, a Black American athlete, who won four gold medals. The Olympiastadion is still in use.",
         "lat": 52.515,
         "lon": 13.239,
         "zoom": 13,
@@ -10123,28 +10271,42 @@
           "6RoY9yDBLHi7lJC4awhIBa",
           "2rP5oUdRM7RIkS8JURdpSq"
         ],
-        "image": "Berlin, Olympiastadion -- 2019 -- 6339.jpg"
+        "image": "Berlin, Olympiastadion -- 2019 -- 6339.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the 1936 Games.",
+          "items": [
+            "A short video from the United States Holocaust Memorial Museum explains how the Nazis used the Games.",
+            "And Race is a film about Jesse Owens and his four gold medals."
+          ]
+        },
+        "short": "Hitler’s Games"
       },
       {
         "city": "Oslo",
         "place": "Frogner Stadium, Oslo",
         "when": "1928–1952",
         "heading": "The skater from Oslo",
-        "text": "Sonja Henie from Oslo won figure-skating gold at three Winter Olympics in a row, from 1928 to 1936, then became a Hollywood star. Oslo hosted the Winter Games in 1952.",
+        "text": "Winter sports had their own Games from 1924, and Norway’s first great Olympic star was a girl from Oslo. Sonja Henie trained on the ice at Frogner Stadium. She competed in her first Winter Olympics at eleven, and she won figure-skating gold at three in a row, in 1928, 1932, and 1936. She then moved to Hollywood and became one of its best-paid film stars. Her home city hosted the Winter Olympics in 1952, and a statue of her now stands at the stadium.",
         "lat": 59.928,
         "lon": 10.71,
         "zoom": 13.5,
         "stories": [
           "3MQP92eS8bZ09l4tY3pH6k"
         ],
-        "image": "Holmenkollbakken - no-nb digifoto 20150625 00168 NB MIT FNR 11656 B.jpg"
+        "image": "Holmenkollbakken - no-nb digifoto 20150625 00168 NB MIT FNR 11656 B.jpg",
+        "mediaNote": {
+          "items": [
+            "For her story, there is a podcast episode about the girl from Oslo who won three Olympics, then conquered Hollywood."
+          ]
+        },
+        "short": "Sonja Henie"
       },
       {
         "city": "Helsinki",
         "place": "Olympic Stadium, Helsinki",
         "when": "1952",
         "heading": "Helsinki 1952",
-        "text": "Helsinki finally hosted the Games in 1952, after the 1940 Olympics were canceled by the war. The Soviet Union competed for the first time, and the Czech runner Emil Zátopek won the 5,000 meters, the 10,000 meters, and the marathon in eight days.",
+        "text": "That same year, Helsinki hosted the Summer Games. The city had been chosen for 1940 and built a stadium with a tall white tower, but the war canceled the Games. In 1952 it finally hosted them. The Soviet Union competed for the first time, in the early years of the Cold War. The star of the Games was Emil Zátopek, a Czechoslovak army officer. In eight days he won the 5,000 meters, the 10,000 meters, and the marathon, which he had never run before.",
         "lat": 60.187,
         "lon": 24.927,
         "zoom": 13,
@@ -10154,14 +10316,24 @@
           "6HoZQq0Oc1so4xEMy5zHE7",
           "7yZMRPtcZK4G0u0ySAqRHc"
         ],
-        "image": "Helsinki Olympic tower and stadium.jpg"
+        "image": "Helsinki Olympic tower and stadium.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into the Helsinki Games.",
+          "items": [
+            "A short report looks at how the Soviet Union joined the Olympics in a small Nordic capital.",
+            "A podcast episode tells how Zátopek won three gold medals in eight days.",
+            "Olympia 52, Chris Marker’s first feature film, is a documentary about those Games.",
+            "And The Happiest Day in the Life of Olli Mäki, a gentle true story, ends with a 1962 title fight in the Olympic Stadium."
+          ]
+        },
+        "short": "Helsinki, 1952"
       },
       {
         "city": "Munich",
         "place": "Olympiapark, Munich",
         "when": "1972",
         "heading": "The cheerful Games",
-        "text": "West Germany wanted 1972 to be the opposite of 1936: pastel colors, Otl Aicher’s pictograms, a tent-like stadium roof. On September 5, Palestinian gunmen took Israeli athletes hostage in the Olympic village, and eleven of them were killed.",
+        "text": "In 1972, West Germany wanted its Games to be the opposite of 1936. In Munich, the designer Otl Aicher gave them soft blues and greens, and sport pictograms that are still copied. The stadium had a light, tent-like roof of acrylic panels. On September 5, eight Palestinian gunmen broke into the Israeli team’s apartments in the Olympic Village and took athletes hostage. All eleven Israeli hostages were killed, along with a German police officer. The Games went on after a day of mourning. Days later, the United States lost its first ever Olympic basketball game, to the Soviet Union, in a disputed final.",
         "lat": 48.173,
         "lon": 11.546,
         "zoom": 13,
@@ -10169,17 +10341,26 @@
           "5gBVQllzhqoOO6Bd0UrWHR",
           "6Y94Ll2nuRVlr6aFrz4snd",
           "5rvVBIbpeI2YwGiQCFV9lX",
-          "36iBsbxID71cJ2aY89DQVh",
-          "26PUZhBtMCHrBNc6gSnqz2"
+          "36iBsbxID71cJ2aY89DQVh"
         ],
-        "image": "20220923 Olympic Stadium Munich.jpg"
+        "image": "20220923 Olympic Stadium Munich.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into the Munich Games.",
+          "items": [
+            "A short video explains Otl Aicher’s colors and pictograms.",
+            "A DW documentary shows how live television turned the hostage siege into a global broadcast.",
+            "One Day in September is the Oscar-winning documentary about the attack.",
+            "And a podcast episode tells how the last three seconds of the basketball final were replayed until the Americans lost."
+          ]
+        },
+        "short": "Munich, 1972"
       },
       {
         "city": "Barcelona",
         "place": "Montjuïc, Barcelona",
         "when": "1992",
         "heading": "The city rebuilt",
-        "text": "Barcelona used the 1992 Games to open itself to the sea, replacing old industrial waterfront with beaches and a new Olympic village. It is still the model other host cities point to.",
+        "text": "Barcelona used the 1992 Games to rebuild itself. For a century, the city had turned its back on the sea, behind railway lines and factories. For the Olympics, it cleared the old industrial waterfront and built beaches, a new Olympic Village, and a ring road. The main stadium was on Montjuïc, a hill above the port. The opening song was “Barcelona,” a duet by Freddie Mercury and the opera singer Montserrat Caballé. Mercury had died the year before. Other host cities still point to Barcelona as a model.",
         "lat": 41.365,
         "lon": 2.156,
         "zoom": 13,
@@ -10188,14 +10369,23 @@
           "3CEgNxjveBJJVoQlMKeDP7",
           "5mAS1g4qodISE4eGMpUwy3"
         ],
-        "image": "Aerial view of Somorrostro Beach and Port Olympic in Barcelona, Spain (51227006624).jpg"
+        "image": "Aerial view of Somorrostro Beach and Port Olympic in Barcelona, Spain (51227006624).jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the Barcelona Games.",
+          "items": [
+            "A short video walks from the old town down to the beaches built for the Games.",
+            "Marathon, by the director Carlos Saura, is the official film of those Games.",
+            "And “Barcelona” is the duet by Freddie Mercury and Montserrat Caballé."
+          ]
+        },
+        "short": "Barcelona, 1992"
       },
       {
         "city": "London",
         "place": "Queen Elizabeth Olympic Park, London",
         "when": "2012",
         "heading": "East London",
-        "text": "London put its 2012 Games in Stratford, in the East End, on old industrial land. Zaha Hadid’s aquatics center is now a public pool.",
+        "text": "London hosted the Games for the third time in 2012, and like Barcelona it used them to rebuild. It put the Olympic Park in Stratford, in East London, on old industrial land along the River Lea. The architect Zaha Hadid designed the aquatics center, with a roof shaped like a wave, and it is now a public swimming pool. The main stadium was designed so it could be shrunk after the Games, and it is now home to West Ham United, a football club.",
         "lat": 51.54,
         "lon": -0.014,
         "zoom": 13,
@@ -10203,7 +10393,15 @@
           "6HRQPCdMhuqUrNZztgjLC9",
           "1TE7EqwAIL6MsUbxY74kb6"
         ],
-        "image": "London Aquatics Centre - Olympic Park.jpg"
+        "image": "London Aquatics Centre - Olympic Park.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into London’s Olympic Park.",
+          "items": [
+            "A short video looks at Zaha Hadid’s aquatics center.",
+            "And another shows how the stadium was designed to change after the Games."
+          ]
+        },
+        "short": "London, 2012"
       }
     ],
     "image": "Panathenaic Stadium, Athens, 20240601 1007 0050.jpg"
@@ -10214,8 +10412,8 @@
     "title": "Football cities",
     "dates": "1887–today",
     "intro": [
-      "In most of Europe a football club is more than a team. It can stand for a religion in Glasgow, a nation in Barcelona, a country that no longer exists in Belgrade. Grounds are places of pilgrimage and, more than once, of disaster.",
-      "Each stop is a stadium, with the story of what it means to the city."
+      "In most of Europe, a football club is more than a team. It can stand for a religion in Glasgow, a nation in Barcelona, or a country that no longer exists in Belgrade. Its ground is a place of pilgrimage and, more than once, of disaster.",
+      "Each stop is a stadium, with the story of what it means to its city."
     ],
     "chapters": [
       {
@@ -10223,7 +10421,7 @@
         "place": "Celtic Park and Ibrox, Glasgow",
         "when": "Since 1888",
         "heading": "The Old Firm",
-        "text": "Celtic was founded in 1887 by an Irish Marist brother to raise money for the poor of Glasgow’s East End, and became the club of the city’s Irish Catholics. Rangers became the club of its Protestants. In 1967 Celtic were the first British side to win the European Cup. In 1971, 66 people died on a stairway at Ibrox after a New Year derby.",
+        "text": "We start in Glasgow, with one of the oldest rivalries in football. Celtic was founded in 1887 by Brother Walfrid, an Irish Marist brother, to raise money for the poor of the city’s East End. It became the club of Glasgow’s Irish Catholics, and Rangers, across the city, became the club of its Protestants. The two are known together as the Old Firm. In 1967 Celtic, managed by Jock Stein, became the first British team to win the European Cup. In 1971, 66 fans died in a crush on a stairway at Ibrox, the Rangers ground, after a New Year match.",
         "lat": 55.8497,
         "lon": -4.2055,
         "zoom": 12.5,
@@ -10232,14 +10430,23 @@
           "6j4VKhhsClhaEkMGRWRI1p",
           "7a9gTEN44XyWoisUDP5ZFY"
         ],
-        "image": "Celtic park 2.jpg"
+        "image": "Celtic park 2.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the Old Firm.",
+          "items": [
+            "A documentary explains the rivalry and its roots in Ireland.",
+            "A podcast episode tells the story of the Ibrox disaster of 1971.",
+            "And a biography of Jock Stein tells how a former miner built the team that won Europe."
+          ]
+        },
+        "short": "The Old Firm"
       },
       {
         "city": "Liverpool",
         "place": "Anfield, Liverpool",
         "when": "1959 to today",
         "heading": "The Kop",
-        "text": "Bill Shankly arrived in 1959 and built Liverpool into a winning club. The Kop, the huge standing terrace, adopted “You’ll Never Walk Alone” in 1963. In 1989, 97 Liverpool fans died in a crush at Hillsborough in Sheffield. It took 27 years and a second inquest to establish that they had been unlawfully killed.",
+        "text": "In Liverpool, the club’s story is told through its fans. In 1959, Bill Shankly, a Scottish manager, took over Liverpool FC, then in the second division, and built it into a winning club. Its fans stood on the Kop, a huge terrace behind one goal. In 1963 they adopted “You’ll Never Walk Alone,” a song from a musical, as their anthem. In 1989, 97 Liverpool fans died in a crush at Hillsborough, a stadium in Sheffield, during a cup semifinal. The police blamed the fans. It took 27 years and a second inquest to establish that the victims had been unlawfully killed.",
         "lat": 53.4308,
         "lon": -2.9608,
         "zoom": 14.5,
@@ -10247,17 +10454,26 @@
           "1QzVmJKmi6lgHsJawANeAC",
           "6NzF27PxCAP6vdAXYBzFNY",
           "6uEsF3tw4eTSx8D6yEX2xT",
-          "4j1BTMx1GyQnT5EzZRk0ke",
-          "3hAX583MHPZeIBuYqgKwsy"
+          "4j1BTMx1GyQnT5EzZRk0ke"
         ],
-        "image": "The Kop at Anfield Stadium, Liverpool - geograph.org.uk - 5885064.jpg"
+        "image": "The Kop at Anfield Stadium, Liverpool - geograph.org.uk - 5885064.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Anfield.",
+          "items": [
+            "A BBC film from 1974 shows the Kop swaying and singing.",
+            "“You’ll Never Walk Alone,” by Gerry and the Pacemakers, is the song the Kop adopted.",
+            "Red or Dead, a long novel by David Peace, retells Shankly’s years at the club.",
+            "And a podcast episode tells the story of Hillsborough and the families’ fight for the truth."
+          ]
+        },
+        "short": "The Kop"
       },
       {
         "city": "Manchester",
         "place": "Old Trafford, Manchester",
         "when": "1958 to today",
         "heading": "After Munich",
-        "text": "In February 1958 the plane carrying Manchester United home from a European tie crashed on take-off after refueling in Munich. Twenty-three people died, eight of them players. Matt Busby rebuilt the team, which won the European Cup ten years later.",
+        "text": "Manchester United’s story turns on a disaster too. In February 1958, the team was flying home from a European Cup match in Belgrade. After refueling in Munich, its plane crashed on its third attempt to take off from a snowy runway. Twenty-three people died, eight of them players from a famously young team. The manager, Matt Busby, survived and rebuilt the club, and ten years later United won the European Cup. Its ground, Old Trafford, is known as the Theatre of Dreams.",
         "lat": 53.4631,
         "lon": -2.2913,
         "zoom": 14,
@@ -10267,14 +10483,24 @@
           "3NRnNt85tsUUnfzlgNsMu0",
           "5YHBRuXDpKjdE4YYOTfo9V"
         ],
-        "image": "Munich clock.JPG"
+        "image": "Munich clock.JPG",
+        "mediaNote": {
+          "lead": "Here are four ways into Old Trafford.",
+          "items": [
+            "A podcast episode tells the story of the Munich air disaster.",
+            "Another recalls how Eric Cantona, a French maverick, ended the club’s 26-year wait for a league title.",
+            "The Class of ’92 is a documentary about six young players who grew up together at the club.",
+            "And a walking tour loops around the stadium, past the statues of its legends."
+          ]
+        },
+        "short": "After Munich"
       },
       {
         "city": "Barcelona",
         "place": "Camp Nou, Barcelona",
         "when": "Since 1957",
         "heading": "More than a club",
-        "text": "Under Franco, when Catalan was restricted, Barça’s ground was one of the few places tens of thousands of people could speak and shout it together. “Més que un club,” more than a club, is painted in the seats. The stadium is being rebuilt while the team plays on.",
+        "text": "In Barcelona, the football club came to stand for a nation. Under Francisco Franco, the dictator who ruled Spain from 1939 to 1975, the use of the Catalan language in public was restricted. FC Barcelona’s ground was one of the few places where tens of thousands of people could shout in Catalan together. The club’s motto, “more than a club,” is spelled out in the seats of the Camp Nou, its stadium since 1957. The stadium is being rebuilt while the team keeps playing.",
         "lat": 41.3809,
         "lon": 2.1228,
         "zoom": 14,
@@ -10284,14 +10510,24 @@
           "6WOYz042Bl0UdHv5kVFySg",
           "5svRj0MdnI0n7JVQ32yBkj"
         ],
-        "image": "Camp Nou aerial (cropped).jpg"
+        "image": "Camp Nou aerial (cropped).jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Barça.",
+          "items": [
+            "A podcast episode tells how the club became a symbol of Catalan identity.",
+            "Take the Ball, Pass the Ball is a documentary about Pep Guardiola’s great Barcelona team.",
+            "Fear and Loathing in La Liga, by Sid Lowe, is a funny history of the rivalry with Real Madrid.",
+            "And a short report visits the Camp Nou, the largest stadium in Europe."
+          ]
+        },
+        "short": "More than a club"
       },
       {
         "city": "Madrid",
         "place": "Santiago Bernabéu, Madrid",
         "when": "Since 1947",
         "heading": "The other side of El Clásico",
-        "text": "Real Madrid won the first five European Cups and became, for many Catalans, the club of the regime. The Bernabéu, in the middle of the city, has just been rebuilt with a steel skin and a roof that closes.",
+        "text": "Barcelona’s great rival is Real Madrid, and the two clubs’ matches are called El Clásico. Real won the first five European Cups, from 1956 to 1960, and for many Catalans it became the club of Franco’s regime. Its stadium, the Santiago Bernabéu, is named after the president who built it. It opened in 1947, on Madrid’s main avenue, the Paseo de la Castellana. It has just been rebuilt with a steel skin and a roof that closes.",
         "lat": 40.453,
         "lon": -3.6884,
         "zoom": 14,
@@ -10299,27 +10535,41 @@
           "3twdnFO9Iip6Q9Bfke9B6g",
           "3A7GyOePB6ANnhXLuaZtDH"
         ],
-        "image": "M-estadio-santiago-bernabeu-diciembre-2024-c.jpg"
+        "image": "M-estadio-santiago-bernabeu-diciembre-2024-c.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the Bernabéu.",
+          "items": [
+            "A short video shows how the stadium got its steel skin and closing roof.",
+            "And Fear and Loathing in La Liga tells the same rivalry from the Madrid side."
+          ]
+        },
+        "short": "Real Madrid"
       },
       {
         "city": "Marseille",
         "place": "Stade Vélodrome, Marseille",
         "when": "Since 1937",
         "heading": "A city’s one club",
-        "text": "Marseille has one big club, and the whole city follows it. In 1993 Olympique de Marseille became the first French side to win the Champions League. Its ultras groups run the two curves of the Vélodrome.",
+        "text": "Marseille is a different kind of football city. It has only one big club, Olympique de Marseille, and the whole city follows it. In 1993, it became the first French team to win the Champions League. A few weeks later, it was caught up in a match-fixing scandal and stripped of its French title. Its fans, organized in ultras groups, fill the two curved ends of the Stade Vélodrome with flares, flags, and chants.",
         "lat": 43.2698,
         "lon": 5.3959,
         "zoom": 13.5,
         "stories": [
           "4WcwX2j99gER3IFeZ4B3Ag"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "To see the fans, there is a short film that follows Marseille’s ultras to a European final."
+          ]
+        },
+        "short": "Marseille"
       },
       {
         "city": "Milan",
         "place": "San Siro, Milan",
         "when": "Since 1926",
         "heading": "Two clubs, one stadium",
-        "text": "Inter was founded in 1908 by members who left AC Milan because they wanted to sign foreign players. The two clubs have shared San Siro since 1947. Under Helenio Herrera in the 1960s, Inter won two European Cups with a defensive style the world learned to call catenaccio.",
+        "text": "In Milan, two rival clubs share one stadium. AC Milan was founded in 1899. In 1908, members who wanted the club to sign foreign players broke away and founded Inter. Since 1947, both have played at San Siro, a stadium on the west side of the city. In the 1960s, Inter’s Argentine coach Helenio Herrera won two European Cups with a defensive style known as catenaccio, the door bolt. Today the two clubs plan to replace the old stadium with a new one.",
         "lat": 45.4781,
         "lon": 9.124,
         "zoom": 14,
@@ -10329,14 +10579,24 @@
           "6L0OFo9Rd7jHVEqSRm30UY",
           "2FRWRG3IcOpVN4ynZW8ThN"
         ],
-        "image": "Milano - stadio Giuseppe Meazza - 202209050049.jpeg"
+        "image": "Milano - stadio Giuseppe Meazza - 202209050049.jpeg",
+        "mediaNote": {
+          "lead": "Here are four ways into San Siro.",
+          "items": [
+            "A podcast episode tells how Helenio Herrera taught Inter to defend.",
+            "A short BBC report looks at the clubs’ plans to replace the stadium.",
+            "“Luci a San Siro,” by the songwriter Roberto Vecchioni, is about courting in a car near the stadium.",
+            "And Calcio, by the historian John Foot, is a history of Italian football."
+          ]
+        },
+        "short": "San Siro"
       },
       {
         "city": "Munich",
         "place": "FC Bayern Museum, Allianz Arena, Munich",
         "when": "1913–1933, 1947–1951",
         "heading": "The Jewish president",
-        "text": "Kurt Landauer was Bayern’s president when it won its first German title in 1932. The Nazis forced him out the next year, and he survived the war in exile in Switzerland. He came back and was president again after the war. The club now honors him openly.",
+        "text": "In Munich, Bayern’s history includes a story the club long kept quiet. Kurt Landauer, the son of a Jewish merchant family, was Bayern’s president when it won its first German championship in 1932. The next year, the Nazis came to power, and he was forced out. He was held for a time in Dachau concentration camp, then escaped to exile in Switzerland. After the war he came home and was elected president again. Bayern now honors him openly, and its museum tells his story.",
         "lat": 48.2188,
         "lon": 11.6236,
         "zoom": 13.5,
@@ -10344,14 +10604,22 @@
           "2t99MbGkA4wBqYpMwVxKYi",
           "5MCLNGuHjmSvdRcljt5uJa"
         ],
-        "image": "Allianz arena daylight Richard Bartz.jpg"
+        "image": "Allianz arena daylight Richard Bartz.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into his story.",
+          "items": [
+            "A short film from the club reads from Landauer’s letters.",
+            "And Bayern, by Uli Hesse, is a history of the club that includes his story."
+          ]
+        },
+        "short": "Kurt Landauer"
       },
       {
         "city": "Belgrade",
         "place": "Red Star and Partizan stadiums, Belgrade",
         "when": "Since 1945",
         "heading": "The Eternal Derby",
-        "text": "Red Star and Partizan were both founded in 1945, and their grounds are a short walk apart. In May 1991 Red Star won the European Cup in Bari, on penalties, with players from across Yugoslavia. Within weeks the country began to break up, and the team with it.",
+        "text": "The last stop is Belgrade, the capital of Serbia, once the capital of Yugoslavia. Its two big clubs, Red Star and Partizan, were both founded in 1945, and their grounds are a short walk apart. Their match is called the Eternal Derby. In May 1991, Red Star won the European Cup in Bari, in Italy, beating Marseille on penalties. Its players came from across Yugoslavia. Within weeks, Slovenia and Croatia declared independence, war followed, and the team was scattered.",
         "lat": 44.7833,
         "lon": 20.4647,
         "zoom": 14,
@@ -10360,7 +10628,16 @@
           "2BClmQTmtQh0It8WWzlbgj",
           "6vItk8eUYeJXLZSlAvuRcH"
         ],
-        "image": "Beograd 7652.jpg"
+        "image": "Beograd 7652.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Belgrade football.",
+          "items": [
+            "A short film follows the Eternal Derby, which brings the city to a halt.",
+            "A podcast episode tells how Yugoslavia’s last great team won Europe.",
+            "And a short video tells the story of the penalty shootout in Bari."
+          ]
+        },
+        "short": "The Eternal Derby"
       }
     ],
     "image": "PanoramiqueStadeVelodromeOM-ZILINAoct2010.jpg"
