@@ -68,6 +68,15 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       return sessionStorage.getItem('lc-voices') === 'trial'
     } catch { return new URLSearchParams(window.location.search).get('voices') === 'trial' }
   })()
+  // ?chime=trial plays a short sound before the narration starts and after it
+  // finishes. A trial only; it sticks for the visit.
+  const chime = (() => {
+    try {
+      if (new URLSearchParams(window.location.search).get('chime') === 'trial') sessionStorage.setItem('lc-chime', 'trial')
+      return sessionStorage.getItem('lc-chime') === 'trial'
+    } catch { return new URLSearchParams(window.location.search).get('chime') === 'trial' }
+  })()
+  const chimedRef = useRef(false)
   const audioDir = narration?.dir || thread.slug
   useEffect(() => {
     let live = true
@@ -80,10 +89,31 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     const a = audioRef.current
     if (a) { a.pause(); a.removeAttribute('src') }
     setSeg(-1); setPaused(false); setReadingKey(null)
+    chimedRef.current = false
+  }
+  // The chime plays on the same audio element as the narration, so phones that
+  // only allow audio started by a tap still play the narration after it.
+  const playChime = (a, then) => {
+    a.ontimeupdate = null
+    a.onended = then
+    a.src = '/audio/chime-trial.mp3'
+    a.volume = 0.7
+    a.play().catch(() => then())
   }
   const playSegment = n => {
-    if (!narration || n >= narration.segments.length) { stopNarration(); return }
+    if (!narration) return
     const a = audioRef.current || (audioRef.current = new Audio())
+    if (n >= narration.segments.length) {
+      if (chime) { setReadingKey(null); playChime(a, stopNarration) } else stopNarration()
+      return
+    }
+    if (chime && !chimedRef.current) {
+      chimedRef.current = true
+      setSeg(n); setPaused(false); setReadingKey(null)
+      playChime(a, () => playSegment(n))
+      return
+    }
+    a.volume = 1
     const sg = narration.segments[n]
     a.src = `/audio/${audioDir}/${sg.file}`
     a.ontimeupdate = () => {
