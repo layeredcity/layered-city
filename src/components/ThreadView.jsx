@@ -423,32 +423,44 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                 </div>
               </li>
             ))}
+            {/* The end: the rail runs on to a last red stop, then a few related
+                threads, listed like the chapter's stories. */}
+            <li ref={endRef} className={'thread-ch thread-ch--end' + (atEnd ? ' is-here' : '')}>
+              <div className="thread-ch__rail"><span className="thread-ch__num thread-ch__num--end" aria-hidden="true"><span className="thread-ch__stop" /></span></div>
+              <div className="thread-ch__body">
+                <h2 className="thread-ch__heading thread-end__heading">The end</h2>
+                <div className="thread-ch__place">{thread.title} · {thread.dates}</div>
+                {onOpenThread && (() => {
+                  const rel = relatedThreads(thread, allThreads)
+                  return rel.length > 0 && <>
+                    <div className="thread-end__more">More to explore</div>
+                    <div className="thread-ch__stories thread-end__list">
+                      {rel.map(t => (
+                        <div key={t.slug} className="story-item" role="link" tabIndex={0} onClick={() => onOpenThread(t.slug)} onKeyDown={e => { if (e.key === 'Enter') onOpenThread(t.slug) }}>
+                          <span className="story-item__icon-viz">
+                            {PHOTOS[t.image]
+                              ? <img className="story-item__icon-podcast thread-end__thumb" src={PHOTOS[t.image].src} alt="" loading="lazy" />
+                              : <span className="story-item__icon-podcast thread-end__thumb" />}
+                          </span>
+                          <div className="story-item__body">
+                            <div className="story-item__title">{t.title}</div>
+                            <div className="story-item__meta">
+                              <span className="story-item__type">Thread</span>
+                              <span className="story-item__source">{t.kind.toLowerCase() === 'food and drink' ? 'Food and drink' : t.kind}</span>
+                            </div>
+                            <div className="story-item__meta story-item__facts">
+                              <span className="story-modal__meta-item">{t.dates}</span>
+                              <span className="story-modal__meta-item">{new Set(t.chapters.map(c => c.city)).size} cities</span>
+                            </div>
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                })()}
+              </div>
+            </li>
           </ol>
-          <section ref={endRef} className={'thread-end' + (atEnd ? ' is-here' : '')}>
-            <div className="thread-end__mark">The end</div>
-            <div className="thread-end__of">{thread.title} · {thread.dates}</div>
-            {onOpenThread && (() => {
-              const rel = relatedThreads(thread, allThreads)
-              return rel.length > 0 && <>
-                <div className="thread-end__next">Where to next</div>
-                <div className="thread-end__list">
-                  {rel.map(t => (
-                    <button key={t.slug} type="button" className="thread-end__item" onClick={() => onOpenThread(t.slug)}>
-                      {PHOTOS[t.image]
-                        ? <img className="thread-end__thumb" src={PHOTOS[t.image].src} alt="" loading="lazy" />
-                        : <span className="thread-end__thumb" />}
-                      <span className="thread-end__text">
-                        <span className="thread-end__kind">{t.kind}</span>
-                        <span className="thread-end__title">{t.title}</span>
-                        <span className="thread-end__dates">{t.dates}</span>
-                      </span>
-                      <svg className="thread-end__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" /></svg>
-                    </button>
-                  ))}
-                </div>
-              </>
-            })()}
-          </section>
           {seg >= 0 && (
             <div className="thread-player">
               <button type="button" className="thread-player__btn" onClick={togglePause} aria-label={paused ? 'Resume' : 'Pause'}>
