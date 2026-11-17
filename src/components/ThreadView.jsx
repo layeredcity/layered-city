@@ -41,6 +41,7 @@ const typeRank = s => { const i = TYPE_ORDER.indexOf((s.mediaType || '').toLower
 // The chapter map never zooms in further than this, so a stop still shows its
 // surroundings rather than a few streets.
 const MAX_ZOOM = 7.5
+const CHIME_LEAD = 1.3 // seconds of chime before the title starts
 
 export default function ThreadView({ thread, onClose, renderStory, startChapter = null }) {
   const scrollRef = useRef(null)
@@ -77,6 +78,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     } catch { return new URLSearchParams(window.location.search).get('chime') === 'trial' }
   })()
   const chimedRef = useRef(false)
+  const leadRef = useRef(null) // timer that starts the narration under the chime
   const audioDir = narration?.dir || thread.slug
   useEffect(() => {
     let live = true
@@ -90,6 +92,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     if (a) { a.pause(); a.removeAttribute('src') }
     setSeg(-1); setPaused(false); setReadingKey(null)
     chimedRef.current = false
+    clearTimeout(leadRef.current); leadRef.current = null
   }
   // The chime plays on the same audio element as the narration, so phones that
   // only allow audio started by a tap still play the narration after it.
@@ -107,12 +110,12 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       if (chime) { setReadingKey(null); playChime(a, stopNarration) } else stopNarration()
       return
     }
-    if (chime && !chimedRef.current) {
-      chimedRef.current = true
-      setSeg(n); setPaused(false); setReadingKey(null)
-      playChime(a, () => playSegment(n))
-      return
-    }
+    // Opening chime: it plays on its own element while the narration starts
+    // CHIME_LEAD seconds in, so the title overlaps the chime's fade. The
+    // narration element is started muted and paused right away, inside the tap,
+    // so phones still let it play when the timer fires.
+    const opening = chime && !chimedRef.current
+    if (opening) chimedRef.current = true
     a.volume = 1
     const sg = narration.segments[n]
     a.src = `/audio/${audioDir}/${sg.file}`
@@ -122,8 +125,20 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       setReadingKey(k)
     }
     a.onended = () => playSegment(n + 1)
-    a.play().catch(() => {})
-    setSeg(n); setPaused(false); setReadingKey(sg.marks[0]?.key || null)
+    if (opening) {
+      let started = false
+      a.muted = true
+      a.play().then(() => { if (!started) { a.pause(); a.currentTime = 0 } a.muted = false }).catch(() => { a.muted = false })
+      const c = new Audio('/audio/chime-trial.mp3')
+      c.volume = 0.7
+      const go = () => { clearTimeout(leadRef.current); leadRef.current = setTimeout(() => { leadRef.current = null; started = true; a.muted = false; a.play().catch(() => {}) }, CHIME_LEAD * 1000) }
+      c.addEventListener('playing', go, { once: true })
+      c.play().catch(() => { clearTimeout(leadRef.current); leadRef.current = null; started = true; a.muted = false; a.play().catch(() => {}) })
+      setSeg(n); setPaused(false); setReadingKey(null)
+    } else {
+      a.play().catch(() => {})
+      setSeg(n); setPaused(false); setReadingKey(sg.marks[0]?.key || null)
+    }
     if ('mediaSession' in navigator) {
       try {
         navigator.mediaSession.setActionHandler('previoustrack', () => skip(-1))
@@ -147,6 +162,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   const togglePause = () => {
     const a = audioRef.current
     if (!a) return
+    if (leadRef.current) { clearTimeout(leadRef.current); leadRef.current = null; setPaused(true); return }
     if (a.paused) { a.play().catch(() => {}); setPaused(false) } else { a.pause(); setPaused(true) }
   }
   useEffect(() => () => { audioRef.current?.pause() }, [])
