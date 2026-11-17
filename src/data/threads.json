@@ -6955,8 +6955,8 @@
     "title": "Byzantium",
     "dates": "330–1453",
     "intro": [
-      "The Roman Empire carried on in the east for a thousand years after Rome fell, ruled from Constantinople. The Byzantines called themselves Romans, and their capital was the richest city in Christendom.",
-      "Much of what survives was taken elsewhere. This thread starts in the city and follows the loot."
+      "The Roman Empire carried on in the east for a thousand years after Rome itself fell, ruled from Constantinople, the city that is now Istanbul. Its people called themselves Romans, and for centuries their capital was the richest city in the Christian world.",
+      "Much of what survives was carried away. This thread starts in the city and then follows the loot to Venice, Paris, and London."
     ],
     "chapters": [
       {
@@ -6964,53 +6964,74 @@
         "place": "Hagia Sophia, Istanbul",
         "when": "537",
         "heading": "Hagia Sophia",
-        "text": "Justinian’s Hagia Sophia, finished in 537, had the largest dome in the world for nearly a thousand years. It became a mosque in 1453, a museum in 1934, and a mosque again in 2020. Its mosaics are still visible upstairs.",
+        "text": "In 330 the emperor Constantine moved his capital to Byzantium, a Greek town on the strait between Europe and Asia, and renamed it Constantinople. Two centuries later, in 532, riots destroyed much of the city, including its great church. The emperor Justinian rebuilt it on a scale nobody had attempted. Hagia Sophia, Holy Wisdom, was finished in 537, and for nearly a thousand years its dome was the largest in the world. Forty windows around its base make it seem to float on light. After the Ottoman conquest in 1453 it became a mosque. It was a museum from 1934, and it became a mosque again in 2020. Mosaics of Christ, the Virgin, and the emperors survive in the upper galleries.",
         "lat": 41.0086,
         "lon": 28.98,
         "zoom": 14.5,
         "stories": [
           "3zGmbHkf1Q4Z3KPV4VQBxT",
           "4ZZpL7NTqkMdiYJ0wqvRAE",
-          "5CcJ5xdQezhFiOoqnTAqZi",
           "2ydycZ25MuhTHmQToONPQf",
           "5oyFT9gSprPKGWX3pIiHfB"
         ],
-        "image": "Hagia Sophia Mars 2013.jpg"
+        "image": "Hagia Sophia Mars 2013.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Hagia Sophia.",
+          "items": [
+            "A video explains how Justinian’s builders made the dome seem to float.",
+            "A short one looks at the Deësis mosaic in the upper gallery.",
+            "Another asks what changed when it became a mosque again.",
+            "And John Julius Norwich’s A Short History of Byzantium tells the empire’s whole thousand-year story."
+          ]
+        },
+        "short": "Hagia Sophia"
       },
       {
         "city": "Istanbul",
         "place": "Theodosian Walls, Istanbul",
         "when": "5th century–1453",
         "heading": "The walls",
-        "text": "Three lines of land walls, built in the 400s, kept Constantinople safe for a thousand years. Most of their six kilometers still stand.",
+        "text": "Constantinople was surrounded by water on three sides. On the fourth, the emperor Theodosius II built a great line of land walls in the early 400s, running about six kilometers from the Sea of Marmara to the Golden Horn. It was really three barriers: a wide moat, an outer wall, and a taller inner wall with nearly a hundred towers. For a thousand years these walls turned back every army that besieged the city, including Huns, Avars, Arabs, and Bulgars. Much of them still stands, crumbling in places and restored in others.",
         "lat": 41.02,
         "lon": 28.92,
         "zoom": 13,
         "stories": [
           "7eQvTq7JWJ114dmW3kA1uS"
         ],
-        "image": "Theodosian Walls of Constantinople, Istanbul (37905571151).jpg"
+        "image": "Theodosian Walls of Constantinople, Istanbul (37905571151).jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a video about the three lines of stone that held off invaders for a thousand years."
+          ]
+        },
+        "short": "The land walls"
       },
       {
         "city": "Istanbul",
         "place": "Hagia Sophia, Istanbul",
         "when": "1204",
         "heading": "The Fourth Crusade",
-        "text": "In 1204 a crusader army meant for Egypt turned on Constantinople instead, sacked it, and put a Latin emperor on its throne. Venice, which had built the fleet, took a large share of the loot.",
+        "text": "The walls could not stop an enemy that came by sea. In 1202 a crusader army gathered in Venice, meaning to attack Egypt. It could not pay the Venetians for the fleet they had built, and it was drawn into a dispute over the Byzantine throne. In 1204 the crusaders, fellow Christians, attacked Constantinople from the water and broke in. For three days they looted the city, stripping its churches, including Hagia Sophia, and they put one of their own leaders on the throne. The Byzantines took the city back in 1261, but the empire never recovered its strength.",
         "lat": 41.0086,
         "lon": 28.98,
         "zoom": 14,
         "stories": [
           "74srTumCVxqH1Z8Ij8OIEl"
         ],
-        "image": "The Entry of the Crusaders into Constantinople - 1840 - Eugène Delacroix - Louvre - Inv 3821.jpg"
+        "image": "The Entry of the Crusaders into Constantinople - 1840 - Eugène Delacroix - Louvre - Inv 3821.jpg",
+        "mediaNote": {
+          "items": [
+            "For the story, there is a podcast episode about the crusaders who sacked the church they had come to save."
+          ]
+        },
+        "short": "The Fourth Crusade"
       },
       {
         "city": "Venice",
         "place": "St. Mark’s Basilica, Venice",
         "when": "1204 and after",
         "heading": "The loot in Venice",
-        "text": "The four bronze horses over St. Mark’s came from Constantinople’s Hippodrome, and the porphyry Tetrarchs set into the basilica’s corner were taken from the city too. Venice built its sea empire partly on what it took.",
+        "text": "Venice took one of the largest shares of the spoils. Its doge, Enrico Dandolo, an old and nearly blind man, had led the attack himself. The four bronze horses that stood over the entrance to St. Mark’s Basilica for centuries came from the Hippodrome, Constantinople’s great racetrack, and they are now kept inside the basilica. The Tetrarchs, a carving in purple porphyry of four Roman co-emperors embracing, were set into the outer corner of the basilica. Much of the treasury inside came from the same sack. Venice used its share, including trading rights and islands across the eastern Mediterranean, to build a sea empire.",
         "lat": 45.4345,
         "lon": 12.3397,
         "zoom": 14.5,
@@ -7020,34 +7041,56 @@
           "MzBTIymDEdU5y1EmP80TP",
           "1vOZeC1cmyuXzB5XdC09ib"
         ],
-        "image": "Horses of Basilica San Marco bright.jpg"
+        "image": "Horses of Basilica San Marco bright.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways to see what Venice took.",
+          "items": [
+            "A long podcast episode tells how the doge steered the crusade to Constantinople.",
+            "A short video tours St. Mark’s Basilica, glittering with loot.",
+            "Another looks at the Tetrarchs on the basilica’s corner.",
+            "And City of Fortune, by Roger Crowley, tells how Venice won and lost its sea empire."
+          ]
+        },
+        "short": "The loot in Venice"
       },
       {
         "city": "Paris",
         "place": "Louvre, Paris",
         "when": "6th century",
         "heading": "The Barberini Ivory",
-        "text": "An ivory panel of an emperor on horseback, made in Constantinople in the 500s, passed through a Roman cardinal’s collection to the Louvre.",
+        "text": "Smaller treasures traveled too. In the 500s, carvers in Constantinople made a panel of ivory showing an emperor on a rearing horse, with a defeated barbarian beside him and Christ blessing him from above. It probably shows Justinian. Over the centuries it passed through several hands, and in the 1600s it belonged to the Barberini, a powerful family in Rome whose name it still carries. It is now in the Louvre in Paris.",
         "lat": 48.8606,
         "lon": 2.3376,
         "zoom": 13.5,
         "stories": [
           "4sz7nzTisDKLaUETGo5w77"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a short video about the ivory and the emperor it shows."
+          ]
+        },
+        "short": "The Barberini Ivory"
       },
       {
         "city": "London",
         "place": "British Museum, London",
         "when": "6th century",
         "heading": "The Archangel Michael",
-        "text": "The largest Byzantine ivory panel to survive, an archangel holding a scepter and orb, is in the British Museum.",
+        "text": "The largest single panel of Byzantine ivory to survive is in London. Carved around 525, probably in Constantinople, it shows the archangel Michael standing at the top of a flight of steps, holding an orb and a staff. It may once have been one half of a pair. It is now in the British Museum, one of the finest works left from the city at its height.",
         "lat": 51.5194,
         "lon": -0.127,
         "zoom": 13.5,
         "stories": [
           "2oBzU0nTGOSuUWqFwR7KrQ"
         ],
-        "image": "British Museum Dome.jpg"
+        "image": "British Museum Dome.jpg",
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a short video about the archangel panel."
+          ]
+        },
+        "short": "The Archangel Michael"
       }
     ],
     "image": "Interior of Hagia Sophia (6) - Istanbul (2022).jpg"
@@ -7058,8 +7101,8 @@
     "title": "Vikings",
     "dates": "c. 790–1100",
     "intro": [
-      "For about three centuries, Scandinavians raided, traded, and settled from Ireland to the Black Sea. Several of today’s capitals began as their towns or were shaped by them.",
-      "The stops follow them from their homelands westward."
+      "For about three centuries, from the late 700s, Scandinavians raided, traded, and settled from Ireland to the Black Sea. Several of today’s capitals began as their towns, or were shaped by them.",
+      "This thread starts in their homelands, in Denmark, Sweden, and Norway, and follows them west to Dublin and Iceland."
     ],
     "chapters": [
       {
@@ -7067,7 +7110,7 @@
         "place": "National Museum of Denmark, Copenhagen",
         "when": "c. 790–1100",
         "heading": "At home",
-        "text": "Most Vikings were farmers, and raiding was a summer occupation. Denmark’s National Museum holds much of what survives of daily life, from weapons to jewelry.",
+        "text": "The people we call Vikings were mostly farmers, fishermen, and craftsmen. Going viking, raiding by sea, was something some men did in the summer, for plunder and fame. The Danes raided England and France, and in the 800s they conquered much of eastern England. The National Museum of Denmark, in Copenhagen, holds much of what survives of daily life in the period, from swords and jewelry to combs and tools. Copenhagen itself began later, as a small fishing and trading town on the harbor.",
         "lat": 55.6745,
         "lon": 12.5746,
         "zoom": 13.5,
@@ -7075,14 +7118,22 @@
           "2Sq16xhPLL5Fi0YWjuc0dv",
           "7Cpy6OkGUcC47jNpNWPt43"
         ],
-        "image": "National Museum of Denmark, Copenhagen (3) (36267234721).jpg"
+        "image": "National Museum of Denmark, Copenhagen (3) (36267234721).jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Viking Denmark.",
+          "items": [
+            "The Children of Ash and Elm, by Neil Price, is the best popular book on who the Vikings really were.",
+            "And a walking tour traces Copenhagen’s thousand years of fires and rebuilding, from a square by the old harbor."
+          ]
+        },
+        "short": "At home"
       },
       {
         "city": "Stockholm",
         "place": "Swedish History Museum, Stockholm",
         "when": "c. 790–1100",
         "heading": "East to Byzantium",
-        "text": "Swedish Vikings mostly went east, along the rivers of Russia to Constantinople and Baghdad. Silver coins from the Islamic world turn up in Swedish graves by the tens of thousands.",
+        "text": "Vikings from what is now Sweden mostly went east. They sailed across the Baltic and down the great rivers of Russia and Ukraine, dragging their boats overland between rivers, all the way to Constantinople and the Caspian Sea. Some served as guards to the Byzantine emperor. They traded furs and slaves for silver, and tens of thousands of silver coins from the Islamic world, some minted as far away as Baghdad, have been found buried in Sweden. The Swedish History Museum in Stockholm has many of them. Runestones carved with the names of men who traveled east still stand around the country, and one is set into a wall in Stockholm’s Old Town.",
         "lat": 59.3346,
         "lon": 18.0908,
         "zoom": 13.5,
@@ -7090,14 +7141,22 @@
           "4rL5T8Z63bZ7KJtgbTU42Z",
           "ic9XskhAd3K2woxHSGiBx"
         ],
-        "image": "Swedish History Museum 28.jpg"
+        "image": "Swedish History Museum 28.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Viking Sweden.",
+          "items": [
+            "The Children of Ash and Elm, by Neil Price, explains their world, from their gods to their ships.",
+            "And a historian’s walk through the Old Town passes a Viking runestone set into a wall."
+          ]
+        },
+        "short": "East to Byzantium"
       },
       {
         "city": "Oslo",
         "place": "Museum of the Viking Age, Oslo",
         "when": "834",
         "heading": "The Oseberg ship",
-        "text": "In 834, two women were buried in a ship at Oseberg, south of Oslo, with sledges, a cart, and animals. The ship survived in the clay for eleven centuries and is now in Oslo’s Viking museum, which is being rebuilt around it.",
+        "text": "In Norway, the Vikings buried their most important dead in ships. In 834, two women were laid in a beautifully carved ship at Oseberg, near the Oslo fjord, with sledges, a cart, beds, animals, and food for the next life. The ship was covered with a mound of clay and turf, which kept it almost whole for more than a thousand years. It was dug up in 1904 and taken to Oslo. It now stands with two other ships in the Museum of the Viking Age on the Bygdøy peninsula. The museum is being rebuilt around them, because they are too fragile to move far. Oslo itself was founded later, around 1050.",
         "lat": 59.905,
         "lon": 10.685,
         "zoom": 13,
@@ -7106,34 +7165,55 @@
           "1rzaLGhSAqU9OYvWhI5XRl",
           "7G4ntbLX6qzxBNnUruDUy7"
         ],
-        "image": "Viking Ship Museum - Oseberg ship - 2.jpg"
+        "image": "Viking Ship Museum - Oseberg ship - 2.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the ships and the city.",
+          "items": [
+            "A video tells the story of the two women buried in the Oseberg ship.",
+            "Another shows how the museum is being rebuilt around ships too fragile to move.",
+            "And a podcast episode traces Oslo from a Viking outpost to a modern capital."
+          ]
+        },
+        "short": "The Oseberg ship"
       },
       {
         "city": "Dublin",
         "place": "Wood Quay, Dublin",
         "when": "841",
         "heading": "Dyflin",
-        "text": "Vikings set up a fortified camp on the Liffey in 841, and it grew into a trading town. In the 1970s Dublin built its civic offices on top of the excavated Viking town at Wood Quay, despite large protests.",
+        "text": "Vikings began raiding Ireland at the end of the 700s, attacking monasteries for their treasures. In 841 a group of them built a fortified camp beside a black pool, dubh linn in Irish, where a small stream met the river Liffey. It grew into a busy trading town, and one of the biggest slave markets in western Europe. In the 1970s the city decided to build its new civic offices on Wood Quay, on top of the excavated remains of the Viking town. Archaeologists found over a hundred houses. Tens of thousands of people marched in protest, but the offices were built.",
         "lat": 53.345,
         "lon": -6.271,
         "zoom": 14,
         "stories": [
           "4obBq6Irke7e8jrJx3zby5"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For the full story, there is a podcast episode about the port the Vikings founded and how it still shapes Dublin."
+          ]
+        },
+        "short": "Dyflin"
       },
       {
         "city": "Reykjavík",
         "place": "Settlement Exhibition, Reykjavík",
         "when": "c. 870",
         "heading": "Iceland",
-        "text": "Norse settlers reached Iceland around 870. The sagas say the first, Ingólfur Arnarson, threw his high-seat pillars overboard and settled where they washed up: Reykjavík. A longhouse from the period is under a hotel on Aðalstræti.",
+        "text": "Norse settlers reached Iceland, an empty island far out in the North Atlantic, around 870. According to the sagas, the first permanent settler, Ingólfur Arnarson, threw the carved pillars of his high seat overboard as he approached the coast. He promised to settle wherever the gods brought them ashore. His slaves found them in a bay with steaming hot springs, and he named it Reykjavík, smoky bay. In 2001, builders working on a hotel on Aðalstræti, in the old center, found the remains of a Viking longhouse. It is now displayed where it was found, in a museum called the Settlement Exhibition.",
         "lat": 64.147,
         "lon": -21.942,
         "zoom": 14,
         "stories": [
           "4lKKjdS03WTE8SNYdz9jzz"
         ],
-        "image": "Reykjavik 871 Grabungsgelände 2.jpg"
+        "image": "Reykjavik 871 Grabungsgelände 2.jpg",
+        "mediaNote": {
+          "items": [
+            "For the legend, there is a podcast episode about the chieftain whose pillars chose Iceland’s capital."
+          ]
+        },
+        "short": "Iceland"
       }
     ],
     "image": "Osebergskipet 2016.jpg"
@@ -7144,8 +7224,8 @@
     "title": "The Habsburgs",
     "dates": "1500s–1918",
     "intro": [
-      "For four hundred years one family married and inherited its way into ruling much of Europe, from Spain and the Netherlands to Bohemia and Hungary. Its palaces, crypts, and art collections are still among the main sights in half a dozen cities.",
-      "The thread follows the family west to east and through to its end in 1918."
+      "For four hundred years, one family married and inherited its way into ruling much of Europe, from Spain and the Netherlands to Bohemia and Hungary. Its palaces, crypts, and art collections are still among the main sights in half a dozen cities.",
+      "This thread follows the family from Brussels to Budapest, and through to its end in 1918."
     ],
     "chapters": [
       {
@@ -7153,57 +7233,80 @@
         "place": "Coudenberg Palace, Brussels",
         "when": "1515–1555",
         "heading": "Charles V",
-        "text": "Charles V was born in Ghent and came of age in Brussels, ruling the Netherlands, Spain, its American colonies, and the Holy Roman Empire. In 1555, worn out, he gave up his thrones in the great hall of the Coudenberg Palace in Brussels. Its remains are under the Place Royale.",
+        "text": "The Habsburgs began as minor lords in what is now Switzerland, but by the 1500s a series of marriages had brought them an astonishing inheritance. Charles V was born in Ghent in 1500 and grew up in the Netherlands. In 1515, at fifteen, he was declared of age in the great hall of the Coudenberg Palace in Brussels. He went on to rule the Netherlands, Spain and its new empire in the Americas, much of Italy, and the Holy Roman Empire. In 1555, worn out by forty years of wars, he gave up his thrones in the same hall, leaning on the shoulder of a young prince, William of Orange. The palace burned in 1731, and its remains lie under the Place Royale.",
         "lat": 50.8429,
         "lon": 4.3605,
         "zoom": 14,
         "stories": [
           "1PHvJqhPOqEfSxDojxBjF0",
           "5zgvINqdHaDL6axoUcgXLA",
-          "42onra5GKaTPgloGrSqXI6",
-          "21OE2mXcNjiOTViIjgxrcz"
+          "42onra5GKaTPgloGrSqXI6"
         ],
-        "image": "Brussels, straatzicht Place Royale met église Saint-Jacques-sur-Coudenberg oeg2043-01020 en standbeeld van Godefroid de Bouillon foto3 2015-06-07 13.53.jpg"
+        "image": "Brussels, straatzicht Place Royale met église Saint-Jacques-sur-Coudenberg oeg2043-01020 en standbeeld van Godefroid de Bouillon foto3 2015-06-07 13.53.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Charles’s Brussels.",
+          "items": [
+            "A podcast episode tells the story of the day he gave up his empire.",
+            "Another tells how he was declared of age in the same hall, at fifteen.",
+            "And a video shows the Ommegang, a parade held every summer to re-create one given for Charles in 1549."
+          ]
+        },
+        "short": "Charles V"
       },
       {
         "city": "Madrid",
         "place": "Prado Museum, Madrid",
         "when": "1561–1700",
         "heading": "The Spanish branch",
-        "text": "Charles’s son Philip II made Madrid the capital of Spain. The Spanish Habsburgs collected the paintings that became the Prado. In Las Meninas, Velázquez painted the court of Philip IV around the king’s young daughter. The line ended in 1700 with Charles II, who had no children.",
+        "text": "Charles divided his lands. His brother Ferdinand took the Austrian lands and the imperial title, and his son Philip II took Spain, the Netherlands, and the Americas. Philip made Madrid the capital of Spain in 1561. The Spanish Habsburgs were great collectors, and their paintings became the core of the Prado. In 1656 Diego Velázquez, the court painter, painted Las Meninas. It shows the young princess Margarita among her ladies-in-waiting, with Velázquez himself at his easel and the king and queen glimpsed in a mirror at the back. Generations of marriages between cousins took their toll, and the Spanish line ended in 1700 with Charles II, who was sickly and had no children.",
         "lat": 40.4138,
         "lon": -3.6921,
         "zoom": 14,
         "stories": [
           "67uEij89J8XVJMnF9i6uc6",
-          "4VlLRqU0X3nvHvJZNURPoA",
           "1eaQmAVc1cpTvSk8P0vgWi"
         ],
-        "image": "Museo del Prado (Madrid) 20.jpg"
+        "image": "Museo del Prado (Madrid) 20.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the Spanish Habsburgs’ painter.",
+          "items": [
+            "A long video from Great Art Explained unpicks Las Meninas, and who is looking at whom.",
+            "And The Vanishing Velázquez, by Laura Cumming, is a gripping book about a lost portrait, and about looking at paintings."
+          ]
+        },
+        "short": "The Spanish branch"
       },
       {
         "city": "Prague",
         "place": "Prague Castle, Prague",
         "when": "1583–1618",
         "heading": "Rudolf’s court",
-        "text": "Emperor Rudolf II moved his court to Prague and filled the castle with astronomers, alchemists, and art. Tycho Brahe worked for him. In 1618 Protestant nobles threw two imperial governors and their secretary out of a castle window, and the Thirty Years’ War began.",
+        "text": "In the Austrian branch, the emperor Rudolf II moved his court from Vienna to Prague in 1583. He was shy and moody, and more interested in art and science than in governing. He filled Prague Castle with painters, astronomers, and alchemists, and with a famous cabinet of curiosities. The astronomers Tycho Brahe and Johannes Kepler worked for him. After his death, the religious tensions he had held off broke out. In 1618 Protestant nobles threw two of the emperor’s Catholic governors and their secretary out of a high window of the castle. All three survived. It started the Thirty Years’ War, which devastated central Europe.",
         "lat": 50.0905,
         "lon": 14.4005,
         "zoom": 13.5,
         "stories": [
           "6ca7V2hP9VaiK2xUfMeY8h",
-          "5opk4gfseVC1XIFaZ68JJl",
           "3WdaupLK10Ddj3YrMXXqqN",
           "55eif8xk0qOchOyTMfn2aD"
         ],
-        "image": "Praha Panorama from Petřín 20170430.jpg"
+        "image": "Praha Panorama from Petřín 20170430.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Rudolf’s Prague.",
+          "items": [
+            "The Mercurial Emperor, by Peter Marshall, describes Rudolf’s court of astronomers, alchemists, and painters.",
+            "A podcast from Radio Prague tells the story of the men thrown from the window.",
+            "And The Emperor and the Golem, a much-loved Czech comedy from 1951, imagines Rudolf, his baker, and a clay giant."
+          ]
+        },
+        "short": "Rudolf’s court"
       },
       {
         "city": "Vienna",
         "place": "Hofburg and Schönbrunn, Vienna",
         "when": "1683–1916",
         "heading": "The imperial capital",
-        "text": "After the Ottoman siege of 1683, Vienna grew into the imperial capital: the Hofburg in town, Schönbrunn as the summer palace, and the Kunsthistorisches Museum for the collections. Franz Joseph reigned for 68 years, from 1848 to 1916, and his wife Elisabeth, Sisi, became a legend.",
+        "text": "Vienna was the family’s main seat. In 1683 an Ottoman army besieged it for two months before a relief army drove it off, and after that the city grew into a grand imperial capital. The Habsburgs lived in the Hofburg, a sprawling palace in the center, and spent the summers at Schönbrunn, on the edge of the city. Empress Maria Theresa ruled for forty years in the 1700s and had sixteen children. In the 1800s the family’s art collections went into the new Kunsthistorisches Museum, and its crowns and regalia into the Treasury of the Hofburg. Franz Joseph became emperor in 1848, at eighteen, and reigned for 68 years.",
         "lat": 48.2066,
         "lon": 16.3655,
         "zoom": 13,
@@ -7211,17 +7314,26 @@
           "6W3NhysKyybdD2CMffMAis",
           "17CIHhqYDQrB1otOgQ74nX",
           "5Dv8CoWa243fHnrZl2X6MV",
-          "7GWMsVWxU3u7684khMgoUU",
           "1vH6Ajqaq6UbNLi1Nur3tH"
         ],
-        "image": "Hofburg Neue Burg section, Heldenplatz. Statue of Archduke Charles.jpg"
+        "image": "Hofburg Neue Burg section, Heldenplatz. Statue of Archduke Charles.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Habsburg Vienna.",
+          "items": [
+            "A short video tours Schönbrunn and its 1,441 rooms.",
+            "Another visits the Kunsthistorisches Museum and its Bruegels.",
+            "A third looks at the crowns and relics in the Treasury.",
+            "And A Nervous Splendor, by Frederic Morton, tells the story of one winter in Vienna, from 1888 to 1889."
+          ]
+        },
+        "short": "Vienna"
       },
       {
         "city": "Budapest",
         "place": "Budapest",
         "when": "1867–1918",
         "heading": "Austria-Hungary",
-        "text": "After losing a war to Prussia, Franz Joseph agreed in 1867 to share power with Hungary: two countries under one monarch. Budapest boomed, building its parliament, opera, and boulevards to rival Vienna.",
+        "text": "Hungary had been part of the Habsburg lands since the 1600s, but many Hungarians resented rule from Vienna, and in 1848 they rebelled. The rising was crushed. Then in 1866 Austria lost a short war to Prussia, and Franz Joseph needed the Hungarians’ support. In 1867 he agreed to share power. Austria and Hungary became two countries with their own parliaments, under one monarch. Budapest boomed. To rival Vienna, it built a huge parliament on the Danube, an opera house, wide boulevards, and the first underground railway on the continent.",
         "lat": 47.503,
         "lon": 19.06,
         "zoom": 12.5,
@@ -7229,14 +7341,22 @@
           "1mADIqC76LkpIoOW9CSjCh",
           "7AJz5YwPvHeqbTyUxoY2VX"
         ],
-        "image": "Országház (Hungarian Parliament Building)(1).jpg"
+        "image": "Országház (Hungarian Parliament Building)(1).jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Budapest in its golden age.",
+          "items": [
+            "Budapest: Between East and West, by Victor Sebestyen, is a personal history of the city.",
+            "And Sunset, a film by László Nemes, follows a young woman through Budapest in 1913, a year before the catastrophe."
+          ]
+        },
+        "short": "Austria-Hungary"
       },
       {
         "city": "Vienna",
         "place": "Imperial Crypt, Vienna",
         "when": "1889–1918",
         "heading": "The end",
-        "text": "Franz Joseph’s only son, Rudolf, died with his young lover at Mayerling in 1889. His nephew and heir, Franz Ferdinand, was shot in Sarajevo in 1914, and the war that followed ended the empire in 1918. The family is buried in the Capuchin Crypt in Vienna.",
+        "text": "The family’s last decades were full of loss. Franz Joseph’s only son, Crown Prince Rudolf, died with his young lover, Mary Vetsera, at the hunting lodge of Mayerling in 1889. His wife, Elisabeth, was murdered in Geneva in 1898. His nephew and new heir, Archduke Franz Ferdinand, was shot in Sarajevo in June 1914, and the war that followed destroyed the empire. Franz Joseph died in 1916. In 1918 the last emperor, Charles I, gave up power, and the empire broke apart into new countries. The Habsburgs are buried in the Imperial Crypt, beneath the Capuchin church in Vienna.",
         "lat": 48.2057,
         "lon": 16.37,
         "zoom": 14,
@@ -7244,7 +7364,15 @@
           "64pyhbBM6o6mrDEhMk9uAY",
           "d7G9qLtYec03HPcxJ0Nua"
         ],
-        "image": "Imperial Crypt Vienna.jpg"
+        "image": "Imperial Crypt Vienna.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the end of the empire.",
+          "items": [
+            "A podcast episode tells the story of Crown Prince Rudolf and Mary Vetsera.",
+            "And The Radetzky March, by Joseph Roth, follows one family through three generations as the empire declines."
+          ]
+        },
+        "short": "The end"
       }
     ],
     "image": "Schloss Schönbrunn Wien 2014 (Zuschnitt 2).jpg"
@@ -7255,8 +7383,8 @@
     "title": "The Ottoman frontier",
     "dates": "1453–1821",
     "intro": [
-      "For more than three centuries the Ottoman Empire pushed into Europe and Europe pushed back. The frontier ran through cities that changed hands, held sieges, and still carry the marks.",
-      "The stops run in date order, from the fall of Constantinople to Greek independence."
+      "For more than three centuries, the Ottoman Empire pushed into Europe, and Europe pushed back. The frontier ran through cities that changed hands, held out against sieges, and still carry the marks.",
+      "The stops run in date order, from the fall of Constantinople in 1453 to the Greek war of independence in the 1820s."
     ],
     "chapters": [
       {
@@ -7264,7 +7392,7 @@
         "place": "Theodosian Walls and Topkapı, Istanbul",
         "when": "1453",
         "heading": "Constantinople falls",
-        "text": "Mehmed II’s cannons broke the thousand-year-old land walls of Constantinople in May 1453. He made the city his capital and built the Topkapı Palace above the Bosphorus.",
+        "text": "By the 1400s, the Byzantine Empire had shrunk to little more than its capital, Constantinople, surrounded by Ottoman lands. In April 1453 the young sultan Mehmed II besieged it with a huge army and enormous cannons, built for him by a Hungarian engineer. After 53 days, on May 29, his troops broke through the thousand-year-old land walls. The last Byzantine emperor died in the fighting. Mehmed made the city his capital, and he built the Topkapı Palace on the point above the Bosphorus, where the sultans lived for nearly four centuries. The city came to be called Istanbul.",
         "lat": 41.0115,
         "lon": 28.9834,
         "zoom": 12.5,
@@ -7273,14 +7401,23 @@
           "6TjZANBjwiL9Ax8ok9uTcN",
           "4zabP4nx4IwX24mUw3Pkuo"
         ],
-        "image": "Theodosian Walls of Constantinople, Istanbul (24053561188).jpg"
+        "image": "Theodosian Walls of Constantinople, Istanbul (24053561188).jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Ottoman Istanbul.",
+          "items": [
+            "A BBC discussion tells how the cannons finally broke the walls.",
+            "A short video visits the courtyards of Topkapı.",
+            "And Constantinople, by Philip Mansel, is a portrait of the Ottoman city over five centuries."
+          ]
+        },
+        "short": "Constantinople falls"
       },
       {
         "city": "Belgrade",
         "place": "Kalemegdan, Belgrade",
         "when": "1456 and 1521",
         "heading": "The gate to Hungary",
-        "text": "In 1456 John Hunyadi held Belgrade’s fortress against Mehmed II; church bells still ring at noon in memory of the victory. In 1521 Suleiman the Magnificent took it.",
+        "text": "Three years later, Mehmed turned on Belgrade, the fortress where the Sava meets the Danube, which guarded the road to Hungary. In July 1456 a Hungarian commander, John Hunyadi, held the fortress against him and drove the Ottomans back. The pope had ordered church bells to ring at noon to call for prayers for the defenders, and in many places they still ring at noon in memory of the victory. Belgrade held out for another 65 years. In 1521 Suleiman the Magnificent, the greatest of the sultans, took it, and it stayed in Ottoman hands, with breaks, until the 1860s.",
         "lat": 44.824,
         "lon": 20.45,
         "zoom": 13.5,
@@ -7288,42 +7425,62 @@
           "4RhCnMFAJfNuWE7G4f4i6z",
           "1GqjoOTUEpxVutb6YArnIY"
         ],
-        "image": "Kalemegdan, a10.jpg"
+        "image": "Kalemegdan, a10.jpg",
+        "mediaNote": {
+          "lead": "Here are two podcast episodes about the fortress.",
+          "items": [
+            "One tells how Hunyadi held Belgrade against Mehmed II.",
+            "The other tells how Suleiman took it in 1521."
+          ]
+        },
+        "short": "The gate to Hungary"
       },
       {
         "city": "Bucharest",
         "place": "Old Princely Court, Bucharest",
         "when": "1450s–1470s",
         "heading": "Vlad the Impaler",
-        "text": "Vlad III of Wallachia, who fought the Ottomans with notorious cruelty, is the first ruler known to have signed a document in Bucharest. His court’s ruins are in the Old Town.",
+        "text": "North of the Danube, the princes of Wallachia, in what is now southern Romania, tried to hold off the Ottomans. The most famous was Vlad III. He had spent part of his youth as a hostage at the Ottoman court. As prince, he fought the sultan’s armies, and he became notorious for impaling his enemies on stakes, which earned him the name Vlad the Impaler. He was also called Dracula, son of the dragon, after an order of knights his father had joined. A charter he signed in 1459 is the first document known to mention Bucharest. The ruins of his princely court are in the Old Town.",
         "lat": 44.43,
         "lon": 26.101,
         "zoom": 14,
         "stories": [
           "7g45u1aYijsq8a4LYr7ReS"
         ],
-        "image": "Bucharest - Curtea Veche around dawn.jpg"
+        "image": "Bucharest - Curtea Veche around dawn.jpg",
+        "mediaNote": {
+          "items": [
+            "For his story, there is a podcast episode about the real Dracula and how he ruled."
+          ]
+        },
+        "short": "Vlad the Impaler"
       },
       {
         "city": "Budapest",
         "place": "Budapest",
         "when": "1541–1686",
         "heading": "Ottoman Buda",
-        "text": "The Ottomans held Buda for 145 years. They left Turkish baths that are still in use, and the tomb of the dervish Gül Baba, which is still a place of pilgrimage.",
+        "text": "In 1526 Suleiman crushed the Hungarian army at the Battle of Mohács, and the Hungarian king was killed. In 1541 the Ottomans took Buda, the royal castle town on the hills above the Danube, and they held it for 145 years. They turned churches into mosques and built bathhouses over the hot springs, and some of those baths, such as Rudas and Király, are still in use. On a hill nearby is the tomb of Gül Baba, a dervish who died in 1541, which is still visited by pilgrims from Turkey. In 1686 a Habsburg army took Buda back after a long and bloody siege.",
         "lat": 47.4986,
         "lon": 19.0436,
         "zoom": 12.5,
         "stories": [
           "1mADIqC76LkpIoOW9CSjCh"
         ],
-        "image": "Rudas Baths central part and Gellert Hill in Tabán, 2016 Budapest.jpg"
+        "image": "Rudas Baths central part and Gellert Hill in Tabán, 2016 Budapest.jpg",
+        "mediaNote": {
+          "items": [
+            "For the bigger story, there is Budapest: Between East and West, a history of the city pulled between empires."
+          ]
+        },
+        "short": "Ottoman Buda"
       },
       {
         "city": "Venice",
         "place": "Arsenale and the Grand Canal, Venice",
         "when": "1571",
         "heading": "Lepanto",
-        "text": "Venice traded with the Ottomans and fought them. Its Arsenale built much of the Christian fleet that sank the Ottoman navy at Lepanto in 1571. Turkish merchants had their own trading house on the Grand Canal, the Fondaco dei Turchi.",
+        "text": "Venice lived by trade with the Ottomans, and it also fought them. In 1570 the Ottomans attacked Cyprus, a Venetian island. Venice joined Spain and the pope in a Holy League, and its Arsenale built much of the fleet. On October 7, 1571, the two fleets met off Lepanto, on the coast of Greece, in one of the largest sea battles ever fought with oared galleys. The Christian fleet won. But Venice still lost Cyprus, and within a few years it made peace and went back to trading. Turkish merchants in Venice had their own trading house on the Grand Canal, the Fondaco dei Turchi, which is now a natural history museum.",
         "lat": 45.435,
         "lon": 12.35,
         "zoom": 13,
@@ -7331,28 +7488,42 @@
           "7xHPTWYBzdExZ05LajIApV",
           "5oGGJHKplprrC3wb0FnP8V"
         ],
-        "image": "(Venice) Battaglia di Lepanto - Andrea Vicentino - Correr Museum.jpg"
+        "image": "(Venice) Battaglia di Lepanto - Andrea Vicentino - Correr Museum.jpg",
+        "mediaNote": {
+          "lead": "Here are two BBC discussions about Venice and the Ottomans.",
+          "items": [
+            "One tells the story of the battle of Lepanto.",
+            "The other explains how Venice built a trading empire stretching to the Black Sea."
+          ]
+        },
+        "short": "Lepanto"
       },
       {
         "city": "Vienna",
         "place": "Kahlenberg, Vienna",
         "when": "1683",
         "heading": "The second siege",
-        "text": "In 1683 an Ottoman army besieged Vienna for two months. On September 12 a relief army under the Polish king Jan III Sobieski charged down from the Kahlenberg and broke it.",
+        "text": "The Ottomans had besieged Vienna once before, in 1529, and failed. In 1683 they came back, with an army of more than 100,000 men under the grand vizier, Kara Mustafa. They surrounded the city in July and dug tunnels to blow up its walls. The defenders held out for two months. On September 12 a relief army arrived, and the Polish king, Jan III Sobieski, led a huge cavalry charge down the slopes of the Kahlenberg, the hill north of the city. The Ottoman army broke and fled. It was the high point of Ottoman power in Europe, and from then on the frontier moved south. Viennese legend says the city’s coffeehouses began with sacks of coffee the Ottomans left behind.",
         "lat": 48.277,
         "lon": 16.334,
         "zoom": 12.5,
         "stories": [
           "7woyPXeCCLKaYyQUOlihBV"
         ],
-        "image": "Kahlenberg, Wien (Vienna), Austria 🇦🇹 - 54597980171.jpg"
+        "image": "Kahlenberg, Wien (Vienna), Austria 🇦🇹 - 54597980171.jpg",
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is a podcast episode about the siege and the charge that broke it."
+          ]
+        },
+        "short": "The siege of Vienna"
       },
       {
         "city": "Warsaw",
         "place": "Wilanów Palace, Warsaw",
         "when": "1683–1696",
         "heading": "Sobieski’s palace",
-        "text": "Jan III Sobieski came home a hero and built Wilanów as his summer palace, decorated with scenes of his victories.",
+        "text": "Jan III Sobieski came home a hero, hailed as the savior of Christian Europe. He was the elected king of the Polish-Lithuanian Commonwealth, a large state whose nobles chose their kings. In the years after the siege, he rebuilt a manor south of Warsaw as a grand baroque summer palace, Wilanów. Its decoration celebrates his victories and compares him to the heroes of ancient Rome. It survived the Second World War, unlike most of Warsaw, and it is now a museum.",
         "lat": 52.165,
         "lon": 21.09,
         "zoom": 13.5,
@@ -7360,14 +7531,22 @@
           "1r2FL3COVbOiI9TCOgyXBS",
           "4VFgvFvM5R10LvEacQXPq2"
         ],
-        "image": "Wilanów Palace.jpg"
+        "image": "Wilanów Palace.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Sobieski’s world.",
+          "items": [
+            "A tour of Wilanów tells the story of his victory at Vienna through the palace.",
+            "And a BBC discussion explains the Polish-Lithuanian Commonwealth, the republic that elected its kings."
+          ]
+        },
+        "short": "Wilanów"
       },
       {
         "city": "Athens",
         "place": "Acropolis, Athens",
         "when": "1687 and 1821",
         "heading": "The Parthenon explodes",
-        "text": "In 1687 a Venetian shell hit Ottoman gunpowder stored in the Parthenon and blew out its middle. In 1821 the Greeks rose against Ottoman rule, and Athens became the capital of an independent Greece in 1834.",
+        "text": "In 1687, during a war between Venice and the Ottomans, a Venetian army besieged Athens. The Ottoman garrison had stored gunpowder inside the Parthenon, the ancient temple on the Acropolis, which had survived almost intact for two thousand years. A Venetian mortar shell landed in it, and the explosion blew out the middle of the building. The ruin we see today is largely the result. Greece stayed under Ottoman rule for well over another century. In 1821 the Greeks rose up, and after years of war, with help from Britain, France, and Russia, Greece became independent. Athens, by then a small town, was made its capital in 1834.",
         "lat": 37.971,
         "lon": 23.726,
         "zoom": 14,
@@ -7375,7 +7554,15 @@
           "5xnX4GHtLooRY8QFOCNwx2",
           "EO0QrcQjZnrxC1fjowI2X"
         ],
-        "image": "Parthenon from west.jpg"
+        "image": "Parthenon from west.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the Acropolis and Greek independence.",
+          "items": [
+            "A video tells the story of the shell that blew up the Parthenon.",
+            "And Mark Mazower talks about his history of the Greek revolution, and its chaotic road to a nation."
+          ]
+        },
+        "short": "The Parthenon"
       }
     ],
     "image": "Relief of Vienna 1683 - Wien Museum - 2 (photo by Andrew Nash).jpg"
@@ -7572,8 +7759,8 @@
     "title": "Ships and harbors",
     "dates": "c. 600 BC–1976",
     "intro": [
-      "For most of history the richest cities were the ones with the best harbors. Ships brought settlers, trade, and emigrants, and building them employed whole districts.",
-      "Most of the old shipyards have closed. Several have been turned into museums, hotels, or apartments."
+      "For most of history, the richest cities were the ones with the best harbors. Ships brought settlers, trade, and emigrants, and building them employed whole districts.",
+      "This thread runs from a Greek harbor founded around 600 BC to the Cod Wars of the 1970s. Most of the old shipyards have closed, and several have been turned into museums, hotels, or apartments."
     ],
     "chapters": [
       {
@@ -7581,7 +7768,7 @@
         "place": "Vieux-Port, Marseille",
         "when": "c. 600 BC",
         "heading": "A Greek harbor",
-        "text": "Greek sailors from Phocaea founded Massalia around a natural harbor in about 600 BC, making Marseille France’s oldest city. Fishermen still sell their catch straight off the boats on the quay.",
+        "text": "Around 600 BC, Greek sailors from Phocaea, a city on the coast of what is now Turkey, found a deep natural harbor on the south coast of Gaul. A legend says that a local king’s daughter chose one of them as her husband at her own wedding feast, and her father gave the couple land by the water. The colony they founded, Massalia, became Marseille, the oldest city in France. The harbor, now the Vieux-Port, has been the city’s heart ever since. Every morning, fishermen still sell their catch straight off the boats on the quay.",
         "lat": 43.2977,
         "lon": 5.3741,
         "zoom": 14,
@@ -7589,14 +7776,22 @@
           "39htbgQRJGvspZ42p4MkAu",
           "11TrJ1sAeMh7Noig7V1Qvy"
         ],
-        "image": "Marseille vieux port pano.jpg"
+        "image": "Marseille vieux port pano.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the old harbor.",
+          "items": [
+            "A podcast episode tells the legend of the Greek bride and the founding of the city.",
+            "And another visits the fish market on the quay, and the immigrant story behind bouillabaisse."
+          ]
+        },
+        "short": "A Greek harbor"
       },
       {
         "city": "Venice",
         "place": "Arsenale, Venice",
         "when": "1100s–1797",
         "heading": "The Arsenale",
-        "text": "Venice built its war fleets in the Arsenale, a walled state shipyard where thousands worked. Ships moved past a line of workshops as they were fitted out, and at its height it was said to turn out a galley in a day.",
+        "text": "Venice built its power on ships, and from the 1100s it built them in the Arsenale, a walled state shipyard in the east of the city. At its height it employed thousands of workers, the arsenalotti, and it was the largest industrial site in Europe. Ships were fitted out as they moved past a line of workshops, a little like an assembly line. In 1574 the Arsenale is said to have built a whole galley in a single day, while the king of France sat at a banquet. Its great gate, guarded by stone lions brought from Greece, still stands, and part of the yard is now used for the Venice Biennale.",
         "lat": 45.4333,
         "lon": 12.34,
         "zoom": 14,
@@ -7604,14 +7799,22 @@
           "3uQCjY8KUaj15mVqkQ39YT",
           "1m8O09o5k32p2a2SpfP2sH"
         ],
-        "image": "Vista Arsenale di Venezia - panoramio.jpg"
+        "image": "Vista Arsenale di Venezia - panoramio.jpg",
+        "mediaNote": {
+          "lead": "Here are two walks that end at the Arsenale.",
+          "items": [
+            "One follows the politics of the old Republic from the Doge’s Palace to the shipyard.",
+            "And another explores Castello, the working-class neighborhood of sailors and shipbuilders around it."
+          ]
+        },
+        "short": "The Arsenale"
       },
       {
         "city": "Lisbon",
         "place": "Belém, Lisbon",
         "when": "1497",
         "heading": "Setting out",
-        "text": "Vasco da Gama sailed from Belém in 1497 and reached India by sea. The Jerónimos Monastery was built with the profits of the spice trade, and he is buried there.",
+        "text": "In the 1400s, Portugal led Europe into the open ocean. Its sailors worked their way down the coast of Africa, and in July 1497 Vasco da Gama sailed from Belém, on the Tagus just west of Lisbon, with four ships. He rounded the Cape of Good Hope, and in 1498 he reached Calicut, in India, the first European to get there by sea. The spice trade that followed made Lisbon rich. With the profits, King Manuel I built the Jerónimos Monastery at Belém, in an ornate style full of carved ropes, shells, and sea creatures. Vasco da Gama is buried there.",
         "lat": 38.6972,
         "lon": -9.2003,
         "zoom": 14,
@@ -7619,14 +7822,22 @@
           "3VdteaMmYhEbUl3adAcXXO",
           "383Gs03rhWu5ncP89ng7QV"
         ],
-        "image": "Monument of the Discoveries in Belém, Lisbon, 20250604 1030 9078.jpg"
+        "image": "Monument of the Discoveries in Belém, Lisbon, 20250604 1030 9078.jpg",
+        "mediaNote": {
+          "lead": "Here are two walks around Belém.",
+          "items": [
+            "One covers Lisbon’s age of discovery, and the 20th-century regime that romanticized it.",
+            "The other goes inside the Jerónimos Monastery, past the navigators’ tombs."
+          ]
+        },
+        "short": "Setting out"
       },
       {
         "city": "Seville",
         "place": "Torre del Oro, Seville",
         "when": "1503–1717",
         "heading": "Gateway to the Americas",
-        "text": "For two centuries every legal ship between Spain and the Americas had to pass through Seville, 80 kilometers up the Guadalquivir. The Torre del Oro guarded the river port. When the river silted up, the trade moved to Cádiz.",
+        "text": "After Columbus reached the Americas in 1492, Spain decided that all trade with its new empire would go through one port, so it could be controlled and taxed. It chose Seville, eighty kilometers up the Guadalquivir River from the sea. From 1503 every legal ship to and from the Americas had to sail from there, and silver from Mexico and Peru poured into the city. The Torre del Oro, the Tower of Gold, a twelve-sided tower built by the city’s earlier Muslim rulers, guarded the river port. As ships grew larger, the river became too shallow for them, and in 1717 the trade officially moved to Cádiz, on the coast.",
         "lat": 37.3825,
         "lon": -5.9963,
         "zoom": 14,
@@ -7634,28 +7845,42 @@
           "2wjaMkIzWXguo2TJgu6aQs",
           "7vpNRHIKCoqQuGaokJTjOp"
         ],
-        "image": "Torre del Oro, Guadalquivir, Sevilla.jpg"
+        "image": "Torre del Oro, Guadalquivir, Sevilla.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Seville’s golden age.",
+          "items": [
+            "A travel podcast tells the story of the river tower that once chained the harbor shut.",
+            "And a long walking tour follows the trade from the archive of the Indies down to the river."
+          ]
+        },
+        "short": "Gateway to the Americas"
       },
       {
         "city": "Dublin",
         "place": "Custom House Quay, Dublin",
         "when": "1845–1852",
         "heading": "Famine ships",
-        "text": "During the Great Famine, hundreds of thousands left from Dublin’s quays for Liverpool and America. A replica emigrant ship, the Jeanie Johnston, is moored on the Liffey.",
+        "text": "Ships also carried people away. During the Great Famine of 1845 to 1852, when the potato crop failed year after year, about a million people in Ireland died and more than a million emigrated. Hundreds of thousands left from Dublin’s quays, most of them first to Liverpool and then on to America. Many sailed on crowded, unsafe ships that became known as coffin ships. A replica of one emigrant ship, the Jeanie Johnston, is moored on the Liffey. The original made sixteen crossings to North America without losing a single passenger. Nearby, a group of thin bronze figures on Custom House Quay remembers the famine.",
         "lat": 53.3484,
         "lon": -6.2531,
         "zoom": 14,
         "stories": [
           "3zxH6TizBNK3JCg5PplHWY"
         ],
-        "image": "Jeanie Johnston Dublin quai.jpg"
+        "image": "Jeanie Johnston Dublin quai.jpg",
+        "mediaNote": {
+          "items": [
+            "For a walk along the river, there is a docklands tour that runs from the famine ships to the tech offices of today."
+          ]
+        },
+        "short": "Famine ships"
       },
       {
         "city": "Liverpool",
         "place": "Pier Head, Liverpool",
         "when": "1839–1915",
         "heading": "The Pier Head",
-        "text": "Herman Melville came to Liverpool as a young sailor in 1839 and found its docks full of emigrant ships. By 1900 the great liners sailed from the Pier Head. The Lusitania was heading home here when a U-boat sank her in 1915.",
+        "text": "Liverpool was the great emigrant port of Europe. Millions of people from Britain, Ireland, Scandinavia, and Eastern Europe sailed from it to America. In 1839 a young American sailor, Herman Melville, came to Liverpool on a merchant ship and found the docks crowded with emigrants and beggars. He later wrote about it in his novel Redburn. By 1900 the great passenger liners of the Cunard and White Star lines sailed from the Pier Head. In May 1915 the Cunard liner Lusitania was on her way home to Liverpool from New York when a German submarine torpedoed her off the coast of Ireland. Nearly 1,200 people died.",
         "lat": 53.4103,
         "lon": -2.9978,
         "zoom": 14,
@@ -7664,14 +7889,23 @@
           "6WRl7cMrCWdJA8eODO2dTK",
           "7jQ2AbKruVPd10vF6KrNRY"
         ],
-        "image": "\"The Three Graces\", Liverpool Pier Head - geograph.org.uk - 4866613.jpg"
+        "image": "\"The Three Graces\", Liverpool Pier Head - geograph.org.uk - 4866613.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Liverpool’s waterfront.",
+          "items": [
+            "Redburn, by Herman Melville, describes the docks he saw as a young sailor in 1839.",
+            "Dead Wake, by Erik Larson, tells the story of the Lusitania’s last voyage.",
+            "And “Ferry Cross the Mersey,” by Gerry and the Pacemakers, is about the ferries that still leave from the Pier Head."
+          ]
+        },
+        "short": "The Pier Head"
       },
       {
         "city": "Belfast",
         "place": "Titanic Quarter, Belfast",
         "when": "1909–1912",
         "heading": "Titanic",
-        "text": "Harland & Wolff built the Titanic and her sister ships on slipways on Queen’s Island. Her designer, Thomas Andrews, went down with her. The drawing offices are now a hotel, and the slipways sit beside the Titanic museum.",
+        "text": "In Belfast, the shipyard of Harland and Wolff was one of the largest in the world, employing thousands of men on Queen’s Island, on the east bank of the river Lagan. Between 1909 and 1911 it built the Titanic, then the largest ship ever made, for the White Star Line. Her chief designer was Thomas Andrews, a nephew of the company’s chairman. On her first voyage, in April 1912, she hit an iceberg in the North Atlantic and sank, and more than 1,500 people died. Andrews was among them. The shipyard’s drawing offices, where the ship was designed, are now a hotel, and the slipways where she was built lie beside the Titanic Belfast museum.",
         "lat": 54.6072,
         "lon": -5.9081,
         "zoom": 14,
@@ -7680,14 +7914,23 @@
           "580iIiI5Fp1ZX5FDfw6dwM",
           "3e9bd6TqUfIJI0Qf4kwYjk"
         ],
-        "image": "Titanic slipways, Belfast - geograph.org.uk - 6735401.jpg"
+        "image": "Titanic slipways, Belfast - geograph.org.uk - 6735401.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the Titanic’s birthplace.",
+          "items": [
+            "A podcast episode begins the story of the Titanic, from the slipways on the Lagan.",
+            "A short biography of Thomas Andrews was written the same year he died.",
+            "And a walking tour explores the old shipyard district."
+          ]
+        },
+        "short": "Titanic"
       },
       {
         "city": "Glasgow",
         "place": "The Clyde, Glasgow",
         "when": "1883–1971",
         "heading": "Clydebuilt",
-        "text": "At one point the Clyde built about a fifth of the world’s ships. In 1883 the steamer Daphne capsized at her launch with 124 workers aboard. The QE2 was the last great liner built there, and in 1971 the workers of Upper Clyde Shipbuilders refused to let the yards close.",
+        "text": "On the River Clyde in Glasgow, shipbuilding was the great industry. Around 1900 the Clyde built about a fifth of all the world’s ships, and “Clydebuilt” meant quality. It was dangerous work. In July 1883 a small steamer, the Daphne, rolled over moments after her launch, with about two hundred workers still on board, and 124 of them drowned. The last great liner built on the river was the Queen Elizabeth 2, launched at Clydebank in 1967. By then the industry was in decline. In 1971 the government let Upper Clyde Shipbuilders go bankrupt. The workers, led by Jimmy Reid, did not strike. Instead they occupied the yards and kept working, and they forced the government to back down.",
         "lat": 55.866,
         "lon": -4.329,
         "zoom": 14,
@@ -7696,22 +7939,36 @@
           "7I0WQ2LiHqIReFmTUixypv",
           "7KwbKFe7ItiMTh6bP2yx2z"
         ],
-        "image": "20260928 Titan Clydebank 3.jpg"
+        "image": "20260928 Titan Clydebank 3.jpg",
+        "mediaNote": {
+          "lead": "Here are three stories from the Clyde.",
+          "items": [
+            "A podcast episode tells the story of the Daphne disaster.",
+            "BBC footage from 1967 shows the workers building the QE2.",
+            "And a Witness History episode tells how the shipyard workers refused to let their yards close."
+          ]
+        },
+        "short": "Clydebuilt"
       },
       {
         "city": "Reykjavík",
         "place": "Reykjavík",
         "when": "1958–1976",
         "heading": "The Cod Wars",
-        "text": "Iceland lives on fish, and it pushed its fishing limits from 4 miles out to 200. When British trawlers kept fishing, Icelandic coastguard ships cut their nets, and the Royal Navy came to protect them. Iceland won.",
+        "text": "The last stop is in Iceland, a country that lives from the sea. Fish were its main export, and British trawlers had long fished in Icelandic waters. Between 1958 and 1976, Iceland pushed its fishing limits out from four miles to twelve, then fifty, then two hundred. Each time, British trawlers kept fishing, and Icelandic coastguard ships cut their nets with special cutters. The Royal Navy sent warships to protect the trawlers, and there were collisions at sea. These were the Cod Wars. In the end Britain gave in, and two hundred miles became the international norm.",
         "lat": 64.1428,
         "lon": -21.9368,
         "zoom": 14,
         "stories": [
-          "QEg9sZie9AIEVdPC2P6CL",
-          "2v8n6QzvL1iefzG17Ftcey"
+          "QEg9sZie9AIEVdPC2P6CL"
         ],
-        "image": "Elding Whale Watching boats Reykjavik harbour (25381979881).jpg"
+        "image": "Elding Whale Watching boats Reykjavik harbour (25381979881).jpg",
+        "mediaNote": {
+          "items": [
+            "For the story, there is a podcast episode about the tiny navy that won a war without firing a shot."
+          ]
+        },
+        "short": "The Cod Wars"
       }
     ],
     "image": "Finnieston Crane ^ Clyde Arc Bridge - geograph.org.uk - 3851383.jpg"
