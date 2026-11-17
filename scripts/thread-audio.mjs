@@ -35,8 +35,6 @@ const FADE = 0.06 // seconds faded out at the end of each clip before the next v
 // which v3 reads as a breath), and each clip fades out before the gap. The
 // pause isn't part of the hash, so existing recordings aren't redone.
 const TAIL = ' …'
-// Seconds kept after a clip's last word before it is cut.
-const TRIM_AFTER = 0.25
 const idOf = v => (typeof v === 'string' ? v : v?.voice_id)
 // Each job narrates one thread into public/audio/<dir>/. The threads list uses
 // the main voices; `trials` record a thread with other voices into a separate
@@ -75,14 +73,27 @@ async function speak(voice, text) {
 }
 
 // v3 often adds a breath after the last word, and some voices render the
-// title voice's trailing pause as crackle. Every clip is cut shortly after its
-// last word (from the character timings) and faded out there.
-async function trimClip(f, d, len) {
-  const last = d.ends?.[len - 1]
-  if (!last) return f
+// title voice's trailing pause as faint crackle. Every clip is cut where its
+// last word ends and faded out there. The word's end comes from the character
+// timings: the start of whatever follows the last letter (closing
+// punctuation, or the title voice's trailing pause), since the end time of
+// the last letter tends to run long. Then the cut is pulled back to the last
+// moment that is louder than a faint noise floor, which drops the crackle.
+const pcm = f => new Promise((res, rej) => execFile('ffmpeg', ['-nostdin', '-loglevel', 'error', '-i', f, '-f', 's16le', '-ac', '1', '-ar', '16000', '-'], { encoding: 'buffer', maxBuffer: 1 << 28, timeout: 120000 }, (e, so) => e ? rej(e) : res(new Int16Array(so.buffer, so.byteOffset, so.length >> 1))))
+async function trimClip(f, d, text) {
+  let k = text.length - 1
+  while (k > 0 && !/[\p{L}\p{N}]/u.test(text[k])) k--
+  const wordEnd = d.starts?.[k + 1] ?? d.ends?.[k]
+  if (!wordEnd) return { file: f, info: 'no timings' }
+  const s = await pcm(f), FR = 160 // 10 ms frames at 16 kHz
+  const loud = i => { let sum = 0; for (let j = i * FR; j < (i + 1) * FR; j++) sum += (s[j] / 32768) ** 2; return 10 * Math.log10(sum / FR + 1e-12) > -40 }
+  let i = Math.min(Math.floor((wordEnd + 0.12) * 100), Math.floor(s.length / FR) - 1)
+  while (i > 0 && !loud(i)) i--
+  const lastLoud = (i + 1) / 100
+  const end = lastLoud > wordEnd - 0.4 ? Math.min(lastLoud, wordEnd + 0.12) + 0.04 : wordEnd + 0.1
   const cut = f.replace(/\.mp3$/, '-cut.mp3')
-  await run('ffmpeg', ['-y', '-i', f, '-af', `atrim=end=${(last + TRIM_AFTER).toFixed(3)},afade=t=out:st=${(last + 0.05).toFixed(3)}:d=${(TRIM_AFTER - 0.05).toFixed(3)}`, '-c:a', 'libmp3lame', '-b:a', '128k', '-ar', '44100', cut])
-  return cut
+  await run('ffmpeg', ['-y', '-i', f, '-af', `atrim=end=${end.toFixed(3)},afade=t=out:st=${Math.max(0, end - 0.07).toFixed(3)}:d=0.07`, '-c:a', 'libmp3lame', '-b:a', '128k', '-ar', '44100', cut])
+  return { file: cut, info: `word ends ${wordEnd.toFixed(2)}s, last sound ${lastLoud.toFixed(2)}s, cut ${end.toFixed(2)}s of ${(s.length / 16000).toFixed(2)}s` }
 }
 
 const tmp = await fs.mkdtemp(path.join(os.tmpdir(), 'thread-audio-'))
@@ -123,7 +134,9 @@ try {
         const d = await speak(VOICES[groups[0].role], groups[0].text)
         const raw = path.join(tmp, `${slug}-${n}-only.mp3`)
         await fs.writeFile(raw, d.audio)
-        await fs.copyFile(await trimClip(raw, d, groups[0].text.length), `${dir}/${file}`)
+        const t = await trimClip(raw, d, groups[0].text)
+        console.log(`${job.dir} #${n}: ${t.info}`)
+        await fs.copyFile(t.file, `${dir}/${file}`)
         let at = 0
         for (const p of groups[0].parts) { marks.push({ key: p.key, t: d.starts[at] ?? 0 }); at += p.say.length + 1 }
         dur = await duration(`${dir}/${file}`)
@@ -136,7 +149,9 @@ try {
           const d = await speak(VOICES[g.role], g.role === 'title' ? g.text + TAIL : g.text)
           let f = path.join(tmp, `${slug}-${n}-${gi}.mp3`)
           await fs.writeFile(f, d.audio)
-          f = await trimClip(f, d, g.text.length)
+          const t = await trimClip(f, d, g.text)
+          console.log(`${job.dir} #${n}.${gi} ${g.role}: ${t.info}`)
+          f = t.file
           let at = 0
           for (const p of g.parts) { marks.push({ key: p.key, t: offset + (d.starts[at] ?? 0) }); at += p.say.length + 1 }
           clips.push(f)
