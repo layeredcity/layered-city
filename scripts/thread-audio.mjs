@@ -41,7 +41,7 @@ const idOf = v => (typeof v === 'string' ? v : v?.voice_id)
 // folder (<slug>--trial), for listening at ?voices=trial without touching the
 // live recordings.
 const jobs = [
-  ...cfg.threads.map(slug => ({ slug, dir: slug, body: cfg.voice, title: cfg.titleVoice || cfg.voice })),
+  ...cfg.threads.map(slug => ({ slug, dir: slug, body: cfg.voice, title: cfg.titleVoice || cfg.voice, rev: cfg.rev })),
   ...(cfg.trials || []).map(t => ({ slug: t.slug, dir: `${t.slug}--trial`, body: t.voice, title: t.titleVoice || t.voice, rev: t.rev })),
 ]
 

@@ -1,9 +1,13 @@
 {
-  "voice": "XrExE9yKIg1WjnnlVkGX",
+  "voice": {
+    "voice_id": "lxYfHSkYm1EzQzGhdbfc",
+    "owner": "066125d0c3eac062cd6655ed319d2347c29d07eab96ee22c6ebe7ef1841c3b1a",
+    "name": "Jessica Anne Bogart"
+  },
   "titleVoice": {
-    "voice_id": "MFZUKuGQUsGJPQjTS4wC",
-    "owner": "b45c1524a1f360319535f16b301e5b6f37edf26fd1d59861eda66206ff25cdc9",
-    "name": "Jon"
+    "voice_id": "uju3wxzG5OhpWcoi3SMy",
+    "owner": "95e7935f31f209326e8bbd4ec2ebbd05ce34d72c04dac7da2d5b9d422ea05caf",
+    "name": "Michael C. Vincent"
   },
   "model": "eleven_v3",
   "threads": [
@@ -13,55 +17,5 @@
     "enlightenment",
     "wine"
   ],
-  "keep": [
-    "van-gogh",
-    "dictators",
-    "markets",
-    "enlightenment",
-    "wine"
-  ],
-  "trials": [
-    {
-      "slug": "van-gogh",
-      "voice": {
-        "voice_id": "lxYfHSkYm1EzQzGhdbfc",
-        "owner": "066125d0c3eac062cd6655ed319d2347c29d07eab96ee22c6ebe7ef1841c3b1a",
-        "name": "Jessica Anne Bogart"
-      },
-      "titleVoice": {
-        "voice_id": "uju3wxzG5OhpWcoi3SMy",
-        "owner": "95e7935f31f209326e8bbd4ec2ebbd05ce34d72c04dac7da2d5b9d422ea05caf",
-        "name": "Michael C. Vincent"
-      },
-      "rev": "trim-3"
-    },
-    {
-      "slug": "enlightenment",
-      "voice": {
-        "voice_id": "lxYfHSkYm1EzQzGhdbfc",
-        "owner": "066125d0c3eac062cd6655ed319d2347c29d07eab96ee22c6ebe7ef1841c3b1a",
-        "name": "Jessica Anne Bogart"
-      },
-      "titleVoice": {
-        "voice_id": "uju3wxzG5OhpWcoi3SMy",
-        "owner": "95e7935f31f209326e8bbd4ec2ebbd05ce34d72c04dac7da2d5b9d422ea05caf",
-        "name": "Michael C. Vincent"
-      },
-      "rev": "trim-3"
-    },
-    {
-      "slug": "wine",
-      "voice": {
-        "voice_id": "lxYfHSkYm1EzQzGhdbfc",
-        "owner": "066125d0c3eac062cd6655ed319d2347c29d07eab96ee22c6ebe7ef1841c3b1a",
-        "name": "Jessica Anne Bogart"
-      },
-      "titleVoice": {
-        "voice_id": "uju3wxzG5OhpWcoi3SMy",
-        "owner": "95e7935f31f209326e8bbd4ec2ebbd05ce34d72c04dac7da2d5b9d422ea05caf",
-        "name": "Michael C. Vincent"
-      },
-      "rev": "trim-3"
-    }
-  ]
+  "rev": "trim-3"
 }
