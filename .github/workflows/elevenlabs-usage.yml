@@ -1,0 +1,17 @@
+# Prints the ElevenLabs plan and credit balance. Run by hand or by changing the script.
+name: ElevenLabs usage
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [scripts/elevenlabs-usage.mjs, .github/workflows/elevenlabs-usage.yml]
+jobs:
+  usage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/elevenlabs-usage.mjs
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
