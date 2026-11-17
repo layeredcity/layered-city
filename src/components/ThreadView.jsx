@@ -204,10 +204,20 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     return () => map.remove()
   }, [thread, bounds])
 
-  // Which chapter is being read: the one crossing a line 35% down the column.
+  // While narration plays, the map follows the narrator: it starts moving to a
+  // chapter as soon as its title begins, rather than waiting for the scroll.
+  const narratingRef = useRef(false)
+  useEffect(() => {
+    narratingRef.current = seg >= 0 && !paused
+    if (seg >= 0 && !paused) setActive(seg - 1)
+  }, [seg, paused])
+
+  // Otherwise, which chapter is being read: the one crossing a line 35% down
+  // the column.
   useEffect(() => {
     const root = scrollRef.current
     const onScroll = () => {
+      if (narratingRef.current) return
       const line = root.getBoundingClientRect().top + root.clientHeight * 0.35
       let idx = -1
       sectionRefs.current.forEach((el, i) => { if (el && el.getBoundingClientRect().top <= line) idx = i })
