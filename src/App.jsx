@@ -2602,6 +2602,8 @@ export default function App() {
           thread={openThreadData}
           startChapter={threadStart}
           onClose={closeThread}
+          allThreads={THREADS}
+          onOpenThread={openThread}
           renderStory={st => <ThreadStory story={st} open={threadStory === st.id} onToggle={id => setThreadStory(cur => cur === id ? null : id)} onOpenMedia={setMediaStory} omdbData={omdbCache[st.imdbId]} bookData={bookCache[st.isbn]} />}
         />
       )}

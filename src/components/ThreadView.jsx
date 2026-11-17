@@ -41,9 +41,24 @@ const typeRank = s => { const i = TYPE_ORDER.indexOf((s.mediaType || '').toLower
 // The chapter map never zooms in further than this, so a stop still shows its
 // surroundings rather than a few streets.
 const MAX_ZOOM = 7.5
-const CHIME_LEAD = 1.3 // seconds of chime before the title starts
+const CHIME_LEAD = 1.9 // seconds of chime before the title starts (about 0.9 s overlap with its fade)
 
-export default function ThreadView({ thread, onClose, renderStory, startChapter = null }) {
+// Related threads for the end card: shared cities count most, then the same
+// kind (Artists, Music, …). Ties keep the list order.
+function relatedThreads(thread, all, n = 3) {
+  const cities = new Set(thread.chapters.map(c => c.city))
+  return all
+    .filter(t => t.slug !== thread.slug)
+    .map((t, i) => {
+      const shared = new Set(t.chapters.map(c => c.city).filter(c => cities.has(c))).size
+      return { t, i, score: shared * 2 + (t.kind === thread.kind ? 3 : 0) }
+    })
+    .sort((a, b) => b.score - a.score || a.i - b.i)
+    .slice(0, n)
+    .map(x => x.t)
+}
+
+export default function ThreadView({ thread, onClose, renderStory, startChapter = null, allThreads = [], onOpenThread }) {
   const scrollRef = useRef(null)
   const mapEl = useRef(null)
   const mapRef = useRef(null)
@@ -69,15 +84,11 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       return sessionStorage.getItem('lc-voices') === 'trial'
     } catch { return new URLSearchParams(window.location.search).get('voices') === 'trial' }
   })()
-  // ?chime=trial plays a short sound before the narration starts and after it
-  // finishes. A trial only; it sticks for the visit.
-  const chime = (() => {
-    try {
-      if (new URLSearchParams(window.location.search).get('chime') === 'trial') sessionStorage.setItem('lc-chime', 'trial')
-      return sessionStorage.getItem('lc-chime') === 'trial'
-    } catch { return new URLSearchParams(window.location.search).get('chime') === 'trial' }
-  })()
+  // A short marimba chime plays before the narration starts and after it ends.
+  const chime = true
   const chimedRef = useRef(false)
+  const [atEnd, setAtEnd] = useState(false) // narration has reached the end card
+  const endRef = useRef(null)
   const leadRef = useRef(null) // timer that starts the narration under the chime
   const audioDir = narration?.dir || thread.slug
   useEffect(() => {
@@ -99,7 +110,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   const playChime = (a, then) => {
     a.ontimeupdate = null
     a.onended = then
-    a.src = '/audio/chime-trial.mp3'
+    a.src = '/audio/chime.mp3'
     a.volume = 0.7
     a.play().catch(() => then())
   }
@@ -107,9 +118,11 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     if (!narration) return
     const a = audioRef.current || (audioRef.current = new Audio())
     if (n >= narration.segments.length) {
-      if (chime) { setReadingKey(null); playChime(a, stopNarration) } else stopNarration()
+      setAtEnd(true); setReadingKey(null)
+      if (chime) playChime(a, stopNarration); else stopNarration()
       return
     }
+    setAtEnd(false)
     // Opening chime: it plays on its own element while the narration starts
     // CHIME_LEAD seconds in, so the title overlaps the chime's fade. The
     // narration element is started muted and paused right away, inside the tap,
@@ -129,7 +142,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       let started = false
       a.muted = true
       a.play().then(() => { if (!started) { a.pause(); a.currentTime = 0 } a.muted = false }).catch(() => { a.muted = false })
-      const c = new Audio('/audio/chime-trial.mp3')
+      const c = new Audio('/audio/chime.mp3')
       c.volume = 0.7
       const go = () => { clearTimeout(leadRef.current); leadRef.current = setTimeout(() => { leadRef.current = null; started = true; a.muted = false; a.play().catch(() => {}) }, CHIME_LEAD * 1000) }
       c.addEventListener('playing', go, { once: true })
@@ -256,8 +269,18 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   const narratingRef = useRef(false)
   useEffect(() => {
     narratingRef.current = seg >= 0 && !paused
-    if (seg >= 0 && !paused) setActive(seg - 1)
-  }, [seg, paused])
+    if (seg >= 0 && !paused) setActive(atEnd ? -1 : seg - 1)
+  }, [seg, paused, atEnd])
+
+  // At the end of the narration, bring the end card up and pull the map back
+  // to the whole route.
+  useEffect(() => {
+    const root = scrollRef.current, el = endRef.current
+    if (!atEnd || !root || !el) return
+    setActive(-1)
+    const top = root.scrollTop + el.getBoundingClientRect().top - root.getBoundingClientRect().top
+    root.scrollTo({ top, behavior: 'smooth' })
+  }, [atEnd])
 
   // At the start of each chapter, bring its top to the top of the column, so
   // the reading starts high with the photo in view below the heading.
@@ -401,6 +424,31 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
               </li>
             ))}
           </ol>
+          <section ref={endRef} className={'thread-end' + (atEnd ? ' is-here' : '')}>
+            <div className="thread-end__mark">The end</div>
+            <div className="thread-end__of">{thread.title} · {thread.dates}</div>
+            {onOpenThread && (() => {
+              const rel = relatedThreads(thread, allThreads)
+              return rel.length > 0 && <>
+                <div className="thread-end__next">Where to next</div>
+                <div className="thread-end__list">
+                  {rel.map(t => (
+                    <button key={t.slug} type="button" className="thread-end__item" onClick={() => onOpenThread(t.slug)}>
+                      {PHOTOS[t.image]
+                        ? <img className="thread-end__thumb" src={PHOTOS[t.image].src} alt="" loading="lazy" />
+                        : <span className="thread-end__thumb" />}
+                      <span className="thread-end__text">
+                        <span className="thread-end__kind">{t.kind}</span>
+                        <span className="thread-end__title">{t.title}</span>
+                        <span className="thread-end__dates">{t.dates}</span>
+                      </span>
+                      <svg className="thread-end__arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 6l6 6-6 6" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                    </button>
+                  ))}
+                </div>
+              </>
+            })()}
+          </section>
           {seg >= 0 && (
             <div className="thread-player">
               <button type="button" className="thread-player__btn" onClick={togglePause} aria-label={paused ? 'Resume' : 'Pause'}>
@@ -412,7 +460,9 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                   Chapters carry a `short` label (and `shortPlace` when the city
                   field isn't the real place); otherwise the heading is used. */}
               <div className="thread-player__label">
-                {seg === 0
+                {atEnd
+                  ? <><span className="thread-player__title">The end</span><span className="thread-player__sub">{thread.title}</span></>
+                  : seg === 0
                   ? <><span className="thread-player__title">{thread.title}</span><span className="thread-player__sub">Introduction</span></>
                   : (c => <><span className="thread-player__title">{c.short || c.heading}</span><span className="thread-player__sub">{seg} of {thread.chapters.length} · {c.shortPlace || c.city}</span></>)(thread.chapters[seg - 1])}
               </div>
