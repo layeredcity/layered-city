@@ -3842,8 +3842,8 @@
     "title": "Jewish quarters",
     "dates": "2,000 years",
     "intro": [
-      "Jews have lived in European cities for more than two thousand years. In many of them, the Jewish quarter was where they were allowed or required to live, and its streets, synagogues, and cemeteries are among the oldest parts of town.",
-      "This thread goes roughly in the order the communities were founded. It includes the Holocaust, but it starts long before it, and in some cities it does not end with it."
+      "Jews have lived in European cities for more than two thousand years. In many of them, the Jewish quarter was where they were allowed, or required, to live, and its streets, synagogues, and cemeteries are among the oldest parts of town.",
+      "This thread goes roughly in the order the communities were founded, from Rome to Copenhagen. It includes the Holocaust, but it starts long before it, and in some cities it does not end with it."
     ],
     "chapters": [
       {
@@ -3851,7 +3851,7 @@
         "place": "Via del Portico d’Ottavia, Rome",
         "when": "Since the 2nd century BC",
         "heading": "The oldest community",
-        "text": "Rome’s Jewish community is the oldest in Europe. The Arch of Titus shows Roman soldiers carrying the menorah looted from Jerusalem in 70 AD. In 1555 a pope walled Rome’s Jews into a ghetto by the Tiber, which lasted until 1870. On October 16, 1943, the Germans rounded up more than a thousand people there; sixteen came back.",
+        "text": "The oldest Jewish community in Europe is in Rome, where Jews have lived since the second century BC. In AD 70 a Roman army destroyed the Temple in Jerusalem, and the Arch of Titus, in the Forum, shows soldiers carrying off its great seven-branched candlestick, the menorah. For centuries Rome’s Jews lived freely near the river. In 1555 a pope ordered them walled into a small, crowded ghetto beside the Tiber, which was locked at night. It lasted until 1870, when Rome became part of united Italy. On October 16, 1943, German soldiers rounded up more than a thousand of the old quarter’s residents and deported them to Auschwitz. Sixteen came back. The quarter, with its great domed synagogue, is still the center of Jewish Rome.",
         "lat": 41.8925,
         "lon": 12.4772,
         "zoom": 15,
@@ -3859,32 +3859,47 @@
           "1fYgXio9vaStFhZ7ogLwL9",
           "dBDdUAnojoPxiLLL7qXOj",
           "kcXJRAFaVO3lCJERwqaqn",
-          "5AqYnO1b0UhCbHrb5hNEI7",
-          "1Giof3TZiSbJ6hTjJtkYuu"
+          "5AqYnO1b0UhCbHrb5hNEI7"
         ],
         "tip": "Restaurants along Via del Portico d’Ottavia serve carciofi alla giudia, whole artichokes fried twice.",
-        "image": "Roma ghetto portico d'ottavia tre.JPG"
+        "image": "Roma ghetto portico d'ottavia tre.JPG",
+        "mediaNote": {
+          "lead": "Here are four ways into Jewish Rome.",
+          "items": [
+            "A short video walks through the old ghetto beside the ancient Portico of Octavia.",
+            "A podcast episode looks at the Arch of Titus, a monument to the destruction of the Temple.",
+            "A Witness History episode tells the story of the gold ransom and the raid of 1943.",
+            "And a food writer shows how carciofi alla giudia, the artichokes of the ghetto, are flattened and fried twice."
+          ]
+        },
+        "short": "Rome"
       },
       {
         "city": "Seville",
         "place": "Santa Cruz, Seville",
         "when": "Until 1492",
         "heading": "Sepharad",
-        "text": "Santa Cruz, now the most photographed quarter of Seville, was its judería. In 1391 riots against the Jews started here and spread across Spain. In 1492 the Jews who had not converted were expelled from the country.",
+        "text": "In medieval Spain, Jews lived for centuries alongside Christians and Muslims, and the country had one of the largest Jewish populations in Europe. In Seville they lived in the judería, the Jewish quarter, now Santa Cruz, the maze of whitewashed lanes beside the cathedral. In 1391 a preacher stirred up riots against the Jews here, and the violence spread across Spain. Thousands were killed, and many more converted to save their lives. In 1492 Ferdinand and Isabella ordered every Jew who would not convert to leave the country. The exiles and their descendants, who spread across the Mediterranean and beyond, are called Sephardic Jews, from Sepharad, the Hebrew name for Spain. Today Santa Cruz is the most photographed quarter in Seville.",
         "lat": 37.3857,
         "lon": -5.9893,
         "zoom": 15,
         "stories": [
           "1MyKEDU6V9Nlr9meZjITPg"
         ],
-        "image": "Plaza de Santa Cruz 1.jpg"
+        "image": "Plaza de Santa Cruz 1.jpg",
+        "mediaNote": {
+          "items": [
+            "For a quick look, there is a short video walking through the lanes of the old Jewish quarter."
+          ]
+        },
+        "short": "Sepharad"
       },
       {
         "city": "Venice",
         "place": "Campo del Ghetto Nuovo, Venice",
         "when": "Since 1516",
         "heading": "The first ghetto",
-        "text": "In 1516 Venice ordered its Jews to live on a small island by an old foundry, a getto, which was locked at night. The word spread to the rest of Europe. With no room to expand, the buildings grew up to seven stories, taller than anywhere else in the city.",
+        "text": "In Venice, Jews were allowed to live in the city from 1516, but only in one place. It was a small island in the district of Cannaregio, on the site of an old foundry, or getto in Venetian. Its gates were locked at night and guarded by Christian watchmen whom the Jews had to pay. The word ghetto spread from here to the rest of Europe. Jews from Germany, Italy, Spain, and the Ottoman lands lived side by side, each group with its own synagogue. With no room to spread out, the buildings grew upward, some of them seven stories high, taller than anywhere else in the city. Five synagogues survive, hidden on the upper floors of ordinary-looking houses.",
         "lat": 45.4453,
         "lon": 12.3263,
         "zoom": 15.5,
@@ -3893,14 +3908,23 @@
           "53GydZtuzA0JsWDu7zp133",
           "FLBBLJ3Yyjbdevx3aHfZr"
         ],
-        "image": "Campo del Ghetto Nuovo R06.jpg"
+        "image": "Campo del Ghetto Nuovo R06.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the world’s first ghetto.",
+          "items": [
+            "A video explains how the ghetto began, and why its buildings grew so tall.",
+            "A radio documentary marks the ghetto’s five hundredth anniversary with a visit to Cannaregio.",
+            "And The Merchant of Venice, Shakespeare’s play about the moneylender Shylock, is set in the city of the ghetto, though it never names it."
+          ]
+        },
+        "short": "The first ghetto"
       },
       {
         "city": "Amsterdam",
         "place": "Portuguese Synagogue, Amsterdam",
         "when": "Since the 1590s",
         "heading": "A refuge",
-        "text": "Jews who had been forced to convert in Spain and Portugal found in Amsterdam a city where they could practice openly. Their Portuguese Synagogue opened in 1675 and is still lit by candles. In 1656 the community expelled one of its own, the philosopher Baruch Spinoza.",
+        "text": "In Spain and Portugal, many Jews had been forced to convert, and the Inquisition watched to see whether they secretly kept their faith. From the 1590s some of them escaped to Amsterdam, where the Dutch Republic let them live and worship openly. They prospered as merchants. In 1675 they opened the Portuguese Synagogue, a vast, plain building that is still lit by hundreds of candles, with no electric light. The community was strict about its own beliefs. In 1656 it expelled one of its sons, the young philosopher Baruch Spinoza, for ideas about God that it considered dangerous. Spinoza went on to become one of the great thinkers of the Enlightenment.",
         "lat": 52.3676,
         "lon": 4.9053,
         "zoom": 15,
@@ -3908,14 +3932,22 @@
           "3olf7B6UQ4fsc7Tz2XLasq",
           "BEBvChUFPNjFQuwM2RckB"
         ],
-        "image": "Amsterdam, Portugese Synagoge, (17 januari 2015) 131.JPG"
+        "image": "Amsterdam, Portugese Synagoge, (17 januari 2015) 131.JPG",
+        "mediaNote": {
+          "lead": "Here are two ways into Jewish Amsterdam.",
+          "items": [
+            "Betraying Spinoza, by Rebecca Goldstein, is a warm, personal book about the philosopher and why he was cast out.",
+            "And a long walking tour of the old east side covers its maritime and Jewish history."
+          ]
+        },
+        "short": "Amsterdam"
       },
       {
         "city": "Prague",
         "place": "Josefov, Prague",
         "when": "Since the 13th century",
         "heading": "The Old-New Synagogue",
-        "text": "The Old-New Synagogue, from around 1270, is the oldest working synagogue in Europe. Legend says the clay Golem of Rabbi Loew lies in its attic. Next door, the Old Jewish Cemetery has graves up to twelve layers deep. Franz Kafka was born at the edge of the quarter.",
+        "text": "Prague has had a Jewish quarter since the Middle Ages. Its Old-New Synagogue, built around 1270, is the oldest synagogue in Europe still in use. A famous legend says that in the 1500s Rabbi Judah Loew made a giant out of clay, the Golem, to protect the community. Its body is said to lie in the synagogue’s attic still. Next door is the Old Jewish Cemetery. It had no room to expand, so new graves were laid on top of old ones, in some places twelve layers deep, and thousands of tombstones lean together among the trees. Around 1900 most of the old quarter was demolished and rebuilt with grand apartment blocks. On the walls of the Pinkas Synagogue are the names of nearly 80,000 Czech Jews murdered in the Holocaust.",
         "lat": 50.0901,
         "lon": 14.4186,
         "zoom": 15.5,
@@ -3923,35 +3955,53 @@
           "18a94sO8GijWELlS5BOPeU",
           "5Xc92uBAWBpvJldC47VoPk",
           "4Vl3WCfwvNsRgbl3fRV5w8",
-          "6zjs16dgpxLKc7RgzalS3b",
-          "4RLeQXqNCyTmp0Dt4p4zwI"
+          "6zjs16dgpxLKc7RgzalS3b"
         ],
-        "image": "Old New Synagogue- Jewish Town Hall (Prague).jpg"
+        "image": "Old New Synagogue- Jewish Town Hall (Prague).jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Prague’s Jewish quarter.",
+          "items": [
+            "A short video visits its synagogues and the wall of names.",
+            "A podcast episode tells the legend of the Golem, and where it came from.",
+            "A longer film looks at the crowded old cemetery.",
+            "And a heritage walk takes in the cemetery and the oldest working synagogue in Europe."
+          ]
+        },
+        "short": "Josefov"
       },
       {
         "city": "Kraków",
         "place": "Kazimierz, Kraków",
         "when": "Since 1495",
         "heading": "Kazimierz",
-        "text": "King Casimir founded Kazimierz as a separate town in 1335, and from 1495 Kraków’s Jews lived there. In 1941 the Germans moved them across the river into a ghetto in Podgórze. Since the 1990s Kazimierz has come back to life, with restored synagogues and an annual Jewish Culture Festival.",
+        "text": "In Kraków, King Casimir the Great founded Kazimierz as a separate town across the river in 1335. In 1495 Kraków’s Jews were moved there, and for more than four centuries it was one of the great centers of Jewish life in Poland, with synagogues, schools, and markets. When the Germans occupied Kraków in 1939, they forced the Jews out. In March 1941 they moved them across the Vistula into a walled ghetto in Podgórze, and in 1943 they cleared it. Most of its people were murdered. The businessman Oskar Schindler saved about 1,200 of his Jewish workers by keeping them at his factory. Since the 1990s Kazimierz has come back to life, with restored synagogues, cafés, and a festival of Jewish culture every summer.",
         "lat": 50.0517,
         "lon": 19.9465,
         "zoom": 14.5,
         "stories": [
-          "70u1LZT3NqwcDvuXG0wGS0",
           "5lSqxBQchJaAlOxyyfr6XD",
           "2dTlh60q4tCXk8uaSDA0AP",
           "4YDGrMNiciDqorRNXQ3Qas",
           "6KIDuPfHHdPf7Y3EiWuHGj"
         ],
-        "image": "Wolf Popper Synagogue, Entrance gate, 16 Szeroka street, Kazimierz, Kraków, Poland.jpg"
+        "image": "Wolf Popper Synagogue, Entrance gate, 16 Szeroka street, Kazimierz, Kraków, Poland.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Jewish Kraków.",
+          "items": [
+            "A short video visits the synagogues and courtyards of Kazimierz.",
+            "“Es brent,” It Is Burning, was written by Mordechai Gebirtig, a carpenter and poet of Kazimierz who was murdered in the ghetto.",
+            "A Witness History episode recalls the move into the ghetto in 1941.",
+            "And Schindler’s Ark, by Thomas Keneally, is the book behind Spielberg’s film."
+          ]
+        },
+        "short": "Kazimierz"
       },
       {
         "city": "Warsaw",
         "place": "Muranów, Warsaw",
         "when": "1900s–1943",
         "heading": "The largest community in Europe",
-        "text": "Before the war, about a third of Warsaw was Jewish. Isaac Bashevis Singer grew up on Krochmalna Street, and Janusz Korczak ran his orphanage nearby. In 1940 the Germans sealed off the ghetto. In April 1943 its last inhabitants rose up, and the Germans burned it street by street.",
+        "text": "Before the Second World War, Warsaw had the largest Jewish community in Europe, about a third of the city. The writer Isaac Bashevis Singer grew up on Krochmalna Street, a poor street of traders and workshops, where his father was a rabbi. Nearby, the doctor and children’s author Janusz Korczak ran an orphanage for Jewish children. In 1940 the Germans sealed more than 400,000 people into a ghetto. Inside, the historian Emanuel Ringelblum and a secret group collected documents about life there and buried them in milk cans and metal boxes. In 1942 most of the ghetto’s people were deported to the death camp at Treblinka. Korczak refused offers of rescue and went with his children. In April 1943 the last people in the ghetto rose up, and the Germans burned it street by street.",
         "lat": 52.2497,
         "lon": 20.9932,
         "zoom": 14,
@@ -3959,17 +4009,26 @@
           "3bjA91LFDqZf9U5cq00a7t",
           "K4cU0R6LDO3fxI2HjFcf9",
           "nLXPWtY62iMbeOPrezWIN",
-          "g5n8DOSgQFxIcIAhkNHCh",
-          "zvOzVDAE9VL4NBkmWxGZD"
+          "g5n8DOSgQFxIcIAhkNHCh"
         ],
-        "image": "Warsaw.Ghetto.20.12.1940.jpg"
+        "image": "Warsaw.Ghetto.20.12.1940.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into the story of Jewish Warsaw.",
+          "items": [
+            "In My Father’s Court is Singer’s memoir of his boyhood on Krochmalna Street.",
+            "The King of Children, by Betty Jean Lifton, is a biography of Janusz Korczak.",
+            "Who Will Write Our History is a documentary about Ringelblum’s secret archive.",
+            "And a Witness History episode tells the story of a ghetto fighter who led survivors out through the sewers."
+          ]
+        },
+        "short": "Warsaw"
       },
       {
         "city": "Budapest",
         "place": "Dohány Street Synagogue, Budapest",
         "when": "Since 1859",
         "heading": "Europe’s largest synagogue",
-        "text": "The Dohány Street Synagogue, finished in 1859, seats about three thousand. Theodor Herzl, who imagined a Jewish state, was born next door. In 1944 Hungary’s Jews were deported in a few weeks; in Budapest, Raoul Wallenberg and other diplomats saved thousands with protective passes.",
+        "text": "In Budapest, Jews played a large part in the city’s growth in the 1800s, and in 1859 they finished the Dohány Street Synagogue. It is the largest synagogue in Europe, with seats for nearly three thousand people. Theodor Herzl, the writer who imagined a Jewish state, was born next door in 1860. In 1944, near the end of the war, Germany occupied Hungary, and in a few weeks more than 400,000 Hungarian Jews were deported, most of them to Auschwitz. In Budapest, diplomats from neutral countries tried to save those who were left. Raoul Wallenberg, a Swedish diplomat, gave out thousands of protective passes and set up safe houses. In January 1945 he went to meet the Soviet army and disappeared.",
         "lat": 47.4957,
         "lon": 19.0608,
         "zoom": 15,
@@ -3977,17 +4036,26 @@
           "4IN0lZCLXyAlTlHrAgfkbn",
           "aVKqNcf45zUBpIYp3qOU4",
           "1yuWRu9QEhRPZivLeitfYM",
-          "4TZs0Eb4vf7ObrWvjJs5Tq",
-          "7ddRC62SOboXH7CJf0Hrsz"
+          "4TZs0Eb4vf7ObrWvjJs5Tq"
         ],
-        "image": "Dohany-Street-Synagogue-Budapest.jpg"
+        "image": "Dohany-Street-Synagogue-Budapest.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Jewish Budapest.",
+          "items": [
+            "A short video visits the synagogue and the memorial garden behind it.",
+            "A podcast episode tells how Theodor Herzl, born next door, founded modern Zionism.",
+            "A Witness History episode tells the story of Raoul Wallenberg.",
+            "And Fatelessness, by Imre Kertész, is a novel about a Budapest boy sent to Auschwitz, by a survivor who won the Nobel Prize."
+          ]
+        },
+        "short": "Dohány Street"
       },
       {
         "city": "Vienna",
         "place": "Judenplatz, Vienna",
         "when": "1900 and after",
         "heading": "A family’s netsuke",
-        "text": "Vienna around 1900 was shaped by Jewish families: bankers, doctors, writers, composers. Edmund de Waal traced one of them, the Ephrussis, through a collection of Japanese netsuke hidden by a maid during the war. The Holocaust memorial on Judenplatz is a library whose books cannot be opened.",
+        "text": "In Vienna around 1900, many of the city’s bankers, doctors, writers, and composers came from Jewish families. One of them was the Ephrussi family, bankers who lived in a palace on the Ringstrasse. When Germany annexed Austria in 1938, the Nazis took everything. A collection of tiny Japanese carvings, called netsuke, survived because a maid, Anna, hid them in her mattress. The potter Edmund de Waal, a descendant of the family, followed the netsuke through five generations in his book The Hare with Amber Eyes. On Judenplatz, the square at the center of the medieval Jewish quarter, stands the city’s Holocaust memorial, by the artist Rachel Whiteread. It is a concrete library whose books face inward and can never be opened.",
         "lat": 48.2117,
         "lon": 16.3695,
         "zoom": 15,
@@ -3996,14 +4064,23 @@
           "5ReSw0UfVG5er0UXmX3GVw",
           "1UsmLKmlPNAAxKuoebuPTB"
         ],
-        "image": "HeMei Mahnmal Rachel Whiteread jmw.JPG"
+        "image": "HeMei Mahnmal Rachel Whiteread jmw.JPG",
+        "mediaNote": {
+          "lead": "Here are three ways into Jewish Vienna.",
+          "items": [
+            "The Hare with Amber Eyes, by Edmund de Waal, follows his family’s netsuke from Paris to Vienna to Tokyo.",
+            "Still Alive, by Ruth Klüger, is the memoir of a Vienna girl who was deported as a child and survived.",
+            "And a long walking tour covers Jewish Vienna and the city’s part in the Holocaust."
+          ]
+        },
+        "short": "Vienna"
       },
       {
         "city": "Copenhagen",
         "place": "Danish Jewish Museum, Copenhagen",
         "when": "October 1943",
         "heading": "Across the Sound",
-        "text": "When word came in 1943 that Denmark’s Jews were to be deported, ordinary Danes hid them and ferried about 7,000 across the water to neutral Sweden in a few weeks. Most of the community survived.",
+        "text": "The thread ends with a rescue. In October 1943, the German occupiers of Denmark planned to round up the country’s Jews, about 7,500 people. A German diplomat leaked the plan. Ordinary Danes, from doctors and students to fishermen, hid their Jewish neighbors and took them at night in small boats across the Øresund, the narrow strait to neutral Sweden. In a few weeks about 7,000 people escaped, and the great majority of Denmark’s Jews survived the war. The Danish Jewish Museum in Copenhagen tells the story.",
         "lat": 55.6743,
         "lon": 12.5823,
         "zoom": 14,
@@ -4011,7 +4088,15 @@
           "5OkSJZQwQymiXRQjxtwlxB",
           "70MoxsX1yODuSDfWZFgm5r"
         ],
-        "image": "Danish Rescue Boat (USHMM).jpg"
+        "image": "Danish Rescue Boat (USHMM).jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the story of the rescue.",
+          "items": [
+            "A Witness History episode tells how Jews escaped by boat from occupied Denmark to Sweden.",
+            "And Countrymen, by Bo Lidegaard, tells the story through the letters and diaries of the people involved."
+          ]
+        },
+        "short": "Across the Sound"
       }
     ],
     "image": "Old Jewish Cemetery in Josefov, Prague - 8363.jpg"
@@ -4022,8 +4107,8 @@
     "title": "The Atlantic slave trade",
     "dates": "1440s–1860s",
     "intro": [
-      "For four centuries, European ships carried about 12.5 million Africans across the Atlantic to forced labor in the Americas. The trade was run from Europe’s ports, and the money built warehouses, banks, town halls, and country houses that are still there.",
-      "Each city here has started, at different speeds, to say so in public."
+      "For four centuries, European ships carried about 12.5 million Africans across the Atlantic to forced labor in the Americas. The trade was run from Europe’s ports, and the money built warehouses, banks, town halls, and country houses that are still standing.",
+      "This thread visits six of those cities, from Lisbon, where it began, to Glasgow. Each has started, at different speeds, to say so in public."
     ],
     "chapters": [
       {
@@ -4031,7 +4116,7 @@
         "place": "Ribeira das Naus, Lisbon",
         "when": "1440s–1830s",
         "heading": "Where it started",
-        "text": "Portuguese ships began taking captives from West Africa in the 1440s, and Portugal went on to carry more Africans across the Atlantic than any other country, mostly to Brazil. In the 1500s about one in ten people in Lisbon was Black.",
+        "text": "The trade began with Portugal. In the 1440s Portuguese ships sailing down the west coast of Africa began taking captives and bringing them back to sell in Lisbon and other towns. Within a century the trade had crossed the Atlantic. Portugal went on to carry more Africans to the Americas than any other country, most of them to work on the sugar plantations of Brazil. The trade was run by the crown from the waterfront in Lisbon, near today’s Praça do Comércio. In the 1500s about one in ten people in Lisbon was Black. Portugal banned its slave trade in 1836, though slavery in Brazil went on until 1888.",
         "lat": 38.706,
         "lon": -9.1395,
         "zoom": 14,
@@ -4039,56 +4124,84 @@
           "1SomMAvqKmWx8BobVbN0Ej",
           "2Z12rw9L3SIpTc9JCWxvOu"
         ],
-        "image": "Blue facades of waterfront buildings at Ribeira das Naus in Lisbon, Portugal, 20250604 2033 9639.jpg"
+        "image": "Blue facades of waterfront buildings at Ribeira das Naus in Lisbon, Portugal, 20250604 2033 9639.jpg",
+        "mediaNote": {
+          "lead": "Here are two short videos about Lisbon and the trade.",
+          "items": [
+            "One explains the human cost of Portugal’s trading empire.",
+            "And the other looks at Afro-Portuguese culture in the city today."
+          ]
+        },
+        "short": "Lisbon"
       },
       {
         "city": "Amsterdam",
         "place": "Amsterdam",
         "when": "1621–1863",
         "heading": "The Dutch West India Company",
-        "text": "The Dutch West India Company, founded in 1621, traded in slaves from forts on the Gold Coast to colonies such as Suriname. The Netherlands abolished slavery in 1863, among the last in Western Europe. In 1934 the Surinamese writer Anton de Kom published a history of the colony told from the side of the enslaved.",
+        "text": "In the 1600s the Dutch joined in. The Dutch West India Company, founded in 1621, took forts on the Gold Coast of West Africa, in what is now Ghana. From there it shipped captives to Dutch colonies in the Caribbean and South America, among them Suriname. The profits flowed back to Amsterdam, the same city that was celebrating its Golden Age. The Netherlands abolished slavery in its colonies only in 1863, one of the last countries in Western Europe to do so. Even then, the freed people had to keep working on the plantations for another ten years. In 1934 Anton de Kom, a writer from Suriname, published We Slaves of Suriname, the first history of the colony told from the side of the enslaved. In 2023 the Dutch king apologized for his country’s part in slavery.",
         "lat": 52.3162,
         "lon": 4.9576,
         "zoom": 11.5,
         "stories": [
           "yNbbQgcbrnKOL3zt23bog"
         ],
-        "image": "West-Indisch Huis.jpg"
+        "image": "West-Indisch Huis.jpg",
+        "mediaNote": {
+          "items": [
+            "If you want to read it, We Slaves of Suriname was banned, then forgotten, and then became a bestseller in the Netherlands nearly ninety years after it was written."
+          ]
+        },
+        "short": "The Dutch trade"
       },
       {
         "city": "Copenhagen",
         "place": "West Indian Warehouse, Copenhagen",
         "when": "1670s–1848",
         "heading": "Denmark’s islands",
-        "text": "Denmark held colonies in the Caribbean, now the US Virgin Islands, and shipped sugar and rum home to warehouses like this one on the harbor. It was the first country to pass a law banning the trade, in 1792, though it took effect only in 1803.",
+        "text": "Denmark, too, had colonies in the Caribbean: the islands of St. Thomas, St. John, and St. Croix, now the US Virgin Islands. It bought captives at its forts on the Gold Coast and shipped them across the Atlantic to work on sugar plantations. The sugar and rum came back to warehouses in Copenhagen, such as the large West Indian Warehouse on the harbor, built in 1781. In 1792 Denmark became the first country to pass a law banning the slave trade, though it took effect only in 1803. Slavery itself continued on the islands until 1848, when the enslaved people of St. Croix rose up and forced the governor to free them.",
         "lat": 55.6869,
         "lon": 12.5955,
         "zoom": 14.5,
         "stories": [
           "5cGJwGBuIKsKtjb3eFTLhh"
         ],
-        "image": "Vestindisk Pakhus (Copenhagen).jpg"
+        "image": "Vestindisk Pakhus (Copenhagen).jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a podcast episode about how Denmark and Norway ran forts in Ghana and plantations in the Caribbean."
+          ]
+        },
+        "short": "The Danish islands"
       },
       {
         "city": "London",
         "place": "London",
         "when": "1660s–1807",
         "heading": "The capital of the trade",
-        "text": "London’s Royal African Company held a monopoly on the English slave trade from the 1670s, and the City financed and insured it. Black Londoners, free and enslaved, lived in the city throughout. The British Museum holds an Akan drum carried to Virginia in the 1700s.",
+        "text": "London was where much of the British trade was organized. From 1672 the Royal African Company, backed by the king, held a monopoly on the English trade with West Africa, including the trade in people. Even after the monopoly ended, the City of London financed the voyages, insured the ships, and invested the profits. Black Londoners, some free and some enslaved, lived in the city throughout. Among the objects in the British Museum is a drum made by the Akan people of West Africa, which was carried to Virginia on a slave ship in the 1700s. Britain abolished its slave trade in 1807, and slavery in most of its colonies in 1833. The slave owners were paid compensation. The enslaved were paid nothing.",
         "lat": 51.5194,
         "lon": -0.127,
         "zoom": 12,
         "stories": [
           "7le7J9myV7M3W58tJK3aZV",
           "Zs2OxSyKcGgqJaRHamxaZ"
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are two ways into this history.",
+          "items": [
+            "A short radio episode looks at the Akan drum, and what it carries of the trade.",
+            "And Black and British, by David Olusoga, shows how far back Black British history goes."
+          ]
+        },
+        "short": "London"
       },
       {
         "city": "Liverpool",
         "place": "Royal Albert Dock, Liverpool",
         "when": "1700s–1807",
         "heading": "The biggest slaving port",
-        "text": "By the end of the 1700s, Liverpool ships carried most of Britain’s trade in enslaved people. The money is in the street names, the Town Hall, and the old Exchange. Since 2007, the International Slavery Museum has stood on the dock where slaving ships were fitted out.",
+        "text": "By the end of the 1700s, Liverpool had become the biggest slaving port in Europe. Its ships carried goods to West Africa, captives across the Atlantic, and sugar, cotton, and tobacco back home, a route often called the triangular trade. Liverpool ships carried well over a million Africans. The money paid for docks, the Town Hall, and merchants’ houses, and many streets are named after slave traders. In 2007, the two hundredth anniversary of the abolition of the British trade, the International Slavery Museum opened at the Royal Albert Dock, close to where slaving ships were once fitted out.",
         "lat": 53.4013,
         "lon": -2.993,
         "zoom": 14.5,
@@ -4096,17 +4209,26 @@
           "1tV7b1pF01zfeQlngdzr83",
           "2AZMegQi3Nntn6NE1Dbj6k",
           "218odHDH79JJGnUYPFCJdI",
-          "5xnsCd2CNlcYJ3q1RoiEB9",
           "1yZz7QNREePeDVcGSpWKTa"
         ],
-        "image": "Edward Pavilion, Royal Albert Dock 2020.jpg"
+        "image": "Edward Pavilion, Royal Albert Dock 2020.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Liverpool’s past.",
+          "items": [
+            "A short video introduces the International Slavery Museum.",
+            "A podcast episode looks at how the city has come to remember the trade that built its wealth.",
+            "A walking tour visits the buildings and street names that still carry those ties.",
+            "And The Slave Ship, by Marcus Rediker, tells the human history of the ships themselves."
+          ]
+        },
+        "short": "Liverpool"
       },
       {
         "city": "Glasgow",
         "place": "Merchant City, Glasgow",
         "when": "1700s–1830s",
         "heading": "Tobacco and sugar",
-        "text": "Glasgow’s “tobacco lords” grew rich on plantations in Virginia and the Caribbean worked by enslaved people. Their mansions and warehouses are the Merchant City, and streets there are still called Virginia Street and Jamaica Street.",
+        "text": "In Glasgow, the money came from what enslaved people grew. In the 1700s the city’s merchants dominated Britain’s trade in tobacco from Virginia, and later its trade in sugar and cotton from the Caribbean. The richest of them were known as the tobacco lords. They built mansions and warehouses in what is now called the Merchant City, east of the center, and streets there are still named Virginia Street and Jamaica Street. One of their mansions is now the city’s Gallery of Modern Art. In recent years Glasgow has begun to study and acknowledge these links openly.",
         "lat": 55.8603,
         "lon": -4.2522,
         "zoom": 14.5,
@@ -4114,7 +4236,15 @@
           "4SWfuAg9cSQEpAT34HcrOb",
           "7yCLdjRxWnTZLUYsDvl7EN"
         ],
-        "image": "Merchant City, Glasgow 004.jpg"
+        "image": "Merchant City, Glasgow 004.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the story.",
+          "items": [
+            "It Wisnae Us, by Stephen Mullen, is a short guide to how slavery paid for the city center.",
+            "And a walking tour of the Merchant City covers the trade, and the city’s part in abolition."
+          ]
+        },
+        "short": "Glasgow"
       }
     ],
     "image": "Brookes slave ship, British Library (cropped).jpg"
@@ -4322,8 +4452,8 @@
     "title": "Queer Europe",
     "dates": "1919–2015",
     "intro": [
-      "For most of the twentieth century, gay men in Europe could be jailed for their relationships, and queer life went on in bars, magazines, and private clubs. In 1989 Denmark became the first country to recognize same-sex couples, and in 2015 Ireland voted for same-sex marriage.",
-      "This thread follows that change through the places where it happened."
+      "For most of the 20th century, gay men in much of Europe could be jailed for their relationships, and queer life went on in bars, magazines, and private clubs. In 1989 Denmark became the first country to recognize same-sex couples, and in 2015 Ireland voted for same-sex marriage.",
+      "This thread follows that change through the places where it happened, from Berlin in the 1920s to Dublin in 2015."
     ],
     "chapters": [
       {
@@ -4331,7 +4461,7 @@
         "place": "Nollendorfplatz, Berlin",
         "when": "1919–1933",
         "heading": "Weimar Berlin",
-        "text": "In the 1920s the streets around Nollendorfplatz were full of gay and lesbian bars, and Magnus Hirschfeld ran an institute that studied sexuality. Christopher Isherwood lodged nearby and wrote the stories that became Cabaret. In May 1933 the Nazis ransacked the institute and burned its books.",
+        "text": "In the 1920s, after the First World War, Berlin became one of the freest cities in Europe. Sex between men was still illegal in Germany, but the law was loosely enforced, and the streets around Nollendorfplatz, a square in Schöneberg, were full of gay and lesbian bars and clubs. The doctor Magnus Hirschfeld ran an Institute for Sexual Science, which studied sexuality and campaigned for equal rights. The English writer Christopher Isherwood lodged nearby, and he wrote stories about the city that later became the musical Cabaret. In May 1933, months after the Nazis took power, students ransacked Hirschfeld’s institute and burned its library in public. The Nazis went on to send thousands of gay men to concentration camps.",
         "lat": 52.4995,
         "lon": 13.3538,
         "zoom": 14,
@@ -4341,41 +4471,63 @@
           "aaIpNWfPeGz6QAr7fFR1h",
           "1DcilnKXeBjMRPOMhJfKSq"
         ],
-        "image": "Berlin - U-Bahnhof Nollendorfplatz (9548045271).jpg"
+        "image": "Berlin - U-Bahnhof Nollendorfplatz (9548045271).jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into queer Weimar Berlin.",
+          "items": [
+            "A comedy history podcast looks at queer life in the city in the 1920s.",
+            "Goodbye to Berlin is Isherwood’s book of stories, the source of Cabaret.",
+            "Cabaret, with Liza Minnelli, sets the songs against the rise of the Nazis.",
+            "And a design podcast explains how Hirschfeld’s institute became the first target of the Nazi book burnings."
+          ]
+        },
+        "short": "Weimar Berlin"
       },
       {
         "city": "Rome",
         "place": "Palazzo Federici, Rome",
         "when": "1938",
         "heading": "Sent away",
-        "text": "Fascist Italy didn’t make homosexuality a crime but sent gay men into internal exile on remote islands. Ettore Scola’s film A Special Day takes place on the day Hitler visited Rome in 1938, when a housewife meets a neighbor about to be deported.",
+        "text": "In Fascist Italy, homosexuality was not made a crime, because the regime preferred to pretend it did not exist. Instead the police sent gay men into internal exile, called confino, on remote islands and in mountain villages. Ettore Scola’s 1977 film A Special Day takes place on the day of a great parade for Hitler’s visit to Rome in May 1938. While the rest of their apartment block goes to the parade, a lonely housewife, played by Sophia Loren, meets a neighbor, played by Marcello Mastroianni. He is a radio announcer who has lost his job for being gay and is about to be sent away.",
         "lat": 41.9192,
         "lon": 12.5206,
         "zoom": 14,
         "stories": [
           "5MTHinnx0R0urMQSny2oVJ"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "To see it, A Special Day is a quiet and moving film set in one apartment block."
+          ]
+        },
+        "short": "A Special Day"
       },
       {
         "city": "Zurich",
         "place": "Niederdorf, Zurich",
         "when": "1943–1967",
         "heading": "Der Kreis",
-        "text": "Switzerland legalized gay sex between adults in 1942. In Zurich, a club and magazine called Der Kreis held discreet dances and published in three languages, until a police crackdown in the 1960s broke it up.",
+        "text": "Switzerland legalized sex between adult men in 1942, during the Second World War, and Zurich became a place where gay men could meet, carefully. A club and magazine called Der Kreis, The Circle, held discreet dances in the old town and published its magazine in German, French, and English. It had readers all over Europe and America. In the late 1950s, after several murders of gay men, the police cracked down, and the club finally broke up in 1967.",
         "lat": 47.372,
         "lon": 8.544,
         "zoom": 14,
         "stories": [
           "16J4B54SvAkMJZbwKmbdWW"
         ],
-        "image": "Zuerich Altstadt 1229.jpg"
+        "image": "Zuerich Altstadt 1229.jpg",
+        "mediaNote": {
+          "items": [
+            "For the story, there is Der Kreis, a Swiss docudrama about the club, a love affair, and the crackdown that broke it up."
+          ]
+        },
+        "short": "Der Kreis"
       },
       {
         "city": "Manchester",
         "place": "Sackville Gardens, Manchester",
         "when": "1952",
         "heading": "Alan Turing",
-        "text": "The codebreaker, who worked on one of the first computers at Manchester University, was convicted of gross indecency in 1952 and given hormone treatment. He died two years later. A statue of him sits on a bench in Sackville Gardens, by the gay village.",
+        "text": "In Britain, sex between men was a crime until 1967, and men were regularly prosecuted. One of them was Alan Turing, the mathematician who had helped break German codes at Bletchley Park during the war. Afterward he worked on one of the first computers at the University of Manchester. In 1952 he reported a burglary at his house, told the police about his relationship with a young man, and was convicted of gross indecency. To avoid prison, he was made to take hormone treatment. He died in 1954, at 41. In 2009 the British government apologized, and in 2013 he received a royal pardon. A statue of him sits on a bench in Sackville Gardens, in Manchester’s gay village.",
         "lat": 53.4657,
         "lon": -2.2327,
         "zoom": 14,
@@ -4383,42 +4535,62 @@
           "7JCvobaE10mawgd19yatKS",
           "24sovsv4M8Dpv5161gYDcg"
         ],
-        "image": "Alan Turing Memorial Sackville Park.jpg"
+        "image": "Alan Turing Memorial Sackville Park.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into his life.",
+          "items": [
+            "A BBC discussion looks at Turing’s work and his prosecution.",
+            "And Alan Turing: The Enigma, by Andrew Hodges, is the definitive biography."
+          ]
+        },
+        "short": "Alan Turing"
       },
       {
         "city": "Helsinki",
         "place": "Helsinki",
         "when": "1950s–1971",
         "heading": "Tom of Finland",
-        "text": "Touko Laaksonen, a war veteran working in advertising, drew muscular, cheerful gay men in a country where homosexuality was illegal until 1971. As Tom of Finland he became famous abroad long before he was accepted at home.",
+        "text": "In Finland, homosexuality was illegal until 1971. Touko Laaksonen had fought in the Second World War and then worked in advertising in Helsinki. In private he drew muscular, cheerful gay men in leather and uniforms. In 1957 an American magazine began publishing his drawings under the name Tom of Finland, and they became famous among gay men around the world. At home he stayed almost unknown for decades. In 2014 Finland put his drawings on a set of postage stamps.",
         "lat": 60.1699,
         "lon": 24.9384,
         "zoom": 12.5,
         "stories": [
           "2vAq7K3EHAC1lY4mEcocqg"
         ],
-        "image": "Statue of Johan Ludvig Runeberg on Esplanadi in Helsinki, Finland.jpg"
+        "image": "Statue of Johan Ludvig Runeberg on Esplanadi in Helsinki, Finland.jpg",
+        "mediaNote": {
+          "items": [
+            "For his story, there is Tom of Finland, a Finnish film about his life."
+          ]
+        },
+        "short": "Tom of Finland"
       },
       {
         "city": "London",
         "place": "Gay’s the Word, Bloomsbury, London",
         "when": "1984",
         "heading": "Pride",
-        "text": "During the 1984 miners’ strike, a group of gay and lesbian activists raised money for a mining village in Wales. They met at Gay’s the Word bookshop. The miners later marched at London Pride.",
+        "text": "In 1984 Britain’s coal miners went on strike against pit closures, and the strike lasted a year. A group of gay and lesbian activists in London, who had been harassed by the police themselves, decided to support them. They called themselves Lesbians and Gays Support the Miners. They met at Gay’s the Word, a bookshop in Bloomsbury, and raised money for a mining community in South Wales. The miners were wary at first, and then they became friends. In 1985 miners from Wales marched at the front of London’s Pride parade.",
         "lat": 51.5254,
         "lon": -0.1254,
         "zoom": 14,
         "stories": [
           "4khqKuH8xsJNipzgMdhg6i"
         ],
-        "image": "Gay's the Word, London, Bloomsbury, WC1 b.jpg"
+        "image": "Gay's the Word, London, Bloomsbury, WC1 b.jpg",
+        "mediaNote": {
+          "items": [
+            "For the full story, there is Pride, a warm and funny film about the activists and the village."
+          ]
+        },
+        "short": "Pride"
       },
       {
         "city": "Madrid",
         "place": "Chueca, Madrid",
         "when": "1979–1990s",
         "heading": "After Franco",
-        "text": "Spain decriminalized homosexuality in 1979, a few years after Franco’s death. In the Movida, Madrid’s 1980s pop explosion, Alaska’s A quién le importa became an anthem, and Chueca grew into the city’s gay district.",
+        "text": "In Spain, the Franco dictatorship treated gay people as criminals and dangers to society. Franco died in 1975, and in 1979 homosexuality was removed from the law used to persecute it. In the 1980s Madrid exploded with music, film, and nightlife in what was called the Movida. The singer Alaska’s 1986 song “A quién le importa,” Who Cares, became an anthem of being yourself. Chueca, a run-down neighborhood in the center, grew into the city’s gay district. In 2005 Spain became one of the first countries in the world to allow same-sex marriage.",
         "lat": 40.4231,
         "lon": -3.6996,
         "zoom": 14,
@@ -4426,14 +4598,22 @@
           "1vJMYmUfi4WTMt8WpDN4Z8",
           "36mdKTIhmcBeaFzEceeSWC"
         ],
-        "image": "Madrid Pride Orgullo 2015 58350 (19159357349).jpg"
+        "image": "Madrid Pride Orgullo 2015 58350 (19159357349).jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Madrid after Franco.",
+          "items": [
+            "“A quién le importa,” by Alaska, is the anthem of the Movida.",
+            "And an architecture walk through Salamanca and Chueca traces how the districts grew."
+          ]
+        },
+        "short": "Chueca"
       },
       {
         "city": "Copenhagen",
         "place": "City Hall, Copenhagen",
         "when": "1989",
         "heading": "The first partnerships",
-        "text": "On October 1, 1989, Denmark became the first country to let same-sex couples register their partnership. Eleven couples signed at Copenhagen City Hall that day, including the activists Axel and Eigil Axgil.",
+        "text": "On October 1, 1989, Denmark became the first country in the world to let same-sex couples register their partnership, with most of the rights of marriage. Eleven couples signed at Copenhagen City Hall that day. Among them were Axel and Eigil Axgil, who had founded Denmark’s first gay rights organization forty years before. Denmark went on to allow full marriage in 2012.",
         "lat": 55.6761,
         "lon": 12.5695,
         "zoom": 14,
@@ -4441,14 +4621,22 @@
           "32o9YnTKihErNiquotlIAd",
           "4OpDIJmchIaxYmncintViA"
         ],
-        "image": "Copenhagen City Hall, Denmark.jpg"
+        "image": "Copenhagen City Hall, Denmark.jpg",
+        "mediaNote": {
+          "lead": "Here are two stories from that day.",
+          "items": [
+            "A short video shows the couples signing at City Hall.",
+            "And a Witness History episode tells the story of two of the first couples, Ivan Larsen and Ove Carlsen."
+          ]
+        },
+        "short": "The first partnerships"
       },
       {
         "city": "Dublin",
         "place": "Dublin Castle",
         "when": "1993–2015",
         "heading": "The vote",
-        "text": "Gay sex was illegal in Ireland until 1993. Twenty-two years later Ireland became the first country to allow same-sex marriage by popular vote, and crowds watched the result come in at Dublin Castle.",
+        "text": "In Ireland, sex between men was illegal until 1993. The law was finally changed after a long campaign by David Norris, a lecturer at Trinity College, who took his case to the European Court of Human Rights and won. Twenty-two years later, in May 2015, Ireland held a referendum on same-sex marriage. It became the first country to allow it by popular vote, and 62 percent voted yes. Crowds gathered in the courtyard of Dublin Castle to watch the results come in.",
         "lat": 53.3434,
         "lon": -6.2677,
         "zoom": 14,
@@ -4456,7 +4644,15 @@
           "1Hx2uFfjWuEy8KprdZWuBU",
           "4guojnU32rUFLEJrkZTrOf"
         ],
-        "image": "Dublin Castle Upper Castle Yard Panorama 01.jpg"
+        "image": "Dublin Castle Upper Castle Yard Panorama 01.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into queer Dublin.",
+          "items": [
+            "A podcast tells the story of the referendum and the day the results came in.",
+            "And a tour of Kilmainham Gaol, the old city jail, looks for the queer lives behind its walls."
+          ]
+        },
+        "short": "The vote"
       }
     ],
     "image": "Copenhagen Pride Parade 2022 07.jpg"
@@ -4468,7 +4664,7 @@
     "dates": "1939–1999",
     "intro": [
       "In the Second World War, bombing cities became a strategy rather than an accident. Warsaw, London, Belfast, Naples, and Berlin all spent months or years under air raids, and the ruins shaped how they were rebuilt.",
-      "This thread visits cities that were bombed and how they remember it."
+      "This thread visits cities that were bombed, from Warsaw in 1939 to Belgrade in 1999, and shows how they remember it."
     ],
     "chapters": [
       {
@@ -4476,21 +4672,27 @@
         "place": "Royal Castle, Warsaw",
         "when": "September 1939",
         "heading": "Warsaw",
-        "text": "When Germany invaded Poland, its planes and artillery bombarded Warsaw for nearly three weeks. The Royal Castle burned, and the city surrendered on September 28. The castle was rebuilt in the 1970s.",
+        "text": "The war in Europe began with the bombing of cities. On September 1, 1939, Germany invaded Poland, and within days its planes and artillery were bombarding Warsaw. The city held out for nearly three weeks, without power or water, as fires spread. The Royal Castle, the home of Polish kings, was set ablaze. Warsaw surrendered on September 28. Worse was to come, because after the uprising of 1944 the Germans destroyed most of what was left. The castle was rebuilt from photographs and rescued fragments in the 1970s.",
         "lat": 52.248,
         "lon": 21.0152,
         "zoom": 14,
         "stories": [
           "4wYZP7em6DxAlkxGYpy6ED"
         ],
-        "image": "Fall of Warsaw in 1939.jpg"
+        "image": "Fall of Warsaw in 1939.jpg",
+        "mediaNote": {
+          "items": [
+            "For the siege, there is a podcast episode about the three weeks in September 1939 when the city held out."
+          ]
+        },
+        "short": "Warsaw, 1939"
       },
       {
         "city": "London",
         "place": "Churchill War Rooms, London",
         "when": "1940–1941",
         "heading": "The Blitz",
-        "text": "From September 1940 to May 1941 German bombers attacked London most nights. People sheltered in Tube stations, and Churchill’s government worked from a basement under Whitehall. In March 1943, 173 people were crushed on the stairs of the Bethnal Green station during an alert.",
+        "text": "From September 1940 to May 1941, German bombers attacked London on most nights. It became known as the Blitz. More than 40,000 people were killed across Britain, about half of them in London. Many Londoners sheltered at night on the platforms of Underground stations. The prime minister, Winston Churchill, and his government worked from a reinforced basement under government offices in Whitehall, now a museum called the Churchill War Rooms. The danger did not end with the Blitz. In March 1943, during an air-raid alert, 173 people were crushed to death on the stairs of Bethnal Green station, in the East End.",
         "lat": 51.5022,
         "lon": -0.1293,
         "zoom": 14,
@@ -4498,33 +4700,46 @@
           "5x0ozWD1yuaXXk8mo5ihgq",
           "zH1O2Q2mEUj4R8slZ7XNR",
           "3VrGn1qtPNVfcu6CyQlr58",
-          "5EQuVHifxnkxPAhWXzIcE9",
-          "3lICEMWbegCrKZQgEOprfR",
           "4yaHxarqRe9nrSWMfpyNmD"
         ],
-        "image": "London Blitz 791940.jpg"
+        "image": "London Blitz 791940.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into London in the Blitz.",
+          "items": [
+            "A video goes through the Churchill War Rooms, from the map room to the cabinet room.",
+            "The Splendid and the Vile, by Erik Larson, tells Churchill’s first year as prime minister through the Blitz.",
+            "Fires Were Started is a wartime film made with real firemen.",
+            "And a Witness History episode tells the story of the Bethnal Green disaster."
+          ]
+        },
+        "short": "The Blitz"
       },
       {
         "city": "Liverpool",
         "place": "St. Luke’s Church, Liverpool",
         "when": "May 1941",
         "heading": "The May Blitz",
-        "text": "Liverpool’s docks were the main port for supplies from America, and it was the most bombed British city outside London. In the first week of May 1941, St. Luke’s Church burned out. It was left roofless as a memorial.",
+        "text": "Liverpool was the main port for supplies coming from America, so it was bombed more heavily than any British city outside London. The worst week came at the start of May 1941, when German planes attacked every night. More than 1,700 people were killed, and thousands of homes were destroyed. St. Luke’s Church, at the top of Bold Street, was hit by a firebomb and burned out. It was left roofless as a memorial, and local people call it the bombed-out church.",
         "lat": 53.4022,
         "lon": -2.9759,
         "zoom": 14,
         "stories": [
-          "6zFJYcXdJK4c9OLLxOOqh6",
-          "1s7AWWHeec0ajGJj6SXIUY"
+          "6zFJYcXdJK4c9OLLxOOqh6"
         ],
-        "image": "St. Luke's Church \"Bombed out Church\", Liverpool - geograph.org.uk - 7378089.jpg"
+        "image": "St. Luke's Church \"Bombed out Church\", Liverpool - geograph.org.uk - 7378089.jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a talk from the National Archives about how the government tracked the morale of Liverpool during the Blitz."
+          ]
+        },
+        "short": "The May Blitz"
       },
       {
         "city": "Belfast",
         "place": "York Street, Belfast",
         "when": "April–May 1941",
         "heading": "Belfast",
-        "text": "Belfast had almost no shelters when German bombers came in April 1941. About 900 people died on Easter Tuesday, the most killed in one night anywhere in the UK outside London.",
+        "text": "Belfast built ships and planes for the war, but its leaders thought it was too far away for German bombers to reach, and the city had almost no shelters. On the night of Easter Tuesday, April 15, 1941, about two hundred German bombers attacked, mostly hitting the crowded working-class streets in the north of the city. About 900 people died, the most killed in a single night anywhere in Britain outside London. Fire engines came from Dublin, across the border in neutral Ireland, to help.",
         "lat": 54.6058,
         "lon": -5.9288,
         "zoom": 14,
@@ -4532,14 +4747,22 @@
           "5cKuL7rygDYduSRuPZSwEh",
           "7Gos0RItYY2yzFaUy5Z3lU"
         ],
-        "image": "York Street post-Belfast blitz - merge (34488232446).jpg"
+        "image": "York Street post-Belfast blitz - merge (34488232446).jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the Belfast Blitz.",
+          "items": [
+            "A podcast episode with Dan Snow tells how German bombers found a city with almost no shelters.",
+            "And These Days, a novel by Lucy Caldwell, follows two sisters through the raids."
+          ]
+        },
+        "short": "The Belfast Blitz"
       },
       {
         "city": "Naples",
         "place": "Napoli Sotterranea, Naples",
         "when": "1940–1943",
         "heading": "Naples",
-        "text": "Allied planes bombed Naples, Italy’s main southern port, again and again. Families sheltered in the ancient quarries and water tunnels under the city. Sophia Loren grew up in nearby Pozzuoli during the raids.",
+        "text": "Naples, Italy’s main port in the south, was bombed by the Allies more than a hundred times between 1940 and 1943, and thousands of people were killed. Families sheltered in the ancient tunnels and cisterns under the city, dug by the Greeks and Romans, and some lived down there for weeks at a time. The actress Sophia Loren grew up in Pozzuoli, just west of the city, during the raids, and as a child she was cut by flying shrapnel. Allied troops entered the city in October 1943, after its people had driven out the Germans in four days of street fighting.",
         "lat": 40.8509,
         "lon": 14.2574,
         "zoom": 14,
@@ -4547,28 +4770,42 @@
           "52EQT4OXMCGFV6cYdpZyb1",
           "2NrfSNrJg3nqbXy9zfyvrB"
         ],
-        "image": "Napoli Sotterranea 1.jpg"
+        "image": "Napoli Sotterranea 1.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into wartime Naples.",
+          "items": [
+            "A local guide leads a podcast host into the tunnels under the city.",
+            "And on Desert Island Discs, Sophia Loren talks about growing up under the bombs."
+          ]
+        },
+        "short": "Naples"
       },
       {
         "city": "Copenhagen",
         "place": "Frederiksberg Allé, Copenhagen",
         "when": "March 1945",
         "heading": "A mistake",
-        "text": "In March 1945 the RAF bombed the Gestapo’s headquarters in Copenhagen at the Danish resistance’s request. One plane crashed near a French school, and later planes bombed the fire by mistake. Eighty-six children were killed.",
+        "text": "Some bombs fell by mistake. In March 1945 the Danish resistance asked the British to bomb the Gestapo’s headquarters in Copenhagen, where captured resistance members were held. The raid hit its target, and some prisoners escaped. But one of the low-flying planes hit a lamppost and crashed near the Institut Jeanne d’Arc, a Catholic school known as the French School. Later planes saw the smoke, took it for the target, and bombed the school. In the school, 86 children and 18 adults were killed.",
         "lat": 55.6738,
         "lon": 12.536,
         "zoom": 14,
         "stories": [
           "AjOcvfjxzOR9NmYmCtGMH"
         ],
-        "image": "Shellhuset 210345.jpg"
+        "image": "Shellhuset 210345.jpg",
+        "mediaNote": {
+          "items": [
+            "For the story, there is The Bombardment, a Danish film about the raid, which is hard to watch."
+          ]
+        },
+        "short": "The French School"
       },
       {
         "city": "Berlin",
         "place": "Kaiser Wilhelm Memorial Church, Berlin",
         "when": "1943–1947",
         "heading": "Rubble",
-        "text": "By 1945 bombing and the final battle had left much of Berlin in ruins. The broken tower of the Kaiser Wilhelm Memorial Church was kept as a reminder, next to a new church built in the 1960s. Rossellini filmed the rubble in 1947.",
+        "text": "Germany was bombed far more heavily than Britain. By 1945, Allied raids and the final battle for the city had left much of Berlin in ruins, and its people cleared the rubble by hand. Women known as Trümmerfrauen, rubble women, passed bricks from hand to hand to clean and reuse them. The broken tower of the Kaiser Wilhelm Memorial Church, on the Kurfürstendamm, was kept as a reminder, beside a new church built in the 1960s. In 1947 the Italian director Roberto Rossellini filmed Germany Year Zero in the real ruins, following a boy trying to survive in the wrecked city.",
         "lat": 52.5049,
         "lon": 13.335,
         "zoom": 14,
@@ -4577,14 +4814,23 @@
           "1JA8OeZoBYZAGq3whc2pGm",
           "Y7vJNo3EmCQGHjbfqNXaJ"
         ],
-        "image": "20140831-Türme Gedächtniskirche by sebaso.jpg"
+        "image": "20140831-Türme Gedächtniskirche by sebaso.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Berlin in ruins.",
+          "items": [
+            "A walking tour along the Kurfürstendamm starts and ends at the bombed church.",
+            "Germany Year Zero, Rossellini’s film, shows the real rubble of 1947.",
+            "And Berlin: The Downfall 1945, by Antony Beevor, tells the story of the last months of the war in the city."
+          ]
+        },
+        "short": "Rubble"
       },
       {
         "city": "Belgrade",
         "place": "Kneza Miloša, Belgrade",
         "when": "1999",
         "heading": "Belgrade",
-        "text": "NATO bombed Yugoslavia for 78 days in 1999 over Kosovo. The army headquarters on Kneza Miloša street was hit and left as a ruin, and US bombs hit the Chinese embassy, killing three people.",
+        "text": "The last stop is more recent. In 1999 NATO bombed Yugoslavia for 78 days to force its government to stop its campaign against ethnic Albanians in Kosovo. In Belgrade, missiles hit the headquarters of the Yugoslav army, a pair of red stone buildings by the architect Nikola Dobrović on Kneza Miloša Street. They still stand there as ruins, while the city argues over what to do with them. On May 7, American bombs hit the Chinese embassy in New Belgrade, killing three people. NATO said it had used an out-of-date map.",
         "lat": 44.8053,
         "lon": 20.4627,
         "zoom": 14,
@@ -4592,7 +4838,15 @@
           "2YBglolhHZ9usBKolXF9uZ",
           "4zzlKC5iWCxKXjFaaowr9P"
         ],
-        "image": "Generalštab, Belgrade 2014.jpg"
+        "image": "Generalštab, Belgrade 2014.jpg",
+        "mediaNote": {
+          "lead": "Here are two stories from the bombing of Belgrade.",
+          "items": [
+            "A short radio report looks at the bombed army headquarters, and what might happen to it.",
+            "And a Witness History episode tells the story of the strike on the Chinese embassy."
+          ]
+        },
+        "short": "Belgrade, 1999"
       }
     ],
     "image": "London Blitz 9 September 1940.jpg"
@@ -4603,8 +4857,8 @@
     "title": "Uprisings",
     "dates": "1944–1989",
     "intro": [
-      "For forty-five years, people in Central and Eastern Europe kept trying to take their cities back. Most attempts were crushed within days or weeks. Each one was remembered, and in 1989 the anniversaries, the funerals, and the songs came back.",
-      "Each stop is a place you can still stand in."
+      "For forty-five years after the Second World War, people in Central and Eastern Europe kept trying to take their cities back. Most attempts were crushed within days or weeks. Each one was remembered, and in 1989 the anniversaries, the funerals, and the songs came back.",
+      "This thread runs from the Warsaw Uprising of 1944 to the fall of Ceaușescu in 1989. Each stop is a place you can still stand in."
     ],
     "chapters": [
       {
@@ -4612,7 +4866,7 @@
         "place": "Warsaw Rising Museum",
         "when": "August–October 1944",
         "heading": "Warsaw rises",
-        "text": "On August 1, 1944, the Polish Home Army attacked the German occupiers, hoping to free the city before the Red Army arrived. The Soviets stopped on the far bank of the Vistula and waited. The fighting lasted 63 days. Up to 200,000 civilians died, and the Germans then destroyed most of what was left of the city.",
+        "text": "By the summer of 1944, the Red Army was pushing the Germans back across Poland, and it reached the outskirts of Warsaw. On August 1, the Polish Home Army, the underground army loyal to the government in exile in London, rose against the German occupiers. It hoped to free the city before the Soviets arrived. But the Red Army stopped on the far bank of the Vistula and waited. The fighting lasted 63 days. Up to 200,000 civilians were killed. When the Home Army surrendered, the Germans expelled the survivors and blew up most of what was left of the city. The Warsaw Rising Museum, in an old tram power station, tells the story.",
         "lat": 52.2323,
         "lon": 20.9811,
         "zoom": 12.6,
@@ -4622,28 +4876,44 @@
           "28WcXAWZnZvpJ6Tb6AQHRX",
           "17HR05uqiCO9AvhxRJOAUO"
         ],
-        "image": "Warsaw Uprising - Soldiers from Parasol on Warecka Street.jpg"
+        "image": "Warsaw Uprising - Soldiers from Parasol on Warecka Street.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into the Uprising.",
+          "items": [
+            "A Witness History episode hears from a former scout who carried messages during the fighting.",
+            "Rising ’44, by Norman Davies, is the full history of the battle.",
+            "Kanał, Andrzej Wajda’s film, follows a company escaping through the sewers as the Uprising collapses.",
+            "And “Godzina W,” by the rock band Lao Che, comes from a whole album about the Uprising."
+          ]
+        },
+        "short": "Warsaw Uprising"
       },
       {
         "city": "Berlin",
         "place": "Potsdamer Platz, Berlin",
         "when": "June 17, 1953",
         "heading": "Builders strike in East Berlin",
-        "text": "Construction workers on Stalinallee walked off the job over higher work quotas. Within a day hundreds of thousands were protesting across East Germany. Soviet tanks put it down, and dozens were killed.",
+        "text": "After the war, the Soviet Union set up communist governments across Eastern Europe, and the first uprising against one came in East Berlin. In June 1953 the East German government raised the amount of work required for the same pay. On June 16, construction workers building the grand new Stalinallee walked off the job in protest. The next day hundreds of thousands of people were on strike across the country, calling for free elections. In Berlin, crowds marched to the government offices near Potsdamer Platz. Soviet tanks put the uprising down, and dozens of people were killed.",
         "lat": 52.5096,
         "lon": 13.376,
         "zoom": 13,
         "stories": [
           "2LKISTmRBGSfQq1aeu7iC5"
         ],
-        "image": "Bundesarchiv B 145 Bild-F005191-0040, Berlin, Aufstand, sowjetischer Panzer.jpg"
+        "image": "Bundesarchiv B 145 Bild-F005191-0040, Berlin, Aufstand, sowjetischer Panzer.jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a Witness History episode about the uprising of 1953."
+          ]
+        },
+        "short": "June 17, 1953"
       },
       {
         "city": "Budapest",
         "place": "Corvin Passage, Budapest",
         "when": "October–November 1956",
         "heading": "Budapest fights the tanks",
-        "text": "A student march on October 23 ended with Stalin’s statue pulled down. Young fighters held the Corvin Passage against Soviet armor, and Prime Minister Imre Nagy announced that Hungary would leave the Warsaw Pact. On November 4 the Soviet army came back in force. About 2,500 Hungarians were killed and 200,000 fled the country. Nagy was hanged in 1958.",
+        "text": "Three years later it was Hungary’s turn. On October 23, 1956, students marched through Budapest calling for reforms, and by evening crowds had pulled down a giant statue of Stalin. Fighting broke out with the secret police and Soviet troops. Young fighters, many of them teenagers, held the Corvin Passage, a cinema courtyard, against Soviet tanks. A reforming communist, Imre Nagy, became prime minister and announced that Hungary would leave the Warsaw Pact, the Soviet military alliance. On November 4 the Soviet army came back in force. About 2,500 Hungarians were killed, and 200,000 fled the country. Nagy was arrested and, in 1958, hanged.",
         "lat": 47.4855,
         "lon": 19.0717,
         "zoom": 13,
@@ -4652,28 +4922,43 @@
           "1MoIvwhwewOvhJY10h9mbk",
           "3fAtUdRd1rLG53cLs9RMjS"
         ],
-        "image": "1956, Budapest, Üllői út - Ferenc körút, Kilián laktanya.jpg"
+        "image": "1956, Budapest, Üllői út - Ferenc körút, Kilián laktanya.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the revolution of 1956.",
+          "items": [
+            "A podcast episode looks back at the uprising and why it mattered.",
+            "Children of Glory, a Hungarian film, tells it through the water polo team that played the Soviets at the Olympics that year.",
+            "And Journey to a Revolution, by Michael Korda, is a memoir by a student who drove medical supplies into Budapest."
+          ]
+        },
+        "short": "Budapest, 1956"
       },
       {
         "city": "Warsaw",
         "place": "University of Warsaw main gate",
         "when": "March 1968",
         "heading": "Students against the censors",
-        "text": "When the authorities closed a production of Mickiewicz’s play Dziady for being anti-Russian, students protested. The crackdown came with an antisemitic campaign that pushed about 13,000 Polish Jews to emigrate.",
+        "text": "In Poland in 1968, the trouble began in a theater. The National Theatre in Warsaw was staging Forefathers’ Eve, a play by Adam Mickiewicz, Poland’s great Romantic poet, which includes lines against Russian rule. Audiences cheered those lines, and the authorities closed the production. Students at the University of Warsaw protested, and police beat them at the university gate. The government blamed the protests on Zionists, and it followed with an antisemitic campaign that drove about 13,000 Polish Jews out of the country.",
         "lat": 52.2403,
         "lon": 21.0189,
         "zoom": 13.5,
         "stories": [
           "2SreKF6Y49CjNCdeBKLn90"
         ],
-        "image": "Uniwersytet Warszawski (brama główna maj 1988).JPG"
+        "image": "Uniwersytet Warszawski (brama główna maj 1988).JPG",
+        "mediaNote": {
+          "items": [
+            "For more, there is a Witness History episode about the students who stood up to the censors."
+          ]
+        },
+        "short": "March 1968"
       },
       {
         "city": "Prague",
         "place": "Wenceslas Square, Prague",
         "when": "August 1968",
         "heading": "The end of the Prague Spring",
-        "text": "Alexander Dubček had promised “socialism with a human face”: less censorship, more debate. On the night of August 20, Warsaw Pact armies invaded. In January 1969 the student Jan Palach set himself on fire at the top of Wenceslas Square in protest. Marta Kubišová’s song “Modlitba pro Martu” became an anthem, and she was banned from performing for twenty years.",
+        "text": "That same year, in Czechoslovakia, the new communist leader, Alexander Dubček, promised “socialism with a human face”: less censorship, more debate, and more freedom to travel. People called it the Prague Spring. Moscow saw it as a threat. On the night of August 20, 1968, the armies of the Soviet Union and its allies invaded, and tanks filled Wenceslas Square. The reforms were rolled back. In January 1969, a student named Jan Palach set himself on fire at the top of Wenceslas Square in protest, and he died three days later. The singer Marta Kubišová recorded “Modlitba pro Martu,” A Prayer for Marta, which became an anthem of resistance. She was banned from performing for nearly twenty years.",
         "lat": 50.081,
         "lon": 14.428,
         "zoom": 13.5,
@@ -4683,28 +4968,44 @@
           "54vBMkWQ4SSVJfO3DbGQNP",
           "Kk80FUja2C3SYE8Gu0rqU"
         ],
-        "image": "10 Soviet Invasion of Czechoslovakia - Flickr - The Central Intelligence Agency.jpg"
+        "image": "10 Soviet Invasion of Czechoslovakia - Flickr - The Central Intelligence Agency.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into 1968 in Prague.",
+          "items": [
+            "A podcast episode hears from a journalist who saw the tanks arrive.",
+            "A recording of “Modlitba pro Martu” is the song that became the anthem.",
+            "Jan Palach, a Czech film, follows the last months of the student’s life.",
+            "And The Unbearable Lightness of Being, Milan Kundera’s novel, is set as the tanks crush the Prague Spring."
+          ]
+        },
+        "short": "Prague Spring"
       },
       {
         "city": "Budapest",
         "place": "Heroes’ Square, Budapest",
         "when": "June 16, 1989",
         "heading": "A funeral, thirty-one years late",
-        "text": "Hungary’s government agreed to rebury Imre Nagy with honors. About a quarter of a million people filled Heroes’ Square. It was the first sign that 1956 could be spoken about in public.",
+        "text": "For years, the uprising of 1956 could not be mentioned in Hungary. Imre Nagy had been buried in an unmarked grave in a far corner of a Budapest cemetery. By 1989 the communist government was weakening, and it agreed to rebury him with honors. On June 16, 1989, the thirty-first anniversary of his execution, his coffin lay in state in Heroes’ Square, and about a quarter of a million people came. A young speaker named Viktor Orbán called for Soviet troops to leave the country. It was clear that the regime could no longer control what people said in public.",
         "lat": 47.5149,
         "lon": 19.0779,
         "zoom": 13.5,
         "stories": [
           "bDa2Kgjsn2NCLyrWuxYRH"
         ],
-        "image": "Lascar Hősök tere (Heroes' Square) (4544237936).jpg"
+        "image": "Lascar Hősök tere (Heroes' Square) (4544237936).jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a Witness History episode about the state funeral, thirty-one years late."
+          ]
+        },
+        "short": "Nagy’s funeral"
       },
       {
         "city": "Berlin",
         "place": "Bornholmer Straße, Berlin",
         "when": "November 9, 1989",
         "heading": "The Wall opens",
-        "text": "Erich Honecker had already been pushed out. At an evening press conference, a Politburo spokesman said the new travel rules applied “immediately.” Crowds went to the checkpoints, and at Bornholmer Straße the guards gave up and opened the gate.",
+        "text": "In East Germany, crowds marched in the streets through the autumn of 1989, and in October the longtime leader, Erich Honecker, was pushed out. On the evening of November 9, at a press conference, a Politburo spokesman, Günter Schabowski, announced new rules that would let East Germans travel. Asked when they took effect, he looked at his notes and said, “immediately.” He was wrong, but thousands of people went straight to the border crossings. At Bornholmer Straße, the guards could not get clear orders, and just before midnight they opened the gate. The Berlin Wall had fallen.",
         "lat": 52.5548,
         "lon": 13.398,
         "zoom": 13,
@@ -4712,14 +5013,23 @@
           "6Gt4C9pN84v6GeqUhLf3rw",
           "6uBjFquR8UvVC8Rmygzoat",
           "4Hk0nl0qveJKDXjqmpwyKE"
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are three ways into the end of East Germany.",
+          "items": [
+            "A short video from Vox explains the small mistake that opened the Wall.",
+            "A Witness History episode tells the story of Honecker’s fall.",
+            "And Good Bye, Lenin!, a funny and sad film, follows a son who pretends East Germany still exists so the news won’t harm his sick mother."
+          ]
+        },
+        "short": "The Wall opens"
       },
       {
         "city": "Prague",
         "place": "Melantrich building, Wenceslas Square, Prague",
         "when": "November–December 1989",
         "heading": "The Velvet Revolution",
-        "text": "Police beat students on Národní street on November 17. Within days, Wenceslas Square filled every evening. Václav Havel spoke from the Melantrich balcony, and Marta Kubišová, banned since 1970, stood up there beside him. By the end of December Havel was president.",
+        "text": "In Prague, the end came quickly. On November 17, 1989, police beat students who were marching on Národní, the avenue by the river. Within days, hundreds of thousands of people were filling Wenceslas Square every evening. The playwright Václav Havel, who had been jailed for years as a dissident, spoke to them from the balcony of the Melantrich building, a publishing house. Marta Kubišová, banned since 1970, stood up there beside him and sang. Within weeks the communist government had resigned, and by the end of December Havel was president. Because almost no one was hurt, it was called the Velvet Revolution.",
         "lat": 50.0817,
         "lon": 14.4258,
         "zoom": 13.5,
@@ -4728,24 +5038,41 @@
           "uTPPYtGdQOFNATwrf3XpB",
           "1uWLERrZoE9JMFNh6QgvfG"
         ],
-        "image": "1989 sametova revoluce 12.jpg"
+        "image": "1989 sametova revoluce 12.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the Velvet Revolution.",
+          "items": [
+            "A podcast episode tells how a playwright came to address 300,000 people from a balcony.",
+            "The Magic Lantern, by Timothy Garton Ash, is an eyewitness account of the revolutions of 1989.",
+            "And Citizen Havel, a documentary filmed over thirteen years, follows Havel as president."
+          ]
+        },
+        "short": "Velvet Revolution"
       },
       {
         "city": "Bucharest",
         "place": "Revolution Square, Bucharest",
         "when": "December 1989",
         "heading": "Ceaușescu’s last speech",
-        "text": "On December 21 Nicolae Ceaușescu addressed a rally from the Central Committee balcony, and the crowd booed him on live television. He fled by helicopter the next day. He and his wife were tried and shot on December 25. Romania’s was the only revolution of 1989 with heavy bloodshed: more than a thousand people died.",
+        "text": "The last of the revolutions of 1989 was the bloodiest. In Romania, Nicolae Ceaușescu had ruled for twenty-four years, and the country was poor, hungry, and watched by the secret police. In December, protests broke out in the city of Timișoara, and the army fired on the crowds. On December 21, Ceaușescu spoke to a large rally he had organized in front of the Central Committee building in Bucharest. The crowd began to boo him, live on television, and he stood on the balcony looking confused. The next day he fled by helicopter. He and his wife, Elena, were caught, tried by a hasty military court, and shot on December 25. More than a thousand people were killed in the revolution.",
         "lat": 44.4396,
         "lon": 26.0968,
         "zoom": 13.5,
         "stories": [
           "6oj6a6CZDZvKKqKHtVhzpd",
           "5xzbJSutEhUh53ZBV1u0ck",
-          "xQ3g8Ja3wsY39s08FuMiD",
-          "415FvPVn29SlfrFwcB2Ck7"
+          "xQ3g8Ja3wsY39s08FuMiD"
         ],
-        "image": "PSL during the Romanian Revolution of 1989.jpg"
+        "image": "PSL during the Romanian Revolution of 1989.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Romania’s revolution.",
+          "items": [
+            "A documentary episode tells how Ceaușescu went from a leader courted by the West to a hated despot.",
+            "A podcast episode hears from a Reuters correspondent who reported from the streets.",
+            "And The Paper Will Be Blue, a Romanian film, follows one night of the revolution in real time."
+          ]
+        },
+        "short": "Ceaușescu’s fall"
       }
     ],
     "image": "Berlin 1989, Fall der Mauer, Chute du mur 10.jpg"
