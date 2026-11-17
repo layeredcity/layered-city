@@ -7979,8 +7979,8 @@
     "title": "Going underground",
     "dates": "1863–today",
     "intro": [
-      "London opened the first underground railway in 1863, with steam engines in shallow tunnels. Budapest and Glasgow followed, then Paris, and by the end of the twentieth century almost every big European city had one.",
-      "This thread rides through some of the oldest and strangest of them."
+      "London opened the world’s first underground railway in 1863, with steam engines in shallow tunnels. Budapest and Glasgow followed, then Paris, and by the end of the 20th century almost every big European city had one.",
+      "This thread rides through some of the oldest and strangest of them, and ends in a city that is still waiting for its first line."
     ],
     "chapters": [
       {
@@ -7988,24 +7988,32 @@
         "place": "Edgware Road, London",
         "when": "1863",
         "heading": "The first",
-        "text": "The Metropolitan Railway opened in January 1863 between Paddington and Farringdon, through Edgware Road and Baker Street. Steam trains ran in shallow trenches roofed over under the street. Some stations later closed and are now used for filming.",
+        "text": "By the 1850s, London’s streets were jammed with horses, carts, and omnibuses, and the main railway stations stood on the edges of the city. A lawyer named Charles Pearson pushed for a railway under the streets to link them. The Metropolitan Railway opened in January 1863, running between Paddington and Farringdon by way of Baker Street. It was built by digging a deep trench along the road, laying the tracks, and roofing it over. The trains were pulled by steam engines, so the tunnels filled with smoke, but passengers came in huge numbers. The network grew into the Tube. Some stations later closed, and a few, such as Aldwych, are now used for filming.",
         "lat": 51.5232,
         "lon": -0.1569,
         "zoom": 14,
         "stories": [
           "5HJY3y9N0JKDMaGetnxGkN",
           "1M32dclPqGtpBMg8LPXcGk",
-          "18PewsU4ukaGcZFtxfmfD1",
-          "5a1c7PxW0BHOdiPhqgq6ue"
+          "18PewsU4ukaGcZFtxfmfD1"
         ],
-        "image": "Constructing the Metropolitan Railway.png"
+        "image": "Constructing the Metropolitan Railway.png",
+        "mediaNote": {
+          "lead": "Here are three ways into the oldest underground railway.",
+          "items": [
+            "Underground, Overground, by Andrew Martin, is a funny, nerdy history of the Tube.",
+            "A short video meets a signal operator who has worked at Edgware Road since 1963.",
+            "And another tours Aldwych, a station that closed in 1994."
+          ]
+        },
+        "short": "The first"
       },
       {
         "city": "Budapest",
         "place": "Andrássy út, Budapest",
         "when": "1896",
         "heading": "The first on the Continent",
-        "text": "Budapest opened the first underground railway in continental Europe in 1896, for the celebration of Hungary’s thousandth year. Its little yellow trains still run just under Andrássy Avenue to Heroes’ Square.",
+        "text": "The first underground railway on the European continent opened in Budapest in 1896. The city was celebrating a thousand years since the Magyars arrived in Hungary. It wanted to carry visitors along Andrássy Avenue, its grand new boulevard, out to the City Park, without spoiling the street with tracks. The line was dug just under the road surface. Its stations are so shallow that you step down a few stairs from the sidewalk. Its little yellow trains still run, as Line 1, to Heroes’ Square.",
         "lat": 47.5142,
         "lon": 19.077,
         "zoom": 14,
@@ -8013,28 +8021,42 @@
           "2Qk8p4wOtlKNNb7DKd02c6",
           "6cwOtsse9pPMEpDMrwjStp"
         ],
-        "image": "Földalatti Budapest - Vörösmarty tér M1.jpg"
+        "image": "Földalatti Budapest - Vörösmarty tér M1.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the Budapest metro.",
+          "items": [
+            "A walking tour starts outside a metro station at Heroes’ Square and ends at a thermal bath.",
+            "And Kontroll, a dark comedy thriller shot entirely in the real Budapest metro, follows a crew of ticket inspectors."
+          ]
+        },
+        "short": "Budapest"
       },
       {
         "city": "Glasgow",
         "place": "St. Enoch, Glasgow",
         "when": "1896",
         "heading": "The Clockwork Orange",
-        "text": "Glasgow’s subway opened at the end of 1896, the third in the world. It is still one loop of fifteen stations under both banks of the Clyde, with trains so small they are known as the Clockwork Orange.",
+        "text": "Glasgow opened its subway at the end of 1896, the third underground railway in the world. It is a single loop of fifteen stations, running under both banks of the River Clyde. At first the trains were pulled by a steel cable that ran constantly around the loop, powered by a steam engine, and it was electrified only in 1935. The tunnels are narrow, so the trains are unusually small. Since they were painted orange in the 1970s, Glaswegians have called the system the Clockwork Orange. Its two lines run in opposite directions, and they are called simply the Inner Circle and the Outer Circle.",
         "lat": 55.8571,
         "lon": -4.2559,
         "zoom": 14,
         "stories": [
           "3jpuFfEYmazd093HFsncz6"
         ],
-        "image": "Subway train at Buchanan Street, Glasgow - DSC06203.JPG"
+        "image": "Subway train at Buchanan Street, Glasgow - DSC06203.JPG",
+        "mediaNote": {
+          "items": [
+            "For a ride around the loop, there is a video by a transport filmmaker about the world’s third-oldest underground."
+          ]
+        },
+        "short": "The Clockwork Orange"
       },
       {
         "city": "Paris",
         "place": "Châtelet, Paris",
         "when": "1900",
         "heading": "The Métro",
-        "text": "Paris argued for decades about whether its railway should run above or below the street. The first Métro line opened underground in July 1900, in time for the World’s Fair, with Hector Guimard’s green iron entrances.",
+        "text": "Paris argued for decades about its railway. Some wanted it to run on viaducts above the streets, and there was outrage over a plan to run an elevated line past the opera house. In the end it went underground. The first Métro line opened in July 1900, in time for the World’s Fair, running from Porte de Vincennes to Porte Maillot. Hector Guimard, an Art Nouveau architect, designed its entrances, green cast-iron frames that look like plants growing out of the sidewalk. Dozens of them survive. The Métro grew quickly, and in 1967 Jean-Pierre Melville used its tunnels for the long chase in his crime film Le Samouraï.",
         "lat": 48.8733,
         "lon": 2.3312,
         "zoom": 14,
@@ -8043,14 +8065,23 @@
           "5tXHy7vMXml8tBNPiz59f5",
           "4lT5XgXZ4BqJV1IY8y6vvs"
         ],
-        "image": "Travaux du métro. Station gare de Lyon, vue prise en bas, 12ème arrondissement, Paris. 6 avril 1900. PH16949.jpg"
+        "image": "Travaux du métro. Station gare de Lyon, vue prise en bas, 12ème arrondissement, Paris. 6 avril 1900. PH16949.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the Paris Métro.",
+          "items": [
+            "A video tells the story of the debate over whether the railway should run above or below the streets.",
+            "Le Samouraï, with Alain Delon as a hitman, has a long chase through the Métro.",
+            "And a short video looks at Guimard’s entrance at Porte Dauphine."
+          ]
+        },
+        "short": "The Métro"
       },
       {
         "city": "Madrid",
         "place": "Madrid and Barcelona",
         "when": "1919–1924",
         "heading": "Spain goes underground",
-        "text": "Madrid’s first line opened in 1919. Its Chamberí station closed in 1966 when platforms had to be lengthened, and it is now a museum you see from passing trains. Barcelona followed in 1924 with a line from Plaça de Catalunya.",
+        "text": "Spain’s first metro opened in Madrid in 1919, with a line under the center from Sol, the city’s main square, to Cuatro Caminos. One of its stations, Chamberí, closed in 1966, because its platforms were too short and too curved for longer trains. It was left as it was, with its tiled advertisements, and it is now a small museum. From Line 1 you can still see it flash past the window. Barcelona followed in 1924, with a line from Plaça de Catalunya up to Lesseps.",
         "lat": 40.4323,
         "lon": -3.6977,
         "zoom": 14,
@@ -8070,14 +8101,23 @@
             "lat": 41.3863,
             "lon": 2.17
           }
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are two ways into Spain’s first metros.",
+          "items": [
+            "A short video tours Chamberí, the ghost station of the Madrid metro.",
+            "And a podcast episode covers the history of Barcelona’s tunnels, a century after the first line opened."
+          ]
+        },
+        "short": "Spain goes underground",
+        "shortPlace": "Madrid"
       },
       {
         "city": "Stockholm",
         "place": "T-Centralen, Stockholm",
         "when": "1950",
         "heading": "Painted caves",
-        "text": "Stockholm’s tunnelbana opened in 1950. Many stations were blasted into bedrock and left rough, then painted by artists, and parts of the system were built to double as shelters in a nuclear war.",
+        "text": "Stockholm opened its tunnelbana in 1950. The city is built on hard granite, and many of its later stations were blasted out of the bedrock and left rough, like caves. From the 1950s the city invited artists to decorate them, and today more than ninety stations have paintings, sculptures, or installations. It is sometimes called the world’s longest art gallery. During the Cold War, parts of the system, like many basements in the city, were also built to serve as shelters in a nuclear war.",
         "lat": 59.3313,
         "lon": 18.0598,
         "zoom": 14,
@@ -8085,14 +8125,22 @@
           "3xRB8vxLbk8cSUC9va7zFc",
           "77hlOwM5lpko9wMYageIxZ"
         ],
-        "image": "Sth-Metro-Kungstradgarden-5-Summer-2010.jpg"
+        "image": "Sth-Metro-Kungstradgarden-5-Summer-2010.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Stockholm underground.",
+          "items": [
+            "A short video points out the small jokes and details built into the metro.",
+            "And a podcast episode follows the hosts’ discovery of a Cold War shelter in their own basement, and why the city built so many."
+          ]
+        },
+        "short": "Painted caves"
       },
       {
         "city": "Rome",
         "place": "Rome and Istanbul",
         "when": "2004–today",
         "heading": "Digging through history",
-        "text": "New lines in old cities turn into archaeology. In Istanbul, digging for the Marmaray tunnel uncovered a Byzantine harbor with dozens of wrecked ships. In Rome, the stations of Metro C near the Colosseum display what was found on the way down.",
+        "text": "Building a new metro in an old city is slow, because every tunnel turns into an archaeological dig. In Istanbul, digging for the Marmaray rail tunnel at Yenikapı uncovered the Harbor of Theodosius, a Byzantine port that had silted up. In its mud lay the wrecks of dozens of ships from the 400s to the 1000s. It held up the project for years, and it changed what historians know about Byzantine shipbuilding. In Rome, the new Metro C line passes under the historic center. Its new stations display what was found on the way down, from Roman walls to a soldiers’ barracks.",
         "lat": 41.8913,
         "lon": 12.4906,
         "zoom": 14,
@@ -8112,21 +8160,36 @@
             "lat": 41.0045,
             "lon": 28.9506
           }
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are two digs under modern cities.",
+          "items": [
+            "An archaeologist tours Rome’s new Metro C stations and the finds displayed in them.",
+            "And nautical archaeologists explain the Byzantine harbor and ships found under Istanbul."
+          ]
+        },
+        "short": "Digging through history",
+        "shortPlace": "Rome and Istanbul"
       },
       {
         "city": "Belgrade",
         "place": "Vukov Spomenik, Belgrade",
         "when": "still waiting",
         "heading": "No metro yet",
-        "text": "Belgrade has planned a metro since the 1920s and is one of the biggest cities in Europe without one. The closest thing is Vukov Spomenik, a deep station on the city railway that opened in 1995.",
+        "text": "The last stop has no metro at all. Belgrade, a city of well over a million people, has been planning one since the 1920s, and it is one of the largest cities in Europe without one. Plans were drawn up again and again, and then shelved by wars, crises, and changes of government. The closest thing the city has is Vukov Spomenik, a deep underground station on the commuter railway, which opened in 1995. Work on a real metro began in the 2020s.",
         "lat": 44.8053,
         "lon": 20.4776,
         "zoom": 14,
         "stories": [
           "1mFdSBR1ANxRiLwsFKQlLQ"
         ],
-        "image": "Vukov spomenik Beovoz envi.png"
+        "image": "Vukov spomenik Beovoz envi.png",
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is a video about the capital still waiting for its metro."
+          ]
+        },
+        "short": "No metro yet"
       }
     ],
     "image": "Kungsträdgården T-bana Metro station in Stockholm Sweden.png"
@@ -8137,8 +8200,8 @@
     "title": "Art Nouveau",
     "dates": "1893–1914",
     "intro": [
-      "Around 1900, architects and designers in a dozen cities turned against historical styles and tried something new: curving iron, plant forms, tiles, glass, and furniture designed to match the building. It had a different name nearly everywhere it went: Art Nouveau, Modernisme, Secession, Jugendstil, Liberty.",
-      "It lasted about twenty years, until the First World War, and much of it is still standing."
+      "Around 1900, architects and designers in a dozen cities turned against the old historical styles and tried something new: curving iron, plant forms, tiles, glass, and furniture designed to match the building. It had a different name nearly everywhere it went: Art Nouveau, Modernisme, Secession, Jugendstil, Liberty.",
+      "This thread starts in Brussels, where it began, and ends in Prague. The style lasted only about twenty years, until the First World War, but much of it is still standing."
     ],
     "chapters": [
       {
@@ -8146,7 +8209,7 @@
         "place": "Hôtel Tassel, Brussels",
         "when": "1893",
         "heading": "Where it began",
-        "text": "Victor Horta’s Hôtel Tassel, a townhouse for a professor, is usually called the first Art Nouveau building: iron columns that branch like stems, and lines painted on the walls that carry on the curves. Horta’s own house and studio nearby is now his museum.",
+        "text": "Art Nouveau began in Brussels, in a townhouse for a professor. In 1893 the architect Victor Horta designed the Hôtel Tassel, on a quiet street south of the center. Inside, iron columns branch at the top like plant stems, and curving lines painted on the walls and set into the mosaic floors carry the shapes around the rooms. It is usually called the first Art Nouveau building. Horta went on to design houses for wealthy clients across the city, each one different, and he designed every detail, down to the door handles. His own house and studio, a few streets away, is now the Horta Museum.",
         "lat": 50.8277,
         "lon": 4.3628,
         "zoom": 14.5,
@@ -8155,14 +8218,23 @@
           "6A894zKyU3fjGXF1x3rSPE",
           "1nfujYXVzEgqu8Bkoc3XKj"
         ],
-        "image": "Tassel House stairway.JPG"
+        "image": "Tassel House stairway.JPG",
+        "mediaNote": {
+          "lead": "Here are three ways into Horta’s Brussels.",
+          "items": [
+            "A short film explains how his town houses launched Art Nouveau architecture.",
+            "In another, an art historian talks with the director of the Horta Museum about the architect and his city.",
+            "And a walking tour passes the Hôtel Tassel and other treasures of the district."
+          ]
+        },
+        "short": "Hôtel Tassel"
       },
       {
         "city": "Glasgow",
         "place": "Glasgow School of Art and Sauchiehall Street, Glasgow",
         "when": "1897–1909",
         "heading": "Mackintosh’s Glasgow",
-        "text": "Charles Rennie Mackintosh designed the Glasgow School of Art and, with Margaret Macdonald, the Willow Tea Rooms for Kate Cranston, down to the chairs and cutlery. The art school burned in 2014 and again in 2018. The tea rooms have been restored and serve tea again.",
+        "text": "In Glasgow, Charles Rennie Mackintosh developed his own version of the style, lighter and more geometric. He worked closely with his wife, the artist Margaret Macdonald, who designed panels and decoration for their interiors. His great building was the Glasgow School of Art, built between 1897 and 1909. For Kate Cranston, a businesswoman who ran a chain of tea rooms, he and Macdonald designed the Willow Tea Rooms on Sauchiehall Street, down to the chairs, menus, and cutlery. The art school was gutted by fire in 2014 and again in 2018. The tea rooms have been restored, and they serve tea again.",
         "lat": 55.8664,
         "lon": -4.2637,
         "zoom": 14,
@@ -8172,14 +8244,24 @@
           "54eZ37S1lckewP7qyr9XSl",
           "1yZ6iDXb1tk8oaASBs6YsD"
         ],
-        "image": "Willow Tea Rooms, Glasgow.jpg"
+        "image": "Willow Tea Rooms, Glasgow.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Mackintosh’s Glasgow.",
+          "items": [
+            "A short film shows how the Willow Tea Rooms were restored.",
+            "A podcast episode tells the story of the art school, and how it burned twice.",
+            "Another tells the story of Margaret Macdonald, whom Mackintosh called three-quarters of his work.",
+            "And Charles Rennie Mackintosh, by Alan Crawford, is a compact illustrated life."
+          ]
+        },
+        "short": "Mackintosh"
       },
       {
         "city": "Paris",
         "place": "Porte Dauphine, Paris",
         "when": "1900",
         "heading": "The Métro entrances",
-        "text": "For the new Métro, Hector Guimard designed cast-iron entrances that look like plants growing out of the sidewalk. Parisians called the whole style “style Métro.” Porte Dauphine and Abbesses keep the rare versions with glass canopies.",
+        "text": "In Paris, the style’s best-known champion was Hector Guimard. In the late 1890s he built Castel Béranger, an apartment building in the 16th arrondissement, full of twisting ironwork. When the city built its first Métro line in 1900, Guimard designed its entrances: green cast-iron frames that grow out of the sidewalk like plants, with lamps like buds. Some Parisians found them strange, and the whole style was nicknamed style Métro. A few entrances, such as Porte Dauphine and Abbesses, keep his rare glass canopies.",
         "lat": 48.8714,
         "lon": 2.2766,
         "zoom": 13.5,
@@ -8187,46 +8269,69 @@
           "4lT5XgXZ4BqJV1IY8y6vvs",
           "4jzD6HGajYjIWo3fs5pvN"
         ],
-        "image": "Metro Abbesses, 29 September 2013.jpg"
+        "image": "Metro Abbesses, 29 September 2013.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Guimard’s Paris.",
+          "items": [
+            "A short video looks at the Métro entrance at Porte Dauphine.",
+            "And a walking tour of the 16th arrondissement starts at Castel Béranger, the birthplace of Parisian Art Nouveau."
+          ]
+        },
+        "short": "Guimard"
       },
       {
         "city": "Barcelona",
         "place": "Passeig de Gràcia, Barcelona",
         "when": "1904–1910",
         "heading": "Modernisme",
-        "text": "In Barcelona the style became Modernisme and a statement of Catalan identity. On one block of Passeig de Gràcia, rival architects built houses side by side, including Gaudí’s Casa Batlló. Lluís Domènech i Montaner’s Palau de la Música, all glass and mosaic, opened in 1908.",
+        "text": "In Barcelona, the style was called Modernisme, and it became a statement of Catalan pride. The city was growing fast into the Eixample, a new grid of streets, and rich families competed to build the most striking houses on its main avenue, the Passeig de Gràcia. On one block, three rival architects built side by side, among them Antoni Gaudí, whose Casa Batlló has a roof like a dragon’s back and balconies like masks. Another of them, Lluís Domènech i Montaner, built the Palau de la Música Catalana, a concert hall of glass and mosaic under a great stained-glass skylight, which opened in 1908.",
         "lat": 41.3916,
         "lon": 2.1649,
         "zoom": 14,
         "stories": [
           "5PSunoMpOqQlIv8WOnEvNh",
           "6Qv30li7M7XckmGDdFIwI1",
-          "57GyulusWePZCPHae5EBuX",
           "4qCDo9xyn2qBHTUnsN0dSm",
           "2SujrmVfCMbhO9pPZPUP1O"
         ],
-        "image": "Casa Batlló 01.jpg"
+        "image": "Casa Batlló 01.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Modernisme.",
+          "items": [
+            "A short video walks the block where rival architects lined up their showpieces.",
+            "A podcast episode looks at Domènech i Montaner and his concert hall.",
+            "Another follows Gaudí from his childhood to his first major commission.",
+            "And an architecture historian’s walk traces the city’s Modernista golden age."
+          ]
+        },
+        "short": "Modernisme"
       },
       {
         "city": "Milan",
         "place": "Corso Venezia, Milan",
         "when": "1900s",
         "heading": "Liberty",
-        "text": "Italians called it stile Liberty, after the London shop that sold the new designs. Milan’s wealthiest examples are around Porta Venezia, including Palazzo Castiglioni, whose stone nudes over the door upset the neighbors enough that they were moved.",
+        "text": "In Italy, the style was called stile Liberty, after Liberty & Co., the London shop that sold the new designs. In Milan, the richest examples are in the streets around Porta Venezia, the old eastern gate. The grandest is Palazzo Castiglioni, finished in 1904 on Corso Venezia for a wealthy engineer. Its entrance was flanked by two large stone nudes, and the neighbors were so offended that the statues were moved to another building. The Milanese still joke about it.",
         "lat": 45.4718,
         "lon": 9.2012,
         "zoom": 14.5,
         "stories": [
           "3hnV68D2cFLHZm0unuO4MK"
         ],
-        "image": "9028 - Milano, C.so Venezia - Giuseppe Sommaruga, Pal. Castiglioni (1904) - Foto Giovanni Dall'Orto 22-Apr-2007.jpg"
+        "image": "9028 - Milano, C.so Venezia - Giuseppe Sommaruga, Pal. Castiglioni (1904) - Foto Giovanni Dall'Orto 22-Apr-2007.jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a podcast episode from Milan’s house museums about Liberty in the Porta Venezia district."
+          ]
+        },
+        "short": "Liberty"
       },
       {
         "city": "Vienna",
         "place": "Secession building, Vienna",
         "when": "1897–1908",
         "heading": "The Secession",
-        "text": "In 1897 Gustav Klimt and other artists left Vienna’s official academy and built their own exhibition hall, with a dome of gilded laurel leaves and the motto “To every age its art, to art its freedom.” Klimt’s Beethoven Frieze is in its basement. The Kiss, from 1908, is at the Belvedere.",
+        "text": "In Vienna, in 1897, a group of young artists led by the painter Gustav Klimt broke away from the city’s official artists’ association, which they found stuffy and conservative. They called themselves the Secession. A year later they built their own exhibition hall, with a dome of gilded bronze laurel leaves and, over the door, the motto “To every age its art, to art its freedom.” For an exhibition in honor of Beethoven in 1902, Klimt painted a long frieze about humanity’s search for happiness. It is still in the building’s basement. His painting The Kiss, from 1908, covered in gold leaf, hangs in the Belvedere.",
         "lat": 48.2006,
         "lon": 16.3656,
         "zoom": 14.5,
@@ -8235,23 +8340,39 @@
           "3vrDyUFotSOBThiZ4S3gC5",
           "4S8YmEiNzAp3NCNIxd0irI"
         ],
-        "image": "Wiener Secessionsgebäude Kuppel 20230811.jpg"
+        "image": "Wiener Secessionsgebäude Kuppel 20230811.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Klimt’s Vienna.",
+          "items": [
+            "A BBC discussion explains how the Secession broke away to reinvent art.",
+            "A short video looks at the Beethoven Frieze.",
+            "And Great Art Explained looks at The Kiss."
+          ]
+        },
+        "short": "The Secession"
       },
       {
         "city": "Prague",
         "place": "Municipal House, Prague",
         "when": "1912",
         "heading": "Mucha comes home",
-        "text": "Alphonse Mucha made his name in Paris with posters of Sarah Bernhardt. Back in Prague he decorated the Lord Mayor’s Hall in the Municipal House, the city’s showpiece concert hall and café, finished in 1912. Two years later the war ended the style almost everywhere.",
+        "text": "Alphonse Mucha, a Czech artist, made his name in Paris in the 1890s with posters for the actress Sarah Bernhardt. Full of flowing hair and flowers, they became defining images of Art Nouveau. In 1910 he came home to Prague, wanting his art to serve the Czech nation. He decorated the Lord Mayor’s Hall in the Municipal House, the city’s new concert hall and civic center, which opened in 1912. Two years later, the First World War ended the style almost everywhere. After the war, Mucha designed the first banknotes and stamps of independent Czechoslovakia.",
         "lat": 50.087,
         "lon": 14.428,
         "zoom": 14.5,
         "stories": [
           "5seUtwcnsnLQdEZMs47hsZ",
-          "4dsJbIRoMbSNgsgHz4QCBA",
           "5FHbhnCOalmoHJB6g2xdSJ"
         ],
-        "image": "Casa municipal, Praga, República Checa, 2022-07-02, DD 09.jpg"
+        "image": "Casa municipal, Praga, República Checa, 2022-07-02, DD 09.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Art Nouveau Prague.",
+          "items": [
+            "A short video visits the Mucha Museum.",
+            "And a walk through the New Town takes in Art Nouveau buildings and elegant cafés."
+          ]
+        },
+        "short": "Mucha"
       }
     ],
     "image": "Paris Metro 2 Porte Dauphine Libellule.JPG"
@@ -8262,8 +8383,8 @@
     "title": "World’s fairs",
     "dates": "1888–2015",
     "intro": [
-      "For a century, cities staged world’s fairs to show off: new technology, new architecture, and themselves. Many of the buildings were meant to be temporary, and some of the best known are still standing.",
-      "The stops run in date order."
+      "For a century, cities staged world’s fairs to show off new technology, new architecture, and themselves. Many of the buildings were meant to be temporary, and some of the best known are still standing.",
+      "The stops run in date order, from Barcelona in 1888 to Milan in 2015."
     ],
     "chapters": [
       {
@@ -8271,94 +8392,132 @@
         "place": "Ciutadella Park, Barcelona",
         "when": "1888",
         "heading": "Barcelona’s first fair",
-        "text": "Barcelona held a universal exhibition in 1888 on the site of a hated military citadel, which became Ciutadella Park. Eduardo Mendoza’s novel City of Marvels is set in the city that grew around it.",
+        "text": "The first great world’s fair was held in London in 1851, in the Crystal Palace, and other cities soon wanted their own. Barcelona held its Universal Exhibition in 1888, on the site of the Ciutadella, a fortress built by the Spanish king to control the city after he conquered it in 1714. The citadel was hated, and when it was torn down, its grounds became a park. The fair left behind a brick triumphal arch, the Arc de Triomf, and a park full of buildings that still stand. The novelist Eduardo Mendoza set his City of Marvels in the booming city between this fair and the next one, in 1929.",
         "lat": 41.388,
         "lon": 2.186,
         "zoom": 14,
         "stories": [
           "6SrCqAs6jNEIgmbD2oxPWy"
         ],
-        "image": "Barcelona arc de triomf lamp.jpg"
+        "image": "Barcelona arc de triomf lamp.jpg",
+        "mediaNote": {
+          "items": [
+            "If you want to read it, City of Marvels is a great comic novel about a poor boy who rises with the city."
+          ]
+        },
+        "short": "Barcelona, 1888"
       },
       {
         "city": "Paris",
         "place": "Eiffel Tower and Trocadéro, Paris",
         "when": "1889, 1900, 1937",
         "heading": "Paris three times",
-        "text": "Paris built the Eiffel Tower as the entrance to the 1889 fair, and it was meant to come down after twenty years. The 1900 fair brought the first Métro line. At the 1937 fair the Soviet and German pavilions faced each other, and Picasso’s Guernica hung in the Spanish one.",
+        "text": "Paris held five world’s fairs, and each left something behind. For the fair of 1889, a hundred years after the French Revolution, the engineer Gustave Eiffel’s company built an iron tower three hundred meters tall as its entrance. Many artists protested that it was ugly. It was meant to come down after twenty years, but it was kept, partly because it was useful as a radio antenna. The fair of 1900 brought the first Métro line and the Grand Palais. At the fair of 1937, the pavilions of Nazi Germany and the Soviet Union faced each other across the Trocadéro, and Picasso’s Guernica hung in the pavilion of the Spanish Republic.",
         "lat": 48.8584,
         "lon": 2.2945,
         "zoom": 13,
         "stories": [
           "24OZbqutN9DqH5bbLysJ3p",
           "4RQJMBWDy3N1s7H8FWCVqI",
-          "6zduJ2BrbCCqdm9CEOnNqM",
-          "4qkuZ3hJ243BtYVUiTdzg7"
+          "6zduJ2BrbCCqdm9CEOnNqM"
         ],
-        "image": "Eiffel tower at Exposition Universelle, Paris, 1889.jpg"
+        "image": "Eiffel tower at Exposition Universelle, Paris, 1889.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the Paris fairs.",
+          "items": [
+            "A video explains how the Eiffel Tower was built, and why it was meant to be temporary.",
+            "Paris 1900, a documentary made from archive film, shows the city from the 1900 fair to the war.",
+            "And a short newsreel shows the 1937 fair at the Trocadéro."
+          ]
+        },
+        "short": "Paris"
       },
       {
         "city": "Seville",
         "place": "Plaza de España, Seville",
         "when": "1929",
         "heading": "The Ibero-American Exposition",
-        "text": "Seville’s 1929 fair was for Spain and its former American colonies. Its centrepiece, the semicircular Plaza de España with a tiled bench for every province, is now one of the city’s best-known sights.",
+        "text": "In 1929 Seville held the Ibero-American Exposition, to celebrate Spain’s ties with its former colonies in the Americas. The architect Aníbal González built its centerpiece, the Plaza de España, a huge semicircle of brick buildings around a canal crossed by tiled bridges. Along its base runs a bench with an alcove for each of Spain’s provinces, decorated with tiles showing its map and a scene from its history. The fair itself was a financial failure, overtaken by the Wall Street crash, but the plaza is now one of the best-known sights in the city.",
         "lat": 37.377,
         "lon": -5.987,
         "zoom": 14,
         "stories": [
           "2xvjHN9pqOlzD6dMBzrXZa"
         ],
-        "image": "Sevilla - Plaza de España - 3.jpg"
+        "image": "Sevilla - Plaza de España - 3.jpg",
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a tour that circles the plaza bench by bench, reading the tiled panels."
+          ]
+        },
+        "short": "Plaza de España"
       },
       {
         "city": "Barcelona",
         "place": "Montjuïc, Barcelona",
         "when": "1929",
         "heading": "Mies’s pavilion",
-        "text": "For the 1929 fair on Montjuïc, Mies van der Rohe built the German pavilion: marble, glass, steel, and almost nothing else. It was taken down after the fair and rebuilt on the same site in 1986.",
+        "text": "That same year, Barcelona held its second world’s fair, on the hill of Montjuïc. Most of the buildings were grand and old-fashioned. The German pavilion, designed by Ludwig Mies van der Rohe, was the opposite: a low, flat roof floating over walls of marble, onyx, and glass. There was almost nothing inside except a pair of chairs he designed for the king and queen of Spain. It was taken down after the fair. But photographs of it made it one of the most influential buildings of the century, and in 1986 it was rebuilt on the same site.",
         "lat": 41.371,
         "lon": 2.15,
         "zoom": 14,
         "stories": [
           "6jzTlimwf4h3NMt8nHIyii"
         ],
-        "image": "Barcelona Pavilion pool.JPG"
+        "image": "Barcelona Pavilion pool.JPG",
+        "mediaNote": {
+          "items": [
+            "For more, there is a video about how a temporary pavilion was torn down and then rebuilt as a legend."
+          ]
+        },
+        "short": "Mies’s pavilion"
       },
       {
         "city": "Glasgow",
         "place": "Bellahouston Park, Glasgow",
         "when": "1938",
         "heading": "The Empire Exhibition",
-        "text": "Glasgow’s 1938 Empire Exhibition filled Bellahouston Park with modernist pavilions and a 90-meter tower. Twelve million people came. Little of it was kept.",
+        "text": "In 1938, Glasgow held the Empire Exhibition in Bellahouston Park, on the south side of the city, to lift spirits after the Depression and show off Scotland’s industry. It was a showcase of modern architecture, with white pavilions and a 90-meter tower on a hill, designed by the architect Thomas Tait. Nearly thirteen million people came, despite one of the wettest summers on record. A year later the Second World War began, and almost all of it was taken down. Only a few buildings survive.",
         "lat": 55.849,
         "lon": -4.316,
         "zoom": 13.5,
         "stories": [
           "2D1GHsr8gXDRyD3CKIzsqH"
         ],
-        "image": "1938 Empire Exhibition view west along Scottish Avenue.jpg"
+        "image": "1938 Empire Exhibition view west along Scottish Avenue.jpg",
+        "mediaNote": {
+          "items": [
+            "For a short history, there is a podcast episode about the modernist world’s fair in a south side park."
+          ]
+        },
+        "short": "The Empire Exhibition"
       },
       {
         "city": "Rome",
         "place": "EUR, Rome",
         "when": "1942 (canceled)",
         "heading": "The fair that never opened",
-        "text": "Mussolini planned a world’s fair for 1942 to mark twenty years of Fascism, and began a new district south of Rome for it. The war stopped it, and the district, EUR, was finished after the war.",
+        "text": "Mussolini planned a world’s fair in Rome for 1942, to mark twenty years of Fascist rule. He began a whole new district for it on open land south of the city, with wide avenues and monumental buildings of white marble and travertine. Its best-known building is the Palace of Italian Civilization, a cube of stacked arches nicknamed the Square Colosseum. The Second World War stopped the fair, and it never opened. After the war, the district was finished as a business and government quarter. It is called EUR, after the initials of the exposition.",
         "lat": 41.837,
         "lon": 12.465,
         "zoom": 13,
         "stories": [
           "xzCybmyxdr0Zyj7ri0Udr"
         ],
-        "image": "Palazzo della civiltà del lavoro (EUR, Rome) (5904657870).jpg"
+        "image": "Palazzo della civiltà del lavoro (EUR, Rome) (5904657870).jpg",
+        "mediaNote": {
+          "items": [
+            "For the bigger story, there is Mussolini’s Rome, by Borden Painter, about how the dictator rebuilt the city to look like an empire."
+          ]
+        },
+        "short": "EUR"
       },
       {
         "city": "Brussels",
         "place": "Atomium, Brussels",
         "when": "1958",
         "heading": "The Atomium",
-        "text": "Brussels’ 1958 fair, the first after the war, was about the peaceful atom. Its symbol, a 102-meter model of an iron crystal, was supposed to be dismantled afterward and is still there.",
+        "text": "In 1958, Brussels held the first world’s fair after the Second World War. Its theme was the peaceful use of science, especially atomic energy. Its symbol was the Atomium, a model of an iron crystal magnified 165 billion times. Its nine steel spheres, joined by tubes with escalators inside, stand 102 meters high on the Heysel plateau, north of the center. It was meant to stand for six months. It became the most famous landmark in Belgium, and it is still there.",
         "lat": 50.895,
         "lon": 4.341,
         "zoom": 13.5,
@@ -8367,21 +8526,37 @@
           "GVt52QtV34SFZt0Q2B8wj",
           "4h0Oqbg13QdBuZYO2kbjO6"
         ],
-        "image": "Atomium, Bruselas, Bélgica, 2021-12-15, DD 163-165 HDR.jpg"
+        "image": "Atomium, Bruselas, Bélgica, 2021-12-15, DD 163-165 HDR.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Expo 58.",
+          "items": [
+            "A newsreel shows the fair and its promise of a bright atomic future.",
+            "A podcast episode tells how the Atomium was built, and why it never left.",
+            "And Expo 58, by Jonathan Coe, is a gentle, funny spy novel set at the fair."
+          ]
+        },
+        "short": "The Atomium"
       },
       {
         "city": "Milan",
         "place": "Rho, Milan",
         "when": "2015",
         "heading": "Feeding the planet",
-        "text": "Milan’s Expo 2015 was about food. The site, outside the city at Rho, is being turned into a science and research district.",
+        "text": "The last stop is in Milan. In 2015 it held a world’s fair on the theme Feeding the Planet, Energy for Life, about food, farming, and hunger. It was built on a new site at Rho, on the city’s northwest edge, and more than twenty million people visited its national pavilions. After it closed, most of the pavilions were taken down, and the site is being turned into a district for science, research, and a university campus.",
         "lat": 45.52,
         "lon": 9.094,
         "zoom": 12.5,
         "stories": [
           "3VDvKTCaSphm7X8Ya5LFUm"
         ],
-        "image": "Expo Milano 2015 - Decumano.jpg"
+        "image": "Expo Milano 2015 - Decumano.jpg",
+        "mediaNote": {
+          "items": [
+            "For a tour, there is a video from the fair about feeding the planet."
+          ]
+        },
+        "short": "Expo 2015",
+        "shortPlace": "Rho"
       }
     ],
     "image": "L'Exposition universelle de Paris, 1889.jpg"
@@ -8392,8 +8567,8 @@
     "title": "Socialist cities",
     "dates": "1919–1989",
     "intro": [
-      "Socialist governments wanted to build new kinds of cities: workers’ housing with courtyards and kindergartens, wide avenues for parades, towers to show who was in charge. Red Vienna did it by vote in the 1920s. After 1945 the communist states did it on a much bigger scale.",
-      "This thread follows the buildings, from public housing to Ceaușescu’s palace."
+      "Socialist governments wanted to build new kinds of cities: workers’ housing with courtyards and kindergartens, wide avenues for parades, and towers to show who was in charge. Red Vienna did it by vote in the 1920s. After 1945, the communist states of Eastern Europe did it on a much bigger scale.",
+      "This thread follows the buildings, from Vienna’s public housing to Ceaușescu’s palace in Bucharest."
     ],
     "chapters": [
       {
@@ -8401,7 +8576,7 @@
         "place": "Karl-Marx-Hof, Vienna",
         "when": "1919–1934",
         "heading": "Red Vienna",
-        "text": "Vienna’s Social Democrats built tens of thousands of public apartments in the 1920s, paid for by new taxes on luxuries. The Karl-Marx-Hof is a kilometer long, with laundries, baths, and kindergartens. The city still owns its apartments and still builds more.",
+        "text": "After the First World War, Vienna was a city of terrible housing, with families crowded into damp rooms. In 1919 the Social Democrats won control of the city government, and they set out to change it. Paid for by new taxes on luxuries such as servants, cars, and horses, they built more than 60,000 public apartments in fifteen years. The buildings had light and running water, and shared courtyards, laundries, baths, and kindergartens. The most famous is the Karl-Marx-Hof, finished in 1930, which stretches for more than a kilometer. In 1934 the experiment ended in a short civil war, when the army shelled the building. The city still owns its housing, and about half of the Viennese live in subsidized homes.",
         "lat": 48.2482,
         "lon": 16.3637,
         "zoom": 14,
@@ -8409,14 +8584,22 @@
           "227MI2RS9CC8l7bQv2OwfY",
           "6uNDjzksloz1iZOAzrtqFJ"
         ],
-        "image": "Karl Marx Hof.jpg"
+        "image": "Karl Marx Hof.jpg",
+        "mediaNote": {
+          "lead": "Here are two reports from Monocle on Red Vienna.",
+          "items": [
+            "One tells how workers moved into the palaces a socialist city built for them.",
+            "And the other shows how Vienna’s public housing still shapes the city a century later."
+          ]
+        },
+        "short": "Red Vienna"
       },
       {
         "city": "Kraków",
         "place": "Nowa Huta, Kraków",
         "when": "1949",
         "heading": "A steel town for Kraków",
-        "text": "Poland’s communist government built Nowa Huta from 1949 next to Kraków: a huge steelworks and a planned town for its workers, partly to outweigh the old Catholic university city. Its avenues radiate from a central square. Wajda’s Man of Marble is about one of the bricklayers who built it.",
+        "text": "After the Second World War, Poland came under communist rule, and in 1949 the government began building Nowa Huta, New Steelworks, on farmland east of Kraków. It was a vast steel mill with a planned town for its workers, laid out with avenues radiating from a central square, in the grand style called socialist realism. The regime also hoped that a new working class would outweigh old Kraków, with its university, its churches, and its conservative professors. The town was planned without a church. Its residents fought for years to build one, and the Ark of the Lord church finally opened in 1977. Andrzej Wajda’s film Man of Marble tells the story of a bricklayer who became a model worker there.",
         "lat": 50.0718,
         "lon": 20.0377,
         "zoom": 14,
@@ -8426,32 +8609,51 @@
           "4ZAN4rRhK0a1CMoxdsdad1",
           "3lBtnjwmJFtar0wu4Rlzhl"
         ],
-        "image": "Nowa Huta - Plac Centralny z lotu ptaka.jpg"
+        "image": "Nowa Huta - Plac Centralny z lotu ptaka.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Nowa Huta.",
+          "items": [
+            "A short video walks its broad avenues from the central square.",
+            "Man of Marble, Andrzej Wajda’s landmark film, digs up the buried story of one of its model workers.",
+            "Toward Nowa Huta, a documentary, wanders through the town decades later.",
+            "And “HUTA,” by the rapper Szaran, is about growing up there now."
+          ]
+        },
+        "short": "Nowa Huta"
       },
       {
         "city": "Warsaw",
         "place": "Palace of Culture and Science, Warsaw",
         "when": "1950–1955",
         "heading": "Stalin’s gift",
-        "text": "Warsaw was rebuilt in the Soviet style called socialist realism: the MDM district has arcades and reliefs of model workers. Then the Soviet Union built the Palace of Culture and Science as a gift from Stalin. Many Varsovians still dislike it, but the Rolling Stones played there in 1967.",
+        "text": "Warsaw was almost completely destroyed in the war, and the communist government rebuilt much of it in socialist realism, a Soviet style of grand classical buildings decorated with heroic workers. The MDM district, built in the early 1950s around Constitution Square, has arcades, giant lampposts, and reliefs of model workers. Then came a gift from the Soviet Union: the Palace of Culture and Science, built by Soviet workers between 1952 and 1955. At 237 meters, it was for decades the tallest building in Poland. Many Varsovians disliked it as a symbol of Soviet control. But it was also where, in 1967, the Rolling Stones played one of the first concerts by a Western rock band behind the Iron Curtain.",
         "lat": 52.232,
         "lon": 21.0067,
         "zoom": 14,
         "stories": [
           "6MtboIp2IFZVkJCBdceCnr",
           "639v5wxZQbdrizRmlGxFMm",
-          "5GzH0F56MEycoAjgUMeoR1",
           "4PO24tAPMvOEGG9ljm65B4",
           "1nbXNbUkoIfaSryb1AbZTv"
         ],
-        "image": "Palace of Culture and Science, Warsaw (by Pudelek).jpg"
+        "image": "Palace of Culture and Science, Warsaw (by Pudelek).jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into socialist Warsaw.",
+          "items": [
+            "A video from an engineering history channel tells the story of the tower Stalin gave Warsaw.",
+            "Another explains the MDM district and its socialist realism.",
+            "A podcast episode tells the story of the Rolling Stones concert of 1967.",
+            "And A Minor Apocalypse, by Tadeusz Konwicki, is a dark comedy about a writer wandering Warsaw on what may be his last day."
+          ]
+        },
+        "short": "Stalin’s gift"
       },
       {
         "city": "Berlin",
         "place": "Karl-Marx-Allee, Berlin",
         "when": "1952–1989",
         "heading": "Stalinallee to Plattenbau",
-        "text": "East Berlin built a grand boulevard of tiled apartment blocks, Stalinallee, and the building workers there started the uprising of June 1953. It was renamed Karl-Marx-Allee in 1961. Later, East Germany switched to cheaper prefabricated blocks, Plattenbau, and put up hundreds of thousands of apartments.",
+        "text": "In East Berlin, the government built its showpiece boulevard in the early 1950s: the Stalinallee, nearly two kilometers of grand apartment blocks faced with tiles, with shops on the ground floor. The building workers who constructed it started the uprising of June 1953. After Stalin fell from favor in the Soviet Union, the street was renamed Karl-Marx-Allee in 1961. By then East Germany had switched to a cheaper method: concrete slabs made in factories and bolted together on site. These buildings, called Plattenbau, went up by the hundreds of thousands across the country, and many still stand.",
         "lat": 52.516,
         "lon": 13.4541,
         "zoom": 14,
@@ -8460,14 +8662,23 @@
           "3WnLFVes8zaV6BMLnBo3ur",
           "4t2Wh6uTWrwvgPXRTExO3q"
         ],
-        "image": "Berlin-Friedrichshain, zicht op de Karl Marx Allee bij de Friedrichs Strasse Dm09085173 IMG 5358 2024-09-05 09.28.jpg"
+        "image": "Berlin-Friedrichshain, zicht op de Karl Marx Allee bij de Friedrichs Strasse Dm09085173 IMG 5358 2024-09-05 09.28.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into East Berlin’s housing.",
+          "items": [
+            "Good Bye, Lenin! is set in an apartment on Karl-Marx-Allee as East Germany ends.",
+            "A walking tour explores Alexanderplatz and its communist-era buildings.",
+            "And a short report looks at the Plattenbau blocks built on both sides of divided Berlin."
+          ]
+        },
+        "short": "Karl-Marx-Allee"
       },
       {
         "city": "Belgrade",
         "place": "New Belgrade",
         "when": "1948–1977",
         "heading": "New Belgrade",
-        "text": "After 1948 Tito’s Yugoslavia built a new capital on marshland across the Sava: government buildings, huge housing blocks, and the twin towers of the Western City Gate. Yugoslavia had broken with Stalin in 1948, and its architects followed Western modernism rather than Soviet models.",
+        "text": "Yugoslavia broke with Stalin in 1948, and its architects were free to follow Western modernism instead of Soviet socialist realism. That same year, the government began building a new capital on marshland across the Sava River from old Belgrade. New Belgrade grew into a city of wide boulevards, government buildings, and huge housing blocks, many of them in raw concrete. Its best-known landmark is the Western City Gate, finished in 1977. It is two concrete towers joined by a bridge at the top, with a revolving restaurant, built for a state trading company. People from across Yugoslavia moved into its apartments, among them the musicians of the city’s new-wave scene in the 1980s.",
         "lat": 44.8202,
         "lon": 20.4049,
         "zoom": 14,
@@ -8477,28 +8688,44 @@
           "18ZdDZ2RrtA9JPkLj9BPz8",
           "6jTEQkbqeplLq55UN5QtgO"
         ],
-        "image": "Genex Tower 4.jpg"
+        "image": "Genex Tower 4.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into New Belgrade.",
+          "items": [
+            "A podcast episode tells how a showcase of socialist modernism was built on farmland.",
+            "A short report looks at the Western City Gate, the tower that greets everyone arriving from the airport.",
+            "An architect’s video makes the case for Belgrade as a concrete capital.",
+            "And “Par godina za nas,” by the band Ekatarina Velika, is one of the best-loved songs of the former Yugoslavia."
+          ]
+        },
+        "short": "New Belgrade"
       },
       {
         "city": "Prague",
         "place": "Žižkov TV Tower, Prague",
         "when": "1985–1992",
         "heading": "A tower over Žižkov",
-        "text": "Communist Czechoslovakia began a television tower in the old working-class district of Žižkov in 1985. Many people believed it was also meant to jam Western broadcasts. It was finished after the regime fell. In 2000 the artist David Černý added giant crawling babies to its sides.",
+        "text": "In Prague, the communist government began a television tower in 1985 in Žižkov, an old working-class district east of the center. It is 216 meters tall, a cluster of three concrete columns holding pods, and it looks like a rocket. Many people believed it was also meant to jam Western radio broadcasts. It was not finished until after the regime fell in 1989, and Praguers often voted it the ugliest building in the city. In 2000 the artist David Černý added ten giant crawling babies to its sides, and the tower became a landmark. Žižkov is now one of the city’s liveliest neighborhoods.",
         "lat": 50.0808,
         "lon": 14.4508,
         "zoom": 14,
         "stories": [
           "kJuoILXphc3p8rBDqPhlR"
         ],
-        "image": "Vaclav Aulicky (4987456854).jpg"
+        "image": "Vaclav Aulicky (4987456854).jpg",
+        "mediaNote": {
+          "items": [
+            "To hear today’s Prague, there is a recording of “Kokalero,” trap in Prague slang by the rapper Yzomandias."
+          ]
+        },
+        "short": "Žižkov Tower"
       },
       {
         "city": "Bucharest",
         "place": "Palace of the Parliament, Bucharest",
         "when": "1984–1989",
         "heading": "Ceaușescu’s palace",
-        "text": "Nicolae Ceaușescu had a fifth of old Bucharest demolished, churches and all, to make room for a palace and a boulevard longer than the Champs-Élysées. Romanians lived with food and power shortages while it went up. It was unfinished when he was overthrown in 1989.",
+        "text": "The last and largest project was in Bucharest. After the earthquake of 1977, Nicolae Ceaușescu had about a fifth of the old city demolished, including churches, monasteries, and whole neighborhoods, and around 40,000 people were moved. In their place he built the House of the People, a palace for his government, and a boulevard leading to it that is longer than the Champs-Élysées. Thousands of workers built it around the clock through the 1980s, using marble, timber, and crystal from across Romania, while ordinary Romanians lived with shortages of food, heat, and electricity. It was still unfinished when he was overthrown in 1989. It is now the Palace of the Parliament, one of the largest buildings in the world.",
         "lat": 44.4275,
         "lon": 26.0875,
         "zoom": 14,
@@ -8507,7 +8734,16 @@
           "6Kt4pZ61vbTEsJImt6oIRr",
           "5S9gIYK7Yh9kXKxPXUBO76"
         ],
-        "image": "Palace of the Parliament in Bucharest (51878975552).jpg"
+        "image": "Palace of the Parliament in Bucharest (51878975552).jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Ceaușescu’s Bucharest.",
+          "items": [
+            "A short video explains how the palace swallowed a fifth of the old city.",
+            "The Last Hundred Days, by Patrick McGuinness, is a novel set in Bucharest in the regime’s final months.",
+            "And a podcast episode hears from a British diplomat who watched Romania go hungry to pay off its debts."
+          ]
+        },
+        "short": "Ceaușescu’s palace"
       }
     ],
     "image": "DJI 0088 Nowa Huta.jpg"
