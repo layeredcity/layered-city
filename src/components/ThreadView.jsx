@@ -120,16 +120,35 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     if (a.paused) { a.play().catch(() => {}); setPaused(false) } else { a.pause(); setPaused(true) }
   }
   useEffect(() => () => { audioRef.current?.pause() }, [])
-  // Keep the sentence being read about a third of the way down the column.
+  // Follow the sentence being read, gently. Scroll only when it is about to
+  // pass behind the player bar (or has gone off the top), and then only as far
+  // as needed to put it a little past halfway down. While the chapter's photo
+  // can stay in view without hiding the sentence, stop with the photo's top
+  // edge at the top of the column, since the text often describes what's in it.
   useEffect(() => {
     const root = scrollRef.current
     if (!readingKey || !root) return
     const el = root.querySelector(`[data-rk="${readingKey}"]`)
     if (!el) return
-    const top = el.getBoundingClientRect().top - root.getBoundingClientRect().top
-    if (top < root.clientHeight * 0.18 || top > root.clientHeight * 0.55) {
-      root.scrollTo({ top: root.scrollTop + top - root.clientHeight * 0.3, behavior: 'smooth' })
+    const box = root.getBoundingClientRect()
+    const r = el.getBoundingClientRect()
+    const top = r.top - box.top, bottom = r.bottom - box.top
+    const vis = root.clientHeight
+    const floor = vis - 110 // clear of the player bar
+    if (top >= vis * 0.08 && bottom <= floor) return
+    let target
+    if (top < vis * 0.08) {
+      target = root.scrollTop + top - vis * 0.3
+    } else {
+      const need = root.scrollTop + bottom - floor
+      target = Math.max(need, root.scrollTop + top - vis * 0.55)
+      const photo = el.closest('.thread-ch')?.querySelector('.thread-img')
+      if (photo) {
+        const photoTop = root.scrollTop + photo.getBoundingClientRect().top - box.top - 12
+        if (photoTop > root.scrollTop) target = Math.max(need, Math.min(target, photoTop))
+      }
     }
+    root.scrollTo({ top: target, behavior: 'smooth' })
   }, [readingKey])
   const rd = k => 'rd' + (readingKey === k ? ' is-reading' : '')
   const totalMin = narration ? Math.round(narration.segments.reduce((t, x) => t + (x.dur || 0), 0) / 60) : 0

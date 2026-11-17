@@ -992,7 +992,7 @@ html[data-vt] .panel-story { transition: none !important; }
 
 .thread-overlay { position: fixed; inset: 0; z-index: 1000; background: rgba(13,24,48,0.78); }
 .thread { position: absolute; inset: 60px; border-radius: 18px; overflow: hidden; background: #FBF8F3; box-shadow: 0 20px 60px rgba(0,0,0,0.35); display: grid; grid-template-columns: minmax(400px, min(46%, 620px)) 1fr; }
-.thread__scroll { grid-column: 1; grid-row: 1; overflow-y: auto; overscroll-behavior: contain; padding: 0 0 100px; }
+.thread__scroll { grid-column: 1; grid-row: 1; overflow-y: auto; overscroll-behavior: contain; }
 .thread__map { grid-column: 2; grid-row: 1; position: relative; min-height: 0; }
 .thread__close { position: absolute; top: 16px; right: 16px; z-index: 5; width: 40px; height: 40px; border-radius: 50%; border: none; background: var(--white); box-shadow: 0 2px 10px rgba(0,0,0,0.2); cursor: pointer; display: flex; align-items: center; justify-content: center; color: var(--ink); }
 .thread__close svg { width: 20px; height: 20px; }
@@ -1013,7 +1013,7 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread__dek { font-size: 19px; line-height: 1.5; color: var(--ink); margin: 22px 0 18px; font-weight: 500; }
 .thread__intro { font-size: 16px; line-height: 1.65; color: #47423d; margin: 0 0 14px; }
 .thread__start { margin-top: 22px; font-size: 12px; font-weight: 600; color: var(--ink-light); text-transform: uppercase; letter-spacing: 0.08em; }
-.thread__chapters { list-style: none; margin: 0; padding: 0; }
+.thread__chapters { list-style: none; margin: 0; padding: 0 0 100px; } /* room for the last chapter to clear the player; on the list, not the scroll box, whose padding would also lift the sticky player */
 .thread-ch { display: grid; grid-template-columns: 64px 1fr; }
 .thread-ch__rail { position: relative; display: flex; justify-content: center; }
 .thread-ch__rail::before { content: ''; position: absolute; top: 0; bottom: 0; left: 50%; width: 2px; margin-left: -1px; background: var(--border); }
@@ -1044,7 +1044,7 @@ html[data-vt] .panel-story { transition: none !important; }
 @media (max-width: 768px) {
   .thread { inset: 0; border-radius: 0; grid-template-columns: 1fr; grid-template-rows: 34vh 1fr; }
   .thread__map { grid-column: 1; grid-row: 1; }
-  .thread__scroll { grid-column: 1; grid-row: 2; padding-bottom: 100px; }
+  .thread__scroll { grid-column: 1; grid-row: 2; }
   .thread__close { top: calc(10px + env(safe-area-inset-top)); right: 10px; }
   .thread__head { padding: 28px 20px 24px; }
   .thread-hero__frame { height: 200px; }
