@@ -60,12 +60,22 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   const [paused, setPaused] = useState(false)
   const [readingKey, setReadingKey] = useState(null)
   const audioRef = useRef(null)
+  // ?voices=trial plays a test recording with other voices, from
+  // public/audio/<slug>--trial/, when one exists. It sticks for the visit.
+  const trial = (() => {
+    try {
+      if (new URLSearchParams(window.location.search).get('voices') === 'trial') sessionStorage.setItem('lc-voices', 'trial')
+      return sessionStorage.getItem('lc-voices') === 'trial'
+    } catch { return new URLSearchParams(window.location.search).get('voices') === 'trial' }
+  })()
+  const audioDir = narration?.dir || thread.slug
   useEffect(() => {
     let live = true
     setNarration(null)
-    fetch(`/audio/${thread.slug}/index.json`).then(r => r.ok ? r.json() : null).then(d => { if (live && d?.segments?.length) setNarration(d) }).catch(() => {})
+    const load = dir => fetch(`/audio/${dir}/index.json`).then(r => r.ok ? r.json().catch(() => null) : null).catch(() => null).then(d => d?.segments?.length ? { ...d, dir } : null)
+    ;(trial ? load(`${thread.slug}--trial`).then(d => d || load(thread.slug)) : load(thread.slug)).then(d => { if (live && d) setNarration(d) }).catch(() => {})
     return () => { live = false }
-  }, [thread.slug])
+  }, [thread.slug, trial])
   const stopNarration = () => {
     const a = audioRef.current
     if (a) { a.pause(); a.removeAttribute('src') }
@@ -75,7 +85,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     if (!narration || n >= narration.segments.length) { stopNarration(); return }
     const a = audioRef.current || (audioRef.current = new Audio())
     const sg = narration.segments[n]
-    a.src = `/audio/${thread.slug}/${sg.file}`
+    a.src = `/audio/${audioDir}/${sg.file}`
     a.ontimeupdate = () => {
       let k = sg.marks[0]?.key
       for (const m of sg.marks) { if (m.t <= a.currentTime + 0.05) k = m.key; else break }

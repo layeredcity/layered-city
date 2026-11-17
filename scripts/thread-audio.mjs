@@ -36,9 +36,14 @@ const FADE = 0.06 // seconds faded out at the end of each clip before the next v
 // pause isn't part of the hash, so existing recordings aren't redone.
 const TAIL = ' …'
 const idOf = v => (typeof v === 'string' ? v : v?.voice_id)
-const VOICES = { body: cfg.voice, title: cfg.titleVoice || cfg.voice }
-const two = idOf(VOICES.title) !== idOf(VOICES.body)
-const roleOf = key => (two && (key === 'title' || key.endsWith('-h')) ? 'title' : 'body')
+// Each job narrates one thread into public/audio/<dir>/. The threads list uses
+// the main voices; `trials` record a thread with other voices into a separate
+// folder (<slug>--trial), for listening at ?voices=trial without touching the
+// live recordings.
+const jobs = [
+  ...cfg.threads.map(slug => ({ slug, dir: slug, body: cfg.voice, title: cfg.titleVoice || cfg.voice })),
+  ...(cfg.trials || []).map(t => ({ slug: t.slug, dir: `${t.slug}--trial`, body: t.voice, title: t.titleVoice || t.voice })),
+]
 
 const run = (cmd, args) => new Promise((res, rej) => execFile(cmd, cmd === 'ffmpeg' ? ['-nostdin', '-loglevel', 'error', ...args] : args, { timeout: 120000 }, (e, so, se) => e ? rej(new Error(`${cmd}: ${se || e.message}`)) : res(so)))
 const duration = async f => Number((await run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', f])).trim())
@@ -69,10 +74,14 @@ async function speak(voice, text) {
 
 const tmp = await fs.mkdtemp(path.join(os.tmpdir(), 'thread-audio-'))
 try {
-  for (const slug of cfg.threads) {
+  for (const job of jobs) {
+    const slug = job.slug
+    const VOICES = { body: job.body, title: job.title }
+    const two = idOf(VOICES.title) !== idOf(VOICES.body)
+    const roleOf = key => (two && (key === 'title' || key.endsWith('-h')) ? 'title' : 'body')
     const thread = threads.find(t => t.slug === slug)
     if (!thread) { console.log(`::warning::${slug}: no such thread`); continue }
-    const dir = `public/audio/${slug}`
+    const dir = `public/audio/${job.dir}`
     await fs.mkdir(dir, { recursive: true })
     const old = JSON.parse(await fs.readFile(`${dir}/index.json`, 'utf8').catch(() => '{"segments":[]}'))
     const segments = []
@@ -93,7 +102,7 @@ try {
       // Threads listed in `keep` hold on to their existing recordings even when
       // the text changes slightly (a spelling pass), as long as the chapter's
       // sentences still line up with the recorded timings.
-      if (prev && (cfg.keep || []).includes(slug) && prev.marks?.length === parts.length && prev.marks.every((m, i) => m.key === parts[i].key)) { segments.push(prev); continue }
+      if (prev && job.dir === slug && (cfg.keep || []).includes(slug) && prev.marks?.length === parts.length && prev.marks.every((m, i) => m.key === parts[i].key)) { segments.push(prev); continue }
       const file = `${n}-${hash}.mp3`
       const marks = []
       let dur
@@ -125,7 +134,7 @@ try {
       }
       if (prev?.file && prev.file !== file) await fs.rm(`${dir}/${prev.file}`, { force: true })
       segments.push({ file, hash, dur: Math.round(dur * 100) / 100, marks: marks.map(m => ({ key: m.key, t: Math.round(m.t * 100) / 100 })) })
-      console.log(`::notice::${slug} #${n}: ${groups.reduce((c, g) => c + g.text.length, 0)} chars, ${dur.toFixed(1)}s`)
+      console.log(`::notice::${job.dir} #${n}: ${groups.reduce((c, g) => c + g.text.length, 0)} chars, ${dur.toFixed(1)}s`)
     }
     // Drop files for segments that no longer exist.
     for (const s of old.segments.slice(segments.length)) if (s?.file) await fs.rm(`${dir}/${s.file}`, { force: true })
