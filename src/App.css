@@ -1239,6 +1239,14 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-ch__num--end { background: #EF4853; border-color: #EF4853; }
 .thread-ch__stop { width: 9px; height: 9px; border-radius: 2px; background: #fff; }
 .thread-ch--end .thread-ch__body { border-bottom: none; }
+/* No date line above "The end", so the stop drops to sit on the heading's
+   x-height (about half the heading size lower), and the rail runs on to it. */
+.thread-ch__num--end { margin-top: 45px; }
+.thread-ch--end .thread-ch__rail::before { height: 59px; }
+@media (max-width: 768px) {
+  .thread-ch__num--end { margin-top: 39px; }
+  .thread-ch--end .thread-ch__rail::before { height: 51px; }
+}
 .thread-end__more { margin: 22px 0 10px; font-size: 12px; font-weight: 600; color: var(--accent); text-transform: uppercase; letter-spacing: 0.08em; }
 .thread-end__thumb { display: block; }
 .thread-ch--end.is-here .thread-ch__num--end { animation: end-pop 0.6s cubic-bezier(.3,1.6,.5,1) both 0.3s; }
