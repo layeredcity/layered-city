@@ -5083,8 +5083,8 @@
     "title": "1968",
     "dates": "March to November",
     "intro": [
-      "In 1968 protest moved across Europe in months, not years. Students in Warsaw and Paris, workers in France, reformers in Prague, and singers in Barcelona had different enemies, but they were watching each other.",
-      "The chapters follow the calendar."
+      "In 1968, protest moved across Europe in months, not years. Students in Warsaw and Paris, workers in France, reformers in Prague, and singers in Barcelona had different enemies, but they were watching each other.",
+      "The chapters follow the calendar, from a banned play in Warsaw in March to an album about Belfast in November."
     ],
     "chapters": [
       {
@@ -5092,33 +5092,45 @@
         "place": "University of Warsaw main gate",
         "when": "March",
         "heading": "A banned play",
-        "text": "The authorities closed a production of Mickiewicz’s Dziady for being anti-Russian. Students protested, police beat them at the university gate, and the government answered with an antisemitic campaign that drove about 13,000 Polish Jews to emigrate.",
+        "text": "The year began in a theater in Warsaw. In January the National Theatre was staging Forefathers’ Eve, a play by Adam Mickiewicz, Poland’s great Romantic poet, with lines against Russian rule that audiences cheered. The communist authorities closed it. In March, students at the University of Warsaw held a rally for free speech, and police and plainclothes militia beat them at the university gate. Protests spread to other cities. The government blamed Zionists, and it followed with an antisemitic campaign that drove about 13,000 Polish Jews out of the country.",
         "lat": 52.2403,
         "lon": 21.0189,
         "zoom": 13.5,
         "stories": [
           "2SreKF6Y49CjNCdeBKLn90"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For more, there is a Witness History episode about the students who stood up to the censors."
+          ]
+        },
+        "short": "A banned play"
       },
       {
         "city": "Munich",
         "place": "Schwabing, Munich",
         "when": "April",
         "heading": "Easter riots",
-        "text": "After the student leader Rudi Dutschke was shot in Berlin on April 11, students blamed the Springer press and blockaded its offices across West Germany. In Munich two people died. Schwabing, the student district, had just been the setting of the year’s comedy hit, Zur Sache, Schätzchen.",
+        "text": "In West Germany, students were angry about the Vietnam War, about former Nazis still in power, and about the newspapers of Axel Springer, which attacked them every day. On April 11 a young man shot Rudi Dutschke, the best-known student leader, on a Berlin street. Dutschke survived, though he never fully recovered. Students blamed the Springer press for stirring up hatred, and over the Easter weekend they blockaded its printing plants and offices across the country. In Munich, a photographer and a student were killed in the clashes. Schwabing, the city’s student and artists’ district, had just been the setting of the year’s comedy hit, Zur Sache, Schätzchen, about a lazy songwriter who drifts into trouble with the police.",
         "lat": 48.1503,
         "lon": 11.5759,
         "zoom": 13.5,
         "stories": [
           "5bN4KwodgSsqlnJ9kpxKh1"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For a lighter view of Schwabing that year, there is Zur Sache, Schätzchen, the film that defined the old bohemian quarter."
+          ]
+        },
+        "short": "Easter riots"
       },
       {
         "city": "Paris",
         "place": "La Sorbonne, Paris",
         "when": "May",
         "heading": "Barricades in the Latin Quarter",
-        "text": "Police cleared the occupied Sorbonne on May 3. A week later students built barricades in the Latin Quarter, and by the end of the month around ten million workers were on strike. De Gaulle called an election and won it in June.",
+        "text": "In Paris, the protests began at the university. On May 3 police cleared students occupying the courtyard of the Sorbonne, in the Latin Quarter. The arrests brought out thousands more. On the night of May 10, students tore up the paving stones and built barricades across the streets, and riot police attacked them. Workers then joined in. By the end of the month, around ten million people were on strike, and France had come to a standstill. Slogans on the walls said things like “Be realistic, demand the impossible.” President Charles de Gaulle left the country briefly, came back, and called an election. In June his party won it easily.",
         "lat": 48.8486,
         "lon": 2.3431,
         "zoom": 14,
@@ -5127,26 +5139,36 @@
           "2LJ9gGh2UEduepLvjNZBWc",
           "4qQuLTVcOgoG1hjv4vnjZE"
         ],
-        "image": "Prenez vos désirs pour des réalités - 1968.jpg"
+        "image": "Prenez vos désirs pour des réalités - 1968.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into May in Paris.",
+          "items": [
+            "A podcast episode tells the story of the student revolt and the general strike.",
+            "The Dreamers, Bernardo Bertolucci’s film, follows three young film lovers in Paris as the revolt breaks out.",
+            "And “Il est cinq heures, Paris s’éveille,” a hit by Jacques Dutronc that year, is about the city waking up at dawn."
+          ]
+        },
+        "short": "May in Paris"
       },
       {
         "city": "Belgrade",
         "place": "University of Belgrade",
         "when": "June",
         "heading": "Students against the “red bourgeoisie”",
-        "text": "Belgrade students occupied their university for a week, protesting unemployment and the privileges of party officials. Tito went on television and said they were partly right, and the protest ended.",
+        "text": "The protests even reached Yugoslavia, a communist country that was not part of the Soviet bloc. In June, students in Belgrade clashed with police and then occupied their university for a week. They complained about unemployment and about the privileges of the party officials they called the red bourgeoisie. The government expected trouble. Instead, the leader, Josip Broz Tito, went on television, said that the students were partly right, and promised reforms. The students cheered him, and the protest ended. Few of the reforms came.",
         "lat": 44.8186,
         "lon": 20.4577,
         "zoom": 13.5,
         "stories": [],
-        "image": "Studentske demonstracije u Beogradu 1968.jpg"
+        "image": "Studentske demonstracije u Beogradu 1968.jpg",
+        "short": "Belgrade"
       },
       {
         "city": "Prague",
         "place": "Wenceslas Square, Prague",
         "when": "August",
         "heading": "The tanks arrive",
-        "text": "Dubček’s Prague Spring had lifted censorship since January. On the night of August 20, Warsaw Pact armies invaded. Crowds argued with Soviet soldiers on Wenceslas Square, and Marta Kubišová’s “Modlitba pro Martu” became the song of the occupation.",
+        "text": "In Czechoslovakia, the change had come from the top. Since January the new communist leader, Alexander Dubček, had lifted censorship and allowed open debate, in what was called the Prague Spring. Moscow saw it as a threat. On the night of August 20, the armies of the Soviet Union and its allies invaded. In the morning, crowds on Wenceslas Square argued with the young Soviet soldiers on their tanks, many of whom did not know where they were. The singer Marta Kubišová recorded “Modlitba pro Martu,” A Prayer for Marta, which became the song of the occupation. The reforms were slowly rolled back.",
         "lat": 50.081,
         "lon": 14.428,
         "zoom": 13.5,
@@ -5155,35 +5177,56 @@
           "3ukQTyaZRD1b2iyibKLRBX",
           "mUBAl2f6mm4DjiUegy4D9"
         ],
-        "image": "Prague-1968-street-scene.jpg"
+        "image": "Prague-1968-street-scene.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into August in Prague.",
+          "items": [
+            "A podcast episode hears from a journalist who saw the tanks arrive.",
+            "A recording of “Modlitba pro Martu” is the song of the occupation.",
+            "And Pelíšky, Cosy Dens, a much-loved Czech film, follows two families in one apartment block through the Prague Spring and the invasion."
+          ]
+        },
+        "short": "The tanks arrive"
       },
       {
         "city": "Barcelona",
         "place": "Plaça de Sant Jaume, Barcelona",
         "when": "1968",
         "heading": "The stake",
-        "text": "Lluís Llach wrote “L’Estaca” in 1968, a song in Catalan about pulling down a rotten stake together, at a time when Franco’s Spain restricted the language. It became an anthem far from Barcelona; in 1978 a Polish version, “Mury,” was taken up by Solidarity.",
+        "text": "In Spain, Franco was still in power, and the Catalan language was restricted in schools, the press, and public life. In 1968 Lluís Llach, a young Catalan singer, wrote “L’Estaca,” The Stake. In the song, an old man explains that we are all tied to a rotten stake, and that if we all pull together, it will fall. Llach was often banned from performing, and his concerts became protests. The song traveled far beyond Barcelona. In Poland in 1978, a singer wrote new words for it, and as “Mury,” Walls, it became an anthem of the Solidarity movement.",
         "lat": 41.3828,
         "lon": 2.1772,
         "zoom": 14,
         "stories": [
           "4okMimaNU8F727I8FEAgQc"
         ],
-        "image": "2021 Concert Lluís Llach 06.jpg"
+        "image": "2021 Concert Lluís Llach 06.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “L’Estaca.”"
+          ]
+        },
+        "short": "L’Estaca"
       },
       {
         "city": "Belfast",
         "place": "Cyprus Avenue, east Belfast",
         "when": "November",
         "heading": "Astral Weeks",
-        "text": "Northern Ireland’s civil rights marches began that autumn, and students at Queen’s University founded People’s Democracy. In November Van Morrison released Astral Weeks, an album about the Belfast streets he grew up on, months before the city turned violent.",
+        "text": "In Northern Ireland, 1968 was the year the civil rights movement began. Catholics marched for equal rights in housing, jobs, and voting, and in October police beat marchers in Derry. In Belfast, students at Queen’s University founded People’s Democracy. In November, Van Morrison, who had grown up on Hyndford Street in east Belfast, released Astral Weeks, an album of long, dreamy songs about the streets of his childhood. One of them is named after Cyprus Avenue, a leafy, well-off street nearby. Within a year the city had turned violent, and the Troubles had begun.",
         "lat": 54.5944,
         "lon": -5.8728,
         "zoom": 13.5,
         "stories": [
           "705pU4HJRPPQRjYSiZOCMR"
         ],
-        "image": "Cyprus Avenue, Belfast - geograph.org.uk - 685742.jpg"
+        "image": "Cyprus Avenue, Belfast - geograph.org.uk - 685742.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Cyprus Avenue,” from Astral Weeks."
+          ]
+        },
+        "short": "Astral Weeks"
       }
     ],
     "image": "Youth, Paris - UNESCO - PHOTO0000001264 0001.tiff"
@@ -5424,8 +5467,8 @@
     "title": "Resistance",
     "dates": "1940–1944",
     "intro": [
-      "Under Nazi rule most people kept their heads down. Some wrote leaflets, hid neighbors, forged papers, or took up guns.",
-      "The stops run from Berlin itself to occupied capitals across Europe, ending with the summer and autumn of 1944."
+      "Under Nazi rule, most people kept their heads down. Some wrote leaflets, hid their neighbors, forged papers, or took up guns.",
+      "This thread starts in Berlin itself and moves through occupied cities across Europe, ending in the summer and autumn of 1944."
     ],
     "chapters": [
       {
@@ -5433,7 +5476,7 @@
         "place": "Rosenstraße, Berlin",
         "when": "1940–1943",
         "heading": "In the capital",
-        "text": "Otto and Elise Hampel, a working couple, spent two years leaving anti-Hitler postcards in Berlin stairwells until they were caught and beheaded in 1943. Hans Fallada turned their story into Alone in Berlin. That same year, women stood for days outside a building on Rosenstraße until the Jewish husbands held inside were released.",
+        "text": "Resistance began in Germany itself, though it was rare and dangerous. Otto and Elise Hampel were a working-class couple in Berlin. After Elise’s brother was killed in the war, they spent two years writing postcards against Hitler and leaving them in stairwells around the city. They were caught and beheaded in 1943. The novelist Hans Fallada turned their story into Alone in Berlin. That same year, the Gestapo arrested Jewish men married to non-Jewish women and held them in a building on Rosenstraße. Their wives gathered in the street outside, day after day, and most of the men were released.",
         "lat": 52.5063,
         "lon": 13.2952,
         "zoom": 13,
@@ -5442,14 +5485,23 @@
           "1tI1bHddGhNzOZ8rhFsCKA",
           "5HAxcPeR1eItV2V3GjGdJe"
         ],
-        "image": "Rosenstraße-Protest.jpg"
+        "image": "Rosenstraße-Protest.jpg",
+        "mediaNote": {
+          "lead": "Here are three stories of resistance in Berlin.",
+          "items": [
+            "Alone in Berlin, by Hans Fallada, is the novel based on the Hampels.",
+            "Rosenstraße, a German film, tells the story of the women’s protest, though historians dispute some of it.",
+            "And Aimée & Jaguar, by Erica Fischer, is the true story of a Jewish woman in hiding and the wife of a Nazi officer who fell in love."
+          ]
+        },
+        "short": "In the capital"
       },
       {
         "city": "Athens",
         "place": "Kaisariani, Athens",
         "when": "1941–1944",
         "heading": "Hunger and the flag",
-        "text": "Germany occupied Greece in April 1941, and that winter tens of thousands starved in Athens. In May 1941 two students climbed the Acropolis at night and pulled down the swastika flag. The resistance grew into one of the largest in Europe. On May 1, 1944, the Germans shot 200 prisoners at the Kaisariani firing range.",
+        "text": "Germany occupied Greece in April 1941. The occupiers took the country’s food for their own armies, and that winter tens of thousands of people starved in Athens. Defiance started early. On the night of May 30, 1941, two students, Manolis Glezos and Apostolos Santas, climbed the Acropolis and pulled down the swastika flag. Over the next three years the Greek resistance grew into one of the largest in Europe, and the occupiers answered with mass reprisals. On May 1, 1944, the Germans shot 200 prisoners at the firing range in Kaisariani, a refugee district on the edge of the city.",
         "lat": 37.9658,
         "lon": 23.7587,
         "zoom": 13,
@@ -5457,14 +5509,22 @@
           "4rEIl6JBgMDVG00ndQHdfp",
           "2Lp1CKqnbMXX2v2jGNa6Yo"
         ],
-        "image": "Kaisariani skopeftirio 1.jpg"
+        "image": "Kaisariani skopeftirio 1.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into occupied Athens.",
+          "items": [
+            "Inside Hitler’s Greece, by Mark Mazower, is the clearest account of the occupation.",
+            "And a Witness History episode hears from a woman who lived through the famine."
+          ]
+        },
+        "short": "Athens"
       },
       {
         "city": "Warsaw",
         "place": "Warsaw Zoo and the Arsenal, Warsaw",
         "when": "1939–1944",
         "heading": "The zoo and the scouts",
-        "text": "Jan Żabiński, director of the Warsaw Zoo, and his wife Antonina hid around 300 Jews over the war in empty animal enclosures and their own villa. In March 1943 Home Army scouts ambushed a Gestapo truck by the old Arsenal to free a captured friend, an action later retold in Stones for the Rampart.",
+        "text": "In Warsaw, the resistance was organized on a huge scale, with an underground army, schools, and courts. Some people resisted by hiding others. Jan Żabiński, the director of the Warsaw Zoo, and his wife Antonina hid about 300 Jews during the war, in the empty animal enclosures and in their own villa inside the zoo. Others fought. In March 1943, scouts in the Home Army ambushed a Gestapo truck near the old Arsenal on Długa Street to free a captured friend, Jan Bytnar. They got him out, but he died a few days later from the torture he had suffered. The story was told in Stones for the Rampart, a book written in secret that same year.",
         "lat": 52.2585,
         "lon": 21.024,
         "zoom": 13,
@@ -5472,14 +5532,22 @@
           "38rArSnMMgrCVUY0w0WkkH",
           "6Dbgem6LsRJcSq28Km6zrP"
         ],
-        "image": "Willa żabińskich róg płnwsch.jpg"
+        "image": "Willa żabińskich róg płnwsch.jpg",
+        "mediaNote": {
+          "lead": "Here are two stories from wartime Warsaw.",
+          "items": [
+            "The Zookeeper’s Wife, by Diane Ackerman, tells how the Żabińskis hid people at the zoo.",
+            "And Stones for the Rampart is a Polish film based on the book about the scouts and their raid."
+          ]
+        },
+        "short": "The zoo and the scouts"
       },
       {
         "city": "Munich",
         "place": "Ludwig Maximilian University, Munich",
         "when": "February 1943",
         "heading": "The White Rose",
-        "text": "A handful of Munich students and a professor printed leaflets calling Germans to resist. On February 18, 1943, Hans and Sophie Scholl scattered copies into the university’s atrium from the floor above, and a caretaker saw them. They were tried and beheaded four days later.",
+        "text": "In Munich, a few students at the university, with one of their professors, formed a group called the White Rose. In 1942 and 1943 they wrote and printed leaflets calling on Germans to resist Hitler, and they mailed them to people across the country. On February 18, 1943, Hans Scholl and his sister Sophie carried a suitcase of leaflets into the university’s main building. They dropped the last of them from the floor above into the atrium. A caretaker saw them and called the Gestapo. They were tried four days later and beheaded the same afternoon. Sophie was 21.",
         "lat": 48.1508,
         "lon": 11.5803,
         "zoom": 15,
@@ -5488,28 +5556,42 @@
           "1Zm3Ae88ySL0DTKsyOvyKp"
         ],
         "tip": "A memorial of bronze leaflets is set into the sidewalk outside the main university building.",
-        "image": "20230122 Hauptgebäude der Ludwig-Maximilians-Universität München.jpg"
+        "image": "20230122 Hauptgebäude der Ludwig-Maximilians-Universität München.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the story of the White Rose.",
+          "items": [
+            "Sophie Scholl: The Final Days, a German film, is built from the Gestapo’s transcripts of her interrogation.",
+            "And The White Rose, by their sister Inge Scholl, tells the story of the group."
+          ]
+        },
+        "short": "The White Rose"
       },
       {
         "city": "Copenhagen",
         "place": "Mindelunden, Copenhagen",
         "when": "1943–1944",
         "heading": "Flame and Citron",
-        "text": "Denmark was occupied with a light touch until 1943, when the government resigned and resistance grew. Two young members of the Holger Danske group, known as Flame and Citron, shot informers and collaborators in Copenhagen. Both were dead by October 1944. Executed resistance fighters are buried at Mindelunden in Ryvangen.",
+        "text": "Denmark was occupied in 1940 with a light touch: the Danish government stayed in office, and life went on fairly normally. In August 1943, after strikes and sabotage, the government resigned, and the resistance grew. Two young members of the Holger Danske group, Bent Faurschou-Hviid and Jørgen Haagen Schmith, known as Flame and Citron, shot informers and collaborators in Copenhagen. Both were dead by October 1944, cornered by the Gestapo. Resistance fighters who were executed are buried at Mindelunden, a memorial park in Ryvangen, on the site where many of them were shot.",
         "lat": 55.7221,
         "lon": 12.5669,
         "zoom": 13,
         "stories": [
           "5GWqwfXba8jyUXL2jfkNUm"
         ],
-        "image": "Mindelunden i Ryvangen - grave-1.jpg"
+        "image": "Mindelunden i Ryvangen - grave-1.jpg",
+        "mediaNote": {
+          "items": [
+            "For their story, there is Flame & Citron, a Danish film about the two men that does not make it simple."
+          ]
+        },
+        "short": "Flame and Citron"
       },
       {
         "city": "Rome",
         "place": "Fosse Ardeatine, Rome",
         "when": "1943–1944",
         "heading": "Open city",
-        "text": "Germany occupied Rome in September 1943. In March 1944 partisans bombed an SS column on Via Rasella, and the next day the Germans shot 335 men and boys in caves on the Via Ardeatina. Priests hid Jews and escaped prisoners in convents and Vatican buildings. Rossellini filmed Rome, Open City in the same streets in 1945.",
+        "text": "Germany occupied Rome in September 1943, after Italy changed sides in the war. On March 23, 1944, Italian partisans set off a bomb against a column of German police marching along Via Rasella, killing 33 of them. The next day the Germans took 335 men and boys from the city’s prisons and streets, shot them in caves on the Via Ardeatina, and blew up the entrances. The site is now a memorial, the Fosse Ardeatine. Meanwhile, priests hid Jews and escaped prisoners of war in convents, monasteries, and buildings belonging to the Vatican. In 1945, months after the Germans left, Roberto Rossellini filmed Rome, Open City in the same streets.",
         "lat": 41.8572,
         "lon": 12.5105,
         "zoom": 12,
@@ -5518,14 +5600,23 @@
           "7Bx4yN4HdczAff1ooYsUBs",
           "1m8NSBhWGHJIgWIFrdrhu6"
         ],
-        "image": "Mausoelum Fosse Ardeatine.JPG"
+        "image": "Mausoelum Fosse Ardeatine.JPG",
+        "mediaNote": {
+          "lead": "Here are three ways into occupied Rome.",
+          "items": [
+            "Death in Rome, by Robert Katz, reconstructs both days, hour by hour.",
+            "Rome, Open City, Rossellini’s film, was shot in the streets months after the Germans left.",
+            "And a Witness History episode tells how an Irish priest in the Vatican ran a secret rescue network."
+          ]
+        },
+        "short": "Open city"
       },
       {
         "city": "Amsterdam",
         "place": "Dutch Resistance Museum, Amsterdam",
         "when": "1942–1945",
         "heading": "Hiding and fighting",
-        "text": "Anne Frank’s family hid behind a bookcase on the Prinsengracht for two years before they were betrayed in August 1944. Others fought: the teenage Oversteegen sisters lured collaborators to be shot, and the banker Walraven van Hall funded the resistance with money taken from the central bank. The Hunger Winter of 1944–45 killed about 20,000.",
+        "text": "In the Netherlands, many resisted by hiding people. Anne Frank, her family, and four others hid in rooms behind a bookcase at her father’s business on the Prinsengracht for two years, until they were betrayed in August 1944. Only her father survived. Others fought. The teenage sisters Truus and Freddie Oversteegen, with their friend Hannie Schaft, lured collaborators into the woods to be shot. The banker Walraven van Hall secretly funded the resistance with money taken from the Dutch central bank. In the last winter of the war, the Hunger Winter of 1944 and 1945, about 20,000 people died of starvation and cold.",
         "lat": 52.3678,
         "lon": 4.9128,
         "zoom": 13,
@@ -5535,14 +5626,24 @@
           "FnP2fhfva7aLi7QapZe1R",
           "1F1titZze82q9VKBPBWZRK"
         ],
-        "image": "Verzetsmuseum Amsterdam entrance Oct 2011.JPG"
+        "image": "Verzetsmuseum Amsterdam entrance Oct 2011.JPG",
+        "mediaNote": {
+          "lead": "Here are four stories from the Dutch resistance.",
+          "items": [
+            "A short podcast tells the story of Freddie Oversteegen.",
+            "The Resistance Banker is a Dutch film about Walraven van Hall.",
+            "Anne Frank Remembered, an Oscar-winning documentary, includes interviews with Miep Gies, who helped hide the family.",
+            "And a Witness History episode tells of surviving the Hunger Winter."
+          ]
+        },
+        "short": "Hiding and fighting"
       },
       {
         "city": "Paris",
         "place": "Hôtel de Ville, Paris",
         "when": "August 1944",
         "heading": "Liberation",
-        "text": "On August 19, 1944, with Allied armies close, the Paris resistance rose. Fighters took the Hôtel de Ville and Colonel Rol-Tanguy ran the uprising from a bunker under Place Denfert-Rochereau. Hitler ordered the city wrecked. On August 25 the German commander surrendered it intact.",
+        "text": "In August 1944, Allied armies were advancing across France toward Paris. On August 19 the resistance in the city rose. Fighters, many of them police officers, seized the Hôtel de Ville, the city hall, and put up barricades in the streets. The communist commander, Henri Rol-Tanguy, ran the uprising from an underground bunker beneath the Place Denfert-Rochereau. Hitler ordered that Paris should be destroyed rather than given up. The German commander, Dietrich von Choltitz, did not carry out the order, and on August 25 he surrendered the city intact to French troops.",
         "lat": 48.8566,
         "lon": 2.3518,
         "zoom": 13,
@@ -5551,14 +5652,23 @@
           "5wM2bjMHeWjorwRE12VQHH",
           "2wKvbOriKuBZUqrwPPpO0A"
         ],
-        "image": "Crowds of French patriots line the Champs Elysees-edit2.jpg"
+        "image": "Crowds of French patriots line the Champs Elysees-edit2.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the Liberation of Paris.",
+          "items": [
+            "A Witness History episode tells the story of the fighters who took the Hôtel de Ville.",
+            "A short video visits the Liberation of Paris Museum and the bunker below it.",
+            "And a walking tour traces the occupation and the Resistance across the city."
+          ]
+        },
+        "short": "Liberation"
       },
       {
         "city": "Budapest",
         "place": "Danube bank, Budapest",
         "when": "1944",
         "heading": "The last months",
-        "text": "Hungary was Germany’s ally until March 1944, when the Germans occupied it and began deporting its Jews. Hannah Szenes, a Budapest-born poet, parachuted in from Palestine with the British and was caught and shot in November. Pinchas Rosenbaum put on a stolen Arrow Cross uniform to pull people out of the deportation lines.",
+        "text": "Hungary was Germany’s ally, but in March 1944 the Germans occupied it, and in a few weeks they deported more than 400,000 Hungarian Jews, most of them to Auschwitz. Hannah Szenes, a young poet born in Budapest, had moved to Palestine before the war. She joined a British mission, parachuted into Yugoslavia, and then crossed into Hungary. She was caught, tortured, and shot in November 1944, at 23. In Budapest, a young Jewish man, Pinchas Rosenbaum, put on the uniform of the Arrow Cross, the Hungarian fascists, and pulled people out of the lines being marched to their deaths. On the bank of the Danube, sixty pairs of iron shoes remember the people the Arrow Cross shot into the river.",
         "lat": 47.5027,
         "lon": 19.0447,
         "zoom": 13,
@@ -5566,7 +5676,15 @@
           "3dA18diirRLdOYL9894NRu",
           "3DvOubvg8TTvLz7dbZNtmY"
         ],
-        "image": "Girl contemplates Shoes on the Danube Bank (Budapest, Hungary).jpg"
+        "image": "Girl contemplates Shoes on the Danube Bank (Budapest, Hungary).jpg",
+        "mediaNote": {
+          "lead": "Here are two stories from Budapest in 1944.",
+          "items": [
+            "A history podcast tells the story of Hannah Szenes.",
+            "And Walking with the Enemy is a film based on the story of Pinchas Rosenbaum."
+          ]
+        },
+        "short": "The last months"
       }
     ],
     "image": "Press used by the Dutch resistance (25671677677).jpg"
@@ -5816,7 +5934,7 @@
     "dates": "44 BC–2004",
     "intro": [
       "Political killings tend to happen in ordinary places: a theater, a church during Mass, a shopping street, a car at a red light. Several of the spots are marked, and a few are still just street corners.",
-      "Some of these killings changed what happened next, and some changed very little."
+      "This thread runs from the death of Julius Caesar in 44 BC to a street in Amsterdam in 2004. Some of these killings changed what happened next, and some changed very little."
     ],
     "chapters": [
       {
@@ -5824,7 +5942,7 @@
         "place": "Largo di Torre Argentina, Rome",
         "when": "44 BC",
         "heading": "Caesar",
-        "text": "On the Ides of March, senators stabbed Julius Caesar at a meeting in the Theatre of Pompey. They meant to save the Republic, but his death led to civil war and to his adopted son Augustus becoming emperor. The site is now a sunken square with a cat shelter.",
+        "text": "On the Ides of March, March 15, 44 BC, a group of senators stabbed Julius Caesar to death at a meeting of the Senate. It was held in a hall attached to the Theater of Pompey, in the center of Rome. Caesar had won a civil war and made himself dictator for life, and the conspirators, led by Brutus and Cassius, said they were saving the Republic. Instead, his death led to more civil war and to the rule of his adopted son, who became Augustus, the first emperor. The site is now Largo di Torre Argentina, a sunken square of ancient temples, where volunteers run a shelter for the city’s stray cats.",
         "lat": 41.8955,
         "lon": 12.4768,
         "zoom": 14,
@@ -5832,14 +5950,22 @@
           "6GxOZmCNH4u3riaYyAsGtS",
           "8EExUhnBR9txcGAQ1a0rw"
         ],
-        "image": "Largo di Torre Argentina 4.jpg"
+        "image": "Largo di Torre Argentina 4.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the death of Caesar.",
+          "items": [
+            "A short video visits the square, and the cats that live in the ruins.",
+            "And Rubicon, by Tom Holland, tells how the Roman Republic destroyed itself."
+          ]
+        },
+        "short": "Caesar"
       },
       {
         "city": "Florence",
         "place": "Florence Cathedral",
         "when": "1478",
         "heading": "The Pazzi conspiracy",
-        "text": "During Sunday Mass in April 1478, men hired by the rival Pazzi family stabbed Giuliano de’ Medici to death in the cathedral. His brother Lorenzo escaped into the sacristy, and the city hunted down the conspirators within days.",
+        "text": "In Florence, the most famous killing took place in the cathedral. On Sunday, April 26, 1478, during Mass, men hired by the Pazzi, a rival banking family, attacked the two Medici brothers who ruled the city. Giuliano de’ Medici was stabbed to death in front of the altar. His brother Lorenzo, later called the Magnificent, was wounded but escaped into the sacristy. The people of Florence sided with the Medici and hunted down the conspirators within days, and some were hanged from the windows of the town hall. Sixty years later, in 1537, another Medici, Lorenzino, lured his cousin Alessandro, the first duke of Florence, to an apartment and stabbed him.",
         "lat": 43.7731,
         "lon": 11.256,
         "zoom": 14,
@@ -5847,14 +5973,22 @@
           "4tuL8nlymP5ZknpN9hnMpP",
           "7GtTd7k4r7ndbPe5DcvpMh"
         ],
-        "image": "Santa Maria del Fiore, Florence Cathedral, interior, 223756.jpg"
+        "image": "Santa Maria del Fiore, Florence Cathedral, interior, 223756.jpg",
+        "mediaNote": {
+          "lead": "Here are two Medici murders, sixty years apart.",
+          "items": [
+            "A podcast episode tells the story of the attack during Mass.",
+            "And another tells how Lorenzino lured the duke to his death."
+          ]
+        },
+        "short": "The Pazzi conspiracy"
       },
       {
         "city": "Edinburgh",
         "place": "Palace of Holyroodhouse, Edinburgh",
         "when": "1566–1567",
         "heading": "Mary’s court",
-        "text": "In 1566 Mary, Queen of Scots, watched her secretary David Rizzio stabbed in her supper room at Holyrood. The next year her husband, Lord Darnley, was found dead after the house he was staying in blew up. Within months she had lost her throne.",
+        "text": "In Edinburgh, the court of Mary, Queen of Scots, saw two murders in less than a year. In March 1566 a group of Protestant lords, with Mary’s husband, Lord Darnley, among them, burst into her supper room at the Palace of Holyroodhouse. They dragged out her Italian secretary, David Rizzio, and stabbed him dozens of times. Mary was six months pregnant. In February 1567 the house where Darnley was staying blew up, and he was found strangled in the garden. Mary married the Earl of Bothwell, the man most suspected of the murder, and within months she had lost her throne.",
         "lat": 55.9529,
         "lon": -3.172,
         "zoom": 14,
@@ -5862,42 +5996,62 @@
           "72M10LDr4ct5aKgE9ZLkvS",
           "14fVk2M4hZ78xn2y8uWwu8"
         ],
-        "image": "Holyrood Palace and Abbey 20211021.jpg"
+        "image": "Holyrood Palace and Abbey 20211021.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the murders at Mary’s court.",
+          "items": [
+            "A short video from the Royal Collection tells the story of the murder in her supper room.",
+            "And a podcast episode looks at Darnley’s murder and how it led to her downfall."
+          ]
+        },
+        "short": "Mary’s court"
       },
       {
         "city": "Stockholm",
         "place": "Royal Swedish Opera, Stockholm",
         "when": "1792",
         "heading": "A masked ball",
-        "text": "King Gustav III was shot in the back at a masked ball in the opera house he had built. He had been warned and went anyway. He died two weeks later.",
+        "text": "In Stockholm, King Gustav III loved the theater, and he built the city’s royal opera house. He had also taken power from the nobles, and some of them wanted him dead. On March 16, 1792, he went to a masked ball at his opera house, although he had received a letter warning him of a plot. A group of masked nobles surrounded him, and one of them, Jacob Johan Anckarström, shot him in the back. The king died two weeks later. Verdi later turned the story into the opera A Masked Ball.",
         "lat": 59.3297,
         "lon": 18.0705,
         "zoom": 14,
         "stories": [
           "1kvlwp2nJ6pNx10FFzEaGF"
         ],
-        "image": "Kungliga Operan Royal Swedish Opera Stockholm 2016 01.jpg"
+        "image": "Kungliga Operan Royal Swedish Opera Stockholm 2016 01.jpg",
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is a short podcast episode about the king who went to the ball despite the warning."
+          ]
+        },
+        "short": "Gustav III"
       },
       {
         "city": "Lisbon",
         "place": "Praça do Comércio, Lisbon",
         "when": "1908",
         "heading": "The regicide",
-        "text": "On February 1, 1908, republican gunmen shot King Carlos I and his heir in their open carriage as it turned out of the Praça do Comércio. Portugal’s monarchy lasted two more years.",
+        "text": "In Portugal, the monarchy was unpopular by the early 1900s, and republicans wanted it gone. On February 1, 1908, King Carlos I and his family were driving through Lisbon in an open carriage, back from a stay in the country. As the carriage turned out of the Praça do Comércio, the great square by the river, two gunmen opened fire. The king and his heir, Prince Luís Filipe, were killed. The younger son, Manuel, was wounded, and he became king. Two years later, in 1910, a revolution ended the monarchy, and Portugal became a republic.",
         "lat": 38.708,
         "lon": -9.138,
         "zoom": 14,
         "stories": [
           "5HIEzfDOq5oLLzKCp9ErEz"
         ],
-        "image": "Rua Augusta Arch (Lisbon) 01.jpg"
+        "image": "Rua Augusta Arch (Lisbon) 01.jpg",
+        "mediaNote": {
+          "items": [
+            "For the story, there is a podcast episode about the regicide and how it led to the end of the monarchy."
+          ]
+        },
+        "short": "The regicide"
       },
       {
         "city": "Prague",
         "place": "Church of Sts Cyril and Methodius, Prague",
         "when": "1942",
         "heading": "Heydrich",
-        "text": "Czechoslovak parachutists trained in Britain ambushed Reinhard Heydrich, the Nazi governor of Bohemia, on a bend in a Prague street. He died of his wounds. The parachutists died weeks later in the crypt of a church, and the Nazis destroyed the villages of Lidice and Ležáky in revenge.",
+        "text": "During the Second World War, Reinhard Heydrich, one of the chief organizers of the Holocaust, ruled the occupied Czech lands from Prague Castle. The Czechoslovak government in exile in London trained a team of parachutists to kill him. On May 27, 1942, two of them, Jozef Gabčík and Jan Kubiš, ambushed his car at a sharp bend in a Prague street. Gabčík’s gun jammed, but Kubiš threw a bomb, and Heydrich died of his wounds a week later. The Nazis took terrible revenge. They destroyed the villages of Lidice and Ležáky and killed their people. The parachutists hid in the crypt of the Church of Saints Cyril and Methodius, where they were betrayed and died fighting in June.",
         "lat": 50.0758,
         "lon": 14.418,
         "zoom": 14,
@@ -5906,66 +6060,103 @@
           "1df7kI14HW7nvCR2QKL1VB",
           "77p4UpjmIpnMHxmRvD6IVZ"
         ],
-        "image": "Resslova ulice 2014.JPG"
+        "image": "Resslova ulice 2014.JPG",
+        "mediaNote": {
+          "lead": "Here are three ways into the story of the parachutists.",
+          "items": [
+            "A podcast episode tells the story of the operation and its aftermath.",
+            "HHhH, by Laurent Binet, is a novel about the killing, by a writer who agonizes over how to tell it.",
+            "And Anthropoid, a film shot in Prague, follows the parachutists to their last stand in the crypt."
+          ]
+        },
+        "short": "Heydrich"
       },
       {
         "city": "Madrid",
         "place": "Calle Claudio Coello, Madrid",
         "when": "1973",
         "heading": "Carrero Blanco",
-        "text": "Franco’s prime minister and closest ally, Luis Carrero Blanco, was killed when the Basque group ETA set off a bomb under his car as he left Mass. The blast threw the car over a church building.",
+        "text": "In Spain, General Franco was old by the 1970s, and he had chosen his closest ally, Admiral Luis Carrero Blanco, as prime minister to carry on his regime. On December 20, 1973, Carrero Blanco was driving home from daily Mass in Madrid. Members of ETA, the armed Basque separatist group, had dug a tunnel under Calle Claudio Coello and packed it with explosives. The blast threw his car over the roof of a five-story building, and it landed in an inner courtyard. He was killed. Franco died two years later, and Spain moved to democracy.",
         "lat": 40.4342,
         "lon": -3.6861,
         "zoom": 14,
         "stories": [
           "23JnJ0P9XwBKgbL3BQWUBN"
         ],
-        "image": "Calle de Claudio Coello.JPG"
+        "image": "Calle de Claudio Coello.JPG",
+        "mediaNote": {
+          "items": [
+            "For the story, there is a Witness History episode about the assassination."
+          ]
+        },
+        "short": "Carrero Blanco"
       },
       {
         "city": "Stockholm",
         "place": "Sveavägen, Stockholm",
         "when": "1986 and 2003",
         "heading": "Palme and Lindh",
-        "text": "Prime Minister Olof Palme was shot dead in 1986 walking home from the cinema without bodyguards. No one was ever convicted. In 2003 the foreign minister, Anna Lindh, was stabbed while shopping in a department store a short walk away.",
+        "text": "Sweden thought of itself as a safe, open country, where leaders could walk the streets. On the night of February 28, 1986, the prime minister, Olof Palme, sent his bodyguards home and went to the cinema with his wife. As they walked home along Sveavägen, the main street, a gunman shot him in the back. He died there on the sidewalk. A man was convicted and then acquitted, and in 2020 prosecutors named a different suspect, who had died years before. In 2003 the foreign minister, Anna Lindh, was stabbed while shopping in a department store a short walk away, days before a national vote on the euro. She died the next day.",
         "lat": 59.3366,
         "lon": 18.0628,
         "zoom": 14,
         "stories": [
           "6pp2hH0ChQ0HkUuEGqNbrG",
           "492UQ2PcuWf8pXG7m5fKnE",
-          "7f12h6HqNWTnDy358odGRu",
           "4CdahKunOtHGRJRiSx9soo"
         ],
-        "image": "Olof Palme Memorial Plaque.jpg"
+        "image": "Olof Palme Memorial Plaque.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the two killings.",
+          "items": [
+            "A long read tells the story of the Palme case and the decades of investigation.",
+            "Palme, a documentary, looks at the life of the prime minister, loved and loathed.",
+            "And a Witness History episode tells the story of Anna Lindh’s death."
+          ]
+        },
+        "short": "Palme and Lindh"
       },
       {
         "city": "Belgrade",
         "place": "Nemanjina Street, Belgrade",
         "when": "2003",
         "heading": "Đinđić",
-        "text": "Zoran Đinđić, the prime minister who had sent Slobodan Milošević to the war crimes tribunal in The Hague, was shot by a sniper outside the government building. The killers were tied to a paramilitary unit and organized crime.",
+        "text": "In Serbia, Zoran Đinđić became prime minister after the fall of Slobodan Milošević in 2000. In 2001 he sent Milošević to the war crimes tribunal in The Hague. He also began to go after the gangsters and paramilitaries who had grown rich in the wars of the 1990s. On March 12, 2003, a sniper shot him as he got out of his car outside the government building on Nemanjina Street. The killers came from a special police unit with close ties to organized crime.",
         "lat": 44.8065,
         "lon": 20.4605,
         "zoom": 14,
         "stories": [
           "1HVmEj3BZUPGbGfz2p53Of",
           "312CWXgCZLdnTNUuLyf0wx"
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are two ways into his killing.",
+          "items": [
+            "McMafia, by Misha Glenny, has a sharp chapter on Belgrade’s gangsters and the murder.",
+            "And a Witness History episode hears from people who were there."
+          ]
+        },
+        "short": "Đinđić"
       },
       {
         "city": "Amsterdam",
         "place": "Oosterpark, Amsterdam",
         "when": "2004",
         "heading": "Theo van Gogh",
-        "text": "The filmmaker Theo van Gogh was shot and stabbed on an Amsterdam street by a man angered by his short film about Islam and women. A steel sculpture called The Scream stands in the nearby Oosterpark.",
+        "text": "The last stop is in Amsterdam. Theo van Gogh was a filmmaker and columnist who liked to provoke, and he was distantly related to the painter Vincent van Gogh. In 2004 he made Submission, a short film about the treatment of women in Islam, with the politician Ayaan Hirsi Ali. On the morning of November 2, 2004, as he cycled to work, a young Islamist shot and stabbed him on a street near the Oosterpark. The killing shocked a country that had seen itself as a model of tolerance. A jagged steel sculpture called The Scream stands in the park in his memory.",
         "lat": 52.3595,
         "lon": 4.9222,
         "zoom": 14,
         "stories": [
           "1OsOVIZVxfpP8OdAFoLX7W"
         ],
-        "image": "2020 De Schreeuw (09).jpg"
+        "image": "2020 De Schreeuw (09).jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is Murder in Amsterdam, by Ian Buruma, which asks what the killing cost the Dutch idea of tolerance."
+          ]
+        },
+        "short": "Theo van Gogh"
       }
     ],
     "image": "Vincenzo Camuccini - La morte di Cesare.jpg"
@@ -6171,8 +6362,8 @@
     "title": "Organized crime",
     "dates": "1930s–today",
     "intro": [
-      "Port cities and poor housing projects have bred gangs everywhere, but some have shaped how their cities are seen: Marseille and heroin, Naples and the Camorra, Belgrade’s gangster-celebrities of the 1990s.",
-      "Most of the stories here are told by journalists who paid for it, or by films the cities have mixed feelings about."
+      "Port cities and poor housing projects have bred gangs everywhere, but some have shaped how their cities are seen: Marseille and heroin, Naples and the Camorra, Belgrade and its gangster celebrities of the 1990s.",
+      "Most of the stories here are told by journalists who paid a price for telling them, or by films that the cities have mixed feelings about."
     ],
     "chapters": [
       {
@@ -6180,21 +6371,27 @@
         "place": "Opéra quarter, Marseille",
         "when": "1930s",
         "heading": "Carbone and Spirito",
-        "text": "Paul Carbone and François Spirito ran protection, gambling, and prostitution in interwar Marseille, with friends in city politics. Borsalino, with Alain Delon and Jean-Paul Belmondo, is loosely based on them.",
+        "text": "Marseille, France’s great Mediterranean port, has had a reputation for crime for a century. In the 1930s two gangsters, Paul Carbone and François Spirito, ran protection, gambling, and prostitution in the city, from the bars around the Opéra quarter. They had friends in city politics, and they supplied men to break strikes and fix elections. During the war, both worked with the German occupiers. Carbone was killed in 1943 when the Resistance blew up a train he was on. In 1970 the film Borsalino, with Alain Delon and Jean-Paul Belmondo, turned a version of their story into a stylish caper.",
         "lat": 43.295,
         "lon": 5.379,
         "zoom": 14,
         "stories": [
           "28sMdveNIK9lapk27gX6V7"
         ],
-        "image": "Marseille - Opéra Municipal (16265981769).jpg"
+        "image": "Marseille - Opéra Municipal (16265981769).jpg",
+        "mediaNote": {
+          "items": [
+            "To see the legend, there is Borsalino, with Delon and Belmondo as rival dandies who become partners."
+          ]
+        },
+        "short": "Carbone and Spirito"
       },
       {
         "city": "Marseille",
         "place": "Marseille",
         "when": "1960s–today",
         "heading": "The French Connection",
-        "text": "Corsican gangs in Marseille refined heroin and shipped it to New York until the network was broken up in the early 1970s. A judge who went after its successors, Pierre Michel, was shot dead in 1981. Today street gangs fight over drug dealing in the northern estates.",
+        "text": "After the war, Corsican gangs in Marseille built a trade in heroin. They brought morphine base from Turkey, refined it in secret laboratories around the city, and smuggled it to New York. For two decades this pipeline, which Americans called the French Connection, supplied most of the heroin in the United States. French and American police broke it up in the early 1970s. In 1981 Pierre Michel, a judge who had pursued the gangs, was shot dead in the street by a gunman on a motorcycle. Today the drug trade belongs to young street gangs, who fight over dealing spots in the housing projects of the northern districts.",
         "lat": 43.2951,
         "lon": 5.374,
         "zoom": 12.5,
@@ -6202,54 +6399,80 @@
           "2INYrAYKI7svTJI8IAprV8",
           "7IZylioO77II4XwnI2rEgJ"
         ],
-        "image": "Marseille Old Port.jpg"
+        "image": "Marseille Old Port.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the story, past and present.",
+          "items": [
+            "La French, with Jean Dujardin, tells the story of the judge’s duel with the mob boss behind the heroin pipeline.",
+            "And a podcast episode explains how the old trade gave way to the teenage gang wars of today."
+          ]
+        },
+        "short": "The French Connection"
       },
       {
         "city": "Glasgow",
         "place": "Barlinnie Prison, Glasgow",
         "when": "1973",
         "heading": "The Special Unit",
-        "text": "In 1973 Glasgow’s Barlinnie Prison opened a unit that gave its most violent long-term prisoners art materials and a say in how it was run. Its best-known inmate, the gangster Jimmy Boyle, came out a sculptor and writer.",
+        "text": "Glasgow had a reputation for gang violence through much of the 20th century. Jimmy Boyle grew up in the Gorbals, a poor district south of the river, and became a feared gangster. In 1967 he was sentenced to life for murder, and in prison he fought the guards constantly. In 1973 Barlinnie Prison, in the east of the city, opened a Special Unit for its most violent long-term prisoners. It gave them art materials, let them wear their own clothes, and gave them a say in how the unit was run. Boyle began to sculpt and write. He was released in 1982 and became an artist and author. The unit was controversial, and it closed in 1994.",
         "lat": 55.8781,
         "lon": -4.1825,
         "zoom": 14,
         "stories": [
           "4nziSgFiJeUDFwljTuJSEZ"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For the story, there is a Witness History episode about the experiment."
+          ]
+        },
+        "short": "The Special Unit"
       },
       {
         "city": "Rome",
         "place": "Magliana, Rome",
         "when": "1970s–1980s",
         "heading": "The Magliana gang",
-        "text": "The Banda della Magliana, named after a district in the south of Rome, ran much of the city’s drug trade and gambling, and was tied to neo-fascists, the secret services, and the Vatican bank scandal.",
+        "text": "In Rome in the 1970s and 1980s, a gang from Magliana, a working-class district in the south of the city, took over much of the drug trade and illegal gambling. The Banda della Magliana was unusual because of the company it kept. Investigators linked it to neo-fascist terrorists, to parts of the Italian secret services, and to the Vatican bank scandal of the early 1980s. Its leaders were killed one by one, by rivals and by each other. The story was told in a novel, Romanzo Criminale, by a judge, Giancarlo De Cataldo, and then in a film and a television series.",
         "lat": 41.846,
         "lon": 12.456,
         "zoom": 14,
         "stories": [
           "2MPxAFF3Za5GDAxmEcFZiC"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For the story, there is Romanzo Criminale, a long, gripping film about the rise and fall of the gang."
+          ]
+        },
+        "short": "The Magliana gang"
       },
       {
         "city": "London",
         "place": "St. Katharine Docks, London",
         "when": "1980",
         "heading": "The Long Good Friday",
-        "text": "In The Long Good Friday Bob Hoskins plays a London gang boss who wants to redevelop the derelict docks as the old East End world falls apart around him. A few years later the docks really were redeveloped.",
+        "text": "In London, the docks of the East End had once been among the busiest in the world, but by the 1970s they were almost all closed. In the film The Long Good Friday, released in 1980, Bob Hoskins plays Harold Shand, a gangster who plans to redevelop the derelict docks with American money. Over one Easter weekend, his empire starts to fall apart, as someone attacks his businesses and he cannot work out who. Within a few years the docks really were redeveloped, into the offices and apartments of Docklands and Canary Wharf. St. Katharine Docks, by Tower Bridge, is now a marina.",
         "lat": 51.5065,
         "lon": -0.0715,
         "zoom": 14,
         "stories": [
           "6AksoseSrize1PwPsUYHs1"
         ],
-        "image": "East Dock. St Katharine Docks, London 02.jpg"
+        "image": "East Dock. St Katharine Docks, London 02.jpg",
+        "mediaNote": {
+          "items": [
+            "To see it, The Long Good Friday is a classic British gangster film, with Bob Hoskins at his best."
+          ]
+        },
+        "short": "The Long Good Friday"
       },
       {
         "city": "Naples",
         "place": "Scampia, Naples",
         "when": "1985–today",
         "heading": "The Camorra",
-        "text": "The Camorra shot the young reporter Giancarlo Siani in 1985 for writing about it. In 2006 Roberto Saviano’s book Gomorrah named the clans and their business, from fake couture to toxic waste, and he has lived under police protection since. The Vele towers of Scampia, where the clan wars were fought, are being demolished.",
+        "text": "In Naples, the local mafia is called the Camorra. It is not one organization but many clans, fighting over drugs, construction, garbage collection, and the trade in fakes. In 1985 the Camorra shot dead Giancarlo Siani, a young reporter who had written about the clans and the politicians who helped them. He was 26. In 2006 Roberto Saviano published Gomorrah, a book that named the clans and showed how far their business reached, from fake designer clothes to the illegal dumping of toxic waste. He has lived under police protection ever since. The Vele, giant sail-shaped housing blocks in the northern suburb of Scampia, became a symbol of the clan wars. Several of them have now been demolished.",
         "lat": 40.8989,
         "lon": 14.2394,
         "zoom": 14,
@@ -6259,47 +6482,75 @@
           "3tkc2M1ehjJM8b8Uts7dp8",
           "7FTAQX8chY1EOemTMV2qMS"
         ],
-        "image": "Vela Scampia.jpg"
+        "image": "Vela Scampia.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into the story of the Camorra.",
+          "items": [
+            "Gomorrah, Roberto Saviano’s book, is an insider’s report on the clans and their business.",
+            "Gomorrah, Matteo Garrone’s film from the book, shows the Camorra without any glamour.",
+            "Fortapàsc tells the true story of Giancarlo Siani.",
+            "And a report from France 24 visits the people of the Vele as one of the blocks comes down."
+          ]
+        },
+        "short": "The Camorra"
       },
       {
         "city": "Florence",
         "place": "Via dei Georgofili, Florence",
         "when": "1993",
         "heading": "A bomb at the Uffizi",
-        "text": "In May 1993 the Sicilian Mafia set off a car bomb in the narrow street behind the Uffizi, part of a campaign against the Italian state. Five people died, and paintings in the gallery were damaged.",
+        "text": "In 1992 the Sicilian Mafia murdered the two judges who had led the fight against it, Giovanni Falcone and Paolo Borsellino. The next year it brought its war against the state to the mainland, with bombs in Rome, Milan, and Florence. On the night of May 27, 1993, a car bomb exploded in Via dei Georgofili, the narrow street behind the Uffizi gallery. Five people were killed, among them two young girls. The blast damaged the gallery and several of its paintings, and it destroyed a medieval tower on the street.",
         "lat": 43.7677,
         "lon": 11.2554,
         "zoom": 14,
         "stories": [
           "4XdZ8sFpIguMqTPpkzzR7P"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is a podcast episode about the bomb and the hunt for those who planted it."
+          ]
+        },
+        "short": "The Uffizi bomb"
       },
       {
         "city": "Belgrade",
         "place": "New Belgrade",
         "when": "1990s",
         "heading": "Belgrade’s lost decade",
-        "text": "During the wars and sanctions of the 1990s, smugglers and paramilitaries became rich and famous in Belgrade, appearing in magazines and marrying pop stars. The film The Wounds follows two boys from New Belgrade who want to be them.",
+        "text": "In Serbia in the 1990s, the wars of Yugoslavia’s breakup and international sanctions brought runaway inflation and shortages. Smugglers, gangsters, and the leaders of paramilitary units grew rich, and in Belgrade they became celebrities. They appeared in magazines, ran football clubs, and married pop stars. The most famous of them, Željko Ražnatović, known as Arkan, led a paramilitary group accused of war crimes and married the folk singer Ceca. He was shot dead in a hotel lobby in 2000. The film The Wounds, from 1998, follows two boys from the tower blocks of New Belgrade who want to be like the gangsters they see on television.",
         "lat": 44.813,
         "lon": 20.4,
         "zoom": 14,
         "stories": [
           "3ttEvs5kcp1MqJC912wXzd"
         ],
-        "image": "Блок 44 - беле зграде.jpg"
+        "image": "Блок 44 - беле зграде.jpg",
+        "mediaNote": {
+          "items": [
+            "To see it, there is The Wounds, the defining film of Serbia’s lost decade, which is brutal and not gentle."
+          ]
+        },
+        "short": "The lost decade"
       },
       {
         "city": "Dublin",
         "place": "Naas Road, Dublin",
         "when": "1996",
         "heading": "Veronica Guerin",
-        "text": "The journalist Veronica Guerin was shot at a red light in 1996 after years of writing about Dublin’s drug gangs. Within months Ireland set up the Criminal Assets Bureau to seize criminals’ money.",
+        "text": "In Dublin in the 1990s, heroin spread through the poorer parts of the city, and drug gangs grew rich. Veronica Guerin, a reporter for the Sunday Independent, wrote about the gang leaders, giving them nicknames to get around the libel laws. She was threatened, beaten, and shot in the leg, and she kept writing. On June 26, 1996, as she sat in her car at a red light on the Naas Road, a man on a motorcycle shot her dead. Her killing shocked Ireland. Within months the government set up the Criminal Assets Bureau, with the power to seize money and property from criminals.",
         "lat": 53.31,
         "lon": -6.403,
         "zoom": 14,
         "stories": [
           "ix9Z3qf8Bgts7kt3Xz6b4"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For her story, there is Veronica Guerin, a film with Cate Blanchett as the reporter."
+          ]
+        },
+        "short": "Veronica Guerin"
       }
     ],
     "image": "Vele di Scampia.jpg"
@@ -6310,8 +6561,8 @@
     "title": "Heretics and witches",
     "dates": "1415–1834",
     "intro": [
-      "For four centuries, believing the wrong thing could get you burned. Churches, both Catholic and Protestant, and the states behind them tried and killed reformers, scientists, alleged witches, and anyone who read the wrong book.",
-      "The stops follow it from Jan Hus to the end of the Spanish Inquisition."
+      "For four centuries, believing the wrong thing could get you burned. Catholic and Protestant churches, and the states behind them, tried and killed reformers, scientists, women accused of witchcraft, and people who read the wrong books.",
+      "This thread follows it from the burning of Jan Hus in 1415 to the end of the Spanish Inquisition in 1834."
     ],
     "chapters": [
       {
@@ -6319,21 +6570,27 @@
         "place": "Bethlehem Chapel, Prague",
         "when": "1402–1415",
         "heading": "Jan Hus",
-        "text": "Jan Hus preached church reform in Czech at the Bethlehem Chapel. He was summoned to the Council of Constance under a promise of safe conduct, then tried and burned as a heretic in 1415. His followers held off five crusades in the Hussite Wars that followed.",
+        "text": "In the early 1400s, Jan Hus, a priest and teacher at the university in Prague, preached at the Bethlehem Chapel in Czech, the language of ordinary people, not in Latin. He attacked the wealth and corruption of the Church. In 1414 he was summoned to a great council of the Church at Constance, in Germany, and promised safe conduct by the emperor. Once he arrived, he was arrested and tried. He refused to take back his views, and in July 1415 he was burned at the stake. His followers, the Hussites, rose up and fought off five crusades sent against them. A huge monument to Hus stands in the Old Town Square.",
         "lat": 50.0848,
         "lon": 14.4176,
         "zoom": 15,
         "stories": [
           "3uy7iQZ43UMoocptwxgs0c"
         ],
-        "image": "Betlemska kaple.jpg"
+        "image": "Betlemska kaple.jpg",
+        "mediaNote": {
+          "items": [
+            "For his story, there is a podcast episode about Jan Hus and the wars that followed his death."
+          ]
+        },
+        "short": "Jan Hus"
       },
       {
         "city": "Seville",
         "place": "Castillo de San Jorge, Seville",
         "when": "1481–1562",
         "heading": "The Inquisition begins",
-        "text": "The Spanish Inquisition held its first auto-da-fé in Seville in 1481 and kept its headquarters in the Castillo de San Jorge in Triana for three centuries. Its first targets were Jews who had converted to Christianity. Around 1560 it burned a group of Seville monks who had been translating the Bible into Spanish.",
+        "text": "In Spain, Ferdinand and Isabella set up the Spanish Inquisition in 1478, and it held its first auto-da-fé, a public ceremony of judgment, in Seville in 1481. Six people were burned. Its first targets were converts from Judaism suspected of secretly keeping their old faith. For three centuries its headquarters in Seville was the Castillo de San Jorge, a castle by the river in Triana. Later it turned on Protestants. Around 1560 it burned a group of monks from a monastery near Seville who had been reading Lutheran books and translating the Bible into Spanish. The ruins of the castle are now a small museum under the Triana market.",
         "lat": 37.3835,
         "lon": -6.0031,
         "zoom": 14,
@@ -6342,42 +6599,62 @@
           "2rsbd3ZmwSKubIqCjhHHrp"
         ],
         "tip": "The castle’s ruins are now a small museum under the Triana market.",
-        "image": "Castillo de San Jorge Sevilla.jpg"
+        "image": "Castillo de San Jorge Sevilla.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the Inquisition’s early years.",
+          "items": [
+            "The Spanish Inquisition, by Henry Kamen, looks past the legend at how it really worked.",
+            "And a five-minute podcast tells the story of the monks who translated a forbidden Bible."
+          ]
+        },
+        "short": "The Inquisition begins"
       },
       {
         "city": "Florence",
         "place": "Piazza della Signoria, Florence",
         "when": "1497–1498",
         "heading": "Savonarola",
-        "text": "The friar Girolamo Savonarola ran Florence for four years on sermons against luxury. In February 1497 his followers burned mirrors, cards, books, and paintings in a bonfire in Piazza della Signoria. A year later he was excommunicated, tortured, and burned in the same square.",
+        "text": "In Florence in the 1490s, a Dominican friar, Girolamo Savonarola, preached against luxury, corruption, and the Medici. When the Medici were driven out in 1494, he became the most powerful man in the city. In February 1497 his followers went from house to house collecting mirrors, playing cards, cosmetics, fine clothes, books, and paintings. They burned them all in a great bonfire in the Piazza della Signoria, the Bonfire of the Vanities. The pope excommunicated him, and Florence turned against him. In May 1498 he was tortured, hanged, and burned in the same square. A round plaque in the paving marks the spot.",
         "lat": 43.7697,
         "lon": 11.2556,
         "zoom": 15,
         "stories": [
           "3UMmrJcHrfuj9qVkDFcVZN"
         ],
-        "image": "Savonarola's execution memorial, Piazza della Signoria, Florence (26073214863).jpg"
+        "image": "Savonarola's execution memorial, Piazza della Signoria, Florence (26073214863).jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a podcast episode about the friar and his bonfire."
+          ]
+        },
+        "short": "Savonarola"
       },
       {
         "city": "Venice",
         "place": "Santa Maria Formosa, Venice",
         "when": "1580",
         "heading": "Veronica Franco",
-        "text": "Veronica Franco was a courtesan and a published poet in Venice. In 1580 she was brought before the Inquisition on a charge of witchcraft. She defended herself and was acquitted, probably helped by her friends among the city’s nobility.",
+        "text": "In Venice, the city’s government kept the Inquisition on a short leash. Veronica Franco was one of the city’s best-known courtesans, a woman paid for her company by rich and powerful men, and she was also a published poet. In 1580 she was brought before the Inquisition on a charge of witchcraft, made by her son’s tutor. She defended herself with confidence, and she was acquitted, probably helped by her friends among the city’s nobility.",
         "lat": 45.4369,
         "lon": 12.3411,
         "zoom": 15,
         "stories": [
           "2F4Clg5adc0lup4Evv1aIM"
         ],
-        "image": "Campo Santa Maria Formosa (Venice).jpg"
+        "image": "Campo Santa Maria Formosa (Venice).jpg",
+        "mediaNote": {
+          "items": [
+            "To see her story, there is Dangerous Beauty, a glossy film about her life."
+          ]
+        },
+        "short": "Veronica Franco"
       },
       {
         "city": "Edinburgh",
         "place": "Castle Esplanade, Edinburgh",
         "when": "1590–1720s",
         "heading": "Scotland’s witch trials",
-        "text": "Scotland tried several thousand people for witchcraft, most of them women. The panic began in 1590 when James VI blamed witches for storms that nearly sank his ship. Hundreds of the accused were strangled and burned on Castlehill, by the castle. A small fountain there, the Witches’ Well, remembers them.",
+        "text": "In Scotland, the fear of witches became a panic. In 1590 King James VI sailed home from Denmark with his new bride, and storms nearly sank his ship. He blamed witches, and dozens of people from North Berwick, a town east of Edinburgh, were tortured until they confessed. James later wrote a book about witchcraft. Over the next century and more, Scotland tried several thousand people for witchcraft, most of them women. Hundreds of the accused were strangled and then burned on Castlehill, at the top of the Royal Mile, by the castle. A small fountain there, the Witches’ Well, remembers them. In 2022 the Scottish government formally apologized.",
         "lat": 55.9489,
         "lon": -3.1965,
         "zoom": 15,
@@ -6385,49 +6662,76 @@
           "40HrZkYaloTEOpBZkcxGg2",
           "5qS1SMyK2wKC4eP1spiKfF"
         ],
-        "image": "Witches Well - Detail 4.jpg"
+        "image": "Witches Well - Detail 4.jpg",
+        "mediaNote": {
+          "lead": "Here are two walks that cover the witch trials.",
+          "items": [
+            "One follows Scotland’s witch trials and the women persecuted in them, from Holyrood Palace to the castle.",
+            "The other walks the full Royal Mile, starting at the Witches’ Well on the castle esplanade."
+          ]
+        },
+        "short": "The witch trials"
       },
       {
         "city": "Rome",
         "place": "Campo de’ Fiori, Rome",
         "when": "1600",
         "heading": "Giordano Bruno",
-        "text": "The former friar Giordano Bruno argued that the universe was infinite and full of other worlds. After eight years of trial he refused to recant, and on February 17, 1600, he was burned alive in Campo de’ Fiori. A hooded statue of him has stood over the market since 1889.",
+        "text": "In Rome, the Inquisition put a former friar, Giordano Bruno, on trial. Bruno argued that the universe was infinite, that the stars were other suns, and that they might have planets with life of their own. He also held views about God that the Church considered heretical. He was tried for eight years and refused to take back his ideas. On February 17, 1600, he was burned alive in the Campo de’ Fiori, a market square near the river. In 1889 a hooded bronze statue of him was put up on the spot, facing toward the Vatican. The market still runs around it every morning.",
         "lat": 41.8956,
         "lon": 12.4722,
         "zoom": 15,
         "stories": [
           "3xGQoBRFS3wwYlE8DP9owW"
         ],
-        "image": "Statue of Giordano Bruno, Campo de' Fiori (45788557464).jpg"
+        "image": "Statue of Giordano Bruno, Campo de' Fiori (45788557464).jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a podcast episode about the friar who burned for insisting the universe has no edge."
+          ]
+        },
+        "short": "Giordano Bruno"
       },
       {
         "city": "Florence",
         "place": "Arcetri, Florence",
         "when": "1633–1642",
         "heading": "Galileo",
-        "text": "In 1633 the Inquisition in Rome found Galileo vehemently suspected of heresy for teaching that the earth moves around the sun. He was made to recant on his knees and spent his last nine years under house arrest in a villa at Arcetri, above Florence, still working.",
+        "text": "Galileo Galilei was luckier. With his telescope, he found evidence that the Earth goes around the sun, and he said so in a book in 1632. The next year the Inquisition in Rome found him vehemently suspected of heresy. He was made to kneel and take back his views, and the book was banned. He was not burned. He spent the last nine years of his life under house arrest in a villa at Arcetri, in the hills above Florence. He went blind there, but he kept working and wrote one of his most important books on physics. He died in 1642.",
         "lat": 43.7478,
         "lon": 11.2576,
         "zoom": 14,
         "stories": [
           "1TK5URBsFdalu7R405GNaL"
         ],
-        "image": "Galileo before the Holy Office.jpg"
+        "image": "Galileo before the Holy Office.jpg",
+        "mediaNote": {
+          "items": [
+            "For his last years, there is a podcast episode about the condemned astronomer who kept working under house arrest."
+          ]
+        },
+        "short": "Galileo",
+        "shortPlace": "Arcetri"
       },
       {
         "city": "Madrid",
         "place": "Plaza Mayor and the Prado, Madrid",
         "when": "1680–1834",
         "heading": "The last trials",
-        "text": "The grandest auto-da-fé was held in Madrid’s Plaza Mayor in 1680 before the king. By Goya’s time the Inquisition was weaker but still dangerous; he was questioned over his Naked Maja. Napoleon abolished it in 1808, the restored king brought it back, and it was finally ended in 1834.",
+        "text": "The grandest auto-da-fé of all was held in Madrid’s Plaza Mayor in 1680, before the young King Charles II, and it lasted from morning until late at night. More than a hundred people were sentenced, and some were burned afterward outside the city. By the time of the painter Francisco Goya, a century later, the Inquisition was weaker, but it was still dangerous. Goya was questioned about his painting of a nude woman, the Naked Maja. Napoleon abolished the Inquisition when he invaded Spain in 1808. The Spanish king brought it back after the French left, and it was finally ended in 1834.",
         "lat": 40.4155,
         "lon": -3.7074,
         "zoom": 14,
         "stories": [
           "j6ePGqgNohxKz9Bm3ceD6"
         ],
-        "image": "Francisco rizi-auto de fe.jpg"
+        "image": "Francisco rizi-auto de fe.jpg",
+        "mediaNote": {
+          "items": [
+            "To see Goya’s Madrid, there is Goya’s Ghosts, a costume drama by Miloš Forman about the painter and the Inquisition, though it is uneven."
+          ]
+        },
+        "short": "The last trials"
       }
     ],
     "image": "Pedro Berruguete - Saint Dominic Presiding over an Auto-da-fe (detail) - c. 1491-1499 - 02.jpg"
