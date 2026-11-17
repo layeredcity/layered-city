@@ -41,7 +41,7 @@ const typeRank = s => { const i = TYPE_ORDER.indexOf((s.mediaType || '').toLower
 // The chapter map never zooms in further than this, so a stop still shows its
 // surroundings rather than a few streets.
 const MAX_ZOOM = 7.5
-const CHIME_LEAD = 2.2 // seconds of chime before the title starts (about 0.7 s overlap with its fade, which ends at 2.9 s)
+const CHIME_LEAD = 2.4 // seconds of chime before the title starts (about 0.5 s overlap with its fade, which ends at 2.9 s)
 
 // Related threads for the end card: shared cities count most, then the same
 // kind (Artists, Music, …). Ties keep the list order.
