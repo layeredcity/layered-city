@@ -2406,8 +2406,8 @@
     "title": "Eurovision",
     "dates": "1974–2023",
     "intro": [
-      "The Eurovision Song Contest started in 1956 with seven countries. It has launched a few global careers, started at least one revolution, and become the place where Europe argues about itself in three-minute songs.",
-      "This thread follows a handful of entries back to the cities that sent them."
+      "The Eurovision Song Contest began in 1956 with seven countries, as a way to bring postwar Europe together through television. It has launched a few global careers, helped start a revolution, and become the place where Europe argues about itself in three-minute songs.",
+      "This thread follows a handful of entries back to the cities that sent them, from ABBA in 1974 to a Finnish rapper in a bolero of bright green sleeves."
     ],
     "chapters": [
       {
@@ -2415,7 +2415,7 @@
         "place": "ABBA The Museum, Stockholm",
         "when": "1974",
         "heading": "Waterloo",
-        "text": "ABBA won in Brighton in April 1974 with Waterloo and became one of the biggest-selling groups ever. Their whole story is in a museum on the island of Djurgården.",
+        "text": "The first great Eurovision success story came from Stockholm. ABBA were two couples: Agnetha Fältskog and Björn Ulvaeus, and Anni-Frid Lyngstad and Benny Andersson. In April 1974 they won the contest in Brighton, on the English coast, with “Waterloo,” dressed in glittering platform boots. They went on to become one of the best-selling groups in the history of pop. Both marriages had ended by the early 1980s, and some of their saddest songs were written as they did. Their whole story is told in ABBA The Museum, on the island of Djurgården in Stockholm.",
         "lat": 59.3251,
         "lon": 18.0968,
         "zoom": 14,
@@ -2424,42 +2424,63 @@
           "LymJLUEvzgPnQHpYIA5kx",
           "4LvvJSxwzFDYPzbDeBfZ6Y"
         ],
-        "image": "ABBA the Museum, winter 2014 01.JPG"
+        "image": "ABBA the Museum, winter 2014 01.JPG",
+        "mediaNote": {
+          "lead": "Here are three ways into the ABBA story.",
+          "items": [
+            "“Dancing Queen,” from 1976, is the shimmering peak of their records.",
+            "A music walk through Stockholm follows their rise from Eurovision to global fame.",
+            "And Bright Lights Dark Shadows, by Carl Magnus Palm, is the definitive book on the band."
+          ]
+        },
+        "short": "ABBA"
       },
       {
         "city": "Lisbon",
         "place": "Largo do Carmo, Lisbon",
         "when": "1974",
         "heading": "A song as a signal",
-        "text": "Portugal’s 1974 entry, E Depois do Adeus, came near the bottom. Three weeks later a radio station played it late on April 24 as the first signal for army officers to start a coup against the dictatorship. The second signal, after midnight, was the banned folk song Grândola, Vila Morena.",
+        "text": "That same spring, Eurovision played a part in a revolution. Portugal had been ruled by a dictatorship for nearly fifty years, and it was fighting long wars to hold on to its colonies in Africa. Its 1974 entry, “E Depois do Adeus,” And After the Goodbye, finished near the bottom. Three weeks later, at five to eleven on the night of April 24, a Lisbon radio station played it as a secret signal to army officers to get ready. Just after midnight, a second station played the next signal, “Grândola, Vila Morena,” a folk song by a singer the regime had kept off the air. The officers moved, and by the next evening the dictatorship had fallen, almost without a shot. It became known as the Carnation Revolution.",
         "lat": 38.7119,
         "lon": -9.1408,
         "zoom": 14,
         "stories": [
           "6KzVJy5HdWJ5DqJsfQNdZg"
         ],
-        "image": "Lisboa - Largo do Carmo (53847670618).jpg"
+        "image": "Lisboa - Largo do Carmo (53847670618).jpg",
+        "mediaNote": {
+          "items": [
+            "To hear the signal, there is a recording of “Grândola, Vila Morena,” the song that launched the revolution."
+          ]
+        },
+        "short": "A song as a signal"
       },
       {
         "city": "Vienna",
         "place": "Wiener Stadthalle, Vienna",
         "when": "2014",
         "heading": "Rise Like a Phoenix",
-        "text": "Conchita Wurst, the bearded drag persona of Tom Neuwirth, won for Austria in 2014 with a Bond-style ballad and a speech about tolerance. Vienna hosted the contest the next year.",
+        "text": "Eurovision has long had a huge following among gay fans, and in 2014 it became a stage for something more. Austria sent Conchita Wurst, the bearded drag persona of the singer Tom Neuwirth. In some countries, people petitioned for her to be edited out of the broadcast. She won with “Rise Like a Phoenix,” a ballad in the style of a James Bond theme, and on stage she dedicated the win to everyone who believed in a future of peace and freedom. Under the contest’s rules, the winning country hosts the next year, so in 2015 Eurovision came to the Wiener Stadthalle, Vienna’s big arena.",
         "lat": 48.2023,
         "lon": 16.3329,
         "zoom": 14,
         "stories": [
           "4EdsluuhKN7zNJvuWJHqC8"
         ],
-        "image": "Stadthalle Wien ca 1972.jpg"
+        "image": "Stadthalle Wien ca 1972.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Rise Like a Phoenix.”"
+          ]
+        },
+        "short": "Conchita Wurst"
       },
       {
         "city": "Lisbon",
         "place": "Altice Arena, Lisbon",
         "when": "2017–2018",
         "heading": "Portugal finally wins",
-        "text": "After more than fifty years of trying, Portugal won in 2017 with Salvador Sobral’s quiet ballad Amar Pelos Dois, written by his sister. Lisbon hosted the contest in 2018.",
+        "text": "Portugal first entered Eurovision in 1964, and for more than fifty years it never won. In 2017, against a field of loud pop songs, it sent Salvador Sobral, who sang a quiet, old-fashioned ballad written by his sister, Luísa. “Amar Pelos Dois,” To Love for Both of Us, won by a wide margin. The next year Lisbon hosted the contest, at the arena by the river built for the World’s Fair of 1998. Portugal has kept sending quieter songs, such as Maro’s “Saudade, saudade” in 2022.",
         "lat": 38.7685,
         "lon": -9.0939,
         "zoom": 14,
@@ -2467,62 +2488,95 @@
           "1UKS6F3UblAtOO0v8qa7DO",
           "Av0IbpImctX5sIgBMcPtu"
         ],
-        "image": "POR Lisbon Altice Arena 01.jpg"
+        "image": "POR Lisbon Altice Arena 01.jpg",
+        "mediaNote": {
+          "lead": "Here are two Portuguese entries.",
+          "items": [
+            "“Amar Pelos Dois,” sung by Salvador Sobral, is the ballad that finally won.",
+            "And “Saudade, saudade,” by Maro, is a hushed song about longing, partly in English."
+          ]
+        },
+        "short": "Amar Pelos Dois"
       },
       {
         "city": "Milan",
         "place": "Gratosoglio, Milan",
         "when": "2019",
         "heading": "Soldi",
-        "text": "Mahmood grew up in Gratosoglio, a high-rise housing project on Milan’s southern edge. Soldi, about a father who left, includes a line in Arabic. It came second in 2019.",
+        "text": "Eurovision songs often say something about the country that sends them. Mahmood, a singer with a Sardinian mother and an Egyptian father, grew up in Gratosoglio, a district of high-rise housing on the southern edge of Milan. In 2019 he won the Sanremo festival, Italy’s great song contest, with “Soldi,” Money. It is about a father who left his family, and it has a line in Arabic. Some Italian politicians complained that he was not Italian enough. At Eurovision that May, the song came second.",
         "lat": 45.414,
         "lon": 9.174,
         "zoom": 14,
         "stories": [
           "1fRZSQkpFvHn0DyVo0OXHg"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Soldi.”"
+          ]
+        },
+        "short": "Mahmood"
       },
       {
         "city": "Rome",
         "place": "Via del Corso, Rome",
         "when": "2021",
         "heading": "Måneskin",
-        "text": "Måneskin started as teenagers busking on Via del Corso. They won in 2021 with a glam-rock song, the first Italian win since 1990, and went on to tour the world.",
+        "text": "Two years later, Italy won. Måneskin were four teenagers from Rome who had started out busking on Via del Corso, a long shopping street in the center of the city. Their name means moonlight in Danish, the language of the bass player’s mother. In 2021 they won Sanremo and then Eurovision with “Zitti e buoni,” a loud glam-rock song whose title means roughly shut up and behave. It was Italy’s first win since 1990. They went on to tour the world and play arenas in America.",
         "lat": 41.9032,
         "lon": 12.4795,
         "zoom": 14,
         "stories": [
           "6ZWE70ipfzcY1nhpsIe8VX"
         ],
-        "image": "Crowds on Via del Corso on a weekend afternoon November 2024.jpg"
+        "image": "Crowds on Via del Corso on a weekend afternoon November 2024.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Zitti e buoni.”"
+          ]
+        },
+        "short": "Måneskin"
       },
       {
         "city": "Belgrade",
         "place": "Belgrade",
         "when": "2022",
         "heading": "In corpore sano",
-        "text": "Serbia won in 2007, and Belgrade hosted the next year. In 2022 Konstrakta, an architect turned performer, sat at a basin washing her hands and sang deadpan about health care and beauty standards. It came fifth.",
+        "text": "Serbia won the contest in 2007, its first year competing as an independent country, and Belgrade hosted the next year. Its most memorable entry since came in 2022. Konstrakta, the stage name of Ana Đurić, an architect turned performer, sat on stage at a basin and washed her hands while she sang. The song, “In corpore sano,” is a deadpan list of worries about health, health care, and the hair of celebrities. It came fifth, and it was one of the most talked-about entries of the year.",
         "lat": 44.8125,
         "lon": 20.4612,
         "zoom": 12.5,
         "stories": [
           "1H0q0BSix97I13U301KCjJ"
         ],
-        "image": "Štark Arena.jpg"
+        "image": "Štark Arena.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “In corpore sano.”"
+          ]
+        },
+        "short": "Konstrakta"
       },
       {
         "city": "Helsinki",
         "place": "Ruskeasanta, Vantaa",
         "when": "2023",
         "heading": "Cha Cha Cha",
-        "text": "Finland won in 2006 with the monster-masked rock band Lordi. In 2023 Käärijä, in a bolero of bright green sleeves, won the public vote with a song about drinking away the working week, and came second overall. His home town painted a mural of him.",
+        "text": "Finland won in 2006 with Lordi, a hard-rock band in monster masks. In 2023 it sent Käärijä, a rapper from Vantaa, a suburb just north of Helsinki. He performed in a bolero with huge bright green sleeves and sang, in Finnish, about letting go with a drink at the end of a hard working week. The song flips from industrial rap into a sing-along chorus. It won the public vote across Europe and came second overall. In Ruskeasanta, the part of Vantaa where he grew up, a mural of him was painted on a wall.",
         "lat": 60.2931,
         "lon": 25.034,
         "zoom": 14,
         "stories": [
           "3wA0b8ffHAEyxPZsGM4hHN"
         ],
-        "image": "Käärijä Eurovision Song Contest Final 2024 interval act.jpg"
+        "image": "Käärijä Eurovision Song Contest Final 2024 interval act.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Cha Cha Cha.”"
+          ]
+        },
+        "short": "Käärijä",
+        "shortPlace": "Vantaa"
       }
     ],
     "image": "Eurovision Song Contest 2025 Stage.jpg"
@@ -2533,8 +2587,8 @@
     "title": "Writers’ cities",
     "dates": "1597–1996",
     "intro": [
-      "Some books are inseparable from the city they were written in. You can stand where Bloom bought his soap or where Kafka filed his reports.",
-      "Each stop is one writer and the building or street most tied to them."
+      "Some books are hard to separate from the city they were written in. You can stand where Leopold Bloom bought his soap in Dublin, or where Kafka filed his reports in Prague.",
+      "This thread runs in date order, from Cervantes in a Seville jail in 1597 to a Nobel Prize for a Kraków poet in 1996. Each stop is one writer and the building or street most tied to them."
     ],
     "chapters": [
       {
@@ -2542,7 +2596,7 @@
         "place": "Calle Sierpes, Seville",
         "when": "1597",
         "heading": "Cervantes in jail",
-        "text": "Miguel de Cervantes spent years in Seville as a tax collector and in 1597 was jailed in the Royal Prison on Calle Sierpes over missing money. In the prologue to Don Quixote he says the book was born in a prison. The thieves and card sharps of his Exemplary Stories work the same streets.",
+        "text": "Miguel de Cervantes had a hard life before he became famous. He was wounded in a sea battle against the Ottomans, lost the use of his left hand, and spent five years as a captive in Algiers. Back in Spain, he took a job collecting supplies and taxes for the navy, and he spent years in Seville, then the richest city in Spain. In 1597 a bank where he had deposited tax money failed, and he was jailed in the Royal Prison on Calle Sierpes. In the prologue to Don Quixote, he says the book was conceived in a prison. The thieves and card sharps of his Exemplary Stories, published later, work the same streets of Seville.",
         "lat": 37.3898,
         "lon": -5.9947,
         "zoom": 15,
@@ -2550,14 +2604,22 @@
           "3P9EbSsmdV1EUT9JdSMkpU",
           "2aBkjF8CZYQ8pIKUGwlOHu"
         ],
-        "image": "Calle Sierpes 02.jpg"
+        "image": "Calle Sierpes 02.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Cervantes’s Seville.",
+          "items": [
+            "A podcast episode tells how a tax collector in a city jail dreamed up Don Quixote.",
+            "And the Exemplary Stories include “Rinconete and Cortadillo,” about two boy thieves in the Seville underworld."
+          ]
+        },
+        "short": "Cervantes"
       },
       {
         "city": "London",
         "place": "Shakespeare’s Globe, London",
         "when": "1599–1613",
         "heading": "Shakespeare’s Bankside",
-        "text": "The Globe opened on the south bank of the Thames in 1599, among bear pits and brothels outside the City’s control. Shakespeare wrote Hamlet, King Lear, and Macbeth for it. It burned down in 1613 when a cannon fired during Henry VIII set the thatch alight. The reconstruction opened nearby in 1997.",
+        "text": "A few years later, in London, William Shakespeare was writing for a new theater. The Globe opened in 1599 on Bankside, on the south bank of the Thames. The area lay outside the control of the City of London, so it was full of things the City did not allow: bear-baiting pits, taverns, and brothels. The Globe was a round wooden building, open to the sky, where the cheapest tickets were for standing room in the yard. Shakespeare wrote many of his greatest plays for it, among them Hamlet, King Lear, and Macbeth. In 1613 a cannon fired during a performance of Henry VIII set the thatched roof alight, and the theater burned down. A reconstruction opened nearby in 1997.",
         "lat": 51.5081,
         "lon": -0.0972,
         "zoom": 15,
@@ -2565,14 +2627,22 @@
           "4vauzvkD0ZqTnLEUIGXUry",
           "3OpjNTlJAUKeFcTCWW8HjK"
         ],
-        "image": "London - Shakespeare's Globe Theatre Replica 1997.jpg"
+        "image": "London - Shakespeare's Globe Theatre Replica 1997.jpg",
+        "mediaNote": {
+          "lead": "Here are two short videos about the Globe.",
+          "items": [
+            "In one, the scholar Stephen Greenblatt describes the rough neighborhood around the theater in Shakespeare’s day.",
+            "And in the other, thousands of schoolchildren see Romeo and Juliet at the rebuilt Globe."
+          ]
+        },
+        "short": "The Globe"
       },
       {
         "city": "Edinburgh",
         "place": "Writers’ Museum, Edinburgh",
         "when": "1786–1787",
         "heading": "Burns comes to town",
-        "text": "Robert Burns arrived in Edinburgh in 1786, a plowman from Ayrshire whose first book of poems had just made him famous. The city’s salons took him up for a season. The Writers’ Museum, in a close off the Royal Mile, keeps his desk along with relics of Walter Scott and Robert Louis Stevenson.",
+        "text": "In 1786 a young farmer from Ayrshire, in the southwest of Scotland, published a book of poems, many of them written in Scots, the language of Lowland Scotland. Robert Burns became famous almost overnight, and that winter he came to Edinburgh. The city was at the height of the Scottish Enlightenment, full of philosophers, scientists, and lawyers, and its salons took him up as a natural genius. He stayed for some months and then went back to farming. The Writers’ Museum, in a 17th-century house in a close off the Royal Mile, has his writing desk. It also keeps relics of two later Edinburgh writers, Walter Scott and Robert Louis Stevenson.",
         "lat": 55.9497,
         "lon": -3.1937,
         "zoom": 15,
@@ -2580,42 +2650,62 @@
           "7JLsEQDLCLZYycT4Lf81XU",
           "7Gfstx3xWZWnbo3LhUnnzr"
         ],
-        "image": "Edinburgh - Edinburgh, Lawnmarket, Lady Stair's Close, Lady Stair's House - 20140421142708.jpg"
+        "image": "Edinburgh - Edinburgh, Lawnmarket, Lady Stair's Close, Lady Stair's House - 20140421142708.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into literary Edinburgh.",
+          "items": [
+            "A podcast episode tells how a farmer’s son conquered Edinburgh society.",
+            "And a short video visits the Writers’ Museum and the pubs where writers and drinkers share tables."
+          ]
+        },
+        "short": "Robert Burns"
       },
       {
         "city": "Copenhagen",
         "place": "Nyhavn, Copenhagen",
         "when": "1819–1875",
         "heading": "Andersen",
-        "text": "Hans Christian Andersen, a cobbler’s son, came to Copenhagen at fourteen to be an actor and failed. He wrote The Little Mermaid, The Snow Queen, and more than 150 other tales instead, and lived in three different houses on Nyhavn.",
+        "text": "Hans Christian Andersen was the son of a poor shoemaker in Odense, a town on the Danish island of Funen. In 1819, at fourteen, he went to Copenhagen alone, hoping to become an actor or a singer. He failed at both, but wealthy patrons paid for his schooling. He went on to write novels, plays, and travel books, but he is remembered for his fairy tales: The Little Mermaid, The Ugly Duckling, The Snow Queen, and more than 150 others. Many of them are sadder than their cartoon versions. He lived for years in three different houses on Nyhavn, the harbor street lined with colorful houses.",
         "lat": 55.6798,
         "lon": 12.5913,
         "zoom": 15,
         "stories": [
           "1VlDmC0LGNmeonEAPco8Zq"
         ],
-        "image": "Kopenhagen (DK), Nyhavn -- 2017 -- 1711.jpg"
+        "image": "Kopenhagen (DK), Nyhavn -- 2017 -- 1711.jpg",
+        "mediaNote": {
+          "items": [
+            "For the man behind the tales, there is a biography of Andersen, the shoemaker’s son who never felt he belonged."
+          ]
+        },
+        "short": "Andersen"
       },
       {
         "city": "Oslo",
         "place": "Ibsen’s apartment, Oslo",
         "when": "1891–1906",
         "heading": "Ibsen comes home",
-        "text": "Henrik Ibsen wrote A Doll’s House and Ghosts in Italy and Germany, in a self-imposed exile of 27 years. He came back to Kristiania, now Oslo, in 1891, walked every day to the Grand Café, and spent his last years in an apartment on Arbins gate, now a museum.",
+        "text": "Henrik Ibsen left Norway in 1864, frustrated by its small, narrow theater world, and lived abroad for 27 years, in Italy and Germany. There he wrote the plays that made him famous across Europe. In A Doll’s House, from 1879, a wife named Nora walks out on her husband and children, and audiences were shocked. In 1891 he came home to Kristiania, as Oslo was then called, and he was treated as a great man. He spent his last years in an apartment on Arbins gate, near the royal palace, and he walked to the Grand Café every day. The apartment is now a museum, with his study as he left it.",
         "lat": 59.9152,
         "lon": 10.727,
         "zoom": 15,
         "stories": [
           "6RyWIxB35kHEgOTsI05u3y"
         ],
-        "image": "Ibsen museum Oslo.jpg"
+        "image": "Ibsen museum Oslo.jpg",
+        "mediaNote": {
+          "items": [
+            "For more on the play that made him notorious, there is a podcast episode about A Doll’s House and how it shocked Europe."
+          ]
+        },
+        "short": "Ibsen"
       },
       {
         "city": "Dublin",
         "place": "Sweny’s Pharmacy, Dublin",
         "when": "June 16, 1904",
         "heading": "One day in Dublin",
-        "text": "James Joyce left Dublin in 1904 and never lived there again, but Ulysses follows one day there, June 16, 1904, street by street. It opens in the Martello tower at Sandycove. Leopold Bloom buys lemon soap at Sweny’s, which still sells it. Bloomsday is celebrated on the date every year.",
+        "text": "James Joyce left Dublin in 1904, at 22, and never lived there again. But he spent the rest of his life writing about it. His novel Ulysses, published in 1922, follows a few Dubliners through a single ordinary day, June 16, 1904, street by street and almost minute by minute. It opens in a Martello tower, an old coastal fort at Sandycove, south of the city. Its hero, Leopold Bloom, an advertising salesman, stops at Sweny’s pharmacy to buy a bar of lemon soap. The shop is now run by volunteers, and it still sells the soap. Every year on June 16, which is known as Bloomsday, people dress in Edwardian clothes and follow Bloom’s route around the city.",
         "lat": 53.3419,
         "lon": -6.2506,
         "zoom": 13,
@@ -2624,14 +2714,23 @@
           "HuMReZwX5UeeMYb40GSR9",
           "6uEy95ydn8XSy04pCCJdRc"
         ],
-        "image": "Sweny's pharmacy, Lincoln Place, Dublin, Ireland 11.jpg"
+        "image": "Sweny's pharmacy, Lincoln Place, Dublin, Ireland 11.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Joyce’s Dublin.",
+          "items": [
+            "A podcast goes through Ulysses chapter by chapter, starting with that day in June.",
+            "Ulysses itself is hard, but you can read it in pieces.",
+            "And The Dead, John Huston’s last film, is based on Joyce’s story about a winter dinner party in Dublin in 1904."
+          ]
+        },
+        "short": "Ulysses"
       },
       {
         "city": "Prague",
         "place": "Workers’ Accident Insurance Institute, Prague",
         "when": "1908–1922",
         "heading": "Kafka at the office",
-        "text": "Franz Kafka spent fourteen years as a lawyer at the Workers’ Accident Insurance Institute, assessing injury claims and writing reports on factory safety. He wrote at night: The Metamorphosis, The Trial, The Castle. Before he died in 1924 he asked his friend Max Brod to burn the manuscripts. Brod published them.",
+        "text": "Franz Kafka was born in Prague in 1883 into a German-speaking Jewish family. He trained as a lawyer, and from 1908 he worked for the Workers’ Accident Insurance Institute, a semi-public agency that handled injury claims from factories. He was good at the job, and he wrote reports on safety in quarries and on machines that cut off workers’ fingers. His working day ended at two in the afternoon, and he wrote in the evenings and at night. In The Metamorphosis a salesman wakes up as a giant insect, and in The Trial a man is arrested and never told why. Before he died, in 1924, he asked his friend Max Brod to burn his unpublished manuscripts. Brod published them instead.",
         "lat": 50.0894,
         "lon": 14.4312,
         "zoom": 15,
@@ -2639,14 +2738,22 @@
           "5KGy2yIgGAlYw269YEXeLr",
           "3Z9CckgMCDis32tm3qTjf4"
         ],
-        "image": "Na poříčí, Na Florenci, od Těšnova.jpg"
+        "image": "Na poříčí, Na Florenci, od Těšnova.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to meet Kafka.",
+          "items": [
+            "A podcast episode looks at how a bureaucrat wrote nightmares about bureaucracy.",
+            "And Kafka, a black-and-white thriller by Steven Soderbergh, imagines an insurance clerk drawn into a conspiracy in Prague."
+          ]
+        },
+        "short": "Kafka"
       },
       {
         "city": "Lisbon",
         "place": "Casa Fernando Pessoa, Lisbon",
         "when": "1914–1935",
         "heading": "Pessoa’s many names",
-        "text": "Fernando Pessoa worked as a commercial translator in Lisbon and wrote under dozens of invented names, each with its own biography and style. Almost none of it was published in his lifetime. After he died a trunk of more than 25,000 pages was found. His last apartment in Campo de Ourique is now a museum.",
+        "text": "In Lisbon, Fernando Pessoa worked as a freelance translator of business letters, moving from office to office in the lower town. He wrote poetry and prose under dozens of invented names, which he called heteronyms. Each had its own biography, its own style, and its own views, and some of them even reviewed each other’s work. Very little of it was published in his lifetime. When he died in 1935, a trunk with more than 25,000 pages was found in his room. His last apartment, in the district of Campo de Ourique, is now a museum and library called Casa Fernando Pessoa.",
         "lat": 38.7167,
         "lon": -9.1624,
         "zoom": 14,
@@ -2654,14 +2761,22 @@
           "14OEq2oN7oZ7vJug09I2SU",
           "1nWiinTyT5BXvWHkDbzFTT"
         ],
-        "image": "Casa Fernando Pessoa.jpg"
+        "image": "Casa Fernando Pessoa.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into his many voices.",
+          "items": [
+            "A BBC discussion explores the many voices of Fernando Pessoa.",
+            "And José Saramago’s novel The Year of the Death of Ricardo Reis brings one of those invented poets back to Lisbon in 1936."
+          ]
+        },
+        "short": "Pessoa"
       },
       {
         "city": "Paris",
         "place": "Shakespeare and Company, Paris",
         "when": "1921–1926",
         "heading": "Hemingway’s Paris",
-        "text": "Ernest Hemingway lived in Paris in the early 1920s as a newspaper correspondent, borrowing books from Sylvia Beach’s Shakespeare and Company and writing in cafés. A Moveable Feast, published after his death, is his account of those years. The present shop by Notre-Dame took the name in 1964.",
+        "text": "In the 1920s, Paris drew writers from all over the world, among them many Americans, because it was cheap and free. Ernest Hemingway arrived in 1921 as a young newspaper correspondent, with his first wife, Hadley. They lived in small apartments near the Latin Quarter. He borrowed books from Shakespeare and Company, an English-language bookshop and lending library run by Sylvia Beach, an American who also published Ulysses. He wrote in cafés and worked out his spare style. Many years later he wrote A Moveable Feast, a memoir of those years, published after his death. The present Shakespeare and Company, by Notre-Dame, opened in 1951 and took the name in 1964.",
         "lat": 48.8526,
         "lon": 2.3471,
         "zoom": 13,
@@ -2669,14 +2784,22 @@
           "43NB49fQSbZykpdYnCd9Gt",
           "6GCLThKVxMNSKK4bgtxtef"
         ],
-        "image": "Shakespeare and Company, Paris.jpg"
+        "image": "Shakespeare and Company, Paris.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Hemingway’s Paris.",
+          "items": [
+            "A Moveable Feast is his short memoir of being young, broke, and happy in the city.",
+            "And a short video visits the bar at the Ritz that is now named after him."
+          ]
+        },
+        "short": "Hemingway"
       },
       {
         "city": "Kraków",
         "place": "Writers’ House, Kraków",
         "when": "1945–2012",
         "heading": "Szymborska",
-        "text": "Wisława Szymborska lived most of her life in Kraków, at first in the communal writers’ house on Krupnicza Street. She published few poems, short and dry and funny, and won the Nobel Prize in 1996. She found the fame that followed hard to bear.",
+        "text": "The last stop is in Kraków. Wisława Szymborska moved there as a child and lived in the city for the rest of her life. After the war she lived for some years in the Writers’ House on Krupnicza Street, a building where the state housed writers. She published only a few hundred poems in all, short, dry, and funny, about ordinary things. In 1996 she won the Nobel Prize in Literature. She found the fame that followed hard to bear.",
         "lat": 50.0623,
         "lon": 19.9283,
         "zoom": 15,
@@ -2684,7 +2807,15 @@
           "7NZmF3Z75SzBENED6ilqB",
           "4ryEYJQM8ui5qh6xOyuxEs"
         ],
-        "image": "Krupnicza street, view to W, Kraków, Poland.jpg"
+        "image": "Krupnicza street, view to W, Kraków, Poland.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to meet her.",
+          "items": [
+            "In a podcast episode, the comedian Frank Skinner reads two of her poems and talks about them.",
+            "And a rare film portrait shows the poet who avoided cameras, at home among her friends."
+          ]
+        },
+        "short": "Szymborska"
       }
     ],
     "image": "The interior of Sweny's pharmacy, Lincoln Place, Dublin, Ireland 02.jpg"
@@ -2696,7 +2827,7 @@
     "dates": "1491–1941",
     "intro": [
       "Many of the ideas that changed how we see the world were worked out in a few European rooms, often by people who had to move to find them.",
-      "The stops follow science from Copernicus’s student years to Bohr’s institute in occupied Copenhagen."
+      "This thread follows science from the student years of Copernicus in the 1490s to a famous meeting in occupied Copenhagen in 1941."
     ],
     "chapters": [
       {
@@ -2704,37 +2835,50 @@
         "place": "Collegium Maius, Kraków",
         "when": "1491–1495",
         "heading": "Copernicus",
-        "text": "Nicolaus Copernicus studied at the university in Kraków in the early 1490s, where astronomy was taught well. Half a century later his book arguing that the earth goes around the sun was published as he died, in 1543. The university’s oldest building, the Collegium Maius, keeps instruments from his time.",
+        "text": "Nicolaus Copernicus was born in 1473 in Toruń, a trading town on the Vistula River in Poland. From 1491 he studied at the university in Kraków, which was known for its teaching of astronomy. He went on to study law and medicine in Italy, and he spent most of his life as a church official in a small town on the Baltic coast. All the while, he was working on an idea: that the Earth and the other planets travel around the sun, not the sun around the Earth. His book setting it out was published in 1543, the year he died. The university’s oldest building, the Collegium Maius, has astronomical instruments from his time.",
         "lat": 50.0616,
         "lon": 19.9339,
         "zoom": 15,
         "stories": [
           "2GZT1Z3l4i2QJPai1gECT8"
         ],
-        "image": "Courtyard of the Collegium Maius (Kraków), 2019.jpg"
+        "image": "Courtyard of the Collegium Maius (Kraków), 2019.jpg",
+        "mediaNote": {
+          "items": [
+            "For his story, there is a podcast episode about the merchant’s son who upended the universe."
+          ]
+        },
+        "short": "Copernicus"
       },
       {
         "city": "Prague",
         "place": "Týn Church, Prague",
         "when": "1599–1612",
         "heading": "Tycho and Kepler",
-        "text": "The Danish astronomer Tycho Brahe, who had lost part of his nose in a duel, came to Prague in 1599 as Rudolf II’s imperial mathematician. He hired a young Johannes Kepler and died in 1601. Kepler used Tycho’s observations to work out that the planets move in ellipses. Tycho is buried in the Týn Church.",
+        "text": "Half a century later, the best observations of the sky were being made by a Danish nobleman, Tycho Brahe. As a student he had lost part of his nose in a duel, and he wore a replacement made of metal. On an island off the Danish coast, he built an observatory and measured the positions of the stars and planets more accurately than anyone before him. In 1599 he moved to Prague, to the court of the emperor Rudolf II, who loved science, magic, and curiosities. There he hired a young German mathematician, Johannes Kepler. Tycho died in 1601. Kepler used his observations to work out that the planets move in ellipses, not circles. Tycho is buried in the Týn Church on the Old Town Square.",
         "lat": 50.0876,
         "lon": 14.4225,
         "zoom": 15,
         "stories": [
           "5opk4gfseVC1XIFaZ68JJl",
-          "6ca7V2hP9VaiK2xUfMeY8h",
-          "7yTQgm9u8aKPQO06PqxWEL"
+          "6ca7V2hP9VaiK2xUfMeY8h"
         ],
-        "image": "Praha Týn Church Interior 02.jpg"
+        "image": "Praha Týn Church Interior 02.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Rudolf’s Prague.",
+          "items": [
+            "A podcast episode tells the story of the astronomer with the metal nose.",
+            "And The Mercurial Emperor, by Peter Marshall, describes Rudolf’s court of astronomers, alchemists, and painters."
+          ]
+        },
+        "short": "Tycho and Kepler"
       },
       {
         "city": "Florence",
         "place": "Museo Galileo, Florence",
         "when": "1610–1642",
         "heading": "Galileo’s telescopes",
-        "text": "Galileo turned a telescope on the sky in 1609 and found four moons circling Jupiter. He named them after the Medici, and the next year they made him court mathematician in Florence. Two of his telescopes are in the Museo Galileo, along with a finger taken from his body when it was moved in 1737.",
+        "text": "In Italy, Galileo Galilei heard about a new Dutch invention, the telescope, and in 1609 he built his own. When he turned it on the night sky, he saw mountains on the moon and four small moons circling Jupiter. He named the moons after the Medici, the ruling family of Florence, and the next year they made him their court mathematician. His support for Copernicus brought him into conflict with the Church. In 1633 he was tried by the Inquisition in Rome, forced to take back his views, and kept under house arrest for the rest of his life. Two of his telescopes are in the Museo Galileo in Florence. So is the middle finger of his right hand, taken from his body when it was moved to a new tomb in 1737.",
         "lat": 43.7677,
         "lon": 11.256,
         "zoom": 15,
@@ -2742,14 +2886,22 @@
           "1CpbB2z30GfeaDsciflWia",
           "6lleltZljWQ9VujeLNY3i4"
         ],
-        "image": "Galilei telescopes, Museo Galileo, Florence, Inv. 242, 2428, 224088.jpg"
+        "image": "Galilei telescopes, Museo Galileo, Florence, Inv. 242, 2428, 224088.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into Galileo’s Florence.",
+          "items": [
+            "A short video shows the finger in its glass case in the museum.",
+            "And Galileo’s Daughter, by Dava Sobel, tells his story through the letters of his daughter, a nun."
+          ]
+        },
+        "short": "Galileo"
       },
       {
         "city": "London",
         "place": "Royal Observatory, Greenwich",
         "when": "1675–1884",
         "heading": "Longitude",
-        "text": "Charles II founded the Royal Observatory in 1675 to chart the stars well enough for ships to find their longitude. Christopher Wren, an astronomer before he was an architect, designed it. From 1833 a ball on its roof dropped every day at one o’clock so ships on the Thames could set their clocks. In 1884 the world agreed to measure longitude from here.",
+        "text": "Sailors at sea could find their latitude from the sun, but not their longitude, their position east or west. Errors wrecked ships and cost lives. In 1675 King Charles II founded the Royal Observatory on a hill at Greenwich, east of London, to map the stars accurately enough to solve the problem. It was designed by Christopher Wren, who was an astronomer before he became an architect. The answer, in the end, was an accurate clock. From 1833 a red ball on the roof dropped every day at one o’clock, so that ships on the Thames could set their clocks by it. It still drops every day. In 1884 an international conference agreed to measure longitude from Greenwich.",
         "lat": 51.4768,
         "lon": -0.0005,
         "zoom": 14,
@@ -2757,14 +2909,23 @@
           "38xgdvv7xj4Mjg9pW2iz5P",
           "2LUO9HtYdjAEXNOARIn6N"
         ],
-        "image": "View of the Royal Observatory Greenwich from One Tree Hill in Greenwich Park, London, 20260719 0940 4508.jpg"
+        "image": "View of the Royal Observatory Greenwich from One Tree Hill in Greenwich Park, London, 20260719 0940 4508.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways into the story of Greenwich.",
+          "items": [
+            "A short video explains the time ball on the roof.",
+            "And a podcast episode follows Christopher Wren from astronomy to architecture."
+          ]
+        },
+        "short": "Greenwich",
+        "shortPlace": "Greenwich"
       },
       {
         "city": "Stockholm",
         "place": "Vinterviken and the Nobel Prize Museum, Stockholm",
         "when": "1864–1901",
         "heading": "Nobel",
-        "text": "Alfred Nobel’s experiments with nitroglycerin killed his younger brother in Stockholm in 1864, and the city banned him. He moved his work to a barge and then to Vinterviken, invented dynamite, and grew rich. His will left most of his fortune to prizes, first awarded in 1901.",
+        "text": "In Sweden, the story of science led to prizes. Alfred Nobel was a chemist working with nitroglycerin, a powerful explosive that was dangerously unstable. In 1864 an explosion at the family’s workshop in Stockholm killed his younger brother, Emil, and several others, and the city banned the experiments. Nobel moved them to a barge on a lake, and then to Vinterviken, a quiet bay on the edge of the city. There he found a way to make nitroglycerin safe to handle, and he called it dynamite. It made him one of the richest men in Europe. When he died in 1896, his will left most of his fortune to fund prizes for physics, chemistry, medicine, literature, and peace, first given in 1901.",
         "lat": 59.3106,
         "lon": 17.9861,
         "zoom": 13,
@@ -2773,14 +2934,23 @@
           "7zgGY4NpRxy9g7RNTS06wV",
           "4e8qny4Zvrjp5zN9SJS1dO"
         ],
-        "image": "Stockholm - Nobel Prize Museum - April 2019.jpg"
+        "image": "Stockholm - Nobel Prize Museum - April 2019.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the story of the prizes.",
+          "items": [
+            "A podcast episode tells how Nobel moved his explosives out of the city.",
+            "A book explains where the prizes came from, how the winners are chosen, and who has been missed.",
+            "And a short video visits Stockholm City Hall, where the winners dine every December."
+          ]
+        },
+        "short": "Nobel"
       },
       {
         "city": "Warsaw",
         "place": "Freta Street, Warsaw",
         "when": "1867–1911",
         "heading": "Maria Skłodowska",
-        "text": "Maria Skłodowska was born on Freta Street in 1867, in Russian-ruled Warsaw, and studied at the illegal Flying University because women could not go to the real one. She moved to Paris in 1891. As Marie Curie she won the Nobel Prize for physics in 1903 and for chemistry in 1911.",
+        "text": "One of the most famous winners was born in Warsaw. Maria Skłodowska was born in 1867 on Freta Street, in the New Town, when Warsaw was ruled by the Russian Empire. Women could not study at the university, so she attended the Flying University, a secret school that moved from house to house. In 1891 she went to Paris to study physics. There she married Pierre Curie, and together they discovered two new elements, radium and polonium, which she named after Poland. In 1903 she shared the Nobel Prize in Physics, and in 1911 she won the prize in chemistry. She was the first person to win two Nobel Prizes. The house where she was born is now a small museum.",
         "lat": 52.2524,
         "lon": 21.0089,
         "zoom": 15,
@@ -2788,14 +2958,22 @@
           "5PyVz8yFEX1k0JcN0z0LFy",
           "1LFc7xSjPbGg0hI8tmKu4n"
         ],
-        "image": "Maria Skłodowska-Curie Museum (9632829844).jpg"
+        "image": "Maria Skłodowska-Curie Museum (9632829844).jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to get to know her.",
+          "items": [
+            "A podcast episode follows her from Freta Street to her two Nobel Prizes.",
+            "And Obsessive Genius, by Barbara Goldsmith, is a short, clear biography."
+          ]
+        },
+        "short": "Marie Curie"
       },
       {
         "city": "Vienna",
         "place": "Berggasse 19, Vienna",
         "when": "1891–1938",
         "heading": "Freud",
-        "text": "Sigmund Freud lived and saw patients at Berggasse 19 for 47 years. The Interpretation of Dreams came out in 1899. In 1938, after Germany annexed Austria, he left for London with the famous couch. The Vienna apartment is a museum; the couch is in London.",
+        "text": "In Vienna, Sigmund Freud lived and worked in the same apartment, at Berggasse 19, for 47 years. A doctor trained in the study of the nervous system, he began to treat patients by having them lie on a couch and talk freely about whatever came into their minds. From this he developed psychoanalysis, the idea that our behavior is shaped by wishes and memories we are not aware of. The Interpretation of Dreams came out in 1899. After Germany annexed Austria in 1938, the Nazis persecuted Vienna’s Jews, and Freud, at 82, left for London with his family. He took his famous couch with him. The Vienna apartment is a museum, and the couch is in his last home in London, also a museum.",
         "lat": 48.2186,
         "lon": 16.3631,
         "zoom": 15,
@@ -2804,28 +2982,43 @@
           "1w9SfWRnv3wtqbOQbIGmVp",
           "4Ddb6GCpHfCZB0GNaCivLK"
         ],
-        "image": "Berggasse Freud Museum 01.jpg"
+        "image": "Berggasse Freud Museum 01.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into Freud’s Vienna.",
+          "items": [
+            "A podcast episode revisits Freud and the couch where he reinvented the mind.",
+            "Becoming Freud, by Adam Phillips, is a short book by a psychoanalyst about how Freud became Freud.",
+            "And A Dangerous Method, a film by David Cronenberg, follows Freud, his student Carl Jung, and a patient who came between them."
+          ]
+        },
+        "short": "Freud"
       },
       {
         "city": "Zurich",
         "place": "ETH Zurich",
         "when": "1896–1914",
         "heading": "Einstein",
-        "text": "Albert Einstein trained as a physics teacher at the Zurich Polytechnic, now ETH, from 1896, and could not get an academic job after. He wrote his papers of 1905, including special relativity, while working in the patent office in Bern. Zurich gave him professorships in 1909 and 1912 before he left for Berlin.",
+        "text": "In 1896 a teenage Albert Einstein, who had left school in Germany, enrolled at the Polytechnic in Zurich, now called ETH, to train as a teacher of physics and mathematics. He was not a model student, and when he graduated, no university would hire him. He took a job at the Swiss patent office in Bern. In 1905, in his spare time, he published four papers, including the special theory of relativity, which changed physics. Zurich then took him back. He became a professor at the university in 1909 and at the Polytechnic in 1912, before leaving for Berlin in 1914.",
         "lat": 47.3763,
         "lon": 8.548,
         "zoom": 15,
         "stories": [
           "2Rx5WGyloSwfpW1iXSCiQ5"
         ],
-        "image": "ETH Zurich, Main building.jpg"
+        "image": "ETH Zurich, Main building.jpg",
+        "mediaNote": {
+          "items": [
+            "For his early years, there is a podcast episode about how a middling student learned his physics in Zurich."
+          ]
+        },
+        "short": "Einstein"
       },
       {
         "city": "Manchester",
         "place": "Rutherford Building, Manchester",
         "when": "1907–1919",
         "heading": "The nucleus",
-        "text": "Ernest Rutherford ran the physics laboratory at Manchester for twelve years. In 1911 he showed that an atom has a tiny, dense nucleus, from experiments firing particles at gold foil, and in 1917 he became the first to change one element into another. Graphene was isolated in the same university in 2004.",
+        "text": "In Manchester, a New Zealander named Ernest Rutherford ran the physics laboratory at the university from 1907 to 1919. With his students, he fired tiny particles at a sheet of gold foil. Most went straight through, but a few bounced back. In 1911 he explained why: almost all of an atom’s mass is packed into a tiny, dense center, which he called the nucleus. In 1917 he became the first person to turn one element into another, by splitting the nuclei of nitrogen atoms. Nearly a century later, in 2004, two scientists at the same university used sticky tape to peel graphene, a material one atom thick, off a block of graphite.",
         "lat": 53.4672,
         "lon": -2.233,
         "zoom": 14,
@@ -2833,21 +3026,35 @@
           "2ojDFI2fs22YvXwtZmSpX9",
           "5PV15F5hllLHYuSk61Y32X"
         ],
-        "image": "Front Entrance of the Rutherford building.jpg"
+        "image": "Front Entrance of the Rutherford building.jpg",
+        "mediaNote": {
+          "lead": "Here are two discoveries made at the University of Manchester.",
+          "items": [
+            "A podcast episode tells how Rutherford found the nucleus and split the atom.",
+            "And another tells how pencil lead and sticky tape led to a Nobel Prize for graphene."
+          ]
+        },
+        "short": "Rutherford"
       },
       {
         "city": "Copenhagen",
         "place": "Niels Bohr Institute, Copenhagen",
         "when": "1921–1943",
         "heading": "Bohr’s institute",
-        "text": "Niels Bohr’s institute on Blegdamsvej opened in 1921 and became the center of quantum physics, with young physicists visiting from all over the world. In September 1941 Werner Heisenberg, by then working on Germany’s atomic program, came to see Bohr in occupied Copenhagen. Nobody knows exactly what was said. Bohr escaped to Sweden in 1943.",
+        "text": "The last stop is in Copenhagen. In 1921 the physicist Niels Bohr opened an institute on Blegdamsvej, a street by one of the city’s parks. It became the center of quantum physics, the strange science of the very small. Young physicists came from all over the world to work there. One of them was Werner Heisenberg, a German. In September 1941, when Denmark was under German occupation and Heisenberg was working on Germany’s nuclear program, he came to see Bohr. Nobody knows exactly what they said, and the two men later remembered it differently. In 1943, warned that he was about to be arrested, Bohr escaped by boat to Sweden, and from there he went to Britain and the United States.",
         "lat": 55.6968,
         "lon": 12.5716,
         "zoom": 14,
         "stories": [
           "4TRrnUwCJAAWchGGi4Njeg"
         ],
-        "image": "Niels Bohr Institutet 02.jpg"
+        "image": "Niels Bohr Institutet 02.jpg",
+        "mediaNote": {
+          "items": [
+            "For the mystery of that meeting, there is Copenhagen, a short play by Michael Frayn that imagines it from both sides."
+          ]
+        },
+        "short": "Niels Bohr"
       }
     ],
     "image": "An Experiment on a Bird in the Air Pump.jpg"
@@ -3051,8 +3258,8 @@
     "title": "Fire, flood, and earthquake",
     "dates": "64–today",
     "intro": [
-      "Cities burn, flood, and shake, and some of the ones we visit were shaped by the disaster as much as by any architect. London’s skyline after 1666 and Lisbon’s grid after 1755 were both built on ruins.",
-      "The most recent of these is still being dealt with, by steel gates under the sea."
+      "Cities burn, flood, and shake, and some of the ones we visit were shaped by disaster as much as by any architect. London’s skyline after 1666 and Lisbon’s grid of streets after 1755 were both built on ruins.",
+      "This thread runs in date order, from Rome in AD 64 to the steel gates that now rise from the seabed to protect Venice."
     ],
     "chapters": [
       {
@@ -3060,21 +3267,27 @@
         "place": "Circus Maximus, Rome",
         "when": "64",
         "heading": "Rome burns",
-        "text": "A fire broke out near the Circus Maximus in July 64 and burned for six days. The story of Nero fiddling while it burned is a later invention, but he did use the cleared land for a vast new palace.",
+        "text": "In July of AD 64, a fire broke out in the shops around the Circus Maximus, the great racetrack in the valley below the Palatine Hill. It spread through the crowded wooden houses for six days, and much of the city burned. The emperor Nero was out of Rome when it started. The story that he played the fiddle while the city burned is a later invention, not least because the fiddle had not been invented. But he did use the cleared land in the center for a vast new palace, the Golden House, and many Romans suspected him. Nero blamed the city’s small Christian community, and many of them were executed.",
         "lat": 41.8859,
         "lon": 12.4858,
         "zoom": 14,
         "stories": [
           "3orYMQhZAjaMW915cOdVCV"
         ],
-        "image": "Palatine Hill from Circus Maximus (1).jpg"
+        "image": "Palatine Hill from Circus Maximus (1).jpg",
+        "mediaNote": {
+          "items": [
+            "For the real story, there is a podcast episode about the fire and the myth of the fiddle."
+          ]
+        },
+        "short": "Rome burns"
       },
       {
         "city": "Naples",
         "place": "Pompeii",
         "when": "79",
         "heading": "Vesuvius",
-        "text": "In 79 Vesuvius buried Pompeii and Herculaneum under ash and hot gas. The towns lay hidden until the 1700s. Loaves found still in a baker’s oven are in the archaeological museum in Naples.",
+        "text": "Fifteen years later came another disaster. In AD 79 Mount Vesuvius, on the Bay of Naples, erupted. A column of ash and pumice rose miles into the sky and rained down on Pompeii. The next morning, avalanches of superheated gas and ash swept down the mountain and killed everyone left in Pompeii and in Herculaneum, a smaller town on the coast. The towns lay buried until excavations began in the 1700s. So much was preserved that bakers’ loaves were found still in their ovens, scored into slices. Some of them are in the archaeological museum in Naples.",
         "lat": 40.7512,
         "lon": 14.4887,
         "zoom": 14,
@@ -3083,14 +3296,24 @@
           "5T6k9JiI8cZNuf4Hpzq5Oq",
           "2vsZOcSw9J7psScMXmu2ls"
         ],
-        "image": "Forum (Pompeii) and the Vesuvio.jpg"
+        "image": "Forum (Pompeii) and the Vesuvio.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the eruption.",
+          "items": [
+            "A podcast episode describes the day the volcano froze a city.",
+            "An archaeologist’s audio guide walks through Pompeii, from the Forum to the houses.",
+            "And a food historian looks at one of the loaves baked that day."
+          ]
+        },
+        "short": "Vesuvius",
+        "shortPlace": "Pompeii"
       },
       {
         "city": "London",
         "place": "Pudding Lane and the Monument, London",
         "when": "1666",
         "heading": "The Great Fire",
-        "text": "In September 1666 a fire started in a bakery on Pudding Lane and burned for four days, destroying most of the medieval City, including St. Paul’s Cathedral. Christopher Wren rebuilt St. Paul’s and designed the Monument near where the fire began.",
+        "text": "In London, the great disaster was fire. Early on September 2, 1666, a fire started in a baker’s house on Pudding Lane, near London Bridge. A strong east wind drove it through the narrow streets of wooden houses for four days. It destroyed most of the medieval City, including more than 13,000 houses, 87 churches, and old St. Paul’s Cathedral. Surprisingly few deaths were recorded. Christopher Wren rebuilt St. Paul’s, with its great dome, and dozens of the churches. With the scientist Robert Hooke, he also designed the Monument, a tall stone column near where the fire began. Its height, 202 feet, is the distance from its base to the bakery.",
         "lat": 51.5101,
         "lon": -0.0863,
         "zoom": 14,
@@ -3099,89 +3322,132 @@
           "4DPDFci12lqcJq1UpLB9Qx",
           "7a4YJ7ifxSExDLhFoagM41"
         ],
-        "image": "Great Fire London.jpg"
+        "image": "Great Fire London.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways to follow the fire.",
+          "items": [
+            "A walking tour with the historian Dan Snow traces the fire’s path from Pudding Lane.",
+            "A one-minute video explains the Monument.",
+            "And Rick Steves’s audio tour of St. Paul’s Cathedral explains the church that rose from the ashes."
+          ]
+        },
+        "short": "The Great Fire"
       },
       {
         "city": "Lisbon",
         "place": "Praça do Comércio, Lisbon",
         "when": "1755",
         "heading": "All Saints’ Day",
-        "text": "On the morning of November 1, 1755, an earthquake flattened much of Lisbon, then a tsunami came up the river and fires burned for days. Tens of thousands died. The Marquis of Pombal rebuilt the lower town on a grid, with buildings framed to survive the next one. The Carmo Convent was left as a ruin.",
+        "text": "On the morning of November 1, 1755, All Saints’ Day, a huge earthquake struck Lisbon while much of the city was at Mass. Churches collapsed on their congregations. Survivors fled to the open ground by the river, and a tsunami swept in from the sea. Fires then burned for days. Tens of thousands of people died. The king’s chief minister, later the Marquis of Pombal, took charge. He had the lower town rebuilt on a grid of straight streets, with buildings framed inside by wooden cages designed to flex in an earthquake. The roofless Carmo Convent, on the hill above, was left as a ruin.",
         "lat": 38.7073,
         "lon": -9.1364,
         "zoom": 14,
         "stories": [
           "39vFiCcFGl9Ys9rvfELFZi",
           "6UXiiC8Y0600mcbnEL60AI",
-          "2FZI2Byv8UXZ04y4UhjoIC",
-          "ntSdcNANTmmp7FkUdCFdB"
+          "2FZI2Byv8UXZ04y4UhjoIC"
         ],
-        "image": "Convento do Carmo de Lisboa 12.JPG"
+        "image": "Convento do Carmo de Lisboa 12.JPG",
+        "mediaNote": {
+          "lead": "Here are three ways into the earthquake and what came after.",
+          "items": [
+            "A short video tells how Pombal rebuilt the city.",
+            "This Gulf of Fire, by Mark Molesky, tells the story of the disaster and how Europe argued about God afterward.",
+            "And a short Witness History episode tells the story through the people who survived."
+          ]
+        },
+        "short": "The Lisbon earthquake"
       },
       {
         "city": "Paris",
         "place": "Pont de l’Alma, Paris",
         "when": "1910",
         "heading": "The Seine floods",
-        "text": "In January 1910 the Seine rose about eight meters and flooded streets, cellars, and Métro tunnels for weeks. Parisians still judge floods by how far up the stone Zouave soldier on the Pont de l’Alma the water reaches.",
+        "text": "In Paris, the danger was the river. In January 1910, after weeks of heavy rain, the Seine rose more than eight meters above its normal level. It flooded streets, cellars, and the new tunnels of the Métro for weeks, and people moved around the city in boats and on wooden walkways. Parisians still judge how high the river is by the Zouave, a stone statue of a French soldier on a pier of the Pont de l’Alma. In 1910 the water reached his shoulders.",
         "lat": 48.8638,
         "lon": 2.302,
         "zoom": 14,
         "stories": [
           "2ssr0v9WaJusAwknSfA7YP"
         ],
-        "image": "Crue de la Seine. Rue Surcouf, 7ème arrondissement, Paris, le 28 janvier 1910. PH3201.jpg"
+        "image": "Crue de la Seine. Rue Surcouf, 7ème arrondissement, Paris, le 28 janvier 1910. PH3201.jpg",
+        "mediaNote": {
+          "items": [
+            "For more, there is a podcast episode about the flood of 1910 and the soldier on the bridge."
+          ]
+        },
+        "short": "The Seine floods"
       },
       {
         "city": "Naples",
         "place": "San Sebastiano al Vesuvio, Naples",
         "when": "1944",
         "heading": "Vesuvius again",
-        "text": "In March 1944, with Allied troops already in Naples, Vesuvius erupted for eleven days. Lava swallowed the village of San Sebastiano, and falling ash wrecked dozens of American bombers at a nearby airfield.",
+        "text": "Vesuvius did not go quiet. In March 1944, during the Second World War, with Allied troops already holding Naples, it erupted again, for eleven days. Lava flowed down its slopes and swallowed most of San Sebastiano al Vesuvio, a village on the mountain. Falling ash and rock wrecked dozens of American bombers parked at an airfield nearby. It was the last eruption of Vesuvius so far.",
         "lat": 40.8434,
         "lon": 14.3667,
         "zoom": 14,
         "stories": [
           "4aHtqM6wfIwvpfrZzzKh4S"
         ],
-        "image": "Mt Vesuvius Erupting.jpg"
+        "image": "Mt Vesuvius Erupting.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear from witnesses, there is a short Witness History episode about the wartime eruption."
+          ]
+        },
+        "short": "Vesuvius, 1944",
+        "shortPlace": "San Sebastiano"
       },
       {
         "city": "Florence",
         "place": "Santa Croce, Florence",
         "when": "1966",
         "heading": "The Arno floods",
-        "text": "On November 4, 1966, the Arno burst its banks and filled Florence with mud and fuel oil. Volunteers from around the world, the “mud angels,” came to dig out books and paintings. Cimabue’s crucifix in Santa Croce was among the worst damaged.",
+        "text": "On November 4, 1966, after days of rain, the Arno burst its banks in Florence. Water, mud, and heating oil filled the streets to a depth of several meters, flooding churches, libraries, and museums. Dozens of people died. Young volunteers came from all over the world to help, and they became known as the mud angels. They dug books, archives, and paintings out of the mud. One of the worst losses was the great painted crucifix by Cimabue, from the 1200s, in the church of Santa Croce, which lost much of its paint.",
         "lat": 43.7686,
         "lon": 11.2623,
         "zoom": 14,
         "stories": [
           "3aSEcFy2eB8booJ82pCzkz",
-          "2RBKYNQwUfMd1IL10Y82QU",
-          "481ZU29qXsevHQv3xXKdcX"
+          "2RBKYNQwUfMd1IL10Y82QU"
         ],
-        "image": "National Library manuscripts being washed in Florence after the 1966 flood of the Arno - UNESCO - PHOTO 0000001407 0001 - Restoration.jpg"
+        "image": "National Library manuscripts being washed in Florence after the 1966 flood of the Arno - UNESCO - PHOTO 0000001407 0001 - Restoration.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to see what happened.",
+          "items": [
+            "Dark Water, by Robert Clark, tells the story of the flood and the people who saved the city’s art.",
+            "And British Pathé newsreel footage shows the city buried in mud."
+          ]
+        },
+        "short": "The Arno floods"
       },
       {
         "city": "Bucharest",
         "place": "Magheru Boulevard, Bucharest",
         "when": "1977",
         "heading": "The 1977 earthquake",
-        "text": "On March 4, 1977, an earthquake killed about 1,500 people, most of them in Bucharest, where interwar apartment blocks along the main boulevards collapsed. Ceaușescu used the damage as a reason for the demolitions that followed.",
+        "text": "On the evening of March 4, 1977, an earthquake struck Romania. About 1,500 people died, most of them in Bucharest, where apartment blocks built between the wars along the main boulevards collapsed. The dictator Nicolae Ceaușescu used the damage as an excuse. In the 1980s he demolished a large part of the old city, including churches and whole neighborhoods, to build his vast new civic center and the Palace of the Parliament.",
         "lat": 44.4385,
         "lon": 26.0995,
         "zoom": 14,
         "stories": [
           "1G0Rod6eWzt8X657hCXlcX"
         ],
-        "image": "Bucharest-1977.jpg"
+        "image": "Bucharest-1977.jpg",
+        "mediaNote": {
+          "items": [
+            "To see what happened, there is archive footage of the earthquake and the collapsed blocks."
+          ]
+        },
+        "short": "The 1977 earthquake"
       },
       {
         "city": "Venice",
         "place": "St. Mark’s Square, Venice",
         "when": "1966–today",
         "heading": "High water",
-        "text": "The same day the Arno flooded Florence, the highest tide on record flooded Venice. After decades of delay, a line of steel gates on the seabed, called MOSE, began rising to close the lagoon in 2020. St. Mark’s Square, the lowest part of the city, still floods most often.",
+        "text": "On November 4, 1966, the same day the Arno flooded Florence, the highest tide ever recorded flooded Venice. The city has always lived with acqua alta, high water, but the floods have grown more frequent as the sea rises and the city slowly sinks. After decades of delay and a corruption scandal, a system of 78 steel gates called MOSE was installed on the seabed at the three openings of the lagoon. When a high tide is forecast, air is pumped in, and the gates rise to hold back the sea. They were first used in 2020. St. Mark’s Square, the lowest part of the city, still floods most often.",
         "lat": 45.4339,
         "lon": 12.3383,
         "zoom": 14,
@@ -3189,7 +3455,15 @@
           "53dotLZhzBAyP89ek7H8HF",
           "5RXGpo9M2PBrT5MJon46Qn"
         ],
-        "image": "San Marco, Acqua Alta - Venice, Italy - panoramio.jpg"
+        "image": "San Marco, Acqua Alta - Venice, Italy - panoramio.jpg",
+        "mediaNote": {
+          "lead": "Here are two short videos about the water.",
+          "items": [
+            "One explains why St. Mark’s Square floods first.",
+            "And the other shows how the gates rise from the seabed."
+          ]
+        },
+        "short": "High water"
       }
     ],
     "image": "Verschuier-fire.jpg"
@@ -3200,8 +3474,8 @@
     "title": "Exiles",
     "dates": "1302–today",
     "intro": [
-      "Europe’s cities have always taken in people who couldn’t go home: poets thrown out by rivals, revolutionaries waiting for their moment, refugees from war. Some places became waiting rooms where people sat for months for a visa or a ship.",
-      "This thread follows exiles from Dante to people arriving now."
+      "Europe’s cities have always taken in people who could not go home: poets thrown out by their rivals, revolutionaries waiting for their moment, and refugees from war. Some cities became waiting rooms, where people sat for months hoping for a visa or a ship.",
+      "This thread follows exiles from Dante, thrown out of Florence in 1302, to refugees arriving in Europe today."
     ],
     "chapters": [
       {
@@ -3209,53 +3483,74 @@
         "place": "Casa di Dante, Florence",
         "when": "1302",
         "heading": "Dante",
-        "text": "In 1302 Dante was exiled from Florence by a rival faction and sentenced to be burned if he came back. He never returned and wrote the Divine Comedy in exile, putting several of his enemies in hell. He died in Ravenna in 1321.",
+        "text": "In the 1290s, Dante Alighieri, a poet, was also a politician in Florence. The city was split between two factions, and in 1302, while he was away on a mission to the pope, the other side took power. Dante was sentenced to exile and fined, and he was later condemned to be burned alive if he ever came back. He never did. For the rest of his life he moved between the courts of northern Italy. In exile he wrote the Divine Comedy, an epic journey through hell, purgatory, and heaven, and he put several of his enemies in hell. He died in Ravenna in 1321, and he is buried there. Florence has asked for his remains back ever since.",
         "lat": 43.7711,
         "lon": 11.2571,
         "zoom": 14,
         "stories": [
           "1Rax7XmQ3LxWJBeRXiR9mJ"
         ],
-        "image": "Casa di Dante (firenze).JPG"
+        "image": "Casa di Dante (firenze).JPG",
+        "mediaNote": {
+          "items": [
+            "For his life, there is a short biography of the poet who wrote the greatest poem in Italian while in exile."
+          ]
+        },
+        "short": "Dante"
       },
       {
         "city": "Zurich",
         "place": "Spiegelgasse, Zurich",
         "when": "1916–1917",
         "heading": "Lenin, Joyce, and Dada",
-        "text": "Neutral Switzerland filled with refugees and draft dodgers in the First World War. On one short street in Zurich’s old town, artists founded Dada at the Cabaret Voltaire while Lenin lived a few doors up. James Joyce was writing Ulysses across town. In April 1917 Lenin left by train for Russia.",
+        "text": "During the First World War, neutral Switzerland filled with refugees, draft dodgers, and revolutionaries. In 1916, on Spiegelgasse, a short street in Zurich’s old town, a group of artists and poets opened the Cabaret Voltaire. Disgusted by the war, they staged nonsense poems and noise, and they called the movement Dada. A few doors up the same street lived Vladimir Lenin, the exiled Russian revolutionary. Across town, James Joyce was writing Ulysses. In April 1917, after the tsar fell, the German government let Lenin cross Germany in a sealed train, hoping he would cause trouble in Russia. He did.",
         "lat": 47.3717,
         "lon": 8.5441,
         "zoom": 14,
         "stories": [
           "2ZWtE0fSc4goMRJpL6FGDL",
-          "5Q0QO9yjvLgbBCcj3rfBJv",
           "5EEWT8kUUnmQPcnNV24abb",
           "3tneq0hveHH4rmvidSayzo",
           "3wST7kiAoQU06PzJe2K6d8"
         ],
-        "image": "Zürich - Cabaret Voltaire (48687833078).jpg"
+        "image": "Zürich - Cabaret Voltaire (48687833078).jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into wartime Zurich.",
+          "items": [
+            "A short Witness History episode tells how war refugees invented Dada.",
+            "Lenin on the Train, by Catherine Merridale, tells the story of his journey like a thriller.",
+            "A podcast episode explains how the journey was arranged, and what it led to.",
+            "And Travesties, Tom Stoppard’s comedy, imagines Lenin, Joyce, and a Dada poet meeting in Zurich."
+          ]
+        },
+        "short": "Zurich, 1916"
       },
       {
         "city": "Oslo",
         "place": "Fram Museum, Oslo",
         "when": "1922",
         "heading": "A passport for the stateless",
-        "text": "The polar explorer Fridtjof Nansen became the League of Nations’ high commissioner for refugees. In 1922 he created the Nansen passport, a travel document for people who had lost their citizenship, and won the Nobel Peace Prize.",
+        "text": "After the First World War and the Russian Revolution, millions of people in Europe were refugees, and many had lost their citizenship. Without a passport, they could not legally travel or work. Fridtjof Nansen, a Norwegian polar explorer famous for crossing Greenland on skis, became the League of Nations’ first High Commissioner for Refugees. In 1922 he created a travel document for stateless people, which became known as the Nansen passport. More than fifty countries recognized it, and it helped hundreds of thousands of people. That year he won the Nobel Peace Prize. His polar ship, the Fram, is now in a museum in Oslo.",
         "lat": 59.9034,
         "lon": 10.6997,
         "zoom": 14,
         "stories": [
           "OG0AQg4QiccKgehqkbtGs"
         ],
-        "image": "Fram Museum in Oslo.JPG"
+        "image": "Fram Museum in Oslo.JPG",
+        "mediaNote": {
+          "items": [
+            "For his story, there is a BBC discussion about the polar hero who became a champion of refugees."
+          ]
+        },
+        "short": "Nansen passport"
       },
       {
         "city": "Athens",
         "place": "Nea Smyrni, Athens",
         "when": "1922–1923",
         "heading": "The exchange",
-        "text": "After Greece’s defeat in Anatolia, Greece and Turkey agreed in 1923 to swap their minorities by religion. More than a million Orthodox Christians came to Greece. In Athens they built new districts and named them after the towns they had lost, like Nea Smyrni and Nea Ionia.",
+        "text": "In 1922 a Greek army that had invaded Anatolia was defeated by the Turkish nationalists, and Greek communities that had lived on that coast for thousands of years fled. In 1923 the two countries agreed to exchange their minorities, by religion rather than language. More than a million Orthodox Christians were sent to Greece, and several hundred thousand Muslims to Turkey. Athens was overwhelmed. The refugees built new districts on its edges and named them after the towns they had lost, such as Nea Smyrni, New Smyrna, and Nea Ionia.",
         "lat": 37.945,
         "lon": 23.7142,
         "zoom": 14,
@@ -3263,14 +3558,22 @@
           "ImOYPgStgBue2Xx5H1iE9",
           "3dJPL1MhJcnHKH7AAKSE6b"
         ],
-        "image": "Nea Smyrni church.JPG"
+        "image": "Nea Smyrni church.JPG",
+        "mediaNote": {
+          "lead": "Here are two ways into the story of the exchange.",
+          "items": [
+            "Twice a Stranger, by Bruce Clark, tells how the exchange uprooted people on both sides.",
+            "And “Vradiazei,” Night Falls, is sung by the great mournful voice of postwar Greece, who was born in Nea Ionia."
+          ]
+        },
+        "short": "The exchange"
       },
       {
         "city": "Vienna",
         "place": "Belvedere, Vienna",
         "when": "1938",
         "heading": "Leaving Vienna",
-        "text": "After Germany annexed Austria in March 1938, tens of thousands of Viennese Jews fled, leaving homes and art to be taken. Maria Altmann was one of them. Decades later she won back Klimt’s portrait of her aunt, which had hung in the Belvedere.",
+        "text": "In March 1938 Germany annexed Austria, and within days Vienna’s Jews were being beaten in the streets, robbed, and forced out of their jobs. About two thirds of the city’s Jewish population, well over a hundred thousand people, managed to emigrate before the war closed the borders. Most had to leave almost everything behind. Maria Altmann, a young woman from a wealthy family, escaped with her husband to the United States. Their family’s property, including a gold portrait of her aunt Adele by Gustav Klimt, was taken. Decades later, she won the painting back from Austria.",
         "lat": 48.1914,
         "lon": 16.3808,
         "zoom": 14,
@@ -3278,14 +3581,22 @@
           "34F13PA10qMALxx1Re9fXm",
           "6u6tEAX0VbsK3QLUCOlShz"
         ],
-        "image": "Palacio Belvedere, Viena, Austria, 2020-02-01, DD 93-95 HDR.jpg"
+        "image": "Palacio Belvedere, Viena, Austria, 2020-02-01, DD 93-95 HDR.jpg",
+        "mediaNote": {
+          "lead": "Here are two films about leaving and returning.",
+          "items": [
+            "Woman in Gold, with Helen Mirren, tells Maria Altmann’s fight to recover the painting.",
+            "And Welcome in Vienna, by Axel Corti, follows two émigrés who come back as American soldiers in 1945."
+          ]
+        },
+        "short": "Leaving Vienna"
       },
       {
         "city": "Marseille",
         "place": "Boulevard d’Athènes, Marseille",
         "when": "1940–1941",
         "heading": "Marseille",
-        "text": "When France fell, refugees crowded into Marseille looking for visas and ships. The American journalist Varian Fry helped about 2,000 people get out, among them Chagall, Hannah Arendt, and André Breton. Anna Seghers turned the waiting into the novel Transit.",
+        "text": "When France fell to Germany in 1940, the north was occupied, and refugees from all over Europe fled south to Marseille, hoping to find a ship. They needed visas, exit permits, and transit papers, and they waited for months. Varian Fry, an American journalist, came to the city that summer with a list of artists and intellectuals in danger. Working from a hotel and then a small office, he helped about 2,000 people escape, among them the painter Marc Chagall, the philosopher Hannah Arendt, and the poet André Breton. The novelist Anna Seghers, herself one of the refugees, turned the endless waiting into a novel, Transit.",
         "lat": 43.2997,
         "lon": 5.38,
         "zoom": 14,
@@ -3295,42 +3606,64 @@
           "sCYb4luVt43GWbgmuzNya",
           "1hS5PTrjw0Mpj06BOaAzwn"
         ],
-        "image": "Canebière - Marseille I (FR13) - 2023-07-22 - 1.jpg"
+        "image": "Canebière - Marseille I (FR13) - 2023-07-22 - 1.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into Marseille in 1940.",
+          "items": [
+            "A podcast episode tells how Varian Fry smuggled Europe’s artists past the Nazis.",
+            "Surrender on Demand is Fry’s own account of those months.",
+            "Transit, by Anna Seghers, is a hypnotic novel about the waiting.",
+            "And Christian Petzold’s film Transit sets her story in the present day."
+          ]
+        },
+        "short": "Varian Fry"
       },
       {
         "city": "Lisbon",
         "place": "Rossio, Lisbon",
         "when": "1940–1942",
         "heading": "The last port",
-        "text": "Neutral Portugal was the way out of Europe for many who made it across Spain. Refugees waited in Lisbon’s cafés for a place on a ship to America, sometimes for months.",
+        "text": "For refugees who made it across the Pyrenees and through Spain, the last stop was Lisbon. Portugal was neutral, and ships still sailed from its harbor to New York and South America. Tens of thousands of people waited in the city for a visa or a place on a ship, sometimes for months. They filled the cafés around the Rossio, the old central square. Many of them had got this far thanks to Aristides de Sousa Mendes, the Portuguese consul in Bordeaux, who issued thousands of visas against his government’s orders in June 1940. He was punished for it and died poor.",
         "lat": 38.7139,
         "lon": -9.1391,
         "zoom": 14,
         "stories": [
           "1fy6HAMgkwKt1GGl8jralN"
         ],
-        "image": "Westward view from the south end of Rossio, Lisbon, 2010.jpg"
+        "image": "Westward view from the south end of Rossio, Lisbon, 2010.jpg",
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is a book about neutral Lisbon in the war, full of refugees, spies, and smugglers."
+          ]
+        },
+        "short": "The last port"
       },
       {
         "city": "Venice",
         "place": "San Michele, Venice",
         "when": "1972–1996",
         "heading": "Brodsky’s winters",
-        "text": "The Soviet Union expelled the poet Joseph Brodsky in 1972. He settled in the US but spent most winters in Venice and wrote a short book about it. He is buried on the cemetery island of San Michele.",
+        "text": "Exile did not end with the war. Joseph Brodsky, a young poet from Leningrad, was put on trial in 1964 for “social parasitism,” because the state did not consider poetry a job. In 1972 the Soviet Union expelled him. He settled in the United States, and in 1987 he won the Nobel Prize in Literature. For seventeen years he spent most winters in Venice, a city that reminded him of his own, and he wrote a short book about it, Watermark. He died in 1996, and he is buried on San Michele, the cemetery island in the lagoon.",
         "lat": 45.4472,
         "lon": 12.3475,
         "zoom": 14,
         "stories": [
           "6mLTSvPmiDiXOUT7pIJ9pa"
         ],
-        "image": "San Michele the Cemetery Island (21356112529).jpg"
+        "image": "San Michele the Cemetery Island (21356112529).jpg",
+        "mediaNote": {
+          "items": [
+            "If you want to read it, Watermark is a short book about Venice in winter: fog, water, and light."
+          ]
+        },
+        "short": "Brodsky"
       },
       {
         "city": "Amsterdam",
         "place": "Amsterdam and Paris",
         "when": "2016–today",
         "heading": "Arriving now",
-        "text": "The war in Syria sent more than a million people to Europe in 2015 and 2016. One Syrian filmmaker recorded his arrival at Amsterdam Centraal. In Paris, a workshop gives exiled artists space and tools.",
+        "text": "The latest exiles are arriving now. The war in Syria, which began in 2011, drove millions of people from their homes. In 2015 and 2016, more than a million people came to Europe seeking safety, many of them on foot. One of them, the Syrian filmmaker Thaeer Muhreez, arrived at Amsterdam’s Centraal Station in 2016 after a long journey across the continent. In Paris, the Agency of Artists in Exile gives artists who have fled their countries a place to work, tools, and a community.",
         "lat": 52.3789,
         "lon": 4.9015,
         "zoom": 14,
@@ -3350,7 +3683,16 @@
             "lat": 48.8916,
             "lon": 2.3775
           }
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are two stories of arriving.",
+          "items": [
+            "A podcast episode follows a Syrian filmmaker building a new life in the Netherlands.",
+            "And a short video visits the Paris agency that helps exiled artists keep working."
+          ]
+        },
+        "short": "Arriving now",
+        "shortPlace": "Amsterdam"
       }
     ],
     "image": "Marseille La Canebière postcard.jpg"
