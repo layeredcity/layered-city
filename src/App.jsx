@@ -1203,6 +1203,15 @@ function StoryIcon({ story, omdbData, bookData }) {
       {el}
     </span>
   )
+  // Video channel avatars: on hover a red ring sweeps once around the circle,
+  // like a progress bar filling, and a small play button pops in at the corner.
+  const wrapVideo = (el) => (
+    <span className="story-item__icon-reel">
+      {el}
+      <span className="story-item__icon-reel__ring" aria-hidden="true" />
+      <span className="story-item__icon-reel__play" aria-hidden="true" />
+    </span>
+  )
   // Tour covers look like a haphazard little stack of Polaroids — a few blank
   // ones tilted behind the real photo on top. On hover a white "camera flash"
   // fires, then the top image develops from washed-out to full colour.
@@ -1250,6 +1259,7 @@ function StoryIcon({ story, omdbData, bookData }) {
     }
     if (isAlbum && isMusic) return wrapRecord(img)
     if (isPodcast) return wrapViz(img)
+    if (shape === 'video') return wrapVideo(img)
     return img
   }
   // Tours with no cover fall back to a wide placeholder with the tour glyph.
@@ -1277,6 +1287,7 @@ function StoryIcon({ story, omdbData, bookData }) {
   if (isBook) return wrapBook(placeholder)
   if (isMovieTV) return wrapCase(placeholder)
   if (isPodcast) return wrapViz(placeholder)
+  if (shape === 'video') return wrapVideo(placeholder)
   return placeholder
 }
 
