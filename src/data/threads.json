@@ -156,8 +156,8 @@
     "title": "Michelangelo",
     "dates": "1475–1564",
     "intro": [
-      "Michelangelo thought of himself as a sculptor, but popes kept making him paint and build. He spent his working life going back and forth between Florence and Rome, and most of what he made is still in those two cities.",
-      "This thread follows him between them, plus two pieces that ended up in Paris and London."
+      "Michelangelo Buonarroti thought of himself as a sculptor, but popes kept asking him to paint and to build. He spent his long working life going back and forth between Florence and Rome, and most of what he made is still in those two cities.",
+      "This thread follows him between them, from his first great statue to the dome of St. Peter’s. It ends in London, with a famous copy and its fig leaf."
     ],
     "chapters": [
       {
@@ -165,7 +165,7 @@
         "place": "St. Peter’s Basilica, Rome",
         "when": "1498–1499",
         "heading": "The Pietà",
-        "text": "A French cardinal commissioned a marble of Mary holding the dead Christ for his tomb. Michelangelo was in his early twenties. It is the only work he ever signed, on the sash across Mary’s chest.",
+        "text": "Michelangelo was born in 1475 in a small town in Tuscany and grew up in Florence, where he studied sculpture in the gardens of the Medici, the family who ran the city. In 1496 he went to Rome. There a French cardinal asked him to carve a Pietà for his tomb: the Virgin Mary holding the body of Christ across her lap after the crucifixion. Michelangelo was in his early twenties. He made Mary young and calm, and he polished the marble until it shone. According to an early biographer, he heard visitors credit it to another sculptor. That night he carved his name on the sash across Mary’s chest. It is the only work he ever signed.",
         "lat": 41.9022,
         "lon": 12.4539,
         "zoom": 14,
@@ -173,14 +173,22 @@
           "3gpSN3CxyKm0wDTzHWwp6j",
           "5jpFOJ2eJeYvPhHr4wpSLL"
         ],
-        "image": "The Pietà by Michelangelo (48135182552).jpg"
+        "image": "The Pietà by Michelangelo (48135182552).jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to see it properly.",
+          "items": [
+            "A short video looks at how he carved it, and why it is the only work he signed.",
+            "And an audio guide to St. Peter’s Basilica starts in the square and passes the Pietà on its way inside."
+          ]
+        },
+        "short": "The Pietà"
       },
       {
         "city": "Florence",
         "place": "Piazza della Signoria, Florence",
         "when": "1501–1504",
         "heading": "David",
-        "text": "Back in Florence, he took a tall block of marble that had been started and abandoned decades before and carved David from it. A committee that included Leonardo decided to put it outside the town hall instead of on the cathedral. It stood there until 1873, when it moved into the Accademia. A copy now stands in its place.",
+        "text": "His success in Rome brought him home to Florence, which had thrown out the Medici and become a republic. In 1501 the cathedral’s board of works gave him a huge block of marble that two other sculptors had started and then abandoned decades before. Out of it he carved David, the young shepherd from the Bible who killed the giant Goliath. It took him nearly three years, and the statue is more than five meters tall. It was meant to go high up on the cathedral. Instead, a committee of artists that included Leonardo da Vinci placed it at the entrance to the town hall, as a symbol of the small republic standing up to its enemies. It stayed outside until 1873, when it was moved into the Accademia gallery. A copy now stands in its place.",
         "lat": 43.7697,
         "lon": 11.2556,
         "zoom": 14,
@@ -190,14 +198,24 @@
           "1ioyGsMQu0knhy5Tw8hbvk",
           "2VvQvMZ7GnidU84uG5mJQA"
         ],
-        "image": "David, by Michelangelo (32651813498).jpg"
+        "image": "David, by Michelangelo (32651813498).jpg",
+        "mediaNote": {
+          "lead": "David has more good material than any other statue, and here are four pieces of it.",
+          "items": [
+            "A podcast episode follows the committee that argued over where to put it.",
+            "A short Smarthistory video explains what the statue meant to the republic.",
+            "Great Art Explained looks at how he carved it, and why the proportions look odd up close.",
+            "And The Agony and the Ecstasy, Irving Stone’s enormous novel, is the book that first made many readers care about Michelangelo."
+          ]
+        },
+        "short": "David"
       },
       {
         "city": "Rome",
         "place": "San Pietro in Vincoli, Rome",
         "when": "1505–1545",
         "heading": "The tomb",
-        "text": "Pope Julius II called him to Rome to build a huge freestanding tomb with more than forty statues. Money and politics cut it down over forty years to a wall tomb with Moses at the center. In 1506, while he was in Rome, the Laocoön was dug up in a vineyard and he was sent to look at it.",
+        "text": "In 1505 a new pope, Julius II, called him back to Rome. Julius was a soldier as much as a priest, and he wanted a tomb for himself on a scale nobody had seen: a freestanding monument with more than forty statues. Michelangelo spent months in the quarries of Carrara choosing marble. Then the pope lost interest and spent his money on rebuilding St. Peter’s instead. The project dragged on for forty years, through quarrels, new contracts, and the death of Julius, and it shrank each time. What finally went up, in 1545, was a wall tomb in the church of San Pietro in Vincoli, with a seated figure of Moses at its center. In 1506, while he was in Rome, an ancient statue of the Trojan priest Laocoön and his sons was dug up in a vineyard. The pope sent him to look at it.",
         "lat": 41.8937,
         "lon": 12.4931,
         "zoom": 14,
@@ -206,14 +224,23 @@
           "5SJfuDCJXjcdRrknEx8IT4",
           "3AXvECNYMSLvJ2WjyN4hNZ"
         ],
-        "image": "San Pietro in Vincole May 2022-4.jpg"
+        "image": "San Pietro in Vincole May 2022-4.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into the tomb, and the ancient statue he saw.",
+          "items": [
+            "A short video looks at Moses and the tomb as it was finally built.",
+            "A podcast episode tells how the project shrank from more than forty statues to a few.",
+            "And another video looks at the Laocoön, which still stands in the Vatican Museums."
+          ]
+        },
+        "short": "The tomb of Julius"
       },
       {
         "city": "Rome",
         "place": "Sistine Chapel, Rome",
         "when": "1508–1512",
         "heading": "The ceiling",
-        "text": "Julius then made him paint the ceiling of the Sistine Chapel, a job he didn’t want. He worked standing on scaffolding, not lying on his back, and it took four years. Raphael was painting rooms for the same pope down the corridor.",
+        "text": "Julius then gave him a job he did not want. In 1508 he asked Michelangelo to paint the ceiling of the Sistine Chapel, the pope’s private chapel in the Vatican. Michelangelo said he was a sculptor, not a painter, but the pope insisted. He worked for four years on a scaffold he designed himself. He did not lie on his back, as the legend says. He stood, with his head bent back, and he wrote a comic poem about the pain in his neck. The ceiling shows nine scenes from the book of Genesis, from the creation of the world to the story of Noah, surrounded by prophets and sibyls. Down the corridor, at the same time, the young painter Raphael was decorating the pope’s apartments.",
         "lat": 41.9029,
         "lon": 12.4545,
         "zoom": 14,
@@ -221,31 +248,46 @@
           "4ugGMfs7h5lJeEy3QvRF0B",
           "1rEBVcnySpA62AcB9UOACn",
           "3ZgBMfTJUYNVYvBZISjY91",
-          "17rTe7XDTlc90FK6zMzYWy",
           "3zsFBqiTZuZGrRWJ4hgkM5"
         ],
-        "image": "Sistine Chapel ceiling 03.jpg"
+        "image": "Sistine Chapel ceiling 03.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways to prepare for the Sistine Chapel.",
+          "items": [
+            "A short video explains what the ceiling shows and how it is arranged.",
+            "A podcast episode tells how a reluctant sculptor became a painter under protest.",
+            "Ross King’s short book, Michelangelo and the Pope’s Ceiling, tells the story of the four years and the arguments.",
+            "And a video about Raphael’s portrait of Julius II shows the pope who hired them both."
+          ]
+        },
+        "short": "The Sistine ceiling"
       },
       {
         "city": "Paris",
         "place": "Louvre, Paris",
         "when": "1513–1516",
         "heading": "Two slaves",
-        "text": "He carved two bound figures for the tomb, then they were dropped from the plan. He gave them away, and they went to France. They are now in the Louvre.",
+        "text": "Even while he painted, the tomb was still on his mind. Around 1513 he carved two figures of bound captives for it, one twisting against his ropes and the other sinking as if into sleep. When the plan for the tomb was cut down again, there was no room for them. Michelangelo gave them to a friend, a Florentine exile, who passed them on to the king of France. They are now in the Louvre, where they are known as the Dying Slave and the Rebellious Slave.",
         "lat": 48.8606,
         "lon": 2.3376,
         "zoom": 14,
         "stories": [
           "6G5p9IxOoOhQm9ny668iqe"
         ],
-        "image": "Dying and Rebellious Slaves by Michelangelo (Louvre).jpg"
+        "image": "Dying and Rebellious Slaves by Michelangelo (Louvre).jpg",
+        "mediaNote": {
+          "items": [
+            "For a closer look, there is a short video about the two figures and why they never reached the tomb."
+          ]
+        },
+        "short": "Two captives"
       },
       {
         "city": "Florence",
         "place": "San Lorenzo, Florence",
         "when": "1520–1534",
         "heading": "The Medici rooms",
-        "text": "For the Medici he designed a funeral chapel at San Lorenzo, with reclining figures of Night, Day, Dawn, and Dusk, and a library with a staircase that seems to pour into the entrance hall. In 1530, after siding with the republic against the Medici, he is thought to have hidden in a small room under the chapel. Drawings on its walls were found in 1975.",
+        "text": "By 1520 the Medici were back in power in Florence, and one of them was now pope. They hired Michelangelo to design a funeral chapel for the family at their church of San Lorenzo. He designed the room and carved its tombs, with reclining figures of Night, Day, Dawn, and Dusk. Next door he designed a library for the family’s books, with an entrance hall whose staircase seems to pour down into the room. In 1527 the Medici were thrown out again, and Michelangelo helped design the city’s defenses against them. When they returned in 1530, he is thought to have hidden for weeks in a small room under the chapel. In 1975 drawings were found on its walls, and many experts believe they are his.",
         "lat": 43.7751,
         "lon": 11.2533,
         "zoom": 14,
@@ -254,14 +296,23 @@
           "4MUtDvEGSVaGw8oLabCSNK",
           "3VtYptKdaQ8P9eHztQkLp4"
         ],
-        "image": "Tomb of Lorenzo, Duke of Urbino, New Sacristy (Medici Chapel), San Lorenzo, Florence (2) (48768615417).jpg"
+        "image": "Tomb of Lorenzo, Duke of Urbino, New Sacristy (Medici Chapel), San Lorenzo, Florence (2) (48768615417).jpg",
+        "mediaNote": {
+          "lead": "Here are three short videos about the Medici rooms.",
+          "items": [
+            "One looks at the chapel, designed as a setting for his sculpture.",
+            "Another looks at the library, and the entrance hall that breaks the rules on purpose.",
+            "And a third visits the hidden room under the chapel, with its charcoal drawings."
+          ]
+        },
+        "short": "The Medici chapel"
       },
       {
         "city": "Rome",
         "place": "Sistine Chapel and St. Peter’s, Rome",
         "when": "1534–1564",
         "heading": "Judgment and the dome",
-        "text": "He moved to Rome for good in 1534 and painted the Last Judgment on the chapel’s altar wall. In his seventies he took over the building of St. Peter’s and designed its dome, and he laid out the square on the Capitoline Hill. He died in Rome in 1564, and his body was taken to Florence to be buried.",
+        "text": "In 1534 he left Florence for good and settled in Rome. A new pope asked him to paint the Last Judgment on the altar wall of the Sistine Chapel, more than twenty years after the ceiling. It is darker and more crowded than the ceiling, with Christ at the center sending the saved up and the damned down. In the empty skin held by one of the saints, many people see a self-portrait. In 1546, in his seventies, he took charge of building St. Peter’s Basilica, and he designed its great dome, which was finished after his death. He also redesigned the square at the top of the Capitoline Hill. He died in Rome in 1564, at 88. Florence wanted him back, and his body was smuggled out of Rome like a bale of goods and buried in the church of Santa Croce.",
         "lat": 41.9022,
         "lon": 12.4539,
         "zoom": 12.5,
@@ -270,20 +321,35 @@
           "5OaeFegPVLl3auD6c1Pykh",
           "3gmHz7RWCse3zFGQzH6QjN"
         ],
-        "image": "Dome of St. Peter's Basilica by Michelangelo (7990081751).jpg"
+        "image": "Dome of St. Peter's Basilica by Michelangelo (7990081751).jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into his last years in Rome.",
+          "items": [
+            "A short video looks at the Last Judgment and the self-portrait some see in it.",
+            "An art historian’s audio tour of St. Peter’s includes a climb up his dome.",
+            "And an archaeologist’s walk starts at his square on the Capitoline Hill."
+          ]
+        },
+        "short": "The dome"
       },
       {
         "city": "London",
         "place": "Victoria and Albert Museum, London",
         "when": "1857",
         "heading": "A copy for London",
-        "text": "The Grand Duke of Tuscany gave Queen Victoria a full-size plaster cast of David. It stands in the V&A’s Cast Courts with other copies of famous works. A plaster fig leaf was made for it so it could be covered for royal visits.",
+        "text": "The last stop is a copy. In 1857 the Grand Duke of Tuscany gave Queen Victoria a full-size plaster cast of David. She is said to have been shocked by its nakedness. A plaster fig leaf was made so that it could be hung on the statue when royal ladies visited. The cast now stands in the Cast Courts of the Victoria and Albert Museum in London, two huge halls built in the 1870s for copies of famous sculpture and architecture. The fig leaf is displayed nearby.",
         "lat": 51.4969,
         "lon": -0.1713,
         "zoom": 14,
         "stories": [
           "108PxXGItGeOAsTGJoQCtt"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "For a look inside, there is a short video from the museum about the Cast Courts."
+          ]
+        },
+        "short": "The copy in London"
       }
     ],
     "image": "CAPPELLA SISTINA Ceiling.jpg"
@@ -294,8 +360,8 @@
     "title": "Caravaggio",
     "dates": "1571–1610",
     "intro": [
-      "Michelangelo Merisi took his name from the town his family came from, east of Milan. In about fifteen years in Rome he changed how European painting handled light, and he did it while getting into court cases, sword fights and, in 1606, a killing.",
-      "He spent his last four years as a fugitive. His paintings are now spread across Europe, some still in the chapels they were made for."
+      "Michelangelo Merisi, called Caravaggio after the town his family came from, changed how European painters used light. In about fifteen years in Rome, he painted saints as ordinary people, lit by harsh beams in dark rooms.",
+      "He was also violent, and in 1606 he killed a man. This thread follows him from Milan to Rome, then through four years on the run, and ends with where his paintings are now."
     ],
     "chapters": [
       {
@@ -303,81 +369,104 @@
         "place": "Milan and the town of Caravaggio",
         "when": "1571–1592",
         "heading": "Training in Lombardy",
-        "text": "Born in Milan in 1571 and raised partly in Caravaggio after plague killed his father. At 13 he was apprenticed to Simone Peterzano, a Milanese painter who said he had trained under Titian. Lombard painters liked plain, closely observed detail, and he took that with him. His Basket of Fruit, painted later in Rome, is in Milan’s Biblioteca Ambrosiana.",
+        "text": "Caravaggio was born in Milan in 1571. When he was five, plague broke out in the city, and the family moved to Caravaggio, a small town to the east, but his father died there of the disease. At thirteen he was apprenticed to Simone Peterzano, a Milanese painter who claimed to have studied with Titian, the great Venetian. Painters in Lombardy, the region around Milan, liked plain, closely observed detail, and Caravaggio took that taste with him. You can see it in his Basket of Fruit, painted later in Rome, with its wormholes and wilting leaves. It hangs in Milan, in the Biblioteca Ambrosiana, a library and gallery founded by the cardinal who owned it.",
         "lat": 45.4642,
         "lon": 9.19,
         "zoom": 6.2,
         "stories": [],
-        "image": "Basket of Fruit-Caravaggio (c.1595)FXD.jpg"
+        "image": "Basket of Fruit-Caravaggio (c.1595)FXD.jpg",
+        "short": "Training in Milan"
       },
       {
         "city": "Rome",
         "place": "San Luigi dei Francesi and Santa Maria del Popolo, Rome",
         "when": "1592–1606",
         "heading": "Fame in two chapels",
-        "text": "He arrived in Rome broke and painted fruit and flowers for other artists. His break was the Contarelli Chapel in San Luigi dei Francesi in 1600: the Calling of Saint Matthew, with a shaft of light across a tax office. Two more canvases for Santa Maria del Popolo followed. Both churches are free, and the paintings are still where he hung them.",
+        "text": "Around 1592 he went to Rome, with no money and no name. At first he painted fruit and flowers for other artists. Then a cardinal took him into his household. In 1599 he won his first public commission: two large paintings for the Contarelli Chapel in San Luigi dei Francesi, the French church near Piazza Navona. In The Calling of Saint Matthew, Christ walks into a dim tax office, and a beam of light falls across the men counting money at a table. Nothing like it had been seen in a Roman church. Two more paintings followed for the Cerasi Chapel in Santa Maria del Popolo, by the city’s northern gate. In one, Saint Paul lies blinded on the ground under his horse. Both churches are free to enter, and the paintings still hang where he put them.",
         "lat": 41.8995,
         "lon": 12.4747,
         "zoom": 13.2,
         "stories": [
           "3mNloBGr72upZ8imprjKAP",
-          "4EWqldH7ktv6gwpjh8Nei7",
           "po3cs5l7L5gpuzZYqFJYf",
           "7zQhyIOxKLKQu8vyGZ0yvh",
-          "4RDAEUuHNaiEyClNql6DG5",
-          "1qbbRHGLEPsEQe9luJujLX",
           "3JhAf2nOJzOxUjre2CGebv"
         ],
-        "image": "Paintings by Caravaggio at Contarelli Chapel-3.jpg"
+        "image": "Paintings by Caravaggio at Contarelli Chapel-3.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways to prepare for a visit to those chapels.",
+          "items": [
+            "A short video explains The Calling of Saint Matthew.",
+            "Another looks at The Conversion of Saint Paul, with the horse that fills most of the canvas.",
+            "A third looks at The Crucifixion of Saint Peter, which hangs opposite it.",
+            "And Andrew Graham-Dixon’s biography, Caravaggio: A Life Sacred and Profane, is the best account of his life."
+          ]
+        },
+        "short": "Two chapels"
       },
       {
         "city": "Rome",
         "place": "Via della Pallacorda, Rome",
         "when": "May 1606",
         "heading": "A death on the tennis court",
-        "text": "In May 1606 a fight near the tennis courts on Via della Pallacorda ended with Caravaggio killing Ranuccio Tomassoni. He was sentenced to death in absentia, which meant anyone could kill him on sight, and he left Rome.",
+        "text": "Success did not calm him down. Police records show him arrested again and again, for carrying a sword without a permit, for throwing a plate of artichokes at a waiter, and for attacking people at night. On May 28, 1606, a fight broke out near the tennis courts on Via della Pallacorda, close to the Campo Marzio. It may have been about a bet, a debt, or a woman. Caravaggio killed a young man named Ranuccio Tomassoni with his sword, and he was badly wounded himself. He fled the city. He was sentenced to death in his absence, which meant anyone in the papal states could kill him on sight.",
         "lat": 41.9017,
         "lon": 12.4741,
         "zoom": 15,
         "stories": [
           "4xwEo9Zd32Lce7ppMv0Jwf"
         ],
-        "image": "Caravaggio - David with the Head of Goliath - Vienna.jpg"
+        "image": "Caravaggio - David with the Head of Goliath - Vienna.jpg",
+        "mediaNote": {
+          "items": [
+            "For the whole story, there is a podcast episode about the brawl that ended his career in Rome."
+          ]
+        },
+        "short": "The killing"
       },
       {
         "city": "Naples",
         "place": "Pio Monte della Misericordia, Naples",
         "when": "1606–1607, 1609–1610",
         "heading": "Sanctuary in Naples",
-        "text": "Naples was Spanish-ruled and outside the Pope’s reach. He was in demand at once: the Seven Works of Mercy, painted for a charity’s chapel, still hangs over its altar. The Flagellation of Christ is at Capodimonte.",
+        "text": "He went to Naples, a city ruled by Spain and outside the pope’s reach. It was then one of the largest cities in Europe, crowded and poor, and its patrons wanted him at once. For a new charity, the Pio Monte della Misericordia, he painted The Seven Works of Mercy. It crams feeding the hungry, visiting prisoners, burying the dead, and the other good works into one dark street corner, and it still hangs over the altar of the charity’s chapel. He also painted The Flagellation of Christ for a church in the city. It now hangs in the Museo di Capodimonte, the former royal palace on a hill above Naples.",
         "lat": 40.8517,
         "lon": 14.2593,
         "zoom": 13.2,
         "stories": [
           "4i7YqVm8sTQxSXaLJTJnn1",
-          "7mWIRcop1Lg613yVpEXngZ",
-          "4ieQ1JmLRoLoVKPPynr7NI"
+          "7mWIRcop1Lg613yVpEXngZ"
         ],
-        "image": "Pio Monte della Misericordia (Naples) - Church.jpg"
+        "image": "Pio Monte della Misericordia (Naples) - Church.jpg",
+        "mediaNote": {
+          "lead": "Here are two ways to look at his Naples paintings.",
+          "items": [
+            "A podcast episode tells how he found sanctuary in Naples and painted his masterpiece there.",
+            "And a short video looks at The Flagellation of Christ."
+          ]
+        },
+        "short": "Naples"
       },
       {
         "city": "Malta, Sicily, and Porto Ercole",
         "place": "Valletta, Syracuse, Messina, Palermo, and Porto Ercole",
         "when": "1607–1610",
         "heading": "On the run",
-        "text": "In Malta he was made a Knight of the Order of St. John, then jailed after another fight, escaped, and was expelled. He moved through Sicily painting altarpieces, went back to Naples, and was badly cut in the face outside a tavern. He died in July 1610 at Porto Ercole, on his way to Rome to ask for a pardon. He was 38.",
+        "text": "In 1607 he sailed to Malta, an island ruled by the Knights of St. John, a military order of noblemen. He painted for them, including a huge Beheading of Saint John the Baptist for their church in Valletta, the only painting he ever signed. In 1608 they made him a knight. Within weeks he was in prison after another fight. He escaped over the walls and fled to Sicily, and the order threw him out. He moved from Syracuse to Messina to Palermo, painting altarpieces as he went. In 1609 he was back in Naples, where men attacked him outside a tavern and slashed his face. In July 1610 he set out by boat for Rome, hoping for a pardon, and died of a fever at Porto Ercole, on the coast of Tuscany. He was 38.",
         "lat": 37.5,
         "lon": 14.2,
         "zoom": 5.6,
         "stories": [],
-        "image": "The Beheading of Saint John-Caravaggio (1608).jpg"
+        "image": "The Beheading of Saint John-Caravaggio (1608).jpg",
+        "short": "On the run",
+        "shortPlace": "Malta and Sicily"
       },
       {
         "city": "London, Dublin, Berlin, and Paris",
         "place": "London, Dublin, Berlin, and Paris",
         "when": "Today",
         "heading": "Where the paintings went",
-        "text": "Collectors and dukes moved his easel paintings north. The Death of the Virgin was turned down by the church that ordered it and bought for the Duke of Mantua on Rubens’s advice; it is now in the Louvre. The Taking of Christ was lost for two centuries and turned up in 1990 in a Jesuit house in Dublin.",
+        "text": "After his death, collectors carried his paintings out of Italy and north. The Supper at Emmaus, in which a young, beardless Christ is recognized at a table, is in the National Gallery in London. Amor Victorious, a grinning Cupid stepping over symbols of music, war, and learning, is in Berlin. The Death of the Virgin was rejected by the Roman church that ordered it, perhaps because the model for Mary was rumored to be a drowned woman from the streets. The young Peter Paul Rubens advised the Duke of Mantua to buy it, and it is now in the Louvre. The Taking of Christ was lost for two centuries. In 1990 it was found in a Jesuit house in Dublin, where it had been thought to be a copy, and it now hangs in the National Gallery of Ireland.",
         "lat": 50.5,
         "lon": 2.5,
         "zoom": 4.2,
@@ -409,7 +498,18 @@
           "1ODlLmZUiyn9lhbADoXM6p",
           "6DYRQNxSusCwsKTS8IG0lA"
         ],
-        "image": "Supper at Emmaus-Caravaggio (1601).jpg"
+        "image": "Supper at Emmaus-Caravaggio (1601).jpg",
+        "mediaNote": {
+          "lead": "Here are four of the paintings that went north.",
+          "items": [
+            "A short video looks at The Supper at Emmaus in London.",
+            "Great Art Explained tells the story of The Taking of Christ, and how it was found in Dublin.",
+            "A podcast episode looks at Amor Victorious, and why it caused talk in Rome.",
+            "And another short video looks at The Death of the Virgin, and why the church turned it down."
+          ]
+        },
+        "short": "Where they went",
+        "shortPlace": "Across Europe"
       }
     ],
     "image": "The Calling of Saint Matthew-Caravaggo (1599-1600).jpg"
@@ -1448,8 +1548,8 @@
     "title": "Songs of longing",
     "dates": "Lisbon to Istanbul",
     "intro": [
-      "Many European cities have a song form built on missing something: a home, a lover, a country, a self. Most grew in port districts and poor quarters, often among people who had arrived from somewhere else, and most were looked down on before they became national treasures.",
-      "This one has no timeline. Start anywhere, and listen before you read."
+      "Many European cities have a song form built on missing something: a home, a lover, a country, a self. Most of them grew up in port districts and poor quarters, often among people who had arrived from somewhere else. Most were looked down on before they became national treasures.",
+      "This thread travels from Lisbon in the west to Istanbul in the east. The stops have no timeline, so you can start anywhere, and it is worth listening before you read."
     ],
     "chapters": [
       {
@@ -1457,7 +1557,7 @@
         "place": "Alfama and Mouraria, Lisbon",
         "when": "Fado",
         "heading": "Saudade in the old quarters",
-        "text": "Fado comes out of 19th-century Lisbon: sailors’ bars, brothels, and taverns in Alfama and Mouraria. The word for its mood is saudade, longing for something gone or never had. Amália Rodrigues took it to the world in the 1950s, and UNESCO listed it in 2011.",
+        "text": "Fado, Lisbon’s song, grew up in the 1800s in the old quarters near the river, Alfama and Mouraria, in sailors’ bars, brothels, and taverns. A singer, the fadista, stands in front of two guitarists, one of them playing the round Portuguese guitar with twelve strings. The mood of fado has a word of its own, saudade, a longing for something lost or something that never was. For a long time respectable Lisbon looked down on it. Then in the 1950s Amália Rodrigues took it around the world, and it became a symbol of Portugal. In 2011 UNESCO listed fado as part of the world’s intangible heritage. Mariza, who grew up in Mouraria, has led its revival.",
         "tip": "Fado houses start late, often after 9 p.m. When a fadista sings, the room goes quiet and stays that way.",
         "lat": 38.7111,
         "lon": -9.1276,
@@ -1466,18 +1566,26 @@
           "4bDXMJYHwNFeGwFOZM8ZSe",
           "2h4t1DzbmPSU3PrOrb4VTE",
           "iPwYswvjmMMWcDfAFj9lt",
-          "42C17mJW8tYIWrE9BrsXya",
-          "YSOS0DiK05AfGRhm2OAkO",
-          "aoFjx0a8UPAYhFV8TXyXJ"
+          "42C17mJW8tYIWrE9BrsXya"
         ],
-        "image": "Amália Rodrigues \"by Vihls\" - Lisboa - Portugal (44297159360).jpg"
+        "image": "Amália Rodrigues \"by Vihls\" - Lisboa - Portugal (44297159360).jpg",
+        "mediaNote": {
+          "lead": "Here are three fado singers, and a conversation about the music.",
+          "items": [
+            "“A Casa da Mariquinhas,” sung by Alfredo Marceneiro, has the weathered voice of the old taverns.",
+            "“Uma Casa Portuguesa,” sung by Amália Rodrigues, is about a humble house rich in love.",
+            "“Ó Gente da Minha Terra,” sung by Mariza, became her signature song.",
+            "And a BBC discussion explains fado, and the sense of absence at its heart."
+          ]
+        },
+        "short": "Fado"
       },
       {
         "city": "Seville",
         "place": "Triana, Seville",
         "when": "Flamenco",
         "heading": "Deep song across the river",
-        "text": "Triana, across the Guadalquivir from the cathedral, was home to Gitano families, potters, and sailors. The oldest flamenco, cante jondo or “deep song,” is about grief, prison, and hunger. Niña de los Peines recorded it in the 1910s, when most of it had never been written down.",
+        "text": "In Seville, the deepest flamenco comes from Triana, the neighborhood across the Guadalquivir River from the cathedral. It was home to Gitano families, the Roma of Spain, along with potters and sailors. The oldest form is called cante jondo, deep song, and its subjects are grief, prison, poverty, and death. Most of it was never written down. It passed from singer to singer in homes and taverns. In the early 1900s, Pastora Pavón, known as La Niña de los Peines, recorded many of the old songs, and she is still thought of as one of the greatest flamenco singers. In 2010 UNESCO listed flamenco as intangible heritage.",
         "tip": "Tablaos are shows for visitors. Peñas, members’ clubs that often let in guests, are where locals listen.",
         "lat": 37.3835,
         "lon": -6.0031,
@@ -1485,18 +1593,27 @@
         "stories": [
           "6QaB6BDDGt8sri1SEhxaaG",
           "2jodJdlFgt3FVbOLx0YGCX",
-          "7JT3fJmW8mP27ioVqCMUZw",
           "4oC4si1tBNdzbGW7nH7iNH",
           "1iAFrqerCRiupzF9JXUErS"
         ],
-        "image": "Puente de triana 2017001.jpg"
+        "image": "Puente de triana 2017001.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into flamenco.",
+          "items": [
+            "A recording of La Niña de los Peines singing bulerías has the voice of flamenco’s golden age.",
+            "A travel podcast visits the city’s flamenco dance museum and talks with its founder.",
+            "Duende, by Jason Webster, follows an Englishman who moves to Spain and falls into the flamenco world.",
+            "And Flamenco, a film by Carlos Saura, presents thirteen forms of it on a bare stage."
+          ]
+        },
+        "short": "Flamenco"
       },
       {
         "city": "Naples",
         "place": "Santa Chiara, Naples",
         "when": "Canzone napoletana",
         "heading": "Songs for the people who left",
-        "text": "Millions of Neapolitans emigrated to the Americas, and many of the city’s songs were written for them. “Santa Lucia luntana” is sung from a ship pulling out of the bay. “Munasterio ’e Santa Chiara,” from 1945, asks whether it’s true that Naples has been destroyed, after Allied bombs burned the church.",
+        "text": "Naples has a song tradition of its own, the canzone napoletana. Its golden age came in the decades around 1900, just as millions of Neapolitans were emigrating to the Americas, and many songs were written for them or about them. “Santa Lucia luntana,” from 1919, is sung from the deck of a ship as the lights of the bay disappear. “Munasterio ’e Santa Chiara” was written in 1945, after Allied bombs had burned the great church of Santa Chiara in the old center. Its singer is far away and has heard that Naples has been destroyed, but does not want to know if it is true. The best known of all, “’O sole mio,” is simply about the sun.",
         "lat": 40.8466,
         "lon": 14.2534,
         "zoom": 14,
@@ -1505,14 +1622,23 @@
           "2erZKuywg2BBQwYjgPdJAB",
           "PScfDJD3vfSI39lZbRq9D"
         ],
-        "image": "Santa chiara, chiostro maiolicato 03.JPG"
+        "image": "Santa chiara, chiostro maiolicato 03.JPG",
+        "mediaNote": {
+          "lead": "Here are three songs from Naples.",
+          "items": [
+            "“Munasterio ’e Santa Chiara” is a wartime exile’s song of homesickness.",
+            "“Santa Lucia luntana” became the anthem of the emigrants.",
+            "And “’O sole mio,” sung by Enrico Caruso, is the most famous Neapolitan song of all."
+          ]
+        },
+        "short": "Neapolitan song"
       },
       {
         "city": "Budapest",
         "place": "Kispipa restaurant, Akácfa Street, Budapest",
         "when": "Gloomy Sunday",
         "heading": "One song, played everywhere",
-        "text": "Rezső Seress wrote “Szomorú vasárnap” in 1933 and played piano most nights at the Kispipa in the old Jewish quarter. Translated as “Gloomy Sunday,” it went around the world, and the press gave it a reputation as cursed. Billie Holiday’s 1941 version is the best known in English.",
+        "text": "In Budapest, one song traveled the world on its own. In 1933 Rezső Seress, a self-taught songwriter, wrote “Szomorú vasárnap,” Sad Sunday, a slow, despairing song about loss. He played the piano most nights at the Kispipa, a small restaurant on Akácfa Street in the old Jewish quarter. The song was translated into English as “Gloomy Sunday,” and newspapers gave it a reputation as cursed. Billie Holiday’s recording from 1941 is the best known in English. Seress, who was Jewish, survived a Nazi forced labor camp, and he went back to playing at the Kispipa after the war.",
         "lat": 47.4999,
         "lon": 19.0657,
         "zoom": 14,
@@ -1520,14 +1646,22 @@
           "5r8jZYeDvNn5WIBnpqRqPq",
           "1gBB6xPeJQm39Y89jXaSUA"
         ],
-        "image": "Akácfa utca a Rákóczi út felől nézve. Fortepan 15309.jpg"
+        "image": "Akácfa utca a Rákóczi út felől nézve. Fortepan 15309.jpg",
+        "mediaNote": {
+          "lead": "Here is the song, and a film built around it.",
+          "items": [
+            "A recording of “Szomorú vasárnap” has the melody that went around the world.",
+            "And Gloomy Sunday, a German film, imagines a love triangle in a Budapest restaurant, built around the song."
+          ]
+        },
+        "short": "Gloomy Sunday"
       },
       {
         "city": "Athens",
         "place": "Piraeus, Athens",
         "when": "Rebetiko",
         "heading": "Refugees in the port",
-        "text": "After 1922 more than a million Greeks were expelled from Asia Minor, and many ended up in shanty towns around Piraeus. They brought the music of Smyrna’s cafés, and in the port’s hash dens it became rebetiko: bouzouki songs about exile, prison, drugs, and love. The Metaxas dictatorship censored it in the 1930s.",
+        "text": "In 1922, after a war between Greece and Turkey, more than a million Greeks were forced to leave Asia Minor, the region that is now western Turkey. Many ended up in shanty towns around Piraeus, the port of Athens. They brought the music of the cafés of Smyrna, the cosmopolitan city they had lost. In the port’s tavernas and hashish dens, it mixed with local songs and became rebetiko, played on the bouzouki and sung about exile, prison, drugs, and love. The dictatorship of Ioannis Metaxas censored it in the late 1930s. After the Second World War it went mainstream, and today it is often called the Greek blues.",
         "lat": 37.9469,
         "lon": 23.6404,
         "zoom": 13,
@@ -1535,38 +1669,61 @@
           "5ZjR9b6X6iZHgXSMtSQBkh",
           "5WloUHIWsvtnXsSHEgrBEM",
           "33qApObRl9Zc7AKcrCYajD",
-          "Z4h9e73iTypgEHpaH8ZVk",
-          "3TcX9uHX1LdtCtQIek6Uwu"
+          "Z4h9e73iTypgEHpaH8ZVk"
         ],
-        "image": "Piraeus Quartet.jpg"
+        "image": "Piraeus Quartet.jpg",
+        "mediaNote": {
+          "lead": "To hear how the music sounds and where it came from, here are four places to start.",
+          "items": [
+            "“Frangosyriani,” by Markos Vamvakaris, is a tender love song from the patriarch of rebetiko.",
+            "“Synnefiasmeni Kyriaki,” Cloudy Sunday, by Vassilis Tsitsanis, was written in occupied Greece.",
+            "An episode of the Ottoman History Podcast tells how refugees from Smyrna and Istanbul turned exile into rebetiko.",
+            "And Road to Rembetika, by Gail Holst, explains the music and translates its songs."
+          ]
+        },
+        "short": "Rebetiko"
       },
       {
         "city": "Bucharest",
         "place": "Bucharest",
         "when": "Lăutari songs",
         "heading": "The voice of the old taverns",
-        "text": "Maria Tănase sang the songs of Romania’s lăutari, the mostly Roma musicians who played in taverns and at weddings. She was a star from the late 1930s to her death in 1963, and many Romanians still know her songs by heart.",
+        "text": "In Romania, the music of longing belonged to the lăutari, professional musicians, most of them Roma, who played in taverns, at weddings, and at funerals. Maria Tănase grew up in a poor neighborhood on the edge of Bucharest and learned their songs as a girl. From the late 1930s she sang them on the radio and on records, in a deep, dramatic voice, and she became the country’s biggest star. People called her the Piaf of Romania. She died in 1963, at 49, and many Romanians still know her songs by heart.",
         "lat": 44.4083,
         "lon": 26.105,
         "zoom": 12,
         "stories": [
           "3W1aZIOV48gVTcv6S0gNjt"
         ],
-        "image": "Maria Tanase 1937.jpg"
+        "image": "Maria Tanase 1937.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear her, there is a recording of “Cine iubește și lasă,” Whoever Loves and Abandons, a curse on a faithless lover."
+          ]
+        },
+        "short": "Maria Tănase"
       },
       {
         "city": "Istanbul",
         "place": "Unkapanı, Istanbul",
         "when": "Arabesk",
         "heading": "Songs for the new arrivals",
-        "text": "From the 1960s, millions moved from the Anatolian countryside to Istanbul and built houses on its edges overnight. Arabesk, with Turkish folk tunes, Egyptian strings, and lyrics about fate and heartbreak, was their music. State radio kept it off the air for years. It sold on cassettes from the wholesale blocks at Unkapanı.",
+        "text": "From the 1960s, millions of people moved from the villages of Anatolia to Istanbul, looking for work. Many built houses on the edges of the city overnight, on land they did not own. Their music was arabesk, which mixed Turkish folk tunes with the sweeping strings of Egyptian film music. Its songs were about fate, heartbreak, and being a stranger in the city. Turkish state radio kept it off the air for years, so it spread on cassettes, sold from the wholesale music market at Unkapanı, by the Golden Horn. Its first great hit was Orhan Gencebay’s “Bir Teselli Ver,” in 1968. The city’s older stars, such as Zeki Müren, sang in the glittering nightclubs called gazinos.",
         "lat": 41.0174,
         "lon": 28.9575,
         "zoom": 13.5,
         "stories": [
           "1Y4GGwUS9DsQIzy8CcAiaq",
           "N8m9zJupU5d9KThmueuqM"
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are two sides of Istanbul’s music.",
+          "items": [
+            "“Bir Teselli Ver,” Give Me Some Consolation, is the record that started arabesk.",
+            "And “Manolyam,” My Magnolia, is sung by Zeki Müren, the most beloved singer Turkey has known."
+          ]
+        },
+        "short": "Arabesk"
       }
     ],
     "image": "Alfama, Lisbon (DSC03373).jpg"
@@ -1577,8 +1734,8 @@
     "title": "Jazz in Europe",
     "dates": "1920s–1980s",
     "intro": [
-      "Jazz arrived in Europe with American soldiers and touring bands after the First World War, and Black American musicians soon found they were treated better in Paris than at home. Within a generation every city had its own players.",
-      "Under communism in Poland it was first banned and then tolerated, which made it sound like freedom."
+      "Jazz arrived in Europe after the First World War, with American soldiers and touring bands. Black American musicians soon found that they were treated better in Paris than at home, and within a generation most European cities had players of their own.",
+      "This thread starts in the clubs of Montmartre and ends in Reykjavík. On the way it stops in Poland, where jazz was banned and then tolerated, which made it sound like freedom."
     ],
     "chapters": [
       {
@@ -1586,7 +1743,7 @@
         "place": "Montmartre and Folies Bergère, Paris",
         "when": "1920s",
         "heading": "Le jazz hot",
-        "text": "In the 1920s Black American musicians filled the clubs of Montmartre. Josephine Baker arrived in 1925 with the Revue Nègre and became the biggest star in Paris, dancing at the Folies Bergère.",
+        "text": "After the First World War, Black American musicians who had come over with the army, or on tour, found something in Paris that they could not find at home. They could eat, drink, and live where they liked. In the 1920s they filled the nightclubs of Montmartre, the hilltop district in the north of the city. In 1925 a young dancer from St. Louis, Josephine Baker, arrived with a show called La Revue Nègre. Within months she was the biggest star in Paris, dancing at the Folies Bergère music hall. She later became a French citizen and worked for the Resistance in the Second World War. In 2021 she became the first Black woman to be honored in the Panthéon.",
         "lat": 48.8866,
         "lon": 2.3408,
         "zoom": 14,
@@ -1595,70 +1752,103 @@
           "FaMwaKy1zb55nNGyTjiAy",
           "7L83MQ2US2CZJVuaoITrh2"
         ],
-        "image": "Josephine Baker, Amerikaans,Franse artieste, in de Folies Bergère tijdens een optreden, SFA001007973.jpg"
+        "image": "Josephine Baker, Amerikaans,Franse artieste, in de Folies Bergère tijdens een optreden, SFA001007973.jpg",
+        "mediaNote": {
+          "lead": "Here are three ways into jazz-age Paris.",
+          "items": [
+            "Paris Noir, by Tyler Stovall, follows Black Americans in Paris from the jazz players of the 1920s onward.",
+            "A very short animated video sketches Josephine Baker’s life.",
+            "And a comedy history podcast tells her whole story, from St. Louis to the Resistance."
+          ]
+        },
+        "short": "Le jazz hot"
       },
       {
         "city": "Marseille",
         "place": "La Joliette, Marseille",
         "when": "1920s",
         "heading": "Banjo",
-        "text": "Claude McKay, a Harlem Renaissance writer, set his 1929 novel Banjo on the Marseille docks, among Black sailors and drifters from Africa, America, and the Caribbean who played music for whatever they could get.",
+        "text": "Jazz also arrived through the ports. Claude McKay, a Jamaican-born writer of the Harlem Renaissance, the Black literary movement in New York, lived in Marseille in the 1920s. He set his 1929 novel Banjo on the docks of La Joliette, the port district. Its characters are Black sailors and drifters from Africa, America, and the Caribbean. They live from day to day and play music on the waterfront for whatever they can get. The main character, Banjo, is named after the instrument he plays.",
         "lat": 43.3052,
         "lon": 5.3658,
         "zoom": 14,
         "stories": [
           "1DLzplEe0Vt3t2mbEf1yu5"
         ],
-        "image": "TLM-CP-Les-Docks-Place-Joliette-1.jpg"
+        "image": "TLM-CP-Les-Docks-Place-Joliette-1.jpg",
+        "mediaNote": {
+          "items": [
+            "If you want to read it, Banjo is a lively, loose novel of the 1920s waterfront."
+          ]
+        },
+        "short": "Banjo"
       },
       {
         "city": "Istanbul",
         "place": "Pera Palace Hotel, Istanbul",
         "when": "1920s",
         "heading": "Jazz in Pera",
-        "text": "In the years when Constantinople became Istanbul, Russian refugees and visiting bands brought jazz to the nightclubs and hotel ballrooms of Pera, the European quarter above the Golden Horn.",
+        "text": "In Istanbul, jazz arrived with refugees. After the Russian Revolution, thousands of Russians who had fought against the Bolsheviks fled to the city, then called Constantinople. Some opened restaurants and nightclubs in Pera, the European quarter above the Golden Horn, and the city discovered cocktails, cabaret, and dance bands. In the 1920s, as the Ottoman Empire ended and Mustafa Kemal Atatürk built a new Turkish republic, the city’s nightlife boomed. The Pera Palace Hotel, built in 1892 for passengers off the Orient Express, was at the center of it.",
         "lat": 41.0312,
         "lon": 28.9734,
         "zoom": 14,
         "stories": [
           "1ueDWvPfIdBd6VbBOlk1AJ"
         ],
-        "image": "Pera Palace Hotel - panoramio.jpg"
+        "image": "Pera Palace Hotel - panoramio.jpg",
+        "mediaNote": {
+          "items": [
+            "For the whole period, there is Midnight at the Pera Palace, by Charles King, a history of the city between the wars."
+          ]
+        },
+        "short": "Jazz in Pera"
       },
       {
         "city": "Prague",
         "place": "Jaroslav Ježek’s Blue Room, Prague",
         "when": "1927–1938",
         "heading": "Ježek",
-        "text": "Jaroslav Ježek wrote jazzy songs and dance numbers for Prague’s satirical Liberated Theatre. He was almost blind and composed in an apartment painted deep blue to ease his eyes. He left for New York in 1939 and died there in 1942.",
+        "text": "In Prague, jazz found its way into the theater. Jaroslav Ježek, a composer who had been almost blind since childhood, wrote the songs and dance numbers for the Liberated Theatre. It was a satirical revue run by two comedians, Jiří Voskovec and Jan Werich. Their shows mocked politicians and, in the late 1930s, Hitler. Ježek’s music mixed jazz, dance band, and classical training. He composed in his apartment, whose walls he had painted a deep blue to rest his eyes. In 1939, after the German occupation of Prague, he and the two comedians fled to New York. He died there in 1942, at 35.",
         "lat": 50.0884,
         "lon": 14.4184,
         "zoom": 14,
         "stories": [
           "5wwNmbEcuuoZt5al56WQxY"
         ],
-        "image": "Praha, Památník Jaroslava Ježka 3.jpg"
+        "image": "Praha, Památník Jaroslava Ježka 3.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear his music, there is a recording of “Bugatti Step,” a giddy jazz sprint named after the race car."
+          ]
+        },
+        "short": "Ježek"
       },
       {
         "city": "Paris",
         "place": "Saint-Ouen flea market, Paris",
         "when": "1940",
         "heading": "Django",
-        "text": "Django Reinhardt, a Romani guitarist who played with two fingers on his fretting hand after a fire, wrote Nuages in occupied Paris in 1940. His style, gypsy jazz, still plays in the bars of the Saint-Ouen flea market.",
+        "text": "Back in Paris, the most original European jazz musician was Django Reinhardt, a Romani guitarist. At eighteen he was badly burned in a fire in his caravan, and two fingers of his left hand were left paralyzed. He taught himself to play with the other two. With the violinist Stéphane Grappelli, he formed the Quintette du Hot Club de France, a band of string instruments with no drums. During the German occupation, the Nazis persecuted Roma and called jazz degenerate, but Django stayed in Paris and became more popular than ever. In 1940 he wrote “Nuages,” Clouds, which became an anthem of the occupied city. His style, now called gypsy jazz, is still played in the cafés around the flea market at Saint-Ouen, on the northern edge of Paris.",
         "lat": 48.9028,
         "lon": 2.3409,
         "zoom": 14,
         "stories": [
           "2fCYUOfLejyjlYZgfMVbpo"
         ],
-        "image": "Marche aux Puces 08.jpg"
+        "image": "Marche aux Puces 08.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Nuages,” the heart of gypsy jazz."
+          ]
+        },
+        "short": "Django"
       },
       {
         "city": "Stockholm",
         "place": "Gamla stan, Stockholm",
         "when": "1950s–1960s",
         "heading": "Monica Zetterlund",
-        "text": "Stockholm had one of Europe’s liveliest jazz scenes, centered on the Nalen hall. Monica Zetterlund sang American standards with Swedish words and in 1964 recorded an album with the pianist Bill Evans.",
+        "text": "In the 1950s, Stockholm had one of the liveliest jazz scenes in Europe, centered on Nalen, a dance hall where American stars played on tour. Monica Zetterlund, a singer from a small town in western Sweden, became its great voice. She sang American standards with Swedish words. Her version of “Walkin’ My Baby Back Home,” renamed “Sakta vi gå genom stan,” Slowly We Walk Through Town, became the city’s night song. In 1964 she recorded an album, Waltz for Debby, with the American pianist Bill Evans.",
         "lat": 59.3251,
         "lon": 18.0707,
         "zoom": 14,
@@ -1666,42 +1856,62 @@
           "ztbsRqqhwQeUSwOrNuEPj",
           "2a4TH68XaW5qmVLnyAiV1H"
         ],
-        "image": "Monica Zetterlund sjunger på scen, 1963-09-29.jpg"
+        "image": "Monica Zetterlund sjunger på scen, 1963-09-29.jpg",
+        "mediaNote": {
+          "lead": "Here is her song, and a film about her.",
+          "items": [
+            "A recording of “Sakta vi gå genom stan” is the Stockholm night song itself.",
+            "And Waltz for Monica, a Swedish biopic, follows her from a small town to New York."
+          ]
+        },
+        "short": "Monica Zetterlund"
       },
       {
         "city": "Brussels",
         "place": "Rue Haute, Marolles, Brussels",
         "when": "1962",
         "heading": "Bluesette",
-        "text": "Toots Thielemans, born above a café in the Marolles, played harmonica and guitar, and could whistle along with his own guitar lines. His 1962 waltz Bluesette became a jazz standard.",
+        "text": "In Brussels, Toots Thielemans was born in 1922 above his parents’ café on the Rue Haute, in the Marolles, an old working-class quarter. He started on the accordion, taught himself guitar by listening to Django Reinhardt, and then took up the harmonica. In 1952 he moved to the United States, where he played with Benny Goodman and George Shearing. He also had an unusual trick: he could whistle in unison with his own guitar. In 1962 he wrote “Bluesette,” a light jazz waltz, and it became a standard.",
         "lat": 50.8367,
         "lon": 4.3467,
         "zoom": 14,
         "stories": [
           "7dF5N1UVNnryuP0x8frBEh"
         ],
-        "image": "Toots Thielemans' statue.jpg"
+        "image": "Toots Thielemans' statue.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear him, there is a recording of “Bluesette,” with its whistling and harmonica."
+          ]
+        },
+        "short": "Toots Thielemans"
       },
       {
         "city": "Copenhagen",
         "place": "Jazzhus Montmartre, Copenhagen",
         "when": "1960s",
         "heading": "Americans in Copenhagen",
-        "text": "In the 1960s American players like Dexter Gordon and Ben Webster settled in Copenhagen, where they found steady work and less racism. At Jazzhus Montmartre the teenage bassist Niels-Henning Ørsted Pedersen backed them night after night.",
+        "text": "In the 1960s, several great American jazz musicians settled in Copenhagen, among them the saxophonists Dexter Gordon and Ben Webster. They found steady work, appreciative audiences, and less racism than at home. Many of them played at Jazzhus Montmartre, a club in the old center. The house bassist was a Danish teenager, Niels-Henning Ørsted Pedersen, who started there at fifteen. He played with the Americans night after night, and he became one of the finest bass players in jazz.",
         "lat": 55.682,
         "lon": 12.5825,
         "zoom": 14,
         "stories": [
           "5WWGEO1ORuwEzPa7dLB646"
         ],
-        "image": "Jazzhus Montmartre.jpg"
+        "image": "Jazzhus Montmartre.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear him, there is a recording of “My Little Anna,” by the bassist who started at the club as a teenager."
+          ]
+        },
+        "short": "Jazzhus Montmartre"
       },
       {
         "city": "Warsaw",
         "place": "Warsaw and Kraków",
         "when": "1950s–1970s",
         "heading": "Polish jazz",
-        "text": "In Stalinist Poland jazz was banned and played in private, the “catacomb” years. After 1956 it came into the open. Krzysztof Komeda recorded Astigmatic in Warsaw in 1965, and in Kraków Tomasz Stańko and the violinist Zbigniew Seifert took it further out.",
+        "text": "In Poland, jazz became political. Under Stalinist rule in the early 1950s it was banned as Western decadence, and musicians played it in private apartments. They called these the catacomb years. After 1956, when the regime loosened its grip, jazz came out into the open, and it became a sound of freedom. Krzysztof Komeda, a pianist who also wrote the music for Roman Polanski’s early films, recorded Astigmatic in Warsaw in 1965. It is often called the greatest Polish jazz album. In Kraków, the trumpeter Tomasz Stańko and the violinist Zbigniew Seifert took the music further, into free jazz.",
         "lat": 52.2328,
         "lon": 21.0111,
         "zoom": 14,
@@ -1722,21 +1932,36 @@
             "lat": 50.0617,
             "lon": 19.9373
           }
-        ]
+        ],
+        "mediaNote": {
+          "lead": "Here are three recordings from Polish jazz.",
+          "items": [
+            "“Kattorna,” from Komeda’s Astigmatic, comes from the album often called the high point of Polish jazz.",
+            "“Litania,” by Tomasz Stańko, is from an album he made in tribute to Komeda.",
+            "And “Man of the Light,” by Zbigniew Seifert, shows how he played the violin like a saxophone."
+          ]
+        },
+        "short": "Polish jazz"
       },
       {
         "city": "Reykjavík",
         "place": "Reykjavík",
         "when": "1983",
         "heading": "Garden Party",
-        "text": "A group of Reykjavík schoolfriends called Mezzoforte made a jazz-funk instrumental that reached the British top 20 in 1983, the first time many people heard music from Iceland.",
+        "text": "The last stop is in Reykjavík. In the late 1970s, a group of schoolfriends there formed a jazz-funk band called Mezzoforte. In 1983 their instrumental “Garden Party” reached the top twenty in Britain and was played on radio across Europe. For many people outside Iceland, it was the first music from the island they had ever heard. A few years later the Sugarcubes, with Björk, followed it out into the world.",
         "lat": 64.1432,
         "lon": -21.9146,
         "zoom": 12.5,
         "stories": [
           "46mFinpwSrWnMQ8LPYQIaQ"
         ],
-        "image": "Mezzoforte Clubkonzert.jpg"
+        "image": "Mezzoforte Clubkonzert.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Garden Party.”"
+          ]
+        },
+        "short": "Mezzoforte"
       }
     ],
     "image": "30e festival Django Reinhardt Samois-sur-Seine.jpg"
@@ -1948,8 +2173,8 @@
     "title": "Electronic music",
     "dates": "1970s–today",
     "intro": [
-      "Synthesizers came out of studios in West Berlin, Paris, and Munich in the 1970s. By the end of the 1980s their sound had moved into clubs in Manchester and London, and after the Wall fell, Berlin’s empty buildings filled with techno.",
-      "Most of the places here are clubs and studios, some of them long gone."
+      "In the 1970s, musicians in West Berlin, Paris, and Munich began making records almost entirely with synthesizers. By the end of the 1980s that sound had moved into the clubs of Manchester and London, and after the Berlin Wall fell, the empty buildings of East Berlin filled with techno.",
+      "Most of the places in this thread are clubs and studios, and some of them are long gone. It ends in Belfast in 2017."
     ],
     "chapters": [
       {
@@ -1957,35 +2182,47 @@
         "place": "West Berlin",
         "when": "1970s",
         "heading": "Tangerine Dream",
-        "text": "In walled-in West Berlin, Tangerine Dream made long, slow pieces on synthesizers and sequencers. Albums like Stratosfear, from 1976, laid down a sound later heard in every Berlin club.",
+        "text": "The story begins in West Berlin, a walled-in island of the West inside communist East Germany. In the late 1960s Edgar Froese founded Tangerine Dream there. In the 1970s the band made long, slow instrumental pieces on synthesizers and sequencers, machines that could play repeating patterns on their own. Their music sounded like nothing on the radio. Albums such as Stratosfear, from 1976, laid down a hypnotic sound that would later fill the city’s clubs.",
         "lat": 52.5009,
         "lon": 13.3437,
         "zoom": 12.5,
         "stories": [
           "HQYEvoBDGggGNiUaLlwah"
         ],
-        "image": "Tangerine-dream-ebw-2.jpg"
+        "image": "Tangerine-dream-ebw-2.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Stratosfear,” from 1976."
+          ]
+        },
+        "short": "Tangerine Dream"
       },
       {
         "city": "Paris",
         "place": "Place de la Concorde, Paris",
         "when": "1976",
         "heading": "Oxygène",
-        "text": "Jean-Michel Jarre recorded Oxygène in a home studio, and it sold millions. He later played giant free concerts, including one on the Place de la Concorde in 1979.",
+        "text": "In Paris, Jean-Michel Jarre, a young composer who had studied electronic music, recorded Oxygène in a home studio with a handful of synthesizers. It came out in 1976 and sold millions of copies around the world. Jarre went on to play huge free outdoor concerts with lights and lasers. On Bastille Day in 1979, he played on the Place de la Concorde to a crowd of about a million people.",
         "lat": 48.8656,
         "lon": 2.3212,
         "zoom": 14,
         "stories": [
           "13LIEW82ZlIQJcTdJUtlFq"
         ],
-        "image": "Concierto de Jean Michel Jarre (4848306376).jpg"
+        "image": "Concierto de Jean Michel Jarre (4848306376).jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Oxygène, Part 4,” his best-known piece."
+          ]
+        },
+        "short": "Oxygène"
       },
       {
         "city": "Munich",
         "place": "Arabella high-rise, Munich",
         "when": "1977",
         "heading": "I Feel Love",
-        "text": "In a studio under a Munich tower block, Giorgio Moroder and Pete Bellotte built I Feel Love for Donna Summer almost entirely on a Moog synthesizer. Its pulsing bassline seeded house and techno.",
+        "text": "In Munich, disco met the synthesizer. Donna Summer, an American singer, had come to the city to perform in the musical Hair, and she stayed. She worked with the Italian producer Giorgio Moroder and the British songwriter Pete Bellotte at Musicland, a recording studio in the basement of the Arabella, a high-rise hotel. In 1977 they made “I Feel Love,” built almost entirely on a Moog synthesizer, with a pulsing bassline that never stops. When the musician Brian Eno heard it, he is said to have told David Bowie that it would change the sound of club music. It led straight to house and techno.",
         "lat": 48.1527,
         "lon": 11.618,
         "zoom": 14,
@@ -1994,14 +2231,23 @@
           "eb3feyLZsZ84UTLriz6jQ",
           "2PwXS2mAHxVCB2yqotaNkW"
         ],
-        "image": "Arabella Klinik Gebäude.jpg"
+        "image": "Arabella Klinik Gebäude.jpg",
+        "mediaNote": {
+          "lead": "Here is the song, and two stories behind it.",
+          "items": [
+            "A podcast episode tells how a basement studio under a tower block invented the sound of the future.",
+            "A recording of “I Feel Love” is the track itself.",
+            "And Love to Love You, Donna Summer, a documentary co-directed by her daughter, tells her life from home movies and archive film."
+          ]
+        },
+        "short": "I Feel Love"
       },
       {
         "city": "Brussels",
         "place": "Brussels",
         "when": "1978–1988",
         "heading": "Belgian electronics",
-        "text": "Brussels had Telex, a deadpan synth-pop trio, and then Front 242, who called their harsh, marching sound electronic body music. Both fed straight into techno.",
+        "text": "Belgium took to the new machines early. In Brussels, Telex, a deadpan trio, made robotic synth-pop from the late 1970s, including a song about a train to Moscow. In the 1980s Front 242, also from Brussels, made something much harder: marching, aggressive electronic music that they called electronic body music. Their records were played in clubs across Europe, and in Detroit and Chicago, where house and techno were being invented. For a while in the late 1980s, Belgium was one of the centers of club music.",
         "lat": 50.8467,
         "lon": 4.3525,
         "zoom": 12.5,
@@ -2009,14 +2255,22 @@
           "6nOgug2eop3YigMyaIzNrK",
           "2BmvtiDiQ6Mkccg2FghzrH"
         ],
-        "image": "20170318 Oberhausen E-Tropolis Front 242 0165.jpg"
+        "image": "20170318 Oberhausen E-Tropolis Front 242 0165.jpg",
+        "mediaNote": {
+          "lead": "Here are two Brussels records from those years.",
+          "items": [
+            "“Moskow Diskow,” by Telex, is deadpan synth-pop about a train to Moscow.",
+            "And “Headhunter,” by Front 242, is the stomping sound of electronic body music."
+          ]
+        },
+        "short": "Belgian electronics"
       },
       {
         "city": "Manchester",
         "place": "Whitworth Street West, Manchester",
         "when": "1982–1997",
         "heading": "The Haçienda",
-        "text": "New Order put royalties from Blue Monday into a huge club, the Haçienda, in 1982. Hardly anyone danced at first. Then acid house arrived in 1988, along with local records like Voodoo Ray, and the Haçienda became the center of it. It lost money the whole time and closed in 1997.",
+        "text": "In Manchester, a band and its record label built a club. Factory Records, run by the television presenter Tony Wilson, and its band New Order opened the Haçienda in 1982, in a former yacht showroom on Whitworth Street West. The band put its royalties into it, including money from “Blue Monday,” which became the best-selling twelve-inch single of all time. For years the huge room was half empty. Then in 1988 acid house arrived from Chicago, along with the drug ecstasy, and the Haçienda became the center of a new scene. Local records such as “Voodoo Ray,” made in a bedroom in Moss Side, filled the dance floor. The club lost money the whole time, struggled with gangs and drugs, and closed in 1997.",
         "lat": 53.4742,
         "lon": -2.2471,
         "zoom": 14,
@@ -2024,30 +2278,45 @@
           "37OysQLONMuxbeKiIKMojx",
           "55YAeIeykBBWUcFgsEeQJl",
           "56VubPXkzFYRolg8hRsQg4",
-          "5LBH4Tbp1XN7SDaePYxstC",
-          "51iFR66Uk49wwo8a8eocdd"
+          "5LBH4Tbp1XN7SDaePYxstC"
         ],
-        "image": "Haciendaapartments.jpg"
+        "image": "Haciendaapartments.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into the Haçienda.",
+          "items": [
+            "A podcast series tells how New Order gambled a fortune on the club.",
+            "“Blue Monday” is the record that helped pay for it.",
+            "“Voodoo Ray,” by A Guy Called Gerald, is Manchester acid house in one record.",
+            "And 24 Hour Party People, with Steve Coogan as Tony Wilson, is a gleeful and unreliable film about the whole story."
+          ]
+        },
+        "short": "The Haçienda"
       },
       {
         "city": "London",
         "place": "Africa Centre, Covent Garden, London",
         "when": "1989",
         "heading": "Soul II Soul",
-        "text": "Soul II Soul started as a sound system playing Sunday nights at the Africa Centre in Covent Garden. Their slow, heavy Back to Life went to number one in 1989.",
+        "text": "In London, the new sound grew out of sound systems, the mobile discos of Jamaican immigrants and their children. Soul II Soul began as one, led by Jazzie B, playing Sunday nights at the Africa Centre, a cultural center in Covent Garden. Their records mixed soul singing, hip-hop beats, and the deep bass of reggae sound systems. In 1989 “Back to Life” went to number one in Britain, and it is still heard as the start of a new Black British sound.",
         "lat": 51.5119,
         "lon": -0.1243,
         "zoom": 14,
         "stories": [
           "16jvjaVrmxfpfvAAsAFnSY"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Back to Life.”"
+          ]
+        },
+        "short": "Soul II Soul"
       },
       {
         "city": "Berlin",
         "place": "Berlin",
         "when": "1989–today",
         "heading": "After the Wall",
-        "text": "West Berlin DJs had been playing house and techno through the 1980s. When the Wall came down, the empty buildings of East Berlin became clubs, and the Love Parade grew from 150 people in 1989 to over a million. Berghain, in a former power station, opened in 2004.",
+        "text": "Back in Berlin, DJs in the West had been playing house and techno through the late 1980s. When the Wall came down in November 1989, East Berlin was full of empty buildings, and nobody was sure who owned them. Young people from both sides turned bunkers, bank vaults, and power stations into clubs, often illegally. The Love Parade, a street party that started in 1989 with about 150 people, grew to more than a million by the late 1990s. Berlin became the world’s techno capital. Berghain, the best-known club of all, opened in 2004 in a former power station.",
         "lat": 52.5111,
         "lon": 13.443,
         "zoom": 14,
@@ -2057,48 +2326,76 @@
           "7Aoti6v79TEq2tLJxLzA1s",
           "3EzmFAzvuF4cx1UHa1dqgQ"
         ],
-        "image": "Berlino Love Parade 1998.jpg"
+        "image": "Berlino Love Parade 1998.jpg",
+        "mediaNote": {
+          "lead": "Here are four ways into techno Berlin.",
+          "items": [
+            "Der Klang der Familie is an oral history of the years after the Wall, told by the people who were there.",
+            "A short video follows the DJ Westbam back to the clubs of 1980s West Berlin.",
+            "“For an Angel,” by Paul van Dyk, who grew up in East Berlin, became an anthem of the Love Parade years.",
+            "And “Sky and Sand,” by Paul Kalkbrenner, comes from Berlin Calling, a film about a DJ coming apart."
+          ]
+        },
+        "short": "After the Wall"
       },
       {
         "city": "Paris",
         "place": "Rex Club, Paris",
         "when": "1990s",
         "heading": "French touch",
-        "text": "In the 1990s Daft Punk and their peers made filtered, disco-flavored house that the press called French touch. The Rex Club, a basement on the Grands Boulevards, was its home.",
+        "text": "In the 1990s, Paris found its own sound. Young producers took old disco and funk records, looped them, and ran them through filters, so that the music seemed to rise and fall like breathing. The press called it French touch. Its best-known act was Daft Punk, two friends who later hid their faces behind robot helmets. The Rex Club, a basement on the Grands Boulevards, was one of the scene’s homes. In 2000 Daft Punk released “One More Time,” which became one of the biggest dance records in the world.",
         "lat": 48.8706,
         "lon": 2.3474,
         "zoom": 14,
         "stories": [
           "3tURYFe5uz9EZ0uis5wmzA"
-        ]
+        ],
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “One More Time.”"
+          ]
+        },
+        "short": "French touch"
       },
       {
         "city": "Stockholm",
         "place": "Stockholm",
         "when": "2011",
         "heading": "Levels",
-        "text": "Tim Bergling, a young producer from Stockholm who called himself Avicii, became one of the biggest names in the global dance boom with Levels. He died in 2018, and the city’s arena was renamed after him.",
+        "text": "By the 2010s, dance music had become a global industry, and some of its biggest stars came from Stockholm. Tim Bergling, who called himself Avicii, grew up in the city and started making tracks on his laptop as a teenager. In 2011 his track “Levels,” built around a sample of the American soul singer Etta James, became a hit around the world. He played to huge crowds for years. He died in 2018, at 28, and the city’s large arena was renamed the Avicii Arena in his memory.",
         "lat": 59.2937,
         "lon": 18.0832,
         "zoom": 14,
         "stories": [
           "3U8YIHrNwzTK8ftdrS0RQk"
         ],
-        "image": "Stockholm Globe Arena 2012.jpg"
+        "image": "Stockholm Globe Arena 2012.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Levels.”"
+          ]
+        },
+        "short": "Avicii"
       },
       {
         "city": "Belfast",
         "place": "Queen’s University, Belfast",
         "when": "2017",
         "heading": "Glue",
-        "text": "The Belfast duo Bicep grew up going to Shine, a club night at Queen’s University. Their 2017 track Glue is about missing the raves of the 1990s.",
+        "text": "The last stop is in Belfast. In the 1990s, during the last years of the Troubles, club nights were among the few places where young people from both sides of the city mixed. One of the longest running was Shine, held at the students’ union of Queen’s University. Two friends, Matt McBriar and Andy Ferguson, went there as teenagers. Later, as the duo Bicep, they became one of the most popular acts in electronic music. Their 2017 track “Glue” is about missing those raves.",
         "lat": 54.5847,
         "lon": -5.9345,
         "zoom": 14,
         "stories": [
           "6M0TMLJbNGmeMPJ7VnsofI"
         ],
-        "image": "Queen's University Belfast Students' Union.jpg"
+        "image": "Queen's University Belfast Students' Union.jpg",
+        "mediaNote": {
+          "items": [
+            "To hear it, there is a recording of “Glue.”"
+          ]
+        },
+        "short": "Bicep"
       }
     ],
     "image": "Tangerine Dream 2025.jpg"
