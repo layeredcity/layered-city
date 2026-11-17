@@ -1217,6 +1217,12 @@ html[data-vt] .panel-story { transition: none !important; }
 .thread-player__btn--skip:disabled { opacity: 0.35; cursor: default; }
 .thread-player__btn--skip + .thread-player__btn--skip { margin-left: -8px; }
 .thread-player__label { margin-right: 2px; }
+/* Desktop: a fixed footprint, so the skip buttons don't shift as the chapter
+   label changes length. Wide enough for the longest labels; longer ones clip. */
+@media (min-width: 769px) {
+  .thread-player { width: 420px; }
+  .thread-player__label { flex: 1 1 auto; }
+}
 
 /* Player label: a short title over a smaller line with the stop and place. */
 .thread-player__label { display: flex; flex-direction: column; line-height: 1.2; padding-right: 2px; }
