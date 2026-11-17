@@ -1203,7 +1203,7 @@ function StoryIcon({ story, omdbData, bookData }) {
       {el}
     </span>
   )
-  // Video channel avatars: on hover a red ring sweeps once around the circle,
+  // Video channel avatars: on hover a royal-blue ring sweeps once around the circle,
   // like a progress bar filling, and a small play button pops in at the corner.
   const wrapVideo = (el) => (
     <span className="story-item__icon-reel">
