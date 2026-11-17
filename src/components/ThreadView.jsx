@@ -128,6 +128,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   useEffect(() => {
     const root = scrollRef.current
     if (!readingKey || !root) return
+    if (/^c\d+-h$/.test(readingKey)) return // a new chapter: handled below
     const el = root.querySelector(`[data-rk="${readingKey}"]`)
     if (!el) return
     const box = root.getBoundingClientRect()
@@ -211,6 +212,16 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     narratingRef.current = seg >= 0 && !paused
     if (seg >= 0 && !paused) setActive(seg - 1)
   }, [seg, paused])
+
+  // At the start of each chapter, bring its top to the top of the column, so
+  // the reading starts high with the photo in view below the heading.
+  useEffect(() => {
+    const root = scrollRef.current
+    const el = seg >= 1 && sectionRefs.current[seg - 1]
+    if (!root || !el) return
+    const top = root.scrollTop + el.getBoundingClientRect().top - root.getBoundingClientRect().top
+    root.scrollTo({ top, behavior: 'smooth' })
+  }, [seg])
 
   // Otherwise, which chapter is being read: the one crossing a line 35% down
   // the column.
