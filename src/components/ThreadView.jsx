@@ -446,7 +446,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
                             <div className="story-item__title">{t.title}</div>
                             <div className="story-item__meta">
                               <span className="story-item__type">Thread</span>
-                              <span className="story-item__source">{t.kind.toLowerCase() === 'food and drink' ? 'Food and drink' : t.kind}</span>
+                              <span className="story-item__source">{t.kind}</span>
                             </div>
                             <div className="story-item__meta story-item__facts">
                               <span className="story-modal__meta-item">{t.dates}</span>
