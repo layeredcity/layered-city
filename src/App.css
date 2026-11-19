@@ -1204,9 +1204,10 @@ html[data-vt] .panel-story { transition: none !important; }
 .about-photo__face { box-sizing: border-box; padding: calc(var(--about-w, 140px) * 0.038); background: #fff; border-radius: 2px; backface-visibility: hidden; -webkit-backface-visibility: hidden;
   box-shadow: 0 1px 2px rgba(0,0,0,0.15), 0 8px 22px rgba(0,0,0,0.28); transition: box-shadow 0.3s ease; }
 .about-photo__front img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; background: #eee6dc; }
-.about-photo__back { position: absolute; inset: 0; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: center; gap: calc(var(--about-w, 140px) * 0.033); padding: calc(var(--about-w, 140px) * 0.08) calc(var(--about-w, 140px) * 0.089); text-align: left; }
-.about-photo__place { font: 600 calc(var(--about-w, 140px) * 0.058) var(--font-body); letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
-.about-photo__caption { font: 400 calc(var(--about-w, 140px) * 0.094)/1.25 var(--font-display); color: var(--ink); }
+.about-photo__back { position: absolute; inset: 0; transform: rotateY(180deg); display: flex; flex-direction: column; justify-content: flex-end; gap: calc(var(--about-w, 140px) * 0.02); padding: calc(var(--about-w, 140px) * 0.08) calc(var(--about-w, 140px) * 0.089); text-align: left; }
+/* Back of a print: caption at the bottom left, then place and year. */
+.about-photo__caption { font: 500 calc(var(--about-w, 140px) * 0.075)/1.3 var(--font-body); color: var(--ink); }
+.about-photo__place { font: 400 calc(var(--about-w, 140px) * 0.058)/1.3 var(--font-body); color: var(--ink-light); }
 .about-photo:hover { transform: rotate(0deg) scale(var(--about-hover, 1.08)); }
 .about-photo:hover .about-photo__flip { transform: rotateY(180deg); }
 .about-photo:hover .about-photo__face { box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 14px 32px rgba(0,0,0,0.32); }
