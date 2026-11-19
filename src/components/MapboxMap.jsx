@@ -310,7 +310,8 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     const min = Math.min(...lons), span = Math.max(Math.max(...lons) - min, 1)
     els.forEach(({ wrapper, inner, lon }) => {
       const overlay = inner.firstChild
-      const animate = inner.animate && inner.style.opacity === '1'
+      // Into About the circles shrink and fade out on the plain CSS transition.
+      const animate = inner.animate && inner.style.opacity === '1' && !(on && aboutOnRef.current)
       // A CSS transition would override the keyframes, so pause transitions
       // while the class changes and the spring plays.
       if (animate) { inner.style.transition = 'none'; if (overlay) overlay.style.transition = 'none' }
@@ -347,9 +348,23 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         card.className = 'about-photo'
         card.style.setProperty('--tilt', ph.tilt + 'deg')
         card.style.animationDelay = (250 + i * 160) + 'ms'
+        // Front: the photo. Back (shown on hover, flipped): place and caption.
+        const flip = document.createElement('div')
+        flip.className = 'about-photo__flip'
+        const front = document.createElement('div')
+        front.className = 'about-photo__face about-photo__front'
         const img = document.createElement('img')
         img.src = ph.src; img.alt = ph.alt; img.width = 900; img.height = 675
-        card.appendChild(img)
+        front.appendChild(img)
+        const back = document.createElement('figcaption')
+        back.className = 'about-photo__face about-photo__back'
+        const place = document.createElement('span')
+        place.className = 'about-photo__place'; place.textContent = ph.place
+        const cap = document.createElement('span')
+        cap.className = 'about-photo__caption'; cap.textContent = ph.caption
+        back.append(place, cap)
+        flip.append(front, back)
+        card.appendChild(flip)
         wrap.appendChild(card)
         const m = new mapboxgl.Marker({ element: wrap }).setLngLat([ph.lon, ph.lat]).addTo(map)
         aboutMarkersRef.current.push({ m, card })

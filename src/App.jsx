@@ -480,9 +480,12 @@ Object.values(THREAD_CITIES).forEach(set => set.forEach(name => { THREAD_CITY_CO
 
 // About: Ryan's photos, shown on the map (desktop) where they were taken.
 const ABOUT_PHOTOS = [
-  { src: '/about/ali-ryan-wedding.webp', alt: 'Ali and Ryan on their wedding day', lat: 47.41, lon: 2.35, tilt: -4 }, // 100 miles south of Paris
-  { src: '/about/ryan-owl.webp', alt: 'Ryan holding an owl', lat: 51.85, lon: -1.8, tilt: 3 },                         // the Cotswolds
-  { src: '/about/ali-ryan-italy.webp', alt: 'Ali and Ryan in Italy', lat: 40.63, lon: 14.55, tilt: -2.5 },            // Amalfi Coast
+  { src: '/about/ali-ryan-wedding.webp', alt: 'Ali and Ryan on their wedding day', lat: 47.41, lon: 2.35, tilt: -4,
+    place: '100 miles south of Paris', caption: 'Ali and me on our wedding day.' },
+  { src: '/about/ryan-owl.webp', alt: 'Ryan holding an owl', lat: 51.85, lon: -1.8, tilt: 3,
+    place: 'The Cotswolds, England', caption: 'Me with an owl.' },
+  { src: '/about/ali-ryan-italy.webp', alt: 'Ali and Ryan in Italy', lat: 40.63, lon: 14.55, tilt: -2.5,
+    place: 'Amalfi Coast, Italy', caption: 'Ali and me on the Amalfi Coast.' },
 ]
 
 const THREADS_BY_STORY = {}
