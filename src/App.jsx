@@ -469,12 +469,6 @@ function LandmarkItem({ story, onSelect }) {
 // The landmark pop-up / mobile panel: what the place is, then its stories.
 // Tapping a story opens it, with a way back to the landmark.
 // Which threads a story appears in: story ID → [{ slug, title, kind, chapter }].
-// How many threads stop in each city (for the counts on the Threads map).
-const THREAD_CITY_COUNTS = {}
-THREADS.forEach(t => new Set(t.chapters.flatMap(c => [c.city, ...(c.points || []).map(p => p.label)])).forEach(name => {
-  THREAD_CITY_COUNTS[name] = (THREAD_CITY_COUNTS[name] || 0) + 1
-}))
-
 const THREADS_BY_STORY = {}
 THREADS.forEach(t => t.chapters.forEach((c, i) => c.stories.forEach(id => {
   const list = (THREADS_BY_STORY[id] ||= [])
@@ -2393,7 +2387,7 @@ export default function App() {
           omdbCache={omdbCache}
           bookCache={bookCache}
           onCityClick={selectCity}
-          threadCounts={threadsMapMode ? THREAD_CITY_COUNTS : null}
+          threadMode={threadsMapMode}
           threadPreview={threadsMapMode ? hoverThread : null}
           focusStory={selectedStory}
           onStoryClick={setSelectedStory}

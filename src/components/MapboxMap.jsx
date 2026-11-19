@@ -51,7 +51,7 @@ const LANDMARK_PIN_SVGS = {
   landmark: LP('M12 1a8 8 0 0 1 8 8c0 5.5-6.2 12.4-7.3 13.6a1 1 0 0 1-1.4 0C10.2 21.4 4 14.5 4 9a8 8 0 0 1 8-8Zm0 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z'),
 }
 
-export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady, threadPreview, threadCounts }) {
+export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady, threadPreview, threadMode }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -59,11 +59,11 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const omdbCacheRef = useRef(omdbCache)
   const bookCacheRef = useRef(bookCache)
   const cityMarkersRef = useRef([])
-  const cityElsRef = useRef([]) // { name, wrapper, badge }
-  const threadCountsRef = useRef(threadCounts)
+  const cityElsRef = useRef([]) // { name, wrapper }
+  const threadModeRef = useRef(threadMode)
   const previewMarkersRef = useRef([])
   const previewAnimRef = useRef(null)
-  threadCountsRef.current = threadCounts
+  threadModeRef.current = threadMode
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
   const citySelectedAtRef = useRef(null)
@@ -248,12 +248,8 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         overlay.appendChild(nameEl)
         inner.appendChild(overlay)
         wrapper.appendChild(inner)
-        // Threads view: how many threads stop here (filled in by applyCounts).
-        const badge = document.createElement('span')
-        badge.className = 'city-marker__count'
-        wrapper.appendChild(badge)
-        cityElsRef.current.push({ name: c.name, wrapper, badge })
-        wrapper.addEventListener('click', () => onCityClick?.(c))
+        cityElsRef.current.push({ name: c.name, wrapper, inner })
+        wrapper.addEventListener('click', () => { if (!threadModeRef.current) onCityClick?.(c) })
 
         const marker = new mapboxgl.Marker(wrapper)
           .setLngLat([c.coordinates.lon, c.coordinates.lat])
@@ -261,24 +257,29 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         cityMarkersRef.current.push(marker)
         setTimeout(() => { inner.style.opacity = '1' }, 200 + Math.random() * 600)
       })
-      applyCounts()
+      applyThreadMode()
     }
 
     if (styleReadyRef.current || map.loaded()) addCityMarkers()
     else map.once('load', addCityMarkers)
   }, [cities, city])
 
-  // Threads view: a small red count on each city, and a tooltip.
-  const applyCounts = () => {
-    const counts = threadCountsRef.current
-    cityElsRef.current.forEach(({ name, wrapper, badge }) => {
-      const n = counts?.[name] || 0
-      badge.textContent = n ? String(n) : ''
-      wrapper.classList.toggle('has-count', !!n)
-      wrapper.title = n ? `${name} · ${n} thread${n === 1 ? '' : 's'}` : ''
+  // Threads view: cities shrink to small dots that can't be clicked (a click
+  // would leave the Threads section); hovering a thread enlarges its cities.
+  // Switching between Cities and Threads, the circles shrink or grow with a
+  // slight stagger, so they ripple rather than snap all at once.
+  const applyThreadMode = () => {
+    const on = !!threadModeRef.current
+    cityElsRef.current.forEach(({ wrapper, inner }) => {
+      if (wrapper.classList.contains('is-thread-mode') === on) return
+      inner.style.transition = 'opacity 0.4s ease, transform 0.5s cubic-bezier(0.34, 1.3, 0.64, 1)'
+      inner.style.transitionDelay = '0s, ' + Math.round(Math.random() * 300) + 'ms'
+      wrapper.classList.toggle('is-thread-mode', on)
+      clearTimeout(inner._modeTimer)
+      inner._modeTimer = setTimeout(() => { inner.style.transition = ''; inner.style.transitionDelay = '' }, 900)
     })
   }
-  useEffect(applyCounts, [threadCounts])
+  useEffect(applyThreadMode, [threadMode])
 
   // Threads view: hovering a thread in the list draws its route on the map.
   // The map itself stays where it is; cities off the route fade back.
@@ -326,18 +327,18 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     }
     setTrim(0)
 
-    // One marker per place; a city the thread visits twice shows both numbers.
+    // A small red dot per place, popping in as the line reaches it. Stops in
+    // our cities sit under the city's enlarged photo; the dots mark the rest
+    // (Arles, Nuenen).
     const places = []
     stops.forEach(p => {
-      const same = places.find(q => Math.abs(q.lat - p.lat) < 0.05 && Math.abs(q.lon - p.lon) < 0.05)
-      if (same) { if (!same.ns.includes(p.n)) same.ns.push(p.n) } else places.push({ lat: p.lat, lon: p.lon, ns: [p.n], first: p.n })
+      if (!places.some(q => Math.abs(q.lat - p.lat) < 0.05 && Math.abs(q.lon - p.lon) < 0.05)) places.push(p)
     })
     const total = threadPreview.chapters.length
     places.forEach(pl => {
       const el = document.createElement('div')
-      el.className = 'thread-marker thread-marker--preview'
-      el.textContent = pl.ns.join('·')
-      el.style.animationDelay = Math.round(((pl.first - 1) / Math.max(total - 1, 1)) * DRAW) + 'ms'
+      el.className = 'thread-stop-dot'
+      el.style.animationDelay = Math.round(((pl.n - 1) / Math.max(total - 1, 1)) * DRAW) + 'ms'
       // The map positions the wrapper with a transform; the pop animation
       // (also a transform) must stay on the inner element.
       const wrap = document.createElement('div')
