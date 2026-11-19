@@ -478,6 +478,13 @@ const THREAD_CITIES = Object.fromEntries(THREADS.map(t => [t.slug, new Set(t.cha
 const THREAD_CITY_COUNTS = {}
 Object.values(THREAD_CITIES).forEach(set => set.forEach(name => { THREAD_CITY_COUNTS[name] = (THREAD_CITY_COUNTS[name] || 0) + 1 }))
 
+// About: Ryan's photos, shown on the map (desktop) where they were taken.
+const ABOUT_PHOTOS = [
+  { src: '/about/ali-ryan-wedding.webp', alt: 'Ali and Ryan on their wedding day', lat: 47.41, lon: 2.35, tilt: -4 }, // 100 miles south of Paris
+  { src: '/about/ryan-owl.webp', alt: 'Ryan holding an owl', lat: 51.85, lon: -1.8, tilt: 3 },                         // the Cotswolds
+  { src: '/about/ali-ryan-italy.webp', alt: 'Ali and Ryan in Italy', lat: 40.63, lon: 14.55, tilt: -2.5 },            // Amalfi Coast
+]
+
 const THREADS_BY_STORY = {}
 THREADS.forEach(t => t.chapters.forEach((c, i) => c.stories.forEach(id => {
   const list = (THREADS_BY_STORY[id] ||= [])
@@ -2461,6 +2468,7 @@ export default function App() {
           bookCache={bookCache}
           onCityClick={selectCity}
           threadMode={threadsMapMode}
+          aboutPhotos={leftTab === 'about' && !openThreadSlug ? ABOUT_PHOTOS : null}
           threadCounts={THREAD_CITY_COUNTS}
           threadCity={threadCity}
           onThreadCityHover={setHoverCity}

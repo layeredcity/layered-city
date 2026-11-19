@@ -51,7 +51,7 @@ const LANDMARK_PIN_SVGS = {
   landmark: LP('M12 1a8 8 0 0 1 8 8c0 5.5-6.2 12.4-7.3 13.6a1 1 0 0 1-1.4 0C10.2 21.4 4 14.5 4 9a8 8 0 0 1 8-8Zm0 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z'),
 }
 
-export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady, threadPreview, threadMode, threadCounts, threadCity, onThreadCityHover, onThreadCityClick }) {
+export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady, threadPreview, threadMode, threadCounts, threadCity, onThreadCityHover, onThreadCityClick, aboutPhotos }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -64,6 +64,12 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const previewMarkersRef = useRef([])
   const previewAnimRef = useRef(null)
   threadModeRef.current = threadMode
+  // The city circles shrink to dots in both Threads and About.
+  const dotModeRef = useRef(false)
+  dotModeRef.current = !!threadMode || !!aboutPhotos
+  const aboutOnRef = useRef(false)
+  aboutOnRef.current = !!aboutPhotos
+  const aboutMarkersRef = useRef([])
   const threadCountsRef = useRef(threadCounts)
   threadCountsRef.current = threadCounts
   const threadCityRef = useRef(threadCity)
@@ -271,7 +277,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         hit.addEventListener('mouseleave', () => { wrapper.classList.remove('is-hover'); threadCbRef.current.hover?.(null) })
         hit.addEventListener('click', e => { e.stopPropagation(); threadCbRef.current.click?.(c.name) })
         cityElsRef.current.push({ name: c.name, wrapper, inner, tlabel, lon: c.coordinates.lon })
-        wrapper.addEventListener('click', () => { if (!threadModeRef.current) onCityClick?.(c) })
+        wrapper.addEventListener('click', () => { if (!dotModeRef.current) onCityClick?.(c) })
 
         const marker = new mapboxgl.Marker(wrapper)
           .setLngLat([c.coordinates.lon, c.coordinates.lat])
@@ -296,7 +302,8 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const SPRING_SHRINK = [1, 0.2, 0.36, 0.28, 0.3]
   const SPRING_OFFSETS = [0, 0.42, 0.66, 0.84, 1]
   const applyThreadMode = () => {
-    const on = !!threadModeRef.current
+    const on = dotModeRef.current
+    cityElsRef.current.forEach(({ wrapper }) => wrapper.classList.toggle('is-about', aboutOnRef.current))
     const els = cityElsRef.current.filter(({ wrapper }) => wrapper.classList.contains('is-thread-mode') !== on)
     if (!els.length) return
     const lons = els.map(e => e.lon)
@@ -320,7 +327,37 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         { duration: 300, delay: delay + (on ? 120 : 0), easing: 'ease', fill: 'backwards' })
     })
   }
-  useEffect(applyThreadMode, [threadMode])
+  useEffect(applyThreadMode, [threadMode, !!aboutPhotos])
+
+  // About: photos of Ryan pinned where they were taken, like prints dropped
+  // on the map, each a little crooked, in a white frame with a shadow.
+  useEffect(() => {
+    const map = mapRef.current
+    const old = aboutMarkersRef.current
+    aboutMarkersRef.current = []
+    old.forEach(({ m, card }) => { card.classList.add('is-leaving'); setTimeout(() => m.remove(), 300) })
+    if (!map || !aboutPhotos) return
+    const add = () => {
+      aboutPhotos.forEach((ph, i) => {
+        // The map positions the wrapper with a transform, so the tilt and the
+        // drop-in animation live on the inner card.
+        const wrap = document.createElement('div')
+        wrap.className = 'about-photo-wrap'
+        const card = document.createElement('figure')
+        card.className = 'about-photo'
+        card.style.setProperty('--tilt', ph.tilt + 'deg')
+        card.style.animationDelay = (250 + i * 160) + 'ms'
+        const img = document.createElement('img')
+        img.src = ph.src; img.alt = ph.alt; img.width = 900; img.height = 675
+        card.appendChild(img)
+        wrap.appendChild(card)
+        const m = new mapboxgl.Marker({ element: wrap }).setLngLat([ph.lon, ph.lat]).addTo(map)
+        aboutMarkersRef.current.push({ m, card })
+      })
+    }
+    if (styleReadyRef.current || map.loaded()) add()
+    else map.once('load', add)
+  }, [aboutPhotos])
 
   // Threads view: the city the list is filtered to stays enlarged, with its
   // name showing.

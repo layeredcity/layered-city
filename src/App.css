@@ -1190,6 +1190,18 @@ html[data-vt] .panel-story { transition: none !important; }
 .about__photos { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; margin-top: 22px; }
 .about__photo { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; background: #eee6dc; }
 .about__photo--wide { grid-column: 1 / -1; }
+/* On desktop the photos sit on the map instead (see .about-photo). */
+@media (min-width: 769px) { .about__photos { display: none; } }
+
+/* About on the map: prints dropped where they were taken. */
+.city-marker-wrap.is-about .city-marker__hit { display: none; }
+.about-photo-wrap { z-index: 30; }
+.about-photo { margin: 0; width: 180px; padding: 7px 7px 7px; background: #fff; border-radius: 2px; box-shadow: 0 1px 2px rgba(0,0,0,0.15), 0 8px 22px rgba(0,0,0,0.28);
+  transform: rotate(var(--tilt)); animation: about-photo-drop 0.55s cubic-bezier(0.34, 1.4, 0.64, 1) both; transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.3s ease, opacity 0.3s ease; }
+.about-photo img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; background: #eee6dc; }
+.about-photo:hover { transform: rotate(0deg) scale(1.06); box-shadow: 0 2px 4px rgba(0,0,0,0.15), 0 14px 32px rgba(0,0,0,0.32); }
+.about-photo.is-leaving { opacity: 0; transform: rotate(var(--tilt)) scale(0.85); animation: none; }
+@keyframes about-photo-drop { from { opacity: 0; transform: rotate(calc(var(--tilt) * 3)) scale(1.25) translateY(-14px); } to { opacity: 1; transform: rotate(var(--tilt)) scale(1); } }
 @media (max-width: 768px) {
   .about__lead { font-size: 18px; }
   .about__p { font-size: 16px; }
