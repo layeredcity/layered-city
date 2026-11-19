@@ -41,6 +41,7 @@ const typeRank = s => { const i = TYPE_ORDER.indexOf((s.mediaType || '').toLower
 // The chapter map never zooms in further than this, so a stop still shows its
 // surroundings rather than a few streets.
 const MAX_ZOOM = 7.5
+const NARRATION_ZOOM = 5 // map zoom while narration plays: the region, not the street
 const CHIME_LEAD = 2.4 // seconds of chime before the title starts (about 0.5 s overlap with its fade, which ends at 2.9 s)
 
 // Related threads for the end card: shared cities count most, then the same
@@ -73,6 +74,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   // keep it in view.
   const [narration, setNarration] = useState(null)
   const [seg, setSeg] = useState(-1) // segment playing, -1 = stopped
+  const playing = seg >= 0
   const [paused, setPaused] = useState(false)
   const [readingKey, setReadingKey] = useState(null)
   const audioRef = useRef(null)
@@ -247,8 +249,17 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       map.addLayer({ id: 'route', type: 'line', source: 'route', paint: { 'line-color': ROUTE_COLOR, 'line-width': 2.5, 'line-opacity': 0.75 }, layout: { 'line-cap': 'round', 'line-join': 'round' } })
     })
     markersRef.current = []
+    // Each marker is the numbered circle with the place name to its right.
+    // A name shows once per thread (on its first marker), so repeat visits to
+    // the same city don't stack identical labels; the active marker always
+    // shows its name.
+    const named = new Set()
     thread.chapters.forEach((c, i) => {
       chapterPoints(c).forEach(p => {
+        const name = c.points?.length ? p.label : (c.shortPlace || c.city)
+        const wrap = document.createElement('div')
+        wrap.className = 'thread-marker-wrap' + (named.has(name) ? ' is-repeat' : '')
+        named.add(name)
         const el = document.createElement('button')
         el.type = 'button'
         el.className = 'thread-marker'
@@ -257,8 +268,12 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
         el.addEventListener('click', () => {
           sectionRefs.current[i]?.scrollIntoView({ behavior: 'smooth', block: 'start' })
         })
-        const m = new mapboxgl.Marker({ element: el }).setLngLat([p.lon, p.lat]).addTo(map)
-        markersRef.current.push({ i, el, m })
+        const label = document.createElement('span')
+        label.className = 'thread-marker__label'
+        label.textContent = name
+        wrap.append(el, label)
+        const m = new mapboxgl.Marker({ element: wrap }).setLngLat([p.lon, p.lat]).addTo(map)
+        markersRef.current.push({ i, el, wrap, m })
       })
     })
     return () => map.remove()
@@ -321,9 +336,10 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
   useEffect(() => {
     const map = mapRef.current
     if (!map) return
-    markersRef.current.forEach(({ i, el }) => {
+    markersRef.current.forEach(({ i, el, wrap }) => {
       el.classList.toggle('is-active', i === active)
       el.classList.toggle('is-past', i < active)
+      wrap.classList.toggle('is-active', i === active)
     })
     const narrow = window.innerWidth <= 768
     const pad = narrow ? 36 : 80
@@ -332,12 +348,14 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     if (c.points?.length) {
       const b = new mapboxgl.LngLatBounds()
       c.points.forEach(p => b.extend([p.lon, p.lat]))
-      map.fitBounds(b, { padding: pad, duration: 2200, essential: true })
+      map.fitBounds(b, { padding: pad, duration: 2200, essential: true, ...(playing ? { maxZoom: NARRATION_ZOOM } : {}) })
     } else {
-      const z = Math.min(c.zoom - 3, MAX_ZOOM) - (narrow ? 1 : 0)
-      map.flyTo({ center: [c.lon, c.lat], zoom: Math.max(4, z), duration: 2200, curve: 0.8, essential: true })
+      // While narration plays, stay zoomed out so the listener keeps a sense
+      // of where each stop sits in Europe; browsing by scroll zooms in closer.
+      const z = Math.min(c.zoom - 3, playing ? NARRATION_ZOOM : MAX_ZOOM) - (narrow ? 1 : 0)
+      map.flyTo({ center: [c.lon, c.lat], zoom: Math.max(3.5, z), duration: 2200, curve: 0.8, essential: true })
     }
-  }, [active, thread, bounds])
+  }, [active, thread, bounds, playing])
 
   // Esc closes.
   useEffect(() => {
