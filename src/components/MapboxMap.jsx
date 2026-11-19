@@ -29,6 +29,12 @@ const SYLLABLE_BREAKS = {
 }
 
 const FLY_DURATION = 4500
+const ROUTE_COLOR = '#C8412A'
+
+// Every place a thread stops, in order. Chapters that span several cities list
+// them in `points`; the rest are one stop at the chapter's own coordinates.
+const threadStops = t => t.chapters.flatMap((c, i) =>
+  (c.points?.length ? c.points : [{ lat: c.lat, lon: c.lon }]).map(p => ({ n: i + 1, lat: p.lat, lon: p.lon, line: !c.points?.length })))
 const PANEL_TRANSITION = 520
 
 // Landmark pin glyphs (same shapes as LANDMARK_ICONS in App.jsx, as strings
@@ -45,7 +51,7 @@ const LANDMARK_PIN_SVGS = {
   landmark: LP('M12 1a8 8 0 0 1 8 8c0 5.5-6.2 12.4-7.3 13.6a1 1 0 0 1-1.4 0C10.2 21.4 4 14.5 4 9a8 8 0 0 1 8-8Zm0 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z'),
 }
 
-export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady }) {
+export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady, threadPreview, threadCounts }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -53,6 +59,11 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const omdbCacheRef = useRef(omdbCache)
   const bookCacheRef = useRef(bookCache)
   const cityMarkersRef = useRef([])
+  const cityElsRef = useRef([]) // { name, wrapper, badge }
+  const threadCountsRef = useRef(threadCounts)
+  const previewMarkersRef = useRef([])
+  const previewAnimRef = useRef(null)
+  threadCountsRef.current = threadCounts
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
   const citySelectedAtRef = useRef(null)
@@ -209,6 +220,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     const map = mapRef.current
     cityMarkersRef.current.forEach(m => m.remove())
     cityMarkersRef.current = []
+    cityElsRef.current = []
     if (!map || city || !cities?.length) return
 
     const addCityMarkers = () => {
@@ -236,6 +248,11 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         overlay.appendChild(nameEl)
         inner.appendChild(overlay)
         wrapper.appendChild(inner)
+        // Threads view: how many threads stop here (filled in by applyCounts).
+        const badge = document.createElement('span')
+        badge.className = 'city-marker__count'
+        wrapper.appendChild(badge)
+        cityElsRef.current.push({ name: c.name, wrapper, badge })
         wrapper.addEventListener('click', () => onCityClick?.(c))
 
         const marker = new mapboxgl.Marker(wrapper)
@@ -244,11 +261,100 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         cityMarkersRef.current.push(marker)
         setTimeout(() => { inner.style.opacity = '1' }, 200 + Math.random() * 600)
       })
+      applyCounts()
     }
 
     if (styleReadyRef.current || map.loaded()) addCityMarkers()
     else map.once('load', addCityMarkers)
   }, [cities, city])
+
+  // Threads view: a small red count on each city, and a tooltip.
+  const applyCounts = () => {
+    const counts = threadCountsRef.current
+    cityElsRef.current.forEach(({ name, wrapper, badge }) => {
+      const n = counts?.[name] || 0
+      badge.textContent = n ? String(n) : ''
+      wrapper.classList.toggle('has-count', !!n)
+      wrapper.title = n ? `${name} · ${n} thread${n === 1 ? '' : 's'}` : ''
+    })
+  }
+  useEffect(applyCounts, [threadCounts])
+
+  // Threads view: hovering a thread in the list draws its route on the map.
+  // The map itself stays where it is; cities off the route fade back.
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map) return
+    cancelAnimationFrame(previewAnimRef.current)
+    previewMarkersRef.current.forEach(m => m.remove())
+    previewMarkersRef.current = []
+    const clear = () => {
+      for (const id of ['thread-preview', 'thread-preview-casing']) if (map.getLayer(id)) map.removeLayer(id)
+      if (map.getSource('thread-preview')) map.removeSource('thread-preview')
+    }
+    if (!threadPreview) {
+      clear()
+      cityElsRef.current.forEach(({ wrapper }) => wrapper.classList.remove('is-faded', 'is-on-route'))
+      return
+    }
+    if (!(styleReadyRef.current || map.loaded())) return
+    clear()
+
+    const stops = threadStops(threadPreview)
+    const onRoute = new Set(threadPreview.chapters.flatMap(c => [c.city, ...(c.points || []).map(p => p.label)]))
+    cityElsRef.current.forEach(({ name, wrapper }) => {
+      wrapper.classList.toggle('is-on-route', onRoute.has(name))
+      wrapper.classList.toggle('is-faded', !onRoute.has(name))
+    })
+
+    const coords = stops.filter(p => p.line).map(p => [p.lon, p.lat])
+    map.addSource('thread-preview', { type: 'geojson', lineMetrics: true, data: { type: 'Feature', geometry: { type: 'LineString', coordinates: coords } } })
+    const layout = { 'line-cap': 'round', 'line-join': 'round' }
+    map.addLayer({ id: 'thread-preview-casing', type: 'line', source: 'thread-preview', layout, paint: { 'line-color': '#fff', 'line-width': 6, 'line-opacity': 0.8 } })
+    map.addLayer({ id: 'thread-preview', type: 'line', source: 'thread-preview', layout, paint: { 'line-color': ROUTE_COLOR, 'line-width': 2.5 } })
+
+    // Draw the line from the first stop to the last, and pop each number in
+    // as the line reaches it. If line trimming isn't supported, the whole
+    // line simply appears.
+    const DRAW = 900
+    const setTrim = t => {
+      try {
+        const v = t >= 1 ? [0, 0] : [Math.max(t, 0.0001), 1]
+        map.setPaintProperty('thread-preview', 'line-trim-offset', v)
+        map.setPaintProperty('thread-preview-casing', 'line-trim-offset', v)
+      } catch { /* older renderer: no trim, line shows at once */ }
+    }
+    setTrim(0)
+
+    // One marker per place; a city the thread visits twice shows both numbers.
+    const places = []
+    stops.forEach(p => {
+      const same = places.find(q => Math.abs(q.lat - p.lat) < 0.05 && Math.abs(q.lon - p.lon) < 0.05)
+      if (same) { if (!same.ns.includes(p.n)) same.ns.push(p.n) } else places.push({ lat: p.lat, lon: p.lon, ns: [p.n], first: p.n })
+    })
+    const total = threadPreview.chapters.length
+    places.forEach(pl => {
+      const el = document.createElement('div')
+      el.className = 'thread-marker thread-marker--preview'
+      el.textContent = pl.ns.join('·')
+      el.style.animationDelay = Math.round(((pl.first - 1) / Math.max(total - 1, 1)) * DRAW) + 'ms'
+      // The map positions the wrapper with a transform; the pop animation
+      // (also a transform) must stay on the inner element.
+      const wrap = document.createElement('div')
+      wrap.className = 'thread-preview-wrap'
+      wrap.appendChild(el)
+      previewMarkersRef.current.push(new mapboxgl.Marker({ element: wrap }).setLngLat([pl.lon, pl.lat]).addTo(map))
+    })
+
+    const t0 = performance.now()
+    const step = now => {
+      const t = Math.min((now - t0) / DRAW, 1)
+      setTrim(1 - Math.pow(1 - t, 2))
+      if (t < 1) previewAnimRef.current = requestAnimationFrame(step)
+    }
+    previewAnimRef.current = requestAnimationFrame(step)
+    return () => cancelAnimationFrame(previewAnimRef.current)
+  }, [threadPreview])
 
   // Create/destroy markers when the full story set changes (city switch)
   useEffect(() => {

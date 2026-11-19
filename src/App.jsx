@@ -469,6 +469,12 @@ function LandmarkItem({ story, onSelect }) {
 // The landmark pop-up / mobile panel: what the place is, then its stories.
 // Tapping a story opens it, with a way back to the landmark.
 // Which threads a story appears in: story ID → [{ slug, title, kind, chapter }].
+// How many threads stop in each city (for the counts on the Threads map).
+const THREAD_CITY_COUNTS = {}
+THREADS.forEach(t => new Set(t.chapters.flatMap(c => [c.city, ...(c.points || []).map(p => p.label)])).forEach(name => {
+  THREAD_CITY_COUNTS[name] = (THREAD_CITY_COUNTS[name] || 0) + 1
+}))
+
 const THREADS_BY_STORY = {}
 THREADS.forEach(t => t.chapters.forEach((c, i) => c.stories.forEach(id => {
   const list = (THREADS_BY_STORY[id] ||= [])
@@ -1759,6 +1765,13 @@ export default function App() {
     return () => window.removeEventListener('popstate', onPop)
   }, [])
   const openThreadData = THREADS.find(t => t.slug === openThreadSlug) || null
+  // Threads list: hovering a thread previews its route on the map. A short
+  // delay keeps the map from flickering while the pointer sweeps down the list.
+  const [hoverThread, setHoverThread] = useState(null)
+  const hoverTimerRef = useRef(null)
+  const canHover = useMemo(() => typeof window !== 'undefined' && window.matchMedia?.('(hover: hover) and (pointer: fine)').matches, [])
+  const previewThread = t => { clearTimeout(hoverTimerRef.current); hoverTimerRef.current = setTimeout(() => setHoverThread(t), t ? 90 : 140) }
+  const threadsMapMode = leftTab === 'threads' && !openThreadSlug
   const threadCtx = useMemo(() => ({ open: openThread, current: openThreadSlug }), [openThread, openThreadSlug])
   const [mediaStory, setMediaStory] = useState(null)
   const [omdbCache, setOmdbCache] = useState({})
@@ -2200,7 +2213,8 @@ export default function App() {
           {THREAD_GROUPS.map(([kind, list]) => (<Fragment key={kind}>
           <div className="story-group-heading">{kind}</div>
           {list.map(t => (
-            <div key={t.slug} className={'city-item city-item--thread' + (openThreadSlug === t.slug ? ' city-item--active' : '')} onClick={() => openThread(t.slug)}>
+            <div key={t.slug} className={'city-item city-item--thread' + (openThreadSlug === t.slug ? ' city-item--active' : '')} onClick={() => { previewThread(null); openThread(t.slug) }}
+              onMouseEnter={canHover ? () => previewThread(t) : undefined} onMouseLeave={canHover ? () => previewThread(null) : undefined}>
               <div className="city-item__thumb-wrap">
                 {THREAD_PHOTOS[t.image]
                   ? <img className="city-item__thumb" src={THREAD_PHOTOS[t.image].src} alt="" loading="lazy" />
@@ -2379,6 +2393,8 @@ export default function App() {
           omdbCache={omdbCache}
           bookCache={bookCache}
           onCityClick={selectCity}
+          threadCounts={threadsMapMode ? THREAD_CITY_COUNTS : null}
+          threadPreview={threadsMapMode ? hoverThread : null}
           focusStory={selectedStory}
           onStoryClick={setSelectedStory}
           onStoryPin={pos => {
