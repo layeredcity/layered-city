@@ -348,7 +348,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         card.className = 'about-photo'
         card.style.setProperty('--tilt', ph.tilt + 'deg')
         card.style.animationDelay = (250 + i * 160) + 'ms'
-        // Front: the photo. Back (shown on hover, flipped): place and caption.
+        // Front: the photo. Back (shown on hover, flipped): caption, then place.
         const flip = document.createElement('div')
         flip.className = 'about-photo__flip'
         const front = document.createElement('div')
@@ -362,7 +362,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         place.className = 'about-photo__place'; place.textContent = ph.place
         const cap = document.createElement('span')
         cap.className = 'about-photo__caption'; cap.textContent = ph.caption
-        back.append(place, cap)
+        back.append(cap, place)
         flip.append(front, back)
         card.appendChild(flip)
         wrap.appendChild(card)
