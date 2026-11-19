@@ -249,17 +249,13 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
       map.addLayer({ id: 'route', type: 'line', source: 'route', paint: { 'line-color': ROUTE_COLOR, 'line-width': 2.5, 'line-opacity': 0.75 }, layout: { 'line-cap': 'round', 'line-join': 'round' } })
     })
     markersRef.current = []
-    // Each marker is the numbered circle with the place name to its right.
-    // A name shows once per thread (on its first marker), so repeat visits to
-    // the same city don't stack identical labels; the active marker always
-    // shows its name.
-    const named = new Set()
+    // Each marker is the numbered circle with the place name to its right;
+    // the name shows only while that stop is the active one.
     thread.chapters.forEach((c, i) => {
       chapterPoints(c).forEach(p => {
         const name = c.points?.length ? p.label : (c.shortPlace || c.city)
         const wrap = document.createElement('div')
-        wrap.className = 'thread-marker-wrap' + (named.has(name) ? ' is-repeat' : '')
-        named.add(name)
+        wrap.className = 'thread-marker-wrap'
         const el = document.createElement('button')
         el.type = 'button'
         el.className = 'thread-marker'
