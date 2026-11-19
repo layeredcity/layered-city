@@ -248,7 +248,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         overlay.appendChild(nameEl)
         inner.appendChild(overlay)
         wrapper.appendChild(inner)
-        cityElsRef.current.push({ name: c.name, wrapper, inner })
+        cityElsRef.current.push({ name: c.name, wrapper, inner, lon: c.coordinates.lon })
         wrapper.addEventListener('click', () => { if (!threadModeRef.current) onCityClick?.(c) })
 
         const marker = new mapboxgl.Marker(wrapper)
@@ -267,16 +267,34 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   // Threads view: cities shrink to small dots that can't be clicked (a click
   // would leave the Threads section); hovering a thread enlarges its cities.
   // Switching between Cities and Threads, the circles shrink or grow with a
-  // slight stagger, so they ripple rather than snap all at once.
+  // springy overshoot, in a wave that sweeps across the map from west to east.
+  // The spring is a keyframe animation; the class sets the resting state.
+  const SPRING_GROW = [0.3, 1.14, 0.95, 1.02, 1]
+  const SPRING_SHRINK = [1, 0.2, 0.36, 0.28, 0.3]
+  const SPRING_OFFSETS = [0, 0.42, 0.66, 0.84, 1]
   const applyThreadMode = () => {
     const on = !!threadModeRef.current
-    cityElsRef.current.forEach(({ wrapper, inner }) => {
-      if (wrapper.classList.contains('is-thread-mode') === on) return
-      inner.style.transition = 'opacity 0.4s ease, transform 0.5s cubic-bezier(0.34, 1.3, 0.64, 1)'
-      inner.style.transitionDelay = '0s, ' + Math.round(Math.random() * 300) + 'ms'
+    const els = cityElsRef.current.filter(({ wrapper }) => wrapper.classList.contains('is-thread-mode') !== on)
+    if (!els.length) return
+    const lons = els.map(e => e.lon)
+    const min = Math.min(...lons), span = Math.max(Math.max(...lons) - min, 1)
+    els.forEach(({ wrapper, inner, lon }) => {
+      const overlay = inner.firstChild
+      const animate = inner.animate && inner.style.opacity === '1'
+      // A CSS transition would override the keyframes, so pause transitions
+      // while the class changes and the spring plays.
+      if (animate) { inner.style.transition = 'none'; if (overlay) overlay.style.transition = 'none' }
       wrapper.classList.toggle('is-thread-mode', on)
+      if (!animate) return
+      const delay = Math.round(((lon - min) / span) * 380)
+      const scales = on ? SPRING_SHRINK : SPRING_GROW
+      inner.getAnimations?.().forEach(a => a.cancel())
+      inner.animate(scales.map((v, i) => ({ transform: `scale(${v})`, offset: SPRING_OFFSETS[i] })),
+        { duration: 720, delay, easing: 'ease-out', fill: 'backwards' })
       clearTimeout(inner._modeTimer)
-      inner._modeTimer = setTimeout(() => { inner.style.transition = ''; inner.style.transitionDelay = '' }, 900)
+      inner._modeTimer = setTimeout(() => { inner.style.transition = ''; if (overlay) overlay.style.transition = '' }, delay + 760)
+      overlay?.animate([{ opacity: on ? 0 : 1 }, { opacity: on ? 1 : 0 }],
+        { duration: 300, delay: delay + (on ? 120 : 0), easing: 'ease', fill: 'backwards' })
     })
   }
   useEffect(applyThreadMode, [threadMode])

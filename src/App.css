@@ -453,7 +453,8 @@ img.city-hero__img.is-loaded { opacity: 1; }
    cities on a hovered thread's route grow back into their photos. The map
    library positions the wrapper, so only the inner circle is scaled. */
 .city-marker-wrap.is-thread-mode { pointer-events: none; }
-.city-marker-wrap.is-thread-mode .city-marker { transform: scale(0.3); transition: opacity 0.4s ease, transform 0.35s ease; }
+/* Growing on a hovered route uses a springy curve to match the section switch. */
+.city-marker-wrap.is-thread-mode .city-marker { transform: scale(0.3); transition: opacity 0.4s ease, transform 0.45s cubic-bezier(0.34, 1.56, 0.64, 1); }
 .city-marker-wrap.is-thread-mode .city-marker__overlay { opacity: 1; background: #153B8F; transition: opacity 0.35s ease; }
 .city-marker__overlay { transition: opacity 0.35s ease, background 0.35s ease; }
 .city-marker-wrap.is-thread-mode .city-marker__name { visibility: hidden; }
