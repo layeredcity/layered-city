@@ -469,6 +469,11 @@ function LandmarkItem({ story, onSelect }) {
 // The landmark pop-up / mobile panel: what the place is, then its stories.
 // Tapping a story opens it, with a way back to the landmark.
 // Which threads a story appears in: story ID → [{ slug, title, kind, chapter }].
+// The cities each thread stops in, and how many threads stop in each city.
+const THREAD_CITIES = Object.fromEntries(THREADS.map(t => [t.slug, new Set(t.chapters.flatMap(c => [c.city, ...(c.points || []).map(p => p.label)]))]))
+const THREAD_CITY_COUNTS = {}
+Object.values(THREAD_CITIES).forEach(set => set.forEach(name => { THREAD_CITY_COUNTS[name] = (THREAD_CITY_COUNTS[name] || 0) + 1 }))
+
 const THREADS_BY_STORY = {}
 THREADS.forEach(t => t.chapters.forEach((c, i) => c.stories.forEach(id => {
   const list = (THREADS_BY_STORY[id] ||= [])
@@ -1766,6 +1771,14 @@ export default function App() {
   const canHover = useMemo(() => typeof window !== 'undefined' && window.matchMedia?.('(hover: hover) and (pointer: fine)').matches, [])
   const previewThread = t => { clearTimeout(hoverTimerRef.current); hoverTimerRef.current = setTimeout(() => setHoverThread(t), t ? 90 : 140) }
   const threadsMapMode = leftTab === 'threads' && !openThreadSlug
+  // Threads list: hovering a city's dot on the map highlights its threads;
+  // clicking it filters the list to them (cleared from the chip or the dot).
+  const [hoverCity, setHoverCity] = useState(null)
+  const [threadCity, setThreadCity] = useState(null)
+  useEffect(() => { if (leftTab !== 'threads') { setThreadCity(null); setHoverCity(null) } }, [leftTab])
+  const threadGroups = threadCity
+    ? THREAD_GROUPS.map(([k, list]) => [k, list.filter(t => THREAD_CITIES[t.slug].has(threadCity))]).filter(([, l]) => l.length)
+    : THREAD_GROUPS
   const threadCtx = useMemo(() => ({ open: openThread, current: openThreadSlug }), [openThread, openThreadSlug])
   const [mediaStory, setMediaStory] = useState(null)
   const [omdbCache, setOmdbCache] = useState({})
@@ -2214,10 +2227,17 @@ export default function App() {
           </Fragment>))}
           </>)}
           {leftTab === 'threads' && (<>
-          {THREAD_GROUPS.map(([kind, list]) => (<Fragment key={kind}>
+          {threadCity && (
+            <div className="thread-filter">
+              <span className="thread-filter__chip">Threads through {threadCity}
+                <button type="button" className="thread-filter__clear" aria-label="Show all threads" onClick={() => setThreadCity(null)}>×</button>
+              </span>
+            </div>
+          )}
+          {threadGroups.map(([kind, list]) => (<Fragment key={kind}>
           <div className="story-group-heading">{kind}</div>
           {list.map(t => (
-            <div key={t.slug} className={'city-item city-item--thread' + (openThreadSlug === t.slug ? ' city-item--active' : '')} onClick={() => { previewThread(null); openThread(t.slug) }}
+            <div key={t.slug} className={'city-item city-item--thread' + (openThreadSlug === t.slug ? ' city-item--active' : '') + (hoverCity && !THREAD_CITIES[t.slug].has(hoverCity) ? ' city-item--dimmed' : '')} onClick={() => { previewThread(null); openThread(t.slug) }}
               onMouseEnter={canHover ? () => previewThread(t) : undefined} onMouseLeave={canHover ? () => previewThread(null) : undefined}>
               <div className="city-item__thumb-wrap">
                 {THREAD_PHOTOS[t.image]
@@ -2398,6 +2418,10 @@ export default function App() {
           bookCache={bookCache}
           onCityClick={selectCity}
           threadMode={threadsMapMode}
+          threadCounts={THREAD_CITY_COUNTS}
+          threadCity={threadCity}
+          onThreadCityHover={setHoverCity}
+          onThreadCityClick={name => setThreadCity(c => c === name ? null : name)}
           threadPreview={threadsMapMode ? hoverThread : null}
           focusStory={selectedStory}
           onStoryClick={setSelectedStory}

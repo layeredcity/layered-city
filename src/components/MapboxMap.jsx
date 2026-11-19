@@ -51,7 +51,7 @@ const LANDMARK_PIN_SVGS = {
   landmark: LP('M12 1a8 8 0 0 1 8 8c0 5.5-6.2 12.4-7.3 13.6a1 1 0 0 1-1.4 0C10.2 21.4 4 14.5 4 9a8 8 0 0 1 8-8Zm0 4.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7Z'),
 }
 
-export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady, threadPreview, threadMode }) {
+export default function MapboxMap({ city, cities, allStories, stories, omdbCache, bookCache, focusStory, onStoryPin, onStoryClick, onCityClick, shownKey, onReady, threadPreview, threadMode, threadCounts, threadCity, onThreadCityHover, onThreadCityClick }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const markersRef = useRef([])
@@ -64,6 +64,12 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
   const previewMarkersRef = useRef([])
   const previewAnimRef = useRef(null)
   threadModeRef.current = threadMode
+  const threadCountsRef = useRef(threadCounts)
+  threadCountsRef.current = threadCounts
+  const threadCityRef = useRef(threadCity)
+  threadCityRef.current = threadCity
+  const threadCbRef = useRef({})
+  threadCbRef.current = { hover: onThreadCityHover, click: onThreadCityClick }
   const flyTimerRef = useRef(null)
   const revealTimerRef = useRef(null)
   const citySelectedAtRef = useRef(null)
@@ -248,7 +254,23 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         overlay.appendChild(nameEl)
         inner.appendChild(overlay)
         wrapper.appendChild(inner)
-        cityElsRef.current.push({ name: c.name, wrapper, inner, lon: c.coordinates.lon })
+        // Threads view: the dot's hit area (larger than the dot itself, smaller
+        // than the photo's, so neighbours don't steal each other's hovers) and
+        // the name label that appears on hover.
+        const hit = document.createElement('span')
+        hit.className = 'city-marker__hit'
+        const tlabel = document.createElement('span')
+        tlabel.className = 'city-marker__tlabel'
+        wrapper.append(hit, tlabel)
+        hit.addEventListener('mouseenter', () => {
+          const n = threadCountsRef.current?.[c.name] || 0
+          tlabel.textContent = `${c.name} · ${n} thread${n === 1 ? '' : 's'}`
+          wrapper.classList.add('is-hover')
+          threadCbRef.current.hover?.(c.name)
+        })
+        hit.addEventListener('mouseleave', () => { wrapper.classList.remove('is-hover'); threadCbRef.current.hover?.(null) })
+        hit.addEventListener('click', e => { e.stopPropagation(); threadCbRef.current.click?.(c.name) })
+        cityElsRef.current.push({ name: c.name, wrapper, inner, tlabel, lon: c.coordinates.lon })
         wrapper.addEventListener('click', () => { if (!threadModeRef.current) onCityClick?.(c) })
 
         const marker = new mapboxgl.Marker(wrapper)
@@ -258,6 +280,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         setTimeout(() => { inner.style.opacity = '1' }, 200 + Math.random() * 600)
       })
       applyThreadMode()
+      applyThreadCity()
     }
 
     if (styleReadyRef.current || map.loaded()) addCityMarkers()
@@ -298,6 +321,18 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     })
   }
   useEffect(applyThreadMode, [threadMode])
+
+  // Threads view: the city the list is filtered to stays enlarged, with its
+  // name showing.
+  const applyThreadCity = () => {
+    const sel = threadModeRef.current ? threadCityRef.current : null
+    cityElsRef.current.forEach(({ name, wrapper, tlabel }) => {
+      const on = name === sel
+      wrapper.classList.toggle('is-selected', on)
+      if (on) { const n = threadCountsRef.current?.[name] || 0; tlabel.textContent = `${name} · ${n} thread${n === 1 ? '' : 's'}` }
+    })
+  }
+  useEffect(applyThreadCity, [threadCity, threadMode])
 
   // Threads view: hovering a thread in the list draws its route on the map.
   // The map itself stays where it is; cities off the route fade back.
