@@ -176,6 +176,13 @@ export default async function prerender() {
     url: SITE + '/', image: homeImage, body: homeBody,
   }))
 
+  // Threads list (/threads).
+  const kinds = [...new Set(threads.map(t => t.kind))]
+  const threadsBody = '<h1>Threads</h1><p>Stories that run across several cities.</p>' + kinds.map(k => `<h2>${esc(k)}</h2><ul>` +
+    threads.filter(t => t.kind === k).map(t => `<li><a href="/threads/${t.slug}">${esc(t.title)}</a>: ${esc(clip(t.intro[0], 140))}</li>`).join('') + '</ul>').join('')
+  await write('threads.html', page(shell, { title: 'Threads | Layered City', description: `${threads.length} stories that follow people, movements, and events across European cities.`, url: SITE + '/threads', image: homeImage, body: threadsBody }))
+  urls.push(SITE + '/threads')
+
   // About page.
   try {
     const about = (await import(path.resolve('src/data/about.js'))).default

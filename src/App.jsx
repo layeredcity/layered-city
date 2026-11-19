@@ -1740,7 +1740,7 @@ export default function App() {
   const threadReturnPath = useRef('/')
   const [threadStart, setThreadStart] = useState(null)
   // Left column: the list of cities or the list of threads.
-  const [leftTab, setLeftTab] = useState(() => window.location.pathname.startsWith('/threads/') ? 'threads' : window.location.pathname === '/about' ? 'about' : 'cities')
+  const [leftTab, setLeftTab] = useState(() => /^\/threads(\/|$)/.test(window.location.pathname) ? 'threads' : window.location.pathname === '/about' ? 'about' : 'cities')
   const openThread = useCallback((slug, chapter = null) => {
     if (!window.location.pathname.startsWith('/threads/')) threadReturnPath.current = window.location.pathname
     setLeftTab('threads')
@@ -1754,7 +1754,7 @@ export default function App() {
     window.history.pushState({}, '', threadReturnPath.current || '/')
   }, [])
   useEffect(() => {
-    const onPop = () => { if (window.location.pathname.startsWith('/threads/')) setLeftTab('threads'); setOpenThreadSlug((window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null); setThreadStory(null) }
+    const onPop = () => { if (/^\/threads(\/|$)/.test(window.location.pathname)) setLeftTab('threads'); setOpenThreadSlug((window.location.pathname.match(/^\/threads\/([^/]+)/) || [])[1] || null); setThreadStory(null) }
     window.addEventListener('popstate', onPop)
     return () => window.removeEventListener('popstate', onPop)
   }, [])
@@ -1873,18 +1873,22 @@ export default function App() {
     window.history.pushState({}, '', '/')
   }, [closeStoryWithFade])
 
-  // Tabs. About has its own URL and closes whatever else is open; leaving it
-  // goes back to the home URL.
+  // Tabs. Each has its own URL: / for Cities, /threads, and /about. Threads
+  // and About close whatever city is open.
   const selectTab = useCallback(k => {
-    if (k === 'about') {
-      if (window.location.pathname !== '/about') {
-        // goHome pushes '/'; swap that entry for /about so Back returns to
-        // wherever you were before.
+    const path = window.location.pathname
+    if (k === 'cities') {
+      // From Threads or About (or an open thread) back to the home URL; a city
+      // that's already open stays open.
+      if (/^\/(threads|about)(\/|$)/.test(path)) { goHome(); setMediaStory(null) }
+    } else {
+      const url = k === 'about' ? '/about' : '/threads'
+      if (path !== url) {
+        // goHome pushes '/'; swap that entry for the tab's URL so Back returns
+        // to wherever you were before.
         goHome(); setMediaStory(null)
-        window.history.replaceState({}, '', '/about')
+        window.history.replaceState({}, '', url)
       }
-    } else if (window.location.pathname === '/about') {
-      window.history.pushState({}, '', '/')
     }
     setLeftTab(k)
   }, [goHome])
@@ -1950,8 +1954,13 @@ export default function App() {
         closeStoryWithFade(); setSelectedCity(null); setStories([]); setFoods([]); setWords([])
         setDetailView('overview'); setActiveFilter('All'); setMobileView('list'); setLeftTab('about'); return
       }
+      if (citySlug === 'threads') {
+        // The thread itself (/threads/<slug>) is handled by the thread listener.
+        closeStoryWithFade(); setSelectedCity(null); setStories([]); setFoods([]); setWords([])
+        setDetailView('overview'); setActiveFilter('All'); setMobileView('list'); setLeftTab('threads'); return
+      }
       if (!citySlug) {
-        setLeftTab(t => t === 'about' ? 'cities' : t)
+        setLeftTab('cities')
         closeStoryWithFade(); setSelectedCity(null); setStories([]); setFoods([]); setWords([])
         setDetailView('overview'); setActiveFilter('All'); setMobileView('list'); return
       }
@@ -2043,9 +2052,10 @@ export default function App() {
     document.title = t ? `${t.title} | ${base}`
       : selectedCity ? `${activeFilter && activeFilter !== 'All' ? activeFilter + ' in ' : ''}${selectedCity.name} | ${base}`
       : leftTab === 'about' ? `About | ${base}`
+      : leftTab === 'threads' ? `Threads | ${base}`
       : `${base} | The guidebook companion for curious travelers in Europe`
     trackPageview()
-  }, [openThreadSlug, selectedCity, activeFilter, leftTab === 'about'])
+  }, [openThreadSlug, selectedCity, activeFilter, leftTab])
 
   const effectiveRatingForStory = useCallback((s) => {
     const t = (s.mediaType || '').toLowerCase()
