@@ -338,6 +338,16 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     aboutMarkersRef.current = []
     old.forEach(({ m, card }) => { card.classList.add('is-leaving'); setTimeout(() => m.remove(), 300) })
     if (!map || !aboutPhotos) return
+    // Prints are small at the zoomed-out view and grow as you zoom in, up to a
+    // cap. Hovering always brings a print up to a readable size for its back.
+    const sizePrints = () => {
+      const w = Math.round(Math.min(220, Math.max(120, 120 + (map.getZoom() - 3.8) * 45)))
+      const el = map.getContainer()
+      el.style.setProperty('--about-w', w + 'px')
+      el.style.setProperty('--about-hover', Math.max(1.08, 210 / w).toFixed(3))
+    }
+    sizePrints()
+    map.on('zoom', sizePrints)
     const add = () => {
       aboutPhotos.forEach((ph, i) => {
         // The map positions the wrapper with a transform, so the tilt and the
@@ -372,6 +382,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     }
     if (styleReadyRef.current || map.loaded()) add()
     else map.once('load', add)
+    return () => map.off('zoom', sizePrints)
   }, [aboutPhotos])
 
   // Threads view: the city the list is filtered to stays enlarged, with its
