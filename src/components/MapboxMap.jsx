@@ -359,7 +359,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         const back = document.createElement('figcaption')
         back.className = 'about-photo__face about-photo__back'
         const place = document.createElement('span')
-        place.className = 'about-photo__place'; place.textContent = ph.place
+        place.className = 'about-photo__place'; place.textContent = ph.year ? `${ph.place} · ${ph.year}` : ph.place
         const cap = document.createElement('span')
         cap.className = 'about-photo__caption'; cap.textContent = ph.caption
         back.append(cap, place)

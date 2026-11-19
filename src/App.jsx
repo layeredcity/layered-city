@@ -479,13 +479,14 @@ const THREAD_CITY_COUNTS = {}
 Object.values(THREAD_CITIES).forEach(set => set.forEach(name => { THREAD_CITY_COUNTS[name] = (THREAD_CITY_COUNTS[name] || 0) + 1 }))
 
 // About: Ryan's photos, shown on the map (desktop) where they were taken.
+// The back of each print shows the caption, then place · year.
 const ABOUT_PHOTOS = [
   { src: '/about/ali-ryan-wedding.webp', alt: 'Ali and Ryan on their wedding day', lat: 48.23, lon: 3.14, tilt: -4,
-    caption: 'At a chateau wedding', place: 'Vallery, France' },
+    caption: 'At a chateau wedding', place: 'Vallery, France', year: 2025 },
   { src: '/about/ryan-owl.webp', alt: 'Ryan holding an owl', lat: 51.99, lon: -1.74, tilt: 3,
-    caption: 'At the Batsford Arboretum', place: 'Moreton-in-Marsh, England' },
+    caption: 'At the Batsford Arboretum', place: 'Moreton-in-Marsh, England', year: 2025 },
   { src: '/about/ali-ryan-italy.webp', alt: 'Ali and Ryan in Italy', lat: 40.63, lon: 14.6, tilt: -2.5,
-    caption: 'Rainy winter day', place: 'Amalfi, Italy' },
+    caption: 'Rainy winter day', place: 'Amalfi, Italy', year: 2025 },
 ]
 
 const THREADS_BY_STORY = {}
