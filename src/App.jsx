@@ -132,6 +132,9 @@ const FILTERS = [
   // No alwaysShow: unlike the other sections, Tours is hidden entirely for a
   // city with zero tours (rather than showing "Coming soon"), and reappears
   // automatically once that city has at least one published tour.
+  // Threads: the cross-city stories that have a chapter in this city. Rows
+  // open the thread at its start; each says which chapter happens here.
+  { label: 'Threads', group: 'deeper', types: [], threads: true, emptyLabel: 'threads', icon: 'thread', unitSingular: 'thread', unitPlural: 'threads', blurb: 'Stories that pass through {city}' },
   { label: 'Tours',            group: 'deeper', types: ['audiotour'],    emptyLabel: 'tours',            icon: 'audiotour', unitSingular: 'tour', unitPlural: 'tours', blurb: 'Expert-led audio tours of {city}' },
   // No alwaysShow: TV coverage is spotty, so a city with no shows hides the
   // section entirely rather than advertising "Coming soon".
@@ -148,7 +151,7 @@ const FILTERS = [
 // in Budapest"). Kept short deliberately — it must stay on a single line.
 const SECTION_CONNECTOR = {
   Books: 'about', Events: 'coming up in', Landmarks: 'with stories in', Food: 'to eat in', Movies: 'set in', Music: 'from',
-  Podcasts: 'about', Tours: 'of', TV: 'set in', Videos: 'about',
+  Podcasts: 'about', Threads: 'that pass through', Tours: 'of', TV: 'set in', Videos: 'about',
 }
 function sectionLine(filter, count, city) {
   if (count === 0) return 'Coming soon'
@@ -177,6 +180,7 @@ const LANDMARK_ICONS = {
 }
 
 const TYPE_ICONS = {
+  thread: <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="-2 -2 18 18"><path fillRule="evenodd" clipRule="evenodd" d="M10.5 0H13c0.5523 0 1 0.447715 1 1v2.5c0 0.55228 -0.4477 1 -1 1h-0.9179l-0.8988 2.51676C11.648 7.10284 12 7.51031 12 8v2.5c0 0.5523 -0.4477 1 -1 1H8.5c-0.55228 0 -1 -0.4477 -1 -1V8.69541L5.62635 6.99209C5.58497 6.99731 5.5428 7 5.5 7H4.23131l-0.53964 2.51835c0.46059 0.08941 0.80833 0.49495 0.80833 0.98165V13c0 0.5523 -0.44772 1 -1 1H1c-0.552285 0 -1 -0.4477 -1 -1v-2.5c0 -0.55229 0.447715 -1 1 -1h1.16155l0.54508 -2.54372C2.2975 6.83091 2 6.4502 2 6V3.5c0 -0.55228 0.44772 -1 1 -1h2.5c0.55228 0 1 0.44772 1 1v2.25913l1.50743 1.3704C8.15283 7.04707 8.32092 7 8.5 7h1.09646l0.89284 -2.50006C9.94196 4.49423 9.5 4.04873 9.5 3.5V1c0 -0.552285 0.44772 -1 1 -1Z" /></svg>,
   landmark: <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"><path d="M12 1.5 1.5 7v2.5h21V7L12 1.5ZM3.5 11h3v7.5h-3V11Zm5 0h3v7.5h-3V11Zm4.99 0h3v7.5h-3V11Zm5.01 0h3v7.5h-3V11ZM1.5 20h21v2.5h-21V20Z"/></svg>,
   podcast: (
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 48 48">
@@ -796,11 +800,41 @@ function FoodItem({ food, cityName }) {
   )
 }
 
+// The threads with a chapter in a city, in the Threads tab's order, each with
+// the chapters (0-based) that happen there.
+function threadsInCity(name) {
+  return THREADS.map(t => ({ t, chs: t.chapters.flatMap((c, i) => (c.city === name || c.points?.some(p => p.label === name)) ? [i] : []) }))
+    .filter(x => x.chs.length)
+}
+const listAnd = a => a.length < 3 ? a.join(' and ') : a.slice(0, -1).join(', ') + ', and ' + a[a.length - 1]
+
+function CityThreadItem({ t, chs, onOpen }) {
+  const n = t.chapters.length
+  const where = (chs.length === 1 ? `Chapter ${chs[0] + 1}` : `Chapters ${listAnd(chs.map(i => i + 1))}`) + ` of ${n}`
+  return (
+    <div className="story-item city-thread" role="link" tabIndex={0} onClick={() => onOpen(t.slug)} onKeyDown={e => { if (e.key === 'Enter') onOpen(t.slug) }}>
+      <span className="story-item__icon-viz">
+        {THREAD_PHOTOS[t.image]
+          ? <img className="story-item__icon-podcast city-thread__thumb" src={THREAD_PHOTOS[t.image].src} alt="" loading="lazy" />
+          : <span className="story-item__icon-podcast city-thread__thumb" />}
+      </span>
+      <div className="story-item__body">
+        <div className="story-item__title">{t.title}</div>
+        <div className="story-item__meta">
+          <span className="story-item__type">Thread</span>
+          <span className="story-item__source">{t.kind}</span>
+        </div>
+        <div className="city-thread__here"><span className="city-thread__ch">{where}</span> {t.chapters[chs[0]].heading}</div>
+      </div>
+    </div>
+  )
+}
+
 function CityOverview({ landmarkCount = 0, city, stories, storiesLoading, foods, foodsLoading, words, wordsLoading, onSelectFilter }) {
   const loading = storiesLoading || foodsLoading || wordsLoading
   const wordCount = city.wordsPublished ? words.length : 0
   const sections = loading ? [] : FILTERS.slice(1).filter(f => !f.hidden)
-    .map(f => ({ filter: f, count: f.landmarks ? landmarkCount : f.events ? upcomingEvents(city.name).length : f.words ? wordCount : f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
+    .map(f => ({ filter: f, count: f.threads ? threadsInCity(city.name).length : f.landmarks ? landmarkCount : f.events ? upcomingEvents(city.name).length : f.words ? wordCount : f.food ? foods.length : stories.filter(s => f.types.includes((s.mediaType || '').toLowerCase())).length }))
     .filter(({ filter, count }) => count > 0 || filter.alwaysShow)
   return (
     <div className="city-overview">
@@ -2056,7 +2090,7 @@ export default function App() {
     return [...list, ...cityLandmarkStories.filter(l => l.landmark.members.some(m => ids.has(m.id)))]
   }
   const wordsAvailable = !!(selectedCity?.wordsPublished && words.length > 0)
-  const availableFilters = FILTERS.slice(1).filter(f => !f.hidden).filter(f => f.landmarks ? cityLandmarkStories.length > 0 : f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
+  const availableFilters = FILTERS.slice(1).filter(f => !f.hidden).filter(f => f.threads ? threadsInCity(selectedCity?.name).length > 0 : f.landmarks ? cityLandmarkStories.length > 0 : f.events ? cityEventStories.length > 0 : f.words ? wordsAvailable : f.food ? foods.length > 0 : stories.some(s => f.types.includes((s.mediaType || '').toLowerCase())))
 
   // Tab title for the page in view, and a pageview for analytics.
   useEffect(() => {
@@ -2136,6 +2170,7 @@ export default function App() {
   const mapStories = useMemo(() => detailView === 'overview' ? withLandmarks(stories)
     : currentFilter.events ? shownEventStories
     : currentFilter.landmarks ? [...cityLandmarkStories, ...cityLandmarkStories.flatMap(l => l.landmark.members)]
+    : currentFilter.threads ? withLandmarks(stories)
     : withLandmarks(filteredStories),
   [detailView, stories, currentFilter, shownEventStories, cityLandmarkStories, filteredStories]) // eslint-disable-line react-hooks/exhaustive-deps
 
@@ -2347,6 +2382,14 @@ export default function App() {
                     ) : (
                       <WordsPanel city={selectedCity} words={words} />
                     )
+                  ) : currentFilter.threads ? (
+                    <>
+                      {threadsInCity(selectedCity.name).map(({ t, chs }) => <CityThreadItem key={t.slug} t={t} chs={chs} onOpen={slug => openThread(slug)} />)}
+                      <button type="button" className="city-threads__all" onClick={() => { const name = selectedCity.name; selectTab('threads'); setThreadCity(name) }}>
+                        See these {threadsInCity(selectedCity.name).length} threads on the map
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"><path d="M9 18l6-6-6-6"/></svg>
+                      </button>
+                    </>
                   ) : currentFilter.landmarks ? (
                     cityLandmarkStories.map(l => <LandmarkItem key={l.id} story={l} onSelect={setSelectedStory} />)
                   ) : currentFilter.events ? (
