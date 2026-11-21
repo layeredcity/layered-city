@@ -483,6 +483,8 @@ Object.values(THREAD_CITIES).forEach(set => set.forEach(name => { THREAD_CITY_CO
 // newest prints sit on top where they overlap. The back of each print shows
 // the caption, then place · year.
 const ABOUT_PHOTOS = [
+  { src: '/about/barcelona-2001.webp', alt: 'Ryan with Josh, Carrie, and Austin', lat: 41.376, lon: 2.178, tilt: -3, w: 900, h: 600,
+    caption: 'With Josh, Carrie, and Austin', place: 'Barcelona, Spain', year: 2001 },
   { src: '/about/dubrovnik-2003.webp', alt: 'Ryan on the Dubrovnik city walls', lat: 42.641, lon: 18.108, tilt: 3, w: 605, h: 900,
     caption: 'On the city walls', place: 'Dubrovnik, Croatia', year: 2003 },
   { src: '/about/tiraspol-2007.webp', alt: 'Ryan beside a relief of Lenin', lat: 46.84, lon: 29.63, tilt: -3, w: 675, h: 900,
@@ -505,8 +507,6 @@ const ABOUT_PHOTOS = [
     caption: 'At the Roman aqueduct', place: 'Segovia, Spain', year: 2019 },
   { src: '/about/porto-2020.webp', alt: 'Ryan beside a boat on the Douro', lat: 41.14, lon: -8.61, tilt: -3, w: 900, h: 675,
     caption: 'By the Douro River', place: 'Porto, Portugal', year: 2020 },
-  { src: '/about/barcelona-2021.webp', alt: 'Ryan with Josh, Carrie, and Austin', lat: 41.376, lon: 2.178, tilt: -3, w: 900, h: 600,
-    caption: 'With Josh, Carrie, and Austin', place: 'Barcelona, Spain', year: 2021 },
   { src: '/about/lisbon-2021.webp', alt: 'Ryan on a stone stairway in Lisbon', lat: 38.716, lon: -9.135, tilt: 3, w: 675, h: 900,
     caption: 'On the stairs', place: 'Lisbon, Portugal', year: 2021 },
   { src: '/about/lake-brienz-2024.webp', alt: 'Ryan hiking above Lake Brienz', lat: 46.75, lon: 7.98, tilt: -2.5, w: 675, h: 900,
