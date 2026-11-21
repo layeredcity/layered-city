@@ -511,7 +511,7 @@ const ABOUT_PHOTOS = [
     caption: 'Above the town', place: 'Setenil de las Bodegas, Spain', year: 2019 },
   { src: '/about/segovia-2019.webp', alt: 'Ryan at the Segovia aqueduct', lat: 40.948, lon: -4.118, tilt: 2.5, w: 675, h: 900,
     caption: 'At the Roman aqueduct', place: 'Segovia, Spain', year: 2019 },
-  { src: '/about/stockholm-2019.webp', alt: 'A selfie in Stortorget, the square in Stockholm’s old town', lat: 59.325, lon: 18.071, tilt: -3, w: 640, h: 480,
+  { src: '/about/stockholm-2019.webp', alt: 'A selfie in Stortorget, the square in Stockholm’s old town', lat: 59.325, lon: 18.071, tilt: -3, w: 900, h: 675,
     caption: 'In the old town', place: 'Stockholm, Sweden', year: 2019 },
   { src: '/about/giants-causeway.webp', alt: 'Ryan climbing a path above the Giant’s Causeway', lat: 55.241, lon: -6.512, tilt: 3, w: 900, h: 675,
     caption: 'Above the Giant’s Causeway', place: 'Bushmills, Northern Ireland' },
