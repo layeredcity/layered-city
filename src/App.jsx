@@ -501,6 +501,8 @@ const ABOUT_PHOTOS = [
     caption: 'Playing backgammon', place: 'Istanbul, Turkey', year: 2007 },
   { src: '/about/pripyat-2007.webp', alt: 'Ryan on a rooftop above Pripyat, with the Chernobyl plant in the distance', lat: 51.405, lon: 30.057, tilt: -2.5, w: 900, h: 675,
     caption: 'Above abandoned Pripyat', place: 'Chernobyl, Ukraine', year: 2007 },
+  { src: '/about/nemrut-2007.webp', alt: 'Ryan beside one of the colossal stone heads on Mount Nemrut', lat: 37.98, lon: 38.741, tilt: 3, w: 675, h: 900,
+    caption: 'Giant heads of Mount Nemrut', place: 'Adıyaman, Turkey', year: 2007 },
   { src: '/about/aiguille-du-midi-2019.webp', alt: 'Ryan facing Mont Blanc', lat: 45.879, lon: 6.887, tilt: -3.5, w: 900, h: 675,
     caption: 'Facing Mont Blanc', place: 'Aiguille du Midi, France', year: 2019 },
   { src: '/about/copenhagen-2019.webp', alt: 'Ryan and a friend outside Mikkeller', lat: 55.693, lon: 12.612, tilt: 2, w: 675, h: 900,
