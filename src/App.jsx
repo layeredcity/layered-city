@@ -487,6 +487,8 @@ const ABOUT_PHOTOS = [
     caption: 'With Josh, Carrie, and Austin', place: 'Barcelona, Spain', year: 2001 },
   { src: '/about/berlin-2002.webp', alt: 'Ryan and two friends in front of a section of the Berlin Wall', lat: 52.507, lon: 13.384, tilt: 2.5, w: 605, h: 900,
     caption: 'In front of the Berlin Wall', place: 'Berlin, Germany', year: 2002 },
+  { src: '/about/brasov-2002.webp', alt: 'Ryan and two friends on a frosty, fog-covered hillside', lat: 45.61, lon: 25.57, tilt: -3, w: 900, h: 675,
+    caption: 'Hiking above Brașov', place: 'Brașov, Romania', year: 2002 },
   { src: '/about/dubrovnik-2003.webp', alt: 'Ryan on the Dubrovnik city walls', lat: 42.641, lon: 18.108, tilt: 3, w: 605, h: 900,
     caption: 'On the city walls', place: 'Dubrovnik, Croatia', year: 2003 },
   { src: '/about/tiraspol-2007.webp', alt: 'Ryan beside a relief of Lenin', lat: 46.84, lon: 29.63, tilt: -3, w: 675, h: 900,
