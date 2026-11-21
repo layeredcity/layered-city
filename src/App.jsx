@@ -511,6 +511,8 @@ const ABOUT_PHOTOS = [
     caption: 'Above the town', place: 'Setenil de las Bodegas, Spain', year: 2019 },
   { src: '/about/segovia-2019.webp', alt: 'Ryan at the Segovia aqueduct', lat: 40.948, lon: -4.118, tilt: 2.5, w: 675, h: 900,
     caption: 'At the Roman aqueduct', place: 'Segovia, Spain', year: 2019 },
+  { src: '/about/giants-causeway.webp', alt: 'Ryan climbing a path above the Giant’s Causeway', lat: 55.241, lon: -6.512, tilt: 3, w: 900, h: 675,
+    caption: 'Above the Giant’s Causeway', place: 'Bushmills, Northern Ireland' },
   { src: '/about/porto-2020.webp', alt: 'Ryan beside a boat on the Douro', lat: 41.14, lon: -8.61, tilt: -3, w: 900, h: 675,
     caption: 'By the Douro River', place: 'Porto, Portugal', year: 2020 },
   { src: '/about/lisbon-2021.webp', alt: 'Ryan on a stone stairway in Lisbon', lat: 38.716, lon: -9.135, tilt: 3, w: 675, h: 900,
@@ -2352,7 +2354,7 @@ export default function App() {
                 {ABOUT_PHOTOS.slice().reverse().map(ph => (
                   <figure key={ph.src} className="about__photo-item">
                     <img className="about__photo" src={ph.src} alt={ph.alt} width={ph.w} height={ph.h} loading="lazy" />
-                    <figcaption className="about__photo-cap">{ph.caption}<span>{ph.place} · {ph.year}</span></figcaption>
+                    <figcaption className="about__photo-cap">{ph.caption}<span>{ph.year ? `${ph.place} · ${ph.year}` : ph.place}</span></figcaption>
                   </figure>
                 ))}
               </div>
