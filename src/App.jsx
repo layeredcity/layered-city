@@ -513,6 +513,8 @@ const ABOUT_PHOTOS = [
     caption: 'Goofing around', place: 'Kraków, Poland', year: 2007 },
   { src: '/about/lviv-2007.webp', alt: 'Friends around a table at a hostel, two of them playing chess', lat: 49.84, lon: 24.03, tilt: -2.5, w: 900, h: 675,
     caption: 'Friends at the hostel', place: 'Lviv, Ukraine', year: 2007 },
+  { src: '/about/cappadocia-2007.webp', alt: 'A selfie of Ryan in front of a rock outcrop carved with cave dwellings', lat: 38.643, lon: 34.829, tilt: 3, w: 675, h: 900,
+    caption: 'Exploring Cappadocia', place: 'Göreme, Turkey', year: 2007 },
   { src: '/about/aiguille-du-midi-2019.webp', alt: 'Ryan facing Mont Blanc', lat: 45.879, lon: 6.887, tilt: -3.5, w: 900, h: 675,
     caption: 'Facing Mont Blanc', place: 'Aiguille du Midi, France', year: 2019 },
   { src: '/about/copenhagen-2019.webp', alt: 'Ryan and a friend outside Mikkeller', lat: 55.693, lon: 12.612, tilt: 2, w: 675, h: 900,
