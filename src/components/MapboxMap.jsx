@@ -341,7 +341,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
     // Prints are small at the zoomed-out view and grow as you zoom in, up to a
     // cap. Hovering always brings a print up to a readable size for its back.
     const sizePrints = () => {
-      const w = Math.round(Math.min(220, Math.max(120, 120 + (map.getZoom() - 3.8) * 45)))
+      const w = Math.round(Math.min(220, Math.max(100, 100 + (map.getZoom() - 3.8) * 55)))
       const el = map.getContainer()
       el.style.setProperty('--about-w', w + 'px')
       el.style.setProperty('--about-hover', Math.max(1.08, 210 / w).toFixed(3))
@@ -355,16 +355,16 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         const wrap = document.createElement('div')
         wrap.className = 'about-photo-wrap'
         const card = document.createElement('figure')
-        card.className = 'about-photo'
+        card.className = 'about-photo' + (ph.h > ph.w ? ' about-photo--portrait' : '')
         card.style.setProperty('--tilt', ph.tilt + 'deg')
-        card.style.animationDelay = (250 + i * 160) + 'ms'
+        card.style.animationDelay = (250 + i * 70) + 'ms'
         // Front: the photo. Back (shown on hover, flipped): caption, then place.
         const flip = document.createElement('div')
         flip.className = 'about-photo__flip'
         const front = document.createElement('div')
         front.className = 'about-photo__face about-photo__front'
         const img = document.createElement('img')
-        img.src = ph.src; img.alt = ph.alt; img.width = 900; img.height = 675
+        img.src = ph.src; img.alt = ph.alt; img.width = ph.w; img.height = ph.h
         front.appendChild(img)
         const back = document.createElement('figcaption')
         back.className = 'about-photo__face about-photo__back'

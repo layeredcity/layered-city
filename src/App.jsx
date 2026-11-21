@@ -478,15 +478,45 @@ const THREAD_CITIES = Object.fromEntries(THREADS.map(t => [t.slug, new Set(t.cha
 const THREAD_CITY_COUNTS = {}
 Object.values(THREAD_CITIES).forEach(set => set.forEach(name => { THREAD_CITY_COUNTS[name] = (THREAD_CITY_COUNTS[name] || 0) + 1 }))
 
-// About: Ryan's photos, shown on the map (desktop) where they were taken.
-// The back of each print shows the caption, then place · year.
+// About: Ryan's photos, shown on the map (desktop) where they were taken, and
+// as a grid under the About text on phones. Oldest first, so on the map the
+// newest prints sit on top where they overlap. The back of each print shows
+// the caption, then place · year.
 const ABOUT_PHOTOS = [
-  { src: '/about/ali-ryan-wedding.webp', alt: 'Ali and Ryan on their wedding day', lat: 48.23, lon: 3.14, tilt: -4,
+  { src: '/about/dubrovnik-2003.webp', alt: 'Ryan on the Dubrovnik city walls', lat: 42.641, lon: 18.108, tilt: 3, w: 605, h: 900,
+    caption: 'On the city walls', place: 'Dubrovnik, Croatia', year: 2003 },
+  { src: '/about/tiraspol-2007.webp', alt: 'Ryan beside a relief of Lenin', lat: 46.84, lon: 29.63, tilt: -3, w: 675, h: 900,
+    caption: 'With Lenin', place: 'Tiraspol, Transnistria', year: 2007 },
+  { src: '/about/cesky-krumlov-2007.webp', alt: 'Ryan above Český Krumlov', lat: 48.811, lon: 14.315, tilt: 2.5, w: 675, h: 900,
+    caption: 'Above the old town', place: 'Český Krumlov, Czech Republic', year: 2007 },
+  { src: '/about/kotor-2007.webp', alt: 'Ryan looking over the Bay of Kotor', lat: 42.424, lon: 18.771, tilt: -2, w: 900, h: 675,
+    caption: 'Looking over the bay', place: 'Kotor, Montenegro', year: 2007 },
+  { src: '/about/train-romania-2007.webp', alt: 'Ryan leaning out of a train window', lat: 44.43, lon: 26.1, tilt: 4, w: 652, h: 870,
+    caption: 'On the train', place: 'Bucharest, Romania', year: 2007 },
+  { src: '/about/aiguille-du-midi-2019.webp', alt: 'Ryan facing Mont Blanc', lat: 45.879, lon: 6.887, tilt: -3.5, w: 900, h: 675,
+    caption: 'Facing Mont Blanc', place: 'Aiguille du Midi, France', year: 2019 },
+  { src: '/about/copenhagen-2019.webp', alt: 'Ryan and a friend outside Mikkeller', lat: 55.693, lon: 12.612, tilt: 2, w: 675, h: 900,
+    caption: 'Outside Mikkeller', place: 'Copenhagen, Denmark', year: 2019 },
+  { src: '/about/predjama-2019.webp', alt: 'Ryan at Predjama Castle', lat: 45.816, lon: 14.127, tilt: -2.5, w: 900, h: 675,
+    caption: 'At Predjama Castle', place: 'Predjama, Slovenia', year: 2019 },
+  { src: '/about/stonehenge-2019.webp', alt: 'Ryan at Stonehenge', lat: 51.179, lon: -1.826, tilt: -4, w: 675, h: 900,
+    caption: 'At Stonehenge', place: 'Wiltshire, England', year: 2019 },
+  { src: '/about/plitvice-2019.webp', alt: 'Ali and Ryan jumping in front of a waterfall', lat: 44.88, lon: 15.62, tilt: 3.5, w: 675, h: 900,
+    caption: 'Jumping at the falls', place: 'Plitvice Lakes, Croatia', year: 2019 },
+  { src: '/about/setenil-2019.webp', alt: 'Ryan above Setenil de las Bodegas', lat: 36.864, lon: -5.18, tilt: -2, w: 675, h: 900,
+    caption: 'Above the town', place: 'Setenil de las Bodegas, Spain', year: 2019 },
+  { src: '/about/segovia-2019.webp', alt: 'Ryan at the Segovia aqueduct', lat: 40.948, lon: -4.118, tilt: 2.5, w: 675, h: 900,
+    caption: 'At the Roman aqueduct', place: 'Segovia, Spain', year: 2019 },
+  { src: '/about/porto-2020.webp', alt: 'Ryan beside a boat on the Douro', lat: 41.14, lon: -8.61, tilt: -3, w: 900, h: 675,
+    caption: 'By the Douro River', place: 'Porto, Portugal', year: 2020 },
+  { src: '/about/ali-ryan-wedding.webp', alt: 'Ali and Ryan on their wedding day', lat: 48.23, lon: 3.14, tilt: -4, w: 900, h: 675,
     caption: 'At a chateau wedding', place: 'Vallery, France', year: 2025 },
-  { src: '/about/ryan-owl.webp', alt: 'Ryan holding an owl', lat: 51.99, lon: -1.74, tilt: 3,
+  { src: '/about/ryan-owl.webp', alt: 'Ryan holding an owl', lat: 51.99, lon: -1.74, tilt: 3, w: 900, h: 675,
     caption: 'At the Batsford Arboretum', place: 'Moreton-in-Marsh, England', year: 2025 },
-  { src: '/about/ali-ryan-italy.webp', alt: 'Ali and Ryan in Italy', lat: 40.63, lon: 14.6, tilt: -2.5,
+  { src: '/about/ali-ryan-italy.webp', alt: 'Ali and Ryan in Italy', lat: 40.63, lon: 14.6, tilt: -2.5, w: 900, h: 677,
     caption: 'Rainy winter day', place: 'Amalfi, Italy', year: 2025 },
+  { src: '/about/alleghe-2026.webp', alt: 'Ryan with a coffee on a balcony in the Dolomites', lat: 46.406, lon: 12.022, tilt: 2.5, w: 675, h: 900,
+    caption: 'Coffee on the balcony', place: 'Alleghe, Italy', year: 2026 },
 ]
 
 const THREADS_BY_STORY = {}
@@ -2307,9 +2337,12 @@ export default function App() {
                 </section>
               ))}
               <div className="about__photos">
-                <img className="about__photo about__photo--wide" src="/about/ryan-owl.webp" alt="Ryan holding an owl" width="900" height="675" loading="lazy" />
-                <img className="about__photo" src="/about/ali-ryan-italy.webp" alt="Ali and Ryan in Italy" width="900" height="677" loading="lazy" />
-                <img className="about__photo" src="/about/ali-ryan-wedding.webp" alt="Ali and Ryan on their wedding day" width="900" height="675" loading="lazy" />
+                {ABOUT_PHOTOS.slice().reverse().map(ph => (
+                  <figure key={ph.src} className="about__photo-item">
+                    <img className="about__photo" src={ph.src} alt={ph.alt} width={ph.w} height={ph.h} loading="lazy" />
+                    <figcaption className="about__photo-cap">{ph.caption}<span>{ph.place} · {ph.year}</span></figcaption>
+                  </figure>
+                ))}
               </div>
             </div>
           )}
