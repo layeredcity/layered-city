@@ -517,6 +517,8 @@ const ABOUT_PHOTOS = [
     caption: 'Jumping at the falls', place: 'Plitvice Lakes, Croatia', year: 2019 },
   { src: '/about/setenil-2019.webp', alt: 'Ryan above Setenil de las Bodegas', lat: 36.864, lon: -5.18, tilt: -2, w: 675, h: 900,
     caption: 'Above the town', place: 'Setenil de las Bodegas, Spain', year: 2019 },
+  { src: '/about/caminito-2019.webp', alt: 'Ryan in a hard hat on a glass platform above a gorge', lat: 36.93, lon: -4.79, tilt: 2.5, w: 675, h: 900,
+    caption: 'Hiking the Caminito del Rey', place: 'Near Málaga, Spain', year: 2019 },
   { src: '/about/segovia-2019.webp', alt: 'Ryan at the Segovia aqueduct', lat: 40.948, lon: -4.118, tilt: 2.5, w: 675, h: 900,
     caption: 'At the Roman aqueduct', place: 'Segovia, Spain', year: 2019 },
   { src: '/about/ouderkerk-2019.webp', alt: 'Ryan with a rental bike in front of a windmill', lat: 52.295, lon: 4.912, tilt: 2.5, w: 675, h: 900,
