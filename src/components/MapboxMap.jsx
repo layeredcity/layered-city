@@ -344,7 +344,7 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
       const w = Math.round(Math.min(220, Math.max(100, 100 + (map.getZoom() - 3.8) * 55)))
       const el = map.getContainer()
       el.style.setProperty('--about-w', w + 'px')
-      el.style.setProperty('--about-hover', Math.max(1.08, 210 / w).toFixed(3))
+      el.style.setProperty('--about-hover', Math.max(1.1, 270 / w).toFixed(3))
     }
     sizePrints()
     map.on('zoom', sizePrints)
@@ -358,23 +358,21 @@ export default function MapboxMap({ city, cities, allStories, stories, omdbCache
         card.className = 'about-photo' + (ph.h > ph.w ? ' about-photo--portrait' : '')
         card.style.setProperty('--tilt', ph.tilt + 'deg')
         card.style.animationDelay = (250 + i * 70) + 'ms'
-        // Front: the photo. Back (shown on hover, flipped): caption, then place.
-        const flip = document.createElement('div')
-        flip.className = 'about-photo__flip'
-        const front = document.createElement('div')
-        front.className = 'about-photo__face about-photo__front'
+        // The photo, with the caption and place · year written small on the
+        // print's wider bottom edge. Hovering zooms the print up to read it.
+        const face = document.createElement('div')
+        face.className = 'about-photo__face'
         const img = document.createElement('img')
         img.src = ph.src; img.alt = ph.alt; img.width = ph.w; img.height = ph.h
-        front.appendChild(img)
-        const back = document.createElement('figcaption')
-        back.className = 'about-photo__face about-photo__back'
-        const place = document.createElement('span')
-        place.className = 'about-photo__place'; place.textContent = ph.year ? `${ph.place} · ${ph.year}` : ph.place
+        const capEl = document.createElement('figcaption')
+        capEl.className = 'about-photo__edge'
         const cap = document.createElement('span')
         cap.className = 'about-photo__caption'; cap.textContent = ph.caption
-        back.append(cap, place)
-        flip.append(front, back)
-        card.appendChild(flip)
+        const place = document.createElement('span')
+        place.className = 'about-photo__place'; place.textContent = ph.year ? `${ph.place} · ${ph.year}` : ph.place
+        capEl.append(cap, place)
+        face.append(img, capEl)
+        card.appendChild(face)
         wrap.appendChild(card)
         const m = new mapboxgl.Marker({ element: wrap }).setLngLat([ph.lon, ph.lat]).addTo(map)
         aboutMarkersRef.current.push({ m, card })
