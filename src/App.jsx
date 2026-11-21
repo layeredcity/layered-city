@@ -485,6 +485,8 @@ Object.values(THREAD_CITIES).forEach(set => set.forEach(name => { THREAD_CITY_CO
 const ABOUT_PHOTOS = [
   { src: '/about/barcelona-2001.webp', alt: 'Ryan with Josh, Carrie, and Austin', lat: 41.376, lon: 2.178, tilt: -3, w: 900, h: 600,
     caption: 'With Josh, Carrie, and Austin', place: 'Barcelona, Spain', year: 2001 },
+  { src: '/about/florence-2001.webp', alt: 'Ryan and two friends atop Giotto’s bell tower, with the Duomo behind them', lat: 43.7731, lon: 11.2558, tilt: 2.5, w: 900, h: 601,
+    caption: 'Atop Giotto’s Tower', place: 'Florence, Italy', year: 2001 },
   { src: '/about/berlin-2002.webp', alt: 'Ryan and two friends in front of a section of the Berlin Wall', lat: 52.507, lon: 13.384, tilt: 2.5, w: 605, h: 900,
     caption: 'In front of the Berlin Wall', place: 'Berlin, Germany', year: 2002 },
   { src: '/about/brasov-2002.webp', alt: 'Ryan and two friends on a frosty, fog-covered hillside', lat: 45.61, lon: 25.57, tilt: -3, w: 900, h: 675,
