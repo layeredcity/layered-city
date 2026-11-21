@@ -531,6 +531,8 @@ const ABOUT_PHOTOS = [
     caption: 'Hiking above Lake Brienz', place: 'Brienz, Switzerland', year: 2024 },
   { src: '/about/keflavik-2024.webp', alt: 'Ryan on the rocky shore below a lighthouse', lat: 64.0, lon: -22.56, tilt: 3.5, w: 675, h: 900,
     caption: 'Exploring the shore', place: 'Keflavík, Iceland', year: 2024 },
+  { src: '/about/dordogne-2025.webp', alt: 'Ryan paddling on the Dordogne, with a red canoe behind him', lat: 44.825, lon: 1.183, tilt: -2.5, w: 900, h: 675,
+    caption: 'Kayaking on the Dordogne', place: 'La Roque-Gageac, France', year: 2025 },
   { src: '/about/marseille-2025.webp', alt: 'Ryan in the arcades of La Vieille Charité', lat: 43.300, lon: 5.367, tilt: 2.5, w: 900, h: 675,
     caption: 'La Vieille Charité', place: 'Marseille, France', year: 2025 },
   { src: '/about/ali-ryan-wedding.webp', alt: 'Ali and Ryan on their wedding day', lat: 48.23, lon: 3.14, tilt: -4, w: 900, h: 675,
