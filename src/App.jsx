@@ -495,6 +495,8 @@ const ABOUT_PHOTOS = [
     caption: 'On the city walls', place: 'Dubrovnik, Croatia', year: 2003 },
   { src: '/about/athens-2003.webp', alt: 'Ryan and two friends below the Parthenon, wrapped in scaffolding', lat: 37.9715, lon: 23.7257, tilt: -2.5, w: 900, h: 605,
     caption: 'At the Acropolis', place: 'Athens, Greece', year: 2003 },
+  { src: '/about/sofia-2003.webp', alt: 'Ryan and four friends with big bottles of Kamenitza beer in a hostel basement', lat: 42.6977, lon: 23.3219, tilt: 3, w: 900, h: 605,
+    caption: 'Hostel life', place: 'Sofia, Bulgaria', year: 2003 },
   { src: '/about/tiraspol-2007.webp', alt: 'Ryan beside a relief of Lenin', lat: 46.84, lon: 29.63, tilt: -3, w: 675, h: 900,
     caption: 'With Lenin', place: 'Tiraspol, Transnistria', year: 2007 },
   { src: '/about/cesky-krumlov-2007.webp', alt: 'Ryan above Český Krumlov', lat: 48.811, lon: 14.315, tilt: 2.5, w: 675, h: 900,
