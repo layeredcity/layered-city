@@ -491,6 +491,8 @@ const ABOUT_PHOTOS = [
     caption: 'Hiking above Brașov', place: 'Brașov, Romania', year: 2002 },
   { src: '/about/dubrovnik-2003.webp', alt: 'Ryan on the Dubrovnik city walls', lat: 42.641, lon: 18.108, tilt: 3, w: 605, h: 900,
     caption: 'On the city walls', place: 'Dubrovnik, Croatia', year: 2003 },
+  { src: '/about/athens-2003.webp', alt: 'Ryan and two friends below the Parthenon, wrapped in scaffolding', lat: 37.9715, lon: 23.7257, tilt: -2.5, w: 900, h: 605,
+    caption: 'At the Acropolis', place: 'Athens, Greece', year: 2003 },
   { src: '/about/tiraspol-2007.webp', alt: 'Ryan beside a relief of Lenin', lat: 46.84, lon: 29.63, tilt: -3, w: 675, h: 900,
     caption: 'With Lenin', place: 'Tiraspol, Transnistria', year: 2007 },
   { src: '/about/cesky-krumlov-2007.webp', alt: 'Ryan above Český Krumlov', lat: 48.811, lon: 14.315, tilt: 2.5, w: 675, h: 900,
