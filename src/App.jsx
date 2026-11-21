@@ -522,7 +522,7 @@ const ABOUT_PHOTOS = [
   { src: '/about/stockholm-2019.webp', alt: 'A selfie in Stortorget, the square in Stockholm’s old town', lat: 59.325, lon: 18.071, tilt: -3, w: 900, h: 675,
     caption: 'In the old town', place: 'Stockholm, Sweden', year: 2019 },
   { src: '/about/giants-causeway.webp', alt: 'Ryan climbing a path above the Giant’s Causeway', lat: 55.241, lon: -6.512, tilt: 3, w: 900, h: 675,
-    caption: 'Above the Giant’s Causeway', place: 'Bushmills, Northern Ireland' },
+    caption: 'Above the Giant’s Causeway', place: 'Bushmills, Northern Ireland', year: 2019 },
   { src: '/about/porto-2020.webp', alt: 'Ryan beside a boat on the Douro', lat: 41.14, lon: -8.61, tilt: -3, w: 900, h: 675,
     caption: 'By the Douro River', place: 'Porto, Portugal', year: 2020 },
   { src: '/about/lisbon-2021.webp', alt: 'Ryan on a stone stairway in Lisbon', lat: 38.716, lon: -9.135, tilt: 3, w: 675, h: 900,
