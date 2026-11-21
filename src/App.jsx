@@ -495,6 +495,8 @@ const ABOUT_PHOTOS = [
     caption: 'On the train', place: 'Bucharest, Romania', year: 2007 },
   { src: '/about/moscow-2007.webp', alt: 'Ryan and two friends covering their ears in front of the Tsar Cannon', lat: 55.751, lon: 37.618, tilt: -3, w: 900, h: 675,
     caption: 'Cannon at the Kremlin', place: 'Moscow, Russia', year: 2007 },
+  { src: '/about/istanbul-2007.webp', alt: 'Ryan with a beer at a backgammon board', lat: 41.008, lon: 28.978, tilt: 3, w: 675, h: 900,
+    caption: 'Playing backgammon', place: 'Istanbul, Turkey', year: 2007 },
   { src: '/about/aiguille-du-midi-2019.webp', alt: 'Ryan facing Mont Blanc', lat: 45.879, lon: 6.887, tilt: -3.5, w: 900, h: 675,
     caption: 'Facing Mont Blanc', place: 'Aiguille du Midi, France', year: 2019 },
   { src: '/about/copenhagen-2019.webp', alt: 'Ryan and a friend outside Mikkeller', lat: 55.693, lon: 12.612, tilt: 2, w: 675, h: 900,
