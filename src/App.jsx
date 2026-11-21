@@ -507,6 +507,8 @@ const ABOUT_PHOTOS = [
     caption: 'Giant heads of Mount Nemrut', place: 'Adıyaman, Turkey', year: 2007 },
   { src: '/about/krakow-2007.webp', alt: 'Ryan making a face under a liquor store sign at night', lat: 50.064, lon: 19.940, tilt: -3, w: 675, h: 900,
     caption: 'Goofing around', place: 'Kraków, Poland', year: 2007 },
+  { src: '/about/kruje-2007.webp', alt: 'Ryan on the steps below the Skanderbeg Museum', lat: 41.509, lon: 19.792, tilt: 2.5, w: 675, h: 900,
+    caption: 'At the Skanderbeg Museum', place: 'Krujë, Albania', year: 2007 },
   { src: '/about/aiguille-du-midi-2019.webp', alt: 'Ryan facing Mont Blanc', lat: 45.879, lon: 6.887, tilt: -3.5, w: 900, h: 675,
     caption: 'Facing Mont Blanc', place: 'Aiguille du Midi, France', year: 2019 },
   { src: '/about/copenhagen-2019.webp', alt: 'Ryan and a friend outside Mikkeller', lat: 55.693, lon: 12.612, tilt: 2, w: 675, h: 900,
