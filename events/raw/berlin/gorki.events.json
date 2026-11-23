@@ -2,7 +2,7 @@
  {
   "@type": "TheaterEvent",
   "name": "Music of Fears ",
-  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
+  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists have imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Paul Hindemith to minimalist composers up to contemporary…",
   "url": "https://www.gorki.de/en/music-of-fears",
   "image": [
    "https://www.gorki.de/api/media/file/MusicOffearsCard-2.png?prefix=staging"
@@ -40,7 +40,7 @@
  {
   "@type": "TheaterEvent",
   "name": "Music of Fears ",
-  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
+  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists have imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Paul Hindemith to minimalist composers up to contemporary…",
   "url": "https://www.gorki.de/en/music-of-fears",
   "image": [
    "https://www.gorki.de/api/media/file/MusicOffearsCard-2.png?prefix=staging"
@@ -78,7 +78,7 @@
  {
   "@type": "TheaterEvent",
   "name": "Music of Fears ",
-  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Hindemith to minimalist composers up to contemporary pop icons…",
+  "description": "As early as Pythagoras, and later Johannes Kepler, thinkers and scientists have imagined the universe as a harmonious interplay of tones inaudible to the ear, yet perceptible to the soul. This utopian idea continues to resonate today: from Paul Hindemith to minimalist composers up to contemporary…",
   "url": "https://www.gorki.de/en/music-of-fears",
   "image": [
    "https://www.gorki.de/api/media/file/MusicOffearsCard-2.png?prefix=staging"
@@ -119,7 +119,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-03T12:00:00.000Z",
   "endDate": "2026-12-03T18:30:00.000Z",
@@ -152,7 +152,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-03T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -173,7 +173,8 @@
   ],
   "offers": {
    "@type": "Offer",
-   "availability": "https://schema.org/SoldOut"
+   "url": "https://tickets.gorki.de/eventim.webshop/webticket/shop?event=14178",
+   "availability": "https://schema.org/InStock"
   }
  },
  {
@@ -182,7 +183,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-04T12:00:00.000Z",
   "endDate": "2026-12-04T18:30:00.000Z",
@@ -251,7 +252,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-05T12:00:00.000Z",
   "endDate": "2026-12-05T18:30:00.000Z",
@@ -284,7 +285,34 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
+  ],
+  "startDate": "2026-12-05T18:00:00.000Z",
+  "endDate": "2026-12-05T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Parkettfoyer",
+   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ]
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-05T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -315,7 +343,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-06T12:00:00.000Z",
   "endDate": "2026-12-06T18:30:00.000Z",
@@ -348,7 +376,34 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
+  ],
+  "startDate": "2026-12-06T16:30:00.000Z",
+  "endDate": "2026-12-06T17:00:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Parkettfoyer",
+   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ]
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-06T17:00:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -379,7 +434,34 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
+  ],
+  "startDate": "2026-12-06T20:30:00.000Z",
+  "endDate": "2026-12-06T21:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Parkettfoyer",
+   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ]
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-07T12:00:00.000Z",
   "endDate": "2026-12-07T18:30:00.000Z",
@@ -412,7 +494,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-08T12:00:00.000Z",
   "endDate": "2026-12-08T18:30:00.000Z",
@@ -445,7 +527,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-08T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -476,7 +558,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-09T12:00:00.000Z",
   "endDate": "2026-12-09T18:30:00.000Z",
@@ -509,7 +591,34 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
+  ],
+  "startDate": "2026-12-09T18:00:00.000Z",
+  "endDate": "2026-12-09T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Parkettfoyer",
+   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ]
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-09T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -540,7 +649,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-10T12:00:00.000Z",
   "endDate": "2026-12-10T18:30:00.000Z",
@@ -573,7 +682,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-11T12:00:00.000Z",
   "endDate": "2026-12-11T18:30:00.000Z",
@@ -628,7 +737,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-12T12:00:00.000Z",
   "endDate": "2026-12-12T18:30:00.000Z",
@@ -697,7 +806,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-13T12:00:00.000Z",
   "endDate": "2026-12-13T18:30:00.000Z",
@@ -766,7 +875,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-14T12:00:00.000Z",
   "endDate": "2026-12-14T18:30:00.000Z",
@@ -799,7 +908,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-15T12:00:00.000Z",
   "endDate": "2026-12-15T18:30:00.000Z",
@@ -832,7 +941,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-16T12:00:00.000Z",
   "endDate": "2026-12-16T18:30:00.000Z",
@@ -865,7 +974,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-17T12:00:00.000Z",
   "endDate": "2026-12-17T18:30:00.000Z",
@@ -930,7 +1039,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-18T12:00:00.000Z",
   "endDate": "2026-12-18T18:30:00.000Z",
@@ -995,7 +1104,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-19T12:00:00.000Z",
   "endDate": "2026-12-19T18:30:00.000Z",
@@ -1060,7 +1169,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-20T12:00:00.000Z",
   "endDate": "2026-12-20T18:30:00.000Z",
@@ -1129,7 +1238,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-21T12:00:00.000Z",
   "endDate": "2026-12-21T18:30:00.000Z",
@@ -1198,7 +1307,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-22T12:00:00.000Z",
   "endDate": "2026-12-22T18:30:00.000Z",
@@ -1267,7 +1376,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-23T12:00:00.000Z",
   "endDate": "2026-12-23T18:30:00.000Z",
@@ -1300,7 +1409,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-23T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1331,7 +1440,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-26T12:00:00.000Z",
   "endDate": "2026-12-26T18:30:00.000Z",
@@ -1364,7 +1473,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-26T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1419,7 +1528,34 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
+  ],
+  "startDate": "2026-12-27T16:30:00.000Z",
+  "endDate": "2026-12-27T17:00:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Parkettfoyer",
+   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ]
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-27T17:00:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1450,7 +1586,34 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
+  ],
+  "startDate": "2026-12-27T20:30:00.000Z",
+  "endDate": "2026-12-27T21:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Parkettfoyer",
+   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ]
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-28T12:00:00.000Z",
   "endDate": "2026-12-28T18:30:00.000Z",
@@ -1483,7 +1646,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-28T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1514,7 +1677,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-29T12:00:00.000Z",
   "endDate": "2026-12-29T18:30:00.000Z",
@@ -1547,7 +1710,34 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
+  ],
+  "startDate": "2026-12-29T18:00:00.000Z",
+  "endDate": "2026-12-29T18:30:00.000Z",
+  "eventStatus": "https://schema.org/EventScheduled",
+  "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+  "location": {
+   "@type": "Place",
+   "name": "Parkettfoyer",
+   "url": "https://www.gorki.de/en/spielorte/parkett-foyer"
+  },
+  "organizer": {
+   "@id": "https://www.gorki.de/#organization"
+  },
+  "performer": [
+   {
+    "@type": "Person",
+    "name": "Ulrike Ottinger"
+   }
+  ]
+ },
+ {
+  "@type": "TheaterEvent",
+  "name": "The Hearing Trumpet",
+  "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
+  "url": "https://www.gorki.de/en/the-hearing-trumpet",
+  "image": [
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-29T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1578,7 +1768,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-30T12:00:00.000Z",
   "endDate": "2026-12-30T18:30:00.000Z",
@@ -1611,7 +1801,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-30T18:30:00.000Z",
   "eventStatus": "https://schema.org/EventScheduled",
@@ -1642,7 +1832,7 @@
   "description": "Everyone who has read Leonora Carrington’s century-defining novel The Hearing Trumpet knows: it is an unleashing of literary energy and a surrealist revolutionary attack on the humorlessness and lack of alternatives of patriarchal power. The ninety-two-year-old heroine rebels alongside other…",
   "url": "https://www.gorki.de/en/the-hearing-trumpet",
   "image": [
-   "https://www.gorki.de/api/media/file/Gorki_Ottinger_website_kachel_261112-1920x2717.jpg?prefix=staging"
+   "https://www.gorki.de/api/media/file/Gorki_Ottinger_Banner_261116.png?prefix=staging"
   ],
   "startDate": "2026-12-31T12:00:00.000Z",
   "endDate": "2026-12-31T18:30:00.000Z",

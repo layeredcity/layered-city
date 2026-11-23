@@ -2,9 +2,9 @@
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "short and sweet: The Idea of the Gesamtkunstwerk: From the Baroque to Vienna 1900",
-  "startDate": "2026-11-17T18:15",
-  "endDate": "T",
+  "name": "yMAK Party: Dancing outside the lines ",
+  "startDate": "2026-11-24T18:00",
+  "endDate": "2026-11-24T23:00",
   "location": {
    "@type": "Place",
    "name": "MAK – Museum of Applied Arts",
@@ -22,14 +22,14 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/2fe027e02a3365b5be612f1902cfa316/0xE93A9FA50026CC8FEF08001E0FB1E670.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/4dddf169bbb43224c854d8fee5f6ce76/0xB7C9C8D4E6BC879E60664F81414E9871.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Book Presentation VALLY WIESELTHIER: Ceramic Sculptor",
-  "startDate": "2026-11-17T18:30",
-  "endDate": "T",
+  "name": "short and sweet: THOMAS DEMAND",
+  "startDate": "2026-11-24T18:15",
+  "endDate": "2026-11-24T18:45",
   "location": {
    "@type": "Place",
    "name": "MAK – Museum of Applied Arts",
@@ -47,13 +47,13 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/7d7d008549cc45b5c909118e717e996e/0x6679AA131E93DA9ACA120BFCA52BCB5D.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/2dca2c2994ab9f58031708ecfec5786c/0x11F3861B69A021C5AB8111807A771280.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Mini MAK Tour: ArchitekTour—Join in the Fun—It’s More Than Just LEGO!",
-  "startDate": "2026-11-21T14:00",
+  "name": "Conversation Piece: Playing Architecture",
+  "startDate": "2026-11-24T18:45",
   "endDate": "T",
   "location": {
    "@type": "Place",
@@ -72,14 +72,14 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/c7ba67e963638316a1fc7f2cb71f6d8f/0x2E04F5468531E83C6E80FD12764F18FE.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/e069d43418a33e071c59d420fcea8a1f/0x969CD6E1D7F441F354ADBB1ED83B2B28.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Guided Tour in English: VIENNA 1900—Everyday. A Total Work of Art",
-  "startDate": "2026-11-21T15:00",
-  "endDate": "T",
+  "name": "MAKplus: ARCHITECTURAL CONSTRUCTION KITS 1890–1990: Plenty to Play With!",
+  "startDate": "2026-11-25T14:30",
+  "endDate": "2026-11-25T16:00",
   "location": {
    "@type": "Place",
    "name": "MAK – Museum of Applied Arts",
@@ -97,13 +97,13 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/7a938ef9a1fb348a345f20ebcca918c5/0x61BA3F583B7A0314C7541E779FC80016.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/83b1df81d37878d309abe217815117ef/0x2E7655930520FA0C4DC58F781B7FC2FC.jpeg"
  },
  {
   "@context": "https://schema.org",
   "@type": "Event",
-  "name": "Vienna 1900: Women Designers of Viennese Modernism (in German)",
-  "startDate": "2026-11-22T11:00",
+  "name": "Curator Guided Tour: ARCHITECTURAL CONSTRUCTION KITS 1890–1990",
+  "startDate": "2026-11-27T16:30",
   "endDate": "T",
   "location": {
    "@type": "Place",
@@ -122,6 +122,6 @@
    "name": "Museum für Angewandte Kunst Wien"
   },
   "description": "",
-  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/9719c96f1a224a0a178b4c39f18c8c1f/0x0A1490B8FC97CE5CC0F6D48309ABF543.jpeg"
+  "image": "https://mak.at/jart/prj3/mak-resp/images/cache/e583bb909f0fb39117ec6639f56affa5/0x6D2311376B473CE9F9E8E52ECD4AD552.jpeg"
  }
 ]
