@@ -1,18 +1,18 @@
 {
- "fetched": "2026-11-23T05:51:18.241Z",
+ "fetched": "2026-11-23T10:53:59.385Z",
  "status": {
   "visitberlin-calendar": {
    "url": "https://www.visitberlin.de/en/event-calendar-berlin",
    "final": "https://www.visitberlin.de/en/event-calendar-berlin",
    "http": 200,
-   "chars": 23314,
+   "chars": 23473,
    "jsonLdEvents": 0
   },
   "visitberlin-christmas": {
    "url": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "final": "https://www.visitberlin.de/en/christmas-markets-berlin",
    "http": 200,
-   "chars": 13135,
+   "chars": 13159,
    "jsonLdEvents": 0
   },
   "exberliner": {
@@ -26,7 +26,7 @@
    "url": "https://www.staatsoper-berlin.de/en/spielplan/",
    "final": "https://www.staatsoper-berlin.de/en/programme/",
    "http": 200,
-   "chars": 16826,
+   "chars": 16846,
    "jsonLdEvents": 0
   },
   "deutsche-oper": {
@@ -40,7 +40,7 @@
    "url": "https://www.komische-oper-berlin.de/en/what/schedule/",
    "final": "https://www.komische-oper-berlin.de/en/what/schedule/",
    "http": 200,
-   "chars": 38966,
+   "chars": 38901,
    "jsonLdEvents": 0
   },
   "philharmonie": {
@@ -61,15 +61,12 @@
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule",
    "http": 200,
-   "chars": 20093,
+   "chars": 19699,
    "jsonLdEvents": 0
   },
   "schaubuehne": {
    "url": "https://www.schaubuehne.de/en/start/index.html",
-   "final": "https://www.schaubuehne.de/en/start/index.html",
-   "http": 200,
-   "chars": 10613,
-   "jsonLdEvents": 0
+   "error": "fetch failed"
   },
   "gorki": {
    "url": "https://www.gorki.de/en/schedule",
@@ -82,14 +79,14 @@
    "url": "https://www.deutschestheater.de/en/programme/",
    "final": "https://www.deutschestheater.de/en/program/events",
    "http": 200,
-   "chars": 40732,
+   "chars": 40996,
    "jsonLdEvents": 0
   },
   "volksbuehne": {
    "url": "https://www.volksbuehne.berlin/en",
    "final": "https://www.volksbuehne-berlin.de/en/",
    "http": 200,
-   "chars": 31647,
+   "chars": 32165,
    "jsonLdEvents": 0
   },
   "hau": {
@@ -145,7 +142,7 @@
    "url": "https://www.kw-berlin.de/en/",
    "final": "https://www.kw-berlin.de/en/",
    "http": 200,
-   "chars": 7069,
+   "chars": 7060,
    "jsonLdEvents": 0
   },
   "co-berlin": {
@@ -159,14 +156,14 @@
    "url": "https://www.jmberlin.de/en/exhibitions",
    "final": "https://www.jmberlin.de/en/current-exhibitions",
    "http": 200,
-   "chars": 8528,
+   "chars": 8549,
    "jsonLdEvents": 0
   },
   "humboldt-forum": {
    "url": "https://www.humboldtforum.org/en/programme-2/",
    "final": "https://www.humboldtforum.org/en/programme-2/",
    "http": 200,
-   "chars": 16774,
+   "chars": 16879,
    "jsonLdEvents": 0
   },
   "hkw": {
@@ -229,14 +226,14 @@
    "url": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
    "final": "https://www.staatsoper-berlin.de/en/programme/01-11-2026/",
    "http": 200,
-   "chars": 16971,
+   "chars": 16991,
    "jsonLdEvents": 0
   },
   "berliner-ensemble-2": {
    "url": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "final": "https://www.berliner-ensemble.de/index.php/en/schedule?page=1",
    "http": 200,
-   "chars": 18618,
+   "chars": 18639,
    "jsonLdEvents": 0
   },
   "reg-mauerpark": {
@@ -271,14 +268,14 @@
    "url": "https://www.staatsoper-berlin.de/en/programme/16-11-2026/",
    "final": "https://www.staatsoper-berlin.de/en/programme/16-11-2026/",
    "http": 200,
-   "chars": 16971,
+   "chars": 16991,
    "jsonLdEvents": 0
   },
   "hkw-home": {
    "url": "https://www.hkw.de/en",
    "final": "https://www.hkw.de/en",
    "http": 200,
-   "chars": 5272,
+   "chars": 6009,
    "jsonLdEvents": 0
   }
  }

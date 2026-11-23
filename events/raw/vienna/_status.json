@@ -1,18 +1,18 @@
 {
- "fetched": "2026-11-23T05:52:55.479Z",
+ "fetched": "2026-11-23T10:55:03.045Z",
  "status": {
   "wieninfo-now": {
    "url": "https://www.wien.info/en/now-on",
    "final": "https://www.wien.info/en/now-on",
    "http": 200,
-   "chars": 14837,
+   "chars": 14841,
    "jsonLdEvents": 0
   },
   "wieninfo-events": {
    "url": "https://www.wien.info/en/now-on/event-search",
    "final": "https://www.wien.info/en/now-on/event-search",
    "http": 200,
-   "chars": 11203,
+   "chars": 11205,
    "jsonLdEvents": 0
   },
   "visitingvienna-dec": {
@@ -54,7 +54,7 @@
    "url": "https://spielplan.musikverein.at/spielplan?month=2026-12",
    "final": "https://spielplan.musikverein.at/spielplan?month=2026-12",
    "http": 200,
-   "chars": 53098,
+   "chars": 53015,
    "jsonLdEvents": 0
   },
   "konzerthaus": {
@@ -68,7 +68,7 @@
    "url": "https://www.burgtheater.at/spielplan",
    "final": "https://www.burgtheater.at/spielplan",
    "http": 200,
-   "chars": 12831,
+   "chars": 12990,
    "jsonLdEvents": 0
   },
   "viennale": {
@@ -96,12 +96,15 @@
    "url": "https://www.filmmuseum.at/en",
    "final": "https://www.filmmuseum.at/en",
    "http": 200,
-   "chars": 44531,
+   "chars": 44861,
    "jsonLdEvents": 0
   },
   "albertina": {
    "url": "https://www.albertina.at/en/exhibitions/",
-   "error": "fetch failed"
+   "final": "https://www.albertina.at/en/exhibitions/",
+   "http": 200,
+   "chars": 4397,
+   "jsonLdEvents": 0
   },
   "belvedere": {
    "url": "https://www.belvedere.at/en/exhibitions",
@@ -121,7 +124,7 @@
    "url": "https://www.leopoldmuseum.org/en/exhibitions",
    "final": "https://www.leopoldmuseum.org/en/exhibitions/current",
    "http": 200,
-   "chars": 7803,
+   "chars": 7814,
    "jsonLdEvents": 0
   },
   "mak": {
@@ -170,14 +173,14 @@
    "url": "https://www.porgy.at/events/upcoming",
    "final": "https://www.porgy.at/events/upcoming",
    "http": 200,
-   "chars": 38061,
+   "chars": 38224,
    "jsonLdEvents": 0
   },
   "arena": {
    "url": "https://www.arena.wien/",
    "final": "https://arena.wien/",
    "http": 200,
-   "chars": 5162,
+   "chars": 5187,
    "jsonLdEvents": 0
   },
   "wuk": {
@@ -205,7 +208,7 @@
    "url": "https://www.mak.at/en",
    "final": "https://www.mak.at/en",
    "http": 200,
-   "chars": 13604,
+   "chars": 13641,
    "jsonLdEvents": 5
   },
   "wieninfo-autumn": {
@@ -219,14 +222,14 @@
    "url": "https://www.wien.info/en/art-culture/museums-exhibitions/culture-in-vienna-in-fall-343868",
    "final": "https://www.wien.info/en/art-culture/museums-exhibitions/culture-in-vienna-in-fall-343868",
    "http": 200,
-   "chars": 25808,
+   "chars": 25794,
    "jsonLdEvents": 0
   },
   "wieninfo-art-on-display": {
    "url": "https://www.wien.info/en/art-culture/museums-exhibitions/art-on-display-in-vienna-339648",
    "final": "https://www.wien.info/en/art-culture/museums-exhibitions/art-on-display-in-vienna-339648",
    "http": 200,
-   "chars": 25535,
+   "chars": 25521,
    "jsonLdEvents": 0
   },
   "wieninfo-christmas": {
@@ -289,7 +292,7 @@
    "url": "https://www.burgtheater.at/spielplan?date=2026-11",
    "final": "https://www.burgtheater.at/spielplan?date=2026-11",
    "http": 200,
-   "chars": 13013,
+   "chars": 13172,
    "jsonLdEvents": 0
   },
   "musikverein-nov": {
@@ -380,19 +383,22 @@
    "url": "https://www.wiener-staatsoper.at/en/calendar/2026/december/",
    "final": "https://www.wiener-staatsoper.at/en/calendar/2026/december/",
    "http": 200,
-   "chars": 83587,
+   "chars": 84915,
    "jsonLdEvents": 0
   },
   "burgtheater-dec": {
    "url": "https://www.burgtheater.at/spielplan?date=2026-12",
    "final": "https://www.burgtheater.at/spielplan?date=2026-12",
    "http": 200,
-   "chars": 34243,
+   "chars": 34460,
    "jsonLdEvents": 0
   },
   "albertina-home": {
    "url": "https://www.albertina.at/en/",
-   "error": "fetch failed"
+   "final": "https://www.albertina.at/en/",
+   "http": 200,
+   "chars": 2770,
+   "jsonLdEvents": 0
   }
  }
 }
