@@ -2780,6 +2780,7 @@ export default function App() {
           onClose={closeThread}
           allThreads={THREADS}
           onOpenThread={openThread}
+          mediaOpen={!!mediaStory}
           renderStory={st => <ThreadStory story={st} open={threadStory === st.id} onToggle={id => setThreadStory(cur => cur === id ? null : id)} onOpenMedia={setMediaStory} omdbData={omdbCache[st.imdbId]} bookData={bookCache[st.isbn]} />}
         />
       )}

@@ -59,7 +59,7 @@ function relatedThreads(thread, all, n = 3) {
     .map(x => x.t)
 }
 
-export default function ThreadView({ thread, onClose, renderStory, startChapter = null, allThreads = [], onOpenThread }) {
+export default function ThreadView({ thread, onClose, renderStory, startChapter = null, allThreads = [], onOpenThread, mediaOpen = false }) {
   const scrollRef = useRef(null)
   const mapEl = useRef(null)
   const mapRef = useRef(null)
@@ -181,6 +181,21 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
     if (a.paused) { a.play().catch(() => {}); setPaused(false) } else { a.pause(); setPaused(true) }
   }
   useEffect(() => () => { audioRef.current?.pause() }, [])
+  // Opening a video or podcast pauses the narration, so the two don't play
+  // over each other. It stays paused; the player bar resumes it.
+  const pauseNarration = () => {
+    if (segRef.current < 0) return
+    if (leadRef.current) { clearTimeout(leadRef.current); leadRef.current = null }
+    audioRef.current?.pause()
+    setPaused(true)
+  }
+  useEffect(() => { if (mediaOpen) pauseNarration() }, [mediaOpen]) // eslint-disable-line react-hooks/exhaustive-deps
+  // Listen and watch links that open in a new tab (Spotify, Apple Podcasts,
+  // YouTube) pause it too.
+  const onLinkClick = e => {
+    const link = e.target.closest?.('a[href]')
+    if (link && link.target === '_blank') pauseNarration()
+  }
   // Follow the sentence being read, gently. Scroll only when it is about to
   // pass behind the player bar (or has gone off the top), and then only as far
   // as needed to put it a little past halfway down. While the chapter's photo
@@ -367,7 +382,7 @@ export default function ThreadView({ thread, onClose, renderStory, startChapter 
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M18 6L6 18M6 6l12 12" strokeLinecap="round" /></svg>
         </button>
         <div className="thread__map" ref={mapEl} />
-        <div className="thread__scroll" ref={scrollRef}>
+        <div className="thread__scroll" ref={scrollRef} onClickCapture={onLinkClick}>
           {/* Top block on the city page's royal blue, like a landmark: the photo
               tinted and fading into the blue, then the heading and intro in
               light type, then the photo credit. The chapters stay on white. */}
