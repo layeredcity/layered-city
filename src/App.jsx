@@ -539,6 +539,8 @@ const ABOUT_PHOTOS = [
     caption: 'By the Douro River', place: 'Porto, Portugal', year: 2020 },
   { src: '/about/lisbon-2021.webp', alt: 'Ryan on a stone stairway in Lisbon', lat: 38.716, lon: -9.135, tilt: 3, w: 675, h: 900,
     caption: 'On the stairs', place: 'Lisbon, Portugal', year: 2021 },
+  { src: '/about/san-sebastian-2023.webp', alt: 'Ryan and Ali in front of Eduardo Chillida’s Comb of the Wind sculpture by the sea', lat: 43.3215, lon: -2.005, tilt: -2.5, w: 900, h: 675,
+    caption: 'At a Chillida sculpture with Ali', place: 'San Sebastián, Spain', year: 2023 },
   { src: '/about/frankfurt-2024.webp', alt: 'Ryan, Ali, and two family members on the Römerberg in Frankfurt', lat: 50.1106, lon: 8.6821, tilt: 3, w: 675, h: 900,
     caption: 'Exploring with Ali’s German aunt', place: 'Frankfurt, Germany', year: 2024 },
   { src: '/about/lake-brienz-2024.webp', alt: 'Ryan hiking above Lake Brienz', lat: 46.75, lon: 7.98, tilt: -2.5, w: 675, h: 900,
