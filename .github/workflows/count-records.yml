@@ -1,0 +1,28 @@
+# Counts published Contentful records into data/contentful-usage.json.
+# Runs when data/run-count-records changes, or from the Actions tab.
+name: Count Contentful records
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/run-count-records]
+permissions:
+  contents: write
+jobs:
+  count:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/count-records.mjs
+        env:
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+      - run: |
+          git add data/contentful-usage.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City count"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Count Contentful records"
+          git pull --rebase origin main
+          git push origin HEAD:main
