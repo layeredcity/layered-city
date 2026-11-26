@@ -15,6 +15,12 @@ export default [
     ],
   },
   {
+    heading: 'Who makes it?',
+    paragraphs: [
+      'Ryan Nee. I was born in Denver, and I live in Minneapolis. I’ve traveled to more than 70 countries, and I care about helping people enjoy the richness and complexity of the places they visit.',
+    ],
+  },
+  {
     heading: 'Why did you make it?',
     paragraphs: [
       'It started with podcasts. I’d hear an episode of 99% Invisible, a podcast about design and architecture, about a place I’d visited months earlier. Each time, I wished I’d known about it before the trip, or better yet, while I was there. In 2020 I spent ten months building an iPhone app that pinned podcast episodes to places. Then I started a new job, and the project went on the shelf. Five years later, AI coding tools made it possible to pick it back up, and I’d had plenty of time to think about what it should become.',
@@ -80,11 +86,5 @@ export default [
       'Before a new city goes up, a script checks each item against its source. It confirms each video’s title, channel, and length on YouTube, each podcast episode in Apple’s podcast directory, each film by its IMDb listing, and each book by its ISBN. Once a month, every link on the site is checked to make sure it still works. Each month, Claude also takes a few threads and cities that are next in line and checks their facts, like names, dates, and places, against published sources. Errors in threads are corrected, and anything else goes to me to fix. Over about a year, that covers everything on the site. No check catches everything, though. If you spot a mistake, please tell me with the form below or the “Report a problem” link under any story.',
     ],
     report: true,
-  },
-  {
-    heading: 'Who makes it?',
-    paragraphs: [
-      'Ryan Nee. I was born in Denver, and I live in Minneapolis. I’ve traveled to more than 70 countries, and I care about helping people enjoy the richness and complexity of the places they visit.',
-    ],
   },
 ]
