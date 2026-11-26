@@ -1,0 +1,165 @@
+{
+ "city": "Dublin",
+ "words": [
+  {
+   "id": "1ejhiGb8LTCar1BUMRGeGY",
+   "slot": "greeting-casual",
+   "local": "How’s it going?",
+   "meaning": "hello",
+   "context": "A greeting, not a question. “Grand, yourself?” closes it. “What’s the story?” does the same job."
+  },
+  {
+   "id": "4EUa1BrxqXa6MfcJxrxH3N",
+   "slot": "thanks",
+   "local": "Thanks a million",
+   "meaning": "thank you",
+   "context": "The standard warm version, often compressed to “thanks a mil.” “Cheers” works fine too."
+  },
+  {
+   "id": "7kqTZmIqCFklAqgqyArYlX",
+   "slot": "leaving",
+   "local": "Good luck",
+   "meaning": "leaving a shop or café",
+   "context": "Said leaving a shop with no luck implied. “See you now” works, and so does a rapid string of byes."
+  },
+  {
+   "id": "1oNusEaYOXPVogN1um5zVo",
+   "slot": "sorry",
+   "local": "Sorry",
+   "meaning": "sorry",
+   "context": "Works for apologising and for getting past. Also means “what did you say?” and opens most requests."
+  },
+  {
+   "id": "2TB8a8vE6MRVtsBeoqYmgM",
+   "slot": "excuse-attention",
+   "local": "Excuse me",
+   "meaning": "getting attention",
+   "context": "Bar service runs on eye contact and patience. There’s no line at the bar but there is an order, and it’s tracked."
+  },
+  {
+   "id": "2WbdV1l3AU6Hx78w5MSzch",
+   "slot": "check",
+   "local": "The bill, please",
+   "meaning": "the check, please",
+   "context": "Asking for “the check” marks you immediately."
+  },
+  {
+   "id": "51MyiFBXohQqRoWVnDqy7M",
+   "slot": "money-surprise",
+   "local": "Service charge",
+   "meaning": "service charge",
+   "context": "Often added for groups of six or more and stated on the menu. Check before you add anything on top."
+  },
+  {
+   "id": "7hhSDiQGLYDayklRD3qnTN",
+   "slot": "ticket",
+   "local": "Leap card",
+   "meaning": "ticket",
+   "context": "The transit card for bus, Luas, and DART. Contactless bank cards do not work on Dublin buses."
+  },
+  {
+   "id": "4ImQSOFtQdLbUf3ja4EpEl",
+   "slot": "bathroom",
+   "local": "The jacks",
+   "meaning": "bathroom",
+   "context": "Casual and very Dublin. Signs say “Toilets,” with “Leithreas” printed underneath."
+  },
+  {
+   "id": "2dkJBnWYYVFSSq06NQf60q",
+   "slot": "door-men",
+   "local": "Fir",
+   "meaning": "men"
+  },
+  {
+   "id": "1ZZ67hVjD3iFw94IjvsGdh",
+   "slot": "door-women",
+   "local": "Mná",
+   "meaning": "women",
+   "groupNote": "Irish, said feer and mnaw. On plenty of pub doors with no English at all, and genuinely easy to get wrong."
+  },
+  {
+   "id": "4povhobtLCUskEceAcUTBu",
+   "slot": "atm",
+   "local": "ATM",
+   "meaning": "ATM",
+   "context": "Also “the hole in the wall.” Ireland uses the euro, unlike Northern Ireland an hour up the road."
+  },
+  {
+   "id": "bshK6qGAwhXKhCC1slkpw",
+   "slot": "card",
+   "local": "Card",
+   "meaning": "credit card",
+   "context": "Contactless everywhere. Say it as you hold the card up."
+  },
+  {
+   "id": "K07NirzAMCMPXid5PYSbz",
+   "slot": "cash",
+   "local": "Cash",
+   "meaning": "cash",
+   "context": "Still worth carrying for older pubs and taxis, though card works nearly everywhere now."
+  },
+  {
+   "id": "1lxdEVquu4AT0LN01tioSI",
+   "slot": "bag",
+   "local": "Bag?",
+   "meaning": "bag?",
+   "context": "Charged since 2002 — Ireland was the first country in the world to do it."
+  },
+  {
+   "id": "2O1rB2DCozkAS1mv3mdK67",
+   "slot": "deep-cut",
+   "local": "Craic",
+   "context": "Fun, atmosphere, company, and news all at once. “What’s the craic?” is a greeting. Grim when marketed, real when not.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "2enWYTxHnBaSmP3axlob8N",
+   "slot": "deep-cut",
+   "local": "Grand",
+   "context": "Fine, acceptable, no problem. Also what someone says when things are emphatically not fine. Tone is everything.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "4s3w8oztl3DqSHRKXDT2Sz",
+   "slot": "deep-cut",
+   "local": "An Lár",
+   "context": "“The centre” — what city-center buses show as their destination. The single most useful piece of Irish for a visitor.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "6EEUhDZaiujIWZscp4Y0LX",
+   "slot": "deep-cut",
+   "local": "Deadly",
+   "context": "Excellent. Not dangerous, and not sarcastic.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "2ArSCddsDVaK6PPKT3zflu",
+   "slot": "deep-cut",
+   "local": "Yer man",
+   "context": "That man, whose name I’m not supplying. “Yer one” for a woman. Fully functional as identification.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "6hxxDh9rFYKEv0OTQprzU4",
+   "slot": "deep-cut",
+   "local": "Slagging",
+   "context": "Mock insults traded between friends as a sign of affection. Being left out of it is the part to worry about.",
+   "deepCutOrder": 6
+  },
+  {
+   "id": "6Jz2Z4v1B1QWUZo56O1img",
+   "slot": "deep-cut",
+   "local": "Garda",
+   "context": "The police. Plural “Gardaí,” said GAR-dee. Nobody here says “the police.”",
+   "deepCutOrder": 7
+  },
+  {
+   "id": "7EZAjFiG6loMK1TLta1Mvh",
+   "slot": "deep-cut",
+   "local": "Gaff",
+   "context": "House or apartment. “A free gaff” means the parents are away, which is the phrase’s main use.",
+   "deepCutOrder": 8
+  }
+ ]
+}

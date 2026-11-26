@@ -1,0 +1,301 @@
+{
+ "city": "Paris",
+ "words": [
+  {
+   "id": "3c4QygyuTgRmPyJEI1xySW",
+   "slot": "greeting-morning",
+   "local": "Bonjour",
+   "phonetic": "bong-ZHOOR",
+   "meaning": "good morning / hello"
+  },
+  {
+   "id": "3VRBGWl4KC4oAidjVgs72M",
+   "slot": "greeting-afternoon",
+   "local": "Bonjour",
+   "phonetic": "bong-ZHOOR",
+   "meaning": "good afternoon",
+   "context": "Still “bonjour.” French has no separate afternoon greeting."
+  },
+  {
+   "id": "3zIQLOGeE7Vu13zQiv26iV",
+   "slot": "greeting-evening",
+   "local": "Bonsoir",
+   "phonetic": "bong-SWAHR",
+   "meaning": "good evening",
+   "groupNote": "The switch happens around six, or when it gets dark. After that, “bonjour” sounds slightly off."
+  },
+  {
+   "id": "1SNg2L7Fts1ku8BkerVKCx",
+   "slot": "greeting-casual",
+   "local": "Salut",
+   "phonetic": "sah-LEW",
+   "meaning": "hello (casual)",
+   "context": "For friends only. Using it with a shopkeeper is too familiar and lands badly."
+  },
+  {
+   "id": "6yDIrRDaoy5CbR10RLByHe",
+   "slot": "leaving",
+   "local": "Au revoir",
+   "phonetic": "oh ruh-VWAHR",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until the re-seeing.” Say it leaving any shop, even if you bought nothing."
+  },
+  {
+   "id": "7AaRckm8FN4y36kTW46Z5e",
+   "slot": "please",
+   "local": "S’il vous plaît",
+   "phonetic": "seel voo PLEH",
+   "meaning": "please"
+  },
+  {
+   "id": "6RHonrrXTdrktEB52iE67m",
+   "slot": "thanks",
+   "local": "Merci",
+   "phonetic": "mehr-SEE",
+   "meaning": "thank you",
+   "context": "Attach “madame” or “monsieur” and it warms considerably. Bare “merci” is fine but slightly flat."
+  },
+  {
+   "id": "4ROUWm8FYbP86vj3pGel0P",
+   "slot": "yes",
+   "local": "Oui",
+   "phonetic": "wee",
+   "meaning": "yes"
+  },
+  {
+   "id": "2kvpBj49R5qr4WqMVhyno",
+   "slot": "no",
+   "local": "Non",
+   "phonetic": "nohng",
+   "meaning": "no",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "3td0HBfFuW3sXfuqLZwGPr",
+   "slot": "speak-english",
+   "local": "Parlez-vous anglais?",
+   "phonetic": "par-lay VOO ahn-GLEH",
+   "meaning": "do you speak English?",
+   "context": "Greet first, then ask. Opening with this is the classic misstep and it sets the wrong tone."
+  },
+  {
+   "id": "3TWPAh3vMUWTyNjZh9KHR5",
+   "slot": "sorry",
+   "local": "Désolé",
+   "phonetic": "day-zoh-LAY",
+   "meaning": "sorry"
+  },
+  {
+   "id": "6qdhKCZ54uir5GklI3SPgx",
+   "slot": "excuse-attention",
+   "local": "Excusez-moi",
+   "phonetic": "ex-kew-zay MWAH",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "4iuBs7k0XHcxUOeGPKNdZ",
+   "slot": "excuse-passing",
+   "local": "Pardon",
+   "phonetic": "par-DOHN",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "Three words for three jobs: “pardon” for bumping, “excusez-moi” to open a request, “désolé” for a real apology."
+  },
+  {
+   "id": "853mOb2TBua3F8Cznfnds",
+   "slot": "number-one",
+   "local": "Un",
+   "phonetic": "uhng",
+   "meaning": "one",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "Oo7FmCYsF4s6fIpEy6zIY",
+   "slot": "number-two",
+   "local": "Deux",
+   "phonetic": "duh",
+   "meaning": "two"
+  },
+  {
+   "id": "OqEW8pmrvkXx0D2Imv4CT",
+   "slot": "number-three",
+   "local": "Trois",
+   "phonetic": "twah",
+   "meaning": "three"
+  },
+  {
+   "id": "5jP2pq1CCM3IXZqajppDeJ",
+   "slot": "number-four",
+   "local": "Quatre",
+   "phonetic": "KAT-ruh",
+   "meaning": "four"
+  },
+  {
+   "id": "2u7SJ6Ou4ecL4ChpQg5gZd",
+   "slot": "menu",
+   "local": "La carte, s’il vous plaît",
+   "phonetic": "lah KART",
+   "meaning": "the menu, please",
+   "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte.”"
+  },
+  {
+   "id": "6MIZUn2GKPZMLu0hlpmjMu",
+   "slot": "enjoy-meal",
+   "local": "Bon appétit",
+   "phonetic": "bon ah-pay-TEE",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "3LGZX2wpeKDsGjO5yKiQl8",
+   "slot": "cheers",
+   "local": "Santé",
+   "phonetic": "sahn-TAY",
+   "meaning": "cheers",
+   "context": "Eye contact as you clink, with each person in turn."
+  },
+  {
+   "id": "4UOFyVMHBON0kncPMj7jr8",
+   "slot": "delicious",
+   "local": "Délicieux!",
+   "phonetic": "day-lee-SYUH",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "TIrUthfExXaRQA80Zli5H",
+   "slot": "check",
+   "local": "L’addition, s’il vous plaît",
+   "phonetic": "lah-dee-SYOHN",
+   "meaning": "the check, please",
+   "context": "It won’t come until you ask. Catching an eye and miming a signature works too."
+  },
+  {
+   "id": "4agM6Is0UIlz0TAooTLIXl",
+   "slot": "money-surprise",
+   "local": "Carafe d’eau",
+   "phonetic": "kah-RAHF doh",
+   "meaning": "jug of tap water",
+   "context": "Free, and restaurants must provide it. Ask by name or you’ll be brought bottled water and charged for it."
+  },
+  {
+   "id": "29s3HUEG7IxxKLr22juHXV",
+   "slot": "where-is",
+   "local": "Où est…?",
+   "phonetic": "oo eh",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "5fWz3HklFIuni8NTtkz3nC",
+   "slot": "ticket",
+   "local": "Ticket",
+   "phonetic": "tee-KEH",
+   "meaning": "ticket"
+  },
+  {
+   "id": "1aEizE8BIzZSydBeOtiyRe",
+   "slot": "bathroom",
+   "local": "Toilettes",
+   "phonetic": "twah-LET",
+   "meaning": "bathroom",
+   "context": "Always plural. Cafés expect you to have bought something first."
+  },
+  {
+   "id": "5PlYOK5JAjCOIiBcolkFGM",
+   "slot": "door-men",
+   "local": "Hommes",
+   "phonetic": "om",
+   "meaning": "men"
+  },
+  {
+   "id": "6EMXmgcb0NIHaOLYsdzbbT",
+   "slot": "door-women",
+   "local": "Femmes",
+   "phonetic": "fahm",
+   "meaning": "women",
+   "groupNote": "“Femmes” is “fahm,” not “fem.” Some places print “Messieurs” and “Dames” instead."
+  },
+  {
+   "id": "24Vtgbiv6pkhWrn6edNy7U",
+   "slot": "atm",
+   "local": "Distributeur",
+   "phonetic": "dees-tree-bew-TUR",
+   "meaning": "ATM",
+   "context": "Short for “distributeur automatique.” Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "22CZNNtX32eX6ujacuiKjH",
+   "slot": "how-much",
+   "local": "Combien?",
+   "phonetic": "kom-BYAN",
+   "meaning": "how much?"
+  },
+  {
+   "id": "3Zu2VqxA539tVEYPPNpMiO",
+   "slot": "card",
+   "local": "Carte",
+   "phonetic": "KART",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Note it’s the same word as the menu — context does the work."
+  },
+  {
+   "id": "6ZLsbA7uE649mihw8uuFXO",
+   "slot": "cash",
+   "local": "Espèces",
+   "phonetic": "ess-PESS",
+   "meaning": "cash"
+  },
+  {
+   "id": "6M9LXBSaCx7jhhwhF59pqY",
+   "slot": "bag",
+   "local": "Sac?",
+   "phonetic": "sahk",
+   "meaning": "bag?",
+   "context": "Charged by law. Say “non merci” if you brought one."
+  },
+  {
+   "id": "1lVTwgSUv6LUpMHlFGnS89",
+   "slot": "deep-cut",
+   "local": "Flâner",
+   "phonetic": "flah-NAY",
+   "context": "To wander a city with no destination, watching. Baudelaire made it a Paris idea; a flâneur is someone who does it well.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "5arhKwgPYcsXq5Eny7NjK7",
+   "slot": "deep-cut",
+   "local": "La terrasse",
+   "phonetic": "lah teh-RAHSS",
+   "context": "The sidewalk seating that fills every street. Coffee costs more there than standing at the bar, and everyone pays it.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "1Fdi6RYGQchorqcEuq20AT",
+   "slot": "deep-cut",
+   "local": "L’apéro",
+   "phonetic": "lah-peh-ROH",
+   "context": "The drink before dinner, with something small to eat. An hour with its own name and its own rules.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "24Q8tQWxRwAXnmsn6ifr9w",
+   "slot": "deep-cut",
+   "local": "Râler",
+   "phonetic": "rah-LAY",
+   "context": "To complain, constantly and with relish. The French treat it as a hobby rather than a flaw.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "1QXJwPJUTvTDYMy0VP28P6",
+   "slot": "deep-cut",
+   "local": "Boulangerie",
+   "phonetic": "boo-lahn-zhuh-REE",
+   "context": "A shop legally allowed to call itself that only if it bakes bread on the premises. The sign is a guarantee, not decoration.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "75dS5CmEl6yvV3HRLbeWSf",
+   "slot": "number-five",
+   "local": "Cinq",
+   "phonetic": "sank",
+   "meaning": "five"
+  }
+ ]
+}

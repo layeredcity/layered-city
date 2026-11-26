@@ -1,0 +1,304 @@
+{
+ "city": "Brussels",
+ "words": [
+  {
+   "id": "2TfOcjafOOKUZir5jAFSYk",
+   "slot": "greeting-morning",
+   "local": "Bonjour",
+   "phonetic": "bong-ZHOOR",
+   "meaning": "good morning / hello"
+  },
+  {
+   "id": "4pJWF4iEe3pLyqLA7Br4Wk",
+   "slot": "greeting-afternoon",
+   "local": "Bonjour",
+   "phonetic": "bong-ZHOOR",
+   "meaning": "good afternoon",
+   "context": "Still “bonjour.” French has no separate afternoon greeting."
+  },
+  {
+   "id": "2sjKqnYAbrTzRlTNB3nsLf",
+   "slot": "greeting-evening",
+   "local": "Bonsoir",
+   "phonetic": "bong-SWAHR",
+   "meaning": "good evening",
+   "groupNote": "The switch comes around six. “Goeiedag” and “goeienavond” are the Dutch equivalents you’ll see written."
+  },
+  {
+   "id": "3N2gw0LNbg4twwO9dpQu6T",
+   "slot": "greeting-casual",
+   "local": "Salut",
+   "phonetic": "sah-LEW",
+   "meaning": "hello (casual)",
+   "context": "For friends. Too familiar with anyone behind a counter."
+  },
+  {
+   "id": "5bCzYW8DEUdJNgTaKs98ER",
+   "slot": "leaving",
+   "local": "Au revoir",
+   "phonetic": "oh ruh-VWAHR",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until the re-seeing.” Say it leaving any shop, even empty-handed."
+  },
+  {
+   "id": "1Szh7A37Zohu4sy1PfJblm",
+   "slot": "please",
+   "local": "S’il vous plaît",
+   "phonetic": "seel voo PLEH",
+   "meaning": "please",
+   "context": "In Belgium it also means “here you go,” said as things are handed to you. This confuses French visitors too."
+  },
+  {
+   "id": "4q9veVnkaAZamKkcBFb1gR",
+   "slot": "thanks",
+   "local": "Merci",
+   "phonetic": "mehr-SEE",
+   "meaning": "thank you",
+   "context": "Attach “madame” or “monsieur” and it warms considerably. “Dank u” is the Dutch."
+  },
+  {
+   "id": "14WwxcRvSw7Xm0pl7siX3Q",
+   "slot": "yes",
+   "local": "Oui",
+   "phonetic": "wee",
+   "meaning": "yes"
+  },
+  {
+   "id": "5calCFN1jbqxxwJEUH4Kxg",
+   "slot": "no",
+   "local": "Non",
+   "phonetic": "nohng",
+   "meaning": "no",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "18yL1pLU7B4nIHXjCrUYLl",
+   "slot": "speak-english",
+   "local": "Parlez-vous anglais?",
+   "phonetic": "par-lay VOO ahn-GLEH",
+   "meaning": "do you speak English?",
+   "context": "The answer is very often yes here, more so than anywhere else in French-speaking Europe."
+  },
+  {
+   "id": "77gcz1zfePonFOwLuQwx1I",
+   "slot": "sorry",
+   "local": "Désolé",
+   "phonetic": "day-zoh-LAY",
+   "meaning": "sorry"
+  },
+  {
+   "id": "5fcxQEp0N07RaVjcCkRNMT",
+   "slot": "excuse-attention",
+   "local": "Excusez-moi",
+   "phonetic": "ex-kew-zay MWAH",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "54FMZWqDg6HNv4Xfn3nOgg",
+   "slot": "excuse-passing",
+   "local": "Pardon",
+   "phonetic": "par-DOHN",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "Three words for three jobs: “pardon” for bumping, “excusez-moi” to open a request, “désolé” for a real apology."
+  },
+  {
+   "id": "7wDpvVKzfI6YyhEHQAIXfG",
+   "slot": "number-one",
+   "local": "Un",
+   "phonetic": "uhng",
+   "meaning": "one",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "2NvCi2wm5mOnhQVY32L1OV",
+   "slot": "number-two",
+   "local": "Deux",
+   "phonetic": "duh",
+   "meaning": "two"
+  },
+  {
+   "id": "5XxB1Ju2eDHeUNUQaz9eUH",
+   "slot": "number-three",
+   "local": "Trois",
+   "phonetic": "twah",
+   "meaning": "three"
+  },
+  {
+   "id": "59AEpWk48N376xM0plrPLP",
+   "slot": "number-four",
+   "local": "Quatre",
+   "phonetic": "KAT-ruh",
+   "meaning": "four"
+  },
+  {
+   "id": "3ljYwkMMw6HxJKIzi62N2w",
+   "slot": "menu",
+   "local": "La carte, s’il vous plaît",
+   "phonetic": "lah KART",
+   "meaning": "the menu, please",
+   "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte.”"
+  },
+  {
+   "id": "7hWavN09cpqrWttOh5GRDZ",
+   "slot": "enjoy-meal",
+   "local": "Bon appétit",
+   "phonetic": "bon ah-pay-TEE",
+   "meaning": "enjoy your meal",
+   "context": "“Smakelijk” (SMAH-kuh-luk) is the Dutch, and you’ll hear both in the same restaurant."
+  },
+  {
+   "id": "BMwO7RvWanfqbTAd2GmaM",
+   "slot": "cheers",
+   "local": "Santé",
+   "phonetic": "sahn-TAY",
+   "meaning": "cheers",
+   "context": "Eye contact as you clink. “Schol” is the Dutch version."
+  },
+  {
+   "id": "5Mv2eyi40vtah2qReLOpi",
+   "slot": "delicious",
+   "local": "Délicieux!",
+   "phonetic": "day-lee-SYUH",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "6Q6aQnEb5e1WXr4DWgthfb",
+   "slot": "check",
+   "local": "L’addition, s’il vous plaît",
+   "phonetic": "lah-dee-SYOHN",
+   "meaning": "the check, please",
+   "context": "It won’t come until you ask."
+  },
+  {
+   "id": "5Ty2EQmV9KcQc57iBT0dOA",
+   "slot": "money-surprise",
+   "local": "Carafe d’eau",
+   "phonetic": "kah-RAHF doh",
+   "meaning": "jug of tap water",
+   "context": "Unlike France, there’s no obligation to serve it free. Ask and you may still get a bottle on the bill."
+  },
+  {
+   "id": "4R6pFXPs7RRNqDFesi6JZj",
+   "slot": "where-is",
+   "local": "Où est…?",
+   "phonetic": "oo eh",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "7xadwDHJeT02Al1OdFoAgy",
+   "slot": "ticket",
+   "local": "Ticket",
+   "phonetic": "tee-KEH",
+   "meaning": "ticket",
+   "context": "The STIB network runs on a MOBIB card or contactless. Validate at every change, including between metro lines."
+  },
+  {
+   "id": "3UF9a1VN0SCgH1QIWmDQEM",
+   "slot": "bathroom",
+   "local": "Toilettes",
+   "phonetic": "twah-LET",
+   "meaning": "bathroom",
+   "context": "Often attended, with a saucer for coins. Fifty cents is normal even where you’re already eating."
+  },
+  {
+   "id": "57bywqsa7rON3CCVCwUgE",
+   "slot": "door-men",
+   "local": "Hommes",
+   "phonetic": "om",
+   "meaning": "men"
+  },
+  {
+   "id": "31CiFqrhnCDJ3po0946cdH",
+   "slot": "door-women",
+   "local": "Femmes",
+   "phonetic": "fahm",
+   "meaning": "women",
+   "groupNote": "Doors may be in Dutch instead — “Heren” for men, “Dames” for women. “H” is men in both languages."
+  },
+  {
+   "id": "Jzp7KzDYpS3AotM6WaXzS",
+   "slot": "atm",
+   "local": "Distributeur",
+   "phonetic": "dees-tree-bew-TUR",
+   "meaning": "ATM",
+   "context": "Bancontact is the Belgian debit network and its name is on nearly every terminal."
+  },
+  {
+   "id": "5sY3G1tW7xNoTKpwIrCLyj",
+   "slot": "how-much",
+   "local": "Combien?",
+   "phonetic": "kom-BYAN",
+   "meaning": "how much?"
+  },
+  {
+   "id": "1Bwjw7I6FwX9NTdlisVUGl",
+   "slot": "card",
+   "local": "Carte",
+   "phonetic": "KART",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Same word as the menu — context does the work."
+  },
+  {
+   "id": "5qBonhu779aSGkukHaDXbQ",
+   "slot": "cash",
+   "local": "Espèces",
+   "phonetic": "ess-PESS",
+   "meaning": "cash"
+  },
+  {
+   "id": "23zCxOgD2nPK7mHtaNj2uy",
+   "slot": "bag",
+   "local": "Sac?",
+   "phonetic": "sahk",
+   "meaning": "bag?",
+   "context": "Charged. Say “non merci” if you brought one."
+  },
+  {
+   "id": "3YWxbzWe5eKJbwZhYSBO2w",
+   "slot": "deep-cut",
+   "local": "Zwanze",
+   "phonetic": "zwahnz",
+   "context": "Brussels humor: deadpan, self-mocking, faintly absurd. The city’s standing answer to being small and overlooked.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "5khvYPZsgyNBCTlNxiW8uN",
+   "slot": "deep-cut",
+   "local": "Friterie",
+   "phonetic": "free-tuh-REE",
+   "context": "The chip stand — “frituur” in Dutch, and both words appear on signs. Frites are fried twice and the sauce list runs to twenty.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "24fm95FeglkLe1ghAfqYLv",
+   "slot": "deep-cut",
+   "local": "Estaminet",
+   "phonetic": "es-tah-mee-NEH",
+   "context": "A small old brown café with wooden tables and no music. Older than the pub concept and still where people sit.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "67Xar0pPNYAxhKwme0iAFu",
+   "slot": "deep-cut",
+   "local": "Brol",
+   "phonetic": "brol",
+   "context": "Junk, clutter, a mess. Brussels French borrowed it from Flemish and now uses it constantly.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "5BWEYbPRQm40t3LSOxK2Gj",
+   "slot": "deep-cut",
+   "local": "Ket",
+   "phonetic": "ket",
+   "context": "A Brussels lad, from the Flemish. Used affectionately, including by people who’d otherwise be speaking only French.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "5DlU0jVzPwsnyGVdwUbBqf",
+   "slot": "number-five",
+   "local": "Cinq",
+   "phonetic": "sank",
+   "meaning": "five"
+  }
+ ]
+}

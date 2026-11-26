@@ -1,0 +1,294 @@
+{
+ "city": "Reykjavík",
+ "words": [
+  {
+   "id": "2ya3XTYw3CtW0ufzXiYqW0",
+   "slot": "greeting-morning",
+   "local": "Góðan daginn",
+   "phonetic": "GOH-than DIE-in",
+   "meaning": "good morning / hello"
+  },
+  {
+   "id": "1pdJS9M3TYFipKZ0bh7aDq",
+   "slot": "greeting-afternoon",
+   "local": "Góðan daginn",
+   "phonetic": "GOH-than DIE-in",
+   "meaning": "good afternoon",
+   "context": "Still “góðan daginn.” Icelandic has no separate afternoon greeting."
+  },
+  {
+   "id": "3o2dLEPYh8kxL4nHEjVn61",
+   "slot": "greeting-evening",
+   "local": "Gott kvöld",
+   "phonetic": "got KVURLD",
+   "meaning": "good evening",
+   "groupNote": "The daytime greeting is often clipped to just “daginn.”"
+  },
+  {
+   "id": "1IXTFhv9UDNiSkenLLFZDr",
+   "slot": "greeting-casual",
+   "local": "Hæ",
+   "phonetic": "high",
+   "meaning": "hello (casual)",
+   "context": "Borrowed straight from English “hi.” Used by everyone, all ages."
+  },
+  {
+   "id": "1isdUopecsGknWi4swpOXA",
+   "slot": "leaving",
+   "local": "Bless",
+   "phonetic": "bless",
+   "meaning": "leaving a shop or café",
+   "context": "Often doubled: “bless bless.” From an old blessing, though nobody hears it that way now."
+  },
+  {
+   "id": "6REX4IENE5Dzzyru1KF3Lh",
+   "slot": "please",
+   "local": "Vinsamlegast",
+   "phonetic": "VIN-sam-leh-gast",
+   "meaning": "please",
+   "context": "Almost entirely written, on signs and notices. In speech Icelandic has no everyday please."
+  },
+  {
+   "id": "50gkZfMqMwO3dxGzfCrPx6",
+   "slot": "thanks",
+   "local": "Takk",
+   "phonetic": "tahk",
+   "meaning": "thank you",
+   "context": "“Takk fyrir” (FIH-rir) is the fuller version. Icelanders say it constantly."
+  },
+  {
+   "id": "1nG1056jwugjqgpdXoYC0J",
+   "slot": "yes",
+   "local": "Já",
+   "phonetic": "yow",
+   "meaning": "yes"
+  },
+  {
+   "id": "3klcsdEl1FfAph58wdo5n0",
+   "slot": "no",
+   "local": "Nei",
+   "phonetic": "nay",
+   "meaning": "no"
+  },
+  {
+   "id": "5diQm5CUmRABk8Db2GzSWw",
+   "slot": "speak-english",
+   "local": "Talar þú ensku?",
+   "phonetic": "TAH-lar thoo EN-skoo",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "6JTTwh6crAkBkTo9m1twWV",
+   "slot": "sorry",
+   "local": "Fyrirgefðu",
+   "phonetic": "FIH-rir-gev-thoo",
+   "meaning": "sorry",
+   "context": "Kept for a real apology. For everything else, “afsakið.”"
+  },
+  {
+   "id": "6fbgW3Y6UuFKdisqgFJECr",
+   "slot": "excuse-attention",
+   "local": "Afsakið",
+   "phonetic": "AHF-sah-kith",
+   "meaning": "excuse me",
+   "context": "For getting someone’s attention and for squeezing past."
+  },
+  {
+   "id": "5tr1TGLB1N7BRq5i9ptdux",
+   "slot": "number-one",
+   "local": "Einn",
+   "phonetic": "aydn",
+   "meaning": "one",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "6AC7ENgx5xoFzYZtW9uhQ3",
+   "slot": "number-two",
+   "local": "Tveir",
+   "phonetic": "tvayr",
+   "meaning": "two"
+  },
+  {
+   "id": "3ETOM74hjLOZFxJzd9fe8D",
+   "slot": "number-three",
+   "local": "Þrír",
+   "phonetic": "threer",
+   "meaning": "three"
+  },
+  {
+   "id": "37F917DyHuquhyHZFZXV88",
+   "slot": "number-four",
+   "local": "Fjórir",
+   "phonetic": "FYOH-rir",
+   "meaning": "four"
+  },
+  {
+   "id": "3RV4xeWdkopKVOc8N9ovLp",
+   "slot": "menu",
+   "local": "Matseðilinn?",
+   "phonetic": "MAHT-seth-il-in",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Matseðilinn, takk.”"
+  },
+  {
+   "id": "uwGs7Oqz83uts9FHQZxmq",
+   "slot": "enjoy-meal",
+   "local": "Verði þér að góðu",
+   "phonetic": "VER-thi thyer ath GOH-thoo",
+   "meaning": "enjoy your meal",
+   "context": "Said after the meal rather than before, closer to “you’re welcome.”"
+  },
+  {
+   "id": "19Iu8Ttt0ab90OpqlCuOLt",
+   "slot": "cheers",
+   "local": "Skál",
+   "phonetic": "skowl",
+   "meaning": "cheers"
+  },
+  {
+   "id": "2kRqfx5dbvSQhspLpJryb3",
+   "slot": "delicious",
+   "local": "Ljúffengt!",
+   "phonetic": "LYOO-fengt",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "32Uyh5PS8WCAr1m9XIibQT",
+   "slot": "check",
+   "local": "Reikninginn?",
+   "phonetic": "RAYK-ning-in",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Get ég fengið reikninginn?”"
+  },
+  {
+   "id": "1P9Mj6QC7gRFds4QrZSw1n",
+   "slot": "money-surprise",
+   "local": "Vínbúðin",
+   "phonetic": "VEEN-boo-thin",
+   "meaning": "state alcohol shop",
+   "context": "The only place to buy wine, spirits, or strong beer. Short hours, closed Sundays, and there is no alternative."
+  },
+  {
+   "id": "sToGzuSDlqkcNuGCa7Z1e",
+   "slot": "where-is",
+   "local": "Hvar er…?",
+   "phonetic": "kvar air",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "7huneBa8CgqL3xDsrsei9q",
+   "slot": "ticket",
+   "local": "Miði",
+   "phonetic": "MITH-i",
+   "meaning": "ticket"
+  },
+  {
+   "id": "4KrYI7n6ouHqobUPg8NQZc",
+   "slot": "bathroom",
+   "local": "Snyrting",
+   "phonetic": "SNIR-ting",
+   "meaning": "bathroom",
+   "context": "What the signs say. “Klósett” is the everyday spoken word."
+  },
+  {
+   "id": "7Cb9WESuMjEzFpAubwjGqH",
+   "slot": "door-men",
+   "local": "Karlar",
+   "phonetic": "KART-lar",
+   "meaning": "men"
+  },
+  {
+   "id": "4utciXKPUwmCApDF3v0zO7",
+   "slot": "door-women",
+   "local": "Konur",
+   "phonetic": "KOH-nur",
+   "meaning": "women",
+   "groupNote": "Both start with K, so read past the first letter. Plenty of places use symbols only."
+  },
+  {
+   "id": "4kllISkovy53mXM2nBau8Y",
+   "slot": "atm",
+   "local": "Hraðbanki",
+   "phonetic": "HRATH-bahn-kee",
+   "meaning": "ATM",
+   "context": "Iceland isn’t in the euro. Prices are in krónur, and cards work absolutely everywhere."
+  },
+  {
+   "id": "FkxLqe6YUCz6Wehoau5Ww",
+   "slot": "how-much",
+   "local": "Hvað kostar?",
+   "phonetic": "kvath KOS-tar",
+   "meaning": "how much?"
+  },
+  {
+   "id": "1TljE4tzbBgDAZmGbw61ci",
+   "slot": "card",
+   "local": "Kort",
+   "phonetic": "kort",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Iceland is effectively cashless."
+  },
+  {
+   "id": "2Uqoi2rH5i2ZSrsR6rLT2B",
+   "slot": "cash",
+   "local": "Reiðufé",
+   "phonetic": "RAY-thoo-fyeh",
+   "meaning": "cash"
+  },
+  {
+   "id": "46XQYWwjHCR4kwdTEGDWPV",
+   "slot": "bag",
+   "local": "Poki?",
+   "phonetic": "POH-kee",
+   "meaning": "bag?",
+   "context": "Charged. Say “nei takk” if you brought one."
+  },
+  {
+   "id": "RPwvDPyTHr5nqCQ2bo7x2",
+   "slot": "deep-cut",
+   "local": "Þetta reddast",
+   "phonetic": "THET-tah RED-dast",
+   "context": "“It’ll work out.” Said about weather, money, and volcanoes alike. The closest thing Iceland has to a motto.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "4ZYGqqOdvX8zxyBmU3tvSQ",
+   "slot": "deep-cut",
+   "local": "Sundlaug",
+   "phonetic": "SOOND-loyg",
+   "context": "The public geothermal pool. Every town has one, they’re cheap, and the hot tubs are where the town actually talks.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "XJpVEcHAkS5JWxwywUZIR",
+   "slot": "deep-cut",
+   "local": "Gluggaveður",
+   "phonetic": "GLOO-gah-veth-ur",
+   "context": "“Window weather.” Weather that looks beautiful from indoors and is unbearable the moment you step out.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "22a77L71TUaONicmf7PPZv",
+   "slot": "deep-cut",
+   "local": "Jólabókaflóð",
+   "phonetic": "YOH-lah-boh-kah-flohth",
+   "context": "The Christmas book flood: most of the year’s books published in one autumn rush, then given on Christmas Eve.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "qF80OhSRSbH3Oz1Dy3e6x",
+   "slot": "deep-cut",
+   "local": "Rúntur",
+   "phonetic": "ROON-tur",
+   "context": "The loop — driving or walking the same short circuit through town over and over on a weekend night.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "5Ru5hN6Am3dKxKIa7dJetB",
+   "slot": "number-five",
+   "local": "Fimm",
+   "phonetic": "fim",
+   "meaning": "five"
+  }
+ ]
+}

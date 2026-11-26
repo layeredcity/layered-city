@@ -1,0 +1,297 @@
+{
+ "city": "Athens",
+ "words": [
+  {
+   "id": "4z5ng5etyUoKDx6YnRz6ql",
+   "slot": "greeting-morning",
+   "local": "Καλημέρα",
+   "phonetic": "kah-lee-MEH-rah",
+   "meaning": "good morning"
+  },
+  {
+   "id": "VwN9YhsVPaxWOpyx6blUt",
+   "slot": "greeting-afternoon",
+   "local": "Χαίρετε",
+   "phonetic": "HEH-reh-teh",
+   "meaning": "hello (formal)",
+   "context": "The all-purpose formal greeting for when it’s too late for “kalimera” and too early for “kalispera.”"
+  },
+  {
+   "id": "4BuE0jZ6mjKSYKa7xCHGgt",
+   "slot": "greeting-evening",
+   "local": "Καλησπέρα",
+   "phonetic": "kah-lee-SPEH-rah",
+   "meaning": "good evening",
+   "groupNote": "“Kalispera” starts from around noon or early afternoon — much earlier than you’d expect."
+  },
+  {
+   "id": "5k9kAT97FdIQb3yEHl8S9t",
+   "slot": "greeting-casual",
+   "local": "Γεια σου",
+   "phonetic": "YAH soo",
+   "meaning": "hello (casual)",
+   "context": "Singular and casual. To a group or anyone you don’t know it’s “γεια σας” (YAH sahs)."
+  },
+  {
+   "id": "5wLj3ndEqklQHG4uKrZBQG",
+   "slot": "leaving",
+   "local": "Γεια σας",
+   "phonetic": "YAH sahs",
+   "meaning": "leaving a shop or café",
+   "context": "The same phrase does hello and goodbye. “Αντίο” (ah-DEE-oh) exists but sounds final."
+  },
+  {
+   "id": "2GuFwviXaUhe8IrJA2b61d",
+   "slot": "please",
+   "local": "Παρακαλώ",
+   "phonetic": "pah-rah-kah-LOH",
+   "meaning": "please",
+   "context": "Also “you’re welcome” and “can I help you?” You’ll hear it far more than you say it."
+  },
+  {
+   "id": "6K4pSm073qo1NHihnGoMvV",
+   "slot": "thanks",
+   "local": "Ευχαριστώ",
+   "phonetic": "ef-hah-ree-STOH",
+   "meaning": "thank you",
+   "context": "“Ευχαριστώ πολύ” (po-LEE) is thank you very much."
+  },
+  {
+   "id": "SmiuiVyMe56wzdablUj03",
+   "slot": "yes",
+   "local": "Ναι",
+   "phonetic": "neh",
+   "meaning": "yes",
+   "context": "It sounds like “nay” and it means yes. The single most confusing word in Greek for an English speaker."
+  },
+  {
+   "id": "7c0nnuMMcZ1fbzWRuhbLxK",
+   "slot": "no",
+   "local": "Όχι",
+   "phonetic": "OH-hee",
+   "meaning": "no"
+  },
+  {
+   "id": "1OVrhp1IuRf5l8wro2WpW4",
+   "slot": "speak-english",
+   "local": "Μιλάτε αγγλικά;",
+   "phonetic": "mee-LAH-teh ahn-glee-KAH",
+   "meaning": "do you speak English?",
+   "context": "The Greek question mark is a semicolon. It isn’t a typo."
+  },
+  {
+   "id": "43ixpAzYTqAFnhN1dOA5Lh",
+   "slot": "sorry",
+   "local": "Συγγνώμη",
+   "phonetic": "see-GHNO-mee",
+   "meaning": "sorry / excuse me",
+   "context": "For apologising and for getting someone’s attention."
+  },
+  {
+   "id": "75f8YjtBY5QNw5oSsbSAAx",
+   "slot": "excuse-passing",
+   "local": "Με συγχωρείτε",
+   "phonetic": "meh seen-hoh-REE-teh",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "“Signomi” covers both apology and getting attention. Greek doesn’t split them sharply."
+  },
+  {
+   "id": "4WxOIWLjW3ALy6NnuF09Ki",
+   "slot": "number-one",
+   "local": "Ένα",
+   "phonetic": "EH-nah",
+   "meaning": "one"
+  },
+  {
+   "id": "530cLHt2EuVfUVTKZQtOKT",
+   "slot": "number-two",
+   "local": "Δύο",
+   "phonetic": "THEE-oh",
+   "meaning": "two"
+  },
+  {
+   "id": "7N1AhypIwFkNXJ3K52KET0",
+   "slot": "number-three",
+   "local": "Τρία",
+   "phonetic": "TREE-ah",
+   "meaning": "three"
+  },
+  {
+   "id": "2xs4LzbzObzQnnDQDWWlC5",
+   "slot": "number-four",
+   "local": "Τέσσερα",
+   "phonetic": "TEH-seh-rah",
+   "meaning": "four"
+  },
+  {
+   "id": "55khcXJ7ABcv2L5OzyHwBN",
+   "slot": "menu",
+   "local": "Τον κατάλογο;",
+   "phonetic": "ton kah-TAH-loh-goh",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Τον κατάλογο, παρακαλώ.”"
+  },
+  {
+   "id": "6fIaQpb61PP8GoNbmIGpfh",
+   "slot": "enjoy-meal",
+   "local": "Καλή όρεξη",
+   "phonetic": "kah-LEE OH-rek-see",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "5hbuj3Gh0JRETClOQIgEUr",
+   "slot": "cheers",
+   "local": "Γεια μας",
+   "phonetic": "YAH mahs",
+   "meaning": "cheers",
+   "context": "Literally “to our health.” “Στην υγειά μας” (steen ee-YAH mahs) is the fuller toast."
+  },
+  {
+   "id": "6SyVNzzg8IAfG7jHOyf2Bh",
+   "slot": "delicious",
+   "local": "Πεντανόστιμο!",
+   "phonetic": "pen-dah-NO-stee-moh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "7BUpJzP8UurA064nwKYcxR",
+   "slot": "check",
+   "local": "Τον λογαριασμό;",
+   "phonetic": "ton loh-gah-ryahz-MOH",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Τον λογαριασμό, παρακαλώ.”"
+  },
+  {
+   "id": "bGR1mVqH1bRpOWkcf9i5o",
+   "slot": "money-surprise",
+   "local": "Κέρασμα",
+   "phonetic": "KEH-rahz-mah",
+   "meaning": "a treat on the house",
+   "context": "The dessert or shot of raki that arrives unordered at the end. It’s genuinely free, and refusing is the rude move."
+  },
+  {
+   "id": "1TrpTjq4WMrkgLd9mVwYd6",
+   "slot": "where-is",
+   "local": "Πού είναι…;",
+   "phonetic": "poo EE-neh",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "46hXzBdW0W08okGNjB6fX4",
+   "slot": "ticket",
+   "local": "Εισιτήριο",
+   "phonetic": "ee-see-TEE-ree-oh",
+   "meaning": "ticket",
+   "context": "Validate it in the machine on the platform or on board. Inspectors do check."
+  },
+  {
+   "id": "7LjArHsWuo3QwhzVOKcEAr",
+   "slot": "bathroom",
+   "local": "Τουαλέτα",
+   "phonetic": "too-ah-LEH-tah",
+   "meaning": "bathroom",
+   "context": "Paper goes in the bin beside the toilet, not down it. The plumbing is narrow and the signs mean it."
+  },
+  {
+   "id": "3DWYS8pvufirkbwRqXAcLc",
+   "slot": "door-men",
+   "local": "ΑΝΔΡΩΝ",
+   "phonetic": "an-DHRON",
+   "meaning": "men"
+  },
+  {
+   "id": "hZUJXTcBb84vqk7eGypr7",
+   "slot": "door-women",
+   "local": "ΓΥΝΑΙΚΩΝ",
+   "phonetic": "yee-neh-KON",
+   "meaning": "women",
+   "groupNote": "In capitals these look nothing like Latin letters. The longer word is women — a shortcut worth keeping."
+  },
+  {
+   "id": "7xGkoh2Eu0awhqnFbWeTKD",
+   "slot": "atm",
+   "local": "ATM",
+   "phonetic": "ay-tee-EM",
+   "meaning": "ATM",
+   "context": "Signed in Latin letters as-is. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "3MVHuFOdnplb4EmpwrODfL",
+   "slot": "how-much",
+   "local": "Πόσο;",
+   "phonetic": "POH-soh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "540PpROwo4uL2ncMGQWYbJ",
+   "slot": "card",
+   "local": "Κάρτα",
+   "phonetic": "KAR-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up."
+  },
+  {
+   "id": "2gjUcQGyXMq5GTLgeLh5zV",
+   "slot": "cash",
+   "local": "Μετρητά",
+   "phonetic": "meh-tree-TAH",
+   "meaning": "cash",
+   "context": "Still common in tavernas and at kiosks, especially away from the center."
+  },
+  {
+   "id": "3A8PvJPNdMNVAf5JQD1FYS",
+   "slot": "bag",
+   "local": "Σακούλα;",
+   "phonetic": "sah-KOO-lah",
+   "meaning": "bag?",
+   "context": "Charged. Say “όχι ευχαριστώ” if you brought one."
+  },
+  {
+   "id": "54m4OcBZPVdb7AJAR1R5gJ",
+   "slot": "deep-cut",
+   "local": "Φιλότιμο",
+   "phonetic": "fee-LOH-tee-moh",
+   "context": "Roughly “love of honour”: doing right by others because of who you are, not what you get for it. Greeks call it untranslatable and mean it.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "5qz7jzV5NyWjptGHCETMqO",
+   "slot": "deep-cut",
+   "local": "Κέφι",
+   "phonetic": "KEH-fee",
+   "context": "High spirits — the mood that makes a night take off. You can have it, lose it, or be given it by other people.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "71l8TRKSt5Z1dmFCsKt4Ts",
+   "slot": "deep-cut",
+   "local": "Παρέα",
+   "phonetic": "pah-REH-ah",
+   "context": "Your group, the people you go out with. Who you’re with matters considerably more than where you go.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "1eGvxEVFbxtBF0YxYDsPQf",
+   "slot": "deep-cut",
+   "local": "Σιγά σιγά",
+   "phonetic": "see-GAH see-GAH",
+   "context": "“Slowly, slowly.” An instruction, a reassurance, and occasionally a polite refusal to hurry on your behalf.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "1Ojf4YmrDpP1JhUVzjQsTO",
+   "slot": "deep-cut",
+   "local": "Πλατεία",
+   "phonetic": "plah-TEE-ah",
+   "context": "The neighborhood square. Every Athens district has one, and it’s where the evening actually happens.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "3rJCqIpmEPkyHETvJZRnGY",
+   "slot": "number-five",
+   "local": "Πέντε",
+   "phonetic": "PEN-deh",
+   "meaning": "five"
+  }
+ ]
+}

@@ -1,0 +1,300 @@
+{
+ "city": "Bucharest",
+ "words": [
+  {
+   "id": "4kZzl3Srpq5DwgrXtZ1cmc",
+   "slot": "greeting-morning",
+   "local": "Bună dimineața",
+   "phonetic": "BOO-nah dee-mee-NYAH-tsah",
+   "meaning": "good morning"
+  },
+  {
+   "id": "63RXabY9YH7I7k6fA0vxld",
+   "slot": "greeting-afternoon",
+   "local": "Bună ziua",
+   "phonetic": "BOO-nah ZEE-wah",
+   "meaning": "good afternoon",
+   "context": "The all-purpose polite daytime greeting, and the safe choice with anyone you don’t know."
+  },
+  {
+   "id": "5NpufpXjrWdvpkQ32Ja6e7",
+   "slot": "greeting-evening",
+   "local": "Bună seara",
+   "phonetic": "BOO-nah SYAH-rah",
+   "meaning": "good evening",
+   "groupNote": "“Dimineața” until about ten, “ziua” until evening, “seara” after that."
+  },
+  {
+   "id": "6cYXeXwW1whwVpzl7LKP8s",
+   "slot": "greeting-casual",
+   "local": "Salut",
+   "phonetic": "sah-LOOT",
+   "meaning": "hello (casual)",
+   "context": "Casual, for peers. “Bună” (BOO-nah) on its own sits in the same register."
+  },
+  {
+   "id": "3yyacH50G0wQDJaPv4t8d4",
+   "slot": "leaving",
+   "local": "La revedere",
+   "phonetic": "lah reh-veh-DEH-reh",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until the re-seeing.” “Pa” (pah) is the casual version."
+  },
+  {
+   "id": "36qqtpN5mN9ntOUIw3cx1v",
+   "slot": "please",
+   "local": "Vă rog",
+   "phonetic": "vuh ROG",
+   "meaning": "please",
+   "context": "Literally “I ask you.” Attach it to anything at all and the sentence becomes polite."
+  },
+  {
+   "id": "blNTeBXiWstv6rKLSOdjb",
+   "slot": "thanks",
+   "local": "Mulțumesc",
+   "phonetic": "mool-tsoo-MESK",
+   "meaning": "thank you",
+   "context": "“Mersi” (mehr-SEE), borrowed from French, is just as common and considerably easier to say."
+  },
+  {
+   "id": "6ogR6EQzmNChmUFibRNS5C",
+   "slot": "yes",
+   "local": "Da",
+   "phonetic": "dah",
+   "meaning": "yes"
+  },
+  {
+   "id": "6vFCIj5OjaZSgVqxmRWE7f",
+   "slot": "no",
+   "local": "Nu",
+   "phonetic": "noo",
+   "meaning": "no"
+  },
+  {
+   "id": "3YYSgxqOLw4GbghB2NLcOp",
+   "slot": "speak-english",
+   "local": "Vorbiți engleză?",
+   "phonetic": "vor-BEETS en-GLEH-zah",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "FycSARHSulW9ygALo4hs0",
+   "slot": "sorry",
+   "local": "Îmi pare rău",
+   "phonetic": "um PAH-reh ROW",
+   "meaning": "sorry"
+  },
+  {
+   "id": "242H5rtOBVZUfydsT1lwYN",
+   "slot": "excuse-attention",
+   "local": "Scuzați",
+   "phonetic": "skoo-ZAHTS",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "7epWd0KnppCL0EPPkREZXm",
+   "slot": "excuse-passing",
+   "local": "Îmi permiteți?",
+   "phonetic": "um per-mee-TETS",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "“Scuzați” covers most of it. “Îmi pare rău” is kept for a genuine apology."
+  },
+  {
+   "id": "3DS8UcknVUBbgLI8kaDe25",
+   "slot": "number-one",
+   "local": "Unu",
+   "phonetic": "OO-noo",
+   "meaning": "one"
+  },
+  {
+   "id": "2XKtd997J9jxHaOfBU3ZKs",
+   "slot": "number-two",
+   "local": "Doi",
+   "phonetic": "doy",
+   "meaning": "two"
+  },
+  {
+   "id": "2qVmDNFUBCiPQggcxmKWod",
+   "slot": "number-three",
+   "local": "Trei",
+   "phonetic": "tray",
+   "meaning": "three"
+  },
+  {
+   "id": "3jYY1kHmBovO3LFZwXcGq2",
+   "slot": "number-four",
+   "local": "Patru",
+   "phonetic": "PAH-troo",
+   "meaning": "four"
+  },
+  {
+   "id": "5eK9QExxgvHTW06EO38KcK",
+   "slot": "menu",
+   "local": "Meniul?",
+   "phonetic": "MEH-nyool",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Meniul, vă rog.”"
+  },
+  {
+   "id": "1g5iLNzDDevERL3EaNLbkt",
+   "slot": "enjoy-meal",
+   "local": "Poftă bună",
+   "phonetic": "POF-tah BOO-nah",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "3uAuQB00MXuNhsqsEGyzx1",
+   "slot": "cheers",
+   "local": "Noroc",
+   "phonetic": "noh-ROK",
+   "meaning": "cheers",
+   "context": "Literally “luck.” Also what you say when someone sneezes."
+  },
+  {
+   "id": "4ZzX6WrL2w2Uuazpd4bOeD",
+   "slot": "delicious",
+   "local": "Delicios!",
+   "phonetic": "deh-lee-CHOS",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "EROjdRGe22RWcOtg1hFW1",
+   "slot": "check",
+   "local": "Nota?",
+   "phonetic": "NOH-tah",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Nota, vă rog.”"
+  },
+  {
+   "id": "5FEQLlWbhW0OuA8hpjiJQ3",
+   "slot": "money-surprise",
+   "local": "Bacșiș",
+   "phonetic": "bahk-SHEESH",
+   "meaning": "tip",
+   "context": "Around ten percent, expected, and usually given in cash even when the bill goes on a card. Servers may ask directly."
+  },
+  {
+   "id": "7HHu7vWXrKM1AmHu3fwSZ1",
+   "slot": "where-is",
+   "local": "Unde este…?",
+   "phonetic": "OON-deh YES-teh",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "14RjDIffuJM2XQ0zZThxE1",
+   "slot": "ticket",
+   "local": "Bilet",
+   "phonetic": "bee-LET",
+   "meaning": "ticket",
+   "context": "Buy before boarding. The metro uses a card; surface transport validates on board."
+  },
+  {
+   "id": "pTwJIjJ4lQbqOpIrr3nFQ",
+   "slot": "bathroom",
+   "local": "Toaleta",
+   "phonetic": "toh-ah-LEH-tah",
+   "meaning": "bathroom"
+  },
+  {
+   "id": "MeLS0kEoig8d8EJKuSrQW",
+   "slot": "door-men",
+   "local": "Bărbați",
+   "phonetic": "bur-BAHTS",
+   "meaning": "men"
+  },
+  {
+   "id": "wbuPnVdNbY38aHLKNYVZ4",
+   "slot": "door-women",
+   "local": "Femei",
+   "phonetic": "feh-MAY",
+   "meaning": "women",
+   "groupNote": "“B” is men, “F” is women. Some places print only the single letters."
+  },
+  {
+   "id": "3sI9JV89EYOcOnlW0SgOld",
+   "slot": "atm",
+   "local": "Bancomat",
+   "phonetic": "ban-koh-MAHT",
+   "meaning": "ATM",
+   "context": "Same word as Italy and Serbia. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "R341dMPIHSAWu9xUGj1Zt",
+   "slot": "how-much",
+   "local": "Cât?",
+   "phonetic": "kut",
+   "meaning": "how much?"
+  },
+  {
+   "id": "1UAVaqlEh2deDvgYH9cgFD",
+   "slot": "card",
+   "local": "Cardul",
+   "phonetic": "KAR-dool",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Contactless is universal in Bucharest."
+  },
+  {
+   "id": "2D7LudMoWTcOXWNzu1YJoy",
+   "slot": "cash",
+   "local": "Numerar",
+   "phonetic": "noo-meh-RAR",
+   "meaning": "cash",
+   "context": "Romania isn’t in the euro. Prices are in lei, and euros are rarely accepted."
+  },
+  {
+   "id": "6d2CNrLleZJSQI1E1RND0X",
+   "slot": "bag",
+   "local": "Pungă?",
+   "phonetic": "POON-gah",
+   "meaning": "bag?",
+   "context": "Charged. Say “nu, mulțumesc” if you brought one."
+  },
+  {
+   "id": "1xkqnvgVEeJQNTnAzwHiHE",
+   "slot": "deep-cut",
+   "local": "Dor",
+   "phonetic": "dor",
+   "context": "Longing for someone or somewhere absent, with a note of sweetness in it. Romania’s saudade, and claimed just as fiercely.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "285QFPS4pqJGm8ySH4FOyA",
+   "slot": "deep-cut",
+   "local": "Șmecher",
+   "phonetic": "SHMEH-ker",
+   "context": "Someone sharp and street-smart who gets what they want by knowing the angles. An insult or a compliment depending on tone.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "1kHjabOLD0D8qXn3eOVYKB",
+   "slot": "deep-cut",
+   "local": "Terasă",
+   "phonetic": "teh-RAH-sah",
+   "context": "The outdoor terrace. Bucharest relocates onto them entirely from May to September and stays until it’s genuinely cold.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "4mUdpWT5igC8VcBc73pUhJ",
+   "slot": "deep-cut",
+   "local": "Mici",
+   "phonetic": "meech",
+   "context": "Grilled skinless minced-meat rolls, eaten with mustard and beer. The default food of any Romanian gathering.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "30CXYyj8krWJkoEFMm9Uya",
+   "slot": "deep-cut",
+   "local": "Descurcăreț",
+   "phonetic": "des-koor-kah-RETS",
+   "context": "Someone who manages, improvises, finds a way. The same instinct Poland calls “kombinować,” and admired just as much.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "6lUSZj1EUtdbydJkEc574z",
+   "slot": "number-five",
+   "local": "Cinci",
+   "phonetic": "CHEENCH",
+   "meaning": "five"
+  }
+ ]
+}

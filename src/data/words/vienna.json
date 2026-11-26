@@ -1,0 +1,301 @@
+{
+ "city": "Vienna",
+ "words": [
+  {
+   "id": "5t7OKGcr2AcGT2rQT8wxck",
+   "slot": "greeting-morning",
+   "local": "Guten Morgen",
+   "phonetic": "GOO-ten MOR-gen",
+   "meaning": "good morning"
+  },
+  {
+   "id": "5c4XNG1GGnJMqA92IX6p6N",
+   "slot": "greeting-afternoon",
+   "local": "Grüß Gott",
+   "phonetic": "grewss GOT",
+   "meaning": "hello / good day",
+   "context": "The Austrian daytime greeting, literally “greet God,” with no religious weight left in it. “Guten Tag” sounds German here."
+  },
+  {
+   "id": "49jvGwEA9UMtc09pq7TuJ2",
+   "slot": "greeting-evening",
+   "local": "Guten Abend",
+   "phonetic": "GOO-ten AH-bent",
+   "meaning": "good evening",
+   "groupNote": "“Grüß Gott” covers most of the day, so the morning and evening forms are both optional."
+  },
+  {
+   "id": "7Mr3YncXLXw87BD8xCxymI",
+   "slot": "greeting-casual",
+   "local": "Servus",
+   "phonetic": "SEHR-voos",
+   "meaning": "hello (casual)",
+   "context": "Both hello and goodbye, for peers only. From the Latin for servant — “at your service.”"
+  },
+  {
+   "id": "1ZHDljc0E0AbEi4fwm5pMR",
+   "slot": "leaving",
+   "local": "Auf Wiedersehen",
+   "phonetic": "owf VEE-der-zay-en",
+   "meaning": "leaving a shop or café",
+   "context": "“Wiederschauen” (VEE-der-show-en) is the Austrian version, and what you’ll actually hear in shops."
+  },
+  {
+   "id": "2KU8ajOIleWu35zakHKRT8",
+   "slot": "please",
+   "local": "Bitte",
+   "phonetic": "BIT-tuh",
+   "meaning": "please"
+  },
+  {
+   "id": "4Vm9urXbq72VMYK6noV348",
+   "slot": "thanks",
+   "local": "Danke",
+   "phonetic": "DAHN-kuh",
+   "meaning": "thank you",
+   "context": "“Danke vielmals” (FEEL-mahls) is the warmer Austrian form."
+  },
+  {
+   "id": "3JO9iZ4Rp1aaSowpWFSr46",
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes"
+  },
+  {
+   "id": "1pMjHf5hEoqaac2tpmxmwg",
+   "slot": "no",
+   "local": "Nein",
+   "phonetic": "nine",
+   "meaning": "no"
+  },
+  {
+   "id": "2prvf6yfVf0ZkUkVt95gSt",
+   "slot": "speak-english",
+   "local": "Sprechen Sie Englisch?",
+   "phonetic": "SHPREH-khen zee ENG-lish",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "2km93UQR2s28E72pMKiwiM",
+   "slot": "sorry",
+   "local": "Entschuldigung",
+   "phonetic": "ent-SHOOL-dee-goong",
+   "meaning": "sorry"
+  },
+  {
+   "id": "nwK3bD2eTA4AVg0ZGL2qv",
+   "slot": "excuse-attention",
+   "local": "Entschuldigen Sie",
+   "phonetic": "ent-SHOOL-dee-gen zee",
+   "meaning": "excuse me (getting attention)",
+   "context": "In a coffeehouse, use sustained eye contact instead. Waving gets you worse service, and “Herr Ober” now sounds like a joke."
+  },
+  {
+   "id": "1wbLdOBQ6iuqo7ByfQvKTR",
+   "slot": "excuse-passing",
+   "local": "Darf ich vorbei?",
+   "phonetic": "darf ikh for-BYE",
+   "meaning": "excuse me (squeezing past)"
+  },
+  {
+   "id": "2TQpEMPPoAf1HmNQT4kisy",
+   "slot": "number-one",
+   "local": "Eins",
+   "phonetic": "eyns",
+   "meaning": "one"
+  },
+  {
+   "id": "3ohaqq3gwNHy9t63gXvXDQ",
+   "slot": "number-two",
+   "local": "Zwei",
+   "phonetic": "tsvy",
+   "meaning": "two"
+  },
+  {
+   "id": "79EihcxVGcVbjZstEpkbMF",
+   "slot": "number-three",
+   "local": "Drei",
+   "phonetic": "dry",
+   "meaning": "three"
+  },
+  {
+   "id": "4SpzOez275U6nOaYqYMKpz",
+   "slot": "number-four",
+   "local": "Vier",
+   "phonetic": "feer",
+   "meaning": "four"
+  },
+  {
+   "id": "7jqOsPs7IVijRDj7qEpxEl",
+   "slot": "menu",
+   "local": "Speisekarte?",
+   "phonetic": "SHPY-zuh-kar-tuh",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte.”"
+  },
+  {
+   "id": "1xCF76nbaG9s1DR94t8Ogs",
+   "slot": "enjoy-meal",
+   "local": "Mahlzeit",
+   "phonetic": "MAHL-tsite",
+   "meaning": "enjoy your meal",
+   "context": "Said around midday, in passing, to anyone eating or about to. “Guten Appetit” is the version used at the table."
+  },
+  {
+   "id": "3Vszr4A3q8iubxNTB2EpS0",
+   "slot": "cheers",
+   "local": "Prost",
+   "phonetic": "prohst",
+   "meaning": "cheers",
+   "context": "Eye contact with each person as you clink."
+  },
+  {
+   "id": "6Dltsa5J1OXTKTKu3EqiR3",
+   "slot": "delicious",
+   "local": "Ausgezeichnet!",
+   "phonetic": "OWS-guh-tsykh-net",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "s30WF2v1lEq26A967mBZd",
+   "slot": "check",
+   "local": "Zahlen?",
+   "phonetic": "TSAH-len",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahlen, bitte.”"
+  },
+  {
+   "id": "3tuCFtFieNOsiCW9vMgn69",
+   "slot": "money-surprise",
+   "local": "Gedeck",
+   "phonetic": "guh-DECK",
+   "meaning": "cover charge",
+   "context": "Two to five euros a head, covering the linen and the bread basket that arrives unasked. You pay whether you eat it or not."
+  },
+  {
+   "id": "6hnjpmFJG5otrJJGqvzbD2",
+   "slot": "where-is",
+   "local": "Wo ist…?",
+   "phonetic": "voh ist",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "pHEQHqvjhYuNWwsYG7Cdf",
+   "slot": "ticket",
+   "local": "Fahrkarte",
+   "phonetic": "FAR-kar-tuh",
+   "meaning": "ticket",
+   "context": "Buy before boarding. The system runs on trust and unannounced inspections."
+  },
+  {
+   "id": "2rQKnmPJMuBDhgmzGJhQBx",
+   "slot": "bathroom",
+   "local": "Toilette",
+   "phonetic": "toy-LET-tuh",
+   "meaning": "bathroom",
+   "context": "“WC” on the door. Coffeehouses expect you to have ordered something first."
+  },
+  {
+   "id": "4MJGpkRaFEnzyEScmHCeUs",
+   "slot": "door-men",
+   "local": "Herren",
+   "phonetic": "HEH-ren",
+   "meaning": "men"
+  },
+  {
+   "id": "1lXA2roT7Ccqq4usi27cZK",
+   "slot": "door-women",
+   "local": "Damen",
+   "phonetic": "DAH-men",
+   "meaning": "women",
+   "groupNote": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+   "id": "1TEfCadYTG1u2PdNQM11Qx",
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "BAHN-koh-maht",
+   "meaning": "ATM",
+   "context": "Austria says “Bankomat,” like Italy and Switzerland. Germany says “Geldautomat,” and it marks you."
+  },
+  {
+   "id": "10ik41jmDqhYBOzWF3D5lu",
+   "slot": "how-much",
+   "local": "Wie viel?",
+   "phonetic": "vee FEEL",
+   "meaning": "how much?"
+  },
+  {
+   "id": "2ZhdxtYdHYVVtxxBmKLklx",
+   "slot": "card",
+   "local": "Kreditkarte",
+   "phonetic": "kray-DEET-kar-tuh",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Older coffeehouses are still cash-only."
+  },
+  {
+   "id": "RpVRrbEOH6kAXl9kOvhKF",
+   "slot": "cash",
+   "local": "Bargeld",
+   "phonetic": "BAR-gelt",
+   "meaning": "cash"
+  },
+  {
+   "id": "3dys2gYFOZIUd8yDbg6v0j",
+   "slot": "bag",
+   "local": "Sackerl?",
+   "phonetic": "SAH-kerl",
+   "meaning": "bag?",
+   "context": "The Austrian word. A German would say “Tüte,” and saying it here marks you as one."
+  },
+  {
+   "id": "1ASR13SBV3bePmigprCxI3",
+   "slot": "deep-cut",
+   "local": "Gemütlichkeit",
+   "phonetic": "guh-MEWT-likh-kite",
+   "context": "Warmth, ease, and being unhurried — produced deliberately. A coffeehouse is engineered for it.",
+   "phoneticApproximate": true,
+   "deepCutOrder": 1
+  },
+  {
+   "id": "431KnVtqyXcDufW90qruC3",
+   "slot": "deep-cut",
+   "local": "Schmäh",
+   "phonetic": "shmay",
+   "context": "Viennese charm with a barb in it: a joke, a deflection, and a small insult delivered as warmth, all at once.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "5lqfCYLaO1ky0HeMveqVqt",
+   "slot": "deep-cut",
+   "local": "Grantig",
+   "phonetic": "GRAHN-tikh",
+   "context": "Grumpy in a settled, almost professional way. The traditional Viennese waiter’s register, and something close to a compliment.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "4MplimeloyM6hU3an44TfX",
+   "slot": "deep-cut",
+   "local": "Melange",
+   "phonetic": "meh-LAHNZH",
+   "context": "Vienna’s coffee: espresso, hot milk, foam. Ordering “a coffee” here gets you asked which of about a dozen you meant.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "4MOTRP7z8PMQ6GFPqkC2oo",
+   "slot": "deep-cut",
+   "local": "Beisl",
+   "phonetic": "BYE-zul",
+   "context": "A small, old, plain restaurant serving Austrian food. The opposite of the palaces, and where people actually eat.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "518rdaqhQ01LHVjg6jnHQw",
+   "slot": "number-five",
+   "local": "Fünf",
+   "phonetic": "fewnf",
+   "meaning": "five"
+  }
+ ]
+}

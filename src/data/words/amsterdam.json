@@ -1,0 +1,307 @@
+{
+ "city": "Amsterdam",
+ "words": [
+  {
+   "id": "4gP21FXuqOaeq2XFqRneS4",
+   "slot": "greeting-morning",
+   "local": "Goedemorgen",
+   "phonetic": "KHOO-duh-MOR-khuh",
+   "meaning": "good morning",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "1D2mqe53LQKMVd2ttWeFti",
+   "slot": "greeting-afternoon",
+   "local": "Goedemiddag",
+   "phonetic": "KHOO-duh-MID-dakh",
+   "meaning": "good afternoon",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "5a3zsqoVruG8tWaHKnA5HE",
+   "slot": "greeting-evening",
+   "local": "Goedenavond",
+   "phonetic": "KHOO-duh-NAH-vont",
+   "meaning": "good evening",
+   "groupNote": "In speech all three get clipped to “Morgen,” “Middag,” and “Avond.” A mumbled “Goeie” (KHOO-yuh) covers any of them.",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "3GKP7MjPMgMmamM1oveDrx",
+   "slot": "greeting-casual",
+   "local": "Hallo",
+   "phonetic": "hah-LOH",
+   "meaning": "hello"
+  },
+  {
+   "id": "4un5EwTTK5DqBUJiXno4Dh",
+   "slot": "leaving",
+   "local": "Tot ziens",
+   "phonetic": "tot ZEENS",
+   "meaning": "leaving a shop or café",
+   "context": "What shopkeepers say to you. “Doei” (DOO-ee) is the casual version, usually doubled: “doei doei.”"
+  },
+  {
+   "id": "65HJ2J8GXBSIXO9WERKIhz",
+   "slot": "please",
+   "local": "Alstublieft",
+   "phonetic": "AHL-stoo-BLEEFT",
+   "meaning": "please",
+   "context": "Also means “here you go” — you’ll hear it with every coffee handed over. Casual: “alsjeblieft.”"
+  },
+  {
+   "id": "6UFDgTCSn2HTPBI6gSdyv9",
+   "slot": "thanks",
+   "local": "Dank u wel",
+   "phonetic": "dahnk oo VEL",
+   "meaning": "thank you",
+   "context": "The formal one. “Dank je wel” with peers, and a quick “bedankt” (buh-DAHNKT) works anywhere."
+  },
+  {
+   "id": "1ksnNFczbv4Jyn9deIL1rF",
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes"
+  },
+  {
+   "id": "43byeItMSYqo53q9fTxie2",
+   "slot": "no",
+   "local": "Nee",
+   "phonetic": "nay",
+   "meaning": "no"
+  },
+  {
+   "id": "4KouKG2sV6vJ6woAX37Vlv",
+   "slot": "speak-english",
+   "local": "Spreekt u Engels?",
+   "phonetic": "spraykt oo ENG-uls",
+   "meaning": "do you speak English?",
+   "context": "The answer is almost always yes. Asking anyway is the entire courtesy."
+  },
+  {
+   "id": "7xpeRZRjRn5NFfzM2bpMiy",
+   "slot": "sorry",
+   "local": "Sorry",
+   "phonetic": "SOH-ree",
+   "meaning": "sorry",
+   "context": "Dutch borrowed the English word and uses it for most small apologies."
+  },
+  {
+   "id": "IFtFhSDn6wLRnWLQI77Go",
+   "slot": "excuse-attention",
+   "local": "Pardon",
+   "phonetic": "par-DON",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "48fv99J2j75P9huAC0DBxl",
+   "slot": "excuse-passing",
+   "local": "Mag ik erlangs?",
+   "phonetic": "makh ik er-LANGS",
+   "meaning": "excuse me (squeezing past)",
+   "context": "For trams and narrow shops. A plain “sorry” works too."
+  },
+  {
+   "id": "WUHOVygAWaVMNHegXZqKN",
+   "slot": "number-one",
+   "local": "Een",
+   "phonetic": "ayn",
+   "meaning": "one"
+  },
+  {
+   "id": "6T3qLK1968T8bpOMK8rflh",
+   "slot": "number-two",
+   "local": "Twee",
+   "phonetic": "tvay",
+   "meaning": "two"
+  },
+  {
+   "id": "wHSSCfvOriQ2tEsJqsjxF",
+   "slot": "number-three",
+   "local": "Drie",
+   "phonetic": "dree",
+   "meaning": "three"
+  },
+  {
+   "id": "66w1ZP2wYPq9pQKKToSxRx",
+   "slot": "number-four",
+   "local": "Vier",
+   "phonetic": "feer",
+   "meaning": "four",
+   "groupNote": "Dutch V lands close to an English F, and W closer to a V."
+  },
+  {
+   "id": "3AKj3BnlmBbko3pbkaWQhu",
+   "slot": "menu",
+   "local": "Menukaart?",
+   "phonetic": "muh-NEW-kart",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “De menukaart, alstublieft.”"
+  },
+  {
+   "id": "TcEm7kWpjwgokXJqjntHj",
+   "slot": "enjoy-meal",
+   "local": "Eet smakelijk",
+   "phonetic": "ayt SMAH-kuh-luk",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "6bvcKUHulZon67UR4m3QUY",
+   "slot": "cheers",
+   "local": "Proost",
+   "phonetic": "prohst",
+   "meaning": "cheers",
+   "context": "Look people in the eye. Dutch tables clink with everyone individually, not in one raise."
+  },
+  {
+   "id": "12PEh57YzSSncHBx4yv3wc",
+   "slot": "delicious",
+   "local": "Heerlijk!",
+   "phonetic": "HAYR-luk",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "6119Wouq79oX3k1hmUcVxy",
+   "slot": "check",
+   "local": "De rekening?",
+   "phonetic": "duh RAY-kuh-ning",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “De rekening, alstublieft.”"
+  },
+  {
+   "id": "gtzsHEZdVrFlOtPOcHDCn",
+   "slot": "money-surprise",
+   "local": "Alleen pinnen",
+   "phonetic": "ah-LAYN PIN-nuh",
+   "meaning": "card only, no cash",
+   "context": "On signs everywhere. “Pinnen” means Dutch debit — some places still refuse foreign credit cards, though acceptance is widening fast."
+  },
+  {
+   "id": "wzuIhRo4JINXD5yavI5Hg",
+   "slot": "where-is",
+   "local": "Waar is…?",
+   "phonetic": "vahr is",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "7DIYdKeXDU9nk7vEvq4C4W",
+   "slot": "ticket",
+   "local": "Kaartje",
+   "phonetic": "KART-yuh",
+   "meaning": "ticket",
+   "context": "Trams and metro run on contactless. Tap in and, more importantly, tap out."
+  },
+  {
+   "id": "2MtUzRyuRsFWW19LaaKf7V",
+   "slot": "bathroom",
+   "local": "Toilet",
+   "phonetic": "twah-LET",
+   "meaning": "bathroom",
+   "context": "Cafés often charge fifty cents, and there may be an attendant with a saucer."
+  },
+  {
+   "id": "4OVAh7O4hCKTDFZ7L3baEV",
+   "slot": "door-men",
+   "local": "Heren",
+   "phonetic": "HAY-run",
+   "meaning": "men"
+  },
+  {
+   "id": "4J4hYdrFG21WIy9KFjlouw",
+   "slot": "door-women",
+   "local": "Dames",
+   "phonetic": "DAH-mus",
+   "meaning": "women",
+   "groupNote": "“H” is “Heren,” men. “D” is “Dames,” women. Don’t read “D” as “dudes.”"
+  },
+  {
+   "id": "3McDv94r20PsULyRU01JVb",
+   "slot": "atm",
+   "local": "Pinautomaat",
+   "phonetic": "PIN-ow-toh-maht",
+   "meaning": "ATM",
+   "context": "If the screen offers to charge you in dollars, decline. Always take euros."
+  },
+  {
+   "id": "50XbaemvR0cB9wJNLssx3O",
+   "slot": "how-much",
+   "local": "Hoeveel?",
+   "phonetic": "HOO-fayl",
+   "meaning": "how much?"
+  },
+  {
+   "id": "3fMhQeHeIogEBl6Ti5hYZr",
+   "slot": "card",
+   "local": "Creditcard",
+   "phonetic": "KRED-it-kart",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Expect to be asked whether it’s credit or debit."
+  },
+  {
+   "id": "6UwfHMt6YsRvttpyjtbmjW",
+   "slot": "cash",
+   "local": "Contant",
+   "phonetic": "kon-TAHNT",
+   "meaning": "cash",
+   "context": "Increasingly refused. Plenty of Amsterdam cafés and shops are card-only now."
+  },
+  {
+   "id": "N1n68u4xRnsgXkFyuAi7c",
+   "slot": "bag",
+   "local": "Tasje?",
+   "phonetic": "TAHSH-yuh",
+   "meaning": "bag?",
+   "context": "Bags cost money by law here. Say “nee” if you brought one."
+  },
+  {
+   "id": "6D88M6YlTZ4UStFVfma7cp",
+   "slot": "deep-cut",
+   "local": "Gezellig",
+   "phonetic": "khuh-ZEL-lukh",
+   "context": "Warm, easy, good company — a room, an evening, a group of people. Its absence is a real complaint: a bar can be “ungezellig.”",
+   "phoneticApproximate": true,
+   "deepCutOrder": 1
+  },
+  {
+   "id": "4SHOJAPqxu9RhVzRl6iTAZ",
+   "slot": "deep-cut",
+   "local": "Gracht",
+   "phonetic": "khrakht",
+   "context": "A canal, specifically one of the ringed city canals with houses along it. The word is inside half the street names.",
+   "phoneticApproximate": true,
+   "deepCutOrder": 2
+  },
+  {
+   "id": "6YDFrU09iuGrM76qgMYkMe",
+   "slot": "deep-cut",
+   "local": "Borrel",
+   "phonetic": "BOR-rul",
+   "context": "Drinks after work with snacks, at a fixed hour. Not a party, an institution. Friday’s has its own word: “vrijdagmiddagborrel.”",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "kC72xaxeTwGVYDpofwWoD",
+   "slot": "deep-cut",
+   "local": "Uitwaaien",
+   "phonetic": "OWT-vah-yun",
+   "context": "“To blow out.” Going somewhere windy, usually the coast, to clear your head. A national remedy with a national word.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "55UqmGJPbWMpfagFMxAONU",
+   "slot": "deep-cut",
+   "local": "Fiets",
+   "phonetic": "feets",
+   "context": "Bicycle. There are more of them than people here, and the bike lane is a road, not a sidewalk.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "1s0nA6ditleczyggPV87qT",
+   "slot": "number-five",
+   "local": "Vijf",
+   "phonetic": "fayf",
+   "meaning": "five"
+  }
+ ]
+}

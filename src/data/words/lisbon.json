@@ -1,0 +1,298 @@
+{
+ "city": "Lisbon",
+ "words": [
+  {
+   "id": "4TvA09yJEKhhPEyMFWmNHd",
+   "slot": "deep-cut",
+   "local": "Alfacinha",
+   "phonetic": "al-fuh-SEEN-yuh",
+   "context": "“Little lettuce” — what people born in Lisbon call themselves.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "69rfi4xKIrySXKsoB5LZyq",
+   "slot": "deep-cut",
+   "local": "Desenrascanço",
+   "phonetic": "duh-zen-rash-KAN-soo",
+   "context": "Improvising your way out of a mess with nothing to work with. Something close to a national virtue.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "3pEkFaO5faVHocKOOi05Ca",
+   "slot": "deep-cut",
+   "local": "Miradouro",
+   "phonetic": "mee-ruh-DOH-roo",
+   "context": "A viewpoint. Lisbon is built on hills and has dozens of them; the word is on every map.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "GIKNnGhYshl78dWS4BaUf",
+   "slot": "deep-cut",
+   "local": "Bica",
+   "phonetic": "BEE-kuh",
+   "context": "An espresso, but only in Lisbon. Porto calls it a “cimbalino.” Order one standing at the counter for about a euro.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "12p2GJX0NBcNqYwO8RD2A8",
+   "slot": "deep-cut",
+   "local": "Saudade",
+   "phonetic": "sow-DAH-duh",
+   "context": "Longing for something absent — a person, a place, a version of your life that never happened. The engine of fado music.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "5X8YR4UqkLJe9zH9hiOvSU",
+   "slot": "bag",
+   "local": "Saco?",
+   "phonetic": "SAH-koo",
+   "meaning": "bag?",
+   "context": "What the checkout cashier will ask, and usually charged. Say “não, obrigado” if you brought your own."
+  },
+  {
+   "id": "GxfL3a5ia0FyB0zycyw4P",
+   "slot": "cash",
+   "local": "Dinheiro",
+   "phonetic": "deen-YAY-roo",
+   "meaning": "cash"
+  },
+  {
+   "id": "2MBsWJCgPT10cfYDz067RB",
+   "slot": "card",
+   "local": "Cartão",
+   "phonetic": "kar-TOWNG",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Turns a silent gesture into a question."
+  },
+  {
+   "id": "3qALPlfY92TAVNIV4RlgoE",
+   "slot": "how-much",
+   "local": "Quanto?",
+   "phonetic": "KWAN-too",
+   "meaning": "how much?"
+  },
+  {
+   "id": "21fpLsh30rzcV3YKjNySNg",
+   "slot": "atm",
+   "local": "Multibanco",
+   "phonetic": "mool-tee-BAN-koo",
+   "meaning": "ATM",
+   "context": "A national network, not a brand. Look for the blue MB sign."
+  },
+  {
+   "id": "7Aq1FiAtmyyvpAKFyb9GZO",
+   "slot": "door-women",
+   "local": "Senhoras",
+   "phonetic": "suh-NYOR-ush",
+   "meaning": "women",
+   "groupNote": "Often shortened on the door to just “H” and “S.”"
+  },
+  {
+   "id": "1Fa6BAMtai4Rgi0eBWuQCH",
+   "slot": "door-men",
+   "local": "Homens",
+   "phonetic": "OH-mengsh",
+   "meaning": "men"
+  },
+  {
+   "id": "22QhQSMnJKTI92VfdH12CI",
+   "slot": "bathroom",
+   "local": "Casa de banho",
+   "phonetic": "KAH-zuh duh BAHN-yoo",
+   "meaning": "bathroom",
+   "context": "Signs say “WC.” “Banheiro” is Brazilian and means lifeguard here."
+  },
+  {
+   "id": "4isb6Gba7qd1D0Bjik0Owy",
+   "slot": "ticket",
+   "local": "Bilhete",
+   "phonetic": "bee-LYET",
+   "meaning": "ticket"
+  },
+  {
+   "id": "1p9Z1G1WN1HL2bPrTKG4lt",
+   "slot": "where-is",
+   "local": "Onde fica…?",
+   "phonetic": "ONG-duh FEE-kuh",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "2ruwTKkKvqq9bjVMHGDXKu",
+   "slot": "money-surprise",
+   "local": "Couvert",
+   "phonetic": "koo-VEHR",
+   "meaning": "bread and olives that arrive unordered",
+   "context": "Not free, and you can wave it away with “não, obrigado.” The most common tourist friction point in Portugal."
+  },
+  {
+   "id": "5pa2UemxKqXPJQS4nr39iS",
+   "slot": "check",
+   "local": "A conta?",
+   "phonetic": "uh KON-tuh",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “A conta, se faz favor.”"
+  },
+  {
+   "id": "7gATVaE5mtP2oeEY6BJfc7",
+   "slot": "delicious",
+   "local": "Delicioso!",
+   "phonetic": "duh-lee-see-OH-zoo",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "4xL8UEmJbe291kgeE4WA5D",
+   "slot": "cheers",
+   "local": "Saúde",
+   "phonetic": "suh-OO-duh",
+   "meaning": "cheers"
+  },
+  {
+   "id": "3OJRRSRXW97WFr4gQq2PNa",
+   "slot": "enjoy-meal",
+   "local": "Bom apetite",
+   "phonetic": "bong uh-puh-TEET",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "fIb55TSfft99LjK0zLpIY",
+   "slot": "menu",
+   "local": "Ementa?",
+   "phonetic": "ee-MEN-tuh",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “A ementa, se faz favor.”"
+  },
+  {
+   "id": "4JuIj0UnWyKf80tdJfNGEG",
+   "slot": "number-four",
+   "local": "Quatro",
+   "phonetic": "KWAH-troo",
+   "meaning": "four"
+  },
+  {
+   "id": "7KYQwioKCLh6ZkahvEi7fY",
+   "slot": "number-three",
+   "local": "Três",
+   "phonetic": "traysh",
+   "meaning": "three"
+  },
+  {
+   "id": "2SkNTGdbQxJIpymmHikrVN",
+   "slot": "number-two",
+   "local": "Dois",
+   "phonetic": "doysh",
+   "meaning": "two"
+  },
+  {
+   "id": "6MU2If5Od4HyJ5z4tWvr8p",
+   "slot": "number-one",
+   "local": "Um",
+   "phonetic": "oong",
+   "meaning": "one"
+  },
+  {
+   "id": "5koeUdhioFPySyLbJnzFaX",
+   "slot": "excuse-passing",
+   "local": "Com licença",
+   "phonetic": "kong lee-SEN-suh",
+   "meaning": "excuse me (squeezing past)"
+  },
+  {
+   "id": "6npnmwEJ91VYNlBhV2q8Qr",
+   "slot": "excuse-attention",
+   "local": "Se faz favor",
+   "phonetic": "suh fash fuh-VOR",
+   "meaning": "excuse me (getting attention)",
+   "context": "The Portuguese way to summon a waiter. Not “garçom,” which is Brazilian and lands badly here."
+  },
+  {
+   "id": "2lJa0dYAFWNooqngtEmagI",
+   "slot": "sorry",
+   "local": "Desculpe",
+   "phonetic": "dish-KOOLP",
+   "meaning": "sorry",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "75wb4rMz4fO6yLg3xbdS12",
+   "slot": "speak-english",
+   "local": "Fala inglês?",
+   "phonetic": "FAH-luh eeng-GLESH",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "5LX8qVXYl3dvxy8KzS9SIv",
+   "slot": "no",
+   "local": "Não",
+   "phonetic": "nowng",
+   "meaning": "no",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "24EKIxlCJDGBHM5hH3Lrmf",
+   "slot": "yes",
+   "local": "Sim",
+   "phonetic": "seeng",
+   "meaning": "yes",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "2WSMbTWa2zSAuGehnyzpoO",
+   "slot": "thanks",
+   "local": "Obrigado / Obrigada",
+   "phonetic": "oo-bree-GAH-doo / -duh",
+   "meaning": "thank you",
+   "context": "The ending matches your own gender, not the person you’re thanking. A man says “obrigado” to everyone."
+  },
+  {
+   "id": "14axiDWHdU06mN9RF2bjfB",
+   "slot": "please",
+   "local": "Por favor",
+   "phonetic": "poor fuh-VOR",
+   "meaning": "please"
+  },
+  {
+   "id": "iuQ1rn6fSmvzd9PivL7Sr",
+   "slot": "leaving",
+   "local": "Até logo",
+   "phonetic": "uh-TEH LOH-goo",
+   "meaning": "leaving a shop or café",
+   "context": "“Adeus” (uh-DEH-oosh) exists but sounds final. “Tchau” (chow) is the casual one."
+  },
+  {
+   "id": "41TsMe9fnjJ9E0mH2FZBiL",
+   "slot": "greeting-casual",
+   "local": "Olá",
+   "phonetic": "oh-LAH",
+   "meaning": "hello"
+  },
+  {
+   "id": "4h28eBj6hUfIg1nCBwHdXB",
+   "slot": "greeting-evening",
+   "local": "Boa noite",
+   "phonetic": "BOH-uh NOYT",
+   "meaning": "good evening",
+   "groupNote": "“Dia” becomes “tarde” around lunch. “Tarde” becomes “noite” at dark, not by the clock."
+  },
+  {
+   "id": "6lQRd8TGIIZQs1NYbZYCMU",
+   "slot": "greeting-afternoon",
+   "local": "Boa tarde",
+   "phonetic": "BOH-uh TARD",
+   "meaning": "good afternoon"
+  },
+  {
+   "id": "7gKdRLY1M3kDsnRLAWGTNE",
+   "slot": "greeting-morning",
+   "local": "Bom dia",
+   "phonetic": "bong DEE-uh",
+   "meaning": "good morning"
+  },
+  {
+   "id": "2TBSLBY45zX5sobvcMtCnk",
+   "slot": "number-five",
+   "local": "Cinco",
+   "phonetic": "SEEN-koo",
+   "meaning": "five"
+  }
+ ]
+}

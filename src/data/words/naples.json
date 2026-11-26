@@ -1,0 +1,297 @@
+{
+ "city": "Naples",
+ "words": [
+  {
+   "id": "2y85K5rYY61rNESvJD2YQy",
+   "slot": "greeting-morning",
+   "local": "Buongiorno",
+   "phonetic": "bwon-JOR-noh",
+   "meaning": "good morning / hello"
+  },
+  {
+   "id": "2ewdi9ws6BSBycJqnX1cJF",
+   "slot": "greeting-afternoon",
+   "local": "Buongiorno",
+   "phonetic": "bwon-JOR-noh",
+   "meaning": "good afternoon",
+   "context": "Still “buongiorno.” There’s no separate afternoon greeting in use."
+  },
+  {
+   "id": "7g3akB3PBxnejfZbXILM54",
+   "slot": "greeting-evening",
+   "local": "Buonasera",
+   "phonetic": "bwoh-nah-SEH-rah",
+   "meaning": "good evening",
+   "groupNote": "The switch comes early, from about four in the afternoon."
+  },
+  {
+   "id": "5pWjnbx6mqdJM9ow5sxRWL",
+   "slot": "greeting-casual",
+   "local": "Ciao",
+   "phonetic": "chow",
+   "meaning": "hello (casual)",
+   "context": "“Uè” (weh) is the Neapolitan version and you’ll hear it constantly between people who know each other."
+  },
+  {
+   "id": "6uFCQOOquFtGl714Z3CEEk",
+   "slot": "leaving",
+   "local": "Arrivederci",
+   "phonetic": "ah-ree-veh-DEHR-chee",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until we see each other again.” “Ciao” is the casual version."
+  },
+  {
+   "id": "4VFYLQdxiTiPKZTYX0gqH4",
+   "slot": "please",
+   "local": "Per favore",
+   "phonetic": "per fah-VOH-reh",
+   "meaning": "please"
+  },
+  {
+   "id": "WdBWtFiDtGasq4lVBdAaD",
+   "slot": "thanks",
+   "local": "Grazie",
+   "phonetic": "GRAHT-see-eh",
+   "meaning": "thank you",
+   "context": "Three syllables, not two."
+  },
+  {
+   "id": "x7CzLYoOOXTHLTZUwB2li",
+   "slot": "yes",
+   "local": "Sì",
+   "phonetic": "see",
+   "meaning": "yes"
+  },
+  {
+   "id": "7boWMidMG73v02vy2CU5W6",
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no"
+  },
+  {
+   "id": "240HDKy7y4EJRHzsbvHjNE",
+   "slot": "speak-english",
+   "local": "Parla inglese?",
+   "phonetic": "PAR-lah een-GLEH-zeh",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "mToGZAcOPiBPkZixQIr8D",
+   "slot": "sorry",
+   "local": "Mi dispiace",
+   "phonetic": "mee dees-PYAH-cheh",
+   "meaning": "sorry"
+  },
+  {
+   "id": "MsXNm1mBD6wUuPVwnpm4W",
+   "slot": "excuse-attention",
+   "local": "Scusi",
+   "phonetic": "SKOO-zee",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "7MDL5ibpJ3uFofi1e2yfqv",
+   "slot": "excuse-passing",
+   "local": "Permesso",
+   "phonetic": "per-MEHS-soh",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "Three words for three situations. “Permesso” is also what you say stepping into someone’s home."
+  },
+  {
+   "id": "yKO6lC4Ahbi8jhN56OALP",
+   "slot": "number-one",
+   "local": "Uno",
+   "phonetic": "OO-noh",
+   "meaning": "one"
+  },
+  {
+   "id": "vAZJnOPujdTosFxMJ922O",
+   "slot": "number-two",
+   "local": "Due",
+   "phonetic": "DOO-eh",
+   "meaning": "two"
+  },
+  {
+   "id": "2M2GeEl9yLQsadyBQ8Kut",
+   "slot": "number-three",
+   "local": "Tre",
+   "phonetic": "treh",
+   "meaning": "three"
+  },
+  {
+   "id": "3oCyYFEETBwTvnnyEmt1Hd",
+   "slot": "number-four",
+   "local": "Quattro",
+   "phonetic": "KWAHT-troh",
+   "meaning": "four"
+  },
+  {
+   "id": "4FJjtwcBI5opFMCbxe3Rfp",
+   "slot": "menu",
+   "local": "Menù?",
+   "phonetic": "meh-NOO",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore.”"
+  },
+  {
+   "id": "3B8qeTIT7V3ZeHSaD6owvS",
+   "slot": "enjoy-meal",
+   "local": "Buon appetito",
+   "phonetic": "bwon ahp-peh-TEE-toh",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "7DXc7NbPcdakmxFcQRu5Ti",
+   "slot": "cheers",
+   "local": "Salute",
+   "phonetic": "sah-LOO-teh",
+   "meaning": "cheers"
+  },
+  {
+   "id": "7KZV9lJSRAjwsnEj1nVxzD",
+   "slot": "delicious",
+   "local": "Buonissimo!",
+   "phonetic": "bwoh-NEES-see-moh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "64CDxh9OQkZJ3m96SSnYkq",
+   "slot": "check",
+   "local": "Il conto?",
+   "phonetic": "eel KON-toh",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore.”"
+  },
+  {
+   "id": "7XXmjfrKRP0mM850zvHVa",
+   "slot": "money-surprise",
+   "local": "Coperto",
+   "phonetic": "koh-PEHR-toh",
+   "meaning": "cover charge",
+   "context": "Per person, on top of the food. Naples charges less for it than Rome — often a euro or under."
+  },
+  {
+   "id": "1eVjBW4F9wmO1dD3YJukQ6",
+   "slot": "where-is",
+   "local": "Dov’è…?",
+   "phonetic": "doh-VEH",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "2MP3dxul0hRdt7sJcmHuor",
+   "slot": "ticket",
+   "local": "Biglietto",
+   "phonetic": "bee-LYET-toh",
+   "meaning": "ticket",
+   "context": "Stamp it before boarding. The metro stations are worth a look in their own right."
+  },
+  {
+   "id": "cQ9d24X4a60YfcokXuG1j",
+   "slot": "bathroom",
+   "local": "Bagno",
+   "phonetic": "BAH-nyoh",
+   "meaning": "bathroom"
+  },
+  {
+   "id": "3nndjGgtz3xDOs5WlMoeRX",
+   "slot": "door-men",
+   "local": "Uomini",
+   "phonetic": "WOH-mee-nee",
+   "meaning": "men"
+  },
+  {
+   "id": "5Lt68NVgi9RGlGnybOl9WL",
+   "slot": "door-women",
+   "local": "Donne",
+   "phonetic": "DON-neh",
+   "meaning": "women",
+   "groupNote": "The plainer pair, common here. Where “Signori” and “Signore” appear, they’re one vowel apart — read carefully."
+  },
+  {
+   "id": "2O6tMdj0ZatW0YtEElB5DO",
+   "slot": "atm",
+   "local": "Bancomat",
+   "phonetic": "BAN-koh-maht",
+   "meaning": "ATM",
+   "context": "The word for any cash machine. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "1KL29erur9iQ3UfXBGLuPP",
+   "slot": "how-much",
+   "local": "Quanto?",
+   "phonetic": "KWAN-toh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "2teat7eLjzXnnMQ24s6tK2",
+   "slot": "card",
+   "local": "Carta",
+   "phonetic": "KAR-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Smaller places here are still cash-first."
+  },
+  {
+   "id": "3Ne0ZANObtARkXPVn15fz6",
+   "slot": "cash",
+   "local": "Contanti",
+   "phonetic": "kon-TAHN-tee",
+   "meaning": "cash"
+  },
+  {
+   "id": "3u5A16rXoHBjAJVEMCWKU5",
+   "slot": "bag",
+   "local": "Sacchetto?",
+   "phonetic": "sak-KET-toh",
+   "meaning": "bag?",
+   "context": "Charged by law. Say “no grazie” if you brought one."
+  },
+  {
+   "id": "1aiVlxJ11S7NARAG4hJJb8",
+   "slot": "deep-cut",
+   "local": "Caffè sospeso",
+   "phonetic": "kaf-FEH sos-PEH-soh",
+   "context": "A coffee paid for and left for whoever needs one. You order two, drink one, and the bar keeps the count.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "3XXwNaj3yTSR3LggiGGhtj",
+   "slot": "deep-cut",
+   "local": "Uè",
+   "phonetic": "weh",
+   "context": "The all-purpose Neapolitan greeting, exclamation, and interruption. You’ll hear it a hundred times a day.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "PRyHajUGE6clpo69l2v6q",
+   "slot": "deep-cut",
+   "local": "Scugnizzo",
+   "phonetic": "skoo-NYEET-tsoh",
+   "context": "A Naples street kid — quick, unsupervised, surviving on wits. Half a slur and half a civic mascot.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "1IoyVE8Y698yYorNzvkIXq",
+   "slot": "deep-cut",
+   "local": "Munaciello",
+   "phonetic": "moo-nah-CHYEL-loh",
+   "context": "The little monk: a household spirit who hides your keys and occasionally leaves money. Still blamed for both.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "2nlqxMnMDEdkuVN8qg6jxn",
+   "slot": "deep-cut",
+   "local": "Sfogliatella",
+   "phonetic": "sfo-lyah-TEL-lah",
+   "context": "The shell-shaped ricotta pastry, eaten hot and standing up. “Riccia” is the flaky one, “frolla” the smooth.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "5bo719Yiwav7JyatUdA7d7",
+   "slot": "number-five",
+   "local": "Cinque",
+   "phonetic": "CHEEN-kweh",
+   "meaning": "five"
+  }
+ ]
+}

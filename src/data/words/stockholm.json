@@ -1,0 +1,295 @@
+{
+ "city": "Stockholm",
+ "words": [
+  {
+   "id": "3RMaeEQc8YRDFtemNce9Wf",
+   "slot": "greeting-morning",
+   "local": "God morgon",
+   "phonetic": "good MOR-on",
+   "meaning": "good morning"
+  },
+  {
+   "id": "41DorMxMQ6qdEF5yXYt7LU",
+   "slot": "greeting-afternoon",
+   "local": "God dag",
+   "phonetic": "good DAHG",
+   "meaning": "good afternoon",
+   "context": "Formal and fading. “Hej” has almost entirely replaced it in ordinary speech."
+  },
+  {
+   "id": "1JlAwsjRCN5noMdLw8RuPl",
+   "slot": "greeting-evening",
+   "local": "God kväll",
+   "phonetic": "good KVEL",
+   "meaning": "good evening",
+   "groupNote": "All three read as formal. In practice “hej” covers the whole day."
+  },
+  {
+   "id": "3fbuQmIkFTRA0fcPpo35Yo",
+   "slot": "greeting-casual",
+   "local": "Hej",
+   "phonetic": "hey",
+   "meaning": "hello",
+   "context": "Universal, all ages, every situation. Often doubled: “hej hej.”"
+  },
+  {
+   "id": "2hjMvuLgWYFUFUu67TG65y",
+   "slot": "leaving",
+   "local": "Hej då",
+   "phonetic": "hey DOH",
+   "meaning": "leaving a shop or café",
+   "context": "The standard goodbye. “Adjö” (ah-YUR) is archaic and would sound theatrical."
+  },
+  {
+   "id": "5O1NNni4sc4JxN60Tsol8y",
+   "slot": "please",
+   "local": "Snälla",
+   "phonetic": "SNEL-lah",
+   "meaning": "please",
+   "context": "Swedish has no neutral please. “Snälla” leans toward pleading — ordinary requests just attach “tack” instead."
+  },
+  {
+   "id": "7dEIsaoOJ7Nv5Hh8XvAIaw",
+   "slot": "thanks",
+   "local": "Tack",
+   "phonetic": "tahk",
+   "meaning": "thank you",
+   "context": "Does the work of please, thanks, and yes-please. “Tack så mycket” (soh MYK-eh) is the fuller version."
+  },
+  {
+   "id": "5TVTyM8OrilhaO8AcTYTrR",
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes"
+  },
+  {
+   "id": "H1T3khJ2MwSyiYT6Ce1KH",
+   "slot": "no",
+   "local": "Nej",
+   "phonetic": "nay",
+   "meaning": "no"
+  },
+  {
+   "id": "7dMvD4TLPD64dXGrTmbXQM",
+   "slot": "speak-english",
+   "local": "Talar du engelska?",
+   "phonetic": "TAH-lar doo ENG-el-ska",
+   "meaning": "do you speak English?",
+   "context": "“Du” is fine with anyone. Sweden dropped its formal “you” in the 1960s and never went back."
+  },
+  {
+   "id": "3xe8SKQR1icDPaUumV2pxE",
+   "slot": "sorry",
+   "local": "Förlåt",
+   "phonetic": "fur-LOHT",
+   "meaning": "sorry",
+   "context": "Reserved for an actual apology. For everything else, “ursäkta.”"
+  },
+  {
+   "id": "6kvAR2em5z3G6yH0paOyYI",
+   "slot": "excuse-attention",
+   "local": "Ursäkta",
+   "phonetic": "oor-SHEK-tah",
+   "meaning": "excuse me",
+   "context": "For getting someone’s attention and for squeezing past."
+  },
+  {
+   "id": "2lBh0jnki87k6yvNwE6SGN",
+   "slot": "number-one",
+   "local": "Ett",
+   "phonetic": "ett",
+   "meaning": "one"
+  },
+  {
+   "id": "eAx1Xx34bcN8MLVJuaUdg",
+   "slot": "number-two",
+   "local": "Två",
+   "phonetic": "tvoh",
+   "meaning": "two"
+  },
+  {
+   "id": "7Kc9OzIH1qU1OM7J9gNhp9",
+   "slot": "number-three",
+   "local": "Tre",
+   "phonetic": "treh",
+   "meaning": "three"
+  },
+  {
+   "id": "2ggZFv0kGLHsfm6VLpNOlG",
+   "slot": "number-four",
+   "local": "Fyra",
+   "phonetic": "FEE-rah",
+   "meaning": "four"
+  },
+  {
+   "id": "3BOuA1frIx07kdz8BFEQMG",
+   "slot": "menu",
+   "local": "Menyn?",
+   "phonetic": "meh-NEWN",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menyn, tack.”"
+  },
+  {
+   "id": "3vPpjIyh49305V8b2h42x8",
+   "slot": "enjoy-meal",
+   "local": "Smaklig måltid",
+   "phonetic": "SMAHK-lig MOHL-teed",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "3lIMZs9sw7aXgc5NomBIqg",
+   "slot": "cheers",
+   "local": "Skål",
+   "phonetic": "skoal",
+   "meaning": "cheers",
+   "context": "Eye contact around the table before you drink, and again after. Swedes take the sequence seriously."
+  },
+  {
+   "id": "2ImDSTumpvjDbTAAuTlH8Q",
+   "slot": "delicious",
+   "local": "Jättegott!",
+   "phonetic": "YET-teh-got",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "5QwbTetqe95uSJYLovJlAr",
+   "slot": "check",
+   "local": "Notan?",
+   "phonetic": "NOO-tan",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Notan, tack.”"
+  },
+  {
+   "id": "GtN82YNik60TUubqJ1xae",
+   "slot": "money-surprise",
+   "local": "Kontantfritt",
+   "phonetic": "kon-TAHNT-frit",
+   "meaning": "cash-free",
+   "context": "On signs everywhere. Sweden is close to fully cashless and plenty of places refuse notes outright."
+  },
+  {
+   "id": "5iEjR9QHZnunznd0etCdWy",
+   "slot": "where-is",
+   "local": "Var är…?",
+   "phonetic": "var air",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "6spf3uph8sN939vXCt2ENj",
+   "slot": "ticket",
+   "local": "Biljett",
+   "phonetic": "bil-YET",
+   "meaning": "ticket",
+   "context": "Buy in the SL app or tap a card before boarding. There is no cash on board anything."
+  },
+  {
+   "id": "4aW3uwpVGltppuco65sIi6",
+   "slot": "bathroom",
+   "local": "Toaletten",
+   "phonetic": "too-ah-LET-ten",
+   "meaning": "bathroom",
+   "context": "Often coin-operated or code-locked, and the code is printed on your receipt."
+  },
+  {
+   "id": "6cporZeij2xs5kYP6Qa8sm",
+   "slot": "door-men",
+   "local": "Herrar",
+   "phonetic": "HEH-rar",
+   "meaning": "men"
+  },
+  {
+   "id": "3VMGmVC1VSWYb5utJ4f0zp",
+   "slot": "door-women",
+   "local": "Damer",
+   "phonetic": "DAH-mer",
+   "meaning": "women",
+   "groupNote": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+   "id": "65GHFvrwOtUbEXoET1cUS0",
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "BAN-koh-maht",
+   "meaning": "ATM",
+   "context": "Sweden isn’t in the euro. Prices are in kronor, and you may not need cash at all."
+  },
+  {
+   "id": "3MTCdfaBGRtNtXQSIoirPc",
+   "slot": "how-much",
+   "local": "Hur mycket?",
+   "phonetic": "hoor MEW-keh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "1EdOXUBXkYfpnLDpKd0P03",
+   "slot": "card",
+   "local": "Kort",
+   "phonetic": "kort",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. It’s the default nearly everywhere."
+  },
+  {
+   "id": "RCsSlS2KYfOFLSMOBLh0c",
+   "slot": "cash",
+   "local": "Kontanter",
+   "phonetic": "kon-TAHN-ter",
+   "meaning": "cash"
+  },
+  {
+   "id": "1kEU81JQveaHidyy7kprxk",
+   "slot": "bag",
+   "local": "Påse?",
+   "phonetic": "POH-seh",
+   "meaning": "bag?",
+   "context": "Charged. Say “nej tack” if you brought one."
+  },
+  {
+   "id": "6B7XkAvtMMGwNfRnagwGc4",
+   "slot": "deep-cut",
+   "local": "Fika",
+   "phonetic": "FEE-kah",
+   "context": "Coffee and something sweet, with other people, as a scheduled event. A verb as much as a noun, and closer to an obligation than a treat.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "4ppXxt48OmIqRHd0wJIfVe",
+   "slot": "deep-cut",
+   "local": "Lagom",
+   "phonetic": "LAH-gom",
+   "context": "Exactly enough — not too little, not too much. Held up as a national virtue and occasionally as a national problem.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "5tPpnTbs7lJkFindnWj7nY",
+   "slot": "deep-cut",
+   "local": "Allemansrätten",
+   "phonetic": "AL-eh-mans-ret-ten",
+   "context": "The right of public access: you may walk, camp, and pick berries on almost any land, including land someone owns.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "3DUYePcGhu4qaMJ5XhbIn9",
+   "slot": "deep-cut",
+   "local": "Orka",
+   "phonetic": "OR-kah",
+   "context": "To have the energy for something. Usually said in the negative — “orkar inte” — and it works as a complete sentence.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "3wGFEpNey5HpGeVPvheUeu",
+   "slot": "deep-cut",
+   "local": "Mysig",
+   "phonetic": "MEW-sig",
+   "context": "Cozy, warm, pleasant. Sweden’s answer to hygge, less exported and used far more casually.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "2dLphAF2kmrreyGi4jEwSU",
+   "slot": "number-five",
+   "local": "Fem",
+   "phonetic": "fem",
+   "meaning": "five"
+  }
+ ]
+}

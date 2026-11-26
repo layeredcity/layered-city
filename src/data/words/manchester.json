@@ -1,0 +1,165 @@
+{
+ "city": "Manchester",
+ "words": [
+  {
+   "id": "5m3eyPD8FHaAOT1u3BxWCl",
+   "slot": "greeting-casual",
+   "local": "You alright?",
+   "meaning": "hello",
+   "context": "The greeting, usually compressed to two syllables. “Not bad, you?” closes it."
+  },
+  {
+   "id": "5b4Lt8lUIIq9uyUEF6tkx2",
+   "slot": "thanks",
+   "local": "Cheers",
+   "meaning": "thank you",
+   "context": "“Ta” is more common here than in London and isn’t casual — people use it with strangers."
+  },
+  {
+   "id": "7vHJPmpwfyQIO11kQxHZP9",
+   "slot": "leaving",
+   "local": "See you later",
+   "meaning": "leaving a shop or café",
+   "context": "“Ta-ra,” said tah-RAH, is the local version and still widely used. “Laters” among younger people."
+  },
+  {
+   "id": "6ofoTSL0CI8p5Y6YtcMRPE",
+   "slot": "sorry",
+   "local": "Sorry",
+   "meaning": "sorry",
+   "context": "Works for apologising and for getting past, the same reflex as the rest of England."
+  },
+  {
+   "id": "4RIwKrFU3WgTECl95Nk1qE",
+   "slot": "excuse-attention",
+   "local": "Excuse me",
+   "meaning": "getting attention",
+   "context": "Bar service by eye contact and patience. Waving gets you nowhere and gets noticed."
+  },
+  {
+   "id": "6Ie8Fg6CfKCVdPRzH09vgm",
+   "slot": "check",
+   "local": "The bill, please",
+   "meaning": "the check, please",
+   "context": "Asking for “the check” marks you instantly."
+  },
+  {
+   "id": "2o5Gpx4FJVrG7oF3Mumrzn",
+   "slot": "money-surprise",
+   "local": "Service charge",
+   "meaning": "service charge",
+   "context": "Usually 10% and added mainly in city-center restaurants. Removable on request and stated on the bill."
+  },
+  {
+   "id": "5WxZqiFLMfIXZYFpO7U6qz",
+   "slot": "ticket",
+   "local": "Contactless",
+   "meaning": "ticket",
+   "context": "Bee Network buses and trams take contactless with daily capping. Metrolink has no barriers but inspectors do check."
+  },
+  {
+   "id": "6wYS9FXNBivrTMUjC92QIV",
+   "slot": "bathroom",
+   "local": "Toilets",
+   "meaning": "bathroom",
+   "context": "“Loo” works, “bogs” is cruder and common. “Restroom” gets a blank look."
+  },
+  {
+   "id": "13mdmPRgWqHSaxIqUpjzlA",
+   "slot": "door-men",
+   "local": "Gents",
+   "meaning": "men"
+  },
+  {
+   "id": "1N9qWTnaeG54zdIQgKgIJd",
+   "slot": "door-women",
+   "local": "Ladies",
+   "meaning": "women",
+   "groupNote": "Standard on most doors. Pubs occasionally get creative with it."
+  },
+  {
+   "id": "60JpGZJ2rUJEgdkdSsxh88",
+   "slot": "atm",
+   "local": "Cashpoint",
+   "meaning": "ATM",
+   "context": "Also “the hole in the wall.” Avoid the ones that charge a fee."
+  },
+  {
+   "id": "7i0SHabCysRjtb2nHugKVo",
+   "slot": "card",
+   "local": "Card",
+   "meaning": "credit card",
+   "context": "Contactless everywhere. Say it as you hold the card up."
+  },
+  {
+   "id": "1oX9roEUITjFm5tOhQddyj",
+   "slot": "cash",
+   "local": "Cash",
+   "meaning": "cash",
+   "context": "Still useful in older pubs and at the markets, though card works almost everywhere."
+  },
+  {
+   "id": "1lXpy7wAwKTLUfeYmBSC2u",
+   "slot": "bag",
+   "local": "Bag?",
+   "meaning": "bag?",
+   "context": "Charged. Say “no thanks” if you brought one."
+  },
+  {
+   "id": "3ma8yG5Xd2eNbL36b5agAq",
+   "slot": "deep-cut",
+   "local": "Mint",
+   "context": "Excellent. “That’s mint” is high praise and has nothing whatsoever to do with the flavor.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "4kC15w6y5qHXCipujXOHSU",
+   "slot": "deep-cut",
+   "local": "Sound",
+   "context": "Good, fine, reliable, agreed. Also describes a person — “he’s sound” is a genuine compliment.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "3BrcGO4fmVuBIhJ7WdN4KP",
+   "slot": "deep-cut",
+   "local": "Our kid",
+   "context": "A sibling, usually a younger brother. Nothing at all to do with your own children.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "5hJ6M82VFzEkSKsKXmjMpM",
+   "slot": "deep-cut",
+   "local": "Barm",
+   "context": "A soft bread roll. Calling it a “bap,” a “cob,” or a “bun” starts a real argument that has never been settled.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "7jaD7NkrYUgDFLG6Cs2uRl",
+   "slot": "deep-cut",
+   "local": "Ginnel",
+   "context": "The narrow alley running between terraced houses. Every Manchester childhood involves at least one.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "5sjZkqdt9J4v4TjdVaND3A",
+   "slot": "deep-cut",
+   "local": "Brew",
+   "context": "A cup of tea. “Fancy a brew” is the standard offer, and refusing it outright is faintly odd.",
+   "deepCutOrder": 6
+  },
+  {
+   "id": "4QecWiI1hWjpQPBs2FKZ7P",
+   "slot": "deep-cut",
+   "local": "Dead",
+   "context": "Very. “Dead good” means very good, which trips up almost every visitor at least once.",
+   "deepCutOrder": 7
+  },
+  {
+   "id": "UCVQFQTdwbRo5ZJE6DogM",
+   "slot": "deep-cut",
+   "local": "Madferit",
+   "context": "“Mad for it” — total enthusiasm, straight out of the early nineties and never fully retired.",
+   "deepCutOrder": 8
+  }
+ ]
+}

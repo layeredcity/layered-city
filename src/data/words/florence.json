@@ -1,0 +1,299 @@
+{
+ "city": "Florence",
+ "words": [
+  {
+   "id": "3qZ7VO1u88aEobTTaTyh7Y",
+   "slot": "greeting-morning",
+   "local": "Buongiorno",
+   "phonetic": "bwon-JOR-noh",
+   "meaning": "good morning / hello"
+  },
+  {
+   "id": "5zhanE3RmFowMZldiT6JiQ",
+   "slot": "greeting-afternoon",
+   "local": "Buongiorno",
+   "phonetic": "bwon-JOR-noh",
+   "meaning": "good afternoon",
+   "context": "Still “buongiorno.” “Buon pomeriggio” exists on paper and nobody says it."
+  },
+  {
+   "id": "5ciB3inCs34oht3QeWWT7W",
+   "slot": "greeting-evening",
+   "local": "Buonasera",
+   "phonetic": "bwoh-nah-SEH-rah",
+   "meaning": "good evening",
+   "groupNote": "The switch comes early — from about four, sometimes three."
+  },
+  {
+   "id": "2RzXkakmIk6gNL8kD95L4L",
+   "slot": "greeting-casual",
+   "local": "Ciao",
+   "phonetic": "chow",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye both, and only for peers. Too familiar for a shopkeeper you don’t know."
+  },
+  {
+   "id": "1imbjZ1emZc0skuAY9taz7",
+   "slot": "leaving",
+   "local": "Arrivederci",
+   "phonetic": "ah-ree-veh-DEHR-chee",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until we see each other again.” “ArrivederLa” is the extra-formal version."
+  },
+  {
+   "id": "4bRZOjSLVRvaPrfH0pLcpi",
+   "slot": "please",
+   "local": "Per favore",
+   "phonetic": "per fah-VOH-reh",
+   "meaning": "please"
+  },
+  {
+   "id": "2O2KYXnofBIEIVbn5JtHY5",
+   "slot": "thanks",
+   "local": "Grazie",
+   "phonetic": "GRAHT-see-eh",
+   "meaning": "thank you",
+   "context": "Three syllables, not two. GRAHT-see is the standard tourist mistake."
+  },
+  {
+   "id": "5BUrvens9PD2Wg4XeL6rSZ",
+   "slot": "yes",
+   "local": "Sì",
+   "phonetic": "see",
+   "meaning": "yes"
+  },
+  {
+   "id": "XUhJPBIdqtjCjVYo8Hgi6",
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no"
+  },
+  {
+   "id": "794HRe9pDbZIPyuwKgJ8IB",
+   "slot": "speak-english",
+   "local": "Parla inglese?",
+   "phonetic": "PAR-lah een-GLEH-zeh",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "68mwdwKnDfqjkRkpAEgwOB",
+   "slot": "sorry",
+   "local": "Mi dispiace",
+   "phonetic": "mee dees-PYAH-cheh",
+   "meaning": "sorry",
+   "context": "For a real apology. If you’ve just bumped someone, “scusi” is the word."
+  },
+  {
+   "id": "3raSpOAybHOZWeQDX3MhAN",
+   "slot": "excuse-attention",
+   "local": "Scusi",
+   "phonetic": "SKOO-zee",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "2CezlfTe1lIoqOMyda7fdH",
+   "slot": "excuse-passing",
+   "local": "Permesso",
+   "phonetic": "per-MEHS-soh",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "Three separate words for three situations. Reaching for the wrong one is the classic tourist tell."
+  },
+  {
+   "id": "1Voa0yfmmsuNbZWuySEp83",
+   "slot": "number-one",
+   "local": "Uno",
+   "phonetic": "OO-noh",
+   "meaning": "one"
+  },
+  {
+   "id": "1hkGy6zfxl9WuljqgO5bcN",
+   "slot": "number-two",
+   "local": "Due",
+   "phonetic": "DOO-eh",
+   "meaning": "two"
+  },
+  {
+   "id": "1HvFr91zFyvrehQAxqOolY",
+   "slot": "number-three",
+   "local": "Tre",
+   "phonetic": "treh",
+   "meaning": "three"
+  },
+  {
+   "id": "6d0YRmKQtngwvaHMomeEIR",
+   "slot": "number-four",
+   "local": "Quattro",
+   "phonetic": "KWAHT-troh",
+   "meaning": "four"
+  },
+  {
+   "id": "3Z54Sd9pqXkISyKj8EDK2m",
+   "slot": "menu",
+   "local": "Menù?",
+   "phonetic": "meh-NOO",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore.”"
+  },
+  {
+   "id": "1bcYkdwvRizjgjW4eTFWk2",
+   "slot": "enjoy-meal",
+   "local": "Buon appetito",
+   "phonetic": "bwon ahp-peh-TEE-toh",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "4TA1VyS9WuV1vmLLXNZ3HG",
+   "slot": "cheers",
+   "local": "Salute",
+   "phonetic": "sah-LOO-teh",
+   "meaning": "cheers",
+   "context": "“Cin cin” (chin chin) is the lighter clinking version."
+  },
+  {
+   "id": "pABlm8PuiwkFPPbENwWr4",
+   "slot": "delicious",
+   "local": "Buonissimo!",
+   "phonetic": "bwoh-NEES-see-moh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "4QD9X4f6ajKt4YUxXYc8sq",
+   "slot": "check",
+   "local": "Il conto?",
+   "phonetic": "eel KON-toh",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore.”"
+  },
+  {
+   "id": "2XSkWIKgUdPFWnE6T9jBGj",
+   "slot": "money-surprise",
+   "local": "Coperto",
+   "phonetic": "koh-PEHR-toh",
+   "meaning": "cover charge",
+   "context": "Per person, printed on the menu. In the tourist center some places add servizio on top — check the bill for both."
+  },
+  {
+   "id": "77lQ4CcB1J666F3w0APsFZ",
+   "slot": "where-is",
+   "local": "Dov’è…?",
+   "phonetic": "doh-VEH",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "3A51lStl6xextvVnenMxCX",
+   "slot": "ticket",
+   "local": "Biglietto",
+   "phonetic": "bee-LYET-toh",
+   "meaning": "ticket",
+   "context": "For museums, book ahead. The Uffizi and Accademia sell out, and the line without one runs to hours."
+  },
+  {
+   "id": "3g0YEpRlZ1xrRDM7t0w8UO",
+   "slot": "bathroom",
+   "local": "Bagno",
+   "phonetic": "BAH-nyoh",
+   "meaning": "bathroom"
+  },
+  {
+   "id": "3SGbHENqF7ti4RAAOISAAy",
+   "slot": "door-men",
+   "local": "Signori",
+   "phonetic": "see-NYOH-ree",
+   "meaning": "men"
+  },
+  {
+   "id": "4sfPX46GusIQFFFANscW1t",
+   "slot": "door-women",
+   "local": "Signore",
+   "phonetic": "see-NYOH-reh",
+   "meaning": "women",
+   "groupNote": "One vowel apart, same font, adjacent doors. “Signori” is men. “Uomini” and “Donne” are the plainer pair."
+  },
+  {
+   "id": "5sr5J79Jz8vQ7BcCMMupT1",
+   "slot": "atm",
+   "local": "Bancomat",
+   "phonetic": "BAN-koh-maht",
+   "meaning": "ATM",
+   "context": "The word for any cash machine, not a brand. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "1xsokgHdsOvD4EALESxYRv",
+   "slot": "how-much",
+   "local": "Quanto?",
+   "phonetic": "KWAN-toh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "5dsGiWBryKi2VuPlb4a77D",
+   "slot": "card",
+   "local": "Carta",
+   "phonetic": "KAR-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up."
+  },
+  {
+   "id": "1I6yOxsHtmQYwpbX1OVe1k",
+   "slot": "cash",
+   "local": "Contanti",
+   "phonetic": "kon-TAHN-tee",
+   "meaning": "cash"
+  },
+  {
+   "id": "375tFhn7zJ4x8sNHPYQ687",
+   "slot": "bag",
+   "local": "Sacchetto?",
+   "phonetic": "sak-KET-toh",
+   "meaning": "bag?",
+   "context": "Charged by law. Say “no grazie” if you brought one."
+  },
+  {
+   "id": "2e3yXQ1AQfSSQv9ZYDzprI",
+   "slot": "deep-cut",
+   "local": "Lampredotto",
+   "phonetic": "lam-preh-DOT-toh",
+   "context": "The fourth stomach of a cow, simmered and served in a bun from street carts. Florence’s real street food, and locals line up for it.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "70BCUWUu4gcMI7tiabPpC2",
+   "slot": "deep-cut",
+   "local": "La gorgia",
+   "phonetic": "lah GOR-jah",
+   "context": "The Tuscan habit of softening hard c into h. Locals demonstrate it with “una coca-cola con la cannuccia corta.”",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "2820VokuAdEGrnO97AjAjy",
+   "slot": "deep-cut",
+   "local": "Bischero",
+   "phonetic": "BEE-skeh-roh",
+   "context": "An idiot, affectionately. Originally a Florentine family who lost everything, now the city’s favorite mild insult.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "0BnwIoOKZQnD6r30mJqFX",
+   "slot": "deep-cut",
+   "local": "Buchetta del vino",
+   "phonetic": "boo-KET-tah del VEE-noh",
+   "context": "The small arched wine window in palazzo walls, used to sell wine straight to the street since the 1600s. Several have reopened.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "2OpOtcFpTOPDCoXWCghlnq",
+   "slot": "deep-cut",
+   "local": "Schiacciata",
+   "phonetic": "skyah-CHAH-tah",
+   "context": "Flat salted bread, split and filled. Florence’s sandwich, and emphatically not a panino.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "16lw8TrfQO5SHAiVNsINGE",
+   "slot": "number-five",
+   "local": "Cinque",
+   "phonetic": "CHEEN-kweh",
+   "meaning": "five"
+  }
+ ]
+}

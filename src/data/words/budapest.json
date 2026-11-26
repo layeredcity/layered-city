@@ -1,0 +1,307 @@
+{
+ "city": "Budapest",
+ "words": [
+  {
+   "id": "3Swq8m6GKkHf3aB1qOFfvI",
+   "slot": "greeting-morning",
+   "local": "Jó reggelt",
+   "phonetic": "yoh REG-gelt",
+   "meaning": "good morning"
+  },
+  {
+   "id": "l5O7cFcRbWo0Rg1JxGiIV",
+   "slot": "greeting-afternoon",
+   "local": "Jó napot",
+   "phonetic": "yoh NAH-pot",
+   "meaning": "good afternoon",
+   "context": "The all-purpose polite daytime greeting, good from mid-morning until dark. Learn this one first."
+  },
+  {
+   "id": "3Vabuu0EBEyEoJ5P6Ro9Ek",
+   "slot": "greeting-evening",
+   "local": "Jó estét",
+   "phonetic": "yoh ESH-tayt",
+   "meaning": "good evening"
+  },
+  {
+   "id": "6x4uidpCqAZzZGGZ9BeL9q",
+   "slot": "greeting-casual",
+   "local": "Szia",
+   "phonetic": "SEE-yah",
+   "meaning": "hello",
+   "context": "Casual and singular — for peers, not the older woman behind the counter. To a group it’s “sziasztok.”"
+  },
+  {
+   "id": "6JtVYUxlmRhrrbr9WQrDyO",
+   "slot": "leaving",
+   "local": "Viszlát",
+   "phonetic": "VEES-lahtt",
+   "meaning": "leaving a shop or café",
+   "context": "Short for “viszontlátásra,” “until we see each other again.” The full version is for formal occasions."
+  },
+  {
+   "id": "4dX3yHSHsRDwt9FlsEmqLJ",
+   "slot": "please",
+   "local": "Kérem",
+   "phonetic": "KAY-rem",
+   "meaning": "please",
+   "context": "Hungarian builds politeness into the verb, so a bare “kérem” can sound terse. “Legyen szíves” is warmer."
+  },
+  {
+   "id": "1arijS49N6dGCqr1hvRNjY",
+   "slot": "thanks",
+   "local": "Köszönöm",
+   "phonetic": "KUH-suh-nuhm",
+   "meaning": "thank you",
+   "context": "Shortened to “köszi” (KUH-see) among friends.",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "35X3df8Rp9t28AhDKETQM9",
+   "slot": "yes",
+   "local": "Igen",
+   "phonetic": "EE-gen",
+   "meaning": "yes"
+  },
+  {
+   "id": "7qXNCBqpGQ3D4WezCO3Zt7",
+   "slot": "no",
+   "local": "Nem",
+   "phonetic": "nem",
+   "meaning": "no"
+  },
+  {
+   "id": "POEZVvneM9FzKxAOZtvdN",
+   "slot": "speak-english",
+   "local": "Beszél angolul?",
+   "phonetic": "BES-sayl AHN-go-lool",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "5FwzTmk8OKpknatqasOopx",
+   "slot": "sorry",
+   "local": "Bocsánat",
+   "phonetic": "BOH-chah-naht",
+   "meaning": "sorry"
+  },
+  {
+   "id": "20D09TK46UsUmp1RHu891o",
+   "slot": "excuse-attention",
+   "local": "Elnézést",
+   "phonetic": "EL-nay-zaysht",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "4IS5Aw7Tx0J9AWuPJVxyPQ",
+   "slot": "excuse-passing",
+   "local": "Szabad?",
+   "phonetic": "SAH-bahd",
+   "meaning": "excuse me (squeezing past)",
+   "context": "Literally “is it free?” Also how you ask whether a seat is taken."
+  },
+  {
+   "id": "5owLZ6LVW4TJknYbMO61e7",
+   "slot": "number-one",
+   "local": "Egy",
+   "phonetic": "edj",
+   "meaning": "one",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "76OpLAivg0HyrrodHrEUyR",
+   "slot": "number-two",
+   "local": "Kettő",
+   "phonetic": "KET-tuh",
+   "meaning": "two"
+  },
+  {
+   "id": "tfp5oMdGpgiuV0vh1jOzB",
+   "slot": "number-three",
+   "local": "Három",
+   "phonetic": "HAH-rome",
+   "meaning": "three"
+  },
+  {
+   "id": "2EyTaFYp9f56dM8Xd3jeIc",
+   "slot": "number-four",
+   "local": "Négy",
+   "phonetic": "naydj",
+   "meaning": "four",
+   "groupNote": "Two has two forms: “kettő” standing alone, “két” in front of a noun — “két sör,” two beers.",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "6Uttg2uvjekK1s7S6lRH65",
+   "slot": "menu",
+   "local": "Az étlapot?",
+   "phonetic": "ahz AYT-lah-pot",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Az étlapot, legyen szíves.”"
+  },
+  {
+   "id": "2JuxyU4IeaKjVeX4P8gySX",
+   "slot": "enjoy-meal",
+   "local": "Jó étvágyat",
+   "phonetic": "yoh AYT-vah-dyaht",
+   "meaning": "enjoy your meal",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "UTuzL2tDCt2JUFX5uvkYz",
+   "slot": "cheers",
+   "local": "Egészségedre",
+   "phonetic": "EG-ays-shay-ged-reh",
+   "meaning": "cheers",
+   "context": "Say it over wine and spirits, but don’t clink beer glasses. The taboo dates to 1849 and plenty still keep it.",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "51ffzG6B2jWHokGYJ6iBpe",
+   "slot": "delicious",
+   "local": "Finom!",
+   "phonetic": "FEE-nom",
+   "meaning": "delicious!",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "5CV5svmPTmU5VfZ4zsdqQs",
+   "slot": "check",
+   "local": "Fizetek",
+   "phonetic": "FEE-zeh-tek",
+   "meaning": "the check, please",
+   "context": "Literally “I’m paying.” Saying it is how you ask for the bill; there’s no separate request."
+  },
+  {
+   "id": "4neYZI4wOFAGrLHCexJVUv",
+   "slot": "money-surprise",
+   "local": "Szervizdíj",
+   "phonetic": "SEHR-veez-deey",
+   "meaning": "service charge",
+   "context": "Often 12–15% and already on the bill. Check before you tip, or you’ll tip twice."
+  },
+  {
+   "id": "3EFGlZSqPxsAMptxqF162F",
+   "slot": "where-is",
+   "local": "Hol van…?",
+   "phonetic": "hol vahn",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "7JGGQkiA2Z5Zq2kvyUCUTe",
+   "slot": "ticket",
+   "local": "Jegy",
+   "phonetic": "yedj",
+   "meaning": "ticket",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "4BhxLTqiJ3waWvGjUzxcsK",
+   "slot": "bathroom",
+   "local": "Mosdó",
+   "phonetic": "MOSH-doh",
+   "meaning": "bathroom"
+  },
+  {
+   "id": "66GIRX2V1qdXQObyPPCl2G",
+   "slot": "door-men",
+   "local": "Férfi",
+   "phonetic": "FAYR-fee",
+   "meaning": "men"
+  },
+  {
+   "id": "1BjeI3fJNoYIdaHvTQK7eK",
+   "slot": "door-women",
+   "local": "Női",
+   "phonetic": "NUH-ee",
+   "meaning": "women",
+   "groupNote": "Neither is guessable from English. Worth memorising before you need it."
+  },
+  {
+   "id": "5OI4neB7ehjpL91s0swpTu",
+   "slot": "atm",
+   "local": "Bankautomata",
+   "phonetic": "BAHNK-ow-toh-mah-tah",
+   "meaning": "ATM",
+   "context": "When the screen offers to charge you in dollars or euros, decline. Always take forint."
+  },
+  {
+   "id": "7k8YOXouCVEeJIjwV3pz1C",
+   "slot": "how-much",
+   "local": "Mennyi?",
+   "phonetic": "MEN-nyee",
+   "meaning": "how much?"
+  },
+  {
+   "id": "4Ybw66SsqY16lOZqUCssaF",
+   "slot": "card",
+   "local": "Kártya",
+   "phonetic": "KAHR-tyah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Turns a silent gesture into a question."
+  },
+  {
+   "id": "4Qdmc1K3uxXAd7TjnZtCs5",
+   "slot": "cash",
+   "local": "Készpénz",
+   "phonetic": "KAYS-paynz",
+   "meaning": "cash",
+   "context": "Hungary is in the EU but not the euro. Prices are in forint, and euros get a bad rate when taken at all."
+  },
+  {
+   "id": "46eoeqkdYB04ekPVSi5nFn",
+   "slot": "bag",
+   "local": "Zacskó?",
+   "phonetic": "ZAHCH-koh",
+   "meaning": "bag?",
+   "context": "What the checkout cashier will ask, and usually charged. Say “nem, köszönöm” if you brought your own."
+  },
+  {
+   "id": "35gctGFoTB3PcBQk8OH2Y5",
+   "slot": "deep-cut",
+   "local": "Romkocsma",
+   "phonetic": "ROM-koch-mah",
+   "context": "“Ruin pub.” Bars built inside abandoned buildings in the old Jewish quarter, furnished with whatever was left behind.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "4HAjP4oxycNDPIpPE1tJdZ",
+   "slot": "deep-cut",
+   "local": "Fürdő",
+   "phonetic": "FEWR-duh",
+   "context": "Bath. On signs all over the city — Széchenyi, Gellért, Rudas. Budapest sits on more than a hundred thermal springs.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "3B1koud8yzRv2YqhVo3p7N",
+   "slot": "deep-cut",
+   "local": "Pálinka",
+   "phonetic": "PAH-leen-kah",
+   "context": "Fruit brandy, often homemade, usually offered rather than ordered. Refusing the first is fine; refusing the second takes effort.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "79eLZEoco6oAnZCSo7ZXCV",
+   "slot": "deep-cut",
+   "local": "Puszi",
+   "phonetic": "POO-see",
+   "context": "A kiss on the cheek, two of them. Also how friends end a phone call, the way English speakers say “love you, bye.”",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "2KiTENV9vvcxgVdwMKHRWf",
+   "slot": "deep-cut",
+   "local": "Elvágyódás",
+   "phonetic": "EL-vah-dyoh-dahsh",
+   "context": "The ache to be somewhere other than where you are. Not missing what’s gone, but wanting what’s elsewhere.",
+   "phoneticApproximate": true,
+   "deepCutOrder": 5
+  },
+  {
+   "id": "7CURS9Tlr6P8PV352bTnlN",
+   "slot": "number-five",
+   "local": "Öt",
+   "phonetic": "urt",
+   "meaning": "five"
+  }
+ ]
+}

@@ -1,0 +1,294 @@
+{
+ "city": "Belgrade",
+ "words": [
+  {
+   "id": "65mhEwx0HsSL0LOJSHM46U",
+   "slot": "greeting-morning",
+   "local": "Dobro jutro",
+   "phonetic": "DOH-bro YOO-tro",
+   "meaning": "good morning"
+  },
+  {
+   "id": "6U5ga9tvVv6soOrGdnaNKG",
+   "slot": "greeting-afternoon",
+   "local": "Dobar dan",
+   "phonetic": "DOH-bar dahn",
+   "meaning": "good afternoon",
+   "context": "The all-purpose daytime greeting from mid-morning on. The one to learn if you learn one."
+  },
+  {
+   "id": "1QE4jZEm9R9c3YjgiGGsIS",
+   "slot": "greeting-evening",
+   "local": "Dobro veče",
+   "phonetic": "DOH-bro VEH-cheh",
+   "meaning": "good evening",
+   "groupNote": "“Jutro” until about ten, “dan” until dark, “veče” after that."
+  },
+  {
+   "id": "4FbeXUtwCt6tQMkjEotb7H",
+   "slot": "greeting-casual",
+   "local": "Ćao",
+   "phonetic": "chow",
+   "meaning": "hello (casual)",
+   "context": "Borrowed from Italian, used for hello and goodbye among peers. “Zdravo” (ZDRAH-vo) is the neutral option."
+  },
+  {
+   "id": "uAhur3dZ5mCBMPzmvq8vs",
+   "slot": "leaving",
+   "local": "Doviđenja",
+   "phonetic": "doh-vee-JEH-nyah",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until seeing.” “Ćao” is the casual version."
+  },
+  {
+   "id": "4R1JVjmqUHuwlFMpE9oFnJ",
+   "slot": "please",
+   "local": "Molim",
+   "phonetic": "MOH-leem",
+   "meaning": "please",
+   "context": "Also “you’re welcome,” “pardon?” and “go ahead.” It does a great deal of work."
+  },
+  {
+   "id": "2k5i7brbC5PAVOlNwCOgQF",
+   "slot": "thanks",
+   "local": "Hvala",
+   "phonetic": "HVAH-lah",
+   "meaning": "thank you",
+   "context": "“Hvala lepo” (LEH-po) is the warmer version. The H is breathy, almost swallowed."
+  },
+  {
+   "id": "2RPQFcawukjmUhnqmr6uth",
+   "slot": "yes",
+   "local": "Da",
+   "phonetic": "dah",
+   "meaning": "yes"
+  },
+  {
+   "id": "6sDpyjoZu5P7lvptjhmIVL",
+   "slot": "no",
+   "local": "Ne",
+   "phonetic": "neh",
+   "meaning": "no"
+  },
+  {
+   "id": "58tDEk9odxiC1cJf6JtFEA",
+   "slot": "speak-english",
+   "local": "Govorite li engleski?",
+   "phonetic": "goh-VOH-ree-teh lee EN-gles-kee",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "1l0hLGdw1jmfUzSV8G1Zru",
+   "slot": "sorry",
+   "local": "Izvinite",
+   "phonetic": "eez-VEE-nee-teh",
+   "meaning": "sorry / excuse me",
+   "context": "For apologising and for getting someone’s attention. “Oprostite” is the more formal alternative."
+  },
+  {
+   "id": "5PN1vYKlQwApw8mwsoLBvw",
+   "slot": "excuse-passing",
+   "local": "Mogu li da prođem?",
+   "phonetic": "MOH-goo lee dah PROH-jem",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "“Izvinite” covers apology and getting attention both. “Oprostite” is the more formal alternative."
+  },
+  {
+   "id": "2xDhOFpdTjTHx62bROWvuw",
+   "slot": "number-one",
+   "local": "Jedan",
+   "phonetic": "YEH-dahn",
+   "meaning": "one"
+  },
+  {
+   "id": "1jj4Jdhtnc01IuIr0b9lNu",
+   "slot": "number-two",
+   "local": "Dva",
+   "phonetic": "dvah",
+   "meaning": "two"
+  },
+  {
+   "id": "Cl8qUD16rXXkUGAyJxUJy",
+   "slot": "number-three",
+   "local": "Tri",
+   "phonetic": "tree",
+   "meaning": "three"
+  },
+  {
+   "id": "1JfWMYGowJI6GZYFyrrnQb",
+   "slot": "number-four",
+   "local": "Četiri",
+   "phonetic": "CHEH-tee-ree",
+   "meaning": "four"
+  },
+  {
+   "id": "52OVcsf62FcU89TMnqU7vf",
+   "slot": "menu",
+   "local": "Jelovnik?",
+   "phonetic": "YEH-lov-neek",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Jelovnik, molim.”"
+  },
+  {
+   "id": "fVVQEjnShtVZ6gpOfUyvz",
+   "slot": "enjoy-meal",
+   "local": "Prijatno",
+   "phonetic": "pree-YAHT-no",
+   "meaning": "enjoy your meal",
+   "context": "Said by servers and by strangers passing your table on the way out. Answer with the same word."
+  },
+  {
+   "id": "5Nu6Eun3h5yeycbJtWWk0F",
+   "slot": "cheers",
+   "local": "Živeli",
+   "phonetic": "ZHEE-veh-lee",
+   "meaning": "cheers",
+   "context": "Literally “may we live.” Eye contact, and don’t put the glass down before you’ve drunk."
+  },
+  {
+   "id": "4qcG5qjF2ikwwW1OxEkWk9",
+   "slot": "delicious",
+   "local": "Odlično!",
+   "phonetic": "OD-leech-no",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "4bn0MrOghUUZffwyKyCHUS",
+   "slot": "check",
+   "local": "Račun?",
+   "phonetic": "RAH-choon",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Račun, molim.”"
+  },
+  {
+   "id": "2K3ux9OBlh4uN72YgvT33W",
+   "slot": "money-surprise",
+   "local": "Sitno",
+   "phonetic": "SEET-no",
+   "meaning": "small change",
+   "context": "You’ll be asked for it constantly — “imate sitno?” ATMs hand out large notes that small shops struggle to break."
+  },
+  {
+   "id": "4EkXHENoSgAV4pk6AqXHKu",
+   "slot": "where-is",
+   "local": "Gde je…?",
+   "phonetic": "gdeh yeh",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "2kVGxGcfXpqFLyobvjBY5u",
+   "slot": "ticket",
+   "local": "Karta",
+   "phonetic": "KAR-tah",
+   "meaning": "ticket"
+  },
+  {
+   "id": "5rjRXT3N1nhOb2XCd3dCdN",
+   "slot": "bathroom",
+   "local": "Toalet",
+   "phonetic": "toh-ah-LET",
+   "meaning": "bathroom"
+  },
+  {
+   "id": "2DgoYJGFstr0bvmCIJgjON",
+   "slot": "door-men",
+   "local": "Muškarci",
+   "phonetic": "moosh-KAR-tsee",
+   "meaning": "men"
+  },
+  {
+   "id": "KWJLvQfPV690yYPvE37Np",
+   "slot": "door-women",
+   "local": "Žene",
+   "phonetic": "ZHEH-neh",
+   "meaning": "women",
+   "groupNote": "“M” is men, “Ž” is women — and doors may be in Cyrillic instead: “МУШКАРЦИ” and “ЖЕНЕ.”"
+  },
+  {
+   "id": "6fbmumg2oko8920yEUaLRR",
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "BAN-koh-maht",
+   "meaning": "ATM",
+   "context": "Same word as Italy and Austria. Most dispense large notes, which is its own problem."
+  },
+  {
+   "id": "2OmUJgsB7OAxFgFdXSGEuS",
+   "slot": "how-much",
+   "local": "Koliko?",
+   "phonetic": "KOH-lee-koh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "j4D6vG6cDYQO9hjrmGh7s",
+   "slot": "card",
+   "local": "Kartica",
+   "phonetic": "KAR-tee-tsah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Smaller places are cash-only."
+  },
+  {
+   "id": "5DTAKeuu6I4SZ9eySUh4nI",
+   "slot": "cash",
+   "local": "Keš",
+   "phonetic": "kesh",
+   "meaning": "cash",
+   "context": "Borrowed straight from English. “Gotovina” is the formal word. Serbia isn’t in the euro — prices are in dinars."
+  },
+  {
+   "id": "7JBDdnkz4xcJG9QM3XZdeH",
+   "slot": "bag",
+   "local": "Kesa?",
+   "phonetic": "KEH-sah",
+   "meaning": "bag?",
+   "context": "Charged. Say “ne, hvala” if you brought one."
+  },
+  {
+   "id": "6VkNqWDhCEigaDczwp28D",
+   "slot": "deep-cut",
+   "local": "Kafana",
+   "phonetic": "KAH-fah-nah",
+   "context": "Not a café and not quite a bar: an old tavern with food, rakija, and usually live music. An institution with its own rules.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "64oVmRjxG5OcbRS8pRVL4b",
+   "slot": "deep-cut",
+   "local": "Inat",
+   "phonetic": "EE-naht",
+   "context": "Spite as a virtue — doing something precisely because you were told not to. Serbs claim it as a national trait.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "4zCMsshZs7lubGQzMozHTI",
+   "slot": "deep-cut",
+   "local": "Rakija",
+   "phonetic": "RAH-kee-yah",
+   "context": "Fruit brandy, frequently homemade, offered rather than ordered. Refusing outright takes real effort.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "6DZd8QtzpRhJegY3QIJxlf",
+   "slot": "deep-cut",
+   "local": "Splav",
+   "phonetic": "splahv",
+   "context": "A floating raft-club moored on the Sava or the Danube. A good deal of Belgrade’s nightlife happens on water.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "6eXbFGhmRQzibpwC5YVh7U",
+   "slot": "deep-cut",
+   "local": "Merak",
+   "phonetic": "MEH-rahk",
+   "context": "The pleasure of a small thing done slowly — one coffee, one song, one afternoon. Turkish in origin, Balkan in practice.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "16uaOPhC91ylkQmzKgmxzw",
+   "slot": "number-five",
+   "local": "Pet",
+   "phonetic": "pet",
+   "meaning": "five"
+  }
+ ]
+}

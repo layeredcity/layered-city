@@ -1,0 +1,301 @@
+{
+ "city": "Istanbul",
+ "words": [
+  {
+   "id": "2NZFp1hcJhje9yUdcpoUo3",
+   "slot": "greeting-morning",
+   "local": "Günaydın",
+   "phonetic": "gew-NIGH-duhn",
+   "meaning": "good morning"
+  },
+  {
+   "id": "4ADg9zjVLCwgnrHsvefY4H",
+   "slot": "greeting-afternoon",
+   "local": "İyi günler",
+   "phonetic": "ee-YEE gewn-LEHR",
+   "meaning": "good afternoon",
+   "context": "The all-purpose polite daytime greeting, and what shopkeepers will say to you."
+  },
+  {
+   "id": "6c701fXbhkOF8SEdUGASMK",
+   "slot": "greeting-evening",
+   "local": "İyi akşamlar",
+   "phonetic": "ee-YEE ahk-shahm-LAR",
+   "meaning": "good evening",
+   "groupNote": "“Günaydın” until about eleven, “günler” through the day, “akşamlar” after dark."
+  },
+  {
+   "id": "65lOzUqVNmibfdOS1l36WD",
+   "slot": "greeting-casual",
+   "local": "Merhaba",
+   "phonetic": "MEHR-hah-bah",
+   "meaning": "hello",
+   "context": "Neutral and safe with anyone. “Selam” (seh-LAHM) is the casual version among peers."
+  },
+  {
+   "id": "3io5bCELwswIpb1xh0E4GE",
+   "slot": "leaving",
+   "local": "Hoşça kalın",
+   "phonetic": "HOSH-chah kah-LUHN",
+   "meaning": "leaving a shop or café",
+   "context": "Said by the person leaving. The one staying says “güle güle.” They are not interchangeable."
+  },
+  {
+   "id": "6tWGjZR7mmOfLUE1luFrxY",
+   "slot": "please",
+   "local": "Lütfen",
+   "phonetic": "LEWT-fen",
+   "meaning": "please"
+  },
+  {
+   "id": "4FPm9dKS3XjGZmN4GBDqkq",
+   "slot": "thanks",
+   "local": "Teşekkürler",
+   "phonetic": "teh-shek-kewr-LEHR",
+   "meaning": "thank you",
+   "context": "“Teşekkür ederim” is the fuller form, “sağ ol” (sah OL) the casual one."
+  },
+  {
+   "id": "6tfkhEYxLlei2g6sjyWIHk",
+   "slot": "yes",
+   "local": "Evet",
+   "phonetic": "EH-vet",
+   "meaning": "yes"
+  },
+  {
+   "id": "mXBeMJm0Lup93w17x44Mx",
+   "slot": "no",
+   "local": "Hayır",
+   "phonetic": "HAH-yuhr",
+   "meaning": "no",
+   "context": "A tut and a slight lift of the chin also means no, and you’ll get that more often than the word."
+  },
+  {
+   "id": "3diC83YvqAjYXH2u6JNQ5u",
+   "slot": "speak-english",
+   "local": "İngilizce biliyor musunuz?",
+   "phonetic": "een-gee-LEEZ-jeh bee-lee-YOR moo-soo-NOOZ",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "2esJPyq3mJX9Vxyv54sJE4",
+   "slot": "sorry",
+   "local": "Özür dilerim",
+   "phonetic": "uh-ZEWR dee-leh-REEM",
+   "meaning": "sorry"
+  },
+  {
+   "id": "7fioE5aagufwOlik3s37sM",
+   "slot": "excuse-attention",
+   "local": "Affedersiniz",
+   "phonetic": "ahf-feh-DEHR-see-neez",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "3aNSgigWkhyfBNjNn5D9Aa",
+   "slot": "excuse-passing",
+   "local": "Pardon",
+   "phonetic": "par-DON",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "“Affedersiniz” opens a request. “Pardon,” borrowed from French, is for squeezing past."
+  },
+  {
+   "id": "1HnhFXORk9uH3ij1V9stno",
+   "slot": "number-one",
+   "local": "Bir",
+   "phonetic": "beer",
+   "meaning": "one"
+  },
+  {
+   "id": "QnxYx5mAs5cV8CXGoCnmJ",
+   "slot": "number-two",
+   "local": "İki",
+   "phonetic": "ee-KEE",
+   "meaning": "two"
+  },
+  {
+   "id": "6T6fGrvamAuyvG1V0c7fZE",
+   "slot": "number-three",
+   "local": "Üç",
+   "phonetic": "ewch",
+   "meaning": "three"
+  },
+  {
+   "id": "3dcFOLs4tvlixeAy7g3J4i",
+   "slot": "number-four",
+   "local": "Dört",
+   "phonetic": "durt",
+   "meaning": "four"
+  },
+  {
+   "id": "5OyDhTxvktlnpaEwGLS1m2",
+   "slot": "menu",
+   "local": "Menü?",
+   "phonetic": "meh-NEW",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menü, lütfen.”"
+  },
+  {
+   "id": "2Yvi5IXOo7NR8POdHvsMLD",
+   "slot": "enjoy-meal",
+   "local": "Afiyet olsun",
+   "phonetic": "ah-fee-YET ol-SOON",
+   "meaning": "enjoy your meal",
+   "context": "Said before and after the meal, by servers and by strangers. Answer with the same words."
+  },
+  {
+   "id": "6SYWduiPVMu1I8slzkJW7e",
+   "slot": "cheers",
+   "local": "Şerefe",
+   "phonetic": "sheh-reh-FEH",
+   "meaning": "cheers"
+  },
+  {
+   "id": "1t4pT7BgwLh57CfHOPNOCV",
+   "slot": "delicious",
+   "local": "Nefis!",
+   "phonetic": "neh-FEES",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "2g1jNrSJjlP7Zs48TimBwV",
+   "slot": "check",
+   "local": "Hesap?",
+   "phonetic": "heh-SAHP",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Hesap, lütfen.”"
+  },
+  {
+   "id": "2wiyeboi2vIKrxEMh0qjv2",
+   "slot": "money-surprise",
+   "local": "Çay",
+   "phonetic": "chai",
+   "meaning": "tea",
+   "context": "Offered constantly and genuinely free. In a rug shop accepting isn’t a commitment — but it is the opening move."
+  },
+  {
+   "id": "1tQyTreGLSo6Iw2uAcrFK6",
+   "slot": "where-is",
+   "local": "Nerede…?",
+   "phonetic": "NEH-reh-deh",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "4juGDkvML08K2hvGaimoTI",
+   "slot": "ticket",
+   "local": "İstanbulkart",
+   "phonetic": "ees-TAHN-bool-kart",
+   "meaning": "ticket",
+   "context": "The transit card, used on ferries, metro, trams, and buses. Buy at any station kiosk and top it up."
+  },
+  {
+   "id": "IQhQCLV3f2fVqnPx7iEJu",
+   "slot": "bathroom",
+   "local": "Tuvalet",
+   "phonetic": "too-vah-LET",
+   "meaning": "bathroom",
+   "context": "Often a small charge. “WC” on the door, and paper goes in the bin beside it."
+  },
+  {
+   "id": "5D0E2HdJEm3u6lZIu5Ynoj",
+   "slot": "door-men",
+   "local": "Bay",
+   "phonetic": "bye",
+   "meaning": "men"
+  },
+  {
+   "id": "6uW7AW0kix0GcG43fJFnwI",
+   "slot": "door-women",
+   "local": "Bayan",
+   "phonetic": "bye-AHN",
+   "meaning": "women",
+   "groupNote": "One letter apart, and the shorter one is men. “Erkek” and “Kadın” also appear and are far easier to tell apart."
+  },
+  {
+   "id": "igLcWwwikeJ2RwqU6aUCs",
+   "slot": "atm",
+   "local": "ATM",
+   "phonetic": "ah-teh-MEH",
+   "meaning": "ATM",
+   "context": "The Latin letters are used as-is. Decline dollar conversion — lira rates move fast and the machine’s is worse."
+  },
+  {
+   "id": "28coG1VRoBfna9rJBWqlNW",
+   "slot": "how-much",
+   "local": "Ne kadar?",
+   "phonetic": "neh kah-DAR",
+   "meaning": "how much?"
+  },
+  {
+   "id": "mKAqh3cd5VjjZwi8njqrh",
+   "slot": "card",
+   "local": "Kart",
+   "phonetic": "kart",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Contactless is universal in Istanbul."
+  },
+  {
+   "id": "2wwnE48Fl9qy9MEiEjoYQe",
+   "slot": "cash",
+   "local": "Nakit",
+   "phonetic": "nah-KEET",
+   "meaning": "cash",
+   "context": "Turkey isn’t in the euro. Prices are in lira, and euro prices are almost always the worse deal."
+  },
+  {
+   "id": "19HiZzWjJkRw7xG67SMhls",
+   "slot": "bag",
+   "local": "Poşet?",
+   "phonetic": "poh-SHET",
+   "meaning": "bag?",
+   "context": "Charged. Say “istemem, teşekkürler” if you brought one."
+  },
+  {
+   "id": "q0BtzGG5fXSzNvnZmFMJe",
+   "slot": "deep-cut",
+   "local": "Keyif",
+   "phonetic": "kay-EEF",
+   "context": "Idle contentment done properly — tea, a view, no plan, and no hurry. Doing nothing, taken entirely seriously.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "6fOjcl9kZCLZOXVoRgioLj",
+   "slot": "deep-cut",
+   "local": "Hüzün",
+   "phonetic": "hew-ZEWN",
+   "context": "A collective melancholy — the ache of a city that was once the center of the world. Pamuk built a whole book around it.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "ssfjatdnaXZ3bmUpunhXT",
+   "slot": "deep-cut",
+   "local": "Nazar",
+   "phonetic": "nah-ZAR",
+   "context": "The evil eye, and the blue glass charm that deflects it. On doorways, taxis, babies, and building sites everywhere.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "6bVe6yestDJucjUOW0Bzoo",
+   "slot": "deep-cut",
+   "local": "Meyhane",
+   "phonetic": "may-hah-NEH",
+   "context": "A tavern for rakı, meze, and long arguments. The talking matters more than the food, which is saying something.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "6DWlXabSpVLnFcFr2NSWO6",
+   "slot": "deep-cut",
+   "local": "Simit",
+   "phonetic": "see-MEET",
+   "context": "The sesame ring sold from red carts everywhere. Not a bagel, and cheap enough to be a fixture rather than a snack.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "4EMLKZOr4TP5beZd2mb24m",
+   "slot": "number-five",
+   "local": "Beş",
+   "phonetic": "besh",
+   "meaning": "five"
+  }
+ ]
+}

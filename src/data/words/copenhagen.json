@@ -1,0 +1,296 @@
+{
+ "city": "Copenhagen",
+ "words": [
+  {
+   "id": "PuODkI2i3BxVdDRPY3lPR",
+   "slot": "greeting-morning",
+   "local": "Godmorgen",
+   "phonetic": "go-MORN",
+   "meaning": "good morning"
+  },
+  {
+   "id": "25jcyFl88IVMvG8mcwcANM",
+   "slot": "greeting-afternoon",
+   "local": "Goddag",
+   "phonetic": "go-DA",
+   "meaning": "good afternoon",
+   "context": "Formal and increasingly old-fashioned. Most people just say “hej” at any hour."
+  },
+  {
+   "id": "4Tjd9Loh07Uh1O08xMnjML",
+   "slot": "greeting-evening",
+   "local": "Godaften",
+   "phonetic": "go-AF-ten",
+   "meaning": "good evening",
+   "groupNote": "All three are fading from casual speech. “Hej” has taken over nearly everything."
+  },
+  {
+   "id": "4LS1ExM1Bhg9E3NUbvt4kP",
+   "slot": "greeting-casual",
+   "local": "Hej",
+   "phonetic": "high",
+   "meaning": "hello",
+   "context": "Sounds like English “hi” by coincidence, not descent. Works with anyone, any time of day."
+  },
+  {
+   "id": "3uGDGcLRNmIzHWjOL2KscZ",
+   "slot": "leaving",
+   "local": "Hej hej",
+   "phonetic": "high high",
+   "meaning": "leaving a shop or café",
+   "context": "The doubled version is goodbye. “Farvel” (far-VEL) exists but sounds final."
+  },
+  {
+   "id": "z5hDJtXSY8yqfTlriwRqc",
+   "slot": "please",
+   "local": "Må jeg bede om…",
+   "phonetic": "moh yai BEH om",
+   "meaning": "may I have…",
+   "context": "Danish has no everyday word for please. This is the polite request form; otherwise politeness is carried by tone."
+  },
+  {
+   "id": "5BTuw6K5GtQ2UOebvij97U",
+   "slot": "thanks",
+   "local": "Tak",
+   "phonetic": "tahk",
+   "meaning": "thank you",
+   "context": "Does enormous work — thanks, please, and yes please. “Tusind tak” (TOO-sen tahk) is “a thousand thanks.”"
+  },
+  {
+   "id": "6lJaAAvZmejtJKyOgXXWTx",
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "ya",
+   "meaning": "yes"
+  },
+  {
+   "id": "3uuKHcz3aLpGZXPKJaKiPy",
+   "slot": "no",
+   "local": "Nej",
+   "phonetic": "nigh",
+   "meaning": "no"
+  },
+  {
+   "id": "qgFWoeZx7VkgdIQ39dHNO",
+   "slot": "speak-english",
+   "local": "Taler du engelsk?",
+   "phonetic": "TAY-la doo ENG-elsk",
+   "meaning": "do you speak English?",
+   "context": "“Du” is fine with anyone. Danish dropped the formal “you” decades ago and never brought it back."
+  },
+  {
+   "id": "7nRa7USnsKqlqNBvy7PMyd",
+   "slot": "sorry",
+   "local": "Undskyld",
+   "phonetic": "OON-skyl",
+   "meaning": "sorry / excuse me",
+   "context": "For apologising and for getting someone’s attention.",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "6KJs4jrE3nXidhh7KW9Ohb",
+   "slot": "excuse-passing",
+   "local": "Må jeg lige komme forbi?",
+   "phonetic": "moh yai lee KOM-uh for-BEE",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "“Undskyld” covers both apology and getting attention. Danish doesn’t split them the way Italian does."
+  },
+  {
+   "id": "6N04vNGlawEAqQ6FYdtboD",
+   "slot": "number-one",
+   "local": "En",
+   "phonetic": "ayn",
+   "meaning": "one"
+  },
+  {
+   "id": "2smSl619gdHkVggHTvyGL5",
+   "slot": "number-two",
+   "local": "To",
+   "phonetic": "toh",
+   "meaning": "two"
+  },
+  {
+   "id": "1kFXxkjE3EfIsnCkS2Fc95",
+   "slot": "number-three",
+   "local": "Tre",
+   "phonetic": "treh",
+   "meaning": "three"
+  },
+  {
+   "id": "1fB08vG9tjl3J6XFof1jmv",
+   "slot": "number-four",
+   "local": "Fire",
+   "phonetic": "FEE-uh",
+   "meaning": "four"
+  },
+  {
+   "id": "rjMMNHAUksRhtjii306h9",
+   "slot": "menu",
+   "local": "Menukortet?",
+   "phonetic": "meh-NEW-kor-tet",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menukortet, tak.”"
+  },
+  {
+   "id": "6IXvppGmzuGY7tqKB9q3po",
+   "slot": "enjoy-meal",
+   "local": "Velbekomme",
+   "phonetic": "VEL-be-kom-uh",
+   "meaning": "enjoy your meal",
+   "context": "Said after the meal rather than before — closer to “you’re welcome” for the food."
+  },
+  {
+   "id": "3mdNK28deDfziwiL7nnymh",
+   "slot": "cheers",
+   "local": "Skål",
+   "phonetic": "skoal",
+   "meaning": "cheers",
+   "context": "Eye contact before you drink and again after you lower the glass. The second one is what people forget."
+  },
+  {
+   "id": "494yJuyG8wuCmMsBBPpada",
+   "slot": "delicious",
+   "local": "Lækkert!",
+   "phonetic": "LEH-kert",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "7ro2ADS6CyJqdx7BS9gWB0",
+   "slot": "check",
+   "local": "Regningen?",
+   "phonetic": "RY-ning-en",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Må jeg bede om regningen?”"
+  },
+  {
+   "id": "6HQkA3wXDkfcZ8iAuklFFW",
+   "slot": "money-surprise",
+   "local": "Gebyr",
+   "phonetic": "geh-BEER",
+   "meaning": "surcharge",
+   "context": "Shops may add a fee for foreign cards, shown on screen before you confirm. Danish cards are exempt from it."
+  },
+  {
+   "id": "6OxYXzyuiszI3NGWXtpPQn",
+   "slot": "where-is",
+   "local": "Hvor er…?",
+   "phonetic": "vor air",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "5Vs3otC3BSh5Tbujjy6IfS",
+   "slot": "ticket",
+   "local": "Billet",
+   "phonetic": "bee-LET",
+   "meaning": "ticket"
+  },
+  {
+   "id": "2oJBMDdrubttwpbfBKnoe9",
+   "slot": "bathroom",
+   "local": "Toilettet",
+   "phonetic": "toy-LET-tet",
+   "meaning": "bathroom"
+  },
+  {
+   "id": "2sevrTXO8JfYJImEAEPGn3",
+   "slot": "door-men",
+   "local": "Herrer",
+   "phonetic": "HAIR-uh",
+   "meaning": "men"
+  },
+  {
+   "id": "1injC7QFiAadCvaLAfVHVI",
+   "slot": "door-women",
+   "local": "Damer",
+   "phonetic": "DAY-muh",
+   "meaning": "women",
+   "groupNote": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+   "id": "4OphADO9hoJQbTPs2bpY1A",
+   "slot": "atm",
+   "local": "Hæveautomat",
+   "phonetic": "HEH-vuh-ow-toh-maht",
+   "meaning": "ATM",
+   "context": "Denmark isn’t in the euro. Prices are in kroner, and euros are rarely accepted."
+  },
+  {
+   "id": "5TcmrkN7IcHk2u5nF1nVhP",
+   "slot": "how-much",
+   "local": "Hvor meget?",
+   "phonetic": "vor MY-el",
+   "meaning": "how much?"
+  },
+  {
+   "id": "67VmCo1ok3o9GcltZbEECl",
+   "slot": "card",
+   "local": "Kort",
+   "phonetic": "kort",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Denmark is close to cashless."
+  },
+  {
+   "id": "355Sh9pWDpoNFSi98eVgfD",
+   "slot": "cash",
+   "local": "Kontanter",
+   "phonetic": "kon-TAN-ta",
+   "meaning": "cash"
+  },
+  {
+   "id": "1sYRTuvCMbPaVyCkaXImt8",
+   "slot": "bag",
+   "local": "Pose?",
+   "phonetic": "POH-suh",
+   "meaning": "bag?",
+   "context": "Charged. Say “nej tak” if you brought one."
+  },
+  {
+   "id": "3LiMIEYUyHmxcechdFcVlh",
+   "slot": "deep-cut",
+   "local": "Hygge",
+   "phonetic": "HOO-guh",
+   "context": "Warmth, candles, low light, people you like, nowhere to be. Marketed to death abroad and still taken seriously here.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "51xuhHvcXx0ICZ525twYtj",
+   "slot": "deep-cut",
+   "local": "Pyt",
+   "phonetic": "pyt",
+   "context": "Said out loud when something small goes wrong and you’re choosing to let it go. Some offices keep a button to press.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "3DOVfQBPH1rRcBR1UM2hlG",
+   "slot": "deep-cut",
+   "local": "Janteloven",
+   "phonetic": "YAN-tuh-lo-ven",
+   "context": "The Law of Jante: don’t imagine you’re anyone special. An unwritten rule Danes both live by and complain about.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "2LIyaLo7rQTe7VUyNXfTaf",
+   "slot": "deep-cut",
+   "local": "Arbejdsglæde",
+   "phonetic": "AR-bites-gleh-thuh",
+   "context": "Happiness at work, treated as a normal expectation rather than a lucky accident.",
+   "phoneticApproximate": true,
+   "deepCutOrder": 4
+  },
+  {
+   "id": "1fMxTxJNBk7B3fRHTEfHO8",
+   "slot": "deep-cut",
+   "local": "Fredagsbar",
+   "phonetic": "FRE-das-bar",
+   "context": "Friday bar. Workplaces and universities open one at the end of the week, and attendance is more or less assumed.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "53qTKXnmZh3SindtINJxmo",
+   "slot": "number-five",
+   "local": "Fem",
+   "phonetic": "fem",
+   "meaning": "five"
+  }
+ ]
+}

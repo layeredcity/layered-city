@@ -1,0 +1,291 @@
+{
+ "city": "Warsaw",
+ "words": [
+  {
+   "id": "7DjuerFantgji0ZuWXwOA5",
+   "slot": "greeting-morning",
+   "local": "Dzień dobry",
+   "phonetic": "jen DOB-ri",
+   "meaning": "good morning"
+  },
+  {
+   "id": "3IS7EsjpwE61ExgO5IPaeQ",
+   "slot": "greeting-afternoon",
+   "local": "Dzień dobry",
+   "phonetic": "jen DOB-ri",
+   "meaning": "good afternoon",
+   "context": "The same phrase all day: literally “good day.” Polish has no separate afternoon greeting."
+  },
+  {
+   "id": "UUB53xCHNU2kA4uT50jjc",
+   "slot": "greeting-evening",
+   "local": "Dobry wieczór",
+   "phonetic": "DOB-ri VYEH-choor",
+   "meaning": "good evening",
+   "groupNote": "The switch comes when it gets dark, so as early as four in a Warsaw winter."
+  },
+  {
+   "id": "1iyDzxUHmD9qSF9QqJAMk1",
+   "slot": "greeting-casual",
+   "local": "Cześć",
+   "phonetic": "cheshch",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye both, for friends and people your age. “Hej” (hey) is softer and common among younger Varsovians."
+  },
+  {
+   "id": "2HQTErAWjfFh2szizNCMrN",
+   "slot": "leaving",
+   "local": "Do widzenia",
+   "phonetic": "doh vee-DZEN-yah",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until seeing.” Say it on the way out of a shop even if you bought nothing."
+  },
+  {
+   "id": "1c00liyb5VlHuKpx9s0Pi1",
+   "slot": "please",
+   "local": "Proszę",
+   "phonetic": "PROH-sheh",
+   "meaning": "please",
+   "context": "Also “you’re welcome,” “here you go” and, on the phone, “go ahead.” “Poproszę” (poh-PROH-sheh) means “I’ll have” when ordering."
+  },
+  {
+   "id": "2ZZIma5ZlbSiGiZ58BYzsw",
+   "slot": "thanks",
+   "local": "Dziękuję",
+   "phonetic": "jen-KOO-yeh",
+   "meaning": "thank you",
+   "context": "“Dzięki” (JEN-kee) is the casual version."
+  },
+  {
+   "id": "35h2FUP0DpWZSCI8rxkvdT",
+   "slot": "yes",
+   "local": "Tak",
+   "phonetic": "tahk",
+   "meaning": "yes"
+  },
+  {
+   "id": "4gZJJACYagu3eowUTJ4G1s",
+   "slot": "no",
+   "local": "Nie",
+   "phonetic": "nyeh",
+   "meaning": "no",
+   "context": "You’ll hear “no” (noh) constantly. It means “yeah” or “well,” not no."
+  },
+  {
+   "id": "IkUGrd7FGzvO72uBPnkr8",
+   "slot": "speak-english",
+   "local": "Czy mówi pan po angielsku?",
+   "phonetic": "chi MOO-vee pahn poh ahn-GYEL-skoo",
+   "meaning": "do you speak English?",
+   "context": "“Pan” to a man, “pani” (PAH-nee) to a woman. Most young Varsovians speak English well, so a plain hello first is enough."
+  },
+  {
+   "id": "5FdMIgRl55IsAbDn529HR5",
+   "slot": "sorry",
+   "local": "Przepraszam",
+   "phonetic": "psheh-PRAH-shahm",
+   "meaning": "sorry / excuse me",
+   "context": "For apologising, getting attention, and squeezing past. On a tram, “Wysiada pan?” (vi-SHAH-dah pahn) asks if someone is getting off."
+  },
+  {
+   "id": "5Huq0qE9GqZtcPhK2K1Wam",
+   "slot": "number-one",
+   "local": "Jeden",
+   "phonetic": "YEH-den",
+   "meaning": "one"
+  },
+  {
+   "id": "3WJvWjZqpmk4oRDuITMMt3",
+   "slot": "number-two",
+   "local": "Dwa",
+   "phonetic": "dvah",
+   "meaning": "two"
+  },
+  {
+   "id": "454pvmCmapLhREJu1Iy47W",
+   "slot": "number-three",
+   "local": "Trzy",
+   "phonetic": "tshi",
+   "meaning": "three"
+  },
+  {
+   "id": "5fqgr5R1y83sfbbId1RhBj",
+   "slot": "number-four",
+   "local": "Cztery",
+   "phonetic": "CHTEH-ri",
+   "meaning": "four"
+  },
+  {
+   "id": "7gPQp4ES3OCKGMRcG9aSK4",
+   "slot": "menu",
+   "local": "Menu?",
+   "phonetic": "MEH-noo",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę menu.”"
+  },
+  {
+   "id": "2GmZCDNOeaONTudNa7tZEF",
+   "slot": "enjoy-meal",
+   "local": "Smacznego",
+   "phonetic": "smahch-NEH-goh",
+   "meaning": "enjoy your meal",
+   "context": "Said by waiters, by people at the next table, and to you by anyone who walks in while you eat."
+  },
+  {
+   "id": "P4BkUPJL3NFNmzzdH9hbl",
+   "slot": "cheers",
+   "local": "Na zdrowie",
+   "phonetic": "nah ZDROH-vyeh",
+   "meaning": "cheers",
+   "context": "Look people in the eye. With vodka, follow the shot with a bite of food straight away."
+  },
+  {
+   "id": "3acw73iQpXBB0tzBaCd7cu",
+   "slot": "delicious",
+   "local": "Pyszne!",
+   "phonetic": "PISH-neh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "4v9wCagzb9CcEjny9TlGzw",
+   "slot": "where-is",
+   "local": "Gdzie jest…?",
+   "phonetic": "gjeh yest",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "4W0qciQpRojlPkDFw0ujVj",
+   "slot": "bathroom",
+   "local": "Toaleta",
+   "phonetic": "toh-ah-LEH-tah",
+   "meaning": "bathroom",
+   "context": "“WC” on signs. Station and park toilets often charge a couple of złoty."
+  },
+  {
+   "id": "5UypGdBNpLgrag2dldpytZ",
+   "slot": "door-men",
+   "local": "Męski",
+   "phonetic": "MEN-skee",
+   "meaning": "men"
+  },
+  {
+   "id": "2RkRT6ibiYUF5PRcUSpooF",
+   "slot": "door-women",
+   "local": "Damski",
+   "phonetic": "DAHM-skee",
+   "meaning": "women",
+   "groupNote": "Often no words at all: a triangle means men, a circle means women."
+  },
+  {
+   "id": "2CeAl5cwhkViDbaLGfg5Hk",
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "bahn-KOH-maht",
+   "meaning": "ATM",
+   "context": "Use bank-branded machines rather than the standalone ones near the Old Town. Decline the offer to charge you in dollars or pounds."
+  },
+  {
+   "id": "4BiBZV0ldfWXVSW87V2s3m",
+   "slot": "how-much",
+   "local": "Ile kosztuje?",
+   "phonetic": "EE-leh kosh-TOO-yeh",
+   "meaning": "how much?",
+   "context": "“Ile?” alone does the job at a market stall."
+  },
+  {
+   "id": "7fjAx5tMa4yqmuvgkN1Fyh",
+   "slot": "card",
+   "local": "Kartą",
+   "phonetic": "KAR-tohn",
+   "meaning": "by card",
+   "context": "Say it as you hold the card up. Contactless and phone payment are universal, even at bazaar stalls."
+  },
+  {
+   "id": "2ye27lvx7Xqa9sqnQvKU2J",
+   "slot": "cash",
+   "local": "Gotówka",
+   "phonetic": "goh-TOOF-kah",
+   "meaning": "cash",
+   "context": "Poland isn’t in the euro. Prices are in złoty (ZWOH-ti), and euros get a poor rate where they’re taken at all."
+  },
+  {
+   "id": "59RzkJIJkqE8Du7Yln9UA7",
+   "slot": "bag",
+   "local": "Torebka?",
+   "phonetic": "toh-REP-kah",
+   "meaning": "bag?",
+   "context": "Charged at the till. Say “nie, dziękuję” if you brought one."
+  },
+  {
+   "id": "3pessF5Pqpz8zkDdtrugJ3",
+   "slot": "check",
+   "local": "Rachunek?",
+   "phonetic": "rah-HOO-nek",
+   "meaning": "the check?",
+   "context": "Enough to get by. More polite: “Poproszę rachunek.” To tip by card, say the amount before the waiter keys it in."
+  },
+  {
+   "id": "49YQbqjynrja3QY8GfWHw1",
+   "slot": "money-surprise",
+   "local": "Kaucja",
+   "phonetic": "KOWTS-yah",
+   "meaning": "deposit",
+   "context": "Since October 2025 bottles and cans carry a deposit, added at the till. Return them to larger shops to get it back."
+  },
+  {
+   "id": "2JpX4CS7WPvAepi9y7FQaL",
+   "slot": "ticket",
+   "local": "Bilet",
+   "phonetic": "BEE-let",
+   "meaning": "ticket",
+   "context": "One ticket covers trams, buses, metro, and city trains. Validate a paper ticket in the yellow box when you board."
+  },
+  {
+   "id": "3epYqQ9X7e3KscJQIARUR0",
+   "slot": "deep-cut",
+   "local": "Wawa",
+   "phonetic": "VAH-vah",
+   "context": "The city’s nickname for itself, on T-shirts and in rap lyrics. Affectionate from locals, slightly cheeky from anyone else.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "mvvF7rpQrMxn9pl8M41eb",
+   "slot": "deep-cut",
+   "local": "Pekin",
+   "phonetic": "PEH-keen",
+   "context": "“Beijing”: the nickname for the Palace of Culture and Science, from its initials PKiN. Stalin’s gift to the city.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "7CovPPQKLIQvSIjngQV06y",
+   "slot": "deep-cut",
+   "local": "Słoik",
+   "phonetic": "SWOH-eek",
+   "context": "“A jar”: newcomers from the provinces who go home at weekends and come back with jars of their mother’s cooking.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "4lokeQHyVwYk4VzP7WhWuf",
+   "slot": "deep-cut",
+   "local": "Godzina W",
+   "phonetic": "goh-JEE-nah voo",
+   "context": "“W-hour”: 5 p.m. on August 1, when the 1944 Warsaw Uprising began. Sirens sound every year and the city stops for a minute.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "6qSA9FtGgEP1uBYxl1IkmI",
+   "slot": "deep-cut",
+   "local": "Syrenka",
+   "phonetic": "si-REN-kah",
+   "context": "The mermaid with sword and shield on Warsaw’s coat of arms. Her statue stands in the Old Town Market Square.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "7IXLcyftC5d9ba8cEale2h",
+   "slot": "number-five",
+   "local": "Pięć",
+   "phonetic": "pyench",
+   "meaning": "five"
+  }
+ ]
+}

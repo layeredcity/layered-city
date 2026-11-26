@@ -1,0 +1,301 @@
+{
+ "city": "Berlin",
+ "words": [
+  {
+   "id": "508rAenAb7CUZy6nVtaQzb",
+   "slot": "greeting-morning",
+   "local": "Guten Morgen",
+   "phonetic": "GOO-ten MOR-gen",
+   "meaning": "good morning"
+  },
+  {
+   "id": "6TCNbi3FsJI6KpIaJo14IK",
+   "slot": "greeting-afternoon",
+   "local": "Guten Tag",
+   "phonetic": "GOO-ten TAHK",
+   "meaning": "good afternoon",
+   "context": "The all-purpose daytime greeting from mid-morning on. The one to learn if you learn one."
+  },
+  {
+   "id": "5B20wgy47elsWjNWgELtfj",
+   "slot": "greeting-evening",
+   "local": "Guten Abend",
+   "phonetic": "GOO-ten AH-bent",
+   "meaning": "good evening",
+   "groupNote": "In Berlin all three often clip down to a bare “Morgen,” “Tag,” or “Abend.”"
+  },
+  {
+   "id": "4xbteRQjjlATVESDi11rUC",
+   "slot": "greeting-casual",
+   "local": "Hallo",
+   "phonetic": "HAH-loh",
+   "meaning": "hello (casual)",
+   "context": "Fine almost anywhere in Berlin, which is markedly more casual than the rest of Germany."
+  },
+  {
+   "id": "1Ha9d0S7G7tu366dBAKdPB",
+   "slot": "leaving",
+   "local": "Tschüss",
+   "phonetic": "chewss",
+   "meaning": "leaving a shop or café",
+   "context": "The everyday goodbye. “Auf Wiedersehen” is correct but formal enough to sound stiff in a café."
+  },
+  {
+   "id": "7EnSbS8PGfR3oVIgmYHbs7",
+   "slot": "please",
+   "local": "Bitte",
+   "phonetic": "BIT-tuh",
+   "meaning": "please",
+   "context": "Also “here you go” and “you’re welcome.” You’ll hear it more than you say it."
+  },
+  {
+   "id": "2lOnfQ4FyIKgtvgedfSALg",
+   "slot": "thanks",
+   "local": "Danke",
+   "phonetic": "DAHN-kuh",
+   "meaning": "thank you",
+   "context": "“Danke schön” (shurn) is the warmer version."
+  },
+  {
+   "id": "6OxtHyMTr8mAbh0NI6t3iH",
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes"
+  },
+  {
+   "id": "4TCMh5Jn1MVumItqiqvvJO",
+   "slot": "no",
+   "local": "Nein",
+   "phonetic": "nine",
+   "meaning": "no"
+  },
+  {
+   "id": "614U1rCSSXPKkkTGwXKS9q",
+   "slot": "speak-english",
+   "local": "Sprechen Sie Englisch?",
+   "phonetic": "SHPREH-khen zee ENG-lish",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "1mveossaGYmAvJ0QaXLOeq",
+   "slot": "sorry",
+   "local": "Entschuldigung",
+   "phonetic": "ent-SHOOL-dee-goong",
+   "meaning": "sorry",
+   "context": "Does double duty as apology and as excuse-me. German splits these far less than Italian does."
+  },
+  {
+   "id": "Gogm2o9Kymn5nCSvwST05",
+   "slot": "excuse-attention",
+   "local": "Entschuldigen Sie",
+   "phonetic": "ent-SHOOL-dee-gen zee",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "5Brk7QpK66UQg2bgc5K5E3",
+   "slot": "excuse-passing",
+   "local": "Darf ich vorbei?",
+   "phonetic": "darf ikh for-BYE",
+   "meaning": "excuse me (squeezing past)"
+  },
+  {
+   "id": "6ELI884RxmSh6xcMjww4DB",
+   "slot": "number-one",
+   "local": "Eins",
+   "phonetic": "eyns",
+   "meaning": "one"
+  },
+  {
+   "id": "4z700cJXzwXDqFT4pmz64I",
+   "slot": "number-two",
+   "local": "Zwei",
+   "phonetic": "tsvy",
+   "meaning": "two"
+  },
+  {
+   "id": "5ebsCkyL4ghtZTG6NcR98n",
+   "slot": "number-three",
+   "local": "Drei",
+   "phonetic": "dry",
+   "meaning": "three"
+  },
+  {
+   "id": "1PkxaKiMM96h08IniDqmQH",
+   "slot": "number-four",
+   "local": "Vier",
+   "phonetic": "feer",
+   "meaning": "four",
+   "groupNote": "“Zwei” is often said as “zwo” (tsvoh) over noise or on the phone, to keep it distinct from “drei.”"
+  },
+  {
+   "id": "0GZyWwUrRnqh7SfhFmcR0",
+   "slot": "menu",
+   "local": "Karte?",
+   "phonetic": "KAR-tuh",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Karte, bitte.”"
+  },
+  {
+   "id": "4EOeYoF32qurKdSC3uXKGj",
+   "slot": "enjoy-meal",
+   "local": "Guten Appetit",
+   "phonetic": "GOO-ten ah-peh-TEET",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "4oGtJN3ahW2yy2Q7jIoolw",
+   "slot": "cheers",
+   "local": "Prost",
+   "phonetic": "prohst",
+   "meaning": "cheers",
+   "context": "Eye contact with each person as you clink. Breaking it gets noticed."
+  },
+  {
+   "id": "57Lb2skxq6MIKq7s4wmN6O",
+   "slot": "delicious",
+   "local": "Lecker!",
+   "phonetic": "LECK-er",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "649AY3FyOJ4YyexNDscwIR",
+   "slot": "check",
+   "local": "Zahlen?",
+   "phonetic": "TSAH-len",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahlen, bitte.”"
+  },
+  {
+   "id": "6n0KeJiQEFaDaZsq5KvkvF",
+   "slot": "money-surprise",
+   "local": "Nur Bargeld",
+   "phonetic": "noor BAR-gelt",
+   "meaning": "cash only",
+   "context": "On signs at bars, cafés, and plenty of restaurants. Berlin runs on cash more than anywhere else in Western Europe."
+  },
+  {
+   "id": "oCt4laKTUFppE5IZR9mui",
+   "slot": "where-is",
+   "local": "Wo ist…?",
+   "phonetic": "voh ist",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "1C2KNFfKcttMVrs64M4Etd",
+   "slot": "ticket",
+   "local": "Fahrschein",
+   "phonetic": "FAR-shine",
+   "meaning": "ticket",
+   "context": "Buy and validate before boarding. There are no barriers, and inspectors are in plain clothes."
+  },
+  {
+   "id": "5IHBsEFEC1hI2nrs9301S7",
+   "slot": "bathroom",
+   "local": "Toilette",
+   "phonetic": "toy-LET-tuh",
+   "meaning": "bathroom",
+   "context": "Often a small charge, and often an attendant with a plate."
+  },
+  {
+   "id": "5HJbq9wf4lWA7VihbSN6JJ",
+   "slot": "door-men",
+   "local": "Herren",
+   "phonetic": "HEH-ren",
+   "meaning": "men"
+  },
+  {
+   "id": "6BcWwKy7lHjwluL7LAxjY9",
+   "slot": "door-women",
+   "local": "Damen",
+   "phonetic": "DAH-men",
+   "meaning": "women",
+   "groupNote": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+   "id": "30dj6xiYsFtTwfyRPemOYY",
+   "slot": "atm",
+   "local": "Geldautomat",
+   "phonetic": "GELT-ow-toh-maht",
+   "meaning": "ATM",
+   "context": "Decline the offer to charge you in dollars. Always take euros."
+  },
+  {
+   "id": "45xCwAAQzSbqP6gOQ5pdEA",
+   "slot": "how-much",
+   "local": "Wie viel?",
+   "phonetic": "vee FEEL",
+   "meaning": "how much?"
+  },
+  {
+   "id": "1OblwWJ6EAVlux4Njh9UfW",
+   "slot": "card",
+   "local": "Kreditkarte",
+   "phonetic": "kray-DEET-kar-tuh",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up, and be ready to hear “nein.”"
+  },
+  {
+   "id": "7BBcoGHertolP05jXLBRCF",
+   "slot": "cash",
+   "local": "Bargeld",
+   "phonetic": "BAR-gelt",
+   "meaning": "cash"
+  },
+  {
+   "id": "2qGJakp3A9n9cAHtlZ47Rg",
+   "slot": "bag",
+   "local": "Tüte?",
+   "phonetic": "TEW-tuh",
+   "meaning": "bag?",
+   "context": "Charged. Say “nein danke” if you brought one."
+  },
+  {
+   "id": "6RXL20qZKC9J8UaWKSF9j",
+   "slot": "deep-cut",
+   "local": "Pfand",
+   "phonetic": "pfahnt",
+   "context": "A deposit on bottles and cans, reclaimed at supermarket machines. It’s why people leave empties beside bins rather than in them.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "4NqEI79Nxkew4AW1C1hIPC",
+   "slot": "deep-cut",
+   "local": "Späti",
+   "phonetic": "SHPAY-tee",
+   "context": "The corner shop open absurdly late. Beer, snacks, sometimes chairs outside. A Berlin institution with no equivalent elsewhere.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "1nfNVjYe3Iu1HOyPKrgJsz",
+   "slot": "deep-cut",
+   "local": "Kiez",
+   "phonetic": "keets",
+   "context": "Your immediate neighborhood — the few blocks you actually live in. Berliners are loyal to theirs in a way that surprises outsiders.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "6DUgrYzqULS4CJMnVgDFXc",
+   "slot": "deep-cut",
+   "local": "Feierabend",
+   "phonetic": "FYE-er-ah-bent",
+   "context": "The moment work ends and the evening becomes yours. A state rather than a time; you can wish someone a good one.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "59rJVYVF7lFNbCCZXUMsYO",
+   "slot": "deep-cut",
+   "local": "Ostalgie",
+   "phonetic": "ost-ahl-GEE",
+   "context": "Nostalgia for East Germany — the products, the signage, the little green walking man on the crossings. Half affectionate, half unresolved.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "3eoGaT30k1utFfMAjgb5rn",
+   "slot": "number-five",
+   "local": "Fünf",
+   "phonetic": "fewnf",
+   "meaning": "five"
+  }
+ ]
+}

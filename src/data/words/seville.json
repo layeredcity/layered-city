@@ -1,0 +1,297 @@
+{
+ "city": "Seville",
+ "words": [
+  {
+   "id": "1EgMBHOiWo4InE3J88yRFq",
+   "slot": "greeting-morning",
+   "local": "Buenos días",
+   "phonetic": "BWEH-noh DEE-ah",
+   "meaning": "good morning",
+   "context": "The final s vanishes in Andalusian. It comes out closer to BWEH-noh DEE-ah."
+  },
+  {
+   "id": "3FbwXHyj2lzdQ3g1scEpu0",
+   "slot": "greeting-afternoon",
+   "local": "Buenas tardes",
+   "phonetic": "BWEH-nah TAR-deh",
+   "meaning": "good afternoon",
+   "context": "Doesn’t start until after lunch, and Seville eats late — three o’clock or later in summer."
+  },
+  {
+   "id": "TPknnPetq0wHBW9qYLDlu",
+   "slot": "greeting-evening",
+   "local": "Buenas noches",
+   "phonetic": "BWEH-nah NOH-cheh",
+   "meaning": "good evening",
+   "groupNote": "In high summer the switch comes very late. The city doesn’t properly come out until nine or ten."
+  },
+  {
+   "id": "7HxvLbchg6ngsRateJinHY",
+   "slot": "greeting-casual",
+   "local": "Hola",
+   "phonetic": "OH-lah",
+   "meaning": "hello (casual)"
+  },
+  {
+   "id": "1sImMnuzFOLTRwcem0Otzs",
+   "slot": "leaving",
+   "local": "Hasta luego",
+   "phonetic": "AH-tah LWEH-goh",
+   "meaning": "leaving a shop or café",
+   "context": "Compressed almost past recognition here — something like ta-LWEH-oh. “Adiós” sounds final and is rarely used."
+  },
+  {
+   "id": "6TZhou89BxZzpc7PzObgCW",
+   "slot": "please",
+   "local": "Por favor",
+   "phonetic": "por fah-VOH",
+   "meaning": "please"
+  },
+  {
+   "id": "5wSdtQgXevmgAKJbdJ6z8T",
+   "slot": "thanks",
+   "local": "Gracias",
+   "phonetic": "GRAH-see-ah",
+   "meaning": "thank you",
+   "context": "A plain s where Madrid says th, and the final s drops. Both are entirely correct Spanish."
+  },
+  {
+   "id": "72cLkKEfayW4cj0ssyIPit",
+   "slot": "yes",
+   "local": "Sí",
+   "phonetic": "see",
+   "meaning": "yes"
+  },
+  {
+   "id": "3FlcbRhrOxXlC6uozyC1N1",
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no"
+  },
+  {
+   "id": "1yys6nFi9Y4pVyg3q6XrQw",
+   "slot": "speak-english",
+   "local": "¿Habla inglés?",
+   "phonetic": "AH-blah een-GLEH",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "1E9JeJ6Qq5y4WPAqJgPG8b",
+   "slot": "sorry",
+   "local": "Lo siento",
+   "phonetic": "loh SYEN-toh",
+   "meaning": "sorry"
+  },
+  {
+   "id": "5qoVK3FYuekjngzomqbsyK",
+   "slot": "excuse-attention",
+   "local": "Perdone",
+   "phonetic": "per-DOH-neh",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "1NzVfXczLjtGR1TTlOpSyK",
+   "slot": "excuse-passing",
+   "local": "Con permiso",
+   "phonetic": "kon per-MEE-soh",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "In practice “perdón” covers most of this ground. Spanish splits it far less sharply than Italian."
+  },
+  {
+   "id": "7mhAaHko4xnLRAxJ92db5w",
+   "slot": "number-one",
+   "local": "Uno",
+   "phonetic": "OO-noh",
+   "meaning": "one"
+  },
+  {
+   "id": "2CvGf1f45yU2V2r4OVwnRs",
+   "slot": "number-two",
+   "local": "Dos",
+   "phonetic": "doh",
+   "meaning": "two"
+  },
+  {
+   "id": "7u2S87XLHoO8HoBDmcQRPB",
+   "slot": "number-three",
+   "local": "Tres",
+   "phonetic": "treh",
+   "meaning": "three"
+  },
+  {
+   "id": "3JE1cSTT89bdYAusdoI1ME",
+   "slot": "number-four",
+   "local": "Cuatro",
+   "phonetic": "KWAH-troh",
+   "meaning": "four",
+   "groupNote": "“Dos” and “tres” lose their s in Andalusian — doh and treh. Hold up fingers and nobody minds either way."
+  },
+  {
+   "id": "7cONqVuStWvHHnsKLWTZ0v",
+   "slot": "menu",
+   "local": "Carta?",
+   "phonetic": "KAR-tah",
+   "meaning": "menu?",
+   "context": "Order “la carta” — “el menú” is the set lunch. More polite version: “La carta, por favor.”"
+  },
+  {
+   "id": "5nXhMpkSlgTRd8nPKeLT4Y",
+   "slot": "enjoy-meal",
+   "local": "Que aproveche",
+   "phonetic": "keh ah-proh-VEH-cheh",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "4UISbWy2sAfflU7RS3H6IY",
+   "slot": "cheers",
+   "local": "Salud",
+   "phonetic": "sah-LOO",
+   "meaning": "cheers"
+  },
+  {
+   "id": "56B3k16pXzHgPNM3i9JqJV",
+   "slot": "delicious",
+   "local": "¡Buenísimo!",
+   "phonetic": "bweh-NEE-see-moh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "1yfhMCpgobaOvG7Xc4WCYm",
+   "slot": "check",
+   "local": "La cuenta?",
+   "phonetic": "lah KWEN-tah",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “La cuenta, por favor.”"
+  },
+  {
+   "id": "3f4MXVkuHgJIjDyP4HQvH0",
+   "slot": "money-surprise",
+   "local": "Barra",
+   "phonetic": "BAH-rah",
+   "meaning": "bar counter",
+   "context": "Standing at the counter is cheaper than a table, and cheaper again than the terrace. Same tapa, three prices."
+  },
+  {
+   "id": "RnIu7es3r0T0RAptpM7uA",
+   "slot": "where-is",
+   "local": "¿Dónde está…?",
+   "phonetic": "DOHN-deh eh-TAH",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "5MrbkrCUXDcp7mDUE6g5ol",
+   "slot": "ticket",
+   "local": "Billete",
+   "phonetic": "bee-YEH-teh",
+   "meaning": "ticket"
+  },
+  {
+   "id": "1wF7UhxO0wCoIwThdqZyZz",
+   "slot": "bathroom",
+   "local": "Servicios",
+   "phonetic": "ser-VEE-see-oh",
+   "meaning": "bathroom",
+   "context": "“Servicios” here more than “aseos.” Bars expect you to have ordered first."
+  },
+  {
+   "id": "1oQVReFbJy6un3Dq9FYfaT",
+   "slot": "door-men",
+   "local": "Caballeros",
+   "phonetic": "kah-bah-YEH-roh",
+   "meaning": "men"
+  },
+  {
+   "id": "3kuE4EIKFQ05wDiClggV9Z",
+   "slot": "door-women",
+   "local": "Señoras",
+   "phonetic": "seh-NYOH-rah",
+   "meaning": "women",
+   "groupNote": "Where “Hombres” and “Mujeres” appear instead, “M” is women. Never read “M” as men in Spanish."
+  },
+  {
+   "id": "2fw9B1m5q4TIZ07r3wbL6z",
+   "slot": "atm",
+   "local": "Cajero",
+   "phonetic": "kah-HEH-roh",
+   "meaning": "ATM"
+  },
+  {
+   "id": "2eJLwd236eqxUhKzpKnsaP",
+   "slot": "how-much",
+   "local": "¿Cuánto?",
+   "phonetic": "KWAN-toh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "ccdlhMB0mQiCNTxag2i2z",
+   "slot": "card",
+   "local": "Tarjeta",
+   "phonetic": "tar-HEH-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Small tapas bars are often still cash-only."
+  },
+  {
+   "id": "yw1rn0ODkzwaOgIauFCJk",
+   "slot": "cash",
+   "local": "Efectivo",
+   "phonetic": "eh-fek-TEE-boh",
+   "meaning": "cash"
+  },
+  {
+   "id": "1LVpxfhPp6Hh05KI6iQoaW",
+   "slot": "bag",
+   "local": "¿Bolsa?",
+   "phonetic": "BOHL-sah",
+   "meaning": "bag?",
+   "context": "Charged. Say no, gracias if you brought one."
+  },
+  {
+   "id": "fH6Q7xfpprTAjgr8zXdf9",
+   "slot": "deep-cut",
+   "local": "Duende",
+   "phonetic": "DWEN-deh",
+   "context": "The shiver a flamenco performance produces when it truly lands. Lorca wrote an essay attempting to define it and largely failed.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "2qcKPPM5c9ufVb6dsKsax0",
+   "slot": "deep-cut",
+   "local": "Azahar",
+   "phonetic": "ah-sah-AR",
+   "context": "Orange blossom. For about two weeks each spring the whole city smells of it and everyone talks of nothing else.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "hKVK2vIo0fHOTMJrL4gLw",
+   "slot": "deep-cut",
+   "local": "Sevillanas",
+   "phonetic": "seh-vee-YAH-nah",
+   "context": "The four-part folk dance everyone here learns as a child and performs at Feria. Not flamenco, though visitors always assume so.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "5BJkPzx1ByrVwD1ketndoK",
+   "slot": "deep-cut",
+   "local": "Pescaíto",
+   "phonetic": "pes-kah-EE-toh",
+   "context": "Fried fish, Andalusian style. The name is the accent in miniature — “pescadito” with the d dropped out.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "6ZnonLR7PynfcMfkURL1m0",
+   "slot": "deep-cut",
+   "local": "Botellón",
+   "phonetic": "boh-teh-YOHN",
+   "context": "Drinking outdoors in a group from shop-bought bottles. A national institution and a recurring municipal headache.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "4waSmWayYOgzqGT4v0rQAI",
+   "slot": "number-five",
+   "local": "Cinco",
+   "phonetic": "SEEN-koh",
+   "meaning": "five"
+  }
+ ]
+}

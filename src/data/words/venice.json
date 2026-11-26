@@ -1,0 +1,309 @@
+{
+ "city": "Venice",
+ "words": [
+  {
+   "id": "6iAc05U1WIIFiDpvcwrh44",
+   "slot": "greeting-morning",
+   "local": "Buongiorno",
+   "phonetic": "bwon-JOR-noh",
+   "meaning": "good morning / hello"
+  },
+  {
+   "id": "5UJB9g4SpMDrqCqWWdXco9",
+   "slot": "greeting-afternoon",
+   "local": "Buongiorno",
+   "phonetic": "bwon-JOR-noh",
+   "meaning": "good afternoon",
+   "context": "Still “buongiorno.” “Buon pomeriggio” exists on paper and nobody says it."
+  },
+  {
+   "id": "1cs4lwVl4yzpGLsYhQNsGy",
+   "slot": "greeting-evening",
+   "local": "Buonasera",
+   "phonetic": "bwoh-nah-SEH-rah",
+   "meaning": "good evening",
+   "groupNote": "The switch comes early — from about four, sometimes three."
+  },
+  {
+   "id": "6Uf24To0FjMYkAJ7UwkL8r",
+   "slot": "greeting-casual",
+   "local": "Ciao",
+   "phonetic": "chow",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye, for peers only. It started here, from the Venetian “s-ciào,” “your servant.”"
+  },
+  {
+   "id": "7FN07lwJW1DRWBT8rYGD1f",
+   "slot": "leaving",
+   "local": "Arrivederci",
+   "phonetic": "ah-ree-veh-DEHR-chee",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until we see each other again.” “ArrivederLa” is the extra-formal version."
+  },
+  {
+   "id": "nSf9UDoXVnArEcwyB9Q9S",
+   "slot": "please",
+   "local": "Per favore",
+   "phonetic": "per fah-VOH-reh",
+   "meaning": "please"
+  },
+  {
+   "id": "4kysEGkfiHQLK9fQ7CcijO",
+   "slot": "thanks",
+   "local": "Grazie",
+   "phonetic": "GRAHT-see-eh",
+   "meaning": "thank you",
+   "context": "Three syllables, not two. GRAHT-see is the standard tourist mistake."
+  },
+  {
+   "id": "Mh7g41hZIaLt1b0gCl8o7",
+   "slot": "yes",
+   "local": "Sì",
+   "phonetic": "see",
+   "meaning": "yes"
+  },
+  {
+   "id": "Ve8de68HqFR8Wkk82Rb7Y",
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no"
+  },
+  {
+   "id": "7ktNRsGYx9IFBKGEi2dEcE",
+   "slot": "speak-english",
+   "local": "Parla inglese?",
+   "phonetic": "PAR-lah een-GLEH-zeh",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "4xoQwHwdc6aGkkk4oIpWFY",
+   "slot": "dont-speak",
+   "local": "Non parlo italiano",
+   "phonetic": "non PAR-loh ee-tah-LYAH-noh",
+   "meaning": "I don’t speak Italian"
+  },
+  {
+   "id": "5vD0od0zhoXFoHuZU4xglF",
+   "slot": "sorry",
+   "local": "Mi dispiace",
+   "phonetic": "mee dees-PYAH-cheh",
+   "meaning": "sorry",
+   "context": "For a real apology. If you’ve just bumped someone, “scusi” is the word."
+  },
+  {
+   "id": "1v9W6Ek8HaBAsnoqKLpMxq",
+   "slot": "excuse-attention",
+   "local": "Scusi",
+   "phonetic": "SKOO-zee",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "7MG76SqptHx8QXP9uZXTou",
+   "slot": "excuse-passing",
+   "local": "Permesso",
+   "phonetic": "per-MEHS-soh",
+   "meaning": "excuse me (squeezing past)",
+   "context": "The one you’ll need most: on a packed vaporetto, a narrow calle, a crowded bridge.",
+   "groupNote": "Three separate words for three situations. Reaching for the wrong one is the classic tourist tell."
+  },
+  {
+   "id": "1aJfxAsgcetH1BaQWNX6hV",
+   "slot": "number-one",
+   "local": "Uno",
+   "phonetic": "OO-noh",
+   "meaning": "one"
+  },
+  {
+   "id": "QQoxGx8TUaFlpp7SwqBMH",
+   "slot": "number-two",
+   "local": "Due",
+   "phonetic": "DOO-eh",
+   "meaning": "two"
+  },
+  {
+   "id": "4o6OQFWxbKqzax2RPbfRPV",
+   "slot": "number-three",
+   "local": "Tre",
+   "phonetic": "treh",
+   "meaning": "three"
+  },
+  {
+   "id": "6amag9neVRTkKhZM0w4VyL",
+   "slot": "number-four",
+   "local": "Quattro",
+   "phonetic": "KWAHT-troh",
+   "meaning": "four"
+  },
+  {
+   "id": "1dKuaalIG28pX3n7Vj6ak7",
+   "slot": "menu",
+   "local": "Menù?",
+   "phonetic": "meh-NOO",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il menù, per favore.”"
+  },
+  {
+   "id": "yLiuVJ27qlM9wKQu2agsS",
+   "slot": "enjoy-meal",
+   "local": "Buon appetito",
+   "phonetic": "bwon ahp-peh-TEE-toh",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "1iCy94ClLSSVSR1ajXV3ab",
+   "slot": "cheers",
+   "local": "Salute",
+   "phonetic": "sah-LOO-teh",
+   "meaning": "cheers",
+   "context": "“Cin cin” (chin chin) is the lighter clinking version."
+  },
+  {
+   "id": "2qqJuQHP4x5rIIDYUmwxTz",
+   "slot": "delicious",
+   "local": "Buonissimo!",
+   "phonetic": "bwoh-NEES-see-moh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "i2Oz4hy1WKF8x30iKGn21",
+   "slot": "check",
+   "local": "Il conto?",
+   "phonetic": "eel KON-toh",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Il conto, per favore.”"
+  },
+  {
+   "id": "BepmDEowXGKVlvCGrc4mz",
+   "slot": "money-surprise",
+   "local": "Coperto",
+   "phonetic": "koh-PEHR-toh",
+   "meaning": "cover charge",
+   "context": "Per person, on the menu. Some add servizio too. Sitting costs more than standing at the bar — on St. Mark’s Square, far more."
+  },
+  {
+   "id": "3JBX1rnNEpMnGLC2ZnW7Nv",
+   "slot": "where-is",
+   "local": "Dov’è…?",
+   "phonetic": "doh-VEH",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "70a3eyWDT2xyw7ZAhwo52x",
+   "slot": "ticket",
+   "local": "Biglietto",
+   "phonetic": "bee-LYET-toh",
+   "meaning": "ticket",
+   "context": "Book the Doge’s Palace ahead. On busy days from April to July, day-trippers also pay a fee to enter the old city."
+  },
+  {
+   "id": "3aWeUXRZta6S9tBJkxZvUS",
+   "slot": "bathroom",
+   "local": "Bagno",
+   "phonetic": "BAH-nyoh",
+   "meaning": "bathroom",
+   "context": "Public toilets are paid. Bars keep theirs for customers, so buy a coffee first."
+  },
+  {
+   "id": "42nW9x7ATJr1lbCdbSCwtI",
+   "slot": "door-men",
+   "local": "Signori",
+   "phonetic": "see-NYOH-ree",
+   "meaning": "men"
+  },
+  {
+   "id": "bHUxqWnbebOlz9uvX5UHr",
+   "slot": "door-women",
+   "local": "Signore",
+   "phonetic": "see-NYOH-reh",
+   "meaning": "women",
+   "groupNote": "One vowel apart, same font, adjacent doors. “Signori” is men. “Uomini” and “Donne” are the plainer pair."
+  },
+  {
+   "id": "1mOFvQRndRXPHST0knbSbW",
+   "slot": "how-much",
+   "local": "Quanto?",
+   "phonetic": "KWAN-toh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "2ruieg2NTPO5vX0AAtMwZl",
+   "slot": "cash",
+   "local": "Contanti",
+   "phonetic": "kon-TAHN-tee",
+   "meaning": "cash",
+   "context": "Bacari and traghetti are where cash still matters."
+  },
+  {
+   "id": "5dZPkVkJuplJjylfiHh0NF",
+   "slot": "card",
+   "local": "Carta",
+   "phonetic": "KAR-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up."
+  },
+  {
+   "id": "2DoiNiT5DVkob8ufLcY5Db",
+   "slot": "atm",
+   "local": "Bancomat",
+   "phonetic": "BAN-koh-maht",
+   "meaning": "ATM",
+   "context": "The word for any cash machine, not a brand. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "1iMHA6jHK4yf5eM0drkHiZ",
+   "slot": "bag",
+   "local": "Sacchetto?",
+   "phonetic": "sak-KET-toh",
+   "meaning": "bag?",
+   "context": "Charged by law. Say “no grazie” if you brought one."
+  },
+  {
+   "id": "t1I3nu6ZrLlWLXJR9bfkO",
+   "slot": "deep-cut",
+   "local": "Bacaro",
+   "phonetic": "BAH-kah-roh",
+   "context": "A small, plain wine bar with cicchetti on the counter, mostly standing room. Moving from one to the next is the “giro d’ombre.”",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "7MoMAL6NFZSDnVoWWug4XU",
+   "slot": "deep-cut",
+   "local": "Campo",
+   "phonetic": "KAHM-poh",
+   "context": "Every square in Venice is a “campo,” a field — most were once grass. Only St. Mark’s is a “piazza.”",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "2oNXlNvd6QtoSZckXzLlkU",
+   "slot": "deep-cut",
+   "local": "Sotoportego",
+   "phonetic": "soh-toh-POR-teh-goh",
+   "context": "A public passage running under a building, often the only way through to the next calle. Some are low; mind your head.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "1KaypUA5wunnaNZeeeaznf",
+   "slot": "deep-cut",
+   "local": "Traghetto",
+   "phonetic": "trah-GET-toh",
+   "context": "A bare gondola rowed across the Grand Canal by two gondoliers. Cheaper than a bridge detour. Locals ride it standing.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "z3cVc8IuRDMrkVhwVHzaQ",
+   "slot": "deep-cut",
+   "local": "Acqua alta",
+   "phonetic": "AH-kwah AHL-tah",
+   "context": "High water. Sirens sound before a flood tide, rising tones for higher water. Since 2020 the MOSE barriers usually keep it out.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "4fl5QNekFzE1XMYbaFmVxG",
+   "slot": "number-five",
+   "local": "Cinque",
+   "phonetic": "CHEEN-kweh",
+   "meaning": "five"
+  }
+ ]
+}

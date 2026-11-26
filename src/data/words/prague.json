@@ -1,0 +1,298 @@
+{
+ "city": "Prague",
+ "words": [
+  {
+   "id": "56uTfWr1rvj7IzONen7Voq",
+   "slot": "greeting-morning",
+   "local": "Dobré ráno",
+   "phonetic": "DOH-breh RAH-no",
+   "meaning": "good morning"
+  },
+  {
+   "id": "5tWEMKTlzAy327OusIb3NZ",
+   "slot": "greeting-afternoon",
+   "local": "Dobrý den",
+   "phonetic": "DOH-bree den",
+   "meaning": "good afternoon",
+   "context": "The all-purpose daytime greeting and easily the most useful word here. Good from mid-morning until evening."
+  },
+  {
+   "id": "mRAsFLR11QsIAmgydcSaN",
+   "slot": "greeting-evening",
+   "local": "Dobrý večer",
+   "phonetic": "DOH-bree VEH-cher",
+   "meaning": "good evening",
+   "groupNote": "“Ráno” only until about nine. “Den” covers the rest of the day."
+  },
+  {
+   "id": "15jUx0Bt6d4Au5NPbHtgE1",
+   "slot": "greeting-casual",
+   "local": "Ahoj",
+   "phonetic": "AH-hoy",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye both, for peers. Yes, it’s the sailing word — in a landlocked country."
+  },
+  {
+   "id": "701aduT99cIT3g5PapzWkp",
+   "slot": "leaving",
+   "local": "Na shledanou",
+   "phonetic": "nahs-HLEH-dah-no",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until seeing.” Often clipped to “na shle.” “Ahoj” is the casual version."
+  },
+  {
+   "id": "5HAsNHDpGupL6Wnvqn4YiV",
+   "slot": "please",
+   "local": "Prosím",
+   "phonetic": "PRO-seem",
+   "meaning": "please",
+   "context": "Also “you’re welcome,” “here you go,” and “pardon?” You’ll hear it constantly."
+  },
+  {
+   "id": "4fBmgaq4hMHMs5NQOtRwig",
+   "slot": "thanks",
+   "local": "Děkuji",
+   "phonetic": "DYEH-koo-yee",
+   "meaning": "thank you",
+   "context": "“Díky” (DEE-kee) is the casual version, closer to “thanks.”"
+  },
+  {
+   "id": "5k5EqYt2WYQ4Bcs0DpEmnB",
+   "slot": "yes",
+   "local": "Ano",
+   "phonetic": "AH-no",
+   "meaning": "yes",
+   "context": "Frequently shortened to “no” — which means yes. That one trips up every visitor."
+  },
+  {
+   "id": "5WPU39byV700EmEpdCu5SO",
+   "slot": "no",
+   "local": "Ne",
+   "phonetic": "neh",
+   "meaning": "no"
+  },
+  {
+   "id": "11J43qiclZSNmHSkjUMPDa",
+   "slot": "speak-english",
+   "local": "Mluvíte anglicky?",
+   "phonetic": "MLOO-vee-teh AN-glits-kee",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "zItIPJqKvGQVOQMSCZkVa",
+   "slot": "sorry",
+   "local": "Promiňte",
+   "phonetic": "PRO-min-yteh",
+   "meaning": "sorry / excuse me",
+   "context": "For apologising and for getting someone’s attention."
+  },
+  {
+   "id": "79jOcP2S7SH4By4FuAW6H5",
+   "slot": "excuse-passing",
+   "local": "S dovolením",
+   "phonetic": "SDO-voh-leh-neem",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "“Promiňte” covers apology and getting attention both."
+  },
+  {
+   "id": "wn4VoYtHvkw2tvzCXL4dM",
+   "slot": "number-one",
+   "local": "Jedna",
+   "phonetic": "YED-nah",
+   "meaning": "one"
+  },
+  {
+   "id": "7x9skLDC8cVDZUx4Hdymjb",
+   "slot": "number-two",
+   "local": "Dvě",
+   "phonetic": "dvyeh",
+   "meaning": "two"
+  },
+  {
+   "id": "6vywa7mF6SebfKE968bDdA",
+   "slot": "number-three",
+   "local": "Tři",
+   "phonetic": "trzhee",
+   "meaning": "three",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "2rmv2AKIBdHQRFpJwS2CJW",
+   "slot": "number-four",
+   "local": "Čtyři",
+   "phonetic": "CHTIH-rzhee",
+   "meaning": "four",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "LfdWldX4IfZ4MhvrJ1u4h",
+   "slot": "menu",
+   "local": "Jídelní lístek?",
+   "phonetic": "YEE-del-nee LEE-stek",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Jídelní lístek, prosím.”"
+  },
+  {
+   "id": "30n75kyea8folCsLrc7wq9",
+   "slot": "enjoy-meal",
+   "local": "Dobrou chuť",
+   "phonetic": "DOH-bro khoot",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "lkj2eb1bOPadXTHmYkqZd",
+   "slot": "cheers",
+   "local": "Na zdraví",
+   "phonetic": "nah ZDRAH-vee",
+   "meaning": "cheers",
+   "context": "Eye contact with everyone, and don’t cross arms with the person beside you as you clink."
+  },
+  {
+   "id": "2Hyeor33iONeMgJmcWotZP",
+   "slot": "delicious",
+   "local": "Výborné!",
+   "phonetic": "VEE-bor-neh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "1HTdCRl0tmB4VLiOzu2F6p",
+   "slot": "check",
+   "local": "Zaplatím",
+   "phonetic": "ZAH-plah-teem",
+   "meaning": "the check, please",
+   "context": "Literally “I’ll pay.” Saying it is how you ask for the bill."
+  },
+  {
+   "id": "5awHQyoqpeTFUUlvyCX2Fa",
+   "slot": "money-surprise",
+   "local": "Tácek",
+   "phonetic": "TAH-tsek",
+   "meaning": "beer mat",
+   "context": "Your tab is tallied on it in pencil. In a pub they’ll keep bringing beer until you lay it on top of your glass."
+  },
+  {
+   "id": "5ITyYZrB2adgB7TDbI9GOb",
+   "slot": "where-is",
+   "local": "Kde je…?",
+   "phonetic": "gdeh yeh",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "2sztljL5XRea0oXuWI3GeW",
+   "slot": "ticket",
+   "local": "Jízdenka",
+   "phonetic": "YEEZ-den-kah",
+   "meaning": "ticket",
+   "context": "Validate it in the yellow machine as you board. Inspectors are plain-clothed and fine on the spot."
+  },
+  {
+   "id": "5JwUqHTV1meLDbTe020R1H",
+   "slot": "bathroom",
+   "local": "Záchod",
+   "phonetic": "ZAH-khod",
+   "meaning": "bathroom",
+   "context": "“WC” on the door. Many charge a few crowns and have an attendant."
+  },
+  {
+   "id": "34wW9egyf1lvXQOqo5hTra",
+   "slot": "door-men",
+   "local": "Muži",
+   "phonetic": "MOO-zhee",
+   "meaning": "men"
+  },
+  {
+   "id": "4LVI1XVqQY6WxgO9ucpsmO",
+   "slot": "door-women",
+   "local": "Ženy",
+   "phonetic": "ZHEH-nih",
+   "meaning": "women",
+   "groupNote": "“M” is men, “Ž” is women. “Páni” and “Dámy” turn up in older places instead."
+  },
+  {
+   "id": "5BIovJGawDKbUymapGeMed",
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "BAN-koh-maht",
+   "meaning": "ATM",
+   "context": "Avoid the standalone machines in the tourist center — their rates are dreadful. Decline dollar conversion."
+  },
+  {
+   "id": "4gDuJfATT1SW6I1Jx38F3D",
+   "slot": "how-much",
+   "local": "Kolik?",
+   "phonetic": "KOH-leek",
+   "meaning": "how much?"
+  },
+  {
+   "id": "7iBZOlGSlNEY5SgCBa2BiT",
+   "slot": "card",
+   "local": "Karta",
+   "phonetic": "KAR-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up."
+  },
+  {
+   "id": "2zQcgy68REHnadeKRg2vDU",
+   "slot": "cash",
+   "local": "Hotově",
+   "phonetic": "HOH-toh-vyeh",
+   "meaning": "cash",
+   "context": "Czechia isn’t in the euro. Prices are in crowns, and anywhere quoting euros is quoting a bad rate."
+  },
+  {
+   "id": "3YWCuR51Nr3v2hIUyXEiHn",
+   "slot": "bag",
+   "local": "Sáček?",
+   "phonetic": "SAH-chek",
+   "meaning": "bag?",
+   "context": "Charged. Say “ne, děkuji” if you brought one."
+  },
+  {
+   "id": "3PU6YPYre8SFTpyv2OEUFX",
+   "slot": "deep-cut",
+   "local": "Hospoda",
+   "phonetic": "HOS-poh-dah",
+   "context": "The neighborhood pub: beer, plain food, no music, long shared tables. Older than any bar concept and still the center of things.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "2IQgpUq4wV7PDEgSk6xCKJ",
+   "slot": "deep-cut",
+   "local": "Pohoda",
+   "phonetic": "POH-hoh-dah",
+   "context": "Calm contentment — everything fine, nothing urgent. A state Czechs actively aim for rather than stumble into.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "76E2Od2YotKJRoj08436Mf",
+   "slot": "deep-cut",
+   "local": "Lítost",
+   "phonetic": "LEE-tost",
+   "context": "The particular misery of suddenly seeing your own wretchedness. Kundera claimed no other language has a word for it.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "35Yz1J6GfSBbZtAe3Jx08r",
+   "slot": "deep-cut",
+   "local": "Vole",
+   "phonetic": "VOH-leh",
+   "context": "Literally “ox,” functionally “mate.” Punctuates roughly every second sentence among friends, and is mildly rude.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "26fzLfGkltPzzJbOAegf2M",
+   "slot": "deep-cut",
+   "local": "Prostě",
+   "phonetic": "PROS-tyeh",
+   "context": "“Just,” “simply” — the filler Czechs reach for to close a thought that resists being explained further.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "5gozSNOVDtRQTkT0fagxCX",
+   "slot": "number-five",
+   "local": "Pět",
+   "phonetic": "pyet",
+   "meaning": "five"
+  }
+ ]
+}

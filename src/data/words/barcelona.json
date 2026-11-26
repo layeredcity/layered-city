@@ -1,0 +1,300 @@
+{
+ "city": "Barcelona",
+ "words": [
+  {
+   "id": "5iFNAGfBqG6MsLqN0hNmAR",
+   "slot": "greeting-morning",
+   "local": "Bon dia",
+   "phonetic": "bon DEE-ah",
+   "meaning": "good morning",
+   "context": "Covers morning and into the early afternoon. “Buenos días” works everywhere here too."
+  },
+  {
+   "id": "1gtaIR8BrKay3YpG7ZC6d9",
+   "slot": "greeting-afternoon",
+   "local": "Bona tarda",
+   "phonetic": "BOH-nah TAR-thah",
+   "meaning": "good afternoon"
+  },
+  {
+   "id": "5EYBkbQayQ4nGRXVxKIHGH",
+   "slot": "greeting-evening",
+   "local": "Bon vespre",
+   "phonetic": "bon VES-pruh",
+   "meaning": "good evening",
+   "groupNote": "“Tarda” starts after lunch, “vespre” from about eight. Catalan splits the evening later than Spanish does."
+  },
+  {
+   "id": "72TYV0zPNytpvcez9qeOn9",
+   "slot": "greeting-casual",
+   "local": "Hola",
+   "phonetic": "OH-lah",
+   "meaning": "hello (casual)",
+   "context": "Identical in both languages, and the safest thing to say when you’re unsure which one you’re in."
+  },
+  {
+   "id": "4r9MiFPI0hoMqO2CO5UJmH",
+   "slot": "leaving",
+   "local": "Adéu",
+   "phonetic": "ah-DEW",
+   "meaning": "leaving a shop or café",
+   "context": "Everyday in Catalan, unlike the Spanish “adiós,” which sounds final. “Fins després” (feens des-PRES) is “see you later.”"
+  },
+  {
+   "id": "6GsLb5XYs320VNySv6XkQZ",
+   "slot": "please",
+   "local": "Si us plau",
+   "phonetic": "see oos PLOW",
+   "meaning": "please",
+   "context": "Literally “if it pleases you.” “Por favor” is understood everywhere as well."
+  },
+  {
+   "id": "Hwn8Ory3N2V0jnJ0m5Z6z",
+   "slot": "thanks",
+   "local": "Gràcies",
+   "phonetic": "GRAH-see-uhs",
+   "meaning": "thank you",
+   "context": "Note the ending — it isn’t the Spanish “gracias.” “Mercès” (mer-SES) turns up too."
+  },
+  {
+   "id": "1AxjIz9tqmPgcnq9tvUa3Q",
+   "slot": "yes",
+   "local": "Sí",
+   "phonetic": "see",
+   "meaning": "yes"
+  },
+  {
+   "id": "6QYPQHfZrzuTeaDUzk10W2",
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no"
+  },
+  {
+   "id": "1t6YpLVAHfcAQqLbsNqDuW",
+   "slot": "speak-english",
+   "local": "Parla anglès?",
+   "phonetic": "PAR-lah ahn-GLES",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "6XexAF5kfbopGzdpJ1YRt4",
+   "slot": "sorry",
+   "local": "Ho sento",
+   "phonetic": "oo SEN-too",
+   "meaning": "sorry"
+  },
+  {
+   "id": "6E5hOspta7Agy5M8GZVLuD",
+   "slot": "excuse-attention",
+   "local": "Perdoni",
+   "phonetic": "per-DOH-nee",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "1rkecTH8y3stJGp9xpFLaL",
+   "slot": "excuse-passing",
+   "local": "Permís",
+   "phonetic": "per-MEES",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "“Perdoni” gets attention, “permís” gets you past, and “ho sento” is for a real apology."
+  },
+  {
+   "id": "6VcwXev37YdDnEH5fKjX5L",
+   "slot": "number-one",
+   "local": "Un",
+   "phonetic": "oon",
+   "meaning": "one"
+  },
+  {
+   "id": "5j1Pjs3E6CcVzR6InjB84",
+   "slot": "number-two",
+   "local": "Dos",
+   "phonetic": "dohs",
+   "meaning": "two"
+  },
+  {
+   "id": "6Dms6UWvQafPwLisZ0VTzZ",
+   "slot": "number-three",
+   "local": "Tres",
+   "phonetic": "tres",
+   "meaning": "three"
+  },
+  {
+   "id": "2tvBAkxz6V9dRrwCnOqdXB",
+   "slot": "number-four",
+   "local": "Quatre",
+   "phonetic": "KWAH-truh",
+   "meaning": "four"
+  },
+  {
+   "id": "5oz79OqKowwPImY9zcXviT",
+   "slot": "menu",
+   "local": "Carta?",
+   "phonetic": "KAR-tah",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “La carta, si us plau.”"
+  },
+  {
+   "id": "4tk7CqzqXAhEfsPooglXgV",
+   "slot": "enjoy-meal",
+   "local": "Bon profit",
+   "phonetic": "bon proo-FEET",
+   "meaning": "enjoy your meal",
+   "context": "The Catalan version, and constant here. “Que aproveche” is the Spanish equivalent."
+  },
+  {
+   "id": "4WjAcpM4Z2901sbQ26uvpG",
+   "slot": "cheers",
+   "local": "Salut",
+   "phonetic": "sah-LOOT",
+   "meaning": "cheers"
+  },
+  {
+   "id": "7gNcVi7cjf7jU2GpdIKLDK",
+   "slot": "delicious",
+   "local": "Boníssim!",
+   "phonetic": "boo-NEE-seem",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "2EesbwhhtDu9BF6mEPXicq",
+   "slot": "check",
+   "local": "El compte?",
+   "phonetic": "el KOMP-tuh",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “El compte, si us plau.”"
+  },
+  {
+   "id": "3aWgulLX4CIP2SDpVUT6sJ",
+   "slot": "money-surprise",
+   "local": "Pa amb tomàquet",
+   "phonetic": "pah ahm too-MAH-ket",
+   "meaning": "bread with tomato",
+   "context": "Bread rubbed with tomato, often brought unasked and charged per head. Excellent, but check whether you ordered it."
+  },
+  {
+   "id": "7FVm9c3sVTRZHjJjjrwa2m",
+   "slot": "where-is",
+   "local": "On és…?",
+   "phonetic": "on ES",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "6WFWDSvTYcQFHlxrfeMN7x",
+   "slot": "ticket",
+   "local": "Bitllet",
+   "phonetic": "bee-LYET",
+   "meaning": "ticket",
+   "context": "The T-casual card covers ten journeys across metro, bus, and tram."
+  },
+  {
+   "id": "2NYrdfem6hcYD4ntMXuEQf",
+   "slot": "bathroom",
+   "local": "Lavabo",
+   "phonetic": "lah-VAH-boo",
+   "meaning": "bathroom",
+   "context": "The same word in Catalan and Spanish. Bars expect you to have bought something first."
+  },
+  {
+   "id": "3HTzwg145I6MLb4U1OoQVl",
+   "slot": "door-men",
+   "local": "Homes",
+   "phonetic": "OH-mus",
+   "meaning": "men"
+  },
+  {
+   "id": "2cgaurrYSY0rs6lOj6w14V",
+   "slot": "door-women",
+   "local": "Dones",
+   "phonetic": "DOH-nus",
+   "meaning": "women",
+   "groupNote": "Catalan, not Spanish — “Homes” and “Dones.” Where Spanish appears instead, “M” is women, not men."
+  },
+  {
+   "id": "BtohPZbbTMlQPr4h5oq1d",
+   "slot": "atm",
+   "local": "Caixer",
+   "phonetic": "kah-SHER",
+   "meaning": "ATM",
+   "context": "From Caixa, the bank. “Cajero” is the Spanish. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "6OHOlWvhDO2D9xD4j0v6yh",
+   "slot": "how-much",
+   "local": "Quant?",
+   "phonetic": "kwahn",
+   "meaning": "how much?"
+  },
+  {
+   "id": "1crctALycJqLFhoB7d7LRN",
+   "slot": "card",
+   "local": "Targeta",
+   "phonetic": "tar-JEH-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up."
+  },
+  {
+   "id": "7h7X6uBqfwmbOAG14wDM2e",
+   "slot": "cash",
+   "local": "Efectiu",
+   "phonetic": "eh-fek-TEEW",
+   "meaning": "cash"
+  },
+  {
+   "id": "1pkpWijPl27rtwJpsLZT7Y",
+   "slot": "bag",
+   "local": "Bossa?",
+   "phonetic": "BOH-sah",
+   "meaning": "bag?",
+   "context": "Charged. Say “no, gràcies” if you brought one."
+  },
+  {
+   "id": "4dX5z5aHMVan50BNcX5duQ",
+   "slot": "deep-cut",
+   "local": "Seny i rauxa",
+   "phonetic": "sen ee ROW-shah",
+   "context": "Level-headed good sense and sudden wild outburst. Catalans describe themselves as both, alternating between them.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "1bvzy1ktAnzUviMLu0I46r",
+   "slot": "deep-cut",
+   "local": "Vermut",
+   "phonetic": "ver-MOOT",
+   "context": "The Sunday pre-lunch vermouth, with olives and tinned conserves. “Fer el vermut” is an activity, not a drink order.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "6c2CostMwpUfENyh70wCR",
+   "slot": "deep-cut",
+   "local": "Castell",
+   "phonetic": "kas-TELL",
+   "context": "A human tower built by teams at festivals, with a child climbing to the top. A UNESCO-listed Catalan obsession.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "4PC0OBVSsihPdVpDebdwit",
+   "slot": "deep-cut",
+   "local": "Calçotada",
+   "phonetic": "kal-soo-TAH-thah",
+   "context": "A winter feast of charred spring onions dipped in romesco, eaten with your hands over a bib. Whole towns organize around it.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "64J1C7XknKTohpC6PGfafK",
+   "slot": "deep-cut",
+   "local": "Xiringuito",
+   "phonetic": "shee-reen-GEE-too",
+   "context": "The beach bar. Barcelona’s summer runs on them, and the X gives away that it’s a Catalan word.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "2z4JZliTl6Stwte7A8iYAh",
+   "slot": "number-five",
+   "local": "Cinc",
+   "phonetic": "SEENK",
+   "meaning": "five"
+  }
+ ]
+}

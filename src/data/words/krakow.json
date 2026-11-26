@@ -1,0 +1,288 @@
+{
+ "city": "Kraków",
+ "words": [
+  {
+   "id": "6AcDcghwUdQnlxVuTWiNk8",
+   "slot": "greeting-morning",
+   "local": "Dzień dobry",
+   "phonetic": "jayn DOH-brih",
+   "meaning": "good morning"
+  },
+  {
+   "id": "2pLMwIFqpDF3eBhMGdMZcK",
+   "slot": "greeting-afternoon",
+   "local": "Dzień dobry",
+   "phonetic": "jayn DOH-brih",
+   "meaning": "good afternoon",
+   "context": "Still “dzień dobry” — literally “good day.” Polish has no separate afternoon greeting."
+  },
+  {
+   "id": "3Qvhx4h0eOsHpeqjn7XcS9",
+   "slot": "greeting-evening",
+   "local": "Dobry wieczór",
+   "phonetic": "DOH-brih VYEH-choor",
+   "meaning": "good evening",
+   "groupNote": "The switch comes around six, or whenever it gets dark."
+  },
+  {
+   "id": "6lrZBwlgx2XcIHJuvsuaHU",
+   "slot": "greeting-casual",
+   "local": "Cześć",
+   "phonetic": "cheshch",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye both, for peers only. Never to someone older or behind a counter."
+  },
+  {
+   "id": "36ahEmHVqJhKOiYcnOTNDa",
+   "slot": "leaving",
+   "local": "Do widzenia",
+   "phonetic": "doh vee-DZEN-yah",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until seeing.” “Cześć” is the casual version."
+  },
+  {
+   "id": "4uQjhPUEg5ekVLKd5VESgB",
+   "slot": "please",
+   "local": "Proszę",
+   "phonetic": "PROH-sheh",
+   "meaning": "please",
+   "context": "Also “you’re welcome,” “here you go,” and “go ahead.” One of the hardest-working words in Polish."
+  },
+  {
+   "id": "180LV5QOoIVRJ14z21xYPm",
+   "slot": "thanks",
+   "local": "Dziękuję",
+   "phonetic": "jen-KOO-yeh",
+   "meaning": "thank you",
+   "context": "“Dzięki” (JEN-kee) is the casual version."
+  },
+  {
+   "id": "3aLlpzIsoZkwKb4BNKQqtX",
+   "slot": "yes",
+   "local": "Tak",
+   "phonetic": "tahk",
+   "meaning": "yes"
+  },
+  {
+   "id": "E5VWWwjrEVX0vT8OcRAYR",
+   "slot": "no",
+   "local": "Nie",
+   "phonetic": "nyeh",
+   "meaning": "no"
+  },
+  {
+   "id": "5mCexH2vWIiK0tE4proDV1",
+   "slot": "speak-english",
+   "local": "Czy mówi pan po angielsku?",
+   "phonetic": "chih MOO-vee pahn poh ahn-GYEL-skoo",
+   "meaning": "do you speak English?",
+   "context": "“Pan” to a man, “pani” (PAH-nee) to a woman. Polish makes you pick, and the informal form is too familiar with strangers."
+  },
+  {
+   "id": "3zcdlVzQkWPsJT1R0G6Xr9",
+   "slot": "sorry",
+   "local": "Przepraszam",
+   "phonetic": "psheh-PRAH-shahm",
+   "meaning": "sorry / excuse me",
+   "context": "For apologising, getting someone’s attention, and squeezing past. The most useful word here after “proszę.”"
+  },
+  {
+   "id": "16DJpQ9u3yTSdxHbEVJInB",
+   "slot": "number-one",
+   "local": "Jeden",
+   "phonetic": "YEH-den",
+   "meaning": "one"
+  },
+  {
+   "id": "6Ctu3LrTyIQUsP2DpO6STD",
+   "slot": "number-two",
+   "local": "Dwa",
+   "phonetic": "dvah",
+   "meaning": "two"
+  },
+  {
+   "id": "6PdGct1JNabTf0kc8VYMc2",
+   "slot": "number-three",
+   "local": "Trzy",
+   "phonetic": "tzhih",
+   "meaning": "three"
+  },
+  {
+   "id": "5ou0YUgKKXhQw1FCrnZTRw",
+   "slot": "number-four",
+   "local": "Cztery",
+   "phonetic": "CHTEH-rih",
+   "meaning": "four"
+  },
+  {
+   "id": "4mpFbPd4hvO0AQee1vowF8",
+   "slot": "menu",
+   "local": "Menu?",
+   "phonetic": "MEH-noo",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę menu.”"
+  },
+  {
+   "id": "6zw8AvtkbB9rz4ruVerdLX",
+   "slot": "enjoy-meal",
+   "local": "Smacznego",
+   "phonetic": "smahch-NEH-goh",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "n2tKl8kg9cmg2GiN57M62",
+   "slot": "cheers",
+   "local": "Na zdrowie",
+   "phonetic": "nah ZDROH-vyeh",
+   "meaning": "cheers",
+   "context": "Also what you say when someone sneezes."
+  },
+  {
+   "id": "57WBT08DhM860apJdnkCtr",
+   "slot": "delicious",
+   "local": "Pyszne!",
+   "phonetic": "PISH-neh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "3dxQevHewGvSUMO3k6vjHI",
+   "slot": "check",
+   "local": "Rachunek?",
+   "phonetic": "rah-KHOO-nek",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Poproszę rachunek.”"
+  },
+  {
+   "id": "RwHs5eStpvXK1pSqXGXMS",
+   "slot": "money-surprise",
+   "local": "Pieczywo",
+   "phonetic": "pyeh-CHIH-voh",
+   "meaning": "bread",
+   "context": "Bread, often with lard spread, arrives unasked and lands on the bill. Wave it away if you don’t want it."
+  },
+  {
+   "id": "KKG3hMdqiZrXHC8wMd0iE",
+   "slot": "where-is",
+   "local": "Gdzie jest…?",
+   "phonetic": "gjeh yest",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "1JHlzUxYfpUJ5Er1Os6Hzy",
+   "slot": "ticket",
+   "local": "Bilet",
+   "phonetic": "BEE-let",
+   "meaning": "ticket",
+   "context": "Validate it on board. Trams and buses both get checked."
+  },
+  {
+   "id": "5CxoPAzR2pzRaCHhKb6FDR",
+   "slot": "bathroom",
+   "local": "Toaleta",
+   "phonetic": "toh-ah-LEH-tah",
+   "meaning": "bathroom"
+  },
+  {
+   "id": "3k4I0HbhzjByzvZMMUoWoR",
+   "slot": "door-men",
+   "local": "Mężczyźni",
+   "phonetic": "menzh-CHIZH-nee",
+   "meaning": "men",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "3hKDsZGUkWAcITViLywv3D",
+   "slot": "door-women",
+   "local": "Kobiety",
+   "phonetic": "koh-BYEH-tih",
+   "meaning": "women",
+   "groupNote": "Often no words at all: a triangle means men, a circle means women. Worth memorising before you need it."
+  },
+  {
+   "id": "5Zogj9yrY4HiHGLNyiw7ct",
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "ban-KOH-maht",
+   "meaning": "ATM",
+   "context": "Avoid the standalone machines near the square. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "5kIgXVFfB69IMuptsMFNAo",
+   "slot": "how-much",
+   "local": "Ile?",
+   "phonetic": "EE-leh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "5mf2UKEHxcA4pRV07rXynv",
+   "slot": "card",
+   "local": "Karta",
+   "phonetic": "KAR-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Contactless is universal."
+  },
+  {
+   "id": "2ew6wPvmFJn3SRLOjDdYVu",
+   "slot": "cash",
+   "local": "Gotówka",
+   "phonetic": "goh-TOOF-kah",
+   "meaning": "cash",
+   "context": "Poland isn’t in the euro. Prices are in złoty, and euros get a poor rate where they’re taken at all."
+  },
+  {
+   "id": "2sEn5gg1mLskbNGKbLldSr",
+   "slot": "bag",
+   "local": "Reklamówka?",
+   "phonetic": "reh-klah-MOOF-kah",
+   "meaning": "bag?",
+   "context": "Charged. Say “nie, dziękuję” if you brought one."
+  },
+  {
+   "id": "2GBsHTE2KvZ994u9X7ft6F",
+   "slot": "deep-cut",
+   "local": "Kombinować",
+   "phonetic": "kom-bee-NOH-vahch",
+   "context": "To work an angle, improvise a fix, get around a rule. Not quite cheating, and half a compliment.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "4RJTb2JjlCNRhn53YI0evX",
+   "slot": "deep-cut",
+   "local": "Żal",
+   "phonetic": "zhahl",
+   "context": "Grief, regret, and a lingering sense of loss, all in one syllable. Chopin’s music is routinely described in these terms.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "2gUYciXyTHChzHVzD7q3Hf",
+   "slot": "deep-cut",
+   "local": "Bar mleczny",
+   "phonetic": "bar MLECH-nih",
+   "context": "“Milk bar”: a subsidised communist-era canteen serving plain Polish home cooking. Several survive in Krakow and are still cheap.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "VnSNH9qpin231ZGSDn3jn",
+   "slot": "deep-cut",
+   "local": "Hejnał",
+   "phonetic": "HAY-now",
+   "context": "The trumpet call from St. Mary’s tower, played every hour and cut off mid-note to mark a 13th-century arrow.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "6c2EpFxb3kV1vPDgB9nbsq",
+   "slot": "deep-cut",
+   "local": "Obwarzanek",
+   "phonetic": "ob-vah-ZHAH-nek",
+   "context": "The braided ring bread sold from blue carts across Krakow. Not a bagel, and locals will tell you so.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "4VMsvDu8EtUmkbH1wjyGJX",
+   "slot": "number-five",
+   "local": "Pięć",
+   "phonetic": "pyench",
+   "meaning": "five"
+  }
+ ]
+}

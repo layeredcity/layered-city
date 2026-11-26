@@ -1,0 +1,165 @@
+{
+ "city": "London",
+ "words": [
+  {
+   "id": "4BmkVHmfXxZwk6lxy1xym0",
+   "slot": "greeting-casual",
+   "local": "You alright?",
+   "meaning": "hello",
+   "context": "A greeting, not a question about your health. The answer is “Yeah, you?” — never an actual status report."
+  },
+  {
+   "id": "3HGZKlClNEsIzyIl8TT4j3",
+   "slot": "thanks",
+   "local": "Cheers",
+   "meaning": "thank you",
+   "context": "Thanks, in most casual settings. “Ta” is the shorter version and slightly more northern."
+  },
+  {
+   "id": "4TfvlqXmh9DihprMxdks7n",
+   "slot": "leaving",
+   "local": "See you later",
+   "meaning": "leaving a shop or café",
+   "context": "Said to people you will not see later. “Cheers” and “bye then” do the same job."
+  },
+  {
+   "id": "2fHx0iReFcQsHE7IClS0jn",
+   "slot": "sorry",
+   "local": "Sorry",
+   "meaning": "sorry",
+   "context": "Works for apologising and for getting past. Often said by the person who was bumped into: a reflex, not an admission."
+  },
+  {
+   "id": "2DQh8C3rDVCazszvSngJvz",
+   "slot": "excuse-attention",
+   "local": "Excuse me",
+   "meaning": "getting attention",
+   "context": "At a bar it’s eye contact and patience. Waving, clicking, or calling out gets you served last."
+  },
+  {
+   "id": "2XvJl28RIaYUYsFDxgJrWk",
+   "slot": "check",
+   "local": "The bill, please",
+   "meaning": "the check, please",
+   "context": "Asking for “the check” marks you in one syllable."
+  },
+  {
+   "id": "2n075E8fhfmd8mz92J8YMa",
+   "slot": "money-surprise",
+   "local": "Discretionary service charge",
+   "meaning": "service charge",
+   "context": "Usually 12.5%, already on the bill, and removable if you ask. Tipping on top means tipping twice."
+  },
+  {
+   "id": "18nKemtln8fXGoDl1k3xKq",
+   "slot": "ticket",
+   "local": "Contactless",
+   "meaning": "ticket",
+   "context": "Tap your own bank card or phone. Buying an Oyster card is unnecessary, and daily caps apply either way."
+  },
+  {
+   "id": "1gSZtOcq1LC84woz7cD4fv",
+   "slot": "bathroom",
+   "local": "Loo",
+   "meaning": "bathroom",
+   "context": "Signs say “Toilets.” “Restroom” and “bathroom” both get a blank look, and “washroom” is Canadian."
+  },
+  {
+   "id": "685V7Bp11GHXgDU09AgmQY",
+   "slot": "door-men",
+   "local": "Gents",
+   "meaning": "men"
+  },
+  {
+   "id": "5vtDRfeZe9IbF1Pjjt1FyL",
+   "slot": "door-women",
+   "local": "Ladies",
+   "meaning": "women",
+   "groupNote": "“Gents” and “Ladies” on most doors. Pubs occasionally get creative, which is its own small hazard."
+  },
+  {
+   "id": "5Iw3UDLBvpXDTnfiTO0hsG",
+   "slot": "atm",
+   "local": "Cashpoint",
+   "meaning": "ATM",
+   "context": "Nobody says “ATM.” Avoid the ones charging a fee — the bank-branded machines are free."
+  },
+  {
+   "id": "5QakHKLYsFb0vlSAAcpC38",
+   "slot": "card",
+   "local": "Card",
+   "meaning": "credit card",
+   "context": "Tap for almost everything, including buses, which take no cash at all."
+  },
+  {
+   "id": "6rcM5UUeGNtBV2frztCWSG",
+   "slot": "cash",
+   "local": "Cash",
+   "meaning": "cash",
+   "context": "Increasingly rare. Plenty of places, and every London bus, refuse it outright."
+  },
+  {
+   "id": "q3OQINnEKMd5F930qJxZp",
+   "slot": "bag",
+   "local": "Bag for life",
+   "meaning": "bag?",
+   "context": "Bags are charged. The sturdy reusable one is called a “bag for life” and gets replaced free when it wears out."
+  },
+  {
+   "id": "7GHLsBf4noCGoEZMkxW0Pf",
+   "slot": "deep-cut",
+   "local": "Faff",
+   "context": "Unnecessary fuss and bother. “It’s a bit of a faff” means it’s technically possible and not worth doing.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "1xL7l7WqhR51DEIzrlfPIf",
+   "slot": "deep-cut",
+   "local": "Sorted",
+   "context": "Done, arranged, fine. A complete and sufficient answer to almost any question about a plan.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "2LVEiGoohSjaWmkBnda6J7",
+   "slot": "deep-cut",
+   "local": "Cheeky",
+   "context": "Small, indulgent, technically unearned. “A cheeky pint” is one you weren’t supposed to be having.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "2P7sq2z5Gt5X7FTRjfBMVD",
+   "slot": "deep-cut",
+   "local": "Quite good",
+   "context": "Mediocre. British understatement inverts the intensifier: “not bad” is high praise, “quite good” is faint.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "LMsWL5FxwFIKxw9sqf3tp",
+   "slot": "deep-cut",
+   "local": "The Tube",
+   "context": "The Underground. Never “the subway,” which here means a pedestrian tunnel under a road.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "3MG09FYqJvKzrUsmmTz7CY",
+   "slot": "deep-cut",
+   "local": "Zone 1",
+   "context": "London is priced in concentric zones. Everyone knows their number, and it quietly functions as a class marker.",
+   "deepCutOrder": 6
+  },
+  {
+   "id": "3ApfN4ktINvxgjrnEiqeQk",
+   "slot": "deep-cut",
+   "local": "Greasy spoon",
+   "context": "A plain fry-up café: formica tables, tea in mugs, no concessions to anything. Disappearing, and mourned.",
+   "deepCutOrder": 7
+  },
+  {
+   "id": "21Cjn0aBhm2sCmgoUQA4TU",
+   "slot": "deep-cut",
+   "local": "Mind the gap",
+   "context": "The Tube announcement, now a civic catchphrase. Also the only instruction in London that everyone actually obeys.",
+   "deepCutOrder": 8
+  }
+ ]
+}

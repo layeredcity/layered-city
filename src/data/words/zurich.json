@@ -1,0 +1,310 @@
+{
+ "city": "Zurich",
+ "words": [
+  {
+   "id": "2A2GBrT4XEuCoStwyYiyOw",
+   "slot": "greeting-morning",
+   "local": "Guete Morge",
+   "phonetic": "GOO-tuh MOR-guh",
+   "meaning": "good morning"
+  },
+  {
+   "id": "3gPcVKkjbXffwJtH3pn1IM",
+   "slot": "greeting-afternoon",
+   "local": "Grüezi",
+   "phonetic": "GREW-tsee",
+   "meaning": "hello / good day",
+   "context": "There is no separate afternoon greeting — “Grüezi” covers the whole day. To a group it’s “Grüezi mitenand.”"
+  },
+  {
+   "id": "1qni8IgfJw1pOhPvPJXfa2",
+   "slot": "greeting-evening",
+   "local": "Guete Abig",
+   "phonetic": "GOO-tuh AH-big",
+   "meaning": "good evening",
+   "groupNote": "Both time-of-day greetings are optional. Standard German “Guten Morgen” and “Guten Abend” are understood everywhere."
+  },
+  {
+   "id": "3e9VXrc0tVdPWu4q1fF9Kv",
+   "slot": "greeting-casual",
+   "local": "Hoi",
+   "phonetic": "hoy",
+   "meaning": "hello (casual)",
+   "context": "Casual and singular, for peers. “Salü” (sah-LEW) is the same register."
+  },
+  {
+   "id": "2Dbh0JbGhsnNbvIcNWMJtP",
+   "slot": "leaving",
+   "local": "Uf Wiederluege",
+   "phonetic": "oof VEE-der-loo-guh",
+   "meaning": "leaving a shop or café",
+   "context": "Formal, and what shopkeepers say back. “Tschau” (chow) is the casual one.",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "4IlUqQksQVluuGoL99gH8",
+   "slot": "please",
+   "local": "Bitte",
+   "phonetic": "BIT-tuh",
+   "meaning": "please"
+  },
+  {
+   "id": "5zIgkLXxEmgUP4IT0Ho7kk",
+   "slot": "thanks",
+   "local": "Merci",
+   "phonetic": "MER-see",
+   "meaning": "thank you",
+   "context": "Zurich thanks you in French. “Merci vilmal” (feel-MAHL) is the warmer version. “Danke” works but marks you as German."
+  },
+  {
+   "id": "3f5n7qlvwSUv6K7LzOQHKc",
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes"
+  },
+  {
+   "id": "6dyVunniDhCJ3FAnqpcP5g",
+   "slot": "no",
+   "local": "Nei",
+   "phonetic": "nay",
+   "meaning": "no"
+  },
+  {
+   "id": "5QlFw0Yuydt83qjfnKpfnY",
+   "slot": "speak-english",
+   "local": "Sprechen Sie Englisch?",
+   "phonetic": "SHPREH-khen zee ENG-lish",
+   "meaning": "do you speak English?",
+   "context": "Standard German is the right tool here. Swiss German gets complicated, and everyone understands the German."
+  },
+  {
+   "id": "7EKLliePwnkpdQMA4e8PiC",
+   "slot": "sorry",
+   "local": "Es tuet mer leid",
+   "phonetic": "es toot mer LIGHT",
+   "meaning": "sorry",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "6juEaBFEg6K9cFlFLCqOd4",
+   "slot": "excuse-attention",
+   "local": "Exgüsi",
+   "phonetic": "ex-GEW-zee",
+   "meaning": "excuse me (getting attention)",
+   "context": "Borrowed from French and unmistakably Swiss. “Entschuldigung” is the standard German and works fine."
+  },
+  {
+   "id": "2olLYA7ZD199mOCf6yv60s",
+   "slot": "excuse-passing",
+   "local": "Darf ich verbi?",
+   "phonetic": "darf ikh fer-BEE",
+   "meaning": "excuse me (squeezing past)",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "1Hhx1cmlw7wXLpU7YIjkYH",
+   "slot": "number-one",
+   "local": "Eis",
+   "phonetic": "ice",
+   "meaning": "one"
+  },
+  {
+   "id": "3lEXxBjCdq8Ojkw7IOU37C",
+   "slot": "number-two",
+   "local": "Zwei",
+   "phonetic": "tsvai",
+   "meaning": "two"
+  },
+  {
+   "id": "3noH5DILcI1zbtgFJCTuAi",
+   "slot": "number-three",
+   "local": "Drü",
+   "phonetic": "drew",
+   "meaning": "three"
+  },
+  {
+   "id": "61SRc8BXo0f2UJSaNyGfIT",
+   "slot": "number-four",
+   "local": "Vier",
+   "phonetic": "feer",
+   "meaning": "four",
+   "groupNote": "The Swiss forms. Standard German “eins, zwei, drei, vier” is understood everywhere."
+  },
+  {
+   "id": "6khoHETpjjzOs6DKAy10s7",
+   "slot": "menu",
+   "local": "D Charte?",
+   "phonetic": "dee KHAR-tuh",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “D Charte, bitte.”",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "1jb5PY0l5GOwcEU87LIYZe",
+   "slot": "enjoy-meal",
+   "local": "En Guete",
+   "phonetic": "en GOO-tuh",
+   "meaning": "enjoy your meal",
+   "context": "Said by servers and by strangers passing your table. Answer with the same words."
+  },
+  {
+   "id": "1DyUWfZ16bskGwvfWsVRUV",
+   "slot": "cheers",
+   "local": "Proscht",
+   "phonetic": "prohsht",
+   "meaning": "cheers",
+   "context": "Eye contact is not optional. Clink with each person individually and say their name."
+  },
+  {
+   "id": "5PM4AwhopL8XVsu7ZCRgMx",
+   "slot": "delicious",
+   "local": "Fein!",
+   "phonetic": "fine",
+   "meaning": "delicious!",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "5Q9sYv8jbenfWpLUR8qIYM",
+   "slot": "check",
+   "local": "Zahle?",
+   "phonetic": "TSAH-luh",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahle bitte.”"
+  },
+  {
+   "id": "iNX5aX78HvZhHsqsdyhQq",
+   "slot": "money-surprise",
+   "local": "Hahnewasser",
+   "phonetic": "HAH-nuh-vah-ser",
+   "meaning": "tap water",
+   "context": "Ask for it by name or you’ll get a bottle. Even then it’s often charged, and a carafe you never ordered can land on the bill."
+  },
+  {
+   "id": "6kgh0Yy2TuKCwNMdj27LZ2",
+   "slot": "where-is",
+   "local": "Wo isch…?",
+   "phonetic": "vo ish",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "Zt21DBeIsZ7aTpH1ewjXS",
+   "slot": "ticket",
+   "local": "Billett",
+   "phonetic": "bee-YET",
+   "meaning": "ticket",
+   "context": "Swiss uses the French word, not the German “Fahrkarte.”"
+  },
+  {
+   "id": "5rIdlA3MgMoH0zSe0doj21",
+   "slot": "bathroom",
+   "local": "WC",
+   "phonetic": "vay-tsay",
+   "meaning": "bathroom",
+   "context": "Ask for the “WC.” “Toilette” works too."
+  },
+  {
+   "id": "127v6i0z8SM2QF7SdrdStL",
+   "slot": "door-men",
+   "local": "Herren",
+   "phonetic": "HEH-run",
+   "meaning": "men"
+  },
+  {
+   "id": "67c2aYlCgqUhoVffKO83Zd",
+   "slot": "door-women",
+   "local": "Damen",
+   "phonetic": "DAH-mun",
+   "meaning": "women",
+   "groupNote": "Standard German on every door. “H” is “Herren,” men. “D” is “Damen,” women."
+  },
+  {
+   "id": "bSRURfiwA1SuQAQ81JKCV",
+   "slot": "atm",
+   "local": "Bancomat",
+   "phonetic": "BANK-o-maht",
+   "meaning": "ATM",
+   "context": "The same word Italy uses. Decline the offer to charge you in your home currency."
+  },
+  {
+   "id": "1PV7HAI0l6TxBBYb5oaHSr",
+   "slot": "how-much",
+   "local": "Wie viel?",
+   "phonetic": "vee FEEL",
+   "meaning": "how much?",
+   "phoneticApproximate": true
+  },
+  {
+   "id": "3RTBj7tUB08kwgVd6anjlF",
+   "slot": "card",
+   "local": "Kreditkarte",
+   "phonetic": "kray-DEET-kar-tuh",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up."
+  },
+  {
+   "id": "5huXpUCwtsVd7hYguj818S",
+   "slot": "cash",
+   "local": "Bargeld",
+   "phonetic": "BAR-gelt",
+   "meaning": "cash",
+   "context": "Switzerland is not in the euro. Prices are in francs, and euros get a poor rate where they’re taken at all."
+  },
+  {
+   "id": "5cgyZwJ3lNWrbtci2fUa06",
+   "slot": "bag",
+   "local": "Säckli?",
+   "phonetic": "SEK-lee",
+   "meaning": "bag?",
+   "context": "The “-li” ending is Zurich shrinking something. A “Sack” becomes a “Säckli.”"
+  },
+  {
+   "id": "3YalUkhhMqF3W7cFrOR8lg",
+   "slot": "deep-cut",
+   "local": "Chuchichäschtli",
+   "phonetic": "KHOO-khee-KHESHT-lee",
+   "context": "Kitchen cupboard, and the standard test of whether someone is really Swiss. Nobody expects you to manage it.",
+   "phoneticApproximate": true,
+   "deepCutOrder": 1
+  },
+  {
+   "id": "5tpiz0A59aMAyzDmzBBOgu",
+   "slot": "deep-cut",
+   "local": "Znüni & Zvieri",
+   "phonetic": "TSNEW-nee, TSFEE-ree",
+   "context": "The nine o’clock snack and the four o’clock one, named for the hours they happen at. Both are fixtures, not just words.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "6rBsbgA81VYO2L44Ir2Jw1",
+   "slot": "deep-cut",
+   "local": "Badi",
+   "phonetic": "BAH-dee",
+   "context": "A public swimming spot. Zurich has dozens along the river and the lake, and in summer the city relocates to them.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "5snq0UA5dnNVMR9qJBtT1P",
+   "slot": "deep-cut",
+   "local": "Bünzli",
+   "phonetic": "BEWNTS-lee",
+   "context": "A petty rule-follower, the sort who checks your recycling. The Swiss coined it about themselves, which tells you something.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "1OF84BaVlwFhIB8jQ1iXtt",
+   "slot": "deep-cut",
+   "local": "Röstigraben",
+   "phonetic": "RUSH-tee-grah-ben",
+   "context": "The rösti ditch: the invisible line between German- and French-speaking Switzerland. Invoked whenever the halves vote differently.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "2IsjtlLea1qlYnck942762",
+   "slot": "number-five",
+   "local": "Füüf",
+   "phonetic": "fewf",
+   "meaning": "five"
+  }
+ ]
+}

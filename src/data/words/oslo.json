@@ -1,0 +1,292 @@
+{
+ "city": "Oslo",
+ "words": [
+  {
+   "id": "oxIRNagAERGhUVSKBDK9G",
+   "slot": "greeting-morning",
+   "local": "God morgen",
+   "phonetic": "goo MOR-en",
+   "meaning": "good morning"
+  },
+  {
+   "id": "4Gvx3I5pL1Fghg4TjaNbYL",
+   "slot": "greeting-afternoon",
+   "local": "God dag",
+   "phonetic": "goo DAHG",
+   "meaning": "good afternoon",
+   "context": "Formal and fading. “Hei” has largely replaced it in ordinary speech."
+  },
+  {
+   "id": "61RDqj9OlWXSUnP0TM2FtB",
+   "slot": "greeting-evening",
+   "local": "God kveld",
+   "phonetic": "goo KVELL",
+   "meaning": "good evening",
+   "groupNote": "All three read as formal. “Hei” does most of the work at any hour."
+  },
+  {
+   "id": "6Vlu1Wzqt0RhzlQGCeKqT0",
+   "slot": "greeting-casual",
+   "local": "Hei",
+   "phonetic": "hay",
+   "meaning": "hello"
+  },
+  {
+   "id": "CIxs9vv4Bx8s8K8Ee3jNn",
+   "slot": "leaving",
+   "local": "Ha det",
+   "phonetic": "HA deh",
+   "meaning": "leaving a shop or café",
+   "context": "Short for “ha det bra,” “have it good.” Often doubled: “ha det, ha det.”"
+  },
+  {
+   "id": "6dJM5EY1XHRIpnG3tpznUW",
+   "slot": "please",
+   "local": "Vær så snill",
+   "phonetic": "vair soh SNILL",
+   "meaning": "please",
+   "context": "Norwegian has no neutral please, and this one is emphatic. Most requests simply attach “takk.”"
+  },
+  {
+   "id": "1326TjLbjNox0zUeikpeEV",
+   "slot": "thanks",
+   "local": "Takk",
+   "phonetic": "tahk",
+   "meaning": "thank you",
+   "context": "“Tusen takk” (TOO-sen tahk), “a thousand thanks,” is the everyday warm version."
+  },
+  {
+   "id": "4UFZJbcDtsr23lYeTBuT7n",
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes"
+  },
+  {
+   "id": "5OPtXMny7667W6hNOqiF9F",
+   "slot": "no",
+   "local": "Nei",
+   "phonetic": "nay",
+   "meaning": "no"
+  },
+  {
+   "id": "2XIzjzmi1UEoh6eg8VUsdw",
+   "slot": "speak-english",
+   "local": "Snakker du engelsk?",
+   "phonetic": "SNAH-ker doo ENG-elsk",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "45yuU7g7hJP7RfFkmd9cpw",
+   "slot": "sorry",
+   "local": "Beklager",
+   "phonetic": "beh-KLAH-ger",
+   "meaning": "sorry",
+   "context": "For a genuine apology. For everything else, “unnskyld.”"
+  },
+  {
+   "id": "6wwc1E9fqnDdBKQ4ojKfO7",
+   "slot": "excuse-attention",
+   "local": "Unnskyld",
+   "phonetic": "OON-shil",
+   "meaning": "excuse me",
+   "context": "For getting someone’s attention and for squeezing past."
+  },
+  {
+   "id": "2KV9EI6qllzjmqvtVmRuMk",
+   "slot": "number-one",
+   "local": "En",
+   "phonetic": "ayn",
+   "meaning": "one"
+  },
+  {
+   "id": "1yagUAmLt4AWDgxPUt1J1r",
+   "slot": "number-two",
+   "local": "To",
+   "phonetic": "too",
+   "meaning": "two"
+  },
+  {
+   "id": "1L0MgB6fy2Usefoxo9DeZm",
+   "slot": "number-three",
+   "local": "Tre",
+   "phonetic": "treh",
+   "meaning": "three"
+  },
+  {
+   "id": "5p67KSHgB0qCcOs86bIqlw",
+   "slot": "number-four",
+   "local": "Fire",
+   "phonetic": "FEE-reh",
+   "meaning": "four"
+  },
+  {
+   "id": "2lHQZloyMwYdbzvIfB0Dmg",
+   "slot": "menu",
+   "local": "Menyen?",
+   "phonetic": "meh-NEW-en",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Menyen, takk.”"
+  },
+  {
+   "id": "7x9XsRqLTDaCcIv9R7y5Ae",
+   "slot": "enjoy-meal",
+   "local": "Vel bekomme",
+   "phonetic": "vel beh-KOM-eh",
+   "meaning": "enjoy your meal",
+   "context": "Said after the meal rather than before, closer to “you’re welcome.”"
+  },
+  {
+   "id": "6ykFjhFrCwkYr2SEdWlTmN",
+   "slot": "cheers",
+   "local": "Skål",
+   "phonetic": "skoal",
+   "meaning": "cheers",
+   "context": "Eye contact before you drink and again as you set the glass down."
+  },
+  {
+   "id": "P1Y3v5fjbK88Rzl4LxNO8",
+   "slot": "delicious",
+   "local": "Nydelig!",
+   "phonetic": "NEW-deh-li",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "7ho4EiBeZT1T0G2flBPenb",
+   "slot": "check",
+   "local": "Regningen?",
+   "phonetic": "RY-ning-en",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Kan jeg få regningen?”"
+  },
+  {
+   "id": "2WUCUFgewGe7qnKapOpCgl",
+   "slot": "money-surprise",
+   "local": "Vinmonopolet",
+   "phonetic": "VEEN-mo-no-PO-leh",
+   "meaning": "state alcohol shop",
+   "context": "The only place to buy wine or spirits. Supermarkets stop at weak beer, and it shuts early and all Sunday."
+  },
+  {
+   "id": "60bm8tM9RoLpVNEkFZZhkf",
+   "slot": "where-is",
+   "local": "Hvor er…?",
+   "phonetic": "vor air",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "1rOg4LRIfcUCscREfIA4Eb",
+   "slot": "ticket",
+   "local": "Billett",
+   "phonetic": "bil-LET",
+   "meaning": "ticket"
+  },
+  {
+   "id": "6dGYnumN3BZtFpN8fAM4l0",
+   "slot": "bathroom",
+   "local": "Toalettet",
+   "phonetic": "too-ah-LET-teh",
+   "meaning": "bathroom"
+  },
+  {
+   "id": "4twM0BcGEk0Y8BRNKEGVXW",
+   "slot": "door-men",
+   "local": "Herrer",
+   "phonetic": "HEH-rer",
+   "meaning": "men"
+  },
+  {
+   "id": "5Dq2ZQnwRGhz9ff9blktgC",
+   "slot": "door-women",
+   "local": "Damer",
+   "phonetic": "DAH-mer",
+   "meaning": "women",
+   "groupNote": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+   "id": "I6663AipGbOOYWjBSh0wB",
+   "slot": "atm",
+   "local": "Minibank",
+   "phonetic": "MEE-nee-bank",
+   "meaning": "ATM",
+   "context": "Norway isn’t in the euro. Prices are in kroner, and you’ll rarely need cash at all."
+  },
+  {
+   "id": "3P63lvNgtXDHTh4Rt03Lle",
+   "slot": "how-much",
+   "local": "Hvor mye?",
+   "phonetic": "vor MEW-eh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "BZbde4HwrP0le8jJcnHB9",
+   "slot": "card",
+   "local": "Kort",
+   "phonetic": "kort",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. It’s the default everywhere."
+  },
+  {
+   "id": "12gnMBM8GMS1eLo8cyq2Fo",
+   "slot": "cash",
+   "local": "Kontanter",
+   "phonetic": "kon-TAN-ter",
+   "meaning": "cash"
+  },
+  {
+   "id": "1k13xGLowAsJYaPSXKTANp",
+   "slot": "bag",
+   "local": "Pose?",
+   "phonetic": "POO-seh",
+   "meaning": "bag?",
+   "context": "Charged. Say “nei takk” if you brought one."
+  },
+  {
+   "id": "6ZxX57uyLRtpFQfzoZwTKy",
+   "slot": "deep-cut",
+   "local": "Friluftsliv",
+   "phonetic": "FREE-loofts-liv",
+   "context": "Open-air living. Time outdoors treated as a necessity rather than a hobby, and undertaken in any weather.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "1gUPsNGmHyRlQhV0TOdt8F",
+   "slot": "deep-cut",
+   "local": "Utepils",
+   "phonetic": "OO-teh-pils",
+   "context": "The first beer drunk outdoors after winter. A specific annual moment that gets its own noun.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "62u0DT0iiScok3l0jXdn31",
+   "slot": "deep-cut",
+   "local": "Dugnad",
+   "phonetic": "DOOG-nahd",
+   "context": "Unpaid communal work — clearing the shared yard, painting the school. Turning up is close to obligatory.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "1rNRgoRDwd5KewH8jRi0tr",
+   "slot": "deep-cut",
+   "local": "Koselig",
+   "phonetic": "KOO-shuh-li",
+   "context": "Cozy and warm in company. Norway’s hygge, and Norwegians will tell you theirs came first.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "cMmDLnQV3L5JCPVyJYHzl",
+   "slot": "deep-cut",
+   "local": "Matpakke",
+   "phonetic": "MAHT-pah-keh",
+   "context": "The packed lunch, usually open sandwiches in paper. Adults eat it at their desks without any embarrassment.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "VOHwtM6Ew6rKcYaOUVXaI",
+   "slot": "number-five",
+   "local": "Fem",
+   "phonetic": "fem",
+   "meaning": "five"
+  }
+ ]
+}

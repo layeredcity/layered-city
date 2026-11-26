@@ -1,0 +1,295 @@
+{
+ "city": "Madrid",
+ "words": [
+  {
+   "id": "hiWNfivYhurjdbRp9wukE",
+   "slot": "greeting-morning",
+   "local": "Buenos días",
+   "phonetic": "BWEH-nohs DEE-ahs",
+   "meaning": "good morning"
+  },
+  {
+   "id": "1KXV4B2p7DS0X7zbJnfHa4",
+   "slot": "greeting-afternoon",
+   "local": "Buenas tardes",
+   "phonetic": "BWEH-nahs TAR-dehs",
+   "meaning": "good afternoon",
+   "context": "Doesn’t start until after lunch, and Madrid eats lunch at two or three. At noon it’s still “días.”"
+  },
+  {
+   "id": "5ZBSDqBgHN516KsD4cEnES",
+   "slot": "greeting-evening",
+   "local": "Buenas noches",
+   "phonetic": "BWEH-nahs NOH-chehs",
+   "meaning": "good evening"
+  },
+  {
+   "id": "7lhqtl9u9x4a8amcMMrVzL",
+   "slot": "greeting-casual",
+   "local": "Hola",
+   "phonetic": "OH-lah",
+   "meaning": "hello"
+  },
+  {
+   "id": "4ejGDvGXSzNf4CismnKXCi",
+   "slot": "leaving",
+   "local": "Hasta luego",
+   "phonetic": "AH-stah LWEH-goh",
+   "meaning": "leaving a shop or café",
+   "context": "Usually slurred to “ta-LWEH-goh.” “Adiós” exists but sounds final and almost nobody uses it."
+  },
+  {
+   "id": "6HIy0xU3AhSMyVOxBbAcNs",
+   "slot": "please",
+   "local": "Por favor",
+   "phonetic": "por fah-VOR",
+   "meaning": "please"
+  },
+  {
+   "id": "569YYStBHUGt5p7vebFOzf",
+   "slot": "thanks",
+   "local": "Gracias",
+   "phonetic": "GRAH-thee-ahs",
+   "meaning": "thank you",
+   "context": "That “th” is Castilian. Latin America says GRAH-see-ahs, and it’s the fastest way to sound like you learned elsewhere."
+  },
+  {
+   "id": "4Kv2nFARDgEgDxAx4LZhjx",
+   "slot": "yes",
+   "local": "Sí",
+   "phonetic": "see",
+   "meaning": "yes"
+  },
+  {
+   "id": "5bMR7Ns07vAk2sGdJC7FVf",
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no"
+  },
+  {
+   "id": "5Aa9lvtbzqj06U9wkH3im8",
+   "slot": "speak-english",
+   "local": "¿Habla inglés?",
+   "phonetic": "AH-blah een-GLEHS",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "13Bw8NiyCPgy7iNrsMwBtH",
+   "slot": "sorry",
+   "local": "Lo siento",
+   "phonetic": "loh SYEHN-toh",
+   "meaning": "sorry"
+  },
+  {
+   "id": "6c055LN5Q3aAIeCP5orpBi",
+   "slot": "excuse-attention",
+   "local": "Perdone",
+   "phonetic": "pehr-DOH-neh",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "7eryO7iJYDwQ3cuphsBh4a",
+   "slot": "excuse-passing",
+   "local": "Con permiso",
+   "phonetic": "kohn pehr-MEE-soh",
+   "meaning": "excuse me (squeezing past)",
+   "groupNote": "Spanish splits these less sharply than Portuguese or Italian. “Perdón” covers most of the ground."
+  },
+  {
+   "id": "6mUHsB6r3WlhUu3AYFgCb9",
+   "slot": "number-one",
+   "local": "Uno",
+   "phonetic": "OO-noh",
+   "meaning": "one"
+  },
+  {
+   "id": "584YnzV83wYoJEp28SYh7n",
+   "slot": "number-two",
+   "local": "Dos",
+   "phonetic": "dohs",
+   "meaning": "two"
+  },
+  {
+   "id": "22cij96qYPY9Ue6hgrpLwL",
+   "slot": "number-three",
+   "local": "Tres",
+   "phonetic": "trehs",
+   "meaning": "three"
+  },
+  {
+   "id": "4J1OrM4Yt1P6e11iTyBKME",
+   "slot": "number-four",
+   "local": "Cuatro",
+   "phonetic": "KWAH-troh",
+   "meaning": "four"
+  },
+  {
+   "id": "7wyTv7R3HUiKDc88rvFubg",
+   "slot": "menu",
+   "local": "Carta?",
+   "phonetic": "KAR-tah",
+   "meaning": "menu?",
+   "context": "Order “la carta” — “el menú” is the set lunch. More polite version: “La carta, por favor.”"
+  },
+  {
+   "id": "2wKpk62jx3reDvWUnwuOuY",
+   "slot": "enjoy-meal",
+   "local": "Que aproveche",
+   "phonetic": "keh ah-proh-VEH-cheh",
+   "meaning": "enjoy your meal",
+   "context": "Said by servers, and by strangers on their way out past your table."
+  },
+  {
+   "id": "25yHWAViWBQC4HQF86Vcq6",
+   "slot": "cheers",
+   "local": "Salud",
+   "phonetic": "sah-LOOD",
+   "meaning": "cheers"
+  },
+  {
+   "id": "6Um6K1bzozHl2u8xI3jzG",
+   "slot": "delicious",
+   "local": "¡Buenísimo!",
+   "phonetic": "bweh-NEE-see-moh",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "2PX6uoOVhA16XoCi0MI1Td",
+   "slot": "check",
+   "local": "La cuenta?",
+   "phonetic": "lah KWEHN-tah",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “La cuenta, por favor.”"
+  },
+  {
+   "id": "6QW3f4Y6Y9EN4SFqYwBgGw",
+   "slot": "money-surprise",
+   "local": "Tapa",
+   "phonetic": "TAH-pah",
+   "meaning": "small plate that arrives with a drink",
+   "context": "Madrid inverts the usual trick: this one is free. Ordering food you were about to be given is the error here."
+  },
+  {
+   "id": "56Nf33TQ35x00cg60E5z4D",
+   "slot": "where-is",
+   "local": "¿Dónde está…?",
+   "phonetic": "DOHN-deh ehs-TAH",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "EK0N4TXyTDx8pRvtAuNIe",
+   "slot": "ticket",
+   "local": "Billete",
+   "phonetic": "bee-YEH-teh",
+   "meaning": "ticket"
+  },
+  {
+   "id": "7t3C7YRpF745HQgQRxQUkc",
+   "slot": "bathroom",
+   "local": "Aseos",
+   "phonetic": "ah-SEH-ohs",
+   "meaning": "bathroom",
+   "context": "What the sign says. “El baño” works fine out loud."
+  },
+  {
+   "id": "3XauSerlCAlEmn5Tfs3Am7",
+   "slot": "door-men",
+   "local": "Caballeros",
+   "phonetic": "kah-bah-YEH-rohs",
+   "meaning": "men"
+  },
+  {
+   "id": "1lxHqGOSwuBGqSh3FuC2mN",
+   "slot": "door-women",
+   "local": "Señoras",
+   "phonetic": "seh-NYOH-rahs",
+   "meaning": "women",
+   "groupNote": "Bars and older places use these instead of “Hombres” and “Mujeres.” Note that “M” is women, not men."
+  },
+  {
+   "id": "4Kp1QppLjjwxwnFQngQRd9",
+   "slot": "atm",
+   "local": "Cajero",
+   "phonetic": "kah-HEH-roh",
+   "meaning": "ATM"
+  },
+  {
+   "id": "BUXPmCqaJMoA8KpEA0chJ",
+   "slot": "how-much",
+   "local": "¿Cuánto?",
+   "phonetic": "KWAN-toh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "3U0CyXlhWqsQdonh8UTR50",
+   "slot": "card",
+   "local": "Tarjeta",
+   "phonetic": "tar-HEH-tah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Turns a silent gesture into a question."
+  },
+  {
+   "id": "4V8TCn7nB8N7dP3agA3ueL",
+   "slot": "cash",
+   "local": "Efectivo",
+   "phonetic": "eh-fehk-TEE-boh",
+   "meaning": "cash"
+  },
+  {
+   "id": "4mclkCAKeaSRc59vJ2Yrta",
+   "slot": "bag",
+   "local": "¿Bolsa?",
+   "phonetic": "BOHL-sah",
+   "meaning": "bag?",
+   "context": "The one thing the cashier reliably asks. Usually charged — say “no, gracias” if you brought your own."
+  },
+  {
+   "id": "mEtmmynfQxqrG8gJnMrkc",
+   "slot": "deep-cut",
+   "local": "Sobremesa",
+   "phonetic": "soh-breh-MEH-sah",
+   "context": "The hour spent still at the table after the food is gone, talking. Not dessert, not lingering — its own named activity.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "aofIviuk8lj8Azg3BJ3Qj",
+   "slot": "deep-cut",
+   "local": "Caña",
+   "phonetic": "KAH-nyah",
+   "context": "A small draft beer, maybe 200ml. Ordered small on purpose so the next one is cold too.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "6JvFP0LJqxK4obqfbGpQtE",
+   "slot": "deep-cut",
+   "local": "Gato",
+   "phonetic": "GAH-toh",
+   "context": "“Cat” — someone whose family has been in Madrid for generations. Almost nobody qualifies.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "6WtMH0LGDvpyPtwf2seesz",
+   "slot": "deep-cut",
+   "local": "Madrugada",
+   "phonetic": "mah-droo-GAH-dah",
+   "context": "The stretch between midnight and dawn, treated as its own time of day. A city that eats at ten needs a word for it.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "rIiasV1yfvkV7xRMYcV6o",
+   "slot": "deep-cut",
+   "local": "Castizo",
+   "phonetic": "kahs-TEE-thoh",
+   "context": "Old-Madrid authentic: the tiled taverns, the vermouth on tap, the neighborhoods that never got renovated.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "ZGPw5fzU1ACHYj4UD2ole",
+   "slot": "number-five",
+   "local": "Cinco",
+   "phonetic": "SEEN-koh",
+   "meaning": "five"
+  }
+ ]
+}

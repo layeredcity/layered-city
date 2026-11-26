@@ -1,0 +1,165 @@
+{
+ "city": "Edinburgh",
+ "words": [
+  {
+   "id": "2Glz5Q3LO7INhVxO871uC5",
+   "slot": "greeting-casual",
+   "local": "You alright?",
+   "meaning": "hello",
+   "context": "A greeting. “Aye, yourself?” closes it. “How’s it gaun?” is the Scots version and means the same."
+  },
+  {
+   "id": "7cYmlnveth1N4yZERfH0sL",
+   "slot": "thanks",
+   "local": "Cheers",
+   "meaning": "thank you",
+   "context": "Universal. “Ta” works. “Cheers, aye” is the fuller and warmer version."
+  },
+  {
+   "id": "Ztvd7RnrOAvYg3mv1TJMi",
+   "slot": "leaving",
+   "local": "See you after",
+   "meaning": "leaving a shop or café",
+   "context": "“Cheerio” is still current here in a way it isn’t in England. “Mind how you go” is the warm version."
+  },
+  {
+   "id": "3CS4lGHff2XrBuq0D5fllx",
+   "slot": "sorry",
+   "local": "Sorry",
+   "meaning": "sorry",
+   "context": "Works for apologising and for getting past. The same reflex as England, deployed slightly less often."
+  },
+  {
+   "id": "3JRzVuFsZAK5mV4L5fBfZi",
+   "slot": "excuse-attention",
+   "local": "Excuse me",
+   "meaning": "getting attention",
+   "context": "Bar service by eye contact. Edinburgh bars are orderly and the barman is tracking who came in when."
+  },
+  {
+   "id": "0qLsOHWZHdkQSLNYaRRQp",
+   "slot": "check",
+   "local": "The bill, please",
+   "meaning": "the check, please",
+   "context": "Asking for “the check” marks you instantly."
+  },
+  {
+   "id": "3uzQL0WIjkhoZq9ysdAvBh",
+   "slot": "money-surprise",
+   "local": "Service charge",
+   "meaning": "service charge",
+   "context": "Less common than in London and usually only for large groups. Read the bottom of the bill before tipping."
+  },
+  {
+   "id": "Ic4GvOaVCHnra4oTAJzxy",
+   "slot": "ticket",
+   "local": "Contactless",
+   "meaning": "ticket",
+   "context": "Tap on Lothian buses. If you pay cash they give no change at all, so bring the exact fare or use a card."
+  },
+  {
+   "id": "5OYll6HvFWDKJLXPPNfduR",
+   "slot": "bathroom",
+   "local": "Toilets",
+   "meaning": "bathroom",
+   "context": "“Loo” works. Older pubs occasionally sign them in Scots or Gaelic with no English at all."
+  },
+  {
+   "id": "550UBQVzLvyolZJfONu7p6",
+   "slot": "door-men",
+   "local": "Gents",
+   "meaning": "men"
+  },
+  {
+   "id": "NCUncOvMEkviEs3srPaPv",
+   "slot": "door-women",
+   "local": "Ladies",
+   "meaning": "women",
+   "groupNote": "Standard on most doors. “Fir” and “Mnathan” turn up on Gaelic signage — “Fir” is men."
+  },
+  {
+   "id": "4tCt3ZDUS0GJXNGWOdZP31",
+   "slot": "atm",
+   "local": "Cashpoint",
+   "meaning": "ATM",
+   "context": "Also “the hole in the wall.” Scottish banks issue their own notes, which are legal but sometimes refused in England."
+  },
+  {
+   "id": "2J07pIxug9T4KGl9rrAbQW",
+   "slot": "card",
+   "local": "Card",
+   "meaning": "credit card",
+   "context": "Contactless everywhere. Say it as you hold the card up."
+  },
+  {
+   "id": "261IG66K5jKXQQgEPD8hvR",
+   "slot": "cash",
+   "local": "Cash",
+   "meaning": "cash",
+   "context": "Scottish notes look nothing like Bank of England ones. Both work here; spend the Scottish ones before you leave."
+  },
+  {
+   "id": "tKU1H6R6iOeDoJD6io4lO",
+   "slot": "bag",
+   "local": "Bag?",
+   "meaning": "bag?",
+   "context": "Charged. Say “no thanks” if you brought one."
+  },
+  {
+   "id": "1MCuyJmG3inm06kPvjtUjS",
+   "slot": "deep-cut",
+   "local": "Dreich",
+   "context": "Gray, damp, cold, and endless — the specific Scottish weather that never quite commits to being rain.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "6Q13BvfFRa9CxwS4bOCb0w",
+   "slot": "deep-cut",
+   "local": "Wee",
+   "context": "Small, and also a softener attached to almost anything. “A wee minute” can comfortably mean an hour.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "4xDVVob5WdOPC4dmnCxCxk",
+   "slot": "deep-cut",
+   "local": "Ken",
+   "context": "Know. “D’ye ken?” is “you know?” and “ah dinnae ken” is “I don’t know.”",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "5M6D1UwT9mfBGNtwbI777",
+   "slot": "deep-cut",
+   "local": "Close",
+   "context": "A narrow covered passage off the Royal Mile leading to a courtyard. There are dozens and most are easy to walk straight past.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "1O2DPkgnT9FuWXAgBvcehR",
+   "slot": "deep-cut",
+   "local": "Auld Reekie",
+   "context": "“Old Smoky” — Edinburgh’s own nickname, from the coal smoke that used to sit over the Old Town.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "7ASdbEZguL0zwHLYnk8ita",
+   "slot": "deep-cut",
+   "local": "Messages",
+   "context": "The groceries. “Away to get the messages” means going to the shops, and catches out every visitor once.",
+   "deepCutOrder": 6
+  },
+  {
+   "id": "6K1JAp8dlBUBrPrlTr1ign",
+   "slot": "deep-cut",
+   "local": "Blether",
+   "context": "To chat at length about nothing in particular. Also a person who does rather too much of it.",
+   "deepCutOrder": 7
+  },
+  {
+   "id": "61oQTDfWZRMbGUHHzVOT1o",
+   "slot": "deep-cut",
+   "local": "Gaun yersel",
+   "context": "“Go on yourself” — encouragement, approval, and open delight at someone doing well.",
+   "deepCutOrder": 8
+  }
+ ]
+}

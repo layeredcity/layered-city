@@ -1,0 +1,312 @@
+{
+ "city": "Munich",
+ "words": [
+  {
+   "id": "kSVVJ57WlgZjOgVfr78bp",
+   "slot": "greeting-morning",
+   "local": "Guten Morgen",
+   "phonetic": "GOO-ten MOR-gen",
+   "meaning": "good morning",
+   "context": "Often cut to just “Morgen.”"
+  },
+  {
+   "id": "xmgx42oqAFWZBAc7oSWRX",
+   "slot": "greeting-afternoon",
+   "local": "Grüß Gott",
+   "phonetic": "grewss GOT",
+   "meaning": "hello / good day",
+   "context": "The Bavarian daytime greeting for shops and strangers. “Guten Tag” is understood everywhere but sounds northern here."
+  },
+  {
+   "id": "44qRhah7ptptghoL0RP8qt",
+   "slot": "greeting-evening",
+   "local": "Guten Abend",
+   "phonetic": "GOO-ten AH-bent",
+   "meaning": "good evening",
+   "groupNote": "“Grüß Gott” covers most of the day, so the morning and evening forms are both optional."
+  },
+  {
+   "id": "1pVZwsmcChCIC1SSKGILk9",
+   "slot": "greeting-casual",
+   "local": "Servus",
+   "phonetic": "SEHR-voos",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye both, for friends and people your age. Too familiar for a stranger behind a counter."
+  },
+  {
+   "id": "3VzMFEoiVFgPZWCXJ66xzD",
+   "slot": "leaving",
+   "local": "Auf Wiederschaun",
+   "phonetic": "owf VEE-der-shown",
+   "meaning": "leaving a shop or café",
+   "context": "The southern form of “Auf Wiedersehen.” Among friends you’ll hear “Pfiat di” (FEE-at dee), short for God protect you."
+  },
+  {
+   "id": "5ADljnfA791nFXl5jyoYdo",
+   "slot": "please",
+   "local": "Bitte",
+   "phonetic": "BIT-tuh",
+   "meaning": "please",
+   "context": "Also “you’re welcome,” and “here you go” when something is handed over."
+  },
+  {
+   "id": "h9rfeETg3TOOW0JE5WboK",
+   "slot": "thanks",
+   "local": "Danke",
+   "phonetic": "DAHN-kuh",
+   "meaning": "thank you",
+   "context": "“Danke schön” is the usual form at a counter."
+  },
+  {
+   "id": "4OZyGdElTgTZbW1vx6AJrR",
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes"
+  },
+  {
+   "id": "403gypeJltfVJQms9vWu1w",
+   "slot": "no",
+   "local": "Nein",
+   "phonetic": "nine",
+   "meaning": "no"
+  },
+  {
+   "id": "6KNXalpM1EjQMNZWHH3ehk",
+   "slot": "speak-english",
+   "local": "Sprechen Sie Englisch?",
+   "phonetic": "SHPREH-khen zee ENG-lish",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "mNDpNu5SJtJMK2PTMu1kz",
+   "slot": "dont-speak",
+   "local": "Ich spreche kein Deutsch",
+   "phonetic": "ikh SHPREH-khuh kine doytch",
+   "meaning": "I don’t speak German"
+  },
+  {
+   "id": "6qOyh4oMDRVa6jVVhVHAjZ",
+   "slot": "sorry",
+   "local": "Entschuldigung",
+   "phonetic": "ent-SHOOL-dee-goong",
+   "meaning": "sorry"
+  },
+  {
+   "id": "5e3CJdhla6JsV0aLHBRHZe",
+   "slot": "excuse-attention",
+   "local": "Entschuldigen Sie",
+   "phonetic": "ent-SHOOL-dee-gen zee",
+   "meaning": "excuse me (getting attention)"
+  },
+  {
+   "id": "4kENy1XBX22vJWTLyAXyjO",
+   "slot": "excuse-passing",
+   "local": "Darf ich mal vorbei?",
+   "phonetic": "darf ikh mahl for-BYE",
+   "meaning": "excuse me (squeezing past)",
+   "context": "On a packed beer hall bench, a plain “Entschuldigung” while you squeeze does the job."
+  },
+  {
+   "id": "21jG1NusgxytQKsMZVm5Nl",
+   "slot": "number-one",
+   "local": "Eins",
+   "phonetic": "eyns",
+   "meaning": "one"
+  },
+  {
+   "id": "2XGq56lrln1roxySn6RiEC",
+   "slot": "number-two",
+   "local": "Zwei",
+   "phonetic": "tsvy",
+   "meaning": "two"
+  },
+  {
+   "id": "1w8G6QFEzdvctr6L6ZyTPc",
+   "slot": "number-three",
+   "local": "Drei",
+   "phonetic": "dry",
+   "meaning": "three"
+  },
+  {
+   "id": "79zFwCM6a8kcVQZePi4xdw",
+   "slot": "number-four",
+   "local": "Vier",
+   "phonetic": "feer",
+   "meaning": "four",
+   "context": "Counting on fingers starts with the thumb. One finger up can get you two beers."
+  },
+  {
+   "id": "3yNeoD3QjOXp41v5ee3kAb",
+   "slot": "menu",
+   "local": "Speisekarte?",
+   "phonetic": "SHPY-zuh-kar-tuh",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte.”"
+  },
+  {
+   "id": "2ycKbaj5chGHl317YFETvo",
+   "slot": "enjoy-meal",
+   "local": "Guten Appetit",
+   "phonetic": "GOO-ten ah-peh-TEET",
+   "meaning": "enjoy your meal",
+   "context": "The Bavarian version is “An Guadn” (an GWAH-dn). “Mahlzeit” is the midday greeting in passing."
+  },
+  {
+   "id": "61M7BztWULPJWw1MBKMTkK",
+   "slot": "cheers",
+   "local": "Prost",
+   "phonetic": "prohst",
+   "meaning": "cheers",
+   "context": "Eye contact with each person as you clink. With a Maß, knock the heavy bodies of the glasses, not the rims."
+  },
+  {
+   "id": "6Z1MXMpJ6JMpwvvJy2aQI1",
+   "slot": "delicious",
+   "local": "Sehr gut!",
+   "phonetic": "zair goot",
+   "meaning": "delicious!",
+   "context": "“Lecker” works too but sounds northern. Bavarians say “guad” (gwahd)."
+  },
+  {
+   "id": "4WEppy1jEDMeib8OHG1nGd",
+   "slot": "check",
+   "local": "Zahlen?",
+   "phonetic": "TSAH-len",
+   "meaning": "the check?",
+   "context": "Expect “zusammen oder getrennt?” (together or separate?). To tip, round up and say the total as you pay."
+  },
+  {
+   "id": "3jbmerMa0RyQ4N76qsdgbO",
+   "slot": "money-surprise",
+   "local": "Pfand",
+   "phonetic": "pfahnt",
+   "meaning": "deposit",
+   "context": "Added for the Maß glass in self-service beer gardens and on bottles. Return the glass, or the token, to get it back."
+  },
+  {
+   "id": "6DcLopgEmL2b5rmYqZjJ42",
+   "slot": "where-is",
+   "local": "Wo ist…?",
+   "phonetic": "voh ist",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "rNNYCvx8L6pOmPkPE02fc",
+   "slot": "ticket",
+   "local": "Fahrkarte",
+   "phonetic": "FAR-kar-tuh",
+   "meaning": "ticket",
+   "context": "No barriers on the U-Bahn or S-Bahn. Paper tickets must be stamped in the small machines before boarding."
+  },
+  {
+   "id": "5jXOV9yzKtgvTbbwQtKN48",
+   "slot": "bathroom",
+   "local": "Toilette",
+   "phonetic": "toy-LET-tuh",
+   "meaning": "bathroom",
+   "context": "“WC” on signs. Station toilets usually charge, so keep a coin."
+  },
+  {
+   "id": "3V8czhTj6tpFJj4nRrPb48",
+   "slot": "door-men",
+   "local": "Herren",
+   "phonetic": "HEH-ren",
+   "meaning": "men"
+  },
+  {
+   "id": "6ZXYn60InziAZoK4PZ2DJv",
+   "slot": "door-women",
+   "local": "Damen",
+   "phonetic": "DAH-men",
+   "meaning": "women",
+   "groupNote": "“H” is men, “D” is women. Some places print only the single letters."
+  },
+  {
+   "id": "6rocpK4niRlGo6FmraQtTX",
+   "slot": "how-much",
+   "local": "Wie viel?",
+   "phonetic": "vee FEEL",
+   "meaning": "how much?"
+  },
+  {
+   "id": "2td2ROene4YmaFM0XbCfvU",
+   "slot": "cash",
+   "local": "Bargeld",
+   "phonetic": "BAR-gelt",
+   "meaning": "cash",
+   "context": "Still expected at many bakeries, beer gardens and old Wirtshäuser. Carry some."
+  },
+  {
+   "id": "3BnuHCPaRAIuCwtTCiaKgS",
+   "slot": "card",
+   "local": "Mit Karte?",
+   "phonetic": "mit KAR-tuh",
+   "meaning": "by card?",
+   "context": "Say it as you hold the card up, ideally before you order."
+  },
+  {
+   "id": "4PpEVXRuTfqP7p5Ysp9j57",
+   "slot": "atm",
+   "local": "Geldautomat",
+   "phonetic": "GELT-ow-toh-maht",
+   "meaning": "ATM",
+   "context": "“Bankomat” is the Austrian word. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "l0jxDBjFr7KhwtiFQhqjf",
+   "slot": "bag",
+   "local": "Tüte?",
+   "phonetic": "TEW-tuh",
+   "meaning": "bag?",
+   "context": "Usually charged. Say “nein, danke” if you brought one."
+  },
+  {
+   "id": "5oneen2z7N34ZaKu0bfkDr",
+   "slot": "deep-cut",
+   "local": "Brotzeit",
+   "phonetic": "BROHT-tsite",
+   "context": "Literally “bread time”: a cold spread of bread, cheese, sausage, and radish, at any hour. It is also what you unpack at a beer garden.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "2hdaCVzQBVBRkb2Jx3bzV3",
+   "slot": "deep-cut",
+   "local": "Wiesn",
+   "phonetic": "VEE-zn",
+   "context": "What locals call the Oktoberfest, after the Theresienwiese meadow it fills. Locals rarely call it anything else.",
+   "deepCutOrder": 2
+  },
+  {
+   "id": "6tQD3o6NYc3PdJr1guEqLg",
+   "slot": "deep-cut",
+   "local": "Grantler",
+   "phonetic": "GRAHNT-ler",
+   "context": "The Munich grump, complaining as a matter of style. “Grantig” is the mood. It is rarely personal.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "2o89CC6bLIkndJKdVFjOBP",
+   "slot": "deep-cut",
+   "local": "Föhn",
+   "phonetic": "fern",
+   "context": "A warm, dry wind off the Alps. The mountains look close enough to touch, and locals blame it for headaches and bad tempers.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "01gzYSFSQu6VVlfZqSuEzu",
+   "slot": "deep-cut",
+   "local": "Gaudi",
+   "phonetic": "GOW-dee",
+   "context": "Fun, a good time, a bit of a riot. A beer tent at full volume is a “Riesengaudi,” a giant one.",
+   "deepCutOrder": 5
+  },
+  {
+   "id": "PcFVE1X6XCmyWazVci1Ol",
+   "slot": "number-five",
+   "local": "Fünf",
+   "phonetic": "fewnf",
+   "meaning": "five"
+  }
+ ]
+}

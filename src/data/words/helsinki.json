@@ -1,0 +1,288 @@
+{
+ "city": "Helsinki",
+ "words": [
+  {
+   "id": "5h9aDFWwSc1s9vOEzcJdr2",
+   "slot": "greeting-morning",
+   "local": "Huomenta",
+   "phonetic": "HOO-oh-men-tah",
+   "meaning": "good morning"
+  },
+  {
+   "id": "5kfF1fv8tZ8zEQAJtg1FUK",
+   "slot": "greeting-afternoon",
+   "local": "Päivää",
+   "phonetic": "PIE-vaa",
+   "meaning": "good afternoon",
+   "context": "The all-purpose polite daytime greeting, and the one to use with anyone you don’t know."
+  },
+  {
+   "id": "4wNvJG9rRa64bW7ZfRLx8p",
+   "slot": "greeting-evening",
+   "local": "Iltaa",
+   "phonetic": "EEL-tah",
+   "meaning": "good evening",
+   "groupNote": "All three are clipped forms of longer phrases. Nobody says the long versions any more."
+  },
+  {
+   "id": "4oKotjgHNjn91ShxhY4fEM",
+   "slot": "greeting-casual",
+   "local": "Moi",
+   "phonetic": "moy",
+   "meaning": "hello (casual)",
+   "context": "Works for hello and goodbye both. “Hei” (hay) sits in the same register."
+  },
+  {
+   "id": "4kVV5dG7UGRgNzRRdli90q",
+   "slot": "leaving",
+   "local": "Näkemiin",
+   "phonetic": "NAK-eh-meen",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until seeing.” “Moi moi” is the casual version and far more common."
+  },
+  {
+   "id": "3MwQwOk56ICXytS0Q7wXlU",
+   "slot": "please",
+   "local": "Saisinko…",
+   "phonetic": "SIGH-sin-koh",
+   "meaning": "could I have…",
+   "context": "Finnish has no word for please. Politeness lives inside the verb form, and this is the one to use."
+  },
+  {
+   "id": "3GTbQ3fxZNN5zmlNZH32cd",
+   "slot": "thanks",
+   "local": "Kiitos",
+   "phonetic": "KEE-tos",
+   "meaning": "thank you",
+   "context": "Also does duty as please and yes-please. “Kiitos paljon” (PAHL-yon) is the fuller version."
+  },
+  {
+   "id": "6UpSQS6sTTpu6NIhqidwm0",
+   "slot": "yes",
+   "local": "Kyllä",
+   "phonetic": "KEWL-lah",
+   "meaning": "yes",
+   "context": "“Joo” (yoh) is the casual everyday yes and what you’ll mostly hear."
+  },
+  {
+   "id": "2SVrwxqpUEcd1PDi3kowRc",
+   "slot": "no",
+   "local": "Ei",
+   "phonetic": "ay",
+   "meaning": "no"
+  },
+  {
+   "id": "6LdEnfSpquOFb5aEWawUPd",
+   "slot": "speak-english",
+   "local": "Puhutko englantia?",
+   "phonetic": "POO-hoot-koh ENG-lahn-tee-ah",
+   "meaning": "do you speak English?"
+  },
+  {
+   "id": "4QR3bdkcxpDuv2Eaui4e5K",
+   "slot": "sorry",
+   "local": "Anteeksi",
+   "phonetic": "AHN-tayk-see",
+   "meaning": "sorry / excuse me",
+   "context": "For apologising, getting someone’s attention, and squeezing past."
+  },
+  {
+   "id": "4VNrAjwi2ylXXA8YsW2pd1",
+   "slot": "number-one",
+   "local": "Yksi",
+   "phonetic": "EWK-see",
+   "meaning": "one"
+  },
+  {
+   "id": "435aGa5U942AEVue8ozG0R",
+   "slot": "number-two",
+   "local": "Kaksi",
+   "phonetic": "KAHK-see",
+   "meaning": "two"
+  },
+  {
+   "id": "5fmpMfRg597rdRS2cFTyDM",
+   "slot": "number-three",
+   "local": "Kolme",
+   "phonetic": "KOL-meh",
+   "meaning": "three"
+  },
+  {
+   "id": "563oLaPcB5t5AWy7HzCOTE",
+   "slot": "number-four",
+   "local": "Neljä",
+   "phonetic": "NEL-ya",
+   "meaning": "four"
+  },
+  {
+   "id": "2UpkRxmBaoGbATJ6y4Aba2",
+   "slot": "menu",
+   "local": "Ruokalista?",
+   "phonetic": "ROO-oh-kah-lis-tah",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Ruokalista, kiitos.”"
+  },
+  {
+   "id": "3K4qj4lrjSr54FyJ3jx5vt",
+   "slot": "enjoy-meal",
+   "local": "Hyvää ruokahalua",
+   "phonetic": "HEW-vaa ROO-oh-kah-hah-loo-ah",
+   "meaning": "enjoy your meal"
+  },
+  {
+   "id": "5hjHinef7GTVXz4Tf03a4s",
+   "slot": "cheers",
+   "local": "Kippis",
+   "phonetic": "KIP-pis",
+   "meaning": "cheers"
+  },
+  {
+   "id": "6qz2NRb3FMUP7fpDL7TBba",
+   "slot": "delicious",
+   "local": "Herkullista!",
+   "phonetic": "HER-kool-lis-tah",
+   "meaning": "delicious!"
+  },
+  {
+   "id": "1wqmuKCmhJWUXpjsmSTDA3",
+   "slot": "check",
+   "local": "Lasku?",
+   "phonetic": "LAHS-koo",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Saisinko laskun.”"
+  },
+  {
+   "id": "3cmtRIsxPamdZH7NwTFd3m",
+   "slot": "money-surprise",
+   "local": "Alko",
+   "phonetic": "AHL-koh",
+   "meaning": "state alcohol shop",
+   "context": "The only place to buy wine or spirits. Supermarkets stop at weak beer, and it closes early and all Sunday."
+  },
+  {
+   "id": "4QTYDjymJM6ySu1TC2JFZG",
+   "slot": "where-is",
+   "local": "Missä on…?",
+   "phonetic": "MIS-sa on",
+   "meaning": "where is…?"
+  },
+  {
+   "id": "2TaLafmjj442XzjofSOTlw",
+   "slot": "ticket",
+   "local": "Lippu",
+   "phonetic": "LIP-poo",
+   "meaning": "ticket",
+   "context": "Buy in the HSL app before boarding. There’s no cash on trams."
+  },
+  {
+   "id": "2SMrFt5Ebr2D7SGP1bugdp",
+   "slot": "bathroom",
+   "local": "Vessa",
+   "phonetic": "VES-sah",
+   "meaning": "bathroom",
+   "context": "“WC” on the door. “Vessa” is what people actually say."
+  },
+  {
+   "id": "6kLJxnSEbkvPMKemJvbCXI",
+   "slot": "door-men",
+   "local": "Miehet",
+   "phonetic": "MEE-eh-het",
+   "meaning": "men"
+  },
+  {
+   "id": "53szUAxv1qXURYEWKoOD9U",
+   "slot": "door-women",
+   "local": "Naiset",
+   "phonetic": "NIGH-set",
+   "meaning": "women",
+   "groupNote": "“M” is men here, the opposite of Spanish. Doors are often labeled in Finnish and Swedish both."
+  },
+  {
+   "id": "4UpwhcLoR6kLrLcB2LtQeh",
+   "slot": "atm",
+   "local": "Pankkiautomaatti",
+   "phonetic": "PAHNK-kee-ow-toh-maht-tee",
+   "meaning": "ATM",
+   "context": "Most are branded Otto. and signed in orange. Decline the offer to charge you in dollars."
+  },
+  {
+   "id": "38qk2jaZkwmvqaXZT2Cz3h",
+   "slot": "how-much",
+   "local": "Paljonko?",
+   "phonetic": "PAHL-yon-koh",
+   "meaning": "how much?"
+  },
+  {
+   "id": "3jGDtr0JngJAXKnFyNuVPW",
+   "slot": "card",
+   "local": "Kortti",
+   "phonetic": "KOR-tee",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Finland is close to cashless."
+  },
+  {
+   "id": "70a4py2G03OSyVEe5vr5BQ",
+   "slot": "cash",
+   "local": "Käteinen",
+   "phonetic": "KA-tay-nen",
+   "meaning": "cash"
+  },
+  {
+   "id": "2blRSdkXNUfLKwKZPK9hWH",
+   "slot": "bag",
+   "local": "Pussi?",
+   "phonetic": "POOS-see",
+   "meaning": "bag?",
+   "context": "Charged. Say “ei kiitos” if you brought one."
+  },
+  {
+   "id": "1Io8PgtiTZHatVaetOcSrH",
+   "slot": "deep-cut",
+   "local": "Sisu",
+   "phonetic": "SEE-soo",
+   "context": "Stubborn endurance carried past the point where giving up would be reasonable. The single most Finnish word there is.",
+   "deepCutOrder": 1
+  },
+  {
+   "id": "OtXOJBOivCNoPUoZuIzgw",
+   "slot": "deep-cut",
+   "local": "Löyly",
+   "phonetic": "LUR-ew-lew",
+   "context": "The steam that rises when water hits the sauna stones. Not the sauna, not the heat — the steam itself.",
+   "phoneticApproximate": true,
+   "deepCutOrder": 2
+  },
+  {
+   "id": "6pvNMsIhzJ6M0gXPPXVyEl",
+   "slot": "deep-cut",
+   "local": "Kalsarikännit",
+   "phonetic": "KAHL-sah-ree-kan-nit",
+   "context": "Drinking at home alone in your underwear with no intention of going out. Finland made it an official emoji.",
+   "deepCutOrder": 3
+  },
+  {
+   "id": "4dRJfzjlKjvNPOvuqihQj5",
+   "slot": "deep-cut",
+   "local": "Talkoot",
+   "phonetic": "TAHL-koht",
+   "context": "Unpaid communal work done together — the same idea as Norway’s dugnad, and just as expected of you.",
+   "deepCutOrder": 4
+  },
+  {
+   "id": "dtImfMXhDkj10dTzpKIDl",
+   "slot": "deep-cut",
+   "local": "Jokamiehenoikeus",
+   "phonetic": "YOH-kah-mee-eh-hen-oy-keh-oos",
+   "context": "Everyman’s right: you may walk, camp, and forage on almost any land, including land someone owns.",
+   "phoneticApproximate": true,
+   "deepCutOrder": 5
+  },
+  {
+   "id": "7kghecdgFdBby3TDecNYdU",
+   "slot": "number-five",
+   "local": "Viisi",
+   "phonetic": "VEE-see",
+   "meaning": "five"
+  }
+ ]
+}
