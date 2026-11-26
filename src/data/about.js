@@ -74,6 +74,12 @@ export default [
     ],
   },
   {
+    heading: 'How are facts checked?',
+    paragraphs: [
+      'Before a new city goes up, a script checks each item against its source. It confirms each video’s title, channel, and length on YouTube, each podcast episode in Apple’s podcast directory, each film by its IMDb listing, and each book by its ISBN. A second check makes sure every link still works and leads to the right page. Recent threads were also checked claim by claim against published sources. These checks catch broken links and mismatched details, but they can’t catch everything, so if you spot a mistake, I’d like to hear about it.',
+    ],
+  },
+  {
     heading: 'Who makes it?',
     paragraphs: [
       'Ryan Nee. I was born in Denver, and I live in Minneapolis. I’ve traveled to more than 70 countries, and I care about helping people enjoy the richness and complexity of the places they visit.',
