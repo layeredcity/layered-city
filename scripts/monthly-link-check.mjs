@@ -29,6 +29,7 @@ async function all(type) {
 }
 
 const withScheme = u => (/^https?:\/\//i.test(u) ? u : 'https://' + u)
+const BLOCKS_ROBOTS = /(^|\.)(spotify\.com|bookshop\.org|justwatch\.com)$/
 const ytId = u => (u.match(/(?:youtube\.com\/(?:watch\?v=|embed\/|shorts\/)|youtu\.be\/)([\w-]{11})/) || [])[1]
 
 async function get(url) {
@@ -53,6 +54,9 @@ async function check(url) {
   }
   const r = await get(url)
   if (r.status >= 200 && r.status < 400) return { ok: true }
+  // These sites turn away robots (403) or rate-limit them (429), so those
+  // answers say nothing about the link. The first run flagged 1,300 of them.
+  if ([403, 429].includes(r.status) && BLOCKS_ROBOTS.test(new URL(url).hostname)) return { ok: true }
   const dead = r.status === 404 || r.status === 410 || ['ENOTFOUND', 'ECONNREFUSED', 'EAI_AGAIN'].includes(r.error)
   return { verdict: dead ? 'broken' : 'check', status: r.status, note: r.error, final: r.final }
 }
