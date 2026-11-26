@@ -18,14 +18,15 @@ mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN
 const ROUTE_COLOR = '#C8412A'
 
 // A Commons image with a short label for what it shows (thread-photo-labels.json)
-// and its credit line (the licences require one).
+// and its credit line (the licences require one). Ryan's own photos have no
+// Commons page, so their credit is plain text rather than a link.
 function ThreadPhoto({ file, className }) {
   const p = file && PHOTOS[file]
   if (!p) return null
   return (
     <figure className={className}>
       <div className={className + '__frame'}><img src={p.src} alt="" width={p.w} height={p.h} /></div>
-      <figcaption>{LABELS[file] && <span className="thread-cap__label">{LABELS[file]}</span>}<a href={p.page} target="_blank" rel="noreferrer">{p.author.replace(/^(.+?)\1$/, '$1')}{p.license ? ` · ${p.license}` : ''}</a></figcaption>
+      <figcaption>{LABELS[file] && <span className="thread-cap__label">{LABELS[file]}</span>}{(() => { const credit = p.author.replace(/^(.+?)\1$/, '$1') + (p.license ? ` · ${p.license}` : ''); return p.page ? <a href={p.page} target="_blank" rel="noreferrer">{credit}</a> : <span>{credit}</span> })()}</figcaption>
     </figure>
   )
 }

@@ -3,6 +3,9 @@
 // public/threads/, with author and licence for the credit line, and writes
 // src/data/thread-photos.json (file name → { src, author, license, page }).
 // Images already copied are skipped. Runs in .github/workflows/thread-photos.yml.
+// Ryan's own photos are added to thread-photos.json by hand under a made-up
+// file name (e.g. "ryan-nee-appian-way-2023.jpg") with an empty page, so this
+// script finds them already present and leaves them alone.
 import fs from 'node:fs/promises'
 import crypto from 'node:crypto'
 import sharp from 'sharp'
