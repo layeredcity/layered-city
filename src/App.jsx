@@ -1841,7 +1841,6 @@ function CityHero({ city }) {
 
 export default function App() {
   const [cities, setCities] = useState([])
-  const [storyCounts, setStoryCounts] = useState({})
   const [selectedCity, setSelectedCity] = useState(null)
   const [stories, setStories] = useState([])
   const [storiesLoading, setStoriesLoading] = useState(false)
@@ -1974,7 +1973,6 @@ export default function App() {
     try {
       const data = await fetchStoriesForCity(city.id)
       setStories(data)
-      setStoryCounts(prev => ({ ...prev, [city.id]: data.length }))
       data.filter(s => s.imdbId).forEach(s => {
         fetchOmdbData(s.imdbId).then(omdb => {
           if (omdb) setOmdbCache(prev => ({ ...prev, [s.imdbId]: omdb }))
@@ -2060,16 +2058,9 @@ export default function App() {
         }
       }
 
-      const counts = {}
-      await Promise.all(data.map(async city => {
-        try {
-          const stories = await fetchStoriesForCity(city.id)
-          counts[city.id] = stories.length
-          setStoryCounts(prev => ({ ...prev, [city.id]: stories.length }))
-        } catch (e) {
-          counts[city.id] = 0
-        }
-      }))
+      // (This used to fetch every city's stories here to count them, about 40
+      // Contentful calls per visit, but the counts were never shown. Removed to
+      // stay well inside the free plan's 100,000 API calls a month.)
     }).catch(err => {
       console.error('Failed to fetch cities:', err)
       setLoading(false)
