@@ -27,7 +27,11 @@ month). Over about a year it works through every thread and every city.
    URL if you find one. Skim `check` entries and list only the ones that look
    really dead. Don't edit Contentful; Ryan fixes these.
 
-3. **Threads.** Take the 6 threads in `log.json` checked longest ago (never
+3. **Threads.** *Until December 17, 2026: don't edit `src/data/threads.json`.
+   ElevenLabs credits are used up until then, so a changed sentence couldn't be
+   re-recorded. List thread errors in the report instead; Ryan plans a full
+   fact check and rewrite of the older threads once credits renew.*
+   Take the 6 threads in `log.json` checked longest ago (never
    checked first, then oldest date). For each chapter, check every factual
    claim (names, dates, places, numbers, who did what) against published
    sources using WebSearch and WebFetch. Wikipedia is fine for a first look;

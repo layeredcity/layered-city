@@ -1496,13 +1496,14 @@ function StoryModal({ story, onClose, onOpenMedia, omdbData, bookData, onOpenSto
 }
 
 // A small "Report a problem" link under a story, opening a short form that
-// goes to Netlify Forms (see the hidden form in index.html).
-function ReportProblem({ story }) {
+// goes to Netlify Forms (see the hidden form in index.html). Without a story
+// (the About page) it's a general report, sent through the same form.
+function ReportProblem({ story = null, label = 'Report a problem with this story' }) {
   const [open, setOpen] = useState(false)
   const [state, setState] = useState('idle') // idle | sending | sent | error
   const [message, setMessage] = useState('')
   const [email, setEmail] = useState('')
-  if (!open) return <button type="button" className="report-link" onClick={() => setOpen(true)}>Report a problem with this story</button>
+  if (!open) return <button type="button" className="report-link" onClick={() => setOpen(true)}>{label}</button>
   if (state === 'sent') return <p className="report-done">Thanks — that’s been sent.</p>
   const send = async e => {
     e.preventDefault()
@@ -1513,11 +1514,11 @@ function ReportProblem({ story }) {
     // ("story" and "story-id" both came out as "Story").
     const body = new URLSearchParams({
       'form-name': 'story-feedback',
-      title: story.title || '',
-      type: story.mediaType || '',
-      city: location.pathname.split('/')[1] || '',
+      title: story ? story.title || '' : 'General report (About page)',
+      type: story?.mediaType || '',
+      city: story ? location.pathname.split('/')[1] || '' : '',
       page: location.href,
-      contentful: `https://app.contentful.com/spaces/yl6xhrcd616q/entries/${story.id}`,
+      contentful: story ? `https://app.contentful.com/spaces/yl6xhrcd616q/entries/${story.id}` : '',
       message,
       email,
     })
@@ -2380,6 +2381,7 @@ export default function App() {
                 <section key={i} className="about__section">
                   {sec.heading && <h2 className="about__heading">{sec.heading}</h2>}
                   {sec.paragraphs.map((p, j) => <p key={j} className="about__p">{p.replace('{cities}', cities.length || 'dozens of')}</p>)}
+                  {sec.report && <ReportProblem label="Report a problem" />}
                 </section>
               ))}
               <div className="about__photos">
