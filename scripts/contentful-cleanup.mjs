@@ -43,7 +43,18 @@ async function removeAsset(a) {
   await cma(`/assets/${a.sys.id}`, { method: 'DELETE', headers: v(a) })
 }
 
-const log = { mode: MODE, started: new Date().toISOString(), words: 0, assets: 0, entriesEdited: 0, draftsLeftUnpublished: [], errors: [] }
+const log = { mode: MODE, started: new Date().toISOString(), words: 0, assets: 0, entriesEdited: 0, draftsLeftUnpublished: [], keptForDrafts: [], errors: [] }
+
+// Inventory first: the management API also sees unpublished and archived
+// assets, which the delivery API (and so the usage report) can't.
+const inventory = { published: 0, draft: 0, archived: 0 }
+for (let skip = 0; ; ) {
+  const d = await cma(`/assets?limit=1000&skip=${skip}`)
+  for (const a of d.items) inventory[a.sys.archivedVersion ? 'archived' : a.sys.publishedVersion ? 'published' : 'draft']++
+  skip += d.items.length
+  if (skip >= d.total || !d.items.length) break
+}
+log.assetInventory = inventory
 
 // 1. Word entries (drafts included: the management API sees everything).
 const words = []
@@ -64,6 +75,10 @@ for (const id of deletableIds) {
   try {
     // Entries still linking to this asset (other than words, which are gone).
     const linking = (await cma(`/entries?links_to_asset=${id}&limit=100`)).items.filter(e => !wordIds.has(e.sys.id))
+    // The report only saw published entries. If a draft-only entry uses this
+    // asset, that's work in progress: keep the asset.
+    const draftOnly = linking.filter(e => !isPublished(e))
+    if (draftOnly.length) { log.keptForDrafts.push({ id, drafts: draftOnly.map(e => e.sys.id) }); continue }
     for (let e of linking) {
       const drafty = hasDraftChanges(e), published = isPublished(e)
       for (const [field, locales] of Object.entries(e.fields)) {
