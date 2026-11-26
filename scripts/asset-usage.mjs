@@ -9,7 +9,9 @@ const base = 'https://cdn.contentful.com/spaces/yl6xhrcd616q/environments/master
 async function all(path, q = '') {
   const items = []
   for (let skip = 0; ; ) {
-    const d = await (await fetch(`${base}/${path}?${q}&limit=1000&skip=${skip}`, { headers: { Authorization: 'Bearer ' + T } })).json()
+    const d = await (await fetch(`${base}/${path}?${q}&limit=${path === 'assets' ? 100 : 1000}&skip=${skip}`, { headers: { Authorization: 'Bearer ' + T } })).json()
+    if (!d.items) { console.log(`::warning::${path} skip=${skip}: ${JSON.stringify(d).slice(0, 300)}`); break }
+    console.log(`${path}: skip ${skip}, got ${d.items.length} of ${d.total}`)
     items.push(...d.items); skip += d.items.length
     if (skip >= d.total || !d.items.length) break
   }

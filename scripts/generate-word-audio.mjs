@@ -177,9 +177,13 @@ async function cda(q) {
 }
 
 const cities = Object.fromEntries((await cda('content_type=city&select=sys.id,fields.cityName')).items.map(c => [c.sys.id, c.fields.cityName]))
-const words = (await cda('content_type=word&select=sys.id,fields.local,fields.slot,fields.city')).items
-  .map(w => ({ kind: 'words', id: w.sys.id, text: (w.fields.local || '').trim(), city: cities[w.fields.city?.sys?.id] }))
-  .filter(w => w.text && w.city)
+// Words live in the repo since Nov 2026 (src/data/words/<city-slug>.json).
+const words = []
+for (const file of await fs.readdir(path.join(ROOT, 'src/data/words'))) {
+  if (!file.endsWith('.json')) continue
+  const { city, words: list } = JSON.parse(await fs.readFile(path.join(ROOT, 'src/data/words', file), 'utf8'))
+  for (const w of list) if ((w.local || '').trim()) words.push({ kind: 'words', id: w.id, text: w.local.trim(), city })
+}
 const foods = (await cda('content_type=food&select=sys.id,fields.foodName,fields.relatedCity')).items
   .map(f => ({ kind: 'food', id: f.sys.id, text: (f.fields.foodName || '').trim(), city: cities[f.fields.relatedCity?.sys?.id] }))
   .filter(f => f.text && f.city)

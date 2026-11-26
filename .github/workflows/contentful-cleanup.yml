@@ -1,0 +1,31 @@
+# Removes Contentful records the repo has replaced (word entries; images with a
+# repo copy). Needs the CONTENTFUL_MANAGEMENT_TOKEN repository secret.
+# Runs when data/migrate/run-cleanup changes: the file's first word is the mode,
+# "dry-run" (report only) or "delete". See scripts/contentful-cleanup.mjs.
+name: Contentful cleanup
+on:
+  push:
+    branches: [main]
+    paths: [data/migrate/run-cleanup]
+permissions:
+  contents: write
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: MODE="$(head -n1 data/migrate/run-cleanup | awk '{print $1}')" node scripts/contentful-cleanup.mjs
+        env:
+          CONTENTFUL_MANAGEMENT_TOKEN: ${{ secrets.CONTENTFUL_MANAGEMENT_TOKEN }}
+      - if: always()
+        run: |
+          git add data/migrate/cleanup-log.json || true
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City cleanup"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Contentful cleanup log"
+          git pull --rebase origin main
+          git push origin HEAD:main

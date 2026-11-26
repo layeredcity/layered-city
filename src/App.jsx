@@ -1966,7 +1966,7 @@ export default function App() {
     // Words (the phrasebook) load alongside food, same pattern.
     setWords([])
     setWordsLoading(true)
-    fetchWordsForCity(city.id)
+    fetchWordsForCity(city.name)
       .then(setWords)
       .catch(err => { console.error('Failed to fetch words:', err); setWords([]) })
       .finally(() => setWordsLoading(false))

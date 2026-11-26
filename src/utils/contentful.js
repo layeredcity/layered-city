@@ -1,5 +1,6 @@
 import { createClient } from 'contentful'
-import { smartenEntries } from './smartQuotes'
+import { smartenEntries, smartQuotes } from './smartQuotes'
+import { slugify } from './slugify'
 import { repoImage, repoFoodImage, repoWordAudio, repoFoodAudio } from './covers'
 
 const rawClient = createClient({
@@ -39,31 +40,29 @@ export async function fetchCities() {
   }))
 }
 
-// The Words tier: a per-city phrasebook of `word` entries. Category, label, and
-// order are derived in the app (see utils/words.js); this just returns the flat
-// list of published words for a city.
-export async function fetchWordsForCity(cityId) {
-  const res = await client.getEntries({
-    content_type: 'word',
-    'fields.city.sys.id': cityId,
-    limit: 200,
-  })
-  return res.items.map(item => {
-    const f = item.fields
-    return {
-      id: item.sys.id,
-      slot: f.slot,
-      local: f.local,
-      phonetic: f.phonetic || null,
-      meaning: f.meaning || null,
-      context: f.context || null,
-      groupNote: f.groupNote || null,
-      phoneticApproximate: f.phoneticApproximate || false,
-      deepCutOrder: f.deepCutOrder ?? null,
-      audioUrl: repoWordAudio(item.sys.id)
-        || (f.audio?.fields?.file?.url ? 'https:' + f.audio.fields.file.url : null),
-    }
-  })
+// The Words tier: a per-city phrasebook. Since Nov 2026 it lives in this repo
+// (src/data/words/<city-slug>.json) rather than Contentful, to free up records
+// on the free plan. Each city's file is its own small chunk, loaded only when
+// that city opens. Category, label, and order are derived in the app (see
+// utils/words.js); this returns the flat list for a city.
+const WORD_FILES = import.meta.glob('../data/words/*.json', { import: 'default' })
+
+export async function fetchWordsForCity(cityName) {
+  const load = WORD_FILES[`../data/words/${slugify(cityName)}.json`]
+  if (!load) return []
+  const { words } = await load()
+  return words.map(w => ({
+    id: w.id,
+    slot: w.slot,
+    local: smartQuotes(w.local),
+    phonetic: w.phonetic || null,
+    meaning: w.meaning ? smartQuotes(w.meaning) : null,
+    context: w.context ? smartQuotes(w.context) : null,
+    groupNote: w.groupNote ? smartQuotes(w.groupNote) : null,
+    phoneticApproximate: w.phoneticApproximate || false,
+    deepCutOrder: w.deepCutOrder ?? null,
+    audioUrl: repoWordAudio(w.id),
+  }))
 }
 
 // Dishes worth eating in a city. Unlike stories, food carries no location — a
