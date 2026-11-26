@@ -70,7 +70,7 @@ export default [
   {
     heading: 'Who makes it?',
     paragraphs: [
-      'Ryan Nee. I’ve traveled to more than 70 countries, and I care about helping people enjoy the richness and complexity of the places they visit.',
+      'Ryan Nee. I was born in Denver, and I live in Minneapolis. I’ve traveled to more than 70 countries, and I care about helping people enjoy the richness and complexity of the places they visit.',
     ],
   },
 ]
