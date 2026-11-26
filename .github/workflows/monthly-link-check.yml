@@ -1,0 +1,32 @@
+# Checks every story's links once a month and commits data/fact-check/links.json.
+# The monthly fact-check session (a scheduled Claude task) reads the result.
+# Also runs when data/fact-check/run-links changes, or from the Actions tab.
+name: Monthly link check
+on:
+  schedule:
+    - cron: '23 7 1 * *'   # the 1st of each month, 07:23 UTC
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/fact-check/run-links, scripts/monthly-link-check.mjs]
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/monthly-link-check.mjs
+        env:
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+      - run: |
+          git add data/fact-check/links.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City link check"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Monthly link check"
+          git pull --rebase origin main
+          git push origin HEAD:main
