@@ -70,13 +70,13 @@ export default [
   {
     heading: 'How is AI involved?',
     paragraphs: [
-      'I wrote every description on the site before 2025. Since then, Claude, an AI model made by Anthropic, has written the rest with coaching and editing from me, including the threads. Claude and I have both done the research to find what’s included. The food illustrations were made with ChatGPT, OpenAI’s AI tool, with a lot of direction from me. The thread narration and the pronunciations in Words use AI voices from ElevenLabs. Claude also helped write the code that runs the site. The photos are real: either mine or from Wikimedia Commons, with a credit on each one.',
+      'I wrote every description on the site before 2025. Since then, Claude, an AI model made by Anthropic, has written the rest with coaching and editing from me, including the threads. Claude and I have both done the research to find what’s included. The food illustrations were made with ChatGPT, OpenAI’s AI tool, with a lot of direction from me. Claude also compiles the weekly Events lists from venues’ own listings. The thread narration and the pronunciations in Words use AI voices from ElevenLabs. Claude also helped write the code that runs the site. The photos are real: either mine or from Wikimedia Commons, with a credit on each one.',
     ],
   },
   {
     heading: 'How are facts checked?',
     paragraphs: [
-      'Before a new city goes up, a script checks each item against its source. It confirms each video’s title, channel, and length on YouTube, each podcast episode in Apple’s podcast directory, each film by its IMDb listing, and each book by its ISBN. A second check makes sure every link still works and leads to the right page. Recent threads were also checked claim by claim against published sources. These checks catch broken links and mismatched details, but they can’t catch everything, so if you spot a mistake, I’d like to hear about it.',
+      'Before a new city goes up, a script checks each item against its source. It confirms each video’s title, channel, and length on YouTube, each podcast episode in Apple’s podcast directory, each film by its IMDb listing, and each book by its ISBN. Once a month, every link on the site is checked to make sure it still works. Each month, Claude also takes a few threads and cities that are next in line and checks their facts, like names, dates, and places, against published sources. Errors in threads are corrected, and anything else goes to me to fix. Over about a year, that covers everything on the site. No check catches everything, though, so if you spot a mistake, I’d like to hear about it.',
     ],
   },
   {
