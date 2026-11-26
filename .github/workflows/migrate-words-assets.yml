@@ -1,0 +1,29 @@
+# One-time: exports Words to src/data/words/ and reports which Contentful
+# assets the repo has replaced (data/migrate/asset-usage.json). Read-only in
+# Contentful. Runs when data/migrate/run changes.
+name: Migrate words and assets
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/migrate/run]
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/export-words.mjs && node scripts/asset-usage.mjs
+        env:
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+      - run: |
+          git add src/data/words data/migrate/asset-usage.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City migrate"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Export words; asset usage report"
+          git pull --rebase origin main
+          git push origin HEAD:main
