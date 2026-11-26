@@ -68,6 +68,12 @@ export default [
     ],
   },
   {
+    heading: 'How is AI involved?',
+    paragraphs: [
+      'I wrote every description on the site before 2025. Since then, Claude, an AI model made by Anthropic, has written the rest with coaching and editing from me, including the threads. Claude and I have both done the research to find what’s included. The food illustrations were made with ChatGPT, OpenAI’s AI tool, with a lot of direction from me. The thread narration and the pronunciations in Words use AI voices from ElevenLabs. Claude also helped write the code that runs the site. The photos are real: either mine or from Wikimedia Commons, with a credit on each one.',
+    ],
+  },
+  {
     heading: 'Who makes it?',
     paragraphs: [
       'Ryan Nee. I was born in Denver, and I live in Minneapolis. I’ve traveled to more than 70 countries, and I care about helping people enjoy the richness and complexity of the places they visit.',
