@@ -562,7 +562,7 @@ const ABOUT_PHOTOS = [
   { src: '/about/alleghe-2026.webp', alt: 'Ryan with a coffee on a balcony in the Dolomites', lat: 46.406, lon: 12.022, tilt: 2.5, w: 675, h: 900,
     caption: 'Coffee on the balcony', place: 'Alleghe, Italy', year: 2026 },
   { src: '/about/budapest-2026.webp', alt: 'Ryan and his parents at Fisherman’s Bastion at night, with the Parliament lit up behind them', lat: 47.502, lon: 19.035, tilt: -2.5, w: 675, h: 900,
-    caption: 'Fisherman’s Bastion with my parents', place: 'Budapest, Hungary', year: 2026 },
+    caption: 'With my parents', place: 'Budapest, Hungary', year: 2026 },
 ]
 
 const THREADS_BY_STORY = {}
