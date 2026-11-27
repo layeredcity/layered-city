@@ -63,6 +63,12 @@ for (let skip = 0; ; ) {
   words.push(...d.items); skip += d.items.length
   if (skip >= d.total || !d.items.length) break
 }
+// Words that were never published aren't in src/data/words/ (the export only
+// saw published ones). Save them before anything is deleted, in case any are
+// work in progress worth keeping.
+const unpublished = words.filter(w => !isPublished(w)).map(w => ({ id: w.sys.id, created: w.sys.createdAt, updated: w.sys.updatedAt, fields: Object.fromEntries(Object.entries(w.fields).map(([k, v]) => [k, v['en-US']])) }))
+await fs.writeFile('data/migrate/unpublished-words.json', JSON.stringify(unpublished, null, 1) + '\n')
+log.unpublishedWords = unpublished.length
 for (const w of words) {
   try { if (MODE === 'delete') await removeEntry(w); log.words++ }
   catch (e) { log.errors.push(`word ${w.sys.id}: ${e.message}`) }
