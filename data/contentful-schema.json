@@ -1,0 +1,991 @@
+{
+ "word": {
+  "name": "Word",
+  "displayField": "title",
+  "fields": [
+   {
+    "id": "title",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "city",
+    "type": "Link",
+    "linkType": "Entry",
+    "required": true,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "linkContentType": [
+       "city"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "slot",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "in": [
+       "greeting-morning",
+       "greeting-afternoon",
+       "greeting-evening",
+       "greeting-casual",
+       "leaving",
+       "please",
+       "thanks",
+       "yes",
+       "no",
+       "speak-english",
+       "dont-speak",
+       "dont-understand",
+       "sorry",
+       "excuse-attention",
+       "excuse-passing",
+       "number-one",
+       "number-two",
+       "number-three",
+       "number-four",
+       "number-five",
+       "table-for",
+       "menu",
+       "id-like-this",
+       "enjoy-meal",
+       "cheers",
+       "delicious",
+       "check",
+       "money-surprise",
+       "where-is",
+       "ticket",
+       "bathroom",
+       "door-men",
+       "door-women",
+       "atm",
+       "how-much",
+       "card",
+       "cash",
+       "bag",
+       "deep-cut"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "local",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "phonetic",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "meaning",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "context",
+    "type": "Text",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "size": {
+       "max": 140
+      }
+     }
+    ]
+   },
+   {
+    "id": "groupNote",
+    "type": "Text",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "size": {
+       "max": 140
+      }
+     }
+    ]
+   },
+   {
+    "id": "phoneticApproximate",
+    "type": "Boolean",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "deepCutOrder",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 1,
+       "max": 8
+      }
+     }
+    ]
+   },
+   {
+    "id": "audio",
+    "type": "Link",
+    "linkType": "Asset",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "linkMimetypeGroup": [
+       "audio"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "channel": {
+  "name": "Channel",
+  "displayField": "channelName",
+  "fields": [
+   {
+    "id": "channelName",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "publisherName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "size": {
+       "max": 120
+      }
+     }
+    ]
+   },
+   {
+    "id": "publisher",
+    "type": "Link",
+    "linkType": "Entry",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "linkContentType": [
+       "publisher"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "channelIcon",
+    "type": "Link",
+    "linkType": "Asset",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "mediaType",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "story": {
+  "name": "Story",
+  "displayField": "storyTitle",
+  "fields": [
+   {
+    "id": "storyTitle",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "goodreadsRating",
+    "type": "Number",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 0,
+       "max": 5
+      }
+     }
+    ]
+   },
+   {
+    "id": "artworkImage",
+    "type": "Link",
+    "linkType": "Asset",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "numberOfMinutes",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "numberOfSeconds",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "storyDescription",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "qualityRating",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 1,
+       "max": 5
+      },
+      "message": "Please choose a number between 1 and 5"
+     }
+    ]
+   },
+   {
+    "id": "storyLocation",
+    "type": "Location",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "locationName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "size": {
+       "max": 80
+      }
+     }
+    ]
+   },
+   {
+    "id": "secondaryLocation",
+    "type": "Location",
+    "required": false,
+    "disabled": true,
+    "omitted": false
+   },
+   {
+    "id": "channel",
+    "type": "Link",
+    "linkType": "Entry",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "linkContentType": [
+       "channel"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "relatedCity",
+    "type": "Link",
+    "linkType": "Entry",
+    "required": true,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "linkContentType": [
+       "city"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "categories",
+    "type": "Array",
+    "linkType": "Entry",
+    "required": false,
+    "disabled": true,
+    "omitted": false,
+    "items": [
+     {
+      "linkContentType": [
+       "categories"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "mediaUrl",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "secondaryUrl",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "originalPublishDate",
+    "type": "Date",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "expirationDate",
+    "type": "Date",
+    "required": false,
+    "disabled": true,
+    "omitted": false
+   },
+   {
+    "id": "hostIsFemale",
+    "type": "Boolean",
+    "required": false,
+    "disabled": true,
+    "omitted": false
+   },
+   {
+    "id": "hostIsAPersonOfColor",
+    "type": "Boolean",
+    "required": false,
+    "disabled": true,
+    "omitted": false
+   },
+   {
+    "id": "imdbId",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "isbnNumber",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "releaseYear",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "seasonNumber",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 1,
+       "max": 20
+      },
+      "message": "The season number must be between 1 and 20. "
+     }
+    ]
+   },
+   {
+    "id": "episodeNumber",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 1,
+       "max": 30
+      },
+      "message": "The episode number must be between one and thirty. "
+     }
+    ]
+   },
+   {
+    "id": "mediaType",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "in": [
+       "podcast",
+       "video",
+       "movie",
+       "tv",
+       "music",
+       "book",
+       "speak",
+       "audiotour"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "creatorName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "genre",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "bookCoverUrl",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "coverImageUrl",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "coverAsset",
+    "type": "Link",
+    "linkType": "Asset",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "linkMimetypeGroup": [
+       "image"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "rating",
+    "type": "Number",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 0,
+       "max": 5
+      }
+     }
+    ]
+   },
+   {
+    "id": "numberOfRatings",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 0
+      }
+     }
+    ]
+   },
+   {
+    "id": "priceUsd",
+    "type": "Number",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 0
+      }
+     }
+    ]
+   },
+   {
+    "id": "distanceKm",
+    "type": "Number",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "range": {
+       "min": 0
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "city": {
+  "name": "City",
+  "displayField": "cityName",
+  "fields": [
+   {
+    "id": "cityName",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "countryName",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "cityCoordinates",
+    "type": "Location",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "cityMapHeight",
+    "type": "Integer",
+    "required": true,
+    "disabled": false,
+    "omitted": true
+   },
+   {
+    "id": "cityHeroImage",
+    "type": "Link",
+    "linkType": "Asset",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "continent",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "isFeatured",
+    "type": "Boolean",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "cityQuote",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "cityQuoteAttribution",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "latitudeLongitudeDelta",
+    "type": "Number",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "musicPlaylistSpotify",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "wordsPreamble",
+    "type": "Text",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "size": {
+       "max": 900
+      }
+     }
+    ]
+   },
+   {
+    "id": "wordsVariant",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "in": [
+       "standard",
+       "english-language"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "wordsPublished",
+    "type": "Boolean",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "food": {
+  "name": "Food",
+  "displayField": "foodName",
+  "fields": [
+   {
+    "id": "foodName",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "foodEnglishName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "size": {
+       "max": 80
+      },
+      "message": "A short English name, not a description."
+     }
+    ]
+   },
+   {
+    "id": "foodDescription",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "size": {
+       "max": 256
+      },
+      "message": "Keep it to 256 characters or fewer."
+     }
+    ]
+   },
+   {
+    "id": "foodNeighborhood",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "size": {
+       "max": 60
+      },
+      "message": "A neighborhood name, not a sentence."
+     }
+    ]
+   },
+   {
+    "id": "foodImage",
+    "type": "Link",
+    "linkType": "Asset",
+    "required": false,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "linkMimetypeGroup": [
+       "image"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "relatedCity",
+    "type": "Link",
+    "linkType": "Entry",
+    "required": true,
+    "disabled": false,
+    "omitted": false,
+    "validations": [
+     {
+      "linkContentType": [
+       "city"
+      ]
+     }
+    ]
+   },
+   {
+    "id": "listOrder",
+    "type": "Integer",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "supportTheAppSection": {
+  "name": "Support the app section",
+  "displayField": "sectionTitle",
+  "fields": [
+   {
+    "id": "sectionTitle",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "description",
+    "type": "Text",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "symbolName",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "listOrder",
+    "type": "Integer",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "reportAProblemSection": {
+  "name": "Report a problem section",
+  "displayField": "sectionTitle",
+  "fields": [
+   {
+    "id": "sectionTitle",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "description",
+    "type": "Text",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "symbolName",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "listOrder",
+    "type": "Integer",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "aboutSectionContent": {
+  "name": "About section content",
+  "displayField": "sectionTitle",
+  "fields": [
+   {
+    "id": "sectionTitle",
+    "type": "Symbol",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "description",
+    "type": "Text",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "listOrder",
+    "type": "Integer",
+    "required": true,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "categories": {
+  "name": "Categories",
+  "displayField": "categoryName",
+  "fields": [
+   {
+    "id": "categoryName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "categoryMultilineName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "categoryDescription",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "categorySlug",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "mediaTypes": {
+  "name": "Media types",
+  "displayField": "contentTypeShortName",
+  "fields": [
+   {
+    "id": "contentTypeShortName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "contentTypeLongName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "publisher": {
+  "name": "Publisher",
+  "displayField": "publisherName",
+  "fields": [
+   {
+    "id": "publisherName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ },
+ "author": {
+  "name": "Author",
+  "displayField": "authorFirstName",
+  "fields": [
+   {
+    "id": "authorFirstName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "authorLastName",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   },
+   {
+    "id": "authorRole",
+    "type": "Symbol",
+    "required": false,
+    "disabled": false,
+    "omitted": false
+   }
+  ]
+ }
+}
