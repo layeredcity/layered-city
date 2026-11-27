@@ -1,0 +1,310 @@
+{
+ "city": "Dubrovnik",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Fjaka",
+   "phonetic": "FYAH-kah",
+   "context": "The Dalmatian art of doing nothing: a drowsy, contented state on a hot afternoon. Locals will tell you it can’t be translated, and then try.",
+   "deepCutOrder": 1,
+   "id": "dubrovnik-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Libertas",
+   "phonetic": "LEE-ber-tahs",
+   "context": "“Liberty” in Latin, the motto of the old republic. It was written on its flag, and you’ll see it on everything from the Summer Festival to the fort above the sea.",
+   "deepCutOrder": 2,
+   "id": "dubrovnik-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Đir",
+   "phonetic": "jeer",
+   "context": "A stroll, from the Italian “giro.” Going “na đir” up and down the Stradun in the evening is how the city sees and is seen.",
+   "deepCutOrder": 3,
+   "id": "dubrovnik-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Festa",
+   "phonetic": "FES-tah",
+   "context": "The Feast of St. Blaise, the city’s patron, on February 3. Held for over 1,000 years, with processions, flags, and the saint’s relics carried through town.",
+   "deepCutOrder": 4,
+   "id": "dubrovnik-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Pomalo",
+   "phonetic": "POH-mah-loh",
+   "context": "“Easy, slowly.” The coast’s answer to most problems, and to most requests to hurry.",
+   "deepCutOrder": 5,
+   "id": "dubrovnik-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Placa",
+   "phonetic": "PLAH-tsah",
+   "context": "What locals call the Stradun, the main street. Both come from Italian words: “piazza” and “strada.”",
+   "deepCutOrder": 6,
+   "id": "dubrovnik-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Dobro jutro",
+   "phonetic": "DOH-broh YOO-troh",
+   "meaning": "good morning",
+   "id": "dubrovnik-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Dobar dan",
+   "phonetic": "DOH-bar dahn",
+   "meaning": "good afternoon",
+   "context": "The all-purpose daytime greeting from mid-morning on. The one to learn if you learn one.",
+   "id": "dubrovnik-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Dobra večer",
+   "phonetic": "DOH-brah VEH-cher",
+   "meaning": "good evening",
+   "id": "dubrovnik-greeting-evening",
+   "groupNote": "“Jutro” until about ten, “dan” until dark, “večer” after that."
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Bok",
+   "phonetic": "bohk",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye among friends. In Dubrovnik you’ll also hear the Italian “ćao.”",
+   "id": "dubrovnik-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Doviđenja",
+   "phonetic": "doh-vee-JEH-nyah",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “until seeing.” “Bok” is the casual version.",
+   "id": "dubrovnik-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Molim",
+   "phonetic": "MOH-leem",
+   "meaning": "please",
+   "context": "Also “you’re welcome,” “pardon?,” and “go ahead.” It does a lot of work.",
+   "id": "dubrovnik-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Hvala",
+   "phonetic": "HVAH-lah",
+   "meaning": "thank you",
+   "context": "“Hvala lijepa” (LYEH-pah) is the warmer version. The H is breathy, almost swallowed.",
+   "id": "dubrovnik-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Da",
+   "phonetic": "dah",
+   "meaning": "yes",
+   "id": "dubrovnik-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Ne",
+   "phonetic": "neh",
+   "meaning": "no",
+   "id": "dubrovnik-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Govorite li engleski?",
+   "phonetic": "GOH-voh-ree-teh lee EN-gles-kee",
+   "meaning": "do you speak English?",
+   "id": "dubrovnik-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Oprostite",
+   "phonetic": "oh-PROH-stee-teh",
+   "meaning": "sorry",
+   "context": "For apologizing, or for a bump in a crowd. “Pardon” works too.",
+   "id": "dubrovnik-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Molim vas",
+   "phonetic": "MOH-leem vahs",
+   "meaning": "excuse me (to get attention)",
+   "context": "Literally “I ask you.” Use it to catch a server’s eye or to start a question.",
+   "id": "dubrovnik-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Mogu li proći?",
+   "phonetic": "MOH-goo lee PROH-chee",
+   "meaning": "excuse me (squeezing past)",
+   "id": "dubrovnik-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Jedan",
+   "phonetic": "YEH-dahn",
+   "meaning": "one",
+   "id": "dubrovnik-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Dva",
+   "phonetic": "dvah",
+   "meaning": "two",
+   "id": "dubrovnik-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Tri",
+   "phonetic": "tree",
+   "meaning": "three",
+   "id": "dubrovnik-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Četiri",
+   "phonetic": "CHEH-tee-ree",
+   "meaning": "four",
+   "id": "dubrovnik-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Pet",
+   "phonetic": "pet",
+   "meaning": "five",
+   "id": "dubrovnik-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "Jelovnik?",
+   "phonetic": "YEH-lohv-neek",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Jelovnik, molim.”",
+   "id": "dubrovnik-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Dobar tek",
+   "phonetic": "DOH-bar tek",
+   "meaning": "enjoy your meal",
+   "context": "Said by servers as the food arrives, and by anyone at the table before eating.",
+   "id": "dubrovnik-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Živjeli",
+   "phonetic": "ZHEE-vyeh-lee",
+   "meaning": "cheers",
+   "context": "Literally “may we live.” Look people in the eye as you clink.",
+   "id": "dubrovnik-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Fino!",
+   "phonetic": "FEE-noh",
+   "meaning": "delicious!",
+   "context": "The everyday word for “tasty” on the coast. “Odlično” (OD-leech-noh) means “excellent.”",
+   "id": "dubrovnik-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Račun?",
+   "phonetic": "RAH-choon",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Račun, molim.”",
+   "id": "dubrovnik-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Napojnica",
+   "phonetic": "NAH-poy-nee-tsah",
+   "meaning": "tip",
+   "context": "Not expected the way it is in the U.S. Rounding up or leaving about 10 percent for good service is normal.",
+   "id": "dubrovnik-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Gdje je…?",
+   "phonetic": "gdyeh yeh",
+   "meaning": "where is…?",
+   "id": "dubrovnik-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Karta",
+   "phonetic": "KAR-tah",
+   "meaning": "ticket",
+   "id": "dubrovnik-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "WC",
+   "phonetic": "veh-TSEH",
+   "meaning": "bathroom",
+   "context": "Said the Croatian way. “Toalet” is understood too.",
+   "id": "dubrovnik-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Muški",
+   "phonetic": "MOOSH-kee",
+   "meaning": "men",
+   "id": "dubrovnik-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Ženski",
+   "phonetic": "ZHEN-skee",
+   "meaning": "women",
+   "id": "dubrovnik-door-women",
+   "groupNote": "Doors are often just marked “M” and “Ž.”"
+  },
+  {
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "BAN-koh-maht",
+   "meaning": "ATM",
+   "context": "Use bank-branded machines. Bright stand-alone ATMs near the old town can charge high fees.",
+   "id": "dubrovnik-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Koliko košta?",
+   "phonetic": "KOH-lee-koh KOSH-tah",
+   "meaning": "how much?",
+   "id": "dubrovnik-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Kartica",
+   "phonetic": "KAR-tee-tsah",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Cards work almost everywhere.",
+   "id": "dubrovnik-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Gotovina",
+   "phonetic": "GOH-toh-vee-nah",
+   "meaning": "cash",
+   "id": "dubrovnik-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Vrećica?",
+   "phonetic": "VREH-chee-tsah",
+   "meaning": "bag?",
+   "context": "Charged at most shops. Say “ne, hvala” if you brought one.",
+   "id": "dubrovnik-bag"
+  }
+ ]
+}
