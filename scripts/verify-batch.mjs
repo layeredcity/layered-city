@@ -11,7 +11,11 @@ const get = (u, o = {}) => fetch(u, { headers: { 'User-Agent': UA, 'Accept-Langu
 const TOURS_ONLY = process.env.TOURS_ONLY === '1'
 const out = TOURS_ONLY ? JSON.parse(fs.readFileSync('data/batch/check.json', 'utf8')) : { videos: {}, channels: {}, podcasts: {}, shows: {}, books: {}, films: {}, tours: {} }
 if (TOURS_ONLY) out.tours = {}
-const cities = fs.readdirSync('data/batch').filter(d => fs.statSync(`data/batch/${d}`).isDirectory())
+// Cities already imported are skipped (their results stay in check.json), so a
+// run only spends time on the batch in progress.
+const imported = d => { try { return JSON.parse(fs.readFileSync(`data/batch/${d}/import-log.json`, 'utf8')).mode === 'import' } catch { return false } }
+const cities = fs.readdirSync('data/batch').filter(d => fs.statSync(`data/batch/${d}`).isDirectory() && !imported(d))
+if (!TOURS_ONLY) { try { Object.assign(out, JSON.parse(fs.readFileSync('data/batch/check.json', 'utf8'))) } catch {} }
 const read = (c, f) => { try { return JSON.parse(fs.readFileSync(`data/batch/${c}/${f}.json`, 'utf8')) } catch { return [] } }
 const all = f => cities.flatMap(c => [...read(c, f), ...read(c, f + '-add')])
 
