@@ -1,9 +1,9 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Porto",
- "started": "2026-11-27T20:31:47.385Z",
+ "started": "2026-11-27T21:55:02.194Z",
  "created": [
-  "city: Porto (map zoom delta 1)",
+  "city: Porto (map zoom delta 1, map height 800)",
   "podcast: How English merchants turned Douro wine into port",
   "podcast: Port’s English story, told over the holidays",
   "podcast: The world’s oldest alliance, England and Portugal",
@@ -85,5 +85,5 @@
   "book \"Forbidden Words: Selected Poetry\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-27T20:31:49.777Z"
+ "finished": "2026-11-27T21:56:26.008Z"
 }
