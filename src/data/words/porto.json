@@ -1,0 +1,306 @@
+{
+ "city": "Porto",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Tripeiro",
+   "phonetic": "tree-PAY-roo",
+   "context": "“Tripe-eater.” What people from Porto call themselves, with pride, after the story that the city gave its meat to the fleet in 1415 and kept the offal.",
+   "deepCutOrder": 1,
+   "id": "porto-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Invicta",
+   "phonetic": "een-VEEK-tuh",
+   "context": "“Unconquered.” Porto’s nickname, earned in the long siege of 1832–33 during Portugal’s civil war. You’ll see it on signs, shops, and football banners.",
+   "deepCutOrder": 2,
+   "id": "porto-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Cimbalino",
+   "phonetic": "seem-buh-LEE-noo",
+   "context": "An espresso, in Porto only. Lisbon calls it a “bica.” Named after the Italian La Cimbali machines that brought espresso here.",
+   "deepCutOrder": 3,
+   "id": "porto-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Fino",
+   "phonetic": "FEE-noo",
+   "context": "A small draft beer. Ask for an “imperial,” the Lisbon word, and you’ll be understood, and recognized as being from somewhere else.",
+   "deepCutOrder": 4,
+   "id": "porto-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Desenrascanço",
+   "phonetic": "duh-zen-rash-KAN-soo",
+   "context": "Improvising your way out of a mess with nothing to work with. Something close to a national virtue.",
+   "deepCutOrder": 5,
+   "id": "porto-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Saudade",
+   "phonetic": "sow-DAH-duh",
+   "context": "Longing for something absent: a person, a place, a version of your life that never happened. The feeling behind much Portuguese song.",
+   "deepCutOrder": 6,
+   "id": "porto-deep-cut-6"
+  },
+  {
+   "slot": "bag",
+   "local": "Saco?",
+   "phonetic": "SAH-koo",
+   "meaning": "bag?",
+   "context": "What the checkout cashier will ask, and usually charged. Say “não, obrigado” if you brought your own.",
+   "id": "porto-bag"
+  },
+  {
+   "slot": "cash",
+   "local": "Dinheiro",
+   "phonetic": "deen-YAY-roo",
+   "meaning": "cash",
+   "id": "porto-cash"
+  },
+  {
+   "slot": "card",
+   "local": "Cartão",
+   "phonetic": "kar-TOWNG",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Turns a silent gesture into a question.",
+   "id": "porto-card"
+  },
+  {
+   "slot": "how-much",
+   "local": "Quanto?",
+   "phonetic": "KWAN-too",
+   "meaning": "how much?",
+   "id": "porto-how-much"
+  },
+  {
+   "slot": "atm",
+   "local": "Multibanco",
+   "phonetic": "mool-tee-BAN-koo",
+   "meaning": "ATM",
+   "context": "A national network, not a brand. Look for the blue MB sign.",
+   "id": "porto-atm"
+  },
+  {
+   "slot": "door-women",
+   "local": "Senhoras",
+   "phonetic": "suh-NYOR-ush",
+   "meaning": "women",
+   "groupNote": "Often shortened on the door to just “H” and “S.”",
+   "id": "porto-door-women"
+  },
+  {
+   "slot": "door-men",
+   "local": "Homens",
+   "phonetic": "OH-mengsh",
+   "meaning": "men",
+   "id": "porto-door-men"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Casa de banho",
+   "phonetic": "KAH-zuh duh BAHN-yoo",
+   "meaning": "bathroom",
+   "context": "Signs say “WC.” “Banheiro” is Brazilian and means lifeguard here.",
+   "id": "porto-bathroom"
+  },
+  {
+   "slot": "ticket",
+   "local": "Bilhete",
+   "phonetic": "bee-LYET",
+   "meaning": "ticket",
+   "id": "porto-ticket"
+  },
+  {
+   "slot": "where-is",
+   "local": "Onde fica…?",
+   "phonetic": "ONG-duh FEE-kuh",
+   "meaning": "where is…?",
+   "id": "porto-where-is"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Couvert",
+   "phonetic": "koo-VEHR",
+   "meaning": "bread and olives that arrive unordered",
+   "context": "Not free, and you can wave it away with “não, obrigado.” The most common tourist friction point in Portugal.",
+   "id": "porto-money-surprise"
+  },
+  {
+   "slot": "check",
+   "local": "A conta?",
+   "phonetic": "uh KON-tuh",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “A conta, se faz favor.”",
+   "id": "porto-check"
+  },
+  {
+   "slot": "delicious",
+   "local": "Delicioso!",
+   "phonetic": "duh-lee-see-OH-zoo",
+   "meaning": "delicious!",
+   "id": "porto-delicious"
+  },
+  {
+   "slot": "cheers",
+   "local": "Saúde",
+   "phonetic": "suh-OO-duh",
+   "meaning": "cheers",
+   "id": "porto-cheers"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Bom apetite",
+   "phonetic": "bong uh-puh-TEET",
+   "meaning": "enjoy your meal",
+   "id": "porto-enjoy-meal"
+  },
+  {
+   "slot": "menu",
+   "local": "Ementa?",
+   "phonetic": "ee-MEN-tuh",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “A ementa, se faz favor.”",
+   "id": "porto-menu"
+  },
+  {
+   "slot": "number-four",
+   "local": "Quatro",
+   "phonetic": "KWAH-troo",
+   "meaning": "four",
+   "id": "porto-number-four"
+  },
+  {
+   "slot": "number-three",
+   "local": "Três",
+   "phonetic": "traysh",
+   "meaning": "three",
+   "id": "porto-number-three"
+  },
+  {
+   "slot": "number-two",
+   "local": "Dois",
+   "phonetic": "doysh",
+   "meaning": "two",
+   "id": "porto-number-two"
+  },
+  {
+   "slot": "number-one",
+   "local": "Um",
+   "phonetic": "oong",
+   "meaning": "one",
+   "id": "porto-number-one"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Com licença",
+   "phonetic": "kong lee-SEN-suh",
+   "meaning": "excuse me (squeezing past)",
+   "id": "porto-excuse-passing"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Se faz favor",
+   "phonetic": "suh fash fuh-VOR",
+   "meaning": "excuse me (getting attention)",
+   "context": "The Portuguese way to summon a waiter. Not “garçom,” which is Brazilian and lands badly here.",
+   "id": "porto-excuse-attention"
+  },
+  {
+   "slot": "sorry",
+   "local": "Desculpe",
+   "phonetic": "dish-KOOLP",
+   "meaning": "sorry",
+   "phoneticApproximate": true,
+   "id": "porto-sorry"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Fala inglês?",
+   "phonetic": "FAH-luh eeng-GLESH",
+   "meaning": "do you speak English?",
+   "id": "porto-speak-english"
+  },
+  {
+   "slot": "no",
+   "local": "Não",
+   "phonetic": "nowng",
+   "meaning": "no",
+   "phoneticApproximate": true,
+   "id": "porto-no"
+  },
+  {
+   "slot": "yes",
+   "local": "Sim",
+   "phonetic": "seeng",
+   "meaning": "yes",
+   "phoneticApproximate": true,
+   "id": "porto-yes"
+  },
+  {
+   "slot": "thanks",
+   "local": "Obrigado / Obrigada",
+   "phonetic": "oo-bree-GAH-doo / -duh",
+   "meaning": "thank you",
+   "context": "The ending matches your own gender, not the person you’re thanking. A man says “obrigado” to everyone.",
+   "id": "porto-thanks"
+  },
+  {
+   "slot": "please",
+   "local": "Por favor",
+   "phonetic": "poor fuh-VOR",
+   "meaning": "please",
+   "id": "porto-please"
+  },
+  {
+   "slot": "leaving",
+   "local": "Até logo",
+   "phonetic": "uh-TEH LOH-goo",
+   "meaning": "leaving a shop or café",
+   "context": "“Adeus” (uh-DEH-oosh) exists but sounds final. “Tchau” (chow) is the casual one.",
+   "id": "porto-leaving"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Olá",
+   "phonetic": "oh-LAH",
+   "meaning": "hello",
+   "id": "porto-greeting-casual"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Boa noite",
+   "phonetic": "BOH-uh NOYT",
+   "meaning": "good evening",
+   "groupNote": "“Dia” becomes “tarde” around lunch. “Tarde” becomes “noite” at dark, not by the clock.",
+   "id": "porto-greeting-evening"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Boa tarde",
+   "phonetic": "BOH-uh TARD",
+   "meaning": "good afternoon",
+   "id": "porto-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Bom dia",
+   "phonetic": "bong DEE-uh",
+   "meaning": "good morning",
+   "id": "porto-greeting-morning"
+  },
+  {
+   "slot": "number-five",
+   "local": "Cinco",
+   "phonetic": "SEEN-koo",
+   "meaning": "five",
+   "id": "porto-number-five"
+  }
+ ]
+}
