@@ -2,28 +2,48 @@
  {
   "city": "Porto",
   "title": "From Porto’s City Hall to Vila Nova de Gaia: Portugal’s Hidden Stories",
+  "creator": "Lisa Popple",
+  "minutes": 90,
+  "distanceKm": 4,
+  "priceUsd": 14.99,
+  "rating": 4.7,
+  "numberOfRatings": 100,
   "url": "https://voicemap.me/tour/porto/from-porto-s-city-hall-to-vila-nova-de-gaia-portugal-s-hidden-stories",
-  "lat": null,
-  "lon": null,
-  "place": null,
-  "description": "TBD"
- },
- {
-  "city": "Porto",
-  "title": "Empire, Siege and the River Below: A Porto Self-Guided Walking Tour",
-  "url": "https://voicemap.me/tour/porto/empire-siege-and-the-river-below-a-porto-self-guided-walking-tour",
-  "lat": null,
-  "lon": null,
-  "place": null,
-  "description": "TBD"
+  "place": "Porto City Hall",
+  "lat": 41.1499,
+  "lon": -8.6107,
+  "description": "A walk from City Hall at the top of Avenida dos Aliados down through the old town and across the Luís I bridge to the port lodges of Vila Nova de Gaia, with the stories and traditions that tie the two riverside cities together."
  },
  {
   "city": "Porto",
   "title": "Art and Architecture: A Porto Walking Tour with Context",
+  "creator": "Gabi Parker",
+  "minutes": 90,
+  "distanceKm": 2,
+  "priceUsd": 9.99,
+  "rating": 4.1,
+  "numberOfRatings": 54,
   "url": "https://voicemap.me/tour/porto/art-and-architecture-a-porto-walking-tour-with-context",
-  "lat": null,
-  "lon": null,
-  "place": null,
-  "description": "TBD"
+  "place": "Porto Cathedral",
+  "lat": 41.1429,
+  "lon": -8.6111,
+  "description": "A walk from Porto Cathedral through the city’s churches, theaters, and public spaces, looking at the tilework, Baroque carving, and buildings that show Porto’s long love of the arts."
+ },
+ {
+  "city": "Porto",
+  "title": "Empire, Siege and the River Below: A Porto Self-Guided Walking Tour",
+  "creator": "Anonymous Explorer",
+  "minutes": 75,
+  "distanceKm": 3,
+  "priceUsd": 9.99,
+  "rating": 4.7,
+  "numberOfRatings": 21,
+  "url": "https://voicemap.me/tour/porto/empire-siege-and-the-river-below-a-porto-self-guided-walking-tour",
+  "place": "Rua Chã",
+  "lat": 41.1439,
+  "lon": -8.6101,
+  "description": "A walk through Porto’s medieval center down to the Douro, on the city’s place in Portugal’s empire, its Gothic churches, and the long siege of 1832–33 in Portugal’s civil war.",
+  "draft": true,
+  "draftReason": "Author listed as “Anonymous Explorer”: check whether the narration is AI-voiced before publishing, and confirm the start point."
  }
 ]

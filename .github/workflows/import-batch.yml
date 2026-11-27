@@ -1,0 +1,31 @@
+# Imports a new city's batch into Contentful (scripts/import-batch.mjs). Needs
+# the CONTENTFUL_MANAGEMENT_TOKEN repository secret. Runs when
+# data/batch/run-import changes; its first line is "<mode> <slug>", where mode
+# is "dry-run" (report only) or "import".
+name: Import batch
+on:
+  push:
+    branches: [main]
+    paths: [data/batch/run-import]
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: RUN="$(head -n1 data/batch/run-import)" node scripts/import-batch.mjs
+        env:
+          CONTENTFUL_MANAGEMENT_TOKEN: ${{ secrets.CONTENTFUL_MANAGEMENT_TOKEN }}
+      - if: always()
+        run: |
+          git add data/batch/*/import-log.json || true
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City import"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Import log"
+          git pull --rebase origin main
+          git push origin HEAD:main
