@@ -1,0 +1,28 @@
+# Saves the Contentful content model to data/contentful-schema.json (read-only).
+# Runs when data/run-dump-schema changes.
+name: Dump Contentful schema
+on:
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths: [data/run-dump-schema]
+permissions:
+  contents: write
+jobs:
+  dump:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/dump-schema.mjs
+        env:
+          CONTENTFUL_MANAGEMENT_TOKEN: ${{ secrets.CONTENTFUL_MANAGEMENT_TOKEN }}
+      - run: |
+          git add data/contentful-schema.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City schema"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Contentful schema"
+          git pull --rebase origin main
+          git push origin HEAD:main
