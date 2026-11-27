@@ -3,6 +3,9 @@
 // src/data/words/<city-slug>.json, keeping each word's Contentful ID so the
 // generated audio (src/data/word-audio.json, keyed by ID) still matches.
 // From now on the JSON files are the source; edit them in the repo.
+// Done: the word entries were deleted from Contentful on Nov 27, 2026, so
+// running this again would overwrite the files with nothing. Kept for reference.
+throw new Error('One-time export already done; see the comment above.')
 import fs from 'node:fs/promises'
 import { slugify } from '../src/utils/slugify.js'
 const T = process.env.CONTENTFUL_DELIVERY_TOKEN

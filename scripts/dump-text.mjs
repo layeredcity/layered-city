@@ -1,4 +1,4 @@
-// Read-only dump of the editorial text in Words, Food and the Words preambles,
+// Read-only dump of the editorial text in Food and the Words preambles,
 // for copy-editing passes. Writes data/text/{words,food,cities}.json.
 import fs from 'node:fs/promises'
 const T = process.env.CONTENTFUL_DELIVERY_TOKEN
@@ -15,9 +15,8 @@ await fs.mkdir('data/text', { recursive: true })
 const cities = await all('city')
 const cn = Object.fromEntries(cities.map(c => [c.sys.id, c.fields.cityName]))
 const strip = (o, keys) => Object.fromEntries(keys.filter(k => o[k] != null && typeof o[k] !== 'object').map(k => [k, o[k]]))
-const words = (await all('word')).map(i => ({ id: i.sys.id, city: cn[i.fields.city?.sys?.id], ...strip(i.fields, ['slot', 'local', 'phonetic', 'meaning', 'context', 'groupNote']) }))
 const food = (await all('food')).map(i => ({ id: i.sys.id, city: cn[i.fields.relatedCity?.sys?.id], ...strip(i.fields, Object.keys(i.fields)) }))
-await fs.writeFile('data/text/words.json', JSON.stringify(words, null, 1))
+// Words live in src/data/words/ now (moved out of Contentful, Nov 2026).
 await fs.writeFile('data/text/food.json', JSON.stringify(food, null, 1))
 await fs.writeFile('data/text/cities.json', JSON.stringify(cities.map(c => ({ id: c.sys.id, city: c.fields.cityName, wordsPreamble: c.fields.wordsPreamble })), null, 1))
 // Stories, compact, for finding material for cross-city threads.
