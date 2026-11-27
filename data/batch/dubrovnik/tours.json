@@ -1,10 +1,32 @@
 [
  {
   "city": "Dubrovnik",
-  "url": "https://voicemap.me/tour/dubrovnik/dubrovnik-s-old-town-a-walking-tour-of-the-walled-city"
+  "title": "Dubrovnik Old Town Walk: City Walls, Stradun and Game of Thrones",
+  "creator": "Pamela Moyce",
+  "minutes": 60,
+  "distanceKm": 1,
+  "priceUsd": 14.99,
+  "rating": 4.7,
+  "numberOfRatings": 226,
+  "url": "https://voicemap.me/tour/dubrovnik/dubrovnik-s-old-town-a-walking-tour-of-the-walled-city",
+  "place": "Pile Gate",
+  "lat": 42.6417,
+  "lon": 18.1072,
+  "description": "A short walk through the old town from Pile Gate, along the Stradun to the Rector’s Palace and the cathedral, with the history of the republic and the places used for filming Game of Thrones."
  },
  {
   "city": "Dubrovnik",
-  "url": "https://voicemap.me/tour/dubrovnik/the-walls-of-liberty-tour-of-the-city-walls"
+  "title": "The Walls of Liberty: A Tour of Dubrovnik’s City Walls",
+  "creator": "Hayley",
+  "minutes": 90,
+  "distanceKm": 2,
+  "priceUsd": 11.99,
+  "rating": 4.7,
+  "numberOfRatings": 373,
+  "url": "https://voicemap.me/tour/dubrovnik/the-walls-of-liberty-tour-of-the-city-walls",
+  "place": "City walls entrance, Pile Gate",
+  "lat": 42.6419,
+  "lon": 18.1075,
+  "description": "A full circuit of the city walls, about 2 kilometers, with views of Fort Lovrijenac and the Minčeta Tower and stories of how the republic defended itself, including the legend of the Lizard cannon."
  }
 ]
