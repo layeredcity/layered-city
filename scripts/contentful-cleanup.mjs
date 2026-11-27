@@ -74,6 +74,12 @@ for (const w of words) {
   catch (e) { log.errors.push(`word ${w.sys.id}: ${e.message}`) }
 }
 
+// Fields an entry must have to be published. An asset that fills one of these
+// can't be unlinked without breaking the entry, so it stays.
+const required = {}
+for (const ct of (await cma('/content_types?limit=1000')).items) required[ct.sys.id] = new Set(ct.fields.filter(f => f.required).map(f => f.id))
+log.keptForRequiredFields = []
+
 // 2. Assets the repo has replaced.
 const { deletableIds } = JSON.parse(await fs.readFile('data/migrate/asset-usage.json', 'utf8'))
 const wordIds = new Set(words.map(w => w.sys.id))
@@ -85,6 +91,8 @@ for (const id of deletableIds) {
     // asset, that's work in progress: keep the asset.
     const draftOnly = linking.filter(e => !isPublished(e))
     if (draftOnly.length) { log.keptForDrafts.push({ id, drafts: draftOnly.map(e => e.sys.id) }); continue }
+    const needs = linking.flatMap(e => Object.entries(e.fields).filter(([field, locales]) => required[e.sys.contentType.sys.id]?.has(field) && Object.values(locales).some(val => val?.sys?.id === id || (Array.isArray(val) && val.some(x => x?.sys?.id === id)))).map(([field]) => `${e.sys.contentType.sys.id}.${field}`))
+    if (needs.length) { log.keptForRequiredFields.push({ id, fields: [...new Set(needs)] }); continue }
     for (let e of linking) {
       const drafty = hasDraftChanges(e), published = isPublished(e)
       for (const [field, locales] of Object.entries(e.fields)) {
