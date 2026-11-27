@@ -81,21 +81,38 @@ const log = { mode: MODE, city: city.cityName, started: new Date().toISOString()
 const cities = await all('/entries?content_type=city')
 let cityEntry = cities.find(c => norm(c.fields.cityName?.[L]) === norm(city.cityName))
 let cityId = cityEntry?.sys.id
-if (!cityEntry) {
-  const deltas = cities.map(c => c.fields.latitudeLongitudeDelta?.[L]).filter(x => typeof x === 'number').sort((a, b) => a - b)
-  const delta = deltas[Math.floor(deltas.length / 2)] ?? 0.1
-  const heroId = await createAsset(city.hero, city.heroTitle || `${city.cityName} hero`)
-  const fields = {
-    cityName: loc(city.cityName), countryName: loc(city.countryName), continent: loc(city.continent || 'Europe'),
-    cityCoordinates: loc({ lat: city.lat, lon: city.lon }), cityHeroImage: loc(link(heroId, 'Asset')),
-    isFeatured: loc(false), cityQuote: loc(city.cityQuote), cityQuoteAttribution: loc(city.cityQuoteAttribution),
-    latitudeLongitudeDelta: loc(delta), wordsVariant: loc('standard'), wordsPublished: loc(true),
-  }
-  if (city.wordsPreamble) fields.wordsPreamble = loc(city.wordsPreamble)
-  cityEntry = await createEntry('city', fields)
-  cityId = cityEntry.sys.id
-  log.created.push(`city: ${city.cityName} (map zoom delta ${delta})`)
-} else log.skipped.push(`city: ${city.cityName} already exists`)
+const median = field => {
+  const xs = cities.filter(c => c.sys.publishedVersion).map(c => c.fields[field]?.[L]).filter(x => typeof x === 'number').sort((a, b) => a - b)
+  return xs[Math.floor(xs.length / 2)]
+}
+try {
+  if (!cityEntry || !cityEntry.sys.publishedVersion) {
+    // New city, or a draft left by an earlier run that failed to publish:
+    // fill every field the city needs, then publish.
+    const delta = median('latitudeLongitudeDelta') ?? 1
+    const mapHeight = median('cityMapHeight') ?? 400
+    const heroId = cityEntry?.fields.cityHeroImage?.[L]?.sys?.id || await createAsset(city.hero, city.heroTitle || `${city.cityName} hero`)
+    const fields = {
+      ...(cityEntry?.fields || {}),
+      cityName: loc(city.cityName), countryName: loc(city.countryName), continent: loc(city.continent || 'Europe'),
+      cityCoordinates: loc({ lat: city.lat, lon: city.lon }), cityHeroImage: loc(link(heroId, 'Asset')),
+      isFeatured: loc(false), cityQuote: loc(city.cityQuote), cityQuoteAttribution: loc(city.cityQuoteAttribution),
+      latitudeLongitudeDelta: loc(delta), cityMapHeight: loc(mapHeight), wordsVariant: loc('standard'), wordsPublished: loc(true),
+    }
+    if (city.wordsPreamble) fields.wordsPreamble = loc(city.wordsPreamble)
+    if (!cityEntry) cityEntry = await createEntry('city', fields)
+    else if (!DRY) {
+      cityEntry = await cma(`/entries/${cityEntry.sys.id}`, { method: 'PUT', headers: { 'X-Contentful-Version': String(cityEntry.sys.version) }, body: JSON.stringify({ fields }) })
+      await publish(cityEntry)
+    }
+    cityId = cityEntry.sys.id
+    log.created.push(`city: ${city.cityName} (map zoom delta ${delta}, map height ${mapHeight})`)
+  } else log.skipped.push(`city: ${city.cityName} already exists`)
+} catch (e) {
+  log.errors.push(`city: ${e.message}`)
+  await fs.writeFile(`data/batch/${SLUG}/import-log.json`, JSON.stringify(log, null, 1) + '\n')
+  throw e
+}
 
 // ---------------------------------------------------------------- channels
 const channels = await all('/entries?content_type=channel')
