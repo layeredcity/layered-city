@@ -1,0 +1,20 @@
+{
+ "mode": "dry-run",
+ "city": "Bruges",
+ "started": "2026-11-28T16:43:28.954Z",
+ "created": [
+  "podcast: William Caxton",
+  "video: The Holy Blood procession",
+  "video: Memling’s St. Ursula Shrine"
+ ],
+ "skipped": [
+  "city: Bruges already exists"
+ ],
+ "channels": [
+  "podcast: Willy Willy Harry Stee..."
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:43:30.522Z"
+}
