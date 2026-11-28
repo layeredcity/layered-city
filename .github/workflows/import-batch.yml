@@ -22,7 +22,7 @@ jobs:
           CONTENTFUL_MANAGEMENT_TOKEN: ${{ secrets.CONTENTFUL_MANAGEMENT_TOKEN }}
       - if: always()
         run: |
-          git add data/batch/*/import-log.json || true
+          git add data/batch/*/import-log.json data/batch/*/tour-images-log.json || true
           git diff --cached --quiet && exit 0
           git config user.name "Layered City import"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
