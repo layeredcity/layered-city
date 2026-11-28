@@ -6,7 +6,14 @@
   "place": "St. Peter’s Church",
   "lat": 56.9474,
   "lon": 24.1087,
-  "description": "A walk through the old town from St. Peter’s Church past Town Hall Square and Dome Square to the Freedom Monument, with stories along the way, including Riga’s claim to the first decorated Christmas tree."
+  "description": "A walk through the old town from St. Peter’s Church past Town Hall Square and Dome Square to the Freedom Monument, with stories along the way, including Riga’s claim to the first decorated Christmas tree.",
+  "creator": "Edvards Rutkis",
+  "minutes": 45,
+  "distanceKm": 1,
+  "priceUsd": 11.99,
+  "rating": 4.9,
+  "numberOfRatings": 100,
+  "image": "https://media.voicemap.me/public/routes/images/000/004/066/original/Oldriga.jpg"
  },
  {
   "city": "Riga",
@@ -15,7 +22,14 @@
   "place": "Latvian National Museum of Art",
   "lat": 56.9558,
   "lon": 24.1131,
-  "description": "A short walk from the art museum along Elizabetes iela to Alberta iela, the street with the most famous Art Nouveau facades in Riga."
+  "description": "A short walk from the art museum along Elizabetes iela to Alberta iela, the street with the most famous Art Nouveau facades in Riga.",
+  "creator": "Edvards Rutkis",
+  "minutes": 30,
+  "distanceKm": null,
+  "priceUsd": 9.99,
+  "rating": 4.8,
+  "numberOfRatings": 185,
+  "image": "https://media.voicemap.me/public/routes/images/000/004/079/original/artnouveauriga.jpg"
  },
  {
   "city": "Riga",
@@ -24,6 +38,13 @@
   "place": "Albert Square",
   "lat": 56.946,
   "lon": 24.1122,
-  "description": "A walk from Albert Square, where Riga began, through the oldest part of the old town, with Latvian legends and history along the way."
+  "description": "A walk from Albert Square, where Riga began, through the oldest part of the old town, with Latvian legends and history along the way.",
+  "creator": "Emīls Dzelzkalējs",
+  "minutes": 120,
+  "distanceKm": 2,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 152,
+  "image": "https://media.voicemap.me/public/routes/images/000/003/782/original/latvian-legends-history-riga-old-town.jpg"
  }
 ]
