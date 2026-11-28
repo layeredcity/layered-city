@@ -4348,5 +4348,1163 @@
    "description": "A statue at Govan Cross of Mary Barbour, who led the 1915 rent strikes against Glasgow’s landlords. It was unveiled in 2018.",
    "photoSearch": "Mary Barbour statue Govan"
   }
+ ],
+ "Porto": [
+  {
+   "id": "casa-do-infante",
+   "name": "Casa do Infante",
+   "type": "museum",
+   "places": [
+    "Casa do Infante"
+   ],
+   "description": "A medieval building by the river that served as the royal customs house. Prince Henry the Navigator is said to have been born here in 1394.",
+   "wikipedia": "Casa do Infante"
+  },
+  {
+   "id": "factory-house",
+   "name": "Factory House",
+   "type": "building",
+   "places": [
+    "Factory House, Rua do Infante Dom Henrique"
+   ],
+   "description": "An 18th-century Georgian building where British port wine shippers have met and dined since the 1790s.",
+   "wikipedia": "Factory House (Porto)"
+  },
+  {
+   "id": "porto-cathedral",
+   "name": "Porto Cathedral",
+   "type": "church",
+   "places": [
+    "Porto Cathedral"
+   ],
+   "description": "The Romanesque cathedral on the hill above the old town, begun in the 12th century and later remodeled in Baroque style.",
+   "wikipedia": "Porto Cathedral"
+  },
+  {
+   "id": "avenida-dos-aliados",
+   "name": "Avenida dos Aliados",
+   "type": "landmark",
+   "places": [
+    "Avenida dos Aliados"
+   ],
+   "description": "The city’s grand central avenue and square, lined with granite buildings and closed at the top by the City Hall tower.",
+   "wikipedia": "Avenida dos Aliados"
+  },
+  {
+   "id": "port-wine-lodges",
+   "name": "Port wine lodges",
+   "type": "building",
+   "places": [
+    "Port wine lodges, Cais de Gaia"
+   ],
+   "description": "Riverside cellars in Vila Nova de Gaia, across the Douro from Porto, where port wine is aged in barrels before shipping."
+  },
+  {
+   "id": "luis-i-bridge",
+   "name": "Luís I Bridge",
+   "type": "building",
+   "places": [
+    "Luís I Bridge"
+   ],
+   "description": "A two-level iron arch bridge over the Douro, opened in 1886, linking Porto with Vila Nova de Gaia.",
+   "wikipedia": "Dom Luís I Bridge"
+  },
+  {
+   "id": "estadio-do-dragao",
+   "name": "Estádio do Dragão",
+   "type": "building",
+   "places": [
+    "Estádio do Dragão"
+   ],
+   "description": "The home stadium of FC Porto, the city’s main football club, opened in 2003 for the Euro 2004 championship.",
+   "wikipedia": "Estádio do Dragão"
+  },
+  {
+   "id": "casa-da-musica",
+   "name": "Casa da Música",
+   "type": "music",
+   "places": [
+    "Casa da Música",
+    "Casa da Música, Sala Suggia"
+   ],
+   "description": "An angular concert hall designed by the Dutch architect Rem Koolhaas and opened in 2005.",
+   "wikipedia": "Casa da Música"
+  }
+ ],
+ "Dubrovnik": [
+  {
+   "id": "rectors-palace",
+   "name": "Rector’s Palace",
+   "type": "palace",
+   "places": [
+    "Rector’s Palace"
+   ],
+   "description": "The Gothic and Renaissance palace where the elected rector of the Republic of Ragusa lived and governed. It now holds the city museum.",
+   "wikipedia": "Rector's Palace, Dubrovnik"
+  },
+  {
+   "id": "city-walls",
+   "name": "City Walls and Pile Gate",
+   "type": "building",
+   "places": [
+    "Pile Gate",
+    "City walls entrance, Pile Gate",
+    "Minčeta Tower"
+   ],
+   "description": "Stone walls nearly two kilometers long around the old town, entered from the west through Pile Gate and topped by the round Minčeta Tower.",
+   "wikipedia": "Walls of Dubrovnik"
+  },
+  {
+   "id": "old-port",
+   "name": "Old Port",
+   "type": "landmark",
+   "places": [
+    "Old Port"
+   ],
+   "description": "The small harbor on the east side of the walled town, where the merchant ships of the old republic once docked."
+  },
+  {
+   "id": "sponza-palace",
+   "name": "Sponza Palace",
+   "type": "palace",
+   "places": [
+    "Sponza Palace"
+   ],
+   "description": "A 16th-century palace that served as the customs house and mint. It now holds the archives of the old republic.",
+   "wikipedia": "Sponza Palace"
+  },
+  {
+   "id": "fort-imperial",
+   "name": "Fort Imperial",
+   "type": "building",
+   "places": [
+    "Fort Imperial, Mount Srđ"
+   ],
+   "description": "A fort on Mount Srđ above the city, built by the French in the early 1800s. It was a key defensive point during the 1991–92 siege.",
+   "wikipedia": "Fort Imperial"
+  },
+  {
+   "id": "fort-lovrijenac",
+   "name": "Fort Lovrijenac",
+   "type": "building",
+   "places": [
+    "Fort Lovrijenac"
+   ],
+   "description": "A fortress on a sea cliff outside the western walls, used as a stage for open-air plays in summer.",
+   "wikipedia": "Lovrijenac"
+  }
+ ],
+ "Salzburg": [
+  {
+   "id": "mirabell-gardens",
+   "name": "Mirabell Gardens",
+   "type": "landmark",
+   "places": [
+    "Mirabell Gardens"
+   ],
+   "description": "Formal Baroque gardens around Mirabell Palace, with fountains, statues, and a view of the fortress on the hill.",
+   "wikipedia": "Mirabell Palace"
+  },
+  {
+   "id": "mozarts-birthplace",
+   "name": "Mozart’s Birthplace",
+   "type": "museum",
+   "places": [
+    "Mozart’s Birthplace"
+   ],
+   "description": "The house on Getreidegasse where Wolfgang Amadeus Mozart was born in 1756, now a museum of his early life.",
+   "wikipedia": "Mozart's birthplace"
+  },
+  {
+   "id": "salzburg-residenz",
+   "name": "Salzburg Residenz",
+   "type": "palace",
+   "places": [
+    "Salzburg Residenz",
+    "Residenzplatz"
+   ],
+   "description": "The palace of the prince-archbishops who ruled Salzburg, facing a large square with a Baroque fountain.",
+   "wikipedia": "Salzburg Residenz"
+  },
+  {
+   "id": "salzburg-cathedral",
+   "name": "Salzburg Cathedral",
+   "type": "church",
+   "places": [
+    "Salzburg Cathedral",
+    "Domplatz"
+   ],
+   "description": "A Baroque cathedral consecrated in 1628, where Mozart was baptized. The square in front hosts an open-air play each summer.",
+   "wikipedia": "Salzburg Cathedral"
+  },
+  {
+   "id": "great-festival-hall",
+   "name": "Great Festival Hall",
+   "type": "music",
+   "places": [
+    "Great Festival Hall"
+   ],
+   "description": "The main hall of the Salzburg Festival, the summer festival of opera, drama, and concerts held since 1920.",
+   "wikipedia": "Großes Festspielhaus"
+  },
+  {
+   "id": "silent-night-chapel",
+   "name": "Silent Night Chapel",
+   "type": "church",
+   "places": [
+    "Silent Night Chapel, Oberndorf"
+   ],
+   "description": "A small memorial chapel in Oberndorf, north of Salzburg, on the site of the church where “Silent Night” was first sung in 1818.",
+   "wikipedia": "Silent Night Chapel"
+  },
+  {
+   "id": "nonnberg-abbey",
+   "name": "Nonnberg Abbey",
+   "type": "church",
+   "places": [
+    "Nonnberg Abbey"
+   ],
+   "description": "A Benedictine convent on the hill below the fortress, founded in the early 700s and still home to a community of nuns.",
+   "wikipedia": "Nonnberg Abbey"
+  },
+  {
+   "id": "paschinger-schlossl",
+   "name": "Paschinger Schlössl",
+   "type": "building",
+   "places": [
+    "Paschinger Schlössl, Kapuzinerberg"
+   ],
+   "description": "A small manor house on the Kapuzinerberg hill where the Austrian writer Stefan Zweig lived from 1919 to 1934.",
+   "wikipedia": "Paschinger Schlössl"
+  },
+  {
+   "id": "villa-trapp",
+   "name": "Villa Trapp",
+   "type": "building",
+   "places": [
+    "Villa Trapp, Aigen"
+   ],
+   "description": "The villa where the von Trapp family lived before they left Austria in 1938. It is now a hotel.",
+   "wikipedia": "Villa Trapp"
+  }
+ ],
+ "Nice": [
+  {
+   "id": "place-massena",
+   "name": "Place Masséna",
+   "type": "landmark",
+   "places": [
+    "Place Masséna"
+   ],
+   "description": "The main square of Nice, paved in a black-and-white checkerboard and framed by red-ochre arcaded buildings.",
+   "wikipedia": "Place Masséna"
+  },
+  {
+   "id": "jardin-de-la-pinede",
+   "name": "Jardin de la Pinède",
+   "type": "landmark",
+   "places": [
+    "Jardin de la Pinède, Juan-les-Pins"
+   ],
+   "description": "A pine grove by the sea in Juan-les-Pins, near Antibes, where the Jazz à Juan festival has been held since 1960.",
+   "wikipedia": "Jazz à Juan"
+  },
+  {
+   "id": "cours-saleya",
+   "name": "Cours Saleya",
+   "type": "landmark",
+   "places": [
+    "Cours Saleya"
+   ],
+   "description": "A long square in the old town that holds a daily flower and produce market.",
+   "wikipedia": "Cours Saleya"
+  },
+  {
+   "id": "villa-nellcote",
+   "name": "Villa Nellcôte",
+   "type": "building",
+   "places": [
+    "Villa Nellcôte, Villefranche-sur-Mer"
+   ],
+   "description": "A seaside villa in Villefranche-sur-Mer, east of Nice, where the Rolling Stones recorded much of an album in 1971.",
+   "wikipedia": "Villa Nellcôte"
+  },
+  {
+   "id": "musee-picasso-antibes",
+   "name": "Musée Picasso, Antibes",
+   "type": "museum",
+   "places": [
+    "Musée Picasso, Antibes"
+   ],
+   "description": "A museum in the Grimaldi castle in Antibes, where Pablo Picasso worked in 1946. It holds the works he made there.",
+   "wikipedia": "Musée Picasso (Antibes)"
+  },
+  {
+   "id": "villa-isola-bella",
+   "name": "Villa Isola Bella",
+   "type": "building",
+   "places": [
+    "Villa Isola Bella, Menton"
+   ],
+   "description": "A villa in Menton, near the Italian border, where the New Zealand writer Katherine Mansfield lived in 1920 and 1921."
+  },
+  {
+   "id": "casino-de-monte-carlo",
+   "name": "Casino de Monte-Carlo",
+   "type": "building",
+   "places": [
+    "Casino de Monte-Carlo",
+    "Opéra de Monte-Carlo"
+   ],
+   "description": "The 19th-century casino in Monaco, whose building also holds the Monte-Carlo Opera.",
+   "wikipedia": "Monte Carlo Casino"
+  },
+  {
+   "id": "palais-croisette",
+   "name": "Former Palais Croisette",
+   "type": "building",
+   "places": [
+    "Former Palais Croisette, Cannes"
+   ],
+   "description": "The site of the first festival hall in Cannes, which hosted the Cannes Film Festival from 1949 to 1982."
+  },
+  {
+   "id": "musee-matisse",
+   "name": "Musée Matisse",
+   "type": "museum",
+   "places": [
+    "Musée Matisse, Cimiez"
+   ],
+   "description": "A museum in a 17th-century villa in Cimiez, the hill neighborhood where the painter Henri Matisse lived and is buried.",
+   "wikipedia": "Musée Matisse (Nice)"
+  },
+  {
+   "id": "hotel-belles-rives",
+   "name": "Hôtel Belles Rives",
+   "type": "building",
+   "places": [
+    "Hôtel Belles Rives, Juan-les-Pins"
+   ],
+   "description": "A seaside hotel in Juan-les-Pins, once a villa where the American writer F. Scott Fitzgerald lived in 1926."
+  },
+  {
+   "id": "studios-de-la-victorine",
+   "name": "Studios de la Victorine",
+   "type": "building",
+   "places": [
+    "Studios de la Victorine",
+    "Studios de la Victorine, Nice"
+   ],
+   "description": "Film studios in western Nice, founded in 1919, where many French and foreign films have been shot.",
+   "wikipedia": "Studios de la Victorine"
+  },
+  {
+   "id": "palais-de-la-mediterranee",
+   "name": "Palais de la Méditerranée",
+   "type": "building",
+   "places": [
+    "Palais de la Méditerranée"
+   ],
+   "description": "An Art Deco casino on the seafront, opened in 1929. Only the facade of the original building survives, in front of a hotel.",
+   "wikipedia": "Palais de la Méditerranée"
+  },
+  {
+   "id": "chapelle-du-rosaire",
+   "name": "Chapelle du Rosaire",
+   "type": "church",
+   "places": [
+    "Chapelle du Rosaire, Vence"
+   ],
+   "description": "A small chapel in Vence designed by the painter Henri Matisse and completed in 1951, with his stained glass and wall drawings.",
+   "wikipedia": "Chapelle du Rosaire de Vence"
+  }
+ ],
+ "Tallinn": [
+  {
+   "id": "song-festival-grounds",
+   "name": "Tallinn Song Festival Grounds",
+   "type": "music",
+   "places": [
+    "Tallinn Song Festival Grounds"
+   ],
+   "description": "An open-air arena with a large arched stage, home to Estonia’s national song festivals and the 1988 Singing Revolution gatherings.",
+   "wikipedia": "Tallinn Song Festival Grounds"
+  },
+  {
+   "id": "toompea-castle",
+   "name": "Toompea Castle",
+   "type": "palace",
+   "places": [
+    "Toompea Castle"
+   ],
+   "description": "The castle on Toompea Hill above the old town. Its pink Baroque wing is now the seat of the Estonian parliament.",
+   "wikipedia": "Toompea Castle"
+  },
+  {
+   "id": "hotel-viru",
+   "name": "Hotel Viru",
+   "type": "building",
+   "places": [
+    "Hotel Viru"
+   ],
+   "description": "A Soviet-era hotel for foreign visitors, opened in 1972. A museum on its top floor shows the room the KGB used to listen in on guests.",
+   "wikipedia": "Hotel Viru"
+  },
+  {
+   "id": "fat-margaret",
+   "name": "Fat Margaret",
+   "type": "building",
+   "places": [
+    "Fat Margaret tower"
+   ],
+   "description": "A round 16th-century cannon tower by the old town’s sea gate. It now holds the Estonian Maritime Museum.",
+   "wikipedia": "Fat Margaret"
+  },
+  {
+   "id": "great-guild-hall",
+   "name": "Great Guild Hall",
+   "type": "building",
+   "places": [
+    "Great Guild Hall"
+   ],
+   "description": "The 15th-century hall of the merchants’ guild, now home to the Estonian History Museum.",
+   "wikipedia": "Great Guild Hall"
+  },
+  {
+   "id": "tallinn-town-hall",
+   "name": "Tallinn Town Hall",
+   "type": "building",
+   "places": [
+    "Tallinn Town Hall"
+   ],
+   "description": "A Gothic town hall from the early 1400s on the old town’s main square, topped by a weather vane known as Old Thomas.",
+   "wikipedia": "Tallinn Town Hall"
+  },
+  {
+   "id": "linnahall",
+   "name": "Linnahall",
+   "type": "building",
+   "places": [
+    "Linnahall"
+   ],
+   "description": "A concrete concert and sports hall on the waterfront, built for the 1980 Moscow Olympics sailing events and now largely unused.",
+   "wikipedia": "Linnahall"
+  }
+ ],
+ "Valletta": [
+  {
+   "id": "st-johns-co-cathedral",
+   "name": "St. John’s Co-Cathedral",
+   "type": "church",
+   "places": [
+    "St. John’s Co-Cathedral"
+   ],
+   "description": "The 16th-century church of the Knights of St. John, with a gilded Baroque interior and two paintings by Caravaggio.",
+   "wikipedia": "St. John's Co-Cathedral"
+  },
+  {
+   "id": "fort-st-elmo",
+   "name": "Fort St. Elmo",
+   "type": "building",
+   "places": [
+    "Fort St. Elmo",
+    "Fort St. Elmo and National War Museum"
+   ],
+   "description": "A star-shaped fort at the tip of the Valletta peninsula, besieged in 1565 and now home to the National War Museum.",
+   "wikipedia": "Fort St. Elmo"
+  },
+  {
+   "id": "fort-st-angelo",
+   "name": "Fort St. Angelo",
+   "type": "building",
+   "places": [
+    "Fort St. Angelo, Birgu"
+   ],
+   "description": "A fortress across the Grand Harbour in Birgu, the knights’ headquarters during the Great Siege of 1565.",
+   "wikipedia": "Fort St. Angelo"
+  },
+  {
+   "id": "grandmasters-palace",
+   "name": "Grandmaster’s Palace",
+   "type": "palace",
+   "places": [
+    "Grandmaster’s Palace"
+   ],
+   "description": "The palace of the grand masters of the Order of St. John, later the seat of British governors and now of Malta’s president.",
+   "wikipedia": "Grandmaster's Palace"
+  },
+  {
+   "id": "great-siege-monument",
+   "name": "Great Siege Monument",
+   "type": "landmark",
+   "places": [
+    "Great Siege Monument"
+   ],
+   "description": "A bronze monument to the Great Siege of 1565, when the knights held Malta against an Ottoman fleet."
+  },
+  {
+   "id": "triton-fountain",
+   "name": "Triton Fountain",
+   "type": "landmark",
+   "places": [
+    "Triton Fountain"
+   ],
+   "description": "A fountain outside the city gate with three bronze tritons holding up a large basin, completed in 1959.",
+   "wikipedia": "Triton Fountain"
+  },
+  {
+   "id": "lascaris-war-rooms",
+   "name": "Lascaris War Rooms",
+   "type": "museum",
+   "places": [
+    "Lascaris War Rooms"
+   ],
+   "description": "Tunnels cut into the rock below the Upper Barrakka Gardens that served as the Allied war headquarters in the Second World War.",
+   "wikipedia": "Lascaris War Rooms"
+  },
+  {
+   "id": "parliament-house",
+   "name": "Parliament House",
+   "type": "building",
+   "places": [
+    "Parliament House"
+   ],
+   "description": "Malta’s parliament building beside the city gate, designed by the Italian architect Renzo Piano and opened in 2015.",
+   "wikipedia": "Parliament House, Valletta"
+  }
+ ],
+ "Granada": [
+  {
+   "id": "alhambra",
+   "name": "Alhambra",
+   "type": "palace",
+   "places": [
+    "Court of the Lions, Alhambra",
+    "Patio de Lindaraja, Alhambra",
+    "Gate of Justice, Alhambra",
+    "Comares Tower, Alhambra",
+    "Hall of Kings, Alhambra"
+   ],
+   "description": "The hilltop palace and fortress of the Nasrid sultans, Granada’s last Muslim rulers, with carved halls, courtyards, and fountains.",
+   "wikipedia": "Alhambra"
+  },
+  {
+   "id": "huerta-de-san-vicente",
+   "name": "Huerta de San Vicente",
+   "type": "museum",
+   "places": [
+    "Huerta de San Vicente"
+   ],
+   "description": "The summer house of the family of the poet Federico García Lorca, now a museum set in a city park.",
+   "wikipedia": "Huerta de San Vicente"
+  },
+  {
+   "id": "sacromonte-caves-museum",
+   "name": "Sacromonte Caves Museum",
+   "type": "museum",
+   "places": [
+    "Sacromonte Caves Museum"
+   ],
+   "description": "A museum in cave houses on the Sacromonte hill, where Granada’s Roma community lived and shaped its flamenco tradition."
+  },
+  {
+   "id": "lorca-park-alfacar",
+   "name": "Federico García Lorca Park",
+   "type": "landmark",
+   "places": [
+    "Federico García Lorca Park, Alfacar"
+   ],
+   "description": "A memorial park in Alfacar, outside Granada, near where the poet Federico García Lorca was killed in 1936."
+  },
+  {
+   "id": "mirador-de-san-nicolas",
+   "name": "Mirador de San Nicolás",
+   "type": "landmark",
+   "places": [
+    "Mirador de San Nicolás"
+   ],
+   "description": "A viewpoint terrace in the Albaicín, the old Moorish quarter, facing the Alhambra across the valley."
+  },
+  {
+   "id": "plaza-larga",
+   "name": "Plaza Larga",
+   "type": "landmark",
+   "places": [
+    "Plaza Larga, Albaicín"
+   ],
+   "description": "A small square in the Albaicín, the old Moorish quarter, next to a medieval city gate."
+  },
+  {
+   "id": "royal-chapel",
+   "name": "Royal Chapel of Granada",
+   "type": "church",
+   "places": [
+    "Royal Chapel of Granada"
+   ],
+   "description": "The burial chapel of Ferdinand and Isabella, the Catholic Monarchs who took Granada in 1492, beside the cathedral.",
+   "wikipedia": "Royal Chapel of Granada"
+  }
+ ],
+ "Bruges": [
+  {
+   "id": "belfry",
+   "name": "Belfry of Bruges",
+   "type": "building",
+   "places": [
+    "Belfry of Bruges"
+   ],
+   "description": "A medieval bell tower on the main square, 83 meters tall, with a carillon of 47 bells.",
+   "wikipedia": "Belfry of Bruges"
+  },
+  {
+   "id": "markt",
+   "name": "Markt",
+   "type": "landmark",
+   "places": [
+    "Markt",
+    "Statue of Jan Breydel and Pieter de Coninck, Markt",
+    "Craenenburg, Markt"
+   ],
+   "description": "The main market square, lined with guild houses, with a statue of two leaders of a 1302 uprising against the French king.",
+   "wikipedia": "Markt (Bruges)"
+  },
+  {
+   "id": "burg",
+   "name": "Burg",
+   "type": "landmark",
+   "places": [
+    "Burg",
+    "Basilica of the Holy Blood",
+    "Bruges City Hall, Burg"
+   ],
+   "description": "A square with the Gothic city hall and the Basilica of the Holy Blood, a chapel built to hold a relic said to be Christ’s blood.",
+   "wikipedia": "Burg (Bruges)"
+  },
+  {
+   "id": "st-johns-hospital",
+   "name": "Saint John’s Hospital",
+   "type": "museum",
+   "places": [
+    "Saint John’s Hospital"
+   ],
+   "description": "A medieval hospital, one of the oldest in Europe, now a museum with paintings by Hans Memling, a 15th-century Flemish painter.",
+   "wikipedia": "Old St. John's Hospital"
+  },
+  {
+   "id": "rozenhoedkaai",
+   "name": "Rozenhoedkaai",
+   "type": "landmark",
+   "places": [
+    "Rozenhoedkaai"
+   ],
+   "description": "A quay where two canals meet, with a view of old houses and the belfry tower above them."
+  },
+  {
+   "id": "church-of-our-lady",
+   "name": "Church of Our Lady",
+   "type": "church",
+   "places": [
+    "Church of Our Lady"
+   ],
+   "description": "A Gothic church with a brick tower over 115 meters tall. It holds a marble Madonna and Child by Michelangelo.",
+   "wikipedia": "Church of Our Lady, Bruges"
+  },
+  {
+   "id": "begijnhof",
+   "name": "Begijnhof",
+   "type": "landmark",
+   "places": [
+    "Begijnhof"
+   ],
+   "description": "A walled courtyard of white houses around a lawn, founded in the 1200s for beguines, laywomen who lived in a religious community.",
+   "wikipedia": "Princely Beguinage Ten Wijngaerde"
+  },
+  {
+   "id": "prinsenhof",
+   "name": "Prinsenhof",
+   "type": "palace",
+   "places": [
+    "Prinsenhof"
+   ],
+   "description": "A former residence of the dukes of Burgundy, who ruled Flanders and held court here in the 1400s. It is now a hotel.",
+   "wikipedia": "Prinsenhof (Bruges)"
+  }
+ ],
+ "Sarajevo": [
+  {
+   "id": "sarajevo-youth-theatre",
+   "name": "Sarajevo Youth Theatre",
+   "type": "music",
+   "places": [
+    "Sarajevo Youth Theatre"
+   ],
+   "description": "A theater in the city center that kept staging plays and concerts throughout the siege of 1992 to 1996."
+  },
+  {
+   "id": "hotel-holiday",
+   "name": "Hotel Holiday",
+   "type": "building",
+   "places": [
+    "Hotel Holiday (former Holiday Inn)"
+   ],
+   "description": "A yellow hotel opened for the 1984 Winter Olympics, which housed foreign journalists during the siege of Sarajevo.",
+   "wikipedia": "Hotel Holiday (Sarajevo)"
+  },
+  {
+   "id": "national-museum",
+   "name": "National Museum of Bosnia and Herzegovina",
+   "type": "museum",
+   "places": [
+    "National Museum of Bosnia and Herzegovina"
+   ],
+   "description": "The country’s oldest museum, founded in 1888. It holds the Sarajevo Haggadah, a medieval illuminated Jewish manuscript.",
+   "wikipedia": "National Museum of Bosnia and Herzegovina"
+  },
+  {
+   "id": "bascarsija",
+   "name": "Baščaršija",
+   "type": "landmark",
+   "places": [
+    "Baščaršija",
+    "Sebilj, Baščaršija"
+   ],
+   "description": "The old Ottoman bazaar, with craft workshops, mosques, and a wooden fountain called the Sebilj in its main square.",
+   "wikipedia": "Baščaršija"
+  },
+  {
+   "id": "zetra-olympic-hall",
+   "name": "Zetra Olympic Hall",
+   "type": "building",
+   "places": [
+    "Zetra Olympic Hall"
+   ],
+   "description": "An arena built for the 1984 Winter Olympics. It was burned in the war, and its grounds became a cemetery during the siege.",
+   "wikipedia": "Juan Antonio Samaranch Olympic Hall"
+  },
+  {
+   "id": "war-childhood-museum",
+   "name": "War Childhood Museum",
+   "type": "museum",
+   "places": [
+    "War Childhood Museum"
+   ],
+   "description": "A museum of objects and memories from people who were children during the war of 1992 to 1995.",
+   "wikipedia": "War Childhood Museum"
+  },
+  {
+   "id": "latin-bridge",
+   "name": "Latin Bridge",
+   "type": "building",
+   "places": [
+    "Latin Bridge",
+    "Museum Sarajevo 1878–1918, Latin Bridge"
+   ],
+   "description": "An Ottoman stone bridge over the Miljacka river. The heir to the Austro-Hungarian throne was shot on the corner beside it in 1914.",
+   "wikipedia": "Latin Bridge"
+  },
+  {
+   "id": "bridge-of-suada-and-olga",
+   "name": "Bridge of Suada and Olga",
+   "type": "building",
+   "places": [
+    "Bridge of Suada and Olga"
+   ],
+   "description": "A bridge named for two women shot there at a peace protest on April 5, 1992, often counted as the first victims of the siege."
+  }
+ ],
+ "Ljubljana": [
+  {
+   "id": "preseren-square",
+   "name": "Prešeren Square",
+   "type": "landmark",
+   "places": [
+    "Prešeren Square",
+    "France Prešeren Monument"
+   ],
+   "description": "The central square by the Triple Bridge, with a statue of France Prešeren, Slovenia’s national poet.",
+   "wikipedia": "Prešeren Square"
+  },
+  {
+   "id": "congress-square",
+   "name": "Congress Square",
+   "type": "landmark",
+   "places": [
+    "Congress Square"
+   ],
+   "description": "A large square laid out for a congress of European powers in 1821, bordered by the university and the Philharmonic.",
+   "wikipedia": "Congress Square, Ljubljana"
+  },
+  {
+   "id": "metelkova",
+   "name": "Metelkova",
+   "type": "landmark",
+   "places": [
+    "Metelkova"
+   ],
+   "description": "Former army barracks taken over by artists and squatters in 1993, now an independent center for clubs, galleries, and street art.",
+   "wikipedia": "Metelkova"
+  },
+  {
+   "id": "ljubljana-castle",
+   "name": "Ljubljana Castle",
+   "type": "palace",
+   "places": [
+    "Ljubljana Castle"
+   ],
+   "description": "A medieval castle on the hill above the old town, reached by funicular, with a museum and a lookout tower.",
+   "wikipedia": "Ljubljana Castle"
+  },
+  {
+   "id": "museum-contemporary-history",
+   "name": "National Museum of Contemporary History",
+   "type": "museum",
+   "places": [
+    "National Museum of Contemporary History"
+   ],
+   "description": "A museum in Tivoli Park about Slovenia in the 20th century, from the world wars to independence in 1991.",
+   "wikipedia": "National Museum of Contemporary History"
+  },
+  {
+   "id": "faculty-of-arts",
+   "name": "Faculty of Arts",
+   "type": "building",
+   "places": [
+    "Faculty of Arts, University of Ljubljana"
+   ],
+   "description": "The humanities faculty of the University of Ljubljana, Slovenia’s oldest university."
+  },
+  {
+   "id": "republic-square",
+   "name": "Republic Square",
+   "type": "landmark",
+   "places": [
+    "Republic Square"
+   ],
+   "description": "A large square built in the 1960s and 1970s, where Slovenia’s independence was proclaimed on June 26, 1991.",
+   "wikipedia": "Republic Square, Ljubljana"
+  },
+  {
+   "id": "city-museum",
+   "name": "Ljubljana City Museum",
+   "type": "museum",
+   "places": [
+    "Ljubljana City Museum"
+   ],
+   "description": "A museum of the city’s history in a former noble palace, from the Roman town of Emona to the present.",
+   "wikipedia": "City Museum of Ljubljana"
+  }
+ ],
+ "Riga": [
+  {
+   "id": "freedom-monument",
+   "name": "Freedom Monument",
+   "type": "landmark",
+   "places": [
+    "Freedom Monument"
+   ],
+   "description": "A 42-meter monument from 1935, topped by a copper figure of Liberty holding up three stars, and a symbol of Latvian independence.",
+   "wikipedia": "Freedom Monument (Riga)"
+  },
+  {
+   "id": "bastejkalns",
+   "name": "Bastejkalns",
+   "type": "landmark",
+   "places": [
+    "Bastejkalns Park"
+   ],
+   "description": "A small hill park by the city canal, where people were shot during the January 1991 barricades. Memorial stones mark the spots.",
+   "wikipedia": "Bastejkalns"
+  },
+  {
+   "id": "dome-square",
+   "name": "Dome Square",
+   "type": "landmark",
+   "places": [
+    "Dome Square"
+   ],
+   "description": "The largest square in the old town, beside Riga Cathedral, the Lutheran cathedral begun in 1211.",
+   "wikipedia": "Dome Square"
+  },
+  {
+   "id": "mezaparks-great-stage",
+   "name": "Mežaparks Great Stage",
+   "type": "music",
+   "places": [
+    "Mežaparks Great Stage"
+   ],
+   "description": "An open-air stage in a pine forest park in northern Riga, built for Latvia’s national song and dance festivals.",
+   "wikipedia": "Mežaparks Great Bandstand"
+  },
+  {
+   "id": "national-museum-of-art",
+   "name": "Latvian National Museum of Art",
+   "type": "museum",
+   "places": [
+    "Latvian National Museum of Art"
+   ],
+   "description": "Latvia’s main art museum, in a building opened in 1905, with Latvian painting and sculpture.",
+   "wikipedia": "Latvian National Museum of Art"
+  },
+  {
+   "id": "st-peters-church",
+   "name": "St. Peter’s Church",
+   "type": "church",
+   "places": [
+    "St. Peter’s Church"
+   ],
+   "description": "A Gothic church with a tall spire and a viewing platform, first mentioned in 1209.",
+   "wikipedia": "St. Peter's Church, Riga"
+  }
+ ],
+ "Vilnius": [
+  {
+   "id": "vilnius-university",
+   "name": "Vilnius University",
+   "type": "building",
+   "places": [
+    "Vilnius University",
+    "Vilnius Yiddish Institute"
+   ],
+   "description": "One of the oldest universities in Central and Eastern Europe, founded in 1579, with linked courtyards and a Yiddish institute.",
+   "wikipedia": "Vilnius University"
+  },
+  {
+   "id": "romain-gary-monument",
+   "name": "Monument to Romain Gary",
+   "type": "landmark",
+   "places": [
+    "Monument to Romain Gary"
+   ],
+   "description": "A statue of a boy holding a shoe, honoring the French writer Romain Gary, who spent part of his childhood on this street."
+  },
+  {
+   "id": "vilnius-tv-tower",
+   "name": "Vilnius TV Tower",
+   "type": "building",
+   "places": [
+    "Vilnius TV Tower"
+   ],
+   "description": "A 326-meter TV tower where Soviet troops killed unarmed civilians on January 13, 1991.",
+   "wikipedia": "Vilnius TV Tower"
+  },
+  {
+   "id": "vilna-gaon-monument",
+   "name": "Vilna Gaon monument",
+   "type": "landmark",
+   "places": [
+    "Vilna Gaon monument, Žydų gatvė"
+   ],
+   "description": "A bust of the Vilna Gaon, an 18th-century rabbi and scholar, on a street of the old Jewish quarter."
+  },
+  {
+   "id": "vilnius-cathedral",
+   "name": "Vilnius Cathedral",
+   "type": "church",
+   "places": [
+    "Vilnius Cathedral",
+    "Cathedral Square"
+   ],
+   "description": "The city’s main Catholic cathedral, rebuilt in neoclassical style in the late 1700s, with a freestanding bell tower on its square.",
+   "wikipedia": "Vilnius Cathedral"
+  }
+ ],
+ "Lyon": [
+  {
+   "id": "palais-de-justice",
+   "name": "Palais de Justice historique",
+   "type": "building",
+   "places": [
+    "Palais de Justice historique"
+   ],
+   "description": "A 19th-century courthouse with 24 columns facing the Saône, where the Gestapo chief Klaus Barbie was tried in 1987.",
+   "wikipedia": "Palais de justice historique de Lyon"
+  },
+  {
+   "id": "jean-moulin-memorial",
+   "name": "Jean Moulin Memorial",
+   "type": "museum",
+   "places": [
+    "Jean Moulin Memorial, Caluire"
+   ],
+   "description": "The house in Caluire where the Gestapo arrested Jean Moulin, leader of the French Resistance, in 1943. It is now a memorial."
+  },
+  {
+   "id": "chrd",
+   "name": "Resistance and Deportation History Center",
+   "type": "museum",
+   "places": [
+    "CHRD (Resistance and Deportation History Center)"
+   ],
+   "description": "A museum of the Resistance and the deportations, in a building the Gestapo used as its Lyon headquarters during the war.",
+   "wikipedia": "Centre d'histoire de la résistance et de la déportation"
+  },
+  {
+   "id": "institut-lumiere",
+   "name": "Institut Lumière",
+   "type": "museum",
+   "places": [
+    "Institut Lumière",
+    "Hangar du Premier Film"
+   ],
+   "description": "The Lumière family villa and the factory hall where the brothers filmed workers leaving in 1895, now a museum of early cinema.",
+   "wikipedia": "Institut Lumière"
+  },
+  {
+   "id": "longue-traboule",
+   "name": "La Longue Traboule",
+   "type": "landmark",
+   "places": [
+    "La Longue Traboule"
+   ],
+   "description": "A traboule, a covered passage through the courtyards of old houses, in Vieux Lyon, the city’s Renaissance quarter."
+  },
+  {
+   "id": "roman-theaters",
+   "name": "Roman theaters of Fourvière",
+   "type": "landmark",
+   "places": [
+    "Roman theater of Fourvière",
+    "Lugdunum museum and Roman theaters"
+   ],
+   "description": "Two Roman theaters on Fourvière hill, from when Lyon was Lugdunum, a capital of Roman Gaul, beside a museum of the Roman city.",
+   "wikipedia": "Ancient Theatre of Fourvière"
+  }
+ ],
+ "Sofia": [
+  {
+   "id": "ndk",
+   "name": "National Palace of Culture",
+   "type": "building",
+   "places": [
+    "National Palace of Culture"
+   ],
+   "description": "A huge congress and concert center opened in 1981 for the 1,300th anniversary of the Bulgarian state.",
+   "wikipedia": "National Palace of Culture"
+  },
+  {
+   "id": "sveta-nedelya",
+   "name": "Sveta Nedelya Cathedral",
+   "type": "church",
+   "places": [
+    "Sveta Nedelya Cathedral",
+    "Sveta Nedelya Square"
+   ],
+   "description": "An Orthodox cathedral on a central square, rebuilt after a bomb attack in 1925 killed more than 150 people inside.",
+   "wikipedia": "St Nedelya Church"
+  },
+  {
+   "id": "party-house",
+   "name": "Former Communist Party House",
+   "type": "building",
+   "places": [
+    "Former Communist Party House, Largo"
+   ],
+   "description": "The former headquarters of the Bulgarian Communist Party, a large Stalinist building on the Largo, now used by parliament.",
+   "wikipedia": "Party House (Sofia)"
+  },
+  {
+   "id": "serdica",
+   "name": "Ancient Serdica",
+   "type": "landmark",
+   "places": [
+    "Ancient Serdica Cultural Complex"
+   ],
+   "description": "Excavated streets and buildings of Serdica, the Roman city under Sofia, shown in the open beside a metro station.",
+   "wikipedia": "Serdica"
+  },
+  {
+   "id": "old-national-assembly",
+   "name": "National Assembly building",
+   "type": "building",
+   "places": [
+    "Old National Assembly"
+   ],
+   "description": "The neo-Renaissance parliament building from the 1880s, facing a statue of the Russian tsar whose war freed Bulgaria in 1878.",
+   "wikipedia": "National Assembly of Bulgaria"
+  },
+  {
+   "id": "bulgarian-national-radio",
+   "name": "Bulgarian National Radio",
+   "type": "building",
+   "places": [
+    "Bulgarian National Radio"
+   ],
+   "description": "The headquarters of the country’s public radio broadcaster, with studios and a concert hall.",
+   "wikipedia": "Bulgarian National Radio"
+  }
+ ],
+ "Bordeaux": [
+  {
+   "id": "cathedrale-saint-andre",
+   "name": "Bordeaux Cathedral",
+   "type": "church",
+   "places": [
+    "Cathédrale Saint-André",
+    "Place Pey Berland"
+   ],
+   "description": "A Gothic cathedral with a separate bell tower, where Eleanor of Aquitaine married the future King Louis VII of France in 1137.",
+   "wikipedia": "Bordeaux Cathedral"
+  },
+  {
+   "id": "palais-de-justice",
+   "name": "Palais de Justice",
+   "type": "building",
+   "places": [
+    "Palais de Justice"
+   ],
+   "description": "The neoclassical courthouse where the Vichy official Maurice Papon was tried in 1997 and 1998 for the deportation of Jews."
+  },
+  {
+   "id": "grand-theatre",
+   "name": "Grand Théâtre",
+   "type": "music",
+   "places": [
+    "Grand Théâtre",
+    "Place de la Comédie"
+   ],
+   "description": "An opera house from 1780 with twelve columns across its front, on a square at the center of the city.",
+   "wikipedia": "Grand Théâtre de Bordeaux"
+  },
+  {
+   "id": "musee-du-vin",
+   "name": "Musée du Vin et du Négoce",
+   "type": "museum",
+   "places": [
+    "Musée du Vin et du Négoce, Chartrons"
+   ],
+   "description": "A museum of the wine trade in the cellars of an 18th-century merchant’s house in the Chartrons quarter."
+  },
+  {
+   "id": "place-des-quinconces",
+   "name": "Place des Quinconces",
+   "type": "landmark",
+   "places": [
+    "Monument aux Girondins",
+    "Rostral columns, Place des Quinconces",
+    "Statue of Montaigne, Place des Quinconces"
+   ],
+   "description": "One of the largest squares in Europe, with a tall monument to the Girondins, a group of revolutionaries, and statues of two writers.",
+   "wikipedia": "Esplanade des Quinconces"
+  },
+  {
+   "id": "sousa-mendes-statue",
+   "name": "Statue of Aristides de Sousa Mendes",
+   "type": "landmark",
+   "places": [
+    "Statue of Aristides de Sousa Mendes"
+   ],
+   "description": "A statue of the Portuguese consul who issued thousands of visas to refugees in Bordeaux in June 1940."
+  },
+  {
+   "id": "place-de-la-bourse",
+   "name": "Place de la Bourse",
+   "type": "landmark",
+   "places": [
+    "Place de la Bourse",
+    "Miroir d’eau"
+   ],
+   "description": "An 18th-century square of classical buildings facing the river, with a shallow reflecting pool laid out in front in 2006.",
+   "wikipedia": "Place de la Bourse"
+  }
  ]
 }

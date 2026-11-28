@@ -1,0 +1,131 @@
+[
+  {
+    "id": "place-massena",
+    "name": "Place Masséna",
+    "type": "landmark",
+    "places": [
+      "Place Masséna"
+    ],
+    "description": "The main square of Nice, paved in a black-and-white checkerboard and framed by red-ochre arcaded buildings.",
+    "wikipedia": "Place Masséna"
+  },
+  {
+    "id": "jardin-de-la-pinede",
+    "name": "Jardin de la Pinède",
+    "type": "landmark",
+    "places": [
+      "Jardin de la Pinède, Juan-les-Pins"
+    ],
+    "description": "A pine grove by the sea in Juan-les-Pins, near Antibes, where the Jazz à Juan festival has been held since 1960.",
+    "wikipedia": "Jazz à Juan"
+  },
+  {
+    "id": "cours-saleya",
+    "name": "Cours Saleya",
+    "type": "landmark",
+    "places": [
+      "Cours Saleya"
+    ],
+    "description": "A long square in the old town that holds a daily flower and produce market.",
+    "wikipedia": "Cours Saleya"
+  },
+  {
+    "id": "villa-nellcote",
+    "name": "Villa Nellcôte",
+    "type": "building",
+    "places": [
+      "Villa Nellcôte, Villefranche-sur-Mer"
+    ],
+    "description": "A seaside villa in Villefranche-sur-Mer, east of Nice, where the Rolling Stones recorded much of an album in 1971.",
+    "wikipedia": "Villa Nellcôte"
+  },
+  {
+    "id": "musee-picasso-antibes",
+    "name": "Musée Picasso, Antibes",
+    "type": "museum",
+    "places": [
+      "Musée Picasso, Antibes"
+    ],
+    "description": "A museum in the Grimaldi castle in Antibes, where Pablo Picasso worked in 1946. It holds the works he made there.",
+    "wikipedia": "Musée Picasso (Antibes)"
+  },
+  {
+    "id": "villa-isola-bella",
+    "name": "Villa Isola Bella",
+    "type": "building",
+    "places": [
+      "Villa Isola Bella, Menton"
+    ],
+    "description": "A villa in Menton, near the Italian border, where the New Zealand writer Katherine Mansfield lived in 1920 and 1921."
+  },
+  {
+    "id": "casino-de-monte-carlo",
+    "name": "Casino de Monte-Carlo",
+    "type": "building",
+    "places": [
+      "Casino de Monte-Carlo",
+      "Opéra de Monte-Carlo"
+    ],
+    "description": "The 19th-century casino in Monaco, whose building also holds the Monte-Carlo Opera.",
+    "wikipedia": "Monte Carlo Casino"
+  },
+  {
+    "id": "palais-croisette",
+    "name": "Former Palais Croisette",
+    "type": "building",
+    "places": [
+      "Former Palais Croisette, Cannes"
+    ],
+    "description": "The site of the first festival hall in Cannes, which hosted the Cannes Film Festival from 1949 to 1982."
+  },
+  {
+    "id": "musee-matisse",
+    "name": "Musée Matisse",
+    "type": "museum",
+    "places": [
+      "Musée Matisse, Cimiez"
+    ],
+    "description": "A museum in a 17th-century villa in Cimiez, the hill neighborhood where the painter Henri Matisse lived and is buried.",
+    "wikipedia": "Musée Matisse (Nice)"
+  },
+  {
+    "id": "hotel-belles-rives",
+    "name": "Hôtel Belles Rives",
+    "type": "building",
+    "places": [
+      "Hôtel Belles Rives, Juan-les-Pins"
+    ],
+    "description": "A seaside hotel in Juan-les-Pins, once a villa where the American writer F. Scott Fitzgerald lived in 1926."
+  },
+  {
+    "id": "studios-de-la-victorine",
+    "name": "Studios de la Victorine",
+    "type": "building",
+    "places": [
+      "Studios de la Victorine",
+      "Studios de la Victorine, Nice"
+    ],
+    "description": "Film studios in western Nice, founded in 1919, where many French and foreign films have been shot.",
+    "wikipedia": "Studios de la Victorine"
+  },
+  {
+    "id": "palais-de-la-mediterranee",
+    "name": "Palais de la Méditerranée",
+    "type": "building",
+    "places": [
+      "Palais de la Méditerranée"
+    ],
+    "description": "An Art Deco casino on the seafront, opened in 1929. Only the facade of the original building survives, in front of a hotel.",
+    "wikipedia": "Palais de la Méditerranée"
+  },
+  {
+    "id": "chapelle-du-rosaire",
+    "name": "Chapelle du Rosaire",
+    "type": "church",
+    "places": [
+      "Chapelle du Rosaire, Vence"
+    ],
+    "description": "A small chapel in Vence designed by the painter Henri Matisse and completed in 1951, with his stained glass and wall drawings.",
+    "wikipedia": "Chapelle du Rosaire de Vence"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "song-festival-grounds",
+    "name": "Tallinn Song Festival Grounds",
+    "type": "music",
+    "places": [
+      "Tallinn Song Festival Grounds"
+    ],
+    "description": "An open-air arena with a large arched stage, home to Estonia’s national song festivals and the 1988 Singing Revolution gatherings.",
+    "wikipedia": "Tallinn Song Festival Grounds"
+  },
+  {
+    "id": "toompea-castle",
+    "name": "Toompea Castle",
+    "type": "palace",
+    "places": [
+      "Toompea Castle"
+    ],
+    "description": "The castle on Toompea Hill above the old town. Its pink Baroque wing is now the seat of the Estonian parliament.",
+    "wikipedia": "Toompea Castle"
+  },
+  {
+    "id": "hotel-viru",
+    "name": "Hotel Viru",
+    "type": "building",
+    "places": [
+      "Hotel Viru"
+    ],
+    "description": "A Soviet-era hotel for foreign visitors, opened in 1972. A museum on its top floor shows the room the KGB used to listen in on guests.",
+    "wikipedia": "Hotel Viru"
+  },
+  {
+    "id": "fat-margaret",
+    "name": "Fat Margaret",
+    "type": "building",
+    "places": [
+      "Fat Margaret tower"
+    ],
+    "description": "A round 16th-century cannon tower by the old town’s sea gate. It now holds the Estonian Maritime Museum.",
+    "wikipedia": "Fat Margaret"
+  },
+  {
+    "id": "great-guild-hall",
+    "name": "Great Guild Hall",
+    "type": "building",
+    "places": [
+      "Great Guild Hall"
+    ],
+    "description": "The 15th-century hall of the merchants’ guild, now home to the Estonian History Museum.",
+    "wikipedia": "Great Guild Hall"
+  },
+  {
+    "id": "tallinn-town-hall",
+    "name": "Tallinn Town Hall",
+    "type": "building",
+    "places": [
+      "Tallinn Town Hall"
+    ],
+    "description": "A Gothic town hall from the early 1400s on the old town’s main square, topped by a weather vane known as Old Thomas.",
+    "wikipedia": "Tallinn Town Hall"
+  },
+  {
+    "id": "linnahall",
+    "name": "Linnahall",
+    "type": "building",
+    "places": [
+      "Linnahall"
+    ],
+    "description": "A concrete concert and sports hall on the waterfront, built for the 1980 Moscow Olympics sailing events and now largely unused.",
+    "wikipedia": "Linnahall"
+  }
+]

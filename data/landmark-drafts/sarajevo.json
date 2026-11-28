@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sarajevo-youth-theatre",
+    "name": "Sarajevo Youth Theatre",
+    "type": "music",
+    "places": [
+      "Sarajevo Youth Theatre"
+    ],
+    "description": "A theater in the city center that kept staging plays and concerts throughout the siege of 1992 to 1996."
+  },
+  {
+    "id": "hotel-holiday",
+    "name": "Hotel Holiday",
+    "type": "building",
+    "places": [
+      "Hotel Holiday (former Holiday Inn)"
+    ],
+    "description": "A yellow hotel opened for the 1984 Winter Olympics, which housed foreign journalists during the siege of Sarajevo.",
+    "wikipedia": "Hotel Holiday (Sarajevo)"
+  },
+  {
+    "id": "national-museum",
+    "name": "National Museum of Bosnia and Herzegovina",
+    "type": "museum",
+    "places": [
+      "National Museum of Bosnia and Herzegovina"
+    ],
+    "description": "The country’s oldest museum, founded in 1888. It holds the Sarajevo Haggadah, a medieval illuminated Jewish manuscript.",
+    "wikipedia": "National Museum of Bosnia and Herzegovina"
+  },
+  {
+    "id": "bascarsija",
+    "name": "Baščaršija",
+    "type": "landmark",
+    "places": [
+      "Baščaršija",
+      "Sebilj, Baščaršija"
+    ],
+    "description": "The old Ottoman bazaar, with craft workshops, mosques, and a wooden fountain called the Sebilj in its main square.",
+    "wikipedia": "Baščaršija"
+  },
+  {
+    "id": "zetra-olympic-hall",
+    "name": "Zetra Olympic Hall",
+    "type": "building",
+    "places": [
+      "Zetra Olympic Hall"
+    ],
+    "description": "An arena built for the 1984 Winter Olympics. It was burned in the war, and its grounds became a cemetery during the siege.",
+    "wikipedia": "Juan Antonio Samaranch Olympic Hall"
+  },
+  {
+    "id": "war-childhood-museum",
+    "name": "War Childhood Museum",
+    "type": "museum",
+    "places": [
+      "War Childhood Museum"
+    ],
+    "description": "A museum of objects and memories from people who were children during the war of 1992 to 1995.",
+    "wikipedia": "War Childhood Museum"
+  },
+  {
+    "id": "latin-bridge",
+    "name": "Latin Bridge",
+    "type": "building",
+    "places": [
+      "Latin Bridge",
+      "Museum Sarajevo 1878–1918, Latin Bridge"
+    ],
+    "description": "An Ottoman stone bridge over the Miljacka river. The heir to the Austro-Hungarian throne was shot on the corner beside it in 1914.",
+    "wikipedia": "Latin Bridge"
+  },
+  {
+    "id": "bridge-of-suada-and-olga",
+    "name": "Bridge of Suada and Olga",
+    "type": "building",
+    "places": [
+      "Bridge of Suada and Olga"
+    ],
+    "description": "A bridge named for two women shot there at a peace protest on April 5, 1992, often counted as the first victims of the siege."
+  }
+]

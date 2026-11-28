@@ -1,0 +1,63 @@
+[
+  {
+    "id": "rectors-palace",
+    "name": "Rector’s Palace",
+    "type": "palace",
+    "places": [
+      "Rector’s Palace"
+    ],
+    "description": "The Gothic and Renaissance palace where the elected rector of the Republic of Ragusa lived and governed. It now holds the city museum.",
+    "wikipedia": "Rector's Palace, Dubrovnik"
+  },
+  {
+    "id": "city-walls",
+    "name": "City Walls and Pile Gate",
+    "type": "building",
+    "places": [
+      "Pile Gate",
+      "City walls entrance, Pile Gate",
+      "Minčeta Tower"
+    ],
+    "description": "Stone walls nearly two kilometers long around the old town, entered from the west through Pile Gate and topped by the round Minčeta Tower.",
+    "wikipedia": "Walls of Dubrovnik"
+  },
+  {
+    "id": "old-port",
+    "name": "Old Port",
+    "type": "landmark",
+    "places": [
+      "Old Port"
+    ],
+    "description": "The small harbor on the east side of the walled town, where the merchant ships of the old republic once docked."
+  },
+  {
+    "id": "sponza-palace",
+    "name": "Sponza Palace",
+    "type": "palace",
+    "places": [
+      "Sponza Palace"
+    ],
+    "description": "A 16th-century palace that served as the customs house and mint. It now holds the archives of the old republic.",
+    "wikipedia": "Sponza Palace"
+  },
+  {
+    "id": "fort-imperial",
+    "name": "Fort Imperial",
+    "type": "building",
+    "places": [
+      "Fort Imperial, Mount Srđ"
+    ],
+    "description": "A fort on Mount Srđ above the city, built by the French in the early 1800s. It was a key defensive point during the 1991–92 siege.",
+    "wikipedia": "Fort Imperial"
+  },
+  {
+    "id": "fort-lovrijenac",
+    "name": "Fort Lovrijenac",
+    "type": "building",
+    "places": [
+      "Fort Lovrijenac"
+    ],
+    "description": "A fortress on a sea cliff outside the western walls, used as a stage for open-air plays in summer.",
+    "wikipedia": "Lovrijenac"
+  }
+]

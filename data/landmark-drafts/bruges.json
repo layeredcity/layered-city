@@ -1,0 +1,85 @@
+[
+  {
+    "id": "belfry",
+    "name": "Belfry of Bruges",
+    "type": "building",
+    "places": [
+      "Belfry of Bruges"
+    ],
+    "description": "A medieval bell tower on the main square, 83 meters tall, with a carillon of 47 bells.",
+    "wikipedia": "Belfry of Bruges"
+  },
+  {
+    "id": "markt",
+    "name": "Markt",
+    "type": "landmark",
+    "places": [
+      "Markt",
+      "Statue of Jan Breydel and Pieter de Coninck, Markt",
+      "Craenenburg, Markt"
+    ],
+    "description": "The main market square, lined with guild houses, with a statue of two leaders of a 1302 uprising against the French king.",
+    "wikipedia": "Markt (Bruges)"
+  },
+  {
+    "id": "burg",
+    "name": "Burg",
+    "type": "landmark",
+    "places": [
+      "Burg",
+      "Basilica of the Holy Blood",
+      "Bruges City Hall, Burg"
+    ],
+    "description": "A square with the Gothic city hall and the Basilica of the Holy Blood, a chapel built to hold a relic said to be Christ’s blood.",
+    "wikipedia": "Burg (Bruges)"
+  },
+  {
+    "id": "st-johns-hospital",
+    "name": "Saint John’s Hospital",
+    "type": "museum",
+    "places": [
+      "Saint John’s Hospital"
+    ],
+    "description": "A medieval hospital, one of the oldest in Europe, now a museum with paintings by Hans Memling, a 15th-century Flemish painter.",
+    "wikipedia": "Old St. John's Hospital"
+  },
+  {
+    "id": "rozenhoedkaai",
+    "name": "Rozenhoedkaai",
+    "type": "landmark",
+    "places": [
+      "Rozenhoedkaai"
+    ],
+    "description": "A quay where two canals meet, with a view of old houses and the belfry tower above them."
+  },
+  {
+    "id": "church-of-our-lady",
+    "name": "Church of Our Lady",
+    "type": "church",
+    "places": [
+      "Church of Our Lady"
+    ],
+    "description": "A Gothic church with a brick tower over 115 meters tall. It holds a marble Madonna and Child by Michelangelo.",
+    "wikipedia": "Church of Our Lady, Bruges"
+  },
+  {
+    "id": "begijnhof",
+    "name": "Begijnhof",
+    "type": "landmark",
+    "places": [
+      "Begijnhof"
+    ],
+    "description": "A walled courtyard of white houses around a lawn, founded in the 1200s for beguines, laywomen who lived in a religious community.",
+    "wikipedia": "Princely Beguinage Ten Wijngaerde"
+  },
+  {
+    "id": "prinsenhof",
+    "name": "Prinsenhof",
+    "type": "palace",
+    "places": [
+      "Prinsenhof"
+    ],
+    "description": "A former residence of the dukes of Burgundy, who ruled Flanders and held court here in the 1400s. It is now a hotel.",
+    "wikipedia": "Prinsenhof (Bruges)"
+  }
+]

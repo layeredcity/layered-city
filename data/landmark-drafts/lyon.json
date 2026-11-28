@@ -1,0 +1,62 @@
+[
+  {
+    "id": "palais-de-justice",
+    "name": "Palais de Justice historique",
+    "type": "building",
+    "places": [
+      "Palais de Justice historique"
+    ],
+    "description": "A 19th-century courthouse with 24 columns facing the Saône, where the Gestapo chief Klaus Barbie was tried in 1987.",
+    "wikipedia": "Palais de justice historique de Lyon"
+  },
+  {
+    "id": "jean-moulin-memorial",
+    "name": "Jean Moulin Memorial",
+    "type": "museum",
+    "places": [
+      "Jean Moulin Memorial, Caluire"
+    ],
+    "description": "The house in Caluire where the Gestapo arrested Jean Moulin, leader of the French Resistance, in 1943. It is now a memorial."
+  },
+  {
+    "id": "chrd",
+    "name": "Resistance and Deportation History Center",
+    "type": "museum",
+    "places": [
+      "CHRD (Resistance and Deportation History Center)"
+    ],
+    "description": "A museum of the Resistance and the deportations, in a building the Gestapo used as its Lyon headquarters during the war.",
+    "wikipedia": "Centre d'histoire de la résistance et de la déportation"
+  },
+  {
+    "id": "institut-lumiere",
+    "name": "Institut Lumière",
+    "type": "museum",
+    "places": [
+      "Institut Lumière",
+      "Hangar du Premier Film"
+    ],
+    "description": "The Lumière family villa and the factory hall where the brothers filmed workers leaving in 1895, now a museum of early cinema.",
+    "wikipedia": "Institut Lumière"
+  },
+  {
+    "id": "longue-traboule",
+    "name": "La Longue Traboule",
+    "type": "landmark",
+    "places": [
+      "La Longue Traboule"
+    ],
+    "description": "A traboule, a covered passage through the courtyards of old houses, in Vieux Lyon, the city’s Renaissance quarter."
+  },
+  {
+    "id": "roman-theaters",
+    "name": "Roman theaters of Fourvière",
+    "type": "landmark",
+    "places": [
+      "Roman theater of Fourvière",
+      "Lugdunum museum and Roman theaters"
+    ],
+    "description": "Two Roman theaters on Fourvière hill, from when Lyon was Lugdunum, a capital of Roman Gaul, beside a museum of the Roman city.",
+    "wikipedia": "Ancient Theatre of Fourvière"
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "preseren-square",
+    "name": "Prešeren Square",
+    "type": "landmark",
+    "places": [
+      "Prešeren Square",
+      "France Prešeren Monument"
+    ],
+    "description": "The central square by the Triple Bridge, with a statue of France Prešeren, Slovenia’s national poet.",
+    "wikipedia": "Prešeren Square"
+  },
+  {
+    "id": "congress-square",
+    "name": "Congress Square",
+    "type": "landmark",
+    "places": [
+      "Congress Square"
+    ],
+    "description": "A large square laid out for a congress of European powers in 1821, bordered by the university and the Philharmonic.",
+    "wikipedia": "Congress Square, Ljubljana"
+  },
+  {
+    "id": "metelkova",
+    "name": "Metelkova",
+    "type": "landmark",
+    "places": [
+      "Metelkova"
+    ],
+    "description": "Former army barracks taken over by artists and squatters in 1993, now an independent center for clubs, galleries, and street art.",
+    "wikipedia": "Metelkova"
+  },
+  {
+    "id": "ljubljana-castle",
+    "name": "Ljubljana Castle",
+    "type": "palace",
+    "places": [
+      "Ljubljana Castle"
+    ],
+    "description": "A medieval castle on the hill above the old town, reached by funicular, with a museum and a lookout tower.",
+    "wikipedia": "Ljubljana Castle"
+  },
+  {
+    "id": "museum-contemporary-history",
+    "name": "National Museum of Contemporary History",
+    "type": "museum",
+    "places": [
+      "National Museum of Contemporary History"
+    ],
+    "description": "A museum in Tivoli Park about Slovenia in the 20th century, from the world wars to independence in 1991.",
+    "wikipedia": "National Museum of Contemporary History"
+  },
+  {
+    "id": "faculty-of-arts",
+    "name": "Faculty of Arts",
+    "type": "building",
+    "places": [
+      "Faculty of Arts, University of Ljubljana"
+    ],
+    "description": "The humanities faculty of the University of Ljubljana, Slovenia’s oldest university."
+  },
+  {
+    "id": "republic-square",
+    "name": "Republic Square",
+    "type": "landmark",
+    "places": [
+      "Republic Square"
+    ],
+    "description": "A large square built in the 1960s and 1970s, where Slovenia’s independence was proclaimed on June 26, 1991.",
+    "wikipedia": "Republic Square, Ljubljana"
+  },
+  {
+    "id": "city-museum",
+    "name": "Ljubljana City Museum",
+    "type": "museum",
+    "places": [
+      "Ljubljana City Museum"
+    ],
+    "description": "A museum of the city’s history in a former noble palace, from the Roman town of Emona to the present.",
+    "wikipedia": "City Museum of Ljubljana"
+  }
+]

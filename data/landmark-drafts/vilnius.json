@@ -1,0 +1,52 @@
+[
+  {
+    "id": "vilnius-university",
+    "name": "Vilnius University",
+    "type": "building",
+    "places": [
+      "Vilnius University",
+      "Vilnius Yiddish Institute"
+    ],
+    "description": "One of the oldest universities in Central and Eastern Europe, founded in 1579, with linked courtyards and a Yiddish institute.",
+    "wikipedia": "Vilnius University"
+  },
+  {
+    "id": "romain-gary-monument",
+    "name": "Monument to Romain Gary",
+    "type": "landmark",
+    "places": [
+      "Monument to Romain Gary"
+    ],
+    "description": "A statue of a boy holding a shoe, honoring the French writer Romain Gary, who spent part of his childhood on this street."
+  },
+  {
+    "id": "vilnius-tv-tower",
+    "name": "Vilnius TV Tower",
+    "type": "building",
+    "places": [
+      "Vilnius TV Tower"
+    ],
+    "description": "A 326-meter TV tower where Soviet troops killed unarmed civilians on January 13, 1991.",
+    "wikipedia": "Vilnius TV Tower"
+  },
+  {
+    "id": "vilna-gaon-monument",
+    "name": "Vilna Gaon monument",
+    "type": "landmark",
+    "places": [
+      "Vilna Gaon monument, Žydų gatvė"
+    ],
+    "description": "A bust of the Vilna Gaon, an 18th-century rabbi and scholar, on a street of the old Jewish quarter."
+  },
+  {
+    "id": "vilnius-cathedral",
+    "name": "Vilnius Cathedral",
+    "type": "church",
+    "places": [
+      "Vilnius Cathedral",
+      "Cathedral Square"
+    ],
+    "description": "The city’s main Catholic cathedral, rebuilt in neoclassical style in the late 1700s, with a freestanding bell tower on its square.",
+    "wikipedia": "Vilnius Cathedral"
+  }
+]

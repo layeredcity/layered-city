@@ -1,0 +1,72 @@
+[
+  {
+    "id": "alhambra",
+    "name": "Alhambra",
+    "type": "palace",
+    "places": [
+      "Court of the Lions, Alhambra",
+      "Patio de Lindaraja, Alhambra",
+      "Gate of Justice, Alhambra",
+      "Comares Tower, Alhambra",
+      "Hall of Kings, Alhambra"
+    ],
+    "description": "The hilltop palace and fortress of the Nasrid sultans, Granada’s last Muslim rulers, with carved halls, courtyards, and fountains.",
+    "wikipedia": "Alhambra"
+  },
+  {
+    "id": "huerta-de-san-vicente",
+    "name": "Huerta de San Vicente",
+    "type": "museum",
+    "places": [
+      "Huerta de San Vicente"
+    ],
+    "description": "The summer house of the family of the poet Federico García Lorca, now a museum set in a city park.",
+    "wikipedia": "Huerta de San Vicente"
+  },
+  {
+    "id": "sacromonte-caves-museum",
+    "name": "Sacromonte Caves Museum",
+    "type": "museum",
+    "places": [
+      "Sacromonte Caves Museum"
+    ],
+    "description": "A museum in cave houses on the Sacromonte hill, where Granada’s Roma community lived and shaped its flamenco tradition."
+  },
+  {
+    "id": "lorca-park-alfacar",
+    "name": "Federico García Lorca Park",
+    "type": "landmark",
+    "places": [
+      "Federico García Lorca Park, Alfacar"
+    ],
+    "description": "A memorial park in Alfacar, outside Granada, near where the poet Federico García Lorca was killed in 1936."
+  },
+  {
+    "id": "mirador-de-san-nicolas",
+    "name": "Mirador de San Nicolás",
+    "type": "landmark",
+    "places": [
+      "Mirador de San Nicolás"
+    ],
+    "description": "A viewpoint terrace in the Albaicín, the old Moorish quarter, facing the Alhambra across the valley."
+  },
+  {
+    "id": "plaza-larga",
+    "name": "Plaza Larga",
+    "type": "landmark",
+    "places": [
+      "Plaza Larga, Albaicín"
+    ],
+    "description": "A small square in the Albaicín, the old Moorish quarter, next to a medieval city gate."
+  },
+  {
+    "id": "royal-chapel",
+    "name": "Royal Chapel of Granada",
+    "type": "church",
+    "places": [
+      "Royal Chapel of Granada"
+    ],
+    "description": "The burial chapel of Ferdinand and Isabella, the Catholic Monarchs who took Granada in 1492, beside the cathedral.",
+    "wikipedia": "Royal Chapel of Granada"
+  }
+]

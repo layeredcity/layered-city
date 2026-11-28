@@ -1,0 +1,94 @@
+[
+  {
+    "id": "mirabell-gardens",
+    "name": "Mirabell Gardens",
+    "type": "landmark",
+    "places": [
+      "Mirabell Gardens"
+    ],
+    "description": "Formal Baroque gardens around Mirabell Palace, with fountains, statues, and a view of the fortress on the hill.",
+    "wikipedia": "Mirabell Palace"
+  },
+  {
+    "id": "mozarts-birthplace",
+    "name": "Mozart’s Birthplace",
+    "type": "museum",
+    "places": [
+      "Mozart’s Birthplace"
+    ],
+    "description": "The house on Getreidegasse where Wolfgang Amadeus Mozart was born in 1756, now a museum of his early life.",
+    "wikipedia": "Mozart's birthplace"
+  },
+  {
+    "id": "salzburg-residenz",
+    "name": "Salzburg Residenz",
+    "type": "palace",
+    "places": [
+      "Salzburg Residenz",
+      "Residenzplatz"
+    ],
+    "description": "The palace of the prince-archbishops who ruled Salzburg, facing a large square with a Baroque fountain.",
+    "wikipedia": "Salzburg Residenz"
+  },
+  {
+    "id": "salzburg-cathedral",
+    "name": "Salzburg Cathedral",
+    "type": "church",
+    "places": [
+      "Salzburg Cathedral",
+      "Domplatz"
+    ],
+    "description": "A Baroque cathedral consecrated in 1628, where Mozart was baptized. The square in front hosts an open-air play each summer.",
+    "wikipedia": "Salzburg Cathedral"
+  },
+  {
+    "id": "great-festival-hall",
+    "name": "Great Festival Hall",
+    "type": "music",
+    "places": [
+      "Great Festival Hall"
+    ],
+    "description": "The main hall of the Salzburg Festival, the summer festival of opera, drama, and concerts held since 1920.",
+    "wikipedia": "Großes Festspielhaus"
+  },
+  {
+    "id": "silent-night-chapel",
+    "name": "Silent Night Chapel",
+    "type": "church",
+    "places": [
+      "Silent Night Chapel, Oberndorf"
+    ],
+    "description": "A small memorial chapel in Oberndorf, north of Salzburg, on the site of the church where “Silent Night” was first sung in 1818.",
+    "wikipedia": "Silent Night Chapel"
+  },
+  {
+    "id": "nonnberg-abbey",
+    "name": "Nonnberg Abbey",
+    "type": "church",
+    "places": [
+      "Nonnberg Abbey"
+    ],
+    "description": "A Benedictine convent on the hill below the fortress, founded in the early 700s and still home to a community of nuns.",
+    "wikipedia": "Nonnberg Abbey"
+  },
+  {
+    "id": "paschinger-schlossl",
+    "name": "Paschinger Schlössl",
+    "type": "building",
+    "places": [
+      "Paschinger Schlössl, Kapuzinerberg"
+    ],
+    "description": "A small manor house on the Kapuzinerberg hill where the Austrian writer Stefan Zweig lived from 1919 to 1934.",
+    "wikipedia": "Paschinger Schlössl"
+  },
+  {
+    "id": "villa-trapp",
+    "name": "Villa Trapp",
+    "type": "building",
+    "places": [
+      "Villa Trapp, Aigen"
+    ],
+    "description": "The villa where the von Trapp family lived before they left Austria in 1938. It is now a hotel.",
+    "wikipedia": "Villa Trapp"
+  }
+]

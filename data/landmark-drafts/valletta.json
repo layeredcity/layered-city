@@ -1,0 +1,82 @@
+[
+  {
+    "id": "st-johns-co-cathedral",
+    "name": "St. John’s Co-Cathedral",
+    "type": "church",
+    "places": [
+      "St. John’s Co-Cathedral"
+    ],
+    "description": "The 16th-century church of the Knights of St. John, with a gilded Baroque interior and two paintings by Caravaggio.",
+    "wikipedia": "St. John's Co-Cathedral"
+  },
+  {
+    "id": "fort-st-elmo",
+    "name": "Fort St. Elmo",
+    "type": "building",
+    "places": [
+      "Fort St. Elmo",
+      "Fort St. Elmo and National War Museum"
+    ],
+    "description": "A star-shaped fort at the tip of the Valletta peninsula, besieged in 1565 and now home to the National War Museum.",
+    "wikipedia": "Fort St. Elmo"
+  },
+  {
+    "id": "fort-st-angelo",
+    "name": "Fort St. Angelo",
+    "type": "building",
+    "places": [
+      "Fort St. Angelo, Birgu"
+    ],
+    "description": "A fortress across the Grand Harbour in Birgu, the knights’ headquarters during the Great Siege of 1565.",
+    "wikipedia": "Fort St. Angelo"
+  },
+  {
+    "id": "grandmasters-palace",
+    "name": "Grandmaster’s Palace",
+    "type": "palace",
+    "places": [
+      "Grandmaster’s Palace"
+    ],
+    "description": "The palace of the grand masters of the Order of St. John, later the seat of British governors and now of Malta’s president.",
+    "wikipedia": "Grandmaster's Palace"
+  },
+  {
+    "id": "great-siege-monument",
+    "name": "Great Siege Monument",
+    "type": "landmark",
+    "places": [
+      "Great Siege Monument"
+    ],
+    "description": "A bronze monument to the Great Siege of 1565, when the knights held Malta against an Ottoman fleet."
+  },
+  {
+    "id": "triton-fountain",
+    "name": "Triton Fountain",
+    "type": "landmark",
+    "places": [
+      "Triton Fountain"
+    ],
+    "description": "A fountain outside the city gate with three bronze tritons holding up a large basin, completed in 1959.",
+    "wikipedia": "Triton Fountain"
+  },
+  {
+    "id": "lascaris-war-rooms",
+    "name": "Lascaris War Rooms",
+    "type": "museum",
+    "places": [
+      "Lascaris War Rooms"
+    ],
+    "description": "Tunnels cut into the rock below the Upper Barrakka Gardens that served as the Allied war headquarters in the Second World War.",
+    "wikipedia": "Lascaris War Rooms"
+  },
+  {
+    "id": "parliament-house",
+    "name": "Parliament House",
+    "type": "building",
+    "places": [
+      "Parliament House"
+    ],
+    "description": "Malta’s parliament building beside the city gate, designed by the Italian architect Renzo Piano and opened in 2015.",
+    "wikipedia": "Parliament House, Valletta"
+  }
+]

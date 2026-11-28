@@ -1,0 +1,82 @@
+[
+  {
+    "id": "casa-do-infante",
+    "name": "Casa do Infante",
+    "type": "museum",
+    "places": [
+      "Casa do Infante"
+    ],
+    "description": "A medieval building by the river that served as the royal customs house. Prince Henry the Navigator is said to have been born here in 1394.",
+    "wikipedia": "Casa do Infante"
+  },
+  {
+    "id": "factory-house",
+    "name": "Factory House",
+    "type": "building",
+    "places": [
+      "Factory House, Rua do Infante Dom Henrique"
+    ],
+    "description": "An 18th-century Georgian building where British port wine shippers have met and dined since the 1790s.",
+    "wikipedia": "Factory House (Porto)"
+  },
+  {
+    "id": "porto-cathedral",
+    "name": "Porto Cathedral",
+    "type": "church",
+    "places": [
+      "Porto Cathedral"
+    ],
+    "description": "The Romanesque cathedral on the hill above the old town, begun in the 12th century and later remodeled in Baroque style.",
+    "wikipedia": "Porto Cathedral"
+  },
+  {
+    "id": "avenida-dos-aliados",
+    "name": "Avenida dos Aliados",
+    "type": "landmark",
+    "places": [
+      "Avenida dos Aliados"
+    ],
+    "description": "The city’s grand central avenue and square, lined with granite buildings and closed at the top by the City Hall tower.",
+    "wikipedia": "Avenida dos Aliados"
+  },
+  {
+    "id": "port-wine-lodges",
+    "name": "Port wine lodges",
+    "type": "building",
+    "places": [
+      "Port wine lodges, Cais de Gaia"
+    ],
+    "description": "Riverside cellars in Vila Nova de Gaia, across the Douro from Porto, where port wine is aged in barrels before shipping."
+  },
+  {
+    "id": "luis-i-bridge",
+    "name": "Luís I Bridge",
+    "type": "building",
+    "places": [
+      "Luís I Bridge"
+    ],
+    "description": "A two-level iron arch bridge over the Douro, opened in 1886, linking Porto with Vila Nova de Gaia.",
+    "wikipedia": "Dom Luís I Bridge"
+  },
+  {
+    "id": "estadio-do-dragao",
+    "name": "Estádio do Dragão",
+    "type": "building",
+    "places": [
+      "Estádio do Dragão"
+    ],
+    "description": "The home stadium of FC Porto, the city’s main football club, opened in 2003 for the Euro 2004 championship.",
+    "wikipedia": "Estádio do Dragão"
+  },
+  {
+    "id": "casa-da-musica",
+    "name": "Casa da Música",
+    "type": "music",
+    "places": [
+      "Casa da Música",
+      "Casa da Música, Sala Suggia"
+    ],
+    "description": "An angular concert hall designed by the Dutch architect Rem Koolhaas and opened in 2005.",
+    "wikipedia": "Casa da Música"
+  }
+]

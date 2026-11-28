@@ -1,0 +1,74 @@
+[
+  {
+    "id": "cathedrale-saint-andre",
+    "name": "Bordeaux Cathedral",
+    "type": "church",
+    "places": [
+      "Cathédrale Saint-André",
+      "Place Pey Berland"
+    ],
+    "description": "A Gothic cathedral with a separate bell tower, where Eleanor of Aquitaine married the future King Louis VII of France in 1137.",
+    "wikipedia": "Bordeaux Cathedral"
+  },
+  {
+    "id": "palais-de-justice",
+    "name": "Palais de Justice",
+    "type": "building",
+    "places": [
+      "Palais de Justice"
+    ],
+    "description": "The neoclassical courthouse where the Vichy official Maurice Papon was tried in 1997 and 1998 for the deportation of Jews."
+  },
+  {
+    "id": "grand-theatre",
+    "name": "Grand Théâtre",
+    "type": "music",
+    "places": [
+      "Grand Théâtre",
+      "Place de la Comédie"
+    ],
+    "description": "An opera house from 1780 with twelve columns across its front, on a square at the center of the city.",
+    "wikipedia": "Grand Théâtre de Bordeaux"
+  },
+  {
+    "id": "musee-du-vin",
+    "name": "Musée du Vin et du Négoce",
+    "type": "museum",
+    "places": [
+      "Musée du Vin et du Négoce, Chartrons"
+    ],
+    "description": "A museum of the wine trade in the cellars of an 18th-century merchant’s house in the Chartrons quarter."
+  },
+  {
+    "id": "place-des-quinconces",
+    "name": "Place des Quinconces",
+    "type": "landmark",
+    "places": [
+      "Monument aux Girondins",
+      "Rostral columns, Place des Quinconces",
+      "Statue of Montaigne, Place des Quinconces"
+    ],
+    "description": "One of the largest squares in Europe, with a tall monument to the Girondins, a group of revolutionaries, and statues of two writers.",
+    "wikipedia": "Esplanade des Quinconces"
+  },
+  {
+    "id": "sousa-mendes-statue",
+    "name": "Statue of Aristides de Sousa Mendes",
+    "type": "landmark",
+    "places": [
+      "Statue of Aristides de Sousa Mendes"
+    ],
+    "description": "A statue of the Portuguese consul who issued thousands of visas to refugees in Bordeaux in June 1940."
+  },
+  {
+    "id": "place-de-la-bourse",
+    "name": "Place de la Bourse",
+    "type": "landmark",
+    "places": [
+      "Place de la Bourse",
+      "Miroir d’eau"
+    ],
+    "description": "An 18th-century square of classical buildings facing the river, with a shallow reflecting pool laid out in front in 2006.",
+    "wikipedia": "Place de la Bourse"
+  }
+]

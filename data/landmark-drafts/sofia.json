@@ -1,0 +1,63 @@
+[
+  {
+    "id": "ndk",
+    "name": "National Palace of Culture",
+    "type": "building",
+    "places": [
+      "National Palace of Culture"
+    ],
+    "description": "A huge congress and concert center opened in 1981 for the 1,300th anniversary of the Bulgarian state.",
+    "wikipedia": "National Palace of Culture"
+  },
+  {
+    "id": "sveta-nedelya",
+    "name": "Sveta Nedelya Cathedral",
+    "type": "church",
+    "places": [
+      "Sveta Nedelya Cathedral",
+      "Sveta Nedelya Square"
+    ],
+    "description": "An Orthodox cathedral on a central square, rebuilt after a bomb attack in 1925 killed more than 150 people inside.",
+    "wikipedia": "St Nedelya Church"
+  },
+  {
+    "id": "party-house",
+    "name": "Former Communist Party House",
+    "type": "building",
+    "places": [
+      "Former Communist Party House, Largo"
+    ],
+    "description": "The former headquarters of the Bulgarian Communist Party, a large Stalinist building on the Largo, now used by parliament.",
+    "wikipedia": "Party House (Sofia)"
+  },
+  {
+    "id": "serdica",
+    "name": "Ancient Serdica",
+    "type": "landmark",
+    "places": [
+      "Ancient Serdica Cultural Complex"
+    ],
+    "description": "Excavated streets and buildings of Serdica, the Roman city under Sofia, shown in the open beside a metro station.",
+    "wikipedia": "Serdica"
+  },
+  {
+    "id": "old-national-assembly",
+    "name": "National Assembly building",
+    "type": "building",
+    "places": [
+      "Old National Assembly"
+    ],
+    "description": "The neo-Renaissance parliament building from the 1880s, facing a statue of the Russian tsar whose war freed Bulgaria in 1878.",
+    "wikipedia": "National Assembly of Bulgaria"
+  },
+  {
+    "id": "bulgarian-national-radio",
+    "name": "Bulgarian National Radio",
+    "type": "building",
+    "places": [
+      "Bulgarian National Radio"
+    ],
+    "description": "The headquarters of the country’s public radio broadcaster, with studios and a concert hall.",
+    "wikipedia": "Bulgarian National Radio"
+  }
+]

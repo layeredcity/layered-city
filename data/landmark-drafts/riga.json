@@ -1,0 +1,62 @@
+[
+  {
+    "id": "freedom-monument",
+    "name": "Freedom Monument",
+    "type": "landmark",
+    "places": [
+      "Freedom Monument"
+    ],
+    "description": "A 42-meter monument from 1935, topped by a copper figure of Liberty holding up three stars, and a symbol of Latvian independence.",
+    "wikipedia": "Freedom Monument (Riga)"
+  },
+  {
+    "id": "bastejkalns",
+    "name": "Bastejkalns",
+    "type": "landmark",
+    "places": [
+      "Bastejkalns Park"
+    ],
+    "description": "A small hill park by the city canal, where people were shot during the January 1991 barricades. Memorial stones mark the spots.",
+    "wikipedia": "Bastejkalns"
+  },
+  {
+    "id": "dome-square",
+    "name": "Dome Square",
+    "type": "landmark",
+    "places": [
+      "Dome Square"
+    ],
+    "description": "The largest square in the old town, beside Riga Cathedral, the Lutheran cathedral begun in 1211.",
+    "wikipedia": "Dome Square"
+  },
+  {
+    "id": "mezaparks-great-stage",
+    "name": "Mežaparks Great Stage",
+    "type": "music",
+    "places": [
+      "Mežaparks Great Stage"
+    ],
+    "description": "An open-air stage in a pine forest park in northern Riga, built for Latvia’s national song and dance festivals.",
+    "wikipedia": "Mežaparks Great Bandstand"
+  },
+  {
+    "id": "national-museum-of-art",
+    "name": "Latvian National Museum of Art",
+    "type": "museum",
+    "places": [
+      "Latvian National Museum of Art"
+    ],
+    "description": "Latvia’s main art museum, in a building opened in 1905, with Latvian painting and sculpture.",
+    "wikipedia": "Latvian National Museum of Art"
+  },
+  {
+    "id": "st-peters-church",
+    "name": "St. Peter’s Church",
+    "type": "church",
+    "places": [
+      "St. Peter’s Church"
+    ],
+    "description": "A Gothic church with a tall spire and a viewing platform, first mentioned in 1209.",
+    "wikipedia": "St. Peter's Church, Riga"
+  }
+]
