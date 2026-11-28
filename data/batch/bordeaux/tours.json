@@ -6,7 +6,14 @@
   "place": "Miroir d’eau",
   "lat": 44.8418,
   "lon": -0.5691,
-  "description": "A walk from the Miroir d’eau and Place de la Bourse through Place du Parlement and the Golden Triangle shopping streets to the Grand Théâtre and Porte Dijeaux."
+  "description": "A walk from the Miroir d’eau and Place de la Bourse through Place du Parlement and the Golden Triangle shopping streets to the Grand Théâtre and Porte Dijeaux.",
+  "creator": "Ira Szmuk",
+  "minutes": 90,
+  "distanceKm": 2,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 107,
+  "image": "https://media.voicemap.me/public/routes/images/000/010/214/original/Bordeaux_Walking_Tour.jpg"
  },
  {
   "city": "Bordeaux",
@@ -15,7 +22,14 @@
   "place": "Monument aux Girondins",
   "lat": 44.8454,
   "lon": -0.5749,
-  "description": "A walk from the Monument aux Girondins past the Grand Théâtre, the cathedral and Pey Berland tower, and the Porte Cailhau to Place de la Bourse and the Miroir d’eau."
+  "description": "A walk from the Monument aux Girondins past the Grand Théâtre, the cathedral and Pey Berland tower, and the Porte Cailhau to Place de la Bourse and the Miroir d’eau.",
+  "creator": "Lily Begg and Miguel Angel Moreno",
+  "minutes": 45,
+  "distanceKm": 2,
+  "priceUsd": 9.99,
+  "rating": 4.8,
+  "numberOfRatings": 100,
+  "image": "https://media.voicemap.me/public/routes/images/000/003/911/original/banner-3.jpg"
  },
  {
   "city": "Bordeaux",
@@ -24,7 +38,14 @@
   "place": "Place Pey Berland",
   "lat": 44.8376,
   "lon": -0.5777,
-  "description": "A walk from the cathedral on Place Pey Berland through Porte Dijeaux, Place Gambetta, and the Golden Triangle to Rue Sainte-Catherine and the river."
+  "description": "A walk from the cathedral on Place Pey Berland through Porte Dijeaux, Place Gambetta, and the Golden Triangle to Rue Sainte-Catherine and the river.",
+  "creator": "Inigo Gonzalez",
+  "minutes": 60,
+  "distanceKm": 3,
+  "priceUsd": 9.99,
+  "rating": 4.3,
+  "numberOfRatings": 45,
+  "image": "https://media.voicemap.me/public/routes/images/000/003/686/original/Discover-Bordeaux.jpg"
  },
  {
   "city": "Bordeaux",
@@ -33,7 +54,14 @@
   "place": "Place de la Comédie",
   "lat": 44.8426,
   "lon": -0.5742,
-  "description": "A local guide’s walk from the Grand Théâtre through medieval streets, hidden arcades, and the cathedral to the Grosse Cloche bell tower and Place de la Bourse."
+  "description": "A local guide’s walk from the Grand Théâtre through medieval streets, hidden arcades, and the cathedral to the Grosse Cloche bell tower and Place de la Bourse.",
+  "creator": "Bordeaux with Marina Cauchie",
+  "minutes": 40,
+  "distanceKm": 3,
+  "priceUsd": 9.99,
+  "rating": 5,
+  "numberOfRatings": 7,
+  "image": "https://media.voicemap.me/public/routes/images/000/012/086/original/IMG_3557_1763461864.JPG"
  },
  {
   "city": "Bordeaux",
@@ -42,6 +70,13 @@
   "place": "Rostral columns, Place des Quinconces",
   "lat": 44.8457,
   "lon": -0.5712,
-  "description": "A walk along the river into the Chartrons, the old wine merchants’ quarter, past its market hall and wine museum to a view of the Cité du Vin."
+  "description": "A walk along the river into the Chartrons, the old wine merchants’ quarter, past its market hall and wine museum to a view of the Cité du Vin.",
+  "creator": "Bordeaux with Marina Cauchie",
+  "minutes": 40,
+  "distanceKm": 2,
+  "priceUsd": 9.99,
+  "rating": 4,
+  "numberOfRatings": 2,
+  "image": "https://media.voicemap.me/public/routes/images/000/015/235/original/IMG_3543_1782211657.JPG"
  }
 ]
