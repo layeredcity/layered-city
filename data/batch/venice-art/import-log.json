@@ -1,0 +1,26 @@
+{
+ "mode": "dry-run",
+ "city": "Venice",
+ "started": "2026-11-28T17:37:48.971Z",
+ "created": [
+  "podcast: Palazzo Dario, the cursed palace",
+  "video: La Vecchia by Giorgione",
+  "video: The Pietà by Titian",
+  "video: The Miracle of the Slave by Tintoretto",
+  "video: The San Giobbe Altarpiece by Giovanni Bellini",
+  "video: The San Zaccaria Altarpiece by Giovanni Bellini",
+  "video: The Last Supper by Tintoretto",
+  "video: The Assumption by Titian",
+  "video: The synagogues of the Ghetto"
+ ],
+ "skipped": [
+  "city: Venice already exists"
+ ],
+ "channels": [
+  "podcast: ArtCurious Podcast"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T17:37:50.427Z"
+}
