@@ -577,7 +577,7 @@ const ThreadContext = createContext({ open: () => {}, current: null })
 const THREAD_ICON = <svg viewBox="0 0 14 14" fill="currentColor" aria-hidden="true"><path fillRule="evenodd" clipRule="evenodd" d="M10.5 0H13c0.5523 0 1 0.447715 1 1v2.5c0 0.55228 -0.4477 1 -1 1h-0.9179l-0.8988 2.51676C11.648 7.10284 12 7.51031 12 8v2.5c0 0.5523 -0.4477 1 -1 1H8.5c-0.55228 0 -1 -0.4477 -1 -1V8.69541L5.62635 6.99209C5.58497 6.99731 5.5428 7 5.5 7H4.23131l-0.53964 2.51835c0.46059 0.08941 0.80833 0.49495 0.80833 0.98165V13c0 0.5523 -0.44772 1 -1 1H1c-0.552285 0 -1 -0.4477 -1 -1v-2.5c0 -0.55229 0.447715 -1 1 -1h1.16155l0.54508 -2.54372C2.2975 6.83091 2 6.4502 2 6V3.5c0 -0.55228 0.44772 -1 1 -1h2.5c0.55228 0 1 0.44772 1 1v2.25913l1.50743 1.3704C8.15283 7.04707 8.32092 7 8.5 7h1.09646l0.89284 -2.50006C9.94196 4.49423 9.5 4.04873 9.5 3.5V1c0 -0.552285 0.44772 -1 1 -1Z" /></svg>
 
 // Small "thread" pills on a story or landmark, one per thread it's part of.
-function ThreadLinks({ ids, onDark }) {
+function ThreadLinks({ ids, onDark, heading }) {
   const { open, current } = useContext(ThreadContext)
   const seen = new Set(), links = []
   ids.forEach(id => (THREADS_BY_STORY[id] || []).forEach(t => {
@@ -585,7 +585,7 @@ function ThreadLinks({ ids, onDark }) {
     seen.add(t.slug); links.push(t)
   }))
   if (!links.length) return null
-  return (
+  const pills = (
     <span className={'thread-pills' + (onDark ? ' thread-pills--dark' : '')}>
       {links.map(t => (
         <button key={t.slug} type="button" className="thread-pill" onClick={() => open(t.slug)} title={`Open the ${t.title} thread`}>
@@ -594,6 +594,29 @@ function ThreadLinks({ ids, onDark }) {
         </button>
       ))}
     </span>
+  )
+  if (!heading) return pills
+  // At the foot of a landmark: the threads its stories belong to.
+  return (
+    <div className="dig-deeper">
+      <div className="dig-deeper__heading">{heading}</div>
+      <p className="dig-deeper__note">Stories from this place also appear in these threads.</p>
+      {pills}
+    </div>
+  )
+}
+
+// Ryan’s own short take on a landmark he has visited, with his photo.
+function RyanTake({ take, onDark }) {
+  if (!take?.text) return null
+  return (
+    <div className={'ryan-take' + (onDark ? ' ryan-take--dark' : '')}>
+      <img className="ryan-take__avatar" src="/ryan-avatar.webp" alt="Ryan" width="40" height="40" />
+      <div className="ryan-take__body">
+        <div className="ryan-take__label">Ryan’s take</div>
+        <p className="ryan-take__text">{take.text}</p>
+      </div>
+    </div>
   )
 }
 
@@ -619,11 +642,12 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
             <div className="landmark-hero__name">{lm.name}</div>
           </div>
           <p className="landmark-top__desc">{lm.description}</p>
-          <ThreadLinks ids={lm.members.map(m => m.id)} onDark />
+          <RyanTake take={lm.take} onDark />
           <a className="landmark-hero__credit" href={lm.photo.page} target="_blank" rel="noreferrer">Photo: {lm.photo.author}{lm.photo.license ? ` · ${lm.photo.license}` : ''}</a>
         </div>
         <div className="landmark-detail__stories">
           <LandmarkStories story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
+          <ThreadLinks ids={lm.members.map(m => m.id)} heading="Dig deeper" />
         </div>
       </>
     )
@@ -638,9 +662,10 @@ function LandmarkDetail({ story, onOpenStory, omdbCache, bookCache }) {
       </div>
       <h2 className="story-modal__title">{lm.name}</h2>
       <p className="story-modal__desc">{lm.description}</p>
-      <ThreadLinks ids={lm.members.map(m => m.id)} />
+      <RyanTake take={lm.take} />
       <div className="landmark-detail__stories">
         <LandmarkStories story={story} onOpenStory={onOpenStory} omdbCache={omdbCache} bookCache={bookCache} />
+        <ThreadLinks ids={lm.members.map(m => m.id)} heading="Dig deeper" />
       </div>
     </>
   )

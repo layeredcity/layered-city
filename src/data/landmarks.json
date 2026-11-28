@@ -205,7 +205,10 @@
    "places": [
     "Amsterdam Centraal station"
    ],
-   "description": "The city’s main railway station, a brick palace of a building on the waterfront that opened in 1889."
+   "description": "The city’s main railway station, a brick palace of a building on the waterfront that opened in 1889.",
+   "take": {
+    "text": "A delightfully bustling train station with stunning architecture. Don’t miss a peek at the impressive nearby bike parking area."
+   }
   },
   {
    "id": "dam-square",
