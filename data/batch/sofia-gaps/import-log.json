@@ -1,0 +1,19 @@
+{
+ "mode": "dry-run",
+ "city": "Sofia",
+ "started": "2026-11-28T16:48:02.313Z",
+ "created": [
+  "video: The Dimitrov mausoleum",
+  "video: The death of Tsar Boris"
+ ],
+ "skipped": [
+  "city: Sofia already exists"
+ ],
+ "channels": [
+  "video: University of California Television (UCTV)"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:48:03.883Z"
+}
