@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Vilnius",
- "started": "2026-11-28T14:06:16.626Z",
+ "started": "2026-11-28T15:09:13.585Z",
  "created": [
   "city: Vilnius (map zoom delta 1, map height 800)",
   "podcast: The Polish-Lithuanian Commonwealth",
@@ -62,5 +62,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T14:06:18.432Z"
+ "finished": "2026-11-28T15:10:25.119Z"
 }
