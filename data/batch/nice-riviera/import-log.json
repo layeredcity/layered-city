@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Nice",
- "started": "2026-11-28T01:46:33.112Z",
+ "started": "2026-11-28T01:57:12.617Z",
  "created": [
   "podcast: The festival that opened in 1946",
   "podcast: The hotel at the tip of Cap d’Antibes",
@@ -50,5 +50,5 @@
   "book \"Life with Picasso\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T01:46:35.564Z"
+ "finished": "2026-11-28T01:58:10.306Z"
 }
