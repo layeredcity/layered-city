@@ -1,7 +1,7 @@
 {
  "mode": "dry-run",
  "city": "Bruges",
- "started": "2026-11-28T04:54:56.303Z",
+ "started": "2026-11-28T04:55:56.931Z",
  "created": [
   "city: Bruges (map zoom delta 1, map height 800)",
   "podcast: Cloth, guilds, and a peasant army",
@@ -62,11 +62,8 @@
  ],
  "drafts": [],
  "warnings": [
-  "book \"The Belfry of Bruges and Other Poems\": no ISBN found",
-  "book \"The Abyss\": no ISBN found",
-  "book \"Medieval Bruges, c. 850–1550\": no ISBN found",
-  "book \"The Burgundians\": no ISBN found"
+  "book \"The Belfry of Bruges and Other Poems\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T04:54:57.994Z"
+ "finished": "2026-11-28T04:55:58.424Z"
 }
