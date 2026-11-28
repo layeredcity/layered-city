@@ -18,6 +18,7 @@ const SYLLABLE_BREAKS = {
   'Ljubljana':  'Ljub​lja​na',
   'Reykjavik':  'Reyk​ja​vik',
   'Salzburg':   'Salz​burg',
+  'Bordeaux':   'Bor​deaux',
   'Lisbon':     'Lis​bon',
   'Berlin':     'Ber​lin',
   'Madrid':     'Mad​rid',
