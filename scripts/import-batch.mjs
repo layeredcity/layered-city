@@ -20,7 +20,7 @@ import fs from 'node:fs/promises'
 const TOKEN = process.env.CONTENTFUL_MANAGEMENT_TOKEN
 const [MODE, SLUG] = (process.env.RUN || '').trim().split(/\s+/)
 if (!TOKEN) throw new Error('CONTENTFUL_MANAGEMENT_TOKEN is not set')
-if (!['dry-run', 'import', 'tour-images'].includes(MODE) || !SLUG) throw new Error('RUN must be "dry-run <slug>", "import <slug>", or "tour-images <slug>"')
+if (!['dry-run', 'import', 'tour-images', 'tour-creators'].includes(MODE) || !SLUG) throw new Error('RUN must be "dry-run <slug>", "import <slug>", or "tour-images <slug>"')
 const DRY = MODE === 'dry-run'
 const base = 'https://api.contentful.com/spaces/yl6xhrcd616q/environments/master'
 const L = 'en-US'
@@ -75,27 +75,29 @@ async function createAsset(url, title) {
 // "tour-images <slug>": fill in coverImageUrl on that city's existing tour
 // stories from the VoiceMap images in check.json. Published entries without
 // pending edits are republished; drafts are only saved.
-if (MODE === 'tour-images') {
+if (MODE === 'tour-images' || MODE === 'tour-creators') {
   const check = JSON.parse(await fs.readFile('data/batch/check.json', 'utf8'))
   for (const slug of SLUG.split(',')) {
   const tours = JSON.parse(await fs.readFile(`data/batch/${slug}/tours.json`, 'utf8'))
   const out = { mode: MODE, updated: [], skipped: [], errors: [] }
   for (const t of tours) {
     try {
-      const img = check.tours[t.url]?.image
+      const field = MODE === 'tour-images' ? 'coverImageUrl' : 'creatorName'
+      const value = MODE === 'tour-images' ? check.tours[t.url]?.image : check.tours[t.url]?.creator
       const found = (await cma(`/entries?content_type=story&fields.mediaUrl=${encodeURIComponent(t.url)}&limit=10`)).items
-      if (!img || !found.length) { out.skipped.push(`${t.title}: ${!img ? 'no image' : 'no entry'}`); continue }
+      if (!value || !found.length) { out.skipped.push(`${t.title}: ${!value ? 'no value' : 'no entry'}`); continue }
       for (let e of found) {
-        if (e.fields.coverImageUrl?.[L]) { out.skipped.push(`${t.title}: already has an image`); continue }
+        if (MODE === 'tour-images' ? e.fields[field]?.[L] : e.fields[field]?.[L] === value) { out.skipped.push(`${t.title}: already set`); continue }
         const clean = e.sys.publishedVersion && e.sys.version === e.sys.publishedVersion + 1
-        e.fields.coverImageUrl = loc(img)
+        if (MODE === 'tour-creators') out.updated.push(`${t.title}: ${e.fields[field]?.[L]} -> ${value}`)
+        e.fields[field] = loc(value)
         e = await cma(`/entries/${e.sys.id}`, { method: 'PUT', headers: { 'X-Contentful-Version': String(e.sys.version) }, body: JSON.stringify({ fields: e.fields }) })
         if (clean) await publish(e)
-        out.updated.push(`${t.title}${clean ? '' : ' (saved, not published)'}`)
+        if (MODE === 'tour-images') out.updated.push(`${t.title}${clean ? '' : ' (saved, not published)'}`)
       }
     } catch (err) { out.errors.push(`${t.title}: ${err.message}`) }
   }
-  await fs.writeFile(`data/batch/${slug}/tour-images-log.json`, JSON.stringify(out, null, 1) + '\n')
+  await fs.writeFile(`data/batch/${slug}/${MODE}-log.json`, JSON.stringify(out, null, 1) + '\n')
   console.log(`::notice::tour images ${slug}: ${out.updated.length} updated, ${out.errors.length} errors`)
   }
   process.exit(0)
