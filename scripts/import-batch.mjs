@@ -18,9 +18,9 @@
 import fs from 'node:fs/promises'
 
 const TOKEN = process.env.CONTENTFUL_MANAGEMENT_TOKEN
-const [MODE, SLUG] = (process.env.RUN || '').trim().split(/\s+/)
+const [MODE, SLUG, ARG] = (process.env.RUN || '').trim().split(/\s+/)
 if (!TOKEN) throw new Error('CONTENTFUL_MANAGEMENT_TOKEN is not set')
-if (!['dry-run', 'import', 'tour-images', 'tour-creators'].includes(MODE) || !SLUG) throw new Error('RUN must be "dry-run <slug>", "import <slug>", or "tour-images <slug>"')
+if (!['dry-run', 'import', 'tour-images', 'tour-creators', 'hero'].includes(MODE) || !SLUG) throw new Error('RUN must be "dry-run <slug>", "import <slug>", or "tour-images <slug>"')
 const DRY = MODE === 'dry-run'
 const base = 'https://api.contentful.com/spaces/yl6xhrcd616q/environments/master'
 const L = 'en-US'
@@ -70,6 +70,30 @@ async function createAsset(url, title) {
   if (!a.fields.file?.[L]?.url) throw new Error(`asset never finished processing: ${url}`)
   await cma(`/assets/${a.sys.id}/published`, { method: 'PUT', headers: { 'X-Contentful-Version': String(a.sys.version) } })
   return a.sys.id
+}
+
+// "hero <slug> <file>": replace the city's hero photo with a JPEG from the
+// repo (for photos Ryan took), uploaded straight to Contentful.
+if (MODE === 'hero') {
+  const city = JSON.parse(await fs.readFile(`data/batch/${SLUG}/city.json`, 'utf8'))
+  const bytes = await fs.readFile(ARG)
+  const up = await fetch('https://upload.contentful.com/spaces/yl6xhrcd616q/uploads', { method: 'POST', headers: { Authorization: 'Bearer ' + TOKEN, 'Content-Type': 'application/octet-stream' }, body: bytes }).then(r => r.json())
+  if (!up.sys?.id) throw new Error('upload failed: ' + JSON.stringify(up).slice(0, 300))
+  const title = `${city.cityName} hero — Ryan Nee`
+  let a = await cma('/assets', { method: 'POST', body: JSON.stringify({ fields: { title: loc(title), file: loc({ contentType: 'image/jpeg', fileName: ARG.split('/').pop(), uploadFrom: { sys: { type: 'Link', linkType: 'Upload', id: up.sys.id } } }) } }) })
+  await cma(`/assets/${a.sys.id}/files/${L}/process`, { method: 'PUT', headers: { 'X-Contentful-Version': String(a.sys.version) } })
+  for (let i = 0; i < 30 && !a.fields.file?.[L]?.url; i++) { await sleep(1500); a = await cma(`/assets/${a.sys.id}`) }
+  if (!a.fields.file?.[L]?.url) throw new Error('asset never finished processing')
+  await cma(`/assets/${a.sys.id}/published`, { method: 'PUT', headers: { 'X-Contentful-Version': String(a.sys.version) } })
+  let e = (await all('/entries?content_type=city')).find(c => norm(c.fields.cityName?.[L]) === norm(city.cityName))
+  const old = e.fields.cityHeroImage?.[L]?.sys?.id
+  e.fields.cityHeroImage = loc(link(a.sys.id, 'Asset'))
+  const clean = e.sys.version === e.sys.publishedVersion + 1
+  e = await cma(`/entries/${e.sys.id}`, { method: 'PUT', headers: { 'X-Contentful-Version': String(e.sys.version) }, body: JSON.stringify({ fields: e.fields }) })
+  if (clean) await publish(e)
+  await fs.writeFile(`data/batch/${SLUG}/hero-log.json`, JSON.stringify({ asset: a.sys.id, previousAsset: old, published: clean }, null, 1) + '\n')
+  console.log(`::notice::hero ${SLUG}: new asset ${a.sys.id}, previous ${old}, published ${clean}`)
+  process.exit(0)
 }
 
 // "tour-images <slug>": fill in coverImageUrl on that city's existing tour
