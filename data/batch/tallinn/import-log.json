@@ -1,7 +1,7 @@
 {
  "mode": "dry-run",
  "city": "Tallinn",
- "started": "2026-11-28T01:13:27.547Z",
+ "started": "2026-11-28T01:15:38.696Z",
  "created": [
   "city: Tallinn (map zoom delta 1, map height 800)",
   "podcast: Tallinn in the Hanseatic League",
@@ -71,8 +71,6 @@
  "warnings": [
   "book \"Pobeda 1946: A Car Called Victory\": no ISBN found"
  ],
- "errors": [
-  "video \"Stalin’s deportations of 1949\": new video channel \"Radio Free Europe/Radio Liberty\" has no artwork to use as its icon"
- ],
- "finished": "2026-11-28T01:13:31.942Z"
+ "errors": [],
+ "finished": "2026-11-28T01:15:40.423Z"
 }
