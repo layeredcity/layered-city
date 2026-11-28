@@ -4486,7 +4486,8 @@
    ],
    "description": "A fort on Mount Srđ above the city, built by the French in the early 1800s. It was a key defensive point during the 1991–92 siege.",
    "wikipedia": "Tvrđava Imperial",
-   "wikipediaLang": "hr"
+   "wikipediaLang": "hr",
+   "photoSearch": true
   },
   {
    "id": "fort-lovrijenac",
@@ -4921,7 +4922,8 @@
    ],
    "description": "A museum in cave houses on the Sacromonte hill, where Granada’s Roma community lived and shaped its flamenco tradition.",
    "wikipedia": "Museo Cuevas del Sacromonte",
-   "wikipediaLang": "es"
+   "wikipediaLang": "es",
+   "photoSearch": true
   },
   {
    "id": "lorca-park-alfacar",
@@ -4931,7 +4933,7 @@
     "Federico García Lorca Park, Alfacar"
    ],
    "description": "A memorial park in Alfacar, outside Granada, near where the poet Federico García Lorca was killed in 1936.",
-   "photoSearch": true
+   "noPhoto": true
   },
   {
    "id": "mirador-de-san-nicolas",
@@ -4942,7 +4944,8 @@
    ],
    "description": "A viewpoint terrace in the Albaicín, the old Moorish quarter, facing the Alhambra across the valley.",
    "wikipedia": "Mirador de San Nicolás",
-   "wikipediaLang": "es"
+   "wikipediaLang": "es",
+   "photoSearch": true
   },
   {
    "id": "plaza-larga",
@@ -4952,7 +4955,7 @@
     "Plaza Larga, Albaicín"
    ],
    "description": "A small square in the Albaicín, the old Moorish quarter, next to a medieval city gate.",
-   "photoSearch": true
+   "noPhoto": true
   },
   {
    "id": "royal-chapel",
@@ -5063,7 +5066,8 @@
    ],
    "description": "A theater in the city center that kept staging plays and concerts throughout the siege of 1992 to 1996.",
    "wikipedia": "Pozorište mladih Sarajevo",
-   "wikipediaLang": "bs"
+   "wikipediaLang": "bs",
+   "photoSearch": true
   },
   {
    "id": "hotel-holiday",
@@ -5242,7 +5246,8 @@
    ],
    "description": "A small hill park by the city canal, where people were shot during the January 1991 barricades. Memorial stones mark the spots.",
    "wikipedia": "Bastejkalns",
-   "wikipediaLang": "lv"
+   "wikipediaLang": "lv",
+   "photoSearch": true
   },
   {
    "id": "dome-square",
@@ -5318,7 +5323,8 @@
    ],
    "description": "A 326-meter TV tower where Soviet troops killed unarmed civilians on January 13, 1991.",
    "wikipedia": "Vilniaus televizijos bokštas",
-   "wikipediaLang": "lt"
+   "wikipediaLang": "lt",
+   "photoSearch": true
   },
   {
    "id": "vilna-gaon-monument",
@@ -5394,7 +5400,8 @@
    ],
    "description": "A traboule, a covered passage through the courtyards of old houses, in Vieux Lyon, the city’s Renaissance quarter.",
    "wikipedia": "Traboule",
-   "wikipediaLang": "fr"
+   "wikipediaLang": "fr",
+   "noPhoto": true
   },
   {
    "id": "roman-theaters",
