@@ -1,0 +1,26 @@
+{
+ "mode": "dry-run",
+ "city": "London",
+ "started": "2026-11-28T17:46:18.955Z",
+ "created": [
+  "podcast: The Rokeby Venus by Diego Velázquez",
+  "video: Whistlejacket by George Stubbs",
+  "video: Venus and Mars by Sandro Botticelli",
+  "video: Belshazzar’s Feast by Rembrandt",
+  "video: The Ugly Duchess by Quinten Massys",
+  "video: Saint Jerome in His Study by Antonello da Messina",
+  "video: The Entombment by Michelangelo",
+  "video: The Execution of Maximilian by Édouard Manet"
+ ],
+ "skipped": [
+  "city: London already exists"
+ ],
+ "channels": [
+  "podcast: ArtCurious Podcast",
+  "video: The National Gallery"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T17:46:20.673Z"
+}
