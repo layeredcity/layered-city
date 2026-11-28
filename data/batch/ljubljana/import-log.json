@@ -1,7 +1,7 @@
 {
  "mode": "dry-run",
  "city": "Ljubljana",
- "started": "2026-11-28T06:50:25.278Z",
+ "started": "2026-11-28T06:51:39.652Z",
  "created": [
   "city: Ljubljana (map zoom delta 1, map height 800)",
   "podcast: Plečnik and the river",
@@ -26,7 +26,6 @@
   "book: Poems",
   "book: The Bailiff Yerney and His Rights",
   "book: I Saw Her That Night",
-  "book: Southern Scum Go Home!",
   "book: Jože Plečnik, 1872–1957: Architectura Perennis",
   "music: Zdravljica",
   "music: Lublana je bulana",
@@ -62,10 +61,8 @@
  ],
  "drafts": [],
  "warnings": [
-  "book \"The Bailiff Yerney and His Rights\": no ISBN found",
-  "book \"Southern Scum Go Home!\": no ISBN found",
-  "book \"Jože Plečnik, 1872–1957: Architectura Perennis\": no ISBN found"
+  "book \"The Bailiff Yerney and His Rights\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T06:50:26.987Z"
+ "finished": "2026-11-28T06:51:42.123Z"
 }
