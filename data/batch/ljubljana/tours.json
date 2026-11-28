@@ -6,7 +6,14 @@
   "place": "Prešeren Square",
   "lat": 46.0515,
   "lon": 14.5061,
-  "description": "A flat walk from Prešeren Square over the Triple Bridge, along Plečnik’s market colonnade to the Dragon Bridge, back through the medieval town, and across the river to Congress Square."
+  "description": "A flat walk from Prešeren Square over the Triple Bridge, along Plečnik’s market colonnade to the Dragon Bridge, back through the medieval town, and across the river to Congress Square.",
+  "creator": "City Insight Audio Tours",
+  "minutes": 90,
+  "distanceKm": 1,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 115,
+  "image": "https://media.voicemap.me/public/routes/images/000/008/260/original/Audio_Tour_Cover_Photo_4.jpg"
  },
  {
   "city": "Ljubljana",
@@ -15,6 +22,13 @@
   "place": "Ljubljana Castle",
   "lat": 46.0489,
   "lon": 14.5084,
-  "description": "An audio guide to Ljubljana Castle, once the seat of the rulers of Carniola: its towers and courtyard, the old prison cells, St. George’s Chapel, and the views from the walls."
+  "description": "An audio guide to Ljubljana Castle, once the seat of the rulers of Carniola: its towers and courtyard, the old prison cells, St. George’s Chapel, and the views from the walls.",
+  "creator": "City Insight Audio Tours",
+  "minutes": 75,
+  "distanceKm": null,
+  "priceUsd": 11.99,
+  "rating": 4.2,
+  "numberOfRatings": 6,
+  "image": "https://media.voicemap.me/public/routes/images/000/010/039/original/Castle_-_Tour_Cover_Photo_1.jpg"
  }
 ]
