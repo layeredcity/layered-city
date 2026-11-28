@@ -1,7 +1,7 @@
 {
  "mode": "dry-run",
  "city": "Granada",
- "started": "2026-11-28T04:38:00.584Z",
+ "started": "2026-11-28T04:40:41.067Z",
  "created": [
   "city: Granada (map zoom delta 1, map height 800)",
   "podcast: The sultan who built the Court of the Lions",
@@ -33,6 +33,7 @@
   "music: Granada (Serenata)",
   "music: Recuerdos de la Alhambra",
   "music: Noches en los jardines de España: En el Generalife",
+  "music: Granada",
   "music: Take This Waltz",
   "music: Omega",
   "audiotour: The Nasrid and Charles V Palaces: Alhambra Audio Tour with Context",
@@ -53,9 +54,7 @@
   "food: Cerveza Alhambra",
   "food: Vino de la costa"
  ],
- "skipped": [
-  "music: Granada (already in Granada)"
- ],
+ "skipped": [],
  "channels": [
   "podcast: The Multicultural Middle Ages Podcast",
   "podcast: The afikra Podcast",
@@ -73,5 +72,5 @@
   "book \"Tales of the Alhambra\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T04:38:03.259Z"
+ "finished": "2026-11-28T04:40:44.239Z"
 }
