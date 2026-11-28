@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Salzburg",
- "started": "2026-11-28T00:45:53.259Z",
+ "started": "2026-11-28T00:47:34.242Z",
  "created": [
   "city: Salzburg (map zoom delta 1, map height 800)",
   "podcast: The Protestants Salzburg expelled",
@@ -77,5 +77,5 @@
   "book \"Mozart: The Reign of Love\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T00:45:55.854Z"
+ "finished": "2026-11-28T00:49:14.651Z"
 }
