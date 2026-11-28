@@ -1,0 +1,20 @@
+{
+ "mode": "dry-run",
+ "city": "Ljubljana",
+ "started": "2026-11-28T16:44:58.042Z",
+ "created": [
+  "video: A city behind barbed wire",
+  "video: The first Slovene books"
+ ],
+ "skipped": [
+  "city: Ljubljana already exists"
+ ],
+ "channels": [
+  "video: Terry Anzur",
+  "video: Alliance of Confessing Evangelicals"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:44:59.289Z"
+}
