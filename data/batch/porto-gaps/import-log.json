@@ -1,0 +1,26 @@
+{
+ "mode": "dry-run",
+ "city": "Porto",
+ "started": "2026-11-28T16:38:49.778Z",
+ "created": [
+  "podcast: Wellington crosses the Douro",
+  "podcast: Eiffel, the bridge builder",
+  "podcast: The story of azulejos",
+  "video: The bridge of boats",
+  "video: The war of two brothers",
+  "video: Tiles that tell history"
+ ],
+ "skipped": [
+  "city: Porto already exists"
+ ],
+ "channels": [
+  "podcast: The Napoleonic Wars Podcast",
+  "podcast: Portugal - The Simple Life",
+  "video: Disasterthon - True Horror",
+  "video: Know History"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:38:51.403Z"
+}
