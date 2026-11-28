@@ -2,6 +2,105 @@
  "city": "Venice",
  "pins": [
   {
+   "id": "54FAtccJe3rrUS0mj208lC",
+   "title": "The synagogues of the Ghetto",
+   "type": "video",
+   "place": "Campo del Ghetto Nuovo",
+   "url": "https://www.youtube.com/watch?v=piLPrzZdhnI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4453,
+   "lon": 12.3263
+  },
+  {
+   "id": "7irOKgKki1eQXxWgOjyFTp",
+   "title": "The Assumption by Titian",
+   "type": "video",
+   "place": "Frari church (Santa Maria Gloriosa dei Frari)",
+   "url": "https://www.youtube.com/watch?v=2MzPOrcsWB0",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4368,
+   "lon": 12.3266
+  },
+  {
+   "id": "3Om0V8sMzFustFpHQNjuN8",
+   "title": "The Last Supper by Tintoretto",
+   "type": "video",
+   "place": "San Giorgio Maggiore",
+   "url": "https://www.youtube.com/watch?v=YhsjS5CtCTE",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4294,
+   "lon": 12.3432
+  },
+  {
+   "id": "2mJIzC3L3k8W3bfpABkcdI",
+   "title": "The San Zaccaria Altarpiece by Giovanni Bellini",
+   "type": "video",
+   "place": "Church of San Zaccaria",
+   "url": "https://www.youtube.com/watch?v=NCu83PcEQ1U",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4348,
+   "lon": 12.3437
+  },
+  {
+   "id": "7wxmCui4l8iTM8gPQ6JUg6",
+   "title": "The San Giobbe Altarpiece by Giovanni Bellini",
+   "type": "video",
+   "place": "Gallerie dell’Accademia art museum",
+   "url": "https://www.youtube.com/watch?v=PxCTyVQMVbs",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4313,
+   "lon": 12.3279
+  },
+  {
+   "id": "6AkGUZhp3Q3MPD57x1wOhS",
+   "title": "The Miracle of the Slave by Tintoretto",
+   "type": "video",
+   "place": "Gallerie dell’Accademia art museum",
+   "url": "https://www.youtube.com/watch?v=e41Wh7jhoxc",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4313,
+   "lon": 12.3279
+  },
+  {
+   "id": "5CpqvPpfbzyab4Hkw2MrBV",
+   "title": "The Pietà by Titian",
+   "type": "video",
+   "place": "Gallerie dell’Accademia art museum",
+   "url": "https://www.youtube.com/watch?v=iNW6SYDmkDI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4313,
+   "lon": 12.3279
+  },
+  {
+   "id": "6ErkettFg8bSBvWL4nkVu1",
+   "title": "La Vecchia by Giorgione",
+   "type": "video",
+   "place": "Gallerie dell’Accademia art museum",
+   "url": "https://www.youtube.com/watch?v=X-8YxwTB4II",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4313,
+   "lon": 12.3279
+  },
+  {
+   "id": "1vZKMksJ42prtBtTnE5A0K",
+   "title": "Palazzo Dario, the cursed palace",
+   "type": "podcast",
+   "place": "Ca’ Dario, Grand Canal",
+   "url": "https://open.spotify.com/search/ArtCurious%20Podcast%20Episode%20%2379%3A%20Cursed%20Art%3A%20Venice's%20Palazzo%20Dario%20(Season%209%2C%20Episode%20%203)",
+   "creator": null,
+   "channel": "ArtCurious Podcast",
+   "lat": 45.4309,
+   "lon": 12.3322
+  },
+  {
    "id": "4wJNAoQEiGnIKo6mq9Pead",
    "title": "Councils, courts, and cells under one gilded roof",
    "type": "video",
