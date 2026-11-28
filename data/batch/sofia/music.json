@@ -1,0 +1,34 @@
+[
+ {
+  "type": "music",
+  "city": "Sofia",
+  "title": "Vardar",
+  "artist": "Pancho Vladigerov",
+  "year": 1922,
+  "genre": "classical",
+  "place": "“Bulgaria” Hall",
+  "lat": 42.6951,
+  "lon": 23.3274,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Pancho%20Vladigerov%20Vardar",
+  "apple": "https://music.apple.com/us/search?term=Pancho%20Vladigerov%20Vardar",
+  "description": "A Bulgarian rhapsody built on folk dance rhythms, by Vladigerov, the country’s best-known composer of the 1900s. Bulgaria Hall is home to the Sofia Philharmonic."
+ },
+ {
+  "type": "music",
+  "city": "Sofia",
+  "title": "Kalimankou Denkou",
+  "artist": "Le Mystère des Voix Bulgares",
+  "year": 1975,
+  "genre": "folk choral",
+  "place": "Bulgarian National Radio",
+  "lat": 42.6845,
+  "lon": 23.3327,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Le%20Myst%C3%A8re%20des%20Voix%20Bulgares%20Kalimankou%20Denkou",
+  "apple": "https://music.apple.com/us/search?term=Le%20Myst%C3%A8re%20des%20Voix%20Bulgares%20Kalimankou%20Denkou",
+  "description": "A folk song arranged for the women’s choir of Bulgarian state radio, from the album that a Swiss producer released in 1975 as “The Mystery of Bulgarian Voices.”"
+ }
+]

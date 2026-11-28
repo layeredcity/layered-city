@@ -1,0 +1,301 @@
+{
+ "city": "Sofia",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Мартеница",
+   "phonetic": "mar-TEH-nee-tsah",
+   "context": "A red-and-white tassel or bracelet worn from March 1 for luck and health, then tied to a blossoming tree when you see a stork or swallow.",
+   "deepCutOrder": 1,
+   "id": "sofia-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Имен ден",
+   "phonetic": "EE-men den",
+   "context": "Name day. The feast of the saint you are named after, celebrated like a birthday. On St. George’s Day, every Georgi in the country has a party.",
+   "deepCutOrder": 2,
+   "id": "sofia-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Хоро",
+   "phonetic": "hoh-ROH",
+   "context": "The circle dance at weddings and holidays, with everyone linked by the hands or belts. Strangers are expected to join in.",
+   "deepCutOrder": 3,
+   "id": "sofia-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Чалга",
+   "phonetic": "CHAHL-gah",
+   "context": "Pop-folk music with Balkan and Middle Eastern rhythms. Loved, mocked, and played in clubs all over the country.",
+   "deepCutOrder": 4,
+   "id": "sofia-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Панелка",
+   "phonetic": "pah-NEL-kah",
+   "context": "A prefab concrete apartment block of the communist era. Most of Sofia still lives in one.",
+   "deepCutOrder": 5,
+   "id": "sofia-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Баня",
+   "phonetic": "BAH-nyah",
+   "context": "A bath or spa. Sofia sits on hot mineral springs, and locals fill bottles at the public taps behind the old Central Baths.",
+   "deepCutOrder": 6,
+   "id": "sofia-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Добро утро",
+   "phonetic": "doh-BROH OO-troh",
+   "meaning": "good morning",
+   "id": "sofia-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Добър ден",
+   "phonetic": "DOH-bur den",
+   "meaning": "good afternoon",
+   "context": "The all-purpose polite greeting for most of the day.",
+   "id": "sofia-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Добър вечер",
+   "phonetic": "DOH-bur VEH-cher",
+   "meaning": "good evening",
+   "id": "sofia-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Здравей",
+   "phonetic": "zdrah-VAY",
+   "meaning": "hello (casual)",
+   "context": "“Здравейте” (zdrah-VAY-teh) is the polite form.",
+   "id": "sofia-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Довиждане",
+   "phonetic": "doh-VEEZH-dah-neh",
+   "meaning": "leaving a shop or café",
+   "id": "sofia-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Моля",
+   "phonetic": "MOH-lyah",
+   "meaning": "please",
+   "context": "Also “you’re welcome.”",
+   "id": "sofia-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Благодаря",
+   "phonetic": "blah-goh-dah-RYAH",
+   "meaning": "thank you",
+   "context": "“Мерси” (mer-SEE) is common too.",
+   "id": "sofia-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Да",
+   "phonetic": "dah",
+   "meaning": "yes",
+   "context": "Often said with a side-to-side shake of the head.",
+   "id": "sofia-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Не",
+   "phonetic": "neh",
+   "meaning": "no",
+   "context": "Often said with a nod.",
+   "id": "sofia-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Говорите ли английски?",
+   "phonetic": "goh-VOH-ree-teh lee ahn-GLEE-skee",
+   "meaning": "do you speak English?",
+   "id": "sofia-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Съжалявам",
+   "phonetic": "suh-zhah-LYAH-vahm",
+   "meaning": "sorry",
+   "id": "sofia-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Извинете",
+   "phonetic": "eez-vee-NEH-teh",
+   "meaning": "excuse me (getting attention)",
+   "id": "sofia-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Извинете",
+   "phonetic": "eez-vee-NEH-teh",
+   "meaning": "excuse me (squeezing past)",
+   "context": "The same word works for both.",
+   "id": "sofia-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Едно",
+   "phonetic": "ed-NOH",
+   "meaning": "one",
+   "id": "sofia-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Две",
+   "phonetic": "dveh",
+   "meaning": "two",
+   "id": "sofia-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Три",
+   "phonetic": "tree",
+   "meaning": "three",
+   "id": "sofia-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Четири",
+   "phonetic": "CHEH-tee-ree",
+   "meaning": "four",
+   "id": "sofia-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Пет",
+   "phonetic": "pet",
+   "meaning": "five",
+   "id": "sofia-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "Менюто, моля",
+   "phonetic": "meh-NYOO-toh MOH-lyah",
+   "meaning": "the menu, please",
+   "id": "sofia-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Добър апетит",
+   "phonetic": "DOH-bur ah-peh-TEET",
+   "meaning": "enjoy your meal",
+   "id": "sofia-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Наздраве",
+   "phonetic": "nahz-DRAH-veh",
+   "meaning": "cheers",
+   "context": "Look each person in the eye as you clink.",
+   "id": "sofia-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Много е вкусно!",
+   "phonetic": "MNOH-goh eh VKOOS-noh",
+   "meaning": "delicious!",
+   "id": "sofia-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Сметката, моля",
+   "phonetic": "SMET-kah-tah MOH-lyah",
+   "meaning": "the check, please",
+   "id": "sofia-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Бакшиш",
+   "phonetic": "bahk-SHEESH",
+   "meaning": "tip",
+   "context": "About 10 percent in restaurants. Saying “thank you” as you hand over cash can mean “keep the change.”",
+   "id": "sofia-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Къде е…?",
+   "phonetic": "kuh-DEH eh",
+   "meaning": "where is…?",
+   "id": "sofia-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Билет",
+   "phonetic": "bee-LET",
+   "meaning": "ticket",
+   "id": "sofia-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Тоалетна",
+   "phonetic": "toh-ah-LET-nah",
+   "meaning": "bathroom",
+   "context": "Often marked WC.",
+   "id": "sofia-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Мъже",
+   "phonetic": "muh-ZHEH",
+   "meaning": "men",
+   "id": "sofia-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Жени",
+   "phonetic": "zheh-NEE",
+   "meaning": "women",
+   "id": "sofia-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Банкомат",
+   "phonetic": "bahn-koh-MAHT",
+   "meaning": "ATM",
+   "id": "sofia-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Колко струва?",
+   "phonetic": "KOHL-koh STROO-vah",
+   "meaning": "how much?",
+   "id": "sofia-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Карта",
+   "phonetic": "KAR-tah",
+   "meaning": "credit card",
+   "id": "sofia-card"
+  },
+  {
+   "slot": "cash",
+   "local": "В брой",
+   "phonetic": "v broy",
+   "meaning": "cash",
+   "id": "sofia-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Торбичка?",
+   "phonetic": "tor-BEECH-kah",
+   "meaning": "bag?",
+   "id": "sofia-bag"
+  }
+ ]
+}
