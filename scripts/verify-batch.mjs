@@ -20,7 +20,7 @@ const read = (c, f) => { try { return JSON.parse(fs.readFileSync(`data/batch/${c
 const all = f => cities.flatMap(c => [...read(c, f), ...read(c, f + '-add')])
 
 for (const v of TOURS_ONLY ? [] : all('videos')) {
-  if (!v.youtube || out.videos[v.youtube]) continue
+  if (!v.youtube || out.videos[v.youtube]?.oembed === 200) continue
   const r = { }
   try {
     const o = await get(`https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${v.youtube}&format=json`)
@@ -89,7 +89,7 @@ if (films.length) {
 }
 
 for (const t of all('tours')) {
-  if (!t.url || out.tours[t.url]) continue
+  if (!t.url || out.tours[t.url]?.status === 200) continue
   const r = {}
   try {
     const res = await get(t.url); r.status = res.status; const h = await res.text()
