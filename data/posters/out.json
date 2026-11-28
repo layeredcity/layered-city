@@ -1,312 +1,5 @@
 [
  {
-  "key": "vilnius|Partisans of Vilna 1986",
-  "q": "Partisans of Vilna 1986",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0091726",
-    "l": "Partisans of Vilna",
-    "y": 1986,
-    "q": "feature",
-    "s": "Abba Kovner, Alexander Bogen",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTI2NDMwNTcyMl5BMl5BanBnXkFtZTcwNjI5NzgyMQ@@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "vilnius|Vilniaus getas 2006",
-  "q": "Vilniaus getas 2006",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0783522",
-    "l": "Ghetto",
-    "y": 2005,
-    "q": "feature",
-    "s": "Heino Ferch, Sebastian Hülk",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTY1NDI0Mzk2M15BMl5BanBnXkFtZTcwNDQ5MDg5MQ@@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "lyon|Lumière! L aventure commence",
-  "q": "Lumière! L aventure commence",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt5954462",
-    "l": "Lumière!",
-    "y": 2016,
-    "q": "feature",
-    "s": "Thierry Frémaux, Martin Scorsese",
-    "img": "https://m.media-amazon.com/images/M/MV5BZmE0Zjk0NjQtODljNC00MDdmLWEyMzUtYWRlNWYyYjg0ZDQ2XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "lyon|Au revoir les enfants 1987",
-  "q": "Au revoir les enfants 1987",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0092593",
-    "l": "Goodbye, Children",
-    "y": 1987,
-    "q": "feature",
-    "s": "Gaspard Manesse, Raphael Fejtö",
-    "img": "https://m.media-amazon.com/images/M/MV5BYzY4NmI0OTUtOTQ2Zi00MDAxLTljYTAtNTc4MGRiYzI3ZDYxXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0922359",
-    "l": "Au secours, les enfants reviennent!",
-    "y": 2006,
-    "q": "TV movie",
-    "s": "Roland Giraud, Fanny Cottençon",
-    "img": "https://m.media-amazon.com/images/M/MV5BZDFlZjU5MGEtYWNjMi00OTFhLWExNjgtZWQ3YWVkZDUxYTc0XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt8192074",
-    "l": "Les enfants au Japon",
-    "y": 1911,
-    "q": "short",
-    "s": "",
-    "img": null
-   },
-   {
-    "id": "tt2017468",
-    "l": "The Unknown Soldier: The Children of the Resistance",
-    "y": 2011,
-    "q": "short",
-    "s": "Thomas Lemoine, Pascal D'Amato",
-    "img": "https://m.media-amazon.com/images/M/MV5BMjM5NTA2MzUxNF5BMl5BanBnXkFtZTgwODY1MDczMjE@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt5705882",
-    "l": "Au revoir dogs Goodbye les chiens",
-    "y": 2011,
-    "q": "short",
-    "s": "Bruno Henry, David Levy",
-    "img": "https://m.media-amazon.com/images/M/MV5BYzNkZGNhNTktZmQ2My00NTZlLThjNjUtOWEwMWJjMDM4ZmM2XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "lyon|Lacombe Lucien",
-  "q": "Lacombe Lucien",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0071733",
-    "l": "Lacombe, Lucien",
-    "y": 1974,
-    "q": "feature",
-    "s": "Pierre Blaise, Aurore Clément",
-    "img": "https://m.media-amazon.com/images/M/MV5BNDg0MWZjZTEtZDk2ZC00YmI4LTk1ZTctOTNkOGI4MTJmMzVkXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "nm14886191",
-    "l": "Lucien Lacombe",
-    "s": "Sound Department, Télé-Sottise (2023)",
-    "img": null
-   },
-   {
-    "id": "nm1561227",
-    "l": "Julien Lacombe",
-    "s": "Writer, Missions (2017-2021)",
-    "img": null
-   },
-   {
-    "id": "nm11147020",
-    "l": "Julien-Guilhem Lacombe",
-    "s": "Writer, Planet B (2024)",
-    "img": null
-   },
-   {
-    "id": "nm12591900",
-    "l": "Julien Lacorne",
-    "s": "Legal, My Son (2021)",
-    "img": null
-   }
-  ]
- },
- {
-  "key": "lyon|L horloger de Saint-Paul 1974",
-  "q": "L horloger de Saint-Paul 1974",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0071622",
-    "l": "The Clockmaker",
-    "y": 1974,
-    "q": "feature",
-    "s": "Philippe Noiret, Jean Rochefort",
-    "img": "https://m.media-amazon.com/images/M/MV5BNDdmNzYxMGItNGY1YS00Mjg4LTllOGMtYzg4MGUyZWIyZWUzXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "lyon|Hotel Terminus Klaus Barbie",
-  "q": "Hotel Terminus Klaus Barbie",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0095341",
-    "l": "Hôtel Terminus",
-    "y": 1988,
-    "q": "feature",
-    "s": "Klaus Barbie, Claude Lanzmann",
-    "img": "https://m.media-amazon.com/images/M/MV5BMjMwNjg3NjgyNl5BMl5BanBnXkFtZTgwMjY2NDkwMzE@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "lyon|Grace a Dieu 2018",
-  "q": "Grace a Dieu 2018",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt8095860",
-    "l": "By the Grace of God",
-    "y": 2018,
-    "q": "feature",
-    "s": "Melvil Poupaud, Denis Ménochet",
-    "img": "https://m.media-amazon.com/images/M/MV5BZTJlNzJhY2YtNThjYS00YzdmLWFiZGMtYTM2ODk5OTVjYWM1XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "nm11079186",
-    "l": "Grâce a Dieu Ferema",
-    "s": "Actor, Camille (2019)",
-    "img": null
-   },
-   {
-    "id": "tt49888446",
-    "l": "A la grâce de Dieu",
-    "y": 2026,
-    "q": "feature",
-    "s": "David, Simon Njami",
-    "img": null
-   },
-   {
-    "id": "tt1099938",
-    "l": "Buñuel: Atheist Thanks to God",
-    "y": 2005,
-    "q": "video",
-    "s": "Jean-Robert Armogathe, Jean-Claude Carrière",
-    "img": null
-   },
-   {
-    "id": "tt0204081",
-    "l": "Anarquistas Graças a Deus",
-    "y": 1984,
-    "q": "TV mini-series",
-    "s": "Ney Latorraca, Débora Duarte",
-    "img": "https://m.media-amazon.com/images/M/MV5BMmI1MmRjMmUtMTM4NC00OWU1LTk4NGUtYTQ4ZjM2OWE3OTI1XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "lyon|Les Lyonnais 2011",
-  "q": "Les Lyonnais 2011",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt1741542",
-    "l": "Les Lyonnais",
-    "y": 2011,
-    "q": "feature",
-    "s": "Gérard Lanvin, Tchéky Karyo",
-    "img": "https://m.media-amazon.com/images/M/MV5BNDU3MmMzMGEtNGYzOS00ZDM3LTlhMGItMTAyZWM5ZmMwNTlmXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt4788720",
-    "l": "Il etait une fois les lyonnais",
-    "y": 2011,
-    "q": "feature",
-    "s": "Patrick Catalifo, Ambre Fernandez",
-    "img": null
-   },
-   {
-    "id": "tt12479578",
-    "l": "Notes Lyonnaises III (Carnet Filmé: 5 juin 2011 - 3 novembre 2011)",
-    "y": 2011,
-    "q": "feature",
-    "s": "Jacques Gerstenkorn",
-    "img": null
-   },
-   {
-    "id": "tt12473740",
-    "l": "Notes Lyonnaises II (Carnet Filmé: 4 avril 2007 - 20 octobre 2010)",
-    "y": 2010,
-    "q": "feature",
-    "s": "",
-    "img": null
-   },
-   {
-    "id": "tt12492428",
-    "l": "Notes Lyonnaises IV (Carnet Filmé: 26 juin 2012 - 15 août 2013)",
-    "y": 2014,
-    "q": "feature",
-    "s": "Jacques Gerstenkorn",
-    "img": null
-   }
-  ]
- },
- {
-  "key": "lyon|Army of Shadows 1969",
-  "q": "Army of Shadows 1969",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0064040",
-    "l": "Army of Shadows",
-    "y": 1969,
-    "q": "feature",
-    "s": "Lino Ventura, Paul Meurisse",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTQxZGZhOTctM2MyYi00OGZkLTgwOWItNThlNjJkNWEwOWM5XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt37976598",
-    "l": "Army of Shadows",
-    "q": "TV series",
-    "s": "Olivia Colman, Susan Sarandon",
-    "img": null
-   }
-  ]
- },
- {
-  "key": "lyon|Lyon 1964 Jacques Demy",
-  "q": "Lyon 1964 Jacques Demy",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "sofia|The Lesson 2014 Bulgaria",
-  "q": "The Lesson 2014 Bulgaria",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "sofia|Glory 2016 Bulgaria",
-  "q": "Glory 2016 Bulgaria",
-  "status": 200,
-  "hits": []
- },
- {
   "key": "sofia|Eastern Plays 2009",
   "q": "Eastern Plays 2009",
   "status": 200,
@@ -323,8 +16,8 @@
   ]
  },
  {
-  "key": "sofia|Mila from Mars",
-  "q": "Mila from Mars",
+  "key": "sofia|Mila from Mars 2004",
+  "q": "Mila from Mars 2004",
   "status": 200,
   "hits": [
    {
@@ -337,19 +30,28 @@
     "ok": 200
    },
    {
-    "id": "tt38938961",
-    "l": "Mykola from Mariupol",
-    "y": 2025,
-    "q": "feature",
-    "s": "",
+    "id": "tt0967957",
+    "l": "U2 - Vertigo 2005: Live from Milan",
+    "y": 2006,
+    "q": "video",
+    "s": "Bono, Adam Clayton",
+    "img": "https://m.media-amazon.com/images/M/MV5BNjA3MDUwNTM3M15BMl5BanBnXkFtZTgwNjYxNjUwMTE@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt1080023",
+    "l": "Live from Mars 2001",
+    "y": 2001,
+    "q": "TV special",
+    "s": "Kurt Williams, Nina Armagno",
     "img": null
    },
    {
-    "id": "tt12375702",
-    "l": "Barbie Meet a Friend from Mars!",
-    "y": 2020,
+    "id": "tt0488013",
+    "l": "Gackt Live Tour 2000: Mars sora kara no houmonsha/Visitor from the Sky - La réminiscence",
+    "y": 2000,
     "q": "video",
-    "s": "",
+    "s": "Gackt, You Kurosaki",
     "img": null
    },
    {
@@ -361,58 +63,32 @@
   ]
  },
  {
-  "key": "sofia|Avé 2011",
-  "q": "Avé 2011",
+  "key": "sofia|Ave 2011 Bulgaria",
+  "q": "Ave 2011 Bulgaria",
   "status": 200,
   "hits": [
    {
-    "id": "/family-entertainment-guide/",
-    "l": "Holiday Watch Guide",
-    "s": "Movies and shows to celebrate the holiday season",
-    "img": "https://m.media-amazon.com/images/M/MV5BYTU4YTA2NDctNzc3ZS00ZDczLThiMWEtYTU1Zjg4Nzk4ZDE3XkEyXkFqcGc@._V1_.jpg",
+    "id": "tt2041904",
+    "l": "Glasat na Bulgaria",
+    "y": 2011,
+    "q": "TV series",
+    "s": "Viktoria Terzijska, Miroslav Kostadinov",
+    "img": "https://m.media-amazon.com/images/M/MV5BMDZhMTdmMWMtYzhiZC00YzZlLWE5MjQtNjA0Njc3NmM0OTY0XkEyXkFqcGc@._V1_.jpg",
     "ok": 200
    },
    {
-    "id": "tt1833647",
-    "l": "Avé",
+    "id": "tt1869175",
+    "l": "Velika Bulgaria",
     "y": 2011,
-    "q": "feature",
-    "s": "Angela Nedyalkov, Ovanes Torosian",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTc4NjYyMzY4OF5BMl5BanBnXkFtZTcwMTkyNzkyNg@@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0458339",
-    "l": "Captain America: The First Avenger",
-    "y": 2011,
-    "q": "feature",
-    "s": "Chris Evans, Hugo Weaving",
-    "img": "https://m.media-amazon.com/images/M/MV5BNzUyM2YyY2MtNzNlMS00MWU5LTgxNjAtNzZlNmI2NjU2NDZlXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt1268799",
-    "l": "A Very Harold & Kumar Christmas",
-    "y": 2011,
-    "q": "feature",
-    "s": "Kal Penn, John Cho",
-    "img": "https://m.media-amazon.com/images/M/MV5BMzA1NTQzMjAyOV5BMl5BanBnXkFtZTcwNDcyMjY2Ng@@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt1800301",
-    "l": "The Red, Black and Blonde: God $ave",
-    "y": 2011,
-    "q": "feature",
-    "s": "Al Bianchi, Thomas Brown",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTYwMzcwNTQ4N15BMl5BanBnXkFtZTcwMjI5NjEzNA@@._V1_.jpg",
-    "ok": 200
+    "q": "TV series",
+    "s": "Krystjo Lafazanov, Lyubomir Neikov",
+    "img": null
    }
   ]
  },
  {
-  "key": "sofia|Time of Violence",
-  "q": "Time of Violence",
+  "key": "sofia|Time of Violence 1988",
+  "q": "Time of Violence 1988",
   "status": 200,
   "hits": [
    {
@@ -443,19 +119,18 @@
     "ok": 200
    },
    {
-    "id": "tt13233328",
-    "l": "A Time for Violence",
-    "q": "short",
-    "s": "",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTk5ZDk5OTItMzU5Yy00MWY5LThjMGEtODVkYjk5YjI1M2ZlXkEyXkFqcGc@._V1_.jpg",
+    "id": "nm0144657",
+    "l": "Dan Castellaneta",
+    "s": "Actor, The Simpsons (1989-2027)",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjAyNDY5NDEwOV5BMl5BanBnXkFtZTcwMjY0ODYyMQ@@._V1_.jpg",
     "ok": 200
    },
    {
-    "id": "tt5047290",
-    "l": "Place and Time Without Reason Is Violence",
-    "y": 1998,
-    "q": "TV short",
-    "s": "",
+    "id": "tt0303870",
+    "l": "Crimes of Violence",
+    "y": 1988,
+    "q": "TV movie",
+    "s": "Charles D. Cherrier, Louis Gossett Jr.",
     "img": null
    }
   ]
@@ -486,8 +161,8 @@
   ]
  },
  {
-  "key": "sofia|Bulgarian Rhapsody",
-  "q": "Bulgarian Rhapsody",
+  "key": "sofia|Bulgarian Rhapsody 2014",
+  "q": "Bulgarian Rhapsody 2014",
   "status": 200,
   "hits": [
    {
@@ -507,39 +182,12 @@
     "s": "Irén Pelsöczy, Hristo Kodzhabashev",
     "img": "https://m.media-amazon.com/images/M/MV5BMzEwYWFjNjMtYWE1ZC00MDllLTgyYWItNWNmNTU3YjUzMzk5XkEyXkFqcGc@._V1_.jpg",
     "ok": 200
-   },
-   {
-    "id": "tt0077492",
-    "l": "Hungarian Rhapsody",
-    "y": 1979,
-    "q": "feature",
-    "s": "György Cserhalmi, Lajos Balázsovits",
-    "img": "https://m.media-amazon.com/images/M/MV5BM2VjMGIzODMtODVkOC00ZjQ5LWIzYmYtOGRkNjkyOWM4OWY5XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0093427",
-    "l": "Queen Live in Budapest",
-    "y": 1986,
-    "q": "feature",
-    "s": "Queen, John Deacon",
-    "img": "https://m.media-amazon.com/images/M/MV5BZjI2ZmM5Y2YtNTViYi00OWViLWE5MzYtOWQwZTViOTczNjU5XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt2320154",
-    "l": "Hungarian Rhapsody",
-    "y": 1930,
-    "q": "short",
-    "s": "Paul Fix, Michael Visaroff",
-    "img": "https://m.media-amazon.com/images/M/MV5BOWU3MjU4NjEtNjA3Ni00MGI0LWE2NmUtMTBlOTkzNWMyNmMzXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
    }
   ]
  },
  {
-  "key": "sofia|The Unknown Soldier Patent Leather Shoes",
-  "q": "The Unknown Soldier Patent Leather Shoes",
+  "key": "sofia|The Unknown Soldier's Patent Leather Shoes 1979",
+  "q": "The Unknown Soldier's Patent Leather Shoes 1979",
   "status": 200,
   "hits": [
    {
@@ -550,14 +198,497 @@
     "s": "Slavka Ankova, Emiliya Myrynska",
     "img": "https://m.media-amazon.com/images/M/MV5BMTgzOTYyMjY4M15BMl5BanBnXkFtZTgwMjEzNjk4NTE@._V1_.jpg",
     "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|The Lesson 2014 Bulgaria",
+  "q": "The Lesson 2014 Bulgaria",
+  "status": 200,
+  "hits": []
+ },
+ {
+  "key": "sofia|Glory 2016 Bulgaria",
+  "q": "Glory 2016 Bulgaria",
+  "status": 200,
+  "hits": []
+ },
+ {
+  "key": "sofia|Letter to America 2001",
+  "q": "Letter to America 2001",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0262690",
+    "l": "Letter to America",
+    "y": 2000,
+    "q": "feature",
+    "s": "Phillip Avramov, Ana Papadopulu",
+    "img": "https://m.media-amazon.com/images/M/MV5BYWExNDNkMDktODQ1NC00ZThkLWI5ZjYtMmY5YWMzYTdjZjEwXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
    },
    {
-    "id": "tt4054350",
-    "l": "Do Black Patent Leather Shoes Really Reflect Up?",
+    "id": "tt0228543",
+    "l": "Letter to America",
+    "y": 1999,
+    "q": "short",
+    "s": "Sergey Chetvertkov, Uta Kilter",
+    "img": "https://m.media-amazon.com/images/M/MV5BOGExNGM5ZTMtZjhmMS00NDEyLTk3ZmUtZDY0ZjgwY2I0ZmM3XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt38934006",
+    "l": "The Lunch: A Letter to America",
+    "y": 2025,
     "q": "feature",
+    "s": "",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDA0NjQwNTItYWFlNi00ZTIzLTkzNjMtM2Y4ZTEyNTYxY2Q0XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt48702586",
+    "l": "Letter to America",
+    "y": 2026,
+    "q": "podcastSeries",
+    "s": "",
+    "img": null
+   },
+   {
+    "id": "tt17525918",
+    "l": "Letter from America by Alistair Cooke: From Nixon to Carter (1969-1980)",
+    "y": 1973,
+    "q": "podcastSeries",
     "s": "",
     "img": null
    }
   ]
+ },
+ {
+  "key": "sofia|The World Is Big and Salvation Lurks Around the Corner",
+  "q": "The World Is Big and Salvation Lurks Around the Corner",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt1178197",
+    "l": "The World is Big and Salvation Lurks Around the Corner",
+    "y": 2008,
+    "q": "feature",
+    "s": "Miki Manojlović, Carlo Ljubek",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTk5ODQwNzE2OF5BMl5BanBnXkFtZTcwMzE0NjUxMw@@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|Monkeys in Winter 2006",
+  "q": "Monkeys in Winter 2006",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0880633",
+    "l": "Maimuni prez zimata",
+    "y": 2006,
+    "q": "feature",
+    "s": "Bonka Ilieva-Boni, Diana Dobreva",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTU2OTcyMjcxMl5BMl5BanBnXkFtZTgwNTE4NTAzMTE@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "nm0733427",
+    "l": "Harry Shearer",
+    "s": "Actor, The Simpsons (1989-2027)",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTIxNDg4MzA5OF5BMl5BanBnXkFtZTYwOTM3MDc1._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "nm7957825",
+    "l": "Mark Banks",
+    "s": "Director, Stand Up: Who's Laughing Now",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDgwODVkNmEtYWEyMC00NmQ4LWE3YzktMGEyNWY3YTVjNjAwXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "nm1229764",
+    "l": "Sonny Siaki",
+    "s": "Actor, TNA Xplosion (2003-2005)",
+    "img": "https://m.media-amazon.com/images/M/MV5BNTBlNzIxODktMTUyMy00OTg5LWE3OTgtMzg0NGNlMGQ2YTgxXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|Thy Wraths Will Pass",
+  "q": "Thy Wraths Will Pass",
+  "status": 200,
+  "hits": [
+   {
+    "id": "nm5025694",
+    "l": "Gary Burbank",
+    "s": "Actor, 7 Below (2012)",
+    "img": null
+   },
+   {
+    "id": "nm3073670",
+    "l": "Griff Kohout",
+    "s": "Actor, NFL Axis of Evil vs Eric Reid & Kaepernick (2018)",
+    "img": null
+   },
+   {
+    "id": "nm16095349",
+    "l": "Hash Blink",
+    "img": null
+   }
+  ]
+ },
+ {
+  "key": "sofia|Zift 2008",
+  "q": "Zift 2008",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt1264914",
+    "l": "Zift",
+    "y": 2008,
+    "q": "feature",
+    "s": "Zachary Baharov, Tanya Ilieva",
+    "img": "https://m.media-amazon.com/images/M/MV5BYzFlMjNiYWItMzMzMS00YWZiLTg2MTgtNzY0M2JjYWVmMjQxXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt1212448",
+    "l": "Tripping the Rift: The Movie",
+    "y": 2008,
+    "q": "video",
+    "s": "Stephen Root, Maurice LaMarche",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTIwOTcxNzI4Ml5BMl5BanBnXkFtZTcwODkzNTI2MQ@@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt1305027",
+    "l": "Podarok Stalinu",
+    "y": 2008,
+    "q": "feature",
+    "s": "Nurzhuman Ikhtymbaev, Bakhtiyar Kozha",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDgyYWUyMWUtZGFmNS00NmRhLTgxZjYtMjQwOGQ2Y2Q2NzgzXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt1417034",
+    "l": "The Gift of Pachamama",
+    "y": 2008,
+    "q": "feature",
+    "s": "Christian Huaygua, Luis Mamaní",
+    "img": "https://m.media-amazon.com/images/M/MV5BNTA0MzI2ODY4MV5BMl5BanBnXkFtZTgwNTIzMTg5MDE@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt1144540",
+    "l": "The Birthday Gift",
+    "y": 2008,
+    "q": "short",
+    "s": "Tammy Kaitz, Katie Seeley",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTMzNTQxMDQxMV5BMl5BanBnXkFtZTcwNDg1MzI4Mg@@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|The Judgment 2014 Bulgaria",
+  "q": "The Judgment 2014 Bulgaria",
+  "status": 200,
+  "hits": []
+ },
+ {
+  "key": "sofia|Women Do Cry 2021",
+  "q": "Women Do Cry 2021",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt11873754",
+    "l": "Women Do Cry",
+    "y": 2021,
+    "q": "feature",
+    "s": "Maria Bakalova, Yavor Kostov",
+    "img": "https://m.media-amazon.com/images/M/MV5BN2VlMmYzYjAtOTcwMi00NThiLWI2NmYtNmM1NjBkMWYwYjE2XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|Blaga's Lessons 2023",
+  "q": "Blaga's Lessons 2023",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt27996716",
+    "l": "Blaga's Lessons",
+    "y": 2023,
+    "q": "feature",
+    "s": "Eli Skorcheva, Gerasim Georgiev",
+    "img": "https://m.media-amazon.com/images/M/MV5BNjI5MWVkY2MtMjY4Ny00NTdhLWExYjYtN2IwNTkzMTg3NzNlXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt27935735",
+    "l": "Life Lessons with Siobhan O'Hagan",
+    "y": 2023,
+    "q": "podcastSeries",
+    "s": "Siobhan O'Hagan",
+    "img": "https://m.media-amazon.com/images/M/MV5BYjIxM2I5YWUtNWRhNi00ZThjLWJkZDAtOTk3MDVmOTU0NDM3XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt27299975",
+    "l": "The Black Death: New Lessons from Recent Research",
+    "y": 2023,
+    "q": "feature",
+    "s": "Dorsey Armstrong",
+    "img": null
+   }
+  ]
+ },
+ {
+  "key": "sofia|The Boy Who Was a King 2011",
+  "q": "The Boy Who Was a King 2011",
+  "status": 200,
+  "hits": [
+   {
+    "id": "nm0144657",
+    "l": "Dan Castellaneta",
+    "s": "Actor, The Simpsons (1989-2027)",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjAyNDY5NDEwOV5BMl5BanBnXkFtZTcwMjY0ODYyMQ@@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt2044019",
+    "l": "The Boy Who Was a King",
+    "y": 2011,
+    "q": "feature",
+    "s": "Simeon II of Bulgaria, Margarita Saxe-Coburg-Gotha",
+    "img": "https://m.media-amazon.com/images/M/MV5BMmYzODE4NDMtNDJhMy00YzNjLTlhNjYtN2EzMTFmMzBmZjdhXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0432755",
+    "l": "The Boy Who Would Be King",
+    "y": 2004,
+    "q": "TV movie",
+    "s": "Jack Davenport, Martin Alexander Colton",
+    "img": "https://m.media-amazon.com/images/M/MV5BZWQ5NjIzOGUtMGNlZC00MTQ3LWI5YjItZjRjMjdkZGY3ODk2XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt27531571",
+    "l": "King Charles: The Boy Who Walked Alone",
+    "y": 2023,
+    "q": "TV series",
+    "s": "India Hicks, Janet Jenkins",
+    "img": "https://m.media-amazon.com/images/M/MV5BZDg0OGZkYTEtODJmMC00OGQ3LWI0MDQtNDM4NTI1OGJkZjZmXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt1730144",
+    "l": "The Boy Who Became King",
+    "y": 2010,
+    "q": "short",
+    "s": "Jack Gilroy, Stone Eisenmann",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTc5NTA3OTMxN15BMl5BanBnXkFtZTcwMjg2ODc5Mw@@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|Georgi and the Butterflies 2004",
+  "q": "Georgi and the Butterflies 2004",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0439586",
+    "l": "Georgi i peperudite",
+    "y": 2004,
+    "q": "feature",
+    "s": "Georgi Lulchev",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTc4MTIxNjEyMF5BMl5BanBnXkFtZTcwMjQwMTg5MQ@@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0026726",
+    "l": "Molly Moo-Cow and the Butterflies",
+    "y": 1935,
+    "q": "short",
+    "s": "John Gurney",
+    "img": "https://m.media-amazon.com/images/M/MV5BZDMwZjhlZjgtN2NiMi00ZGJhLWIyMDQtMmRlZjZkNDQ5MjM5XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt2509514",
+    "l": "Silenced: Georgi Markov and the Umbrella Murder",
+    "y": 2012,
+    "q": "feature",
+    "s": "",
+    "img": null
+   },
+   {
+    "id": "tt1214950",
+    "l": "Boogie & the Blues Diva: 2004 Motor City Blues & Boogie Woogie Festival",
+    "y": 2006,
+    "q": "video",
+    "s": "Maria Muldaur, Alma Smith",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTQ1NTg0NDEyNF5BMl5BanBnXkFtZTcwNzg5MTk2MQ@@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "nm3666345",
+    "l": "Faculty and Staff of the Fall 2004 Voyage of Semester at Sea",
+    "s": "Self, Learning to Sea: Fall 2004, a Voyage of Discovery (2005)",
+    "img": null
+   }
+  ]
+ },
+ {
+  "key": "sofia|Uncle Tom's Cabin Simeon",
+  "q": "Uncle Tom's Cabin Simeon",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0094213",
+    "l": "Uncle Tom's Cabin",
+    "y": 1987,
+    "q": "TV movie",
+    "s": "Avery Brooks, Kate Burton",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTgyNzk3NzMxMl5BMl5BanBnXkFtZTcwNjM0MDYxMQ@@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0018524",
+    "l": "Uncle Tom's Cabin",
+    "y": 1927,
+    "q": "feature",
+    "s": "Margarita Fischer, James B. Lowe",
+    "img": "https://m.media-amazon.com/images/M/MV5BMWQzODdjNzctNzBiMi00ODU2LWIwYTUtMTliYjIzMTUzMTBkXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0059545",
+    "l": "Uncle Tom's Cabin",
+    "y": 1965,
+    "q": "feature",
+    "s": "John Kitzmiller, Herbert Lom",
+    "img": "https://m.media-amazon.com/images/M/MV5BYTBkMjhhMWEtODhjZC00NTFlLWJmYjctYTM4OGJmZTYxZGU1XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0260472",
+    "l": "Uncle Tom's Cabin",
+    "y": 1977,
+    "q": "feature",
+    "s": "John Kitzmiller, Herbert Lom",
+    "img": "https://m.media-amazon.com/images/M/MV5BZTJmYTdjYTQtYjhjNS00ODQ4LWFkZDAtNWM2YWZjNzMxY2VhXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0201287",
+    "l": "Uncle Tom's Cabin",
+    "y": 1913,
+    "q": "short",
+    "s": "Margarita Fischer, Gertrude Short",
+    "img": "https://m.media-amazon.com/images/M/MV5BMzNiNWY2NTItN2FjNC00MjI1LThlMDUtZmFiNzk1OGM5MGZjXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|Mission London 2010",
+  "q": "Mission London 2010",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt1127702",
+    "l": "Mission London",
+    "y": 2010,
+    "q": "feature",
+    "s": "Alan Ford, Ralph Brown",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTQ3MjIzMDU1M15BMl5BanBnXkFtZTcwNTQ3Mjk0Mw@@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0358349",
+    "l": "Agent Cody Banks 2: Destination London",
+    "y": 2004,
+    "q": "feature",
+    "s": "Frankie Muniz, Anthony Anderson",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjE4NDg4MDgxNF5BMl5BanBnXkFtZTcwMTc3NTQyMQ@@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt11918810",
+    "l": "Mission London",
+    "q": "feature",
+    "s": "Damini Dave, Khushi Shah",
+    "img": "https://m.media-amazon.com/images/M/MV5BODExZDEwMDItMWFjMS00MGQ5LWJiZjAtZDQzYjQ2ODU4MzU4XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt8255996",
+    "l": "Finding Claire",
+    "y": 2019,
+    "q": "short",
+    "s": "Cathy Sole, Andrew Jarvis",
+    "img": "https://m.media-amazon.com/images/M/MV5BNDI2MjZmNzEtNTIwMS00ZDVjLThjM2MtYWI3NTUxYWE1MGE2XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|Godless 2016 Bulgaria",
+  "q": "Godless 2016 Bulgaria",
+  "status": 200,
+  "hits": []
+ },
+ {
+  "key": "sofia|The Petrov File 2015",
+  "q": "The Petrov File 2015",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt4676372",
+    "l": "The Petrov File",
+    "y": 2015,
+    "q": "feature",
+    "s": "Mihail Bilalov, Deyan Donkov",
+    "img": "https://m.media-amazon.com/images/M/MV5BYzdkMGZmODAtZDljMy00MTI5LWFmYmYtYjc3NWZkYTEwYjFiXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt4040042",
+    "l": "The Boss's Daughter",
+    "y": 2015,
+    "q": "feature",
+    "s": "Olivier Loustau, Christa Théret",
+    "img": "https://m.media-amazon.com/images/M/MV5BZjQ2Y2Y5ZTUtYTZjNi00NDg2LThiMjktZTg3ZWNkZTlmODFlXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt42829090",
+    "l": "Following the dream with Alexander Petrov (pilot film)",
+    "y": 2015,
+    "q": "TV mini-series",
+    "s": "Aleksandr Petrov, Angelina Grasevich",
+    "img": "https://m.media-amazon.com/images/M/MV5BYWIxMzEyOTctYTVkYS00Zjc1LWE5YTMtYzU0Zjk1YTdkNTA5XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "sofia|Shelter 2010 Bulgaria",
+  "q": "Shelter 2010 Bulgaria",
+  "status": 200,
+  "hits": []
+ },
+ {
+  "key": "sofia|Viktoria 2014 Bulgaria",
+  "q": "Viktoria 2014 Bulgaria",
+  "status": 200,
+  "hits": []
  }
 ]
