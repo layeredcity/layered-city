@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Granada",
- "started": "2026-11-28T06:34:46.496Z",
+ "started": "2026-11-28T06:37:53.557Z",
  "created": [
   "movie: Blood Wedding",
   "movie: La luz prodigiosa",
@@ -14,5 +14,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T06:34:47.735Z"
+ "finished": "2026-11-28T06:37:57.850Z"
 }
