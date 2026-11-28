@@ -1,0 +1,20 @@
+{
+ "mode": "dry-run",
+ "city": "Tallinn",
+ "started": "2026-11-28T16:41:08.536Z",
+ "created": [
+  "podcast: The deportations of 1949",
+  "video: The flag that fell from the sky"
+ ],
+ "skipped": [
+  "city: Tallinn already exists"
+ ],
+ "channels": [
+  "podcast: Witness History: Witness Archive 2017",
+  "video: Flags For Good"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:41:10.048Z"
+}
