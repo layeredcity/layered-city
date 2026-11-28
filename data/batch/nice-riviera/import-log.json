@@ -1,0 +1,54 @@
+{
+ "mode": "dry-run",
+ "city": "Nice",
+ "started": "2026-11-28T01:46:33.112Z",
+ "created": [
+  "podcast: The festival that opened in 1946",
+  "podcast: The hotel at the tip of Cap d’Antibes",
+  "podcast: Picasso and de Staël in Antibes",
+  "podcast: How Grace Kelly became a princess",
+  "podcast: Racing through the streets of Monaco",
+  "video: Cannes before the red carpet",
+  "video: Cannes in 1959",
+  "video: Picasso painting on glass",
+  "video: The American couple at the center of the Riviera",
+  "video: Sidney Bechet’s wedding in Antibes",
+  "video: Sister Rosetta Tharpe at Juan-les-Pins",
+  "video: Nietzsche’s daily walk at Èze",
+  "video: The royal wedding of 1956",
+  "video: A palace for the sea",
+  "video: Katherine Mansfield in Menton",
+  "movie: The Red Shoes",
+  "movie: The Mystery of Picasso",
+  "movie: GoldenEye",
+  "movie: Grand Prix",
+  "movie: Dirty Rotten Scoundrels",
+  "movie: E.1027: Eileen Gray and the House by the Sea",
+  "book: Thus Spoke Zarathustra",
+  "book: The Garden Party and Other Stories",
+  "book: Everybody Was So Young",
+  "book: Life with Picasso",
+  "book: The Secret Lives of Somerset Maugham",
+  "music: Petite Fleur"
+ ],
+ "skipped": [
+  "city: Nice already exists"
+ ],
+ "channels": [
+  "podcast: Hotels with History",
+  "podcast: A Writer In Italy - travel, books, art and life",
+  "podcast: The Forever Curious Podcast",
+  "video: Eyeworks Film",
+  "video: erwigfilms",
+  "video: blues.in.colour",
+  "video: Johnathan Bi",
+  "video: Free Documentary - Engineering",
+  "video: Rogério Bettoni"
+ ],
+ "drafts": [],
+ "warnings": [
+  "book \"Life with Picasso\": no ISBN found"
+ ],
+ "errors": [],
+ "finished": "2026-11-28T01:46:35.564Z"
+}
