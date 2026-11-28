@@ -1,0 +1,21 @@
+{
+ "mode": "dry-run",
+ "city": "Sarajevo",
+ "started": "2026-11-28T16:44:15.231Z",
+ "created": [
+  "podcast: Ottoman Sarajevo",
+  "video: The Markale massacres",
+  "movie: Walter Defends Sarajevo"
+ ],
+ "skipped": [
+  "city: Sarajevo already exists"
+ ],
+ "channels": [
+  "podcast: Art Informant",
+  "video: VideoNews"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:44:16.485Z"
+}
