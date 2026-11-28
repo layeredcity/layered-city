@@ -1,0 +1,16 @@
+{
+ "mode": "dry-run",
+ "city": "Bruges",
+ "started": "2026-11-28T17:39:30.603Z",
+ "created": [
+  "video: The Saint John Altarpiece by Hans Memling"
+ ],
+ "skipped": [
+  "city: Bruges already exists"
+ ],
+ "channels": [],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T17:39:32.263Z"
+}
