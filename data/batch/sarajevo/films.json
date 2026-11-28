@@ -1,0 +1,47 @@
+[
+ {
+  "type": "movie",
+  "city": "Sarajevo",
+  "title": "Miss Sarajevo",
+  "creator": "Bill Carter",
+  "year": 1995,
+  "genre": "documentary",
+  "place": "Sarajevo Youth Theatre",
+  "lat": 43.858,
+  "lon": 18.4208,
+  "minutes": 30,
+  "imdb": "tt0416985",
+  "justwatch": "https://justwatch.com/us/search?q=Miss%20Sarajevo",
+  "description": "A short documentary by Bill Carter, an American aid worker, on daily life during the siege, including a beauty contest held in 1993 whose contestants held up a banner: “Don’t let them kill us.” It inspired the U2 song."
+ },
+ {
+  "type": "movie",
+  "city": "Sarajevo",
+  "title": "Welcome to Sarajevo",
+  "creator": "Michael Winterbottom",
+  "year": 1997,
+  "genre": "war drama",
+  "place": "Hotel Holiday (former Holiday Inn)",
+  "lat": 43.8564,
+  "lon": 18.4036,
+  "minutes": 103,
+  "imdb": "tt0120490",
+  "justwatch": "https://justwatch.com/us/search?q=Welcome%20to%20Sarajevo",
+  "description": "Based on the true story of a British television reporter who smuggled a girl out of an orphanage during the siege. The journalists in the film live and work in the Holiday Inn, as the real ones did."
+ },
+ {
+  "type": "movie",
+  "city": "Sarajevo",
+  "title": "In the Land of Blood and Honey",
+  "creator": "Angelina Jolie",
+  "year": 2011,
+  "genre": "war drama",
+  "place": "Bridge of Suada and Olga",
+  "lat": 43.8533,
+  "lon": 18.4066,
+  "minutes": 127,
+  "imdb": "tt1714209",
+  "justwatch": "https://justwatch.com/us/search?q=In%20the%20Land%20of%20Blood%20and%20Honey",
+  "description": "Angelina Jolie’s first film as a director, about a Bosniak woman and a Bosnian Serb officer whose relationship is caught up in the war. It was shot in English and in Bosnian, with local actors."
+ }
+]

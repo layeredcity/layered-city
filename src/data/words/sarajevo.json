@@ -1,0 +1,303 @@
+{
+ "city": "Sarajevo",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Merak",
+   "phonetic": "MEH-rahk",
+   "context": "Deep pleasure in small things: a long coffee, a song, a good evening with friends. Sarajevans treat it as a way of life.",
+   "deepCutOrder": 1,
+   "id": "sarajevo-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Sevdah",
+   "phonetic": "SEV-dah",
+   "context": "A sweet, aching longing, usually for a love you can’t have. Also the name of the songs that express it.",
+   "deepCutOrder": 2,
+   "id": "sarajevo-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Raja",
+   "phonetic": "RAH-yah",
+   "context": "Your crowd: the friends and neighbors you grew up with. A very Sarajevo word.",
+   "deepCutOrder": 3,
+   "id": "sarajevo-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Čaršija",
+   "phonetic": "CHAR-shee-yah",
+   "context": "The old bazaar, Baščaršija. Also what the town is saying: “the čaršija says…” means everyone knows.",
+   "deepCutOrder": 4,
+   "id": "sarajevo-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Inat",
+   "phonetic": "EE-naht",
+   "context": "Spite, or stubborn defiance. Sarajevans often say inat helped them get through the siege.",
+   "deepCutOrder": 5,
+   "id": "sarajevo-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Ćejf",
+   "phonetic": "chayf",
+   "context": "Doing exactly what you feel like, at your own pace. “Na ćejf” means as you please.",
+   "deepCutOrder": 6,
+   "id": "sarajevo-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Dobro jutro",
+   "phonetic": "DOH-broh YOO-troh",
+   "meaning": "good morning",
+   "id": "sarajevo-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Dobar dan",
+   "phonetic": "DOH-bar dahn",
+   "meaning": "good afternoon",
+   "context": "Used for most of the day.",
+   "id": "sarajevo-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Dobro veče",
+   "phonetic": "DOH-broh VEH-cheh",
+   "meaning": "good evening",
+   "id": "sarajevo-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Zdravo",
+   "phonetic": "ZDRAH-voh",
+   "meaning": "hello (casual)",
+   "context": "“Merhaba” and “selam” are common too.",
+   "id": "sarajevo-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Doviđenja",
+   "phonetic": "doh-vee-JEN-yah",
+   "meaning": "leaving a shop or café",
+   "context": "Casually, “ćao.”",
+   "id": "sarajevo-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Molim",
+   "phonetic": "MOH-leem",
+   "meaning": "please",
+   "context": "Also means “you’re welcome” and “pardon?”",
+   "id": "sarajevo-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Hvala",
+   "phonetic": "HVAH-lah",
+   "meaning": "thank you",
+   "context": "“Hvala lijepo” (lee-YEH-poh) is “thanks very much.”",
+   "id": "sarajevo-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Da",
+   "phonetic": "dah",
+   "meaning": "yes",
+   "id": "sarajevo-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Ne",
+   "phonetic": "neh",
+   "meaning": "no",
+   "id": "sarajevo-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Govorite li engleski?",
+   "phonetic": "GOH-voh-ree-teh lee EN-gles-kee",
+   "meaning": "do you speak English?",
+   "context": "Most young people do.",
+   "id": "sarajevo-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Izvinite",
+   "phonetic": "eez-VEE-nee-teh",
+   "meaning": "sorry",
+   "id": "sarajevo-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Izvinite",
+   "phonetic": "eez-VEE-nee-teh",
+   "meaning": "excuse me (getting attention)",
+   "context": "The same word works for sorry.",
+   "id": "sarajevo-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Samo malo",
+   "phonetic": "SAH-moh MAH-loh",
+   "meaning": "excuse me (squeezing past)",
+   "context": "Literally “just a little.”",
+   "id": "sarajevo-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Jedan",
+   "phonetic": "YEH-dahn",
+   "meaning": "one",
+   "id": "sarajevo-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Dva",
+   "phonetic": "dvah",
+   "meaning": "two",
+   "id": "sarajevo-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Tri",
+   "phonetic": "tree",
+   "meaning": "three",
+   "id": "sarajevo-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Četiri",
+   "phonetic": "CHEH-tee-ree",
+   "meaning": "four",
+   "id": "sarajevo-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Pet",
+   "phonetic": "pet",
+   "meaning": "five",
+   "context": "Ćevapi come in fives and tens: “pet” or “deset” (DEH-set).",
+   "id": "sarajevo-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "Jelovnik, molim",
+   "phonetic": "YEH-lov-neek MOH-leem",
+   "meaning": "the menu, please",
+   "id": "sarajevo-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Prijatno",
+   "phonetic": "PREE-yaht-noh",
+   "meaning": "enjoy your meal",
+   "id": "sarajevo-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Živjeli",
+   "phonetic": "ZHEE-vyeh-lee",
+   "meaning": "cheers",
+   "id": "sarajevo-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Baš je fino!",
+   "phonetic": "bahsh yeh FEE-noh",
+   "meaning": "delicious!",
+   "id": "sarajevo-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Račun, molim",
+   "phonetic": "RAH-choon MOH-leem",
+   "meaning": "the check, please",
+   "id": "sarajevo-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "KM",
+   "phonetic": "kah-EM",
+   "meaning": "convertible marks",
+   "context": "Prices are in marks, pegged to the euro at about two to one. Many places take euros, but change comes in marks.",
+   "id": "sarajevo-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Gdje je…?",
+   "phonetic": "gdyeh yeh",
+   "meaning": "where is…?",
+   "id": "sarajevo-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Karta",
+   "phonetic": "KAR-tah",
+   "meaning": "ticket",
+   "context": "Buy tram tickets from kiosks, or from the driver for a little more.",
+   "id": "sarajevo-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "WC",
+   "phonetic": "veh-TSEH",
+   "meaning": "bathroom",
+   "id": "sarajevo-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Muški",
+   "phonetic": "MOOSH-kee",
+   "meaning": "men",
+   "id": "sarajevo-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Ženski",
+   "phonetic": "ZHEN-skee",
+   "meaning": "women",
+   "id": "sarajevo-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "BAHN-koh-maht",
+   "meaning": "ATM",
+   "id": "sarajevo-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Koliko košta?",
+   "phonetic": "KOH-lee-koh KOSH-tah",
+   "meaning": "how much?",
+   "id": "sarajevo-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Kartica",
+   "phonetic": "KAR-tee-tsah",
+   "meaning": "credit card",
+   "context": "Many small shops and ćevapi places are cash only.",
+   "id": "sarajevo-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Gotovina",
+   "phonetic": "goh-toh-VEE-nah",
+   "meaning": "cash",
+   "id": "sarajevo-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Kesa?",
+   "phonetic": "KEH-sah",
+   "meaning": "bag?",
+   "id": "sarajevo-bag"
+  }
+ ]
+}
