@@ -38,6 +38,19 @@ for (const v of TOURS_ONLY ? [] : all('videos')) {
   await sleep(400)
 }
 
+// Retry channel avatars that failed on an earlier run.
+for (const [name, ch] of Object.entries(out.channels)) {
+  if (TOURS_ONLY || ch.avatar || !ch.url) continue
+  try { const h = await get(ch.url).then(x => x.text()); ch.avatar = h.match(/property="og:image" content="([^"]+)"/)?.[1] || null } catch {}
+  await sleep(400)
+}
+for (const v of TOURS_ONLY ? [] : all('videos')) {
+  const r = out.videos[v.youtube]
+  if (r?.channelUrl && !out.channels[r.channel]) {
+    try { const h = await get(r.channelUrl).then(x => x.text()); out.channels[r.channel] = { url: r.channelUrl, avatar: h.match(/property="og:image" content="([^"]+)"/)?.[1] || null } } catch {}
+  }
+}
+
 for (const p of TOURS_ONLY ? [] : all('podcasts')) {
   const key = `${p.show}|${p.episode}`
   if (out.podcasts[key]) continue
