@@ -1,0 +1,21 @@
+{
+ "mode": "dry-run",
+ "city": "Valletta",
+ "started": "2026-11-28T16:41:50.423Z",
+ "created": [
+  "podcast: Napoleon’s Malta",
+  "video: Independence",
+  "music: L-Innu Malti",
+  "music: Cendrillon: Overture"
+ ],
+ "skipped": [
+  "city: Valletta already exists"
+ ],
+ "channels": [
+  "podcast: The Napoleonic Quarterly"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:41:51.594Z"
+}
