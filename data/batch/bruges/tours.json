@@ -6,7 +6,14 @@
   "place": "Belfry of Bruges",
   "lat": 51.2081,
   "lon": 3.2248,
-  "description": "An introduction to Bruges, starting on the Markt below the belfry and following the old merchants’ routes past the Burg and the canals, ending at the Minnewater lake by the old city walls."
+  "description": "An introduction to Bruges, starting on the Markt below the belfry and following the old merchants’ routes past the Burg and the canals, ending at the Minnewater lake by the old city walls.",
+  "creator": "Brugge Tours",
+  "minutes": 90,
+  "distanceKm": 3,
+  "priceUsd": 9.99,
+  "rating": 4.8,
+  "numberOfRatings": 23,
+  "image": "https://media.voicemap.me/public/routes/images/000/015/010/original/798011_1764055852.jpg"
  },
  {
   "city": "Bruges",
@@ -15,7 +22,14 @@
   "place": "Statue of Jan Breydel and Pieter de Coninck, Markt",
   "lat": 51.2089,
   "lon": 3.2243,
-  "description": "A walk from the Markt past the main sights and into the alleys, courtyards, and hidden gardens around them, with the city’s legends along the way. It ends back near the start, on the Burg."
+  "description": "A walk from the Markt past the main sights and into the alleys, courtyards, and hidden gardens around them, with the city’s legends along the way. It ends back near the start, on the Burg.",
+  "creator": "Nicolas Vanlanduyt",
+  "minutes": 120,
+  "distanceKm": 3,
+  "priceUsd": 19.99,
+  "rating": 4.9,
+  "numberOfRatings": 553,
+  "image": "https://media.voicemap.me/public/routes/images/000/003/857/original/magic-of-bruges.jpg"
  },
  {
   "city": "Bruges",
@@ -24,6 +38,13 @@
   "place": "Statue of Jan Breydel and Pieter de Coninck, Markt",
   "lat": 51.2089,
   "lon": 3.2243,
-  "description": "A walk away from the crowds, from the Markt past the old merchants’ exchange and into the quiet St. Anna quarter, ending at a windmill on the old ramparts."
+  "description": "A walk away from the crowds, from the Markt past the old merchants’ exchange and into the quiet St. Anna quarter, ending at a windmill on the old ramparts.",
+  "creator": "Nicolas Vanlanduyt",
+  "minutes": 90,
+  "distanceKm": 3,
+  "priceUsd": 14.99,
+  "rating": 4.9,
+  "numberOfRatings": 225,
+  "image": "https://media.voicemap.me/public/routes/images/000/006/829/original/goudenhandrei31920x622.jpg"
  }
 ]
