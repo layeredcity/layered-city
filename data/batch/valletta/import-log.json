@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Valletta",
- "started": "2026-11-28T04:21:01.430Z",
+ "started": "2026-11-28T04:24:58.038Z",
  "created": [
   "city: Valletta (map zoom delta 1, map height 800)",
   "podcast: The siege of 1565",
@@ -69,5 +69,5 @@
   "book \"A Death in Malta\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T04:21:05.057Z"
+ "finished": "2026-11-28T04:26:10.904Z"
 }
