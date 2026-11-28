@@ -1,10 +1,34 @@
 [
  {
   "city": "Salzburg",
-  "url": "https://voicemap.me/tour/salzburg/a-taste-of-salzburg-cultural-highlights-from-the-mirabell-gardens-to-mozart-s-birthplace"
+  "title": "Salzburg Walking Tour: Mozart’s Birthplace and Mirabell Gardens",
+  "creator": "Conor Mac",
+  "minutes": 75,
+  "distanceKm": 3,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 223,
+  "url": "https://voicemap.me/tour/salzburg/a-taste-of-salzburg-cultural-highlights-from-the-mirabell-gardens-to-mozart-s-birthplace",
+  "place": "Mirabell Gardens",
+  "lat": 47.8046,
+  "lon": 13.0423,
+  "image": "https://media.voicemap.me/public/routes/images/000/003/811/original/salzburg-mirabell-gardens.jpg",
+  "description": "A walk from the Mirabell Gardens across the Salzach river into the old town, past the cathedral and the squares, ending at Mozart’s birthplace on Getreidegasse."
  },
  {
   "city": "Salzburg",
-  "url": "https://voicemap.me/tour/salzburg/salzburg-is-alive-with-the-sound-of-trudy-s-music"
+  "title": "Salzburg Is Alive with the Sound of Trudy’s Music",
+  "creator": "Alex",
+  "minutes": 90,
+  "distanceKm": 3,
+  "priceUsd": 11.99,
+  "rating": 4.9,
+  "numberOfRatings": 206,
+  "url": "https://voicemap.me/tour/salzburg/salzburg-is-alive-with-the-sound-of-trudy-s-music",
+  "place": "Residenzplatz",
+  "lat": 47.7983,
+  "lon": 13.0459,
+  "image": "https://media.voicemap.me/public/routes/images/000/003/592/original/Voicemap.jpg",
+  "description": "A walk through the old town’s Sound of Music locations, from the fountain on Residenzplatz that Maria splashes in to Nonnberg Abbey, with the real von Trapp story along the way."
  }
 ]
