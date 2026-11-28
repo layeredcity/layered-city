@@ -6,7 +6,14 @@
   "place": "Triton Fountain",
   "lat": 35.8949,
   "lon": 14.5085,
-  "description": "Historian Dan Snow narrates a walk through Valletta from the Triton Fountain, telling the story of the 1565 siege and how the knights built a new fortress city on the peninsula afterward."
+  "description": "Historian Dan Snow narrates a walk through Valletta from the Triton Fountain, telling the story of the 1565 siege and how the knights built a new fortress city on the peninsula afterward.",
+  "creator": "History Hit",
+  "minutes": 60,
+  "distanceKm": 2,
+  "priceUsd": 9.99,
+  "rating": 5,
+  "numberOfRatings": 1,
+  "image": "https://media.voicemap.me/public/routes/images/000/017/227/original/TheGreatSiegeOfMalta-I_VoiceMap_1920x622_1793012433.jpg"
  },
  {
   "city": "Valletta",
@@ -15,7 +22,14 @@
   "place": "Triton Fountain",
   "lat": 35.8949,
   "lon": 14.5085,
-  "description": "A licensed Maltese guide leads a walk from the city gate down Republic Street, past the Parliament, the Co-Cathedral, and the Grandmaster’s Palace, ending at the lift down to the harbor."
+  "description": "A licensed Maltese guide leads a walk from the city gate down Republic Street, past the Parliament, the Co-Cathedral, and the Grandmaster’s Palace, ending at the lift down to the harbor.",
+  "creator": "Denis Galea",
+  "minutes": 90,
+  "distanceKm": 3,
+  "priceUsd": 11.99,
+  "rating": 4.7,
+  "numberOfRatings": 59,
+  "image": "https://media.voicemap.me/public/routes/images/000/013/819/original/valletta-tour-cover_1755861905.jpg"
  },
  {
   "city": "Valletta",
@@ -24,6 +38,13 @@
   "place": "Pinto Wharf, Valletta Waterfront",
   "lat": 35.8922,
   "lon": 14.5097,
-  "description": "A walk up from the cruise terminal on the Grand Harbour into the city, through the gardens and bastions to the Grandmaster’s Palace, now the office of the president."
+  "description": "A walk up from the cruise terminal on the Grand Harbour into the city, through the gardens and bastions to the Grandmaster’s Palace, now the office of the president.",
+  "creator": "IsolaGuide Tours",
+  "minutes": 75,
+  "distanceKm": 2,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 9,
+  "image": "https://media.voicemap.me/public/routes/images/000/015/693/original/Grand-Masters_Palace_Gallarija_Valletta_Malta_isolaguide___1784297696.png"
  }
 ]
