@@ -1,14 +1,51 @@
 [
  {
   "city": "Tallinn",
-  "url": "https://voicemap.me/tour/tallinn/the-city-that-sang-itself-free-a-tallinn-walking-tour"
+  "title": "The City That Sang Itself Free: A Tallinn Walking Tour",
+  "creator": "Lola Tinney",
+  "minutes": 75,
+  "distanceKm": 3,
+  "priceUsd": 14.99,
+  "rating": 4.9,
+  "numberOfRatings": 9,
+  "url": "https://voicemap.me/tour/tallinn/the-city-that-sang-itself-free-a-tallinn-walking-tour",
+  "place": "Viru Gate",
+  "lat": 59.4366,
+  "lon": 24.75,
+  "description": "A walk from Viru Gate through the old town and up to Toompea, ending at Freedom Square, with the story of how Estonians sang their way out of the Soviet Union.",
+  "image": "https://media.voicemap.me/public/routes/images/000/015/249/original/tallin-old-town_1779461019.jpg"
  },
  {
   "city": "Tallinn",
-  "url": "https://voicemap.me/tour/tallinn/tallinn-old-town-tour-from-medieval-legends-to-e-estonia"
+  "title": "Tallinn Old Town Audio Tour: From Medieval Tales to Tech Hub",
+  "creator": "Roddy McDougall",
+  "minutes": 90,
+  "distanceKm": 3,
+  "priceUsd": 9.99,
+  "rating": 4.9,
+  "numberOfRatings": 56,
+  "url": "https://voicemap.me/tour/tallinn/tallinn-old-town-tour-from-medieval-legends-to-e-estonia",
+  "place": "Fat Margaret tower",
+  "lat": 59.4423,
+  "lon": 24.75,
+  "description": "A walk from the Fat Margaret tower through the old town’s legends to a viewpoint near Freedom Square, where a plaque marks the start of the 1989 Baltic Way, with stops on how Estonia went digital.",
+  "image": "https://media.voicemap.me/public/routes/images/000/015/168/original/cropped_-_IMG_9404b_1773949140_1774509257.jpg"
  },
  {
   "city": "Tallinn",
-  "url": "https://voicemap.me/tour/tallinn/towers-legends-communism-a-complete-tallinn-old-town-walking-tour"
+  "title": "Towers, Legends, and Communism: A Tallinn Self-Guided Audio Tour",
+  "creator": "Anonymous Explorer",
+  "minutes": 150,
+  "distanceKm": 4,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 20,
+  "draft": true,
+  "url": "https://voicemap.me/tour/tallinn/towers-legends-communism-a-complete-tallinn-old-town-walking-tour",
+  "place": "Fat Margaret tower",
+  "lat": 59.4423,
+  "lon": 24.75,
+  "description": "A long walk from Fat Margaret up St. Olaf’s tower, past the Alexander Nevsky Cathedral on Toompea, and through the city’s KGB stories, ending at the Kohtuotsa viewpoint.",
+  "image": "https://media.voicemap.me/public/routes/images/000/015/779/original/tallinn_viewpoint_1771134362.jpg"
  }
 ]
