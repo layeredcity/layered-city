@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Tallinn",
- "started": "2026-11-28T16:41:08.536Z",
+ "started": "2026-11-28T16:53:38.369Z",
  "created": [
   "podcast: The deportations of 1949",
   "video: The flag that fell from the sky"
@@ -16,5 +16,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T16:41:10.048Z"
+ "finished": "2026-11-28T16:53:47.394Z"
 }
