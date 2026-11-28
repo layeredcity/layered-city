@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Tallinn",
- "started": "2026-11-28T01:15:38.696Z",
+ "started": "2026-11-28T01:57:10.551Z",
  "created": [
   "city: Tallinn (map zoom delta 1, map height 800)",
   "podcast: Tallinn in the Hanseatic League",
@@ -72,5 +72,5 @@
   "book \"Pobeda 1946: A Car Called Victory\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T01:15:40.423Z"
+ "finished": "2026-11-28T01:58:36.286Z"
 }
