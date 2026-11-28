@@ -1,0 +1,301 @@
+{
+ "city": "Valletta",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Mela",
+   "phonetic": "MEH-lah",
+   "context": "“So,” “well,” “of course.” Heard at the start of half the sentences in Malta. Answer a question with “mela!” and you sound local.",
+   "deepCutOrder": 1,
+   "id": "valletta-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Festa",
+   "phonetic": "FES-tah",
+   "context": "The summer feast of a village’s patron saint: brass bands, processions, street decorations, and huge fireworks. There is one almost every weekend from June to September.",
+   "deepCutOrder": 2,
+   "id": "valletta-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Luzzu",
+   "phonetic": "LOOT-tsoo",
+   "context": "The brightly painted wooden fishing boat with an eye on its bow, said to protect against bad luck. Marsaxlokk harbor is full of them.",
+   "deepCutOrder": 3,
+   "id": "valletta-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Pastizzerija",
+   "phonetic": "pah-stit-tseh-REE-yah",
+   "context": "A shop selling pastizzi and other hot pastries, often open very early or very late. Where everyone goes after a night out.",
+   "deepCutOrder": 4,
+   "id": "valletta-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Kinnie",
+   "phonetic": "KIN-nee",
+   "context": "The bitter orange soda Malta drinks instead of cola. People abroad have it shipped.",
+   "deepCutOrder": 5,
+   "id": "valletta-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Għana",
+   "phonetic": "AH-nah",
+   "context": "Maltese folk singing: two singers improvising witty, often insulting verses at each other over guitar. Heard in village bars.",
+   "deepCutOrder": 6,
+   "id": "valletta-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Bonġu",
+   "phonetic": "BON-joo",
+   "meaning": "good morning / hello",
+   "id": "valletta-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Bonġu",
+   "phonetic": "BON-joo",
+   "meaning": "good afternoon",
+   "context": "Still “bonġu.” Maltese has no common separate afternoon greeting.",
+   "id": "valletta-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Bonswa",
+   "phonetic": "bon-SWAH",
+   "meaning": "good evening",
+   "id": "valletta-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Ħello",
+   "phonetic": "HEL-loh",
+   "meaning": "hello (casual)",
+   "context": "Borrowed from English, and used everywhere.",
+   "id": "valletta-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Ċaw",
+   "phonetic": "chow",
+   "meaning": "leaving a shop or café",
+   "context": "From the Italian “ciao.” “Saħħa” (SAH-hah) is also a goodbye.",
+   "id": "valletta-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Jekk jogħġbok",
+   "phonetic": "yek YOHJ-bok",
+   "meaning": "please",
+   "id": "valletta-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Grazzi",
+   "phonetic": "GRAHT-tsee",
+   "meaning": "thank you",
+   "context": "“Grazzi ħafna” (HAHF-nah) is “thanks a lot.”",
+   "id": "valletta-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Iva",
+   "phonetic": "EE-vah",
+   "meaning": "yes",
+   "id": "valletta-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Le",
+   "phonetic": "leh",
+   "meaning": "no",
+   "id": "valletta-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Titkellem bl-Ingliż?",
+   "phonetic": "tit-KEL-lem bil-in-GLEEZ",
+   "meaning": "do you speak English?",
+   "context": "Rarely needed: English is an official language.",
+   "id": "valletta-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Skużani",
+   "phonetic": "skoo-ZAH-nee",
+   "meaning": "sorry",
+   "id": "valletta-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Skużi",
+   "phonetic": "SKOO-zee",
+   "meaning": "excuse me (getting attention)",
+   "id": "valletta-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Permess",
+   "phonetic": "per-MESS",
+   "meaning": "excuse me (squeezing past)",
+   "id": "valletta-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Wieħed",
+   "phonetic": "WEE-ehd",
+   "meaning": "one",
+   "id": "valletta-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Tnejn",
+   "phonetic": "tnayn",
+   "meaning": "two",
+   "id": "valletta-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Tlieta",
+   "phonetic": "TLEE-eh-tah",
+   "meaning": "three",
+   "id": "valletta-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Erbgħa",
+   "phonetic": "EHR-bah",
+   "meaning": "four",
+   "id": "valletta-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Ħamsa",
+   "phonetic": "HAHM-sah",
+   "meaning": "five",
+   "id": "valletta-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "Il-menu, jekk jogħġbok",
+   "phonetic": "il-MEH-noo yek YOHJ-bok",
+   "meaning": "the menu, please",
+   "id": "valletta-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "L-ikla t-tajba",
+   "phonetic": "LIK-lah TIGH-bah",
+   "meaning": "enjoy your meal",
+   "id": "valletta-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Saħħa",
+   "phonetic": "SAH-hah",
+   "meaning": "cheers",
+   "context": "Literally “health.” The same word works as a goodbye.",
+   "id": "valletta-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Bnin!",
+   "phonetic": "bneen",
+   "meaning": "delicious!",
+   "id": "valletta-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Il-kont, jekk jogħġbok",
+   "phonetic": "il-KONT yek YOHJ-bok",
+   "meaning": "the check, please",
+   "id": "valletta-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Kontanti biss",
+   "phonetic": "kon-TAHN-tee biss",
+   "meaning": "cash only",
+   "context": "Common at pastizzerias, kiosks, and village bars, even though cards work almost everywhere else.",
+   "id": "valletta-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Fejn hu…?",
+   "phonetic": "fayn hoo",
+   "meaning": "where is…?",
+   "id": "valletta-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Biljett",
+   "phonetic": "bil-YETT",
+   "meaning": "ticket",
+   "id": "valletta-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Toilet",
+   "phonetic": "TOY-let",
+   "meaning": "bathroom",
+   "id": "valletta-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Irġiel",
+   "phonetic": "ir-JEEL",
+   "meaning": "men",
+   "id": "valletta-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Nisa",
+   "phonetic": "NEE-sah",
+   "meaning": "women",
+   "id": "valletta-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "ATM",
+   "phonetic": "ay-tee-EM",
+   "meaning": "ATM",
+   "context": "Said the English way. Use bank machines, not the private ones with high fees.",
+   "id": "valletta-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Kemm jiswa?",
+   "phonetic": "kemm YIS-wah",
+   "meaning": "how much?",
+   "id": "valletta-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Karta",
+   "phonetic": "KAR-tah",
+   "meaning": "credit card",
+   "id": "valletta-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Flus",
+   "phonetic": "floos",
+   "meaning": "cash",
+   "context": "Literally “money.”",
+   "id": "valletta-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Borża?",
+   "phonetic": "BOR-zah",
+   "meaning": "bag?",
+   "context": "Charged at most shops. Say “le, grazzi” if you brought one.",
+   "id": "valletta-bag"
+  }
+ ]
+}
