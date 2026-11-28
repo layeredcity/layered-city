@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Dubrovnik",
- "started": "2026-11-27T22:17:15.781Z",
+ "started": "2026-11-28T00:32:44.339Z",
  "created": [
   "city: Dubrovnik (map zoom delta 1, map height 800)",
   "podcast: How a small republic outlasted its neighbors",
@@ -75,5 +75,5 @@
   "book \"The Death of Yugoslavia\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-27T22:17:17.519Z"
+ "finished": "2026-11-28T00:34:13.686Z"
 }
