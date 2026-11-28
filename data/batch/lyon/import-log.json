@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Lyon",
- "started": "2026-11-28T15:19:46.101Z",
+ "started": "2026-11-28T15:21:37.123Z",
  "created": [
   "city: Lyon (map zoom delta 1, map height 800)",
   "podcast: Lugdunum and the battle of 197",
@@ -62,5 +62,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T15:19:47.857Z"
+ "finished": "2026-11-28T15:22:57.053Z"
 }
