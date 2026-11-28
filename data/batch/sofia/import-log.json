@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Sofia",
- "started": "2026-11-28T15:33:38.950Z",
+ "started": "2026-11-28T15:35:20.629Z",
  "created": [
   "city: Sofia (map zoom delta 1, map height 800)",
   "podcast: Khan Krum takes Serdica",
@@ -69,5 +69,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T15:33:40.548Z"
+ "finished": "2026-11-28T15:36:34.765Z"
 }
