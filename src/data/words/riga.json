@@ -1,0 +1,300 @@
+{
+ "city": "Riga",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Līgo",
+   "phonetic": "LEE-gwoh",
+   "context": "The refrain sung on midsummer eve, Jāņi, when Latvians gather in the countryside, wear flower wreaths, and stay up all night. The whole country empties out of Riga.",
+   "deepCutOrder": 1,
+   "id": "riga-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Dainas",
+   "phonetic": "DAI-nahs",
+   "context": "Short four-line folk songs. More than a million were collected, mostly by the folklorist Krišjānis Barons, and kept in a wooden cabinet now in the national library.",
+   "deepCutOrder": 2,
+   "id": "riga-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Dziesmu svētki",
+   "phonetic": "DZYES-moo SVEHT-kee",
+   "context": "The Song Festival, held every five years since 1873, when tens of thousands of singers perform together in Mežaparks.",
+   "deepCutOrder": 3,
+   "id": "riga-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Jūgendstils",
+   "phonetic": "YOO-gend-steels",
+   "context": "Art Nouveau, from the German Jugendstil. A third of central Riga is built in it.",
+   "deepCutOrder": 4,
+   "id": "riga-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Sēņot",
+   "phonetic": "SEH-nywot",
+   "context": "To go mushroom picking. In late summer and autumn half of Riga heads to the forest with baskets.",
+   "deepCutOrder": 5,
+   "id": "riga-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Pirts",
+   "phonetic": "pirts",
+   "context": "The Latvian sauna, often in a small wooden cabin, with beating by birch or oak branches and a jump into a lake.",
+   "deepCutOrder": 6,
+   "id": "riga-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Labrīt",
+   "phonetic": "LAHB-reet",
+   "meaning": "good morning",
+   "id": "riga-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Labdien",
+   "phonetic": "LAHB-dyen",
+   "meaning": "good afternoon",
+   "context": "Used for most of the day.",
+   "id": "riga-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Labvakar",
+   "phonetic": "LAHB-vah-kar",
+   "meaning": "good evening",
+   "id": "riga-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Sveiki",
+   "phonetic": "SVAY-kee",
+   "meaning": "hello (casual)",
+   "context": "Also used for goodbye. “Čau” is very common too.",
+   "id": "riga-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Uz redzēšanos",
+   "phonetic": "ooz RED-zeh-shah-nwas",
+   "meaning": "leaving a shop or café",
+   "context": "Often shortened to “ata.”",
+   "id": "riga-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Lūdzu",
+   "phonetic": "LOO-dzoo",
+   "meaning": "please",
+   "context": "Also “you’re welcome” and “here you go.”",
+   "id": "riga-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Paldies",
+   "phonetic": "PAHL-dyes",
+   "meaning": "thank you",
+   "id": "riga-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Jā",
+   "phonetic": "yah",
+   "meaning": "yes",
+   "id": "riga-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Nē",
+   "phonetic": "neh",
+   "meaning": "no",
+   "id": "riga-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Vai jūs runājat angliski?",
+   "phonetic": "vai yoos ROO-nah-yaht AHN-glee-skee",
+   "meaning": "do you speak English?",
+   "id": "riga-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Atvainojiet",
+   "phonetic": "AHT-vai-nwo-yet",
+   "meaning": "sorry",
+   "id": "riga-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Atvainojiet",
+   "phonetic": "AHT-vai-nwo-yet",
+   "meaning": "excuse me (getting attention)",
+   "context": "The same word works for sorry.",
+   "id": "riga-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Atļaujiet",
+   "phonetic": "AHT-lyow-yet",
+   "meaning": "excuse me (squeezing past)",
+   "context": "Literally “allow me.”",
+   "id": "riga-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Viens",
+   "phonetic": "vyens",
+   "meaning": "one",
+   "id": "riga-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Divi",
+   "phonetic": "DEE-vee",
+   "meaning": "two",
+   "id": "riga-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Trīs",
+   "phonetic": "trees",
+   "meaning": "three",
+   "id": "riga-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Četri",
+   "phonetic": "CHET-ree",
+   "meaning": "four",
+   "id": "riga-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Pieci",
+   "phonetic": "PYET-see",
+   "meaning": "five",
+   "id": "riga-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "Ēdienkarti, lūdzu",
+   "phonetic": "EH-dyen-kar-tee LOO-dzoo",
+   "meaning": "the menu, please",
+   "id": "riga-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Labu apetīti",
+   "phonetic": "LAH-boo AH-peh-tee-tee",
+   "meaning": "enjoy your meal",
+   "id": "riga-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Priekā",
+   "phonetic": "PRYEH-kah",
+   "meaning": "cheers",
+   "id": "riga-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Garšīgi!",
+   "phonetic": "GAR-shee-gee",
+   "meaning": "delicious!",
+   "id": "riga-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Rēķinu, lūdzu",
+   "phonetic": "REH-tyee-noo LOO-dzoo",
+   "meaning": "the check, please",
+   "id": "riga-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Depozīts",
+   "phonetic": "DEH-poh-zeets",
+   "meaning": "bottle deposit",
+   "context": "Most drink bottles and cans carry a 10-cent deposit. Return them to the machines at supermarkets.",
+   "id": "riga-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Kur ir…?",
+   "phonetic": "koor eer",
+   "meaning": "where is…?",
+   "id": "riga-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Biļete",
+   "phonetic": "BEE-lyeh-teh",
+   "meaning": "ticket",
+   "id": "riga-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Tualete",
+   "phonetic": "too-ah-LEH-teh",
+   "meaning": "bathroom",
+   "id": "riga-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Vīrieši",
+   "phonetic": "VEE-ryeh-shee",
+   "meaning": "men",
+   "context": "Often marked with a triangle pointing down.",
+   "id": "riga-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Sievietes",
+   "phonetic": "SYEH-vyeh-tes",
+   "meaning": "women",
+   "context": "Often marked with a triangle pointing up.",
+   "id": "riga-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Bankomāts",
+   "phonetic": "BAHN-koh-mahts",
+   "meaning": "ATM",
+   "id": "riga-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Cik maksā?",
+   "phonetic": "tsik MAHK-sah",
+   "meaning": "how much?",
+   "id": "riga-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Karte",
+   "phonetic": "KAR-teh",
+   "meaning": "credit card",
+   "id": "riga-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Skaidra nauda",
+   "phonetic": "SKAI-drah NOW-dah",
+   "meaning": "cash",
+   "id": "riga-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Maisiņu?",
+   "phonetic": "MAI-see-nyoo",
+   "meaning": "bag?",
+   "id": "riga-bag"
+  }
+ ]
+}

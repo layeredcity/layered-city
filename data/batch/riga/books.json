@@ -1,0 +1,47 @@
+[
+ {
+  "type": "book",
+  "city": "Riga",
+  "title": "The Dogs of Riga",
+  "author": "Henning Mankell",
+  "year": 1992,
+  "genre": "crime novel",
+  "place": "Dome Square",
+  "lat": 56.9495,
+  "lon": 24.105,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Henning%20Mankell%20The%20Dogs%20of%20Riga",
+  "bookshop": "https://bookshop.org/search?keywords=Henning%20Mankell%20The%20Dogs%20of%20Riga",
+  "description": "The second Wallander novel. Two bodies wash ashore in Sweden in a life raft, and the Swedish detective follows the case to Riga in the tense winter of 1991, as Latvia breaks from the Soviet Union."
+ },
+ {
+  "type": "book",
+  "city": "Riga",
+  "title": "The Baltic Revolution",
+  "author": "Anatol Lieven",
+  "year": 1993,
+  "genre": "history",
+  "place": "Bastejkalns Park",
+  "lat": 56.952,
+  "lon": 24.1105,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Anatol%20Lieven%20The%20Baltic%20Revolution",
+  "bookshop": "https://bookshop.org/search?keywords=Anatol%20Lieven%20The%20Baltic%20Revolution",
+  "description": "The British journalist Anatol Lieven’s account of how Estonia, Latvia, and Lithuania won independence, written from what he saw as a reporter in the region from 1990 to 1992."
+ },
+ {
+  "type": "book",
+  "city": "Riga",
+  "title": "I Survived Rumbula",
+  "author": "Frida Michelson",
+  "year": 1979,
+  "genre": "memoir",
+  "place": "Rumbula Holocaust memorial",
+  "lat": 56.8855,
+  "lon": 24.2458,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Frida%20Michelson%20I%20Survived%20Rumbula",
+  "bookshop": "https://bookshop.org/search?keywords=Frida%20Michelson%20I%20Survived%20Rumbula",
+  "description": "The testimony of one of the very few survivors of Rumbula, the forest outside Riga where about 25,000 Jews from the Riga ghetto were shot on two days in late 1941. She escaped by pretending to be dead."
+ }
+]
