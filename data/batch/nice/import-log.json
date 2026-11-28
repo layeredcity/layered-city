@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Nice",
- "started": "2026-11-28T00:58:50.255Z",
+ "started": "2026-11-28T01:03:44.358Z",
  "created": [
   "city: Nice (map zoom delta 1, map height 800)",
   "podcast: How a fishing town became the Riviera",
@@ -73,5 +73,5 @@
   "book \"Côte d’Azur: Inventing the French Riviera\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T00:58:52.512Z"
+ "finished": "2026-11-28T01:05:25.941Z"
 }
