@@ -9,9 +9,13 @@
 const COUNTRY_CURRENCY = {
   Austria: 'EUR',
   Belgium: 'EUR',
+  'Bosnia and Herzegovina': 'BAM',
+  Bulgaria: 'EUR', // joined the euro on January 1, 2026
+  Croatia: 'EUR',
   Czechia: 'CZK',
   Denmark: 'DKK',
   England: 'GBP',
+  Estonia: 'EUR',
   Finland: 'EUR',
   France: 'EUR',
   Germany: 'EUR',
@@ -20,18 +24,24 @@ const COUNTRY_CURRENCY = {
   Iceland: 'ISK',
   Ireland: 'EUR',
   Italy: 'EUR',
+  Latvia: 'EUR',
+  Lithuania: 'EUR',
+  Malta: 'EUR',
   Netherlands: 'EUR',
+  'Northern Ireland': 'GBP',
   Norway: 'NOK',
   Poland: 'PLN',
   Portugal: 'EUR',
   Romania: 'RON',
   Scotland: 'GBP',
   Serbia: 'RSD',
+  Slovenia: 'EUR',
   Spain: 'EUR',
   Sweden: 'SEK',
   Switzerland: 'CHF',
   Türkiye: 'TRY',
   Turkey: 'TRY',
+  'United Kingdom': 'GBP',
 }
 
 export function currencyForCountry(country) {
