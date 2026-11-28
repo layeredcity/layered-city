@@ -2441,6 +2441,51 @@
    "seconds": null,
    "uploadDate": null,
    "lang": null
+  },
+  "WBDczv3flEc": {
+   "oembed": 200,
+   "title": "Bordeaux, Port of the Moon (UNESCO/NHK)",
+   "channel": "UNESCO",
+   "channelUrl": "https://www.youtube.com/@UNESCO",
+   "seconds": null,
+   "uploadDate": null,
+   "lang": null
+  },
+  "AjQtlDxNIMk": {
+   "oembed": 200,
+   "title": "Battle of Castillon, 1453 ⚔️ The end of the Hundred Years' War",
+   "channel": "HistoryMarche",
+   "channelUrl": "https://www.youtube.com/@HistoryMarche",
+   "seconds": null,
+   "uploadDate": null,
+   "lang": null
+  },
+  "CLTWzHsDmZk": {
+   "oembed": 200,
+   "title": "Traite des esclaves : le difficile travail de mémoire à Bordeaux",
+   "channel": "FRANCE 24",
+   "channelUrl": "https://www.youtube.com/@FRANCE24",
+   "seconds": null,
+   "uploadDate": null,
+   "lang": null
+  },
+  "jmd_VI1Y7v8": {
+   "oembed": 200,
+   "title": "The Wines of Bordeaux's Right Bank",
+   "channel": "GuildSomm International",
+   "channelUrl": "https://www.youtube.com/@GuildSomm",
+   "seconds": null,
+   "uploadDate": null,
+   "lang": null
+  },
+  "VH1RwkrHPvA": {
+   "oembed": 200,
+   "title": "Canelé de Bordeaux - Crispy Baked French Custard Cakes - How to Make Canelés",
+   "channel": "Food Wishes",
+   "channelUrl": "https://www.youtube.com/@foodwishes",
+   "seconds": null,
+   "uploadDate": null,
+   "lang": null
   }
  },
  "channels": {
@@ -3267,6 +3312,18 @@
   "The Cold War": {
    "url": "https://www.youtube.com/@TheColdWarTV",
    "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_mqf47inWz9i-YSRtNqPL5WF9K-a5ChXd6gV9pt1v4EZQ=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "HistoryMarche": {
+   "url": "https://www.youtube.com/@HistoryMarche",
+   "avatar": "https://yt3.googleusercontent.com/QPyllbkFBL6E7prSUdZemCRYE5m9jlyR8VoNAhKP7839OJBqxwbV_lJ4c-FKwgXCvkvSvE7bfA=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "GuildSomm International": {
+   "url": "https://www.youtube.com/@GuildSomm",
+   "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_nANPjvsOgD_ZW-JD_ryR93n4pIyLoWMqeJN1Ow4OpioaU=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "Food Wishes": {
+   "url": "https://www.youtube.com/@foodwishes",
+   "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_kGZ14S6frarUZ0q3zzhqTSnl3zkYo_qxwQ8Wi-J11MaA=s900-c-k-c0x00ffffff-no-rj"
   }
  },
  "podcasts": {
@@ -4865,6 +4922,78 @@
    "seconds": 3240,
    "date": "2019-09-19",
    "collectionId": 73330895
+  },
+  "In Our Time|Eleanor of Aquitaine": {
+   "apple": "https://podcasts.apple.com/us/podcast/eleanor-of-aquitaine/id73330895?i=1000361488269",
+   "title": "Eleanor of Aquitaine",
+   "show": "In Our Time",
+   "seconds": 2689,
+   "date": "2016-01-28",
+   "collectionId": 73330895
+  },
+  "The Rest Is History|Hundred Years' War: The Black Prince (Part 3)": {
+   "apple": "https://podcasts.apple.com/us/podcast/hundred-years-war-the-black-prince-part-3/id1537788786?i=1000606774259",
+   "title": "Hundred Years' War: The Black Prince (Part 3)",
+   "show": "The Rest Is History",
+   "seconds": 3215,
+   "date": "2023-04-10",
+   "collectionId": 1537788786
+  },
+  "The Wine Conversation|10 Minute Masterclass... The 1855 Classification with Jane Anson": {
+   "apple": "https://podcasts.apple.com/us/podcast/10-minute-masterclass-the-1855-classification-with/id1548113412?i=1000599298204",
+   "title": "10 Minute Masterclass... The 1855 Classification with Jane Anson",
+   "show": "The Wine Conversation",
+   "seconds": 651,
+   "date": "2023-02-13",
+   "collectionId": 1548113412
+  },
+  "Wine 101|Bordeaux: Part II The Dutch and the Medoc": {
+   "apple": "https://podcasts.apple.com/us/podcast/bordeaux-part-ii-the-dutch-and-the-medoc/id1513213967?i=1000639200614",
+   "title": "Bordeaux: Part II The Dutch and the Medoc",
+   "show": "Wine 101",
+   "seconds": 1216,
+   "date": "2023-12-20",
+   "collectionId": 1513213967
+  },
+  "In Our Time|Montaigne": {
+   "apple": "https://podcasts.apple.com/us/podcast/montaigne/id73330895?i=1000153253129",
+   "title": "Montaigne",
+   "show": "In Our Time",
+   "seconds": 2523,
+   "date": "2013-04-25",
+   "collectionId": 73330895
+  },
+  "Revolutions|3.29- The Purge of the Girondins": {
+   "apple": "https://podcasts.apple.com/us/podcast/3-29-the-purge-of-the-girondins/id703889772?i=1000337192090",
+   "title": "3.29- The Purge of the Girondins",
+   "show": "Revolutions",
+   "seconds": 1859,
+   "date": "2015-03-08",
+   "collectionId": 703889772
+  },
+  "Stuff You Should Know|Short Stuff: Aristides de Sousa Mendes": {
+   "apple": "https://podcasts.apple.com/us/podcast/short-stuff-aristides-de-sousa-mendes/id278981407?i=1000445201278",
+   "title": "Short Stuff: Aristides de Sousa Mendes",
+   "show": "Stuff You Should Know",
+   "seconds": 748,
+   "date": "2019-07-24",
+   "collectionId": 278981407
+  },
+  "Witness History: Witness Archive 2017|The Trial of Maurice Papon": {
+   "apple": "https://podcasts.apple.com/us/podcast/the-trial-of-maurice-papon/id1346601106?i=1000401765056",
+   "title": "The Trial of Maurice Papon",
+   "show": "Witness History: Witness Archive 2017",
+   "seconds": 545,
+   "date": "2017-05-12",
+   "collectionId": 1346601106
+  },
+  "The Forum|Goya: Seeking truth through art": {
+   "apple": "https://podcasts.apple.com/us/podcast/goya-seeking-truth-through-art/id284278990?i=1000427841687",
+   "title": "Goya: Seeking truth through art",
+   "show": "The Forum",
+   "seconds": 2373,
+   "date": "2019-01-17",
+   "collectionId": 284278990
   }
  },
  "shows": {
@@ -5411,6 +5540,26 @@
   "The Napoleonic Quarterly": {
    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/da/b8/bb/dab8bb04-241d-19b2-c17a-07b344558087/mza_12154840449809209201.jpg/600x600bb.jpg",
    "artist": "Quartermaster Productions"
+  },
+  "The Wine Conversation": {
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/49/33/e1/4933e16d-a309-2b95-ab98-597ed81c188c/mza_10837926657732484339.jpg/600x600bb.jpg",
+   "artist": "The Wine Conversation"
+  },
+  "Wine 101": {
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/c3/2e/c0/c32ec04e-597f-2827-2a04-c2f4c69e9580/mza_855108804974828443.jpeg/600x600bb.jpg",
+   "artist": "VinePair"
+  },
+  "Revolutions": {
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts/v4/fc/90/04/fc9004c7-afd6-4b5e-5033-0fb3dfd6c3a3/mza_7623711418780898276.jpg/600x600bb.jpg",
+   "artist": "Mike Duncan"
+  },
+  "Stuff You Should Know": {
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+   "artist": "iHeartPodcasts"
+  },
+  "The Forum": {
+   "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/48/93/df/4893df39-c47a-4e6d-2e80-c36cd7bdd0cf/mza_12232553640353777588.jpg/600x600bb.jpg",
+   "artist": "BBC World Service"
   }
  },
  "books": {
@@ -6844,6 +6993,91 @@
    "creator": "Heidi Nicklaus",
    "publisherSlug": "heidi-nicklaus",
    "about": "Follow a Roman yellow brick road and dive into this ancient city’s history with this self-guided tour of Sofia, Bulgaria. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
+   "lat": null,
+   "lon": null,
+   "start": ""
+  },
+  "https://voicemap.me/tour/bordeaux/classic-bordeaux-a-walking-tour-through-france-s-most-elegant-city": {
+   "status": 200,
+   "title": "Classic Bordeaux Audio Walking Tour: Place de la Bourse to Tourny",
+   "image": "https://media.voicemap.me/public/routes/images/000/010/214/original/Bordeaux_Walking_Tour.jpg",
+   "rating": 4.8,
+   "ratings": 107,
+   "price": 14.99,
+   "currency": "USD",
+   "minutes": 90,
+   "km": 2,
+   "creator": "Ira Szmuk",
+   "publisherSlug": "ira-szmuk",
+   "about": "Self-guided audio walking tour of Bordeaux: Miroir d&#39;Eau, Place de la Bourse, Grand Théâtre and the Triangle d&#39;Or. No booking; start anytime. ",
+   "lat": null,
+   "lon": null,
+   "start": ""
+  },
+  "https://voicemap.me/tour/bordeaux/the-best-of-bordeaux-a-sightseeing-walk": {
+   "status": 200,
+   "title": "The Best of Bordeaux: A Sightseeing Walk | Bordeaux self-guided audio tour | VoiceMap",
+   "image": "https://media.voicemap.me/public/routes/images/000/003/911/original/banner-3.jpg",
+   "rating": 4.8,
+   "ratings": 100,
+   "price": 9.99,
+   "currency": "USD",
+   "minutes": 45,
+   "km": 2,
+   "creator": "Lily Begg and Miguel Angel Moreno",
+   "publisherSlug": "free-walking-tours-bordeaux",
+   "about": "Find more than wine on this amble through Bordeaux’s city centre with this self-guided tour of Bordeaux, France. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
+   "lat": null,
+   "lon": null,
+   "start": ""
+  },
+  "https://voicemap.me/tour/bordeaux/discover-the-stone-city-of-bordeaux-on-a-walk-from-the-cathedral-to-the-garonne-river": {
+   "status": 200,
+   "title": "Bordeaux: UNESCO City Walk • Cathedral, Golden Age and Garonne River",
+   "image": "https://media.voicemap.me/public/routes/images/000/003/686/original/Discover-Bordeaux.jpg",
+   "rating": 4.3,
+   "ratings": 45,
+   "price": 9.99,
+   "currency": "USD",
+   "minutes": 60,
+   "km": 3,
+   "creator": "Inigo Gonzalez",
+   "publisherSlug": "inigo-gonzalez",
+   "about": "Discover Bordeaux&#39;s UNESCO Port de la Lune on this top-rated self-guided audio tour. Download the app and explore the history at your own pace!",
+   "lat": null,
+   "lon": null,
+   "start": ""
+  },
+  "https://voicemap.me/tour/bordeaux/bordeaux-by-a-local-a-walk-through-the-centuries": {
+   "status": 200,
+   "title": "Bordeaux by a Local: A Walk through the Centuries | Bordeaux self-guided audio tour | VoiceMap",
+   "image": "https://media.voicemap.me/public/routes/images/000/012/086/original/IMG_3557_1763461864.JPG",
+   "rating": 5,
+   "ratings": 7,
+   "price": 9.99,
+   "currency": "USD",
+   "minutes": 40,
+   "km": 3,
+   "creator": "Bordeaux with Marina Cauchie",
+   "publisherSlug": "marina-cauchie",
+   "about": "Trace the city’ through the ages, from a Gallo-Roman port to the wine capital with this self-guided tour of Bordeaux, France. For the best experience, install the VoiceMap audio guide app with automatic GPS playback and offline maps.",
+   "lat": null,
+   "lon": null,
+   "start": ""
+  },
+  "https://voicemap.me/tour/bordeaux/bordeaux-s-wine-quarter-a-chartrons-walking-tour": {
+   "status": 200,
+   "title": "Bordeaux&#39;s Chartrons: Wine Quarter to the Cité du Vin • Audio Tour",
+   "image": "https://media.voicemap.me/public/routes/images/000/015/235/original/IMG_3543_1782211657.JPG",
+   "rating": 4,
+   "ratings": 2,
+   "price": 9.99,
+   "currency": "USD",
+   "minutes": 40,
+   "km": 2,
+   "creator": "Bordeaux with Marina Cauchie",
+   "publisherSlug": "marina-cauchie",
+   "about": "Discover Place des Quinconces and Bordeaux&#39;s mini Statue of Liberty on a 40-minute self-guided walk. Play in the app, on demand, no booking, own pace.",
    "lat": null,
    "lon": null,
    "start": ""
