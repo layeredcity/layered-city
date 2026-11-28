@@ -1,0 +1,22 @@
+{
+ "mode": "dry-run",
+ "city": "Lyon",
+ "started": "2026-11-28T16:47:18.226Z",
+ "created": [
+  "podcast: Rabelais in Lyon",
+  "video: The Jacquard loom",
+  "video: Ampère"
+ ],
+ "skipped": [
+  "city: Lyon already exists"
+ ],
+ "channels": [
+  "podcast: History of Philosophy Without Any Gaps",
+  "video: The Henry Ford",
+  "video: Math Everywhere"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:47:19.836Z"
+}
