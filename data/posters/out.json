@@ -1,498 +1,351 @@
 [
  {
-  "key": "dubrovnik|Game of Thrones",
-  "q": "Game of Thrones",
+  "key": "riviera|The Red Shoes 1948",
+  "q": "The Red Shoes 1948",
   "status": 200,
   "hits": [
    {
-    "id": "tt0944947",
-    "l": "Game of Thrones",
-    "y": 2011,
-    "q": "TV series",
-    "s": "Emilia Clarke, Peter Dinklage",
-    "img": "https://m.media-amazon.com/images/M/MV5BNGYxOGJkMjItZjVkZC00OGEzLWExNjktOTZmNGZhZmRlMTk2XkEyXkFqcGc@._V1_.jpg",
+    "id": "tt0040725",
+    "l": "The Red Shoes",
+    "y": 1948,
+    "q": "feature",
+    "s": "Anton Walbrook, Marius Goring",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjRjMzAxMmMtMTkzNS00ZGIyLTgzM2UtODgyYjI5NGEwZDhjXkEyXkFqcGc@._V1_.jpg",
     "ok": 200
    },
    {
-    "id": "tt31205904",
-    "l": "Aegon's Conquest",
-    "y": 2029,
+    "id": "tt0468683",
+    "l": "The Red Shoes",
+    "y": 2005,
     "q": "feature",
-    "s": "",
+    "s": "Kim Hye-su, Kim Seong-su",
+    "img": "https://m.media-amazon.com/images/M/MV5BOWNmMWY4NzItZTc3Ny00YmFlLTk2YzUtOTQ3MWIzMTMzMWE2XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt4429160",
+    "l": "Red Shoes and the Seven Dwarfs",
+    "y": 2019,
+    "q": "feature",
+    "s": "Chloë Grace Moretz, Sam Claflin",
+    "img": "https://m.media-amazon.com/images/M/MV5BNWYyMGQ0NTQtOTAzYS00OWNmLWExZDItZTdiYzc5ZGJmNGM0XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt2572216",
+    "l": "The Red Shoes",
+    "y": 2000,
+    "q": "video",
+    "s": "Jeff Bergman, Nancy Cartwright",
+    "img": "https://m.media-amazon.com/images/M/MV5BMmVlNzRmM2ItNDY0Yy00MzFhLTlhOGYtYWU5YWFlNGYwMGE1XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt14838460",
+    "l": "The Red Shoes: Next Step",
+    "y": 2023,
+    "q": "feature",
+    "s": "Juliet Doherty, Lauren Esposito",
+    "img": "https://m.media-amazon.com/images/M/MV5BMmQyMzVmYWEtYjJiNS00MzE3LTlhZWItOWQyMDk0ODQzMjE2XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "riviera|Grand Prix 1966",
+  "q": "Grand Prix 1966",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0060472",
+    "l": "Grand Prix",
+    "y": 1966,
+    "q": "feature",
+    "s": "James Garner, Eva Marie Saint",
+    "img": "https://m.media-amazon.com/images/M/MV5BNTA2NzQzYWQtY2FlZi00ODFiLTgyOTctY2RmNjE4YTcwMjg5XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0353512",
+    "l": "Grand Prix: Challenge of the Champions",
+    "y": 1966,
+    "q": "short",
+    "s": "James Garner, Yves Montand",
+    "img": "https://m.media-amazon.com/images/M/MV5BNTE4ODQxYzMtYjcwNS00ZTQzLWEzOWYtOTJkMzAxZTA5NTUxXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0321908",
+    "l": "Dansk melodi grand prix",
+    "y": 1966,
+    "q": "TV special",
+    "s": "Annette Faaborg, Anette Blegvad",
+    "img": "https://m.media-amazon.com/images/M/MV5BYjAyNGZhNmYtMWUyYS00NDE3LWEyODQtNDZkMDY1YzQ3MDVmXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0448037",
+    "l": "Melodi grand prix",
+    "y": 1966,
+    "q": "TV special",
+    "s": "Øivind Bergh, Åse Kleveland",
+    "img": "https://m.media-amazon.com/images/M/MV5BYTI3Y2ZlMDctM2ExYS00Zjc1LWEwNDYtZGQ4MmZlMGQzNmJmXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt42836724",
+    "l": "European Grand Prix 1964",
+    "y": 1964,
+    "q": "short",
+    "s": "Anthony Marsh, Chris Barber",
+    "img": null
+   }
+  ]
+ },
+ {
+  "key": "riviera|The Mystery of Picasso",
+  "q": "The Mystery of Picasso",
+  "status": 200,
+  "hits": [
+   {
+    "id": "nm0000175",
+    "l": "Stephen King",
+    "s": "Writer, Maximum Overdrive (1986)",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjA2ODIxNDM4Nl5BMl5BanBnXkFtZTYwMjkzMzU1._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0049531",
+    "l": "The Mystery of Picasso",
+    "y": 1956,
+    "q": "feature",
+    "s": "Pablo Picasso, Henri-Georges Clouzot",
+    "img": "https://m.media-amazon.com/images/M/MV5BYTc1ZWNjMDYtYjRhNC00MzYxLWI2NTItZGI1ODhlMjY0ZjBlXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "nm0000309",
+    "l": "David Bowie",
+    "s": "Actor, Labyrinth (1986)",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTQ4NTE3MTYzOF5BMl5BanBnXkFtZTcwNDM4OTcyMg@@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "nm0124886",
+    "l": "David V. Butler",
+    "s": "Sound Department, The Odyssey (2026)",
+    "img": "https://m.media-amazon.com/images/M/MV5BZDgyZDM0ZTUtZWU0Yy00MmVjLTgyZWQtMzc5NTlhMDRjYWZmXkEyXkFqcGc@._V1_CR497,0,2015,3023_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "nm0784124",
+    "l": "Maurice Sendak",
+    "s": "Writer, Where the Wild Things Are (2009)",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjM0NDEwMDQ1OF5BMl5BanBnXkFtZTcwMDI5ODM3OA@@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "riviera|Dirty Rotten Scoundrels",
+  "q": "Dirty Rotten Scoundrels",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0095031",
+    "l": "Dirty Rotten Scoundrels",
+    "y": 1988,
+    "q": "feature",
+    "s": "Steve Martin, Michael Caine",
+    "img": "https://m.media-amazon.com/images/M/MV5BNzRmYjM2ZmEtYTczZC00YWJjLWJjZTMtYTFlYjljMTVmMTAwXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt1298644",
+    "l": "The Hustle",
+    "y": 2019,
+    "q": "feature",
+    "s": "Anne Hathaway, Rebel Wilson",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTc3MDcyNzE5N15BMl5BanBnXkFtZTgwNzE2MDE0NzM@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "nm2272174",
+    "l": "Dan Bewick",
+    "s": "Composer, Zombie Women of Satan (2009)",
     "img": null
    },
    {
-    "id": "tt6857128",
-    "l": "Unaired Game of Thrones Prequel Pilot",
-    "q": "TV movie",
-    "s": "Jamie Campbell Bower, Naomi Watts",
-    "img": "https://m.media-amazon.com/images/M/MV5BMmE2MDUwY2MtMTQwMi00OTExLTkxYTMtMjRiNjYwNzdmNTAxXkEyXkFqcGc@._V1_.jpg",
+    "id": "tt30176538",
+    "l": "Dirty Rotten Scoundrels: Featurette",
+    "y": 1988,
+    "q": "video",
+    "s": "Marit Allen, Michael Ballhaus",
+    "img": "https://m.media-amazon.com/images/M/MV5BNmQ1OTY1ZTktNzg1Ny00OGNhLThkZTAtMTJmNmM4ODM5MGU0XkEyXkFqcGc@._V1_.jpg",
     "ok": 200
    },
    {
-    "id": "tt3131362",
-    "l": "Sex Game of Thrones",
-    "y": 2012,
+    "id": "tt10921856",
+    "l": "Dirty Rotten Scoundrels: Interview with Writer Dale Launer",
+    "y": 2019,
+    "q": "video",
+    "s": "Dale Launer",
+    "img": "https://m.media-amazon.com/images/M/MV5BYmMxMzE5MTYtMTc4Ny00NzhmLWEwNDYtMTY2YTE3NjdkZDQwXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "riviera|GoldenEye",
+  "q": "GoldenEye",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0113189",
+    "l": "GoldenEye",
+    "y": 1995,
+    "q": "feature",
+    "s": "Pierce Brosnan, Sean Bean",
+    "img": "https://m.media-amazon.com/images/M/MV5BOGQxNmYyY2YtZGIyNy00ODgxLThhZWEtZGIyNjJhYzFlOTllXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0097446",
+    "l": "Goldeneye",
+    "y": 1989,
+    "q": "TV movie",
+    "s": "Charles Dance, Phyllis Logan",
+    "img": "https://m.media-amazon.com/images/M/MV5BMjRlNWI0YWMtMDhmYi00NTk2LWE2ZTEtZmQ2MTE4MGJjMTBjXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt7457314",
+    "l": "Tina Turner: GoldenEye",
+    "y": 1995,
+    "q": "musicVideo",
+    "s": "Sean Bean, Pierce Brosnan",
+    "img": "https://m.media-amazon.com/images/M/MV5BOGU4NjhmOTMtZDA5OC00ODM3LTgxMjUtOGIyM2VhM2IwZTZkXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt1679586",
+    "l": "GoldenEye 007",
+    "y": 2010,
+    "q": "video game",
+    "s": "Action, Adventure, Thriller",
+    "img": "https://m.media-amazon.com/images/M/MV5BZjdlNWE2MWMtYzIwYi00M2VkLTg4ZTEtZjRkODJkNWJhZDA1XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt0205973",
+    "l": "GoldenEye 007",
+    "y": 1997,
+    "q": "video game",
+    "s": "Action, Adventure, Thriller",
+    "img": "https://m.media-amazon.com/images/M/MV5BZWIwYWJmNzQtNWZiNC00Njc3LWI2YTUtYTJiMDFlYTc2YWRhXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "riviera|Ronin 1998",
+  "q": "Ronin 1998",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0122690",
+    "l": "Ronin",
+    "y": 1998,
+    "q": "feature",
+    "s": "Robert De Niro, Jean Reno",
+    "img": "https://m.media-amazon.com/images/M/MV5BYzU0MDEwOGMtZWFlMy00ZjllLWFmMWQtYWIxN2M1YmU5ZWQwXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt5424636",
+    "l": "Ronin: Filming in the Fast Lane",
+    "y": 1998,
+    "q": "video",
+    "s": "Sean Bean, Robert De Niro",
+    "img": "https://m.media-amazon.com/images/M/MV5BN2U3OTYxNzMtOGQ5OS00OGI2LWFjYWUtOGRmNTBkOWMxNWY0XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt5424606",
+    "l": "Ronin: Natasha McElhone - An Actor's Process",
+    "y": 1998,
+    "q": "video",
+    "s": "Natascha McElhone, John Frankenheimer",
+    "img": "https://m.media-amazon.com/images/M/MV5BMTIxOTlkNTYtYTdhMC00MWI0LWIxODEtOGNmMjg2ZTQ3NDE3XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt5424620",
+    "l": "Ronin: Composing the 'Ronin' Score",
+    "y": 1998,
+    "q": "video",
+    "s": "Elia Cmiral, John Frankenheimer",
+    "img": "https://m.media-amazon.com/images/M/MV5BOWVmOGIwOTUtZjFlZS00YjQ3LWI5ZWItYjAzMDVhYWY0NWQwXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt5424580",
+    "l": "Ronin: Through the Lens with Director of Photography Robert Fraisse",
+    "y": 1998,
+    "q": "video",
+    "s": "Robert Fraisse, David Crone",
+    "img": "https://m.media-amazon.com/images/M/MV5BMzY2NWFhOWEtOWRjMi00NjVkLWFiNzItMDZkZDI2ZWZlODYyXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "riviera|E.1027 Eileen Gray",
+  "q": "E.1027 Eileen Gray",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt31597947",
+    "l": "E.1027: Eileen Gray and the House by the Sea",
+    "y": 2024,
+    "q": "feature",
+    "s": "Natalie Radmall-Quirke, Axel Moustache",
+    "img": "https://m.media-amazon.com/images/M/MV5BNzAwNDc5M2YtYWM5ZC00MjIzLTg2M2ItYTY0ZmNkNGRmOGM3XkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   }
+  ]
+ },
+ {
+  "key": "riviera|Visite a Picasso",
+  "q": "Visite a Picasso",
+  "status": 200,
+  "hits": [
+   {
+    "id": "tt0267316",
+    "l": "Bezoek aan Picasso",
+    "y": 1950,
+    "q": "short",
+    "s": "Pablo Picasso, Gérard Philipe",
+    "img": "https://m.media-amazon.com/images/M/MV5BZjk3NmQyOGMtZTY1NS00Y2IzLWFmNWMtYWMzMTRkOWEzNTllXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt5376618",
+    "l": "The Visit to Picasso",
+    "y": 2016,
+    "q": "short",
+    "s": "Gary Taylor, Neville Cann",
+    "img": "https://m.media-amazon.com/images/M/MV5BNTEzYzI5MTQtMjI0YS00NmE1LWI2YTctMzA5NDE4ZWNhNjlhXkEyXkFqcGc@._V1_.jpg",
+    "ok": 200
+   },
+   {
+    "id": "tt3712702",
+    "l": "Vincent Corpet revisite Les Demoiselles d'Avignon de Pablo Picasso",
+    "y": 2013,
     "q": "video",
     "s": "",
     "img": null
-   },
-   {
-    "id": "tt10090796",
-    "l": "Game of Thrones: The Last Watch",
-    "y": 2019,
-    "q": "TV movie",
-    "s": "Kevin Alexander, Alfie Allen",
-    "img": "https://m.media-amazon.com/images/M/MV5BNTQ2NThlNGItMzEzMi00Zjk1LWFmZTAtNTJmMTkxMDQzNTE5XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
    }
   ]
- },
- {
-  "key": "dubrovnik|Knightfall",
-  "q": "Knightfall",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt32333324",
-    "l": "Batman: Knightfall - Part 1: Knightfall",
-    "y": 2026,
-    "q": "feature",
-    "s": "Jeff Bennett, Luis Bermudez",
-    "img": "https://m.media-amazon.com/images/M/MV5BNTY3YWIzYzYtZDk2My00YjFjLWE2OTctNWVhOTU3ZDQ2YTU0XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt4555364",
-    "l": "Knightfall",
-    "y": 2017,
-    "q": "TV series",
-    "s": "Tom Cullen, Pádraic Delaney",
-    "img": "https://m.media-amazon.com/images/M/MV5BODgyODU5MjcyNF5BMl5BanBnXkFtZTgwNTgwMjQ4NzM@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt28224861",
-    "l": "Knightfall",
-    "y": 2026,
-    "q": "feature",
-    "s": "Michael Paré, Nick Moran",
-    "img": "https://m.media-amazon.com/images/M/MV5BNDY2ZjE5ODYtMzUxMy00Y2E3LWE4MDQtZTY3MzJhMWYyMWE3XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt38807532",
-    "l": "Batman Knightfall Part 2: Knightquest",
-    "y": 2026,
-    "q": "feature",
-    "s": "Jack Griffo, Michael Mando",
-    "img": "https://m.media-amazon.com/images/M/MV5BY2JkYzg3OGEtMjE2OS00ZTMwLWIyOTktYTQ5ZTI3ZmVkMTQyXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt38807533",
-    "l": "Batman: Knightfall, Part 3 - KnightsEnd",
-    "y": 2027,
-    "q": "feature",
-    "s": "",
-    "img": "https://m.media-amazon.com/images/M/MV5BY2JkYzg3OGEtMjE2OS00ZTMwLWIyOTktYTQ5ZTI3ZmVkMTQyXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Dubrovacki suton",
-  "q": "Dubrovacki suton",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0210658",
-    "l": "Dubrovacki suton",
-    "y": 1999,
-    "q": "feature",
-    "s": "Michaela Kezele, Slavko Juraga",
-    "img": "https://m.media-amazon.com/images/M/MV5BNGEwYWQ5MzUtOWFiZi00NjA1LWI1MDctMGRiYzA3ZmE3OTViXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0333372",
-    "l": "Dubrovacki skerac",
-    "y": 2001,
-    "q": "TV movie",
-    "s": "Ivica Barisic, Mima Brautovic",
-    "img": "https://m.media-amazon.com/images/M/MV5BNWNkYjk2MGUtNTc2ZS00YmI4LWIxZDgtNzk0ODI3Njc4ZjcwXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Dubrovnik Twilight 1999",
-  "q": "Dubrovnik Twilight 1999",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0210658",
-    "l": "Dubrovacki suton",
-    "y": 1999,
-    "q": "feature",
-    "s": "Michaela Kezele, Slavko Juraga",
-    "img": "https://m.media-amazon.com/images/M/MV5BNGEwYWQ5MzUtOWFiZi00NjA1LWI1MDctMGRiYzA3ZmE3OTViXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Dubrovnik 1991 documentary",
-  "q": "Dubrovnik 1991 documentary",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "dubrovnik|The Siege of Dubrovnik",
-  "q": "The Siege of Dubrovnik",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt3922798",
-    "l": "The Siege of Jadotville",
-    "y": 2016,
-    "q": "feature",
-    "s": "Jamie Dornan, Emmanuelle Seigner",
-    "img": "https://m.media-amazon.com/images/M/MV5BZTk0MzdkYzAtMDliYy00NDUzLTkxZWMtYTA4ZTlmZDZiZDMyXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt1583356",
-    "l": "Rammbock: Berlin Undead",
-    "y": 2010,
-    "q": "feature",
-    "s": "Michael Fuith, Theo Trebs",
-    "img": "https://m.media-amazon.com/images/M/MV5BZjZlNTViMDUtN2Y2Ny00ZTZmLTlmNWMtYTBmMTQ2NjY3ODcwXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0460780",
-    "l": "In the Name of the King: A Dungeon Siege Tale",
-    "y": 2007,
-    "q": "feature",
-    "s": "Jason Statham, Ron Perlman",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTQ4ODI0ODA1Ml5BMl5BanBnXkFtZTcwNzMzMjU1MQ@@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0098328",
-    "l": "The Siege of Firebase Gloria",
-    "y": 1988,
-    "q": "feature",
-    "s": "Wings Hauser, R. Lee Ermey",
-    "img": "https://m.media-amazon.com/images/M/MV5BNGM1ODYwNGUtMDA1MC00MTZjLTk5NmMtN2UxNmQyNmVhMmUyXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt42047606",
-    "l": "The Siege of Paradise",
-    "y": 2026,
-    "q": "feature",
-    "s": "",
-    "img": "https://m.media-amazon.com/images/M/MV5BODNkMmM2OTAtZTE5My00YWY4LTgyOGItM2ZmZTg1MTk4MWMyXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Dubrovnik Republika",
-  "q": "Dubrovnik Republika",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt5934040",
-    "l": "Republika",
-    "y": 2016,
-    "q": "TV series",
-    "s": "Nikola Bace, Mihael Rudjer Rapajic",
-    "img": "https://m.media-amazon.com/images/M/MV5BNWNiZGQ4ZjMtZmRiOC00OTcxLWFhMDQtMDQzMzhiOTI1MTJmXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Ljeto u Dubrovniku",
-  "q": "Ljeto u Dubrovniku",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "dubrovnik|Marco Polo Netflix",
-  "q": "Marco Polo Netflix",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "dubrovnik|Dundo Maroje",
-  "q": "Dundo Maroje",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt2585790",
-    "l": "Dundo Maroje",
-    "y": 1983,
-    "q": "TV movie",
-    "s": "Zlatko Crnkovic, Mustafa Nadarević",
-    "img": "https://m.media-amazon.com/images/M/MV5BODZiOWQzZmYtNWQzOC00MmE1LWIwYzYtMDk3ZWYxNDRiZGQ4XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0424975",
-    "l": "Dundo Maroje",
-    "y": 1959,
-    "q": "TV movie",
-    "s": "Milan Ajvaz, Mija Aleksic",
-    "img": null
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Gospar",
-  "q": "Gospar",
-  "status": 200,
-  "hits": [
-   {
-    "id": "/family-entertainment-guide/",
-    "l": "Holiday Watch Guide",
-    "s": "Movies and shows to celebrate the holiday season",
-    "img": "https://m.media-amazon.com/images/M/MV5BYTU4YTA2NDctNzc3ZS00ZDczLThiMWEtYTU1Zjg4Nzk4ZDE3XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt45043884",
-    "l": "Gospar iz Grada",
-    "y": 2019,
-    "q": "feature",
-    "s": "Delo Jusic, Tereza Kesovija",
-    "img": null
-   },
-   {
-    "id": "tt38420997",
-    "l": "The Gospel of Christmas",
-    "y": 2026,
-    "q": "feature",
-    "s": "Fantasia Barrino, Durrell 'Tank' Babbs",
-    "img": "https://m.media-amazon.com/images/M/MV5BODEzYWUyMTItZWUzYi00YWE1LTg2NjItYTk2Y2RmMGJjYzdlXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "nm0637615",
-    "l": "Gaspar Noé",
-    "s": "Director, Enter the Void (2009)",
-    "img": "https://m.media-amazon.com/images/M/MV5BMjA1ODY2NTg3NF5BMl5BanBnXkFtZTYwOTMwNzA2._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "nm1209966",
-    "l": "Oscar Isaac",
-    "s": "Actor, Ex Machina (2014)",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTQ2ODE2NDQ5OF5BMl5BanBnXkFtZTcwOTU3OTM1OQ@@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Fiddler Dubrovnik",
-  "q": "Fiddler Dubrovnik",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "dubrovnik|The Hitman Dubrovnik",
-  "q": "The Hitman Dubrovnik",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "dubrovnik|Croatia Dubrovnik documentary",
-  "q": "Croatia Dubrovnik documentary",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "dubrovnik|Ragusa",
-  "q": "Ragusa",
-  "status": 200,
-  "hits": [
-   {
-    "id": "nm1681361",
-    "l": "Gabriele Ragusa",
-    "s": "Stunts, No Time to Die (2021)",
-    "img": null
-   },
-   {
-    "id": "nm0696038",
-    "l": "Paula Prentiss",
-    "s": "Actress, Where the Boys Are (1960)",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTY2MDExODUyNF5BMl5BanBnXkFtZTcwMDU2Mzg3NA@@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "nm4917148",
-    "l": "Enrico Ragusa",
-    "s": "Stunts, The Dog Stars (2026)",
-    "img": null
-   },
-   {
-    "id": "nm0706647",
-    "l": "Pietro Ragusa",
-    "s": "Actor, The Life Aquatic with Steve Zissou (2004)",
-    "img": "https://m.media-amazon.com/images/M/MV5BNmE4ZTI1ZWQtZmU4OS00MmIwLWIxYTMtNmY3YTk3NGZhYTVjXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "nm0696031",
-    "l": "Ann Prentiss",
-    "s": "Actress, My Stepmother Is an Alien (1988)",
-    "img": "https://m.media-amazon.com/images/M/MV5BMDIzYjRkMDYtMDQ0YS00ZmUxLWIxZmMtMTkzYjJmMDIzNDk4XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Svecenikova djeca",
-  "q": "Svecenikova djeca",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt2395421",
-    "l": "The Priest's Children",
-    "y": 2013,
-    "q": "feature",
-    "s": "Krešimir Mikić, Niksa Butijer",
-    "img": "https://m.media-amazon.com/images/M/MV5BYjJlN2VlZTEtYjc2Zi00ODBmLWIxZDMtYmJhZmZlZjc5MDlmXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Tko pjeva zlo ne misli",
-  "q": "Tko pjeva zlo ne misli",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0066461",
-    "l": "One Song a Day Takes Mischief Away",
-    "y": 1970,
-    "q": "feature",
-    "s": "Franjo Majetic, Mirjana Bohanec",
-    "img": "https://m.media-amazon.com/images/M/MV5BMWI2NmVjNDEtNWJhOC00ZjcxLWI5MzQtMTQxOGEzZGIyMDQ1XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0068940",
-    "l": "Put Your Devil Into My Hell",
-    "y": 1972,
-    "q": "feature",
-    "s": "Antonio Cantafora, Melinda Pillon",
-    "img": "https://m.media-amazon.com/images/M/MV5BM2E0ZWEyMTAtMWVkYi00NjQ0LWJmNmMtM2U2ZDU1YWE1ZTM4XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Dubrovnik",
-  "q": "Dubrovnik",
-  "status": 200,
-  "hits": [
-   {
-    "id": "tt0210658",
-    "l": "Dubrovacki suton",
-    "y": 1999,
-    "q": "feature",
-    "s": "Michaela Kezele, Slavko Juraga",
-    "img": "https://m.media-amazon.com/images/M/MV5BNGEwYWQ5MzUtOWFiZi00NjA1LWI1MDctMGRiYzA3ZmE3OTViXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt48164428",
-    "l": "Dubrovnik",
-    "q": "TV mini-series",
-    "s": "",
-    "img": null
-   },
-   {
-    "id": "tt9512056",
-    "l": "With love from Dubrovnik",
-    "q": "TV series",
-    "s": "",
-    "img": "https://m.media-amazon.com/images/M/MV5BYmQyMmYyMDktYmQ1MS00MWVjLTkwNTMtMDM2ODI1NWFjZDQ2XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt2122455",
-    "l": "Rat za Dubrovnik",
-    "y": 2010,
-    "q": "feature",
-    "s": "Snezana Rakonjac, Veljko Kadijevic",
-    "img": null
-   },
-   {
-    "id": "tt0058561",
-    "l": "The Secret Invasion",
-    "y": 1964,
-    "q": "feature",
-    "s": "Stewart Granger, Raf Vallone",
-    "img": "https://m.media-amazon.com/images/M/MV5BNDZkZmY4ZTktZDQ0NC00N2UyLTk3MzgtMWNhNDI0NzBjZTdmXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|The Last Days of Dubrovnik",
-  "q": "The Last Days of Dubrovnik",
-  "status": 200,
-  "hits": [
-   {
-    "id": "nm0144657",
-    "l": "Dan Castellaneta",
-    "s": "Actor, The Simpsons (1989-2027)",
-    "img": "https://m.media-amazon.com/images/M/MV5BMjAyNDY5NDEwOV5BMl5BanBnXkFtZTcwMjY0ODYyMQ@@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt40210362",
-    "l": "The Last Temptation of Becky",
-    "y": 2026,
-    "q": "feature",
-    "s": "Lulu Wilson, Neil Patrick Harris",
-    "img": "https://m.media-amazon.com/images/M/MV5BZDk0YWVhNzItNDE3Zi00NTlhLWI4ZjYtZTAyYjdjNTlhZTZkXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt3581920",
-    "l": "The Last of Us",
-    "y": 2023,
-    "q": "TV series",
-    "s": "Bella Ramsey, Pedro Pascal",
-    "img": "https://m.media-amazon.com/images/M/MV5BYWI3ODJlMzktY2U5NC00ZjdlLWE1MGItNWQxZDk3NWNjN2RhXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "nm0454418",
-    "l": "Alan King",
-    "s": "Actor, Casino (1995)",
-    "img": "https://m.media-amazon.com/images/M/MV5BOGVjMmRhNmQtMTE4Yy00MjZiLWEyMDQtMjQ1NjYxYjgxNzAzXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "nm0370788",
-    "l": "Pamela Hayden",
-    "s": "Actress, The Simpsons Movie (2007)",
-    "img": "https://m.media-amazon.com/images/M/MV5BMjk2ZWRjZDAtMWMxYi00MWNiLTlmNzEtZjY3YjU5ODk3ZTU5XkEyXkFqcGc@._V1_CR257,0,2058,3087_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "dubrovnik|Lovrijenac Hamlet",
-  "q": "Lovrijenac Hamlet",
-  "status": 200,
-  "hits": []
  }
 ]
