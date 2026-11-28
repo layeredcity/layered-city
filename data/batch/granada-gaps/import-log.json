@@ -1,0 +1,19 @@
+{
+ "mode": "dry-run",
+ "city": "Granada",
+ "started": "2026-11-28T16:42:33.809Z",
+ "created": [
+  "video: Samuel the Nagid",
+  "video: Columbus gets his ships"
+ ],
+ "skipped": [
+  "city: Granada already exists"
+ ],
+ "channels": [
+  "video: HistoryPod"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:42:35.264Z"
+}
