@@ -1,0 +1,32 @@
+# Refreshes src/data/omdb.json (movie ratings and posters) weekly, or when
+# data/run-omdb-snapshot changes. Commits only if something changed, so a
+# Netlify build happens only then. Needs a repository secret named OMDB_KEY.
+name: OMDb snapshot
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: '17 9 * * 1'
+  push:
+    branches: [main]
+    paths: [data/run-omdb-snapshot]
+permissions:
+  contents: write
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/snapshot-omdb.mjs
+        env:
+          CONTENTFUL_DELIVERY_TOKEN: ${{ secrets.CONTENTFUL_DELIVERY_TOKEN || 'gtCMYzILHdhtTGIE-BjXN2vksuSjR2LeJonHQo51xS0' }}
+          OMDB_KEY: ${{ secrets.OMDB_KEY }}
+      - run: |
+          git add src/data/omdb.json
+          git diff --cached --quiet && exit 0
+          git config user.name "Layered City OMDb"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "OMDb snapshot"
+          git pull --rebase origin main
+          git push origin HEAD:main

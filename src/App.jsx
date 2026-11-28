@@ -5,6 +5,7 @@ import './App.css'
 import { fetchCities, fetchStoriesForCity, fetchFoodsForCity, fetchWordsForCity } from './utils/contentful'
 import { groupWords, preambleBullets, cityLanguage, SLOT_NOTE } from './utils/words'
 import { fetchOmdbData } from './utils/omdb'
+import omdbSnapshot from './data/omdb.json'
 import { fetchBook } from './utils/bookcover'
 import MapboxMap from './components/MapboxMap'
 import MiniMap from './components/MiniMap'
@@ -1927,7 +1928,9 @@ export default function App() {
     : THREAD_GROUPS
   const threadCtx = useMemo(() => ({ open: openThread, current: openThreadSlug }), [openThread, openThreadSlug])
   const [mediaStory, setMediaStory] = useState(null)
-  const [omdbCache, setOmdbCache] = useState({})
+  // Weekly OMDb snapshot (scripts/snapshot-omdb.mjs); only ids it lacks are
+  // fetched live.
+  const [omdbCache, setOmdbCache] = useState(omdbSnapshot)
   const [bookCache, setBookCache] = useState({})
   const modalAnchorRef = useRef(null)
 
@@ -1998,7 +2001,7 @@ export default function App() {
     try {
       const data = await fetchStoriesForCity(city.id)
       setStories(data)
-      data.filter(s => s.imdbId).forEach(s => {
+      data.filter(s => s.imdbId && !omdbSnapshot[s.imdbId]).forEach(s => {
         fetchOmdbData(s.imdbId).then(omdb => {
           if (omdb) setOmdbCache(prev => ({ ...prev, [s.imdbId]: omdb }))
         })
