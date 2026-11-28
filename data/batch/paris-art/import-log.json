@@ -1,0 +1,18 @@
+{
+ "mode": "dry-run",
+ "city": "Paris",
+ "started": "2026-11-28T17:41:30.264Z",
+ "created": [
+  "podcast: The Origin of the World by Gustave Courbet"
+ ],
+ "skipped": [
+  "city: Paris already exists"
+ ],
+ "channels": [
+  "podcast: ArtCurious Podcast"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T17:41:31.868Z"
+}
