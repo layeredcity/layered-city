@@ -1,0 +1,305 @@
+{
+ "city": "Tallinn",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Vana Toomas",
+   "phonetic": "VAH-nah TOH-mahs",
+   "context": "Old Thomas, the soldier on the Town Hall’s weathervane since 1530 and the city’s guardian. Replicas are everywhere.",
+   "deepCutOrder": 1,
+   "id": "tallinn-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Laulupidu",
+   "phonetic": "LOW-loo-pee-doo",
+   "context": "The song festival, held every five years with tens of thousands of singers. Estonians credit it with keeping the nation alive.",
+   "deepCutOrder": 2,
+   "id": "tallinn-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Jaanipäev",
+   "phonetic": "YAH-nee-pa-ev",
+   "context": "Midsummer, June 24. Cities empty as people head to the country for bonfires, beer, and the shortest night of the year.",
+   "deepCutOrder": 3,
+   "id": "tallinn-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Saun",
+   "phonetic": "sown",
+   "context": "The sauna, taken seriously. Many apartments have one, and a smoke sauna in the countryside is the real thing.",
+   "deepCutOrder": 4,
+   "id": "tallinn-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Mõnus",
+   "phonetic": "MUH-noos",
+   "context": "Pleasant, cozy, just right: a warm sauna, a good meal, a quiet evening. A high compliment.",
+   "deepCutOrder": 5,
+   "id": "tallinn-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Pandipakend",
+   "phonetic": "PAHN-dee-pah-kend",
+   "context": "Deposit packaging. Bottles and cans carry a small deposit you get back from machines in supermarkets.",
+   "deepCutOrder": 6,
+   "id": "tallinn-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Tere hommikust",
+   "phonetic": "TEH-reh HOM-mee-koost",
+   "meaning": "good morning",
+   "id": "tallinn-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Tere päevast",
+   "phonetic": "TEH-reh PA-eh-vahst",
+   "meaning": "good afternoon",
+   "context": "Just “tere” works all day and is what most people say.",
+   "id": "tallinn-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Tere õhtust",
+   "phonetic": "TEH-reh UH-toost",
+   "meaning": "good evening",
+   "id": "tallinn-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Tšau",
+   "phonetic": "chow",
+   "meaning": "hello (casual)",
+   "context": "Hello and goodbye among friends. “Tere” is the safe choice with strangers.",
+   "id": "tallinn-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Head aega",
+   "phonetic": "HEH-ahd AH-eh-gah",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “good time.” “Nägemist” (NA-geh-mist) means “see you.”",
+   "id": "tallinn-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Palun",
+   "phonetic": "PAH-loon",
+   "meaning": "please",
+   "context": "Also “you’re welcome” and “here you go.”",
+   "id": "tallinn-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Aitäh",
+   "phonetic": "EYE-tah",
+   "meaning": "thank you",
+   "context": "“Tänan” (TA-nahn) is a little more formal.",
+   "id": "tallinn-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Jah",
+   "phonetic": "yah",
+   "meaning": "yes",
+   "id": "tallinn-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Ei",
+   "phonetic": "ay",
+   "meaning": "no",
+   "id": "tallinn-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Kas te räägite inglise keelt?",
+   "phonetic": "kahs teh RAA-ghee-teh EEN-glee-seh kayl-t",
+   "meaning": "do you speak English?",
+   "id": "tallinn-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Vabandust",
+   "phonetic": "VAH-bahn-doost",
+   "meaning": "sorry",
+   "context": "For a bump in a crowd, or to get past.",
+   "id": "tallinn-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Vabandage",
+   "phonetic": "VAH-bahn-dah-geh",
+   "meaning": "excuse me (getting attention)",
+   "id": "tallinn-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Kas ma saan mööda?",
+   "phonetic": "kahs mah sahn MUR-dah",
+   "meaning": "excuse me (squeezing past)",
+   "id": "tallinn-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Üks",
+   "phonetic": "ewks",
+   "meaning": "one",
+   "id": "tallinn-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Kaks",
+   "phonetic": "kahks",
+   "meaning": "two",
+   "id": "tallinn-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Kolm",
+   "phonetic": "kolm",
+   "meaning": "three",
+   "id": "tallinn-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Neli",
+   "phonetic": "NEH-lee",
+   "meaning": "four",
+   "id": "tallinn-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Viis",
+   "phonetic": "vees",
+   "meaning": "five",
+   "id": "tallinn-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "Menüü, palun",
+   "phonetic": "MEH-new PAH-loon",
+   "meaning": "the menu, please",
+   "id": "tallinn-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Head isu",
+   "phonetic": "HEH-ahd EE-soo",
+   "meaning": "enjoy your meal",
+   "context": "Literally “good appetite.”",
+   "id": "tallinn-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Terviseks",
+   "phonetic": "TEHR-vee-seks",
+   "meaning": "cheers",
+   "context": "Literally “to health.” Look people in the eye.",
+   "id": "tallinn-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Väga maitsev!",
+   "phonetic": "VA-gah MY-tsev",
+   "meaning": "delicious!",
+   "id": "tallinn-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Arve, palun",
+   "phonetic": "AHR-veh PAH-loon",
+   "meaning": "the check, please",
+   "id": "tallinn-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Jootraha",
+   "phonetic": "YOHT-rah-hah",
+   "meaning": "tip",
+   "context": "Literally “drinking money.” Not expected, but rounding up or leaving about 10 percent for good service is common.",
+   "id": "tallinn-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Kus on…?",
+   "phonetic": "koos on",
+   "meaning": "where is…?",
+   "id": "tallinn-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Pilet",
+   "phonetic": "PEE-let",
+   "meaning": "ticket",
+   "context": "Public transport is free for registered residents. Visitors pay by tapping a bank card or with a card from a kiosk.",
+   "id": "tallinn-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Tualett",
+   "phonetic": "too-ah-LETT",
+   "meaning": "bathroom",
+   "context": "“WC” on the door.",
+   "id": "tallinn-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Mehed",
+   "phonetic": "MEH-hed",
+   "meaning": "men",
+   "id": "tallinn-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Naised",
+   "phonetic": "NIGH-sed",
+   "meaning": "women",
+   "id": "tallinn-door-women",
+   "groupNote": "Doors are often just marked “M” and “N.”"
+  },
+  {
+   "slot": "atm",
+   "local": "Pangaautomaat",
+   "phonetic": "PAHN-gah-ow-toh-maht",
+   "meaning": "ATM",
+   "context": "Rarely needed: cards work almost everywhere, even at market stalls.",
+   "id": "tallinn-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Kui palju?",
+   "phonetic": "kwee PAHL-yoo",
+   "meaning": "how much?",
+   "id": "tallinn-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Kaart",
+   "phonetic": "kahrt",
+   "meaning": "credit card",
+   "id": "tallinn-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Sularaha",
+   "phonetic": "SOO-lah-rah-hah",
+   "meaning": "cash",
+   "id": "tallinn-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Kott?",
+   "phonetic": "kott",
+   "meaning": "bag?",
+   "context": "Charged at the checkout. Say “ei, aitäh” if you brought one.",
+   "id": "tallinn-bag"
+  }
+ ]
+}

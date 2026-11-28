@@ -1,0 +1,47 @@
+[
+ {
+  "type": "movie",
+  "city": "Tallinn",
+  "title": "Stalker",
+  "creator": "Andrei Tarkovsky",
+  "year": 1979,
+  "genre": "science fiction",
+  "place": "Kultuurikatel, the old city power station",
+  "lat": 59.4436,
+  "lon": 24.7462,
+  "minutes": 162,
+  "imdb": "tt0079944",
+  "justwatch": "https://justwatch.com/us/search?q=Stalker",
+  "description": "Tarkovsky’s slow, haunting film about a guide who leads two men into the Zone, a forbidden area where wishes may come true. Much of it was shot in and around Tallinn, in abandoned power stations and industrial areas."
+ },
+ {
+  "type": "movie",
+  "city": "Tallinn",
+  "title": "The Singing Revolution",
+  "creator": "James Tusty and Maureen Castle Tusty",
+  "year": 2006,
+  "genre": "documentary",
+  "place": "Tallinn Song Festival Grounds",
+  "lat": 59.4442,
+  "lon": 24.8071,
+  "minutes": 94,
+  "imdb": "tt0954008",
+  "justwatch": "https://justwatch.com/us/search?q=The%20Singing%20Revolution",
+  "description": "An American documentary on how Estonians used their song festivals to resist Soviet rule, from the deportations of the 1940s to the mass singing of 1988 and independence in 1991."
+ },
+ {
+  "type": "movie",
+  "city": "Tallinn",
+  "title": "Tenet",
+  "creator": "Christopher Nolan",
+  "year": 2020,
+  "genre": "action thriller",
+  "place": "Linnahall",
+  "lat": 59.4466,
+  "lon": 24.7535,
+  "minutes": 150,
+  "imdb": "tt6723592",
+  "justwatch": "https://justwatch.com/us/search?q=Tenet",
+  "description": "Nolan’s time-bending thriller filmed a long sequence in Tallinn, including a car chase on the Laagna Road highway, which was closed for weeks, and scenes in the abandoned Linnahall."
+ }
+]
