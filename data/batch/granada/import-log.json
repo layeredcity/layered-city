@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Granada",
- "started": "2026-11-28T04:40:41.067Z",
+ "started": "2026-11-28T04:42:01.788Z",
  "created": [
   "city: Granada (map zoom delta 1, map height 800)",
   "podcast: The sultan who built the Court of the Lions",
@@ -72,5 +72,5 @@
   "book \"Tales of the Alhambra\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T04:40:44.239Z"
+ "finished": "2026-11-28T04:43:28.469Z"
 }
