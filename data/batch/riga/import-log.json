@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Riga",
- "started": "2026-11-28T13:08:33.590Z",
+ "started": "2026-11-28T13:57:25.654Z",
  "created": [
   "city: Riga (map zoom delta 1, map height 800)",
   "podcast: Riga and the Hanseatic League",
@@ -59,9 +59,8 @@
  ],
  "drafts": [],
  "warnings": [
-  "book \"The Dogs of Riga\": no ISBN found",
   "book \"I Survived Rumbula\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T13:08:35.835Z"
+ "finished": "2026-11-28T13:58:24.405Z"
 }
