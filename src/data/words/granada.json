@@ -1,0 +1,301 @@
+{
+ "city": "Granada",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Malafollá",
+   "phonetic": "mah-lah-foh-YAH",
+   "context": "Granada’s famous grumpiness: a dry, blunt, unhelpful manner that locals both complain about and boast of. If a waiter seems rude, this is the word.",
+   "deepCutOrder": 1,
+   "id": "granada-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Carmen",
+   "phonetic": "KAR-men",
+   "context": "A house in the Albaicín with a walled garden of fruit trees, vines, and fountains, hidden from the street. Many are now restaurants with Alhambra views.",
+   "deepCutOrder": 2,
+   "id": "granada-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Tapa",
+   "phonetic": "TAH-pah",
+   "context": "In Granada, free. Order a drink and food arrives with it. Asking for the tapa to be left out is unheard of.",
+   "deepCutOrder": 3,
+   "id": "granada-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Zambra",
+   "phonetic": "THAHM-brah",
+   "context": "The flamenco of the Sacromonte caves, based on old Romani wedding dances. Shows are held in whitewashed caves lined with copper pots.",
+   "deepCutOrder": 4,
+   "id": "granada-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Duende",
+   "phonetic": "DWEN-deh",
+   "context": "The dark, shivering power of great flamenco, poetry, or bullfighting. Lorca, Granada’s poet, gave a famous lecture trying to define it in 1933.",
+   "deepCutOrder": 5,
+   "id": "granada-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Tetería",
+   "phonetic": "teh-teh-REE-ah",
+   "context": "A Moroccan-style tea house, with low cushions, mint tea, and pastries. The narrow streets below the Albaicín are full of them.",
+   "deepCutOrder": 6,
+   "id": "granada-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Buenos días",
+   "phonetic": "BWEH-noh DEE-ah",
+   "meaning": "good morning",
+   "context": "The final s often vanishes in Andalusian Spanish.",
+   "id": "granada-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Buenas tardes",
+   "phonetic": "BWEH-nah TAR-deh",
+   "meaning": "good afternoon",
+   "context": "Starts after lunch, which in Granada means two or three o’clock.",
+   "id": "granada-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Buenas noches",
+   "phonetic": "BWEH-nah NOH-cheh",
+   "meaning": "good evening",
+   "id": "granada-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Hola",
+   "phonetic": "OH-lah",
+   "meaning": "hello (casual)",
+   "id": "granada-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Hasta luego",
+   "phonetic": "AH-tah LWEH-goh",
+   "meaning": "leaving a shop or café",
+   "context": "Often shortened to something like “ta-luego.” “Adiós” sounds more final.",
+   "id": "granada-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Por favor",
+   "phonetic": "por fah-VOR",
+   "meaning": "please",
+   "id": "granada-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Gracias",
+   "phonetic": "GRAH-thee-ah",
+   "meaning": "thank you",
+   "context": "Granada mostly uses the “th” sound, like Madrid, but drops the final s like the rest of Andalusia.",
+   "id": "granada-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Sí",
+   "phonetic": "see",
+   "meaning": "yes",
+   "id": "granada-yes"
+  },
+  {
+   "slot": "no",
+   "local": "No",
+   "phonetic": "noh",
+   "meaning": "no",
+   "id": "granada-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "¿Habla inglés?",
+   "phonetic": "AH-blah een-GLEH",
+   "meaning": "do you speak English?",
+   "id": "granada-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Lo siento",
+   "phonetic": "loh SYEN-toh",
+   "meaning": "sorry",
+   "id": "granada-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Perdone",
+   "phonetic": "per-DOH-neh",
+   "meaning": "excuse me (getting attention)",
+   "id": "granada-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Con permiso",
+   "phonetic": "kon per-MEE-soh",
+   "meaning": "excuse me (squeezing past)",
+   "id": "granada-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Uno",
+   "phonetic": "OO-noh",
+   "meaning": "one",
+   "id": "granada-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Dos",
+   "phonetic": "doh",
+   "meaning": "two",
+   "id": "granada-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Tres",
+   "phonetic": "treh",
+   "meaning": "three",
+   "id": "granada-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Cuatro",
+   "phonetic": "KWAH-troh",
+   "meaning": "four",
+   "id": "granada-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Cinco",
+   "phonetic": "THEEN-koh",
+   "meaning": "five",
+   "id": "granada-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "La carta, por favor",
+   "phonetic": "lah KAR-tah por fah-VOR",
+   "meaning": "the menu, please",
+   "context": "“El menú” is the set lunch.",
+   "id": "granada-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Que aproveche",
+   "phonetic": "keh ah-proh-VEH-cheh",
+   "meaning": "enjoy your meal",
+   "id": "granada-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Salud",
+   "phonetic": "sah-LOO",
+   "meaning": "cheers",
+   "id": "granada-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "¡Buenísimo!",
+   "phonetic": "bweh-NEE-see-moh",
+   "meaning": "delicious!",
+   "id": "granada-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "La cuenta, por favor",
+   "phonetic": "lah KWEN-tah por fah-VOR",
+   "meaning": "the check, please",
+   "id": "granada-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Agua del grifo",
+   "phonetic": "AH-gwah del GREE-foh",
+   "meaning": "tap water",
+   "context": "Ask for it by name. Just “agua” usually brings a bottle, which you pay for.",
+   "id": "granada-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "¿Dónde está…?",
+   "phonetic": "DOHN-deh eh-TAH",
+   "meaning": "where is…?",
+   "id": "granada-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Entrada",
+   "phonetic": "en-TRAH-dah",
+   "meaning": "ticket (for a sight)",
+   "context": "Alhambra tickets sell out weeks ahead in high season. Buy them only from the official site.",
+   "id": "granada-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Servicios",
+   "phonetic": "ser-VEE-thee-oh",
+   "meaning": "bathroom",
+   "context": "Bars expect you to have ordered first.",
+   "id": "granada-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Caballeros",
+   "phonetic": "kah-bah-YEH-roh",
+   "meaning": "men",
+   "id": "granada-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Señoras",
+   "phonetic": "seh-NYOH-rah",
+   "meaning": "women",
+   "id": "granada-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Cajero",
+   "phonetic": "kah-HEH-roh",
+   "meaning": "ATM",
+   "id": "granada-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "¿Cuánto es?",
+   "phonetic": "KWAN-toh ehs",
+   "meaning": "how much?",
+   "id": "granada-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Tarjeta",
+   "phonetic": "tar-HEH-tah",
+   "meaning": "credit card",
+   "context": "Small tapas bars are sometimes still cash only.",
+   "id": "granada-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Efectivo",
+   "phonetic": "eh-fek-TEE-boh",
+   "meaning": "cash",
+   "id": "granada-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "¿Bolsa?",
+   "phonetic": "BOHL-sah",
+   "meaning": "bag?",
+   "context": "Charged. Say “no, gracias” if you brought one.",
+   "id": "granada-bag"
+  }
+ ]
+}

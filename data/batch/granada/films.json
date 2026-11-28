@@ -1,0 +1,32 @@
+[
+ {
+  "type": "movie",
+  "city": "Granada",
+  "title": "Little Ashes",
+  "creator": "Paul Morrison",
+  "year": 2008,
+  "genre": "biographical drama",
+  "place": "Huerta de San Vicente",
+  "lat": 37.1707,
+  "lon": -3.6093,
+  "minutes": 112,
+  "imdb": "tt1104083",
+  "justwatch": "https://justwatch.com/us/search?q=Little%20Ashes",
+  "description": "Javier Beltrán plays the young Lorca and Robert Pattinson plays Salvador Dalí, as students in Madrid in the 1920s. The film follows their friendship, and Lorca back to Granada, where he was killed in 1936."
+ },
+ {
+  "type": "movie",
+  "city": "Granada",
+  "title": "Death in Granada",
+  "creator": "Marcos Zurinaga",
+  "year": 1996,
+  "genre": "drama",
+  "place": "Federico García Lorca Park, Alfacar",
+  "lat": 37.2442,
+  "lon": -3.5533,
+  "minutes": 114,
+  "imdb": "tt0117106",
+  "justwatch": "https://justwatch.com/us/search?q=Death%20in%20Granada",
+  "description": "Also called The Disappearance of Garcia Lorca. A journalist returns to Granada in the 1950s to find out how Lorca died. Andy García plays the poet in flashbacks."
+ }
+]
