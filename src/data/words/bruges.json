@@ -1,0 +1,306 @@
+{
+ "city": "Bruges",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Reien",
+   "phonetic": "RAY-un",
+   "context": "The Bruges word for its canals. In Amsterdam they are grachten, but here they are reien, after the river Reie.",
+   "deepCutOrder": 1,
+   "id": "bruges-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Zot",
+   "phonetic": "zot",
+   "context": "Fool. People from Bruges are called Brugse zotten. Legend says they asked Maximilian of Habsburg to pay for a new madhouse, and he told them to just close the city gates.",
+   "deepCutOrder": 2,
+   "id": "bruges-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Schild en vriend",
+   "phonetic": "SKHILT en VREENT",
+   "context": "“Shield and friend.” In 1302, rebels in Bruges are said to have used it as a password, killing anyone who couldn’t pronounce it like a Fleming.",
+   "deepCutOrder": 3,
+   "id": "bruges-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Goedendag",
+   "phonetic": "KHOO-duh-dakh",
+   "context": "“Good day.” Also the spiked club the Flemish militias carried in 1302, said to be named after the greeting.",
+   "deepCutOrder": 4,
+   "id": "bruges-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Frietkot",
+   "phonetic": "FREET-kot",
+   "context": "A fry stand. Every Flemish town has them, and arguing over which is best is a national pastime.",
+   "deepCutOrder": 5,
+   "id": "bruges-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Kantklossen",
+   "phonetic": "KAHNT-klos-un",
+   "context": "Making bobbin lace: dozens of threads on wooden bobbins, crossed and twisted around pins. You can still watch it at the lace center.",
+   "deepCutOrder": 6,
+   "id": "bruges-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Goeiemorgen",
+   "phonetic": "KHOO-yuh-MOR-khun",
+   "meaning": "good morning",
+   "context": "The Flemish g is softer than the Dutch one, closer to a voiced throat sound.",
+   "id": "bruges-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Goeiemiddag",
+   "phonetic": "KHOO-yuh-MID-dakh",
+   "meaning": "good afternoon",
+   "id": "bruges-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Goeieavond",
+   "phonetic": "KHOO-yuh-AH-vont",
+   "meaning": "good evening",
+   "id": "bruges-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Hallo",
+   "phonetic": "hah-LOH",
+   "meaning": "hello",
+   "context": "“Dag” (dakh) is a common short greeting in Flanders, and a goodbye too.",
+   "id": "bruges-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Tot ziens",
+   "phonetic": "tot ZEENS",
+   "meaning": "leaving a shop or café",
+   "context": "Also just “dag” or “salut.”",
+   "id": "bruges-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Alstublieft",
+   "phonetic": "AHL-stoo-BLEEFT",
+   "meaning": "please",
+   "context": "Also means “here you go,” and you’ll hear it whenever something is handed to you.",
+   "id": "bruges-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Dank u",
+   "phonetic": "dahnk oo",
+   "meaning": "thank you",
+   "context": "Many people in Flanders just say “merci.”",
+   "id": "bruges-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes",
+   "id": "bruges-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Nee",
+   "phonetic": "nay",
+   "meaning": "no",
+   "id": "bruges-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Spreekt u Engels?",
+   "phonetic": "spraykt oo ENG-uls",
+   "meaning": "do you speak English?",
+   "context": "Nearly everyone does. Start in English rather than French.",
+   "id": "bruges-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Sorry",
+   "phonetic": "SOR-ree",
+   "meaning": "sorry",
+   "id": "bruges-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Pardon",
+   "phonetic": "par-DON",
+   "meaning": "excuse me (getting attention)",
+   "id": "bruges-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Pardon",
+   "phonetic": "par-DON",
+   "meaning": "excuse me (squeezing past)",
+   "context": "The same word works for both.",
+   "id": "bruges-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Een",
+   "phonetic": "ayn",
+   "meaning": "one",
+   "id": "bruges-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Twee",
+   "phonetic": "tvay",
+   "meaning": "two",
+   "id": "bruges-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Drie",
+   "phonetic": "dree",
+   "meaning": "three",
+   "id": "bruges-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Vier",
+   "phonetic": "feer",
+   "meaning": "four",
+   "id": "bruges-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Vijf",
+   "phonetic": "fayf",
+   "meaning": "five",
+   "id": "bruges-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "De kaart, alstublieft",
+   "phonetic": "duh KAHRT AHL-stoo-BLEEFT",
+   "meaning": "the menu, please",
+   "id": "bruges-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Smakelijk",
+   "phonetic": "SMAH-kuh-luk",
+   "meaning": "enjoy your meal",
+   "id": "bruges-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Santé",
+   "phonetic": "sahn-TAY",
+   "meaning": "cheers",
+   "context": "Borrowed from French and used all over Flanders. “Gezondheid” is the Dutch word.",
+   "id": "bruges-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Lekker!",
+   "phonetic": "LEK-ker",
+   "meaning": "delicious!",
+   "context": "Used for almost anything good, from food to the weather.",
+   "id": "bruges-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "De rekening, alstublieft",
+   "phonetic": "duh RAY-kuh-ning AHL-stoo-BLEEFT",
+   "meaning": "the check, please",
+   "id": "bruges-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Kraantjeswater",
+   "phonetic": "KRAHN-chus-vah-ter",
+   "meaning": "tap water",
+   "context": "Rarely offered in restaurants. Water usually comes bottled and charged. You can ask, but some places will refuse.",
+   "id": "bruges-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Waar is…?",
+   "phonetic": "vahr is",
+   "meaning": "where is…?",
+   "id": "bruges-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Ticket",
+   "phonetic": "TIK-et",
+   "meaning": "ticket",
+   "context": "Said as in English. Museums often sell a combined pass.",
+   "id": "bruges-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Toilet",
+   "phonetic": "twah-LET",
+   "meaning": "bathroom",
+   "context": "Public toilets usually cost half a euro or more.",
+   "id": "bruges-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Heren",
+   "phonetic": "HAY-run",
+   "meaning": "men",
+   "id": "bruges-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Dames",
+   "phonetic": "DAH-mus",
+   "meaning": "women",
+   "id": "bruges-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Bankautomaat",
+   "phonetic": "BAHNK-oh-toh-maht",
+   "meaning": "ATM",
+   "id": "bruges-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Hoeveel?",
+   "phonetic": "HOO-fayl",
+   "meaning": "how much?",
+   "id": "bruges-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Bancontact",
+   "phonetic": "BAHN-kon-tahkt",
+   "meaning": "debit card",
+   "context": "The Belgian debit card system. Foreign credit cards are accepted almost everywhere now.",
+   "id": "bruges-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Cash",
+   "phonetic": "kesh",
+   "meaning": "cash",
+   "context": "The English word is the usual one.",
+   "id": "bruges-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Zakje?",
+   "phonetic": "ZAHK-yuh",
+   "meaning": "bag?",
+   "context": "Shops charge for bags. Say “nee, dank u” if you brought one.",
+   "id": "bruges-bag"
+  }
+ ]
+}

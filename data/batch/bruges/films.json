@@ -1,0 +1,47 @@
+[
+ {
+  "type": "movie",
+  "city": "Bruges",
+  "title": "The Nun’s Story",
+  "creator": "Fred Zinnemann",
+  "year": 1959,
+  "genre": "drama",
+  "place": "Begijnhof",
+  "lat": 51.2013,
+  "lon": 3.223,
+  "minutes": 149,
+  "imdb": "tt0053131",
+  "justwatch": "https://justwatch.com/us/search?q=The%20Nun%E2%80%99s%20Story",
+  "description": "Audrey Hepburn plays a Belgian doctor’s daughter who becomes a nun and a nurse in the Congo. The opening scenes, of her leaving home for the convent, were filmed in Bruges."
+ },
+ {
+  "type": "movie",
+  "city": "Bruges",
+  "title": "In Bruges",
+  "creator": "Martin McDonagh",
+  "year": 2008,
+  "genre": "crime comedy",
+  "place": "Belfry of Bruges",
+  "lat": 51.2081,
+  "lon": 3.2248,
+  "minutes": 107,
+  "imdb": "tt0780536",
+  "justwatch": "https://justwatch.com/us/search?q=In%20Bruges",
+  "description": "Colin Farrell and Brendan Gleeson play two hit men sent to wait in Bruges after a job goes wrong. One loves the city and the other hates it. The belfry plays a big part in the ending."
+ },
+ {
+  "type": "movie",
+  "city": "Bruges",
+  "title": "The Monuments Men",
+  "creator": "George Clooney",
+  "year": 2014,
+  "genre": "war drama",
+  "place": "Church of Our Lady",
+  "lat": 51.2047,
+  "lon": 3.2244,
+  "minutes": 118,
+  "imdb": "tt2177771",
+  "justwatch": "https://justwatch.com/us/search?q=The%20Monuments%20Men",
+  "description": "Based on the Allied officers who tracked down art stolen by the Nazis. One of their missions is the search for the Bruges Madonna, taken from the Church of Our Lady in 1944."
+ }
+]
