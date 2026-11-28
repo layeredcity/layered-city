@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Bruges",
- "started": "2026-11-28T17:39:30.603Z",
+ "started": "2026-11-28T17:56:20.848Z",
  "created": [
   "video: The Saint John Altarpiece by Hans Memling"
  ],
@@ -12,5 +12,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T17:39:32.263Z"
+ "finished": "2026-11-28T17:56:22.868Z"
 }
