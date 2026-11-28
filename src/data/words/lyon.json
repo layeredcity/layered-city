@@ -1,0 +1,304 @@
+{
+ "city": "Lyon",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Bouchon",
+   "phonetic": "boo-SHOHN",
+   "context": "A small, traditional Lyon restaurant serving hearty pork dishes, offal, and house wine at shared tables. The name may come from the bundles of straw that once hung outside inns.",
+   "deepCutOrder": 1,
+   "id": "lyon-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Traboule",
+   "phonetic": "trah-BOOL",
+   "context": "A covered passage through a building and its courtyard, linking one street to the next. The silk workers used them to carry cloth out of the rain.",
+   "deepCutOrder": 2,
+   "id": "lyon-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Mâchon",
+   "phonetic": "mah-SHOHN",
+   "context": "A big morning meal of charcuterie, offal, and wine, first eaten by silk workers after a night shift. A few bouchons still serve one.",
+   "deepCutOrder": 3,
+   "id": "lyon-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Canut",
+   "phonetic": "kah-NEW",
+   "context": "A silk weaver of the Croix-Rousse. Their revolts in 1831 and 1834 were among the first workers’ uprisings of the industrial age.",
+   "deepCutOrder": 4,
+   "id": "lyon-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Gone",
+   "phonetic": "gun",
+   "context": "Lyon slang for a kid, from the old Lyonnais dialect. Locals sometimes use it for themselves.",
+   "deepCutOrder": 5,
+   "id": "lyon-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Pot",
+   "phonetic": "poh",
+   "context": "The 46-centiliter bottle of house wine in a bouchon. “Un pot de Beaujolais” is the standard order.",
+   "deepCutOrder": 6,
+   "id": "lyon-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Bonjour",
+   "phonetic": "bong-ZHOOR",
+   "meaning": "good morning / hello",
+   "id": "lyon-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Bonjour",
+   "phonetic": "bong-ZHOOR",
+   "meaning": "good afternoon",
+   "context": "Still “bonjour.” French has no separate afternoon greeting.",
+   "id": "lyon-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Bonsoir",
+   "phonetic": "bong-SWAHR",
+   "meaning": "good evening",
+   "id": "lyon-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Salut",
+   "phonetic": "sah-LEW",
+   "meaning": "hello (casual)",
+   "context": "Fine among friends and young people, but not with someone behind a counter.",
+   "id": "lyon-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Au revoir",
+   "phonetic": "oh ruh-VWAHR",
+   "meaning": "leaving a shop or café",
+   "context": "Say it leaving any shop, even empty-handed.",
+   "id": "lyon-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "S’il vous plaît",
+   "phonetic": "seel voo PLEH",
+   "meaning": "please",
+   "id": "lyon-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Merci",
+   "phonetic": "mehr-SEE",
+   "meaning": "thank you",
+   "context": "Add “madame” or “monsieur” and it sounds much warmer.",
+   "id": "lyon-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Oui",
+   "phonetic": "wee",
+   "meaning": "yes",
+   "id": "lyon-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Non",
+   "phonetic": "nohng",
+   "meaning": "no",
+   "id": "lyon-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Parlez-vous anglais?",
+   "phonetic": "par-lay VOO ahn-GLEH",
+   "meaning": "do you speak English?",
+   "context": "Greet first, then ask.",
+   "id": "lyon-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Désolé",
+   "phonetic": "day-zoh-LAY",
+   "meaning": "sorry",
+   "id": "lyon-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Excusez-moi",
+   "phonetic": "ex-kew-zay MWAH",
+   "meaning": "excuse me (getting attention)",
+   "id": "lyon-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Pardon",
+   "phonetic": "par-DOHN",
+   "meaning": "excuse me (squeezing past)",
+   "id": "lyon-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Un",
+   "phonetic": "uhng",
+   "meaning": "one",
+   "id": "lyon-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Deux",
+   "phonetic": "duh",
+   "meaning": "two",
+   "id": "lyon-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Trois",
+   "phonetic": "twah",
+   "meaning": "three",
+   "id": "lyon-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Quatre",
+   "phonetic": "KAT-ruh",
+   "meaning": "four",
+   "id": "lyon-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Cinq",
+   "phonetic": "sank",
+   "meaning": "five",
+   "id": "lyon-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "La carte, s’il vous plaît",
+   "phonetic": "lah KART",
+   "meaning": "the menu, please",
+   "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte.”",
+   "id": "lyon-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Bon appétit",
+   "phonetic": "bon ah-pay-TEE",
+   "meaning": "enjoy your meal",
+   "id": "lyon-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Santé",
+   "phonetic": "sahn-TAY",
+   "meaning": "cheers",
+   "context": "Look each person in the eye as you clink.",
+   "id": "lyon-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Délicieux!",
+   "phonetic": "day-lee-SYUH",
+   "meaning": "delicious!",
+   "id": "lyon-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "L’addition, s’il vous plaît",
+   "phonetic": "lah-dee-SYOHN",
+   "meaning": "the check, please",
+   "context": "It won’t come until you ask.",
+   "id": "lyon-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Au comptoir",
+   "phonetic": "oh kohn-TWAHR",
+   "meaning": "at the counter",
+   "context": "Coffee standing at the bar costs less than at a table, which costs less than on the terrace.",
+   "id": "lyon-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Où est…?",
+   "phonetic": "oo eh",
+   "meaning": "where is…?",
+   "id": "lyon-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Ticket",
+   "phonetic": "tee-KEH",
+   "meaning": "ticket",
+   "id": "lyon-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Toilettes",
+   "phonetic": "twah-LET",
+   "meaning": "bathroom",
+   "context": "Always plural. Cafés expect you to have bought something first.",
+   "id": "lyon-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Hommes",
+   "phonetic": "om",
+   "meaning": "men",
+   "id": "lyon-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Femmes",
+   "phonetic": "fahm",
+   "meaning": "women",
+   "id": "lyon-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Distributeur",
+   "phonetic": "dees-tree-bew-TUR",
+   "meaning": "ATM",
+   "context": "Decline the offer to charge you in dollars.",
+   "id": "lyon-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Combien?",
+   "phonetic": "kom-BYAN",
+   "meaning": "how much?",
+   "id": "lyon-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Carte",
+   "phonetic": "KART",
+   "meaning": "credit card",
+   "context": "Same word as the menu. Context does the work.",
+   "id": "lyon-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Espèces",
+   "phonetic": "ess-PESS",
+   "meaning": "cash",
+   "id": "lyon-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Sac?",
+   "phonetic": "sahk",
+   "meaning": "bag?",
+   "context": "Shops charge for bags. Say “non merci” if you brought one.",
+   "id": "lyon-bag"
+  }
+ ]
+}

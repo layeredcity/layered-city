@@ -1,0 +1,62 @@
+[
+ {
+  "type": "book",
+  "city": "Lyon",
+  "title": "The Little Prince",
+  "author": "Antoine de Saint-Exupéry",
+  "year": 1943,
+  "genre": "novella",
+  "place": "Statue of Saint-Exupéry, Place Bellecour",
+  "lat": 45.7574,
+  "lon": 4.8299,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Antoine%20de%20Saint-Exup%C3%A9ry%20The%20Little%20Prince",
+  "bookshop": "https://bookshop.org/search?keywords=Antoine%20de%20Saint-Exup%C3%A9ry%20The%20Little%20Prince",
+  "description": "The fable of a pilot stranded in the desert and a small prince from another planet. Saint-Exupéry was born in Lyon in 1900, and a statue of him with the prince stands on a column near Place Bellecour."
+ },
+ {
+  "type": "book",
+  "city": "Lyon",
+  "title": "The Death of Jean Moulin",
+  "author": "Patrick Marnham",
+  "year": 2000,
+  "genre": "history",
+  "place": "Jean Moulin Memorial, Caluire",
+  "lat": 45.7994,
+  "lon": 4.8462,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Patrick%20Marnham%20The%20Death%20of%20Jean%20Moulin",
+  "bookshop": "https://bookshop.org/search?keywords=Patrick%20Marnham%20The%20Death%20of%20Jean%20Moulin",
+  "description": "A British journalist’s investigation of the arrest of Jean Moulin, the Resistance leader caught at a meeting in Caluire in 1943, and of the betrayals and rivalries around it."
+ },
+ {
+  "type": "book",
+  "city": "Lyon",
+  "title": "An Uncertain Hour",
+  "author": "Ted Morgan",
+  "year": 1990,
+  "genre": "history",
+  "place": "Palais de Justice historique",
+  "lat": 45.7618,
+  "lon": 4.8284,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Ted%20Morgan%20An%20Uncertain%20Hour",
+  "bookshop": "https://bookshop.org/search?keywords=Ted%20Morgan%20An%20Uncertain%20Hour",
+  "description": "A history of Lyon under German occupation, of Klaus Barbie and his victims, and of the 1987 trial, by an American writer who was born in France and covered the trial."
+ },
+ {
+  "type": "book",
+  "city": "Lyon",
+  "title": "Dirt",
+  "author": "Bill Buford",
+  "year": 2020,
+  "genre": "food memoir",
+  "place": "La Mère Brazier",
+  "lat": 45.7714,
+  "lon": 4.8372,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Bill%20Buford%20Dirt",
+  "bookshop": "https://bookshop.org/search?keywords=Bill%20Buford%20Dirt",
+  "description": "An American writer moves his family to Lyon to learn French cooking, working in bakeries and kitchens. La Mère Brazier, where Paul Bocuse trained, was run by Eugénie Brazier, one of the first chefs to win three Michelin stars."
+ }
+]
