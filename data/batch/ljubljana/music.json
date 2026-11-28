@@ -1,0 +1,50 @@
+[
+ {
+  "type": "music",
+  "city": "Ljubljana",
+  "title": "Zdravljica",
+  "artist": "Stanko Premrl",
+  "year": 1905,
+  "genre": "anthem",
+  "place": "France Prešeren Monument",
+  "lat": 46.0514,
+  "lon": 14.5063,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Stanko%20Premrl%20Zdravljica",
+  "apple": "https://music.apple.com/us/search?term=Stanko%20Premrl%20Zdravljica",
+  "description": "“A Toast,” Prešeren’s drinking song from 1844, set to music by the priest and composer Stanko Premrl. Its seventh verse, a toast to peace among all nations, became Slovenia’s national anthem in 1989."
+ },
+ {
+  "type": "music",
+  "city": "Ljubljana",
+  "title": "Lublana je bulana",
+  "artist": "Pankrti",
+  "year": 1978,
+  "genre": "punk",
+  "place": "Congress Square",
+  "lat": 46.0502,
+  "lon": 14.5038,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Pankrti%20Lublana%20je%20bulana",
+  "apple": "https://music.apple.com/us/search?term=Pankrti%20Lublana%20je%20bulana",
+  "description": "“Ljubljana Is Sick,” by Pankrti (“Bastards”), a Ljubljana band said to be the first punk band in a communist country. They formed in 1977."
+ },
+ {
+  "type": "music",
+  "city": "Ljubljana",
+  "title": "Opus Dei",
+  "artist": "Laibach",
+  "year": 1987,
+  "genre": "industrial",
+  "place": "Metelkova",
+  "lat": 46.0564,
+  "lon": 14.5168,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Laibach%20Opus%20Dei",
+  "apple": "https://music.apple.com/us/search?term=Laibach%20Opus%20Dei",
+  "description": "Laibach’s grim, martial cover of “Life Is Life,” a pop hit by the Austrian band Opus. The band took Ljubljana’s German name, which was banned for a time in Yugoslavia."
+ }
+]

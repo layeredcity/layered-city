@@ -1,0 +1,62 @@
+[
+ {
+  "type": "movie",
+  "city": "Ljubljana",
+  "title": "Predictions of Fire",
+  "creator": "Michael Benson",
+  "year": 1996,
+  "genre": "documentary",
+  "place": "Metelkova",
+  "lat": 46.0564,
+  "lon": 14.5168,
+  "minutes": 90,
+  "imdb": "tt0114176",
+  "justwatch": "https://justwatch.com/us/search?q=Predictions%20of%20Fire",
+  "description": "An American director’s documentary on Neue Slowenische Kunst, the Slovene art collective of the 1980s whose band, Laibach, provoked both Yugoslav authorities and Western audiences. In English and Slovene."
+ },
+ {
+  "type": "movie",
+  "city": "Ljubljana",
+  "title": "Zizek!",
+  "creator": "Astra Taylor",
+  "year": 2005,
+  "genre": "documentary",
+  "place": "Faculty of Arts, University of Ljubljana",
+  "lat": 46.0466,
+  "lon": 14.5003,
+  "minutes": 71,
+  "imdb": "tt0478338",
+  "justwatch": "https://justwatch.com/us/search?q=Zizek%21",
+  "description": "A documentary portrait of Slavoj Žižek, the Ljubljana philosopher, filmed on lecture tours and at home in Ljubljana. In English."
+ },
+ {
+  "type": "movie",
+  "city": "Ljubljana",
+  "title": "Slovenian Girl",
+  "creator": "Damjan Kozole",
+  "year": 2009,
+  "genre": "drama",
+  "place": "Prešeren Square",
+  "lat": 46.0515,
+  "lon": 14.5061,
+  "minutes": 90,
+  "imdb": "tt1224373",
+  "justwatch": "https://justwatch.com/us/search?q=Slovenian%20Girl",
+  "description": "A student from a small town pays for her life in Ljubljana by working as an escort, calling herself “the Slovenian girl.” A cool, closely observed drama. In Slovene."
+ },
+ {
+  "type": "movie",
+  "city": "Ljubljana",
+  "title": "Houston, We Have a Problem!",
+  "creator": "Žiga Virc",
+  "year": 2016,
+  "genre": "mockumentary",
+  "place": "National Museum of Contemporary History",
+  "lat": 46.0592,
+  "lon": 14.4953,
+  "minutes": 88,
+  "imdb": "tt5518022",
+  "justwatch": "https://justwatch.com/us/search?q=Houston%2C%20We%20Have%20a%20Problem%21",
+  "description": "A mock documentary built on a Yugoslav urban legend: that Tito secretly sold Yugoslavia’s space program to the United States. It mixes real archive footage with invented interviews. In Slovene and English."
+ }
+]

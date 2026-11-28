@@ -1,0 +1,303 @@
+{
+ "city": "Ljubljana",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Zmaj",
+   "phonetic": "zmigh",
+   "context": "Dragon. The city’s symbol, on its coat of arms and the four bronze dragons of the Dragon Bridge, opened in 1901.",
+   "deepCutOrder": 1,
+   "id": "ljubljana-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Gostilna",
+   "phonetic": "goh-STEEL-nah",
+   "context": "A traditional inn serving home cooking, often run by the same family for generations. Where to eat štruklji and sausage.",
+   "deepCutOrder": 2,
+   "id": "ljubljana-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Malica",
+   "phonetic": "MAH-lee-tsah",
+   "context": "A mid-morning meal. Slovene workers are entitled by law to a paid half-hour break for it, and many restaurants offer a cheap malica menu.",
+   "deepCutOrder": 3,
+   "id": "ljubljana-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Kozolec",
+   "phonetic": "KOH-zoh-lets",
+   "context": "A wooden hayrack for drying hay, built like a tall open fence or a small barn. Seen all over the countryside, and a national symbol.",
+   "deepCutOrder": 4,
+   "id": "ljubljana-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Dvojina",
+   "phonetic": "DVOY-ee-nah",
+   "context": "The dual: a grammatical form for exactly two. “Midva” means “we two.” Slovenes are proud to have kept it.",
+   "deepCutOrder": 5,
+   "id": "ljubljana-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Ljubljanica",
+   "phonetic": "lyoo-BLYAH-nee-tsah",
+   "context": "The river through the center, lined with Plečnik’s embankments and café terraces. In summer the whole city seems to sit beside it.",
+   "deepCutOrder": 6,
+   "id": "ljubljana-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Dobro jutro",
+   "phonetic": "DOH-broh YOO-troh",
+   "meaning": "good morning",
+   "id": "ljubljana-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Dober dan",
+   "phonetic": "DOH-ber dahn",
+   "meaning": "good afternoon",
+   "context": "Used for most of the day.",
+   "id": "ljubljana-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Dober večer",
+   "phonetic": "DOH-ber veh-CHER",
+   "meaning": "good evening",
+   "id": "ljubljana-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Živjo",
+   "phonetic": "ZHEE-vyoh",
+   "meaning": "hello (casual)",
+   "context": "Also used for goodbye. “Ojla” is even more casual.",
+   "id": "ljubljana-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Nasvidenje",
+   "phonetic": "nahs-VEE-deh-nyeh",
+   "meaning": "leaving a shop or café",
+   "id": "ljubljana-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Prosim",
+   "phonetic": "PROH-seem",
+   "meaning": "please",
+   "context": "Also “you’re welcome” and “here you go.”",
+   "id": "ljubljana-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Hvala",
+   "phonetic": "HVAH-lah",
+   "meaning": "thank you",
+   "context": "“Hvala lepa” (LEH-pah) is “thanks very much.”",
+   "id": "ljubljana-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes",
+   "context": "“Da” is more formal.",
+   "id": "ljubljana-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Ne",
+   "phonetic": "neh",
+   "meaning": "no",
+   "id": "ljubljana-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Govorite angleško?",
+   "phonetic": "goh-voh-REE-teh ahn-GLESH-koh",
+   "meaning": "do you speak English?",
+   "id": "ljubljana-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Oprostite",
+   "phonetic": "oh-proh-STEE-teh",
+   "meaning": "sorry",
+   "id": "ljubljana-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Oprostite",
+   "phonetic": "oh-proh-STEE-teh",
+   "meaning": "excuse me (getting attention)",
+   "context": "The same word works for sorry.",
+   "id": "ljubljana-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Dovolite",
+   "phonetic": "doh-voh-LEE-teh",
+   "meaning": "excuse me (squeezing past)",
+   "context": "Literally “allow me.”",
+   "id": "ljubljana-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Ena",
+   "phonetic": "EH-nah",
+   "meaning": "one",
+   "id": "ljubljana-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Dva",
+   "phonetic": "dvah",
+   "meaning": "two",
+   "id": "ljubljana-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Tri",
+   "phonetic": "tree",
+   "meaning": "three",
+   "id": "ljubljana-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Štiri",
+   "phonetic": "SHTEE-ree",
+   "meaning": "four",
+   "id": "ljubljana-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Pet",
+   "phonetic": "pet",
+   "meaning": "five",
+   "id": "ljubljana-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "Jedilni list, prosim",
+   "phonetic": "yeh-DEEL-nee leest PROH-seem",
+   "meaning": "the menu, please",
+   "id": "ljubljana-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Dober tek",
+   "phonetic": "DOH-ber tek",
+   "meaning": "enjoy your meal",
+   "id": "ljubljana-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Na zdravje",
+   "phonetic": "nah ZDRAH-vyeh",
+   "meaning": "cheers",
+   "context": "Look each person in the eye as you clink.",
+   "id": "ljubljana-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Zelo dobro!",
+   "phonetic": "ZEH-loh DOH-broh",
+   "meaning": "delicious!",
+   "id": "ljubljana-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Račun, prosim",
+   "phonetic": "RAH-choon PROH-seem",
+   "meaning": "the check, please",
+   "id": "ljubljana-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Pitna voda",
+   "phonetic": "PEET-nah VOH-dah",
+   "meaning": "drinking water",
+   "context": "Public fountains all over the center give free, clean drinking water. Fill a bottle instead of buying one.",
+   "id": "ljubljana-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Kje je…?",
+   "phonetic": "kyeh yeh",
+   "meaning": "where is…?",
+   "id": "ljubljana-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Vozovnica",
+   "phonetic": "voh-ZOHV-nee-tsah",
+   "meaning": "ticket",
+   "context": "City buses take only the Urbana card or a phone payment, not cash.",
+   "id": "ljubljana-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "WC",
+   "phonetic": "veh-TSEH",
+   "meaning": "bathroom",
+   "context": "“Stranišče” is the formal word.",
+   "id": "ljubljana-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Moški",
+   "phonetic": "MOHSH-kee",
+   "meaning": "men",
+   "id": "ljubljana-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Ženske",
+   "phonetic": "ZHEN-skeh",
+   "meaning": "women",
+   "id": "ljubljana-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "BAHN-koh-maht",
+   "meaning": "ATM",
+   "id": "ljubljana-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Koliko stane?",
+   "phonetic": "KOH-lee-koh STAH-neh",
+   "meaning": "how much?",
+   "id": "ljubljana-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Kartica",
+   "phonetic": "KAR-tee-tsah",
+   "meaning": "credit card",
+   "id": "ljubljana-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Gotovina",
+   "phonetic": "goh-toh-VEE-nah",
+   "meaning": "cash",
+   "id": "ljubljana-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Vrečko?",
+   "phonetic": "VRECH-koh",
+   "meaning": "bag?",
+   "context": "Shops charge for them.",
+   "id": "ljubljana-bag"
+  }
+ ]
+}
