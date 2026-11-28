@@ -4368,7 +4368,8 @@
     "Factory House, Rua do Infante Dom Henrique"
    ],
    "description": "An 18th-century Georgian building where British port wine shippers have met and dined since the 1790s.",
-   "wikipedia": "Factory House (Porto)"
+   "wikipedia": "Feitoria Inglesa",
+   "wikipediaLang": "pt"
   },
   {
    "id": "porto-cathedral",
@@ -4388,7 +4389,8 @@
     "Avenida dos Aliados"
    ],
    "description": "The city’s grand central avenue and square, lined with granite buildings and closed at the top by the City Hall tower.",
-   "wikipedia": "Avenida dos Aliados"
+   "wikipedia": "Avenida dos Aliados",
+   "wikipediaLang": "pt"
   },
   {
    "id": "port-wine-lodges",
@@ -4397,7 +4399,8 @@
    "places": [
     "Port wine lodges, Cais de Gaia"
    ],
-   "description": "Riverside cellars in Vila Nova de Gaia, across the Douro from Porto, where port wine is aged in barrels before shipping."
+   "description": "Riverside cellars in Vila Nova de Gaia, across the Douro from Porto, where port wine is aged in barrels before shipping.",
+   "photoSearch": true
   },
   {
    "id": "luis-i-bridge",
@@ -4461,7 +4464,8 @@
    "places": [
     "Old Port"
    ],
-   "description": "The small harbor on the east side of the walled town, where the merchant ships of the old republic once docked."
+   "description": "The small harbor on the east side of the walled town, where the merchant ships of the old republic once docked.",
+   "photoSearch": true
   },
   {
    "id": "sponza-palace",
@@ -4481,7 +4485,8 @@
     "Fort Imperial, Mount Srđ"
    ],
    "description": "A fort on Mount Srđ above the city, built by the French in the early 1800s. It was a key defensive point during the 1991–92 siege.",
-   "wikipedia": "Fort Imperial"
+   "wikipedia": "Tvrđava Imperial",
+   "wikipediaLang": "hr"
   },
   {
    "id": "fort-lovrijenac",
@@ -4575,7 +4580,8 @@
     "Paschinger Schlössl, Kapuzinerberg"
    ],
    "description": "A small manor house on the Kapuzinerberg hill where the Austrian writer Stefan Zweig lived from 1919 to 1934.",
-   "wikipedia": "Paschinger Schlössl"
+   "wikipedia": "Paschinger Schlössl",
+   "wikipediaLang": "de"
   },
   {
    "id": "villa-trapp",
@@ -4585,7 +4591,8 @@
     "Villa Trapp, Aigen"
    ],
    "description": "The villa where the von Trapp family lived before they left Austria in 1938. It is now a hotel.",
-   "wikipedia": "Villa Trapp"
+   "wikipedia": "Villa Trapp",
+   "wikipediaLang": "de"
   }
  ],
  "Nice": [
@@ -4617,7 +4624,8 @@
     "Cours Saleya"
    ],
    "description": "A long square in the old town that holds a daily flower and produce market.",
-   "wikipedia": "Cours Saleya"
+   "wikipedia": "Cours Saleya",
+   "wikipediaLang": "fr"
   },
   {
    "id": "villa-nellcote",
@@ -4646,7 +4654,8 @@
    "places": [
     "Villa Isola Bella, Menton"
    ],
-   "description": "A villa in Menton, near the Italian border, where the New Zealand writer Katherine Mansfield lived in 1920 and 1921."
+   "description": "A villa in Menton, near the Italian border, where the New Zealand writer Katherine Mansfield lived in 1920 and 1921.",
+   "photoSearch": true
   },
   {
    "id": "casino-de-monte-carlo",
@@ -4666,7 +4675,9 @@
    "places": [
     "Former Palais Croisette, Cannes"
    ],
-   "description": "The site of the first festival hall in Cannes, which hosted the Cannes Film Festival from 1949 to 1982."
+   "description": "The site of the first festival hall in Cannes, which hosted the Cannes Film Festival from 1949 to 1982.",
+   "wikipedia": "Palais Croisette",
+   "wikipediaLang": "fr"
   },
   {
    "id": "musee-matisse",
@@ -4768,7 +4779,8 @@
     "Great Guild Hall"
    ],
    "description": "The 15th-century hall of the merchants’ guild, now home to the Estonian History Museum.",
-   "wikipedia": "Great Guild Hall"
+   "wikipedia": "Suurgildi hoone",
+   "wikipediaLang": "et"
   },
   {
    "id": "tallinn-town-hall",
@@ -4788,7 +4800,8 @@
     "Linnahall"
    ],
    "description": "A concrete concert and sports hall on the waterfront, built for the 1980 Moscow Olympics sailing events and now largely unused.",
-   "wikipedia": "Linnahall"
+   "wikipedia": "Linnahall",
+   "wikipediaLang": "et"
   }
  ],
  "Valletta": [
@@ -4831,7 +4844,8 @@
     "Grandmaster’s Palace"
    ],
    "description": "The palace of the grand masters of the Order of St. John, later the seat of British governors and now of Malta’s president.",
-   "wikipedia": "Grandmaster's Palace"
+   "wikipedia": "Grandmaster's Palace",
+   "photoSearch": true
   },
   {
    "id": "great-siege-monument",
@@ -4905,7 +4919,9 @@
    "places": [
     "Sacromonte Caves Museum"
    ],
-   "description": "A museum in cave houses on the Sacromonte hill, where Granada’s Roma community lived and shaped its flamenco tradition."
+   "description": "A museum in cave houses on the Sacromonte hill, where Granada’s Roma community lived and shaped its flamenco tradition.",
+   "wikipedia": "Museo Cuevas del Sacromonte",
+   "wikipediaLang": "es"
   },
   {
    "id": "lorca-park-alfacar",
@@ -4914,7 +4930,8 @@
    "places": [
     "Federico García Lorca Park, Alfacar"
    ],
-   "description": "A memorial park in Alfacar, outside Granada, near where the poet Federico García Lorca was killed in 1936."
+   "description": "A memorial park in Alfacar, outside Granada, near where the poet Federico García Lorca was killed in 1936.",
+   "photoSearch": true
   },
   {
    "id": "mirador-de-san-nicolas",
@@ -4923,7 +4940,9 @@
    "places": [
     "Mirador de San Nicolás"
    ],
-   "description": "A viewpoint terrace in the Albaicín, the old Moorish quarter, facing the Alhambra across the valley."
+   "description": "A viewpoint terrace in the Albaicín, the old Moorish quarter, facing the Alhambra across the valley.",
+   "wikipedia": "Mirador de San Nicolás",
+   "wikipediaLang": "es"
   },
   {
    "id": "plaza-larga",
@@ -4932,7 +4951,8 @@
    "places": [
     "Plaza Larga, Albaicín"
    ],
-   "description": "A small square in the Albaicín, the old Moorish quarter, next to a medieval city gate."
+   "description": "A small square in the Albaicín, the old Moorish quarter, next to a medieval city gate.",
+   "photoSearch": true
   },
   {
    "id": "royal-chapel",
@@ -4978,7 +4998,8 @@
     "Bruges City Hall, Burg"
    ],
    "description": "A square with the Gothic city hall and the Basilica of the Holy Blood, a chapel built to hold a relic said to be Christ’s blood.",
-   "wikipedia": "Burg (Bruges)"
+   "wikipedia": "Burg (Brugge)",
+   "wikipediaLang": "nl"
   },
   {
    "id": "st-johns-hospital",
@@ -5017,7 +5038,8 @@
     "Begijnhof"
    ],
    "description": "A walled courtyard of white houses around a lawn, founded in the 1200s for beguines, laywomen who lived in a religious community.",
-   "wikipedia": "Princely Beguinage Ten Wijngaerde"
+   "wikipedia": "Begijnhof (Brugge)",
+   "wikipediaLang": "nl"
   },
   {
    "id": "prinsenhof",
@@ -5027,7 +5049,8 @@
     "Prinsenhof"
    ],
    "description": "A former residence of the dukes of Burgundy, who ruled Flanders and held court here in the 1400s. It is now a hotel.",
-   "wikipedia": "Prinsenhof (Bruges)"
+   "wikipedia": "Prinsenhof (Brugge)",
+   "wikipediaLang": "nl"
   }
  ],
  "Sarajevo": [
@@ -5038,7 +5061,9 @@
    "places": [
     "Sarajevo Youth Theatre"
    ],
-   "description": "A theater in the city center that kept staging plays and concerts throughout the siege of 1992 to 1996."
+   "description": "A theater in the city center that kept staging plays and concerts throughout the siege of 1992 to 1996.",
+   "wikipedia": "Pozorište mladih Sarajevo",
+   "wikipediaLang": "bs"
   },
   {
    "id": "hotel-holiday",
@@ -5048,7 +5073,8 @@
     "Hotel Holiday (former Holiday Inn)"
    ],
    "description": "A yellow hotel opened for the 1984 Winter Olympics, which housed foreign journalists during the siege of Sarajevo.",
-   "wikipedia": "Hotel Holiday (Sarajevo)"
+   "wikipedia": "Hotel Holiday (Sarajevo)",
+   "photoSearch": true
   },
   {
    "id": "national-museum",
@@ -5171,7 +5197,9 @@
    "places": [
     "Faculty of Arts, University of Ljubljana"
    ],
-   "description": "The humanities faculty of the University of Ljubljana, Slovenia’s oldest university."
+   "description": "The humanities faculty of the University of Ljubljana, Slovenia’s oldest university.",
+   "wikipedia": "Filozofska fakulteta v Ljubljani",
+   "wikipediaLang": "sl"
   },
   {
    "id": "republic-square",
@@ -5213,7 +5241,8 @@
     "Bastejkalns Park"
    ],
    "description": "A small hill park by the city canal, where people were shot during the January 1991 barricades. Memorial stones mark the spots.",
-   "wikipedia": "Bastejkalns"
+   "wikipedia": "Bastejkalns",
+   "wikipediaLang": "lv"
   },
   {
    "id": "dome-square",
@@ -5223,7 +5252,8 @@
     "Dome Square"
    ],
    "description": "The largest square in the old town, beside Riga Cathedral, the Lutheran cathedral begun in 1211.",
-   "wikipedia": "Dome Square"
+   "wikipedia": "Doma laukums",
+   "wikipediaLang": "lv"
   },
   {
    "id": "mezaparks-great-stage",
@@ -5233,7 +5263,8 @@
     "Mežaparks Great Stage"
    ],
    "description": "An open-air stage in a pine forest park in northern Riga, built for Latvia’s national song and dance festivals.",
-   "wikipedia": "Mežaparks Great Bandstand"
+   "wikipedia": "Mežaparka Lielā estrāde",
+   "wikipediaLang": "lv"
   },
   {
    "id": "national-museum-of-art",
@@ -5275,7 +5306,8 @@
    "places": [
     "Monument to Romain Gary"
    ],
-   "description": "A statue of a boy holding a shoe, honoring the French writer Romain Gary, who spent part of his childhood on this street."
+   "description": "A statue of a boy holding a shoe, honoring the French writer Romain Gary, who spent part of his childhood on this street.",
+   "photoSearch": true
   },
   {
    "id": "vilnius-tv-tower",
@@ -5285,7 +5317,8 @@
     "Vilnius TV Tower"
    ],
    "description": "A 326-meter TV tower where Soviet troops killed unarmed civilians on January 13, 1991.",
-   "wikipedia": "Vilnius TV Tower"
+   "wikipedia": "Vilniaus televizijos bokštas",
+   "wikipediaLang": "lt"
   },
   {
    "id": "vilna-gaon-monument",
@@ -5294,7 +5327,8 @@
    "places": [
     "Vilna Gaon monument, Žydų gatvė"
    ],
-   "description": "A bust of the Vilna Gaon, an 18th-century rabbi and scholar, on a street of the old Jewish quarter."
+   "description": "A bust of the Vilna Gaon, an 18th-century rabbi and scholar, on a street of the old Jewish quarter.",
+   "photoSearch": true
   },
   {
    "id": "vilnius-cathedral",
@@ -5326,7 +5360,9 @@
    "places": [
     "Jean Moulin Memorial, Caluire"
    ],
-   "description": "The house in Caluire where the Gestapo arrested Jean Moulin, leader of the French Resistance, in 1943. It is now a memorial."
+   "description": "The house in Caluire where the Gestapo arrested Jean Moulin, leader of the French Resistance, in 1943. It is now a memorial.",
+   "wikipedia": "Maison du docteur Dugoujon",
+   "wikipediaLang": "fr"
   },
   {
    "id": "chrd",
@@ -5356,7 +5392,9 @@
    "places": [
     "La Longue Traboule"
    ],
-   "description": "A traboule, a covered passage through the courtyards of old houses, in Vieux Lyon, the city’s Renaissance quarter."
+   "description": "A traboule, a covered passage through the courtyards of old houses, in Vieux Lyon, the city’s Renaissance quarter.",
+   "wikipedia": "Traboule",
+   "wikipediaLang": "fr"
   },
   {
    "id": "roman-theaters",
@@ -5452,7 +5490,9 @@
    "places": [
     "Palais de Justice"
    ],
-   "description": "The neoclassical courthouse where the Vichy official Maurice Papon was tried in 1997 and 1998 for the deportation of Jews."
+   "description": "The neoclassical courthouse where the Vichy official Maurice Papon was tried in 1997 and 1998 for the deportation of Jews.",
+   "wikipedia": "Palais de justice de Bordeaux",
+   "wikipediaLang": "fr"
   },
   {
    "id": "grand-theatre",
@@ -5472,7 +5512,8 @@
    "places": [
     "Musée du Vin et du Négoce, Chartrons"
    ],
-   "description": "A museum of the wine trade in the cellars of an 18th-century merchant’s house in the Chartrons quarter."
+   "description": "A museum of the wine trade in the cellars of an 18th-century merchant’s house in the Chartrons quarter.",
+   "photoSearch": true
   },
   {
    "id": "place-des-quinconces",
@@ -5484,7 +5525,8 @@
     "Statue of Montaigne, Place des Quinconces"
    ],
    "description": "One of the largest squares in Europe, with a tall monument to the Girondins, a group of revolutionaries, and statues of two writers.",
-   "wikipedia": "Esplanade des Quinconces"
+   "wikipedia": "Place des Quinconces",
+   "wikipediaLang": "fr"
   },
   {
    "id": "sousa-mendes-statue",
@@ -5493,7 +5535,8 @@
    "places": [
     "Statue of Aristides de Sousa Mendes"
    ],
-   "description": "A statue of the Portuguese consul who issued thousands of visas to refugees in Bordeaux in June 1940."
+   "description": "A statue of the Portuguese consul who issued thousands of visas to refugees in Bordeaux in June 1940.",
+   "photoSearch": true
   },
   {
    "id": "place-de-la-bourse",
