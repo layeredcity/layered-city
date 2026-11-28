@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Sarajevo",
- "started": "2026-11-28T06:29:36.849Z",
+ "started": "2026-11-28T06:31:58.095Z",
  "created": [
   "city: Sarajevo (map zoom delta 1, map height 800)",
   "podcast: The assassination",
@@ -67,5 +67,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T06:29:40.332Z"
+ "finished": "2026-11-28T06:33:08.826Z"
 }
