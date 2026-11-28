@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Salzburg",
- "started": "2026-11-28T16:39:37.361Z",
+ "started": "2026-11-28T16:51:43.030Z",
  "created": [
   "podcast: Christian Doppler",
   "podcast: Paracelsus"
@@ -16,5 +16,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T16:39:38.886Z"
+ "finished": "2026-11-28T16:51:52.380Z"
 }
