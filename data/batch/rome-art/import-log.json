@@ -1,0 +1,19 @@
+{
+ "mode": "dry-run",
+ "city": "Rome",
+ "started": "2026-11-28T17:45:36.891Z",
+ "created": [
+  "podcast: Sick Bacchus by Caravaggio",
+  "podcast: The Stufetta of Cardinal Bibbiena"
+ ],
+ "skipped": [
+  "city: Rome already exists"
+ ],
+ "channels": [
+  "podcast: ArtCurious Podcast"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T17:45:38.472Z"
+}
