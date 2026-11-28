@@ -1,14 +1,47 @@
 [
  {
   "city": "Nice",
-  "url": "https://voicemap.me/tour/nice/navigating-nice-s-belle-epoque-a-guide-to-the-unesco-heritage-city"
+  "title": "Navigating Nice’s Belle Epoque: A Guide to the UNESCO Heritage City",
+  "creator": "Helga Spitaler",
+  "minutes": 90,
+  "distanceKm": 4,
+  "priceUsd": 9.99,
+  "rating": 4.8,
+  "numberOfRatings": 28,
+  "url": "https://voicemap.me/tour/nice/navigating-nice-s-belle-epoque-a-guide-to-the-unesco-heritage-city",
+  "place": "Opéra de Nice",
+  "lat": 43.6955,
+  "lon": 7.2722,
+  "description": "A walk from the opera house along the Promenade des Anglais, past the palace hotels and the Albert I garden, into the Carré d’Or, the neighborhood of villas and churches built when Nice became a winter resort."
  },
  {
   "city": "Nice",
-  "url": "https://voicemap.me/tour/nice/the-best-of-nice-s-old-town-highlights-legends-and-secret-spots"
+  "title": "The Best of Nice’s Old Town: Highlights, Legends and Secret Spots",
+  "creator": "Aslam Nathoo",
+  "minutes": 120,
+  "distanceKm": 2,
+  "priceUsd": 11.99,
+  "rating": 4.6,
+  "numberOfRatings": 159,
+  "url": "https://voicemap.me/tour/nice/the-best-of-nice-s-old-town-highlights-legends-and-secret-spots",
+  "place": "Opéra–Vieille Ville tram stop",
+  "lat": 43.6992,
+  "lon": 7.2758,
+  "description": "A walk down Rue Droite, one of the oldest streets in Nice, past the Baroque Palais Lascaris and the old Jewish quarter to the Cours Saleya market, ending at a bell tower you can climb."
  },
  {
   "city": "Nice",
-  "url": "https://voicemap.me/tour/nice/nice-walking-tour-historical-highlights-from-vieux-nice-to-castle-hill"
+  "title": "Nice Walking Tour: Historical Highlights from Vieux Nice to Castle Hill",
+  "creator": "Kathleen",
+  "minutes": 120,
+  "distanceKm": 2,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 64,
+  "url": "https://voicemap.me/tour/nice/nice-walking-tour-historical-highlights-from-vieux-nice-to-castle-hill",
+  "place": "Place Masséna",
+  "lat": 43.6979,
+  "lon": 7.2712,
+  "description": "A walk from Place Masséna through the flower market, past the cathedral on Place Rossetti, and along the seafront, then up Castle Hill for the view over the Bay of Angels."
  }
 ]
