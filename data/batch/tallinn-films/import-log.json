@@ -1,0 +1,16 @@
+{
+ "mode": "dry-run",
+ "city": "Tallinn",
+ "started": "2026-11-28T06:35:40.305Z",
+ "created": [
+  "movie: Disco and Atomic War"
+ ],
+ "skipped": [
+  "city: Tallinn already exists"
+ ],
+ "channels": [],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T06:35:41.812Z"
+}
