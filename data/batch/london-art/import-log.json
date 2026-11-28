@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "London",
- "started": "2026-11-28T17:46:18.955Z",
+ "started": "2026-11-28T18:02:38.604Z",
  "created": [
   "podcast: The Rokeby Venus by Diego Velázquez",
   "video: Whistlejacket by George Stubbs",
@@ -16,11 +16,10 @@
   "city: London already exists"
  ],
  "channels": [
-  "podcast: ArtCurious Podcast",
   "video: The National Gallery"
  ],
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T17:46:20.673Z"
+ "finished": "2026-11-28T18:02:50.266Z"
 }
