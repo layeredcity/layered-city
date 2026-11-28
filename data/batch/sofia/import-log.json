@@ -1,7 +1,7 @@
 {
  "mode": "dry-run",
  "city": "Sofia",
- "started": "2026-11-28T15:32:39.532Z",
+ "started": "2026-11-28T15:33:38.950Z",
  "created": [
   "city: Sofia (map zoom delta 1, map height 800)",
   "podcast: Khan Krum takes Serdica",
@@ -67,11 +67,7 @@
   "video: FIFA"
  ],
  "drafts": [],
- "warnings": [
-  "book \"What Belongs to You\": no ISBN found"
- ],
- "errors": [
-  "video \"The Soviet Army monument\": new video channel \"Radio Free Europe/Radio Liberty\" has no artwork to use as its icon"
- ],
- "finished": "2026-11-28T15:32:41.331Z"
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T15:33:40.548Z"
 }
