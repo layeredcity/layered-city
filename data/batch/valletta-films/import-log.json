@@ -1,0 +1,16 @@
+{
+ "mode": "dry-run",
+ "city": "Valletta",
+ "started": "2026-11-28T06:34:04.314Z",
+ "created": [
+  "movie: Luzzu"
+ ],
+ "skipped": [
+  "city: Valletta already exists"
+ ],
+ "channels": [],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T06:34:05.483Z"
+}
