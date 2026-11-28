@@ -6,7 +6,14 @@
   "place": "Cathedral Square",
   "lat": 54.6859,
   "lon": 25.287,
-  "description": "A walk through the old town from Cathedral Square past the grand dukes’ palace, the university, and Town Hall Square to the Gate of Dawn, with stops for chocolate, cheese, and local beer."
+  "description": "A walk through the old town from Cathedral Square past the grand dukes’ palace, the university, and Town Hall Square to the Gate of Dawn, with stops for chocolate, cheese, and local beer.",
+  "creator": "Agnieska Kasinska",
+  "minutes": 60,
+  "distanceKm": 2,
+  "priceUsd": 11.99,
+  "rating": 4.8,
+  "numberOfRatings": 178,
+  "image": "https://media.voicemap.me/public/routes/images/000/003/751/original/Cathedral_Square_crop.jpg"
  },
  {
   "city": "Vilnius",
@@ -15,7 +22,14 @@
   "place": "Orthodox Cathedral of the Theotokos",
   "lat": 54.6812,
   "lon": 25.2923,
-  "description": "A walk along the Vilnelė river into Užupis, past its bridges, public art, the Angel of Užupis, and the Constitution, to Bernardine Cemetery and the new Paupys district."
+  "description": "A walk along the Vilnelė river into Užupis, past its bridges, public art, the Angel of Užupis, and the Constitution, to Bernardine Cemetery and the new Paupys district.",
+  "creator": "Vilnius With Locals",
+  "minutes": 120,
+  "distanceKm": 2,
+  "priceUsd": 14.99,
+  "rating": 4.6,
+  "numberOfRatings": 14,
+  "image": "https://media.voicemap.me/public/routes/images/000/012/437/original/Background_1750242601.jpg"
  },
  {
   "city": "Vilnius",
@@ -24,6 +38,13 @@
   "place": "Lukiškės Square",
   "lat": 54.6892,
   "lon": 25.2712,
-  "description": "A bike tour beyond the old town, from Lukiškės Square past the street art of the Open Gallery and the old Halės market, on bike paths around the city."
+  "description": "A bike tour beyond the old town, from Lukiškės Square past the street art of the Open Gallery and the old Halės market, on bike paths around the city.",
+  "creator": "Bike Baltic",
+  "minutes": 150,
+  "distanceKm": 11,
+  "priceUsd": 5.99,
+  "rating": null,
+  "numberOfRatings": null,
+  "image": "https://media.voicemap.me/public/routes/images/000/006/280/original/Vilnius_Stotis_1260_baner.jpg"
  }
 ]
