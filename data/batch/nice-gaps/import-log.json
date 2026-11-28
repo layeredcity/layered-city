@@ -1,0 +1,21 @@
+{
+ "mode": "dry-run",
+ "city": "Nice",
+ "started": "2026-11-28T16:40:25.234Z",
+ "created": [
+  "podcast: A diary from wartime Nice",
+  "video: Garibaldi, born in Nice",
+  "video: The carnival"
+ ],
+ "skipped": [
+  "city: Nice already exists"
+ ],
+ "channels": [
+  "video: Biographics",
+  "video: Riviera Go!"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:40:26.850Z"
+}
