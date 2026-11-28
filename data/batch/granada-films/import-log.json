@@ -1,0 +1,18 @@
+{
+ "mode": "dry-run",
+ "city": "Granada",
+ "started": "2026-11-28T06:34:46.496Z",
+ "created": [
+  "movie: Blood Wedding",
+  "movie: La luz prodigiosa",
+  "movie: Sacromonte, los sabios de la tribu"
+ ],
+ "skipped": [
+  "city: Granada already exists"
+ ],
+ "channels": [],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T06:34:47.735Z"
+}
