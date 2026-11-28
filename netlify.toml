@@ -6,3 +6,8 @@
 # Cover images used to be mirrored into Contentful by Netlify functions here.
 # They now live in this repo instead: see scripts/sync-covers.mjs and
 # .github/workflows/sync-covers.yml.
+
+# Only build when something the site is made from changed. Most commits are
+# workflow output under data/ and scripts/, which the site never reads.
+[build]
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- src public index.html package.json package-lock.json vite.config.js netlify.toml"
