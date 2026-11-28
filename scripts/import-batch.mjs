@@ -195,7 +195,8 @@ async function channelFor(name, mediaType, iconUrl, publisherName) {
 
 // ---------------------------------------------------------------- stories
 const existing = cityId && !cityId.startsWith('dry') ? await all(`/entries?content_type=story&fields.relatedCity.sys.id=${cityId}`) : []
-const have = new Set(existing.map(s => norm(s.fields.storyTitle?.[L])))
+// Keyed by media type too, so a book and a song with the same title can coexist.
+const have = new Set(existing.map(s => s.fields.mediaType?.[L] + ':' + norm(s.fields.storyTitle?.[L])))
 const spotifySearch = q => 'https://open.spotify.com/search/' + encodeURIComponent(q)
 const appleSearch = q => 'https://podcasts.apple.com/us/search?term=' + encodeURIComponent(q)
 async function openLibrary(title, author) {
@@ -208,7 +209,7 @@ async function openLibrary(title, author) {
 }
 async function addStory(item, type, extra) {
   const title = item.title
-  if (have.has(norm(title))) { log.skipped.push(`${type}: ${title} (already in ${city.cityName})`); return }
+  if (have.has(type + ':' + norm(title))) { log.skipped.push(`${type}: ${title} (already in ${city.cityName})`); return }
   const fields = {
     storyTitle: loc(title), storyDescription: loc(item.description), relatedCity: loc(link(cityId)),
     storyLocation: loc({ lat: item.lat, lon: item.lon }), mediaType: loc(type),
@@ -218,7 +219,7 @@ async function addStory(item, type, extra) {
   if (!fields.mediaUrl) throw new Error(`${type} "${title}" has no link (mediaUrl)`)
   const draft = !!item.draft
   await createEntry('story', fields, { draft })
-  have.add(norm(title))
+  have.add(type + ':' + norm(title))
   log.created.push(`${type}: ${title}`)
   if (draft) log.drafts.push(`${title}: ${item.draftReason || 'marked draft'}`)
 }
