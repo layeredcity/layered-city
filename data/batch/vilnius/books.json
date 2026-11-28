@@ -1,0 +1,62 @@
+[
+ {
+  "type": "book",
+  "city": "Vilnius",
+  "title": "Vilnius: City of Strangers",
+  "author": "Laimonas Briedis",
+  "year": 2009,
+  "genre": "history",
+  "place": "Gate of Dawn",
+  "lat": 54.6744,
+  "lon": 25.2895,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Laimonas%20Briedis%20Vilnius%3A%20City%20of%20Strangers",
+  "bookshop": "https://bookshop.org/search?keywords=Laimonas%20Briedis%20Vilnius%3A%20City%20of%20Strangers",
+  "description": "A history of Vilnius told through the outsiders who passed through it: crusaders, merchants, Napoleon’s retreating army, Russian officials, and Jewish scholars. The Gate of Dawn is the last of the old city gates."
+ },
+ {
+  "type": "book",
+  "city": "Vilnius",
+  "title": "Native Realm",
+  "author": "Czesław Miłosz",
+  "year": 1959,
+  "genre": "memoir",
+  "place": "Vilnius University",
+  "lat": 54.6826,
+  "lon": 25.2876,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Czes%C5%82aw%20Mi%C5%82osz%20Native%20Realm",
+  "bookshop": "https://bookshop.org/search?keywords=Czes%C5%82aw%20Mi%C5%82osz%20Native%20Realm",
+  "description": "The Nobel Prize-winning poet’s memoir of growing up in Wilno, as Vilnius was called when it was part of Poland, and studying at its university in the 1930s, in a city of Poles, Jews, Lithuanians, and Russians."
+ },
+ {
+  "type": "book",
+  "city": "Vilnius",
+  "title": "Promise at Dawn",
+  "author": "Romain Gary",
+  "year": 1960,
+  "genre": "memoir",
+  "place": "Monument to Romain Gary",
+  "lat": 54.6806,
+  "lon": 25.273,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=Romain%20Gary%20Promise%20at%20Dawn",
+  "bookshop": "https://bookshop.org/search?keywords=Romain%20Gary%20Promise%20at%20Dawn",
+  "description": "Romain Gary’s funny, moving memoir of his mother. A statue of the boy Gary, holding a shoe, stands near the house where they lived, recalling a scene from the book."
+ },
+ {
+  "type": "book",
+  "city": "Vilnius",
+  "title": "The Book Smugglers",
+  "author": "David E. Fishman",
+  "year": 2017,
+  "genre": "history",
+  "place": "Former YIVO building, Vivulskio gatvė",
+  "lat": 54.6787,
+  "lon": 25.2652,
+  "isbn": "",
+  "goodreads": "https://goodreads.com/search?q=David%20E.%20Fishman%20The%20Book%20Smugglers",
+  "bookshop": "https://bookshop.org/search?keywords=David%20E.%20Fishman%20The%20Book%20Smugglers",
+  "description": "The story of the Paper Brigade, the ghetto poets and scholars who hid Jewish books and documents from the Nazis, and recovered some of them after the war. The Nazis sorted the books in YIVO’s old headquarters."
+ }
+]

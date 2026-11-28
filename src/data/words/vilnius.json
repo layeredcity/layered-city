@@ -1,0 +1,303 @@
+{
+ "city": "Vilnius",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Geležinis vilkas",
+   "phonetic": "geh-leh-ZHEE-nis VEEL-kahs",
+   "context": "The Iron Wolf. In the legend, Grand Duke Gediminas dreamed of an iron wolf howling on a hill and founded Vilnius there.",
+   "deepCutOrder": 1,
+   "id": "vilnius-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Krepšinis",
+   "phonetic": "krep-SHEE-nis",
+   "context": "Basketball, often called Lithuania’s second religion. A national team game empties the streets.",
+   "deepCutOrder": 2,
+   "id": "vilnius-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Rūpintojėlis",
+   "phonetic": "roo-peen-toh-YEH-lis",
+   "context": "The Pensive Christ, a wooden carving of Jesus sitting with his head in his hand. Found at roadsides and in homes all over the country.",
+   "deepCutOrder": 3,
+   "id": "vilnius-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Sutartinės",
+   "phonetic": "soo-tar-TEE-nehs",
+   "context": "Old polyphonic songs sung by small groups of women, with voices overlapping in a hypnotic round. Listed by UNESCO.",
+   "deepCutOrder": 4,
+   "id": "vilnius-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Kaziuko mugė",
+   "phonetic": "kah-ZYOO-koh MOO-geh",
+   "context": "Kaziukas Fair, held in the old town every March since the 1600s, with crafts, food, and verbos, bundles of dried flowers.",
+   "deepCutOrder": 5,
+   "id": "vilnius-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Užupis",
+   "phonetic": "OO-zhoo-pis",
+   "context": "“Beyond the river.” The artists’ neighborhood that declared itself a republic in 1997 and celebrates its independence every April 1.",
+   "deepCutOrder": 6,
+   "id": "vilnius-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Labas rytas",
+   "phonetic": "LAH-bahs REE-tahs",
+   "meaning": "good morning",
+   "id": "vilnius-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Laba diena",
+   "phonetic": "LAH-bah dyeh-NAH",
+   "meaning": "good afternoon",
+   "context": "Used for most of the day.",
+   "id": "vilnius-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Labas vakaras",
+   "phonetic": "LAH-bahs VAH-kah-rahs",
+   "meaning": "good evening",
+   "id": "vilnius-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Labas",
+   "phonetic": "LAH-bahs",
+   "meaning": "hello (casual)",
+   "context": "“Sveiki” (svay-KEE) is a polite hello.",
+   "id": "vilnius-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Viso gero",
+   "phonetic": "VEE-soh GEH-roh",
+   "meaning": "leaving a shop or café",
+   "context": "Literally “all the best.”",
+   "id": "vilnius-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Prašau",
+   "phonetic": "prah-SHOW",
+   "meaning": "please",
+   "context": "Also “you’re welcome” and “here you go.”",
+   "id": "vilnius-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Ačiū",
+   "phonetic": "AH-choo",
+   "meaning": "thank you",
+   "context": "Sounds like a sneeze, which locals know and joke about.",
+   "id": "vilnius-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Taip",
+   "phonetic": "tayp",
+   "meaning": "yes",
+   "id": "vilnius-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Ne",
+   "phonetic": "neh",
+   "meaning": "no",
+   "id": "vilnius-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Ar kalbate angliškai?",
+   "phonetic": "ar KAHL-bah-teh AHNG-leesh-kai",
+   "meaning": "do you speak English?",
+   "id": "vilnius-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Atsiprašau",
+   "phonetic": "aht-see-prah-SHOW",
+   "meaning": "sorry",
+   "id": "vilnius-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Atsiprašau",
+   "phonetic": "aht-see-prah-SHOW",
+   "meaning": "excuse me (getting attention)",
+   "context": "The same word works for sorry.",
+   "id": "vilnius-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Leiskite praeiti",
+   "phonetic": "LAYS-kee-teh prah-AY-tee",
+   "meaning": "excuse me (squeezing past)",
+   "context": "“Atsiprašau” works too.",
+   "id": "vilnius-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Vienas",
+   "phonetic": "VYEH-nahs",
+   "meaning": "one",
+   "id": "vilnius-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Du",
+   "phonetic": "doo",
+   "meaning": "two",
+   "id": "vilnius-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Trys",
+   "phonetic": "trees",
+   "meaning": "three",
+   "id": "vilnius-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Keturi",
+   "phonetic": "keh-too-RIH",
+   "meaning": "four",
+   "id": "vilnius-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Penki",
+   "phonetic": "pen-KIH",
+   "meaning": "five",
+   "id": "vilnius-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "Meniu, prašau",
+   "phonetic": "meh-NYOO prah-SHOW",
+   "meaning": "the menu, please",
+   "id": "vilnius-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Skanaus",
+   "phonetic": "skah-NOWS",
+   "meaning": "enjoy your meal",
+   "id": "vilnius-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Į sveikatą",
+   "phonetic": "ee svay-KAH-tah",
+   "meaning": "cheers",
+   "context": "Literally “to health.”",
+   "id": "vilnius-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Skanu!",
+   "phonetic": "skah-NOO",
+   "meaning": "delicious!",
+   "id": "vilnius-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Sąskaitą, prašau",
+   "phonetic": "SAHS-kai-tah prah-SHOW",
+   "meaning": "the check, please",
+   "id": "vilnius-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Arbatpinigiai",
+   "phonetic": "ar-baht-pee-NEE-gyai",
+   "meaning": "tip",
+   "context": "Literally “tea money.” About 10 percent is usual in restaurants. Card machines often ask before you pay.",
+   "id": "vilnius-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Kur yra…?",
+   "phonetic": "koor ee-RAH",
+   "meaning": "where is…?",
+   "id": "vilnius-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Bilietas",
+   "phonetic": "BEE-lyeh-tahs",
+   "meaning": "ticket",
+   "id": "vilnius-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Tualetas",
+   "phonetic": "too-ah-LEH-tahs",
+   "meaning": "bathroom",
+   "context": "Often marked WC.",
+   "id": "vilnius-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Vyrai",
+   "phonetic": "VEE-rai",
+   "meaning": "men",
+   "context": "Often marked with a triangle pointing down.",
+   "id": "vilnius-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Moterys",
+   "phonetic": "MOH-teh-rees",
+   "meaning": "women",
+   "context": "Often marked with a triangle pointing up.",
+   "id": "vilnius-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Bankomatas",
+   "phonetic": "bahn-koh-MAH-tahs",
+   "meaning": "ATM",
+   "id": "vilnius-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Kiek kainuoja?",
+   "phonetic": "kyek kai-NWOH-yah",
+   "meaning": "how much?",
+   "id": "vilnius-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Kortelė",
+   "phonetic": "kor-TEH-leh",
+   "meaning": "credit card",
+   "id": "vilnius-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Grynieji",
+   "phonetic": "gree-NYEH-yee",
+   "meaning": "cash",
+   "id": "vilnius-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Maišelio?",
+   "phonetic": "MAI-sheh-lyoh",
+   "meaning": "bag?",
+   "id": "vilnius-bag"
+  }
+ ]
+}

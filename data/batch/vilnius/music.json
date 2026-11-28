@@ -1,0 +1,50 @@
+[
+ {
+  "type": "music",
+  "city": "Vilnius",
+  "title": "Miške (In the Forest)",
+  "artist": "Mikalojus Konstantinas Čiurlionis",
+  "year": 1901,
+  "genre": "classical",
+  "place": "M. K. Čiurlionis House",
+  "lat": 54.6793,
+  "lon": 25.2895,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Mikalojus%20Konstantinas%20%C4%8Ciurlionis%20Mi%C5%A1ke%20%28In%20the%20Forest%29",
+  "apple": "https://music.apple.com/us/search?term=Mikalojus%20Konstantinas%20%C4%8Ciurlionis%20Mi%C5%A1ke%20%28In%20the%20Forest%29",
+  "description": "The first Lithuanian symphonic poem, by Čiurlionis, a composer and painter who lived briefly in this house on Vilnius’s narrowest street. He died in 1911, aged 35."
+ },
+ {
+  "type": "music",
+  "city": "Vilnius",
+  "title": "Zog nit keyn mol",
+  "artist": "Hirsh Glik",
+  "year": 1943,
+  "genre": "Yiddish song",
+  "place": "Rūdninkų Street, former large ghetto",
+  "lat": 54.6779,
+  "lon": 25.2826,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Hirsh%20Glik%20Zog%20nit%20keyn%20mol",
+  "apple": "https://music.apple.com/us/search?term=Hirsh%20Glik%20Zog%20nit%20keyn%20mol",
+  "description": "“Never Say,” a Yiddish song written in the Vilna ghetto by the young poet Hirsh Glik after news of the Warsaw ghetto uprising. It became the hymn of Jewish partisans and is sung at Holocaust memorials."
+ },
+ {
+  "type": "music",
+  "city": "Vilnius",
+  "title": "Peaches en Regalia",
+  "artist": "Frank Zappa",
+  "year": 1969,
+  "genre": "rock",
+  "place": "Monument to Frank Zappa",
+  "lat": 54.6829,
+  "lon": 25.276,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Frank%20Zappa%20Peaches%20en%20Regalia",
+  "apple": "https://music.apple.com/us/search?term=Frank%20Zappa%20Peaches%20en%20Regalia",
+  "description": "Frank Zappa never visited Lithuania, but in 1995 local fans put up a bust of him, the world’s first, as a joke on the Soviet habit of statues and a test of the new freedom."
+ }
+]

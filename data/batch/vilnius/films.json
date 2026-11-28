@@ -1,0 +1,62 @@
+[
+ {
+  "type": "movie",
+  "city": "Vilnius",
+  "title": "Partisans of Vilna",
+  "creator": "Josh Waletzky",
+  "year": 1986,
+  "genre": "documentary",
+  "place": "Rūdninkų Street, former large ghetto",
+  "lat": 54.6779,
+  "lon": 25.2826,
+  "minutes": 130,
+  "imdb": "tt0091726",
+  "justwatch": "https://justwatch.com/us/search?q=Partisans%20of%20Vilna",
+  "description": "A documentary on the young Jews who formed an underground army in the Vilna ghetto in 1942 and fought on as partisans in the forests, told by survivors including the poet Abba Kovner. In English and Yiddish."
+ },
+ {
+  "type": "movie",
+  "city": "Vilnius",
+  "title": "Ghetto",
+  "creator": "Audrius Juzėnas",
+  "year": 2005,
+  "genre": "drama",
+  "place": "Rūdninkų Street, former large ghetto",
+  "lat": 54.6779,
+  "lon": 25.2826,
+  "minutes": null,
+  "imdb": "tt0783522",
+  "justwatch": "https://justwatch.com/us/search?q=Ghetto",
+  "description": "Based on Joshua Sobol’s play about the theater that Jewish actors ran in the Vilna ghetto, and the moral bargains of the ghetto’s Jewish leadership. Filmed in Vilnius."
+ },
+ {
+  "type": "movie",
+  "city": "Vilnius",
+  "title": "Promise at Dawn",
+  "creator": "Eric Barbier",
+  "year": 2017,
+  "genre": "biographical drama",
+  "place": "Monument to Romain Gary",
+  "lat": 54.6806,
+  "lon": 25.273,
+  "minutes": 131,
+  "imdb": "tt5061360",
+  "justwatch": "https://justwatch.com/us/search?q=Promise%20at%20Dawn",
+  "description": "Based on the memoir of the French novelist Romain Gary, who grew up in Vilnius with a fiercely ambitious mother who was sure he would be a great man. Charlotte Gainsbourg plays her. In French."
+ },
+ {
+  "type": "movie",
+  "city": "Vilnius",
+  "title": "Chernobyl",
+  "creator": "Johan Renck",
+  "year": 2019,
+  "genre": "TV miniseries",
+  "place": "Fabijoniškės",
+  "lat": 54.7352,
+  "lon": 25.2467,
+  "minutes": null,
+  "imdb": "tt7366338",
+  "justwatch": "https://justwatch.com/us/search?q=Chernobyl",
+  "description": "HBO’s miniseries about the 1986 nuclear disaster. The Soviet apartment blocks of Fabijoniškės, a Vilnius suburb, stood in for the town of Pripyat, and much of the series was filmed in Lithuania."
+ }
+]
