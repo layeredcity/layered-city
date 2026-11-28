@@ -1,7 +1,7 @@
 {
  "mode": "dry-run",
  "city": "Sarajevo",
- "started": "2026-11-28T05:05:53.896Z",
+ "started": "2026-11-28T06:29:36.849Z",
  "created": [
   "city: Sarajevo (map zoom delta 1, map height 800)",
   "podcast: The assassination",
@@ -23,6 +23,10 @@
   "movie: Miss Sarajevo",
   "movie: Welcome to Sarajevo",
   "movie: In the Land of Blood and Honey",
+  "movie: No Man’s Land",
+  "movie: Grbavica",
+  "movie: Death in Sarajevo",
+  "movie: Quo Vadis, Aida?",
   "book: The Sleepwalkers",
   "book: People of the Book",
   "book: Zlata’s Diary",
@@ -63,5 +67,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T05:05:55.483Z"
+ "finished": "2026-11-28T06:29:40.332Z"
 }
