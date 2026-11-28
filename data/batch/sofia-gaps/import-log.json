@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Sofia",
- "started": "2026-11-28T16:48:02.313Z",
+ "started": "2026-11-28T17:02:15.783Z",
  "created": [
   "video: The Dimitrov mausoleum",
   "video: The death of Tsar Boris"
@@ -15,5 +15,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T16:48:03.883Z"
+ "finished": "2026-11-28T17:02:21.884Z"
 }
