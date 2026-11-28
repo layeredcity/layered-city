@@ -1,0 +1,304 @@
+{
+ "city": "Bordeaux",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Chocolatine",
+   "phonetic": "shoh-koh-lah-TEEN",
+   "context": "The southwest’s word for a pain au chocolat. A long-running and only half-joking rivalry with the rest of France.",
+   "deepCutOrder": 1,
+   "id": "bordeaux-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Gavé",
+   "phonetic": "gah-VAY",
+   "context": "Bordeaux slang for “very” or “a lot,” as in “gavé bon,” really good. Literally “force-fed.”",
+   "deepCutOrder": 2,
+   "id": "bordeaux-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Échoppe",
+   "phonetic": "ay-SHOP",
+   "context": "A low, one-story stone row house with a narrow street front and a long garden behind, built by the thousands for Bordeaux’s workers and artisans.",
+   "deepCutOrder": 3,
+   "id": "bordeaux-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Chai",
+   "phonetic": "shay",
+   "context": "A wine storehouse at ground level, where barrels are kept. In Bordeaux wine is stored in chais rather than underground cellars.",
+   "deepCutOrder": 4,
+   "id": "bordeaux-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Négociant",
+   "phonetic": "nay-goh-SYAHN",
+   "context": "A wine merchant who buys from the châteaux and sells to the world. Their old warehouses line the Chartrons quarter.",
+   "deepCutOrder": 5,
+   "id": "bordeaux-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Poche",
+   "phonetic": "posh",
+   "context": "In Bordeaux, a plastic or paper bag, where most of France would say “sac.”",
+   "deepCutOrder": 6,
+   "id": "bordeaux-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Bonjour",
+   "phonetic": "bong-ZHOOR",
+   "meaning": "good morning / hello",
+   "id": "bordeaux-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Bonjour",
+   "phonetic": "bong-ZHOOR",
+   "meaning": "good afternoon",
+   "context": "Still “bonjour.” French has no separate afternoon greeting.",
+   "id": "bordeaux-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Bonsoir",
+   "phonetic": "bong-SWAHR",
+   "meaning": "good evening",
+   "id": "bordeaux-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Salut",
+   "phonetic": "sah-LEW",
+   "meaning": "hello (casual)",
+   "context": "Fine among friends and young people, but not with someone behind a counter.",
+   "id": "bordeaux-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Au revoir",
+   "phonetic": "oh ruh-VWAHR",
+   "meaning": "leaving a shop or café",
+   "context": "Say it leaving any shop, even empty-handed.",
+   "id": "bordeaux-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "S’il vous plaît",
+   "phonetic": "seel voo PLEH",
+   "meaning": "please",
+   "id": "bordeaux-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Merci",
+   "phonetic": "mehr-SEE",
+   "meaning": "thank you",
+   "context": "Add “madame” or “monsieur” and it sounds much warmer.",
+   "id": "bordeaux-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Oui",
+   "phonetic": "wee",
+   "meaning": "yes",
+   "id": "bordeaux-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Non",
+   "phonetic": "nohng",
+   "meaning": "no",
+   "id": "bordeaux-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Parlez-vous anglais?",
+   "phonetic": "par-lay VOO ahn-GLEH",
+   "meaning": "do you speak English?",
+   "context": "Greet first, then ask.",
+   "id": "bordeaux-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Désolé",
+   "phonetic": "day-zoh-LAY",
+   "meaning": "sorry",
+   "id": "bordeaux-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Excusez-moi",
+   "phonetic": "ex-kew-zay MWAH",
+   "meaning": "excuse me (getting attention)",
+   "id": "bordeaux-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Pardon",
+   "phonetic": "par-DOHN",
+   "meaning": "excuse me (squeezing past)",
+   "id": "bordeaux-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Un",
+   "phonetic": "uhng",
+   "meaning": "one",
+   "id": "bordeaux-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Deux",
+   "phonetic": "duh",
+   "meaning": "two",
+   "id": "bordeaux-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Trois",
+   "phonetic": "twah",
+   "meaning": "three",
+   "id": "bordeaux-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Quatre",
+   "phonetic": "KAT-ruh",
+   "meaning": "four",
+   "id": "bordeaux-number-four"
+  },
+  {
+   "slot": "number-five",
+   "local": "Cinq",
+   "phonetic": "sank",
+   "meaning": "five",
+   "id": "bordeaux-number-five"
+  },
+  {
+   "slot": "menu",
+   "local": "La carte, s’il vous plaît",
+   "phonetic": "lah KART",
+   "meaning": "the menu, please",
+   "context": "“Le menu” is the fixed-price set meal. The list of dishes is “la carte.”",
+   "id": "bordeaux-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Bon appétit",
+   "phonetic": "bon ah-pay-TEE",
+   "meaning": "enjoy your meal",
+   "id": "bordeaux-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Santé",
+   "phonetic": "sahn-TAY",
+   "meaning": "cheers",
+   "context": "Look each person in the eye as you clink.",
+   "id": "bordeaux-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Délicieux!",
+   "phonetic": "day-lee-SYUH",
+   "meaning": "delicious!",
+   "id": "bordeaux-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "L’addition, s’il vous plaît",
+   "phonetic": "lah-dee-SYOHN",
+   "meaning": "the check, please",
+   "context": "It won’t come until you ask.",
+   "id": "bordeaux-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Au comptoir",
+   "phonetic": "oh kohn-TWAHR",
+   "meaning": "at the counter",
+   "context": "Coffee standing at the bar costs less than at a table, which costs less than on the terrace.",
+   "id": "bordeaux-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Où est…?",
+   "phonetic": "oo eh",
+   "meaning": "where is…?",
+   "id": "bordeaux-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Ticket",
+   "phonetic": "tee-KEH",
+   "meaning": "ticket",
+   "id": "bordeaux-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Toilettes",
+   "phonetic": "twah-LET",
+   "meaning": "bathroom",
+   "context": "Always plural. Cafés expect you to have bought something first.",
+   "id": "bordeaux-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Hommes",
+   "phonetic": "om",
+   "meaning": "men",
+   "id": "bordeaux-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Femmes",
+   "phonetic": "fahm",
+   "meaning": "women",
+   "id": "bordeaux-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Distributeur",
+   "phonetic": "dees-tree-bew-TUR",
+   "meaning": "ATM",
+   "context": "Decline the offer to charge you in dollars.",
+   "id": "bordeaux-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Combien?",
+   "phonetic": "kom-BYAN",
+   "meaning": "how much?",
+   "id": "bordeaux-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Carte",
+   "phonetic": "KART",
+   "meaning": "credit card",
+   "context": "Same word as the menu. Context does the work.",
+   "id": "bordeaux-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Espèces",
+   "phonetic": "ess-PESS",
+   "meaning": "cash",
+   "id": "bordeaux-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Sac?",
+   "phonetic": "sahk",
+   "meaning": "bag?",
+   "context": "In Bordeaux you will also hear “poche.” Shops charge for bags.",
+   "id": "bordeaux-bag"
+  }
+ ]
+}

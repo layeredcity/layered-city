@@ -1,0 +1,34 @@
+[
+ {
+  "type": "music",
+  "city": "Bordeaux",
+  "title": "Les Forains",
+  "artist": "Henri Sauguet",
+  "year": 1945,
+  "genre": "ballet",
+  "place": "Grand Théâtre",
+  "lat": 44.8426,
+  "lon": -0.5742,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Henri%20Sauguet%20Les%20Forains",
+  "apple": "https://music.apple.com/us/search?term=Henri%20Sauguet%20Les%20Forains",
+  "description": "“The Traveling Players,” a ballet score about a troupe of street performers, by Sauguet, a composer born in Bordeaux in 1901. The Grand Théâtre, opened in 1780, is home to the city’s opera and ballet."
+ },
+ {
+  "type": "music",
+  "city": "Bordeaux",
+  "title": "Le vent nous portera",
+  "artist": "Noir Désir",
+  "year": 2001,
+  "genre": "rock",
+  "place": "Rock School Barbey",
+  "lat": 44.8269,
+  "lon": -0.5633,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Noir%20D%C3%A9sir%20Le%20vent%20nous%20portera",
+  "apple": "https://music.apple.com/us/search?term=Noir%20D%C3%A9sir%20Le%20vent%20nous%20portera",
+  "description": "“The Wind Will Carry Us,” the best-known song by Noir Désir, the Bordeaux band that was one of France’s biggest rock groups of the 1990s. Barbey, a concert hall and music school, is the heart of the city’s rock scene."
+ }
+]

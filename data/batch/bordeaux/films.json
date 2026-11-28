@@ -1,0 +1,62 @@
+[
+ {
+  "type": "movie",
+  "city": "Bordeaux",
+  "title": "Bon Voyage",
+  "creator": "Jean-Paul Rappeneau",
+  "year": 2003,
+  "genre": "comedy-drama",
+  "place": "Grand Théâtre",
+  "lat": 44.8426,
+  "lon": -0.5742,
+  "minutes": 114,
+  "imdb": "tt0310778",
+  "justwatch": "https://justwatch.com/us/search?q=Bon%20Voyage",
+  "description": "A farce set in Bordeaux in June 1940, when the French government, politicians, and Parisian celebrities fled there ahead of the German army and crowded its grand hotels. With Isabelle Adjani and Gérard Depardieu. In French."
+ },
+ {
+  "type": "movie",
+  "city": "Bordeaux",
+  "title": "The Consul of Bordeaux",
+  "creator": "João Correa & Francisco Manso",
+  "year": 2011,
+  "genre": "historical drama",
+  "place": "Statue of Aristides de Sousa Mendes",
+  "lat": 44.8376,
+  "lon": -0.583,
+  "minutes": null,
+  "imdb": "tt2075263",
+  "justwatch": "https://justwatch.com/us/search?q=The%20Consul%20of%20Bordeaux",
+  "description": "A drama about Aristides de Sousa Mendes, the Portuguese consul who issued visas to thousands of refugees in Bordeaux in June 1940 against his government’s orders. In Portuguese and French."
+ },
+ {
+  "type": "movie",
+  "city": "Bordeaux",
+  "title": "Mondovino",
+  "creator": "Jonathan Nossiter",
+  "year": 2004,
+  "genre": "documentary",
+  "place": "La Cité du Vin",
+  "lat": 44.8624,
+  "lon": -0.5506,
+  "minutes": 135,
+  "imdb": "tt0411674",
+  "justwatch": "https://justwatch.com/us/search?q=Mondovino",
+  "description": "A documentary on the globalization of wine, from Bordeaux’s great châteaux and its star consultant Michel Rolland to small growers who resist. The Cité du Vin, a museum of wine, opened on the river in 2016."
+ },
+ {
+  "type": "movie",
+  "city": "Bordeaux",
+  "title": "Red Obsession",
+  "creator": "David Roach & Warwick Ross",
+  "year": 2013,
+  "genre": "documentary",
+  "place": "Château Lafite Rothschild, Pauillac",
+  "lat": 45.225,
+  "lon": -0.7724,
+  "minutes": 75,
+  "imdb": "tt2419284",
+  "justwatch": "https://justwatch.com/us/search?q=Red%20Obsession",
+  "description": "A documentary, narrated by Russell Crowe, on the rush by Chinese buyers for top Bordeaux wines around 2010, which drove prices to record highs, especially for Château Lafite in Pauillac."
+ }
+]
