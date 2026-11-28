@@ -1,0 +1,308 @@
+{
+ "city": "Salzburg",
+ "words": [
+  {
+   "slot": "deep-cut",
+   "local": "Schnürlregen",
+   "phonetic": "SHNEWR-l-ray-gen",
+   "context": "“String rain”: Salzburg’s steady drizzle, falling in straight lines for days. The city is famous for it, and locals are almost proud.",
+   "deepCutOrder": 1,
+   "id": "salzburg-deep-cut-1"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Festspiele",
+   "phonetic": "FEST-shpee-luh",
+   "context": "The festival, every summer from late July. The city fills with evening dress, and hotel prices double.",
+   "deepCutOrder": 2,
+   "id": "salzburg-deep-cut-2"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Bosna",
+   "phonetic": "BOS-nah",
+   "context": "Salzburg’s sausage sandwich, with onions and curry powder. Order it at the Balkan Grill, through the archway on Getreidegasse.",
+   "deepCutOrder": 3,
+   "id": "salzburg-deep-cut-3"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Halbe",
+   "phonetic": "HAHL-buh",
+   "context": "A half-liter of beer, the standard order. A “Seidl” or “Pfiff” gets you less.",
+   "deepCutOrder": 4,
+   "id": "salzburg-deep-cut-4"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Krampus",
+   "phonetic": "KRAHM-poos",
+   "context": "The horned, chain-rattling companion of St. Nicholas. In early December, Krampus runs through the old town, and the costumes are genuinely frightening.",
+   "deepCutOrder": 5,
+   "id": "salzburg-deep-cut-5"
+  },
+  {
+   "slot": "deep-cut",
+   "local": "Fiaker",
+   "phonetic": "fee-AH-ker",
+   "context": "A horse-drawn carriage for hire. They wait in a line on Residenzplatz.",
+   "deepCutOrder": 6,
+   "id": "salzburg-deep-cut-6"
+  },
+  {
+   "slot": "greeting-morning",
+   "local": "Guten Morgen",
+   "phonetic": "GOO-ten MOR-gen",
+   "meaning": "good morning",
+   "id": "salzburg-greeting-morning"
+  },
+  {
+   "slot": "greeting-afternoon",
+   "local": "Grüß Gott",
+   "phonetic": "grewss GOT",
+   "meaning": "hello / good day",
+   "context": "The Austrian daytime greeting, literally “greet God,” with no religious weight left in it. “Guten Tag” sounds German here.",
+   "id": "salzburg-greeting-afternoon"
+  },
+  {
+   "slot": "greeting-evening",
+   "local": "Guten Abend",
+   "phonetic": "GOO-ten AH-bent",
+   "meaning": "good evening",
+   "groupNote": "“Grüß Gott” covers most of the day, so the morning and evening forms are both optional.",
+   "id": "salzburg-greeting-evening"
+  },
+  {
+   "slot": "greeting-casual",
+   "local": "Servus",
+   "phonetic": "SEHR-voos",
+   "meaning": "hello (casual)",
+   "context": "Both hello and goodbye, for peers only. From the Latin for servant — “at your service.”",
+   "id": "salzburg-greeting-casual"
+  },
+  {
+   "slot": "leaving",
+   "local": "Auf Wiedersehen",
+   "phonetic": "owf VEE-der-zay-en",
+   "meaning": "leaving a shop or café",
+   "context": "“Wiederschauen” (VEE-der-show-en) is the Austrian version, and what you’ll actually hear in shops.",
+   "id": "salzburg-leaving"
+  },
+  {
+   "slot": "please",
+   "local": "Bitte",
+   "phonetic": "BIT-tuh",
+   "meaning": "please",
+   "id": "salzburg-please"
+  },
+  {
+   "slot": "thanks",
+   "local": "Danke",
+   "phonetic": "DAHN-kuh",
+   "meaning": "thank you",
+   "context": "“Danke vielmals” (FEEL-mahls) is the warmer Austrian form.",
+   "id": "salzburg-thanks"
+  },
+  {
+   "slot": "yes",
+   "local": "Ja",
+   "phonetic": "yah",
+   "meaning": "yes",
+   "id": "salzburg-yes"
+  },
+  {
+   "slot": "no",
+   "local": "Nein",
+   "phonetic": "nine",
+   "meaning": "no",
+   "id": "salzburg-no"
+  },
+  {
+   "slot": "speak-english",
+   "local": "Sprechen Sie Englisch?",
+   "phonetic": "SHPREH-khen zee ENG-lish",
+   "meaning": "do you speak English?",
+   "id": "salzburg-speak-english"
+  },
+  {
+   "slot": "sorry",
+   "local": "Entschuldigung",
+   "phonetic": "ent-SHOOL-dee-goong",
+   "meaning": "sorry",
+   "id": "salzburg-sorry"
+  },
+  {
+   "slot": "excuse-attention",
+   "local": "Entschuldigen Sie",
+   "phonetic": "ent-SHOOL-dee-gen zee",
+   "meaning": "excuse me (getting attention)",
+   "context": "To catch a server’s eye. A raised hand and eye contact work better than calling out.",
+   "id": "salzburg-excuse-attention"
+  },
+  {
+   "slot": "excuse-passing",
+   "local": "Darf ich vorbei?",
+   "phonetic": "darf ikh for-BYE",
+   "meaning": "excuse me (squeezing past)",
+   "id": "salzburg-excuse-passing"
+  },
+  {
+   "slot": "number-one",
+   "local": "Eins",
+   "phonetic": "eyns",
+   "meaning": "one",
+   "id": "salzburg-number-one"
+  },
+  {
+   "slot": "number-two",
+   "local": "Zwei",
+   "phonetic": "tsvy",
+   "meaning": "two",
+   "id": "salzburg-number-two"
+  },
+  {
+   "slot": "number-three",
+   "local": "Drei",
+   "phonetic": "dry",
+   "meaning": "three",
+   "id": "salzburg-number-three"
+  },
+  {
+   "slot": "number-four",
+   "local": "Vier",
+   "phonetic": "feer",
+   "meaning": "four",
+   "id": "salzburg-number-four"
+  },
+  {
+   "slot": "menu",
+   "local": "Speisekarte?",
+   "phonetic": "SHPY-zuh-kar-tuh",
+   "meaning": "menu?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Die Speisekarte, bitte.”",
+   "id": "salzburg-menu"
+  },
+  {
+   "slot": "enjoy-meal",
+   "local": "Mahlzeit",
+   "phonetic": "MAHL-tsite",
+   "meaning": "enjoy your meal",
+   "context": "Said around midday, in passing, to anyone eating or about to. “Guten Appetit” is the version used at the table.",
+   "id": "salzburg-enjoy-meal"
+  },
+  {
+   "slot": "cheers",
+   "local": "Prost",
+   "phonetic": "prohst",
+   "meaning": "cheers",
+   "context": "Eye contact with each person as you clink.",
+   "id": "salzburg-cheers"
+  },
+  {
+   "slot": "delicious",
+   "local": "Ausgezeichnet!",
+   "phonetic": "OWS-guh-tsykh-net",
+   "meaning": "delicious!",
+   "id": "salzburg-delicious"
+  },
+  {
+   "slot": "check",
+   "local": "Zahlen?",
+   "phonetic": "TSAH-len",
+   "meaning": "the check?",
+   "context": "If you’re warm and kind, this is enough to get by. More polite version: “Zahlen, bitte.”",
+   "id": "salzburg-check"
+  },
+  {
+   "slot": "money-surprise",
+   "local": "Gedeck",
+   "phonetic": "guh-DECK",
+   "meaning": "cover charge",
+   "context": "Two to five euros a head, covering the linen and the bread basket that arrives unasked. You pay whether you eat it or not.",
+   "id": "salzburg-money-surprise"
+  },
+  {
+   "slot": "where-is",
+   "local": "Wo ist…?",
+   "phonetic": "voh ist",
+   "meaning": "where is…?",
+   "id": "salzburg-where-is"
+  },
+  {
+   "slot": "ticket",
+   "local": "Fahrkarte",
+   "phonetic": "FAR-kar-tuh",
+   "meaning": "ticket",
+   "context": "Buy before boarding the bus, from a machine or the app. Tickets bought from the driver cost more.",
+   "id": "salzburg-ticket"
+  },
+  {
+   "slot": "bathroom",
+   "local": "Toilette",
+   "phonetic": "toy-LET-tuh",
+   "meaning": "bathroom",
+   "context": "“WC” on the door. Cafés expect you to have ordered something first.",
+   "id": "salzburg-bathroom"
+  },
+  {
+   "slot": "door-men",
+   "local": "Herren",
+   "phonetic": "HEH-ren",
+   "meaning": "men",
+   "id": "salzburg-door-men"
+  },
+  {
+   "slot": "door-women",
+   "local": "Damen",
+   "phonetic": "DAH-men",
+   "meaning": "women",
+   "groupNote": "“H” is men, “D” is women. Some places print only the single letters.",
+   "id": "salzburg-door-women"
+  },
+  {
+   "slot": "atm",
+   "local": "Bankomat",
+   "phonetic": "BAHN-koh-maht",
+   "meaning": "ATM",
+   "context": "Austria says “Bankomat,” like Italy and Switzerland. Germany says “Geldautomat,” and it marks you.",
+   "id": "salzburg-atm"
+  },
+  {
+   "slot": "how-much",
+   "local": "Wie viel?",
+   "phonetic": "vee FEEL",
+   "meaning": "how much?",
+   "id": "salzburg-how-much"
+  },
+  {
+   "slot": "card",
+   "local": "Kreditkarte",
+   "phonetic": "kray-DEET-kar-tuh",
+   "meaning": "credit card",
+   "context": "Say it as you hold the card up. Some beer halls and small shops are cash-only.",
+   "id": "salzburg-card"
+  },
+  {
+   "slot": "cash",
+   "local": "Bargeld",
+   "phonetic": "BAR-gelt",
+   "meaning": "cash",
+   "id": "salzburg-cash"
+  },
+  {
+   "slot": "bag",
+   "local": "Sackerl?",
+   "phonetic": "SAH-kerl",
+   "meaning": "bag?",
+   "context": "The Austrian word. A German would say “Tüte,” and saying it here marks you as one.",
+   "id": "salzburg-bag"
+  },
+  {
+   "slot": "number-five",
+   "local": "Fünf",
+   "phonetic": "fewnf",
+   "meaning": "five",
+   "id": "salzburg-number-five"
+  }
+ ]
+}

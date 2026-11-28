@@ -1,0 +1,47 @@
+[
+ {
+  "type": "movie",
+  "city": "Salzburg",
+  "title": "The Trapp Family",
+  "creator": "Wolfgang Liebeneiner",
+  "year": 1956,
+  "genre": "drama",
+  "place": "Villa Trapp, Aigen",
+  "lat": 47.7887,
+  "lon": 13.0814,
+  "minutes": null,
+  "imdb": "tt0049876",
+  "justwatch": "https://justwatch.com/us/search?q=The%20Trapp%20Family",
+  "description": "Die Trapp-Familie: a West German film of Maria von Trapp’s memoir, a big hit in Europe. Its success led to the Broadway musical and then to the Hollywood film, which follow its story closely."
+ },
+ {
+  "type": "movie",
+  "city": "Salzburg",
+  "title": "The Sound of Music",
+  "creator": "Robert Wise",
+  "year": 1965,
+  "genre": "musical",
+  "place": "Mirabell Gardens",
+  "lat": 47.8046,
+  "lon": 13.0423,
+  "minutes": 172,
+  "imdb": "tt0059742",
+  "justwatch": "https://justwatch.com/us/search?q=The%20Sound%20of%20Music",
+  "description": "The Hollywood musical, starring Julie Andrews, about a novice nun who becomes governess to the von Trapp children. It was filmed around Salzburg in 1964, and tours still visit its locations, though many Austrians have never seen it."
+ },
+ {
+  "type": "movie",
+  "city": "Salzburg",
+  "title": "The Salzburg Connection",
+  "creator": "Lee H. Katzin",
+  "year": 1972,
+  "genre": "spy thriller",
+  "place": "Residenzplatz",
+  "lat": 47.7983,
+  "lon": 13.0459,
+  "minutes": null,
+  "imdb": "tt0069212",
+  "justwatch": "https://justwatch.com/us/search?q=The%20Salzburg%20Connection",
+  "description": "A Cold War thriller, based on a Helen MacInnes novel, about an American lawyer on holiday who gets caught up in a hunt for Nazi documents hidden in a lake near Salzburg. It was shot on location in the city."
+ }
+]
