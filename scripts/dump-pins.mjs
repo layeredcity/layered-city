@@ -17,6 +17,9 @@ for (const c of cities) {
     title: i.fields.storyTitle,
     type: i.fields.mediaType || ch[i.fields.channel?.sys?.id]?.mediaType || null,
     place: i.fields.locationName || '',
+    url: i.fields.mediaUrl || null,
+    creator: i.fields.creatorName || null,
+    channel: ch[i.fields.channel?.sys?.id]?.channelName || null,
     lat: +i.fields.storyLocation.lat.toFixed(5),
     lon: +i.fields.storyLocation.lon.toFixed(5),
   }))
