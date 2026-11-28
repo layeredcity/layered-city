@@ -6,7 +6,14 @@
   "place": "Alexander Nevsky Cathedral",
   "lat": 42.696,
   "lon": 23.3325,
-  "description": "A walk along the yellow-brick boulevards from Alexander Nevsky Cathedral past the old royal palace, the parliament, and the Russian church to the Roman ruins of Serdica and the Largo."
+  "description": "A walk along the yellow-brick boulevards from Alexander Nevsky Cathedral past the old royal palace, the parliament, and the Russian church to the Roman ruins of Serdica and the Largo.",
+  "creator": "Vania Todorova",
+  "minutes": 60,
+  "distanceKm": 3,
+  "priceUsd": 11.99,
+  "rating": 4.9,
+  "numberOfRatings": 7,
+  "image": "https://media.voicemap.me/public/routes/images/000/009/530/original/Sofia_Walking_Tour.jpg"
  },
  {
   "city": "Sofia",
@@ -15,7 +22,14 @@
   "place": "Sveta Nedelya Square",
   "lat": 42.6967,
   "lon": 23.3213,
-  "description": "A walk from Sveta Nedelya Square past the Rotunda of St. George, the synagogue and mosque of the “Square of Tolerance,” and the presidency to Alexander Nevsky Cathedral."
+  "description": "A walk from Sveta Nedelya Square past the Rotunda of St. George, the synagogue and mosque of the “Square of Tolerance,” and the presidency to Alexander Nevsky Cathedral.",
+  "creator": "Yulia Lukova",
+  "minutes": 90,
+  "distanceKm": 3,
+  "priceUsd": 11.99,
+  "rating": 4.8,
+  "numberOfRatings": 14,
+  "image": "https://media.voicemap.me/public/routes/images/000/012/909/original/01-sofia-cover-saint-sofia-church_1747917697.jpg"
  },
  {
   "city": "Sofia",
@@ -24,6 +38,13 @@
   "place": "National Palace of Culture",
   "lat": 42.6852,
   "lon": 23.319,
-  "description": "A longer walk from the National Palace of Culture through the center, past the mineral springs, the Banya Bashi mosque, and the Roman ruins, to Alexander Nevsky Cathedral."
+  "description": "A longer walk from the National Palace of Culture through the center, past the mineral springs, the Banya Bashi mosque, and the Roman ruins, to Alexander Nevsky Cathedral.",
+  "creator": "Heidi Nicklaus",
+  "minutes": 90,
+  "distanceKm": 5,
+  "priceUsd": 14.99,
+  "rating": 4.9,
+  "numberOfRatings": 28,
+  "image": "https://media.voicemap.me/public/routes/images/000/010/511/original/Banner3_1742384758.png"
  }
 ]
