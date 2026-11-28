@@ -1,0 +1,50 @@
+[
+ {
+  "type": "music",
+  "city": "Nice",
+  "title": "Le Roi Lear, Op. 4",
+  "artist": "Hector Berlioz",
+  "year": 1831,
+  "genre": "classical",
+  "place": "Tour Bellanda",
+  "lat": 43.6943,
+  "lon": 7.2795,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Hector%20Berlioz%20Le%20Roi%20Lear%2C%20Op.%204",
+  "apple": "https://music.apple.com/us/search?term=Hector%20Berlioz%20Le%20Roi%20Lear%2C%20Op.%204",
+  "description": "Berlioz wrote his King Lear overture in Nice in 1831, after a broken engagement. He later called the weeks he spent there among the happiest of his life. He stayed in the Tour Bellanda, a tower on Castle Hill."
+ },
+ {
+  "type": "music",
+  "city": "Nice",
+  "title": "Nissa la Bella",
+  "artist": "Menica Rondelly",
+  "year": 1903,
+  "genre": "folk song",
+  "place": "Castle Hill",
+  "lat": 43.6952,
+  "lon": 7.281,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/Menica%20Rondelly%20Nissa%20la%20Bella",
+  "apple": "https://music.apple.com/us/search?term=Menica%20Rondelly%20Nissa%20la%20Bella",
+  "description": "“Nice the Beautiful,” written in Nissart, the old language of Nice, by the songwriter Menica Rondelly. It is the city’s unofficial anthem, sung at festivals and by fans of the OGC Nice football club."
+ },
+ {
+  "type": "music",
+  "city": "Nice",
+  "title": "Tumbling Dice",
+  "artist": "The Rolling Stones",
+  "year": 1972,
+  "genre": "rock",
+  "place": "Villa Nellcôte, Villefranche-sur-Mer",
+  "lat": 43.7019,
+  "lon": 7.3215,
+  "minutes": null,
+  "seconds": null,
+  "spotify": "https://open.spotify.com/search/The%20Rolling%20Stones%20Tumbling%20Dice",
+  "apple": "https://music.apple.com/us/search?term=The%20Rolling%20Stones%20Tumbling%20Dice",
+  "description": "The single from Exile on Main St., much of which the Rolling Stones recorded in 1971 in the hot, damp basement of Villa Nellcôte above the bay of Villefranche, where Keith Richards was living."
+ }
+]
