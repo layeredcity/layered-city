@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Ljubljana",
- "started": "2026-11-28T06:51:39.652Z",
+ "started": "2026-11-28T12:56:00.098Z",
  "created": [
   "city: Ljubljana (map zoom delta 1, map height 800)",
   "podcast: Plečnik and the river",
@@ -64,5 +64,5 @@
   "book \"The Bailiff Yerney and His Rights\": no ISBN found"
  ],
  "errors": [],
- "finished": "2026-11-28T06:51:42.123Z"
+ "finished": "2026-11-28T12:57:09.230Z"
 }
