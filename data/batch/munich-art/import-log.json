@@ -1,0 +1,19 @@
+{
+ "mode": "dry-run",
+ "city": "Munich",
+ "started": "2026-11-28T17:42:19.103Z",
+ "created": [
+  "video: The Rape of the Daughters of Leucippus by Peter Paul Rubens",
+  "video: Madame de Pompadour by François Boucher",
+  "video: The Sin by Franz von Stuck",
+  "video: I Lock My Door Upon Myself by Fernand Khnopff"
+ ],
+ "skipped": [
+  "city: Munich already exists"
+ ],
+ "channels": [],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T17:42:20.677Z"
+}
