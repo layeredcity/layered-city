@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Tallinn",
- "started": "2026-11-28T06:35:40.305Z",
+ "started": "2026-11-28T06:38:40.969Z",
  "created": [
   "movie: Disco and Atomic War"
  ],
@@ -12,5 +12,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T06:35:41.812Z"
+ "finished": "2026-11-28T06:38:42.885Z"
 }
