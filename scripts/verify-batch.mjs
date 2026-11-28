@@ -14,7 +14,7 @@ if (TOURS_ONLY) out.tours = {}
 // Cities already imported are skipped (their results stay in check.json), so a
 // run only spends time on the batch in progress.
 const imported = d => { try { return JSON.parse(fs.readFileSync(`data/batch/${d}/import-log.json`, 'utf8')).mode === 'import' } catch { return false } }
-const cities = fs.readdirSync('data/batch').filter(d => fs.statSync(`data/batch/${d}`).isDirectory() && !imported(d))
+const cities = fs.readdirSync('data/batch').filter(d => fs.statSync(`data/batch/${d}`).isDirectory() && (TOURS_ONLY || !imported(d)))
 if (!TOURS_ONLY) { try { Object.assign(out, JSON.parse(fs.readFileSync('data/batch/check.json', 'utf8'))) } catch {} }
 const read = (c, f) => { try { return JSON.parse(fs.readFileSync(`data/batch/${c}/${f}.json`, 'utf8')) } catch { return [] } }
 const all = f => cities.flatMap(c => [...read(c, f), ...read(c, f + '-add')])
@@ -115,7 +115,11 @@ for (const t of all('tours')) {
     r.currency = ld.match(/"priceCurrency":\s*"([A-Z]+)"/)?.[1] || null
     r.minutes = +(h.match(/(\d+)\s*min(?:ute)?s?\b/)?.[1] || 0) || null
     r.km = +(h.match(/([\d.]+)\s*km\b/)?.[1] || 0) || null
-    r.creator = ld.match(/"author":\s*\{[^}]*"name":\s*"([^"]+)"/)?.[1] || null
+    // The tour's producer is the publisher link on the page. (The ld+json
+    // "author" is a reviewer, not the producer.)
+    const pub = h.match(/href="(?:https:\/\/voicemap\.me)?\/publisher\/([\w-]+)[^"]*"[^>]*>\s*(?:<[^>]+>\s*)*([^<]{2,80}?)\s*</)
+    r.creator = pub ? pub[2].trim() : null
+    r.publisherSlug = pub ? pub[1] : null
     r.about = (h.match(/name="description" content="([^"]*)"/)?.[1] || '').slice(0, 400)
     r.km = +(h.match(/([\d.]+)\s*km\b/)?.[1] || 0) || null
     const ll = h.match(/"lat(?:itude)?"\s*:\s*"?(-?\d{1,2}\.\d{3,})"?\s*,\s*"(?:lng|lon|longitude)"\s*:\s*"?(-?\d{1,3}\.\d{3,})/)
