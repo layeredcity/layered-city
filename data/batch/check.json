@@ -1073,6 +1073,15 @@
    "seconds": null,
    "uploadDate": null,
    "lang": null
+  },
+  "JHi_-DpFzJA": {
+   "oembed": 200,
+   "title": "Das weiße Gold der Kelten - Salzwelten Hallein - Tennengau",
+   "channel": "Salzburger Land",
+   "channelUrl": "https://www.youtube.com/@salzburgerland",
+   "seconds": null,
+   "uploadDate": null,
+   "lang": null
   }
  },
  "channels": {
@@ -1435,6 +1444,10 @@
   "Salzburg Tourismus": {
    "url": "https://www.youtube.com/@visitsalzburg",
    "avatar": "https://yt3.googleusercontent.com/wts6zS6HIsQgRAkCT3dwzbhBZaclojEGYEE3jrkxW_gS50XXDnwA8VvE5kNRnlx5ARItef5mvw=s900-c-k-c0x00ffffff-no-rj"
+  },
+  "Salzburger Land": {
+   "url": "https://www.youtube.com/@salzburgerland",
+   "avatar": "https://yt3.googleusercontent.com/ytc/AIdro_l1uUDUJsEn2gPtyAtBRSU4A1Cn2qRWjSP9AXmkaLu-LVc=s900-c-k-c0x00ffffff-no-rj"
   }
  },
  "podcasts": {
@@ -3459,17 +3472,17 @@
    "start": ""
   },
   "https://voicemap.me/tour/salzburg/a-taste-of-salzburg-cultural-highlights-from-the-mirabell-gardens-to-mozart-s-birthplace": {
-   "status": 403,
-   "title": "Just a moment...",
-   "image": null,
-   "rating": null,
-   "ratings": null,
-   "price": null,
-   "currency": null,
-   "minutes": null,
-   "km": null,
-   "creator": null,
-   "about": "",
+   "status": 200,
+   "title": "Salzburg Walking Tour • Mozart&#39;s Birthplace and Mirabell Gardens",
+   "image": "https://media.voicemap.me/public/routes/images/000/003/811/original/salzburg-mirabell-gardens.jpg",
+   "rating": 4.8,
+   "ratings": 223,
+   "price": 14.99,
+   "currency": "USD",
+   "minutes": 75,
+   "km": 3,
+   "creator": "Conor Mac",
+   "about": "Self-guided audio tour of Salzburg&#39;s cultural highlights. Explore Mozart&#39;s birthplace, Mirabell Palace, and Old Town without booking via app.\r\n",
    "lat": null,
    "lon": null,
    "start": ""
