@@ -3,16 +3,27 @@
  "feed": "https://feeds.simplecast.com/tIcKNegX",
  "episodes": [
   {
+   "title": "An Announcement from The Lonely Palette",
+   "link": "http://www.thelonelypalette.com",
+   "duration": "00:03:31",
+   "date": "2026-11-02T11:00:00Z",
+   "about": "Si, an announcement. Learn more.",
+   "apple": "https://podcasts.apple.com/us/podcast/an-announcement-from-the-lonely-palette/id1110780638?i=1000799390009&uo=4",
+   "ms": 211000
+  },
+  {
    "title": "Episode 72: Joe Rosenthal&apos;s &quot;Raising the Flag on Iwo Jima&quot; (1945)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:40:50",
-   "date": "Fri, 11 Sep 2026 10:00:00 +0000"
+   "date": "Fri, 11 Sep 2026 10:00:00 +0000",
+   "about": "“While the men prepared to replace the first flag, I was able to position myself for a picture, the elements of which were composed by the men themselves, and the wind, weather, midday lighting, and the luck of timing.” - Joe Rosenthal, Associated Press At the end of the war in Western Europe, with the war in the Pacific still going strong, America"
   },
   {
    "title": "Episode 71: Looking Back on 10 Years of The Lonely Palette (with Julie Shapiro)",
    "link": "http://www.thelonelypalette.com",
    "duration": "01:27:30",
    "date": "2026-06-23T10:00:00Z",
+   "about": "\"Art isn't what you see. It's what you help others see.\" - Edgar Degas | \"Close your eyes/sometimes it helps.\" - Rhianna A little over ten years ago, on May 4th, 2016, I swallowed hard and hit publish on my very first episode of The Lonely Palette . I had the domain, I had the website, I had a mic and closet, and I had a dream. Public radio, someda",
    "apple": "https://podcasts.apple.com/us/podcast/episode-71-looking-back-on-10-years-of-the/id1110780638?i=1000773867085&uo=4",
    "ms": 5250000
   },
@@ -21,6 +32,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "01:35:57",
    "date": "2026-04-07T10:00:00Z",
+   "about": "\"The deeper you go, the less indulgent it will be.” - Helena's stickie note Helena De Groot is an audio maker, but, really, she’s an audio artist. Her series, Creation Myth , just dropped in full as part of the CBC’s show, Personally . Personally is about the most personal experiences that audio makers that probe within themselves, laying themselve",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-helena-de-groot-audio-producer/id1110780638?i=1000760014737&uo=4",
    "ms": 5757000
   },
@@ -29,6 +41,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "01:22:03",
    "date": "2025-09-26T10:00:00Z",
+   "about": "Earlier this year, I had a really, really great conversation with Dr. Lara Ayad, host of the podcast The Cheeky Scholar - and I'm proud to share it today. We cast our net really wide, talking at first about the role of artists in society, my favorite museums, but then we got into it. We got into it . Because Lara and I are both, in the parlance of ",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-the-cheeky-scholar/id1110780638?i=1000728550006&uo=4",
    "ms": 4923000
   },
@@ -36,37 +49,43 @@
    "title": "Bonus - Why Public Radio Matters: A Conversation Between Rumble Strip&apos;s Erica Heilman and Jay Allison",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:26:10",
-   "date": "Fri, 5 Sep 2025 10:00:00 +0000"
+   "date": "Fri, 5 Sep 2025 10:00:00 +0000",
+   "about": "It's September, and time to get back to work. That means defending public radio against federal defunding, exploring its core values, and taking an honest look at how we got here. I'm proud to share this conversation between my Hub & Spoke colleague Erica Heilman, host of the exquisite and unflinching Rumble Strip , and her buddy Jay Allison, found"
   },
   {
    "title": "In Plain Sight - Ep. 3: &quot;Go Deeper&quot;",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:20:56",
-   "date": "Thu, 7 Aug 2025 10:00:00 +0000"
+   "date": "Thu, 7 Aug 2025 10:00:00 +0000",
+   "about": "\"You don't go look at a Rothko; you go inside a Rothko.\" - Claire, visitor, National Gallery of Art Modern art. Two little words that strike so much fear in the heart of the average museum goer. When you're used to straightforward, legible paintings and sculptures, Modernism can be pretty destabilizing. Pretty weird. Canvases are now spattered with"
   },
   {
    "title": "In Plain Sight - Ep. 2: &quot;Listen Closer&quot;",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:25:22",
-   "date": "Thu, 31 Jul 2025 10:00:00 +0000"
+   "date": "Thu, 31 Jul 2025 10:00:00 +0000",
+   "about": "\"Questions and the search for answers, and the appreciation of beauty, and then wanting to share it with other people, to go look at it closely together. Then you realize you've got something that can feed you for the rest of your life as a career.\" - Emily Pegues, curator, National Gallery of Art. Museum curators are an intimidating species. Those"
   },
   {
    "title": "In Plain Sight - Ep. 1: &quot;Look Longer&quot;",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:25:49",
-   "date": "Thu, 24 Jul 2025 10:00:00 +0000"
+   "date": "Thu, 24 Jul 2025 10:00:00 +0000",
+   "about": "\"There are different levels of looking. And it's exciting to bring people to the different levels.\" - Estelle Quain, docent, National Gallery of Art How do YOU feel when you walk into an art museum? Is it familiar? Intimidating? Do you have a guard trying to shush you, or an overly-enthusiastic friend trying to tell you what to like? Are you joyful"
   },
   {
    "title": "Ep. 70 - Norman Rockwell&apos;s &quot;Freedom of Speech&quot; (1943)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:38:25",
-   "date": "Fri, 4 Jul 2025 10:00:00 +0000"
+   "date": "Fri, 4 Jul 2025 10:00:00 +0000",
+   "about": "“I was showing the America I knew and observed to others who might not have noticed.” - Norman Rockwell Whether arguing for soft versus hard taco shells or the Neo-Nazi right to march in Skokie, freedom of speech is a fundamental right we all enjoy as Americans. But it turns out that telling people that is pretty complicated, actually. Thank goodne"
   },
   {
    "title": "TLP Interview with Judith Wechsler, Art Historian and Filmmaker",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:47:38",
    "date": "2025-05-12T10:00:00Z",
+   "about": "\"Walter, let's go for a walk.\" - Judith Wechsler, in the arcades of Paris. Professor Judith Wechsler is an art historian, filmmaker, writer, researcher, Francophile, and leading expert on Paul Cezanne and Honoré Daumier. She’s the daughter of a major religious philosopher. Her resume reads like a who’s who of 20th century art historians – Meyer Sha",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-judith-wechsler-art-historian/id1110780638?i=1000708099036&uo=4",
    "ms": 2858000
   },
@@ -74,13 +93,15 @@
    "title": "Ep. 69 - Yee Sookyung&apos;s &quot;Translated Vase&quot; (2011)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:23:40",
-   "date": "Fri, 4 Apr 2025 13:30:00 +0000"
+   "date": "Fri, 4 Apr 2025 13:30:00 +0000",
+   "about": "“It is not about fixing or mending, but about celebrating the vulnerability of the object and ultimately myself.” - Yee Sookyung Shattered porcelain is impossible to repair. As impossible as fully, and accurately, reconstructing the past. But who needs that pressure? What if, instead of tossing those shards in the dustbin of history, we acknowledge"
   },
   {
    "title": "TLP Interview with Annea Lockwood, Artist and Composer",
    "link": "http://www.thelonelypalette.com",
    "duration": "01:06:21",
    "date": "2025-03-07T11:00:00Z",
+   "about": "\"It's the close focus that draws me into a sound. And then it sort of spreads out and spreads through my body. And I let that happen, and I'm listening in a different way.\" - Annea Lockwood The artist and composer Annea Lockwood is not just any musician. She is an artist of sound. She is a composer of art. Her music is performance art, and her art ",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-annea-lockwood-artist-and-composer/id1110780638?i=1000698248370&uo=4",
    "ms": 3981000
   },
@@ -88,13 +109,15 @@
    "title": "Ep. 68 - Felix Gonzalez-Torres&apos; &quot;Untitled (March 5th) #2&quot; (1991)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:31:14",
-   "date": "Fri, 21 Feb 2025 11:00:00 +0000"
+   "date": "Fri, 21 Feb 2025 11:00:00 +0000",
+   "about": "\"The only thing permanent is change.\" - Felix Gonzalez-Torres There is no way around it. The work of Felix Gonzalez-Torres, a gay, Cuban-American artist who responded to - and died during - the AIDS crisis of the 1980s and 90s, is sad. His work is a memorial, both to a lost generation and to his own partner, Ross. Yet it is through these seemingly "
   },
   {
    "title": "TLP Interview with Sebastian Smee, Art Critic, The Washington Post",
    "link": "http://www.thelonelypalette.com",
    "duration": "01:00:18",
    "date": "2025-02-07T11:00:00Z",
+   "about": "“In the end, what interests me is the way art connects with life. Because otherwise, I don’t quite understand what it’s for.” - Sebastian Smee Sebastian Smee has been the art critic for the Washington Post since 2018, but has written extensively about art for every publication you can think of, from here to his native Australia, and winning a Pulit",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-sebastian-smee-art-critic/id1110780638?i=1000689938375&uo=4",
    "ms": 3618000
   },
@@ -102,37 +125,43 @@
    "title": "Ep. 67 - Cy Twombly&apos;s &quot;Second Voyage to Italy (Second Version), 1962&quot;",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:26:28",
-   "date": "Mon, 27 Jan 2025 11:00:00 +0000"
+   "date": "Mon, 27 Jan 2025 11:00:00 +0000",
+   "about": "\"My line does not illustrate. It is the sensation of its own realization.\" - Cy Twombly Critics have described the work of consummate scribbler Cy Twombly as at once \"barely there\" and overly academic, but what about us art civilians? What is it about these half-baked scraps, scratch, and scrawl that speaks to our own creative impulses, our own inn"
   },
   {
    "title": "Official Trailer: The Lonely Palette&apos;s Upcoming Season",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:03:06",
-   "date": "Thu, 16 Jan 2025 11:00:00 +0000"
+   "date": "Thu, 16 Jan 2025 11:00:00 +0000",
+   "about": "This season, we've got a stellar line-up: Cy Twombly, Lawren Harris, Käthe Kollwitz, and Felix Gonzalez-Torres, to name just a few. We've got interviews with the Washington Post 's Sebastian Smee, the artist and composer Annea Lockwood, and more. We've got a whole National Gallery residency! So listen and subscribe, rate and review, and fire up you"
   },
   {
    "title": "Bonus - Introducing &quot;The Rabbis Go South&quot;",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:23:09",
-   "date": "Fri, 1 Nov 2024 20:45:57 +0000"
+   "date": "Fri, 1 Nov 2024 20:45:57 +0000",
+   "about": "Tamar is alive! The Lonely Palette is alive! But in the year since we last spoke, she's been elbow-deep in audio projects galore - good for the pocketbook, but bad for independent art history podcast productivity. But your patience will be rewarded! And in the meantime, a few announcements: - Join me and my fellow H&S colleagues at the PRX Podcast "
   },
   {
    "title": "Ep. 66 - Bringing Monuments Home (from PRX&apos;s Monumental)",
    "link": "http://www.thelonelypalette.com",
    "duration": "01:00:18",
-   "date": "Thu, 7 Mar 2024 14:05:56 +0000"
+   "date": "Thu, 7 Mar 2024 14:05:56 +0000",
+   "about": "In this special episode of The Lonely Palette, I’m sharing the episode I made for the PRX limited-run podcast series \"Monumental,\" which interrogates the state of monuments across the greater U.S. and what their future says about where we are now and where we’re going. This was the concluding episode, exploring how some monuments are larger than li"
   },
   {
    "title": "Bonus - The Hub &amp; Spoke Radio Hour",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:50:22",
-   "date": "Wed, 14 Feb 2024 11:00:00 +0000"
+   "date": "Wed, 14 Feb 2024 11:00:00 +0000",
+   "about": "The Lonely Palette, as you've heard so often, is an enormously proud founding member of the Hub & Spoke Audio Collective, a group of fiercely independent, story-driven, mind-expanding podcasts. Since 2017, we've supported each other while forging our own paths, prioritizing craft and humane storytelling above all else. Now, if you haven't noticed, "
   },
   {
    "title": "TLP Interview with Lucy R. Lippard, Art Writer",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:45:11",
    "date": "2023-12-29T14:48:52Z",
+   "about": "Since her arrival on the art scene in the 1960s, legendary art writer Lucy Lippard’s work - searing, novelistic, crisp, and endlessly curious - as well as her insights, activism, entrenchment in the art world, and friendships have secured her role as one of the most important minds in art criticism of her generation. Now, at 86 years old, all of th",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-lucy-r-lippard-art-writer/id1110780638?i=1000682916256&uo=4",
    "ms": 2711000
   },
@@ -140,19 +169,22 @@
    "title": "TLP Interview with Prudence Peiffer, Author &amp; Content Director, MoMA",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:55:13",
-   "date": "Fri, 13 Oct 2023 14:05:21 +0000"
+   "date": "Fri, 13 Oct 2023 14:05:21 +0000",
+   "about": "In the 1950s and 60s, Coenties Slip—an obscure street on the lower tip of Manhattan overlooking the East River—was home to some of the most iconic artists in history, and who would define American Art during their time there: Robert Indiana, Ellsworth Kelly, Agnes Martin, James Rosenquist, Delphine Seyrig, Lenore Tawney, and Jack Youngerman. As fri"
   },
   {
    "title": "Bonus - The Lonely Palette Reads Tom Wolfe&apos;s The Painted Word",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:07:02",
-   "date": "Tue, 3 Oct 2023 13:40:52 +0000"
+   "date": "Tue, 3 Oct 2023 13:40:52 +0000",
+   "about": "www.patreon.com/lonelypalette Music used: Glenn Miller, “Tuxedo Junction” The Blue Dot Sessions, \"No Smoking,\" \"Mercurial Vision\" Our website: www.thelonelypalette.com"
   },
   {
    "title": "Bonus - The Lonely Palette Reads Giorgio Vasari on Sandro Botticelli",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:21:21",
    "date": "2023-09-14T00:10:19Z",
+   "about": "This is a free edition of The Lonely Palette Reads, a perk that will be going out exclusively to Patreon patrons in the future. To become a patron, go to patreon.com/lonelypalette and sign up at any level of support. Thank you! Got suggestions for other intimidating-until-read-aloud-texts for future episodes of The Lonely Palette Reads? Email the s",
    "apple": "https://podcasts.apple.com/us/podcast/bonus-the-lonely-palette-reads-giorgio-vasari-on/id1110780638?i=1000682916232&uo=4",
    "ms": 1281000
   },
@@ -160,31 +192,36 @@
    "title": "Ep. 65 - Sandro Botticelli&apos;s &quot;The Birth of Venus&quot; (1485-86)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:35:40",
-   "date": "Tue, 12 Sep 2023 03:18:54 +0000"
+   "date": "Tue, 12 Sep 2023 03:18:54 +0000",
+   "about": "I can't help the way I'm feeling/Goddess of love, please take me to your leader/I can't help, I keep on dancing. - Lady Gaga The neoplatonic ideal of beauty, the girl on the half-shell, the naked chick riding a clam. Her tilted head and fluttery hair are recognized by everyone and their grandma, but no one - experts included - can explain just why "
   },
   {
    "title": "Ep. 64 - Barbara Kruger&apos;s &quot;Untitled (Your Body is a Battleground)&quot; (1989)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:30:17",
-   "date": "Fri, 4 Aug 2023 10:00:00 +0000"
+   "date": "Fri, 4 Aug 2023 10:00:00 +0000",
+   "about": "See the images: bit.ly/45wNrSb Music used: Django Reinhardt, “Django’s Tiger” The Blue Dot Sessions, “Thread Indigo,” “Monder,” “Tall Journey,” “Stephi,” “Morning Glare” Helen Reddy, “I Am Woman” (performed at the Mobilize for Women's Lives Rally in Washington in 1989) Support the show: www.patreon.com/lonelypalette Episode sponsors: Jay Handy Fina"
   },
   {
    "title": "Ep. 63 - James Abbot McNeill Whistler&apos;s &quot;Symphony in White No. 1: The White Girl&quot; (1861-62)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:32:40",
-   "date": "Wed, 5 Jul 2023 16:05:43 +0000"
+   "date": "Wed, 5 Jul 2023 16:05:43 +0000",
+   "about": "See the Images: bit.ly/3PMpK3o Music Used: Django Reinhardt, “Django’s Tiger” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “Slate Tracker,” “Laser Focus,” “The Griffiths,” “Crumbtown,” “Discovery Harbor,” “Leave the TV On,” “Pickers,” “Caraval, “Lady Marie” Support Hub & Spoke's Independence Fundraiser: www.hubspokeaudio.org"
   },
   {
    "title": "Ep. 62 - Helen Frankenthaler&apos;s &quot;Madame Butterfly&quot; (2000)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:27:08",
-   "date": "Wed, 7 Jun 2023 13:20:26 +0000"
+   "date": "Wed, 7 Jun 2023 13:20:26 +0000",
+   "about": "See the images: bit.ly/3ChhuAE Music used: Django Reinhardt, “Django’s Tiger” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “Bedroll,” “A Common Pause,” “Palms Down,” “Desmontes,” “Delamine,” “Greylock,” “Angel Tooth,” “Dear Myrtle” Joe Dassin, “Les Champs-Elysees\" Episode sponsor: The Art of Colour: The History of Art in 39 "
   },
   {
    "title": "Bonus - The Lonely Palette Live at On Air Fest (and an update!)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:39:29",
    "date": "2023-05-04T14:58:35Z",
+   "about": "Happy 7th birthday, The Lonely Palette! We're ringing in our itch with an quick update on next season, which starts in June, and a recording of our live show at On Air Fest, which was held in Brooklyn this past February. Please enjoy this revamped and refreshed episode of Mary Kelly's \"Post-Partum Document,\" smash that subscribe button, and we'll s",
    "apple": "https://podcasts.apple.com/us/podcast/bonus-the-lonely-palette-live-at-on-air-fest-and-an-update/id1110780638?i=1000682916209&uo=4",
    "ms": 2369000
   },
@@ -192,13 +229,15 @@
    "title": "TLP Interview with Avery Trufelman, Design &amp; Fashion Podcaster",
    "link": "http://www.thelonelypalette.com",
    "duration": "01:10:26",
-   "date": "Fri, 30 Dec 2022 20:26:55 +0000"
+   "date": "Fri, 30 Dec 2022 20:26:55 +0000",
+   "about": "Episode webpage: bit.ly/3jtcOBl Music used: The Blue Dot Sessions, “Swapping Tubes” The Kinks, “Dedicated Follower of Fashion” Support our year-end fundraiser! bit.ly/3An5jSd"
   },
   {
    "title": "Ep. 61 - Under the Midnight Sun",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:29:12",
    "date": "2022-12-16T11:00:00Z",
+   "about": "See the images: bit.ly/3FX0S3H Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “Lerennis,” “Lissa,” “Ice Tumbler,” “Mr. Graves,” “Throughput,” “A Rush of Clear Water,” “Pinky,” “The Green Room” Vivaldi, “Summer” Support our year-end fundraiser! bit.ly/3An5jSd",
    "apple": "https://podcasts.apple.com/us/podcast/ep-61-under-the-midnight-sun/id1110780638?i=1000682916258&uo=4",
    "ms": 1752000
   },
@@ -206,13 +245,15 @@
    "title": "Ep. 60 - Caravaggio&apos;s &quot;The Crucifixion of St. Andrew&quot; (1607)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:37:36",
-   "date": "Fri, 9 Dec 2022 11:00:00 +0000"
+   "date": "Fri, 9 Dec 2022 11:00:00 +0000",
+   "about": "See the images: bit.ly/3iNqpTY Music used: Django Reinhardt, “Django’s Tiger” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" Charles Daab, “Irish and Scotch melodies (take 2)” The Blue Dot Sessions, “Highway 430,” “Angel Tooth,” “Di Breun,” “Rainy Day Drone,” “No Smoking,” “Cornicob,” “Tarte Tatin,” “Vernouillet,” “Thread of Clouds,” “Set the Tip Ja"
   },
   {
    "title": "TLP Interview with Dar Williams, Singer-Songwriter",
    "link": "http://www.thelonelypalette.com",
    "duration": "01:13:26",
    "date": "2022-10-07T14:09:10Z",
+   "about": "Dar Williams has been described by The New Yorker as “one of America’s very best singer-songwriters,” but to thirteen-year-old Tamar she was, quite simply, a personal hero: a songwriter whose poetry, poignancy, and humor could capture at once the authentic voices of an inner child, a searching young adult, and a wizened sage. We met in person in 20",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-dar-williams-singer-songwriter/id1110780638?i=1000682916311&uo=4",
    "ms": 4406000
   },
@@ -221,6 +262,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "01:07:59",
    "date": "2022-09-02T15:44:57Z",
+   "about": "Episode webpage: bit.ly/3COhnOp Music used: The Blue Dot Sessions, “Balti” Mandy Patinkin, “Finishing the Hat” from Sunday in the Park with George Support the show: www.patreon.com/lonelypalette",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-adam-gopnik-critic-the-new-yorker/id1110780638?i=1000682916117&uo=4",
    "ms": 4079000
   },
@@ -228,25 +270,29 @@
    "title": "TLP Interview with Dr. Charlotte Mullins, Art Critic &amp; Broadcaster",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:57:15",
-   "date": "Fri, 26 Aug 2022 14:08:07 +0000"
+   "date": "Fri, 26 Aug 2022 14:08:07 +0000",
+   "about": "Music used: The Blue Dot Sessions, \"Spark\" Rod Stewart, \"Every Picture Tells A Story\" Charlotte's book: amzn.to/3TksKDl Episodes referenced: Anselm Kiefer: bit.ly/31gUSwW Sarah Sze: bit.ly/3NRnGmr Support the show: www.patreon.com/lonelypalette"
   },
   {
    "title": "Ep. 59 - Sarah Sze&apos;s &quot;Fallen Sky&quot; (2021)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:31:28",
-   "date": "Fri, 3 Jun 2022 19:20:39 +0000"
+   "date": "Fri, 3 Jun 2022 19:20:39 +0000",
+   "about": "What goes up into the sky must come down into the earth, and fortunately for us we’ve got Sarah Sze, mistress of materials, memory, and meaning, helming the journey. This episode was produced with support from Storm King Art Center. See the images: bit.ly/3NRnGmr Music used: Django Reinhardt, “Django’s Tiger” The Andrews Sisters, \"Bei Mir Bist Du S"
   },
   {
    "title": "Ep. 58 - Odili Donald Odita&apos;s &quot;Cut&quot; (2016)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:27:05",
-   "date": "Thu, 28 Apr 2022 13:30:00 +0000"
+   "date": "Thu, 28 Apr 2022 13:30:00 +0000",
+   "about": "Betcha never realized how deeply color colored your world - and the world - until you found yourself dancing down the diagonal of this showstopping print. This episode was produced in partnership with the Harvard Art Museums. The exhibition \"Prints from the Brandywine Workshop and Archives: Creative Communities\" is on view until July 31, 2022. Musi"
   },
   {
    "title": "Ep. 57 - Juno, A Colossal Roman Statue (late 1st c. BCE)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:32:43",
    "date": "2022-03-31T20:57:23Z",
+   "about": "This episode was produced in partnership with the Museum of Fine Arts, Boston. See the images: bit.ly/3tXx80o Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “Pigpaddle Creek,” “Temperance,” “Highway 94,” “Floating Whist,” “Danver County,” “Mr. Graves,” “Willow Belle” Joe Dassin, “Les Champs-Elysees\" Support the sho",
    "apple": "https://podcasts.apple.com/us/podcast/ep-57-juno-a-colossal-roman-statue-late-1st-c-bce/id1110780638?i=1000682916286&uo=4",
    "ms": 1963000
   },
@@ -255,6 +301,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "00:50:49",
    "date": "2021-12-22T14:00:00Z",
+   "about": "Music Used: The Blue Dot Sessions, “Drone Pine,” “Taoudella,” “The Consulate,” “Our Fingers Cold,” “Slider” Silver Maple, “After the Rain” Megan Wofford, “Awake” Yi Nantiro, “Blue Lantern” Christian Nanzell, “Contraband” Gunnar Johnsen, “Documents 4” Fabien Tell, “Liaison” Arden Forest, “Monastral” Niclas Gustavsson, “My Kind of Illusion 1” Niclas ",
    "apple": "https://podcasts.apple.com/us/podcast/ep-56-memorials-collaboration-with-hi-phi-nation/id1110780638?i=1000682916241&uo=4",
    "ms": 3049000
   },
@@ -262,19 +309,22 @@
    "title": "Ep. 55 - Harriet Powers&apos; &quot;Pictorial Quilt&quot; (1895-98)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:28:52",
-   "date": "Fri, 29 Oct 2021 14:03:32 +0000"
+   "date": "Fri, 29 Oct 2021 14:03:32 +0000",
+   "about": "This episode was produced in partnership with the Museum of Fine Arts, Boston. The exhibition, “Fabric of a Nation: American Quilt Stories” is on view until January 17, 2022. See the images: bit.ly/3jNT4FZ Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" Blue Dot Sessions, “Moon Bicycle Theme,” “Stucco Blue,” “Coronea,” “Lumber Down,” “Vel"
   },
   {
    "title": "Ep. 54 - Grant Wood&apos;s &quot;American Gothic&quot; (1930)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:31:21",
-   "date": "Thu, 30 Sep 2021 14:40:19 +0000"
+   "date": "Thu, 30 Sep 2021 14:40:19 +0000",
+   "about": "See the images: bit.ly/2WuV2CQ Music used: Django Reinhardt, “Django’s Tiger” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “Long and Low Cloud,” “Hakodate Line,” “Cornicob,” “Sylvestor,” “Di Breun,” “The Silver Hatch,” “Speaker Joy” Joe Dassin, “Les Champs-Elysees\" Support the show: www.patreon.com/lonelypalette"
   },
   {
    "title": "TLP Interview with Dr. Rachel Saunders, Curator, Harvard Art Museums",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:59:13",
    "date": "2021-07-23T17:00:31Z",
+   "about": "See the images discussed: bit.ly/3kQbAii Music used: The Blue Dot Sessions, “One Little Triumph,” “Sage the Hunter” Tamar’s exhibition review in the New York Review of Books: bit.ly/36X64Cg The Lonely Palette episode on Painting Edo: bit.ly/3iEFl2Q The HAM page on Painting Edo bit.ly/3zrYBY7 Support the show! www.patreon.com/lonelypalette",
    "apple": "https://podcasts.apple.com/us/podcast/tlp-interview-with-dr-rachel-saunders-curator-harvard/id1110780638?i=1000682916237&uo=4",
    "ms": 3553000
   },
@@ -283,6 +333,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "00:23:17",
    "date": "2021-06-15T15:21:14Z",
+   "about": "Artists Explored: Winslow Homer, Edward Hopper, Robert Frank, Berenice Abbott, Charles Sheeler, Martin Wong See the Images: bit.ly/34AE9Xw Music Used: The Blue Dot Sessions, “The Zeppelin,” “Towboat Theme,” “Cat’s Eye,” “PlainGrey,” “Dorica Theme,” “Tranceless” Further Listening: The Lonely Palette on Edward Hopper: bit.ly/3wyqg8Y Support the Show:",
    "apple": "https://podcasts.apple.com/us/podcast/bonus-look-with-your-ears-no-3-the-urban-sublime/id1110780638?i=1000682916120&uo=4",
    "ms": 1397000
   },
@@ -291,6 +342,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "00:31:43",
    "date": "2021-06-08T17:12:14Z",
+   "about": "See the images: www.thelonelypalette.com/episodes/202…ost-pandemic Music used: The Blue Dot Sessions, “Noe Noe,” “A Certain Lightness,” “Algea Trio,” “Kilkerrin,” “Gullwing Sailor,” “Two Dollar Token,” “Silent Flock” Billie Holiday, “Blue Moon” Support the show: www.patreon.com/lonelypalette",
    "apple": "https://podcasts.apple.com/us/podcast/ep-53-painting-edo-post-pandemic/id1110780638?i=1000682916288&uo=4",
    "ms": 1903000
   },
@@ -299,6 +351,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "00:21:33",
    "date": "2021-06-01T13:00:00Z",
+   "about": "Artists Explored: Lalla Essaydi, Laurie Simmons, Cindy Sherman, Lorna Simpson, Sally Mann, Dawoud Bey See the Images: addison.andover.edu/AboutUs/Pages/Podcast.aspx Music Used: The Blue Dot Sessions, “The Zeppelin,” “Dirty Wallpaper,” “Polycoat,” “Pastel de Nata,” “Turning to You,” “The Consulate” Further Listening: The Lonely Palette on Mary Cassa",
    "apple": "https://podcasts.apple.com/us/podcast/bonus-look-with-your-ears-no-2-the-figure/id1110780638?i=1000682916091&uo=4",
    "ms": 1293000
   },
@@ -307,6 +360,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "00:22:52",
    "date": "2021-05-18T14:21:20Z",
+   "about": "Artists Explored: Agnes Martin, Jackson Pollock, Mark Bradford, Jasper Johns, Donald Judd See the Images: addison.andover.edu/AboutUs/Pages/Podcast.aspx Music Used: The Blue Dot Sessions, “The Zeppelin,” “Pinky,” “Flattered,” “A Little Powder,” “Arizona Moon,” “Daymaze,” “The Summit,” Jason Leonard, “Ritual Six” Further Listening: The Lonely Palett",
    "apple": "https://podcasts.apple.com/us/podcast/bonus-look-with-your-ears-no-1-abstraction/id1110780638?i=1000682916178&uo=4",
    "ms": 1372000
   },
@@ -315,6 +369,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "00:01:55",
    "date": "2021-05-12T19:45:09Z",
+   "about": "For more information on the exhibition, visit: addison.andover.edu/Exhibitions/90/…es/default.aspx . Music used: The Blue Dot Sessions, \"Waterbourne\"",
    "apple": "https://podcasts.apple.com/us/podcast/trailer-look-with-your-ears-in-partnership-with/id1110780638?i=1000682916119&uo=4",
    "ms": 115000
   },
@@ -322,103 +377,120 @@
    "title": "Ep. 52 - Ólafur Elíasson&apos;s &quot;Untitled (Spiral)&quot; (2017)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:31:06",
-   "date": "Thu, 1 Apr 2021 15:07:08 +0000"
+   "date": "Thu, 1 Apr 2021 15:07:08 +0000",
+   "about": "Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “Daymaze,” “Plate Glass,” “Discovery Harbor,” “Wahre,” “Checkered Blue,” “Quarry Clouds,” “Enter the Room” See the images: bit.ly/3sJUXWu Support the show: www.patreon.com/lonelypalette"
   },
   {
    "title": "Ep. 51 - Mary Kelly&apos;s &quot;Post-Partum Document&quot; (1973-79)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:36:23",
-   "date": "Thu, 18 Feb 2021 17:25:18 +0000"
+   "date": "Thu, 18 Feb 2021 17:25:18 +0000",
+   "about": "See the images: bit.ly/3uaWHta Music used: The Blue Dot Sessions, “La Inglesa,” “Eggs and Powder,” “Paper Feather,” “Arizona Moon,” ”Lowball,” “Palladian,” “Simple Vale” Support the show: www.patreon.com/lonelypalette"
   },
   {
    "title": "TLP Interview with Ralph Steadman, Artist &amp; Illustrator",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:36:57",
-   "date": "Sat, 19 Dec 2020 02:49:27 +0000"
+   "date": "Sat, 19 Dec 2020 02:49:27 +0000",
+   "about": "[2:18]: Love of Picasso and Duchamp. [3:11]: Where do you start with caricature, the body or the soul? [5:40]: Drawing with a pen – “no such thing as a mistake.” [7:09]: The difference between illustration and “fine art”. [9:55]: Use of the geometric in Steadman’s work, ink spatter, a conversation with the paper. [13:10]: Coming to the U.S. in 1970"
   },
   {
    "title": "Ep. 50 - Carrie Mae Weems&apos; &quot;Not Manet&apos;s Type&quot; (1997)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:34:26",
-   "date": "Fri, 4 Dec 2020 16:08:40 +0000"
+   "date": "Fri, 4 Dec 2020 16:08:40 +0000",
+   "about": "See the images: bit.ly/3omDroO Music used: Django Reinhardt, “Django’s Tiger” The Blue Dot Sessions, “Jumbel,” “Turning to You,” “Pastel de Nata,” “Junca,” “Min,” “Basketliner” Support the show: www.patreon.com/lonelypalette"
   },
   {
    "title": "TLP Interview with The Guerrilla Girls, Feminist Activists &amp; Artists",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:46:46",
-   "date": "Fri, 13 Nov 2020 18:22:53 +0000"
+   "date": "Fri, 13 Nov 2020 18:22:53 +0000",
+   "about": "[2:29]: Introductions. [3:41] Why choose these artists as your pseudonyms? [5:37]: The origin story of the Guerrilla Girls (and their font!). [8:17]: How has the group changed and evolved, both internally and in terms of its mission? Has progress been made? [15:49]: The joys and pitfalls of all-women shows. Is “woman artist” a problematic phrase? ["
   },
   {
    "title": "Ep. 49 - Claes Oldenburg&apos;s &quot;Giant Toothpaste Tube&quot; (1964)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:36:15",
-   "date": "Thu, 10 Sep 2020 20:06:01 +0000"
+   "date": "Thu, 10 Sep 2020 20:06:01 +0000",
+   "about": "Somewhere between the life of the mind and the boots on the ground sits Pop artist Claes Oldenburg, who wants us to see not only that both of those worlds are one and the same, but that there's value, and even beauty, to our stuff, and that maybe we can finally let ourselves admit it. See the images: bit.ly/3hcHjVq Music used: Django Reinhardt, “Dj"
   },
   {
    "title": "Episode 48 - Anselm Kiefer&apos;s &quot;Margarete and Sulamith&quot; (1981)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:55:42",
-   "date": "Mon, 3 Aug 2020 16:25:55 +0000"
+   "date": "Mon, 3 Aug 2020 16:25:55 +0000",
+   "about": "This episode was produced with support from the San Francisco Museum of Modern Art. Learn more at www.sfmoma.com . See the images: bit.ly/31gUSwW Music used: The Blue Dot Sessions, “The Bus at Dawn,” “Silky,” Drone Pine,” “Tiny Bottles,” “Inamorata,” “Tapoco,” “The Summit,” “Cirrus,” “Derailed,” “Insatiable Toad,” “Dolly and Pad,” “A Pleasant Strik"
   },
   {
    "title": "Ep. 47 - George Seurat&apos;s &quot;A Sunday Afternoon on La Grande Jatte&quot; (1884-86)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:32:26",
-   "date": "Mon, 4 May 2020 16:19:50 +0000"
+   "date": "Mon, 4 May 2020 16:19:50 +0000",
+   "about": "Grab a parasol, put your monkey on a leash, and come spend Sunday in the Park with George, exploring how a canvas this monumental and as frozen as Dippin' Dots can help us better understand the world in his day, in Cameron Frye's, and in our own. See the images: https://bit.ly/2L0qPCg Music used: Django Reinhardt, “Django’s Tiger” The Andrews Siste"
   },
   {
    "title": "Ep. 40 Re-Release - Frida Kahlo&apos;s &quot;Dos Mujeres (Salvadora y Herminia)&quot; (1928)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:36:21",
-   "date": "Sun, 29 Mar 2020 11:30:04 +0000"
+   "date": "Sun, 29 Mar 2020 11:30:04 +0000",
+   "about": "The Lonely Palette is currently the podcast-in-residence at the Museum of Fine Arts, Boston, highlighting five objects from the ongoing exhibition \"Women Take the Floor.\" This week: we go beneath the flowers, the unibrow, the broken body, and the shadow of her marriage, to reframe the fame of Frida Kahlo: the Cult Icon of Humanness. See the images:"
   },
   {
    "title": "Ep. 46 - Patty Chang&apos;s &quot;Melons (At A Loss)&quot; (1998)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:28:52",
-   "date": "Sun, 22 Mar 2020 11:30:13 +0000"
+   "date": "Sun, 22 Mar 2020 11:30:13 +0000",
+   "about": "The Lonely Palette is currently the podcast-in-residence at the Museum of Fine Arts, Boston, highlighting five objects from the ongoing exhibition \"Women Take the Floor.\" This week: you're rooted in place, unable to look away, and questioning everything you thought you know about femininity, self-nourishment, and a woman's right to her own body. Ba"
   },
   {
    "title": "Ep. 45 - Georgia O&apos;Keeffe&apos;s &quot;Deer&apos;s Skull with Pedernal&quot; (1936)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:28:24",
-   "date": "Sun, 15 Mar 2020 11:30:05 +0000"
+   "date": "Sun, 15 Mar 2020 11:30:05 +0000",
+   "about": "The Lonely Palette is currently the podcast-in-residence at the Museum of Fine Arts, Boston, highlighting five objects from the ongoing exhibition \"Women Take the Floor.\" This week: there's no better way to combat a world holding its breath than with a deep lungful of fresh Southwestern air, care of America's most misattributed painter of vagina fl"
   },
   {
    "title": "Ep. 44 - Louise Bourgeois&apos; &quot;Pillar&quot; (1949-50)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:24:32",
-   "date": "Sun, 8 Mar 2020 11:30:02 +0000"
+   "date": "Sun, 8 Mar 2020 11:30:02 +0000",
+   "about": "The Lonely Palette is currently the podcast-in-residence at the Museum of Fine Arts, Boston, highlighting five objects from the ongoing exhibition \"Women Take the Floor.\" This week: you’ve never noticed the carnality of the body you live in, and the rawness of the emotions that live inside that body, until you find yourself spun into French-America"
   },
   {
    "title": "Ep. 43 - Carmen Herrera&apos;s &quot;Blanco y Verde (no. 1)&quot; (1962)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:23:22",
-   "date": "Sun, 1 Mar 2020 07:30:12 +0000"
+   "date": "Sun, 1 Mar 2020 07:30:12 +0000",
+   "about": "The Lonely Palette is currently the podcast-in-residence at the Museum of Fine Arts, Boston, highlighting five objects from the ongoing exhibition \"Women Take the Floor.\" This week: let's join 104-year-old Cuban-American Hard Edge painter Carmen Herrera in celebrating the straight line, not just the shortest distance between two points, but the mos"
   },
   {
    "title": "Ep. 42 - Katsushika Hokusai&apos;s The Great Wave off Kanagawa (1829–1831)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:36:33",
-   "date": "Thu, 27 Feb 2020 18:14:09 +0000"
+   "date": "Thu, 27 Feb 2020 18:14:09 +0000",
+   "about": "Sure, you've seen it a million times in a million memes, but when was the last time you actually stopped to contemplate the incredible power of this Japanese ukiyo-e print? Or for that matter, the incredible power of a wave itself? See the images: www.thelonelypalette.com/episodes/202…awa-18301831 Music used: The Andrews Sisters, \"Bei Mir Bist Du S"
   },
   {
    "title": "Ep. 41 - Jan Van Eyck&apos;s &quot;Arnolfini Portrait&quot; (1434)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:26:30",
-   "date": "Sun, 1 Dec 2019 15:33:05 +0000"
+   "date": "Sun, 1 Dec 2019 15:33:05 +0000",
+   "about": "Whoever said the devil was in the details clearly had a thing for Northern Renaissance portraiture. See the images: www.thelonelypalette.com/episodes/201…ortrait-1434 Music used: Django Reinhardt, “Django’s Tiger” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “Our Son the Potter,” “Bundt,” “Pacing,” “Secret Pocketbook,” “Orie"
   },
   {
    "title": "Bonus - Open Source, &quot;The Bauhaus In Your House,&quot; ft. The Lonely Palette",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:50:54",
-   "date": "Wed, 9 Oct 2019 14:13:12 +0000"
+   "date": "Wed, 9 Oct 2019 14:13:12 +0000",
+   "about": "The Lonely Palette is on break until November 2019, so every Wednesday in October, a different Hub & Spoke producer will take the host's chair to present an episode of their show that Tamar is especially fond of. Enjoy this month's podcast petri dish of art, culture, history, and society, and subscribe to any and all Hub & Spoke shows at www.hubspo"
   },
   {
    "title": "Bonus - Artists of Camberville interviews Tamar Avishai",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:32:43",
    "date": "2019-08-09T22:57:37Z",
+   "about": "On July 29, 2019 (the day after the birth of my son!), host and producer Danielle Monroe posted this interview we had recorded the week before for her podcast Artists of Camberville. This was one of best conversations I've ever had about the origins of The Lonely Palette and the trials and tribulations of art-viewing, meaning-making, script-writing",
    "apple": "https://podcasts.apple.com/us/podcast/bonus-artists-of-camberville-interviews-tamar-avishai/id1110780638?i=1000682916245&uo=4",
    "ms": 1963000
   },
@@ -426,37 +498,43 @@
    "title": "Ep. 40 - Frida Kahlo&apos;s &quot;Dos Mujeres (Salvadora y Herminia)&quot; (1928)",
    "link": "www.thelonelypalette.com",
    "duration": "00:37:52",
-   "date": "Fri, 19 Jul 2019 21:18:59 +0000"
+   "date": "Fri, 19 Jul 2019 21:18:59 +0000",
+   "about": "See the images: www.thelonelypalette.com/episodes/201…-dos-mujeres Music used: Django Reinhardt, “Django’s Tiger” The Andrews Sisters, Bei Mir Bist Du Schoen The Blue Dot Sessions, “Jat Poure,” “Li Fonte,” “Clouds at the Gap,” “Master,” “When the Guests Have Left,” “Curiously and Curiously,” “Thread Ceylon,” “Gondola Blue” Tinpan Orange, “Song for "
   },
   {
    "title": "Ep. 39 - Rembrandt van Rijn&apos;s &quot;Portrait of Aeltje Uylenburgh&quot; (1632)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:31:53",
-   "date": "Fri, 7 Jun 2019 19:22:57 +0000"
+   "date": "Fri, 7 Jun 2019 19:22:57 +0000",
+   "about": "It isn't 17th century Dutch art if we're not going so deeply into Rembrandt's soul and so close to the meticulous details of his virtuosic portraiture that we make the guards nervous. See the images: www.thelonelypalette.com/episodes/201…enburgh-1632 Music used: Django Reinhardt, “Django’s Tiger” The Andrews Sisters, Bei Mir Bist Du Schoen The Blue"
   },
   {
    "title": "TLP Interview with Dan Byers, Director of Harvard&apos;s Carpenter Center",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:22:33",
-   "date": "Fri, 5 Apr 2019 12:28:47 +0000"
+   "date": "Fri, 5 Apr 2019 12:28:47 +0000",
+   "about": "Tamar met Dan when she was a worshipful high school freshman and he was (to her) an übercool junior who was not only the arts editor of Thoughtprints, the school's art/lit mag, but also spent his free time in the fine art studio, bending the charcoal like Beckmann. Now he's the Director of the Carpenter Center of Visual Arts at Harvard University, "
   },
   {
    "title": "Ep. 38 - Wassily Kandinsky&apos;s &quot;Untitled&quot; (1922)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:30:41",
-   "date": "Fri, 29 Mar 2019 15:03:03 +0000"
+   "date": "Fri, 29 Mar 2019 15:03:03 +0000",
+   "about": "The later work of Russian ex-pat turned German Expressionist turned indispensable Bauhaus faculty member Wassily Kandinsky is a lot like the Bauhaus itself: a disparate collection of pieces parts that ends up assembling itself into a transparent, efficient, powerfully cohesive, form-follows-function whole. This episode was a collaboration with WBUR"
   },
   {
    "title": "Ep. 37 - Ansel Adams&apos; &quot;The Tetons and Snake River, Grand Teton National Park, Wyoming&quot; (1942)",
    "link": "http://www.thelonelypalette.com/episodes/2019/3/8/episode-37-ansel-adams-the-tetons-and-snake-river-grand-teton-national-park-wyoming-1942",
    "duration": "00:31:10",
-   "date": "Fri, 15 Mar 2019 18:42:36 +0000"
+   "date": "Fri, 15 Mar 2019 18:42:36 +0000",
+   "about": "Let's explore America the Beautiful, the Complicated, and the Contradictory, where a purple mountain has no sense of its own majesty, through the lens of the quintessential dorm room poster photographer Ansel Adams. See the images: http://www.thelonelypalette.com/episodes/2019/3/8/episode-37-ansel-adams-the-tetons-and-snake-river-grand-teton-nation"
   },
   {
    "title": "Ep. 36 - Behold the Monkey",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:40:06",
    "date": "2019-01-31T21:54:00Z",
+   "about": "The fruits of the Second Annual Year-End Patreon Listener Challenge has us staring directly into the cold dead eyes of the beast! How could this restoration of a forgotten 19th century Spanish fresco have gotten so grotesquely botched, and what does it tell us about the challenges of art restoration, religious iconography, and iconoclasm? And more ",
    "apple": "https://podcasts.apple.com/us/podcast/ep-36-behold-the-monkey/id1110780638?i=1000682916097&uo=4",
    "ms": 2406000
   },
@@ -464,19 +542,22 @@
    "title": "TLP Interview with Cecilia Vicuña, Poet &amp; Artist",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:19:10",
-   "date": "Sun, 16 Dec 2018 22:42:00 +0000"
+   "date": "Sun, 16 Dec 2018 22:42:00 +0000",
+   "about": "On October 10, 2018, both the Museum of Fine Arts, Boston, and Cecilia Vicuña herself were generous enough to give me the opportunity to take a few moments away from the installation of Disappeared Quipu and interview Vicuña. We talked about bridging the masculinity of Land Art and the femininity of Fiber Art, the origins of Vicuña's life as an art"
   },
   {
    "title": "Ep. 35 - Cecilia Vicuña&apos;s &quot;Disappeared Quipu&quot; (2018)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:31:43",
-   "date": "Sun, 16 Dec 2018 20:07:00 +0000"
+   "date": "Sun, 16 Dec 2018 20:07:00 +0000",
+   "about": "Thick woolen knots, suspended from the ceiling, alive with projections and immersed in sound. You might not realize that Chilean artist Cecilia Vicuña has woven together your awareness of your own awareness, but maybe you just needed some help translating it. See the images: www.thelonelypalette.com/episodes/201…d-quipu-2018 Music used: Django Rein"
   },
   {
    "title": "Ep. 34 - Dance Dance Revolution",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:41:57",
    "date": "2018-11-15T14:40:00Z",
+   "about": "We're trying a little something different today: what happens when Disney scares the pants off you as a kid, and then, in mining the roots of your existential dread, you realize that Henri Matisse and Igor Stravinsky both had their pants scared off too, and that explains a whole heck of a lot about early 20th century modernism? Let's find out toget",
    "apple": "https://podcasts.apple.com/us/podcast/ep-34-dance-dance-revolution/id1110780638?i=1000682916316&uo=4",
    "ms": 2517000
   },
@@ -484,49 +565,57 @@
    "title": "Ep. 33 - Jean-Honoré Fragonard&apos;s &quot;The Desired Moment&quot; (c. 1770)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:30:24",
-   "date": "Fri, 14 Sep 2018 16:28:00 +0000"
+   "date": "Fri, 14 Sep 2018 16:28:00 +0000",
+   "about": "Powder those wigs and ungird those loins: today we're diving deep into the curves, pastels, and licentious yearnings of a ridiculously saucy little style known as Rococo. See the Images: http://www.thelonelypalette.com/episodes/2018/9/8/episode-33-jean-honor-fragonard-the-desired-moment-c-1770 Music Used: Django Reinhardt, “Django’s Tiger” The Andr"
   },
   {
    "title": "Ep. 32 - René Magritte&apos;s &quot;The Son of Man&quot; (1964)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:29:12",
-   "date": "Wed, 29 Aug 2018 00:00:00 +0000"
+   "date": "Wed, 29 Aug 2018 00:00:00 +0000",
+   "about": "Ever have a day when you just feel a little... blocked? Well, sure as God made little green apples, Surrealist René Magritte feels you. See the images: www.thelonelypalette.com/episodes/201…-of-man-1964 Music used: Django Reinhardt, Django's Tiger The Andrews Sisters, Bei Mir Bist Du Schoen The Blue Dot Sessions, Roundpine , Borough , Building The "
   },
   {
    "title": "Ep. 31 - Hiroshi Sugimoto&apos;s &quot;Byrd Theater, Richmond, 1993&quot; (1993)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:31:58",
-   "date": "Fri, 13 Jul 2018 16:18:00 +0000"
+   "date": "Fri, 13 Jul 2018 16:18:00 +0000",
+   "about": "Trying to capture time in art is like trying to pin a wave upon the sand or hold a moonbeam in your hand. So leave it to Japanese photographer Hiroshi Sugimoto to do it so effectively by taking us to the Golden Age of Cinema. Seeking Stillness is on view at the MFA, Boston until September 3, 2018. See the images: www.thelonelypalette.com/episodes/2"
   },
   {
    "title": "Ep. 30 - Donatello&apos;s &quot;Madonna of the Clouds&quot; (c. 1425-1435)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:25:30",
-   "date": "Thu, 31 May 2018 02:33:00 +0000"
+   "date": "Thu, 31 May 2018 02:33:00 +0000",
+   "about": "Join the OG Ninja Turtle as he guides you into the Renaissance by way of an exquisite tour of heaven. See the images. Music Used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" Lobo Loco, \"Piano Cora Theme\" The Blue Dot Sessions, \"UpUpUp and Over\", \"Slow Line Stomp\", \"Lakeside Path\", \"Perspiration\", \"Threads and Veils\", \"Moon Bicycle Theme\" Joe Dass"
   },
   {
    "title": "Ep. 29 - Egon Schiele&apos;s &quot;Nude Self-Portrait&quot; (1910)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:29:53",
-   "date": "Fri, 27 Apr 2018 00:22:00 +0000"
+   "date": "Fri, 27 Apr 2018 00:22:00 +0000",
+   "about": "Welcome to the cult of the punk: where the skin is flayed, the contortions are twisty, and the struggle is real. So why can't we get enough? See the images. Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\"The Blue Dot Sessions, \"Taoudella\", \"Fifteen Street\", \"Smooth Stone\", \"Scraper\", \"Then A Gambling Problem\", \"Warm Fingers\", \"Chrome and "
   },
   {
    "title": "Ep. 28 - Yoko Ono&apos;s &quot;Cut Piece&quot; (1964)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:27:51",
-   "date": "Fri, 30 Mar 2018 02:32:00 +0000"
+   "date": "Fri, 30 Mar 2018 02:32:00 +0000",
+   "about": "Yoko Ono. You may have heard of her. She hooked up with that musician that time. Just under the wire, we end Women's History Month with a peek beneath Ono's art and reputation - and why we need to reconsider both. See the images. Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Plaster Combo\", \"Valantis\", \"Strange D"
   },
   {
    "title": "Ep. 27 - Roy Lichtenstein&apos;s &quot;Ohhh... Alright...&quot; (1964)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:24:51",
-   "date": "Wed, 7 Mar 2018 23:18:00 +0000"
+   "date": "Wed, 7 Mar 2018 23:18:00 +0000",
+   "about": "Can a comic strip be elevated to fine art? Or is Pop artist Roy Lichtenstein just plain dotty? See the images. Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Le Marais\", \"The Molerat\", \"Lemon and Melon\", \"Via Verre\", \"Lord Weasel\", \"Entrap\" Joe Dassin, “Les Champs-Elysees\" Support the show by becoming a patron or "
   },
   {
    "title": "Bonus - Keepers of the Culture (Live Event at the PRX Podcast Garage)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:36:33",
    "date": "2018-02-15T17:08:00Z",
+   "about": "In this special episode, we listen to the audio from the live event at the PRX Podcast Garage, \"Keepers of the Culture: A Celebration of Meduna and Holmes,\" which I had the privilege of participating in at the end of January. In it I chat with collage artist Ekua Holmes, play her some audio I produced on her work, and then we listen to art historia",
    "apple": "https://podcasts.apple.com/us/podcast/bonus-keepers-of-the-culture-live-event-at-the/id1110780638?i=1000682916098&uo=4",
    "ms": 2193000
   },
@@ -534,13 +623,15 @@
    "title": "Ep. 26 - C.M. Coolidge&apos;s &quot;Dogs Playing Poker&quot; (1903)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:37:09",
-   "date": "Thu, 15 Feb 2018 17:04:00 +0000"
+   "date": "Thu, 15 Feb 2018 17:04:00 +0000",
+   "about": "Your Listener Patreon Challenge has been accepted! And now, let's dive together into kitsch: the frequency low enough for us all to hear. See the images. Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Rose Ornamental,\" \"Flattered,\" \"Arizona Moon,\" \"Laser Focus,\" \"Alchemical,\" \"Two in the Back,\" \"Maisie Dreamer,\" \""
   },
   {
    "title": "Ep. 25 - Mission: Mona Lisa",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:47:40",
    "date": "2017-12-22T15:01:37Z",
+   "about": "Our lady of the hour, muse of Dan Brown, satisfier of bucket lists, those eyes, that smile, La Gioconda, El Hefe. Just in time for the holidays, we bring you a super-sized episode on a super-sized love affair with a dinky little portrait. See the images. Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Tar and Spack",
    "apple": "https://podcasts.apple.com/us/podcast/ep-25-mission-mona-lisa/id1110780638?i=1000398140791&uo=4",
    "ms": 2860000
   },
@@ -549,6 +640,7 @@
    "link": "http://www.thelonelypalette.com",
    "duration": "00:29:39",
    "date": "2017-11-21T21:34:00Z",
+   "about": "Whether you think Mark Rothko is the portal to spiritual transcendence or emotional-ambulance-chasing bunk, let's take the necessary time to explore his work without feeling like our souls are at stake. See the images. Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"A Simple Blur\", \"Thematic\", \"Cases to Rest\", \"Pla",
    "apple": "https://podcasts.apple.com/us/podcast/ep-24-meditations-on-mark-rothko/id1110780638?i=1000395108001&uo=4",
    "ms": 1779000
   },
@@ -556,37 +648,43 @@
    "title": "Ep. 23 - Umberto Boccioni&apos;s &quot;Unique Forms of Continuity in Space&quot; (1913)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:24:16",
-   "date": "Tue, 31 Oct 2017 23:14:07 +0000"
+   "date": "Tue, 31 Oct 2017 23:14:07 +0000",
+   "about": "At the intersection of past and future sits a pack of hormonal dudes punching each other and making beautiful art. See the images. Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" Podington Bear, \"Kaleidoscope\" The Blue Dot Sessions, \"Chase and We Follow\", \"The Telling\", \"Trelaga\", \"Thirteens\" Joe Dassin, “Les Champs-Elysees\" Support the s"
   },
   {
    "title": "Bonus - Introducing Hub &amp; Spoke (by way of Soonish)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:37:48",
-   "date": "Wed, 25 Oct 2017 01:38:02 +0000"
+   "date": "Wed, 25 Oct 2017 01:38:02 +0000",
+   "about": "The Lonely Palette is thrilled to announce that we're a founding member of Hub Spoke, a brand spanking new collective of Boston-centric, idea-driven podcasts. To kick things off, we're proud to present an episode of Soonish, the podcast about the future, hosted by veteran technology journalist Wade Roush. This episode, Can Technology Save Museums? "
   },
   {
    "title": "Ep. 22 - Jasper Johns&apos; &quot;Target&quot; (1961)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:22:45",
-   "date": "Wed, 27 Sep 2017 02:45:34 +0000"
+   "date": "Wed, 27 Sep 2017 02:45:34 +0000",
+   "about": "Ceci n'est pas un target, and other bewildering and profound pronouncements by conceptual neo-Dadaist (with abstract Pop Art sensibilities) Jasper Johns. See the images Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Soothe\", \"Helado\", \"Chapel Donder\", \"The Summit\" Jason Leonard, \"Ritual Six\" Joe Dassin, “Les Champ"
   },
   {
    "title": "Ep. 21 - Mary Cassatt&apos;s &quot;In the Loge&quot; (1878)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:27:29",
-   "date": "Tue, 5 Sep 2017 22:40:21 +0000"
+   "date": "Tue, 5 Sep 2017 22:40:21 +0000",
+   "about": "So. It appears that art history has a woman problem. See the images Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Waterborne\", \"Pat Dog\", \"Partly Sage\", \"Illway\", \"Turning to You\", \"Horizon Liner\", \"Soothe\" Joe Dassin, “Les Champs-Elysees” Support the show by becoming a patron or by just sending us a tip ."
   },
   {
    "title": "Ep. 20 - Henryk Ross&apos;s Photographs of the Lodz Ghetto (1940-44)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:24:54",
-   "date": "Tue, 4 Jul 2017 20:26:12 +0000"
+   "date": "Tue, 4 Jul 2017 20:26:12 +0000",
+   "about": "In this special episode, we look at the exhibition Memory Unearthed: Henryk Ross’s Photographs of the Lodz Ghetto , and explore the Lodz ghetto specifically, Holocaust photography more generally, and the role our need for a good story has played in shaping our understanding of both. Memory Unearthed was on view at the Museum of Fine Arts, Boston un"
   },
   {
    "title": "Ep. 19 - Guanyin, Bodhisattva of Compassion (Song Dynasty, 12th c. CE)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:23:25",
    "date": "2017-06-13T18:31:46Z",
+   "about": "Take a load off as you relax into this Song Dynasty masterpiece. You're going to be here for a while. See the images Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Masonry\", \"Exceter Lask\", \"Hickory Interlude\", \"Copper Halls\", \"Feathering\", \"Inside the Paper Crane\", \"Doghouse\" Joe Dassin, “Les Champs-Elysees” Supp",
    "apple": "https://podcasts.apple.com/us/podcast/ep-19-guanyin-bodhisattva-of-compassion-song-dynasty/id1110780638?i=1000386512714&uo=4",
    "ms": 1405000
   },
@@ -594,115 +692,134 @@
    "title": "Ep. 18 - JMW Turner&apos;s &quot;The Slave Ship&quot; (1840)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:23:15",
-   "date": "Tue, 23 May 2017 22:08:03 +0000"
+   "date": "Tue, 23 May 2017 22:08:03 +0000",
+   "about": "Because it's hard to look directly into the sun. Or yourself. See the images Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Sunday Lights\", \"Town Market\", \"Rapids\", \"Liptis\", \"Ballast\", \"Masonry\" Joe Dassin, “Les Champs-Elysees” Support the show by becoming a patron or by just sending us a tip ."
   },
   {
    "title": "Ep. 17 - Marcel Duchamp&apos;s &quot;Fountain&quot; (1917)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:26:35",
-   "date": "Tue, 18 Apr 2017 20:52:00 +0000"
+   "date": "Tue, 18 Apr 2017 20:52:00 +0000",
+   "about": "On the occasion of its hundredth birthday, we dive into the art world's greatest joke (splash!). See the images Music Used: Podington Bear, \"A1 Rogue\", \"In My Head\" The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"In The Back Room\", \"Rafter\", \"FasterFasterBrighter\", \"Nesting\", \"Lamplist\" Joe Dassin, “Les Champs-Elysees” Support"
   },
   {
    "title": "Ep. 16 - Vincent Van Gogh&apos;s &quot;Postman Joseph Roulin&quot; (1888)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:22:08",
-   "date": "Wed, 29 Mar 2017 00:47:06 +0000"
+   "date": "Wed, 29 Mar 2017 00:47:06 +0000",
+   "about": "You've just had a manic break, cut off a piece of your ear, and gifted it to a prostitute. Who ya gonna call? Your get-a-grip postman friend, of course! See the image Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Step In Step Out\", \"Scratcher\", \"Over the Fence\", \"Scalloped\", \"On Belay\" Lee Rosevere, \"Curiosity\" J"
   },
   {
    "title": "Ep. 15 - El Anatsui&apos;s &quot;Black River&quot; (2009)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:21:47",
-   "date": "Tue, 7 Mar 2017 14:42:58 +0000"
+   "date": "Tue, 7 Mar 2017 14:42:58 +0000",
+   "about": "One man's trash is Ghanaian fiber artist El Anatsui's treasure. See the image Music used: Podington Bear, \"Down and Around\" The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Coronea\", \"Mercurial Vision\", \"Stipple\", \"Our Quiet Company\", \"Step In Step Out\" Joe Dassin, “Les Champs-Elysees” Support the show by becoming a patron or b"
   },
   {
    "title": "Ep. 14  - Paul Gauguin&apos;s &quot;Where Do We Come From? What Are We? Where Are We Going?&quot; (1897-98)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:23:28",
-   "date": "Wed, 25 Jan 2017 22:54:24 +0000"
+   "date": "Wed, 25 Jan 2017 22:54:24 +0000",
+   "about": "The gospel according to Gauguin is basically an existential hodgepodge that you and I were never supposed to understand. See the image Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Flagger\", \"Pacing\", \"Open Flames\", \"One Quiet Conversation\" Mathieu Lamontagne & Emmanuel Toledo, \"Point de vue\" Joe Dassin, “Les Cha"
   },
   {
    "title": "Ep. 13 - Edward Hopper&apos;s &quot;Room in Brooklyn&quot; (1932)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:20:09",
-   "date": "Tue, 3 Jan 2017 21:52:42 +0000"
+   "date": "Tue, 3 Jan 2017 21:52:42 +0000",
+   "about": "Welcome to Edward Hopper's specific, yet schematic, love letter to the alienation of the modern American city. See the image Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Lacquer Groove\", \"In Passage\", \"Cats Eye\", \"Tranceless\", \"Simple Melody\", \"Flagger\" Joe Dassin, “Les Champs-Elysees” Support the show by becomi"
   },
   {
    "title": "Ep. 12 - Jackson Pollock&apos;s &quot;Number 10, 1949&quot; (1949)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:20:16",
-   "date": "Tue, 13 Dec 2016 18:54:36 +0000"
+   "date": "Tue, 13 Dec 2016 18:54:36 +0000",
+   "about": "Dust off your verbs, it's time to make sense out of chaos. See the image Music used: Eric Dolphy, \"Out To Lunch\" The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Parade Shoes\", \"Inessential\", \"City Limits\", \"Lacquer Groove\" Joe Dassin, “Les Champs-Elysees” Support the show by becoming a patron or by just sending us a tip ."
   },
   {
    "title": "Ep. 11 - John Singer Sargent&apos;s &quot;The Daughters of Edward Darley Boit&quot; (1882)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:21:19",
-   "date": "Tue, 15 Nov 2016 18:08:47 +0000"
+   "date": "Tue, 15 Nov 2016 18:08:47 +0000",
+   "about": "The darlings, the crown jewels, the moneymakers. Just what the heck is it about these girls?! See the image Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Brass Buttons\", \"Heliotrope\", \"Vittoro\", \"Filing Away\" Lobo Loco, \"White Shapes Beauty\" Joe Dassin, “Les Champs-Elysees” Eric Dolphy, \"Out To Lunch\" Support the"
   },
   {
    "title": "Ep. 10 - Piet Mondrian&apos;s &quot;Composition with Red, Yellow, and Blue&quot; (1927)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:20:38",
-   "date": "Tue, 25 Oct 2016 20:30:49 +0000"
+   "date": "Tue, 25 Oct 2016 20:30:49 +0000",
+   "about": "Think abstraction is totally inaccessible? Pull up a chair. See the image Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"The Provisions\", \"A Certain Lightness\", \"A Rush of Clear Water\", \"Brass Buttons\" Lee Rosevere, \"Puzzle Pieces\" Tamar Avishai, \"Grid (after Sol LeWitt's Drawing Series)\" Support the show by becom"
   },
   {
    "title": "Ep. 9 - Ernst Ludwig Kirchner&apos;s &quot;Reclining Nude&quot; (1909)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:20:51",
-   "date": "Tue, 4 Oct 2016 16:19:13 +0000"
+   "date": "Tue, 4 Oct 2016 16:19:13 +0000",
+   "about": "The German Expressionists get hot. Nazis get bothered. See the image Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" David Szeszlay, \"Night Surfing\" Michael Howard, \"The Tallest Man in Idaho (Instrumental)\" Jason Leonard, \"Ritual Twelve\" The Blue Dot Sessions, \"Stilt\", \"Manele\", \"The Provisions\" Joe Dassin, “Les Champs-Elysees” Support th"
   },
   {
    "title": "Ep. 8 - Richard Serra&apos;s &quot;Torqued Ellipses&quot; (1996)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:18:40",
-   "date": "Tue, 20 Sep 2016 20:55:35 +0000"
+   "date": "Tue, 20 Sep 2016 20:55:35 +0000",
+   "about": "This big bully is about to give you a lesson in contrasts you won't soon forget. Featuring Dar Williams! See the image Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Turning\", \"Downhill Racer\", \"Cloud Line\" Lee Rosevere, \"Reflections\" Dar Williams and the WASTM Good Times House Choir, \"The Water is Wide\" Support t"
   },
   {
    "title": "Ep. 7 - Claude Monet&apos;s &quot;Rouen Cathedral&quot; Series (1892-94)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:18:08",
-   "date": "Tue, 6 Sep 2016 19:45:28 +0000"
+   "date": "Tue, 6 Sep 2016 19:45:28 +0000",
+   "about": "After centuries in the shadows, it's light's turn to shine. See the image Music used: The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"The Spinnet\", \"Lahaina\", \"Discovery Harbor\", \"Santre\" Joe Dassin, “Les Champs-Elysees” Support the show by becoming a patron or by just sending us a tip ."
   },
   {
    "title": "Ep. 6 - Pablo Picasso&apos;s &quot;Portrait of a Woman&quot; (1910)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:15:47",
-   "date": "Wed, 20 Jul 2016 22:47:56 +0000"
+   "date": "Wed, 20 Jul 2016 22:47:56 +0000",
+   "about": "You think your seven-year-old could paint this indecipherable abstract Cubist painting? Well, it's not abstract, it's totally understandable, and... he couldn't. See the image Music used: Paolo Pavan, “Blue Night Dance” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, \"Balti\", \"The Rampart\", \"Steadfast\", \"Beast on the Soil\" Joe "
   },
   {
    "title": "Ep. 5 - Andy Warhol&apos;s &quot;Red Disaster&quot; (1962)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:12:12",
-   "date": "Tue, 5 Jul 2016 19:20:37 +0000"
+   "date": "Tue, 5 Jul 2016 19:20:37 +0000",
+   "about": "Elbow-deep in trauma, Andy Warhol plays with repetition and bores us into action. See the image Music used: Chris Zabriskie, “Cylinder Four” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" Ketsa, “Catching Feathers” The Blue Dot Sessions, “Drifting Spade” Joe Dassin, “Les Champs-Elysees” Paolo Pavan, “Blue Night Dance” Support the show by becoming a "
   },
   {
    "title": "Ep. 4 - Edgar Degas&apos; &quot;Duchessa di Montejasi with Her Daughters, Elena and Camilla&quot; (c. 1876)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:12:30",
-   "date": "Tue, 21 Jun 2016 14:17:35 +0000"
+   "date": "Tue, 21 Jun 2016 14:17:35 +0000",
+   "about": "Hey! You there! Don't walk by this seemingly-boring painting. You might miss the 19th century. See the image Music used: Reynold Philipsek, \"Intro and Nuages\" (Django Reinhardt cover) The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “A Burst of Light”, “The Silver Hatch” Lee Rosevere, “Wandering” Joe Dassin, “Les Champs-Elysees”"
   },
   {
    "title": "Ep. 3 - John Singleton Copley&apos;s &quot;Portrait of Samuel Adams&quot; (1772)",
    "link": "https://www.thelonelypalette.com/episodes/2016/6/2/episode-3-john-singleton-copleys-portrait-of-samuel-adams-1772",
    "duration": "00:15:14",
-   "date": "Tue, 7 Jun 2016 13:29:43 +0000"
+   "date": "Tue, 7 Jun 2016 13:29:43 +0000",
+   "about": "While John Singleton Copley is busying himself with past and present art historical styles, Samuel Adams is getting all up in your biz. See the image Music used: Tri-Tachyon, “Little Lily Swing” The Blue Dot Sessions, “Decompression”, “Turning on the Lights” Velella Velella, “Hard Egg Timer” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" Joe Dassin,"
   },
   {
    "title": "Ep. 2 - Christian Boltanski&apos;s &quot;Lumieres (blue square - Sylvie)&quot; (2000)",
    "link": "http://www.thelonelypalette.com",
    "duration": "00:11:57",
-   "date": "Tue, 24 May 2016 21:38:31 +0000"
+   "date": "Tue, 24 May 2016 21:38:31 +0000",
+   "about": "Christian Boltanski tackles memory and death. We tackle Christian Boltanski. See the image Music used: The Blue Dot Sessions, “That Horse Ithica”, “The Terrarium”, “That River Wide” The Andrews Sisters, \"Bei Mir Bist Du Schoen\" Joe Dassin, “Les Champs-Elysees” Tri-Tachyon, “Little Lily Swing” Support the show by becoming a patron or by just sending"
   },
   {
    "title": "Ep. 1 - Paul Cezanne&apos;s  &quot;Fruit and Jug on a Table&quot; (c. 1890-94)",
    "link": "https://www.thelonelypalette.com/episodes/2016/5/10/episode-1-paul-cezannes-fruit-and-jug-on-a-table-c-1890-94",
    "duration": "00:16:38",
-   "date": "Wed, 11 May 2016 12:51:01 +0000"
+   "date": "Wed, 11 May 2016 12:51:01 +0000",
+   "about": "Just how did Cezanne keep that fruit from tumbling all over the place? We have theories. See the images Music Used: Django Reinhardt, \"Dinah\" The Andrews Sisters, \"Bei Mir Bist Du Schoen\" The Blue Dot Sessions, “Stale Case”, “Tripoli”, “Andelo”, “This Horse Ithica” Joe Dassin, “Les Champs-Elysees” Support the show by becoming a patron or by just se"
   },
   {
    "title": "Ep. 0 - Art! What is it Good For?",
    "link": "https://www.thelonelypalette.com/episodes/2016/4/25/episode-0-art-what-is-it-good-for",
    "duration": "00:17:03",
    "date": "2016-05-03T21:38:00Z",
+   "about": "Art is everywhere. Why shouldn't it be for everyone, no matter how fluent you are in art history? This podcast says it should. Music used: The Blue Dot Sessions, \"Cirrus\", \"The Spills\", \"The Zeppelin\" The Andrews Sisters, \"Bei Mir Bist Du Schoen\" Doctor Turtle, \"Marty Ladies and Gentlemen\" Dave Depper, \"All the Pieces Come Together\" Django Reinhard",
    "apple": "https://podcasts.apple.com/us/podcast/ep-0-art-what-is-it-good-for/id1110780638?i=1000368038722&uo=4",
    "ms": 1023000
   }
