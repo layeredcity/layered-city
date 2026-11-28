@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Bruges",
- "started": "2026-11-28T16:43:28.954Z",
+ "started": "2026-11-28T16:56:28.250Z",
  "created": [
   "podcast: William Caxton",
   "video: The Holy Blood procession",
@@ -16,5 +16,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T16:43:30.522Z"
+ "finished": "2026-11-28T16:56:36.753Z"
 }
