@@ -1,122 +1,40 @@
 [
  {
-  "key": "sofia|Directions 2017 Komandarev",
-  "q": "Directions 2017 Komandarev",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "sofia|Posoki 2017",
-  "q": "Posoki 2017",
+  "key": "bruges|Brugge die stille 1981",
+  "q": "Brugge die stille",
   "status": 200,
   "hits": [
    {
-    "id": "tt6467968",
-    "l": "Directions",
-    "y": 2017,
+    "id": "tt0184309",
+    "l": "Brugge, die stille",
+    "y": 1981,
     "q": "feature",
-    "s": "Haralan Alexandrov, Dimitar Banenkin",
-    "img": "https://m.media-amazon.com/images/M/MV5BNWUxOGUwNWYtZWU4OC00MGJjLWE2ODUtMDlkZGUwODdlOGE5XkEyXkFqcGc@._V1_.jpg",
+    "s": "Idwig Stéphane, Magda Lesage",
+    "img": "https://m.media-amazon.com/images/M/MV5BODgxMzI3OTM1NF5BMl5BanBnXkFtZTcwODUzMjA0MQ@@._V1_.jpg",
     "ok": 200
    },
    {
-    "id": "tt6577814",
-    "l": "Screwed",
-    "y": 2017,
+    "id": "tt0281684",
+    "l": "Bruges-la-morte. Ses monuments",
+    "y": 1935,
     "q": "feature",
-    "s": "Mikko Kauppila, Valtteri Lehtinen",
-    "img": "https://m.media-amazon.com/images/M/MV5BNDJiMWM3YTYtOWVmOS00Yjk5LTk4YTktNjRjMDRlNTUzMzUyXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
+    "s": "",
+    "img": null
    },
    {
-    "id": "tt7790776",
-    "l": "Land of the Lustrous",
-    "y": 2017,
-    "q": "TV series",
-    "s": "Tomoyo Kurosawa, Sarah Wiedenheft",
-    "img": "https://m.media-amazon.com/images/M/MV5BMzBlZDBkMzUtMGYwNS00ZDAyLTg2ODEtZDkxNmRmOTYwZDA0XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt6015328",
-    "l": "Chasing the Dragon",
-    "y": 2017,
+    "id": "tt0281683",
+    "l": "Bruges-la-morte. Ses canaux",
+    "y": 1935,
     "q": "feature",
-    "s": "Donnie Yen, Andy Lau",
-    "img": "https://m.media-amazon.com/images/M/MV5BNjA3OGRiZDEtNWU5NS00ZTk2LWE2NzctYWZmZjRiZTdjZWZlXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
+    "s": "",
+    "img": null
    },
    {
-    "id": "tt7713450",
-    "l": "Craig of the Creek",
-    "y": 2017,
-    "q": "TV series",
-    "s": "Philip Solomon, Michael Croner",
-    "img": "https://m.media-amazon.com/images/M/MV5BNzNlNDgxOTItNzI1Yi00ZGQzLWJhMTctMTllNmEwYWNmYTcwXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
+    "id": "nm3605843",
+    "l": "Peter Brugger",
+    "s": "Soundtrack, The Pasta Detectives (2014)",
+    "img": null
    }
   ]
- },
- {
-  "key": "sofia|The Boy Who Was a King",
-  "q": "The Boy Who Was a King",
-  "status": 200,
-  "hits": [
-   {
-    "id": "nm0144657",
-    "l": "Dan Castellaneta",
-    "s": "Actor, The Simpsons (1989-2027)",
-    "img": "https://m.media-amazon.com/images/M/MV5BMjAyNDY5NDEwOV5BMl5BanBnXkFtZTcwMjY0ODYyMQ@@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt2044019",
-    "l": "The Boy Who Was a King",
-    "y": 2011,
-    "q": "feature",
-    "s": "Simeon II of Bulgaria, Margarita Saxe-Coburg-Gotha",
-    "img": "https://m.media-amazon.com/images/M/MV5BMmYzODE4NDMtNDJhMy00YzNjLTlhNjYtN2EzMTFmMzBmZjdhXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt0432755",
-    "l": "The Boy Who Would Be King",
-    "y": 2004,
-    "q": "TV movie",
-    "s": "Jack Davenport, Martin Alexander Colton",
-    "img": "https://m.media-amazon.com/images/M/MV5BZWQ5NjIzOGUtMGNlZC00MTQ3LWI5YjItZjRjMjdkZGY3ODk2XkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt27531571",
-    "l": "King Charles: The Boy Who Walked Alone",
-    "y": 2023,
-    "q": "TV series",
-    "s": "India Hicks, Janet Jenkins",
-    "img": "https://m.media-amazon.com/images/M/MV5BZDg0OGZkYTEtODJmMC00OGQ3LWI0MDQtNDM4NTI1OGJkZjZmXkEyXkFqcGc@._V1_.jpg",
-    "ok": 200
-   },
-   {
-    "id": "tt1730144",
-    "l": "The Boy Who Became King",
-    "y": 2010,
-    "q": "short",
-    "s": "Jack Gilroy, Stone Eisenmann",
-    "img": "https://m.media-amazon.com/images/M/MV5BMTc5NTA3OTMxN15BMl5BanBnXkFtZTcwMjg2ODc5Mw@@._V1_.jpg",
-    "ok": 200
-   }
-  ]
- },
- {
-  "key": "sofia|Tsar Simeon documentary Paounov",
-  "q": "Tsar Simeon documentary Paounov",
-  "status": 200,
-  "hits": []
- },
- {
-  "key": "sofia|The Optimists 2001 Comforty",
-  "q": "The Optimists 2001 Comforty",
-  "status": 200,
-  "hits": []
  }
 ]
