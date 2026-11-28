@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Nice",
- "started": "2026-11-28T16:40:25.234Z",
+ "started": "2026-11-28T16:52:41.619Z",
  "created": [
   "podcast: A diary from wartime Nice",
   "video: Garibaldi, born in Nice",
@@ -17,5 +17,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T16:40:26.850Z"
+ "finished": "2026-11-28T16:52:53.120Z"
 }
