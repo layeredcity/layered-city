@@ -1,0 +1,16 @@
+{
+ "mode": "dry-run",
+ "city": "Naples",
+ "started": "2026-11-28T17:42:59.555Z",
+ "created": [
+  "video: The Villa of the Mysteries, Pompeii"
+ ],
+ "skipped": [
+  "city: Naples already exists"
+ ],
+ "channels": [],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T17:43:01.234Z"
+}
