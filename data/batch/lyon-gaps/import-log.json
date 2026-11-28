@@ -1,7 +1,7 @@
 {
- "mode": "dry-run",
+ "mode": "import",
  "city": "Lyon",
- "started": "2026-11-28T16:47:18.226Z",
+ "started": "2026-11-28T17:01:13.001Z",
  "created": [
   "podcast: Rabelais in Lyon",
   "video: The Jacquard loom",
@@ -18,5 +18,5 @@
  "drafts": [],
  "warnings": [],
  "errors": [],
- "finished": "2026-11-28T16:47:19.836Z"
+ "finished": "2026-11-28T17:01:28.981Z"
 }
