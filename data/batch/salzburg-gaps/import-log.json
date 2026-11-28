@@ -1,0 +1,20 @@
+{
+ "mode": "dry-run",
+ "city": "Salzburg",
+ "started": "2026-11-28T16:39:37.361Z",
+ "created": [
+  "podcast: Christian Doppler",
+  "podcast: Paracelsus"
+ ],
+ "skipped": [
+  "city: Salzburg already exists"
+ ],
+ "channels": [
+  "podcast: Historical Astronomy",
+  "podcast: Sawbones: A Marital Tour of Misguided Medicine"
+ ],
+ "drafts": [],
+ "warnings": [],
+ "errors": [],
+ "finished": "2026-11-28T16:39:38.886Z"
+}
