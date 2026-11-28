@@ -47,21 +47,6 @@
  {
   "type": "book",
   "city": "Ljubljana",
-  "title": "Southern Scum Go Home!",
-  "author": "Goran Vojnović",
-  "year": 2008,
-  "genre": "novel",
-  "place": "Fužine",
-  "lat": 46.0511,
-  "lon": 14.5639,
-  "isbn": "",
-  "goodreads": "https://goodreads.com/search?q=Goran%20Vojnovi%C4%87%20Southern%20Scum%20Go%20Home%21",
-  "bookshop": "https://bookshop.org/search?keywords=Goran%20Vojnovi%C4%87%20Southern%20Scum%20Go%20Home%21",
-  "description": "A funny, angry novel about teenagers from immigrant families from other parts of Yugoslavia, growing up in Fužine, a high-rise estate on Ljubljana’s edge. It was a bestseller and a film."
- },
- {
-  "type": "book",
-  "city": "Ljubljana",
   "title": "Jože Plečnik, 1872–1957: Architectura Perennis",
   "author": "Damjan Prelovšek",
   "year": 1997,
@@ -69,7 +54,7 @@
   "place": "Plečnik House",
   "lat": 46.0425,
   "lon": 14.5024,
-  "isbn": "",
+  "isbn": "9780300069532",
   "goodreads": "https://goodreads.com/search?q=Damjan%20Prelov%C5%A1ek%20Jo%C5%BEe%20Ple%C4%8Dnik%2C%201872%E2%80%931957%3A%20Architectura%20Perennis",
   "bookshop": "https://bookshop.org/search?keywords=Damjan%20Prelov%C5%A1ek%20Jo%C5%BEe%20Ple%C4%8Dnik%2C%201872%E2%80%931957%3A%20Architectura%20Perennis",
   "description": "The standard English book on Plečnik by the leading expert on his work, covering his years in Vienna and Prague and his remaking of Ljubljana. His house in Trnovo is now a museum."
