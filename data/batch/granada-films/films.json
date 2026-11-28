@@ -1,0 +1,47 @@
+[
+ {
+  "type": "movie",
+  "city": "Granada",
+  "title": "Blood Wedding",
+  "creator": "Carlos Saura",
+  "year": 1981,
+  "genre": "flamenco dance film",
+  "place": "Huerta de San Vicente",
+  "lat": 37.1707,
+  "lon": -3.6093,
+  "minutes": 72,
+  "imdb": "tt0082088",
+  "justwatch": "https://justwatch.com/us/search?q=Blood%20Wedding",
+  "description": "Antonio Gades’s flamenco company dances Lorca’s tragedy of a bride who runs off with her old lover on her wedding day. Carlos Saura films a full dress rehearsal in a bare studio, with almost no words. Lorca wrote the play in 1932."
+ },
+ {
+  "type": "movie",
+  "city": "Granada",
+  "title": "La luz prodigiosa",
+  "creator": "Miguel Hermoso",
+  "year": 2003,
+  "genre": "drama",
+  "place": "Federico García Lorca Park, Alfacar",
+  "lat": 37.2442,
+  "lon": -3.5533,
+  "minutes": 108,
+  "imdb": "tt0351278",
+  "justwatch": "https://justwatch.com/us/search?q=La%20luz%20prodigiosa",
+  "description": "In August 1936 a young shepherd near Granada finds a badly wounded man who has survived a firing squad. Decades later he meets him again, with no memory of who he was. The film lets you wonder whether he is Lorca. In Spanish."
+ },
+ {
+  "type": "movie",
+  "city": "Granada",
+  "title": "Sacromonte, los sabios de la tribu",
+  "creator": "Chus Gutiérrez",
+  "year": 2014,
+  "genre": "documentary",
+  "place": "Sacromonte Caves Museum",
+  "lat": 37.1831,
+  "lon": -3.5842,
+  "minutes": 94,
+  "imdb": "tt4114612",
+  "justwatch": "https://justwatch.com/us/search?q=Sacromonte%2C%20los%20sabios%20de%20la%20tribu",
+  "description": "“Sacromonte: The Wise Ones of the Tribe.” A documentary in which the older Romani flamenco artists of Sacromonte remember the cave quarter’s golden age, before floods in 1963 forced most families out. In Spanish."
+ }
+]
