@@ -6,7 +6,14 @@
   "place": "Gate of Justice, Alhambra",
   "lat": 37.1761,
   "lon": -3.5903,
-  "description": "A short audio tour through the Alhambra from the Gate of Justice, covering the Renaissance palace that Emperor Charles V built inside it and the Nasrid Palaces. An Alhambra ticket is required."
+  "description": "A short audio tour through the Alhambra from the Gate of Justice, covering the Renaissance palace that Emperor Charles V built inside it and the Nasrid Palaces. An Alhambra ticket is required.",
+  "creator": "Context Travel",
+  "minutes": 45,
+  "distanceKm": null,
+  "priceUsd": 19.99,
+  "rating": 4.1,
+  "numberOfRatings": 83,
+  "image": "https://media.voicemap.me/public/routes/images/000/009/481/original/Alhambra-Audio-Guide.jpg"
  },
  {
   "city": "Granada",
@@ -15,7 +22,14 @@
   "place": "Plaza de Bib-Rambla",
   "lat": 37.1753,
   "lon": -3.5995,
-  "description": "A long walk from the fountain in Plaza Bib-Rambla through the old silk market, the cathedral and Royal Chapel, and up along the river into the lower Albaicín, Granada’s old Muslim quarter."
+  "description": "A long walk from the fountain in Plaza Bib-Rambla through the old silk market, the cathedral and Royal Chapel, and up along the river into the lower Albaicín, Granada’s old Muslim quarter.",
+  "creator": "Ben Barclay",
+  "minutes": 180,
+  "distanceKm": 4,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 189,
+  "image": "https://media.voicemap.me/public/routes/images/000/007/556/original/Enchanting_Granada_a_walking_tour.jpg"
  },
  {
   "city": "Granada",
@@ -24,7 +38,14 @@
   "place": "Monastery of Santa Isabel la Real",
   "lat": 37.1807,
   "lon": -3.596,
-  "description": "A walk through the upper Albaicín, past old city gates, a Nasrid palace, and viewpoints over the Alhambra, then down into the cave houses of Sacromonte."
+  "description": "A walk through the upper Albaicín, past old city gates, a Nasrid palace, and viewpoints over the Alhambra, then down into the cave houses of Sacromonte.",
+  "creator": "Ben Barclay",
+  "minutes": 120,
+  "distanceKm": 3,
+  "priceUsd": 14.99,
+  "rating": 4.8,
+  "numberOfRatings": 127,
+  "image": "https://media.voicemap.me/public/routes/images/000/007/870/original/San_Nicolas_pano.jpg"
  },
  {
   "city": "Granada",
@@ -33,7 +54,14 @@
   "place": "Plaza del Carmen",
   "lat": 37.1742,
   "lon": -3.5991,
-  "description": "A walk from the town hall up the steep streets of the Realejo, once the Jewish quarter, with stops at churches, squares, and viewpoints toward the Alhambra."
+  "description": "A walk from the town hall up the steep streets of the Realejo, once the Jewish quarter, with stops at churches, squares, and viewpoints toward the Alhambra.",
+  "creator": "Ben Barclay",
+  "minutes": 120,
+  "distanceKm": 4,
+  "priceUsd": 9.99,
+  "rating": 4.8,
+  "numberOfRatings": 91,
+  "image": "https://media.voicemap.me/public/routes/images/000/017/577/original/Vibrant_Multicultural_Realejo_1784720702.jpg"
  },
  {
   "city": "Granada",
@@ -42,6 +70,13 @@
   "place": "Fuente de las Batallas",
   "lat": 37.1721,
   "lon": -3.5987,
-  "description": "An architect leads a walk through the old center, explaining the buildings: the Moorish Corral del Carbón inn, the silk market, the Royal Chapel, the cathedral, and the Monastery of San Jerónimo."
+  "description": "An architect leads a walk through the old center, explaining the buildings: the Moorish Corral del Carbón inn, the silk market, the Royal Chapel, the cathedral, and the Monastery of San Jerónimo.",
+  "creator": "Walkitect",
+  "minutes": 120,
+  "distanceKm": 2,
+  "priceUsd": 11.99,
+  "rating": 4.6,
+  "numberOfRatings": 18,
+  "image": "https://media.voicemap.me/public/routes/images/000/010/759/original/A_PPAL.jpg"
  }
 ]
