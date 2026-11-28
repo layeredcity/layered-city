@@ -2,386 +2,24 @@
  "city": "Dublin",
  "pins": [
   {
-   "id": "5pYGs6QBdTr5WKGDayKq6p",
-   "title": "Surviving Ireland’s Magdalene laundries",
-   "type": "podcast",
-   "place": "Former Magdalene laundry, Seán McDermott Street",
-   "lat": 53.3528,
-   "lon": -6.2551
-  },
-  {
-   "id": "3ZLCy7re2UvUaRatFDHcUS",
-   "title": "Jonathan Swift’s ‘A Modest Proposal’",
-   "type": "podcast",
-   "place": "St Patrick’s Cathedral",
-   "lat": 53.3395,
-   "lon": -6.2715
-  },
-  {
-   "id": "se7Iwk7OZKjAZGkRFHhdc",
-   "title": "The Great Irish Famine, 1845–52",
-   "type": "podcast",
-   "place": "Famine Memorial, Custom House Quay",
-   "lat": 53.3485,
-   "lon": -6.2486
-  },
-  {
-   "id": "45hDVQdu2i7QpSfJRIEYPA",
-   "title": "The Taking of Christ by Caravaggio",
-   "type": "video",
-   "place": "National Gallery of Ireland",
-   "lat": 53.3409,
-   "lon": -6.2525
-  },
-  {
-   "id": "5OxV7XL7QT9kGWboPLri0x",
-   "title": "The Book of Kells, an illuminated gospel book",
-   "type": "video",
-   "place": "Book of Kells, Old Library, Trinity College",
-   "lat": 53.3439,
-   "lon": -6.2566
-  },
-  {
-   "id": "v4IedbC0xJOA6zRq4u5l5",
-   "title": "The Cross of Cong, a 12th-century reliquary cross",
-   "type": "video",
-   "place": "National Museum of Ireland – Archaeology",
-   "lat": 53.3404,
-   "lon": -6.2552
-  },
-  {
-   "id": "bi5C76RU4RS2u6yjgUrha",
-   "title": "The Shrine of Saint Patrick’s Bell",
-   "type": "video",
-   "place": "National Museum of Ireland – Archaeology",
-   "lat": 53.3404,
-   "lon": -6.2552
-  },
-  {
-   "id": "44RZu1ACQ20UOG4QA6TZSp",
-   "title": "The Ardagh Chalice",
-   "type": "video",
-   "place": "National Museum of Ireland – Archaeology",
-   "lat": 53.3404,
-   "lon": -6.2549
-  },
-  {
-   "id": "66c4iJXy4PrqssFEzzXYwV",
-   "title": "The Coggalbeg Hoard, a gold lunula and two discs",
-   "type": "video",
-   "place": "National Museum of Ireland – Archaeology",
-   "lat": 53.3405,
-   "lon": -6.2549
-  },
-  {
-   "id": "10FfLdidfTH1RrlKYbQVJa",
-   "title": "Composing Dublin: Photography on a Walking Tour",
-   "type": "audiotour",
-   "place": "",
-   "lat": 53.3483,
-   "lon": -6.2486
-  },
-  {
-   "id": "5l7NldM2zAo9YoYgARZNKs",
-   "title": "The Book of Kells",
-   "type": "book",
-   "place": "Book of Kells, Old Library, Trinity College",
-   "lat": 53.3439,
-   "lon": -6.2568
-  },
-  {
-   "id": "7s2ExwFLy4W4iKmL09Em3X",
-   "title": "Dublin: A Cultural History",
-   "type": "book",
-   "place": "The Spire, O’Connell Street",
-   "lat": 53.3498,
-   "lon": -6.2603
-  },
-  {
-   "id": "RNvR5lwQYvFBfwGmVeNx4",
-   "title": "The Mystical Hill of Tara: A Guide to the Hill of Heroes",
-   "type": "audiotour",
-   "place": "Hill of Tara, County Meath",
-   "lat": 53.5818,
-   "lon": -6.6101
-  },
-  {
-   "id": "3C7y2j1Mggink9FgW2idnj",
-   "title": "Dublin Tenement Life: An Oral History",
-   "type": "book",
-   "place": "14 Henrietta Street museum",
-   "lat": 53.3524,
-   "lon": -6.2702
-  },
-  {
-   "id": "4W4q601qakMkQyIvvl6dgb",
-   "title": "Dublin's Breweries and Back Alleys: A Guide to The Liberties",
-   "type": "audiotour",
-   "place": "The Lord Edward pub, Christchurch Place",
-   "lat": 53.3432,
-   "lon": -6.2702
-  },
-  {
-   "id": "55VvdhIw27ZJTZuelYPGPa",
-   "title": "A Town of Kings and Rebels: A Stroll Along Dún Laoghaire's East Pier",
-   "type": "audiotour",
-   "place": "St Michael’s Church, Dún Laoghaire",
-   "lat": 53.2926,
-   "lon": -6.1361
-  },
-  {
-   "id": "O7HIUFHS6aakCUKOqK37a",
-   "title": "Marlay Park's Heritage: A Stroll through Dublin's Playground",
-   "type": "audiotour",
-   "place": "Marlay Park",
-   "lat": 53.2774,
-   "lon": -6.2684
-  },
-  {
-   "id": "3vZWiA6HwutujHKpe3qDg6",
-   "title": "A Dublin Walking Tour: 1,000 Years of Patriots, Poets and Pubs in Temple Bar",
-   "type": "audiotour",
-   "place": "College Green",
-   "lat": 53.3445,
-   "lon": -6.2596
-  },
-  {
-   "id": "3bKdkFJP5YzZFTKydPgB6u",
-   "title": "Howth Harbour Walk: Explore the UNESCO Biosphere of Dublin Bay",
-   "type": "audiotour",
-   "place": "Howth DART station, Howth",
-   "lat": 53.3889,
-   "lon": -6.0743
-  },
-  {
-   "id": "3zxH6TizBNK3JCg5PplHWY",
-   "title": "A Dublin Docklands Tour: From Famine Ships to Ireland's Silicon Harbour",
-   "type": "audiotour",
-   "place": "Custom House",
-   "lat": 53.3484,
-   "lon": -6.2531
-  },
-  {
-   "id": "5UBYY2aGBhfMgc8hjDXmE6",
-   "title": "Stories of Dublin: A Heritage Walk from St Patrick's Cathedral to Merrion Square",
-   "type": "audiotour",
-   "place": "St Patrick’s Cathedral",
-   "lat": 53.3393,
-   "lon": -6.272
-  },
-  {
-   "id": "5Z2UwZBu8rsBQnMXJ9ah4q",
-   "title": "Inner City Dublin: A Revolutionary Walk from O'Connell Bridge to Abbey Theatre",
-   "type": "audiotour",
-   "place": "O’Connell Bridge",
-   "lat": 53.3468,
-   "lon": -6.2589
-  },
-  {
-   "id": "6RiKVj2ImBX2Z5ai4EWhkb",
-   "title": "Ireland's Oldest Railway: Dublin Bay By Train",
-   "type": "audiotour",
-   "place": "Pearse Station",
-   "lat": 53.3436,
-   "lon": -6.2495
-  },
-  {
-   "id": "3YhYe8UeK1lo1Ovn8rC8PN",
-   "title": "Easter 1916: The Irish Rebellion",
-   "type": "book",
-   "place": "General Post Office (GPO)",
-   "lat": 53.3494,
-   "lon": -6.2603
-  },
-  {
-   "id": "4hRRBEv7YlRJErX7ybV3Rw",
-   "title": "The Speckled People",
-   "type": "book",
-   "place": "Dún Laoghaire (area)",
-   "lat": 53.295,
-   "lon": -6.1427
-  },
-  {
-   "id": "7rwgaFHNSGY2513bhcvzN8",
-   "title": "Michael Collins",
-   "type": "book",
-   "place": "Michael Collins’s grave, Glasnevin Cemetery",
-   "lat": 53.3697,
-   "lon": -6.2773
-  },
-  {
-   "id": "1q6TPyLu4Yjkmor1TjgYqq",
-   "title": "Are You Somebody?",
-   "type": "book",
-   "place": "Ranelagh (area)",
-   "lat": 53.3253,
-   "lon": -6.255
-  },
-  {
-   "id": "6eN9gYqrmTMlrtb8k4SkY8",
-   "title": "Republic of Shame",
-   "type": "book",
-   "place": "Former Magdalene laundry, Seán McDermott Street",
-   "lat": 53.3534,
-   "lon": -6.2549
-  },
-  {
-   "id": "6fmLwEmYqhEoVQo5bX65bK",
-   "title": "We Don’t Know Ourselves",
-   "type": "book",
-   "place": "Crumlin (area)",
-   "lat": 53.3144,
-   "lon": -6.3236
-  },
-  {
-   "id": "6EwuY4MHRFZP5Z7l5cOWUf",
-   "title": "Borstal Boy",
-   "type": "book",
-   "place": "McDaid’s pub, Harry Street",
-   "lat": 53.3413,
-   "lon": -6.261
-  },
-  {
-   "id": "HuMReZwX5UeeMYb40GSR9",
-   "title": "Ulysses",
-   "type": "book",
-   "place": "James Joyce Tower (Martello tower), Sandycove",
-   "lat": 53.2887,
-   "lon": -6.1136
-  },
-  {
-   "id": "3RsFFcEG7IkRhFDO6G9wBE",
-   "title": "Turtle Bunbury's Dublin: St Stephen's Green to Trinity College",
-   "type": "audiotour",
-   "place": "Wolfe Tone memorial, St Stephen’s Green",
-   "lat": 53.3384,
-   "lon": -6.2562
-  },
-  {
-   "id": "4YR5sgzUJ9WIisWap98JpK",
-   "title": "Ballymun Lullaby",
-   "type": "movie",
-   "place": "Ballymun (area)",
-   "lat": 53.396,
-   "lon": -6.264
-  },
-  {
-   "id": "599fRwk1deXdhZWsQN8N5s",
-   "title": "My Left Foot",
-   "type": "movie",
-   "place": "Crumlin (area)",
-   "lat": 53.327,
-   "lon": -6.308
-  },
-  {
-   "id": "ix9Z3qf8Bgts7kt3Xz6b4",
-   "title": "Veronica Guerin",
-   "type": "movie",
-   "place": "Site of Veronica Guerin’s murder, Naas Road",
-   "lat": 53.31,
-   "lon": -6.403
-  },
-  {
-   "id": "3e8XHIKieXycUHfasBwPKw",
-   "title": "Adam & Paul",
-   "type": "movie",
-   "place": "Ha’penny Bridge",
-   "lat": 53.3465,
-   "lon": -6.2632
-  },
-  {
-   "id": "6uEy95ydn8XSy04pCCJdRc",
-   "title": "The Dead",
-   "type": "movie",
-   "place": "15 Usher’s Island (house of Joyce’s “The Dead”)",
-   "lat": 53.3447,
-   "lon": -6.2812
-  },
-  {
-   "id": "71c2jZZDpUPQs5La8aKmTI",
-   "title": "Once",
-   "type": "movie",
-   "place": "Grafton Street",
-   "lat": 53.3419,
-   "lon": -6.2597
-  },
-  {
-   "id": "3tp7XpiB9WQgXKhByE0Uoz",
-   "title": "The Commitments",
-   "type": "movie",
-   "place": "North inner city (area)",
-   "lat": 53.3505,
-   "lon": -6.245
-  },
-  {
-   "id": "4H9RKUeqDBVF3kZKvtXjr5",
-   "title": "The General",
-   "type": "movie",
-   "place": "Oxford Road and Charleston Road junction, Ranelagh",
-   "lat": 53.3268,
-   "lon": -6.2557
-  },
-  {
-   "id": "70CBNhdjjIXeqe1yPwFuKY",
-   "title": "Rosie",
-   "type": "movie",
-   "place": "Gardiner Street",
-   "lat": 53.356,
-   "lon": -6.256
-  },
-  {
-   "id": "6lbT3R1kxLlDVVQEWprnGz",
-   "title": "Michael Collins",
-   "type": "movie",
-   "place": "General Post Office (GPO)",
-   "lat": 53.3496,
-   "lon": -6.2603
-  },
-  {
-   "id": "5Fcp91jHZPeGzMVoQJZCQX",
-   "title": "The Snapper",
-   "type": "movie",
-   "place": "Kilbarrack (area)",
-   "lat": 53.3865,
-   "lon": -6.156
-  },
-  {
-   "id": "2cg8PKpELR1oj2lZykdp23",
-   "title": "Intermission",
-   "type": "movie",
-   "place": "Fairview (area)",
-   "lat": 53.362,
-   "lon": -6.232
-  },
-  {
    "id": "1dIfcfRMeHUUfZw6y2i79m",
    "title": "Molly Malone",
    "type": "music",
    "place": "Molly Malone statue, Suffolk Street",
+   "url": "https://open.spotify.com/search/Molly%20Malone%20Cockles%20and%20Mussels",
+   "creator": null,
+   "channel": null,
    "lat": 53.3437,
    "lon": -6.261
-  },
-  {
-   "id": "4P4aBiy1OJEbGRjSKDW0mU",
-   "title": "Nothing Compares 2 U",
-   "type": "music",
-   "place": "Glenageary (area)",
-   "lat": 53.2806,
-   "lon": -6.1291
-  },
-  {
-   "id": "60QISUcyorqpwSRTjhQZz1",
-   "title": "I Will Follow",
-   "type": "music",
-   "place": "Windmill Lane",
-   "lat": 53.3458,
-   "lon": -6.2459
   },
   {
    "id": "3TKE4JJ7qrJQtQ63M5Mgdr",
    "title": "Raglan Road",
    "type": "music",
    "place": "Raglan Road",
+   "url": "https://open.spotify.com/search/Luke%20Kelly%20Raglan%20Road",
+   "creator": "Luke Kelly / The Dubliners",
+   "channel": null,
    "lat": 53.3305,
    "lon": -6.2382
   },
@@ -390,30 +28,64 @@
    "title": "Whiskey in the Jar",
    "type": "music",
    "place": "Phil Lynott statue, Harry Street",
+   "url": "https://open.spotify.com/search/Thin%20Lizzy%20Whiskey%20in%20the%20Jar",
+   "creator": "Thin Lizzy",
+   "channel": null,
    "lat": 53.3413,
    "lon": -6.2607
   },
   {
-   "id": "1UIm3S7YHUpE8kkbVOXpm8",
-   "title": "Take Me to Church",
+   "id": "2YSza3fN2NU9HHlFL5er6i",
+   "title": "Rat Trap",
    "type": "music",
-   "place": "Bray, County Wicklow (area)",
-   "lat": 53.2011,
-   "lon": -6.1111
+   "place": "Dún Laoghaire (area)",
+   "url": "https://open.spotify.com/search/Boomtown%20Rats%20Rat%20Trap",
+   "creator": "The Boomtown Rats",
+   "channel": null,
+   "lat": 53.295,
+   "lon": -6.1427
   },
   {
-   "id": "5p9ACmEeHLuyKnzOHLSwJs",
-   "title": "I Have a Love",
+   "id": "60QISUcyorqpwSRTjhQZz1",
+   "title": "I Will Follow",
    "type": "music",
-   "place": "Coolock (area)",
-   "lat": 53.3994,
-   "lon": -6.2138
+   "place": "Windmill Lane",
+   "url": "https://open.spotify.com/search/U2%20I%20Will%20Follow",
+   "creator": "U2",
+   "channel": null,
+   "lat": 53.3458,
+   "lon": -6.2459
+  },
+  {
+   "id": "4P4aBiy1OJEbGRjSKDW0mU",
+   "title": "Nothing Compares 2 U",
+   "type": "music",
+   "place": "Glenageary (area)",
+   "url": "https://open.spotify.com/search/Sin%C3%A9ad%20O'Connor%20Nothing%20Compares%202%20U",
+   "creator": "Sinéad O’Connor",
+   "channel": null,
+   "lat": 53.2806,
+   "lon": -6.1291
+  },
+  {
+   "id": "Vrqv8DkK1nJuybFnNSBTT",
+   "title": "Only Shallow",
+   "type": "music",
+   "place": "The Spire, O’Connell Street",
+   "url": "https://open.spotify.com/search/My%20Bloody%20Valentine%20Only%20Shallow",
+   "creator": "My Bloody Valentine",
+   "channel": null,
+   "lat": 53.3498,
+   "lon": -6.2603
   },
   {
    "id": "7hBq0X1GKUrMB4NauAm4ch",
    "title": "Crazy World",
    "type": "music",
    "place": "Finglas (area)",
+   "url": "https://open.spotify.com/search/Aslan%20Crazy%20World",
+   "creator": "Aslan",
+   "channel": null,
    "lat": 53.3903,
    "lon": -6.2984
   },
@@ -422,6 +94,9 @@
    "title": "The Blower’s Daughter",
    "type": "music",
    "place": "Celbridge, County Kildare (area)",
+   "url": "https://open.spotify.com/search/Damien%20Rice%20The%20Blower's%20Daughter",
+   "creator": "Damien Rice",
+   "channel": null,
    "lat": 53.3388,
    "lon": -6.5394
   },
@@ -430,142 +105,779 @@
    "title": "Falling Slowly",
    "type": "music",
    "place": "Grafton Street",
+   "url": "https://open.spotify.com/search/Glen%20Hansard%20Falling%20Slowly",
+   "creator": "Glen Hansard & Markéta Irglová",
+   "channel": null,
    "lat": 53.3416,
    "lon": -6.2602
+  },
+  {
+   "id": "1UIm3S7YHUpE8kkbVOXpm8",
+   "title": "Take Me to Church",
+   "type": "music",
+   "place": "Bray, County Wicklow (area)",
+   "url": "https://open.spotify.com/search/Hozier%20Take%20Me%20to%20Church",
+   "creator": "Hozier",
+   "channel": null,
+   "lat": 53.2011,
+   "lon": -6.1111
   },
   {
    "id": "1CB5L7kfQEaUugjdfU1Eb5",
    "title": "Boys in the Better Land",
    "type": "music",
    "place": "The Liberties (area)",
+   "url": "https://open.spotify.com/search/Fontaines%20D.C.%20Boys%20in%20the%20Better%20Land",
+   "creator": "Fontaines D.C.",
+   "channel": null,
    "lat": 53.3432,
    "lon": -6.2816
+  },
+  {
+   "id": "5p9ACmEeHLuyKnzOHLSwJs",
+   "title": "I Have a Love",
+   "type": "music",
+   "place": "Coolock (area)",
+   "url": "https://open.spotify.com/search/For%20Those%20I%20Love%20I%20Have%20a%20Love",
+   "creator": "For Those I Love",
+   "channel": null,
+   "lat": 53.3994,
+   "lon": -6.2138
   },
   {
    "id": "1O6o57HQiGvEiiy3ADNzns",
    "title": "I Wanna Be a Cowboy, Baby!",
    "type": "music",
    "place": "Dunboyne, County Meath (area)",
+   "url": "https://open.spotify.com/search/CMAT%20I%20Wanna%20Be%20a%20Cowboy%20Baby",
+   "creator": "CMAT",
+   "channel": null,
    "lat": 53.4193,
    "lon": -6.4759
-  },
-  {
-   "id": "3GstV2Zzda1KIzC8ilKGJ9",
-   "title": "A charity premiere becomes participatory art",
-   "type": "podcast",
-   "place": "Site of the Great Music Hall, Fishamble Street",
-   "lat": 53.3442,
-   "lon": -6.2697
-  },
-  {
-   "id": "7tosmkrzccdV9H7Hodybv9",
-   "title": "A 9,000-year lease begins a brewing dynasty",
-   "type": "podcast",
-   "place": "Guinness Storehouse, St James’s Gate",
-   "lat": 53.3418,
-   "lon": -6.2867
-  },
-  {
-   "id": "2YSza3fN2NU9HHlFL5er6i",
-   "title": "Rat Trap",
-   "type": "music",
-   "place": "Dún Laoghaire (area)",
-   "lat": 53.295,
-   "lon": -6.1427
-  },
-  {
-   "id": "11T10pmuSngYiPwp5LZcDT",
-   "title": "A mathematician carves an equation into a bridge",
-   "type": "podcast",
-   "place": "Broome Bridge (Hamilton’s plaque)",
-   "lat": 53.373,
-   "lon": -6.3
-  },
-  {
-   "id": "4obBq6Irke7e8jrJx3zby5",
-   "title": "Vikings found a port that still shapes Dublin",
-   "type": "podcast",
-   "place": "Wood Quay Viking site (Civic Offices)",
-   "lat": 53.345,
-   "lon": -6.271
-  },
-  {
-   "id": "4Nt2lMUOl8rEAqbQRXRgSz",
-   "title": "A literary salon shapes a future wit",
-   "type": "podcast",
-   "place": "Oscar Wilde House, 21 Westland Row",
-   "lat": 53.3412,
-   "lon": -6.2504
-  },
-  {
-   "id": "71EPA6h771Mv3e11siaZYa",
-   "title": "A single day in Dublin, chapter by chapter",
-   "type": "podcast",
-   "place": "Sweny’s Pharmacy",
-   "lat": 53.3419,
-   "lon": -6.2506
-  },
-  {
-   "id": "7IWzNoLNco81S2zQl9OMgx",
-   "title": "Gunfire interrupts a football match",
-   "type": "podcast",
-   "place": "Croke Park stadium",
-   "lat": 53.3607,
-   "lon": -6.2511
-  },
-  {
-   "id": "7Fy0RQb8TOBH2AaizDBtqu",
-   "title": "Rebels hold the post office for a week",
-   "type": "podcast",
-   "place": "General Post Office (GPO)",
-   "lat": 53.3494,
-   "lon": -6.2603
   },
   {
    "id": "7r8yooczferPCZH2kYA7Xy",
    "title": "Go Dig My Grave",
    "type": "music",
    "place": "The Cobblestone pub, Smithfield",
+   "url": "https://open.spotify.com/search/Lankum%20Go%20Dig%20My%20Grave",
+   "creator": "Lankum",
+   "channel": null,
    "lat": 53.3498,
    "lon": -6.2778
   },
   {
-   "id": "3gxBzUsLmVcmfPzqXvAxVa",
-   "title": "Trad's journey from marginal to mainstream",
-   "type": "podcast",
-   "place": "The Cobblestone pub, Smithfield",
+   "id": "2cg8PKpELR1oj2lZykdp23",
+   "title": "Intermission",
+   "type": "movie",
+   "place": "Fairview (area)",
+   "url": "https://justwatch.com/us/search?q=Intermission%202003",
+   "creator": "John Crowley",
+   "channel": null,
+   "lat": 53.362,
+   "lon": -6.232
+  },
+  {
+   "id": "44RZu1ACQ20UOG4QA6TZSp",
+   "title": "The Ardagh Chalice",
+   "type": "video",
+   "place": "National Museum of Ireland – Archaeology",
+   "url": "https://youtu.be/fCJEPLSNXNM",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 53.3404,
+   "lon": -6.2549
+  },
+  {
+   "id": "4YR5sgzUJ9WIisWap98JpK",
+   "title": "Ballymun Lullaby",
+   "type": "movie",
+   "place": "Ballymun (area)",
+   "url": "https://justwatch.com/us/search?q=Ballymun%20Lullaby",
+   "creator": "Frank Berry",
+   "channel": null,
+   "lat": 53.396,
+   "lon": -6.264
+  },
+  {
+   "id": "HuMReZwX5UeeMYb40GSR9",
+   "title": "Ulysses",
+   "type": "book",
+   "place": "James Joyce Tower (Martello tower), Sandycove",
+   "url": "https://goodreads.com/search?q=James%20Joyce%20Ulysses",
+   "creator": "James Joyce",
+   "channel": null,
+   "lat": 53.2887,
+   "lon": -6.1136
+  },
+  {
+   "id": "6fmLwEmYqhEoVQo5bX65bK",
+   "title": "We Don’t Know Ourselves",
+   "type": "book",
+   "place": "Crumlin (area)",
+   "url": "https://goodreads.com/search?q=Fintan%20O'Toole%20We%20Don't%20Know%20Ourselves",
+   "creator": "Fintan O’Toole",
+   "channel": null,
+   "lat": 53.3144,
+   "lon": -6.3236
+  },
+  {
+   "id": "7s2ExwFLy4W4iKmL09Em3X",
+   "title": "Dublin: A Cultural History",
+   "type": "book",
+   "place": "The Spire, O’Connell Street",
+   "url": "https://goodreads.com/search?q=Siobh%C3%A1n%20Kilfeather%20Dublin%20A%20Cultural%20History",
+   "creator": "Siobhán Kilfeather",
+   "channel": null,
    "lat": 53.3498,
-   "lon": -6.2778
+   "lon": -6.2603
+  },
+  {
+   "id": "5l7NldM2zAo9YoYgARZNKs",
+   "title": "The Book of Kells",
+   "type": "book",
+   "place": "Book of Kells, Old Library, Trinity College",
+   "url": "https://goodreads.com/search?q=Bernard%20Meehan%20The%20Book%20of%20Kells",
+   "creator": "Bernard Meehan",
+   "channel": null,
+   "lat": 53.3439,
+   "lon": -6.2568
+  },
+  {
+   "id": "SoSGyGzneu9F1xiECuZIU",
+   "title": "A countess trades her ballgowns for a rebel’s uniform",
+   "type": "video",
+   "place": "St. Stephen’s Green park",
+   "url": "https://youtu.be/oOz7M7WP8i8",
+   "creator": null,
+   "channel": "The History Guy",
+   "lat": 53.3382,
+   "lon": -6.2591
+  },
+  {
+   "id": "5JOejarcTUBu7J5AN1gHmZ",
+   "title": "The jewels of an order of knights vanish from a castle safe",
+   "type": "video",
+   "place": "Bedford Tower, Dublin Castle",
+   "url": "https://youtu.be/fPUtFFnQsIk",
+   "creator": null,
+   "channel": "The History Guy",
+   "lat": 53.3429,
+   "lon": -6.2674
+  },
+  {
+   "id": "2sTZJrSOoSuOF7H5l4lcsW",
+   "title": "Brick terraces and fanlights line the city’s Georgian squares",
+   "type": "video",
+   "place": "St. Stephen’s Green park",
+   "url": "https://youtu.be/LtPDSPxDkI8",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 53.3382,
+   "lon": -6.2591
+  },
+  {
+   "id": "2B3TyWVCDcXsd7LMtoz2It",
+   "title": "A Valentine’s disco fire becomes a 43-year fight for answers",
+   "type": "podcast",
+   "place": "Site of the Stardust nightclub, Artane",
+   "url": "https://open.spotify.com/search/Witness History Stardust Ireland's deadly nightclub fire",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 53.3911,
+   "lon": -6.2097
+  },
+  {
+   "id": "3Mjv2eZzP8XSk4ejUzSjBE",
+   "title": "A round tower for ‘the Liberator’ rises over Glasnevin’s graves",
+   "type": "video",
+   "place": "O’Connell Tower, Glasnevin Cemetery",
+   "url": "https://youtu.be/urqkihWL5DM",
+   "creator": null,
+   "channel": "Glasnevin Cemetery",
+   "lat": 53.3725,
+   "lon": -6.2777
+  },
+  {
+   "id": "3N7XYECFLtg8YmEY2IjHrn",
+   "title": "Readers are locked in cages at Ireland’s first public library",
+   "type": "video",
+   "place": "Marsh’s Library",
+   "url": "https://youtu.be/Zb-nakexNcM",
+   "creator": null,
+   "channel": "Dublin City Libraries",
+   "lat": 53.3393,
+   "lon": -6.2712
+  },
+  {
+   "id": "3ZLCy7re2UvUaRatFDHcUS",
+   "title": "Jonathan Swift’s ‘A Modest Proposal’",
+   "type": "podcast",
+   "place": "St. Patrick’s Cathedral",
+   "url": "https://www.bbc.co.uk/programmes/b00h3650",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 53.3395,
+   "lon": -6.2715
+  },
+  {
+   "id": "599fRwk1deXdhZWsQN8N5s",
+   "title": "My Left Foot",
+   "type": "movie",
+   "place": "Crumlin (area)",
+   "url": "https://justwatch.com/us/search?q=My%20Left%20Foot",
+   "creator": "Jim Sheridan",
+   "channel": null,
+   "lat": 53.327,
+   "lon": -6.308
+  },
+  {
+   "id": "ix9Z3qf8Bgts7kt3Xz6b4",
+   "title": "Veronica Guerin",
+   "type": "movie",
+   "place": "Site of Veronica Guerin’s murder, Naas Road",
+   "url": "https://justwatch.com/us/search?q=Veronica%20Guerin",
+   "creator": "Joel Schumacher",
+   "channel": null,
+   "lat": 53.31,
+   "lon": -6.403
+  },
+  {
+   "id": "3e8XHIKieXycUHfasBwPKw",
+   "title": "Adam & Paul",
+   "type": "movie",
+   "place": "Ha’penny Bridge",
+   "url": "https://justwatch.com/us/search?q=Adam%20and%20Paul%202004",
+   "creator": "Lenny Abrahamson",
+   "channel": null,
+   "lat": 53.3465,
+   "lon": -6.2632
+  },
+  {
+   "id": "71c2jZZDpUPQs5La8aKmTI",
+   "title": "Once",
+   "type": "movie",
+   "place": "Grafton Street",
+   "url": "https://justwatch.com/us/search?q=Once%202007%20Carney",
+   "creator": "John Carney",
+   "channel": null,
+   "lat": 53.3419,
+   "lon": -6.2597
+  },
+  {
+   "id": "55VvdhIw27ZJTZuelYPGPa",
+   "title": "A Town of Kings and Rebels: A Stroll Along Dún Laoghaire’s East Pier",
+   "type": "audiotour",
+   "place": "St. Michael’s Church, Dún Laoghaire",
+   "url": "https://voicemap.me/tour/dublin/a-town-of-kings-and-rebels-a-stroll-along-dun-laoghaire-s-east-pier",
+   "creator": "Jack Redmond",
+   "channel": null,
+   "lat": 53.2926,
+   "lon": -6.1361
+  },
+  {
+   "id": "5UBYY2aGBhfMgc8hjDXmE6",
+   "title": "Stories of Dublin: A Heritage Walk from St Patrick’s Cathedral to Merrion Square",
+   "type": "audiotour",
+   "place": "St. Patrick’s Cathedral",
+   "url": "https://voicemap.me/tour/dublin/stories-of-dublin-a-heritage-walk-from-st-patrick-s-cathedral-to-merrion-square",
+   "creator": "Dave Kavanagh",
+   "channel": null,
+   "lat": 53.3393,
+   "lon": -6.272
+  },
+  {
+   "id": "5Z2UwZBu8rsBQnMXJ9ah4q",
+   "title": "Inner City Dublin: A Revolutionary Walk from O’Connell Bridge to Abbey Theatre",
+   "type": "audiotour",
+   "place": "O’Connell Bridge",
+   "url": "https://voicemap.me/tour/dublin/inner-city-dublin-a-revolutionary-walk-from-o-connell-bridge-to-abbey-theatre",
+   "creator": "Jack Redmond",
+   "channel": null,
+   "lat": 53.3468,
+   "lon": -6.2589
+  },
+  {
+   "id": "3RsFFcEG7IkRhFDO6G9wBE",
+   "title": "Turtle Bunbury’s Dublin: St Stephen’s Green to Trinity College",
+   "type": "audiotour",
+   "place": "Wolfe Tone memorial, St. Stephen’s Green",
+   "url": "https://voicemap.me/tour/dublin/turtle-bunbury-s-dublin-st-stephen-s-green-to-trinity-college",
+   "creator": "Turtle Bunbury",
+   "channel": null,
+   "lat": 53.3384,
+   "lon": -6.2562
+  },
+  {
+   "id": "7tosmkrzccdV9H7Hodybv9",
+   "title": "A 9,000-year lease begins a brewing dynasty",
+   "type": "podcast",
+   "place": "Guinness Storehouse, St. James’s Gate",
+   "url": "https://open.spotify.com/search/Behind the Guinness Gates Turtle Bunbury",
+   "creator": null,
+   "channel": "Behind the Guinness Gates",
+   "lat": 53.3418,
+   "lon": -6.2867
+  },
+  {
+   "id": "6pojApAGojCR98QPKJEbnT",
+   "title": "Monks illuminate a manuscript that still needs protecting",
+   "type": "podcast",
+   "place": "Book of Kells, Old Library, Trinity College",
+   "url": "https://open.spotify.com/search/Stuff You Missed in History Book of Kells",
+   "creator": null,
+   "channel": "Stuff You Missed in History Class",
+   "lat": 53.3439,
+   "lon": -6.2568
+  },
+  {
+   "id": "35aOlqwyZJ6IVWoEFkVWYp",
+   "title": "An aristocrat rejects his title to lead a rebellion",
+   "type": "podcast",
+   "place": "The Lord Edward pub, Christchurch Place",
+   "url": "https://open.spotify.com/search/Three Castles Burning Edward Fitzgerald",
+   "creator": null,
+   "channel": "Three Castles Burning",
+   "lat": 53.3431,
+   "lon": -6.2701
+  },
+  {
+   "id": "1HnrBPgSsVlanfJosvtb84",
+   "title": "A sickly childhood breeds Dracula’s imagination",
+   "type": "podcast",
+   "place": "Bram Stoker’s birthplace, 15 Marino Crescent",
+   "url": "https://open.spotify.com/search/RTE Archives Bram Stoker Marino Crescent",
+   "creator": null,
+   "channel": "RTÉ Archives",
+   "lat": 53.3645,
+   "lon": -6.2291
   },
   {
    "id": "5OWUQcVaxBINye48XlFaaT",
-   "title": "Ireland's only Nobel physicist splits the atom",
+   "title": "Ireland’s only Nobel physicist splits the atom",
    "type": "podcast",
    "place": "Fitzgerald Building (physics), Trinity College",
+   "url": "https://open.spotify.com/search/RTE Archives Ernest Walton splitting atom",
+   "creator": null,
+   "channel": "RTÉ Archives",
    "lat": 53.3436,
    "lon": -6.2521
+  },
+  {
+   "id": "3gxBzUsLmVcmfPzqXvAxVa",
+   "title": "Trad’s journey from marginal to mainstream",
+   "type": "podcast",
+   "place": "The Cobblestone pub, Smithfield",
+   "url": "https://open.spotify.com/search/Irish History Podcast trad music Cobblestone",
+   "creator": null,
+   "channel": "Irish History Podcast",
+   "lat": 53.3498,
+   "lon": -6.2778
+  },
+  {
+   "id": "7IWzNoLNco81S2zQl9OMgx",
+   "title": "Gunfire interrupts a football match",
+   "type": "podcast",
+   "place": "Croke Park stadium",
+   "url": "https://open.spotify.com/search/The Bloodied Field GAA Michael Foley",
+   "creator": null,
+   "channel": "The Bloodied Field",
+   "lat": 53.3607,
+   "lon": -6.2511
+  },
+  {
+   "id": "71EPA6h771Mv3e11siaZYa",
+   "title": "A single day in Dublin, chapter by chapter",
+   "type": "podcast",
+   "place": "Sweny’s Pharmacy",
+   "url": "https://open.spotify.com/search/RTE Ulysses James Joyce dramatization",
+   "creator": null,
+   "channel": "Ulysses - James Joyce",
+   "lat": 53.3419,
+   "lon": -6.2506
+  },
+  {
+   "id": "4Nt2lMUOl8rEAqbQRXRgSz",
+   "title": "A literary salon shapes a future wit",
+   "type": "podcast",
+   "place": "Oscar Wilde House, 21 Westland Row",
+   "url": "https://open.spotify.com/search/Short History Of Oscar Wilde Noiser",
+   "creator": null,
+   "channel": "Short History Of...",
+   "lat": 53.3412,
+   "lon": -6.2504
+  },
+  {
+   "id": "11T10pmuSngYiPwp5LZcDT",
+   "title": "A mathematician carves an equation into a bridge",
+   "type": "podcast",
+   "place": "Broome Bridge (Hamilton’s plaque)",
+   "url": "https://open.spotify.com/search/Ingenious Ireland Quaternions Royal Canal",
+   "creator": null,
+   "channel": "Ingenious Ireland",
+   "lat": 53.373,
+   "lon": -6.3
+  },
+  {
+   "id": "3GstV2Zzda1KIzC8ilKGJ9",
+   "title": "A charity premiere becomes participatory art",
+   "type": "podcast",
+   "place": "Site of the Great Music Hall, Fishamble Street",
+   "url": "https://open.spotify.com/search/Freakonomics Handel Messiah Dublin",
+   "creator": null,
+   "channel": "Freakonomics Radio",
+   "lat": 53.3442,
+   "lon": -6.2697
+  },
+  {
+   "id": "6RiKVj2ImBX2Z5ai4EWhkb",
+   "title": "Ireland’s Oldest Railway: Dublin Bay By Train",
+   "type": "audiotour",
+   "place": "Pearse Station",
+   "url": "https://voicemap.me/tour/dublin/ireland-s-oldest-railway-dublin-bay-by-train",
+   "creator": "John Twomey",
+   "channel": null,
+   "lat": 53.3436,
+   "lon": -6.2495
+  },
+  {
+   "id": "3zxH6TizBNK3JCg5PplHWY",
+   "title": "A Dublin Docklands Tour: From Famine Ships to Ireland’s Silicon Harbour",
+   "type": "audiotour",
+   "place": "Custom House",
+   "url": "https://voicemap.me/tour/dublin/a-dublin-docklands-tour-from-famine-ships-to-ireland-s-silicone-harbour",
+   "creator": "Jack Redmond",
+   "channel": null,
+   "lat": 53.3484,
+   "lon": -6.2531
+  },
+  {
+   "id": "3bKdkFJP5YzZFTKydPgB6u",
+   "title": "Howth Harbour Walk: Explore the UNESCO Biosphere of Dublin Bay",
+   "type": "audiotour",
+   "place": "Howth DART station, Howth",
+   "url": "https://voicemap.me/tour/dublin/howth-harbour-walk-explore-the-unesco-biosphere-of-dublin-bay",
+   "creator": "Shane O’Doherty",
+   "channel": null,
+   "lat": 53.3889,
+   "lon": -6.0743
+  },
+  {
+   "id": "3vZWiA6HwutujHKpe3qDg6",
+   "title": "A Dublin Walking Tour: 1,000 Years of Patriots, Poets and Pubs in Temple Bar",
+   "type": "audiotour",
+   "place": "College Green",
+   "url": "https://voicemap.me/tour/dublin/a-dublin-walking-tour-1-000-years-of-patriots-poets-and-pubs-in-temple-bar",
+   "creator": "Jack Redmond",
+   "channel": null,
+   "lat": 53.3445,
+   "lon": -6.2596
+  },
+  {
+   "id": "O7HIUFHS6aakCUKOqK37a",
+   "title": "Marlay Park’s Heritage: A Stroll through Dublin’s Playground",
+   "type": "audiotour",
+   "place": "Marlay Park",
+   "url": "https://voicemap.me/tour/dublin/marlay-park-s-heritage-a-stroll-through-dublin-s-playground",
+   "creator": "John Twomey",
+   "channel": null,
+   "lat": 53.2774,
+   "lon": -6.2684
+  },
+  {
+   "id": "4W4q601qakMkQyIvvl6dgb",
+   "title": "Dublin’s Breweries and Back Alleys: A Guide to The Liberties",
+   "type": "audiotour",
+   "place": "The Lord Edward pub, Christchurch Place",
+   "url": "https://voicemap.me/tour/dublin/dublin-s-breweries-and-back-alleys-a-guide-to-the-liberties",
+   "creator": "Jack Redmond",
+   "channel": null,
+   "lat": 53.3432,
+   "lon": -6.2702
+  },
+  {
+   "id": "RNvR5lwQYvFBfwGmVeNx4",
+   "title": "The Mystical Hill of Tara: A Guide to the Hill of Heroes",
+   "type": "audiotour",
+   "place": "Hill of Tara, County Meath",
+   "url": "https://voicemap.me/tour/dublin/the-mystical-hill-of-tara-a-guide-to-the-hill-of-heroes",
+   "creator": "Derek Spillane",
+   "channel": null,
+   "lat": 53.5818,
+   "lon": -6.6101
+  },
+  {
+   "id": "10FfLdidfTH1RrlKYbQVJa",
+   "title": "Composing Dublin: Photography on a Walking Tour",
+   "type": "audiotour",
+   "place": "",
+   "url": "https://voicemap.me/tour/dublin/composing-dublin-photography-on-a-walking-tour",
+   "creator": "Nuala Redmond",
+   "channel": null,
+   "lat": 53.3483,
+   "lon": -6.2486
+  },
+  {
+   "id": "5Fcp91jHZPeGzMVoQJZCQX",
+   "title": "The Snapper",
+   "type": "movie",
+   "place": "Kilbarrack (area)",
+   "url": "https://justwatch.com/us/search?q=The%20Snapper%201993",
+   "creator": "Stephen Frears",
+   "channel": null,
+   "lat": 53.3865,
+   "lon": -6.156
+  },
+  {
+   "id": "6lbT3R1kxLlDVVQEWprnGz",
+   "title": "Michael Collins",
+   "type": "movie",
+   "place": "General Post Office (GPO)",
+   "url": "https://justwatch.com/us/search?q=Michael%20Collins%201996",
+   "creator": "Neil Jordan",
+   "channel": null,
+   "lat": 53.3496,
+   "lon": -6.2603
+  },
+  {
+   "id": "70CBNhdjjIXeqe1yPwFuKY",
+   "title": "Rosie",
+   "type": "movie",
+   "place": "Gardiner Street",
+   "url": "https://justwatch.com/us/search?q=Rosie%202018",
+   "creator": "Paddy Breathnach",
+   "channel": null,
+   "lat": 53.356,
+   "lon": -6.256
+  },
+  {
+   "id": "4H9RKUeqDBVF3kZKvtXjr5",
+   "title": "The General",
+   "type": "movie",
+   "place": "Oxford Road and Charleston Road junction, Ranelagh",
+   "url": "https://justwatch.com/us/search?q=The%20General%201998%20Cahill",
+   "creator": "John Boorman",
+   "channel": null,
+   "lat": 53.3268,
+   "lon": -6.2557
+  },
+  {
+   "id": "3tp7XpiB9WQgXKhByE0Uoz",
+   "title": "The Commitments",
+   "type": "movie",
+   "place": "North inner city (area)",
+   "url": "https://justwatch.com/us/search?q=The%20Commitments",
+   "creator": "Alan Parker",
+   "channel": null,
+   "lat": 53.3505,
+   "lon": -6.245
+  },
+  {
+   "id": "6uEy95ydn8XSy04pCCJdRc",
+   "title": "The Dead",
+   "type": "movie",
+   "place": "15 Usher’s Island (house of Joyce’s “The Dead”)",
+   "url": "https://justwatch.com/us/search?q=The%20Dead%201987",
+   "creator": "John Huston",
+   "channel": null,
+   "lat": 53.3447,
+   "lon": -6.2812
+  },
+  {
+   "id": "5pYGs6QBdTr5WKGDayKq6p",
+   "title": "Surviving Ireland’s Magdalene laundries",
+   "type": "podcast",
+   "place": "Former Magdalene laundry, Seán McDermott Street",
+   "url": "https://www.bbc.co.uk/programmes/p00y7fwk",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 53.3528,
+   "lon": -6.2551
+  },
+  {
+   "id": "se7Iwk7OZKjAZGkRFHhdc",
+   "title": "The Great Irish Famine, 1845–52",
+   "type": "podcast",
+   "place": "Famine Memorial, Custom House Quay",
+   "url": "https://www.bbc.co.uk/programmes/m0003rj1",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 53.3485,
+   "lon": -6.2486
+  },
+  {
+   "id": "45hDVQdu2i7QpSfJRIEYPA",
+   "title": "The Taking of Christ by Caravaggio",
+   "type": "video",
+   "place": "National Gallery of Ireland",
+   "url": "https://www.youtube.com/watch?v=wDjq2gPGIHk",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 53.3409,
+   "lon": -6.2525
+  },
+  {
+   "id": "5OxV7XL7QT9kGWboPLri0x",
+   "title": "The Book of Kells, an illuminated gospel book",
+   "type": "video",
+   "place": "Book of Kells, Old Library, Trinity College",
+   "url": "https://youtu.be/QWxIE-SwxQo",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 53.3439,
+   "lon": -6.2566
+  },
+  {
+   "id": "v4IedbC0xJOA6zRq4u5l5",
+   "title": "The Cross of Cong, a 12th-century reliquary cross",
+   "type": "video",
+   "place": "National Museum of Ireland – Archaeology",
+   "url": "https://youtu.be/Mf61B4KWUpQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 53.3404,
+   "lon": -6.2552
+  },
+  {
+   "id": "bi5C76RU4RS2u6yjgUrha",
+   "title": "The Shrine of Saint Patrick’s Bell",
+   "type": "video",
+   "place": "National Museum of Ireland – Archaeology",
+   "url": "https://youtu.be/xW6rs0B8InQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 53.3404,
+   "lon": -6.2552
+  },
+  {
+   "id": "66c4iJXy4PrqssFEzzXYwV",
+   "title": "The Coggalbeg Hoard, a gold lunula and two discs",
+   "type": "video",
+   "place": "National Museum of Ireland – Archaeology",
+   "url": "https://youtu.be/PB9TqDQs0hk",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 53.3405,
+   "lon": -6.2549
+  },
+  {
+   "id": "3C7y2j1Mggink9FgW2idnj",
+   "title": "Dublin Tenement Life: An Oral History",
+   "type": "book",
+   "place": "14 Henrietta Street museum",
+   "url": "https://goodreads.com/search?q=Kevin%20Kearns%20Dublin%20Tenement%20Life",
+   "creator": "Kevin C. Kearns",
+   "channel": null,
+   "lat": 53.3524,
+   "lon": -6.2702
+  },
+  {
+   "id": "3YhYe8UeK1lo1Ovn8rC8PN",
+   "title": "Easter 1916: The Irish Rebellion",
+   "type": "book",
+   "place": "General Post Office (GPO)",
+   "url": "https://goodreads.com/search?q=Charles%20Townshend%20Easter%201916%20The%20Irish%20Rebellion",
+   "creator": "Charles Townshend",
+   "channel": null,
+   "lat": 53.3494,
+   "lon": -6.2603
+  },
+  {
+   "id": "4hRRBEv7YlRJErX7ybV3Rw",
+   "title": "The Speckled People",
+   "type": "book",
+   "place": "Dún Laoghaire (area)",
+   "url": "https://goodreads.com/search?q=Hugo%20Hamilton%20The%20Speckled%20People",
+   "creator": "Hugo Hamilton",
+   "channel": null,
+   "lat": 53.295,
+   "lon": -6.1427
+  },
+  {
+   "id": "7rwgaFHNSGY2513bhcvzN8",
+   "title": "Michael Collins",
+   "type": "book",
+   "place": "Michael Collins’s grave, Glasnevin Cemetery",
+   "url": "https://goodreads.com/search?q=Tim%20Pat%20Coogan%20Michael%20Collins",
+   "creator": "Tim Pat Coogan",
+   "channel": null,
+   "lat": 53.3697,
+   "lon": -6.2773
+  },
+  {
+   "id": "1q6TPyLu4Yjkmor1TjgYqq",
+   "title": "Are You Somebody?",
+   "type": "book",
+   "place": "Ranelagh (area)",
+   "url": "https://goodreads.com/search?q=Nuala%20O'Faolain%20Are%20You%20Somebody",
+   "creator": "Nuala O’Faolain",
+   "channel": null,
+   "lat": 53.3253,
+   "lon": -6.255
+  },
+  {
+   "id": "6eN9gYqrmTMlrtb8k4SkY8",
+   "title": "Republic of Shame",
+   "type": "book",
+   "place": "Former Magdalene laundry, Seán McDermott Street",
+   "url": "https://goodreads.com/search?q=Caelainn%20Hogan%20Republic%20of%20Shame",
+   "creator": "Caelainn Hogan",
+   "channel": null,
+   "lat": 53.3534,
+   "lon": -6.2549
+  },
+  {
+   "id": "6EwuY4MHRFZP5Z7l5cOWUf",
+   "title": "Borstal Boy",
+   "type": "book",
+   "place": "McDaid’s pub, Harry Street",
+   "url": "https://goodreads.com/search?q=Brendan%20Behan%20Borstal%20Boy",
+   "creator": "Brendan Behan",
+   "channel": null,
+   "lat": 53.3413,
+   "lon": -6.261
+  },
+  {
+   "id": "4obBq6Irke7e8jrJx3zby5",
+   "title": "Vikings found a port that still shapes Dublin",
+   "type": "podcast",
+   "place": "Wood Quay Viking site (Civic Offices)",
+   "url": "https://open.spotify.com/search/Irish History Podcast Fin Dwyer Dublin Port Vikings",
+   "creator": null,
+   "channel": "Irish History Podcast",
+   "lat": 53.345,
+   "lon": -6.271
+  },
+  {
+   "id": "7Fy0RQb8TOBH2AaizDBtqu",
+   "title": "Rebels hold the post office for a week",
+   "type": "podcast",
+   "place": "General Post Office (GPO)",
+   "url": "https://open.spotify.com/search/BBC Witness History Easter Rising Ireland",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 53.3494,
+   "lon": -6.2603
   },
   {
    "id": "1TeewqnwUNCwTirRNXuJKF",
    "title": "Married women banned from Irish civil service jobs",
    "type": "podcast",
    "place": "Government Buildings, Merrion Street",
+   "url": "https://open.spotify.com/search/BBC Witness History Ireland marriage bar",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 53.3393,
    "lon": -6.2539
-  },
-  {
-   "id": "1HnrBPgSsVlanfJosvtb84",
-   "title": "A sickly childhood breeds Dracula's imagination",
-   "type": "podcast",
-   "place": "Bram Stoker’s birthplace, 15 Marino Crescent",
-   "lat": 53.3645,
-   "lon": -6.2291
   },
   {
    "id": "1Hx2uFfjWuEy8KprdZWuBU",
    "title": "Ireland becomes first to legalize gay marriage by vote",
    "type": "podcast",
    "place": "Upper Yard, Dublin Castle",
+   "url": "https://open.spotify.com/search/Ireland Said Yes marriage equality podcast",
+   "creator": null,
+   "channel": "Ireland Said Yes",
    "lat": 53.3434,
    "lon": -6.2677
   },
@@ -574,30 +886,20 @@
    "title": "Former allies shell each other at the Four Courts",
    "type": "podcast",
    "place": "Four Courts",
+   "url": "https://open.spotify.com/search/Rest Is History Irish Civil War Michael Collins",
+   "creator": null,
+   "channel": "The Rest is History",
    "lat": 53.3459,
    "lon": -6.2735
-  },
-  {
-   "id": "35aOlqwyZJ6IVWoEFkVWYp",
-   "title": "An aristocrat rejects his title to lead a rebellion",
-   "type": "podcast",
-   "place": "The Lord Edward pub, Christchurch Place",
-   "lat": 53.3431,
-   "lon": -6.2701
-  },
-  {
-   "id": "3N7XYECFLtg8YmEY2IjHrn",
-   "title": "Readers are locked in cages at Ireland’s first public library",
-   "type": "video",
-   "place": "Marsh’s Library",
-   "lat": 53.3393,
-   "lon": -6.2712
   },
   {
    "id": "4guojnU32rUFLEJrkZTrOf",
    "title": "A prison tour looks for the queer lives behind Kilmainham’s walls",
    "type": "video",
    "place": "Kilmainham Gaol",
+   "url": "https://youtu.be/Ln03U1Dha0M",
+   "creator": null,
+   "channel": "Office of Public Works",
    "lat": 53.3419,
    "lon": -6.3097
   },
@@ -606,46 +908,31 @@
    "title": "Former tenement residents remember working life on Henrietta Street",
    "type": "video",
    "place": "14 Henrietta Street museum",
+   "url": "https://youtu.be/skEMk97I3fA",
+   "creator": null,
+   "channel": "Dublin City Council Culture Company",
    "lat": 53.3524,
    "lon": -6.272
-  },
-  {
-   "id": "3Mjv2eZzP8XSk4ejUzSjBE",
-   "title": "A round tower for ‘the Liberator’ rises over Glasnevin’s graves",
-   "type": "video",
-   "place": "O’Connell Tower, Glasnevin Cemetery",
-   "lat": 53.3725,
-   "lon": -6.2777
   },
   {
    "id": "4ETKQZ5E8w1s1cclvcEhHU",
    "title": "A city’s meeting place is blown up and remembered on film",
    "type": "video",
    "place": "The Spire, O’Connell Street",
+   "url": "https://youtu.be/O9jU196ZYpE",
+   "creator": null,
+   "channel": "British Pathé",
    "lat": 53.3498,
    "lon": -6.2603
-  },
-  {
-   "id": "2B3TyWVCDcXsd7LMtoz2It",
-   "title": "A Valentine’s disco fire becomes a 43-year fight for answers",
-   "type": "podcast",
-   "place": "Site of the Stardust nightclub, Artane",
-   "lat": 53.3911,
-   "lon": -6.2097
-  },
-  {
-   "id": "2sTZJrSOoSuOF7H5l4lcsW",
-   "title": "Brick terraces and fanlights line the city’s Georgian squares",
-   "type": "video",
-   "place": "St Stephen’s Green park",
-   "lat": 53.3382,
-   "lon": -6.2591
   },
   {
    "id": "7DxBq3UBosHD4OBeRmqy9X",
    "title": "Swimmers brave the Irish Sea every morning off a rocky point",
    "type": "video",
    "place": "Forty Foot bathing place, Sandycove",
+   "url": "https://youtu.be/2HgSoBdEAoc",
+   "creator": null,
+   "channel": "The Journal",
    "lat": 53.2887,
    "lon": -6.1135
   },
@@ -654,6 +941,9 @@
    "title": "A mining millionaire leaves his treasures to Ireland",
    "type": "video",
    "place": "Chester Beatty museum, Dublin Castle",
+   "url": "https://youtu.be/v99jXUljo_Q",
+   "creator": null,
+   "channel": "Chester Beatty",
    "lat": 53.3421,
    "lon": -6.2678
   },
@@ -662,40 +952,11 @@
    "title": "A walk through the Elizabethan college at the heart of the city",
    "type": "video",
    "place": "Trinity College",
+   "url": "https://youtu.be/vcePAZ9b7tM",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 53.3438,
    "lon": -6.2565
-  },
-  {
-   "id": "Vrqv8DkK1nJuybFnNSBTT",
-   "title": "Only Shallow",
-   "type": "music",
-   "place": "The Spire, O’Connell Street",
-   "lat": 53.3498,
-   "lon": -6.2603
-  },
-  {
-   "id": "5JOejarcTUBu7J5AN1gHmZ",
-   "title": "The jewels of an order of knights vanish from a castle safe",
-   "type": "video",
-   "place": "Bedford Tower, Dublin Castle",
-   "lat": 53.3429,
-   "lon": -6.2674
-  },
-  {
-   "id": "SoSGyGzneu9F1xiECuZIU",
-   "title": "A countess trades her ballgowns for a rebel’s uniform",
-   "type": "video",
-   "place": "St Stephen’s Green park",
-   "lat": 53.3382,
-   "lon": -6.2591
-  },
-  {
-   "id": "6pojApAGojCR98QPKJEbnT",
-   "title": "Monks illuminate a manuscript that still needs protecting",
-   "type": "podcast",
-   "place": "Book of Kells, Old Library, Trinity College",
-   "lat": 53.3439,
-   "lon": -6.2568
   }
  ]
 }

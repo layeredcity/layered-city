@@ -2,707 +2,14 @@
  "city": "Florence",
  "pins": [
   {
-   "id": "3sDcXk88EzFXYqfiMl4iUP",
-   "title": "The Black Death in Boccaccio’s Florence",
-   "type": "podcast",
-   "place": "Santa Maria Novella",
-   "lat": 43.7746,
-   "lon": 11.2494
-  },
-  {
-   "id": "1ioyGsMQu0knhy5Tw8hbvk",
-   "title": "David by Michelangelo",
-   "type": "video",
-   "place": "Accademia Gallery (Galleria dell’Accademia)",
-   "lat": 43.7768,
-   "lon": 11.2586
-  },
-  {
-   "id": "7G5C3K1esZwFeWquWDZBci",
-   "title": "The Deposition by Jacopo Pontormo",
-   "type": "podcast",
-   "place": "Santa Felicita",
-   "lat": 43.7666,
-   "lon": 11.2527
-  },
-  {
-   "id": "6wC6sbdKb3UPv4gvxr2h1p",
-   "title": "Judith Slaying Holofernes by Artemisia Gentileschi",
-   "type": "podcast",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "ji7TVhUfEbwzq0APRuxKf",
-   "title": "The Birth of Venus by Sandro Botticelli",
-   "type": "podcast",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "48PjTNVWij6kqKlVH3qNHA",
-   "title": "The Birth of Venus by Sandro Botticelli",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "zit4U8Tk9xKSO5a1VNBmV",
-   "title": "The Campanile Reliefs by Andrea Pisano",
-   "type": "video",
-   "place": "Museo dell’Opera del Duomo (cathedral museum)",
-   "lat": 43.7731,
-   "lon": 11.2577
-  },
-  {
-   "id": "5gDZCOsDIeDLulYib7CeSH",
-   "title": "The Consequences of War by Peter Paul Rubens",
-   "type": "video",
-   "place": "Palatine Gallery, Palazzo Pitti",
-   "lat": 43.7651,
-   "lon": 11.25
-  },
-  {
-   "id": "79JFTeVoSyFQwiGDDi1cg0",
-   "title": "The Duke and Duchess of Urbino by Piero della Francesca",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "OI2j14lBGSRJeAFAdstgu",
-   "title": "The Madonna of the Goldfinch by Raphael",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "222wpVF6DLMTiV1HbsYfvt",
-   "title": "The Madonna with the Long Neck by Parmigianino",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "4XlqGY48pIzHqFEvsBVMiF",
-   "title": "The Venus of Urbino by Titian",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "7IOo3FF1NKJXiUXzAyCUbI",
-   "title": "The Saint Lucy Altarpiece by Domenico Veneziano",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "3QTfd2JDXBQBd8dtHXPDC4",
-   "title": "The Presentation in the Temple by Ambrogio Lorenzetti",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "98dvIg3DEKBnGZ5Di2P7o",
-   "title": "Madonna and Child with Two Angels by Fra Filippo Lippi",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "S2l3uGPlk9l4hY1b6YECP",
-   "title": "Eleonora of Toledo and Her Son by Bronzino",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "2SYRghlDLY7rCzXDqRelWY",
-   "title": "Santo Spirito by Filippo Brunelleschi",
-   "type": "video",
-   "place": "Santo Spirito basilica",
-   "lat": 43.7665,
-   "lon": 11.2479
-  },
-  {
-   "id": "4tZbD7FJmWGbpMlUy41J6j",
-   "title": "The Old Sacristy by Filippo Brunelleschi",
-   "type": "video",
-   "place": "Old Sacristy, San Lorenzo basilica",
-   "lat": 43.7748,
-   "lon": 11.254
-  },
-  {
-   "id": "57aYHsLDQGKCZgm2so18Pc",
-   "title": "The Santa Trinita and Ognissanti Madonnas by Cimabue and Giotto",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "aTGOhhWjjYbvdfbkNbqJu",
-   "title": "Palazzo Rucellai by Leon Battista Alberti",
-   "type": "video",
-   "place": "Palazzo Rucellai",
-   "lat": 43.7713,
-   "lon": 11.249
-  },
-  {
-   "id": "4bmzd8rMaD2ZRNgG21bWDs",
-   "title": "Perseus with the Head of Medusa by Benvenuto Cellini",
-   "type": "video",
-   "place": "Loggia dei Lanzi, Piazza della Signoria",
-   "lat": 43.7693,
-   "lon": 11.2556
-  },
-  {
-   "id": "3JfXMChlOXPjCpOaBsL7HC",
-   "title": "The Expulsion from the Garden of Eden by Masaccio",
-   "type": "video",
-   "place": "Brancacci Chapel, Santa Maria del Carmine",
-   "lat": 43.768,
-   "lon": 11.244
-  },
-  {
-   "id": "7pjSVO039nG3D7MWfwFSDW",
-   "title": "Fruit and Insects by Rachel Ruysch",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "5aBakxffmr9xrspja7rga3",
-   "title": "The Façade of Santa Maria Novella by Leon Battista Alberti",
-   "type": "video",
-   "place": "Santa Maria Novella basilica",
-   "lat": 43.7731,
-   "lon": 11.2494
-  },
-  {
-   "id": "6rt3zDqe72QKo5vkHkdPGJ",
-   "title": "The Adoration of the Magi by Gentile da Fabriano",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "1G4iFwMgFZ3vIpBmcvQQwS",
-   "title": "Judith Slaying Holofernes by Artemisia Gentileschi",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "4RGqGh5JHIKHn3oNWo0rDN",
-   "title": "The Birth of Venus by Sandro Botticelli",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "58V898h4X7xcOyGvCPle8u",
-   "title": "The Ognissanti Madonna by Giotto",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "70zx7kXtqucAZJcvmsfB0Q",
-   "title": "The Annunciation by Simone Martini and Lippo Memmi",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "2FEguoAYQASaw2Ki9bFTey",
-   "title": "The Rucellai Madonna by Duccio",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "5oR1P3Y8KdFh4jD9QrTpUA",
-   "title": "The Codex Amiatinus, the oldest complete Latin Bible",
-   "type": "video",
-   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
-   "lat": 43.7746,
-   "lon": 11.2538
-  },
-  {
-   "id": "6WlKzLmTjVPg06uo8n7pb",
-   "title": "The Santa Trinita Maestà by Cimabue",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "2NcQTvSu84euFQz44vouX3",
-   "title": "The Portinari Altarpiece by Hugo van der Goes",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "Grbk8L1zQxzSKgGLfmfA8",
-   "title": "Palazzo Medici Riccardi by Michelozzo",
-   "type": "video",
-   "place": "Palazzo Medici Riccardi",
-   "lat": 43.7752,
-   "lon": 11.2559
-  },
-  {
-   "id": "3UJZHGVjN3Ir9GnngWdeyk",
-   "title": "The Deposition by Pontormo",
-   "type": "video",
-   "place": "Capponi Chapel, Santa Felicita church",
-   "lat": 43.7666,
-   "lon": 11.2523
-  },
-  {
-   "id": "1vHBIi9kKWdBFTqiFWDGst",
-   "title": "The Sacrifice of Isaac by Lorenzo Ghiberti and Filippo Brunelleschi",
-   "type": "video",
-   "place": "Bargello Museum",
-   "lat": 43.7704,
-   "lon": 11.2582
-  },
-  {
-   "id": "2fLiCLRmB4MZS4ViEqir3u",
-   "title": "Primavera by Sandro Botticelli",
-   "type": "video",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "1tYlT7r9omahotSLYhj9VR",
-   "title": "David by Michelangelo",
-   "type": "video",
-   "place": "Accademia Gallery (Galleria dell’Accademia)",
-   "lat": 43.7768,
-   "lon": 11.2588
-  },
-  {
-   "id": "1qCcnEsS0BfZh6kXa9o9Eh",
-   "title": "The Penitent Magdalene by Donatello",
-   "type": "video",
-   "place": "Museo dell’Opera del Duomo (cathedral museum)",
-   "lat": 43.7731,
-   "lon": 11.2551
-  },
-  {
-   "id": "i3atkwnsQUmyxFkxkLDUu",
-   "title": "Saint Mark by Donatello",
-   "type": "video",
-   "place": "Orsanmichele church",
-   "lat": 43.7708,
-   "lon": 11.2547
-  },
-  {
-   "id": "16es7P9fbQ18DUA9ZXqydP",
-   "title": "The South Doors of the Baptistery by Andrea Pisano",
-   "type": "video",
-   "place": "Museo dell’Opera del Duomo (cathedral museum)",
-   "lat": 43.7731,
-   "lon": 11.2577
-  },
-  {
-   "id": "3XMFzw3WMPA5Qsjxq2rWVu",
-   "title": "David by Andrea del Verrocchio",
-   "type": "video",
-   "place": "Bargello Museum",
-   "lat": 43.7704,
-   "lon": 11.2582
-  },
-  {
-   "id": "5dJJ0Mtavpql9FppHFRDlb",
-   "title": "The Cavalcanti Annunciation by Donatello",
-   "type": "video",
-   "place": "Santa Croce basilica",
-   "lat": 43.7686,
-   "lon": 11.2622
-  },
-  {
-   "id": "58wqr7scUQW1Pf20z15EZv",
-   "title": "Brunelleschi’s Perspective Experiment",
-   "type": "video",
-   "place": "Duomo central doorway, facing the Baptistery",
-   "lat": 43.7729,
-   "lon": 11.2553
-  },
-  {
-   "id": "4MroN0QaAo2ZjN1Ory1LZA",
-   "title": "The Dome of Florence Cathedral by Filippo Brunelleschi",
-   "type": "video",
-   "place": "Duomo cathedral (Santa Maria del Fiore)",
-   "lat": 43.7731,
-   "lon": 11.256
-  },
-  {
-   "id": "6ekZS8jYx6AV8ikCCypUlV",
-   "title": "Saint George by Donatello",
-   "type": "video",
-   "place": "Orsanmichele church",
-   "lat": 43.7708,
-   "lon": 11.2547
-  },
-  {
-   "id": "6F9XKwjk4K4F5A5vH4letG",
-   "title": "Four Crowned Saints by Nanni di Banco",
-   "type": "video",
-   "place": "Orsanmichele church",
-   "lat": 43.7709,
-   "lon": 11.2549
-  },
-  {
-   "id": "3aCBHDVXbM0vKtvO4t0XTN",
-   "title": "David by Donatello",
-   "type": "video",
-   "place": "Bargello Museum",
-   "lat": 43.7704,
-   "lon": 11.2582
-  },
-  {
-   "id": "4MUtDvEGSVaGw8oLabCSNK",
-   "title": "The Laurentian Library by Michelangelo",
-   "type": "video",
-   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
-   "lat": 43.7746,
-   "lon": 11.2538
-  },
-  {
-   "id": "beu4jQDbOu0k4j1l3Kh1V",
-   "title": "The New Sacristy by Michelangelo",
-   "type": "video",
-   "place": "New Sacristy, Medici Chapels",
-   "lat": 43.7751,
-   "lon": 11.2533
-  },
-  {
-   "id": "3VbShgmcla0nQNokQYy65O",
-   "title": "The Tribute Money by Masaccio",
-   "type": "video",
-   "place": "Brancacci Chapel, Santa Maria del Carmine",
-   "lat": 43.7681,
-   "lon": 11.244
-  },
-  {
-   "id": "nscLmGreE7n2aZUx0vhER",
-   "title": "The Annunciation by Fra Angelico",
-   "type": "video",
-   "place": "San Marco Museum",
-   "lat": 43.7781,
-   "lon": 11.2588
-  },
-  {
-   "id": "6GRn6RXaNNSlQMuwUo89j1",
-   "title": "The Gates of Paradise by Lorenzo Ghiberti",
-   "type": "video",
-   "place": "Museo dell’Opera del Duomo (cathedral museum)",
-   "lat": 43.7731,
-   "lon": 11.2551
-  },
-  {
-   "id": "3TxY3GkPezrNOpQCTV1pZz",
-   "title": "The Holy Trinity by Masaccio",
-   "type": "video",
-   "place": "Santa Maria Novella basilica",
-   "lat": 43.7746,
-   "lon": 11.2494
-  },
-  {
-   "id": "R9t1qjuLn1NWiEOcUsYDk",
-   "title": "The History of the Jewish Ghetto in Florence: A Walking Tour with Context",
-   "type": "audiotour",
-   "place": "",
-   "lat": 43.7678,
-   "lon": 11.2514
-  },
-  {
-   "id": "5H59w8KASTJzbaxaPpdiDO",
-   "title": "AudioZoom into Florence: An Introduction to the Historical City Center",
-   "type": "audiotour",
-   "place": "San Lorenzo basilica",
-   "lat": 43.7748,
-   "lon": 11.2548
-  },
-  {
-   "id": "481ZU29qXsevHQv3xXKdcX",
-   "title": "Bridging Florence's History: An Arno River Walking Tour with Context",
-   "type": "audiotour",
-   "place": "Piazza dei Mozzi, by Ponte alle Grazie",
-   "lat": 43.7653,
-   "lon": 11.2601
-  },
-  {
-   "id": "7GWzw0StCziKudK59aMQuj",
-   "title": "Fine Food in Florence: A Walking Tour with Context",
-   "type": "audiotour",
-   "place": "Piazza della Signoria",
-   "lat": 43.7696,
-   "lon": 11.2559
-  },
-  {
-   "id": "lzjKYDsr3wc8MZlqRJ7c1",
-   "title": "Classic Florence: From Piazza di Santa Maria Novella to Ponte Vecchio",
-   "type": "audiotour",
-   "place": "Piazza Santa Maria Novella",
-   "lat": 43.7736,
-   "lon": 11.2495
-  },
-  {
-   "id": "1yY3jAG0UJK9vB2P2ZhIE1",
-   "title": "Politics and Power: An Introduction to Florence with Context",
-   "type": "audiotour",
-   "place": "Piazza della Repubblica",
-   "lat": 43.7715,
-   "lon": 11.254
-  },
-  {
-   "id": "2cSp73Fi2QCOLLocHmgNIz",
-   "title": "Uffizi Gallery: A Tour of Renaissance Masterpieces",
-   "type": "audiotour",
-   "place": "Uffizi Gallery entrance",
-   "lat": 43.7686,
-   "lon": 11.2556
-  },
-  {
-   "id": "3NdIOcFtyIDXG0POkD1P0F",
-   "title": "Where Tradition Meets History: A Walking Tour of Florence's Oltrarno District",
-   "type": "audiotour",
-   "place": "Ponte Vecchio bridge (south end)",
-   "lat": 43.7677,
-   "lon": 11.2529
-  },
-  {
-   "id": "3phYa8nZi9pzHbPodVH2IY",
-   "title": "Monumental Moments in History: A Florence Walking Tour",
-   "type": "audiotour",
-   "place": "Piazza del Duomo",
-   "lat": 43.7733,
-   "lon": 11.2554
-  },
-  {
-   "id": "5V2hFMQBRXrXt1xiqbn9mg",
-   "title": "Three Hundred Years of Art, Power, and Politics: A Tour of Medici Florence",
-   "type": "audiotour",
-   "place": "San Lorenzo basilica",
-   "lat": 43.7748,
-   "lon": 11.2547
-  },
-  {
-   "id": "3PMZtcjsbskHW9KAgT6YU9",
-   "title": "Fantastic Florence Sights: Michelangelo Terrace and San Miniato Basilica",
-   "type": "audiotour",
-   "place": "Ponte alle Grazie bridge",
-   "lat": 43.7663,
-   "lon": 11.2587
-  },
-  {
-   "id": "2Dp6rnZudrh94ZXWQtkB2",
-   "title": "Inside the Uffizi Galleries: An Art History Guide",
-   "type": "audiotour",
-   "place": "Uffizi Gallery entrance",
-   "lat": 43.7686,
-   "lon": 11.256
-  },
-  {
-   "id": "5jKvk0eyaiXTvFsbvz3VXP",
-   "title": "Palaces and Piazzas: The Highlights of Florence",
-   "type": "audiotour",
-   "place": "Piazza del Duomo",
-   "lat": 43.7731,
-   "lon": 11.2554
-  },
-  {
-   "id": "4ZLG0HfXq0jQhPFwI19soA",
-   "title": "The Rise and Fall of the House of Medici",
-   "type": "book",
-   "place": "Palazzo Medici Riccardi",
-   "lat": 43.7752,
-   "lon": 11.2557
-  },
-  {
-   "id": "6xyWP8uNXc9wqDRjAE8EF1",
-   "title": "Death in Florence",
-   "type": "book",
-   "place": "Piazza della Signoria",
-   "lat": 43.7697,
-   "lon": 11.2556
-  },
-  {
-   "id": "6YcH3YgQZA6VOW6UIfkOf9",
-   "title": "The Stones of Florence",
-   "type": "book",
-   "place": "Ponte Vecchio bridge",
-   "lat": 43.7679,
-   "lon": 11.2531
-  },
-  {
-   "id": "6lleltZljWQ9VujeLNY3i4",
-   "title": "Galileo’s Daughter",
-   "type": "book",
-   "place": "Museo Galileo science museum",
-   "lat": 43.7677,
-   "lon": 11.2559
-  },
-  {
-   "id": "1Rax7XmQ3LxWJBeRXiR9mJ",
-   "title": "Dante: A Life",
-   "type": "book",
-   "place": "Casa di Dante museum",
-   "lat": 43.7711,
-   "lon": 11.2571
-  },
-  {
-   "id": "7ydOslh3IWptoQ5YWDO913",
-   "title": "Brunelleschi’s Dome",
-   "type": "book",
-   "place": "Duomo cathedral (Santa Maria del Fiore)",
-   "lat": 43.7731,
-   "lon": 11.256
-  },
-  {
-   "id": "3aSEcFy2eB8booJ82pCzkz",
-   "title": "Dark Water: Flood and Redemption in the City of Masterpieces",
-   "type": "book",
-   "place": "Santa Croce basilica",
-   "lat": 43.7686,
-   "lon": 11.2623
-  },
-  {
-   "id": "4TC5wX83otSBxzNSceB2Vw",
-   "title": "A Room with a View",
-   "type": "book",
-   "place": "Piazzale Michelangelo",
-   "lat": 43.7629,
-   "lon": 11.2651
-  },
-  {
-   "id": "2VvQvMZ7GnidU84uG5mJQA",
-   "title": "The Agony and the Ecstasy",
-   "type": "book",
-   "place": "Accademia Gallery (Galleria dell’Accademia)",
-   "lat": 43.7768,
-   "lon": 11.2586
-  },
-  {
-   "id": "1izl78HqxNYiVMtFtrzWuX",
-   "title": "Lives of the Artists",
-   "type": "book",
-   "place": "Uffizi Gallery",
-   "lat": 43.7678,
-   "lon": 11.2553
-  },
-  {
-   "id": "1nF13Os7JJA0njjvn9n7nn",
-   "title": "The Prince",
-   "type": "book",
-   "place": "Palazzo Vecchio",
-   "lat": 43.7693,
-   "lon": 11.2562
-  },
-  {
-   "id": "2DgGM9e8RnAvuzQGuZhPGt",
-   "title": "Metello",
-   "type": "movie",
-   "place": "Oltrarno district (area)",
-   "lat": 43.769,
-   "lon": 11.244
-  },
-  {
-   "id": "4bDtpprEXpJ1eb1dIzxnd",
-   "title": "Cronaca familiare (Family Diary)",
-   "type": "movie",
-   "place": "Ponte Santa Trinita bridge",
-   "lat": 43.7686,
-   "lon": 11.2503
-  },
-  {
-   "id": "3ZW2ZyUTM28sdzJuqtN2d3",
-   "title": "Paisà (Paisan)",
-   "type": "movie",
-   "place": "Vasari Corridor, Ponte Vecchio",
-   "lat": 43.768,
-   "lon": 11.2531
-  },
-  {
-   "id": "32eZWBGoWyHORA1gWTGorD",
-   "title": "Tea with Mussolini",
-   "type": "movie",
-   "place": "Santa Croce basilica",
-   "lat": 43.7686,
-   "lon": 11.2621
-  },
-  {
-   "id": "JmNuVF4z5Rq43U0iyPF7r",
-   "title": "A Room with a View",
-   "type": "movie",
-   "place": "Piazza della Signoria",
-   "lat": 43.7696,
-   "lon": 11.2558
-  },
-  {
-   "id": "5hgk6NwP0xUl7JM3xfBFUU",
-   "title": "Light in the Piazza",
-   "type": "movie",
-   "place": "Piazza del Duomo",
-   "lat": 43.7731,
-   "lon": 11.256
-  },
-  {
-   "id": "54q8pku3fn2wxrBzxtoMpN",
-   "title": "Hannibal",
-   "type": "movie",
-   "place": "Palazzo Vecchio",
-   "lat": 43.7693,
-   "lon": 11.2562
-  },
-  {
-   "id": "3hn3JSkJsuS9IIrKjcstQF",
-   "title": "Amici miei (My Friends)",
-   "type": "movie",
-   "place": "Santa Maria Novella station",
-   "lat": 43.7723,
-   "lon": 11.2422
-  },
-  {
-   "id": "6WSpf7gUESBRrz1LAkmlPP",
-   "title": "Florence and the Uffizi Gallery",
-   "type": "movie",
-   "place": "Uffizi Gallery",
-   "lat": 43.7683,
-   "lon": 11.2557
-  },
-  {
-   "id": "5cAxw55q8NB9aTy029EWC1",
-   "title": "In vacanza da una vita",
+   "id": "4QaUhdRCt7OgIESDJKEjr6",
+   "title": "Ecco la primavera",
    "type": "music",
-   "place": "Piazza della Repubblica",
-   "lat": 43.7715,
+   "place": "San Lorenzo basilica",
+   "url": "https://open.spotify.com/search/Landini%20Ecco%20la%20primavera",
+   "creator": "Francesco Landini",
+   "channel": null,
+   "lat": 43.775,
    "lon": 11.2539
   },
   {
@@ -710,54 +17,64 @@
    "title": "Euridice",
    "type": "music",
    "place": "Palazzo Pitti",
+   "url": "https://open.spotify.com/search/Jacopo%20Peri%20Euridice",
+   "creator": "Jacopo Peri",
+   "channel": null,
    "lat": 43.7652,
    "lon": 11.25
-  },
-  {
-   "id": "4QaUhdRCt7OgIESDJKEjr6",
-   "title": "Ecco la primavera",
-   "type": "music",
-   "place": "San Lorenzo basilica",
-   "lat": 43.775,
-   "lon": 11.2539
-  },
-  {
-   "id": "2mp4MZJMsjQqggdFRHwKJu",
-   "title": "O Fiorentina",
-   "type": "music",
-   "place": "Stadio Artemio Franchi stadium",
-   "lat": 43.7804,
-   "lon": 11.2834
-  },
-  {
-   "id": "2mt7gpXrk6cioKDqsdKvcs",
-   "title": "Requiem in C minor",
-   "type": "music",
-   "place": "Luigi Cherubini Conservatory",
-   "lat": 43.7763,
-   "lon": 11.2586
   },
   {
    "id": "3hXtHcAj85GPFs7aAvem2e",
    "title": "Amarilli, mia bella",
    "type": "music",
    "place": "Palazzo Pitti",
+   "url": "https://open.spotify.com/search/Caccini%20Amarilli%20mia%20bella",
+   "creator": "Giulio Caccini",
+   "channel": null,
    "lat": 43.7652,
    "lon": 11.25
   },
   {
-   "id": "6BQrcnrqumB6B0dzLiIwYJ",
-   "title": "Disperato",
+   "id": "2mt7gpXrk6cioKDqsdKvcs",
+   "title": "Requiem in C minor",
    "type": "music",
-   "place": "Piazza della Repubblica",
-   "lat": 43.7715,
-   "lon": 11.2539
+   "place": "Luigi Cherubini Conservatory",
+   "url": "https://open.spotify.com/search/Cherubini%20Requiem%20in%20C%20minor",
+   "creator": "Luigi Cherubini",
+   "channel": null,
+   "lat": 43.7763,
+   "lon": 11.2586
+  },
+  {
+   "id": "6wDJzZH5LOxzphsoudwJZA",
+   "title": "La Porti un Bacione a Firenze",
+   "type": "music",
+   "place": "Piazzale Michelangelo",
+   "url": "https://open.spotify.com/search/Odoardo%20Spadaro%20La%20Porti%20un%20Bacione%20a%20Firenze",
+   "creator": "Odoardo Spadaro",
+   "channel": null,
+   "lat": 43.7629,
+   "lon": 11.2651
+  },
+  {
+   "id": "2mp4MZJMsjQqggdFRHwKJu",
+   "title": "O Fiorentina",
+   "type": "music",
+   "place": "Stadio Artemio Franchi stadium",
+   "url": "https://open.spotify.com/search/Narciso%20Parigi%20O%20Fiorentina",
+   "creator": "Narciso Parigi",
+   "channel": null,
+   "lat": 43.7804,
+   "lon": 11.2834
   },
   {
    "id": "1nPf3AKvUriyzAWwoWbkVi",
    "title": "Siberia",
    "type": "music",
    "place": "Piazza della Repubblica",
+   "url": "https://open.spotify.com/search/Diaframma%20Siberia",
+   "creator": "Diaframma",
+   "channel": null,
    "lat": 43.7715,
    "lon": 11.2539
   },
@@ -766,6 +83,9 @@
    "title": "Luglio",
    "type": "music",
    "place": "Fiesole (area)",
+   "url": "https://open.spotify.com/search/Riccardo%20Del%20Turco%20Luglio",
+   "creator": "Riccardo Del Turco",
+   "channel": null,
    "lat": 43.8068,
    "lon": 11.2926
   },
@@ -774,14 +94,42 @@
    "title": "El Diablo",
    "type": "music",
    "place": "Via de’ Bardi",
+   "url": "https://open.spotify.com/search/Litfiba%20El%20Diablo",
+   "creator": "Litfiba",
+   "channel": null,
    "lat": 43.7663,
    "lon": 11.2555
+  },
+  {
+   "id": "6BQrcnrqumB6B0dzLiIwYJ",
+   "title": "Disperato",
+   "type": "music",
+   "place": "Piazza della Repubblica",
+   "url": "https://open.spotify.com/search/Marco%20Masini%20Disperato",
+   "creator": "Marco Masini",
+   "channel": null,
+   "lat": 43.7715,
+   "lon": 11.2539
+  },
+  {
+   "id": "5cAxw55q8NB9aTy029EWC1",
+   "title": "In vacanza da una vita",
+   "type": "music",
+   "place": "Piazza della Repubblica",
+   "url": "https://open.spotify.com/search/Irene%20Grandi%20In%20vacanza%20da%20una%20vita",
+   "creator": "Irene Grandi",
+   "channel": null,
+   "lat": 43.7715,
+   "lon": 11.2539
   },
   {
    "id": "JPmsYdZRqgiWD75m1afnk",
    "title": "Se mi rilasso collasso",
    "type": "music",
    "place": "Piazza della Repubblica",
+   "url": "https://open.spotify.com/search/Bandabard%C3%B2%20Se%20mi%20rilasso%20collasso",
+   "creator": "La Bandabardò",
+   "channel": null,
    "lat": 43.7715,
    "lon": 11.2539
   },
@@ -790,102 +138,1197 @@
    "title": "Governo Punk",
    "type": "music",
    "place": "Villanova, Empoli",
+   "url": "https://open.spotify.com/search/bnkr44%20Governo%20Punk",
+   "creator": "bnkr44",
+   "channel": null,
    "lat": 43.7179,
    "lon": 10.9479
   },
   {
-   "id": "6wDJzZH5LOxzphsoudwJZA",
-   "title": "La Porti un Bacione a Firenze",
-   "type": "music",
-   "place": "Piazzale Michelangelo",
-   "lat": 43.7629,
-   "lon": 11.2651
-  },
-  {
-   "id": "4XZ6TGCBCN7tUjoEa1hquR",
-   "title": "A banker converts fortune into hidden power",
-   "type": "podcast",
-   "place": "Palazzo Medici Riccardi",
-   "lat": 43.7752,
-   "lon": 11.2557
-  },
-  {
-   "id": "i7PlnwB6gZTNaouIk8A51",
-   "title": "Crediting Persian engineering for Florence's dome",
-   "type": "podcast",
+   "id": "1kA8g4nbdKhihmAC4WWopZ",
+   "title": "A whole Renaissance city still packed inside its old walls",
+   "type": "video",
    "place": "Duomo cathedral (Santa Maria del Fiore)",
-   "lat": 43.7732,
-   "lon": 11.2568
-  },
-  {
-   "id": "4tuL8nlymP5ZknpN9hnMpP",
-   "title": "Assassins strike during Sunday Mass",
-   "type": "podcast",
-   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "url": "https://youtu.be/U0Asv_Yd-G4",
+   "creator": null,
+   "channel": "UNESCO",
    "lat": 43.7731,
    "lon": 11.256
   },
   {
-   "id": "6kkvvQSWVZfauWfqbSf6ct",
-   "title": "A poet dreams of a homecoming that never came",
-   "type": "podcast",
-   "place": "Baptistery of San Giovanni",
+   "id": "1EdwwTraEUq4l8czZ5HltV",
+   "title": "Twenty-seven men a side fight over a ball in a sand-covered square",
+   "type": "video",
+   "place": "Piazza Santa Croce",
+   "url": "https://youtu.be/mTPWcLmWvD0",
+   "creator": null,
+   "channel": "VICE Sports",
+   "lat": 43.769,
+   "lon": 11.2617
+  },
+  {
+   "id": "2RBKYNQwUfMd1IL10Y82QU",
+   "title": "The Arno bursts its banks and buries the city in mud",
+   "type": "video",
+   "place": "National Central Library",
+   "url": "https://youtu.be/Uo1aaHyfMX0",
+   "creator": null,
+   "channel": "British Pathé",
+   "lat": 43.7673,
+   "lon": 11.2636
+  },
+  {
+   "id": "beu4jQDbOu0k4j1l3Kh1V",
+   "title": "The New Sacristy by Michelangelo",
+   "type": "video",
+   "place": "New Sacristy, Medici Chapels",
+   "url": "https://youtu.be/5gVlGU4zUeY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7751,
+   "lon": 11.2533
+  },
+  {
+   "id": "3UJZHGVjN3Ir9GnngWdeyk",
+   "title": "The Deposition by Pontormo",
+   "type": "video",
+   "place": "Capponi Chapel, Santa Felicita church",
+   "url": "https://youtu.be/1pm-Pn1aZn4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7666,
+   "lon": 11.2523
+  },
+  {
+   "id": "4MroN0QaAo2ZjN1Ory1LZA",
+   "title": "The Dome of Florence Cathedral by Filippo Brunelleschi",
+   "type": "video",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "url": "https://youtu.be/QCOQ7jDtkzU",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 43.7731,
-   "lon": 11.255
+   "lon": 11.256
   },
   {
-   "id": "1DvUTaa3WVTLfmjru0OHW3",
-   "title": "Rivals debate where to put a giant",
-   "type": "podcast",
-   "place": "Piazza della Signoria",
-   "lat": 43.7697,
-   "lon": 11.2556
+   "id": "nscLmGreE7n2aZUx0vhER",
+   "title": "The Annunciation by Fra Angelico",
+   "type": "video",
+   "place": "San Marco Museum",
+   "url": "https://youtu.be/3B-V_pG3HPQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7781,
+   "lon": 11.2588
   },
   {
-   "id": "3UMmrJcHrfuj9qVkDFcVZN",
-   "title": "A friar burns Florence's art in a public square",
-   "type": "podcast",
-   "place": "Piazza della Signoria",
-   "lat": 43.7697,
-   "lon": 11.2556
+   "id": "2fLiCLRmB4MZS4ViEqir3u",
+   "title": "Primavera by Sandro Botticelli",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/JFtMgt0nqgU",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
   },
   {
-   "id": "7s9Luf4OtXjWpm6WzsZOB",
-   "title": "A barefoot boy becomes shoemaker to Hollywood",
-   "type": "podcast",
-   "place": "Ferragamo Museum, Palazzo Spini Feroni",
-   "lat": 43.7698,
-   "lon": 11.2512
+   "id": "2DgGM9e8RnAvuzQGuZhPGt",
+   "title": "Metello",
+   "type": "movie",
+   "place": "Oltrarno district (area)",
+   "url": "https://justwatch.com/us/search?q=Metello%201970",
+   "creator": "Mauro Bolognini",
+   "channel": null,
+   "lat": 43.769,
+   "lon": 11.244
   },
   {
-   "id": "7wElQJI3hWAxzPRI2BLxmo",
-   "title": "The one bridge a retreating army wouldn't blow up",
-   "type": "podcast",
-   "place": "Ponte Vecchio bridge",
-   "lat": 43.7679,
+   "id": "4Y9eNR6ZzQo4DuggBkEZ2c",
+   "title": "A private corridor lets the Medici cross the river unseen",
+   "type": "video",
+   "place": "Vasari Corridor, Ponte Vecchio",
+   "url": "https://youtu.be/sp-27vp6xXk",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 43.768,
    "lon": 11.2531
+  },
+  {
+   "id": "2KxobaulRV3cMPdt7OHeKd",
+   "title": "A banking family’s chapel sets the rules for Renaissance building",
+   "type": "video",
+   "place": "Pazzi Chapel, Santa Croce",
+   "url": "https://youtu.be/DwC4x193utI",
+   "creator": null,
+   "channel": "Santa Croce Opera",
+   "lat": 43.7681,
+   "lon": 11.2627
+  },
+  {
+   "id": "3rUmwG4cPiXT11MrgFx5qp",
+   "title": "An English mercenary gets a painted horse in the cathedral",
+   "type": "podcast",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "url": "https://open.spotify.com/search/Rebuilding the Renaissance Hawkwood Niccolo da Tolentino",
+   "creator": null,
+   "channel": "Rebuilding the Renaissance",
+   "lat": 43.7728,
+   "lon": 11.2566
+  },
+  {
+   "id": "6ekZS8jYx6AV8ikCCypUlV",
+   "title": "Saint George by Donatello",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "url": "https://youtu.be/UAQsYoYZfxs",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7708,
+   "lon": 11.2547
+  },
+  {
+   "id": "5dJJ0Mtavpql9FppHFRDlb",
+   "title": "The Cavalcanti Annunciation by Donatello",
+   "type": "video",
+   "place": "Santa Croce basilica",
+   "url": "https://youtu.be/XieVBW-wkqY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7686,
+   "lon": 11.2622
+  },
+  {
+   "id": "aTGOhhWjjYbvdfbkNbqJu",
+   "title": "Palazzo Rucellai by Leon Battista Alberti",
+   "type": "video",
+   "place": "Palazzo Rucellai",
+   "url": "https://youtu.be/MHuUBkyF8KI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7713,
+   "lon": 11.249
+  },
+  {
+   "id": "2SYRghlDLY7rCzXDqRelWY",
+   "title": "Santo Spirito by Filippo Brunelleschi",
+   "type": "video",
+   "place": "Santo Spirito basilica",
+   "url": "https://youtu.be/ggpKKlsaeac",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7665,
+   "lon": 11.2479
+  },
+  {
+   "id": "7IOo3FF1NKJXiUXzAyCUbI",
+   "title": "The Saint Lucy Altarpiece by Domenico Veneziano",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/-yfjQGg-aMA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "zit4U8Tk9xKSO5a1VNBmV",
+   "title": "The Campanile Reliefs by Andrea Pisano",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "url": "https://youtu.be/ncgAfzRSJrI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7731,
+   "lon": 11.2577
+  },
+  {
+   "id": "4bDtpprEXpJ1eb1dIzxnd",
+   "title": "Cronaca familiare (Family Diary)",
+   "type": "movie",
+   "place": "Ponte Santa Trinita bridge",
+   "url": "https://justwatch.com/us/search?q=Family%20Diary%201962",
+   "creator": "Valerio Zurlini",
+   "channel": null,
+   "lat": 43.7686,
+   "lon": 11.2503
+  },
+  {
+   "id": "32eZWBGoWyHORA1gWTGorD",
+   "title": "Tea with Mussolini",
+   "type": "movie",
+   "place": "Santa Croce basilica",
+   "url": "https://justwatch.com/us/search?q=Tea%20with%20Mussolini",
+   "creator": "Franco Zeffirelli",
+   "channel": null,
+   "lat": 43.7686,
+   "lon": 11.2621
+  },
+  {
+   "id": "5zmbJ7eAvSefeawurUalRY",
+   "title": "A monk’s math book invents modern bookkeeping",
+   "type": "podcast",
+   "place": "Mercato Nuovo loggia (Porcellino)",
+   "url": "https://open.spotify.com/search/Planet Money Mathematician Last Supper Accounting",
+   "creator": null,
+   "channel": "Planet Money",
+   "lat": 43.77,
+   "lon": 11.2543
+  },
+  {
+   "id": "2sgAKmQHJcfI4hnClxGvXQ",
+   "title": "A Florentine gives his name to two continents",
+   "type": "podcast",
+   "place": "Ognissanti church",
+   "url": "https://open.spotify.com/search/Explorers Podcast Amerigo Vespucci",
+   "creator": null,
+   "channel": "The Explorers Podcast",
+   "lat": 43.7725,
+   "lon": 11.2458
+  },
+  {
+   "id": "1HVc3iEr7iQ5J2jnyLAuGc",
+   "title": "An orphaned Medici becomes France’s most feared queen",
+   "type": "podcast",
+   "place": "Palazzo Medici Riccardi",
+   "url": "https://open.spotify.com/search/You're Dead to Me Catherine de Medici",
+   "creator": null,
+   "channel": "You’re Dead To Me",
+   "lat": 43.7752,
+   "lon": 11.2557
+  },
+  {
+   "id": "7GtTd7k4r7ndbPe5DcvpMh",
+   "title": "A cousin lures Florence’s duke to his own murder",
+   "type": "podcast",
+   "place": "Palazzo Medici Riccardi",
+   "url": "https://open.spotify.com/search/Noble Blood 500 Year Medici Mystery",
+   "creator": null,
+   "channel": "Noble Blood",
+   "lat": 43.7752,
+   "lon": 11.2557
   },
   {
    "id": "1EbgZhqa7DvgK9CjE6xz7v",
    "title": "A teenage apprentice outshines his own master",
    "type": "podcast",
    "place": "Orsanmichele church",
+   "url": "https://open.spotify.com/search/Getty Art Ideas Leonardo da Vinci lives",
+   "creator": null,
+   "channel": "Getty Art + Ideas",
    "lat": 43.7707,
    "lon": 11.255
   },
   {
-   "id": "7GtTd7k4r7ndbPe5DcvpMh",
-   "title": "A cousin lures Florence's duke to his own murder",
+   "id": "7wElQJI3hWAxzPRI2BLxmo",
+   "title": "The one bridge a retreating army wouldn’t blow up",
+   "type": "podcast",
+   "place": "Ponte Vecchio bridge",
+   "url": "https://open.spotify.com/search/Florence and Me Ponte Vecchio",
+   "creator": null,
+   "channel": "Florence & Me",
+   "lat": 43.7679,
+   "lon": 11.2531
+  },
+  {
+   "id": "7s9Luf4OtXjWpm6WzsZOB",
+   "title": "A barefoot boy becomes shoemaker to Hollywood",
+   "type": "podcast",
+   "place": "Ferragamo Museum, Palazzo Spini Feroni",
+   "url": "https://open.spotify.com/search/Shoemaker of Dreams Salvatore Ferragamo podcast",
+   "creator": null,
+   "channel": "Salvatore Ferragamo: Shoemaker of Dreams",
+   "lat": 43.7698,
+   "lon": 11.2512
+  },
+  {
+   "id": "3UMmrJcHrfuj9qVkDFcVZN",
+   "title": "A friar burns Florence’s art in a public square",
+   "type": "podcast",
+   "place": "Piazza della Signoria",
+   "url": "https://open.spotify.com/search/Perspectives in History Savonarola Bonfire",
+   "creator": null,
+   "channel": "Perspectives in History",
+   "lat": 43.7697,
+   "lon": 11.2556
+  },
+  {
+   "id": "1DvUTaa3WVTLfmjru0OHW3",
+   "title": "Rivals debate where to put a giant",
+   "type": "podcast",
+   "place": "Piazza della Signoria",
+   "url": "https://open.spotify.com/search/Travels Through Time Michelangelo Leonardo Florence",
+   "creator": null,
+   "channel": "Travels Through Time",
+   "lat": 43.7697,
+   "lon": 11.2556
+  },
+  {
+   "id": "4tuL8nlymP5ZknpN9hnMpP",
+   "title": "Assassins strike during Sunday Mass",
+   "type": "podcast",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "url": "https://open.spotify.com/search/Rest Is History Lorenzo the Magnificent Pazzi",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "i7PlnwB6gZTNaouIk8A51",
+   "title": "Crediting Persian engineering for Florence’s dome",
+   "type": "podcast",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "url": "https://open.spotify.com/search/Danielle Oteri Italy Florence Dome Secret",
+   "creator": null,
+   "channel": "Danielle Oteri’s Italy",
+   "lat": 43.7732,
+   "lon": 11.2568
+  },
+  {
+   "id": "4XZ6TGCBCN7tUjoEa1hquR",
+   "title": "A banker converts fortune into hidden power",
    "type": "podcast",
    "place": "Palazzo Medici Riccardi",
+   "url": "https://open.spotify.com/search/Rest Is History Medici Masters of Florence",
+   "creator": null,
+   "channel": "The Rest is History",
    "lat": 43.7752,
    "lon": 11.2557
+  },
+  {
+   "id": "5jKvk0eyaiXTvFsbvz3VXP",
+   "title": "Palaces and Piazzas: The Highlights of Florence",
+   "type": "audiotour",
+   "place": "Piazza del Duomo",
+   "url": "https://voicemap.me/tour/florence/palaces-and-piazzas-the-highlights-of-florence",
+   "creator": "Elisabetta Marchi",
+   "channel": null,
+   "lat": 43.7731,
+   "lon": 11.2554
+  },
+  {
+   "id": "2Dp6rnZudrh94ZXWQtkB2",
+   "title": "Inside the Uffizi Galleries: An Art History Guide",
+   "type": "audiotour",
+   "place": "Uffizi Gallery entrance",
+   "url": "https://voicemap.me/tour/florence/inside-the-uffizi-galleries-an-art-history-guide",
+   "creator": "Alexandra Korey",
+   "channel": null,
+   "lat": 43.7686,
+   "lon": 11.256
+  },
+  {
+   "id": "3PMZtcjsbskHW9KAgT6YU9",
+   "title": "Fantastic Florence Sights: Michelangelo Terrace and San Miniato Basilica",
+   "type": "audiotour",
+   "place": "Ponte alle Grazie bridge",
+   "url": "https://voicemap.me/tour/florence/fantastic-florence-sights-michelangelo-terrace-and-san-miniato-basilica",
+   "creator": "Fabio Strufaldi",
+   "channel": null,
+   "lat": 43.7663,
+   "lon": 11.2587
+  },
+  {
+   "id": "5V2hFMQBRXrXt1xiqbn9mg",
+   "title": "Three Hundred Years of Art, Power, and Politics: A Tour of Medici Florence",
+   "type": "audiotour",
+   "place": "San Lorenzo basilica",
+   "url": "https://voicemap.me/tour/florence/three-hundred-years-of-art-power-and-politics-a-tour-of-medici-s-florence",
+   "creator": "Julie Thomas",
+   "channel": null,
+   "lat": 43.7748,
+   "lon": 11.2547
+  },
+  {
+   "id": "3phYa8nZi9pzHbPodVH2IY",
+   "title": "Monumental Moments in History: A Florence Walking Tour",
+   "type": "audiotour",
+   "place": "Piazza del Duomo",
+   "url": "https://voicemap.me/tour/florence/monumental-moments-in-history-a-florence-walking-tour",
+   "creator": "Julie Thomas",
+   "channel": null,
+   "lat": 43.7733,
+   "lon": 11.2554
+  },
+  {
+   "id": "3NdIOcFtyIDXG0POkD1P0F",
+   "title": "Where Tradition Meets History: A Walking Tour of Florence’s Oltrarno District",
+   "type": "audiotour",
+   "place": "Ponte Vecchio bridge (south end)",
+   "url": "https://voicemap.me/tour/florence/where-tradition-meets-history-a-walking-tour-of-florence-s-oltrarno-district",
+   "creator": "Julie Thomas",
+   "channel": null,
+   "lat": 43.7677,
+   "lon": 11.2529
+  },
+  {
+   "id": "2cSp73Fi2QCOLLocHmgNIz",
+   "title": "Uffizi Gallery: A Tour of Renaissance Masterpieces",
+   "type": "audiotour",
+   "place": "Uffizi Gallery entrance",
+   "url": "https://voicemap.me/tour/florence/uffizi-gallery-a-tour-of-renaissance-masterpieces",
+   "creator": "Julie Thomas",
+   "channel": null,
+   "lat": 43.7686,
+   "lon": 11.2556
+  },
+  {
+   "id": "1yY3jAG0UJK9vB2P2ZhIE1",
+   "title": "Politics and Power: An Introduction to Florence with Context",
+   "type": "audiotour",
+   "place": "Piazza della Repubblica",
+   "url": "https://voicemap.me/tour/florence/politics-and-power-an-introduction-to-florence-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 43.7715,
+   "lon": 11.254
+  },
+  {
+   "id": "lzjKYDsr3wc8MZlqRJ7c1",
+   "title": "Classic Florence: From Piazza di Santa Maria Novella to Ponte Vecchio",
+   "type": "audiotour",
+   "place": "Piazza Santa Maria Novella",
+   "url": "https://voicemap.me/tour/florence/classic-florence-from-piazza-di-santa-maria-novella-to-ponte-vecchio",
+   "creator": "Francesca",
+   "channel": null,
+   "lat": 43.7736,
+   "lon": 11.2495
+  },
+  {
+   "id": "7GWzw0StCziKudK59aMQuj",
+   "title": "Fine Food in Florence: A Walking Tour with Context",
+   "type": "audiotour",
+   "place": "Piazza della Signoria",
+   "url": "https://voicemap.me/tour/florence/fine-food-in-florence-a-walking-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 43.7696,
+   "lon": 11.2559
+  },
+  {
+   "id": "481ZU29qXsevHQv3xXKdcX",
+   "title": "Bridging Florence’s History: An Arno River Walking Tour with Context",
+   "type": "audiotour",
+   "place": "Piazza dei Mozzi, by Ponte alle Grazie",
+   "url": "https://voicemap.me/tour/florence/bridging-florence-s-history-an-arno-river-walking-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 43.7653,
+   "lon": 11.2601
+  },
+  {
+   "id": "5H59w8KASTJzbaxaPpdiDO",
+   "title": "AudioZoom into Florence: An Introduction to the Historical City Center",
+   "type": "audiotour",
+   "place": "San Lorenzo basilica",
+   "url": "https://voicemap.me/tour/florence/audiozoom-into-florence-an-introduction-to-the-historical-city-center",
+   "creator": "eArs",
+   "channel": null,
+   "lat": 43.7748,
+   "lon": 11.2548
+  },
+  {
+   "id": "6WSpf7gUESBRrz1LAkmlPP",
+   "title": "Florence and the Uffizi Gallery",
+   "type": "movie",
+   "place": "Uffizi Gallery",
+   "url": "https://justwatch.com/us/search?q=Florence%20and%20the%20Uffizi%20Gallery",
+   "creator": "Luca Viotto",
+   "channel": null,
+   "lat": 43.7683,
+   "lon": 11.2557
+  },
+  {
+   "id": "3hn3JSkJsuS9IIrKjcstQF",
+   "title": "Amici miei (My Friends)",
+   "type": "movie",
+   "place": "Santa Maria Novella station",
+   "url": "https://justwatch.com/us/search?q=Amici%20miei%201975",
+   "creator": "Mario Monicelli",
+   "channel": null,
+   "lat": 43.7723,
+   "lon": 11.2422
+  },
+  {
+   "id": "54q8pku3fn2wxrBzxtoMpN",
+   "title": "Hannibal",
+   "type": "movie",
+   "place": "Palazzo Vecchio",
+   "url": "https://justwatch.com/us/search?q=Hannibal%202001",
+   "creator": "Ridley Scott",
+   "channel": null,
+   "lat": 43.7693,
+   "lon": 11.2562
+  },
+  {
+   "id": "5hgk6NwP0xUl7JM3xfBFUU",
+   "title": "Light in the Piazza",
+   "type": "movie",
+   "place": "Piazza del Duomo",
+   "url": "https://justwatch.com/us/search?q=Light%20in%20the%20Piazza%201962",
+   "creator": "Guy Green",
+   "channel": null,
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "JmNuVF4z5Rq43U0iyPF7r",
+   "title": "A Room with a View",
+   "type": "movie",
+   "place": "Piazza della Signoria",
+   "url": "https://justwatch.com/us/search?q=A%20Room%20with%20a%20View%201985",
+   "creator": "James Ivory",
+   "channel": null,
+   "lat": 43.7696,
+   "lon": 11.2558
+  },
+  {
+   "id": "3ZW2ZyUTM28sdzJuqtN2d3",
+   "title": "Paisà (Paisan)",
+   "type": "movie",
+   "place": "Vasari Corridor, Ponte Vecchio",
+   "url": "https://justwatch.com/us/search?q=Paisan%201946",
+   "creator": "Roberto Rossellini",
+   "channel": null,
+   "lat": 43.768,
+   "lon": 11.2531
+  },
+  {
+   "id": "55lug3NP8S2cZf4s8mxOWL",
+   "title": "Chronicle of Poor Lovers (Cronache di poveri amanti)",
+   "type": "movie",
+   "place": "Via del Corno",
+   "url": "https://www.justwatch.com/us/search?q=Chronicle%20of%20Poor%20Lovers",
+   "creator": "Carlo Lizzani",
+   "channel": null,
+   "lat": 43.769,
+   "lon": 11.2575
+  },
+  {
+   "id": "3sDcXk88EzFXYqfiMl4iUP",
+   "title": "The Black Death in Boccaccio’s Florence",
+   "type": "podcast",
+   "place": "Santa Maria Novella",
+   "url": "https://podcasts.apple.com/us/podcast/the-decameron-sex-plague-and-a-medieval-love-island/id256580326?i=1000663337160",
+   "creator": null,
+   "channel": "HistoryExtra Podcast",
+   "lat": 43.7746,
+   "lon": 11.2494
+  },
+  {
+   "id": "1ioyGsMQu0knhy5Tw8hbvk",
+   "title": "David by Michelangelo",
+   "type": "video",
+   "place": "Accademia Gallery (Galleria dell’Accademia)",
+   "url": "https://www.youtube.com/watch?v=-e16DmKH01s",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 43.7768,
+   "lon": 11.2586
+  },
+  {
+   "id": "7G5C3K1esZwFeWquWDZBci",
+   "title": "The Deposition by Jacopo Pontormo",
+   "type": "podcast",
+   "place": "Santa Felicita",
+   "url": "https://podcasts.apple.com/us/podcast/season-2-ep-10-the-deposition-from-the-cross/id1573430649?i=1000548177930&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 43.7666,
+   "lon": 11.2527
+  },
+  {
+   "id": "6wC6sbdKb3UPv4gvxr2h1p",
+   "title": "Judith Slaying Holofernes by Artemisia Gentileschi",
+   "type": "podcast",
+   "place": "Uffizi Gallery",
+   "url": "https://podcasts.apple.com/us/podcast/artemisia-gentileschi-judith-slaying-holofernes-a/id1844970987?i=1000766238009&uo=4",
+   "creator": null,
+   "channel": "Inside the Masterpiece",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "ji7TVhUfEbwzq0APRuxKf",
+   "title": "The Birth of Venus by Sandro Botticelli",
+   "type": "podcast",
+   "place": "Uffizi Gallery",
+   "url": "https://podcasts.apple.com/us/podcast/sandro-botticelli-the-birth-of-venus-the-rebirth-of-beauty/id1844970987?i=1000750084281&uo=4",
+   "creator": null,
+   "channel": "Inside the Masterpiece",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "48PjTNVWij6kqKlVH3qNHA",
+   "title": "The Birth of Venus by Sandro Botticelli",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://www.youtube.com/watch?v=DtaVAml0WcQ",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "5gDZCOsDIeDLulYib7CeSH",
+   "title": "The Consequences of War by Peter Paul Rubens",
+   "type": "video",
+   "place": "Palatine Gallery, Palazzo Pitti",
+   "url": "https://youtu.be/K9iMsmhBOjk",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7651,
+   "lon": 11.25
+  },
+  {
+   "id": "79JFTeVoSyFQwiGDDi1cg0",
+   "title": "The Duke and Duchess of Urbino by Piero della Francesca",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/uk7mTGrHfb4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "OI2j14lBGSRJeAFAdstgu",
+   "title": "The Madonna of the Goldfinch by Raphael",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/jHN0BfowL7s",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "222wpVF6DLMTiV1HbsYfvt",
+   "title": "The Madonna with the Long Neck by Parmigianino",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/suIUUGdNyWk",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4XlqGY48pIzHqFEvsBVMiF",
+   "title": "The Venus of Urbino by Titian",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/qD6ct0VS15c",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "3QTfd2JDXBQBd8dtHXPDC4",
+   "title": "The Presentation in the Temple by Ambrogio Lorenzetti",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/_lzdhIHLwcQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "98dvIg3DEKBnGZ5Di2P7o",
+   "title": "Madonna and Child with Two Angels by Fra Filippo Lippi",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/Ly2-n1KqNko",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "S2l3uGPlk9l4hY1b6YECP",
+   "title": "Eleonora of Toledo and Her Son by Bronzino",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/fpgvjMKCyAA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4tZbD7FJmWGbpMlUy41J6j",
+   "title": "The Old Sacristy by Filippo Brunelleschi",
+   "type": "video",
+   "place": "Old Sacristy, San Lorenzo basilica",
+   "url": "https://youtu.be/jYZ71Zma9Gc",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7748,
+   "lon": 11.254
+  },
+  {
+   "id": "57aYHsLDQGKCZgm2so18Pc",
+   "title": "The Santa Trinita and Ognissanti Madonnas by Cimabue and Giotto",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/DKnFvXmUlOI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4bmzd8rMaD2ZRNgG21bWDs",
+   "title": "Perseus with the Head of Medusa by Benvenuto Cellini",
+   "type": "video",
+   "place": "Loggia dei Lanzi, Piazza della Signoria",
+   "url": "https://youtu.be/Q1j-gPKAcDA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7693,
+   "lon": 11.2556
+  },
+  {
+   "id": "3JfXMChlOXPjCpOaBsL7HC",
+   "title": "The Expulsion from the Garden of Eden by Masaccio",
+   "type": "video",
+   "place": "Brancacci Chapel, Santa Maria del Carmine",
+   "url": "https://youtu.be/hMzFbORRiss",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.768,
+   "lon": 11.244
+  },
+  {
+   "id": "7pjSVO039nG3D7MWfwFSDW",
+   "title": "Fruit and Insects by Rachel Ruysch",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/EK-h6cZCXrs",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "5aBakxffmr9xrspja7rga3",
+   "title": "The Façade of Santa Maria Novella by Leon Battista Alberti",
+   "type": "video",
+   "place": "Santa Maria Novella basilica",
+   "url": "https://youtu.be/1wDFFqcXZOo",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7731,
+   "lon": 11.2494
+  },
+  {
+   "id": "6rt3zDqe72QKo5vkHkdPGJ",
+   "title": "The Adoration of the Magi by Gentile da Fabriano",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/4kbv2Gaw-9U",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1G4iFwMgFZ3vIpBmcvQQwS",
+   "title": "Judith Slaying Holofernes by Artemisia Gentileschi",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/BHFuLS9NW6s",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "4RGqGh5JHIKHn3oNWo0rDN",
+   "title": "The Birth of Venus by Sandro Botticelli",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/K6PBfbkMzFU",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "58V898h4X7xcOyGvCPle8u",
+   "title": "The Ognissanti Madonna by Giotto",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/0CWpG3GVtA8",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "70zx7kXtqucAZJcvmsfB0Q",
+   "title": "The Annunciation by Simone Martini and Lippo Memmi",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/aLpDq6JyrF4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "2FEguoAYQASaw2Ki9bFTey",
+   "title": "The Rucellai Madonna by Duccio",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/_votOtQdeLY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "5oR1P3Y8KdFh4jD9QrTpUA",
+   "title": "The Codex Amiatinus, the oldest complete Latin Bible",
+   "type": "video",
+   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
+   "url": "https://youtu.be/0P1m1afVfFI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7746,
+   "lon": 11.2538
+  },
+  {
+   "id": "6WlKzLmTjVPg06uo8n7pb",
+   "title": "The Santa Trinita Maestà by Cimabue",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/ZAY4mF1mNlc",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "2NcQTvSu84euFQz44vouX3",
+   "title": "The Portinari Altarpiece by Hugo van der Goes",
+   "type": "video",
+   "place": "Uffizi Gallery",
+   "url": "https://youtu.be/-qfFCPBwzxg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "Grbk8L1zQxzSKgGLfmfA8",
+   "title": "Palazzo Medici Riccardi by Michelozzo",
+   "type": "video",
+   "place": "Palazzo Medici Riccardi",
+   "url": "https://youtu.be/lWgkpKbjmUc",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7752,
+   "lon": 11.2559
+  },
+  {
+   "id": "1vHBIi9kKWdBFTqiFWDGst",
+   "title": "The Sacrifice of Isaac by Lorenzo Ghiberti and Filippo Brunelleschi",
+   "type": "video",
+   "place": "Bargello Museum",
+   "url": "https://youtu.be/8qivmAur1-k",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "1tYlT7r9omahotSLYhj9VR",
+   "title": "David by Michelangelo",
+   "type": "video",
+   "place": "Accademia Gallery (Galleria dell’Accademia)",
+   "url": "https://youtu.be/QdlP8ai8trw",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7768,
+   "lon": 11.2588
+  },
+  {
+   "id": "1qCcnEsS0BfZh6kXa9o9Eh",
+   "title": "The Penitent Magdalene by Donatello",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "url": "https://youtu.be/Vul5YDBhdAQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7731,
+   "lon": 11.2551
+  },
+  {
+   "id": "i3atkwnsQUmyxFkxkLDUu",
+   "title": "Saint Mark by Donatello",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "url": "https://youtu.be/RwDNI9RR7Yo",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7708,
+   "lon": 11.2547
+  },
+  {
+   "id": "16es7P9fbQ18DUA9ZXqydP",
+   "title": "The South Doors of the Baptistery by Andrea Pisano",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "url": "https://youtu.be/85xYg4i6WTg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7731,
+   "lon": 11.2577
+  },
+  {
+   "id": "3XMFzw3WMPA5Qsjxq2rWVu",
+   "title": "David by Andrea del Verrocchio",
+   "type": "video",
+   "place": "Bargello Museum",
+   "url": "https://youtu.be/8ydl4I6eJCs",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "58wqr7scUQW1Pf20z15EZv",
+   "title": "Brunelleschi’s Perspective Experiment",
+   "type": "video",
+   "place": "Duomo central doorway, facing the Baptistery",
+   "url": "https://youtu.be/bkNMM8uiMww",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7729,
+   "lon": 11.2553
+  },
+  {
+   "id": "6F9XKwjk4K4F5A5vH4letG",
+   "title": "Four Crowned Saints by Nanni di Banco",
+   "type": "video",
+   "place": "Orsanmichele church",
+   "url": "https://youtu.be/LPZ5C3CgavE",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7709,
+   "lon": 11.2549
+  },
+  {
+   "id": "3aCBHDVXbM0vKtvO4t0XTN",
+   "title": "David by Donatello",
+   "type": "video",
+   "place": "Bargello Museum",
+   "url": "https://youtu.be/0_p8USD0fjY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7704,
+   "lon": 11.2582
+  },
+  {
+   "id": "4MUtDvEGSVaGw8oLabCSNK",
+   "title": "The Laurentian Library by Michelangelo",
+   "type": "video",
+   "place": "Laurentian Library (Biblioteca Medicea Laurenziana)",
+   "url": "https://youtu.be/HiiHDJlRK3w",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7746,
+   "lon": 11.2538
+  },
+  {
+   "id": "3VbShgmcla0nQNokQYy65O",
+   "title": "The Tribute Money by Masaccio",
+   "type": "video",
+   "place": "Brancacci Chapel, Santa Maria del Carmine",
+   "url": "https://youtu.be/TPVeLWLbO9k",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7681,
+   "lon": 11.244
+  },
+  {
+   "id": "6GRn6RXaNNSlQMuwUo89j1",
+   "title": "The Gates of Paradise by Lorenzo Ghiberti",
+   "type": "video",
+   "place": "Museo dell’Opera del Duomo (cathedral museum)",
+   "url": "https://youtu.be/fWkewBPMKEk",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7731,
+   "lon": 11.2551
+  },
+  {
+   "id": "3TxY3GkPezrNOpQCTV1pZz",
+   "title": "The Holy Trinity by Masaccio",
+   "type": "video",
+   "place": "Santa Maria Novella basilica",
+   "url": "https://youtu.be/mdd7LhVx00o",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 43.7746,
+   "lon": 11.2494
+  },
+  {
+   "id": "R9t1qjuLn1NWiEOcUsYDk",
+   "title": "The History of the Jewish Ghetto in Florence: A Walking Tour with Context",
+   "type": "audiotour",
+   "place": "",
+   "url": "https://voicemap.me/tour/florence/the-history-of-the-jewish-ghetto-in-florence-a-walking-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 43.7678,
+   "lon": 11.2514
+  },
+  {
+   "id": "4ZLG0HfXq0jQhPFwI19soA",
+   "title": "The Rise and Fall of the House of Medici",
+   "type": "book",
+   "place": "Palazzo Medici Riccardi",
+   "url": "https://goodreads.com/search?q=Christopher%20Hibbert%20House%20of%20Medici",
+   "creator": "Christopher Hibbert",
+   "channel": null,
+   "lat": 43.7752,
+   "lon": 11.2557
+  },
+  {
+   "id": "6xyWP8uNXc9wqDRjAE8EF1",
+   "title": "Death in Florence",
+   "type": "book",
+   "place": "Piazza della Signoria",
+   "url": "https://goodreads.com/search?q=Paul%20Strathern%20Death%20in%20Florence",
+   "creator": "Paul Strathern",
+   "channel": null,
+   "lat": 43.7697,
+   "lon": 11.2556
+  },
+  {
+   "id": "6YcH3YgQZA6VOW6UIfkOf9",
+   "title": "The Stones of Florence",
+   "type": "book",
+   "place": "Ponte Vecchio bridge",
+   "url": "https://goodreads.com/search?q=Mary%20McCarthy%20The%20Stones%20of%20Florence",
+   "creator": "Mary McCarthy",
+   "channel": null,
+   "lat": 43.7679,
+   "lon": 11.2531
+  },
+  {
+   "id": "6lleltZljWQ9VujeLNY3i4",
+   "title": "Galileo’s Daughter",
+   "type": "book",
+   "place": "Museo Galileo science museum",
+   "url": "https://goodreads.com/search?q=Dava%20Sobel%20Galileo's%20Daughter",
+   "creator": "Dava Sobel",
+   "channel": null,
+   "lat": 43.7677,
+   "lon": 11.2559
+  },
+  {
+   "id": "1Rax7XmQ3LxWJBeRXiR9mJ",
+   "title": "Dante: A Life",
+   "type": "book",
+   "place": "Casa di Dante museum",
+   "url": "https://goodreads.com/search?q=R.W.B.%20Lewis%20Dante%20A%20Life",
+   "creator": "R.W.B. Lewis",
+   "channel": null,
+   "lat": 43.7711,
+   "lon": 11.2571
+  },
+  {
+   "id": "7ydOslh3IWptoQ5YWDO913",
+   "title": "Brunelleschi’s Dome",
+   "type": "book",
+   "place": "Duomo cathedral (Santa Maria del Fiore)",
+   "url": "https://goodreads.com/search?q=Ross%20King%20Brunelleschi's%20Dome",
+   "creator": "Ross King",
+   "channel": null,
+   "lat": 43.7731,
+   "lon": 11.256
+  },
+  {
+   "id": "3aSEcFy2eB8booJ82pCzkz",
+   "title": "Dark Water: Flood and Redemption in the City of Masterpieces",
+   "type": "book",
+   "place": "Santa Croce basilica",
+   "url": "https://goodreads.com/search?q=Robert%20Clark%20Dark%20Water%20Florence%20flood",
+   "creator": "Robert Clark",
+   "channel": null,
+   "lat": 43.7686,
+   "lon": 11.2623
+  },
+  {
+   "id": "4TC5wX83otSBxzNSceB2Vw",
+   "title": "A Room with a View",
+   "type": "book",
+   "place": "Piazzale Michelangelo",
+   "url": "https://www.goodreads.com/book/show/3087.A_Room_with_a_View",
+   "creator": "E.M. Forster",
+   "channel": null,
+   "lat": 43.7629,
+   "lon": 11.2651
+  },
+  {
+   "id": "2VvQvMZ7GnidU84uG5mJQA",
+   "title": "The Agony and the Ecstasy",
+   "type": "book",
+   "place": "Accademia Gallery (Galleria dell’Accademia)",
+   "url": "https://goodreads.com/search?q=Irving%20Stone%20The%20Agony%20and%20the%20Ecstasy",
+   "creator": "Irving Stone",
+   "channel": null,
+   "lat": 43.7768,
+   "lon": 11.2586
+  },
+  {
+   "id": "1izl78HqxNYiVMtFtrzWuX",
+   "title": "Lives of the Artists",
+   "type": "book",
+   "place": "Uffizi Gallery",
+   "url": "https://goodreads.com/search?q=Vasari%20Lives%20of%20the%20Artists",
+   "creator": "Giorgio Vasari",
+   "channel": null,
+   "lat": 43.7678,
+   "lon": 11.2553
+  },
+  {
+   "id": "1nF13Os7JJA0njjvn9n7nn",
+   "title": "The Prince",
+   "type": "book",
+   "place": "Palazzo Vecchio",
+   "url": "https://goodreads.com/search?q=Machiavelli%20The%20Prince",
+   "creator": "Niccolò Machiavelli",
+   "channel": null,
+   "lat": 43.7693,
+   "lon": 11.2562
+  },
+  {
+   "id": "6kkvvQSWVZfauWfqbSf6ct",
+   "title": "A poet dreams of a homecoming that never came",
+   "type": "podcast",
+   "place": "Baptistery of San Giovanni",
+   "url": "https://open.spotify.com/search/City Breaks Podcast Dante's Florence",
+   "creator": null,
+   "channel": "City Breaks Podcast",
+   "lat": 43.7731,
+   "lon": 11.255
   },
   {
    "id": "2h4mPSxRfPJmENYC4UdW4z",
    "title": "A goddess born from sea foam and Medici money",
    "type": "podcast",
    "place": "Uffizi Gallery",
+   "url": "https://open.spotify.com/search/Lonely Palette Botticelli Birth of Venus",
+   "creator": null,
+   "channel": "The Lonely Palette",
    "lat": 43.7678,
    "lon": 11.2553
   },
@@ -894,78 +1337,42 @@
    "title": "A condemned astronomer keeps working from house arrest",
    "type": "podcast",
    "place": "Villa Il Gioiello, Arcetri",
+   "url": "https://open.spotify.com/search/Politics on Trial Galileo Inquisition",
+   "creator": null,
+   "channel": "Past Present Future",
    "lat": 43.7478,
    "lon": 11.2576
-  },
-  {
-   "id": "1HVc3iEr7iQ5J2jnyLAuGc",
-   "title": "An orphaned Medici becomes France's most feared queen",
-   "type": "podcast",
-   "place": "Palazzo Medici Riccardi",
-   "lat": 43.7752,
-   "lon": 11.2557
-  },
-  {
-   "id": "2sgAKmQHJcfI4hnClxGvXQ",
-   "title": "A Florentine gives his name to two continents",
-   "type": "podcast",
-   "place": "Ognissanti church",
-   "lat": 43.7725,
-   "lon": 11.2458
-  },
-  {
-   "id": "5zmbJ7eAvSefeawurUalRY",
-   "title": "A monk's math book invents modern bookkeeping",
-   "type": "podcast",
-   "place": "Mercato Nuovo loggia (Porcellino)",
-   "lat": 43.77,
-   "lon": 11.2543
   },
   {
    "id": "2oX92wBjpgsua2RkZSOCB5",
    "title": "An 11-year-old apprentice becomes king of the booksellers",
    "type": "podcast",
    "place": "Via del Proconsolo",
+   "url": "https://open.spotify.com/search/Travels Through Time Bookseller of Florence",
+   "creator": null,
+   "channel": "Travels Through Time",
    "lat": 43.7712,
    "lon": 11.2579
-  },
-  {
-   "id": "3rUmwG4cPiXT11MrgFx5qp",
-   "title": "An English mercenary gets a painted horse in the cathedral",
-   "type": "podcast",
-   "place": "Duomo cathedral (Santa Maria del Fiore)",
-   "lat": 43.7728,
-   "lon": 11.2566
-  },
-  {
-   "id": "2KxobaulRV3cMPdt7OHeKd",
-   "title": "A banking family’s chapel sets the rules for Renaissance building",
-   "type": "video",
-   "place": "Pazzi Chapel, Santa Croce",
-   "lat": 43.7681,
-   "lon": 11.2627
   },
   {
    "id": "3VtYptKdaQ8P9eHztQkLp4",
    "title": "Charcoal drawings turn up in a sealed room below the Medici tombs",
    "type": "video",
    "place": "Michelangelo’s secret room, Medici Chapels",
+   "url": "https://youtu.be/VjEd_hM3gbI",
+   "creator": null,
+   "channel": "BBC Global",
    "lat": 43.7752,
    "lon": 11.2535
-  },
-  {
-   "id": "55lug3NP8S2cZf4s8mxOWL",
-   "title": "Chronicle of Poor Lovers (Cronache di poveri amanti)",
-   "type": "movie",
-   "place": "Via del Corno",
-   "lat": 43.769,
-   "lon": 11.2575
   },
   {
    "id": "4XdZ8sFpIguMqTPpkzzR7P",
    "title": "A mafia car bomb tears into the Uffizi in the night",
    "type": "podcast",
    "place": "Via dei Georgofili, behind the Uffizi",
+   "url": "https://open.spotify.com/search/Stuff You Missed in History Class Uffizi bombing restoration",
+   "creator": null,
+   "channel": "Stuff You Missed in History Class",
    "lat": 43.7677,
    "lon": 11.2554
   },
@@ -974,6 +1381,9 @@
    "title": "Leonardo and Michelangelo are hired to paint rival battles",
    "type": "podcast",
    "place": "Hall of the Five Hundred, Palazzo Vecchio",
+   "url": "https://open.spotify.com/search/Rebuilding the Renaissance Battle of the Battles",
+   "creator": null,
+   "channel": "Rebuilding the Renaissance",
    "lat": 43.7695,
    "lon": 11.2561
   },
@@ -982,30 +1392,20 @@
    "title": "Builders argue for years over how many doors a church needs",
    "type": "podcast",
    "place": "Santo Spirito basilica",
+   "url": "https://open.spotify.com/search/Rebuilding the Renaissance Basilica of Santo Spirito Part IV",
+   "creator": null,
+   "channel": "Rebuilding the Renaissance",
    "lat": 43.7672,
    "lon": 11.2479
-  },
-  {
-   "id": "2RBKYNQwUfMd1IL10Y82QU",
-   "title": "The Arno bursts its banks and buries the city in mud",
-   "type": "video",
-   "place": "National Central Library",
-   "lat": 43.7673,
-   "lon": 11.2636
-  },
-  {
-   "id": "1EdwwTraEUq4l8czZ5HltV",
-   "title": "Twenty-seven men a side fight over a ball in a sand-covered square",
-   "type": "video",
-   "place": "Piazza Santa Croce",
-   "lat": 43.769,
-   "lon": 11.2617
   },
   {
    "id": "5apLce43s7kTzfguEECXb9",
    "title": "Violin makers and framers keep working south of the river",
    "type": "video",
    "place": "Oltrarno district (area)",
+   "url": "https://youtu.be/qP0jT4NB-t8",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 43.7667,
    "lon": 11.2481
   },
@@ -1014,6 +1414,9 @@
    "title": "Monks still chant in a marble church above the city",
    "type": "video",
    "place": "San Miniato al Monte church",
+   "url": "https://youtu.be/07s4VVXZQqI",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 43.7595,
    "lon": 11.265
   },
@@ -1022,6 +1425,9 @@
    "title": "A fortress town hall becomes a Medici palace",
    "type": "video",
    "place": "Palazzo Vecchio",
+   "url": "https://youtu.be/DDXlVogk3Js",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 43.7693,
    "lon": 11.2558
   },
@@ -1030,22 +1436,20 @@
    "title": "Florentines line up for a sandwich of cow’s fourth stomach",
    "type": "video",
    "place": "Mercato Centrale food market",
+   "url": "https://youtu.be/5oj9anCu1E0",
+   "creator": null,
+   "channel": "Munchies",
    "lat": 43.7764,
    "lon": 11.2533
-  },
-  {
-   "id": "1kA8g4nbdKhihmAC4WWopZ",
-   "title": "A whole Renaissance city still packed inside its old walls",
-   "type": "video",
-   "place": "Duomo cathedral (Santa Maria del Fiore)",
-   "lat": 43.7731,
-   "lon": 11.256
   },
   {
    "id": "5jkAQ5LvRtnSDPsSg5yVhO",
    "title": "Goldsmiths keep shop on the one bridge the Germans spared",
    "type": "video",
    "place": "Ponte Vecchio bridge",
+   "url": "https://youtu.be/sfvTY4CqloM",
+   "creator": null,
+   "channel": "DW Euromaxx",
    "lat": 43.768,
    "lon": 11.2531
   },
@@ -1054,6 +1458,9 @@
    "title": "The Medici offices become the world’s first great picture gallery",
    "type": "video",
    "place": "Uffizi Gallery",
+   "url": "https://youtu.be/61uXUxmpKWg",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 43.7677,
    "lon": 11.2554
   },
@@ -1062,6 +1469,9 @@
    "title": "An arcade for abandoned babies sets the Renaissance in motion",
    "type": "video",
    "place": "Ospedale degli Innocenti (Foundling Hospital)",
+   "url": "https://youtu.be/ppHw6cqhgaw",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 43.7762,
    "lon": 11.2611
   },
@@ -1070,16 +1480,11 @@
    "title": "Galileo’s finger points skyward from a glass reliquary",
    "type": "video",
    "place": "Museo Galileo science museum",
+   "url": "https://youtu.be/hC2yvfiOC7c",
+   "creator": null,
+   "channel": "Atlas Obscura",
    "lat": 43.7677,
    "lon": 11.256
-  },
-  {
-   "id": "4Y9eNR6ZzQo4DuggBkEZ2c",
-   "title": "A private corridor lets the Medici cross the river unseen",
-   "type": "video",
-   "place": "Vasari Corridor, Ponte Vecchio",
-   "lat": 43.768,
-   "lon": 11.2531
   }
  ]
 }

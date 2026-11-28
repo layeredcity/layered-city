@@ -2,402 +2,222 @@
  "city": "Glasgow",
  "pins": [
   {
-   "id": "7o2entZUBPFAhxDRlpbWxx",
-   "title": "Stroll Through Time: A Walking Tour of Glasgow’s West End",
-   "type": "audiotour",
-   "place": "Hillhead subway station",
-   "lat": 55.8752,
-   "lon": -4.2936
-  },
-  {
-   "id": "nCLJUWPsKn4izVsfc3MXQ",
-   "title": "Ghouls and Gruesome Tales: A Glasgow Ghost tour with Where Now",
-   "type": "audiotour",
-   "place": "George Square",
-   "lat": 55.8611,
-   "lon": -4.2496
-  },
-  {
-   "id": "7yCLdjRxWnTZLUYsDvl7EN",
-   "title": "Glasgow: The Merchant City",
-   "type": "audiotour",
-   "place": "George Square",
-   "lat": 55.8612,
-   "lon": -4.2502
-  },
-  {
-   "id": "6MZsqy4a7si14duthTOsps",
-   "title": "Glasgow through the ages: A sightseeing walk from the Cathedral to Glasgow Green",
-   "type": "audiotour",
-   "place": "Glasgow Cathedral",
-   "lat": 55.8627,
-   "lon": -4.2355
-  },
-  {
-   "id": "19Cke1BPNNSLYy7XdYedXo",
-   "title": "Religion, Ireland and ninety minutes of football",
+   "id": "6vn5aQ88lRgvcDMZf6fUeg",
+   "title": "A shipowner’s 9,000 objects in a glass-walled park museum",
    "type": "video",
-   "place": "Celtic Park",
-   "lat": 55.8497,
-   "lon": -4.2055
-  },
-  {
-   "id": "27jjBOoKwWNOT7jrVUecYt",
-   "title": "The only house left from medieval Glasgow",
-   "type": "video",
-   "place": "Provan’s Lordship",
-   "lat": 55.8624,
-   "lon": -4.2364
-  },
-  {
-   "id": "1EFeNIfDJJcHgfaAi2YTDz",
-   "title": "The rent strike that beat Glasgow’s landlords",
-   "type": "video",
-   "place": "Mary Barbour statue, Govan Cross",
-   "lat": 55.8623,
-   "lon": -4.3112
-  },
-  {
-   "id": "2LMAzQ2GeLZEDOBn5Qskbt",
-   "title": "Why the Duke wears a traffic cone",
-   "type": "video",
-   "place": "Duke of Wellington statue, Royal Exchange Square",
-   "lat": 55.8603,
-   "lon": -4.2523
-  },
-  {
-   "id": "6UnALklo0wv5TwNjdOndJp",
-   "title": "A century of the Barras",
-   "type": "video",
-   "place": "Barras market, Gallowgate",
-   "lat": 55.8547,
-   "lon": -4.2393
-  },
-  {
-   "id": "4Whua6g8WU0KIFpSkAAsIo",
-   "title": "A hill of Victorian merchants’ monuments",
-   "type": "video",
-   "place": "Glasgow Necropolis",
-   "lat": 55.8617,
-   "lon": -4.23
-  },
-  {
-   "id": "17J6YflRjp0SUbG6RYIQQW",
-   "title": "Miss Cranston’s tea rooms, restored",
-   "type": "video",
-   "place": "Mackintosh at the Willow, Sauchiehall Street",
-   "lat": 55.8652,
-   "lon": -4.2607
+   "place": "Burrell Collection, Pollok Country Park",
+   "url": "https://www.youtube.com/watch?v=jw7o1IJXEqk",
+   "creator": null,
+   "channel": "STV News",
+   "lat": 55.8306,
+   "lon": -4.3121
   },
   {
    "id": "77g6MYAynLzmJ2I6Y6IM3t",
    "title": "A tenement flat left as it was in 1965",
    "type": "video",
    "place": "The Tenement House, Buccleuch Street",
+   "url": "https://www.youtube.com/watch?v=ijVCynCdnRY",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 55.8674,
    "lon": -4.2651
   },
   {
+   "id": "19Cke1BPNNSLYy7XdYedXo",
+   "title": "Religion, Ireland, and ninety minutes of football",
+   "type": "video",
+   "place": "Celtic Park",
+   "url": "https://www.youtube.com/watch?v=0_YgyNN6EnI",
+   "creator": null,
+   "channel": "The Department of Information",
+   "lat": 55.8497,
+   "lon": -4.2055
+  },
+  {
    "id": "5trcVYxlKClhzVrJgdez3p",
-   "title": "Trams, locomotives and a tall ship on the riverbank",
+   "title": "Trams, locomotives, and a tall ship on the riverbank",
    "type": "video",
    "place": "Riverside Museum",
+   "url": "https://www.youtube.com/watch?v=7snOXhaR6sw",
+   "creator": null,
+   "channel": "Daily Record",
    "lat": 55.8653,
    "lon": -4.3064
   },
   {
-   "id": "6vn5aQ88lRgvcDMZf6fUeg",
-   "title": "A shipowner’s 9,000 objects in a glass-walled park museum",
-   "type": "video",
-   "place": "Burrell Collection, Pollok Country Park",
-   "lat": 55.8306,
-   "lon": -4.3121
+   "id": "4SWfuAg9cSQEpAT34HcrOb",
+   "title": "It Wisnae Us: The Truth About Glasgow and Slavery",
+   "type": "book",
+   "place": "Gallery of Modern Art, Royal Exchange Square",
+   "url": "https://goodreads.com/search?q=Stephen+Mullen+It+Wisnae+Us%3A+The+Truth+About+Glasgow+and+Slavery",
+   "creator": "Stephen Mullen",
+   "channel": null,
+   "lat": 55.8603,
+   "lon": -4.2522
   },
   {
-   "id": "5Cji3miTq1QvzMQvPOPZH7",
-   "title": "Repairing a medieval cathedral the medieval way",
-   "type": "video",
-   "place": "Glasgow Cathedral",
-   "lat": 55.8633,
-   "lon": -4.234
-  },
-  {
-   "id": "3Y4l7uvaIVjZz2dpdOTxs3",
-   "title": "Virginia leaf and the merchants who grew rich on it",
-   "type": "video",
-   "place": "Tobacco Merchant’s House, Miller Street",
-   "lat": 55.8594,
-   "lon": -4.2489
-  },
-  {
-   "id": "1xYZlm4VUHr0LUjYpqlfBy",
-   "title": "A museum of ordinary Glaswegian life",
-   "type": "video",
-   "place": "People’s Palace, Glasgow Green",
-   "lat": 55.8516,
-   "lon": -4.237
-  },
-  {
-   "id": "7I0WQ2LiHqIReFmTUixypv",
-   "title": "Building the QE2 in the last great Clyde yard",
-   "type": "video",
-   "place": "John Brown shipyard, Clydebank",
-   "lat": 55.8988,
-   "lon": -4.4036
-  },
-  {
-   "id": "3jpuFfEYmazd093HFsncz6",
-   "title": "The world’s third-oldest underground, still one small circle",
-   "type": "video",
-   "place": "St Enoch subway station",
-   "lat": 55.8571,
-   "lon": -4.2559
-  },
-  {
-   "id": "6SHLBXwIOsEYipCO64Rz8B",
-   "title": "Gable-end murals across the city centre",
-   "type": "video",
-   "place": "St Mungo mural, High Street",
-   "lat": 55.8598,
-   "lon": -4.2387
-  },
-  {
-   "id": "kSwmZSKjWTDIUfp16KYGg",
-   "title": "The pedestrian spine of the Victorian city centre",
-   "type": "video",
-   "place": "Buchanan Street",
-   "lat": 55.8615,
-   "lon": -4.254
-  },
-  {
-   "id": "7ok1FUTPzB50g727H3r9mv",
-   "title": "A sandstone palace of art built for an exhibition",
-   "type": "video",
-   "place": "Kelvingrove Art Gallery and Museum",
-   "lat": 55.8686,
-   "lon": -4.2906
-  },
-  {
-   "id": "R5oKYPGmQuNm3E1JWl8dR",
-   "title": "The restaurant that claims chicken tikka masala",
-   "type": "podcast",
-   "place": "Shish Mahal restaurant, Park Road",
-   "lat": 55.8737,
-   "lon": -4.281
-  },
-  {
-   "id": "5mZVnjjErPn5kYxhtgzNkr",
-   "title": "Suffragette bodyguards against the Glasgow police",
-   "type": "podcast",
-   "place": "St Andrew’s Halls, Granville Street",
-   "lat": 55.865,
-   "lon": -4.2716
-  },
-  {
-   "id": "7H5KCm1dsmLDGBj7HMMC6Y",
-   "title": "Hundreds of children hunt a vampire in a graveyard",
-   "type": "podcast",
-   "place": "Southern Necropolis",
-   "lat": 55.8466,
-   "lon": -4.2471
-  },
-  {
-   "id": "5YlSw3igtXkPKblXxhABzU",
-   "title": "From the Gorbals to guarding Abraham Lincoln",
-   "type": "podcast",
-   "place": "Gorbals",
-   "lat": 55.8508,
-   "lon": -4.2489
-  },
-  {
-   "id": "2DSSIrhAGO47V5zLE3V8Bv",
-   "title": "The speech the New York Times compared to Gettysburg",
-   "type": "podcast",
-   "place": "University of Glasgow main building",
-   "lat": 55.8716,
-   "lon": -4.2884
-  },
-  {
-   "id": "sQmlLn2L8zr7xvP2jOZrF",
-   "title": "A ship launched with its builders aboard",
-   "type": "podcast",
-   "place": "Linthouse shipyard site",
-   "lat": 55.866,
-   "lon": -4.329
-  },
-  {
-   "id": "4UZI4cdMtoNImIRU8IjzXT",
-   "title": "The novelist who painted the city’s ceilings",
-   "type": "podcast",
-   "place": "Òran Mór, Byres Road",
-   "lat": 55.8752,
-   "lon": -4.2928
-  },
-  {
-   "id": "2D1GHsr8gXDRyD3CKIzsqH",
-   "title": "A modernist world’s fair in a south side park",
-   "type": "podcast",
-   "place": "Bellahouston Park",
-   "lat": 55.8487,
-   "lon": -4.3162
-  },
-  {
-   "id": "72HQTljhlrXQqoxG4LCTrr",
-   "title": "Photographing the slums before the demolition crews",
-   "type": "podcast",
-   "place": "Saltmarket",
-   "lat": 55.8556,
-   "lon": -4.2443
-  },
-  {
-   "id": "71F1rV71KdNIhDchsn3VBC",
-   "title": "How Glasgow taught the world to pass",
-   "type": "podcast",
-   "place": "Hampden Park",
-   "lat": 55.8258,
-   "lon": -4.252
-  },
-  {
-   "id": "4dRqgAdCkLzOGR5ROf20Ye",
-   "title": "A dance hall built by a market queen",
-   "type": "podcast",
-   "place": "Barrowland Ballroom",
-   "lat": 55.8558,
-   "lon": -4.2361
-  },
-  {
-   "id": "54eZ37S1lckewP7qyr9XSl",
-   "title": "The wife Mackintosh said was three-quarters of his work",
-   "type": "podcast",
-   "place": "The Mackintosh House, Hunterian Art Gallery",
-   "lat": 55.8734,
-   "lon": -4.2878
-  },
-  {
-   "id": "2450Lllf8H1O7yxCmxEAMQ",
-   "title": "The art school that burned twice",
-   "type": "podcast",
-   "place": "Glasgow School of Art, Mackintosh Building",
-   "lat": 55.8663,
-   "lon": -4.2637
-  },
-  {
-   "id": "5s7vFHkw654B6Eh9Yl3w47",
-   "title": "Tanks in the city after a riot in the main square",
-   "type": "podcast",
-   "place": "George Square",
-   "lat": 55.8611,
-   "lon": -4.2502
-  },
-  {
-   "id": "7KwbKFe7ItiMTh6bP2yx2z",
-   "title": "Shipyard workers refuse to let their yards close",
-   "type": "podcast",
-   "place": "Fairfield shipyard, Govan",
-   "lat": 55.8637,
-   "lon": -4.3168
-  },
-  {
-   "id": "4nziSgFiJeUDFwljTuJSEZ",
-   "title": "Art therapy for the most violent men in Scotland’s prisons",
-   "type": "podcast",
-   "place": "Barlinnie Prison",
-   "lat": 55.8781,
-   "lon": -4.1825
-  },
-  {
-   "id": "6j4VKhhsClhaEkMGRWRI1p",
-   "title": "Sixty-six fans die on a stairway after a New Year derby",
-   "type": "podcast",
-   "place": "Ibrox Stadium",
-   "lat": 55.853,
-   "lon": -4.3092
+   "id": "4gnkZRWhuyDAYWwuJvp4Zt",
+   "title": "Taggart",
+   "type": "tv",
+   "place": "Glasgow Necropolis",
+   "url": "https://www.justwatch.com/us/search?q=Taggart",
+   "creator": "Glenn Chandler",
+   "channel": null,
+   "lat": 55.8625,
+   "lon": -4.2318
   },
   {
    "id": "2vaNujV6jUXk68juAQczGZ",
    "title": "Saint, cathedral, trading port, workshop of the Empire",
    "type": "podcast",
    "place": "Glasgow Cathedral",
+   "url": "https://podcasts.apple.com/us/podcast/glasgow/id1660929072?i=1000756162886",
+   "creator": null,
+   "channel": "History’s Greatest Cities",
    "lat": 55.8629,
    "lon": -4.2346
   },
   {
-   "id": "1JnvU3oxvhgwl3f4N6eZJp",
-   "title": "Tobacco fortunes and the streets they built",
+   "id": "6j4VKhhsClhaEkMGRWRI1p",
+   "title": "Sixty-six fans die on a stairway after a New Year derby",
    "type": "podcast",
-   "place": "Merchant City",
-   "lat": 55.8595,
-   "lon": -4.2445
+   "place": "Ibrox Stadium",
+   "url": "https://podcasts.apple.com/us/podcast/the-ibrox-disaster-january-1971/id1501528591?i=1000518805045",
+   "creator": null,
+   "channel": "Only Our Rivers Run Free!",
+   "lat": 55.853,
+   "lon": -4.3092
   },
   {
-   "id": "1YvnYCTH11tUfsDmgloCph",
-   "title": "The Mother We Share",
-   "type": "music",
-   "place": "University of Strathclyde",
-   "lat": 55.8621,
-   "lon": -4.242
+   "id": "5s7vFHkw654B6Eh9Yl3w47",
+   "title": "Tanks in the city after a riot in the main square",
+   "type": "podcast",
+   "place": "George Square",
+   "url": "https://podcasts.apple.com/us/podcast/versus-history-92-battle-of-george-square-1919/id1300269710?i=1000465654558",
+   "creator": null,
+   "channel": "Versus History Podcast",
+   "lat": 55.8611,
+   "lon": -4.2502
   },
   {
-   "id": "44EHYJd5wGXtfnCG7KNvji",
-   "title": "Geraldine",
-   "type": "music",
-   "place": "Dalmarnock",
-   "lat": 55.8433,
-   "lon": -4.2127
+   "id": "2DSSIrhAGO47V5zLE3V8Bv",
+   "title": "The speech the New York Times compared to Gettysburg",
+   "type": "podcast",
+   "place": "University of Glasgow main building",
+   "url": "https://podcasts.apple.com/us/podcast/a-rat-race-is-for-rats-kenny-macaskill-mp-on-jimmy/id1510533157?i=1000568230205",
+   "creator": null,
+   "channel": "Speakola",
+   "lat": 55.8716,
+   "lon": -4.2884
   },
   {
-   "id": "5UXApyiI3kjpjI79bYxmhb",
-   "title": "Take Me Out",
-   "type": "music",
-   "place": "13th Note, King Street",
-   "lat": 55.8565,
-   "lon": -4.2466
+   "id": "7H5KCm1dsmLDGBj7HMMC6Y",
+   "title": "Hundreds of children hunt a vampire in a graveyard",
+   "type": "podcast",
+   "place": "Southern Necropolis",
+   "url": "https://podcasts.apple.com/us/podcast/the-iron-man-of-gorbals-the-gorbals-vampire/id1732925558?i=1000661425571",
+   "creator": null,
+   "channel": "The Hebejeebies Podcast",
+   "lat": 55.8466,
+   "lon": -4.2471
+  },
+  {
+   "id": "5mZVnjjErPn5kYxhtgzNkr",
+   "title": "Suffragette bodyguards against the Glasgow police",
+   "type": "podcast",
+   "place": "St. Andrew’s Halls, Granville Street",
+   "url": "https://podcasts.apple.com/us/podcast/deeds-not-words-suffragettes-suffrajitsu-in-glasgow/id1443659705?i=1000507229287",
+   "creator": null,
+   "channel": "Scottish History Out of Order",
+   "lat": 55.865,
+   "lon": -4.2716
+  },
+  {
+   "id": "7ok1FUTPzB50g727H3r9mv",
+   "title": "A sandstone palace of art built for an exhibition",
+   "type": "video",
+   "place": "Kelvingrove Art Gallery and Museum",
+   "url": "https://www.youtube.com/watch?v=r3bWOwY46lw",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 55.8686,
+   "lon": -4.2906
+  },
+  {
+   "id": "kSwmZSKjWTDIUfp16KYGg",
+   "title": "The pedestrian spine of the Victorian city center",
+   "type": "video",
+   "place": "Buchanan Street",
+   "url": "https://www.youtube.com/watch?v=OWpQ9Pa-4QU",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 55.8615,
+   "lon": -4.254
+  },
+  {
+   "id": "6SHLBXwIOsEYipCO64Rz8B",
+   "title": "Gable-end murals across the city center",
+   "type": "video",
+   "place": "St. Mungo mural, High Street",
+   "url": "https://www.youtube.com/watch?v=mQrP_-tKRqE",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 55.8598,
+   "lon": -4.2387
+  },
+  {
+   "id": "3jpuFfEYmazd093HFsncz6",
+   "title": "The world’s third-oldest underground, still one small circle",
+   "type": "video",
+   "place": "St. Enoch subway station",
+   "url": "https://www.youtube.com/watch?v=vGD-sSOjdc8",
+   "creator": null,
+   "channel": "Geoff Marshall",
+   "lat": 55.8571,
+   "lon": -4.2559
+  },
+  {
+   "id": "5Cji3miTq1QvzMQvPOPZH7",
+   "title": "Repairing a medieval cathedral the medieval way",
+   "type": "video",
+   "place": "Glasgow Cathedral",
+   "url": "https://www.youtube.com/watch?v=vTT5AHtZ_cw",
+   "creator": null,
+   "channel": "Historic Environment Scotland",
+   "lat": 55.8633,
+   "lon": -4.234
+  },
+  {
+   "id": "6MZsqy4a7si14duthTOsps",
+   "title": "Glasgow through the ages: A sightseeing walk from the Cathedral to Glasgow Green",
+   "type": "audiotour",
+   "place": "Glasgow Cathedral",
+   "url": "https://voicemap.me/tour/glasgow/glasgow-through-the-ages-a-sightseeing-walk-from-the-cathedral-to-glasgow-green",
+   "creator": null,
+   "channel": null,
+   "lat": 55.8627,
+   "lon": -4.2355
   },
   {
    "id": "455cIwTAqckaxZk7zRldHy",
    "title": "Why Does It Always Rain on Me?",
    "type": "music",
    "place": "Glasgow School of Art",
+   "url": "https://open.spotify.com/search/Travis%20Why%20Does%20It%20Always%20Rain%20on%20Me%3F",
+   "creator": "Travis",
+   "channel": null,
    "lat": 55.8663,
    "lon": -4.2637
-  },
-  {
-   "id": "7BrqmmPgprRKJyP01ssHuq",
-   "title": "The State I Am In",
-   "type": "music",
-   "place": "Stow College, Cowcaddens",
-   "lat": 55.8676,
-   "lon": -4.26
-  },
-  {
-   "id": "4S5Uw5j48Crqpch95R1v8P",
-   "title": "The Concept",
-   "type": "music",
-   "place": "Bellshill",
-   "lat": 55.8164,
-   "lon": -4.0262
-  },
-  {
-   "id": "2RZspylOjLpAOz8v2XvLKr",
-   "title": "Dignity",
-   "type": "music",
-   "place": "City Chambers, George Square",
-   "lat": 55.861,
-   "lon": -4.2496
-  },
-  {
-   "id": "2R1r6tcYXKiKJHjjt78Zkm",
-   "title": "Tinseltown in the Rain",
-   "type": "music",
-   "place": "University of Glasgow main building",
-   "lat": 55.8721,
-   "lon": -4.2882
   },
   {
    "id": "7qSdUM3WbdUib0fkhG8OLk",
    "title": "Waterfront",
    "type": "music",
    "place": "Barrowland Ballroom",
+   "url": "https://open.spotify.com/search/Simple%20Minds%20Waterfront",
+   "creator": "Simple Minds",
+   "channel": null,
    "lat": 55.8553,
    "lon": -4.2366
   },
@@ -406,6 +226,9 @@
    "title": "Blue Boy",
    "type": "music",
    "place": "West Princes Street, Woodlands",
+   "url": "https://open.spotify.com/search/Orange%20Juice%20Blue%20Boy",
+   "creator": "Orange Juice",
+   "channel": null,
    "lat": 55.8726,
    "lon": -4.275
   },
@@ -414,86 +237,53 @@
    "title": "Delilah",
    "type": "music",
    "place": "Gorbals",
+   "url": "https://open.spotify.com/search/The%20Sensational%20Alex%20Harvey%20Band%20Delilah",
+   "creator": "The Sensational Alex Harvey Band",
+   "channel": null,
    "lat": 55.849,
    "lon": -4.252
   },
   {
-   "id": "2zkNDVyfeHnhn90FwpMKYt",
-   "title": "The Jeely Piece Song",
-   "type": "music",
-   "place": "Red Road flats site, Balornock",
-   "lat": 55.8822,
-   "lon": -4.2194
+   "id": "6RCsYerI3DBfCIHkTJsqBN",
+   "title": "Shuggie Bain",
+   "type": "book",
+   "place": "Sighthill neighborhood",
+   "url": "https://goodreads.com/search?q=Douglas+Stuart+Shuggie+Bain",
+   "creator": "Douglas Stuart",
+   "channel": null,
+   "lat": 55.872,
+   "lon": -4.238
   },
   {
-   "id": "3OrCoxprMxStjBM9v4J7PV",
-   "title": "Shout",
-   "type": "music",
-   "place": "Duke Street, Dennistoun",
-   "lat": 55.8597,
-   "lon": -4.2155
+   "id": "7szXCbZTrPuCRxEhrCJe96",
+   "title": "Lanark",
+   "type": "book",
+   "place": "Riddrie housing scheme",
+   "url": "https://goodreads.com/search?q=Alasdair+Gray+Lanark",
+   "creator": "Alasdair Gray",
+   "channel": null,
+   "lat": 55.8687,
+   "lon": -4.1946
   },
   {
-   "id": "2eTqhWtosehccdwPjZxypW",
-   "title": "Rock Island Line",
-   "type": "music",
-   "place": "Bridgeton Cross",
-   "lat": 55.8494,
-   "lon": -4.2264
-  },
-  {
-   "id": "2erN1BtbS4HXAUatP2pFTV",
-   "title": "I Belong to Glasgow",
-   "type": "music",
-   "place": "Glasgow Central Station",
-   "lat": 55.8599,
-   "lon": -4.2577
-  },
-  {
-   "id": "2krc5SwP2sE1BAQdfbQ3o5",
-   "title": "The Angels’ Share",
-   "type": "movie",
-   "place": "Glasgow Sheriff Court",
-   "lat": 55.8547,
-   "lon": -4.2528
-  },
-  {
-   "id": "3APIzVSDi6C1yM0PVZVmmf",
-   "title": "Rab C. Nesbitt",
-   "type": "tv",
-   "place": "Govan Road, Govan",
-   "lat": 55.8618,
-   "lon": -4.306
-  },
-  {
-   "id": "6TzEHEC0UHqIIwvkM3Vey5",
-   "title": "Under the Skin",
-   "type": "movie",
-   "place": "Argyle Street",
-   "lat": 55.859,
-   "lon": -4.254
-  },
-  {
-   "id": "4UL8lVqLL2y1odW7nkLIP8",
-   "title": "Red Road",
-   "type": "movie",
-   "place": "Site of the Red Road flats",
-   "lat": 55.877,
-   "lon": -4.214
-  },
-  {
-   "id": "7kF5WyGjSuT5LU2BczYByb",
-   "title": "Still Game",
-   "type": "tv",
-   "place": "OVO Hydro arena",
-   "lat": 55.8603,
-   "lon": -4.2853
+   "id": "2f9O3dJgPc3AHOX69jaoIP",
+   "title": "Growing Up in the Gorbals",
+   "type": "book",
+   "place": "Gorbals neighborhood",
+   "url": "https://goodreads.com/search?q=Ralph+Glasser+Growing+Up+in+the+Gorbals",
+   "creator": "Ralph Glasser",
+   "channel": null,
+   "lat": 55.8496,
+   "lon": -4.2533
   },
   {
    "id": "7w93B6PTIBGHLiTpHdXGGK",
    "title": "My Name Is Joe",
    "type": "movie",
-   "place": "Ruchill neighbourhood",
+   "place": "Ruchill neighborhood",
+   "url": "https://www.justwatch.com/us/search?q=My%20Name%20Is%20Joe",
+   "creator": "Ken Loach",
+   "channel": null,
    "lat": 55.886,
    "lon": -4.27
   },
@@ -502,22 +292,20 @@
    "title": "Comfort and Joy",
    "type": "movie",
    "place": "Ruchazie housing scheme",
+   "url": "https://www.justwatch.com/us/search?q=Comfort%20and%20Joy",
+   "creator": "Bill Forsyth",
+   "channel": null,
    "lat": 55.8706,
    "lon": -4.1735
-  },
-  {
-   "id": "4gnkZRWhuyDAYWwuJvp4Zt",
-   "title": "Taggart",
-   "type": "tv",
-   "place": "Glasgow Necropolis",
-   "lat": 55.8625,
-   "lon": -4.2318
   },
   {
    "id": "1rc0HHoZc9L6HI1MCK9jzI",
    "title": "Ratcatcher",
    "type": "movie",
    "place": "Forth and Clyde Canal, Maryhill",
+   "url": "https://www.justwatch.com/us/search?q=Ratcatcher",
+   "creator": "Lynne Ramsay",
+   "channel": null,
    "lat": 55.89,
    "lon": -4.295
   },
@@ -526,96 +314,539 @@
    "title": "Small Faces",
    "type": "movie",
    "place": "Kelvingrove Art Gallery and Museum",
+   "url": "https://www.justwatch.com/us/search?q=Small%20Faces",
+   "creator": "Gillies MacKinnon",
+   "channel": null,
    "lat": 55.8686,
    "lon": -4.2906
   },
   {
-   "id": "6RCsYerI3DBfCIHkTJsqBN",
-   "title": "Shuggie Bain",
-   "type": "book",
-   "place": "Sighthill neighbourhood",
-   "lat": 55.872,
-   "lon": -4.238
+   "id": "4UL8lVqLL2y1odW7nkLIP8",
+   "title": "Red Road",
+   "type": "movie",
+   "place": "Site of the Red Road flats",
+   "url": "https://www.justwatch.com/us/search?q=Red%20Road",
+   "creator": "Andrea Arnold",
+   "channel": null,
+   "lat": 55.877,
+   "lon": -4.214
   },
   {
-   "id": "6xxE0zHElqEuyPI23dD7SQ",
-   "title": "Laidlaw",
-   "type": "book",
-   "place": "Kelvingrove Park",
-   "lat": 55.8689,
-   "lon": -4.283
+   "id": "6TzEHEC0UHqIIwvkM3Vey5",
+   "title": "Under the Skin",
+   "type": "movie",
+   "place": "Argyle Street",
+   "url": "https://www.justwatch.com/us/search?q=Under%20the%20Skin",
+   "creator": "Jonathan Glazer",
+   "channel": null,
+   "lat": 55.859,
+   "lon": -4.254
   },
   {
-   "id": "7a9gTEN44XyWoisUDP5ZFY",
-   "title": "Jock Stein: The Definitive Biography",
-   "type": "book",
-   "place": "Celtic Park football stadium",
-   "lat": 55.8497,
-   "lon": -4.2055
-  },
-  {
-   "id": "6WlXO2xzykZv8Ea74lRzGj",
-   "title": "New Selected Poems",
-   "type": "book",
-   "place": "Glasgow Green park",
-   "lat": 55.8505,
-   "lon": -4.2385
-  },
-  {
-   "id": "SSvTKn8QPIRDSVQMjjS1S",
-   "title": "Windswept & Interesting",
-   "type": "book",
-   "place": "Site of Alexander Stephen & Sons shipyard, Linthouse",
-   "lat": 55.8636,
-   "lon": -4.327
-  },
-  {
-   "id": "7szXCbZTrPuCRxEhrCJe96",
-   "title": "Lanark",
-   "type": "book",
-   "place": "Riddrie housing scheme",
-   "lat": 55.8687,
-   "lon": -4.1946
-  },
-  {
-   "id": "2f9O3dJgPc3AHOX69jaoIP",
-   "title": "Growing Up in the Gorbals",
-   "type": "book",
-   "place": "Gorbals neighbourhood",
-   "lat": 55.8496,
-   "lon": -4.2533
-  },
-  {
-   "id": "6Jq11h6QiFuQKey15pIl2G",
-   "title": "When the Clyde Ran Red: A Social History of Red Clydeside",
-   "type": "book",
-   "place": "Mary Barbour statue, Govan Cross",
-   "lat": 55.8622,
-   "lon": -4.3118
-  },
-  {
-   "id": "2djr3SrlliPkWj9HTFPsap",
-   "title": "Tea and Taste: The Glasgow Tea Rooms 1875–1975",
-   "type": "book",
-   "place": "Willow Tea Rooms building, Sauchiehall Street",
-   "lat": 55.8652,
-   "lon": -4.261
+   "id": "2krc5SwP2sE1BAQdfbQ3o5",
+   "title": "The Angels’ Share",
+   "type": "movie",
+   "place": "Glasgow Sheriff Court",
+   "url": "https://www.justwatch.com/us/search?q=The%20Angels%E2%80%99%20Share",
+   "creator": "Ken Loach",
+   "channel": null,
+   "lat": 55.8547,
+   "lon": -4.2528
   },
   {
    "id": "1yZ6iDXb1tk8oaASBs6YsD",
    "title": "Charles Rennie Mackintosh",
    "type": "book",
    "place": "Glasgow School of Art, Mackintosh Building",
+   "url": "https://goodreads.com/search?q=Alan+Crawford+Charles+Rennie+Mackintosh",
+   "creator": "Alan Crawford",
+   "channel": null,
    "lat": 55.8664,
    "lon": -4.2637
   },
   {
-   "id": "4SWfuAg9cSQEpAT34HcrOb",
-   "title": "It Wisnae Us: The Truth About Glasgow and Slavery",
+   "id": "6Jq11h6QiFuQKey15pIl2G",
+   "title": "When the Clyde Ran Red: A Social History of Red Clydeside",
    "type": "book",
-   "place": "Gallery of Modern Art, Royal Exchange Square",
+   "place": "Mary Barbour statue, Govan Cross",
+   "url": "https://goodreads.com/search?q=Maggie+Craig+When+the+Clyde+Ran+Red%3A+A+Social+History+of+Red+Clydeside",
+   "creator": "Maggie Craig",
+   "channel": null,
+   "lat": 55.8622,
+   "lon": -4.3118
+  },
+  {
+   "id": "SSvTKn8QPIRDSVQMjjS1S",
+   "title": "Windswept & Interesting",
+   "type": "book",
+   "place": "Site of Alexander Stephen & Sons shipyard, Linthouse",
+   "url": "https://goodreads.com/search?q=Billy+Connolly+Windswept+%26+Interesting",
+   "creator": "Billy Connolly",
+   "channel": null,
+   "lat": 55.8636,
+   "lon": -4.327
+  },
+  {
+   "id": "6WlXO2xzykZv8Ea74lRzGj",
+   "title": "New Selected Poems",
+   "type": "book",
+   "place": "Glasgow Green park",
+   "url": "https://goodreads.com/search?q=Edwin+Morgan+New+Selected+Poems",
+   "creator": "Edwin Morgan",
+   "channel": null,
+   "lat": 55.8505,
+   "lon": -4.2385
+  },
+  {
+   "id": "7a9gTEN44XyWoisUDP5ZFY",
+   "title": "Jock Stein: The Definitive Biography",
+   "type": "book",
+   "place": "Celtic Park football stadium",
+   "url": "https://goodreads.com/search?q=Archie+Macpherson+Jock+Stein%3A+The+Definitive+Biography",
+   "creator": "Archie Macpherson",
+   "channel": null,
+   "lat": 55.8497,
+   "lon": -4.2055
+  },
+  {
+   "id": "6xxE0zHElqEuyPI23dD7SQ",
+   "title": "Laidlaw",
+   "type": "book",
+   "place": "Kelvingrove Park",
+   "url": "https://goodreads.com/search?q=William+McIlvanney+Laidlaw",
+   "creator": "William McIlvanney",
+   "channel": null,
+   "lat": 55.8689,
+   "lon": -4.283
+  },
+  {
+   "id": "2erN1BtbS4HXAUatP2pFTV",
+   "title": "I Belong to Glasgow",
+   "type": "music",
+   "place": "Glasgow Central Station",
+   "url": "https://open.spotify.com/search/Will%20Fyffe%20I%20Belong%20to%20Glasgow",
+   "creator": "Will Fyffe",
+   "channel": null,
+   "lat": 55.8599,
+   "lon": -4.2577
+  },
+  {
+   "id": "2eTqhWtosehccdwPjZxypW",
+   "title": "Rock Island Line",
+   "type": "music",
+   "place": "Bridgeton Cross",
+   "url": "https://open.spotify.com/search/Lonnie%20Donegan%20Rock%20Island%20Line",
+   "creator": "Lonnie Donegan",
+   "channel": null,
+   "lat": 55.8494,
+   "lon": -4.2264
+  },
+  {
+   "id": "3OrCoxprMxStjBM9v4J7PV",
+   "title": "Shout",
+   "type": "music",
+   "place": "Duke Street, Dennistoun",
+   "url": "https://open.spotify.com/search/Lulu%20and%20the%20Luvvers%20Shout",
+   "creator": "Lulu and the Luvvers",
+   "channel": null,
+   "lat": 55.8597,
+   "lon": -4.2155
+  },
+  {
+   "id": "2zkNDVyfeHnhn90FwpMKYt",
+   "title": "The Jeely Piece Song",
+   "type": "music",
+   "place": "Red Road flats site, Balornock",
+   "url": "https://open.spotify.com/search/Adam%20McNaughtan%20The%20Jeely%20Piece%20Song",
+   "creator": "Adam McNaughtan",
+   "channel": null,
+   "lat": 55.8822,
+   "lon": -4.2194
+  },
+  {
+   "id": "2R1r6tcYXKiKJHjjt78Zkm",
+   "title": "Tinseltown in the Rain",
+   "type": "music",
+   "place": "University of Glasgow main building",
+   "url": "https://open.spotify.com/search/The%20Blue%20Nile%20Tinseltown%20in%20the%20Rain",
+   "creator": "The Blue Nile",
+   "channel": null,
+   "lat": 55.8721,
+   "lon": -4.2882
+  },
+  {
+   "id": "2RZspylOjLpAOz8v2XvLKr",
+   "title": "Dignity",
+   "type": "music",
+   "place": "City Chambers, George Square",
+   "url": "https://open.spotify.com/search/Deacon%20Blue%20Dignity",
+   "creator": "Deacon Blue",
+   "channel": null,
+   "lat": 55.861,
+   "lon": -4.2496
+  },
+  {
+   "id": "4S5Uw5j48Crqpch95R1v8P",
+   "title": "The Concept",
+   "type": "music",
+   "place": "Bellshill",
+   "url": "https://open.spotify.com/search/Teenage%20Fanclub%20The%20Concept",
+   "creator": "Teenage Fanclub",
+   "channel": null,
+   "lat": 55.8164,
+   "lon": -4.0262
+  },
+  {
+   "id": "7BrqmmPgprRKJyP01ssHuq",
+   "title": "The State I Am In",
+   "type": "music",
+   "place": "Stow College, Cowcaddens",
+   "url": "https://open.spotify.com/search/Belle%20and%20Sebastian%20The%20State%20I%20Am%20In",
+   "creator": "Belle and Sebastian",
+   "channel": null,
+   "lat": 55.8676,
+   "lon": -4.26
+  },
+  {
+   "id": "5UXApyiI3kjpjI79bYxmhb",
+   "title": "Take Me Out",
+   "type": "music",
+   "place": "13th Note, King Street",
+   "url": "https://open.spotify.com/search/Franz%20Ferdinand%20Take%20Me%20Out",
+   "creator": "Franz Ferdinand",
+   "channel": null,
+   "lat": 55.8565,
+   "lon": -4.2466
+  },
+  {
+   "id": "44EHYJd5wGXtfnCG7KNvji",
+   "title": "Geraldine",
+   "type": "music",
+   "place": "Dalmarnock",
+   "url": "https://open.spotify.com/search/Glasvegas%20Geraldine",
+   "creator": "Glasvegas",
+   "channel": null,
+   "lat": 55.8433,
+   "lon": -4.2127
+  },
+  {
+   "id": "1YvnYCTH11tUfsDmgloCph",
+   "title": "The Mother We Share",
+   "type": "music",
+   "place": "University of Strathclyde",
+   "url": "https://open.spotify.com/search/CHVRCHES%20The%20Mother%20We%20Share",
+   "creator": "CHVRCHES",
+   "channel": null,
+   "lat": 55.8621,
+   "lon": -4.242
+  },
+  {
+   "id": "7o2entZUBPFAhxDRlpbWxx",
+   "title": "Stroll Through Time: A Walking Tour of Glasgow’s West End",
+   "type": "audiotour",
+   "place": "Hillhead subway station",
+   "url": "https://voicemap.me/tour/glasgow/stroll-through-time-a-walking-tour-of-glasgow-s-west-end",
+   "creator": null,
+   "channel": null,
+   "lat": 55.8752,
+   "lon": -4.2936
+  },
+  {
+   "id": "nCLJUWPsKn4izVsfc3MXQ",
+   "title": "Ghouls and Gruesome Tales: A Glasgow Ghost tour with Where Now",
+   "type": "audiotour",
+   "place": "George Square",
+   "url": "https://voicemap.me/tour/glasgow/ghouls-and-gruesome-tales-a-glasgow-ghost-tour-with-where-now",
+   "creator": null,
+   "channel": null,
+   "lat": 55.8611,
+   "lon": -4.2496
+  },
+  {
+   "id": "7yCLdjRxWnTZLUYsDvl7EN",
+   "title": "Glasgow: The Merchant City",
+   "type": "audiotour",
+   "place": "George Square",
+   "url": "https://voicemap.me/tour/glasgow/glasgow-the-merchant-city",
+   "creator": null,
+   "channel": null,
+   "lat": 55.8612,
+   "lon": -4.2502
+  },
+  {
+   "id": "27jjBOoKwWNOT7jrVUecYt",
+   "title": "The only house left from medieval Glasgow",
+   "type": "video",
+   "place": "Provan’s Lordship",
+   "url": "https://www.youtube.com/watch?v=WQAKqHmZMZY",
+   "creator": null,
+   "channel": "STV News",
+   "lat": 55.8624,
+   "lon": -4.2364
+  },
+  {
+   "id": "1EFeNIfDJJcHgfaAi2YTDz",
+   "title": "The rent strike that beat Glasgow’s landlords",
+   "type": "video",
+   "place": "Mary Barbour statue, Govan Cross",
+   "url": "https://www.youtube.com/watch?v=pafRGGFT5Pw",
+   "creator": null,
+   "channel": "Scottish History Out of Order",
+   "lat": 55.8623,
+   "lon": -4.3112
+  },
+  {
+   "id": "2LMAzQ2GeLZEDOBn5Qskbt",
+   "title": "Why the Duke wears a traffic cone",
+   "type": "video",
+   "place": "Duke of Wellington statue, Royal Exchange Square",
+   "url": "https://www.youtube.com/watch?v=2N5_LbdhCXM",
+   "creator": null,
+   "channel": "Astonishing Glasgow",
    "lat": 55.8603,
-   "lon": -4.2522
+   "lon": -4.2523
+  },
+  {
+   "id": "6UnALklo0wv5TwNjdOndJp",
+   "title": "A century of the Barras",
+   "type": "video",
+   "place": "Barras market, Gallowgate",
+   "url": "https://www.youtube.com/watch?v=Dod9LpJZci8",
+   "creator": null,
+   "channel": "Glasgow Building Preservation Trust",
+   "lat": 55.8547,
+   "lon": -4.2393
+  },
+  {
+   "id": "4Whua6g8WU0KIFpSkAAsIo",
+   "title": "A hill of Victorian merchants’ monuments",
+   "type": "video",
+   "place": "Glasgow Necropolis",
+   "url": "https://www.youtube.com/watch?v=EI4eJgqRpZg",
+   "creator": null,
+   "channel": "The Friends of Glasgow Necropolis",
+   "lat": 55.8617,
+   "lon": -4.23
+  },
+  {
+   "id": "17J6YflRjp0SUbG6RYIQQW",
+   "title": "Miss Cranston’s tea rooms, restored",
+   "type": "video",
+   "place": "Mackintosh at the Willow, Sauchiehall Street",
+   "url": "https://www.youtube.com/watch?v=fU2nlb8lrnY",
+   "creator": null,
+   "channel": "Glasgow Building Preservation Trust",
+   "lat": 55.8652,
+   "lon": -4.2607
+  },
+  {
+   "id": "3Y4l7uvaIVjZz2dpdOTxs3",
+   "title": "Virginia leaf and the merchants who grew rich on it",
+   "type": "video",
+   "place": "Tobacco Merchant’s House, Miller Street",
+   "url": "https://www.youtube.com/watch?v=cHohEaiHyj0",
+   "creator": null,
+   "channel": "BBC",
+   "lat": 55.8594,
+   "lon": -4.2489
+  },
+  {
+   "id": "1xYZlm4VUHr0LUjYpqlfBy",
+   "title": "A museum of ordinary Glaswegian life",
+   "type": "video",
+   "place": "People’s Palace, Glasgow Green",
+   "url": "https://www.youtube.com/watch?v=VNjliLojxno",
+   "creator": null,
+   "channel": "Glasgow Museums",
+   "lat": 55.8516,
+   "lon": -4.237
+  },
+  {
+   "id": "7I0WQ2LiHqIReFmTUixypv",
+   "title": "Building the QE2 in the last great Clyde yard",
+   "type": "video",
+   "place": "John Brown shipyard, Clydebank",
+   "url": "https://www.youtube.com/watch?v=QC4cEku0T1Q",
+   "creator": null,
+   "channel": "BBC Archive",
+   "lat": 55.8988,
+   "lon": -4.4036
+  },
+  {
+   "id": "R5oKYPGmQuNm3E1JWl8dR",
+   "title": "The restaurant that claims chicken tikka masala",
+   "type": "podcast",
+   "place": "Shish Mahal restaurant, Park Road",
+   "url": "https://podcasts.apple.com/us/podcast/shish-mahal-glasgow-podcast-history-success-chicken/id1787259613?i=1000750538842",
+   "creator": null,
+   "channel": "The Judge Reviews",
+   "lat": 55.8737,
+   "lon": -4.281
+  },
+  {
+   "id": "5YlSw3igtXkPKblXxhABzU",
+   "title": "From the Gorbals to guarding Abraham Lincoln",
+   "type": "podcast",
+   "place": "Gorbals",
+   "url": "https://podcasts.apple.com/us/podcast/43-from-the-gorbals-to-americas-most-famous-private/id1601444988?i=1000586126518",
+   "creator": null,
+   "channel": "Glasgow Crime Stories",
+   "lat": 55.8508,
+   "lon": -4.2489
+  },
+  {
+   "id": "sQmlLn2L8zr7xvP2jOZrF",
+   "title": "A ship launched with its builders aboard",
+   "type": "podcast",
+   "place": "Linthouse shipyard site",
+   "url": "https://podcasts.apple.com/us/podcast/the-clydes-forgotten-tragedy-the-ss-daphne/id1443659705?i=1000606735739",
+   "creator": null,
+   "channel": "Scottish History Out of Order",
+   "lat": 55.866,
+   "lon": -4.329
+  },
+  {
+   "id": "4UZI4cdMtoNImIRU8IjzXT",
+   "title": "The novelist who painted the city’s ceilings",
+   "type": "podcast",
+   "place": "Òran Mór, Byres Road",
+   "url": "https://podcasts.apple.com/us/podcast/alasdair-grays-glasgow-with-sorcha-dallas-the/id1586130470?i=1000606666793",
+   "creator": null,
+   "channel": "If Glasgow’s Walls Could Talk",
+   "lat": 55.8752,
+   "lon": -4.2928
+  },
+  {
+   "id": "2D1GHsr8gXDRyD3CKIzsqH",
+   "title": "A modernist world’s fair in a south side park",
+   "type": "podcast",
+   "place": "Bellahouston Park",
+   "url": "https://podcasts.apple.com/us/podcast/may-5th-1938-the-empire-exhibition-in-bellahouston/id1760362673?i=1000706337129",
+   "creator": null,
+   "channel": "This Day in Scottish History",
+   "lat": 55.8487,
+   "lon": -4.3162
+  },
+  {
+   "id": "72HQTljhlrXQqoxG4LCTrr",
+   "title": "Photographing the slums before the demolition crews",
+   "type": "podcast",
+   "place": "Saltmarket",
+   "url": "https://podcasts.apple.com/us/podcast/bow-bites-episode-7-thomas-annan-and-the-old/id1527732676?i=1000586043447",
+   "creator": null,
+   "channel": "Body of Work Heritage Podcast",
+   "lat": 55.8556,
+   "lon": -4.2443
+  },
+  {
+   "id": "71F1rV71KdNIhDchsn3VBC",
+   "title": "How Glasgow taught the world to pass",
+   "type": "podcast",
+   "place": "Hampden Park",
+   "url": "https://podcasts.apple.com/us/podcast/glasgows-early-football-history/id1137630408?i=1000537430234",
+   "creator": null,
+   "channel": "Football Travel by Outside Write",
+   "lat": 55.8258,
+   "lon": -4.252
+  },
+  {
+   "id": "4dRqgAdCkLzOGR5ROf20Ye",
+   "title": "A dance hall built by a market queen",
+   "type": "podcast",
+   "place": "Barrowland Ballroom",
+   "url": "https://podcasts.apple.com/us/podcast/glasgow-barrowlands-with-alison-irvine/id1730616880?i=1000770406519",
+   "creator": null,
+   "channel": "Music Maps Podcast",
+   "lat": 55.8558,
+   "lon": -4.2361
+  },
+  {
+   "id": "54eZ37S1lckewP7qyr9XSl",
+   "title": "The wife Mackintosh said was three-quarters of his work",
+   "type": "podcast",
+   "place": "The Mackintosh House, Hunterian Art Gallery",
+   "url": "https://podcasts.apple.com/us/podcast/the-story-of-margaret-macdonald-mackintosh-and/id1511712127?i=1000637152277",
+   "creator": null,
+   "channel": "Love Scotland: Stories of Scotland’s History and Nature",
+   "lat": 55.8734,
+   "lon": -4.2878
+  },
+  {
+   "id": "2450Lllf8H1O7yxCmxEAMQ",
+   "title": "The art school that burned twice",
+   "type": "podcast",
+   "place": "Glasgow School of Art, Mackintosh Building",
+   "url": "https://podcasts.apple.com/us/podcast/rediscovering-mackintosh-a-decade-after-the/id1586130470?i=1000662570786",
+   "creator": null,
+   "channel": "If Glasgow’s Walls Could Talk",
+   "lat": 55.8663,
+   "lon": -4.2637
+  },
+  {
+   "id": "7KwbKFe7ItiMTh6bP2yx2z",
+   "title": "Shipyard workers refuse to let their yards close",
+   "type": "podcast",
+   "place": "Fairfield shipyard, Govan",
+   "url": "https://podcasts.apple.com/us/podcast/the-shipbuilders-clydeside-work-in/id509997439?i=1000353693390",
+   "creator": null,
+   "channel": "Witness History: Archive 2011",
+   "lat": 55.8637,
+   "lon": -4.3168
+  },
+  {
+   "id": "4nziSgFiJeUDFwljTuJSEZ",
+   "title": "Art therapy for the most violent men in Scotland’s prisons",
+   "type": "podcast",
+   "place": "Barlinnie Prison",
+   "url": "https://www.bbc.co.uk/programmes/w3cswsks",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 55.8781,
+   "lon": -4.1825
+  },
+  {
+   "id": "1JnvU3oxvhgwl3f4N6eZJp",
+   "title": "Tobacco fortunes and the streets they built",
+   "type": "podcast",
+   "place": "Merchant City",
+   "url": "https://podcasts.apple.com/us/podcast/65-the-tobacco-lords-the-slave-trade-merchant-city-glasgow/id1513737418?i=1000532211401",
+   "creator": null,
+   "channel": "Neil Oliver: News, Interviews, History",
+   "lat": 55.8595,
+   "lon": -4.2445
+  },
+  {
+   "id": "3APIzVSDi6C1yM0PVZVmmf",
+   "title": "Rab C. Nesbitt",
+   "type": "tv",
+   "place": "Govan Road, Govan",
+   "url": "https://www.justwatch.com/us/search?q=Rab%20C.%20Nesbitt",
+   "creator": "Ian Pattison",
+   "channel": null,
+   "lat": 55.8618,
+   "lon": -4.306
+  },
+  {
+   "id": "7kF5WyGjSuT5LU2BczYByb",
+   "title": "Still Game",
+   "type": "tv",
+   "place": "OVO Hydro arena",
+   "url": "https://www.justwatch.com/us/search?q=Still%20Game",
+   "creator": "Ford Kiernan and Greg Hemphill",
+   "channel": null,
+   "lat": 55.8603,
+   "lon": -4.2853
+  },
+  {
+   "id": "2djr3SrlliPkWj9HTFPsap",
+   "title": "Tea and Taste: The Glasgow Tea Rooms 1875–1975",
+   "type": "book",
+   "place": "Willow Tea Rooms building, Sauchiehall Street",
+   "url": "https://goodreads.com/search?q=Perilla+Kinchin+Tea+and+Taste%3A+The+Glasgow+Tea+Rooms+1875%E2%80%931975",
+   "creator": "Perilla Kinchin",
+   "channel": null,
+   "lat": 55.8652,
+   "lon": -4.261
   }
  ]
 }

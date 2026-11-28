@@ -2,250 +2,123 @@
  "city": "Zurich",
  "pins": [
   {
-   "id": "3Q6hZxQipkoV0yK4Lcyf1O",
-   "title": "Historical Zürich: A Walk Through the City of a Thousand Fountains",
-   "type": "audiotour",
-   "place": "Urania Observatory (area)",
-   "lat": 47.3746,
-   "lon": 8.5388
+   "id": "1xbwVEmuBxe3pFzYuEvPIp",
+   "title": "A city where a quarter of homes are run by co-operatives",
+   "type": "video",
+   "place": "Kalkbreite housing co-operative",
+   "url": "https://youtu.be/2arVovaR0KY",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 47.3735,
+   "lon": 8.5236
   },
   {
-   "id": "5Qs3hnGJWHe4KXfggCbUrP",
-   "title": "Zurich True Crime Uncovered: A Tour of Its Heists and Robberies",
-   "type": "audiotour",
-   "place": "Kunsthaus Zürich art museum",
-   "lat": 47.3703,
-   "lon": 8.5481
+   "id": "7i7oorhUMPSNRttzdIvA72",
+   "title": "Campaigners save a lakeside factory and turn it into a culture hub",
+   "type": "podcast",
+   "place": "Rote Fabrik culture center",
+   "url": "https://open.spotify.com/search/Monocle The Urbanist Tall Stories Rote Fabrik",
+   "creator": null,
+   "channel": "Monocle: The Urbanist",
+   "lat": 47.3434,
+   "lon": 8.5354
   },
   {
-   "id": "4yUROfUNvDDMSdU5AoEwKH",
-   "title": "Hydrology in Zurich: A Guide to Water in the City Centre",
-   "type": "audiotour",
-   "place": "Bürkliplatz lakefront",
-   "lat": 47.3666,
-   "lon": 8.5423
+   "id": "5efPZxBJUzhhYx1Mpd17AX",
+   "title": "O mein Papa",
+   "type": "music",
+   "place": "Schauspielhaus theater (Pfauen)",
+   "url": "https://open.spotify.com/search/O%20mein%20Papa%20Lys%20Assia",
+   "creator": "Paul Burkhard",
+   "channel": null,
+   "lat": 47.369,
+   "lon": 8.548
   },
   {
-   "id": "1SY3ueRt1g6ph9P8BpLPp7",
-   "title": "The Dark Side of Zurich: A Walking Tour Through Old Town",
-   "type": "audiotour",
-   "place": "Paradeplatz",
-   "lat": 47.3698,
-   "lon": 8.5391
-  },
-  {
-   "id": "7HWNbr35yL4A7Kk3O8OXle",
-   "title": "Meltdown: Greed, Scandal, and the Collapse of Credit Suisse",
-   "type": "book",
-   "place": "Paradeplatz",
-   "lat": 47.3697,
-   "lon": 8.5389
-  },
-  {
-   "id": "5EEWT8kUUnmQPcnNV24abb",
-   "title": "Lenin on the Train",
-   "type": "book",
-   "place": "Spiegelgasse 14 (Lenin’s flat)",
-   "lat": 47.372,
-   "lon": 8.5449
-  },
-  {
-   "id": "2Qe0l4aBSVqi9V4nMoxfn2",
-   "title": "Zwingli: God’s Armed Prophet",
-   "type": "book",
-   "place": "Grossmünster church",
-   "lat": 47.3701,
-   "lon": 8.544
-  },
-  {
-   "id": "3OsIH2yqvHJTJNZRqWH70r",
-   "title": "Swiss Watching",
-   "type": "book",
-   "place": "Bahnhofstrasse",
-   "lat": 47.3714,
-   "lon": 8.5387
-  },
-  {
-   "id": "57EHVXfZxh8oG8poxQOJRF",
-   "title": "The Swiss, the Gold and the Dead",
-   "type": "book",
-   "place": "Paradeplatz",
-   "lat": 47.3697,
-   "lon": 8.5389
+   "id": "2o56NGcymc5CXVzisQi8PY",
+   "title": "Tubel Trophy",
+   "type": "music",
+   "place": "Rote Fabrik culture center",
+   "url": "https://open.spotify.com/search/Baby%20Jail%20Tubel%20Trophy",
+   "creator": "Baby Jail",
+   "channel": null,
+   "lat": 47.3436,
+   "lon": 8.5361
   },
   {
    "id": "2Re303dR3mpnD7afF5hR3O",
    "title": "The Tongue Set Free",
    "type": "book",
    "place": "Oberstrass district (area)",
+   "url": "https://goodreads.com/search?q=tongue%20set%20free%20canetti",
+   "creator": "Elias Canetti",
+   "channel": null,
    "lat": 47.3892,
    "lon": 8.5504
   },
   {
-   "id": "3wST7kiAoQU06PzJe2K6d8",
-   "title": "Travesties",
+   "id": "5EEWT8kUUnmQPcnNV24abb",
+   "title": "Lenin on the Train",
    "type": "book",
-   "place": "Zentralbibliothek library",
-   "lat": 47.3742,
-   "lon": 8.5455
-  },
-  {
-   "id": "5Q0QO9yjvLgbBCcj3rfBJv",
-   "title": "Dada: Art and Anti-Art",
-   "type": "book",
-   "place": "Cabaret Voltaire",
+   "place": "Spiegelgasse 14 (Lenin’s apartment)",
+   "url": "https://goodreads.com/search?q=lenin%20on%20the%20train%20merridale",
+   "creator": "Catherine Merridale",
+   "channel": null,
    "lat": 47.372,
    "lon": 8.5449
   },
   {
-   "id": "6lZgpAjFUT07vvBwhzs8gY",
-   "title": "Memories, Dreams, Reflections",
-   "type": "book",
-   "place": "Burghölzli psychiatric hospital",
-   "lat": 47.3535,
-   "lon": 8.5703
+   "id": "5Qs3hnGJWHe4KXfggCbUrP",
+   "title": "Zurich True Crime Uncovered: A Tour of Its Heists and Robberies",
+   "type": "audiotour",
+   "place": "Kunsthaus Zürich art museum",
+   "url": "https://voicemap.me/tour/zurich/zurich-true-crime-uncovered-a-tour-of-its-heists-and-robberies",
+   "creator": "YOUplore",
+   "channel": null,
+   "lat": 47.3703,
+   "lon": 8.5481
   },
   {
-   "id": "2s62VTCeKl38R6qAlFulfW",
-   "title": "Green Henry",
-   "type": "book",
-   "place": "Lindenhof hill",
-   "lat": 47.373,
-   "lon": 8.5408
+   "id": "1EgEniLeIqJ3kc8FCAIwdj",
+   "title": "Zurich honors the Irish exile who wrote Ulysses there",
+   "type": "podcast",
+   "place": "James Joyce’s grave, Fluntern Cemetery",
+   "url": "https://open.spotify.com/search/Documentary on One Zurich Unveils a Monument to James Joyce",
+   "creator": null,
+   "channel": "Documentary on One",
+   "lat": 47.3747,
+   "lon": 8.574
   },
   {
-   "id": "6cBXJrcLKtsrqj3aBhr2Tj",
-   "title": "I’m Not Stiller",
-   "type": "book",
-   "place": "Bellevueplatz",
-   "lat": 47.3669,
-   "lon": 8.545
+   "id": "Hwaul4pNVDF4vxhxf7niP",
+   "title": "Two brothers turn old truck tarpaulins into a cult messenger bag",
+   "type": "video",
+   "place": "Museum für Gestaltung design museum",
+   "url": "https://youtu.be/4dGrjnSFfRw",
+   "creator": null,
+   "channel": "VernissageTV",
+   "lat": 47.383,
+   "lon": 8.5358
   },
   {
-   "id": "3geYMdynVLzhUPYt6ySxPX",
-   "title": "Motivé",
-   "type": "music",
-   "place": "Langstrasse, Kreis 4 (area)",
-   "lat": 47.3776,
-   "lon": 8.529
-  },
-  {
-   "id": "2fQSEOpDYlGPBLvR2o1s3F",
-   "title": "Brotherlove",
-   "type": "music",
-   "place": "Kaufleuten club",
-   "lat": 47.3713,
-   "lon": 8.5356
-  },
-  {
-   "id": "28jaulI3wUETnnFUuME4sY",
-   "title": "Le Vent Nous Portera",
-   "type": "music",
-   "place": "Zürich-West (area)",
-   "lat": 47.3856,
-   "lon": 8.5165
-  },
-  {
-   "id": "C9jF8ensSgSqekjQXIUjl",
-   "title": "White Creatures",
-   "type": "music",
-   "place": "El Lokal bar",
-   "lat": 47.3748,
-   "lon": 8.5345
-  },
-  {
-   "id": "1kJordoli4fCDdjckZBxv8",
-   "title": "Ain’t You",
-   "type": "music",
-   "place": "Helvetiaplatz",
-   "lat": 47.3773,
-   "lon": 8.5263
-  },
-  {
-   "id": "2IDNyBJon3f0eMidVlTeZb",
-   "title": "The Captain of Her Heart",
-   "type": "music",
-   "place": "Bürkliplatz lakefront",
-   "lat": 47.3663,
-   "lon": 8.5411
-  },
-  {
-   "id": "2o56NGcymc5CXVzisQi8PY",
-   "title": "Tubel Trophy",
-   "type": "music",
-   "place": "Rote Fabrik culture centre",
-   "lat": 47.3436,
-   "lon": 8.5361
-  },
-  {
-   "id": "69nVpBuc1O4hMUFUHCHgKy",
-   "title": "Rosalie",
-   "type": "music",
-   "place": "Bäckeranlage park",
-   "lat": 47.3768,
-   "lon": 8.522
-  },
-  {
-   "id": "38G0EeJlTh2GcgqB6X7kEO",
-   "title": "Karawane",
-   "type": "music",
-   "place": "Cabaret Voltaire",
-   "lat": 47.3719,
-   "lon": 8.5443
-  },
-  {
-   "id": "5efPZxBJUzhhYx1Mpd17AX",
-   "title": "O mein Papa",
-   "type": "music",
-   "place": "Schauspielhaus theatre (Pfauen)",
-   "lat": 47.369,
-   "lon": 8.548
-  },
-  {
-   "id": "2xaW5P53nmszjBWrjzE4Dy",
-   "title": "Träume (Wesendonck Lieder, No. 5)",
-   "type": "music",
-   "place": "Museum Rietberg (Villa Wesendonck)",
-   "lat": 47.3567,
-   "lon": 8.5306
-  },
-  {
-   "id": "1ywNl4OOEbsycjN1omGsEB",
-   "title": "Oh Yeah",
-   "type": "music",
-   "place": "",
-   "lat": 47.3668,
-   "lon": 8.5455
-  },
-  {
-   "id": "5zyDlctNZnPJLMGDsWhvxG",
-   "title": "Circle of the Tyrants",
-   "type": "music",
-   "place": "",
-   "lat": 47.3868,
-   "lon": 8.5375
-  },
-  {
-   "id": "7zJofD2pS5AYJqo7oaQIE2",
-   "title": "Ein guter Tag",
-   "type": "music",
-   "place": "",
-   "lat": 47.3865,
-   "lon": 8.517
-  },
-  {
-   "id": "1yTTMUTr060oAOxZI4fF8m",
-   "title": "Bäckerei Zürrer",
-   "type": "movie",
-   "place": "Langstrasse, Kreis 4 (area)",
-   "lat": 47.3785,
-   "lon": 8.5285
+   "id": "6UMExukVh6s58oUADko9Sk",
+   "title": "Le Corbusier’s last building is a steel-and-glass pavilion by the lake",
+   "type": "video",
+   "place": "Pavillon Le Corbusier, Zürichhorn",
+   "url": "https://youtu.be/wSLAhK0V0rw",
+   "creator": null,
+   "channel": "VernissageTV",
+   "lat": 47.3556,
+   "lon": 8.5524
   },
   {
    "id": "7mjE0sdxByp0bM8WyLbGKc",
    "title": "Blue My Mind",
    "type": "movie",
-   "place": "Glattzentrum shopping centre",
+   "place": "Glattzentrum shopping center",
+   "url": "https://justwatch.com/us/search?q=Blue%20My%20Mind%202017",
+   "creator": "Lisa Brühlmann",
+   "channel": null,
    "lat": 47.4094,
    "lon": 8.5961
   },
@@ -254,78 +127,449 @@
    "title": "Aloys",
    "type": "movie",
    "place": "Zürich Stettbach station",
+   "url": "https://justwatch.com/us/search?q=Aloys%202016",
+   "creator": "Tobias Nölle",
+   "channel": null,
    "lat": 47.3967,
    "lon": 8.5956
-  },
-  {
-   "id": "7IWEpEOT8c6oCopP3ttGSH",
-   "title": "Vitus",
-   "type": "movie",
-   "place": "Tonhalle Zürich",
-   "lat": 47.3661,
-   "lon": 8.5378
-  },
-  {
-   "id": "5s46qJwe2XCSuB11msbwx6",
-   "title": "Die Schweizermacher (The Swissmakers)",
-   "type": "movie",
-   "place": "Stadthaus Zürich",
-   "lat": 47.3693,
-   "lon": 8.5414
-  },
-  {
-   "id": "23DnQ5MfwWB3hl3EcZbHps",
-   "title": "It Happened in Broad Daylight (Es geschah am hellichten Tag)",
-   "type": "movie",
-   "place": "Polizeikaserne, Kasernenstrasse",
-   "lat": 47.375,
-   "lon": 8.5321
   },
   {
    "id": "1pgAFVmWE4KO2X2Gl7SAfJ",
    "title": "Züri brännt (Zurich Is Burning)",
    "type": "movie",
    "place": "Zurich Opera House",
+   "url": "https://justwatch.com/us/search?q=Zueri%20braennt",
+   "creator": "Videoladen Zürich",
+   "channel": null,
    "lat": 47.365,
    "lon": 8.546
   },
   {
-   "id": "16J4B54SvAkMJZbwKmbdWW",
-   "title": "Der Kreis (The Circle)",
-   "type": "movie",
-   "place": "Niederdorf old town (area)",
-   "lat": 47.372,
-   "lon": 8.544
+   "id": "4yUROfUNvDDMSdU5AoEwKH",
+   "title": "Hydrology in Zurich: A Guide to Water in the City Centre",
+   "type": "audiotour",
+   "place": "Bürkliplatz lakefront",
+   "url": "https://voicemap.me/tour/zurich/hydrology-in-zurich-a-guide-to-water-in-the-city-centre",
+   "creator": "Hydrology and Climate, University of Zurich",
+   "channel": null,
+   "lat": 47.3666,
+   "lon": 8.5423
   },
   {
-   "id": "5wb8rQWnOkH9Lw9F2aYduY",
-   "title": "Grounding: The Last Days of Swissair",
-   "type": "movie",
-   "place": "Zurich Airport, Kloten",
-   "lat": 47.4515,
-   "lon": 8.556
+   "id": "2ZWtE0fSc4goMRJpL6FGDL",
+   "title": "War refugees invent Dada, a movement to reject meaning itself",
+   "type": "podcast",
+   "place": "Cabaret Voltaire",
+   "url": "https://open.spotify.com/search/BBC Witness History Cabaret Voltaire Dada",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 47.3717,
+   "lon": 8.5441
   },
   {
-   "id": "4kYrhJiisuw5E97dsSbbgo",
-   "title": "Heavenly Club",
-   "type": "music",
-   "place": "Niederdorf old town (area)",
-   "lat": 47.3728,
-   "lon": 8.5439
+   "id": "2ZzZ32kfORC9l8AsoziO6q",
+   "title": "A 167-year-old bank collapses over a single weekend",
+   "type": "podcast",
+   "place": "Paradeplatz",
+   "url": "https://open.spotify.com/search/New Books in Finance Duncan Mavin Meltdown Credit Suisse",
+   "creator": null,
+   "channel": "New Books in Finance",
+   "lat": 47.3699,
+   "lon": 8.5386
+  },
+  {
+   "id": "1Ykvl7raPEfxnTmGWrTOy0",
+   "title": "A public debate decides which religion wins a city",
+   "type": "podcast",
+   "place": "Zurich Town Hall (Rathaus)",
+   "url": "https://open.spotify.com/search/Story of Switzerland Zurich Disputations Zwingli",
+   "creator": null,
+   "channel": "The Story of Switzerland: Neutrality, Wealth, and Hidden Power",
+   "lat": 47.3716,
+   "lon": 8.5427
+  },
+  {
+   "id": "13pEw5grq5fVutAl2OPzvz",
+   "title": "A snowman’s exploding head predicts the summer weather",
+   "type": "podcast",
+   "place": "Sechseläutenplatz square",
+   "url": "https://open.spotify.com/search/Holidays to Switzerland Sechselauten Boogg",
+   "creator": null,
+   "channel": "Holidays to Switzerland Travel Podcast",
+   "lat": 47.3654,
+   "lon": 8.5468
+  },
+  {
+   "id": "7w7La9ooYbnvikzpcdtBP3",
+   "title": "A young psychiatrist takes psychotic delusions seriously",
+   "type": "podcast",
+   "place": "Burghölzli psychiatric hospital",
+   "url": "https://open.spotify.com/search/The Nietzsche Podcast Carl Jung Archetypes",
+   "creator": null,
+   "channel": "The Nietzsche Podcast",
+   "lat": 47.3527,
+   "lon": 8.5705
   },
   {
    "id": "3uUaIHbn8y7hfDe5P9xMeN",
    "title": "Eating sausage during Lent sparks a religious revolution",
    "type": "podcast",
    "place": "Grossmünster church",
+   "url": "https://open.spotify.com/search/Reformations Bruce Gordon Zwingli",
+   "creator": null,
+   "channel": "Reformations",
    "lat": 47.3701,
    "lon": 8.5441
+  },
+  {
+   "id": "4kYrhJiisuw5E97dsSbbgo",
+   "title": "Heavenly Club",
+   "type": "music",
+   "place": "Niederdorf old town (area)",
+   "url": "https://open.spotify.com/search/Les%20Sauterelles%20Heavenly%20Club",
+   "creator": "Les Sauterelles",
+   "channel": null,
+   "lat": 47.3728,
+   "lon": 8.5439
+  },
+  {
+   "id": "3Q6hZxQipkoV0yK4Lcyf1O",
+   "title": "Historical Zürich: A Walk Through the City of a Thousand Fountains",
+   "type": "audiotour",
+   "place": "Urania Observatory (area)",
+   "url": "https://voicemap.me/tour/zurich/historical-zurich-a-walk-through-the-city-of-a-thousand-fountains",
+   "creator": "Cynthia Toole",
+   "channel": null,
+   "lat": 47.3746,
+   "lon": 8.5388
+  },
+  {
+   "id": "XUl6fBIhZqyGK8FqQn2e7",
+   "title": "Needle Park Baby (Platzspitzbaby)",
+   "type": "movie",
+   "place": "Letten riverside (area)",
+   "url": "https://www.justwatch.com/us/search?q=Needle%20Park%20Baby",
+   "creator": "Pierre Monnard",
+   "channel": null,
+   "lat": 47.3878,
+   "lon": 8.5318
+  },
+  {
+   "id": "5wb8rQWnOkH9Lw9F2aYduY",
+   "title": "Grounding: The Last Days of Swissair",
+   "type": "movie",
+   "place": "Zurich Airport, Kloten",
+   "url": "https://justwatch.com/us/search?q=Grounding%20Swissair",
+   "creator": "Michael Steiner & Tobias Fueter",
+   "channel": null,
+   "lat": 47.4515,
+   "lon": 8.556
+  },
+  {
+   "id": "16J4B54SvAkMJZbwKmbdWW",
+   "title": "Der Kreis (The Circle)",
+   "type": "movie",
+   "place": "Niederdorf old town (area)",
+   "url": "https://justwatch.com/us/search?q=The%20Circle%202014%20Haupt",
+   "creator": "Stefan Haupt",
+   "channel": null,
+   "lat": 47.372,
+   "lon": 8.544
+  },
+  {
+   "id": "23DnQ5MfwWB3hl3EcZbHps",
+   "title": "It Happened in Broad Daylight (Es geschah am hellichten Tag)",
+   "type": "movie",
+   "place": "Polizeikaserne, Kasernenstrasse",
+   "url": "https://justwatch.com/us/search?q=It%20Happened%20in%20Broad%20Daylight",
+   "creator": "Ladislao Vajda",
+   "channel": null,
+   "lat": 47.375,
+   "lon": 8.5321
+  },
+  {
+   "id": "5s46qJwe2XCSuB11msbwx6",
+   "title": "Die Schweizermacher (The Swissmakers)",
+   "type": "movie",
+   "place": "Stadthaus Zürich",
+   "url": "https://justwatch.com/us/search?q=The%20Swissmakers",
+   "creator": "Rolf Lyssy",
+   "channel": null,
+   "lat": 47.3693,
+   "lon": 8.5414
+  },
+  {
+   "id": "7IWEpEOT8c6oCopP3ttGSH",
+   "title": "Vitus",
+   "type": "movie",
+   "place": "Tonhalle Zürich",
+   "url": "https://justwatch.com/us/search?q=Vitus%202006",
+   "creator": "Fredi M. Murer",
+   "channel": null,
+   "lat": 47.3661,
+   "lon": 8.5378
+  },
+  {
+   "id": "1SY3ueRt1g6ph9P8BpLPp7",
+   "title": "The Dark Side of Zurich: A Walking Tour Through Old Town",
+   "type": "audiotour",
+   "place": "Paradeplatz",
+   "url": "https://voicemap.me/tour/zurich/the-dark-side-of-zurich-a-walking-tour-through-old-town",
+   "creator": "myFive",
+   "channel": null,
+   "lat": 47.3698,
+   "lon": 8.5391
+  },
+  {
+   "id": "7HWNbr35yL4A7Kk3O8OXle",
+   "title": "Meltdown: Greed, Scandal, and the Collapse of Credit Suisse",
+   "type": "book",
+   "place": "Paradeplatz",
+   "url": "https://goodreads.com/search?q=meltdown%20credit%20suisse%20mavin",
+   "creator": "Duncan Mavin",
+   "channel": null,
+   "lat": 47.3697,
+   "lon": 8.5389
+  },
+  {
+   "id": "2Qe0l4aBSVqi9V4nMoxfn2",
+   "title": "Zwingli: God’s Armed Prophet",
+   "type": "book",
+   "place": "Grossmünster church",
+   "url": "https://goodreads.com/search?q=zwingli%20bruce%20gordon",
+   "creator": "Bruce Gordon",
+   "channel": null,
+   "lat": 47.3701,
+   "lon": 8.544
+  },
+  {
+   "id": "3OsIH2yqvHJTJNZRqWH70r",
+   "title": "Swiss Watching",
+   "type": "book",
+   "place": "Bahnhofstrasse",
+   "url": "https://goodreads.com/search?q=swiss%20watching%20diccon%20bewes",
+   "creator": "Diccon Bewes",
+   "channel": null,
+   "lat": 47.3714,
+   "lon": 8.5387
+  },
+  {
+   "id": "57EHVXfZxh8oG8poxQOJRF",
+   "title": "The Swiss, the Gold and the Dead",
+   "type": "book",
+   "place": "Paradeplatz",
+   "url": "https://goodreads.com/search?q=the%20swiss%20the%20gold%20and%20the%20dead%20ziegler",
+   "creator": "Jean Ziegler",
+   "channel": null,
+   "lat": 47.3697,
+   "lon": 8.5389
+  },
+  {
+   "id": "3wST7kiAoQU06PzJe2K6d8",
+   "title": "Travesties",
+   "type": "book",
+   "place": "Zentralbibliothek library",
+   "url": "https://goodreads.com/search?q=travesties%20tom%20stoppard",
+   "creator": "Tom Stoppard",
+   "channel": null,
+   "lat": 47.3742,
+   "lon": 8.5455
+  },
+  {
+   "id": "5Q0QO9yjvLgbBCcj3rfBJv",
+   "title": "Dada: Art and Anti-Art",
+   "type": "book",
+   "place": "Cabaret Voltaire",
+   "url": "https://goodreads.com/search?q=dada%20art%20and%20anti-art%20richter",
+   "creator": "Hans Richter",
+   "channel": null,
+   "lat": 47.372,
+   "lon": 8.5449
+  },
+  {
+   "id": "6lZgpAjFUT07vvBwhzs8gY",
+   "title": "Memories, Dreams, Reflections",
+   "type": "book",
+   "place": "Burghölzli psychiatric hospital",
+   "url": "https://goodreads.com/search?q=memories%20dreams%20reflections%20jung",
+   "creator": "C.G. Jung",
+   "channel": null,
+   "lat": 47.3535,
+   "lon": 8.5703
+  },
+  {
+   "id": "2s62VTCeKl38R6qAlFulfW",
+   "title": "Green Henry",
+   "type": "book",
+   "place": "Lindenhof hill",
+   "url": "https://goodreads.com/search?q=green%20henry%20gottfried%20keller",
+   "creator": "Gottfried Keller",
+   "channel": null,
+   "lat": 47.373,
+   "lon": 8.5408
+  },
+  {
+   "id": "6cBXJrcLKtsrqj3aBhr2Tj",
+   "title": "I’m Not Stiller",
+   "type": "book",
+   "place": "Bellevueplatz",
+   "url": "https://goodreads.com/search?q=i'm%20not%20stiller%20max%20frisch",
+   "creator": "Max Frisch",
+   "channel": null,
+   "lat": 47.3669,
+   "lon": 8.545
+  },
+  {
+   "id": "3geYMdynVLzhUPYt6ySxPX",
+   "title": "Motivé",
+   "type": "music",
+   "place": "Langstrasse, Kreis 4 (area)",
+   "url": "https://open.spotify.com/search/Xen%20EAZ%20Motive",
+   "creator": "Xen & EAZ",
+   "channel": null,
+   "lat": 47.3776,
+   "lon": 8.529
+  },
+  {
+   "id": "2fQSEOpDYlGPBLvR2o1s3F",
+   "title": "Brotherlove",
+   "type": "music",
+   "place": "Kaufleuten club",
+   "url": "https://open.spotify.com/search/Crimer%20Brotherlove",
+   "creator": "Crimer",
+   "channel": null,
+   "lat": 47.3713,
+   "lon": 8.5356
+  },
+  {
+   "id": "28jaulI3wUETnnFUuME4sY",
+   "title": "Le Vent Nous Portera",
+   "type": "music",
+   "place": "Zürich-West (area)",
+   "url": "https://open.spotify.com/search/Sophie%20Hunger%20Le%20Vent%20Nous%20Portera",
+   "creator": "Sophie Hunger",
+   "channel": null,
+   "lat": 47.3856,
+   "lon": 8.5165
+  },
+  {
+   "id": "C9jF8ensSgSqekjQXIUjl",
+   "title": "White Creatures",
+   "type": "music",
+   "place": "El Lokal bar",
+   "url": "https://open.spotify.com/search/Black%20Sea%20Dahu%20White%20Creatures",
+   "creator": "Black Sea Dahu",
+   "channel": null,
+   "lat": 47.3748,
+   "lon": 8.5345
+  },
+  {
+   "id": "1kJordoli4fCDdjckZBxv8",
+   "title": "Ain’t You",
+   "type": "music",
+   "place": "Helvetiaplatz",
+   "url": "https://open.spotify.com/search/Kleenex%20Aint%20You",
+   "creator": "Kleenex / LiLiPUT",
+   "channel": null,
+   "lat": 47.3773,
+   "lon": 8.5263
+  },
+  {
+   "id": "2IDNyBJon3f0eMidVlTeZb",
+   "title": "The Captain of Her Heart",
+   "type": "music",
+   "place": "Bürkliplatz lakefront",
+   "url": "https://open.spotify.com/search/Double%20The%20Captain%20of%20Her%20Heart",
+   "creator": "Double",
+   "channel": null,
+   "lat": 47.3663,
+   "lon": 8.5411
+  },
+  {
+   "id": "69nVpBuc1O4hMUFUHCHgKy",
+   "title": "Rosalie",
+   "type": "music",
+   "place": "Bäckeranlage park",
+   "url": "https://open.spotify.com/search/Bligg%20Rosalie",
+   "creator": "Bligg",
+   "channel": null,
+   "lat": 47.3768,
+   "lon": 8.522
+  },
+  {
+   "id": "38G0EeJlTh2GcgqB6X7kEO",
+   "title": "Karawane",
+   "type": "music",
+   "place": "Cabaret Voltaire",
+   "url": "https://open.spotify.com/search/Hugo%20Ball%20Karawane",
+   "creator": "Hugo Ball",
+   "channel": null,
+   "lat": 47.3719,
+   "lon": 8.5443
+  },
+  {
+   "id": "2xaW5P53nmszjBWrjzE4Dy",
+   "title": "Träume (Wesendonck Lieder, No. 5)",
+   "type": "music",
+   "place": "Museum Rietberg (Villa Wesendonck)",
+   "url": "https://open.spotify.com/search/Wagner%20Wesendonck%20Lieder%20Traume%20Jessye%20Norman",
+   "creator": "Richard Wagner",
+   "channel": null,
+   "lat": 47.3567,
+   "lon": 8.5306
+  },
+  {
+   "id": "1ywNl4OOEbsycjN1omGsEB",
+   "title": "Oh Yeah",
+   "type": "music",
+   "place": "",
+   "url": "https://open.spotify.com/search/Yello%20Oh%20Yeah",
+   "creator": "Yello",
+   "channel": null,
+   "lat": 47.3668,
+   "lon": 8.5455
+  },
+  {
+   "id": "5zyDlctNZnPJLMGDsWhvxG",
+   "title": "Circle of the Tyrants",
+   "type": "music",
+   "place": "",
+   "url": "https://open.spotify.com/search/Celtic%20Frost%20Circle%20of%20the%20Tyrants",
+   "creator": "Celtic Frost",
+   "channel": null,
+   "lat": 47.3868,
+   "lon": 8.5375
+  },
+  {
+   "id": "7zJofD2pS5AYJqo7oaQIE2",
+   "title": "Ein guter Tag",
+   "type": "music",
+   "place": "",
+   "url": "https://open.spotify.com/search/Klaus%20Johann%20Grobe%20Ein%20guter%20Tag",
+   "creator": "Klaus Johann Grobe",
+   "channel": null,
+   "lat": 47.3865,
+   "lon": 8.517
+  },
+  {
+   "id": "1yTTMUTr060oAOxZI4fF8m",
+   "title": "Bäckerei Zürrer",
+   "type": "movie",
+   "place": "Langstrasse, Kreis 4 (area)",
+   "url": "https://justwatch.com/us/search?q=Baeckerei%20Zuerrer",
+   "creator": "Kurt Früh",
+   "channel": null,
+   "lat": 47.3785,
+   "lon": 8.5285
   },
   {
    "id": "71FlRTDpeT6ESlEv5fE9Oy",
    "title": "Police lead soccer executives out in sheets at dawn",
    "type": "podcast",
    "place": "Baur au Lac hotel",
+   "url": "https://open.spotify.com/search/Lords of Soccer The Raid FIFA",
+   "creator": null,
+   "channel": "Lords of Soccer",
    "lat": 47.3673,
    "lon": 8.5394
   },
@@ -334,78 +578,31 @@
    "title": "An exile boards a train that ends an empire",
    "type": "podcast",
    "place": "Zurich Main Station (Hauptbahnhof)",
+   "url": "https://open.spotify.com/search/HistoryExtra Lenin Revolutionary Train Journey",
+   "creator": null,
+   "channel": "HistoryExtra Podcast",
    "lat": 47.378,
    "lon": 8.5404
-  },
-  {
-   "id": "7w7La9ooYbnvikzpcdtBP3",
-   "title": "A young psychiatrist takes psychotic delusions seriously",
-   "type": "podcast",
-   "place": "Burghölzli psychiatric hospital",
-   "lat": 47.3527,
-   "lon": 8.5705
-  },
-  {
-   "id": "13pEw5grq5fVutAl2OPzvz",
-   "title": "A snowman's exploding head predicts the summer weather",
-   "type": "podcast",
-   "place": "Sechseläutenplatz square",
-   "lat": 47.3654,
-   "lon": 8.5468
-  },
-  {
-   "id": "1Ykvl7raPEfxnTmGWrTOy0",
-   "title": "A public debate decides which religion wins a city",
-   "type": "podcast",
-   "place": "Zurich Town Hall (Rathaus)",
-   "lat": 47.3716,
-   "lon": 8.5427
-  },
-  {
-   "id": "2ZzZ32kfORC9l8AsoziO6q",
-   "title": "A 167-year-old bank collapses over a single weekend",
-   "type": "podcast",
-   "place": "Paradeplatz",
-   "lat": 47.3699,
-   "lon": 8.5386
-  },
-  {
-   "id": "2ZWtE0fSc4goMRJpL6FGDL",
-   "title": "War refugees invent Dada, a movement to reject meaning itself",
-   "type": "podcast",
-   "place": "Cabaret Voltaire",
-   "lat": 47.3717,
-   "lon": 8.5441
   },
   {
    "id": "1o8TcESsyCAecwoBOQQ0Fv",
    "title": "Thousands of addicts gather openly in a park behind the museum",
    "type": "video",
    "place": "Platzspitz park",
+   "url": "https://youtu.be/3UYmaalotK0",
+   "creator": null,
+   "channel": "SWI swissinfo.ch - English",
    "lat": 47.3816,
    "lon": 8.5398
-  },
-  {
-   "id": "6UMExukVh6s58oUADko9Sk",
-   "title": "Le Corbusier’s last building is a steel-and-glass pavilion by the lake",
-   "type": "video",
-   "place": "Pavillon Le Corbusier, Zürichhorn",
-   "lat": 47.3556,
-   "lon": 8.5524
-  },
-  {
-   "id": "Hwaul4pNVDF4vxhxf7niP",
-   "title": "Two brothers turn old truck tarpaulins into a cult messenger bag",
-   "type": "video",
-   "place": "Museum für Gestaltung design museum",
-   "lat": 47.383,
-   "lon": 8.5358
   },
   {
    "id": "2Rx5WGyloSwfpW1iXSCiQ5",
    "title": "A patent-office genius first learns his physics in Zurich",
    "type": "podcast",
    "place": "ETH Zurich main building",
+   "url": "https://open.spotify.com/search/In Our Time Albert Einstein",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 47.3763,
    "lon": 8.548
   },
@@ -414,54 +611,42 @@
    "title": "Church bells ring through an empty new art museum before it opens",
    "type": "video",
    "place": "Kunsthaus Zürich art museum",
+   "url": "https://youtu.be/wKo8c3Gi_uM",
+   "creator": null,
+   "channel": "VernissageTV",
    "lat": 47.3712,
    "lon": 8.5482
-  },
-  {
-   "id": "XUl6fBIhZqyGK8FqQn2e7",
-   "title": "Needle Park Baby (Platzspitzbaby)",
-   "type": "movie",
-   "place": "Letten riverside (area)",
-   "lat": 47.3878,
-   "lon": 8.5318
   },
   {
    "id": "QWbJOjwhqXW7RpOXlUAh2",
    "title": "Zurich’s old red-light district gets a buyer’s once-over",
    "type": "video",
    "place": "Langstrasse, Kreis 4 (area)",
+   "url": "https://youtu.be/vg5gtSYbXRg",
+   "creator": null,
+   "channel": "Monocle Films",
    "lat": 47.3779,
    "lon": 8.5262
-  },
-  {
-   "id": "1xbwVEmuBxe3pFzYuEvPIp",
-   "title": "A city where a quarter of homes are run by co-operatives",
-   "type": "video",
-   "place": "Kalkbreite housing co-operative",
-   "lat": 47.3735,
-   "lon": 8.5236
   },
   {
    "id": "Eps87wQVC5uVX8j3jj5C3",
    "title": "A sculptor spends decades filling a hillside with mosaic beasts",
    "type": "podcast",
    "place": "Bruno Weber Park, Dietikon",
+   "url": "https://open.spotify.com/search/Monocle The Urbanist Tall Stories Bruno Weber Park",
+   "creator": null,
+   "channel": "Monocle: The Urbanist",
    "lat": 47.3955,
    "lon": 8.413
-  },
-  {
-   "id": "1EgEniLeIqJ3kc8FCAIwdj",
-   "title": "Zurich honours the Irish exile who wrote Ulysses there",
-   "type": "podcast",
-   "place": "James Joyce’s grave, Fluntern Cemetery",
-   "lat": 47.3747,
-   "lon": 8.574
   },
   {
    "id": "2gcwdq2f9wvVU6jVARK3Gc",
    "title": "Office workers float home down the river after work",
    "type": "podcast",
    "place": "Oberer Letten river baths",
+   "url": "https://open.spotify.com/search/Monocle The Urbanist Tall Stories Zurich river swimming",
+   "creator": null,
+   "channel": "Monocle: The Urbanist",
    "lat": 47.3858,
    "lon": 8.5362
   },
@@ -470,6 +655,9 @@
    "title": "From the luxury shops of Bahnhofstrasse to Chagall’s glowing windows",
    "type": "video",
    "place": "Fraumünster church",
+   "url": "https://youtu.be/dtj93Mklpus",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 47.3699,
    "lon": 8.5414
   },
@@ -478,22 +666,20 @@
    "title": "An airport sets the tone for a well-run country",
    "type": "podcast",
    "place": "Zurich Airport, Kloten",
+   "url": "https://open.spotify.com/search/Monocle The Urbanist Tall Stories Zurich Airport",
+   "creator": null,
+   "channel": "Monocle: The Urbanist",
    "lat": 47.4504,
    "lon": 8.5617
-  },
-  {
-   "id": "7i7oorhUMPSNRttzdIvA72",
-   "title": "Campaigners save a lakeside factory and turn it into a culture hub",
-   "type": "podcast",
-   "place": "Rote Fabrik culture centre",
-   "lat": 47.3434,
-   "lon": 8.5354
   },
   {
    "id": "jZasudmXT5W7QHbiCDhLK",
    "title": "Guildsmen ride circles round a burning snowman to end winter",
    "type": "video",
    "place": "Sechseläutenplatz square",
+   "url": "https://youtu.be/ejRgA4igfQs",
+   "creator": null,
+   "channel": "DW Euromaxx",
    "lat": 47.3653,
    "lon": 8.5458
   },
@@ -502,6 +688,9 @@
    "title": "A raw concrete wing grows out of a castle-like museum",
    "type": "video",
    "place": "Swiss National Museum",
+   "url": "https://youtu.be/2vyx-PFfkPE",
+   "creator": null,
+   "channel": "9sekunden",
    "lat": 47.379,
    "lon": 8.5404
   },
@@ -510,6 +699,9 @@
    "title": "A rich city quietly stockpiles water for the worst day",
    "type": "video",
    "place": "",
+   "url": "https://youtu.be/TGyHJ-xmcuc",
+   "creator": null,
+   "channel": "Tom Scott",
    "lat": 47.3731,
    "lon": 8.5404
   }

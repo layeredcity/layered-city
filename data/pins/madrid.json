@@ -2,866 +2,57 @@
  "city": "Madrid",
  "pins": [
   {
-   "id": "2ticZV4axpXB7T3yz1wtue",
-   "title": "The Atocha lawyers massacre, 1977",
-   "type": "podcast",
-   "place": "Calle de Atocha 55",
-   "lat": 40.4128,
-   "lon": -3.6992
-  },
-  {
-   "id": "4bVEA2PMrPPpaAQoIisM9o",
-   "title": "The Garden of Earthly Delights by Hieronymus Bosch",
-   "type": "podcast",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "34nsvjn9oA1CbIRCLzbfnP",
-   "title": "The Haywain Triptych by Hieronymus Bosch",
-   "type": "podcast",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "4VlLRqU0X3nvHvJZNURPoA",
-   "title": "Las Meninas by Diego Velázquez",
-   "type": "podcast",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "57h47aCLL2smUa0XCJId9E",
-   "title": "Guernica by Pablo Picasso",
-   "type": "podcast",
-   "place": "Reina Sofía Museum",
-   "lat": 40.408,
-   "lon": -3.6943
-  },
-  {
-   "id": "6E0jfqnZ7utABevl7VWGRh",
-   "title": "Las Meninas by Diego Velázquez",
-   "type": "podcast",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "2XZp3Jtzt4iTIx5G9Z5olT",
-   "title": "The Black Paintings by Francisco Goya",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "67uEij89J8XVJMnF9i6uc6",
-   "title": "Las Meninas by Diego Velázquez",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "14blinPjFea3ScRDzoPgZ3",
-   "title": "Guernica by Pablo Picasso",
-   "type": "video",
-   "place": "Reina Sofía Museum",
-   "lat": 40.408,
-   "lon": -3.6945
-  },
-  {
-   "id": "2nkIcCtvcvRaccdWByQ0i8",
-   "title": "The Garden of Earthly Delights by Hieronymus Bosch",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "nZvOR5odgH60zjzuVHhVu",
-   "title": "Apollo in the Forge of Vulcan by Diego Velázquez",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "25tgdOtRo6dvGKbyrC4mO1",
-   "title": "Saturn Devouring His Son by Francisco Goya",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "45IXUS1vpNum0IDpBK8J2z",
-   "title": "The Death of the Virgin by Andrea Mantegna",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "U9YaD1XBOQLcuMpB2e09v",
-   "title": "The Triumph of Bacchus (Los Borrachos) by Diego Velázquez",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "y01n8KnO9ClLxsOwmlVtg",
-   "title": "Self-Portrait by Albrecht Dürer",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "4epbXUXhjEEKS6Aduf4qox",
-   "title": "The Martyrdom of Saint Philip by Jusepe de Ribera",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "77oqgf9i4NbRBCYZg9Ax9q",
-   "title": "The Calling of Saint Matthew by Juan de Pareja",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "40GMLMjBtEdSkRaofYeQtP",
-   "title": "The Descent from the Cross by Rogier van der Weyden",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "19Zc31ZgnwiHVCclN0ICJJ",
-   "title": "The Annunciation by Fra Angelico",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "4aczqXt2OxFj6SEvSjdDrW",
-   "title": "The Third of May 1808 by Francisco Goya",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "4qkuZ3hJ243BtYVUiTdzg7",
-   "title": "Guernica by Pablo Picasso",
-   "type": "video",
-   "place": "Reina Sofía Museum",
-   "lat": 40.408,
-   "lon": -3.6945
-  },
-  {
-   "id": "BEG2vy4r4dUc1DtQkkJtD",
-   "title": "The Garden of Earthly Delights by Hieronymus Bosch",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "5Ena72s8u4nU5FQbesxMf1",
-   "title": "The Family of Charles IV by Francisco Goya",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "xevxYZG6MOKRXVHRSdfiU",
-   "title": "Madrid Walking Tour: Manzanares River's Story from Prehistory to Popular Park",
-   "type": "audiotour",
-   "place": "Matadero Madrid arts centre",
-   "lat": 40.3911,
-   "lon": -3.6961
-  },
-  {
-   "id": "36mdKTIhmcBeaFzEceeSWC",
-   "title": "Elegant Salamanca and Chueca: A Guide to Madrid's Posh Districts with Context",
-   "type": "audiotour",
-   "place": "Cibeles Palace (City Hall)",
-   "lat": 40.4192,
-   "lon": -3.6923
-  },
-  {
-   "id": "ZpkAdanCwaTUq4HtAPPAV",
-   "title": "Madrid's Golden Age: 500 Years of History along the Manzanares River",
-   "type": "audiotour",
-   "place": "Segovia Bridge",
-   "lat": 40.4138,
-   "lon": -3.7241
-  },
-  {
-   "id": "1FQidCQ4h11vTz2UzTGvit",
-   "title": "Tales of the Old Town: A Madrid Walking Tour with Context",
-   "type": "audiotour",
-   "place": "Isabel II statue, Plaza de Isabel II",
-   "lat": 40.4182,
-   "lon": -3.7094
-  },
-  {
-   "id": "60W92U5kbPA8gO9ZyiTq0W",
-   "title": "History with a Side of Tapas: A Local's Madrid",
-   "type": "audiotour",
-   "place": "Plaza de Isabel II",
-   "lat": 40.4179,
-   "lon": -3.7093
-  },
-  {
-   "id": "7CVfTVRdIyNm6XdImOHosV",
-   "title": "Royal Madrid: Scandal and Secrets from Puerta del Sol to the Palace",
-   "type": "audiotour",
-   "place": "Puerta del Sol square",
-   "lat": 40.4169,
-   "lon": -3.7038
-  },
-  {
-   "id": "HjiIdewU7lxeRm3wHqcHA",
-   "title": "Beauty, Scandals, and Masterpieces: A Prado Museum Audio Guide",
-   "type": "audiotour",
-   "place": "Prado Museum",
-   "lat": 40.4139,
-   "lon": -3.6921
-  },
-  {
-   "id": "4N5QN0P9Og5RGUOQ8eOPS0",
-   "title": "Madrid's Literary District: A Barrio de las Letras Tour",
-   "type": "audiotour",
-   "place": "Plaza de Santa Ana",
-   "lat": 40.4148,
-   "lon": -3.7004
-  },
-  {
-   "id": "3VIKiAMlSkwyLfTVYMrZim",
-   "title": "El Retiro Park's Rise, Ruin and Redemption: A Tour of the Former Royal Retreat",
-   "type": "audiotour",
-   "place": "Goya Monument, beside the Prado Museum",
-   "lat": 40.415,
-   "lon": -3.6925
-  },
-  {
-   "id": "6hoAh4AsNy97bfKlOUeBql",
-   "title": "Malasaña Backstreets: Rebellious Suburb to Hipster Haven",
-   "type": "audiotour",
-   "place": "Plaza de la Luna",
-   "lat": 40.4211,
-   "lon": -3.7047
-  },
-  {
-   "id": "4Dp8dFKI6elE6WwpvzyQ1V",
-   "title": "Medieval Madrid: A Guide to the City's Muslim Past",
-   "type": "audiotour",
-   "place": "Plaza de Oriente",
-   "lat": 40.4183,
-   "lon": -3.712
-  },
-  {
-   "id": "3N6DZEnuQLpinjYp9Jr36t",
-   "title": "The Forging of a Rebel",
-   "type": "book",
-   "place": "Lavapiés district (area)",
-   "lat": 40.4084,
-   "lon": -3.7008
-  },
-  {
-   "id": "22YLnATN2v6Tn3edufD5kf",
-   "title": "The Battle for Spain",
-   "type": "book",
-   "place": "Ciudad Universitaria campus (area)",
-   "lat": 40.4453,
-   "lon": -3.7331
-  },
-  {
-   "id": "27VKr8JYzoc56ZFF3uJdrs",
-   "title": "Goya",
-   "type": "book",
-   "place": "San Antonio de la Florida Chapel",
-   "lat": 40.4254,
-   "lon": -3.7256
-  },
-  {
-   "id": "1eaQmAVc1cpTvSk8P0vgWi",
-   "title": "The Vanishing Velázquez",
-   "type": "book",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "5pK0fg6tm0VuYLcFtSzWST",
-   "title": "The Spanish Holocaust",
-   "type": "book",
-   "place": "La Almudena Cemetery (east wall)",
-   "lat": 40.4255,
-   "lon": -3.6458
-  },
-  {
-   "id": "1cezcQraIS2TdccKrQGWjL",
-   "title": "Multicultural Madrid Walking Tour: From Plaza Mayor to Lavapiés",
-   "type": "audiotour",
-   "place": "Plaza Mayor",
-   "lat": 40.4154,
-   "lon": -3.7074
-  },
-  {
-   "id": "5nL9q7Hud7hFMzGmyaXpUY",
-   "title": "Death in the Afternoon",
-   "type": "book",
-   "place": "Las Ventas bullring",
-   "lat": 40.4321,
-   "lon": -3.6633
-  },
-  {
-   "id": "6IeerLxp3QtyBn5egLgPLX",
-   "title": "Spain: The Trials and Triumphs of a Modern European Country",
-   "type": "book",
-   "place": "Congress of Deputies (parliament)",
-   "lat": 40.4164,
-   "lon": -3.6966
-  },
-  {
-   "id": "6ZqJoyV7OPpWEmMNrvdpGP",
-   "title": "Madrid: A Cultural History",
-   "type": "book",
-   "place": "Puerta del Sol square",
-   "lat": 40.4169,
-   "lon": -3.7035
-  },
-  {
-   "id": "3A7GyOePB6ANnhXLuaZtDH",
-   "title": "Fear and Loathing in La Liga",
-   "type": "book",
-   "place": "Santiago Bernabéu Stadium",
-   "lat": 40.453,
-   "lon": -3.6884
-  },
-  {
-   "id": "5GFbeHAxY6dZJ01b82a9V1",
-   "title": "Winter in Madrid",
-   "type": "book",
-   "place": "Gran Vía avenue",
-   "lat": 40.4189,
-   "lon": -3.6969
-  },
-  {
-   "id": "1NYCG7lIdmJf55cWi8Sfsh",
-   "title": "Almodóvar on Almodóvar",
-   "type": "book",
-   "place": "Malasaña district (area)",
-   "lat": 40.4234,
-   "lon": -3.7078
-  },
-  {
-   "id": "38hZi0bTr02qHvev7MEPJ",
-   "title": "Las bicicletas son para el verano (Bicycles Are for the Summer)",
-   "type": "movie",
-   "place": "Argüelles district (area)",
-   "lat": 40.429,
-   "lon": -3.716
-  },
-  {
-   "id": "j6ePGqgNohxKz9Bm3ceD6",
-   "title": "Goya’s Ghosts",
-   "type": "movie",
-   "place": "Prado Museum",
-   "lat": 40.4138,
-   "lon": -3.6921
-  },
-  {
-   "id": "4fOvwbm4iwFasfRdk6gD2J",
-   "title": "El verdugo (The Executioner)",
-   "type": "movie",
-   "place": "Plaza Mayor",
-   "lat": 40.4155,
-   "lon": -3.7074
-  },
-  {
-   "id": "1ybi3M54NAOuKYCh0bLJXz",
-   "title": "Truman",
-   "type": "movie",
-   "place": "Chamberí district (area)",
-   "lat": 40.434,
-   "lon": -3.7
-  },
-  {
-   "id": "6gJMKrPtFgvgoZ2AVnljsQ",
-   "title": "Surcos (Furrows)",
-   "type": "movie",
-   "place": "Lavapiés district (area)",
-   "lat": 40.409,
-   "lon": -3.701
-  },
-  {
-   "id": "1qJm9TgjUI0jFNAAOjA5gx",
-   "title": "The Day of the Beast (El día de la bestia)",
-   "type": "movie",
-   "place": "KIO Towers, Plaza de Castilla",
-   "lat": 40.4664,
-   "lon": -3.6888
-  },
-  {
-   "id": "2J9tDkpdr7wWAnrcogWElF",
-   "title": "The Silence of Others (El silencio de otros)",
-   "type": "movie",
-   "place": "La Almudena Cemetery",
-   "lat": 40.4193,
-   "lon": -3.6332
-  },
-  {
-   "id": "143tjNvyqluY9cWT0UEXr5",
-   "title": "Death of a Cyclist (Muerte de un ciclista)",
-   "type": "movie",
-   "place": "Salamanca district (area)",
-   "lat": 40.427,
-   "lon": -3.681
-  },
-  {
-   "id": "2aYniKZ7OLi1Ni0Ub7x7jl",
-   "title": "Tesis (Thesis)",
-   "type": "movie",
-   "place": "Ciudad Universitaria campus (area)",
-   "lat": 40.4436,
-   "lon": -3.7308
-  },
-  {
-   "id": "3yFu5VYgYypOQAdN7JJrk0",
-   "title": "Barrio",
-   "type": "movie",
-   "place": "Orcasitas district (area)",
-   "lat": 40.376,
-   "lon": -3.705
-  },
-  {
-   "id": "3QVkZBSZB0KzFK39k4vqYD",
-   "title": "What Have I Done to Deserve This? (¿Qué he hecho yo para merecer esto!)",
-   "type": "movie",
-   "place": "Colmena tower blocks, La Concepción (area)",
-   "lat": 40.4335,
-   "lon": -3.648
-  },
-  {
-   "id": "27CygbY4brGLfAg8NZtZDc",
-   "title": "May God Save Us (Que Dios nos perdone)",
-   "type": "movie",
-   "place": "Puerta del Sol square",
-   "lat": 40.4169,
-   "lon": -3.7035
-  },
-  {
-   "id": "4qm75D27mIgfcyPeJT7d8s",
-   "title": "The woman who fights bulls",
-   "type": "video",
-   "place": "Las Ventas bullring",
-   "lat": 40.4317,
-   "lon": -3.66298
-  },
-  {
-   "id": "2r6xSqH3hR9jkNsjsL5xcj",
-   "title": "Jamón Jamón: Getting to know Spanish ham",
-   "type": "video",
-   "place": "Mercado Jamón Ibérico ham shop",
-   "lat": 40.41541,
-   "lon": -3.71164
-  },
-  {
-   "id": "32cFFxqpDykRwFxfzHnRWW",
-   "title": "Theater during the Spanish Golden Age",
-   "type": "video",
-   "place": "Corral de Comedias theatre, Alcalá de Henares",
-   "lat": 40.48229,
-   "lon": -3.36455
-  },
-  {
-   "id": "5QMOqHOKnViMV5xumQyC28",
-   "title": "The hidden restaurant near Plaza de España",
-   "type": "video",
-   "place": "Cafetería Yulong Zhou, Plaza de España underpass",
-   "lat": 40.42375,
-   "lon": -3.7114
-  },
-  {
-   "id": "1nqafspf1oW4lzosogEDjm",
-   "title": "The disappearing barquilleros",
-   "type": "video",
-   "place": "Plaza Mayor",
-   "lat": 40.41538,
-   "lon": -3.70767
-  },
-  {
-   "id": "42pH9TDHOXaLF09GhRv6Nn",
-   "title": "Five classic tapas to try in Madrid",
-   "type": "video",
-   "place": "La Casa del Abuelo tapas bar",
-   "lat": 40.41573,
-   "lon": -3.70175
-  },
-  {
-   "id": "2qsP9M9xNmzYwu5atE5oOP",
-   "title": "Breathing new life into Franco-era military apartments",
-   "type": "video",
-   "place": "Edificio Princesa apartment building",
-   "lat": 40.4293,
-   "lon": -3.70705
-  },
-  {
-   "id": "5FhHUaPuVflxcJlbmewDtJ",
-   "title": "The oldest restaurant in the world",
-   "type": "video",
-   "place": "Sobrino de Botín restaurant",
-   "lat": 40.41418,
-   "lon": -3.70791
-  },
-  {
-   "id": "2RW5XTN5Vj6qGHY6A8NCtN",
-   "title": "Archiving the world’s art and cultural treasures ",
-   "type": "video",
-   "place": "Factum Arte workshop",
-   "lat": 40.43499,
-   "lon": -3.63304
-  },
-  {
-   "id": "36ql02keQK5fbWprH0Rqbr",
-   "title": "Suiting up matadors at Fermín Tailor Shop",
-   "type": "video",
-   "place": "Fermín bullfighters’ tailor shop (not open to visitors)",
-   "lat": 40.41843,
-   "lon": -3.70062
-  },
-  {
-   "id": "1O2YwAtwrb0ZTXhacY1ErZ",
-   "title": "Street racing with daredevil bike messengers",
-   "type": "video",
-   "place": "Segovia Viaduct",
-   "lat": 40.41391,
-   "lon": -3.71362
-  },
-  {
-   "id": "3yYYm3dVzqGgKoejVmr7Ud",
-   "title": "Colegio Estudio: A school infused with idealism",
-   "type": "video",
-   "place": "Colegio Estudio school, Aravaca",
-   "lat": 40.47038,
-   "lon": -3.76814
-  },
-  {
-   "id": "1O3S94eE3z60YjwShwIcLM",
-   "title": "Touching art at the Prado",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.41409,
-   "lon": -3.6915
-  },
-  {
-   "id": "6IBJKReqorCyIaWl6cwCVr",
-   "title": "Memories of bullfighting on Plaza Mayor",
-   "type": "video",
-   "place": "Plaza Mayor",
-   "lat": 40.41583,
-   "lon": -3.70768
-  },
-  {
-   "id": "7kVQ6qPRGe8WCVtM8RFLO2",
-   "title": "Looking closely at Las Meninas by Velasquez",
-   "type": "video",
-   "place": "Prado Museum",
-   "lat": 40.41384,
-   "lon": -3.69191
-  },
-  {
-   "id": "6QHlDSXgQlY3tjlWMuDWCa",
-   "title": "The high-speed train to Barcelona",
-   "type": "video",
-   "place": "Atocha station",
-   "lat": 40.40608,
-   "lon": -3.6906
-  },
-  {
-   "id": "5BulXZ8x0GmynNhGVioFU2",
-   "title": "What it’s like to be held hostage during a failed coup",
-   "type": "podcast",
-   "place": "Congress of Deputies (parliament)",
-   "lat": 40.41639,
-   "lon": -3.6966
-  },
-  {
-   "id": "5X3Ne73ueIEV2UKpBAEdjM",
-   "title": "A day trip to monumental El Escorial",
-   "type": "video",
-   "place": "Royal Monastery of El Escorial",
-   "lat": 40.58904,
-   "lon": -4.14772
-  },
-  {
-   "id": "42AQBUynxkPpPTPOejzbBk",
-   "title": "A more sustainable world one garden at a time",
-   "type": "video",
-   "place": "Desert City botanical garden, San Sebastián de los Reyes",
-   "lat": 40.59897,
-   "lon": -3.58158
-  },
-  {
-   "id": "2duQuuspRgk4RLysKrzt7I",
-   "title": "An assemblage of flavors at Mercado San Miguel",
-   "type": "video",
-   "place": "Mercado de San Miguel market",
-   "lat": 40.41539,
-   "lon": -3.70905
-  },
-  {
-   "id": "3FEpGTq2U0BilSE1HqkZf8",
-   "title": "The pact to forget a fascist past",
-   "type": "podcast",
-   "place": "Valley of the Fallen (Cuelgamuros)",
-   "lat": 40.64091,
-   "lon": -4.15984
-  },
-  {
-   "id": "5Cew9yrJVoB3AxPnr9Z8mt",
-   "title": "The culture of eating tapas in Madrid",
-   "type": "video",
-   "place": "Casa Macareno tapas bar, Malasaña",
-   "lat": 40.42544,
-   "lon": -3.7044
-  },
-  {
-   "id": "13MajZGCAv512vbsOCpbRk",
-   "title": "Confronting Spain’s past via Franco’s resting place",
-   "type": "video",
-   "place": "Valley of the Fallen (Cuelgamuros)",
-   "lat": 40.64085,
-   "lon": -4.16028
-  },
-  {
-   "id": "4pFdrSyudRPbQKY3siuYZ6",
-   "title": "Surviving the bombing of Guernica",
-   "type": "podcast",
-   "place": "Reina Sofía Museum",
-   "lat": 40.40786,
-   "lon": -3.69455
-  },
-  {
-   "id": "23JnJ0P9XwBKgbL3BQWUBN",
-   "title": "The assassination of Spain’s new prime minister",
-   "type": "podcast",
-   "place": "Claudio Coello 104 (site of 1973 Carrero Blanco bombing)",
-   "lat": 40.43416,
-   "lon": -3.68611
-  },
-  {
-   "id": "296NjgCt4lqI8mn2WooQVu",
-   "title": "The bladesmith of Toledo",
-   "type": "video",
-   "place": "Fábrica Zamorano sword workshop, Toledo",
-   "lat": 39.85622,
-   "lon": -4.02572
-  },
-  {
-   "id": "JSn6oPKOaU6hgiYgqf44b",
-   "title": "Procuring the perfect paella",
-   "type": "video",
-   "place": "AlliOli paella restaurant",
-   "lat": 40.40819,
-   "lon": -3.70853
-  },
-  {
-   "id": "T91tnOcNFysi1QSAcElbd",
-   "title": "Terror on the transit system",
-   "type": "podcast",
-   "place": "Atocha station",
-   "lat": 40.40609,
-   "lon": -3.69053
-  },
-  {
-   "id": "6vWmHyig02dnIRe1WJs9V2",
-   "title": "Christmas traditions in Madrid",
-   "type": "podcast",
-   "place": "Plaza Mayor",
-   "lat": 40.41525,
-   "lon": -3.70735
-  },
-  {
-   "id": "4WzUXwGLCdg2QgNT0a06wo",
-   "title": "Seeing flamenco outside of Andalusia",
-   "type": "podcast",
-   "place": "Las Carboneras flamenco tablao",
-   "lat": 40.41459,
-   "lon": -3.70922
-  },
-  {
-   "id": "2HfdtCqfBtor5QkjNSFQEx",
-   "title": "Madrid tour with travel writer Rick Steves",
-   "type": "audiotour",
-   "place": "Puerta del Sol square",
-   "lat": 40.41682,
-   "lon": -3.7035
-  },
-  {
-   "id": "6pLOvhTnQsM2ndiHGhA8uJ",
-   "title": "Attending a bullfight at Las Ventas bullring",
-   "type": "podcast",
-   "place": "Las Ventas bullring",
-   "lat": 40.43316,
-   "lon": -3.66407
-  },
-  {
-   "id": "1AQYYdbv58RfHUOzTjBLGG",
-   "title": "The sorrowful demise of Federico García Lorca",
-   "type": "podcast",
-   "place": "Lorca statue, Plaza de Santa Ana",
-   "lat": 40.41474,
-   "lon": -3.70049
-  },
-  {
-   "id": "1KGGS3B7L9bLLZuC3gU9qB",
-   "title": "Imagining a cathedral and making it a reality",
-   "type": "video",
-   "place": "Justo Gallego’s cathedral, Mejorada del Campo",
-   "lat": 40.3941,
-   "lon": -3.48841
-  },
-  {
-   "id": "63SbnY3EtvKleK7LAjKPMQ",
-   "title": "Relaxing in the gardens of El Escorial",
-   "type": "podcast",
-   "place": "Friars’ Garden, Royal Monastery of El Escorial",
-   "lat": 40.58817,
-   "lon": -4.14658
-  },
-  {
-   "id": "4TlHo15fLhsJGVImQl5wRJ",
-   "title": "The scandal that sullied the People’s Party",
-   "type": "podcast",
-   "place": "Gran Meliá Fénix hotel",
-   "lat": 40.42646,
-   "lon": -3.68928
-  },
-  {
-   "id": "7aHTg8ulVjTwxlikwKDTmi",
-   "title": "The peculiar world of The Garden of Earthly Delights",
-   "type": "podcast",
-   "place": "Prado Museum",
-   "lat": 40.4141,
-   "lon": -3.69197
-  },
-  {
-   "id": "2KwboZ2O16ZolvmXZEFuhc",
-   "title": "Exploring the historic barrio of La Latina",
-   "type": "podcast",
-   "place": "Mercado de la Cebada market, La Latina",
-   "lat": 40.41099,
-   "lon": -3.70987
-  },
-  {
-   "id": "Iz6uOW7nGtxVaxP19mTFe",
-   "title": "Getting to know Madrid’s Romani people",
-   "type": "podcast",
-   "place": "Puerta del Sol square",
-   "lat": 40.41685,
-   "lon": -3.7043
-  },
-  {
-   "id": "2dh4Ms4fRBuUr1Qgyc6gIU",
-   "title": "Stellar streets and squares in Madrid",
-   "type": "podcast",
-   "place": "Plaza de Olavide",
-   "lat": 40.43308,
-   "lon": -3.70067
-  },
-  {
-   "id": "6tlWetZFYIMwxQzpJVep1a",
-   "title": "Dark legacies of the idealistic International Brigade",
-   "type": "podcast",
-   "place": "Gran Vía avenue",
-   "lat": 40.42003,
-   "lon": -3.70149
-  },
-  {
-   "id": "3kV6NrFjoeQlE9RqPycLLI",
-   "title": "Reporting on the transition to democracy",
-   "type": "podcast",
-   "place": "Congress of Deputies (parliament)",
-   "lat": 40.41613,
-   "lon": -3.69671
-  },
-  {
-   "id": "7L8fsxmECZiktxkObG4iJ",
-   "title": "Day-tripping to royal Aranjuez",
-   "type": "podcast",
-   "place": "Royal Palace of Aranjuez, Aranjuez",
-   "lat": 40.03639,
-   "lon": -3.60907
-  },
-  {
-   "id": "tPTmxCX1zzsphSo6Ia6X2",
-   "title": "The barrels and bodegas of the Sherry Triangle",
-   "type": "podcast",
-   "place": "La Venencia sherry bar",
-   "lat": 40.41581,
-   "lon": -3.69956
-  },
-  {
-   "id": "1UKJdeSRN8yFFX6J7X6dtH",
-   "title": "Sights and sounds of El Rastro market",
-   "type": "podcast",
-   "place": "El Rastro flea market",
-   "lat": 40.4082,
-   "lon": -3.70729
-  },
-  {
-   "id": "6a3dKlUklfDSzvqiC9HXhM",
-   "title": "Lady Madrid",
+   "id": "4OhctDM5dx6cktQtrAvFcu",
+   "title": "La Verbena de la Paloma",
    "type": "music",
-   "place": "Puerta del Sol square",
-   "lat": 40.4169,
-   "lon": -3.7035
+   "place": "La Latina district (area)",
+   "url": "https://open.spotify.com/search/La%20Verbena%20de%20la%20Paloma%20Bret%C3%B3n",
+   "creator": "Tomás Bretón",
+   "channel": null,
+   "lat": 40.4115,
+   "lon": -3.7106
   },
   {
    "id": "5kZYZcJ8RSJrZ65Vsr9AlF",
    "title": "Concierto de Aranjuez (Adagio)",
    "type": "music",
    "place": "Royal Palace of Aranjuez, Aranjuez",
+   "url": "https://open.spotify.com/search/Concierto%20de%20Aranjuez%20Rodrigo",
+   "creator": "Joaquín Rodrigo",
+   "channel": null,
    "lat": 40.0364,
    "lon": -3.6083
-  },
-  {
-   "id": "4OhctDM5dx6cktQtrAvFcu",
-   "title": "La Verbena de la Paloma",
-   "type": "music",
-   "place": "La Latina district (area)",
-   "lat": 40.4115,
-   "lon": -3.7106
   },
   {
    "id": "29Ly8VjKy2xs5otcKsrQe7",
    "title": "Madrid",
    "type": "music",
    "place": "Gran Vía avenue",
+   "url": "https://open.spotify.com/search/Agust%C3%ADn%20Lara%20Madrid",
+   "creator": "Agustín Lara",
+   "channel": null,
    "lat": 40.4189,
    "lon": -3.6969
+  },
+  {
+   "id": "55d2oCFRMXPS7VSBGysiuI",
+   "title": "Quiero ser libre",
+   "type": "music",
+   "place": "Puerta del Sol square",
+   "url": "https://open.spotify.com/search/Los%20Chichos%20Quiero%20ser%20libre",
+   "creator": "Los Chichos",
+   "channel": null,
+   "lat": 40.4169,
+   "lon": -3.7035
   },
   {
    "id": "6T4mgosxYXEt4x6BxhK6Uq",
    "title": "Madrid",
    "type": "music",
    "place": "Puerta del Sol square",
+   "url": "https://open.spotify.com/search/Burning%20Madrid",
+   "creator": "Burning",
+   "channel": null,
    "lat": 40.4169,
    "lon": -3.7035
   },
@@ -870,6 +61,9 @@
    "title": "Pongamos que hablo de Madrid",
    "type": "music",
    "place": "Puerta del Sol square",
+   "url": "https://open.spotify.com/search/Sabina%20Pongamos%20que%20hablo%20de%20Madrid",
+   "creator": "Joaquín Sabina",
+   "channel": null,
    "lat": 40.4169,
    "lon": -3.7035
   },
@@ -878,62 +72,53 @@
    "title": "La chica de ayer",
    "type": "music",
    "place": "El Penta bar, Malasaña",
+   "url": "https://open.spotify.com/search/Nacha%20Pop%20La%20chica%20de%20ayer",
+   "creator": "Nacha Pop",
+   "channel": null,
    "lat": 40.4262,
    "lon": -3.7017
-  },
-  {
-   "id": "55d2oCFRMXPS7VSBGysiuI",
-   "title": "Quiero ser libre",
-   "type": "music",
-   "place": "Puerta del Sol square",
-   "lat": 40.4169,
-   "lon": -3.7035
-  },
-  {
-   "id": "3RR8MHdCug8QrUypCUMyEb",
-   "title": "Corazón Partío",
-   "type": "music",
-   "place": "Moratalaz district (area)",
-   "lat": 40.4072,
-   "lon": -3.657
   },
   {
    "id": "4dqPqEtLNWBcrsrErRL0xl",
    "title": "Hoy no me puedo levantar",
    "type": "music",
    "place": "Malasaña district (area)",
+   "url": "https://open.spotify.com/search/Mecano%20Hoy%20no%20me%20puedo%20levantar",
+   "creator": "Mecano",
+   "channel": null,
    "lat": 40.4234,
    "lon": -3.7078
-  },
-  {
-   "id": "4SwuCeJTyZTkdmdYmzE1pQ",
-   "title": "Cayetano",
-   "type": "music",
-   "place": "Salamanca district (area)",
-   "lat": 40.4279,
-   "lon": -3.6868
   },
   {
    "id": "1vJMYmUfi4WTMt8WpDN4Z8",
    "title": "A quién le importa",
    "type": "music",
    "place": "Chueca district (area)",
+   "url": "https://open.spotify.com/search/Alaska%20Dinarama%20A%20qui%C3%A9n%20le%20importa",
+   "creator": "Alaska y Dinarama",
+   "channel": null,
    "lat": 40.4231,
    "lon": -3.6996
   },
   {
-   "id": "3w40wL5Oxba7gDK49uYRxR",
-   "title": "Tú Me Dejaste de Querer",
+   "id": "3RR8MHdCug8QrUypCUMyEb",
+   "title": "Corazón Partío",
    "type": "music",
-   "place": "Puerta del Sol square",
-   "lat": 40.4169,
-   "lon": -3.7035
+   "place": "Moratalaz district (area)",
+   "url": "https://open.spotify.com/search/Alejandro%20Sanz%20Coraz%C3%B3n%20Part%C3%ADo",
+   "creator": "Alejandro Sanz",
+   "channel": null,
+   "lat": 40.4072,
+   "lon": -3.657
   },
   {
-   "id": "3Vk6bhZo8cYJODMtse2gZC",
-   "title": "Rumba",
+   "id": "6a3dKlUklfDSzvqiC9HXhM",
+   "title": "Lady Madrid",
    "type": "music",
    "place": "Puerta del Sol square",
+   "url": "https://open.spotify.com/search/Pereza%20Lady%20Madrid",
+   "creator": "Pereza",
+   "channel": null,
    "lat": 40.4169,
    "lon": -3.7035
   },
@@ -942,14 +127,1186 @@
    "title": "Copenhague",
    "type": "music",
    "place": "Tres Cantos (area)",
+   "url": "https://open.spotify.com/search/Vetusta%20Morla%20Copenhague",
+   "creator": "Vetusta Morla",
+   "channel": null,
    "lat": 40.6007,
    "lon": -3.708
+  },
+  {
+   "id": "4SwuCeJTyZTkdmdYmzE1pQ",
+   "title": "Cayetano",
+   "type": "music",
+   "place": "Salamanca district (area)",
+   "url": "https://open.spotify.com/search/Carolina%20Durante%20Cayetano",
+   "creator": "Carolina Durante",
+   "channel": null,
+   "lat": 40.4279,
+   "lon": -3.6868
+  },
+  {
+   "id": "3w40wL5Oxba7gDK49uYRxR",
+   "title": "Tú Me Dejaste de Querer",
+   "type": "music",
+   "place": "Puerta del Sol square",
+   "url": "https://open.spotify.com/search/C%20Tangana%20T%C3%BA%20Me%20Dejaste%20de%20Querer",
+   "creator": "C. Tangana",
+   "channel": null,
+   "lat": 40.4169,
+   "lon": -3.7035
+  },
+  {
+   "id": "3Vk6bhZo8cYJODMtse2gZC",
+   "title": "Rumba",
+   "type": "music",
+   "place": "Puerta del Sol square",
+   "url": "https://open.spotify.com/search/Natos%20y%20Waor%20Rumba",
+   "creator": "Natos y Waor",
+   "channel": null,
+   "lat": 40.4169,
+   "lon": -3.7035
+  },
+  {
+   "id": "BEG2vy4r4dUc1DtQkkJtD",
+   "title": "The Garden of Earthly Delights by Hieronymus Bosch",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/SMOEKQtPsY4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "14blinPjFea3ScRDzoPgZ3",
+   "title": "Guernica by Pablo Picasso",
+   "type": "video",
+   "place": "Reina Sofía Museum",
+   "url": "https://www.youtube.com/watch?v=qJLH7JAsBHA",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 40.408,
+   "lon": -3.6945
+  },
+  {
+   "id": "6E0jfqnZ7utABevl7VWGRh",
+   "title": "Las Meninas by Diego Velázquez",
+   "type": "podcast",
+   "place": "Prado Museum",
+   "url": "https://podcasts.apple.com/us/podcast/diego-vel%C3%A1zquez-las-meninas-gazing-through-the-mirror/id1844970987?i=1000768498630&uo=4",
+   "creator": null,
+   "channel": "Inside the Masterpiece",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "1qJm9TgjUI0jFNAAOjA5gx",
+   "title": "The Day of the Beast (El día de la bestia)",
+   "type": "movie",
+   "place": "KIO Towers, Plaza de Castilla",
+   "url": "https://justwatch.com/us/search?q=The%20Day%20of%20the%20Beast",
+   "creator": "Álex de la Iglesia",
+   "channel": null,
+   "lat": 40.4664,
+   "lon": -3.6888
+  },
+  {
+   "id": "27CygbY4brGLfAg8NZtZDc",
+   "title": "May God Save Us (Que Dios nos perdone)",
+   "type": "movie",
+   "place": "Puerta del Sol square",
+   "url": "https://justwatch.com/us/search?q=May%20God%20Save%20Us",
+   "creator": "Rodrigo Sorogoyen",
+   "channel": null,
+   "lat": 40.4169,
+   "lon": -3.7035
+  },
+  {
+   "id": "T91tnOcNFysi1QSAcElbd",
+   "title": "Terror on the transit system",
+   "type": "podcast",
+   "place": "Atocha station",
+   "url": "https://overcast.fm/+JJ0LWNaNo",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 40.40609,
+   "lon": -3.69053
+  },
+  {
+   "id": "32cFFxqpDykRwFxfzHnRWW",
+   "title": "Theater during the Spanish Golden Age",
+   "type": "video",
+   "place": "Corral de Comedias theater, Alcalá de Henares",
+   "url": "https://youtu.be/pDFiY81TLIM",
+   "creator": null,
+   "channel": "Crash Course",
+   "lat": 40.48229,
+   "lon": -3.36455
+  },
+  {
+   "id": "1NYCG7lIdmJf55cWi8Sfsh",
+   "title": "Almodóvar on Almodóvar",
+   "type": "book",
+   "place": "Malasaña district (area)",
+   "url": "https://goodreads.com/search?q=Almod%C3%B3var%20on%20Almod%C3%B3var%20Strauss",
+   "creator": "Frédéric Strauss",
+   "channel": null,
+   "lat": 40.4234,
+   "lon": -3.7078
+  },
+  {
+   "id": "6ZqJoyV7OPpWEmMNrvdpGP",
+   "title": "Madrid: A Cultural History",
+   "type": "book",
+   "place": "Puerta del Sol square",
+   "url": "https://goodreads.com/search?q=Elizabeth%20Nash%20Madrid%20A%20Cultural%20History",
+   "creator": "Elizabeth Nash",
+   "channel": null,
+   "lat": 40.4169,
+   "lon": -3.7035
+  },
+  {
+   "id": "5nL9q7Hud7hFMzGmyaXpUY",
+   "title": "Death in the Afternoon",
+   "type": "book",
+   "place": "Las Ventas bullring",
+   "url": "https://goodreads.com/search?q=Ernest%20Hemingway%20Death%20in%20the%20Afternoon",
+   "creator": "Ernest Hemingway",
+   "channel": null,
+   "lat": 40.4321,
+   "lon": -3.6633
+  },
+  {
+   "id": "3N6DZEnuQLpinjYp9Jr36t",
+   "title": "The Forging of a Rebel",
+   "type": "book",
+   "place": "Lavapiés district (area)",
+   "url": "https://goodreads.com/search?q=Arturo%20Barea%20The%20Forging%20of%20a%20Rebel",
+   "creator": "Arturo Barea",
+   "channel": null,
+   "lat": 40.4084,
+   "lon": -3.7008
+  },
+  {
+   "id": "4aczqXt2OxFj6SEvSjdDrW",
+   "title": "The Third of May 1808 by Francisco Goya",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/_QM-DfhrNv8",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "34nsvjn9oA1CbIRCLzbfnP",
+   "title": "The Haywain Triptych by Hieronymus Bosch",
+   "type": "podcast",
+   "place": "Prado Museum",
+   "url": "https://podcasts.apple.com/us/podcast/season-5-ep-7-the-haywain-tryptich-by-hieronymus-bosch/id1573430649?i=1000684256238&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "2ticZV4axpXB7T3yz1wtue",
+   "title": "The Atocha lawyers massacre, 1977",
+   "type": "podcast",
+   "place": "Calle de Atocha 55",
+   "url": "https://www.bbc.co.uk/programmes/p04pr3bg",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 40.4128,
+   "lon": -3.6992
+  },
+  {
+   "id": "1ybi3M54NAOuKYCh0bLJXz",
+   "title": "Truman",
+   "type": "movie",
+   "place": "Chamberí district (area)",
+   "url": "https://justwatch.com/us/search?q=Truman%202015",
+   "creator": "Cesc Gay",
+   "channel": null,
+   "lat": 40.434,
+   "lon": -3.7
+  },
+  {
+   "id": "3yFu5VYgYypOQAdN7JJrk0",
+   "title": "Barrio",
+   "type": "movie",
+   "place": "Orcasitas district (area)",
+   "url": "https://justwatch.com/us/search?q=Barrio%201998",
+   "creator": "Fernando León de Aranoa",
+   "channel": null,
+   "lat": 40.376,
+   "lon": -3.705
+  },
+  {
+   "id": "3QVkZBSZB0KzFK39k4vqYD",
+   "title": "What Have I Done to Deserve This? (¿Qué he hecho yo para merecer esto!)",
+   "type": "movie",
+   "place": "Colmena tower blocks, La Concepción (area)",
+   "url": "https://justwatch.com/us/search?q=What%20Have%20I%20Done%20to%20Deserve%20This",
+   "creator": "Pedro Almodóvar",
+   "channel": null,
+   "lat": 40.4335,
+   "lon": -3.648
+  },
+  {
+   "id": "xevxYZG6MOKRXVHRSdfiU",
+   "title": "Madrid Walking Tour: Manzanares River’s Story from Prehistory to Popular Park",
+   "type": "audiotour",
+   "place": "Matadero Madrid arts center",
+   "url": "https://voicemap.me/tour/madrid/madrid-walking-tour-manzanares-river-s-story-from-prehistory-to-popular-park",
+   "creator": "Clare Starkie",
+   "channel": null,
+   "lat": 40.3911,
+   "lon": -3.6961
+  },
+  {
+   "id": "1cezcQraIS2TdccKrQGWjL",
+   "title": "Multicultural Madrid Walking Tour: From Plaza Mayor to Lavapiés",
+   "type": "audiotour",
+   "place": "Plaza Mayor",
+   "url": "https://voicemap.me/tour/madrid/from-the-inquisition-to-multiculturalism-a-walk-from-plaza-mayor-to-lavapies",
+   "creator": "Melissa Dura",
+   "channel": null,
+   "lat": 40.4154,
+   "lon": -3.7074
+  },
+  {
+   "id": "4Dp8dFKI6elE6WwpvzyQ1V",
+   "title": "Medieval Madrid: A Guide to the City’s Muslim Past",
+   "type": "audiotour",
+   "place": "Plaza de Oriente",
+   "url": "https://voicemap.me/tour/madrid/medieval-madrid-a-guide-to-the-city-s-muslim-past",
+   "creator": "Felicity Hughes",
+   "channel": null,
+   "lat": 40.4183,
+   "lon": -3.712
+  },
+  {
+   "id": "6hoAh4AsNy97bfKlOUeBql",
+   "title": "Malasaña Backstreets: Rebellious Suburb to Hipster Haven",
+   "type": "audiotour",
+   "place": "Plaza de la Luna",
+   "url": "https://voicemap.me/tour/madrid/malasana-backstreets-rebellious-suburb-to-hipster-haven",
+   "creator": "Felicity Hughes",
+   "channel": null,
+   "lat": 40.4211,
+   "lon": -3.7047
+  },
+  {
+   "id": "3VIKiAMlSkwyLfTVYMrZim",
+   "title": "El Retiro Park’s Rise, Ruin and Redemption: A Tour of the Former Royal Retreat",
+   "type": "audiotour",
+   "place": "Goya Monument, beside the Prado Museum",
+   "url": "https://voicemap.me/tour/madrid/el-retiro-park-s-rise-ruin-and-redemption-a-tour-of-the-former-royal-retreat",
+   "creator": "Felicity Hughes",
+   "channel": null,
+   "lat": 40.415,
+   "lon": -3.6925
+  },
+  {
+   "id": "4N5QN0P9Og5RGUOQ8eOPS0",
+   "title": "Madrid’s Literary District: A Barrio de las Letras Tour",
+   "type": "audiotour",
+   "place": "Plaza de Santa Ana",
+   "url": "https://voicemap.me/tour/madrid/madrid-s-literary-district-a-barrio-de-las-letras-tour",
+   "creator": "Felicity Hughes",
+   "channel": null,
+   "lat": 40.4148,
+   "lon": -3.7004
+  },
+  {
+   "id": "HjiIdewU7lxeRm3wHqcHA",
+   "title": "Beauty, Scandals, and Masterpieces: A Prado Museum Audio Guide",
+   "type": "audiotour",
+   "place": "Prado Museum",
+   "url": "https://voicemap.me/tour/madrid/beauty-scandals-and-masterpieces-a-prado-museum-audio-guide",
+   "creator": "Yohanna Lerman",
+   "channel": null,
+   "lat": 40.4139,
+   "lon": -3.6921
+  },
+  {
+   "id": "60W92U5kbPA8gO9ZyiTq0W",
+   "title": "History with a Side of Tapas: A Local’s Madrid",
+   "type": "audiotour",
+   "place": "Plaza de Isabel II",
+   "url": "https://voicemap.me/tour/madrid/history-with-a-side-of-tapas-a-local-s-madrid",
+   "creator": "Native Spanish Tapas",
+   "channel": null,
+   "lat": 40.4179,
+   "lon": -3.7093
+  },
+  {
+   "id": "1FQidCQ4h11vTz2UzTGvit",
+   "title": "Tales of the Old Town: A Madrid Walking Tour with Context",
+   "type": "audiotour",
+   "place": "Isabel II statue, Plaza de Isabel II",
+   "url": "https://voicemap.me/tour/madrid/tales-of-the-old-town-a-madrid-walking-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 40.4182,
+   "lon": -3.7094
+  },
+  {
+   "id": "ZpkAdanCwaTUq4HtAPPAV",
+   "title": "Madrid’s Golden Age: 500 Years of History along the Manzanares River",
+   "type": "audiotour",
+   "place": "Segovia Bridge",
+   "url": "https://voicemap.me/tour/madrid/madrid-s-golden-age-500-years-of-history-along-the-manzanares-river",
+   "creator": "Clare Starkie",
+   "channel": null,
+   "lat": 40.4138,
+   "lon": -3.7241
+  },
+  {
+   "id": "36mdKTIhmcBeaFzEceeSWC",
+   "title": "Elegant Salamanca and Chueca: A Guide to Madrid’s Posh Districts with Context",
+   "type": "audiotour",
+   "place": "Cibeles Palace (City Hall)",
+   "url": "https://voicemap.me/tour/madrid/elegant-salamanca-and-chueca-a-guide-to-madrid-s-posh-districts-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 40.4192,
+   "lon": -3.6923
+  },
+  {
+   "id": "2aYniKZ7OLi1Ni0Ub7x7jl",
+   "title": "Tesis (Thesis)",
+   "type": "movie",
+   "place": "Ciudad Universitaria campus (area)",
+   "url": "https://justwatch.com/us/search?q=Tesis%20Thesis%201996",
+   "creator": "Alejandro Amenábar",
+   "channel": null,
+   "lat": 40.4436,
+   "lon": -3.7308
+  },
+  {
+   "id": "143tjNvyqluY9cWT0UEXr5",
+   "title": "Death of a Cyclist (Muerte de un ciclista)",
+   "type": "movie",
+   "place": "Salamanca district (area)",
+   "url": "https://justwatch.com/us/search?q=Death%20of%20a%20Cyclist",
+   "creator": "Juan Antonio Bardem",
+   "channel": null,
+   "lat": 40.427,
+   "lon": -3.681
+  },
+  {
+   "id": "2J9tDkpdr7wWAnrcogWElF",
+   "title": "The Silence of Others (El silencio de otros)",
+   "type": "movie",
+   "place": "La Almudena Cemetery",
+   "url": "https://justwatch.com/us/search?q=The%20Silence%20of%20Others",
+   "creator": "Almudena Carracedo & Robert Bahar",
+   "channel": null,
+   "lat": 40.4193,
+   "lon": -3.6332
+  },
+  {
+   "id": "6gJMKrPtFgvgoZ2AVnljsQ",
+   "title": "Surcos (Furrows)",
+   "type": "movie",
+   "place": "Lavapiés district (area)",
+   "url": "https://justwatch.com/us/search?q=Surcos%20Furrows%201951",
+   "creator": "José Antonio Nieves Conde",
+   "channel": null,
+   "lat": 40.409,
+   "lon": -3.701
+  },
+  {
+   "id": "4fOvwbm4iwFasfRdk6gD2J",
+   "title": "El verdugo (The Executioner)",
+   "type": "movie",
+   "place": "Plaza Mayor",
+   "url": "https://justwatch.com/us/search?q=The%20Executioner%20Berlanga",
+   "creator": "Luis García Berlanga",
+   "channel": null,
+   "lat": 40.4155,
+   "lon": -3.7074
+  },
+  {
+   "id": "j6ePGqgNohxKz9Bm3ceD6",
+   "title": "Goya’s Ghosts",
+   "type": "movie",
+   "place": "Prado Museum",
+   "url": "https://justwatch.com/us/search?q=Goyas%20Ghosts",
+   "creator": "Miloš Forman",
+   "channel": null,
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "4bVEA2PMrPPpaAQoIisM9o",
+   "title": "The Garden of Earthly Delights by Hieronymus Bosch",
+   "type": "podcast",
+   "place": "Prado Museum",
+   "url": "https://podcasts.apple.com/us/podcast/hieronymus-bosch-the-garden-of-earthly-delights/id1844970987?i=1000788397325&uo=4",
+   "creator": null,
+   "channel": "Inside the Masterpiece",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "4VlLRqU0X3nvHvJZNURPoA",
+   "title": "Las Meninas by Diego Velázquez",
+   "type": "podcast",
+   "place": "Prado Museum",
+   "url": "https://podcasts.apple.com/us/podcast/season-4-ep-7-las-meninas-by-diego-vel%C3%A1zquez/id1573430649?i=1000658151347&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "57h47aCLL2smUa0XCJId9E",
+   "title": "Guernica by Pablo Picasso",
+   "type": "podcast",
+   "place": "Reina Sofía Museum",
+   "url": "https://www.bbc.co.uk/programmes/b09bxkdm",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 40.408,
+   "lon": -3.6943
+  },
+  {
+   "id": "2XZp3Jtzt4iTIx5G9Z5olT",
+   "title": "The Black Paintings by Francisco Goya",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://www.youtube.com/watch?v=9JqS6HfsYIM",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "67uEij89J8XVJMnF9i6uc6",
+   "title": "Las Meninas by Diego Velázquez",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://www.youtube.com/watch?v=YFI6cQF1ros",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "2nkIcCtvcvRaccdWByQ0i8",
+   "title": "The Garden of Earthly Delights by Hieronymus Bosch",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://www.youtube.com/watch?v=vBG621XEegk",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "nZvOR5odgH60zjzuVHhVu",
+   "title": "Apollo in the Forge of Vulcan by Diego Velázquez",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/qoHva5i85Qo",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "25tgdOtRo6dvGKbyrC4mO1",
+   "title": "Saturn Devouring His Son by Francisco Goya",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/3Lawz8TcPig",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "45IXUS1vpNum0IDpBK8J2z",
+   "title": "The Death of the Virgin by Andrea Mantegna",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/Du-0kAn4u6w",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "U9YaD1XBOQLcuMpB2e09v",
+   "title": "The Triumph of Bacchus (Los Borrachos) by Diego Velázquez",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/dNoeLF6I52s",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "y01n8KnO9ClLxsOwmlVtg",
+   "title": "Self-Portrait by Albrecht Dürer",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/OQEWArXaCeg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "4epbXUXhjEEKS6Aduf4qox",
+   "title": "The Martyrdom of Saint Philip by Jusepe de Ribera",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/xz5DhwMsS1A",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "77oqgf9i4NbRBCYZg9Ax9q",
+   "title": "The Calling of Saint Matthew by Juan de Pareja",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/8unpOnvDDaw",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "40GMLMjBtEdSkRaofYeQtP",
+   "title": "The Descent from the Cross by Rogier van der Weyden",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/8B6zc7UyC7o",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "19Zc31ZgnwiHVCclN0ICJJ",
+   "title": "The Annunciation by Fra Angelico",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/6lH7zWK_SAg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "4qkuZ3hJ243BtYVUiTdzg7",
+   "title": "Guernica by Pablo Picasso",
+   "type": "video",
+   "place": "Reina Sofía Museum",
+   "url": "https://youtu.be/a3IX1YgRG-g",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.408,
+   "lon": -3.6945
+  },
+  {
+   "id": "5Ena72s8u4nU5FQbesxMf1",
+   "title": "The Family of Charles IV by Francisco Goya",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/2EAo3nzS1bY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "7CVfTVRdIyNm6XdImOHosV",
+   "title": "Royal Madrid: Scandal and Secrets from Puerta del Sol to the Palace",
+   "type": "audiotour",
+   "place": "Puerta del Sol square",
+   "url": "https://voicemap.me/tour/madrid/royal-madrid-scandal-and-secrets-from-puerta-del-sol-to-the-palace",
+   "creator": "Yohanna Lerman",
+   "channel": null,
+   "lat": 40.4169,
+   "lon": -3.7038
+  },
+  {
+   "id": "22YLnATN2v6Tn3edufD5kf",
+   "title": "The Battle for Spain",
+   "type": "book",
+   "place": "Ciudad Universitaria campus (area)",
+   "url": "https://goodreads.com/search?q=Antony%20Beevor%20The%20Battle%20for%20Spain",
+   "creator": "Antony Beevor",
+   "channel": null,
+   "lat": 40.4453,
+   "lon": -3.7331
+  },
+  {
+   "id": "27VKr8JYzoc56ZFF3uJdrs",
+   "title": "Goya",
+   "type": "book",
+   "place": "San Antonio de la Florida Chapel",
+   "url": "https://goodreads.com/search?q=Robert%20Hughes%20Goya",
+   "creator": "Robert Hughes",
+   "channel": null,
+   "lat": 40.4254,
+   "lon": -3.7256
+  },
+  {
+   "id": "1eaQmAVc1cpTvSk8P0vgWi",
+   "title": "The Vanishing Velázquez",
+   "type": "book",
+   "place": "Prado Museum",
+   "url": "https://goodreads.com/search?q=Laura%20Cumming%20The%20Vanishing%20Vel%C3%A1zquez",
+   "creator": "Laura Cumming",
+   "channel": null,
+   "lat": 40.4138,
+   "lon": -3.6921
+  },
+  {
+   "id": "5pK0fg6tm0VuYLcFtSzWST",
+   "title": "The Spanish Holocaust",
+   "type": "book",
+   "place": "La Almudena Cemetery (east wall)",
+   "url": "https://goodreads.com/search?q=Paul%20Preston%20The%20Spanish%20Holocaust",
+   "creator": "Paul Preston",
+   "channel": null,
+   "lat": 40.4255,
+   "lon": -3.6458
+  },
+  {
+   "id": "6IeerLxp3QtyBn5egLgPLX",
+   "title": "Spain: The Trials and Triumphs of a Modern European Country",
+   "type": "book",
+   "place": "Congress of Deputies (parliament)",
+   "url": "https://goodreads.com/search?q=Michael%20Reid%20Spain%20Trials%20and%20Triumphs",
+   "creator": "Michael Reid",
+   "channel": null,
+   "lat": 40.4164,
+   "lon": -3.6966
+  },
+  {
+   "id": "3A7GyOePB6ANnhXLuaZtDH",
+   "title": "Fear and Loathing in La Liga",
+   "type": "book",
+   "place": "Santiago Bernabéu Stadium",
+   "url": "https://goodreads.com/search?q=Sid%20Lowe%20Fear%20and%20Loathing%20in%20La%20Liga",
+   "creator": "Sid Lowe",
+   "channel": null,
+   "lat": 40.453,
+   "lon": -3.6884
+  },
+  {
+   "id": "5GFbeHAxY6dZJ01b82a9V1",
+   "title": "Winter in Madrid",
+   "type": "book",
+   "place": "Gran Vía avenue",
+   "url": "https://goodreads.com/search?q=C.J.%20Sansom%20Winter%20in%20Madrid",
+   "creator": "C.J. Sansom",
+   "channel": null,
+   "lat": 40.4189,
+   "lon": -3.6969
+  },
+  {
+   "id": "38hZi0bTr02qHvev7MEPJ",
+   "title": "Las bicicletas son para el verano (Bicycles Are for the Summer)",
+   "type": "movie",
+   "place": "Argüelles district (area)",
+   "url": "https://justwatch.com/us/search?q=Bicycles%20Are%20for%20the%20Summer",
+   "creator": "Jaime Chávarri",
+   "channel": null,
+   "lat": 40.429,
+   "lon": -3.716
+  },
+  {
+   "id": "4qm75D27mIgfcyPeJT7d8s",
+   "title": "The woman who fights bulls",
+   "type": "video",
+   "place": "Las Ventas bullring",
+   "url": "https://youtu.be/PZhMB9xZU6M",
+   "creator": null,
+   "channel": "BBC Reel",
+   "lat": 40.4317,
+   "lon": -3.66298
+  },
+  {
+   "id": "2r6xSqH3hR9jkNsjsL5xcj",
+   "title": "Jamón Jamón: Getting to know Spanish ham",
+   "type": "video",
+   "place": "Mercado Jamón Ibérico ham shop",
+   "url": "https://youtu.be/V0ZSv95JY-E",
+   "creator": null,
+   "channel": "Devour Tours",
+   "lat": 40.41541,
+   "lon": -3.71164
+  },
+  {
+   "id": "5QMOqHOKnViMV5xumQyC28",
+   "title": "The hidden restaurant near Plaza de España",
+   "type": "video",
+   "place": "Cafetería Yulong Zhou, Plaza de España underpass",
+   "url": "https://youtu.be/WnMM14p93oM",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 40.42375,
+   "lon": -3.7114
+  },
+  {
+   "id": "1nqafspf1oW4lzosogEDjm",
+   "title": "The disappearing barquilleros",
+   "type": "video",
+   "place": "Plaza Mayor",
+   "url": "https://youtu.be/4iYwq_lsMjs",
+   "creator": null,
+   "channel": "Culture Trip",
+   "lat": 40.41538,
+   "lon": -3.70767
+  },
+  {
+   "id": "42pH9TDHOXaLF09GhRv6Nn",
+   "title": "Five classic tapas to try in Madrid",
+   "type": "video",
+   "place": "La Casa del Abuelo tapas bar",
+   "url": "https://youtu.be/r4-QbbGNMg4",
+   "creator": null,
+   "channel": "Devour Tours",
+   "lat": 40.41573,
+   "lon": -3.70175
+  },
+  {
+   "id": "2qsP9M9xNmzYwu5atE5oOP",
+   "title": "Breathing new life into Franco-era military apartments",
+   "type": "video",
+   "place": "Edificio Princesa apartment building",
+   "url": "https://youtu.be/lWtileUiD4Y",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 40.4293,
+   "lon": -3.70705
+  },
+  {
+   "id": "5FhHUaPuVflxcJlbmewDtJ",
+   "title": "The oldest restaurant in the world",
+   "type": "video",
+   "place": "Sobrino de Botín restaurant",
+   "url": "https://youtu.be/c24xTGTaTNI",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 40.41418,
+   "lon": -3.70791
+  },
+  {
+   "id": "2RW5XTN5Vj6qGHY6A8NCtN",
+   "title": "Archiving the world’s art and cultural treasures ",
+   "type": "video",
+   "place": "Factum Arte workshop",
+   "url": "https://youtu.be/KaqOquFn5Og",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 40.43499,
+   "lon": -3.63304
+  },
+  {
+   "id": "36ql02keQK5fbWprH0Rqbr",
+   "title": "Suiting up matadors at Fermín Tailor Shop",
+   "type": "video",
+   "place": "Fermín bullfighters’ tailor shop (not open to visitors)",
+   "url": "https://youtu.be/BQpPcnLeAMM",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 40.41843,
+   "lon": -3.70062
+  },
+  {
+   "id": "1O2YwAtwrb0ZTXhacY1ErZ",
+   "title": "Street racing with daredevil bike messengers",
+   "type": "video",
+   "place": "Segovia Viaduct",
+   "url": "https://youtu.be/fFHreaPdBP8",
+   "creator": null,
+   "channel": "Nowness",
+   "lat": 40.41391,
+   "lon": -3.71362
+  },
+  {
+   "id": "3yYYm3dVzqGgKoejVmr7Ud",
+   "title": "Colegio Estudio: A school infused with idealism",
+   "type": "video",
+   "place": "Colegio Estudio school, Aravaca",
+   "url": "https://youtu.be/hVV6zh-kxjI",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 40.47038,
+   "lon": -3.76814
+  },
+  {
+   "id": "1O3S94eE3z60YjwShwIcLM",
+   "title": "Touching art at the Prado",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/dF5oTdfyfwc",
+   "creator": null,
+   "channel": "PBS NewsHour",
+   "lat": 40.41409,
+   "lon": -3.6915
+  },
+  {
+   "id": "6IBJKReqorCyIaWl6cwCVr",
+   "title": "Memories of bullfighting on Plaza Mayor",
+   "type": "video",
+   "place": "Plaza Mayor",
+   "url": "https://youtu.be/dbQI-PszCvQ",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 40.41583,
+   "lon": -3.70768
+  },
+  {
+   "id": "7kVQ6qPRGe8WCVtM8RFLO2",
+   "title": "Looking closely at Las Meninas by Velasquez",
+   "type": "video",
+   "place": "Prado Museum",
+   "url": "https://youtu.be/WKRKrpz09Fk",
+   "creator": null,
+   "channel": "The Nerdwriter",
+   "lat": 40.41384,
+   "lon": -3.69191
+  },
+  {
+   "id": "6QHlDSXgQlY3tjlWMuDWCa",
+   "title": "The high-speed train to Barcelona",
+   "type": "video",
+   "place": "Atocha station",
+   "url": "https://youtu.be/uuuBfs6Iyfs",
+   "creator": null,
+   "channel": "Smithsonian Channel",
+   "lat": 40.40608,
+   "lon": -3.6906
+  },
+  {
+   "id": "5BulXZ8x0GmynNhGVioFU2",
+   "title": "What it’s like to be held hostage during a failed coup",
+   "type": "podcast",
+   "place": "Congress of Deputies (parliament)",
+   "url": "https://overcast.fm/+L1D0JVT9g",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 40.41639,
+   "lon": -3.6966
+  },
+  {
+   "id": "5X3Ne73ueIEV2UKpBAEdjM",
+   "title": "A day trip to monumental El Escorial",
+   "type": "video",
+   "place": "Royal Monastery of El Escorial",
+   "url": "https://youtu.be/_OUIKm8e7Y0",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 40.58904,
+   "lon": -4.14772
+  },
+  {
+   "id": "42AQBUynxkPpPTPOejzbBk",
+   "title": "A more sustainable world one garden at a time",
+   "type": "video",
+   "place": "Desert City botanical garden, San Sebastián de los Reyes",
+   "url": "https://youtu.be/0Zhe6njlSuw",
+   "creator": null,
+   "channel": "Dezeen",
+   "lat": 40.59897,
+   "lon": -3.58158
+  },
+  {
+   "id": "2duQuuspRgk4RLysKrzt7I",
+   "title": "An assemblage of flavors at Mercado San Miguel",
+   "type": "video",
+   "place": "Mercado de San Miguel market",
+   "url": "https://youtu.be/RnENlKBuUR8",
+   "creator": null,
+   "channel": "Devour Tours",
+   "lat": 40.41539,
+   "lon": -3.70905
+  },
+  {
+   "id": "3FEpGTq2U0BilSE1HqkZf8",
+   "title": "The pact to forget a fascist past",
+   "type": "podcast",
+   "place": "Valley of the Fallen (Cuelgamuros)",
+   "url": "https://overcast.fm/+DDjV4gY",
+   "creator": null,
+   "channel": "99% Invisible",
+   "lat": 40.64091,
+   "lon": -4.15984
+  },
+  {
+   "id": "5Cew9yrJVoB3AxPnr9Z8mt",
+   "title": "The culture of eating tapas in Madrid",
+   "type": "video",
+   "place": "Casa Macareno tapas bar, Malasaña",
+   "url": "https://youtu.be/3u9wfL2Xk0g",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 40.42544,
+   "lon": -3.7044
+  },
+  {
+   "id": "13MajZGCAv512vbsOCpbRk",
+   "title": "Confronting Spain’s past via Franco’s resting place",
+   "type": "video",
+   "place": "Valley of the Fallen (Cuelgamuros)",
+   "url": "https://youtu.be/mlVJGxLXRlA",
+   "creator": null,
+   "channel": "PBS NewsHour",
+   "lat": 40.64085,
+   "lon": -4.16028
+  },
+  {
+   "id": "4pFdrSyudRPbQKY3siuYZ6",
+   "title": "Surviving the bombing of Guernica",
+   "type": "podcast",
+   "place": "Reina Sofía Museum",
+   "url": "https://overcast.fm/+JJ0L8L0gQ",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 40.40786,
+   "lon": -3.69455
+  },
+  {
+   "id": "23JnJ0P9XwBKgbL3BQWUBN",
+   "title": "The assassination of Spain’s new prime minister",
+   "type": "podcast",
+   "place": "Claudio Coello 104 (site of 1973 Carrero Blanco bombing)",
+   "url": "https://overcast.fm/+BuvhtBdzc",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 40.43416,
+   "lon": -3.68611
+  },
+  {
+   "id": "296NjgCt4lqI8mn2WooQVu",
+   "title": "The bladesmith of Toledo",
+   "type": "video",
+   "place": "Fábrica Zamorano sword workshop, Toledo",
+   "url": "https://youtu.be/nBZIE3C9xiI",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 39.85622,
+   "lon": -4.02572
+  },
+  {
+   "id": "JSn6oPKOaU6hgiYgqf44b",
+   "title": "Procuring the perfect paella",
+   "type": "video",
+   "place": "AlliOli paella restaurant",
+   "url": "https://youtu.be/Eex3lKDeLi0",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 40.40819,
+   "lon": -3.70853
+  },
+  {
+   "id": "6vWmHyig02dnIRe1WJs9V2",
+   "title": "Christmas traditions in Madrid",
+   "type": "podcast",
+   "place": "Plaza Mayor",
+   "url": "https://overcast.fm/+LN8Rw-Xo",
+   "creator": null,
+   "channel": "Notes from Spain",
+   "lat": 40.41525,
+   "lon": -3.70735
+  },
+  {
+   "id": "4WzUXwGLCdg2QgNT0a06wo",
+   "title": "Seeing flamenco outside of Andalusia",
+   "type": "podcast",
+   "place": "Las Carboneras flamenco tablao",
+   "url": "https://overcast.fm/+LN8TA4T8",
+   "creator": null,
+   "channel": "Notes from Spain",
+   "lat": 40.41459,
+   "lon": -3.70922
+  },
+  {
+   "id": "2HfdtCqfBtor5QkjNSFQEx",
+   "title": "Madrid tour with travel writer Rick Steves",
+   "type": "audiotour",
+   "place": "Puerta del Sol square",
+   "url": "https://overcast.fm/+IeF_oEfsk",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
+   "lat": 40.41682,
+   "lon": -3.7035
+  },
+  {
+   "id": "6pLOvhTnQsM2ndiHGhA8uJ",
+   "title": "Attending a bullfight at Las Ventas bullring",
+   "type": "podcast",
+   "place": "Las Ventas bullring",
+   "url": "https://overcast.fm/+NlTSJGt20",
+   "creator": null,
+   "channel": "When In Spain",
+   "lat": 40.43316,
+   "lon": -3.66407
+  },
+  {
+   "id": "1AQYYdbv58RfHUOzTjBLGG",
+   "title": "The sorrowful demise of Federico García Lorca",
+   "type": "podcast",
+   "place": "Lorca statue, Plaza de Santa Ana",
+   "url": "https://overcast.fm/+L03vQGE5Q",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 40.41474,
+   "lon": -3.70049
+  },
+  {
+   "id": "1KGGS3B7L9bLLZuC3gU9qB",
+   "title": "Imagining a cathedral and making it a reality",
+   "type": "video",
+   "place": "Justo Gallego’s cathedral, Mejorada del Campo",
+   "url": "https://youtu.be/pRy3S_tmJj4",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 40.3941,
+   "lon": -3.48841
+  },
+  {
+   "id": "63SbnY3EtvKleK7LAjKPMQ",
+   "title": "Relaxing in the gardens of El Escorial",
+   "type": "podcast",
+   "place": "Friars’ Garden, Royal Monastery of El Escorial",
+   "url": "https://overcast.fm/+LN8CrAcU",
+   "creator": null,
+   "channel": "Notes from Spain",
+   "lat": 40.58817,
+   "lon": -4.14658
+  },
+  {
+   "id": "4TlHo15fLhsJGVImQl5wRJ",
+   "title": "The scandal that sullied the People’s Party",
+   "type": "podcast",
+   "place": "Gran Meliá Fénix hotel",
+   "url": "https://overcast.fm/+G2W3GO-jk",
+   "creator": null,
+   "channel": "The Guardian’s Audio Long Reads",
+   "lat": 40.42646,
+   "lon": -3.68928
+  },
+  {
+   "id": "7aHTg8ulVjTwxlikwKDTmi",
+   "title": "The peculiar world of The Garden of Earthly Delights",
+   "type": "podcast",
+   "place": "Prado Museum",
+   "url": "https://overcast.fm/+Wi6aX6amI",
+   "creator": null,
+   "channel": "The Omnibus",
+   "lat": 40.4141,
+   "lon": -3.69197
+  },
+  {
+   "id": "2KwboZ2O16ZolvmXZEFuhc",
+   "title": "Exploring the historic barrio of La Latina",
+   "type": "podcast",
+   "place": "Mercado de la Cebada market, La Latina",
+   "url": "https://overcast.fm/+NlTRmabA4",
+   "creator": null,
+   "channel": "When In Spain",
+   "lat": 40.41099,
+   "lon": -3.70987
+  },
+  {
+   "id": "Iz6uOW7nGtxVaxP19mTFe",
+   "title": "Getting to know Madrid’s Romani people",
+   "type": "podcast",
+   "place": "Puerta del Sol square",
+   "url": "https://overcast.fm/+NlTQVGpbE",
+   "creator": null,
+   "channel": "When In Spain",
+   "lat": 40.41685,
+   "lon": -3.7043
+  },
+  {
+   "id": "2dh4Ms4fRBuUr1Qgyc6gIU",
+   "title": "Stellar streets and squares in Madrid",
+   "type": "podcast",
+   "place": "Plaza de Olavide",
+   "url": "https://overcast.fm/+NlTS4gKXc",
+   "creator": null,
+   "channel": "When In Spain",
+   "lat": 40.43308,
+   "lon": -3.70067
+  },
+  {
+   "id": "6tlWetZFYIMwxQzpJVep1a",
+   "title": "Dark legacies of the idealistic International Brigade",
+   "type": "podcast",
+   "place": "Gran Vía avenue",
+   "url": "https://overcast.fm/+G2W3jvVkk",
+   "creator": null,
+   "channel": "The Guardian’s Audio Long Reads",
+   "lat": 40.42003,
+   "lon": -3.70149
+  },
+  {
+   "id": "3kV6NrFjoeQlE9RqPycLLI",
+   "title": "Reporting on the transition to democracy",
+   "type": "podcast",
+   "place": "Congress of Deputies (parliament)",
+   "url": "https://overcast.fm/+NlTSrI_HU",
+   "creator": null,
+   "channel": "When In Spain",
+   "lat": 40.41613,
+   "lon": -3.69671
+  },
+  {
+   "id": "7L8fsxmECZiktxkObG4iJ",
+   "title": "Day-tripping to royal Aranjuez",
+   "type": "podcast",
+   "place": "Royal Palace of Aranjuez, Aranjuez",
+   "url": "https://overcast.fm/+NlTQIgbyM",
+   "creator": null,
+   "channel": "When In Spain",
+   "lat": 40.03639,
+   "lon": -3.60907
+  },
+  {
+   "id": "tPTmxCX1zzsphSo6Ia6X2",
+   "title": "The barrels and bodegas of the Sherry Triangle",
+   "type": "podcast",
+   "place": "La Venencia sherry bar",
+   "url": "https://overcast.fm/+NlTQO4RYY",
+   "creator": null,
+   "channel": "When In Spain",
+   "lat": 40.41581,
+   "lon": -3.69956
+  },
+  {
+   "id": "1UKJdeSRN8yFFX6J7X6dtH",
+   "title": "Sights and sounds of El Rastro market",
+   "type": "podcast",
+   "place": "El Rastro flea market",
+   "url": "https://overcast.fm/+NlTTPJJVI",
+   "creator": null,
+   "channel": "When In Spain",
+   "lat": 40.4082,
+   "lon": -3.70729
   },
   {
    "id": "kWhjKDCTS89vyEGlzGhZF",
    "title": "The ghost station of the Madrid metro",
    "type": "video",
    "place": "Chamberí ghost station (Andén 0 museum)",
+   "url": "https://youtu.be/ed_o8RuJtDY",
+   "creator": null,
+   "channel": "The Tim Traveller",
    "lat": 40.43226,
    "lon": -3.69771
   },
@@ -958,6 +1315,9 @@
    "title": "A football temple gets a steel skin and a roof that closes",
    "type": "video",
    "place": "Santiago Bernabéu Stadium",
+   "url": "https://youtu.be/k6m6h2ukSU0",
+   "creator": null,
+   "channel": "The B1M",
    "lat": 40.453,
    "lon": -3.6883
   },
@@ -966,6 +1326,9 @@
    "title": "Tapas crawl through Legazpi and Delicias neighborhoods",
    "type": "video",
    "place": "",
+   "url": "https://youtu.be/k5PcUZwCoCo",
+   "creator": null,
+   "channel": "Spain Revealed",
    "lat": 40.41994,
    "lon": -3.67912
   }

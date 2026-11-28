@@ -2,330 +2,156 @@
  "city": "Brussels",
  "pins": [
   {
-   "id": "4s8Bab8uAQP85j27nexdAW",
-   "title": "The Battle of Waterloo, 1815",
-   "type": "podcast",
-   "place": "Lion’s Mound, Waterloo battlefield",
-   "lat": 50.6787,
-   "lon": 4.4044
+   "id": "57p2JiAOzfnh25HVIVFCZd",
+   "title": "The Brand New Testament (Le Tout Nouveau Testament)",
+   "type": "movie",
+   "place": "Molenbeek (area)",
+   "url": "https://justwatch.com/us/search?q=The%20Brand%20New%20Testament",
+   "creator": "Jaco Van Dormael",
+   "channel": null,
+   "lat": 50.8547,
+   "lon": 4.3378
   },
   {
-   "id": "2IM52OylqHeAMzP5XOBRmT",
-   "title": "The Descent from the Cross by Peter Paul Rubens",
-   "type": "podcast",
-   "place": "Cathedral of Our Lady, Antwerp",
-   "lat": 51.2203,
-   "lon": 4.4015
-  },
-  {
-   "id": "21Vq6xMB1EKuilR67FJvTw",
-   "title": "Virgin and Child with Canon van der Paele by Jan van Eyck",
-   "type": "podcast",
-   "place": "Groeninge Museum, Bruges",
-   "lat": 51.205,
-   "lon": 3.225
-  },
-  {
-   "id": "3RugvLqHbJLBgscjgnTPnF",
-   "title": "The Death of Marat by Jacques-Louis David",
-   "type": "podcast",
-   "place": "Royal Museums of Fine Arts of Belgium",
-   "lat": 50.8417,
-   "lon": 4.3577
-  },
-  {
-   "id": "2gTDrmuCKG8cOUS5CuWlKK",
-   "title": "The Death of Marat by Jacques-Louis David",
+   "id": "2okO1sdVbNZ4Hv8QuU5Ins",
+   "title": "A borough tries to shake off its name after the Paris attacks",
    "type": "video",
-   "place": "Royal Museums of Fine Arts of Belgium",
-   "lat": 50.8418,
-   "lon": 4.358
+   "place": "Place Communale, Molenbeek-Saint-Jean",
+   "url": "https://youtu.be/qbGlxvyR8Nc",
+   "creator": null,
+   "channel": "France 24",
+   "lat": 50.8547,
+   "lon": 4.3378
   },
   {
-   "id": "1nfujYXVzEgqu8Bkoc3XKj",
-   "title": "Art Nouveau's Sublime Capital: A Brussels Walking Tour",
-   "type": "audiotour",
-   "place": "",
-   "lat": 50.8286,
-   "lon": 4.3624
-  },
-  {
-   "id": "55wccsFeI7tPxZ9yTs1QeD",
-   "title": "Hergé: The Man Who Created Tintin",
-   "type": "book",
-   "place": "Belgian Comic Strip Center",
-   "lat": 50.8513,
-   "lon": 4.3602
-  },
-  {
-   "id": "95sil4yHfhrPyQtQcZJ4M",
-   "title": "Brussels: A Cultural and Literary History",
-   "type": "book",
+   "id": "42onra5GKaTPgloGrSqXI6",
+   "title": "A city replays a 1549 parade for an emperor every summer",
+   "type": "video",
    "place": "Grand-Place",
-   "lat": 50.8465,
-   "lon": 4.3527
-  },
-  {
-   "id": "4h0Oqbg13QdBuZYO2kbjO6",
-   "title": "Expo 58",
-   "type": "book",
-   "place": "Atomium",
-   "lat": 50.8949,
-   "lon": 4.3414
-  },
-  {
-   "id": "jHqE49a1YMp7Tg9EbfmGj",
-   "title": "Hidden Brussels: A Local's Guide to Secret Places and Untold Stories",
-   "type": "audiotour",
-   "place": "Bourse (former stock exchange)",
-   "lat": 50.8482,
-   "lon": 4.3499
-  },
-  {
-   "id": "6jG4ZdvVWY94DFWc3Oz3t4",
-   "title": "Brussels and Bureaucracy: A Guide to the EU District and its Architecture",
-   "type": "audiotour",
-   "place": "Cinquantenaire Park",
-   "lat": 50.8397,
-   "lon": 4.3975
-  },
-  {
-   "id": "5DWNcQ8nmgVYM9DdtzyIB9",
-   "title": "Brussels' Noble Beginnings: An Upper Town Walking Tour",
-   "type": "audiotour",
-   "place": "Belgian Federal Parliament (Palace of the Nation)",
-   "lat": 50.8466,
-   "lon": 4.3627
-  },
-  {
-   "id": "2zfWirZDExQnLX9y2FQWkq",
-   "title": "Edith Cavell",
-   "type": "book",
-   "place": "Tir National memorial (Edith Cavell execution site)",
-   "lat": 50.8531,
-   "lon": 4.407
-  },
-  {
-   "id": "1fHzMdKrHJL9hP3ubGdngI",
-   "title": "Medieval and Modern Brussels: A Tour through the Heart of Europe",
-   "type": "audiotour",
-   "place": "Royal Palace of Brussels",
-   "lat": 50.8426,
-   "lon": 4.3627
-  },
-  {
-   "id": "21OE2mXcNjiOTViIjgxrcz",
-   "title": "The Burgundians: A Vanished Empire",
-   "type": "book",
-   "place": "Coudenberg Palace remains, Place Royale",
-   "lat": 50.8429,
-   "lon": 4.3598
-  },
-  {
-   "id": "7cKEUIuQnbntak4kV4BNRP",
-   "title": "A Tall Man in a Low Land",
-   "type": "book",
-   "place": "Manneken Pis statue",
-   "lat": 50.845,
-   "lon": 4.35
-  },
-  {
-   "id": "74hzhhxTMfpUwBvgzScvh8",
-   "title": "Magritte: A Life",
-   "type": "book",
-   "place": "René Magritte Museum (his house in Jette)",
-   "lat": 50.8767,
-   "lon": 4.3357
-  },
-  {
-   "id": "6EWJyDcl2y5XYH8LyZo3Vb",
-   "title": "Villette",
-   "type": "book",
-   "place": "St Michael and St Gudula Cathedral (area)",
-   "lat": 50.8478,
-   "lon": 4.3601
-  },
-  {
-   "id": "4kayyRsBVaF5mtyT3cuy5G",
-   "title": "The Passage to Europe",
-   "type": "book",
-   "place": "Berlaymont building (European Commission)",
-   "lat": 50.8436,
-   "lon": 4.3828
-  },
-  {
-   "id": "4MaXqLgVSMzqRkJglSSwiO",
-   "title": "King Leopold’s Ghost",
-   "type": "book",
-   "place": "Cinquantenaire Arch, Cinquantenaire Park",
-   "lat": 50.8405,
-   "lon": 4.393
-  },
-  {
-   "id": "35LoYPb37hPAAKgtDKqAuQ",
-   "title": "Strange Entity",
-   "type": "music",
-   "place": "Jette (area)",
-   "lat": 50.8781,
-   "lon": 4.326
-  },
-  {
-   "id": "lE389qKePbxZpbCQ13lGd",
-   "title": "Dilemme",
-   "type": "music",
-   "place": "Porte de Namur",
-   "lat": 50.8382,
-   "lon": 4.3628
-  },
-  {
-   "id": "14H7xJelGgOLvoXcDpEJUy",
-   "title": "Formidable",
-   "type": "music",
-   "place": "Louise tram stop",
-   "lat": 50.8339,
-   "lon": 4.3576
-  },
-  {
-   "id": "6nOgug2eop3YigMyaIzNrK",
-   "title": "Moskow Diskow",
-   "type": "music",
-   "place": "Flagey building, Place Flagey",
-   "lat": 50.8276,
-   "lon": 4.3719
-  },
-  {
-   "id": "2BmvtiDiQ6Mkccg2FghzrH",
-   "title": "Headhunter",
-   "type": "music",
-   "place": "Plan K arts venue, Molenbeek",
-   "lat": 50.853,
-   "lon": 4.339
-  },
-  {
-   "id": "6PnGJPqCOkTZYUQTwE1UCI",
-   "title": "Do You Read Me?",
-   "type": "music",
-   "place": "Le Botanique concert venue",
-   "lat": 50.8516,
-   "lon": 4.3672
-  },
-  {
-   "id": "yvG4Qk2Y5VjCMolrfL05q",
-   "title": "Accouplés",
-   "type": "music",
-   "place": "Molenbeek-Saint-Jean (area)",
-   "lat": 50.8553,
-   "lon": 4.3417
-  },
-  {
-   "id": "1LIX01ql0H2xzH2D0QfniI",
-   "title": "Nah Neh Nah",
-   "type": "music",
-   "place": "Place du Grand Sablon",
-   "lat": 50.8419,
-   "lon": 4.3565
-  },
-  {
-   "id": "2cDxvoswwb8wkHLMW4H4fe",
-   "title": "Ça plane pour moi",
-   "type": "music",
-   "place": "Ancienne Belgique concert hall",
-   "lat": 50.8478,
-   "lon": 4.3479
-  },
-  {
-   "id": "5MXEBKEP4LdXu17d1uLpge",
-   "title": "Dominique",
-   "type": "music",
-   "place": "Laeken (area)",
-   "lat": 50.8849,
-   "lon": 4.3487
-  },
-  {
-   "id": "7dF5N1UVNnryuP0x8frBEh",
-   "title": "Bluesette",
-   "type": "music",
-   "place": "Rue Haute, Marolles",
-   "lat": 50.8367,
-   "lon": 4.3467
-  },
-  {
-   "id": "2Y65u44C0dYLIPemryeQab",
-   "title": "Bruxelles",
-   "type": "music",
-   "place": "Schaerbeek (area)",
-   "lat": 50.8676,
-   "lon": 4.3745
-  },
-  {
-   "id": "6CXPbRUxUmo0wc6mZY3b6w",
-   "title": "Bruxelles je t’aime",
-   "type": "music",
-   "place": "Grand-Place",
+   "url": "https://youtu.be/BahBtCnxPOk",
+   "creator": null,
+   "channel": "UNESCO",
    "lat": 50.8467,
    "lon": 4.3525
-  },
-  {
-   "id": "5brGpgAiPTH3BZKkI0KnU2",
-   "title": "Macarena",
-   "type": "music",
-   "place": "Matongé, Ixelles (area)",
-   "lat": 50.8375,
-   "lon": 4.3665
   },
   {
    "id": "3q2KQ4nXIT2G0LSTAIdWaF",
    "title": "Life",
    "type": "music",
    "place": "Place Bockstael, Laeken",
+   "url": "https://open.spotify.com/search/Hamza%20Life%201994",
+   "creator": "Hamza",
+   "channel": null,
    "lat": 50.8797,
    "lon": 4.3441
   },
   {
-   "id": "34zPqPVsd4loWbU10gNx9S",
-   "title": "Black",
-   "type": "movie",
-   "place": "Galerie d’Ixelles, Matongé",
-   "lat": 50.8371,
-   "lon": 4.3636
+   "id": "95sil4yHfhrPyQtQcZJ4M",
+   "title": "Brussels: A Cultural and Literary History",
+   "type": "book",
+   "place": "Grand-Place",
+   "url": "https://goodreads.com/search?q=brussels%20cultural%20literary%20history%20de%20vries",
+   "creator": "André de Vries",
+   "channel": null,
+   "lat": 50.8465,
+   "lon": 4.3527
   },
   {
-   "id": "55DOgYEgx0eBQXtsTxMuZB",
-   "title": "Racer and the Jailbird (Le Fidèle)",
-   "type": "movie",
-   "place": "Avenue Louise",
-   "lat": 50.8334,
-   "lon": 4.3575
+   "id": "7cKEUIuQnbntak4kV4BNRP",
+   "title": "A Tall Man in a Low Land",
+   "type": "book",
+   "place": "Manneken Pis statue",
+   "url": "https://goodreads.com/search?q=a%20tall%20man%20in%20a%20low%20land%20pearson",
+   "creator": "Harry Pearson",
+   "channel": null,
+   "lat": 50.845,
+   "lon": 4.35
   },
   {
-   "id": "5i5nvyTmp2odvTMouRQDX4",
-   "title": "Man Bites Dog (C’est arrivé près de chez vous)",
-   "type": "movie",
-   "place": "INSAS film school",
-   "lat": 50.8399,
-   "lon": 4.3613
+   "id": "21OE2mXcNjiOTViIjgxrcz",
+   "title": "The Burgundians: A Vanished Empire",
+   "type": "book",
+   "place": "Coudenberg Palace remains, Place Royale",
+   "url": "https://goodreads.com/search?q=the%20burgundians%20bart%20van%20loo",
+   "creator": "Bart Van Loo",
+   "channel": null,
+   "lat": 50.8429,
+   "lon": 4.3598
   },
   {
-   "id": "57p2JiAOzfnh25HVIVFCZd",
-   "title": "The Brand New Testament (Le Tout Nouveau Testament)",
-   "type": "movie",
-   "place": "Molenbeek (area)",
-   "lat": 50.8547,
-   "lon": 4.3378
+   "id": "5MXEBKEP4LdXu17d1uLpge",
+   "title": "Dominique",
+   "type": "music",
+   "place": "Laeken (area)",
+   "url": "https://open.spotify.com/search/Soeur%20Sourire%20Dominique",
+   "creator": "Sœur Sourire",
+   "channel": null,
+   "lat": 50.8849,
+   "lon": 4.3487
   },
   {
-   "id": "4CHzYJyqVQQ8tEoFNafHwI",
-   "title": "JCVD",
-   "type": "movie",
-   "place": "Schaerbeek (area)",
-   "lat": 50.867,
-   "lon": 4.378
+   "id": "6EWJyDcl2y5XYH8LyZo3Vb",
+   "title": "Villette",
+   "type": "book",
+   "place": "St. Michael and St. Gudula Cathedral (area)",
+   "url": "https://goodreads.com/search?q=villette%20charlotte%20bronte",
+   "creator": "Charlotte Brontë",
+   "channel": null,
+   "lat": 50.8478,
+   "lon": 4.3601
+  },
+  {
+   "id": "1woBrLPzpCP3eDm931PotL",
+   "title": "Puppets on iron rods play the old city’s stories in local dialect",
+   "type": "video",
+   "place": "Toone puppet theater",
+   "url": "https://youtu.be/tL78hrfARbo",
+   "creator": null,
+   "channel": "UNESCO",
+   "lat": 50.8475,
+   "lon": 4.354
+  },
+  {
+   "id": "3MTSb2DWtsPR7CNawWUOQ",
+   "title": "British tanks roll in and four years of occupation end",
+   "type": "video",
+   "place": "Bourse (former stock exchange)",
+   "url": "https://youtu.be/zFVK7bGU-7g",
+   "creator": null,
+   "channel": "British Pathé",
+   "lat": 50.8483,
+   "lon": 4.3497
+  },
+  {
+   "id": "385AcU6jND99uSPE1lGSzH",
+   "title": "The world’s fair of 1958 promises a bright atomic future",
+   "type": "video",
+   "place": "Atomium",
+   "url": "https://youtu.be/8JLE2aDfE3c",
+   "creator": null,
+   "channel": "British Pathé",
+   "lat": 50.8949,
+   "lon": 4.3415
+  },
+  {
+   "id": "4s8Bab8uAQP85j27nexdAW",
+   "title": "The Battle of Waterloo, 1815",
+   "type": "podcast",
+   "place": "Lion’s Mound, Waterloo battlefield",
+   "url": "https://podcasts.apple.com/us/podcast/the-battle-of-waterloo/id1042631089?i=1000712757011&uo=4",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
+   "lat": 50.6787,
+   "lon": 4.4044
   },
   {
    "id": "6V1jqOC7fjynYck4Eao3zs",
    "title": "Brussels by Night",
    "type": "movie",
-   "place": "City centre (area)",
+   "place": "City center (area)",
+   "url": "https://justwatch.com/us/search?q=Brussels%20by%20Night%201983",
+   "creator": "Marc Didden",
+   "channel": null,
    "lat": 50.856,
    "lon": 4.36
   },
@@ -333,7 +159,10 @@
    "id": "EPfJg0C6qemHv4IpsgboE",
    "title": "Illegal (Illégal)",
    "type": "movie",
-   "place": "Detention centres near Steenokkerzeel (area)",
+   "place": "Detention centers near Steenokkerzeel (area)",
+   "url": "https://justwatch.com/us/search?q=Illegal%202010%20Belgium",
+   "creator": "Olivier Masset-Depasse",
+   "channel": null,
    "lat": 50.885,
    "lon": 4.49
   },
@@ -342,102 +171,515 @@
    "title": "Les Barons (The Barons)",
    "type": "movie",
    "place": "Molenbeek-Saint-Jean (area)",
+   "url": "https://justwatch.com/us/search?q=Les%20Barons%202009",
+   "creator": "Nabil Ben Yadir",
+   "channel": null,
    "lat": 50.856,
    "lon": 4.339
   },
   {
-   "id": "4PjvWHhwKYzFxNF2ovxuV1",
-   "title": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
-   "type": "movie",
-   "place": "23 Quai du Commerce",
-   "lat": 50.856,
-   "lon": 4.347
-  },
-  {
-   "id": "23ShDmEorL0qXldtXhe4QS",
-   "title": "Dikkenek",
-   "type": "movie",
-   "place": "Marolles district (area)",
-   "lat": 50.838,
-   "lon": 4.348
-  },
-  {
-   "id": "5RVdW3KQSQlKb7SSNH2pk2",
-   "title": "Red paint marks a colonial king's statue",
+   "id": "PoxmTntIk5d3f8SPasODx",
+   "title": "Two nobles beheaded, a revolt ignited",
    "type": "podcast",
-   "place": "Leopold II equestrian statue, Place du Trône",
-   "lat": 50.8406,
-   "lon": 4.3644
+   "place": "Grand-Place",
+   "url": "https://open.spotify.com/search/Rest Is History The Wilhelmus",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 50.8468,
+   "lon": 4.3524
   },
   {
-   "id": "5Bqh8ifhhxiZtlysAfRahB",
-   "title": "A nurse's execution reveals she really was a spy",
+   "id": "31Tn0CxxR9yYPl5xgRnWeu",
+   "title": "A Brussels sign painter creates Belgium’s biggest export",
    "type": "podcast",
-   "place": "Tir National memorial (Edith Cavell execution site)",
-   "lat": 50.853,
-   "lon": 4.4066
-  },
-  {
-   "id": "2WHYCVgTEqZKaRTMybiQkG",
-   "title": "A shipping clerk exposes Congo's atrocities",
-   "type": "podcast",
-   "place": "AfricaMuseum, Tervuren",
-   "lat": 50.8309,
-   "lon": 4.5183
-  },
-  {
-   "id": "7zKcKE8XuQ71eHtisBdFpt",
-   "title": "An opera performance sparks a revolution",
-   "type": "podcast",
-   "place": "La Monnaie opera house",
-   "lat": 50.8498,
-   "lon": 4.3538
-  },
-  {
-   "id": "1PHvJqhPOqEfSxDojxBjF0",
-   "title": "An emperor gives up the largest empire in Europe",
-   "type": "podcast",
-   "place": "Coudenberg Palace remains, Place Royale",
-   "lat": 50.8427,
-   "lon": 4.3608
-  },
-  {
-   "id": "5zgvINqdHaDL6axoUcgXLA",
-   "title": "A 15-year-old emperor comes of age",
-   "type": "podcast",
-   "place": "Coudenberg Palace remains, Place Royale",
-   "lat": 50.8427,
-   "lon": 4.3608
-  },
-  {
-   "id": "2hzXkgESV5gq4TXjQ6VojI",
-   "title": "Is the traditional beer cafe dying?",
-   "type": "podcast",
-   "place": "La Fleur en Papier Doré café",
-   "lat": 50.8429,
-   "lon": 4.3507
-  },
-  {
-   "id": "6gjOIs8049rcT9sNmJJb1y",
-   "title": "Iron and glass bend into vines and a new style is born",
-   "type": "video",
-   "place": "Hôtel Tassel",
-   "lat": 50.8277,
-   "lon": 4.3628
+   "place": "Belgian Comic Strip Center",
+   "url": "https://open.spotify.com/search/Empire World History Tintin Nazis Soviets",
+   "creator": null,
+   "channel": "Empire: World History",
+   "lat": 50.851,
+   "lon": 4.3601
   },
   {
    "id": "HTSAeHJebbdHVaTCFi0qz",
    "title": "A chance encounter turns a sign painter into a surrealist",
    "type": "podcast",
    "place": "Magritte Museum",
+   "url": "https://open.spotify.com/search/Art Slice Rene Magritte Surrealism",
+   "creator": null,
+   "channel": "Art Slice",
    "lat": 50.8424,
    "lon": 4.3586
+  },
+  {
+   "id": "2hzXkgESV5gq4TXjQ6VojI",
+   "title": "Is the traditional beer cafe dying?",
+   "type": "podcast",
+   "place": "La Fleur en Papier Doré café",
+   "url": "https://open.spotify.com/search/Belgian Smaak Brussels Beer Cafes",
+   "creator": null,
+   "channel": "Belgian Smaak",
+   "lat": 50.8429,
+   "lon": 4.3507
+  },
+  {
+   "id": "5zgvINqdHaDL6axoUcgXLA",
+   "title": "A 15-year-old emperor comes of age",
+   "type": "podcast",
+   "place": "Coudenberg Palace remains, Place Royale",
+   "url": "https://open.spotify.com/search/History of the Germans Charles V Election",
+   "creator": null,
+   "channel": "History of the Germans",
+   "lat": 50.8427,
+   "lon": 4.3608
+  },
+  {
+   "id": "1PHvJqhPOqEfSxDojxBjF0",
+   "title": "An emperor gives up the largest empire in Europe",
+   "type": "podcast",
+   "place": "Coudenberg Palace remains, Place Royale",
+   "url": "https://open.spotify.com/search/I Take History With My Coffee Charles V abdication",
+   "creator": null,
+   "channel": "I Take History With My Coffee",
+   "lat": 50.8427,
+   "lon": 4.3608
+  },
+  {
+   "id": "2WHYCVgTEqZKaRTMybiQkG",
+   "title": "A shipping clerk exposes Congo’s atrocities",
+   "type": "podcast",
+   "place": "AfricaMuseum, Tervuren",
+   "url": "https://open.spotify.com/search/Rest Is History Horror in the Congo",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 50.8309,
+   "lon": 4.5183
+  },
+  {
+   "id": "5Bqh8ifhhxiZtlysAfRahB",
+   "title": "A nurse’s execution reveals she really was a spy",
+   "type": "podcast",
+   "place": "Tir National memorial (Edith Cavell execution site)",
+   "url": "https://open.spotify.com/search/History Rage Edith Cavell Helen Fry",
+   "creator": null,
+   "channel": "History Rage",
+   "lat": 50.853,
+   "lon": 4.4066
+  },
+  {
+   "id": "5RVdW3KQSQlKb7SSNH2pk2",
+   "title": "Red paint marks a colonial king’s statue",
+   "type": "podcast",
+   "place": "Leopold II equestrian statue, Place du Trône",
+   "url": "https://open.spotify.com/search/Noble Blood Red Paint Leopold II",
+   "creator": null,
+   "channel": "Noble Blood",
+   "lat": 50.8406,
+   "lon": 4.3644
+  },
+  {
+   "id": "1fHzMdKrHJL9hP3ubGdngI",
+   "title": "Medieval and Modern Brussels: A Tour through the Heart of Europe",
+   "type": "audiotour",
+   "place": "Royal Palace of Brussels",
+   "url": "https://voicemap.me/tour/brussels/medieval-and-modern-brussels-a-tour-through-the-heart-of-europe",
+   "creator": "Isaac",
+   "channel": null,
+   "lat": 50.8426,
+   "lon": 4.3627
+  },
+  {
+   "id": "5DWNcQ8nmgVYM9DdtzyIB9",
+   "title": "Brussels’ Noble Beginnings: An Upper Town Walking Tour",
+   "type": "audiotour",
+   "place": "Belgian Federal Parliament (Palace of the Nation)",
+   "url": "https://voicemap.me/tour/brussels/brussels-noble-beginnings-an-upper-town-walking-tour",
+   "creator": "Shawn Basey",
+   "channel": null,
+   "lat": 50.8466,
+   "lon": 4.3627
+  },
+  {
+   "id": "6jG4ZdvVWY94DFWc3Oz3t4",
+   "title": "Brussels and Bureaucracy: A Guide to the EU District and its Architecture",
+   "type": "audiotour",
+   "place": "Cinquantenaire Park",
+   "url": "https://voicemap.me/tour/brussels/brussels-and-bureaucracy-a-guide-to-the-eu-district-and-its-architecture",
+   "creator": "Shawn Basey",
+   "channel": null,
+   "lat": 50.8397,
+   "lon": 4.3975
+  },
+  {
+   "id": "jHqE49a1YMp7Tg9EbfmGj",
+   "title": "Hidden Brussels: A Local’s Guide to Secret Places and Untold Stories",
+   "type": "audiotour",
+   "place": "Bourse (former stock exchange)",
+   "url": "https://voicemap.me/tour/brussels/hidden-brussels-a-local-s-guide-to-secret-places-and-untold-stories",
+   "creator": "Derek Blyth",
+   "channel": null,
+   "lat": 50.8482,
+   "lon": 4.3499
+  },
+  {
+   "id": "1nfujYXVzEgqu8Bkoc3XKj",
+   "title": "Art Nouveau’s Sublime Capital: A Brussels Walking Tour",
+   "type": "audiotour",
+   "place": "",
+   "url": "https://voicemap.me/tour/brussels/art-nouveau-s-sublime-capital-a-brussels-walking-tour",
+   "creator": "Derek Blyth",
+   "channel": null,
+   "lat": 50.8286,
+   "lon": 4.3624
+  },
+  {
+   "id": "23ShDmEorL0qXldtXhe4QS",
+   "title": "Dikkenek",
+   "type": "movie",
+   "place": "Marolles district (area)",
+   "url": "https://justwatch.com/us/search?q=Dikkenek%202006",
+   "creator": "Olivier Van Hoofstadt",
+   "channel": null,
+   "lat": 50.838,
+   "lon": 4.348
+  },
+  {
+   "id": "4PjvWHhwKYzFxNF2ovxuV1",
+   "title": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+   "type": "movie",
+   "place": "23 Quai du Commerce",
+   "url": "https://justwatch.com/us/search?q=Jeanne%20Dielman",
+   "creator": "Chantal Akerman",
+   "channel": null,
+   "lat": 50.856,
+   "lon": 4.347
+  },
+  {
+   "id": "4CHzYJyqVQQ8tEoFNafHwI",
+   "title": "JCVD",
+   "type": "movie",
+   "place": "Schaerbeek (area)",
+   "url": "https://justwatch.com/us/search?q=JCVD%202008",
+   "creator": "Mabrouk El Mechri",
+   "channel": null,
+   "lat": 50.867,
+   "lon": 4.378
+  },
+  {
+   "id": "5i5nvyTmp2odvTMouRQDX4",
+   "title": "Man Bites Dog (C’est arrivé près de chez vous)",
+   "type": "movie",
+   "place": "INSAS film school",
+   "url": "https://justwatch.com/us/search?q=Man%20Bites%20Dog%201992",
+   "creator": "Belvaux, Bonzel & Poelvoorde",
+   "channel": null,
+   "lat": 50.8399,
+   "lon": 4.3613
+  },
+  {
+   "id": "55DOgYEgx0eBQXtsTxMuZB",
+   "title": "Racer and the Jailbird (Le Fidèle)",
+   "type": "movie",
+   "place": "Avenue Louise",
+   "url": "https://justwatch.com/us/search?q=Racer%20and%20the%20Jailbird",
+   "creator": "Michaël R. Roskam",
+   "channel": null,
+   "lat": 50.8334,
+   "lon": 4.3575
+  },
+  {
+   "id": "34zPqPVsd4loWbU10gNx9S",
+   "title": "Black",
+   "type": "movie",
+   "place": "Galerie d’Ixelles, Matongé",
+   "url": "https://justwatch.com/us/search?q=Black%202015%20Belgium",
+   "creator": "Adil El Arbi & Bilall Fallah",
+   "channel": null,
+   "lat": 50.8371,
+   "lon": 4.3636
+  },
+  {
+   "id": "2IM52OylqHeAMzP5XOBRmT",
+   "title": "The Descent from the Cross by Peter Paul Rubens",
+   "type": "podcast",
+   "place": "Cathedral of Our Lady, Antwerp",
+   "url": "https://podcasts.apple.com/us/podcast/season-1-ep-7-the-descent-from-the-cross-peter-paul-rubens/id1573430649?i=1000528911596&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 51.2203,
+   "lon": 4.4015
+  },
+  {
+   "id": "21Vq6xMB1EKuilR67FJvTw",
+   "title": "Virgin and Child with Canon van der Paele by Jan van Eyck",
+   "type": "podcast",
+   "place": "Groeninge Museum, Bruges",
+   "url": "https://podcasts.apple.com/us/podcast/season-2-ep-13-virgin-and-child-with-canon-van-der/id1573430649?i=1000550413440&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 51.205,
+   "lon": 3.225
+  },
+  {
+   "id": "3RugvLqHbJLBgscjgnTPnF",
+   "title": "The Death of Marat by Jacques-Louis David",
+   "type": "podcast",
+   "place": "Royal Museums of Fine Arts of Belgium",
+   "url": "https://podcasts.apple.com/us/podcast/season-1-ep-4-the-death-of-marat-jacques-louis-david/id1573430649?i=1000526669930&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 50.8417,
+   "lon": 4.3577
+  },
+  {
+   "id": "2gTDrmuCKG8cOUS5CuWlKK",
+   "title": "The Death of Marat by Jacques-Louis David",
+   "type": "video",
+   "place": "Royal Museums of Fine Arts of Belgium",
+   "url": "https://youtu.be/Hw2_hv439Fg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 50.8418,
+   "lon": 4.358
+  },
+  {
+   "id": "55wccsFeI7tPxZ9yTs1QeD",
+   "title": "Hergé: The Man Who Created Tintin",
+   "type": "book",
+   "place": "Belgian Comic Strip Center",
+   "url": "https://goodreads.com/search?q=herge%20man%20who%20created%20tintin%20assouline",
+   "creator": "Pierre Assouline",
+   "channel": null,
+   "lat": 50.8513,
+   "lon": 4.3602
+  },
+  {
+   "id": "4h0Oqbg13QdBuZYO2kbjO6",
+   "title": "Expo 58",
+   "type": "book",
+   "place": "Atomium",
+   "url": "https://goodreads.com/search?q=expo%2058%20jonathan%20coe",
+   "creator": "Jonathan Coe",
+   "channel": null,
+   "lat": 50.8949,
+   "lon": 4.3414
+  },
+  {
+   "id": "2zfWirZDExQnLX9y2FQWkq",
+   "title": "Edith Cavell",
+   "type": "book",
+   "place": "Tir National memorial (Edith Cavell execution site)",
+   "url": "https://goodreads.com/search?q=edith%20cavell%20diana%20souhami",
+   "creator": "Diana Souhami",
+   "channel": null,
+   "lat": 50.8531,
+   "lon": 4.407
+  },
+  {
+   "id": "74hzhhxTMfpUwBvgzScvh8",
+   "title": "Magritte: A Life",
+   "type": "book",
+   "place": "René Magritte Museum (his house in Jette)",
+   "url": "https://goodreads.com/search?q=magritte%20a%20life%20danchev",
+   "creator": "Alex Danchev",
+   "channel": null,
+   "lat": 50.8767,
+   "lon": 4.3357
+  },
+  {
+   "id": "4kayyRsBVaF5mtyT3cuy5G",
+   "title": "The Passage to Europe",
+   "type": "book",
+   "place": "Berlaymont building (European Commission)",
+   "url": "https://goodreads.com/search?q=passage%20to%20europe%20van%20middelaar",
+   "creator": "Luuk van Middelaar",
+   "channel": null,
+   "lat": 50.8436,
+   "lon": 4.3828
+  },
+  {
+   "id": "4MaXqLgVSMzqRkJglSSwiO",
+   "title": "King Leopold’s Ghost",
+   "type": "book",
+   "place": "Cinquantenaire Arch, Cinquantenaire Park",
+   "url": "https://goodreads.com/search?q=king%20leopold's%20ghost%20hochschild",
+   "creator": "Adam Hochschild",
+   "channel": null,
+   "lat": 50.8405,
+   "lon": 4.393
+  },
+  {
+   "id": "35LoYPb37hPAAKgtDKqAuQ",
+   "title": "Strange Entity",
+   "type": "music",
+   "place": "Jette (area)",
+   "url": "https://open.spotify.com/search/Oscar%20and%20the%20Wolf%20Strange%20Entity",
+   "creator": "Oscar and the Wolf",
+   "channel": null,
+   "lat": 50.8781,
+   "lon": 4.326
+  },
+  {
+   "id": "lE389qKePbxZpbCQ13lGd",
+   "title": "Dilemme",
+   "type": "music",
+   "place": "Porte de Namur",
+   "url": "https://open.spotify.com/search/Lous%20and%20the%20Yakuza%20Dilemme",
+   "creator": "Lous and the Yakuza",
+   "channel": null,
+   "lat": 50.8382,
+   "lon": 4.3628
+  },
+  {
+   "id": "14H7xJelGgOLvoXcDpEJUy",
+   "title": "Formidable",
+   "type": "music",
+   "place": "Louise tram stop",
+   "url": "https://open.spotify.com/search/Stromae%20Formidable",
+   "creator": "Stromae",
+   "channel": null,
+   "lat": 50.8339,
+   "lon": 4.3576
+  },
+  {
+   "id": "6nOgug2eop3YigMyaIzNrK",
+   "title": "Moskow Diskow",
+   "type": "music",
+   "place": "Flagey building, Place Flagey",
+   "url": "https://open.spotify.com/search/Telex%20Moskow%20Diskow",
+   "creator": "Telex",
+   "channel": null,
+   "lat": 50.8276,
+   "lon": 4.3719
+  },
+  {
+   "id": "2BmvtiDiQ6Mkccg2FghzrH",
+   "title": "Headhunter",
+   "type": "music",
+   "place": "Plan K arts venue, Molenbeek",
+   "url": "https://open.spotify.com/search/Front%20242%20Headhunter",
+   "creator": "Front 242",
+   "channel": null,
+   "lat": 50.853,
+   "lon": 4.339
+  },
+  {
+   "id": "6PnGJPqCOkTZYUQTwE1UCI",
+   "title": "Do You Read Me?",
+   "type": "music",
+   "place": "Le Botanique concert venue",
+   "url": "https://open.spotify.com/search/Ghinzu%20Do%20You%20Read%20Me",
+   "creator": "Ghinzu",
+   "channel": null,
+   "lat": 50.8516,
+   "lon": 4.3672
+  },
+  {
+   "id": "yvG4Qk2Y5VjCMolrfL05q",
+   "title": "Accouplés",
+   "type": "music",
+   "place": "Molenbeek-Saint-Jean (area)",
+   "url": "https://open.spotify.com/search/Marka%20Accouples",
+   "creator": "Marka",
+   "channel": null,
+   "lat": 50.8553,
+   "lon": 4.3417
+  },
+  {
+   "id": "1LIX01ql0H2xzH2D0QfniI",
+   "title": "Nah Neh Nah",
+   "type": "music",
+   "place": "Place du Grand Sablon",
+   "url": "https://open.spotify.com/search/Vaya%20Con%20Dios%20Nah%20Neh%20Nah",
+   "creator": "Vaya Con Dios",
+   "channel": null,
+   "lat": 50.8419,
+   "lon": 4.3565
+  },
+  {
+   "id": "2cDxvoswwb8wkHLMW4H4fe",
+   "title": "Ça plane pour moi",
+   "type": "music",
+   "place": "Ancienne Belgique concert hall",
+   "url": "https://open.spotify.com/search/Plastic%20Bertrand%20Ca%20plane%20pour%20moi",
+   "creator": "Plastic Bertrand",
+   "channel": null,
+   "lat": 50.8478,
+   "lon": 4.3479
+  },
+  {
+   "id": "7dF5N1UVNnryuP0x8frBEh",
+   "title": "Bluesette",
+   "type": "music",
+   "place": "Rue Haute, Marolles",
+   "url": "https://open.spotify.com/search/Toots%20Thielemans%20Bluesette",
+   "creator": "Toots Thielemans",
+   "channel": null,
+   "lat": 50.8367,
+   "lon": 4.3467
+  },
+  {
+   "id": "2Y65u44C0dYLIPemryeQab",
+   "title": "Bruxelles",
+   "type": "music",
+   "place": "Schaerbeek (area)",
+   "url": "https://open.spotify.com/search/Jacques%20Brel%20Bruxelles",
+   "creator": "Jacques Brel",
+   "channel": null,
+   "lat": 50.8676,
+   "lon": 4.3745
+  },
+  {
+   "id": "6CXPbRUxUmo0wc6mZY3b6w",
+   "title": "Bruxelles je t’aime",
+   "type": "music",
+   "place": "Grand-Place",
+   "url": "https://open.spotify.com/search/Angele%20Bruxelles%20je%20t'aime",
+   "creator": "Angèle",
+   "channel": null,
+   "lat": 50.8467,
+   "lon": 4.3525
+  },
+  {
+   "id": "5brGpgAiPTH3BZKkI0KnU2",
+   "title": "Macarena",
+   "type": "music",
+   "place": "Matongé, Ixelles (area)",
+   "url": "https://open.spotify.com/search/Damso%20Macarena%20Ipseite",
+   "creator": "Damso",
+   "channel": null,
+   "lat": 50.8375,
+   "lon": 4.3665
+  },
+  {
+   "id": "7zKcKE8XuQ71eHtisBdFpt",
+   "title": "An opera performance sparks a revolution",
+   "type": "podcast",
+   "place": "La Monnaie opera house",
+   "url": "https://open.spotify.com/search/Composers Datebook Auber starts a riot",
+   "creator": null,
+   "channel": "Composers Datebook",
+   "lat": 50.8498,
+   "lon": 4.3538
+  },
+  {
+   "id": "6gjOIs8049rcT9sNmJJb1y",
+   "title": "Iron and glass bend into vines and a new style is born",
+   "type": "video",
+   "place": "Hôtel Tassel",
+   "url": "https://youtu.be/k20doHDjMwo",
+   "creator": null,
+   "channel": "HENI Talks",
+   "lat": 50.8277,
+   "lon": 4.3628
   },
   {
    "id": "7jWkxN3VN2f00AUBsOXl1I",
    "title": "A European Cup final turns deadly before kick-off",
    "type": "podcast",
    "place": "King Baudouin Stadium (former Heysel Stadium)",
+   "url": "https://open.spotify.com/search/It Was What It Was Heysel 1984/85 Season that Shook English Football",
+   "creator": null,
+   "channel": "It Was What It Was",
    "lat": 50.8955,
    "lon": 4.334
   },
@@ -446,6 +688,9 @@
    "title": "An architect’s own home becomes his manifesto in glass and steel",
    "type": "video",
    "place": "Horta Museum",
+   "url": "https://youtu.be/FECWsbWBRgs",
+   "creator": null,
+   "channel": "HENI Talks",
    "lat": 50.8244,
    "lon": 4.3541
   },
@@ -454,6 +699,9 @@
    "title": "A Brussels instrument maker survives one disaster after another",
    "type": "podcast",
    "place": "Musical Instruments Museum (MIM)",
+   "url": "https://open.spotify.com/search/Ridiculous History Inventor of the Saxophone Worst Luck",
+   "creator": null,
+   "channel": "Ridiculous History",
    "lat": 50.8427,
    "lon": 4.3577
   },
@@ -462,6 +710,9 @@
    "title": "Angels and monsters tumble out of Bruegel’s crowded heaven",
    "type": "video",
    "place": "Royal Museums of Fine Arts of Belgium",
+   "url": "https://youtu.be/bXR9EEmb-JU",
+   "creator": null,
+   "channel": "Royal Museums of Fine Arts of Belgium",
    "lat": 50.8418,
    "lon": 4.358
   },
@@ -470,78 +721,31 @@
    "title": "A giant iron crystal is built for the world’s fair and never leaves",
    "type": "podcast",
    "place": "Atomium",
+   "url": "https://open.spotify.com/search/Random History of Belgium The Atomium",
+   "creator": null,
+   "channel": "Random History of Belgium",
    "lat": 50.8949,
    "lon": 4.3415
-  },
-  {
-   "id": "385AcU6jND99uSPE1lGSzH",
-   "title": "The world’s fair of 1958 promises a bright atomic future",
-   "type": "video",
-   "place": "Atomium",
-   "lat": 50.8949,
-   "lon": 4.3415
-  },
-  {
-   "id": "3MTSb2DWtsPR7CNawWUOQ",
-   "title": "British tanks roll in and four years of occupation end",
-   "type": "video",
-   "place": "Bourse (former stock exchange)",
-   "lat": 50.8483,
-   "lon": 4.3497
-  },
-  {
-   "id": "2okO1sdVbNZ4Hv8QuU5Ins",
-   "title": "A borough tries to shake off its name after the Paris attacks",
-   "type": "video",
-   "place": "Place Communale, Molenbeek-Saint-Jean",
-   "lat": 50.8547,
-   "lon": 4.3378
-  },
-  {
-   "id": "31Tn0CxxR9yYPl5xgRnWeu",
-   "title": "A Brussels sign painter creates Belgium's biggest export",
-   "type": "podcast",
-   "place": "Belgian Comic Strip Center",
-   "lat": 50.851,
-   "lon": 4.3601
-  },
-  {
-   "id": "PoxmTntIk5d3f8SPasODx",
-   "title": "Two nobles beheaded, a revolt ignited",
-   "type": "podcast",
-   "place": "Grand-Place",
-   "lat": 50.8468,
-   "lon": 4.3524
   },
   {
    "id": "2E1CEG1Ep8UwhDgyIOfyX",
    "title": "A boy reporter is drawn into propaganda before going global",
    "type": "podcast",
    "place": "Belgian Comic Strip Center",
+   "url": "https://open.spotify.com/search/Empire Tintin Nazis Soviets",
+   "creator": null,
+   "channel": "Empire: World History",
    "lat": 50.8512,
    "lon": 4.3597
-  },
-  {
-   "id": "1woBrLPzpCP3eDm931PotL",
-   "title": "Puppets on iron rods play the old city’s stories in local dialect",
-   "type": "video",
-   "place": "Toone puppet theatre",
-   "lat": 50.8475,
-   "lon": 4.354
   },
   {
    "id": "7hwjwKyrtpre17AXI7EDa5",
    "title": "Gabled guildhalls ring a square rebuilt after a bombardment",
    "type": "video",
    "place": "Grand-Place",
-   "lat": 50.8467,
-   "lon": 4.3525
-  },
-  {
-   "id": "42onra5GKaTPgloGrSqXI6",
-   "title": "A city replays a 1549 parade for an emperor every summer",
-   "type": "video",
-   "place": "Grand-Place",
+   "url": "https://youtu.be/gepfkUYMqTo",
+   "creator": null,
+   "channel": "UNESCO",
    "lat": 50.8467,
    "lon": 4.3525
   },
@@ -550,6 +754,9 @@
    "title": "Hundreds of thousands of begonias cover the main square for a weekend",
    "type": "video",
    "place": "Grand-Place",
+   "url": "https://youtu.be/edGK9KddvAA",
+   "creator": null,
+   "channel": "DW Euromaxx",
    "lat": 50.8467,
    "lon": 4.3525
   }

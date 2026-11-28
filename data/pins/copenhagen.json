@@ -2,10 +2,189 @@
  "city": "Copenhagen",
  "pins": [
   {
+   "id": "3EhtP776ApLTflywHfvXKF",
+   "title": "Barbie Girl",
+   "type": "music",
+   "place": "City Hall Square (Rådhuspladsen)",
+   "url": "https://open.spotify.com/search/Aqua%20Barbie%20Girl",
+   "creator": "Aqua",
+   "channel": null,
+   "lat": 55.6759,
+   "lon": 12.5691
+  },
+  {
+   "id": "2IHGEjBqP2MCEBt4bzyqcB",
+   "title": "Champagne Galop",
+   "type": "music",
+   "place": "Tivoli Gardens",
+   "url": "https://open.spotify.com/search/Lumbye%20Champagne%20Galop",
+   "creator": "Hans Christian Lumbye",
+   "channel": null,
+   "lat": 55.6737,
+   "lon": 12.5682
+  },
+  {
+   "id": "5N9V8raWUjOvDtUPRX5s9M",
+   "title": "Maskarade (ouverture)",
+   "type": "music",
+   "place": "Royal Danish Theatre (Old Stage), Kongens Nytorv",
+   "url": "https://open.spotify.com/search/Carl%20Nielsen%20Maskarade%20Overture",
+   "creator": "Carl Nielsen",
+   "channel": null,
+   "lat": 55.6797,
+   "lon": 12.5864
+  },
+  {
+   "id": "5z5v4vunKQvhTnIjxw4YgY",
+   "title": "I Danmark er jeg født",
+   "type": "music",
+   "place": "Nyhavn harbor",
+   "url": "https://open.spotify.com/search/I%20Danmark%20er%20jeg%20f%C3%B8dt",
+   "creator": "Poul Schierbeck",
+   "channel": null,
+   "lat": 55.6798,
+   "lon": 12.5913
+  },
+  {
+   "id": "5WWGEO1ORuwEzPa7dLB646",
+   "title": "My Little Anna",
+   "type": "music",
+   "place": "Jazzhus Montmartre, Store Regnegade",
+   "url": "https://open.spotify.com/search/Niels-Henning%20%C3%98rsted%20Pedersen%20My%20Little%20Anna",
+   "creator": "Niels-Henning Ørsted Pedersen",
+   "channel": null,
+   "lat": 55.682,
+   "lon": 12.5825
+  },
+  {
+   "id": "5xtxhls4fMLfzJf3TRj5bf",
+   "title": "Kvinde min",
+   "type": "music",
+   "place": "Christianshavn canals (area)",
+   "url": "https://open.spotify.com/search/Gasolin%20Kvinde%20min",
+   "creator": "Gasolin’",
+   "channel": null,
+   "lat": 55.6737,
+   "lon": 12.5892
+  },
+  {
+   "id": "5vRQPzJcFl7I0K1HgB7ex3",
+   "title": "Midt om natten",
+   "type": "music",
+   "place": "Christianshavn canals (area)",
+   "url": "https://open.spotify.com/search/Kim%20Larsen%20Midt%20om%20natten",
+   "creator": "Kim Larsen",
+   "channel": null,
+   "lat": 55.6737,
+   "lon": 12.5892
+  },
+  {
+   "id": "37G2avmLcwuEfWI1xQ3Et",
+   "title": "Sleeping My Day Away",
+   "type": "music",
+   "place": "City Hall Square (Rådhuspladsen)",
+   "url": "https://open.spotify.com/search/D-A-D%20Sleeping%20My%20Day%20Away",
+   "creator": "D-A-D",
+   "channel": null,
+   "lat": 55.6759,
+   "lon": 12.5691
+  },
+  {
+   "id": "iNsa3iKcPoUNLFqnJsQg1",
+   "title": "Move Your Feet",
+   "type": "music",
+   "place": "",
+   "url": "https://open.spotify.com/search/Junior%20Senior%20Move%20Your%20Feet",
+   "creator": "Junior Senior",
+   "channel": null,
+   "lat": 55.666,
+   "lon": 12.5435
+  },
+  {
+   "id": "598HgV9ncxbjpMEcMjycSj",
+   "title": "Take Me into Your Skin",
+   "type": "music",
+   "place": "",
+   "url": "https://open.spotify.com/search/Trentem%C3%B8ller%20Take%20Me%20into%20Your%20Skin",
+   "creator": "Trentemøller",
+   "channel": null,
+   "lat": 55.6864,
+   "lon": 12.584
+  },
+  {
+   "id": "6LtHSofAdfTOJg8ZycGqlA",
+   "title": "Still Counting",
+   "type": "music",
+   "place": "City Hall Square (Rådhuspladsen)",
+   "url": "https://open.spotify.com/search/Volbeat%20Still%20Counting",
+   "creator": "Volbeat",
+   "channel": null,
+   "lat": 55.6759,
+   "lon": 12.5691
+  },
+  {
+   "id": "4xIkn7nWtVnjQj2WOMpECl",
+   "title": "Riverside",
+   "type": "music",
+   "place": "",
+   "url": "https://open.spotify.com/search/Agnes%20Obel%20Riverside",
+   "creator": "Agnes Obel",
+   "channel": null,
+   "lat": 55.6771,
+   "lon": 12.5133
+  },
+  {
+   "id": "2XpzkqNhSc6KGdGRNYqLBZ",
+   "title": "Sun of a Gun",
+   "type": "music",
+   "place": "Holmen (area)",
+   "url": "https://open.spotify.com/search/Oh%20Land%20Sun%20of%20a%20Gun",
+   "creator": "Oh Land",
+   "channel": null,
+   "lat": 55.6822,
+   "lon": 12.6001
+  },
+  {
+   "id": "2SIXyCNlGgBw2tVoDoeAg4",
+   "title": "7 Years",
+   "type": "music",
+   "place": "Freetown Christiania",
+   "url": "https://open.spotify.com/search/Lukas%20Graham%207%20Years",
+   "creator": "Lukas Graham",
+   "channel": null,
+   "lat": 55.6734,
+   "lon": 12.5964
+  },
+  {
+   "id": "3XJp6eXB2FDtWPryYVc0Ig",
+   "title": "Tidligt Op",
+   "type": "music",
+   "place": "Mjølnerparken estate, Nørrebro",
+   "url": "https://open.spotify.com/search/Gilli%20Tidligt%20Op",
+   "creator": "Gilli",
+   "channel": null,
+   "lat": 55.7001,
+   "lon": 12.5437
+  },
+  {
+   "id": "71txHo1O8baiqKYe0zqkPS",
+   "title": "Twist and Shout (Tro, håb og kærlighed)",
+   "type": "movie",
+   "place": "Brønshøj (area)",
+   "url": "https://justwatch.com/us/search?q=Twist%20and%20Shout%201984",
+   "creator": "Bille August",
+   "channel": null,
+   "lat": 55.7042,
+   "lon": 12.4983
+  },
+  {
    "id": "5cGJwGBuIKsKtjb3eFTLhh",
    "title": "Denmark–Norway and the Atlantic Slave Trade",
    "type": "podcast",
    "place": "West Indian Warehouse (Vestindisk Pakhus), Toldbodgade",
+   "url": "https://scandinavianhistorypodcast.podbean.com/e/108-scandinavian-slave-trade",
+   "creator": null,
+   "channel": "The Scandinavian History Podcast",
    "lat": 55.6869,
    "lon": 12.5955
   },
@@ -14,230 +193,108 @@
    "title": "Struensee, the Royal Doctor Who Ran Denmark",
    "type": "podcast",
    "place": "Court Theatre (Hofteatret), Christiansborg",
+   "url": "https://omny.fm/shows/stuff-you-missed-in-history-class/count-struensee-and-king-christian-vii-of-denmark",
+   "creator": null,
+   "channel": "Stuff You Missed in History Class",
    "lat": 55.6762,
    "lon": 12.5785
   },
   {
-   "id": "4lS0fSyrV9UCrZWjuSORN1",
-   "title": "Copenhagen's Little Amsterdam: A Mindful Walk through Christianshavn",
-   "type": "audiotour",
-   "place": "Lagkagehuset bakery, Torvegade",
-   "lat": 55.6726,
-   "lon": 12.5913
-  },
-  {
-   "id": "5b4yE1cT3F4MZIcTB3Z7LC",
-   "title": "Copenhagen's Storybook Christmas: A Hans Christian Andersen Tour",
-   "type": "audiotour",
-   "place": "Højbro Plads square",
-   "lat": 55.678,
-   "lon": 12.5798
-  },
-  {
-   "id": "6PrnO4YGuMESXfciW6uTbj",
-   "title": "The Castle Island's Royal History: Slotsholmen and Christiansborg",
-   "type": "audiotour",
-   "place": "Højbro Plads square",
-   "lat": 55.678,
-   "lon": 12.5798
-  },
-  {
-   "id": "7Cpy6OkGUcC47jNpNWPt43",
-   "title": "Built, Burned, and Reborn: A Copenhagen Walking Tour",
-   "type": "audiotour",
-   "place": "Højbro Plads square",
-   "lat": 55.678,
-   "lon": 12.5798
-  },
-  {
-   "id": "34LezIewAGL7UP6EAnmfVg",
-   "title": "Copenhagen Insights: A Walk of Self-Discovery and Urban Change in Kalvebod Pier",
-   "type": "audiotour",
-   "place": "Kalvebod Brygge waterfront (area)",
-   "lat": 55.67,
-   "lon": 12.5746
-  },
-  {
-   "id": "4uNVWV5kqgFbyadORlT3xF",
-   "title": "Copenhagen with Context: An Introduction to the City's Bustling Center",
-   "type": "audiotour",
-   "place": "King’s Garden (Kongens Have)",
-   "lat": 55.6851,
-   "lon": 12.5789
-  },
-  {
-   "id": "16PUcqY4JuB3er2G8HFZpT",
-   "title": "Copenhagen's Urban Echoes: A Walking Tour Through Vibrant Vesterbro",
-   "type": "audiotour",
-   "place": "Central Station (Hovedbanegården)",
-   "lat": 55.6731,
-   "lon": 12.5658
-  },
-  {
-   "id": "5PP7WWOGQNAXhaRR3kIbys",
-   "title": "Copenhagen's Cozy Corners: A Hygge Tour of the Danish Way of Life",
-   "type": "audiotour",
-   "place": "Kongens Nytorv square",
-   "lat": 55.6801,
-   "lon": 12.5857
-  },
-  {
-   "id": "4rssFlQa6IqYt50D4wK1Mr",
-   "title": "The Day the Soldiers Came: Copenhagen's Seizure in 1940",
-   "type": "audiotour",
-   "place": "Little Mermaid statue",
-   "lat": 55.6928,
-   "lon": 12.5993
-  },
-  {
-   "id": "7kBopg8macvAB2TRoHsQ38",
-   "title": "Danish Design: Classic Modern Style via Neo-Classicism and Art Nouveau",
-   "type": "audiotour",
-   "place": "Radisson Collection Royal Hotel (SAS Royal)",
-   "lat": 55.6749,
-   "lon": 12.5639
-  },
-  {
-   "id": "7oektWWehsbUGcFynASn5X",
-   "title": "Room 606: The SAS House and the Work of Arne Jacobsen",
+   "id": "1VlDmC0LGNmeonEAPco8Zq",
+   "title": "Hans Christian Andersen: The Life of a Storyteller",
    "type": "book",
-   "place": "Radisson Collection Royal Hotel (SAS Royal)",
-   "lat": 55.6749,
-   "lon": 12.5638
-  },
-  {
-   "id": "65wPc7T5MqUPzzlUIYhI62",
-   "title": "In the Footsteps of Hans Christian Andersen: A Copenhagen Walking Tour",
-   "type": "audiotour",
-   "place": "Royal Danish Theatre (Old Stage), Kongens Nytorv",
-   "lat": 55.6797,
-   "lon": 12.5861
-  },
-  {
-   "id": "46N6xi2aUFffEqcaZVe2pO",
-   "title": "Copenhagen MonsTour",
-   "type": "audiotour",
-   "place": "Central Station (Hovedbanegården)",
-   "lat": 55.6731,
-   "lon": 12.5658
-  },
-  {
-   "id": "5AyfrVEsoMs0VmgQZuU0Nb",
-   "title": "Discovering Copenhagen: Its Modern Marvels and Historical Landmarks",
-   "type": "audiotour",
-   "place": "Kongens Nytorv square",
-   "lat": 55.6802,
-   "lon": 12.5858
-  },
-  {
-   "id": "41qzIpAC4W6qvmC6Qb4Yct",
-   "title": "Copenhagen's Royal History: The King's Square to the Queen's House",
-   "type": "audiotour",
-   "place": "Kongens Nytorv square",
-   "lat": 55.6804,
-   "lon": 12.5864
+   "place": "Nyhavn harbor",
+   "url": "https://goodreads.com/search?q=Jackie%20Wullschlager%20Hans%20Christian%20Andersen",
+   "creator": "Jackie Wullschlager",
+   "channel": null,
+   "lat": 55.6798,
+   "lon": 12.5913
   },
   {
    "id": "2Sq16xhPLL5Fi0YWjuc0dv",
    "title": "The Children of Ash and Elm",
    "type": "book",
    "place": "National Museum of Denmark",
+   "url": "https://goodreads.com/search?q=Neil%20Price%20Children%20of%20Ash%20and%20Elm",
+   "creator": "Neil Price",
+   "channel": null,
    "lat": 55.6745,
    "lon": 12.5746
   },
   {
-   "id": "5QrmVoiKi8IqfwD9GY1cC4",
-   "title": "Philosopher of the Heart: The Restless Life of Søren Kierkegaard",
-   "type": "book",
-   "place": "Kierkegaard’s grave, Assistens Cemetery",
-   "lat": 55.6907,
-   "lon": 12.553
+   "id": "7JZpB6kkA3SeXJTnKkagHF",
+   "title": "A waste-burning power plant with a ski slope on its roof",
+   "type": "video",
+   "place": "CopenHill power plant (Amager Bakke)",
+   "url": "https://youtu.be/21ijLduW0nw",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 55.6824,
+   "lon": 12.6031
   },
   {
-   "id": "4ArBteVlDIQxm49989jGgT",
-   "title": "Copenhagenize",
-   "type": "book",
-   "place": "Queen Louise’s Bridge (Dronning Louises Bro)",
-   "lat": 55.6866,
-   "lon": 12.564
+   "id": "32o9YnTKihErNiquotlIAd",
+   "title": "Gay couples sign the world’s first registered partnerships",
+   "type": "video",
+   "place": "City Hall (Rådhuset)",
+   "url": "https://youtu.be/x_D_DBBXdSM",
+   "creator": null,
+   "channel": "BBC Global",
+   "lat": 55.6761,
+   "lon": 12.5695
   },
   {
-   "id": "25jIqw1XNou1R6qWMfFeCL",
-   "title": "Hungry",
-   "type": "book",
-   "place": "Noma restaurant, Refshalevej",
-   "lat": 55.6828,
-   "lon": 12.6105
+   "id": "4B0jYm1SobzDBZmDgsGy63",
+   "title": "Nelson’s fleet fights moored Danish hulks outside the harbor",
+   "type": "video",
+   "place": "Trekroner Fort",
+   "url": "https://youtu.be/oJy0ZM8z9pM",
+   "creator": null,
+   "channel": "The History Guy",
+   "lat": 55.7036,
+   "lon": 12.6178
   },
   {
-   "id": "5Ajt4AYBpZCPvJFk1YaDH6",
-   "title": "The Philosopher's Last Walk",
-   "type": "audiotour",
-   "place": "Site of Kierkegaard’s birthplace, Nytorv",
-   "lat": 55.6777,
-   "lon": 12.5728
+   "id": "2WT6Fe1FCjhTP6tAQ7Hqmp",
+   "title": "An army of Santas hands out a department store’s stock",
+   "type": "video",
+   "place": "Magasin du Nord department store, Kongens Nytorv",
+   "url": "https://youtu.be/VA3RaszQWi0",
+   "creator": null,
+   "channel": "Vox",
+   "lat": 55.6793,
+   "lon": 12.5848
   },
   {
-   "id": "70MoxsX1yODuSDfWZFgm5r",
-   "title": "Countrymen",
-   "type": "book",
-   "place": "Danish Jewish Museum",
-   "lat": 55.6743,
-   "lon": 12.5823
+   "id": "7VQmgt7hPbPknFKX3IBPO",
+   "title": "Scandi Noir and Danish films of the future",
+   "type": "video",
+   "place": "Huset cultural center, Magstræde",
+   "url": "https://youtu.be/rYJvNCcmXyE",
+   "creator": null,
+   "channel": "Culture Trip",
+   "lat": 55.67637,
+   "lon": 12.57471
   },
   {
-   "id": "qCV37x3ur0KbxgOPBJcBt",
-   "title": "The Almost Nearly Perfect People",
-   "type": "book",
-   "place": "City Hall Square (Rådhuspladsen)",
-   "lat": 55.6759,
-   "lon": 12.5691
-  },
-  {
-   "id": "1VlDmC0LGNmeonEAPco8Zq",
-   "title": "Hans Christian Andersen: The Life of a Storyteller",
-   "type": "book",
-   "place": "Nyhavn harbour",
-   "lat": 55.6798,
-   "lon": 12.5913
-  },
-  {
-   "id": "6YPtlJvzhPOumSjXFTYNo4",
-   "title": "Smilla’s Sense of Snow",
-   "type": "book",
-   "place": "Christianshavn canals (area)",
-   "lat": 55.6737,
-   "lon": 12.5892
-  },
-  {
-   "id": "4TRrnUwCJAAWchGGi4Njeg",
-   "title": "Copenhagen",
-   "type": "book",
-   "place": "Niels Bohr Institute, Blegdamsvej",
-   "lat": 55.6968,
-   "lon": 12.5716
-  },
-  {
-   "id": "6qdZM8b78cXFLRkyftYsGj",
-   "title": "Isak Dinesen: The Life of a Storyteller",
-   "type": "book",
-   "place": "Karen Blixen Museum, Rungsted",
-   "lat": 55.8835,
-   "lon": 12.5434
-  },
-  {
-   "id": "71txHo1O8baiqKYe0zqkPS",
-   "title": "Twist and Shout (Tro, håb og kærlighed)",
-   "type": "movie",
-   "place": "Brønshøj (area)",
-   "lat": 55.7042,
-   "lon": 12.4983
+   "id": "4O3pLu84XZG5Op3rGv8QZt",
+   "title": "The turnaround of Carlsberg brewery",
+   "type": "video",
+   "place": "Home of Carlsberg brewery visitor center",
+   "url": "https://youtu.be/mBlZUN_McCs",
+   "creator": null,
+   "channel": "Bloomberg",
+   "lat": 55.66489,
+   "lon": 12.53129
   },
   {
    "id": "5GWqwfXba8jyUXL2jfkNUm",
    "title": "Flame & Citron (Flammen og Citronen)",
    "type": "movie",
    "place": "Mindelunden memorial park, Ryvangen",
+   "url": "https://justwatch.com/us/search?q=Flame%20and%20Citron",
+   "creator": "Ole Christian Madsen",
+   "channel": null,
    "lat": 55.7221,
    "lon": 12.5669
   },
@@ -246,6 +303,9 @@
    "title": "The Human Scale",
    "type": "movie",
    "place": "Strøget pedestrian street",
+   "url": "https://justwatch.com/us/search?q=The%20Human%20Scale%202012",
+   "creator": "Andreas Dalsgaard",
+   "channel": null,
    "lat": 55.6786,
    "lon": 12.573
   },
@@ -254,62 +314,350 @@
    "title": "Another Round (Druk)",
    "type": "movie",
    "place": "The Lakes (area)",
+   "url": "https://justwatch.com/us/search?q=Another%20Round%20Druk",
+   "creator": "Thomas Vinterberg",
+   "channel": null,
    "lat": 55.687,
    "lon": 12.562
   },
   {
-   "id": "DKXqL6R9aUFssuTOj0QJl",
-   "title": "A Royal Affair (En kongelig affære)",
-   "type": "movie",
-   "place": "Christiansborg Palace",
-   "lat": 55.6759,
-   "lon": 12.5797
+   "id": "5Ajt4AYBpZCPvJFk1YaDH6",
+   "title": "The Philosopher’s Last Walk",
+   "type": "audiotour",
+   "place": "Site of Kierkegaard’s birthplace, Nytorv",
+   "url": "https://voicemap.me/tour/copenhagen/the-philosopher-s-last-walk-2",
+   "creator": "Rasmus Nielsen Bitsch",
+   "channel": null,
+   "lat": 55.6777,
+   "lon": 12.5728
   },
   {
-   "id": "61sA6DZmnFja3qQ1U82YnM",
-   "title": "Italian for Beginners (Italiensk for begyndere)",
-   "type": "movie",
-   "place": "Hvidovre (area)",
-   "lat": 55.657,
-   "lon": 12.473
+   "id": "41qzIpAC4W6qvmC6Qb4Yct",
+   "title": "Copenhagen’s Royal History: The King’s Square to the Queen’s House",
+   "type": "audiotour",
+   "place": "Kongens Nytorv square",
+   "url": "https://voicemap.me/tour/copenhagen/royal-copenhagen-a-walk-from-the-king-s-square-to-the-queen-s-house",
+   "creator": "James Cowan",
+   "channel": null,
+   "lat": 55.6804,
+   "lon": 12.5864
   },
   {
-   "id": "AjOcvfjxzOR9NmYmCtGMH",
-   "title": "The Bombardment (Skyggen i mit øje)",
-   "type": "movie",
-   "place": "Site of the Institut Jeanne d’Arc school, Frederiksberg Allé",
-   "lat": 55.6738,
-   "lon": 12.536
+   "id": "5AyfrVEsoMs0VmgQZuU0Nb",
+   "title": "Discovering Copenhagen: Its Modern Marvels and Historical Landmarks",
+   "type": "audiotour",
+   "place": "Kongens Nytorv square",
+   "url": "https://voicemap.me/tour/copenhagen/discovering-copenhagen-a-tour-of-its-modern-marvels-and-historical-landmarks",
+   "creator": "Pernille Schlander",
+   "channel": null,
+   "lat": 55.6802,
+   "lon": 12.5858
   },
   {
-   "id": "6CAtDzx3TidEoveWIRmBo6",
-   "title": "Pusher",
-   "type": "movie",
-   "place": "Istedgade, Vesterbro",
-   "lat": 55.6685,
-   "lon": 12.556
-  },
-  {
-   "id": "6rWJI8QKdLu1ninNnz6c6S",
-   "title": "Reconstruction",
-   "type": "movie",
+   "id": "46N6xi2aUFffEqcaZVe2pO",
+   "title": "Copenhagen MonsTour",
+   "type": "audiotour",
    "place": "Central Station (Hovedbanegården)",
-   "lat": 55.6725,
-   "lon": 12.5644
+   "url": "https://voicemap.me/tour/copenhagen/copenhagen-monstour",
+   "creator": "HidDenmark",
+   "channel": null,
+   "lat": 55.6731,
+   "lon": 12.5658
+  },
+  {
+   "id": "65wPc7T5MqUPzzlUIYhI62",
+   "title": "In the Footsteps of Hans Christian Andersen: A Copenhagen Walking Tour",
+   "type": "audiotour",
+   "place": "Royal Danish Theatre (Old Stage), Kongens Nytorv",
+   "url": "https://voicemap.me/tour/copenhagen/in-the-footsteps-of-hans-christian-andersen-a-copenhagen-walking-tour",
+   "creator": "Pernille Schlander",
+   "channel": null,
+   "lat": 55.6797,
+   "lon": 12.5861
+  },
+  {
+   "id": "4rssFlQa6IqYt50D4wK1Mr",
+   "title": "The Day the Soldiers Came: Copenhagen’s Seizure in 1940",
+   "type": "audiotour",
+   "place": "Little Mermaid statue",
+   "url": "https://voicemap.me/tour/copenhagen/the-day-the-soldiers-came-copenhagen-s-seizure-in-1940",
+   "creator": "James Cowan",
+   "channel": null,
+   "lat": 55.6928,
+   "lon": 12.5993
+  },
+  {
+   "id": "5PP7WWOGQNAXhaRR3kIbys",
+   "title": "Copenhagen’s Cozy Corners: A Hygge Tour of the Danish Way of Life",
+   "type": "audiotour",
+   "place": "Kongens Nytorv square",
+   "url": "https://voicemap.me/tour/copenhagen/cozy-corners-and-the-danish-way-of-life-a-copenhagen-hygge-tour",
+   "creator": "Pernille Schlander",
+   "channel": null,
+   "lat": 55.6801,
+   "lon": 12.5857
+  },
+  {
+   "id": "16PUcqY4JuB3er2G8HFZpT",
+   "title": "Copenhagen’s Urban Echoes: A Walking Tour Through Vibrant Vesterbro",
+   "type": "audiotour",
+   "place": "Central Station (Hovedbanegården)",
+   "url": "https://voicemap.me/tour/copenhagen/copenhagen-s-urban-echoes-a-walking-tour-through-vibrant-vesterbro",
+   "creator": "Pernille Schlander",
+   "channel": null,
+   "lat": 55.6731,
+   "lon": 12.5658
+  },
+  {
+   "id": "4uNVWV5kqgFbyadORlT3xF",
+   "title": "Copenhagen with Context: An Introduction to the City’s Bustling Center",
+   "type": "audiotour",
+   "place": "King’s Garden (Kongens Have)",
+   "url": "https://voicemap.me/tour/copenhagen/copenhagen-with-context-an-introduction-to-the-city-s-bustling-center",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 55.6851,
+   "lon": 12.5789
+  },
+  {
+   "id": "34LezIewAGL7UP6EAnmfVg",
+   "title": "Copenhagen Insights: A Walk of Self-Discovery and Urban Change in Kalvebod Pier",
+   "type": "audiotour",
+   "place": "Kalvebod Brygge waterfront (area)",
+   "url": "https://voicemap.me/tour/copenhagen/copenhagen-insights-tour-transformation-and-urban-change-in-kalvebod-pier",
+   "creator": "Eliana Cobos",
+   "channel": null,
+   "lat": 55.67,
+   "lon": 12.5746
+  },
+  {
+   "id": "6PrnO4YGuMESXfciW6uTbj",
+   "title": "The Castle Island’s Royal History: Slotsholmen and Christiansborg",
+   "type": "audiotour",
+   "place": "Højbro Plads square",
+   "url": "https://voicemap.me/tour/copenhagen/the-story-of-slotsholmen-a-tour-of-castle-island",
+   "creator": "James Cowan",
+   "channel": null,
+   "lat": 55.678,
+   "lon": 12.5798
+  },
+  {
+   "id": "5b4yE1cT3F4MZIcTB3Z7LC",
+   "title": "Copenhagen’s Storybook Christmas: A Hans Christian Andersen Tour",
+   "type": "audiotour",
+   "place": "Højbro Plads square",
+   "url": "https://voicemap.me/tour/copenhagen/copenhagen-s-storybook-christmas-a-hans-christian-andersen-tour",
+   "creator": "Pernille Schlander",
+   "channel": null,
+   "lat": 55.678,
+   "lon": 12.5798
+  },
+  {
+   "id": "4lS0fSyrV9UCrZWjuSORN1",
+   "title": "Copenhagen’s Little Amsterdam: A Mindful Walk through Christianshavn",
+   "type": "audiotour",
+   "place": "Lagkagehuset bakery, Torvegade",
+   "url": "https://voicemap.me/tour/copenhagen/copenhagen-s-little-amsterdam-a-mindful-walk-through-christianshavn",
+   "creator": "Eliana Cobos",
+   "channel": null,
+   "lat": 55.6726,
+   "lon": 12.5913
   },
   {
    "id": "7fknK1TFN26dqSHRw45UR1",
    "title": "Northwest (Nordvest)",
    "type": "movie",
    "place": "Nordvest district (area)",
+   "url": "https://justwatch.com/us/search?q=Nordvest%202013",
+   "creator": "Michael Noer",
+   "channel": null,
    "lat": 55.705,
    "lon": 12.535
+  },
+  {
+   "id": "6rWJI8QKdLu1ninNnz6c6S",
+   "title": "Reconstruction",
+   "type": "movie",
+   "place": "Central Station (Hovedbanegården)",
+   "url": "https://justwatch.com/us/search?q=Reconstruction%202003",
+   "creator": "Christoffer Boe",
+   "channel": null,
+   "lat": 55.6725,
+   "lon": 12.5644
+  },
+  {
+   "id": "6CAtDzx3TidEoveWIRmBo6",
+   "title": "Pusher",
+   "type": "movie",
+   "place": "Istedgade, Vesterbro",
+   "url": "https://justwatch.com/us/search?q=Pusher%201996",
+   "creator": "Nicolas Winding Refn",
+   "channel": null,
+   "lat": 55.6685,
+   "lon": 12.556
+  },
+  {
+   "id": "AjOcvfjxzOR9NmYmCtGMH",
+   "title": "The Bombardment (Skyggen i mit øje)",
+   "type": "movie",
+   "place": "Site of the Institut Jeanne d’Arc school, Frederiksberg Allé",
+   "url": "https://justwatch.com/us/search?q=The%20Bombardment%202021",
+   "creator": "Ole Bornedal",
+   "channel": null,
+   "lat": 55.6738,
+   "lon": 12.536
+  },
+  {
+   "id": "61sA6DZmnFja3qQ1U82YnM",
+   "title": "Italian for Beginners (Italiensk for begyndere)",
+   "type": "movie",
+   "place": "Hvidovre (area)",
+   "url": "https://justwatch.com/us/search?q=Italian%20for%20Beginners",
+   "creator": "Lone Scherfig",
+   "channel": null,
+   "lat": 55.657,
+   "lon": 12.473
+  },
+  {
+   "id": "DKXqL6R9aUFssuTOj0QJl",
+   "title": "A Royal Affair (En kongelig affære)",
+   "type": "movie",
+   "place": "Christiansborg Palace",
+   "url": "https://justwatch.com/us/search?q=A%20Royal%20Affair",
+   "creator": "Nikolaj Arcel",
+   "channel": null,
+   "lat": 55.6759,
+   "lon": 12.5797
+  },
+  {
+   "id": "7Cpy6OkGUcC47jNpNWPt43",
+   "title": "Built, Burned, and Reborn: A Copenhagen Walking Tour",
+   "type": "audiotour",
+   "place": "Højbro Plads square",
+   "url": "https://voicemap.me/tour/copenhagen/built-burned-and-reborn-a-copenhagen-walking-tour",
+   "creator": "Pernille Schlander",
+   "channel": null,
+   "lat": 55.678,
+   "lon": 12.5798
+  },
+  {
+   "id": "7kBopg8macvAB2TRoHsQ38",
+   "title": "Danish Design: Classic Modern Style via Neo-Classicism and Art Nouveau",
+   "type": "audiotour",
+   "place": "Radisson Collection Royal Hotel (SAS Royal)",
+   "url": "https://voicemap.me/tour/copenhagen/danish-design-classic-modern-style-via-neo-classicism-and-art-nouveau",
+   "creator": "Kay Xander Mellish",
+   "channel": null,
+   "lat": 55.6749,
+   "lon": 12.5639
+  },
+  {
+   "id": "7oektWWehsbUGcFynASn5X",
+   "title": "Room 606: The SAS House and the Work of Arne Jacobsen",
+   "type": "book",
+   "place": "Radisson Collection Royal Hotel (SAS Royal)",
+   "url": "https://goodreads.com/search?q=Michael%20Sheridan%20Room%20606%20Arne%20Jacobsen",
+   "creator": "Michael Sheridan",
+   "channel": null,
+   "lat": 55.6749,
+   "lon": 12.5638
+  },
+  {
+   "id": "5QrmVoiKi8IqfwD9GY1cC4",
+   "title": "Philosopher of the Heart: The Restless Life of Søren Kierkegaard",
+   "type": "book",
+   "place": "Kierkegaard’s grave, Assistens Cemetery",
+   "url": "https://goodreads.com/search?q=Clare%20Carlisle%20Philosopher%20of%20the%20Heart%20Kierkegaard",
+   "creator": "Clare Carlisle",
+   "channel": null,
+   "lat": 55.6907,
+   "lon": 12.553
+  },
+  {
+   "id": "4ArBteVlDIQxm49989jGgT",
+   "title": "Copenhagenize",
+   "type": "book",
+   "place": "Queen Louise’s Bridge (Dronning Louises Bro)",
+   "url": "https://goodreads.com/search?q=Mikael%20Colville-Andersen%20Copenhagenize",
+   "creator": "Mikael Colville-Andersen",
+   "channel": null,
+   "lat": 55.6866,
+   "lon": 12.564
+  },
+  {
+   "id": "25jIqw1XNou1R6qWMfFeCL",
+   "title": "Hungry",
+   "type": "book",
+   "place": "Noma restaurant, Refshalevej",
+   "url": "https://goodreads.com/search?q=Jeff%20Gordinier%20Hungry%20Redzepi",
+   "creator": "Jeff Gordinier",
+   "channel": null,
+   "lat": 55.6828,
+   "lon": 12.6105
+  },
+  {
+   "id": "70MoxsX1yODuSDfWZFgm5r",
+   "title": "Countrymen",
+   "type": "book",
+   "place": "Danish Jewish Museum",
+   "url": "https://goodreads.com/search?q=Bo%20Lidegaard%20Countrymen",
+   "creator": "Bo Lidegaard",
+   "channel": null,
+   "lat": 55.6743,
+   "lon": 12.5823
+  },
+  {
+   "id": "qCV37x3ur0KbxgOPBJcBt",
+   "title": "The Almost Nearly Perfect People",
+   "type": "book",
+   "place": "City Hall Square (Rådhuspladsen)",
+   "url": "https://goodreads.com/search?q=Michael%20Booth%20The%20Almost%20Nearly%20Perfect%20People",
+   "creator": "Michael Booth",
+   "channel": null,
+   "lat": 55.6759,
+   "lon": 12.5691
+  },
+  {
+   "id": "6YPtlJvzhPOumSjXFTYNo4",
+   "title": "Smilla’s Sense of Snow",
+   "type": "book",
+   "place": "Christianshavn canals (area)",
+   "url": "https://goodreads.com/search?q=Peter%20H%C3%B8eg%20Smilla's%20Sense%20of%20Snow",
+   "creator": "Peter Høeg",
+   "channel": null,
+   "lat": 55.6737,
+   "lon": 12.5892
+  },
+  {
+   "id": "4TRrnUwCJAAWchGGi4Njeg",
+   "title": "Copenhagen",
+   "type": "book",
+   "place": "Niels Bohr Institute, Blegdamsvej",
+   "url": "https://goodreads.com/search?q=Michael%20Frayn%20Copenhagen%20play",
+   "creator": "Michael Frayn",
+   "channel": null,
+   "lat": 55.6968,
+   "lon": 12.5716
+  },
+  {
+   "id": "6qdZM8b78cXFLRkyftYsGj",
+   "title": "Isak Dinesen: The Life of a Storyteller",
+   "type": "book",
+   "place": "Karen Blixen Museum, Rungsted",
+   "url": "https://goodreads.com/search?q=Judith%20Thurman%20Isak%20Dinesen%20Life%20of%20a%20Storyteller",
+   "creator": "Judith Thurman",
+   "channel": null,
+   "lat": 55.8835,
+   "lon": 12.5434
   },
   {
    "id": "1H4SPUT14JXhK81184dt0W",
    "title": "The joy and anxiety of Søren Kierkegaard",
    "type": "video",
    "place": "Kierkegaard statue, Royal Library Garden",
+   "url": "https://youtu.be/D9JCwkx558o",
+   "creator": null,
+   "channel": "The School of Life",
    "lat": 55.67451,
    "lon": 12.581
   },
@@ -318,6 +666,9 @@
    "title": "A brief history of the world at Ny Carlsberg Glyptotek",
    "type": "video",
    "place": "Ny Carlsberg Glyptotek museum",
+   "url": "https://youtu.be/crFUS_eMmKY",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 55.67298,
    "lon": 12.57254
   },
@@ -326,6 +677,9 @@
    "title": "New thinking on old coffee traditions",
    "type": "podcast",
    "place": "April Coffee Roasters café, Østerbro",
+   "url": "https://overcast.fm/+ObLOODI",
+   "creator": null,
+   "channel": "Theory of Everything",
    "lat": 55.696,
    "lon": 12.57326
   },
@@ -334,6 +688,9 @@
    "title": "Creating the world’s first carbon-neutral capital",
    "type": "video",
    "place": "Amager power station (Amagerværket)",
+   "url": "https://youtu.be/dXkamwNWPgg",
+   "creator": null,
+   "channel": "The B1M",
    "lat": 55.697,
    "lon": 12.61584
   },
@@ -342,6 +699,9 @@
    "title": "Feelings of food and family",
    "type": "video",
    "place": "Hart Bageri bakery, Frederiksberg",
+   "url": "https://youtu.be/uJjzsaYKYiA",
+   "creator": null,
+   "channel": "The Atlantic",
    "lat": 55.67538,
    "lon": 12.5455
   },
@@ -350,6 +710,9 @@
    "title": "Hygge and what it means to be Danish",
    "type": "podcast",
    "place": "Jægersborggade street",
+   "url": "https://overcast.fm/+G2W1lV3HQ",
+   "creator": null,
+   "channel": "The Guardian’s Audio Long Reads",
    "lat": 55.69233,
    "lon": 12.54447
   },
@@ -358,6 +721,9 @@
    "title": "The Prophet Mohammad and the right to publish freely",
    "type": "podcast",
    "place": "Jyllands-Posten offices, City Hall Square",
+   "url": "https://overcast.fm/+L1D2nl8nY",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 55.67693,
    "lon": 12.56837
   },
@@ -366,6 +732,9 @@
    "title": "The vote (and re-vote) to form the European Union",
    "type": "podcast",
    "place": "Sankt Hans Torv square",
+   "url": "https://overcast.fm/+L03vOkICw",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 55.69076,
    "lon": 12.56066
   },
@@ -374,6 +743,9 @@
    "title": "Twisting above the treetops",
    "type": "video",
    "place": "Camp Adventure treetop tower, Rønnede",
+   "url": "https://youtu.be/Yl-ujv_okg0",
+   "creator": null,
+   "channel": "CBS Sunday Morning",
    "lat": 55.25965,
    "lon": 11.97972
   },
@@ -382,6 +754,9 @@
    "title": "Feast your eyes at Torvehallerne Food Market",
    "type": "video",
    "place": "Torvehallerne food market",
+   "url": "https://youtu.be/6cko5N48DQc",
+   "creator": null,
+   "channel": "Condé Nast Traveller",
    "lat": 55.68368,
    "lon": 12.56976
   },
@@ -390,6 +765,9 @@
    "title": "Getting a taste for Danish licorice",
    "type": "video",
    "place": "Illum department store, Amagertorv",
+   "url": "https://youtu.be/Zir6VqY0Lw0",
+   "creator": null,
+   "channel": "CBS Sunday Morning",
    "lat": 55.6794,
    "lon": 12.58056
   },
@@ -398,6 +776,9 @@
    "title": "Copenhagen’s contribution to medical science",
    "type": "podcast",
    "place": "Rigshospitalet hospital",
+   "url": "https://overcast.fm/+Ip82n4U2I",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 55.69608,
    "lon": 12.56678
   },
@@ -406,6 +787,9 @@
    "title": "Studying the stars with Tycho Brahe",
    "type": "podcast",
    "place": "Tycho Brahe Planetarium",
+   "url": "https://overcast.fm/+S4olcCJE0",
+   "creator": null,
+   "channel": "Noble Blood",
    "lat": 55.67465,
    "lon": 12.55808
   },
@@ -414,6 +798,9 @@
    "title": "Staying grounded at a “kolonihave”",
    "type": "podcast",
    "place": "Kolonihaven Vennelyst allotment gardens",
+   "url": "https://overcast.fm/+lNQR9gTI",
+   "creator": null,
+   "channel": "Monocle: The Urbanist",
    "lat": 55.66997,
    "lon": 12.60259
   },
@@ -422,6 +809,9 @@
    "title": "Pizza under the influence",
    "type": "podcast",
    "place": "Bæst restaurant, Guldbergsgade",
+   "url": "https://overcast.fm/+LB3eJKbnM",
+   "creator": null,
+   "channel": "The Europeans",
    "lat": 55.69222,
    "lon": 12.55591
   },
@@ -430,6 +820,9 @@
    "title": "Voices from inside Herstedvester prison",
    "type": "podcast",
    "place": "Herstedvester Prison, Albertslund",
+   "url": "https://overcast.fm/+LB3cUIMTk",
+   "creator": null,
+   "channel": "The Europeans",
    "lat": 55.66361,
    "lon": 12.34712
   },
@@ -438,22 +831,20 @@
    "title": "Cold beer and warm vibes",
    "type": "video",
    "place": "Ølsnedkeren brewpub, Nørrebro",
+   "url": "https://youtu.be/zUdx1ojShj8",
+   "creator": null,
+   "channel": "VisitCopenhagen",
    "lat": 55.68591,
    "lon": 12.55232
-  },
-  {
-   "id": "4O3pLu84XZG5Op3rGv8QZt",
-   "title": "The turnaround of Carlsberg brewery",
-   "type": "video",
-   "place": "Home of Carlsberg brewery visitor centre",
-   "lat": 55.66489,
-   "lon": 12.53129
   },
   {
    "id": "2QG1GP1WfvZCmWGm9xXczT",
    "title": "Alliances across Scandinavia",
    "type": "video",
    "place": "Nordic Council offices, Ved Stranden 18",
+   "url": "https://youtu.be/TsXMe8H6iyc",
+   "creator": null,
+   "channel": "CGP Grey",
    "lat": 55.67777,
    "lon": 12.58103
   },
@@ -462,142 +853,64 @@
    "title": "A city in pursuit of livability",
    "type": "video",
    "place": "8 House (8-Tallet), Ørestad",
+   "url": "https://youtu.be/BCYgajPrT64",
+   "creator": null,
+   "channel": "Denmark.dk",
    "lat": 55.61762,
    "lon": 12.5717
-  },
-  {
-   "id": "7VQmgt7hPbPknFKX3IBPO",
-   "title": "Scandi Noir and Danish films of the future",
-   "type": "video",
-   "place": "Huset cultural centre, Magstræde",
-   "lat": 55.67637,
-   "lon": 12.57471
   },
   {
    "id": "51UzmmsBHllJEjoGYXMgU8",
    "title": "Getting a lay of the land in Christianshavn and Christiania",
    "type": "video",
    "place": "Church of Our Saviour (Vor Frelsers Kirke)",
+   "url": "https://youtu.be/v57JVVD6-ag",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 55.67293,
    "lon": 12.59421
-  },
-  {
-   "id": "2IHGEjBqP2MCEBt4bzyqcB",
-   "title": "Champagne Galop",
-   "type": "music",
-   "place": "Tivoli Gardens",
-   "lat": 55.6737,
-   "lon": 12.5682
   },
   {
    "id": "29eTe1miMsBpXfIIQCIkdW",
    "title": "A bar that caters to regulars",
    "type": "video",
    "place": "Gensyn cocktail bar, Frederiksberg",
+   "url": "https://youtu.be/K1WxhPleEgw",
+   "creator": null,
+   "channel": "VisitCopenhagen",
    "lat": 55.68418,
    "lon": 12.54308
-  },
-  {
-   "id": "2SIXyCNlGgBw2tVoDoeAg4",
-   "title": "7 Years",
-   "type": "music",
-   "place": "Freetown Christiania",
-   "lat": 55.6734,
-   "lon": 12.5964
-  },
-  {
-   "id": "2XpzkqNhSc6KGdGRNYqLBZ",
-   "title": "Sun of a Gun",
-   "type": "music",
-   "place": "Holmen (area)",
-   "lat": 55.6822,
-   "lon": 12.6001
-  },
-  {
-   "id": "5WWGEO1ORuwEzPa7dLB646",
-   "title": "My Little Anna",
-   "type": "music",
-   "place": "Jazzhus Montmartre, Store Regnegade",
-   "lat": 55.682,
-   "lon": 12.5825
   },
   {
    "id": "6i3TSEAM3R0n4YAYnPQlz9",
    "title": "A half-century of life in Freetown Christiania",
    "type": "podcast",
    "place": "Freetown Christiania",
+   "url": "https://overcast.fm/+OZqwGH8",
+   "creator": null,
+   "channel": "Theory of Everything",
    "lat": 55.6736,
    "lon": 12.59729
-  },
-  {
-   "id": "3XJp6eXB2FDtWPryYVc0Ig",
-   "title": "Tidligt Op",
-   "type": "music",
-   "place": "Mjølnerparken estate, Nørrebro",
-   "lat": 55.7001,
-   "lon": 12.5437
-  },
-  {
-   "id": "5z5v4vunKQvhTnIjxw4YgY",
-   "title": "I Danmark er jeg født",
-   "type": "music",
-   "place": "Nyhavn harbour",
-   "lat": 55.6798,
-   "lon": 12.5913
-  },
-  {
-   "id": "5vRQPzJcFl7I0K1HgB7ex3",
-   "title": "Midt om natten",
-   "type": "music",
-   "place": "Christianshavn canals (area)",
-   "lat": 55.6737,
-   "lon": 12.5892
-  },
-  {
-   "id": "5xtxhls4fMLfzJf3TRj5bf",
-   "title": "Kvinde min",
-   "type": "music",
-   "place": "Christianshavn canals (area)",
-   "lat": 55.6737,
-   "lon": 12.5892
   },
   {
    "id": "5OkSJZQwQymiXRQjxtwlxB",
    "title": "The rescue of the Danish Jews",
    "type": "podcast",
    "place": "Danish Jewish Museum",
+   "url": "https://overcast.fm/+L1D1Yyulw",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 55.67427,
    "lon": 12.58226
-  },
-  {
-   "id": "6LtHSofAdfTOJg8ZycGqlA",
-   "title": "Still Counting",
-   "type": "music",
-   "place": "City Hall Square (Rådhuspladsen)",
-   "lat": 55.6759,
-   "lon": 12.5691
-  },
-  {
-   "id": "37G2avmLcwuEfWI1xQ3Et",
-   "title": "Sleeping My Day Away",
-   "type": "music",
-   "place": "City Hall Square (Rådhuspladsen)",
-   "lat": 55.6759,
-   "lon": 12.5691
-  },
-  {
-   "id": "3EhtP776ApLTflywHfvXKF",
-   "title": "Barbie Girl",
-   "type": "music",
-   "place": "City Hall Square (Rådhuspladsen)",
-   "lat": 55.6759,
-   "lon": 12.5691
   },
   {
    "id": "6pixP11aYl7eSIdN3SBEIa",
    "title": "The ambitious aims of New Nordic Cuisine",
    "type": "podcast",
    "place": "Noma restaurant, Refshalevej",
+   "url": "https://overcast.fm/+G2W0gX3S0",
+   "creator": null,
+   "channel": "The Guardian’s Audio Long Reads",
    "lat": 55.68282,
    "lon": 12.61048
   },
@@ -606,6 +919,9 @@
    "title": "Overcoming a mid-life crisis with the help of a Danish chef",
    "type": "podcast",
    "place": "Noma restaurant, Refshalevej",
+   "url": "https://overcast.fm/+GLp25sDXQ",
+   "creator": null,
+   "channel": "Outside Podcast",
    "lat": 55.68267,
    "lon": 12.61053
   },
@@ -614,22 +930,20 @@
    "title": "Getting into the mind of Søren Kierkegaard",
    "type": "podcast",
    "place": "Kierkegaard’s grave, Assistens Cemetery",
+   "url": "https://overcast.fm/+IPN3aUan4",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 55.69073,
    "lon": 12.55299
-  },
-  {
-   "id": "5N9V8raWUjOvDtUPRX5s9M",
-   "title": "Maskarade (ouverture)",
-   "type": "music",
-   "place": "Royal Danish Theatre (Old Stage), Kongens Nytorv",
-   "lat": 55.6797,
-   "lon": 12.5864
   },
   {
    "id": "7yL5MJXZtYFExFNQ8QPhNt",
    "title": "The beheading of The Little Mermaid",
    "type": "podcast",
    "place": "Little Mermaid statue",
+   "url": "https://overcast.fm/+L2d3Izp6s",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 55.69286,
    "lon": 12.59928
   },
@@ -638,6 +952,9 @@
    "title": "Quiet pioneers of gay marriage",
    "type": "podcast",
    "place": "City Hall (Rådhuset)",
+   "url": "https://overcast.fm/+Ewi27ARn4",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 55.67528,
    "lon": 12.57016
   },
@@ -646,94 +963,53 @@
    "title": "A king’s summer house still guards the crown jewels",
    "type": "video",
    "place": "Rosenborg Castle",
+   "url": "https://youtu.be/Y5zGFUsdfJ4",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 55.6858,
    "lon": 12.5773
-  },
-  {
-   "id": "2WT6Fe1FCjhTP6tAQ7Hqmp",
-   "title": "An army of Santas hands out a department store’s stock",
-   "type": "video",
-   "place": "Magasin du Nord department store, Kongens Nytorv",
-   "lat": 55.6793,
-   "lon": 12.5848
   },
   {
    "id": "7qsxKLuhdgELWyvDO2j8Ct",
    "title": "British rockets set a neutral capital on fire",
    "type": "video",
    "place": "Copenhagen Cathedral (Vor Frue Kirke)",
+   "url": "https://youtu.be/C-bqnQeZ_Bg",
+   "creator": null,
+   "channel": "The History Guy",
    "lat": 55.6796,
    "lon": 12.5734
-  },
-  {
-   "id": "4B0jYm1SobzDBZmDgsGy63",
-   "title": "Nelson’s fleet fights moored Danish hulks outside the harbour",
-   "type": "video",
-   "place": "Trekroner Fort",
-   "lat": 55.7036,
-   "lon": 12.6178
-  },
-  {
-   "id": "32o9YnTKihErNiquotlIAd",
-   "title": "Gay couples sign the world’s first registered partnerships",
-   "type": "video",
-   "place": "City Hall (Rådhuset)",
-   "lat": 55.6761,
-   "lon": 12.5695
   },
   {
    "id": "StvpJG8EbSMcrkkvtxABz",
    "title": "Generating energy with a ski hill",
    "type": "video",
    "place": "CopenHill power plant (Amager Bakke)",
+   "url": "https://youtu.be/bWBPtIM_3FY?si=JtiXVV5FYRE2gc5Z&t=76",
+   "creator": null,
+   "channel": "BBC Travel Show",
    "lat": 55.6848,
    "lon": 12.62013
-  },
-  {
-   "id": "7JZpB6kkA3SeXJTnKkagHF",
-   "title": "A waste-burning power plant with a ski slope on its roof",
-   "type": "video",
-   "place": "CopenHill power plant (Amager Bakke)",
-   "lat": 55.6824,
-   "lon": 12.6031
   },
   {
    "id": "6Lqoz6GYNAtWKAoI8sWTL3",
    "title": "Inspired and innovative architecture from Bjarke Ingels",
    "type": "video",
    "place": "",
+   "url": "https://youtu.be/Dc1RtjuYL9M",
+   "creator": null,
+   "channel": "The B1M",
    "lat": 55.65429,
    "lon": 12.51843
-  },
-  {
-   "id": "4xIkn7nWtVnjQj2WOMpECl",
-   "title": "Riverside",
-   "type": "music",
-   "place": "",
-   "lat": 55.6771,
-   "lon": 12.5133
-  },
-  {
-   "id": "598HgV9ncxbjpMEcMjycSj",
-   "title": "Take Me into Your Skin",
-   "type": "music",
-   "place": "",
-   "lat": 55.6864,
-   "lon": 12.584
-  },
-  {
-   "id": "iNsa3iKcPoUNLFqnJsQg1",
-   "title": "Move Your Feet",
-   "type": "music",
-   "place": "",
-   "lat": 55.666,
-   "lon": 12.5435
   },
   {
    "id": "6QasUVcdMqpG6x9b7GFUpE",
    "title": "Eating with five senses at Restaurant Alchemist",
    "type": "video",
    "place": "",
+   "url": "https://youtu.be/ioqEUxpGjEI",
+   "creator": null,
+   "channel": "VisitCopenhagen",
    "lat": 55.69371,
    "lon": 12.61373
   },
@@ -742,6 +1018,9 @@
    "title": "Fighting against Danish food waste",
    "type": "video",
    "place": "",
+   "url": "https://youtu.be/KlFNp88T2cA",
+   "creator": null,
+   "channel": "BBC News",
    "lat": 55.67549,
    "lon": 12.56317
   },
@@ -750,6 +1029,9 @@
    "title": "The study of Danish happiness",
    "type": "podcast",
    "place": "",
+   "url": "https://overcast.fm/+H6UXbzubk",
+   "creator": null,
+   "channel": "The Rough Guide to Everywhere",
    "lat": 55.67798,
    "lon": 12.57949
   },
@@ -758,6 +1040,9 @@
    "title": "The right to wind in your hair",
    "type": "video",
    "place": "",
+   "url": "https://youtu.be/Am8nvuQWBwo",
+   "creator": null,
+   "channel": "Great Big Story",
    "lat": 55.70933,
    "lon": 12.60052
   }

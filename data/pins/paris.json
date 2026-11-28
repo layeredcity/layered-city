@@ -2,2130 +2,79 @@
  "city": "Paris",
  "pins": [
   {
-   "id": "5r2qM8uUFOjNmsnJZcQxJH",
-   "title": "Eugène Atget’s photographs of old Paris",
-   "type": "video",
-   "place": "17 bis rue Campagne-Première, Montparnasse",
-   "lat": 48.8418,
-   "lon": 2.3307
-  },
-  {
-   "id": "5z3xg4XR6JlwQ4DTtRiYq1",
-   "title": "The student revolt of May 1968",
-   "type": "podcast",
-   "place": "La Sorbonne, Latin Quarter",
-   "lat": 48.8486,
-   "lon": 2.3431
-  },
-  {
-   "id": "5aMVMGQzpYAoSQhFltmQPy",
-   "title": "The trial and execution of Louis XVI, 1793",
-   "type": "podcast",
-   "place": "Place de la Concorde",
-   "lat": 48.8656,
-   "lon": 2.3212
-  },
-  {
-   "id": "2p08tgRdHjozMLTZSDg4zu",
-   "title": "How Paris moved six million dead into old quarries",
-   "type": "podcast",
-   "place": "Catacombs of Paris entrance, Place Denfert-Rochereau",
-   "lat": 48.8338,
-   "lon": 2.3324
-  },
-  {
-   "id": "5VVrfAEtBc69QdzdhREBsN",
-   "title": "The Dreyfus Affair and the officer stripped of his rank",
-   "type": "podcast",
-   "place": "École Militaire, Champ de Mars",
-   "lat": 48.8512,
-   "lon": 2.3027
-  },
-  {
-   "id": "7y1pZxaQPltYe624xrV6yW",
-   "title": "The St Bartholomew’s Day Massacre, 1572",
-   "type": "podcast",
-   "place": "Saint-Germain-l’Auxerrois church",
-   "lat": 48.8595,
-   "lon": 2.3409
-  },
-  {
-   "id": "25Flv8g3yvBwdeIUGaaAEi",
-   "title": "Yellow-Red-Blue by Wassily Kandinsky",
-   "type": "podcast",
-   "place": "Centre Pompidou modern art museum",
-   "lat": 48.8606,
-   "lon": 2.3522
-  },
-  {
-   "id": "1slpCYWZo4AY3y9BYEze85",
-   "title": "Bal du moulin de la Galette by Pierre-Auguste Renoir",
-   "type": "podcast",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1oehNFytWGXkSafKaQ44x5",
-   "title": "The Cradle by Berthe Morisot",
-   "type": "podcast",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "6koqbf7hJRBUXYwimlEZ5z",
-   "title": "Portrait of the Journalist Sylvia von Harden by Otto Dix",
-   "type": "podcast",
-   "place": "Centre Pompidou modern art museum",
-   "lat": 48.8606,
-   "lon": 2.3522
-  },
-  {
-   "id": "6x5G8mYOp9LGIpW5U5f8Hg",
-   "title": "Mona Lisa by Leonardo da Vinci",
-   "type": "podcast",
-   "place": "Louvre Museum",
-   "lat": 48.8597,
-   "lon": 2.3384
-  },
-  {
-   "id": "6Oq0YuU1C10uvDo9MMuEyk",
-   "title": "The Mona Lisa by Leonardo da Vinci",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "78gzwt9oy3dPCT2uaaquEM",
-   "title": "Starry Night over the Rhône by Vincent van Gogh",
-   "type": "podcast",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "wbjNlPHEL5oWCNzoOitG8",
-   "title": "Whistler’s Mother by James McNeill Whistler",
-   "type": "podcast",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "169ct8l94ulqPh7IP9hwOq",
-   "title": "Mona Lisa by Leonardo da Vinci",
-   "type": "podcast",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2v0EVN7eDvCcXUN9sxAnXq",
-   "title": "Napoleon Crossing the Alps by Jacques-Louis David",
-   "type": "video",
-   "place": "Château de Malmaison",
-   "lat": 48.8706,
-   "lon": 2.1667
-  },
-  {
-   "id": "6yJkPrzDUJgbiURWB25ayS",
-   "title": "The Thinker by Auguste Rodin",
-   "type": "video",
-   "place": "Musée Rodin",
-   "lat": 48.8553,
-   "lon": 2.3159
-  },
-  {
-   "id": "5iqDaNU6rpXpkWVx5iViVq",
-   "title": "Water Lilies by Claude Monet",
-   "type": "video",
-   "place": "Musée de l’Orangerie museum",
-   "lat": 48.8638,
-   "lon": 2.3226
-  },
-  {
-   "id": "2z6tML86PHe6HWCfFF3fAx",
-   "title": "The Raft of the Medusa by Théodore Géricault",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "3ni4voGLDAk4tcmk1omn48",
-   "title": "The Basilica of Saint-Denis, birthplace of Gothic architecture",
-   "type": "video",
-   "place": "Basilica of Saint-Denis, Saint-Denis",
-   "lat": 48.9356,
-   "lon": 2.3598
-  },
-  {
-   "id": "60BleRblD5158D4RRlvvvn",
-   "title": "The Palais Garnier by Charles Garnier",
-   "type": "video",
-   "place": "Palais Garnier opera house",
-   "lat": 48.872,
-   "lon": 2.3316
-  },
-  {
-   "id": "2LmEOLOQnzggHONXBgsFZK",
-   "title": "Portrait of the Journalist Sylvia von Harden by Otto Dix",
-   "type": "video",
-   "place": "Centre Pompidou modern art museum",
-   "lat": 48.8606,
-   "lon": 2.3522
-  },
-  {
-   "id": "2v2gA1NbgfxMiLtIgCO1v",
-   "title": "Composition A XX by László Moholy-Nagy",
-   "type": "video",
-   "place": "Centre Pompidou modern art museum",
-   "lat": 48.8606,
-   "lon": 2.3522
-  },
-  {
-   "id": "3tlatLclVw0Ggu2znVWmHX",
-   "title": "Mechanical Head (The Spirit of Our Time) by Raoul Hausmann",
-   "type": "video",
-   "place": "Centre Pompidou modern art museum",
-   "lat": 48.8606,
-   "lon": 2.3522
-  },
-  {
-   "id": "6Iy85jK5CLE80HOB8iE5Ky",
-   "title": "La Belle Jardinière by Raphael",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "1Cx0xoxQ2tSX421VmvE95U",
-   "title": "Peasant Family in an Interior by Louis Le Nain",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "26YSrmLz6oSKHvuESCoTH3",
-   "title": "The Victory Stele of Naram-Sin",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7KmhluR13wN4j1I5gBBqMn",
-   "title": "The Death of Sardanapalus by Eugène Delacroix",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6y5i1PcaXXb9WqvH1LvZCn",
-   "title": "Saint Francis Receiving the Stigmata by Giotto",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7waCah91qFSvFiuRwn21jw",
-   "title": "The Sleep of Endymion by Anne-Louis Girodet",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6G5p9IxOoOhQm9ny668iqe",
-   "title": "The Dying Slave and the Rebellious Slave by Michelangelo",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "5usA4a8kA0JHqlwJ3ZEOVu",
-   "title": "The Intervention of the Sabine Women by Jacques-Louis David",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6DYRQNxSusCwsKTS8IG0lA",
-   "title": "The Death of the Virgin by Caravaggio",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "17PWUA8XpfgXay4pT2UGuN",
-   "title": "The Lictors Bring to Brutus the Bodies of His Sons by Jacques-Louis David",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7idwBVrQYgguPmmfkt7eDf",
-   "title": "The Painted Beaker from Susa, with ibex motifs",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "1M0RDAlJSTtTu4uq2wTdzi",
-   "title": "Bathsheba at Her Bath by Rembrandt",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "61B3DaYkaVwfJIIuHjRnHZ",
-   "title": "The Bull Capital from Darius I’s Palace at Susa",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "5OliT2ZQYDotGNUXFX1EaJ",
-   "title": "The Crowning with Thorns by Titian",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "642NzSPjVwU2G7hoyvbEZd",
-   "title": "Pilgrimage to Cythera by Antoine Watteau",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2cYKKpYnKk1hhGgxvKVcbP",
-   "title": "The Avignon Pietà by Enguerrand Quarton",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "4Y7Ui4moju6LNGqj3omcAq",
-   "title": "The Lamassu of Khorsabad, Assyrian palace guardians",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2vi3JUvpeRQlzXIVfCwzsx",
-   "title": "The Presentation of the Portrait of Marie de’ Medici by Peter Paul Rubens",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "50DlxDuQthH8n2UUo0I51U",
-   "title": "The Plaque of the Ergastines, from the Parthenon frieze",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6k7BeVcLPKRnB6125hh1T4",
-   "title": "Charles I at the Hunt by Anthony van Dyck",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "KeDzP4A69Oi5ns2hP1kRi",
-   "title": "The Niobid Krater by the Niobid Painter",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "0Gnjfekb1NbatJmQNnEKb",
-   "title": "Et in Arcadia Ego by Nicolas Poussin",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "5uobMs3YNqgodN6ltPu2Z9",
-   "title": "The Baptistère de Saint Louis by Muhammad ibn al-Zayn",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "4sz7nzTisDKLaUETGo5w77",
-   "title": "The Barberini Ivory, a Byzantine imperial panel",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "246T7CG0FlRbjBV05ukFER",
-   "title": "The Oath of the Horatii by Jacques-Louis David",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "1hoMWXD9ubzgXhPjXSSPcG",
-   "title": "Liberty Leading the People by Eugène Delacroix",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "48qpFo7ScM02C5cjw0qBaG",
-   "title": "The Code of Hammurabi, a Babylonian law stele",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2YUNM4erSr4ytXmlSL2GkY",
-   "title": "Self-Portrait with Her Daughter Julie by Élisabeth Vigée Le Brun",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "3UnQhDJ3fVW93XKMSyF61X",
-   "title": "Seated Gudea Holding a Temple Plan, a Sumerian statue",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6VGt8rZy0UVlynximKMNv7",
-   "title": "The Virgin and Child of Jeanne d’Évreux, a silver statuette",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "rWhKa6S5zDXDtFYj5cWjZ",
-   "title": "The Lady of Auxerre, an early Greek statuette",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2fre9S23k883AXvZfjxADC",
-   "title": "The Winged Victory of Samothrace",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "2cz78oDykRrYlKdl1lgTUe",
-   "title": "The Harbaville Triptych, a Byzantine ivory altarpiece",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "6BvcnQcHqozhr6G7C907B6",
-   "title": "Bonaparte Visiting the Plague Victims of Jaffa by Antoine-Jean Gros",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "5y4HGPE0nWz5jBWtQxf4B7",
-   "title": "The Seated Scribe, an ancient Egyptian statue",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "723bNfPRRBL29LIpvVfQsw",
-   "title": "Women of Algiers in Their Apartment by Eugène Delacroix",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7J3pp1AyyXIUSxmuktIPQQ",
-   "title": "Grande Odalisque by Jean-Auguste-Dominique Ingres",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "3yABDTjKunJuujC66kG9UI",
-   "title": "The Massacre at Chios by Eugène Delacroix",
-   "type": "video",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "3htysGs1K5Tbg5DCwWuXw2",
-   "title": "The Red Rock by Paul Cézanne",
-   "type": "video",
-   "place": "Musée de l’Orangerie museum",
-   "lat": 48.8638,
-   "lon": 2.3227
-  },
-  {
-   "id": "7gGVN0OAtYCgG6nJ4Ze5I0",
-   "title": "The Argenteuil Bridge by Claude Monet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "2pFyOQ1RM9TKKLIID3h6bh",
-   "title": "The Balcony by Édouard Manet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "2hcrzHdGiSbZQQOvAlFncp",
-   "title": "Portrait of Émile Zola by Édouard Manet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "3tlMUHzUnKyG0Bs6Nvzks4",
-   "title": "The Bellelli Family by Edgar Degas",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7Fx9zBUQ5T9ovif8atfpkj",
-   "title": "The Dance by Jean-Baptiste Carpeaux",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7HWMBNKPag5ORXUWzTclGN",
-   "title": "Luxe, Calme et Volupté by Henri Matisse",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1tNmrsn1wutlGcD8zQr11j",
-   "title": "The Angelus by Jean-François Millet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "4AVLRdNjVBKPD0EcXX08F8",
-   "title": "Ploughing in the Nivernais by Rosa Bonheur",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7s0U4cPP3RvsyRKFAhOciZ",
-   "title": "The Gleaners by Jean-François Millet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1StKqfLsD8VpiN9UQmd0P8",
-   "title": "Le Déjeuner sur l’herbe by Édouard Manet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "2LuKZcqlOFUuUHZOOFTda7",
-   "title": "The Floor Scrapers by Gustave Caillebotte",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "3qLcyN4UzLKaNBUv8tZp07",
-   "title": "Romans of the Decadence by Thomas Couture",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1lrHcTEK6jcd7e0tQeAJsx",
-   "title": "The Cradle by Berthe Morisot",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "1eX1QJJZRHjQg1nWk2jr79",
-   "title": "A Burial at Ornans by Gustave Courbet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "5MisD5c7Yjwsw29y6aw1cj",
-   "title": "The Painter’s Studio by Gustave Courbet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "4zPDu7ILcr2XWHfbwkMwga",
-   "title": "Hunting Butterflies by Berthe Morisot",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "6qnqr9pf08eyO4GO30knIm",
-   "title": "Dance at Le Moulin de la Galette by Pierre-Auguste Renoir",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "3MrN2lnD7b1lTBidl3YBQ0",
-   "title": "The Basin at Argenteuil by Claude Monet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7dCmVGlGjpOUTfRaD6b108",
-   "title": "The Swing by Pierre-Auguste Renoir",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "4kedaVvjqSW3BlPmacXlcK",
-   "title": "The Gare Saint-Lazare by Claude Monet",
-   "type": "video",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "7lTBkkpjoq8VqF9ewqe5dL",
-   "title": "Still Life with Chair Caning by Pablo Picasso",
-   "type": "video",
-   "place": "Picasso Museum (Hôtel Salé)",
-   "lat": 48.8598,
-   "lon": 2.3623
-  },
-  {
-   "id": "629lTUdgi4nU1hIMi0HvHW",
-   "title": "Notre-Dame de Paris, a Gothic cathedral",
-   "type": "video",
-   "place": "Notre-Dame Cathedral",
-   "lat": 48.853,
-   "lon": 2.3499
-  },
-  {
-   "id": "4lT5XgXZ4BqJV1IY8y6vvs",
-   "title": "The Porte Dauphine Métro Entrance by Hector Guimard",
-   "type": "video",
-   "place": "Porte Dauphine Métro entrance",
-   "lat": 48.8714,
-   "lon": 2.2766
-  },
-  {
-   "id": "24OZbqutN9DqH5bbLysJ3p",
-   "title": "The Eiffel Tower by Gustave Eiffel",
-   "type": "video",
-   "place": "Eiffel Tower",
-   "lat": 48.8584,
-   "lon": 2.2945
-  },
-  {
-   "id": "7sNLpMqUbdFRVQ3wl39wl",
-   "title": "Jupiter and Semele by Gustave Moreau",
-   "type": "video",
-   "place": "Gustave Moreau Museum",
-   "lat": 48.879,
-   "lon": 2.3349
-  },
-  {
-   "id": "4YkHfg0Uihhx9bNhXY4BxV",
-   "title": "Paris Reborn",
-   "type": "book",
-   "place": "Palais Garnier opera house",
-   "lat": 48.872,
-   "lon": 2.3316
-  },
-  {
-   "id": "1Wm3duPt6D6wfsGDlWtcK1",
-   "title": "Vanished Smile",
-   "type": "book",
-   "place": "Louvre Museum",
-   "lat": 48.8606,
-   "lon": 2.3376
-  },
-  {
-   "id": "7upUhoyCmdWHLqiYHLTeaO",
-   "title": "The Judgment of Paris",
-   "type": "book",
-   "place": "Musée d’Orsay museum",
-   "lat": 48.86,
-   "lon": 2.3266
-  },
-  {
-   "id": "3EptJ6T2tFg3p4VjsMLNAq",
-   "title": "Paris' Gothic Jewels: Notre-Dame Cathedral, Sainte-Chapelle and Conciergerie",
-   "type": "audiotour",
-   "place": "Notre-Dame Cathedral",
-   "lat": 48.8526,
-   "lon": 2.3506
-  },
-  {
-   "id": "hUxjqiwqHynnCXMPBGfT3",
-   "title": "Renovation, Restoration and Rebirth: A Notre-Dame Tour with Context",
-   "type": "audiotour",
-   "place": "Notre-Dame Cathedral",
-   "lat": 48.8536,
-   "lon": 2.3481
-  },
-  {
-   "id": "1Pqz0SS5IMmN6Ylg9753oF",
-   "title": "Is Paris Burning?",
-   "type": "book",
-   "place": "Le Meurice hotel, Rue de Rivoli",
-   "lat": 48.8652,
-   "lon": 2.3281
-  },
-  {
-   "id": "1gYuhGqT4OVx97pbwU1ArT",
-   "title": "Above the Catacombs in Lupin's footsteps: A Paris Walking Tour",
-   "type": "audiotour",
-   "place": "Port-Royal maternity hospital, Boulevard de Port-Royal",
-   "lat": 48.839,
-   "lon": 2.3385
-  },
-  {
-   "id": "7mbhipCGN7ltuGnTjwo7nQ",
-   "title": "Midnight in Montparnasse",
-   "type": "audiotour",
-   "place": "Montparnasse–Bienvenüe Métro station",
-   "lat": 48.841,
-   "lon": 2.3251
-  },
-  {
-   "id": "11IpDW0grAhMsIzI2U3qEj",
-   "title": "Benjamin Franklin's Paris: A Guide to the Revolutionary's Life in the City",
-   "type": "audiotour",
-   "place": "Place des États-Unis",
-   "lat": 48.8682,
-   "lon": 2.2933
-  },
-  {
-   "id": "4UvO0buDfGJyEqzM79j6Ma",
-   "title": "Hemingway's Paris: A Tour of His Life and Work with Context",
-   "type": "audiotour",
-   "place": "74 Rue du Cardinal Lemoine (Hemingway’s first apartment)",
-   "lat": 48.8448,
-   "lon": 2.3497
-  },
-  {
-   "id": "LMJ96cR61ubLUL7xvvBuZ",
-   "title": "Lessons in History: A Guide to Thomas Jefferson's Time in Paris",
-   "type": "audiotour",
-   "place": "Thomas Jefferson statue, Quai Anatole France",
-   "lat": 48.8612,
-   "lon": 2.3242
-  },
-  {
-   "id": "41CPjN1sztLfuw4kbTB3Qq",
-   "title": "Gourmet and Kid-Friendly Walk in the Marais",
-   "type": "audiotour",
-   "place": "Place de l’Hôtel de Ville",
-   "lat": 48.8562,
-   "lon": 2.3509
-  },
-  {
-   "id": "2tDd0JUmmcls8YFqSXksIT",
-   "title": "Paris' Left Bank Tour with Context: From Notre Dame to the Latin Quarter",
-   "type": "audiotour",
-   "place": "Cité Métro station, Île de la Cité",
-   "lat": 48.8552,
-   "lon": 2.3466
-  },
-  {
-   "id": "1uYZve9BIhDWURbMAnQBqH",
-   "title": "Coco Chanel's Paris: A Walking Tour",
-   "type": "audiotour",
-   "place": "Rue de Rivoli at the Tuileries Garden",
-   "lat": 48.8643,
-   "lon": 2.3302
-  },
-  {
-   "id": "6TW9ggvCPnezNMcSmD3rTH",
-   "title": "Marais Through the Centuries: A Tour of Paris' Historical District with Context",
-   "type": "audiotour",
-   "place": "Pont Louis-Philippe bridge",
-   "lat": 48.8546,
-   "lon": 2.3549
-  },
-  {
-   "id": "cXzKWjh8MnEMSW5HpDJkx",
-   "title": "Paris' Right Bank with Context: A Tour from the Louvre to the Arc de Triomphe",
-   "type": "audiotour",
-   "place": "Cour Carrée, Louvre",
-   "lat": 48.8595,
-   "lon": 2.3381
-  },
-  {
-   "id": "7gIDI676ycqYAMyGKioxTd",
-   "title": "Paris of Dreams and Nightmares: The Dark Side of the City of Light",
-   "type": "audiotour",
-   "place": "Pont au Change bridge",
-   "lat": 48.8572,
-   "lon": 2.3468
-  },
-  {
-   "id": "5fWgN05bS7NRcmhRUEQoV8",
-   "title": "Paris through the Ages: A Walking Tour from Notre Dame to Pont de la Concorde",
-   "type": "audiotour",
-   "place": "Point Zéro, Notre-Dame square",
-   "lat": 48.8535,
-   "lon": 2.3486
-  },
-  {
-   "id": "3GzwYmBqu8NkpRGsALSEYs",
-   "title": "Highlights Around Parc Montsouris: From Hidden Water to Secret Villages",
-   "type": "audiotour",
-   "place": "Pavillon de la Porte d’Arcueil, Parc Montsouris",
-   "lat": 48.8212,
-   "lon": 2.334
-  },
-  {
-   "id": "3RsemCJkr6wJHJLSIRIsKe",
-   "title": "Between Two Revolutions: A Guide to Marquis de La Fayette's Paris",
-   "type": "audiotour",
-   "place": "Bourse de Commerce museum",
-   "lat": 48.863,
-   "lon": 2.3422
-  },
-  {
-   "id": "4jzD6HGajYjIWo3fs5pvN",
-   "title": "Art Nouveau and Modernist Architecture: A Guide to Paris' 16th Arrondissement",
-   "type": "audiotour",
-   "place": "Pont de Grenelle bridge",
-   "lat": 48.8502,
-   "lon": 2.28
-  },
-  {
-   "id": "6mTeK6BGfPOfwq8xtdEQZj",
-   "title": "A Walking Tour through Napoleon's Paris",
-   "type": "audiotour",
-   "place": "Arc de Triomphe du Carrousel",
-   "lat": 48.8617,
-   "lon": 2.3332
-  },
-  {
-   "id": "15IY873V78n2vsTcCc8HJu",
-   "title": "The Chairfather: Père Lachaise Part I",
-   "type": "audiotour",
-   "place": "Père Lachaise Cemetery, Gambetta entrance",
-   "lat": 48.8635,
-   "lon": 2.3971
-  },
-  {
-   "id": "71dD9TBFGPFsNXKJVr2sc4",
-   "title": "Savoring Paris: A Food Lover's Walk around Les Halles",
-   "type": "audiotour",
-   "place": "La Samaritaine department store",
-   "lat": 48.8587,
-   "lon": 2.3424
-  },
-  {
-   "id": "5Iq9HdCOqRsgggEfT9tBhQ",
-   "title": "Finding the Lost Generation in Montparnasse",
-   "type": "audiotour",
-   "place": "Port-Royal RER station",
-   "lat": 48.8397,
-   "lon": 2.337
-  },
-  {
-   "id": "2wKvbOriKuBZUqrwPPpO0A",
-   "title": "Occupation and Liberation with Context: A World War II Tour of Paris",
-   "type": "audiotour",
-   "place": "Hôtel Lutetia",
-   "lat": 48.8508,
-   "lon": 2.3273
-  },
-  {
-   "id": "5tPYQ9ARi6NSKrpxEEboGw",
-   "title": "Le Marais: Secret Stories & Invisible Details",
-   "type": "audiotour",
-   "place": "Saint-Paul Métro station",
-   "lat": 48.8554,
-   "lon": 2.36
-  },
-  {
-   "id": "31jJ0XNz9PrwG4mP572s0K",
-   "title": "The Champs-Élysées: From Place de la Concorde to the Arc de Triomphe",
-   "type": "audiotour",
-   "place": "Place de la Concorde",
-   "lat": 48.8651,
-   "lon": 2.3223
-  },
-  {
-   "id": "7AhNy8QC8o4Jl2WXNhGcpw",
-   "title": "The Tuileries Garden: The Royal Walk from the Louvre to the Champs-Élysées",
-   "type": "audiotour",
-   "place": "Louis XIV statue, Louvre courtyard",
-   "lat": 48.8611,
-   "lon": 2.335
-  },
-  {
-   "id": "58biOgKsO53kRMLDIGVWJp",
-   "title": "The French Revolution in Paris: A Walking Tour with Context",
-   "type": "audiotour",
-   "place": "Place de la Bastille",
-   "lat": 48.8535,
-   "lon": 2.3685
-  },
-  {
-   "id": "4lw95gloBuHUEmPmQnRdiY",
-   "title": "Saint-Germain-des-Prés: An Authentic Paris Neighborhood",
-   "type": "audiotour",
-   "place": "Mabillon Métro station",
-   "lat": 48.853,
-   "lon": 2.3357
-  },
-  {
-   "id": "18TDjV2puwAVy0C7uav2Ho",
-   "title": "The Left Bank's Most Elegant Park: Exploring the Luxembourg Garden",
-   "type": "audiotour",
-   "place": "Luxembourg Garden, Odéon gate",
-   "lat": 48.8491,
-   "lon": 2.3384
-  },
-  {
-   "id": "1t1vjgquJBxXZ0co9r5HxK",
-   "title": "Paris' Iron Lady: A Walking Tour from Trocadéro Gardens to the Eiffel Tower",
-   "type": "audiotour",
-   "place": "Place du Trocadéro",
-   "lat": 48.8631,
-   "lon": 2.2886
-  },
-  {
-   "id": "7vj74ZRqMvFja82O3ZRMhD",
-   "title": "Montmartre: More than Meets the Eye",
-   "type": "audiotour",
-   "place": "Abbesses Métro station",
-   "lat": 48.8844,
-   "lon": 2.3387
-  },
-  {
-   "id": "1McazmDsGfWxUfv8CbiImj",
-   "title": "Latin Quarter Tour: The Panthéon, Rue Mouffetard and the Best of the Left Bank",
-   "type": "audiotour",
-   "place": "Shakespeare and Company bookshop",
-   "lat": 48.8527,
-   "lon": 2.3471
-  },
-  {
-   "id": "Vcx5FASf85cMrkWVrIqK6",
-   "title": "Le Marais: The Paris Neighborhood That Has It All!",
-   "type": "audiotour",
-   "place": "Pont Marie bridge",
-   "lat": 48.8536,
-   "lon": 2.3572
-  },
-  {
-   "id": "43NB49fQSbZykpdYnCd9Gt",
-   "title": "A Moveable Feast",
-   "type": "book",
-   "place": "Shakespeare and Company bookshop",
-   "lat": 48.8526,
-   "lon": 2.3471
-  },
-  {
-   "id": "1Zuh4UA51o4TP9mHL7Tbpf",
-   "title": "Île de la Cité: Where Paris Was Born",
-   "type": "audiotour",
-   "place": "Pont des Arts bridge",
-   "lat": 48.8591,
-   "lon": 2.3379
-  },
-  {
-   "id": "6XzS1rtNzRzIDXHyNjYL9U",
-   "title": "Seven Ages of Paris",
-   "type": "book",
-   "place": "Île de la Cité (area)",
-   "lat": 48.8549,
-   "lon": 2.3475
-  },
-  {
-   "id": "2wt1yjEaWYbCXsOtEz1oHq",
-   "title": "The French Intifada",
-   "type": "book",
-   "place": "Saint-Denis (area)",
-   "lat": 48.9362,
-   "lon": 2.3574
-  },
-  {
-   "id": "32cd2H9mTLbPpYjSgUcgHd",
-   "title": "How Paris Became Paris",
-   "type": "book",
-   "place": "Pont Neuf bridge",
-   "lat": 48.8567,
-   "lon": 2.3408
-  },
-  {
-   "id": "2tvFr7CQmHDfHbJbKe9Mkf",
-   "title": "Massacre: The Life and Death of the Paris Commune",
-   "type": "book",
-   "place": "Communards’ Wall, Père Lachaise Cemetery",
+   "id": "1429TxP1emOJuch2VM7xcr",
+   "title": "La Vie en Rose",
+   "type": "music",
+   "place": "Édith Piaf’s grave, Père Lachaise Cemetery",
+   "url": "https://open.spotify.com/search/%C3%89dith%20Piaf%20La%20Vie%20en%20Rose",
+   "creator": "Édith Piaf",
+   "channel": null,
    "lat": 48.8615,
    "lon": 2.3935
-  },
-  {
-   "id": "6TOdMhhn1vikenZUMhW6s3",
-   "title": "Suite Française",
-   "type": "book",
-   "place": "Shoah Memorial (Mémorial de la Shoah)",
-   "lat": 48.855,
-   "lon": 2.3562
-  },
-  {
-   "id": "7eNvMz4ZGVBvNtVj4eFjUL",
-   "title": "At the Existentialist Café",
-   "type": "book",
-   "place": "Café de Flore",
-   "lat": 48.8542,
-   "lon": 2.3326
-  },
-  {
-   "id": "4jR1SF7DcAvOmqEVMMmqup",
-   "title": "Marcel Proust: A Life",
-   "type": "book",
-   "place": "Carnavalet Museum",
-   "lat": 48.8571,
-   "lon": 2.3629
-  },
-  {
-   "id": "71urQttxJmpv2qkTZLZIqL",
-   "title": "Paris Noir",
-   "type": "book",
-   "place": "Montmartre (area)",
-   "lat": 48.8866,
-   "lon": 2.3408
-  },
-  {
-   "id": "E83SfhRtCjoNgrVdsiYDp",
-   "title": "Down and Out in Paris and London",
-   "type": "book",
-   "place": "Rue du Pot-de-Fer",
-   "lat": 48.8429,
-   "lon": 2.3485
-  },
-  {
-   "id": "1Tw04CWrKfWSfwwD77aorS",
-   "title": "My Life in France",
-   "type": "book",
-   "place": "Saint-Germain-des-Prés (area)",
-   "lat": 48.8542,
-   "lon": 2.3326
-  },
-  {
-   "id": "47KgjaIixSbqri42ulki7H",
-   "title": "La Vie en Rose (La Môme)",
-   "type": "movie",
-   "place": "Rue de Belleville (no. 72)",
-   "lat": 48.8735,
-   "lon": 2.3838
-  },
-  {
-   "id": "2LJ9gGh2UEduepLvjNZBWc",
-   "title": "The Dreamers",
-   "type": "movie",
-   "place": "Palais de Chaillot",
-   "lat": 48.8617,
-   "lon": 2.2885
-  },
-  {
-   "id": "q9tB7b7tR3al9LvI37Wu9",
-   "title": "French Cancan",
-   "type": "movie",
-   "place": "Moulin Rouge cabaret",
-   "lat": 48.8841,
-   "lon": 2.3322
-  },
-  {
-   "id": "6AO0HENDYy55WCtwZtjL7s",
-   "title": "Sarah’s Key (Elle s’appelait Sarah)",
-   "type": "movie",
-   "place": "Vél’ d’Hiv memorial, Quai de Grenelle",
-   "lat": 48.8535,
-   "lon": 2.288
-  },
-  {
-   "id": "7n0ylbAs56luFAMIXSVf8Y",
-   "title": "Amélie (Le Fabuleux Destin d’Amélie Poulain)",
-   "type": "movie",
-   "place": "Café des Deux Moulins, Rue Lepic",
-   "lat": 48.885,
-   "lon": 2.3336
-  },
-  {
-   "id": "4RQJMBWDy3N1s7H8FWCVqI",
-   "title": "Paris 1900",
-   "type": "movie",
-   "place": "Eiffel Tower",
-   "lat": 48.8584,
-   "lon": 2.2945
-  },
-  {
-   "id": "629GihpcPAjqi6nMpZ14Dq",
-   "title": "Cléo from 5 to 7 (Cléo de 5 à 7)",
-   "type": "movie",
-   "place": "Rue Daguerre, Montparnasse (area)",
-   "lat": 48.836,
-   "lon": 2.327
-  },
-  {
-   "id": "395ywHJ3mkdRVum4HeuF0p",
-   "title": "La Haine",
-   "type": "movie",
-   "place": "Cité de la Noé estate, Chanteloup-les-Vignes",
-   "lat": 48.979,
-   "lon": 2.032
-  },
-  {
-   "id": "6hL4LH3XONz4qNQ1QuFG2V",
-   "title": "The Lovers on the Bridge (Les Amants du Pont-Neuf)",
-   "type": "movie",
-   "place": "Pont Neuf bridge",
-   "lat": 48.857,
-   "lon": 2.341
-  },
-  {
-   "id": "awebhhZjyi3meN9Iqnf8n",
-   "title": "The 400 Blows (Les Quatre Cents Coups)",
-   "type": "movie",
-   "place": "Pigalle (area)",
-   "lat": 48.882,
-   "lon": 2.337
-  },
-  {
-   "id": "5tXHy7vMXml8tBNPiz59f5",
-   "title": "Le Samouraï",
-   "type": "movie",
-   "place": "Châtelet Métro station",
-   "lat": 48.8583,
-   "lon": 2.347
-  },
-  {
-   "id": "4SeeYQQvgTfOfwqitAOY82",
-   "title": "Les Misérables",
-   "type": "movie",
-   "place": "Les Bosquets estate, Montfermeil",
-   "lat": 48.908,
-   "lon": 2.545
-  },
-  {
-   "id": "6n48rz3xvfhVsD0DorEQlU",
-   "title": "Children of Paradise (Les Enfants du paradis)",
-   "type": "movie",
-   "place": "Boulevard du Temple",
-   "lat": 48.8648,
-   "lon": 2.3657
-  },
-  {
-   "id": "4ZUjqbytLASJeq0eI2WxoV",
-   "title": "Breathless (À bout de souffle)",
-   "type": "movie",
-   "place": "Avenue des Champs-Élysées",
-   "lat": 48.8698,
-   "lon": 2.3078
-  },
-  {
-   "id": "715xUPwAYzJYQbsc4DHzAe",
-   "title": "Caché (Hidden)",
-   "type": "movie",
-   "place": "Rue des Iris (the film’s townhouse street)",
-   "lat": 48.825,
-   "lon": 2.345
-  },
-  {
-   "id": "5Z2MAAXYDNvTHrh5Cj78eP",
-   "title": "Enjoying a classic French bistro at Chez Dumonet",
-   "type": "video",
-   "place": "Chez Dumonet bistro",
-   "lat": 48.84576,
-   "lon": 2.3199
-  },
-  {
-   "id": "38iH8Q2sGg2sU7camqY95N",
-   "title": "A peek into the hip-hop dance community in Paris",
-   "type": "video",
-   "place": "Gare de Lyon station",
-   "lat": 48.84521,
-   "lon": 2.37293
-  },
-  {
-   "id": "5elc4jcEPXiVV8DdjYs6SF",
-   "title": "On the roof with an urban beekeeper",
-   "type": "video",
-   "place": "Les Invalides (Hôtel des Invalides)",
-   "lat": 48.85652,
-   "lon": 2.3127
-  },
-  {
-   "id": "5hz78O6eZ5FkNBjweTDMcX",
-   "title": "The creative chocolate of Patrick Roger",
-   "type": "video",
-   "place": "Patrick Roger chocolate shop, Boulevard Saint-Germain",
-   "lat": 48.85187,
-   "lon": 2.3419
-  },
-  {
-   "id": "5EgH5G0JVi6SZcofRjJCr8",
-   "title": "The baker behind the best baguette in Paris",
-   "type": "video",
-   "place": "Boulangerie 2M bakery",
-   "lat": 48.84062,
-   "lon": 2.33051
-  },
-  {
-   "id": "1lEh3oSnG1vayLnK8gePRB",
-   "title": "Shopping for food with a touch of extravagance",
-   "type": "video",
-   "place": "La Grande Épicerie de Paris, Rue de Passy",
-   "lat": 48.85826,
-   "lon": 2.27594
-  },
-  {
-   "id": "ZqFR9jw6Vaj7DdyLAdop9",
-   "title": "The multiplying Statues of Liberty",
-   "type": "video",
-   "place": "Statue of Liberty replica, Île aux Cygnes",
-   "lat": 48.84999,
-   "lon": 2.27966
-  },
-  {
-   "id": "moEKlXPMASfmee9CIBuks",
-   "title": "Zen and the art of umbrella maintenance",
-   "type": "video",
-   "place": "La Maison Pep’s umbrella shop, Passage de l’Ancre",
-   "lat": 48.86438,
-   "lon": 2.35294
-  },
-  {
-   "id": "1Bg9hpqQNQVeQS2TomSIDQ",
-   "title": "A chocolate croissant by any other name",
-   "type": "video",
-   "place": "La P’tite Boulangerie bakery",
-   "lat": 48.83902,
-   "lon": 2.28792
-  },
-  {
-   "id": "57ba0BynWBiwBt34O5A94W",
-   "title": "Inside the mind of a passionate breadmaker",
-   "type": "video",
-   "place": "Du Pain et des Idées bakery",
-   "lat": 48.87124,
-   "lon": 2.36289
-  },
-  {
-   "id": "6fM6qcEjPgMj1btD2k3Kua",
-   "title": "Rethinking security in a freedom-loving city",
-   "type": "video",
-   "place": "Tuileries Garden, Concorde entrance",
-   "lat": 48.86488,
-   "lon": 2.32299
-  },
-  {
-   "id": "6GCLThKVxMNSKK4bgtxtef",
-   "title": "The namesake of Bar Hemingway ",
-   "type": "video",
-   "place": "Hemingway Bar, Ritz Paris",
-   "lat": 48.86876,
-   "lon": 2.32751
-  },
-  {
-   "id": "3FAcZNCbZ99A5VUVbc4IKU",
-   "title": "A taste of Africa at Marché Barbès",
-   "type": "video",
-   "place": "Marché Barbès market",
-   "lat": 48.88434,
-   "lon": 2.35498
-  },
-  {
-   "id": "3qgyoPgK2ob2zsjtK8Iq6w",
-   "title": "A law to fight food waste",
-   "type": "video",
-   "place": "La Maison du Zéro Déchet shop",
-   "lat": 48.88545,
-   "lon": 2.34479
-  },
-  {
-   "id": "6Tu15OYiLN3mxQurBs97OQ",
-   "title": "La Petite Ceinture: The lost railway of Paris",
-   "type": "video",
-   "place": "La Recyclerie (old Petite Ceinture station)",
-   "lat": 48.89762,
-   "lon": 2.34404
-  },
-  {
-   "id": "6UMixHixf5pVhFWsOSrhZR",
-   "title": "The pipe organ of Saint-Sulpice",
-   "type": "video",
-   "place": "Saint-Sulpice Church",
-   "lat": 48.851,
-   "lon": 2.33501
-  },
-  {
-   "id": "7HdXqH7EheLwbRNGMqAct9",
-   "title": "Hints of colonialization and immigration",
-   "type": "video",
-   "place": "Grand Mosque of Paris",
-   "lat": 48.84184,
-   "lon": 2.35517
-  },
-  {
-   "id": "1iSQ310EB0HOlp4xr2aoIY",
-   "title": "When a building is not a building at all",
-   "type": "video",
-   "place": "29 Rue Quincampoix (painted fake facade)",
-   "lat": 48.86023,
-   "lon": 2.35001
-  },
-  {
-   "id": "5o8eYctR7xGZdadoXgishT",
-   "title": "Rethinking a zoo for the modern era",
-   "type": "video",
-   "place": "Paris Zoo, Bois de Vincennes",
-   "lat": 48.83341,
-   "lon": 2.41454
-  },
-  {
-   "id": "6tZkDeryMTr3KhM9Wo9QrQ",
-   "title": "A pillow fight with John, Paul, George, and Ringo",
-   "type": "video",
-   "place": "Hôtel George V",
-   "lat": 48.86874,
-   "lon": 2.30084
-  },
-  {
-   "id": "3LdA2iC1sovc2pn9etEP8N",
-   "title": "How to (literally) make money in Paris",
-   "type": "video",
-   "place": "Monnaie de Paris mint",
-   "lat": 48.85668,
-   "lon": 2.33905
-  },
-  {
-   "id": "7ArwPsvfHxqXKNFlvHaN63",
-   "title": "In the heart of the Marais district",
-   "type": "video",
-   "place": "Place des Vosges",
-   "lat": 48.85561,
-   "lon": 2.36553
-  },
-  {
-   "id": "61zZc9XG603oA0KDyy1vnP",
-   "title": "African culture is just a metro ride away",
-   "type": "video",
-   "place": "Little Africa, Château Rouge (area)",
-   "lat": 48.88718,
-   "lon": 2.34972
-  },
-  {
-   "id": "1yLbFnLdYoK6fE83ZIsfBQ",
-   "title": "A tradition of craftsmanship at Hermès",
-   "type": "video",
-   "place": "Hermès flagship store, Rue du Faubourg Saint-Honoré",
-   "lat": 48.86893,
-   "lon": 2.32165
-  },
-  {
-   "id": "hRUYuQCM0v5Fv1vwo8zN7",
-   "title": "Conveying a feeling with a building",
-   "type": "video",
-   "place": "Fondation Louis Vuitton museum",
-   "lat": 48.87647,
-   "lon": 2.26341
-  },
-  {
-   "id": "3vXylIiVf2XqFl1EbbD6GZ",
-   "title": "Creating costumes for the Moulin Rouge",
-   "type": "video",
-   "place": "Maison Février feather workshop",
-   "lat": 48.88456,
-   "lon": 2.33329
-  },
-  {
-   "id": "5lQa46gqIKrSNLQ7nQAaao",
-   "title": "The cafe culture of the Latin Quarter ",
-   "type": "video",
-   "place": "Latin Quarter (area)",
-   "lat": 48.85142,
-   "lon": 2.34321
-  },
-  {
-   "id": "6aYm4rbVgPgACGKKWMP9KT",
-   "title": "The rise and fall of Napoleon Bonaparte",
-   "type": "video",
-   "place": "Napoleon’s Tomb, Les Invalides",
-   "lat": 48.85506,
-   "lon": 2.31252
-  },
-  {
-   "id": "1M7xy56HOG9KewoQ41BS3O",
-   "title": "Quiet contemplation at Père Lachaise Cemetery",
-   "type": "video",
-   "place": "Père Lachaise Cemetery",
-   "lat": 48.86139,
-   "lon": 2.39333
-  },
-  {
-   "id": "3fyLin46skZtOhF7aukTTu",
-   "title": "Taking a duel to new heights",
-   "type": "video",
-   "place": "Tuileries Garden",
-   "lat": 48.86324,
-   "lon": 2.32823
-  },
-  {
-   "id": "4maAbczpWp4F7rA1i0vlIS",
-   "title": "The birthplace of the Bloody Mary",
-   "type": "video",
-   "place": "Harry’s New York Bar",
-   "lat": 48.8692,
-   "lon": 2.33207
-  },
-  {
-   "id": "3Shz8JAVPnCMqHdt5bE4Ck",
-   "title": "The ghosts of Le Chemin des Dames",
-   "type": "video",
-   "place": "Chemin des Dames battlefield (area)",
-   "lat": 49.44486,
-   "lon": 3.65655
-  },
-  {
-   "id": "4BHApMu8aYJng76eMQmGsO",
-   "title": "The family that created France’s largest bell",
-   "type": "video",
-   "place": "Sacré-Cœur Basilica",
-   "lat": 48.88721,
-   "lon": 2.34298
-  },
-  {
-   "id": "4v2qooAFnnMrgmYNi4rJpC",
-   "title": "Outside the walls of the Palace of Versailles",
-   "type": "video",
-   "place": "Gardens of Versailles (area)",
-   "lat": 48.80758,
-   "lon": 2.10969
-  },
-  {
-   "id": "63S4cuOXIjczzOhhcz7vkk",
-   "title": "The Rodin Museum: In the presence of a master",
-   "type": "video",
-   "place": "Rodin Museum",
-   "lat": 48.85533,
-   "lon": 2.31589
-  },
-  {
-   "id": "6nX1m6k4aUgxcbex1CKx1C",
-   "title": "Gawking at the dead at the public morgue",
-   "type": "podcast",
-   "place": "Site of the old Paris Morgue, Square de l’Île-de-France",
-   "lat": 48.85215,
-   "lon": 2.35196
-  },
-  {
-   "id": "CyQITdKM88zdC6Rw8hAMS",
-   "title": "The spectacular stained glass of the Sainte-Chapelle",
-   "type": "video",
-   "place": "Sainte-Chapelle",
-   "lat": 48.85537,
-   "lon": 2.34518
-  },
-  {
-   "id": "2ssr0v9WaJusAwknSfA7YP",
-   "title": "Remembering the flood of 1910",
-   "type": "podcast",
-   "place": "Zouave statue, Pont de l’Alma",
-   "lat": 48.86383,
-   "lon": 2.30201
-  },
-  {
-   "id": "4lgs9D3O2ZwkwsyyzurEsE",
-   "title": "A less-than-magic start for Disneyland Paris",
-   "type": "podcast",
-   "place": "Disneyland Paris, Marne-la-Vallée",
-   "lat": 48.87037,
-   "lon": 2.77969
-  },
-  {
-   "id": "5QA1XlxuZs7EmZpM5ugYNt",
-   "title": "The battle outside Saint Roch Church",
-   "type": "podcast",
-   "place": "Saint-Roch Church",
-   "lat": 48.86489,
-   "lon": 2.3322
-  },
-  {
-   "id": "6VTKYNNzAxJSxa47RkYkUh",
-   "title": "The Egyptian obelisk in Place de la Concorde",
-   "type": "podcast",
-   "place": "Luxor Obelisk, Place de la Concorde",
-   "lat": 48.8652,
-   "lon": 2.32203
-  },
-  {
-   "id": "1ukuCoN9QYTxWQKM7kbvcO",
-   "title": "The King of England moves to Paris",
-   "type": "podcast",
-   "place": "Windsors’ former house, Bois de Boulogne",
-   "lat": 48.87425,
-   "lon": 2.25237
-  },
-  {
-   "id": "5dgESvQAKo59qmNeKpOIGc",
-   "title": "The abduction of a Moroccan dissident",
-   "type": "podcast",
-   "place": "Brasserie Lipp",
-   "lat": 48.85372,
-   "lon": 2.33244
-  },
-  {
-   "id": "K9iMJjeYmn8tyUfbVMLIl",
-   "title": "Tapestries symbolic of a renewal of humanism",
-   "type": "video",
-   "place": "Cluny Museum (Museum of the Middle Ages)",
-   "lat": 48.85046,
-   "lon": 2.34418
-  },
-  {
-   "id": "3jlifrStnMCAR37Kv618Iw",
-   "title": "Nazis on the doorstep",
-   "type": "podcast",
-   "place": "Arc de Triomphe",
-   "lat": 48.87376,
-   "lon": 2.29517
-  },
-  {
-   "id": "7vA0qaR1GDqjZgHR2iIfmY",
-   "title": "​​Assisting artists who fled their home countries",
-   "type": "video",
-   "place": "Atelier des Artistes en Exil",
-   "lat": 48.86606,
-   "lon": 2.3425
-  },
-  {
-   "id": "4NoSSna64pL1Tco7DFof5c",
-   "title": "On the verge of liberating Paris from the Nazis",
-   "type": "podcast",
-   "place": "Hôtel de Ville (City Hall)",
-   "lat": 48.85661,
-   "lon": 2.3518
-  },
-  {
-   "id": "hRS8YIfo3ngDqcbwdnqFz",
-   "title": "The contest that forever changed the wine world",
-   "type": "podcast",
-   "place": "Site of Les Caves de la Madeleine wine shop, Cité Berryer",
-   "lat": 48.87031,
-   "lon": 2.32248
-  },
-  {
-   "id": "4LKsDwczmhsZXQoTiHHdmo",
-   "title": "The Tennis Court Oath and the revolutions to come",
-   "type": "video",
-   "place": "Tennis Court (Jeu de Paume), Versailles",
-   "lat": 48.80101,
-   "lon": 2.12381
-  },
-  {
-   "id": "1hV8DQb09H0H96Lr7wvnUD",
-   "title": "​​A bakery with an irreverent twist",
-   "type": "video",
-   "place": "Legay Choc bakery",
-   "lat": 48.8589,
-   "lon": 2.3539
-  },
-  {
-   "id": "672wGwK0sa0vscGtQePV5n",
-   "title": "Drawing hungry crowds Holybelly",
-   "type": "podcast",
-   "place": "Holybelly café, Rue Lucien-Sampaix",
-   "lat": 48.87102,
-   "lon": 2.35982
-  },
-  {
-   "id": "w0OWGhCl7QekQJVdzJskA",
-   "title": "The legacy of sourdough at Poilâne Bakery",
-   "type": "podcast",
-   "place": "Poilâne bakery, Rue du Cherche-Midi",
-   "lat": 48.85129,
-   "lon": 2.32899
-  },
-  {
-   "id": "6UzeTKEA9ZyeOrOxfygjGX",
-   "title": "A massacre on the road to Algerian independence",
-   "type": "podcast",
-   "place": "Algerian massacre plaque, Pont Saint-Michel",
-   "lat": 48.85422,
-   "lon": 2.34496
-  },
-  {
-   "id": "jYu78GIfrKpIF16db6gVk",
-   "title": "Shopping for dinner on a typical market street",
-   "type": "video",
-   "place": "Rue Cler market street",
-   "lat": 48.85641,
-   "lon": 2.30665
-  },
-  {
-   "id": "xQiS41CrDGpRJxqlzj4kN",
-   "title": "A palace fit for the Sun King",
-   "type": "video",
-   "place": "Palace of Versailles",
-   "lat": 48.80486,
-   "lon": 2.12035
-  },
-  {
-   "id": "1iUkUInRLbgtV7qiCKrOR9",
-   "title": "The battle of the pyramid",
-   "type": "podcast",
-   "place": "Louvre Pyramid",
-   "lat": 48.86104,
-   "lon": 2.3359
-  },
-  {
-   "id": "PF8DhgQ3lB2B9UKxv0SOT",
-   "title": "The mistresses of King Louis XV",
-   "type": "video",
-   "place": "Palace of Versailles",
-   "lat": 48.80487,
-   "lon": 2.12157
-  },
-  {
-   "id": "1Ho46o2S4UNvNIMeaihplT",
-   "title": "Louvre Museum tour with travel writer Rick Steves",
-   "type": "audiotour",
-   "place": "Louvre Pyramid",
-   "lat": 48.86117,
-   "lon": 2.33519
-  },
-  {
-   "id": "6QMNySJdXIFBeqzz95JSJG",
-   "title": "Searching for what remains of the Bastille",
-   "type": "video",
-   "place": "Bastille Métro station (fortress remains)",
-   "lat": 48.85356,
-   "lon": 2.3702
-  },
-  {
-   "id": "4sccvryvnxQf5YaQeS2TBt",
-   "title": "The turbulent life of Marie Antoinette",
-   "type": "podcast",
-   "place": "Palace of Versailles",
-   "lat": 48.80438,
-   "lon": 2.12019
-  },
-  {
-   "id": "2leLMHgVh4Seu6ecGh2INg",
-   "title": "Palace of Versailles tour with travel writer Rick Steves",
-   "type": "audiotour",
-   "place": "Palace of Versailles",
-   "lat": 48.80407,
-   "lon": 2.12317
-  },
-  {
-   "id": "2arod3S8KXrHPTI2Bl0E4j",
-   "title": "Rue Cler neighborhood tour with travel writer Rick Steves",
-   "type": "audiotour",
-   "place": "Rue Cler market street",
-   "lat": 48.8577,
-   "lon": 2.30595
-  },
-  {
-   "id": "SL3b98oHE2il51udhn6Ya",
-   "title": "The accidental destruction of a chateau",
-   "type": "video",
-   "place": "Site of the Château de Saint-Cloud, Saint-Cloud",
-   "lat": 48.83773,
-   "lon": 2.21672
-  },
-  {
-   "id": "77fNx2RXDciXYsMwsXrFdG",
-   "title": "The train line that transformed into a park",
-   "type": "video",
-   "place": "Viaduc des Arts and Coulée Verte park",
-   "lat": 48.84697,
-   "lon": 2.37652
-  },
-  {
-   "id": "3WBZ2xZF5RoABNzmYCZZjs",
-   "title": "The little delights of Montmartre",
-   "type": "video",
-   "place": "Villa Léandre, Montmartre",
-   "lat": 48.88839,
-   "lon": 2.33506
-  },
-  {
-   "id": "76yr8skayyxLQOxYxp425B",
-   "title": "Political rebellion and revolution in bohemian Belleville",
-   "type": "video",
-   "place": "La Bellevilloise",
-   "lat": 48.86835,
-   "lon": 2.39216
-  },
-  {
-   "id": "4XFOgOBL7x9tuSjYDEUFMf",
-   "title": "Rocky Horror’s underground subculture",
-   "type": "video",
-   "place": "Studio Galande cinema",
-   "lat": 48.85164,
-   "lon": 2.3472
-  },
-  {
-   "id": "3D7x0dz4kLUeH7AVs0Mzgr",
-   "title": "The mushrooms growing beneath our feet",
-   "type": "video",
-   "place": "Les Carrières mushroom caves",
-   "lat": 49.01153,
-   "lon": 1.93562
-  },
-  {
-   "id": "3poVGmx8CsXpxsoi8PTzMV",
-   "title": "Salvaging historical home goods at Feau & Cie",
-   "type": "video",
-   "place": "Feau & Cie architectural salvage shop",
-   "lat": 48.87984,
-   "lon": 2.29715
-  },
-  {
-   "id": "40hElfrwWqPURs8RFMEj1w",
-   "title": "Shop signage from the 14th-century hidden in plain sight",
-   "type": "podcast",
-   "place": "42 Rue Galande (medieval carved sign)",
-   "lat": 48.85162,
-   "lon": 2.34713
-  },
-  {
-   "id": "5HRvsvlrzgHQWJbl7BhWM3",
-   "title": "A long legacy of luxury fans at Maison Duvelleroy",
-   "type": "video",
-   "place": "Maison Duvelleroy fan shop",
-   "lat": 48.85848,
-   "lon": 2.30777
-  },
-  {
-   "id": "5fWUYfDpMLpmRDLD6akBEf",
-   "title": "Exploring a Parisian ghost town",
-   "type": "video",
-   "place": "Old village of Goussainville (area)",
-   "lat": 49.01219,
-   "lon": 2.46459
-  },
-  {
-   "id": "5SWhJQbJ4I3YFDYagqKkA0",
-   "title": "Learning the art of fencing",
-   "type": "video",
-   "place": "Salle d’Armes Coudurier fencing club",
-   "lat": 48.85381,
-   "lon": 2.34262
-  },
-  {
-   "id": "2dsMcvWZ8gLOpvw9zOs04U",
-   "title": "Where classic Parisian cafe chairs come from",
-   "type": "video",
-   "place": "Maison Gatti chair workshop, Seine-et-Marne",
-   "lat": 48.30319,
-   "lon": 2.82434
-  },
-  {
-   "id": "7EQSLxnOZXu3a4wcj4FGKu",
-   "title": "Using models and maps to plan for war",
-   "type": "video",
-   "place": "Musée des Plans-Reliefs, Les Invalides",
-   "lat": 48.85647,
-   "lon": 2.3133
-  },
-  {
-   "id": "18N7PgeNVqE8aDlQWrRQXI",
-   "title": "Antiques and adventure at Les Puces",
-   "type": "video",
-   "place": "Saint-Ouen flea market (Les Puces)",
-   "lat": 48.90313,
-   "lon": 2.34389
-  },
-  {
-   "id": "4WEz6x9VMveB237j5PMtGq",
-   "title": "A whirlwind food and drink tour of Paris",
-   "type": "video",
-   "place": "Marché des Enfants Rouges market",
-   "lat": 48.86275,
-   "lon": 2.362
-  },
-  {
-   "id": "5tvcdnR5CtSJmi1k3iXSiI",
-   "title": "An insider look at an outsider artist",
-   "type": "video",
-   "place": "Maïssa Toulet’s studio",
-   "lat": 48.85409,
-   "lon": 2.38233
-  },
-  {
-   "id": "5wM2bjMHeWjorwRE12VQHH",
-   "title": "Going underground at the Liberation of Paris Museum",
-   "type": "video",
-   "place": "Liberation of Paris Museum",
-   "lat": 48.83393,
-   "lon": 2.33188
-  },
-  {
-   "id": "7Bdrg1qBtCwXFd0EvoUvid",
-   "title": "Exploring new French cuisine at Au Passage",
-   "type": "video",
-   "place": "Au Passage restaurant",
-   "lat": 48.86158,
-   "lon": 2.36865
-  },
-  {
-   "id": "179nKT2Cy831jpJMF8rmOe",
-   "title": "How to rob an art museum",
-   "type": "podcast",
-   "place": "Paris Museum of Modern Art (Musée d’Art Moderne)",
-   "lat": 48.86434,
-   "lon": 2.29782
-  },
-  {
-   "id": "3bQFeEq6O0cc6xesef4R0Q",
-   "title": "The attack on Charlie Hebdo",
-   "type": "video",
-   "place": "Former Charlie Hebdo offices, Rue Nicolas-Appert",
-   "lat": 48.85926,
-   "lon": 2.37026
-  },
-  {
-   "id": "7ppLBXTy97H1fUOAItHqZH",
-   "title": "Unexpected architecture in a uniform city",
-   "type": "podcast",
-   "place": "Orgues de Flandre towers",
-   "lat": 48.88963,
-   "lon": 2.37494
-  },
-  {
-   "id": "1bwbWcNiPOlG0ZOeMvDyHg",
-   "title": "Giving injured soldiers a new lease on life",
-   "type": "video",
-   "place": "Site of Anna Coleman Ladd’s studio, 70 Rue Notre-Dame-des-Champs",
-   "lat": 48.84288,
-   "lon": 2.33156
-  },
-  {
-   "id": "4JZChCkvDezYAsmqGspOIX",
-   "title": "Marie Antoinette behind bars",
-   "type": "podcast",
-   "place": "Conciergerie (former palace prison)",
-   "lat": 48.85587,
-   "lon": 2.34605
-  },
-  {
-   "id": "5xXUtrDzUk3FEKSwqvfPfY",
-   "title": "A portrait of Berthe Morisot",
-   "type": "podcast",
-   "place": "Musée Marmottan Monet museum",
-   "lat": 48.85926,
-   "lon": 2.26723
-  },
-  {
-   "id": "3JBLEURzcZCqO8L0M9s2jd",
-   "title": "The Parisians who ate a zoo",
-   "type": "podcast",
-   "place": "Ménagerie zoo, Jardin des Plantes",
-   "lat": 48.84388,
-   "lon": 2.35973
-  },
-  {
-   "id": "3XxWAC6qjGJdATMXSfPJNq",
-   "title": "An informal approach to French cuisine",
-   "type": "podcast",
-   "place": "Librairie Gourmande bookshop",
-   "lat": 48.86712,
-   "lon": 2.3442
-  },
-  {
-   "id": "1Us2rCZokuBuAYx4xMop6V",
-   "title": "Mona Lisa’s rising stardom",
-   "type": "video",
-   "place": "Salle des États (Mona Lisa room), Louvre Museum",
-   "lat": 48.85974,
-   "lon": 2.33837
-  },
-  {
-   "id": "5Iuh24iDkRPMyW8tilkDhM",
-   "title": "Curating art to celebrate a vibrant urban culture",
-   "type": "podcast",
-   "place": "25hours Hotel Terminus Nord, opposite Gare du Nord",
-   "lat": 48.87957,
-   "lon": 2.35514
-  },
-  {
-   "id": "uwfJixObf6kcfbTnURLvE",
-   "title": "An in-depth look at the Mona Lisa",
-   "type": "podcast",
-   "place": "Salle des États (Mona Lisa room), Louvre Museum",
-   "lat": 48.85986,
-   "lon": 2.33831
-  },
-  {
-   "id": "3UmENtOoabBb0lRF7XyyKr",
-   "title": "The painting in Mona Lisa’s watchful gaze",
-   "type": "video",
-   "place": "Salle des États (Mona Lisa room), Louvre Museum",
-   "lat": 48.86,
-   "lon": 2.33525
-  },
-  {
-   "id": "1D6xKqSzI92YLM4cUbBNFT",
-   "title": "Paroles, paroles",
-   "type": "music",
-   "place": "Dalida bust, Place Dalida",
-   "lat": 48.8882,
-   "lon": 2.3389
-  },
-  {
-   "id": "tbwWf2bkfImrFumH7QnUp",
-   "title": "The rise and fall of Joan of Arc",
-   "type": "podcast",
-   "place": "Joan of Arc statue, Place des Pyramides",
-   "lat": 48.86388,
-   "lon": 2.33219
-  },
-  {
-   "id": "2gpREqvqGQQCBeOlxrZkzI",
-   "title": "A triple-murder that captivated 19th-century Paris",
-   "type": "podcast",
-   "place": "Rue Jean-Mermoz (formerly Rue Montaigne)",
-   "lat": 48.86821,
-   "lon": 2.30866
-  },
-  {
-   "id": "4jnf0VLFMKggFf6SpoMtSu",
-   "title": "Feeling invisible as a French-Asian person",
-   "type": "podcast",
-   "place": "Chinatown, 13th arrondissement (area)",
-   "lat": 48.82358,
-   "lon": 2.36574
-  },
-  {
-   "id": "FaMwaKy1zb55nNGyTjiAy",
-   "title": "The remarkable life of Josephine Baker",
-   "type": "video",
-   "place": "Folies Bergère music hall",
-   "lat": 48.87435,
-   "lon": 2.3449
-  },
-  {
-   "id": "7L83MQ2US2CZJVuaoITrh2",
-   "title": "Changing the world with Josephine Baker",
-   "type": "podcast",
-   "place": "Folies Bergère music hall",
-   "lat": 48.87417,
-   "lon": 2.34498
-  },
-  {
-   "id": "2j3CiOGcLGiWeHNddHT0HP",
-   "title": "For the love of print",
-   "type": "video",
-   "place": "Magazine kiosk near Le Bon Marché",
-   "lat": 48.85022,
-   "lon": 2.32381
-  },
-  {
-   "id": "4lzY8eedskJFL3XlwoweIu",
-   "title": "La Bohème",
-   "type": "music",
-   "place": "Place du Tertre",
-   "lat": 48.8866,
-   "lon": 2.3408
-  },
-  {
-   "id": "6c4yZhc6wXwk3aIh94jdXx",
-   "title": "Paris sous les bombes",
-   "type": "music",
-   "place": "Seine-Saint-Denis (area)",
-   "lat": 48.9137,
-   "lon": 2.4846
-  },
-  {
-   "id": "4EFVIfc2ytIe98otP8VvEX",
-   "title": "1901",
-   "type": "music",
-   "place": "Versailles (area)",
-   "lat": 48.8023,
-   "lon": 2.1297
-  },
-  {
-   "id": "3tURYFe5uz9EZ0uis5wmzA",
-   "title": "One More Time",
-   "type": "music",
-   "place": "Rex Club nightclub",
-   "lat": 48.8706,
-   "lon": 2.3474
-  },
-  {
-   "id": "4fExvNaIl4Oa80dt4TPc7K",
-   "title": "Je t’aime… moi non plus",
-   "type": "music",
-   "place": "Maison Gainsbourg, 5 bis Rue de Verneuil",
-   "lat": 48.8572,
-   "lon": 2.3316
-  },
-  {
-   "id": "2fCYUOfLejyjlYZgfMVbpo",
-   "title": "Nuages",
-   "type": "music",
-   "place": "La Chope des Puces bar, Saint-Ouen flea market",
-   "lat": 48.9028,
-   "lon": 2.3409
   },
   {
    "id": "2vrfrpcw674mQ4HFCFhCP9",
    "title": "Clair de Lune",
    "type": "music",
    "place": "Passy Cemetery",
+   "url": "https://open.spotify.com/search/Debussy%20Clair%20de%20Lune",
+   "creator": "Claude Debussy",
+   "channel": null,
    "lat": 48.8625,
    "lon": 2.2853
-  },
-  {
-   "id": "31CShwrVKSq2bvpJe2pdl0",
-   "title": "The origins of chef Eric Ripert",
-   "type": "podcast",
-   "place": "La Tour d’Argent restaurant",
-   "lat": 48.84978,
-   "lon": 2.35495
-  },
-  {
-   "id": "1429TxP1emOJuch2VM7xcr",
-   "title": "La Vie en Rose",
-   "type": "music",
-   "place": "Édith Piaf’s grave, Père Lachaise Cemetery",
-   "lat": 48.8615,
-   "lon": 2.3935
   },
   {
    "id": "2tg1rlDSuqDePno8lbY73w",
    "title": "J’ai deux amours",
    "type": "music",
    "place": "Panthéon mausoleum",
+   "url": "https://open.spotify.com/search/Jos%C3%A9phine%20Baker%20J'ai%20deux%20amours",
+   "creator": "Joséphine Baker",
+   "channel": null,
    "lat": 48.8462,
    "lon": 2.3464
   },
   {
-   "id": "1orwNEbwsnD3tXE6TbKiwe",
-   "title": "Market meandering at Marché d’Aligre",
-   "type": "video",
-   "place": "Marché d’Aligre market",
-   "lat": 48.84916,
-   "lon": 2.37827
+   "id": "4fExvNaIl4Oa80dt4TPc7K",
+   "title": "Je t’aime… moi non plus",
+   "type": "music",
+   "place": "Maison Gainsbourg, 5 bis Rue de Verneuil",
+   "url": "https://open.spotify.com/search/Gainsbourg%20Je%20t'aime%20moi%20non%20plus",
+   "creator": "Serge Gainsbourg",
+   "channel": null,
+   "lat": 48.8572,
+   "lon": 2.3316
   },
   {
-   "id": "6Jj6WmgZjXXqMPpTzRuFGR",
-   "title": "Conserving the treasures of the Louvre",
-   "type": "video",
-   "place": "RMN casting workshops (Ateliers d’art), Saint-Denis",
-   "lat": 48.9131,
-   "lon": 2.36227
+   "id": "3tURYFe5uz9EZ0uis5wmzA",
+   "title": "One More Time",
+   "type": "music",
+   "place": "Rex Club nightclub",
+   "url": "https://open.spotify.com/search/Daft%20Punk%20One%20More%20Time",
+   "creator": "Daft Punk",
+   "channel": null,
+   "lat": 48.8706,
+   "lon": 2.3474
   },
   {
-   "id": "7pffUzipqrXuFVSyg1zV7e",
-   "title": "Cherishing a crumbling chateau",
-   "type": "video",
-   "place": "Château du Duc d’Épernon, Fontenay-Trésigny",
-   "lat": 48.70613,
-   "lon": 2.86197
-  },
-  {
-   "id": "6HA2SHoeLrrt7p33auiUb",
-   "title": "Haussmann remakes a city in flux",
-   "type": "podcast",
-   "place": "Carnavalet Museum",
-   "lat": 48.85731,
-   "lon": 2.36254
-  },
-  {
-   "id": "2L6e8DcOCKIEAvBQPHDtfK",
-   "title": "A brutal end for the Paris Commune",
-   "type": "podcast",
-   "place": "Communards’ Wall, Père Lachaise Cemetery",
-   "lat": 48.85973,
-   "lon": 2.3997
+   "id": "4lzY8eedskJFL3XlwoweIu",
+   "title": "La Bohème",
+   "type": "music",
+   "place": "Place du Tertre",
+   "url": "https://open.spotify.com/search/La%20Boh%C3%A8me%20Aznavour",
+   "creator": "Charles Aznavour",
+   "channel": null,
+   "lat": 48.8866,
+   "lon": 2.3408
   },
   {
    "id": "HJgkDm4HighIzdKVdcCcR",
    "title": "Djadja",
    "type": "music",
    "place": "Pont des Arts bridge",
+   "url": "https://open.spotify.com/search/Djadja%20Aya%20Nakamura",
+   "creator": "Aya Nakamura",
+   "channel": null,
    "lat": 48.8583,
    "lon": 2.3375
   },
@@ -2134,14 +83,2957 @@
    "title": "Sous le ciel de Paris",
    "type": "music",
    "place": "Île de la Cité (area)",
+   "url": "https://open.spotify.com/search/Sous%20le%20ciel%20de%20Paris%20Montand",
+   "creator": "Yves Montand",
+   "channel": null,
    "lat": 48.8549,
    "lon": 2.3475
+  },
+  {
+   "id": "2fCYUOfLejyjlYZgfMVbpo",
+   "title": "Nuages",
+   "type": "music",
+   "place": "La Chope des Puces bar, Saint-Ouen flea market",
+   "url": "https://open.spotify.com/search/Nuages%20Django%20Reinhardt",
+   "creator": "Django Reinhardt",
+   "channel": null,
+   "lat": 48.9028,
+   "lon": 2.3409
+  },
+  {
+   "id": "4qQuLTVcOgoG1hjv4vnjZE",
+   "title": "Il est cinq heures, Paris s’éveille",
+   "type": "music",
+   "place": "Eiffel Tower",
+   "url": "https://open.spotify.com/search/Il%20est%20cinq%20heures%20Paris%20s'%C3%A9veille%20Dutronc",
+   "creator": "Jacques Dutronc",
+   "channel": null,
+   "lat": 48.8584,
+   "lon": 2.2945
+  },
+  {
+   "id": "11O0UY6a0qIqxVG0R0ZpUm",
+   "title": "Au DD",
+   "type": "music",
+   "place": "Eiffel Tower",
+   "url": "https://open.spotify.com/search/PNL%20Au%20DD",
+   "creator": "PNL",
+   "channel": null,
+   "lat": 48.8584,
+   "lon": 2.2945
+  },
+  {
+   "id": "4EFVIfc2ytIe98otP8VvEX",
+   "title": "1901",
+   "type": "music",
+   "place": "Versailles (area)",
+   "url": "https://open.spotify.com/search/Phoenix%201901",
+   "creator": "Phoenix",
+   "channel": null,
+   "lat": 48.8023,
+   "lon": 2.1297
+  },
+  {
+   "id": "6c4yZhc6wXwk3aIh94jdXx",
+   "title": "Paris sous les bombes",
+   "type": "music",
+   "place": "Seine-Saint-Denis (area)",
+   "url": "https://open.spotify.com/search/NTM%20Paris%20sous%20les%20bombes",
+   "creator": "Suprême NTM",
+   "channel": null,
+   "lat": 48.9137,
+   "lon": 2.4846
+  },
+  {
+   "id": "13LIEW82ZlIQJcTdJUtlFq",
+   "title": "Oxygène, Pt. 4",
+   "type": "music",
+   "place": "Place de la Concorde",
+   "url": "https://open.spotify.com/search/Jean-Michel%20Jarre%20Oxyg%C3%A8ne%20Pt%204",
+   "creator": "Jean-Michel Jarre",
+   "channel": null,
+   "lat": 48.8656,
+   "lon": 2.3212
+  },
+  {
+   "id": "1D6xKqSzI92YLM4cUbBNFT",
+   "title": "Paroles, paroles",
+   "type": "music",
+   "place": "Dalida bust, Place Dalida",
+   "url": "https://open.spotify.com/search/Dalida%20Paroles%20paroles",
+   "creator": "Dalida",
+   "channel": null,
+   "lat": 48.8882,
+   "lon": 2.3389
+  },
+  {
+   "id": "2LJ9gGh2UEduepLvjNZBWc",
+   "title": "The Dreamers",
+   "type": "movie",
+   "place": "Palais de Chaillot",
+   "url": "https://justwatch.com/us/search?q=The%20Dreamers%202003",
+   "creator": "Bernardo Bertolucci",
+   "channel": null,
+   "lat": 48.8617,
+   "lon": 2.2885
+  },
+  {
+   "id": "2STbmfP0sF0Ss6CkiEboUq",
+   "title": "Craftspeople rebuild a cathedral after the fire",
+   "type": "video",
+   "place": "Notre-Dame Cathedral",
+   "url": "https://youtu.be/vzHjTn-URAE",
+   "creator": null,
+   "channel": "The B1M",
+   "lat": 48.853,
+   "lon": 2.3499
+  },
+  {
+   "id": "7eNvMz4ZGVBvNtVj4eFjUL",
+   "title": "At the Existentialist Café",
+   "type": "book",
+   "place": "Café de Flore",
+   "url": "https://goodreads.com/search?q=Sarah%20Bakewell%20At%20the%20Existentialist%20Caf%C3%A9",
+   "creator": "Sarah Bakewell",
+   "channel": null,
+   "lat": 48.8542,
+   "lon": 2.3326
+  },
+  {
+   "id": "2cz78oDykRrYlKdl1lgTUe",
+   "title": "The Harbaville Triptych, a Byzantine ivory altarpiece",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/jpO3PiXrTZ4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6hL4LH3XONz4qNQ1QuFG2V",
+   "title": "The Lovers on the Bridge (Les Amants du Pont-Neuf)",
+   "type": "movie",
+   "place": "Pont Neuf bridge",
+   "url": "https://justwatch.com/us/search?q=Les%20Amants%20du%20Pont-Neuf",
+   "creator": "Leos Carax",
+   "channel": null,
+   "lat": 48.857,
+   "lon": 2.341
+  },
+  {
+   "id": "395ywHJ3mkdRVum4HeuF0p",
+   "title": "La Haine",
+   "type": "movie",
+   "place": "Cité de la Noé housing project, Chanteloup-les-Vignes",
+   "url": "https://justwatch.com/us/search?q=La%20Haine",
+   "creator": "Mathieu Kassovitz",
+   "channel": null,
+   "lat": 48.979,
+   "lon": 2.032
+  },
+  {
+   "id": "6n48rz3xvfhVsD0DorEQlU",
+   "title": "Children of Paradise (Les Enfants du paradis)",
+   "type": "movie",
+   "place": "Boulevard du Temple",
+   "url": "https://justwatch.com/us/search?q=Children%20of%20Paradise",
+   "creator": "Marcel Carné",
+   "channel": null,
+   "lat": 48.8648,
+   "lon": 2.3657
+  },
+  {
+   "id": "71urQttxJmpv2qkTZLZIqL",
+   "title": "Paris Noir",
+   "type": "book",
+   "place": "Montmartre (area)",
+   "url": "https://goodreads.com/search?q=Tyler%20Stovall%20Paris%20Noir",
+   "creator": "Tyler Stovall",
+   "channel": null,
+   "lat": 48.8866,
+   "lon": 2.3408
+  },
+  {
+   "id": "2wt1yjEaWYbCXsOtEz1oHq",
+   "title": "The French Intifada",
+   "type": "book",
+   "place": "Saint-Denis (area)",
+   "url": "https://goodreads.com/search?q=Andrew%20Hussey%20The%20French%20Intifada",
+   "creator": "Andrew Hussey",
+   "channel": null,
+   "lat": 48.9362,
+   "lon": 2.3574
+  },
+  {
+   "id": "4FVrUT5kxll3gs9qZNHs1f",
+   "title": "A lone tower so hated the city banned any more",
+   "type": "video",
+   "place": "Montparnasse Tower (Tour Montparnasse)",
+   "url": "https://youtu.be/68JUxRH8AZo",
+   "creator": null,
+   "channel": "The B1M",
+   "lat": 48.8421,
+   "lon": 2.322
+  },
+  {
+   "id": "4XFOgOBL7x9tuSjYDEUFMf",
+   "title": "Rocky Horror’s underground subculture",
+   "type": "video",
+   "place": "Studio Galande cinema",
+   "url": "https://youtu.be/xiAA0C3bHok",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.85164,
+   "lon": 2.3472
+  },
+  {
+   "id": "3jlifrStnMCAR37Kv618Iw",
+   "title": "Nazis on the doorstep",
+   "type": "podcast",
+   "place": "Arc de Triomphe",
+   "url": "https://overcast.fm/+L03snDxHg",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 48.87376,
+   "lon": 2.29517
+  },
+  {
+   "id": "24OZbqutN9DqH5bbLysJ3p",
+   "title": "The Eiffel Tower by Gustave Eiffel",
+   "type": "video",
+   "place": "Eiffel Tower",
+   "url": "https://youtu.be/vurh8_SO6_c",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8584,
+   "lon": 2.2945
+  },
+  {
+   "id": "723bNfPRRBL29LIpvVfQsw",
+   "title": "Women of Algiers in Their Apartment by Eugène Delacroix",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/lcaNYS1q4SY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "1M0RDAlJSTtTu4uq2wTdzi",
+   "title": "Bathsheba at Her Bath by Rembrandt",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/wsL4Uh0BrQw",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2LmEOLOQnzggHONXBgsFZK",
+   "title": "Portrait of the Journalist Sylvia von Harden by Otto Dix",
+   "type": "video",
+   "place": "Centre Pompidou modern art museum",
+   "url": "https://youtu.be/sHkZWu9tgpw",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "wbjNlPHEL5oWCNzoOitG8",
+   "title": "Whistler’s Mother by James McNeill Whistler",
+   "type": "podcast",
+   "place": "Musée d’Orsay museum",
+   "url": "https://podcasts.apple.com/us/podcast/james-mcneill-whistler-arrangement-in-grey-and-black/id1573430649?i=1000744462154&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "25Flv8g3yvBwdeIUGaaAEi",
+   "title": "Yellow-Red-Blue by Wassily Kandinsky",
+   "type": "podcast",
+   "place": "Centre Pompidou modern art museum",
+   "url": "https://podcasts.apple.com/us/podcast/wassily-kandinsky-yellow-red-blue-when-color-strikes/id1844970987?i=1000798300061&uo=4",
+   "creator": null,
+   "channel": "Inside the Masterpiece",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "7y1pZxaQPltYe624xrV6yW",
+   "title": "The St. Bartholomew’s Day Massacre, 1572",
+   "type": "podcast",
+   "place": "Saint-Germain-l’Auxerrois church",
+   "url": "https://www.bbc.co.uk/programmes/p005493t",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 48.8595,
+   "lon": 2.3409
+  },
+  {
+   "id": "5r2qM8uUFOjNmsnJZcQxJH",
+   "title": "Eugène Atget’s photographs of old Paris",
+   "type": "video",
+   "place": "17 bis rue Campagne-Première, Montparnasse",
+   "url": "https://www.youtube.com/watch?v=crUmj0nEml8",
+   "creator": null,
+   "channel": "Christie’s",
+   "lat": 48.8418,
+   "lon": 2.3307
+  },
+  {
+   "id": "47KgjaIixSbqri42ulki7H",
+   "title": "La Vie en Rose (La Môme)",
+   "type": "movie",
+   "place": "Rue de Belleville (no. 72)",
+   "url": "https://justwatch.com/us/search?q=La%20Vie%20en%20Rose",
+   "creator": "Olivier Dahan",
+   "channel": null,
+   "lat": 48.8735,
+   "lon": 2.3838
+  },
+  {
+   "id": "4SeeYQQvgTfOfwqitAOY82",
+   "title": "Les Misérables",
+   "type": "movie",
+   "place": "Les Bosquets housing project, Montfermeil",
+   "url": "https://justwatch.com/us/search?q=Les%20Miserables%202019",
+   "creator": "Ladj Ly",
+   "channel": null,
+   "lat": 48.908,
+   "lon": 2.545
+  },
+  {
+   "id": "6lWY1gvcguooGWlPNrxcKN",
+   "title": "Paris turns a dark Dutch painter into a colorist",
+   "type": "podcast",
+   "place": "54 rue Lepic, Montmartre",
+   "url": "https://podcasts.apple.com/us/podcast/vincent-van-gogh-becoming-vincent-part-2/id1877705944?i=1000783952337",
+   "creator": null,
+   "channel": "Stories of Art",
+   "lat": 48.8865,
+   "lon": 2.3339
+  },
+  {
+   "id": "5b3UNBhCSojNZJmOCChp8z",
+   "title": "Seventy days in Auvers end with a gunshot",
+   "type": "podcast",
+   "place": "Auberge Ravoux, Auvers-sur-Oise",
+   "url": "https://podcasts.apple.com/us/podcast/vincent-van-gogh-endgame-in-auvers-part-4/id1877705944?i=1000787073353",
+   "creator": null,
+   "channel": "Stories of Art",
+   "lat": 49.0707,
+   "lon": 2.1715
+  },
+  {
+   "id": "1N4t4gRDdyQya6uXQclZL8",
+   "title": "Flâneurs of Belleville",
+   "type": "audiotour",
+   "place": "Parmentier Métro station",
+   "url": "https://voicemap.me/tour/paris/flaneurs-of-belleville",
+   "creator": "Jennifer Solheim",
+   "channel": null,
+   "lat": 48.8654,
+   "lon": 2.3745
+  },
+  {
+   "id": "1McazmDsGfWxUfv8CbiImj",
+   "title": "Latin Quarter Tour: The Panthéon, Rue Mouffetard and the Best of the Left Bank",
+   "type": "audiotour",
+   "place": "Shakespeare and Company bookshop",
+   "url": "https://voicemap.me/tour/paris/latin-quarter-tour-the-pantheon-rue-mouffetard-and-the-best-of-the-left-bank",
+   "creator": "Annie Sargent",
+   "channel": null,
+   "lat": 48.8527,
+   "lon": 2.3471
+  },
+  {
+   "id": "7vj74ZRqMvFja82O3ZRMhD",
+   "title": "Montmartre: More than Meets the Eye",
+   "type": "audiotour",
+   "place": "Abbesses Métro station",
+   "url": "https://voicemap.me/tour/paris/montmartre-more-than-meets-the-eye",
+   "creator": "Annie Sargent",
+   "channel": null,
+   "lat": 48.8844,
+   "lon": 2.3387
+  },
+  {
+   "id": "1t1vjgquJBxXZ0co9r5HxK",
+   "title": "Paris’ Iron Lady: A Walking Tour from Trocadéro Gardens to the Eiffel Tower",
+   "type": "audiotour",
+   "place": "Place du Trocadéro",
+   "url": "https://voicemap.me/tour/paris/paris-iron-lady-a-walking-tour-from-trocadero-gardens-to-the-eiffel-tower",
+   "creator": "Annie Sargent",
+   "channel": null,
+   "lat": 48.8631,
+   "lon": 2.2886
+  },
+  {
+   "id": "18TDjV2puwAVy0C7uav2Ho",
+   "title": "The Left Bank’s Most Elegant Park: Exploring the Luxembourg Garden",
+   "type": "audiotour",
+   "place": "Luxembourg Garden, Odéon gate",
+   "url": "https://voicemap.me/tour/paris/the-left-bank-s-most-elegant-park-exploring-the-luxembourg-garden",
+   "creator": "Gary Kraut",
+   "channel": null,
+   "lat": 48.8491,
+   "lon": 2.3384
+  },
+  {
+   "id": "58biOgKsO53kRMLDIGVWJp",
+   "title": "The French Revolution in Paris: A Walking Tour with Context",
+   "type": "audiotour",
+   "place": "Place de la Bastille",
+   "url": "https://voicemap.me/tour/paris/the-french-revolution-in-paris-a-walking-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 48.8535,
+   "lon": 2.3685
+  },
+  {
+   "id": "7AhNy8QC8o4Jl2WXNhGcpw",
+   "title": "The Tuileries Garden: The Royal Walk from the Louvre to the Champs-Élysées",
+   "type": "audiotour",
+   "place": "Louis XIV statue, Louvre courtyard",
+   "url": "https://voicemap.me/tour/paris/the-tuileries-garden-the-royal-walk-from-the-louvre-to-the-champs-elysees",
+   "creator": "Gary Kraut",
+   "channel": null,
+   "lat": 48.8611,
+   "lon": 2.335
+  },
+  {
+   "id": "31jJ0XNz9PrwG4mP572s0K",
+   "title": "The Champs-Élysées: From Place de la Concorde to the Arc de Triomphe",
+   "type": "audiotour",
+   "place": "Place de la Concorde",
+   "url": "https://voicemap.me/tour/paris/the-champs-elysees-from-place-de-la-concorde-to-the-arc-de-triomphe",
+   "creator": "Gary Kraut",
+   "channel": null,
+   "lat": 48.8651,
+   "lon": 2.3223
+  },
+  {
+   "id": "5Iq9HdCOqRsgggEfT9tBhQ",
+   "title": "Finding the Lost Generation in Montparnasse",
+   "type": "audiotour",
+   "place": "Port-Royal RER station",
+   "url": "https://voicemap.me/tour/paris/finding-the-lost-generation-in-montparnasse",
+   "creator": "Philippa Campsie",
+   "channel": null,
+   "lat": 48.8397,
+   "lon": 2.337
+  },
+  {
+   "id": "71dD9TBFGPFsNXKJVr2sc4",
+   "title": "Savoring Paris: A Food Lover’s Walk around Les Halles",
+   "type": "audiotour",
+   "place": "La Samaritaine department store",
+   "url": "https://voicemap.me/tour/paris/savoring-paris-a-food-lover-s-walk-around-les-halles",
+   "creator": "Annie Sargent",
+   "channel": null,
+   "lat": 48.8587,
+   "lon": 2.3424
+  },
+  {
+   "id": "6mTeK6BGfPOfwq8xtdEQZj",
+   "title": "A Walking Tour through Napoleon’s Paris",
+   "type": "audiotour",
+   "place": "Arc de Triomphe du Carrousel",
+   "url": "https://voicemap.me/tour/paris/a-walking-tour-through-napoleon-s-paris",
+   "creator": "FrancoAmericana",
+   "channel": null,
+   "lat": 48.8617,
+   "lon": 2.3332
+  },
+  {
+   "id": "4jzD6HGajYjIWo3fs5pvN",
+   "title": "Art Nouveau and Modernist Architecture: A Guide to Paris’ 16th Arrondissement",
+   "type": "audiotour",
+   "place": "Pont de Grenelle bridge",
+   "url": "https://voicemap.me/tour/paris/art-nouveau-and-modernist-architecture-a-guide-to-paris-16th-arrondissement",
+   "creator": "Catherine Anne",
+   "channel": null,
+   "lat": 48.8502,
+   "lon": 2.28
+  },
+  {
+   "id": "3RsemCJkr6wJHJLSIRIsKe",
+   "title": "Between Two Revolutions: A Guide to Marquis de La Fayette’s Paris",
+   "type": "audiotour",
+   "place": "Bourse de Commerce museum",
+   "url": "https://voicemap.me/tour/paris/between-two-revolutions-a-guide-to-marquis-de-la-fayette-s-paris",
+   "creator": "Rochambeau Chapter DAR",
+   "channel": null,
+   "lat": 48.863,
+   "lon": 2.3422
+  },
+  {
+   "id": "3GzwYmBqu8NkpRGsALSEYs",
+   "title": "Highlights Around Parc Montsouris: From Hidden Water to Secret Villages",
+   "type": "audiotour",
+   "place": "Pavillon de la Porte d’Arcueil, Parc Montsouris",
+   "url": "https://voicemap.me/tour/paris/highlights-around-parc-montsouris-from-hidden-water-to-secret-villages",
+   "creator": "Comte de Saint-Germain",
+   "channel": null,
+   "lat": 48.8212,
+   "lon": 2.334
+  },
+  {
+   "id": "5fWgN05bS7NRcmhRUEQoV8",
+   "title": "Paris through the Ages: A Walking Tour from Notre Dame to Pont de la Concorde",
+   "type": "audiotour",
+   "place": "Point Zéro, Notre-Dame square",
+   "url": "https://voicemap.me/tour/paris/paris-through-the-ages-a-walking-tour-from-notre-dame-to-pont-de-la-concorde",
+   "creator": "Peter Groark",
+   "channel": null,
+   "lat": 48.8535,
+   "lon": 2.3486
+  },
+  {
+   "id": "7gIDI676ycqYAMyGKioxTd",
+   "title": "Paris of Dreams and Nightmares: The Dark Side of the City of Light",
+   "type": "audiotour",
+   "place": "Pont au Change bridge",
+   "url": "https://voicemap.me/tour/paris/paris-of-dreams-and-nightmares-a-guide-to-its-dark-history",
+   "creator": "Gary Kraut",
+   "channel": null,
+   "lat": 48.8572,
+   "lon": 2.3468
+  },
+  {
+   "id": "cXzKWjh8MnEMSW5HpDJkx",
+   "title": "Paris’ Right Bank with Context: A Tour from the Louvre to the Arc de Triomphe",
+   "type": "audiotour",
+   "place": "Cour Carrée, Louvre",
+   "url": "https://voicemap.me/tour/paris/paris-right-bank-with-context-a-tour-from-the-louvre-to-the-arc-de-triomphe",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 48.8595,
+   "lon": 2.3381
+  },
+  {
+   "id": "6TW9ggvCPnezNMcSmD3rTH",
+   "title": "Marais Through the Centuries: A Tour of Paris’ Historical District with Context",
+   "type": "audiotour",
+   "place": "Pont Louis-Philippe bridge",
+   "url": "https://voicemap.me/tour/paris/marais-through-the-centuries-a-tour-of-paris-historical-district-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 48.8546,
+   "lon": 2.3549
+  },
+  {
+   "id": "1uYZve9BIhDWURbMAnQBqH",
+   "title": "Coco Chanel’s Paris: A Walking Tour",
+   "type": "audiotour",
+   "place": "Rue de Rivoli at the Tuileries Garden",
+   "url": "https://voicemap.me/tour/paris/coco-chanel-s-paris",
+   "creator": "Philippa Campsie",
+   "channel": null,
+   "lat": 48.8643,
+   "lon": 2.3302
+  },
+  {
+   "id": "2tDd0JUmmcls8YFqSXksIT",
+   "title": "Paris’ Left Bank Tour with Context: From Notre Dame to the Latin Quarter",
+   "type": "audiotour",
+   "place": "Cité Métro station, Île de la Cité",
+   "url": "https://voicemap.me/tour/paris/paris-left-bank-tour-with-context-from-notre-dame-to-the-latin-quarter",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 48.8552,
+   "lon": 2.3466
+  },
+  {
+   "id": "41CPjN1sztLfuw4kbTB3Qq",
+   "title": "Gourmet and Kid-Friendly Walk in the Marais",
+   "type": "audiotour",
+   "place": "Place de l’Hôtel de Ville",
+   "url": "https://voicemap.me/tour/paris/gourmet-and-kid-friendly-walk-in-the-marais",
+   "creator": "Claire Mora",
+   "channel": null,
+   "lat": 48.8562,
+   "lon": 2.3509
+  },
+  {
+   "id": "LMJ96cR61ubLUL7xvvBuZ",
+   "title": "Lessons in History: A Guide to Thomas Jefferson’s Time in Paris",
+   "type": "audiotour",
+   "place": "Thomas Jefferson statue, Quai Anatole France",
+   "url": "https://voicemap.me/tour/paris/lessons-in-history-a-guide-to-thomas-jefferson-s-time-in-paris",
+   "creator": "Rochambeau Chapter DAR",
+   "channel": null,
+   "lat": 48.8612,
+   "lon": 2.3242
+  },
+  {
+   "id": "4UvO0buDfGJyEqzM79j6Ma",
+   "title": "Hemingway’s Paris: A Tour of His Life and Work with Context",
+   "type": "audiotour",
+   "place": "74 Rue du Cardinal Lemoine (Hemingway’s first apartment)",
+   "url": "https://voicemap.me/tour/paris/hemingway-s-paris-a-tour-of-his-life-and-work-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 48.8448,
+   "lon": 2.3497
+  },
+  {
+   "id": "11IpDW0grAhMsIzI2U3qEj",
+   "title": "Benjamin Franklin’s Paris: A Guide to the Revolutionary’s Life in the City",
+   "type": "audiotour",
+   "place": "Place des États-Unis",
+   "url": "https://voicemap.me/tour/paris/benjamin-franklin-s-paris-a-guide-to-the-revolutionary-s-life-in-the-city",
+   "creator": "Rochambeau Chapter DAR",
+   "channel": null,
+   "lat": 48.8682,
+   "lon": 2.2933
+  },
+  {
+   "id": "7mbhipCGN7ltuGnTjwo7nQ",
+   "title": "Midnight in Montparnasse",
+   "type": "audiotour",
+   "place": "Montparnasse–Bienvenüe Métro station",
+   "url": "https://voicemap.me/tour/paris/midnight-in-montparnasse",
+   "creator": "Julia Kuzmina",
+   "channel": null,
+   "lat": 48.841,
+   "lon": 2.3251
+  },
+  {
+   "id": "1gYuhGqT4OVx97pbwU1ArT",
+   "title": "Above the Catacombs in Lupin’s footsteps: A Paris Walking Tour",
+   "type": "audiotour",
+   "place": "Port-Royal maternity hospital, Boulevard de Port-Royal",
+   "url": "https://voicemap.me/tour/paris/above-the-catacombs-in-lupin-s-footsteps-a-paris-walking-tour",
+   "creator": "Comte de Saint-Germain",
+   "channel": null,
+   "lat": 48.839,
+   "lon": 2.3385
+  },
+  {
+   "id": "hUxjqiwqHynnCXMPBGfT3",
+   "title": "Renovation, Restoration and Rebirth: A Notre-Dame Tour with Context",
+   "type": "audiotour",
+   "place": "Notre-Dame Cathedral",
+   "url": "https://voicemap.me/tour/paris/renovation-restoration-and-rebirth-a-notre-dame-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 48.8536,
+   "lon": 2.3481
+  },
+  {
+   "id": "3EptJ6T2tFg3p4VjsMLNAq",
+   "title": "Paris’ Gothic Jewels: Notre-Dame Cathedral, Sainte-Chapelle and Conciergerie",
+   "type": "audiotour",
+   "place": "Notre-Dame Cathedral",
+   "url": "https://voicemap.me/tour/paris/paris-gothic-jewels-notre-dame-cathedral-sainte-chapelle-and-conciergerie",
+   "creator": "Annie Sargent",
+   "channel": null,
+   "lat": 48.8526,
+   "lon": 2.3506
+  },
+  {
+   "id": "715xUPwAYzJYQbsc4DHzAe",
+   "title": "Caché (Hidden)",
+   "type": "movie",
+   "place": "Rue des Iris (the film’s townhouse street)",
+   "url": "https://justwatch.com/us/search?q=Cache%20Hidden%202005",
+   "creator": "Michael Haneke",
+   "channel": null,
+   "lat": 48.825,
+   "lon": 2.345
+  },
+  {
+   "id": "4ZUjqbytLASJeq0eI2WxoV",
+   "title": "Breathless (À bout de souffle)",
+   "type": "movie",
+   "place": "Avenue des Champs-Élysées",
+   "url": "https://justwatch.com/us/search?q=Breathless%201960",
+   "creator": "Jean-Luc Godard",
+   "channel": null,
+   "lat": 48.8698,
+   "lon": 2.3078
+  },
+  {
+   "id": "5tXHy7vMXml8tBNPiz59f5",
+   "title": "Le Samouraï",
+   "type": "movie",
+   "place": "Châtelet Métro station",
+   "url": "https://justwatch.com/us/search?q=Le%20Samourai",
+   "creator": "Jean-Pierre Melville",
+   "channel": null,
+   "lat": 48.8583,
+   "lon": 2.347
+  },
+  {
+   "id": "awebhhZjyi3meN9Iqnf8n",
+   "title": "The 400 Blows (Les Quatre Cents Coups)",
+   "type": "movie",
+   "place": "Pigalle (area)",
+   "url": "https://justwatch.com/us/search?q=The%20400%20Blows",
+   "creator": "François Truffaut",
+   "channel": null,
+   "lat": 48.882,
+   "lon": 2.337
+  },
+  {
+   "id": "629GihpcPAjqi6nMpZ14Dq",
+   "title": "Cléo from 5 to 7 (Cléo de 5 à 7)",
+   "type": "movie",
+   "place": "Rue Daguerre, Montparnasse (area)",
+   "url": "https://justwatch.com/us/search?q=Cleo%20from%205%20to%207",
+   "creator": "Agnès Varda",
+   "channel": null,
+   "lat": 48.836,
+   "lon": 2.327
+  },
+  {
+   "id": "4RQJMBWDy3N1s7H8FWCVqI",
+   "title": "Paris 1900",
+   "type": "movie",
+   "place": "Eiffel Tower",
+   "url": "https://justwatch.com/us/search?q=Paris%201900",
+   "creator": "Nicole Védrès",
+   "channel": null,
+   "lat": 48.8584,
+   "lon": 2.2945
+  },
+  {
+   "id": "7n0ylbAs56luFAMIXSVf8Y",
+   "title": "Amélie (Le Fabuleux Destin d’Amélie Poulain)",
+   "type": "movie",
+   "place": "Café des Deux Moulins, Rue Lepic",
+   "url": "https://justwatch.com/us/search?q=Amelie%202001",
+   "creator": "Jean-Pierre Jeunet",
+   "channel": null,
+   "lat": 48.885,
+   "lon": 2.3336
+  },
+  {
+   "id": "6AO0HENDYy55WCtwZtjL7s",
+   "title": "Sarah’s Key (Elle s’appelait Sarah)",
+   "type": "movie",
+   "place": "Vél’ d’Hiv memorial, Quai de Grenelle",
+   "url": "https://justwatch.com/us/search?q=Sarahs%20Key",
+   "creator": "Gilles Paquet-Brenner",
+   "channel": null,
+   "lat": 48.8535,
+   "lon": 2.288
+  },
+  {
+   "id": "q9tB7b7tR3al9LvI37Wu9",
+   "title": "French Cancan",
+   "type": "movie",
+   "place": "Moulin Rouge cabaret",
+   "url": "https://justwatch.com/us/search?q=French%20Cancan",
+   "creator": "Jean Renoir",
+   "channel": null,
+   "lat": 48.8841,
+   "lon": 2.3322
+  },
+  {
+   "id": "5z3xg4XR6JlwQ4DTtRiYq1",
+   "title": "The student revolt of May 1968",
+   "type": "podcast",
+   "place": "La Sorbonne, Latin Quarter",
+   "url": "https://podcasts.apple.com/us/podcast/paris-1968-the-students-revolt/id1537788786?i=1000622076100",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 48.8486,
+   "lon": 2.3431
+  },
+  {
+   "id": "5aMVMGQzpYAoSQhFltmQPy",
+   "title": "The trial and execution of Louis XVI, 1793",
+   "type": "podcast",
+   "place": "Place de la Concorde",
+   "url": "https://podcasts.apple.com/us/podcast/the-french-revolution-the-execution-of-the-king-part-4/id1537788786?i=1000691417964",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 48.8656,
+   "lon": 2.3212
+  },
+  {
+   "id": "2p08tgRdHjozMLTZSDg4zu",
+   "title": "How Paris moved six million dead into old quarries",
+   "type": "podcast",
+   "place": "Catacombs of Paris entrance, Place Denfert-Rochereau",
+   "url": "https://omny.fm/shows/stuff-you-missed-in-history-class/the-catacombs-of-paris",
+   "creator": null,
+   "channel": "Stuff You Missed in History Class",
+   "lat": 48.8338,
+   "lon": 2.3324
+  },
+  {
+   "id": "5VVrfAEtBc69QdzdhREBsN",
+   "title": "The Dreyfus Affair and the officer stripped of his rank",
+   "type": "podcast",
+   "place": "École Militaire, Champ de Mars",
+   "url": "https://podcasts.apple.com/us/podcast/the-dreyfus-affair-the-spy-scandal-that-shook-france/id1042631089?i=1000703749370&uo=4",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
+   "lat": 48.8512,
+   "lon": 2.3027
+  },
+  {
+   "id": "1slpCYWZo4AY3y9BYEze85",
+   "title": "Bal du moulin de la Galette by Pierre-Auguste Renoir",
+   "type": "podcast",
+   "place": "Musée d’Orsay museum",
+   "url": "https://podcasts.apple.com/us/podcast/pierre-auguste-renoir-bal-du-moulin-de-la-galette/id1844970987?i=1000769580342&uo=4",
+   "creator": null,
+   "channel": "Inside the Masterpiece",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1oehNFytWGXkSafKaQ44x5",
+   "title": "The Cradle by Berthe Morisot",
+   "type": "podcast",
+   "place": "Musée d’Orsay museum",
+   "url": "https://podcasts.apple.com/us/podcast/berthe-morisot-the-cradle-the-heart-of/id1844970987?i=1000783981239&uo=4",
+   "creator": null,
+   "channel": "Inside the Masterpiece",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "6koqbf7hJRBUXYwimlEZ5z",
+   "title": "Portrait of the Journalist Sylvia von Harden by Otto Dix",
+   "type": "podcast",
+   "place": "Centre Pompidou modern art museum",
+   "url": "https://podcasts.apple.com/us/podcast/season-1-ep-8-portrait-of-the-journalist-sylvia/id1573430649?i=1000529637550&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "6x5G8mYOp9LGIpW5U5f8Hg",
+   "title": "Mona Lisa by Leonardo da Vinci",
+   "type": "podcast",
+   "place": "Louvre Museum",
+   "url": "https://podcasts.apple.com/us/podcast/leonardo-da-vinci-mona-lisa-la-gioconda/id1573430649?i=1000792512762&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 48.8597,
+   "lon": 2.3384
+  },
+  {
+   "id": "6Oq0YuU1C10uvDo9MMuEyk",
+   "title": "The Mona Lisa by Leonardo da Vinci",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://www.youtube.com/watch?v=ElWG0_kjy_Y",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "78gzwt9oy3dPCT2uaaquEM",
+   "title": "Starry Night over the Rhône by Vincent van Gogh",
+   "type": "podcast",
+   "place": "Musée d’Orsay museum",
+   "url": "https://podcasts.apple.com/us/podcast/season-5-ep-5-starry-night-over-the-rh%C3%B4ne-by-van-gogh/id1573430649?i=1000682383200&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "169ct8l94ulqPh7IP9hwOq",
+   "title": "Mona Lisa by Leonardo da Vinci",
+   "type": "podcast",
+   "place": "Louvre Museum",
+   "url": "https://podcasts.apple.com/us/podcast/ep-25-mission-mona-lisa/id1110780638?i=1000398140791&uo=4",
+   "creator": null,
+   "channel": "The Lonely Palette",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2v0EVN7eDvCcXUN9sxAnXq",
+   "title": "Napoleon Crossing the Alps by Jacques-Louis David",
+   "type": "video",
+   "place": "Château de Malmaison",
+   "url": "https://www.youtube.com/watch?v=Bgo6H0tzszA",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 48.8706,
+   "lon": 2.1667
+  },
+  {
+   "id": "6yJkPrzDUJgbiURWB25ayS",
+   "title": "The Thinker by Auguste Rodin",
+   "type": "video",
+   "place": "Musée Rodin",
+   "url": "https://www.youtube.com/watch?v=Z4AEXRtDEEY",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 48.8553,
+   "lon": 2.3159
+  },
+  {
+   "id": "5iqDaNU6rpXpkWVx5iViVq",
+   "title": "Water Lilies by Claude Monet",
+   "type": "video",
+   "place": "Musée de l’Orangerie museum",
+   "url": "https://www.youtube.com/watch?v=fd-Me3EBGYY",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 48.8638,
+   "lon": 2.3226
+  },
+  {
+   "id": "2z6tML86PHe6HWCfFF3fAx",
+   "title": "The Raft of the Medusa by Théodore Géricault",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://www.youtube.com/watch?v=yUq9qMm9NtI",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "3ni4voGLDAk4tcmk1omn48",
+   "title": "The Basilica of Saint-Denis, birthplace of Gothic architecture",
+   "type": "video",
+   "place": "Basilica of Saint-Denis, Saint-Denis",
+   "url": "https://youtu.be/2EciWH-1ya4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.9356,
+   "lon": 2.3598
+  },
+  {
+   "id": "60BleRblD5158D4RRlvvvn",
+   "title": "The Palais Garnier by Charles Garnier",
+   "type": "video",
+   "place": "Palais Garnier opera house",
+   "url": "https://youtu.be/EtTGyLsR7lk",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.872,
+   "lon": 2.3316
+  },
+  {
+   "id": "2v2gA1NbgfxMiLtIgCO1v",
+   "title": "Composition A XX by László Moholy-Nagy",
+   "type": "video",
+   "place": "Centre Pompidou modern art museum",
+   "url": "https://youtu.be/YeBe-yDGVnU",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "3tlatLclVw0Ggu2znVWmHX",
+   "title": "Mechanical Head (The Spirit of Our Time) by Raoul Hausmann",
+   "type": "video",
+   "place": "Centre Pompidou modern art museum",
+   "url": "https://youtu.be/8YrRdcW3wvQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3522
+  },
+  {
+   "id": "6Iy85jK5CLE80HOB8iE5Ky",
+   "title": "La Belle Jardinière by Raphael",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/sv9CHsd546Q",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "1Cx0xoxQ2tSX421VmvE95U",
+   "title": "Peasant Family in an Interior by Louis Le Nain",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/ZSh1ksh1iO4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "26YSrmLz6oSKHvuESCoTH3",
+   "title": "The Victory Stele of Naram-Sin",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/OY79AuGZDNI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7KmhluR13wN4j1I5gBBqMn",
+   "title": "The Death of Sardanapalus by Eugène Delacroix",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/iDBJK0y8vb0",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6y5i1PcaXXb9WqvH1LvZCn",
+   "title": "Saint Francis Receiving the Stigmata by Giotto",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/MQct5EFQ9x8",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7waCah91qFSvFiuRwn21jw",
+   "title": "The Sleep of Endymion by Anne-Louis Girodet",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/2B68DWcOLj0",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6G5p9IxOoOhQm9ny668iqe",
+   "title": "The Dying Slave and the Rebellious Slave by Michelangelo",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/h44bnIGogu8",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "5usA4a8kA0JHqlwJ3ZEOVu",
+   "title": "The Intervention of the Sabine Women by Jacques-Louis David",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/ovOKjwLE4qA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6DYRQNxSusCwsKTS8IG0lA",
+   "title": "The Death of the Virgin by Caravaggio",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/TkH-yjJ35vU",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "17PWUA8XpfgXay4pT2UGuN",
+   "title": "The Lictors Bring to Brutus the Bodies of His Sons by Jacques-Louis David",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/UQiNvDOJi0c",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7idwBVrQYgguPmmfkt7eDf",
+   "title": "The Painted Beaker from Susa, with ibex motifs",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/eeNfDr4ojZg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "61B3DaYkaVwfJIIuHjRnHZ",
+   "title": "The Bull Capital from Darius I’s Palace at Susa",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/mjxCTApdX3Q",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "5OliT2ZQYDotGNUXFX1EaJ",
+   "title": "The Crowning with Thorns by Titian",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/ZVUH4-Wsdwg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "642NzSPjVwU2G7hoyvbEZd",
+   "title": "Pilgrimage to Cythera by Antoine Watteau",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/8ZlH2JswO3Q",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2cYKKpYnKk1hhGgxvKVcbP",
+   "title": "The Avignon Pietà by Enguerrand Quarton",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/_0YdFG17fQc",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "4Y7Ui4moju6LNGqj3omcAq",
+   "title": "The Lamassu of Khorsabad, Assyrian palace guardians",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/2GrvBLKaRSI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2vi3JUvpeRQlzXIVfCwzsx",
+   "title": "The Presentation of the Portrait of Marie de’ Medici by Peter Paul Rubens",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/jWQ4V43TJ6o",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "50DlxDuQthH8n2UUo0I51U",
+   "title": "The Plaque of the Ergastines, from the Parthenon frieze",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/zU9qSQi1E68",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6k7BeVcLPKRnB6125hh1T4",
+   "title": "Charles I at the Hunt by Anthony van Dyck",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/SHZojeuDLjM",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "KeDzP4A69Oi5ns2hP1kRi",
+   "title": "The Niobid Krater by the Niobid Painter",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/S3TlDyT2lyg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "0Gnjfekb1NbatJmQNnEKb",
+   "title": "Et in Arcadia Ego by Nicolas Poussin",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/dgsogHXtwyA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "5uobMs3YNqgodN6ltPu2Z9",
+   "title": "The Baptistère de Saint Louis by Muhammad ibn al-Zayn",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/2IT6FcvBp_w",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "4sz7nzTisDKLaUETGo5w77",
+   "title": "The Barberini Ivory, a Byzantine imperial panel",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/9lVE3trJf1A",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "246T7CG0FlRbjBV05ukFER",
+   "title": "The Oath of the Horatii by Jacques-Louis David",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/qfAga9DAuU4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "1hoMWXD9ubzgXhPjXSSPcG",
+   "title": "Liberty Leading the People by Eugène Delacroix",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/6skizQlC-uU",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "48qpFo7ScM02C5cjw0qBaG",
+   "title": "The Code of Hammurabi, a Babylonian law stele",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/JO9YxZYd0qY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2YUNM4erSr4ytXmlSL2GkY",
+   "title": "Self-Portrait with Her Daughter Julie by Élisabeth Vigée Le Brun",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/kboppTV-SqM",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "3UnQhDJ3fVW93XKMSyF61X",
+   "title": "Seated Gudea Holding a Temple Plan, a Sumerian statue",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/HBjYUTYas9E",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6VGt8rZy0UVlynximKMNv7",
+   "title": "The Virgin and Child of Jeanne d’Évreux, a silver statuette",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/abKtscO6lMU",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "rWhKa6S5zDXDtFYj5cWjZ",
+   "title": "The Lady of Auxerre, an early Greek statuette",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/XoEVvoc2PlM",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "2fre9S23k883AXvZfjxADC",
+   "title": "The Winged Victory of Samothrace",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/PjI0hAr0Vo0",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "6BvcnQcHqozhr6G7C907B6",
+   "title": "Bonaparte Visiting the Plague Victims of Jaffa by Antoine-Jean Gros",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/w2OTUmLupdw",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "5y4HGPE0nWz5jBWtQxf4B7",
+   "title": "The Seated Scribe, an ancient Egyptian statue",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/IKkcop-dlUY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7J3pp1AyyXIUSxmuktIPQQ",
+   "title": "Grande Odalisque by Jean-Auguste-Dominique Ingres",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/PPwz3iaT71M",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "3yABDTjKunJuujC66kG9UI",
+   "title": "The Massacre at Chios by Eugène Delacroix",
+   "type": "video",
+   "place": "Louvre Museum",
+   "url": "https://youtu.be/usJWoXTg6c4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "3htysGs1K5Tbg5DCwWuXw2",
+   "title": "The Red Rock by Paul Cézanne",
+   "type": "video",
+   "place": "Musée de l’Orangerie museum",
+   "url": "https://youtu.be/2Vv9BhnE0SQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8638,
+   "lon": 2.3227
+  },
+  {
+   "id": "7gGVN0OAtYCgG6nJ4Ze5I0",
+   "title": "The Argenteuil Bridge by Claude Monet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/Iics7KH_rLE",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "2pFyOQ1RM9TKKLIID3h6bh",
+   "title": "The Balcony by Édouard Manet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/XS8OhYdc-20",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "2hcrzHdGiSbZQQOvAlFncp",
+   "title": "Portrait of Émile Zola by Édouard Manet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/znKX9WcowfY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "3tlMUHzUnKyG0Bs6Nvzks4",
+   "title": "The Bellelli Family by Edgar Degas",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/irLOxG7SpUk",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7Fx9zBUQ5T9ovif8atfpkj",
+   "title": "The Dance by Jean-Baptiste Carpeaux",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/3ZGmMTNyW0k",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7HWMBNKPag5ORXUWzTclGN",
+   "title": "Luxe, Calme et Volupté by Henri Matisse",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/7d6S8y2kYSg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1tNmrsn1wutlGcD8zQr11j",
+   "title": "The Angelus by Jean-François Millet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/3KjZ3w5MtBo",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "4AVLRdNjVBKPD0EcXX08F8",
+   "title": "Ploughing in the Nivernais by Rosa Bonheur",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/kOnzZHJYzb4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7s0U4cPP3RvsyRKFAhOciZ",
+   "title": "The Gleaners by Jean-François Millet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/Dk1nuM5JKqQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1StKqfLsD8VpiN9UQmd0P8",
+   "title": "Le Déjeuner sur l’herbe by Édouard Manet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/3xBGF8H3bQ4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "2LuKZcqlOFUuUHZOOFTda7",
+   "title": "The Floor Scrapers by Gustave Caillebotte",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/eKj12_KS8m0",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "3qLcyN4UzLKaNBUv8tZp07",
+   "title": "Romans of the Decadence by Thomas Couture",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/pQJrTf_x7Wk",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1lrHcTEK6jcd7e0tQeAJsx",
+   "title": "The Cradle by Berthe Morisot",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/na05-xCZR8s",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1eX1QJJZRHjQg1nWk2jr79",
+   "title": "A Burial at Ornans by Gustave Courbet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/HNZTmnngqrM",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "5MisD5c7Yjwsw29y6aw1cj",
+   "title": "The Painter’s Studio by Gustave Courbet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/iFHIL6rZnj0",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "4zPDu7ILcr2XWHfbwkMwga",
+   "title": "Hunting Butterflies by Berthe Morisot",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/MVHfVB4MaWE",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "6qnqr9pf08eyO4GO30knIm",
+   "title": "Dance at Le Moulin de la Galette by Pierre-Auguste Renoir",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/o6amlRsb1n4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "3MrN2lnD7b1lTBidl3YBQ0",
+   "title": "The Basin at Argenteuil by Claude Monet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/tWjnbh5Z9Vg",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7dCmVGlGjpOUTfRaD6b108",
+   "title": "The Swing by Pierre-Auguste Renoir",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/69zJ3UDh5Tw",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "4kedaVvjqSW3BlPmacXlcK",
+   "title": "The Gare Saint-Lazare by Claude Monet",
+   "type": "video",
+   "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/fpnIGUds1FQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "7lTBkkpjoq8VqF9ewqe5dL",
+   "title": "Still Life with Chair Caning by Pablo Picasso",
+   "type": "video",
+   "place": "Picasso Museum (Hôtel Salé)",
+   "url": "https://youtu.be/1E91KmfiUGY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8598,
+   "lon": 2.3623
+  },
+  {
+   "id": "629lTUdgi4nU1hIMi0HvHW",
+   "title": "Notre-Dame de Paris, a Gothic cathedral",
+   "type": "video",
+   "place": "Notre-Dame Cathedral",
+   "url": "https://youtu.be/Hijg5XG6yg8",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.853,
+   "lon": 2.3499
+  },
+  {
+   "id": "4lT5XgXZ4BqJV1IY8y6vvs",
+   "title": "The Porte Dauphine Métro Entrance by Hector Guimard",
+   "type": "video",
+   "place": "Porte Dauphine Métro entrance",
+   "url": "https://youtu.be/sazsDYOXVis",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.8714,
+   "lon": 2.2766
+  },
+  {
+   "id": "7sNLpMqUbdFRVQ3wl39wl",
+   "title": "Jupiter and Semele by Gustave Moreau",
+   "type": "video",
+   "place": "Gustave Moreau Museum",
+   "url": "https://youtu.be/UJMN41MDr3o",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 48.879,
+   "lon": 2.3349
+  },
+  {
+   "id": "4YkHfg0Uihhx9bNhXY4BxV",
+   "title": "Paris Reborn",
+   "type": "book",
+   "place": "Palais Garnier opera house",
+   "url": "https://goodreads.com/search?q=Stephane%20Kirkland%20Paris%20Reborn",
+   "creator": "Stephane Kirkland",
+   "channel": null,
+   "lat": 48.872,
+   "lon": 2.3316
+  },
+  {
+   "id": "1Wm3duPt6D6wfsGDlWtcK1",
+   "title": "Vanished Smile",
+   "type": "book",
+   "place": "Louvre Museum",
+   "url": "https://goodreads.com/search?q=R.A.%20Scotti%20Vanished%20Smile%20Mona%20Lisa",
+   "creator": "R.A. Scotti",
+   "channel": null,
+   "lat": 48.8606,
+   "lon": 2.3376
+  },
+  {
+   "id": "7upUhoyCmdWHLqiYHLTeaO",
+   "title": "The Judgment of Paris",
+   "type": "book",
+   "place": "Musée d’Orsay museum",
+   "url": "https://www.goodreads.com/book/show/56912.The_Judgment_of_Paris",
+   "creator": "Ross King",
+   "channel": null,
+   "lat": 48.86,
+   "lon": 2.3266
+  },
+  {
+   "id": "1Pqz0SS5IMmN6Ylg9753oF",
+   "title": "Is Paris Burning?",
+   "type": "book",
+   "place": "Le Meurice hotel, Rue de Rivoli",
+   "url": "https://goodreads.com/search?q=Collins%20Lapierre%20Is%20Paris%20Burning",
+   "creator": "Larry Collins & Dominique Lapierre",
+   "channel": null,
+   "lat": 48.8652,
+   "lon": 2.3281
+  },
+  {
+   "id": "15IY873V78n2vsTcCc8HJu",
+   "title": "The Chairfather: Père Lachaise Part I",
+   "type": "audiotour",
+   "place": "Père Lachaise Cemetery, Gambetta entrance",
+   "url": "https://voicemap.me/tour/paris/the-chairfather-pere-lachaise-part-i",
+   "creator": "Joe Start",
+   "channel": null,
+   "lat": 48.8635,
+   "lon": 2.3971
+  },
+  {
+   "id": "2wKvbOriKuBZUqrwPPpO0A",
+   "title": "Occupation and Liberation with Context: A World War II Tour of Paris",
+   "type": "audiotour",
+   "place": "Hôtel Lutetia",
+   "url": "https://voicemap.me/tour/paris/occupation-and-liberation-with-context-a-world-war-ii-tour-of-paris",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 48.8508,
+   "lon": 2.3273
+  },
+  {
+   "id": "5tPYQ9ARi6NSKrpxEEboGw",
+   "title": "Le Marais: Secret Stories & Invisible Details",
+   "type": "audiotour",
+   "place": "Saint-Paul Métro station",
+   "url": "https://voicemap.me/tour/paris/le-marais-secret-stories-invisible-details",
+   "creator": "Corey Frye",
+   "channel": null,
+   "lat": 48.8554,
+   "lon": 2.36
+  },
+  {
+   "id": "4lw95gloBuHUEmPmQnRdiY",
+   "title": "Saint-Germain-des-Prés: An Authentic Paris Neighborhood",
+   "type": "audiotour",
+   "place": "Mabillon Métro station",
+   "url": "https://voicemap.me/tour/paris/saint-germain-des-pres-an-authentic-paris-neighborhood",
+   "creator": "Annie Sargent",
+   "channel": null,
+   "lat": 48.853,
+   "lon": 2.3357
+  },
+  {
+   "id": "Vcx5FASf85cMrkWVrIqK6",
+   "title": "Le Marais: The Paris Neighborhood That Has It All!",
+   "type": "audiotour",
+   "place": "Pont Marie bridge",
+   "url": "https://voicemap.me/tour/paris/le-marais-the-paris-neighborhood-that-has-it-all",
+   "creator": "Annie Sargent",
+   "channel": null,
+   "lat": 48.8536,
+   "lon": 2.3572
+  },
+  {
+   "id": "43NB49fQSbZykpdYnCd9Gt",
+   "title": "A Moveable Feast",
+   "type": "book",
+   "place": "Shakespeare and Company bookshop",
+   "url": "https://goodreads.com/search?q=Hemingway%20A%20Moveable%20Feast",
+   "creator": "Ernest Hemingway",
+   "channel": null,
+   "lat": 48.8526,
+   "lon": 2.3471
+  },
+  {
+   "id": "1Zuh4UA51o4TP9mHL7Tbpf",
+   "title": "Île de la Cité: Where Paris Was Born",
+   "type": "audiotour",
+   "place": "Pont des Arts bridge",
+   "url": "https://voicemap.me/tour/paris/ile-de-la-cite-where-paris-was-born",
+   "creator": "Annie Sargent",
+   "channel": null,
+   "lat": 48.8591,
+   "lon": 2.3379
+  },
+  {
+   "id": "6XzS1rtNzRzIDXHyNjYL9U",
+   "title": "Seven Ages of Paris",
+   "type": "book",
+   "place": "Île de la Cité (area)",
+   "url": "https://goodreads.com/search?q=Alistair%20Horne%20Seven%20Ages%20of%20Paris",
+   "creator": "Alistair Horne",
+   "channel": null,
+   "lat": 48.8549,
+   "lon": 2.3475
+  },
+  {
+   "id": "32cd2H9mTLbPpYjSgUcgHd",
+   "title": "How Paris Became Paris",
+   "type": "book",
+   "place": "Pont Neuf bridge",
+   "url": "https://goodreads.com/search?q=Joan%20DeJean%20How%20Paris%20Became%20Paris",
+   "creator": "Joan DeJean",
+   "channel": null,
+   "lat": 48.8567,
+   "lon": 2.3408
+  },
+  {
+   "id": "2tvFr7CQmHDfHbJbKe9Mkf",
+   "title": "Massacre: The Life and Death of the Paris Commune",
+   "type": "book",
+   "place": "Communards’ Wall, Père Lachaise Cemetery",
+   "url": "https://goodreads.com/search?q=John%20Merriman%20Massacre%20Paris%20Commune",
+   "creator": "John Merriman",
+   "channel": null,
+   "lat": 48.8615,
+   "lon": 2.3935
+  },
+  {
+   "id": "6TOdMhhn1vikenZUMhW6s3",
+   "title": "Suite Française",
+   "type": "book",
+   "place": "Shoah Memorial (Mémorial de la Shoah)",
+   "url": "https://goodreads.com/search?q=Ir%C3%A8ne%20N%C3%A9mirovsky%20Suite%20Fran%C3%A7aise",
+   "creator": "Irène Némirovsky",
+   "channel": null,
+   "lat": 48.855,
+   "lon": 2.3562
+  },
+  {
+   "id": "4jR1SF7DcAvOmqEVMMmqup",
+   "title": "Marcel Proust: A Life",
+   "type": "book",
+   "place": "Carnavalet Museum",
+   "url": "https://goodreads.com/search?q=Edmund%20White%20Marcel%20Proust%20A%20Life",
+   "creator": "Edmund White",
+   "channel": null,
+   "lat": 48.8571,
+   "lon": 2.3629
+  },
+  {
+   "id": "E83SfhRtCjoNgrVdsiYDp",
+   "title": "Down and Out in Paris and London",
+   "type": "book",
+   "place": "Rue du Pot-de-Fer",
+   "url": "https://goodreads.com/search?q=George%20Orwell%20Down%20and%20Out%20in%20Paris%20and%20London",
+   "creator": "George Orwell",
+   "channel": null,
+   "lat": 48.8429,
+   "lon": 2.3485
+  },
+  {
+   "id": "1Tw04CWrKfWSfwwD77aorS",
+   "title": "My Life in France",
+   "type": "book",
+   "place": "Saint-Germain-des-Prés (area)",
+   "url": "https://goodreads.com/search?q=Julia%20Child%20My%20Life%20in%20France",
+   "creator": "Julia Child",
+   "channel": null,
+   "lat": 48.8542,
+   "lon": 2.3326
+  },
+  {
+   "id": "5Z2MAAXYDNvTHrh5Cj78eP",
+   "title": "Enjoying a classic French bistro at Chez Dumonet",
+   "type": "video",
+   "place": "Chez Dumonet bistro",
+   "url": "https://youtu.be/FzWk_e1ptK0",
+   "creator": null,
+   "channel": "Bon Appétit",
+   "lat": 48.84576,
+   "lon": 2.3199
+  },
+  {
+   "id": "38iH8Q2sGg2sU7camqY95N",
+   "title": "A peek into the hip-hop dance community in Paris",
+   "type": "video",
+   "place": "Gare de Lyon station",
+   "url": "https://youtu.be/NyNQjzT1vWI",
+   "creator": null,
+   "channel": "Google Maps",
+   "lat": 48.84521,
+   "lon": 2.37293
+  },
+  {
+   "id": "5elc4jcEPXiVV8DdjYs6SF",
+   "title": "On the roof with an urban beekeeper",
+   "type": "video",
+   "place": "Les Invalides (Hôtel des Invalides)",
+   "url": "https://youtu.be/OXw6wuLhy2A",
+   "creator": null,
+   "channel": "Atlas Obscura",
+   "lat": 48.85652,
+   "lon": 2.3127
+  },
+  {
+   "id": "5hz78O6eZ5FkNBjweTDMcX",
+   "title": "The creative chocolate of Patrick Roger",
+   "type": "video",
+   "place": "Patrick Roger chocolate shop, Boulevard Saint-Germain",
+   "url": "https://youtu.be/v1F_VehRFB4",
+   "creator": null,
+   "channel": "CBS Sunday Morning",
+   "lat": 48.85187,
+   "lon": 2.3419
+  },
+  {
+   "id": "5EgH5G0JVi6SZcofRjJCr8",
+   "title": "The baker behind the best baguette in Paris",
+   "type": "video",
+   "place": "Boulangerie 2M bakery",
+   "url": "https://youtu.be/yEBEJP76lhY",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 48.84062,
+   "lon": 2.33051
+  },
+  {
+   "id": "1lEh3oSnG1vayLnK8gePRB",
+   "title": "Shopping for food with a touch of extravagance",
+   "type": "video",
+   "place": "La Grande Épicerie de Paris, Rue de Passy",
+   "url": "https://youtu.be/3R_QjftdWak",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 48.85826,
+   "lon": 2.27594
+  },
+  {
+   "id": "ZqFR9jw6Vaj7DdyLAdop9",
+   "title": "The multiplying Statues of Liberty",
+   "type": "video",
+   "place": "Statue of Liberty replica, Île aux Cygnes",
+   "url": "https://youtu.be/xxC6tK2Hyi8",
+   "creator": null,
+   "channel": "Half-Asleep Chris",
+   "lat": 48.84999,
+   "lon": 2.27966
+  },
+  {
+   "id": "moEKlXPMASfmee9CIBuks",
+   "title": "Zen and the art of umbrella maintenance",
+   "type": "video",
+   "place": "La Maison Pep’s umbrella shop, Passage de l’Ancre",
+   "url": "https://youtu.be/oNsrU-t0lf0",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 48.86438,
+   "lon": 2.35294
+  },
+  {
+   "id": "1Bg9hpqQNQVeQS2TomSIDQ",
+   "title": "A chocolate croissant by any other name",
+   "type": "video",
+   "place": "La P’tite Boulangerie bakery",
+   "url": "https://youtu.be/8ACrmXE2mFw",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 48.83902,
+   "lon": 2.28792
+  },
+  {
+   "id": "57ba0BynWBiwBt34O5A94W",
+   "title": "Inside the mind of a passionate breadmaker",
+   "type": "video",
+   "place": "Du Pain et des Idées bakery",
+   "url": "https://youtu.be/iKGaDFkRd1Y",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 48.87124,
+   "lon": 2.36289
+  },
+  {
+   "id": "6fM6qcEjPgMj1btD2k3Kua",
+   "title": "Rethinking security in a freedom-loving city",
+   "type": "video",
+   "place": "Tuileries Garden, Concorde entrance",
+   "url": "https://youtu.be/hhpSvxWQop8",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 48.86488,
+   "lon": 2.32299
+  },
+  {
+   "id": "6GCLThKVxMNSKK4bgtxtef",
+   "title": "The namesake of Bar Hemingway ",
+   "type": "video",
+   "place": "Hemingway Bar, Ritz Paris",
+   "url": "https://youtu.be/uZb9LE6NHj0",
+   "creator": null,
+   "channel": "PBS NewsHour",
+   "lat": 48.86876,
+   "lon": 2.32751
+  },
+  {
+   "id": "3FAcZNCbZ99A5VUVbc4IKU",
+   "title": "A taste of Africa at Marché Barbès",
+   "type": "video",
+   "place": "Marché Barbès market",
+   "url": "https://youtu.be/bTpODFm09QQ",
+   "creator": null,
+   "channel": "Sonia’s Travels",
+   "lat": 48.88434,
+   "lon": 2.35498
+  },
+  {
+   "id": "3qgyoPgK2ob2zsjtK8Iq6w",
+   "title": "A law to fight food waste",
+   "type": "video",
+   "place": "La Maison du Zéro Déchet shop",
+   "url": "https://youtu.be/BhgaJI3sOMA",
+   "creator": null,
+   "channel": "PBS NewsHour",
+   "lat": 48.88545,
+   "lon": 2.34479
+  },
+  {
+   "id": "6Tu15OYiLN3mxQurBs97OQ",
+   "title": "La Petite Ceinture: The lost railway of Paris",
+   "type": "video",
+   "place": "La Recyclerie (old Petite Ceinture station)",
+   "url": "https://youtu.be/IovEyB2EYoM",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 48.89762,
+   "lon": 2.34404
+  },
+  {
+   "id": "6UMixHixf5pVhFWsOSrhZR",
+   "title": "The pipe organ of Saint-Sulpice",
+   "type": "video",
+   "place": "Saint-Sulpice Church",
+   "url": "https://youtu.be/FNReGn16vXg",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.851,
+   "lon": 2.33501
+  },
+  {
+   "id": "7HdXqH7EheLwbRNGMqAct9",
+   "title": "Hints of colonialization and immigration",
+   "type": "video",
+   "place": "Grand Mosque of Paris",
+   "url": "https://youtu.be/GZOlyXG3ts4",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.84184,
+   "lon": 2.35517
+  },
+  {
+   "id": "1iSQ310EB0HOlp4xr2aoIY",
+   "title": "When a building is not a building at all",
+   "type": "video",
+   "place": "29 Rue Quincampoix (painted fake facade)",
+   "url": "https://youtu.be/iXSkjw0Kytk",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 48.86023,
+   "lon": 2.35001
+  },
+  {
+   "id": "5o8eYctR7xGZdadoXgishT",
+   "title": "Rethinking a zoo for the modern era",
+   "type": "video",
+   "place": "Paris Zoo, Bois de Vincennes",
+   "url": "https://youtu.be/pKlfIc3gouQ",
+   "creator": null,
+   "channel": "The Telegraph",
+   "lat": 48.83341,
+   "lon": 2.41454
+  },
+  {
+   "id": "6tZkDeryMTr3KhM9Wo9QrQ",
+   "title": "A pillow fight with John, Paul, George, and Ringo",
+   "type": "video",
+   "place": "Hôtel George V",
+   "url": "https://youtu.be/ijFejG0Y_f4",
+   "creator": null,
+   "channel": "Time Magazine",
+   "lat": 48.86874,
+   "lon": 2.30084
+  },
+  {
+   "id": "3LdA2iC1sovc2pn9etEP8N",
+   "title": "How to (literally) make money in Paris",
+   "type": "video",
+   "place": "Monnaie de Paris mint",
+   "url": "https://youtu.be/8ltXTBgmtWI",
+   "creator": null,
+   "channel": "Quartz",
+   "lat": 48.85668,
+   "lon": 2.33905
+  },
+  {
+   "id": "7ArwPsvfHxqXKNFlvHaN63",
+   "title": "In the heart of the Marais district",
+   "type": "video",
+   "place": "Place des Vosges",
+   "url": "https://youtu.be/kA1nUPT5HZo",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.85561,
+   "lon": 2.36553
+  },
+  {
+   "id": "61zZc9XG603oA0KDyy1vnP",
+   "title": "African culture is just a metro ride away",
+   "type": "video",
+   "place": "Little Africa, Château Rouge (area)",
+   "url": "https://youtu.be/iT3ojijjGxY",
+   "creator": null,
+   "channel": "Travel Coterie",
+   "lat": 48.88718,
+   "lon": 2.34972
+  },
+  {
+   "id": "1yLbFnLdYoK6fE83ZIsfBQ",
+   "title": "A tradition of craftsmanship at Hermès",
+   "type": "video",
+   "place": "Hermès flagship store, Rue du Faubourg Saint-Honoré",
+   "url": "https://youtu.be/3GcUEYtEdbI",
+   "creator": null,
+   "channel": "CBS Sunday Morning",
+   "lat": 48.86893,
+   "lon": 2.32165
+  },
+  {
+   "id": "hRUYuQCM0v5Fv1vwo8zN7",
+   "title": "Conveying a feeling with a building",
+   "type": "video",
+   "place": "Fondation Louis Vuitton museum",
+   "url": "https://youtu.be/v98ahM6mr-w",
+   "creator": null,
+   "channel": "Nowness",
+   "lat": 48.87647,
+   "lon": 2.26341
+  },
+  {
+   "id": "3vXylIiVf2XqFl1EbbD6GZ",
+   "title": "Creating costumes for the Moulin Rouge",
+   "type": "video",
+   "place": "Maison Février feather workshop",
+   "url": "https://youtu.be/TkBUFXTsfXA",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 48.88456,
+   "lon": 2.33329
+  },
+  {
+   "id": "5lQa46gqIKrSNLQ7nQAaao",
+   "title": "The cafe culture of the Latin Quarter ",
+   "type": "video",
+   "place": "Latin Quarter (area)",
+   "url": "https://youtu.be/PH_4d2xUmbE",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.85142,
+   "lon": 2.34321
+  },
+  {
+   "id": "6aYm4rbVgPgACGKKWMP9KT",
+   "title": "The rise and fall of Napoleon Bonaparte",
+   "type": "video",
+   "place": "Napoleon’s Tomb, Les Invalides",
+   "url": "https://youtu.be/CKV5xLcOf-k",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.85506,
+   "lon": 2.31252
+  },
+  {
+   "id": "1M7xy56HOG9KewoQ41BS3O",
+   "title": "Quiet contemplation at Père Lachaise Cemetery",
+   "type": "video",
+   "place": "Père Lachaise Cemetery",
+   "url": "https://youtu.be/YbGv_fpIC78",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.86139,
+   "lon": 2.39333
+  },
+  {
+   "id": "3fyLin46skZtOhF7aukTTu",
+   "title": "Taking a duel to new heights",
+   "type": "video",
+   "place": "Tuileries Garden",
+   "url": "https://youtu.be/6RzMymk6w9s",
+   "creator": null,
+   "channel": "Atlas Obscura",
+   "lat": 48.86324,
+   "lon": 2.32823
+  },
+  {
+   "id": "4maAbczpWp4F7rA1i0vlIS",
+   "title": "The birthplace of the Bloody Mary",
+   "type": "video",
+   "place": "Harry’s New York Bar",
+   "url": "https://youtu.be/VVYZcMttcOw",
+   "creator": null,
+   "channel": "CBS Sunday Morning",
+   "lat": 48.8692,
+   "lon": 2.33207
+  },
+  {
+   "id": "3Shz8JAVPnCMqHdt5bE4Ck",
+   "title": "The ghosts of Le Chemin des Dames",
+   "type": "video",
+   "place": "Chemin des Dames battlefield (area)",
+   "url": "https://youtu.be/aKrWv7m7F7Q",
+   "creator": null,
+   "channel": "PBS American Experience",
+   "lat": 49.44486,
+   "lon": 3.65655
+  },
+  {
+   "id": "4BHApMu8aYJng76eMQmGsO",
+   "title": "The family that created France’s largest bell",
+   "type": "video",
+   "place": "Sacré-Cœur Basilica",
+   "url": "https://youtu.be/q8wWo4cpvko",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 48.88721,
+   "lon": 2.34298
+  },
+  {
+   "id": "4v2qooAFnnMrgmYNi4rJpC",
+   "title": "Outside the walls of the Palace of Versailles",
+   "type": "video",
+   "place": "Gardens of Versailles (area)",
+   "url": "https://youtu.be/FdyGNp6Ew5g",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.80758,
+   "lon": 2.10969
+  },
+  {
+   "id": "63S4cuOXIjczzOhhcz7vkk",
+   "title": "The Rodin Museum: In the presence of a master",
+   "type": "video",
+   "place": "Rodin Museum",
+   "url": "https://youtu.be/kqPPncfWOZE",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.85533,
+   "lon": 2.31589
+  },
+  {
+   "id": "6nX1m6k4aUgxcbex1CKx1C",
+   "title": "Gawking at the dead at the public morgue",
+   "type": "podcast",
+   "place": "Site of the old Paris Morgue, Square de l’Île-de-France",
+   "url": "https://overcast.fm/+JNyyxppI0",
+   "creator": null,
+   "channel": "Paname",
+   "lat": 48.85215,
+   "lon": 2.35196
+  },
+  {
+   "id": "CyQITdKM88zdC6Rw8hAMS",
+   "title": "The spectacular stained glass of the Sainte-Chapelle",
+   "type": "video",
+   "place": "Sainte-Chapelle",
+   "url": "https://youtu.be/828f2Tlojvc",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.85537,
+   "lon": 2.34518
+  },
+  {
+   "id": "2ssr0v9WaJusAwknSfA7YP",
+   "title": "Remembering the flood of 1910",
+   "type": "podcast",
+   "place": "Zouave statue, Pont de l’Alma",
+   "url": "https://overcast.fm/+JNyy2vpUM",
+   "creator": null,
+   "channel": "Paname",
+   "lat": 48.86383,
+   "lon": 2.30201
+  },
+  {
+   "id": "4lgs9D3O2ZwkwsyyzurEsE",
+   "title": "A less-than-magic start for Disneyland Paris",
+   "type": "podcast",
+   "place": "Disneyland Paris, Marne-la-Vallée",
+   "url": "https://overcast.fm/+L2d1raHaU",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 48.87037,
+   "lon": 2.77969
+  },
+  {
+   "id": "5QA1XlxuZs7EmZpM5ugYNt",
+   "title": "The battle outside Saint Roch Church",
+   "type": "podcast",
+   "place": "Saint-Roch Church",
+   "url": "https://overcast.fm/+JNywHnORY",
+   "creator": null,
+   "channel": "Paname",
+   "lat": 48.86489,
+   "lon": 2.3322
+  },
+  {
+   "id": "6VTKYNNzAxJSxa47RkYkUh",
+   "title": "The Egyptian obelisk in Place de la Concorde",
+   "type": "podcast",
+   "place": "Luxor Obelisk, Place de la Concorde",
+   "url": "https://overcast.fm/+JNywCD3co",
+   "creator": null,
+   "channel": "Paname",
+   "lat": 48.8652,
+   "lon": 2.32203
+  },
+  {
+   "id": "1ukuCoN9QYTxWQKM7kbvcO",
+   "title": "The King of England moves to Paris",
+   "type": "podcast",
+   "place": "Windsors’ former house, Bois de Boulogne",
+   "url": "https://overcast.fm/+Ewi3RJ5oU",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 48.87425,
+   "lon": 2.25237
+  },
+  {
+   "id": "5dgESvQAKo59qmNeKpOIGc",
+   "title": "The abduction of a Moroccan dissident",
+   "type": "podcast",
+   "place": "Brasserie Lipp",
+   "url": "https://overcast.fm/+L03t9BqVo",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 48.85372,
+   "lon": 2.33244
+  },
+  {
+   "id": "K9iMJjeYmn8tyUfbVMLIl",
+   "title": "Tapestries symbolic of a renewal of humanism",
+   "type": "video",
+   "place": "Cluny Museum (Museum of the Middle Ages)",
+   "url": "https://youtu.be/DyGKM5w08bQ",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.85046,
+   "lon": 2.34418
+  },
+  {
+   "id": "7vA0qaR1GDqjZgHR2iIfmY",
+   "title": "​​Assisting artists who fled their home countries",
+   "type": "video",
+   "place": "Atelier des Artistes en Exil",
+   "url": "https://youtu.be/hKLn6Aix9D8",
+   "creator": null,
+   "channel": "Culture Trip",
+   "lat": 48.86606,
+   "lon": 2.3425
+  },
+  {
+   "id": "4NoSSna64pL1Tco7DFof5c",
+   "title": "On the verge of liberating Paris from the Nazis",
+   "type": "podcast",
+   "place": "Hôtel de Ville (City Hall)",
+   "url": "https://overcast.fm/+Ip83phT2E",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 48.85661,
+   "lon": 2.3518
+  },
+  {
+   "id": "hRS8YIfo3ngDqcbwdnqFz",
+   "title": "The contest that forever changed the wine world",
+   "type": "podcast",
+   "place": "Site of Les Caves de la Madeleine wine shop, Cité Berryer",
+   "url": "https://overcast.fm/+L2d3o1xS0",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 48.87031,
+   "lon": 2.32248
+  },
+  {
+   "id": "4LKsDwczmhsZXQoTiHHdmo",
+   "title": "The Tennis Court Oath and the revolutions to come",
+   "type": "video",
+   "place": "Tennis Court (Jeu de Paume), Versailles",
+   "url": "https://youtu.be/5fJl_ZX91l0",
+   "creator": null,
+   "channel": "Crash Course",
+   "lat": 48.80101,
+   "lon": 2.12381
+  },
+  {
+   "id": "1hV8DQb09H0H96Lr7wvnUD",
+   "title": "​​A bakery with an irreverent twist",
+   "type": "video",
+   "place": "Legay Choc bakery",
+   "url": "https://youtu.be/oFak9t3x15A",
+   "creator": null,
+   "channel": "Culture Trip",
+   "lat": 48.8589,
+   "lon": 2.3539
+  },
+  {
+   "id": "672wGwK0sa0vscGtQePV5n",
+   "title": "Drawing hungry crowds Holybelly",
+   "type": "podcast",
+   "place": "Holybelly café, Rue Lucien-Sampaix",
+   "url": "https://overcast.fm/+I4O4i94Js",
+   "creator": null,
+   "channel": "The New Paris",
+   "lat": 48.87102,
+   "lon": 2.35982
+  },
+  {
+   "id": "w0OWGhCl7QekQJVdzJskA",
+   "title": "The legacy of sourdough at Poilâne Bakery",
+   "type": "podcast",
+   "place": "Poilâne bakery, Rue du Cherche-Midi",
+   "url": "https://overcast.fm/+I4O5GY5I4",
+   "creator": null,
+   "channel": "The New Paris",
+   "lat": 48.85129,
+   "lon": 2.32899
+  },
+  {
+   "id": "6UzeTKEA9ZyeOrOxfygjGX",
+   "title": "A massacre on the road to Algerian independence",
+   "type": "podcast",
+   "place": "Algerian massacre plaque, Pont Saint-Michel",
+   "url": "https://overcast.fm/+JJ0Kw8mLA",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 48.85422,
+   "lon": 2.34496
+  },
+  {
+   "id": "jYu78GIfrKpIF16db6gVk",
+   "title": "Shopping for dinner on a typical market street",
+   "type": "video",
+   "place": "Rue Cler market street",
+   "url": "https://youtu.be/dP9ObS66tfs",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.85641,
+   "lon": 2.30665
+  },
+  {
+   "id": "xQiS41CrDGpRJxqlzj4kN",
+   "title": "A palace fit for the Sun King",
+   "type": "video",
+   "place": "Palace of Versailles",
+   "url": "https://youtu.be/194CDlsFpQA",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 48.80486,
+   "lon": 2.12035
+  },
+  {
+   "id": "1iUkUInRLbgtV7qiCKrOR9",
+   "title": "The battle of the pyramid",
+   "type": "podcast",
+   "place": "Louvre Pyramid",
+   "url": "https://overcast.fm/+Ip83LLkrQ",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 48.86104,
+   "lon": 2.3359
+  },
+  {
+   "id": "PF8DhgQ3lB2B9UKxv0SOT",
+   "title": "The mistresses of King Louis XV",
+   "type": "video",
+   "place": "Palace of Versailles",
+   "url": "https://youtu.be/JTRHdwTWh_Y",
+   "creator": null,
+   "channel": "Google Arts & Culture",
+   "lat": 48.80487,
+   "lon": 2.12157
+  },
+  {
+   "id": "1Ho46o2S4UNvNIMeaihplT",
+   "title": "Louvre Museum tour with travel writer Rick Steves",
+   "type": "audiotour",
+   "place": "Louvre Pyramid",
+   "url": "https://overcast.fm/+LLmcxkcM",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
+   "lat": 48.86117,
+   "lon": 2.33519
+  },
+  {
+   "id": "6QMNySJdXIFBeqzz95JSJG",
+   "title": "Searching for what remains of the Bastille",
+   "type": "video",
+   "place": "Bastille Métro station (fortress remains)",
+   "url": "https://youtu.be/PslM1uYudZM",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 48.85356,
+   "lon": 2.3702
+  },
+  {
+   "id": "4sccvryvnxQf5YaQeS2TBt",
+   "title": "The turbulent life of Marie Antoinette",
+   "type": "podcast",
+   "place": "Palace of Versailles",
+   "url": "https://overcast.fm/+XieDBeoCU",
+   "creator": null,
+   "channel": "You’re Wrong About",
+   "lat": 48.80438,
+   "lon": 2.12019
+  },
+  {
+   "id": "2leLMHgVh4Seu6ecGh2INg",
+   "title": "Palace of Versailles tour with travel writer Rick Steves",
+   "type": "audiotour",
+   "place": "Palace of Versailles",
+   "url": "https://overcast.fm/+LLmXbpn4",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
+   "lat": 48.80407,
+   "lon": 2.12317
+  },
+  {
+   "id": "2arod3S8KXrHPTI2Bl0E4j",
+   "title": "Rue Cler neighborhood tour with travel writer Rick Steves",
+   "type": "audiotour",
+   "place": "Rue Cler market street",
+   "url": "https://overcast.fm/+LLmtqcgo",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
+   "lat": 48.8577,
+   "lon": 2.30595
+  },
+  {
+   "id": "SL3b98oHE2il51udhn6Ya",
+   "title": "The accidental destruction of a chateau",
+   "type": "video",
+   "place": "Site of the Château de Saint-Cloud, Saint-Cloud",
+   "url": "https://youtu.be/9fnkn6Gb5Qs",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 48.83773,
+   "lon": 2.21672
+  },
+  {
+   "id": "77fNx2RXDciXYsMwsXrFdG",
+   "title": "The train line that transformed into a park",
+   "type": "video",
+   "place": "Viaduc des Arts and Coulée Verte park",
+   "url": "https://youtu.be/LWhYhtp6rZ8",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 48.84697,
+   "lon": 2.37652
+  },
+  {
+   "id": "3WBZ2xZF5RoABNzmYCZZjs",
+   "title": "The little delights of Montmartre",
+   "type": "video",
+   "place": "Villa Léandre, Montmartre",
+   "url": "https://youtu.be/My-8RqTM4Ag",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 48.88839,
+   "lon": 2.33506
+  },
+  {
+   "id": "76yr8skayyxLQOxYxp425B",
+   "title": "Political rebellion and revolution in bohemian Belleville",
+   "type": "video",
+   "place": "La Bellevilloise",
+   "url": "https://youtu.be/XVTTCZ9oYEU",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.86835,
+   "lon": 2.39216
+  },
+  {
+   "id": "3D7x0dz4kLUeH7AVs0Mzgr",
+   "title": "The mushrooms growing beneath our feet",
+   "type": "video",
+   "place": "Les Carrières mushroom caves",
+   "url": "https://youtu.be/Psx0Mb4hnYE",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 49.01153,
+   "lon": 1.93562
+  },
+  {
+   "id": "3poVGmx8CsXpxsoi8PTzMV",
+   "title": "Salvaging historical home goods at Feau & Cie",
+   "type": "video",
+   "place": "Feau & Cie architectural salvage shop",
+   "url": "https://youtu.be/vAGjJDS1G4g",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.87984,
+   "lon": 2.29715
+  },
+  {
+   "id": "40hElfrwWqPURs8RFMEj1w",
+   "title": "Shop signage from the 14th-century hidden in plain sight",
+   "type": "podcast",
+   "place": "42 Rue Galande (medieval carved sign)",
+   "url": "https://overcast.fm/+JNyytMQxQ",
+   "creator": null,
+   "channel": "Paname",
+   "lat": 48.85162,
+   "lon": 2.34713
+  },
+  {
+   "id": "5HRvsvlrzgHQWJbl7BhWM3",
+   "title": "A long legacy of luxury fans at Maison Duvelleroy",
+   "type": "video",
+   "place": "Maison Duvelleroy fan shop",
+   "url": "https://youtu.be/rIMrxEtNn2w",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.85848,
+   "lon": 2.30777
+  },
+  {
+   "id": "5fWUYfDpMLpmRDLD6akBEf",
+   "title": "Exploring a Parisian ghost town",
+   "type": "video",
+   "place": "Old village of Goussainville (area)",
+   "url": "https://youtu.be/omBKnoyvEg4",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 49.01219,
+   "lon": 2.46459
+  },
+  {
+   "id": "5SWhJQbJ4I3YFDYagqKkA0",
+   "title": "Learning the art of fencing",
+   "type": "video",
+   "place": "Salle d’Armes Coudurier fencing club",
+   "url": "https://youtu.be/YrEOvfsnJA8",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.85381,
+   "lon": 2.34262
+  },
+  {
+   "id": "2dsMcvWZ8gLOpvw9zOs04U",
+   "title": "Where classic Parisian cafe chairs come from",
+   "type": "video",
+   "place": "Maison Gatti chair workshop, Seine-et-Marne",
+   "url": "https://youtu.be/jSIjT2cSoXY",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.30319,
+   "lon": 2.82434
+  },
+  {
+   "id": "7EQSLxnOZXu3a4wcj4FGKu",
+   "title": "Using models and maps to plan for war",
+   "type": "video",
+   "place": "Musée des Plans-Reliefs, Les Invalides",
+   "url": "https://youtu.be/wz2rQEKc8Jo",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.85647,
+   "lon": 2.3133
+  },
+  {
+   "id": "18N7PgeNVqE8aDlQWrRQXI",
+   "title": "Antiques and adventure at Les Puces",
+   "type": "video",
+   "place": "Saint-Ouen flea market (Les Puces)",
+   "url": "https://youtu.be/myvoxAhgZsE",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.90313,
+   "lon": 2.34389
+  },
+  {
+   "id": "4WEz6x9VMveB237j5PMtGq",
+   "title": "A whirlwind food and drink tour of Paris",
+   "type": "video",
+   "place": "Marché des Enfants Rouges market",
+   "url": "https://youtu.be/_oZC_XQmz8Y",
+   "creator": null,
+   "channel": "Topjaw",
+   "lat": 48.86275,
+   "lon": 2.362
+  },
+  {
+   "id": "5tvcdnR5CtSJmi1k3iXSiI",
+   "title": "An insider look at an outsider artist",
+   "type": "video",
+   "place": "Maïssa Toulet’s studio",
+   "url": "https://youtu.be/73lOD8mXit8",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.85409,
+   "lon": 2.38233
+  },
+  {
+   "id": "5wM2bjMHeWjorwRE12VQHH",
+   "title": "Going underground at the Liberation of Paris Museum",
+   "type": "video",
+   "place": "Liberation of Paris Museum",
+   "url": "https://youtu.be/2qw0DLJAE8g",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.83393,
+   "lon": 2.33188
+  },
+  {
+   "id": "7Bdrg1qBtCwXFd0EvoUvid",
+   "title": "Exploring new French cuisine at Au Passage",
+   "type": "video",
+   "place": "Au Passage restaurant",
+   "url": "https://youtu.be/tqn1gralD4U",
+   "creator": null,
+   "channel": "Bon Appétit",
+   "lat": 48.86158,
+   "lon": 2.36865
+  },
+  {
+   "id": "179nKT2Cy831jpJMF8rmOe",
+   "title": "How to rob an art museum",
+   "type": "podcast",
+   "place": "Paris Museum of Modern Art (Musée d’Art Moderne)",
+   "url": "https://overcast.fm/+FZssBl8lo",
+   "creator": null,
+   "channel": "The New Yorker",
+   "lat": 48.86434,
+   "lon": 2.29782
+  },
+  {
+   "id": "3bQFeEq6O0cc6xesef4R0Q",
+   "title": "The attack on Charlie Hebdo",
+   "type": "video",
+   "place": "Former Charlie Hebdo offices, Rue Nicolas-Appert",
+   "url": "https://youtu.be/R6hU3nhudRg",
+   "creator": null,
+   "channel": "Vox",
+   "lat": 48.85926,
+   "lon": 2.37026
+  },
+  {
+   "id": "7ppLBXTy97H1fUOAItHqZH",
+   "title": "Unexpected architecture in a uniform city",
+   "type": "podcast",
+   "place": "Orgues de Flandre towers",
+   "url": "https://overcast.fm/+lNTHy2FA",
+   "creator": null,
+   "channel": "Monocle: The Urbanist",
+   "lat": 48.88963,
+   "lon": 2.37494
+  },
+  {
+   "id": "1bwbWcNiPOlG0ZOeMvDyHg",
+   "title": "Giving injured soldiers a new lease on life",
+   "type": "video",
+   "place": "Site of Anna Coleman Ladd’s studio, 70 Rue Notre-Dame-des-Champs",
+   "url": "https://youtu.be/BJzjt_aFc00",
+   "creator": null,
+   "channel": "Vox",
+   "lat": 48.84288,
+   "lon": 2.33156
+  },
+  {
+   "id": "4JZChCkvDezYAsmqGspOIX",
+   "title": "Marie Antoinette behind bars",
+   "type": "podcast",
+   "place": "Conciergerie (former palace prison)",
+   "url": "https://overcast.fm/+S4onYyNsA",
+   "creator": null,
+   "channel": "Noble Blood",
+   "lat": 48.85587,
+   "lon": 2.34605
+  },
+  {
+   "id": "5xXUtrDzUk3FEKSwqvfPfY",
+   "title": "A portrait of Berthe Morisot",
+   "type": "podcast",
+   "place": "Musée Marmottan Monet museum",
+   "url": "https://overcast.fm/+G5ukDFkBE",
+   "creator": null,
+   "channel": "The Land of Desire",
+   "lat": 48.85926,
+   "lon": 2.26723
+  },
+  {
+   "id": "3JBLEURzcZCqO8L0M9s2jd",
+   "title": "The Parisians who ate a zoo",
+   "type": "podcast",
+   "place": "Ménagerie zoo, Jardin des Plantes",
+   "url": "https://overcast.fm/+G5ukVO7iY",
+   "creator": null,
+   "channel": "The Land of Desire",
+   "lat": 48.84388,
+   "lon": 2.35973
+  },
+  {
+   "id": "3XxWAC6qjGJdATMXSfPJNq",
+   "title": "An informal approach to French cuisine",
+   "type": "podcast",
+   "place": "Librairie Gourmande bookshop",
+   "url": "https://overcast.fm/+IPO6ORfmI",
+   "creator": null,
+   "channel": "The Food Programme",
+   "lat": 48.86712,
+   "lon": 2.3442
+  },
+  {
+   "id": "1Us2rCZokuBuAYx4xMop6V",
+   "title": "Mona Lisa’s rising stardom",
+   "type": "video",
+   "place": "Salle des États (Mona Lisa room), Louvre Museum",
+   "url": "https://youtu.be/d2wy7Fp2fqw",
+   "creator": null,
+   "channel": "Vox",
+   "lat": 48.85974,
+   "lon": 2.33837
+  },
+  {
+   "id": "5Iuh24iDkRPMyW8tilkDhM",
+   "title": "Curating art to celebrate a vibrant urban culture",
+   "type": "podcast",
+   "place": "25hours Hotel Terminus Nord, opposite Gare du Nord",
+   "url": "https://overcast.fm/+I4O7IlSBc",
+   "creator": null,
+   "channel": "The New Paris",
+   "lat": 48.87957,
+   "lon": 2.35514
+  },
+  {
+   "id": "uwfJixObf6kcfbTnURLvE",
+   "title": "An in-depth look at the Mona Lisa",
+   "type": "podcast",
+   "place": "Salle des États (Mona Lisa room), Louvre Museum",
+   "url": "https://overcast.fm/+L5k_XnSf0",
+   "creator": null,
+   "channel": "Art History for All",
+   "lat": 48.85986,
+   "lon": 2.33831
+  },
+  {
+   "id": "3UmENtOoabBb0lRF7XyyKr",
+   "title": "The painting in Mona Lisa’s watchful gaze",
+   "type": "video",
+   "place": "Salle des États (Mona Lisa room), Louvre Museum",
+   "url": "https://youtu.be/8Ovg0FyWm9k",
+   "creator": null,
+   "channel": "Google Arts & Culture",
+   "lat": 48.86,
+   "lon": 2.33525
+  },
+  {
+   "id": "tbwWf2bkfImrFumH7QnUp",
+   "title": "The rise and fall of Joan of Arc",
+   "type": "podcast",
+   "place": "Joan of Arc statue, Place des Pyramides",
+   "url": "https://overcast.fm/+UIL6NQYEY",
+   "creator": null,
+   "channel": "You’re Dead To Me",
+   "lat": 48.86388,
+   "lon": 2.33219
+  },
+  {
+   "id": "2gpREqvqGQQCBeOlxrZkzI",
+   "title": "A triple-murder that captivated 19th-century Paris",
+   "type": "podcast",
+   "place": "Rue Jean-Mermoz (formerly Rue Montaigne)",
+   "url": "https://overcast.fm/+LJ0daY85Q",
+   "creator": null,
+   "channel": "Most Notorious",
+   "lat": 48.86821,
+   "lon": 2.30866
+  },
+  {
+   "id": "4jnf0VLFMKggFf6SpoMtSu",
+   "title": "Feeling invisible as a French-Asian person",
+   "type": "podcast",
+   "place": "Chinatown, 13th arrondissement (area)",
+   "url": "https://overcast.fm/+LB3eCxMCs",
+   "creator": null,
+   "channel": "The Europeans",
+   "lat": 48.82358,
+   "lon": 2.36574
+  },
+  {
+   "id": "FaMwaKy1zb55nNGyTjiAy",
+   "title": "The remarkable life of Josephine Baker",
+   "type": "video",
+   "place": "Folies Bergère music hall",
+   "url": "https://youtu.be/2TGuY7wRKvU",
+   "creator": null,
+   "channel": "Culture Trip",
+   "lat": 48.87435,
+   "lon": 2.3449
+  },
+  {
+   "id": "7L83MQ2US2CZJVuaoITrh2",
+   "title": "Changing the world with Josephine Baker",
+   "type": "podcast",
+   "place": "Folies Bergère music hall",
+   "url": "https://overcast.fm/+UIL6XsXdQ",
+   "creator": null,
+   "channel": "You’re Dead To Me",
+   "lat": 48.87417,
+   "lon": 2.34498
+  },
+  {
+   "id": "2j3CiOGcLGiWeHNddHT0HP",
+   "title": "For the love of print",
+   "type": "video",
+   "place": "Magazine kiosk near Le Bon Marché",
+   "url": "https://www.youtube.com/watch?v=RXUWe99R_6E",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 48.85022,
+   "lon": 2.32381
+  },
+  {
+   "id": "31CShwrVKSq2bvpJe2pdl0",
+   "title": "The origins of chef Eric Ripert",
+   "type": "podcast",
+   "place": "La Tour d’Argent restaurant",
+   "url": "https://overcast.fm/+D3X3dzefY",
+   "creator": null,
+   "channel": "Bon Appétit",
+   "lat": 48.84978,
+   "lon": 2.35495
+  },
+  {
+   "id": "1orwNEbwsnD3tXE6TbKiwe",
+   "title": "Market meandering at Marché d’Aligre",
+   "type": "video",
+   "place": "Marché d’Aligre market",
+   "url": "https://youtu.be/y4fOKgBMpA8",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.84916,
+   "lon": 2.37827
+  },
+  {
+   "id": "6Jj6WmgZjXXqMPpTzRuFGR",
+   "title": "Conserving the treasures of the Louvre",
+   "type": "video",
+   "place": "RMN casting workshops (Ateliers d’art), Saint-Denis",
+   "url": "https://youtu.be/_13XRbEiLoc",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.9131,
+   "lon": 2.36227
+  },
+  {
+   "id": "7pffUzipqrXuFVSyg1zV7e",
+   "title": "Cherishing a crumbling chateau",
+   "type": "video",
+   "place": "Château du Duc d’Épernon, Fontenay-Trésigny",
+   "url": "https://youtu.be/3v9CmboeZ0w",
+   "creator": null,
+   "channel": "Messy Nessy Chic",
+   "lat": 48.70613,
+   "lon": 2.86197
+  },
+  {
+   "id": "6HA2SHoeLrrt7p33auiUb",
+   "title": "Haussmann remakes a city in flux",
+   "type": "podcast",
+   "place": "Carnavalet Museum",
+   "url": "https://overcast.fm/+G5unY6-l0",
+   "creator": null,
+   "channel": "The Land of Desire",
+   "lat": 48.85731,
+   "lon": 2.36254
+  },
+  {
+   "id": "2L6e8DcOCKIEAvBQPHDtfK",
+   "title": "A brutal end for the Paris Commune",
+   "type": "podcast",
+   "place": "Communards’ Wall, Père Lachaise Cemetery",
+   "url": "https://overcast.fm/+IPNywvPX0",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 48.85973,
+   "lon": 2.3997
   },
   {
    "id": "6zduJ2BrbCCqdm9CEOnNqM",
    "title": "Scenes from the Paris Exhibition in 1937",
    "type": "video",
    "place": "Place du Trocadéro",
+   "url": "https://youtu.be/s6A1WJzhYB8",
+   "creator": null,
+   "channel": "British Pathé",
    "lat": 48.8623,
    "lon": 2.28828
   },
@@ -2150,46 +3042,31 @@
    "title": "The spark that started the French Revolution",
    "type": "video",
    "place": "Place de la Bastille",
+   "url": "https://youtu.be/PBn7iWzrKoI",
+   "creator": null,
+   "channel": "TED-Ed",
    "lat": 48.85319,
    "lon": 2.36915
-  },
-  {
-   "id": "13LIEW82ZlIQJcTdJUtlFq",
-   "title": "Oxygène, Pt. 4",
-   "type": "music",
-   "place": "Place de la Concorde",
-   "lat": 48.8656,
-   "lon": 2.3212
   },
   {
    "id": "3jh0L3mP14Kev0KFmLf1MN",
    "title": "Père Lachaise Cemetery tour with travel writer Rick Steves",
    "type": "audiotour",
    "place": "Père Lachaise Cemetery, Gambetta entrance",
+   "url": "https://overcast.fm/+LLkfTrwc",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
    "lat": 48.86346,
    "lon": 2.39728
-  },
-  {
-   "id": "1N4t4gRDdyQya6uXQclZL8",
-   "title": "Flâneurs of Belleville",
-   "type": "audiotour",
-   "place": "Parmentier Métro station",
-   "lat": 48.8654,
-   "lon": 2.3745
-  },
-  {
-   "id": "4FVrUT5kxll3gs9qZNHs1f",
-   "title": "A lone tower so hated the city banned any more",
-   "type": "video",
-   "place": "Montparnasse Tower (Tour Montparnasse)",
-   "lat": 48.8421,
-   "lon": 2.322
   },
   {
    "id": "34wWYrJKTeD4aG9EkxX5sX",
    "title": "A river vanishes under the streets of the Left Bank",
    "type": "video",
    "place": "Buried course of the Bièvre river (area)",
+   "url": "https://youtu.be/OXfIpbAk8JA",
+   "creator": null,
+   "channel": "BBC Global",
    "lat": 48.8343,
    "lon": 2.3485
   },
@@ -2198,54 +3075,42 @@
    "title": "Hitler orders the city wrecked and his general drags his feet",
    "type": "video",
    "place": "Le Meurice hotel, Rue de Rivoli",
+   "url": "https://youtu.be/poqVkVK9C7Y",
+   "creator": null,
+   "channel": "Mark Felton Productions",
    "lat": 48.8651,
    "lon": 2.3281
-  },
-  {
-   "id": "11O0UY6a0qIqxVG0R0ZpUm",
-   "title": "Au DD",
-   "type": "music",
-   "place": "Eiffel Tower",
-   "lat": 48.8584,
-   "lon": 2.2945
   },
   {
    "id": "1PSqxjWcyoikDtIauyqbyh",
    "title": "Göring shops for stolen art in a Tuileries gallery",
    "type": "video",
    "place": "Jeu de Paume gallery, Tuileries Garden",
+   "url": "https://youtu.be/779KN_yAxFI",
+   "creator": null,
+   "channel": "Mark Felton Productions",
    "lat": 48.8658,
    "lon": 2.324
-  },
-  {
-   "id": "4qQuLTVcOgoG1hjv4vnjZE",
-   "title": "Il est cinq heures, Paris s’éveille",
-   "type": "music",
-   "place": "Eiffel Tower",
-   "lat": 48.8584,
-   "lon": 2.2945
   },
   {
    "id": "2b90tsTY3aX5LD9mLuyZKa",
    "title": "Historic Paris tour with travel writer Rick Steves",
    "type": "audiotour",
    "place": "Notre-Dame Cathedral",
+   "url": "https://overcast.fm/+LLkvNCwk",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
    "lat": 48.85353,
    "lon": 2.34821
-  },
-  {
-   "id": "2STbmfP0sF0Ss6CkiEboUq",
-   "title": "Craftspeople rebuild a cathedral after the fire",
-   "type": "video",
-   "place": "Notre-Dame Cathedral",
-   "lat": 48.853,
-   "lon": 2.3499
   },
   {
    "id": "UDqLQoYqcDJw7h3NwsrSX",
    "title": "Musée d’Orsay tour with travel writer Rick Steves",
    "type": "audiotour",
    "place": "Musée d’Orsay museum",
+   "url": "https://overcast.fm/+LLkJf3Ic",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
    "lat": 48.86013,
    "lon": 2.32557
   },
@@ -2254,6 +3119,9 @@
    "title": "Culture and context surrounding Impressionism",
    "type": "video",
    "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/_tw51Eh9vcw",
+   "creator": null,
+   "channel": "The Art Assignment",
    "lat": 48.86021,
    "lon": 2.32537
   },
@@ -2262,6 +3130,9 @@
    "title": "Olympia versus the art world",
    "type": "video",
    "place": "Musée d’Orsay museum",
+   "url": "https://youtu.be/YHKFK6_pepo",
+   "creator": null,
+   "channel": "Vox",
    "lat": 48.85979,
    "lon": 2.32698
   },
@@ -2270,6 +3141,9 @@
    "title": "Living as a woman during the Belle Époque",
    "type": "podcast",
    "place": "Musée d’Orsay museum",
+   "url": "https://overcast.fm/+G5unxmNn8",
+   "creator": null,
+   "channel": "The Land of Desire",
    "lat": 48.85955,
    "lon": 2.32722
   },
@@ -2278,6 +3152,9 @@
    "title": "Inspirational impressionism at Musée de l’Orangerie",
    "type": "video",
    "place": "Musée de l’Orangerie museum",
+   "url": "https://youtu.be/QD9WeM6SW00",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 48.86396,
    "lon": 2.32207
   },
@@ -2286,6 +3163,9 @@
    "title": "The life and work of Claude Monet",
    "type": "video",
    "place": "Musée de l’Orangerie museum",
+   "url": "https://youtu.be/iGoGshNbFew",
+   "creator": null,
+   "channel": "Biography",
    "lat": 48.86359,
    "lon": 2.32323
   },
@@ -2294,6 +3174,9 @@
    "title": "A close look at The Turkish Bath by Ingres",
    "type": "video",
    "place": "Louvre Museum",
+   "url": "https://youtu.be/K-IpMyp43Ck",
+   "creator": null,
+   "channel": "The Canvas",
    "lat": 48.85982,
    "lon": 2.33799
   },
@@ -2302,6 +3185,9 @@
    "title": "The weighty meaning behind The Raft of the Medusa",
    "type": "video",
    "place": "Louvre Museum",
+   "url": "https://youtu.be/eEq_cXRotDo",
+   "creator": null,
+   "channel": "The Canvas",
    "lat": 48.86055,
    "lon": 2.33477
   },
@@ -2310,6 +3196,9 @@
    "title": "Théâtre de la Mode: A beacon of hope for postwar France",
    "type": "podcast",
    "place": "Louvre Museum",
+   "url": "https://overcast.fm/+RIdS00THA",
+   "creator": null,
+   "channel": "Articles of Interest",
    "lat": 48.86061,
    "lon": 2.33764
   },
@@ -2318,6 +3207,9 @@
    "title": "The theft of the Mona Lisa",
    "type": "podcast",
    "place": "Louvre Museum",
+   "url": "https://overcast.fm/+JJ0I82JYE",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 48.8602,
    "lon": 2.33538
   },
@@ -2326,6 +3218,9 @@
    "title": "Fact and fiction in The Phantom of the Opera",
    "type": "video",
    "place": "Palais Garnier opera house",
+   "url": "https://youtu.be/u3RD2Y27DeI",
+   "creator": null,
+   "channel": "Bookworm History",
    "lat": 48.87206,
    "lon": 2.33207
   },
@@ -2334,6 +3229,9 @@
    "title": "Lifestyles of the rich and famous in the Belle Époque",
    "type": "video",
    "place": "Palais Garnier opera house",
+   "url": "https://youtu.be/oo80NxksKqo",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 48.87189,
    "lon": 2.33123
   },
@@ -2342,6 +3240,9 @@
    "title": "Getting around the city by lamppost",
    "type": "video",
    "place": "Palais Garnier opera house",
+   "url": "https://youtu.be/ILqrfF75hUo",
+   "creator": null,
+   "channel": "The Tim Traveller",
    "lat": 48.87325,
    "lon": 2.33118
   },
@@ -2350,6 +3251,9 @@
    "title": "A young star in the fashion world",
    "type": "video",
    "place": "",
+   "url": "https://youtu.be/SR2b9m9v88Y",
+   "creator": null,
+   "channel": "The New York Times",
    "lat": 48.87293,
    "lon": 2.32348
   }

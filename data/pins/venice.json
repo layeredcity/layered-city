@@ -2,10 +2,508 @@
  "city": "Venice",
  "pins": [
   {
+   "id": "4wJNAoQEiGnIKo6mq9Pead",
+   "title": "Councils, courts, and cells under one gilded roof",
+   "type": "video",
+   "place": "Doge’s Palace",
+   "url": "https://youtu.be/H6_u3js2DSM",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 45.4337,
+   "lon": 12.3404
+  },
+  {
+   "id": "2uE3XeVutJjiV5fTU23val",
+   "title": "Venice",
+   "type": "book",
+   "place": "Torcello Cathedral, Santa Maria Assunta",
+   "url": "https://goodreads.com/search?q=Jan+Morris+Venice",
+   "creator": "Jan Morris",
+   "channel": null,
+   "lat": 45.498,
+   "lon": 12.4182
+  },
+  {
+   "id": "3vUM3Gu5MiilSbZr50r3rz",
+   "title": "Polpo: A Venetian Cookbook (Of Sorts)",
+   "type": "book",
+   "place": "Rialto fish market (Pescheria)",
+   "url": "https://goodreads.com/search?q=Russell+Norman+Polpo",
+   "creator": "Russell Norman",
+   "channel": null,
+   "lat": 45.4394,
+   "lon": 12.3343
+  },
+  {
+   "id": "7kreJkvCIeqEaMZ5HP942d",
+   "title": "Vivaldi, Tintoretto and Marco Polo: A Venice Walking Tour",
+   "type": "audiotour",
+   "place": "Ponte delle Guglie bridge",
+   "url": "https://voicemap.me/tour/venice/vivaldi-tintoretto-and-marco-polo-a-venice-walking-tour",
+   "creator": "Marina Proskurnina",
+   "channel": null,
+   "lat": 45.4437,
+   "lon": 12.3256
+  },
+  {
+   "id": "2dFAFhyYnNEYzrmNQjpvwp",
+   "title": "A Venetian merchant’s son spends decades at the court of Kublai Khan",
+   "type": "podcast",
+   "place": "Corte del Milion, Marco Polo’s family home",
+   "url": "https://open.spotify.com/search/You're Dead to Me Marco Polo",
+   "creator": null,
+   "channel": "You’re Dead To Me",
+   "lat": 45.439,
+   "lon": 12.3382
+  },
+  {
+   "id": "5HNlPxYwjmOfJPlBLyRODB",
+   "title": "The Story of My Life",
+   "type": "book",
+   "place": "Doge’s Palace and the Piombi prison cells",
+   "url": "https://goodreads.com/search?q=Giacomo+Casanova+The+Story+of+My+Life",
+   "creator": "Giacomo Casanova",
+   "channel": null,
+   "lat": 45.4337,
+   "lon": 12.3404
+  },
+  {
+   "id": "1iLlL5S287Vhkz9ZWGvnMG",
+   "title": "Tasty Traditions: A Venice Food Tour with Context",
+   "type": "audiotour",
+   "place": "Campo Santi Giovanni e Paolo",
+   "url": "https://voicemap.me/tour/venice/tasty-traditions-a-venice-food-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 45.4392,
+   "lon": 12.3413
+  },
+  {
+   "id": "4hsb28LzchMs2AwObbssLH",
+   "title": "In and Around St. Mark’s Square: A Walk with Context",
+   "type": "audiotour",
+   "place": "St. Mark’s Square",
+   "url": "https://voicemap.me/tour/venice/in-and-around-st-mark-s-square-a-walk-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 45.4343,
+   "lon": 12.3388
+  },
+  {
+   "id": "3uQCjY8KUaj15mVqkQ39YT",
+   "title": "Politics and Power in Serenissima: From the Doge’s Palace to Venice’s Arsenale",
+   "type": "audiotour",
+   "place": "Doge’s Palace, Piazzetta San Marco",
+   "url": "https://voicemap.me/tour/venice/politics-and-power-in-serenissima-from-the-doge-s-palace-to-venice-s-arsenale",
+   "creator": "A History of Italy Podcast",
+   "channel": null,
+   "lat": 45.4333,
+   "lon": 12.34
+  },
+  {
+   "id": "1F3u1VVIvBbThbiILyI0ed",
+   "title": "Grand Canal Revelations: Venice’s Right Bank Vaporetto Audio Tour",
+   "type": "audiotour",
+   "place": "Constitution Bridge (Ponte della Costituzione)",
+   "url": "https://voicemap.me/tour/venice/grand-canal-revelations-venice-s-right-bank-vaporetto-audio-tour",
+   "creator": "Erla Zwingle",
+   "channel": null,
+   "lat": 45.439,
+   "lon": 12.3196
+  },
+  {
+   "id": "1m8O09o5k32p2a2SpfP2sH",
+   "title": "Castello’s Hidden Corners: A Walk around a Vibrant Venice Neighborhood",
+   "type": "audiotour",
+   "place": "Naval History Museum (Museo Storico Navale)",
+   "url": "https://voicemap.me/tour/venice/castello-s-hidden-corners-a-walk-around-a-vibrant-venice-neighborhood",
+   "creator": "Erla Zwingle",
+   "channel": null,
+   "lat": 45.4324,
+   "lon": 12.3498
+  },
+  {
+   "id": "3FMJxK8dChU12YOZ6wUsd6",
+   "title": "The Aspern Papers",
+   "type": "book",
+   "place": "Palazzo Soranzo Cappello on Rio Marin",
+   "url": "https://goodreads.com/search?q=Henry+James+The+Aspern+Papers",
+   "creator": "Henry James",
+   "channel": null,
+   "lat": 45.4398,
+   "lon": 12.3243
+  },
+  {
+   "id": "5i1FVG0I7QWkLjCUpRrgT0",
+   "title": "The City of Falling Angels",
+   "type": "book",
+   "place": "Teatro La Fenice opera house",
+   "url": "https://goodreads.com/search?q=John+Berendt+The+City+of+Falling+Angels",
+   "creator": "John Berendt",
+   "channel": null,
+   "lat": 45.4336,
+   "lon": 12.3337
+  },
+  {
+   "id": "2gBKEOYgCX8uGFFIcSac0J",
+   "title": "Zombie Tide: A Fictional Venice Walking Tour",
+   "type": "audiotour",
+   "place": "Rialto Bridge",
+   "url": "https://voicemap.me/tour/venice/zombie-tide-a-fictional-venice-walking-tour",
+   "creator": "Mila",
+   "channel": null,
+   "lat": 45.438,
+   "lon": 12.3359
+  },
+  {
+   "id": "6QzWCzHVdd743kZJqcIdpp",
+   "title": "Bacchus, Bridges and Bacari: A Cultured Pub Crawl of Venice",
+   "type": "audiotour",
+   "place": "Campo San Geremia",
+   "url": "https://voicemap.me/tour/venice/bacchus-bridges-and-bacari-a-cultured-pub-crawl-of-venice",
+   "creator": "A History of Italy Podcast",
+   "channel": null,
+   "lat": 45.4429,
+   "lon": 12.325
+  },
+  {
+   "id": "7ycaENsPFGgzwQr42Nynoh",
+   "title": "The Heart of Venice",
+   "type": "audiotour",
+   "place": "St. Mark’s Square",
+   "url": "https://voicemap.me/tour/venice/the-heart-of-venice",
+   "creator": "Erla Zwingle",
+   "channel": null,
+   "lat": 45.4344,
+   "lon": 12.3392
+  },
+  {
+   "id": "7m9lrUpbLprgHeF3K19X2z",
+   "title": "Pin Floi",
+   "type": "music",
+   "place": "Bacino di San Marco, site of the 1989 Pink Floyd floating stage",
+   "url": "https://open.spotify.com/search/Pitura%20Freska%20Pin%20Floi",
+   "creator": "Pitura Freska",
+   "channel": null,
+   "lat": 45.4322,
+   "lon": 12.3398
+  },
+  {
+   "id": "3l8QyGm8qnLXuTGhsEeTgx",
+   "title": "L’incoronazione di Poppea: Pur ti miro",
+   "type": "music",
+   "place": "Frari basilica, Monteverdi’s tomb",
+   "url": "https://open.spotify.com/search/Claudio%20Monteverdi%20L%27incoronazione%20di%20Poppea%3A%20Pur%20ti%20miro",
+   "creator": "Claudio Monteverdi",
+   "channel": null,
+   "lat": 45.4367,
+   "lon": 12.3261
+  },
+  {
+   "id": "MzBTIymDEdU5y1EmP80TP",
+   "title": "The Tetrarchs, four Roman co-emperors in porphyry",
+   "type": "video",
+   "place": "Tetrarchs sculpture, St. Mark’s Basilica",
+   "url": "https://youtu.be/Dui5V8TZYbE",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4342,
+   "lon": 12.34
+  },
+  {
+   "id": "3iIUQrKJosnebYjLe16E3k",
+   "title": "The Pesaro Madonna by Titian",
+   "type": "video",
+   "place": "Frari church (Santa Maria Gloriosa dei Frari)",
+   "url": "https://youtu.be/-ngmZo-dvy4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4368,
+   "lon": 12.3266
+  },
+  {
+   "id": "51EpwswNMlqRlTAIlCNUpN",
+   "title": "Crusaders sack Constantinople and ship the loot home to Venice",
+   "type": "podcast",
+   "place": "Horses of St. Mark, St. Mark’s Basilica",
+   "url": "https://open.spotify.com/search/Wonders of the World Grand Canal of Venice Fourth Crusade",
+   "creator": null,
+   "channel": "Wonders of the World",
+   "lat": 45.4344,
+   "lon": 12.3393
+  },
+  {
+   "id": "53GydZtuzA0JsWDu7zp133",
+   "title": "Venice’s Jews are locked into the world’s first ghetto",
+   "type": "podcast",
+   "place": "Campo del Ghetto Novo",
+   "url": "https://open.spotify.com/search/Radio 3 Documentary The Venice Ghetto Jerry Brotton",
+   "creator": null,
+   "channel": "The Radio 3 Documentary",
+   "lat": 45.4447,
+   "lon": 12.3262
+  },
+  {
+   "id": "7xHPTWYBzdExZ05LajIApV",
+   "title": "A Christian fleet built in Venice sinks the Ottoman navy at Lepanto",
+   "type": "podcast",
+   "place": "Porta Magna, Venetian Arsenal",
+   "url": "https://open.spotify.com/search/In Our Time Battle of Lepanto",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 45.4349,
+   "lon": 12.3501
+  },
+  {
+   "id": "2U4okJf7T09xwVSJYC6876",
+   "title": "Carnival once meant bull-baiting and human towers",
+   "type": "podcast",
+   "place": "St. Mark’s Square",
+   "url": "https://open.spotify.com/search/Venetian Stories The Venetian Carnival",
+   "creator": null,
+   "channel": "Venetian Stories",
+   "lat": 45.4341,
+   "lon": 12.3388
+  },
+  {
+   "id": "7kgGIrllzgToloxqPsB3Vd",
+   "title": "Napoleon ends a republic that lasted eleven centuries",
+   "type": "podcast",
+   "place": "Museo Storico Navale, naval history museum",
+   "url": "https://open.spotify.com/search/Dan Snow's History Hit Rise and Fall of Venice",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
+   "lat": 45.4334,
+   "lon": 12.3488
+  },
+  {
+   "id": "1SBjq3eQ23KXOEx1gHjnAu",
+   "title": "Brothers in a Murano workshop carve glass layer by layer",
+   "type": "podcast",
+   "place": "Fondamenta dei Vetrai, Murano",
+   "url": "https://open.spotify.com/search/Talking Out Your Glass Ferro Brothers Murano",
+   "creator": null,
+   "channel": "Talking Out Your Glass podcast",
+   "lat": 45.4525,
+   "lon": 12.3507
+  },
+  {
+   "id": "PR1gyPlFotUDgwgWd8uXJ",
+   "title": "A cathedral glittering with loot from Constantinople",
+   "type": "video",
+   "place": "St. Mark’s Basilica",
+   "url": "https://youtu.be/NE1f8kkx5jE",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 45.4346,
+   "lon": 12.3393
+  },
+  {
+   "id": "53dotLZhzBAyP89ek7H8HF",
+   "title": "Why the water keeps rising through St. Mark’s Square",
+   "type": "video",
+   "place": "St. Mark’s Square",
+   "url": "https://youtu.be/gXJpjPFj0EU",
+   "creator": null,
+   "channel": "Insider",
+   "lat": 45.4339,
+   "lon": 12.3383
+  },
+  {
+   "id": "2dzuSSqp6KPOfIMaBY3E6f",
+   "title": "The world’s first ghetto, five stories high",
+   "type": "video",
+   "place": "Campo del Ghetto Nuovo",
+   "url": "https://youtu.be/dsnCD1Uf8Eg",
+   "creator": null,
+   "channel": "SLICE",
+   "lat": 45.4453,
+   "lon": 12.3263
+  },
+  {
+   "id": "4OabILmFd0EY4M7K7I2ZGD",
+   "title": "Day-trippers outnumber the people who live here",
+   "type": "video",
+   "place": "Rialto Bridge",
+   "url": "https://youtu.be/adBnsXD0_bw",
+   "creator": null,
+   "channel": "BBC News",
+   "lat": 45.438,
+   "lon": 12.3359
+  },
+  {
+   "id": "4vw0ZpbpIfvrFy0kr2TUbS",
+   "title": "Tintoretto’s miracles of St. Mark, painted for a brotherhood’s hall",
+   "type": "video",
+   "place": "Scuola Grande di San Marco",
+   "url": "https://youtu.be/OvogxBdYcZ0",
+   "creator": null,
+   "channel": "National Gallery of Art",
+   "lat": 45.4398,
+   "lon": 12.3418
+  },
+  {
+   "id": "7Bd4HfIvpNOqY1RWUUV6zn",
+   "title": "A floating city filmed as one living heritage site",
+   "type": "video",
+   "place": "St. Mark’s Basin (Bacino di San Marco)",
+   "url": "https://youtu.be/rEUQTczycIw",
+   "creator": null,
+   "channel": "UNESCO",
+   "lat": 45.4318,
+   "lon": 12.342
+  },
+  {
+   "id": "7awopUQD2VSuTR8LQHN7rZ",
+   "title": "Sonata pian’ e forte",
+   "type": "music",
+   "place": "St. Mark’s Basilica",
+   "url": "https://open.spotify.com/search/Giovanni%20Gabrieli%20Sonata%20pian%27%20e%20forte",
+   "creator": "Giovanni Gabrieli",
+   "channel": null,
+   "lat": 45.4346,
+   "lon": 12.3396
+  },
+  {
+   "id": "1kvdQqWZ51GQCmKdtvvjtG",
+   "title": "The Venice Syndrome",
+   "type": "movie",
+   "place": "St. Mark’s Square",
+   "url": "https://justwatch.com/us/search?q=The%20Venice%20Syndrome",
+   "creator": "Andreas Pichler",
+   "channel": null,
+   "lat": 45.4341,
+   "lon": 12.3388
+  },
+  {
+   "id": "7a8HCzqsE9yfAjYlTHpg47",
+   "title": "Tintoretto: A Rebel in Venice",
+   "type": "movie",
+   "place": "Scuola Grande di San Rocco",
+   "url": "https://justwatch.com/us/search?q=Tintoretto%3A%20A%20Rebel%20in%20Venice",
+   "creator": "Giuseppe Domingo Romano, Pepsy Romanoff",
+   "channel": null,
+   "lat": 45.4367,
+   "lon": 12.3254
+  },
+  {
+   "id": "2F4Clg5adc0lup4Evv1aIM",
+   "title": "Dangerous Beauty",
+   "type": "movie",
+   "place": "Santa Maria Formosa church",
+   "url": "https://justwatch.com/us/search?q=Dangerous%20Beauty",
+   "creator": "Marshall Herskovitz",
+   "channel": null,
+   "lat": 45.4369,
+   "lon": 12.3411
+  },
+  {
+   "id": "8Aa3t6he5MoIdJl63Khes",
+   "title": "The Merchant of Venice",
+   "type": "movie",
+   "place": "Jewish Ghetto, Campo del Ghetto Nuovo",
+   "url": "https://justwatch.com/us/search?q=The%20Merchant%20of%20Venice",
+   "creator": "Michael Radford",
+   "channel": null,
+   "lat": 45.4453,
+   "lon": 12.3264
+  },
+  {
+   "id": "6JcJHjEQhwKIB6ovM3xILJ",
+   "title": "Casanova",
+   "type": "movie",
+   "place": "Doge’s Palace, Piombi prison cells",
+   "url": "https://justwatch.com/us/search?q=Casanova",
+   "creator": "Lasse Hallström",
+   "channel": null,
+   "lat": 45.4337,
+   "lon": 12.3405
+  },
+  {
+   "id": "2VydsV29cwLMJFMsPUqjWr",
+   "title": "The Wings of the Dove",
+   "type": "movie",
+   "place": "Palazzo Barbaro on the Grand Canal",
+   "url": "https://justwatch.com/us/search?q=The%20Wings%20of%20the%20Dove",
+   "creator": "Iain Softley",
+   "channel": null,
+   "lat": 45.4317,
+   "lon": 12.33
+  },
+  {
+   "id": "vH30Sf8aOds9rldghBQhT",
+   "title": "Death in Venice",
+   "type": "movie",
+   "place": "Grand Hotel des Bains, Lido",
+   "url": "https://justwatch.com/us/search?q=Death%20in%20Venice",
+   "creator": "Luchino Visconti",
+   "channel": null,
+   "lat": 45.4133,
+   "lon": 12.3746
+  },
+  {
+   "id": "3MwZZ6XU3n4mFJBlyhTqrT",
+   "title": "Peggy Guggenheim: Art Addict",
+   "type": "movie",
+   "place": "Peggy Guggenheim Collection, Palazzo Venier dei Leoni",
+   "url": "https://justwatch.com/us/search?q=Peggy%20Guggenheim%3A%20Art%20Addict",
+   "creator": "Lisa Immordino Vreeland",
+   "channel": null,
+   "lat": 45.4306,
+   "lon": 12.3314
+  },
+  {
+   "id": "75dWktnI8MzRRUpX5gQhQt",
+   "title": "Summertime",
+   "type": "movie",
+   "place": "Campo San Barnaba",
+   "url": "https://justwatch.com/us/search?q=Summertime",
+   "creator": "David Lean",
+   "channel": null,
+   "lat": 45.4331,
+   "lon": 12.3254
+  },
+  {
+   "id": "3Q0uxkWec1JIcVcKU91td3",
+   "title": "Don’t Look Now",
+   "type": "movie",
+   "place": "San Nicolò dei Mendicoli church",
+   "url": "https://justwatch.com/us/search?q=Don%27t%20Look%20Now",
+   "creator": "Nicolas Roeg",
+   "channel": null,
+   "lat": 45.4325,
+   "lon": 12.3159
+  },
+  {
+   "id": "6VtLQyL08BBzfmDaeJe0Bk",
+   "title": "Bread and Tulips",
+   "type": "movie",
+   "place": "Campiello dei Miracoli, by Santa Maria dei Miracoli church",
+   "url": "https://justwatch.com/us/search?q=Bread%20and%20Tulips",
+   "creator": "Silvio Soldini",
+   "channel": null,
+   "lat": 45.4394,
+   "lon": 12.3392
+  },
+  {
+   "id": "695puzXf5msxDozTficm0S",
+   "title": "Molecole",
+   "type": "movie",
+   "place": "Giudecca Canal",
+   "url": "https://justwatch.com/us/search?q=Molecole",
+   "creator": "Andrea Segre",
+   "channel": null,
+   "lat": 45.4272,
+   "lon": 12.3298
+  },
+  {
    "id": "mrv7O08C4wOCrehZBMfGh",
    "title": "Canaletto’s Ascension Day at the Molo, with Stephen Fry",
    "type": "video",
    "place": "Doge’s Palace, Piazzetta San Marco",
+   "url": "https://www.youtube.com/watch?v=RKpmguyms0M",
+   "creator": null,
+   "channel": "Christie’s",
    "lat": 45.4335,
    "lon": 12.3401
   },
@@ -14,6 +512,9 @@
    "title": "The Tempest by Giorgione",
    "type": "video",
    "place": "Gallerie dell’Accademia art museum",
+   "url": "https://youtu.be/LFA_qmGuY2A",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 45.4313,
    "lon": 12.3279
   },
@@ -22,38 +523,20 @@
    "title": "The Feast in the House of Levi by Paolo Veronese",
    "type": "video",
    "place": "Gallerie dell’Accademia art museum",
+   "url": "https://youtu.be/9g-r2007Y8c",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 45.431,
    "lon": 12.3283
-  },
-  {
-   "id": "3iIUQrKJosnebYjLe16E3k",
-   "title": "The Pesaro Madonna by Titian",
-   "type": "video",
-   "place": "Frari church (Santa Maria Gloriosa dei Frari)",
-   "lat": 45.4368,
-   "lon": 12.3266
-  },
-  {
-   "id": "MzBTIymDEdU5y1EmP80TP",
-   "title": "The Tetrarchs, four Roman co-emperors in porphyry",
-   "type": "video",
-   "place": "Tetrarchs sculpture, St Mark’s Basilica",
-   "lat": 45.4342,
-   "lon": 12.34
-  },
-  {
-   "id": "3l8QyGm8qnLXuTGhsEeTgx",
-   "title": "L’incoronazione di Poppea: Pur ti miro",
-   "type": "music",
-   "place": "Frari basilica, Monteverdi’s tomb",
-   "lat": 45.4367,
-   "lon": 12.3261
   },
   {
    "id": "2S7R7IPY4BBjctYrVr2pB5",
    "title": "Oboe Concerto in D minor, Op. 9 No. 2: II. Adagio",
    "type": "music",
    "place": "San Barnaba church",
+   "url": "https://open.spotify.com/search/Tomaso%20Albinoni%20Oboe%20Concerto%20in%20D%20minor%2C%20Op.%209%20No.%202%3A%20II.%20Adagio",
+   "creator": "Tomaso Albinoni",
+   "channel": null,
    "lat": 45.4331,
    "lon": 12.3254
   },
@@ -62,6 +545,9 @@
    "title": "La biondina in gondoleta",
    "type": "music",
    "place": "Palazzo Querini Benzon on the Grand Canal",
+   "url": "https://open.spotify.com/search/Antonio%20Lamberti%20La%20biondina%20in%20gondoleta",
+   "creator": "Antonio Lamberti (traditional)",
+   "channel": null,
    "lat": 45.4357,
    "lon": 12.3315
   },
@@ -70,6 +556,9 @@
    "title": "La traviata: Libiamo ne’ lieti calici",
    "type": "music",
    "place": "Teatro La Fenice opera house",
+   "url": "https://open.spotify.com/search/Giuseppe%20Verdi%20La%20traviata%3A%20Libiamo%20ne%27%20lieti%20calici",
+   "creator": "Giuseppe Verdi",
+   "channel": null,
    "lat": 45.4337,
    "lon": 12.3339
   },
@@ -78,6 +567,9 @@
    "title": "The Four Seasons, Spring, RV 269: I. Allegro",
    "type": "music",
    "place": "Pietà church, Riva degli Schiavoni",
+   "url": "https://open.spotify.com/search/Antonio%20Vivaldi%20The%20Four%20Seasons%2C%20Spring%2C%20RV%20269%3A%20I.%20Allegro",
+   "creator": "Antonio Vivaldi",
+   "channel": null,
    "lat": 45.4342,
    "lon": 12.345
   },
@@ -86,6 +578,9 @@
    "title": "Tristan und Isolde, Act 2: O sink hernieder, Nacht der Liebe",
    "type": "music",
    "place": "Palazzo Giustinian on the Grand Canal, Dorsoduro",
+   "url": "https://open.spotify.com/search/Richard%20Wagner%20Tristan%20und%20Isolde%2C%20Act%202%3A%20O%20sink%20hernieder%2C%20Nacht%20der%20Liebe",
+   "creator": "Richard Wagner",
+   "channel": null,
    "lat": 45.4345,
    "lon": 12.3266
   },
@@ -94,6 +589,9 @@
    "title": "Les contes d’Hoffmann: Barcarolle (Belle nuit, ô nuit d’amour)",
    "type": "music",
    "place": "Grand Canal at the Accademia Bridge",
+   "url": "https://open.spotify.com/search/Jacques%20Offenbach%20Les%20contes%20d%27Hoffmann%3A%20Barcarolle%20%28Belle%20nuit%2C%20%C3%B4%20nuit%20d%27amour%29",
+   "creator": "Jacques Offenbach",
+   "channel": null,
    "lat": 45.4316,
    "lon": 12.329
   },
@@ -102,6 +600,9 @@
    "title": "Venezia",
    "type": "music",
    "place": "Ospedale Civile city hospital, Scuola Grande di San Marco",
+   "url": "https://open.spotify.com/search/Francesco%20Guccini%20Venezia",
+   "creator": "Francesco Guccini",
+   "channel": null,
    "lat": 45.4397,
    "lon": 12.3414
   },
@@ -110,22 +611,20 @@
    "title": "La lugubre gondola",
    "type": "music",
    "place": "Ca’ Vendramin Calergi palazzo, now the Venice Casino",
+   "url": "https://open.spotify.com/search/Franz%20Liszt%20La%20lugubre%20gondola",
+   "creator": "Franz Liszt",
+   "channel": null,
    "lat": 45.4427,
    "lon": 12.3301
-  },
-  {
-   "id": "7m9lrUpbLprgHeF3K19X2z",
-   "title": "Pin Floi",
-   "type": "music",
-   "place": "Bacino di San Marco, site of the 1989 Pink Floyd floating stage",
-   "lat": 45.4322,
-   "lon": 12.3398
   },
   {
    "id": "4CDGMjP6hlWCUZhpwMCc4Z",
    "title": "Que c’est triste Venise",
    "type": "music",
    "place": "Bridge of Sighs",
+   "url": "https://open.spotify.com/search/Charles%20Aznavour%20Que%20c%27est%20triste%20Venise",
+   "creator": "Charles Aznavour",
+   "channel": null,
    "lat": 45.4341,
    "lon": 12.3409
   },
@@ -134,6 +633,9 @@
    "title": "…sofferte onde serene…",
    "type": "music",
    "place": "Giudecca island",
+   "url": "https://open.spotify.com/search/Luigi%20Nono%20sofferte%20onde%20serene",
+   "creator": "Luigi Nono",
+   "channel": null,
    "lat": 45.4251,
    "lon": 12.3265
   },
@@ -142,6 +644,9 @@
    "title": "Nelle paludi di Venezia Francesco si fermò per pregare e tutto tacque",
    "type": "music",
    "place": "San Francesco del Deserto island",
+   "url": "https://open.spotify.com/search/Angelo%20Branduardi%20Nelle%20paludi%20di%20Venezia%20Francesco%20si%20ferm%C3%B2%20per%20pregare%20e%20tutto%20tacque",
+   "creator": "Angelo Branduardi",
+   "channel": null,
    "lat": 45.4731,
    "lon": 12.4169
   },
@@ -150,86 +655,42 @@
    "title": "La bellezza",
    "type": "music",
    "place": "Grand Hotel des Bains, Lido di Venezia",
+   "url": "https://open.spotify.com/search/Roberto%20Vecchioni%20La%20bellezza",
+   "creator": "Roberto Vecchioni",
+   "channel": null,
    "lat": 45.4135,
    "lon": 12.375
-  },
-  {
-   "id": "7ycaENsPFGgzwQr42Nynoh",
-   "title": "The Heart of Venice",
-   "type": "audiotour",
-   "place": "St Mark’s Square",
-   "lat": 45.4344,
-   "lon": 12.3392
   },
   {
    "id": "32i6DXX8dIfwB7GKBFCpPF",
    "title": "Finding the Forgotten Venetians: A Walk Around the Castello District",
    "type": "audiotour",
    "place": "Giardini della Biennale gardens",
+   "url": "https://voicemap.me/tour/venice/finding-the-forgotten-venetians-a-walk-around-the-castello-district",
+   "creator": "Erla Zwingle",
+   "channel": null,
    "lat": 45.4286,
    "lon": 12.3566
-  },
-  {
-   "id": "4hsb28LzchMs2AwObbssLH",
-   "title": "In and Around St. Mark's Square: A Walk with Context",
-   "type": "audiotour",
-   "place": "St Mark’s Square",
-   "lat": 45.4343,
-   "lon": 12.3388
-  },
-  {
-   "id": "3uQCjY8KUaj15mVqkQ39YT",
-   "title": "Politics and Power in Serenissima: From the Doge's Palace to Venice's Arsenale",
-   "type": "audiotour",
-   "place": "Doge’s Palace, Piazzetta San Marco",
-   "lat": 45.4333,
-   "lon": 12.34
-  },
-  {
-   "id": "1m8O09o5k32p2a2SpfP2sH",
-   "title": "Castello's Hidden Corners: A Walk around a Vibrant Venice Neighborhood",
-   "type": "audiotour",
-   "place": "Naval History Museum (Museo Storico Navale)",
-   "lat": 45.4324,
-   "lon": 12.3498
-  },
-  {
-   "id": "6QzWCzHVdd743kZJqcIdpp",
-   "title": "Bacchus, Bridges and Bacari: A Cultured Pub Crawl of Venice",
-   "type": "audiotour",
-   "place": "Campo San Geremia",
-   "lat": 45.4429,
-   "lon": 12.325
-  },
-  {
-   "id": "1F3u1VVIvBbThbiILyI0ed",
-   "title": "Grand Canal Revelations: Venice's Right Bank Vaporetto Audio Tour",
-   "type": "audiotour",
-   "place": "Constitution Bridge (Ponte della Costituzione)",
-   "lat": 45.439,
-   "lon": 12.3196
   },
   {
    "id": "1DSANv4rp9HMS52cEtAckN",
    "title": "Vibrant Venice: A Walk through Rialto and San Polo with Context",
    "type": "audiotour",
    "place": "Campo San Bartolomeo",
+   "url": "https://voicemap.me/tour/venice/vibrant-venice-a-walk-through-rialto-and-san-polo-with-context",
+   "creator": "Context Travel",
+   "channel": null,
    "lat": 45.4377,
    "lon": 12.3369
-  },
-  {
-   "id": "7kreJkvCIeqEaMZ5HP942d",
-   "title": "Vivaldi, Tintoretto and Marco Polo: A Venice Walking Tour",
-   "type": "audiotour",
-   "place": "Ponte delle Guglie bridge",
-   "lat": 45.4437,
-   "lon": 12.3256
   },
   {
    "id": "3UhYjcIXeRIZQmT3eFzgw3",
    "title": "Banking, the Telescope, and Quarantine: A Venice Walking Tour",
    "type": "audiotour",
    "place": "Rialto Bridge",
+   "url": "https://voicemap.me/tour/venice/banking-the-telescope-and-quarantine-a-venice-walking-tour",
+   "creator": "Marina Proskurnina",
+   "channel": null,
    "lat": 45.4381,
    "lon": 12.3361
   },
@@ -238,30 +699,20 @@
    "title": "The Last Geniuses of Venice: A Casanova, Vivaldi and Tiepolo Walk",
    "type": "audiotour",
    "place": "Accademia Bridge (Ponte dell’Accademia)",
+   "url": "https://voicemap.me/tour/venice/the-last-geniuses-of-venice-a-casanova-vivaldi-and-tiepolo-walk",
+   "creator": "Marina Proskurnina",
+   "channel": null,
    "lat": 45.4317,
    "lon": 12.329
-  },
-  {
-   "id": "2gBKEOYgCX8uGFFIcSac0J",
-   "title": "Zombie Tide: A Fictional Venice Walking Tour",
-   "type": "audiotour",
-   "place": "Rialto Bridge",
-   "lat": 45.438,
-   "lon": 12.3359
-  },
-  {
-   "id": "1iLlL5S287Vhkz9ZWGvnMG",
-   "title": "Tasty Traditions: A Venice Food Tour with Context",
-   "type": "audiotour",
-   "place": "Campo Santi Giovanni e Paolo",
-   "lat": 45.4392,
-   "lon": 12.3413
   },
   {
    "id": "5ZGclGjPzvRh5PbXiTbacb",
    "title": "The Travels",
    "type": "book",
    "place": "Corte del Milion, Marco Polo’s family home",
+   "url": "https://goodreads.com/search?q=Marco+Polo+The+Travels",
+   "creator": "Marco Polo",
+   "channel": null,
    "lat": 45.4389,
    "lon": 12.3376
   },
@@ -270,22 +721,20 @@
    "title": "The Merchant of Venice",
    "type": "book",
    "place": "Campo del Ghetto Nuovo, Jewish Ghetto",
+   "url": "https://goodreads.com/search?q=William+Shakespeare+The+Merchant+of+Venice",
+   "creator": "William Shakespeare",
+   "channel": null,
    "lat": 45.4446,
    "lon": 12.3263
-  },
-  {
-   "id": "5HNlPxYwjmOfJPlBLyRODB",
-   "title": "The Story of My Life",
-   "type": "book",
-   "place": "Doge’s Palace and the Piombi prison cells",
-   "lat": 45.4337,
-   "lon": 12.3404
   },
   {
    "id": "1jWCtDm3xQfoIegCvvlq2i",
    "title": "Death in Venice",
    "type": "book",
    "place": "Grand Hotel des Bains, Lido di Venezia",
+   "url": "https://goodreads.com/search?q=Thomas+Mann+Death+in+Venice",
+   "creator": "Thomas Mann",
+   "channel": null,
    "lat": 45.4136,
    "lon": 12.3748
   },
@@ -294,70 +743,53 @@
    "title": "If Venice Dies",
    "type": "book",
    "place": "Stazione Marittima cruise terminal",
+   "url": "https://goodreads.com/search?q=Salvatore+Settis+If+Venice+Dies",
+   "creator": "Salvatore Settis",
+   "channel": null,
    "lat": 45.436,
    "lon": 12.3069
-  },
-  {
-   "id": "3vUM3Gu5MiilSbZr50r3rz",
-   "title": "Polpo: A Venetian Cookbook (Of Sorts)",
-   "type": "book",
-   "place": "Rialto fish market (Pescheria)",
-   "lat": 45.4394,
-   "lon": 12.3343
   },
   {
    "id": "52mSQNpwqczUI79k6i7zHY",
    "title": "Venice Is a Fish",
    "type": "book",
    "place": "Campo Santa Margherita, Dorsoduro",
+   "url": "https://goodreads.com/search?q=Tiziano+Scarpa+Venice+Is+a+Fish",
+   "creator": "Tiziano Scarpa",
+   "channel": null,
    "lat": 45.4339,
    "lon": 12.324
-  },
-  {
-   "id": "5i1FVG0I7QWkLjCUpRrgT0",
-   "title": "The City of Falling Angels",
-   "type": "book",
-   "place": "Teatro La Fenice opera house",
-   "lat": 45.4336,
-   "lon": 12.3337
   },
   {
    "id": "6mLTSvPmiDiXOUT7pIJ9pa",
    "title": "Watermark",
    "type": "book",
    "place": "Brodsky’s grave, San Michele cemetery island",
+   "url": "https://goodreads.com/search?q=Joseph+Brodsky+Watermark",
+   "creator": "Joseph Brodsky",
+   "channel": null,
    "lat": 45.4472,
    "lon": 12.3475
-  },
-  {
-   "id": "3FMJxK8dChU12YOZ6wUsd6",
-   "title": "The Aspern Papers",
-   "type": "book",
-   "place": "Palazzo Soranzo Cappello on Rio Marin",
-   "lat": 45.4398,
-   "lon": 12.3243
   },
   {
    "id": "1vOZeC1cmyuXzB5XdC09ib",
    "title": "City of Fortune: How Venice Won and Lost a Naval Empire",
    "type": "book",
    "place": "Arsenale shipyard gate (Porta Magna)",
+   "url": "https://goodreads.com/search?q=Roger+Crowley+City+of+Fortune",
+   "creator": "Roger Crowley",
+   "channel": null,
    "lat": 45.4348,
    "lon": 12.35
-  },
-  {
-   "id": "2uE3XeVutJjiV5fTU23val",
-   "title": "Venice",
-   "type": "book",
-   "place": "Torcello Cathedral, Santa Maria Assunta",
-   "lat": 45.498,
-   "lon": 12.4182
   },
   {
    "id": "iXRsS5VWGDGwZz13mRl3o",
    "title": "Death at La Fenice",
    "type": "book",
    "place": "Venice police headquarters (Questura), Fondamenta San Lorenzo",
+   "url": "https://goodreads.com/search?q=Donna+Leon+Death+at+La+Fenice",
+   "creator": "Donna Leon",
+   "channel": null,
    "lat": 45.4369,
    "lon": 12.3448
   },
@@ -366,126 +798,20 @@
    "title": "The Stones of Venice",
    "type": "book",
    "place": "Ca’ d’Oro palazzo on the Grand Canal",
+   "url": "https://goodreads.com/search?q=John+Ruskin+The+Stones+of+Venice",
+   "creator": "John Ruskin",
+   "channel": null,
    "lat": 45.4407,
    "lon": 12.3341
-  },
-  {
-   "id": "7awopUQD2VSuTR8LQHN7rZ",
-   "title": "Sonata pian’ e forte",
-   "type": "music",
-   "place": "St Mark’s Basilica",
-   "lat": 45.4346,
-   "lon": 12.3396
-  },
-  {
-   "id": "695puzXf5msxDozTficm0S",
-   "title": "Molecole",
-   "type": "movie",
-   "place": "Giudecca Canal",
-   "lat": 45.4272,
-   "lon": 12.3298
-  },
-  {
-   "id": "1kvdQqWZ51GQCmKdtvvjtG",
-   "title": "The Venice Syndrome",
-   "type": "movie",
-   "place": "St Mark’s Square",
-   "lat": 45.4341,
-   "lon": 12.3388
-  },
-  {
-   "id": "6VtLQyL08BBzfmDaeJe0Bk",
-   "title": "Bread and Tulips",
-   "type": "movie",
-   "place": "Campiello dei Miracoli, by Santa Maria dei Miracoli church",
-   "lat": 45.4394,
-   "lon": 12.3392
-  },
-  {
-   "id": "3Q0uxkWec1JIcVcKU91td3",
-   "title": "Don’t Look Now",
-   "type": "movie",
-   "place": "San Nicolò dei Mendicoli church",
-   "lat": 45.4325,
-   "lon": 12.3159
-  },
-  {
-   "id": "75dWktnI8MzRRUpX5gQhQt",
-   "title": "Summertime",
-   "type": "movie",
-   "place": "Campo San Barnaba",
-   "lat": 45.4331,
-   "lon": 12.3254
-  },
-  {
-   "id": "3MwZZ6XU3n4mFJBlyhTqrT",
-   "title": "Peggy Guggenheim: Art Addict",
-   "type": "movie",
-   "place": "Peggy Guggenheim Collection, Palazzo Venier dei Leoni",
-   "lat": 45.4306,
-   "lon": 12.3314
-  },
-  {
-   "id": "vH30Sf8aOds9rldghBQhT",
-   "title": "Death in Venice",
-   "type": "movie",
-   "place": "Grand Hotel des Bains, Lido",
-   "lat": 45.4133,
-   "lon": 12.3746
-  },
-  {
-   "id": "2VydsV29cwLMJFMsPUqjWr",
-   "title": "The Wings of the Dove",
-   "type": "movie",
-   "place": "Palazzo Barbaro on the Grand Canal",
-   "lat": 45.4317,
-   "lon": 12.33
-  },
-  {
-   "id": "6JcJHjEQhwKIB6ovM3xILJ",
-   "title": "Casanova",
-   "type": "movie",
-   "place": "Doge’s Palace, Piombi prison cells",
-   "lat": 45.4337,
-   "lon": 12.3405
-  },
-  {
-   "id": "8Aa3t6he5MoIdJl63Khes",
-   "title": "The Merchant of Venice",
-   "type": "movie",
-   "place": "Jewish Ghetto, Campo del Ghetto Nuovo",
-   "lat": 45.4453,
-   "lon": 12.3264
-  },
-  {
-   "id": "2F4Clg5adc0lup4Evv1aIM",
-   "title": "Dangerous Beauty",
-   "type": "movie",
-   "place": "Santa Maria Formosa church",
-   "lat": 45.4369,
-   "lon": 12.3411
-  },
-  {
-   "id": "7a8HCzqsE9yfAjYlTHpg47",
-   "title": "Tintoretto: A Rebel in Venice",
-   "type": "movie",
-   "place": "Scuola Grande di San Rocco",
-   "lat": 45.4367,
-   "lon": 12.3254
-  },
-  {
-   "id": "7Bd4HfIvpNOqY1RWUUV6zn",
-   "title": "A floating city filmed as one living heritage site",
-   "type": "video",
-   "place": "St Mark’s Basin (Bacino di San Marco)",
-   "lat": 45.4318,
-   "lon": 12.342
   },
   {
    "id": "6ap6tNz4TDGyyISf5cDGGz",
    "title": "Roman stones hidden in a city that claims it was never Roman",
    "type": "video",
    "place": "Torcello island",
+   "url": "https://youtu.be/lOLOPp2q-Z4",
+   "creator": null,
+   "channel": "toldinstone",
    "lat": 45.4977,
    "lon": 12.418
   },
@@ -494,6 +820,9 @@
    "title": "The needle lace of Burano, filmed in 1935",
    "type": "video",
    "place": "Burano island lace school",
+   "url": "https://youtu.be/skiYxPXQbPE",
+   "creator": null,
+   "channel": "British Pathé",
    "lat": 45.4857,
    "lon": 12.4176
   },
@@ -502,46 +831,20 @@
    "title": "A painter covers a whole confraternity in his canvases",
    "type": "video",
    "place": "Scuola Grande di San Rocco",
+   "url": "https://youtu.be/DRu_pglLDLE",
+   "creator": null,
+   "channel": "EWTN News",
    "lat": 45.4365,
    "lon": 12.3254
-  },
-  {
-   "id": "4vw0ZpbpIfvrFy0kr2TUbS",
-   "title": "Tintoretto’s miracles of St Mark, painted for a brotherhood’s hall",
-   "type": "video",
-   "place": "Scuola Grande di San Marco",
-   "lat": 45.4398,
-   "lon": 12.3418
-  },
-  {
-   "id": "4OabILmFd0EY4M7K7I2ZGD",
-   "title": "Day-trippers outnumber the people who live here",
-   "type": "video",
-   "place": "Rialto Bridge",
-   "lat": 45.438,
-   "lon": 12.3359
-  },
-  {
-   "id": "2dzuSSqp6KPOfIMaBY3E6f",
-   "title": "The world’s first ghetto, five storeys high",
-   "type": "video",
-   "place": "Campo del Ghetto Nuovo",
-   "lat": 45.4453,
-   "lon": 12.3263
-  },
-  {
-   "id": "53dotLZhzBAyP89ek7H8HF",
-   "title": "Why the water keeps rising through St Mark’s Square",
-   "type": "video",
-   "place": "St Mark’s Square",
-   "lat": 45.4339,
-   "lon": 12.3383
   },
   {
    "id": "5RXGpo9M2PBrT5MJon46Qn",
    "title": "Steel gates rise from the seabed to hold back the Adriatic",
    "type": "video",
    "place": "MOSE flood barrier, Lido inlet",
+   "url": "https://youtu.be/MFrZLbjlrRY",
+   "creator": null,
+   "channel": "NOVA PBS Official",
    "lat": 45.4241,
    "lon": 12.4266
   },
@@ -550,6 +853,9 @@
    "title": "Out across the lagoon to the islands of glass and lace",
    "type": "video",
    "place": "Murano island",
+   "url": "https://youtu.be/VcRbZ7ziQtc",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 45.4586,
    "lon": 12.3528
   },
@@ -558,6 +864,9 @@
    "title": "Small plates and small glasses in the bars around the Rialto",
    "type": "video",
    "place": "Bacari wine bars near the Rialto market",
+   "url": "https://youtu.be/_SXyCrO-kPY",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 45.4389,
    "lon": 12.3343
   },
@@ -566,46 +875,31 @@
    "title": "A city survives the plague and thanks it with a church",
    "type": "video",
    "place": "Santa Maria della Salute church",
+   "url": "https://youtu.be/AMZTLqa_4fE",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 45.4307,
    "lon": 12.3346
-  },
-  {
-   "id": "PR1gyPlFotUDgwgWd8uXJ",
-   "title": "A cathedral glittering with loot from Constantinople",
-   "type": "video",
-   "place": "St Mark’s Basilica",
-   "lat": 45.4346,
-   "lon": 12.3393
-  },
-  {
-   "id": "4wJNAoQEiGnIKo6mq9Pead",
-   "title": "Councils, courts and cells under one gilded roof",
-   "type": "video",
-   "place": "Doge’s Palace",
-   "lat": 45.4337,
-   "lon": 12.3404
   },
   {
    "id": "VjSp6Mvm6NujdO59y3pvG",
    "title": "A spritz and a meatball at the bar are a Venetian ritual",
    "type": "podcast",
    "place": "Cantina Do Mori bàcaro, Rialto",
+   "url": "https://open.spotify.com/search/Venice Talks Drinking Culture of Venice",
+   "creator": null,
+   "channel": "Venice Talks",
    "lat": 45.4389,
    "lon": 12.3346
-  },
-  {
-   "id": "1SBjq3eQ23KXOEx1gHjnAu",
-   "title": "Brothers in a Murano workshop carve glass layer by layer",
-   "type": "podcast",
-   "place": "Fondamenta dei Vetrai, Murano",
-   "lat": 45.4525,
-   "lon": 12.3507
   },
   {
    "id": "1799t4JjWlOGazlDIcwpug",
    "title": "Venice’s first female gondolier takes on a closed guild",
    "type": "podcast",
    "place": "Squero di San Trovaso, gondola boatyard",
+   "url": "https://open.spotify.com/search/Radiolab The Gondolier",
+   "creator": null,
+   "channel": "Radiolab",
    "lat": 45.4308,
    "lon": 12.3262
   },
@@ -614,6 +908,9 @@
    "title": "A conductor is found poisoned between acts at the opera house",
    "type": "podcast",
    "place": "Teatro La Fenice opera house",
+   "url": "https://open.spotify.com/search/Opening Lines Death at La Fenice",
+   "creator": null,
+   "channel": "Opening Lines",
    "lat": 45.4336,
    "lon": 12.3339
   },
@@ -622,6 +919,9 @@
    "title": "A walk through Venice from island huts to mass tourism",
    "type": "podcast",
    "place": "Rialto Bridge",
+   "url": "https://open.spotify.com/search/History's Greatest Cities Venice",
+   "creator": null,
+   "channel": "History’s Greatest Cities",
    "lat": 45.438,
    "lon": 12.3359
   },
@@ -630,38 +930,31 @@
    "title": "A writer on holiday falls fatally in love on the Lido",
    "type": "podcast",
    "place": "Grand Hotel des Bains, Lido di Venezia",
+   "url": "https://open.spotify.com/search/In Our Time Death in Venice",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 45.4134,
    "lon": 12.3748
-  },
-  {
-   "id": "7kgGIrllzgToloxqPsB3Vd",
-   "title": "Napoleon ends a republic that lasted eleven centuries",
-   "type": "podcast",
-   "place": "Museo Storico Navale, naval history museum",
-   "lat": 45.4334,
-   "lon": 12.3488
   },
   {
    "id": "6m9K5MAzoXhztaVPSiJBFC",
    "title": "A mask maker explains what Venetians hid behind papier-mâché",
    "type": "podcast",
    "place": "Tragicomica mask workshop, Calle dei Nomboli",
+   "url": "https://open.spotify.com/search/Venice Talks Unmasking Venice Tragicomica",
+   "creator": null,
+   "channel": "Venice Talks",
    "lat": 45.4369,
    "lon": 12.3289
-  },
-  {
-   "id": "2U4okJf7T09xwVSJYC6876",
-   "title": "Carnival once meant bull-baiting and human towers",
-   "type": "podcast",
-   "place": "St Mark’s Square",
-   "lat": 45.4341,
-   "lon": 12.3388
   },
   {
    "id": "1xKpaZj6c7zpqPYeL2oaJF",
    "title": "A charming adventurer leaves a trail of scandal across Europe",
    "type": "podcast",
    "place": "Calle Malipiero, Casanova’s birthplace",
+   "url": "https://open.spotify.com/search/Dan Snow's History Hit The Real Casanova",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
    "lat": 45.4339,
    "lon": 12.3293
   },
@@ -670,70 +963,53 @@
    "title": "A pupil of Vivaldi’s orphanage orchestra becomes his rival",
    "type": "podcast",
    "place": "La Pietà church, Riva degli Schiavoni",
+   "url": "https://open.spotify.com/search/Not Just the Tudors Vivaldi's Greatest Protege",
+   "creator": null,
+   "channel": "Not Just the Tudors",
    "lat": 45.434,
    "lon": 12.3443
-  },
-  {
-   "id": "7xHPTWYBzdExZ05LajIApV",
-   "title": "A Christian fleet built in Venice sinks the Ottoman navy at Lepanto",
-   "type": "podcast",
-   "place": "Porta Magna, Venetian Arsenal",
-   "lat": 45.4349,
-   "lon": 12.3501
   },
   {
    "id": "2iJCdtKbc6H62ap9M2qx9b",
    "title": "A printer with a mid-life crisis invents the pocket book",
    "type": "podcast",
    "place": "Aldine Press site, Campo Sant’Agostin",
+   "url": "https://open.spotify.com/search/LRB Podcast Manutius",
+   "creator": null,
+   "channel": "The LRB Podcast",
    "lat": 45.4389,
    "lon": 12.3281
-  },
-  {
-   "id": "53GydZtuzA0JsWDu7zp133",
-   "title": "Venice’s Jews are locked into the world’s first ghetto",
-   "type": "podcast",
-   "place": "Campo del Ghetto Novo",
-   "lat": 45.4447,
-   "lon": 12.3262
   },
   {
    "id": "rMNk6y4UYWpWeU5RJc3dT",
    "title": "A doge is beheaded and painted out of the palace’s portrait gallery",
    "type": "podcast",
    "place": "Hall of the Great Council, Doge’s Palace",
+   "url": "https://open.spotify.com/search/Noble Blood Venetian Doge Condemned in Memory",
+   "creator": null,
+   "channel": "Noble Blood",
    "lat": 45.4335,
    "lon": 12.3403
-  },
-  {
-   "id": "2dFAFhyYnNEYzrmNQjpvwp",
-   "title": "A Venetian merchant’s son spends decades at the court of Kublai Khan",
-   "type": "podcast",
-   "place": "Corte del Milion, Marco Polo’s family home",
-   "lat": 45.439,
-   "lon": 12.3382
   },
   {
    "id": "5oGGJHKplprrC3wb0FnP8V",
    "title": "A wall-less city runs an empire from the Adriatic to the Black Sea",
    "type": "podcast",
    "place": "Fondaco dei Turchi, Grand Canal",
+   "url": "https://open.spotify.com/search/In Our Time The Venetian Empire",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 45.4414,
    "lon": 12.3289
-  },
-  {
-   "id": "51EpwswNMlqRlTAIlCNUpN",
-   "title": "Crusaders sack Constantinople and ship the loot home to Venice",
-   "type": "podcast",
-   "place": "Horses of St Mark, St Mark’s Basilica",
-   "lat": 45.4344,
-   "lon": 12.3393
   },
   {
    "id": "9LXs2WiytvwKQgsB2CLGL",
    "title": "Refugees on a muddy lagoon build a city out of nothing",
    "type": "podcast",
    "place": "Santa Maria Assunta cathedral, Torcello",
+   "url": "https://open.spotify.com/search/Tides of History Origins and Rise of Venice",
+   "creator": null,
+   "channel": "Tides of History",
    "lat": 45.4975,
    "lon": 12.4183
   }

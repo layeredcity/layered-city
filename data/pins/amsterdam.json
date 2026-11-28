@@ -2,722 +2,79 @@
  "city": "Amsterdam",
  "pins": [
   {
-   "id": "1skQb04hrfEbnNNPJbEqzn",
-   "title": "How Rembrandt made his etchings",
-   "type": "video",
-   "place": "Rembrandt House Museum",
-   "lat": 52.3693,
-   "lon": 4.9012
-  },
-  {
-   "id": "4T6kmpNtZQkInf7xsQCLNZ",
-   "title": "The world’s first same-sex weddings, Amsterdam 2001",
-   "type": "podcast",
-   "place": "Amsterdam City Hall (Stopera), Amstel 1",
-   "lat": 52.3675,
-   "lon": 4.9009
-  },
-  {
-   "id": "IuaByAL41RXyXaFYdMYrS",
-   "title": "Amsterdam’s canals and the Dutch Golden Age",
-   "type": "podcast",
-   "place": "Herengracht, Golden Bend",
-   "lat": 52.3648,
-   "lon": 4.8925
-  },
-  {
-   "id": "a2oPqVGJXMeVsk4SV8J3J",
-   "title": "Medieval Amsterdam: the 1345 miracle and the Reformation",
-   "type": "podcast",
-   "place": "Oude Kerk, Oudekerksplein",
-   "lat": 52.3742,
-   "lon": 4.898
-  },
-  {
-   "id": "4USv2LlmHzRXh1yBStiAWU",
-   "title": "Anne Frank’s diary reaches the world, 1947",
-   "type": "podcast",
-   "place": "Anne Frank House",
-   "lat": 52.3752,
-   "lon": 4.884
-  },
-  {
-   "id": "1o2RdmtDvgQtzZanOXSpSY",
-   "title": "The Jewish Bride by Rembrandt",
-   "type": "podcast",
-   "place": "Rijksmuseum",
-   "lat": 52.36,
-   "lon": 4.8852
-  },
-  {
-   "id": "4kBt84cVojci4RX9LErVe9",
-   "title": "The Milkmaid by Johannes Vermeer",
-   "type": "video",
-   "place": "Rijksmuseum",
-   "lat": 52.36,
-   "lon": 4.8852
-  },
-  {
-   "id": "1uopa4uuze7NbGXkn9hAoI",
-   "title": "The Night Watch by Rembrandt van Rijn",
-   "type": "podcast",
-   "place": "Rijksmuseum",
-   "lat": 52.36,
-   "lon": 4.8852
-  },
-  {
-   "id": "4tVVnyqSNeBARZohOGuGvW",
-   "title": "The Night Watch by Rembrandt",
-   "type": "podcast",
-   "place": "Rijksmuseum",
-   "lat": 52.36,
-   "lon": 4.8852
-  },
-  {
-   "id": "89bXBlfNOLqdaEzr595qW",
-   "title": "Tree Roots by Vincent van Gogh",
-   "type": "video",
-   "place": "Van Gogh Museum",
-   "lat": 52.3584,
-   "lon": 4.8811
-  },
-  {
-   "id": "1rl6lnp1HJnIyhKwZI28Y3",
-   "title": "The Potato Eaters by Vincent van Gogh",
-   "type": "video",
-   "place": "Van Gogh Museum",
-   "lat": 52.3584,
-   "lon": 4.8811
-  },
-  {
-   "id": "3XsroNWgIMRYtKoMdwPStR",
-   "title": "Still Life with a Silver Ewer by Willem Kalf",
-   "type": "video",
-   "place": "Rijksmuseum",
-   "lat": 52.36,
-   "lon": 4.8852
-  },
-  {
-   "id": "66kEXXXtJTfmsoxggRmXkT",
-   "title": "The Potato Eaters by Vincent van Gogh",
-   "type": "video",
-   "place": "Van Gogh Museum",
-   "lat": 52.35831,
-   "lon": 4.88148
-  },
-  {
-   "id": "Btn7N1fvnk9k7og6Q5yBZ",
-   "title": "Self-Portrait (Les Misérables) by Paul Gauguin",
-   "type": "video",
-   "place": "Van Gogh Museum",
-   "lat": 52.3584,
-   "lon": 4.8811
-  },
-  {
-   "id": "6xImZ9IaXYubdlIMSak2O5",
-   "title": "Interior of Saint Bavo, Haarlem by Pieter Saenredam",
-   "type": "video",
-   "place": "St Bavo’s Church (Grote Kerk), Haarlem",
-   "lat": 52.38107,
-   "lon": 4.63733
-  },
-  {
-   "id": "4D7TiwKkZkQVhZjEVXe9gL",
-   "title": "A Tasty Stroll Around The Cool Spots of the Pijp",
-   "type": "audiotour",
-   "place": "",
-   "lat": 52.3527,
-   "lon": 4.8915
-  },
-  {
-   "id": "7MnuEKW5Nema2QkxSXRBBe",
-   "title": "The Miniaturist",
-   "type": "book",
-   "place": "Rijksmuseum",
-   "lat": 52.36,
-   "lon": 4.8852
-  },
-  {
-   "id": "7wGMtNtb0AC411ampghoiZ",
-   "title": "Van Gogh: The Life",
-   "type": "book",
-   "place": "Van Gogh Museum",
-   "lat": 52.3581,
-   "lon": 4.8812
-  },
-  {
-   "id": "4YtzFd6C8O3PTEBJH9bHGj",
-   "title": "Family-Friendly Amsterdam: A Walking Tour for Adults and Kids",
-   "type": "audiotour",
-   "place": "Amsterdam Centraal station",
-   "lat": 52.3791,
-   "lon": 4.9003
-  },
-  {
-   "id": "6yClWORHv2LZgz8AASE0no",
-   "title": "The Dutch Invented That: An Irreverent Amsterdam Tour",
-   "type": "audiotour",
-   "place": "Amsterdam Centraal station",
-   "lat": 52.3791,
-   "lon": 4.9003
-  },
-  {
-   "id": "3I3g4BEEQHqygEtyN62PIJ",
-   "title": "An Amsterdam Introduction: From Fishing Hamlet to Trading Centre",
-   "type": "audiotour",
-   "place": "Amsterdam Centraal station",
-   "lat": 52.3783,
-   "lon": 4.9001
-  },
-  {
-   "id": "3uSaYNpAiDJEGJTiqyTlHa",
-   "title": "Vibrant Amsterdam East: A Story of Urban Revival Beyond the Canals",
-   "type": "audiotour",
-   "place": "Entrepotdok warehouses",
-   "lat": 52.3675,
-   "lon": 4.9145
-  },
-  {
-   "id": "2OWjxioBMGjzwzetRBZGb5",
-   "title": "Red Lights, Trade and Tolerance: A Tour of Amsterdam's Old Centre",
-   "type": "audiotour",
-   "place": "Dam Square",
-   "lat": 52.373,
-   "lon": 4.8926
-  },
-  {
-   "id": "7gCdcJrvvWMCDBoRcuhPQQ",
-   "title": "Red Light District",
-   "type": "audiotour",
-   "place": "Dam Square",
-   "lat": 52.3727,
-   "lon": 4.8941
-  },
-  {
-   "id": "1I4MVZM9Wx06RgUzNc7jIS",
-   "title": "Amsterdam: A History of the World’s Most Liberal City",
-   "type": "book",
-   "place": "Dam Square",
-   "lat": 52.373,
-   "lon": 4.8933
-  },
-  {
-   "id": "4CxDYEVlvOd2bIzMaAPx71",
-   "title": "Power and Politics: An Amsterdam Audio Tour with Context",
-   "type": "audiotour",
-   "place": "Waag weigh house, Nieuwmarkt",
-   "lat": 52.3726,
-   "lon": 4.9005
-  },
-  {
-   "id": "BEBvChUFPNjFQuwM2RckB",
-   "title": "Old Amsterdam: A Walking Tour through the East Side and Jewish District",
-   "type": "audiotour",
-   "place": "Waag weigh house, Nieuwmarkt",
-   "lat": 52.3726,
-   "lon": 4.9003
-  },
-  {
-   "id": "hxMECotMCBOkc8pdIGpSI",
-   "title": "Space Tourist Amsterdam: Explore the City's Cosmic Side by Public Transport",
-   "type": "audiotour",
-   "place": "De Gooyer windmill",
-   "lat": 52.3668,
-   "lon": 4.9259
-  },
-  {
-   "id": "5nlvm74LbxdbcrMwDpFaAC",
-   "title": "Art and Architecture in Amsterdam's Golden Age: A Tour with Context",
-   "type": "audiotour",
-   "place": "Westerkerk church",
-   "lat": 52.3741,
-   "lon": 4.8829
-  },
-  {
-   "id": "1sWkPeSj5KTcfS8kEOkmoR",
-   "title": "Vondelpark and Old West Neighbourhood: Amsterdam's Green Heart",
-   "type": "audiotour",
-   "place": "Vondelpark main entrance, Stadhouderskade",
-   "lat": 52.3617,
-   "lon": 4.8818
-  },
-  {
-   "id": "OUg4hkbvbL4RSrQ0iV7R0",
-   "title": "The Diary of a Young Girl",
-   "type": "book",
-   "place": "Anne Frank House",
-   "lat": 52.3752,
-   "lon": 4.884
-  },
-  {
-   "id": "yNbbQgcbrnKOL3zt23bog",
-   "title": "We Slaves of Suriname",
-   "type": "book",
-   "place": "Anton de Komplein, Bijlmer",
-   "lat": 52.3162,
-   "lon": 4.9576
-  },
-  {
-   "id": "1rS4YA5zsZxc9Tps9xK1HW",
-   "title": "Tulipomania",
-   "type": "book",
-   "place": "Bloemenmarkt flower market",
-   "lat": 52.3668,
-   "lon": 4.8929
-  },
-  {
-   "id": "7LOkWZ2Uem5tc2T79hCmiV",
-   "title": "Nathaniel’s Nutmeg",
-   "type": "book",
-   "place": "Oost-Indisch Huis (former VOC headquarters)",
-   "lat": 52.3711,
-   "lon": 4.898
-  },
-  {
-   "id": "7AYeAnejcZTtlezDhteHEG",
-   "title": "The Hidden Life of Otto Frank",
-   "type": "book",
-   "place": "Merwedeplein 37 (Frank family’s flat)",
-   "lat": 52.3453,
-   "lon": 4.9009
-  },
-  {
-   "id": "3olf7B6UQ4fsc7Tz2XLasq",
-   "title": "Betraying Spinoza",
-   "type": "book",
-   "place": "Portuguese Synagogue",
-   "lat": 52.3676,
-   "lon": 4.9053
-  },
-  {
-   "id": "1OsOVIZVxfpP8OdAFoLX7W",
-   "title": "Murder in Amsterdam",
-   "type": "book",
-   "place": "De Schreeuw memorial, Oosterpark",
-   "lat": 52.3595,
-   "lon": 4.9222
-  },
-  {
-   "id": "5AlEugyACeztNoQILchgHd",
-   "title": "Amsterdam: A Brief Life of the City",
-   "type": "book",
+   "id": "6zSaF44kmm0YKq97Cr4Oql",
+   "title": "Mein junges Leben hat ein End",
+   "type": "music",
    "place": "Oude Kerk church",
+   "url": "https://open.spotify.com/search/Sweelinck%20Mein%20junges%20Leben%20hat%20ein%20End",
+   "creator": "Jan Pieterszoon Sweelinck",
+   "channel": null,
    "lat": 52.3744,
    "lon": 4.8982
-  },
-  {
-   "id": "48B75Xy96H7t5ZWk3BxF7S",
-   "title": "In the City of Bikes",
-   "type": "book",
-   "place": "Vondelpark",
-   "lat": 52.358,
-   "lon": 4.8686
-  },
-  {
-   "id": "15ZpJpyv8ktARPIevFBop3",
-   "title": "Inventing a way to tame the Waterwolf",
-   "type": "podcast",
-   "place": "Afsluitdijk dike",
-   "lat": 52.94364,
-   "lon": 5.06027
-  },
-  {
-   "id": "4PL5RJqChhcMbfxxrgXF4w",
-   "title": "Baruch Spinoza: A pioneer of the Enlightenment",
-   "type": "podcast",
-   "place": "Spinoza statue, Zwanenburgwal",
-   "lat": 52.36795,
-   "lon": 4.89922
-  },
-  {
-   "id": "5rQJqNKUDKJoVxVMaYZq7j",
-   "title": "Seeing through the eyes of Ace & Tate",
-   "type": "podcast",
-   "place": "Ace & Tate eyewear shop, Nine Streets",
-   "lat": 52.36895,
-   "lon": 4.88555
-  },
-  {
-   "id": "1r4U4xN5OihYkyDNVBzHPR",
-   "title": "Protesting the Vietnam War from the comfort of bed",
-   "type": "podcast",
-   "place": "Hilton Amsterdam hotel (Lennon–Ono Bed-In)",
-   "lat": 52.35139,
-   "lon": 4.87206
-  },
-  {
-   "id": "32jGQndO4zQchzvkZPrMTS",
-   "title": "The Dutch painter who conned the art world",
-   "type": "podcast",
-   "place": "Keizersgracht 321 (Han van Meegeren’s house)",
-   "lat": 52.36973,
-   "lon": 4.88501
-  },
-  {
-   "id": "31YbEtFKppG46rDi26mZXm",
-   "title": "Quietly exploring Amsterdam’s hidden hofjes",
-   "type": "video",
-   "place": "Jordaan hofjes (area)",
-   "lat": 52.38233,
-   "lon": 4.88389
-  },
-  {
-   "id": "1tSU3FACSQ5RQF7NiZyroK",
-   "title": "The fearlessness of Freddie Oversteegen",
-   "type": "podcast",
-   "place": "Dutch Resistance Museum",
-   "lat": 52.36781,
-   "lon": 4.91276
-  },
-  {
-   "id": "1F1titZze82q9VKBPBWZRK",
-   "title": "Surviving a famine during the Hunger Winter",
-   "type": "podcast",
-   "place": "Dutch Resistance Museum",
-   "lat": 52.36794,
-   "lon": 4.91253
-  },
-  {
-   "id": "2ag714QOD2V19PIPwWZsRm",
-   "title": "Daring to be caring about herring",
-   "type": "video",
-   "place": "Jonk Volendammer Haringhandel herring stand",
-   "lat": 52.36879,
-   "lon": 4.89085
-  },
-  {
-   "id": "cbGTVLOdwic7z6B9TyUZm",
-   "title": "Making souvenir houses come to life",
-   "type": "video",
-   "place": "Herengracht 81",
-   "lat": 52.37739,
-   "lon": 4.8908
-  },
-  {
-   "id": "6tS9fYrxVEael8jULGN3vL",
-   "title": "Where we’re going, we don’t need roads",
-   "type": "video",
-   "place": "Giethoorn village (area)",
-   "lat": 52.74017,
-   "lon": 6.07798
-  },
-  {
-   "id": "28E2e21vSmvveuNATi2DUr",
-   "title": "Fishing for bicycles",
-   "type": "video",
-   "place": "Amstel canal junction north of Rembrandtplein",
-   "lat": 52.36744,
-   "lon": 4.89714
-  },
-  {
-   "id": "2KXSTvjRRkSpRRpzCzuVrx",
-   "title": "Building emotional intelligence at the School of Life",
-   "type": "video",
-   "place": "The School of Life Amsterdam",
-   "lat": 52.35967,
-   "lon": 4.89825
-  },
-  {
-   "id": "78FwlIkRnkKBAgo7bMyPXO",
-   "title": "Some like it sour",
-   "type": "video",
-   "place": "Thull’s pickle shop",
-   "lat": 52.37286,
-   "lon": 4.93877
-  },
-  {
-   "id": "2u8qxlDMcjnEkYfCxtmyCx",
-   "title": "The simmering debate over Zwarte Piet",
-   "type": "video",
-   "place": "National Maritime Museum",
-   "lat": 52.37166,
-   "lon": 4.915
-  },
-  {
-   "id": "71hsIXXh6DHmHWJB3zrTNY",
-   "title": "At the heart of the global flower trade",
-   "type": "video",
-   "place": "Royal FloraHolland flower auction, Aalsmeer",
-   "lat": 52.25828,
-   "lon": 4.78259
-  },
-  {
-   "id": "4hk4BGhNASvNzjJzrR7LGs",
-   "title": "Inside an opulent Art Deco cinema",
-   "type": "video",
-   "place": "Tuschinski cinema",
-   "lat": 52.36643,
-   "lon": 4.89467
-  },
-  {
-   "id": "GNEVaH3odZMi6NmnmWYnd",
-   "title": "Three of Amsterdam’s most unusual hotels",
-   "type": "video",
-   "place": "Lloyd Hotel",
-   "lat": 52.37433,
-   "lon": 4.93483
-  },
-  {
-   "id": "2TAQsgI0AKtPnV6aIuDwI1",
-   "title": "Tea and brunch at the smallest house in Amsterdam",
-   "type": "video",
-   "place": "Het Kleinste Huis tea shop, Oude Hoogstraat",
-   "lat": 52.3712,
-   "lon": 4.8977
-  },
-  {
-   "id": "3of46556NKfP6RL8KA1dIn",
-   "title": "Primary colors with Piet Mondrian",
-   "type": "video",
-   "place": "Kunstmuseum Den Haag, The Hague",
-   "lat": 52.08991,
-   "lon": 4.28065
-  },
-  {
-   "id": "64lA57NtfT3vckcJSi4VLU",
-   "title": "Celebrating flavors at Foodhallen Amsterdam",
-   "type": "video",
-   "place": "Foodhallen food hall, De Hallen",
-   "lat": 52.36706,
-   "lon": 4.86808
-  },
-  {
-   "id": "792F8XYN0exf1gT1vRiEYC",
-   "title": "Exploring the Dutch wetlands by canoe",
-   "type": "video",
-   "place": "Noord metro station (Wetlands Safari pick-up)",
-   "lat": 52.40163,
-   "lon": 4.93185
-  },
-  {
-   "id": "wwISSd9yo6LQXdokYGeha",
-   "title": "A cacophony of color at the Dutch flower parade",
-   "type": "video",
-   "place": "Bollenstreek flower parade route, Sassenheim",
-   "lat": 52.22781,
-   "lon": 4.52428
-  },
-  {
-   "id": "7afhkRmj1pc23QBSM8Qwla",
-   "title": "A hotel emblematic of the Amsterdam School style",
-   "type": "video",
-   "place": "Grand Hotel Amrâth (Scheepvaarthuis)",
-   "lat": 52.37441,
-   "lon": 4.90414
-  },
-  {
-   "id": "16QCcb18geL54CJDlq7gx6",
-   "title": "Picking your own fruit at Fruittuin van West",
-   "type": "video",
-   "place": "Fruittuin van West urban farm",
-   "lat": 52.38224,
-   "lon": 4.77342
-  },
-  {
-   "id": "5ba4Wj7gFw7s23ffSIwi86",
-   "title": "A riding school with a history",
-   "type": "video",
-   "place": "Hollandsche Manege riding school",
-   "lat": 52.36144,
-   "lon": 4.87187
-  },
-  {
-   "id": "3i1ciz0jPeZneKBShsXwh",
-   "title": "The Netherlands in miniature",
-   "type": "video",
-   "place": "Madurodam miniature park, The Hague",
-   "lat": 52.09947,
-   "lon": 4.29693
-  },
-  {
-   "id": "6gjOmP6urmHIij7Al1Xxq1",
-   "title": "A haven for tram enthusiasts",
-   "type": "video",
-   "place": "Electric Tram Museum, Haarlemmermeerstation",
-   "lat": 52.34937,
-   "lon": 4.8567
-  },
-  {
-   "id": "61RrR6YGVAaoEXdNE9CDpQ",
-   "title": "A museum for things too small to see",
-   "type": "video",
-   "place": "Micropia museum",
-   "lat": 52.3669,
-   "lon": 4.91258
-  },
-  {
-   "id": "1tEm5Ph1ZrEtMv47ClGyuf",
-   "title": "A small distillery tucked away in the Red Light District ",
-   "type": "video",
-   "place": "Wynand Fockink distillery and tasting room",
-   "lat": 52.37231,
-   "lon": 4.89533
-  },
-  {
-   "id": "65U3IObAfyPKBknpHB2Tal",
-   "title": "Creativity and curiosity in Amsterdam Noord",
-   "type": "video",
-   "place": "Blom & Blom lamp shop",
-   "lat": 52.39045,
-   "lon": 4.78057
-  },
-  {
-   "id": "5omTqBFwIcsOSTuAVQmSkC",
-   "title": "Relaxing in a 400-year-old botanical garden",
-   "type": "video",
-   "place": "Hortus Botanicus botanical garden",
-   "lat": 52.36666,
-   "lon": 4.90818
-  },
-  {
-   "id": "6F5HZFo5YvwEmTNPm3b4zg",
-   "title": "Organic ice cream on a stick",
-   "type": "video",
-   "place": "IJsmanschap popsicle bar",
-   "lat": 52.36445,
-   "lon": 4.85233
-  },
-  {
-   "id": "3kr3n46EiRO7Iu5mJIvN3O",
-   "title": "Museums of mutation and morbidity ",
-   "type": "video",
-   "place": "Museum Vrolik, Amsterdam UMC hospital",
-   "lat": 52.29416,
-   "lon": 4.96
-  },
-  {
-   "id": "3qpiHrloaXB62KZf8zfuzK",
-   "title": "Apartments where density and nature coexist",
-   "type": "video",
-   "place": "Parkrand apartment building, Geuzenveld",
-   "lat": 52.35616,
-   "lon": 4.79763
-  },
-  {
-   "id": "1P5wuvMvFP5WoTCbynZW1p",
-   "title": "The clock at Schipol Airport with a man inside ",
-   "type": "video",
-   "place": "Maarten Baas ‘Real Time’ clock, Schiphol Airport",
-   "lat": 52.30962,
-   "lon": 4.76525
-  },
-  {
-   "id": "4lk3w2ihm2lD3hlOfCpxE0",
-   "title": "Building to meet diverse needs and lifestyles ",
-   "type": "video",
-   "place": "Silodam apartment building",
-   "lat": 52.39081,
-   "lon": 4.89122
-  },
-  {
-   "id": "79Z7z9RZMRKE3QqVKW4VK4",
-   "title": "How to print a bridge",
-   "type": "video",
-   "place": "MX3D 3D-printed bridge, Oudezijds Achterburgwal",
-   "lat": 52.3726,
-   "lon": 4.89803
-  },
-  {
-   "id": "b9thVCOYbom0RrVVNnYey",
-   "title": "A study in brick and glass",
-   "type": "video",
-   "place": "Chanel ‘Crystal Houses’ store, P.C. Hooftstraat",
-   "lat": 52.36016,
-   "lon": 4.87989
-  },
-  {
-   "id": "2FghxYf8pjaUnGhhQO8Tv",
-   "title": "Living below sea level",
-   "type": "video",
-   "place": "Schiphol Airport",
-   "lat": 52.31053,
-   "lon": 4.76827
-  },
-  {
-   "id": "1ReO4xUtqwwv6RokgAAZCy",
-   "title": "The last of a dying breed",
-   "type": "podcast",
-   "place": "Artis Zoo",
-   "lat": 52.366,
-   "lon": 4.91653
-  },
-  {
-   "id": "7HdLohOOITVjqMwVeOl36x",
-   "title": "Art and food in the Dutch Golden Age",
-   "type": "video",
-   "place": "Mauritshuis museum, The Hague",
-   "lat": 52.08042,
-   "lon": 4.3143
-  },
-  {
-   "id": "74YxGUCp6soZnxRc4o3ssm",
-   "title": "In pursuit of sustainable denim",
-   "type": "video",
-   "place": "Denim City, De Hallen",
-   "lat": 52.36669,
-   "lon": 4.86777
-  },
-  {
-   "id": "clo7pgi2enzhyfWzXXT08",
-   "title": "A primer on Dutch politics with Pieter Gerrit Kroeger",
-   "type": "podcast",
-   "place": "Binnenhof parliament complex, The Hague",
-   "lat": 52.07959,
-   "lon": 4.31327
-  },
-  {
-   "id": "3T8HluKbuf6g2xvSeWHKEz",
-   "title": "Cycling in Amsterdam and beyond",
-   "type": "podcast",
-   "place": "Weteringschans, opposite the Rijksmuseum",
-   "lat": 52.3611,
-   "lon": 4.88666
-  },
-  {
-   "id": "3EXQDi8lpJGTKtJ2rpsqOr",
-   "title": "A Night Like This",
-   "type": "music",
-   "place": "Amsterdam Conservatory (Conservatorium van Amsterdam)",
-   "lat": 52.3758,
-   "lon": 4.909
-  },
-  {
-   "id": "6tb3zxy7sYgm35oebG6HHB",
-   "title": "Bijlmermeer: A futuristic city from the past (Part 2)",
-   "type": "podcast",
-   "place": "Bijlmermeer (area)",
-   "lat": 52.32015,
-   "lon": 4.97139
-  },
-  {
-   "id": "3j3iCA9R79Kxa9xDknPqRu",
-   "title": "Geef mij maar Amsterdam",
-   "type": "music",
-   "place": "Johnny Jordaanplein statues",
-   "lat": 52.3701,
-   "lon": 4.8823
   },
   {
    "id": "UY7Z0DRhD95A0omDiWsF9",
    "title": "Aan de Amsterdamse grachten",
    "type": "music",
    "place": "Leidsegracht–Prinsengracht bridge (song plaque)",
+   "url": "https://open.spotify.com/search/Aan%20de%20Amsterdamse%20grachten%20Sonneveld",
+   "creator": "Pieter Goemans",
+   "channel": null,
    "lat": 52.3662,
    "lon": 4.8825
   },
   {
-   "id": "6KhU619k9Bygg1ASBdHKT5",
-   "title": "Bijlmermeer: A futuristic city from the past (Part 1)",
-   "type": "podcast",
-   "place": "Bijlmermeer (area)",
-   "lat": 52.32065,
-   "lon": 4.97098
+   "id": "3j3iCA9R79Kxa9xDknPqRu",
+   "title": "Geef mij maar Amsterdam",
+   "type": "music",
+   "place": "Johnny Jordaanplein statues",
+   "url": "https://open.spotify.com/search/Johnny%20Jordaan%20Geef%20mij%20maar%20Amsterdam",
+   "creator": "Johnny Jordaan",
+   "channel": null,
+   "lat": 52.3701,
+   "lon": 4.8823
+  },
+  {
+   "id": "16qmJgN0hexHo0hHYn8ZGU",
+   "title": "Welterusten, Meneer de President",
+   "type": "music",
+   "place": "Het Lieverdje statue, Spui",
+   "url": "https://open.spotify.com/search/Boudewijn%20de%20Groot%20Welterusten%20Meneer%20de%20President",
+   "creator": "Boudewijn de Groot",
+   "channel": null,
+   "lat": 52.3688,
+   "lon": 4.8891
+  },
+  {
+   "id": "7jIHQ24zQym28xluGTUPuO",
+   "title": "Zing, Vecht, Huil, Bid, Lach, Werk en Bewonder",
+   "type": "music",
+   "place": "Leidseplein",
+   "url": "https://open.spotify.com/search/Ramses%20Shaffy%20Zing%20Vecht%20Huil%20Bid%20Lach%20Werk%20en%20Bewonder",
+   "creator": "Ramses Shaffy",
+   "channel": null,
+   "lat": 52.3638,
+   "lon": 4.8823
+  },
+  {
+   "id": "1IwGatp3KvagJSOsfOuU7d",
+   "title": "Hocus Pocus",
+   "type": "music",
+   "place": "Dam Square",
+   "url": "https://open.spotify.com/search/Focus%20Hocus%20Pocus",
+   "creator": "Focus",
+   "channel": null,
+   "lat": 52.373,
+   "lon": 4.8933
   },
   {
    "id": "1MnmdN0e9es13uLIoNI9LY",
    "title": "Saturday Night",
    "type": "music",
    "place": "Paradiso concert hall",
+   "url": "https://open.spotify.com/search/Herman%20Brood%20Saturday%20Night",
+   "creator": "Herman Brood",
+   "channel": null,
    "lat": 52.3622,
    "lon": 4.8838
   },
@@ -726,126 +83,1153 @@
    "title": "Zij gelooft in mij",
    "type": "music",
    "place": "André Hazes statue, Albert Cuyp Market",
+   "url": "https://open.spotify.com/search/Andr%C3%A9%20Hazes%20Zij%20gelooft%20in%20mij",
+   "creator": "André Hazes",
+   "channel": null,
    "lat": 52.3565,
    "lon": 4.8975
-  },
-  {
-   "id": "59S23ol9ubX3xCJxlagCyy",
-   "title": "Origineel Amsterdams",
-   "type": "music",
-   "place": "Osdorp (area)",
-   "lat": 52.3602,
-   "lon": 4.8052
   },
   {
    "id": "3WpqM9AqfitcDF8tOT14Yu",
    "title": "In the Dutch Mountains",
    "type": "music",
    "place": "Watergraafsmeer (area)",
+   "url": "https://open.spotify.com/search/Nits%20In%20the%20Dutch%20Mountains",
+   "creator": "The Nits",
+   "channel": null,
    "lat": 52.3509,
    "lon": 4.9351
+  },
+  {
+   "id": "59S23ol9ubX3xCJxlagCyy",
+   "title": "Origineel Amsterdams",
+   "type": "music",
+   "place": "Osdorp (area)",
+   "url": "https://open.spotify.com/search/Osdorp%20Posse%20Origineel%20Amsterdams",
+   "creator": "Osdorp Posse",
+   "channel": null,
+   "lat": 52.3602,
+   "lon": 4.8052
   },
   {
    "id": "1n5p84crUzIAsWTeRRU6sz",
    "title": "Watskeburt?!",
    "type": "music",
    "place": "Zeedijk street",
+   "url": "https://open.spotify.com/search/De%20Jeugd%20van%20Tegenwoordig%20Watskeburt",
+   "creator": "De Jeugd van Tegenwoordig",
+   "channel": null,
    "lat": 52.3746,
    "lon": 4.9007
+  },
+  {
+   "id": "3EXQDi8lpJGTKtJ2rpsqOr",
+   "title": "A Night Like This",
+   "type": "music",
+   "place": "Amsterdam Conservatory (Conservatorium van Amsterdam)",
+   "url": "https://open.spotify.com/search/Caro%20Emerald%20A%20Night%20Like%20This",
+   "creator": "Caro Emerald",
+   "channel": null,
+   "lat": 52.3758,
+   "lon": 4.909
   },
   {
    "id": "1hBJsMfzjZNqCKvxSp9SaQ",
    "title": "Animals",
    "type": "music",
    "place": "A’DAM Tower",
+   "url": "https://open.spotify.com/search/Martin%20Garrix%20Animals",
+   "creator": "Martin Garrix",
+   "channel": null,
    "lat": 52.3837,
    "lon": 4.9022
-  },
-  {
-   "id": "16qmJgN0hexHo0hHYn8ZGU",
-   "title": "Welterusten, Meneer de President",
-   "type": "music",
-   "place": "Het Lieverdje statue, Spui",
-   "lat": 52.3688,
-   "lon": 4.8891
   },
   {
    "id": "5cqFcr0tWHIyF7BHUq7XzK",
    "title": "Vluchtstrook",
    "type": "music",
    "place": "Ziggo Dome arena",
+   "url": "https://open.spotify.com/search/Kris%20Kross%20Amsterdam%20Vluchtstrook",
+   "creator": "Kris Kross Amsterdam, Antoon & Sigourney K",
+   "channel": null,
    "lat": 52.3136,
    "lon": 4.9371
   },
   {
-   "id": "7jIHQ24zQym28xluGTUPuO",
-   "title": "Zing, Vecht, Huil, Bid, Lach, Werk en Bewonder",
-   "type": "music",
-   "place": "Leidseplein",
-   "lat": 52.3638,
-   "lon": 4.8823
+   "id": "7AYeAnejcZTtlezDhteHEG",
+   "title": "The Hidden Life of Otto Frank",
+   "type": "book",
+   "place": "Merwedeplein 37 (Frank family’s apartment)",
+   "url": "https://goodreads.com/search?q=Carol%20Ann%20Lee%20The%20Hidden%20Life%20of%20Otto%20Frank",
+   "creator": "Carol Ann Lee",
+   "channel": null,
+   "lat": 52.3453,
+   "lon": 4.9009
   },
   {
-   "id": "65s1C0JwISIvX3gwLdgjfn",
-   "title": "Parkside purveyors of artisanal jenever",
+   "id": "1I4MVZM9Wx06RgUzNc7jIS",
+   "title": "Amsterdam: A History of the World’s Most Liberal City",
+   "type": "book",
+   "place": "Dam Square",
+   "url": "https://goodreads.com/search?q=Russell%20Shorto%20Amsterdam",
+   "creator": "Russell Shorto",
+   "channel": null,
+   "lat": 52.373,
+   "lon": 4.8933
+  },
+  {
+   "id": "6xImZ9IaXYubdlIMSak2O5",
+   "title": "Interior of Saint Bavo, Haarlem by Pieter Saenredam",
    "type": "video",
-   "place": "’t Nieuwe Diep distillery, Flevopark",
-   "lat": 52.36205,
-   "lon": 4.95013
+   "place": "St. Bavo’s Church (Grote Kerk), Haarlem",
+   "url": "https://youtu.be/TOoldrJqxZA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 52.38107,
+   "lon": 4.63733
   },
   {
-   "id": "3cKtUKyjNjknu4pPYFm9rI",
-   "title": "The Resistance Banker",
-   "type": "movie",
-   "place": "De Nederlandsche Bank, Frederiksplein",
-   "lat": 52.3594,
-   "lon": 4.9003
-  },
-  {
-   "id": "2M2YdVUdh0UXW3LWSYGqtz",
-   "title": "Meet the Fokkens",
-   "type": "movie",
-   "place": "De Wallen red-light district (area)",
-   "lat": 52.3725,
-   "lon": 4.898
-  },
-  {
-   "id": "GQwIuyR4tt0cBqs9mAYZn",
-   "title": "Amsterdamned",
-   "type": "movie",
-   "place": "Magere Brug (Skinny Bridge)",
-   "lat": 52.3636,
-   "lon": 4.9024
-  },
-  {
-   "id": "5bn7fCKvR9wXLkSDzT3Ov1",
-   "title": "Turkish Delight",
-   "type": "movie",
-   "place": "Leidseplein",
-   "lat": 52.3638,
-   "lon": 4.8823
+   "id": "4T6kmpNtZQkInf7xsQCLNZ",
+   "title": "The world’s first same-sex weddings, Amsterdam 2001",
+   "type": "podcast",
+   "place": "Amsterdam City Hall (Stopera), Amstel 1",
+   "url": "https://www.bbc.co.uk/programmes/w3ct4xbs",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 52.3675,
+   "lon": 4.9009
   },
   {
    "id": "48UoVANFyXpffaDkLUELjz",
    "title": "Süskind",
    "type": "movie",
    "place": "Hollandsche Schouwburg memorial",
+   "url": "https://justwatch.com/us/search?q=Suskind",
+   "creator": "Rudolf van den Berg",
+   "channel": null,
    "lat": 52.3665,
    "lon": 4.9111
+  },
+  {
+   "id": "ZmLnXKxCwBtEHboNgxm6K",
+   "title": "The sister-in-law who made Van Gogh famous",
+   "type": "podcast",
+   "place": "Van Gogh Museum",
+   "url": "https://podcasts.apple.com/us/podcast/episode-96-cherchez-la-femme-or-the-woman-behind-the/id1142736861?i=1000566234872",
+   "creator": null,
+   "channel": "ArtCurious",
+   "lat": 52.3584,
+   "lon": 4.8811
+  },
+  {
+   "id": "65s1C0JwISIvX3gwLdgjfn",
+   "title": "Parkside purveyors of artisanal jenever",
+   "type": "video",
+   "place": "’t Nieuwe Diep distillery, Flevopark",
+   "url": "https://youtu.be/y1CPoGapuO8",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.36205,
+   "lon": 4.95013
+  },
+  {
+   "id": "6gjOmP6urmHIij7Al1Xxq1",
+   "title": "A haven for tram enthusiasts",
+   "type": "video",
+   "place": "Electric Tram Museum, Haarlemmermeerstation",
+   "url": "https://youtu.be/-0Wkj1_K8Oc",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.34937,
+   "lon": 4.8567
+  },
+  {
+   "id": "1sWkPeSj5KTcfS8kEOkmoR",
+   "title": "Vondelpark and Old West Neighbourhood: Amsterdam’s Green Heart",
+   "type": "audiotour",
+   "place": "Vondelpark main entrance, Stadhouderskade",
+   "url": "https://voicemap.me/tour/amsterdam/vondelpark-old-west-neighbourhood",
+   "creator": "Wilhelmus",
+   "channel": null,
+   "lat": 52.3617,
+   "lon": 4.8818
+  },
+  {
+   "id": "5nlvm74LbxdbcrMwDpFaAC",
+   "title": "Art and Architecture in Amsterdam’s Golden Age: A Tour with Context",
+   "type": "audiotour",
+   "place": "Westerkerk church",
+   "url": "https://voicemap.me/tour/amsterdam/art-and-architecture-in-amsterdam-s-golden-age-a-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 52.3741,
+   "lon": 4.8829
+  },
+  {
+   "id": "hxMECotMCBOkc8pdIGpSI",
+   "title": "Space Tourist Amsterdam: Explore the City’s Cosmic Side by Public Transport",
+   "type": "audiotour",
+   "place": "De Gooyer windmill",
+   "url": "https://voicemap.me/tour/amsterdam/space-tourist-amsterdam-explore-the-city-s-cosmic-side-by-public-transport",
+   "creator": "Alexandra Sokolowski",
+   "channel": null,
+   "lat": 52.3668,
+   "lon": 4.9259
+  },
+  {
+   "id": "BEBvChUFPNjFQuwM2RckB",
+   "title": "Old Amsterdam: A Walking Tour through the East Side and Jewish District",
+   "type": "audiotour",
+   "place": "Waag weigh house, Nieuwmarkt",
+   "url": "https://voicemap.me/tour/amsterdam/old-amsterdam-a-walking-tour-through-the-east-side-and-jewish-district",
+   "creator": "Edmond Van Putte",
+   "channel": null,
+   "lat": 52.3726,
+   "lon": 4.9003
+  },
+  {
+   "id": "4CxDYEVlvOd2bIzMaAPx71",
+   "title": "Power and Politics: An Amsterdam Audio Tour with Context",
+   "type": "audiotour",
+   "place": "Waag weigh house, Nieuwmarkt",
+   "url": "https://voicemap.me/tour/amsterdam/power-and-politics-an-amsterdam-audio-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 52.3726,
+   "lon": 4.9005
+  },
+  {
+   "id": "7gCdcJrvvWMCDBoRcuhPQQ",
+   "title": "Red Light District",
+   "type": "audiotour",
+   "place": "Dam Square",
+   "url": "https://voicemap.me/tour/amsterdam/red-light-district",
+   "creator": "Republic of Amsterdam Radio",
+   "channel": null,
+   "lat": 52.3727,
+   "lon": 4.8941
+  },
+  {
+   "id": "2OWjxioBMGjzwzetRBZGb5",
+   "title": "Red Lights, Trade and Tolerance: A Tour of Amsterdam’s Old Centre",
+   "type": "audiotour",
+   "place": "Dam Square",
+   "url": "https://voicemap.me/tour/amsterdam/red-lights-trade-and-tolerance-a-tour-of-amsterdam-s-old-centre",
+   "creator": "Time Travel Amsterdam",
+   "channel": null,
+   "lat": 52.373,
+   "lon": 4.8926
+  },
+  {
+   "id": "3uSaYNpAiDJEGJTiqyTlHa",
+   "title": "Vibrant Amsterdam East: A Story of Urban Revival Beyond the Canals",
+   "type": "audiotour",
+   "place": "Entrepotdok warehouses",
+   "url": "https://voicemap.me/tour/amsterdam/vibrant-amsterdam-east-a-story-of-urban-revival-beyond-the-canals",
+   "creator": "Bart",
+   "channel": null,
+   "lat": 52.3675,
+   "lon": 4.9145
+  },
+  {
+   "id": "3I3g4BEEQHqygEtyN62PIJ",
+   "title": "An Amsterdam Introduction: From Fishing Hamlet to Trading Centre",
+   "type": "audiotour",
+   "place": "Amsterdam Centraal station",
+   "url": "https://voicemap.me/tour/amsterdam/an-amsterdam-introduction-from-fishing-hamlet-to-trading-centre",
+   "creator": "Edmond Van Putte",
+   "channel": null,
+   "lat": 52.3783,
+   "lon": 4.9001
+  },
+  {
+   "id": "6yClWORHv2LZgz8AASE0no",
+   "title": "The Dutch Invented That: An Irreverent Amsterdam Tour",
+   "type": "audiotour",
+   "place": "Amsterdam Centraal station",
+   "url": "https://voicemap.me/tour/amsterdam/the-dutch-invented-that-an-irreverent-amsterdam-tour",
+   "creator": "Greg Shapiro",
+   "channel": null,
+   "lat": 52.3791,
+   "lon": 4.9003
+  },
+  {
+   "id": "4YtzFd6C8O3PTEBJH9bHGj",
+   "title": "Family-Friendly Amsterdam: A Walking Tour for Adults and Kids",
+   "type": "audiotour",
+   "place": "Amsterdam Centraal station",
+   "url": "https://voicemap.me/tour/amsterdam/family-friendly-amsterdam-a-walking-tour-for-adults-and-kids",
+   "creator": null,
+   "channel": null,
+   "lat": 52.3791,
+   "lon": 4.9003
+  },
+  {
+   "id": "4D7TiwKkZkQVhZjEVXe9gL",
+   "title": "A Tasty Stroll Around The Cool Spots of the Pijp",
+   "type": "audiotour",
+   "place": "",
+   "url": "https://voicemap.me/tour/amsterdam/a-tasty-stroll-around-the-cool-spots-of-the-pijp",
+   "creator": "Susam",
+   "channel": null,
+   "lat": 52.3527,
+   "lon": 4.8915
+  },
+  {
+   "id": "7FLc1lmwWwsM9s8h0aJ6wK",
+   "title": "Nightwatching",
+   "type": "movie",
+   "place": "Rijksmuseum",
+   "url": "https://justwatch.com/us/search?q=Nightwatching",
+   "creator": "Peter Greenaway",
+   "channel": null,
+   "lat": 52.36,
+   "lon": 4.8852
+  },
+  {
+   "id": "NaliSk6OgyfU5UhCgyAzV",
+   "title": "Loving Vincent",
+   "type": "movie",
+   "place": "Van Gogh Museum",
+   "url": "https://justwatch.com/us/search?q=Loving%20Vincent",
+   "creator": "Dorota Kobiela & Hugh Welchman",
+   "channel": null,
+   "lat": 52.3581,
+   "lon": 4.8812
+  },
+  {
+   "id": "FnP2fhfva7aLi7QapZe1R",
+   "title": "Anne Frank Remembered",
+   "type": "movie",
+   "place": "Anne Frank House",
+   "url": "https://justwatch.com/us/search?q=Anne%20Frank%20Remembered",
+   "creator": "Jon Blair",
+   "channel": null,
+   "lat": 52.3752,
+   "lon": 4.884
   },
   {
    "id": "4whAdRIHHb8fD4AgXA6XEX",
    "title": "Riphagen",
    "type": "movie",
    "place": "Former SD headquarters, Gerrit van der Veenstraat",
+   "url": "https://justwatch.com/us/search?q=Riphagen%20The%20Untouchable",
+   "creator": "Pieter Kuijpers",
+   "channel": null,
    "lat": 52.3489,
    "lon": 4.8747
+  },
+  {
+   "id": "5bn7fCKvR9wXLkSDzT3Ov1",
+   "title": "Turkish Delight",
+   "type": "movie",
+   "place": "Leidseplein",
+   "url": "https://justwatch.com/us/search?q=Turkish%20Delight%20Verhoeven",
+   "creator": "Paul Verhoeven",
+   "channel": null,
+   "lat": 52.3638,
+   "lon": 4.8823
+  },
+  {
+   "id": "GQwIuyR4tt0cBqs9mAYZn",
+   "title": "Amsterdamned",
+   "type": "movie",
+   "place": "Magere Brug (Skinny Bridge)",
+   "url": "https://justwatch.com/us/search?q=Amsterdamned",
+   "creator": "Dick Maas",
+   "channel": null,
+   "lat": 52.3636,
+   "lon": 4.9024
+  },
+  {
+   "id": "2M2YdVUdh0UXW3LWSYGqtz",
+   "title": "Meet the Fokkens",
+   "type": "movie",
+   "place": "De Wallen red-light district (area)",
+   "url": "https://justwatch.com/us/search?q=Meet%20the%20Fokkens",
+   "creator": "Rob Schröder & Gabriëlle Provaas",
+   "channel": null,
+   "lat": 52.3725,
+   "lon": 4.898
+  },
+  {
+   "id": "3cKtUKyjNjknu4pPYFm9rI",
+   "title": "The Resistance Banker",
+   "type": "movie",
+   "place": "De Nederlandsche Bank, Frederiksplein",
+   "url": "https://justwatch.com/us/search?q=The%20Resistance%20Banker",
+   "creator": "Joram Lürsen",
+   "channel": null,
+   "lat": 52.3594,
+   "lon": 4.9003
+  },
+  {
+   "id": "1skQb04hrfEbnNNPJbEqzn",
+   "title": "How Rembrandt made his etchings",
+   "type": "video",
+   "place": "Rembrandt House Museum",
+   "url": "https://www.youtube.com/watch?v=ULEF4lpLE_M",
+   "creator": null,
+   "channel": "Christie’s",
+   "lat": 52.3693,
+   "lon": 4.9012
+  },
+  {
+   "id": "IuaByAL41RXyXaFYdMYrS",
+   "title": "Amsterdam’s canals and the Dutch Golden Age",
+   "type": "podcast",
+   "place": "Herengracht, Golden Bend",
+   "url": "https://therestishistory.com/episodes/kings-canals-and-coffee-houses-ep2",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 52.3648,
+   "lon": 4.8925
+  },
+  {
+   "id": "a2oPqVGJXMeVsk4SV8J3J",
+   "title": "Medieval Amsterdam: the 1345 miracle and the Reformation",
+   "type": "podcast",
+   "place": "Oude Kerk, Oudekerksplein",
+   "url": "https://therestishistory.com/episodes/miracles-money-and-mud-ep1",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 52.3742,
+   "lon": 4.898
+  },
+  {
+   "id": "4USv2LlmHzRXh1yBStiAWU",
+   "title": "Anne Frank’s diary reaches the world, 1947",
+   "type": "podcast",
+   "place": "Anne Frank House",
+   "url": "https://www.bbc.co.uk/programmes/w3ct3c39",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 52.3752,
+   "lon": 4.884
+  },
+  {
+   "id": "1o2RdmtDvgQtzZanOXSpSY",
+   "title": "The Jewish Bride by Rembrandt",
+   "type": "podcast",
+   "place": "Rijksmuseum",
+   "url": "https://podcasts.apple.com/us/podcast/season-3-ep-6-rembrandt-the-jewish-bride/id1573430649?i=1000590309177&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 52.36,
+   "lon": 4.8852
+  },
+  {
+   "id": "4kBt84cVojci4RX9LErVe9",
+   "title": "The Milkmaid by Johannes Vermeer",
+   "type": "video",
+   "place": "Rijksmuseum",
+   "url": "https://www.youtube.com/watch?v=z2hgtFBBbxk",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 52.36,
+   "lon": 4.8852
+  },
+  {
+   "id": "1uopa4uuze7NbGXkn9hAoI",
+   "title": "The Night Watch by Rembrandt van Rijn",
+   "type": "podcast",
+   "place": "Rijksmuseum",
+   "url": "https://podcasts.apple.com/us/podcast/season-2-ep-16-the-night-watch-rembrandt/id1573430649?i=1000552547023&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 52.36,
+   "lon": 4.8852
+  },
+  {
+   "id": "4tVVnyqSNeBARZohOGuGvW",
+   "title": "The Night Watch by Rembrandt",
+   "type": "podcast",
+   "place": "Rijksmuseum",
+   "url": "https://podcasts.apple.com/us/podcast/rembrandt-the-night-watch-the-light-breaking/id1844970987?i=1000758347861&uo=4",
+   "creator": null,
+   "channel": "Inside the Masterpiece",
+   "lat": 52.36,
+   "lon": 4.8852
+  },
+  {
+   "id": "89bXBlfNOLqdaEzr595qW",
+   "title": "Tree Roots by Vincent van Gogh",
+   "type": "video",
+   "place": "Van Gogh Museum",
+   "url": "https://www.youtube.com/watch?v=lAjVuUB9AkI",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 52.3584,
+   "lon": 4.8811
+  },
+  {
+   "id": "1rl6lnp1HJnIyhKwZI28Y3",
+   "title": "The Potato Eaters by Vincent van Gogh",
+   "type": "video",
+   "place": "Van Gogh Museum",
+   "url": "https://www.youtube.com/watch?v=2zfjf4uD94s",
+   "creator": null,
+   "channel": "Great Art Explained",
+   "lat": 52.3584,
+   "lon": 4.8811
+  },
+  {
+   "id": "3XsroNWgIMRYtKoMdwPStR",
+   "title": "Still Life with a Silver Ewer by Willem Kalf",
+   "type": "video",
+   "place": "Rijksmuseum",
+   "url": "https://youtu.be/5P3ap3rDmx4",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 52.36,
+   "lon": 4.8852
+  },
+  {
+   "id": "66kEXXXtJTfmsoxggRmXkT",
+   "title": "The Potato Eaters by Vincent van Gogh",
+   "type": "video",
+   "place": "Van Gogh Museum",
+   "url": "https://youtu.be/_HinBYpuaiA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 52.35831,
+   "lon": 4.88148
+  },
+  {
+   "id": "Btn7N1fvnk9k7og6Q5yBZ",
+   "title": "Self-Portrait (Les Misérables) by Paul Gauguin",
+   "type": "video",
+   "place": "Van Gogh Museum",
+   "url": "https://youtu.be/FxiQ_EZNTrc",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 52.3584,
+   "lon": 4.8811
+  },
+  {
+   "id": "7MnuEKW5Nema2QkxSXRBBe",
+   "title": "The Miniaturist",
+   "type": "book",
+   "place": "Rijksmuseum",
+   "url": "https://goodreads.com/search?q=Jessie%20Burton%20The%20Miniaturist",
+   "creator": "Jessie Burton",
+   "channel": null,
+   "lat": 52.36,
+   "lon": 4.8852
+  },
+  {
+   "id": "7wGMtNtb0AC411ampghoiZ",
+   "title": "Van Gogh: The Life",
+   "type": "book",
+   "place": "Van Gogh Museum",
+   "url": "https://goodreads.com/search?q=Naifeh%20Smith%20Van%20Gogh%20The%20Life",
+   "creator": "Steven Naifeh & Gregory White Smith",
+   "channel": null,
+   "lat": 52.3581,
+   "lon": 4.8812
+  },
+  {
+   "id": "OUg4hkbvbL4RSrQ0iV7R0",
+   "title": "The Diary of a Young Girl",
+   "type": "book",
+   "place": "Anne Frank House",
+   "url": "https://goodreads.com/search?q=Anne%20Frank%20Diary%20of%20a%20Young%20Girl",
+   "creator": "Anne Frank",
+   "channel": null,
+   "lat": 52.3752,
+   "lon": 4.884
+  },
+  {
+   "id": "yNbbQgcbrnKOL3zt23bog",
+   "title": "We Slaves of Suriname",
+   "type": "book",
+   "place": "Anton de Komplein, Bijlmer",
+   "url": "https://goodreads.com/search?q=Anton%20de%20Kom%20We%20Slaves%20of%20Suriname",
+   "creator": "Anton de Kom",
+   "channel": null,
+   "lat": 52.3162,
+   "lon": 4.9576
+  },
+  {
+   "id": "1rS4YA5zsZxc9Tps9xK1HW",
+   "title": "Tulipomania",
+   "type": "book",
+   "place": "Bloemenmarkt flower market",
+   "url": "https://goodreads.com/search?q=Mike%20Dash%20Tulipomania",
+   "creator": "Mike Dash",
+   "channel": null,
+   "lat": 52.3668,
+   "lon": 4.8929
+  },
+  {
+   "id": "7LOkWZ2Uem5tc2T79hCmiV",
+   "title": "Nathaniel’s Nutmeg",
+   "type": "book",
+   "place": "Oost-Indisch Huis (former VOC headquarters)",
+   "url": "https://goodreads.com/search?q=Giles%20Milton%20Nathaniel's%20Nutmeg",
+   "creator": "Giles Milton",
+   "channel": null,
+   "lat": 52.3711,
+   "lon": 4.898
+  },
+  {
+   "id": "3olf7B6UQ4fsc7Tz2XLasq",
+   "title": "Betraying Spinoza",
+   "type": "book",
+   "place": "Portuguese Synagogue",
+   "url": "https://goodreads.com/search?q=Rebecca%20Goldstein%20Betraying%20Spinoza",
+   "creator": "Rebecca Goldstein",
+   "channel": null,
+   "lat": 52.3676,
+   "lon": 4.9053
+  },
+  {
+   "id": "1OsOVIZVxfpP8OdAFoLX7W",
+   "title": "Murder in Amsterdam",
+   "type": "book",
+   "place": "De Schreeuw memorial, Oosterpark",
+   "url": "https://goodreads.com/search?q=Ian%20Buruma%20Murder%20in%20Amsterdam",
+   "creator": "Ian Buruma",
+   "channel": null,
+   "lat": 52.3595,
+   "lon": 4.9222
+  },
+  {
+   "id": "5AlEugyACeztNoQILchgHd",
+   "title": "Amsterdam: A Brief Life of the City",
+   "type": "book",
+   "place": "Oude Kerk church",
+   "url": "https://goodreads.com/search?q=Geert%20Mak%20Amsterdam%20Brief%20Life%20of%20the%20City",
+   "creator": "Geert Mak",
+   "channel": null,
+   "lat": 52.3744,
+   "lon": 4.8982
+  },
+  {
+   "id": "48B75Xy96H7t5ZWk3BxF7S",
+   "title": "In the City of Bikes",
+   "type": "book",
+   "place": "Vondelpark",
+   "url": "https://goodreads.com/search?q=Pete%20Jordan%20In%20the%20City%20of%20Bikes",
+   "creator": "Pete Jordan",
+   "channel": null,
+   "lat": 52.358,
+   "lon": 4.8686
+  },
+  {
+   "id": "15ZpJpyv8ktARPIevFBop3",
+   "title": "Inventing a way to tame the Waterwolf",
+   "type": "podcast",
+   "place": "Afsluitdijk dike",
+   "url": "https://overcast.fm/+Wi6bMhH-I",
+   "creator": null,
+   "channel": "The Omnibus",
+   "lat": 52.94364,
+   "lon": 5.06027
+  },
+  {
+   "id": "4PL5RJqChhcMbfxxrgXF4w",
+   "title": "Baruch Spinoza: A pioneer of the Enlightenment",
+   "type": "podcast",
+   "place": "Spinoza statue, Zwanenburgwal",
+   "url": "https://overcast.fm/+IPN0O8J-U",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 52.36795,
+   "lon": 4.89922
+  },
+  {
+   "id": "5rQJqNKUDKJoVxVMaYZq7j",
+   "title": "Seeing through the eyes of Ace & Tate",
+   "type": "podcast",
+   "place": "Ace & Tate eyewear shop, Nine Streets",
+   "url": "https://overcast.fm/+kCSggunU",
+   "creator": null,
+   "channel": "Monocle: The Entrepreneurs",
+   "lat": 52.36895,
+   "lon": 4.88555
+  },
+  {
+   "id": "1r4U4xN5OihYkyDNVBzHPR",
+   "title": "Protesting the Vietnam War from the comfort of bed",
+   "type": "podcast",
+   "place": "Hilton Amsterdam hotel (Lennon–Ono Bed-In)",
+   "url": "https://overcast.fm/+Lv1dymJV0",
+   "creator": null,
+   "channel": "Retropod",
+   "lat": 52.35139,
+   "lon": 4.87206
+  },
+  {
+   "id": "32jGQndO4zQchzvkZPrMTS",
+   "title": "The Dutch painter who conned the art world",
+   "type": "podcast",
+   "place": "Keizersgracht 321 (Han van Meegeren’s house)",
+   "url": "https://overcast.fm/+N5t_SXCjA",
+   "creator": null,
+   "channel": "Futility Closet",
+   "lat": 52.36973,
+   "lon": 4.88501
+  },
+  {
+   "id": "31YbEtFKppG46rDi26mZXm",
+   "title": "Quietly exploring Amsterdam’s hidden hofjes",
+   "type": "video",
+   "place": "Jordaan hofjes (area)",
+   "url": "https://youtu.be/5d4owwEiX-0",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.38233,
+   "lon": 4.88389
+  },
+  {
+   "id": "1tSU3FACSQ5RQF7NiZyroK",
+   "title": "The fearlessness of Freddie Oversteegen",
+   "type": "podcast",
+   "place": "Dutch Resistance Museum",
+   "url": "https://overcast.fm/+Lv1cIaEhE",
+   "creator": null,
+   "channel": "Retropod",
+   "lat": 52.36781,
+   "lon": 4.91276
+  },
+  {
+   "id": "1F1titZze82q9VKBPBWZRK",
+   "title": "Surviving a famine during the Hunger Winter",
+   "type": "podcast",
+   "place": "Dutch Resistance Museum",
+   "url": "https://overcast.fm/+BuvhMdGMA",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 52.36794,
+   "lon": 4.91253
+  },
+  {
+   "id": "2ag714QOD2V19PIPwWZsRm",
+   "title": "Daring to be caring about herring",
+   "type": "video",
+   "place": "Jonk Volendammer Haringhandel herring stand",
+   "url": "https://youtu.be/mqv82pxFNck",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 52.36879,
+   "lon": 4.89085
+  },
+  {
+   "id": "cbGTVLOdwic7z6B9TyUZm",
+   "title": "Making souvenir houses come to life",
+   "type": "video",
+   "place": "Herengracht 81",
+   "url": "https://youtu.be/EjnUbWMlsy8",
+   "creator": null,
+   "channel": "Half-Asleep Chris",
+   "lat": 52.37739,
+   "lon": 4.8908
+  },
+  {
+   "id": "6tS9fYrxVEael8jULGN3vL",
+   "title": "Where we’re going, we don’t need roads",
+   "type": "video",
+   "place": "Giethoorn village (area)",
+   "url": "https://youtu.be/R3t1cg2ZOxc",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 52.74017,
+   "lon": 6.07798
+  },
+  {
+   "id": "28E2e21vSmvveuNATi2DUr",
+   "title": "Fishing for bicycles",
+   "type": "video",
+   "place": "Amstel canal junction north of Rembrandtplein",
+   "url": "https://youtu.be/qrxfT5EQxgI",
+   "creator": null,
+   "channel": "Great Big Story",
+   "lat": 52.36744,
+   "lon": 4.89714
+  },
+  {
+   "id": "2KXSTvjRRkSpRRpzCzuVrx",
+   "title": "Building emotional intelligence at the School of Life",
+   "type": "video",
+   "place": "The School of Life Amsterdam",
+   "url": "https://youtu.be/eDNhdg7R0H4",
+   "creator": null,
+   "channel": "The School of Life",
+   "lat": 52.35967,
+   "lon": 4.89825
+  },
+  {
+   "id": "78FwlIkRnkKBAgo7bMyPXO",
+   "title": "Some like it sour",
+   "type": "video",
+   "place": "Thull’s pickle shop",
+   "url": "https://youtu.be/HBMMuFcn70Q",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 52.37286,
+   "lon": 4.93877
+  },
+  {
+   "id": "2u8qxlDMcjnEkYfCxtmyCx",
+   "title": "The simmering debate over Zwarte Piet",
+   "type": "video",
+   "place": "National Maritime Museum",
+   "url": "https://youtu.be/jBqoH-qx-os",
+   "creator": null,
+   "channel": "Vox",
+   "lat": 52.37166,
+   "lon": 4.915
+  },
+  {
+   "id": "71hsIXXh6DHmHWJB3zrTNY",
+   "title": "At the heart of the global flower trade",
+   "type": "video",
+   "place": "Royal FloraHolland flower auction, Aalsmeer",
+   "url": "https://youtu.be/o2rn910Koks",
+   "creator": null,
+   "channel": "Monocle Films",
+   "lat": 52.25828,
+   "lon": 4.78259
+  },
+  {
+   "id": "4hk4BGhNASvNzjJzrR7LGs",
+   "title": "Inside an opulent Art Deco cinema",
+   "type": "video",
+   "place": "Tuschinski cinema",
+   "url": "https://youtu.be/0kgYGBapUn0",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.36643,
+   "lon": 4.89467
+  },
+  {
+   "id": "GNEVaH3odZMi6NmnmWYnd",
+   "title": "Three of Amsterdam’s most unusual hotels",
+   "type": "video",
+   "place": "Lloyd Hotel",
+   "url": "https://youtu.be/AmeIFsKGI3g",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.37433,
+   "lon": 4.93483
+  },
+  {
+   "id": "2TAQsgI0AKtPnV6aIuDwI1",
+   "title": "Tea and brunch at the smallest house in Amsterdam",
+   "type": "video",
+   "place": "Het Kleinste Huis tea shop, Oude Hoogstraat",
+   "url": "https://youtu.be/4vyFGbOubrc",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.3712,
+   "lon": 4.8977
+  },
+  {
+   "id": "3of46556NKfP6RL8KA1dIn",
+   "title": "Primary colors with Piet Mondrian",
+   "type": "video",
+   "place": "Kunstmuseum Den Haag, The Hague",
+   "url": "https://youtu.be/yhfg8sT5vis",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.08991,
+   "lon": 4.28065
+  },
+  {
+   "id": "64lA57NtfT3vckcJSi4VLU",
+   "title": "Celebrating flavors at Foodhallen Amsterdam",
+   "type": "video",
+   "place": "Foodhallen food hall, De Hallen",
+   "url": "https://youtu.be/oTScbUl6_eg",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.36706,
+   "lon": 4.86808
+  },
+  {
+   "id": "792F8XYN0exf1gT1vRiEYC",
+   "title": "Exploring the Dutch wetlands by canoe",
+   "type": "video",
+   "place": "Noord metro station (Wetlands Safari pick-up)",
+   "url": "https://youtu.be/HS4am8PdfEU",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.40163,
+   "lon": 4.93185
+  },
+  {
+   "id": "wwISSd9yo6LQXdokYGeha",
+   "title": "A cacophony of color at the Dutch flower parade",
+   "type": "video",
+   "place": "Bollenstreek flower parade route, Sassenheim",
+   "url": "https://youtu.be/ZTuIP6Cw8Cw",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.22781,
+   "lon": 4.52428
+  },
+  {
+   "id": "7afhkRmj1pc23QBSM8Qwla",
+   "title": "A hotel emblematic of the Amsterdam School style",
+   "type": "video",
+   "place": "Grand Hotel Amrâth (Scheepvaarthuis)",
+   "url": "https://youtu.be/mXzgjY5-VBc",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.37441,
+   "lon": 4.90414
+  },
+  {
+   "id": "16QCcb18geL54CJDlq7gx6",
+   "title": "Picking your own fruit at Fruittuin van West",
+   "type": "video",
+   "place": "Fruittuin van West urban farm",
+   "url": "https://youtu.be/jF0P52gT144",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.38224,
+   "lon": 4.77342
+  },
+  {
+   "id": "5ba4Wj7gFw7s23ffSIwi86",
+   "title": "A riding school with a history",
+   "type": "video",
+   "place": "Hollandsche Manege riding school",
+   "url": "https://youtu.be/jijqjXYkEwQ",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.36144,
+   "lon": 4.87187
+  },
+  {
+   "id": "3i1ciz0jPeZneKBShsXwh",
+   "title": "The Netherlands in miniature",
+   "type": "video",
+   "place": "Madurodam miniature park, The Hague",
+   "url": "https://www.youtube.com/watch?v=ofGXKSCbtpU",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.09947,
+   "lon": 4.29693
+  },
+  {
+   "id": "61RrR6YGVAaoEXdNE9CDpQ",
+   "title": "A museum for things too small to see",
+   "type": "video",
+   "place": "Micropia museum",
+   "url": "https://youtu.be/g6zvy3wLYpU",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.3669,
+   "lon": 4.91258
+  },
+  {
+   "id": "1tEm5Ph1ZrEtMv47ClGyuf",
+   "title": "A small distillery tucked away in the Red Light District ",
+   "type": "video",
+   "place": "Wynand Fockink distillery and tasting room",
+   "url": "https://youtu.be/_0tejuC_Feg",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.37231,
+   "lon": 4.89533
+  },
+  {
+   "id": "65U3IObAfyPKBknpHB2Tal",
+   "title": "Creativity and curiosity in Amsterdam Noord",
+   "type": "video",
+   "place": "Blom & Blom lamp shop",
+   "url": "https://youtu.be/HpS0YZoNpVk",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.39045,
+   "lon": 4.78057
+  },
+  {
+   "id": "5omTqBFwIcsOSTuAVQmSkC",
+   "title": "Relaxing in a 400-year-old botanical garden",
+   "type": "video",
+   "place": "Hortus Botanicus botanical garden",
+   "url": "https://youtu.be/KoydNW5J9WU",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.36666,
+   "lon": 4.90818
+  },
+  {
+   "id": "6F5HZFo5YvwEmTNPm3b4zg",
+   "title": "Organic ice cream on a stick",
+   "type": "video",
+   "place": "IJsmanschap popsicle bar",
+   "url": "https://youtu.be/7aZpz3GQPNo",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.36445,
+   "lon": 4.85233
+  },
+  {
+   "id": "3kr3n46EiRO7Iu5mJIvN3O",
+   "title": "Museums of mutation and morbidity ",
+   "type": "video",
+   "place": "Museum Vrolik, Amsterdam UMC hospital",
+   "url": "https://youtu.be/FB82ZHlX3hU",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.29416,
+   "lon": 4.96
+  },
+  {
+   "id": "3qpiHrloaXB62KZf8zfuzK",
+   "title": "Apartments where density and nature coexist",
+   "type": "video",
+   "place": "Parkrand apartment building, Geuzenveld",
+   "url": "https://youtu.be/jQEwX7s7PFw",
+   "creator": null,
+   "channel": "Dezeen",
+   "lat": 52.35616,
+   "lon": 4.79763
+  },
+  {
+   "id": "1P5wuvMvFP5WoTCbynZW1p",
+   "title": "The clock at Schipol Airport with a man inside ",
+   "type": "video",
+   "place": "Maarten Baas ‘Real Time’ clock, Schiphol Airport",
+   "url": "https://youtu.be/e_3KY2gWDwg",
+   "creator": null,
+   "channel": "Amsterdam Calling",
+   "lat": 52.30962,
+   "lon": 4.76525
+  },
+  {
+   "id": "4lk3w2ihm2lD3hlOfCpxE0",
+   "title": "Building to meet diverse needs and lifestyles ",
+   "type": "video",
+   "place": "Silodam apartment building",
+   "url": "https://youtu.be/FmEufmB8B6E",
+   "creator": null,
+   "channel": "Dezeen",
+   "lat": 52.39081,
+   "lon": 4.89122
+  },
+  {
+   "id": "79Z7z9RZMRKE3QqVKW4VK4",
+   "title": "How to print a bridge",
+   "type": "video",
+   "place": "MX3D 3D-printed bridge, Oudezijds Achterburgwal",
+   "url": "https://youtu.be/SEaht2tQ8P8",
+   "creator": null,
+   "channel": "Dezeen",
+   "lat": 52.3726,
+   "lon": 4.89803
+  },
+  {
+   "id": "b9thVCOYbom0RrVVNnYey",
+   "title": "A study in brick and glass",
+   "type": "video",
+   "place": "Chanel ‘Crystal Houses’ store, P.C. Hooftstraat",
+   "url": "https://youtu.be/3JwcKQRdJXA",
+   "creator": null,
+   "channel": "Dezeen",
+   "lat": 52.36016,
+   "lon": 4.87989
+  },
+  {
+   "id": "2FghxYf8pjaUnGhhQO8Tv",
+   "title": "Living below sea level",
+   "type": "video",
+   "place": "Schiphol Airport",
+   "url": "https://youtu.be/ssWm6D8TzFs",
+   "creator": null,
+   "channel": "CNA",
+   "lat": 52.31053,
+   "lon": 4.76827
+  },
+  {
+   "id": "1ReO4xUtqwwv6RokgAAZCy",
+   "title": "The last of a dying breed",
+   "type": "podcast",
+   "place": "Artis Zoo",
+   "url": "https://overcast.fm/+NsREcTwjI",
+   "creator": null,
+   "channel": "This Day in History Class",
+   "lat": 52.366,
+   "lon": 4.91653
+  },
+  {
+   "id": "7HdLohOOITVjqMwVeOl36x",
+   "title": "Art and food in the Dutch Golden Age",
+   "type": "video",
+   "place": "Mauritshuis museum, The Hague",
+   "url": "https://youtu.be/dM2QZwhPgtk",
+   "creator": null,
+   "channel": "The Art Assignment",
+   "lat": 52.08042,
+   "lon": 4.3143
+  },
+  {
+   "id": "74YxGUCp6soZnxRc4o3ssm",
+   "title": "In pursuit of sustainable denim",
+   "type": "video",
+   "place": "Denim City, De Hallen",
+   "url": "https://youtu.be/DnvJJCKnhTk",
+   "creator": null,
+   "channel": "Eileen Aldis",
+   "lat": 52.36669,
+   "lon": 4.86777
+  },
+  {
+   "id": "clo7pgi2enzhyfWzXXT08",
+   "title": "A primer on Dutch politics with Pieter Gerrit Kroeger",
+   "type": "podcast",
+   "place": "Binnenhof parliament complex, The Hague",
+   "url": "https://overcast.fm/+IJZYIuvmw",
+   "creator": null,
+   "channel": "Here in Holland",
+   "lat": 52.07959,
+   "lon": 4.31327
+  },
+  {
+   "id": "3T8HluKbuf6g2xvSeWHKEz",
+   "title": "Cycling in Amsterdam and beyond",
+   "type": "podcast",
+   "place": "Weteringschans, opposite the Rijksmuseum",
+   "url": "https://overcast.fm/+IJZZ2g1Uo",
+   "creator": null,
+   "channel": "Here in Holland",
+   "lat": 52.3611,
+   "lon": 4.88666
+  },
+  {
+   "id": "6tb3zxy7sYgm35oebG6HHB",
+   "title": "Bijlmermeer: A futuristic city from the past (Part 2)",
+   "type": "podcast",
+   "place": "Bijlmermeer (area)",
+   "url": "https://overcast.fm/+DAhgaEs",
+   "creator": null,
+   "channel": "99% Invisible",
+   "lat": 52.32015,
+   "lon": 4.97139
+  },
+  {
+   "id": "6KhU619k9Bygg1ASBdHKT5",
+   "title": "Bijlmermeer: A futuristic city from the past (Part 1)",
+   "type": "podcast",
+   "place": "Bijlmermeer (area)",
+   "url": "https://overcast.fm/+DBfQOY4",
+   "creator": null,
+   "channel": "99% Invisible",
+   "lat": 52.32065,
+   "lon": 4.97098
   },
   {
    "id": "2XZqrpIyvIqkc1sbSrVi0L",
    "title": "Lazy days at the Vondelpark",
    "type": "video",
    "place": "Vondelpark",
+   "url": "https://youtu.be/p9RH6mOvtn0",
+   "creator": null,
+   "channel": "Lonely Planet",
    "lat": 52.35799,
    "lon": 4.86865
   },
@@ -854,6 +1238,9 @@
    "title": "The world’s first multinational corporation",
    "type": "podcast",
    "place": "Oost-Indisch Huis (former VOC headquarters)",
+   "url": "https://overcast.fm/+IPNxVmcEQ",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 52.37083,
    "lon": 4.89806
   },
@@ -862,6 +1249,9 @@
    "title": "Trading everything for a tulip bulb",
    "type": "podcast",
    "place": "Bloemenmarkt flower market",
+   "url": "https://overcast.fm/+JJ-XxG9rM",
+   "creator": null,
+   "channel": "50 Things That Made the Modern Economy",
    "lat": 52.36683,
    "lon": 4.89131
   },
@@ -870,30 +1260,20 @@
    "title": "Repairing the baroque organ at Oude Kerk",
    "type": "podcast",
    "place": "Oude Kerk church",
+   "url": "https://overcast.fm/+fymIfUmbo",
+   "creator": null,
+   "channel": "ArtsTalk Radio Holland",
    "lat": 52.37436,
    "lon": 4.89821
-  },
-  {
-   "id": "6zSaF44kmm0YKq97Cr4Oql",
-   "title": "Mein junges Leben hat ein End",
-   "type": "music",
-   "place": "Oude Kerk church",
-   "lat": 52.3744,
-   "lon": 4.8982
-  },
-  {
-   "id": "FnP2fhfva7aLi7QapZe1R",
-   "title": "Anne Frank Remembered",
-   "type": "movie",
-   "place": "Anne Frank House",
-   "lat": 52.3752,
-   "lon": 4.884
   },
   {
    "id": "5zF0mBWObK4WSUA7oUNeVu",
    "title": "Jordaan neighborhood walk with travel writer Rick Steves",
    "type": "audiotour",
    "place": "Dam Square",
+   "url": "https://overcast.fm/+6eXoZ4aw",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
    "lat": 52.37316,
    "lon": 4.89256
   },
@@ -902,22 +1282,20 @@
    "title": "Red Light District walk with travel writer Rick Steves",
    "type": "audiotour",
    "place": "Dam Square",
+   "url": "https://overcast.fm/+6eUlaT2E",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
    "lat": 52.37285,
    "lon": 4.89412
-  },
-  {
-   "id": "1IwGatp3KvagJSOsfOuU7d",
-   "title": "Hocus Pocus",
-   "type": "music",
-   "place": "Dam Square",
-   "lat": 52.373,
-   "lon": 4.8933
   },
   {
    "id": "1qIxSZ8fbr8XLErs4Jkj7M",
    "title": "A new life for a Syrian refugee in the Netherlands",
    "type": "podcast",
    "place": "Amsterdam Centraal station",
+   "url": "https://overcast.fm/+IJZbP-N18",
+   "creator": null,
+   "channel": "Here in Holland",
    "lat": 52.3789,
    "lon": 4.90155
   },
@@ -926,6 +1304,9 @@
    "title": "Amsterdam city walk with travel writer Rick Steves",
    "type": "audiotour",
    "place": "Amsterdam Centraal station",
+   "url": "https://overcast.fm/+6eWA_8Dk",
+   "creator": null,
+   "channel": "Rick Steves Audio Tours",
    "lat": 52.37811,
    "lon": 4.89989
   },
@@ -934,22 +1315,20 @@
    "title": "Four art deco gems in central Amsterdam",
    "type": "video",
    "place": "Amsterdam Centraal station",
+   "url": "https://youtu.be/WEvMm_sxOQg",
+   "creator": null,
+   "channel": "Amsterdam Calling",
    "lat": 52.37819,
    "lon": 4.90092
-  },
-  {
-   "id": "NaliSk6OgyfU5UhCgyAzV",
-   "title": "Loving Vincent",
-   "type": "movie",
-   "place": "Van Gogh Museum",
-   "lat": 52.3581,
-   "lon": 4.8812
   },
   {
    "id": "59uqvkdnKaZxcxJ9tIffee",
    "title": "Brushstrokes that speak of anguish",
    "type": "video",
    "place": "Van Gogh Museum",
+   "url": "https://youtu.be/nKNAZr0QJzs",
+   "creator": null,
+   "channel": "The Nerdwriter",
    "lat": 52.35841,
    "lon": 4.88108
   },
@@ -958,6 +1337,9 @@
    "title": "Shedding light on The Night Watch",
    "type": "video",
    "place": "Rijksmuseum",
+   "url": "https://youtu.be/5E8f64yj1Jk",
+   "creator": null,
+   "channel": "The Nerdwriter",
    "lat": 52.35984,
    "lon": 4.88507
   },
@@ -966,22 +1348,20 @@
    "title": "The solemn respect of Johannes Vermeer",
    "type": "video",
    "place": "Rijksmuseum",
+   "url": "https://youtu.be/9kfeWpLry3U",
+   "creator": null,
+   "channel": "The School of Life",
    "lat": 52.36001,
    "lon": 4.88527
-  },
-  {
-   "id": "7FLc1lmwWwsM9s8h0aJ6wK",
-   "title": "Nightwatching",
-   "type": "movie",
-   "place": "Rijksmuseum",
-   "lat": 52.36,
-   "lon": 4.8852
   },
   {
    "id": "JnG1iIsd15OXBhToEt7cV",
    "title": "Using art as therapy for the mind",
    "type": "video",
    "place": "Rijksmuseum",
+   "url": "https://youtu.be/GmFRDWBUaoY",
+   "creator": null,
+   "channel": "Monocle Films",
    "lat": 52.35999,
    "lon": 4.88522
   },
@@ -990,6 +1370,9 @@
    "title": "An Amsterdam spa with a Parisian past",
    "type": "video",
    "place": "",
+   "url": "https://youtu.be/ovf9g7dg0LE",
+   "creator": null,
+   "channel": "Amsterdam Calling",
    "lat": 52.37626,
    "lon": 4.8897
   }

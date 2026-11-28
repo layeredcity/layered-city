@@ -2,10 +2,662 @@
  "city": "Edinburgh",
  "pins": [
   {
+   "id": "7Gfstx3xWZWnbo3LhUnnzr",
+   "title": "Writers and drinkers share the same Old and New Town pub tables",
+   "type": "video",
+   "place": "Rose Street",
+   "url": "https://youtu.be/lp_A51ceFag",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 55.9548,
+   "lon": -3.1972
+  },
+  {
+   "id": "7pXvczNnH1gQ7JH4I2I4A0",
+   "title": "Masons and conservators keep the castle on the rock standing",
+   "type": "video",
+   "place": "Edinburgh Castle",
+   "url": "https://youtu.be/53jw5Ctb-Yg",
+   "creator": null,
+   "channel": "Historic Environment Scotland",
+   "lat": 55.9486,
+   "lon": -3.1999
+  },
+  {
+   "id": "7KR3FEyzKpxAviC93P0zvy",
+   "title": "Scotland’s national gallery walks through its Impressionist rooms",
+   "type": "video",
+   "place": "Scottish National Gallery",
+   "url": "https://youtu.be/pfrzTStTtRI",
+   "creator": null,
+   "channel": "nationalgalleries",
+   "lat": 55.9509,
+   "lon": -3.1958
+  },
+  {
+   "id": "6Y3Z6aRzmRq1xC6iOR1x0X",
+   "title": "A cobbled spine runs downhill from the castle to the palace",
+   "type": "video",
+   "place": "Royal Mile",
+   "url": "https://youtu.be/r4tYOugo-R8",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 55.95,
+   "lon": -3.1883
+  },
+  {
+   "id": "7aj4NcM2hMEsaVER9DaySl",
+   "title": "Rich and poor share a staircase in the tenements of Auld Reekie",
+   "type": "video",
+   "place": "Royal Mile",
+   "url": "https://youtu.be/LHw5viAI9IE",
+   "creator": null,
+   "channel": "History Hit",
+   "lat": 55.9496,
+   "lon": -3.19
+  },
+  {
+   "id": "0x03OIhLDUFPsFLj55j0J",
+   "title": "The Prime of Miss Jean Brodie",
+   "type": "book",
+   "place": "Bruntsfield Links (area)",
+   "url": "https://goodreads.com/search?q=prime%20of%20miss%20jean%20brodie%20spark",
+   "creator": "Muriel Spark",
+   "channel": null,
+   "lat": 55.9395,
+   "lon": -3.2023
+  },
+  {
+   "id": "49EAMVY5jb8zMgs8TiHVNy",
+   "title": "Trainspotting",
+   "type": "book",
+   "place": "Foot of the Walk, Leith",
+   "url": "https://goodreads.com/search?q=trainspotting%20irvine%20welsh",
+   "creator": "Irvine Welsh",
+   "channel": null,
+   "lat": 55.9692,
+   "lon": -3.1678
+  },
+  {
+   "id": "6X6UnfXccvqqdnXqlVX0yD",
+   "title": "Festival",
+   "type": "movie",
+   "place": "Royal Mile",
+   "url": "https://justwatch.com/us/search?q=Festival%202005%20Griffin",
+   "creator": "Annie Griffin",
+   "channel": null,
+   "lat": 55.95,
+   "lon": -3.187
+  },
+  {
+   "id": "kIRcyQwzbjpIS78uTxPTB",
+   "title": "Sunshine on Leith",
+   "type": "music",
+   "place": "The Shore, Leith",
+   "url": "https://open.spotify.com/search/The%20Proclaimers%20Sunshine%20on%20Leith",
+   "creator": "The Proclaimers",
+   "channel": null,
+   "lat": 55.9754,
+   "lon": -3.1708
+  },
+  {
+   "id": "5n6pHRnZpco9kmBf64tjXE",
+   "title": "Roygbiv",
+   "type": "music",
+   "place": "Pentland Hills (area)",
+   "url": "https://open.spotify.com/search/Boards%20of%20Canada%20Roygbiv",
+   "creator": "Boards of Canada",
+   "channel": null,
+   "lat": 55.7667,
+   "lon": -3.4167
+  },
+  {
+   "id": "2rQpKXbAbbUtAO9vSkJu17",
+   "title": "An American choir fills a crowned Scottish kirk with song",
+   "type": "video",
+   "place": "St. Giles’ Cathedral",
+   "url": "https://youtu.be/ZTFWvOKvOcM",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 55.9495,
+   "lon": -3.1908
+  },
+  {
+   "id": "2UIcuhhVg0OgNdCQxNo56l",
+   "title": "Eight uninvited theater companies start the world’s biggest arts festival",
+   "type": "video",
+   "place": "Fringe Shop, High Street",
+   "url": "https://youtu.be/knA4KycW6nk",
+   "creator": null,
+   "channel": "The Edinburgh Festival Fringe",
+   "lat": 55.9497,
+   "lon": -3.1897
+  },
+  {
+   "id": "6bImQQQ9BbRAbP2RmZ79L9",
+   "title": "Scotland’s crown jewels sit in a fortress built on an old volcano",
+   "type": "video",
+   "place": "Edinburgh Castle",
+   "url": "https://youtu.be/qjFzLVKeRV4",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 55.9483,
+   "lon": -3.2008
+  },
+  {
+   "id": "26XR1zogB8jNxEIpPtafF0",
+   "title": "The Heart of Midlothian",
+   "type": "book",
+   "place": "Heart of Midlothian mosaic (site of the Old Tolbooth)",
+   "url": "https://goodreads.com/search?q=heart%20of%20midlothian%20walter%20scott",
+   "creator": "Walter Scott",
+   "channel": null,
+   "lat": 55.9496,
+   "lon": -3.1917
+  },
+  {
+   "id": "FGyplCUefpmUnJA6zctK3",
+   "title": "The Anatomy Murders",
+   "type": "book",
+   "place": "Surgeons’ Hall Museums",
+   "url": "https://goodreads.com/search?q=the%20anatomy%20murders%20rosner",
+   "creator": "Lisa Rosner",
+   "channel": null,
+   "lat": 55.9467,
+   "lon": -3.1849
+  },
+  {
+   "id": "7MjpQGYgyzkf1NfBFMxwxz",
+   "title": "The Prime of Miss Jean Brodie",
+   "type": "movie",
+   "place": "The Meadows (area)",
+   "url": "https://justwatch.com/us/search?q=Prime%20of%20Miss%20Jean%20Brodie",
+   "creator": "Ronald Neame",
+   "channel": null,
+   "lat": 55.939,
+   "lon": -3.193
+  },
+  {
+   "id": "6fpNfqe6PyPzVTh6fupPJL",
+   "title": "Enlightenment in Edinburgh: Exploring the City that Changed the World",
+   "type": "audiotour",
+   "place": "St. Giles’ Cathedral",
+   "url": "https://voicemap.me/tour/edinburgh/enlightenment-in-edinburgh-exploring-the-city-that-changed-the-world",
+   "creator": "Margaret Hubbard",
+   "channel": null,
+   "lat": 55.9495,
+   "lon": -3.1914
+  },
+  {
+   "id": "7JLsEQDLCLZYycT4Lf81XU",
+   "title": "A plowman poet conquers Edinburgh society",
+   "type": "podcast",
+   "place": "Writers’ Museum, Lady Stair’s Close",
+   "url": "https://open.spotify.com/search/Ear Read This Address to Edinburgh Burns",
+   "creator": null,
+   "channel": "Ear Read This",
+   "lat": 55.9497,
+   "lon": -3.1937
+  },
+  {
+   "id": "63jdegH2aqRRRTOGgC3f6d",
+   "title": "A coronation stone comes home after 700 years",
+   "type": "podcast",
+   "place": "Edinburgh Castle",
+   "url": "https://open.spotify.com/search/This Day in History Class Stone of Destiny",
+   "creator": null,
+   "channel": "This Day in History Class",
+   "lat": 55.9486,
+   "lon": -3.1999
+  },
+  {
+   "id": "2cXcSAhFMWLrnyQ0xstGnr",
+   "title": "A gunpowder factory gives a neighborhood its name",
+   "type": "podcast",
+   "place": "Powderhall (area)",
+   "url": "https://open.spotify.com/search/A History of Edinburgh Powderhall Ruth Gray",
+   "creator": null,
+   "channel": "A History of Edinburgh",
+   "lat": 55.9666,
+   "lon": -3.1943
+  },
+  {
+   "id": "1CErJ7zi3wCRLdoW4mjF2l",
+   "title": "The real doctor behind Sherlock Holmes",
+   "type": "podcast",
+   "place": "",
+   "url": "https://open.spotify.com/search/Legends of Surgery Joseph Bell Sherlock",
+   "creator": null,
+   "channel": "Legends of Surgery",
+   "lat": 55.9485,
+   "lon": -3.1831
+  },
+  {
+   "id": "5PPSQUFNcNvE13gDeTIYis",
+   "title": "A Victorian garden cemetery goes back to nature",
+   "type": "podcast",
+   "place": "Warriston Cemetery",
+   "url": "https://open.spotify.com/search/A History of Edinburgh Ruth Gray Warriston",
+   "creator": null,
+   "channel": "A History of Edinburgh",
+   "lat": 55.969,
+   "lon": -3.198
+  },
+  {
+   "id": "4V3KNr7bL9eFdwlHWtwIYG",
+   "title": "Leith’s forgotten role as a whisky engine room",
+   "type": "podcast",
+   "place": "The Vaults (Scotch Malt Whisky Society), Leith",
+   "url": "https://open.spotify.com/search/Not Another Whisky Podcast Leith Vaults",
+   "creator": null,
+   "channel": "Not Another Whisky Podcast",
+   "lat": 55.9736,
+   "lon": -3.1726
+  },
+  {
+   "id": "5PjqF0EpiuEERoGNdKDi8Q",
+   "title": "Three thousand years on an extinct volcano",
+   "type": "podcast",
+   "place": "Edinburgh Castle",
+   "url": "https://open.spotify.com/search/Dan Snow History Hit Edinburgh Castle",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
+   "lat": 55.9486,
+   "lon": -3.1999
+  },
+  {
+   "id": "2BuEuVOv91Zv0cZo7fi9Qm",
+   "title": "Rubbing a skeptic’s toe for luck",
+   "type": "podcast",
+   "place": "David Hume statue, High Street",
+   "url": "https://open.spotify.com/search/LRB History of Ideas David Hume Runciman",
+   "creator": null,
+   "channel": "History of Ideas",
+   "lat": 55.9496,
+   "lon": -3.1925
+  },
+  {
+   "id": "7G8Mor4WzQiM3IZcmaxJFr",
+   "title": "Writing Harry Potter with a view of the castle",
+   "type": "podcast",
+   "place": "Elephant House café, George IV Bridge",
+   "url": "https://open.spotify.com/search/Poet Laureate Gone to His Shed JK Rowling",
+   "creator": null,
+   "channel": "The Poet Laureate Has Gone to His Shed",
+   "lat": 55.9476,
+   "lon": -3.1918
+  },
+  {
+   "id": "6WXAsX04t6sCMBAF1lAEfB",
+   "title": "A dog’s fourteen-year vigil at his owner’s grave",
+   "type": "podcast",
+   "place": "Greyfriars Bobby statue",
+   "url": "https://open.spotify.com/search/Stories of Scotland Greyfriars Bobby",
+   "creator": null,
+   "channel": "Stories of Scotland",
+   "lat": 55.9469,
+   "lon": -3.1913
+  },
+  {
+   "id": "6XR9UBbXe3gAJlcfdumCat",
+   "title": "A councillor’s double life inspires Jekyll and Hyde",
+   "type": "podcast",
+   "place": "Heart of Midlothian mosaic (site of the Old Tolbooth)",
+   "url": "https://open.spotify.com/search/HISTORY This Week Hanging of Jekyll and Hyde",
+   "creator": null,
+   "channel": "HISTORY This Week",
+   "lat": 55.9496,
+   "lon": -3.1916
+  },
+  {
+   "id": "6eNL7nxq4H8jVi58CwF1xF",
+   "title": "Grave-robbers turn to murder to supply anatomists",
+   "type": "podcast",
+   "place": "Surgeons’ Hall Museums",
+   "url": "https://open.spotify.com/search/Beyond The Knife Anatomy Murders Burke Hare",
+   "creator": null,
+   "channel": "Beyond The Knife",
+   "lat": 55.9467,
+   "lon": -3.1853
+  },
+  {
+   "id": "14fVk2M4hZ78xn2y8uWwu8",
+   "title": "A husband’s murder seals a queen’s downfall",
+   "type": "podcast",
+   "place": "Site of Kirk o’ Field, Old College",
+   "url": "https://open.spotify.com/search/Noble Blood Husbands of the Scottish Queen",
+   "creator": null,
+   "channel": "Noble Blood",
+   "lat": 55.9474,
+   "lon": -3.1873
+  },
+  {
+   "id": "xSkUF2zzPTV9nMz0pZEgF",
+   "title": "History and Architecture in Edinburgh’s Dean Village",
+   "type": "audiotour",
+   "place": "Stockbridge Market",
+   "url": "https://voicemap.me/tour/edinburgh/history-and-architecture-in-edinburgh-s-dean-village",
+   "creator": "Olga Gogoleva",
+   "channel": null,
+   "lat": 55.9577,
+   "lon": -3.2085
+  },
+  {
+   "id": "5P3LaLve8fnzlxmW3Aqoq6",
+   "title": "Edinburgh’s New Town: The Architecture of Money",
+   "type": "audiotour",
+   "place": "City Chambers, High Street",
+   "url": "https://voicemap.me/tour/edinburgh/edinburgh-s-new-town-the-architecture-of-money",
+   "creator": "Olga Gogoleva",
+   "channel": null,
+   "lat": 55.9499,
+   "lon": -3.1902
+  },
+  {
+   "id": "7mG8JPOLVxBW2yiveRlqHY",
+   "title": "Edinburgh’s Old Town Highlights: The Origin of Scottish Design",
+   "type": "audiotour",
+   "place": "Princes Street Gardens",
+   "url": "https://voicemap.me/tour/edinburgh/edinburgh-s-old-town-highlights-the-origin-of-scottish-design",
+   "creator": "Olga Gogoleva",
+   "channel": null,
+   "lat": 55.9518,
+   "lon": -3.196
+  },
+  {
+   "id": "5qS1SMyK2wKC4eP1spiKfF",
+   "title": "A Royal Mile Tour: History and Highlights from Edinburgh’s Old Town",
+   "type": "audiotour",
+   "place": "Witches’ Well, Castle Esplanade",
+   "url": "https://voicemap.me/tour/edinburgh/a-royal-mile-tour-history-and-highlights-from-edinburgh-s-old-town",
+   "creator": "Martin Donnelly",
+   "channel": null,
+   "lat": 55.9489,
+   "lon": -3.1965
+  },
+  {
+   "id": "7cUf30MaGTaDOlFofaMSjl",
+   "title": "Harry Potter’s Edinburgh: From the Castle to Diagon Alley, Greyfriars and Elephant House",
+   "type": "audiotour",
+   "place": "Castle Esplanade",
+   "url": "https://voicemap.me/tour/edinburgh/harry-potter-s-edinburgh-a-tour-from-the-castle-to-diagon-alley-greyfriars-and-elephant-house",
+   "creator": "Katrina Milne",
+   "channel": null,
+   "lat": 55.9487,
+   "lon": -3.1974
+  },
+  {
+   "id": "5NCfErrQbIS1NjclbQk51h",
+   "title": "The Dark Side of the Mile: Murders, Monsters and Ghosts of Edinburgh",
+   "type": "audiotour",
+   "place": "Palace of Holyroodhouse",
+   "url": "https://voicemap.me/tour/edinburgh/the-dark-side-of-the-mile-murders-monsters-and-ghosts-of-edinburgh",
+   "creator": "Jonny Sweet",
+   "channel": null,
+   "lat": 55.952,
+   "lon": -3.1728
+  },
+  {
+   "id": "5liZPAb22dk2hES4sA0u5o",
+   "title": "Women Hidden in Plain Sight: Uncovering Edinburgh’s Old Town",
+   "type": "audiotour",
+   "place": "Greyfriars Kirkyard",
+   "url": "https://voicemap.me/tour/edinburgh/women-hidden-in-plain-sight-uncovering-edinburgh-s-old-town",
+   "creator": "Anna Dowling-Clarke",
+   "channel": null,
+   "lat": 55.9467,
+   "lon": -3.1916
+  },
+  {
+   "id": "40HrZkYaloTEOpBZkcxGg2",
+   "title": "A History of Witchcraft in Scotland: From Holyrood Palace to Edinburgh Castle",
+   "type": "audiotour",
+   "place": "Palace of Holyroodhouse",
+   "url": "https://voicemap.me/tour/edinburgh/a-history-of-witchcraft-in-scotland-from-holyrood-palace-to-edinburgh-castle",
+   "creator": "Katrina Milne",
+   "channel": null,
+   "lat": 55.952,
+   "lon": -3.1728
+  },
+  {
+   "id": "1BgLVyOczOhFKBTkYQdjMz",
+   "title": "In the Footsteps of Mary Queen of Scots: An Edinburgh Old Town Walking Tour",
+   "type": "audiotour",
+   "place": "Palace of Holyroodhouse",
+   "url": "https://voicemap.me/tour/edinburgh/in-the-footsteps-of-mary-queen-of-scots-an-edinburgh-old-town-walking-tour",
+   "creator": "Katrina Milne",
+   "channel": null,
+   "lat": 55.9528,
+   "lon": -3.1736
+  },
+  {
+   "id": "1LrSmnWSyY0VEwFOlUVU7e",
+   "title": "Mary Queen of Scots’ Edinburgh: The Royal Mile",
+   "type": "audiotour",
+   "place": "Palace of Holyroodhouse",
+   "url": "https://voicemap.me/tour/edinburgh/mary-queen-of-scots-edinburgh-the-royal-mile",
+   "creator": "History Hit",
+   "channel": null,
+   "lat": 55.952,
+   "lon": -3.1728
+  },
+  {
+   "id": "4QtpG3CuHKfp1HEWYZpVY0",
+   "title": "Edinburgh’s Dean Village: A Historical Wander along the Water of Leith Walkway",
+   "type": "audiotour",
+   "place": "Dean Village (area)",
+   "url": "https://voicemap.me/tour/edinburgh/edinburgh-s-dean-village-a-historical-wander-along-the-water-of-leith-walkway",
+   "creator": "Coffee Coos of Dean Village",
+   "channel": null,
+   "lat": 55.9524,
+   "lon": -3.2171
+  },
+  {
+   "id": "3MsP1WcHG8L16mMnjewYvk",
+   "title": "Edinburgh Crime Walking Tour: Police, Murders and Macabre",
+   "type": "audiotour",
+   "place": "High Street at North Bridge junction",
+   "url": "https://voicemap.me/tour/edinburgh/edinburgh-crime-walking-tour-police-murders-and-macabre",
+   "creator": "David Cunningham",
+   "channel": null,
+   "lat": 55.9503,
+   "lon": -3.1889
+  },
+  {
+   "id": "gkEZs7cCjm9VSvrwDt4lw",
+   "title": "The Royal Mile’s Side Streets and Stories: A Walking Tour with Context",
+   "type": "audiotour",
+   "place": "Castle Esplanade",
+   "url": "https://voicemap.me/tour/edinburgh/the-royal-mile-s-side-streets-and-stories-a-walking-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 55.9488,
+   "lon": -3.1973
+  },
+  {
+   "id": "1xUzVJcyU3pNUDJX2WLLic",
+   "title": "Edinburgh’s Literary Old Town: Writers, Philosophers and Poets",
+   "type": "audiotour",
+   "place": "Writers’ Museum, Lady Stair’s Close",
+   "url": "https://voicemap.me/tour/edinburgh/edinburgh-s-literary-old-town-writers-philosophers-and-poets",
+   "creator": "Jonny Sweet",
+   "channel": null,
+   "lat": 55.9497,
+   "lon": -3.1954
+  },
+  {
+   "id": "7xnSA2IyR3gWMSBGVWqXtg",
+   "title": "Edinburgh’s Literary New Town: Homes and Haunts of Scottish Writers",
+   "type": "audiotour",
+   "place": "Scott Monument",
+   "url": "https://voicemap.me/tour/edinburgh/edinburgh-s-literary-new-town-homes-and-haunts-of-scottish-writers",
+   "creator": "Jonny Sweet",
+   "channel": null,
+   "lat": 55.952,
+   "lon": -3.1958
+  },
+  {
+   "id": "4eMxaDh1nf66QfJAQun4tQ",
+   "title": "A History of Edinburgh’s Old Town and its Characters",
+   "type": "audiotour",
+   "place": "National Museum of Scotland",
+   "url": "https://voicemap.me/tour/edinburgh/a-history-of-edinburgh-s-old-town-and-its-characters",
+   "creator": "Martin Webster",
+   "channel": null,
+   "lat": 55.9471,
+   "lon": -3.1908
+  },
+  {
+   "id": "4PcWQvTnwV2sPvwXIr9LuA",
+   "title": "Robert Louis Stevenson’s Edinburgh Trail: The Childhood Years",
+   "type": "audiotour",
+   "place": "Ross Fountain, West Princes Street Gardens",
+   "url": "https://voicemap.me/tour/edinburgh/robert-louis-stevenson-s-edinburgh-trail-the-childhood-years",
+   "creator": "Martin White",
+   "channel": null,
+   "lat": 55.95,
+   "lon": -3.2024
+  },
+  {
+   "id": "6u7GKjrTGYw9Fv4Z3nTiP8",
+   "title": "Queer History and Iconic Places: An Edinburgh Walking Tour",
+   "type": "audiotour",
+   "place": "Calton Hill",
+   "url": "https://voicemap.me/tour/edinburgh/queer-history-and-iconic-places-an-edinburgh-walking-tour",
+   "creator": "Hannah Mackay Tait",
+   "channel": null,
+   "lat": 55.9532,
+   "lon": -3.1818
+  },
+  {
+   "id": "7FU7Sw29093td63Aoxrnx",
+   "title": "Building a New Scotland: Edinburgh’s New Town with Context",
+   "type": "audiotour",
+   "place": "West Register House, Charlotte Square",
+   "url": "https://voicemap.me/tour/edinburgh/building-a-new-scotland-a-walk-through-edinburgh-s-new-town-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 55.9516,
+   "lon": -3.2088
+  },
+  {
+   "id": "fBDYtYcSSo6wKaupKfauB",
+   "title": "Edinburgh New Town: A Literary Walking Tour",
+   "type": "audiotour",
+   "place": "Waverley station",
+   "url": "https://voicemap.me/tour/edinburgh/edinburgh-new-town",
+   "creator": "Andrew Lownie",
+   "channel": null,
+   "lat": 55.9525,
+   "lon": -3.192
+  },
+  {
+   "id": "71K7w7as4IzVxOJTnMEnYi",
+   "title": "Robert Louis Stevenson’s Edinburgh Trail: The University Years",
+   "type": "audiotour",
+   "place": "",
+   "url": "https://voicemap.me/tour/edinburgh/robert-louis-stevenson-s-edinburgh-trail-the-university-years",
+   "creator": "Martin White",
+   "channel": null,
+   "lat": 55.9497,
+   "lon": -3.1912
+  },
+  {
+   "id": "19oDzX2cstIhLa7fuAxSzw",
+   "title": "Burke & Hare",
+   "type": "movie",
+   "place": "Grassmarket",
+   "url": "https://justwatch.com/us/search?q=Burke%20and%20Hare%202010",
+   "creator": "John Landis",
+   "channel": null,
+   "lat": 55.947,
+   "lon": -3.1965
+  },
+  {
+   "id": "4efaBDYrsoZvODguKpigZc",
+   "title": "Filth",
+   "type": "movie",
+   "place": "Old Town (area)",
+   "url": "https://justwatch.com/us/search?q=Filth%202013",
+   "creator": "Jon S. Baird",
+   "channel": null,
+   "lat": 55.951,
+   "lon": -3.193
+  },
+  {
+   "id": "5AKV5zYIsyTAmG86CpNNGQ",
+   "title": "The Illusionist (L’Illusionniste)",
+   "type": "movie",
+   "place": "Royal Mile",
+   "url": "https://justwatch.com/us/search?q=The%20Illusionist%20Chomet",
+   "creator": "Sylvain Chomet",
+   "channel": null,
+   "lat": 55.9498,
+   "lon": -3.188
+  },
+  {
+   "id": "422zXKEX2TpUVcAnhvG61F",
+   "title": "Hallam Foe",
+   "type": "movie",
+   "place": "Balmoral Hotel clock tower",
+   "url": "https://justwatch.com/us/search?q=Hallam%20Foe",
+   "creator": "David Mackenzie",
+   "channel": null,
+   "lat": 55.9525,
+   "lon": -3.1895
+  },
+  {
+   "id": "3rGweNiuMySnNAYV3gqX55",
+   "title": "Trainspotting",
+   "type": "movie",
+   "place": "Leith (area)",
+   "url": "https://justwatch.com/us/search?q=Trainspotting%201996",
+   "creator": "Danny Boyle",
+   "channel": null,
+   "lat": 55.968,
+   "lon": -3.173
+  },
+  {
+   "id": "5linV9Va4bmd6begaoYcjK",
+   "title": "Greyfriars Bobby",
+   "type": "movie",
+   "place": "Greyfriars Kirkyard",
+   "url": "https://justwatch.com/us/search?q=Greyfriars%20Bobby%201961",
+   "creator": "Don Chaffey",
+   "channel": null,
+   "lat": 55.947,
+   "lon": -3.192
+  },
+  {
+   "id": "2IIJ8PKehNfn4j6AwUPX1K",
+   "title": "Sunshine on Leith",
+   "type": "movie",
+   "place": "The Shore, Leith",
+   "url": "https://justwatch.com/us/search?q=Sunshine%20on%20Leith",
+   "creator": "Dexter Fletcher",
+   "channel": null,
+   "lat": 55.976,
+   "lon": -3.171
+  },
+  {
+   "id": "3K2RB4LuCEh6oFeCfJBA8d",
+   "title": "Restless Natives",
+   "type": "movie",
+   "place": "Princes Street",
+   "url": "https://justwatch.com/us/search?q=Restless%20Natives",
+   "creator": "Michael Hoffman",
+   "channel": null,
+   "lat": 55.952,
+   "lon": -3.195
+  },
+  {
    "id": "1NvVQHYwxuO6czcdBivJee",
    "title": "The Union of Scotland and England, 1707",
    "type": "podcast",
    "place": "Parliament House, Parliament Square",
+   "url": "https://shows.acast.com/dansnowshistoryhit/episodes/scotland-englands-union",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
    "lat": 55.9493,
    "lon": -3.1907
   },
@@ -14,6 +666,9 @@
    "title": "The Covenanters and the National Covenant, 1638",
    "type": "podcast",
    "place": "Greyfriars Kirkyard",
+   "url": "https://www.bbc.co.uk/programmes/m000g3f6",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 55.9467,
    "lon": -3.1925
   },
@@ -22,6 +677,9 @@
    "title": "The Skating Minister by Henry Raeburn",
    "type": "podcast",
    "place": "Scottish National Gallery",
+   "url": "https://podcasts.apple.com/us/podcast/season-2-ep-11-the-skating-minister-the-reverend/id1573430649?i=1000548885466&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
    "lat": 55.9509,
    "lon": -3.196
   },
@@ -30,198 +688,20 @@
    "title": "The Vision after the Sermon by Paul Gauguin",
    "type": "video",
    "place": "Scottish National Gallery",
+   "url": "https://youtu.be/y5lhKvKvWPg",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 55.9509,
    "lon": -3.1958
-  },
-  {
-   "id": "71K7w7as4IzVxOJTnMEnYi",
-   "title": "Robert Louis Stevenson's Edinburgh Trail: The University Years",
-   "type": "audiotour",
-   "place": "",
-   "lat": 55.9497,
-   "lon": -3.1912
-  },
-  {
-   "id": "fBDYtYcSSo6wKaupKfauB",
-   "title": "Edinburgh New Town: A Literary Walking Tour",
-   "type": "audiotour",
-   "place": "Waverley station",
-   "lat": 55.9525,
-   "lon": -3.192
-  },
-  {
-   "id": "7FU7Sw29093td63Aoxrnx",
-   "title": "Building a New Scotland: Edinburgh's New Town with Context",
-   "type": "audiotour",
-   "place": "West Register House, Charlotte Square",
-   "lat": 55.9516,
-   "lon": -3.2088
-  },
-  {
-   "id": "6u7GKjrTGYw9Fv4Z3nTiP8",
-   "title": "Queer History and Iconic Places: An Edinburgh Walking Tour",
-   "type": "audiotour",
-   "place": "Calton Hill",
-   "lat": 55.9532,
-   "lon": -3.1818
-  },
-  {
-   "id": "4PcWQvTnwV2sPvwXIr9LuA",
-   "title": "Robert Louis Stevenson's Edinburgh Trail: The Childhood Years",
-   "type": "audiotour",
-   "place": "Ross Fountain, West Princes Street Gardens",
-   "lat": 55.95,
-   "lon": -3.2024
-  },
-  {
-   "id": "4eMxaDh1nf66QfJAQun4tQ",
-   "title": "A History of Edinburgh's Old Town and its Characters",
-   "type": "audiotour",
-   "place": "National Museum of Scotland",
-   "lat": 55.9471,
-   "lon": -3.1908
-  },
-  {
-   "id": "7xnSA2IyR3gWMSBGVWqXtg",
-   "title": "Edinburgh's Literary New Town: Homes and Haunts of Scottish Writers",
-   "type": "audiotour",
-   "place": "Scott Monument",
-   "lat": 55.952,
-   "lon": -3.1958
-  },
-  {
-   "id": "1xUzVJcyU3pNUDJX2WLLic",
-   "title": "Edinburgh's Literary Old Town: Writers, Philosophers and Poets",
-   "type": "audiotour",
-   "place": "Writers’ Museum, Lady Stair’s Close",
-   "lat": 55.9497,
-   "lon": -3.1954
-  },
-  {
-   "id": "gkEZs7cCjm9VSvrwDt4lw",
-   "title": "The Royal Mile's Side Streets and Stories: A Walking Tour with Context",
-   "type": "audiotour",
-   "place": "Castle Esplanade",
-   "lat": 55.9488,
-   "lon": -3.1973
-  },
-  {
-   "id": "3MsP1WcHG8L16mMnjewYvk",
-   "title": "Edinburgh Crime Walking Tour: Police, Murders and Macabre",
-   "type": "audiotour",
-   "place": "High Street at North Bridge junction",
-   "lat": 55.9503,
-   "lon": -3.1889
-  },
-  {
-   "id": "4QtpG3CuHKfp1HEWYZpVY0",
-   "title": "Edinburgh's Dean Village: A Historical Wander along the Water of Leith Walkway",
-   "type": "audiotour",
-   "place": "Dean Village (area)",
-   "lat": 55.9524,
-   "lon": -3.2171
-  },
-  {
-   "id": "1LrSmnWSyY0VEwFOlUVU7e",
-   "title": "Mary Queen of Scots' Edinburgh: The Royal Mile",
-   "type": "audiotour",
-   "place": "Palace of Holyroodhouse",
-   "lat": 55.952,
-   "lon": -3.1728
-  },
-  {
-   "id": "6fpNfqe6PyPzVTh6fupPJL",
-   "title": "Enlightenment in Edinburgh: Exploring the City that Changed the World",
-   "type": "audiotour",
-   "place": "St Giles’ Cathedral",
-   "lat": 55.9495,
-   "lon": -3.1914
-  },
-  {
-   "id": "1BgLVyOczOhFKBTkYQdjMz",
-   "title": "In the Footsteps of Mary Queen of Scots: An Edinburgh Old Town Walking Tour",
-   "type": "audiotour",
-   "place": "Palace of Holyroodhouse",
-   "lat": 55.9528,
-   "lon": -3.1736
-  },
-  {
-   "id": "40HrZkYaloTEOpBZkcxGg2",
-   "title": "A History of Witchcraft in Scotland: From Holyrood Palace to Edinburgh Castle",
-   "type": "audiotour",
-   "place": "Palace of Holyroodhouse",
-   "lat": 55.952,
-   "lon": -3.1728
-  },
-  {
-   "id": "5liZPAb22dk2hES4sA0u5o",
-   "title": "Women Hidden in Plain Sight: Uncovering Edinburgh's Old Town",
-   "type": "audiotour",
-   "place": "Greyfriars Kirkyard",
-   "lat": 55.9467,
-   "lon": -3.1916
-  },
-  {
-   "id": "5NCfErrQbIS1NjclbQk51h",
-   "title": "The Dark Side of the Mile: Murders, Monsters and Ghosts of Edinburgh",
-   "type": "audiotour",
-   "place": "Palace of Holyroodhouse",
-   "lat": 55.952,
-   "lon": -3.1728
-  },
-  {
-   "id": "7cUf30MaGTaDOlFofaMSjl",
-   "title": "Harry Potter's Edinburgh: From the Castle to Diagon Alley, Greyfriars and Elephant House",
-   "type": "audiotour",
-   "place": "Castle Esplanade",
-   "lat": 55.9487,
-   "lon": -3.1974
-  },
-  {
-   "id": "5qS1SMyK2wKC4eP1spiKfF",
-   "title": "A Royal Mile Tour: History and Highlights from Edinburgh's Old Town",
-   "type": "audiotour",
-   "place": "Witches’ Well, Castle Esplanade",
-   "lat": 55.9489,
-   "lon": -3.1965
-  },
-  {
-   "id": "7mG8JPOLVxBW2yiveRlqHY",
-   "title": "Edinburgh's Old Town Highlights: The Origin of Scottish Design",
-   "type": "audiotour",
-   "place": "Princes Street Gardens",
-   "lat": 55.9518,
-   "lon": -3.196
-  },
-  {
-   "id": "5P3LaLve8fnzlxmW3Aqoq6",
-   "title": "Edinburgh's New Town: The Architecture of Money",
-   "type": "audiotour",
-   "place": "City Chambers, High Street",
-   "lat": 55.9499,
-   "lon": -3.1902
-  },
-  {
-   "id": "xSkUF2zzPTV9nMz0pZEgF",
-   "title": "History and Architecture in Edinburgh's Dean Village",
-   "type": "audiotour",
-   "place": "Stockbridge Market",
-   "lat": 55.9577,
-   "lon": -3.2085
-  },
-  {
-   "id": "FGyplCUefpmUnJA6zctK3",
-   "title": "The Anatomy Murders",
-   "type": "book",
-   "place": "Surgeons’ Hall Museums",
-   "lat": 55.9467,
-   "lon": -3.1849
   },
   {
    "id": "2uN7WS4ZVFfkaYQ508Htfv",
    "title": "Knots and Crosses",
    "type": "book",
    "place": "Oxford Bar pub",
+   "url": "https://goodreads.com/search?q=knots%20and%20crosses%20rankin",
+   "creator": "Ian Rankin",
+   "channel": null,
    "lat": 55.9529,
    "lon": -3.2055
   },
@@ -230,22 +710,20 @@
    "title": "44 Scotland Street",
    "type": "book",
    "place": "Scotland Street",
+   "url": "https://goodreads.com/search?q=44%20scotland%20street%20mccall%20smith",
+   "creator": "Alexander McCall Smith",
+   "channel": null,
    "lat": 55.9598,
    "lon": -3.1954
-  },
-  {
-   "id": "49EAMVY5jb8zMgs8TiHVNy",
-   "title": "Trainspotting",
-   "type": "book",
-   "place": "Foot of the Walk, Leith",
-   "lat": 55.9692,
-   "lon": -3.1678
   },
   {
    "id": "173GCYQXMLXTxmwO4Ubo2o",
    "title": "Capital of the Mind",
    "type": "book",
    "place": "David Hume’s tomb, Old Calton Burial Ground",
+   "url": "https://goodreads.com/search?q=capital%20of%20the%20mind%20buchan",
+   "creator": "James Buchan",
+   "channel": null,
    "lat": 55.9536,
    "lon": -3.1859
   },
@@ -254,38 +732,31 @@
    "title": "One Good Turn",
    "type": "book",
    "place": "Bristo Square",
+   "url": "https://goodreads.com/search?q=one%20good%20turn%20kate%20atkinson",
+   "creator": "Kate Atkinson",
+   "channel": null,
    "lat": 55.946,
    "lon": -3.1889
-  },
-  {
-   "id": "0x03OIhLDUFPsFLj55j0J",
-   "title": "The Prime of Miss Jean Brodie",
-   "type": "book",
-   "place": "Bruntsfield Links (area)",
-   "lat": 55.9395,
-   "lon": -3.2023
   },
   {
    "id": "4Dh7ctL5f1XMadNkB5lkkV",
    "title": "Edinburgh: A History of the City",
    "type": "book",
    "place": "Edinburgh Castle",
+   "url": "https://goodreads.com/search?q=edinburgh%20a%20history%20of%20the%20city%20fry",
+   "creator": "Michael Fry",
+   "channel": null,
    "lat": 55.9486,
    "lon": -3.2008
-  },
-  {
-   "id": "26XR1zogB8jNxEIpPtafF0",
-   "title": "The Heart of Midlothian",
-   "type": "book",
-   "place": "Heart of Midlothian mosaic (site of the Old Tolbooth)",
-   "lat": 55.9496,
-   "lon": -3.1917
   },
   {
    "id": "3XJtvNUWvP2IwsHSdrVQcq",
    "title": "Edinburgh: Picturesque Notes",
    "type": "book",
    "place": "17 Heriot Row (Stevenson’s childhood home)",
+   "url": "https://goodreads.com/search?q=edinburgh%20picturesque%20notes%20stevenson",
+   "creator": "Robert Louis Stevenson",
+   "channel": null,
    "lat": 55.9558,
    "lon": -3.2001
   },
@@ -294,6 +765,9 @@
    "title": "The Private Memoirs and Confessions of a Justified Sinner",
    "type": "book",
    "place": "Arthur’s Seat",
+   "url": "https://goodreads.com/search?q=confessions%20of%20a%20justified%20sinner%20hogg",
+   "creator": "James Hogg",
+   "channel": null,
    "lat": 55.9441,
    "lon": -3.1618
   },
@@ -302,6 +776,9 @@
    "title": "New Gods",
    "type": "music",
    "place": "Portobello (area)",
+   "url": "https://open.spotify.com/search/Withered%20Hand%20New%20Gods",
+   "creator": "Withered Hand",
+   "channel": null,
    "lat": 55.954,
    "lon": -3.1128
   },
@@ -310,6 +787,9 @@
    "title": "Get Up",
    "type": "music",
    "place": "Bannerman’s bar, Cowgate",
+   "url": "https://open.spotify.com/search/Young%20Fathers%20Get%20Up",
+   "creator": "Young Fathers",
+   "channel": null,
    "lat": 55.9488,
    "lon": -3.1866
   },
@@ -318,6 +798,9 @@
    "title": "Stay Out",
    "type": "music",
    "place": "Balerno (area)",
+   "url": "https://open.spotify.com/search/Nina%20Nesbitt%20Stay%20Out",
+   "creator": "Nina Nesbitt",
+   "channel": null,
    "lat": 55.8839,
    "lon": -3.3388
   },
@@ -326,30 +809,20 @@
    "title": "Default",
    "type": "music",
    "place": "Edinburgh College of Art, Lauriston Place",
+   "url": "https://open.spotify.com/search/Django%20Django%20Default",
+   "creator": "Django Django",
+   "channel": null,
    "lat": 55.9448,
    "lon": -3.2008
-  },
-  {
-   "id": "5n6pHRnZpco9kmBf64tjXE",
-   "title": "Roygbiv",
-   "type": "music",
-   "place": "Pentland Hills (area)",
-   "lat": 55.7667,
-   "lon": -3.4167
-  },
-  {
-   "id": "kIRcyQwzbjpIS78uTxPTB",
-   "title": "Sunshine on Leith",
-   "type": "music",
-   "place": "The Shore, Leith",
-   "lat": 55.9754,
-   "lon": -3.1708
   },
   {
    "id": "4jGBIN4nRVgpKYgoKEkRQN",
    "title": "Roseability",
    "type": "music",
    "place": "Site of The Venue, Calton Road",
+   "url": "https://open.spotify.com/search/Idlewild%20Roseability",
+   "creator": "Idlewild",
+   "channel": null,
    "lat": 55.9535,
    "lon": -3.1836
   },
@@ -358,6 +831,9 @@
    "title": "Sorry for Laughing",
    "type": "music",
    "place": "Oxgangs (area)",
+   "url": "https://open.spotify.com/search/Josef%20K%20Sorry%20for%20Laughing",
+   "creator": "Josef K",
+   "channel": null,
    "lat": 55.9035,
    "lon": -3.2251
   },
@@ -366,6 +842,9 @@
    "title": "Golden Eagle",
    "type": "music",
    "place": "Wester Hailes (area)",
+   "url": "https://open.spotify.com/search/Tommy%20Smith%20Golden%20Eagle%20Beasts%20of%20Scotland",
+   "creator": "Tommy Smith",
+   "channel": null,
    "lat": 55.9172,
    "lon": -3.2774
   },
@@ -374,6 +853,9 @@
    "title": "Top of the Pops",
    "type": "music",
    "place": "Edinburgh College of Art, Lauriston Place",
+   "url": "https://open.spotify.com/search/The%20Rezillos%20Top%20of%20the%20Pops",
+   "creator": "The Rezillos",
+   "channel": null,
    "lat": 55.9448,
    "lon": -3.2008
   },
@@ -382,6 +864,9 @@
    "title": "Shang-a-Lang",
    "type": "music",
    "place": "Ryrie’s bar, Haymarket",
+   "url": "https://open.spotify.com/search/Bay%20City%20Rollers%20Shang-a-Lang",
+   "creator": "Bay City Rollers",
+   "channel": null,
    "lat": 55.9456,
    "lon": -3.2178
   },
@@ -390,6 +875,9 @@
    "title": "Flower of Scotland",
    "type": "music",
    "place": "Sandy Bell’s pub, Forrest Road",
+   "url": "https://open.spotify.com/search/The%20Corries%20Flower%20of%20Scotland",
+   "creator": "The Corries",
+   "channel": null,
    "lat": 55.9454,
    "lon": -3.1904
   },
@@ -398,6 +886,9 @@
    "title": "The Freedom Come-All-Ye",
    "type": "music",
    "place": "School of Scottish Studies, George Square",
+   "url": "https://open.spotify.com/search/Dick%20Gaughan%20The%20Freedom%20Come-all-ye",
+   "creator": "Hamish Henderson",
+   "channel": null,
    "lat": 55.9427,
    "lon": -3.1882
   },
@@ -406,6 +897,9 @@
    "title": "Auld Lang Syne",
    "type": "music",
    "place": "Writers’ Museum, Lady Stair’s Close",
+   "url": "https://open.spotify.com/search/Eddi%20Reader%20Auld%20Lang%20Syne",
+   "creator": "Robert Burns",
+   "channel": null,
    "lat": 55.9496,
    "lon": -3.1936
   },
@@ -414,222 +908,64 @@
    "title": "Angel Numbers",
    "type": "music",
    "place": "",
+   "url": "https://open.spotify.com/search/Hamish%20Hawk%20Angel%20Numbers",
+   "creator": "Hamish Hawk",
+   "channel": null,
    "lat": 55.9757,
    "lon": -3.1706
-  },
-  {
-   "id": "3K2RB4LuCEh6oFeCfJBA8d",
-   "title": "Restless Natives",
-   "type": "movie",
-   "place": "Princes Street",
-   "lat": 55.952,
-   "lon": -3.195
-  },
-  {
-   "id": "2IIJ8PKehNfn4j6AwUPX1K",
-   "title": "Sunshine on Leith",
-   "type": "movie",
-   "place": "The Shore, Leith",
-   "lat": 55.976,
-   "lon": -3.171
-  },
-  {
-   "id": "6X6UnfXccvqqdnXqlVX0yD",
-   "title": "Festival",
-   "type": "movie",
-   "place": "Royal Mile",
-   "lat": 55.95,
-   "lon": -3.187
-  },
-  {
-   "id": "5linV9Va4bmd6begaoYcjK",
-   "title": "Greyfriars Bobby",
-   "type": "movie",
-   "place": "Greyfriars Kirkyard",
-   "lat": 55.947,
-   "lon": -3.192
-  },
-  {
-   "id": "3rGweNiuMySnNAYV3gqX55",
-   "title": "Trainspotting",
-   "type": "movie",
-   "place": "Leith (area)",
-   "lat": 55.968,
-   "lon": -3.173
-  },
-  {
-   "id": "422zXKEX2TpUVcAnhvG61F",
-   "title": "Hallam Foe",
-   "type": "movie",
-   "place": "Balmoral Hotel clock tower",
-   "lat": 55.9525,
-   "lon": -3.1895
-  },
-  {
-   "id": "5AKV5zYIsyTAmG86CpNNGQ",
-   "title": "The Illusionist (L’Illusionniste)",
-   "type": "movie",
-   "place": "Royal Mile",
-   "lat": 55.9498,
-   "lon": -3.188
-  },
-  {
-   "id": "7MjpQGYgyzkf1NfBFMxwxz",
-   "title": "The Prime of Miss Jean Brodie",
-   "type": "movie",
-   "place": "The Meadows (area)",
-   "lat": 55.939,
-   "lon": -3.193
-  },
-  {
-   "id": "4efaBDYrsoZvODguKpigZc",
-   "title": "Filth",
-   "type": "movie",
-   "place": "Old Town (area)",
-   "lat": 55.951,
-   "lon": -3.193
-  },
-  {
-   "id": "19oDzX2cstIhLa7fuAxSzw",
-   "title": "Burke & Hare",
-   "type": "movie",
-   "place": "Grassmarket",
-   "lat": 55.947,
-   "lon": -3.1965
-  },
-  {
-   "id": "14fVk2M4hZ78xn2y8uWwu8",
-   "title": "A husband's murder seals a queen's downfall",
-   "type": "podcast",
-   "place": "Site of Kirk o’ Field, Old College",
-   "lat": 55.9474,
-   "lon": -3.1873
-  },
-  {
-   "id": "6eNL7nxq4H8jVi58CwF1xF",
-   "title": "Grave-robbers turn to murder to supply anatomists",
-   "type": "podcast",
-   "place": "Surgeons’ Hall Museums",
-   "lat": 55.9467,
-   "lon": -3.1853
   },
   {
    "id": "2Db0NAChvGTYEPhDFNOnbW",
    "title": "Waiting fifty years to be proven right",
    "type": "podcast",
    "place": "Old College, University of Edinburgh",
+   "url": "https://open.spotify.com/search/BBC Witness History Higgs Boson discovery",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 55.9474,
    "lon": -3.1873
-  },
-  {
-   "id": "6XR9UBbXe3gAJlcfdumCat",
-   "title": "A councillor's double life inspires Jekyll and Hyde",
-   "type": "podcast",
-   "place": "Heart of Midlothian mosaic (site of the Old Tolbooth)",
-   "lat": 55.9496,
-   "lon": -3.1916
   },
   {
    "id": "4967nIVJYYm7IgsVz4Uvb9",
    "title": "What an 18th-century economist can still teach us",
    "type": "podcast",
    "place": "Panmure House, Canongate",
+   "url": "https://open.spotify.com/search/Freakonomics Adam Smith Panmure House",
+   "creator": null,
+   "channel": "Freakonomics Radio",
    "lat": 55.9523,
    "lon": -3.1783
-  },
-  {
-   "id": "6WXAsX04t6sCMBAF1lAEfB",
-   "title": "A dog's fourteen-year vigil at his owner's grave",
-   "type": "podcast",
-   "place": "Greyfriars Bobby statue",
-   "lat": 55.9469,
-   "lon": -3.1913
-  },
-  {
-   "id": "7G8Mor4WzQiM3IZcmaxJFr",
-   "title": "Writing Harry Potter with a view of the castle",
-   "type": "podcast",
-   "place": "Elephant House café, George IV Bridge",
-   "lat": 55.9476,
-   "lon": -3.1918
-  },
-  {
-   "id": "7JLsEQDLCLZYycT4Lf81XU",
-   "title": "A ploughman poet conquers Edinburgh society",
-   "type": "podcast",
-   "place": "Writers’ Museum, Lady Stair’s Close",
-   "lat": 55.9497,
-   "lon": -3.1937
   },
   {
    "id": "31TYsgn3V4yV9WeUz9HUYi",
    "title": "Reliving referendum night from inside the room",
    "type": "podcast",
    "place": "Scottish Parliament Building",
+   "url": "https://open.spotify.com/search/Political Currency Scottish Independence Referendum",
+   "creator": null,
+   "channel": "Political Currency",
    "lat": 55.9523,
    "lon": -3.1749
-  },
-  {
-   "id": "2BuEuVOv91Zv0cZo7fi9Qm",
-   "title": "Rubbing a skeptic's toe for luck",
-   "type": "podcast",
-   "place": "David Hume statue, High Street",
-   "lat": 55.9496,
-   "lon": -3.1925
-  },
-  {
-   "id": "5PjqF0EpiuEERoGNdKDi8Q",
-   "title": "Three thousand years on an extinct volcano",
-   "type": "podcast",
-   "place": "Edinburgh Castle",
-   "lat": 55.9486,
-   "lon": -3.1999
-  },
-  {
-   "id": "4V3KNr7bL9eFdwlHWtwIYG",
-   "title": "Leith's forgotten role as a whisky engine room",
-   "type": "podcast",
-   "place": "The Vaults (Scotch Malt Whisky Society), Leith",
-   "lat": 55.9736,
-   "lon": -3.1726
   },
   {
    "id": "l7k5d9E8grYKYBWJGQRfy",
    "title": "From a modest pageant to a global spectacle",
    "type": "podcast",
    "place": "Castle Esplanade",
+   "url": "https://open.spotify.com/search/Piping Up Royal Edinburgh Military Tattoo",
+   "creator": null,
+   "channel": "Piping Up",
    "lat": 55.9491,
    "lon": -3.2016
-  },
-  {
-   "id": "63jdegH2aqRRRTOGgC3f6d",
-   "title": "A coronation stone comes home after 700 years",
-   "type": "podcast",
-   "place": "Edinburgh Castle",
-   "lat": 55.9486,
-   "lon": -3.1999
-  },
-  {
-   "id": "5PPSQUFNcNvE13gDeTIYis",
-   "title": "A Victorian garden cemetery goes back to nature",
-   "type": "podcast",
-   "place": "Warriston Cemetery",
-   "lat": 55.969,
-   "lon": -3.198
-  },
-  {
-   "id": "2cXcSAhFMWLrnyQ0xstGnr",
-   "title": "A gunpowder factory gives a neighbourhood its name",
-   "type": "podcast",
-   "place": "Powderhall (area)",
-   "lat": 55.9666,
-   "lon": -3.1943
   },
   {
    "id": "5eTNiQIKzsTljWqkCYiIj0",
    "title": "A drained loch becomes a Victorian pleasure ground",
    "type": "podcast",
    "place": "King George V Park, Canonmills",
+   "url": "https://open.spotify.com/search/A History of Edinburgh Canonmills Ruth Gray",
+   "creator": null,
+   "channel": "A History of Edinburgh",
    "lat": 55.9606,
    "lon": -3.1974
   },
@@ -638,6 +974,9 @@
    "title": "A Stuart prince holds court at Holyrood as the Jacobites rise",
    "type": "podcast",
    "place": "Palace of Holyroodhouse",
+   "url": "https://open.spotify.com/search/In Our Time Jacobite Rebellion",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 55.9527,
    "lon": -3.1722
   },
@@ -646,6 +985,9 @@
    "title": "A planned Georgian grid gives the cramped city room to breathe",
    "type": "video",
    "place": "Georgian House, Charlotte Square",
+   "url": "https://youtu.be/G9jN12Bk92M",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 55.952,
    "lon": -3.2075
   },
@@ -654,6 +996,9 @@
    "title": "A New Town boy grows up to unify electricity, magnetism and light",
    "type": "podcast",
    "place": "14 India Street (James Clerk Maxwell’s birthplace)",
+   "url": "https://open.spotify.com/search/In Our Time Maxwell",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 55.9566,
    "lon": -3.2066
   },
@@ -662,6 +1007,9 @@
    "title": "Seventeen tiny coffins turn up hidden in the rocks of Arthur’s Seat",
    "type": "video",
    "place": "National Museum of Scotland",
+   "url": "https://youtu.be/pQ5Cz98KpuE",
+   "creator": null,
+   "channel": "NationalMuseumsScotland",
    "lat": 55.947,
    "lon": -3.1892
   },
@@ -670,6 +1018,9 @@
    "title": "Newsreel cameras catch the festival in its twelfth summer",
    "type": "video",
    "place": "Usher Hall",
+   "url": "https://youtu.be/bS99-iag7-c",
+   "creator": null,
+   "channel": "British Pathé",
    "lat": 55.9466,
    "lon": -3.2056
   },
@@ -678,70 +1029,31 @@
    "title": "A Catalan architect’s partner revisits the parliament he never saw finished",
    "type": "video",
    "place": "Scottish Parliament Building",
+   "url": "https://youtu.be/07mthwTcToo",
+   "creator": null,
+   "channel": "scotparlplus",
    "lat": 55.952,
    "lon": -3.1749
-  },
-  {
-   "id": "7pXvczNnH1gQ7JH4I2I4A0",
-   "title": "Masons and conservators keep the castle on the rock standing",
-   "type": "video",
-   "place": "Edinburgh Castle",
-   "lat": 55.9486,
-   "lon": -3.1999
-  },
-  {
-   "id": "7aj4NcM2hMEsaVER9DaySl",
-   "title": "Rich and poor share a staircase in the tenements of Auld Reekie",
-   "type": "video",
-   "place": "Royal Mile",
-   "lat": 55.9496,
-   "lon": -3.19
-  },
-  {
-   "id": "6bImQQQ9BbRAbP2RmZ79L9",
-   "title": "Scotland’s crown jewels sit in a fortress built on an old volcano",
-   "type": "video",
-   "place": "Edinburgh Castle",
-   "lat": 55.9483,
-   "lon": -3.2008
-  },
-  {
-   "id": "7KR3FEyzKpxAviC93P0zvy",
-   "title": "Scotland’s national gallery walks through its Impressionist rooms",
-   "type": "video",
-   "place": "Scottish National Gallery",
-   "lat": 55.9509,
-   "lon": -3.1958
-  },
-  {
-   "id": "2UIcuhhVg0OgNdCQxNo56l",
-   "title": "Eight uninvited theatre companies start the world’s biggest arts festival",
-   "type": "video",
-   "place": "Fringe Shop, High Street",
-   "lat": 55.9497,
-   "lon": -3.1897
   },
   {
    "id": "34GlWvzbvYaRGSor7GO6cV",
    "title": "Two cities, one medieval and one Georgian, face each other across a valley",
    "type": "video",
    "place": "Princes Street Gardens",
+   "url": "https://youtu.be/pBBR-eb3qGQ",
+   "creator": null,
+   "channel": "UNESCO",
    "lat": 55.9519,
    "lon": -3.196
-  },
-  {
-   "id": "7Gfstx3xWZWnbo3LhUnnzr",
-   "title": "Writers and drinkers share the same Old and New Town pub tables",
-   "type": "video",
-   "place": "Rose Street",
-   "lat": 55.9548,
-   "lon": -3.1972
   },
   {
    "id": "49v41qpmKM2thoubOQLwnm",
    "title": "The Queen’s floating palace retires to a dock in Leith",
    "type": "video",
    "place": "Royal Yacht Britannia, Ocean Terminal",
+   "url": "https://youtu.be/KDau_MvXc5A",
+   "creator": null,
+   "channel": "The History Guy",
    "lat": 55.9822,
    "lon": -3.1773
   },
@@ -750,6 +1062,9 @@
    "title": "Three bridges from three centuries cross the Firth of Forth side by side",
    "type": "video",
    "place": "Forth bridges, South Queensferry",
+   "url": "https://youtu.be/tgeFKVX2C-o",
+   "creator": null,
+   "channel": "The B1M",
    "lat": 55.9999,
    "lon": -3.3884
   },
@@ -758,22 +1073,20 @@
    "title": "A queen’s secretary is murdered in her supper room at Holyrood",
    "type": "video",
    "place": "Palace of Holyroodhouse",
+   "url": "https://youtu.be/s3a05UPDEF0",
+   "creator": null,
+   "channel": "Royal Collection Trust",
    "lat": 55.9529,
    "lon": -3.172
-  },
-  {
-   "id": "6Y3Z6aRzmRq1xC6iOR1x0X",
-   "title": "A cobbled spine runs downhill from the castle to the palace",
-   "type": "video",
-   "place": "Royal Mile",
-   "lat": 55.95,
-   "lon": -3.1883
   },
   {
    "id": "31nOf9IgZCbTfv0zLDXmLe",
    "title": "A forgotten warren of rooms lies sealed inside an 18th-century bridge",
    "type": "video",
    "place": "South Bridge Vaults, Niddry Street",
+   "url": "https://youtu.be/ssPxdLj3Az8",
+   "creator": null,
+   "channel": "Science Channel",
    "lat": 55.9491,
    "lon": -3.1868
   },
@@ -782,6 +1095,9 @@
    "title": "The world’s first cloned mammal ends up in a museum gallery",
    "type": "video",
    "place": "National Museum of Scotland",
+   "url": "https://youtu.be/IjjKU8F-Ync",
+   "creator": null,
+   "channel": "NationalMuseumsScotland",
    "lat": 55.9468,
    "lon": -3.1901
   },
@@ -790,24 +1106,11 @@
    "title": "A gallery in an old fruit market breaks into the warehouse next door",
    "type": "video",
    "place": "Fruitmarket gallery",
+   "url": "https://youtu.be/MCCzTMsbxyA",
+   "creator": null,
+   "channel": "Dezeen",
    "lat": 55.9506,
    "lon": -3.1912
-  },
-  {
-   "id": "2rQpKXbAbbUtAO9vSkJu17",
-   "title": "An American choir fills a crowned Scottish kirk with song",
-   "type": "video",
-   "place": "St Giles’ Cathedral",
-   "lat": 55.9495,
-   "lon": -3.1908
-  },
-  {
-   "id": "1CErJ7zi3wCRLdoW4mjF2l",
-   "title": "The real doctor behind Sherlock Holmes",
-   "type": "podcast",
-   "place": "",
-   "lat": 55.9485,
-   "lon": -3.1831
   }
  ]
 }

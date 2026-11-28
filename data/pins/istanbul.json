@@ -2,10 +2,475 @@
  "city": "Istanbul",
  "pins": [
   {
+   "id": "6RERZ4um3GaU8vl2JKqlsO",
+   "title": "A long shopping street carries the crowds of the European side",
+   "type": "video",
+   "place": "İstiklal Avenue",
+   "url": "https://youtu.be/b-tXJ7-HyNE",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 41.0335,
+   "lon": 28.9777
+  },
+  {
+   "id": "7eQvTq7JWJ114dmW3kA1uS",
+   "title": "Three lines of stone hold off invaders for a thousand years",
+   "type": "video",
+   "place": "Theodosian Land Walls, Topkapı Gate",
+   "url": "https://youtu.be/fepOTrg8J6c",
+   "creator": null,
+   "channel": "The History of Byzantium Podcast",
+   "lat": 41.0204,
+   "lon": 28.9196
+  },
+  {
+   "id": "AUPFypO97SAM7Ioob635N",
+   "title": "A confectioner’s shop and the soft sweets it made famous",
+   "type": "video",
+   "place": "Hacı Bekir confectionery, Bahçekapı",
+   "url": "https://youtu.be/MgswDy8PMAA",
+   "creator": null,
+   "channel": "Tasting History with Max Miller",
+   "lat": 41.0161,
+   "lon": 28.9744
+  },
+  {
+   "id": "vk6y25viNYwEyCZi9chec",
+   "title": "Byzantine domes and Ottoman minarets share one peninsula",
+   "type": "video",
+   "place": "Hippodrome (Sultanahmet Square)",
+   "url": "https://youtu.be/PPgCzoQb6E4",
+   "creator": null,
+   "channel": "UNESCO",
+   "lat": 41.0054,
+   "lon": 28.9768
+  },
+  {
+   "id": "6TjZANBjwiL9Ax8ok9uTcN",
+   "title": "Sultans rule an empire from courtyards above the Bosphorus",
+   "type": "video",
+   "place": "Topkapı Palace",
+   "url": "https://youtu.be/0zvyMapOP5c",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 41.0115,
+   "lon": 28.9834
+  },
+  {
+   "id": "66MhqUAU6T6o73JbG326q7",
+   "title": "Rice, spoons, and strict etiquette at the Ottoman sultan’s table",
+   "type": "video",
+   "place": "Topkapı Palace kitchens",
+   "url": "https://youtu.be/_bx2DjFU5eE",
+   "creator": null,
+   "channel": "Tasting History with Max Miller",
+   "lat": 41.0105,
+   "lon": 28.9852
+  },
+  {
+   "id": "4idmA4MZ7qaFPsuXLEqgm5",
+   "title": "Constantinople: The Last Great Siege, 1453",
+   "type": "book",
+   "place": "Theodosian Land Walls, Edirnekapı Gate",
+   "url": "https://goodreads.com/search?q=constantinople%201453%20roger%20crowley",
+   "creator": "Roger Crowley",
+   "channel": null,
+   "lat": 41.0303,
+   "lon": 28.9354
+  },
+  {
+   "id": "1ueDWvPfIdBd6VbBOlk1AJ",
+   "title": "Midnight at the Pera Palace",
+   "type": "book",
+   "place": "Pera Palace Hotel",
+   "url": "https://goodreads.com/search?q=midnight%20at%20the%20pera%20palace%20charles%20king",
+   "creator": "Charles King",
+   "channel": null,
+   "lat": 41.0312,
+   "lon": 28.9734
+  },
+  {
+   "id": "5oyFT9gSprPKGWX3pIiHfB",
+   "title": "A Short History of Byzantium",
+   "type": "book",
+   "place": "Hagia Sophia",
+   "url": "https://goodreads.com/search?q=short%20history%20of%20byzantium%20norwich",
+   "creator": "John Julius Norwich",
+   "channel": null,
+   "lat": 41.0086,
+   "lon": 28.9802
+  },
+  {
+   "id": "5AGDTG4emlE6HDOfccp2qG",
+   "title": "The Süleymaniye Mosque by Mimar Sinan",
+   "type": "video",
+   "place": "Süleymaniye Mosque",
+   "url": "https://youtu.be/Q48ddBmCjQA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 41.0161,
+   "lon": 28.9639
+  },
+  {
+   "id": "5msJKRCH7zYsW54WdMt7x1",
+   "title": "Salkım Hanımın Taneleri (Mrs. Salkım’s Diamonds)",
+   "type": "movie",
+   "place": "Beyoğlu district (area)",
+   "url": "https://justwatch.com/us/search?q=Mrs%20Salkims%20Diamonds",
+   "creator": "Tomris Giritlioğlu",
+   "channel": null,
+   "lat": 41.0335,
+   "lon": 28.977
+  },
+  {
+   "id": "2eT0dxau6VH1FEPKWyeL6K",
+   "title": "Crossing the Bridge (The Sound of Istanbul)",
+   "type": "movie",
+   "place": "Galata Bridge",
+   "url": "https://justwatch.com/us/search?q=Crossing%20the%20Bridge%20Istanbul",
+   "creator": "Fatih Akın",
+   "channel": null,
+   "lat": 41.02,
+   "lon": 28.973
+  },
+  {
+   "id": "3CzQfSaULEDooTCu0O9w52",
+   "title": "Firuze",
+   "type": "music",
+   "place": "Harbiye Open-Air Theatre",
+   "url": "https://open.spotify.com/search/Sezen%20Aksu%20Firuze",
+   "creator": "Sezen Aksu",
+   "channel": null,
+   "lat": 41.0458,
+   "lon": 28.9903
+  },
+  {
+   "id": "3geQ91O4Erv6HFLgXgo1Wn",
+   "title": "Constantinople",
+   "type": "book",
+   "place": "Galata Bridge",
+   "url": "https://goodreads.com/search?q=de%20amicis%20constantinople",
+   "creator": "Edmondo De Amicis",
+   "channel": null,
+   "lat": 41.02,
+   "lon": 28.9731
+  },
+  {
+   "id": "7FXoxQZKxSOFyfk5Kr49kg",
+   "title": "A Useless Man: Selected Stories",
+   "type": "book",
+   "place": "Burgazada island",
+   "url": "https://goodreads.com/search?q=a%20useless%20man%20sait%20faik",
+   "creator": "Sait Faik Abasıyanık",
+   "channel": null,
+   "lat": 40.8803,
+   "lon": 29.0695
+  },
+  {
+   "id": "5cdtJH87jr1RtvLWMgSh8b",
+   "title": "Istanbul: Memories and the City",
+   "type": "book",
+   "place": "Nişantaşı district (area)",
+   "url": "https://goodreads.com/search?q=istanbul%20memories%20and%20the%20city%20pamuk",
+   "creator": "Orhan Pamuk",
+   "channel": null,
+   "lat": 41.0517,
+   "lon": 28.9917
+  },
+  {
+   "id": "6JfAGrRPIPO5pAkOP5kYoc",
+   "title": "Sixteen million people wait for the fault under the sea",
+   "type": "video",
+   "place": "Kandilli Observatory",
+   "url": "https://youtu.be/rtzLwQbwwMM",
+   "creator": null,
+   "channel": "DW Documentaries",
+   "lat": 41.0631,
+   "lon": 29.0617
+  },
+  {
+   "id": "1MFlbwSExlhAN98RW7drVl",
+   "title": "Tanks and civilians face off on the bridge between two continents",
+   "type": "podcast",
+   "place": "15 July Martyrs Bridge (Bosphorus Bridge)",
+   "url": "https://open.spotify.com/search/Witness History Turkey's failed coup",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 41.0451,
+   "lon": 29.034
+  },
+  {
+   "id": "3ckdVT4SDuwnHkVL9Wu0qp",
+   "title": "Ecumenopolis (City Without Limits)",
+   "type": "movie",
+   "place": "Ayazma, beside the Atatürk Olympic Stadium",
+   "url": "https://justwatch.com/us/search?q=Ecumenopolis",
+   "creator": "Imre Azem",
+   "channel": null,
+   "lat": 41.0656,
+   "lon": 28.7765
+  },
+  {
+   "id": "413vnZPmgV9N14g9nfWi9B",
+   "title": "Hababam Sınıfı (The Chaos Class)",
+   "type": "movie",
+   "place": "Çengelköy (area)",
+   "url": "https://justwatch.com/us/search?q=Hababam%20Sinifi",
+   "creator": "Ertem Eğilmez",
+   "channel": null,
+   "lat": 41.06,
+   "lon": 29.055
+  },
+  {
+   "id": "6hfaA5TNTG8WJ3r8jXe0O1",
+   "title": "Distant (Uzak)",
+   "type": "movie",
+   "place": "Cihangir district (area)",
+   "url": "https://justwatch.com/us/search?q=Distant%20Uzak%20Ceylan",
+   "creator": "Nuri Bilge Ceylan",
+   "channel": null,
+   "lat": 41.032,
+   "lon": 28.983
+  },
+  {
+   "id": "6RF0yH8lxpfcQF4MGNHvac",
+   "title": "Coffee, fashion, and circumcision festivals fill the sultan’s court",
+   "type": "podcast",
+   "place": "Topkapı Palace",
+   "url": "https://open.spotify.com/search/You're Dead to Me Istanbul Ottoman Golden Age",
+   "creator": null,
+   "channel": "You’re Dead To Me",
+   "lat": 41.0115,
+   "lon": 28.9834
+  },
+  {
+   "id": "2WsNF6FeiRy8iDyGmOYPAa",
+   "title": "Cannons finally break a thousand-year-old wall",
+   "type": "podcast",
+   "place": "Theodosian Land Walls, Topkapı Gate",
+   "url": "https://open.spotify.com/search/In Our Time Constantinople Siege and Fall",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 41.0214,
+   "lon": 28.926
+  },
+  {
+   "id": "7DdSuxh7XJBLXrzN3H1TGa",
+   "title": "A 13th-century poet still fills tattoo parlors and coffee mugs",
+   "type": "podcast",
+   "place": "Galata Mevlevi Lodge museum",
+   "url": "https://open.spotify.com/search/In Our Time Rumi's Poetry",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 41.0281,
+   "lon": 28.9745
+  },
+  {
+   "id": "48xOS2NL3pAMSiiqtfycXP",
+   "title": "A chubby cat’s slouch earns her a bronze statue",
+   "type": "podcast",
+   "place": "Tombili cat statue, Kadıköy",
+   "url": "https://open.spotify.com/search/Strong Sense of Place Cats of Istanbul",
+   "creator": null,
+   "channel": "Strong Sense of Place",
+   "lat": 40.989,
+   "lon": 29.0417
+  },
+  {
+   "id": "34ZJMmPJPMlOX3igO1Jmgb",
+   "title": "A Monocle correspondent reads the pulse of a divided city",
+   "type": "podcast",
+   "place": "Karaköy waterfront (area)",
+   "url": "https://open.spotify.com/search/Monocle Urbanist Istanbul Special Hannah Lucinda Smith",
+   "creator": null,
+   "channel": "Monocle: The Urbanist",
+   "lat": 41.0214,
+   "lon": 28.9767
+  },
+  {
+   "id": "3R1TvRx1TrJkVvplKvjLL5",
+   "title": "Every clock in this palace stopped at 9:05",
+   "type": "podcast",
+   "place": "Dolmabahçe Palace",
+   "url": "https://open.spotify.com/search/Throughline Three Faces of Ataturk",
+   "creator": null,
+   "channel": "Throughline",
+   "lat": 41.0392,
+   "lon": 29.0005
+  },
+  {
+   "id": "7M66ATYp4FYXOCyX6qaNvm",
+   "title": "A defector’s fatal call reaches the wrong Englishman",
+   "type": "podcast",
+   "place": "British Consulate-General (Pera House)",
+   "url": "https://open.spotify.com/search/15 Minute History Podcast Kim Philby Cambridge Five",
+   "creator": null,
+   "channel": "15-Minute History Podcast",
+   "lat": 41.0318,
+   "lon": 28.9718
+  },
+  {
+   "id": "4qKMrhOTJBPKyyX6mbFwq0",
+   "title": "A kidnapped teenager becomes the sultan’s only wife",
+   "type": "podcast",
+   "place": "Hürrem Sultan Hamam",
+   "url": "https://open.spotify.com/search/Noble Blood Witch of the Ottoman Empire",
+   "creator": null,
+   "channel": "Noble Blood",
+   "lat": 41.0073,
+   "lon": 28.9791
+  },
+  {
+   "id": "aU3fbDb2wmcAYlIQdHhMz",
+   "title": "Istanbul exiles thousands of dogs to a barren island",
+   "type": "podcast",
+   "place": "Sivriada island (Hayırsızada)",
+   "url": "https://open.spotify.com/search/Ottoman History Podcast Dogs of Istanbul",
+   "creator": null,
+   "channel": "Ottoman History Podcast",
+   "lat": 40.8759,
+   "lon": 28.9725
+  },
+  {
+   "id": "2WXrvrtDHe3UxNVd4CdO51",
+   "title": "An underground lake hides a carved Medusa head",
+   "type": "podcast",
+   "place": "Basilica Cistern",
+   "url": "https://open.spotify.com/search/Atlas Obscura Podcast Basilica Cistern",
+   "creator": null,
+   "channel": "Atlas Obscura Podcast",
+   "lat": 41.0084,
+   "lon": 28.9779
+  },
+  {
+   "id": "HMb4zkl1Z7bMjNA1EbR62",
+   "title": "Empires Fell, Cats Stayed: Istanbul’s Spice Bazaar to Topkapi Tour",
+   "type": "audiotour",
+   "place": "Spice Bazaar (Egyptian Bazaar)",
+   "url": "https://voicemap.me/tour/istanbul/empires-fell-cats-stayed-istanbul-s-spice-bazaar-to-topkapi-tour",
+   "creator": "Heidi Nicklaus",
+   "channel": null,
+   "lat": 41.0166,
+   "lon": 28.9706
+  },
+  {
+   "id": "4PhoHwye7qzQ0WoXcWXtVh",
+   "title": "Istanbul Through Time: Stories of Byzantines and Ottomans in the Old Town",
+   "type": "audiotour",
+   "place": "Sultanahmet Park",
+   "url": "https://voicemap.me/tour/istanbul/istanbul-through-time-stories-of-byzantines-and-ottomans-in-the-old-town",
+   "creator": "Yasemin Gurer",
+   "channel": null,
+   "lat": 41.0073,
+   "lon": 28.9781
+  },
+  {
+   "id": "5KLIlPu2E1zyGV7rbuS8k9",
+   "title": "Stepping Back Through Chalcedon: A Kadikoy Walking Tour",
+   "type": "audiotour",
+   "place": "Kadıköy ferry pier",
+   "url": "https://voicemap.me/tour/istanbul/stepping-back-through-chalcedon-kadikoy-walk",
+   "creator": "Lisa Morrow",
+   "channel": null,
+   "lat": 40.9926,
+   "lon": 29.0235
+  },
+  {
+   "id": "5Or7zxVcfZARsjoXKT4L81",
+   "title": "The Hippodrome and the Blue Mosque",
+   "type": "audiotour",
+   "place": "Hippodrome (Sultanahmet Square)",
+   "url": "https://voicemap.me/tour/istanbul/the-hippodrome-and-the-blue-mosque",
+   "creator": "Arzu Tutuk",
+   "channel": null,
+   "lat": 41.0051,
+   "lon": 28.9745
+  },
+  {
+   "id": "5DiUcJRSRv3DjyWBh5a5KI",
+   "title": "Istanbul Beneath My Wings (İstanbul Kanatlarımın Altında)",
+   "type": "movie",
+   "place": "Galata Tower",
+   "url": "https://justwatch.com/us/search?q=Istanbul%20Beneath%20My%20Wings",
+   "creator": "Mustafa Altıoklar",
+   "channel": null,
+   "lat": 41.0256,
+   "lon": 28.9744
+  },
+  {
+   "id": "4YlVolyMm4ELNa9dN4hhV0",
+   "title": "Paper Lives (Kağıttan Hayatlar)",
+   "type": "movie",
+   "place": "Kasımpaşa district (area)",
+   "url": "https://justwatch.com/us/search?q=Paper%20Lives%202021",
+   "creator": "Can Ulkay",
+   "channel": null,
+   "lat": 41.043,
+   "lon": 28.964
+  },
+  {
+   "id": "1JJeZwBAAm5cZlD0z7HPiZ",
+   "title": "Somersault in a Coffin (Tabutta Rövaşata)",
+   "type": "movie",
+   "place": "Rumeli Fortress (Rumeli Hisarı)",
+   "url": "https://justwatch.com/us/search?q=Somersault%20in%20a%20Coffin",
+   "creator": "Derviş Zaim",
+   "channel": null,
+   "lat": 41.0847,
+   "lon": 29.056
+  },
+  {
+   "id": "51czebLMvBf6mxk8uDBNn3",
+   "title": "Eşkıya (The Bandit)",
+   "type": "movie",
+   "place": "Tarlabaşı district (area)",
+   "url": "https://justwatch.com/us/search?q=Eskiya%20The%20Bandit",
+   "creator": "Yavuz Turgul",
+   "channel": null,
+   "lat": 41.0375,
+   "lon": 28.976
+  },
+  {
+   "id": "4EzqczZ0N3PZZT43PvaE45",
+   "title": "Topkapi",
+   "type": "movie",
+   "place": "Topkapı Palace",
+   "url": "https://justwatch.com/us/search?q=Topkapi%201964",
+   "creator": "Jules Dassin",
+   "channel": null,
+   "lat": 41.0115,
+   "lon": 28.9834
+  },
+  {
+   "id": "2TaQAkVPxc4V6aGzY1hlso",
+   "title": "Gelin (The Bride)",
+   "type": "movie",
+   "place": "Zeytinburnu district (area)",
+   "url": "https://justwatch.com/us/search?q=The%20Bride%201973%20Akad",
+   "creator": "Lütfi Ö. Akad",
+   "channel": null,
+   "lat": 41.006,
+   "lon": 28.906
+  },
+  {
+   "id": "7r5b3GqU51qYWgu6cC7cBq",
+   "title": "Hamam (Steam: The Turkish Bath)",
+   "type": "movie",
+   "place": "Balat (area)",
+   "url": "https://justwatch.com/us/search?q=Hamam%20Steam%20Turkish%20Bath",
+   "creator": "Ferzan Özpetek",
+   "channel": null,
+   "lat": 41.029,
+   "lon": 28.949
+  },
+  {
    "id": "50XCtyLqjvRozEiUoX5xGR",
    "title": "The Gezi Park Protests, 2013",
    "type": "podcast",
    "place": "Gezi Park, Taksim",
+   "url": "https://www.bbc.co.uk/programmes/w3ct4x81",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 41.0383,
    "lon": 28.9869
   },
@@ -14,6 +479,9 @@
    "title": "The Alexander Sarcophagus, a royal tomb from Sidon",
    "type": "video",
    "place": "Istanbul Archaeology Museums",
+   "url": "https://youtu.be/kxiaae0HIBs",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0117,
    "lon": 28.9813
   },
@@ -22,6 +490,9 @@
    "title": "The Deësis Mosaic of Hagia Sophia",
    "type": "video",
    "place": "Hagia Sophia",
+   "url": "https://youtu.be/2JxIjfqKTLs",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0086,
    "lon": 28.9802
   },
@@ -30,6 +501,9 @@
    "title": "Hagia Sophia, from museum back to mosque",
    "type": "video",
    "place": "Hagia Sophia",
+   "url": "https://youtu.be/r6383ZDXB0Q",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0084,
    "lon": 28.9799
   },
@@ -38,6 +512,9 @@
    "title": "Hagia Sophia by Anthemius of Tralles and Isidore of Miletus",
    "type": "video",
    "place": "Hagia Sophia",
+   "url": "https://youtu.be/XfpusWEd2jE",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0086,
    "lon": 28.9802
   },
@@ -46,6 +523,9 @@
    "title": "The Virgin and Child Apse Mosaic of Hagia Sophia",
    "type": "video",
    "place": "Hagia Sophia",
+   "url": "https://youtu.be/EmQ1TdoT-zE",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0086,
    "lon": 28.9802
   },
@@ -54,6 +534,9 @@
    "title": "The Şehzade Mosque by Mimar Sinan",
    "type": "video",
    "place": "Şehzade Mosque",
+   "url": "https://youtu.be/6Tmxt4sMMoE",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0133,
    "lon": 28.9581
   },
@@ -62,6 +545,9 @@
    "title": "Little Hagia Sophia, the Church of Saints Sergius and Bacchus",
    "type": "video",
    "place": "Little Hagia Sophia Mosque",
+   "url": "https://youtu.be/7A3C6jDKL7U",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0028,
    "lon": 28.9724
   },
@@ -70,54 +556,42 @@
    "title": "The Rüstem Pasha Mosque by Mimar Sinan",
    "type": "video",
    "place": "Rüstem Pasha Mosque",
+   "url": "https://youtu.be/v8WMx_TmEyQ",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0177,
    "lon": 28.9705
-  },
-  {
-   "id": "5AGDTG4emlE6HDOfccp2qG",
-   "title": "The Süleymaniye Mosque by Mimar Sinan",
-   "type": "video",
-   "place": "Süleymaniye Mosque",
-   "lat": 41.0161,
-   "lon": 28.9639
   },
   {
    "id": "70nwk2pTZERdblSTWD0Uho",
    "title": "The Chora Church, a late Byzantine monastery church",
    "type": "video",
    "place": "Chora Church (Kariye Mosque)",
+   "url": "https://youtu.be/2dbQ5iQ5GKo",
+   "creator": null,
+   "channel": "Smarthistory",
    "lat": 41.0312,
    "lon": 28.9391
-  },
-  {
-   "id": "5oyFT9gSprPKGWX3pIiHfB",
-   "title": "A Short History of Byzantium",
-   "type": "book",
-   "place": "Hagia Sophia",
-   "lat": 41.0086,
-   "lon": 28.9802
   },
   {
    "id": "4zabP4nx4IwX24mUw3Pkuo",
    "title": "Constantinople: City of the World’s Desire, 1453–1924",
    "type": "book",
    "place": "Topkapı Palace",
+   "url": "https://goodreads.com/search?q=constantinople%20city%20of%20the%20worlds%20desire%20mansel",
+   "creator": "Philip Mansel",
+   "channel": null,
    "lat": 41.0116,
    "lon": 28.9833
-  },
-  {
-   "id": "5Or7zxVcfZARsjoXKT4L81",
-   "title": "The Hippodrome and the Blue Mosque",
-   "type": "audiotour",
-   "place": "Hippodrome (Sultanahmet Square)",
-   "lat": 41.0051,
-   "lon": 28.9745
   },
   {
    "id": "5njnfPt86rI3yuF6RFMRsz",
    "title": "Empress of the East",
    "type": "book",
    "place": "Süleymaniye Mosque",
+   "url": "https://goodreads.com/search?q=empress%20of%20the%20east%20leslie%20peirce",
+   "creator": "Leslie Peirce",
+   "channel": null,
    "lat": 41.0161,
    "lon": 28.9638
   },
@@ -126,118 +600,64 @@
    "title": "The Turkish Embassy Letters",
    "type": "book",
    "place": "Çemberlitaş Hamam",
+   "url": "https://goodreads.com/search?q=turkish%20embassy%20letters%20montagu",
+   "creator": "Lady Mary Wortley Montagu",
+   "channel": null,
    "lat": 41.0085,
    "lon": 28.9716
-  },
-  {
-   "id": "5KLIlPu2E1zyGV7rbuS8k9",
-   "title": "Stepping Back Through Chalcedon: A Kadikoy Walking Tour",
-   "type": "audiotour",
-   "place": "Kadıköy ferry pier",
-   "lat": 40.9926,
-   "lon": 29.0235
   },
   {
    "id": "130bTHapcX0RujfzOpsneZ",
    "title": "Galata Photo Tour",
    "type": "audiotour",
    "place": "Şişhane Park",
+   "url": "https://voicemap.me/tour/istanbul/galata-photo-tour",
+   "creator": "Kemal Nuraydin",
+   "channel": null,
    "lat": 41.0278,
    "lon": 28.9712
-  },
-  {
-   "id": "4PhoHwye7qzQ0WoXcWXtVh",
-   "title": "Istanbul Through Time: Stories of Byzantines and Ottomans in the Old Town",
-   "type": "audiotour",
-   "place": "Sultanahmet Park",
-   "lat": 41.0073,
-   "lon": 28.9781
-  },
-  {
-   "id": "HMb4zkl1Z7bMjNA1EbR62",
-   "title": "Empires Fell, Cats Stayed: Istanbul's Spice Bazaar to Topkapi Tour",
-   "type": "audiotour",
-   "place": "Spice Bazaar (Egyptian Bazaar)",
-   "lat": 41.0166,
-   "lon": 28.9706
   },
   {
    "id": "3d9PIWyIzZPdybijXtNnr4",
    "title": "Under the Shadow",
    "type": "book",
    "place": "Gezi Park",
+   "url": "https://goodreads.com/search?q=under%20the%20shadow%20kaya%20genc",
+   "creator": "Kaya Genç",
+   "channel": null,
    "lat": 41.0383,
    "lon": 28.9869
-  },
-  {
-   "id": "1ueDWvPfIdBd6VbBOlk1AJ",
-   "title": "Midnight at the Pera Palace",
-   "type": "book",
-   "place": "Pera Palace Hotel",
-   "lat": 41.0312,
-   "lon": 28.9734
-  },
-  {
-   "id": "4idmA4MZ7qaFPsuXLEqgm5",
-   "title": "Constantinople: The Last Great Siege, 1453",
-   "type": "book",
-   "place": "Theodosian Land Walls, Edirnekapı Gate",
-   "lat": 41.0303,
-   "lon": 28.9354
   },
   {
    "id": "27pkDH3ATA8pAvK6xnjFkF",
    "title": "10 Minutes 38 Seconds in This Strange World",
    "type": "book",
    "place": "Cemetery of the Companionless, Kilyos",
+   "url": "https://goodreads.com/search?q=10%20minutes%2038%20seconds%20shafak",
+   "creator": "Elif Shafak",
+   "channel": null,
    "lat": 41.2428,
    "lon": 29.0358
-  },
-  {
-   "id": "5cdtJH87jr1RtvLWMgSh8b",
-   "title": "Istanbul: Memories and the City",
-   "type": "book",
-   "place": "Nişantaşı district (area)",
-   "lat": 41.0517,
-   "lon": 28.9917
-  },
-  {
-   "id": "7FXoxQZKxSOFyfk5Kr49kg",
-   "title": "A Useless Man: Selected Stories",
-   "type": "book",
-   "place": "Burgazada island",
-   "lat": 40.8803,
-   "lon": 29.0695
   },
   {
    "id": "5oPYkNyABFHRFLK0mFjFQ5",
    "title": "A Mind at Peace",
    "type": "book",
    "place": "Emirgan, Bosphorus shore (area)",
+   "url": "https://goodreads.com/search?q=a%20mind%20at%20peace%20tanpinar",
+   "creator": "Ahmet Hamdi Tanpınar",
+   "channel": null,
    "lat": 41.1031,
    "lon": 29.0556
-  },
-  {
-   "id": "3geQ91O4Erv6HFLgXgo1Wn",
-   "title": "Constantinople",
-   "type": "book",
-   "place": "Galata Bridge",
-   "lat": 41.02,
-   "lon": 28.9731
-  },
-  {
-   "id": "3CzQfSaULEDooTCu0O9w52",
-   "title": "Firuze",
-   "type": "music",
-   "place": "Harbiye Open-Air Theatre",
-   "lat": 41.0458,
-   "lon": 28.9903
   },
   {
    "id": "49wzmWqt7OtvtW07ZQbZpE",
    "title": "İstikrarlı Hayal Hakikattir",
    "type": "music",
    "place": "Kadıköy district (area)",
+   "url": "https://open.spotify.com/search/Gaye%20Su%20Akyol%20Istikrarli%20Hayal%20Hakikattir",
+   "creator": "Gaye Su Akyol",
+   "channel": null,
    "lat": 40.9855,
    "lon": 29.0353
   },
@@ -246,6 +666,9 @@
    "title": "İstanbul’da Sonbahar",
    "type": "music",
    "place": "Nevizade Street (tavern alley)",
+   "url": "https://open.spotify.com/search/Teoman%20Istanbulda%20Sonbahar",
+   "creator": "Teoman",
+   "channel": null,
    "lat": 41.0348,
    "lon": 28.9777
   },
@@ -254,6 +677,9 @@
    "title": "Gülpembe",
    "type": "music",
    "place": "Barış Manço House museum, Moda",
+   "url": "https://open.spotify.com/search/Baris%20Manco%20Gulpembe",
+   "creator": "Barış Manço",
+   "channel": null,
    "lat": 40.9818,
    "lon": 29.025
   },
@@ -262,6 +688,9 @@
    "title": "Suspus",
    "type": "music",
    "place": "Üsküdar district (area)",
+   "url": "https://open.spotify.com/search/Ceza%20Suspus",
+   "creator": "Ceza",
+   "channel": null,
    "lat": 41.0227,
    "lon": 29.0137
   },
@@ -270,6 +699,9 @@
    "title": "Şehnaz Longa",
    "type": "music",
    "place": "Kumkapı meyhane square",
+   "url": "https://open.spotify.com/search/Selim%20Sesler%20Sehnaz%20Longa",
+   "creator": "Selim Sesler",
+   "channel": null,
    "lat": 41.0055,
    "lon": 28.9636
   },
@@ -278,6 +710,9 @@
    "title": "Cemalım",
    "type": "music",
    "place": "Moda district (area)",
+   "url": "https://open.spotify.com/search/Erkin%20Koray%20Cemalim",
+   "creator": "Erkin Koray",
+   "channel": null,
    "lat": 40.9754,
    "lon": 29.0146
   },
@@ -286,6 +721,9 @@
    "title": "Bir Teselli Ver",
    "type": "music",
    "place": "İMÇ wholesale blocks, Unkapanı",
+   "url": "https://open.spotify.com/search/Orhan%20Gencebay%20Bir%20Teselli%20Ver",
+   "creator": "Orhan Gencebay",
+   "channel": null,
    "lat": 41.0174,
    "lon": 28.9575
   },
@@ -294,6 +732,9 @@
    "title": "Manolyam",
    "type": "music",
    "place": "Site of the Maksim Gazino, Taksim",
+   "url": "https://open.spotify.com/search/Zeki%20Muren%20Manolyam",
+   "creator": "Zeki Müren",
+   "channel": null,
    "lat": 41.036,
    "lon": 28.9851
   },
@@ -302,6 +743,9 @@
    "title": "Benzemez Kimse Sana",
    "type": "music",
    "place": "Istanbul Radio building, Harbiye",
+   "url": "https://open.spotify.com/search/Muzeyyen%20Senar%20Benzemez%20Kimse%20Sana",
+   "creator": "Müzeyyen Senar",
+   "channel": null,
    "lat": 41.047,
    "lon": 28.988
   },
@@ -310,6 +754,9 @@
    "title": "Çeçen Kızı",
    "type": "music",
    "place": "Kadıköy waterfront (area)",
+   "url": "https://open.spotify.com/search/Tanburi%20Cemil%20Bey%20Cecen%20Kizi",
+   "creator": "Tanburi Cemil Bey",
+   "channel": null,
    "lat": 40.9903,
    "lon": 29.025
   },
@@ -318,6 +765,9 @@
    "title": "Aziz İstanbul",
    "type": "music",
    "place": "Rumeli Fortress (Rumeli Hisarı)",
+   "url": "https://open.spotify.com/search/Munir%20Nurettin%20Selcuk%20Aziz%20Istanbul",
+   "creator": "Münir Nurettin Selçuk",
+   "channel": null,
    "lat": 41.0842,
    "lon": 29.0537
   },
@@ -326,6 +776,9 @@
    "title": "Tavus Havası",
    "type": "music",
    "place": "Galata Tower",
+   "url": "https://open.spotify.com/search/Baba%20Zula%20Tavus%20Havasi",
+   "creator": "Baba Zula",
+   "channel": null,
    "lat": 41.0256,
    "lon": 28.9744
   },
@@ -334,6 +787,9 @@
    "title": "Ab-ı Rû",
    "type": "music",
    "place": "Galata Mevlevi Lodge museum",
+   "url": "https://open.spotify.com/search/Mercan%20Dede%20Ab-i%20Ru%20Su",
+   "creator": "Mercan Dede",
+   "channel": null,
    "lat": 41.028,
    "lon": 28.9751
   },
@@ -342,174 +798,20 @@
    "title": "Krvn",
    "type": "music",
    "place": "Güngören district (area)",
+   "url": "https://open.spotify.com/search/Uzi%20Krvn",
+   "creator": "Uzi",
+   "channel": null,
    "lat": 41.0179,
    "lon": 28.8788
-  },
-  {
-   "id": "7r5b3GqU51qYWgu6cC7cBq",
-   "title": "Hamam (Steam: The Turkish Bath)",
-   "type": "movie",
-   "place": "Balat (area)",
-   "lat": 41.029,
-   "lon": 28.949
-  },
-  {
-   "id": "3ckdVT4SDuwnHkVL9Wu0qp",
-   "title": "Ecumenopolis (City Without Limits)",
-   "type": "movie",
-   "place": "Ayazma, beside the Atatürk Olympic Stadium",
-   "lat": 41.0656,
-   "lon": 28.7765
-  },
-  {
-   "id": "2TaQAkVPxc4V6aGzY1hlso",
-   "title": "Gelin (The Bride)",
-   "type": "movie",
-   "place": "Zeytinburnu district (area)",
-   "lat": 41.006,
-   "lon": 28.906
-  },
-  {
-   "id": "413vnZPmgV9N14g9nfWi9B",
-   "title": "Hababam Sınıfı (The Chaos Class)",
-   "type": "movie",
-   "place": "Çengelköy (area)",
-   "lat": 41.06,
-   "lon": 29.055
-  },
-  {
-   "id": "5msJKRCH7zYsW54WdMt7x1",
-   "title": "Salkım Hanımın Taneleri (Mrs. Salkım’s Diamonds)",
-   "type": "movie",
-   "place": "Beyoğlu district (area)",
-   "lat": 41.0335,
-   "lon": 28.977
-  },
-  {
-   "id": "4EzqczZ0N3PZZT43PvaE45",
-   "title": "Topkapi",
-   "type": "movie",
-   "place": "Topkapı Palace",
-   "lat": 41.0115,
-   "lon": 28.9834
-  },
-  {
-   "id": "51czebLMvBf6mxk8uDBNn3",
-   "title": "Eşkıya (The Bandit)",
-   "type": "movie",
-   "place": "Tarlabaşı district (area)",
-   "lat": 41.0375,
-   "lon": 28.976
-  },
-  {
-   "id": "6hfaA5TNTG8WJ3r8jXe0O1",
-   "title": "Distant (Uzak)",
-   "type": "movie",
-   "place": "Cihangir district (area)",
-   "lat": 41.032,
-   "lon": 28.983
-  },
-  {
-   "id": "2eT0dxau6VH1FEPKWyeL6K",
-   "title": "Crossing the Bridge (The Sound of Istanbul)",
-   "type": "movie",
-   "place": "Galata Bridge",
-   "lat": 41.02,
-   "lon": 28.973
-  },
-  {
-   "id": "1JJeZwBAAm5cZlD0z7HPiZ",
-   "title": "Somersault in a Coffin (Tabutta Rövaşata)",
-   "type": "movie",
-   "place": "Rumeli Fortress (Rumeli Hisarı)",
-   "lat": 41.0847,
-   "lon": 29.056
-  },
-  {
-   "id": "4YlVolyMm4ELNa9dN4hhV0",
-   "title": "Paper Lives (Kağıttan Hayatlar)",
-   "type": "movie",
-   "place": "Kasımpaşa district (area)",
-   "lat": 41.043,
-   "lon": 28.964
-  },
-  {
-   "id": "5DiUcJRSRv3DjyWBh5a5KI",
-   "title": "Istanbul Beneath My Wings (İstanbul Kanatlarımın Altında)",
-   "type": "movie",
-   "place": "Galata Tower",
-   "lat": 41.0256,
-   "lon": 28.9744
-  },
-  {
-   "id": "2WXrvrtDHe3UxNVd4CdO51",
-   "title": "An underground lake hides a carved Medusa head",
-   "type": "podcast",
-   "place": "Basilica Cistern",
-   "lat": 41.0084,
-   "lon": 28.9779
-  },
-  {
-   "id": "aU3fbDb2wmcAYlIQdHhMz",
-   "title": "Istanbul exiles thousands of dogs to a barren island",
-   "type": "podcast",
-   "place": "Sivriada island (Hayırsızada)",
-   "lat": 40.8759,
-   "lon": 28.9725
-  },
-  {
-   "id": "4qKMrhOTJBPKyyX6mbFwq0",
-   "title": "A kidnapped teenager becomes the sultan's only wife",
-   "type": "podcast",
-   "place": "Hürrem Sultan Hamam",
-   "lat": 41.0073,
-   "lon": 28.9791
-  },
-  {
-   "id": "7M66ATYp4FYXOCyX6qaNvm",
-   "title": "A defector's fatal call reaches the wrong Englishman",
-   "type": "podcast",
-   "place": "British Consulate-General (Pera House)",
-   "lat": 41.0318,
-   "lon": 28.9718
-  },
-  {
-   "id": "3R1TvRx1TrJkVvplKvjLL5",
-   "title": "Every clock in this palace stopped at 9:05",
-   "type": "podcast",
-   "place": "Dolmabahçe Palace",
-   "lat": 41.0392,
-   "lon": 29.0005
-  },
-  {
-   "id": "34ZJMmPJPMlOX3igO1Jmgb",
-   "title": "A Monocle correspondent reads the pulse of a divided city",
-   "type": "podcast",
-   "place": "Karaköy waterfront (area)",
-   "lat": 41.0214,
-   "lon": 28.9767
-  },
-  {
-   "id": "48xOS2NL3pAMSiiqtfycXP",
-   "title": "A chubby cat's slouch earns her a bronze statue",
-   "type": "podcast",
-   "place": "Tombili cat statue, Kadıköy",
-   "lat": 40.989,
-   "lon": 29.0417
-  },
-  {
-   "id": "7DdSuxh7XJBLXrzN3H1TGa",
-   "title": "A 13th-century poet still fills tattoo parlors and coffee mugs",
-   "type": "podcast",
-   "place": "Galata Mevlevi Lodge museum",
-   "lat": 41.0281,
-   "lon": 28.9745
   },
   {
    "id": "61om9zUA7lBrpoA7BQ0tC8",
    "title": "Sea baths on stilts teach Istanbul to swim in public",
    "type": "podcast",
    "place": "Salacak waterfront, Üsküdar (area)",
+   "url": "https://open.spotify.com/search/Ottoman History Podcast Bathing in the Bosphorus",
+   "creator": null,
+   "channel": "Ottoman History Podcast",
    "lat": 41.0213,
    "lon": 29.0054
   },
@@ -518,22 +820,20 @@
    "title": "The neighborhood bathhouse maps an empire’s politics",
    "type": "podcast",
    "place": "Çemberlitaş Hamam",
+   "url": "https://open.spotify.com/search/Ottoman History Podcast Ottoman Hamams",
+   "creator": null,
+   "channel": "Ottoman History Podcast",
    "lat": 41.0085,
    "lon": 28.9714
-  },
-  {
-   "id": "1MFlbwSExlhAN98RW7drVl",
-   "title": "Tanks and civilians face off on the bridge between two continents",
-   "type": "podcast",
-   "place": "15 July Martyrs Bridge (Bosphorus Bridge)",
-   "lat": 41.0451,
-   "lon": 29.034
   },
   {
    "id": "3pfDzCKf4YmBeiiTHQm7Y5",
    "title": "A quiet edge of town becomes Istanbul’s holiest quarter",
    "type": "podcast",
    "place": "Eyüp Sultan Mosque, Eyüp",
+   "url": "https://open.spotify.com/search/Ottoman History Podcast Eyup",
+   "creator": null,
+   "channel": "Ottoman History Podcast",
    "lat": 41.0477,
    "lon": 28.9339
   },
@@ -542,38 +842,20 @@
    "title": "Subway diggers hit a lost harbor full of Byzantine ships",
    "type": "video",
    "place": "Yenikapı excavations (Harbour of Theodosius)",
+   "url": "https://youtu.be/eiqRfawIoWI",
+   "creator": null,
+   "channel": "Institute of Nautical Archaeology",
    "lat": 41.0045,
    "lon": 28.9505
-  },
-  {
-   "id": "2WsNF6FeiRy8iDyGmOYPAa",
-   "title": "Cannons finally break a thousand-year-old wall",
-   "type": "podcast",
-   "place": "Theodosian Land Walls, Topkapı Gate",
-   "lat": 41.0214,
-   "lon": 28.926
-  },
-  {
-   "id": "7eQvTq7JWJ114dmW3kA1uS",
-   "title": "Three lines of stone hold off invaders for a thousand years",
-   "type": "video",
-   "place": "Theodosian Land Walls, Topkapı Gate",
-   "lat": 41.0204,
-   "lon": 28.9196
-  },
-  {
-   "id": "6JfAGrRPIPO5pAkOP5kYoc",
-   "title": "Sixteen million people wait for the fault under the sea",
-   "type": "video",
-   "place": "Kandilli Observatory",
-   "lat": 41.0631,
-   "lon": 29.0617
   },
   {
    "id": "5lHFyw1DkbxdDAtaggz1lj",
    "title": "The longest-reigning sultan builds an empire and a skyline",
    "type": "podcast",
    "place": "Süleymaniye Mosque",
+   "url": "https://open.spotify.com/search/The Forum Suleyman the Magnificent",
+   "creator": null,
+   "channel": "The Forum",
    "lat": 41.0162,
    "lon": 28.964
   },
@@ -582,6 +864,9 @@
    "title": "A novelist builds a real museum for the lovers in his book",
    "type": "video",
    "place": "Museum of Innocence",
+   "url": "https://youtu.be/v3vmCpimA-g",
+   "creator": null,
+   "channel": "Louisiana Channel",
    "lat": 41.0318,
    "lon": 28.979
   },
@@ -590,6 +875,9 @@
    "title": "Designers take over an old Greek schoolhouse to imagine the future",
    "type": "video",
    "place": "Galata Greek Primary School, Karaköy",
+   "url": "https://youtu.be/ml76_3UNVAQ",
+   "creator": null,
+   "channel": "Monocle Films",
    "lat": 41.0262,
    "lon": 28.9773
   },
@@ -598,22 +886,20 @@
    "title": "A chariot-racing riot nearly topples an emperor",
    "type": "podcast",
    "place": "Hippodrome (Sultanahmet Square)",
+   "url": "https://open.spotify.com/search/Our Curious Past Nika Riots Constantinople",
+   "creator": null,
+   "channel": "Our Curious Past",
    "lat": 41.0063,
    "lon": 28.9757
-  },
-  {
-   "id": "66MhqUAU6T6o73JbG326q7",
-   "title": "Rice, spoons and strict etiquette at the Ottoman sultan’s table",
-   "type": "video",
-   "place": "Topkapı Palace kitchens",
-   "lat": 41.0105,
-   "lon": 28.9852
   },
   {
    "id": "6Q7D0YEZ12Yh33GUzee8pw",
    "title": "One roof, four thousand shops, five centuries of haggling",
    "type": "podcast",
    "place": "Grand Bazaar",
+   "url": "https://open.spotify.com/search/My Dark Path Gold Ghosts Istanbul Grand Bazaar",
+   "creator": null,
+   "channel": "My Dark Path",
    "lat": 41.0107,
    "lon": 28.9681
   },
@@ -622,6 +908,9 @@
    "title": "An Egyptian obelisk still marks the old chariot racetrack",
    "type": "video",
    "place": "Hippodrome (Sultanahmet Square)",
+   "url": "https://youtu.be/JvnrmkyX5XI",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 41.0058,
    "lon": 28.9752
   },
@@ -630,62 +919,42 @@
    "title": "Thousands of shops crowd under the domes of a covered market",
    "type": "video",
    "place": "Grand Bazaar",
+   "url": "https://youtu.be/dheD-PHmGVM",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 41.0108,
    "lon": 28.968
-  },
-  {
-   "id": "vk6y25viNYwEyCZi9chec",
-   "title": "Byzantine domes and Ottoman minarets share one peninsula",
-   "type": "video",
-   "place": "Hippodrome (Sultanahmet Square)",
-   "lat": 41.0054,
-   "lon": 28.9768
   },
   {
    "id": "52T4U8DjHX5vn0Y8xj1RWR",
    "title": "A Levantine family builds the café life of Pera",
    "type": "podcast",
    "place": "İstiklal Avenue",
+   "url": "https://open.spotify.com/search/Ottoman History Podcast Producing Pera",
+   "creator": null,
+   "channel": "Ottoman History Podcast",
    "lat": 41.0335,
    "lon": 28.9776
-  },
-  {
-   "id": "6RERZ4um3GaU8vl2JKqlsO",
-   "title": "A long shopping street carries the crowds of the European side",
-   "type": "video",
-   "place": "İstiklal Avenue",
-   "lat": 41.0335,
-   "lon": 28.9777
-  },
-  {
-   "id": "6RF0yH8lxpfcQF4MGNHvac",
-   "title": "Coffee, fashion, and circumcision festivals fill the sultan's court",
-   "type": "podcast",
-   "place": "Topkapı Palace",
-   "lat": 41.0115,
-   "lon": 28.9834
   },
   {
    "id": "5P94C3OyEXiQKuap73pXzq",
    "title": "Ferries cross between Europe and Asia on a busy strait",
    "type": "video",
    "place": "Eminönü ferry piers",
+   "url": "https://youtu.be/sBnlLOWFqgE",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 41.017,
    "lon": 28.974
-  },
-  {
-   "id": "6TjZANBjwiL9Ax8ok9uTcN",
-   "title": "Sultans rule an empire from courtyards above the Bosphorus",
-   "type": "video",
-   "place": "Topkapı Palace",
-   "lat": 41.0115,
-   "lon": 28.9834
   },
   {
    "id": "70FXXxrZet9DbSueMOsDlL",
    "title": "Six minarets and 20,000 blue tiles face the old cathedral",
    "type": "video",
    "place": "Blue Mosque (Sultan Ahmed Mosque)",
+   "url": "https://youtu.be/ocyyxHkCvm8",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 41.0054,
    "lon": 28.9768
   },
@@ -694,22 +963,20 @@
    "title": "Crusaders desecrate the church they came to save",
    "type": "podcast",
    "place": "Hagia Sophia",
+   "url": "https://open.spotify.com/search/Everything Everywhere Daily Sack of Constantinople",
+   "creator": null,
+   "channel": "Everything Everywhere Daily",
    "lat": 41.0086,
    "lon": 28.9802
-  },
-  {
-   "id": "AUPFypO97SAM7Ioob635N",
-   "title": "A confectioner’s shop and the soft sweets it made famous",
-   "type": "video",
-   "place": "Hacı Bekir confectionery, Bahçekapı",
-   "lat": 41.0161,
-   "lon": 28.9744
   },
   {
    "id": "5k5s0Dm3Gh8dNQb2G3lZb4",
    "title": "A shoestring sci-fi film borrows its space battles from Hollywood",
    "type": "podcast",
    "place": "Yeşilçam Street",
+   "url": "https://open.spotify.com/search/Witness History Making Turkish Star Wars",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 41.0347,
    "lon": 28.9787
   },
@@ -718,6 +985,9 @@
    "title": "A cult sci-fi film stitched together from borrowed footage",
    "type": "video",
    "place": "Yeşilçam Street",
+   "url": "https://youtu.be/o1VBuIG9D_s",
+   "creator": null,
+   "channel": "Great Big Story",
    "lat": 41.0349,
    "lon": 28.9789
   }

@@ -2,290 +2,222 @@
  "city": "Liverpool",
  "pins": [
   {
-   "id": "6zFJYcXdJK4c9OLLxOOqh6",
-   "title": "Bombs, rumours and the government’s morale reports",
-   "type": "podcast",
-   "place": "St Luke’s bombed-out church, Leece Street",
-   "lat": 53.4022,
-   "lon": -2.9759
-  },
-  {
-   "id": "3TX0ZUIoUMOXrntIXZKEzB",
-   "title": "The Beatles, Docks and Rock ’n’ Roll: Liverpool’s Musical Heritage",
-   "type": "audiotour",
-   "place": "Royal Albert Dock",
-   "lat": 53.4004,
-   "lon": -2.9925
-  },
-  {
-   "id": "218odHDH79JJGnUYPFCJdI",
-   "title": "Hidden Histories: Liverpool’s Links to the Transatlantic Slave Trade",
-   "type": "audiotour",
-   "place": "Liverpool Town Hall, Exchange Flags",
-   "lat": 53.4074,
-   "lon": -2.9918
-  },
-  {
-   "id": "6TRzSZPu5mLHJdj0nhjHMK",
-   "title": "The cathedral that would have outdomed St Peter’s",
-   "type": "video",
-   "place": "Lutyens Crypt, Metropolitan Cathedral",
-   "lat": 53.4043,
-   "lon": -2.9692
-  },
-  {
-   "id": "66dFm1M3YJvrv4XfQNwlEf",
-   "title": "Victorian painters who rejected the art academy",
-   "type": "video",
-   "place": "Walker Art Gallery",
-   "lat": 53.41,
-   "lon": -2.9797
-  },
-  {
    "id": "1tX8zy904HFnf8ulvcfid3",
    "title": "A temple for concerts and courts opposite Lime Street",
    "type": "video",
    "place": "St George’s Hall",
+   "url": "https://www.youtube.com/watch?v=LUQrjS6G2Sg",
+   "creator": null,
+   "channel": "The Guide Liverpool",
    "lat": 53.4087,
    "lon": -2.98
   },
   {
-   "id": "3HBqMbUehxWsu8hbtgNSol",
-   "title": "An electric railway on stilts along the docks",
-   "type": "video",
-   "place": "Regent Road by Stanley Dock",
-   "lat": 53.4198,
-   "lon": -2.999
-  },
-  {
-   "id": "5n7HGXE7dU0bPgsiLHrCej",
-   "title": "Everton fans tell their own club’s story",
-   "type": "video",
-   "place": "Goodison Park stadium, Walton",
-   "lat": 53.4388,
-   "lon": -2.9663
-  },
-  {
-   "id": "1QzVmJKmi6lgHsJawANeAC",
-   "title": "A swaying wall of singing on the Anfield terrace",
-   "type": "video",
-   "place": "The Kop stand, Anfield",
-   "lat": 53.43,
-   "lon": -2.9603
-  },
-  {
-   "id": "2zs5UtkwtAzHtLslxutbL2",
-   "title": "Toxteth’s 1981 riots, told from inside the neighbourhood",
-   "type": "video",
-   "place": "Granby Street, Toxteth",
-   "lat": 53.3936,
-   "lon": -2.9599
-  },
-  {
-   "id": "gfWWV9q0nbGrLBgSc6Zj5",
-   "title": "Granada’s current-affairs cameras return to Toxteth",
-   "type": "video",
-   "place": "Upper Parliament Street, Toxteth",
-   "lat": 53.3955,
-   "lon": -2.9705
-  },
-  {
-   "id": "3MxH2Lu1gn9AoEuogsXliw",
-   "title": "The Chinese seamen shipped out of Liverpool after the war",
-   "type": "video",
-   "place": "Chinese seamen memorial plaque, Pier Head",
-   "lat": 53.4045,
-   "lon": -2.996
-  },
-  {
-   "id": "3G4fMyLu82zBRgowJVKNfY",
-   "title": "Europe’s oldest Chinese community, filmed in 1981",
-   "type": "video",
-   "place": "Chinatown arch, Nelson Street",
-   "lat": 53.3995,
-   "lon": -2.9793
-  },
-  {
-   "id": "5EE7pfUBEYPpDUXvDShbJn",
-   "title": "Concrete, clock towers and two copper birds",
-   "type": "video",
-   "place": "Royal Liver Building, Pier Head",
-   "lat": 53.4058,
-   "lon": -2.9958
-  },
-  {
-   "id": "6gmSQsrOC2b5m6UgNyZBoB",
-   "title": "Twenty-two-year-old architect, seventy-four years of building",
-   "type": "video",
-   "place": "Liverpool Cathedral, St James’s Mount",
-   "lat": 53.3975,
-   "lon": -2.9732
-  },
-  {
-   "id": "1tV7b1pF01zfeQlngdzr83",
-   "title": "A museum on the dock where slaving ships were fitted out",
-   "type": "video",
-   "place": "International Slavery Museum, Royal Albert Dock",
-   "lat": 53.4013,
-   "lon": -2.993
-  },
-  {
-   "id": "5xnsCd2CNlcYJ3q1RoiEB9",
-   "title": "Liverpool’s slave-trade past, read in its streets and stones",
-   "type": "video",
-   "place": "Exchange Flags (Nelson monument)",
-   "lat": 53.4077,
-   "lon": -2.9917
-  },
-  {
-   "id": "5MLutBdbw21yPNiTyWkqa7",
-   "title": "Thirty years of digging, and no reason given",
-   "type": "podcast",
-   "place": "Williamson Tunnels Heritage Centre, Smithdown Lane",
-   "lat": 53.4037,
-   "lon": -2.9609
-  },
-  {
-   "id": "5COVwOCHRABfhxkCPRofGa",
-   "title": "A radical city and its fight with Westminster",
-   "type": "podcast",
-   "place": "Municipal Buildings, Dale Street",
-   "lat": 53.4084,
-   "lon": -2.9878
-  },
-  {
-   "id": "39OLIJIUpz0PyQcsT2n5H6",
-   "title": "A church fête, a skiffle band and a boy with a guitar",
-   "type": "podcast",
-   "place": "St Peter’s Church, Woolton",
-   "lat": 53.3758,
-   "lon": -2.8687
-  },
-  {
-   "id": "4AfjcXVoze0SjXI078KXyC",
-   "title": "A seventieth birthday on the Mersey ferry",
-   "type": "podcast",
-   "place": "Mersey Ferries terminal, Pier Head",
-   "lat": 53.4041,
-   "lon": -2.9976
-  },
-  {
-   "id": "19pG0dKvPmx8dw8OrknNxk",
-   "title": "How a port city came to talk Scouse",
-   "type": "podcast",
-   "place": "Scotland Road",
-   "lat": 53.418,
-   "lon": -2.982
-  },
-  {
-   "id": "4Xteg3VgRXIz635U5tDnnN",
-   "title": "The women who worked the sugar refinery on Love Lane",
-   "type": "podcast",
-   "place": "Tate & Lyle refinery site, Love Lane",
-   "lat": 53.4207,
-   "lon": -2.9912
-  },
-  {
-   "id": "1P79AzLhueCldGNB8VWzVP",
-   "title": "Britain’s biggest cathedral, raised over an old quarry",
-   "type": "podcast",
-   "place": "Liverpool Cathedral, St James’s Mount",
-   "lat": 53.3975,
-   "lon": -2.9732
-  },
-  {
-   "id": "5v77CgZfNxfKkwR4lCIYlm",
-   "title": "A concrete tent under a stained-glass crown",
-   "type": "podcast",
-   "place": "Metropolitan Cathedral of Christ the King",
-   "lat": 53.4046,
-   "lon": -2.9688
-  },
-  {
-   "id": "4lITTEagdtLlNKx3eTSn2G",
-   "title": "The first intercity railway nearly dies in Parliament",
-   "type": "podcast",
-   "place": "Edge Hill station",
-   "lat": 53.4026,
-   "lon": -2.947
-  },
-  {
-   "id": "TQhcYCWJ91LqdR36MKsUW",
-   "title": "Wartime sailors deported, families left behind",
-   "type": "podcast",
-   "place": "India Buildings, Water Street",
-   "lat": 53.4062,
-   "lon": -2.9908
-  },
-  {
-   "id": "rM6DeTqoF4yN9wXmK4Fkj",
-   "title": "A Cunard liner torpedoed on its way home to Liverpool",
-   "type": "podcast",
-   "place": "Cunard Building, Pier Head",
-   "lat": 53.4047,
-   "lon": -2.9951
-  },
-  {
-   "id": "4j1BTMx1GyQnT5EzZRk0ke",
-   "title": "Ninety-seven fans, a cover-up and a city’s long fight for the truth",
-   "type": "podcast",
-   "place": "Hillsborough memorial, Anfield stadium",
-   "lat": 53.431,
-   "lon": -2.9612
-  },
-  {
-   "id": "3qUbmv87T8Xc0u05DKoy8W",
-   "title": "Four Liverpool teenagers and the cellar club where it started",
-   "type": "podcast",
-   "place": "Cavern Club, Mathew Street",
-   "lat": 53.4065,
-   "lon": -2.9878
-  },
-  {
-   "id": "2AZMegQi3Nntn6NE1Dbj6k",
-   "title": "How a city remembers the trade that built its wealth",
-   "type": "podcast",
-   "place": "International Slavery Museum, Royal Albert Dock",
-   "lat": 53.4011,
-   "lon": -2.9936
+   "id": "F65eXGenER31MDfwQnZxB",
+   "title": "Hillsborough: The Truth",
+   "type": "book",
+   "place": "St George’s Hall",
+   "url": "https://goodreads.com/search?q=Phil+Scraton+Hillsborough",
+   "creator": "Phil Scraton",
+   "channel": null,
+   "lat": 53.4086,
+   "lon": -2.98
   },
   {
    "id": "4zFvSinUjHLFTZtoBQIQb6",
    "title": "The port that made Liverpool, and the warehouses built not to burn",
    "type": "podcast",
    "place": "Royal Albert Dock",
+   "url": "https://podcasts.apple.com/us/podcast/liverpools-historic-docks/id1042631089?i=1000530474172",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
    "lat": 53.4,
    "lon": -2.992
   },
   {
+   "id": "4j1BTMx1GyQnT5EzZRk0ke",
+   "title": "Ninety-seven fans, a cover-up, and a city’s long fight for the truth",
+   "type": "podcast",
+   "place": "Hillsborough memorial, Anfield stadium",
+   "url": "https://podcasts.apple.com/us/podcast/the-hillsborough-stadium-disaster/id1591095413?i=1000758701098",
+   "creator": null,
+   "channel": "History Daily",
+   "lat": 53.431,
+   "lon": -2.9612
+  },
+  {
+   "id": "5EE7pfUBEYPpDUXvDShbJn",
+   "title": "Concrete, clock towers, and two copper birds",
+   "type": "video",
+   "place": "Royal Liver Building, Pier Head",
+   "url": "https://www.youtube.com/watch?v=tJ_bwWAsFB4",
+   "creator": null,
+   "channel": "South Coast Drones UK",
+   "lat": 53.4058,
+   "lon": -2.9958
+  },
+  {
+   "id": "1QlVr58o2TZEB5SWB0EIxZ",
+   "title": "Brookside",
+   "type": "tv",
+   "place": "Brookside Close, Croxteth Park",
+   "url": "https://www.justwatch.com/us/search?q=Brookside",
+   "creator": "Phil Redmond",
+   "channel": null,
+   "lat": 53.4426,
+   "lon": -2.889
+  },
+  {
+   "id": "39OLIJIUpz0PyQcsT2n5H6",
+   "title": "A church fête, a skiffle band, and a boy with a guitar",
+   "type": "podcast",
+   "place": "St. Peter’s Church, Woolton",
+   "url": "https://podcasts.apple.com/us/podcast/when-lennon-met-mccartney/id1564093130?i=1000774831629",
+   "creator": null,
+   "channel": "Today In History with The Retrospectors",
+   "lat": 53.3758,
+   "lon": -2.8687
+  },
+  {
+   "id": "5QhvJ3fmfo1qQTYGEYdNDn",
+   "title": "Penny Lane",
+   "type": "music",
+   "place": "Penny Lane, Mossley Hill",
+   "url": "https://open.spotify.com/search/The%20Beatles%20Penny%20Lane",
+   "creator": "The Beatles",
+   "channel": null,
+   "lat": 53.3877,
+   "lon": -2.9155
+  },
+  {
+   "id": "RmFsxx3iHZIraUokdDDpQ",
+   "title": "The Mersey Sound",
+   "type": "book",
+   "place": "Hope Street",
+   "url": "https://goodreads.com/search?q=Mersey+Sound+The+Mersey+Sound",
+   "creator": "Adrian Henri, Roger McGough and Brian Patten",
+   "channel": null,
+   "lat": 53.4015,
+   "lon": -2.9713
+  },
+  {
+   "id": "6zFJYcXdJK4c9OLLxOOqh6",
+   "title": "Bombs, rumors, and the government’s morale reports",
+   "type": "podcast",
+   "place": "St. Luke’s bombed-out church, Leece Street",
+   "url": "https://podcasts.apple.com/us/podcast/morale-morality-and-the-liverpool-blitz/id208318433?i=1000447620040",
+   "creator": null,
+   "channel": "The National Archives Podcast Series",
+   "lat": 53.4022,
+   "lon": -2.9759
+  },
+  {
    "id": "5SFQTVxazdsYBB66p1LVK5",
-   "title": "The world’s first commercial wet dock, buried under a shopping centre",
+   "title": "The world’s first commercial wet dock, buried under a shopping center",
    "type": "podcast",
    "place": "Old Dock, Liverpool ONE",
+   "url": "https://podcasts.apple.com/us/podcast/the-old-dock-hidden-history-beneath-your-feet/id1555715279?i=1000748352552",
+   "creator": null,
+   "channel": "National Museums Liverpool Podcast",
    "lat": 53.4023,
    "lon": -2.988
   },
   {
-   "id": "6UaSvluyifS9X9Y7RM6GG6",
-   "title": "Let’s Dance to Joy Division",
-   "type": "music",
-   "place": "Liverpool Institute for Performing Arts (LIPA)",
-   "lat": 53.4002,
-   "lon": -2.9711
+   "id": "rM6DeTqoF4yN9wXmK4Fkj",
+   "title": "A Cunard liner torpedoed on its way home to Liverpool",
+   "type": "podcast",
+   "place": "Cunard Building, Pier Head",
+   "url": "https://podcasts.apple.com/us/podcast/sinking-of-the-lusitania/id339986758?i=1000706672421",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 53.4047,
+   "lon": -2.9951
   },
   {
-   "id": "LOPjsNeWB1VwTdUXtx1w7",
-   "title": "Dreaming of You",
-   "type": "music",
-   "place": "Hoylake, Wirral",
-   "lat": 53.3922,
-   "lon": -3.1797
+   "id": "1P79AzLhueCldGNB8VWzVP",
+   "title": "Britain’s biggest cathedral, raised over an old quarry",
+   "type": "podcast",
+   "place": "Liverpool Cathedral, St. James’s Mount",
+   "url": "https://podcasts.apple.com/us/podcast/o-come-all-ye-faithful-the-story-of-the-uks-largest-cathedral/id1649388610?i=1000590207100",
+   "creator": null,
+   "channel": "Uncharted Liverpool",
+   "lat": 53.3975,
+   "lon": -2.9732
+  },
+  {
+   "id": "19pG0dKvPmx8dw8OrknNxk",
+   "title": "How a port city came to talk Scouse",
+   "type": "podcast",
+   "place": "Scotland Road",
+   "url": "https://podcasts.apple.com/us/podcast/scouse/id869276405?i=1000745316815",
+   "creator": null,
+   "channel": "Word of Mouth",
+   "lat": 53.418,
+   "lon": -2.982
+  },
+  {
+   "id": "6gmSQsrOC2b5m6UgNyZBoB",
+   "title": "Twenty-two-year-old architect, seventy-four years of building",
+   "type": "video",
+   "place": "Liverpool Cathedral, St. James’s Mount",
+   "url": "https://www.youtube.com/watch?v=bKMhfkmKtHk",
+   "creator": null,
+   "channel": "atelieritalia",
+   "lat": 53.3975,
+   "lon": -2.9732
+  },
+  {
+   "id": "3G4fMyLu82zBRgowJVKNfY",
+   "title": "Europe’s oldest Chinese community, filmed in 1981",
+   "type": "video",
+   "place": "Chinatown arch, Nelson Street",
+   "url": "https://www.youtube.com/watch?v=2aaYJKSj3kA",
+   "creator": null,
+   "channel": "Merseyside Films",
+   "lat": 53.3995,
+   "lon": -2.9793
+  },
+  {
+   "id": "gfWWV9q0nbGrLBgSc6Zj5",
+   "title": "Granada’s current-affairs cameras return to Toxteth",
+   "type": "video",
+   "place": "Upper Parliament Street, Toxteth",
+   "url": "https://www.youtube.com/watch?v=kkM-tv7k-Nc",
+   "creator": null,
+   "channel": "Grove",
+   "lat": 53.3955,
+   "lon": -2.9705
+  },
+  {
+   "id": "2zs5UtkwtAzHtLslxutbL2",
+   "title": "Toxteth’s 1981 riots, told from inside the neighborhood",
+   "type": "video",
+   "place": "Granby Street, Toxteth",
+   "url": "https://www.youtube.com/watch?v=Xy_RDLsou4E",
+   "creator": null,
+   "channel": "Liverpool Cinematics",
+   "lat": 53.3936,
+   "lon": -2.9599
+  },
+  {
+   "id": "6TRzSZPu5mLHJdj0nhjHMK",
+   "title": "The cathedral that would have outdomed St. Peter’s",
+   "type": "video",
+   "place": "Lutyens Crypt, Metropolitan Cathedral",
+   "url": "https://www.youtube.com/watch?v=_0nuTkaGkqk",
+   "creator": null,
+   "channel": "Kings and Things",
+   "lat": 53.4043,
+   "lon": -2.9692
   },
   {
    "id": "1s7AWWHeec0ajGJj6SXIUY",
    "title": "All Together Now",
    "type": "music",
-   "place": "St Luke’s Church (the “bombed-out church”)",
+   "place": "St. Luke’s Church (the “bombed-out church”)",
+   "url": "https://open.spotify.com/search/The%20Farm%20All%20Together%20Now",
+   "creator": "The Farm",
+   "channel": null,
    "lat": 53.4013,
    "lon": -2.975
   },
@@ -293,39 +225,21 @@
    "id": "7FGpvOzMrQraAVUAoMbozI",
    "title": "The Killing Moon",
    "type": "music",
-   "place": "St George’s Hall",
+   "place": "St. George’s Hall",
+   "url": "https://open.spotify.com/search/Echo%20%26%20the%20Bunnymen%20The%20Killing%20Moon",
+   "creator": "Echo & the Bunnymen",
+   "channel": null,
    "lat": 53.4086,
    "lon": -2.9797
-  },
-  {
-   "id": "2i7SbhQEliDT2f2lBwKcrO",
-   "title": "Relax",
-   "type": "music",
-   "place": "Site of Eric’s club, Mathew Street",
-   "lat": 53.4062,
-   "lon": -2.9876
-  },
-  {
-   "id": "7zM7pTHaO7HbyT0kpwRRYa",
-   "title": "Electricity",
-   "type": "music",
-   "place": "Meols, Wirral",
-   "lat": 53.4,
-   "lon": -3.154
-  },
-  {
-   "id": "3HRTvLtOZdbkfnVFj69tfi",
-   "title": "Children of the Ghetto",
-   "type": "music",
-   "place": "Granby Street, Toxteth",
-   "lat": 53.3955,
-   "lon": -2.9583
   },
   {
    "id": "64TtshnQPova6VEZ7rNW3g",
    "title": "Maggie Mae",
    "type": "music",
    "place": "Lime Street station",
+   "url": "https://open.spotify.com/search/The%20Beatles%20Maggie%20Mae",
+   "creator": "The Beatles",
+   "channel": null,
    "lat": 53.4075,
    "lon": -2.9778
   },
@@ -334,166 +248,20 @@
    "title": "Strawberry Fields Forever",
    "type": "music",
    "place": "Strawberry Field gates, Woolton",
+   "url": "https://open.spotify.com/search/The%20Beatles%20Strawberry%20Fields%20Forever",
+   "creator": "The Beatles",
+   "channel": null,
    "lat": 53.3838,
    "lon": -2.8793
-  },
-  {
-   "id": "5QhvJ3fmfo1qQTYGEYdNDn",
-   "title": "Penny Lane",
-   "type": "music",
-   "place": "Penny Lane, Mossley Hill",
-   "lat": 53.3877,
-   "lon": -2.9155
-  },
-  {
-   "id": "7jQ2AbKruVPd10vF6KrNRY",
-   "title": "Ferry Cross the Mersey",
-   "type": "music",
-   "place": "Mersey Ferries terminal, Pier Head",
-   "lat": 53.4047,
-   "lon": -2.996
-  },
-  {
-   "id": "2jZ4y2PzmCulVcNjRFFHjG",
-   "title": "Anyone Who Had a Heart",
-   "type": "music",
-   "place": "Cavern Club, Mathew Street",
-   "lat": 53.4065,
-   "lon": -2.9879
-  },
-  {
-   "id": "6NzF27PxCAP6vdAXYBzFNY",
-   "title": "You’ll Never Walk Alone",
-   "type": "music",
-   "place": "Anfield stadium, the Kop",
-   "lat": 53.4308,
-   "lon": -2.9608
-  },
-  {
-   "id": "34kdqynLzALRhtalT32pbx",
-   "title": "Bread",
-   "type": "tv",
-   "place": "Dingle district",
-   "lat": 53.385,
-   "lon": -2.972
-  },
-  {
-   "id": "EIYnCRVBmOAK0FJdVXYHo",
-   "title": "Dockers",
-   "type": "movie",
-   "place": "Royal Seaforth Dock",
-   "lat": 53.459,
-   "lon": -3.0215
-  },
-  {
-   "id": "3DLiXIAsLKt1KLWtFL5DlP",
-   "title": "Violent Playground",
-   "type": "movie",
-   "place": "Gerard Gardens tenements site",
-   "lat": 53.4118,
-   "lon": -2.9822
-  },
-  {
-   "id": "3hAX583MHPZeIBuYqgKwsy",
-   "title": "Hillsborough",
-   "type": "movie",
-   "place": "Hillsborough memorial, Anfield stadium",
-   "lat": 53.4309,
-   "lon": -2.9615
-  },
-  {
-   "id": "1QlVr58o2TZEB5SWB0EIxZ",
-   "title": "Brookside",
-   "type": "tv",
-   "place": "Brookside Close, Croxteth Park",
-   "lat": 53.4426,
-   "lon": -2.889
-  },
-  {
-   "id": "GVBbbJ3BLEH1RSxdTK5Zd",
-   "title": "Letter to Brezhnev",
-   "type": "movie",
-   "place": "Kirkby town centre",
-   "lat": 53.481,
-   "lon": -2.892
-  },
-  {
-   "id": "64QPGYI1p1jozDvFazAoO4",
-   "title": "Boys from the Blackstuff",
-   "type": "tv",
-   "place": "Royal Albert Dock",
-   "lat": 53.4002,
-   "lon": -2.9922
-  },
-  {
-   "id": "7ylcGPEOheZic5HlrHzsMn",
-   "title": "Of Time and the City",
-   "type": "movie",
-   "place": "Museum of Liverpool, Mann Island",
-   "lat": 53.4036,
-   "lon": -2.9953
-  },
-  {
-   "id": "6Qf76ZvPOHoXBAvKsRdUlr",
-   "title": "Good Ol’ Freda",
-   "type": "movie",
-   "place": "Cavern Club, Mathew Street",
-   "lat": 53.4065,
-   "lon": -2.9879
-  },
-  {
-   "id": "5nUyqcqcI0u2HMNysJCSZo",
-   "title": "Nowhere Boy",
-   "type": "movie",
-   "place": "Mendips, 251 Menlove Avenue",
-   "lat": 53.3786,
-   "lon": -2.8873
-  },
-  {
-   "id": "29YhtslASRUmUsy52dWtxQ",
-   "title": "Distant Voices, Still Lives",
-   "type": "movie",
-   "place": "Kensington district",
-   "lat": 53.4093,
-   "lon": -2.956
-  },
-  {
-   "id": "F65eXGenER31MDfwQnZxB",
-   "title": "Hillsborough: The Truth",
-   "type": "book",
-   "place": "St George’s Hall",
-   "lat": 53.4086,
-   "lon": -2.98
-  },
-  {
-   "id": "2KqmbyL2zVW4KnkCN0Zknf",
-   "title": "Liverpool: Wondrous Place",
-   "type": "book",
-   "place": "Cavern Club, Mathew Street",
-   "lat": 53.4064,
-   "lon": -2.9877
-  },
-  {
-   "id": "6uEsF3tw4eTSx8D6yEX2xT",
-   "title": "Red or Dead",
-   "type": "book",
-   "place": "Shankly statue, Anfield stadium",
-   "lat": 53.4313,
-   "lon": -2.9608
-  },
-  {
-   "id": "RmFsxx3iHZIraUokdDDpQ",
-   "title": "The Mersey Sound",
-   "type": "book",
-   "place": "Hope Street",
-   "lat": 53.4015,
-   "lon": -2.9713
   },
   {
    "id": "4hR2glugci5qZaaNAvwGsY",
    "title": "Tune In: The Beatles: All These Years, Volume 1",
    "type": "book",
-   "place": "St Peter’s Church, Woolton",
+   "place": "St. Peter’s Church, Woolton",
+   "url": "https://goodreads.com/search?q=Mark+Lewisohn+Tune+In",
+   "creator": "Mark Lewisohn",
+   "channel": null,
    "lat": 53.3775,
    "lon": -2.8695
   },
@@ -501,41 +269,474 @@
    "id": "4i4LwvlbC08UHaRU1A0Xvz",
    "title": "An Awfully Big Adventure",
    "type": "book",
-   "place": "Liverpool Playhouse theatre",
+   "place": "Liverpool Playhouse theater",
+   "url": "https://goodreads.com/search?q=Beryl+Bainbridge+An+Awfully+Big+Adventure",
+   "creator": "Beryl Bainbridge",
+   "channel": null,
    "lat": 53.4066,
    "lon": -2.9827
   },
   {
-   "id": "4uPe4KJv4ivD0GjrT8NKsF",
-   "title": "Twopence to Cross the Mersey",
-   "type": "book",
-   "place": "Woodside ferry terminal, Birkenhead",
-   "lat": 53.3934,
-   "lon": -3.0108
+   "id": "GVBbbJ3BLEH1RSxdTK5Zd",
+   "title": "Letter to Brezhnev",
+   "type": "movie",
+   "place": "Kirkby town center",
+   "url": "https://www.justwatch.com/us/search?q=Letter%20to%20Brezhnev",
+   "creator": "Chris Bernard",
+   "channel": null,
+   "lat": 53.481,
+   "lon": -2.892
   },
   {
-   "id": "6WRl7cMrCWdJA8eODO2dTK",
-   "title": "Dead Wake",
-   "type": "book",
-   "place": "Cunard Building, Pier Head",
-   "lat": 53.4053,
-   "lon": -2.9959
+   "id": "29YhtslASRUmUsy52dWtxQ",
+   "title": "Distant Voices, Still Lives",
+   "type": "movie",
+   "place": "Kensington district",
+   "url": "https://www.justwatch.com/us/search?q=Distant%20Voices%2C%20Still%20Lives",
+   "creator": "Terence Davies",
+   "channel": null,
+   "lat": 53.4093,
+   "lon": -2.956
   },
   {
-   "id": "1yZz7QNREePeDVcGSpWKTa",
-   "title": "The Slave Ship: A Human History",
-   "type": "book",
-   "place": "Liverpool Town Hall",
-   "lat": 53.4074,
-   "lon": -2.9917
+   "id": "5nUyqcqcI0u2HMNysJCSZo",
+   "title": "Nowhere Boy",
+   "type": "movie",
+   "place": "Mendips, 251 Menlove Avenue",
+   "url": "https://www.justwatch.com/us/search?q=Nowhere%20Boy",
+   "creator": "Sam Taylor-Johnson",
+   "channel": null,
+   "lat": 53.3786,
+   "lon": -2.8873
+  },
+  {
+   "id": "6Qf76ZvPOHoXBAvKsRdUlr",
+   "title": "Good Ol’ Freda",
+   "type": "movie",
+   "place": "Cavern Club, Mathew Street",
+   "url": "https://www.justwatch.com/us/search?q=Good%20Ol%E2%80%99%20Freda",
+   "creator": "Ryan White",
+   "channel": null,
+   "lat": 53.4065,
+   "lon": -2.9879
+  },
+  {
+   "id": "7ylcGPEOheZic5HlrHzsMn",
+   "title": "Of Time and the City",
+   "type": "movie",
+   "place": "Museum of Liverpool, Mann Island",
+   "url": "https://www.justwatch.com/us/search?q=Of%20Time%20and%20the%20City",
+   "creator": "Terence Davies",
+   "channel": null,
+   "lat": 53.4036,
+   "lon": -2.9953
+  },
+  {
+   "id": "EIYnCRVBmOAK0FJdVXYHo",
+   "title": "Dockers",
+   "type": "movie",
+   "place": "Royal Seaforth Dock",
+   "url": "https://www.justwatch.com/us/search?q=Dockers",
+   "creator": "Bill Anderson",
+   "channel": null,
+   "lat": 53.459,
+   "lon": -3.0215
+  },
+  {
+   "id": "3hAX583MHPZeIBuYqgKwsy",
+   "title": "Hillsborough",
+   "type": "movie",
+   "place": "Hillsborough memorial, Anfield stadium",
+   "url": "https://www.justwatch.com/us/search?q=Hillsborough",
+   "creator": "Daniel Gordon",
+   "channel": null,
+   "lat": 53.4309,
+   "lon": -2.9615
+  },
+  {
+   "id": "3DLiXIAsLKt1KLWtFL5DlP",
+   "title": "Violent Playground",
+   "type": "movie",
+   "place": "Gerard Gardens tenements site",
+   "url": "https://www.justwatch.com/us/search?q=Violent%20Playground",
+   "creator": "Basil Dearden",
+   "channel": null,
+   "lat": 53.4118,
+   "lon": -2.9822
   },
   {
    "id": "4jYrZBmsVyTomXUsVPFcs7",
    "title": "Redburn: His First Voyage",
    "type": "book",
    "place": "Prince’s Dock",
+   "url": "https://goodreads.com/search?q=Herman+Melville+Redburn",
+   "creator": "Herman Melville",
+   "channel": null,
    "lat": 53.4103,
    "lon": -2.9978
+  },
+  {
+   "id": "1yZz7QNREePeDVcGSpWKTa",
+   "title": "The Slave Ship: A Human History",
+   "type": "book",
+   "place": "Liverpool Town Hall",
+   "url": "https://goodreads.com/search?q=Marcus+Rediker+The+Slave+Ship",
+   "creator": "Marcus Rediker",
+   "channel": null,
+   "lat": 53.4074,
+   "lon": -2.9917
+  },
+  {
+   "id": "6WRl7cMrCWdJA8eODO2dTK",
+   "title": "Dead Wake",
+   "type": "book",
+   "place": "Cunard Building, Pier Head",
+   "url": "https://goodreads.com/search?q=Erik+Larson+Dead+Wake",
+   "creator": "Erik Larson",
+   "channel": null,
+   "lat": 53.4053,
+   "lon": -2.9959
+  },
+  {
+   "id": "4uPe4KJv4ivD0GjrT8NKsF",
+   "title": "Twopence to Cross the Mersey",
+   "type": "book",
+   "place": "Woodside ferry terminal, Birkenhead",
+   "url": "https://goodreads.com/search?q=Helen+Forrester+Twopence+to+Cross+the+Mersey",
+   "creator": "Helen Forrester",
+   "channel": null,
+   "lat": 53.3934,
+   "lon": -3.0108
+  },
+  {
+   "id": "6uEsF3tw4eTSx8D6yEX2xT",
+   "title": "Red or Dead",
+   "type": "book",
+   "place": "Shankly statue, Anfield stadium",
+   "url": "https://goodreads.com/search?q=David+Peace+Red+or+Dead",
+   "creator": "David Peace",
+   "channel": null,
+   "lat": 53.4313,
+   "lon": -2.9608
+  },
+  {
+   "id": "2KqmbyL2zVW4KnkCN0Zknf",
+   "title": "Liverpool: Wondrous Place",
+   "type": "book",
+   "place": "Cavern Club, Mathew Street",
+   "url": "https://goodreads.com/search?q=Paul+Du+Noyer+Liverpool",
+   "creator": "Paul Du Noyer",
+   "channel": null,
+   "lat": 53.4064,
+   "lon": -2.9877
+  },
+  {
+   "id": "6NzF27PxCAP6vdAXYBzFNY",
+   "title": "You’ll Never Walk Alone",
+   "type": "music",
+   "place": "Anfield stadium, the Kop",
+   "url": "https://open.spotify.com/search/Gerry%20and%20the%20Pacemakers%20You%27ll%20Never%20Walk%20Alone",
+   "creator": "Gerry and the Pacemakers",
+   "channel": null,
+   "lat": 53.4308,
+   "lon": -2.9608
+  },
+  {
+   "id": "2jZ4y2PzmCulVcNjRFFHjG",
+   "title": "Anyone Who Had a Heart",
+   "type": "music",
+   "place": "Cavern Club, Mathew Street",
+   "url": "https://open.spotify.com/search/Cilla%20Black%20Anyone%20Who%20Had%20a%20Heart",
+   "creator": "Cilla Black",
+   "channel": null,
+   "lat": 53.4065,
+   "lon": -2.9879
+  },
+  {
+   "id": "7jQ2AbKruVPd10vF6KrNRY",
+   "title": "Ferry Cross the Mersey",
+   "type": "music",
+   "place": "Mersey Ferries terminal, Pier Head",
+   "url": "https://open.spotify.com/search/Gerry%20and%20the%20Pacemakers%20Ferry%20Cross%20the%20Mersey",
+   "creator": "Gerry and the Pacemakers",
+   "channel": null,
+   "lat": 53.4047,
+   "lon": -2.996
+  },
+  {
+   "id": "3HRTvLtOZdbkfnVFj69tfi",
+   "title": "Children of the Ghetto",
+   "type": "music",
+   "place": "Granby Street, Toxteth",
+   "url": "https://open.spotify.com/search/The%20Real%20Thing%20Children%20of%20the%20Ghetto",
+   "creator": "The Real Thing",
+   "channel": null,
+   "lat": 53.3955,
+   "lon": -2.9583
+  },
+  {
+   "id": "7zM7pTHaO7HbyT0kpwRRYa",
+   "title": "Electricity",
+   "type": "music",
+   "place": "Meols, Wirral",
+   "url": "https://open.spotify.com/search/Orchestral%20Manoeuvres%20in%20the%20Dark%20Electricity",
+   "creator": "Orchestral Manoeuvres in the Dark",
+   "channel": null,
+   "lat": 53.4,
+   "lon": -3.154
+  },
+  {
+   "id": "2i7SbhQEliDT2f2lBwKcrO",
+   "title": "Relax",
+   "type": "music",
+   "place": "Site of Eric’s club, Mathew Street",
+   "url": "https://open.spotify.com/search/Frankie%20Goes%20to%20Hollywood%20Relax",
+   "creator": "Frankie Goes to Hollywood",
+   "channel": null,
+   "lat": 53.4062,
+   "lon": -2.9876
+  },
+  {
+   "id": "LOPjsNeWB1VwTdUXtx1w7",
+   "title": "Dreaming of You",
+   "type": "music",
+   "place": "Hoylake, Wirral",
+   "url": "https://open.spotify.com/search/The%20Coral%20Dreaming%20of%20You",
+   "creator": "The Coral",
+   "channel": null,
+   "lat": 53.3922,
+   "lon": -3.1797
+  },
+  {
+   "id": "6UaSvluyifS9X9Y7RM6GG6",
+   "title": "Let’s Dance to Joy Division",
+   "type": "music",
+   "place": "Liverpool Institute for Performing Arts (LIPA)",
+   "url": "https://open.spotify.com/search/The%20Wombats%20Let%27s%20Dance%20to%20Joy%20Division",
+   "creator": "The Wombats",
+   "channel": null,
+   "lat": 53.4002,
+   "lon": -2.9711
+  },
+  {
+   "id": "3TX0ZUIoUMOXrntIXZKEzB",
+   "title": "The Beatles, Docks and Rock ’n’ Roll: Liverpool’s Musical Heritage",
+   "type": "audiotour",
+   "place": "Royal Albert Dock",
+   "url": "https://voicemap.me/tour/liverpool/the-beatles-docks-and-rock-n-roll-liverpool-s-musical-heritage",
+   "creator": null,
+   "channel": null,
+   "lat": 53.4004,
+   "lon": -2.9925
+  },
+  {
+   "id": "218odHDH79JJGnUYPFCJdI",
+   "title": "Hidden Histories: Liverpool’s Links to the Transatlantic Slave Trade",
+   "type": "audiotour",
+   "place": "Liverpool Town Hall, Exchange Flags",
+   "url": "https://voicemap.me/tour/liverpool/hidden-histories-liverpool-s-links-to-the-transatlantic-slave-trade",
+   "creator": null,
+   "channel": null,
+   "lat": 53.4074,
+   "lon": -2.9918
+  },
+  {
+   "id": "66dFm1M3YJvrv4XfQNwlEf",
+   "title": "Victorian painters who rejected the art academy",
+   "type": "video",
+   "place": "Walker Art Gallery",
+   "url": "https://www.youtube.com/watch?v=11Jo-WILkhg",
+   "creator": null,
+   "channel": "National Museums Liverpool",
+   "lat": 53.41,
+   "lon": -2.9797
+  },
+  {
+   "id": "3HBqMbUehxWsu8hbtgNSol",
+   "title": "An electric railway on stilts along the docks",
+   "type": "video",
+   "place": "Regent Road by Stanley Dock",
+   "url": "https://www.youtube.com/watch?v=2OFy5O4DLO0",
+   "creator": null,
+   "channel": "Ruairidh MacVeigh",
+   "lat": 53.4198,
+   "lon": -2.999
+  },
+  {
+   "id": "5n7HGXE7dU0bPgsiLHrCej",
+   "title": "Everton fans tell their own club’s story",
+   "type": "video",
+   "place": "Goodison Park stadium, Walton",
+   "url": "https://www.youtube.com/watch?v=yxDo7n-RoxY",
+   "creator": null,
+   "channel": "Guardian Football",
+   "lat": 53.4388,
+   "lon": -2.9663
+  },
+  {
+   "id": "1QzVmJKmi6lgHsJawANeAC",
+   "title": "A swaying wall of singing on the Anfield terrace",
+   "type": "video",
+   "place": "The Kop stand, Anfield",
+   "url": "https://www.youtube.com/watch?v=g8zpu6yukyM",
+   "creator": null,
+   "channel": "BBC Archive",
+   "lat": 53.43,
+   "lon": -2.9603
+  },
+  {
+   "id": "3MxH2Lu1gn9AoEuogsXliw",
+   "title": "The Chinese seamen shipped out of Liverpool after the war",
+   "type": "video",
+   "place": "Chinese seamen memorial plaque, Pier Head",
+   "url": "https://www.youtube.com/watch?v=32UMEb8yCWY",
+   "creator": null,
+   "channel": "CNA Insider",
+   "lat": 53.4045,
+   "lon": -2.996
+  },
+  {
+   "id": "1tV7b1pF01zfeQlngdzr83",
+   "title": "A museum on the dock where slaving ships were fitted out",
+   "type": "video",
+   "place": "International Slavery Museum, Royal Albert Dock",
+   "url": "https://www.youtube.com/watch?v=0Mg1HxjpCHk",
+   "creator": null,
+   "channel": "National Museums Liverpool",
+   "lat": 53.4013,
+   "lon": -2.993
+  },
+  {
+   "id": "5xnsCd2CNlcYJ3q1RoiEB9",
+   "title": "Liverpool’s slave-trade past, read in its streets and stones",
+   "type": "video",
+   "place": "Exchange Flags (Nelson monument)",
+   "url": "https://www.youtube.com/watch?v=MBbkfeR5TpM",
+   "creator": null,
+   "channel": "Tomi Adedeji",
+   "lat": 53.4077,
+   "lon": -2.9917
+  },
+  {
+   "id": "5MLutBdbw21yPNiTyWkqa7",
+   "title": "Thirty years of digging, and no reason given",
+   "type": "podcast",
+   "place": "Williamson Tunnels Heritage Centre, Smithdown Lane",
+   "url": "https://podcasts.apple.com/us/podcast/joseph-williamsons-tunnels/id1423288932?i=1000775321723",
+   "creator": null,
+   "channel": "Jimmy Akin’s Mysterious World",
+   "lat": 53.4037,
+   "lon": -2.9609
+  },
+  {
+   "id": "5COVwOCHRABfhxkCPRofGa",
+   "title": "A radical city and its fight with Westminster",
+   "type": "podcast",
+   "place": "Municipal Buildings, Dale Street",
+   "url": "https://podcasts.apple.com/us/podcast/a-radical-history-of-liverpool/id583707171?i=1000714821020",
+   "creator": null,
+   "channel": "Explaining History",
+   "lat": 53.4084,
+   "lon": -2.9878
+  },
+  {
+   "id": "4AfjcXVoze0SjXI078KXyC",
+   "title": "A seventieth birthday on the Mersey ferry",
+   "type": "podcast",
+   "place": "Mersey Ferries terminal, Pier Head",
+   "url": "https://podcasts.apple.com/us/podcast/edwina-currie-a-ferry-across-the-mersey/id471685852?i=1000375946806",
+   "creator": null,
+   "channel": "The Essay",
+   "lat": 53.4041,
+   "lon": -2.9976
+  },
+  {
+   "id": "4Xteg3VgRXIz635U5tDnnN",
+   "title": "The women who worked the sugar refinery on Love Lane",
+   "type": "podcast",
+   "place": "Tate & Lyle refinery site, Love Lane",
+   "url": "https://podcasts.apple.com/us/podcast/meet-the-sugar-girls-of-love-lane-new-social/id1705546837?i=1000653536146",
+   "creator": null,
+   "channel": "From the Library With Love",
+   "lat": 53.4207,
+   "lon": -2.9912
+  },
+  {
+   "id": "5v77CgZfNxfKkwR4lCIYlm",
+   "title": "A concrete tent under a stained-glass crown",
+   "type": "podcast",
+   "place": "Metropolitan Cathedral of Christ the King",
+   "url": "https://podcasts.apple.com/us/podcast/s2-e07-the-art-of-liverpools-catholic-cathedral/id1642085479?i=1000757610529",
+   "creator": null,
+   "channel": "Exhibiting Faith",
+   "lat": 53.4046,
+   "lon": -2.9688
+  },
+  {
+   "id": "4lITTEagdtLlNKx3eTSn2G",
+   "title": "The first intercity railway nearly dies in Parliament",
+   "type": "podcast",
+   "place": "Edge Hill station",
+   "url": "https://podcasts.apple.com/us/podcast/liverpool-manchester-railway-pt-1-the-fight-for-the-idea/id1674640307?i=1000610315649",
+   "creator": null,
+   "channel": "History of the Railways",
+   "lat": 53.4026,
+   "lon": -2.947
+  },
+  {
+   "id": "TQhcYCWJ91LqdR36MKsUW",
+   "title": "Wartime sailors deported, families left behind",
+   "type": "podcast",
+   "place": "India Buildings, Water Street",
+   "url": "https://podcasts.apple.com/us/podcast/the-scandal-of-liverpools-missing-chinese-sailors/id339986758?i=1000485160017",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 53.4062,
+   "lon": -2.9908
+  },
+  {
+   "id": "3qUbmv87T8Xc0u05DKoy8W",
+   "title": "Four Liverpool teenagers and the cellar club where it started",
+   "type": "podcast",
+   "place": "Cavern Club, Mathew Street",
+   "url": "https://podcasts.apple.com/us/podcast/the-beatles/id1537788786?i=1000533489614",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 53.4065,
+   "lon": -2.9878
+  },
+  {
+   "id": "2AZMegQi3Nntn6NE1Dbj6k",
+   "title": "How a city remembers the trade that built its wealth",
+   "type": "podcast",
+   "place": "International Slavery Museum, Royal Albert Dock",
+   "url": "https://podcasts.apple.com/us/podcast/remembering-the-slave-trade-in-liverpool/id1617492082?i=1000560245944",
+   "creator": null,
+   "channel": "Realms of Memory",
+   "lat": 53.4011,
+   "lon": -2.9936
+  },
+  {
+   "id": "34kdqynLzALRhtalT32pbx",
+   "title": "Bread",
+   "type": "tv",
+   "place": "Dingle district",
+   "url": "https://www.justwatch.com/us/search?q=Bread",
+   "creator": "Carla Lane",
+   "channel": null,
+   "lat": 53.385,
+   "lon": -2.972
+  },
+  {
+   "id": "64QPGYI1p1jozDvFazAoO4",
+   "title": "Boys from the Blackstuff",
+   "type": "tv",
+   "place": "Royal Albert Dock",
+   "url": "https://www.justwatch.com/us/search?q=Boys%20from%20the%20Blackstuff",
+   "creator": "Alan Bleasdale",
+   "channel": null,
+   "lat": 53.4002,
+   "lon": -2.9922
   }
  ]
 }

@@ -2,418 +2,24 @@
  "city": "Athens",
  "pins": [
   {
-   "id": "1BrmcpuRYLxIAR5NSoPRSd",
-   "title": "Athens revives the Olympics, 1896",
-   "type": "podcast",
-   "place": "Panathenaic Stadium",
-   "lat": 37.9683,
-   "lon": 23.7411
-  },
-  {
-   "id": "2Lp1CKqnbMXX2v2jGNa6Yo",
-   "title": "The Athens famine under German occupation, 1941–42",
-   "type": "podcast",
-   "place": "Syntagma Square",
-   "lat": 37.9755,
-   "lon": 23.7348
-  },
-  {
-   "id": "4R0OVEP9dZt1UW0Q3uTFzz",
-   "title": "How Athenian democracy worked",
-   "type": "podcast",
-   "place": "Pnyx hill",
-   "lat": 37.9719,
-   "lon": 23.7193
-  },
-  {
-   "id": "2qzPG1Yrr3tWPB3gekSsoT",
-   "title": "The Mask of Agamemnon, a Mycenaean gold death mask",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.989,
-   "lon": 23.7326
-  },
-  {
-   "id": "NfivHOqVwehx58aSEI9hm",
-   "title": "The Parthenon Marbles and the restitution debate",
-   "type": "video",
-   "place": "Acropolis Museum",
-   "lat": 37.9685,
-   "lon": 23.7285
-  },
-  {
-   "id": "1AlzKzbBL85t1myA6s3qLW",
-   "title": "Nike Adjusting Her Sandal, from the Temple of Athena Nike",
-   "type": "video",
-   "place": "Acropolis Museum",
-   "lat": 37.9685,
-   "lon": 23.7285
-  },
-  {
-   "id": "3VBc2ZROeYXOiAs0X9Rdd0",
-   "title": "The Erechtheion, a temple on the Acropolis",
-   "type": "video",
-   "place": "Erechtheion, Acropolis",
-   "lat": 37.9722,
-   "lon": 23.7268
-  },
-  {
-   "id": "1pSe020HiPoiC96orc3uup",
-   "title": "The Antikythera Youth, a bronze from a shipwreck",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.9887,
-   "lon": 23.7327
-  },
-  {
-   "id": "66r5A4mlimOYeCshc47dP4",
-   "title": "The Grave Stele of Hegeso",
-   "type": "video",
-   "place": "Street of Tombs, Kerameikos",
-   "lat": 37.9776,
-   "lon": 23.7178
-  },
-  {
-   "id": "5S3CwEnzY0AUxSI2blTPvM",
-   "title": "The Artemision Bronze, Zeus or Poseidon",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.9892,
-   "lon": 23.733
-  },
-  {
-   "id": "31IH9l8566Tr2hh0Pu8Hy4",
-   "title": "The Kroisos Kouros, an Archaic grave statue",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.9889,
-   "lon": 23.7323
-  },
-  {
-   "id": "71oATJRGnWoOJDOov3kPfo",
-   "title": "The Ancient Agora of Athens",
-   "type": "video",
-   "place": "Ancient Agora",
-   "lat": 37.9746,
-   "lon": 23.7224
-  },
-  {
-   "id": "7CDadG9yKm5y8TgiCjT0Lk",
-   "title": "The Dipylon Amphora, a Geometric grave marker",
-   "type": "video",
-   "place": "Kerameikos archaeological site",
-   "lat": 37.9785,
-   "lon": 23.7192
-  },
-  {
-   "id": "6X2vDyRAIRzTMTfNG9QW0y",
-   "title": "The Peplos Kore, a painted Archaic statue",
-   "type": "video",
-   "place": "Acropolis Museum",
-   "lat": 37.9686,
-   "lon": 23.7282
-  },
-  {
-   "id": "7DC4TqZgjb2qQxU0pDeqXM",
-   "title": "The Kritios Boy, an early Classical marble youth",
-   "type": "video",
-   "place": "Acropolis Museum",
-   "lat": 37.9683,
-   "lon": 23.7288
-  },
-  {
-   "id": "7hBANSkVUT7a2VK8DPYIG8",
-   "title": "A Caryatid from the Erechtheion",
-   "type": "video",
-   "place": "Erechtheion, Acropolis",
-   "lat": 37.972,
-   "lon": 23.7265
-  },
-  {
-   "id": "715NPqaAeHjvzoNvS7ekBe",
-   "title": "The Parthenon by Iktinos and Kallikrates",
-   "type": "video",
-   "place": "Parthenon, Acropolis",
-   "lat": 37.9715,
-   "lon": 23.7267
-  },
-  {
-   "id": "2yA0S0IaZHfqvoYyQsje9a",
-   "title": "Athens Below the Surface: A Walking Tour of the Podoniftis Stream",
-   "type": "audiotour",
-   "place": "",
-   "lat": 38.0238,
-   "lon": 23.736
-  },
-  {
-   "id": "5tjGUPq28ZhfyN9lrU08mA",
-   "title": "Acropolis of Athens Audio Guide: Where Paul Met the Pagan Gods",
-   "type": "audiotour",
-   "place": "Acropolis south slope entrance",
-   "lat": 37.9701,
-   "lon": 23.7275
-  },
-  {
-   "id": "4USqk500Ky1FRQQ2ooDU3i",
-   "title": "Athens Photography Walking Tour: National Garden to Philopappos Hill",
-   "type": "audiotour",
-   "place": "Tomb of the Unknown Soldier, Syntagma Square",
-   "lat": 37.9754,
-   "lon": 23.7361
-  },
-  {
-   "id": "EOFsltGqA5EtHBUT6l2AM",
-   "title": "Acropolis of Athens Audio Guide: A Tour with Context",
-   "type": "audiotour",
-   "place": "Acropolis main entrance",
-   "lat": 37.9712,
-   "lon": 23.7237
-  },
-  {
-   "id": "DG1N1Kp4zOwG0zDzolimN",
-   "title": "Ancient Agora of Athens: A guide to its history and legends",
-   "type": "audiotour",
-   "place": "Ancient Agora",
-   "lat": 37.9757,
-   "lon": 23.7232
-  },
-  {
-   "id": "3e8tFPQYWuHiILYb7CpWry",
-   "title": "Downtown Athens with Context: Syntagma Square to the Acropolis Museum",
-   "type": "audiotour",
-   "place": "Syntagma Square",
-   "lat": 37.9755,
-   "lon": 23.7349
-  },
-  {
-   "id": "2J2NbzHQAeDXwUk4u3y9lg",
-   "title": "A Neoclassical Capital",
-   "type": "audiotour",
-   "place": "Syntagma Square",
-   "lat": 37.9755,
-   "lon": 23.735
-  },
-  {
-   "id": "3kJVQIfpcEk9tlivDsQHEQ",
-   "title": "Secret Athens: A Tour from Syntagma Square to the Central Market",
-   "type": "audiotour",
-   "place": "Syntagma Square",
-   "lat": 37.9755,
-   "lon": 23.7355
-  },
-  {
-   "id": "6dBpwWWnsfqj4AHJFg89Nx",
-   "title": "Where to find the best traditional Greek food hidden in Athens",
-   "type": "audiotour",
-   "place": "Monastiraki Square",
-   "lat": 37.9763,
-   "lon": 23.7259
-  },
-  {
-   "id": "37iAeIXLNxVMtr1WVBbEJB",
-   "title": "The Gate to Eternity: A Guide to Kerameikos Archaeological Site",
-   "type": "audiotour",
-   "place": "Kerameikos archaeological site",
-   "lat": 37.9779,
-   "lon": 23.7173
-  },
-  {
-   "id": "3Zg6nP4g7tneAIZuL5qQ3m",
-   "title": "Those Who Are Loved",
-   "type": "book",
-   "place": "Exarchia Square",
-   "lat": 37.9866,
-   "lon": 23.7348
-  },
-  {
-   "id": "4boPRCG5Rry4POEdloBRWb",
-   "title": "Adults in the Room",
-   "type": "book",
-   "place": "Syntagma Square",
-   "lat": 37.9756,
-   "lon": 23.7348
-  },
-  {
-   "id": "3sGNEgzA9BrtWqqNY4XIhg",
-   "title": "The Hemlock Cup",
-   "type": "book",
-   "place": "Ancient Agora",
-   "lat": 37.9749,
-   "lon": 23.722
-  },
-  {
-   "id": "o9HfjWN8XPmfnrYAZEaGO",
-   "title": "The Parthenon",
-   "type": "book",
-   "place": "Parthenon, Acropolis",
-   "lat": 37.9715,
-   "lon": 23.7266
-  },
-  {
-   "id": "1C2aqkjag9JA5dPrK1R6PR",
-   "title": "The Last Days of Socrates",
-   "type": "book",
-   "place": "Ancient Agora",
-   "lat": 37.9749,
-   "lon": 23.722
-  },
-  {
-   "id": "ImOYPgStgBue2Xx5H1iE9",
-   "title": "Twice a Stranger",
-   "type": "book",
-   "place": "Nea Smyrni district (area)",
-   "lat": 37.945,
-   "lon": 23.7142
-  },
-  {
-   "id": "6qujwZzSCS7tVgEEMHPI33",
-   "title": "The Rise and Fall of Athens",
-   "type": "book",
-   "place": "Pnyx hill",
-   "lat": 37.9715,
-   "lon": 23.7193
-  },
-  {
-   "id": "V4F4sxpb5wM4KnXOzZW0Q",
-   "title": "The Colossus of Maroussi",
-   "type": "book",
-   "place": "Marousi (area)",
-   "lat": 38.05,
-   "lon": 23.8
-  },
-  {
-   "id": "Z4h9e73iTypgEHpaH8ZVk",
-   "title": "Road to Rembetika",
-   "type": "book",
-   "place": "Piraeus port (area)",
-   "lat": 37.9416,
-   "lon": 23.6366
-  },
-  {
-   "id": "4rEIl6JBgMDVG00ndQHdfp",
-   "title": "Inside Hitler’s Greece",
-   "type": "book",
-   "place": "Kaisariani Shooting Range memorial",
-   "lat": 37.9658,
-   "lon": 23.7587
-  },
-  {
-   "id": "58qcu57teYmtWufqFJkyDf",
-   "title": "Deadline in Athens",
-   "type": "book",
-   "place": "Police headquarters, Alexandras Avenue",
-   "lat": 37.9878,
-   "lon": 23.7562
-  },
-  {
-   "id": "ZWUcinBraGmYi7Ycu4MPE",
-   "title": "History of the Peloponnesian War",
-   "type": "book",
-   "place": "Kerameikos archaeological site",
-   "lat": 37.9781,
-   "lon": 23.7188
-  },
-  {
-   "id": "3TcX9uHX1LdtCtQIek6Uwu",
-   "title": "Rembetiko",
-   "type": "movie",
-   "place": "Kaisariani district (area)",
-   "lat": 37.9635,
-   "lon": 23.766
-  },
-  {
-   "id": "79QU76GnLLvKwIfDE8WbiS",
-   "title": "Stella",
-   "type": "movie",
-   "place": "Plaka district (area)",
-   "lat": 37.9715,
-   "lon": 23.729
-  },
-  {
-   "id": "2RQoBowYeV85nxM0QwghRq",
-   "title": "Agora (From Democracy to the Market)",
-   "type": "movie",
-   "place": "Syntagma Square",
-   "lat": 37.9755,
-   "lon": 23.7348
-  },
-  {
-   "id": "4GqT7MvUbrrOU4WZnFDB4Z",
-   "title": "Wasted Youth",
-   "type": "movie",
-   "place": "Exarchia district (area)",
-   "lat": 37.9843,
-   "lon": 23.7348
-  },
-  {
-   "id": "71Ryzj7CFzSkrzBo8pzVZN",
-   "title": "Dogtooth (Kynodontas)",
-   "type": "movie",
-   "place": "Marousi, northern suburbs (area)",
-   "lat": 38.05,
-   "lon": 23.81
-  },
-  {
-   "id": "3c0doE99328e8bWRxgI8I9",
-   "title": "A Touch of Spice (Politiki Kouzina)",
-   "type": "movie",
-   "place": "Evripidou Street (area)",
-   "lat": 37.9797,
-   "lon": 23.7252
-  },
-  {
-   "id": "6kGvq1yMCmcsqngUGDHIHc",
-   "title": "Boy Eating the Bird’s Food",
-   "type": "movie",
-   "place": "Kypseli district (area)",
-   "lat": 37.997,
-   "lon": 23.738
-  },
-  {
-   "id": "20nHK9k97s3McdYVxtob5w",
-   "title": "The Ogre of Athens (O Drakos)",
-   "type": "movie",
-   "place": "Omonia Square",
-   "lat": 37.9838,
-   "lon": 23.728
-  },
-  {
-   "id": "6roCS3kxZZTKl95o4BbPp5",
-   "title": "Never on Sunday (Pote tin Kyriaki)",
-   "type": "movie",
-   "place": "Piraeus port (area)",
-   "lat": 37.944,
-   "lon": 23.642
-  },
-  {
-   "id": "6wt1SmCOQ3h7dDATnQN9K",
-   "title": "Plato’s Academy (Akadimia Platonos)",
-   "type": "movie",
-   "place": "Akadimia Platonos district (area)",
-   "lat": 37.9893,
-   "lon": 23.707
-  },
-  {
    "id": "5ZjR9b6X6iZHgXSMtSQBkh",
    "title": "Frangosyriani",
    "type": "music",
    "place": "Karaiskaki Square, Piraeus",
+   "url": "https://open.spotify.com/search/Markos%20Vamvakaris%20Frangosyriani",
+   "creator": "Markos Vamvakaris",
+   "channel": null,
    "lat": 37.9469,
    "lon": 23.6404
-  },
-  {
-   "id": "5xAHSZrGYpJ240qg1p71dE",
-   "title": "Ta Paidia tou Peiraia",
-   "type": "music",
-   "place": "Mikrolimano harbour, Piraeus",
-   "lat": 37.9371,
-   "lon": 23.6607
   },
   {
    "id": "5WloUHIWsvtnXsSHEgrBEM",
    "title": "Synnefiasmeni Kyriaki",
    "type": "music",
    "place": "Kolonos district (area)",
+   "url": "https://open.spotify.com/search/Vassilis%20Tsitsanis%20Synnefiasmeni%20Kyriaki",
+   "creator": "Vassilis Tsitsanis",
+   "channel": null,
    "lat": 37.9961,
    "lon": 23.7162
   },
@@ -422,86 +28,119 @@
    "title": "Vradiazei",
    "type": "music",
    "place": "Nea Ionia (area)",
+   "url": "https://open.spotify.com/search/Stelios%20Kazantzidis%20Vradiazei",
+   "creator": "Stelios Kazantzidis",
+   "channel": null,
    "lat": 38.0388,
    "lon": 23.7595
   },
   {
-   "id": "1WU7EC1BXYZevxQfc5ZtlG",
-   "title": "Dimitroula Mou",
+   "id": "5xAHSZrGYpJ240qg1p71dE",
+   "title": "Ta Paidia tou Peiraia",
    "type": "music",
-   "place": "Plaka district (area)",
-   "lat": 37.9729,
-   "lon": 23.7301
-  },
-  {
-   "id": "7mtvthj2O9Ep15RdfgNhVE",
-   "title": "Pote tha Kanei Xasteria",
-   "type": "music",
-   "place": "Polytechnic gate, Patission Street",
-   "lat": 37.9879,
-   "lon": 23.7316
-  },
-  {
-   "id": "6IgNKRr2cDG9qL9iGpRd2x",
-   "title": "As Kratisoun oi Horoi",
-   "type": "music",
-   "place": "Kyttaro music club",
-   "lat": 37.9966,
-   "lon": 23.7296
+   "place": "Mikrolimano harbor, Piraeus",
+   "url": "https://open.spotify.com/search/Melina%20Mercouri%20Ta%20Paidia%20tou%20Peiraia",
+   "creator": "Melina Mercouri",
+   "channel": null,
+   "lat": 37.9371,
+   "lon": 23.6607
   },
   {
    "id": "2YdFg6wPlNYC8sh8ecaxA7",
    "title": "Ena to Chelidoni",
    "type": "music",
    "place": "Pnyx hill",
+   "url": "https://open.spotify.com/search/Grigoris%20Bithikotsis%20Ena%20to%20Chelidoni",
+   "creator": "Grigoris Bithikotsis",
+   "channel": null,
    "lat": 37.9715,
    "lon": 23.7193
+  },
+  {
+   "id": "7mtvthj2O9Ep15RdfgNhVE",
+   "title": "Pote tha Kanei Xasteria",
+   "type": "music",
+   "place": "Polytechnic gate, Patission Street",
+   "url": "https://open.spotify.com/search/Nikos%20Xylouris%20Pote%20tha%20Kanei%20Xasteria",
+   "creator": "Nikos Xylouris",
+   "channel": null,
+   "lat": 37.9879,
+   "lon": 23.7316
+  },
+  {
+   "id": "1WU7EC1BXYZevxQfc5ZtlG",
+   "title": "Dimitroula Mou",
+   "type": "music",
+   "place": "Plaka district (area)",
+   "url": "https://open.spotify.com/search/Haris%20Alexiou%20Dimitroula%20Mou",
+   "creator": "Haris Alexiou",
+   "channel": null,
+   "lat": 37.9729,
+   "lon": 23.7301
   },
   {
    "id": "2Vj5vzBvubH0I7rHZieA8u",
    "title": "O Mpampis o Flou",
    "type": "music",
    "place": "Exarchia Square",
+   "url": "https://open.spotify.com/search/Pavlos%20Sidiropoulos%20O%20Mpampis%20o%20Flou",
+   "creator": "Pavlos Sidiropoulos",
+   "channel": null,
    "lat": 37.9866,
    "lon": 23.7349
   },
   {
-   "id": "Cu4Ri07BmbYcl6DumYkkx",
-   "title": "Afti Ti Zoi (feat. Guru)",
+   "id": "6IgNKRr2cDG9qL9iGpRd2x",
+   "title": "As Kratisoun oi Horoi",
    "type": "music",
-   "place": "Omonia Square",
-   "lat": 37.9838,
-   "lon": 23.7275
+   "place": "Kyttaro music club",
+   "url": "https://open.spotify.com/search/Dionysis%20Savvopoulos%20As%20Kratisoun%20oi%20Horoi",
+   "creator": "Dionysis Savvopoulos",
+   "channel": null,
+   "lat": 37.9966,
+   "lon": 23.7296
   },
   {
    "id": "7gYRTpE1dEE8HjKwUOMTKN",
    "title": "Monaxia Mou Ola",
    "type": "music",
    "place": "Iera Odos (Sacred Way)",
+   "url": "https://open.spotify.com/search/Pyx%20Lax%20Monaxia%20Mou%20Ola",
+   "creator": "Pyx Lax",
+   "channel": null,
    "lat": 37.9785,
    "lon": 23.7169
+  },
+  {
+   "id": "Cu4Ri07BmbYcl6DumYkkx",
+   "title": "Afti Ti Zoi (feat. Guru)",
+   "type": "music",
+   "place": "Omonia Square",
+   "url": "https://open.spotify.com/search/Goin%20Through%20Afti%20Ti%20Zoi%20Guru",
+   "creator": "Goin’ Through",
+   "channel": null,
+   "lat": 37.9838,
+   "lon": 23.7275
   },
   {
    "id": "6PXTxTOucAmocvsRMG5c8D",
    "title": "I Zoi Mas Einai Ligi",
    "type": "music",
    "place": "Metaxourgeio district (area)",
+   "url": "https://open.spotify.com/search/Imam%20Baildi%20I%20Zoi%20Mas%20Einai%20Ligi",
+   "creator": "Imam Baildi",
+   "channel": null,
    "lat": 37.985,
    "lon": 23.7195
-  },
-  {
-   "id": "1tiVlaVLHfDIHXoVmiCjbA",
-   "title": "Mavri Ellada",
-   "type": "music",
-   "place": "Ambelokipi district (area)",
-   "lat": 37.9877,
-   "lon": 23.757
   },
   {
    "id": "6IXoktoWS9R30eQJE21BYz",
    "title": "Running Out of You",
    "type": "music",
    "place": "Kypseli district (area)",
+   "url": "https://open.spotify.com/search/Keep%20Shelly%20in%20Athens%20Running%20Out%20of%20You",
+   "creator": "Keep Shelly in Athens",
+   "channel": null,
    "lat": 38.0016,
    "lon": 23.7383
   },
@@ -510,78 +149,779 @@
    "title": "Mantissa",
    "type": "music",
    "place": "Athinas Street",
+   "url": "https://open.spotify.com/search/Marina%20Satti%20Mantissa",
+   "creator": "Marina Satti",
+   "channel": null,
    "lat": 37.9811,
    "lon": 23.7263
   },
   {
-   "id": "1bonKm2Mxb49d1T5p6jTWs",
-   "title": "Routing an empire on the plain of Marathon",
-   "type": "podcast",
-   "place": "Marathon burial mound (Soros), Marathon",
-   "lat": 38.118,
-   "lon": 23.9784
+   "id": "1tiVlaVLHfDIHXoVmiCjbA",
+   "title": "Mavri Ellada",
+   "type": "music",
+   "place": "Ambelokipi district (area)",
+   "url": "https://open.spotify.com/search/Negros%20tou%20Moria%20Mavri%20Ellada",
+   "creator": "Negros tou Moria",
+   "channel": null,
+   "lat": 37.9877,
+   "lon": 23.757
   },
   {
-   "id": "3mx3Ga07NVDpLmWo6wwUQe",
-   "title": "Trapping Persia's fleet in a narrow strait",
-   "type": "podcast",
-   "place": "Piraeus port (area)",
-   "lat": 37.9406,
-   "lon": 23.6333
+   "id": "7zKjgKu8x5WI5HHXkeTjGq",
+   "title": "Gold masks, bronze gods, and grave markers fill one great museum",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "url": "https://youtu.be/1XVi_7b4byc",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 37.989,
+   "lon": 23.7327
   },
   {
-   "id": "3jgpkrxI0QVW7OyMFhQCq5",
-   "title": "Flute music at the fall of an empire",
-   "type": "podcast",
-   "place": "Piraeus port (area)",
-   "lat": 37.9406,
-   "lon": 23.6333
+   "id": "36qMuQxyvApgx1flLNNFtv",
+   "title": "A neighborhood of bookshops, squats and graffiti goes its own way",
+   "type": "video",
+   "place": "Exarchia Square",
+   "url": "https://youtu.be/7tvwSwp1TmU",
+   "creator": null,
+   "channel": "DW News",
+   "lat": 37.9866,
+   "lon": 23.7347
   },
   {
-   "id": "7IRzOMbka2n67p7Rw8uN1S",
-   "title": "Choosing hemlock over exile",
-   "type": "podcast",
-   "place": "Prison of Socrates, Filopappou Hill",
-   "lat": 37.9694,
-   "lon": 23.721
+   "id": "71oATJRGnWoOJDOov3kPfo",
+   "title": "The Ancient Agora of Athens",
+   "type": "video",
+   "place": "Ancient Agora",
+   "url": "https://youtu.be/TYXCcTchLnI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9746,
+   "lon": 23.7224
   },
   {
-   "id": "19IORHpGzpUrQGQT0GD0Dw",
-   "title": "Writing war's first unsentimental history",
-   "type": "podcast",
-   "place": "Kerameikos archaeological site",
-   "lat": 37.978,
-   "lon": 23.7173
+   "id": "4GqT7MvUbrrOU4WZnFDB4Z",
+   "title": "Wasted Youth",
+   "type": "movie",
+   "place": "Exarchia district (area)",
+   "url": "https://justwatch.com/us/search?q=Wasted%20Youth%202011",
+   "creator": "Argyris Papadimitropoulos & Jan Vogel",
+   "channel": null,
+   "lat": 37.9843,
+   "lon": 23.7348
   },
   {
-   "id": "EO0QrcQjZnrxC1fjowI2X",
-   "title": "Mark Mazower: A revolution's chaotic road to a nation",
+   "id": "7aF1hdq0NxftwusUnhfDe6",
+   "title": "A 1961 newsreel camera takes in a fast-growing capital",
+   "type": "video",
+   "place": "Syntagma Square",
+   "url": "https://youtu.be/0HqzEjdn4yQ",
+   "creator": null,
+   "channel": "British Pathé",
+   "lat": 37.9755,
+   "lon": 23.7348
+  },
+  {
+   "id": "5lPX6AFdP0z4EFQgBFvKON",
+   "title": "Island builders tuck a whitewashed village under the Acropolis",
+   "type": "video",
+   "place": "Anafiotika neighborhood",
+   "url": "https://youtu.be/beiWL-80AVc",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 37.9718,
+   "lon": 23.7298
+  },
+  {
+   "id": "67ODZ6q1noWY1Lgs23lRrv",
+   "title": "Stephen Fry picks his three favorite Athens myths",
    "type": "podcast",
-   "place": "Acropolis",
+   "place": "Thiseio neighborhood (area)",
+   "url": "https://open.spotify.com/search/We'll Always Have Athens Stephen Fry",
+   "creator": null,
+   "channel": "We’ll Always Have Athens",
+   "lat": 37.975,
+   "lon": 23.7171
+  },
+  {
+   "id": "58qcu57teYmtWufqFJkyDf",
+   "title": "Deadline in Athens",
+   "type": "book",
+   "place": "Police headquarters, Alexandras Avenue",
+   "url": "https://goodreads.com/search?q=deadline%20in%20athens%20markaris",
+   "creator": "Petros Markaris",
+   "channel": null,
+   "lat": 37.9878,
+   "lon": 23.7562
+  },
+  {
+   "id": "V4F4sxpb5wM4KnXOzZW0Q",
+   "title": "The Colossus of Maroussi",
+   "type": "book",
+   "place": "Marousi (area)",
+   "url": "https://goodreads.com/search?q=colossus%20of%20maroussi%20henry%20miller",
+   "creator": "Henry Miller",
+   "channel": null,
+   "lat": 38.05,
+   "lon": 23.8
+  },
+  {
+   "id": "EOFsltGqA5EtHBUT6l2AM",
+   "title": "Acropolis of Athens Audio Guide: A Tour with Context",
+   "type": "audiotour",
+   "place": "Acropolis main entrance",
+   "url": "https://voicemap.me/tour/athens/acropolis-of-athens-audio-guide-a-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 37.9712,
+   "lon": 23.7237
+  },
+  {
+   "id": "28dOOb9ZQ2O9xTZelV8i9t",
+   "title": "A 19th-century tannery becomes an experimental stage",
+   "type": "podcast",
+   "place": "Vyrsodepseio (old tannery) arts venue",
+   "url": "https://open.spotify.com/search/We'll Always Have Athens Elli Papakonstantinou",
+   "creator": null,
+   "channel": "We’ll Always Have Athens",
+   "lat": 37.9798,
+   "lon": 23.6942
+  },
+  {
+   "id": "1Ij6GAROBvFDLawwtg98Ut",
+   "title": "A photographer chases sixty years of changing light",
+   "type": "podcast",
+   "place": "Parthenon, Acropolis",
+   "url": "https://open.spotify.com/search/We'll Always Have Athens Robert McCabe photography",
+   "creator": null,
+   "channel": "We’ll Always Have Athens",
    "lat": 37.9715,
-   "lon": 23.7257
+   "lon": 23.7267
   },
   {
-   "id": "6DGmw9Y9J6LbEpdrFuD0yP",
-   "title": "An alliance that grew into an empire",
+   "id": "1W4CknChvVpzXSamzE3aKj",
+   "title": "A novelist sends her heroine to a prison island",
    "type": "podcast",
-   "place": "Acropolis",
-   "lat": 37.9715,
-   "lon": 23.7257
+   "place": "Makronisos island",
+   "url": "https://open.spotify.com/search/We'll Always Have Athens Victoria Hislop",
+   "creator": null,
+   "channel": "We’ll Always Have Athens",
+   "lat": 37.7303,
+   "lon": 24.138
+  },
+  {
+   "id": "78shVTpQn57zpnsCx6jHKt",
+   "title": "Negotiating Greece’s bailout from the inside",
+   "type": "podcast",
+   "place": "Syntagma Square",
+   "url": "https://open.spotify.com/search/BBC Witness History Greek debt crisis Tsakalotos",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 37.9756,
+   "lon": 23.7347
+  },
+  {
+   "id": "3PI1nu0yW7fkwZL8i4dzSI",
+   "title": "Students defy a junta from behind Polytechnic gates",
+   "type": "podcast",
+   "place": "Polytechnic gate, Patission Street",
+   "url": "https://open.spotify.com/search/BBC Witness History Athens Polytechnic 1973",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 37.9874,
+   "lon": 23.7319
+  },
+  {
+   "id": "5fqhRi2wFpTW5GhKER7jxB",
+   "title": "Ancient tragedy’s long afterlife on other stages",
+   "type": "podcast",
+   "place": "Theatre of Dionysus",
+   "url": "https://open.spotify.com/search/Ancient Greece Today Greek Tragedy Afterlife",
+   "creator": null,
+   "channel": "Ancient Greece Today",
+   "lat": 37.9703,
+   "lon": 23.7278
   },
   {
    "id": "4w98AtJSqeDCD85u44csGy",
    "title": "An empty gallery built for stolen marble",
    "type": "podcast",
    "place": "Acropolis Museum",
+   "url": "https://open.spotify.com/search/Dan Snow History Hit Elgin Marbles",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
    "lat": 37.9684,
    "lon": 23.7285
+  },
+  {
+   "id": "EO0QrcQjZnrxC1fjowI2X",
+   "title": "Mark Mazower: A revolution’s chaotic road to a nation",
+   "type": "podcast",
+   "place": "Acropolis",
+   "url": "https://open.spotify.com/search/Mark Mazower Greek Revolution John Sandoe Books",
+   "creator": null,
+   "channel": "John Sandoe Books",
+   "lat": 37.9715,
+   "lon": 23.7257
+  },
+  {
+   "id": "19IORHpGzpUrQGQT0GD0Dw",
+   "title": "Writing war’s first unsentimental history",
+   "type": "podcast",
+   "place": "Kerameikos archaeological site",
+   "url": "https://open.spotify.com/search/In Our Time Thucydides",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 37.978,
+   "lon": 23.7173
+  },
+  {
+   "id": "7IRzOMbka2n67p7Rw8uN1S",
+   "title": "Choosing hemlock over exile",
+   "type": "podcast",
+   "place": "Prison of Socrates, Filopappou Hill",
+   "url": "https://open.spotify.com/search/In Our Time Socrates in Prison",
+   "creator": null,
+   "channel": "In Our Time",
+   "lat": 37.9694,
+   "lon": 23.721
+  },
+  {
+   "id": "3jgpkrxI0QVW7OyMFhQCq5",
+   "title": "Flute music at the fall of an empire",
+   "type": "podcast",
+   "place": "Piraeus port (area)",
+   "url": "https://open.spotify.com/search/The Ancients Downfall of Athens",
+   "creator": null,
+   "channel": "The Ancients",
+   "lat": 37.9406,
+   "lon": 23.6333
+  },
+  {
+   "id": "3mx3Ga07NVDpLmWo6wwUQe",
+   "title": "Trapping Persia’s fleet in a narrow strait",
+   "type": "podcast",
+   "place": "Piraeus port (area)",
+   "url": "https://open.spotify.com/search/The Rest Is History Thermopylae Salamis",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 37.9406,
+   "lon": 23.6333
+  },
+  {
+   "id": "1bonKm2Mxb49d1T5p6jTWs",
+   "title": "Routing an empire on the plain of Marathon",
+   "type": "podcast",
+   "place": "Marathon burial mound (Soros), Marathon",
+   "url": "https://open.spotify.com/search/The Rest Is History Battle of Marathon",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 38.118,
+   "lon": 23.9784
+  },
+  {
+   "id": "37iAeIXLNxVMtr1WVBbEJB",
+   "title": "The Gate to Eternity: A Guide to Kerameikos Archaeological Site",
+   "type": "audiotour",
+   "place": "Kerameikos archaeological site",
+   "url": "https://voicemap.me/tour/athens/the-gate-to-eternity-a-guide-to-kerameikos-archaeological-site",
+   "creator": "Christina Karantanis",
+   "channel": null,
+   "lat": 37.9779,
+   "lon": 23.7173
+  },
+  {
+   "id": "6dBpwWWnsfqj4AHJFg89Nx",
+   "title": "Where to find the best traditional Greek food hidden in Athens",
+   "type": "audiotour",
+   "place": "Monastiraki Square",
+   "url": "https://voicemap.me/tour/athens/where-to-find-the-best-traditional-greek-food-hidden-in-athens",
+   "creator": "Rachel Montague & Michalis Dionisakis",
+   "channel": null,
+   "lat": 37.9763,
+   "lon": 23.7259
+  },
+  {
+   "id": "3kJVQIfpcEk9tlivDsQHEQ",
+   "title": "Secret Athens: A Tour from Syntagma Square to the Central Market",
+   "type": "audiotour",
+   "place": "Syntagma Square",
+   "url": "https://voicemap.me/tour/athens/secret-athens-a-tour-from-syntagma-square-to-the-central-market",
+   "creator": "Georges Xyftilis",
+   "channel": null,
+   "lat": 37.9755,
+   "lon": 23.7355
+  },
+  {
+   "id": "2J2NbzHQAeDXwUk4u3y9lg",
+   "title": "A Neoclassical Capital",
+   "type": "audiotour",
+   "place": "Syntagma Square",
+   "url": "https://voicemap.me/tour/athens/the-athens-center",
+   "creator": "Nikolia Apostolou",
+   "channel": null,
+   "lat": 37.9755,
+   "lon": 23.735
+  },
+  {
+   "id": "3e8tFPQYWuHiILYb7CpWry",
+   "title": "Downtown Athens with Context: Syntagma Square to the Acropolis Museum",
+   "type": "audiotour",
+   "place": "Syntagma Square",
+   "url": "https://voicemap.me/tour/athens/downtown-athens-with-context-from-syntagma-square-to-the-acropolis-museum",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 37.9755,
+   "lon": 23.7349
+  },
+  {
+   "id": "DG1N1Kp4zOwG0zDzolimN",
+   "title": "Ancient Agora of Athens: A guide to its history and legends",
+   "type": "audiotour",
+   "place": "Ancient Agora",
+   "url": "https://voicemap.me/tour/athens/ancient-agora-of-athens-a-guide-to-its-history-and-legends",
+   "creator": "Christina Karantanis",
+   "channel": null,
+   "lat": 37.9757,
+   "lon": 23.7232
+  },
+  {
+   "id": "4USqk500Ky1FRQQ2ooDU3i",
+   "title": "Athens Photography Walking Tour: National Garden to Philopappos Hill",
+   "type": "audiotour",
+   "place": "Tomb of the Unknown Soldier, Syntagma Square",
+   "url": "https://voicemap.me/tour/athens/self-guided-photography-tour-athens-from-national-garden-to-philopappos-hill",
+   "creator": "Nick Boutsikos",
+   "channel": null,
+   "lat": 37.9754,
+   "lon": 23.7361
+  },
+  {
+   "id": "5tjGUPq28ZhfyN9lrU08mA",
+   "title": "Acropolis of Athens Audio Guide: Where Paul Met the Pagan Gods",
+   "type": "audiotour",
+   "place": "Acropolis south slope entrance",
+   "url": "https://voicemap.me/tour/athens/acropolis-of-athens-audio-guide-where-paul-met-the-pagan-gods",
+   "creator": "David Bosworth",
+   "channel": null,
+   "lat": 37.9701,
+   "lon": 23.7275
+  },
+  {
+   "id": "6wt1SmCOQ3h7dDATnQN9K",
+   "title": "Plato’s Academy (Akadimia Platonos)",
+   "type": "movie",
+   "place": "Akadimia Platonos district (area)",
+   "url": "https://justwatch.com/us/search?q=Platos%20Academy%202009",
+   "creator": "Filippos Tsitos",
+   "channel": null,
+   "lat": 37.9893,
+   "lon": 23.707
+  },
+  {
+   "id": "6roCS3kxZZTKl95o4BbPp5",
+   "title": "Never on Sunday (Pote tin Kyriaki)",
+   "type": "movie",
+   "place": "Piraeus port (area)",
+   "url": "https://justwatch.com/us/search?q=Never%20on%20Sunday",
+   "creator": "Jules Dassin",
+   "channel": null,
+   "lat": 37.944,
+   "lon": 23.642
+  },
+  {
+   "id": "20nHK9k97s3McdYVxtob5w",
+   "title": "The Ogre of Athens (O Drakos)",
+   "type": "movie",
+   "place": "Omonia Square",
+   "url": "https://justwatch.com/us/search?q=The%20Ogre%20of%20Athens",
+   "creator": "Nikos Koundouros",
+   "channel": null,
+   "lat": 37.9838,
+   "lon": 23.728
+  },
+  {
+   "id": "6kGvq1yMCmcsqngUGDHIHc",
+   "title": "Boy Eating the Bird’s Food",
+   "type": "movie",
+   "place": "Kypseli district (area)",
+   "url": "https://justwatch.com/us/search?q=Boy%20Eating%20the%20Birds%20Food",
+   "creator": "Ektoras Lygizos",
+   "channel": null,
+   "lat": 37.997,
+   "lon": 23.738
+  },
+  {
+   "id": "3c0doE99328e8bWRxgI8I9",
+   "title": "A Touch of Spice (Politiki Kouzina)",
+   "type": "movie",
+   "place": "Evripidou Street (area)",
+   "url": "https://justwatch.com/us/search?q=A%20Touch%20of%20Spice",
+   "creator": "Tassos Boulmetis",
+   "channel": null,
+   "lat": 37.9797,
+   "lon": 23.7252
+  },
+  {
+   "id": "71Ryzj7CFzSkrzBo8pzVZN",
+   "title": "Dogtooth (Kynodontas)",
+   "type": "movie",
+   "place": "Marousi, northern suburbs (area)",
+   "url": "https://justwatch.com/us/search?q=Dogtooth%202009",
+   "creator": "Yorgos Lanthimos",
+   "channel": null,
+   "lat": 38.05,
+   "lon": 23.81
+  },
+  {
+   "id": "1BrmcpuRYLxIAR5NSoPRSd",
+   "title": "Athens revives the Olympics, 1896",
+   "type": "podcast",
+   "place": "Panathenaic Stadium",
+   "url": "https://podcasts.apple.com/us/podcast/modern-olympics-part-1/id1537788786?i=1000530353510",
+   "creator": null,
+   "channel": "The Rest is History",
+   "lat": 37.9683,
+   "lon": 23.7411
+  },
+  {
+   "id": "2Lp1CKqnbMXX2v2jGNa6Yo",
+   "title": "The Athens famine under German occupation, 1941–42",
+   "type": "podcast",
+   "place": "Syntagma Square",
+   "url": "https://www.bbc.co.uk/programmes/w3ct3c59",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 37.9755,
+   "lon": 23.7348
+  },
+  {
+   "id": "4R0OVEP9dZt1UW0Q3uTFzz",
+   "title": "How Athenian democracy worked",
+   "type": "podcast",
+   "place": "Pnyx hill",
+   "url": "https://shows.acast.com/the-ancients/episodes/athens-birthplace-of-democracy",
+   "creator": null,
+   "channel": "The Ancients",
+   "lat": 37.9719,
+   "lon": 23.7193
+  },
+  {
+   "id": "2qzPG1Yrr3tWPB3gekSsoT",
+   "title": "The Mask of Agamemnon, a Mycenaean gold death mask",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "url": "https://youtu.be/1PKOiYY9SPA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.989,
+   "lon": 23.7326
+  },
+  {
+   "id": "NfivHOqVwehx58aSEI9hm",
+   "title": "The Parthenon Marbles and the restitution debate",
+   "type": "video",
+   "place": "Acropolis Museum",
+   "url": "https://youtu.be/QRH105_ztAw",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9685,
+   "lon": 23.7285
+  },
+  {
+   "id": "1AlzKzbBL85t1myA6s3qLW",
+   "title": "Nike Adjusting Her Sandal, from the Temple of Athena Nike",
+   "type": "video",
+   "place": "Acropolis Museum",
+   "url": "https://youtu.be/B4HXrb8cPQI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9685,
+   "lon": 23.7285
+  },
+  {
+   "id": "3VBc2ZROeYXOiAs0X9Rdd0",
+   "title": "The Erechtheion, a temple on the Acropolis",
+   "type": "video",
+   "place": "Erechtheion, Acropolis",
+   "url": "https://youtu.be/3ebYvMC12HI",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9722,
+   "lon": 23.7268
+  },
+  {
+   "id": "1pSe020HiPoiC96orc3uup",
+   "title": "The Antikythera Youth, a bronze from a shipwreck",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "url": "https://youtu.be/qdTA63dYh08",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9887,
+   "lon": 23.7327
+  },
+  {
+   "id": "66r5A4mlimOYeCshc47dP4",
+   "title": "The Grave Stele of Hegeso",
+   "type": "video",
+   "place": "Street of Tombs, Kerameikos",
+   "url": "https://youtu.be/YUzsxLi43gE",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9776,
+   "lon": 23.7178
+  },
+  {
+   "id": "5S3CwEnzY0AUxSI2blTPvM",
+   "title": "The Artemision Bronze, Zeus or Poseidon",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "url": "https://youtu.be/zqb4Zvb5PNA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9892,
+   "lon": 23.733
+  },
+  {
+   "id": "31IH9l8566Tr2hh0Pu8Hy4",
+   "title": "The Kroisos Kouros, an Archaic grave statue",
+   "type": "video",
+   "place": "National Archaeological Museum",
+   "url": "https://youtu.be/v1_pCZBVWuY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9889,
+   "lon": 23.7323
+  },
+  {
+   "id": "7CDadG9yKm5y8TgiCjT0Lk",
+   "title": "The Dipylon Amphora, a Geometric grave marker",
+   "type": "video",
+   "place": "Kerameikos archaeological site",
+   "url": "https://youtu.be/Uwpdiq9mYME",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9785,
+   "lon": 23.7192
+  },
+  {
+   "id": "6X2vDyRAIRzTMTfNG9QW0y",
+   "title": "The Peplos Kore, a painted Archaic statue",
+   "type": "video",
+   "place": "Acropolis Museum",
+   "url": "https://youtu.be/RjpT4Apgda8",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9686,
+   "lon": 23.7282
+  },
+  {
+   "id": "7DC4TqZgjb2qQxU0pDeqXM",
+   "title": "The Kritios Boy, an early Classical marble youth",
+   "type": "video",
+   "place": "Acropolis Museum",
+   "url": "https://youtu.be/Q5IWDhXtsmE",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9683,
+   "lon": 23.7288
+  },
+  {
+   "id": "7hBANSkVUT7a2VK8DPYIG8",
+   "title": "A Caryatid from the Erechtheion",
+   "type": "video",
+   "place": "Erechtheion, Acropolis",
+   "url": "https://youtu.be/X872rmThCF8",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.972,
+   "lon": 23.7265
+  },
+  {
+   "id": "715NPqaAeHjvzoNvS7ekBe",
+   "title": "The Parthenon by Iktinos and Kallikrates",
+   "type": "video",
+   "place": "Parthenon, Acropolis",
+   "url": "https://youtu.be/tWDflkBZC6U",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 37.9715,
+   "lon": 23.7267
+  },
+  {
+   "id": "2yA0S0IaZHfqvoYyQsje9a",
+   "title": "Athens Below the Surface: A Walking Tour of the Podoniftis Stream",
+   "type": "audiotour",
+   "place": "",
+   "url": "https://voicemap.me/tour/athens/athens-below-the-surface-a-walking-tour-of-the-podoniftis-stream",
+   "creator": "Georges Xyftilis",
+   "channel": null,
+   "lat": 38.0238,
+   "lon": 23.736
+  },
+  {
+   "id": "3Zg6nP4g7tneAIZuL5qQ3m",
+   "title": "Those Who Are Loved",
+   "type": "book",
+   "place": "Exarchia Square",
+   "url": "https://goodreads.com/search?q=those%20who%20are%20loved%20hislop",
+   "creator": "Victoria Hislop",
+   "channel": null,
+   "lat": 37.9866,
+   "lon": 23.7348
+  },
+  {
+   "id": "4boPRCG5Rry4POEdloBRWb",
+   "title": "Adults in the Room",
+   "type": "book",
+   "place": "Syntagma Square",
+   "url": "https://goodreads.com/search?q=adults%20in%20the%20room%20varoufakis",
+   "creator": "Yanis Varoufakis",
+   "channel": null,
+   "lat": 37.9756,
+   "lon": 23.7348
+  },
+  {
+   "id": "3sGNEgzA9BrtWqqNY4XIhg",
+   "title": "The Hemlock Cup",
+   "type": "book",
+   "place": "Ancient Agora",
+   "url": "https://goodreads.com/search?q=hemlock%20cup%20bettany%20hughes",
+   "creator": "Bettany Hughes",
+   "channel": null,
+   "lat": 37.9749,
+   "lon": 23.722
+  },
+  {
+   "id": "o9HfjWN8XPmfnrYAZEaGO",
+   "title": "The Parthenon",
+   "type": "book",
+   "place": "Parthenon, Acropolis",
+   "url": "https://goodreads.com/search?q=the%20parthenon%20mary%20beard",
+   "creator": "Mary Beard",
+   "channel": null,
+   "lat": 37.9715,
+   "lon": 23.7266
+  },
+  {
+   "id": "1C2aqkjag9JA5dPrK1R6PR",
+   "title": "The Last Days of Socrates",
+   "type": "book",
+   "place": "Ancient Agora",
+   "url": "https://goodreads.com/search?q=last%20days%20of%20socrates%20plato%20penguin",
+   "creator": "Plato",
+   "channel": null,
+   "lat": 37.9749,
+   "lon": 23.722
+  },
+  {
+   "id": "ImOYPgStgBue2Xx5H1iE9",
+   "title": "Twice a Stranger",
+   "type": "book",
+   "place": "Nea Smyrni district (area)",
+   "url": "https://goodreads.com/search?q=twice%20a%20stranger%20bruce%20clark",
+   "creator": "Bruce Clark",
+   "channel": null,
+   "lat": 37.945,
+   "lon": 23.7142
+  },
+  {
+   "id": "6qujwZzSCS7tVgEEMHPI33",
+   "title": "The Rise and Fall of Athens",
+   "type": "book",
+   "place": "Pnyx hill",
+   "url": "https://goodreads.com/search?q=rise%20and%20fall%20of%20athens%20plutarch",
+   "creator": "Plutarch",
+   "channel": null,
+   "lat": 37.9715,
+   "lon": 23.7193
+  },
+  {
+   "id": "Z4h9e73iTypgEHpaH8ZVk",
+   "title": "Road to Rembetika",
+   "type": "book",
+   "place": "Piraeus port (area)",
+   "url": "https://goodreads.com/search?q=road%20to%20rembetika%20gail%20holst",
+   "creator": "Gail Holst",
+   "channel": null,
+   "lat": 37.9416,
+   "lon": 23.6366
+  },
+  {
+   "id": "4rEIl6JBgMDVG00ndQHdfp",
+   "title": "Inside Hitler’s Greece",
+   "type": "book",
+   "place": "Kaisariani Shooting Range memorial",
+   "url": "https://goodreads.com/search?q=inside%20hitlers%20greece%20mazower",
+   "creator": "Mark Mazower",
+   "channel": null,
+   "lat": 37.9658,
+   "lon": 23.7587
+  },
+  {
+   "id": "ZWUcinBraGmYi7Ycu4MPE",
+   "title": "History of the Peloponnesian War",
+   "type": "book",
+   "place": "Kerameikos archaeological site",
+   "url": "https://goodreads.com/search?q=peloponnesian%20war%20thucydides%20penguin",
+   "creator": "Thucydides",
+   "channel": null,
+   "lat": 37.9781,
+   "lon": 23.7188
+  },
+  {
+   "id": "3TcX9uHX1LdtCtQIek6Uwu",
+   "title": "Rembetiko",
+   "type": "movie",
+   "place": "Kaisariani district (area)",
+   "url": "https://justwatch.com/us/search?q=Rembetiko",
+   "creator": "Costas Ferris",
+   "channel": null,
+   "lat": 37.9635,
+   "lon": 23.766
+  },
+  {
+   "id": "79QU76GnLLvKwIfDE8WbiS",
+   "title": "Stella",
+   "type": "movie",
+   "place": "Plaka district (area)",
+   "url": "https://justwatch.com/us/search?q=Stella%201955",
+   "creator": "Michael Cacoyannis",
+   "channel": null,
+   "lat": 37.9715,
+   "lon": 23.729
+  },
+  {
+   "id": "2RQoBowYeV85nxM0QwghRq",
+   "title": "Agora (From Democracy to the Market)",
+   "type": "movie",
+   "place": "Syntagma Square",
+   "url": "https://justwatch.com/us/search?q=Agora%20Avgeropoulos",
+   "creator": "Yorgos Avgeropoulos",
+   "channel": null,
+   "lat": 37.9755,
+   "lon": 23.7348
+  },
+  {
+   "id": "6DGmw9Y9J6LbEpdrFuD0yP",
+   "title": "An alliance that grew into an empire",
+   "type": "podcast",
+   "place": "Acropolis",
+   "url": "https://open.spotify.com/search/The Ancients Delian League Polly Low",
+   "creator": null,
+   "channel": "The Ancients",
+   "lat": 37.9715,
+   "lon": 23.7257
   },
   {
    "id": "2gHhZyCnvNbIgtyp0MHEbh",
    "title": "Fishing a 2,000-year-old computer from the sea",
    "type": "podcast",
    "place": "National Archaeological Museum",
+   "url": "https://open.spotify.com/search/In Our Time Antikythera Mechanism",
+   "creator": null,
+   "channel": "In Our Time",
    "lat": 37.989,
    "lon": 23.7328
   },
@@ -590,86 +930,42 @@
    "title": "Colonels seize Greece in a bloodless coup",
    "type": "podcast",
    "place": "Hellenic Parliament building",
+   "url": "https://open.spotify.com/search/BBC Witness History Greek Military Coup",
+   "creator": null,
+   "channel": "Witness History",
    "lat": 37.9753,
    "lon": 23.7369
-  },
-  {
-   "id": "5fqhRi2wFpTW5GhKER7jxB",
-   "title": "Ancient tragedy's long afterlife on other stages",
-   "type": "podcast",
-   "place": "Theatre of Dionysus",
-   "lat": 37.9703,
-   "lon": 23.7278
-  },
-  {
-   "id": "3PI1nu0yW7fkwZL8i4dzSI",
-   "title": "Students defy a junta from behind Polytechnic gates",
-   "type": "podcast",
-   "place": "Polytechnic gate, Patission Street",
-   "lat": 37.9874,
-   "lon": 23.7319
-  },
-  {
-   "id": "78shVTpQn57zpnsCx6jHKt",
-   "title": "Negotiating Greece's bailout from the inside",
-   "type": "podcast",
-   "place": "Syntagma Square",
-   "lat": 37.9756,
-   "lon": 23.7347
   },
   {
    "id": "33qApObRl9Zc7AKcrCYajD",
    "title": "Refugees turn exile into rebetiko",
    "type": "podcast",
    "place": "Exarchia district (area)",
+   "url": "https://open.spotify.com/search/Ottoman History Podcast Greek Music League",
+   "creator": null,
+   "channel": "Ottoman History Podcast",
    "lat": 37.9878,
    "lon": 23.7357
-  },
-  {
-   "id": "67ODZ6q1noWY1Lgs23lRrv",
-   "title": "Stephen Fry picks his three favorite Athens myths",
-   "type": "podcast",
-   "place": "Thiseio neighbourhood (area)",
-   "lat": 37.975,
-   "lon": 23.7171
-  },
-  {
-   "id": "1W4CknChvVpzXSamzE3aKj",
-   "title": "A novelist sends her heroine to a prison island",
-   "type": "podcast",
-   "place": "Makronisos island",
-   "lat": 37.7303,
-   "lon": 24.138
-  },
-  {
-   "id": "1Ij6GAROBvFDLawwtg98Ut",
-   "title": "A photographer chases sixty years of changing light",
-   "type": "podcast",
-   "place": "Parthenon, Acropolis",
-   "lat": 37.9715,
-   "lon": 23.7267
   },
   {
    "id": "3YlysTFnX7FM3gvMm8R0YJ",
    "title": "A flâneur retraces his childhood, block by block",
    "type": "podcast",
    "place": "Kypseli district (area)",
+   "url": "https://open.spotify.com/search/We'll Always Have Athens Nikos Vatopoulos",
+   "creator": null,
+   "channel": "We’ll Always Have Athens",
    "lat": 38.0027,
    "lon": 23.7423
-  },
-  {
-   "id": "28dOOb9ZQ2O9xTZelV8i9t",
-   "title": "A 19th-century tannery becomes an experimental stage",
-   "type": "podcast",
-   "place": "Vyrsodepseio (old tannery) arts venue",
-   "lat": 37.9798,
-   "lon": 23.6942
   },
   {
    "id": "3CNq95YWXmTECfcRIS5YXC",
    "title": "A fashion designer stages her biggest show at sunset",
    "type": "podcast",
    "place": "Temple of Poseidon, Sounion",
+   "url": "https://open.spotify.com/search/We'll Always Have Athens Mary Katrantzou",
+   "creator": null,
+   "channel": "We’ll Always Have Athens",
    "lat": 37.6502,
    "lon": 24.0246
   },
@@ -678,46 +974,20 @@
    "title": "A city appoints someone to protect it from its own summers",
    "type": "video",
    "place": "City Hall, Kotzia Square",
+   "url": "https://youtu.be/pQFhbo0RsoU",
+   "creator": null,
+   "channel": "Monocle Films",
    "lat": 37.981,
    "lon": 23.7268
-  },
-  {
-   "id": "36qMuQxyvApgx1flLNNFtv",
-   "title": "A neighbourhood of bookshops, squats and graffiti goes its own way",
-   "type": "video",
-   "place": "Exarchia Square",
-   "lat": 37.9866,
-   "lon": 23.7347
-  },
-  {
-   "id": "5lPX6AFdP0z4EFQgBFvKON",
-   "title": "Island builders tuck a whitewashed village under the Acropolis",
-   "type": "video",
-   "place": "Anafiotika neighbourhood",
-   "lat": 37.9718,
-   "lon": 23.7298
-  },
-  {
-   "id": "7zKjgKu8x5WI5HHXkeTjGq",
-   "title": "Gold masks, bronze gods and grave markers fill one great museum",
-   "type": "video",
-   "place": "National Archaeological Museum",
-   "lat": 37.989,
-   "lon": 23.7327
-  },
-  {
-   "id": "7aF1hdq0NxftwusUnhfDe6",
-   "title": "A 1961 newsreel camera takes in a fast-growing capital",
-   "type": "video",
-   "place": "Syntagma Square",
-   "lat": 37.9755,
-   "lon": 23.7348
   },
   {
    "id": "5xnX4GHtLooRY8QFOCNwx2",
    "title": "A Venetian shell hits Ottoman gunpowder stored in the Parthenon",
    "type": "video",
    "place": "Parthenon, Acropolis",
+   "url": "https://youtu.be/0QZ-mTHuoKc",
+   "creator": null,
+   "channel": "The History Guy",
    "lat": 37.9715,
    "lon": 23.7267
   }

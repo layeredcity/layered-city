@@ -2,330 +2,35 @@
  "city": "Barcelona",
  "pins": [
   {
-   "id": "1Y2aIrG1XjvlOVaDfCWaqp",
-   "title": "The Sagrada Família by Antoni Gaudí",
-   "type": "podcast",
-   "place": "Sagrada Família basilica",
-   "lat": 41.4037,
-   "lon": 2.1745
-  },
-  {
-   "id": "7tsqUtxRV0ODBbTJhpmwVZ",
-   "title": "The Wise and Foolish Virgins by the Master of Pedret",
-   "type": "video",
-   "place": "National Art Museum of Catalonia (MNAC)",
-   "lat": 41.3685,
-   "lon": 2.1534
-  },
-  {
-   "id": "4HdkW0daxgxIhHqxP3L8CD",
-   "title": "The Historiated Capitals of Sant Miquel, Camarasa",
-   "type": "video",
-   "place": "National Art Museum of Catalonia (MNAC)",
-   "lat": 41.3685,
-   "lon": 2.1534
-  },
-  {
-   "id": "2QDslJFq90weIBLKstGRrT",
-   "title": "The Virgin of Ger, a Romanesque wooden Madonna",
-   "type": "video",
-   "place": "National Art Museum of Catalonia (MNAC)",
-   "lat": 41.3685,
-   "lon": 2.1534
-  },
-  {
-   "id": "fuskSVzyMvDrT1is0jBjc",
-   "title": "Les Demoiselles d’Avignon by Pablo Picasso",
-   "type": "video",
-   "place": "Carrer d’Avinyó",
-   "lat": 41.381,
-   "lon": 2.177
-  },
-  {
-   "id": "2ChWx2mq8JCkBh4w1nx3vV",
-   "title": "The Sagrada Família by Antoni Gaudí",
-   "type": "video",
-   "place": "Sagrada Família basilica",
-   "lat": 41.4036,
-   "lon": 2.1744
-  },
-  {
-   "id": "274hlxhsXRCSF7HGRcHGrM",
-   "title": "Barcelona Walking Tour: El Raval and the Gothic Quarter's Landmarks",
-   "type": "audiotour",
-   "place": "Canaletes Fountain, La Rambla",
-   "lat": 41.3853,
-   "lon": 2.1702
-  },
-  {
-   "id": "M6FS1YOEDkhbFs1dKYlFa",
-   "title": "Jewish Barcelona: A History Tour with Context",
-   "type": "audiotour",
-   "place": "Portal de l’Àngel",
-   "lat": 41.3868,
-   "lon": 2.1714
-  },
-  {
-   "id": "6cZKwntH4glCyMMrO4ESoZ",
-   "title": "Catalan Culture with Context: A Guide to Barcelona's Gràcia District",
-   "type": "audiotour",
-   "place": "Jardinets de Gràcia, by Hotel Casa Fuster",
-   "lat": 41.3975,
-   "lon": 2.1583
-  },
-  {
-   "id": "2pquKInlQEYUA4zCz3spuF",
-   "title": "Park Güell Tour: A Fun and Cultural Look into Gaudí's World",
-   "type": "audiotour",
-   "place": "Park Güell main entrance",
-   "lat": 41.414,
-   "lon": 2.1539
-  },
-  {
-   "id": "4aY4rfnRZPJwxCbq0tsVh2",
-   "title": "La Sagrada Familia: An Audio Guide with Context",
-   "type": "audiotour",
-   "place": "Sagrada Família basilica",
-   "lat": 41.4037,
-   "lon": 2.1745
-  },
-  {
-   "id": "3InDeD8TUgnIn87He0VWv",
-   "title": "Barcelona Walking Tour: Landmarks and Legends of El Born and Ciutadella Park",
-   "type": "audiotour",
-   "place": "Estació de França station",
-   "lat": 41.3846,
-   "lon": 2.1852
-  },
-  {
-   "id": "2SujrmVfCMbhO9pPZPUP1O",
-   "title": "Barcelona's Architecture: A Guide to Art Nouveau and Gaudí with Context",
-   "type": "audiotour",
-   "place": "Plaça de Catalunya",
-   "lat": 41.387,
-   "lon": 2.1701
-  },
-  {
-   "id": "4eJcBujABdKTkJzJwy0COw",
-   "title": "Barceloneta Unfiltered: A Walking Tour of the Soul Behind the Sand",
-   "type": "audiotour",
-   "place": "Barceloneta metro station",
-   "lat": 41.3803,
-   "lon": 2.1898
-  },
-  {
-   "id": "5FXUCf4HADMxHSKvPrbq2H",
-   "title": "A People’s History of Catalonia",
-   "type": "book",
-   "place": "Poble-sec district (area)",
-   "lat": 41.3726,
-   "lon": 2.1676
-  },
-  {
-   "id": "2e28ozjPhI2XwmlW1GRKqO",
-   "title": "A Culinary Tour of El Born",
-   "type": "audiotour",
-   "place": "El Born district (area)",
-   "lat": 41.3858,
-   "lon": 2.1828
-  },
-  {
-   "id": "4IICibLQihKtb8Z0BKKUXV",
-   "title": "The Struggle for Catalonia",
-   "type": "book",
-   "place": "Plaça de Sant Jaume",
-   "lat": 41.3828,
-   "lon": 2.1772
-  },
-  {
-   "id": "5So5MgRq00OSeZYnELevYZ",
-   "title": "The Sagrada Família",
-   "type": "book",
-   "place": "Sagrada Família basilica",
-   "lat": 41.4036,
-   "lon": 2.1744
-  },
-  {
-   "id": "3whjYBbhEBZJUlfiry0GT0",
-   "title": "Ghosts of Spain",
-   "type": "book",
-   "place": "Fossar de la Pedrera, Montjuïc Cemetery",
-   "lat": 41.3552,
-   "lon": 2.1483
-  },
-  {
-   "id": "6WOYz042Bl0UdHv5kVFySg",
-   "title": "Fear and Loathing in La Liga",
-   "type": "book",
-   "place": "Camp Nou stadium",
-   "lat": 41.3809,
-   "lon": 2.1228
-  },
-  {
-   "id": "3Zp5punnmykOQwD60cWWVR",
-   "title": "Cathedral of the Sea",
-   "type": "book",
-   "place": "Santa Maria del Mar basilica",
-   "lat": 41.3839,
-   "lon": 2.1821
-  },
-  {
-   "id": "6SrCqAs6jNEIgmbD2oxPWy",
-   "title": "City of Marvels",
-   "type": "book",
-   "place": "Ciutadella Park",
-   "lat": 41.3881,
-   "lon": 2.186
-  },
-  {
-   "id": "7zhfsKYyXzfItfu6Yefdkq",
-   "title": "The Shadow of the Wind",
-   "type": "book",
-   "place": "Carrer de l’Arc del Teatre",
-   "lat": 41.3769,
-   "lon": 2.1738
-  },
-  {
-   "id": "4LLKUWUCDtsi77aUw00DnD",
-   "title": "Barcelona",
-   "type": "book",
-   "place": "Gothic Quarter (area)",
-   "lat": 41.3842,
-   "lon": 2.1773
-  },
-  {
-   "id": "bPOeYpbD7csGv45Z2Z09u",
-   "title": "Homage to Catalonia",
-   "type": "book",
-   "place": "Poliorama Theatre, La Rambla",
-   "lat": 41.3842,
-   "lon": 2.1707
-  },
-  {
-   "id": "7uyH5LVybNaD3yKfDiBJyn",
-   "title": "Homage to Barcelona",
-   "type": "book",
-   "place": "Plaça Reial",
-   "lat": 41.3801,
-   "lon": 2.1754
-  },
-  {
-   "id": "Fcok6Qz3gKobsDwSBcly5",
-   "title": "Catalan Cuisine",
-   "type": "book",
-   "place": "La Boqueria market",
-   "lat": 41.3817,
-   "lon": 2.1716
-  },
-  {
-   "id": "2rR0ml3iOOWz7hUCxb8Tzs",
-   "title": "Dead City (Ciutat morta)",
-   "type": "movie",
-   "place": "Carrer de Sant Pere més Baix",
-   "lat": 41.388,
-   "lon": 2.176
-  },
-  {
-   "id": "6TugCK1KYWDSsP1wjcEHdx",
-   "title": "In Diamond Square (La plaça del Diamant / The Time of the Doves)",
-   "type": "movie",
-   "place": "Plaça del Diamant",
-   "lat": 41.4034,
-   "lon": 2.1568
-  },
-  {
-   "id": "6Qr09t2aiOLKvr00sS57nu",
-   "title": "Sagrada: The Mystery of Creation",
-   "type": "movie",
-   "place": "Sagrada Família basilica",
-   "lat": 41.4036,
-   "lon": 2.1744
-  },
-  {
-   "id": "4H4K5IB4RC9CNp4zz78psk",
-   "title": "Land and Freedom",
-   "type": "movie",
-   "place": "Telefónica building, Plaça de Catalunya",
-   "lat": 41.387,
-   "lon": 2.1701
-  },
-  {
-   "id": "5faqjbXnzYWPMUR1TP73ec",
-   "title": "Spanish Affair 2 (Ocho apellidos catalanes)",
-   "type": "movie",
-   "place": "Plaça de Sant Jaume",
-   "lat": 41.3826,
-   "lon": 2.1774
-  },
-  {
-   "id": "7oVHUGREA0hrq7p3qPk9Ff",
-   "title": "The Photographer of Mauthausen (El fotógrafo de Mauthausen)",
-   "type": "movie",
-   "place": "Poble-sec district (area)",
-   "lat": 41.3735,
-   "lon": 2.164
-  },
-  {
-   "id": "3CEgNxjveBJJVoQlMKeDP7",
-   "title": "Marathon",
-   "type": "movie",
-   "place": "Olympic Stadium (Estadi Olímpic Lluís Companys)",
-   "lat": 41.3647,
-   "lon": 2.1556
-  },
-  {
-   "id": "r3MMcPEjwa5GSHt43wdY9",
-   "title": "Antonio Gaudí",
-   "type": "movie",
-   "place": "Park Güell",
-   "lat": 41.4145,
-   "lon": 2.1527
-  },
-  {
-   "id": "3AR9b38ynWPlsOQs86vAD4",
-   "title": "La ciutat cremada (The Burnt City)",
-   "type": "movie",
-   "place": "El Raval district (area)",
-   "lat": 41.3785,
-   "lon": 2.169
-  },
-  {
-   "id": "17DRMcSdYPlqs3cSBx2GE3",
-   "title": "Biutiful",
-   "type": "movie",
-   "place": "Santa Coloma de Gramenet (area)",
-   "lat": 41.4517,
-   "lon": 2.2085
-  },
-  {
-   "id": "1YtOobwUX2iHTJnj8Wx0UR",
-   "title": "Salvador (Puig Antich)",
-   "type": "movie",
-   "place": "La Model prison memorial",
-   "lat": 41.3838,
-   "lon": 2.1436
-  },
-  {
-   "id": "495MgwngpZd2noSBBg1Da3",
-   "title": "Take the Ball, Pass the Ball",
-   "type": "movie",
-   "place": "Camp Nou stadium",
-   "lat": 41.3809,
-   "lon": 2.1228
-  },
-  {
-   "id": "42wqm0VbLCHxVA1qY5p0j1",
-   "title": "La raja de tu falda",
+   "id": "ICP0OxbHSQHIYoGCCQQpj",
+   "title": "El Cant dels Ocells",
    "type": "music",
-   "place": "Cornellà de Llobregat (area)",
-   "lat": 41.3568,
-   "lon": 2.069
+   "place": "Palau de la Música Catalana concert hall",
+   "url": "https://open.spotify.com/search/Pau%20Casals%20El%20Cant%20dels%20Ocells",
+   "creator": "Pau Casals",
+   "channel": null,
+   "lat": 41.3876,
+   "lon": 2.1753
+  },
+  {
+   "id": "1Lv7jH6K6mEhJbftw0nMMX",
+   "title": "Andaluza (Danza Española No. 5)",
+   "type": "music",
+   "place": "",
+   "url": "https://open.spotify.com/search/Granados%20Danza%20Espa%C3%B1ola%20No%205%20Andaluza",
+   "creator": "Enric Granados",
+   "channel": null,
+   "lat": 41.3802,
+   "lon": 2.1733
   },
   {
    "id": "6nUV8paM6JArBphK5vGzkT",
    "title": "La Santa Espina",
    "type": "music",
    "place": "Barcelona Cathedral square (Pla de la Seu)",
+   "url": "https://open.spotify.com/search/Enric%20Morera%20La%20Santa%20Espina",
+   "creator": "Enric Morera",
+   "channel": null,
    "lat": 41.384,
    "lon": 2.1762
   },
@@ -334,6 +39,9 @@
    "title": "Gitana Hechicera",
    "type": "music",
    "place": "Plaça del Raspall, Gràcia",
+   "url": "https://open.spotify.com/search/Peret%20Gitana%20Hechicera",
+   "creator": "Peret",
+   "channel": null,
    "lat": 41.4012,
    "lon": 2.1606
   },
@@ -342,6 +50,9 @@
    "title": "L’Estaca",
    "type": "music",
    "place": "Plaça de Sant Jaume",
+   "url": "https://open.spotify.com/search/Llu%C3%ADs%20Llach%20L'Estaca",
+   "creator": "Lluís Llach",
+   "channel": null,
    "lat": 41.3828,
    "lon": 2.1772
   },
@@ -350,6 +61,9 @@
    "title": "Mediterráneo",
    "type": "music",
    "place": "Poble-sec district (area)",
+   "url": "https://open.spotify.com/search/Joan%20Manuel%20Serrat%20Mediterr%C3%A1neo",
+   "creator": "Joan Manuel Serrat",
+   "channel": null,
    "lat": 41.3726,
    "lon": 2.1676
   },
@@ -358,6 +72,9 @@
    "title": "El ventilador",
    "type": "music",
    "place": "Plaça del Raspall, Gràcia",
+   "url": "https://open.spotify.com/search/Gato%20P%C3%A9rez%20El%20ventilador",
+   "creator": "Gato Pérez",
+   "channel": null,
    "lat": 41.4012,
    "lon": 2.1606
   },
@@ -366,6 +83,9 @@
    "title": "Barcelona",
    "type": "music",
    "place": "Olympic Stadium (Estadi Olímpic Lluís Companys)",
+   "url": "https://open.spotify.com/search/Freddie%20Mercury%20Montserrat%20Caball%C3%A9%20Barcelona",
+   "creator": "Montserrat Caballé & Freddie Mercury",
+   "channel": null,
    "lat": 41.3648,
    "lon": 2.1556
   },
@@ -374,30 +94,42 @@
    "title": "Clandestino",
    "type": "music",
    "place": "El Raval district (area)",
+   "url": "https://open.spotify.com/search/Manu%20Chao%20Clandestino",
+   "creator": "Manu Chao",
+   "channel": null,
    "lat": 41.3797,
    "lon": 2.1681
+  },
+  {
+   "id": "42wqm0VbLCHxVA1qY5p0j1",
+   "title": "La raja de tu falda",
+   "type": "music",
+   "place": "Cornellà de Llobregat (area)",
+   "url": "https://open.spotify.com/search/Estopa%20La%20raja%20de%20tu%20falda",
+   "creator": "Estopa",
+   "channel": null,
+   "lat": 41.3568,
+   "lon": 2.069
   },
   {
    "id": "6dMVjrkcvsCZssBEoHDTpG",
    "title": "Al mar!",
    "type": "music",
    "place": "Plaça de Catalunya",
+   "url": "https://open.spotify.com/search/Manel%20Al%20mar",
+   "creator": "Manel",
+   "channel": null,
    "lat": 41.3866,
    "lon": 2.1694
-  },
-  {
-   "id": "ICP0OxbHSQHIYoGCCQQpj",
-   "title": "El Cant dels Ocells",
-   "type": "music",
-   "place": "Palau de la Música Catalana concert hall",
-   "lat": 41.3876,
-   "lon": 2.1753
   },
   {
    "id": "6NH6Pd1TArgvbDunmXml3c",
    "title": "Malamente",
    "type": "music",
    "place": "ESMUC music conservatory, L’Auditori",
+   "url": "https://open.spotify.com/search/Rosal%C3%ADa%20Malamente",
+   "creator": "Rosalía",
+   "channel": null,
    "lat": 41.3986,
    "lon": 2.1854
   },
@@ -406,6 +138,9 @@
    "title": "Fiebre",
    "type": "music",
    "place": "Vilassar de Mar (area)",
+   "url": "https://open.spotify.com/search/Bad%20Gyal%20Fiebre",
+   "creator": "Bad Gyal",
+   "channel": null,
    "lat": 41.5041,
    "lon": 2.3923
   },
@@ -414,6 +149,9 @@
    "title": "Ay mamá",
    "type": "music",
    "place": "Plaça de Catalunya",
+   "url": "https://open.spotify.com/search/Rigoberta%20Bandini%20Ay%20mam%C3%A1",
+   "creator": "Rigoberta Bandini",
+   "channel": null,
    "lat": 41.3866,
    "lon": 2.1694
   },
@@ -422,158 +160,702 @@
    "title": "Boig per tu",
    "type": "music",
    "place": "Plaça de Catalunya",
+   "url": "https://open.spotify.com/search/Sau%20Boig%20per%20tu",
+   "creator": "Sau",
+   "channel": null,
    "lat": 41.3866,
    "lon": 2.1694
   },
   {
-   "id": "1atEQyOiG4fONShFVtpLy8",
-   "title": "Building human towers ten people high",
-   "type": "podcast",
-   "place": "Plaça de Sant Jaume",
-   "lat": 41.3828,
-   "lon": 2.1772
-  },
-  {
-   "id": "2iNCN7loa38eHC56umNdF",
-   "title": "Orwell's wife runs the office while he fights",
-   "type": "podcast",
-   "place": "Plaça de Catalunya",
-   "lat": 41.3866,
-   "lon": 2.1694
-  },
-  {
-   "id": "7uydbQucrdFsncGhACo8IF",
-   "title": "Building a cathedral its architect wouldn't finish",
-   "type": "podcast",
-   "place": "Sagrada Família basilica",
-   "lat": 41.4036,
-   "lon": 2.1744
-  },
-  {
-   "id": "4dJGE3N1YsLZi3Sx1ebtmY",
-   "title": "Catalonia's last stand becomes a national holiday",
-   "type": "podcast",
-   "place": "Fossar de les Moreres memorial",
-   "lat": 41.3837,
-   "lon": 2.1824
-  },
-  {
-   "id": "4vekOC7IAnsQCNeEajHQlA",
-   "title": "Allies turn on each other mid-war",
-   "type": "podcast",
-   "place": "Telefónica building, Plaça de Catalunya",
-   "lat": 41.3866,
-   "lon": 2.1694
-  },
-  {
-   "id": "7MiwFVqgLqYJfZO9ksT5jD",
-   "title": "Handed to Franco, a president is executed",
-   "type": "podcast",
-   "place": "Montjuïc Castle",
-   "lat": 41.363,
-   "lon": 2.1651
-  },
-  {
-   "id": "6lmPuP5vAzj7FKEFS4KovO",
-   "title": "Closing streets to cars, block by block",
-   "type": "podcast",
-   "place": "Sant Antoni superblock (area)",
-   "lat": 41.3769,
-   "lon": 2.1632
-  },
-  {
-   "id": "6ehq8o3F4fxPBnq3IZc0bR",
-   "title": "A red-light district becomes a food destination",
-   "type": "podcast",
-   "place": "El Raval district (area)",
-   "lat": 41.3797,
-   "lon": 2.1681
-  },
-  {
-   "id": "3vBUc90bL7ejqze1KtL2PF",
-   "title": "A historian and travel writer skip the obvious sights",
-   "type": "podcast",
-   "place": "Gothic Quarter (area)",
-   "lat": 41.3819,
-   "lon": 2.1773
-  },
-  {
-   "id": "29eAcb0Dae5Hugjlsf43RH",
-   "title": "More than a club becomes a rallying cry",
-   "type": "podcast",
-   "place": "Camp Nou stadium",
+   "id": "nVlXIFrVlWbvGjdo2XBVh",
+   "title": "A tree-lined boulevard runs from the old city down to the port",
+   "type": "video",
+   "place": "La Rambla promenade",
+   "url": "https://youtu.be/OWWgsNPj4f8",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 41.3809,
-   "lon": 2.1228
-  },
-  {
-   "id": "7s1bbtVVkT9esavsztcPR1",
-   "title": "A museum shows only the art someone tried to ban",
-   "type": "podcast",
-   "place": "Museum of Forbidden Art (Museu de l’Art Prohibit)",
-   "lat": 41.3898,
-   "lon": 2.1646
-  },
-  {
-   "id": "4qCDo9xyn2qBHTUnsN0dSm",
-   "title": "A coppersmith’s son from Reus becomes Barcelona’s strangest architect",
-   "type": "podcast",
-   "place": "Casa Vicens house",
-   "lat": 41.4035,
-   "lon": 2.1508
-  },
-  {
-   "id": "YSOdufgZeArTYnEFkK1pC",
-   "title": "A protest against a colonial war ends with churches on fire",
-   "type": "podcast",
-   "place": "Port Vell old harbour (area)",
-   "lat": 41.374,
-   "lon": 2.1785
-  },
-  {
-   "id": "79s5ksoEttYBkGG8HZhzTT",
-   "title": "A bus driver hijacks his own bus to reach a forgotten hillside",
-   "type": "podcast",
-   "place": "Torre Baró district (area)",
-   "lat": 41.447,
-   "lon": 2.177
-  },
-  {
-   "id": "4Zp8hxH4YLeCNx3xH8WBqD",
-   "title": "Car workers occupy their factory and face Franco’s police",
-   "type": "podcast",
-   "place": "SEAT car factory, Zona Franca",
-   "lat": 41.3445,
-   "lon": 2.1355
-  },
-  {
-   "id": "1zpn3xpbEirqcgq1si9rR9",
-   "title": "A showpiece prison spends a century filling with political inmates",
-   "type": "podcast",
-   "place": "La Model prison memorial",
-   "lat": 41.3826,
-   "lon": 2.1446
-  },
-  {
-   "id": "4Q2TbDhyRTB7TfvGu8hu20",
-   "title": "Commuters still ride tunnels dug a hundred years ago",
-   "type": "podcast",
-   "place": "Catalunya metro station",
-   "lat": 41.3858,
-   "lon": 2.17
+   "lon": 2.1734
   },
   {
    "id": "6Qv30li7M7XckmGDdFIwI1",
    "title": "Gaudí’s teacher builds a concert hall out of glass and tile",
    "type": "podcast",
    "place": "Palau de la Música Catalana concert hall",
+   "url": "https://open.spotify.com/search/Filling the Sink Domenech i Montaner",
+   "creator": null,
+   "channel": "Filling the Sink",
    "lat": 41.3876,
    "lon": 2.1753
+  },
+  {
+   "id": "1zhtt5xx0P3Okw1vKsHypv",
+   "title": "A sweep of Gaudí’s houses, from dragon roofs to a hidden crypt",
+   "type": "video",
+   "place": "Palau Güell mansion",
+   "url": "https://youtu.be/-ezNhTwfIGY",
+   "creator": null,
+   "channel": "HENI Talks",
+   "lat": 41.3789,
+   "lon": 2.1743
+  },
+  {
+   "id": "3R8sUB4Hdzelg0UNgIaeOT",
+   "title": "Grids of streets are handed back from cars to neighbors",
+   "type": "video",
+   "place": "Poblenou superblock (area)",
+   "url": "https://youtu.be/ZORzsubQA_M",
+   "creator": null,
+   "channel": "Vox",
+   "lat": 41.4008,
+   "lon": 2.196
+  },
+  {
+   "id": "79s5ksoEttYBkGG8HZhzTT",
+   "title": "A bus driver hijacks his own bus to reach a forgotten hillside",
+   "type": "podcast",
+   "place": "Torre Baró district (area)",
+   "url": "https://open.spotify.com/search/Filling the Sink El 47",
+   "creator": null,
+   "channel": "Filling the Sink",
+   "lat": 41.447,
+   "lon": 2.177
+  },
+  {
+   "id": "6jzTlimwf4h3NMt8nHIyii",
+   "title": "A temporary pavilion is torn down, then rebuilt as a legend",
+   "type": "video",
+   "place": "Barcelona Pavilion (Mies van der Rohe)",
+   "url": "https://youtu.be/c9NkOX4Fh9g",
+   "creator": null,
+   "channel": "UrbArchitect",
+   "lat": 41.3708,
+   "lon": 2.15
+  },
+  {
+   "id": "7s1bbtVVkT9esavsztcPR1",
+   "title": "A museum shows only the art someone tried to ban",
+   "type": "podcast",
+   "place": "Museum of Forbidden Art (Museu de l’Art Prohibit)",
+   "url": "https://open.spotify.com/search/Filling the Sink Museum of Forbidden Art",
+   "creator": null,
+   "channel": "Filling the Sink",
+   "lat": 41.3898,
+   "lon": 2.1646
+  },
+  {
+   "id": "YlS73Rshy7mGgTKuPtR6v",
+   "title": "Residents push back against the visitors filling their streets",
+   "type": "video",
+   "place": "Barceloneta district (area)",
+   "url": "https://youtu.be/8yJ3O_9zLCA",
+   "creator": null,
+   "channel": "DW News",
+   "lat": 41.3802,
+   "lon": 2.1894
+  },
+  {
+   "id": "4Q2TbDhyRTB7TfvGu8hu20",
+   "title": "Commuters still ride tunnels dug a hundred years ago",
+   "type": "podcast",
+   "place": "Catalunya metro station",
+   "url": "https://open.spotify.com/search/Filling the Sink Barcelona metro centenary",
+   "creator": null,
+   "channel": "Filling the Sink",
+   "lat": 41.3858,
+   "lon": 2.17
+  },
+  {
+   "id": "4Zp8hxH4YLeCNx3xH8WBqD",
+   "title": "Car workers occupy their factory and face Franco’s police",
+   "type": "podcast",
+   "place": "SEAT car factory, Zona Franca",
+   "url": "https://open.spotify.com/search/Filling the Sink 1971 SEAT strike",
+   "creator": null,
+   "channel": "Filling the Sink",
+   "lat": 41.3445,
+   "lon": 2.1355
+  },
+  {
+   "id": "YSOdufgZeArTYnEFkK1pC",
+   "title": "A protest against a colonial war ends with churches on fire",
+   "type": "podcast",
+   "place": "Port Vell old harbor (area)",
+   "url": "https://open.spotify.com/search/Filling the Sink Tragic Week 1909",
+   "creator": null,
+   "channel": "Filling the Sink",
+   "lat": 41.374,
+   "lon": 2.1785
+  },
+  {
+   "id": "bPOeYpbD7csGv45Z2Z09u",
+   "title": "Homage to Catalonia",
+   "type": "book",
+   "place": "Poliorama Theatre, La Rambla",
+   "url": "https://goodreads.com/search?q=George%20Orwell%20Homage%20to%20Catalonia",
+   "creator": "George Orwell",
+   "channel": null,
+   "lat": 41.3842,
+   "lon": 2.1707
+  },
+  {
+   "id": "7zhfsKYyXzfItfu6Yefdkq",
+   "title": "The Shadow of the Wind",
+   "type": "book",
+   "place": "Carrer de l’Arc del Teatre",
+   "url": "https://goodreads.com/search?q=Carlos%20Ruiz%20Zaf%C3%B3n%20The%20Shadow%20of%20the%20Wind",
+   "creator": "Carlos Ruiz Zafón",
+   "channel": null,
+   "lat": 41.3769,
+   "lon": 2.1738
+  },
+  {
+   "id": "3Zp5punnmykOQwD60cWWVR",
+   "title": "Cathedral of the Sea",
+   "type": "book",
+   "place": "Santa Maria del Mar basilica",
+   "url": "https://goodreads.com/search?q=Ildefonso%20Falcones%20Cathedral%20of%20the%20Sea",
+   "creator": "Ildefonso Falcones",
+   "channel": null,
+   "lat": 41.3839,
+   "lon": 2.1821
+  },
+  {
+   "id": "2e28ozjPhI2XwmlW1GRKqO",
+   "title": "A Culinary Tour of El Born",
+   "type": "audiotour",
+   "place": "El Born district (area)",
+   "url": "https://voicemap.me/tour/barcelona/a-culinary-tour-of-el-born",
+   "creator": "Foodie in Barcelona",
+   "channel": null,
+   "lat": 41.3858,
+   "lon": 2.1828
+  },
+  {
+   "id": "29eAcb0Dae5Hugjlsf43RH",
+   "title": "More than a club becomes a rallying cry",
+   "type": "podcast",
+   "place": "Camp Nou stadium",
+   "url": "https://open.spotify.com/search/La Liga Lowdown Story Of Barcelona",
+   "creator": null,
+   "channel": "La Liga Lowdown",
+   "lat": 41.3809,
+   "lon": 2.1228
+  },
+  {
+   "id": "3vBUc90bL7ejqze1KtL2PF",
+   "title": "A historian and travel writer skip the obvious sights",
+   "type": "podcast",
+   "place": "Gothic Quarter (area)",
+   "url": "https://open.spotify.com/search/History's Greatest Cities Barcelona HistoryExtra",
+   "creator": null,
+   "channel": "History’s Greatest Cities",
+   "lat": 41.3819,
+   "lon": 2.1773
+  },
+  {
+   "id": "6ehq8o3F4fxPBnq3IZc0bR",
+   "title": "A red-light district becomes a food destination",
+   "type": "podcast",
+   "place": "El Raval district (area)",
+   "url": "https://open.spotify.com/search/Monocle The Menu Barcelona Raval",
+   "creator": null,
+   "channel": "Monocle: The Menu",
+   "lat": 41.3797,
+   "lon": 2.1681
+  },
+  {
+   "id": "6lmPuP5vAzj7FKEFS4KovO",
+   "title": "Closing streets to cars, block by block",
+   "type": "podcast",
+   "place": "Sant Antoni superblock (area)",
+   "url": "https://open.spotify.com/search/99% Invisible Barcelona Superblocks",
+   "creator": null,
+   "channel": "99% Invisible",
+   "lat": 41.3769,
+   "lon": 2.1632
+  },
+  {
+   "id": "7MiwFVqgLqYJfZO9ksT5jD",
+   "title": "Handed to Franco, a president is executed",
+   "type": "podcast",
+   "place": "Montjuïc Castle",
+   "url": "https://open.spotify.com/search/BBC Witness History Lluis Companys",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 41.363,
+   "lon": 2.1651
+  },
+  {
+   "id": "4dJGE3N1YsLZi3Sx1ebtmY",
+   "title": "Catalonia’s last stand becomes a national holiday",
+   "type": "podcast",
+   "place": "Fossar de les Moreres memorial",
+   "url": "https://open.spotify.com/search/A New History Podcast War of Spanish Succession Barcelona",
+   "creator": null,
+   "channel": "War of Spanish Succession",
+   "lat": 41.3837,
+   "lon": 2.1824
+  },
+  {
+   "id": "7uydbQucrdFsncGhACo8IF",
+   "title": "Building a cathedral its architect wouldn’t finish",
+   "type": "podcast",
+   "place": "Sagrada Família basilica",
+   "url": "https://open.spotify.com/search/99% Invisible La Sagrada Familia",
+   "creator": null,
+   "channel": "99% Invisible",
+   "lat": 41.4036,
+   "lon": 2.1744
+  },
+  {
+   "id": "2iNCN7loa38eHC56umNdF",
+   "title": "Orwell’s wife runs the office while he fights",
+   "type": "podcast",
+   "place": "Plaça de Catalunya",
+   "url": "https://open.spotify.com/search/True Spies SPYSCAPE Eileen O'Shaughnessy Orwell",
+   "creator": null,
+   "channel": "True Spies",
+   "lat": 41.3866,
+   "lon": 2.1694
+  },
+  {
+   "id": "4eJcBujABdKTkJzJwy0COw",
+   "title": "Barceloneta Unfiltered: A Walking Tour of the Soul Behind the Sand",
+   "type": "audiotour",
+   "place": "Barceloneta metro station",
+   "url": "https://voicemap.me/tour/barcelona/barceloneta-unfiltered-a-walking-tour-of-the-soul-behind-the-sand",
+   "creator": "Christoph",
+   "channel": null,
+   "lat": 41.3803,
+   "lon": 2.1898
+  },
+  {
+   "id": "2SujrmVfCMbhO9pPZPUP1O",
+   "title": "Barcelona’s Architecture: A Guide to Art Nouveau and Gaudí with Context",
+   "type": "audiotour",
+   "place": "Plaça de Catalunya",
+   "url": "https://voicemap.me/tour/barcelona/barcelona-s-architecture-a-guide-to-art-nouveau-and-gaudi-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 41.387,
+   "lon": 2.1701
+  },
+  {
+   "id": "3InDeD8TUgnIn87He0VWv",
+   "title": "Barcelona Walking Tour: Landmarks and Legends of El Born and Ciutadella Park",
+   "type": "audiotour",
+   "place": "Estació de França station",
+   "url": "https://voicemap.me/tour/barcelona/barcelona-walking-tour-landmarks-and-legends-of-el-born-and-ciutadella-park",
+   "creator": "Spain Walking Tours",
+   "channel": null,
+   "lat": 41.3846,
+   "lon": 2.1852
+  },
+  {
+   "id": "4aY4rfnRZPJwxCbq0tsVh2",
+   "title": "La Sagrada Familia: An Audio Guide with Context",
+   "type": "audiotour",
+   "place": "Sagrada Família basilica",
+   "url": "https://voicemap.me/tour/barcelona/la-sagrada-familia-an-audio-guide-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 41.4037,
+   "lon": 2.1745
+  },
+  {
+   "id": "2pquKInlQEYUA4zCz3spuF",
+   "title": "Park Güell Tour: A Fun and Cultural Look into Gaudí’s World",
+   "type": "audiotour",
+   "place": "Park Güell main entrance",
+   "url": "https://voicemap.me/tour/barcelona/park-guell-tour-a-fun-and-cultural-look-into-gaudi-s-world",
+   "creator": "Les Bons Plans de Barcelone",
+   "channel": null,
+   "lat": 41.414,
+   "lon": 2.1539
+  },
+  {
+   "id": "6cZKwntH4glCyMMrO4ESoZ",
+   "title": "Catalan Culture with Context: A Guide to Barcelona’s Gràcia District",
+   "type": "audiotour",
+   "place": "Jardinets de Gràcia, by Hotel Casa Fuster",
+   "url": "https://voicemap.me/tour/barcelona/catalan-culture-with-context-a-guide-to-barcelona-s-gracia-district",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 41.3975,
+   "lon": 2.1583
+  },
+  {
+   "id": "M6FS1YOEDkhbFs1dKYlFa",
+   "title": "Jewish Barcelona: A History Tour with Context",
+   "type": "audiotour",
+   "place": "Portal de l’Àngel",
+   "url": "https://voicemap.me/tour/barcelona/jewish-barcelona-a-history-tour-with-context",
+   "creator": "Context Travel",
+   "channel": null,
+   "lat": 41.3868,
+   "lon": 2.1714
+  },
+  {
+   "id": "274hlxhsXRCSF7HGRcHGrM",
+   "title": "Barcelona Walking Tour: El Raval and the Gothic Quarter’s Landmarks",
+   "type": "audiotour",
+   "place": "Canaletes Fountain, La Rambla",
+   "url": "https://voicemap.me/tour/barcelona/barcelona-walking-tour-el-raval-and-the-gothic-quarter-s-landmarks-and-legends",
+   "creator": "Spain Walking Tours",
+   "channel": null,
+   "lat": 41.3853,
+   "lon": 2.1702
+  },
+  {
+   "id": "495MgwngpZd2noSBBg1Da3",
+   "title": "Take the Ball, Pass the Ball",
+   "type": "movie",
+   "place": "Camp Nou stadium",
+   "url": "https://justwatch.com/us/search?q=Take%20the%20Ball%20Pass%20the%20Ball",
+   "creator": "Duncan McMath",
+   "channel": null,
+   "lat": 41.3809,
+   "lon": 2.1228
+  },
+  {
+   "id": "1YtOobwUX2iHTJnj8Wx0UR",
+   "title": "Salvador (Puig Antich)",
+   "type": "movie",
+   "place": "La Model prison memorial",
+   "url": "https://justwatch.com/us/search?q=Salvador%20Puig%20Antich",
+   "creator": "Manuel Huerga",
+   "channel": null,
+   "lat": 41.3838,
+   "lon": 2.1436
+  },
+  {
+   "id": "17DRMcSdYPlqs3cSBx2GE3",
+   "title": "Biutiful",
+   "type": "movie",
+   "place": "Santa Coloma de Gramenet (area)",
+   "url": "https://justwatch.com/us/search?q=Biutiful",
+   "creator": "Alejandro González Iñárritu",
+   "channel": null,
+   "lat": 41.4517,
+   "lon": 2.2085
+  },
+  {
+   "id": "3AR9b38ynWPlsOQs86vAD4",
+   "title": "La ciutat cremada (The Burnt City)",
+   "type": "movie",
+   "place": "El Raval district (area)",
+   "url": "https://justwatch.com/us/search?q=La%20ciutat%20cremada",
+   "creator": "Antoni Ribas",
+   "channel": null,
+   "lat": 41.3785,
+   "lon": 2.169
+  },
+  {
+   "id": "r3MMcPEjwa5GSHt43wdY9",
+   "title": "Antonio Gaudí",
+   "type": "movie",
+   "place": "Park Güell",
+   "url": "https://justwatch.com/us/search?q=Antonio%20Gaudi",
+   "creator": "Hiroshi Teshigahara",
+   "channel": null,
+   "lat": 41.4145,
+   "lon": 2.1527
+  },
+  {
+   "id": "3CEgNxjveBJJVoQlMKeDP7",
+   "title": "Marathon",
+   "type": "movie",
+   "place": "Olympic Stadium (Estadi Olímpic Lluís Companys)",
+   "url": "https://justwatch.com/us/search?q=Marathon%20Carlos%20Saura",
+   "creator": "Carlos Saura",
+   "channel": null,
+   "lat": 41.3647,
+   "lon": 2.1556
+  },
+  {
+   "id": "7oVHUGREA0hrq7p3qPk9Ff",
+   "title": "The Photographer of Mauthausen (El fotógrafo de Mauthausen)",
+   "type": "movie",
+   "place": "Poble-sec district (area)",
+   "url": "https://justwatch.com/us/search?q=Photographer%20of%20Mauthausen",
+   "creator": "Mar Targarona",
+   "channel": null,
+   "lat": 41.3735,
+   "lon": 2.164
+  },
+  {
+   "id": "5faqjbXnzYWPMUR1TP73ec",
+   "title": "Spanish Affair 2 (Ocho apellidos catalanes)",
+   "type": "movie",
+   "place": "Plaça de Sant Jaume",
+   "url": "https://justwatch.com/us/search?q=Ocho%20apellidos%20catalanes",
+   "creator": "Emilio Martínez-Lázaro",
+   "channel": null,
+   "lat": 41.3826,
+   "lon": 2.1774
+  },
+  {
+   "id": "4H4K5IB4RC9CNp4zz78psk",
+   "title": "Land and Freedom",
+   "type": "movie",
+   "place": "Telefónica building, Plaça de Catalunya",
+   "url": "https://justwatch.com/us/search?q=Land%20and%20Freedom",
+   "creator": "Ken Loach",
+   "channel": null,
+   "lat": 41.387,
+   "lon": 2.1701
+  },
+  {
+   "id": "6Qr09t2aiOLKvr00sS57nu",
+   "title": "Sagrada: The Mystery of Creation",
+   "type": "movie",
+   "place": "Sagrada Família basilica",
+   "url": "https://justwatch.com/us/search?q=Sagrada%20Mystery%20of%20Creation",
+   "creator": "Stefan Haupt",
+   "channel": null,
+   "lat": 41.4036,
+   "lon": 2.1744
+  },
+  {
+   "id": "1Y2aIrG1XjvlOVaDfCWaqp",
+   "title": "The Sagrada Família by Antoni Gaudí",
+   "type": "podcast",
+   "place": "Sagrada Família basilica",
+   "url": "https://podcasts.apple.com/us/podcast/antoni-gaud%C3%AD-la-sagrada-fam%C3%ADlia/id1573430649?i=1000793805994&uo=4",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 41.4037,
+   "lon": 2.1745
+  },
+  {
+   "id": "7tsqUtxRV0ODBbTJhpmwVZ",
+   "title": "The Wise and Foolish Virgins by the Master of Pedret",
+   "type": "video",
+   "place": "National Art Museum of Catalonia (MNAC)",
+   "url": "https://youtu.be/ZXJMwIDx29Q",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 41.3685,
+   "lon": 2.1534
+  },
+  {
+   "id": "4HdkW0daxgxIhHqxP3L8CD",
+   "title": "The Historiated Capitals of Sant Miquel, Camarasa",
+   "type": "video",
+   "place": "National Art Museum of Catalonia (MNAC)",
+   "url": "https://youtu.be/hPYOMKQlU1g",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 41.3685,
+   "lon": 2.1534
+  },
+  {
+   "id": "2QDslJFq90weIBLKstGRrT",
+   "title": "The Virgin of Ger, a Romanesque wooden Madonna",
+   "type": "video",
+   "place": "National Art Museum of Catalonia (MNAC)",
+   "url": "https://youtu.be/KwYhMXjMlvc",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 41.3685,
+   "lon": 2.1534
+  },
+  {
+   "id": "fuskSVzyMvDrT1is0jBjc",
+   "title": "Les Demoiselles d’Avignon by Pablo Picasso",
+   "type": "video",
+   "place": "Carrer d’Avinyó",
+   "url": "https://youtu.be/fy2TlYnYIzA",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 41.381,
+   "lon": 2.177
+  },
+  {
+   "id": "2ChWx2mq8JCkBh4w1nx3vV",
+   "title": "The Sagrada Família by Antoni Gaudí",
+   "type": "video",
+   "place": "Sagrada Família basilica",
+   "url": "https://youtu.be/SMqERP-J2tQ",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 41.4036,
+   "lon": 2.1744
+  },
+  {
+   "id": "5FXUCf4HADMxHSKvPrbq2H",
+   "title": "A People’s History of Catalonia",
+   "type": "book",
+   "place": "Poble-sec district (area)",
+   "url": "https://goodreads.com/search?q=Michael%20Eaude%20A%20People's%20History%20of%20Catalonia",
+   "creator": "Michael Eaude",
+   "channel": null,
+   "lat": 41.3726,
+   "lon": 2.1676
+  },
+  {
+   "id": "4IICibLQihKtb8Z0BKKUXV",
+   "title": "The Struggle for Catalonia",
+   "type": "book",
+   "place": "Plaça de Sant Jaume",
+   "url": "https://goodreads.com/search?q=Raphael%20Minder%20The%20Struggle%20for%20Catalonia",
+   "creator": "Raphael Minder",
+   "channel": null,
+   "lat": 41.3828,
+   "lon": 2.1772
+  },
+  {
+   "id": "5So5MgRq00OSeZYnELevYZ",
+   "title": "The Sagrada Família",
+   "type": "book",
+   "place": "Sagrada Família basilica",
+   "url": "https://goodreads.com/search?q=van%20Hensbergen%20The%20Sagrada%20Familia",
+   "creator": "Gijs van Hensbergen",
+   "channel": null,
+   "lat": 41.4036,
+   "lon": 2.1744
+  },
+  {
+   "id": "3whjYBbhEBZJUlfiry0GT0",
+   "title": "Ghosts of Spain",
+   "type": "book",
+   "place": "Fossar de la Pedrera, Montjuïc Cemetery",
+   "url": "https://goodreads.com/search?q=Giles%20Tremlett%20Ghosts%20of%20Spain",
+   "creator": "Giles Tremlett",
+   "channel": null,
+   "lat": 41.3552,
+   "lon": 2.1483
+  },
+  {
+   "id": "6WOYz042Bl0UdHv5kVFySg",
+   "title": "Fear and Loathing in La Liga",
+   "type": "book",
+   "place": "Camp Nou stadium",
+   "url": "https://goodreads.com/search?q=Sid%20Lowe%20Fear%20and%20Loathing%20in%20La%20Liga",
+   "creator": "Sid Lowe",
+   "channel": null,
+   "lat": 41.3809,
+   "lon": 2.1228
+  },
+  {
+   "id": "6SrCqAs6jNEIgmbD2oxPWy",
+   "title": "City of Marvels",
+   "type": "book",
+   "place": "Ciutadella Park",
+   "url": "https://goodreads.com/search?q=Eduardo%20Mendoza%20City%20of%20Marvels",
+   "creator": "Eduardo Mendoza",
+   "channel": null,
+   "lat": 41.3881,
+   "lon": 2.186
+  },
+  {
+   "id": "4LLKUWUCDtsi77aUw00DnD",
+   "title": "Barcelona",
+   "type": "book",
+   "place": "Gothic Quarter (area)",
+   "url": "https://goodreads.com/search?q=Robert%20Hughes%20Barcelona",
+   "creator": "Robert Hughes",
+   "channel": null,
+   "lat": 41.3842,
+   "lon": 2.1773
+  },
+  {
+   "id": "7uyH5LVybNaD3yKfDiBJyn",
+   "title": "Homage to Barcelona",
+   "type": "book",
+   "place": "Plaça Reial",
+   "url": "https://goodreads.com/search?q=Colm%20T%C3%B3ib%C3%ADn%20Homage%20to%20Barcelona",
+   "creator": "Colm Tóibín",
+   "channel": null,
+   "lat": 41.3801,
+   "lon": 2.1754
+  },
+  {
+   "id": "Fcok6Qz3gKobsDwSBcly5",
+   "title": "Catalan Cuisine",
+   "type": "book",
+   "place": "La Boqueria market",
+   "url": "https://goodreads.com/search?q=Colman%20Andrews%20Catalan%20Cuisine",
+   "creator": "Colman Andrews",
+   "channel": null,
+   "lat": 41.3817,
+   "lon": 2.1716
+  },
+  {
+   "id": "2rR0ml3iOOWz7hUCxb8Tzs",
+   "title": "Dead City (Ciutat morta)",
+   "type": "movie",
+   "place": "Carrer de Sant Pere més Baix",
+   "url": "https://justwatch.com/us/search?q=Ciutat%20Morta",
+   "creator": "Xavier Artigas & Xapo Ortega",
+   "channel": null,
+   "lat": 41.388,
+   "lon": 2.176
+  },
+  {
+   "id": "6TugCK1KYWDSsP1wjcEHdx",
+   "title": "In Diamond Square (La plaça del Diamant / The Time of the Doves)",
+   "type": "movie",
+   "place": "Plaça del Diamant",
+   "url": "https://justwatch.com/us/search?q=La%20placa%20del%20Diamant",
+   "creator": "Francesc Betriu",
+   "channel": null,
+   "lat": 41.4034,
+   "lon": 2.1568
+  },
+  {
+   "id": "1atEQyOiG4fONShFVtpLy8",
+   "title": "Building human towers ten people high",
+   "type": "podcast",
+   "place": "Plaça de Sant Jaume",
+   "url": "https://open.spotify.com/search/Filling the Sink Catalan News Castells",
+   "creator": null,
+   "channel": "Filling the Sink",
+   "lat": 41.3828,
+   "lon": 2.1772
+  },
+  {
+   "id": "4vekOC7IAnsQCNeEajHQlA",
+   "title": "Allies turn on each other mid-war",
+   "type": "podcast",
+   "place": "Telefónica building, Plaça de Catalunya",
+   "url": "https://open.spotify.com/search/Dan Snow History Hit Spanish Civil War",
+   "creator": null,
+   "channel": "Dan Snow’s History Hit",
+   "lat": 41.3866,
+   "lon": 2.1694
+  },
+  {
+   "id": "4qCDo9xyn2qBHTUnsN0dSm",
+   "title": "A coppersmith’s son from Reus becomes Barcelona’s strangest architect",
+   "type": "podcast",
+   "place": "Casa Vicens house",
+   "url": "https://open.spotify.com/search/Stuff You Missed in History Class Antoni Gaudi Part 1",
+   "creator": null,
+   "channel": "Stuff You Missed in History Class",
+   "lat": 41.4035,
+   "lon": 2.1508
+  },
+  {
+   "id": "1zpn3xpbEirqcgq1si9rR9",
+   "title": "A showpiece prison spends a century filling with political inmates",
+   "type": "podcast",
+   "place": "La Model prison memorial",
+   "url": "https://open.spotify.com/search/Filling the Sink La Model prison",
+   "creator": null,
+   "channel": "Filling the Sink",
+   "lat": 41.3826,
+   "lon": 2.1446
   },
   {
    "id": "6I02el5c3cUX2PC89w96OT",
    "title": "Three chefs from elBulli open the world’s best restaurant",
    "type": "podcast",
    "place": "Disfrutar restaurant",
+   "url": "https://open.spotify.com/search/Filling the Sink Disfrutar",
+   "creator": null,
+   "channel": "Filling the Sink",
    "lat": 41.388,
    "lon": 2.153
   },
@@ -582,6 +864,9 @@
    "title": "A supercomputer hums inside a deconsecrated chapel",
    "type": "podcast",
    "place": "Torre Girona chapel (MareNostrum supercomputer)",
+   "url": "https://open.spotify.com/search/Filling the Sink MareNostrum",
+   "creator": null,
+   "channel": "Filling the Sink",
    "lat": 41.3893,
    "lon": 2.1162
   },
@@ -590,78 +875,53 @@
    "title": "A region votes to leave Spain and the state says no",
    "type": "video",
    "place": "Parliament of Catalonia, Ciutadella Park",
+   "url": "https://youtu.be/__mZkioPp3E",
+   "creator": null,
+   "channel": "Vox",
    "lat": 41.3879,
    "lon": 2.1872
-  },
-  {
-   "id": "YlS73Rshy7mGgTKuPtR6v",
-   "title": "Residents push back against the visitors filling their streets",
-   "type": "video",
-   "place": "Barceloneta district (area)",
-   "lat": 41.3802,
-   "lon": 2.1894
   },
   {
    "id": "AydMxdmPIgw7jSmwTV1De",
    "title": "A teenage Picasso learns to paint in a medieval street",
    "type": "video",
    "place": "Picasso Museum",
+   "url": "https://youtu.be/XaDSAaSO60M",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 41.3852,
    "lon": 2.1809
-  },
-  {
-   "id": "6jzTlimwf4h3NMt8nHIyii",
-   "title": "A temporary pavilion is torn down, then rebuilt as a legend",
-   "type": "video",
-   "place": "Barcelona Pavilion (Mies van der Rohe)",
-   "lat": 41.3708,
-   "lon": 2.15
   },
   {
    "id": "4iCt7INwQmllWykbpqnfNL",
    "title": "Medieval lanes give way to beaches built for the 1992 Games",
    "type": "video",
    "place": "Gothic Quarter (area)",
+   "url": "https://youtu.be/KVaaqBs1-BQ",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 41.3839,
    "lon": 2.1762
-  },
-  {
-   "id": "1zhtt5xx0P3Okw1vKsHypv",
-   "title": "A sweep of Gaudí’s houses, from dragon roofs to a hidden crypt",
-   "type": "video",
-   "place": "Palau Güell mansion",
-   "lat": 41.3789,
-   "lon": 2.1743
   },
   {
    "id": "5PSunoMpOqQlIv8WOnEvNh",
    "title": "Rival architects line up their showpieces on one boulevard",
    "type": "video",
    "place": "Casa Batlló, Passeig de Gràcia",
+   "url": "https://youtu.be/yiabIQ-KlZU",
+   "creator": null,
+   "channel": "Rick Steves Europe",
    "lat": 41.3916,
    "lon": 2.1649
-  },
-  {
-   "id": "nVlXIFrVlWbvGjdo2XBVh",
-   "title": "A tree-lined boulevard runs from the old city down to the port",
-   "type": "video",
-   "place": "La Rambla promenade",
-   "lat": 41.3809,
-   "lon": 2.1734
-  },
-  {
-   "id": "3R8sUB4Hdzelg0UNgIaeOT",
-   "title": "Grids of streets are handed back from cars to neighbours",
-   "type": "video",
-   "place": "Poblenou superblock (area)",
-   "lat": 41.4008,
-   "lon": 2.196
   },
   {
    "id": "6pHdM1UjhDKaZ8o8UBCkiO",
    "title": "A 1934 cruise ship drops anchor and passengers go ashore",
    "type": "video",
    "place": "Columbus Monument, Port Vell",
+   "url": "https://youtu.be/4tIT4A6WRTk",
+   "creator": null,
+   "channel": "British Pathé",
    "lat": 41.3758,
    "lon": 2.1777
   },
@@ -670,6 +930,9 @@
    "title": "A Japanese sculptor spends his life carving for Gaudí’s basilica",
    "type": "video",
    "place": "Sagrada Família basilica",
+   "url": "https://youtu.be/2CbiVPAmCAQ",
+   "creator": null,
+   "channel": "Nowness",
    "lat": 41.4036,
    "lon": 2.1744
   },
@@ -678,6 +941,9 @@
    "title": "A concert hall and a hospital dressed in glass, tile and mosaic",
    "type": "video",
    "place": "Palau de la Música Catalana concert hall",
+   "url": "https://youtu.be/3JNwt1pJX9U",
+   "creator": null,
+   "channel": "UNESCO",
    "lat": 41.3876,
    "lon": 2.1753
   },
@@ -686,16 +952,11 @@
    "title": "Nearly 100,000 seats for one football club in Les Corts",
    "type": "video",
    "place": "Camp Nou stadium",
+   "url": "https://youtu.be/QLhdD17FdXM",
+   "creator": null,
+   "channel": "DW Euromaxx",
    "lat": 41.3809,
    "lon": 2.1228
-  },
-  {
-   "id": "1Lv7jH6K6mEhJbftw0nMMX",
-   "title": "Andaluza (Danza Española No. 5)",
-   "type": "music",
-   "place": "",
-   "lat": 41.3802,
-   "lon": 2.1733
   }
  ]
 }

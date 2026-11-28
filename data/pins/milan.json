@@ -2,410 +2,233 @@
  "city": "Milan",
  "pins": [
   {
-   "id": "6ZdV60CCMsKpHTzl4oACmo",
-   "title": "Milan Fashion Tour: A Guide to Quadrilatero della Moda with Context",
-   "type": "audiotour",
-   "place": "Via Montenapoleone",
-   "lat": 45.4685,
-   "lon": 9.1955
-  },
-  {
-   "id": "1KXyuZM7aeUYnHIj1DaGDv",
-   "title": "The Mysteries of Milan: From the Duomo to the Royal Palace",
-   "type": "audiotour",
-   "place": "Piazza del Duomo",
-   "lat": 45.4641,
-   "lon": 9.1919
-  },
-  {
-   "id": "6ksQZurAsSyswIRHlow105",
-   "title": "Milan Walking Tour • Duomo and La Scala Secrets with Brera District",
-   "type": "audiotour",
-   "place": "Piazza della Scala",
-   "lat": 45.4675,
-   "lon": 9.1899
-  },
-  {
-   "id": "1WqQblZSft2E26aWadz1q7",
-   "title": "A tower shaped like a castle keep rises from bomb damage",
-   "type": "video",
-   "place": "Torre Velasca",
-   "lat": 45.4597,
-   "lon": 9.1905
-  },
-  {
-   "id": "6GG7dUjcWgJOwEkIcJTnMi",
-   "title": "A glass-roofed arcade between cathedral and opera",
-   "type": "video",
-   "place": "Galleria Vittorio Emanuele II",
-   "lat": 45.4659,
-   "lon": 9.19
-  },
-  {
-   "id": "7Dplla129UeWzJm88IErQU",
-   "title": "A duke’s daughter grows up at the Sforza court",
-   "type": "video",
-   "place": "Castello Sforzesco",
-   "lat": 45.4705,
-   "lon": 9.1794
-  },
-  {
-   "id": "7iDjHkVBAlqZHlxrdqzzUb",
-   "title": "Two rival clubs, one ageing stadium",
-   "type": "video",
+   "id": "2FRWRG3IcOpVN4ynZW8ThN",
+   "title": "Calcio: A History of Italian Football",
+   "type": "book",
    "place": "San Siro stadium",
+   "url": "https://goodreads.com/search?q=John+Foot+Calcio",
+   "creator": "John Foot",
+   "channel": null,
    "lat": 45.4781,
    "lon": 9.124
   },
   {
-   "id": "7vlaHqGKXfcURvz1ir7x8I",
-   "title": "Two apartment towers planted with trees",
-   "type": "video",
-   "place": "Bosco Verticale towers, Porta Nuova",
-   "lat": 45.4855,
-   "lon": 9.1903
-  },
-  {
-   "id": "3VDvKTCaSphm7X8Ya5LFUm",
-   "title": "A world’s fair about feeding the planet",
-   "type": "video",
-   "place": "Expo 2015 site, Rho",
-   "lat": 45.5197,
-   "lon": 9.094
-  },
-  {
-   "id": "3TSKMBhortCwVuE0natBQv",
-   "title": "Domed concrete igloo homes from the postwar housing crisis",
-   "type": "video",
-   "place": "Igloo houses, Via Lepanto, Maggiolina",
-   "lat": 45.4975,
-   "lon": 9.2037
-  },
-  {
-   "id": "3o1csR00kv7bazUDKGqKHL",
-   "title": "The city’s uprising against Austria, told in a quiet museum",
-   "type": "video",
-   "place": "Risorgimento Museum, Palazzo Moriggia",
-   "lat": 45.4718,
-   "lon": 9.1904
-  },
-  {
-   "id": "JslR5lO26tHB50VtGxVGJ",
-   "title": "Glass towers and tree-covered flats on old railway land",
-   "type": "video",
-   "place": "Piazza Gae Aulenti, Porta Nuova",
-   "lat": 45.484,
-   "lon": 9.1898
-  },
-  {
-   "id": "3omRhYoENs1DT0zcafA4G8",
-   "title": "A marble middle finger faces the stock exchange",
-   "type": "video",
-   "place": "Piazza Affari, outside the stock exchange",
-   "lat": 45.4643,
-   "lon": 9.1858
-  },
-  {
-   "id": "7EBoGdfv2dOUgDCq7I7i1p",
-   "title": "Walking among the spires on the cathedral roof",
-   "type": "video",
-   "place": "Duomo cathedral rooftop",
-   "lat": 45.4642,
-   "lon": 9.1916
-  },
-  {
-   "id": "aYVUPgIrh9B0NVJXIlorp",
-   "title": "Painters in love with speed, machines and the modern city",
-   "type": "video",
-   "place": "Museo del Novecento, Piazza del Duomo",
-   "lat": 45.4634,
-   "lon": 9.1899
-  },
-  {
-   "id": "4ISgST2FalziWW5PLZrypV",
-   "title": "Venetian merchants search Alexandria’s tombs for a saint",
-   "type": "video",
-   "place": "Pinacoteca di Brera art gallery",
-   "lat": 45.4722,
-   "lon": 9.1884
-  },
-  {
-   "id": "38BEl8583QGdLTyItulHFK",
-   "title": "A duke kneels in armour under a hanging ostrich egg",
-   "type": "video",
-   "place": "Pinacoteca di Brera art gallery",
-   "lat": 45.4718,
-   "lon": 9.1883
-  },
-  {
-   "id": "2ExA6bzDFCvwJ08AZDcMjS",
-   "title": "A young Raphael reworks his teacher’s wedding scene",
-   "type": "video",
-   "place": "Pinacoteca di Brera art gallery",
-   "lat": 45.4721,
-   "lon": 9.1878
-  },
-  {
-   "id": "19UzI11Wb8TNvcm8fRwHee",
-   "title": "A dead Christ seen feet-first",
-   "type": "video",
-   "place": "Pinacoteca di Brera art gallery",
-   "lat": 45.4719,
-   "lon": 9.188
-  },
-  {
-   "id": "1dRsDqYiHlTH3ZAKV1LGnh",
-   "title": "A Last Supper painted on a monks’ dining-room wall",
-   "type": "video",
-   "place": "Santa Maria delle Grazie church",
-   "lat": 45.466,
-   "lon": 9.1709
-  },
-  {
-   "id": "1PUMMAeNVmlGQuedWYtwxz",
-   "title": "Leonardo applies for a job and barely mentions painting",
-   "type": "video",
-   "place": "Biblioteca Ambrosiana library",
-   "lat": 45.4634,
-   "lon": 9.1857
-  },
-  {
-   "id": "amdffiQWJR03DFXnBEJ1g",
-   "title": "A bishop’s fourth-century church, rebuilt in Romanesque brick",
-   "type": "video",
-   "place": "Basilica of Sant’Ambrogio",
-   "lat": 45.4624,
-   "lon": 9.1756
-  },
-  {
-   "id": "1hbLHZDAb3b4lvmVXvcxIN",
-   "title": "Why the furniture world descends on Milan each April",
+   "id": "1IbskT2fx8ddnqewB0WJx5",
+   "title": "Saffron, a prank, and a yellow wedding rice",
    "type": "podcast",
-   "place": "Fiera Milano exhibition grounds, Rho",
-   "lat": 45.5209,
-   "lon": 9.0834
+   "place": "Duomo cathedral",
+   "url": "https://podcasts.apple.com/us/podcast/risotto-alla-milanese/id1865545247?i=1000758815255",
+   "creator": null,
+   "channel": "Sauced",
+   "lat": 45.4641,
+   "lon": 9.1919
   },
   {
-   "id": "j4OBoJhG9xXaVpqzxvtm9",
-   "title": "A poet’s canal and the writers around it",
-   "type": "podcast",
-   "place": "Alda Merini’s home, Naviglio Grande canal",
-   "lat": 45.4521,
-   "lon": 9.1729
+   "id": "35HVtzrXrnezS5Fmxz38Lm",
+   "title": "The Body of Il Duce",
+   "type": "book",
+   "place": "Piazzale Loreto",
+   "url": "https://goodreads.com/search?q=Luzzatto+The+Body+of+Il+Duce",
+   "creator": "Sergio Luzzatto",
+   "channel": null,
+   "lat": 45.4858,
+   "lon": 9.2163
   },
   {
    "id": "18vfEsc21EyD2lCyXES7Fb",
    "title": "A fashion editor invents the concept store",
    "type": "podcast",
    "place": "10 Corso Como",
+   "url": "https://podcasts.apple.com/us/podcast/fashion-in-milan-4-corso-como-10-and-the-birth/id1676136925?i=1000628415022",
+   "creator": null,
+   "channel": "Listen To MI",
    "lat": 45.4816,
    "lon": 9.1871
   },
   {
-   "id": "7y2veaNIjkvUOyCid2O5ag",
-   "title": "A fake apse less than a metre deep",
-   "type": "podcast",
-   "place": "Santa Maria presso San Satiro church",
-   "lat": 45.4628,
-   "lon": 9.1878
+   "id": "aYVUPgIrh9B0NVJXIlorp",
+   "title": "Painters in love with speed, machines and the modern city",
+   "type": "video",
+   "place": "Museo del Novecento, Piazza del Duomo",
+   "url": "https://www.youtube.com/watch?v=JHul281Kmtk",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4634,
+   "lon": 9.1899
   },
   {
-   "id": "5TX5qmeGcXzntY9L63Fhj2",
-   "title": "An architect’s flats for a couple of collectors",
-   "type": "podcast",
-   "place": "Casa Museo Boschi Di Stefano, Via Jan",
-   "lat": 45.479,
-   "lon": 9.2106
+   "id": "75tWkIpxNiUzALP8cXRM2l",
+   "title": "Italian Ways: On and Off the Rails from Milan to Palermo",
+   "type": "book",
+   "place": "Milano Centrale railway station",
+   "url": "https://goodreads.com/search?q=Tim+Parks+Italian+Ways",
+   "creator": "Tim Parks",
+   "channel": null,
+   "lat": 45.4861,
+   "lon": 9.2045
   },
   {
-   "id": "3hnV68D2cFLHZm0unuO4MK",
-   "title": "Art nouveau, Milan style, around Porta Venezia",
-   "type": "podcast",
-   "place": "Palazzo Castiglioni, Corso Venezia",
-   "lat": 45.4718,
-   "lon": 9.2012
-  },
-  {
-   "id": "2qErgJQVXsavvGu8qfimxH",
-   "title": "Sculpted family tombs in the city of the dead",
-   "type": "podcast",
-   "place": "Cimitero Monumentale cemetery",
-   "lat": 45.4857,
-   "lon": 9.1793
-  },
-  {
-   "id": "7M1IQMB2zjF8xQRYsZJqhT",
-   "title": "The Argentine coach who taught Inter to defend",
-   "type": "podcast",
-   "place": "San Siro stadium",
-   "lat": 45.4781,
-   "lon": 9.124
-  },
-  {
-   "id": "2MKqffxTlNmip49tdIxjPS",
-   "title": "A fashion heir is shot on his office steps",
-   "type": "podcast",
-   "place": "Via Palestro 20, Maurizio Gucci’s office",
-   "lat": 45.4733,
-   "lon": 9.1993
-  },
-  {
-   "id": "1IbskT2fx8ddnqewB0WJx5",
-   "title": "Saffron, a prank and a yellow wedding rice",
-   "type": "podcast",
-   "place": "Duomo cathedral",
-   "lat": 45.4641,
-   "lon": 9.1919
-  },
-  {
-   "id": "43aLCI5hVpzgnJAycvaVz2",
-   "title": "Forty minutes in front of the Last Supper",
-   "type": "podcast",
-   "place": "Last Supper refectory, Santa Maria delle Grazie",
-   "lat": 45.4657,
-   "lon": 9.1706
-  },
-  {
-   "id": "5YuA9WKlqT85Xj6ES5Mxcy",
-   "title": "An opera house named after the church it replaced",
-   "type": "podcast",
-   "place": "La Scala opera house",
-   "lat": 45.4674,
-   "lon": 9.1895
-  },
-  {
-   "id": "4k6YcaZx1lpWGrtuQrcKgS",
-   "title": "Leonardo paints a castle hall into a forest",
-   "type": "podcast",
-   "place": "Sala delle Asse, Castello Sforzesco",
-   "lat": 45.4712,
-   "lon": 9.1801
-  },
-  {
-   "id": "v8aov5ZAHtz8qtV7ywzlu",
-   "title": "A mercenary becomes duke and builds a hospital for the poor",
-   "type": "podcast",
-   "place": "Ca’ Granda, the former Ospedale Maggiore",
-   "lat": 45.4601,
-   "lon": 9.1942
-  },
-  {
-   "id": "3Im4mXBMP9PbP041sAvHGF",
-   "title": "A family of lords tightens its grip on the city",
-   "type": "podcast",
-   "place": "San Gottardo in Corte church",
-   "lat": 45.4627,
-   "lon": 9.1928
-  },
-  {
-   "id": "2bCzXJI0PQQTCHaFxzXlyw",
-   "title": "Milan’s bishop bargains with a usurper",
-   "type": "podcast",
-   "place": "Basilica of Sant’Ambrogio",
-   "lat": 45.4622,
-   "lon": 9.1758
-  },
-  {
-   "id": "2ReuRwovJxVIABlterZ9nb",
-   "title": "Young Fascists dig up Mussolini’s body and hide it for months",
-   "type": "podcast",
-   "place": "Cimitero Maggiore cemetery, Musocco",
-   "lat": 45.5103,
-   "lon": 9.1222
-  },
-  {
-   "id": "7pTi57JvUilFYsLUQreyU0",
-   "title": "A blacksmith’s son founds Fascism in a Milan hall",
-   "type": "podcast",
-   "place": "Piazza San Sepolcro",
-   "lat": 45.4633,
-   "lon": 9.1847
-  },
-  {
-   "id": "1fRZSQkpFvHn0DyVo0OXHg",
-   "title": "Soldi",
-   "type": "music",
-   "place": "Gratosoglio towers",
-   "lat": 45.414,
-   "lon": 9.174
-  },
-  {
-   "id": "5CzTPiREliD3DOb2irRRrp",
-   "title": "Cara Italia",
-   "type": "music",
-   "place": "Baggio district",
-   "lat": 45.46,
-   "lon": 9.087
-  },
-  {
-   "id": "3zsGQZrL5i6eHPu0SgTDjj",
-   "title": "Tran Tran",
-   "type": "music",
-   "place": "Piazza Gramsci, Cinisello Balsamo",
-   "lat": 45.5562,
-   "lon": 9.2148
-  },
-  {
-   "id": "2GPfOpN4UySdvytVzPkEKA",
-   "title": "Badabum Cha Cha",
-   "type": "music",
-   "place": "Barona district",
-   "lat": 45.4385,
-   "lon": 9.153
-  },
-  {
-   "id": "6L0OFo9Rd7jHVEqSRm30UY",
-   "title": "Luci a San Siro",
-   "type": "music",
-   "place": "San Siro stadium",
-   "lat": 45.4781,
-   "lon": 9.124
+   "id": "1PUMMAeNVmlGQuedWYtwxz",
+   "title": "Leonardo applies for a job and barely mentions painting",
+   "type": "video",
+   "place": "Biblioteca Ambrosiana library",
+   "url": "https://www.youtube.com/watch?v=URcpchlTNBY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4634,
+   "lon": 9.1857
   },
   {
    "id": "7nzKLvUhBnSA6LAXdsftjw",
    "title": "Vengo anch’io. No, tu no",
    "type": "music",
    "place": "Derby Club site, Viale Monte Rosa",
+   "url": "https://open.spotify.com/search/Enzo%20Jannacci%20Vengo%20anch%27io.%20No%20tu%20no",
+   "creator": "Enzo Jannacci",
+   "channel": null,
    "lat": 45.475,
    "lon": 9.149
   },
   {
-   "id": "2wmluIwvkjtG503B9oXzWw",
-   "title": "Il ragazzo della via Gluck",
-   "type": "music",
-   "place": "Via Gluck, Greco",
-   "lat": 45.4927,
+   "id": "2sfeKNBmqi4xLuIQF1MxiJ",
+   "title": "Maria by Callas",
+   "type": "movie",
+   "place": "La Scala opera house",
+   "url": "https://www.justwatch.com/us/search?q=Maria%20by%20Callas",
+   "creator": "Tom Volf",
+   "channel": null,
+   "lat": 45.4674,
+   "lon": 9.1895
+  },
+  {
+   "id": "2MKqffxTlNmip49tdIxjPS",
+   "title": "A fashion heir is shot on his office steps",
+   "type": "podcast",
+   "place": "Via Palestro 20, Maurizio Gucci’s office",
+   "url": "https://podcasts.apple.com/us/podcast/the-murder-of-maurizio-gucci/id339986758?i=1000681104899",
+   "creator": null,
+   "channel": "Witness History",
+   "lat": 45.4733,
+   "lon": 9.1993
+  },
+  {
+   "id": "7M1IQMB2zjF8xQRYsZJqhT",
+   "title": "The Argentine coach who taught Inter to defend",
+   "type": "podcast",
+   "place": "San Siro stadium",
+   "url": "https://podcasts.apple.com/us/podcast/herreras-inter-milan-the-birth-of-the-catenaccio/id1745066482?i=1000710037505",
+   "creator": null,
+   "channel": "It Was What It Was",
+   "lat": 45.4781,
+   "lon": 9.124
+  },
+  {
+   "id": "5TX5qmeGcXzntY9L63Fhj2",
+   "title": "An architect’s apartments for a couple of collectors",
+   "type": "podcast",
+   "place": "Casa Museo Boschi Di Stefano, Via Jan",
+   "url": "https://podcasts.apple.com/us/podcast/architecture-in-milan-2-piero-portaluppi-the-boschi/id1676136925?i=1000619128995",
+   "creator": null,
+   "channel": "Listen To MI",
+   "lat": 45.479,
+   "lon": 9.2106
+  },
+  {
+   "id": "7y2veaNIjkvUOyCid2O5ag",
+   "title": "A fake apse less than a meter deep",
+   "type": "podcast",
+   "place": "Santa Maria presso San Satiro church",
+   "url": "https://podcasts.apple.com/us/podcast/architecture-in-milan-4-bramante-and-filarete/id1676136925?i=1000619129070",
+   "creator": null,
+   "channel": "Listen To MI",
+   "lat": 45.4628,
+   "lon": 9.1878
+  },
+  {
+   "id": "38BEl8583QGdLTyItulHFK",
+   "title": "A duke kneels in armor under a hanging ostrich egg",
+   "type": "video",
+   "place": "Pinacoteca di Brera art gallery",
+   "url": "https://www.youtube.com/watch?v=gOTZWIiIBOs",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4718,
+   "lon": 9.1883
+  },
+  {
+   "id": "JslR5lO26tHB50VtGxVGJ",
+   "title": "Glass towers and tree-covered apartments on old railway land",
+   "type": "video",
+   "place": "Piazza Gae Aulenti, Porta Nuova",
+   "url": "https://www.youtube.com/watch?v=Wak4RKL9xAA",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 45.484,
+   "lon": 9.1898
+  },
+  {
+   "id": "3TSKMBhortCwVuE0natBQv",
+   "title": "Domed concrete igloo homes from the postwar housing crisis",
+   "type": "video",
+   "place": "Igloo houses, Via Lepanto, Maggiolina",
+   "url": "https://www.youtube.com/watch?v=Cw6Xj4XoKvg",
+   "creator": null,
+   "channel": "The Tim Traveller",
+   "lat": 45.4975,
    "lon": 9.2037
+  },
+  {
+   "id": "3VDvKTCaSphm7X8Ya5LFUm",
+   "title": "A world’s fair about feeding the planet",
+   "type": "video",
+   "place": "Expo 2015 site, Rho",
+   "url": "https://www.youtube.com/watch?v=TDszfpf-xt8",
+   "creator": null,
+   "channel": "DW Cultures",
+   "lat": 45.5197,
+   "lon": 9.094
+  },
+  {
+   "id": "2GPfOpN4UySdvytVzPkEKA",
+   "title": "Badabum Cha Cha",
+   "type": "music",
+   "place": "Barona district",
+   "url": "https://open.spotify.com/search/Marracash%20Badabum%20Cha%20Cha",
+   "creator": "Marracash",
+   "channel": null,
+   "lat": 45.4385,
+   "lon": 9.153
   },
   {
    "id": "4WrvYsK8yNLn5PMbOmoPz7",
    "title": "Porta Romana",
    "type": "music",
    "place": "Porta Romana gate",
+   "url": "https://open.spotify.com/search/Giorgio%20Gaber%20Porta%20Romana",
+   "creator": "Giorgio Gaber",
+   "channel": null,
    "lat": 45.4521,
    "lon": 9.2031
   },
   {
-   "id": "27dFQw8GA8hxJlRPFDivkM",
-   "title": "Ma mi",
+   "id": "1fRZSQkpFvHn0DyVo0OXHg",
+   "title": "Soldi",
    "type": "music",
-   "place": "San Vittore prison",
-   "lat": 45.4605,
-   "lon": 9.1647
-  },
-  {
-   "id": "11ihioYfoffKJukLZ7CcpD",
-   "title": "O mia bela Madunina",
-   "type": "music",
-   "place": "Madonnina statue, Duomo cathedral",
-   "lat": 45.4642,
-   "lon": 9.1916
+   "place": "Gratosoglio towers",
+   "url": "https://open.spotify.com/search/Mahmood%20Soldi",
+   "creator": "Mahmood",
+   "channel": null,
+   "lat": 45.414,
+   "lon": 9.174
   },
   {
    "id": "1xpCWuJnHkCkBiZumi4TOJ",
    "title": "Madama Butterfly: Un bel dì vedremo",
    "type": "music",
    "place": "Teatro alla Scala opera house",
+   "url": "https://open.spotify.com/search/Giacomo%20Puccini%20Madama%20Butterfly%20Un%20bel%20d%C3%AC%20vedremo",
+   "creator": "Giacomo Puccini",
+   "channel": null,
    "lat": 45.4674,
    "lon": 9.1895
   },
@@ -414,22 +237,20 @@
    "title": "Messa da Requiem: Dies irae",
    "type": "music",
    "place": "San Marco church, Brera",
+   "url": "https://open.spotify.com/search/Giuseppe%20Verdi%20Messa%20da%20Requiem%20Dies%20irae",
+   "creator": "Giuseppe Verdi",
+   "channel": null,
    "lat": 45.4734,
    "lon": 9.1868
-  },
-  {
-   "id": "7n3KYuO7ny4c5Uj4WGJWff",
-   "title": "Nabucco: Va, pensiero",
-   "type": "music",
-   "place": "Casa Verdi rest home, Piazza Buonarroti",
-   "lat": 45.4697,
-   "lon": 9.1574
   },
   {
    "id": "79cnH6fCv2nYo9eLgLfYAX",
    "title": "L’elisir d’amore: Una furtiva lagrima",
    "type": "music",
    "place": "Teatro Lirico, Via Larga",
+   "url": "https://open.spotify.com/search/Gaetano%20Donizetti%20L%27elisir%20d%27amore%20Una%20furtiva%20lagrima",
+   "creator": "Gaetano Donizetti",
+   "channel": null,
    "lat": 45.4614,
    "lon": 9.1935
   },
@@ -438,166 +259,570 @@
    "title": "Mitridate, re di Ponto, K. 87: Overture",
    "type": "music",
    "place": "Palazzo Reale palace",
+   "url": "https://open.spotify.com/search/Wolfgang%20Amadeus%20Mozart%20Mitridate%20re%20di%20Ponto%20K.%2087%20Overture",
+   "creator": "Wolfgang Amadeus Mozart",
+   "channel": null,
    "lat": 45.4632,
    "lon": 9.1912
-  },
-  {
-   "id": "z8O17vaOmZo3EjcfVtVWv",
-   "title": "1992",
-   "type": "tv",
-   "place": "Palace of Justice",
-   "lat": 45.4614,
-   "lon": 9.201
-  },
-  {
-   "id": "3bCxSomUtOMyFMgTo6vJRY",
-   "title": "Il Posto",
-   "type": "movie",
-   "place": "Cadorna railway station",
-   "lat": 45.4682,
-   "lon": 9.1756
-  },
-  {
-   "id": "3s3aJaHbfyartxiZ3qXFNN",
-   "title": "I Am Love",
-   "type": "movie",
-   "place": "Villa Necchi Campiglio",
-   "lat": 45.4683,
-   "lon": 9.2006
-  },
-  {
-   "id": "4lgkQ4QfgunLxGmH47Pkxe",
-   "title": "House of Gucci",
-   "type": "movie",
-   "place": "Via Palestro 20",
-   "lat": 45.4733,
-   "lon": 9.1993
   },
   {
    "id": "5AXhp01DUb1wUqVP89bv7h",
    "title": "Piazza Fontana: The Italian Conspiracy",
    "type": "movie",
    "place": "Piazza Fontana, site of the agricultural bank",
+   "url": "https://www.justwatch.com/us/search?q=Piazza%20Fontana%3A%20The%20Italian%20Conspiracy",
+   "creator": "Marco Tullio Giordana",
+   "channel": null,
    "lat": 45.4632,
    "lon": 9.1935
-  },
-  {
-   "id": "7GGh0wRq8FmlpxkBp9haou",
-   "title": "Teorema",
-   "type": "movie",
-   "place": "Milano Centrale railway station",
-   "lat": 45.4861,
-   "lon": 9.2045
-  },
-  {
-   "id": "25qPR8qABGQuzKyGgfnATs",
-   "title": "La Notte",
-   "type": "movie",
-   "place": "Pirelli Tower",
-   "lat": 45.4848,
-   "lon": 9.2017
-  },
-  {
-   "id": "7dHyh3380FUQnvoj0FZ9uW",
-   "title": "Rocco and His Brothers",
-   "type": "movie",
-   "place": "Idroscalo lake",
-   "lat": 45.463,
-   "lon": 9.285
-  },
-  {
-   "id": "2sfeKNBmqi4xLuIQF1MxiJ",
-   "title": "Maria by Callas",
-   "type": "movie",
-   "place": "La Scala opera house",
-   "lat": 45.4674,
-   "lon": 9.1895
   },
   {
    "id": "1Kbbk7VSqqXCt1t3vjBa0p",
    "title": "Miracle in Milan",
    "type": "movie",
    "place": "Piazza del Duomo, cathedral square",
+   "url": "https://www.justwatch.com/us/search?q=Miracle%20in%20Milan",
+   "creator": "Vittorio De Sica",
+   "channel": null,
    "lat": 45.4641,
    "lon": 9.19
   },
   {
-   "id": "75tWkIpxNiUzALP8cXRM2l",
-   "title": "Italian Ways: On and Off the Rails from Milan to Palermo",
-   "type": "book",
+   "id": "7dHyh3380FUQnvoj0FZ9uW",
+   "title": "Rocco and His Brothers",
+   "type": "movie",
+   "place": "Idroscalo lake",
+   "url": "https://www.justwatch.com/us/search?q=Rocco%20and%20His%20Brothers",
+   "creator": "Luchino Visconti",
+   "channel": null,
+   "lat": 45.463,
+   "lon": 9.285
+  },
+  {
+   "id": "25qPR8qABGQuzKyGgfnATs",
+   "title": "La Notte",
+   "type": "movie",
+   "place": "Pirelli Tower",
+   "url": "https://www.justwatch.com/us/search?q=La%20Notte",
+   "creator": "Michelangelo Antonioni",
+   "channel": null,
+   "lat": 45.4848,
+   "lon": 9.2017
+  },
+  {
+   "id": "7GGh0wRq8FmlpxkBp9haou",
+   "title": "Teorema",
+   "type": "movie",
    "place": "Milano Centrale railway station",
+   "url": "https://www.justwatch.com/us/search?q=Teorema",
+   "creator": "Pier Paolo Pasolini",
+   "channel": null,
    "lat": 45.4861,
    "lon": 9.2045
   },
   {
-   "id": "4pTWJwuE7cloK24Exo27RG",
-   "title": "The House of Gucci",
-   "type": "book",
+   "id": "4lgkQ4QfgunLxGmH47Pkxe",
+   "title": "House of Gucci",
+   "type": "movie",
    "place": "Via Palestro 20",
+   "url": "https://www.justwatch.com/us/search?q=House%20of%20Gucci",
+   "creator": "Ridley Scott",
+   "channel": null,
    "lat": 45.4733,
    "lon": 9.1993
   },
   {
-   "id": "jbBLz6MvRliWQxU1RgLw8",
-   "title": "The Sack of Rome",
-   "type": "book",
-   "place": "Palace of Justice courthouse",
-   "lat": 45.4627,
-   "lon": 9.2027
+   "id": "3s3aJaHbfyartxiZ3qXFNN",
+   "title": "I Am Love",
+   "type": "movie",
+   "place": "Villa Necchi Campiglio",
+   "url": "https://www.justwatch.com/us/search?q=I%20Am%20Love",
+   "creator": "Luca Guadagnino",
+   "channel": null,
+   "lat": 45.4683,
+   "lon": 9.2006
   },
   {
-   "id": "vfjKyzEIJk9GPwYXQyQ5C",
-   "title": "Accidental Death of an Anarchist",
-   "type": "book",
-   "place": "Police headquarters, Via Fatebenefratelli",
-   "lat": 45.472,
-   "lon": 9.1912
-  },
-  {
-   "id": "1LPq1OWyYBRg7KO4xCKIPW",
-   "title": "Poem Strip",
-   "type": "book",
-   "place": "Corriere della Sera offices, Via Solferino",
-   "lat": 45.477,
-   "lon": 9.1868
-  },
-  {
-   "id": "35HVtzrXrnezS5Fmxz38Lm",
-   "title": "The Body of Il Duce",
-   "type": "book",
-   "place": "Piazzale Loreto",
-   "lat": 45.4858,
-   "lon": 9.2163
-  },
-  {
-   "id": "2FRWRG3IcOpVN4ynZW8ThN",
-   "title": "Calcio: A History of Italian Football",
-   "type": "book",
-   "place": "San Siro stadium",
-   "lat": 45.4781,
-   "lon": 9.124
-  },
-  {
-   "id": "3kFo78whlC3VyVc6TNgZoL",
-   "title": "The Betrothed",
-   "type": "book",
-   "place": "Casa del Manzoni museum, Via Morone",
-   "lat": 45.4686,
-   "lon": 9.192
+   "id": "3bCxSomUtOMyFMgTo6vJRY",
+   "title": "Il Posto",
+   "type": "movie",
+   "place": "Cadorna railway station",
+   "url": "https://www.justwatch.com/us/search?q=Il%20Posto",
+   "creator": "Ermanno Olmi",
+   "channel": null,
+   "lat": 45.4682,
+   "lon": 9.1756
   },
   {
    "id": "6GPZrOo6fgRoBWpSmmcRHr",
    "title": "Leonardo and the Last Supper",
    "type": "book",
    "place": "Santa Maria delle Grazie church",
+   "url": "https://goodreads.com/search?q=Ross+King+Leonardo+and+the+Last+Supper",
+   "creator": "Ross King",
+   "channel": null,
    "lat": 45.466,
    "lon": 9.171
+  },
+  {
+   "id": "vfjKyzEIJk9GPwYXQyQ5C",
+   "title": "Accidental Death of an Anarchist",
+   "type": "book",
+   "place": "Police headquarters, Via Fatebenefratelli",
+   "url": "https://goodreads.com/search?q=Dario+Fo+Accidental+Death+of+an+Anarchist",
+   "creator": "Dario Fo",
+   "channel": null,
+   "lat": 45.472,
+   "lon": 9.1912
+  },
+  {
+   "id": "jbBLz6MvRliWQxU1RgLw8",
+   "title": "The Sack of Rome",
+   "type": "book",
+   "place": "Palace of Justice courthouse",
+   "url": "https://goodreads.com/search?q=Alexander+Stille+The+Sack+of+Rome",
+   "creator": "Alexander Stille",
+   "channel": null,
+   "lat": 45.4627,
+   "lon": 9.2027
+  },
+  {
+   "id": "4pTWJwuE7cloK24Exo27RG",
+   "title": "The House of Gucci",
+   "type": "book",
+   "place": "Via Palestro 20",
+   "url": "https://goodreads.com/search?q=Sara+Gay+Forden+The+House+of+Gucci",
+   "creator": "Sara Gay Forden",
+   "channel": null,
+   "lat": 45.4733,
+   "lon": 9.1993
+  },
+  {
+   "id": "7n3KYuO7ny4c5Uj4WGJWff",
+   "title": "Nabucco: Va, pensiero",
+   "type": "music",
+   "place": "Casa Verdi rest home, Piazza Buonarroti",
+   "url": "https://open.spotify.com/search/Giuseppe%20Verdi%20Nabucco%20Va%20pensiero",
+   "creator": "Giuseppe Verdi",
+   "channel": null,
+   "lat": 45.4697,
+   "lon": 9.1574
+  },
+  {
+   "id": "11ihioYfoffKJukLZ7CcpD",
+   "title": "O mia bela Madunina",
+   "type": "music",
+   "place": "Madonnina statue, Duomo cathedral",
+   "url": "https://open.spotify.com/search/Giovanni%20D%27Anzi%20O%20mia%20bela%20Madunina",
+   "creator": "Giovanni D’Anzi",
+   "channel": null,
+   "lat": 45.4642,
+   "lon": 9.1916
+  },
+  {
+   "id": "27dFQw8GA8hxJlRPFDivkM",
+   "title": "Ma mi",
+   "type": "music",
+   "place": "San Vittore prison",
+   "url": "https://open.spotify.com/search/Ornella%20Vanoni%20Ma%20mi",
+   "creator": "Ornella Vanoni",
+   "channel": null,
+   "lat": 45.4605,
+   "lon": 9.1647
+  },
+  {
+   "id": "2wmluIwvkjtG503B9oXzWw",
+   "title": "Il ragazzo della via Gluck",
+   "type": "music",
+   "place": "Via Gluck, Greco",
+   "url": "https://open.spotify.com/search/Adriano%20Celentano%20Il%20ragazzo%20della%20via%20Gluck",
+   "creator": "Adriano Celentano",
+   "channel": null,
+   "lat": 45.4927,
+   "lon": 9.2037
+  },
+  {
+   "id": "6L0OFo9Rd7jHVEqSRm30UY",
+   "title": "Luci a San Siro",
+   "type": "music",
+   "place": "San Siro stadium",
+   "url": "https://open.spotify.com/search/Roberto%20Vecchioni%20Luci%20a%20San%20Siro",
+   "creator": "Roberto Vecchioni",
+   "channel": null,
+   "lat": 45.4781,
+   "lon": 9.124
+  },
+  {
+   "id": "6ZdV60CCMsKpHTzl4oACmo",
+   "title": "Milan Fashion Tour: A Guide to Quadrilatero della Moda with Context",
+   "type": "audiotour",
+   "place": "Via Montenapoleone",
+   "url": "https://voicemap.me/tour/milan/milan-fashion-tour-a-guide-to-quadrilatero-della-moda-with-context",
+   "creator": null,
+   "channel": null,
+   "lat": 45.4685,
+   "lon": 9.1955
+  },
+  {
+   "id": "1KXyuZM7aeUYnHIj1DaGDv",
+   "title": "The Mysteries of Milan: From the Duomo to the Royal Palace",
+   "type": "audiotour",
+   "place": "Piazza del Duomo",
+   "url": "https://voicemap.me/tour/milan/the-mysteries-of-milan-from-the-duomo-to-the-royal-palace",
+   "creator": null,
+   "channel": null,
+   "lat": 45.4641,
+   "lon": 9.1919
+  },
+  {
+   "id": "6ksQZurAsSyswIRHlow105",
+   "title": "Milan Walking Tour • Duomo and La Scala Secrets with Brera District",
+   "type": "audiotour",
+   "place": "Piazza della Scala",
+   "url": "https://voicemap.me/tour/milan/the-best-of-milan-explore-the-city-s-secrets",
+   "creator": null,
+   "channel": null,
+   "lat": 45.4675,
+   "lon": 9.1899
+  },
+  {
+   "id": "1WqQblZSft2E26aWadz1q7",
+   "title": "A tower shaped like a castle keep rises from bomb damage",
+   "type": "video",
+   "place": "Torre Velasca",
+   "url": "https://www.youtube.com/watch?v=HZdwYo3O6Co",
+   "creator": null,
+   "channel": "Architectural Record",
+   "lat": 45.4597,
+   "lon": 9.1905
+  },
+  {
+   "id": "6GG7dUjcWgJOwEkIcJTnMi",
+   "title": "A glass-roofed arcade between cathedral and opera",
+   "type": "video",
+   "place": "Galleria Vittorio Emanuele II",
+   "url": "https://www.youtube.com/watch?v=YwUBpiAwRKc",
+   "creator": null,
+   "channel": "Rocky Ruggiero",
+   "lat": 45.4659,
+   "lon": 9.19
+  },
+  {
+   "id": "7Dplla129UeWzJm88IErQU",
+   "title": "A duke’s daughter grows up at the Sforza court",
+   "type": "video",
+   "place": "Castello Sforzesco",
+   "url": "https://www.youtube.com/watch?v=-RzworSzIw4",
+   "creator": null,
+   "channel": "Extra History",
+   "lat": 45.4705,
+   "lon": 9.1794
+  },
+  {
+   "id": "7iDjHkVBAlqZHlxrdqzzUb",
+   "title": "Two rival clubs, one ageing stadium",
+   "type": "video",
+   "place": "San Siro stadium",
+   "url": "https://www.youtube.com/watch?v=PaQvyrrWWe4",
+   "creator": null,
+   "channel": "BBC Sport",
+   "lat": 45.4781,
+   "lon": 9.124
+  },
+  {
+   "id": "7vlaHqGKXfcURvz1ir7x8I",
+   "title": "Two apartment towers planted with trees",
+   "type": "video",
+   "place": "Bosco Verticale towers, Porta Nuova",
+   "url": "https://www.youtube.com/watch?v=wFNDfSa7Ak8",
+   "creator": null,
+   "channel": "The B1M",
+   "lat": 45.4855,
+   "lon": 9.1903
+  },
+  {
+   "id": "3o1csR00kv7bazUDKGqKHL",
+   "title": "The city’s uprising against Austria, told in a quiet museum",
+   "type": "video",
+   "place": "Risorgimento Museum, Palazzo Moriggia",
+   "url": "https://www.youtube.com/watch?v=f1qkfWXuMUY",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 45.4718,
+   "lon": 9.1904
+  },
+  {
+   "id": "3omRhYoENs1DT0zcafA4G8",
+   "title": "A marble middle finger faces the stock exchange",
+   "type": "video",
+   "place": "Piazza Affari, outside the stock exchange",
+   "url": "https://www.youtube.com/watch?v=SHjHcV5ek5w",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 45.4643,
+   "lon": 9.1858
+  },
+  {
+   "id": "7EBoGdfv2dOUgDCq7I7i1p",
+   "title": "Walking among the spires on the cathedral roof",
+   "type": "video",
+   "place": "Duomo cathedral rooftop",
+   "url": "https://www.youtube.com/watch?v=g9n-DBxUKz8",
+   "creator": null,
+   "channel": "Rick Steves Europe",
+   "lat": 45.4642,
+   "lon": 9.1916
+  },
+  {
+   "id": "4ISgST2FalziWW5PLZrypV",
+   "title": "Venetian merchants search Alexandria’s tombs for a saint",
+   "type": "video",
+   "place": "Pinacoteca di Brera art gallery",
+   "url": "https://www.youtube.com/watch?v=x3GFqNYaVRE",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4722,
+   "lon": 9.1884
+  },
+  {
+   "id": "2ExA6bzDFCvwJ08AZDcMjS",
+   "title": "A young Raphael reworks his teacher’s wedding scene",
+   "type": "video",
+   "place": "Pinacoteca di Brera art gallery",
+   "url": "https://www.youtube.com/watch?v=H_Guv2Mk1E0",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4721,
+   "lon": 9.1878
+  },
+  {
+   "id": "19UzI11Wb8TNvcm8fRwHee",
+   "title": "A dead Christ seen feet-first",
+   "type": "video",
+   "place": "Pinacoteca di Brera art gallery",
+   "url": "https://www.youtube.com/watch?v=8e20mMzj5Ug",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4719,
+   "lon": 9.188
+  },
+  {
+   "id": "1dRsDqYiHlTH3ZAKV1LGnh",
+   "title": "A Last Supper painted on a monks’ dining-room wall",
+   "type": "video",
+   "place": "Santa Maria delle Grazie church",
+   "url": "https://www.youtube.com/watch?v=XCg7o4onjxs",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.466,
+   "lon": 9.1709
+  },
+  {
+   "id": "amdffiQWJR03DFXnBEJ1g",
+   "title": "A bishop’s fourth-century church, rebuilt in Romanesque brick",
+   "type": "video",
+   "place": "Basilica of Sant’Ambrogio",
+   "url": "https://www.youtube.com/watch?v=0DvwpJd8wRY",
+   "creator": null,
+   "channel": "Smarthistory",
+   "lat": 45.4624,
+   "lon": 9.1756
+  },
+  {
+   "id": "1hbLHZDAb3b4lvmVXvcxIN",
+   "title": "Why the furniture world descends on Milan each April",
+   "type": "podcast",
+   "place": "Fiera Milano exhibition grounds, Rho",
+   "url": "https://podcasts.apple.com/us/podcast/why-milan-design-week-is-such-a-big-deal/id1871205904?i=1000761934294",
+   "creator": null,
+   "channel": "Dezeen Weekly",
+   "lat": 45.5209,
+   "lon": 9.0834
+  },
+  {
+   "id": "j4OBoJhG9xXaVpqzxvtm9",
+   "title": "A poet’s canal and the writers around it",
+   "type": "podcast",
+   "place": "Alda Merini’s home, Naviglio Grande canal",
+   "url": "https://podcasts.apple.com/us/podcast/literature-in-milan-4-the-navigli-area/id1676136925?i=1000615811794",
+   "creator": null,
+   "channel": "Listen To MI",
+   "lat": 45.4521,
+   "lon": 9.1729
+  },
+  {
+   "id": "3hnV68D2cFLHZm0unuO4MK",
+   "title": "Art nouveau, Milan style, around Porta Venezia",
+   "type": "podcast",
+   "place": "Palazzo Castiglioni, Corso Venezia",
+   "url": "https://podcasts.apple.com/us/podcast/architecture-in-milan-1-the-liberty-style/id1676136925?i=1000619129045",
+   "creator": null,
+   "channel": "Listen To MI",
+   "lat": 45.4718,
+   "lon": 9.2012
+  },
+  {
+   "id": "2qErgJQVXsavvGu8qfimxH",
+   "title": "Sculpted family tombs in the city of the dead",
+   "type": "podcast",
+   "place": "Cimitero Monumentale cemetery",
+   "url": "https://podcasts.apple.com/us/podcast/stones-and-bones-ep-18-monumental-cemetery-in-milan/id917406066?i=1000758392538",
+   "creator": null,
+   "channel": "History Goes Bump",
+   "lat": 45.4857,
+   "lon": 9.1793
+  },
+  {
+   "id": "43aLCI5hVpzgnJAycvaVz2",
+   "title": "Forty minutes in front of the Last Supper",
+   "type": "podcast",
+   "place": "Last Supper refectory, Santa Maria delle Grazie",
+   "url": "https://podcasts.apple.com/us/podcast/leonardo-da-vinci-the-last-supper/id1573430649?i=1000721033441",
+   "creator": null,
+   "channel": "Painting of the Week Podcast",
+   "lat": 45.4657,
+   "lon": 9.1706
+  },
+  {
+   "id": "5YuA9WKlqT85Xj6ES5Mxcy",
+   "title": "An opera house named after the church it replaced",
+   "type": "podcast",
+   "place": "La Scala opera house",
+   "url": "https://podcasts.apple.com/us/podcast/symhc-classics-la-scala-opera-house/id283605519?i=1000664215895",
+   "creator": null,
+   "channel": "Stuff You Missed in History Class",
+   "lat": 45.4674,
+   "lon": 9.1895
+  },
+  {
+   "id": "4k6YcaZx1lpWGrtuQrcKgS",
+   "title": "Leonardo paints a castle hall into a forest",
+   "type": "podcast",
+   "place": "Sala delle Asse, Castello Sforzesco",
+   "url": "https://podcasts.apple.com/us/podcast/ep-66-leonardo-da-vinci-in-the-sforza-court/id1612265937?i=1000738069701",
+   "creator": null,
+   "channel": "The Italian Renaissance Podcast",
+   "lat": 45.4712,
+   "lon": 9.1801
+  },
+  {
+   "id": "v8aov5ZAHtz8qtV7ywzlu",
+   "title": "A mercenary becomes duke and builds a hospital for the poor",
+   "type": "podcast",
+   "place": "Ca’ Granda, the former Ospedale Maggiore",
+   "url": "https://podcasts.apple.com/us/podcast/152-duke-francesco-sforza-and-his-sex-crazed-son-1450-1568/id1318925583?i=1000597408903",
+   "creator": null,
+   "channel": "A History of Italy",
+   "lat": 45.4601,
+   "lon": 9.1942
+  },
+  {
+   "id": "3Im4mXBMP9PbP041sAvHGF",
+   "title": "A family of lords tightens its grip on the city",
+   "type": "podcast",
+   "place": "San Gottardo in Corte church",
+   "url": "https://podcasts.apple.com/us/podcast/113-the-definitive-death-of-communal-milan-1339-1354/id1318925583?i=1000520169849",
+   "creator": null,
+   "channel": "A History of Italy",
+   "lat": 45.4627,
+   "lon": 9.1928
+  },
+  {
+   "id": "2bCzXJI0PQQTCHaFxzXlyw",
+   "title": "Milan’s bishop bargains with a usurper",
+   "type": "podcast",
+   "place": "Basilica of Sant’Ambrogio",
+   "url": "https://podcasts.apple.com/us/podcast/155-the-new-bishop-of-milan/id261654474?i=1000343455208",
+   "creator": null,
+   "channel": "The History of Rome",
+   "lat": 45.4622,
+   "lon": 9.1758
+  },
+  {
+   "id": "2ReuRwovJxVIABlterZ9nb",
+   "title": "Young Fascists dig up Mussolini’s body and hide it for months",
+   "type": "podcast",
+   "place": "Cimitero Maggiore cemetery, Musocco",
+   "url": "https://podcasts.apple.com/us/podcast/230-the-adventures-of-mussolinis-corpse/id934222884?i=1000541154779",
+   "creator": null,
+   "channel": "The Weird History Podcast",
+   "lat": 45.5103,
+   "lon": 9.1222
+  },
+  {
+   "id": "7pTi57JvUilFYsLUQreyU0",
+   "title": "A blacksmith’s son founds Fascism in a Milan hall",
+   "type": "podcast",
+   "place": "Piazza San Sepolcro",
+   "url": "https://podcasts.apple.com/us/podcast/benito-mussolini-part-1-italys-fascist-godfather/id1516194847?i=1000677876583",
+   "creator": null,
+   "channel": "Real Dictators",
+   "lat": 45.4633,
+   "lon": 9.1847
+  },
+  {
+   "id": "5CzTPiREliD3DOb2irRRrp",
+   "title": "Cara Italia",
+   "type": "music",
+   "place": "Baggio district",
+   "url": "https://open.spotify.com/search/Ghali%20Cara%20Italia",
+   "creator": "Ghali",
+   "channel": null,
+   "lat": 45.46,
+   "lon": 9.087
+  },
+  {
+   "id": "3zsGQZrL5i6eHPu0SgTDjj",
+   "title": "Tran Tran",
+   "type": "music",
+   "place": "Piazza Gramsci, Cinisello Balsamo",
+   "url": "https://open.spotify.com/search/Sfera%20Ebbasta%20Tran%20Tran",
+   "creator": "Sfera Ebbasta",
+   "channel": null,
+   "lat": 45.5562,
+   "lon": 9.2148
+  },
+  {
+   "id": "z8O17vaOmZo3EjcfVtVWv",
+   "title": "1992",
+   "type": "tv",
+   "place": "Palace of Justice",
+   "url": "https://www.justwatch.com/us/search?q=1992",
+   "creator": "Giuseppe Gagliardi",
+   "channel": null,
+   "lat": 45.4614,
+   "lon": 9.201
+  },
+  {
+   "id": "1LPq1OWyYBRg7KO4xCKIPW",
+   "title": "Poem Strip",
+   "type": "book",
+   "place": "Corriere della Sera offices, Via Solferino",
+   "url": "https://goodreads.com/search?q=Dino+Buzzati+Poem+Strip",
+   "creator": "Dino Buzzati",
+   "channel": null,
+   "lat": 45.477,
+   "lon": 9.1868
+  },
+  {
+   "id": "3kFo78whlC3VyVc6TNgZoL",
+   "title": "The Betrothed",
+   "type": "book",
+   "place": "Casa del Manzoni museum, Via Morone",
+   "url": "https://goodreads.com/search?q=Manzoni+The+Betrothed",
+   "creator": "Alessandro Manzoni",
+   "channel": null,
+   "lat": 45.4686,
+   "lon": 9.192
   },
   {
    "id": "6IE8sgklWV0bNRFKwWtTcW",
    "title": "Confessions",
    "type": "book",
    "place": "Basilica of Sant’Ambrogio",
+   "url": "https://goodreads.com/search?q=Augustine+Confessions",
+   "creator": "Saint Augustine",
+   "channel": null,
    "lat": 45.4623,
    "lon": 9.1754
   }
